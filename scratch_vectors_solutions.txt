@@ -1,0 +1,2948 @@
+
+================ PAGE INDEX 23 ================
+ 
+ Vectors 21 
+ 
+ 
+ 
+ 
+ 
+ 
+Fundamentals of Vectors 
+ 
+ 
+1 d 2 b 3 c 4 d 5 d 
+6 a 7 a 8 b 9 b 10 d 
+11 d 12 d 13 a 14 b 15 c 
+16 c 17 a 18 b 19 c 20 c 
+21 d 22 d 23 b 24 d 25 b 
+26 b 27 a 28 a 29 a 30 d 
+31 a 32 b 33 a 34 a   
+ 
+ 
+Addition and Subtraction of Vectors 
+ 
+ 
+1 a 2 b 3 d 4 b 5 b 
+6 a 7 b 8 a 9 d 10 b 
+11 d 12 c 13 a 14 c 15 c 
+16 c 17 c 18 c 19 c 20 b 
+21 a 22 d 23 d 24 a 25 c 
+26 b 27 b 28 a 29 b 30 a 
+31 c 32 c 33 c 34 d 35 a 
+36 c 37 d 38 a 39 c 40 d 
+41 a 42 b 43 d 44 d 45 a 
+46 c 47 d 48 a 49 a 50 c 
+51 c 52 a 53 d     
+ 
+ 
+Multiplication of Vectors 
+ 
+ 
+1 c 2 b 3 d 4 a 5 a 
+6 b 7 c 8 b 9 b 10 d 
+11 b 12 d 13 c 14 d 15 c 
+16 c 17 b 18 c 19 b 20 a 
+21 a 22 c 23 a 24 b 25 c 
+26 d 27 d 28 b 29 b 30 b 
+31 d 32 c 33 d 34 b 35 d 
+36 b 37 a 38 b 39 a 40 a 
+41 d 42 d 43 c 44 b 45 a 
+46 a 47 a 48 d 49 d 50 a 
+51 b 52 b 53 d 54 a 55 c 
+56 d 57 a 58 b 59 c   
+ 
+ 
+Lami's Theorem 
+ 
+ 
+1 c 2 a 3 b 4 c 5 b 
+ 
+ 
+ 
+Relative Velocity 
+ 
+ 
+1 b 2 b 3 c 4 c 5 d 
+6 a 7 c 8 c 9 d 10 ac 
+11 b 12 b 13 d 14 b   
+ 
+ 
+Critical Thinking Questions 
+ 
+ 
+1 c 2 c 3 c 4 c 5 b 
+6 b 7 d 8 d 9 b 10 c 
+11 a 12 d 13 b 14 d   
+ 
+ 
+Assertion and Reason 
+ 
+ 
+1 a 2 a 3 d 4 b 5 c 
+6 b 7 a 8 b 9 a 10 c 
+11 b 12 e 13 a 14 c 15 a 
+16 b 17 c 18 b 19 b 20 c 
+21 a 22 c       
+ 
+ 
+ 
+ 
+ 
+ 
+Fundamentals of Vectors 
+ 
+1. (d) As the multiple of 
+jˆ  in the given vector is zero therefore this 
+vector lies in XZ plane and projection of this vector on y-axis is 
+zero. 
+2. (b) If a point have coordinate ( x, y , z) th en its position vector 
+.ˆˆˆ kzjyix 
+ 
+3. (c) Displacement vector 
+kzjyixr ˆˆˆ   
+ 
+kji ˆ)55(ˆ)34(ˆ)23( 
+ji ˆˆ   
+4. (d)  
+ 
+ 
+ 
+ 
+ 
+ The component of force in vertical direction  
+  =
+ 60coscos FF 
+N5.22
+15   
+5. (d) 
+22 )24(7|| B  
+625  
+25  
+  Unit vector in the direction of A will be 
+5
+ˆ4ˆ3ˆ jiA   
+  So required vector =
+
+
+
+
+
+ 
+5
+ˆ4ˆ325 ji  
+ji ˆ20ˆ15   
+6. (a) Let the components of 
+A  makes angles 
+, and 
+  with x, y 
+and z axis respectively then 
+   
+y 
+x 
+60o 
+F sin 60o 
+F cos 60o 
+F
+ 
+================ PAGE INDEX 24 ================
+ 
+  22 Vectors 
+  
+1coscoscos 222     
+  
+
+1cos3 2    
+3
+1cos    
+  
+3
+cos AAAAA zyx    
+7. (a) 
+kjiA ˆ5ˆ4ˆ2 
+  
+45)5()4()2(|| 222 A  
+  
+45
+5cos,
+45
+4cos,
+45
+2cos    
+8. (b) Unit vector along y axis 
+jˆ  so the required vector 
+)]ˆ7ˆ6ˆ3()ˆ2ˆ3ˆ[(ˆ kjikjij 
+kji ˆ5ˆ2ˆ4 
+  
+9. (b) 
+213 FFF
+
+  
+There should be minimum three coplaner 
+vectors having different magnitude which 
+should be added to give zero resultant 
+10. (d) Diagonal of the hall = 
+222 hbl   
+ 
+222 141210   
+ 
+196144100   
+ 
+m20400   
+11. (d) Total angle = 
+ 250100   
+So all the force will pass through one point and all forces will 
+be balanced. i.e. their resultant will be zero. 
+12. (d) 
+)ˆ0ˆ4ˆ4()ˆ0ˆ2ˆ2(12 kjikjirrr    
+  
+kjir ˆ0ˆ2ˆ6   
+  
+102404360)2()6(|| 222 r   
+13. (a) 
+jiP ˆ
+2
+1ˆ
+2
+1 
+ 
+22
+2
+1
+2
+1|| 
+
+
+
+
+
+
+
+
+
+P
+ = 1 
+  It is a unit vector. 
+14. (b)  
+15. (c) 
+Rˆ
+jiji
+R
+R ˆ
+2
+1ˆ
+2
+1
+11
+ˆˆ
+|| 22
+
+
+
+  
+16. (c) 
+kjiR ˆ2ˆˆ3 
+  
+  Length in XY plane = 
+2222 13  yx RR
+10  
+17. (a) If the angle between all forces which are equal and lying in one 
+plane are equal then resultant force will be zero. 
+18. (b) 
+jiA ˆˆ 
+  
+211|| 22 A  
+ 
+ 45cos
+2
+1
+||cos A
+Ax   
+ 45  
+19. (c)  
+20. (c)   
+21. (d) All quantities are tensors. 
+22. (d) 
+QQPPQP ˆˆ 
+  
+23. (b) 
+jtaitar ˆ)sin(ˆ)cos(    
+  
+jtaitadt
+rdv ˆcosˆsin  
+  
+ As 
+0. vr   therefore velocity of the particle is perpendicular 
+to the position vector. 
+24. (d) Displacement, electrical and acceleration are vector quantities. 
+25. (b) Magnitude of unit vector = 1 
+   
+1)8.0()5.0( 222  c  
+  By solving we get 
+11.0c  
+26. (b)  
+ 
+ 
+ 
+ 
+ 
+  Displacement 
+BCABAC   
+  
+mBCABAC 500)300()400()()( 2222   
+  Distance 
+mBCAB 700300400   
+27. (a) Resultant of vectors 
+A  and 
+B  
+  
+kjikjiBAR ˆ8ˆ3ˆˆ6ˆ3ˆ4   
+  
+kjiR ˆ2ˆ6ˆ3   
+  
+7
+ˆ2ˆ6ˆ3
+)2(63
+ˆ2ˆ6ˆ3
+||
+ˆ
+222
+kjikji
+R
+RR 
+
+    
+28. (a) 
+AB. .  In this formula 
+A  is a area vector. 
+29. (a) 
+cbar  
+kjiji ˆˆ2ˆ3ˆˆ4 
+kji ˆˆˆ   
+  
+3
+ˆˆˆ
+)1(11
+ˆˆˆ
+||
+ˆ
+222
+kjikji
+r
+rr 
+
+
+  
+30. (d) 
+2516925169
+25169
+||||
+.cos
+
+ BA
+BA =
+150
+50   
+
+1cos   
+  
+)1(cos 1  
+31. (a) 
+kjtitr ˆ7ˆ4ˆ3 22   
+  at 
+0t , 
+kr ˆ71   
+  at 
+sec10t , 
+kjir ˆ7ˆ400ˆ3002  , 
+   
+jirrr ˆ400ˆ30012    
+  
+mrrr 500)400()300(|||| 22
+12    
+32. (b) Resultant of vectors 
+A  and 
+B  
+  
+jijiBAR ˆ8ˆ8ˆ3ˆ4   
+ji ˆ5ˆ12   
+  
+22 )5()12(
+ˆ5ˆ12
+||
+ˆ
+
+ ji
+R
+RR
+13
+ˆ5ˆ12 ji   
+F3 
+ F2 
+ 
+F1 
+ 
+l b 
+h 
+D C 
+300 m 
+B 
+400 m 
+A 
+================ PAGE INDEX 25 ================
+ 
+ Vectors 23 
+33. (a) 
+2
+)ˆˆ()ˆ3ˆ2(
+||
+. jiji
+ji
+BA 
+
+
+2
+5
+2
+32   
+34. (a) 
+2516925169
+)ˆ5ˆ4ˆ3()ˆ5ˆ4ˆ3(
+||||
+.cos
+
+ kjikji
+BA
+BA  
+  
+050
+25169   
+   
+0cos  , 
+  
+ 90  
+ 
+Addition and Subtraction of Vectors 
+ 
+1. (a) For 17 N both the vector should be parallel i.e. angle between 
+them should be zero. 
+ For 7 N both the vectors should be antiparallel i.e. angle 
+between them should be 180° 
+ For 13 N both the vectors should be perpendicular to each 
+other i.e. angle between them should be 90° 
+2. (b) 
+jijijiBA ˆ5ˆ10ˆ8ˆ6ˆ3ˆ4   
+ 
+22 )5()10(||  BA  
+55  
+ 
+2
+1
+10
+5tan   
+
+
+
+
+
+ 
+2
+1tan 1  
+3. (d) From figure  
+ 
+jv ˆ201   and 
+iv ˆ202   
+ 
+)ˆˆ(2012 jivvv   
+ 
+220|| v and direction  
+ 
+  45)1(tan 1  i.e. S–W 
+4. (b) Let 
+1ˆn  and 
+2ˆn  are the two unit vectors, then the sum is  
+ 
+21 ˆˆ nnn s   or 
+cos2 21
+2
+2
+2
+1
+2 nnnnns   
+     
+cos211   
+ Since it is given that 
+sn  is als o a unit vector, therefore 
+cos2111 
+ 
+2
+1cos   
+ 120  
+ Now the difference vector is 
+21 ˆˆˆ nnnd   or 
+cos2 21
+2
+2
+2
+1
+2 nnnnnd 
+)120cos(211 
+ 
+  
+312)2/1(222 dn
+3 dn  
+5. (b) 
+)ˆ2ˆ6(3)ˆˆ3(2)ˆˆ2(32 kikjjiCBA   
+ 
+kikjji ˆ6ˆ18ˆ2ˆ6ˆˆ2  =
+kji ˆ4ˆ5ˆ20   
+6. (a) 
+jvmivmP ˆcosˆsin1     
+ and 
+jvmivmP ˆcosˆsin2    
+ So change in momentum  
+ 
+,ˆcos212 jvmPPP 
+cos2|| vmP   
+7. (b) 
+cos222 ABBAR   
+By substituting, 
+FBFA  ,  and 
+FR   we get  
+ 
+ 1202
+1cos   
+8. (a)  
+9. (d) If two vectors 
+A
+ and 
+B
+  are given then the resultant 
+maxR  = 
+NBA 7
+and 
+NR 134min    
+i.e. net force on the particle is between 1 N and 7 N. 
+10. (b) If 
+C
+  lies outside the plane then resultant force can not be 
+zero. 
+11. (d)   
+12. (c) 
+ 90cos2 21
+2
+2
+2
+1 FFFFF
+2
+2
+2
+1 FF   
+13. (a)  
+14. (c)  
+ 
+15. (c) 
+22 BAC   
+ The angle between A and B is 
+2
+  
+ 
+ 
+ 
+16. (c) 
+BAR
+
+ = 
+jiji ˆ4ˆ3ˆ7ˆ6  = 
+ji ˆ11ˆ9   
+  
+20212181119|| 22 R
+  
+17. (c) 
+mR 31.1420536251446512 222   
+18. (c) 
+kjiA ˆˆ2ˆ3 
+ , 
+kjiB ˆ5ˆ3ˆ 
+ , 
+kjiC ˆ4ˆˆ2 
+  
+141491)2(3|| 222 A
+
+ 
+3525915)3(1|| 222 B
+
+ 
+211614)4(12|| 222 A
+
+ 
+As 
+22 CAB  therefore ABC will be right angled 
+triangle. 
+19. (c)  
+20. (b) 
+BAC
+
+ .  
+ The value of C lies between 
+BA  and 
+BA  
+  
+||||or|||| BCAC
+
+  
+21. (a)   
+22. (d)  
+23. (d) Here all the three force will not keep the particle in equilibrium 
+so the net force will not be zero and the particle will move 
+with an acceleration. 
+24. (a) 
+16 BA  (given)    …(i) 
+ 
+ 90tancos
+sintan 
+ BA
+B   
+   
+0cos  BA  
+B
+Acos  …(ii) 
+O  
+– v1 v 
+v1 =20 m/s 
+v2 =20 m/s 
+A 
+C B 
+ 
+ 
+ 
+90° 
+================ PAGE INDEX 26 ================
+ 
+  24 Vectors 
+ 
+cos28 22 ABBA    …(iii) 
+ By solving eq. (i), (ii) and (iii) we get 
+,6 NA   
+NB 10  
+25. (c) 
+5|| P
+ , 
+12|| Q
+  and 
+13|| R
+  
+ 
+13
+12cos  R
+Q  
+   
+
+
+
+
+ 
+13
+12cos 1  
+26. (b) 
+cos22
+22 ABBAB    …(i) 
+  
+0coscos
+sin90tan  
+ BABA
+B  
+  
+B
+Acos  
+ Hence, from (i) 
+2324
+222
+2 BAABAB   
+  
+2
+3cos  B
+A  
+ 150  
+27. (b) 
+iRkjikji 
+
+)ˆˆˆ2()ˆ2ˆ2ˆ(  
+  Required vector 
+R
+ = 
+kji ˆˆˆ2   
+28. (a) Resultant 
+PQPQPR
+
+2  
+The angle between 
+P
+  and 
+P
+
+2  is zero. 
+29. (b)  
+ 
+ 
+ 
+ 
+  
+
+
+cos
+sin90tan QP
+Q
+  
+0cos  QP  
+ 
+Q
+Pcos  
+
+
+
+
+
+ 
+Q
+P1cos  
+30. (a) According to problem 
+1 and3  QPQP  
+By solving we get
+1 and2  QP  
+2Q
+P  
+QP 2  
+31. (c)  
+32. (c)  
+33. (c)  
+34. (d) 
+0321  FFF  
+0ˆ6ˆ4 3  Fji  
+ 
+jiF ˆ6ˆ43 
+  
+35. (a) 
+
+
+
+
+ 90sin22sin2 vvv   
+ 
+hrkm/2001002   
+36. (c)  
+37. (d) Resultant velocity
+22 1520    
+= 
+hrkm/25625225400   
+38. (a) 
+22 BAC   
+  =
+543 22   
+  
+  Angle between 
+A  and 
+B  is 
+2
+  
+39. (c)   
+40. (d)  
+ 
+ 
+ 
+ 
+  If the magnitude of vector remains same, only direction change 
+by 
+  then 
+  
+12 vvv  , 
+)( 12 vvv   
+  Magnitude of change in vector 
+
+
+
+
+ 2sin2|| vv  
+  
+
+
+
+
+ 
+2
+90sin102|| v = 
+210 = 
+sm /14.14  
+  Direction is south-west as shown in figure. 
+41. (a) 
+BCABAC   
+  
+22 )()( BCABAC   
+  
+22 )20()10(   
+  
+400100 
+500
+km36.22  
+42. (b) 
+||||
+.cos
+21
+21
+FF
+FF  
+  
+2252510040010025
+)ˆ15ˆ5ˆ10).(ˆ20ˆ10ˆ5(
+
+ kjikji
+350525
+3005050   
+   
+2
+1cos 
+  
+ 45  
+43. (d) If two vectors A and B are given then Range of their resultant 
+can be written as 
+)()( BARBA  . 
+  i.e. 
+BAR max  and 
+BAR min  
+  If B = 1 and A = 4 then their resultant will lies in between 3 N 
+and 5N. It can never be 2N. 
+44. (d) 
+NA 3 , 
+NB 2  then 
+cos222 ABBAR   
+  
+cos1249 R     …(i) 
+  Now 
+NA 6 , 
+NB 2  then  
+  
+cos244362 R    …(ii) 
+  from (i) and (ii) we get 
+2
+1cos 
+  
+ 120  
+45. (a) In N forces of equal magnit ude works 
+on a single point and their resultant is 
+Q R 
+P 
+ 
+ 
+ 
+ 
+Q 
+R 
+P 
+ 
+C 
+ 
+B 
+ 
+A 
+ 
+–v1 
+ v1 
+ 
+v 
+ 
+v2 
+ 
+ 
+E 
+N 
+S 
+W 
+20km 
+C B 
+A 
+10km 
+120° 
+120° 
+120° 
+F 
+F 
+F 
+================ PAGE INDEX 27 ================
+ 
+ Vectors 25 
+zero then angle between any two forces is given 
+N
+360
+ 1203
+360
+ 
+  If these three vectors are represented by three sides of triangle 
+then they form equilateral triangle 
+46. (c) Resultant of two vectors 
+A  and 
+B  can be given by 
+BAR 
+ 
+  
+cos2|||| 22 ABBABAR   
+  If 
+ 0  then 
+BAR ||
+|||| BA   
+47. (d) 
+17max  BAR  when 
+ 0  
+  
+7min  BAR  when 
+ 180  
+  by solving we get 
+12A  and 
+5B  
+  Now when 
+ 90  then 
+22 BAR   
+  
+22 )5()12( R
+169
+13  
+48. (a) If two vectors are perpendicular then their dot product must 
+be equal to zero. According to problem 
+  
+0)).((  BABA 
+0....  BBABBAAA  
+  
+022  BA 
+22 BA   
+  
+  
+BA  i.e. two vectors are equal to each other in 
+magnitude. 
+49. (a) 
+20yv  and 
+10xv  
+  
+  velocity 
+jiv ˆ20ˆ10   
+  direction of velocity with x axis 
+  
+210
+20tan 
+x
+y
+v
+v  
+  
+  
+)2(tan 1  
+50. (c) 
+BAR max  when 
+ 0
+  
+NR 20812max   
+51. (c) 
+cos222 ABBAR   
+  If 
+PBA   and 
+ 120  then 
+PR   
+52. (a) Sum of the vectors 
+jijiR ˆ7ˆ2ˆ8ˆ5 
+ji ˆ15ˆ7   
+  magnitude of 
+22549||  RR
+274  
+53. (d) 
+ 
+Multiplication of Vectors 
+ 
+1. (c) Given vectors can be rewritten as 
+kjiA ˆ8ˆ3ˆ2   and 
+kjiB ˆˆ4ˆ4 
+ 
+Dot product of these vectors should be equal to zero because 
+they are perpendicular. 
+  
+08128.  BA   
+48    
+2/1  
+2. (b) Let 
+kjiA ˆˆ3ˆ2   and 
+kjiB ˆˆ6ˆ4    
+ 
+A  and 
+B  are parallel to each other   
+ 
+3
+3
+2
+2
+1
+1
+b
+a
+b
+a
+b
+a   i.e. 
+
+1
+6
+3
+4
+2 
+2 . 
+3. (d) 
+cos. FSSFW   
+ 
+.2502
+1105060cos1050 J  
+4. (a) 
+12 rrS   
+ 
+SFW .  
+)ˆ15ˆ11ˆ11(.)ˆ3ˆˆ4( kjikji   
+ 
+.100)153111114( J  
+5. (a) 
+)( BA  is perpendicular to 
+)( BA . Thus 
+ 
+)( BA .
+)( BA  = 0  
+ or 
+0.. 22  BBAABA  
+ Because of commutative property of dot product  
+ABBA ..   
+ 
+
+022  BA  or 
+BA  
+ Thus the ratio of magnitudes A/B = 1 
+6. (b) Let 
+CAABA .).(   
+ Here 
+ABC   Which is perpendicular to both vector  
+ 
+A  and 
+B      
+0. CA  
+7. (c) We know that 
+)( ABBA   because the angle between 
+these two is always 90°.  
+ But if the angle between 
+A  and 
+B  is 0 or  .  Then 
+0 ABBA
+. 
+8. (b) 
+422
+213
+ˆˆˆ
+
+
+kji
+BA  
+kji ˆ)2123(ˆ)3422(ˆ)2241( 
+  
+kji ˆ8ˆ8ˆ8 
+ 
+ Magnitude of 
+222 )8()8()8(|BA|BA    
+ 
+38  
+9. (b) 
+Fr   
+432
+323
+ˆˆˆ
+
+
+kji  
+ 
+    ji ˆ)43()32(ˆ)33()42(   
+ 
+ kˆ)22()33( 
+kji ˆ13ˆ6ˆ17   
+10. (d) From the property of vector product, we notice that 
+C  must 
+be perpendicular to the plane formed by vector 
+A  and 
+B . 
+Thus 
+C  is perpendicu lar to both 
+A  and 
+B  and 
+)( BA
+vector also, must lie in the plane formed by vector 
+A  
+and 
+B . Thus 
+C  must be perpendicular to 
+)( BA  also but 
+ 
+vx 
+x 
+v 
+vy 
+y 
+================ PAGE INDEX 28 ================
+ 
+  26 Vectors 
+the cross product 
+)( BA  gives a vector 
+C  which can not be 
+perpendicular to itself. Thus the last statement is wrong. 
+11. (b) We know that, Angular momentum  
+ 
+prL   in terms of component becomes  
+ 
+zyx ppp
+zyx
+kji
+L
+ˆˆˆ
+  
+ 
+ As motion is in x-y plane ( z = 0 and 
+0zP ), so 
+)( xy ypxpkL 
+ 
+ Here x = vt, y = b, 
+vmp x   and 
+0yp  
+  
+  kmvbmvbvtkL ˆ0   
+12. (d) 
+)ˆ4ˆ3)(ˆ5ˆ2(. 21 kjkjFF 
+  
+ 
+26620206   
+13. (c) Force F lie in the x-y plane so a vector along z-axis will be 
+perpendicular to F. 
+14. (d) 
+090cos..cos.||.||.  BABABA
+
+  
+15. (c)  
+ 
+ 
+ 
+According to problem 
+|||| 2121 VVVV
+
+  
+ 
+|||| netnet VV
+
+  
+ So 
+1V  and 
+2V  will be mutually perpendicular.  
+16. (c) 
+7310)ˆˆ2)(ˆ3ˆ5(.  jijirFW  J. 
+17. (b) 
+0
+2114
+462
+||||
+.cos 
+BA
+BA 
+
+   
+ 90  
+18. (c) 
+10100)ˆˆ).(ˆˆ(  kjji  
+ 
+2
+1
+22
+1
+||||
+.cos 
+
+
+BA
+BA 
+
+  
+ 60  
+19. (b) 
+3)5()4(15620.  vFP   
+     
+45751201560120  J/s 
+20. (a) 
+1.cos  PQ
+QP
+
+  
+ 0  
+21. (a) 
+102030)ˆ5ˆ6)(ˆ4ˆ6ˆ5(.  kikjisFW J 
+22. (c) 
+0. BA
+  
+ 90  
+23. (a) 
+0. QP  
+0322  aa 
+3a  
+24. (b) 
+rFW 
+.
+150)ˆ10)(ˆ6ˆ15ˆ2(  jkji  
+25. (c) 
+tPx cos2 , 
+tPy sin2  
+jtitP ˆsin2ˆcos2 
+  
+ 
+jtitdt
+PdF ˆcos2ˆsin2 
+  
+ 
+0. PF
+ 
+ 90  
+26. (d) 
+|)ˆ4ˆ()ˆ3ˆ2(||| jijiBA 
+
+unitsk 5|ˆ5|   
+27. (d)  
+28. (b) 
+0 BA
+  
+0sin   
+ 0  
+ Two vectors will be parallel to each other. 
+29. (b) 
+BA
+
+  and 
+AB
+
+  are parallel and opposite to each other. So 
+the angle will be . 
+30. (b) Vector
+)( QP
+
+  lies in a plane and vector 
+)( QP
+
+  is 
+perpendicular to this plane i.e. the angle between given vectors 
+is 
+2
+ . 
+31. (d) 
+1cos32232 22    
+By solving we get
+ 180  
+0 BA
+  
+32. (c) Dot product of two perpendicular vector will be zero. 
+33. (d) 
+16164993636
+122442cos
+
+ AB
+BA
+
+
+719
+56  
+ 
+719
+56cos    
+3
+5sin   or 
+
+
+
+
+
+
+
+
+ 
+3
+5sin 1  
+34. (b) Direction of vector A is along z-axis 
+kaA ˆ
+  
+Direction of vector B is towards north  
+jbB ˆ
+  
+ Now 
+)ˆ(ˆˆ jabjbkaBA 
+  
+  The direction is 
+BA
+
+  is along west.  
+35. (d) 
+2
+1
+22
+1
+||||
+.cos 
+BA
+BA 
+
+ 
+ 60  
+36. (d) 
+)ˆ5ˆ4ˆ3()ˆ6ˆ5ˆ4( kjikjiAB  =
+kji ˆˆˆ   
+ 
+)ˆ3ˆ9ˆ7()ˆ6ˆ4( kjijiCD   
+kji ˆ3ˆ3ˆ3   
+ 
+AB  and 
+CD  are parallel, because its cross-products is 0. 
+37. (a) 
+SFW
+
+
+12)ˆ6ˆ3)(ˆ5ˆ4(  jiji  
+38. (b) 
+BABA
+
+.||  
+ cossin ABAB  
+1tan   
+  
+ 45  
+39. (a)  
+40. (a) 
+rv  
+kji
+kji
+ˆ4)3(ˆ)86(ˆ
+340
+221
+ˆˆˆ
+
+
+  
+ 
+kji
+
+432   
+ 
+222 4)3()2(|| v
+unit29  
+41. (d) 
+0. ba
+ i.e. 
+a and 
+b
+ will be perpendicular to each other  
+0. ca 
+i.e. 
+a and 
+c will be perpendicular to each other 
+m 
+O 
+x 
+y 
+b 
+v
+ 
+V1 
+V2 
+Vnet 
+ 
+ 
+ 
+–V2 
+V 'net 
+V1 
+ 
+ 
+ 
+================ PAGE INDEX 29 ================
+ 
+ Vectors 27 
+cb 
+
+will be a vector perpendicular to both 
+b
+  and
+c  
+So 
+a is parallel to 
+cb 
+  
+42. (d) Area 
+ji ˆ2ˆ2 
+kˆ4
+.4 unit  
+43. (c) 
+kjiA ˆˆ2ˆ2 
+ and 
+kjiB ˆ2ˆ3ˆ6 
+  
+ 
+   kjikjiBAC ˆ2ˆ3ˆ6ˆˆ2ˆ2 
+  
+ 
+236
+122
+ˆˆˆ
+
+
+kji
+kji ˆ18ˆ10ˆ   
+ Unit vector perpendicular to both 
+A
+  and 
+B
+  
+ 
+222 18101
+ˆ18ˆ10ˆ
+
+ kji
+175
+ˆ18ˆ10ˆ kji   
+44. (b) 
+kjA ˆ3ˆ
+ ,
+kjiB ˆˆ2ˆ 
+  
+ 
+BAC
+
+
+121
+310
+ˆˆˆ
+
+
+kji
+kji ˆˆ3ˆ7   
+ Hence area = 
+unitsqC 591949|| 
+  
+45. (a) 
+243
+121
+ˆˆˆ
+
+
+kji
+prL 
+kj ˆ2ˆ   
+i.e. the angular momentum is perpendicular to x-axis. 
+46. (a) 
+BA
+
+  is a vector perpendicular to  plane 
+BA
+
+  and hence 
+perpendicular to 
+BA
+
+ . 
+47. (a) 
+)ˆ5ˆˆ3()ˆˆ3ˆ7( kjikjiFr 
+  
+ 
+513
+137
+ˆˆˆ
+
+
+kji
+
+kji ˆ16ˆ38ˆ14   
+48. (d) 
+)()( BABA
+
+  
+BBABBAAA
+
+  
+ 
+00  ABBA
+
+)(2 ABABAB
+
+  
+49. (d) For perpendicular vector 
+0. BA  
+   
+0)ˆˆ2ˆ2).(ˆ3ˆ7ˆ5(  kajikji  
+   
+031410  a
+  
+8a  
+50. (a) 
+a
+F||
+onAccelerati
+ForceMass
+
+  
+ = 
+1
+1006436 
+kg210  
+51. (a) Area of parallelogram 
+BA  
+  
+)ˆˆ2ˆ3()ˆ3ˆ2ˆ( kjikji   
+  
+123
+321
+ˆˆˆ
+
+
+kji
+kji ˆ)8(ˆ)8(ˆ)8(   
+  Magnitude 
+646464  =
+38  
+52. (b) Radius vector 
+)ˆˆˆ2()ˆˆ3ˆ2(12 kjikjirrr   
+   
+jr ˆ4  
+  Linear momentum 
+kjip ˆˆ3ˆ2   
+  
+)ˆˆ3ˆ2()ˆ4( kjijprL    
+  
+132
+040
+ˆˆˆ
+
+
+kji
+ki ˆ8ˆ4   
+53. (d) 
+665
+143
+ˆˆˆ
+
+
+kji
+rv  
+kji ˆ2ˆ13ˆ18   
+54. (a)  
+55. (c) 
+cos. ABBA   
+  In the problem 
+ABBA . i.e. 
+1cos   
+ 180  
+  i.e. 
+A  and 
+B  acts in the opposite direction. 
+56. (d) 
+).(3|| BABA   
+  
+ cos3sin ABAB 
+  
+3tan  
+ 60  
+  Now 
+cos2|||| 22 ABBABAR   
+  
+
+
+
+
+ 2
+1222 ABBA
+2/122 )( ABBA   
+57. (a) 
+)ˆ3ˆ2ˆ4).(ˆ2ˆˆ3(. kjikjcisFW 
+6212  c  
+  Work done 
+J6  (given)  
+  
+  
+66212  c
+  
+12c  
+58. (b) 
+sFW .
+)ˆˆ2).(ˆ3ˆ5( jiji 
+310  = 
+J7  
+59. (c) 
+nABBA ˆsin  
+  for parallel vectors 
+ 0  or 
+180 , 
+0sin   
+================ PAGE INDEX 30 ================
+ 
+  28 Vectors 
+  
+  
+0ˆ BA  
+   
+Lami's Theorem 
+ 
+1. (c) 
+ 150sinsinsin 21
+RQP
+  
+ 
+ 150sinsin
+93.1
+1
+R
+  
+ 
+19659.0
+5.093.1
+sin
+150sin93.1
+1
+ R  
+2. (a) According to Lami's theorem 
+ 
+ sinsinsin
+RQP    
+3. (b)   
+4. (c)   
+5. (b)  
+ 
+ 
+ 
+ 
+ From the figure 
+3030sin oT   …(i) 
+                          
+WT o 30cos  …(ii) 
+ By solving equation (i) and (ii) we get  
+ 
+NW 330  and 
+NT 60    
+ 
+Relative Velocity 
+ 
+1. (b) The two car (say A and B) are moving with same velocity, the 
+relative velocity of one (say B) with respect to the other 
+0,  vvvvvA ABBA
+ 
+ So the relative separation between them (= 5 km) always 
+remains the same. 
+ Now if the velocity of car (say C) moving in opposite direction 
+to A and B, is 
+Cv  relative to ground then the velocity of car C 
+relative to A and B will be 
+vvv Crel .  
+ But as 
+v  is opposite to v
+C
+  
+ So 
+./)30()30( hrkmvvv Ccrel   
+ So, the time taken by it to cross the cars A and B   
+30
+5
+60
+4
+
+Crel vv
+dt
+ 
+ 
+./45 hrkmvC   
+2. (b) When the man is at rest w.r.t. the ground, the rain comes to 
+him at an angle 30° with the vertical. This is the direction of 
+the velocity of raindrops with respect to the ground. 
+ Here 
+rgv velocity of rain with respect to the ground    
+ 
+mgv  velocity of the man with respect to the ground. 
+ and 
+rmv velocity of the rain with respect to the man, 
+ We have 
+mgmrgr vvv   ......(i) 
+ Taking horizontal components equation (i) gives  
+ 
+hrkmvv gmgr /1030sin    
+ or  
+hrkmv gr /20
+30sin
+10 
+
+  
+3. (c)  Taking vertical components equation (i) gives 
+hrkmvv rmrg /3102
+32030cos 
+ 
+4. (c) Relative velocity = (3i + 4j) – (– 3i – 4j)  = 6i  + 8j 
+5. (d) Relative velocity of parrot with respect to train  
+ =
+sec/15105)10(5 m  
+ Time taken by the parrot
+.sec1015
+150
+rel.
+ v
+d   
+6. (a)  
+ 
+ 
+ 
+ 
+  For shortest time, swimmer should swim along AB, so he will 
+reach at point C due to the velocity of river. 
+ i.e. he should swim due north. 
+7. (c)  
+  
+ 
+ 
+ 
+m
+ro
+v
+v30sin
+22
+1 m
+r
+vv  =
+2
+5.0
+sm/25.0  
+8. (c) 
+ AB vv   
+hrkmvv AB /1456580    
+9. (d) Relative speed of police with respect to thief 
+ 
+sm/1910   
+ Instantaneous separation = 100 m 
+ Time = 
+.sec1001
+100
+veclotiy
+distance   
+10. (a,c)  
+11. (b) A man is sitting in a bus and travelling from west to east, and 
+the rain drops are appears falling vertically down. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+mv  velocity of man 
+  
+rv  Actual velocity of rain which is falling at an angle 
+  
+with vertical 
+  
+rmv  velocity of rain w.r.t. to moving man 
+  If th e another man observe the rain then he will find that 
+actually rain falling with velocity 
+rv  at an angle going from 
+west to east. 
+12. (b) Boat covers distance of 16km in a still water in 2 hours.  
+150o 
+ 
+P 
+ Q 
+ 
+R 
+ 
+1 
+ 
+2 
+ 
+30N 
+ 
+W 
+ 
+30° 
+ 
+T 
+ Tcos 30° 
+ 
+Tsin 30° 
+vm 
+vr 
+30° 
+90° 
+–vm 
+ vm 
+ 
+vr 
+ 
+vrm 
+ 
+ 
+ 
+A 
+B 
+ 
+C 
+================ PAGE INDEX 31 ================
+ 
+ Vectors 29 
+  i.e. 
+hrkmv B /82
+16   
+  Now velocity of water 
+hrkmvw /4 . 
+  Time taken for going upstream  
+  
+wB vvt  8
+1
+hr248
+8   
+  (As water current oppose the motion of boat) 
+  Time taken for going down stream  
+  
+wB vvt  8
+2
+hr12
+8
+48
+8   
+  (As water current helps the motion of boat) 
+   
+  Total time 
+hrtt 
+
+
+
+  12
+8221  or 2hr 40min 
+13. (d) Relative velocity 
+sm /15510  . 
+  Time taken by the bird to cross the train
+sec815
+120   
+14. (b) 
+rbbr vvv   
+  
+22
+rbbr vvv   
+  
+22810 rv  
+  
+hrkmvr /6 . 
+ 
+Critical Thinking Questions 
+ 
+1. (c) 
+ sinsinsin 22   
+ 222 cos1cos1cos1 
+ 
+ 
+)coscos(cos3 222  
+213   
+2. (c) If vectors are of equal magnitude then two vectors can give  
+zero resultant, if they works in opposite direction. But if the vectors 
+are of dif ferent magnitudes then minimum three vectors are 
+required to give zero resultant.  
+3. (c)  
+4. (c) Let P be the smaller force and Q be the greater force then 
+according to problem – 
+ P + Q = 18    ......(i) 
+ 
+12cos222  PQQPR   .......(ii) 
+ 
+ 90tancos
+sintan 
+ QP
+Q  
+  
+0cos    QP    .......(iii) 
+ By solving (i), (ii) and (iii) we will get 
+,5P  and 
+13Q  
+5. (b) From the figure 
+aOA ||  and 
+aOB ||  
+ Also from triangle rule 
+aABOAOB   
+ABa  ||
+ 
+ Using angle 
+radius
+arc  
+    AB = a . d 
+ So 
+daa  ||  
+ 
+a  means change in magnitude of vector i.e. 
+|||| OAOB   
+0 aa
+ 
+ So 
+0a  
+6. (b) 
+)12(222
+net  RRRRRRR  
+7. (d)  
+8. (d) 
+
+
+
+
+  45sin22
+90sin2 vvv
+vv 2
+2
+12   
+ 
+scmr /30`
+2
+60
+2122    
+ 
+9. (b) 
+
+
+
+
+ 45sin522sin2 vv =
+2
+10  
+  
+2/
+2
+1
+10
+2/10 smt
+va 
+  
+10. (c) For motion of the particle from (0, 0) to (a, 0) 
+ 
+)ˆˆ0( jaiKF 
+jKaF ˆ  
+ Displacement  
+iajijiar ˆ)ˆ0ˆ0()ˆ0ˆ(   
+ So work done from (0, 0) to (a, 0) is given by  
+ 
+rFW .
+0ˆ.ˆ  iajKa  
+ For motion (a, 0) to (a, a) 
+ 
+)ˆˆ( jaiaKF   and displacement  
+ 
+jajiajaiar ˆ)ˆ0ˆ()ˆˆ(   
+ So work done from (a, 0) to (a, a) 
+rFW .   
+ 
+2ˆ.)ˆˆ( KajajaiaK   
+ So total work done
+2Ka  
+11. (a) Given 
+kjiaOA ˆ2ˆ6ˆ3   and 
+kjibOB ˆ2ˆˆ2   
+ 
+212
+263
+ˆˆˆ
+)(
+
+
+kji
+ba  
+ 
+kji ˆ)123(ˆ)64(ˆ)212(   
+ 
+kji ˆ15ˆ10ˆ10 
+222 151010||  ba   
+ 
+425  
+175  
+ Area of 
+2
+175||2
+1  baOAB sq.unit. 
+12. (d)  
+ 
+ 
+ 
+ 
+  As the metal sphere is in equilibrium under the effect of three 
+forces therefore 
+0 WPT  
+From the figure 
+WT cos   …(i) 
+                          
+PT sin   …(ii) 
+ From equation (i) and (ii) we get 
+tanWP   
+  and 
+222 WPT   
+13. (b)  
+14. (d)  
+ 
+ 
+Assertion and Reason 
+ 
+vbr 
+vb 
+vr 
+B 
+A 
+O 
+a 
+a 
+d 
+a
+ 
+P 
+ W 
+ 
+ 
+ 
+T 
+ Tcos 
+ 
+Tsin 
+ 
+================ PAGE INDEX 32 ================
+ 
+  30 Vectors 
+1 (a) Cross product of two vector s is perpendicular to the plane 
+containing both the vectors.  
+2 (a) 
+2
+1
+|ˆ||ˆˆ|
+)ˆ).(ˆˆ(cos 
+
+
+iji
+iji . Hence 
+.45   
+3 (d) 
+nAB
+nAB
+BA
+BA ˆtancos
+ˆsin
+.
+
+ 
+  
+  where 
+nˆ  is unit vector perpendicular to both 
+A
+  and 
+B
+ . 
+However 
+tan
+.
+|| 
+BA
+BA 
+  
+4 (b) 
+|||| BABA
+
+  
+  
+cos222 ABBA  = 
+cos222 ABBA   
+ Hence 
+0cos   which gives 
+ 90  
+ Also vector addition is commutative.  
+ Hence 
+.ABBA
+
+  
+5 (c) 
+rv     
+ The expression 
+rv    is wrong. 
+6 (b) For giving a zero resultant, it should be possible to represent 
+the given vectors along the sides of a closed polygon and 
+minimum number of sides of a polygon is three. 
+7 (a) Since velocities are in opposite direction, therefore 
+BABAAB vvvvv  || 
+. 
+ Which is greater than 
+Av  or 
+Bv  
+8 (b) Vector addition of two vectors is commutative 
+i.e.
+.ABBA
+
+  
+9 (a)  
+10 (c) Cross-product of two vectors is anticommutative.  
+i.e. 
+ABBA
+
+  
+11 (b)  
+12 (e) If a vector quantity has zero magnitude then it is called a null 
+vector. That quantity may have some direction even if its 
+magnitude is zero. 
+13 (a) Let  
+P
+  and 
+Q
+  are two vectors in opposite direction, then 
+their sum 
+QPQP
+
+ )(  
+If 
+QP
+
+ then sum equal to zero. 
+14 (c) If two vectors are in opposite direction, then they cannot be 
+like vectors. 
+15 (a) If  be the angle between two vectors 
+A
+  and 
+B
+ , then their 
+scalar product, 
+cos. ABBA 
+   
+ If 
+ 90  then 
+0. BA
+   
+ i.e. if 
+A
+  and 
+B
+  are perpendicular to each other th en their 
+scalar product will be zero. 
+16 (b) We can multiply any vector by any scalar.  
+ For example, in equation 
+amF 
+  mass is a scalar quantity, 
+but acceleration is a vector quantity.  
+17 (c) If two vectors equal in ma gnitude are in opposite direction, 
+then their sum will be a null vector.  
+ A null vector  has direction which is intermediate (or depends 
+on direction of initial vectors) even its magnitude is zero. 
+18 (b) 
+0cos||||.  BABA
+  
+ 
+0sin||||  BABA
+  
+ If 
+A
+  and 
+B
+  are not null vectors then it follows that 
+sin  
+and 
+cos  both should be zero simultaneously. But it cannot 
+be possible so it is essential that one of the vector must be null 
+vector. 
+19 (b)  
+20 (c) The resultant of two vectors of unequal magnitude given by 
+cos222 ABBAR 
+ cannot be zero for any value of 
+. 
+21 (a) 
+CBBA
+
+..    
+21 coscos  BCAB    
+  A = C, only when 
+21    
+ So when angle be tween 
+A
+ and 
+B
+  is equal to angle between 
+B
+
+ and 
+C
+  only then 
+A
+  equal to 
+C
+  
+22 (c) Since vector addition is commutative, therefore 
+.ABBA
+
+
+ 
+================ PAGE INDEX 33 ================
+ 
+ Vectors 31 
+ 
+ 
+ 
+ 
+ 
+ 
+1. 
+kcji ˆˆ8.0ˆ4.0   represents a unit vector when c is  
+(a) – 0.2 (b) 
+2.0  
+ (c) 
+8.0  (d) 0  
+2. The angles which a vector 
+kji ˆ2ˆˆ   makes with X, Y and Z axes 
+respectively are 
+(a) 60°, 60°, 60° (b) 45°, 45°, 45° 
+ (c) 60°, 60°, 45° (d) 45°, 45°, 60°  
+3. The value of a unit vector in the direction of vector 
+,ˆ12ˆ5 jiA   
+is  
+(a) 
+iˆ  (b) 
+jˆ  
+(c) 
+13/)ˆˆ( ji  (d) 
+13/)ˆ12ˆ5( ji   
+4. Which of the following is independent of the choice of co -ordinate 
+system    
+(a) 
+RQP
+
+  (b) 
+iRQP xxx
+ˆ)(   
+(c) 
+kRjQiP zyx
+ˆˆˆ   (d) None of these 
+5. A car travels 6 km towards north at an angle of 45° to the east and 
+then travels distance of 4 km towards north at an angle of 135° to 
+the east. How far is the point from the starting point. What angle 
+does the straight line joining its initial and final position makes with 
+the east  
+(a) 
+km50  and 
+)5(tan 1    
+(b) 10 km and 
+)5(tan 1  
+(c) 
+km52 and 
+)5(tan 1   
+(d) 
+km52  and 
+)5(tan 1  
+6. Given that 
+CBA  = 0 out of three vectors two are equal in 
+magnitude and the magnitude of third vector is 
+2  times that of 
+either of the two having equal magnitude. Then the angles between 
+vectors are given by 
+(a) 30°, 60°, 90° (b) 45°, 45°, 90°  
+(c) 45°, 60°, 90° (d) 90°, 135°, 135° 
+7. Two forces 
+NF 11  and 
+NF 22  act along the lines x = 0 and y 
+= 0 respectively. Then the resultant of forces would be  
+(a) 
+ji ˆ2ˆ   (b) 
+ji ˆˆ   
+(c) 
+ji ˆ2ˆ3   (d) 
+ji ˆˆ2   
+8. At what angle must the two for ces (x + y) and (x – y) act so that 
+the resultant may be 
+)( 22 yx   
+(a) 
+
+
+
+
+
+
+
+
+)(2
+cos 22
+22
+1
+yx
+yx  (b) 
+
+
+
+
+
+
+
+
+22
+22
+1 )(2cos
+yx
+yx  
+(c) 
+
+
+
+
+
+
+
+
+22
+22
+1cos
+yx
+yx  (d) 
+
+
+
+
+
+
+
+
+22
+22
+1cos
+yx
+yx   
+9. Following forces start acting on a particle at rest at the origin of the 
+co-ordinate system simultaneously 
+kjiF ˆ5ˆ5ˆ41 
+, 
+kjiF ˆ6ˆ8ˆ52  , 
+kjiF ˆ7ˆ4ˆ33   
+and 
+kjiF ˆ2ˆ3ˆ24   then the particle will move 
+(a) In x – y plane (b) In y – z plane 
+(c) In x – z plane (d)  Along x -axis 
+10. The r esultant of 
+BA  is 
+.1R  On reversing the vector 
+,B the 
+resultant becomes 
+.2R What is the value of 
+2
+2
+2
+1 RR   
+(a) 
+22 BA   (b) 
+22 BA   
+(c) 
+)(2 22 BA   (d) 
+)(2 22 BA   
+11. Figure below shows a body of mass M moving with the uniform 
+speed on a circular path of radius, R. What is the change in 
+acceleration in going from 
+1P  to 
+2P  
+(a) Zero 
+(b) 
+Rv 2/2  
+(c) 
+Rv /2 2  
+(d) 
+2
+2
+R
+v  
+12. A particle is moving on a circular path of radius r  with uniform 
+velocity v. The change in velocity when the particle moves from P to 
+Q is 
+)40( POQ  
+ 
+(a) 
+40cos2v  
+(b) 
+40sin2v  
+(c) 
+20sin2v  
+(d) 
+20cos2v   
+13. 
+kjiA ˆ4ˆ4ˆ2   and 
+kjiB ˆ4ˆ2ˆ4   are two vectors. 
+The angle between them will be  
+(a) 0° (b) 45° 
+(c) 60° (d) 90° 
+14. If 
+kji ˆˆ3ˆ2   and 
+kjiB ˆ4ˆ3ˆ   then projection of 
+A  
+on 
+B  will be 
+(a) 
+13
+3  (b) 
+26
+3  
+ 
+P1 
+ 
+P2 
+ 
+R 
+ 
+v 
+ 
+40o 
+ 
+P 
+ 
+Q 
+ 
+r 
+ 
+v 
+ 
+v 
+ 
+O 
+ 
+================ PAGE INDEX 34 ================
+ 
+  32 Vectors 
+(c) 
+26
+3  (d) 
+13
+3  
+15. In above example a unit vector perpendicular to both 
+A  and 
+B  
+will be  
+(a) 
+)ˆˆˆ(
+3
+1 kji   (b) 
+)ˆˆˆ(
+3
+1 kji   
+(c) Both (a) and (b) (d) None of these  
+16. Two constant forces 
+kjiF ˆ3ˆ3ˆ21  (N) and 
+kjiF ˆ2ˆˆ
+2 
+(N) act on a body and displace it from the position 
+kjir ˆ2ˆ2ˆ
+1 
+(m) to the position 
+kjir ˆ5ˆ10ˆ72  (m). 
+What is the work done  
+(a) 9 J (b) 41 J 
+(c) – 3 J (d) None of these  
+17. For any two vectors 
+A  and 
+B , if 
+|,|. BABA   the 
+magnitude of 
+BAC   is equal to  
+(a) 
+22 BA   (b) 
+BA  
+(c) 
+2
+22 ABBA   (d) 
+ABBA  222   
+18. Which of the following is the unit vector pe rpendicular to 
+A  and 
+B
+  
+(a) 
+sin
+ˆˆ
+AB
+BA  (b) 
+cos
+ˆˆ
+AB
+BA  
+(c) 
+sinAB
+BA  (d) 
+cosAB
+BA   
+19. Two vectors 
+kjbiP ˆ2ˆˆ2   and 
+kjiQ ˆˆˆ   will be parallel 
+if  
+(a) b = 0 (b) b = 1 
+(c) b = 2   (d) b= – 4  
+20. Which of the following is not true ? If 
+jiA ˆ4ˆ3   and 
+jiB ˆ8ˆ6 
+ where A and B  are the magnitudes of 
+A and 
+B  
+(a) 
+0 BA  (b) 
+2
+1B
+A  
+(c) 
+48. BA  (d) A = 5  
+21. The area of the triangle formed by 
+kji ˆˆˆ2   and 
+kji ˆˆˆ   is 
+(a) 3 sq.unit  
+(b) 
+32  sq. unit 
+(c) 
+142  sq. unit  
+(d) 
+2
+14  sq. unit  
+22. Two trains along the same straight rails moving with constant speed 
+60 km/hr and 30 km/hr respectively towards each other. If at time 
+0t
+, the distance between them is 90 km, the time when they 
+collide is 
+(a)  1 hr (b) 2 hr 
+(c) 3 hr (d) 4 hr 
+23. A steam boat goes across a lake and comes back (a) On a quite day 
+when the water is still and (b) On a rough day when there is 
+uniform air current so as to help the journey onward and to impede 
+the journey back. If the speed of the launch on both days was same, 
+in which case it will complete the journey in lesser time 
+ (a) Case (a)  
+(b) Case (b) 
+ (c) Same in both  
+(d) Nothing can be predicted  
+24. To a person, going eastward in a car with a velocity of 25 km/hr, a 
+train appears to move towards north with a velocity of 
+325  
+km/hr. The actual velocity of the train will be  
+(a) 25 km/hr (b) 50 km/hr 
+(c) 5 km/hr (d) 
+35  km/hr 
+25. A swimmer can swim in still water with speed  and the river is 
+flowing with velocity v/2. To cross the river in shortest distance, he 
+should swim making angle  with the upstream. What is the ratio of 
+the time taken to swim across the shortest time to that is swimming 
+across over shortest distance 
+(a) cos  (b) sin   
+(c) tan   (d) cot  
+26. A bus is moving with a velocity 10 m/s on a straight road. A 
+scooterist wishes to overtake the bus in 100 s. If the bus is at a 
+distance of 1 km from the scooterist, with what velocity should the 
+scooterist chase the bus  
+(a) 50 m/s (b) 40 m/s 
+(c) 30 m/s (d) 20 m/s 
+ 
+ 
+ 
+ 
+ (SET -0) 
+================ PAGE INDEX 35 ================
+ 
+ Vectors 33 
+1. (b) 
+1)8.0()4.0( 222  c  
+  
+164.016.0 2  c  
+2.0c  
+2. (c) 
+kjiR ˆ2ˆˆ 
+  
+Comparing the given vector with 
+kRjRiRR zyx
+ˆˆˆ    
+2,1,1  zyx RRR
+and 
+222|| zyx RRRR 
+ = 2 
+ 
+ 602
+1cos  R
+Rx  
+ 
+ 602
+1cos  R
+Ry  
+ 
+ 45
+2
+1cos  R
+Rz  
+3. (d) 
+jiA ˆ12ˆ5 
+ ,
+22 )12(5|| A
+ =
+14425
+13  
+ Unit vector 
+||
+ˆ
+A
+AA 
+
+ =
+13
+ˆ12ˆ5 ji   
+4. (a) 
+5. (c)  
+ 
+ 
+ 
+ 
+ 
+ 
+ Net movement along x-direction S
+x
+ = (6 – 4) cos 45° 
+iˆ   
+                  
+km2
+2
+12   
+ Net movement along y-direction S
+y
+ = (6 + 4) sin 45°
+jˆ   
+   
+km25
+2
+110   
+ Net movement from starting point  
+ 
+22|| yx SSS 
+   
+22
+252  =
+km52  
+ Angle which makes with the east direction  
+ 
+com ponentX
+com ponentYtan 
+  
+2
+25   
+)5(tan 1  
+6. (d)  
+ 
+ 
+ 
+ 
+ 
+ From polygon law, three vectors having summation zero should 
+form a closed polygon. (Triangle) since the two vectors are 
+having same magnitude and the third vector is 
+2  times that 
+of either of two having equal magnitude. i.e. the triangle should 
+be right angled triangle 
+ Angle between A and B,  = 90º 
+ Angle between B and C,  = 135º   
+ Angle between A and C,  = 135º 
+7. (d) x = 0 means y-axis 
+jF ˆ1   
+ y = 0 means x-axis  
+iF ˆ22    
+ so resultant 
+jiFFF ˆˆ221   
+8. (a) 
+cos2222 ABBAR   
+Substituting, 
+)( yxA  ,
+)( yxB   and 
+)( 22 yxR    
+ we get 
+
+
+
+
+
+
+
+
+
+ 
+)(2
+)(cos 22
+22
+1
+yx
+yx  
+9. (b) 
+4321 FFFF
+
+  
+ = 
+)ˆ2ˆ3ˆ5ˆ4( iiii 
+)ˆ3ˆ4ˆ8ˆ5( jjjj   
+    
+)ˆ2ˆ7ˆ6ˆ5( kkkk 
+kj ˆ2ˆ4   
+  the particle will move in y – z plane. 
+10. (c) 
+BAR
+
+1 , 
+BAR
+
+2  
+ 
+2
+22
+2
+222
+2
+2
+1 
+
+ 
+
+  BABARR =
+ 222 BA   
+11. (d) 
+
+
+
+
+ 2sin2 aa = 
+ 45sin2a
+R
+va
+2
+22   
+12. (b) 
+
+
+
+
+ 20sin22sin2 vvv   
+13. (c) 
+||.||||.||
+.cos 332211
+B
+bababa
+B
+B
+
+
+
+  
+ 
+0
+||.||
+442442 
+BA  
+ 
+)0(cos 1    
+ 90  
+14. (b) 
+222 )1(32|| 
+194   
+14  
+ 
+222 43)1(|| B  
+1691   
+26  
+ 
+3)4()1(33)1(2. BA  
+ The projection of 
+BA on  
+||
+.
+B
+BA  
+26
+3  
+15. (c) 
+)ˆˆˆ(
+3
+1
+38
+ˆ8ˆ8ˆ8
+||
+ˆ kjikji
+BA
+BAn 
+
+  
+ There are two unit vectors perpendicular to both 
+A  and 
+B  
+they are 
+)ˆˆˆ(
+3
+1ˆ kjin   
+4 km 
+6 km 
+45o 
+E(X) W 
+N 
+S (Y) 
+O 
+A 
+C B 
+ 
+ 
+ 
+================ PAGE INDEX 36 ================
+ 
+  34 Vectors 
+16. (a) 
+)( 12 rrFW   
+ 
+971618)ˆ7ˆ8ˆ6)(ˆˆ2ˆ3(  kjikji J 
+17. (d) 
+ sincos ABAB  
+1tan   
+ 45  
+  
+ 45cos2|| 22 ABBAC
+ABBA 222   
+18. (c) Vector perpendicular to A and B, 
+nABBA ˆsin
+  
+  Unit vector perpendicular to A and B 
+ 
+sin||||
+ˆ
+BA
+BAn 
+
+
+  
+19. (c) P and Q will be parallel if 
+1
+2
+11
+2  b  
+2b  
+20. (b) 
+5|| A
+ , 
+10|| B
+  
+2
+1
+B
+A  
+21. (d) 
+kjiBkjiA ˆˆˆ,ˆˆˆ2 
+  
+Area of the triangle 
+ BA
+
+ 2
+1  
+111
+112
+ˆˆˆ
+2
+1 
+kji
+kji ˆˆ3ˆ2
+2
+1 
+194
+2
+1 
+ 
+unitsq.
+2
+14
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22. (a) The relative velocity 
+./90)30(60. hrkmvrel   
+ Distance between the train 
+,90. kmsrel    
+ 
+  Time when they collide 
+.190
+90
+.
+. hrv
+s
+rel
+rel   
+23. (b) If the breadth of the lake is l and velocity of boat is v
+b
+. Time in 
+going and coming back on a quite day  
+ 
+bbb
+Q
+v
+l
+v
+l
+v
+lt 2    .....(i) 
+ Now if v
+a
+ is the velocity of air- current then time taken in going 
+across the lake, 
+ 
+ab vv
+lt 1             [As current helps the motion]  
+ and time taken in coming back 
+ab vv
+lt 2   
+[As current opposes the motion] 
+ So 
+21 tttR 
+])/(1[
+2
+2
+bab vvv
+l
+
+  .....(ii) 
+ From equation (i) and (ii) 
+ 
+]11 as[1
+])/(1[
+1
+2
+2
+2 
+
+
+b
+a
+baQ
+R
+v
+v
+vvt
+t    i.e. 
+QR tt    
+ i.e. time taken to complete the journey on quite day is lesser 
+than  that on rough day. 
+24. (a)  
+22
+CTCT vvv  =
+22
+)25()325(   
+ = 
+6251875  =
+2500  = 25 km/hr 
+25. (b)  
+26. (d) Let the velocity of the scooterist =v 
+ Relative velocity of scooterist with respect to bus
+)10(  v  
+ 
+100)10(  vS
+100)10(1000  v  
+ 
+smv /201010   
+ 
+ 
+ 
+ 
+ 
+ *** 

@@ -1,0 +1,232 @@
+ 
+  112 Motion in one Dimension 
+)(2)(2
+1 2
+2
+2
+ag
+utag 
+ 
+ag
+ag
+ag
+u
+agag
+ut 
+
+
+
+ )())((
+2
+ 
+
+12 tt 
+ because 
+agag 
+11  
+9. (c) Vertical component of velocities of both the balls are same and 
+equal to zero. So 
+g
+ht 2    
+10. (d) The separation between the two bodies, two seconds after the 
+release of second body 
+                      
+m5.24])2()3[(8.92
+1 22    
+11. (b) Time of flight 
+secg
+u 2010
+10022    
+12. (a) 
+mgth 80)4(102
+1
+2
+1 22   
+13. (d) Let the body after time 
+2/t be at x from the top, then   
+ 
+842
+1 22 gttgx     …(i) 
+ 
+2
+2
+1 gth    …(ii) 
+ Eliminate t from (i) and (ii), we get 
+4
+hx   
+ 
+  Height of the body from the ground 
+4
+3
+4
+hhh     
+14. (b) By applying law of conservation of energy  
+ 
+RgvmvmgR 22
+1 2   
+15. (c) Acceleration of body along AB  is 
+cosg  
+ Distance travelled in time t sec =
+2)cos(2
+1 tgAB    
+ From
+2cos2
+1cos2;cos2, tgRRABABC    
+  
+g
+Rt 42  or 
+g
+Rt 2  
+16. (c) Force down the plane
+sinmg  
+ 
+  Acceleration down the plane 
+sing  
+ Since 
+2sin2
+10 tgl   
+ 
+
+g
+ht
+g
+h
+g
+lt 2
+sin
+1
+sin
+2
+sin
+2
+2
+2
+    
+17. (a) 
+22
+2
+3280962
+1 ttgtuth   
+ 
+20652  ttt sec or 3 sec 
+18. (b) 
+sec/32132 fttgv    
+19. (b) 
+ghuv 222   
+g
+uhghuu
+2
+22 42)()3(   
+20. (c) 
+g
+ht 2  and h and g are same.   
+21. (b) Time of flight 
+secg
+u 632
+9622   
+22. (c) Total distance 
+ggt 2
+25
+2
+1 2   
+ Distance moved in 3 sec 
+g2
+9  
+ Remaining distance 
+g2
+16  
+ If t is the time taken by the stone to reach the ground for the 
+remaining distance then 
+ 
+sec42
+1
+2
+16 2  tgtg   
+23. (a) Height travelled by ball (with balloon) in 2 sec 
+ 
+mtah 8.929.42
+1
+2
+1 22
+1   
+ Velocity of the balloon after 2 sec 
+ 
+smtav /8.929.4   
+ Now if the ball is released from the balloon then it acquire 
+same velocity in upward direction.  
+ Let it move up to maximum height 
+2h  
+ 
+2
+22 2ghuv    
+2
+2 )8.9(2)8.9(0 h
+
+2h =4.9m 
+ Greatest height above the ground reached by the ball 
+mhh 7.149.48.921 
+ 
+24. (b) Let h distance is covered in n sec 
+ 
+2
+2
+1 gnh    …(i) 
+ Distance covered in 
+thn sec
+)12(2
+1  ng  
+ 
+)12(225
+9  ngh    …(ii) 
+ From (i) and (ii), 
+mh 5.122  
+25. (c) 
+2
+2
+1 gtuth 
+secttt 4.5102
+11281 2   
+26. (d) The initial velocity of aeroplane is horizontal, then the vertical 
+component of velocity of packet will be zero.  
+So 
+g
+ht 2     
+27. (b) Time taken by first drop to reach the ground 
+g
+ht 2  
+  
+10
+52 t
+sec1  
+ As the water drops fall at regular intervals from a tap therefore 
+time difference between any two drops 
+sec2
+1  
+ In this given time, distance of second drop from the 
+tap
+mg 25.15
+5
+2
+1
+2
+1
+2
+
+
+
+
+  
+ Its distance from the ground 
+m75.325.15    
+28. (c) 
+smutgtuth /9.4sec,3,2
+1 2   
+ 
+mh 4.2999.439.4     
+29. (a) Horizontal velocity of dropped packet 
+u  
+Vertical velocity 
+gh2  
+
+ Resultant velocity at earth 
+ghu 22   

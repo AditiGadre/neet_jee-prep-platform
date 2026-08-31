@@ -1,0 +1,222 @@
+ 
+ Motion in One Dimension 105 
+ 
+ 
+ 
+ 
+ 
+ 
+Distance and Displacement 
+ 
+1. (a)  
+kzjyixr ˆˆˆ    
+
+222 zyxr     
+ r
+m2101086 222   
+2. (a) 
+jir ˆ10ˆ20       
+
+5.221020 22 r m 
+3. (c) From figure, 
+jiOA 300  , 
+jiAB 020   
+  
+ 
+ 
+ 
+ 
+ 
+icosBC o45230
+jo45sin230  
+ji 3030   
+  Net displacement, 
+BCABOAOC   
+ji 010   
+                                  
+.10 mOC   
+4. (a) An aeroplane flies 400 m north and 300 m south so the net 
+displacement is 100 m towards north.  
+ Then it flies 1200 m upward so 
+22 )1200()100( r   
+                                                                     
+mm 1200~1204 
+ 
+    The option should be 1 204 m, because this value mislead one 
+into thinking that net displacement is in upward direction only. 
+5. (b) Total time of motion is 2 min 20 sec = 140 sec.  
+ As time period of circular motion is 40 sec  so in 140 sec. 
+athlete will complete 3.5 revolution i.e., He will be at 
+diametrically opposite point i.e., Displacement = 2R.    
+6. (c)  Horizontal distance covered by the wheel in half revolution = 
+.R
+ 
+ 
+ 
+ 
+ 
+ So the displacement of the point which was initially in contact 
+with ground = AA' = 
+22 )2()( RR        
+         =
+42 R
+42     
+)1( mRAs   
+ 
+Uniform Motion 
+ 
+1. (d) As  the total distance is divided into two equal parts therefore 
+distance averaged speed  
+21
+212
+vv
+vv
+   
+2. (d) 
+B
+A
+B
+A
+v
+v
+
+
+tan
+tan  
+
+ 60tan
+30tan
+3
+1
+3
+3/1   
+3. (b) Distance average speed
+21
+212
+vv
+vv
+  
+3020
+30202
+
+   
+ 
+hrkm /245
+120   
+4. (b) Distance average speed 
+21
+212
+vv
+vv
+
+45.2
+45.22
+
+  
+ 
+hrkm /13
+40
+65
+200   
+5. (c) Distance average speed
+21
+212
+vv
+vv
+
+5030
+50302
+
+      
+ 
+hrkm /5.372
+75   
+6. (d) Average speed
+Total tim e
+ distanceTotal 
+21 tt
+x
+   
+ 
+21
+3/23/
+v
+x
+v
+x
+x
+
+
+hrkm /36
+603
+2
+203
+1
+1 
+
+   
+7. (a) Time average speed = 
+
+2
+4080
+2
+21 vv
+hrkm /60 .  
+8. (b) Distance travelled by train in first 1 hour is 60 km and distance 
+in next 1/2 hour is 20 km. 
+So Average speed
+2/3
+2060
+ Total tim e
+ distanceTotal   
+           
+hourkm /33.53  
+9. (d) 
+10. (c) Total distance to be covered for crossing the bridge 
+  = length of train + length of bridge  
+ 
+mmm 1000850150   
+ 
+sec80
+18
+545
+1000
+ Velocity
+ Distance Tim e 
+
+    
+11. (c) Displacement of the particle will be zero because it comes back 
+to its starting point  
+ 
+smsec
+m /310
+30
+ Total tim e
+ distanceTotal  speed Average   
+12. (d) Velocity of particle
+ Total tim e
+ tdiplacem enTotal   
+ 
+sm /45
+102
+5
+circleof Diam eter    
+13. (d) A man walks from his home to market with a speed of 
+hkm /5
+.Distance
+km5.2  and time
+hrv
+d
+2
+1
+5
+5.2  . 
+2R 
+A' Final 
+A R Initial 
+230
+ 
+30 m 
+A 20 m B 
+45° 
+C O 

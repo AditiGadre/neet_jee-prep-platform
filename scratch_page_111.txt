@@ -1,0 +1,223 @@
+ 
+ Motion in One Dimension 111 
+Relative Motion 
+ 
+1. (b) Time
+sec425
+100
+1510
+5050
+  velocityRelative
+ lengthTotal 
+   
+2. (d) Total distance 
+m250120130   
+Relative velocity 
+sm /50)20(30   
+Hence 
+st 550/250   
+3. (b) Relative velocity of bird w.r.t train
+sm /30525   
+ time taken by the bird to cross the train  
+sect 730
+210   
+4. (a) Effective speed of the bullet 
+ = speed of bullet + speed of police jeep 
+ 
+smsmhkmsm /5.192/)5.12180(/45/180   
+ Speed of thief ’s jeep 
+smhkm /5.42/153   
+ Velocity of bullet w.r.t thief ’s car
+5.425.192  =150m/s  
+5. (c) Given 
+AB Velocity of boat= 8 km/hr 
+ 
+AC Resultant velocity of boat = 
+10 km/hr 
+ 
+BC Velocity of 
+river
+22 ABAC   
+ 
+hrkm /6)8()10( 22   
+6. (d) Relative velocity  
+ 
+secm /15510   
+ 
+
+sect 1015
+150   
+7. (b) The relative velocity of boat w.r.t. water  
+ 
+waterboat vv 
+)ˆ4ˆ3()ˆ4ˆ3( jiji 
+ji ˆ8ˆ6   
+8. (a) When two particles moves towards eac h other then 
+621  vv
+ ...(i) 
+When these particles moves in the same direction then 
+421  vv
+ ...(ii) 
+ By solving 
+51 v  and 
+smv /12   
+9. (d) For the round trip he should cross perpendicular to the ri ver 
+
+Time for trip to that side 
+hr.
+km/hr
+km 250
+4
+1   
+ To come back, again he take 0.25 hr to cross the river.  
+ Total time is 30 min, he goes to the other bank and come back 
+at the same point. 
+10. (c) Relativistic momentum 
+22
+0
+/1 cv
+vm
+
+  
+  If velocity is doubled then the relativistic mass also increases. 
+Thus value of linear momentum will be more than double. 
+11. (c) For shortest possible path man should swim with an angle 
+(90+) with downstream.  
+From the fig, 
+2
+1
+10
+5sin 
+m
+r
+v
+v
+ 
+  
+   = 30° 
+ So angle with downstream 
+= 
+ 1203090   
+12. (b)  
+tcct vvv   
+)( tcct vvv 
+ 
+ 
+ 
+ Velocity of car w.r.t. train 
+)( ctv  is towards West – North 
+13. (a) As the trains are moving in the same direction. So the initial 
+relative speed 
+)( 21 vv   and by applying retardation final 
+relative speed becomes zero. 
+  From 
+atuv    
+atvv  )(0 21   
+a
+vvt 21   
+ 
+Motion Under Gravity 
+  
+1. (c) 
+smu /12 , 
+2sec/8.9 mg  , 
+sec10t  
+ Displacement 
+2
+2
+1 gtut   
+                       
+m6101008.92
+11012    
+2. (b) Velocity at the time of striking the floor, 
+ 
+smghu /14108.922 1   
+ Velocity with which it rebounds. 
+ 
+smghv /75.28.922 2   
+ 
+  Change in velocity 
+smv /21)14(7   
+ 
+  Acceleration 
+2/210001.0
+21 smt
+v 
+  (upwards)  
+3. (d) Let t be the time of flight of the first body after meeting, then 
+)4( t
+sec will be the time of flight of the second body. Since 
+21 hh 
+ 
+ 
+
+22 )4(2
+1)4(982
+198  tgtgtt  
+ On solving, we get 
+12t seconds   
+4. (c) 
+ghtgth /22
+1 2   
+ 
+b
+a
+t
+t
+g
+btg
+at
+b
+a
+ba  2and2  
+5. (b) 
+snngg 5)12(2)3(2
+1 2    
+6. (a) Time taken by first stone to reach the water surface from the 
+bridge be t, then 
+ 
+22 8.92
+101.442
+1 ttgtuth   
+ 
+sect 38.9
+1.442   
+ Second stone is thrown 1 sec later and both strikes 
+simultaneously. This means that the time left for s econd stone 
+sec213 
+ 
+ Hence 
+2)2(8.92
+121.44  u   
+ 
+smuu /25.1226.191.44    
+7. (a)   
+8. (b) Let the initial velocity of ball be u 
+Time of rise 
+ag
+ut 1 and height reached 
+)(2
+2
+ag
+u
+  
+Time of fall 
+2t  is given by  
+A 
+ 
+B C 
+vm 
+W E 
+ 
+vR 
+vR 
+45° 
+v
+c 
+– v
+t
+ 
+v
+t 
+ctv
+ 

@@ -1,0 +1,289 @@
+ 
+  TThermodynamics 655  
+(1) Carnot designed a theoretical engine which is free from all the 
+defects of a practical engine. T his engine cannot be realised in actual 
+practice, however, this can be taken as a standard against which the 
+performance of an actual engine can be judged. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+It consists of the following parts 
+(i) A cylinder with perfectly non -conducting walls and a perfectly 
+conducting base containing a perfect gas as working substance and fitted 
+with a non-conducting frictionless piston 
+(ii) A source of infinite thermal capacity maintained at constant higher 
+temperature T
+1. 
+(iii) A sink of infinite thermal capacity maintained at constant lower 
+temperature T
+2
+. 
+(iv) A perfectly non-conducting stand for the cylinder. 
+(2) Carnot cycle : As the engine works, the working substance of the 
+engine undergoes a cycle known as Carnot cycle. The Carnot cycle consists 
+of the following four strokes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (i) First stroke (Isothermal expansion) (curve AB) : 
+The cylinder containing ideal gas as working substance allowed to 
+expand slowly at this constant temperature T
+1
+. 
+Work done = Heat absorbed by the system 
+
+
+
+
+
+ 
+1
+2
+111 log
+2
+1 V
+VRTdVPQW e
+V
+V
+Area ABGE   
+(ii) Second stroke (Adiabatic expansion) (curve BC) :  
+The cylinder is then placed on the non conducting stand and the gas is 
+allowed to expand adiabatically till the temperature falls from T
+1
+ to T
+2
+. 
+
+3
+2
+2
+V
+V
+dVPW
+= 
+ ][)1(
+21 TTR
+ Area BCHG  
+(iii) Third stroke (Isothermal compression) (curve CD) :  
+The cylinder is placed on the sink and the gas is compressed at 
+constant temperature T
+2
+. 
+Work done = Heat released by the system 
+             
+3
+4
+223 log
+4
+3 V
+VRTdVPQW e
+V
+V
+   
+                  
+CDFHV
+VRT e  Arealog
+4
+3
+2   
+(iv) Fourth stroke (adiabatic compression) (curve DA) : Finally the 
+cylinder is again placed on non -conducting stand and the compression is 
+continued so that gas returns to its initial stage. 
+)(1
+124
+1
+4
+TTRdVPW
+V
+V
+  
+ADFETTR  Area)(1
+21  
+ 
+(3) Efficiency of Carnot cycle : The efficiency of engine is defined as 
+the ratio of work done to the heat supplied i.e. 
+ 
+1input Heat
+doneWork 
+Q
+W  
+Net work done during the complete cycle 
+)()( 4321 WWWWW 
+ABCDWW  Area31 
+ 
+[As 
+42 WW  ] 
+  
+1
+2
+1
+3
+1
+21
+1
+31
+1
+11 Q
+Q
+W
+W
+Q
+QQ
+W
+WW
+Q
+W      
+or  
+)/(log
+)/(log1
+121
+432
+VVRT
+VVRT
+e
+e   
+Since points B and C lie on same adiabatic curve   
+   
+1
+32
+1
+21
+   VTVT  or 
+1
+2
+3
+2
+1
+
+
+
+
+
+
+
+
+V
+V
+T
+T   …..(i) 
+Also point D and A lie on the same adiabatic curve   
+ 
+1
+42
+1
+11
+   VTVT  or 
+1
+1
+4
+2
+1
+
+
+
+
+
+
+
+
+V
+V
+T
+T   …..(ii) 
+From (i) and (ii), 
+1
+4
+2
+3
+V
+V
+V
+V   or 
+1
+2
+4
+3
+V
+V
+V
+V   
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+4
+3 loglog V
+V
+V
+V
+ee  
+So efficiency of Carnot engine 
+1
+21 T
+T  
+(i) Efficiency of a heat engine depends only on temperatures of source and 
+sink and is independent of all other factors. 
+(ii) All reversible heat engines working between same temperatures are 
+equally efficient and no heat engine can be more efficient than Carnot 
+engine (as it is ideal). 
+(iii) As on Kelvin scale, temperature can never be negative (as 0 K is 
+defined as the lowest possible temperature) and T
+l
+ and T
+2
+ are finite, 
+efficiency of a heat engine is always lesser than unity, i.e., whole of heat can 
+never be converted into work which is in accordance with second law. 
+(4) Carnot theorem : The efficiency of Carnot’s heat engine depends 
+only on the temperature of source ( T
+1
+) and temperature of sink ( T
+2
+), i.e., 
+1
+21 T
+T
+. 
+Carnot stated that no heat engine working between two given 
+temperatures of so urce and sink can be more efficient than a perfectly 
+reversible engine (Carnot engine) working between the same two 
+Source 
+T1 K 
+Insulating 
+stand 
+Sink 
+T2 K 
+Ideal gas 
+Fig. 14.31 
+Q1 
+Q2 
+W = Q1 –  Q2 
+P 
+V 
+T2 
+T1 
+C(P3, V3) 
+A(P1, V1) 
+(P4, V4)D 
+E F G H 
+Fig. 14.32 

@@ -1,0 +1,121 @@
+ 
+ Units, Dimensions and Measurement 59 
+7. Assertion  :  Parallex method cannot be used for measuring 
+distances of stars more than 100 light years away. 
+ Reason  :  Because pa rallex angle reduces so much that it 
+cannot be measured accurately. 
+8. Assertion  :  Number of significant figures in 0.005 is one and 
+that in 0.500 is three. 
+ Reason  :  This is because zeros are not significant. 
+9. Assertion  : Out of three measurements l = 0.7 m;                l 
+= 0.70 m and l = 0.700 m, the last one is most 
+accurate. 
+ Reason  :  In every measurement, only the last significant digit 
+is not accurately known. 
+10. Assertion  : Mass, length and time are fundamental physical 
+quantities. 
+ Reason  :  They are independent of each other. 
+11. Assertion  : Density is a derived physical quantity.  
+ Reason  :  Density cannot be derived from the fundamental 
+physical quantities. 
+12. Assertion  : Now a days a standard metre is defined as in terms 
+of the wavelength of light.  
+ Reason  :  Light has no relation with length.  
+13. Assertion  : Radar is used to detect an aeroplane in the sky 
+ Reason  :  Radar works on the principle of reflection of waves. 
+14. Assertion  : Surface tension and surface energy have the same 
+dimensions.  
+ Reason  :  Because both have the same S.I. unit 
+15. Assertion  : In
+),sin( kxtAy  
+)( kxt is dimensionless. 
+ Reason  :  Because dimension of 
+].[ 00 TLM  
+16. Assertion  : Radian is the unit of distance.  
+ Reason  :  One radian is the angle subtended at the centre of 
+a circle by an arc equal in length to the radius of 
+the circle. 
+17. Assertion  : A.U. is much bigger than Å. 
+ Reason  :  A.U. stands for astronomical unit and Å stands 
+from Angstrom. 
+18. Assertion  : When we change the unit of measurement of a  
+quantity, its numerical value changes. 
+ Reason  :  Smaller the unit of measurement smaller is its 
+numerical value.  
+19. Assertion  : Dimensional constants are the quantities whose 
+value are constant. 
+ Reason  :  Dimensional constants are dimensionless. 
+20. Assertion  : The time period of a pendulum is given by the 
+formula, 
+lgT /2 .  
+ Reason  :  According to the principle of homogeneity of 
+dimensions, only that formula is correct in which 
+the dimensions of L.H.S. is equal to dimensions of 
+R.H.S. 
+21. Assertion  : In the relation 
+,2
+1
+m
+T
+lf  where symbols have 
+standard meaning, m represent linear mass density. 
+ Reason  :  The frequency has the dimensions of inverse of 
+time. 
+22. Assertion  : The graph between P and Q is straight line, when 
+P/Q is constant. 
+ Reason  :  The straight line graph means that P proportional 
+to Q or P is equal to constant multiplied by Q. 
+23. Assertion  : Avogadro number is the number of atoms in one 
+gram mole. 
+ Reason  :  Avogadro number is a dimensionless constant. 
+24. Assertion  : L/R and CR both have same dimensions. 
+ Reason  :  L/R and CR both have dimension of time.  
+25. Assertion  : The quantity 
+)/1( 00  is dimensionally equal to 
+velocity and numerically equal to velocity of light.  
+ Reason  :  
+0  is permeability of free space and 
+0 is the 
+permittivity of free space. 
+ 
+ 
+ 
+ 
+ 
+ 
+Units 
+ 
+1 c 2 b 3 d 4 c 5 c 
+6 d 7 c 8 d 9 c 10 c 
+11 a 12 c 13 c 14 b 15 d 
+16 d 17 c 18 a 19 b 20 d 
+21 d 22 a 23 a 24 b 25 d 
+26 b 27 d 28 d 29 d 30 b 
+31 a 32 b 33 a 34 b 35 a 
+36 b 37 a 38 b 39 b 40 b 
+41 d 42 c 43 c, b 44 c 45 b 
+46 a 47 c 48 c 49 a 50 a 
+51 b 52 b 53 c 54 c 55 c 
+56 c 57 b 58 a 59 c 60 a 
+61 c 62 c 63 d 64 d 65 b 
+66 c 67 a 68 b 69 c 70 b 
+71 d 72 b 73 b 74 d 75 c 
+76 b 77 b 78 b 79 c 80 c 
+81 a 82 a 83 d 84 c 85 b 
+86 d 87 d 88 b 89 a 90 c 
+91 a 92 d 93 b 94 a 95 d 
+96 a 97 b 98 a 99 d 100 b 
+101 d 102 d 103 a 104 a 105 d 
+106 b 107 b 108 b 109 b   
+ 
+Dimensions 
+ 
+1 a 2 c 3 b 4 a 5 b 
+6 c 7 c 8 b 9 ad 10 a 
+11 d 12 b 13 a 14 a 15 a 
+16 b 17 b 18 d 19 a 20 c 
+21 b 22 a 23 b 24 d 25 a 
+26 d 27 a 28 d 29 d 30 d 
+31 c 32 c 33 a 34 a 35 b 
+36 b 37 c 38 c 39 a 40 b 
+41 a 42 b 43 d 44 d 45 a 

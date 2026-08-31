@@ -1,0 +1,111 @@
+ 
+  Waves and Sound 857 
+ (d) Only the quality of sound will change 
+9. A whistle sends out 256 waves in a second. If the whistle approaches 
+the observer with velocity 1/3 of the velocity of sound in air, the 
+number of waves per second the observer will receive [MP PET 1990; DPMT 2002] 
+ (a) 384 (b) 192 
+ (c) 300 (d) 200 
+10. A person feels 2.5% difference of frequency of a motor -car horn. If 
+the motor-car is moving to the person and the velocity of sound is 
+320 m/sec, then the velocity of car will be  [CPMT 1981; MP PET 1989] 
+ (a) 8 m/s (approx.) (b) 800 m/s 
+ (c) 7 m/s (d) 6 m/s (approx.) 
+11. Two passenger trains moving with a speed of 108 km/hour cross 
+each other. One of them blows a whistle whose frequency is 750 Hz. 
+If sound speed is 330 m/s, then passengers sitting in the other train, 
+after trains cross each other will hear sound whose frequency will be  
+     [MP PMT 1991] 
+ (a) 900 Hz (b) 625 Hz 
+ (c) 750 Hz (d) 800 Hz 
+12. With what velocity an observer should move relative to a stationary 
+source so that he hears a sound of double the frequency of source   [MP PMT 1991] 
+ (a) Velocity of sound towards the source 
+ (b) Velocity of sound away from the source 
+ (c) Half the velocity of sound towards the source 
+ (d) Double the velocity of sound towards the source 
+13. A source of sound emitting a note of  frequency 200 Hz moves 
+towards an observer with a velocity v equal to the velocity of sound. 
+If the observer also moves away from the source with the same 
+velocity v, the apparent frequency heard by the observer is  [MP PMT 1990] 
+ (a) 50 Hz (b) 100 Hz 
+ (c) 150 Hz (d) 200 Hz 
+14. Doppler's effect will not be applicable when the velocity of sound 
+source is 
+ (a) Equal to that of the sound velocity 
+ (b) Less than the velocity of sound 
+ (c) Greater than the velocity of sound 
+ (d) Zero 
+15. An observer while going on scoo ter hears sound of two sirens of 
+same frequencies from two opposite directions. If he travels along 
+the direction of one of the siren, then he 
+ (a) Listens resonance 
+ (b) Listens beats 
+ (c) Will not listen sound due to destructive interference 
+(d) Will listen intensive sound due to constructive interference 
+16. A source of sound is travelling towards a stationary observer. The 
+frequency of sound heard by the observer is of three times the 
+original frequency. The velocity of sound is v m/sec. The speed of 
+source will be 
+     [MP PET 1991] 
+ (a) 
+v3
+2  (b) v 
+ (c) 
+v2
+3  (d) 3v 
+17. A sound source is moving towards a stationary observer with 1/10 of 
+the speed of sound. The ratio of apparent to real frequency is   
+[CPMT 1977; NCERT 1977; KCET 2001, 03] 
+ (a) 10/9 (b) 11/10 
+ (c) 
+2)10/11(  (d) 
+2)10/9(  
+18. The speed of sound in air at a given temperature  is 350 m/s. An 
+engine blows whistle at a frequency of 1200 cps. It is approaching 
+the observer with velocity 50 m/s. The apparent  frequency in cps 
+heard by the observer will be 
+   [CPMT 1976; RPET 1999; BHU 1997, 2001]  
+ (a) 600 (b) 1050 
+ (c) 1400 (d) 2400 
+19. Suppose that the speed of sound  in air at a given temperature  is 
+400 m/sec. An engine blows a whistle at 1200 Hz frequency. It is 
+approaching an observer at the speed of 100 m/sec. What is the 
+apparent frequency as heard by the observer  [CPMT 1983; DPMT 2001] 
+ (a) 600 Hz (b) 1200 Hz 
+ (c) 1500 Hz (d) 1600 Hz 
+20. A source of frequency 150 Hz is moving  in the direction  of a 
+person with  a velocity of 110 m/s. The frequency heard by the 
+person will be (speed of sound in medium = 330 m/s)  [CPMT 1989; RPET 2001] 
+ (a) 225 Hz (b) 200 Hz 
+ (c) 150 Hz (d) 100 Hz 
+21. The Doppler's effect is applicable for  
+     [AFMC 1998] 
+ (a) Light waves (b) Sound waves 
+ (c) Space waves (d) Both (a) and (b) 
+22. A source of sound is moving with constant velocity of 20 m/s 
+emitting a note of frequency 1000 Hz. The ratio of frequencies 
+observed by a stationary observer while the source is approaching 
+him and after it crosses him will be 
+  [MP PET 1994] 
+ (a) 9 : 8 (b) 8 : 9 
+ (c) 1 : 1 (d) 9 : 10 
+ (Speed of sound v = 340 m/s) 
+23. A source of sound S is moving with a velocity 50 m/s towards a 
+stationary observer. The observer measures the frequency of the 
+source as 1000 Hz. What will be the apparent frequency of the 
+source when it is moving away from the observer after crossing him 
+? The velocity of sound in the medium is 350 m/s   [MP PMT 1994] 
+ (a) 750 Hz (b) 857 Hz 
+ (c) 1143 Hz (d) 1333 Hz 
+24. A source and listener  are both moving towards each other with 
+speed v/10, where v is the speed of sound. If the frequency of the 
+note emitted by the source is f, the frequency heard by the listener 
+would be nearly 
+   [MP PMT 1994; MP PET 2001] 
+ (a) 1.11 f (b) 1.22 f 
+ (c) f (d) 1.27 f 
+25. A table is revolving on its axis at 5 revolutions per second. A sound 
+source of frequency 1000 Hz is fixed on the table at 70 cm from the 
+axis. The minimum frequency heard by a listener standing at a 
+distance from the table will be (speed of sound = 352 m/s)   [MP PET 1996] 

@@ -1,0 +1,247 @@
+ 
+  114 Motion in one Dimension 
+ 
+2
+2
+2 uHg
+uH  , So if velocity is doubled then height will 
+become four times. i.e. 
+mH 80420    
+52. (a) When the stone is released from the balloon. Its height 
+math 40)8(25.12
+1
+2
+1 22 
+ and velocity  
+ 
+smatv /10825.1    
+ Time taken by the stone to reach the ground  
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ )10(
+401021110
+10211 2v
+gh
+g
+vt =4 sec 
+53. (d) At highest point 
+0v and
+g
+uH 2
+2
+max   
+54. (d) 
+smghu /20201022   
+ and 
+410
+2022  g
+uT sec  
+55. (d) If 
+1t  and 
+2t are the time, when body is at the same height 
+then,
+212
+1 ttgh
+gg 10102
+2
+1   
+56. (c) Speed of the object at reaching the ground 
+ghv 2    
+ If heights are equal then velocity will also be equal.  
+57. (b) 
+mS rd 35)132(2
+10103   
+ 
+mS nd 25)122(2
+10102    
+5
+7
+2
+3 
+nd
+rd
+S
+S  
+58. (c) 
+ghuvghuv 22 222   
+ so for both the cases velocity will be equal.   
+59. (b) 
+2
+1
+2
+1 gth  , 
+2
+2
+2
+150 gtth   
+ 
+ 
+ 
+ 
+ 
+  
+ Given 
+mhh 10021    
+sec210050  tt  
+60. (b) 
+mg
+uH 6.198.92
+6.196.19
+2
+2
+max 
+   
+61. (c) Maximum height of ball = 5 m 
+So velocity of projection 
+
+ghu 2
+sm /10  
+Time interval between two balls (time of ascent) 
+minsecg
+u
+60
+11 
+. 
+So number of ball thrown per min. = 60 
+62. (b) Let height of minaret is H and body take time T to fall from 
+top to bottom. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2
+2
+1 gTH     …(i)  
+ In last 2 sec. body travels distance of 40meter so in 
+)2( T sec 
+distance travelled 
+mH )40(  . 
+ 
+2)2(2
+1)40(  TgH    …(ii) 
+ By solving (i) and (ii) 
+3T sec and 
+mH 45 . 
+63. (c) 
+)12(  nS n . In equal time interval of 2 seconds 
+Ratio of distance 
+5:3:1  
+64. (c) Let both balls meet at point P after time t. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The distance travelled by ball A, 
+2
+1
+2
+1 gth    
+ The distance travelled by ball B, 
+2
+2
+2
+1 gtuth   
+ 
+mhh 40021   
+sectut 850/400,400   
+ 
+  
+mhmh 80and320 21   
+65. (a) 
+2
+1
+2
+12
+2
+1
+2
+1  h
+h
+t
+t
+g
+ht   
+66. (a) 
+gHg
+uH 1
+2
+max
+2
+max   
+ On planet B value of g is 
+9/1 times to that of A. So value of 
+maxH
+will become 9 times i.e. 
+metre1892    
+67. (b) 
+mhngh thn 45)152(2
+10)12(2 5  .  
+68. (a) 
+mg
+uh 25.11102
+)15(
+2
+22
+max  .  
+69. (b) For stone to be dropped from rising balloon of velocity 29 m/s. 
+ 
+,/29 smu   t = 10 sec. 
+ 
+1008.9
+2
+11029 h  
+ = – 290 + 490 = 200 m. 
+70. (c) 
+2
+2
+1 gtuth 
+2
+2
+1 gTh  
+  
+ 
+ 
+ 
+ 
+u = 0 
+100 m 
+h1 
+h2 
+u=50 m/s 
+H H 
+(H-40) m 
+40m 2 sec 
+(T-2)sec 
+H T 
+h 
+h 
+h–h 
+t=T/3 
+A 
+h1 
+h2 
+400 m 
+B 
+P 

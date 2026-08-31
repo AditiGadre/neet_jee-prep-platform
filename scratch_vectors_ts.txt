@@ -1,0 +1,242 @@
+export const VECTORS_TEST_QUESTIONS: Question[] = [
+  {
+    "id": "v-q1",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Projection of Vectors",
+    "difficulty": "Easy",
+    "questionText": "The vector projection of a vector 3i\u0302 + 4k\u0302 on y-axis is:",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "As the multiple of j\u0302 in the given vector is zero, the vector lies in XZ plane and its projection on the y-axis is zero."
+  },
+  {
+    "id": "v-q2",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Position Vectors",
+    "difficulty": "Easy",
+    "questionText": "Position of a particle in a rectangular co-ordinate system is (3, 2, 5). Its position vector will be:",
+    "options": [
+      "3i\u0302 + 5j\u0302 + 2k\u0302",
+      "3i\u0302 + 2j\u0302 + 5k\u0302",
+      "2i\u0302 + 3j\u0302 + 5k\u0302",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a point has coordinates (x, y, z), its position vector is given by r\u20d7 = x i\u0302 + y j\u0302 + z k\u0302. Hence, for (3, 2, 5), the position vector is 3i\u0302 + 2j\u0302 + 5k\u0302."
+  },
+  {
+    "id": "v-q3",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Displacement Vectors",
+    "difficulty": "Medium",
+    "questionText": "If a particle moves from point P(2, 3, 5) to point Q(3, 4, 5), its displacement vector is:",
+    "options": [
+      "i\u0302 + j\u0302 + 10k\u0302",
+      "i\u0302 + j\u0302 + 5k\u0302",
+      "i\u0302 + j\u0302",
+      "2i\u0302 + 4j\u0302 + 6k\u0302"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Displacement vector \u0394r\u20d7 = (x2 - x1)i\u0302 + (y2 - y1)j\u0302 + (z2 - z1)k\u0302 = (3-2)i\u0302 + (4-3)j\u0302 + (5-5)k\u0302 = i\u0302 + j\u0302."
+  },
+  {
+    "id": "v-q4",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Resolution of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force of 5 N acts on a particle along a direction making an angle of 60\u00b0 with the vertical. Its vertical component is:",
+    "options": [
+      "10 N",
+      "3 N",
+      "4 N",
+      "2.5 N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The component of force in the vertical direction is F_y = F cos(\u03b8) = 5 cos(60\u00b0) = 5 * 0.5 = 2.5 N."
+  },
+  {
+    "id": "v-q5",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Vector Parallelism & Magnitudes",
+    "difficulty": "Hard",
+    "questionText": "If A\u20d7 = 3i\u0302 + 4j\u0302 and B\u20d7 = 7i\u0302 + 24j\u0302, the vector having the same magnitude as B\u20d7 and parallel to A\u20d7 is:",
+    "options": [
+      "20i\u0302 + 15j\u0302",
+      "15i\u0302 + 10j\u0302",
+      "15i\u0302 + 20j\u0302",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnitude of B\u20d7 = \u221a(7\u00b2 + 24\u00b2) = 25. Unit vector along A\u20d7 is A\u0302 = (3i\u0302 + 4j\u0302)/5. The required vector is 25 * (3i\u0302 + 4j\u0302)/5 = 15i\u0302 + 20j\u0302."
+  },
+  {
+    "id": "v-q6",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Direction Cosines",
+    "difficulty": "Hard",
+    "questionText": "Vector A\u20d7 makes equal angles with x, y and z axes. The value of its components in terms of magnitude of A\u20d7 will be:",
+    "options": [
+      "A/3",
+      "A/2",
+      "A\u221a3",
+      "A/\u221a3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Let the components make angles \u03b1, \u03b2, \u03b3. Since \u03b1 = \u03b2 = \u03b3, we have cos\u00b2\u03b1 + cos\u00b2\u03b2 + cos\u00b2\u03b3 = 1 => 3cos\u00b2\u03b1 = 1 => cos\u03b1 = 1/\u221a3. The component values are A cos\u03b1 = A/\u221a3."
+  },
+  {
+    "id": "v-q7",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Direction Cosines",
+    "difficulty": "Medium",
+    "questionText": "If A\u20d7 = 2i\u0302 + 4j\u0302 - 5k\u0302, the direction cosines of the vector A\u20d7 are:",
+    "options": [
+      "2/\u221a45, 4/\u221a45, -5/\u221a45",
+      "1/\u221a45, 2/\u221a45, 3/\u221a45",
+      "4/\u221a45, 0, 4/\u221a45",
+      "3/\u221a45, 2/\u221a45, 5/\u221a45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magnitude of A\u20d7 = \u221a(2\u00b2 + 4\u00b2 + (-5)\u00b2) = \u221a45. Direction cosines are cos\u03b1 = 2/\u221a45, cos\u03b2 = 4/\u221a45, cos\u03b3 = -5/\u221a45."
+  },
+  {
+    "id": "v-q8",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Resultant Vector Addition",
+    "difficulty": "Hard",
+    "questionText": "The vector that must be added to the vectors i\u0302 - 3j\u0302 + 2k\u0302 and 3i\u0302 + 6j\u0302 - 7k\u0302 so that the resultant vector is a unit vector along the y-axis is:",
+    "options": [
+      "4i\u0302 + 2j\u0302 + 5k\u0302",
+      "-4i\u0302 - 2j\u0302 + 5k\u0302",
+      "3i\u0302 + 4j\u0302 + 5k\u0302",
+      "Null vector"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Resultant of the two vectors is S\u20d7 = (i\u0302 - 3j\u0302 + 2k\u0302) + (3i\u0302 + 6j\u0302 - 7k\u0302) = 4i\u0302 + 3j\u0302 - 5k\u0302. Let the required vector be C\u20d7. We want S\u20d7 + C\u20d7 = j\u0302 => C\u20d7 = j\u0302 - (4i\u0302 + 3j\u0302 - 5k\u0302) = -4i\u0302 - 2j\u0302 + 5k\u0302."
+  },
+  {
+    "id": "v-q9",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Coplanar Vectors",
+    "difficulty": "Easy",
+    "questionText": "What is the minimum number of coplanar vectors having different magnitudes that can be added to give a zero resultant?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Two unequal vectors can never cancel each other. The minimum number of coplanar vectors of unequal magnitude whose resultant is zero is 3 (arranged in a closed triangle)."
+  },
+  {
+    "id": "v-q10",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "3D Displacement",
+    "difficulty": "Medium",
+    "questionText": "A hall has the dimensions 10 m \u00d7 12 m \u00d7 14 m. A fly starting at one corner ends up at a diametrically opposite corner. What is the magnitude of its displacement?",
+    "options": [
+      "17 m",
+      "26 m",
+      "36 m",
+      "20 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The magnitude of displacement is d = \u221a(10\u00b2 + 12\u00b2 + 14\u00b2) = \u221a(100 + 144 + 196) = \u221a440 \u2248 20.98 m. The closest standard choice is 20 m (Option d)."
+  },
+  {
+    "id": "v-q11",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Vector Addition Angles",
+    "difficulty": "Medium",
+    "questionText": "There are two force vectors, one of 5 N and the other of 12 N. At what angle should the two vectors be added to get a resultant vector of 17 N, 7 N, and 13 N respectively?",
+    "options": [
+      "0\u00b0, 180\u00b0, and 90\u00b0",
+      "0\u00b0, 90\u00b0, and 180\u00b0",
+      "0\u00b0, 90\u00b0, and 90\u00b0",
+      "180\u00b0, 0\u00b0, and 90\u00b0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For 17 N (maximum resultant R = A + B): angle is 0\u00b0. For 7 N (minimum resultant R = B - A): angle is 180\u00b0. For 13 N (perpendicular resultant R = \u221a(A\u00b2 + B\u00b2)): angle is 90\u00b0."
+  },
+  {
+    "id": "v-q12",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Change in Velocity Vector",
+    "difficulty": "Hard",
+    "questionText": "A truck travelling due north at 20 m/s turns west and travels at the same speed. The change in its velocity is:",
+    "options": [
+      "40 m/s North-West",
+      "20\u221a2 m/s North-West",
+      "40 m/s South-West",
+      "20\u221a2 m/s South-West"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Initial velocity v1\u20d7 = 20j\u0302. Final velocity v2\u20d7 = -20i\u0302. Change in velocity \u0394v\u20d7 = v2\u20d7 - v1\u20d7 = -20i\u0302 - 20j\u0302. Magnitude = \u221a(20\u00b2 + 20\u00b2) = 20\u221a2 m/s, directed South-West."
+  },
+  {
+    "id": "v-q13",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Sum & Difference of Unit Vectors",
+    "difficulty": "Hard",
+    "questionText": "If the sum of two unit vectors is a unit vector, then the magnitude of their difference is:",
+    "options": [
+      "\u221a2",
+      "\u221a3",
+      "1/2",
+      "\u221a5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Let u\u0302 and v\u0302 be unit vectors with |u\u0302 + v\u0302| = 1 => 1 + 1 + 2cos\u03b8 = 1 => cos\u03b8 = -1/2. The magnitude of difference is |u\u0302 - v\u0302| = \u221a(1 + 1 - 2cos\u03b8) = \u221a(2 - 2(-1/2)) = \u221a3."
+  },
+  {
+    "id": "v-q14",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Resultant Force Angle",
+    "difficulty": "Easy",
+    "questionText": "Two forces, each of magnitude F, have a resultant of the same magnitude F. The angle between the two forces is:",
+    "options": [
+      "45\u00b0",
+      "120\u00b0",
+      "150\u00b0",
+      "60\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Resultant R = \u221a(F\u00b2 + F\u00b2 + 2F\u00b2cos\u03b8) = F => 2F\u00b2(1 + cos\u03b8) = F\u00b2 => cos\u03b8 = -1/2 => \u03b8 = 120\u00b0."
+  },
+  {
+    "id": "v-q15",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Forces in Equilibrium",
+    "difficulty": "Hard",
+    "questionText": "The sum of two forces acting at a point is 16 N. If the resultant force is 8 N and its direction is perpendicular to the minimum force, the two forces are:",
+    "options": [
+      "6 N and 10 N",
+      "8 N and 8 N",
+      "4 N and 12 N",
+      "2 N and 14 N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Let forces be A and B (A < B). A + B = 16. Resultant is perpendicular to A, so B\u00b2 = A\u00b2 + R\u00b2 => B\u00b2 - A\u00b2 = 8\u00b2 = 64 => (B-A)(B+A) = 64. Since B+A = 16, we get B-A = 4. Solving A+B=16 and B-A=4 gives B = 10 N, A = 6 N."
+  }
+]

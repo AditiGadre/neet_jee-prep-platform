@@ -1,0 +1,144 @@
+ 
+  56 Units, Dimensions and Measurement 
+(c) 
+ATF 2  (d) 
+FAT  
+138.  Out of the following pair, which one does not have identical 
+dimensions    [AIEEE 2005] 
+(a) Moment of inertia and moment of force 
+(b) Work and torque  
+(c) Angular momentum and Planck's constant 
+(d) Impulse and momentum 
+139. The ratio of the dimension of Planck's constant and that of moment 
+of inertia is the dimension of  [CBSE PMT 2005] 
+(a) Frequency (b) Velocity 
+(c) Angular momentum (d) Time 
+140.  Which of the following group have different dimension    
+ [IIT JEE 2005] 
+(a) Potential difference, EMF, voltage 
+(b) Pressure, stress, young's modulus 
+(c) Heat, energy, work-done 
+(d) Dipole moment, electric flux, electric field  
+141. Out of following four dimensional quantities, which one quantity is 
+to be called a dimensional constant  [KCET 2005] 
+(a) Acceleration due to gravity 
+(b) Surface tension of water  
+(c) Weight of a standard kilogram mass  
+(d) The velocity of light in vacuum 
+142.  Density of a liquid in CGS system is 0.625
+3/ cmg . What is its 
+magnitude in SI system   [J&K CET 2005] 
+(a) 0.625 (b) 0.0625 
+(c) 0.00625 (d) 625 
+ 
+Errors of Measurement 
+ 
+1. The period of oscillation of a simple pendulum is given by 
+g
+lT 2
+where l is about 100 cm and is known to have 1 mm 
+accuracy. The period is about 2 s. The time of 100 oscillations is 
+measured by a stop watch of least count 0.1 s. The percentage error 
+in g is 
+(a) 0.1% (b) 1% 
+(c) 0.2% (d) 0.8% 
+2. The percentage errors in the measurement of mass and speed are 
+2% and 3% respectively. How much will be the maximum error in 
+the estimation of the kinetic energy obtained by measuring mass 
+and speed  
+(a) 11% (b) 8% 
+(c) 5% (d) 1% 
+3. The random error in the arithmetic mean of 100 observations is x; 
+then random error in the arithmetic mean of 400 observations 
+would be  
+(a) 4x (b) 
+x4
+1  
+(c) 2x (d) 
+x2
+1  
+4. What is the number of significant figures in 0.310×10
+3
+  
+(a) 2 (b) 3 
+(c) 4 (d) 6 
+5. Error in the measurement of radius of a sp here is 1%. The error in 
+the calculated value of its volume is  [AFMC 2005] 
+(a) 1% (b) 3% 
+(c) 5% (d) 7% 
+6. The mean time period of second's pendulum is 2.00 s and mean 
+absolute error in the time period is 0.05 s. To express maximum 
+estimate of error, the time period should be written as  
+(a) (2.00  0.01) s (b) (2.00 +0.025) s 
+(c) (2.00  0.05) s (d) (2.00  0.10) s 
+7. A body travels uniformly a distance of (13.8 0.2) m in a time (4.0 
+ 0.3) s. The velocity of the body within error limits is  
+(a) (3.45  0.2) ms
+-1
+  (b) (3.45  0.3) ms
+-1 
+(c) (3.45  0.4) ms
+-1
+ (d) (3.45  0.5) ms
+-1
+ 
+8. The percentage error in the above problem is  
+(a) 7% (b) 5.95% 
+(c) 8.95% (d) 9.85% 
+9. The unit of percentage error is  
+(a) Same as that of physical quantity 
+(b) Different from that of physical quantity 
+(c) Percentage error is unit less 
+(d) Errors have got their own units which are different from that 
+of physical quantity measured 
+10. The decimal equivalent of 1/20 upto three significant figures is  
+(a) 0.0500 (b) 0.05000 
+(c) 0.0050 (d) 5.0 × 10
+-2
+ 
+11. Accuracy of measurement is determined by  
+(a) Absolute error (b) Percentage error  
+(c) Both (d) None of these  
+12. The radius of a sphere is (5.3  0.1) cm. The percentage error in its 
+volume is 
+(a) 
+1003.5
+1.0   (b) 
+1003.5
+1.03   
+(c) 
+53.3
+1001.0   (d) 
+1003.5
+1.03   
+13. A thin copper wire of length l metre increases in length by 2% 
+when heated through 10ºC. What is the percentage increase in area 
+when a square copper sheet of length l metre is heated through 
+10ºC 
+(a) 4% (b) 8% 
+(c) 16% (d) None of the above 
+14. In the context of accuracy of measurement and significant figures in 
+expressing results of experiment, which of the following is/are 
+correct  
+(1)  Out of the two measurements 50.14 cm and 0.00025 ampere, 
+the first one has greater accuracy 
+(2)  If one travels 478 km by rail and 397 m. by road, the total 
+distance travelled is 478 km. 
+(a) Only (1) is correct (b) Only (2) is correct 
+(c) Both are correct (d) None of them is correct. 
+15. A physical parameter a can be determined by measuring the 
+parameters b, c, d and e using the relation a = 
+ edcb / . 
+If the maximum errors in the measurement of b, c, d and e 
+are 
+1b %, 
+1c %, 
+1d % and 
+1e %, then the maximum error in 
+the value of a determined by the experiment is    
+(a) (
+1111 edcb  )%   
+(b) (
+1111 edcb  )%  
+(c) (
+1111 edcb   )%   

@@ -1,0 +1,132 @@
+ 
+  Heating and Chemical Effect of Current 1139 
+ 
+68. If 2.2 kilowatt power is transmitted through a 10 ohm line at 22000 
+volt, the power loss in the form of heat will be  
+[MP PMT/PET 1998] 
+ (a) 0.1 watt (b) 1 watt 
+ (c) 10 watt (d) 100 watt 
+69. Two resistors having equal resistances are joined in series and a 
+current is passed through the combination. Neglect any variation in 
+resistance as the temperature changes. In a given time interval   [MP PMT 1999] 
+ (a) Equal amounts of thermal energy must be produced in the 
+resistors 
+ (b) Unequal amounts of thermal energy may be produced 
+(c) The temperature must rise equally in the resistors 
+ (d) The temperature must rise unequally in the resistors 
+70. A 
+C5  rise in temperature is observed in a conductor by passing a 
+current. When the current is doubled the rise in temperature will be 
+approximately  [CBSE PMT 1998] 
+(a) 
+C16  (b) 
+C10  
+(c) 
+C20  (d) 
+C12  
+71. Watt-hour meter measures [KCET 1994] 
+ (a) Electric energy (b) Current 
+ (c) Voltage (d) Power 
+72. An electric lamp is marked 60 W, 230 V. The cost of 1 kilowatt hour 
+of power is Rs. 1.25. The cost of using this lamp for 8 hours is    [KCET 1994] 
+(a) Rs. 1.20 (b) Rs. 4.00 
+(c) Rs. 0.25 (d) Rs. 0.60 
+73. 4 bulbs marked 40 W, 250 V are connected in series with 250 V 
+mains. The total power is  [EAMCET (Engg.) 1995] 
+ (a) 10 W (b) 40 W 
+ (c) 320 W (d) 160 W 
+74.  Pick out the wrong statement   [AMU 1995] 
+ (a) In a simple battery circuit, the point of lowest potential is the 
+negative terminal of the battery 
+ (b) The resistance of an incandescent lamp is greater when the 
+lamp is switched off 
+ (c) An ordinary 100 W lamp has less resistance than a 60 W lamp 
+ (d) At constant voltage, the heat developed in a uniform wire 
+varies inversely as the length of the wire used 
+75. Two resistors of 
+6  and 
+9  are connected in series to a 120 volt 
+source. The power consumed by the 
+6  resistor is  
+[SCRA 1994] 
+ (a) 384 W  (b) 576 W 
+ (c) 1500 W (d) 1200 W 
+76. Electric room radiator which operates at 225 volts has resistance of 
+50 ohms. Power of the radiator is approximately   [SCRA 1994] 
+(a) 100 W (b) 450 W 
+(c) 750 W (d) 1000 W 
+77. If a power of 100 W is being supplied across a potential difference of 
+200 V, current flowing is  [AFMC 1993] 
+(a) 2 A (b) 0.5 A 
+(c) 1 A (d) 20 A 
+78. A current of 2 A passing through conductor produces 80 J of heat in 
+10 seconds. The resistance of the conductor is 
+[CBSE PMT 1993] 
+ (a) 
+5.0  (b) 
+2  
+ (c) 
+4  (d) 
+20  
+79. A 
+F4  conductor is charged to 400 volts and then its plates are 
+joined through a resistance of 
+k1 . The heat produced in the 
+resistance is   [CBSE PMT 1994] 
+(a) 0.16 J (b) 1.28 J 
+(c) 0.64 J (d) 0.32 J 
+80. A 10 ohm electric heater operates on a 110 V line. Calculate the rate 
+at which it develops heat in watts  [AFMC 1997] 
+ (a) 1310 W (b) 670 W 
+ (c) 810 W (d) 1210 W  
+81. A (100 W, 200 V) bulb is connected to a 160 V power supply. The 
+power consumption would be 
+[CBSE PMT 1997; JIPMER 2000] 
+(a) 64 W (b) 80 W 
+(c) 100 W (d) 125 W 
+82. A battery of e.m.f. 10 V and internal resistance 0.5 ohm is connected 
+across a variable resistance R. The value of R for which the power 
+delivered in it is maximum is given by 
+[BHU 1998; JIPMER 2001, 02; CBSE PMT 2001]  
+ (a) 2.0 ohm (b) 0.25 ohm 
+ (c) 1.0 ohm (d) 0.5 ohm 
+83. A piece of fuse wire melts when a current of 15 ampere flows 
+through it. With this current, if it dissipates 22.5 W, the resistance 
+of fuse wire will be   [MNR 1998] 
+(a) Zero (b) 
+10  
+(c) 
+1  (d) 
+10.0  
+84. Two wires ‘A’ and ‘B’ of the same material have their lengths in the 
+ratio 1 : 2 and radii in the ratio 2 : 1. The two wires are connected in 
+parallel across a battery. The ratio of the heat produced in ‘A’ to the 
+heat produced in ‘B’ for the same time is   [MNR 1998] 
+(a) 
+2:1  (b) 
+1:2  
+(c) 
+8:1  (d) 
+1:8  
+85. A heater draws a current of 2 A when connected to a 250 V source. 
+The rate of energy dissipation is  [JIPMER 1999] 
+(a) 500 W  (b) 1000 W 
+(c) 250 W (d) 125 W 
+86. A bulb rated at (100W – 200V) is used on a 100 V line. The current 
+in the bulb is    [JIPMER 1999] 
+(a) 
+4
+1 amp (b) 4 amp 
+(c) 
+2
+1 amp (d) 2 amp 
+87. A steel wire has a resistance tw ice that of an aluminium wire. Both 
+of them are connected with a constant voltage supply. More heat 
+will be dissipated in  [Roorkee 1999] 
+(a) Steel wire when both are connected in series 
+(b) Steel wire when both are connected in parallel 
+(c) Aluminium wire when both are connected in series 
+(d) Aluminium wire when both are connected in parallel  
+88. A current i passes through a wire of length l, radius of cross-section 
+r and resistivity . The rate of heat generation is 
+[AMU (Med.) 1999] 

@@ -1,0 +1,2433 @@
+[
+  {
+    "id": "vec-fundamentals-of-vectors-1",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The vector projection of a vector  ki ^4^3 + on y-axis is",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 1 of Fundamentals of Vectors.",
+    "num": 1
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-2",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Position of a particle in a rectangular-co-ordinate system is (3, 2, 5).  Then its position vector will be",
+    "options": [
+      "kji ^2^5^3 ++",
+      "kji ^5^2^3 ++",
+      "kji ^2^3^5 ++",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 2 of Fundamentals of Vectors.",
+    "num": 2
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-3",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If a particle moves from point P (2,3,5) to point Q (3,4,5). Its  displacement vector be",
+    "options": [
+      "kji ^10^^ ++",
+      "kji ^5^^ ++",
+      "ji ^^ +",
+      "kji ^6^4^2 ++"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 3 of Fundamentals of Vectors.",
+    "num": 3
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-4",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force of 5 N acts on a particle along a direction making an angle of  60\u00b0 with vertical. Its vertical component be",
+    "options": [
+      "10 N",
+      "3 N",
+      "4 N",
+      "2.5 N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 4 of Fundamentals of Vectors.",
+    "num": 4
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-5",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  jiA ^4^3 +=  and  ,^24^7 jiB += the vector having the same  magnitude as B and parallel to A is",
+    "options": [
+      "ji ^20^5 +",
+      "ji ^10^15 +",
+      "ji ^15^20 +",
+      "ji ^20^15 +"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 5 of Fundamentals of Vectors.",
+    "num": 5
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-6",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Vector A  makes equal angles with x, y and z axis. Value of its  components (in terms of magnitude of  A ) will be",
+    "options": [
+      "3 A",
+      "2 A",
+      "A3",
+      "A 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 6 of Fundamentals of Vectors.",
+    "num": 6
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-7",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  kjiA ^5^4^2 -+=  the direction of cosines of the vector  A  are",
+    "options": [
+      "45 5and 45 4, 45 2 -",
+      "45 3and 45 2, 45 1",
+      "45 4and0, 45 4",
+      "45 5and 45 2, 45 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 7 of Fundamentals of Vectors.",
+    "num": 7
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-8",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The vector that must be added to the vector  kji ^2^3^ +-  and  kji ^7^6^3 -+  so that the resultant vector is a unit vector along  the y-axis is",
+    "options": [
+      "kji ^5^2^4 ++",
+      "kji ^5^2^4 +--",
+      "kji ^5^4^3 ++",
+      "Null vector"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 8 of Fundamentals of Vectors.",
+    "num": 8
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-9",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "How many minimum number of coplanar vectors having different  magnitudes can be added to give zero resultant",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 9 of Fundamentals of Vectors.",
+    "num": 9
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-10",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A hall has the dimensions  .141210 mmm \uf0b4\uf0b4 A fly starting at one  corner ends up at a diametrically opposite corner. What is the  magnitude of its displacement",
+    "options": [
+      "17 m",
+      "26 m",
+      "36 m",
+      "20 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 10 of Fundamentals of Vectors.",
+    "num": 10
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-11",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "100 coplanar forces each equal to 1 0 N act on a body. Each force  makes angle  50/\uf070 with the preceding force. What is the resultant  of the forces",
+    "options": [
+      "1000 N",
+      "500 N",
+      "250 N",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 11 of Fundamentals of Vectors.",
+    "num": 11
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-12",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The magnitude of a given vector with end points (4, \u2013 4, 0) and (\u2013  2, \u2013 2, 0) must be",
+    "options": [
+      "6",
+      "25",
+      "4",
+      "102"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 12 of Fundamentals of Vectors.",
+    "num": 12
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-13",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The expression  \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 + ji ^ 2 1^ 2 1  is a",
+    "options": [
+      "Unit vector",
+      "Null vector",
+      "Vector of magnitude  2",
+      "Scalar"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 13 of Fundamentals of Vectors.",
+    "num": 13
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-14",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Given vector  ,^3^2 jiA += the angle between  A and y-axis is",
+    "options": [
+      "2/3tan 1-",
+      "3/2tan 1-",
+      "3/2sin 1-",
+      "3/2cos 1-"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 14 of Fundamentals of Vectors.",
+    "num": 14
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-15",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The unit vector along  ji ^^ +  is",
+    "options": [
+      "k^",
+      "ji ^^ +",
+      "2 ^^ ji +",
+      "2 ^^ ji +"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 15 of Fundamentals of Vectors.",
+    "num": 15
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-16",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A vector is represented by  kji ^2^^3 ++ . Its length in  XY  plane is   [EAMCET (Engg.) 1994]",
+    "options": [
+      "2",
+      "14",
+      "10",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 16 of Fundamentals of Vectors.",
+    "num": 16
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-17",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Five equal forces of 10 N each are applied at one point and all are  lying in one plane. If the angles between them are equal, the  resultant force will be",
+    "options": [
+      "Zero",
+      "10 N",
+      "20 N",
+      "N210"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 17 of Fundamentals of Vectors.",
+    "num": 17
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-18",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle made by the vector  jiA ^^ +=  with x- axis is   [EAMCET (Engg.) 1999]",
+    "options": [
+      "90\u00b0",
+      "45\u00b0",
+      "22.5\u00b0",
+      "30\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 18 of Fundamentals of Vectors.",
+    "num": 18
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-19",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Any vector in an arbitrary direction can always be replaced by two  (or three)",
+    "options": [
+      "Parallel vectors which have the original vector as th eir  resultant",
+      "Mutually perpendicular vectors which have the original vector  as their resultant",
+      "",
+      ""
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 19 of Fundamentals of Vectors.",
+    "num": 19
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-20",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Angular momentum is",
+    "options": [
+      "A scalar",
+      "A polar vector",
+      "An axial vector",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 20 of Fundamentals of Vectors.",
+    "num": 20
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-21",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Which of the following is a vector",
+    "options": [
+      "Pressure",
+      "Surface tension",
+      "Moment of inertia",
+      "None of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 21 of Fundamentals of Vectors.",
+    "num": 21
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-22",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  QP \uf072\uf072 = then which of the following is NOT correct",
+    "options": [
+      "QP ^^ =",
+      "|||| QP \uf072\uf072 =",
+      "PQQP ^^ =",
+      "QPQP ^^ +=+ \uf072\uf072"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 22 of Fundamentals of Vectors.",
+    "num": 22
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-23",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The position vector of a particle is  jtaitar ^)sin(^)cos( \uf077\uf077 +=\uf072 .  The velocity of the particle is",
+    "options": [
+      "Parallel to the position vector",
+      "Perpendicular to the position vector",
+      "Directed towards the origin",
+      "Directed away from the origin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 23 of Fundamentals of Vectors.",
+    "num": 23
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-24",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Which of the following is a scalar quantity",
+    "options": [
+      "Displacement",
+      "Electric field",
+      "Acceleration",
+      "Work"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 24 of Fundamentals of Vectors.",
+    "num": 24
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-25",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If a unit vector is represented by  kcji ^^8.0^5.0 ++ , then the value  of \u2018c\u2019 is",
+    "options": [
+      "1",
+      "11.0",
+      "01.0",
+      "39.0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 25 of Fundamentals of Vectors.",
+    "num": 25
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-26",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A boy walks uniformally along the sides of a rectangular park of size  400 m\u00d7 300 m, sta rting from one corner to the other corner  diagonally opposite. Which of the following statement is incorrect",
+    "options": [
+      "He has travelled a distance of 700 m",
+      "His displacement is 700 m",
+      "His displacement is 500 m",
+      "His velocity is not uniform throughout the walk"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 26 of Fundamentals of Vectors.",
+    "num": 26
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-27",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The unit vector parallel to the resultant of the vectors  kjiA ^6^3^4 ++= \uf072  and  kjiB ^8^3^ -+-= \uf072  is",
+    "options": [
+      ")^2^6^3(7 1 kji -+",
+      ")^2^6^3(7 1 kji ++",
+      ")^2^6^3(49 1 kji -+",
+      ")^2^6^3(49 1 kji +-"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 27 of Fundamentals of Vectors.",
+    "num": 27
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-28",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Surface area is    [J&K CET 2002]",
+    "options": [
+      "Scalar",
+      "Vector",
+      "Neither scalar nor vector",
+      "Both scalar and vector"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 28 of Fundamentals of Vectors.",
+    "num": 28
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-29",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "With respect to a rectangular cartesian coordinate system, three  vectors are expressed as     jia ^^4 -=\uf072 ,  jib ^2^3 +-= \uf072  and   kc ^-=\uf072    where  kji ^,^,^ are unit vectors, along the X, Y and Z-axis respectively.  The unit vectors  r^ along the direction of sum of these vector is  [Kerala CET (Engg.) 2003]",
+    "options": [
+      ")^^^( 3 1^ kjir -+=",
+      ")^^^( 2 1^ kjir -+=",
+      ")^^^(3 1^ kjir +-=",
+      ")^^^( 2 1^ kjir ++="
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 29 of Fundamentals of Vectors.",
+    "num": 29
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-30",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between the two vectors kjiA ^5^4^3 ++= \uf072 and  kjiB ^5^4^3 ++= \uf072  is",
+    "options": [
+      "60\u00b0",
+      "Zero",
+      "90\u00b0",
+      "None of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 30 of Fundamentals of Vectors.",
+    "num": 30
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-31",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The position vector of  a particle is determined by the expression  kjtitr ^7^4^3 22 ++=\uf072   The distance traversed in first 10 sec is",
+    "options": [
+      "500 m",
+      "300 m",
+      "150 m",
+      "100 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 31 of Fundamentals of Vectors.",
+    "num": 31
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-32",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Unit vector parallel to the resultant of vectors  jiA ^3^4 -= \uf072 and  jiB ^8^8 += \uf072 will be",
+    "options": [
+      "13 ^5^24 ji+",
+      "13 ^5^12 ji+",
+      "13 ^5^6 ji +",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 32 of Fundamentals of Vectors.",
+    "num": 32
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-33",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The component of vector  jiA ^3^2 += along the vector  ji ^^ + is",
+    "options": [
+      "2 5",
+      "210",
+      "25",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 33 of Fundamentals of Vectors.",
+    "num": 33
+  },
+  {
+    "id": "vec-fundamentals-of-vectors-34",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Fundamentals of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between the two vectors  kjiA ^5^4^3 ++= \uf072  and  kjiB ^5^4^3 -+= \uf072  will be    [Pb. CET 2001]",
+    "options": [
+      "90\u00b0",
+      "0\u00b0",
+      "60\u00b0",
+      "45\u00b0    Addition and Subtraction of Vectors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 34 of Fundamentals of Vectors.",
+    "num": 34
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-3",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A truck travelling due north at 20 m/s turns west and travels at the  same speed. The change in its velocity be",
+    "options": [
+      "40 m/s N\u2013W",
+      "220 m/s N\u2013W",
+      "40 m/s S\u2013W",
+      "220  m/s S\u2013W"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 3 of Addition and Subtraction of Vectors.",
+    "num": 3
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-4",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If the sum of two unit vectors is a unit vector, then magnitude of  difference is",
+    "options": [
+      "2",
+      "3",
+      "2/1",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 4 of Addition and Subtraction of Vectors.",
+    "num": 4
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-5",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "kjBjiA ^^3,^^2 -=+=  and  kiC ^2^6 -= .   Value of  CBA 32 +-  would be",
+    "options": [
+      "kji ^4^5^20 ++",
+      "kji ^4^5^20 --",
+      "kji ^20^5^4 ++",
+      "kji ^10^4^5 ++"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 5 of Addition and Subtraction of Vectors.",
+    "num": 5
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-6",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "An object of m kg with speed of v m/s strikes a wall at an angle \uf071  and rebounds at the same speed and same angle. The magnitude of  the change in momentum of the object will be",
+    "options": [
+      "\uf071cos2 vm",
+      "\uf071sin2 vm",
+      "0",
+      "vm2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 6 of Addition and Subtraction of Vectors.",
+    "num": 6
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-7",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two forces, each of magnitude  F have a resultant of the same  magnitude F. The angle between the two forces is",
+    "options": [
+      "45\u00b0",
+      "120\u00b0",
+      "150\u00b0",
+      "60\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 7 of Addition and Subtraction of Vectors.",
+    "num": 7
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-8",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "For the resultant of the two vectors to be maximum, what must be  the angle between them",
+    "options": [
+      "0\u00b0",
+      "60\u00b0",
+      "90\u00b0",
+      "180\u00b0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 8 of Addition and Subtraction of Vectors.",
+    "num": 8
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-9",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A particle is simultaneously acted by two forces equal to 4 N and 3  N. The net force on the particle is",
+    "options": [
+      "7 N",
+      "5 N",
+      "1 N",
+      "Between 1 N and 7 N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 9 of Addition and Subtraction of Vectors.",
+    "num": 9
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-10",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two vectors  A and  B lie in a plane, another vect or  C lies outside  this plane, then the resultant of these three vectors i.e., CBA ++",
+    "options": [
+      "Can be zero",
+      "Cannot be zero",
+      "Lies in the plane containing  BA +",
+      "Lies in the plane containing  C \uf072"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 10 of Addition and Subtraction of Vectors.",
+    "num": 10
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-11",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If the resultant of the two forces has a magnitude smaller than the  magnitude of larger force, the two forces must be",
+    "options": [
+      "Different both in magnitude and direction",
+      "Mutually perpendicular to one another",
+      "Possess extremely small magnitude",
+      "Point in opposite directions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 11 of Addition and Subtraction of Vectors.",
+    "num": 11
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-12",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Forces  1F  and  2F  act on a point mass in two mutually  perpendicular directions. The resultant force on the point mass will  be",
+    "options": [
+      "21 FF +",
+      "21 FF -",
+      "2 2 2 1 FF +",
+      "2 2 2 1 FF +"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 12 of Addition and Subtraction of Vectors.",
+    "num": 12
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-13",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  |,||||| BABA ==- the angle between  A and  B  is",
+    "options": [
+      "60\u00b0",
+      "0\u00b0",
+      "120\u00b0",
+      "90\u00b0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 13 of Addition and Subtraction of Vectors.",
+    "num": 13
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-14",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Let  the angle between two nonzero vectors  A  and  B  be 120\u00b0 and  resultant be  C",
+    "options": [
+      "C  must be equal to  || BA-",
+      "C  must be less than  || BA-",
+      "C  must be greater than  || BA-",
+      "C  may be equal to  || BA-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 14 of Addition and Subtraction of Vectors.",
+    "num": 14
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-15",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The magnitude of vector  BA,  and  C  are respectively 12, 5 and 13  units and  CBA =+  then the angle between  A  and  B  is",
+    "options": [
+      "0",
+      "\uf070",
+      "2/\uf070",
+      "4/\uf070"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 15 of Addition and Subtraction of Vectors.",
+    "num": 15
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-16",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Magnitude of vector which comes on addition of two  vectors,  ji ^7^6 +  and  ji ^4^3 +  is",
+    "options": [
+      "136",
+      "2.13",
+      "202",
+      "160"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 16 of Addition and Subtraction of Vectors.",
+    "num": 16
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-17",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A particle has displacement of 12 m towards east and 5 m towards  north then 6 m vertically upward. The sum of these displacements is",
+    "options": [
+      "12",
+      "10.04 m",
+      "14.31 m",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 17 of Addition and Subtraction of Vectors.",
+    "num": 17
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-18",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The three vectors  kjiBkjiA ^5^3^,^^2^3 +-=+-=  and  kjiC ^4^^2 -+=  form",
+    "options": [
+      "An equilateral triangle",
+      "Isosceles triangle",
+      "A right angled triangle",
+      "No triangle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 18 of Addition and Subtraction of Vectors.",
+    "num": 18
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-19",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "For the figure",
+    "options": [
+      "CBA =+",
+      "ACB =+",
+      "BAC =+",
+      "0=++ CBA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 19 of Addition and Subtraction of Vectors.",
+    "num": 19
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-20",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Let  BAC +=  then",
+    "options": [
+      "|| C  is always greater then  || A",
+      "It is possible to have  |||| AC \uf03c  and  |||| BC \uf03c",
+      "C is always equal to A + B",
+      "C is never equal to A + B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 20 of Addition and Subtraction of Vectors.",
+    "num": 20
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-21",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The value of the sum of two vectors  A  and  B  with  \uf071  as the  angle between them is",
+    "options": [
+      "\uf071cos222 ABBA ++",
+      "\uf071cos222 ABBA +-   B     C     A     \uf071 \uf071 v1  \uf0ae v2  \uf0ae",
+      "",
+      ""
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 21 of Addition and Subtraction of Vectors.",
+    "num": 21
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-22",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Following sets of three forces act on a body. Whose resultant cannot  be zero",
+    "options": [
+      "10, 10, 10",
+      "10, 10, 20",
+      "10, 20, 23",
+      "10, 20, 40"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 22 of Addition and Subtraction of Vectors.",
+    "num": 22
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-23",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "When three forces of 50 N, 30 N and 15 N  act on a body, then the  body is",
+    "options": [
+      "At rest",
+      "Moving with a uniform velocity",
+      "In equilibrium",
+      "Moving with an acceleration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 23 of Addition and Subtraction of Vectors.",
+    "num": 23
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-24",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The sum of two forces acting at a point is 16 N. If the resultant  force is 8  N and its direction is perpendicular to minimum force  then the forces are",
+    "options": [
+      "6 N and 10 N",
+      "8 N and 8 N",
+      "4 N and 12 N",
+      "2 N and 14 N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 24 of Addition and Subtraction of Vectors.",
+    "num": 24
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-25",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If vectors P, Q and R have magnitude 5, 12 and 13 units and  ,RQP =+  the angle between Q and R is",
+    "options": [
+      "12 5cos 1-",
+      "13 5cos 1-",
+      "13 12cos 1-",
+      "13 7cos 1-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 25 of Addition and Subtraction of Vectors.",
+    "num": 25
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-26",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The resultant of two vectors A and B is perpendicular to the vector  A and its magnitude is equal to half the magnitude of vector B. The  angle between A and B is",
+    "options": [
+      "120\u00b0",
+      "150\u00b0",
+      "135\u00b0",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 26 of Addition and Subtraction of Vectors.",
+    "num": 26
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-27",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "What vector must be added to the two vectors  kji ^2^2^ +-  and  ,^^^2 kji -+  so that the resultant may be a unit vector along     x- axis",
+    "options": [
+      "kji ^^^2 -+",
+      "kji ^^^2 -+-",
+      "kji ^^^2 +-",
+      "kji ^^^2 ---"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 27 of Addition and Subtraction of Vectors.",
+    "num": 27
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-28",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "What is the angle between  P  and  the resultant of  )( QP+  and  )( QP-",
+    "options": [
+      "Zero",
+      ")/(tan 1 QP-",
+      ")/(tan 1 PQ-",
+      ")/()(tan 1 QPQP +--"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 28 of Addition and Subtraction of Vectors.",
+    "num": 28
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-29",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The resultant of  P  and  Q  is perpendicular to   P . What is the  angle between  P  and  Q",
+    "options": [
+      ")/(cos 1 QP-",
+      ")/(cos 1 QP--",
+      ")/(sin 1 QP-",
+      ")/(sin 1 QP--"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 29 of Addition and Subtraction of Vectors.",
+    "num": 29
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-30",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Maximum and minimum magnitudes  of the resultant of two vectors  of magnitudes P and Q are in the ratio  .1:3 Which of the  following relations is true",
+    "options": [
+      "QP 2=",
+      "QP =",
+      "1=PQ",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 30 of Addition and Subtraction of Vectors.",
+    "num": 30
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-31",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The resultant of two vectors  P  and  Q  is  .R  If Q  is doubled, the  new resultant is perpendicular to P. Then R equals",
+    "options": [
+      "P",
+      "(P+Q)",
+      "Q",
+      "(P\u2013Q)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 31 of Addition and Subtraction of Vectors.",
+    "num": 31
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-32",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two forces,  1F  and   2F  are acting on a body. One force is double  that of the other force and the resultant is equal to the greater  force. Then the angle between the two forces is",
+    "options": [
+      ")2/1(cos 1-",
+      ")2/1(cos 1 --",
+      ")4/1(cos 1 --",
+      ")4/1(cos 1-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 32 of Addition and Subtraction of Vectors.",
+    "num": 32
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-33",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Given that  CBA =+ and that  C  is  \uf05e  to  A . Further if  |,||| CA = then what is the angle between  A  and  B",
+    "options": [
+      "radian4 \uf070",
+      "radian2 \uf070",
+      "radian4 3\uf070",
+      "radian\uf070"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 33 of Addition and Subtraction of Vectors.",
+    "num": 33
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-34",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A body is at rest under  the action of three forces, two of which are  ,^6,^4 21 jFiF == \uf072\uf072 the third force is",
+    "options": [
+      "ji ^6^4 +",
+      "ji ^6^4 -",
+      "ji ^6^4 +-",
+      "ji ^6^4 --"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 34 of Addition and Subtraction of Vectors.",
+    "num": 34
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-35",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A plane is revolving around the earth with a speed of 100 km/hr at a  constant height from the surface of earth. The change in the velocity  as it travels half circle is",
+    "options": [
+      "200 km/hr",
+      "150 km/hr",
+      "hrkm /2100",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 35 of Addition and Subtraction of Vectors.",
+    "num": 35
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-36",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "What displacement must be added to the displacement  mji ^6^25 -  to give a displacement of 7.0 m pointing in the x-  direction",
+    "options": [
+      "ji ^6^18 -",
+      "ji ^13^32 -",
+      "ji ^6^18 +-",
+      "ji ^13^25 +-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 36 of Addition and Subtraction of Vectors.",
+    "num": 36
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-37",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A body moves due East with velocity 20 km/hour and then due  North with velocity 15 km/hour. The resultant velocity",
+    "options": [
+      "5 km/hour",
+      "15 km/hour",
+      "20 km/hour",
+      "25 km/hour"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 37 of Addition and Subtraction of Vectors.",
+    "num": 37
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-38",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The magnitudes of vectors   BA \uf072\uf072 , and C \uf072 are 3, 4 and 5 units  respectively. If  CBA \uf072\uf072\uf072 =+ , the angle between  A \uf072 and  B \uf072 is",
+    "options": [
+      "2 \uf070",
+      ")6.0(cos 1-",
+      "\uf0f7 \uf0f8 \uf0f6\uf0e7 \uf0e8 \uf0e6- 5 7tan 1",
+      "4 \uf070"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 38 of Addition and Subtraction of Vectors.",
+    "num": 38
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-39",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "While travelling from one station to another, a car travels 75 km  North, 60 km North-east and 20 km East. The minimum distance  between the two stations is",
+    "options": [
+      "72 km",
+      "112 km",
+      "132 km",
+      "155 km"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 39 of Addition and Subtraction of Vectors.",
+    "num": 39
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-41",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A person goes 10 km north and 20 km east. What will be  displacement from initial point",
+    "options": [
+      "22.36 km",
+      "2 km",
+      "5 km",
+      "20 km"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 41 of Addition and Subtraction of Vectors.",
+    "num": 41
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-42",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two forces  kjiF ^20^10^51 -+= \uf072 and  kjiF ^15^5^102 --= \uf072  act on  a single point. The angle between  1F \uf072 and  2F \uf072  is nearly",
+    "options": [
+      "30\u00b0",
+      "45\u00b0",
+      "60\u00b0",
+      "90\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 42 of Addition and Subtraction of Vectors.",
+    "num": 42
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-43",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Which pair of the following forces will never give resultant force of  2 N",
+    "options": [
+      "2 N and 2 N",
+      "1 N and 1 N",
+      "1 N and 3 N",
+      "1 N and 4 N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 43 of Addition and Subtraction of Vectors.",
+    "num": 43
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-44",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two forces 3N and 2 N are at an angle \uf071 such that the resultant is  R. The first force is now increased to 6 N and the resultant become  2R. The value of \uf071 is",
+    "options": [
+      "30\u00b0",
+      "60\u00b0",
+      "90\u00b0",
+      "120\u00b0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 44 of Addition and Subtraction of Vectors.",
+    "num": 44
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-45",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Three concurrent forces of the same magnitude are in equilibrium.  What is the angle between the forces ? Also name the triangle  formed by the forces as sides",
+    "options": [
+      "60\u00b0 equilateral triangle",
+      "120\u00b0 equilateral triangle",
+      "120\u00b0, 30\u00b0, 30\u00b0 an isosceles triangle",
+      "120\u00b0 an obtuse angled triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 45 of Addition and Subtraction of Vectors.",
+    "num": 45
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-46",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  |||||| BABA \uf072\uf072\uf072\uf072 +=+ , then angle between  A \uf072 and  B \uf072  will be",
+    "options": [
+      "90\u00b0",
+      "120\u00b0",
+      "0\u00b0",
+      "60\u00b0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 46 of Addition and Subtraction of Vectors.",
+    "num": 46
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-47",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The maximum and minimum magnitude of the resultant of two  given vectors are 17 units and 7 unit respectively. If these two  vectors are at right angles to each other, the magnitude of their  resultant is  [Kerala CET (Engg.) 2000]",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 47 of Addition and Subtraction of Vectors.",
+    "num": 47
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-48",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The vector sum of two forces is perpendicular to their vector  differences. In that case, the forces",
+    "options": [
+      "Are equal to each other in magnitude",
+      "Are not equal to each other in magnitude",
+      "Cannot be predicted",
+      "Are equal to each other"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 48 of Addition and Subtraction of Vectors.",
+    "num": 48
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-49",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "y component of velocity is 20 and x component of velocity is 10. The  direction of motion of the body with the horizontal at this instant is",
+    "options": [
+      ")2(tan 1-",
+      ")2/1(tan 1-",
+      "45\u00b0",
+      "0\u00b0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 49 of Addition and Subtraction of Vectors.",
+    "num": 49
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-50",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two forces of 12 N and 8 N act upon a body. The resultant force on  the body has maximum value of",
+    "options": [
+      "4 N",
+      "0 N",
+      "20 N",
+      "8 N"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 50 of Addition and Subtraction of Vectors.",
+    "num": 50
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-51",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two equal forces (P each) act at a point inclined to each other at an  angle of 120\u00b0. The magnitude of their resultant is",
+    "options": [
+      "2/P",
+      "4/P",
+      "P",
+      "2P"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 51 of Addition and Subtraction of Vectors.",
+    "num": 51
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-52",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The vectors  ji 85 + and ji 72 + are added. The magnitude of the  sum of these vector is",
+    "options": [
+      "274",
+      "38",
+      "238",
+      "560"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 52 of Addition and Subtraction of Vectors.",
+    "num": 52
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-0",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "=BA \uf072\uf072  (b)  0=\uf0b4 BA \uf072\uf072   (c)  0=A \uf072  (d)  0=B     Multiplication of Vectors",
+    "options": [
+      "",
+      "0=\uf0b4 BA \uf072\uf072",
+      "0=A \uf072",
+      "0=B     Multiplication of Vectors"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 0 of Addition and Subtraction of Vectors.",
+    "num": 0
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-1",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If a vector  kji ^8^3^2 ++ is perpendicular to the vector  kij ^^4^4 \uf061+- . Then the value of  \uf061  is",
+    "options": [
+      "\u20131",
+      "2 1",
+      "2 1-",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 1 of Addition and Subtraction of Vectors.",
+    "num": 1
+  },
+  {
+    "id": "vec-addition-and-subtraction-of-vectors-2",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Addition and Subtraction of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If two vectors  kji ^^3^2 -+  and  kji ^^6^4 \uf06c---  are parallel to  each other then value of \uf06c be",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 2 of Addition and Subtraction of Vectors.",
+    "num": 2
+  },
+  {
+    "id": "vec-multiplication-of-vectors-6",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between the vectors  A  and  B  is  .\uf071 The value of the  triple product  )(. ABA \uf0b4  is",
+    "options": [
+      "BA 2",
+      "Zero",
+      "\uf071sin2 BA",
+      "\uf071cos2 BA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 6 of Multiplication of Vectors.",
+    "num": 6
+  },
+  {
+    "id": "vec-multiplication-of-vectors-7",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  \uf0ae\uf0ae\uf0ae\uf0ae \uf0b4=\uf0b4 ABBA  then the angle between A and B is",
+    "options": [
+      "\uf070 / 2",
+      "\uf070 / 3",
+      "\uf070",
+      "\uf070 / 4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 7 of Multiplication of Vectors.",
+    "num": 7
+  },
+  {
+    "id": "vec-multiplication-of-vectors-8",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  kjiA ^2^^3 ++=  and  kjiB ^4^2^2 +-=  then value of  || BA\uf0b4  will be",
+    "options": [
+      "28",
+      "38",
+      "58",
+      "85"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 8 of Multiplication of Vectors.",
+    "num": 8
+  },
+  {
+    "id": "vec-multiplication-of-vectors-9",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The torque of the force  NkjiF )^4^3^2( +-=  acting at the point  )^3^2^3( kjir ++= m about the origin be",
+    "options": [
+      "kji ^12^6^6 +-",
+      "kji ^13^6^17 --",
+      "kji ^12^6^6 -+-",
+      "kji ^13^6^17 ++-"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 9 of Multiplication of Vectors.",
+    "num": 9
+  },
+  {
+    "id": "vec-multiplication-of-vectors-10",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  ,CBA =\uf0b4 then which of the following statements is wrong",
+    "options": [
+      "AC\uf05e",
+      "BC\uf05e",
+      ")( BAC +\uf05e",
+      ")( BAC \uf0b4\uf05e"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 10 of Multiplication of Vectors.",
+    "num": 10
+  },
+  {
+    "id": "vec-multiplication-of-vectors-11",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If a particle of mass m is moving with constant velocity v parallel to  x-axis in x-y plane as shown in fig. Its angular momentum with  respect to origin at any time t will be",
+    "options": [
+      "kmvb ^",
+      "kmvb ^-",
+      "imvb ^",
+      "imv ^"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 11 of Multiplication of Vectors.",
+    "num": 11
+  },
+  {
+    "id": "vec-multiplication-of-vectors-12",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Consider two vectors  kiF ^5^21 +=  and  .^4^32 kjF +=  The  magnitude of the scalar product of these vectors is",
+    "options": [
+      "20",
+      "23",
+      "335",
+      "26"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 12 of Multiplication of Vectors.",
+    "num": 12
+  },
+  {
+    "id": "vec-multiplication-of-vectors-13",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Consider a vector  .^3^4 jiF -= Another vector that is  perpendicular to  F  is",
+    "options": [
+      "ji ^3^4 +",
+      "i^6",
+      "k^7",
+      "ji ^4^3 -"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 13 of Multiplication of Vectors.",
+    "num": 13
+  },
+  {
+    "id": "vec-multiplication-of-vectors-14",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two vectors  A  and  B  are at right angles to each other, when",
+    "options": [
+      "0=+ BA",
+      "0=- BA",
+      "0=\uf0b4 BA",
+      ""
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 14 of Multiplication of Vectors.",
+    "num": 14
+  },
+  {
+    "id": "vec-multiplication-of-vectors-15",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  |||| 2121 VVVV -=+ and  2V  is finite, then",
+    "options": [
+      "1V  is parallel to  2V",
+      "21 VV =",
+      "1V  and  2V  are mutually perpendicular",
+      "|||| 21 VV ="
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 15 of Multiplication of Vectors.",
+    "num": 15
+  },
+  {
+    "id": "vec-multiplication-of-vectors-16",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force  )^3^5( jiF += Newton is applied over a particle which  displaces it from its origin to the point  )^1^2( jir -=  metres. The  work done on the particle is",
+    "options": [
+      "\u2013 7 J",
+      "+13 J",
+      "+7 J",
+      "+11 J"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 16 of Multiplication of Vectors.",
+    "num": 16
+  },
+  {
+    "id": "vec-multiplication-of-vectors-17",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between two vectors  kji ^^3^2 ++-  and  kji ^4^2^ -+  is",
+    "options": [
+      "0\u00b0",
+      "90\u00b0",
+      "180\u00b0",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 17 of Multiplication of Vectors.",
+    "num": 17
+  },
+  {
+    "id": "vec-multiplication-of-vectors-18",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between the vectors  )^^( ji +  and  )^^( kj+  is",
+    "options": [
+      "30\u00b0",
+      "45\u00b0",
+      "60\u00b0",
+      "90\u00b0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 18 of Multiplication of Vectors.",
+    "num": 18
+  },
+  {
+    "id": "vec-multiplication-of-vectors-19",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A particle moves with a velocity  smkji /^3^4^6 +- under the  influence of a constant force  .^5^15^20 NkjiF -+= The  instantaneous power applied to the particle is",
+    "options": [
+      "35 J/s",
+      "45 J/s",
+      "25 J/s",
+      "195 J/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 19 of Multiplication of Vectors.",
+    "num": 19
+  },
+  {
+    "id": "vec-multiplication-of-vectors-20",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  ,. PQQP = then angle between  P and  Q  is",
+    "options": [
+      "0\u00b0",
+      "30\u00b0",
+      "45\u00b0",
+      "60\u00b0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 20 of Multiplication of Vectors.",
+    "num": 20
+  },
+  {
+    "id": "vec-multiplication-of-vectors-21",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force  kji ^4^6^5F ++=  acting on a body, produces a  displacement  .^5^6S ki -= Work done by the force is",
+    "options": [
+      "10 units",
+      "18 units",
+      "11 units",
+      "5 units"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 21 of Multiplication of Vectors.",
+    "num": 21
+  },
+  {
+    "id": "vec-multiplication-of-vectors-22",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between the two vector s  jiA ^5^5 +=  and  jiB ^5^5 -= will be",
+    "options": [
+      "Zero",
+      "45\u00b0",
+      "90\u00b0",
+      "180\u00b0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 22 of Multiplication of Vectors.",
+    "num": 22
+  },
+  {
+    "id": "vec-multiplication-of-vectors-23",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The vector  kjaiaP ^3^^ ++=  and  kjiaQ ^^2^ --=  are  perpendicular to each other. The positive value of a is",
+    "options": [
+      "3",
+      "4",
+      "9",
+      "13"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 23 of Multiplication of Vectors.",
+    "num": 23
+  },
+  {
+    "id": "vec-multiplication-of-vectors-24",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A body, constrained to move in the Y-direction is subjected to a  force given by  .)^6^15^2( NkjiF ++-=  What is the work done by  this force in moving the body a distance 10 m along the Y-axis",
+    "options": [
+      "20 J",
+      "150 J",
+      "160 J",
+      "190 J"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 24 of Multiplication of Vectors.",
+    "num": 24
+  },
+  {
+    "id": "vec-multiplication-of-vectors-25",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A particle moves in the x-y plane under the action of a force  F  such  that the value of its line ar momentum  )(P  at anytime t is  .sin2,cos2 tptP yx == The angle  \uf071 between  F  and  P  at a  given time t. will be",
+    "options": [
+      "\u00b0= 0\uf071",
+      "\u00b0= 30\uf071",
+      "\u00b0= 90\uf071",
+      "\u00b0= 180\uf071"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 25 of Multiplication of Vectors.",
+    "num": 25
+  },
+  {
+    "id": "vec-multiplication-of-vectors-26",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The area of the parallelogram represented by the vectors  jiA ^3^2 +=  and  jiB ^4^ +=  is",
+    "options": [
+      "14 units",
+      "7.5 units",
+      "10 units",
+      "5 units"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 26 of Multiplication of Vectors.",
+    "num": 26
+  },
+  {
+    "id": "vec-multiplication-of-vectors-27",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A vector  1F is along the positive X-axis. If its  vector product with  another vector  2F is zero then  2F  could be",
+    "options": [
+      "j^4",
+      ")^^( ji +-",
+      ")^^( kj+",
+      ")^4( i-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 27 of Multiplication of Vectors.",
+    "num": 27
+  },
+  {
+    "id": "vec-multiplication-of-vectors-28",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If for two vectors  A  and  ,0, =\uf0b4 BAB the vectors",
+    "options": [
+      "Are perpendicular to each other",
+      "Are parallel to each other",
+      "Act at an angle of 60\u00b0",
+      "Act at an angle of 30\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 28 of Multiplication of Vectors.",
+    "num": 28
+  },
+  {
+    "id": "vec-multiplication-of-vectors-29",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between vectors  )BA( \uf0b4  and  )AB( \uf0b4  is",
+    "options": [
+      "Zero",
+      "\uf070",
+      "4/\uf070",
+      "2/\uf070"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 29 of Multiplication of Vectors.",
+    "num": 29
+  },
+  {
+    "id": "vec-multiplication-of-vectors-30",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "What is the angle between  )( QP+  and  )( QP\uf0b4",
+    "options": [
+      "0",
+      "2 \uf070",
+      "4 \uf070",
+      "\uf070"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 30 of Multiplication of Vectors.",
+    "num": 30
+  },
+  {
+    "id": "vec-multiplication-of-vectors-31",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The resultant of the two vectors having magnitude 2 and 3 is 1.  What is their cross product",
+    "options": [
+      "6",
+      "3",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 31 of Multiplication of Vectors.",
+    "num": 31
+  },
+  {
+    "id": "vec-multiplication-of-vectors-32",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Let  \uf071\uf071 sin^cos^ AjAiA +=  be any vector. Another vecto r  B   which is normal to A is",
+    "options": [
+      "\uf071\uf071 sincos^ BjBi +",
+      "\uf071\uf071 cossin^ BjBi +",
+      "\uf071\uf071 cossin^ BjBi -",
+      "\uf071\uf071 sincos^ BjBi -"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 32 of Multiplication of Vectors.",
+    "num": 32
+  },
+  {
+    "id": "vec-multiplication-of-vectors-33",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The angle between two vectors given by  kji 366 -+  and  kji 447 ++  is   [EAMCET (Engg.) 1999]",
+    "options": [
+      "\uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6- 3 1cos 1",
+      "\uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6- 3 5cos 1",
+      "\uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6- 3 2sin 1",
+      "\uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6- 3 5sin 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 33 of Multiplication of Vectors.",
+    "num": 33
+  },
+  {
+    "id": "vec-multiplication-of-vectors-34",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A vector  A  points vertically upward and  B points towards north.  The vector product  BA\uf0b4  is",
+    "options": [
+      "Zero",
+      "Along west",
+      "Along east",
+      "Vertically downward"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 34 of Multiplication of Vectors.",
+    "num": 34
+  },
+  {
+    "id": "vec-multiplication-of-vectors-35",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Angle between the vectors  )^^( ji +  and  )^^( kj-  is",
+    "options": [
+      "90\u00b0",
+      "0\u00b0",
+      "180\u00b0",
+      "60\u00b0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 35 of Multiplication of Vectors.",
+    "num": 35
+  },
+  {
+    "id": "vec-multiplication-of-vectors-36",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The position  vectors of points A, B, C and D are  kjiCkjiBkjiA ^3^9^7,^6^5^4,^5^4^3 ++=++=++=  and  jiD ^6^4 +=  then the displacement vectors AB and CD are",
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "Antiparallel",
+      "Inclined at an angle of 60\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 36 of Multiplication of Vectors.",
+    "num": 36
+  },
+  {
+    "id": "vec-multiplication-of-vectors-37",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If force  jiF ^5^4)( += and di splacement  kis ^6^3)( +=  then the  work done is",
+    "options": [
+      "34\uf0b4",
+      "65\uf0b4",
+      "36\uf0b4",
+      "64\uf0b4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 37 of Multiplication of Vectors.",
+    "num": 37
+  },
+  {
+    "id": "vec-multiplication-of-vectors-38",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  |,.||| BABA =\uf0b4  then angle between  A and  B  will be",
+    "options": [
+      "30\u00b0",
+      "45\u00b0",
+      "60\u00b0",
+      "90\u00b0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 38 of Multiplication of Vectors.",
+    "num": 38
+  },
+  {
+    "id": "vec-multiplication-of-vectors-39",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "In an clockwise system",
+    "options": [
+      "ikj ^^^ =\uf0b4",
+      "0^.^ =ii",
+      "1^^ =\uf0b4 jj",
+      "1^.^ =jk"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 39 of Multiplication of Vectors.",
+    "num": 39
+  },
+  {
+    "id": "vec-multiplication-of-vectors-40",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The linear velocity of a rotating body is given by  ,rv \uf0b4=\uf077 where  \uf077   is the angular velocity and  r  is the radius vector. The angular velocity  of a body is  kji ^2^2^ +-=\uf077  and the radius vector  ,^3^4 kjr -=   then  || v  is",
+    "options": [
+      "29 units",
+      "31 units",
+      "37 units",
+      "41 units"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 40 of Multiplication of Vectors.",
+    "num": 40
+  },
+  {
+    "id": "vec-multiplication-of-vectors-0",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "=ba  and  .0. =ca  The vector  a  is parallel to",
+    "options": [
+      "b",
+      "c",
+      "cb .",
+      "cb\uf0b4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 0 of Multiplication of Vectors.",
+    "num": 0
+  },
+  {
+    "id": "vec-multiplication-of-vectors-42",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The diagonals of a parallelogram are  i^2  and  .^2 j What is the area  of the parallelogram",
+    "options": [
+      "0.5 units",
+      "1 unit",
+      "2 units",
+      "4 units"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 42 of Multiplication of Vectors.",
+    "num": 42
+  },
+  {
+    "id": "vec-multiplication-of-vectors-44",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The area of the parallelogram whose sides are represented by the  vectors  kj ^3^ +  and  kji ^^2^ -+  is",
+    "options": [
+      "61 sq.unit",
+      "59 sq.unit",
+      "49 sq.unit",
+      "52 sq.unit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 44 of Multiplication of Vectors.",
+    "num": 44
+  },
+  {
+    "id": "vec-multiplication-of-vectors-45",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The position of a particle is given by  )2( kjir -+=  momentum  ).243( kjiP -+= The angular momentum is perpendicular to  [EAMCET (Engg.) 1998]",
+    "options": [
+      "x-axis",
+      "y-axis",
+      "z-axis",
+      "Line at equal angles to all the three axes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 45 of Multiplication of Vectors.",
+    "num": 45
+  },
+  {
+    "id": "vec-multiplication-of-vectors-46",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two vector A and B have equal magnitudes. Then the vector A + B  is  perpendicular to",
+    "options": [
+      "BA\uf0b4",
+      "A \u2013 B",
+      "3A \u2013 3B",
+      "All of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 46 of Multiplication of Vectors.",
+    "num": 46
+  },
+  {
+    "id": "vec-multiplication-of-vectors-47",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Find the torque of a force  kjiF ^5^^3 ++-=  acting at the point  kjir ^^3^7 ++=",
+    "options": [
+      "kji ^16^38^14 +-",
+      "kji ^6^4^4 ++",
+      "kji ^4^4^21 ++",
+      "kji ^16^34^14 -+-"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 47 of Multiplication of Vectors.",
+    "num": 47
+  },
+  {
+    "id": "vec-multiplication-of-vectors-48",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The value of  )()( BABA -\uf0b4+  is",
+    "options": [
+      "0",
+      "22 BA -",
+      "AB\uf0b4",
+      ")(2 AB\uf0b4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 48 of Multiplication of Vectors.",
+    "num": 48
+  },
+  {
+    "id": "vec-multiplication-of-vectors-49",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  A \uf072  and  B \uf072  are perpendicular  vectors and vector  kjiA ^3^7^5 -+= \uf072  and  .^^2^2 kajiB -+= \uf072  The value of a is",
+    "options": [
+      "\u2013 2",
+      "8",
+      "\u2013 7",
+      "\u2013 8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 49 of Multiplication of Vectors.",
+    "num": 49
+  },
+  {
+    "id": "vec-multiplication-of-vectors-50",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force vector applied on a mass is represented as  kjiF ^10^8^6 +-= \uf072  and accelerates with  2/1 sm . What will be the  mass of the body in kg.",
+    "options": [
+      "210",
+      "20",
+      "102",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 50 of Multiplication of Vectors.",
+    "num": 50
+  },
+  {
+    "id": "vec-multiplication-of-vectors-51",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Two adjacent sides of a parallelogram are represented by the two  vectors  kji ^3^2^ ++  and  kji ^^2^3 +- . What is the area of  parallelogram",
+    "options": [
+      "8",
+      "38",
+      "83",
+      "192"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 51 of Multiplication of Vectors.",
+    "num": 51
+  },
+  {
+    "id": "vec-multiplication-of-vectors-52",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "The position vectors of radius are  kji ^^^2 ++  and  kji ^^3^2 +-   while those of linear momentum are  .^^3^2 kji -+  Then the angular  momentum is",
+    "options": [
+      "ki ^4^2 -",
+      "ki ^8^4 -",
+      "kji ^2^4^2 +-",
+      "ki ^8^4 -"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 52 of Multiplication of Vectors.",
+    "num": 52
+  },
+  {
+    "id": "vec-multiplication-of-vectors-53",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "What is the value of linear velocity, if  kji ^^4^3 +-=\uf077\uf072  and  kjir ^6^6^5 +-=\uf072   [CBSE PMT 1999; CPMT 1999, 2001;           Pb. PMT 2000; Pb. CET 2000]",
+    "options": [
+      "kji ^3^2^6 +-",
+      "kji ^8^2^6 +-",
+      "kji ^6^13^4 +-",
+      "kji ^2^13^18 +--"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 53 of Multiplication of Vectors.",
+    "num": 53
+  },
+  {
+    "id": "vec-multiplication-of-vectors-54",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "Dot product of two mutual perpendicular vector is",
+    "options": [
+      "0",
+      "1",
+      "\uf0a5",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 54 of Multiplication of Vectors.",
+    "num": 54
+  },
+  {
+    "id": "vec-multiplication-of-vectors-55",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "When  |,|||. BABA -= \uf072\uf072  then",
+    "options": [
+      "A \uf072  and  B \uf072  are perpendicular to each other",
+      "A \uf072  and  B \uf072  act in the same direction",
+      "A \uf072  and  B \uf072  act in the opposite direction",
+      "A \uf072  and  B \uf072  can act in any direction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 55 of Multiplication of Vectors.",
+    "num": 55
+  },
+  {
+    "id": "vec-multiplication-of-vectors-56",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "If  ,.3|| BABA \uf072\uf072\uf072\uf072 =\uf0b4  then the value of || BA \uf072\uf072 +  is",
+    "options": [
+      "2/1 22 3 \uf0f7\uf0f7 \uf0f8 \uf0f6 \uf0e7\uf0e7 \uf0e8 \uf0e6 ++ ABBA",
+      "BA+",
+      "2/122 )3( ABBA ++",
+      "2/122 )( ABBA ++"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Detailed solution for Question 56 of Multiplication of Vectors.",
+    "num": 56
+  },
+  {
+    "id": "vec-multiplication-of-vectors-57",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force  kjciF ^2^^3 ++= \uf072  acting on a particle causes a  displacement  kjiS ^3^2^4 -+-= \uf072  in its own direction. If the work  done is 6J, then the value of c will be",
+    "options": [
+      "12",
+      "6",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 57 of Multiplication of Vectors.",
+    "num": 57
+  },
+  {
+    "id": "vec-multiplication-of-vectors-58",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Multiplication of Vectors",
+    "difficulty": "Medium",
+    "questionText": "A force  NjiF )^3^5( += \uf072 is applied over a particle which displaces it  from its original position to the point  )^1^2( jis -=\uf072 m. The work done  on the particle is",
+    "options": [
+      "+ 11 J",
+      "+ 7 J",
+      "+ 13 J",
+      "\u2013 7 J"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 58 of Multiplication of Vectors.",
+    "num": 58
+  },
+  {
+    "id": "vec-lami's-theorem-1",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Lami's Theorem",
+    "difficulty": "Medium",
+    "questionText": "P, Q and R  are three coplanar forces acting at a point and are in  equilibrium. Given P = 1.9318 kg wt,  =1sin\uf071 0.9659, the value of R  is ( in kg wt)",
+    "options": [
+      "0.9659",
+      "2",
+      "1",
+      "2 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 1 of Lami's Theorem.",
+    "num": 1
+  },
+  {
+    "id": "vec-lami's-theorem-2",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Lami's Theorem",
+    "difficulty": "Medium",
+    "questionText": "A body is in equilibrium under the action of three coplanar forces P,  Q and R as shown in the figure. Select the correct statement",
+    "options": [
+      "\uf067\uf062\uf061 sinsinsin RQP ==",
+      "\uf067\uf062\uf061 coscoscos RQP ==",
+      "\uf067\uf062\uf061 tantantan RQP ==",
+      "\uf061\uf067\uf062 sinsinsin RQP =="
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detailed solution for Question 2 of Lami's Theorem.",
+    "num": 2
+  },
+  {
+    "id": "vec-lami's-theorem-3",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Lami's Theorem",
+    "difficulty": "Medium",
+    "questionText": "If a body is in equilibrium under a set of non -collinear forces, then  the minimum number of forces has to be",
+    "options": [
+      "Four",
+      "Three",
+      "Two",
+      "Five"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 3 of Lami's Theorem.",
+    "num": 3
+  },
+  {
+    "id": "vec-lami's-theorem-4",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Lami's Theorem",
+    "difficulty": "Medium",
+    "questionText": "How many minimum number of non-zero vectors in different planes  can be added to give zero resultant",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Detailed solution for Question 4 of Lami's Theorem.",
+    "num": 4
+  },
+  {
+    "id": "vec-lami's-theorem-5",
+    "subject": "Physics",
+    "chapter": "Vectors",
+    "topic": "Lami's Theorem",
+    "difficulty": "Medium",
+    "questionText": "As shown in figure the tension in the horizontal cord is 30 N. The  weight W  and tension in the string OA in Newton are",
+    "options": [
+      "30 ,3 30",
+      "30 ,3 60",
+      "60 ,3 30",
+      "None of these     Relative Velocity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Detailed solution for Question 5 of Lami's Theorem.",
+    "num": 5
+  }
+]

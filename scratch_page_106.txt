@@ -1,0 +1,269 @@
+ 
+  106 Motion in one Dimension 
+and he returns back with speed of 
+hkm /5.7  in rest of time 
+of 10 minutes. 
+Distance 
+km25.160
+105.7   
+So, Average speed
+ Total tim e
+ distanceTotal   
+hrkmhr
+km /8
+45
+)60/40(
+)25.15.2( 
+. 
+14. (b) 
+1|distance|
+|ntdisplacem e|
+|speed Average|
+| velocityAverage|   
+because displacement will either be equal or less than distance. 
+It can never be greater than distance. 
+15. (b)  
+16. (d) Average speed 
+  takenTotal tim e
+ travelleddistanceTotal   
+  
+21
+5/35/2
+v
+x
+v
+x
+x
+
+
+21
+21
+23
+5
+vv
+vv
+   
+17. (c) From given figure, it is clear that the net displacement is zero. 
+So average velocity will be zero.  
+18. (c) Since displacement is always less than or equal to distance, but 
+never greater than distanc e. Hence numerical ratio of 
+displacement to the distance covered is always equal to or less 
+than one.   
+19. (d) Length of train = 100 m  
+Velocity of train
+smhrkm /5.12
+18
+545/45   
+Length of bridge = 1 km = 1000 m  
+Total length covered by train = 1100 m  
+Time taken by train to cross the bridge 
+5.12
+1100 = 88 sec  
+20. (b) Time average velocity =
+3
+321 vvv   
+sm /43
+543   
+21. (a) When the body is projected vertically upward then at the 
+highest point its velocity is zero but acceleration is not equal to 
+zero 
+)/8.9( 2smg  .  
+22. (b) Let initial velocity of the bullet = u 
+ After penetrating 3 cm its velocity becomes 
+2
+u     
+  From 
+asuv 222    
+ 
+)3(22
+2
+2
+auu 
+
+
+
+  
+   
+4
+36
+2ua    
+8
+2ua   
+ Let further it  will penetrate through distance x and stops at 
+point C.  
+ For distance BC, 
+8/,,2/,0 2uaxsuuv   
+ From 
+asuv 222  
+xuu .8220
+22
+
+
+
+
+
+
+
+
+
+ 
+1x  cm.  
+23. (b) Let two boys meet at point C after time 't' from the starting. 
+Then 
+tvAC  ,  
+tvBC 1  
+ 
+ 
+ 
+ 
+ 
+  
+222 )()()( BCABAC     
+22
+1
+222 tvatv   
+  By solving we get 
+2
+1
+2
+2
+vv
+at
+
+  
+24. (c)  
+.48
+100
+604022
+21
+21 kmph
+vv
+vvvav 
+
+  
+ 
+Non-uniform Motion 
+  
+1. (b) As
+2
+2
+1 atutS 
+
+aaS 50)10(2
+1 2
+1            .....(i) 
+ 
+atuvAs 
+  velocity acquired by particle in 10 sec 
+10 av
+ 
+ For next 10 sec ,   
+2
+2 )10()(2
+110)10(  aaS  
+ 
+2S
+a150                            .....(ii) 
+ From (i) and (ii) 
+3/21 SS   
+2. (c) Acceleration 
+22
+2
+2a
+dt
+xd    
+3. (d) Velocity along X-axis 
+atdt
+dxv x 2  
+Velocity along Y-axis 
+btdt
+dyv y 2  
+Magnitude of velocity of the particle, 
+ 
+2222 2 batvvv yx   
+4. (a) 
+mktdtktdtvS 992
+2
+1
+2
+1
+3
+0
+23
+0
+3
+0
+
+
+
+    
+5. (a) 
+3ktS   
+  
+kt
+dt
+Sda 62
+2
+   i.e.    
+ta  
+6. (a,c) 
+7. (a) From 
+2
+2
+1 tautS   
+ 
+2
+1 )1(2
+1  PaS  and 
+2
+2
+2
+1 PaS     
+0[ uAs ] 
+ From 
+)12(2  nauS n  
+ 
+ 1)1(2
+2
+2
+)1( 2  PPaS thPP  
+ 1222
+2  PPa  
+ It is clear that 
+21)1( 2 SSS thPP    
+8. (d) 
+m
+Fa
+
+  . If 
+0F
+  then 
+0a . 
+  
+9. (b) 
+ttv 24 3   (given) 
+  
+212 2  tdt
+dva  
+ and 
+24
+0
+3
+0
+)24( ttdtttdtvx
+tt
+   
+ When particle is at 2m from the origin 
+224  tt  
+u A v = 0 B 
+C 
+3 cm 
+Target 
+u/2 
+x 
+A 
+v 
+B 
+v1 
+C 
+a 

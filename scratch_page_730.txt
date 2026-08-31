@@ -1,0 +1,147 @@
+ 
+  Waves and Sound 851 
+   [RPET 1999; RPMT 2002] 
+(a) 100 Hz (b) 200 Hz 
+(c) 256 Hz (d) 400 Hz 
+7. Two similar sonometer wires given fundamental f requencies of 
+500Hz. These have same tensions. By what amount the tension be 
+increased in one wire so that the two wires produce 5 beats/sec[RPET 1999] 
+(a) 1% (b) 2% 
+(c) 3% (d) 4% 
+8. A string is producing transverse vibration whose equation is 
+)30sin(021.0 txy 
+, Where x and y are in meters and 
+t  is in 
+seconds. If the linear density of the string is 
+4103.1  kg/m, then 
+the tension in the string in 
+N  will be 
+[RPET 1999; RPMT 2002] 
+(a) 10 (b) 0.5 
+(c) 1 (d) 0.117 
+9. If the tension of sonometer’s wire increases four times then the 
+fundamental frequency of the wire will increase by  
+[RPMT 1999] 
+(a) 2 times (b) 4 times 
+(c) 1/2 times (d) None of the above 
+10. If vibrations of a string are to be increased by a fa ctor of two, then 
+tension in the string must be made  
+  [AIIMS 1999; Pb. PET 2000] 
+(a) Half (b) Twice 
+(c) Four times (d) Eight times 
+11. Four wires of identical length, diameters and of the same material 
+are stretched on a sonometre wire. If the ratio of their tensions is 1 : 
+4 : 9 : 16 then the ratio of their fundamental frequencies are  [KCET 2000] 
+(a) 16 : 9 : 4 : 1 (b) 4 : 3 : 2 : 1 
+(c) 1 : 4 : 2 : 16 (d) 1 : 2 : 3 : 4 
+12. A tuning fork vibrating with a sonometer having 20 cm wire 
+produces 5 beats per second. The beat frequency does not change if 
+the length of the wire is changed to 21 cm. the frequency of the 
+tuning fork (in Hertz) must be 
+[UPSEAT 2000; Pb. PET 2004] 
+(a) 200 (b) 210 
+(c) 205 (d) 215 
+13. A stretched string of length 
+,l  fixed at both ends can sustain 
+stationary waves of wavelength 
+,  given by 
+  [UPSEAT 2000; Pb. PET 2004; CPMT 2005]  
+(a) 
+l
+n
+2
+2
+  (b) 
+n
+l
+2
+2
+  
+(c) 
+n
+l2  (d) 
+nl2  
+14. If you set up the  seventh harmonic on a string fixed at both ends, 
+how many nodes and antinodes are set up in it  
+[AMU 2000] 
+(a) 8, 7 (b) 7, 7 
+(c) 8, 9 (d) 9, 8 
+15. If you set up the ninth harmonic on a string fixed at both ends, its 
+frequency compared to the seventh harmonic  
+[AMU (Engg.) 2000] 
+(a) Higher  (b) Lower 
+(c) Equal (d) None of the above  
+16. Frequency of a sonometer wire is n. Now its tension is increased 4 
+times and its length is doubled then new frequency will be    [RPET 2000] 
+(a) n/2 (b) 4n 
+(c) 2n (d) n 
+17. A device used for investigating the vibration of a fixed string or wire 
+is    [BHU 2000] 
+(a) Sonometer (b) barometer 
+(c) Hydrometer (d) None of these 
+18. A string on a musical instrument is 50 cm long and its fundamental 
+frequency is 270 Hz. If the desired frequency of 10 00 Hz is to be 
+produced, the required length of the string is  
+[EAMCET (Engg.) 1998; CPMT 2000; Pb. PET 2001]  
+(a) 13.5 cm (b) 2.7 cm 
+(c) 5.4 cm (d) 10.3 cm 
+19. The tension in a piano wire is 10N. What should be the tension in 
+the wire to produce a note of double the frequency    [AIIMS 2001] 
+(a) 5 N (b) 20 N 
+ (c) 40 N (d) 80 N 
+20. To increase the frequency from 100 Hz to 400 Hz the tension in the 
+string has to be changed by [RPET 2001] 
+(a) 4 times (b) 16 times 
+ (c) 20 times (d) None of these 
+21. In order to double the frequency of the fundamental note emitted by 
+a stretched string, the length is reduced to 
+4
+3 th of the original 
+length and the tension is changed. The factor by which the tension 
+is to be changed, is  [EAMCET 2001] 
+(a) 
+8
+3  (b) 
+3
+2  
+ (c) 
+9
+8  (d) 
+4
+9  
+22. A string of 7 m length has a mass of 0.035 kg. If tension in the 
+string is 60.5 N, then speed of a wave on the string is  
+[CBSE PMT 2001] 
+(a) 77 m/s (b) 102 m/s 
+ (c) 110 m/s (d) 165 m/s 
+23. A second harmonic has to be generated in a string of length 
+l  
+stretched between two rigid supports. The point where the string 
+has to be plucked and touched are  
+[KCET 2001] 
+(a) Plucked at 
+4
+l  and touch at 
+2
+l  
+(b) Plucked at 
+4
+l  and touch at 
+4
+3l  
+ (c) Plucked at 
+2
+l  and touched at 
+4
+l  
+ (d) Plucked at 
+2
+l  and touched at 
+4
+3l  
+24. Transverse waves of same frequency are generated in two steel wires 
+A and B. The diameter of A is twice of B and the tension in A is half 
+that in B. The ratio of velocities of wave in A and B is    [KCET 2001] 
+(a) 
+23:1  (b) 
+22:1  

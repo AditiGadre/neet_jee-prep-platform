@@ -1,0 +1,279 @@
+ 
+ Motion in One Dimension 107 
+  
+0224  tt  
+0)1()2( 22  tt   
+sec2t  
+ Acceleration at 
+sec2t  given by, 
+ 
+212 2  ta
+2212  = 
+2/22 sm    
+10. (a) 
+  xvxdx
+dt
+2
+12  
+ 
+   
+dt
+dx
+dx
+dv
+dt
+dva .  
+ 
+32
+2 2..2
+)2(
+2. vvv
+x
+v
+dx
+dvva 
+
+ 
+
+     
+ 
+     Retardation 
+32 v  
+11. (b) Let 
+321 ,, uuu  and 
+4u  be velocities at time 
+)(,,0 211 tttt   
+and 
+)( 321 ttt  respectively and accelerati on is a then 
+2
+and
+2
+,
+2
+43
+3
+32
+2
+21
+1
+uuvuuvuuv 
+ 
+ Also 
+)(, 2113112 ttauuatuu   
+ and  
+)( 32114 tttauu   
+ By solving, we get 
+)(
+)(
+32
+21
+32
+21
+tt
+tt
+vv
+vv
+
+
+  
+12. (c) Acceleration 
+tana , where  is the angle of tangent drawn 
+on the graph with the time axis.  
+13. (b) If acceleration is variable (depends on time) then    
+dtfuv  )(
+dttau  )(
+2
+2tau
+ 
+14. (a) 
+)12(
+2
+ nauS n
+meter1)152(
+2
+210   
+15. (b) From 
+aSuv 222    
+aSu 20 2   
+   
+2
+22
+/20102
+)20(
+2 smS
+ua 
+   
+16. (d) 
+sec/184210 matuv   
+17. (c) If particle starts from rest and moves with constant 
+acceleration then in successive equal interval of time the ratio 
+of distance covered by it will be 
+ 
+7:5:3:1  .....
+)12( n   
+ i.e. ratio of x and y will be 
+3:1  i.e. 
+3
+1y
+x   
+xy 3   
+18. (a) 
+ 12
+2
+ nauS n  
+ 
+  mS th 25187152
+2
+475  . 
+19. (c) Acceleration 
+t
+dt
+dva 21.0 
+t2.0  
+ Which is time dependent i.e. non-uniform acceleration.  
+20. (b) Constant velocity means constant speed as well as same 
+direction throughout.  
+21. (a) Distance travelled in 4 sec 
+ 
+162
+1424  au   …(i) 
+ Distance travelled in total 8 sec 
+ 
+642
+1888  au   …(ii) 
+ After solving (i) and (ii), we get 
+1u m/s.   
+22. (c) 
+66)63( 2  ttt
+dt
+d
+dt
+dxv x . At 
+0,1  xvt   
+ 
+22)2( 2  ttt
+dt
+d
+dt
+dyvy . At 
+0,1  yvt  
+ Hence 
+022  yx vvv  
+23. (a) Distance travelled in 
+thn  second 
+)12(
+2
+ nau  
+ Distance travelled in 
+th5 second
+ 1522
+80  =36m 
+24. (d) 
+2222 )1000()9000(2  asuv
+42  a  
+ 
+27 /10 sma Now 
+a
+uvt   
+ 
+sect 4
+7 108
+10
+10009000    
+25. (c) Initial relative velocity
+21 vv  , Final relative velocity 
+0  
+ From 
+asuv 222  
+savv  2)(0 2
+21  
+   
+a
+vvs 2
+)( 2
+21   
+If the distance between two cars is 's' then collision will take 
+place. To avoid collision 
+sd   
+
+a
+vvd 2
+)( 2
+21   
+where 
+d  actual initial distance between two cars. 
+26. (b) 
+2/34102 secmaaatuv    
+27. (c) 
+mStatuS xxxx 481662
+1
+2
+1 2   
+ 
+mStatuS yyyy 641682
+1
+2
+1 2   
+ 
+mSSS yx 8022   
+28. (d) 
+2uS  . If u becomes 3 times then S will become 9 times i.e. 
+m180209 
+  
+29. (c) 
+42 dtctbtay   
+ 
+342 dtctbdt
+dyv   and 
+2122 dtcdt
+dva   
+ Hence, at t = 0, v
+initial
+ = b and a
+initial 
+= 2c. 
+30. (a) 
+2uS   
+  
+2
+2
+1
+2
+1
+
+
+
+
+
+ u
+u
+S
+S  
+mSS 84
+12
+2
+2
+   
+31. (c) 
+)(
+2
+ag
+ht 
+sec7.049.011
+4.5
+)2.18.9(
+7.22 
+  
+ As 
+0u and lift is moving upward with acceleration  
+32. (a) Displacement 
+52 2  ttx  
+ Velocity 
+14  tdt
+dx  
+ Acceleration 
+42
+2
+
+dt
+xd  i.e. independent of time  

@@ -1,0 +1,126 @@
+ 
+ 660 Thermodynamics  
+(c) Pressure  (d) Work  
+30. In a thermodynamic system working substance is ideal gas, its 
+internal energy is in the form of  [MP PMT 2003] 
+(a) Kinetic energy only  
+(b) Kinetic and potential energy 
+(c) Potential energy  
+(d) None of these 
+31. Which of the following statements is correct for any thermodynamic 
+system    [AIEEE 2004] 
+  (a) The internal energy changes in all processes 
+  (b) Internal energy and entropy are state functions 
+(c) The change in entropy can never be zero 
+(d) The work done in an adiabatic process is always zero 
+32. A system is provided with 200 cal of heat and the work done by the 
+system on the surrounding is 40 J. Then its internal energy   [Orissa PMT 2004] 
+(a) Increases by 600 J (b) Decreases by 800 J 
+(c) Increases by 800 J (d) Decreases by 50 J 
+33. In a thermodynamic process, pressure of a fixed mass of a gas is 
+changed in such a manner that the gas molecules gives out 20 J of 
+heat and 10 J of work is done on the gas. If the initial internal energy 
+of the gas was 40 J, then the final internal energy will be     [DPMT 2004] 
+(a) 30 J (b) 20 J
+ 
+(c) 60 J (d) 40 J 
+34. Heat is not being exchanged in a body. If its internal energy is 
+increased, then   [RPMT 2002] 
+(a) Its temperature will increase 
+(b) Its temperature will decrease 
+(c) Its temperature will remain constant 
+(d) None of these 
+35. Out of the following which quantity does not depend on path   [RPET 2002] 
+(a) Temperature (b) Energy 
+(c) Work (d) None of these 
+36.  First law of thermodynamics is a special case of 
+[CPMT 1985; RPET 2000; DCE 2000; 
+CBSE PMT 2000; AIEEE 2002; AFMC 2002]  
+(a) Newton's law   
+(b) Law of conservation of energy 
+(c) Charle's law 
+(d) Law of heat exchange 
+37. One mole of an ideal monoatomic gas is heated at a constant 
+pressure of one atmosphere from 
+Co0  to 
+Co100 . Then the 
+change in the internal energy is [Pb. PMT 2001] 
+(a) 6.56 joules (b) 
+21032.8  joules 
+(c) 
+21048.12  joules (d) 20.80 joules 
+38. If the ratio of specific heat of a gas at cons tant pressure to that at 
+constant volume is 
+ , the change in internal energy of a mass of 
+gas, when the volume changes from V to 2V constant pressure p, is   [CBSE PMT 1998] 
+(a) 
+)1/( R  (b) 
+pV  
+(c) 
+)1/( pV  (d) 
+)1/( pV  
+39. If 
+molecalCV /96.4  K, then increase in internal 
+energy when temperature of 2 moles of this gas is increased from  
+340 K to 342 K   [RPET 1997] 
+(a)  27.80 cal (b) 19.84 cal 
+(c) 13.90 cal (d) 9.92 cal 
+40. Temperature is a measurement of coldness or hotness of an object. 
+This definition is based on   [RPET 2003] 
+(a) Zeroth law of thermodynamics  
+(b) First law of thermodynamics 
+(c) Second law of thermodynamics  
+(d) Newton's law of cooling 
+41. When heat energy of 1500 Joules, is supplied to a gas at constant 
+pressure 
+25 /101.2 mN , there was an increase in its volume 
+equal to 
+33105.2 m . The increase in internal energy of the gas 
+in Joules is  [EAMCET (Engg.) 1999] 
+ (a) 450  (b) 525 
+ (c) 975 (d) 2025 
+42. If heat given to a system is 6 kcal and work done is 6 k J. Then 
+change in internal energy is  [BHU Med. 2000] 
+ (a) 19.1 kJ (b) 12.5 kJ 
+ (c) 25 kJ (d)  Zero 
+43. In a thermodynamics process, pressure of a fixed mass of a gas is 
+changed in such a manner that the gas releases 20 J of heat and 8J 
+of work is done on the gas. If the initial internal energy of the gas 
+was 30J. The final internal energy will be     [DPMT 2002]  
+ (a) 18J  (b)  9J 
+ (c) 4.5J (d) 36J 
+44. A monoatomic gas of n-moles is heated from te mperature T
+1
+ to T
+2
+ 
+under two different conditions (i) at constant volume and (ii) at 
+constant pressure. The change in internal energy of the gas is     [CPMT 2000]  
+(a) More for (i)   
+(b) More for (ii) 
+(c) Same in both cases   
+(d) Independent of number of moles  
+45. The state of a thermodynamic system is represented by  
+[MH CET 2004]  
+(a) Pressure only   
+(b) Volume only  
+(c) Pressure, volume and temperature  
+(d) Number of moles   
+46. A perfect gas goes from state A to another state B by absorbing 
+J5108
+ of heat and doing 
+J5105.6   of external work. It is 
+now transferred between the same two states in another process in 
+which it absorbs 
+J510  of heat. Then in the second process     [BHU 1997]  
+(a) Work done on the gas is 
+J5105.0    
+(b)  Work done by gas is 
+J5105.0   
+(c) Work done on gas is 
+J510  
+(d) Work done by gas is 
+J510  
+47. If a system undergoes contraction of volume then the work done by 
+the system will be   [BHU 1999]  
+(a) Zero  (b)  Negligible 

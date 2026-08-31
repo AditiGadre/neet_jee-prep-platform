@@ -1,0 +1,6 @@
+{
+  "name": "NEET/JEE Prep Platform",
+  "description": "Comprehensive NEET & JEE preparation platform referencing NEETprep.com features: Target Batch 2026/2027, Classroom & High Yield Test Series, Masterclass in Biology, NTA CBT Simulator, Micro-Targets & DPP Generator, 10,000+ Flashcards, NCERT Line-by-Line Books, and 24/7 Doubt Desk.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,222 @@
+ 
+  58 Units, Dimensions and Measurement 
+5. If the dimensions of length are expressed as 
+zyx hcG ; where 
+cG,  
+and 
+h   are the universal gravitational constant, speed of light and 
+Planck's constant respectively, then  [IIT 1992] 
+(a) 
+2
+1,2
+1  yx  (b)  
+2
+1,2
+1  zx  
+(c) 
+2
+3,2
+1  zy  (d) 
+2
+1,2
+3  zy   
+6. A highly rigid cubical block 
+A  of small mass 
+M  and side 
+L  is 
+fixed rigidly onto another cubical block 
+B of the same dimensions 
+and of low modulus of rigidity 
+  such that the lower face of 
+A  
+completely covers the upper face of 
+B . The lower face of 
+B is 
+rigidly held on a horiz ontal surface. A small force 
+F  is applied 
+perpendicular to one of the side faces of 
+A . After the force is 
+withdrawn block 
+A  executes small oscillations. The time period of 
+which is given by   
+ [IIT 1992] 
+(a)  
+L
+M2  (b) 
+ M
+L2  
+(c) 
+ ML2  (d) 
+L
+M
+2  
+7. The pair(s) of physical quantities that have the same dimensions, is 
+(are)    [IIT 1995] 
+(a) Reynolds number and coefficient of friction 
+(b) Latent heat and gravitational potential 
+(c) Curie and frequency of a light wave  
+(d) Planck's constant and torque 
+8. The speed of light 
+)(c , gravitational constant 
+)(G  and Planck's 
+constant 
+)(h  are taken as the fundamental units in a system. The 
+dimension of time in this new  system should be     [AMU 1995] 
+(a) 
+2/52/12/1 chG  (b) 
+2/12/12/1 chG  
+(c) 
+2/32/12/1 chG  (d) 
+2/12/12/1 chG  
+9. If the constant of gravitation 
+)(G , Planck's constant 
+)(h  and the 
+velocity of light 
+)(c  be chosen as fundamental units. The dimension 
+of the radius of gyration is  [AMU (Eng.) 1999] 
+(a) 
+2/12/32/1 Gch   (b) 
+2/12/32/1 Gch  
+(c) 
+2/12/32/1  Gch  (d) 
+2/12/32/1 Gch   
+10. 
+23YZX   find dimension of 
+Y  in (MKSA) system, if 
+X  and 
+Z  
+are the dimension of capacity and magnetic field respectively   [MP PMT 2003] 
+(a) 
+1423  ATLM  (b) 
+2ML  
+(c) 
+4423 ATLM   (d) 
+4823 ATLM   
+11. In the relation 
+
+
+
+ k
+Z
+eP
+
+  P is pressure, Z is the distance, k is 
+Boltzmann constant and  is the temperature. The dimensional 
+formula of  will be  [IIT (Screening) 2004] 
+(a) 
+][ 020 TLM  (b) 
+][ 121 TLM  
+(c) 
+][ 101 TLM  (d) 
+][ 120 TLM  
+12. The frequency of vibration of string is given by 
+2/1
+2 
+
+
+ m
+F
+l
+p . 
+Here p is number of segments in the string and l is the length. The 
+dimensional formula for m will be 
+[BHU 2004] 
+(a) 
+][ 10 LTM  (b) 
+][ 10 TML  
+(c) 
+][ 01TML  (d) 
+][ 000 TLM  
+13. Column I Column II 
+ (i) Curie (A) 
+2MLT  
+ (ii) Light year (B) 
+M  
+ (iii) Dielectric strength (C) Dimensionless 
+ (iv) Atomic weight (D) 
+T  
+ (v) Decibel (E) 
+22 TML  
+   (F)  
+3MT  
+   (G)  
+1T  
+   (H) 
+L  
+   (I) 
+13  IMLT  
+   (J) 
+1LT  
+ Choose the correct match   [IIT 1992] 
+(a) (i) G, (ii) H, (iii) C, (iv) B, (v) C 
+(b) (i) D, (ii) H, (iii) I,  (iv) B, (v) G 
+(c) (i) G, (ii) H, (iii) I,  (iv) B, (v) G 
+(d) None of the above 
+14. A wire has a mass 
+g003.03.0  , radius 
+mm005.05.0   and 
+length 
+cm06.06 . The maximum percentage erro r in the 
+measurement of its density is  [IIT (Screening) 2004] 
+(a) 1 (b) 2 
+(c) 3 (d) 4 
+15. If 97.52 is divided by 2.54, the correct result in terms of significant 
+figures is  
+(a) 38.4 (b) 38.3937 
+(c) 38.394 (d) 38.39 
+ 
+ 
+ 
+ 
+ 
+Choose any one of the following four responses : 
+(a) If both assertion and reason are true and the reason is the correct 
+explanation of the assertion. 
+(b) If both assertion and reason are true but reason is not the correct 
+explanation of the assertion. 
+(c) If assertion is true but reason is false. 
+(d) If the assertion and reason both are false. 
+(e) If assertion is false but reason is true. 
+ 
+1. Assertion  :  ‘Light year ’ and ‘Wavelength’ both measure 
+distance.  
+ Reason  :   Both have dimensions of time. 
+2. Assertion  :  Light year and year, both measure time.   
+ Reason  :   Because light year is the time that light takes to 
+reach the earth from the sun. 
+3. Assertion  :  Force cannot be added to pressure.  
+ Reason  :  Because their dimensions are different. 
+4. Assertion  :  Linear mass density has the dimensions of [M
+1
+L
+–1
+T
+0
+]. 
+ Reason  :  Because density is always mass per unit volume. 
+5. Assertion  :  Rate of flow of a liquid represents velocity of flow. 
+ Reason  :  The dimensions of rate of flow are [M
+0
+L
+1
+T
+–1
+]. 
+6. Assertion  :  Units of Rydberg constant R are m
+–1
+ 
+ Reason  :  It follows from Bohr’s formula 
+
+
+
+
+
+
+ 2
+2
+2
+1
+11
+nn
+Rv ,  
+   where the symbols have their usual meaning. 

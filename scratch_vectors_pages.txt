@@ -1,0 +1,2234 @@
+
+================ PAGE INDEX 10 ================
+ 
+  8 Vectors 
+are parallel. 
+||0cos222
+max QPPQQPR 
+ 
+ Resultant of two vectors will be minimum when  = 180° i.e. 
+vectors are anti-parallel. 
+||180cos222
+min QPPQQPR 
+ 
+Thus, minimum value of the resultant of two vectors is equal to the 
+difference of their magnitude.  
+ Thus, maximum value of the resultant of two vectors is equal to 
+the sum of their magnitude. 
+ When the magnitudes of two vectors are unequal, then  
+0min  QPR
+                                                  
+|]|||[ QP
+
+ 
+ 
+Thus, two vectors 
+P
+  and 
+Q
+  having different magnitudes can never be 
+combined to give zero resultant. From here, we conclude that the 
+minimum number of vectors of unequal magnitude whose resultant can 
+be zero is three. On the other hand, the minimum number of vectors of 
+equal magnitude whose resultant can be zero is two. 
+ Angle between two vectors 
+A
+  and 
+B
+  is given by 
+       
+||||
+.cos
+BA
+BA 
+
+  
+ Projection of a vector 
+A
+  in the direction of vector 
+B
+  
+        
+||
+.
+B
+BA
+
+  
+ Projection of a vector 
+B
+  in the direction of vector 
+A
+  
+       
+||
+.
+A
+BA
+
+  
+ If vectors 
+CBA
+
+ and,  are represented by three sides ab, bc and 
+ca respectively taken in a order, then  
+ca
+C
+bc
+B
+ab
+A ||||||
+
+
+ 
+ The vectors 
+kji ˆˆˆ   is equally inclined to the coordinate axes at 
+an angle of 54.74 degrees. 
+ If 
+CBA
+
+ , then 
+0.  CBA
+ . 
+ If 
+0.  CBA
+ , then 
+BA
+
+.  and 
+C
+  are coplanar. 
+ If angle between 
+A
+  and 
+B
+  is 45°, 
+then 
+||. BABA
+
+  
+ If 
+0......321
+
+ nAAAA  and 
+nAAAA  ......321  
+then the adjacent vector are inclined to each other at angle 
+n/2 . 
+ If 
+CBA
+
+  and 
+222 CBA  , then the angle between 
+A
+  
+and 
+B
+ is 90°. Also A, B and C can have the following values. 
+(i) A = 3, B = 4, C = 5  
+(ii) A = 5, B = 12, C = 13 
+(iii) A = 8, B = 15, C = 17. 
+ 
+================ PAGE INDEX 11 ================
+ 
+ Vectors 9 
+ 
+ 
+ 
+ 
+Fundamentals of Vectors  
+1. The vector projection of a vector 
+ki ˆ4ˆ3  on y-axis is 
+    [RPMT 2004] 
+(a) 5 (b) 4 
+(c) 3 (d)  Zero 
+2. Position of a particle in a rectangular-co-ordinate system is (3, 2, 5). 
+Then its position vector will be 
+(a) 
+kji ˆ2ˆ5ˆ3   (b) 
+kji ˆ5ˆ2ˆ3   
+(c) 
+kji ˆ2ˆ3ˆ5   (d) None of these 
+3. If a particle moves from point P (2,3,5) to point Q (3,4,5). Its 
+displacement vector be 
+(a) 
+kji ˆ10ˆˆ   (b) 
+kji ˆ5ˆˆ   
+(c) 
+ji ˆˆ   (d) 
+kji ˆ6ˆ4ˆ2   
+4. A force of 5 N acts on a particle along a direction making an angle of 
+60° with vertical. Its vertical component be  
+(a)  10 N  (b) 3 N 
+(c) 4 N (d) 2.5 N 
+5. If 
+jiA ˆ4ˆ3   and 
+,ˆ24ˆ7 jiB  the vector having the same 
+magnitude as B and parallel to A is  
+(a) 
+ji ˆ20ˆ5   (b) 
+ji ˆ10ˆ15   
+(c) 
+ji ˆ15ˆ20   (d) 
+ji ˆ20ˆ15   
+6. Vector
+A  makes equal angles with x, y and z axis. Value of its 
+components (in terms of magnitude of 
+A ) will be 
+(a) 
+3
+A  (b) 
+2
+A   
+(c)  
+A3  (d) 
+A
+3  
+7. If 
+kjiA ˆ5ˆ4ˆ2   the direction of cosines of the vector 
+A  are 
+(a) 
+45
+5and
+45
+4,
+45
+2   (b) 
+45
+3and
+45
+2,
+45
+1  
+(c) 
+45
+4and0,
+45
+4  (d) 
+45
+5and
+45
+2,
+45
+3  
+8. The vector that must be added to the vector 
+kji ˆ2ˆ3ˆ   and 
+kji ˆ7ˆ6ˆ3 
+ so that the resultant vector is a unit vector along 
+the y-axis is 
+(a) 
+kji ˆ5ˆ2ˆ4   (b) 
+kji ˆ5ˆ2ˆ4   
+(c) 
+kji ˆ5ˆ4ˆ3   (d) Null vector 
+9. How many minimum number of coplanar vectors having different 
+magnitudes can be added to give zero resultant  
+(a) 2 (b) 3 
+ (c) 4 (d) 5  
+10. A hall has the dimensions 
+.141210 mmm  A fly starting at one 
+corner ends up at a diametrically opposite corner. What is the 
+magnitude of its displacement  
+(a) 17 m (b) 26 m 
+ (c) 36 m (d) 20 m  
+11. 100 coplanar forces each equal to 1 0 N act on a body. Each force 
+makes angle 
+50/ with the preceding force. What is the resultant 
+of the forces  
+(a) 1000 N (b) 500 N 
+ (c) 250 N (d) Zero  
+12. The magnitude of a given vector with end points (4, – 4, 0) and (– 
+2, – 2, 0) must be 
+(a) 6 (b) 
+25  
+ (c) 4 (d) 
+102   
+13. The expression 
+
+
+
+
+
+  ji ˆ
+2
+1ˆ
+2
+1  is a  
+(a) Unit vector (b) Null vector  
+(c) Vector of magnitude 
+2  (d) Scalar  
+14. Given vector 
+,ˆ3ˆ2 jiA  the angle between 
+A and y-axis is  
+   [CPMT 1993] 
+(a) 
+2/3tan 1  (b) 
+3/2tan 1  
+(c) 
+3/2sin 1  (d) 
+3/2cos 1   
+15. The unit vector along 
+ji ˆˆ   is   
+(a) 
+kˆ  (b) 
+ji ˆˆ   
+(c) 
+2
+ˆˆ ji   (d) 
+2
+ˆˆ ji    
+16. A vector is represented by 
+kji ˆ2ˆˆ3  . Its length in  XY  plane is   [EAMCET (Engg.) 1994] 
+(a) 2 (b) 
+14  
+ (c) 
+10  (d) 
+5   
+17. Five equal forces of 10 N each are applied at one point and all are 
+lying in one plane. If the angles between them are equal, the 
+resultant force will be   [CBSE PMT 1995] 
+(a) Zero (b) 10 N 
+ (c) 20 N (d) 
+N210  
+18. The angle made by the vector 
+jiA ˆˆ   with x- axis is  
+[EAMCET (Engg.) 1999]   
+(a) 90° (b) 45° 
+(c) 22.5° (d) 30°  
+19. Any vector in an arbitrary direction can always be replaced by two 
+(or three) 
+(a) Parallel vectors which have the original vector as th eir 
+resultant  
+(b) Mutually perpendicular vectors which have the original vector 
+as their resultant  
+================ PAGE INDEX 12 ================
+ 
+  10 Vectors 
+(c) Arbitrary vectors which have the original vector as their 
+resultant  
+(d) It is not possible to resolve a vector  
+20. Angular momentum is    [MNR 1986] 
+(a) A scalar  (b) A polar vector 
+(c) An axial vector (d) None of these  
+21. Which of the following is a vector 
+(a) Pressure (b) Surface tension 
+(c) Moment of inertia (d) None of these 
+22. If 
+QP
+
+ then which of the following is NOT correct 
+(a) 
+QP ˆˆ   (b) 
+|||| QP
+
+  
+(c) 
+PQQP ˆˆ   (d) 
+QPQP ˆˆ 
+  
+23. The position vector of a particle is 
+jtaitar ˆ)sin(ˆ)cos(   . 
+The velocity of the particle is    [CBSE PMT 1995] 
+(a) Parallel to the position vector 
+(b) Perpendicular to the position vector 
+(c) Directed towards the origin 
+(d) Directed away from the origin 
+24. Which of the following is a scalar quantity  [AFMC 1998] 
+(a) Displacement (b) Electric field  
+(c) Acceleration (d) Work 
+25. If a unit vector is represented by 
+kcji ˆˆ8.0ˆ5.0  , then the value 
+of ‘c’ is   [CBSE PMT 1999; EAMCET 1994] 
+(a) 1 (b) 
+11.0  
+(c) 
+01.0  (d) 
+39.0  
+26. A boy walks uniformally along the sides of a rectangular park of size 
+400 m× 300 m, sta rting from one corner to the other corner 
+diagonally opposite. Which of the following statement is incorrect 
+  [HP PMT 1999] 
+(a) He has travelled a distance of 700 m  
+(b) His displacement is 700 m 
+(c) His displacement is 500 m 
+(d) His velocity is not uniform throughout the walk 
+27. The unit vector parallel to the resultant of the vectors 
+kjiA ˆ6ˆ3ˆ4 
+
+ and 
+kjiB ˆ8ˆ3ˆ 
+  is [EAMCET 2000] 
+ (a) 
+)ˆ2ˆ6ˆ3(7
+1 kji   (b) 
+)ˆ2ˆ6ˆ3(7
+1 kji   
+(c) 
+)ˆ2ˆ6ˆ3(49
+1 kji   (d) 
+)ˆ2ˆ6ˆ3(49
+1 kji   
+28. Surface area is    [J&K CET 2002] 
+(a) Scalar (b) Vector 
+(c) Neither scalar nor vector (d) Both scalar and vector  
+29. With respect to a rectangular cartesian coordinate system, three 
+vectors are expressed as  
+ 
+jia ˆˆ4  , 
+jib ˆ2ˆ3 
+  and  
+kc ˆ  
+ where 
+kji ˆ,ˆ,ˆ are unit vectors, along the X, Y and Z-axis respectively. 
+The unit vectors 
+rˆ along the direction of sum of these vector is
+ [Kerala CET (Engg.) 2003] 
+(a) 
+)ˆˆˆ(
+3
+1ˆ kjir   (b) 
+)ˆˆˆ(
+2
+1ˆ kjir   
+(c) 
+)ˆˆˆ(3
+1ˆ kjir   (d) 
+)ˆˆˆ(
+2
+1ˆ kjir   
+30. The angle between the two vectors
+kjiA ˆ5ˆ4ˆ3 
+ and 
+kjiB ˆ5ˆ4ˆ3 
+
+ is   [DPMT 2000] 
+(a) 60° (b) Zero 
+(c) 90° (d) None of these 
+31. The position vector of  a particle is determined by the expression 
+kjtitr ˆ7ˆ4ˆ3 22 
+ 
+The distance traversed in first 10 sec is  [DPMT 2002] 
+(a) 500 m (b) 300 m 
+(c) 150 m (d) 100 m 
+32. Unit vector parallel to the resultant of vectors 
+jiA ˆ3ˆ4 
+ and 
+jiB ˆ8ˆ8 
+
+will be   [BHU 1995] 
+(a) 
+13
+ˆ5ˆ24 ji  (b) 
+13
+ˆ5ˆ12 ji  
+(c) 
+13
+ˆ5ˆ6 ji   (d) None of these 
+33. The component of vector 
+jiA ˆ3ˆ2  along the vector 
+ji ˆˆ  is 
+  [KCET 1997] 
+(a) 
+2
+5  (b) 
+210  
+(c) 
+25  (d) 5 
+34. The angle between the two vectors 
+kjiA ˆ5ˆ4ˆ3 
+  and 
+kjiB ˆ5ˆ4ˆ3 
+
+ will be    [Pb. CET 2001] 
+(a) 90° (b) 0° 
+(c) 60° (d) 45° 
+ 
+Addition and Subtraction of Vectors 
+1. There are two force vectors, one of 5 N and other of 12 N at what 
+angle the two vectors be added to get resultant vector of 17 N, 7 N 
+and 13 N respectively 
+ (a) 0°, 180° and 90° (b) 0°, 90° and 180° 
+ (c) 0°, 90° and 90° (d) 180°, 0° and 90° 
+2. If  
+jiA ˆ3ˆ4   and 
+jiB ˆ8ˆ6   then magnitude and direction of 
+BA
+ will be 
+================ PAGE INDEX 13 ================
+ 
+ Vectors 11 
+(a) 
+)4/3(tan,5 1  (b) 
+)2/1(tan,55 1  
+(c) 
+)5(tan,10 1  (d) 
+)4/3(tan,25 1  
+3. A truck travelling due north at 20 m/s turns west and travels at the 
+same speed. The change in its velocity be  
+[UPSEAT 1999] 
+(a) 40 m/s N–W (b) 
+220 m/s N–W 
+(c) 40 m/s S–W (d) 
+220  m/s S–W 
+4. If the sum of two unit vectors is a unit vector, then magnitude of 
+difference is    [CPMT 1995; CBSE PMT 1989] 
+(a) 
+2  (b) 
+3  
+(c) 
+2/1  (d) 
+5  
+5. 
+kjBjiA ˆˆ3,ˆˆ2   and 
+kiC ˆ2ˆ6  . 
+ Value of 
+CBA 32   would be  
+(a) 
+kji ˆ4ˆ5ˆ20   (b) 
+kji ˆ4ˆ5ˆ20   
+(c) 
+kji ˆ20ˆ5ˆ4   (d) 
+kji ˆ10ˆ4ˆ5   
+6. An object of m kg with speed of v m/s strikes a wall at an angle  
+and rebounds at the same speed and same angle. The magnitude of 
+the change in momentum of the object will be  
+(a) 
+cos2 vm   
+(b) 
+sin2 vm  
+(c) 0 
+(d) 
+vm2  
+7. Two forces, each of magnitude  F have a resultant of the same 
+magnitude F. The angle between the two forces is  
+ [CBSE PMT 1990]  
+(a) 45° (b) 120° 
+(c) 150° (d) 60°  
+8. For the resultant of the two vectors to be maximum, what must be 
+the angle between them 
+(a) 0° (b) 60° 
+(c) 90° (d) 180°  
+9. A particle is simultaneously acted by two forces equal to 4 N and 3 
+N. The net force on the particle is  [CPMT 1979] 
+(a) 7 N (b) 5 N 
+(c) 1 N (d) Between 1 N and 7 N  
+10. Two vectors 
+A and 
+B lie in a plane, another vect or 
+C lies outside 
+this plane, then the resultant of these three vectors i.e.,
+CBA     [CPMT 1983] 
+(a) Can be zero  
+(b) Cannot be zero 
+(c) Lies in the plane containing 
+BA   
+(d) Lies in the plane containing 
+C
+   
+11. If the resultant of the two forces has a magnitude smaller than the 
+magnitude of larger force, the two forces must be 
+(a) Different both in magnitude and direction 
+(b) Mutually perpendicular to one another 
+(c) Possess extremely small magnitude  
+(d) Point in opposite directions   
+12. Forces 
+1F  and 
+2F  act on a point mass in two mutually 
+perpendicular directions. The resultant force on the point mass will 
+be   [CPMT 1991] 
+(a) 
+21 FF   (b) 
+21 FF   
+(c) 
+2
+2
+2
+1 FF   (d) 
+2
+2
+2
+1 FF    
+13. If 
+|,||||| BABA  the angle between 
+A and 
+B  is 
+(a) 60° (b) 0° 
+(c) 120° (d) 90°  
+14. Let  the angle between two nonzero vectors 
+A  and 
+B  be 120° and 
+resultant be 
+C  
+(a) 
+C  must be equal to 
+|| BA  
+(b) 
+C  must be less than 
+|| BA  
+(c) 
+C  must be greater than 
+|| BA  
+(d) 
+C  may be equal to 
+|| BA  
+15. The magnitude of vector 
+BA,  and 
+C  are respectively 12, 5 and 13 
+units and 
+CBA   then the angle between 
+A  and 
+B  is    [CPMT 1997]  
+(a) 0 (b) 
+  
+(c) 
+2/  (d) 
+4/   
+16. Magnitude of vector which comes on addition of two  vectors, 
+ji ˆ7ˆ6 
+ and 
+ji ˆ4ˆ3   is   [BHU 2000]  
+(a) 
+136  (b) 
+2.13  
+(c) 
+202  (d) 
+160   
+17. A particle has displacement of 12 m towards east and 5 m towards 
+north then 6 m vertically upward. The sum of these displacements is   [AIIMS 1998] 
+(a) 12 (b) 10.04 m 
+(c) 14.31 m (d) None of these  
+18. The three vectors 
+kjiBkjiA ˆ5ˆ3ˆ,ˆˆ2ˆ3   and 
+kjiC ˆ4ˆˆ2 
+ form 
+(a) An equilateral triangle (b) Isosceles triangle 
+(c) A right angled triangle (d)  No triangle  
+19. For the figure  
+(a) 
+CBA   
+ (b) 
+ACB   
+(c) 
+BAC   
+(d) 
+0 CBA   
+20. Let 
+BAC   then 
+(a) 
+|| C  is always greater then 
+|| A  
+ (b) It is possible to have 
+|||| AC   and 
+|||| BC   
+(c) C is always equal to A + B  
+ (d) C is never equal to A + B  
+21. The value of the sum of two vectors 
+A  and 
+B  with 
+  as the 
+angle between them is    [BHU 1996]  
+(a) 
+cos222 ABBA   (b) 
+cos222 ABBA   
+B
+ 
+ 
+C
+ 
+ 
+A
+ 
+ 
+  v1 
+ v2 
+ 
+================ PAGE INDEX 14 ================
+ 
+  12 Vectors 
+(c) 
+sin222 ABBA   (d) 
+sin222 ABBA    
+22. Following sets of three forces act on a body. Whose resultant cannot 
+be zero    [CPMT 1985] 
+(a) 10, 10, 10 (b) 10, 10, 20 
+(c) 10, 20, 23 (d) 10, 20, 40  
+23. When three forces of 50 N, 30 N and 15 N  act on a body, then the 
+body is  
+(a) At rest  
+(b) Moving with a uniform velocity 
+(c) In equilibrium  
+(d) Moving with an acceleration  
+24. The sum of two forces acting at a point is 16 N. If the resultant 
+force is 8  N and its direction is perpendicular to minimum force 
+then the forces are   [CPMT 1997] 
+(a) 6 N and 10 N (b) 8 N and 8 N 
+(c) 4 N and 12 N (d) 2 N and 14 N  
+25. If vectors P, Q and R have magnitude 5, 12 and 13 units and 
+,RQP 
+ the angle between Q and R is [CEET 1998]  
+(a) 
+12
+5cos 1  (b) 
+13
+5cos 1  
+(c) 
+13
+12cos 1  (d) 
+13
+7cos 1   
+26. The resultant of two vectors A and B is perpendicular to the vector 
+A and its magnitude is equal to half the magnitude of vector B. The 
+angle between A and B is  
+(a) 120° (b) 150° 
+(c) 135° (d) None of these  
+27. What vector must be added to the two vectors 
+kji ˆ2ˆ2ˆ   and 
+,ˆˆˆ2 kji 
+ so that the resultant may be a unit vector along     x-
+axis   [BHU 1990] 
+(a) 
+kji ˆˆˆ2   (b) 
+kji ˆˆˆ2   
+(c) 
+kji ˆˆˆ2   (d) 
+kji ˆˆˆ2   
+28. What is the angle between 
+P  and  the resultant of 
+)( QP  and 
+)( QP
+ 
+(a) Zero (b) 
+)/(tan 1 QP  
+(c) 
+)/(tan 1 PQ  (d) 
+)/()(tan 1 QPQP    
+29. The resultant of 
+P  and 
+Q  is perpendicular to  
+P . What is the 
+angle between 
+P  and 
+Q   
+(a) 
+)/(cos 1 QP  (b) 
+)/(cos 1 QP  
+(c) 
+)/(sin 1 QP  (d) 
+)/(sin 1 QP   
+30. Maximum and minimum magnitudes  of the resultant of two vectors 
+of magnitudes P and Q are in the ratio 
+.1:3 Which of the 
+following relations is true  
+(a) 
+QP 2  (b) 
+QP   
+(c) 
+1PQ  (d) None of these  
+31. The resultant of two vectors 
+P  and 
+Q  is 
+.R  If Q  is doubled, the 
+new resultant is perpendicular to P. Then R equals 
+(a) P (b) (P+Q) 
+(c) Q (d) (P–Q)  
+32. Two forces, 
+1F  and  
+2F  are acting on a body. One force is double 
+that of the other force and the resultant is equal to the greater 
+force. Then the angle between the two forces is  
+ (a) 
+)2/1(cos 1  (b) 
+)2/1(cos 1   
+(c) 
+)4/1(cos 1   (d) 
+)4/1(cos 1   
+33. Given that 
+CBA  and that 
+C  is 
+  to 
+A . Further if 
+|,||| CA 
+then what is the angle between 
+A  and 
+B  
+(a) 
+radian4
+  (b) 
+radian2
+  
+(c) 
+radian4
+3  (d) 
+radian  
+34. A body is at rest under  the action of three forces, two of which are 
+,ˆ6,ˆ4 21 jFiF 
+
+the third force is  [AMU 1996] 
+ (a) 
+ji ˆ6ˆ4   (b) 
+ji ˆ6ˆ4   
+(c) 
+ji ˆ6ˆ4   (d) 
+ji ˆ6ˆ4    
+35. A plane is revolving around the earth with a speed of 100 km/hr at a 
+constant height from the surface of earth. The change in the velocity 
+as it travels half circle is  
+ [RPET 1998; KCET 2000] 
+(a) 200 km/hr (b) 150 km/hr 
+(c) 
+hrkm /2100  (d) 0  
+36. What displacement must be added to the displacement 
+mji ˆ6ˆ25 
+ to give a displacement of 7.0 m pointing in the x- 
+direction 
+(a) 
+ji ˆ6ˆ18   (b) 
+ji ˆ13ˆ32   
+(c) 
+ji ˆ6ˆ18   (d) 
+ji ˆ13ˆ25    
+37. A body moves due East with velocity 20 km/hour and then due 
+North with velocity 15 km/hour. The resultant velocity   
+  [AFMC 1995] 
+(a) 5 km/hour (b) 15 km/hour 
+(c) 20 km/hour (d) 25 km/hour  
+38.  The magnitudes of vectors  
+BA
+
+, and
+C
+ are 3, 4 and 5 units 
+respectively. If 
+CBA
+
+ , the angle between 
+A
+ and 
+B
+ is  
+    [CBSE PMT 1990] 
+(a) 
+2
+  (b) 
+)6.0(cos 1  
+(c) 
+
+
+
+
+
+5
+7tan 1  (d) 
+4
+  
+39. While travelling from one station to another, a car travels 75 km 
+North, 60 km North-east and 20 km East. The minimum distance 
+between the two stations is  [AFMC 1993] 
+(a) 72 km (b) 112 km 
+(c) 132 km (d) 155 km 
+40. A scooter going due east at 10 ms
+–1
+ turns right through an angle of 
+90°. If the speed of the scooter remains unchanged in taking turn, 
+the change is the velocity of the scooter is  
+================ PAGE INDEX 15 ================
+ 
+ Vectors 13 
+   [BHU 1994] 
+(a) 20.0 ms
+–1
+ south eastern direction 
+(b) Zero 
+(c) 10.0 ms
+–1
+ in southern direction 
+(d) 14.14 ms
+–1
+ in south-west direction 
+41. A person goes 10 km north and 20 km east. What will be 
+displacement from initial point   [AFMC 1994, 2003] 
+(a) 22.36 km (b) 2 km 
+(c) 5 km (d) 20 km 
+42. Two forces 
+kjiF ˆ20ˆ10ˆ51 
+ and 
+kjiF ˆ15ˆ5ˆ102 
+  act on 
+a single point. The angle between 
+1F
+ and 
+2F
+  is nearly  
+  [AMU 1995] 
+(a) 30° (b) 45° 
+(c) 60° (d) 90° 
+43. Which pair of the following forces will never give resultant force of 
+2 N   [HP PMT 1999] 
+(a) 2 N and 2 N (b) 1 N and 1 N 
+(c) 1 N and 3 N (d) 1 N and 4 N 
+44. Two forces 3N and 2 N are at an angle  such that the resultant is 
+R. The first force is now increased to 6 N and the resultant become 
+2R. The value of  is [HP PMT 2000] 
+(a) 30° (b) 60° 
+(c) 90° (d) 120° 
+45. Three concurrent forces of the same magnitude are in equilibrium. 
+What is the angle between the forces ? Also name the triangle 
+formed by the forces as sides  
+     [JIPMER 2000] 
+(a) 60° equilateral triangle   
+(b) 120° equilateral triangle   
+(c) 120°, 30°, 30° an isosceles triangle 
+(d) 120° an obtuse angled triangle 
+46. If 
+|||||| BABA
+
+ , then angle between 
+A
+ and 
+B
+  will be 
+   [CBSE PMT 2001] 
+(a) 90° (b) 120° 
+(c) 0° (d) 60° 
+47. The maximum and minimum magnitude of the resultant of two 
+given vectors are 17 units and 7 unit respectively. If these two 
+vectors are at right angles to each other, the magnitude of their 
+resultant is  [Kerala CET (Engg.) 2000] 
+(a) 14 (b) 16 
+(c) 18 (d) 13 
+48. The vector sum of two forces is perpendicular to their vector 
+differences. In that case, the forces   [CBSE PMT 2003] 
+(a) Are equal to each other in magnitude  
+(b) Are not equal to each other in magnitude  
+(c) Cannot be predicted   
+(d) Are equal to each other 
+49. y component of velocity is 20 and x component of velocity is 10. The 
+direction of motion of the body with the horizontal at this instant is   [Manipal 2003] 
+(a) 
+)2(tan 1  (b) 
+)2/1(tan 1  
+(c) 45° (d) 0° 
+50. Two forces of 12 N and 8 N act upon a body. The resultant force on 
+the body has maximum value of  [Manipal 2003] 
+(a) 4 N (b) 0 N 
+(c) 20 N (d) 8 N 
+51. Two equal forces (P each) act at a point inclined to each other at an 
+angle of 120°. The magnitude of their resultant is     [Karnataka CET 2004] 
+(a) 
+2/P  (b) 
+4/P  
+(c) 
+P  (d) 2P 
+52. The vectors 
+ji 85  and
+ji 72  are added. The magnitude of the 
+sum of these vector is    [BHU 2000] 
+(a) 
+274  (b) 38 
+(c) 238 (d) 560 
+53. Two vectors 
+BA
+
+ and  are such that 
+BABA
+
+ .  Then 
+   [AMU (Med.) 2000] 
+(a)  
+0. BA
+  (b) 
+0 BA
+  
+(c) 
+0A
+  (d) 
+0B  
+ 
+Multiplication of Vectors 
+1. If a vector 
+kji ˆ8ˆ3ˆ2  is perpendicular to the vector 
+kij ˆˆ4ˆ4 
+. Then the value of 
+  is  [CBSE PMT 2005] 
+(a) –1 (b) 
+2
+1  
+(c) 
+2
+1  (d) 1 
+2.  If two vectors 
+kji ˆˆ3ˆ2   and 
+kji ˆˆ6ˆ4   are parallel to 
+each other then value of  be  
+(a)  0 (b) 2 
+(c) 3 (d)  4 
+3.  A body, acted upon by a force of 50 N is displaced through a 
+distance 10 meter in a direction making an angle of 60° wit h the 
+force. The work done by the force be  
+(a) 200 J (b) 100 J 
+(c) 300 (d) 250 J 
+4. A particle moves from position 
+kji ˆ6ˆ2ˆ3   to 
+kji ˆ9ˆ13ˆ14   
+due to a uniform force of 
+.)ˆ3ˆˆ4( Nkji   If the displacement in 
+meters then work done will be  
+[CMEET 1995; Pb. PMT 2002, 03]  
+(a)  100 J (b) 200 J 
+(c) 300 J (d) 250 J 
+5.  If for two vector 
+A  and 
+B , sum 
+)( BA  is perpendicular to the 
+difference 
+)( BA . The ratio of their magnitude is 
+(a) 1 (b) 2 
+================ PAGE INDEX 16 ================
+ 
+  14 Vectors 
+(c) 3 (d) None of these 
+6.  The angle between the vectors 
+A  and 
+B  is 
+. The value of the 
+triple product 
+)(. ABA   is    [CBSE PMT 1991, 2005] 
+(a) 
+BA 2  (b) Zero 
+(c)  
+sin2 BA  (d) 
+cos2 BA  
+7.  If 
+
+ ABBA  then the angle between A and B is 
+ [AIEEE 2004] 
+(a)  / 2
+  (b)  / 3 
+(c)  (d)  / 4 
+8. If 
+kjiA ˆ2ˆˆ3   and 
+kjiB ˆ4ˆ2ˆ2   then value of 
+|| BA
+ will be  
+(a) 
+28  (b) 
+38  
+(c)  
+58  (d) 
+85  
+9. The torque of the force 
+NkjiF )ˆ4ˆ3ˆ2(   acting at the point 
+)ˆ3ˆ2ˆ3( kjir 
+m about the origin be 
+[CBSE PMT 1995] 
+(a) 
+kji ˆ12ˆ6ˆ6   (b) 
+kji ˆ13ˆ6ˆ17   
+(c) 
+kji ˆ12ˆ6ˆ6   (d) 
+kji ˆ13ˆ6ˆ17   
+10. If 
+,CBA  then which of the following statements is wrong 
+(a) 
+AC  (b) 
+BC  
+(c) 
+)( BAC   (d) 
+)( BAC   
+11. If a particle of mass m is moving with constant velocity v parallel to 
+x-axis in x-y plane as shown in fig. Its angular momentum with 
+respect to origin at any time t will be  
+(a) 
+kmvb ˆ  (b) 
+kmvb ˆ  
+(c) 
+imvb ˆ  (d) 
+imv ˆ  
+12. Consider two vectors 
+kiF ˆ5ˆ21   and 
+.ˆ4ˆ32 kjF   The 
+magnitude of the scalar product of these vectors is  
+ [MP PMT 1987] 
+(a) 20 (b) 23 
+(c) 
+335  (d) 26  
+13. Consider a vector 
+.ˆ3ˆ4 jiF  Another vector that is 
+perpendicular to 
+F  is 
+(a) 
+ji ˆ3ˆ4   (b) 
+iˆ6  
+(c) 
+kˆ7  (d) 
+ji ˆ4ˆ3    
+14. Two vectors 
+A  and 
+B  are at right angles to each other, when   [AIIMS 1987] 
+(a) 
+0 BA  (b) 
+0 BA  
+(c) 
+0 BA  (d) 
+0. BA   
+15. If 
+|||| 2121 VVVV  and 
+2V  is finite, then  [CPMT 1989] 
+(a) 
+1V  is parallel to 
+2V    
+ (b) 
+21 VV    
+(c) 
+1V  and 
+2V  are mutually perpendicular 
+ (d) 
+|||| 21 VV    
+16. A force 
+)ˆ3ˆ5( jiF  Newton is applied over a particle which 
+displaces it from its origin to the point 
+)ˆ1ˆ2( jir   metres. The 
+work done on the particle is   [MP PMT 1995] 
+(a) – 7 J (b) +13 J 
+(c) +7 J (d)  +11 J 
+17. The angle between two vectors 
+kji ˆˆ3ˆ2   and 
+kji ˆ4ˆ2ˆ   is    [EAMCET 1990] 
+(a) 0° (b) 90° 
+(c) 180° (d) None of the above  
+18. The angle between the vectors 
+)ˆˆ( ji   and 
+)ˆˆ( kj  is 
+    [EAMCET 1995] 
+(a) 30° (b) 45° 
+(c) 60° (d) 90°  
+19. A particle moves with a velocity 
+smkji /ˆ3ˆ4ˆ6  under the 
+influence of a constant force 
+.ˆ5ˆ15ˆ20 NkjiF  The 
+instantaneous power applied to the particle is 
+ [CBSE PMT 2000]  
+(a) 35 J/s (b) 45 J/s 
+(c) 25 J/s (d) 195 J/s  
+20. If 
+,. PQQP  then angle between 
+P and 
+Q  is [AIIMS 1999] 
+(a) 0° (b) 30° 
+(c) 45° (d) 60°  
+21. A force 
+kji ˆ4ˆ6ˆ5F   acting on a body, produces a 
+displacement 
+.ˆ5ˆ6S ki  Work done by the force is 
+ [KCET 1999]   
+(a) 10 units  (b) 18 units 
+(c) 11 units (d) 5 units  
+22. The angle between the two vector s 
+jiA ˆ5ˆ5   and 
+jiB ˆ5ˆ5 
+will be    [CPMT 2000]  
+(a) Zero (b) 45° 
+(c) 90° (d) 180°  
+23. The vector 
+kjaiaP ˆ3ˆˆ   and 
+kjiaQ ˆˆ2ˆ   are 
+perpendicular to each other. The positive value of a is   
+[AFMC 2000; AIIMS 2002] 
+(a) 3 (b) 4 
+(c) 9 (d) 13  
+24. A body, constrained to move in the Y-direction is subjected to a 
+force given by 
+.)ˆ6ˆ15ˆ2( NkjiF   What is the work done by 
+this force in moving the body a distance 10 m along the Y-axis    [CBSE PMT 1994] 
+(a) 20 J (b) 150 J 
+(c) 160 J (d) 190 J  
+================ PAGE INDEX 17 ================
+ 
+ Vectors 15 
+25. A particle moves in the x-y plane under the action of a force 
+F  such 
+that the value of its line ar momentum 
+)(P  at anytime t is 
+.sin2,cos2 tptP yx 
+The angle 
+ between 
+F  and 
+P  at a 
+given time t. will be [MNR 1991; UPSEAT 2000] 
+(a) 
+ 0  (b) 
+ 30  
+(c) 
+ 90  (d) 
+ 180   
+26. The area of the parallelogram represented by the vectors 
+jiA ˆ3ˆ2 
+ and 
+jiB ˆ4ˆ   is  
+(a) 14 units (b) 7.5 units 
+(c) 10 units (d) 5 units  
+27. A vector 
+1F is along the positive X-axis. If its  vector product with 
+another vector 
+2F is zero then 
+2F  could be  
+    [MP PMT 1987] 
+(a) 
+jˆ4  (b) 
+)ˆˆ( ji   
+(c) 
+)ˆˆ( kj  (d) 
+)ˆ4( i   
+28. If for two vectors 
+A  and 
+,0,  BAB the vectors  
+(a) Are perpendicular to each other 
+(b) Are parallel to each other 
+(c) Act at an angle of 60°  
+(d) Act at an angle of 30°  
+29. The angle between vectors 
+)BA(   and 
+)AB(   is   
+(a) Zero (b)  
+(c) 
+4/  (d) 
+2/   
+30. What is the angle between 
+)( QP  and 
+)( QP  
+(a) 0 (b) 
+2
+  
+(c) 
+4
+  (d) 
+   
+31. The resultant of the two vectors having magnitude 2 and 3 is 1. 
+What is their cross product   
+(a) 6 (b) 3 
+(c) 1 (d) 0  
+32. Let 
+ sinˆcosˆ AjAiA   be any vector. Another vecto r 
+B  
+which is normal to A is    [BHU 1997] 
+(a) 
+ sincosˆ BjBi   (b) 
+ cossinˆ BjBi   
+(c) 
+ cossinˆ BjBi   (d) 
+ sincosˆ BjBi    
+33. The angle between two vectors given by 
+kji 366   and 
+kji 447 
+ is   [EAMCET (Engg.) 1999]  
+(a) 
+
+
+
+
+
+
+3
+1cos 1  (b) 
+
+
+
+
+
+
+3
+5cos 1  
+(c) 
+
+
+
+
+
+
+3
+2sin 1  (d) 
+
+
+
+
+
+
+3
+5sin 1   
+34. A vector 
+A  points vertically upward and 
+B points towards north. 
+The vector product 
+BA  is  [UPSEAT 2000] 
+(a) Zero (b) Along west 
+(c) Along east (d) Vertically downward  
+35. Angle between the vectors 
+)ˆˆ( ji   and 
+)ˆˆ( kj  is  
+(a) 90° (b) 0° 
+(c) 180° (d) 60°  
+36. The position  vectors of points A, B, C and D are 
+kjiCkjiBkjiA ˆ3ˆ9ˆ7,ˆ6ˆ5ˆ4,ˆ5ˆ4ˆ3 
+ and 
+jiD ˆ6ˆ4 
+ then the displacement vectors AB and CD are  
+(a) Perpendicular   
+(b) Parallel 
+(c) Antiparallel  
+(d) Inclined at an angle of 60°  
+37. If force 
+jiF ˆ5ˆ4)(  and di splacement 
+kis ˆ6ˆ3)(   then the 
+work done is    [Manipal 1995] 
+(a) 
+34  (b) 
+65  
+(c) 
+36  (d) 
+64   
+38. If 
+|,.||| BABA   then angle between 
+A and 
+B  will be  
+ [AIIMS 2000; Manipal 2000] 
+(a) 30° (b) 45° 
+(c) 60° (d) 90°  
+39. In an clockwise system    [CPMT 1990] 
+(a) 
+ikj ˆˆˆ   (b) 
+0ˆ.ˆ ii  
+(c) 
+1ˆˆ  jj  (d) 
+1ˆ.ˆ jk   
+40. The linear velocity of a rotating body is given by 
+,rv  where 
+  
+is the angular velocity and 
+r  is the radius vector. The angular velocity 
+of a body is 
+kji ˆ2ˆ2ˆ   and the radius vector 
+,ˆ3ˆ4 kjr   
+then 
+|| v  is 
+(a) 
+29 units (b) 
+31 units  
+(c) 
+37 units (d) 
+41 units  
+41. Three vectors 
+ba, and 
+c  satisfy the relation 
+0. ba  and 
+.0. ca
+ The vector 
+a  is parallel to  [AIIMS 1996]  
+(a) 
+b  (b) 
+c  
+(c) 
+cb .  (d) 
+cb   
+42. The diagonals of a parallelogram are 
+iˆ2  and 
+.ˆ2 j What is the area 
+of the parallelogram 
+(a) 0.5 units (b) 1 unit 
+(c) 2 units (d) 4 units  
+43. What is the unit vector perpendicular to the following vectors 
+kji ˆˆ2ˆ2 
+ and 
+kji ˆ2ˆ3ˆ6   
+================ PAGE INDEX 18 ================
+ 
+  16 Vectors 
+(a) 
+175
+ˆ18ˆ10ˆ kji   (b) 
+175
+ˆ18ˆ10ˆ kji   
+(c) 
+175
+ˆ18ˆ10ˆ kji   (d) 
+175
+ˆ18ˆ10ˆ kji    
+44. The area of the parallelogram whose sides are represented by the 
+vectors 
+kj ˆ3ˆ   and 
+kji ˆˆ2ˆ   is 
+(a) 
+61 sq.unit (b) 
+59 sq.unit 
+(c) 
+49 sq.unit (d) 
+52 sq.unit  
+45. The position of a particle is given by 
+)2( kjir   momentum 
+).243( kjiP 
+The angular momentum is perpendicular to  [EAMCET (Engg.) 1998] 
+(a) x-axis  
+(b) y-axis 
+(c) z-axis  
+(d) Line at equal angles to all the three axes  
+46. Two vector A and B have equal magnitudes. Then the vector A + B 
+is  perpendicular to  
+(a) 
+BA  (b) A – B 
+(c) 3A – 3B (d) All of these  
+47. Find the torque of a force 
+kjiF ˆ5ˆˆ3   acting at the point 
+kjir ˆˆ3ˆ7 
+  
+[CPMT 1997; CBSE PMT 1997; CET 1998; DPMT 2004] 
+(a) 
+kji ˆ16ˆ38ˆ14   (b) 
+kji ˆ6ˆ4ˆ4   
+(c) 
+kji ˆ4ˆ4ˆ21   (d) 
+kji ˆ16ˆ34ˆ14    
+48. The value of 
+)()( BABA   is    
+ [RPET 1991, 2002; BHU 2002] 
+(a) 0 (b) 
+22 BA   
+(c) 
+AB  (d) 
+)(2 AB   
+49. If 
+A
+  and 
+B
+  are perpendicular  vectors and vector 
+kjiA ˆ3ˆ7ˆ5 
+
+ and 
+.ˆˆ2ˆ2 kajiB 
+  The value of a is 
+[EAMCET 1991] 
+(a) – 2 (b) 8 
+(c) – 7 (d) – 8 
+50. A force vector applied on a mass is represented as 
+kjiF ˆ10ˆ8ˆ6 
+
+ and accelerates with 
+2/1 sm . What will be the 
+mass of the body in kg.    
+[CMEET 1995] 
+(a) 
+210  (b) 
+20  
+(c) 
+102  (d) 10 
+51. Two adjacent sides of a parallelogram are represented by the two 
+vectors 
+kji ˆ3ˆ2ˆ   and 
+kji ˆˆ2ˆ3  . What is the area of 
+parallelogram    
+[AMU 1997] 
+(a) 8 (b) 
+38  
+(c) 
+83  (d) 192 
+52. The position vectors of radius are 
+kji ˆˆˆ2   and 
+kji ˆˆ3ˆ2   
+while those of linear momentum are 
+.ˆˆ3ˆ2 kji   Then the angular 
+momentum is    [BHU 1997] 
+(a) 
+ki ˆ4ˆ2   (b) 
+ki ˆ8ˆ4   
+(c) 
+kji ˆ2ˆ4ˆ2   (d) 
+ki ˆ8ˆ4   
+53. What is the value of linear velocity, if 
+kji ˆˆ4ˆ3   and 
+kjir ˆ6ˆ6ˆ5 
+  [CBSE PMT 1999; CPMT 1999, 2001;        
+  Pb. PMT 2000; Pb. CET 2000] 
+(a) 
+kji ˆ3ˆ2ˆ6   (b) 
+kji ˆ8ˆ2ˆ6   
+(c) 
+kji ˆ6ˆ13ˆ4   (d) 
+kji ˆ2ˆ13ˆ18   
+54. Dot product of two mutual perpendicular vector is  
+[Haryana CEET 2002] 
+(a) 0 (b) 1 
+(c)  (d) None of these 
+55. When 
+|,|||. BABA 
+  then   [Orissa JEE 2003] 
+(a) 
+A
+  and 
+B
+  are perpendicular to each other  
+(b) 
+A
+  and 
+B
+  act in the same direction 
+(c) 
+A
+  and 
+B
+  act in the opposite direction 
+(d) 
+A
+  and 
+B
+  can act in any direction 
+56. If 
+,.3|| BABA
+
+  then the value of
+|| BA
+
+  is  
+[CBSE PMT 2004] 
+(a) 
+2/1
+22
+3 
+
+
+
+
+  ABBA  (b) 
+BA  
+(c) 
+2/122 )3( ABBA   (d) 
+2/122 )( ABBA   
+57. A force 
+kjciF ˆ2ˆˆ3 
+  acting on a particle causes a 
+displacement 
+kjiS ˆ3ˆ2ˆ4 
+  in its own direction. If the work 
+done is 6J, then the value of c will be  [DPMT 1997] 
+(a) 12 (b) 6 
+(c) 1 (d) 0 
+58. A force 
+NjiF )ˆ3ˆ5( 
+ is applied over a particle which displaces it 
+from its original position to the point 
+)ˆ1ˆ2( jis  m. The work done 
+on the particle is    [BHU 2001] 
+(a) + 11 J (b) + 7 J 
+(c) + 13 J (d) – 7 J 
+================ PAGE INDEX 19 ================
+ 
+ Vectors 17 
+59. If a vector 
+A
+  is parallel to another vector 
+B
+  then the resultant of 
+the vector 
+BA
+
+  will be equal to  
+   [Pb. CET 1996] 
+(a) A (b) 
+A
+  
+(c) Zero vector  (d) Zero 
+ 
+ 
+Lami's Theorem 
+ 
+1. P, Q and R  are three coplanar forces acting at a point and are in 
+equilibrium. Given P = 1.9318 kg wt, 
+1sin 0.9659, the value of R 
+is ( in kg wt) [CET 1998] 
+ 
+(a) 0.9659 
+(b) 2 
+(c) 1 
+(d) 
+2
+1   
+2. A body is in equilibrium under the action of three coplanar forces P, 
+Q and R as shown in the figure. Select the correct statement    [AFMC 1994] 
+(a) 
+ sinsinsin
+RQP   
+ (b) 
+ coscoscos
+RQP   
+(c) 
+ tantantan
+RQP   
+ (d) 
+ sinsinsin
+RQP    
+3. If a body is in equilibrium under a set of non -collinear forces, then 
+the minimum number of forces has to be  
+    [AIIMS 2000] 
+(a) Four (b) Three 
+(c) Two  (d) Five  
+4. How many minimum number of non-zero vectors in different planes 
+can be added to give zero resultant  
+(a) 2 (b) 3 
+(c) 4 (d) 5  
+5. As shown in figure the tension in the horizontal cord is 30 N. The 
+weight W  and tension in the string OA in Newton are   
+  [DPMT 1992] 
+ 
+(a) 30
+,3 30 
+ (b) 30
+,3 60 
+(c) 60
+,3 30 
+ (d) None of these  
+ 
+Relative Velocity 
+ 
+1. Two cars are moving in the same direction with the same speed 30 
+km/hr. They are separated by a distance of 5 km, the speed of a car 
+moving in the opposite direction if it meet s these two cars at an 
+interval of 4 minutes, will be 
+(a) 40 km/hr (b) 45 km/hr 
+(c) 30 km/hr (d) 15 km/hr 
+2. A man standing on a road hold his umbrella at 30° with the vertical 
+to keep the rain away. He throws the umbrella and starts running at 
+10 km/hr. He finds that raindrops are hitting his head vertically, the 
+speed of raindrops with respect to the road will be  
+ (a) 10 km/hr (b) 20 km/hr 
+ (c) 30 km/hr (d) 40 km/hr 
+3. In the above problem, the speed of raindrops w.r.t. the moving man, 
+will be 
+(a) 
+hkm /2/10  (b) 5 km/h 
+(c) 
+hkm /310  (d) 
+hkm /3/5  
+4. A boat is moving with a velocity 3i + 4j with respect to ground. The 
+water in the river is moving with a velocity – 3i – 4j with respect to 
+ground. The relative velocity of the boat with respect to water is    [CPMT 1998] 
+(a) 8j  (b) – 6i – 8j  
+(c) 6i +8j  (d) 
+25  
+5. A 150 m long train is moving to north at a speed of 10 m/s. A parrot 
+flying towards south with a speed of 5 m/s crosses the train. The 
+time taken by the parrot the cross to train would be:    [CBSE PMT 1992] 
+(a) 30 s (b) 15 s 
+(c) 8 s (d) 10 s 
+6. A river is flowing from east to west at a speed of 5 m/min. A man 
+on south bank of river, capable of swimming 10m/min in still water, 
+wants to swim across the river in shortest time. He should swim       [BHU 1998] 
+(a) Due north  
+(b) Due north-east  
+(c) Due north-east with double the speed of river 
+(d) None of these  
+7. A person aiming to reach the exactly opposite point on the bank of 
+a stream is swimming with a speed of 0.5 m/s at an angle of 120
+0
+ 
+with the direction of flow of water. The speed of water in the 
+stream is    [CBSE PMT 1999] 
+(a) 1 m/s (b) 0.5 m/s 
+(c) 0.25 m/s (d) 0.433 m/s  
+8. A moves with 65 km/h while B is coming back of A with 80 km/h. 
+The relative velocity of B with respect to A is  
+[AFMC 2000] 
+(a) 80 km/h (b) 60 km/h 
+(c) 15 km/h (d) 145 km/h   
+9. A thief is running away on a straight road on a jeep moving with a 
+speed of 9 m/s. A police man chases him on a motor cycle moving 
+at a speed of 10 m/s. If the instantaneous separation of jeep from the 
+motor cycle is 100 m, how long will it take for the policemen to 
+catch the thief 
+(a) 1 second  (b) 19 second 
+(c) 90 second (d) 100 second 
+10. A man can swim with velocity v relative to water. He has to cross a 
+river of wid th d flowing with a velocity u (u > v). The distance 
+through which he is carried down stream by the river is x. Which of 
+the following statement is correct  
+(a) If he crosses the river in minimum time 
+v
+dux   
+150o 
+ 
+P 
+ Q 
+ 
+R 
+ 
+1 
+ 
+2 
+ 
+ 
+ 
+Q 
+ P 
+ 
+R 
+ 
+ 
+ 
+ 
+ 
+A 
+ 
+O 
+ 
+W 
+ 
+30o 
+ 
+30 N 
+ 
+================ PAGE INDEX 20 ================
+ 
+  18 Vectors 
+(b) x can not be less than 
+v
+du  
+(c) For x to be minimum he has to swim in a direction making an 
+angle of 
+
+
+
+
+ 
+u
+v1sin2
+  with the direction of the flow of 
+water 
+(d) x will be max. if he swims in a direction making an angle  of 
+u
+v1sin2
+
+ with direction of the flow of water 
+11. A man sitting in a bus travelling in a direction from west to east 
+with a speed of 40 km/h observes that the rain -drops are falling 
+vertically down. To the another man standing on ground the rain 
+will appear   [HP PMT 1999] 
+(a) To fall vertically down 
+(b) To fall at an angle going from west to east 
+(c) To fall at an angle going from east to west  
+(d) The information given is insufficient to decide the direction of 
+rain.  
+12. A boat takes two hours to travel 8 km and back in still water. If the 
+velocity of water is 4 km/h, the time taken for going upstream 8 km 
+and coming back is   [EAMCET 1990] 
+(a) 2h  
+(b) 2h 40 min 
+(c) 1h 20 min  
+(d) Cannot be estimated with the information given  
+13. A 120 m long train is moving towards west with a speed of 10 m/s. A 
+bird flying towards east with a speed of 5 m/s crosses the train. The 
+time taken by the bird to cross the train will be   [Manipal 2002] 
+(a) 16 sec (b) 12 sec 
+(c) 10 sec (d) 8 sec 
+14. A boat crosses a river with a velocity of 8 km/h. If the resulting 
+velocity of boat is 10 km/h then the velocity of river water is    [CPMT 2001] 
+(a) 4 km/h (b) 6 km/h 
+(c) 8 km/h (d) 10 km/h 
+ 
+ 
+ 
+ 
+1. If a vector 
+P  making angles , , and  respectively with the X, Y 
+and Z axes respectively.  
+ Then 
+  222 sinsinsin  
+(a) 0 (b) 1 
+(c) 2 (d)  3 
+2. If the resultant of n forces of different magnitudes acting at a point 
+is zero, then the minimum value of n is  [SCRA 2000] 
+(a) 1 (b) 2 
+(c) 3 (d) 4 
+3. Can the resultant of 2 vectors be zero [IIIT 2000] 
+(a) Yes, when the 2 vectors are same in magnitude and direction 
+(b) No 
+(c) Yes, when the 2 vectors are same in magnitude but opposite in 
+sense 
+(d) Yes, when the 2 vectors are same in magnitude making an 
+angle of 
+3
+2 with each other 
+4. The sum of the magnitudes of two forces acting at point is 18 and 
+the magnitude of their resultant is 12. If the resultant is at 90° with 
+the force of smaller magnitude, what are the, magnitudes of forces [Roorkee 1992; AIEEE 2002] 
+(a) 12, 5 (b) 14, 4 
+(c) 5, 13 (d) 10, 8 
+5. A vector 
+a  is turned without a change in its length through a small 
+angle 
+.d The value of 
+|| a  and 
+a  are respectively  
+(a) 
+da,0  (b) 
+0,da  
+(c) 0, 0 (d) None of these 
+6. Find the resultant of three vectors 
+OBOA,  and 
+OC  shown in the 
+following figure. Radius of the circle is R. 
+(a) 2R 
+(b) 
+)21( R  
+(c) 
+2R  
+(d) 
+)12( R   
+7. Figure shows ABCDEF as a regular hexagon. What is the value of 
+AFAEADACAB 
+ 
+(a) 
+AO  
+(b) 
+AO2  
+(c) 
+AO4  
+(d) 
+AO6   
+8. The length of second's hand in watch is 1 cm. The change in velocity 
+of its tip in 15 seconds is   [MP PMT 1987]  
+(a) Zero (b) 
+sec/
+230
+cm  
+(c) 
+sec/30 cm  (d) 
+sec/30
+2 cm  
+9. A particle moves towards east with velocity 5 m/s. After 10 seconds 
+its direction changes towards north with same velocity. The average 
+acceleration of the particle is  
+ [CPMT 1997; IIT-JEE 1982] 
+B 
+ 
+C 
+ 
+O 
+ 
+A 
+ 
+45o 
+ 
+45o 
+ 
+O 
+ 
+F 
+ 
+A 
+ 
+E 
+ 
+D 
+ 
+C 
+ 
+B 
+ 
+================ PAGE INDEX 21 ================
+ 
+ Vectors 19 
+(a) Zero (b) 
+WNsm 2/
+2
+1  
+(c) 
+ENsm 2/
+2
+1  (d)  
+WSsm 2/
+2
+1  
+10. A force 
+)ˆˆ( jxiyKF   (where K is a positive constant) acts on 
+a particle moving in the x-y plane. Starting from the origin, the 
+particle is taken along the positive x- axis to the point ( a, 0) and 
+then parallel to the y-axis to the point (a, a). The total work done by 
+the forces 
+F  on the particle is  
+ [IIT-JEE 1998] 
+(a) 
+22 Ka  (b) 
+22 Ka  
+(c) 
+2Ka  (d) 
+2Ka  
+11. The vectors from origin to the points A and B are 
+kjiA ˆ2ˆ6ˆ3 
+ and 
+kjiB ˆ2ˆˆ2   respectively. The area of 
+the triangle OAB be 
+(a) 
+17
+2
+5  sq.unit (b) 
+17
+5
+2  sq.unit 
+(c) 
+175
+3  sq.unit (d) 
+173
+5  sq.unit 
+12. A metal sphere is hung  by a string fixed to a wall. The sphere is 
+pushed away from the wall by a stick. The forces acting on the 
+sphere are shown in the second diagram. Which of the following 
+statements is wrong 
+(a) 
+tanWP   
+(b) 
+0 WPT  
+(c) 
+222 WPT   
+(d) 
+WPT    
+13. The speed of a boat is 5 km/h in still water. It crosses a river of 
+width 1  km along the shortest possible path in 15 minutes. The 
+velocity of the river water is  
+ [IIT 1988; CBSE PMT 1998, 2000] 
+(a) 1 km/h (b) 3 km/h 
+(c) 4 km/h  (d) 5 km/h 
+14. A man crosses a 320 m wide river perpendicular to the current in 4 
+minutes. If in still water he can swim with a speed 5/3 times that of 
+the current, then the speed of the current, in m/min is              [Roorkee 1998] 
+(a) 30 (b) 40 
+(c) 50 (d) 60.  
+ 
+ 
+ 
+ 
+ 
+Read the assertion and reason carefully to mark the correct option out of 
+the options given below: 
+(a) If both assertion and reason are true and the reason is the correct 
+explanation of the assertion. 
+(b) If both assertion and reason are true but reason is not the correct 
+explanation of the assertion. 
+(c) If assertion is true but reason is false. 
+(d) If the assertion and reason both are false.  
+(e) If assertion is false but reason is true. 
+ 
+1. Assertion  : 
+BA
+
+  is perpendicular to both 
+BA
+
+  as well as 
+.BA
+
+
+ 
+ Reason  : 
+BA
+
+  as well as 
+BA
+
+  lie in the plane 
+containing 
+A
+  and 
+B
+ , but 
+BA
+
+  lies 
+perpendicular to the plane containing 
+A
+  and 
+.B
+  
+2. Assertion  : Angle between 
+iji ˆ and ˆˆ   is 45° 
+ Reason  : 
+ ˆˆ ji  is equally inclined to both 
+iˆ  and 
+ ˆj and the 
+angle between 
+iˆ  and 
+ ˆj is 90° 
+3. Assertion  : If  be the angle between 
+A
+  and 
+B
+ , then 
+BA
+BA 
+
+.
+tan 
+  
+ Reason  : 
+BA
+
+  is perpendicular to 
+BA
+
+.  
+4. Assertion  : If 
+|||| BABA
+
+ , then angle between 
+A
+  
+and 
+B
+  is 90° 
+ Reason  : 
+ABBA
+
+  
+5. Assertion  : Vector product of two vectors is an axial vector  
+ Reason  : If 
+v  = instantaneous velocity, 
+r = radius vector and 
+
+ = angular velocity, then 
+.rv    
+6. Assertion  : Minimum number of non -equal vectors in a plane 
+required to give zero resultant is three. 
+ Reason  : If 
+,0
+
+ CBA then they must lie in one plane 
+7. Assertion  : Relative velocity of A w.r.t. B is greater than the 
+velocity of either, when they are moving in opposite 
+directions.  
+ Reason  : Relative velocity of A w.r.t. 
+BA vvB    
+8. Assertion  : Vector addition of two vectors 
+A
+  and 
+B
+  is 
+commutative. 
+ Reason  : 
+ABBA
+
+  
+9. Assertion  : 
+ABBA
+
+..   
+ Reason  : Dot product of two vectors is commutative. 
+10. Assertion  : 
+rFFr   and     
+ Reason  : Cross product of vectors is commutative. 
+11. Assertion  : A negative acceleration of a body is associated with 
+a slowing down of a body. 
+ Reason  : Acceleration is vector quantity. 
+12. Assertion  : A physical quantity cannot be called as a vector if 
+its magnitude is zero.  
+ Reason  : A vector has both, magnitude and direction. 
+13. Assertion  : The sum of two vectors can be zero.  
+ Reason  : The vector cancel each other, when they are equal 
+and opposite. 
+14. Assertion  : Two vectors are said to be like vectors if they have 
+same direction but different magnitude.  
+ Reason  : Vector quantities do not have specific direction. 
+15. Assertion  : The scalar product of two vectors can be zero. 
+ Reason  : If two vectors are perpendicular to each other, their 
+scalar product will be zero. 
+16. Assertion  : Multiplying any vector by an scalar is a meaningful 
+operations.  
+ Reason  : In uniform motion speed remains constant. 
+ 
+ 
+P 
+ W 
+ 
+ 
+ 
+================ PAGE INDEX 22 ================
+ 
+  20 Vectors 
+17. Assertion  : A null vector is a vector whose magnitud e is zero 
+and direction is arbitrary.  
+ Reason  : A null vector does not exist. 
+18. Assertion  : If dot product and cross product of 
+A
+  and 
+B
+  are 
+zero, it implies  that one of the vector 
+A
+  and 
+B
+  
+must be a null vector.  
+ Reason  : Null vector is a vector with zero magnitude. 
+19. Assertion  : The cross product of a vector with itself is a null 
+vector. 
+ Reason  : The cross-product of two vectors results in a vector 
+quantity. 
+20. Assertion  : The minimum number of non coplanar vectors 
+whose sum can be zero, is four. 
+ Reason  : The resultant of two vectors of unequal magnitude 
+can be zero. 
+21. Assertion  : If 
+,.. CBBA
+
+ then 
+A
+  may not always be equal to 
+C
+
+ 
+ Reason  : The dot product of two vectors involves cosine of 
+the angle between the two vectors. 
+22. Assertion  : Vector addition is commutative. 
+ Reason  : 
+).()( ABBA
+
+  
+================ PAGE INDEX 23 ================
+ 
+ Vectors 21 
+ 
+ 
+ 
+ 
+ 
+ 
+Fundamentals of Vectors 
+ 
+ 
+1 d 2 b 3 c 4 d 5 d 
+6 a 7 a 8 b 9 b 10 d 
+11 d 12 d 13 a 14 b 15 c 
+16 c 17 a 18 b 19 c 20 c 
+21 d 22 d 23 b 24 d 25 b 
+26 b 27 a 28 a 29 a 30 d 
+31 a 32 b 33 a 34 a   
+ 
+ 
+Addition and Subtraction of Vectors 
+ 
+ 
+1 a 2 b 3 d 4 b 5 b 
+6 a 7 b 8 a 9 d 10 b 
+11 d 12 c 13 a 14 c 15 c 
+16 c 17 c 18 c 19 c 20 b 
+21 a 22 d 23 d 24 a 25 c 
+26 b 27 b 28 a 29 b 30 a 
+31 c 32 c 33 c 34 d 35 a 
+36 c 37 d 38 a 39 c 40 d 
+41 a 42 b 43 d 44 d 45 a 
+46 c 47 d 48 a 49 a 50 c 
+51 c 52 a 53 d     
+ 
+ 
+Multiplication of Vectors 
+ 
+ 
+1 c 2 b 3 d 4 a 5 a 
+6 b 7 c 8 b 9 b 10 d 
+11 b 12 d 13 c 14 d 15 c 
+16 c 17 b 18 c 19 b 20 a 
+21 a 22 c 23 a 24 b 25 c 
+26 d 27 d 28 b 29 b 30 b 
+31 d 32 c 33 d 34 b 35 d 
+36 b 37 a 38 b 39 a 40 a 
+41 d 42 d 43 c 44 b 45 a 
+46 a 47 a 48 d 49 d 50 a 
+51 b 52 b 53 d 54 a 55 c 
+56 d 57 a 58 b 59 c   
+ 
+ 
+Lami's Theorem 
+ 
+ 
+1 c 2 a 3 b 4 c 5 b 
+ 
+ 
+ 
+Relative Velocity 
+ 
+ 
+1 b 2 b 3 c 4 c 5 d 
+6 a 7 c 8 c 9 d 10 ac 
+11 b 12 b 13 d 14 b   
+ 
+ 
+Critical Thinking Questions 
+ 
+ 
+1 c 2 c 3 c 4 c 5 b 
+6 b 7 d 8 d 9 b 10 c 
+11 a 12 d 13 b 14 d   
+ 
+ 
+Assertion and Reason 
+ 
+ 
+1 a 2 a 3 d 4 b 5 c 
+6 b 7 a 8 b 9 a 10 c 
+11 b 12 e 13 a 14 c 15 a 
+16 b 17 c 18 b 19 b 20 c 
+21 a 22 c       
+ 
+ 
+ 
+ 
+ 
+ 
+Fundamentals of Vectors 
+ 
+1. (d) As the multiple of 
+jˆ  in the given vector is zero therefore this 
+vector lies in XZ plane and projection of this vector on y-axis is 
+zero. 
+2. (b) If a point have coordinate ( x, y , z) th en its position vector 
+.ˆˆˆ kzjyix 
+ 
+3. (c) Displacement vector 
+kzjyixr ˆˆˆ   
+ 
+kji ˆ)55(ˆ)34(ˆ)23( 
+ji ˆˆ   
+4. (d)  
+ 
+ 
+ 
+ 
+ 
+ The component of force in vertical direction  
+  =
+ 60coscos FF 
+N5.22
+15   
+5. (d) 
+22 )24(7|| B  
+625  
+25  
+  Unit vector in the direction of A will be 
+5
+ˆ4ˆ3ˆ jiA   
+  So required vector =
+
+
+
+
+
+ 
+5
+ˆ4ˆ325 ji  
+ji ˆ20ˆ15   
+6. (a) Let the components of 
+A  makes angles 
+, and 
+  with x, y 
+and z axis respectively then 
+   
+y 
+x 
+60o 
+F sin 60o 
+F cos 60o 
+F
+ 

@@ -1,0 +1,150 @@
+ 
+  Waves and Sound 853 
+43. Calculate the frequency of the second harmonic formed on a string 
+of length 0.5 m and mass 2  10
+–4
+ kg when stretched with a tension 
+of 20 N    [BHU (Med.) 2000] 
+ (a) 274.4 Hz (b) 744.2 Hz  
+ (c) 44.72 Hz  (d) 447.2 Hz  
+44. The fundamental frequency of a string stretched with a weight of 4 
+kg is 256 Hz. The weight required to produce its octave is    [J & K CET 2000] 
+ (a) 4 kg wt   (b) 8 kg wt  
+ (c) 12 kg wt (d) 16 kg wt   
+45. Two vibrating strings of the same material but lengths L and 2L have 
+radii 2r and r respectively. They are stretched under the same tension. 
+Both the strings vibrate in their fundamental modes, the one of length 
+L with frequency n
+1
+ and the other with frequency n
+2
+. The ratio n
+1
+/n
+2
+ is 
+given by 
+   [IIT-JEE (Screening) 2000] 
+(a) 2 (b) 4   
+(c) 8 (d) 1 
+46. If the tension and diameter of a sonometer wire of fundamental 
+frequency n are doubled and density is halved then its fundamental 
+frequency will become  
+ [CBSE PMT 2001] 
+ (a) 
+4
+n  (b) 
+n2  
+ (c) n  (d) 
+2
+n  
+47. In a sonometer wire, the tension is maintained by suspending a 50.7 
+kg mass from the free end of the wire. The suspended mass has a 
+volume of 0.0075 m
+3
+. The fundamental frequency of the wire is 260 
+Hz. If the suspended mass is completely submerged in water, the 
+fundamental frequency will become (take g = 10 ms
+–2
+)  
+[KCET 2001]  
+ (a) 240 Hz  (b) 230 Hz  
+ (c) 220 Hz  (d) 200 Hz  
+48. A string is rigidly tied at two ends a nd its equation of vibration is 
+given by 
+.sinsin2cos xty   Then minimum length of string 
+is    [RPMT 2001] 
+ (a) 1 m  (b) 
+m2
+1  
+ (c) 5 m  (d) 2m  
+49. Fundamental frequency of sonometer wire is n. If the length, tension 
+and diameter of wire are tripled, the new fundamental frequency is    [DPMT 2002] 
+ (a) 
+3
+n  (b) 
+3
+n  
+(c) 
+3n  (d) 
+33
+n  
+50. A string of length 2 m is fixed at both ends. If this string vibrates in 
+its fourth normal mode with a frequency of 500 Hz then the waves 
+would travel on its with a velocity of  
+    [BCECE 2005] 
+ (a) 125 m/s (b) 250 m/s 
+ (c) 500 m/s (d)  1000 m/s 
+51. The fundamental frequency of a sonometre wire is n. If its radius is 
+doubled and its te nsion becomes half, the material of the wire 
+remains same, the new fundamental frequency will be    [BCECE 2005] 
+ (a) n (b) 
+2
+n  
+ (c) 
+2
+n  (d)  
+22
+n  
+52. In an experiment with sonometer a tuning fork of frequency 256 Hz 
+resonates with a length of 25 cm and another tuning fork resonates 
+with a length of 16 cm. Tension of the string remaining  constant  
+the frequency  of the second tuning fork is    [KCET 2005] 
+ (a) 163.84 Hz (b) 400 Hz  
+ (c) 320 Hz (d)  204.8 Hz  
+ 
+Organ Pipe (Vibration of Air Column) 
+ 
+1. The length of two open organ pipes are l and 
+)( ll   respectively. 
+Neglecting end correction, the frequency of beats between them will 
+be approximately 
+   [MP PET 1994; BHU 1995] 
+ (a) 
+l
+v
+2  (b) 
+l
+v
+4  
+ (c) 
+22l
+lv  (d) 
+l
+lv  
+ (Here v is the speed of sound) 
+2. A tube closed at one end and containing air is excited. It produces 
+the fundamental note of frequency 512 Hz. If the same tube is open 
+at both the ends the fundamental frequency that can be produced is  [RPET 1999] 
+ (a) 1024 Hz (b) 512 Hz 
+ (c) 256 Hz (d) 128 Hz 
+3. A closed pipe and an open pipe have their first overtones identical in 
+frequency. Their lengths are in the ratio 
+ [Roorkee 1999] 
+(a) 1 : 2 (b) 2 : 3 
+(c) 3 : 4 (d) 4 : 5 
+4. The first overtone in a closed pipe has a frequency 
+   [JIPMER 1999] 
+(a) Same as the fundamental frequency of an open tube of same 
+length 
+(b) Twice the fundamental frequency of an open tube of same 
+length 
+(c) Same as that of the first overtone of an open tube of same 
+length 
+(d) None of the above  
+5. An empty vessel is partially filled with water, then the frequency of 
+vibration of air column in the vessel  
+  [KCET 2000] 
+(a) Remains same  
+(b) Decreases 
+(c) Increases 
+(d) First increases then decreases 
+6. It is desired to increase the fundamental resonance frequency in a 
+tube which is closed at one end. This can be achieved by    [Roorkee 2000] 
+(a) Replacing the air in the tube by hydrogen gas 
+(b) Increasing the length of the tube 
+(c) Decreasing the length of the tube 
+(d) Opening the closed end of the tube 
+7. An air column in a pipe, which is closed at one end, will be in 
+resonance with a vibrating body of frequency 166 Hz, if the length 
+of the air column is  [UPSEAT 2001] 

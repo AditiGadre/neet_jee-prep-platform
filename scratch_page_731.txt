@@ -1,0 +1,137 @@
+ 
+ 852 Waves and Sound  
+ (c) 
+2:1  (d) 
+1:2  
+25. A sonometer wire resonates with a given tuning fork forming 
+standing waves with five antinodes between the two bridges when a 
+mass of 9 kg is suspended from the wire. When t his mass is 
+replaced by a mass M, the wire resonates with the same tuning fork 
+forming three antinodes for the same positions of the bridges. The 
+value of M is  
+[IIT-JEE (Screening) 2002] 
+(a) 25 kg (b) 5 kg 
+ (c) 12.5 kg (d) 1/25 kg 
+26. The tension of a stretch ed string is increased by 69%. In order to 
+keep its frequency of vibration constant, its length must be 
+increased by  [KCET 2002] 
+(a) 20% (b) 30% 
+ (c) 
+%69  (d) 69% 
+27. The length of a sonometer wire tuned to a frequency of 250 Hz is 
+0.60 metre. The frequency of tuning fork with which the vibrating 
+wire will be in tune when the length is made 0.40 metre is    [JIPMER 2002] 
+(a) 250 Hz (b) 375 Hz 
+ (c) 256 Hz (d) 384 Hz 
+28. Length of a string tied to two rigid supports is 40 cm. Maximum 
+length (wavelength in cm) of a stationary wave produced on it is    [AIEEE 2002] 
+(a) 20 (b) 80 
+ (c) 40 (d) 120 
+29. A string in musical instrument is 50 cm long and its fundamental 
+frequency is 800 Hz. If a frequency of 1000 Hz is to be produced, 
+then required length of string is  
+    [AIIMS 2002] 
+(a) 62.5 cm (b) 50 cm 
+ (c) 40 cm (d) 37.5 cm 
+30. Two wires are in unison. If the tension in one of the wires is 
+increased by 2%, 5 beats are produced per second. The initial 
+frequency of each wire is   [MP PET 2002] 
+(a) 200 Hz (b) 400 Hz 
+ (c) 500 Hz (d) 1000 Hz 
+31. Two uniform strings A and B made of steel are made to vibrate 
+under the same tension. if the first overtone of A is equal to the 
+second overtone of B and if the radius of A is twice that of B, the 
+ratio of the lengths of the strings is  
+    [EAMCET 2003] 
+(a)  1: 2 (b) 1 : 3 
+ (c) 1 : 4 (d) 1 : 6 
+32. If the length of a stretched string is shortened by 40% and the 
+tension is increased by 44%, then the ratio of the final and initial 
+fundamental frequencies is 
+     [EAMCET 2003] 
+(a) 2 : 1 (b) 3 : 2 
+ (c) 3 : 4 (d) 1 : 3 
+33. Two wires are fixed in a sonometer. Their tensions are in the ratio 8 
+: 1. The lengths are in the ratio 
+.35:36  The diameters are in the 
+ratio 4 : 1. Densities of the materials are in the ratio 1 : 2. If the 
+lower frequency in the setting is 360 Hz. the beat frequency when 
+the two wires are sounded together is    [KCET 2003] 
+(a) 5 (b) 8 
+ (c) 6 (d) 10 
+34. The first overtone of a stretched wire of given length is 320 Hz. The 
+first harmonic is :   [DPMT 2004] 
+(a) 320 Hz (b) 160 Hz 
+(c) 480 Hz (d) 640 Hz 
+35. Two perfectly identical wires are in unison. When the tension in one 
+wire is increased by 1%, then on sounding them together 3 beats are 
+heard in 2 sec. The initial frequency of each wire is :   [Pb. PET 2002] 
+(a) 
+1220 s  (b) 
+1320 s  
+(c) 
+1150 s  (d) 
+1300 s  
+36. A tuning fork of frequency 392 Hz, resonates with 50 cm length of a 
+string under tension (T). If length of the string is decreased by 2%, 
+keeping the tension constant, the number of beats heard when the 
+string and the tuning fork made to vibrate simultaneously is   [BHU 2004] 
+(a) 4 (b) 6 
+(c) 8 (d) 12 
+37. The sound carried by air from a sitar to a listener is a wave of the 
+following type  [MP PMT 1987; RPET 2001] 
+ (a) Longitudinal stationary (b) Transverse progressive 
+ (c) Transverse stationary (d) Longitudinal progressive 
+38. In Melde’s experiment in the transverse mode, the frequency of the 
+tuning fork and the frequency of the waves in the strings are in the 
+ratio   [KCET 2004]      
+(a) 1 : 1 (b) 1 : 2 
+(c) 2 : 1 (d) 4 : 1 
+39. The frequency of transverse vibrations in a stretched string is 200 
+Hz. If the tension is increased four times and the length is reduced 
+to one-fourth the original value, the frequency of vibration will be    [EAMCET (Med.) 1999] 
+ (a) 25 Hz  (b) 200 Hz  
+ (c) 400 Hz  (d) 1600 Hz  
+40. Three similar wires of frequency n
+1
+, n
+2
+ and n
+3
+ are joined to make one 
+wire. Its frequency will be  
+    [CBSE PMT 2000] 
+ (a) 
+321 nnnn   (b) 
+321
+1111
+nnnn   
+ (c) 
+321
+1111
+nnnn
+  (d) 
+2
+3
+2
+2
+2
+1
+1
+1111
+nnnn
+  
+41. A steel rod 100 cm long is clamped at its mid -point. The funda -
+mental frequency of longitudinal vibrations of the rod is given to be 
+2.53 kHz. What is the speed of sound in steel   
+[AFMC 2000] 
+ (a) 5.06 km/s  (b) 6.06 km/s 
+ (c) 7.06 km/s  (d) 8.06 km/s  
+42. Two wires are producing fundamental notes of the same frequency. 
+Change in which of the following factors of one wire will not 
+produce beats between them  
+[BHU (Med.) 1999] 
+ (a) Amplitude of the vibrations 
+  (b) Material of the wire 
+ (c) Stretching force  
+ (d) Diameter of the wires 

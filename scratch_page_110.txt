@@ -1,0 +1,237 @@
+ 
+  110 Motion in one Dimension 
+ As 
+dt
+dx
+dx
+dv
+dt
+dva .  
+ 
+
+
+
+
+ 
+dt
+dxxa )16()16180(
+2
+1 2/1  
+ 
+vx   2/1)16180(8  
+ 
+2/12/1 )16180()16180(8 xx  
+2/8 sm  
+77. (d) 
+3tx   
+
+3Ktx   
+ 
+23 Ktdt
+dxv  and 
+Ktdt
+dva 6   
+ i.e. 
+ta  
+78. (a) 
+)1(2  tdt
+dva
+dttdv )1(2   
+ 
+5
+0
+25
+0 22)1(2
+
+
+
+
+
+
+
+   ttdttv
+
+
+
+  52
+252  = 15 m/s  
+79. (c) 
+2
+1
+2
+1 atutS   .....(i) 
+ and velocity after first t sec  
+ 
+atuv    
+ Now, 
+2
+2
+2
+1 atvtS   
+ 
+2
+2
+1)( attatu   ..... (ii) 
+ Equation (ii) – (i) 
+2
+12 atSS   
+ 
+2
+22
+12 /1
+)5(
+4065 sm
+t
+SSa   
+ From equation (i), we get,  
+ 
+2
+1
+2
+1 atutS 
+2512
+1540  u  
+ 
+5.275  u  
+smu /5.5   
+80. (d) 
+16
+1
+4
+1
+2
+2
+12 
+
+
+
+ S
+SuS  
+81. (d) 
+tt beaex      
+Velocity 
+)( tt beaedt
+d
+dt
+dxv     
+ 
+).)(.   tt beea    
+tt ebea      
+Acceleration 
+  .)( btt ebea    
+tt ebea   22  
+ 
+ Acceleration is positive so velocity goes on increasing with 
+time. 
+82. (c) Let car starts from point A from rest and moves up to point B 
+with acceleration f 
+ 
+ 
+ Velocity of car at point B,      
+fSv 2         
+                                                                      
+]2 A[ 22 asuvs   
+ Car moves distance BC with this constant velocity in time t 
+ 
+tfSx .2       ......(i)   [As 
+uts  ] 
+ So the velocity of car at point C also will be 
+fs2  and finally 
+car stops after covering distance y. 
+ Distance CD  
+)2/(2
+)2( 2
+f
+fSy 
+Sf
+fS 22   ....(ii)   
+                            
+]2/2 As[ 222 ausasuv 
+ 
+ So, the total distance AD = 
+CDBCAB  =15S (given) 
+             
+SSxS 152    
+Sx 12  
+Substituting the value of x in equation (i) we get  
+tfSx .2
+ 
+tfSS .212    
+22 .2144 tfSS   
+ 
+2
+72
+1 ftS  . 
+83. (c) Let man will catch the bus after ' t' sec . So he will cover 
+distance ut. 
+Similarly distance travelled by the bus will be 
+2
+2
+1 at . For the 
+given condition 
+2
+2
+145 tatu 
+225.145 t
+        
+]/5.2[ 2smaAs    
+ 
+ttu 25.145   
+To find the minimum value of u 
+0dt
+du
+ so we get 
+sec6t then, 
+smu /155.75.7625.16
+45 
+ 
+84. (b) 
+2)2()2(4  tatx  
+At 
+8448,0  aaxt   
+)2(24  tadt
+dxv
+ 
+At 
+)1(444,0 aavt   
+But acceleration,
+a
+dt
+xda 22
+2
+   
+85. (a) Distance covered in 5
+th
+ second, 
+  
+2
+9)152(20)12(25
+aanauS th   
+  and distance covered in 5 second,  
+  
+2
+25252
+102
+1 2
+5
+aaatutS   
+  
+  
+25
+9
+5
+5 S
+S th  
+86. (d) The nature of the path is decided by the direction of velocity, 
+and the direction of acceleration. The trajectory can be a 
+straight line, circle or a parabola depending on these factors.  
+ 
+S x 
+C A B D 
+y 
+t 
+A 
+t1 t2 
+C 
+t1 = t2 = t (given) 
+s1 s2 

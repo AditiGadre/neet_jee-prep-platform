@@ -1,0 +1,177 @@
+ 
+ 1138 Heating and Chemical Effect of Current  
+49. There are two electric bulbs of 40 W and 100 W. Which one will be 
+brighter when first connected in series and then in parallel,   [MP PET 1993] 
+(a) 40 W in series and 100 W in parallel  
+ (b) 100 W in series and 40 W in parallel  
+ (c) 40 W both in series and parallel will be uniform 
+ (d) 100 W both in series and parallel will be uniform 
+50. Two resistances 
+1R  and 
+2R  when connected in series and parallel 
+with 120 V line, power consumed will be 25 W and 100 W 
+respectively. Then the ratio of power consumed b y 
+1R  to that 
+consumed by 
+2R  will be  [EAMCET 1983] 
+ (a) 1 : 1 (b) 1 : 2 
+ (c) 2 : 1 (d) 1 : 4 
+51. A  220 volt and 800 watt electric kettle and three 220 volt and 100 
+watt bulbs are connected in parallel. On connecting t his 
+combination with 220 volt electric supply, the total current will be   [MP PMT 1975] 
+(a) 0.15 ampere (b) 5.0 ampere 
+(c) 5.5 ampere (d) 6.9 ampere 
+52. You are given three bulbs of 25, 40 and 60 watt. Which of them has 
+lowest resistance    [NCERT 1982] 
+ (a) 25 watt bulb (b) 40 watt bulb 
+ (c) 60 watt bulb (d) Information is insufficient 
+53. The value of internal resistance of an ideal cell is  
+     [EAMCET 1989] 
+ (a) Zero (b) 
+5.0  
+ (c) 
+1  (d) Infinity 
+54. Electric power is trans mitted over long distances through 
+conducting wires at high voltage because  [MP PET 1994] 
+(a) High voltage travels faster 
+(b) Power loss is large 
+ (c) Power loss is less 
+ (d) Generator produced electrical energy at a very high voltage 
+55. A coil develops heat of 800 cal/sec. When 20 volts is applied across 
+its ends. The resistance of the coil is (1 cal = 4.2 joule)   [MP PET 1994] 
+ (a) 
+2.1  (b) 
+4.1  
+ (c) 
+12.0  (d) 
+14.0  
+56. Resistances 
+1R  and 
+2R  are joined in parallel and a current is 
+passed so that the amount of heat liberated is 
+1H  and 
+2H  
+respectively. The ratio 
+2
+1
+H
+H  has the value 
+     [MP PMT 1994] 
+ (a) 
+1
+2
+R
+R  (b) 
+2
+1
+R
+R  
+ (c) 
+2
+2
+2
+1
+R
+R  (d) 
+2
+1
+2
+2
+R
+R  
+57. The internal resistance of a primary cell is 4 ohm. It generates a 
+current of 0.2 amp in an external resistance of 21 ohm. The rate at 
+which chemical energy is consumed in providing the current is   [MP PMT 1994] 
+(a) 
+sJ /42.0  (b) 
+sJ /84.0  
+(c) 
+sJ /5  (d) 
+sJ /1  
+58. A heating coil is labelled 100 W, 220 V. The coil is cut in ha lf and 
+the two pieces are joined in parallel to the same source. The energy 
+now liberated per second is  [CBSE PMT 1995] 
+ (a) 200 J (b) 400 J  
+ (c) 25 J (d) 50 J  
+59. Which of the following is not a correct statement 
+     [MP PET 1995] 
+ (a) Resistivity of electrolytes decreases on increasing temperature 
+ (b) Resistance of mercury falls on decreasing its temperature 
+ (c) When joined in series a 40 W bulb glows more than a 60 W 
+bulb 
+ (d) Resistance of 40 W bulb is less than the resistance of 60 W 
+bulb 
+60. Three light bulbs of 40 W, 60 W and 100 W are connected in series 
+with 220 V source. Which one of the bulbs will glow brightest[MP PMT 1995; UPSEAT 2002; BCECE 2005]  
+ (a) 40 W  
+ (b) 60 W 
+ (c) 100 W  
+ (d) All with the same brightness 
+61. The energy consumed in 1 kilowatt electric heater in 30 seconds will 
+be  
+(a) 
+J2106  (b) 
+J71099.4   
+ (c) 
+J6108.9   (d) 
+J4103  
+62. Two bulbs of 500 watt and 200 watt are manufactured to operate 
+on 220 volt line. The ratio of heat prod uced in 500 W and 200 W, 
+in two cases, when firstly they are joined in parallel and secondly in 
+series, will be 
+  [MP PET 1996; DPMT 1999] 
+(a) 
+5
+2,2
+5  (b) 
+2
+5,2
+5  
+(c) 
+2
+5,5
+2  (d) 
+5
+2,5
+2  
+63. A 60 watt bulb carries a current of 0.5 amp. The total charge 
+passing through it in 1 hour is    [MP PMT 1996] 
+ (a) 3600 coulomb (b) 3000 coulomb 
+ (c) 2400 coulomb (d) 1800 coulomb 
+64. An electric heater of resistance 6 ohm is run for 10 minutes on a 120 
+volt line. The energy liberated in this period of time is   [MP PMT 1996] 
+(a) 
+J3102.7   (b) 
+J5104.14   
+ (c) 
+J4102.43   (d) 
+J4108.28   
+65. Two bulbs are working in parallel order. Bulb A is brighter than 
+bulb B. If 
+AR  and 
+BR  are their resistance respectively then    [MP PMT 2003] 
+(a) 
+BA RR   (b) 
+BA RR   
+(c) 
+BA RR   (d) None of these 
+66. Two conductors made of the same material are conn ected across a 
+common potential difference. Conductor A has twice the diameter 
+and twice the length of conductor B. The power delivered to the two 
+conductors 
+AP  and 
+BP  respectively is such that 
+BA PP /  equals 
+to  
+(a) 0.5 (b) 1.0 
+(c) 1.5 (d) 2.0 
+67.  A heating coil can heat the water of a vessel from 
+C20  to 
+C60
+ in 30 minutes. Two such heating coils are put in series and 
+then used to heat the same amount of water thr ough the same 
+temperature range. The time taken now will be (neglecting thermal 
+capacity of the coils) 
+    [MP PMT 1997] 
+(a) 60 minutes (b) 30 minutes 
+(c) 15 minutes (d) 7.5 minutes 

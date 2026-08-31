@@ -1,0 +1,195 @@
+ 
+ Units, Dimensions and Measurement 55 
+112. Dimensions of charge are     [DPMT 2002] 
+(a) 
+1100  ATLM  (b) 
+1MLTA  
+(c) 
+AT 1  (d) 
+TA  
+113. According to Newton, the viscous force acting between liquid layers 
+of area A and velocity gradient 
+zv  /  is given by 
+z
+vAF 
+   
+where 
+  is constant called coefficient of viscosity. The dimension of 
+
+ are   [JIPMER 2001, 02] 
+(a) 
+][ 22 TML  (b) 
+][ 11  TML  
+(c) 
+][ 22  TML  (d) 
+][ 000 TLM  
+114. Identify the pair whose dimensions are equal [AIEEE 2002] 
+(a) Torque and work (b) Stress and energy 
+(c) Force and stress (d) Force and work 
+115. The dimensions of pressure is equal to   [AIEEE 2002] 
+(a) Force per unit volume 
+(b) Energy per unit volume 
+(c) Force 
+(d) Energy 
+116. Which of the two have same dimensions  [AIEEE 2002] 
+(a) Force and strain  
+(b) Force and stress 
+(c) Angular velocity and frequency 
+(d) Energy and strain 
+117. An object is moving through the liquid. The viscous damping force 
+acting on it is proportional to the velocity. Then dimension o f 
+constant of proportionality is  
+[Orissa JEE 2002] 
+(a) 
+11  TML  (b) 
+1MLT  
+(c) 
+10 LTM  (d) 
+10 TML  
+118. The dimensions of emf in MKS is    [CPMT 2002] 
+(a) 
+221  QTML  (b) 
+222  QTML  
+(c) 
+12  QMLT  (d) 
+122  QTML  
+119. Which of the following quantities is dimensionless   
+  [MP PET 2002] 
+(a) Gravitational constant (b) Planck's constant 
+(c) Power of a convex lens (d) None 
+120. The dimensional formula for Boltzmann's constant is     
+[MP PET 2002; Pb. PET 2001] 
+(a) 
+][ 122  TML  (b) 
+][ 22 TML  
+(c) 
+][ 120  TML  (d) 
+][ 112  TML  
+121. The dimensions of 
+K  in the equation 
+2
+2
+1 KxW   is   
+ [Orissa JEE 2003] 
+(a) 
+201 TLM  (b) 
+110 TLM  
+(c) 
+211 TLM  (d) 
+101 TLM  
+122. The physical quantities not having same dimensions are   
+   [AIEEE 2003] 
+(a) Speed and 
+2/1
+00 )(   
+ (b) Torque and work 
+ (c) Momentum and Planck's constant 
+ (d) Stress and Young's modules 
+123. Dimension of 
+R  is  [AFMC 2003; AIIMS 2005] 
+ (a) 
+12 TML  (b) 
+232  ATML  
+ (c) 
+21  TML  (d) None of these 
+124. The dimensional formula of relative density is  [CPMT 2003] 
+ (a) 
+3ML  (b) 
+1LT  
+ (c) 
+2MLT  (d) Dimensionless 
+125. The dimensional formula for young's modulus is 
+[BHU 2003; CPMT 2004] 
+ (a) 
+21  TML  (b) 
+20 LTM  
+ (c) 
+2MLT  (d) 
+22 TML  
+126. Frequency is the function of density 
+)( , length 
+)(a  and surface 
+tension 
+)(T . Then its value is  [BHU 2003] 
+ (a) 
+Tak /2/32/1  (b) 
+Tak /2/32/3  
+ (c) 
+4/32/32/1 / Tak  (d) 
+2/32/12/1 / Tak  
+127. The dimensions of electric potential are  [UPSEAT 2003] 
+ (a) 
+][ 122  QTML  (b) 
+][ 12  QMLT  
+ (c) 
+][ 12 QTML   (d) 
+][ 22 QTML   
+128. Dimensions of potential energy are   [MP PET 2003] 
+ (a) 
+1MLT  (b) 
+22 TML  
+ (c) 
+21  TML  (d) 
+11  TML  
+129. The dimension of 
+L
+R  are   [MP PET 2003] 
+ (a) 
+2T  (b) 
+T  
+ (c) 
+1T  (d) 
+2T  
+130. The dimensions of shear modulus are [MP PMT 2004] 
+(a) 
+1MLT  (b) 
+22 TML  
+(c) 
+21  TML  (d) 
+2MLT  
+131. Pressure gradient has the same dimension as that of 
+    [AFMC 2004] 
+(a) Velocity gradient (b) Potential gradient 
+(c) Energy gradient (d) None of these 
+132. If force (F), length (L) and time (T) are assumed to be fundamental 
+units, then the dimensional formula of the mass will be   [J & K CET 2004] 
+(a) 
+21TFL  (b) 
+21  TFL  
+(c) 
+11  TFL  (d) 
+22TFL  
+133. The dimensions of universal gas constant is [Pb. PET 2003] 
+(a) 
+][ 122 TML  (b) 
+][ 22 LTM  
+(c) 
+][ 113 TML  (d) None of these 
+134. In the relation 
+)cos( kxtay   , the dimensional formula for k is   [BHU 2004] 
+(a) 
+][ 110  TLM  (b) 
+][ 10 LTM  
+(c) 
+][ 010 TLM   (d) 
+][ 0LTM  
+135.  Position of a body with acceleration ' a' is given by 
+,nm tKax 
+here t is time. Find dimension of m and n. 
+    [Orissa JEE 2005] 
+(a) 
+1m , 
+1n  (b) 
+2,1  nm  
+(c) 
+1,2  nm  (d) 
+2,2  nm  
+136.  "Pascal-Second" has dimension of  [AFMC 2005] 
+(a) Force  (b) Energy 
+(c) Pressure (d) Coefficient of viscosity 
+137.  In a system of units if force ( F), acceleration (A) and time ( T) are 
+taken as fundamental units then the dimensional formula of energy 
+is    [BHU 2005] 
+(a) 
+TFA2  (b) 
+2FAT  

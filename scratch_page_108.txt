@@ -1,0 +1,251 @@
+ 
+  108 Motion in one Dimension 
+ Hence acceleration 
+2/4 sm   
+33. (d) Both trains will travel a distance of 1 km before to come in rest. 
+In this case by using 
+asuv 222   
+ 
+10002)40(0 2  a
+2/8.0 sma    
+34. (a) 
+smvatuv /501050    
+35. (b) Let 'a' be the retardation of boggy then distance covered by it 
+be S. If u is the initial velocity of boggy after detaching from 
+train (i.e. uniform speed of train) 
+ 
+a
+usasuasuv b
+2
+202
+2
+222   
+ Time taken by boggy to stop 
+ 
+a
+utatuatuv  0  
+ In this time t distance travelled by train
+a
+uutst
+2
+  
+ Hence ratio 
+2
+1
+t
+b
+s
+s   
+36. (a) 
+)12(2)12(2  nanauS n  because 
+0u  
+ Hence 
+5
+7
+3
+4 S
+S   
+37. (b) 
+   dtttudtauv )223( 2  
+ 
+tttutttu 222
+2
+3
+3 23
+23
+  
+ 
+sm /184482    (As t = 2 sec) 
+38. (d) 
+3123 2  ttdt
+dsv  and 
+126  tdt
+dva  
+ For 
+0a , we have 
+2t  and at 
+19,2  msvt   
+39. (d)  
+40. (b) 
+22
+yx aaa   
+2
+1
+2
+2
+22
+2
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dt
+yd
+dt
+xd   
+ Here
+02
+2
+
+dt
+yd . Hence 
+2
+2
+2
+/8 sm
+dt
+xda   
+41. (b) 
+amF  , If force is constant then 
+ma 1 . So If mass is 
+doubled then acceleration becomes half. 
+42. (c) 
+)12(2  nauS n   
+)162(202.1  a  
+  
+2/218.011
+22.1 sma    
+43. (b) Here
+smhkmv /40/144   
+atuv 
+ 
+2/220040 smaa   
+ 
+  
+mats 400)20(22
+1
+2
+1 22    
+44. (c) 
+b
+atbta
+dt
+xdbtatdt
+dx
+306232 2
+2
+2    
+45. (b) Stopping distance 
+F
+mu 2
+2
+1
+forceRetardins
+energyKinetic   
+If retarding force ( F) and velocity ( v) are equal then stopping 
+distance  m (mass of vehicle) 
+As 
+truckcar mm   therefore car will cover less distance before 
+coming to rest.  
+46. (d) 
+,/2072 smkmphu   
+0v  
+ By using 
+asuv 222   
+s
+ua
+2
+2
+
+2
+2
+/1
+2002
+)20( sm
+
+    
+47. (b) 
+2312 ttdt
+dsv   
+Velocity is zero for 
+0t  and 
+sec4t  
+48. (a)  
+49. (b) Let A and B will meet after time t sec. it means the distance 
+travelled by both will be equal.   
+ 
+tutS A 40  and 
+22 42
+1
+2
+1 tatS B   
+ 
+2042
+140 2  tttSS BA sec  
+50. (b) 
+btdt
+dxvbtax 2,2   
+ Instantaneous velocity 
+sec/18332 cmv   
+51. (c) If the body starts from rest and moves with constant 
+acceleration then the ratio of distances in consecutive equal 
+time interval 
+5:3:1:: 321 SSS  
+52. (c) 
+ctb
+dt
+xdactbtatx 62, 2
+2
+32    
+53. (a) Let initial 
+)0( t  velocity of particle
+u  
+For first 5 sec motion 
+metres 105   
+22 )5(2
+15102
+1 auatuts 
+ 
+452  au
+         …(i) 
+For first 8 sec of motion 
+metres 208   
+582)8(2
+1820 2  auau
+   …(ii)  
+By solving 
+2/3
+1 and/6
+7 smasmu   
+Now distance travelled by particle in Total 10 sec. 
+2
+10 )10(2
+110 aus 
+ 
+By substituting the value of u and a we will get 
+ms 3.2810   
+so the distance in last 
+810sec2 ss   
+m3.8203.28 
+ 
+54. (a) 
+2ts  (given)
+  
+2Kts   
+ Acceleration 
+k
+dt
+sda 22
+2
+  (constant)  
+ It means the particle travels with uniform acceleration. 
+55. (c) Because acceleration is a vector quantity  
+56. (d) 
+  2,
+2atdtatdtuxatu  

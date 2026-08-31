@@ -1,0 +1,183 @@
+ 
+ 854 Waves and Sound  
+(a) 2.00 m (b) 1.50 m  
+ (c) 1.00 m (d) 0.50 m 
+8. If the velocity of sound in air is 350 m/s. Then the fundamental 
+frequency of an open organ pipe of length 50 cm, will be [CPMT 1997; MH CET 2001; Pb. PMT 2001] 
+(a) 350 Hz (b) 175 Hz 
+ (c) 900 Hz (d) 750 Hz  
+9. If the length of a closed organ pipe is 1m and velocity of sound is 
+330 m/s, then the frequency for the second note is  
+[AFMC 2001] 
+(a) 
+Hz4
+3304  (b) 
+Hz4
+3303  
+ (c) 
+Hz4
+3302  (d) 
+Hz330
+42  
+10. The fundam ental note produced by a closed organ pipe is of 
+frequency 
+.f  The fundamental note produced by an open organ 
+pipe of same length will be of frequency  
+[BHU 2001] 
+(a) 
+2
+f  (b) 
+f  
+ (c) 
+f2  (d) 
+f4  
+11. If the velocity of sound in air is 336 m/s. The maximum length of a 
+closed pipe that would produce a just audible sound will be [KCET 2001] 
+(a) 3.2 cm (b) 4.2 m  
+ (c) 4.2 cm (d) 3.2 m 
+12. An organ pipe 
+1P  closed at one end vibrating in its first overtone 
+and another pipe 
+2P  open at both ends vibrating in its third 
+overtone are in resonance with a given tuning fork. The ratio of 
+lengths of 
+1P  and 
+2P  is  
+[EAMCET 1997; MH CET 1999; AFMC 2001]  
+(a) 1 : 2 (b) 1 : 3 
+ (c) 3 : 8 (d) 3 : 4 
+13. A resonance air column of length 20 cm resonates with a tuning fork of 
+frequency 250 Hz. The speed of sound in air is  
+[AFMC 1999; BHU 2000; CPMT 2001] 
+(a) 300 m/s (b) 200 m/s 
+ (c) 150 m/s (d) 75 m/s 
+14. A cylindrical tube, open at both ends, has a fundamental frequency 
+0f
+ in air. The tube is dipped vertically into water such that half of 
+its length is inside water. The fundamental frequency of the  air 
+column now is  
+[RPET 1999; RPMT 1998, 2000; J & K CET 2000;  
+KCET  2002; BHU 2002; BCECE 2003] 
+(a) 
+4/3 0f  (b) 
+0f  
+ (c) 
+2/0f  (d) 
+02 f  
+15. If the length of a closed organ pipe is 1.5 m and velocity of sound is 
+330 m/s, then the frequency for the second note is   
+[CBSE PMT 2002] 
+(a) 220 Hz (b) 165 Hz 
+ (c) 110 Hz (d) 55 Hz 
+16. A pipe 30 cm long is open at both ends. Which harmonic mode of 
+the pipe is resonantly excited by a 1.1 kHz source ? (Take speed of 
+sound in air = 330 ms
+–1
+) 
+    [AMU 2002] 
+(a) First (b) Second 
+ (c) Third (d) Fourth 
+17. Two closed organ pipes, when sounded simultaneously gave 4 beats 
+per sec. If longer pipe has a length of 1 m. Then length of shorter 
+pipe will be, (v = 300 m/s) 
+ [Pb. PMT 2002] 
+(a) 185.5 cm (b) 94.9 cm 
+ (c) 90 cm (d) 80 cm 
+18. A source of sound placed at the open end of a resonance column 
+sends an acoustic wave of pressure amplitude 
+0  inside the tube. If 
+the atmospheric pressure is 
+,A  then the ratio of maximum and 
+minimum pressure at the closed end of the tube will be   [UPSEAT 2002] 
+(a) 
+)(
+)(
+0
+0
+
+
+
+
+A
+A  (b) 
+)2(
+)2(
+0
+0
+
+
+
+
+A
+A  
+ (c) 
+A
+A
+
+  (d) 
+
+
+
+
+ 
+
+
+
+
+ 
+0
+0
+2
+1
+2
+1
+
+
+A
+A  
+19. Two closed pipe produce 10 be ats per second when emitting their 
+fundamental nodes. If their length are in ratio of 25 : 26. Then their 
+fundamental frequency in Hz, are 
+  [MH CET 2002] 
+(a) 270, 280 (b) 260, 270 
+ (c) 260, 250 (d) 260, 280 
+20. A closed organ pipe and an open organ pipe are t uned to the same 
+fundamental frequency. What is the ratio of lengths  [BHU 2003; Kerala 2005] 
+(a) 1 : 2 (b) 2 : 1 
+ (c) 2 : 3 (d) 4 : 3 
+21. An open pipe resonates with a tuning fork of frequency 500 Hz. it is 
+observed that two successive nodes are formed at dis tances 16 and 
+46 cm from the open end. The speed of sound in air in the pipe is    [Orissa JEE 2003] 
+(a) 230 m/s (b) 300 m/s 
+ (c) 320 m/s (d) 360 m/s 
+22. Find the fundamental frequency of a closed pipe, if the length of the 
+air column is 42 m. (speed of sound in air = 332 m/sec)   [RPET 2003] 
+(a) 2 Hz (b) 4 Hz 
+ (c) 7 Hz (d) 9 Hz 
+23. If v is the speed of sound in air then the shortest length of the 
+closed pipe which resonates to a frequency n  
+[KCET 2003] 
+(a) 
+n
+v
+4  (b) 
+n
+v
+2  
+ (c) 
+v
+n2  (d) 
+v
+n4  
+24. The frequency of fundamental tone in an open organ pipe of length 
+0.48 m is 320 Hz.  Speed of sound is  320 m/sec. Frequency of 
+fundamental tone in closed organ pipe will be  
+[MP PMT 2003] 
+(a) 153.8 Hz (b) 160.0 Hz 
+(c) 320.0 Hz (d) 143.2 Hz 
+25. If fundamental frequency of closed pipe is 50 Hz then frequency of 
+2
+nd
+ overtone is    [AFMC 2004] 
+(a) 100 Hz (b) 50 Hz 
+(c) 250 Hz (d) 150 Hz 

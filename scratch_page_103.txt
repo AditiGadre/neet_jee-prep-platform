@@ -1,0 +1,114 @@
+ 
+ Motion in One Dimension 101 
+ 
+Reason  : Because in this case distance travelled by a body is 
+equal to the displacement of the body. 
+13. Assertion  :  Position-time graph of a stationary object is a 
+straight line parallel to time axis. 
+Reason  : For a stationary object, position does not change 
+with time. 
+14. Assertion  :  The slope of displacement -time graph of a body 
+moving with high velocity is steeper than the slope 
+of displacement -time graph of a body with low 
+velocity. 
+Reason  : Slope of displacement-time graph = Velocity of the 
+body. 
+15. Assertion  :  Distance-time graph of the motion of a body having 
+uniformly accelerated motion is a straight line 
+inclined to the time axis. 
+Reason  : Distance travelled by a body having uniformly 
+accelerated motion is directly proportional to the 
+square of the time  taken. 
+16. Assertion  :  A body having non -zero acceleration can have a 
+constant velocity. 
+Reason  : Acceleration is the rate of change of velocity. 
+17. Assertion  :  A body, whatever its motion is always at rest in a 
+frame of reference which is fixed to the body itself. 
+Reason  : The relative velocity of a body with respect to itself 
+is zero. 
+18. Assertion  :  Displacement of a body may be zero when distance 
+travelled by it is not zero. 
+Reason  : The displacement is the longest distance between 
+initial and final position. 
+19. Assertion  :  The equation of motion can be applied only if 
+acceleration is along the direction of velocity and is 
+constant. 
+Reason  : If the acceleration of a body is constant then its 
+motion is known as uniform motion. 
+20. Assertion  :  A bus moving due north takes a turn and starts 
+moving towards east with same speed. There will be 
+no change in the velocity of bus. 
+Reason  : Velocity is a vector-quantity. 
+21. Assertion  :  The relative velocity between any two bodies 
+moving in opposite direction is equal to sum of the 
+velocities of two bodies. 
+Reason  : Sometimes relative velocity between two bodies is 
+equal to difference in velocities of the two. 
+22. Assertion  :  The displacement -time graph of a body moving 
+with uniform acceleration is a straight line. 
+Reason  : The displacement is proportional to time for 
+uniformly accelerated motion. 
+23. Assertion  :  Velocity-time graph for an object in uniform 
+motion along a straight path is a straight line 
+parallel to the time axis. 
+Reason  : In uniform motion of an object velocity increases as 
+the square of time elapsed. 
+24. Assertion  :  A body may be accelerated even when it is moving 
+uniformly. 
+Reason  : When direction of motion of the body is changing 
+then body may have acceleration. 
+25. Assertion  :  A body falling freely may do so with  constant 
+velocity. 
+Reason  : The body falls freely, when acceleration of a body is 
+equal to acceleration due to gravity. 
+26. Assertion  :  Displacement of a body is vector sum of the area 
+under velocity-time graph. 
+Reason  : Displacement is a vector quantity. 
+27. Assertion  :  The position -time graph of a body moving 
+uniformly is a straight line parallel to position-axis. 
+Reason  : The slope of position -time graph in a uniform 
+motion gives the velocity of an object. 
+28. Assertion  :  The average speed of an object may  be equal to 
+arithmetic mean of individual speed. 
+Reason  : Average speed is equal to total distance travelled 
+per total time taken. 
+29. Assertion  :  The average and instantaneous velocities have same 
+value in a uniform motion. 
+Reason  : In uniform motion, th e velocity of an object 
+increases uniformly. 
+30. Assertion  :  The speedometer of an automobile measure the 
+average speed of the automobile. 
+Reason  : Average velocity is equal to total displacement per 
+total time taken. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Distance and Displacement 
+ 
+1 a 2 a 3 c 4 a 5 b 
+6 c         
+ 
+Uniform Motion 
+ 
+1 d 2 d 3 b 4 b 5 c 
+6 d 7 a 8 b 9 d 10 c 
+11 c 12 d 13 d 14 b 15 b 
+16 d 17 c 18 c 19 d 20 b 
+21 a 22 b 23 b 24 c   
+ 
+Non-uniform Motion 
+ 
+1 b 2 c 3 d 4 a 5 a 
+6 ac 7 a 8 d 9 b 10 a 
+11 b 12 c 13 b 14 a 15 b 
+16 d 17 c 18 a 19 c 20 b 
+21 a 22 c 23 a 24 d 25 c 
+26 b 27 c 28 d 29 c 30 a 
+31 c 32 a 33 d 34 a 35 b 
+36 a 37 b 38 d 39 d 40 b 
+41 b 42 c 43 b 44 c 45 b 
+46 d 47 b 48 a 49 b 50 b 

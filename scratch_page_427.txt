@@ -1,0 +1,175 @@
+ 
+  502 Surface Tension 
+(a) It will rise  (b) Will remain same 
+(c) It will fall (d) Rise to the top 
+27. If liquid level falls in a capillary then radius of capillary will  
+      [RPET 2001] 
+(a) Increase  (b) Decrease 
+(c) Unchanged (d) None of these 
+28. Water rises to a height h in a capillary at the surface of e arth. On 
+the surface of the moon the height of water column in the same 
+capillary will be       [MP PMT 2001] 
+(a) 6h  (b) 
+h6
+1  
+(c) h (d) Zero 
+29. Two capillary tubes of same diameter are put vertically one each in 
+two liquids whose relative densities are 0.8 and 0.6 and surface 
+tensions are 60 and 50 dyne/cm respectively Ratio of heights of 
+liquids in the two tubes  
+2
+1
+h
+h is  
+     [MP PMT 2002] 
+(a) 
+9
+10  (b) 
+10
+3  
+(c) 
+3
+10  (d) 
+10
+9  
+30. Water rises in a vertical capillary tube upto a height of 2.0  cm . If 
+the tube is inclined at an angle of 
+o60  with the vertical, then upto 
+what length the water will rise in the tube    
+    [UPSEAT 2002] 
+(a) 2.0 cm  (b) 4.0 cm 
+(c) 
+cm
+3
+4  (d) 
+cm22  
+31. The surface tension for pure water in a  capillary tube experiment is  
+   [MH CET 2002] 
+(a) 
+hr
+g
+2
+   (b) 
+ghr
+2  
+(c) 
+h
+gr
+2
+  (d) 
+2
+ghr  
+32. In a capillary tube experiment, a vertical 30 cm long capillary tube is 
+dipped in water. The water rises up to a height of 10 cm due to 
+capillary action. If this experiment is conducted in a freely falling 
+elevator, the length of the water column becomes  [Orissa JEE 2003; AIEEE 2005] 
+(a) 10 cm  (b) 20 cm 
+(c) 30 cm (d) Zero 
+33. Radius of a capillary is 
+.102 3m  A liquid of weight 
+N41028.6 
+ may remain in the capillary then the surface 
+tension of liquid will be      [RPET 2003] 
+(a) 
+mN/105 3  (b) 
+mN/105 2  
+(c) 
+mN/5  (d) 
+mN/50  
+34. Two long capillary tubes A and B of radius R
+B
+>R
+A
+ dipped in same 
+liquid. Then               [Orissa PMT 2004] 
+(a) Water rise is more in A than B  
+(b) Water rises more in B than A   
+ (c) Same water rise in both   
+ (d) All of these according to the density of water 
+35. If water rises in a capillary tube upto 3 cm. What is the diameter of 
+capillary tube (Surface tension of water = 7.2 ×10
+–2
+ N/m)     [RPMT 2002] 
+(a) 9.6×10
+–4
+ m (b) 9.6×10
+–3
+ m  
+(c) 9.6×10
+–2
+ m (d) 9.6×10
+–1
+ m 
+36. When a capillary is dipped in water, water rises 0.015 m in it. If the 
+surface tension of water is 75×10
+–3
+ N/m, the radius of capillary is     [RPMT 2003] 
+(a) 0.1 mm (b) 0.5 mm 
+(c) 1 mm (d) 2 mm 
+37. In a capillary tube, water rises to 3  mm. The height of water that 
+will rise in another capillary tube having one-third radius of the first 
+is      [BHU 2004] 
+(a) 1 mm (b) 3 mm 
+(c) 6 mm (d)  9 mm 
+38. Kerosene oil rises up the wick in a lantern 
+    [NCERT 1980; MNR 1985] 
+  (a) Due to surface tension of the oil 
+  (b) The wick attracts the kerosene oil 
+  (c) Of the diffusion of the oil through the wick 
+  (d) None of the above 
+39. Water rises against gravity in a capillary tube when its one end i s 
+dipped into water because 
+  (a) Pressure below the meniscus is less than atmospheric pressure 
+  (b) Pressure below the meniscus is more than atmospheric 
+pressure 
+  (c) Capillary attracts water 
+  (d) Of viscosity 
+40. A capillary tube of radius R is immersed in water and water rises in 
+it to a height H. Mass of water in the capillary tube is M. If the 
+radius of the tube is doubled, mass of water that will rise in the 
+capillary tube will now be   
+[RPMT 1997; RPET 1999; CPMT 2002] 
+  (a) M (b)  2M 
+ (c) M/2 (d)  4M 
+41. Water rises up to a height h in a capillary tube of certain diameter. 
+This capillary tube is replaced by a similar tube of half the diameter. 
+Now the water will rise to the height of  
+      [Kerala PMT 2005] 
+(a) 4h (b) 3h 
+(c) 2h (d) h 
+ 
+ 
+ 
+ 
+1. There is a horizontal film of soap solution. On it a thread is placed 
+in the form of a loop. The film is pierced inside the loop and the 
+thread becomes a circular loop of radius R. If the surface tension of 
+the loop be T, then what will be the tension in the thread     [RPET 1996] 
+  (a) 
+TR /2  (b) 
+TR 2  
+ (c) 
+RT2  (d)  
+RT2  
+2. A large number of water drops each of radius r combine to have a 
+drop of radius R. If the surface tension is T and the mechanical  
+equivalent of heat is J, then the rise in temperature will be              
+  [MP PET 1994; DPMT 2002] 
+  (a) 
+rJ
+T2  (b) 
+RJ
+T3  
+ (c) 
+
+
+
+
+  RrJ
+T 113  (d) 
+
+
+
+
+  RrJ
+T 112  

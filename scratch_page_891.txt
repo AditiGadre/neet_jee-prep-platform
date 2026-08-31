@@ -1,0 +1,137 @@
+ 
+  Heating and Chemical Effect of Current 1141 
+ 
+(a) 
+wattPP 21   (b) 
+21 PP watt 
+(c) 
+wattPP
+PP
+21
+21
+  (d) 
+wattPP
+PP
+21
+21   
+108. n identical bulbs, each designed to draw a power p from a certain 
+voltage supply, are joined in series across that supply. The total 
+power which they will draw is  
+[KCET 2002] 
+(a) 
+2/np  (b) 
+np/  
+(c) 
+p  (d) 
+np  
+109. A wire when connected to 220V mains supply has power dissipation 
+1P
+. Now the wire is cut into two equal pieces which are connected 
+in parallel to the same supply. Power dissipation in this case is 
+2P . 
+Then 
+12 : PP  is  [AIEEE 2002] 
+(a) 1  (b) 4 
+(c) 2 (d) 3 
+110. An electric bulb marked 40 W and 200 V, is used in a circuit of 
+supply voltage 100 V. Now its power is  [AIIMS 2002]  
+(a) 100W (b) 40W 
+(c) 20W (d) 10W 
+111. Electric bulb 50 W-100 V glowing at full power are to be used in 
+parallel with battery 120 V, 10 . Maximum number of bulbs that 
+can be connected so that they glow in full power is   [CPMT 2002] 
+(a) 2 (b) 8 
+(c) 4 (d) 6 
+112. A bulb has specification of one kilowatt and 250 volts, the resistance 
+of bulb is    [MP PMT 2002] 
+(a) 125  (b) 62.5  
+(c) 0.25  (d) 625  
+113. If a 30 V, 90 W bulb is to be worked on a 120 V line, a resistance of 
+how many ohms should be connected in series with the bulb [MP PMT 2002; KCET 2003] 
+(a) 10 ohm (b) 20 ohm 
+(c) 30 ohm (d) 40 ohm 
+114. A fuse wire with radi us 1 mm blows at 1.5 amp. The radius of the 
+fuse wire of the same material to blow at 3A will be 
+[KCET 2003] 
+(a) 
+mm3/14  (b) 
+mm4/13  
+(c) 
+mm2/12  (d) 
+mm2/13  
+115. Three electric bulbs of rating 60W each are joined in series and then 
+connected to electric mains. The power consumed by these three 
+bulbs will be 
+[MP PET 2003; CBSE PMT 2004] 
+(a) 180 W (b) 60 W 
+(c) 20 W (d) 
+W3
+20  
+116. An electric bulb is rated 60W, 220V. The resistance of its filament is 
+   [MP PET 2003] 
+(a) 708  (b) 870  
+(c) 807  (d) 780  
+117. A 220 volt, 1000 W bulb is connected across a 110 volt mains supply. 
+The power consumed will be  [AIEEE 2003] 
+(a) 1000 W (b) 750 W 
+(c) 500 W (d) 250 W  
+118. Two bulbs of 100 W and 200 W working at 220 volt are joined in 
+series with 220 volt supply. Total power consumed will be 
+approximately.   [Pb. PET 2003; BHU 2005] 
+ (a) 65 watt (b) 33 watt 
+ (c) 300 watt (d) 100 watt 
+119. How many calories of heat will be produced approximately in a 210 
+watt electric bulb in 5 minutes [Pb. PET 2004] 
+ (a) 80000 cal (b) 63000 cal 
+ (c) 1050 cal (d) 15000 cal  
+120. 
+CA o5  rise in the temperature is observed in a conductor by 
+passing some current. When the current is doubled, then rise in 
+temperature will be equal to  [BHU 2004] 
+ (a) 
+Co5  (b) 
+Co10  
+ (c) 
+Co20  (d) 
+Co40  
+121. If a 2 kW boiler is used everyday for 1 hour, then electrical energy 
+consumed by boiler in thirty days is  [BHU 2004] 
+ (a) 15 unit (b) 60 unit 
+ (c) 120 unit (d) 240 unit 
+122. What will happen when a 40 watt, 220 volt lamp and 100 watt, 220 
+volt lamp are connected in series across 40 volt supply    [BHU 2004] 
+ (a) 100 watt lamp will fuse (b) 40 watt lamp will fuse 
+ (c) Both lamps will fuse (d) Neither lamp will fuse 
+123. What is the ratio of heat generated in R and 2R  
+[DCE 2003] 
+ (a) 2 : 1 
+ (b) 1 : 2 
+ (c) 4 : 1 
+ (d) 1 : 4 
+124. In an electric heater 4 amp current passes for 1 minute at potential 
+difference of 250 volt, the power of heater and energy consumed 
+will be respectively     [DPMT 2003] 
+ (a) 1 kW, 60 kJ (b) 0.5 kW, 30 kJ 
+ (c) 10 kW, 600 kJ (d) None of these 
+125. Some electric bulbs are connected in series across a 220 V supply in 
+a room. If one bulb is fused then remaining bulbs are conn ected 
+again in series across the same supply. The illumination in the room 
+will   [J & K CET 2004] 
+ (a) Increase (b) Decrease 
+ (c) Remains the same  (d) Not continuous 
+126. The resistor of resistance ' R' is connected to 25 V supply and heat 
+produced in it is 25 J/sec. The value of R is  
+[Orissa PMT 2004] 
+ (a) 
+225  (b) 
+1  
+ (c) 
+25  (d) 
+50  
+127. Three bulbs of 40 W, 60 W, 100 W are arranged in series with 220 
+volt supply which bulb has minimum resistance 
+[Pb. PET 2000] 
+ (a) 100 W (b) 40 W 
+2R R 
+I 
+E 

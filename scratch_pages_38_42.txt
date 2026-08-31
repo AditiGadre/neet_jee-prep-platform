@@ -1,0 +1,1212 @@
+
+================ PAGE 38 ================
+ 
+  36 Units, Dimensions and Measurement 
+System of units :  A complete set of units, both fundamental and 
+derived for all kinds of physical quantities is called system of units. The 
+common systems are given below  
+(1) CGS system : This system is also called Gaussian system of units. 
+In this length, mass and time have been chosen as the fundamental 
+quantities and corresponding fundamental units are centimetre ( cm), gram 
+(g) and second (s) respectively. 
+(2) MKS system : This system is also called Giorgi system. In this 
+system also length, mass and time have been taken as fundamental 
+quantities, and the corresponding fundamental units are metre, kilogram 
+and second. 
+(3) FPS system : In this sys tem foot, pound and second are used 
+respectively for measurements of length, mass and time. In this system force 
+is a derived quantity with unit poundal. 
+(4) S. I. system : It is known as International system of units, and is 
+extended system of units appli ed to whole physics. There are seven 
+fundamental quantities in this system. These quantities and their units are 
+given in the following table 
+Table 1.1 : Unit and symbol of quantities 
+ 
+Quantity Unit Symbol 
+Length metre m 
+Mass kilogram kg 
+Time second s 
+Electric Current ampere A 
+Temperature Kelvin K 
+Amount of Substance mole mol 
+Luminous Intensity candela cd 
+ 
+Besides the above seven fundamental units two supplementary units 
+are also defined – 
+Radian (rad) for plane angle and Steradian (sr) for solid angle. 
+Note :  Apart from fundamental and derived units we also use 
+practical units very frequently. These may be fundamental or derived units 
+e.g., light year is a practical unit (fundamental) of distance while horse power is a 
+practical unit (derived) of power.  
+ Practical units may or may not belong to a system but can be 
+expressed in any system of units  
+  e.g., 1 mile = 1.6 km = 1.6 × 10
+3
+ m. 
+S.I. Prefixes 
+In physics we deal from very small ( micro) to very large 
+(macro) magnitudes, as one side we tal k about the atom while on the 
+other side of universe, e.g., the mass of an electron is 9.1  10
+–31
+ kg 
+while that of the sun is 2  10
+30
+ kg. To express such large or small 
+magnitudes we use the following prefixes :  
+Table 1.2 : Prefixes and symbol 
+Power of 10 Prefix Symbol 
+1018 exa E 
+1015 peta P 
+1012 tera T 
+109 giga G 
+106 mega M 
+103 kilo k 
+102 hecto h 
+101 deca da 
+10–1 deci d 
+10–2 centi c 
+10–3 milli m 
+10–6 micro  
+10–9 nano n 
+10–12 pico p 
+10–15 femto f 
+10–18 atto a 
+ 
+Standards of Length, Mass and Time 
+(1) Length : Standard metre is defined in terms of wavelength of 
+light and is called atomic standard of length. 
+The metre is the distance containing 1650763.73 wavelength in 
+vacuum of the radiation corresponding to orange red light emitted by an 
+atom of krypton-86. 
+Now a days metre is defined as length of the path travelled by light 
+in vacuum in 1/299,7792, 45 part of a second.  
+(2) Mass : The mass of a cylinder made of platinum -iridium alloy 
+kept at International Bureau of Weights and Measures is defined as 1 kg.  
+On atomic scale, 1 kilogram is equivalent to the mass of 5.0188  10
+25
+ 
+atoms of 
+6
+C
+12
+ (an isotope of carbon). 
+(3) Time :  1 second is defined as the time interval of 9192631770 
+vibrations of radiation in Cs-133 atom. This radiation corresp onds to the 
+transition between two hyperfine level of the ground state of Cs-133. 
+Practical Units  
+(1) Length  
+(i) 1 fermi = 1 fm = 10
+–15
+ m  
+(ii) 1 X-ray unit = 1XU = 10
+–13
+ m  
+(iii) 1 angstrom = 1Å = 10
+–10
+ m = 10
+–8
+ cm = 10
+–7
+ mm = 0.1 mm  
+(iv) 1 micron = m = 10
+–6
+ m  
+(v) 1 astronomical unit = 1 A.U. = 1. 49  10
+11
+ m  
+                     1.5  10
+11
+ m   10
+8
+ km  
+(vi) 1 Light year = 1 ly = 9.46  10
+15
+ m  
+(vii) 1 Parsec = 1pc = 3.26 light year 
+(2) Mass  
+(i) Chandra Shekhar unit : 1 CSU = 1.4 times the mass of sun = 2.8  
+10
+30
+ kg  
+(ii) Metric tonne : 1 Metric tonne = 1000 kg  
+(iii) Quintal : 1 Quintal = 100 kg  
+(iv) Atomic mass unit (amu) :  amu = 1.67  10
+–27
+ kg  
+Mass of proton or neutron is of the order of 1 amu 
+(3) Time  
+(i) Year : It is the time taken by the Earth to complete 1 revolution 
+around the Sun in its orbit. 
+(ii) Lunar month : It is the time taken by the Moon to complete 1 
+revolution around the Earth in its orbit.  
+1 L.M. = 27.3 days 
+================ PAGE 39 ================
+ 
+ Units, Dimensions and Measurement 37 
+(iii) Solar day : It is the time taken by Earth to complete one 
+rotation about its axis with respect to Sun. Since this time varies from day 
+to day, average solar day is calculated by taking average of the duration of 
+all the days in a year and this is called Average Solar day.  
+1 Solar year = 365.25 average solar day 
+or  average solar day 
+25.365
+1  the part of solar year 
+(iv) Sedrial day : It is the time taken by earth to complete one rotation 
+about its axis with respect to a distant star.  
+1 Solar year = 366.25 Sedrial day  
+     = 365.25 average solar day  
+Thus 1 Sedrial day is less than 1 solar day. 
+(v) Shake : It is an obsolete and practical unit of time. 
+1 Shake = 10
+– 8
+ sec 
+Dimensions 
+When a derived quantity is expressed in terms of fundamental 
+quantities, it is written as a product of different powers of the fundamental 
+quantities. The powers to which fundamental quantities must be raised in 
+order to express the given physical quantity are called its dimensions.  
+To make it more clear, consider the physical quantity force 
+Force = mass × acceleration  
+tim e
+ velocity m ass
+  
+tim e
+elength/tim  m ass
+  
+= mass × length × (time)
+–2
+     … (i) 
+Thus, the dimensions of force are 1 in mass, 1 in length and – 2 in 
+time. 
+Here the physical quantity that is expressed in terms of the basic 
+quantities is encl osed in square brackets to indicate that the equation is 
+among the dimensions and not among the magnitudes .  
+Thus equation (i) can be written as [force] = [MLT
+–2
+]. 
+Such an expression for a physical quantity in terms of the 
+fundamental quantities is called the dimensional equation. If we consider 
+only the R.H.S. of the equation, the expression is termed as dimensional 
+formula. 
+Thus, dimensional formula for force is, [MLT 
+– 2
+]. 
+Quantities Having same Dimensions 
+ 
+Dimension Quantity 
+[M
+0
+L
+0
+T
+–1
+] Frequency, angu lar frequency, angular velocity, 
+velocity gradient and decay constant 
+[M
+1
+L
+2
+T
+–2
+] Work, internal energy, potential energy, kinetic 
+energy, torque, moment of force 
+[M
+1
+L
+–1
+T
+–2
+] Pressure, stress, Young’s modulus, bulk modulus, 
+modulus of rigidity, energy density 
+[M
+1
+L
+1
+T
+–1
+] Momentum, impulse 
+[M
+0
+L
+1
+T
+–2
+] Acceleration due to gravity, gravitational field 
+intensity 
+[M
+1
+L
+1
+T
+–2
+] Thrust, force, weight, energy gradient 
+[M
+1
+L
+2
+T
+–1
+] Angular momentum and Planck’s constant 
+[M
+1
+L
+0
+T
+–2
+] Surface tension, Surface energy (energy per  unit 
+area) 
+[M
+0
+L
+0
+T
+0
+] 
+Strain, refractive index, relative density, angle, solid 
+angle, distance gradient, relative permittivity 
+(dielectric constant), relative permeability etc. 
+[M
+0
+L
+2
+T
+–2
+] Latent heat and gravitational potential 
+[ML
+2
+T
+–2
+
+–1
+] Thermal capacity, gas constant, Boltzmann constant 
+and entropy 
+[M
+0
+L
+0
+T
+1
+] 
+gRkmgl ,,
+, where l = length 
+g = acceleration due to gravity, m = mass,   k = 
+spring constant, R = Radius of earth 
+[M
+0
+L
+0
+T
+1
+] L/R, 
+LC , RC where L = inductance,        R = 
+resistance, C = capacitance  
+[ML
+2
+T
+–2
+] 
+2
+2
+2
+2
+2 ,  ,  ,  ,  ,, CV
+C
+qLIqVVItt
+R
+VRtI
+ where I = 
+current, t = time, q = charge,  
+L = inductance, C = capacitance, R = resistance 
+ 
+Important Dimensions of Complete Physics 
+ 
+Heat 
+Quantity Unit Dimension 
+Temperature (T) Kelvin [M
+0
+L
+0
+T
+0
+ 
+1
+] 
+Heat (Q) Joule [ML
+2
+T
+– 2
+] 
+Specific Heat (c)  Joule/kg-K [M
+0
+L
+2
+T
+– 2
+ 
+–1
+] 
+Thermal capacity Joule/K [M
+1
+L
+2
+T 
+– 2
+ 
+–1
+] 
+Latent heat (L) Joule/kg [M
+0
+L
+2
+T 
+– 2
+] 
+Gas constant (R) Joule/mol-K [M
+1
+L
+2
+T
+– 2
+ 
+– 1
+] 
+Boltzmann constant (k) Joule/K [M
+1
+L
+2
+T
+– 2
+ 
+– 1
+] 
+Coefficient of thermal 
+conductivity (K) Joule/m-s-K [M
+1
+L
+1
+T
+– 3
+ 
+– 1
+] 
+Stefan's constant () Watt/m
+2
+-K
+4
+ [M
+1
+L
+0
+T
+– 3
+ 
+– 4
+] 
+Wien's constant (b) Metre-K [M
+0
+L
+1
+T 
+0
+
+ 1
+] 
+Planck's constant (h) Joule-s [M
+1
+L
+2
+T
+–1
+] 
+Coefficient of Linear Expansion 
+() Kelvin
+–1 
+[M
+0
+L
+0
+T
+0
+ 
+–1
+] 
+Mechanical equivalent of Heat 
+(J) Joule/Calorie [M
+0
+L
+0
+T
+0
+] 
+Vander wall’s constant (a) Newton-m
+4 
+[ML
+5
+T
+– 2
+] 
+Vander wall’s constant (b) m
+3 
+[M
+0
+L
+3
+T
+0
+] 
+ 
+Electricity 
+Quantity Unit Dimension 
+Electric charge (q) Coulomb [M
+0
+L
+0
+T
+1
+A
+1
+] 
+Electric current (I) Ampere
+ 
+[M
+0
+L
+0
+T
+0
+A
+1
+] 
+Capacitance (C) Coulomb/volt or Farad [M
+–1
+L
+– 2
+T
+ 4
+A
+2
+] 
+Electric potential (V) Joule/coulomb [M
+1
+L
+2
+T
+–3
+A
+–1
+] 
+Permittivity of free 
+space (
+0
+) 
+2
+2
+metre-Newton
+Coulomb
+ [M
+–1
+L
+–3
+T
+ 4
+A
+2
+] 
+Dielectric constant (K) Unitless [M
+0
+L
+0
+T
+0
+] 
+Resistance (R) Volt/Ampere or ohm [M
+1
+L
+2
+T
+– 3
+A
+– 2
+] 
+================ PAGE 40 ================
+ 
+  38 Units, Dimensions and Measurement 
+Quantity Unit Dimension 
+Resistivity or Specific 
+resistance () Ohm-metre [M
+1
+L
+3
+T
+– 3
+A
+– 2
+] 
+Coefficient of Self-
+induction (L) 
+ampere
+secondvolt 
+or henry 
+or ohm-second 
+[M
+1
+L
+2
+T
+– 2
+A
+– 2
+] 
+Magnetic flux () Volt-second or weber [M
+1
+L
+2
+T
+–2
+A
+–1
+] 
+Magnetic induction (B) 
+metreampere
+newton
+
+2metreampere
+Joule
+
+2
+second
+metre
+volt 
+ or Tesla 
+[M
+1
+L
+0
+T
+– 2
+A
+– 1
+] 
+Magnetic Intensity (H) Ampere/metre [M
+0
+L
+– 1
+T
+0
+A
+1
+] 
+Magnetic Dipole 
+Moment (M) Ampere-metre
+2 [M
+0
+L
+2
+T
+0
+A
+1
+] 
+Permeability of Free 
+Space (
+0
+) 
+2ampere
+Newton
+  
+ or 
+metreampere
+Joule
+2  
+or 
+metreampere
+Volt
+
+ second  
+or 
+metre
+ondOhm sec   
+or 
+metre
+henry  
+[M
+1
+L
+1
+T
+–2
+A
+–2
+] 
+Surface charge density 
+() 
+2metreCoulomb  [M
+0
+L
+–2
+T
+1
+A
+1
+] 
+Electric dipole moment 
+(p) 
+metreCoulomb  [M
+0
+L
+1
+T
+1
+A
+1
+] 
+Conductance (G) (1/R) 
+1ohm  [M
+–1
+L
+–2
+T
+3
+A
+2
+] 
+Conductivity () (1/) 
+11  metreohm  [M
+–1
+L
+–3
+T
+3
+A
+2
+] 
+Current density (J) Ampere/m
+2
+ M
+0
+L
+–2
+T
+0
+A
+1
+ 
+Intensity of electric 
+field (E) 
+Volt/metre, 
+Newton/coulomb M
+1
+L
+1
+T 
+–3
+A
+–1
+ 
+Rydberg constant (R) m
+–1
+ M
+0
+L
+–1
+T
+0
+ 
+ 
+Application of Dimensional Analysis 
+(1) To find the unit of a physical quantity in a given system of units 
+: To write the definition or formula for the physical quantity we find its 
+dimensions. Now in the dimensional formula replacing  M, L and T by the 
+fundamental units of the required system we get the unit of physical 
+quantity. However, sometimes to this unit we further assign a specific name,  
+e.g., Work = Force  Displacement  
+So  [W] = [MLT
+–2
+]  [L]  = [ML
+2
+T
+–2
+]  
+So its unit in C.G.S. system will be g cm
+2
+/s
+2
+ which is called erg while 
+in M.K.S. system will be kg-m
+2
+/s
+2
+ which is called joule. 
+(2) To find dimensions of physical constant or coefficients  : As 
+dimensions of a physical quantity are unique, we write any formula or 
+equation incorporating the given constant and then by substituting the 
+dimensional formulae of all other quantities, we can find the dimensions of 
+the required constant or coefficient. 
+(i) Gravitational constant : According to Newton’s law of gravitation 
+2
+21
+r
+mmGF 
+ or 
+21
+2
+mm
+FrG   
+Substituting the dimensions of all physical quantities  
+][]][[
+]][[][ 231
+22
+
+
+ TLMMM
+LMLTG
+ 
+(ii) Plank constant : According to Planck 
+hE  or 
+
+Eh   
+Substituting the dimensions of all physical quantities  
+][
+][
+][][ 12
+1
+22
+
+
+
+ TML
+T
+TMLh
+ 
+(iii) Coefficient of viscosity : According to Poiseuille’s formula  
+l
+pr
+dt
+dV
+
+
+8
+4
+
+ or 
+)/(8
+4
+dtdVl
+pr   
+Substituting the dimensions of all physical quantities 
+][
+]/][[
+]][[][ 11
+3
+421
+
+
+ TML
+TLL
+LTML
+ 
+(3) To convert a physical quantity from one system to the other : The 
+measure of a physical quantity is  nu = constant  
+If a physical quantity X has dimensional formula [ M
+a
+L
+b
+T
+c
+] and if 
+(derived) units of that physical quantity in two systems are 
+][ 111
+cba TLM  
+and 
+][ 222
+cba TLM  respectively and n
+1
+ and n
+2
+ be the numerical values in the 
+two systems respectively, then 
+][][ 2211 unun    
+ 
+][][ 22221111
+cbacba TLMnTLMn    
+ 
+cba
+T
+T
+L
+L
+M
+Mnn 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+1
+2
+1
+2
+1
+12  
+where M
+1
+, L
+1
+ and T
+1
+ are fundamental units of mass, length and time 
+in the first (known) system and M
+2
+, L
+2
+ and T
+2
+ are fundamental units of mass, 
+length and time in the second (unknown) system. Thus knowing the values 
+of fundamental units in two systems and numerical value in one system, the 
+numerical value in other system may be evaluated.  
+Example : (i) conversion of Newton into Dyne.  
+The Newton is the S.I. unit of force and has dimensional formula 
+[MLT
+–2
+].  
+So 1 N = 1 kg-m/
+ 
+sec
+2
+  
+By using   
+cba
+T
+T
+L
+L
+M
+Mnn 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+1
+2
+1
+2
+1
+12  
+211
+1
+
+
+
+
+
+
+
+
+
+
+
+
+ sec
+sec
+cm
+m
+gm
+kg
+ 
+21213 10101
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ sec
+sec
+cm
+cm
+gm
+gm
+510
+ 
+ 1 N = 10
+5
+ Dyne  
+(ii) Conversion of gravitational constant ( G) from C.G.S. to M.K.S. 
+system  
+================ PAGE 41 ================
+ 
+ Units, Dimensions and Measurement 39 
+The value of G in C.G.S. system is 6.67  10
+–8
+ C.G.S. units while its 
+dimensional formula is [M
+–1
+L
+3
+T
+–2
+] 
+So G = 6.67  10
+–8
+ cm
+3
+/g s
+2
+   
+By using 
+cba
+T
+T
+L
+L
+M
+Mnn 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+1
+2
+1
+2
+1
+12  
+231
+81067.6
+
+
+
+
+
+
+
+
+
+
+
+
+
+ sec
+sec
+m
+cm
+kg
+gm
+ 
+23
+2
+1
+3
+8
+1010
+1067.6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ sec
+sec
+cm
+cm
+gm
+gm
+ 
+111067.6 
+ 
+  G =  6.67  10
+–11
+ M.K.S. units  
+(4) To check the dimensional correctness of a given physical relation 
+: This is based on the ‘principle of homogeneity’. According to this principle 
+the dimensions of each term on both sides of an equation must be the 
+same.  
+If 
+DEFBCAX  2)( ,  
+then according to principle of homogeneity  
+ [X] = [A] = [(BC)
+2
+] 
+][ DEF  
+If the dimensions of each term on both sides are same, the equation 
+is dimensionally correct, otherwise not. A dimensionally correct equation 
+may or may not be physically correct. 
+Example : (i) 
+22 / rmvF   
+By substituting dimension of the physical quantities in the above 
+relation, 
+2212 ]/[]][[][ LLTMMLT    
+i.e. 
+][][ 22   MTMLT  
+As in the above equation dimensions of both sides are not same; this 
+formula is not correct dimensionally, so can never be physically. 
+(ii) 
+2)2/1( atuts   
+By substituting dimension of the physical quantities in the above 
+relation  
+ [L] = [LT
+–1
+][T] – [LT
+–2
+][T
+2
+] 
+i.e.  [L] = [L] – [L] 
+As in the above equation dimensions of each term on both sides are 
+same, so this equation is dimensionally correct. However, from equations of 
+motion we know that 
+2)2/1( atuts   
+(5) As a research tool to derive new relations : If one knows the 
+dependency of a physical quantity on other quantities and if the dependency 
+is of the product type, then using the method of dimensional analysis, 
+relation between the quantities can be derived.  
+Example : (i) Time period of a simple pendulum.  
+Let time period of a simple pendulum is a function of mass of the bob 
+(m), effective length ( l), acceleration due to gravity ( g) then assuming the 
+function to be product of power function of m, l and g   
+i.e., 
+zyx glKmT  ; where K = dimensionless constant  
+If the above relation is dimensionally correct then by s ubstituting 
+the dimensions of quantities – 
+[T] = [M]
+x
+ [L]
+y
+ [LT
+–2
+]
+z
+        or     [M
+0
+L
+0
+T
+1
+]  = [M
+x
+L
+y+z
+T
+–2z
+] 
+Equating the exponents of similar quantities x = 0, y = 1/2 and z = – 
+1/2 
+So the required physical relation becomes 
+g
+lKT    
+The value  of dimensionless constant is found (2  ) through 
+experiments so 
+g
+lT 2  
+(ii) Stoke’s law : When a small sphere moves at low speed through a 
+fluid, the viscous force F, opposes the motion, is found experimentally to 
+depend on the radius r, the velocity of the sphere v and the viscosity  of 
+the fluid.  
+So F = f (, r, v) 
+If the function is product of power functions of , r and v,   
+zyx vrKF 
+;  where K is dimensionless constant. 
+If the above relation is dimensionally correct  
+zyx LTLTMLMLT ][][][][ 1112  
+ 
+or 
+][][ 2 zxzyxx TLMMLT    
+Equating the exponents of similar quantities  
+x = 1;   – x + y + z = 1  and  – x – z = – 2 
+Solving these for x, y and z, we get x = y = z = 1 
+So equation (i) becomes    F = Krv  
+On experimental grounds, K = 6; so  F = 6rv  
+This is the famous Stoke’s law. 
+Limitations of Dimensional Analysis 
+Although dimensional analysis is very useful it cannot lead us too far 
+as,  
+(1) If dimensions are given, physical quantity may not be unique as 
+many physical quan tities have same dimensions. For example if the 
+dimensional formula of a physical quantity is 
+][ 22 TML it may be work or 
+energy or torque. 
+(2) Numerical constant having no dimensions [K] such as (1/2), 1 or 
+2 etc. cannot be deduced by the methods of dimensions. 
+(3) The method of dimensions can not be used to derive relations 
+other than product of power functions. For example, 
+2)2/1( tatus 
+ or 
+tay sin  
+cannot be derived by using this theory (try if you can). However, the 
+dimensional correctness of these can be checked. 
+(4) The method of dimensions cannot be applied to derive formula 
+if in mechanics a physical quantity depends on more than 3 physical 
+quantities as then there will be less number (= 3) of equations than th e 
+unknowns (>3). However still we can check correctness of the given 
+equation dimensionally. For example 
+mglIT 2 can not be derived by 
+theory of dimensions but its dimensional correctness can be checked.  

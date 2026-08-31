@@ -1,0 +1,177 @@
+ 
+ Units, Dimensions and Measurement 57 
+(d) (
+1111 edcb   )% 
+16. The relative density of material of a body is found by weighing it 
+first in air and then in water. If the weight in air is (5.00
+05.0 ) 
+Newton and weight in water is (4.00
+ 0.05) Newton. Then the 
+relative density along with the maximum permissible percentage 
+error is  
+(a) 5.0 
+ 11% (b) 5.0 
+ 1% 
+(c) 5.0 
+ 6% (d) 1.25 
+ 5% 
+17. The resistance R =
+i
+V  where  V= 100 
+ 5 volts and  i = 10 
+ 0.2 
+amperes. What is the total error in R  
+(a) 5% (b) 7% 
+(c) 5.2% (d) 
+2
+5 % 
+18. The period of oscillation of a simple pendul um in the experiment is 
+recorded as 2.63 s, 2.56 s, 2.42 s, 2.71 s and 2.80 s respectively. The 
+average absolute error is  
+(a) 0.1 s (b) 0.11 s 
+(c) 0.01 s (d) 1.0 s 
+19. The length of a cylinder is measured with a meter rod having least 
+count 0.1 cm. Its diameter is measured with vernier calipers having 
+least count 0.01 cm. Given that length is 5.0 cm. and radius is 2.0 
+cm. The percentage error in the calculated value of the volume will 
+be 
+(a) 1% (b) 2% 
+(c) 3% (d) 4% 
+20. In an experiment, the followi ng observation's were recorded : L = 
+2.820 m, M = 3.00 kg, l = 0.087 cm, Diameter              D = 0.041 cm 
+Taking g = 9.81 
+2/sm using the formula , Y=
+lD
+MgL
+2
+4
+ , the maximum 
+permissible error in Y is 
+(a) 7.96% (b) 4.56% 
+(c) 6.50% (d) 8.42% 
+21. According to Joule's law of heating, heat produced 
+2IH  Rt, 
+where I is current, R is resistance and t is time. If the errors in the 
+measurement of I, R and t are 3%, 4% and 6% respectively then 
+error in the measurement of H is  
+(a) 
+ 17% (b) 
+ 16% 
+(c) 
+ 19% (d) 
+ 25% 
+22. If there is a positive error of 50% in the measurement of velocity of 
+a body, then the error in the measurement of kinetic energy is 
+(a) 25% (b) 50% 
+(c) 100% (d) 125% 
+23. A physical quantity P is given by P=
+2
+3
+4
+2
+1
+3
+DC
+BA
+ . The quantity which 
+brings in the maximum percentage error in P is 
+(a) A (b) B 
+(c) C (d) D 
+24. If 
+cmBcmL 1.2,331.2  , then 
+ BL  [DCE 2003] 
+(a) 4.431 cm (b) 4.43 cm 
+(c) 4.4 cm (d) 4 cm 
+25. The number of significant figures in all the given numbers 25.12, 
+2009, 4.156 and 
+410217.1   is[Pb. PET 2003] 
+(a) 1 (b) 2 
+(c) 3 (d) 4 
+26.  If  the length of rod A is 3.25  0.01 cm and that of B is 4.19  0.01 
+cm then the rod B is longer than rod A by   
+ [J&K CET 2005] 
+(a) 0.94   0.00 cm (b) 0.94   0.01 cm 
+(c) 0.94   0.02 cm (d) 0.94   0.005 cm 
+27. A physical quantity is given by 
+cba TLMX  . The percentage error 
+in measurement of 
+LM, and T are 
+, and 
+  respectively. Then 
+maximum percentage error in the quantity X is   [Orissa JEE 2005] 
+(a) 
+ cba   (b) 
+ cba   
+(c) 
+
+cba   (d) None of these 
+28.  A physical quantity A is related to four observable 
+cba ,,  and d as 
+follows, 
+dc
+baA
+32
+ , the percentage errors of measurement in 
+cba ,,
+ and d are 1%,3%,2% and 2% respectively. What is the 
+percentage error in the quantity A 
+       [Kerala PET 2005] 
+(a) 12% (b) 7% 
+(c) 5% (d) 14% 
+ 
+ 
+ 
+ 
+ 
+ 
+1. If the acceleration due to gravity is 
+210 ms  and the units of 
+length and time are changed in kilometer and hour respectively, the 
+numerical value of the acceleration is  
+[Kerala PET 2002] 
+(a) 360000 (b) 72,000 
+ (c) 36,000  (d) 129600 
+2. If 
+CL,  and 
+R  represent inductance, capacitance and resistance 
+respectively, then which of the following does not represent 
+dimensions of frequency  [IIT 1984] 
+(a)  
+RC
+1  (b) 
+L
+R  
+(c)  
+LC
+1  (d) 
+L
+C  
+3. Number of particles is given by 
+12
+12
+xx
+nnDn 
+  crossing a unit 
+area perpendicular to X-axis in unit time, where 
+1n  and 
+2n  are 
+number of particles per unit volume for the value of 
+x  meant to 
+2x
+ and 
+1x . Find dimensions of 
+D  called as diffusion constant   [CPMT 1979] 
+(a) 
+20 LTM  (b) 
+420 TLM  
+(c) 
+30 LTM  (d) 
+120 TLM  
+4. With the usual notations, the foll owing equation 
+)12(2
+1  tauS t
+ is 
+(a) Only numerically correct  
+(b) Only dimensionally correct 
+(c) Both numerically and dimensionally correct 
+ (d) Neither numerically nor dimensionally correct 

@@ -1,0 +1,268 @@
+ 
+ 656 Thermodynamics  
+temperatures. Carnot's reversible engine working between two given 
+temperatures is considered to be the most efficient engine. 
+Table 14.3 : Difference Between Petrol Engine and Diesel Engine 
+Petrol engine Diesel engine 
+Working substance is a mixture of 
+petrol vapour and air. 
+Working substance in this engine is a 
+mixture of diesel vapour and air. 
+Efficiency is smaller (~47%). Efficiency is larger (~55%). 
+It works with a spark plug. It works with an oil plug. 
+It is associated with the risk of 
+explosion, because petrol vapour and 
+air is compressed. So, low compression 
+ratio is kept. 
+No risk of explosion, because only air 
+is compressed. Hence compression 
+ratio is kept large. 
+Petrol vapour and air is created with 
+spark plug. 
+Spray of diesel is obtained through 
+the jet. 
+Entropy 
+Entropy is a measure of disorder of molecular motion of a system. 
+Greater is the disorder, greater is the entropy. 
+The change in entropy i.e.  
+ 
+re tem peratuAbsolute
+system  byabsorbed HeatdS  or 
+T
+dQdS   
+The relation is called the mathematical form of Second Law of 
+Thermodynamics. 
+(1) For solids and liquids 
+(i) When heat given to a substance changes its state at constant 
+temperature, then change in entropy 
+T
+mL
+T
+dQdS   
+where positive sign refers to heat absorption and negative sign to heat 
+evolution. 
+(ii) When heat given to a substance raises its temperature from T
+1
+ to 
+T
+2
+, then change in entropy 
+     
+
+
+
+
+
+ 
+1
+2log
+2
+1 T
+TmcT
+dTmcT
+dQdS e
+T
+T   
+  
+
+
+
+
+
+
+1
+2
+10log303.2 T
+TmcS .  
+(2) For a perfect gas : Perfect gas equation for n moles is PV = nRT 
+
+ T
+dVPdTC
+T
+dQS V
+              [As dQ = dU + dW] 
+  
+
+
+ T
+dVV
+RTdTC
+S
+V
+   
+            
+ 
+2
+1
+2
+1
+V
+V
+T
+TV
+V
+dVRT
+dTC            [As PV =  RT] 
+  
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+1
+2 loglog V
+VRT
+TCS eeV   
+In terms of T and P,  
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+1
+2 loglog P
+PRT
+TCS eeP   
+and in terms of P and V 
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+1
+2 loglog V
+VCP
+PCS ePeV   
+ 
+ 
+ 
+ 
+ 
+ When a thermos bottle is vigorously shaken :  
+Heat transferred to the coffee  Q = 0   
+[As thermos flask is insulated from the surrounding] 
+Work is done on the coffee against viscous force  
+W = (–) 
+Internal energy of the coffee increases U = (+) 
+and temperature of the coffee also increases T = (+) 
+ Work done without the volume limits  
+ 
+
+f
+i
+V
+V
+dVPW  
+From this equation it seems as if work done can be calculated only 
+when P-V equation is known and limits 
+iV  and 
+fV  are known to us. 
+But it is not so. We can calculate work done if we know the limits of 
+temperature. 
+For  moles of an ideal gas if 
+TP   with temperature limits T
+0
+ 
+and 2T
+0
+.  
+From PV = RT  
+
+ 2RT
+P
+RTV   
+dTRTdV 
+2  
+   
+0
+2
+220
+0
+RTdTRT
+TdVPW
+T
+T
+V
+V
+f
+i
+
+ 
+
+
+
+
+
+
+
+   
+ Work done with spring : If mass less piston is attached to a spring of 
+force constant K and a mass m is placed over the piston. If the external 
+pressure is 
+0P  and due to expansion of gas the piston moves up through 
+a distance x then 
+Total work done by the gas  
+321 WWWW 
+ 
+where W
+1
+ = Work done against  
+                     external pressure 
+)( 0P   
+           W
+2
+ = Work done against spring  
+                    force 
+)(Kx   
+           W
+3
+ = Work done against gravitational force (mg) 
+ 
+mgxKxVPW  2
+0 2
+1  
+ The efficiency of an actual engine is much lesser than that of an 
+ideal engine. Actually the practical efficiency of a steam engine is about 
+(8-15)% while that of a petrol engine is 40%. The efficiency of a diesel 
+engine is maximum and is about (50-55)%. 
+ When P and V bear the relation PV 
+x
+ = constant, where x  1 or  
+the process is called a polytropic one. In this process the molar heat 
+capacity is, 
+x
+RR
+x
+RCC V
+ 111   
+ Enthalpy :  Four quantities called “thermodynamic potentials” are 
+useful in the chemical thermodynamics of reac tions and non -cyclic 
+processes. They are internal energy, the enthalpy, the Helmoltz free 
+energy and the Gibbs free energy. Enthalpy is defined by  
+x M 
+M 
+P 
