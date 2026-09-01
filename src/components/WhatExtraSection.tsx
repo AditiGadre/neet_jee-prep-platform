@@ -38,6 +38,8 @@ import {
   UserTestResult
 } from '../types';
 import { SAMPLE_QUESTIONS } from '../data/mockData';
+import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
+import { ALL_BIOLOGY_MASTER_QUESTIONS } from '../data/biologyQuestions';
 
 interface WhatExtraSectionProps {
   activeSubTab: string;
@@ -111,15 +113,32 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Custom Test Launch Handler
   const handleGenerateAndStartCustomTest = () => {
+    let pool = SAMPLE_QUESTIONS;
+    if (customSubject === 'Chemistry') {
+      const filtered = ALL_CHEMISTRY_MASTER_QUESTIONS.filter(q => 
+        q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
+        customChapter.toLowerCase().includes(q.chapter.toLowerCase())
+      );
+      pool = filtered.length >= customQCount ? filtered : ALL_CHEMISTRY_MASTER_QUESTIONS;
+    } else if (customSubject === 'Biology') {
+      const filtered = ALL_BIOLOGY_MASTER_QUESTIONS.filter(q => 
+        q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
+        customChapter.toLowerCase().includes(q.chapter.toLowerCase())
+      );
+      pool = filtered.length >= customQCount ? filtered : ALL_BIOLOGY_MASTER_QUESTIONS;
+    }
+
+    const selectedQuestions = pool.slice(0, customQCount);
+
     const customTestItem: TestItem = {
       id: `custom-test-${Date.now()}`,
       title: `Custom Test: ${customSubject} - ${customChapter}`,
       category: 'custom',
       exam: 'NEET',
       syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level)`,
-      totalQuestions: customQCount,
+      totalQuestions: selectedQuestions.length > 0 ? selectedQuestions.length : customQCount,
       durationMinutes: customDuration,
-      totalMarks: customQCount * 4,
+      totalMarks: (selectedQuestions.length > 0 ? selectedQuestions.length : customQCount) * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
       difficulty: customDifficulty === 'Adaptive' ? 'Mixed' : customDifficulty,
       cbtMode: true,
@@ -130,7 +149,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         `Difficulty: ${customDifficulty}`,
         `Duration: ${customDuration} Mins`
       ],
-      questions: SAMPLE_QUESTIONS
+      questions: selectedQuestions.length > 0 ? selectedQuestions : SAMPLE_QUESTIONS
     };
 
     onStartCustomTest(customTestItem);
@@ -300,10 +319,36 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 )}
                 {customSubject === 'Chemistry' && (
                   <>
-                    <option value="Organic Chemistry Mechanisms">Organic Chemistry Mechanisms</option>
-                    <option value="Chemical Kinetics & Equilibrium">Chemical Kinetics & Equilibrium</option>
-                    <option value="Coordination Compounds">Coordination Compounds</option>
+                    <option value="Some Basic Concepts of Chemistry">Some Basic Concepts of Chemistry</option>
+                    <option value="Structure of Atom">Structure of Atom</option>
+                    <option value="Classification of Elements and Periodicity in Properties">Classification of Elements and Periodicity</option>
+                    <option value="Chemical Bonding and Molecular Structure">Chemical Bonding and Molecular Structure</option>
+                    <option value="States of Matter">States of Matter</option>
+                    <option value="Thermodynamics">Thermodynamics</option>
+                    <option value="Equilibrium">Equilibrium</option>
+                    <option value="Redox Reactions">Redox Reactions</option>
+                    <option value="Hydrogen">Hydrogen</option>
+                    <option value="The s-Block Elements">The s-Block Elements</option>
+                    <option value="The p-Block Elements (Group 13 & 14)">The p-Block Elements (Group 13 & 14)</option>
+                    <option value="Organic Chemistry - Some Basic Principles & Techniques">Organic Chemistry - Some Basic Principles & Techniques</option>
+                    <option value="Hydrocarbons">Hydrocarbons</option>
+                    <option value="Environmental Chemistry">Environmental Chemistry</option>
+                    <option value="The Solid State">The Solid State</option>
+                    <option value="Solutions">Solutions</option>
                     <option value="Electrochemistry">Electrochemistry</option>
+                    <option value="Chemical Kinetics">Chemical Kinetics</option>
+                    <option value="Surface Chemistry">Surface Chemistry</option>
+                    <option value="General Principles and Processes of Isolation of Elements">General Principles and Processes of Isolation of Elements</option>
+                    <option value="The p-Block Elements (Group 15, 16, 17 and 18)">The p-Block Elements (Group 15, 16, 17 & 18)</option>
+                    <option value="The d- and f-Block Elements">The d- and f-Block Elements</option>
+                    <option value="Coordination Compounds">Coordination Compounds</option>
+                    <option value="Haloalkanes and Haloarenes">Haloalkanes and Haloarenes</option>
+                    <option value="Alcohols, Phenols and Ethers">Alcohols, Phenols and Ethers</option>
+                    <option value="Aldehydes, Ketones and Carboxylic Acids">Aldehydes, Ketones and Carboxylic Acids</option>
+                    <option value="Amines">Amines</option>
+                    <option value="Biomolecules">Biomolecules</option>
+                    <option value="Polymers">Polymers</option>
+                    <option value="Chemistry in Everyday Life">Chemistry in Everyday Life</option>
                   </>
                 )}
                 {customSubject === 'Mathematics' && (
