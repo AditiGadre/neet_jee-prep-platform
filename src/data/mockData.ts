@@ -16,6 +16,19 @@ import { ELECTROSTATICS_BOOK_QUESTIONS } from './electrostaticsQuestions';
 import { GRAVITATION_BOOK_QUESTIONS } from './gravitationQuestions';
 import { THERMODYNAMICS_BOOK_QUESTIONS } from './thermodynamicsQuestions';
 import { MAGNETISM_BOOK_QUESTIONS } from './magnetismQuestions';
+import { 
+  ALL_BIOLOGY_MASTER_QUESTIONS,
+  THE_LIVING_WORLD_V1_QUESTIONS,
+  HUMAN_REPRODUCTION_V2_QUESTIONS,
+  PRINCIPLES_OF_INHERITANCE_AND_VARIATION_V2_QUESTIONS,
+  MOLECULAR_BASIS_OF_INHERITANCE_V2_QUESTIONS,
+  BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_V2_QUESTIONS,
+  BIOTECHNOLOGY_AND_ITS_APPLICATIONS_V2_QUESTIONS,
+  ORGANISMS_AND_POPULATIONS_V2_QUESTIONS,
+  ECOSYSTEM_V2_QUESTIONS,
+  BIODIVERSITY_AND_CONSERVATION_V2_QUESTIONS,
+  ENVIRONMENTAL_ISSUES_V2_QUESTIONS
+} from './biologyQuestions';
 
 export const SAMPLE_QUESTIONS: Question[] = [
   {
@@ -129,6 +142,141 @@ export const SAMPLE_QUESTIONS: Question[] = [
 ];
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  {
+    id: 'test-biology-grand-380',
+    title: 'NEET Biology Complete Master Grand Test (380 Qs - All 38 Chapters)',
+    category: 'full',
+    exam: 'NEET',
+    syllabus: 'Full NEET Biology Syllabus: Class 11 (22 Chapters) & Class 12 (16 Chapters) Complete',
+    totalQuestions: 380,
+    durationMinutes: 200,
+    totalMarks: 1520,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: [
+      'All 38 NCERT Chapters Covered',
+      'Class 11 & Class 12 Master Question Bank',
+      'Step-by-step NCERT explanations',
+      'Full CBT Mock Exam Simulation'
+    ],
+    questions: ALL_BIOLOGY_MASTER_QUESTIONS,
+    enrolledStudentsCount: 48900,
+    avgScore: 980
+  },
+  {
+    id: 'test-biology-vol1-class11',
+    title: 'Class 11 Biology Full Syllabus Test (220 Qs - Units I to V)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Diversity in Living World, Structural Organisation, Cell Structure, Plant Physiology, Human Physiology',
+    totalQuestions: 220,
+    durationMinutes: 180,
+    totalMarks: 880,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      'All 22 Class 11 Chapters',
+      'Deep Physiology & Cell Biology Coverage',
+      'Instant Scorecard & Detailed Solutions'
+    ],
+    questions: ALL_BIOLOGY_MASTER_QUESTIONS.slice(0, 220),
+    enrolledStudentsCount: 41200,
+    avgScore: 610
+  },
+  {
+    id: 'test-biology-vol2-class12',
+    title: 'Class 12 Biology Full Syllabus Test (160 Qs - Units VI to X)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'Reproduction, Genetics and Evolution, Biology in Human Welfare, Biotechnology, Ecology & Environment',
+    totalQuestions: 160,
+    durationMinutes: 150,
+    totalMarks: 640,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'All 16 Class 12 Chapters',
+      'High-Yield Genetics & Biotechnology Focus',
+      'Full CBT Exam Mode with Analytics'
+    ],
+    questions: ALL_BIOLOGY_MASTER_QUESTIONS.slice(220, 380),
+    enrolledStudentsCount: 43500,
+    avgScore: 490
+  },
+  {
+    id: 'test-genetics-molecular',
+    title: 'Genetics & Molecular Biology Chapterwise Test',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Principles of Inheritance & Variation, Molecular Basis of Inheritance',
+    totalQuestions: 20,
+    durationMinutes: 30,
+    totalMarks: 80,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'Mendelian crosses, pedigrees, and chromosomal disorders',
+      'DNA replication, transcription, translation, Lac operon'
+    ],
+    questions: [
+      ...PRINCIPLES_OF_INHERITANCE_AND_VARIATION_V2_QUESTIONS,
+      ...MOLECULAR_BASIS_OF_INHERITANCE_V2_QUESTIONS
+    ],
+    enrolledStudentsCount: 38200,
+    avgScore: 62
+  },
+  {
+    id: 'test-biotechnology-unit',
+    title: 'Biotechnology: Principles & Applications Test',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Recombinant DNA technology, PCR, Gel electrophoresis, Bt Cotton, RNAi, Gene Therapy, GMOs',
+    totalQuestions: 20,
+    durationMinutes: 30,
+    totalMarks: 80,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      'Vectors, restriction enzymes, downstream processing',
+      'Transgenic Rosie cow, Humulin, ADA gene therapy'
+    ],
+    questions: [
+      ...BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_V2_QUESTIONS,
+      ...BIOTECHNOLOGY_AND_ITS_APPLICATIONS_V2_QUESTIONS
+    ],
+    enrolledStudentsCount: 36700,
+    avgScore: 68
+  },
+  {
+    id: 'test-ecology-environment-unit',
+    title: 'Ecology & Environment Complete Unit Test (40 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Organisms & Populations, Ecosystem, Biodiversity & Conservation, Environmental Issues',
+    totalQuestions: 40,
+    durationMinutes: 45,
+    totalMarks: 160,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      'Population interactions, ecological succession, biogeochemical cycles',
+      'Hotspots, Evil Quartet, global warming, ozone depletion'
+    ],
+    questions: [
+      ...ORGANISMS_AND_POPULATIONS_V2_QUESTIONS,
+      ...ECOSYSTEM_V2_QUESTIONS,
+      ...BIODIVERSITY_AND_CONSERVATION_V2_QUESTIONS,
+      ...ENVIRONMENTAL_ISSUES_V2_QUESTIONS
+    ],
+    enrolledStudentsCount: 39800,
+    avgScore: 128
+  },
   {
     id: 'test-vectors-book',
     title: 'Vectors Chapter Grand Test (143 Qs)',
