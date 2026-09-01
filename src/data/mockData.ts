@@ -1,3 +1,11 @@
+import { ALL_CHEMISTRY_MASTER_QUESTIONS } from './chemistryQuestions';
+import {
+  CHEMISTRY_MOCK_TEST_1_QUESTIONS,
+  CHEMISTRY_MOCK_TEST_2_QUESTIONS,
+  CHEMISTRY_MOCK_TEST_3_QUESTIONS,
+  CHEMISTRY_MOCK_TEST_4_QUESTIONS,
+  CHEMISTRY_MOCK_TEST_5_QUESTIONS
+} from './chemistryMockTests';
 import {
   TestItem,
   OnlineCourse,
@@ -142,6 +150,134 @@ export const SAMPLE_QUESTIONS: Question[] = [
 ];
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  {
+    id: 'test-chemistry-grand-master',
+    title: 'NEET Chemistry Complete Master Grand Test (All 30 NCERT Chapters)',
+    category: 'full',
+    exam: 'NEET',
+    syllabus: 'Complete Class 11 & 12 Chemistry: Physical, Inorganic & Organic Chemistry',
+    totalQuestions: ALL_CHEMISTRY_MASTER_QUESTIONS.length,
+    durationMinutes: 200,
+    totalMarks: ALL_CHEMISTRY_MASTER_QUESTIONS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: [
+      'All 30 NCERT Chemistry Chapters Covered',
+      'Class 11 & Class 12 Complete Question Bank',
+      'Step-by-step NCERT explanations',
+      'Full CBT Mock Exam Simulation'
+    ],
+    questions: ALL_CHEMISTRY_MASTER_QUESTIONS,
+    enrolledStudentsCount: 52400,
+    avgScore: 540
+  },
+  {
+    id: 'test-chemistry-mock-1',
+    title: 'NEET Chemistry Full Syllabus Mock Test 1 (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Full Chemistry Syllabus (Physical, Inorganic, Organic)',
+    totalQuestions: 45,
+    durationMinutes: 60,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      'Exact NEET standard 45-question format',
+      'Complete answer key and solutions',
+      'Timed exam simulation'
+    ],
+    questions: CHEMISTRY_MOCK_TEST_1_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_1_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(0, 45),
+    enrolledStudentsCount: 38900,
+    avgScore: 124
+  },
+  {
+    id: 'test-chemistry-mock-2',
+    title: 'NEET Chemistry Full Syllabus Mock Test 2 (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Full Chemistry Syllabus (Physical, Inorganic, Organic)',
+    totalQuestions: 45,
+    durationMinutes: 60,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'Exact NEET standard 45-question format',
+      'Deep conceptual questions',
+      'Timed exam simulation'
+    ],
+    questions: CHEMISTRY_MOCK_TEST_2_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_2_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(45, 90),
+    enrolledStudentsCount: 36200,
+    avgScore: 118
+  },
+  {
+    id: 'test-chemistry-mock-3',
+    title: 'NEET Chemistry Full Syllabus Mock Test 3 (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Full Chemistry Syllabus (Physical, Inorganic, Organic)',
+    totalQuestions: 45,
+    durationMinutes: 60,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'Comprehensive Full Syllabus Chemistry Mock',
+      'Instant Scorecard & Analysis',
+      'Timed exam simulation'
+    ],
+    questions: CHEMISTRY_MOCK_TEST_3_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_3_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(90, 135),
+    enrolledStudentsCount: 34100,
+    avgScore: 112
+  },
+  {
+    id: 'test-chemistry-mock-4',
+    title: 'NEET Chemistry High-Yield Mock Test 4 (30 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'High-Yield Chemistry Topics',
+    totalQuestions: 30,
+    durationMinutes: 45,
+    totalMarks: 120,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '30 High-Yield MCQs',
+      'NCERT Line-by-Line',
+      'Instant Analysis'
+    ],
+    questions: CHEMISTRY_MOCK_TEST_4_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_4_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(135, 165),
+    enrolledStudentsCount: 29800,
+    avgScore: 84
+  },
+  {
+    id: 'test-chemistry-mock-5',
+    title: 'NEET Chemistry High-Yield Mock Test 5 (30 Qs)',
+    category: 'part',
+    exam: 'NEET',
+    syllabus: 'High-Yield Chemistry Topics',
+    totalQuestions: 30,
+    durationMinutes: 45,
+    totalMarks: 120,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '30 High-Yield MCQs',
+      'NCERT Line-by-Line',
+      'Instant Analysis'
+    ],
+    questions: CHEMISTRY_MOCK_TEST_5_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_5_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(165, 195),
+    enrolledStudentsCount: 28400,
+    avgScore: 88
+  },
+
   {
     id: 'test-biology-grand-380',
     title: 'NEET Biology Complete Master Grand Test (380 Qs - All 38 Chapters)',
