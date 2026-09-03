@@ -5,7 +5,9 @@ import {
   FINGERTIPS_BIO_CH03_MCQS,
   FINGERTIPS_BIO_CH03_EXAM_SCORER,
   FINGERTIPS_BIO_CH04_MCQS,
-  FINGERTIPS_BIO_CH04_EXAM_SCORER
+  FINGERTIPS_BIO_CH04_EXAM_SCORER,
+  FINGERTIPS_BIO_CH05_MCQS,
+  FINGERTIPS_BIO_CH05_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -288,10 +290,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (621 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (828 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 (Biological Classification), 03 (Plant Kingdom) & 04 (Animal Kingdom) - Full NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 (Biological Classification), 03 (Plant Kingdom), 04 (Animal Kingdom) & 05 (Morphology of Flowering Plants) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -300,13 +302,13 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 621 Questions with 100% Verified MTG Answer Keys',
+      'All 828 Questions with 100% Verified MTG Answer Keys',
       'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
       'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 96400,
-    avgScore: 920
+    enrolledStudentsCount: 104200,
+    avgScore: 940
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -420,10 +422,10 @@ export const TEST_SERIES_DATA: TestItem[] = [
   },
   {
     id: 'test-ft-bio-ch04-exam-scorer',
-    title: 'Fingertips Biology Ch 04: Exam Scorer & Archive (90 Qs)',
+    title: 'Fingertips Biology Ch 04: Exam Scorer & Archive (92 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'NCERT Exemplar (13 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case (14 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
+    syllabus: 'NCERT Exemplar (13 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case (14 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (22 Qs)',
     totalQuestions: FINGERTIPS_BIO_CH04_EXAM_SCORER.length,
     durationMinutes: 60,
     totalMarks: FINGERTIPS_BIO_CH04_EXAM_SCORER.length * 4,
@@ -434,11 +436,55 @@ export const TEST_SERIES_DATA: TestItem[] = [
       'NCERT Exemplar Problems & High-Yield A&R Drills',
       'Germ Layer, Coelom & Chordate Morphological Diagrams',
       'Classification Matrices & Locomotion Matching',
-      '20 NEET / AIPMT Past Exam Archive Questions'
+      '22 NEET / AIPMT Past Exam Archive Questions'
     ],
     questions: FINGERTIPS_BIO_CH04_EXAM_SCORER,
     enrolledStudentsCount: 44100,
     avgScore: 325
+  },
+  {
+    id: 'test-ft-bio-ch05-morphology',
+    title: 'Fingertips Biology Ch 05: Morphology of Flowering Plants (125 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Root, Stem, Leaf, Inflorescence, Flower (Aestivation, Placentation), Fruit (Drupe, Berry), Seed (Dicot & Monocot) & Plant Families',
+    totalQuestions: FINGERTIPS_BIO_CH05_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_CH05_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '125 Line-by-Line NCERT Objective MCQs',
+      'Complete Root/Stem/Leaf/Floral Modifications & Diagrams',
+      'Families: Fabaceae, Solanaceae, Liliaceae, Brassicaceae, Asteraceae, Poaceae',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_CH05_MCQS,
+    enrolledStudentsCount: 48900,
+    avgScore: 420
+  },
+  {
+    id: 'test-ft-bio-ch05-exam-scorer',
+    title: 'Fingertips Biology Ch 05: Exam Scorer & Archive (80 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (8 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH05_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH05_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Aestivation, Placentation & Seed Longitudinal Section Figures',
+      'Floral Formula & Floral Diagram Case Studies',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH05_EXAM_SCORER,
+    enrolledStudentsCount: 41300,
+    avgScore: 305
   },
 
   {
