@@ -29,7 +29,9 @@ import {
   FINGERTIPS_BIO_CH15_MCQS,
   FINGERTIPS_BIO_CH15_EXAM_SCORER,
   FINGERTIPS_BIO_CH16_MCQS,
-  FINGERTIPS_BIO_CH16_EXAM_SCORER
+  FINGERTIPS_BIO_CH16_EXAM_SCORER,
+  FINGERTIPS_BIO_CH17_MCQS,
+  FINGERTIPS_BIO_CH17_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -312,10 +314,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,891 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,170 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 16 (Biological Classification to Excretory Products) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 17 (Biological Classification to Locomotion and Movement) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -972,24 +974,69 @@ export const TEST_SERIES_DATA: TestItem[] = [
   },
   {
     id: 'test-ft-bio-ch16-exam-scorer',
-    title: 'Fingertips Biology Ch 16: Exam Scorer & Exemplar (12 Qs)',
+    title: 'Fingertips Biology Ch 16: Exam Scorer & Archive (80 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'NCERT Exemplar Problems on Nitrogenous Wastes, Slit Pores, Aldosterone, ANF, Osmoregulation & Urine pH',
+    syllabus: 'NCERT Exemplar (15 Qs), A&R (10 Qs), Statements (5 Qs), Matching (6 Qs), Case-Based (15 Qs), Figures (5 Qs), Multi (10 Qs), NEET Archive (14 Qs)',
     totalQuestions: FINGERTIPS_BIO_CH16_EXAM_SCORER.length,
-    durationMinutes: 20,
+    durationMinutes: 60,
     totalMarks: FINGERTIPS_BIO_CH16_EXAM_SCORER.length * 4,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
     cbtMode: true,
     features: [
-      'Official NCERT Exemplar Problems',
-      'Toxicity Hierarchies & Nephron Tubule Physiological Matches',
-      'Detailed Explanations & Topic Tagging'
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Nephron Histology, Malpighian Body & Urinary System Diagrams',
+      'Reabsorption Curve, Osmolar Gradient & RAAS Flow Chart Analysis',
+      '14 NEET / AIPMT Past Exam Archive Questions'
     ],
     questions: FINGERTIPS_BIO_CH16_EXAM_SCORER,
-    enrolledStudentsCount: 47600,
-    avgScore: 40
+    enrolledStudentsCount: 52400,
+    avgScore: 320
+  },
+  {
+    id: 'test-ft-bio-ch17-locomotion',
+    title: 'Fingertips Biology Ch 17: Locomotion and Movement (125 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Amoeboid/Ciliary/Muscular Movement, Skeletal Muscle Histology, Syncytium, Sarcomere, Actin (F-actin, Tropomyosin, Troponin), Myosin (HMM/LMM, ATPase), Sliding Filament Theory, Cross-Bridge Cycle, Red vs White Fibres, Axial Skeleton (80 bones: Skull, Vertebral Column, Ribs, Sternum), Appendicular Skeleton (126 bones: Limbs, Pectoral & Pelvic Girdles), Joints (Fibrous, Cartilaginous, Synovial) & Disorders (Myasthenia Gravis, Tetany, Muscular Dystrophy, Arthritis, Osteoporosis, Gout)',
+    totalQuestions: FINGERTIPS_BIO_CH17_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_CH17_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '125 Line-by-Line NCERT Objective MCQs',
+      'Complete 206 Bones Anatomical Formulae & Joint Classification',
+      'Sliding Filament Cross-Bridge Cycle & Biochemical ATP Hydrolysis',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_CH17_MCQS,
+    enrolledStudentsCount: 58900,
+    avgScore: 420
+  },
+  {
+    id: 'test-ft-bio-ch17-exam-scorer',
+    title: 'Fingertips Biology Ch 17: Exam Scorer & Archive (86 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (14 Qs), A&R (15 Qs), Statements (10 Qs), Matching (7 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (13 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH17_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH17_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Sarcomere Striation Histology, Skull Bones & Pectoral Girdle Figures',
+      'Fast-Oxidative Fibres, Wave Summation & Rigor Mortis Tension Graphs',
+      '13 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH17_EXAM_SCORER,
+    enrolledStudentsCount: 51800,
+    avgScore: 335
   },
 
   {
