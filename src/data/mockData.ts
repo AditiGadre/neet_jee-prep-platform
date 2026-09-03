@@ -1,5 +1,7 @@
 import {
   ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
+  FINGERTIPS_BIO_CH01_MCQS,
+  FINGERTIPS_BIO_CH01_EXAM_SCORER,
   FINGERTIPS_BIO_CH02_MCQS,
   FINGERTIPS_BIO_CH02_EXAM_SCORER,
   FINGERTIPS_BIO_CH03_MCQS,
@@ -318,10 +320,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,487 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,619 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 19 (Complete Class 11 NCERT Biology Curriculum: Biological Classification to Chemical Coordination) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 01 to 19 (Complete Class 11 NCERT Biology Curriculum: The Living World to Chemical Coordination) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
