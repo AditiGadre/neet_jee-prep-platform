@@ -37,7 +37,9 @@ import {
   FINGERTIPS_BIO_CH18_MCQS,
   FINGERTIPS_BIO_CH18_EXAM_SCORER,
   FINGERTIPS_BIO_CH19_MCQS,
-  FINGERTIPS_BIO_CH19_EXAM_SCORER
+  FINGERTIPS_BIO_CH19_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH01_MCQS,
+  FINGERTIPS_BIO_C12_CH01_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -320,10 +322,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,619 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,836 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 01 to 19 (Complete Class 11 NCERT Biology Curriculum: The Living World to Chemical Coordination) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01 Sexual Reproduction in Flowering Plants) - 3,836 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1130,6 +1132,50 @@ export const TEST_SERIES_DATA: TestItem[] = [
     ],
     questions: FINGERTIPS_BIO_CH19_EXAM_SCORER,
     enrolledStudentsCount: 53100,
+    avgScore: 295
+  },
+  {
+    id: 'test-ft-bio-c12-ch01-sexual-reproduction',
+    title: 'Fingertips Biology Class 12 Ch 01: Sexual Reproduction in Flowering Plants (125 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Flower Anatomy, Microsporangium & Anther Wall (Epidermis, Endothecium, Middle layers, Tapetum), Microsporogenesis, Pollen Grain Structure (Exine sporopollenin, Intine, Germ pores, 2/3-celled shedding, Viability), Megasporogenesis & Polygonum Embryo Sac (Egg apparatus, Antipodals, Polar nuclei), Pollination (Autogamy, Geitonogamy, Xenogamy; Anemophily, Hydrophily, Entomophily), Outbreeding Devices (Dioecy, Self-incompatibility), Pollen-Pistil Interaction, Double Fertilisation (Syngamy + Triple fusion), Endosperm Development (Free nuclear vs Cellular), Dicot & Monocot Embryogeny (Scutellum, Coleoptile, Coleorrhiza), Seed Structure (Albuminous vs Exalbuminous, Perisperm), False/True/Parthenocarpic Fruits, Apomixis & Polyembryony',
+    totalQuestions: FINGERTIPS_BIO_C12_CH01_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_C12_CH01_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '125 Line-by-Line NCERT Objective MCQs',
+      'Pollen-Pistil Dialogue, Embryo Sac 7-Celled 8-Nucleate Architecture',
+      'Double Fertilisation Energetics & Chromosomal Ploidy Calculations',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH01_MCQS,
+    enrolledStudentsCount: 68400,
+    avgScore: 430
+  },
+  {
+    id: 'test-ft-bio-c12-ch01-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 01: Exam Scorer & Archive (75 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (20 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (10 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER.length,
+    durationMinutes: 55,
+    totalMarks: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Anther Wall Histology, Grass/Dicot Embryo L.S. & Apple False Fruit Diagrams',
+      'Boron-Pollen Germination, Cleistogamy & Monosporic Embryogeny',
+      '10 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER,
+    enrolledStudentsCount: 58900,
     avgScore: 295
   },
 
