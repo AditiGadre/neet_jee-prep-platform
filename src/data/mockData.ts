@@ -39,7 +39,9 @@ import {
   FINGERTIPS_BIO_CH19_MCQS,
   FINGERTIPS_BIO_CH19_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH01_MCQS,
-  FINGERTIPS_BIO_C12_CH01_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH01_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH02_MCQS,
+  FINGERTIPS_BIO_C12_CH02_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -322,10 +324,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,836 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,095 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01 Sexual Reproduction in Flowering Plants) - 3,836 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01 Flowering Plants & Ch 02 Human Reproduction) - 4,095 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1177,6 +1179,50 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER,
     enrolledStudentsCount: 58900,
     avgScore: 295
+  },
+  {
+    id: 'test-ft-bio-c12-ch02-human-reproduction',
+    title: 'Fingertips Biology Class 12 Ch 02: Human Reproduction (150 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Male Reproductive System (Scrotum thermoregulation, Seminiferous tubules, Leydig cells androgens, Sertoli cells, Rete testis, Vasa efferentia, Epididymis, Vas deferens, Ejaculatory duct, Seminal vesicles fructose/calcium, Prostate gland, Bulbourethral Cowper glands), Female Reproductive System (Ovaries, Oviducts/Fallopian tubes infundibulum/ampulla/isthmus, Uterus perimetrium/myometrium/endometrium, Cervix & Vagina birth canal, External vulva mons pubis/labia/clitoris, Mammary glands alveoli/ducts), Gametogenesis (Spermatogenesis vs Oogenesis, Sperm anatomy head/acrosome/middle piece mitochondria/tail, Folliculogenesis primary/secondary/tertiary antrum/Graafian follicle, Polar bodies), Menstrual Cycle (Menstrual, Proliferative/Follicular under FSH/Estrogen, Day 14 LH surge ovulation, Luteal/Secretory under Progesterone, Menopause), Fertilisation & Implantation (Capacitation, Acrosome reaction, Cortical reaction ZP block, Cleavage, Morula 8-16 cells, Blastocyst trophoblast & ICM, Day 7 implantation), Pregnancy & Embryonic Development (Placenta chorionic villi, hCG/hPL/Relaxin, Ectoderm/Mesoderm/Endoderm fate, Gestational milestones), Parturition & Lactation (Fetal Ejection Reflex, Oxytocin, Colostrum IgA antibodies)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH02_MCQS.length,
+    durationMinutes: 90,
+    totalMarks: FINGERTIPS_BIO_C12_CH02_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '150 Line-by-Line NCERT Objective MCQs',
+      'Male & Female Reproductive Anatomy, Histology & Ducts',
+      'Gametogenesis Ploidy Calculations & Menstrual Cycle Hormonal Graphs',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH02_MCQS,
+    enrolledStudentsCount: 71200,
+    avgScore: 510
+  },
+  {
+    id: 'test-ft-bio-c12-ch02-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 02: Exam Scorer & Archive (74 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (15 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (13 Qs), Figures (10 Qs), Multi (6 Qs), NEET Archive (15 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER.length,
+    durationMinutes: 55,
+    totalMarks: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Sperm Structure, Graafian Follicle, Ovary Section & Pituitary Hormone Graphs',
+      'Seminiferous Tubule Histology & Blastocyst Implantation Analysis',
+      '15 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER,
+    enrolledStudentsCount: 62400,
+    avgScore: 290
   },
 
   {
