@@ -49,7 +49,10 @@ import {
   FINGERTIPS_BIO_C12_CH05_MCQS,
   FINGERTIPS_BIO_C12_CH05_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH06_MCQS,
-  FINGERTIPS_BIO_C12_CH06_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH06_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH07_MCQS,
+  FINGERTIPS_BIO_C12_CH07_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH08_MCQS
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -332,10 +335,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,909 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (5,205 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-06: Genetics, Molecular Biology & Evolution) - 4,909 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-08: Genetics, Evolution, Human Health & Microbes) - 5,205 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1407,6 +1410,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER,
     enrolledStudentsCount: 71400,
     avgScore: 330
+  },
+  {
+    id: 'test-ft-bio-c12-ch07-human-health',
+    title: 'Fingertips Biology Class 12 Ch 07: Human Health & Disease (115 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Common Human Diseases (Typhoid Salmonella Widal, Pneumonia Streptococcus/Haemophilus alveoli, Common cold Rhinovirus, Malaria Plasmodium digenetic life cycle haemozoin, Amoebiasis Entamoeba, Ascariasis Ascaris roundworm, Filariasis Wuchereria Culex, Ringworm Microsporum/Trichophyton/Epidermophyton), Immunity (Innate barriers: Physical skin/mucus, Physiological HCl/saliva/tears, Cellular PMNL/monocytes/macrophages, Cytokine interferons; Acquired immunity: Primary IgM vs Secondary IgG anamnestic, B-cells AMIS antibodies H2L2, T-cells CMIS graft rejection, Active vs Passive colostrum IgA antivenom ATS), Vaccination & Allergies (IgE mast cell histamine, Autoimmunity Rheumatoid arthritis), Lymphoid Organs (Primary: Bone marrow & Thymus; Secondary: Spleen, Lymph nodes, MALT 50%), AIDS (HIV retrovirus ssRNA reverse transcriptase helper Th CD4 destruction ELISA), Cancer (Loss of contact inhibition, Metastasis, Carcinogens, Biopsy, MRI non-ionizing, alpha-interferon), Drugs & Alcohol Abuse (Opioids morphine poppy latex / smack diacetylmorphine, Cannabinoids Cannabis inflorescence cardiovascular, Cocaine Erythroxylum dopamine, Hallucinogens Datura/Atropa/LSD, Tobacco nicotine catecholamines, Alcohol cirrhosis)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH07_MCQS.length,
+    durationMinutes: 70,
+    totalMarks: FINGERTIPS_BIO_C12_CH07_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '115 Line-by-Line NCERT Objective MCQs',
+      'Pathogen Life Cycles (Plasmodium, HIV, Wuchereria)',
+      'Immunity Barriers, Antibody H2L2 Structure & Lymphoid Organs',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH07_MCQS,
+    enrolledStudentsCount: 84300,
+    avgScore: 378
+  },
+  {
+    id: 'test-ft-bio-c12-ch07-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 07: Exam Scorer & Archive (97 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (23 Qs), A&R (15 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (13 Qs), Figures (5 Qs), Multi (5 Qs), NEET Archive (21 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH07_EXAM_SCORER.length,
+    durationMinutes: 70,
+    totalMarks: FINGERTIPS_BIO_C12_CH07_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Antibody Anatomy, HIV Replication Cycle & Drug Chemical Structures',
+      'R-Plasmid Conjugation & Multi-Drug Resistance Clinical Cases',
+      '21 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH07_EXAM_SCORER,
+    enrolledStudentsCount: 76500,
+    avgScore: 345
+  },
+  {
+    id: 'test-ft-bio-c12-ch08-microbes-mcqs',
+    title: 'Fingertips Biology Class 12 Ch 08: Microbes in Human Welfare (89 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Household Products (Lactobacillus LAB curd vitamin B12, Baker yeast Saccharomyces bread, Swiss cheese Propionibacterium CO2 holes, Roquefort Penicillium, Toddy palm), Industrial Products (Fermented beverages brewer yeast distilled whisky/rum/brandy vs undistilled wine/beer, Penicillin Fleming/Chain/Florey, Organic acids: Citric Aspergillus, Acetic Acetobacter, Butyric Clostridium, Lactic Lactobacillus, Enzymes: Lipases detergents, Pectinases/proteases fruit juice, Streptokinase clot buster, Bioactive molecules: Cyclosporin A Trichoderma immunosuppressant, Statins Monascus blood cholesterol inhibitor), Sewage Treatment (Primary physical filtration/sedimentation primary sludge -> Secondary biological aeration flocs BOD reduction -> Activated sludge -> Anaerobic digester biogas CH4/CO2/H2S), Biogas (Methanobacterium cattle rumen gobar gas IARI KVIC), Biocontrol (Ladybird aphids, Dragonflies mosquitoes, Bacillus thuringiensis Bt Cry toxin caterpillars, Trichoderma soil fungus, Baculoviruses NPV narrow spectrum IPM), Biofertilisers (Free-living Azotobacter/Azospirillum, Symbiotic Rhizobium legumes root nodules, Mycorrhizae Glomus phosphorus uptake, Cyanobacteria Anabaena/Nostoc paddy)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH08_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH08_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '89 Line-by-Line NCERT Objective MCQs',
+      'Industrial Microbial Fermentation & Secondary Metabolites',
+      'Sewage STP Treatment Stages & Biogas Digester Architecture',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH08_MCQS,
+    enrolledStudentsCount: 78900,
+    avgScore: 362
   },
 
   {
