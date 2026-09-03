@@ -63,7 +63,9 @@ import {
   FINGERTIPS_BIO_C12_CH12_MCQS,
   FINGERTIPS_BIO_C12_CH12_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH13_MCQS,
-  FINGERTIPS_BIO_C12_CH13_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH13_EXAM_SCORER,
+  NEET_MODEL_TEST_PAPER_1,
+  NEET_MODEL_TEST_PAPER_2
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -346,10 +348,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (6,285 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (6,428 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Complete Class 11 (Ch 01-19) & Class 12 (Ch 01-13: Reproduction, Genetics, Evolution, Health, Microbes, Biotech, Ecology & Biodiversity) - 6,285 Total Verified Questions (100% Complete NCERT Curriculum) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Complete Class 11 (Ch 01-19) & Class 12 (Ch 01-13: Reproduction, Genetics, Evolution, Health, Microbes, Biotech, Ecology & Biodiversity) - 6,428 Total Verified Questions (100% Complete NCERT Curriculum + NEET Model Test Papers) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1729,6 +1731,50 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER,
     enrolledStudentsCount: 91500,
     avgScore: 364
+  },
+  {
+    id: 'test-neet-model-test-paper-1',
+    title: 'MTG NEET Model Test Paper 1: Full Biology Syllabus (90 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Full NCERT Biology Syllabus (Class 11 Chapters 01 to 19 & Class 12 Chapters 01 to 13) - Full length 90 questions exam simulation with timed CBT interface, negative marking, question palette, and verified official solutions',
+    totalQuestions: NEET_MODEL_TEST_PAPER_1.length,
+    durationMinutes: 90,
+    totalMarks: NEET_MODEL_TEST_PAPER_1.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      '90 High-Yield Full Syllabus Objective Questions',
+      'Balanced Distribution: Botany & Zoology Across Class 11 and 12',
+      'A&R, Statement-Based, Matching, Diagrammatic & Numerical Drills',
+      '100% Verified MTG Official Answer Key & Solutions'
+    ],
+    questions: NEET_MODEL_TEST_PAPER_1,
+    enrolledStudentsCount: 125000,
+    avgScore: 285
+  },
+  {
+    id: 'test-neet-model-test-paper-2',
+    title: 'MTG NEET Model Test Paper 2: Full Biology Syllabus (53 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Full NCERT Biology Syllabus (Class 11 Chapters 01 to 19 & Class 12 Chapters 01 to 13) - Full length model test simulation covering Enzymes, Hormones, Genetics, Biotech, Ecology, Anatomy, and Human Physiology',
+    totalQuestions: NEET_MODEL_TEST_PAPER_2.length,
+    durationMinutes: 60,
+    totalMarks: NEET_MODEL_TEST_PAPER_2.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'Comprehensive Full-Syllabus High-Yield NEET Questions',
+      'Enzyme Kinetics, Pedigree Analysis, Trophic Energetics & PGR Mechanisms',
+      'Integrated NTA-Pattern Simulation with Instant Performance Metrics',
+      '100% Verified MTG Official Answer Key & Solutions'
+    ],
+    questions: NEET_MODEL_TEST_PAPER_2,
+    enrolledStudentsCount: 112000,
+    avgScore: 278
   },
 
   {
