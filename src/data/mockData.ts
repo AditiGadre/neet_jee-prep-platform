@@ -47,7 +47,9 @@ import {
   FINGERTIPS_BIO_C12_CH04_MCQS,
   FINGERTIPS_BIO_C12_CH04_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH05_MCQS,
-  FINGERTIPS_BIO_C12_CH05_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH05_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH06_MCQS,
+  FINGERTIPS_BIO_C12_CH06_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -330,10 +332,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,673 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,909 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-05: Genetics & Molecular Biology) - 4,673 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-06: Genetics, Molecular Biology & Evolution) - 4,909 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1361,6 +1363,50 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER,
     enrolledStudentsCount: 76800,
     avgScore: 295
+  },
+  {
+    id: 'test-ft-bio-c12-ch06-evolution',
+    title: 'Fingertips Biology Class 12 Ch 06: Evolution (100 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Origin of Life (Big Bang 13.8/20 bya, Earth 4.5 bya, Life 4 bya, Abiogenesis vs Biogenesis Pasteur swan neck, Oparin-Haldane chemical evolution, Miller-Urey 1953 spark discharge 800 C CH4/NH3/H2/H2O amino acids), Theories of Evolution (Lamarckism 1809 use & disuse Weismann disproof, Darwinism 1859 HMS Beagle Wallace Malay Archipelago branching descent natural selection reproductive fitness, Hugo de Vries Mutation Theory Oenothera saltation random directionless), Evidences for Evolution (Palaeontology sedimentary fossils Archaeopteryx reptilian/avian connecting link, Comparative anatomy: Homology divergent Bougainvillea/Cucurbita vertebrate forelimbs, Analogy convergent octopus/mammal eyes penguin/dolphin flippers sweet potato root / potato stem, Industrial Melanism Biston betularia natural selection, Adaptive Radiation Galapagos finches & Australian marsupials vs placental mammals), Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1, p+q=1, Drift/Gene flow/Recombination/Mutation/Selection, Selection types: Stabilising birth weight, Directional industrial melanism/milk, Disruptive bimodal), Geological Time Scale & Human Evolution (Coelacanth lobefins 350 mya, Dinosaurs extinction 65 mya, Lineage: Dryopithecus & Ramapithecus 15 mya -> Australopithecus 2 mya stone weapons fruit -> Homo habilis 650-800 cc no meat -> Homo erectus 1.5 mya Java 900 cc meat eater -> Neanderthal 1400 cc 100000-40000 yrs hides buried dead -> Homo sapiens ice age 75000-10000 yrs Bhimbetka cave art 18000 yrs agriculture 10000 yrs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH06_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH06_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'Homology vs Analogy Categorisation & Convergent Evolution',
+      'Hardy-Weinberg Algebraic Calculations & Hominid Cranial Capacities',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH06_MCQS,
+    enrolledStudentsCount: 79200,
+    avgScore: 365
+  },
+  {
+    id: 'test-ft-bio-c12-ch06-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 06: Exam Scorer & Archive (86 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (18 Qs), A&R (15 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (13 Qs), NEET Archive (15 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Geological Plant & Dinosaur Evolution Trees, Miller Apparatus & Skull Anatomies',
+      'Hardy-Weinberg Frequency Distributions & Cladogram Phylogenetic Analysis',
+      '15 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER,
+    enrolledStudentsCount: 71400,
+    avgScore: 330
   },
 
   {
