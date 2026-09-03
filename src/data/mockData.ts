@@ -55,7 +55,10 @@ import {
   FINGERTIPS_BIO_C12_CH08_MCQS,
   FINGERTIPS_BIO_C12_CH08_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH09_MCQS,
-  FINGERTIPS_BIO_C12_CH09_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH09_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH10_MCQS,
+  FINGERTIPS_BIO_C12_CH10_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH11_MCQS
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -338,10 +341,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (5,527 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (5,794 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-09: Genetics, Evolution, Human Health, Microbes & Biotechnology) - 5,527 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-11: Genetics, Evolution, Human Health, Microbes, Biotechnology, Ecology & Populations) - 5,794 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1545,6 +1548,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER,
     enrolledStudentsCount: 81200,
     avgScore: 355
+  },
+  {
+    id: 'test-ft-bio-c12-ch10-biotech-applications',
+    title: 'Fingertips Biology Class 12 Ch 10: Biotech & Its Applications (110 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Plant Tissue Culture (Cellular Totipotency Haberlandt, Explants, Callus/Suspension Culture, Micropropagation Somaclones, Meristem Culture virus-free, Somatic Hybridisation Protoplast fusion Pomato), Transgenic Plants (Bt Cotton Cry proteins cryIAc/cryIIAb/cryIAb alkaline midgut activation, RNA Interference Meloidogyne incognita dsRNA gene silencing Dicer/RISC, Golden Rice provitamin A beta-carotene, Flavr Savr tomato antisense polygalacturonase), Medicine (Genetically Engineered Insulin Humulin Eli Lilly 1983 A/B chains in E. coli without C-peptide, ADA Gene Therapy 1990 retroviral vector SCID, Molecular Diagnosis: PCR, ELISA antigen-antibody, Radioactive probes autoradiography), Transgenic Animals (Rosie Cow alpha-lactalbumin 2.4 g/L, alpha-1-antitrypsin emphysema, Transgenic mice polio vaccine safety), Ethical Issues & Biopiracy (GEAC, US Basmati Patent 1997, Turmeric/Neem patents, Indian Patents Bill 2nd Amendment, Biowar)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH10_MCQS.length,
+    durationMinutes: 70,
+    totalMarks: FINGERTIPS_BIO_C12_CH10_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '110 Line-by-Line NCERT Objective MCQs',
+      'Bt Toxin Mechanism & RNA Interference (RNAi) Gene Silencing Drills',
+      'Humulin Maturation & ADA Retroviral Gene Therapy Flowcharts',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH10_MCQS,
+    enrolledStudentsCount: 92400,
+    avgScore: 388
+  },
+  {
+    id: 'test-ft-bio-c12-ch10-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 10: Exam Scorer & Archive (80 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (15 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (8 Qs), Multi (6 Qs), NEET Archive (21 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH10_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH10_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Insulin Disulphide Bridge Structure & Proinsulin Cleavage Analytics',
+      'Transgenic Model Matrices & Biopiracy Legal Precedents',
+      '21 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH10_EXAM_SCORER,
+    enrolledStudentsCount: 84600,
+    avgScore: 360
+  },
+  {
+    id: 'test-ft-bio-c12-ch11-organisms-populations',
+    title: 'Fingertips Biology Class 12 Ch 11: Organisms & Populations (78 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Organism and Its Environment: Ramdeo Misra Father of Indian Ecology, Major Biomes (Tropical, Deciduous, Desert, Coniferous Taiga, Tundra), Abiotic Factors (Temperature: Eurythermal/Stenothermal, Water: Euryhaline/Stenohaline salinity, Light: Sciophytes/Heliophytes, Soil profile horizons O/A/B/C/R), Responses to Abiotic Factors (Regulate Homeostasis vs Conform 99% animals, Suspend spores/diapause/hibernation/aestivation, Migrate Keoladeo Bharatpur Siberian cranes), Adaptations (Kangaroo rat metabolic water, Opuntia phylloclade spines, CAM plants, Allen Rule colder climates shorter ears/limbs, Altitude Sickness Rohtang Pass RBC compensation, Desert lizard behavioural basking), Population Attributes (Birth rate, Death rate, Sex ratio, Age Pyramids: Triangular Expanding, Bell-shaped Stable, Urn-shaped Declining)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH11_MCQS.length,
+    durationMinutes: 55,
+    totalMarks: FINGERTIPS_BIO_C12_CH11_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '78 Line-by-Line NCERT Objective MCQs',
+      'Abiotic Responses & Evolutionary Regulate vs Conform Graphs',
+      'Demographic Age Pyramids & Natality/Mortality Calculations',
+      '100% Verified NCERT Concept Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH11_MCQS,
+    enrolledStudentsCount: 96000,
+    avgScore: 395
   },
 
   {
