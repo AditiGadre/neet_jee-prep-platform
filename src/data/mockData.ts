@@ -16,7 +16,10 @@ import {
   FINGERTIPS_BIO_CH08_EXAM_SCORER,
   FINGERTIPS_BIO_CH09_MCQS,
   FINGERTIPS_BIO_CH09_EXAM_SCORER,
-  FINGERTIPS_BIO_CH10_MCQS
+  FINGERTIPS_BIO_CH10_MCQS,
+  FINGERTIPS_BIO_CH10_EXAM_SCORER,
+  FINGERTIPS_BIO_CH11_MCQS,
+  FINGERTIPS_BIO_CH11_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -299,10 +302,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (1,730 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,014 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 10 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell: The Unit of Life, Biomolecules & Cell Cycle/Division) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 11 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell: The Unit of Life, Biomolecules, Cell Cycle & Photosynthesis in Higher Plants) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -311,13 +314,13 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 1,730 Questions with 100% Verified MTG Answer Keys',
+      'All 2,014 Questions with 100% Verified MTG Answer Keys',
       'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
       'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 145000,
-    avgScore: 1140
+    enrolledStudentsCount: 168000,
+    avgScore: 1320
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -692,6 +695,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH10_MCQS,
     enrolledStudentsCount: 56700,
     avgScore: 360
+  },
+  {
+    id: 'test-ft-bio-ch10-exam-scorer',
+    title: 'Fingertips Biology Ch 10: Exam Scorer & Archive (84 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (10 Qs), A&R (11 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (5 Qs), Multi (8 Qs), NEET Archive (15 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH10_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH10_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'DNA Content Histograms, Chromosome Shape & Centrosome Cycle Diagrams',
+      'Recombination Nodules, Chiasmata & Centromere Cleavage Stages',
+      '15 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH10_EXAM_SCORER,
+    enrolledStudentsCount: 48900,
+    avgScore: 320
+  },
+  {
+    id: 'test-ft-bio-ch11-photosynthesis',
+    title: 'Fingertips Biology Ch 11: Photosynthesis in Higher Plants (110 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Early Experiments (Priestley, Ingenhousz, Sachs, Engelmann, Van Niel), Pigments & Absorption Spectra, Light Reaction, Z-Scheme, Cyclic/Non-cyclic Photophosphorylation, Chemiosmotic Hypothesis, Calvin C3 Cycle, Hatch-Slack C4 Pathway, Photorespiration C2 Cycle & Limiting Factors',
+    totalQuestions: FINGERTIPS_BIO_CH11_MCQS.length,
+    durationMinutes: 70,
+    totalMarks: FINGERTIPS_BIO_CH11_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '110 Line-by-Line NCERT Objective MCQs',
+      'Complete Z-Scheme, CF0-CF1 Chemiosmosis & Calvin Cycle Turn Math',
+      'Kranz Leaf Anatomy, Dimorphic Chloroplasts & Photorespiration',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH11_MCQS,
+    enrolledStudentsCount: 58200,
+    avgScore: 395
+  },
+  {
+    id: 'test-ft-bio-ch11-exam-scorer',
+    title: 'Fingertips Biology Ch 11: Exam Scorer & Archive (90 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (14 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (11 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH11_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH11_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & Advanced A&R Drills',
+      'Chloroplast Ultrastructure, LHC & C4 Hatch-Slack Diagrams',
+      'Action Spectra Overlay & Carbon Fixation Cross-Concept Analysis',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH11_EXAM_SCORER,
+    enrolledStudentsCount: 49500,
+    avgScore: 335
   },
 
   {
