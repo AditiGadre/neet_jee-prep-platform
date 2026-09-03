@@ -61,7 +61,9 @@ import {
   FINGERTIPS_BIO_C12_CH11_MCQS,
   FINGERTIPS_BIO_C12_CH11_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH12_MCQS,
-  FINGERTIPS_BIO_C12_CH12_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH12_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH13_MCQS,
+  FINGERTIPS_BIO_C12_CH13_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -344,10 +346,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (6,090 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (6,285 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-12: Genetics, Evolution, Human Health, Microbes, Biotechnology, Populations & Ecosystems) - 6,090 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Complete Class 11 (Ch 01-19) & Class 12 (Ch 01-13: Reproduction, Genetics, Evolution, Health, Microbes, Biotech, Ecology & Biodiversity) - 6,285 Total Verified Questions (100% Complete NCERT Curriculum) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1683,6 +1685,50 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER,
     enrolledStudentsCount: 87200,
     avgScore: 358
+  },
+  {
+    id: 'test-ft-bio-c12-ch13-biodiversity-mcqs',
+    title: 'Fingertips Biology Class 12 Ch 13: Biodiversity & Conservation (100 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biodiversity Concept (Edward Wilson 1992, Genetic/Species/Ecological Diversity, Rauwolfia vomitoria Reserpine, >1000 Mango varieties, Amphibians of Western vs Eastern Ghats, Ecosystem Diversity India vs Norway), Species Number Estimates (Robert May ~7 million species, >70% animals, <22% plants, 70% insects, Fungi > Vertebrates combined, India: 2.4% land area, 8.1% global diversity, 12 Mega-diversity nations, ~45,000 plants, ~90,000 animals), Patterns of Biodiversity (Latitudinal Diversity Gradient Equator to Poles, Glaciations vs Stability, Solar energy & productivity; Alexander von Humboldt Species-Area Relationship S = CA^Z, log S = log C + Z log A, Z = 0.1-0.2 regional vs Z = 0.6-1.2 continental / frugivorous birds 1.15), Importance of Diversity (David Tilman outdoor plots diversity-stability, Paul Ehrlich Rivet Popper Hypothesis), Loss of Biodiversity (Sixth Extinction 100-1000x faster anthropogenic, IUCN 2004 784 species in 500 yrs, Dodo Mauritius, Quagga Africa, Thylacine Australia, Steller Sea Cow Russia, 3 Tiger subspecies Bali/Javan/Caspian, >15,500 threatened: 12% birds, 23% mammals, 32% amphibians, 31% gymnosperms; "The Evil Quartet": 1. Habitat loss/fragmentation Amazon Rainforest 14% to 6%, 2. Over-exploitation, 3. Alien Invasions Nile Perch in Lake Victoria, Eichhornia, Lantana, Parthenium, Clarias gariepinus, 4. Co-extinctions Yucca/Pronuba), Conservation (Narrowly Utilitarian 25% drugs bioprospecting, Broadly Utilitarian 20% O2 aesthetic, Ethical intrinsic value), In-Situ (34 Hotspots Norman Myers: Western Ghats-Sri Lanka, Indo-Burma, Himalayas; 14 Biosphere Reserves, 90 National Parks, 448 Wildlife Sanctuaries, Sacred Groves Meghalaya Khasi/Jaintia, Rajasthan Aravalli, MP Chanda/Bastar), Ex-Situ (Zoos, Botanical Gardens, Safari Parks, Cryopreservation -196 C, Seed Banks orthodox vs recalcitrant, Earth Summit Rio 1992 CBD, World Summit Johannesburg 2002)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH13_MCQS.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_C12_CH13_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'Species-Area Formula Calculations (log S = log C + Z log A)',
+      'The Evil Quartet Mechanisms & Hotspot In-Situ vs Ex-Situ Flowcharts',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH13_MCQS,
+    enrolledStudentsCount: 98000,
+    avgScore: 395
+  },
+  {
+    id: 'test-ft-bio-c12-ch13-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 13: Exam Scorer & Archive (80 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (20 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (8 Qs), NEET Archive (22 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Biosphere Reserve Zonation (Core, Buffer, Transition) & Pie Chart Taxa',
+      'Extinction Timelines & Cryopreservation Gamete Banking Dynamics',
+      '22 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER,
+    enrolledStudentsCount: 91500,
+    avgScore: 364
   },
 
   {
