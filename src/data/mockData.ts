@@ -31,7 +31,11 @@ import {
   FINGERTIPS_BIO_CH16_MCQS,
   FINGERTIPS_BIO_CH16_EXAM_SCORER,
   FINGERTIPS_BIO_CH17_MCQS,
-  FINGERTIPS_BIO_CH17_EXAM_SCORER
+  FINGERTIPS_BIO_CH17_EXAM_SCORER,
+  FINGERTIPS_BIO_CH18_MCQS,
+  FINGERTIPS_BIO_CH18_EXAM_SCORER,
+  FINGERTIPS_BIO_CH19_MCQS,
+  FINGERTIPS_BIO_CH19_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -314,10 +318,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,170 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (3,487 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 17 (Biological Classification to Locomotion and Movement) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 19 (Complete Class 11 NCERT Biology Curriculum: Biological Classification to Chemical Coordination) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1037,6 +1041,94 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH17_EXAM_SCORER,
     enrolledStudentsCount: 51800,
     avgScore: 335
+  },
+  {
+    id: 'test-ft-bio-ch18-neural-control',
+    title: 'Fingertips Biology Ch 18: Neural Control and Coordination (80 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Human Neural System (CNS, PNS, Somatic, Autonomic: Sympathetic & Parasympathetic), Multipolar/Bipolar/Unipolar Neurons, Myelinated vs Unmyelinated Axons, Resting Potential (-70 mV, Na+/K+ ATPase Pump), Action Potential (+30 mV, Na+ Influx), Saltatory Conduction, Synaptic Transmission (Electrical vs Chemical, Acetylcholine, Cleft, Receptors), Meninges (Dura, Arachnoid, Pia), Forebrain (Cerebrum, Thalamus, Hypothalamus, Limbic System), Midbrain (Corpora Quadrigemina, Cerebral Aqueduct), Hindbrain (Pons, Cerebellum, Medulla Oblongata) & Spinal Cord',
+    totalQuestions: FINGERTIPS_BIO_CH18_MCQS.length,
+    durationMinutes: 50,
+    totalMarks: FINGERTIPS_BIO_CH18_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '80 Line-by-Line NCERT Objective MCQs',
+      'Action Potential Depolarisation/Repolarisation & Synaptic Delay',
+      'Brain Gross Anatomy, Limbic Emotional Axis & Meningeal Layers',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_CH18_MCQS,
+    enrolledStudentsCount: 57400,
+    avgScore: 285
+  },
+  {
+    id: 'test-ft-bio-ch18-exam-scorer',
+    title: 'Fingertips Biology Ch 18: Exam Scorer & Archive (58 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (5 Qs), A&R (10 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (8 Qs), Figures (5 Qs), Multi (6 Qs), NEET Archive (12 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH18_EXAM_SCORER.length,
+    durationMinutes: 45,
+    totalMarks: FINGERTIPS_BIO_CH18_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Synapse Ultrastructure, Local Current Loops & Brain Sagittal View',
+      'Neurosecretory Nuclei, Association Areas & Thermoregulation',
+      '12 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH18_EXAM_SCORER,
+    enrolledStudentsCount: 49800,
+    avgScore: 215
+  },
+  {
+    id: 'test-ft-bio-ch19-chemical-coordination',
+    title: 'Fingertips Biology Ch 19: Chemical Coordination and Integration (105 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Endocrine Glands & Hormones, Hypothalamus (Releasing/Inhibiting factors), Pituitary Gland (GH, PRL, TSH, ACTH, LH, FSH, MSH, Oxytocin, Vasopressin/ADH), Pineal Gland (Melatonin), Thyroid Gland (T3, T4, TCT), Parathyroid Gland (PTH), Thymus Gland (Thymosins), Adrenal Gland (Cortex: Mineralocorticoids/Aldosterone, Glucocorticoids/Cortisol, Sexcorticoids; Medulla: Adrenaline & Noradrenaline), Pancreas (Islets: Glucagon, Insulin, Somatostatin), Testis (Androgens/Testosterone), Ovary (Estrogen, Progesterone), Hormones of Heart (ANF), Kidney (Erythropoietin), GI Tract (Gastrin, Secretin, CCK, GIP) & Mechanism of Hormone Action (Peptide/2nd Messenger cAMP/Ca2+ vs Steroid/Genomic DNA HRE)',
+    totalQuestions: FINGERTIPS_BIO_CH19_MCQS.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_CH19_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '105 Line-by-Line NCERT Objective MCQs',
+      'Comprehensive Endocrine Disorders (Acromegaly, Graves, Addison, Diabetes, Tetany)',
+      'Dual Signaling: Membrane GPCR 2nd Messenger vs Intracellular Nuclear Receptors',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_CH19_MCQS,
+    enrolledStudentsCount: 61200,
+    avgScore: 360
+  },
+  {
+    id: 'test-ft-bio-ch19-exam-scorer',
+    title: 'Fingertips Biology Ch 19: Exam Scorer & Archive (76 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (15 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (6 Qs), NEET Archive (10 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH19_EXAM_SCORER.length,
+    durationMinutes: 55,
+    totalMarks: FINGERTIPS_BIO_CH19_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Hypophyseal Portal System, Thyroid Histology & Adrenal Zonation Diagrams',
+      'Negative Feedback Loops, Glucose Tolerance & Hormone Classification',
+      '10 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH19_EXAM_SCORER,
+    enrolledStudentsCount: 53100,
+    avgScore: 295
   },
 
   {
