@@ -41,7 +41,9 @@ import {
   FINGERTIPS_BIO_C12_CH01_MCQS,
   FINGERTIPS_BIO_C12_CH01_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH02_MCQS,
-  FINGERTIPS_BIO_C12_CH02_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH02_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH03_MCQS,
+  FINGERTIPS_BIO_C12_CH03_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -324,10 +326,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,095 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,280 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01 Flowering Plants & Ch 02 Human Reproduction) - 4,095 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-03: Flowering Plants, Human Reproduction, Reproductive Health) - 4,280 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1223,6 +1225,50 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER,
     enrolledStudentsCount: 62400,
     avgScore: 290
+  },
+  {
+    id: 'test-ft-bio-c12-ch03-reproductive-health',
+    title: 'Fingertips Biology Class 12 Ch 03: Reproductive Health (100 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Reproductive Health Problems & Strategies (National Family Planning 1951, RCH, Amniocentesis statutory ban on sex determination), Population Explosion & Demography (Decline in MMR/IMR, 2011 census growth rate), Birth Control & Contraception (Natural: Periodic abstinence days 10-17, Coitus interruptus, Lactational amenorrhea; Barrier: Condoms Nirodh/femidoms STI protection, Diaphragms, Cervical caps, Vaults; Chemical: Spermicides nonoxynol-9; IUDs: Non-medicated Lippes loop, Copper CuT/Cu7/Multiload 375, Hormone Progestasert/LNG-20; Oral pills: Combined Mala-D, Mini pills, Non-steroidal Saheli centchroman CDRI; Injections DMPA/NET-EN & Subdermal Implants Norplant; Surgical: Vasectomy & Tubectomy), Medical Termination of Pregnancy (MTP legalised 1971, First trimester safety), Sexually Transmitted Infections (STIs: Syphilis, Gonorrhoea, Chlamydiasis, Trichomoniasis, Incurable: AIDS, Hepatitis B, Genital herpes, Complications: PID, Infertility, Ectopic pregnancy), Infertility & Assisted Reproductive Technologies (ART: Test-tube baby IVF-ET, ZIFT <=8 cells, IUT >8 cells, GIFT gamete transfer, ICSI sperm microinjection, AI/IUI)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH03_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH03_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'Contraceptive Mechanisms (Copper Motility, Hormonal Cervical Mucus, Sterilisation)',
+      'STI Causative Pathogens & ART Clinical Criteria (ZIFT vs IUT vs GIFT vs ICSI)',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH03_MCQS,
+    enrolledStudentsCount: 69800,
+    avgScore: 360
+  },
+  {
+    id: 'test-ft-bio-c12-ch03-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 03: Exam Scorer & Archive (85 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (13 Qs), A&R (15 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (7 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Contraceptive Device Classification, Fallopian Tube Blockage & IVF Stage Diagrams',
+      'Amniocentesis Karyotyping & Fetal Ejection Reflex Clinical Insights',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER,
+    enrolledStudentsCount: 61500,
+    avgScore: 325
   },
 
   {
