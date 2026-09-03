@@ -19,7 +19,10 @@ import {
   FINGERTIPS_BIO_CH10_MCQS,
   FINGERTIPS_BIO_CH10_EXAM_SCORER,
   FINGERTIPS_BIO_CH11_MCQS,
-  FINGERTIPS_BIO_CH11_EXAM_SCORER
+  FINGERTIPS_BIO_CH11_EXAM_SCORER,
+  FINGERTIPS_BIO_CH12_MCQS,
+  FINGERTIPS_BIO_CH12_EXAM_SCORER,
+  FINGERTIPS_BIO_CH13_MCQS
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -302,10 +305,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,014 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,299 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 11 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell: The Unit of Life, Biomolecules, Cell Cycle & Photosynthesis in Higher Plants) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 13 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration in Plants & Plant Growth/Development) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -314,13 +317,13 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 2,014 Questions with 100% Verified MTG Answer Keys',
+      'All 2,299 Questions with 100% Verified MTG Answer Keys',
       'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
       'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 168000,
-    avgScore: 1320
+    enrolledStudentsCount: 184000,
+    avgScore: 1480
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -761,6 +764,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH11_EXAM_SCORER,
     enrolledStudentsCount: 49500,
     avgScore: 335
+  },
+  {
+    id: 'test-ft-bio-ch12-respiration',
+    title: 'Fingertips Biology Ch 12: Respiration in Plants (100 NCERT MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Glycolysis (EMP Pathway, 10 Steps), Fermentation (Alcoholic & Lactic Acid), Aerobic Link Reaction (Pyruvate Dehydrogenase), Krebs TCA Cycle (Citric Acid to OAA), Electron Transport System (Complexes I-V), Oxidative Phosphorylation & Respiratory Quotient (RQ)',
+    totalQuestions: FINGERTIPS_BIO_CH12_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH12_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'Complete Glycolytic ATP Balance Sheet & Net 38 ATP Calculations',
+      'Complexes I-V, Mobile Carriers (UQ, Cyt c) & F0-F1 Chemiosmosis',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH12_MCQS,
+    enrolledStudentsCount: 55400,
+    avgScore: 375
+  },
+  {
+    id: 'test-ft-bio-ch12-exam-scorer',
+    title: 'Fingertips Biology Ch 12: Exam Scorer & Archive (85 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (8 Qs), A&R (10 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (12 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH12_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH12_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & Advanced A&R Drills',
+      'Krebs Cycle Intermediates, Complex I-IV ETS & Oxysome Diagrams',
+      'Ganong Respirometer, Substrate RQ & Pentose Phosphate Shunt Analysis',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH12_EXAM_SCORER,
+    enrolledStudentsCount: 47800,
+    avgScore: 310
+  },
+  {
+    id: 'test-ft-bio-ch13-plant-growth',
+    title: 'Fingertips Biology Ch 13: Plant Growth & Dev (110 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Growth Characteristics, Meristems, Growth Kinetics (Arithmetic Lt=L0+rt & Geometric W1=W0 e^rt), Sigmoid Curve, Differentiation, Dedifferentiation, Redifferentiation, Plasticity (Heterophylly), Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene & Abscisic Acid (ABA)',
+    totalQuestions: FINGERTIPS_BIO_CH13_MCQS.length,
+    durationMinutes: 70,
+    totalMarks: FINGERTIPS_BIO_CH13_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '110 Line-by-Line NCERT Objective MCQs',
+      'Growth Rate Math (AGR & RGR) & Open Indeterminate Growth',
+      'Discovery, Bioassays & Commercial Applications of Auxin, GA, Cytokinin, Ethylene & ABA',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH13_MCQS,
+    enrolledStudentsCount: 53100,
+    avgScore: 390
   },
 
   {
