@@ -22,7 +22,10 @@ import {
   FINGERTIPS_BIO_CH11_EXAM_SCORER,
   FINGERTIPS_BIO_CH12_MCQS,
   FINGERTIPS_BIO_CH12_EXAM_SCORER,
-  FINGERTIPS_BIO_CH13_MCQS
+  FINGERTIPS_BIO_CH13_MCQS,
+  FINGERTIPS_BIO_CH13_EXAM_SCORER,
+  FINGERTIPS_BIO_CH14_MCQS,
+  FINGERTIPS_BIO_CH14_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -305,10 +308,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,299 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,557 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 13 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration in Plants & Plant Growth/Development) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 14 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -317,13 +320,13 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 2,299 Questions with 100% Verified MTG Answer Keys',
+      'All 2,557 Questions with 100% Verified MTG Answer Keys',
       'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
       'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 184000,
-    avgScore: 1480
+    enrolledStudentsCount: 198000,
+    avgScore: 1540
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -830,6 +833,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH13_MCQS,
     enrolledStudentsCount: 53100,
     avgScore: 390
+  },
+  {
+    id: 'test-ft-bio-ch13-exam-scorer',
+    title: 'Fingertips Biology Ch 13: Exam Scorer & Archive (77 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (11 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (9 Qs), Figures (5 Qs), Multi (6 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH13_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH13_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & Advanced A&R Drills',
+      'Embryo Growth Phase & Absolute vs Relative Leaf Area Graphs',
+      'Chemical Nature & Hormone Antagonism Drills',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH13_EXAM_SCORER,
+    enrolledStudentsCount: 45200,
+    avgScore: 315
+  },
+  {
+    id: 'test-ft-bio-ch14-breathing',
+    title: 'Fingertips Biology Ch 14: Breathing & Gas Exchange (100 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Respiratory Organs across Animal Kingdom, Human Respiratory System Anatomy (Conducting vs Exchange Zone), Mechanism of Breathing (Inspiration/Expiration), Respiratory Volumes & Capacities (TV, IRV, ERV, RV, VC, FRC, TLC), Gas Exchange & Partial Pressures, Oxygen & CO2 Transport, Regulation & Pathologies (Asthma, Emphysema, Silicosis)',
+    totalQuestions: FINGERTIPS_BIO_CH14_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH14_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'Complete Pulmonary Volumes & Capacities Math',
+      'Oxyhaemoglobin Dissociation Curve & Bicarbonate Chloride Shift',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH14_MCQS,
+    enrolledStudentsCount: 57400,
+    avgScore: 385
+  },
+  {
+    id: 'test-ft-bio-ch14-exam-scorer',
+    title: 'Fingertips Biology Ch 14: Exam Scorer & Archive (82 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (15 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (8 Qs), Figures (5 Qs), Multi (9 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH14_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH14_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Respiratory Passage, Inhalation Mechanics & Alveolar Circulation Figures',
+      'Bohr Effect & Gas Delivery Math Case Studies',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH14_EXAM_SCORER,
+    enrolledStudentsCount: 49800,
+    avgScore: 330
   },
 
   {
