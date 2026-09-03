@@ -2,7 +2,10 @@ import {
   ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
   FINGERTIPS_BIO_CH02_MCQS,
   FINGERTIPS_BIO_CH02_EXAM_SCORER,
-  FINGERTIPS_BIO_CH03_MCQS
+  FINGERTIPS_BIO_CH03_MCQS,
+  FINGERTIPS_BIO_CH03_EXAM_SCORER,
+  FINGERTIPS_BIO_CH04_MCQS,
+  FINGERTIPS_BIO_CH04_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -285,25 +288,25 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (312 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (621 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Biological Classification & Plant Kingdom: Full NCERT MCQs, Exemplar, A&R, Case & Figure Questions',
+    syllabus: 'Chapters 02 (Biological Classification), 03 (Plant Kingdom) & 04 (Animal Kingdom) - Full NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
-    durationMinutes: 180,
+    durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Mixed',
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 312 Questions with 100% Verified Answer Keys',
-      'Comprehensive Exemplar, A&R, and Case-Based Drills',
-      'Realistic Timed CBT Simulation Interface'
+      'All 621 Questions with 100% Verified MTG Answer Keys',
+      'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
+      'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 84200,
-    avgScore: 890
+    enrolledStudentsCount: 96400,
+    avgScore: 920
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -351,7 +354,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
   },
   {
     id: 'test-ft-bio-ch03-plant-kingdom',
-    title: 'Fingertips Biology Ch 03: Plant Kingdom (123 NCERT MCQs)',
+    title: 'Fingertips Biology Ch 03: Plant Kingdom (135 NCERT MCQs)',
     category: 'minor',
     exam: 'NEET',
     syllabus: 'Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms & Alternation of Generations',
@@ -362,14 +365,80 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: [
-      '123 Complete Chapter MCQs Corner',
+      '135 Complete Chapter MCQs Corner',
       'Algal Classes, Bryophyte & Pteridophyte Life Cycles',
-      'Gymnosperm & Angiosperm Comparison',
+      'Gymnosperm & Angiosperm Comparison & Life Cycles',
       'Detailed Explanations & Topic Tagging'
     ],
     questions: FINGERTIPS_BIO_CH03_MCQS,
     enrolledStudentsCount: 46700,
     avgScore: 410
+  },
+  {
+    id: 'test-ft-bio-ch03-exam-scorer',
+    title: 'Fingertips Biology Ch 03: Exam Scorer & Archive (87 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar, Assertion-Reason, Matching, Case Studies, Figures & NEET Archive',
+    totalQuestions: FINGERTIPS_BIO_CH03_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH03_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar & Advanced A&R Drills',
+      'Life Cycle Pattern Diagrams & Venn Analysis',
+      'Case-Based Contextual Specimen Analysis',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH03_EXAM_SCORER,
+    enrolledStudentsCount: 38200,
+    avgScore: 310
+  },
+  {
+    id: 'test-ft-bio-ch04-animal-kingdom',
+    title: 'Fingertips Biology Ch 04: Animal Kingdom (120 NCERT MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Levels of Organisation, Symmetry, Coelom, Segmentation, Notochord & Non-Chordates to Chordates (Porifera to Mammalia)',
+    totalQuestions: FINGERTIPS_BIO_CH04_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_CH04_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '120 Line-by-Line NCERT Objective MCQs',
+      'Complete Phylum Porifera to Class Mammalia Coverage',
+      'Comparative Body Plans & Physiological Systems',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH04_MCQS,
+    enrolledStudentsCount: 51200,
+    avgScore: 430
+  },
+  {
+    id: 'test-ft-bio-ch04-exam-scorer',
+    title: 'Fingertips Biology Ch 04: Exam Scorer & Archive (90 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (13 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case (14 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH04_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH04_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Germ Layer, Coelom & Chordate Morphological Diagrams',
+      'Classification Matrices & Locomotion Matching',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH04_EXAM_SCORER,
+    enrolledStudentsCount: 44100,
+    avgScore: 325
   },
 
   {
