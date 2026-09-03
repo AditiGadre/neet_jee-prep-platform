@@ -13,7 +13,10 @@ import {
   FINGERTIPS_BIO_CH07_MCQS,
   FINGERTIPS_BIO_CH07_EXAM_SCORER,
   FINGERTIPS_BIO_CH08_MCQS,
-  FINGERTIPS_BIO_CH08_EXAM_SCORER
+  FINGERTIPS_BIO_CH08_EXAM_SCORER,
+  FINGERTIPS_BIO_CH09_MCQS,
+  FINGERTIPS_BIO_CH09_EXAM_SCORER,
+  FINGERTIPS_BIO_CH10_MCQS
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -296,10 +299,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (1,454 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (1,730 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 08 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues & Cell: The Unit of Life) - Full NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 10 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell: The Unit of Life, Biomolecules & Cell Cycle/Division) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -308,13 +311,13 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 1,454 Questions with 100% Verified MTG Answer Keys',
+      'All 1,730 Questions with 100% Verified MTG Answer Keys',
       'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
       'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 132400,
-    avgScore: 970
+    enrolledStudentsCount: 145000,
+    avgScore: 1140
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -623,6 +626,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH08_EXAM_SCORER,
     enrolledStudentsCount: 46200,
     avgScore: 330
+  },
+  {
+    id: 'test-ft-bio-ch09-biomolecules',
+    title: 'Fingertips Biology Ch 09: Biomolecules (90 NCERT MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemical Analysis (Acid-Soluble & Insoluble Pools), Amino Acids (Zwitterion), Lipids (Fatty Acids, Triglycerides, Phospholipids), Nucleotides, Primary/Secondary Metabolites, Biomacromolecules, Proteins (1-4 Structure), Polysaccharides, Nucleic Acids, Enzymes (Kinetics, Inhibition, Classes & Cofactors)',
+    totalQuestions: FINGERTIPS_BIO_CH09_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH09_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '90 Line-by-Line NCERT Objective MCQs',
+      'Complete Primary/Secondary Metabolites & Cellular Mass Table',
+      'Enzyme Activation Energy, Michaelis-Menten & Malonate Competitive Inhibition',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH09_MCQS,
+    enrolledStudentsCount: 52100,
+    avgScore: 320
+  },
+  {
+    id: 'test-ft-bio-ch09-exam-scorer',
+    title: 'Fingertips Biology Ch 09: Exam Scorer & Archive (88 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (14 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (7 Qs), NEET Archive (25 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH09_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH09_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Protein Structure Hierarchies, Ramachandran Plot & Enzyme Graphs',
+      'Purines, Pyrimidines & Tetrapeptide Structural Identification',
+      '25 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH09_EXAM_SCORER,
+    enrolledStudentsCount: 44800,
+    avgScore: 315
+  },
+  {
+    id: 'test-ft-bio-ch10-cell-cycle',
+    title: 'Fingertips Biology Ch 10: Cell Cycle & Division (100 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Phases of Cell Cycle (G1, S, G2, M, G0), Mitosis (Prophase, Metaphase, Anaphase, Telophase, Cytokinesis in Animals/Plants), Meiosis I (Prophase I: Leptotene to Diakinesis), Interkinesis, Meiosis II & Evolutionary Significance',
+    totalQuestions: FINGERTIPS_BIO_CH10_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH10_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'DNA Content (2C to 4C) & Chromosome Math Drills',
+      'Synaptonemal Complex, Crossing Over & Chiasmata Terminalisation',
+      '100% Verified MTG Answer Key & Explanations'
+    ],
+    questions: FINGERTIPS_BIO_CH10_MCQS,
+    enrolledStudentsCount: 56700,
+    avgScore: 360
   },
 
   {
