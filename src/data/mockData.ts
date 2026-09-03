@@ -1,4 +1,10 @@
 import {
+  ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
+  FINGERTIPS_BIO_CH02_MCQS,
+  FINGERTIPS_BIO_CH02_EXAM_SCORER,
+  FINGERTIPS_BIO_CH03_MCQS
+} from './fingertipsBiologyQuestions';
+import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
   ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS,
   ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS,
@@ -277,6 +283,95 @@ export const SAMPLE_QUESTIONS: Question[] = [
 ];
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  {
+    id: 'test-ft-bio-grand-master',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (312 Qs)',
+    category: 'full',
+    exam: 'NEET',
+    syllabus: 'Biological Classification & Plant Kingdom: Full NCERT MCQs, Exemplar, A&R, Case & Figure Questions',
+    totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
+    durationMinutes: 180,
+    totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: [
+      'Official MTG Objective NCERT at your Fingertips',
+      'All 312 Questions with 100% Verified Answer Keys',
+      'Comprehensive Exemplar, A&R, and Case-Based Drills',
+      'Realistic Timed CBT Simulation Interface'
+    ],
+    questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
+    enrolledStudentsCount: 84200,
+    avgScore: 890
+  },
+  {
+    id: 'test-ft-bio-ch02-mcqs',
+    title: 'Fingertips Biology Ch 02: Biological Classification (100 NCERT MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Five Kingdoms, Monera, Protista, Fungi, Viruses, Viroids, Prions & Lichens',
+    totalQuestions: FINGERTIPS_BIO_CH02_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH02_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '100 NCERT Line-by-Line Objective MCQs',
+      'Detailed Explanations for Every Question',
+      'Official MTG Fingertips Verified Key',
+      'Covers Monera, Protista, Fungi, Viruses'
+    ],
+    questions: FINGERTIPS_BIO_CH02_MCQS,
+    enrolledStudentsCount: 42100,
+    avgScore: 340
+  },
+  {
+    id: 'test-ft-bio-ch02-exam-scorer',
+    title: 'Fingertips Biology Ch 02: Exam Scorer & Archive (89 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar, Assertion-Reason, Statement-Based, Matching, Case-Based & NEET PYQs',
+    totalQuestions: FINGERTIPS_BIO_CH02_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH02_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & A&R Drills',
+      'Multidimensional & Figure-Based Questions',
+      'Case-Based Contextual Scorer Modules',
+      'Previous Years NEET / AIPMT Archive'
+    ],
+    questions: FINGERTIPS_BIO_CH02_EXAM_SCORER,
+    enrolledStudentsCount: 39500,
+    avgScore: 295
+  },
+  {
+    id: 'test-ft-bio-ch03-plant-kingdom',
+    title: 'Fingertips Biology Ch 03: Plant Kingdom (123 NCERT MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms & Alternation of Generations',
+    totalQuestions: FINGERTIPS_BIO_CH03_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_CH03_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '123 Complete Chapter MCQs Corner',
+      'Algal Classes, Bryophyte & Pteridophyte Life Cycles',
+      'Gymnosperm & Angiosperm Comparison',
+      'Detailed Explanations & Topic Tagging'
+    ],
+    questions: FINGERTIPS_BIO_CH03_MCQS,
+    enrolledStudentsCount: 46700,
+    avgScore: 410
+  },
+
   {
     id: 'test-allen-biology-grand-master',
     title: 'Allen Biology RACE Grand Master Test (1234 Qs - All 56 Modules)',
