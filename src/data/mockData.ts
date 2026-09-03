@@ -58,7 +58,10 @@ import {
   FINGERTIPS_BIO_C12_CH09_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH10_MCQS,
   FINGERTIPS_BIO_C12_CH10_EXAM_SCORER,
-  FINGERTIPS_BIO_C12_CH11_MCQS
+  FINGERTIPS_BIO_C12_CH11_MCQS,
+  FINGERTIPS_BIO_C12_CH11_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH12_MCQS,
+  FINGERTIPS_BIO_C12_CH12_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -341,10 +344,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (5,794 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (6,090 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-11: Genetics, Evolution, Human Health, Microbes, Biotechnology, Ecology & Populations) - 5,794 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-12: Genetics, Evolution, Human Health, Microbes, Biotechnology, Populations & Ecosystems) - 6,090 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1595,7 +1598,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
   },
   {
     id: 'test-ft-bio-c12-ch11-organisms-populations',
-    title: 'Fingertips Biology Class 12 Ch 11: Organisms & Populations (78 MCQs)',
+    title: 'Fingertips Biology Class 12 Ch 11: Organisms & Populations (135 MCQs)',
     category: 'minor',
     exam: 'NEET',
     syllabus: 'Organism and Its Environment: Ramdeo Misra Father of Indian Ecology, Major Biomes (Tropical, Deciduous, Desert, Coniferous Taiga, Tundra), Abiotic Factors (Temperature: Eurythermal/Stenothermal, Water: Euryhaline/Stenohaline salinity, Light: Sciophytes/Heliophytes, Soil profile horizons O/A/B/C/R), Responses to Abiotic Factors (Regulate Homeostasis vs Conform 99% animals, Suspend spores/diapause/hibernation/aestivation, Migrate Keoladeo Bharatpur Siberian cranes), Adaptations (Kangaroo rat metabolic water, Opuntia phylloclade spines, CAM plants, Allen Rule colder climates shorter ears/limbs, Altitude Sickness Rohtang Pass RBC compensation, Desert lizard behavioural basking), Population Attributes (Birth rate, Death rate, Sex ratio, Age Pyramids: Triangular Expanding, Bell-shaped Stable, Urn-shaped Declining)',
@@ -1614,6 +1617,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH11_MCQS,
     enrolledStudentsCount: 96000,
     avgScore: 395
+  },
+  {
+    id: 'test-ft-bio-c12-ch11-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 11: Exam Scorer & Archive (76 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (12 Qs), A&R (10 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (9 Qs), Figures (5 Qs), Multi (5 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH11_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH11_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Logistic Growth Asymptote & Exponential r Calculations',
+      'Connell Barnacle Competition & MacArthur Warbler Resource Partitioning',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH11_EXAM_SCORER,
+    enrolledStudentsCount: 89000,
+    avgScore: 362
+  },
+  {
+    id: 'test-ft-bio-c12-ch12-ecosystem-mcqs',
+    title: 'Fingertips Biology Class 12 Ch 12: Ecosystem (75 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Ecosystem Structure (Tansley 1935, Stratification, Abiotic/Biotic, Autotrophs/Heterotrophs), Ecosystem Function: Productivity (GPP rate of photosynthesis, NPP = GPP - R, Secondary productivity by consumers, Biosphere Annual NPP 170 billion tons, Ocean NPP 55 billion tons), Decomposition (Detritus, Fragmentation Earthworm detritivores, Leaching inorganic ions, Catabolism bacterial/fungal enzymes, Humification dark amorphous humus nutrient reservoir, Mineralisation; Regulated by temperature, moisture, aerobiosis, lignin/chitin vs nitrogen/sugars), Energy Flow (PAR <50%, 2-10% captured by plants, Unidirectional flow obeying 1st and 2nd laws of thermodynamics, Lindeman 10% law, Grazing Food Chain GFC major in aquatic vs Detritus Food Chain DFC major in terrestrial, Food web), Ecological Pyramids (Eltonian: Pyramid of Numbers upright in grassland, spindle in tree parasite chain; Pyramid of Biomass upright in forest, inverted in sea/aquatic; Pyramid of Energy always upright)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH12_MCQS.length,
+    durationMinutes: 55,
+    totalMarks: FINGERTIPS_BIO_C12_CH12_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '75 Line-by-Line NCERT Objective MCQs',
+      'Primary vs Secondary Productivity Calculations & Energy Flow 10% Law',
+      'Decomposition Flowcharts & Eltonian Pyramids (Upright vs Inverted)',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH12_MCQS,
+    enrolledStudentsCount: 94500,
+    avgScore: 390
+  },
+  {
+    id: 'test-ft-bio-c12-ch12-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 12: Exam Scorer & Archive (79 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (13 Qs), A&R (10 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (12 Qs), Figures (5 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Standing Crop vs Standing State & Inverted Aquatic Biomass Dynamics',
+      'Trophic Level Multi-Step Calculations & Phosphorus Rock Weathering Cycle',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER,
+    enrolledStudentsCount: 87200,
+    avgScore: 358
   },
 
   {
