@@ -7,7 +7,10 @@ import {
   FINGERTIPS_BIO_CH04_MCQS,
   FINGERTIPS_BIO_CH04_EXAM_SCORER,
   FINGERTIPS_BIO_CH05_MCQS,
-  FINGERTIPS_BIO_CH05_EXAM_SCORER
+  FINGERTIPS_BIO_CH05_EXAM_SCORER,
+  FINGERTIPS_BIO_CH06_MCQS,
+  FINGERTIPS_BIO_CH06_EXAM_SCORER,
+  FINGERTIPS_BIO_CH07_MCQS
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -290,10 +293,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (828 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (1,127 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 (Biological Classification), 03 (Plant Kingdom), 04 (Animal Kingdom) & 05 (Morphology of Flowering Plants) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 07 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy & Structural Organisation in Animals) - Full NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -302,13 +305,13 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: [
       'Official MTG Objective NCERT at your Fingertips',
-      'All 828 Questions with 100% Verified MTG Answer Keys',
+      'All 1,127 Questions with 100% Verified MTG Answer Keys',
       'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
       'Full CBT Exam Simulator with Timer & Score Analytics'
     ],
     questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 104200,
-    avgScore: 940
+    enrolledStudentsCount: 118500,
+    avgScore: 955
   },
   {
     id: 'test-ft-bio-ch02-mcqs',
@@ -485,6 +488,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH05_EXAM_SCORER,
     enrolledStudentsCount: 41300,
     avgScore: 305
+  },
+  {
+    id: 'test-ft-bio-ch06-anatomy',
+    title: 'Fingertips Biology Ch 06: Anatomy of Flowering Plants (140 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Meristematic & Permanent Tissues, Tissue Systems, Anatomy of Dicot & Monocot Roots, Stems, Leaves & Secondary Growth in Dicot Stem',
+    totalQuestions: FINGERTIPS_BIO_CH06_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_CH06_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '140 Line-by-Line NCERT Objective MCQs',
+      'Simple & Complex Tissues, Vascular Bundle Types (Conjoint/Radial)',
+      'Dicot vs Monocot Root/Stem/Leaf Cross-Sections',
+      'Periderm, Cork Cambium, Spring Wood & Autumn Wood'
+    ],
+    questions: FINGERTIPS_BIO_CH06_MCQS,
+    enrolledStudentsCount: 47200,
+    avgScore: 435
+  },
+  {
+    id: 'test-ft-bio-ch06-exam-scorer',
+    title: 'Fingertips Biology Ch 06: Exam Scorer & Archive (77 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (6 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (8 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH06_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH06_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & Advanced A&R Drills',
+      'Root, Stem, Leaf & Secondary Growth Diagram Identification',
+      'Venn Diagrams & Cell Structure Cross-Concept Questions',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH06_EXAM_SCORER,
+    enrolledStudentsCount: 39800,
+    avgScore: 315
+  },
+  {
+    id: 'test-ft-bio-ch07-structural-organisation',
+    title: 'Fingertips Biology Ch 07: Structural Organisation in Animals (82 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Epithelial, Connective, Muscular & Neural Tissues, Morphology & Anatomy of Cockroach (Periplaneta americana) & Frog (Rana tigrina)',
+    totalQuestions: FINGERTIPS_BIO_CH07_MCQS.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH07_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '82 Line-by-Line NCERT Objective MCQs',
+      'Cell Junctions, Connective Tissue Classes & Muscle Types',
+      'Complete Cockroach Digestive, Circulatory, Excretory & Reproductive Systems',
+      'Frog Morphology, Organ Systems, Hibernation & Cutaneous Respiration'
+    ],
+    questions: FINGERTIPS_BIO_CH07_MCQS,
+    enrolledStudentsCount: 43600,
+    avgScore: 345
   },
 
   {
