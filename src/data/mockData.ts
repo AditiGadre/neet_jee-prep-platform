@@ -52,7 +52,10 @@ import {
   FINGERTIPS_BIO_C12_CH06_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH07_MCQS,
   FINGERTIPS_BIO_C12_CH07_EXAM_SCORER,
-  FINGERTIPS_BIO_C12_CH08_MCQS
+  FINGERTIPS_BIO_C12_CH08_MCQS,
+  FINGERTIPS_BIO_C12_CH08_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH09_MCQS,
+  FINGERTIPS_BIO_C12_CH09_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -335,10 +338,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (5,205 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (5,527 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-08: Genetics, Evolution, Human Health & Microbes) - 5,205 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-09: Genetics, Evolution, Human Health, Microbes & Biotechnology) - 5,527 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1476,6 +1479,72 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH08_MCQS,
     enrolledStudentsCount: 78900,
     avgScore: 362
+  },
+  {
+    id: 'test-ft-bio-c12-ch08-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 08: Exam Scorer & Archive (83 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (18 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (15 Qs), Multi (9 Qs), NEET Archive (18 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH08_EXAM_SCORER.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_C12_CH08_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Sewage BOD Water Quality Analysis & Microbe-Product Matching',
+      'Batch vs Fed-Batch Fermentation & Biogas Generation Stages',
+      '18 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH08_EXAM_SCORER,
+    enrolledStudentsCount: 74200,
+    avgScore: 350
+  },
+  {
+    id: 'test-ft-bio-c12-ch09-biotech-principles',
+    title: 'Fingertips Biology Class 12 Ch 09: Biotech Principles & Processes (120 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Principles of Biotechnology (Genetic Engineering Cohen & Boyer 1972 first rDNA Salmonella typhimurium, Bioprocess Engineering), Tools of rDNA Technology: Restriction Enzymes (EcoRI 5-GAATTC-3 staggered sticky ends, Hind II hexanucleotide), DNA Ligase, Agarose Gel Electrophoresis (EtBr UV bright orange bands, Elution), Cloning Vectors (pBR322: ori copy number, rop replication proteins, ampR Pvu I/Pst I, tetR BamHI/Sal I; Insertional Inactivation lacZ beta-galactosidase blue-white screening), Plant & Animal Vectors (Ti-plasmid Agrobacterium tumefaciens disarmed T-DNA, Retroviruses), Competent Host (Ca2+ divalent cations, Heat shock 42 C, Biolistics / Gene gun gold/tungsten particles, Microinjection), Processes of rDNA Technology: Isolation of DNA & Spooling chilled ethanol, PCR (Denaturation 94 C, Annealing 40-60 C, Extension 72 C Taq DNA Polymerase Thermus aquaticus 2^n amplification), Bioreactors (Simple stirred-tank & Sparged stirred-tank), Downstream Processing (Separation, purification, preservatives, clinical trials)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH09_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_C12_CH09_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '120 Line-by-Line NCERT Objective MCQs',
+      'pBR322 Vector Anatomy & Insertional Inactivation (Blue-White Screening)',
+      'PCR Cycle Calculations (2^n Amplification) & Taq Polymerase Kinetics',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH09_MCQS,
+    enrolledStudentsCount: 88500,
+    avgScore: 382
+  },
+  {
+    id: 'test-ft-bio-c12-ch09-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 09: Exam Scorer & Archive (86 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (19 Qs), A&R (15 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (5 Qs), Multi (7 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Southern Blotting Restriction Mapping & Replica Plating Recombinant Selection',
+      'Bioreactor Mechanical Schematics & Agarose Gel Migration Analysis',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER,
+    enrolledStudentsCount: 81200,
+    avgScore: 355
   },
 
   {
