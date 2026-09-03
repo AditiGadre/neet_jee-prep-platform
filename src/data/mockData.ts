@@ -25,7 +25,11 @@ import {
   FINGERTIPS_BIO_CH13_MCQS,
   FINGERTIPS_BIO_CH13_EXAM_SCORER,
   FINGERTIPS_BIO_CH14_MCQS,
-  FINGERTIPS_BIO_CH14_EXAM_SCORER
+  FINGERTIPS_BIO_CH14_EXAM_SCORER,
+  FINGERTIPS_BIO_CH15_MCQS,
+  FINGERTIPS_BIO_CH15_EXAM_SCORER,
+  FINGERTIPS_BIO_CH16_MCQS,
+  FINGERTIPS_BIO_CH16_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -308,10 +312,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,557 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (2,891 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Chapters 02 to 14 (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Chapters 02 to 16 (Biological Classification to Excretory Products) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -899,6 +903,93 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_CH14_EXAM_SCORER,
     enrolledStudentsCount: 49800,
     avgScore: 330
+  },
+  {
+    id: 'test-ft-bio-ch15-circulation',
+    title: 'Fingertips Biology Ch 15: Body Fluids and Circulation (125 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Blood Composition, Plasma Proteins, Formed Elements (RBCs, WBCs, Platelets), ABO & Rh Incompatibility (Erythroblastosis Foetalis), Coagulation Cascade (Thrombokinase, Thrombin, Fibrin), Lymphatic System, Human Heart Anatomy & Pacemaker, Cardiac Cycle, Heart Sounds (LUBB/DUPP), Cardiac Output, ECG Interpretation & Pathologies (Hypertension, CAD, Atherosclerosis, Angina, Heart Failure)',
+    totalQuestions: FINGERTIPS_BIO_CH15_MCQS.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_CH15_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '125 Line-by-Line NCERT Objective MCQs',
+      'Complete Cardiac Cycle, ECG Waves (P, QRS, T) & Conduction Pathway Drills',
+      'Stroke Volume & Cardiac Output Calculation Problems',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_CH15_MCQS,
+    enrolledStudentsCount: 59300,
+    avgScore: 410
+  },
+  {
+    id: 'test-ft-bio-ch15-exam-scorer',
+    title: 'Fingertips Biology Ch 15: Exam Scorer & Archive (82 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (16 Qs), A&R (10 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (14 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (15 Qs)',
+    totalQuestions: FINGERTIPS_BIO_CH15_EXAM_SCORER.length,
+    durationMinutes: 60,
+    totalMarks: FINGERTIPS_BIO_CH15_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Blood Vessel Histology, Heart Section & ECG Tracing Identification',
+      'Blood Pressure Gradient & Cardiac Cycle Circular Stage Graphs',
+      '15 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_CH15_EXAM_SCORER,
+    enrolledStudentsCount: 51200,
+    avgScore: 335
+  },
+  {
+    id: 'test-ft-bio-ch16-excretion',
+    title: 'Fingertips Biology Ch 16: Excretory Products & Elimination (105 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Modes of Excretion (Ammonotelism, Ureotelism, Uricotelism), Excretory Organs in Animals, Human Excretory System Anatomy (Gross Kidney, Nephron Structure, Cortical vs Juxtamedullary), Urine Formation (Glomerular Ultrafiltration, Net EFP, Selective Reabsorption, Tubular Secretion), Counter-Current Mechanism (Henle & Vasa Recta), Regulation (Hypothalamus/ADH, JGA/RAAS, Heart/ANF), Micturition & Disorders (Uremia, Hemodialysis, Calculi, Glomerulonephritis)',
+    totalQuestions: FINGERTIPS_BIO_CH16_MCQS.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_CH16_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: [
+      '105 Line-by-Line NCERT Objective MCQs',
+      'Net Effective Filtration Pressure & GFR Balance Sheet Math',
+      'Countercurrent Multiplier Gradient & RAAS/ANF Osmoregulation',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_CH16_MCQS,
+    enrolledStudentsCount: 56100,
+    avgScore: 390
+  },
+  {
+    id: 'test-ft-bio-ch16-exam-scorer',
+    title: 'Fingertips Biology Ch 16: Exam Scorer & Exemplar (12 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar Problems on Nitrogenous Wastes, Slit Pores, Aldosterone, ANF, Osmoregulation & Urine pH',
+    totalQuestions: FINGERTIPS_BIO_CH16_EXAM_SCORER.length,
+    durationMinutes: 20,
+    totalMarks: FINGERTIPS_BIO_CH16_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'Official NCERT Exemplar Problems',
+      'Toxicity Hierarchies & Nephron Tubule Physiological Matches',
+      'Detailed Explanations & Topic Tagging'
+    ],
+    questions: FINGERTIPS_BIO_CH16_EXAM_SCORER,
+    enrolledStudentsCount: 47600,
+    avgScore: 40
   },
 
   {
