@@ -43,7 +43,11 @@ import {
   FINGERTIPS_BIO_C12_CH02_MCQS,
   FINGERTIPS_BIO_C12_CH02_EXAM_SCORER,
   FINGERTIPS_BIO_C12_CH03_MCQS,
-  FINGERTIPS_BIO_C12_CH03_EXAM_SCORER
+  FINGERTIPS_BIO_C12_CH03_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH04_MCQS,
+  FINGERTIPS_BIO_C12_CH04_EXAM_SCORER,
+  FINGERTIPS_BIO_C12_CH05_MCQS,
+  FINGERTIPS_BIO_C12_CH05_EXAM_SCORER
 } from './fingertipsBiologyQuestions';
 import {
   ALL_ALLEN_BIOLOGY_QUESTIONS,
@@ -326,10 +330,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
 export const TEST_SERIES_DATA: TestItem[] = [
   {
     id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,280 Qs)',
+    title: 'Objective NCERT at your Fingertips: Biology Grand Test (4,673 Qs)',
     category: 'full',
     exam: 'NEET',
-    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-03: Flowering Plants, Human Reproduction, Reproductive Health) - 4,280 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
+    syllabus: 'Class 11 (Ch 01-19) & Class 12 (Ch 01-05: Genetics & Molecular Biology) - 4,673 Total Verified Questions (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
     totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
     durationMinutes: 200,
     totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
@@ -1269,6 +1273,94 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER,
     enrolledStudentsCount: 61500,
     avgScore: 325
+  },
+  {
+    id: 'test-ft-bio-c12-ch04-principles-of-inheritance',
+    title: 'Fingertips Biology Class 12 Ch 04: Principles of Inheritance and Variation (125 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Mendel Laws of Inheritance (Garden pea 7 contrasting traits, Law of Dominance, Law of Segregation purity of gametes, Monohybrid cross 3:1 pheno 1:2:1 geno, Test cross 1:1), Deviations from Mendelism (Incomplete dominance Antirrhinum 1:2:1, Co-dominance ABO blood groups IA/IB/i and roan cattle, Multiple allelism population genetics, Starch synthesis pleiotropy), Dihybrid Cross & Independent Assortment (9:3:3:1 pheno, 1:1:1:1 test cross), Chromosomal Theory of Inheritance (Sutton & Boveri 1902, Meiotic parallelism), Linkage & Recombination (Morgan Drosophila crosses, Sturtevant genetic mapping 1 cM = 1% recombination), Polygenic Inheritance (Human skin pigmentation AABBCC, Wheat kernel), Pleiotropy (PKU phenylalanine hydroxylase), Sex Determination (XX-XY humans/Drosophila, XX-XO grasshoppers, ZZ-ZW birds, Haplodiploidy honeybees 32 female / 16 drone), Mutations (Point GAG->GUG, Frameshift indels, Chromosomal aneuploidy/polyploidy), Pedigree Analysis & Genetic Disorders (Mendelian: Haemophilia X-linked recessive, Colour blindness X-linked, Sickle-cell anaemia beta-6 Glu->Val, Phenylketonuria, Thalassemia alpha-16/beta-11, Myotonic dystrophy autosomal dominant; Chromosomal: Down syndrome Trisomy 21 Langdon Down, Klinefelter syndrome 47,XXY sterile gynaecomastia, Turner syndrome 45,XO streak ovaries)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH04_MCQS.length,
+    durationMinutes: 80,
+    totalMarks: FINGERTIPS_BIO_C12_CH04_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      '125 Line-by-Line NCERT Objective MCQs',
+      'Mendelian Crosses, Probability Calculations & Punnett Grids',
+      'ABO Multiple Allelism, Recombination Frequency Maps & Pedigree Trees',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH04_MCQS,
+    enrolledStudentsCount: 78500,
+    avgScore: 420
+  },
+  {
+    id: 'test-ft-bio-c12-ch04-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 04: Exam Scorer & Archive (100 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (17 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH04_EXAM_SCORER.length,
+    durationMinutes: 75,
+    totalMarks: FINGERTIPS_BIO_C12_CH04_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'Morgan Linkage Drosophila Cross Diagrams & Gene Mapping',
+      'Sickle Cell HbS Gel & Chromosomal Aneuploidy Karyotypes',
+      '20 NEET / AIPMT Past Exam Archive Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH04_EXAM_SCORER,
+    enrolledStudentsCount: 73200,
+    avgScore: 380
+  },
+  {
+    id: 'test-ft-bio-c12-ch05-molecular-basis',
+    title: 'Fingertips Biology Class 12 Ch 05: Molecular Basis of Inheritance (100 MCQs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'DNA Structure & Chargaff Rules (Double helix Watson & Crick 1953, 3.4 nm pitch, 10 bp/turn, A=T, G=C, Phosphodiester 3-5 bonds), DNA Packaging (Histone octamer Lys/Arg basic proteins, 200 bp nucleosome beads-on-string, H1 linker, Euchromatin vs Heterochromatin), Search for Genetic Material (Griffith 1928 Streptococcus transformation, Avery-MacLeod-McCarty 1944 DNase proof, Hershey-Chase 1952 P32/S35 bacteriophage), RNA World (Primordial ribozymes, mRNA/tRNA/rRNA), DNA Replication (Meselson-Stahl 1958 E. coli CsCl N15/N14 semi-conservative proof, Taylor Vicia faba, 2000 bp/sec rate, Leading continuous vs Lagging Okazaki fragments DNA ligase), Transcription (Promoter/Structural/Terminator, RNA Pol I/II/III, Polycistronic vs Monocistronic, Capping 5-mGppp, Tailing poly-A 3, Splicing introns), Genetic Code (Triplet, 64 codons, Degenerate, Unambiguous, Universal, AUG initiator Methionine, UAA/UAG/UGA stop codons), Translation (tRNA adapter clover-leaf/inverted-L, Aminoacylation/Charging, 80S/70S Ribosomes, Peptidyl transferase 23S rRNA), lac Operon (Jacob & Monod 1961, Repressor i gene, Operator o, Structural z-y-a, Lactose inducer, Negative regulation), HGP & DNA Fingerprinting (3.16 billion bp, 30000 genes, Dystrophin 2.4 Mb, ESTs vs Annotation, Alec Jeffreys VNTR Southern Blotting)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH05_MCQS.length,
+    durationMinutes: 65,
+    totalMarks: FINGERTIPS_BIO_C12_CH05_MCQS.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      '100 Line-by-Line NCERT Objective MCQs',
+      'Chargaff Equivalence Calculations & Central Dogma Flowcharts',
+      'Meselson-Stahl Centrifugation Density Bands & lac Operon Logic',
+      '100% Verified MTG Answer Key & Solutions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH05_MCQS,
+    enrolledStudentsCount: 84100,
+    avgScore: 375
+  },
+  {
+    id: 'test-ft-bio-c12-ch05-exam-scorer',
+    title: 'Fingertips Biology Class 12 Ch 05: Exam Scorer (68 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'NCERT Exemplar (28 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (10 Qs)',
+    totalQuestions: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER.length,
+    durationMinutes: 50,
+    totalMarks: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER.length * 4,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: [
+      'NCERT Exemplar Problems & High-Yield A&R Drills',
+      'DNA Fingerprinting VNTR Autoradiograms & Forensics Crime Case Studies',
+      'Meselson-Stahl Nitrogen Isotope Generation Tracking & Splicing Mechanisms',
+      'High-Yield Molecular Genetics Master Questions'
+    ],
+    questions: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER,
+    enrolledStudentsCount: 76800,
+    avgScore: 295
   },
 
   {
