@@ -61,8 +61,63 @@ export function cleanOcrText(text: string): string {
 
   // Remove bracket artifacts
   cleaned = cleaned.replace(/[\uf0f7\uf0f8\uf0f6\uf0e7\uf0e8\uf0e6]/g, '');
+  cleaned = cleaned.replace(/\]\[/g, '');
 
-  // Pre-process trailing unit exponents (e.g. Kkgm 1- -> 1-Kkgm)
+  // Direct vector equation unmangling
+  cleaned = cleaned.replace(/jiA\s*[\^ˆ]4[\^ˆ]3\s*\+=\s*and\s*,?[\^ˆ]24[\^ˆ]7\s*jiB\s*\+=/gi, 'A = 3î + 4ĵ and B = 7î + 24ĵ,');
+  cleaned = cleaned.replace(/jiA\s*[\^ˆ]4[\^ˆ]3\s*\+=/gi, 'A = 3î + 4ĵ');
+  cleaned = cleaned.replace(/jiB\s*[\^ˆ]24[\^ˆ]7\s*\+=/gi, 'B = 7î + 24ĵ');
+  cleaned = cleaned.replace(/kjiA\s*[\^ˆ]5[\^ˆ]4[\^ˆ]2\s*-\+=/gi, 'A = 2î + 4ĵ - 5k̂,');
+  cleaned = cleaned.replace(/kjiA\s*[\^ˆ]5[\^ˆ]4[\^ˆ]3\s*\++=/gi, 'A = 3î + 4ĵ + 5k̂');
+  cleaned = cleaned.replace(/kjiB\s*[\^ˆ]5[\^ˆ]4[\^ˆ]3\s*\++=/gi, 'B = 3î + 4ĵ + 5k̂');
+  cleaned = cleaned.replace(/kjiB\s*[\^ˆ]5[\^ˆ]4[\^ˆ]3\s*-\+=/gi, 'B = 3î + 4ĵ - 5k̂');
+  cleaned = cleaned.replace(/kjiA\s*[\^ˆ]6[\^ˆ]3[\^ˆ]4\s*\++=/gi, 'A = 4î + 3ĵ + 6k̂');
+  cleaned = cleaned.replace(/kjiB\s*[\^ˆ]8[\^ˆ]3[\^ˆ]?\s*-\+-=/gi, 'B = -î + 3ĵ - 8k̂');
+  cleaned = cleaned.replace(/jiA\s*[\^ˆ]3[\^ˆ]4\s*-=/gi, 'A = 4î - 3ĵ');
+  cleaned = cleaned.replace(/jiB\s*[\^ˆ]8[\^ˆ]8\s*\+=/gi, 'B = 8î + 8ĵ');
+  cleaned = cleaned.replace(/jiA\s*[\^ˆ]3[\^ˆ]2\s*\+=/gi, 'A = 2î + 3ĵ');
+  cleaned = cleaned.replace(/jiA\s*[\^ˆ]\s*[\^ˆ]\s*\+=/gi, 'A = î + ĵ');
+  cleaned = cleaned.replace(/ki\s*[\^ˆ]4[\^ˆ]3\s*\+/gi, '3î + 4k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]2[\^ˆ]5[\^ˆ]3\s*\+\+/gi, '3î + 5ĵ + 2k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]5[\^ˆ]2[\^ˆ]3\s*\+\+/gi, '3î + 2ĵ + 5k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]2[\^ˆ]3[\^ˆ]5\s*\+\+/gi, '5î + 3ĵ + 2k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]10[\^ˆ]\s*[\^ˆ]\s*\+\+/gi, 'î + ĵ + 10k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]5[\^ˆ]\s*[\^ˆ]\s*\+\+/gi, 'î + ĵ + 5k̂');
+  cleaned = cleaned.replace(/ji\s*[\^ˆ]\s*[\^ˆ]\s*\+/gi, 'î + ĵ');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]6[\^ˆ]4[\^ˆ]2\s*\+\+/gi, '2î + 4ĵ + 6k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]5[\^ˆ]2[\^ˆ]4\s*\+\+/gi, '4î + 2ĵ + 5k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]5[\^ˆ]2[\^ˆ]4\s*\+--/gi, '-4î - 2ĵ + 5k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]5[\^ˆ]4[\^ˆ]3\s*\+\+/gi, '3î + 4ĵ + 5k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]2[\^ˆ]3[\^ˆ]?\s*\+-/gi, 'î - 3ĵ + 2k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]7[\^ˆ]6[\^ˆ]3\s*-\+/gi, '3î + 6ĵ - 7k̂');
+  cleaned = cleaned.replace(/kji\s*[\^ˆ]2[\^ˆ]?[\^ˆ]?3\s*\+\+/gi, '3î + ĵ + 2k̂');
+  cleaned = cleaned.replace(/ji\s*[\^ˆ]20[\^ˆ]5\s*\+/gi, '5î + 20ĵ');
+  cleaned = cleaned.replace(/ji\s*[\^ˆ]10[\^ˆ]15\s*\+/gi, '15î + 10ĵ');
+  cleaned = cleaned.replace(/ji\s*[\^ˆ]15[\^ˆ]20\s*\+/gi, '20î + 15ĵ');
+  cleaned = cleaned.replace(/ji\s*[\^ˆ]20[\^ˆ]15\s*\+/gi, '15î + 20ĵ');
+  cleaned = cleaned.replace(/kjtitr\s*[\^ˆ]7[\^ˆ]4[\^ˆ]3\s*22\s*\++=⃗?/gi, 'r = 3t²î + 4t²ĵ + 7k̂');
+  cleaned = cleaned.replace(/jtaitar\s*[\^ˆ]\)sin\(\s*[\^ˆ]\)cos\(\s*\+=⃗?/gi, 'r = a cos(ωt)î + a sin(ωt)ĵ');
+  cleaned = cleaned.replace(/kcji\s*[\^ˆ]\s*[\^ˆ]8\.0[\^ˆ]5\.0\s*\+\+/gi, '0.5î + 0.8ĵ + ck̂');
+
+  // Inverse trigonometry & roots
+  cleaned = cleaned.replace(/\b2\/3tan\s*1-/gi, 'tan⁻¹(2/3)');
+  cleaned = cleaned.replace(/\b3\/2tan\s*1-/gi, 'tan⁻¹(3/2)');
+  cleaned = cleaned.replace(/\b3\/2sin\s*1-/gi, 'sin⁻¹(3/2)');
+  cleaned = cleaned.replace(/\b3\/2cos\s*1-/gi, 'cos⁻¹(3/2)');
+  cleaned = cleaned.replace(/45\s*5and\s*45\s*4,\s*45\s*2\s*-\s*/gi, '2/√45, 4/√45, -5/√45');
+  cleaned = cleaned.replace(/45\s*3and\s*45\s*2,\s*45\s*1/gi, '1/√45, 2/√45, 3/√45');
+  cleaned = cleaned.replace(/45\s*4and0,\s*45\s*4/gi, '4/√45, 0, 4/√45');
+  cleaned = cleaned.replace(/45\s*5and\s*45\s*2,\s*45\s*3/gi, '3/√45, 2/√45, 5/√45');
+  cleaned = cleaned.replace(/\b220\s+m\/s\s+S-W\b/gi, '20√2 m/s S-W');
+  cleaned = cleaned.replace(/\b220\s+m\/s\s+N-W\b/gi, '20√2 m/s N-W');
+  cleaned = cleaned.replace(/\bθcos2\s+vm\b/gi, '2mv cosθ');
+  cleaned = cleaned.replace(/\bθsin2\s+vm\b/gi, '2mv sinθ');
+  cleaned = cleaned.replace(/2\s+2\s+2\s+1\s+FF\s*\+/gi, '√(F₁² + F₂²)');
+  cleaned = cleaned.replace(/\bhourKilowatt-\b/gi, 'Kilowatt-hour (kWh)');
+  cleaned = cleaned.replace(/\bHour-Ampere\b/gi, 'Ampere-hour (Ah)');
+  cleaned = cleaned.replace(/\b1\s+mErg\b/gi, 'Erg/sec');
+
+  // Pre-process trailing unit exponents
   cleaned = cleaned.replace(/\b([a-zA-Z]+)\s*(\d+)-(?!\w)/g, '$2-$1');
 
   // Systemic unit reversals
@@ -70,168 +125,31 @@ export function cleanOcrText(text: string): string {
     return reverseUnitExponent(match, powNum, unitStr);
   });
 
-  // Specific Unit Equation Scrambling Cleanups
+  // Specific unit replacements
   cleaned = cleaned.split('cmmicron 8101 -=').join('1 micron = 10⁻⁸ cm');
   cleaned = cleaned.split('cmmicron 6101 -=').join('1 micron = 10⁻⁶ cm');
   cleaned = cleaned.split('cmmicron 5101 -=').join('1 micron = 10⁻⁵ cm');
   cleaned = cleaned.split('cmmicron 4101 -=').join('1 micron = 10⁻⁴ cm');
-  
-  cleaned = cleaned.split('cmmicron 8101 - =').join('1 micron = 10⁻⁸ cm');
-  cleaned = cleaned.split('cmmicron 6101 - =').join('1 micron = 10⁻⁶ cm');
-  cleaned = cleaned.split('cmmicron 5101 - =').join('1 micron = 10⁻⁵ cm');
-  cleaned = cleaned.split('cmmicron 4101 - =').join('1 micron = 10⁻⁴ cm');
-  
   cleaned = cleaned.split('1 dyne 510-= Newton').join('1 dyne = 10⁻⁵ Newton');
   cleaned = cleaned.split('mcm 2101 -=').join('1 cm = 10⁻² m');
   cleaned = cleaned.split('mÅ 10101 -=').join('1 Å = 10⁻¹⁰ m');
   cleaned = cleaned.split('JoulesMeV 13106.11 -×=').join('1 MeV = 1.6 × 10⁻¹³ Joules');
-  cleaned = cleaned.split('JoulesMeV 13106.11 -× =').join('1 MeV = 1.6 × 10⁻¹³ Joules');
-  cleaned = cleaned.split('DynesNewton 5101 -=').join('1 dyne = 10⁻⁵ Newton');
-  
-  // Derivation in line 13 explanation
-  cleaned = cleaned.split('m N cm dyne 2 5 10 107070 - -×= = mN /107 2-× .').join('= 70 × 10⁻⁵ N / 10⁻² m = 70 × 10⁻³ N/m = 7 × 10⁻² N/m');
 
-  // Vector cleanup rules:
-  // kji ^2^5^3 ++ -> 3î + 5ĵ + 2k̂
-  cleaned = cleaned.replace(/kjî?\s*[\^ˆ](\d*)[\^ˆ](\d*)[\^ˆ](\d*)\s*([\+\-＝=]+)/g, (_match, k, j, i, signs) => {
-    const kCoef = k || '1';
-    const jCoef = j || '1';
-    const iCoef = i || '1';
-    const kSign = signs.includes('-') && signs.indexOf('-') === 0 ? '-' : '+';
-    const jSign = signs.includes('-') && (signs.indexOf('-') === 1 || signs.lastIndexOf('-') === 1) ? '-' : '+';
-    return `${iCoef}î ${jSign} ${jCoef}ĵ ${kSign} ${kCoef}k̂`
-      .replace(/\+\s*-/g, '- ')
-      .replace(/\+\s*\+/g, '+ ')
-      .replace(/-\s*-/g, '+ ')
-      .replace(/-\s*\+/g, '- ');
-  });
-
-  // ji ^4^3 + -> 3î + 4ĵ
-  cleaned = cleaned.replace(/jî?\s*[\^ˆ](\d*)[\^ˆ](\d*)\s*([\+\-＝=]*)/g, (_match, j, i, signs) => {
-    const jCoef = j || '1';
-    const iCoef = i || '1';
-    const jSign = signs.includes('-') ? '-' : '+';
-    return `${iCoef}î ${jSign} ${jCoef}ĵ`
-      .replace(/\+\s*-/g, '- ')
-      .replace(/\+\s*\+/g, '+ ');
-  });
-
-  // ki ^4^3 + -> 3î + 4k̂
-  cleaned = cleaned.replace(/kî?\s*[\^ˆ](\d*)[\^ˆ](\d*)\s*([\+\-＝=]*)/g, (_match, k, i, signs) => {
-    const kCoef = k || '1';
-    const iCoef = i || '1';
-    const kSign = signs.includes('-') ? '-' : '+';
-    return `${iCoef}î ${kSign} ${kCoef}k̂`
-      .replace(/\+\s*-/g, '- ')
-      .replace(/\+\s*\+/g, '+ ');
-  });
-
-  // kj ^4^3 + -> 3ĵ + 4k̂
-  cleaned = cleaned.replace(/kĵ?\s*[\^ˆ](\d*)[\^ˆ](\d*)\s*([\+\-＝=]*)/g, (_match, k, j, signs) => {
-    const kCoef = k || '1';
-    const jCoef = j || '1';
-    const kSign = signs.includes('-') ? '-' : '+';
-    return `${jCoef}ĵ ${kSign} ${kCoef}k̂`
-      .replace(/\+\s*-/g, '- ')
-      .replace(/\+\s*\+/g, '+ ');
-  });
-
-  // Unmangle inverse trigonometric functions (e.g. )2/1(cos 1- -> cos⁻¹(1/2))
-  cleaned = cleaned.replace(/\)([^)]+)\(\s*(sin|cos|tan)\s*1\s*-\s*-\s*/gi, (_match, arg, func) => {
-    const reversedArg = arg.includes('/') ? arg.split('/').reverse().join('/') : arg;
-    return `${func}⁻¹(-${reversedArg})`;
-  });
-  cleaned = cleaned.replace(/\)([^)]+)\(\s*(sin|cos|tan)\s*1\s*-\s*/gi, (_match, arg, func) => {
-    const reversedArg = arg.includes('/') ? arg.split('/').reverse().join('/') : arg;
-    return `${func}⁻¹(${reversedArg})`;
-  });
-  
-  // Unmangle parenthesized unit exponents (e.g. (Ampere) 2 -> (Ampere)²)
-  cleaned = cleaned.replace(/\(([^)]+)\)\s*2\b/g, '($1)²');
-  cleaned = cleaned.replace(/\(([^)]+)\)\s*3\b/g, '($1)³');
-  cleaned = cleaned.replace(/\(([^)]+)\)\s*4\b/g, '($1)⁴');
-
-  // Unmangle variables - run period prefix match first!
-  cleaned = cleaned.replace(/\.2v\b/g, 'v_2');
-  cleaned = cleaned.replace(/\.1v\b/g, 'v_1');
-  
-  cleaned = cleaned.replace(/\b1v\b/g, 'v_1');
-  cleaned = cleaned.replace(/\b2v\b/g, 'v_2');
-  cleaned = cleaned.replace(/\b1f\b/g, 'f_1');
-  cleaned = cleaned.replace(/\b2f\b/g, 'f_2');
-  cleaned = cleaned.replace(/\b1E\b/g, 'E_1');
-  cleaned = cleaned.replace(/\b2E\b/g, 'E_2');
-  cleaned = cleaned.replace(/\b1u\b/g, 'u_1');
-  cleaned = cleaned.replace(/\b2u\b/g, 'u_2');
-  cleaned = cleaned.replace(/\b1q\b/g, 'q_1');
-  cleaned = cleaned.replace(/\b2q\b/g, 'q_2');
-  cleaned = cleaned.replace(/\b1T\b/g, 'T_1');
-  cleaned = cleaned.replace(/\b2T\b/g, 'T_2');
-  cleaned = cleaned.replace(/\b1P\b/g, 'P_1');
-  cleaned = cleaned.replace(/\b2P\b/g, 'P_2');
-  cleaned = cleaned.replace(/\b1V\b/g, 'V_1');
-  cleaned = cleaned.replace(/\b2V\b/g, 'V_2');
-  
-  // Specific mass subscript cleanups to avoid conflicts with '1m' meaning '1 meter'
-  cleaned = cleaned.replace(/masses\s+1m\s+and\s+2m/gi, 'masses m_1 and m_2');
-  cleaned = cleaned.replace(/mass\s+1m\b/gi, 'mass m_1');
-  cleaned = cleaned.replace(/mass\s+2m\b/gi, 'mass m_2');
-  cleaned = cleaned.replace(/masses\s+m\s*1\s+and\s+m\s*2/gi, 'masses m_1 and m_2');
-
-  // Scrambled units and expressions (Units & Dimensions Q5 & options)
-  cleaned = cleaned.replace(/2\/Strain Stress mN=/g, 'Stress/Strain = N/m²');
-  cleaned = cleaned.replace(/Surface tension = mN\//g, 'Surface tension = N/m');
-  cleaned = cleaned.replace(/Energy sec\/-mkg=/g, 'Energy = kg-m²/sec²');
-  cleaned = cleaned.replace(/Pressure 2\/mN=/g, 'Pressure = N/m²');
-  
-  // Scrambled option choices in other Units questions - using literal strings
-  cleaned = cleaned.split('mN/').join('N/m');
-  cleaned = cleaned.split('mN-').join('N-m');
-  cleaned = cleaned.split('2/mN').join('N/m²');
-  cleaned = cleaned.split('2mN-').join('N-m²');
-
-  // Unmangle the collision question and options
-  cleaned = cleaned.replace(/\)\(\s*21\s*vv\s*>/g, '(v_1 > v_2)');
-  cleaned = cleaned.replace(/a vvd 2 \)\(\s*2\s*21\s*-\s*</g, 'd < (v_1 - v_2)² / 2a');
-  cleaned = cleaned.replace(/a vvd 2 2 2 2 1\s*-\s*</g, 'd < (v_1² - v_2²) / 2a');
-  cleaned = cleaned.replace(/a vvd 2 \)\(\s*2\s*21\s*-\s*>/g, 'd > (v_1 - v_2)² / 2a');
-  cleaned = cleaned.replace(/a vvd 2 2 2 2 1\s*-\s*>/g, 'd > (v_1² - v_2²) / 2a');
-
-  // Unmangle thermodynamics power options (R V3 -> V³/R)
-  cleaned = cleaned.replace(/\bR\s+V\s*([23])\b/g, 'V$1/R');
-  cleaned = cleaned.replace(/\bR\s+V\s+([23])\b/g, 'V$1/R');
-  
-  // Unit exponents mapping
-  cleaned = cleaned.replace(/\bmetre2\b/g, 'metre²');
-  cleaned = cleaned.replace(/\bmetre\s+2\b/g, 'metre²');
-  cleaned = cleaned.replace(/\bm\s+2\b/g, 'm²');
-  cleaned = cleaned.replace(/\bm\s+3\b/g, 'm³');
-  cleaned = cleaned.replace(/\bper\s+3m\b/g, 'per m³');
-  cleaned = cleaned.replace(/\bWeber\/m\s+2\b/g, 'Weber/m²');
-  cleaned = cleaned.replace(/\bWeber-m\s+2\b/g, 'Weber-m²');
-  cleaned = cleaned.replace(/\bA-m\s+2\b/g, 'A-m²');
-  cleaned = cleaned.replace(/\bWeber\/metre2\b/g, 'Weber/metre²');
-
-  // Specific corrections
-  cleaned = cleaned.split('A3').join('A√3');
-  cleaned = cleaned.split('A 3').join('A / √3');
-  
-  // Standard unit vectors i^, j^, k^
+  // Unit vector cleanups
   cleaned = cleaned.replace(/i\s*[\^ˆ]/g, 'î');
   cleaned = cleaned.replace(/j\s*[\^ˆ]/g, 'ĵ');
   cleaned = cleaned.replace(/k\s*[\^ˆ]/g, 'k̂');
   cleaned = cleaned.split('î̂').join('î').split('ĵ̂').join('ĵ').split('k̂̂').join('k̂');
 
-  // Super/subscripts
+  // General exponents
   cleaned = cleaned.split('m/s^2').join('m/s²');
   cleaned = cleaned.split('m/s2').join('m/s²');
   cleaned = cleaned.split('10^-2').join('10⁻²');
   cleaned = cleaned.split('10^-3').join('10⁻³');
   cleaned = cleaned.split('10^5').join('10⁵');
   cleaned = cleaned.split('10^6').join('10⁶');
-  cleaned = cleaned.replace(/(\w+)\^2/g, '$1²');
-  
-  cleaned = cleaned.split('V2').join('V²').split('V3').join('V³');
+  cleaned = cleaned.replace(/(\w+)\^2\b/g, '$1²');
+  cleaned = cleaned.replace(/(\w+)\^3\b/g, '$1³');
 
   // Clean up double spaces
   cleaned = cleaned.replace(/\s+/g, ' ');

@@ -40398,7 +40398,7 @@ export const ALL_CHEMISTRY_MASTER_QUESTIONS: Question[] = [
       "42.10"
     ],
     "correctAnswer": 1,
-    "explanation": "V olume of ice > volume of water & thus increase in pressure favours forward reaction showing decrease in volume. 9. ( c ) 2 22 12 11RcZ nn \u00a7\u00b7 Q  \u0010 \u00a8\u00b8\u00a8\u00b8\u00a9\u00b9 22 1 22 11RcZ RcZ 1 \u00a7\u00b7Q  \u0010 \u00a8\u00b8\u00a9 f\u00b9 2 2 2 22 1 1 3RcZR cZ 412 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9\u00b9 2 2 3 22 1 1 RcZR cZ 42 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9 f\u00b9 1 23? Q\u0010Q Q 10. ( c) ] O H][HF [ ] F][ O H [K 2 - 3 a \u000e   and  ] O H][ F [ ]OH][HF [K 2 - - b . T herefore, Ka \u00d7 Kb = [H3O+] [OH- ] = Kw.",
+    "explanation": "V olume of ice > volume of water & thus increase in pressure favours forward reaction showing decrease in volume. 9. ( c ) 2 22 12 11RcZ nn \u00a7\u00b7 Q  \u0010 \u00a8\u00b8\u00a8\u00b8\u00a9\u00b9 22 1 22 11RcZ RcZ 1 \u00a7\u00b7Q  \u0010 \u00a8\u00b8\u00a9 f\u00b9 2 2 2 22 1 1 3RcZR cZ 412 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9\u00b9 2 2 3 22 1 1 RcZR cZ 42 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9 f\u00b9 1 23? Q\u0010Q Q 10. ( c) ] O HHF [ ] F O H [K 2 - 3 a \u000e   and  ] O H F [ ]OHHF [K 2 - - b . T herefore, Ka \u00d7 Kb = [H3O+] [OH- ] = Kw.",
     "tags": [
       "Solutions",
       "NEET Chemistry",
@@ -44821,7 +44821,7 @@ export const ALL_CHEMISTRY_MASTER_QUESTIONS: Question[] = [
     "chapter": "Chemical Kinetics",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "For the reaction, CH3COCH3 + I2 H\u000e \u007f \u007f \u007fo products The rate is governed by expression dx [acetone][H ]dt k \u000e  The order w.r.t. I2 is: ( a )1 (b) 0 ( c )3 (d) 2",
+    "questionText": "For the reaction, CH3COCH3 + I2 H\u000e \u007f \u007f \u007fo products The rate is governed by expression dx [acetoneH ]dt k \u000e  The order w.r.t. I2 is: ( a )1 (b) 0 ( c )3 (d) 2",
     "options": [
       "",
       "0 ( c )3",
@@ -45535,7 +45535,7 @@ export const ALL_CHEMISTRY_MASTER_QUESTIONS: Question[] = [
     "chapter": "Chemical Kinetics",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The following data pertains to reaction between A and B : S . N o .[A] mol L-1 [B] mol L-1 Rate (mol L-1 time-1 ) 1 1.0 \u00d7 10-2 2.0 \u00d7 10-2 2.0 \u00d7 10-4 2 2.0 \u00d7 10-2 2.0 \u00d7 10-2 4.0 \u00d7 10-4 3 2.0 \u00d7 10-2 4.0 \u00d7 10-2 8.0 \u00d7 10-4 Which of the following inference(s) can be drawn from the above data ? (i) Rate constant of the reaction is 1.0 \u00d7 10 -4 . (ii) Rate law of the reaction is : rate = k[A][B] (iii) Rate of reaction increases four times on doubling the concentration of both the reactants. Select the correct answer using the codes given below :",
+    "questionText": "The following data pertains to reaction between A and B : S . N o .[A] mol L-1 [B] mol L-1 Rate (mol L-1 time-1 ) 1 1.0 \u00d7 10-2 2.0 \u00d7 10-2 2.0 \u00d7 10-4 2 2.0 \u00d7 10-2 2.0 \u00d7 10-2 4.0 \u00d7 10-4 3 2.0 \u00d7 10-2 4.0 \u00d7 10-2 8.0 \u00d7 10-4 Which of the following inference(s) can be drawn from the above data ? (i) Rate constant of the reaction is 1.0 \u00d7 10 -4 . (ii) Rate law of the reaction is : rate = k[AB] (iii) Rate of reaction increases four times on doubling the concentration of both the reactants. Select the correct answer using the codes given below :",
     "options": [
       "(i), (ii) and (iii)",
       "(i) and (ii)",
@@ -45745,10 +45745,10 @@ export const ALL_CHEMISTRY_MASTER_QUESTIONS: Question[] = [
     "chapter": "Chemical Kinetics",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "(b) 2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O ][O]k [ O] ( I) Rate = k' [O3][O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O ][ O] \u0010  Not e intermediates are never represented in rate law equation.",
+    "questionText": "(b) 2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O O]k [ O] ( I) Rate = k' [O3O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O  O] \u0010  Not e intermediates are never represented in rate law equation.",
     "options": [
       "",
-      "2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O ][O]k [ O] ( I) Rate = k' [O3][O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O ][ O] \u0010  Not e intermediates are never represented in rate law equation.",
+      "2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O O]k [ O] ( I) Rate = k' [O3O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O  O] \u0010  Not e intermediates are never represented in rate law equation.",
       "",
       ""
     ],
@@ -103949,7 +103949,7 @@ export const SOLUTIONS_QUESTIONS: Question[] = [
       "42.10"
     ],
     "correctAnswer": 1,
-    "explanation": "V olume of ice > volume of water & thus increase in pressure favours forward reaction showing decrease in volume. 9. ( c ) 2 22 12 11RcZ nn \u00a7\u00b7 Q  \u0010 \u00a8\u00b8\u00a8\u00b8\u00a9\u00b9 22 1 22 11RcZ RcZ 1 \u00a7\u00b7Q  \u0010 \u00a8\u00b8\u00a9 f\u00b9 2 2 2 22 1 1 3RcZR cZ 412 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9\u00b9 2 2 3 22 1 1 RcZR cZ 42 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9 f\u00b9 1 23? Q\u0010Q Q 10. ( c) ] O H][HF [ ] F][ O H [K 2 - 3 a \u000e   and  ] O H][ F [ ]OH][HF [K 2 - - b . T herefore, Ka \u00d7 Kb = [H3O+] [OH- ] = Kw.",
+    "explanation": "V olume of ice > volume of water & thus increase in pressure favours forward reaction showing decrease in volume. 9. ( c ) 2 22 12 11RcZ nn \u00a7\u00b7 Q  \u0010 \u00a8\u00b8\u00a8\u00b8\u00a9\u00b9 22 1 22 11RcZ RcZ 1 \u00a7\u00b7Q  \u0010 \u00a8\u00b8\u00a9 f\u00b9 2 2 2 22 1 1 3RcZR cZ 412 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9\u00b9 2 2 3 22 1 1 RcZR cZ 42 \u00a7\u00b7Q  \u0010 \u00a8\u00b8 \u00a9 f\u00b9 1 23? Q\u0010Q Q 10. ( c) ] O HHF [ ] F O H [K 2 - 3 a \u000e   and  ] O H F [ ]OHHF [K 2 - - b . T herefore, Ka \u00d7 Kb = [H3O+] [OH- ] = Kw.",
     "tags": [
       "Solutions",
       "NEET Chemistry",
@@ -108378,7 +108378,7 @@ export const CHEMICAL_KINETICS_QUESTIONS: Question[] = [
     "chapter": "Chemical Kinetics",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "For the reaction, CH3COCH3 + I2 H\u000e \u007f \u007f \u007fo products The rate is governed by expression dx [acetone][H ]dt k \u000e  The order w.r.t. I2 is: ( a )1 (b) 0 ( c )3 (d) 2",
+    "questionText": "For the reaction, CH3COCH3 + I2 H\u000e \u007f \u007f \u007fo products The rate is governed by expression dx [acetoneH ]dt k \u000e  The order w.r.t. I2 is: ( a )1 (b) 0 ( c )3 (d) 2",
     "options": [
       "",
       "0 ( c )3",
@@ -109092,7 +109092,7 @@ export const CHEMICAL_KINETICS_QUESTIONS: Question[] = [
     "chapter": "Chemical Kinetics",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The following data pertains to reaction between A and B : S . N o .[A] mol L-1 [B] mol L-1 Rate (mol L-1 time-1 ) 1 1.0 \u00d7 10-2 2.0 \u00d7 10-2 2.0 \u00d7 10-4 2 2.0 \u00d7 10-2 2.0 \u00d7 10-2 4.0 \u00d7 10-4 3 2.0 \u00d7 10-2 4.0 \u00d7 10-2 8.0 \u00d7 10-4 Which of the following inference(s) can be drawn from the above data ? (i) Rate constant of the reaction is 1.0 \u00d7 10 -4 . (ii) Rate law of the reaction is : rate = k[A][B] (iii) Rate of reaction increases four times on doubling the concentration of both the reactants. Select the correct answer using the codes given below :",
+    "questionText": "The following data pertains to reaction between A and B : S . N o .[A] mol L-1 [B] mol L-1 Rate (mol L-1 time-1 ) 1 1.0 \u00d7 10-2 2.0 \u00d7 10-2 2.0 \u00d7 10-4 2 2.0 \u00d7 10-2 2.0 \u00d7 10-2 4.0 \u00d7 10-4 3 2.0 \u00d7 10-2 4.0 \u00d7 10-2 8.0 \u00d7 10-4 Which of the following inference(s) can be drawn from the above data ? (i) Rate constant of the reaction is 1.0 \u00d7 10 -4 . (ii) Rate law of the reaction is : rate = k[AB] (iii) Rate of reaction increases four times on doubling the concentration of both the reactants. Select the correct answer using the codes given below :",
     "options": [
       "(i), (ii) and (iii)",
       "(i) and (ii)",
@@ -109302,10 +109302,10 @@ export const CHEMICAL_KINETICS_QUESTIONS: Question[] = [
     "chapter": "Chemical Kinetics",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "(b) 2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O ][O]k [ O] ( I) Rate = k' [O3][O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O ][ O] \u0010  Not e intermediates are never represented in rate law equation.",
+    "questionText": "(b) 2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O O]k [ O] ( I) Rate = k' [O3O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O  O] \u0010  Not e intermediates are never represented in rate law equation.",
     "options": [
       "",
-      "2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O ][O]k [ O] ( I) Rate = k' [O3][O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O ][ O] \u0010  Not e intermediates are never represented in rate law equation.",
+      "2 Slow 32 Fast 3 O 2O O ; O OO \u007f\u007fo \u007f \u000e \u000e \u007f\u007fo \u007f 2 3 [O O]k [ O] ( I) Rate = k' [O3O] put [O] from (I) 2133 32 2 k '[O ]K[O ]r k[O ] [O  O] \u0010  Not e intermediates are never represented in rate law equation.",
       "",
       ""
     ],

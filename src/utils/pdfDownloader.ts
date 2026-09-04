@@ -1,4 +1,5 @@
 import { BookItem, Question, TestItem, UserTestResult } from '../types';
+import { cleanOcrText } from './ocrCleaner';
 
 /**
  * Downloads a formatted HTML-based document as an actual file and opens print-to-PDF dialog.
@@ -322,7 +323,7 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
       ${questionsList.map((q, idx) => `
         <div class="question-card">
           <div style="font-size: 13px; font-weight: 600; color: #0f172a; margin-bottom: 8px;">
-            <span class="q-num">Q${idx + 1}.</span> ${q.questionText}
+            <span class="q-num">Q${idx + 1}.</span> ${cleanOcrText(q.questionText)}
           </div>
           
           ${q.diagramSvg ? `
@@ -334,7 +335,7 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
           <div class="options-grid">
             ${q.options.map((opt, oIdx) => `
               <div class="option-item">
-                <span class="opt-letter">(${String.fromCharCode(97 + oIdx)})</span> ${opt}
+                <span class="opt-letter">(${String.fromCharCode(97 + oIdx)})</span> ${cleanOcrText(opt)}
               </div>
             `).join('')}
           </div>
@@ -342,7 +343,7 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
           ${includeSolutions ? `
             <div class="solution-box">
               <strong>Correct Answer: (${String.fromCharCode(97 + q.correctAnswer)})</strong> &bull; 
-              <span>${q.explanation || 'Refer to standard NCERT textbook for detailed derivation.'}</span>
+              <span>${cleanOcrText(q.explanation) || 'Refer to standard NCERT textbook for detailed derivation.'}</span>
             </div>
           ` : ''}
         </div>
