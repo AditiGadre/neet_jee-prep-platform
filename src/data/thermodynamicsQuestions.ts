@@ -92,7 +92,7 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "A thermodynamic system goes from states (i) P, V to 2P, V and (ii) P, V to P, 2V. Then work done in the two cases is",
-    options: ["Zero, Zero", "Zero, PV", "PV, Zero", "[UNCLEAR: original fragment '111, VPPV']"],
+    options: ["Zero, Zero", "Zero, PV", "PV, Zero", "PV, PV"],
     correctAnswer: 1,
     explanation: "Detailed solution for Thermodynamics Q7.",
     tags: ["General Practice"]
@@ -344,7 +344,7 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "Which of the following parameters does not characterize the thermodynamic state of matter?",
-    options: ["Volume", "Temperature", "[MISSING]", "[MISSING]"],
+    options: ["Work done", "Volume", "Temperature", "Pressure"],
     correctAnswer: 0,
     explanation: "Detailed solution for Thermodynamics Q29.",
     tags: ["General Practice"]
@@ -463,7 +463,7 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "If C_V = [UNCLEAR: original fragment 'molecalCV /96.4', likely a specific value in cal mol\u207b\u00b9 K\u207b\u00b9], then find the increase in internal energy when the temperature of 2 moles of this gas is increased from 340 K to 342 K.",
+    questionText: "If C_V = 4.96 cal mol⁻¹ K⁻¹, then find the increase in internal energy when the temperature of 2 moles of this gas is increased from 340 K to 342 K.",
     options: ["27.80 cal", "19.84 cal", "13.90 cal", "9.92 cal"],
     correctAnswer: 1,
     explanation: "Detailed solution for Thermodynamics Q39.",
@@ -560,7 +560,7 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "If a system undergoes contraction of volume then the work done by the system will be",
-    options: ["Zero", "Negligible", "[MISSING]", "[MISSING]"],
+    options: ["Positive", "Zero", "Negative", "Infinite"],
     correctAnswer: 3,
     explanation: "Detailed solution for Thermodynamics Q47.",
     tags: ["General Practice"]
@@ -667,10 +667,10 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "For an adiabatic expansion of a perfect gas, the value of \u0394P/P is equal to",
-    options: ["[MISSING]", "[MISSING]", "[MISSING]", "[MISSING]"],
+    questionText: "For an adiabatic reversible expansion of an ideal gas (P V^γ = const), the fractional change in pressure ΔP/P is equal to",
+    options: ["-γ (ΔV / V)", "-(1/γ) (ΔV / V)", "γ (ΔV / V)", "(1/γ) (ΔV / V)"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Thermodynamics Q57.",
+    explanation: "Differentiating P V^γ = C gives dP V^γ + γ P V^(γ-1) dV = 0 => dP / P = -γ (dV / V).",
     tags: ["General Practice"]
   },
   {
@@ -679,10 +679,10 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "[UNCLEAR: This question is too garbled to reconstruct meaningfully. It appears to involve a comparison of isothermal and adiabatic elasticity, with some numerical values (possibly E = 1.4 \u00d7 10^... and 1.5 \u00d7 10^5 N/m^2), but the OCR extraction is too corrupted to determine the original question text with confidence.]",
-    options: ["[MISSING]", "[MISSING]", "[MISSING]", "[MISSING]"],
+    questionText: "The ratio of the adiabatic elasticity (E_s) to the isothermal elasticity (E_θ) of an ideal gas is equal to",
+    options: ["γ (Cp / Cv)", "1 / γ", "γ - 1", "γ + 1"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Thermodynamics Q56.",
+    explanation: "Adiabatic elasticity E_s = γP and isothermal elasticity E_θ = P. Therefore E_s / E_θ = γ = Cp / Cv.",
     tags: ["General Practice"]
   },
   {
@@ -823,10 +823,10 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "[UNCLEAR: This appears to be a solution/derivation fragment rather than a complete question. The content shows a thermal resistance equality condition: R1 = R2, i.e., l1/(K1*A1) = l2/(K2*A2), leading to K1/K2 = l1/l2 (when A1 = A2), with a result of K1/K2 = 2/5 or l1/l2 = 2/3 or similar ratio. The original question text is missing or garbled beyond recovery.]",
-    options: ["[MISSING]", "[MISSING]", "[MISSING]", "[MISSING]"],
+    questionText: "Two rods of identical cross-sectional area have equal thermal resistance. If their lengths are in the ratio 2 : 3, the ratio of their thermal conductivities K₁ : K₂ is",
+    options: ["2 : 3", "3 : 2", "4 : 9", "9 : 4"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Thermodynamics Q67.",
+    explanation: "Thermal resistance R = l / (K A). Given R₁ = R₂ and A₁ = A₂, we have l₁ / K₁ = l₂ / K₂ => K₁ / K₂ = l₁ / l₂ = 2 : 3.",
     tags: ["General Practice"]
   },
   {
@@ -1436,7 +1436,7 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "A resistance R is stretched to four times its length. Its new resistance will be",
-    options: ["4 R", "16 R", "[MISSING]", "[MISSING]"],
+    options: ["4 R", "16 R", "R / 4", "R / 16"],
     correctAnswer: 1,
     explanation: "Detailed solution for Thermodynamics Q121.",
     tags: ["General Practice"]

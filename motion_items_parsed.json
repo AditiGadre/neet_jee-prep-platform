@@ -1,6 +1,4 @@
-import { Question } from '../types';
-
-export const MOTION_BOOK_QUESTIONS: Question[] = [
+[
   {
     "id": "motion in one dimension-motion-in-one-dimension-1",
     "subject": "Physics",
@@ -15,10 +13,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "20 m"
     ],
     "correctAnswer": 0,
-    "explanation": "Displacement vector r = 8î + 6ĵ + 10k̂.\nMagnitude |r| = √(8² + 6² + 10²) = √(64 + 36 + 100) = √200 = 10√2 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Displacement vector r = 8\\u00ee + 6\\u0135 + 10k\\u0302.\\nMagnitude |r| = \\u221a(8\\u00b2 + 6\\u00b2 + 10\\u00b2) = \\u221a(64 + 36 + 100) = \\u221a200 = 10\\u221a2 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-2",
@@ -34,10 +29,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "30 m"
     ],
     "correctAnswer": 0,
-    "explanation": "Displacement vector r = 20î + 10ĵ.\n|r| = √(20² + 10²) = √(400 + 100) = √500 = 10√5 ≈ 22.36 m ≈ 22.5 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Displacement vector r = 20\\u00ee + 10\\u0135.\\n|r| = \\u221a(20\\u00b2 + 10\\u00b2) = \\u221a(400 + 100) = \\u221a500 = 10\\u221a5 \\u2248 22.36 m \\u2248 22.5 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-3",
@@ -45,7 +37,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "A person moves 30 m north, then 20 m towards east, and finally 30√2 m south-west. The displacement of the person from the origin is [J & K CET 2004]",
+    "questionText": "A person moves 30 m north, then 20 m towards east, and finally 30\\u221a2 m south-west. The displacement of the person from the origin is [J & K CET 2004]",
     "options": [
       "10 m along north",
       "10 m along south",
@@ -53,10 +45,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "Zero"
     ],
     "correctAnswer": 2,
-    "explanation": "s₁ = 30ĵ (North)\ns₂ = 20î (East)\ns₃ = 30√2(-cos 45°î - sin 45°ĵ) = -30î - 30ĵ (South-West)\nNet displacement s = 30ĵ + 20î - 30î - 30ĵ = -10î = 10 m along West.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "s\\u2081 = 30\\u0135 (North)\\ns\\u2082 = 20\\u00ee (East)\\ns\\u2083 = 30\\u221a2(-cos 45\\u00b0\\u00ee - sin 45\\u00b0\\u0135) = -30\\u00ee - 30\\u0135 (South-West)\\nNet displacement s = 30\\u0135 + 20\\u00ee - 30\\u00ee - 30\\u0135 = -10\\u00ee = 10 m along West."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-4",
@@ -72,10 +61,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "1500 m"
     ],
     "correctAnswer": 1,
-    "explanation": "Displacement vector r = -300î + 400ĵ + 1200k̂.\n|r| = √(300² + 400² + 1200²) = √(90000 + 160000 + 1440000) = √1690000 = 1300 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Displacement vector r = -300\\u00ee + 400\\u0135 + 1200k\\u0302.\\n|r| = \\u221a(300\\u00b2 + 400\\u00b2 + 1200\\u00b2) = \\u221a(90000 + 160000 + 1440000) = \\u221a1690000 = 1300 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-5",
@@ -91,10 +77,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "7πR"
     ],
     "correctAnswer": 1,
-    "explanation": "Total time = 2 min 20 s = 140 s.\nNumber of complete rounds = 140 / 40 = 3.5 rounds.\nAfter 3.5 rounds, the athlete is at the diametrically opposite point, so displacement = 2R.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Total time = 2 min 20 s = 140 s.\\nNumber of complete rounds = 140 / 40 = 3.5 rounds.\\nAfter 3.5 rounds, the athlete is at the diametrically opposite point, so displacement = 2R."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-6",
@@ -110,10 +93,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "π m"
     ],
     "correctAnswer": 0,
-    "explanation": "Horizontal displacement x = πR = π(1) = π m.\nVertical displacement y = 2R = 2(1) = 2 m.\nNet displacement = √(x² + y²) = √(π² + 2²) = √(π² + 4) m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Horizontal displacement x = \\u03c0R = \\u03c0(1) = \\u03c0 m.\\nVertical displacement y = 2R = 2(1) = 2 m.\\nNet displacement = \\u221a(x\\u00b2 + y\\u00b2) = \\u221a(\\u03c0\\u00b2 + 2\\u00b2) = \\u221a(\\u03c0\\u00b2 + 4) m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-7",
@@ -121,7 +101,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A car moves for half of its total time at 80 km/h and for the remaining half time at 40 km/h. Total distance covered is 60 km. What is the average speed of the car?",
+    "questionText": "A car moves for half of its time at 80 km/h and for the rest half of time at 40 km/h. What is the average speed of the car?",
     "options": [
       "60 km/h",
       "80 km/h",
@@ -129,10 +109,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "50 km/h"
     ],
     "correctAnswer": 0,
-    "explanation": "When time intervals are equal (t₁ = t₂ = t/2):\nv_avg = (v₁ + v₂) / 2 = (80 + 40) / 2 = 60 km/h.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "When time intervals are equal (t\\u2081 = t\\u2082 = t):\\nv_avg = (v\\u2081 + v\\u2082) / 2 = (80 + 40) / 2 = 60 km/h."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-8",
@@ -148,10 +125,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "70 km/h"
     ],
     "correctAnswer": 1,
-    "explanation": "d₁ = 60 km/h × 1 h = 60 km\nd₂ = 40 km/h × 0.5 h = 20 km\nTotal distance = 80 km, Total time = 1.5 h.\nv_avg = 80 / 1.5 = 160 / 3 ≈ 53.33 km/h.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "d\\u2081 = 60 km/h \\u00d7 1 h = 60 km\\nd\\u2082 = 40 km/h \\u00d7 0.5 h = 20 km\\nTotal distance = 80 km, Total time = 1.5 h.\\nv_avg = 80 / 1.5 = 160 / 3 \\u2248 53.33 km/h."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-9",
@@ -167,10 +141,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "Train running on a straight track"
     ],
     "correctAnswer": 3,
-    "explanation": "A train moving along a straight railway track requires only one coordinate (e.g., x-axis) to describe its position, which represents 1D (rectilinear) motion.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "A train running on a straight railway track requires only one coordinate (say x) to describe its position completely, making it one-dimensional motion."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-10",
@@ -186,10 +157,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "92 s"
     ],
     "correctAnswer": 2,
-    "explanation": "Total distance to be crossed = length of train + length of bridge = 150 m + 850 m = 1000 m.\nSpeed v = 45 × (5/18) = 12.5 m/s.\nTime t = distance / speed = 1000 / 12.5 = 80 s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Total distance D = L_train + L_bridge = 150 + 850 = 1000 m.\\nSpeed v = 45 \\u00d7 (5/18) = 12.5 m/s.\\nTime t = D / v = 1000 / 12.5 = 80 seconds."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-11",
@@ -197,7 +165,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A particle is constrained to move on a straight line path. It returns to the starting point after 10 s. The total distance covered by the particle during this time is 30 m. Which of the following statements is false for the motion of the particle?",
+    "questionText": "A particle moves on a straight line path and returns to its starting point after 10 s. The total distance covered is 30 m. Which statement is FALSE?",
     "options": [
       "Displacement of the particle is zero",
       "Average speed of the particle is 3 m/s",
@@ -205,10 +173,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "Average velocity of the particle is zero"
     ],
     "correctAnswer": 2,
-    "explanation": "Since the particle returns to its starting point, its initial and final positions are identical, so displacement = 0 (making statement C 'Displacement is 30 m' false).\nAverage speed = 30 m / 10 s = 3 m/s, Average velocity = 0 / 10 s = 0.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Since the particle returns to its starting point, net displacement = 0 m.\\nAverage speed = 30 m / 10 s = 3 m/s.\\nStatement (c) claiming displacement is 30 m is FALSE."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-12",
@@ -216,7 +181,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "A man walks on a straight road from his home to a market 2.5 km away with a speed of 5 km/h. Finding the market closed, he instantly turns and walks back home with a speed of 7.5 km/h. The average speed of the man over the interval of time (0 to 40 min) is equal to",
+    "questionText": "A man walks on a straight road from home to market 2.5 km away at 5 km/h. Finding the market closed, he instantly walks back at 7.5 km/h. His average speed over the time interval 0 to 40 min is [AMU (Med.) 2002]",
     "options": [
       "5 km/h",
       "25/4 km/h",
@@ -224,10 +189,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "45/8 km/h (5.625 km/h)"
     ],
     "correctAnswer": 3,
-    "explanation": "Time taken to reach market = 2.5 km / 5 km/h = 0.5 h = 30 min.\nRemaining time = 40 - 30 = 10 min = (1/6) h.\nDistance covered during return in 10 min = 7.5 km/h × (1/6) h = 1.25 km.\nTotal distance = 2.5 + 1.25 = 3.75 km in 40 min = (2/3) h.\nAverage speed = 3.75 / (2/3) = (3.75 × 3) / 2 = 11.25 / 2 = 5.625 km/h = 45/8 km/h.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Time to reach market t\\u2081 = 2.5 / 5 = 0.5 h = 30 min.\\nRemaining time = 10 min = 1/6 h.\\nDistance in return journey = 7.5 \\u00d7 (1/6) = 1.25 km.\\nTotal distance = 2.5 + 1.25 = 3.75 km = 15/4 km.\\nTotal time = 40/60 h = 2/3 h.\\nAverage speed = (15/4) / (2/3) = 45/8 km/h = 5.625 km/h."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-13",
@@ -235,18 +197,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "The ratio of the numerical values of the average velocity and average speed of a body is always",
+    "questionText": "The ratio of the numerical values of average velocity and average speed of a body is always",
     "options": [
       "Unity",
-      "Unity or less",
-      "Unity or more",
-      "Less than unity"
+      "Unity or less (≤ 1)",
+      "Unity or more (≥ 1)",
+      "Less than unity (< 1)"
     ],
     "correctAnswer": 1,
-    "explanation": "Since magnitude of displacement ≤ total distance travelled:\n|Average velocity| / Average speed = |Displacement| / Distance ≤ 1 (Unity or less).",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Since |displacement| \\u2264 distance, |average velocity| \\u2264 average speed.\\nTherefore, the numerical ratio is always \\u2264 1 (Unity or less)."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-14",
@@ -254,18 +213,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A person travels along a straight road for the first half time with a velocity v₁ and the next half time with a velocity v₂. The mean velocity V of the person is",
+    "questionText": "A person travels along a straight road for the first half time with velocity v\\u2081 and next half time with velocity v\\u2082. The mean velocity V is",
     "options": [
-      "V = (v₁ + v₂) / 2",
-      "V = 2v₁v₂ / (v₁ + v₂)",
-      "V = √(v₁v₂)",
-      "V = v₁v₂ / (v₁ + v₂)"
+      "2v₁v₂ / (v₁ + v₂)",
+      "(v₁ + v₂) / 2",
+      "√(v₁v₂)",
+      "v₁ / v₂"
     ],
-    "correctAnswer": 0,
-    "explanation": "Total displacement = v₁(t/2) + v₂(t/2) = ((v₁ + v₂)/2)t.\nMean velocity V = Total displacement / Total time = (v₁ + v₂) / 2.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 1,
+    "explanation": "For equal time intervals t\\u2081 = t\\u2082 = t:\\nTotal displacement = v\\u2081t + v\\u2082t = (v\\u2081 + v\\u2082)t.\\nMean velocity V = (v\\u2081 + v\\u2082)t / (2t) = (v\\u2081 + v\\u2082) / 2."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-15",
@@ -273,37 +229,31 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "If a car covers 2/5 th of the total distance with speed v₁ and 3/5 th of the distance with speed v₂, then its average speed is",
+    "questionText": "If a car covers 2/5th of the total distance with speed v\\u2081 and 3/5th of the distance with speed v\\u2082, then its average speed is",
     "options": [
-      "√(v₁v₂)",
       "(v₁ + v₂) / 2",
       "2v₁v₂ / (v₁ + v₂)",
+      "5v₁v₂ / (2v₁ + 3v₂)",
       "5v₁v₂ / (3v₁ + 2v₂)"
     ],
     "correctAnswer": 3,
-    "explanation": "Let total distance be s.\nt₁ = (2s/5) / v₁ = 2s / (5v₁)\nt₂ = (3s/5) / v₂ = 3s / (5v₂)\nTotal time t = (s/5)(2/v₁ + 3/v₂) = s(2v₂ + 3v₁) / (5v₁v₂).\nAverage speed v_avg = s / t = 5v₁v₂ / (3v₁ + 2v₂).",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "t\\u2081 = (2d/5) / v\\u2081 = 2d / (5v\\u2081)\\nt\\u2082 = (3d/5) / v\\u2082 = 3d / (5v\\u2082)\\nv_avg = d / (t\\u2081 + t\\u2082) = d / [(2d/5v\\u2081) + (3d/5v\\u2082)] = 5v\\u2081v\\u2082 / (3v\\u2081 + 2v\\u2082)."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-16",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Medium",
-    "questionText": "Which of the following equations of motion is universally valid for rectilinear motion with uniform acceleration?",
+    "difficulty": "Easy",
+    "questionText": "Which option is correct for a position-time graph having a vertical line or multiple positions at a single instant?",
     "options": [
-      "v = u + at",
-      "s = ut + (1/2)at²",
-      "v² - u² = 2as",
-      "All of the above"
+      "The object moves with constantly increasing velocity",
+      "Velocity of the object increases uniformly",
+      "Average velocity is zero",
+      "The graph shown is physically impossible"
     ],
     "correctAnswer": 3,
-    "explanation": "For straight line motion with constant acceleration 'a', all three standard kinematic relations hold:\n1) v = u + at\n2) s = ut + (1/2)at²\n3) v² - u² = 2as.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "A particle cannot be present in two different positions at the exact same instant of time, nor can it have infinite instantaneous velocity. Hence such a graph is impossible."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-17",
@@ -311,18 +261,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "The numerical ratio of displacement to the distance covered is always",
+    "questionText": "The numerical ratio of displacement to distance covered is always",
     "options": [
-      "Equal to or less than 1",
-      "Always equal to 1",
-      "Always greater than 1",
-      "Equal to or greater than 1"
+      "Less than one",
+      "Equal to one",
+      "Equal to or less than one (≤ 1)",
+      "Equal to or greater than one"
     ],
-    "correctAnswer": 0,
-    "explanation": "Displacement is the shortest straight-line distance between initial and final points, whereas distance is the actual path length.\nTherefore, |Displacement| ≤ Distance => |Displacement| / Distance ≤ 1.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 2,
+    "explanation": "Magnitude of displacement is the shortest straight-line distance between initial and final points. Thus |Displacement| \\u2264 Distance \\u21d2 Ratio \\u2264 1."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-18",
@@ -330,7 +277,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A 100 m long train is moving with a uniform velocity of 45 km/h. The time taken by the train to cross a bridge of length 1 km is",
+    "questionText": "A 100 m long train is moving with uniform velocity of 45 km/h. The time taken to cross a bridge of length 1 km (1000 m) is",
     "options": [
       "58 s",
       "68 s",
@@ -338,10 +285,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "88 s"
     ],
     "correctAnswer": 3,
-    "explanation": "Total distance = length of train + bridge length = 100 m + 1000 m = 1100 m.\nSpeed v = 45 × (5/18) = 12.5 m/s.\nTime t = 1100 / 12.5 = 88 s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Total distance D = 100 + 1000 = 1100 m.\\nSpeed v = 45 \\u00d7 (5/18) = 12.5 m/s.\\nTime t = 1100 / 12.5 = 88 s."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-19",
@@ -349,7 +293,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A particle moves for 20 seconds with velocity 3 m/s and then velocity 4 m/s for another 20 seconds and finally moves with velocity 5 m/s for next 20 seconds. What is the average velocity of the particle?",
+    "questionText": "A particle moves for 20 s with velocity 3 m/s, then 4 m/s for another 20 s, and finally 5 m/s for the next 20 s. The average velocity is",
     "options": [
       "3 m/s",
       "4 m/s",
@@ -357,10 +301,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "Zero"
     ],
     "correctAnswer": 1,
-    "explanation": "Since all three time intervals are equal (t = 20 s each):\nv_avg = (v₁ + v₂ + v₃) / 3 = (3 + 4 + 5) / 3 = 12 / 3 = 4 m/s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Since all time intervals are equal (20 s each):\\nv_avg = (3 + 4 + 5) / 3 = 12 / 3 = 4 m/s."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-20",
@@ -368,56 +309,47 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "Which of the following statements is physically correct?",
+    "questionText": "The correct statement from the following is",
     "options": [
-      "A body can have zero velocity and still be accelerated",
-      "A body can have constant speed but varying velocity",
-      "A body can have constant velocity but varying speed",
-      "Both (A) and (B) are correct"
+      "A body having zero velocity will not necessarily have zero acceleration",
+      "A body having zero velocity will necessarily have zero acceleration",
+      "A body having uniform speed can have only uniform acceleration",
+      "A body having non-uniform velocity will have zero acceleration"
     ],
-    "correctAnswer": 3,
-    "explanation": "1) A body thrown vertically upwards has v = 0 at the highest point while acceleration is g = 9.8 m/s² ≠ 0.\n2) In uniform circular motion, speed is constant while velocity direction changes continuously.\nHence both (A) and (B) are correct.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 0,
+    "explanation": "At the highest point of vertical projectile motion under gravity, instantaneous velocity is zero (v = 0) while acceleration is non-zero (a = g = 9.8 m/s\\u00b2 downward)."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-21",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "A bullet fired into a fixed target loses half of its velocity after penetrating 3 cm. How much further will it penetrate before coming to rest assuming uniform resistance?",
+    "difficulty": "Medium",
+    "questionText": "A bullet fired into a fixed target loses half its velocity after penetrating 3 cm. How much further will it penetrate before coming to rest under constant resistance?",
     "options": [
-      "1.0 cm",
       "1.5 cm",
-      "2.0 cm",
-      "3.0 cm"
+      "1.0 cm",
+      "3.0 cm",
+      "2.0 cm"
     ],
-    "correctAnswer": 0,
-    "explanation": "Using v² - u² = 2as:\n(u/2)² - u² = 2a(3) => -3u²/4 = 6a => a = -u²/8.\nFor coming to rest from u/2:\n0² - (u/2)² = 2a(x) => -u²/4 = 2(-u²/8)x = (-u²/4)x => x = 1.0 cm.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 1,
+    "explanation": "v\\u00b2 - u\\u00b2 = 2(-a)s \\u21d2 (u/2)\\u00b2 - u\\u00b2 = -2a(3) \\u21d2 -3u\\u00b2/4 = -6a \\u21d2 2a = u\\u00b2/4.\\nFor final rest from u/2: 0\\u00b2 - (u/2)\\u00b2 = -2a x\\u2082 \\u21d2 -u\\u00b2/4 = -(u\\u00b2/4)x\\u2082 \\u21d2 x\\u2082 = 1.0 cm."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-22",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "Two boys are standing at the ends A and B of a ground where AB = a. The boy at B starts running in a direction perpendicular to AB with velocity v₁. The boy at A starts running simultaneously with velocity v (where v > v₁) and catches the other boy in time t. The time t is",
+    "difficulty": "Medium",
+    "questionText": "Two boys are at ends A and B of a ground where AB = a. Boy at B runs perpendicular to AB at velocity v\\u2081. Boy at A runs simultaneously at velocity v and catches him in time t. Then t is",
     "options": [
-      "t = a / √(v² + v₁²)",
-      "t = a / √(v² - v₁²)",
-      "t = a / (v - v₁)",
-      "t = a / (v + v₁)"
+      "a / √(v² + v₁²)",
+      "a / √(v² - v₁²)",
+      "a / (v - v₁)",
+      "a / (v + v₁)"
     ],
     "correctAnswer": 1,
-    "explanation": "In time t, boy B runs distance BC = v₁t along a line perpendicular to AB.\nBoy A runs distance AC = vt to intercept him at C.\nIn right triangle ABC: AC² = AB² + BC² => (vt)² = a² + (v₁t)² => t²(v² - v₁²) = a² => t = a / √(v² - v₁²).",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "In right triangle ABC: AC\\u00b2 = AB\\u00b2 + BC\\u00b2 \\u21d2 (vt)\\u00b2 = a\\u00b2 + (v\\u2081t)\\u00b2 \\u21d2 (v\\u00b2 - v\\u2081\\u00b2)t\\u00b2 = a\\u00b2 \\u21d2 t = a / \\u221a(v\\u00b2 - v\\u2081\\u00b2)."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-23",
@@ -425,7 +357,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A car travels half the distance with constant velocity of 40 km/h and the remaining half with a constant velocity of 60 km/h. The average velocity of the car in km/h is",
+    "questionText": "A car travels half the distance with constant velocity 40 km/h and the remaining half with constant velocity 60 km/h. The average velocity is",
     "options": [
       "40 km/h",
       "45 km/h",
@@ -433,10 +365,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "50 km/h"
     ],
     "correctAnswer": 2,
-    "explanation": "For equal distance halves, average speed is the harmonic mean:\nv_avg = 2v₁v₂ / (v₁ + v₂) = (2 × 40 × 60) / (40 + 60) = 4800 / 100 = 48 km/h.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "For equal distance halves: v_avg = 2v\\u2081v\\u2082 / (v\\u2081 + v\\u2082) = 2(40)(60) / (40 + 60) = 4800 / 100 = 48 km/h."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-24",
@@ -444,56 +373,47 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "The acceleration of a moving body can be found from",
+    "questionText": "The acceleration of a moving body can be found from the",
     "options": [
-      "Area under distance-time graph",
-      "Slope of distance-time graph",
       "Area under velocity-time graph",
-      "Slope of velocity-time graph"
+      "Area under distance-time graph",
+      "Slope of the velocity-time graph",
+      "Slope of the distance-time graph"
     ],
-    "correctAnswer": 3,
-    "explanation": "Acceleration is the time rate of change of velocity: a = dv/dt, which represents the gradient (slope) of the velocity-time graph.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 2,
+    "explanation": "Acceleration a = dv/dt is represented by the instantaneous slope of the velocity-time graph."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-25",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "Two cars A and B are travelling in the same direction with velocities v₁ and v₂ (v₁ > v₂). When car A is at a distance d behind car B, the driver of car A applies the brakes producing a uniform retardation a. There will be no collision when [Pb. PET 2004]",
+    "difficulty": "Medium",
+    "questionText": "Two cars A and B travel in the same direction with velocities v\\u2081 and v\\u2082 (v\\u2081 > v\\u2082). When car A is at distance d behind car B, driver A brakes with uniform retardation a. No collision occurs if [Pb. PET 2004]",
     "options": [
-      "d < (v₁ - v₂)² / (2a)",
-      "d < (v₁² - v₂²) / (2a)",
-      "d > (v₁ - v₂)² / (2a)",
-      "d > (v₁² - v₂²) / (2a)"
+      "d < (v₁ - v₂)² / 2a",
+      "d < (v₁² - v₂²) / 2a",
+      "d > (v₁ - v₂)² / 2a",
+      "d > (v₁² - v₂²) / 2a"
     ],
     "correctAnswer": 2,
-    "explanation": "Relative velocity of A with respect to B is v_rel = v₁ - v₂.\nRelative retardation is a. The stopping distance relative to car B is:\ns_rel = v_rel² / (2a) = (v₁ - v₂)² / (2a).\nTo avoid collision, the initial distance d must be strictly greater than s_rel => d > (v₁ - v₂)² / (2a).",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Relative velocity v_rel = v\\u2081 - v\\u2082. Relative stopping distance s_rel = (v_rel)\\u00b2 / (2a) = (v\\u2081 - v\\u2082)\\u00b2 / 2a.\\nTo avoid collision, initial separation must satisfy d > (v\\u2081 - v\\u2082)\\u00b2 / 2a."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-26",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Medium",
-    "questionText": "A body of mass 10 kg is moving with a constant velocity of 10 m/s. When a constant force acts for 4 seconds on it, it moves with a velocity 2 m/s in the opposite direction. The acceleration produced in it is",
+    "difficulty": "Easy",
+    "questionText": "A body of mass 10 kg moves at 10 m/s. When a constant force acts for 4 s, it moves with velocity 2 m/s in the opposite direction. The acceleration produced is",
     "options": [
       "3 m/s²",
       "-3 m/s²",
-      "2 m/s²",
-      "-2 m/s²"
+      "3.0 m/s²",
+      "-1.5 m/s²"
     ],
     "correctAnswer": 1,
-    "explanation": "u = +10 m/s, v = -2 m/s, t = 4 s.\na = (v - u) / t = (-2 - 10) / 4 = -12 / 4 = -3 m/s².",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Initial velocity u = +10 m/s, final velocity v = -2 m/s, time t = 4 s.\\nAcceleration a = (v - u) / t = (-2 - 10) / 4 = -12 / 4 = -3 m/s\\u00b2."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-27",
@@ -501,7 +421,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "A body starts from rest from the origin with an acceleration of 6 m/s² along the x-axis and 8 m/s² along the y-axis. Its distance from the origin after 4 seconds will be",
+    "questionText": "A body starts from rest at the origin with acceleration 6 m/s\\u00b2 along x-axis and 8 m/s\\u00b2 along y-axis. Its distance from origin after 4 s is",
     "options": [
       "56 m",
       "64 m",
@@ -509,10 +429,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "128 m"
     ],
     "correctAnswer": 2,
-    "explanation": "x = (1/2) a_x t² = (1/2)(6)(4²) = 48 m.\ny = (1/2) a_y t² = (1/2)(8)(4²) = 64 m.\nDistance r = √(x² + y²) = √(48² + 64²) = √(2304 + 4096) = √6400 = 80 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "x = (1/2) a_x t\\u00b2 = 0.5(6)(16) = 48 m.\\ny = (1/2) a_y t\\u00b2 = 0.5(8)(16) = 64 m.\\nNet distance r = \\u221a(48\\u00b2 + 64\\u00b2) = \\u221a(2304 + 4096) = \\u221a6400 = 80 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-28",
@@ -520,18 +437,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A car moving with a velocity of 10 m/s can be stopped by the application of a constant force F in a distance of 20 m. If the velocity of the car is 30 m/s, it can be stopped by this force in",
+    "questionText": "A car moving at 10 m/s can be stopped by force F in 20 m. If the velocity is 30 m/s, it can be stopped by the same force in",
     "options": [
-      "20√3 m",
+      "20 m",
+      "40 m",
       "60 m",
-      "120 m",
       "180 m"
     ],
     "correctAnswer": 3,
-    "explanation": "Stopping distance s = u² / (2a) => s ∝ u².\ns₂ / s₁ = (u₂ / u₁)² = (30 / 10)² = 9 => s₂ = 9 × 20 = 180 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Stopping distance s \\u221d u\\u00b2.\\ns\\u2082 / s\\u2081 = (u\\u2082 / u\\u2081)\\u00b2 = (30 / 10)\\u00b2 = 9 \\u21d2 s\\u2082 = 9 \\u00d7 20 m = 180 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-29",
@@ -539,18 +453,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "The displacement of a particle is given by y = a + bt + ct² - dt⁴. The initial velocity and initial acceleration are respectively [MP PMT]",
+    "questionText": "The displacement of a particle is given by x = 4 - 2t + 3t\\u00b2. The initial velocity and acceleration are respectively",
     "options": [
-      "b, 2c",
-      "-b, 2c",
-      "b, -4d",
-      "2c, -4d"
+      "-2 m/s and 6 m/s²",
+      "2 m/s and 6 m/s²",
+      "4 m/s and -2 m/s²",
+      "-2 m/s and 3 m/s²"
     ],
     "correctAnswer": 0,
-    "explanation": "Velocity v = dy/dt = b + 2ct - 4dt³ => at t = 0, v₀ = b.\nAcceleration a = dv/dt = 2c - 12dt² => at t = 0, a₀ = 2c.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = dx/dt = -2 + 6t \\u21d2 Initial velocity u = v(0) = -2 m/s.\\nAcceleration a = dv/dt = 6 m/s\\u00b2."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-30",
@@ -558,7 +469,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A car moving with a speed of 40 km/h can be stopped by applying brakes after at least 2 m. If the same car is moving with a speed of 80 km/h, what is the minimum stopping distance?",
+    "questionText": "A car moving at 40 km/h is stopped by brakes in 2 m. If the same car moves at 80 km/h, the minimum stopping distance is",
     "options": [
       "8 m",
       "2 m",
@@ -566,37 +477,31 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "6 m"
     ],
     "correctAnswer": 0,
-    "explanation": "Stopping distance s ∝ v².\nWhen speed doubles (40 km/h -> 80 km/h), stopping distance increases by 2² = 4 times:\ns' = 4 × 2 m = 8 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Stopping distance s \\u221d v\\u00b2.\\ns\\u2082 / s\\u2081 = (80 / 40)\\u00b2 = 4 \\u21d2 s\\u2082 = 4 \\u00d7 2 m = 8 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-31",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "An elevator car, whose floor-to-ceiling height is 2.7 m, starts ascending with a constant acceleration of 1.2 m/s². Two seconds after the start, a bolt begins falling from the ceiling of the car. The free fall time of the bolt relative to the elevator is (take g = 9.8 m/s²)",
+    "difficulty": "Medium",
+    "questionText": "An elevator car of height 2.7 m ascends with constant acceleration 1.2 m/s\\u00b2. A bolt falls from the ceiling. The free fall time is (g = 9.8 m/s\\u00b2)",
     "options": [
       "0.54 s",
       "6 s",
       "0.7 s",
-      "1.0 s"
+      "1 s"
     ],
     "correctAnswer": 2,
-    "explanation": "Relative acceleration of the bolt w.r.t the elevator is a_rel = g + a = 9.8 + 1.2 = 11.0 m/s².\nInitial relative velocity u_rel = 0.\nh = (1/2) a_rel t² => 2.7 = (1/2)(11.0) t² => t² = 5.4 / 11.0 ≈ 0.4909 => t = √0.4909 ≈ 0.7 s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Relative acceleration a_rel = g + a = 9.8 + 1.2 = 11.0 m/s\\u00b2.\\ns_rel = (1/2) a_rel t\\u00b2 \\u21d2 2.7 = 0.5(11) t\\u00b2 \\u21d2 t\\u00b2 = 5.4 / 11 \\u2248 0.4909 \\u21d2 t = 0.7 s."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-32",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Medium",
-    "questionText": "The displacement of a particle is given by s = 2t² + 3t + 4 (in metres). The acceleration of the particle is [EAMCET (Engg.) 1995]",
+    "difficulty": "Easy",
+    "questionText": "The displacement of a body is given by s = 2t\\u00b2 + 5t + 3. The acceleration is [EAMCET 1995]",
     "options": [
       "4 m/s²",
       "8 m/s²",
@@ -604,29 +509,23 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "15 m/s²"
     ],
     "correctAnswer": 0,
-    "explanation": "Velocity v = ds/dt = d/dt(2t² + 3t + 4) = 4t + 3.\nAcceleration a = dv/dt = d/dt(4t + 3) = 4 m/s².",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = ds/dt = 4t + 5.\\nAcceleration a = dv/dt = 4 m/s\\u00b2."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-33",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "Two trains travelling on the same track are approaching each other with equal speeds of 40 m/s. The drivers of the trains begin to decelerate simultaneously when they are just 2.0 km apart. Assuming the decelerations to be uniform and equal, the value of the deceleration to barely avoid collision should be",
+    "difficulty": "Medium",
+    "questionText": "Two trains on the same track approach each other at 40 m/s each. Drivers decelerate simultaneously when 2.0 km (2000 m) apart. The minimum deceleration to barely avoid collision is",
     "options": [
       "1.8 m/s²",
       "1.0 m/s²",
-      "2.1 m/s²",
+      "1.2 m/s²",
       "0.8 m/s²"
     ],
     "correctAnswer": 3,
-    "explanation": "To avoid collision, each train must stop within half the separation distance, s = 2000 m / 2 = 1000 m.\nUsing v² - u² = 2(-a)s => 0 - 40² = -2a(1000) => 1600 = 2000a => a = 1600 / 2000 = 0.8 m/s².",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Each train travels distance s = 2000 / 2 = 1000 m before stopping.\\nv\\u00b2 - u\\u00b2 = 2(-a)s \\u21d2 0 - 40\\u00b2 = -2a(1000) \\u21d2 1600 = 2000a \\u21d2 a = 0.8 m/s\\u00b2."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-34",
@@ -634,7 +533,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "A body moves from rest with a constant acceleration of 0.5 m/s². Its instantaneous speed (in m/s) at the end of 10 s is",
+    "questionText": "A body moves from rest with constant acceleration 0.5 m/s\\u00b2. Its instantaneous speed at the end of 10 s is",
     "options": [
       "50 m/s",
       "5 m/s",
@@ -642,10 +541,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "0.5 m/s"
     ],
     "correctAnswer": 1,
-    "explanation": "v = u + at = 0 + (0.5)(10) = 5 m/s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = u + at = 0 + (0.5)(10) = 5 m/s."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-35",
@@ -653,7 +549,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "A bogie of a uniformly moving train is suddenly detached from the train and stops after covering some distance under constant retardation. The distance covered by the detached bogie and the distance covered by the train in the same time interval have the relation:",
+    "questionText": "A bogie of a uniformly moving train is suddenly detached and stops under constant friction. The distance covered by the bogie compared to the train in that time is",
     "options": [
       "Both will be equal",
       "First will be half of second",
@@ -661,18 +557,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "No definite ratio"
     ],
     "correctAnswer": 1,
-    "explanation": "Let uniform velocity of train be v. Bogie stops under constant retardation in time t = v/a.\nDistance covered by detached bogie s₁ = v² / (2a) = vt / 2.\nDistance covered by uniformly moving train s₂ = vt.\nTherefore s₁ = s₂ / 2 (First is half of second).",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Train distance s_train = v\\u00b7t.\\nBogie distance under uniform deceleration to rest s_bogie = (v/2)\\u00b7t = (1/2) s_train."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-36",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Medium",
-    "questionText": "A body starts from rest. What is the ratio of the distance travelled by the body during the 4th and 3rd second?",
+    "difficulty": "Easy",
+    "questionText": "A body starts from rest. What is the ratio of the distance travelled during the 4th and 3rd second?",
     "options": [
       "5/7",
       "7/5",
@@ -680,10 +573,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "7/3"
     ],
     "correctAnswer": 1,
-    "explanation": "Distance in nth second: S_n = u + (a/2)(2n - 1) = (a/2)(2n - 1) (since u = 0).\nFor n = 4: S₄ = (a/2)(2(4) - 1) = 7a/2.\nFor n = 3: S₃ = (a/2)(2(3) - 1) = 5a/2.\nRatio S₄ / S₃ = (7a/2) / (5a/2) = 7/5.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "s_n = (a/2)(2n - 1).\\ns\\u2084 / s\\u2083 = [2(4) - 1] / [2(3) - 1] = 7 / 5."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-37",
@@ -691,7 +581,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "The acceleration 'a' (in m/s²) of a particle is given by a = 3t² + 4, where t is the time in seconds. If the particle starts out with a velocity u = 2 m/s at t = 0, then the velocity at the end of 2 seconds is",
+    "questionText": "The acceleration of a particle is a = 3t\\u00b2 + 4 (in m/s\\u00b2). If u = 2 m/s at t = 0, the velocity at t = 2 s is",
     "options": [
       "12 m/s",
       "18 m/s",
@@ -699,18 +589,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "36 m/s"
     ],
     "correctAnswer": 1,
-    "explanation": "v(t) = u + ∫ a dt = 2 + ∫₀² (3t² + 4) dt = 2 + [t³ + 4t]₀² = 2 + (8 + 8) = 18 m/s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = u + \\u222b\\u2080\\u00b2 (3t\\u00b2 + 4) dt = 2 + [t\\u00b3 + 4t]\\u2080\\u00b2 = 2 + (8 + 8) = 18 m/s."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-38",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "A particle moves along a straight line such that its displacement at any time t is given by s = t³ - 6t² + 3t + 4 (in metres). The velocity when the acceleration is zero is",
+    "difficulty": "Medium",
+    "questionText": "A particle moves along a straight line with displacement s = t\\u00b3 - 6t\\u00b2 + 3t + 4. The velocity when acceleration is zero is",
     "options": [
       "3 m/s",
       "-12 m/s",
@@ -718,10 +605,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "-9 m/s"
     ],
     "correctAnswer": 3,
-    "explanation": "v = ds/dt = 3t² - 12t + 3\na = dv/dt = 6t - 12\nAcceleration is zero when 6t - 12 = 0 => t = 2 s.\nVelocity at t = 2 s: v(2) = 3(2)² - 12(2) + 3 = 12 - 24 + 3 = -9 m/s.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = ds/dt = 3t\\u00b2 - 12t + 3\\na = dv/dt = 6t - 12\\na = 0 \\u21d2 6t = 12 \\u21d2 t = 2 s.\\nv(2) = 3(4) - 12(2) + 3 = 12 - 24 + 3 = -9 m/s."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-39",
@@ -733,14 +617,11 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "options": [
       "If the body is not moving, acceleration is necessarily zero",
       "If the body is slowing, retardation is negative",
-      "Total distance travelled can never decrease with time",
-      "If displacement, velocity and acceleration at that instant are known, future displacement is determined without equation of motion"
+      "If the body is slowing, distance is negative",
+      "If displacement, velocity and acceleration equations are known, future displacement can be determined"
     ],
-    "correctAnswer": 2,
-    "explanation": "Distance is the total length of path covered and cannot decrease with time (ds/dt ≥ 0), making statement C unconditionally correct.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 3,
+    "explanation": "Kinematic state equations allow exact determination of future trajectory and displacement when velocity and acceleration functions are known."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-40",
@@ -748,7 +629,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "The x and y coordinates of a particle at any time t are given by x = 2t and y = 5t, where x and y are in metres and t is in seconds. The acceleration of the particle at t = 5 s is",
+    "questionText": "Coordinates of a particle are given by x = 2t and y = 5t. The acceleration of the particle at t = 5 s is",
     "options": [
       "Zero",
       "8 m/s²",
@@ -756,10 +637,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "40 m/s²"
     ],
     "correctAnswer": 0,
-    "explanation": "v_x = dx/dt = 2 => a_x = d²x/dt² = 0.\nv_y = dy/dt = 5 => a_y = d²y/dt² = 0.\nNet acceleration a = √(a_x² + a_y²) = 0.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v_x = dx/dt = 2 \\u21d2 a_x = 0; v_y = dy/dt = 5 \\u21d2 a_y = 0.\\nTotal acceleration a = \\u221a(0\\u00b2 + 0\\u00b2) = 0 m/s\\u00b2 (Zero)."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-41",
@@ -767,7 +645,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Easy",
-    "questionText": "The engine of a car produces an acceleration of 4 m/s² in the car. If this car pulls another car of the same mass, what will be the acceleration produced by the same engine force?",
+    "questionText": "A car engine produces acceleration 4 m/s\\u00b2. If this car pulls another car of identical mass, the acceleration produced is",
     "options": [
       "2 m/s²",
       "8 m/s²",
@@ -775,10 +653,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "1 m/s²"
     ],
     "correctAnswer": 0,
-    "explanation": "F = m × a = m × 4 = 4m.\nWhen pulling another car of equal mass, total mass = 2m.\nNew acceleration a' = F / (2m) = 4m / (2m) = 2 m/s².",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "Engine force F = m(4) = 4m.\\nWhen pulling identical mass, total mass M = 2m.\\nNew acceleration a"
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-42",
@@ -786,7 +661,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "If a body starts from rest and travels 120 cm (1.2 m) in the 6th second, then its acceleration is",
+    "questionText": "A body starts from rest and travels 120 cm (1.20 m) in the 6th second. Its acceleration is",
     "options": [
       "0.20 m/s²",
       "0.027 m/s²",
@@ -794,18 +669,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "0.03 m/s²"
     ],
     "correctAnswer": 2,
-    "explanation": "S_n = u + (a/2)(2n - 1)\n1.20 = 0 + (a/2)(2(6) - 1) = (11/2) a\na = 2.40 / 11 ≈ 0.218 m/s².",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "s_n = u + (a/2)(2n - 1) \\u21d2 1.20 = 0 + (a/2)(2(6) - 1) = 11a / 2 \\u21d2 a = 2.40 / 11 \\u2248 0.218 m/s\\u00b2."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-43",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Medium",
-    "questionText": "If a car at rest accelerates uniformly to a speed of 144 km/h in 20 s, then the total distance it covers in this time is",
+    "difficulty": "Easy",
+    "questionText": "A car at rest accelerates uniformly to 144 km/h in 20 s. It covers a distance of",
     "options": [
       "20 m",
       "400 m",
@@ -813,18 +685,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "2880 m"
     ],
     "correctAnswer": 1,
-    "explanation": "v = 144 km/h = 144 × (5/18) = 40 m/s.\nu = 0, t = 20 s.\na = (v - u) / t = 40 / 20 = 2 m/s².\ns = ut + (1/2)at² = 0 + (1/2)(2)(20²) = 400 m.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = 144 \\u00d7 (5/18) = 40 m/s.\\nAverage velocity v_avg = (0 + 40) / 2 = 20 m/s.\\nDistance s = v_avg \\u00d7 t = 20 \\u00d7 20 = 400 m."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-44",
     "subject": "Physics",
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
-    "difficulty": "Hard",
-    "questionText": "The position x of a particle varies with time t as x = at² - bt³. The acceleration of the particle will be zero at time t equal to",
+    "difficulty": "Easy",
+    "questionText": "Position x varies with time as x = at\\u00b2 - bt\\u00b3. The acceleration will be zero at time t equal to",
     "options": [
       "a / b",
       "2a / (3b)",
@@ -832,10 +701,7 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
       "Zero"
     ],
     "correctAnswer": 2,
-    "explanation": "v = dx/dt = 2at - 3bt²\na_acc = dv/dt = 2a - 6bt\nAcceleration is zero when 2a - 6bt = 0 => t = 2a / (6b) = a / (3b).",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "explanation": "v = dx/dt = 2at - 3bt\\u00b2.\\na = dv/dt = 2a - 6bt.\\na = 0 \\u21d2 6bt = 2a \\u21d2 t = 2a / (6b) = a / (3b)."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-45",
@@ -843,18 +709,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "A truck and a car are moving with equal velocity. On applying the same braking force to both, which vehicle will cover less distance before coming to rest?",
+    "questionText": "A truck and a car are moving with equal velocity. On applying brakes with identical coefficient of friction, both will stop after",
     "options": [
-      "Truck will cover less distance",
-      "Car will cover less distance",
-      "Both will cover equal distance",
-      "Cannot be determined"
+      "Truck covers less distance",
+      "Car covers less distance",
+      "Both cover equal distance",
+      "Depends on vehicle weight"
     ],
-    "correctAnswer": 1,
-    "explanation": "Stopping distance s = mv² / (2F).\nSince velocities v and braking forces F are equal, stopping distance is directly proportional to mass (s ∝ m).\nSince mass of car < mass of truck, the car will cover less distance before stopping.",
-    "tags": [
-      "Motion in One Dimension"
-    ]
+    "correctAnswer": 2,
+    "explanation": "Stopping distance s = v\\u00b2 / (2\\u03bcg). Since initial velocity v and friction coefficient \\u03bc are identical, stopping distance is independent of mass, so both cover equal distance."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-46",
@@ -878,15 +741,15 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Motion in One Dimension",
     "topic": "Motion in One Dimension",
     "difficulty": "Medium",
-    "questionText": "The displacement of a particle starting from rest (at t = 0) is given by s = 6t² - t³. The time at which the particle will attain zero velocity again is",
+    "questionText": "The displacement of a particle starting from rest (at t = 0) is given by [UNCLEAR: displacement function missing from OCR]. The time at which the particle will attain zero velocity again, is",
     "options": [
-      "2 s",
-      "4 s",
-      "6 s",
-      "8 s"
+      "2",
+      "4",
+      "6",
+      "8"
     ],
     "correctAnswer": 1,
-    "explanation": "v = ds/dt = 12t - 3t² = 3t(4 - t). Setting v = 0 gives t = 0 and t = 4 s."
+    "explanation": "Detailed solution for Motion in One Dimension Q47."
   },
   {
     "id": "motion in one dimension-motion-in-one-dimension-48",
@@ -1512,4 +1375,4 @@ export const MOTION_BOOK_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Detailed solution for Motion in One Dimension Q73."
   }
-];
+]

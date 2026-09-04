@@ -1,0 +1,357 @@
+
+=== PAGE 1 ===
+NEET/JEE
+CBT
+NEET & JEE PREPARATION PLATFORM
+Official Computer Based Test (CBT) Practice & Assessment
+Series
+Generated: 04 Sept 2026
+Standard: NTA NEET-UG / JEE
+Main
+Physics Chapter 03: Motion in a Straight Line (1D Kinematics) (45 Qs)
+Syllabus: Physics Chapter 03: Motion in a Straight Line (1D Kinematics) (Numerical & Conceptual 45 Qs)
+Total Questions: 45
+Qs
+Duration: 15
+Minutes
+Max Marks: 180
+Marks
+Marking Scheme: +4
+for correct, -1 for
+incorrect
+SECTION 1: OBJECTIVE MULTIPLE CHOICE QUESTIONS (45 Questions)
+Q1. A body moves 6 m north, 8 m east and 10 m vertically upwards. What is its resultant displacement
+from the initial position?
+(a) 10 √ 2 m (b) 10 m
+(c) 10 √ 2 m (d) 10 √ 2 m
+Correct Answer: (a) • Average velocity 032 0 Tim e ntdisplacem eTotal =+==
+Q2. A man goes 10 m towards North, then 20 m towards east then displacement is
+(a) 22.5m (b) 25m
+(c) 25.5m (d) 30m
+Correct Answer: (a) • Average velocity = takenTim e ntdisplacem eTotal 15/75 25= =5m/s
+Q3. A person moves 30 m north, then 20 m towards east, and finally 30 √ 2 m south-west. The
+displacement of the person from the origin will be [J & K CET 2004]
+(a) 10 m along north (b) 10 m along south
+(c) 10 m along west (d) Zero
+Correct Answer: (c) • v x v x v x xv av 3 3/ 2 3/3/takenTim e distanceTotal ++ == v 11 18=
+
+=== PAGE 2 ===
+Q4. An aeroplane flies 400 m north and 300 m south and then flies [UNCLEAR: question text is cut off
+mid-sentence]
+(a) 1200 m (b) 1300 m
+(c) 1400 m (d) 1500 m
+Correct Answer: (a) • 313221 321 321 3 3/3/3/ vvvvvv vvv v x v x v x xv av ++= ++ = (SET -2)
+Q5. An athlete completes one round of a circular track of radius R in 40 sec. What will be his
+displacement at the end of 2 min. 20 sec
+(a) Zero (b) 2R
+(c) R π 2 (d) R π 7
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q5.
+Q6. A wheel of radius 1 meter rolls forward half a revolution on a horizontal ground. The magnitude of
+the displacement of the point of the wheel initially in contact with the ground is
+(a) sqrt( π ² + 4) (b) sqrt( π ² + 4)
+(c) sqrt(4 + π ²) (d) π
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q6.
+Q7. A car moves for half of its time at 80 km/h and for rest half of time at 40 km/h. Total distance
+covered is 60 km. What is the average speed of the car
+(a) 60 hkm / (b) 80 hkm /
+(c) 120 hkm / (d) 180 hkm /
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q7.
+Q8. A train has a speed of 60 km/h. for the first one hour and 40 km/h for the next half hour. Its
+average speed in km/h is
+(a) 50 (b) 53.33
+(c) 48 (d) 70
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q8.
+
+=== PAGE 3 ===
+Q9. Which of the following is a one dimensional motion
+(a) Landing of an aircraft (b) Earth revolving a round the sun
+(c) Motion of wheels of a moving trains (d) Train running on a straight track
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q9.
+Q10. A 150 m long train is moving with a uniform velocity of 45 km/h. The time taken by the train to
+cross a bridge of length 850 meters is
+(a) 56 sec (b) 68 sec
+(c) 80 sec (d) 92 sec
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q10.
+Q11. A particle is constrained to move on a straigh t line path. It returns to the starting point after 10
+sec. The total distance covered by the particle during this time is 30 m. Which of the following
+statements about the motion of the particle is false
+(a) Displacement of the particle is zero (b) Average speed of the particle is 3 m/s
+(c) Displacement of the particle is 30 m (d) Both (a) and (b)
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q11.
+Q12. A man walks on a straight road from his home to a market 2.5 km away with a speed of 5 km/h.
+Finding the market closed, he instantly turns and walks back home w ith a speed of 7.5 km/h. The
+average speed of the man over the interval of time 0 to 40 min. is equal to [AMU (Med.) 2002]
+(a) 5 km/h (b) 4 25 km/h
+(c) 4 30 km/h (d) 8 45 km/h
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q13.
+Q13. The ratio of the numerical values of the average velocity and average speed of a body is always
+(a) Unity (b) Unity or less
+(c) Unity or more (d) Less than unity
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q14.
+
+=== PAGE 4 ===
+Q14. A person travels along a straight road for the first half time with a velocity v_1 and the next half
+time with a velocity v_2 . The mean velocity V of the man is
+(a) 21 112 vvV += (b) 2 21 vvV +=
+(c) 21vvV = (d) 2 1 v vV =
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q15.
+Q15. If a car covers 2/5 th of the total distance with v th distance with v 2 then average speed is
+(a) 21 2 1 vv (b) 2 21 vv +
+(c) 21 212 vv vv + (d) 21 21 23 5 vv vv +
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q16.
+Q16. Which of the following options is correct for the object having a straight line motion represented
+by the following graph?
+(a) The object moves with constantly increasing
+velocity from O to A and then it moves with constant
+velocity.
+(b) Velocity of the object increases uniformly
+(c) Average velocity is zero (d) The graph shown is impossible
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q17.
+Q17. The numerical ratio of displacement to the distance covered is always
+(a) Less than one (b) Equal to one
+(c) Equal to or less than one (d) Equal to or greater than one
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q18.
+Q18. A 100 m long train is moving with a uniform velocity of 45 km/hr. The time taken by the train to
+cross a bridge of length 1 km is
+(a) 58 s (b) 68 s
+(c) 78 s (d) 88 s
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q19.
+
+=== PAGE 5 ===
+Q19. A particle moves for 20 seconds with velocity 3 m/s and then velocity 4 m/s for another 20
+seconds and finally moves with velocity 5 m/s for next 20 seconds. What is the average velocity of the
+particle
+(a) 3 m/s (b) 4 m/s
+(c) 5 m/s (d) Zero
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q20.
+Q20. The correct statement from the following is
+(a) A body having zero velocity will not necessarily
+have zero acceleration
+(b) A body having zero velocity will necessarily
+have zero acceleration
+(c) A body having uniform speed can have only
+uniform acceleration
+(d) A body having non-uniform velocity will have
+zero acceleration
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q21.
+Q21. A bullet fired into a fixed target loses half of its velocity after penetrating 3 cm. How much
+further it will penetrate before coming to rest assuming that it faces constant resistance to motion?
+(a) 1.5 cm (b) 1.0 cm
+(c) 3.0 cm (d) 2.0 cm
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q22.
+Q22. Two boys are standing at the ends A and B of a ground where aAB= . The boy at B starts running
+in a direction perpendicular to AB with velocity v_1 The boy at A starts running simultaneously with
+velocity v and catches the other boy in a time t, where t is
+(a) 2 1 2/ vva + (b) )/( 2 1 22 vva -
+(c) )/( 1vva - (d) )/( 1vva +
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q23.
+
+=== PAGE 6 ===
+Q23. A car travels half the distance with constant velocity of 40 kmph and the remaining half with a
+constant velocity of 60 kmph. The average velocity of the car in kmph is
+(a) 40 (b) 45
+(c) 48 (d) 50 Non-uniform Motion
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q24.
+Q24. The acceleration of a moving body can be found from
+(a) Area under velocity-time graph (b) Area under distance-time graph
+(c) Slope of the velocity-time graph (d) Slope of distance-time graph
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q12.
+Q25. Two cars A and B are travelling in the same direction with velocities v_1 and v_2 (v_1 > v_2) . When
+the car A is at a distance d ahead of the car B , the driver of the car A applied the brake producing a
+uniform retardation a There will be no collision when [Pb. PET 2004]
+(a) d < (v_1 - v_2)² / 2a (b) d < (v_1² - v_2²) / 2a
+(c) d > (v_1 - v_2)² / 2a (d) d > (v_1² - v_2²) / 2a
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q25.
+Q26. A body of mass 10 kg is moving with a constant velocity of 10 m/s. When a constant force acts
+for 4 seconds on it, it moves with a velocity 2 m/s in the opposite direction. The acceleration produced
+in it is
+(a) 3 m/s² (b) -3 m/s²
+(c) 3.0 m/s² (d) -3.0 m/s²
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q26.
+
+=== PAGE 7 ===
+Q27. A body starts from rest from the origin with an acceleration of 2/6 sm along the x-axis and 2/8
+sm along the y-axis. Its distance from the origin after 4 seconds will be
+(a) 56 m (b) 64 m
+(c) 80 m (d) 128 m
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q27.
+Q28. A car moving with a velocity of 10 m/s can be stopped by the application of a constant force F in
+a distance of 20 m. If the velocity of the car is 30 m/s, it can be stopped by this force in
+(a) m3 20 (b) 20 m
+(c) 60 m (d) 180 m
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q28.
+Q29. The displacement of a particle is given by [UNCLEAR: displacement equation missing]. The
+initial velocity and acceleration are respectively
+(a) [UNCLEAR: original fragment 'db 4,-'] (b) [UNCLEAR: original fragment 'cb 2,-']
+(c) [UNCLEAR: original fragment 'cb 2,'] (d) [UNCLEAR: original fragment 'dc 4,2 -']
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q29.
+Q30. A car moving with a speed of 40 km/h can be stopped by applying brakes after atleast 2 m. If the
+same car is moving with a speed of
+(a) 8 m (b) 2 m
+(c) 4 m (d) 6 m
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q30.
+
+=== PAGE 8 ===
+Q31. An elevator car, whose floor to ceiling distance is equal to 2.7 m, starts ascending with constant
+acceleration of 1.2 ms –2 . 2 sec after the start, a bolt begins fallings from the ceiling of the car. The
+free fall time of the bolt is
+(a) s54.0 (b) s6
+(c) 0.7 s (d) 1 s
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q31.
+Q32. The displacement is given by s = t² + ... [UNCLEAR: full displacement equation not recoverable
+from raw OCR 'st 2= is']. Find the acceleration. [EAMCET (Engg.) 1995]
+(a) [UNCLEAR: 2/4 sm] (b) [UNCLEAR: 2/8 sm]
+(c) [UNCLEAR: 2/10 sm] (d) [UNCLEAR: 2/15 sm]
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q32.
+Q33. Two trains travelling on the same track are approaching each other with equal sp eeds of 40
+m/s. The drivers of the trains begin to decelerate simultaneously when they are just 2.0 km apart.
+Assuming the decelerations to be uniform and equal, the value of the deceleration to barely avoid
+collision should be
+(a) 11.8 2/ sm (b) 11.0 2/ sm
+(c) 2.1 2/ sm (d) 0.8 2/ sm
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q33.
+Q34. A body moves from rest with a constant acceleration of 0.5 m/s². Its instantaneous speed (in
+m/s) at the end of 10 s is
+(a) 50 (b) 5
+(c) 2 (d) 0.5
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q34.
+
+=== PAGE 9 ===
+Q35. A boggy of uniformly moving train is suddenly detached from train and stops after covering
+some distance. The distance covered by the boggy and distance covered by the train in the same time
+has relation
+(a) Both will be equal (b) First will be half of second
+(c) First will be 1/4 of second (d) No definite ratio
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q35.
+Q36. A body starts from rest. What is the ratio of the distance travelled by the body during the 4th and
+3rd second
+(a) 5 7 (b) 7 5
+(c) 3 7 (d) 7 3
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q36.
+Q37. The acceleration 'a' (in m/s²) of a particle is given by a = 3t² + 4, where t is the time. If the
+particle starts out with a velocity u = 2 m/s at t = 0, then the velocity at the end of 2 seconds is
+(a) 12 m/s (b) 18 m/s
+(c) 27 m/s (d) 36 m/s
+Correct Answer: (b) • Detailed solution for Motion in One Dimension Q37.
+Q38. A particle moves along a straight line such that its displacement at any time t is given by s = t³ -
+6t² + 3t + 4 (in metres). The velocity when the acceleration is zero is
+(a) 3 m/s (b) -12 m/s
+(c) 42 m/s (d) -9 m/s
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q38.
+
+=== PAGE 10 ===
+Q39. For a moving body at any instant of time
+(a) If the body is not moving, the acceleration is
+necessarily zero
+(b) If the body is slowing, the retardation is
+negative
+(c) If the body is slowing, the distance is negative (d) If displacement, velocity and acceleration at
+that instant are known, we can find the
+displacement at any given time in future
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q39.
+Q40. The x and y coordinates of a particle at any time t are given by x = 2t and y = 5t, where x and y
+are in metres and t is in seconds. The acceleration of the particle at t = 5 s is
+(a) Zero (b) 8 m/s²
+(c) 20 m/s² (d) 40 m/s²
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q40.
+Q41. The engine of a car produces acceleration 4 m/s² in the car. If this car pulls another car of the
+same mass, what will be the acceleration produced?
+(a) 2 m/s² (b) 8 m/s²
+(c) 4 m/s² (d) 1 m/s²
+Correct Answer: (a) • Detailed solution for Motion in One Dimension Q41.
+Q42. If a body starts from rest and travels 120 cm in the 6 th second, then what is the acceleration
+(a) 0.20 2/ sm (b) 0.027 2/ sm
+(c) 0.218 2/ sm (d) 0.03 2/ sm
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q42.
+Q43. If a car at rest accelerates uniformly to a speed of 144 km/h in 20 s. Then it covers a distance of
+(a) 20 m (b) 400 m
+(c) 1440 m (d) 2880 m
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q43.
+
+=== PAGE 11 ===
+Q44. The position x of a particle varies with time t as x = at² - bt³. The acceleration of the particle will
+be zero at time t equal to
+(a) a / b (b) 2a / (3b)
+(c) a / (3b) (d) Zero
+Correct Answer: (c) • Detailed solution for Motion in One Dimension Q44.
+Q45. A truck and a car are moving with equal velocity. On applying the brakes both will stop after
+certain distance, then
+(a) Truck will cover less distance before rest (b) Car will cover less distance before rest
+(c) Both will cover equal distance (d) None
+Correct Answer: (d) • Detailed solution for Motion in One Dimension Q45.
+
+=== PAGE 12 ===
+📊  OFFICIAL ANSWER KEY MATRIX
+Q1: (a) Q2: (a) Q3: (c) Q4: (a) Q5: (b) Q6: (a) Q7: (b) Q8: (c) Q9: (d) Q10:
+(a)
+Q11:
+(d)
+Q12:
+(d)
+Q13:
+(d)
+Q14:
+(a)
+Q15:
+(c)
+Q16:
+(d)
+Q17:
+(a)
+Q18:
+(d)
+Q19:
+(a)
+Q20:
+(c)
+Q21:
+(a)
+Q22:
+(c)
+Q23:
+(a)
+Q24:
+(a)
+Q25:
+(a)
+Q26:
+(b)
+Q27:
+(b)
+Q28:
+(a)
+Q29:
+(a)
+Q30:
+(a)
+Q31:
+(c)
+Q32:
+(a)
+Q33:
+(d)
+Q34:
+(b)
+Q35:
+(b)
+Q36:
+(b)
+Q37:
+(b)
+Q38:
+(d)
+Q39:
+(c)
+Q40:
+(a)
+Q41:
+(a)
+Q42:
+(c)
+Q43:
+(d)
+Q44:
+(c)
+Q45:
+(d)
+© 2026 NEET/JEE Prep Platform • All Rights Reserved • For Student Study & Offline Practice Only

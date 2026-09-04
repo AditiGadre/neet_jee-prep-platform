@@ -440,7 +440,7 @@ export const ELECTROSTATICS_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "If a force F = 4i + 5j causes a displacement s = 3i + 6k, work done is [Pb. PET 2002]",
-    options: ["64 unit", "36 unit", "12 unit", "[MISSING]"],
+    options: ["64 units", "36 units", "12 units", "0 units"],
     correctAnswer: 2,
     explanation: "Detailed solution for Electrostatics Q36.",
     tags: ["General Practice"]
@@ -728,7 +728,7 @@ export const ELECTROSTATICS_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "The potential energy of a weightless spring compressed by a distance 'a' is proportional to",
-    options: ["a", "2a", "[MISSING]", "[MISSING]"],
+    options: ["a", "a²", "√a", "1/a"],
     correctAnswer: 1,
     explanation: "Detailed solution for Electrostatics Q62.",
     tags: ["General Practice"]

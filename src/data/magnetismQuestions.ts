@@ -7,10 +7,10 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     chapter: "Magnetism",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "In S.I. units: \u03bc\u2080/4\u03c0 = 10\u207b\u2077 Wb/(A\u00b7m). In CGS units: k = 1.\n\n(2) Magnetic field\n\n(i) Magnetic field due to an imaginary magnetic pole (pole strength m):\nB = F/m\u2080, also B = (\u03bc\u2080/4\u03c0) \u00b7 m/d\u00b2\n\n(ii) Magnetic field due to a bar magnet at a distance r from the centre of the magnet:",
-    options: ["On axial position: B_a = (\u03bc\u2080/4\u03c0) \u00b7 (2Mr)/(r\u00b2 - l\u00b2)\u00b2; if l << r, then B_a = (\u03bc\u2080/4\u03c0) \u00b7 (2M/r\u00b3)", "On equatorial position: B_e = (\u03bc\u2080/4\u03c0) \u00b7 M/(r\u00b2 + l\u00b2)^(3/2); if l << r, then B_e = (\u03bc\u2080/4\u03c0) \u00b7 (M/r\u00b3)", "General position: For a short bar magnet, B_g = (\u03bc\u2080/4\u03c0) \u00b7 (M/r\u00b3) \u00b7 sqrt(3cos\u00b2\u03b8 + 1)\n\n(3) Bar magnet in a magnetic field: When a bar magnet is left free in a uniform magnetic field, it aligns itself along the field direction.\n(i) Torque: \u03c4 = M \u00d7 B = MB sin\u03b8\n(ii) Work: W = MB(1 - cos\u03b8)\n(iii) Potential energy: U = -M\u00b7B = -MB cos\u03b8 (\u03b8 = angle made by the dipole with the field)\n\n(4) Gauss's law in magnetism: Net magnetic flux through any closed surface is always zero, i.e., \u222e B\u00b7dS = 0", "[MISSING]"],
+    questionText: "The magnetic field on the axial position of a short bar magnet of magnetic moment M at distance r from its centre is",
+    options: ["(μ₀ / 4π) (2M / r³)", "(μ₀ / 4π) (M / r³)", "(μ₀ / 4π) (3M / r³)", "(μ₀ / 4π) (M / 2r³)"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Magnetism Q21.",
+    explanation: "For a short bar magnet on the axial line (r >> l), B_axial = (μ₀ / 4π) (2M / r³).",
     tags: ["General Practice"]
   },
   {
@@ -488,7 +488,7 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "Magnetic lines of force",
-    options: ["Always intersect", "Are always closed", "Tend to crowd far away from the poles of magnet", "[MISSING]"],
+    options: ["Always intersect", "Are always continuous closed loops", "Tend to crowd far away from poles", "Start from south pole outside magnet"],
     correctAnswer: 1,
     explanation: "Detailed solution for Magnetism Q42.",
     tags: ["General Practice"]
@@ -1771,8 +1771,8 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     chapter: "Magnetism",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "Which of one is correct",
-    options: ["[UNCLEAR: 222 cpE]", "[UNCLEAR: cpE 22]", "[UNCLEAR: 22 pcE]", "[UNCLEAR: 222 / cpE]"],
+    questionText: "Which of the following represents the correct relativistic energy-momentum relation?",
+    options: ["E² = p²c² + m₀²c⁴", "E² = p²c² - m₀²c⁴", "E = pc + m₀c²", "E² = p²c⁴ + m₀²c²"],
     correctAnswer: 0,
     explanation: "Detailed solution for Magnetism Q148.",
     tags: ["General Practice"]
@@ -1867,10 +1867,10 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     chapter: "Magnetism",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "The value of saturation current depends on intensity. It is independent of stopping potential.",
-    options: ["[MISSING]", "The value of saturation current depends on intensity. It is independent of stopping potential.", "[MISSING]", "[MISSING]"],
+    questionText: "In the photoelectric effect, the saturation photocurrent is directly proportional to",
+    options: ["Frequency of incident light", "Intensity of incident light", "Stopping potential", "Work function of cathode"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Magnetism Q152.",
+    explanation: "The saturation photocurrent is directly proportional to the number of incident photons per second, which corresponds to the intensity of incident light.",
     tags: ["General Practice"]
   },
   {
@@ -2107,10 +2107,10 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     chapter: "Magnetism",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "Nuclei having different Z and A but equal (A \u2013 Z) are called:",
-    options: ["Isotones", "[MISSING]", "[MISSING]", "[MISSING]"],
+    questionText: "Nuclei having different atomic number Z and mass number A but equal neutron number (A – Z) are called",
+    options: ["Isotones", "Isotopes", "Isobars", "Isomers"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Magnetism Q175.",
+    explanation: "Nuclides having the same number of neutrons N = A - Z are called isotones.",
     tags: ["General Practice"]
   },
   {
@@ -2119,10 +2119,10 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     chapter: "Magnetism",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "Radioactivity",
-    options: ["[MISSING]", "Radioactivity", "[MISSING]", "[MISSING]"],
-    correctAnswer: 1,
-    explanation: "Detailed solution for Magnetism Q179.",
+    questionText: "Radioactivity is a spontaneous nuclear phenomenon that is unaffected by",
+    options: ["Temperature and pressure", "Nuclear binding energy", "Number of neutrons", "Decay constant"],
+    correctAnswer: 0,
+    explanation: "Radioactive decay is purely a nuclear property and is completely independent of external physical factors like temperature, pressure, or chemical combination.",
     tags: ["General Practice"]
   }
 ];

@@ -212,7 +212,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "Reason of weightlessness in a satellite is",
-    options: ["Zero gravity", "Centre of mass", "Zero reaction force by satellite surface", "[MISSING]"],
+    options: ["Zero gravity", "Zero reaction force by satellite surface", "Centre of mass", "Infinite force"],
     correctAnswer: 2,
     explanation: "Detailed solution for Gravitation Q17.",
     tags: ["General Practice"]
@@ -1172,7 +1172,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     topic: "General Practice",
     difficulty: "Medium",
     questionText: "The length of an elastic string is a metres when the longitudinal tension is 4 N and b metres when the longitudinal tension is 5 N. The length of the string in metres when the longitudinal tension is 9 N is",
-    options: ["b - a", "5b - 4a", "[UNCLEAR: ab 4 12]", "3b - 4a"],
+    options: ["b - a", "5b - 4a", "4b - 3a", "3b - 4a"],
     correctAnswer: 1,
     explanation: "Detailed solution for Gravitation Q98.",
     tags: ["General Practice"]
@@ -1195,10 +1195,10 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     chapter: "Gravitation",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "Which is correct relation",
-    options: ["[MISSING]", "[MISSING]", "[MISSING]", "[MISSING]"],
+    questionText: "Which is the correct relation between escape velocity (v_e) and orbital velocity (v_o) near Earth's surface?",
+    options: ["v_e = √2 v_o", "v_o = √2 v_e", "v_e = 2 v_o", "v_e = v_o / √2"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Gravitation Q100.",
+    explanation: "Escape velocity v_e = √(2GM/R) and orbital velocity v_o = √(GM/R). Therefore v_e = √2 v_o.",
     tags: ["General Practice"]
   },
   {
