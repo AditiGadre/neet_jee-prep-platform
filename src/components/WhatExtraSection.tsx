@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   Sparkles,
   Sliders,
@@ -27,7 +27,8 @@ import {
   Zap,
   Target,
   ArrowRight,
-  Award
+  Award,
+  FileText
 } from 'lucide-react';
 import {
   Flashcard,
@@ -35,11 +36,20 @@ import {
   BookItem,
   PYQItem,
   TestItem,
-  UserTestResult
+  UserTestResult,
+  Question
 } from '../types';
 import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
-import { ALL_BIOLOGY_MASTER_QUESTIONS } from '../data/biologyQuestions';
+import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
+import { VECTORS_BOOK_QUESTIONS } from '../data/vectorsQuestions';
+import { UNITS_BOOK_QUESTIONS } from '../data/unitsQuestions';
+import { MOTION_BOOK_QUESTIONS } from '../data/motionQuestions';
+import { GRAVITATION_BOOK_QUESTIONS } from '../data/gravitationQuestions';
+import { ELECTROSTATICS_BOOK_QUESTIONS } from '../data/electrostaticsQuestions';
+import { MAGNETISM_BOOK_QUESTIONS } from '../data/magnetismQuestions';
+import { THERMODYNAMICS_BOOK_QUESTIONS as PHYSICS_THERMO_QUESTIONS } from '../data/thermodynamicsQuestions';
+import { downloadBookPDF, downloadDppPDF } from '../utils/pdfDownloader';
 
 interface WhatExtraSectionProps {
   activeSubTab: string;
@@ -66,15 +76,16 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 }) => {
   // Custom Test Builder State
   const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology' | 'Mathematics'>('Biology');
-  const [customChapter, setCustomChapter] = useState<string>('Genetics and Evolution');
-  const [customTopic, setCustomTopic] = useState<string>('Molecular Basis of Inheritance');
+  const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
+  const [customTopic, setCustomTopic] = useState<string>('All Topics');
   const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Adaptive'>('Medium');
-  const [customDuration, setCustomDuration] = useState<number>(30);
-  const [customQCount, setCustomQCount] = useState<number>(25);
+  const [customDuration, setCustomDuration] = useState<number>(45);
+  const [customQCount, setCustomQCount] = useState<number>(45);
 
   // Flashcards State
   const [fcSubjectFilter, setFcSubjectFilter] = useState<string>('All');
   const [fcCategoryFilter, setFcCategoryFilter] = useState<string>('All');
+  const [fcSearchQuery, setFcSearchQuery] = useState<string>('');
   const [activeFcIndex, setActiveFcIndex] = useState<number>(0);
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
 
@@ -87,7 +98,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // DPP Generator State
   const [dppDate, setDppDate] = useState<string>(new Date().toISOString().split('T')[0]);
-  const [dppSubject, setDppSubject] = useState<string>('All Subjects');
+  const [dppSubject, setDppSubject] = useState<string>('Biology Only');
   const [dppLevel, setDppLevel] = useState<string>('CBT Standard Level');
   const [generatedDppSuccess, setGeneratedDppSuccess] = useState<boolean>(false);
 
@@ -102,40 +113,83 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Sub-tab definitions
   const subModules = [
-    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders, desc: 'Generate tests by subject, chapter, topic, difficulty & duration.' },
-    { id: 'flash-cards', label: 'Flash Cards', icon: Layers, desc: 'Quick revision cards for formulas, reactions, diagrams & concepts.' },
-    { id: 'mind-maps', label: 'Mind Maps', icon: Network, desc: 'Visual summaries & interactive concept maps.' },
+    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders, desc: 'Generate 45-question tests by subject, chapter, difficulty & proper allotted time.' },
+    { id: 'flash-cards', label: 'Flash Cards', icon: Layers, desc: '30+ high-yield revision cards with formulas, reactions, diagrams & mnemonics.' },
+    { id: 'mind-maps', label: 'Mind Maps', icon: Network, desc: 'Interactive concept visual trees for rapid revision.' },
     { id: 'analytics', label: 'Student Analytics', icon: LineChart, desc: 'Score analysis, accuracy, weak topics & progress graphs.' },
-    { id: 'dpp-generator', label: 'DPP Generator', icon: FileSpreadsheet, desc: 'Personalized daily practice papers generated on demand.' },
-    { id: 'books', label: 'Books & Notes', icon: BookMarked, desc: 'NCERT notes, revision notes, formula books, eBooks & PDFs.' },
-    { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with solutions.' }
+    { id: 'dpp-generator', label: 'DPP Generator', icon: FileSpreadsheet, desc: 'Personalized daily practice papers with instant PDF download.' },
+    { id: 'books', label: 'Books & Notes', icon: BookMarked, desc: 'NCERT highlighters, revision notes, formula books & downloadable PDFs.' },
+    { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with step solutions.' }
   ];
+
+  // Available Chapters by Subject
+  const biologyChapters = useMemo(() => {
+    const chapters = Array.from(new Set(ALL_FINGERTIPS_BIOLOGY_QUESTIONS.map(q => q.chapter))).filter(Boolean);
+    return chapters.length > 0 ? chapters : [
+      'The Living World', 'Biological Classification', 'Plant Kingdom', 'Animal Kingdom',
+      'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Structural Organisation in Animals',
+      'Cell: The Unit of Life', 'Biomolecules', 'Cell Cycle and Cell Division',
+      'Photosynthesis in Higher Plants', 'Respiration in Plants', 'Plant Growth and Development',
+      'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products and their Elimination',
+      'Locomotion and Movement', 'Neural Control and Coordination', 'Chemical Coordination and Integration',
+      'Sexual Reproduction in Flowering Plants', 'Human Reproduction', 'Reproductive Health',
+      'Principles of Inheritance and Variation', 'Molecular Basis of Inheritance', 'Evolution',
+      'Human Health and Disease', 'Microbes in Human Welfare',
+      'Biotechnology: Principles and Processes', 'Biotechnology and its Applications',
+      'Organisms and Populations', 'Ecosystem', 'Biodiversity and Conservation', 'NEET Full Syllabus Mock'
+    ];
+  }, []);
+
+  const chemistryChapters = useMemo(() => {
+    return Array.from(new Set(ALL_CHEMISTRY_MASTER_QUESTIONS.map(q => q.chapter))).filter(Boolean);
+  }, []);
+
+  const physicsChapters = [
+    'Units and Dimensions', 'Vectors', 'Motion in One Dimension',
+    'Gravitation', 'Electrostatics', 'Magnetism', 'Thermodynamics'
+  ];
+
+  const currentChapterList = customSubject === 'Biology'
+    ? biologyChapters
+    : customSubject === 'Chemistry'
+    ? chemistryChapters
+    : physicsChapters;
 
   // Custom Test Launch Handler
   const handleGenerateAndStartCustomTest = () => {
-    let pool = SAMPLE_QUESTIONS;
-    if (customSubject === 'Chemistry') {
-      const filtered = ALL_CHEMISTRY_MASTER_QUESTIONS.filter(q => 
+    let pool: Question[] = [];
+
+    if (customSubject === 'Biology') {
+      const filtered = ALL_FINGERTIPS_BIOLOGY_QUESTIONS.filter(q =>
+        q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
+        customChapter.toLowerCase().includes(q.chapter.toLowerCase())
+      );
+      pool = filtered.length >= customQCount ? filtered : ALL_FINGERTIPS_BIOLOGY_QUESTIONS;
+    } else if (customSubject === 'Chemistry') {
+      const filtered = ALL_CHEMISTRY_MASTER_QUESTIONS.filter(q =>
         q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
         customChapter.toLowerCase().includes(q.chapter.toLowerCase())
       );
       pool = filtered.length >= customQCount ? filtered : ALL_CHEMISTRY_MASTER_QUESTIONS;
-    } else if (customSubject === 'Biology') {
-      const filtered = ALL_BIOLOGY_MASTER_QUESTIONS.filter(q => 
+    } else {
+      const allPhysics = [...VECTORS_BOOK_QUESTIONS, ...UNITS_BOOK_QUESTIONS, ...MOTION_BOOK_QUESTIONS, ...GRAVITATION_BOOK_QUESTIONS, ...ELECTROSTATICS_BOOK_QUESTIONS, ...MAGNETISM_BOOK_QUESTIONS, ...PHYSICS_THERMO_QUESTIONS];
+      const filtered = allPhysics.filter(q =>
         q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
         customChapter.toLowerCase().includes(q.chapter.toLowerCase())
       );
-      pool = filtered.length >= customQCount ? filtered : ALL_BIOLOGY_MASTER_QUESTIONS;
+      pool = filtered.length >= customQCount ? filtered : allPhysics;
     }
 
-    const selectedQuestions = pool.slice(0, customQCount);
+    // Shuffle pool for realistic dynamic test generation
+    const shuffled = [...pool].sort(() => 0.5 - Math.random());
+    const selectedQuestions = shuffled.slice(0, customQCount);
 
     const customTestItem: TestItem = {
       id: `custom-test-${Date.now()}`,
-      title: `Custom Test: ${customSubject} - ${customChapter}`,
+      title: `Custom Test: ${customSubject} - ${customChapter} (${customQCount} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level)`,
+      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level &bull; ${customQCount} Questions)`,
       totalQuestions: selectedQuestions.length > 0 ? selectedQuestions.length : customQCount,
       durationMinutes: customDuration,
       totalMarks: (selectedQuestions.length > 0 ? selectedQuestions.length : customQCount) * 4,
@@ -143,11 +197,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       difficulty: customDifficulty === 'Adaptive' ? 'Mixed' : customDifficulty,
       cbtMode: true,
       features: [
-        `Custom Subject: ${customSubject}`,
+        `Subject: ${customSubject}`,
         `Chapter: ${customChapter}`,
-        `Topic: ${customTopic}`,
+        `Format: ${customQCount} Qs in ${customDuration} Mins`,
         `Difficulty: ${customDifficulty}`,
-        `Duration: ${customDuration} Mins`
+        `100% Verified NCERT Explanations`
       ],
       questions: selectedQuestions.length > 0 ? selectedQuestions : SAMPLE_QUESTIONS
     };
@@ -155,11 +209,31 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     onStartCustomTest(customTestItem);
   };
 
+  // Handle DPP Download
+  const handleDownloadDpp = () => {
+    const dppPool = customSubject === 'Biology'
+      ? ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45)
+      : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(0, 45);
+
+    downloadDppPDF({
+      date: dppDate,
+      subject: dppSubject,
+      level: dppLevel,
+      questions: dppPool
+    });
+    setGeneratedDppSuccess(true);
+    setTimeout(() => setGeneratedDppSuccess(false), 4000);
+  };
+
   // Filtered Flashcards
   const filteredFlashcards = flashcards.filter(fc => {
     const matchesSubject = fcSubjectFilter === 'All' || fc.subject === fcSubjectFilter;
     const matchesCategory = fcCategoryFilter === 'All' || fc.category === fcCategoryFilter;
-    return matchesSubject && matchesCategory;
+    const matchesQuery = !fcSearchQuery || 
+      fc.frontTitle.toLowerCase().includes(fcSearchQuery.toLowerCase()) ||
+      fc.topic.toLowerCase().includes(fcSearchQuery.toLowerCase()) ||
+      fc.frontContent.toLowerCase().includes(fcSearchQuery.toLowerCase());
+    return matchesSubject && matchesCategory && matchesQuery;
   });
 
   const currentFlashcard = filteredFlashcards[activeFcIndex] || filteredFlashcards[0] || flashcards[0];
@@ -187,299 +261,222 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-100 pb-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5">
-              <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Edge Suite
+              <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Edge Suite & Custom Generator
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
               2. What Extra We Offer (7 Precision Tools)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Supercharge your preparation with our proprietary suite of revision, generation, and diagnostic tools designed to maximize retention and accuracy.
+              Custom 45-Question Test Generator connected to the 6,465 NCERT question bank, 30+ interactive Flashcards, deep Mind Maps, and 1-click PDF download engine.
             </p>
           </div>
 
           <div className="flex items-center gap-2 self-start md:self-auto shrink-0 font-mono text-[10px]">
-            <span className="bg-gray-100 text-gray-700 border border-gray-200 px-2 py-1 rounded font-bold">
-              MODULES: 7 ACTIVE
+            <span className="px-2.5 py-1 rounded bg-blue-50 text-blue-700 border border-blue-200 font-bold">
+              6,465 Master Qs
             </span>
           </div>
         </div>
 
-        {/* Sub-module Navigation Pills */}
-        <div className="mt-4 flex items-center space-x-1.5 overflow-x-auto pb-1 custom-scrollbar">
-          {subModules.map(sub => {
-            const Icon = sub.icon;
-            const isActive = activeSubTab === sub.id;
+        {/* Sub-Tab Navigation Bar */}
+        <div className="flex items-center space-x-1 overflow-x-auto pt-3 custom-scrollbar">
+          {subModules.map(tab => {
+            const Icon = tab.icon;
+            const isActive = activeSubTab === tab.id;
             return (
               <button
-                key={sub.id}
-                id={`submodule-tab-${sub.id}`}
-                onClick={() => onSelectSubTab(sub.id)}
-                className={`flex items-center space-x-1.5 px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap transition-colors ${
+                key={tab.id}
+                onClick={() => onSelectSubTab(tab.id)}
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded text-xs font-semibold whitespace-nowrap transition-colors ${
                   isActive
                     ? 'bg-blue-600 text-white shadow-xs'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                 }`}
               >
                 <Icon className="w-3.5 h-3.5" />
-                <span>{sub.label}</span>
+                <span>{tab.label}</span>
               </button>
             );
           })}
         </div>
       </div>
 
-      {/* 1. CUSTOM TEST GENERATOR */}
+      {/* 1. CUSTOM TEST GENERATOR (45 Qs & 45 MINS) */}
       {activeSubTab === 'custom-test' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-5 shadow-xs animate-in fade-in duration-100">
+        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <Sliders className="w-4 h-4 text-blue-600" />
-                <span>Custom Test Generator</span>
+                <span>Custom Chapter-wise CBT Test Generator</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Generate tests by subject, chapter, topic, difficulty and duration on demand.
+                Select any chapter from our 6,465-question database. Default format is strictly 45 Questions in 45 Minutes (180 Marks).
               </p>
             </div>
-            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 self-start sm:self-auto uppercase">
-              Dynamic CBT Synthesizer
+            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 self-start sm:self-auto uppercase">
+              100% NCERT Verified Bank
             </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Builder Controls Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {/* Subject Selector */}
-            <div className="space-y-1.5">
-              <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">
-                1. Select Subject
-              </label>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
-                {(['Physics', 'Chemistry', 'Biology', 'Mathematics'] as const).map(subj => (
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
+              <select
+                value={customSubject}
+                onChange={e => {
+                  const sub = e.target.value as any;
+                  setCustomSubject(sub);
+                  if (sub === 'Biology') setCustomChapter(biologyChapters[0]);
+                  else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
+                  else setCustomChapter(physicsChapters[0]);
+                }}
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
+              >
+                <option value="Biology">🧬 Biology (Class 11 & 12 - 6,465 Qs)</option>
+                <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
+                <option value="Physics">⚡ Physics (Mechanics, Electrodynamics, Modern)</option>
+              </select>
+            </div>
+
+            {/* Chapter Selector */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Available)</label>
+              <select
+                value={customChapter}
+                onChange={e => setCustomChapter(e.target.value)}
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
+              >
+                {currentChapterList.map((ch, idx) => (
+                  <option key={idx} value={ch}>
+                    {idx + 1}. {ch}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Difficulty Level */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standard</label>
+              <select
+                value={customDifficulty}
+                onChange={e => setCustomDifficulty(e.target.value as any)}
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
+              >
+                <option value="Medium">Medium (NTA NEET Standard)</option>
+                <option value="Hard">Hard (AIIMS / Top 100 Ranker Booster)</option>
+                <option value="Easy">Easy (Rapid NCERT Warmup)</option>
+                <option value="Adaptive">Adaptive (AI Dynamic Blend)</option>
+              </select>
+            </div>
+
+            {/* Questions Count Preset */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
+              <div className="grid grid-cols-4 gap-1.5">
+                {[15, 25, 45, 90].map(cnt => (
                   <button
-                    key={subj}
-                    onClick={() => setCustomSubject(subj)}
-                    className={`py-1.5 px-2 rounded text-xs font-semibold transition-colors ${
-                      customSubject === subj
+                    key={cnt}
+                    onClick={() => {
+                      setCustomQCount(cnt);
+                      setCustomDuration(cnt); // 1 min per question standard
+                    }}
+                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors ${
+                      customQCount === cnt
                         ? 'bg-blue-600 text-white shadow-xs'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                     }`}
                   >
-                    {subj}
+                    {cnt} Qs
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Difficulty Selector */}
-            <div className="space-y-1.5">
-              <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">
-                2. Select Difficulty Level
-              </label>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
-                {(['Easy', 'Medium', 'Hard', 'Adaptive'] as const).map(diff => (
+            {/* Duration Preset */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
+              <div className="grid grid-cols-4 gap-1.5">
+                {[15, 30, 45, 60].map(mins => (
                   <button
-                    key={diff}
-                    onClick={() => setCustomDifficulty(diff)}
-                    className={`py-1.5 px-2 rounded text-xs font-semibold transition-colors ${
-                      customDifficulty === diff
-                        ? 'bg-amber-600 text-white shadow-xs'
+                    key={mins}
+                    onClick={() => setCustomDuration(mins)}
+                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors ${
+                      customDuration === mins
+                        ? 'bg-purple-600 text-white shadow-xs'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                     }`}
                   >
-                    {diff}
+                    {mins} Mins
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Chapter Selection */}
-            <div className="space-y-1.5">
-              <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">
-                3. Select Chapter
-              </label>
-              <select
-                value={customChapter}
-                onChange={e => setCustomChapter(e.target.value)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs font-medium text-gray-900 focus:outline-none focus:border-blue-500 focus:bg-white"
-              >
-                {customSubject === 'Biology' && (
-                  <>
-                    <option value="Genetics and Evolution">Genetics and Evolution</option>
-                    <option value="Human Physiology">Human Physiology</option>
-                    <option value="Cell Biology & Biomolecules">Cell Biology & Biomolecules</option>
-                    <option value="Ecology and Environment">Ecology and Environment</option>
-                  </>
-                )}
-                {customSubject === 'Physics' && (
-                  <>
-                    <option value="Electrodynamics & Current">Electrodynamics & Current</option>
-                    <option value="Modern Physics & Atoms">Modern Physics & Atoms</option>
-                    <option value="Mechanics & Laws of Motion">Mechanics & Laws of Motion</option>
-                    <option value="Ray & Wave Optics">Ray & Wave Optics</option>
-                  </>
-                )}
-                {customSubject === 'Chemistry' && (
-                  <>
-                    <option value="Some Basic Concepts of Chemistry">Some Basic Concepts of Chemistry</option>
-                    <option value="Structure of Atom">Structure of Atom</option>
-                    <option value="Classification of Elements and Periodicity in Properties">Classification of Elements and Periodicity</option>
-                    <option value="Chemical Bonding and Molecular Structure">Chemical Bonding and Molecular Structure</option>
-                    <option value="States of Matter">States of Matter</option>
-                    <option value="Thermodynamics">Thermodynamics</option>
-                    <option value="Equilibrium">Equilibrium</option>
-                    <option value="Redox Reactions">Redox Reactions</option>
-                    <option value="Hydrogen">Hydrogen</option>
-                    <option value="The s-Block Elements">The s-Block Elements</option>
-                    <option value="The p-Block Elements (Group 13 & 14)">The p-Block Elements (Group 13 & 14)</option>
-                    <option value="Organic Chemistry - Some Basic Principles & Techniques">Organic Chemistry - Some Basic Principles & Techniques</option>
-                    <option value="Hydrocarbons">Hydrocarbons</option>
-                    <option value="Environmental Chemistry">Environmental Chemistry</option>
-                    <option value="The Solid State">The Solid State</option>
-                    <option value="Solutions">Solutions</option>
-                    <option value="Electrochemistry">Electrochemistry</option>
-                    <option value="Chemical Kinetics">Chemical Kinetics</option>
-                    <option value="Surface Chemistry">Surface Chemistry</option>
-                    <option value="General Principles and Processes of Isolation of Elements">General Principles and Processes of Isolation of Elements</option>
-                    <option value="The p-Block Elements (Group 15, 16, 17 and 18)">The p-Block Elements (Group 15, 16, 17 & 18)</option>
-                    <option value="The d- and f-Block Elements">The d- and f-Block Elements</option>
-                    <option value="Coordination Compounds">Coordination Compounds</option>
-                    <option value="Haloalkanes and Haloarenes">Haloalkanes and Haloarenes</option>
-                    <option value="Alcohols, Phenols and Ethers">Alcohols, Phenols and Ethers</option>
-                    <option value="Aldehydes, Ketones and Carboxylic Acids">Aldehydes, Ketones and Carboxylic Acids</option>
-                    <option value="Amines">Amines</option>
-                    <option value="Biomolecules">Biomolecules</option>
-                    <option value="Polymers">Polymers</option>
-                    <option value="Chemistry in Everyday Life">Chemistry in Everyday Life</option>
-                  </>
-                )}
-                {customSubject === 'Mathematics' && (
-                  <>
-                    <option value="Calculus & Integration">Calculus & Integration</option>
-                    <option value="Vectors & 3D Geometry">Vectors & 3D Geometry</option>
-                    <option value="Coordinate Geometry">Coordinate Geometry</option>
-                    <option value="Probability & Statistics">Probability & Statistics</option>
-                  </>
-                )}
-              </select>
-            </div>
-
-            {/* Topic Selection */}
-            <div className="space-y-1.5">
-              <label className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">
-                4. Select Topic
-              </label>
-              <select
-                value={customTopic}
-                onChange={e => setCustomTopic(e.target.value)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs font-medium text-gray-900 focus:outline-none focus:border-blue-500 focus:bg-white"
-              >
-                <option value="Molecular Basis of Inheritance">Molecular Basis of Inheritance</option>
-                <option value="Mendelian Principles & Pedigree">Mendelian Principles & Pedigree</option>
-                <option value="Central Dogma & Lac Operon">Central Dogma & Lac Operon</option>
-                <option value="Recombinant DNA Technology">Recombinant DNA Technology</option>
-                <option value="Entire Chapter Mix">Entire Chapter Mix (All Topics)</option>
-              </select>
-            </div>
-
-            {/* Duration Slider */}
-            <div className="space-y-1.5">
-              <div className="flex justify-between text-xs font-mono">
-                <span className="font-bold text-gray-600 uppercase">5. Test Duration</span>
-                <span className="font-bold text-blue-700">{customDuration} Minutes</span>
-              </div>
-              <input
-                type="range"
-                min="10"
-                max="180"
-                step="5"
-                value={customDuration}
-                onChange={e => setCustomDuration(Number(e.target.value))}
-                className="w-full accent-blue-600 bg-gray-200 h-1.5 rounded cursor-pointer"
-              />
-              <div className="flex justify-between text-[10px] text-gray-400 font-mono">
-                <span>10m (Sprint)</span>
-                <span>45m (Minor)</span>
-                <span>90m (Part)</span>
-                <span>180m (Full CBT)</span>
-              </div>
-            </div>
-
-            {/* Question Count Slider */}
-            <div className="space-y-1.5">
-              <div className="flex justify-between text-xs font-mono">
-                <span className="font-bold text-gray-600 uppercase">6. Question Count</span>
-                <span className="font-bold text-blue-700">{customQCount} Questions ({customQCount * 4} Marks)</span>
-              </div>
-              <input
-                type="range"
-                min="10"
-                max="90"
-                step="5"
-                value={customQCount}
-                onChange={e => setCustomQCount(Number(e.target.value))}
-                className="w-full accent-blue-600 bg-gray-200 h-1.5 rounded cursor-pointer"
-              />
-              <div className="flex justify-between text-[10px] text-gray-400 font-mono">
-                <span>10 Qs</span>
-                <span>25 Qs</span>
-                <span>45 Qs</span>
-                <span>90 Qs</span>
+            {/* Marking Scheme */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Marking Scheme</label>
+              <div className="p-2 rounded bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
+                <span>Correct: <strong className="text-emerald-700">+4 Marks</strong></span>
+                <span>Incorrect: <strong className="text-rose-700">-1 Mark</strong></span>
               </div>
             </div>
           </div>
 
           {/* Test Summary Preview & Launch Button */}
-          <div className="p-3.5 rounded bg-gray-50 border border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="p-4 rounded bg-blue-50/60 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="space-y-0.5 text-xs">
-              <div className="text-gray-600">
-                Configuration:{' '}
+              <div className="text-gray-700">
+                Configured Custom Test:{' '}
                 <strong className="text-gray-900">
-                  {customSubject} &bull; {customChapter} &bull; {customDifficulty} Difficulty
+                  {customSubject} &bull; {customChapter}
                 </strong>
               </div>
-              <div className="text-gray-500 font-mono text-[11px]">
+              <div className="text-gray-600 font-mono text-[11px]">
                 Format:{' '}
-                <span className="text-blue-700 font-bold">{customQCount} Questions</span> |{' '}
-                <span className="text-amber-700 font-bold">{customDuration} Mins</span> | Marking: +4 / -1
+                <span className="text-blue-700 font-bold">{customQCount} Questions ({customQCount * 4} Marks)</span> &bull;{' '}
+                <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Difficulty: {customDifficulty}
               </div>
             </div>
 
             <button
-              id="btn-start-generated-custom-test"
               onClick={handleGenerateAndStartCustomTest}
-              className="w-full sm:w-auto px-4 py-2 rounded bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95"
+              className="w-full sm:w-auto px-5 py-2.5 rounded bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95"
             >
               <Play className="w-3.5 h-3.5 fill-current" />
-              <span>Launch Custom CBT Test</span>
+              <span>Launch 45-Question CBT Test</span>
             </button>
           </div>
         </div>
       )}
 
-      {/* 2. FLASH CARDS */}
+      {/* 2. FLASH CARDS (30+ RICH CARDS) */}
       {activeSubTab === 'flash-cards' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <Layers className="w-4 h-4 text-blue-600" />
-                <span>Interactive Revision Flash Cards</span>
+                <span>Interactive High-Yield Revision Flashcards ({filteredFlashcards.length} Cards)</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Quick revision cards for formulas, reactions, diagrams and high-yield concepts.
+                Formulas, reaction mechanisms, NCERT diagrams, mnemonics & high-yield points for instant recall.
               </p>
             </div>
             <div className="flex items-center space-x-2">
-              <span className="text-xs text-gray-500 font-mono">
+              <span className="text-xs text-gray-500 font-mono font-bold">
                 Card {activeFcIndex + 1} of {filteredFlashcards.length}
               </span>
             </div>
           </div>
 
-          {/* Filter Bar */}
-          <div className="flex flex-wrap gap-2 items-center justify-between">
-            <div className="flex items-center space-x-1 overflow-x-auto pb-1 custom-scrollbar">
-              <span className="text-xs text-gray-500 mr-1.5 font-semibold">Subject:</span>
-              {['All', 'Physics', 'Chemistry', 'Biology'].map(sub => (
+          {/* Filter Bar & Search */}
+          <div className="flex flex-col sm:flex-row gap-2 items-stretch sm:items-center justify-between">
+            <div className="flex flex-wrap items-center gap-1.5">
+              <span className="text-xs text-gray-500 font-semibold mr-1">Subject:</span>
+              {['All', 'Biology', 'Chemistry', 'Physics'].map(sub => (
                 <button
                   key={sub}
                   onClick={() => {
@@ -490,16 +487,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
                     fcSubjectFilter === sub
                       ? 'bg-blue-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                   }`}
                 >
                   {sub}
                 </button>
               ))}
-            </div>
 
-            <div className="flex items-center space-x-1 overflow-x-auto pb-1 custom-scrollbar">
-              <span className="text-xs text-gray-500 mr-1.5 font-semibold">Category:</span>
+              <span className="text-xs text-gray-500 font-semibold ml-2 mr-1">Type:</span>
               {['All', 'Formulas', 'Reactions', 'Diagrams', 'Concepts'].map(cat => (
                 <button
                   key={cat}
@@ -511,25 +506,37 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
                     fcCategoryFilter === cat
                       ? 'bg-purple-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                   }`}
                 >
                   {cat}
                 </button>
               ))}
             </div>
+
+            <div className="w-full sm:w-56">
+              <input
+                type="text"
+                placeholder="Search flashcards..."
+                value={fcSearchQuery}
+                onChange={e => {
+                  setFcSearchQuery(e.target.value);
+                  setActiveFcIndex(0);
+                }}
+                className="w-full px-2.5 py-1 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-500"
+              />
+            </div>
           </div>
 
-          {/* Flashcard 3D Interactive Card */}
+          {/* 3D Interactive Flashcard */}
           {currentFlashcard && (
-            <div className="max-w-xl mx-auto py-2">
+            <div className="max-w-2xl mx-auto py-2">
               <div
-                id="flashcard-flip-box"
                 onClick={() => setIsFlipped(!isFlipped)}
-                className={`cursor-pointer min-h-[260px] p-5 sm:p-6 rounded-lg border transition-all relative flex flex-col justify-between shadow-xs ${
+                className={`cursor-pointer min-h-[300px] p-6 rounded-lg border transition-all relative flex flex-col justify-between shadow-xs ${
                   isFlipped
-                    ? 'bg-purple-50/50 border-purple-300'
-                    : 'bg-blue-50/50 border-blue-300'
+                    ? 'bg-purple-50/60 border-purple-300 hover:border-purple-400'
+                    : 'bg-blue-50/60 border-blue-300 hover:border-blue-400'
                 }`}
               >
                 {/* Card Top Tag */}
@@ -538,26 +545,26 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-white text-blue-700 border border-gray-200 font-mono">
                       {currentFlashcard.subject} &bull; {currentFlashcard.category}
                     </span>
-                    <span className="text-xs text-gray-500">{currentFlashcard.topic}</span>
+                    <span className="text-xs text-gray-600 font-medium">{currentFlashcard.topic}</span>
                   </div>
-                  <span className="text-xs text-gray-500 flex items-center space-x-1 bg-white px-2 py-0.5 rounded border border-gray-200 font-mono text-[11px]">
+                  <span className="text-xs text-gray-600 flex items-center space-x-1 bg-white px-2 py-0.5 rounded border border-gray-200 font-mono text-[11px]">
                     <RotateCcw className="w-3 h-3 text-blue-600" />
-                    <span>Flip Card</span>
+                    <span>Click to Flip Card</span>
                   </span>
                 </div>
 
                 {/* Card Center Content */}
-                <div className="my-4 text-center">
+                <div className="my-5 text-center">
                   {!isFlipped ? (
                     <div className="space-y-3">
                       <h3 className="text-base sm:text-lg font-bold text-gray-900">
                         {currentFlashcard.frontTitle}
                       </h3>
-                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed max-w-lg mx-auto">
                         {currentFlashcard.frontContent}
                       </p>
                       {currentFlashcard.frontFormula && (
-                        <div className="inline-block px-3 py-1.5 rounded bg-white border border-blue-200 text-blue-800 font-mono text-xs font-bold shadow-xs">
+                        <div className="inline-block px-3.5 py-1.5 rounded bg-white border border-blue-300 text-blue-900 font-mono text-xs font-bold shadow-xs">
                           {currentFlashcard.frontFormula}
                         </div>
                       )}
@@ -565,13 +572,13 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   ) : (
                     <div className="space-y-3 text-left">
                       <div className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
-                        Mastery Breakdown & Explanation
+                        Verified NCERT High-Yield Breakdown & Detailed Explanation
                       </div>
-                      <p className="text-xs text-gray-800 whitespace-pre-line leading-relaxed">
+                      <p className="text-xs text-gray-800 whitespace-pre-line leading-relaxed font-medium">
                         {currentFlashcard.backExplanation}
                       </p>
 
-                      <div className="space-y-1 pt-1.5 border-t border-purple-200">
+                      <div className="space-y-1 pt-2 border-t border-purple-200">
                         {currentFlashcard.backKeyPoints.map((pt, i) => (
                           <div key={i} className="text-xs text-gray-700 flex items-start space-x-1.5">
                             <CheckCircle2 className="w-3.5 h-3.5 text-purple-600 shrink-0 mt-0.5" />
@@ -581,10 +588,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       </div>
 
                       {currentFlashcard.mnemonic && (
-                        <div className="p-2 rounded bg-white border border-purple-200 text-purple-900 text-xs flex items-center space-x-1.5">
-                          <Lightbulb className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                        <div className="p-2.5 rounded bg-white border border-purple-200 text-purple-900 text-xs flex items-center space-x-2">
+                          <Lightbulb className="w-4 h-4 text-amber-500 shrink-0" />
                           <span>
-                            <strong>Mnemonic:</strong> {currentFlashcard.mnemonic}
+                            <strong>Examiner Mnemonic:</strong> {currentFlashcard.mnemonic}
                           </span>
                         </div>
                       )}
@@ -600,14 +607,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       setIsFlipped(false);
                       setActiveFcIndex(prev => (prev > 0 ? prev - 1 : filteredFlashcards.length - 1));
                     }}
-                    className="px-3 py-1 rounded bg-white hover:bg-gray-100 text-xs text-gray-700 font-semibold border border-gray-200"
+                    className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold border border-gray-200 shadow-xs"
                   >
-                    &larr; Previous
+                    &larr; Previous Card
                   </button>
 
-                  <span className="text-[11px] text-gray-500 font-mono">
-                    {isFlipped ? 'Side B (Solution / Explanation)' : 'Side A (Question / Concept)'}
-                  </span>
+                  <div className="text-[11px] text-gray-500 font-mono">
+                    {activeFcIndex + 1} / {filteredFlashcards.length}
+                  </div>
 
                   <button
                     onClick={e => {
@@ -615,9 +622,9 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       setIsFlipped(false);
                       setActiveFcIndex(prev => (prev < filteredFlashcards.length - 1 ? prev + 1 : 0));
                     }}
-                    className="px-3 py-1 rounded bg-blue-600 hover:bg-blue-700 text-xs text-white font-semibold shadow-xs"
+                    className="px-3 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs"
                   >
-                    Next &rarr;
+                    Next Card &rarr;
                   </button>
                 </div>
               </div>
@@ -626,20 +633,20 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       )}
 
-      {/* 3. MIND MAPS */}
+      {/* 3. MIND MAPS (RICH VISUAL TREES) */}
       {activeSubTab === 'mind-maps' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <Network className="w-4 h-4 text-blue-600" />
-                <span>Visual Summaries & Concept Mind Maps</span>
+                <span>Interactive NCERT Concept Mind Maps</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Hierarchical knowledge breakdown for rapid visual revision.
+                Deep hierarchical concept branches with examiner notes and subtopics.
               </p>
             </div>
-            <div className="flex items-center space-x-1.5 overflow-x-auto pb-0.5">
+            <div className="flex flex-wrap gap-1.5">
               {mindMaps.map(mm => (
                 <button
                   key={mm.id}
@@ -647,92 +654,61 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
                     selectedMindMapId === mm.id
                       ? 'bg-blue-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                   }`}
                 >
-                  {mm.subject}: {mm.title}
+                  {mm.title}
                 </button>
               ))}
             </div>
           </div>
 
-          {/* Active Mind Map Node Tree */}
+          {/* Selected Mind Map Node Display */}
           {(() => {
             const activeMap = mindMaps.find(m => m.id === selectedMindMapId) || mindMaps[0];
             if (!activeMap) return null;
 
             return (
               <div className="space-y-3">
-                {/* Central Concept Node */}
-                <div className="p-3.5 rounded bg-blue-50/70 border border-blue-200">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <span className="text-[10px] uppercase font-bold text-blue-700 tracking-wider font-mono">
-                        Root Node &bull; {activeMap.subject}
-                      </span>
-                      <h3 className="text-base font-bold text-gray-900">{activeMap.title}</h3>
-                      <p className="text-xs text-gray-600 mt-0.5">{activeMap.description}</p>
-                    </div>
-                  </div>
+                <div className="p-3.5 rounded bg-blue-50/50 border border-blue-200">
+                  <h3 className="text-sm font-bold text-gray-900">{activeMap.title} ({activeMap.subject})</h3>
+                  <p className="text-xs text-gray-600 mt-0.5">{activeMap.description}</p>
                 </div>
 
-                {/* Sub-branches */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-1">
-                  {activeMap.children?.map((branch, idx) => {
-                    const isExpanded = !!expandedNodes[idx.toString()];
-                    return (
-                      <div
-                        key={idx}
-                        className="rounded bg-gray-50 border border-gray-200 p-3 space-y-2 hover:border-gray-300 transition-colors"
-                      >
-                        <div
-                          onClick={() =>
-                            setExpandedNodes(prev => ({
-                              ...prev,
-                              [idx.toString()]: !prev[idx.toString()]
-                            }))
-                          }
-                          className="flex items-center justify-between cursor-pointer"
-                        >
-                          <h4 className="text-xs font-bold text-blue-800 flex items-center space-x-1.5">
-                            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
-                            <span>{branch.title}</span>
-                          </h4>
-                          <ChevronDown
-                            className={`w-3.5 h-3.5 text-gray-400 transition-transform ${
-                              isExpanded ? 'rotate-180' : ''
-                            }`}
-                          />
-                        </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {activeMap.children?.map((child, cIdx) => (
+                    <div
+                      key={cIdx}
+                      className="rounded-lg bg-gray-50 border border-gray-200 p-4 space-y-2.5 hover:border-gray-300 transition-colors"
+                    >
+                      <h4 className="text-xs font-bold text-blue-800 border-b border-gray-200 pb-1.5 flex items-center justify-between">
+                        <span>{child.title}</span>
+                      </h4>
 
-                        <ul className="space-y-1 text-xs text-gray-700 pl-2.5 border-l-2 border-gray-200">
-                          {branch.details.map((detail, dIdx) => (
-                            <li key={dIdx} className="leading-snug">
-                              &bull; {detail}
-                            </li>
-                          ))}
-                        </ul>
-
-                        {branch.subTopics && (
-                          <div className="pt-2 border-t border-gray-200">
-                            <div className="text-[9px] font-bold text-amber-700 uppercase tracking-wider mb-1">
-                              High-Yield Traps:
-                            </div>
-                            <div className="space-y-1">
-                              {branch.subTopics.map((sub, sIdx) => (
-                                <div
-                                  key={sIdx}
-                                  className="text-[11px] text-gray-600 bg-white px-2 py-0.5 rounded border border-gray-200 font-mono"
-                                >
-                                  {sub}
-                                </div>
-                              ))}
-                            </div>
+                      <div className="space-y-1 text-xs text-gray-700">
+                        {child.details?.map((d, dIdx) => (
+                          <div key={dIdx} className="flex items-start space-x-1.5">
+                            <span className="text-blue-600 font-bold">&bull;</span>
+                            <span className="leading-relaxed">{d}</span>
                           </div>
-                        )}
+                        ))}
                       </div>
-                    );
-                  })}
+
+                      {child.subTopics && child.subTopics.length > 0 && (
+                        <div className="pt-2 border-t border-gray-200/80 space-y-1">
+                          <div className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
+                            Examiner Key Highlights & Traps:
+                          </div>
+                          {child.subTopics.map((st, sIdx) => (
+                            <div key={sIdx} className="text-[11px] text-gray-600 flex items-start space-x-1.5">
+                              <CheckCircle2 className="w-3 h-3 text-purple-600 shrink-0 mt-0.5" />
+                              <span>{st}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
               </div>
             );
@@ -740,176 +716,72 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       )}
 
-      {/* 4. STUDENT PERFORMANCE ANALYTICS */}
+      {/* 4. STUDENT ANALYTICS */}
       {activeSubTab === 'analytics' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <LineChart className="w-4 h-4 text-blue-600" />
-                <span>Student Performance Analytics</span>
+                <span>Student Performance & Diagnostic Analytics</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Real-time score analysis, accuracy, weak topics and AI recommendations.
+                Real-time tracking of test attempts, accuracy percentage, time per question, and AI weak chapter diagnostics.
               </p>
             </div>
-            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-green-50 text-green-700 border border-green-200 self-start sm:self-auto uppercase">
-              AI Diagnostics Active
+            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 self-start sm:self-auto uppercase">
+              {completedTests.length} Tests Completed
             </span>
           </div>
 
-          {/* Primary Metric Scorecards */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-            <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
-              <div className="flex items-center justify-between text-gray-500 text-[10px] font-bold uppercase tracking-wider">
-                <span>Predicted AIR</span>
-                <Target className="w-3.5 h-3.5 text-blue-600" />
+          {/* Quick Metrics */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
+              <div className="text-[10px] font-bold text-gray-500 uppercase">Avg NEET Score</div>
+              <div className="text-xl font-bold text-emerald-700 font-mono mt-0.5">
+                {completedTests.length > 0
+                  ? Math.round(completedTests.reduce((acc, t) => acc + t.score, 0) / completedTests.length)
+                  : 152} / 180
               </div>
-              <div className="text-xl font-bold text-blue-700 mt-1 font-mono">
-                AIR 340
-              </div>
-              <div className="text-[10px] text-green-700 font-semibold mt-0.5 flex items-center space-x-1">
-                <TrendingUp className="w-3 h-3" />
-                <span>Top 0.15% Nationwide</span>
-              </div>
+              <div className="text-[10px] text-emerald-600 font-semibold mt-0.5">Target: &gt; 160</div>
             </div>
 
-            <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
-              <div className="flex items-center justify-between text-gray-500 text-[10px] font-bold uppercase tracking-wider">
-                <span>Overall Accuracy</span>
-                <CheckCircle2 className="w-3.5 h-3.5 text-green-600" />
+            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
+              <div className="text-[10px] font-bold text-gray-500 uppercase">Overall Accuracy</div>
+              <div className="text-xl font-bold text-blue-700 font-mono mt-0.5">
+                {completedTests.length > 0
+                  ? Math.round(completedTests.reduce((acc, t) => acc + t.accuracyPercentage, 0) / completedTests.length)
+                  : 88}%
               </div>
-              <div className="text-xl font-bold text-gray-900 mt-1 font-mono">
-                88.4%
-              </div>
-              <div className="text-[10px] text-gray-500 mt-0.5 font-mono">
-                +4.2% over last 5 CBTs
-              </div>
+              <div className="text-[10px] text-blue-600 font-semibold mt-0.5">Top 5% National Percentile</div>
             </div>
 
-            <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
-              <div className="flex items-center justify-between text-gray-500 text-[10px] font-bold uppercase tracking-wider">
-                <span>Avg Score (NEET Full)</span>
-                <Award className="w-3.5 h-3.5 text-amber-600" />
-              </div>
-              <div className="text-xl font-bold text-amber-700 mt-1 font-mono">
-                665 / 720
-              </div>
-              <div className="text-[10px] text-gray-500 mt-0.5 font-mono">
-                AIIMS Safe Zone
-              </div>
+            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
+              <div className="text-[10px] font-bold text-gray-500 uppercase">Time per Question</div>
+              <div className="text-xl font-bold text-purple-700 font-mono mt-0.5">46s / Q</div>
+              <div className="text-[10px] text-purple-600 font-semibold mt-0.5">Optimal Speed (&lt; 60s)</div>
             </div>
 
-            <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
-              <div className="flex items-center justify-between text-gray-500 text-[10px] font-bold uppercase tracking-wider">
-                <span>Time per Question</span>
-                <Clock className="w-3.5 h-3.5 text-purple-600" />
-              </div>
-              <div className="text-xl font-bold text-purple-700 mt-1 font-mono">
-                48s / Q
-              </div>
-              <div className="text-[10px] text-green-700 font-semibold mt-0.5 font-mono">
-                Optimal speed (&lt; 60s)
-              </div>
-            </div>
-          </div>
-
-          {/* Subject-Wise Accuracy & Weak Topics Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {/* Subject Mastery Progress Bars */}
-            <div className="p-4 rounded bg-gray-50 border border-gray-200 space-y-3">
-              <div className="text-xs font-bold text-gray-900 flex items-center justify-between">
-                <span>Subject-Wise Score & Accuracy</span>
-                <span className="text-[10px] text-gray-500 font-mono">Target: &gt; 90%</span>
-              </div>
-
-              <div className="space-y-2.5">
-                <div>
-                  <div className="flex justify-between text-xs mb-1">
-                    <span className="font-semibold text-gray-800">Biology (Botany & Zoology)</span>
-                    <span className="font-bold text-gray-900 font-mono">340/360 (94.4%)</span>
-                  </div>
-                  <div className="w-full bg-gray-200 h-2 rounded overflow-hidden">
-                    <div className="bg-green-600 h-full rounded" style={{ width: '94.4%' }} />
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex justify-between text-xs mb-1">
-                    <span className="font-semibold text-gray-800">Physical & Inorganic Chemistry</span>
-                    <span className="font-bold text-gray-900 font-mono">162/180 (90.0%)</span>
-                  </div>
-                  <div className="w-full bg-gray-200 h-2 rounded overflow-hidden">
-                    <div className="bg-blue-600 h-full rounded" style={{ width: '90.0%' }} />
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex justify-between text-xs mb-1">
-                    <span className="font-semibold text-gray-800">Physics (Electrodynamics & Optics)</span>
-                    <span className="font-bold text-gray-900 font-mono">148/180 (82.2%)</span>
-                  </div>
-                  <div className="w-full bg-gray-200 h-2 rounded overflow-hidden">
-                    <div className="bg-amber-500 h-full rounded" style={{ width: '82.2%' }} />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* AI Weak Chapter Analysis & Direct Revision Recommendations */}
-            <div className="p-4 rounded bg-gray-50 border border-gray-200 space-y-2.5">
-              <div className="text-xs font-bold text-gray-900 flex items-center space-x-1.5">
-                <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
-                <span>AI Weak Chapter Diagnostics</span>
-              </div>
-
-              <div className="space-y-1.5 text-xs">
-                <div className="p-2.5 rounded bg-amber-50/70 border border-amber-200 text-amber-900 space-y-0.5">
-                  <div className="font-bold flex items-center justify-between">
-                    <span>1. Rotational Mechanics (Physics)</span>
-                    <span className="text-[10px] font-mono bg-amber-100 px-1.5 py-0.2 rounded font-bold">62% Acc</span>
-                  </div>
-                  <p className="text-[11px] text-gray-600">
-                    Frequent errors in Moment of Inertia integration and rolling on inclined planes.
-                  </p>
-                </div>
-
-                <div className="p-2.5 rounded bg-rose-50/70 border border-rose-200 text-rose-900 space-y-0.5">
-                  <div className="font-bold flex items-center justify-between">
-                    <span>2. Ionic Equilibrium (Chemistry)</span>
-                    <span className="text-[10px] font-mono bg-rose-100 px-1.5 py-0.2 rounded font-bold">68% Acc</span>
-                  </div>
-                  <p className="text-[11px] text-gray-600">
-                    Buffer solution pH calculation and solubility product (Ksp) common ion questions.
-                  </p>
-                </div>
-
-                <div className="p-2.5 rounded bg-blue-50/70 border border-blue-200 text-blue-900 space-y-0.5">
-                  <div className="font-bold flex items-center justify-between">
-                    <span>AI Revision Recommendation</span>
-                    <span className="text-[10px] font-mono text-blue-700 font-bold">Recommended</span>
-                  </div>
-                  <p className="text-[11px] text-gray-600">
-                    Solve the 25-Question Rotational Dynamics DPP and review the Organic Reaction flashcard deck.
-                  </p>
-                </div>
-              </div>
+            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
+              <div className="text-[10px] font-bold text-gray-500 uppercase">Predicted AIR</div>
+              <div className="text-xl font-bold text-amber-700 font-mono mt-0.5">#2,450</div>
+              <div className="text-[10px] text-amber-600 font-semibold mt-0.5">Government Medical College</div>
             </div>
           </div>
         </div>
       )}
 
-      {/* 5. DPP GENERATOR (Daily Practice Papers) */}
+      {/* 5. DPP GENERATOR (Daily Practice Papers & Real PDF Download) */}
       {activeSubTab === 'dpp-generator' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <FileSpreadsheet className="w-4 h-4 text-blue-600" />
-                <span>Personalized DPP Generator (Daily Practice Papers)</span>
+                <span>Daily Practice Paper (DPP) Generator & Offline PDF</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Personalized daily practice papers tailored to your weak areas and target score.
+                Generate 45-question daily practice papers with step solutions and download as printable PDFs.
               </p>
             </div>
             <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 self-start sm:self-auto uppercase">
@@ -935,10 +807,9 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 onChange={e => setDppSubject(e.target.value)}
                 className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
               >
-                <option value="All Subjects">Combined PCB (Physics, Chem, Bio)</option>
-                <option value="Physics Only">Physics Specialized Focus</option>
-                <option value="Chemistry Only">Chemistry High-Yield Focus</option>
-                <option value="Biology Only">Biology NCERT Mastery</option>
+                <option value="Biology Only">🧬 Biology (Botany & Zoology High-Yield Focus)</option>
+                <option value="Chemistry Only">🧪 Chemistry (Physical, Inorganic, Organic)</option>
+                <option value="All Subjects">⚡ Combined PCB (Physics, Chemistry, Biology)</option>
               </select>
             </div>
 
@@ -967,17 +838,17 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   Daily Practice Paper for {dppDate} &bull; {dppSubject}
                 </h3>
                 <p className="text-xs text-gray-500 font-mono">
-                  25 High-Yield Questions &bull; 45 Minutes Time Target &bull; +4 / -1 Marking
+                  45 High-Yield Questions &bull; 45 Minutes Time Target &bull; +4 / -1 Marking
                 </p>
               </div>
 
               <div className="flex items-center space-x-2">
                 <button
-                  onClick={() => setGeneratedDppSuccess(true)}
+                  onClick={handleDownloadDpp}
                   className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold flex items-center space-x-1.5 border border-gray-300 shadow-xs"
                 >
                   <Download className="w-3.5 h-3.5" />
-                  <span>Download PDF</span>
+                  <span>Download DPP PDF</span>
                 </button>
                 <button
                   onClick={handleGenerateAndStartCustomTest}
@@ -992,14 +863,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             {generatedDppSuccess && (
               <div className="p-2.5 rounded bg-green-50 border border-green-200 text-green-800 text-xs flex items-center space-x-1.5 animate-in fade-in">
                 <Check className="w-3.5 h-3.5 text-green-600" />
-                <span>Personalized DPP PDF with solutions generated successfully!</span>
+                <span>Daily Practice Paper (DPP) PDF generated and downloaded successfully!</span>
               </div>
             )}
           </div>
         </div>
       )}
 
-      {/* 6. BOOKS & NOTES LIBRARY */}
+      {/* 6. BOOKS & NOTES LIBRARY (WITH REAL PDF DOWNLOAD) */}
       {activeSubTab === 'books' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
@@ -1009,7 +880,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <span>Books, NCERT Notes & eBooks Library</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                NCERT notes, revision notes, formula books, eBooks and PDFs.
+                NCERT notes, revision notes, formula books, eBooks and downloadable PDFs.
               </p>
             </div>
             <div className="flex items-center space-x-1 overflow-x-auto pb-0.5 custom-scrollbar">
@@ -1020,7 +891,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
                     bookCategory === cat
                       ? 'bg-blue-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
                   }`}
                 >
                   {cat}
@@ -1058,13 +929,23 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
                 <div className="mt-3 pt-2.5 border-t border-gray-100 flex items-center justify-between">
                   <span className="text-xs text-amber-600 font-semibold">★ {book.rating} / 5.0</span>
-                  <button
-                    onClick={() => onOpenBook(book)}
-                    className="px-2.5 py-1 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1 shadow-xs"
-                  >
-                    <Eye className="w-3 h-3" />
-                    <span>Read / Preview</span>
-                  </button>
+                  <div className="flex items-center space-x-1.5">
+                    <button
+                      onClick={() => downloadBookPDF(book)}
+                      title="Download PDF"
+                      className="px-2.5 py-1 rounded bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 border border-gray-200 shadow-xs"
+                    >
+                      <Download className="w-3 h-3" />
+                      <span>PDF</span>
+                    </button>
+                    <button
+                      onClick={() => onOpenBook(book)}
+                      className="px-2.5 py-1 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1 shadow-xs"
+                    >
+                      <Eye className="w-3 h-3" />
+                      <span>Read</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}

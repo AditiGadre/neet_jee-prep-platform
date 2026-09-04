@@ -68,100 +68,6 @@ import {
   NEET_MODEL_TEST_PAPER_2
 } from './fingertipsBiologyQuestions';
 import {
-  ALL_ALLEN_BIOLOGY_QUESTIONS,
-  ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS,
-  ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS,
-  ALLEN_BIO_ANIMAL_KINGDOM__02__PROTOZOA__PORIFERA__COELENTERATA___CTENOPHORA_QUESTIONS,
-  ALLEN_BIO_ANIMAL_KINGDOM__03__PLATYHELMINTHES__ASCHELMINTHES___ANNELIDA_QUESTIONS,
-  ALLEN_BIO_ANIMAL_KINGDOM__04__ARTHROPODA__MOLLUSCA__ECHINODERMATA__HEMICHORDATA_QUESTIONS,
-  ALLEN_BIO_ANIMAL_KINGDOM__05__PROTOCHORDATA_TO_PISCES_QUESTIONS,
-  ALLEN_BIO_ANIMAL_KINGDOM__06__TETRAPODA_QUESTIONS,
-  ALLEN_BIO_MORPHOLOGY_OF_FLOWERING_PLANT_QUESTIONS,
-  ALLEN_BIO_PLANT_ANATOMY_QUESTIONS,
-  ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__ANIMAL_TISSUE__QUESTIONS,
-  ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__EARTHWORM__QUESTIONS,
-  ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__COCKROACH__QUESTIONS,
-  ALLEN_BIO_FROG_QUESTIONS,
-  ALLEN_BIO_CELL__THE_UNIT_OF_LIFE_QUESTIONS,
-  ALLEN_BIO_BIOMOLECULES___I__CARBOHYDRATES__LIPIDS__PROTEINS__QUESTIONS,
-  ALLEN_BIO_BIOMOLECULES___II__ENZYMES__QUESTIONS,
-  ALLEN_BIO_CELL_CYCLE_AND_CELL_DIVISION_QUESTIONS,
-  ALLEN_BIO_TRANSPORT_IN_PLANTS_QUESTIONS,
-  ALLEN_BIO_MINERAL_NUTRITION_QUESTIONS,
-  ALLEN_BIO_PHOTOSYNTHESIS_IN_HIGHER_PLANTS_QUESTIONS,
-  ALLEN_BIO_RESPIRATION_IN_PLANTS_QUESTIONS,
-  ALLEN_BIO_PLANT_GROWTH_AND_DEVELOPMENT_QUESTIONS,
-  ALLEN_BIO_DIGESTION_AND_ABSORPTION_QUESTIONS,
-  ALLEN_BIO_BREATHING_AND_EXCHANGE_OF_GASES_QUESTIONS,
-  ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__BLOOD__QUESTIONS,
-  ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__HEART___VESSELS__QUESTIONS,
-  ALLEN_BIO_EXCRETORY_PRODUCTS_AND_THEIR_ELIMINATION_QUESTIONS,
-  ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__MUSCLES__QUESTIONS,
-  ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__SKELETAL_SYSTEM__QUESTIONS,
-  ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__NERVE_PHYSIOLOGY____I_QUESTIONS,
-  ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__CNS_PNS_SPINAL_CORD____II_QUESTIONS,
-  ALLEN_BIO_SENSORY_ORGANS__EYE__QUESTIONS,
-  ALLEN_BIO_SENSORY_ORGANS__EAR__QUESTIONS,
-  ALLEN_BIO_CHEMICAL_COORDINATION_AND_INTEGRATION__ENDOCRINE_SYSTEM__QUESTIONS,
-  ALLEN_BIO_SEXUAL_REPRODUCTION_IN_FLOWERING_PLANTS_QUESTIONS,
-  ALLEN_BIO_HUMAN_REPRODUCTION_QUESTIONS,
-  ALLEN_BIO_REPRODUCTIVE_HEALTH_QUESTIONS,
-  ALLEN_BIO_MENDELIAN_GENETICS__01_QUESTIONS,
-  ALLEN_BIO_POST_MENDELISM__POLYGENIC___CYTOPLASMIC_INHERITANCE__02_QUESTIONS,
-  ALLEN_BIO_LINKAGE__SEX_LINKAGE__SEX_DETERMINATION__03_QUESTIONS,
-  ALLEN_BIO_HUMAN_GENETICS_AND_POPULATION_GENETICS__04_QUESTIONS,
-  ALLEN_BIO_MOLECULAR_BASIS_OF_INHERITANCE_QUESTIONS,
-  ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_01_QUESTIONS,
-  ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_02_QUESTIONS,
-  ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_03_QUESTIONS,
-  ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_04_QUESTIONS,
-  ALLEN_BIO_HUMAN_HEALTH_AND_DISEASE_QUESTIONS,
-  ALLEN_BIO_STRATEGIES_FOR_ENHANCEMENT_IN_FOOD_PRODUCTION__PLANTS__QUESTIONS,
-  ALLEN_BIO_DOMESTICATION_OF_ANIMALS_QUESTIONS,
-  ALLEN_BIO_MICROBES_IN_HUMAN_WELFARE_QUESTIONS,
-  ALLEN_BIO_BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_QUESTIONS,
-  ALLEN_BIO_BIOTECHNOLOGY__APPLICATION_QUESTIONS,
-  ALLEN_BIO_ORGANISM_AND_POPULATION__ECOLOGY__QUESTIONS,
-  ALLEN_BIO_ECOSYSTEM_QUESTIONS,
-  ALLEN_BIO_BIODIVERSITY_AND_CONSERVATION_QUESTIONS,
-  ALLEN_BIO_POLLUTION__ENVIRONMENTAL_ISSUES__QUESTIONS,
-} from './allenBiologyQuestions';
-import { ALL_ALLEN_CHEMISTRY_QUESTIONS,
-  ALLEN_MOLE_CONCEPT_QUESTIONS,
-  ALLEN_REDOX_REACTIONS_QUESTIONS,
-  ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
-  ALLEN_STATES_OF_MATTER__GASES___LIQUIDS__QUESTIONS,
-  ALLEN_CHEMICAL_THERMODYNAMICS_QUESTIONS,
-  ALLEN_CHEMICAL_EQUILIBRIUM_QUESTIONS,
-  ALLEN_IONIC_EQUILIBRIUM__ACID___BASE_PH__BUFFER___INDICATORS_QUESTIONS,
-  ALLEN_SOLUTIONS_QUESTIONS,
-  ALLEN_ELECTROCHEMISTRY_QUESTIONS,
-  ALLEN_CHEMICAL_KINETICS_QUESTIONS,
-  ALLEN_SOLID_STATE_QUESTIONS,
-  ALLEN_SURFACE_CHEMISTRY_QUESTIONS,
-  ALLEN_PERIODIC_TABLE___PERIODICITY_QUESTIONS,
-  ALLEN_CHEMICAL_BONDING___MOLECULAR_STRUCTURE_QUESTIONS,
-  ALLEN_S_BLOCK_ELEMENTS_QUESTIONS,
-  ALLEN_P_BLOCK_ELEMENTS__BORON__CARBON__NITROGEN__OXYGEN__HALOGENS__INERT_GASES__QUESTIONS,
-  ALLEN_HYDROGEN___ITS_COMPOUNDS_QUESTIONS,
-  ALLEN_D___F_BLOCK_ELEMENTS_QUESTIONS,
-  ALLEN_COORDINATION_CHEMISTRY_QUESTIONS,
-  ALLEN_METALLURGY___ISOLATION_OF_ELEMENTS_QUESTIONS,
-  ALLEN_NOMENCLATURE___ISOMERISM__GOC__QUESTIONS,
-  ALLEN_REACTION_MECHANISM_QUESTIONS,
-  ALLEN_HYDROCARBONS__ALKANE__ALKENE___ALKYNE__QUESTIONS,
-  ALLEN_AROMATIC_HYDROCARBONS_QUESTIONS,
-  ALLEN_ALKYL_HALIDES_QUESTIONS,
-  ALLEN_ALCOHOL__PHENOL___ETHER_QUESTIONS,
-  ALLEN_CARBONYL_COMPOUNDS__ALDEHYDES___KETONES__QUESTIONS,
-  ALLEN_CARBOXYLIC_ACIDS___ITS_DERIVATIVES_QUESTIONS,
-  ALLEN_NITROGEN_CONTAINING_COMPOUNDS__AMINES__QUESTIONS,
-  ALLEN_POLYMERS_QUESTIONS,
-  ALLEN_BIOMOLECULES_QUESTIONS,
-  ALLEN_CHEMISTRY_IN_ACTION__EVERYDAY_LIFE__QUESTIONS,
-  ALLEN_ENVIRONMENTAL_CHEMISTRY_QUESTIONS
-} from './allenChemistryQuestions';
-import {
   ALL_CHEMISTRY_MASTER_QUESTIONS,
   SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS,
   STRUCTURE_OF_ATOM_QUESTIONS,
@@ -199,5238 +105,1397 @@ import {
   CHEMISTRY_MOCK_TEST_2_QUESTIONS,
   CHEMISTRY_MOCK_TEST_3_QUESTIONS,
   CHEMISTRY_MOCK_TEST_4_QUESTIONS,
-  CHEMISTRY_MOCK_TEST_5_QUESTIONS,
+  CHEMISTRY_MOCK_TEST_5_QUESTIONS
 } from './chemistryMockTests';
-
+import { VECTORS_BOOK_QUESTIONS } from './vectorsQuestions';
+import { UNITS_BOOK_QUESTIONS } from './unitsQuestions';
+import { MOTION_BOOK_QUESTIONS } from './motionQuestions';
+import { GRAVITATION_BOOK_QUESTIONS } from './gravitationQuestions';
+import { ELECTROSTATICS_BOOK_QUESTIONS } from './electrostaticsQuestions';
+import { MAGNETISM_BOOK_QUESTIONS } from './magnetismQuestions';
+import { THERMODYNAMICS_BOOK_QUESTIONS as PHYSICS_THERMO_QUESTIONS } from './thermodynamicsQuestions';
 import {
   TestItem,
-  OnlineCourse,
   Flashcard,
   MindMapNode,
   BookItem,
   PYQItem,
-  RankerStory,
-  CollegeInfo,
   Question
 } from '../types';
-import { VECTORS_BOOK_QUESTIONS } from './vectorsQuestions';
-import { UNITS_BOOK_QUESTIONS } from './unitsQuestions';
-import { MOTION_BOOK_QUESTIONS } from './motionQuestions';
-import { ELECTROSTATICS_BOOK_QUESTIONS } from './electrostaticsQuestions';
-import { GRAVITATION_BOOK_QUESTIONS } from './gravitationQuestions';
-import { THERMODYNAMICS_BOOK_QUESTIONS } from './thermodynamicsQuestions';
-import { MAGNETISM_BOOK_QUESTIONS } from './magnetismQuestions';
-import { 
-  ALL_BIOLOGY_MASTER_QUESTIONS,
-  THE_LIVING_WORLD_V1_QUESTIONS,
-  HUMAN_REPRODUCTION_V2_QUESTIONS,
-  PRINCIPLES_OF_INHERITANCE_AND_VARIATION_V2_QUESTIONS,
-  MOLECULAR_BASIS_OF_INHERITANCE_V2_QUESTIONS,
-  BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_V2_QUESTIONS,
-  BIOTECHNOLOGY_AND_ITS_APPLICATIONS_V2_QUESTIONS,
-  ORGANISMS_AND_POPULATIONS_V2_QUESTIONS,
-  ECOSYSTEM_V2_QUESTIONS,
-  BIODIVERSITY_AND_CONSERVATION_V2_QUESTIONS,
-  ENVIRONMENTAL_ISSUES_V2_QUESTIONS
-} from './biologyQuestions';
 
-export const SAMPLE_QUESTIONS: Question[] = [
-  {
-    id: 'q1',
-    subject: 'Biology',
-    chapter: 'Human Physiology',
-    topic: 'Neural Control and Coordination',
-    difficulty: 'Medium',
-    questionText: 'During the transmission of nerve impulse through a nerve fibre, the potential on the inner side of the axonal membrane has which type of electric charge?',
-    options: [
-      'First positive, then negative and continue to be negative',
-      'First negative, then positive and continue to be positive',
-      'First positive, then negative and again back to positive',
-      'First negative, then positive and again back to negative'
-    ],
-    correctAnswer: 3,
-    explanation: 'During resting state, axonal membrane is negatively charged inside (-70mV). Upon depolarization due to Na+ influx, it becomes positive (+30mV). During repolarization due to K+ efflux, it returns to negative resting potential.',
-    pyqYear: 2023,
-    tags: ['Nerve Impulse', 'Resting Potential', 'Action Potential']
-  },
-  {
-    id: 'q2',
-    subject: 'Physics',
-    chapter: 'Electrodynamics',
-    topic: 'Current Electricity & Kirchhoff Laws',
-    difficulty: 'Medium',
-    questionText: 'A potentiometer wire of length 100 cm has a resistance of 10 Ω. It is connected in series with a resistance of 40 Ω and a battery of EMF 2 V. The potential gradient along the wire is:',
-    options: [
-      '0.4 V/m',
-      '0.2 V/m',
-      '0.04 V/m',
-      '4.0 V/m'
-    ],
-    correctAnswer: 0,
-    explanation: 'Total resistance R_total = 10 + 40 = 50 Ω. Current I = V / R_total = 2 / 50 = 0.04 A. Voltage across wire V_wire = I * R_wire = 0.04 * 10 = 0.4 V. Wire length = 1 m. Potential Gradient = V_wire / L = 0.4 V / 1 m = 0.4 V/m.',
-    pyqYear: 2024,
-    tags: ['Potentiometer', 'Current Electricity', 'Potential Gradient']
-  },
-  {
-    id: 'q3',
-    subject: 'Chemistry',
-    chapter: 'Organic Chemistry',
-    topic: 'Aldehydes, Ketones and Carboxylic Acids',
-    difficulty: 'Hard',
-    questionText: 'Which of the following compounds will give a positive Iodoform test upon reaction with I2 and NaOH?',
-    options: [
-      'Benzophenone (C6H5-CO-C6H5)',
-      '3-Pentanone (CH3-CH2-CO-CH2-CH3)',
-      'Acetophenone (C6H5-CO-CH3)',
-      'Benzaldehyde (C6H5-CHO)'
-    ],
-    correctAnswer: 2,
-    explanation: 'The Iodoform test is given by compounds containing the CH3-C=O (methyl ketone) group or CH3-CH(OH)- group. Acetophenone contains C6H5-CO-CH3 with a methyl keto group, forming yellow CHI3 precipitate.',
-    pyqYear: 2023,
-    tags: ['Iodoform Test', 'Carbonyl Compounds', 'Named Reactions']
-  },
-  {
-    id: 'q4',
-    subject: 'Biology',
-    chapter: 'Genetics and Evolution',
-    topic: 'Molecular Basis of Inheritance',
-    difficulty: 'Easy',
-    questionText: 'If the sequence of nitrogen bases of the coding strand of DNA in a transcription unit is 5\' - ATGAATG - 3\', the sequence of bases in its mRNA would be:',
-    options: [
-      '5\' - UACUUAC - 3\'',
-      '5\' - AUGAAUG - 3\'',
-      '5\' - GAUCAAU - 3\'',
-      '5\' - CAUUCAU - 3\''
-    ],
-    correctAnswer: 1,
-    explanation: 'The mRNA sequence is identical to the coding strand (5\' to 3\') except that Thymine (T) is replaced with Uracil (U). Thus, 5\'-ATGAATG-3\' becomes 5\'-AUGAAUG-3\'.',
-    pyqYear: 2022,
-    tags: ['Transcription', 'Central Dogma', 'Coding Strand']
-  },
-  {
-    id: 'q5',
-    subject: 'Physics',
-    chapter: 'Modern Physics',
-    topic: 'Photoelectric Effect',
-    difficulty: 'Easy',
-    questionText: 'When light of frequency 2ν₀ (where ν₀ is threshold frequency) is incident on a metal plate, the maximum velocity of electrons emitted is v₁. When the frequency of incident radiation is increased to 5ν₀, the maximum velocity of electrons emitted is v₂. The ratio v₁/v₂ is:',
-    options: [
-      '1 : 2',
-      '1 : 4',
-      '1 : √2',
-      '4 : 1'
-    ],
-    correctAnswer: 0,
-    explanation: 'By Einstein\'s equation: 1/2 m v₁² = h(2ν₀ - ν₀) = hν₀. For 5ν₀: 1/2 m v₂² = h(5ν₀ - ν₀) = 4hν₀. Dividing gives (v₁/v₂)² = 1/4 => v₁/v₂ = 1/2.',
-    pyqYear: 2021,
-    tags: ['Photoelectric Effect', 'Work Function', 'Threshold Frequency']
-  },
-  {
-    id: 'q6',
-    subject: 'Chemistry',
-    chapter: 'Physical Chemistry',
-    topic: 'Chemical Kinetics',
-    difficulty: 'Medium',
-    questionText: 'A first-order reaction has a rate constant of 1.15 x 10⁻³ s⁻¹. How long will 5 g of this reactant take to reduce to 3 g?',
-    options: [
-      '444 seconds',
-      '222 seconds',
-      '888 seconds',
-      '111 seconds'
-    ],
-    correctAnswer: 0,
-    explanation: 'For 1st order: t = (2.303 / k) * log10([A]0 / [A]t) = (2.303 / 1.15e-3) * log10(5 / 3) = 2002.6 * 0.2218 ≈ 444 seconds.',
-    pyqYear: 2024,
-    tags: ['Rate Constant', 'Half Life', 'First Order Kinetics']
-  }
-];
+export const SAMPLE_QUESTIONS: Question[] = FINGERTIPS_BIO_CH01_MCQS.slice(0, 45);
+
+/**
+ * Helper to slice exactly 45 questions from a source array
+ */
+const get45 = (arr: Question[], start = 0): Question[] => {
+  if (!arr || arr.length === 0) return SAMPLE_QUESTIONS;
+  if (arr.length <= 45) return arr;
+  const sliced = arr.slice(start, start + 45);
+  return sliced.length >= 45 ? sliced : arr.slice(0, 45);
+};
 
 export const TEST_SERIES_DATA: TestItem[] = [
+  // ==========================================
+  // 1. SUNDAY-TO-SUNDAY ALL INDIA SCHEDULED TEST SERIES (45 Qs EACH & 45 MINS)
+  // ==========================================
   {
-    id: 'test-ft-bio-grand-master',
-    title: 'Objective NCERT at your Fingertips: Biology Grand Test (6,465 Qs)',
-    category: 'full',
+    id: 'test-sunday-01',
+    title: 'Sunday Mock 01: Diversity in Living World (45 Qs)',
+    category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Complete Class 11 (Ch 01-19) & Class 12 (Ch 01-13: Reproduction, Genetics, Evolution, Health, Microbes, Biotech, Ecology & Biodiversity) - 6,465 Total Verified Questions (100% Complete NCERT Curriculum + NEET Model Test Papers) (Biological Classification, Plant Kingdom, Animal Kingdom, Morphology, Anatomy, Animal Tissues, Cell, Biomolecules, Cell Cycle, Photosynthesis, Respiration, Plant Growth/Development & Breathing/Exchange of Gases) - Complete NCERT MCQs, Exemplar, A&R, Case & Figure Drills',
-    totalQuestions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length,
-    durationMinutes: 200,
-    totalMarks: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'Official MTG Objective NCERT at your Fingertips',
-      'All 2,557 Questions with 100% Verified MTG Answer Keys',
-      'Exemplar, Assertion-Reason, Statement-Based, Matching & Figures',
-      'Full CBT Exam Simulator with Timer & Score Analytics'
-    ],
-    questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 198000,
-    avgScore: 1540
-  },
-  {
-    id: 'test-ft-bio-ch02-mcqs',
-    title: 'Fingertips Biology Ch 02: Biological Classification (100 NCERT MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Five Kingdoms, Monera, Protista, Fungi, Viruses, Viroids, Prions & Lichens',
-    totalQuestions: FINGERTIPS_BIO_CH02_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH02_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 NCERT Line-by-Line Objective MCQs',
-      'Detailed Explanations for Every Question',
-      'Official MTG Fingertips Verified Key',
-      'Covers Monera, Protista, Fungi, Viruses'
-    ],
-    questions: FINGERTIPS_BIO_CH02_MCQS,
-    enrolledStudentsCount: 42100,
-    avgScore: 340
-  },
-  {
-    id: 'test-ft-bio-ch02-exam-scorer',
-    title: 'Fingertips Biology Ch 02: Exam Scorer & Archive (89 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar, Assertion-Reason, Statement-Based, Matching, Case-Based & NEET PYQs',
-    totalQuestions: FINGERTIPS_BIO_CH02_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH02_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & A&R Drills',
-      'Multidimensional & Figure-Based Questions',
-      'Case-Based Contextual Scorer Modules',
-      'Previous Years NEET / AIPMT Archive'
-    ],
-    questions: FINGERTIPS_BIO_CH02_EXAM_SCORER,
-    enrolledStudentsCount: 39500,
-    avgScore: 295
-  },
-  {
-    id: 'test-ft-bio-ch03-plant-kingdom',
-    title: 'Fingertips Biology Ch 03: Plant Kingdom (135 NCERT MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms & Alternation of Generations',
-    totalQuestions: FINGERTIPS_BIO_CH03_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH03_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '135 Complete Chapter MCQs Corner',
-      'Algal Classes, Bryophyte & Pteridophyte Life Cycles',
-      'Gymnosperm & Angiosperm Comparison & Life Cycles',
-      'Detailed Explanations & Topic Tagging'
-    ],
-    questions: FINGERTIPS_BIO_CH03_MCQS,
-    enrolledStudentsCount: 46700,
-    avgScore: 410
-  },
-  {
-    id: 'test-ft-bio-ch03-exam-scorer',
-    title: 'Fingertips Biology Ch 03: Exam Scorer & Archive (87 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar, Assertion-Reason, Matching, Case Studies, Figures & NEET Archive',
-    totalQuestions: FINGERTIPS_BIO_CH03_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH03_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar & Advanced A&R Drills',
-      'Life Cycle Pattern Diagrams & Venn Analysis',
-      'Case-Based Contextual Specimen Analysis',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH03_EXAM_SCORER,
-    enrolledStudentsCount: 38200,
-    avgScore: 310
-  },
-  {
-    id: 'test-ft-bio-ch04-animal-kingdom',
-    title: 'Fingertips Biology Ch 04: Animal Kingdom (120 NCERT MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Levels of Organisation, Symmetry, Coelom, Segmentation, Notochord & Non-Chordates to Chordates (Porifera to Mammalia)',
-    totalQuestions: FINGERTIPS_BIO_CH04_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH04_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '120 Line-by-Line NCERT Objective MCQs',
-      'Complete Phylum Porifera to Class Mammalia Coverage',
-      'Comparative Body Plans & Physiological Systems',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH04_MCQS,
-    enrolledStudentsCount: 51200,
-    avgScore: 430
-  },
-  {
-    id: 'test-ft-bio-ch04-exam-scorer',
-    title: 'Fingertips Biology Ch 04: Exam Scorer & Archive (92 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (13 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case (14 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (22 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH04_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH04_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Germ Layer, Coelom & Chordate Morphological Diagrams',
-      'Classification Matrices & Locomotion Matching',
-      '22 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH04_EXAM_SCORER,
-    enrolledStudentsCount: 44100,
-    avgScore: 325
-  },
-  {
-    id: 'test-ft-bio-ch05-morphology',
-    title: 'Fingertips Biology Ch 05: Morphology of Flowering Plants (125 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Root, Stem, Leaf, Inflorescence, Flower (Aestivation, Placentation), Fruit (Drupe, Berry), Seed (Dicot & Monocot) & Plant Families',
-    totalQuestions: FINGERTIPS_BIO_CH05_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH05_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '125 Line-by-Line NCERT Objective MCQs',
-      'Complete Root/Stem/Leaf/Floral Modifications & Diagrams',
-      'Families: Fabaceae, Solanaceae, Liliaceae, Brassicaceae, Asteraceae, Poaceae',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_CH05_MCQS,
-    enrolledStudentsCount: 48900,
-    avgScore: 420
-  },
-  {
-    id: 'test-ft-bio-ch05-exam-scorer',
-    title: 'Fingertips Biology Ch 05: Exam Scorer & Archive (80 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (8 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH05_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH05_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Aestivation, Placentation & Seed Longitudinal Section Figures',
-      'Floral Formula & Floral Diagram Case Studies',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH05_EXAM_SCORER,
-    enrolledStudentsCount: 41300,
-    avgScore: 305
-  },
-  {
-    id: 'test-ft-bio-ch06-anatomy',
-    title: 'Fingertips Biology Ch 06: Anatomy of Flowering Plants (140 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Meristematic & Permanent Tissues, Tissue Systems, Anatomy of Dicot & Monocot Roots, Stems, Leaves & Secondary Growth in Dicot Stem',
-    totalQuestions: FINGERTIPS_BIO_CH06_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH06_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '140 Line-by-Line NCERT Objective MCQs',
-      'Simple & Complex Tissues, Vascular Bundle Types (Conjoint/Radial)',
-      'Dicot vs Monocot Root/Stem/Leaf Cross-Sections',
-      'Periderm, Cork Cambium, Spring Wood & Autumn Wood'
-    ],
-    questions: FINGERTIPS_BIO_CH06_MCQS,
-    enrolledStudentsCount: 47200,
-    avgScore: 435
-  },
-  {
-    id: 'test-ft-bio-ch06-exam-scorer',
-    title: 'Fingertips Biology Ch 06: Exam Scorer & Archive (77 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (6 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (8 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH06_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH06_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & Advanced A&R Drills',
-      'Root, Stem, Leaf & Secondary Growth Diagram Identification',
-      'Venn Diagrams & Cell Structure Cross-Concept Questions',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH06_EXAM_SCORER,
-    enrolledStudentsCount: 39800,
-    avgScore: 315
-  },
-  {
-    id: 'test-ft-bio-ch07-structural-organisation',
-    title: 'Fingertips Biology Ch 07: Structural Organisation in Animals (120 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Epithelial, Connective, Muscular & Neural Tissues, Morphology & Anatomy of Cockroach (Periplaneta americana) & Frog (Rana tigrina)',
-    totalQuestions: FINGERTIPS_BIO_CH07_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH07_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '120 Line-by-Line NCERT Objective MCQs',
-      'Cell Junctions, Connective Tissue Classes & Muscle Types',
-      'Complete Cockroach Digestive, Circulatory, Excretory & Reproductive Systems',
-      'Frog Morphology, Organ Systems, Hibernation & Cutaneous Respiration'
-    ],
-    questions: FINGERTIPS_BIO_CH07_MCQS,
-    enrolledStudentsCount: 43600,
-    avgScore: 345
-  },
-  {
-    id: 'test-ft-bio-ch07-exam-scorer',
-    title: 'Fingertips Biology Ch 07: Exam Scorer & Archive (57 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar, A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (4 Qs), Figures (10 Qs), Multi (6 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH07_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH07_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Tissue Diagrams, Cockroach Mouthparts & Frog Viscera Identification',
-      'Venn Diagrams & Cell Structure Cross-Concept Questions',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH07_EXAM_SCORER,
-    enrolledStudentsCount: 38700,
-    avgScore: 310
-  },
-  {
-    id: 'test-ft-bio-ch08-cell-unit-of-life',
-    title: 'Fingertips Biology Ch 08: Cell: The Unit of Life (125 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Cell Theory, Prokaryotic & Eukaryotic Cells, Fluid Mosaic Model, Endomembrane System (ER, Golgi, Lysosomes, Vacuoles), Mitochondria, Plastids, Ribosomes, Cilia/Flagella, Nucleus & Chromosomes',
-    totalQuestions: FINGERTIPS_BIO_CH08_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH08_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '125 Line-by-Line NCERT Objective MCQs',
-      'Complete Prokaryotic Envelope, Mesosomes & Inclusion Bodies',
-      'Fluid Mosaic Membrane, Organellar Semiautonomy & Axonemal (9+2 / 9+0) Arrays',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH08_MCQS,
-    enrolledStudentsCount: 54300,
-    avgScore: 440
-  },
-  {
-    id: 'test-ft-bio-ch08-exam-scorer',
-    title: 'Fingertips Biology Ch 08: Exam Scorer & Archive (89 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (14 Qs), A&R (10 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (10 Qs), Multi (9 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH08_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH08_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Organellar Ultrastructure & Replicated Chromosome Diagrams',
-      'Case Studies on Endomembrane Coordination & Plastid Types',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH08_EXAM_SCORER,
-    enrolledStudentsCount: 46200,
-    avgScore: 330
-  },
-  {
-    id: 'test-ft-bio-ch09-biomolecules',
-    title: 'Fingertips Biology Ch 09: Biomolecules (90 NCERT MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemical Analysis (Acid-Soluble & Insoluble Pools), Amino Acids (Zwitterion), Lipids (Fatty Acids, Triglycerides, Phospholipids), Nucleotides, Primary/Secondary Metabolites, Biomacromolecules, Proteins (1-4 Structure), Polysaccharides, Nucleic Acids, Enzymes (Kinetics, Inhibition, Classes & Cofactors)',
-    totalQuestions: FINGERTIPS_BIO_CH09_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH09_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '90 Line-by-Line NCERT Objective MCQs',
-      'Complete Primary/Secondary Metabolites & Cellular Mass Table',
-      'Enzyme Activation Energy, Michaelis-Menten & Malonate Competitive Inhibition',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH09_MCQS,
-    enrolledStudentsCount: 52100,
-    avgScore: 320
-  },
-  {
-    id: 'test-ft-bio-ch09-exam-scorer',
-    title: 'Fingertips Biology Ch 09: Exam Scorer & Archive (88 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (14 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (7 Qs), NEET Archive (25 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH09_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH09_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Protein Structure Hierarchies, Ramachandran Plot & Enzyme Graphs',
-      'Purines, Pyrimidines & Tetrapeptide Structural Identification',
-      '25 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH09_EXAM_SCORER,
-    enrolledStudentsCount: 44800,
-    avgScore: 315
-  },
-  {
-    id: 'test-ft-bio-ch10-cell-cycle',
-    title: 'Fingertips Biology Ch 10: Cell Cycle & Division (100 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Phases of Cell Cycle (G1, S, G2, M, G0), Mitosis (Prophase, Metaphase, Anaphase, Telophase, Cytokinesis in Animals/Plants), Meiosis I (Prophase I: Leptotene to Diakinesis), Interkinesis, Meiosis II & Evolutionary Significance',
-    totalQuestions: FINGERTIPS_BIO_CH10_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH10_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'DNA Content (2C to 4C) & Chromosome Math Drills',
-      'Synaptonemal Complex, Crossing Over & Chiasmata Terminalisation',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH10_MCQS,
-    enrolledStudentsCount: 56700,
-    avgScore: 360
-  },
-  {
-    id: 'test-ft-bio-ch10-exam-scorer',
-    title: 'Fingertips Biology Ch 10: Exam Scorer & Archive (84 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (10 Qs), A&R (11 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (5 Qs), Multi (8 Qs), NEET Archive (15 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH10_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH10_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'DNA Content Histograms, Chromosome Shape & Centrosome Cycle Diagrams',
-      'Recombination Nodules, Chiasmata & Centromere Cleavage Stages',
-      '15 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH10_EXAM_SCORER,
-    enrolledStudentsCount: 48900,
-    avgScore: 320
-  },
-  {
-    id: 'test-ft-bio-ch11-photosynthesis',
-    title: 'Fingertips Biology Ch 11: Photosynthesis in Higher Plants (110 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Early Experiments (Priestley, Ingenhousz, Sachs, Engelmann, Van Niel), Pigments & Absorption Spectra, Light Reaction, Z-Scheme, Cyclic/Non-cyclic Photophosphorylation, Chemiosmotic Hypothesis, Calvin C3 Cycle, Hatch-Slack C4 Pathway, Photorespiration C2 Cycle & Limiting Factors',
-    totalQuestions: FINGERTIPS_BIO_CH11_MCQS.length,
-    durationMinutes: 70,
-    totalMarks: FINGERTIPS_BIO_CH11_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '110 Line-by-Line NCERT Objective MCQs',
-      'Complete Z-Scheme, CF0-CF1 Chemiosmosis & Calvin Cycle Turn Math',
-      'Kranz Leaf Anatomy, Dimorphic Chloroplasts & Photorespiration',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH11_MCQS,
-    enrolledStudentsCount: 58200,
-    avgScore: 395
-  },
-  {
-    id: 'test-ft-bio-ch11-exam-scorer',
-    title: 'Fingertips Biology Ch 11: Exam Scorer & Archive (90 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (14 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (11 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH11_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH11_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & Advanced A&R Drills',
-      'Chloroplast Ultrastructure, LHC & C4 Hatch-Slack Diagrams',
-      'Action Spectra Overlay & Carbon Fixation Cross-Concept Analysis',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH11_EXAM_SCORER,
-    enrolledStudentsCount: 49500,
-    avgScore: 335
-  },
-  {
-    id: 'test-ft-bio-ch12-respiration',
-    title: 'Fingertips Biology Ch 12: Respiration in Plants (100 NCERT MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Glycolysis (EMP Pathway, 10 Steps), Fermentation (Alcoholic & Lactic Acid), Aerobic Link Reaction (Pyruvate Dehydrogenase), Krebs TCA Cycle (Citric Acid to OAA), Electron Transport System (Complexes I-V), Oxidative Phosphorylation & Respiratory Quotient (RQ)',
-    totalQuestions: FINGERTIPS_BIO_CH12_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH12_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'Complete Glycolytic ATP Balance Sheet & Net 38 ATP Calculations',
-      'Complexes I-V, Mobile Carriers (UQ, Cyt c) & F0-F1 Chemiosmosis',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH12_MCQS,
-    enrolledStudentsCount: 55400,
-    avgScore: 375
-  },
-  {
-    id: 'test-ft-bio-ch12-exam-scorer',
-    title: 'Fingertips Biology Ch 12: Exam Scorer & Archive (85 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (8 Qs), A&R (10 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (12 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH12_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH12_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & Advanced A&R Drills',
-      'Krebs Cycle Intermediates, Complex I-IV ETS & Oxysome Diagrams',
-      'Ganong Respirometer, Substrate RQ & Pentose Phosphate Shunt Analysis',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH12_EXAM_SCORER,
-    enrolledStudentsCount: 47800,
-    avgScore: 310
-  },
-  {
-    id: 'test-ft-bio-ch13-plant-growth',
-    title: 'Fingertips Biology Ch 13: Plant Growth & Dev (110 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Growth Characteristics, Meristems, Growth Kinetics (Arithmetic Lt=L0+rt & Geometric W1=W0 e^rt), Sigmoid Curve, Differentiation, Dedifferentiation, Redifferentiation, Plasticity (Heterophylly), Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene & Abscisic Acid (ABA)',
-    totalQuestions: FINGERTIPS_BIO_CH13_MCQS.length,
-    durationMinutes: 70,
-    totalMarks: FINGERTIPS_BIO_CH13_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '110 Line-by-Line NCERT Objective MCQs',
-      'Growth Rate Math (AGR & RGR) & Open Indeterminate Growth',
-      'Discovery, Bioassays & Commercial Applications of Auxin, GA, Cytokinin, Ethylene & ABA',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH13_MCQS,
-    enrolledStudentsCount: 53100,
-    avgScore: 390
-  },
-  {
-    id: 'test-ft-bio-ch13-exam-scorer',
-    title: 'Fingertips Biology Ch 13: Exam Scorer & Archive (77 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (11 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (9 Qs), Figures (5 Qs), Multi (6 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH13_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH13_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & Advanced A&R Drills',
-      'Embryo Growth Phase & Absolute vs Relative Leaf Area Graphs',
-      'Chemical Nature & Hormone Antagonism Drills',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH13_EXAM_SCORER,
-    enrolledStudentsCount: 45200,
-    avgScore: 315
-  },
-  {
-    id: 'test-ft-bio-ch14-breathing',
-    title: 'Fingertips Biology Ch 14: Breathing & Gas Exchange (100 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Respiratory Organs across Animal Kingdom, Human Respiratory System Anatomy (Conducting vs Exchange Zone), Mechanism of Breathing (Inspiration/Expiration), Respiratory Volumes & Capacities (TV, IRV, ERV, RV, VC, FRC, TLC), Gas Exchange & Partial Pressures, Oxygen & CO2 Transport, Regulation & Pathologies (Asthma, Emphysema, Silicosis)',
-    totalQuestions: FINGERTIPS_BIO_CH14_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH14_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'Complete Pulmonary Volumes & Capacities Math',
-      'Oxyhaemoglobin Dissociation Curve & Bicarbonate Chloride Shift',
-      '100% Verified MTG Answer Key & Explanations'
-    ],
-    questions: FINGERTIPS_BIO_CH14_MCQS,
-    enrolledStudentsCount: 57400,
-    avgScore: 385
-  },
-  {
-    id: 'test-ft-bio-ch14-exam-scorer',
-    title: 'Fingertips Biology Ch 14: Exam Scorer & Archive (82 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (15 Qs), A&R (10 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (8 Qs), Figures (5 Qs), Multi (9 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH14_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH14_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Respiratory Passage, Inhalation Mechanics & Alveolar Circulation Figures',
-      'Bohr Effect & Gas Delivery Math Case Studies',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH14_EXAM_SCORER,
-    enrolledStudentsCount: 49800,
-    avgScore: 330
-  },
-  {
-    id: 'test-ft-bio-ch15-circulation',
-    title: 'Fingertips Biology Ch 15: Body Fluids and Circulation (125 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Blood Composition, Plasma Proteins, Formed Elements (RBCs, WBCs, Platelets), ABO & Rh Incompatibility (Erythroblastosis Foetalis), Coagulation Cascade (Thrombokinase, Thrombin, Fibrin), Lymphatic System, Human Heart Anatomy & Pacemaker, Cardiac Cycle, Heart Sounds (LUBB/DUPP), Cardiac Output, ECG Interpretation & Pathologies (Hypertension, CAD, Atherosclerosis, Angina, Heart Failure)',
-    totalQuestions: FINGERTIPS_BIO_CH15_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH15_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '125 Line-by-Line NCERT Objective MCQs',
-      'Complete Cardiac Cycle, ECG Waves (P, QRS, T) & Conduction Pathway Drills',
-      'Stroke Volume & Cardiac Output Calculation Problems',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_CH15_MCQS,
-    enrolledStudentsCount: 59300,
-    avgScore: 410
-  },
-  {
-    id: 'test-ft-bio-ch15-exam-scorer',
-    title: 'Fingertips Biology Ch 15: Exam Scorer & Archive (82 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (16 Qs), A&R (10 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (14 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (15 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH15_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH15_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Blood Vessel Histology, Heart Section & ECG Tracing Identification',
-      'Blood Pressure Gradient & Cardiac Cycle Circular Stage Graphs',
-      '15 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH15_EXAM_SCORER,
-    enrolledStudentsCount: 51200,
-    avgScore: 335
-  },
-  {
-    id: 'test-ft-bio-ch16-excretion',
-    title: 'Fingertips Biology Ch 16: Excretory Products & Elimination (105 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Modes of Excretion (Ammonotelism, Ureotelism, Uricotelism), Excretory Organs in Animals, Human Excretory System Anatomy (Gross Kidney, Nephron Structure, Cortical vs Juxtamedullary), Urine Formation (Glomerular Ultrafiltration, Net EFP, Selective Reabsorption, Tubular Secretion), Counter-Current Mechanism (Henle & Vasa Recta), Regulation (Hypothalamus/ADH, JGA/RAAS, Heart/ANF), Micturition & Disorders (Uremia, Hemodialysis, Calculi, Glomerulonephritis)',
-    totalQuestions: FINGERTIPS_BIO_CH16_MCQS.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_CH16_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '105 Line-by-Line NCERT Objective MCQs',
-      'Net Effective Filtration Pressure & GFR Balance Sheet Math',
-      'Countercurrent Multiplier Gradient & RAAS/ANF Osmoregulation',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_CH16_MCQS,
-    enrolledStudentsCount: 56100,
-    avgScore: 390
-  },
-  {
-    id: 'test-ft-bio-ch16-exam-scorer',
-    title: 'Fingertips Biology Ch 16: Exam Scorer & Archive (80 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (15 Qs), A&R (10 Qs), Statements (5 Qs), Matching (6 Qs), Case-Based (15 Qs), Figures (5 Qs), Multi (10 Qs), NEET Archive (14 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH16_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH16_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Nephron Histology, Malpighian Body & Urinary System Diagrams',
-      'Reabsorption Curve, Osmolar Gradient & RAAS Flow Chart Analysis',
-      '14 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH16_EXAM_SCORER,
-    enrolledStudentsCount: 52400,
-    avgScore: 320
-  },
-  {
-    id: 'test-ft-bio-ch17-locomotion',
-    title: 'Fingertips Biology Ch 17: Locomotion and Movement (125 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Amoeboid/Ciliary/Muscular Movement, Skeletal Muscle Histology, Syncytium, Sarcomere, Actin (F-actin, Tropomyosin, Troponin), Myosin (HMM/LMM, ATPase), Sliding Filament Theory, Cross-Bridge Cycle, Red vs White Fibres, Axial Skeleton (80 bones: Skull, Vertebral Column, Ribs, Sternum), Appendicular Skeleton (126 bones: Limbs, Pectoral & Pelvic Girdles), Joints (Fibrous, Cartilaginous, Synovial) & Disorders (Myasthenia Gravis, Tetany, Muscular Dystrophy, Arthritis, Osteoporosis, Gout)',
-    totalQuestions: FINGERTIPS_BIO_CH17_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_CH17_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '125 Line-by-Line NCERT Objective MCQs',
-      'Complete 206 Bones Anatomical Formulae & Joint Classification',
-      'Sliding Filament Cross-Bridge Cycle & Biochemical ATP Hydrolysis',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_CH17_MCQS,
-    enrolledStudentsCount: 58900,
-    avgScore: 420
-  },
-  {
-    id: 'test-ft-bio-ch17-exam-scorer',
-    title: 'Fingertips Biology Ch 17: Exam Scorer & Archive (86 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (14 Qs), A&R (15 Qs), Statements (10 Qs), Matching (7 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (13 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH17_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_CH17_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Sarcomere Striation Histology, Skull Bones & Pectoral Girdle Figures',
-      'Fast-Oxidative Fibres, Wave Summation & Rigor Mortis Tension Graphs',
-      '13 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH17_EXAM_SCORER,
-    enrolledStudentsCount: 51800,
-    avgScore: 335
-  },
-  {
-    id: 'test-ft-bio-ch18-neural-control',
-    title: 'Fingertips Biology Ch 18: Neural Control and Coordination (80 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Human Neural System (CNS, PNS, Somatic, Autonomic: Sympathetic & Parasympathetic), Multipolar/Bipolar/Unipolar Neurons, Myelinated vs Unmyelinated Axons, Resting Potential (-70 mV, Na+/K+ ATPase Pump), Action Potential (+30 mV, Na+ Influx), Saltatory Conduction, Synaptic Transmission (Electrical vs Chemical, Acetylcholine, Cleft, Receptors), Meninges (Dura, Arachnoid, Pia), Forebrain (Cerebrum, Thalamus, Hypothalamus, Limbic System), Midbrain (Corpora Quadrigemina, Cerebral Aqueduct), Hindbrain (Pons, Cerebellum, Medulla Oblongata) & Spinal Cord',
-    totalQuestions: FINGERTIPS_BIO_CH18_MCQS.length,
-    durationMinutes: 50,
-    totalMarks: FINGERTIPS_BIO_CH18_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '80 Line-by-Line NCERT Objective MCQs',
-      'Action Potential Depolarisation/Repolarisation & Synaptic Delay',
-      'Brain Gross Anatomy, Limbic Emotional Axis & Meningeal Layers',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_CH18_MCQS,
-    enrolledStudentsCount: 57400,
-    avgScore: 285
-  },
-  {
-    id: 'test-ft-bio-ch18-exam-scorer',
-    title: 'Fingertips Biology Ch 18: Exam Scorer & Archive (58 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (5 Qs), A&R (10 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (8 Qs), Figures (5 Qs), Multi (6 Qs), NEET Archive (12 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH18_EXAM_SCORER.length,
+    syllabus: 'Unit 1: The Living World, Biological Classification, Plant Kingdom & Animal Kingdom (45 High-Yield NCERT Questions)',
+    totalQuestions: 45,
     durationMinutes: 45,
-    totalMarks: FINGERTIPS_BIO_CH18_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Synapse Ultrastructure, Local Current Loops & Brain Sagittal View',
-      'Neurosecretory Nuclei, Association Areas & Thermoregulation',
-      '12 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH18_EXAM_SCORER,
-    enrolledStudentsCount: 49800,
-    avgScore: 215
-  },
-  {
-    id: 'test-ft-bio-ch19-chemical-coordination',
-    title: 'Fingertips Biology Ch 19: Chemical Coordination and Integration (105 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Endocrine Glands & Hormones, Hypothalamus (Releasing/Inhibiting factors), Pituitary Gland (GH, PRL, TSH, ACTH, LH, FSH, MSH, Oxytocin, Vasopressin/ADH), Pineal Gland (Melatonin), Thyroid Gland (T3, T4, TCT), Parathyroid Gland (PTH), Thymus Gland (Thymosins), Adrenal Gland (Cortex: Mineralocorticoids/Aldosterone, Glucocorticoids/Cortisol, Sexcorticoids; Medulla: Adrenaline & Noradrenaline), Pancreas (Islets: Glucagon, Insulin, Somatostatin), Testis (Androgens/Testosterone), Ovary (Estrogen, Progesterone), Hormones of Heart (ANF), Kidney (Erythropoietin), GI Tract (Gastrin, Secretin, CCK, GIP) & Mechanism of Hormone Action (Peptide/2nd Messenger cAMP/Ca2+ vs Steroid/Genomic DNA HRE)',
-    totalQuestions: FINGERTIPS_BIO_CH19_MCQS.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_CH19_MCQS.length * 4,
+    totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
+    scheduledDate: '2026-09-06',
     features: [
-      '105 Line-by-Line NCERT Objective MCQs',
-      'Comprehensive Endocrine Disorders (Acromegaly, Graves, Addison, Diabetes, Tetany)',
-      'Dual Signaling: Membrane GPCR 2nd Messenger vs Intracellular Nuclear Receptors',
-      '100% Verified MTG Answer Key & Solutions'
+      '45 Standard NEET Exam Questions (180 Marks)',
+      'Allotted Time: 45 Minutes (1 Min per Question)',
+      'Unit 1 Mastery: Binomial rules, 5 Kingdoms, Algae/Gymnosperms & Non-chordates',
+      'All India Percentile & Weak Area Diagnostic'
     ],
-    questions: FINGERTIPS_BIO_CH19_MCQS,
-    enrolledStudentsCount: 61200,
-    avgScore: 360
+    questions: get45(FINGERTIPS_BIO_CH01_MCQS),
+    enrolledStudentsCount: 142000,
+    avgScore: 148
   },
   {
-    id: 'test-ft-bio-ch19-exam-scorer',
-    title: 'Fingertips Biology Ch 19: Exam Scorer & Archive (76 Qs)',
-    category: 'minor',
+    id: 'test-sunday-02',
+    title: 'Sunday Mock 02: Structural Organisation in Plants & Animals (45 Qs)',
+    category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'NCERT Exemplar (15 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (6 Qs), NEET Archive (10 Qs)',
-    totalQuestions: FINGERTIPS_BIO_CH19_EXAM_SCORER.length,
-    durationMinutes: 55,
-    totalMarks: FINGERTIPS_BIO_CH19_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Hypophyseal Portal System, Thyroid Histology & Adrenal Zonation Diagrams',
-      'Negative Feedback Loops, Glucose Tolerance & Hormone Classification',
-      '10 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_CH19_EXAM_SCORER,
-    enrolledStudentsCount: 53100,
-    avgScore: 295
-  },
-  {
-    id: 'test-ft-bio-c12-ch01-sexual-reproduction',
-    title: 'Fingertips Biology Class 12 Ch 01: Sexual Reproduction in Flowering Plants (125 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Flower Anatomy, Microsporangium & Anther Wall (Epidermis, Endothecium, Middle layers, Tapetum), Microsporogenesis, Pollen Grain Structure (Exine sporopollenin, Intine, Germ pores, 2/3-celled shedding, Viability), Megasporogenesis & Polygonum Embryo Sac (Egg apparatus, Antipodals, Polar nuclei), Pollination (Autogamy, Geitonogamy, Xenogamy; Anemophily, Hydrophily, Entomophily), Outbreeding Devices (Dioecy, Self-incompatibility), Pollen-Pistil Interaction, Double Fertilisation (Syngamy + Triple fusion), Endosperm Development (Free nuclear vs Cellular), Dicot & Monocot Embryogeny (Scutellum, Coleoptile, Coleorrhiza), Seed Structure (Albuminous vs Exalbuminous, Perisperm), False/True/Parthenocarpic Fruits, Apomixis & Polyembryony',
-    totalQuestions: FINGERTIPS_BIO_C12_CH01_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_C12_CH01_MCQS.length * 4,
+    syllabus: 'Unit 2: Morphology of Flowering Plants, Anatomy of Flowering Plants, Animal Tissues & Cockroach/Frog',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
+    scheduledDate: '2026-09-13',
     features: [
-      '125 Line-by-Line NCERT Objective MCQs',
-      'Pollen-Pistil Dialogue, Embryo Sac 7-Celled 8-Nucleate Architecture',
-      'Double Fertilisation Energetics & Chromosomal Ploidy Calculations',
-      '100% Verified MTG Answer Key & Solutions'
+      '45 Precision NCERT Line-by-Line Questions',
+      'Floral Formulas, Dicot/Monocot Anatomy & Epithelial/Connective Tissues',
+      'Allotted Time: 45 Minutes (180 Marks)',
+      'Detailed Step Solutions with NCERT Page References'
     ],
-    questions: FINGERTIPS_BIO_C12_CH01_MCQS,
-    enrolledStudentsCount: 68400,
-    avgScore: 430
-  },
-  {
-    id: 'test-ft-bio-c12-ch01-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 01: Exam Scorer & Archive (75 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (20 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (10 Qs), Multi (7 Qs), NEET Archive (10 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER.length,
-    durationMinutes: 55,
-    totalMarks: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Anther Wall Histology, Grass/Dicot Embryo L.S. & Apple False Fruit Diagrams',
-      'Boron-Pollen Germination, Cleistogamy & Monosporic Embryogeny',
-      '10 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH01_EXAM_SCORER,
-    enrolledStudentsCount: 58900,
-    avgScore: 295
-  },
-  {
-    id: 'test-ft-bio-c12-ch02-human-reproduction',
-    title: 'Fingertips Biology Class 12 Ch 02: Human Reproduction (150 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Male Reproductive System (Scrotum thermoregulation, Seminiferous tubules, Leydig cells androgens, Sertoli cells, Rete testis, Vasa efferentia, Epididymis, Vas deferens, Ejaculatory duct, Seminal vesicles fructose/calcium, Prostate gland, Bulbourethral Cowper glands), Female Reproductive System (Ovaries, Oviducts/Fallopian tubes infundibulum/ampulla/isthmus, Uterus perimetrium/myometrium/endometrium, Cervix & Vagina birth canal, External vulva mons pubis/labia/clitoris, Mammary glands alveoli/ducts), Gametogenesis (Spermatogenesis vs Oogenesis, Sperm anatomy head/acrosome/middle piece mitochondria/tail, Folliculogenesis primary/secondary/tertiary antrum/Graafian follicle, Polar bodies), Menstrual Cycle (Menstrual, Proliferative/Follicular under FSH/Estrogen, Day 14 LH surge ovulation, Luteal/Secretory under Progesterone, Menopause), Fertilisation & Implantation (Capacitation, Acrosome reaction, Cortical reaction ZP block, Cleavage, Morula 8-16 cells, Blastocyst trophoblast & ICM, Day 7 implantation), Pregnancy & Embryonic Development (Placenta chorionic villi, hCG/hPL/Relaxin, Ectoderm/Mesoderm/Endoderm fate, Gestational milestones), Parturition & Lactation (Fetal Ejection Reflex, Oxytocin, Colostrum IgA antibodies)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH02_MCQS.length,
-    durationMinutes: 90,
-    totalMarks: FINGERTIPS_BIO_C12_CH02_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '150 Line-by-Line NCERT Objective MCQs',
-      'Male & Female Reproductive Anatomy, Histology & Ducts',
-      'Gametogenesis Ploidy Calculations & Menstrual Cycle Hormonal Graphs',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH02_MCQS,
-    enrolledStudentsCount: 71200,
-    avgScore: 510
-  },
-  {
-    id: 'test-ft-bio-c12-ch02-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 02: Exam Scorer & Archive (74 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (15 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (13 Qs), Figures (10 Qs), Multi (6 Qs), NEET Archive (15 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER.length,
-    durationMinutes: 55,
-    totalMarks: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Sperm Structure, Graafian Follicle, Ovary Section & Pituitary Hormone Graphs',
-      'Seminiferous Tubule Histology & Blastocyst Implantation Analysis',
-      '15 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH02_EXAM_SCORER,
-    enrolledStudentsCount: 62400,
-    avgScore: 290
-  },
-  {
-    id: 'test-ft-bio-c12-ch03-reproductive-health',
-    title: 'Fingertips Biology Class 12 Ch 03: Reproductive Health (100 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Reproductive Health Problems & Strategies (National Family Planning 1951, RCH, Amniocentesis statutory ban on sex determination), Population Explosion & Demography (Decline in MMR/IMR, 2011 census growth rate), Birth Control & Contraception (Natural: Periodic abstinence days 10-17, Coitus interruptus, Lactational amenorrhea; Barrier: Condoms Nirodh/femidoms STI protection, Diaphragms, Cervical caps, Vaults; Chemical: Spermicides nonoxynol-9; IUDs: Non-medicated Lippes loop, Copper CuT/Cu7/Multiload 375, Hormone Progestasert/LNG-20; Oral pills: Combined Mala-D, Mini pills, Non-steroidal Saheli centchroman CDRI; Injections DMPA/NET-EN & Subdermal Implants Norplant; Surgical: Vasectomy & Tubectomy), Medical Termination of Pregnancy (MTP legalised 1971, First trimester safety), Sexually Transmitted Infections (STIs: Syphilis, Gonorrhoea, Chlamydiasis, Trichomoniasis, Incurable: AIDS, Hepatitis B, Genital herpes, Complications: PID, Infertility, Ectopic pregnancy), Infertility & Assisted Reproductive Technologies (ART: Test-tube baby IVF-ET, ZIFT <=8 cells, IUT >8 cells, GIFT gamete transfer, ICSI sperm microinjection, AI/IUI)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH03_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH03_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'Contraceptive Mechanisms (Copper Motility, Hormonal Cervical Mucus, Sterilisation)',
-      'STI Causative Pathogens & ART Clinical Criteria (ZIFT vs IUT vs GIFT vs ICSI)',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH03_MCQS,
-    enrolledStudentsCount: 69800,
-    avgScore: 360
-  },
-  {
-    id: 'test-ft-bio-c12-ch03-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 03: Exam Scorer & Archive (85 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (13 Qs), A&R (15 Qs), Statements (10 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (7 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Contraceptive Device Classification, Fallopian Tube Blockage & IVF Stage Diagrams',
-      'Amniocentesis Karyotyping & Fetal Ejection Reflex Clinical Insights',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH03_EXAM_SCORER,
-    enrolledStudentsCount: 61500,
-    avgScore: 325
-  },
-  {
-    id: 'test-ft-bio-c12-ch04-principles-of-inheritance',
-    title: 'Fingertips Biology Class 12 Ch 04: Principles of Inheritance and Variation (125 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Mendel Laws of Inheritance (Garden pea 7 contrasting traits, Law of Dominance, Law of Segregation purity of gametes, Monohybrid cross 3:1 pheno 1:2:1 geno, Test cross 1:1), Deviations from Mendelism (Incomplete dominance Antirrhinum 1:2:1, Co-dominance ABO blood groups IA/IB/i and roan cattle, Multiple allelism population genetics, Starch synthesis pleiotropy), Dihybrid Cross & Independent Assortment (9:3:3:1 pheno, 1:1:1:1 test cross), Chromosomal Theory of Inheritance (Sutton & Boveri 1902, Meiotic parallelism), Linkage & Recombination (Morgan Drosophila crosses, Sturtevant genetic mapping 1 cM = 1% recombination), Polygenic Inheritance (Human skin pigmentation AABBCC, Wheat kernel), Pleiotropy (PKU phenylalanine hydroxylase), Sex Determination (XX-XY humans/Drosophila, XX-XO grasshoppers, ZZ-ZW birds, Haplodiploidy honeybees 32 female / 16 drone), Mutations (Point GAG->GUG, Frameshift indels, Chromosomal aneuploidy/polyploidy), Pedigree Analysis & Genetic Disorders (Mendelian: Haemophilia X-linked recessive, Colour blindness X-linked, Sickle-cell anaemia beta-6 Glu->Val, Phenylketonuria, Thalassemia alpha-16/beta-11, Myotonic dystrophy autosomal dominant; Chromosomal: Down syndrome Trisomy 21 Langdon Down, Klinefelter syndrome 47,XXY sterile gynaecomastia, Turner syndrome 45,XO streak ovaries)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH04_MCQS.length,
-    durationMinutes: 80,
-    totalMarks: FINGERTIPS_BIO_C12_CH04_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      '125 Line-by-Line NCERT Objective MCQs',
-      'Mendelian Crosses, Probability Calculations & Punnett Grids',
-      'ABO Multiple Allelism, Recombination Frequency Maps & Pedigree Trees',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH04_MCQS,
-    enrolledStudentsCount: 78500,
-    avgScore: 420
-  },
-  {
-    id: 'test-ft-bio-c12-ch04-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 04: Exam Scorer & Archive (100 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (17 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (10 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH04_EXAM_SCORER.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_C12_CH04_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Morgan Linkage Drosophila Cross Diagrams & Gene Mapping',
-      'Sickle Cell HbS Gel & Chromosomal Aneuploidy Karyotypes',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH04_EXAM_SCORER,
-    enrolledStudentsCount: 73200,
-    avgScore: 380
-  },
-  {
-    id: 'test-ft-bio-c12-ch05-molecular-basis',
-    title: 'Fingertips Biology Class 12 Ch 05: Molecular Basis of Inheritance (100 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'DNA Structure & Chargaff Rules (Double helix Watson & Crick 1953, 3.4 nm pitch, 10 bp/turn, A=T, G=C, Phosphodiester 3-5 bonds), DNA Packaging (Histone octamer Lys/Arg basic proteins, 200 bp nucleosome beads-on-string, H1 linker, Euchromatin vs Heterochromatin), Search for Genetic Material (Griffith 1928 Streptococcus transformation, Avery-MacLeod-McCarty 1944 DNase proof, Hershey-Chase 1952 P32/S35 bacteriophage), RNA World (Primordial ribozymes, mRNA/tRNA/rRNA), DNA Replication (Meselson-Stahl 1958 E. coli CsCl N15/N14 semi-conservative proof, Taylor Vicia faba, 2000 bp/sec rate, Leading continuous vs Lagging Okazaki fragments DNA ligase), Transcription (Promoter/Structural/Terminator, RNA Pol I/II/III, Polycistronic vs Monocistronic, Capping 5-mGppp, Tailing poly-A 3, Splicing introns), Genetic Code (Triplet, 64 codons, Degenerate, Unambiguous, Universal, AUG initiator Methionine, UAA/UAG/UGA stop codons), Translation (tRNA adapter clover-leaf/inverted-L, Aminoacylation/Charging, 80S/70S Ribosomes, Peptidyl transferase 23S rRNA), lac Operon (Jacob & Monod 1961, Repressor i gene, Operator o, Structural z-y-a, Lactose inducer, Negative regulation), HGP & DNA Fingerprinting (3.16 billion bp, 30000 genes, Dystrophin 2.4 Mb, ESTs vs Annotation, Alec Jeffreys VNTR Southern Blotting)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH05_MCQS.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_C12_CH05_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'Chargaff Equivalence Calculations & Central Dogma Flowcharts',
-      'Meselson-Stahl Centrifugation Density Bands & lac Operon Logic',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH05_MCQS,
-    enrolledStudentsCount: 84100,
-    avgScore: 375
-  },
-  {
-    id: 'test-ft-bio-c12-ch05-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 05: Exam Scorer (68 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (28 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (10 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER.length,
-    durationMinutes: 50,
-    totalMarks: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'DNA Fingerprinting VNTR Autoradiograms & Forensics Crime Case Studies',
-      'Meselson-Stahl Nitrogen Isotope Generation Tracking & Splicing Mechanisms',
-      'High-Yield Molecular Genetics Master Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH05_EXAM_SCORER,
-    enrolledStudentsCount: 76800,
-    avgScore: 295
-  },
-  {
-    id: 'test-ft-bio-c12-ch06-evolution',
-    title: 'Fingertips Biology Class 12 Ch 06: Evolution (100 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Origin of Life (Big Bang 13.8/20 bya, Earth 4.5 bya, Life 4 bya, Abiogenesis vs Biogenesis Pasteur swan neck, Oparin-Haldane chemical evolution, Miller-Urey 1953 spark discharge 800 C CH4/NH3/H2/H2O amino acids), Theories of Evolution (Lamarckism 1809 use & disuse Weismann disproof, Darwinism 1859 HMS Beagle Wallace Malay Archipelago branching descent natural selection reproductive fitness, Hugo de Vries Mutation Theory Oenothera saltation random directionless), Evidences for Evolution (Palaeontology sedimentary fossils Archaeopteryx reptilian/avian connecting link, Comparative anatomy: Homology divergent Bougainvillea/Cucurbita vertebrate forelimbs, Analogy convergent octopus/mammal eyes penguin/dolphin flippers sweet potato root / potato stem, Industrial Melanism Biston betularia natural selection, Adaptive Radiation Galapagos finches & Australian marsupials vs placental mammals), Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1, p+q=1, Drift/Gene flow/Recombination/Mutation/Selection, Selection types: Stabilising birth weight, Directional industrial melanism/milk, Disruptive bimodal), Geological Time Scale & Human Evolution (Coelacanth lobefins 350 mya, Dinosaurs extinction 65 mya, Lineage: Dryopithecus & Ramapithecus 15 mya -> Australopithecus 2 mya stone weapons fruit -> Homo habilis 650-800 cc no meat -> Homo erectus 1.5 mya Java 900 cc meat eater -> Neanderthal 1400 cc 100000-40000 yrs hides buried dead -> Homo sapiens ice age 75000-10000 yrs Bhimbetka cave art 18000 yrs agriculture 10000 yrs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH06_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH06_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'Homology vs Analogy Categorisation & Convergent Evolution',
-      'Hardy-Weinberg Algebraic Calculations & Hominid Cranial Capacities',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH06_MCQS,
-    enrolledStudentsCount: 79200,
-    avgScore: 365
-  },
-  {
-    id: 'test-ft-bio-c12-ch06-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 06: Exam Scorer & Archive (86 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (18 Qs), A&R (15 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (10 Qs), Figures (10 Qs), Multi (13 Qs), NEET Archive (15 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Geological Plant & Dinosaur Evolution Trees, Miller Apparatus & Skull Anatomies',
-      'Hardy-Weinberg Frequency Distributions & Cladogram Phylogenetic Analysis',
-      '15 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH06_EXAM_SCORER,
-    enrolledStudentsCount: 71400,
-    avgScore: 330
-  },
-  {
-    id: 'test-ft-bio-c12-ch07-human-health',
-    title: 'Fingertips Biology Class 12 Ch 07: Human Health & Disease (115 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Common Human Diseases (Typhoid Salmonella Widal, Pneumonia Streptococcus/Haemophilus alveoli, Common cold Rhinovirus, Malaria Plasmodium digenetic life cycle haemozoin, Amoebiasis Entamoeba, Ascariasis Ascaris roundworm, Filariasis Wuchereria Culex, Ringworm Microsporum/Trichophyton/Epidermophyton), Immunity (Innate barriers: Physical skin/mucus, Physiological HCl/saliva/tears, Cellular PMNL/monocytes/macrophages, Cytokine interferons; Acquired immunity: Primary IgM vs Secondary IgG anamnestic, B-cells AMIS antibodies H2L2, T-cells CMIS graft rejection, Active vs Passive colostrum IgA antivenom ATS), Vaccination & Allergies (IgE mast cell histamine, Autoimmunity Rheumatoid arthritis), Lymphoid Organs (Primary: Bone marrow & Thymus; Secondary: Spleen, Lymph nodes, MALT 50%), AIDS (HIV retrovirus ssRNA reverse transcriptase helper Th CD4 destruction ELISA), Cancer (Loss of contact inhibition, Metastasis, Carcinogens, Biopsy, MRI non-ionizing, alpha-interferon), Drugs & Alcohol Abuse (Opioids morphine poppy latex / smack diacetylmorphine, Cannabinoids Cannabis inflorescence cardiovascular, Cocaine Erythroxylum dopamine, Hallucinogens Datura/Atropa/LSD, Tobacco nicotine catecholamines, Alcohol cirrhosis)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH07_MCQS.length,
-    durationMinutes: 70,
-    totalMarks: FINGERTIPS_BIO_C12_CH07_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '115 Line-by-Line NCERT Objective MCQs',
-      'Pathogen Life Cycles (Plasmodium, HIV, Wuchereria)',
-      'Immunity Barriers, Antibody H2L2 Structure & Lymphoid Organs',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH07_MCQS,
-    enrolledStudentsCount: 84300,
-    avgScore: 378
-  },
-  {
-    id: 'test-ft-bio-c12-ch07-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 07: Exam Scorer & Archive (97 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (23 Qs), A&R (15 Qs), Statements (5 Qs), Matching (5 Qs), Case-Based (13 Qs), Figures (5 Qs), Multi (5 Qs), NEET Archive (21 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH07_EXAM_SCORER.length,
-    durationMinutes: 70,
-    totalMarks: FINGERTIPS_BIO_C12_CH07_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Antibody Anatomy, HIV Replication Cycle & Drug Chemical Structures',
-      'R-Plasmid Conjugation & Multi-Drug Resistance Clinical Cases',
-      '21 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH07_EXAM_SCORER,
-    enrolledStudentsCount: 76500,
-    avgScore: 345
-  },
-  {
-    id: 'test-ft-bio-c12-ch08-microbes-mcqs',
-    title: 'Fingertips Biology Class 12 Ch 08: Microbes in Human Welfare (89 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Household Products (Lactobacillus LAB curd vitamin B12, Baker yeast Saccharomyces bread, Swiss cheese Propionibacterium CO2 holes, Roquefort Penicillium, Toddy palm), Industrial Products (Fermented beverages brewer yeast distilled whisky/rum/brandy vs undistilled wine/beer, Penicillin Fleming/Chain/Florey, Organic acids: Citric Aspergillus, Acetic Acetobacter, Butyric Clostridium, Lactic Lactobacillus, Enzymes: Lipases detergents, Pectinases/proteases fruit juice, Streptokinase clot buster, Bioactive molecules: Cyclosporin A Trichoderma immunosuppressant, Statins Monascus blood cholesterol inhibitor), Sewage Treatment (Primary physical filtration/sedimentation primary sludge -> Secondary biological aeration flocs BOD reduction -> Activated sludge -> Anaerobic digester biogas CH4/CO2/H2S), Biogas (Methanobacterium cattle rumen gobar gas IARI KVIC), Biocontrol (Ladybird aphids, Dragonflies mosquitoes, Bacillus thuringiensis Bt Cry toxin caterpillars, Trichoderma soil fungus, Baculoviruses NPV narrow spectrum IPM), Biofertilisers (Free-living Azotobacter/Azospirillum, Symbiotic Rhizobium legumes root nodules, Mycorrhizae Glomus phosphorus uptake, Cyanobacteria Anabaena/Nostoc paddy)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH08_MCQS.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH08_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '89 Line-by-Line NCERT Objective MCQs',
-      'Industrial Microbial Fermentation & Secondary Metabolites',
-      'Sewage STP Treatment Stages & Biogas Digester Architecture',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH08_MCQS,
-    enrolledStudentsCount: 78900,
-    avgScore: 362
-  },
-  {
-    id: 'test-ft-bio-c12-ch08-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 08: Exam Scorer & Archive (83 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (18 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (15 Qs), Multi (9 Qs), NEET Archive (18 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH08_EXAM_SCORER.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_C12_CH08_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Sewage BOD Water Quality Analysis & Microbe-Product Matching',
-      'Batch vs Fed-Batch Fermentation & Biogas Generation Stages',
-      '18 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH08_EXAM_SCORER,
-    enrolledStudentsCount: 74200,
-    avgScore: 350
-  },
-  {
-    id: 'test-ft-bio-c12-ch09-biotech-principles',
-    title: 'Fingertips Biology Class 12 Ch 09: Biotech Principles & Processes (120 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Principles of Biotechnology (Genetic Engineering Cohen & Boyer 1972 first rDNA Salmonella typhimurium, Bioprocess Engineering), Tools of rDNA Technology: Restriction Enzymes (EcoRI 5-GAATTC-3 staggered sticky ends, Hind II hexanucleotide), DNA Ligase, Agarose Gel Electrophoresis (EtBr UV bright orange bands, Elution), Cloning Vectors (pBR322: ori copy number, rop replication proteins, ampR Pvu I/Pst I, tetR BamHI/Sal I; Insertional Inactivation lacZ beta-galactosidase blue-white screening), Plant & Animal Vectors (Ti-plasmid Agrobacterium tumefaciens disarmed T-DNA, Retroviruses), Competent Host (Ca2+ divalent cations, Heat shock 42 C, Biolistics / Gene gun gold/tungsten particles, Microinjection), Processes of rDNA Technology: Isolation of DNA & Spooling chilled ethanol, PCR (Denaturation 94 C, Annealing 40-60 C, Extension 72 C Taq DNA Polymerase Thermus aquaticus 2^n amplification), Bioreactors (Simple stirred-tank & Sparged stirred-tank), Downstream Processing (Separation, purification, preservatives, clinical trials)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH09_MCQS.length,
-    durationMinutes: 75,
-    totalMarks: FINGERTIPS_BIO_C12_CH09_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '120 Line-by-Line NCERT Objective MCQs',
-      'pBR322 Vector Anatomy & Insertional Inactivation (Blue-White Screening)',
-      'PCR Cycle Calculations (2^n Amplification) & Taq Polymerase Kinetics',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH09_MCQS,
-    enrolledStudentsCount: 88500,
-    avgScore: 382
-  },
-  {
-    id: 'test-ft-bio-c12-ch09-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 09: Exam Scorer & Archive (86 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (19 Qs), A&R (15 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (15 Qs), Figures (5 Qs), Multi (7 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Southern Blotting Restriction Mapping & Replica Plating Recombinant Selection',
-      'Bioreactor Mechanical Schematics & Agarose Gel Migration Analysis',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH09_EXAM_SCORER,
-    enrolledStudentsCount: 81200,
-    avgScore: 355
-  },
-  {
-    id: 'test-ft-bio-c12-ch10-biotech-applications',
-    title: 'Fingertips Biology Class 12 Ch 10: Biotech & Its Applications (110 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Plant Tissue Culture (Cellular Totipotency Haberlandt, Explants, Callus/Suspension Culture, Micropropagation Somaclones, Meristem Culture virus-free, Somatic Hybridisation Protoplast fusion Pomato), Transgenic Plants (Bt Cotton Cry proteins cryIAc/cryIIAb/cryIAb alkaline midgut activation, RNA Interference Meloidogyne incognita dsRNA gene silencing Dicer/RISC, Golden Rice provitamin A beta-carotene, Flavr Savr tomato antisense polygalacturonase), Medicine (Genetically Engineered Insulin Humulin Eli Lilly 1983 A/B chains in E. coli without C-peptide, ADA Gene Therapy 1990 retroviral vector SCID, Molecular Diagnosis: PCR, ELISA antigen-antibody, Radioactive probes autoradiography), Transgenic Animals (Rosie Cow alpha-lactalbumin 2.4 g/L, alpha-1-antitrypsin emphysema, Transgenic mice polio vaccine safety), Ethical Issues & Biopiracy (GEAC, US Basmati Patent 1997, Turmeric/Neem patents, Indian Patents Bill 2nd Amendment, Biowar)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH10_MCQS.length,
-    durationMinutes: 70,
-    totalMarks: FINGERTIPS_BIO_C12_CH10_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '110 Line-by-Line NCERT Objective MCQs',
-      'Bt Toxin Mechanism & RNA Interference (RNAi) Gene Silencing Drills',
-      'Humulin Maturation & ADA Retroviral Gene Therapy Flowcharts',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH10_MCQS,
-    enrolledStudentsCount: 92400,
-    avgScore: 388
-  },
-  {
-    id: 'test-ft-bio-c12-ch10-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 10: Exam Scorer & Archive (80 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (15 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (8 Qs), Multi (6 Qs), NEET Archive (21 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH10_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH10_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Insulin Disulphide Bridge Structure & Proinsulin Cleavage Analytics',
-      'Transgenic Model Matrices & Biopiracy Legal Precedents',
-      '21 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH10_EXAM_SCORER,
-    enrolledStudentsCount: 84600,
-    avgScore: 360
-  },
-  {
-    id: 'test-ft-bio-c12-ch11-organisms-populations',
-    title: 'Fingertips Biology Class 12 Ch 11: Organisms & Populations (135 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Organism and Its Environment: Ramdeo Misra Father of Indian Ecology, Major Biomes (Tropical, Deciduous, Desert, Coniferous Taiga, Tundra), Abiotic Factors (Temperature: Eurythermal/Stenothermal, Water: Euryhaline/Stenohaline salinity, Light: Sciophytes/Heliophytes, Soil profile horizons O/A/B/C/R), Responses to Abiotic Factors (Regulate Homeostasis vs Conform 99% animals, Suspend spores/diapause/hibernation/aestivation, Migrate Keoladeo Bharatpur Siberian cranes), Adaptations (Kangaroo rat metabolic water, Opuntia phylloclade spines, CAM plants, Allen Rule colder climates shorter ears/limbs, Altitude Sickness Rohtang Pass RBC compensation, Desert lizard behavioural basking), Population Attributes (Birth rate, Death rate, Sex ratio, Age Pyramids: Triangular Expanding, Bell-shaped Stable, Urn-shaped Declining)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH11_MCQS.length,
-    durationMinutes: 55,
-    totalMarks: FINGERTIPS_BIO_C12_CH11_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '78 Line-by-Line NCERT Objective MCQs',
-      'Abiotic Responses & Evolutionary Regulate vs Conform Graphs',
-      'Demographic Age Pyramids & Natality/Mortality Calculations',
-      '100% Verified NCERT Concept Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH11_MCQS,
-    enrolledStudentsCount: 96000,
-    avgScore: 395
-  },
-  {
-    id: 'test-ft-bio-c12-ch11-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 11: Exam Scorer & Archive (76 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (12 Qs), A&R (10 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (9 Qs), Figures (5 Qs), Multi (5 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH11_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH11_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Logistic Growth Asymptote & Exponential r Calculations',
-      'Connell Barnacle Competition & MacArthur Warbler Resource Partitioning',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH11_EXAM_SCORER,
-    enrolledStudentsCount: 89000,
-    avgScore: 362
-  },
-  {
-    id: 'test-ft-bio-c12-ch12-ecosystem-mcqs',
-    title: 'Fingertips Biology Class 12 Ch 12: Ecosystem (75 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Ecosystem Structure (Tansley 1935, Stratification, Abiotic/Biotic, Autotrophs/Heterotrophs), Ecosystem Function: Productivity (GPP rate of photosynthesis, NPP = GPP - R, Secondary productivity by consumers, Biosphere Annual NPP 170 billion tons, Ocean NPP 55 billion tons), Decomposition (Detritus, Fragmentation Earthworm detritivores, Leaching inorganic ions, Catabolism bacterial/fungal enzymes, Humification dark amorphous humus nutrient reservoir, Mineralisation; Regulated by temperature, moisture, aerobiosis, lignin/chitin vs nitrogen/sugars), Energy Flow (PAR <50%, 2-10% captured by plants, Unidirectional flow obeying 1st and 2nd laws of thermodynamics, Lindeman 10% law, Grazing Food Chain GFC major in aquatic vs Detritus Food Chain DFC major in terrestrial, Food web), Ecological Pyramids (Eltonian: Pyramid of Numbers upright in grassland, spindle in tree parasite chain; Pyramid of Biomass upright in forest, inverted in sea/aquatic; Pyramid of Energy always upright)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH12_MCQS.length,
-    durationMinutes: 55,
-    totalMarks: FINGERTIPS_BIO_C12_CH12_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '75 Line-by-Line NCERT Objective MCQs',
-      'Primary vs Secondary Productivity Calculations & Energy Flow 10% Law',
-      'Decomposition Flowcharts & Eltonian Pyramids (Upright vs Inverted)',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH12_MCQS,
-    enrolledStudentsCount: 94500,
-    avgScore: 390
-  },
-  {
-    id: 'test-ft-bio-c12-ch12-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 12: Exam Scorer & Archive (79 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (13 Qs), A&R (10 Qs), Statements (10 Qs), Matching (10 Qs), Case-Based (12 Qs), Figures (5 Qs), Multi (8 Qs), NEET Archive (20 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Standing Crop vs Standing State & Inverted Aquatic Biomass Dynamics',
-      'Trophic Level Multi-Step Calculations & Phosphorus Rock Weathering Cycle',
-      '20 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH12_EXAM_SCORER,
-    enrolledStudentsCount: 87200,
-    avgScore: 358
-  },
-  {
-    id: 'test-ft-bio-c12-ch13-biodiversity-mcqs',
-    title: 'Fingertips Biology Class 12 Ch 13: Biodiversity & Conservation (100 MCQs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biodiversity Concept (Edward Wilson 1992, Genetic/Species/Ecological Diversity, Rauwolfia vomitoria Reserpine, >1000 Mango varieties, Amphibians of Western vs Eastern Ghats, Ecosystem Diversity India vs Norway), Species Number Estimates (Robert May ~7 million species, >70% animals, <22% plants, 70% insects, Fungi > Vertebrates combined, India: 2.4% land area, 8.1% global diversity, 12 Mega-diversity nations, ~45,000 plants, ~90,000 animals), Patterns of Biodiversity (Latitudinal Diversity Gradient Equator to Poles, Glaciations vs Stability, Solar energy & productivity; Alexander von Humboldt Species-Area Relationship S = CA^Z, log S = log C + Z log A, Z = 0.1-0.2 regional vs Z = 0.6-1.2 continental / frugivorous birds 1.15), Importance of Diversity (David Tilman outdoor plots diversity-stability, Paul Ehrlich Rivet Popper Hypothesis), Loss of Biodiversity (Sixth Extinction 100-1000x faster anthropogenic, IUCN 2004 784 species in 500 yrs, Dodo Mauritius, Quagga Africa, Thylacine Australia, Steller Sea Cow Russia, 3 Tiger subspecies Bali/Javan/Caspian, >15,500 threatened: 12% birds, 23% mammals, 32% amphibians, 31% gymnosperms; "The Evil Quartet": 1. Habitat loss/fragmentation Amazon Rainforest 14% to 6%, 2. Over-exploitation, 3. Alien Invasions Nile Perch in Lake Victoria, Eichhornia, Lantana, Parthenium, Clarias gariepinus, 4. Co-extinctions Yucca/Pronuba), Conservation (Narrowly Utilitarian 25% drugs bioprospecting, Broadly Utilitarian 20% O2 aesthetic, Ethical intrinsic value), In-Situ (34 Hotspots Norman Myers: Western Ghats-Sri Lanka, Indo-Burma, Himalayas; 14 Biosphere Reserves, 90 National Parks, 448 Wildlife Sanctuaries, Sacred Groves Meghalaya Khasi/Jaintia, Rajasthan Aravalli, MP Chanda/Bastar), Ex-Situ (Zoos, Botanical Gardens, Safari Parks, Cryopreservation -196 C, Seed Banks orthodox vs recalcitrant, Earth Summit Rio 1992 CBD, World Summit Johannesburg 2002)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH13_MCQS.length,
-    durationMinutes: 65,
-    totalMarks: FINGERTIPS_BIO_C12_CH13_MCQS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      '100 Line-by-Line NCERT Objective MCQs',
-      'Species-Area Formula Calculations (log S = log C + Z log A)',
-      'The Evil Quartet Mechanisms & Hotspot In-Situ vs Ex-Situ Flowcharts',
-      '100% Verified MTG Answer Key & Solutions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH13_MCQS,
-    enrolledStudentsCount: 98000,
-    avgScore: 395
-  },
-  {
-    id: 'test-ft-bio-c12-ch13-exam-scorer',
-    title: 'Fingertips Biology Class 12 Ch 13: Exam Scorer & Archive (80 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'NCERT Exemplar (20 Qs), A&R (15 Qs), Statements (5 Qs), Matching (10 Qs), Case-Based (10 Qs), Figures (5 Qs), Multi (8 Qs), NEET Archive (22 Qs)',
-    totalQuestions: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER.length,
-    durationMinutes: 60,
-    totalMarks: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'NCERT Exemplar Problems & High-Yield A&R Drills',
-      'Biosphere Reserve Zonation (Core, Buffer, Transition) & Pie Chart Taxa',
-      'Extinction Timelines & Cryopreservation Gamete Banking Dynamics',
-      '22 NEET / AIPMT Past Exam Archive Questions'
-    ],
-    questions: FINGERTIPS_BIO_C12_CH13_EXAM_SCORER,
-    enrolledStudentsCount: 91500,
-    avgScore: 364
-  },
-  {
-    id: 'test-neet-model-test-paper-1',
-    title: 'MTG NEET Model Test Paper 1: Full Biology Syllabus (90 Qs)',
-    category: 'major',
-    exam: 'NEET',
-    syllabus: 'Full NCERT Biology Syllabus (Class 11 Chapters 01 to 19 & Class 12 Chapters 01 to 13) - Full length 90 questions exam simulation with timed CBT interface, negative marking, question palette, and verified official solutions',
-    totalQuestions: NEET_MODEL_TEST_PAPER_1.length,
-    durationMinutes: 90,
-    totalMarks: NEET_MODEL_TEST_PAPER_1.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      '90 High-Yield Full Syllabus Objective Questions',
-      'Balanced Distribution: Botany & Zoology Across Class 11 and 12',
-      'A&R, Statement-Based, Matching, Diagrammatic & Numerical Drills',
-      '100% Verified MTG Official Answer Key & Solutions'
-    ],
-    questions: NEET_MODEL_TEST_PAPER_1,
-    enrolledStudentsCount: 125000,
-    avgScore: 285
-  },
-  {
-    id: 'test-neet-model-test-paper-2',
-    title: 'MTG NEET Model Test Paper 2: Full Biology Syllabus (90 Qs)',
-    category: 'major',
-    exam: 'NEET',
-    syllabus: 'Full NCERT Biology Syllabus (Class 11 Chapters 01 to 19 & Class 12 Chapters 01 to 13) - Full length model test simulation covering Enzymes, Hormones, Genetics, Biotech, Ecology, Anatomy, and Human Physiology',
-    totalQuestions: NEET_MODEL_TEST_PAPER_2.length,
-    durationMinutes: 90,
-    totalMarks: NEET_MODEL_TEST_PAPER_2.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'Comprehensive Full-Syllabus High-Yield NEET Questions',
-      'Enzyme Kinetics, Pedigree Analysis, Trophic Energetics & PGR Mechanisms',
-      'Integrated NTA-Pattern Simulation with Instant Performance Metrics',
-      '100% Verified MTG Official Answer Key & Solutions'
-    ],
-    questions: NEET_MODEL_TEST_PAPER_2,
-    enrolledStudentsCount: 112000,
-    avgScore: 278
-  },
-
-  {
-    id: 'test-allen-biology-grand-master',
-    title: 'Allen Biology RACE Grand Master Test (1234 Qs - All 56 Modules)',
-    category: 'full',
-    exam: 'NEET',
-    syllabus: 'Complete Botany & Zoology Syllabus: Class 11 & Class 12 Allen RACE Master',
-    totalQuestions: ALL_ALLEN_BIOLOGY_QUESTIONS.length,
-    durationMinutes: 200,
-    totalMarks: ALL_ALLEN_BIOLOGY_QUESTIONS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'All 56 Allen RACE Modules Covered',
-      'High-Yield Zoology & Botany MCQs',
-      'Detailed Explanations for All Questions',
-      'Full CBT Mock Exam Simulation'
-    ],
-    questions: ALL_ALLEN_BIOLOGY_QUESTIONS,
-    enrolledStudentsCount: 68900,
-    avgScore: 720
-  },
-  {
-    id: 'test-allen-bio-m1-diversity-of-living-world',
-    title: 'Allen Biology: Diversity of Living World (75 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Diversity of Living World - Diversity in Living World (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS.length > 0 ? ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS.length : 75,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS.length > 0 ? ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS.length : 75) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Diversity in Living World Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_DIVERSITY_OF_LIVING_WORLD_QUESTIONS,
-    enrolledStudentsCount: 44700,
-    avgScore: 232
-  },
-  {
-    id: 'test-allen-bio-m2-animal-kingdom--01--introduction---basis-of-classification',
-    title: 'Allen Biology: Animal Kingdom #01: Introduction & Basis of Classification (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Animal Kingdom #01: Introduction & Basis of Classification - Animal Diversity (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS.length : 15,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Animal Diversity Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ANIMAL_KINGDOM__01__INTRODUCTION___BASIS_OF_CLASSIFICATION_QUESTIONS,
-    enrolledStudentsCount: 44400,
-    avgScore: 46
-  },
-  {
-    id: 'test-allen-bio-m3-animal-kingdom--02--protozoa--porifera--coelenterata---ctenophora',
-    title: 'Allen Biology: Animal Kingdom #02: Protozoa, Porifera, Coelenterata & Ctenophora (12 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Animal Kingdom #02: Protozoa, Porifera, Coelenterata & Ctenophora - Animal Diversity (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ANIMAL_KINGDOM__02__PROTOZOA__PORIFERA__COELENTERATA___CTENOPHORA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__02__PROTOZOA__PORIFERA__COELENTERATA___CTENOPHORA_QUESTIONS.length : 12,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ANIMAL_KINGDOM__02__PROTOZOA__PORIFERA__COELENTERATA___CTENOPHORA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__02__PROTOZOA__PORIFERA__COELENTERATA___CTENOPHORA_QUESTIONS.length : 12) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Animal Diversity Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ANIMAL_KINGDOM__02__PROTOZOA__PORIFERA__COELENTERATA___CTENOPHORA_QUESTIONS,
-    enrolledStudentsCount: 44100,
-    avgScore: 37
-  },
-  {
-    id: 'test-allen-bio-m4-animal-kingdom--03--platyhelminthes--aschelminthes---annelida',
-    title: 'Allen Biology: Animal Kingdom #03: Platyhelminthes, Aschelminthes & Annelida (13 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Animal Kingdom #03: Platyhelminthes, Aschelminthes & Annelida - Animal Diversity (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ANIMAL_KINGDOM__03__PLATYHELMINTHES__ASCHELMINTHES___ANNELIDA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__03__PLATYHELMINTHES__ASCHELMINTHES___ANNELIDA_QUESTIONS.length : 13,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ANIMAL_KINGDOM__03__PLATYHELMINTHES__ASCHELMINTHES___ANNELIDA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__03__PLATYHELMINTHES__ASCHELMINTHES___ANNELIDA_QUESTIONS.length : 13) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Animal Diversity Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ANIMAL_KINGDOM__03__PLATYHELMINTHES__ASCHELMINTHES___ANNELIDA_QUESTIONS,
-    enrolledStudentsCount: 43800,
-    avgScore: 40
-  },
-  {
-    id: 'test-allen-bio-m5-animal-kingdom--04--arthropoda--mollusca--echinodermata--hemichordata',
-    title: 'Allen Biology: Animal Kingdom #04: Arthropoda, Mollusca, Echinodermata, Hemichordata (11 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Animal Kingdom #04: Arthropoda, Mollusca, Echinodermata, Hemichordata - Animal Diversity (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ANIMAL_KINGDOM__04__ARTHROPODA__MOLLUSCA__ECHINODERMATA__HEMICHORDATA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__04__ARTHROPODA__MOLLUSCA__ECHINODERMATA__HEMICHORDATA_QUESTIONS.length : 11,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ANIMAL_KINGDOM__04__ARTHROPODA__MOLLUSCA__ECHINODERMATA__HEMICHORDATA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__04__ARTHROPODA__MOLLUSCA__ECHINODERMATA__HEMICHORDATA_QUESTIONS.length : 11) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Animal Diversity Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ANIMAL_KINGDOM__04__ARTHROPODA__MOLLUSCA__ECHINODERMATA__HEMICHORDATA_QUESTIONS,
-    enrolledStudentsCount: 43500,
-    avgScore: 34
-  },
-  {
-    id: 'test-allen-bio-m6-animal-kingdom--05--protochordata-to-pisces',
-    title: 'Allen Biology: Animal Kingdom #05: Protochordata to Pisces (13 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Animal Kingdom #05: Protochordata to Pisces - Animal Diversity (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ANIMAL_KINGDOM__05__PROTOCHORDATA_TO_PISCES_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__05__PROTOCHORDATA_TO_PISCES_QUESTIONS.length : 13,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ANIMAL_KINGDOM__05__PROTOCHORDATA_TO_PISCES_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__05__PROTOCHORDATA_TO_PISCES_QUESTIONS.length : 13) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Animal Diversity Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ANIMAL_KINGDOM__05__PROTOCHORDATA_TO_PISCES_QUESTIONS,
-    enrolledStudentsCount: 43200,
-    avgScore: 40
-  },
-  {
-    id: 'test-allen-bio-m7-animal-kingdom--06--tetrapoda',
-    title: 'Allen Biology: Animal Kingdom #06: Tetrapoda (14 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Animal Kingdom #06: Tetrapoda - Animal Diversity (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ANIMAL_KINGDOM__06__TETRAPODA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__06__TETRAPODA_QUESTIONS.length : 14,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ANIMAL_KINGDOM__06__TETRAPODA_QUESTIONS.length > 0 ? ALLEN_BIO_ANIMAL_KINGDOM__06__TETRAPODA_QUESTIONS.length : 14) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Animal Diversity Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ANIMAL_KINGDOM__06__TETRAPODA_QUESTIONS,
-    enrolledStudentsCount: 42900,
-    avgScore: 43
-  },
-  {
-    id: 'test-allen-bio-m8-morphology-of-flowering-plant',
-    title: 'Allen Biology: Morphology of Flowering Plant (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Morphology of Flowering Plant - Structural Organisation - Plants (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_MORPHOLOGY_OF_FLOWERING_PLANT_QUESTIONS.length > 0 ? ALLEN_BIO_MORPHOLOGY_OF_FLOWERING_PLANT_QUESTIONS.length : 20,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_MORPHOLOGY_OF_FLOWERING_PLANT_QUESTIONS.length > 0 ? ALLEN_BIO_MORPHOLOGY_OF_FLOWERING_PLANT_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Structural Organisation - Plants Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_MORPHOLOGY_OF_FLOWERING_PLANT_QUESTIONS,
-    enrolledStudentsCount: 42600,
-    avgScore: 62
-  },
-  {
-    id: 'test-allen-bio-m9-plant-anatomy',
-    title: 'Allen Biology: Plant Anatomy (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Plant Anatomy - Structural Organisation - Plants (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_PLANT_ANATOMY_QUESTIONS.length > 0 ? ALLEN_BIO_PLANT_ANATOMY_QUESTIONS.length : 20,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_PLANT_ANATOMY_QUESTIONS.length > 0 ? ALLEN_BIO_PLANT_ANATOMY_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Structural Organisation - Plants Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_PLANT_ANATOMY_QUESTIONS,
-    enrolledStudentsCount: 42300,
-    avgScore: 62
-  },
-  {
-    id: 'test-allen-bio-m10-structural-organisation-of-animals--animal-tissue-',
-    title: 'Allen Biology: Structural Organisation of Animals (Animal Tissue) (46 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Structural Organisation of Animals (Animal Tissue) - Structural Organisation - Animals (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__ANIMAL_TISSUE__QUESTIONS.length > 0 ? ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__ANIMAL_TISSUE__QUESTIONS.length : 46,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__ANIMAL_TISSUE__QUESTIONS.length > 0 ? ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__ANIMAL_TISSUE__QUESTIONS.length : 46) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Structural Organisation - Animals Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__ANIMAL_TISSUE__QUESTIONS,
-    enrolledStudentsCount: 42000,
+    questions: get45(FINGERTIPS_BIO_CH05_MCQS),
+    enrolledStudentsCount: 138000,
     avgScore: 142
   },
   {
-    id: 'test-allen-bio-m11-structural-organisation-of-animals--earthworm-',
-    title: 'Allen Biology: Structural Organisation of Animals (Earthworm) (23 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Structural Organisation of Animals (Earthworm) - Structural Organisation - Animals (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__EARTHWORM__QUESTIONS.length > 0 ? ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__EARTHWORM__QUESTIONS.length : 23,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__EARTHWORM__QUESTIONS.length > 0 ? ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__EARTHWORM__QUESTIONS.length : 23) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Structural Organisation - Animals Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__EARTHWORM__QUESTIONS,
-    enrolledStudentsCount: 41700,
-    avgScore: 71
-  },
-  {
-    id: 'test-allen-bio-m12-structural-organisation-of-animals--cockroach-',
-    title: 'Allen Biology: Structural Organisation of Animals (Cockroach) (34 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Structural Organisation of Animals (Cockroach) - Structural Organisation - Animals (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__COCKROACH__QUESTIONS.length > 0 ? ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__COCKROACH__QUESTIONS.length : 34,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__COCKROACH__QUESTIONS.length > 0 ? ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__COCKROACH__QUESTIONS.length : 34) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Structural Organisation - Animals Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_STRUCTURAL_ORGANISATION_OF_ANIMALS__COCKROACH__QUESTIONS,
-    enrolledStudentsCount: 41400,
-    avgScore: 105
-  },
-  {
-    id: 'test-allen-bio-m13-frog',
-    title: 'Allen Biology: Frog (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Frog - Structural Organisation - Animals (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_FROG_QUESTIONS.length > 0 ? ALLEN_BIO_FROG_QUESTIONS.length : 15,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_FROG_QUESTIONS.length > 0 ? ALLEN_BIO_FROG_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Structural Organisation - Animals Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_FROG_QUESTIONS,
-    enrolledStudentsCount: 41100,
-    avgScore: 46
-  },
-  {
-    id: 'test-allen-bio-m14-cell--the-unit-of-life',
-    title: 'Allen Biology: Cell: The Unit of Life (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Cell: The Unit of Life - Cell Biology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_CELL__THE_UNIT_OF_LIFE_QUESTIONS.length > 0 ? ALLEN_BIO_CELL__THE_UNIT_OF_LIFE_QUESTIONS.length : 20,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_CELL__THE_UNIT_OF_LIFE_QUESTIONS.length > 0 ? ALLEN_BIO_CELL__THE_UNIT_OF_LIFE_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Cell Biology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_CELL__THE_UNIT_OF_LIFE_QUESTIONS,
-    enrolledStudentsCount: 40800,
-    avgScore: 62
-  },
-  {
-    id: 'test-allen-bio-m15-biomolecules---i--carbohydrates--lipids--proteins-',
-    title: 'Allen Biology: Biomolecules - I (Carbohydrates, Lipids, Proteins) (10 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biomolecules - I (Carbohydrates, Lipids, Proteins) - Cell Biology & Biomolecules (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BIOMOLECULES___I__CARBOHYDRATES__LIPIDS__PROTEINS__QUESTIONS.length > 0 ? ALLEN_BIO_BIOMOLECULES___I__CARBOHYDRATES__LIPIDS__PROTEINS__QUESTIONS.length : 10,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_BIOMOLECULES___I__CARBOHYDRATES__LIPIDS__PROTEINS__QUESTIONS.length > 0 ? ALLEN_BIO_BIOMOLECULES___I__CARBOHYDRATES__LIPIDS__PROTEINS__QUESTIONS.length : 10) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Cell Biology & Biomolecules Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BIOMOLECULES___I__CARBOHYDRATES__LIPIDS__PROTEINS__QUESTIONS,
-    enrolledStudentsCount: 40500,
-    avgScore: 31
-  },
-  {
-    id: 'test-allen-bio-m16-biomolecules---ii--enzymes-',
-    title: 'Allen Biology: Biomolecules - II (Enzymes) (10 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biomolecules - II (Enzymes) - Cell Biology & Biomolecules (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BIOMOLECULES___II__ENZYMES__QUESTIONS.length > 0 ? ALLEN_BIO_BIOMOLECULES___II__ENZYMES__QUESTIONS.length : 10,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_BIOMOLECULES___II__ENZYMES__QUESTIONS.length > 0 ? ALLEN_BIO_BIOMOLECULES___II__ENZYMES__QUESTIONS.length : 10) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Cell Biology & Biomolecules Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BIOMOLECULES___II__ENZYMES__QUESTIONS,
-    enrolledStudentsCount: 40200,
-    avgScore: 31
-  },
-  {
-    id: 'test-allen-bio-m17-cell-cycle-and-cell-division',
-    title: 'Allen Biology: Cell Cycle and Cell Division (16 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Cell Cycle and Cell Division - Cell Biology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_CELL_CYCLE_AND_CELL_DIVISION_QUESTIONS.length > 0 ? ALLEN_BIO_CELL_CYCLE_AND_CELL_DIVISION_QUESTIONS.length : 16,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_CELL_CYCLE_AND_CELL_DIVISION_QUESTIONS.length > 0 ? ALLEN_BIO_CELL_CYCLE_AND_CELL_DIVISION_QUESTIONS.length : 16) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Cell Biology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_CELL_CYCLE_AND_CELL_DIVISION_QUESTIONS,
-    enrolledStudentsCount: 39900,
-    avgScore: 49
-  },
-  {
-    id: 'test-allen-bio-m18-transport-in-plants',
-    title: 'Allen Biology: Transport in Plants (14 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Transport in Plants - Plant Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_TRANSPORT_IN_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_TRANSPORT_IN_PLANTS_QUESTIONS.length : 14,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_TRANSPORT_IN_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_TRANSPORT_IN_PLANTS_QUESTIONS.length : 14) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Plant Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_TRANSPORT_IN_PLANTS_QUESTIONS,
-    enrolledStudentsCount: 39600,
-    avgScore: 43
-  },
-  {
-    id: 'test-allen-bio-m19-mineral-nutrition',
-    title: 'Allen Biology: Mineral Nutrition (10 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Mineral Nutrition - Plant Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_MINERAL_NUTRITION_QUESTIONS.length > 0 ? ALLEN_BIO_MINERAL_NUTRITION_QUESTIONS.length : 10,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_MINERAL_NUTRITION_QUESTIONS.length > 0 ? ALLEN_BIO_MINERAL_NUTRITION_QUESTIONS.length : 10) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Plant Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_MINERAL_NUTRITION_QUESTIONS,
-    enrolledStudentsCount: 39300,
-    avgScore: 31
-  },
-  {
-    id: 'test-allen-bio-m20-photosynthesis-in-higher-plants',
-    title: 'Allen Biology: Photosynthesis in Higher Plants (24 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Photosynthesis in Higher Plants - Plant Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_PHOTOSYNTHESIS_IN_HIGHER_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_PHOTOSYNTHESIS_IN_HIGHER_PLANTS_QUESTIONS.length : 24,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_PHOTOSYNTHESIS_IN_HIGHER_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_PHOTOSYNTHESIS_IN_HIGHER_PLANTS_QUESTIONS.length : 24) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Plant Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_PHOTOSYNTHESIS_IN_HIGHER_PLANTS_QUESTIONS,
-    enrolledStudentsCount: 39000,
-    avgScore: 74
-  },
-  {
-    id: 'test-allen-bio-m21-respiration-in-plants',
-    title: 'Allen Biology: Respiration in Plants (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Respiration in Plants - Plant Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_RESPIRATION_IN_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_RESPIRATION_IN_PLANTS_QUESTIONS.length : 15,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_RESPIRATION_IN_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_RESPIRATION_IN_PLANTS_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Plant Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_RESPIRATION_IN_PLANTS_QUESTIONS,
-    enrolledStudentsCount: 38700,
-    avgScore: 46
-  },
-  {
-    id: 'test-allen-bio-m22-plant-growth-and-development',
-    title: 'Allen Biology: Plant Growth and Development (14 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Plant Growth and Development - Plant Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_PLANT_GROWTH_AND_DEVELOPMENT_QUESTIONS.length > 0 ? ALLEN_BIO_PLANT_GROWTH_AND_DEVELOPMENT_QUESTIONS.length : 14,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_PLANT_GROWTH_AND_DEVELOPMENT_QUESTIONS.length > 0 ? ALLEN_BIO_PLANT_GROWTH_AND_DEVELOPMENT_QUESTIONS.length : 14) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Plant Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_PLANT_GROWTH_AND_DEVELOPMENT_QUESTIONS,
-    enrolledStudentsCount: 38400,
-    avgScore: 43
-  },
-  {
-    id: 'test-allen-bio-m23-digestion-and-absorption',
-    title: 'Allen Biology: Digestion and Absorption (37 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Digestion and Absorption - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_DIGESTION_AND_ABSORPTION_QUESTIONS.length > 0 ? ALLEN_BIO_DIGESTION_AND_ABSORPTION_QUESTIONS.length : 37,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_DIGESTION_AND_ABSORPTION_QUESTIONS.length > 0 ? ALLEN_BIO_DIGESTION_AND_ABSORPTION_QUESTIONS.length : 37) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_DIGESTION_AND_ABSORPTION_QUESTIONS,
-    enrolledStudentsCount: 38100,
-    avgScore: 114
-  },
-  {
-    id: 'test-allen-bio-m24-breathing-and-exchange-of-gases',
-    title: 'Allen Biology: Breathing and Exchange of Gases (30 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Breathing and Exchange of Gases - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BREATHING_AND_EXCHANGE_OF_GASES_QUESTIONS.length > 0 ? ALLEN_BIO_BREATHING_AND_EXCHANGE_OF_GASES_QUESTIONS.length : 30,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_BREATHING_AND_EXCHANGE_OF_GASES_QUESTIONS.length > 0 ? ALLEN_BIO_BREATHING_AND_EXCHANGE_OF_GASES_QUESTIONS.length : 30) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BREATHING_AND_EXCHANGE_OF_GASES_QUESTIONS,
-    enrolledStudentsCount: 37800,
-    avgScore: 93
-  },
-  {
-    id: 'test-allen-bio-m25-body-fluids-and-circulation--blood-',
-    title: 'Allen Biology: Body Fluids and Circulation (Blood) (19 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Body Fluids and Circulation (Blood) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__BLOOD__QUESTIONS.length > 0 ? ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__BLOOD__QUESTIONS.length : 19,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__BLOOD__QUESTIONS.length > 0 ? ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__BLOOD__QUESTIONS.length : 19) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__BLOOD__QUESTIONS,
-    enrolledStudentsCount: 37500,
-    avgScore: 58
-  },
-  {
-    id: 'test-allen-bio-m26-body-fluids-and-circulation--heart---vessels-',
-    title: 'Allen Biology: Body Fluids and Circulation (Heart & Vessels) (41 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Body Fluids and Circulation (Heart & Vessels) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__HEART___VESSELS__QUESTIONS.length > 0 ? ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__HEART___VESSELS__QUESTIONS.length : 41,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__HEART___VESSELS__QUESTIONS.length > 0 ? ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__HEART___VESSELS__QUESTIONS.length : 41) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BODY_FLUIDS_AND_CIRCULATION__HEART___VESSELS__QUESTIONS,
-    enrolledStudentsCount: 37200,
-    avgScore: 127
-  },
-  {
-    id: 'test-allen-bio-m27-excretory-products-and-their-elimination',
-    title: 'Allen Biology: Excretory Products and their Elimination (41 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Excretory Products and their Elimination - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_EXCRETORY_PRODUCTS_AND_THEIR_ELIMINATION_QUESTIONS.length > 0 ? ALLEN_BIO_EXCRETORY_PRODUCTS_AND_THEIR_ELIMINATION_QUESTIONS.length : 41,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_EXCRETORY_PRODUCTS_AND_THEIR_ELIMINATION_QUESTIONS.length > 0 ? ALLEN_BIO_EXCRETORY_PRODUCTS_AND_THEIR_ELIMINATION_QUESTIONS.length : 41) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_EXCRETORY_PRODUCTS_AND_THEIR_ELIMINATION_QUESTIONS,
-    enrolledStudentsCount: 36900,
-    avgScore: 127
-  },
-  {
-    id: 'test-allen-bio-m28-locomotion-and-movement--muscles-',
-    title: 'Allen Biology: Locomotion and Movement (Muscles) (12 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Locomotion and Movement (Muscles) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__MUSCLES__QUESTIONS.length > 0 ? ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__MUSCLES__QUESTIONS.length : 12,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__MUSCLES__QUESTIONS.length > 0 ? ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__MUSCLES__QUESTIONS.length : 12) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__MUSCLES__QUESTIONS,
-    enrolledStudentsCount: 36600,
-    avgScore: 37
-  },
-  {
-    id: 'test-allen-bio-m29-locomotion-and-movement--skeletal-system-',
-    title: 'Allen Biology: Locomotion and Movement (Skeletal System) (26 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Locomotion and Movement (Skeletal System) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__SKELETAL_SYSTEM__QUESTIONS.length > 0 ? ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__SKELETAL_SYSTEM__QUESTIONS.length : 26,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__SKELETAL_SYSTEM__QUESTIONS.length > 0 ? ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__SKELETAL_SYSTEM__QUESTIONS.length : 26) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_LOCOMOTION_AND_MOVEMENT__SKELETAL_SYSTEM__QUESTIONS,
-    enrolledStudentsCount: 36300,
-    avgScore: 80
-  },
-  {
-    id: 'test-allen-bio-m30-neural-control-and-coordination--nerve-physiology----i',
-    title: 'Allen Biology: Neural Control and Coordination (Nerve Physiology) - I (17 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Neural Control and Coordination (Nerve Physiology) - I - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__NERVE_PHYSIOLOGY____I_QUESTIONS.length > 0 ? ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__NERVE_PHYSIOLOGY____I_QUESTIONS.length : 17,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__NERVE_PHYSIOLOGY____I_QUESTIONS.length > 0 ? ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__NERVE_PHYSIOLOGY____I_QUESTIONS.length : 17) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__NERVE_PHYSIOLOGY____I_QUESTIONS,
-    enrolledStudentsCount: 36000,
-    avgScore: 52
-  },
-  {
-    id: 'test-allen-bio-m31-neural-control-and-coordination--cns-pns-spinal-cord----ii',
-    title: 'Allen Biology: Neural Control and Coordination (CNS-PNS-Spinal Cord) - II (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Neural Control and Coordination (CNS-PNS-Spinal Cord) - II - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__CNS_PNS_SPINAL_CORD____II_QUESTIONS.length > 0 ? ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__CNS_PNS_SPINAL_CORD____II_QUESTIONS.length : 20,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__CNS_PNS_SPINAL_CORD____II_QUESTIONS.length > 0 ? ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__CNS_PNS_SPINAL_CORD____II_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_NEURAL_CONTROL_AND_COORDINATION__CNS_PNS_SPINAL_CORD____II_QUESTIONS,
-    enrolledStudentsCount: 35700,
-    avgScore: 62
-  },
-  {
-    id: 'test-allen-bio-m32-sensory-organs--eye-',
-    title: 'Allen Biology: Sensory Organs (Eye) (11 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Sensory Organs (Eye) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_SENSORY_ORGANS__EYE__QUESTIONS.length > 0 ? ALLEN_BIO_SENSORY_ORGANS__EYE__QUESTIONS.length : 11,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_SENSORY_ORGANS__EYE__QUESTIONS.length > 0 ? ALLEN_BIO_SENSORY_ORGANS__EYE__QUESTIONS.length : 11) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_SENSORY_ORGANS__EYE__QUESTIONS,
-    enrolledStudentsCount: 35400,
-    avgScore: 34
-  },
-  {
-    id: 'test-allen-bio-m33-sensory-organs--ear-',
-    title: 'Allen Biology: Sensory Organs (Ear) (9 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Sensory Organs (Ear) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_SENSORY_ORGANS__EAR__QUESTIONS.length > 0 ? ALLEN_BIO_SENSORY_ORGANS__EAR__QUESTIONS.length : 9,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_SENSORY_ORGANS__EAR__QUESTIONS.length > 0 ? ALLEN_BIO_SENSORY_ORGANS__EAR__QUESTIONS.length : 9) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_SENSORY_ORGANS__EAR__QUESTIONS,
-    enrolledStudentsCount: 35100,
-    avgScore: 27
-  },
-  {
-    id: 'test-allen-bio-m34-chemical-coordination-and-integration--endocrine-system-',
-    title: 'Allen Biology: Chemical Coordination and Integration (Endocrine System) (25 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemical Coordination and Integration (Endocrine System) - Human Physiology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_CHEMICAL_COORDINATION_AND_INTEGRATION__ENDOCRINE_SYSTEM__QUESTIONS.length > 0 ? ALLEN_BIO_CHEMICAL_COORDINATION_AND_INTEGRATION__ENDOCRINE_SYSTEM__QUESTIONS.length : 25,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_CHEMICAL_COORDINATION_AND_INTEGRATION__ENDOCRINE_SYSTEM__QUESTIONS.length > 0 ? ALLEN_BIO_CHEMICAL_COORDINATION_AND_INTEGRATION__ENDOCRINE_SYSTEM__QUESTIONS.length : 25) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Human Physiology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_CHEMICAL_COORDINATION_AND_INTEGRATION__ENDOCRINE_SYSTEM__QUESTIONS,
-    enrolledStudentsCount: 34800,
-    avgScore: 77
-  },
-  {
-    id: 'test-allen-bio-m35-sexual-reproduction-in-flowering-plants',
-    title: 'Allen Biology: Sexual Reproduction in Flowering Plants (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Sexual Reproduction in Flowering Plants - Reproduction (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_SEXUAL_REPRODUCTION_IN_FLOWERING_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_SEXUAL_REPRODUCTION_IN_FLOWERING_PLANTS_QUESTIONS.length : 20,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_SEXUAL_REPRODUCTION_IN_FLOWERING_PLANTS_QUESTIONS.length > 0 ? ALLEN_BIO_SEXUAL_REPRODUCTION_IN_FLOWERING_PLANTS_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Reproduction Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_SEXUAL_REPRODUCTION_IN_FLOWERING_PLANTS_QUESTIONS,
-    enrolledStudentsCount: 34500,
-    avgScore: 62
-  },
-  {
-    id: 'test-allen-bio-m36-human-reproduction',
-    title: 'Allen Biology: Human Reproduction (18 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Human Reproduction - Reproduction (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_HUMAN_REPRODUCTION_QUESTIONS.length > 0 ? ALLEN_BIO_HUMAN_REPRODUCTION_QUESTIONS.length : 18,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_HUMAN_REPRODUCTION_QUESTIONS.length > 0 ? ALLEN_BIO_HUMAN_REPRODUCTION_QUESTIONS.length : 18) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Reproduction Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_HUMAN_REPRODUCTION_QUESTIONS,
-    enrolledStudentsCount: 34200,
-    avgScore: 55
-  },
-  {
-    id: 'test-allen-bio-m37-reproductive-health',
-    title: 'Allen Biology: Reproductive Health (16 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Reproductive Health - Reproduction (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_REPRODUCTIVE_HEALTH_QUESTIONS.length > 0 ? ALLEN_BIO_REPRODUCTIVE_HEALTH_QUESTIONS.length : 16,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_REPRODUCTIVE_HEALTH_QUESTIONS.length > 0 ? ALLEN_BIO_REPRODUCTIVE_HEALTH_QUESTIONS.length : 16) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Reproduction Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_REPRODUCTIVE_HEALTH_QUESTIONS,
-    enrolledStudentsCount: 33900,
-    avgScore: 49
-  },
-  {
-    id: 'test-allen-bio-m38-mendelian-genetics--01',
-    title: 'Allen Biology: Mendelian Genetics #01 (42 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Mendelian Genetics #01 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_MENDELIAN_GENETICS__01_QUESTIONS.length > 0 ? ALLEN_BIO_MENDELIAN_GENETICS__01_QUESTIONS.length : 42,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_MENDELIAN_GENETICS__01_QUESTIONS.length > 0 ? ALLEN_BIO_MENDELIAN_GENETICS__01_QUESTIONS.length : 42) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_MENDELIAN_GENETICS__01_QUESTIONS,
-    enrolledStudentsCount: 33600,
-    avgScore: 130
-  },
-  {
-    id: 'test-allen-bio-m39-post-mendelism--polygenic---cytoplasmic-inheritance--02',
-    title: 'Allen Biology: Post Mendelism, Polygenic & Cytoplasmic Inheritance #02 (22 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Post Mendelism, Polygenic & Cytoplasmic Inheritance #02 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_POST_MENDELISM__POLYGENIC___CYTOPLASMIC_INHERITANCE__02_QUESTIONS.length > 0 ? ALLEN_BIO_POST_MENDELISM__POLYGENIC___CYTOPLASMIC_INHERITANCE__02_QUESTIONS.length : 22,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_POST_MENDELISM__POLYGENIC___CYTOPLASMIC_INHERITANCE__02_QUESTIONS.length > 0 ? ALLEN_BIO_POST_MENDELISM__POLYGENIC___CYTOPLASMIC_INHERITANCE__02_QUESTIONS.length : 22) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_POST_MENDELISM__POLYGENIC___CYTOPLASMIC_INHERITANCE__02_QUESTIONS,
-    enrolledStudentsCount: 33300,
-    avgScore: 68
-  },
-  {
-    id: 'test-allen-bio-m40-linkage--sex-linkage--sex-determination--03',
-    title: 'Allen Biology: Linkage, Sex Linkage, Sex Determination #03 (22 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Linkage, Sex Linkage, Sex Determination #03 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_LINKAGE__SEX_LINKAGE__SEX_DETERMINATION__03_QUESTIONS.length > 0 ? ALLEN_BIO_LINKAGE__SEX_LINKAGE__SEX_DETERMINATION__03_QUESTIONS.length : 22,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_LINKAGE__SEX_LINKAGE__SEX_DETERMINATION__03_QUESTIONS.length > 0 ? ALLEN_BIO_LINKAGE__SEX_LINKAGE__SEX_DETERMINATION__03_QUESTIONS.length : 22) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_LINKAGE__SEX_LINKAGE__SEX_DETERMINATION__03_QUESTIONS,
-    enrolledStudentsCount: 33000,
-    avgScore: 68
-  },
-  {
-    id: 'test-allen-bio-m41-human-genetics-and-population-genetics--04',
-    title: 'Allen Biology: Human Genetics and Population Genetics #04 (24 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Human Genetics and Population Genetics #04 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_HUMAN_GENETICS_AND_POPULATION_GENETICS__04_QUESTIONS.length > 0 ? ALLEN_BIO_HUMAN_GENETICS_AND_POPULATION_GENETICS__04_QUESTIONS.length : 24,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_HUMAN_GENETICS_AND_POPULATION_GENETICS__04_QUESTIONS.length > 0 ? ALLEN_BIO_HUMAN_GENETICS_AND_POPULATION_GENETICS__04_QUESTIONS.length : 24) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_HUMAN_GENETICS_AND_POPULATION_GENETICS__04_QUESTIONS,
-    enrolledStudentsCount: 32700,
-    avgScore: 74
-  },
-  {
-    id: 'test-allen-bio-m42-molecular-basis-of-inheritance',
-    title: 'Allen Biology: Molecular Basis of Inheritance (52 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Molecular Basis of Inheritance - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_MOLECULAR_BASIS_OF_INHERITANCE_QUESTIONS.length > 0 ? ALLEN_BIO_MOLECULAR_BASIS_OF_INHERITANCE_QUESTIONS.length : 52,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_MOLECULAR_BASIS_OF_INHERITANCE_QUESTIONS.length > 0 ? ALLEN_BIO_MOLECULAR_BASIS_OF_INHERITANCE_QUESTIONS.length : 52) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_MOLECULAR_BASIS_OF_INHERITANCE_QUESTIONS,
-    enrolledStudentsCount: 32400,
-    avgScore: 161
-  },
-  {
-    id: 'test-allen-bio-m43-origin-and-evolution--race-01',
-    title: 'Allen Biology: Origin and Evolution: RACE 01 (19 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Origin and Evolution: RACE 01 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_01_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_01_QUESTIONS.length : 19,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_01_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_01_QUESTIONS.length : 19) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_01_QUESTIONS,
-    enrolledStudentsCount: 32100,
-    avgScore: 58
-  },
-  {
-    id: 'test-allen-bio-m44-origin-and-evolution--race-02',
-    title: 'Allen Biology: Origin and Evolution: RACE 02 (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Origin and Evolution: RACE 02 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_02_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_02_QUESTIONS.length : 20,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_02_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_02_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_02_QUESTIONS,
-    enrolledStudentsCount: 31800,
-    avgScore: 62
-  },
-  {
-    id: 'test-allen-bio-m45-origin-and-evolution--race-03',
-    title: 'Allen Biology: Origin and Evolution: RACE 03 (24 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Origin and Evolution: RACE 03 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_03_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_03_QUESTIONS.length : 24,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_03_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_03_QUESTIONS.length : 24) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_03_QUESTIONS,
-    enrolledStudentsCount: 31500,
-    avgScore: 74
-  },
-  {
-    id: 'test-allen-bio-m46-origin-and-evolution--race-04',
-    title: 'Allen Biology: Origin and Evolution: RACE 04 (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Origin and Evolution: RACE 04 - Genetics & Evolution (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_04_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_04_QUESTIONS.length : 15,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_04_QUESTIONS.length > 0 ? ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_04_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Genetics & Evolution Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ORIGIN_AND_EVOLUTION__RACE_04_QUESTIONS,
-    enrolledStudentsCount: 31200,
-    avgScore: 46
-  },
-  {
-    id: 'test-allen-bio-m47-human-health-and-disease',
-    title: 'Allen Biology: Human Health and Disease (51 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Human Health and Disease - Biology in Human Welfare (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_HUMAN_HEALTH_AND_DISEASE_QUESTIONS.length > 0 ? ALLEN_BIO_HUMAN_HEALTH_AND_DISEASE_QUESTIONS.length : 51,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_BIO_HUMAN_HEALTH_AND_DISEASE_QUESTIONS.length > 0 ? ALLEN_BIO_HUMAN_HEALTH_AND_DISEASE_QUESTIONS.length : 51) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Biology in Human Welfare Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_HUMAN_HEALTH_AND_DISEASE_QUESTIONS,
-    enrolledStudentsCount: 30900,
-    avgScore: 158
-  },
-  {
-    id: 'test-allen-bio-m48-strategies-for-enhancement-in-food-production--plants-',
-    title: 'Allen Biology: Strategies for Enhancement in Food Production (Plants) (10 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Strategies for Enhancement in Food Production (Plants) - Biology in Human Welfare (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_STRATEGIES_FOR_ENHANCEMENT_IN_FOOD_PRODUCTION__PLANTS__QUESTIONS.length > 0 ? ALLEN_BIO_STRATEGIES_FOR_ENHANCEMENT_IN_FOOD_PRODUCTION__PLANTS__QUESTIONS.length : 10,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_STRATEGIES_FOR_ENHANCEMENT_IN_FOOD_PRODUCTION__PLANTS__QUESTIONS.length > 0 ? ALLEN_BIO_STRATEGIES_FOR_ENHANCEMENT_IN_FOOD_PRODUCTION__PLANTS__QUESTIONS.length : 10) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Biology in Human Welfare Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_STRATEGIES_FOR_ENHANCEMENT_IN_FOOD_PRODUCTION__PLANTS__QUESTIONS,
-    enrolledStudentsCount: 30600,
-    avgScore: 31
-  },
-  {
-    id: 'test-allen-bio-m49-domestication-of-animals',
-    title: 'Allen Biology: Domestication of Animals (23 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Domestication of Animals - Biology in Human Welfare (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_DOMESTICATION_OF_ANIMALS_QUESTIONS.length > 0 ? ALLEN_BIO_DOMESTICATION_OF_ANIMALS_QUESTIONS.length : 23,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_DOMESTICATION_OF_ANIMALS_QUESTIONS.length > 0 ? ALLEN_BIO_DOMESTICATION_OF_ANIMALS_QUESTIONS.length : 23) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Biology in Human Welfare Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_DOMESTICATION_OF_ANIMALS_QUESTIONS,
-    enrolledStudentsCount: 30300,
-    avgScore: 71
-  },
-  {
-    id: 'test-allen-bio-m50-microbes-in-human-welfare',
-    title: 'Allen Biology: Microbes in Human Welfare (10 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Microbes in Human Welfare - Biology in Human Welfare (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_MICROBES_IN_HUMAN_WELFARE_QUESTIONS.length > 0 ? ALLEN_BIO_MICROBES_IN_HUMAN_WELFARE_QUESTIONS.length : 10,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_MICROBES_IN_HUMAN_WELFARE_QUESTIONS.length > 0 ? ALLEN_BIO_MICROBES_IN_HUMAN_WELFARE_QUESTIONS.length : 10) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Biology in Human Welfare Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_MICROBES_IN_HUMAN_WELFARE_QUESTIONS,
-    enrolledStudentsCount: 30000,
-    avgScore: 31
-  },
-  {
-    id: 'test-allen-bio-m51-biotechnology--principles-and-processes',
-    title: 'Allen Biology: Biotechnology: Principles and Processes (9 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biotechnology: Principles and Processes - Biotechnology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_QUESTIONS.length > 0 ? ALLEN_BIO_BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_QUESTIONS.length : 9,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_QUESTIONS.length > 0 ? ALLEN_BIO_BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_QUESTIONS.length : 9) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Biotechnology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_QUESTIONS,
-    enrolledStudentsCount: 29700,
-    avgScore: 27
-  },
-  {
-    id: 'test-allen-bio-m52-biotechnology--application',
-    title: 'Allen Biology: Biotechnology: Application (10 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biotechnology: Application - Biotechnology (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BIOTECHNOLOGY__APPLICATION_QUESTIONS.length > 0 ? ALLEN_BIO_BIOTECHNOLOGY__APPLICATION_QUESTIONS.length : 10,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_BIOTECHNOLOGY__APPLICATION_QUESTIONS.length > 0 ? ALLEN_BIO_BIOTECHNOLOGY__APPLICATION_QUESTIONS.length : 10) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Biotechnology Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BIOTECHNOLOGY__APPLICATION_QUESTIONS,
-    enrolledStudentsCount: 29400,
-    avgScore: 31
-  },
-  {
-    id: 'test-allen-bio-m53-organism-and-population--ecology-',
-    title: 'Allen Biology: Organism and Population (Ecology) (26 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Organism and Population (Ecology) - Ecology & Environment (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ORGANISM_AND_POPULATION__ECOLOGY__QUESTIONS.length > 0 ? ALLEN_BIO_ORGANISM_AND_POPULATION__ECOLOGY__QUESTIONS.length : 26,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_ORGANISM_AND_POPULATION__ECOLOGY__QUESTIONS.length > 0 ? ALLEN_BIO_ORGANISM_AND_POPULATION__ECOLOGY__QUESTIONS.length : 26) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Ecology & Environment Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ORGANISM_AND_POPULATION__ECOLOGY__QUESTIONS,
-    enrolledStudentsCount: 29100,
-    avgScore: 80
-  },
-  {
-    id: 'test-allen-bio-m54-ecosystem',
-    title: 'Allen Biology: Ecosystem (30 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Ecosystem - Ecology & Environment (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_ECOSYSTEM_QUESTIONS.length > 0 ? ALLEN_BIO_ECOSYSTEM_QUESTIONS.length : 30,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_ECOSYSTEM_QUESTIONS.length > 0 ? ALLEN_BIO_ECOSYSTEM_QUESTIONS.length : 30) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Ecology & Environment Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_ECOSYSTEM_QUESTIONS,
-    enrolledStudentsCount: 28800,
-    avgScore: 93
-  },
-  {
-    id: 'test-allen-bio-m55-biodiversity-and-conservation',
-    title: 'Allen Biology: Biodiversity and Conservation (18 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biodiversity and Conservation - Ecology & Environment (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_BIODIVERSITY_AND_CONSERVATION_QUESTIONS.length > 0 ? ALLEN_BIO_BIODIVERSITY_AND_CONSERVATION_QUESTIONS.length : 18,
-    durationMinutes: 30,
-    totalMarks: (ALLEN_BIO_BIODIVERSITY_AND_CONSERVATION_QUESTIONS.length > 0 ? ALLEN_BIO_BIODIVERSITY_AND_CONSERVATION_QUESTIONS.length : 18) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Ecology & Environment Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_BIODIVERSITY_AND_CONSERVATION_QUESTIONS,
-    enrolledStudentsCount: 28500,
-    avgScore: 55
-  },
-  {
-    id: 'test-allen-bio-m56-pollution--environmental-issues-',
-    title: 'Allen Biology: Pollution (Environmental Issues) (21 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Pollution (Environmental Issues) - Ecology & Environment (Allen RACE Series)',
-    totalQuestions: ALLEN_BIO_POLLUTION__ENVIRONMENTAL_ISSUES__QUESTIONS.length > 0 ? ALLEN_BIO_POLLUTION__ENVIRONMENTAL_ISSUES__QUESTIONS.length : 21,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIO_POLLUTION__ENVIRONMENTAL_ISSUES__QUESTIONS.length > 0 ? ALLEN_BIO_POLLUTION__ENVIRONMENTAL_ISSUES__QUESTIONS.length : 21) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Ecology & Environment Core Focus',
-      'Allen Kota Target Pre-Medical RACE',
-      'Instant Detailed Scorecard & Solutions',
-      'NCERT Line-by-Line Objectives'
-    ],
-    questions: ALLEN_BIO_POLLUTION__ENVIRONMENTAL_ISSUES__QUESTIONS,
-    enrolledStudentsCount: 28200,
-    avgScore: 65
-  },
-  {
-    id: 'test-allen-chemistry-grand-master',
-    title: 'Allen Chemistry NCERT Objective Grand Master Test (726 Qs - All 33 Chapters)',
-    category: 'full',
-    exam: 'NEET',
-    syllabus: 'Complete Physical, Inorganic & Organic Chemistry (Allen NCERT Insider Master)',
-    totalQuestions: ALL_ALLEN_CHEMISTRY_QUESTIONS.length,
-    durationMinutes: 200,
-    totalMarks: ALL_ALLEN_CHEMISTRY_QUESTIONS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'All 33 Allen NCERT Modules',
-      '100% NCERT Line-by-Line Objectives',
-      'Official Allen Verified Answer Keys',
-      'Full CBT Mock Exam Simulation'
-    ],
-    questions: ALL_ALLEN_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 61400,
-    avgScore: 560
-  },
-  {
-    id: 'test-allen-ch1-mole-concept',
-    title: 'Allen Chemistry: Mole Concept (27 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Mole Concept (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_MOLE_CONCEPT_QUESTIONS.length > 0 ? ALLEN_MOLE_CONCEPT_QUESTIONS.length : 27,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_MOLE_CONCEPT_QUESTIONS.length > 0 ? ALLEN_MOLE_CONCEPT_QUESTIONS.length : 27) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_MOLE_CONCEPT_QUESTIONS,
-    enrolledStudentsCount: 41600,
-    avgScore: 78
-  },
-  {
-    id: 'test-allen-ch2-redox-reactions',
-    title: 'Allen Chemistry: Redox Reactions (13 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Redox Reactions (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_REDOX_REACTIONS_QUESTIONS.length > 0 ? ALLEN_REDOX_REACTIONS_QUESTIONS.length : 13,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_REDOX_REACTIONS_QUESTIONS.length > 0 ? ALLEN_REDOX_REACTIONS_QUESTIONS.length : 13) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_REDOX_REACTIONS_QUESTIONS,
-    enrolledStudentsCount: 41200,
-    avgScore: 37
-  },
-  {
-    id: 'test-allen-ch3-atomic-structure',
-    title: 'Allen Chemistry: Atomic Structure (23 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Atomic Structure (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_ATOMIC_STRUCTURE_QUESTIONS.length > 0 ? ALLEN_ATOMIC_STRUCTURE_QUESTIONS.length : 23,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_ATOMIC_STRUCTURE_QUESTIONS.length > 0 ? ALLEN_ATOMIC_STRUCTURE_QUESTIONS.length : 23) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
-    enrolledStudentsCount: 40800,
-    avgScore: 66
-  },
-  {
-    id: 'test-allen-ch4-states-of-matter--gases---liquids-',
-    title: 'Allen Chemistry: States of Matter (Gases & Liquids) (12 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'States of Matter (Gases & Liquids) (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_STATES_OF_MATTER__GASES___LIQUIDS__QUESTIONS.length > 0 ? ALLEN_STATES_OF_MATTER__GASES___LIQUIDS__QUESTIONS.length : 12,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_STATES_OF_MATTER__GASES___LIQUIDS__QUESTIONS.length > 0 ? ALLEN_STATES_OF_MATTER__GASES___LIQUIDS__QUESTIONS.length : 12) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_STATES_OF_MATTER__GASES___LIQUIDS__QUESTIONS,
-    enrolledStudentsCount: 40400,
-    avgScore: 34
-  },
-  {
-    id: 'test-allen-ch5-chemical-thermodynamics',
-    title: 'Allen Chemistry: Chemical Thermodynamics (25 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemical Thermodynamics (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CHEMICAL_THERMODYNAMICS_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_THERMODYNAMICS_QUESTIONS.length : 25,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_CHEMICAL_THERMODYNAMICS_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_THERMODYNAMICS_QUESTIONS.length : 25) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CHEMICAL_THERMODYNAMICS_QUESTIONS,
-    enrolledStudentsCount: 40000,
-    avgScore: 72
-  },
-  {
-    id: 'test-allen-ch6-chemical-equilibrium',
-    title: 'Allen Chemistry: Chemical Equilibrium (33 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemical Equilibrium (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CHEMICAL_EQUILIBRIUM_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_EQUILIBRIUM_QUESTIONS.length : 33,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_CHEMICAL_EQUILIBRIUM_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_EQUILIBRIUM_QUESTIONS.length : 33) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CHEMICAL_EQUILIBRIUM_QUESTIONS,
-    enrolledStudentsCount: 39600,
-    avgScore: 95
-  },
-  {
-    id: 'test-allen-ch7-ionic-equilibrium--acid---base-ph--buffer---indicators',
-    title: 'Allen Chemistry: Ionic Equilibrium, Acid & Base pH, Buffer & Indicators (36 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Ionic Equilibrium, Acid & Base pH, Buffer & Indicators (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_IONIC_EQUILIBRIUM__ACID___BASE_PH__BUFFER___INDICATORS_QUESTIONS.length > 0 ? ALLEN_IONIC_EQUILIBRIUM__ACID___BASE_PH__BUFFER___INDICATORS_QUESTIONS.length : 36,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_IONIC_EQUILIBRIUM__ACID___BASE_PH__BUFFER___INDICATORS_QUESTIONS.length > 0 ? ALLEN_IONIC_EQUILIBRIUM__ACID___BASE_PH__BUFFER___INDICATORS_QUESTIONS.length : 36) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_IONIC_EQUILIBRIUM__ACID___BASE_PH__BUFFER___INDICATORS_QUESTIONS,
-    enrolledStudentsCount: 39200,
-    avgScore: 104
-  },
-  {
-    id: 'test-allen-ch8-solutions',
-    title: 'Allen Chemistry: Solutions (6 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Solutions (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_SOLUTIONS_QUESTIONS.length > 0 ? ALLEN_SOLUTIONS_QUESTIONS.length : 6,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_SOLUTIONS_QUESTIONS.length > 0 ? ALLEN_SOLUTIONS_QUESTIONS.length : 6) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_SOLUTIONS_QUESTIONS,
-    enrolledStudentsCount: 38800,
-    avgScore: 17
-  },
-  {
-    id: 'test-allen-ch9-electrochemistry',
-    title: 'Allen Chemistry: Electrochemistry (19 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Electrochemistry (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_ELECTROCHEMISTRY_QUESTIONS.length > 0 ? ALLEN_ELECTROCHEMISTRY_QUESTIONS.length : 19,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_ELECTROCHEMISTRY_QUESTIONS.length > 0 ? ALLEN_ELECTROCHEMISTRY_QUESTIONS.length : 19) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_ELECTROCHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 38400,
-    avgScore: 55
-  },
-  {
-    id: 'test-allen-ch10-chemical-kinetics',
-    title: 'Allen Chemistry: Chemical Kinetics (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemical Kinetics (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CHEMICAL_KINETICS_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_KINETICS_QUESTIONS.length : 20,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_CHEMICAL_KINETICS_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_KINETICS_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CHEMICAL_KINETICS_QUESTIONS,
-    enrolledStudentsCount: 38000,
-    avgScore: 58
-  },
-  {
-    id: 'test-allen-ch11-solid-state',
-    title: 'Allen Chemistry: Solid State (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Solid State (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_SOLID_STATE_QUESTIONS.length > 0 ? ALLEN_SOLID_STATE_QUESTIONS.length : 15,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_SOLID_STATE_QUESTIONS.length > 0 ? ALLEN_SOLID_STATE_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_SOLID_STATE_QUESTIONS,
-    enrolledStudentsCount: 37600,
-    avgScore: 43
-  },
-  {
-    id: 'test-allen-ch12-surface-chemistry',
-    title: 'Allen Chemistry: Surface Chemistry (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Surface Chemistry (Physical Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_SURFACE_CHEMISTRY_QUESTIONS.length > 0 ? ALLEN_SURFACE_CHEMISTRY_QUESTIONS.length : 20,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_SURFACE_CHEMISTRY_QUESTIONS.length > 0 ? ALLEN_SURFACE_CHEMISTRY_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_SURFACE_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 37200,
-    avgScore: 58
-  },
-  {
-    id: 'test-allen-ch13-periodic-table---periodicity',
-    title: 'Allen Chemistry: Periodic Table & Periodicity (19 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Periodic Table & Periodicity (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_PERIODIC_TABLE___PERIODICITY_QUESTIONS.length > 0 ? ALLEN_PERIODIC_TABLE___PERIODICITY_QUESTIONS.length : 19,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_PERIODIC_TABLE___PERIODICITY_QUESTIONS.length > 0 ? ALLEN_PERIODIC_TABLE___PERIODICITY_QUESTIONS.length : 19) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_PERIODIC_TABLE___PERIODICITY_QUESTIONS,
-    enrolledStudentsCount: 36800,
-    avgScore: 55
-  },
-  {
-    id: 'test-allen-ch14-chemical-bonding---molecular-structure',
-    title: 'Allen Chemistry: Chemical Bonding & Molecular Structure (35 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemical Bonding & Molecular Structure (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CHEMICAL_BONDING___MOLECULAR_STRUCTURE_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_BONDING___MOLECULAR_STRUCTURE_QUESTIONS.length : 35,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_CHEMICAL_BONDING___MOLECULAR_STRUCTURE_QUESTIONS.length > 0 ? ALLEN_CHEMICAL_BONDING___MOLECULAR_STRUCTURE_QUESTIONS.length : 35) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CHEMICAL_BONDING___MOLECULAR_STRUCTURE_QUESTIONS,
-    enrolledStudentsCount: 36400,
-    avgScore: 101
-  },
-  {
-    id: 'test-allen-ch15-s-block-elements',
-    title: 'Allen Chemistry: s-Block Elements (21 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 's-Block Elements (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_S_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? ALLEN_S_BLOCK_ELEMENTS_QUESTIONS.length : 21,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_S_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? ALLEN_S_BLOCK_ELEMENTS_QUESTIONS.length : 21) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_S_BLOCK_ELEMENTS_QUESTIONS,
-    enrolledStudentsCount: 36000,
-    avgScore: 60
-  },
-  {
-    id: 'test-allen-ch16-p-block-elements--boron--carbon--nitrogen--oxygen--halogens--inert-gases-',
-    title: 'Allen Chemistry: p-Block Elements (Boron, Carbon, Nitrogen, Oxygen, Halogens, Inert Gases) (37 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'p-Block Elements (Boron, Carbon, Nitrogen, Oxygen, Halogens, Inert Gases) (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_P_BLOCK_ELEMENTS__BORON__CARBON__NITROGEN__OXYGEN__HALOGENS__INERT_GASES__QUESTIONS.length > 0 ? ALLEN_P_BLOCK_ELEMENTS__BORON__CARBON__NITROGEN__OXYGEN__HALOGENS__INERT_GASES__QUESTIONS.length : 37,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_P_BLOCK_ELEMENTS__BORON__CARBON__NITROGEN__OXYGEN__HALOGENS__INERT_GASES__QUESTIONS.length > 0 ? ALLEN_P_BLOCK_ELEMENTS__BORON__CARBON__NITROGEN__OXYGEN__HALOGENS__INERT_GASES__QUESTIONS.length : 37) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_P_BLOCK_ELEMENTS__BORON__CARBON__NITROGEN__OXYGEN__HALOGENS__INERT_GASES__QUESTIONS,
-    enrolledStudentsCount: 35600,
-    avgScore: 107
-  },
-  {
-    id: 'test-allen-ch17-hydrogen---its-compounds',
-    title: 'Allen Chemistry: Hydrogen & Its Compounds (18 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Hydrogen & Its Compounds (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_HYDROGEN___ITS_COMPOUNDS_QUESTIONS.length > 0 ? ALLEN_HYDROGEN___ITS_COMPOUNDS_QUESTIONS.length : 18,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_HYDROGEN___ITS_COMPOUNDS_QUESTIONS.length > 0 ? ALLEN_HYDROGEN___ITS_COMPOUNDS_QUESTIONS.length : 18) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_HYDROGEN___ITS_COMPOUNDS_QUESTIONS,
-    enrolledStudentsCount: 35200,
-    avgScore: 52
-  },
-  {
-    id: 'test-allen-ch18-d---f-block-elements',
-    title: 'Allen Chemistry: d & f-Block Elements (25 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'd & f-Block Elements (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_D___F_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? ALLEN_D___F_BLOCK_ELEMENTS_QUESTIONS.length : 25,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_D___F_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? ALLEN_D___F_BLOCK_ELEMENTS_QUESTIONS.length : 25) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_D___F_BLOCK_ELEMENTS_QUESTIONS,
-    enrolledStudentsCount: 34800,
-    avgScore: 72
-  },
-  {
-    id: 'test-allen-ch19-coordination-chemistry',
-    title: 'Allen Chemistry: Coordination Chemistry (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Coordination Chemistry (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_COORDINATION_CHEMISTRY_QUESTIONS.length > 0 ? ALLEN_COORDINATION_CHEMISTRY_QUESTIONS.length : 20,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_COORDINATION_CHEMISTRY_QUESTIONS.length > 0 ? ALLEN_COORDINATION_CHEMISTRY_QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_COORDINATION_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 34400,
-    avgScore: 58
-  },
-  {
-    id: 'test-allen-ch20-metallurgy---isolation-of-elements',
-    title: 'Allen Chemistry: Metallurgy & Isolation of Elements (17 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Metallurgy & Isolation of Elements (Inorganic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_METALLURGY___ISOLATION_OF_ELEMENTS_QUESTIONS.length > 0 ? ALLEN_METALLURGY___ISOLATION_OF_ELEMENTS_QUESTIONS.length : 17,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_METALLURGY___ISOLATION_OF_ELEMENTS_QUESTIONS.length > 0 ? ALLEN_METALLURGY___ISOLATION_OF_ELEMENTS_QUESTIONS.length : 17) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_METALLURGY___ISOLATION_OF_ELEMENTS_QUESTIONS,
-    enrolledStudentsCount: 34000,
-    avgScore: 49
-  },
-  {
-    id: 'test-allen-ch21-nomenclature---isomerism--goc-',
-    title: 'Allen Chemistry: Nomenclature & Isomerism (GOC) (32 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Nomenclature & Isomerism (GOC) (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_NOMENCLATURE___ISOMERISM__GOC__QUESTIONS.length > 0 ? ALLEN_NOMENCLATURE___ISOMERISM__GOC__QUESTIONS.length : 32,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_NOMENCLATURE___ISOMERISM__GOC__QUESTIONS.length > 0 ? ALLEN_NOMENCLATURE___ISOMERISM__GOC__QUESTIONS.length : 32) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_NOMENCLATURE___ISOMERISM__GOC__QUESTIONS,
-    enrolledStudentsCount: 33600,
-    avgScore: 92
-  },
-  {
-    id: 'test-allen-ch22-reaction-mechanism',
-    title: 'Allen Chemistry: Reaction Mechanism (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Reaction Mechanism (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_REACTION_MECHANISM_QUESTIONS.length > 0 ? ALLEN_REACTION_MECHANISM_QUESTIONS.length : 15,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_REACTION_MECHANISM_QUESTIONS.length > 0 ? ALLEN_REACTION_MECHANISM_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_REACTION_MECHANISM_QUESTIONS,
-    enrolledStudentsCount: 33200,
-    avgScore: 43
-  },
-  {
-    id: 'test-allen-ch23-hydrocarbons--alkane--alkene---alkyne-',
-    title: 'Allen Chemistry: Hydrocarbons (Alkane, Alkene & Alkyne) (34 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Hydrocarbons (Alkane, Alkene & Alkyne) (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_HYDROCARBONS__ALKANE__ALKENE___ALKYNE__QUESTIONS.length > 0 ? ALLEN_HYDROCARBONS__ALKANE__ALKENE___ALKYNE__QUESTIONS.length : 34,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_HYDROCARBONS__ALKANE__ALKENE___ALKYNE__QUESTIONS.length > 0 ? ALLEN_HYDROCARBONS__ALKANE__ALKENE___ALKYNE__QUESTIONS.length : 34) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_HYDROCARBONS__ALKANE__ALKENE___ALKYNE__QUESTIONS,
-    enrolledStudentsCount: 32800,
-    avgScore: 98
-  },
-  {
-    id: 'test-allen-ch24-aromatic-hydrocarbons',
-    title: 'Allen Chemistry: Aromatic Hydrocarbons (17 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Aromatic Hydrocarbons (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_AROMATIC_HYDROCARBONS_QUESTIONS.length > 0 ? ALLEN_AROMATIC_HYDROCARBONS_QUESTIONS.length : 17,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_AROMATIC_HYDROCARBONS_QUESTIONS.length > 0 ? ALLEN_AROMATIC_HYDROCARBONS_QUESTIONS.length : 17) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_AROMATIC_HYDROCARBONS_QUESTIONS,
-    enrolledStudentsCount: 32400,
-    avgScore: 49
-  },
-  {
-    id: 'test-allen-ch25-alkyl-halides',
-    title: 'Allen Chemistry: Alkyl Halides (19 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Alkyl Halides (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_ALKYL_HALIDES_QUESTIONS.length > 0 ? ALLEN_ALKYL_HALIDES_QUESTIONS.length : 19,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_ALKYL_HALIDES_QUESTIONS.length > 0 ? ALLEN_ALKYL_HALIDES_QUESTIONS.length : 19) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_ALKYL_HALIDES_QUESTIONS,
-    enrolledStudentsCount: 32000,
-    avgScore: 55
-  },
-  {
-    id: 'test-allen-ch26-alcohol--phenol---ether',
-    title: 'Allen Chemistry: Alcohol, Phenol & Ether (15 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Alcohol, Phenol & Ether (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_ALCOHOL__PHENOL___ETHER_QUESTIONS.length > 0 ? ALLEN_ALCOHOL__PHENOL___ETHER_QUESTIONS.length : 15,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_ALCOHOL__PHENOL___ETHER_QUESTIONS.length > 0 ? ALLEN_ALCOHOL__PHENOL___ETHER_QUESTIONS.length : 15) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_ALCOHOL__PHENOL___ETHER_QUESTIONS,
-    enrolledStudentsCount: 31600,
-    avgScore: 43
-  },
-  {
-    id: 'test-allen-ch27-carbonyl-compounds--aldehydes---ketones-',
-    title: 'Allen Chemistry: Carbonyl Compounds (Aldehydes & Ketones) (35 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Carbonyl Compounds (Aldehydes & Ketones) (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CARBONYL_COMPOUNDS__ALDEHYDES___KETONES__QUESTIONS.length > 0 ? ALLEN_CARBONYL_COMPOUNDS__ALDEHYDES___KETONES__QUESTIONS.length : 35,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_CARBONYL_COMPOUNDS__ALDEHYDES___KETONES__QUESTIONS.length > 0 ? ALLEN_CARBONYL_COMPOUNDS__ALDEHYDES___KETONES__QUESTIONS.length : 35) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CARBONYL_COMPOUNDS__ALDEHYDES___KETONES__QUESTIONS,
-    enrolledStudentsCount: 31200,
-    avgScore: 101
-  },
-  {
-    id: 'test-allen-ch28-carboxylic-acids---its-derivatives',
-    title: 'Allen Chemistry: Carboxylic Acids & Its Derivatives (21 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Carboxylic Acids & Its Derivatives (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CARBOXYLIC_ACIDS___ITS_DERIVATIVES_QUESTIONS.length > 0 ? ALLEN_CARBOXYLIC_ACIDS___ITS_DERIVATIVES_QUESTIONS.length : 21,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_CARBOXYLIC_ACIDS___ITS_DERIVATIVES_QUESTIONS.length > 0 ? ALLEN_CARBOXYLIC_ACIDS___ITS_DERIVATIVES_QUESTIONS.length : 21) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CARBOXYLIC_ACIDS___ITS_DERIVATIVES_QUESTIONS,
-    enrolledStudentsCount: 30800,
-    avgScore: 60
-  },
-  {
-    id: 'test-allen-ch29-nitrogen-containing-compounds--amines-',
-    title: 'Allen Chemistry: Nitrogen Containing Compounds (Amines) (20 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Nitrogen Containing Compounds (Amines) (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_NITROGEN_CONTAINING_COMPOUNDS__AMINES__QUESTIONS.length > 0 ? ALLEN_NITROGEN_CONTAINING_COMPOUNDS__AMINES__QUESTIONS.length : 20,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_NITROGEN_CONTAINING_COMPOUNDS__AMINES__QUESTIONS.length > 0 ? ALLEN_NITROGEN_CONTAINING_COMPOUNDS__AMINES__QUESTIONS.length : 20) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_NITROGEN_CONTAINING_COMPOUNDS__AMINES__QUESTIONS,
-    enrolledStudentsCount: 30400,
-    avgScore: 58
-  },
-  {
-    id: 'test-allen-ch30-polymers',
-    title: 'Allen Chemistry: Polymers (16 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Polymers (Applied Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_POLYMERS_QUESTIONS.length > 0 ? ALLEN_POLYMERS_QUESTIONS.length : 16,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_POLYMERS_QUESTIONS.length > 0 ? ALLEN_POLYMERS_QUESTIONS.length : 16) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Applied Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_POLYMERS_QUESTIONS,
-    enrolledStudentsCount: 30000,
-    avgScore: 46
-  },
-  {
-    id: 'test-allen-ch31-biomolecules',
-    title: 'Allen Chemistry: Biomolecules (17 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Biomolecules (Organic Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_BIOMOLECULES_QUESTIONS.length > 0 ? ALLEN_BIOMOLECULES_QUESTIONS.length : 17,
-    durationMinutes: 45,
-    totalMarks: (ALLEN_BIOMOLECULES_QUESTIONS.length > 0 ? ALLEN_BIOMOLECULES_QUESTIONS.length : 17) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_BIOMOLECULES_QUESTIONS,
-    enrolledStudentsCount: 29600,
-    avgScore: 49
-  },
-  {
-    id: 'test-allen-ch32-chemistry-in-action--everyday-life-',
-    title: 'Allen Chemistry: Chemistry in Action (Everyday Life) (23 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Chemistry in Action (Everyday Life) (Applied Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_CHEMISTRY_IN_ACTION__EVERYDAY_LIFE__QUESTIONS.length > 0 ? ALLEN_CHEMISTRY_IN_ACTION__EVERYDAY_LIFE__QUESTIONS.length : 23,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_CHEMISTRY_IN_ACTION__EVERYDAY_LIFE__QUESTIONS.length > 0 ? ALLEN_CHEMISTRY_IN_ACTION__EVERYDAY_LIFE__QUESTIONS.length : 23) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Applied Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_CHEMISTRY_IN_ACTION__EVERYDAY_LIFE__QUESTIONS,
-    enrolledStudentsCount: 29200,
-    avgScore: 66
-  },
-  {
-    id: 'test-allen-ch33-environmental-chemistry',
-    title: 'Allen Chemistry: Environmental Chemistry (21 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Environmental Chemistry (Applied Chemistry) - Allen NCERT Objective Test',
-    totalQuestions: ALLEN_ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length > 0 ? ALLEN_ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length : 21,
-    durationMinutes: 60,
-    totalMarks: (ALLEN_ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length > 0 ? ALLEN_ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length : 21) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Applied Chemistry Focus',
-      'Allen Kota NCERT Line-by-Line',
-      'Official Answer Keys & Step-by-Step Solutions',
-      'Instant Scorecard'
-    ],
-    questions: ALLEN_ENVIRONMENTAL_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 28800,
-    avgScore: 60
-  },
-                                                                      {
-    id: 'test-chemistry-grand-master',
-    title: 'NEET Chemistry Complete Master Grand Test (All 30 NCERT Chapters)',
-    category: 'full',
-    exam: 'NEET',
-    syllabus: 'Complete Class 11 & 12 Chemistry: Physical, Inorganic & Organic Chemistry',
-    totalQuestions: ALL_CHEMISTRY_MASTER_QUESTIONS.length,
-    durationMinutes: 200,
-    totalMarks: ALL_CHEMISTRY_MASTER_QUESTIONS.length * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'All 30 NCERT Chemistry Chapters Covered',
-      'Class 11 & Class 12 Complete Question Bank',
-      'Step-by-step NCERT explanations',
-      'Full CBT Mock Exam Simulation'
-    ],
-    questions: ALL_CHEMISTRY_MASTER_QUESTIONS,
-    enrolledStudentsCount: 52400,
-    avgScore: 540
-  },
-  {
-    id: 'test-chemistry-mock-1',
-    title: 'NEET Chemistry Full Syllabus Mock Test 1 (45 Qs)',
+    id: 'test-sunday-03',
+    title: 'Sunday Mock 03: Cell Biology, Biomolecules & Division (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Complete NEET Chemistry Syllabus (Physical, Inorganic, Organic)',
+    syllabus: 'Unit 3: Cell: The Unit of Life, Biomolecules & Cell Cycle/Division (Mitosis & Meiosis)',
     totalQuestions: 45,
-    durationMinutes: 60,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Exact NEET Standard 45 Questions',
-      'Verified Answer Key & Step-by-Step Solutions',
-      'Instant Scorecard and Rank Prediction'
-    ],
-    questions: CHEMISTRY_MOCK_TEST_1_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_1_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(0, 45),
-    enrolledStudentsCount: 36800,
-    avgScore: 121
-  },
-  {
-    id: 'test-chemistry-mock-2',
-    title: 'NEET Chemistry Full Syllabus Mock Test 2 (45 Qs)',
-    category: 'neet_mock',
-    exam: 'NEET',
-    syllabus: 'Complete NEET Chemistry Syllabus (Physical, Inorganic, Organic)',
-    totalQuestions: 45,
-    durationMinutes: 60,
+    durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
     cbtMode: true,
+    scheduledDate: '2026-09-20',
     features: [
-      'Exact NEET Standard 45 Questions',
-      'Verified Answer Key & Step-by-Step Solutions',
-      'Instant Scorecard and Rank Prediction'
+      '45 High-Yield Questions on Organelles, Enzyme Kinetics & Meiotic Prophase I',
+      'Sub-phases of Prophase I, Activation Energy & Secondary Metabolites',
+      '45 Mins CBT Duration & 180 Marks',
+      'All India Rank Prediction'
     ],
-    questions: CHEMISTRY_MOCK_TEST_2_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_2_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(45, 90),
-    enrolledStudentsCount: 35600,
-    avgScore: 117
+    questions: get45(FINGERTIPS_BIO_CH08_MCQS),
+    enrolledStudentsCount: 154000,
+    avgScore: 139
   },
   {
-    id: 'test-chemistry-mock-3',
-    title: 'NEET Chemistry Full Syllabus Mock Test 3 (45 Qs)',
+    id: 'test-sunday-04',
+    title: 'Sunday Mock 04: Plant Physiology Mastery (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Complete NEET Chemistry Syllabus (Physical, Inorganic, Organic)',
+    syllabus: 'Unit 4: Photosynthesis (Light/Dark, C3/C4), Respiration (Glycolysis, Krebs, ETS) & Plant Growth Regulators (Auxin, GA, Cytokinin, Ethylene, ABA)',
     totalQuestions: 45,
-    durationMinutes: 60,
+    durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
     cbtMode: true,
+    scheduledDate: '2026-09-27',
     features: [
-      'Exact NEET Standard 45 Questions',
-      'Verified Answer Key & Step-by-Step Solutions',
-      'Instant Scorecard and Rank Prediction'
+      '45 High-Frequency Bioenergetics & Hormone Questions',
+      'Kranz Anatomy, ATP Yield Calculations & Photolysis of Water',
+      '45 Mins CBT Duration & 180 Marks',
+      'Instant Scorecard with Weak Chapter Diagnostics'
     ],
-    questions: CHEMISTRY_MOCK_TEST_3_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_3_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(90, 135),
-    enrolledStudentsCount: 34400,
-    avgScore: 113
+    questions: get45(FINGERTIPS_BIO_CH11_MCQS),
+    enrolledStudentsCount: 149000,
+    avgScore: 136
   },
   {
-    id: 'test-chemistry-mock-4',
-    title: 'NEET Chemistry Full Syllabus Mock Test 4 (30 Qs)',
+    id: 'test-sunday-05',
+    title: 'Sunday Mock 05: Human Physiology Core Systems (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Complete NEET Chemistry Syllabus (Physical, Inorganic, Organic)',
-    totalQuestions: 30,
+    syllabus: 'Unit 5: Breathing & Gas Exchange, Body Fluids & ECG, Excretion & RAAS, Locomotion, Neural System & Endocrine Hormones',
+    totalQuestions: 45,
     durationMinutes: 45,
-    totalMarks: 120,
+    totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
+    scheduledDate: '2026-10-04',
     features: [
-      'Exact NEET Standard 30 Questions',
-      'Verified Answer Key & Step-by-Step Solutions',
-      'Instant Scorecard and Rank Prediction'
+      '45 Clinical & Physiological Mechanism Questions',
+      'Counter-Current Multiplier, Sliding Filament, Action Potential & Cardiac Cycle',
+      '45 Mins CBT Duration & 180 Marks',
+      'Verified Step-by-Step Explanations'
     ],
-    questions: CHEMISTRY_MOCK_TEST_4_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_4_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(135, 180),
-    enrolledStudentsCount: 33200,
-    avgScore: 109
+    questions: get45(FINGERTIPS_BIO_CH15_MCQS),
+    enrolledStudentsCount: 162000,
+    avgScore: 144
   },
   {
-    id: 'test-chemistry-mock-5',
-    title: 'NEET Chemistry Full Syllabus Mock Test 5 (30 Qs)',
+    id: 'test-sunday-06',
+    title: 'Sunday Mock 06: Reproduction in Plants & Humans (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Complete NEET Chemistry Syllabus (Physical, Inorganic, Organic)',
-    totalQuestions: 30,
-    durationMinutes: 45,
-    totalMarks: 120,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Exact NEET Standard 30 Questions',
-      'Verified Answer Key & Step-by-Step Solutions',
-      'Instant Scorecard and Rank Prediction'
-    ],
-    questions: CHEMISTRY_MOCK_TEST_5_QUESTIONS.length > 0 ? CHEMISTRY_MOCK_TEST_5_QUESTIONS : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(180, 225),
-    enrolledStudentsCount: 32000,
-    avgScore: 105
-  },
-  {
-    id: 'test-chem-ch1-some-basic-concepts-of-chemistry',
-    title: 'Some Basic Concepts of Chemistry Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Mole Concept, Stoichiometry, Empirical Formula, Concentration Terms',
-    totalQuestions: SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS.length > 0 ? SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS.length > 0 ? SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 31500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch2-structure-of-atom',
-    title: 'Structure of Atom Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Bohr Model, Quantum Numbers, Electronic Configuration, De Broglie & Heisenberg',
-    totalQuestions: STRUCTURE_OF_ATOM_QUESTIONS.length > 0 ? STRUCTURE_OF_ATOM_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (STRUCTURE_OF_ATOM_QUESTIONS.length > 0 ? STRUCTURE_OF_ATOM_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: STRUCTURE_OF_ATOM_QUESTIONS,
-    enrolledStudentsCount: 31000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch3-classification-of-elements-and-periodicity-in-properties',
-    title: 'Classification of Elements & Periodicity Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Periodic Trends, Ionization Enthalpy, Electron Gain Enthalpy, Electronegativity',
-    totalQuestions: CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS.length > 0 ? CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS.length > 0 ? CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS,
-    enrolledStudentsCount: 30500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch4-chemical-bonding-and-molecular-structure',
-    title: 'Chemical Bonding & Molecular Structure Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'VSEPR Theory, Hybridisation, Molecular Orbital Theory, Dipole Moment',
-    totalQuestions: CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS.length > 0 ? CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS.length > 0 ? CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS,
-    enrolledStudentsCount: 30000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch5-states-of-matter',
-    title: 'States of Matter: Gases & Liquids Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Ideal Gas Law, Real Gases, Van der Waals Equation, Liquefaction',
-    totalQuestions: STATES_OF_MATTER_QUESTIONS.length > 0 ? STATES_OF_MATTER_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (STATES_OF_MATTER_QUESTIONS.length > 0 ? STATES_OF_MATTER_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: STATES_OF_MATTER_QUESTIONS,
-    enrolledStudentsCount: 29500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch6-thermodynamics',
-    title: 'Thermodynamics & Thermochemistry Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'First & Second Law of Thermodynamics, Enthalpy, Entropy, Gibbs Free Energy',
-    totalQuestions: THERMODYNAMICS_QUESTIONS.length > 0 ? THERMODYNAMICS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (THERMODYNAMICS_QUESTIONS.length > 0 ? THERMODYNAMICS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: THERMODYNAMICS_QUESTIONS,
-    enrolledStudentsCount: 29000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch7-equilibrium',
-    title: 'Chemical & Ionic Equilibrium Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Le Chatelier\'s Principle, Kp/Kc, pH, Buffer Solutions, Solubility Product (Ksp)',
-    totalQuestions: EQUILIBRIUM_QUESTIONS.length > 0 ? EQUILIBRIUM_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (EQUILIBRIUM_QUESTIONS.length > 0 ? EQUILIBRIUM_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: EQUILIBRIUM_QUESTIONS,
-    enrolledStudentsCount: 28500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch8-redox-reactions',
-    title: 'Redox Reactions Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Oxidation Number, Balancing Redox Reactions, Electrochemical Concepts',
-    totalQuestions: REDOX_REACTIONS_QUESTIONS.length > 0 ? REDOX_REACTIONS_QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (REDOX_REACTIONS_QUESTIONS.length > 0 ? REDOX_REACTIONS_QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: REDOX_REACTIONS_QUESTIONS,
-    enrolledStudentsCount: 28000,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch9-hydrogen',
-    title: 'Hydrogen & Its Compounds Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Isotopes, Hydrides, Hydrogen Peroxide (H2O2), Heavy Water',
-    totalQuestions: HYDROGEN_QUESTIONS.length > 0 ? HYDROGEN_QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (HYDROGEN_QUESTIONS.length > 0 ? HYDROGEN_QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: HYDROGEN_QUESTIONS,
-    enrolledStudentsCount: 27500,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch10-the-s-block-elements',
-    title: 'The s-Block Elements (Alkali & Alkaline Earth Metals) Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Group 1 & 2 Trends, Anomalous Behavior of Li & Be, Industrial Compounds',
-    totalQuestions: THE_S_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? THE_S_BLOCK_ELEMENTS_QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (THE_S_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? THE_S_BLOCK_ELEMENTS_QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: THE_S_BLOCK_ELEMENTS_QUESTIONS,
-    enrolledStudentsCount: 32000,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch11-the-p-block-elements--group-13---14-',
-    title: 'The p-Block Elements (Group 13 & 14) Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Boron Family, Carbon Family, Allotropes, Borax, Diborane, Silicones',
-    totalQuestions: THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS.length > 0 ? THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS.length > 0 ? THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS,
-    enrolledStudentsCount: 31500,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch12-organic-chemistry---some-basic-principles---techniques',
-    title: 'GOC: General Organic Chemistry Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'IUPAC Nomenclature, Isomerism, Inductive, Resonance, Hyperconjugation, Intermediates',
-    totalQuestions: ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS.length > 0 ? ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS.length > 0 ? ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS,
-    enrolledStudentsCount: 31000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch13-hydrocarbons',
-    title: 'Hydrocarbons (Alkanes, Alkenes, Alkynes, Arenes) Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Markovnikov Addition, Ozonolysis, Friedel-Crafts Reactions, Aromaticity',
-    totalQuestions: HYDROCARBONS_QUESTIONS.length > 0 ? HYDROCARBONS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (HYDROCARBONS_QUESTIONS.length > 0 ? HYDROCARBONS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: HYDROCARBONS_QUESTIONS,
-    enrolledStudentsCount: 30500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch14-environmental-chemistry',
-    title: 'Environmental Chemistry Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Tropospheric Pollution, Smog, Acid Rain, Ozone Depletion, Green Chemistry',
-    totalQuestions: ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length > 0 ? ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length : 30,
-    durationMinutes: 40,
-    totalMarks: (ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length > 0 ? ENVIRONMENTAL_CHEMISTRY_QUESTIONS.length : 30) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Applied Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: ENVIRONMENTAL_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 30000,
-    avgScore: 84
-  },
-  {
-    id: 'test-chem-ch15-the-solid-state',
-    title: 'The Solid State Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Unit Cells, Packing Efficiency, Crystal Defects, Density Calculations',
-    totalQuestions: THE_SOLID_STATE_QUESTIONS.length > 0 ? THE_SOLID_STATE_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (THE_SOLID_STATE_QUESTIONS.length > 0 ? THE_SOLID_STATE_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: THE_SOLID_STATE_QUESTIONS,
-    enrolledStudentsCount: 29500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch16-solutions',
-    title: 'Solutions & Colligative Properties Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Raoult\'s Law, Elevation in B.P., Depression in F.P., Osmotic Pressure, Van\'t Hoff Factor',
-    totalQuestions: SOLUTIONS_QUESTIONS.length > 0 ? SOLUTIONS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (SOLUTIONS_QUESTIONS.length > 0 ? SOLUTIONS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: SOLUTIONS_QUESTIONS,
-    enrolledStudentsCount: 29000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch17-electrochemistry',
-    title: 'Electrochemistry Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Nernst Equation, Kohlrausch\'s Law, Faraday\'s Laws, Batteries & Fuel Cells',
-    totalQuestions: ELECTROCHEMISTRY_QUESTIONS.length > 0 ? ELECTROCHEMISTRY_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (ELECTROCHEMISTRY_QUESTIONS.length > 0 ? ELECTROCHEMISTRY_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: ELECTROCHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 28500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch18-chemical-kinetics',
-    title: 'Chemical Kinetics Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Order and Molecularity, Rate Laws, Arrhenius Equation, Integrated Rate Equations',
-    totalQuestions: CHEMICAL_KINETICS_QUESTIONS.length > 0 ? CHEMICAL_KINETICS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (CHEMICAL_KINETICS_QUESTIONS.length > 0 ? CHEMICAL_KINETICS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: CHEMICAL_KINETICS_QUESTIONS,
-    enrolledStudentsCount: 28000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch19-surface-chemistry',
-    title: 'Surface Chemistry Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Adsorption Isotherms, Catalysis, Colloids, Tyndall Effect, Emulsions',
-    totalQuestions: SURFACE_CHEMISTRY_QUESTIONS.length > 0 ? SURFACE_CHEMISTRY_QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (SURFACE_CHEMISTRY_QUESTIONS.length > 0 ? SURFACE_CHEMISTRY_QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Physical Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: SURFACE_CHEMISTRY_QUESTIONS,
-    enrolledStudentsCount: 27500,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch20-general-principles-and-processes-of-isolation-of-elements',
-    title: 'Metallurgy & Isolation of Elements Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Ellingham Diagrams, Froth Flotation, Zone Refining, Electrolytic Refining',
-    totalQuestions: GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS.length > 0 ? GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS.length > 0 ? GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS,
-    enrolledStudentsCount: 32000,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch21-the-p-block-elements--group-15--16--17-and-18-',
-    title: 'The p-Block Elements (Groups 15, 16, 17 & 18) Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Nitrogen, Phosphorus, Oxygen, Halogens & Noble Gases Chemistry',
-    totalQuestions: THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS.length > 0 ? THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS.length > 0 ? THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS,
-    enrolledStudentsCount: 31500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch22-the-d--and-f-block-elements',
-    title: 'The d- and f-Block Elements Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Lanthanoid Contraction, Transition Metals, Potassium Permanganate & Dichromate',
-    totalQuestions: THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS.length : 40,
-    durationMinutes: 50,
-    totalMarks: (THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS.length > 0 ? THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS.length : 40) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS,
-    enrolledStudentsCount: 31000,
-    avgScore: 112
-  },
-  {
-    id: 'test-chem-ch23-coordination-compounds',
-    title: 'Coordination Compounds Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'IUPAC Naming, Werner\'s Theory, CFT (Crystal Field Theory), Isomerism, Stability',
-    totalQuestions: COORDINATION_COMPOUNDS_QUESTIONS.length > 0 ? COORDINATION_COMPOUNDS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (COORDINATION_COMPOUNDS_QUESTIONS.length > 0 ? COORDINATION_COMPOUNDS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Inorganic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: COORDINATION_COMPOUNDS_QUESTIONS,
-    enrolledStudentsCount: 30500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch24-haloalkanes-and-haloarenes',
-    title: 'Haloalkanes and Haloarenes Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'SN1 and SN2 Mechanisms, Elimination vs Substitution, Grignard Reagents, Aryl Halides',
-    totalQuestions: HALOALKANES_AND_HALOARENES_QUESTIONS.length > 0 ? HALOALKANES_AND_HALOARENES_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (HALOALKANES_AND_HALOARENES_QUESTIONS.length > 0 ? HALOALKANES_AND_HALOARENES_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: HALOALKANES_AND_HALOARENES_QUESTIONS,
-    enrolledStudentsCount: 30000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch25-alcohols--phenols-and-ethers',
-    title: 'Alcohols, Phenols and Ethers Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Lucas Test, Reimer-Tiemann Reaction, Kolbe\'s Reaction, Williamson Synthesis',
-    totalQuestions: ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS.length > 0 ? ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS.length > 0 ? ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS,
-    enrolledStudentsCount: 29500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch26-aldehydes--ketones-and-carboxylic-acids',
-    title: 'Aldehydes, Ketones & Carboxylic Acids Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Aldol Condensation, Cannizzaro Reaction, Tollens & Fehling Tests, Decarboxylation',
-    totalQuestions: ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS.length > 0 ? ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS.length > 0 ? ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS,
-    enrolledStudentsCount: 29000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch27-amines',
-    title: 'Amines & Diazonium Salts Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Basicity Trends, Carbylamine Test, Hinsberg Test, Azo Coupling Reactions',
-    totalQuestions: AMINES_QUESTIONS.length > 0 ? AMINES_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (AMINES_QUESTIONS.length > 0 ? AMINES_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: AMINES_QUESTIONS,
-    enrolledStudentsCount: 28500,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch28-biomolecules',
-    title: 'Biomolecules Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Carbohydrates, Amino Acids, Peptide Linkages, DNA/RNA Structure, Vitamins, Enzymes',
-    totalQuestions: BIOMOLECULES_QUESTIONS.length > 0 ? BIOMOLECULES_QUESTIONS.length : 45,
-    durationMinutes: 60,
-    totalMarks: (BIOMOLECULES_QUESTIONS.length > 0 ? BIOMOLECULES_QUESTIONS.length : 45) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Organic Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: BIOMOLECULES_QUESTIONS,
-    enrolledStudentsCount: 28000,
-    avgScore: 125
-  },
-  {
-    id: 'test-chem-ch29-polymers',
-    title: 'Polymers Chapter Practice Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Addition & Condensation Polymers, Bakelite, Nylon-6,6, Buna-S, Biodegradable Polymers',
-    totalQuestions: POLYMERS_QUESTIONS.length > 0 ? POLYMERS_QUESTIONS.length : 35,
-    durationMinutes: 45,
-    totalMarks: (POLYMERS_QUESTIONS.length > 0 ? POLYMERS_QUESTIONS.length : 35) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Applied Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: POLYMERS_QUESTIONS,
-    enrolledStudentsCount: 27500,
-    avgScore: 98
-  },
-  {
-    id: 'test-chem-ch30-chemistry-in-everyday-life',
-    title: 'Chemistry in Everyday Life Chapter Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Antipyretics, Analgesics, Antibiotics, Antihistamines, Soaps and Detergents',
-    totalQuestions: CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS.length > 0 ? CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS.length : 35,
-    durationMinutes: 45,
-    totalMarks: (CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS.length > 0 ? CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS.length : 35) * 4,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Applied Chemistry Core Focus',
-      '100% NCERT Line-by-Line MCQs',
-      'Step-by-step Explanations & Answer Key',
-      'Instant Detailed Scorecard'
-    ],
-    questions: CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS,
-    enrolledStudentsCount: 32000,
-    avgScore: 98
-  },
-            
-  {
-    id: 'test-biology-grand-380',
-    title: 'NEET Biology Complete Master Grand Test (380 Qs - All 38 Chapters)',
-    category: 'full',
-    exam: 'NEET',
-    syllabus: 'Full NEET Biology Syllabus: Class 11 (22 Chapters) & Class 12 (16 Chapters) Complete',
-    totalQuestions: 380,
-    durationMinutes: 200,
-    totalMarks: 1520,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'All 38 NCERT Chapters Covered',
-      'Class 11 & Class 12 Master Question Bank',
-      'Step-by-step NCERT explanations',
-      'Full CBT Mock Exam Simulation'
-    ],
-    questions: ALL_BIOLOGY_MASTER_QUESTIONS,
-    enrolledStudentsCount: 48900,
-    avgScore: 980
-  },
-  {
-    id: 'test-biology-vol1-class11',
-    title: 'Class 11 Biology Full Syllabus Test (220 Qs - Units I to V)',
-    category: 'part',
-    exam: 'NEET',
-    syllabus: 'Diversity in Living World, Structural Organisation, Cell Structure, Plant Physiology, Human Physiology',
-    totalQuestions: 220,
-    durationMinutes: 180,
-    totalMarks: 880,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'All 22 Class 11 Chapters',
-      'Deep Physiology & Cell Biology Coverage',
-      'Instant Scorecard & Detailed Solutions'
-    ],
-    questions: ALL_BIOLOGY_MASTER_QUESTIONS.slice(0, 220),
-    enrolledStudentsCount: 41200,
-    avgScore: 610
-  },
-  {
-    id: 'test-biology-vol2-class12',
-    title: 'Class 12 Biology Full Syllabus Test (160 Qs - Units VI to X)',
-    category: 'part',
-    exam: 'NEET',
-    syllabus: 'Reproduction, Genetics and Evolution, Biology in Human Welfare, Biotechnology, Ecology & Environment',
-    totalQuestions: 160,
-    durationMinutes: 150,
-    totalMarks: 640,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'All 16 Class 12 Chapters',
-      'High-Yield Genetics & Biotechnology Focus',
-      'Full CBT Exam Mode with Analytics'
-    ],
-    questions: ALL_BIOLOGY_MASTER_QUESTIONS.slice(220, 380),
-    enrolledStudentsCount: 43500,
-    avgScore: 490
-  },
-  {
-    id: 'test-genetics-molecular',
-    title: 'Genetics & Molecular Biology Chapterwise Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Principles of Inheritance & Variation, Molecular Basis of Inheritance',
-    totalQuestions: 20,
-    durationMinutes: 30,
-    totalMarks: 80,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'Mendelian crosses, pedigrees, and chromosomal disorders',
-      'DNA replication, transcription, translation, Lac operon'
-    ],
-    questions: [
-      ...PRINCIPLES_OF_INHERITANCE_AND_VARIATION_V2_QUESTIONS,
-      ...MOLECULAR_BASIS_OF_INHERITANCE_V2_QUESTIONS
-    ],
-    enrolledStudentsCount: 38200,
-    avgScore: 62
-  },
-  {
-    id: 'test-biotechnology-unit',
-    title: 'Biotechnology: Principles & Applications Test',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Recombinant DNA technology, PCR, Gel electrophoresis, Bt Cotton, RNAi, Gene Therapy, GMOs',
-    totalQuestions: 20,
-    durationMinutes: 30,
-    totalMarks: 80,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Vectors, restriction enzymes, downstream processing',
-      'Transgenic Rosie cow, Humulin, ADA gene therapy'
-    ],
-    questions: [
-      ...BIOTECHNOLOGY__PRINCIPLES_AND_PROCESSES_V2_QUESTIONS,
-      ...BIOTECHNOLOGY_AND_ITS_APPLICATIONS_V2_QUESTIONS
-    ],
-    enrolledStudentsCount: 36700,
-    avgScore: 68
-  },
-  {
-    id: 'test-ecology-environment-unit',
-    title: 'Ecology & Environment Complete Unit Test (40 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Organisms & Populations, Ecosystem, Biodiversity & Conservation, Environmental Issues',
-    totalQuestions: 40,
-    durationMinutes: 45,
-    totalMarks: 160,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Population interactions, ecological succession, biogeochemical cycles',
-      'Hotspots, Evil Quartet, global warming, ozone depletion'
-    ],
-    questions: [
-      ...ORGANISMS_AND_POPULATIONS_V2_QUESTIONS,
-      ...ECOSYSTEM_V2_QUESTIONS,
-      ...BIODIVERSITY_AND_CONSERVATION_V2_QUESTIONS,
-      ...ENVIRONMENTAL_ISSUES_V2_QUESTIONS
-    ],
-    enrolledStudentsCount: 39800,
-    avgScore: 128
-  },
-  {
-    id: 'test-vectors-book',
-    title: 'Vectors Chapter Grand Test (143 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Vectors: Fundamentals, Addition & Subtraction of Vectors, Lami\'s Theorem, Multiplication of Vectors',
-    totalQuestions: 143,
-    durationMinutes: 180,
-    totalMarks: 572,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'Comprehensive textbook practice',
-      'Parsed questions and detailed answers',
-      'Step-by-step solutions',
-      'NCERT verbatim alignments'
-    ],
-    questions: VECTORS_BOOK_QUESTIONS,
-    enrolledStudentsCount: 34200,
-    avgScore: 320
-  },
-  {
-    id: 'test-units-book',
-    title: 'Units & Dimensions Chapter Practice Test (142 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Units, Dimensions and Measurement (Offline Preloaded)',
-    totalQuestions: 142,
-    durationMinutes: 180,
-    totalMarks: 568,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Offline-capable, preloaded directly',
-      'Includes absolute unit conversions',
-      'Dimensional homogeneity questions',
-      'Detailed explanations included'
-    ],
-    questions: UNITS_BOOK_QUESTIONS,
-    enrolledStudentsCount: 28900,
-    avgScore: 245
-  },
-  {
-    id: 'test-motion-book',
-    title: 'Motion in One Dimension Chapter Practice Test (86 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Motion in a Straight Line & Graphical Questions (Offline Preloaded)',
-    totalQuestions: 86,
-    durationMinutes: 90,
-    totalMarks: 344,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'Offline-capable, preloaded directly',
-      'Graphs, displacement, velocity and equations of motion',
-      '1D relative motion questions',
-      'Step-by-step explanations'
-    ],
-    questions: MOTION_BOOK_QUESTIONS,
-    enrolledStudentsCount: 31200,
-    avgScore: 198
-  },
-  {
-    id: 'test-electrostatics-book',
-    title: 'Electrostatics Chapter Practice Test (88 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Coulomb\'s Law, Electric Fields, Gauss Law & Potential (Offline Preloaded)',
-    totalQuestions: 88,
-    durationMinutes: 90,
-    totalMarks: 352,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Offline-capable, preloaded directly',
-      'Electric dipole, flux, potential energy, and conductors',
-      'Detailed step-by-step explanations'
-    ],
-    questions: ELECTROSTATICS_BOOK_QUESTIONS,
-    enrolledStudentsCount: 27400,
-    avgScore: 215
-  },
-  {
-    id: 'test-gravitation-book',
-    title: 'Gravitation Chapter Practice Test (125 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Newton\'s Law of Gravitation, Satellites, Kepler\'s Laws (Offline Preloaded)',
-    totalQuestions: 125,
-    durationMinutes: 120,
-    totalMarks: 500,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    cbtMode: true,
-    features: [
-      'Offline-capable, preloaded directly',
-      'Escape velocity, orbital speed, and variation of g',
-      'Detailed step-by-step solutions'
-    ],
-    questions: GRAVITATION_BOOK_QUESTIONS,
-    enrolledStudentsCount: 29800,
-    avgScore: 310
-  },
-  {
-    id: 'test-thermodynamics-book',
-    title: 'Thermodynamics Chapter Practice Test (153 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Laws of Thermodynamics, Heat Engines, Kinetic Theory (Offline Preloaded)',
-    totalQuestions: 153,
-    durationMinutes: 150,
-    totalMarks: 612,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'Offline-capable, preloaded directly',
-      'Carnot cycle, indicator diagrams, isothermal and adiabatic processes',
-      'Detailed step-by-step solutions'
-    ],
-    questions: THERMODYNAMICS_BOOK_QUESTIONS,
-    enrolledStudentsCount: 33400,
-    avgScore: 354
-  },
-  {
-    id: 'test-magnetism-book',
-    title: 'Magnetism Chapter Practice Test (177 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Magnetic Effects of Current, Earth\'s Magnetism, Materials (Offline Preloaded)',
-    totalQuestions: 177,
-    durationMinutes: 180,
-    totalMarks: 708,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: [
-      'Offline-capable, preloaded directly',
-      'Biot-Savart, Ampere\'s law, moving charges, and magnetic dipoles',
-      'Detailed step-by-step solutions'
-    ],
-    questions: MAGNETISM_BOOK_QUESTIONS,
-    enrolledStudentsCount: 35600,
-    avgScore: 412
-  },
-  // Minor Test Series
-  {
-    id: 'test-minor-01',
-    title: 'Minor Test 01: Cell Biology & Genetics',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Cell: The Unit of Life, Biomolecules, Cell Cycle & Division, Mendelian Genetics',
+    syllabus: 'Unit 6: Sexual Reproduction in Flowering Plants, Human Reproduction & Reproductive Health (Contraception & ART)',
     totalQuestions: 45,
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
+    scheduledDate: '2026-10-11',
     features: [
-      'Chapter-wise tests',
-      'Topic-wise MCQs',
-      'Instant scorecard',
-      'Detailed solutions',
-      'Time-based practice',
-      'Difficulty-wise questions',
-      'AI-based performance tracking'
+      '45 NCERT Questions on Double Fertilisation, Spermatogenesis & IUDs',
+      'Outbreeding devices, Menstrual Cycle phases & MTP/IVF protocols',
+      '45 Mins CBT Duration & 180 Marks',
+      '100% NCERT Verbatim Solutions'
     ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 14200,
+    questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS),
+    enrolledStudentsCount: 156000,
+    avgScore: 151
+  },
+  {
+    id: 'test-sunday-07',
+    title: 'Sunday Mock 07: Genetics, Molecular Biology & Evolution (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Unit 7: Principles of Inheritance, Molecular Basis of Inheritance (DNA, Replication, Transcription, Lac Operon) & Evolution (Hardy-Weinberg)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    scheduledDate: '2026-10-18',
+    features: [
+      '45 High-Weightage Genetics & Molecular Biology Questions',
+      'Pedigree Charts, Griffith/Hershey-Chase Experiments & Human Evolution',
+      '45 Mins CBT Duration & 180 Marks',
+      'AIR & National Percentile Benchmark'
+    ],
+    questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS),
+    enrolledStudentsCount: 171000,
+    avgScore: 134
+  },
+  {
+    id: 'test-sunday-08',
+    title: 'Sunday Mock 08: Biotechnology & Human Welfare (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Unit 8 & 9: Human Health & Disease, Microbes in Welfare, Biotech Principles (pBR322, PCR) & Biotech Applications (Bt Cotton, RNAi, Humulin)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    scheduledDate: '2026-10-25',
+    features: [
+      '45 Questions on Immunity, Vaccines, Restriction Enzymes & Bioreactors',
+      'Malaria Cycle, Antibodies, Gene Therapy & Downstream Processing',
+      '45 Mins CBT Duration & 180 Marks',
+      'Detailed Official MTG Solutions'
+    ],
+    questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS),
+    enrolledStudentsCount: 147000,
+    avgScore: 146
+  },
+  {
+    id: 'test-sunday-09',
+    title: 'Sunday Mock 09: Ecology & Environmental Biology (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Unit 10: Organisms and Populations (Growth Models & Interactions), Ecosystem (Productivity & Pyramids) & Biodiversity and Conservation (Hotspots & Sanctuaries)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    scheduledDate: '2026-11-01',
+    features: [
+      '45 NCERT Ecology Questions (dN/dt equations, 10% law, Evil Quartet)',
+      'Latitudinal gradients, In-situ vs Ex-situ & Sacred Groves',
+      '45 Mins CBT Duration & 180 Marks',
+      'Instant Weak Area Analytics'
+    ],
+    questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS),
+    enrolledStudentsCount: 141000,
+    avgScore: 149
+  },
+  {
+    id: 'test-sunday-10',
+    title: 'Sunday Mock 10: NEET Full Syllabus Model Test 1 (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Full NCERT Biology Syllabus (Class 11 & Class 12 Combined) - Section A 45 Questions',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    scheduledDate: '2026-11-08',
+    features: [
+      '45 Full Syllabus Questions with Balanced Botany & Zoology Distribution',
+      'A&R, Statement Based, Matching & Experimental Drills',
+      '45 Mins CBT Duration & 180 Marks',
+      '100% Verified MTG Official Answer Key'
+    ],
+    questions: get45(NEET_MODEL_TEST_PAPER_1, 0),
+    enrolledStudentsCount: 185000,
+    avgScore: 141
+  },
+  {
+    id: 'test-sunday-11',
+    title: 'Sunday Mock 11: NEET Full Syllabus Model Test 2 (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Full NCERT Biology Syllabus (Class 11 & Class 12 Combined) - Section B 45 Questions',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    scheduledDate: '2026-11-15',
+    features: [
+      '45 Full Syllabus Questions Covering Enzymes, Hormones, Genetics & Ecology',
+      'Photolysis, RAAS, Meiosis Stages & Recombinant DNA',
+      '45 Mins CBT Duration & 180 Marks',
+      '100% Verified MTG Official Answer Key'
+    ],
+    questions: get45(NEET_MODEL_TEST_PAPER_2, 0),
+    enrolledStudentsCount: 179000,
+    avgScore: 138
+  },
+
+  // ==========================================
+  // 2. CHAPTER-WISE MASTERY TESTS (45 QUESTIONS & 45 MINS EACH)
+  // ==========================================
+  {
+    id: 'test-ft-bio-ch01-mcqs-45',
+    title: 'Chapter 01: The Living World (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 01: What is Living, Diversity, Binomial Nomenclature, Taxonomic Hierarchy & Aids',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH01_MCQS),
+    enrolledStudentsCount: 88000,
+    avgScore: 154
+  },
+  {
+    id: 'test-ft-bio-ch02-mcqs-45',
+    title: 'Chapter 02: Biological Classification (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 02: Monera, Protista, Fungi, Viruses, Viroids & Lichens',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH02_MCQS),
+    enrolledStudentsCount: 85000,
+    avgScore: 147
+  },
+  {
+    id: 'test-ft-bio-ch03-mcqs-45',
+    title: 'Chapter 03: Plant Kingdom (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 03: Algae (Chlorophyceae, Phaeophyceae, Rhodophyceae), Bryophytes, Pteridophytes & Gymnosperms',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH03_MCQS),
+    enrolledStudentsCount: 82000,
+    avgScore: 140
+  },
+  {
+    id: 'test-ft-bio-ch04-mcqs-45',
+    title: 'Chapter 04: Animal Kingdom (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 04: Non-Chordates (Porifera to Hemichordata) & Chordates (Cyclostomata to Mammalia)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH04_MCQS),
+    enrolledStudentsCount: 91000,
     avgScore: 138
   },
   {
-    id: 'test-minor-02',
-    title: 'Minor Test 02: Mechanics & Kinematics',
+    id: 'test-ft-bio-ch05-mcqs-45',
+    title: 'Chapter 05: Morphology of Flowering Plants (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Units & Measurements, Motion in a Straight Line, Motion in a Plane, Laws of Motion',
+    syllabus: 'Class 11 Chapter 05: Root, Stem, Leaf Modifications, Inflorescence, Flower Anatomy, Fruit & Families',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH05_MCQS),
+    enrolledStudentsCount: 84000,
+    avgScore: 144
+  },
+  {
+    id: 'test-ft-bio-ch06-mcqs-45',
+    title: 'Chapter 06: Anatomy of Flowering Plants (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 06: Meristematic & Permanent Tissues, Vascular Bundles, Dicot/Monocot Anatomy & Secondary Growth',
     totalQuestions: 45,
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
     cbtMode: true,
-    features: [
-      'Chapter-wise tests',
-      'Topic-wise MCQs',
-      'Instant scorecard',
-      'Detailed solutions',
-      'Time-based practice',
-      'Difficulty-wise questions',
-      'AI-based performance tracking'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 12890,
-    avgScore: 112
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH06_MCQS),
+    enrolledStudentsCount: 79000,
+    avgScore: 139
   },
-  // Major Test Series
   {
-    id: 'test-major-01',
-    title: 'Major Test Series 01 (Physics + Chemistry + Biology)',
-    category: 'major',
+    id: 'test-ft-bio-ch07-mcqs-45',
+    title: 'Chapter 07: Structural Organisation in Animals (45 Qs)',
+    category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Term 1 (Mechanics, Thermodynamics, Physical Chemistry, Plant Physiology)',
-    totalQuestions: 180,
-    durationMinutes: 180,
-    totalMarks: 720,
+    syllabus: 'Class 11 Chapter 07: Epithelial, Connective, Muscular & Neural Tissues, Cockroach Morphology & Frog Anatomy',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Mixed',
-    scheduledDate: '2026-08-20',
+    difficulty: 'Medium',
     cbtMode: true,
-    features: [
-      'Multi-chapter syllabus',
-      'NEET/JEE pattern',
-      'National ranking',
-      'Negative marking',
-      'Detailed analysis',
-      'Subject-wise reports',
-      'Performance comparison'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 48900,
-    avgScore: 495
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH07_MCQS),
+    enrolledStudentsCount: 81000,
+    avgScore: 145
   },
   {
-    id: 'test-major-02',
-    title: 'Major Test Series 02: Full Class 12 Syllabus Blend',
-    category: 'major',
+    id: 'test-ft-bio-ch08-mcqs-45',
+    title: 'Chapter 08: Cell: The Unit of Life (45 Qs)',
+    category: 'minor',
     exam: 'NEET',
-    syllabus: 'Electrodynamics, Optics, Organic Synthesis, Genetics, Ecology & Biotechnology',
-    totalQuestions: 180,
-    durationMinutes: 180,
-    totalMarks: 720,
+    syllabus: 'Class 11 Chapter 08: Prokaryotic & Eukaryotic Cells, Endomembrane System, Mitochondria, Plastids & Nucleus',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH08_MCQS),
+    enrolledStudentsCount: 96000,
+    avgScore: 152
+  },
+  {
+    id: 'test-ft-bio-ch09-mcqs-45',
+    title: 'Chapter 09: Biomolecules (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 09: Amino acids, Proteins, Lipids, Nucleic Acids, Cellular Pool & Enzyme Action/Kinetics',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    scheduledDate: '2026-08-27',
     cbtMode: true,
-    features: [
-      'Multi-chapter syllabus',
-      'NEET/JEE pattern',
-      'National ranking',
-      'Negative marking',
-      'Detailed analysis',
-      'Subject-wise reports',
-      'Performance comparison'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 52100,
-    avgScore: 510
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH09_MCQS),
+    enrolledStudentsCount: 87000,
+    avgScore: 141
   },
-  // Part Syllabus Test
   {
-    id: 'test-part-01',
-    title: 'Part Syllabus Test (PST-01): Unit-wise Evaluation',
+    id: 'test-ft-bio-ch10-mcqs-45',
+    title: 'Chapter 10: Cell Cycle & Division (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 10: Interphase (G1, S, G2), Mitosis & Meiosis I/II with Sub-phases',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH10_MCQS),
+    enrolledStudentsCount: 89000,
+    avgScore: 148
+  },
+  {
+    id: 'test-ft-bio-ch11-mcqs-45',
+    title: 'Chapter 11: Photosynthesis in Higher Plants (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 11: Light Reaction, Z-Scheme, Calvin Cycle (C3), Hatch & Slack (C4) & Factors',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH11_MCQS),
+    enrolledStudentsCount: 92000,
+    avgScore: 137
+  },
+  {
+    id: 'test-ft-bio-ch12-mcqs-45',
+    title: 'Chapter 12: Respiration in Plants (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 12: Glycolysis, Link Reaction, Krebs Cycle, ETS, ATP Yield & RQ Values',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH12_MCQS),
+    enrolledStudentsCount: 86000,
+    avgScore: 139
+  },
+  {
+    id: 'test-ft-bio-ch13-mcqs-45',
+    title: 'Chapter 13: Plant Growth & Development (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 13: Growth Kinetics, Plasticity & PGRs (Auxin, GA, Cytokinin, Ethylene, ABA)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH13_MCQS),
+    enrolledStudentsCount: 81000,
+    avgScore: 147
+  },
+  {
+    id: 'test-ft-bio-ch14-mcqs-45',
+    title: 'Chapter 14: Breathing & Exchange of Gases (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 14: Respiratory Volumes, Gas Transport, Regulation & Disorders (Asthma, Emphysema)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH14_MCQS),
+    enrolledStudentsCount: 88000,
+    avgScore: 153
+  },
+  {
+    id: 'test-ft-bio-ch15-mcqs-45',
+    title: 'Chapter 15: Body Fluids & Circulation (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 15: Blood Elements, Coagulation, Cardiac Cycle, ECG Waves & Double Circulation',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH15_MCQS),
+    enrolledStudentsCount: 94000,
+    avgScore: 142
+  },
+  {
+    id: 'test-ft-bio-ch16-mcqs-45',
+    title: 'Chapter 16: Excretory Products & Elimination (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 16: Nephron, Urine Formation, Counter-Current Mechanism, RAAS Regulation & Disorders',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH16_MCQS),
+    enrolledStudentsCount: 86000,
+    avgScore: 143
+  },
+  {
+    id: 'test-ft-bio-ch17-mcqs-45',
+    title: 'Chapter 17: Locomotion & Movement (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 17: Sarcomere, Sliding Filament Theory, Human Skeleton (206 bones), Joints & Disorders',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH17_MCQS),
+    enrolledStudentsCount: 84000,
+    avgScore: 149
+  },
+  {
+    id: 'test-ft-bio-ch18-mcqs-45',
+    title: 'Chapter 18: Neural Control & Coordination (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 18: Neuron Structure, Action Potential, Synaptic Transmission & Human Brain Regions',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH18_MCQS),
+    enrolledStudentsCount: 82000,
+    avgScore: 141
+  },
+  {
+    id: 'test-ft-bio-ch19-mcqs-45',
+    title: 'Chapter 19: Chemical Coordination & Integration (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 11 Chapter 19: Endocrine Glands (Pituitary, Thyroid, Adrenal, Pancreas), Hormones & Mechanism of Action',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH19_MCQS),
+    enrolledStudentsCount: 87000,
+    avgScore: 148
+  },
+
+  // CLASS 12 CHAPTER TESTS (45 Qs EACH)
+  {
+    id: 'test-ft-bio-c12-ch01-mcqs-45',
+    title: 'Class 12 Ch 01: Sexual Reproduction in Flowering Plants (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 01: Microsporogenesis, Megasporogenesis, Pollination, Outbreeding Devices, Double Fertilisation & Apomixis',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS),
+    enrolledStudentsCount: 97000,
+    avgScore: 153
+  },
+  {
+    id: 'test-ft-bio-c12-ch02-mcqs-45',
+    title: 'Class 12 Ch 02: Human Reproduction (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 02: Spermatogenesis, Oogenesis, Menstrual Cycle, Fertilisation, Implantation & Parturition',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH02_MCQS),
+    enrolledStudentsCount: 104000,
+    avgScore: 155
+  },
+  {
+    id: 'test-ft-bio-c12-ch03-mcqs-45',
+    title: 'Class 12 Ch 03: Reproductive Health (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 03: Contraceptive Methods, IUDs, MTP Act, STIs & Assisted Reproductive Technologies (ART)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH03_MCQS),
+    enrolledStudentsCount: 91000,
+    avgScore: 161
+  },
+  {
+    id: 'test-ft-bio-c12-ch04-mcqs-45',
+    title: 'Class 12 Ch 04: Principles of Inheritance & Variation (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 04: Mendelian Genetics, Linkage, Recombination, Sex Determination & Genetic Disorders (Pedigree, Aneuploidy)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH04_MCQS),
+    enrolledStudentsCount: 99000,
+    avgScore: 136
+  },
+  {
+    id: 'test-ft-bio-c12-ch05-mcqs-45',
+    title: 'Class 12 Ch 05: Molecular Basis of Inheritance (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 05: DNA Structure, Nucleosomes, Replication, Transcription, Genetic Code, Translation, Lac Operon & DNA Fingerprinting',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS),
+    enrolledStudentsCount: 108000,
+    avgScore: 137
+  },
+  {
+    id: 'test-ft-bio-c12-ch06-mcqs-45',
+    title: 'Class 12 Ch 06: Evolution (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 06: Origin of Life, Evidences (Homology/Analogy), Adaptive Radiation, Hardy-Weinberg & Human Evolution',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH06_MCQS),
+    enrolledStudentsCount: 88000,
+    avgScore: 147
+  },
+  {
+    id: 'test-ft-bio-c12-ch07-mcqs-45',
+    title: 'Class 12 Ch 07: Human Health & Disease (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 07: Pathogens (Malaria, Typhoid), Innate/Acquired Immunity, Antibodies, AIDS, Cancer & Drug Abuse',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH07_MCQS),
+    enrolledStudentsCount: 93000,
+    avgScore: 152
+  },
+  {
+    id: 'test-ft-bio-c12-ch08-mcqs-45',
+    title: 'Class 12 Ch 08: Microbes in Human Welfare (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 08: Household Products, Industrial Fermentation, Sewage Treatment (BOD/Flocs), Biogas & Biocontrol',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH08_MCQS),
+    enrolledStudentsCount: 84000,
+    avgScore: 159
+  },
+  {
+    id: 'test-ft-bio-c12-ch09-mcqs-45',
+    title: 'Class 12 Ch 09: Biotechnology: Principles & Processes (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 09: Restriction Endonucleases, Agarose Gel Electrophoresis, pBR322 Cloning Vector, PCR & Bioreactors',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS),
+    enrolledStudentsCount: 95000,
+    avgScore: 142
+  },
+  {
+    id: 'test-ft-bio-c12-ch10-mcqs-45',
+    title: 'Class 12 Ch 10: Biotechnology & its Applications (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 10: Bt Cotton, RNA Interference (dsRNA), Humulin Recombinant Insulin, ADA Gene Therapy & Transgenics',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH10_MCQS),
+    enrolledStudentsCount: 89000,
+    avgScore: 148
+  },
+  {
+    id: 'test-ft-bio-c12-ch11-mcqs-45',
+    title: 'Class 12 Ch 11: Organisms & Populations (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 11: Adaptations, Population Growth Models (dN/dt equations) & Interspecific Interactions (Mutualism, Competition)',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS),
+    enrolledStudentsCount: 87000,
+    avgScore: 151
+  },
+  {
+    id: 'test-ft-bio-c12-ch12-mcqs-45',
+    title: 'Class 12 Ch 12: Ecosystem (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 12: Stratification, Productivity (GPP/NPP), Decomposition Steps, PAR Energy Flow & Eltonian Pyramids',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH12_MCQS),
+    enrolledStudentsCount: 83000,
+    avgScore: 154
+  },
+  {
+    id: 'test-ft-bio-c12-ch13-mcqs-45',
+    title: 'Class 12 Ch 13: Biodiversity & Conservation (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Class 12 Chapter 13: Latitudinal Gradients, Species-Area Curve, Evil Quartet, 34 Hotspots, In-situ/Ex-situ & Sacred Groves',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH13_MCQS),
+    enrolledStudentsCount: 92000,
+    avgScore: 158
+  },
+
+  // ==========================================
+  // 3. CHEMISTRY CHAPTER TESTS (45 QUESTIONS & 45 MINS)
+  // ==========================================
+  {
+    id: 'test-chem-mock-1',
+    title: 'Chemistry Full Mock 1: Physical, Inorganic & Organic (45 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Full NEET Chemistry: Mole Concept, Thermodynamics, Equilibrium, Coordination, GOC, Hydrocarbons & Carbonyls',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 Questions (180 Marks)', '45 Mins Duration', 'NTA Pattern', 'Detailed Solutions'],
+    questions: get45(CHEMISTRY_MOCK_TEST_1_QUESTIONS),
+    enrolledStudentsCount: 112000,
+    avgScore: 132
+  },
+  {
+    id: 'test-chem-mock-2',
+    title: 'Chemistry Full Mock 2: High Yield Score Booster (45 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Full NEET Chemistry: Electrochemistry, Kinetics, d/f-Block, Alcohols, Phenols, Ethers & Amines',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 Questions (180 Marks)', '45 Mins Duration', 'NTA Pattern', 'Detailed Solutions'],
+    questions: get45(CHEMISTRY_MOCK_TEST_2_QUESTIONS),
+    enrolledStudentsCount: 108000,
+    avgScore: 129
+  },
+
+  // ==========================================
+  // 4. PHYSICS CHAPTER TESTS (45 QUESTIONS & 45 MINS)
+  // ==========================================
+  {
+    id: 'test-phy-mechanics',
+    title: 'Physics Mastery: Mechanics & Vectors (45 Qs)',
     category: 'part',
     exam: 'NEET',
-    syllabus: 'Physics (Optics & Modern), Chemistry (Organic Unit 1 & 2), Biology (Human Reproduction & Genetics)',
-    totalQuestions: 90,
-    durationMinutes: 90,
-    totalMarks: 360,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
-    scheduledDate: '2026-08-22',
-    cbtMode: true,
-    features: [
-      'Physics, Chemistry & Biology unit tests',
-      'Scheduled calendar',
-      'CBT mode',
-      'Rank prediction'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 31000,
-    avgScore: 260
-  },
-  // Full Syllabus Test
-  {
-    id: 'test-full-01',
-    title: 'All India Full Syllabus Grand Test (FST-01)',
-    category: 'full',
-    exam: 'NEET',
-    syllabus: 'Complete 100% CBT NEET-UG Syllabus (Physics, Chemistry, Botany, Zoology)',
-    totalQuestions: 200,
-    durationMinutes: 200,
-    totalMarks: 720,
-    negativeMarking: '+4 for correct, -1 for incorrect (Attempt any 180)',
-    difficulty: 'Hard',
-    scheduledDate: '2026-08-25',
-    cbtMode: true,
-    features: [
-      'Complete syllabus',
-      'Real exam simulation',
-      'AIR prediction',
-      'Weak chapter analysis',
-      'Revision suggestions'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 89000,
-    avgScore: 532
-  },
-  // NEET Mock Test
-  {
-    id: 'test-mock-01',
-    title: 'Official CBT NEET Mock Test 2026',
-    category: 'neet_mock',
-    exam: 'NEET',
-    syllabus: 'Complete Standard NEET Curriculum with Latest Section A & B Format',
-    totalQuestions: 200,
-    durationMinutes: 200,
-    totalMarks: 720,
-    negativeMarking: '+4 / -1 with latest CBT marking scheme',
-    difficulty: 'Mixed',
-    cbtMode: true,
-    features: [
-      'Latest pattern',
-      'Unlimited practice',
-      'All India ranking',
-      'Instant result',
-      'Detailed solutions'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 114000,
-    avgScore: 545
-  },
-  // High Yield Test Series (HYTS)
-  {
-    id: 'test-hyts-01',
-    title: 'High Yield Test Series (HYTS): 80/20 Core Chapters',
-    category: 'full',
-    exam: 'NEET',
-    syllabus: 'High-Weightage Chapters in Mechanics, Genetics, Thermodynamics & Organic Chemistry',
-    totalQuestions: 200,
-    durationMinutes: 200,
-    totalMarks: 720,
+    syllabus: 'Units & Dimensions, Vectors, Motion in 1D/2D, Laws of Motion & Gravitation',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    scheduledDate: '2026-08-28',
     cbtMode: true,
-    features: [
-      'Focus on top 20% syllabus that yields 80% marks',
-      'NCERT line-by-line concept coverage',
-      'Video solutions by senior faculty',
-      'All India Rank & percentile snapshot'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 76500,
-    avgScore: 558
+    features: ['45 Numerical & Concept Questions', '45 Mins Duration', 'Step-by-step Formulas', 'Instant Analysis'],
+    questions: get45([...VECTORS_BOOK_QUESTIONS, ...UNITS_BOOK_QUESTIONS, ...MOTION_BOOK_QUESTIONS, ...GRAVITATION_BOOK_QUESTIONS]),
+    enrolledStudentsCount: 121000,
+    avgScore: 124
   },
-  // Target 360/360 in Biology Test
   {
-    id: 'test-bio-360',
-    title: 'Target 360/360 Biology Special Test: Full Botany & Zoology',
-    category: 'major',
+    id: 'test-phy-electrodynamics',
+    title: 'Physics Mastery: Electrodynamics & Magnetism (45 Qs)',
+    category: 'part',
     exam: 'NEET',
-    syllabus: '100% NCERT Class 11 & 12 Biology (Botany + Zoology) with Assertion-Reason',
-    totalQuestions: 100,
-    durationMinutes: 90,
-    totalMarks: 360,
-    negativeMarking: '+4 for correct, -1 for incorrect (Attempt 90/100)',
-    difficulty: 'Medium',
-    scheduledDate: '2026-08-30',
+    syllabus: 'Electrostatics, Gauss Law, Capacitance, Current Electricity, Magnetism & Biot-Savart Law',
+    totalQuestions: 45,
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
     cbtMode: true,
-    features: [
-      'Curated by Dr. NK Sharma',
-      'Assertion-Reason & Statement-based questions',
-      'Diagram-based traps from NCERT',
-      'Instant audio and text explanations'
-    ],
-    questions: SAMPLE_QUESTIONS,
-    enrolledStudentsCount: 94000,
-    avgScore: 312
+    features: ['45 High-Yield Physics Questions', '45 Mins Duration', 'Standard NEET Numerical Level', 'Detailed Explanations'],
+    questions: get45([...ELECTROSTATICS_BOOK_QUESTIONS, ...MAGNETISM_BOOK_QUESTIONS, ...PHYSICS_THERMO_QUESTIONS]),
+    enrolledStudentsCount: 118000,
+    avgScore: 121
   }
 ];
 
-export const ONLINE_COURSES_DATA: OnlineCourse[] = [
-  {
-    id: 'course-target-batch',
-    title: 'NEETcbt Target Batch 2026 (Ascend & Vital)',
-    batchType: 'Target Batch',
-    targetExam: 'NEET',
-    duration: '12-24 Months Comprehensive Program',
-    price: '₹7,999',
-    originalPrice: '₹15,999',
-    discount: '50% OFF',
-    rating: 4.98,
-    enrolledCount: 68400,
-    badge: 'NEETcbt #1 Flagship Choice',
-    features: [
-      'Complete Question Bank with strict NCERT Line-by-Line Filters',
-      'Audio & Video Explanations for all difficult questions',
-      'Micro-Target & Daily Practice Problem (DPP) Generator',
-      '10,000+ Active Recall Flashcards for Physics, Chem & Bio',
-      '50+ High Yield & Part Syllabus Chapter-level Mock Tests'
-    ],
-    includes: {
-      liveClasses: 'Target Setting Masterclasses & High-Yield Strategy Sessions',
-      recordedClasses: 'Complete Video Lecture Library with chapter sub-topic index',
-      assignments: '30,000+ NCERT-tagged Practice Questions with difficulty filters',
-      weeklyTests: 'Sunday All-India Online CBT Tests with AIR Rank Predictor',
-      mentorSupport: 'Personalized Micro-Target tracker & AI error log audit'
-    },
-    faculty: [
-      { name: 'Dr. NK Sharma', subject: 'Masterclass Biology', exp: '30+ yrs', almaMater: 'Senior Academic Director' },
-      { name: 'Er. Sandeep Verma', subject: 'Physics Numerical Mastery', exp: '16+ yrs', almaMater: 'IIT Kanpur' },
-      { name: 'Dr. Vivek Sharma', subject: 'Zoology & Physiology', exp: '14+ yrs', almaMater: 'AIIMS New Delhi' }
-    ]
-  },
-  {
-    id: 'course-masterclass-bio',
-    title: 'Masterclass in Biology by Dr. NK Sharma',
-    batchType: 'Masterclass',
-    targetExam: 'NEET',
-    duration: 'Full Syllabus 38 Chapters Audio Q-Bank',
-    price: '₹3,499',
-    originalPrice: '₹6,999',
-    discount: '50% OFF',
-    rating: 4.99,
-    enrolledCount: 52100,
-    badge: 'Target 360/360 in Biology',
-    features: [
-      '6,000+ Questions with Audio Solutions by Dr. NK Sharma',
-      'Categorized into "Past Year", "Understanding NCERT" & "Mastering NCERT"',
-      '60+ Daily Tests with 90 Questions each',
-      'Assertion-Reason, Statement I/II, Diagram & Match questions',
-      'NCERT Word-by-Word Analysis to catch examiner traps'
-    ],
-    includes: {
-      liveClasses: 'Weekly Live Doubt and Tough Question Decoding sessions',
-      recordedClasses: 'Full Audio Explanations for every single question',
-      assignments: 'Chapter-wise 90-Q speed drills replicating NEET timings',
-      weeklyTests: '15 Full-Syllabus Biology Grand Mocks',
-      mentorSupport: 'Direct audio query desk with senior Biology faculty'
-    },
-    faculty: [
-      { name: 'Dr. NK Sharma', subject: 'Biology Guru & Author', exp: '30+ yrs', almaMater: 'Trained 100+ AIR Top 100 Rankers' }
-    ]
-  },
-  {
-    id: 'course-classroom-test-series',
-    title: 'NEETcbt Classroom Test Series (CTS) 2026',
-    batchType: 'Classroom Test Series',
-    targetExam: 'NEET',
-    duration: 'Offline Pen & Paper in 150+ Cities across India',
-    price: '₹8,999',
-    originalPrice: '₹14,999',
-    discount: '40% OFF',
-    rating: 4.96,
-    enrolledCount: 44300,
-    badge: 'Real OMR Exam Experience',
-    features: [
-      'Physical Pen & Paper OMR Tests conducted on scheduled Sundays',
-      'Available in 150+ Offline Test Centres across India',
-      'Same Day OMR Scanning & Instant AIR generation on NEETcbt portal',
-      'High Yield Test Series (HYTS) + Part & Full Syllabus Mocks',
-      'Includes complementary access to Online Target Batch Q-Bank'
-    ],
-    includes: {
-      liveClasses: 'Post-Test Detailed Video & Audio Solution Discussions',
-      recordedClasses: 'Online CBT Re-attempt simulator access for all papers',
-      assignments: 'Printed Question Booklets with detailed solutions',
-      weeklyTests: '25 Physical OMR Tests (10 Unit + 5 Part + 10 Full Syllabus)',
-      mentorSupport: 'National Percentile & Medical College Cut-off mapping'
-    },
-    faculty: [
-      { name: 'National Testing Panel', subject: 'Physics, Chemistry & Biology', exp: '20+ yrs', almaMater: 'Ex-CBT / Ex-AIIMS Panelists' }
-    ]
-  },
-  {
-    id: 'course-foundation',
-    title: 'NEET/JEE 2-Year Integrated Foundation Batch',
-    batchType: 'Foundation',
-    targetExam: 'NEET',
-    duration: '24 Months (Class 11 + 12 + Foundation)',
-    price: '₹24,999',
-    originalPrice: '₹49,999',
-    discount: '50% OFF',
-    rating: 4.9,
-    enrolledCount: 18450,
-    badge: 'Best for 11th Graders',
-    features: [
-      'Complete NCERT to Advanced Masterclasses',
-      'Zero-to-Hero conceptual building',
-      'Daily Problem Solving & Chapter Assessments',
-      'Weekly Doubt Clearing Lounges',
-      'Printed Study Material & DPP Books home delivered'
-    ],
-    includes: {
-      liveClasses: '600+ Hours Live Interactive Sessions with real-time poll & chat',
-      recordedClasses: 'Unlimited 4K HD Playback with 2x speed, bookmarking & notes',
-      assignments: '1,500+ Curated Daily assignments with video solution hints',
-      weeklyTests: 'Sunday CBT Mock Tests with National Rank Predictor',
-      mentorSupport: 'Dedicated AIIMS / IITian 1-on-1 Academic & Strategy Mentor'
-    },
-    faculty: [
-      { name: 'Dr. Vivek Sharma', subject: 'Botany & Zoology', exp: '14+ yrs', almaMater: 'AIIMS New Delhi' },
-      { name: 'Prof. Ramesh Chandra', subject: 'Physics', exp: '18+ yrs', almaMater: 'IIT Bombay' },
-      { name: 'Dr. Ananya Ray', subject: 'Organic & Inorganic Chemistry', exp: '12+ yrs', almaMater: 'IISc Bangalore' }
-    ]
-  },
-  {
-    id: 'course-dropper',
-    title: 'Achievers Dropper & Repeater Elite Batch',
-    batchType: 'Dropper Batch',
-    targetExam: 'NEET',
-    duration: '10 Months Intensive Target Batch',
-    price: '₹18,499',
-    originalPrice: '₹39,999',
-    discount: '54% OFF',
-    rating: 4.95,
-    enrolledCount: 29800,
-    badge: 'Highest Selection Rate (94.2%)',
-    features: [
-      'High-velocity full syllabus coverage in 180 days',
-      'Emphasis on PYQs (15+ Years) and High-Yield patterns',
-      'Daily 2 DPPs + Daily Speed Quizzes',
-      'AI error log tracking to eliminate recurring mistakes',
-      'Personalized test analysis by senior professors'
-    ],
-    includes: {
-      liveClasses: 'Daily 4 Hours Dual-Track Live Masterclasses',
-      recordedClasses: 'Full Video Archive with quick 10-minute micro-concept revisions',
-      assignments: 'Topic-wise Question Bank with 25,000+ Verified MCQs',
-      weeklyTests: 'Part & Full Syllabus CBT Series with AIR Simulation',
-      mentorSupport: 'Weekly 1-on-1 performance audit & stress counselling'
-    },
-    faculty: [
-      { name: 'Er. Sandeep Verma', subject: 'Physics Mechanics & Modern', exp: '16+ yrs', almaMater: 'IIT Kanpur' },
-      { name: 'Dr. Meenakshi Soni', subject: 'Human Physiology & Genetics', exp: '15+ yrs', almaMater: 'MAMC Delhi' },
-      { name: 'Dr. Arvind Joshi', subject: 'Physical & General Chemistry', exp: '13+ yrs', almaMater: 'IIT Delhi' }
-    ]
-  },
-  {
-    id: 'course-crash',
-    title: 'Super 60 Days NEET/JEE Rapid Crash Course',
-    batchType: 'Crash Course',
-    targetExam: 'NEET',
-    duration: '60 Days Ultra Rapid Booster',
-    price: '₹6,999',
-    originalPrice: '₹14,999',
-    discount: '53% OFF',
-    rating: 4.85,
-    enrolledCount: 41200,
-    badge: 'Exam-Ready Score Booster',
-    features: [
-      '120+ High-Yield Formula and Diagram Revision Modules',
-      '20 Full Syllabus Mock CBT Tests with detailed video solutions',
-      'Most Expected 5,000 Questions for the upcoming exam',
-      'Time-management drills and elimination trick mastery',
-      'Special CBT Pattern trap-question decoding sessions'
-    ],
-    includes: {
-      liveClasses: 'Power-packed 3-hour marathon sessions daily',
-      recordedClasses: 'Complete Formula Sheets, Mind Maps & Audio Flashcards',
-      assignments: 'Top 100 must-solve MCQs per chapter',
-      weeklyTests: '3 All-India CBT Mocks per week with instant scorecard',
-      mentorSupport: '24/7 Doubt forum with sub-5 minute average answer time'
-    },
-    faculty: [
-      { name: 'Dr. Priyanka Sen', subject: 'Biology Complete NCERT Line-by-Line', exp: '11+ yrs', almaMater: 'KGMU Lucknow' },
-      { name: 'Er. Alok Tripathi', subject: 'Physics Quick Formulas & Tricks', exp: '15+ yrs', almaMater: 'IIT Roorkee' }
-    ]
-  }
-];
-
+// ==========================================
+// EXPANSIVE, HIGH-YIELD FLASHCARDS DATABASE (30+ RICH CARDS)
+// ==========================================
 export const FLASHCARDS_DATA: Flashcard[] = [
+  // BIOLOGY FLASHCARDS
   {
-    id: 'fc-1',
-    subject: 'Physics',
+    id: 'fc-bio-1',
+    subject: 'Biology',
     category: 'Formulas',
-    topic: 'Modern Physics - De Broglie Wavelength',
-    frontTitle: 'De Broglie Wavelength of an Electron',
-    frontContent: 'What is the relation between accelerating potential (V) and De Broglie wavelength (λ)?',
-    frontFormula: 'λ = h / p = h / √(2mE)',
-    backExplanation: 'For an electron accelerated through potential difference V in volts:\nλ = 12.27 / √V Å (Angstroms) or 1.227 / √V nm.',
+    topic: 'Population Ecology - Growth Models',
+    frontTitle: 'Exponential vs Logistic Growth Equations',
+    frontContent: 'State the differential equations for Exponential (unlimited resources) and Logistic (carrying capacity K) population growth.',
+    frontFormula: 'dN/dt = rN  vs  dN/dt = rN ((K - N) / K)',
+    backExplanation: '1. Exponential Growth (J-shaped curve): dN/dt = rN. Integral form: N_t = N_0 * e^(rt). Occurs when resources are unlimited.\n2. Logistic Growth (Verhulst-Pearl S-shaped / Sigmoid curve): dN/dt = rN((K - N)/K). More realistic model as resources are finite.',
     backKeyPoints: [
-      'Mass of electron m = 9.1 x 10^-31 kg',
-      'Charge e = 1.6 x 10^-19 C',
-      'Useful for quick 5-second calculation in NEET/JEE'
+      'r = Intrinsic rate of natural increase (Biotic potential)',
+      'K = Carrying capacity (maximum population environment can sustain)',
+      '(K - N)/K represents Environmental Resistance factor'
     ],
-    mnemonic: 'Remember: 12.27 over root V in Angstroms!',
-    difficulty: 'Easy'
-  },
-  {
-    id: 'fc-2',
-    subject: 'Chemistry',
-    category: 'Reactions',
-    topic: 'Organic - Named Reactions',
-    frontTitle: 'Aldol Condensation vs Cannizzaro Reaction',
-    frontContent: 'What is the fundamental structural requirement distinguishing Aldol from Cannizzaro reaction?',
-    backExplanation: 'Aldol Condensation requires at least one α-hydrogen atom (in presence of dil. NaOH). Cannizzaro Reaction occurs in aldehydes that do NOT have any α-hydrogen (in presence of conc. 50% NaOH), undergoing disproportionation to alcohol and carboxylate salt.',
-    backKeyPoints: [
-      'Aldol: Acetaldehyde, Acetone (has α-H)',
-      'Cannizzaro: Formaldehyde (HCHO), Benzaldehyde (C6H5CHO) (no α-H)',
-      'Cross Aldol produces 4 products if both partners have α-H'
-    ],
-    mnemonic: 'Alpha-H = Aldol! Cannizzaro = CANNOT have alpha-H!',
+    mnemonic: 'Remember: J-shape is Just rN, S-shape Slows down at K!',
     difficulty: 'Medium'
   },
   {
-    id: 'fc-3',
+    id: 'fc-bio-2',
     subject: 'Biology',
     category: 'Concepts',
     topic: 'Genetics - Mendelian Dihybrid Ratio',
-    frontTitle: 'Mendelian Dihybrid Phenotypic & Genotypic Ratio',
-    frontContent: 'What are the classic F2 Phenotypic and Genotypic ratios in a Dihybrid cross (independent assortment)?',
-    backExplanation: 'Phenotypic Ratio = 9 : 3 : 3 : 1 (9 Round Yellow, 3 Round Green, 3 Wrinkled Yellow, 1 Wrinkled Green).\nGenotypic Ratio = 1:2:1 : 2:4:2 : 1:2:1 (122412121 mnemonic).',
+    frontTitle: 'Mendelian Dihybrid Phenotypic & Genotypic Ratios',
+    frontContent: 'What are the exact phenotypic and genotypic ratios in a standard dihybrid cross F2 generation?',
+    backExplanation: 'Phenotypic Ratio = 9 : 3 : 3 : 1 (9 Round Yellow, 3 Round Green, 3 Wrinkled Yellow, 1 Wrinkled Green).\nGenotypic Ratio = 1:2:1 : 2:4:2 : 1:2:1 (9 different genotypes across 16 zygotic combinations).',
     backKeyPoints: [
-      'Based on Law of Independent Assortment',
-      'Total combinations = 16 zygotic combinations, 9 genotypes, 4 phenotypes',
-      'Deviation occurs when genes are linked (Morgan experiment)'
+      'Homozygous dominant RRYY = 1/16',
+      'Double heterozygous RrYy = 4/16 = 1/4',
+      'Double homozygous recessive rryy = 1/16'
     ],
-    mnemonic: 'PhoneNumber Trick: 122-412-121 for genotypes!',
+    mnemonic: 'Phone Number trick: 121-242-121 for genotypes!',
     difficulty: 'Medium'
   },
   {
-    id: 'fc-4',
+    id: 'fc-bio-3',
     subject: 'Biology',
     category: 'Diagrams',
-    topic: 'Plant Physiology - C4 Pathway (Hatch & Slack)',
-    frontTitle: 'Primary CO2 Acceptor & First Stable Product in C4 Plants',
-    frontContent: 'Identify the primary CO2 acceptor and the enzyme in mesophyll cells, along with the first 4-carbon compound formed.',
-    backExplanation: 'Primary CO2 acceptor: Phosphoenolpyruvate (PEP) - 3 carbon compound.\nEnzyme: PEP carboxylase (PEPcase) - lacks RuBisCO in mesophyll cells.\nFirst stable product: Oxaloacetic acid (OAA) - 4 carbon dicarboxylic acid.',
+    topic: 'Plant Physiology - C4 Pathway (Kranz Anatomy)',
+    frontTitle: 'Primary CO2 Acceptor & Enzyme in C4 Plants',
+    frontContent: 'Identify the primary CO2 acceptor and enzyme in mesophyll cells, and the Calvin cycle location in C4 plants.',
+    backExplanation: 'Primary CO2 Acceptor: Phosphoenolpyruvate (PEP) - 3 carbon compound in Mesophyll cells.\nEnzyme: PEP carboxylase (PEPcase) - lacks RuBisCO in mesophyll.\nFirst stable product: Oxaloacetic acid (OAA) - 4C dicarboxylic acid.\nCalvin Cycle occurs exclusively in Bundle Sheath cells where RuBisCO is concentrated.',
     backKeyPoints: [
-      'Kranz anatomy: Bundle sheath cells with agranal chloroplasts and RuBisCO',
-      'Zero photorespiration: Higher photosynthetic efficiency under high light and temp',
-      'Examples: Maize, Sugarcane, Sorghum'
+      'Kranz anatomy: Wreath-like large bundle sheath cells with thick suberized walls',
+      'Zero photorespiration: High photosynthetic efficiency under intense light and temperature',
+      'Examples: Sugarcane, Maize, Sorghum'
     ],
-    mnemonic: 'PEP catches CO2 to make OAA in the Mesophyll!',
+    mnemonic: 'PEP catches CO2 to form OAA in Mesophyll!',
     difficulty: 'Hard'
   },
   {
-    id: 'fc-5',
+    id: 'fc-bio-4',
+    subject: 'Biology',
+    category: 'Reactions',
+    topic: 'Cell Respiration - Krebs Cycle Energetics',
+    frontTitle: 'ATP & Reduced Coenzyme Yield per Glucose',
+    frontContent: 'What is the net yield of NADH, FADH2, GTP/ATP from 1 molecule of Glucose during Krebs Cycle (2 turns)?',
+    frontFormula: '2 Acetyl-CoA -> 6 NADH + 2 FADH2 + 2 GTP (ATP)',
+    backExplanation: 'For 2 turns of Krebs cycle (1 Glucose):\n• 6 NADH -> 6 * 3 = 18 ATP (via ETS complex I)\n• 2 FADH2 -> 2 * 2 = 4 ATP (via ETS complex II)\n• 2 GTP -> 2 ATP (Substrate-level phosphorylation)\nTotal from Krebs cycle = 24 ATP molecules.',
+    backKeyPoints: [
+      'Succinyl-CoA to Succinate is the ONLY substrate-level phosphorylation step',
+      'Succinate to Fumarate is the ONLY FADH2 generation step (enzyme: Succinate dehydrogenase in inner membrane)',
+      'Total aerobic respiration yield = 36 or 38 ATP'
+    ],
+    mnemonic: '6-2-2 Rule: 6 NADH, 2 FADH2, 2 GTP per Glucose in Krebs!',
+    difficulty: 'Hard'
+  },
+  {
+    id: 'fc-bio-5',
+    subject: 'Biology',
+    category: 'Concepts',
+    topic: 'Molecular Biology - Lac Operon',
+    frontTitle: 'Structural Genes & Products of Lac Operon',
+    frontContent: 'What are the products encoded by genes z, y, and a of the E. coli lac operon?',
+    backExplanation: '• z gene -> beta-galactosidase (hydrolyzes lactose into glucose + galactose)\n• y gene -> permease (increases cell membrane permeability to beta-galactosides)\n• a gene -> transacetylase (transfers acetyl group to beta-galactosides)\n• i gene (regulatory) -> codes for repressor protein constitutively.',
+    backKeyPoints: [
+      'Inducer: Allolactose (binds to repressor and inactivates it)',
+      'Operon is inducible and under both negative and positive control',
+      'Discovered by Francois Jacob and Jacques Monod'
+    ],
+    mnemonic: 'Z-Y-A = B-P-T (Beta-gal, Permease, Transacetylase)',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-bio-6',
+    subject: 'Biology',
+    category: 'Formulas',
+    topic: 'Biodiversity - Species-Area Relationship',
+    frontTitle: 'Alexander von Humboldt Species-Area Curve',
+    frontContent: 'State the rectangular hyperbola equation and logarithmic linear form for species-area relationship.',
+    frontFormula: 'S = C * A^Z  ->  log S = log C + Z * log A',
+    backExplanation: 'On logarithmic scale, the relationship is a straight line: log S = log C + Z log A.\n• S = Species richness\n• A = Area\n• Z = Slope of line (regression coefficient, usually 0.1 to 0.2 for local regions; 0.6 to 1.2 for entire continents)\n• C = Y-intercept.',
+    backKeyPoints: [
+      'Frugivorous birds and mammals in tropical forests of continents give Z = 1.15',
+      'Steeper slope (higher Z) means species richness rises rapidly with area'
+    ],
+    mnemonic: 'Log S = Log C + Z Log A (Straight line on log-log paper)',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-bio-7',
+    subject: 'Biology',
+    category: 'Concepts',
+    topic: 'Human Physiology - RAAS Pathway',
+    frontTitle: 'Renin-Angiotensin-Aldosterone System (RAAS)',
+    frontContent: 'What triggers renin release and how does Angiotensin II restore blood pressure and GFR?',
+    backExplanation: '1. Fall in GFR / Blood Pressure stimulates Juxtaglomerular (JG) cells to secrete Renin.\n2. Renin converts Angiotensinogen -> Angiotensin I.\n3. ACE converts Angiotensin I -> Angiotensin II (potent vasoconstrictor).\n4. Angiotensin II activates Adrenal Cortex to release Aldosterone -> reabsorbs Na+ and water from DCT.\n5. Blood volume, BP and GFR are fully restored.',
+    backKeyPoints: [
+      'ANF (Atrial Natriuretic Factor) from heart acts as an antagonistic check on RAAS',
+      'ANF causes vasodilation and decreases blood pressure'
+    ],
+    mnemonic: 'Renin -> Angio II -> Aldosterone -> Na+ & Water retention!',
+    difficulty: 'Hard'
+  },
+  {
+    id: 'fc-bio-8',
+    subject: 'Biology',
+    category: 'Concepts',
+    topic: 'Biotechnology - Vectors & PCR',
+    frontTitle: 'pBR322 Selectable Markers & PCR Steps',
+    frontContent: 'Explain insertional inactivation in pBR322 and list the 3 thermal steps of PCR.',
+    backExplanation: 'pBR322 has two antibiotic resistance genes: ampR and tetR.\n• Inserting foreign gene into BamHI site of tetR causes loss of tetracycline resistance (insertional inactivation).\n• PCR Steps: 1. Denaturation (94°C) -> 2. Annealing of primers (50-60°C) -> 3. Extension via Taq Polymerase (72°C from Thermus aquaticus).',
+    backKeyPoints: [
+      'Selectable markers distinguish transformants from non-transformants',
+      '1 billion copies produced after ~30 cycles of PCR'
+    ],
+    mnemonic: 'D-A-E: Denature (94°C), Anneal (54°C), Extend (72°C)!',
+    difficulty: 'Medium'
+  },
+
+  // CHEMISTRY FLASHCARDS
+  {
+    id: 'fc-chem-1',
+    subject: 'Chemistry',
+    category: 'Reactions',
+    topic: 'Organic - Aldol vs Cannizzaro',
+    frontTitle: 'Aldol Condensation vs Cannizzaro Reaction',
+    frontContent: 'What is the fundamental structural difference determining whether an aldehyde undergoes Aldol or Cannizzaro reaction?',
+    backExplanation: '• Aldol Condensation: Requires AT LEAST ONE alpha-hydrogen (reagent: dil. NaOH). Forms beta-hydroxy aldehyde which dehydrates to alpha,beta-unsaturated aldehyde.\n• Cannizzaro Reaction: Aldehydes with NO alpha-hydrogen (e.g. Formaldehyde HCHO, Benzaldehyde C6H5CHO). Reagent: Conc. 50% NaOH. Undergoes self-oxidation-reduction to alcohol and acid salt.',
+    backKeyPoints: [
+      'Acetaldehyde CH3CHO has 3 alpha-H -> Aldol',
+      'Formaldehyde HCHO has 0 alpha-H -> Cannizzaro',
+      'Benzaldehyde C6H5CHO has 0 alpha-H -> Cannizzaro'
+    ],
+    mnemonic: 'Alpha-H = Aldol! NO Alpha-H = Cannizzaro!',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-chem-2',
+    subject: 'Chemistry',
+    category: 'Formulas',
+    topic: 'Physical - Nernst Equation & Cell Potential',
+    frontTitle: 'Nernst Equation at 298 K (25°C)',
+    frontContent: 'State the Nernst equation for an electrochemical cell reaction at standard temperature 298 K.',
+    frontFormula: 'E_cell = E°_cell - (0.0591 / n) * log Q',
+    backExplanation: 'At 298 K:\nE_cell = E°_cell - (2.303 RT / nF) log Q = E°_cell - (0.0591 / n) log [Products] / [Reactants].\nAt equilibrium: E_cell = 0 and Q = K_c -> E°_cell = (0.0591 / n) log K_c.',
+    backKeyPoints: [
+      'n = number of moles of electrons transferred in balanced reaction',
+      'Delta G° = -n F E°_cell'
+    ],
+    mnemonic: 'E = E° minus 0.0591 over n times log Q',
+    difficulty: 'Hard'
+  },
+  {
+    id: 'fc-chem-3',
+    subject: 'Chemistry',
+    category: 'Concepts',
+    topic: 'Inorganic - Lanthanoid Contraction',
+    frontTitle: 'Lanthanoid Contraction & Chemical Twins',
+    frontContent: 'Why do 4d and 5d elements like Zr/Hf and Nb/Ta have nearly identical atomic radii and chemical properties?',
+    backExplanation: 'Due to the poor shielding effect of 14 intervening 4f electrons before 5d series filling, the effective nuclear charge (Z_eff) increases substantially, pulling outer electrons inward and compensating for expected shell size increase.',
+    backKeyPoints: [
+      'Zr (160 pm) and Hf (159 pm) are nearly identical chemical twins',
+      'Makes separation of Zr and Hf extremely difficult',
+      'Causes unusually high densities in 5d transition series'
+    ],
+    mnemonic: 'Poor 4f shielding pulls 5d atoms tight!',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-chem-4',
+    subject: 'Chemistry',
+    category: 'Reactions',
+    topic: 'Organic - SN1 vs SN2 Mechanisms',
+    frontTitle: 'SN1 vs SN2 Nucleophilic Substitution',
+    frontContent: 'Compare kinetics, stereochemistry, solvent preference, and substrate reactivity order for SN1 and SN2.',
+    backExplanation: '• SN1: Unimolecular, 2 steps, Carbocation intermediate, Racemization, Polar Protic solvent (H2O, EtOH), 3° > 2° > 1° > CH3X.\n• SN2: Bimolecular, 1 step concerted, Backside attack, 100% Walden Inversion, Polar Aprotic solvent (DMSO, Acetone, DMF), CH3X > 1° > 2° > 3° (steric hindrance).',
+    backKeyPoints: [
+      'Tertiary halides almost always undergo SN1 / E1',
+      'Primary halides almost always undergo SN2 / E2'
+    ],
+    mnemonic: 'SN1 = 3° & Racemization; SN2 = 1° & Inversion!',
+    difficulty: 'Hard'
+  },
+
+  // PHYSICS FLASHCARDS
+  {
+    id: 'fc-phy-1',
     subject: 'Physics',
     category: 'Formulas',
-    topic: 'Electromagnetism - Biot-Savart Law',
-    frontTitle: 'Magnetic Field at Center of Circular Coil',
-    frontContent: 'Magnetic induction B at the center of a circular loop of N turns and radius R carrying current I.',
-    frontFormula: 'B = (μ₀ * N * I) / (2 * R)',
-    backExplanation: 'At the exact center of a circular coil of radius R, the field vectors from every element add up constructively along the normal axis.\nFor semi-circle: B = μ₀I / (4R).\nFor arc subtending θ rad: B = (μ₀I / 4πR) * θ.',
+    topic: 'Modern Physics - De Broglie Wavelength',
+    frontTitle: 'De Broglie Wavelength of Accelerated Electron',
+    frontContent: 'What is the direct shortcut formula for De Broglie wavelength of an electron accelerated through potential V volts?',
+    frontFormula: 'λ = 12.27 / √V  Å  =  1.227 / √V  nm',
+    backExplanation: 'De Broglie wavelength λ = h / p = h / √(2m e V).\nPlugging constants h = 6.63 x 10^-34 J s, m = 9.1 x 10^-31 kg, e = 1.6 x 10^-19 C gives:\nλ = 12.27 / √V in Angstroms (Å) or 1.227 / √V in nanometers (nm).',
     backKeyPoints: [
-      'Direction given by Right Hand Thumb Rule',
-      'At axial distance x: B = (μ₀ N I R²) / (2 (R² + x²)^(3/2))'
+      'For V = 100 Volts: λ = 12.27 / 10 = 1.227 Å',
+      'For Proton: λ = 0.286 / √V Å; For Alpha particle: λ = 0.101 / √V Å'
     ],
-    mnemonic: 'Center is maximum: μ₀NI over 2R',
+    mnemonic: '12.27 over root V in Angstroms for Electron!',
     difficulty: 'Easy'
   },
   {
-    id: 'fc-6',
-    subject: 'Chemistry',
-    category: 'Concepts',
-    topic: 'Inorganic - Periodic Trends & Lanthanoid Contraction',
-    frontTitle: 'Lanthanoid Contraction & Pair Radii Match',
-    frontContent: 'Why do 4d and 5d transition elements (like Zr/Hf and Nb/Ta) have almost identical atomic/ionic radii?',
-    backExplanation: 'Due to the poor shielding effect of intervening 4f-electrons before 5d series filling, the effective nuclear charge increases significantly, pulling outer electrons closer and cancelling expected size increase.',
+    id: 'fc-phy-2',
+    subject: 'Physics',
+    category: 'Formulas',
+    topic: 'Electromagnetism - Biot-Savart Law',
+    frontTitle: 'Magnetic Field at Center & Axis of Circular Loop',
+    frontContent: 'What is magnetic field B at the center of circular loop (radius R, N turns, current I) and at axial distance x?',
+    frontFormula: 'B_center = (μ₀ N I) / (2 R)  ;  B_axis = (μ₀ N I R²) / (2 (R² + x²)^(3/2))',
+    backExplanation: '• At Center (x = 0): B = μ₀ N I / (2R).\n• At Axial distance x >> R: B = μ₀ N I R² / (2 x³) = (μ₀ / 4π) * (2 M / x³).\n• Semi-circular wire at center: B = μ₀ I / (4R).',
     backKeyPoints: [
-      'Zr (4d) ~ 160 pm and Hf (5d) ~ 159 pm (Nearly identical chemical twins)',
-      'Increases ionization energy and density of 5d elements',
-      'Makes separation of Zr and Hf difficult'
+      'Direction given by Right Hand Grip Rule along normal',
+      'Ratio B_center / B_axis = (1 + x²/R²)^(3/2)'
     ],
-    mnemonic: 'Poor f-shielding pulls 5d tight!',
+    mnemonic: 'Center is max: μ₀NI / 2R',
     difficulty: 'Medium'
+  },
+  {
+    id: 'fc-phy-3',
+    subject: 'Physics',
+    category: 'Formulas',
+    topic: 'Thermodynamics - Carnot Engine Efficiency',
+    frontTitle: 'Carnot Efficiency & Refrigerator COP',
+    frontContent: 'State the formulas for Carnot engine efficiency η and refrigerator coefficient of performance (COP) β.',
+    frontFormula: 'η = 1 - (T_cold / T_hot) = W / Q_hot  ;  β = T_cold / (T_hot - T_cold) = Q_cold / W',
+    backExplanation: 'For a reversible Carnot engine operating between absolute temperatures T_hot (source) and T_cold (sink):\n• Efficiency η = 1 - (T_cold / T_hot) = (Q_1 - Q_2) / Q_1 = W / Q_1.\n• Refrigerator COP β = Q_2 / W = T_cold / (T_hot - T_cold).\n• Key Relation: β = (1 - η) / η.',
+    backKeyPoints: [
+      'Temperatures MUST ALWAYS be in Kelvin (K = °C + 273.15)',
+      '100% efficiency is impossible by 2nd Law of Thermodynamics'
+    ],
+    mnemonic: 'Efficiency is 1 minus T_sink over T_source in Kelvin!',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-phy-4',
+    subject: 'Physics',
+    category: 'Formulas',
+    topic: 'Mechanics - Pure Rolling on Inclined Plane',
+    frontTitle: 'Acceleration & Rolling Kinetic Energy',
+    frontContent: 'What is acceleration a and total kinetic energy K for a body of radius R rolling without slipping down incline θ?',
+    frontFormula: 'a = (g sin θ) / (1 + K²/R²)  ;  K_total = 1/2 M v² (1 + K²/R²)',
+    backExplanation: 'For pure rolling without slipping:\n• K²/R² values: Solid Sphere (2/5 = 0.4) < Disc/Solid Cylinder (1/2 = 0.5) < Hollow Sphere (2/3 = 0.67) < Ring/Hollow Cylinder (1.0).\n• Smaller K²/R² = HIGHER acceleration = reaches bottom FIRST (Solid Sphere wins race!).',
+    backKeyPoints: [
+      'Static friction does ZERO work in pure rolling',
+      'Solid Sphere reaches bottom first, Ring reaches bottom last'
+    ],
+    mnemonic: 'Least K²/R² wins the incline race: Solid Sphere > Disc > Hollow Sphere > Ring!',
+    difficulty: 'Hard'
   }
 ];
 
+// ==========================================
+// EXPANSIVE, RICH VISUAL MIND MAPS (10+ DETAILED NODES)
+// ==========================================
 export const MIND_MAPS_DATA: MindMapNode[] = [
   {
     id: 'mm-bio-1',
     subject: 'Biology',
-    title: 'Genetics & Molecular Inheritance',
-    description: 'Complete visual roadmap of Mendelian principles, DNA structure, replication, transcription, translation & regulation.',
+    title: 'Genetics & Molecular Basis of Inheritance',
+    description: 'Complete visual roadmap of Mendelian genetics, chromosome theory, DNA structure, replication, transcription, translation & regulation.',
     children: [
       {
-        title: 'Mendelian Genetics',
-        details: ['Monohybrid cross (3:1, 1:2:1)', 'Dihybrid cross (9:3:3:1)', 'Incomplete dominance (Mirabilis jalapa 1:2:1)', 'Codominance (ABO Blood group)'],
-        subTopics: ['Chromosomal theory (Sutton & Boveri)', 'Linkage & Recombination (T.H. Morgan on Drosophila)', 'Sex determination (XX-XY, ZZ-ZW, Haplodiploidy)']
+        title: '1. Mendelian Genetics & Inheritance',
+        details: [
+          'Monohybrid cross (3:1 Phenotype, 1:2:1 Genotype)',
+          'Dihybrid cross (9:3:3:1 Phenotype, 1:2:1:2:4:2:1:2:1 Genotype)',
+          'Incomplete dominance (Mirabilis jalapa / Antirrhinum 1:2:1 pink flower)',
+          'Co-dominance & Multiple Alleles (Human ABO blood groups: IA, IB, i)'
+        ],
+        subTopics: [
+          'Chromosomal theory of inheritance (Walter Sutton & Theodor Boveri)',
+          'Linkage & Recombination (T.H. Morgan experiments on Drosophila melanogaster)',
+          'Sex determination: XX-XY (Humans/Drosophila), ZZ-ZW (Birds), Haplodiploidy (Honeybees)',
+          'Genetic disorders: Down syndrome (Trisomy 21), Turner (45, XO), Klinefelter (47, XXY)'
+        ]
       },
       {
-        title: 'Structure of Genetic Material',
-        details: ['Double helix model (Watson & Crick)', 'B-DNA pitch 3.4 nm, 10 bp per turn', 'Histone octamer (H2A, H2B, H3, H4) + H1 linker', '200 bp in nucleosome core'],
-        subTopics: ['Chargaff rules: A+G = T+C', 'Transforming principle (Griffith S/R strain)', 'Hershey-Chase bacteriophage T2 experiment']
+        title: '2. DNA Structure & Packaging',
+        details: [
+          'Double helix model (Watson & Crick 1953, B-DNA pitch 3.4 nm, 10 bp/turn, diameter 2 nm)',
+          'Chargaff equivalence rules: [A] + [G] = [T] + [C], A/T = 1, G/C = 1',
+          'Histone octamer core (2 of H2A, H2B, H3, H4) with positively charged Lysine & Arginine',
+          'Nucleosome structure: 200 bp wrapped around octamer + H1 linker histone'
+        ],
+        subTopics: [
+          'Transforming principle (Frederick Griffith 1928 S-strain / R-strain in mice)',
+          'Biochemical characterisation (Avery, MacLeod, McCarty 1944: DNase destroys activity)',
+          'Unequivocal proof: Hershey & Chase 1952 using 32P (DNA) and 35S (protein capsid)'
+        ]
       },
       {
-        title: 'Central Dogma & Processes',
-        details: ['Semi-conservative replication (Meselson-Stahl 15N/14N)', 'Transcription in Eukaryotes (Pol I, II, III)', 'Post-transcriptional splicing, capping (m7G), tailing (Poly-A)'],
-        subTopics: ['Genetic code: Universal, degenerate, non-overlapping, AUG start', 'Lac Operon (Jacob & Monod): Inducible, Repressor-Operator binding']
+        title: '3. Central Dogma & Gene Regulation',
+        details: [
+          'Semi-conservative DNA replication (Meselson & Stahl 1958 using 15N and 14N CsCl gradient)',
+          "DNA Polymerase: synthesizes strictly in 5'->3' direction (Leading continuous, Lagging Okazaki)",
+          'Transcription in Eukaryotes: Pol I (rRNA 28S, 18S, 5.8S), Pol II (hnRNA/mRNA), Pol III (tRNA, 5S rRNA, snRNA)',
+          "Post-transcriptional modifications: Splicing (introns removed), Capping (7-methylguanosine 5'), Tailing (200-300 Poly-A 3')"
+        ],
+        subTopics: [
+          'Genetic code properties: Triplet, Universal, Non-overlapping, Degenerate (61 codons for 20 AA), AUG start (Methionine), UAA/UAG/UGA stop',
+          'Lac Operon (Jacob & Monod): Inducible system, z (beta-gal), y (permease), a (transacetylase), allolactose inducer'
+        ]
       }
     ]
   },
   {
-    id: 'mm-phy-1',
-    subject: 'Physics',
-    title: 'Thermodynamics & Thermal Physics',
-    description: 'State variables, laws of thermodynamics, cyclic processes, heat engines, Carnot efficiency and kinetic theory.',
+    id: 'mm-bio-2',
+    subject: 'Biology',
+    title: 'Human Physiology & Organ Systems',
+    description: 'Integrated roadmap of Circulatory, Excretory, Neural, Respiratory & Endocrine systems.',
     children: [
       {
-        title: 'Zeroth & First Law',
-        details: ['Zeroth law defines Temperature (Thermal equilibrium)', 'First law: dQ = dU + dW (Conservation of energy)', 'Internal energy U = (f/2) nRT (Depends only on temperature)'],
-        subTopics: ['Isothermal process (T=const, dU=0, W = nRT ln(V2/V1))', 'Adiabatic process (dQ=0, PV^γ = const, W = (P1V1 - P2V2)/(γ - 1))', 'Isochoric (dV=0, W=0, dQ=dU)', 'Isobaric (dP=0, W=P(V2-V1))']
+        title: '1. Circulatory System & Cardiac Cycle',
+        details: [
+          'Blood components: Plasma (55%), Formed elements (45%: RBCs 5-5.5M, WBCs 6-8k, Platelets 1.5-3.5L)',
+          'Cardiac cycle duration: 0.8s (Joint diastole 0.4s, Atrial systole 0.1s, Ventricular systole 0.3s)',
+          'Stroke volume = 70 mL; Cardiac output = 70 * 72 bpm = 5 L/min',
+          'ECG waves: P (atrial depolarisation), QRS (ventricular depolarisation), T (ventricular repolarisation)'
+        ],
+        subTopics: [
+          'Double circulation: Pulmonary circuit (RV -> Lungs -> LA) + Systemic circuit (LV -> Body -> RA)',
+          'Disorders: Hypertension (>140/90), CAD (Atherosclerosis), Angina pectoris, Heart failure'
+        ]
       },
       {
-        title: 'Heat Engines & Second Law',
-        details: ['Kelvin-Planck statement (No engine with 100% efficiency)', 'Clausius statement (Heat cannot flow cold to hot without external work)', 'Carnot cycle: 2 Isothermal + 2 Adiabatic steps'],
-        subTopics: ['Carnot Efficiency η = 1 - (T_cold / T_hot) = 1 - (Q2 / Q1)', 'Refrigerator COP β = Q2 / W = T_cold / (T_hot - T_cold)']
+        title: '2. Excretory System & Osmoregulation',
+        details: [
+          'Nephron structure: Glomerulus + Bowman capsule (Malpighian corpuscle), PCT, Loop of Henle, DCT, CD',
+          'Urine formation: Ultrafiltration (GFR 125 mL/min = 180 L/day), 99% Reabsorption (1-1.5 L urine excreted), Tubular secretion (H+, K+, NH3)',
+          'Counter-current multiplier in Loop of Henle & Vasa Recta maintains 1200 mOsmol/L medullary gradient',
+          'Regulation: RAAS (Renin-Angiotensin-Aldosterone), ADH/Vasopressin (water reabsorption), ANF check'
+        ],
+        subTopics: [
+          'Disorders: Uraemia, Renal calculi (calcium oxalate stones), Glomerulonephritis',
+          'Hemodialysis: Counter-current artificial dialysing fluid clearing urea without losing plasma proteins'
+        ]
+      },
+      {
+        title: '3. Endocrine Glands & Hormones',
+        details: [
+          'Hypothalamus: Releasing (GnRH, TRH) & Inhibiting (Somatostatin) neurohormones',
+          'Pituitary: Anterior (GH, PRL, TSH, ACTH, LH, FSH), Intermediate (MSH), Posterior stores (Oxytocin, Vasopressin)',
+          'Thyroid: T3, T4 (BMR control, cretinism/goitre) & Calcitonin (TCT - lowers blood Ca2+)',
+          'Parathyroid: PTH (hypercalcemic - elevates blood Ca2+ by bone resorption)'
+        ],
+        subTopics: [
+          'Adrenal cortex: Glucocorticoids (Cortisol - gluconeogenesis) & Mineralocorticoids (Aldosterone - Na+ retention)',
+          'Adrenal medulla: Epinephrine & Norepinephrine (Fight-or-flight catecholamines)',
+          'Pancreas: Alpha (Glucagon - hyperglycemic) & Beta (Insulin - hypoglycemic, promotes GLUT-4 uptake)'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'mm-bio-3',
+    subject: 'Biology',
+    title: 'Plant Physiology & Photosynthesis',
+    description: 'Light reactions, Calvin cycle, C4 Kranz anatomy, cellular respiration, and plant hormones.',
+    children: [
+      {
+        title: '1. Photosynthesis in Higher Plants',
+        details: [
+          'Light reaction (Thylakoids): PS-II (P680) splits H2O -> O2 + 4H+ + 4e-; PS-I (P700) reduces NADP+',
+          'Z-Scheme non-cyclic photophosphorylation produces ATP + NADPH; Cyclic produces ATP only',
+          'Chemiosmotic hypothesis (Peter Mitchell): Proton gradient builds inside Thylakoid lumen (low pH)',
+          'Calvin cycle (Stroma): 1. Carboxylation (RuBisCO), 2. Reduction (uses 2 ATP + 2 NADPH), 3. Regeneration (1 ATP). Total 3 ATP + 2 NADPH per CO2'
+        ],
+        subTopics: [
+          'C4 Pathway (Kranz anatomy in Maize/Sorghum): Mesophyll fixes CO2 via PEPcase -> OAA (4C), Bundle sheath runs Calvin cycle with zero photorespiration',
+          'Blackman law of limiting factors: Rate dictated by factor present in minimum quantity'
+        ]
+      },
+      {
+        title: '2. Plant Growth Regulators (PGRs)',
+        details: [
+          'Auxins (IAA, NAA, 2,4-D): Apical dominance, rooting, parthenocarpy in tomatoes, 2,4-D dicot weedicide',
+          'Gibberellins (GA3): Internode elongation in sugarcane, bolting in beet/cabbage, breaks seed dormancy',
+          'Cytokinins (Zeatin, Kinetin): Cell division, overcomes apical dominance, delays leaf senescence',
+          'Ethylene (Gaseous): Fruit ripening, horizontal growth of seedlings, respiratory climacteric',
+          'Abscisic Acid (ABA): Stress hormone, stomatal closure during drought, induces seed dormancy'
+        ],
+        subTopics: [
+          'Photoperiodism: Flowering response to day/night length perceived by phytochrome in leaves',
+          'Vernalization: Low temperature promotion of flowering'
+        ]
       }
     ]
   },
   {
     id: 'mm-chem-1',
     subject: 'Chemistry',
-    title: 'Organic Reaction Mechanisms Roadmap',
-    description: 'Nucleophilic substitution, elimination, electrophilic aromatic substitution, and carbonyl reactions.',
+    title: 'Organic Chemistry Reaction Mechanisms',
+    description: 'Nucleophilic substitution, elimination, electrophilic aromatic substitution, named carbonyl reactions & polymers.',
     children: [
       {
-        title: 'Alkyl Halides (SN1 vs SN2)',
-        details: ['SN1: 2 steps, carbocation intermediate, racemization, 3° > 2° > 1°, polar protic solvent', 'SN2: 1 step, backside attack, Walden inversion, 1° > 2° > 3°, polar aprotic solvent'],
-        subTopics: ['E1 vs E2: Saytzeff (more substituted alkene) vs Hofmann rule', 'Elimination favored at high temperature with bulky strong base']
+        title: '1. Alkyl Halides & Substitution / Elimination',
+        details: [
+          'SN1: 2 steps, 3° > 2° > 1°, carbocation intermediate, polar protic solvent, racemization',
+          'SN2: 1 step concerted, 1° > 2° > 3°, backside attack, polar aprotic solvent, Walden inversion',
+          'E1 vs E2: Saytzeff rule (more substituted alkene is major) vs Hofmann product (bulky base)',
+          'Grignard reagents (R-Mg-X): Strong nucleophile/base, reacts with active H (H2O, ROH) to form R-H'
+        ],
+        subTopics: [
+          'Haloarenes: Low reactivity due to resonance partial double bond character of C-Cl',
+          'Wurtz, Fittig & Wurtz-Fittig cross-coupling reactions'
+        ]
       },
       {
-        title: 'Carbonyl Chemistry',
-        details: ['Nucleophilic addition to C=O', 'Grignard reagent addition to aldehydes/ketones -> 1°, 2°, 3° alcohols', 'Aldol & Cross Aldol, Cannizzaro, Clemmensen reduction (Zn-Hg/HCl)'],
-        subTopics: ['Wolff-Kishner reduction (NH2NH2/KOH/glycol)', 'Tollens and Fehling tests for aldehydes']
+        title: '2. Carbonyl Compounds (Aldehydes & Ketones)',
+        details: [
+          'Nucleophilic addition to C=O (HCN, NaHSO3, Grignard, ROH for acetals/ketals)',
+          'Aldol condensation: alpha-H containing carbonyls + dil. NaOH -> alpha,beta-unsaturated product',
+          'Cannizzaro reaction: carbonyls without alpha-H + conc. 50% NaOH -> Alcohol + Carboxylate salt',
+          'Clemmensen reduction (Zn-Hg / conc. HCl) & Wolff-Kishner reduction (NH2NH2 / KOH / glycol) -> C=O to CH2'
+        ],
+        subTopics: [
+          'Tollens reagent test (Silver mirror) & Fehling test (Cu2O red ppt) for aldehydes',
+          'Iodoform test (I2 + NaOH): Positive for CH3-C=O and CH3-CH(OH)- groups (yellow CHI3 ppt)'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'mm-phy-1',
+    subject: 'Physics',
+    title: 'Modern Physics & Dual Nature',
+    description: 'Photoelectric effect, Bohr atom model, nuclear binding energy, radioactivity & semiconductor devices.',
+    children: [
+      {
+        title: '1. Photoelectric Effect & Photons',
+        details: [
+          'Einstein equation: K_max = h nu - phi_0 = e V_0 (where V_0 is stopping potential)',
+          'Photoelectric current is proportional to light INTENSITY (number of photons)',
+          'Max kinetic energy and stopping potential depend ONLY on light FREQUENCY, not intensity',
+          'De Broglie wavelength: lambda = h/p = 12.27 / sqrt(V) Angstroms for accelerated electron'
+        ],
+        subTopics: [
+          'Work function phi_0 = h nu_0 (threshold frequency)',
+          'Davisson-Germer experiment proved wave nature of moving electrons'
+        ]
+      },
+      {
+        title: '2. Bohr Atomic Model & Hydrogen Spectrum',
+        details: [
+          'Postulates: Quantized angular momentum mvr = n h / 2pi; Radiation emitted on transition E_i - E_f = h nu',
+          'Radius of nth orbit: r_n = 0.529 * (n^2 / Z) Angstroms',
+          'Velocity in nth orbit: v_n = 2.18 x 10^6 * (Z / n) m/s',
+          'Energy of nth level: E_n = -13.6 * (Z^2 / n^2) eV'
+        ],
+        subTopics: [
+          'Rydberg formula: 1/lambda = R_H * Z^2 * (1/n1^2 - 1/n2^2)',
+          'Spectral Series: Lyman (n1=1, UV), Balmer (n1=2, Visible), Paschen (n1=3, IR), Brackett (n1=4, IR), Pfund (n1=5, IR)'
+        ]
       }
     ]
   }
 ];
 
+// ==========================================
+// BOOKS & NOTES REPOSITORY DATA
+// ==========================================
 export const BOOKS_DATA: BookItem[] = [
   {
     id: 'book-ncert-bio',
@@ -5449,217 +1514,111 @@ export const BOOKS_DATA: BookItem[] = [
     category: 'Formula books',
     subject: 'Physics',
     pages: 180,
-    size: '8.2 MB',
-    description: 'All 30 chapters formula sheet with sign conventions, limiting cases, dimension derivations, and rapid shortcut tricks.',
-    rating: 4.92,
-    highlights: ['Instant memory tables', 'All SI units & dimensions included', 'Ready-to-use graph cheat sheets']
+    size: '9.2 MB',
+    description: 'Formula handbook with standard derivations, dimensional shortcuts, and common sign convention pitfalls.',
+    rating: 4.91,
+    highlights: ['All 28 chapters covered', 'Includes graphical tricks', 'Printable cheat-sheets included']
   },
   {
-    id: 'book-organic-rev',
-    title: 'Organic Chemistry Reaction Mechanism & Roadmaps',
+    id: 'book-reactions-chem',
+    title: 'Organic Chemistry Reactions, Reagents & Mechanisms',
     category: 'Revision notes',
     subject: 'Chemistry',
     pages: 240,
-    size: '12.6 MB',
-    description: 'Comprehensive guide covering 65+ Named Reactions, conversion flowcharts, reagents cheat sheet, and acidity/basicity orders.',
-    rating: 4.88,
-    highlights: ['Step-by-step electron arrow pushing', 'Reagents reference table', 'Top 500 conversion practice questions']
+    size: '12.8 MB',
+    description: 'Comprehensive named reactions atlas with electron-pushing arrow mechanisms, solvent effects, and conversion roadmaps.',
+    rating: 4.94,
+    highlights: ['All 82 named reactions indexed', 'Conversion flowcharts from Alkane to Amines', 'Reagent function lookup table']
   },
   {
-    id: 'book-neet-ebook',
-    title: '37 Years NEET Chapter-wise Solved Question Bank (PDF)',
+    id: 'book-pyq-archive',
+    title: '37 Years Solved NEET & AIPMT Topic-Wise Archive',
     category: 'eBooks',
-    subject: 'All',
+    subject: 'Biology',
     pages: 650,
-    size: '34.0 MB',
-    description: 'Complete collection of all AIPMT & NEET questions from 1988 to 2024 with 100% detailed step-by-step solutions and CBT keys.',
+    size: '34.5 MB',
+    description: 'Complete authentic question bank from 1988 to 2024 with line-by-line NCERT references and step-by-step verified solutions.',
     rating: 4.98,
-    highlights: ['37 Years archive', 'Tagged by difficulty level', 'Error-free CBT verified solutions']
-  },
-  {
-    id: 'book-jee-maths',
-    title: 'JEE Mathematics Quick Revision & Master Notes',
-    category: 'Revision notes',
-    subject: 'Mathematics',
-    pages: 310,
-    size: '15.8 MB',
-    description: 'Calculus, Vectors & 3D, Coordinate Geometry, and Algebra crash notes with formula handbook.',
-    rating: 4.85,
-    highlights: ['Calculus graph shortcuts', '3D geometry visualization cards', 'Quick formula cheat sheet']
+    highlights: ['Topic-wise categorized questions', 'Examiner frequency tag (Hot/Regular)', 'Detailed step-by-step solutions']
   }
 ];
 
+// ==========================================
+// PREVIOUS YEAR QUESTIONS (PYQS) REPOSITORY
+// ==========================================
 export const PYQS_DATA: PYQItem[] = [
   {
-    id: 'pyq-2024-bio-1',
-    exam: 'NEET',
-    year: 2024,
+    id: 'pyq-bio-2024-1',
     subject: 'Biology',
-    chapter: 'Genetics and Evolution',
-    topic: 'Molecular Basis of Inheritance',
-    frequency: 'High (4-5 Qs per year)',
-    conceptWeightage: '8.5% of Biology Paper',
+    chapter: 'Molecular Basis of Inheritance',
+    topic: 'Lac Operon',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 6 times in last 7 years',
+    conceptWeightage: 'Very High (12 Marks)',
     question: {
-      id: 'pyq-q-1',
+      id: 'pyq-q1',
       subject: 'Biology',
-      chapter: 'Genetics and Evolution',
-      topic: 'Molecular Basis of Inheritance',
+      chapter: 'Molecular Basis of Inheritance',
+      topic: 'Lac Operon',
       difficulty: 'Medium',
-      questionText: '[NEET 2024] Which of the following statements about the Lac operon is INCORRECT?',
-      options: [
-        'Lactose binds to the repressor protein and inactivates it',
-        'The structural gene z codes for beta-galactosidase',
-        'In the absence of lactose, the repressor binds to the operator region',
-        'RNA polymerase binds directly to the operator region to start transcription'
-      ],
-      correctAnswer: 3,
-      explanation: 'Statement 4 is incorrect because RNA polymerase binds to the PROMOTER region (p gene), not the operator region. The operator is the binding site for the repressor protein.',
-      pyqYear: 2024
-    }
-  },
-  {
-    id: 'pyq-2023-phy-1',
-    exam: 'NEET',
-    year: 2023,
-    subject: 'Physics',
-    chapter: 'Ray Optics and Optical Instruments',
-    topic: 'Refraction at Spherical Surfaces & Lenses',
-    frequency: 'Very High (3 Qs per year)',
-    conceptWeightage: '6.2% of Physics Paper',
-    question: {
-      id: 'pyq-q-2',
-      subject: 'Physics',
-      chapter: 'Ray Optics and Optical Instruments',
-      topic: 'Refraction at Spherical Surfaces',
-      difficulty: 'Medium',
-      questionText: '[NEET 2023] A biconvex lens has radii of curvature 20 cm and 40 cm. If its focal length is 20 cm in air, the refractive index of the material of the lens is:',
-      options: [
-        '1.5',
-        '1.67',
-        '1.33',
-        '1.75'
-      ],
-      correctAnswer: 1,
-      explanation: 'Using Lens Maker formula: 1/f = (μ - 1) [1/R1 - 1/R2]. Here f = 20 cm, R1 = +20 cm, R2 = -40 cm. 1/20 = (μ - 1) [1/20 - (-1/40)] = (μ - 1) [3/40]. Thus (μ - 1) = (40 / (20 * 3)) = 2/3 ≈ 0.67 => μ = 1.67.',
-      pyqYear: 2023
-    }
-  },
-  {
-    id: 'pyq-2023-chem-1',
-    exam: 'NEET',
-    year: 2023,
-    subject: 'Chemistry',
-    chapter: 'Electrochemistry',
-    topic: 'Nernst Equation & Cell Potential',
-    frequency: 'High (2-3 Qs per year)',
-    conceptWeightage: '5.5% of Chemistry Paper',
-    question: {
-      id: 'pyq-q-3',
-      subject: 'Chemistry',
-      chapter: 'Electrochemistry',
-      topic: 'Nernst Equation',
-      difficulty: 'Medium',
-      questionText: '[NEET 2023] For the cell reaction: 2Fe³⁺(aq) + 2I⁻(aq) -> 2Fe²⁺(aq) + I₂(s), the standard EMF is 0.236 V at 298 K. The standard Gibbs energy (ΔrG°) of the reaction is (1 F = 96500 C/mol):',
-      options: [
-        '-45.55 kJ/mol',
-        '-91.10 kJ/mol',
-        '+45.55 kJ/mol',
-        '-22.77 kJ/mol'
-      ],
+      questionText: 'In the lac operon of E. coli, which gene encodes the enzyme beta-galactosidase?',
+      options: ['z gene', 'y gene', 'a gene', 'i gene'],
       correctAnswer: 0,
-      explanation: 'Here n = 2 electrons transferred. ΔrG° = -n F E°cell = -2 * 96500 * 0.236 = -45548 J/mol = -45.55 kJ/mol.',
-      pyqYear: 2023
+      explanation: 'The z gene codes for beta-galactosidase, y gene codes for permease, and a gene codes for transacetylase.',
+      tags: ['NEET 2024', 'NCERT Page 104', 'Class 12']
     }
   },
   {
-    id: 'pyq-2022-phy-1',
+    id: 'pyq-bio-2023-1',
+    subject: 'Biology',
+    chapter: 'Photosynthesis in Higher Plants',
+    topic: 'C4 Pathway',
+    year: 2023,
     exam: 'NEET',
-    year: 2022,
-    subject: 'Physics',
-    chapter: 'Mechanics',
-    topic: 'Gravitation & Escape Velocity',
-    frequency: 'Medium (2 Qs per year)',
-    conceptWeightage: '4.8% of Physics Paper',
+    frequency: 'Asked every year',
+    conceptWeightage: 'High (8 Marks)',
     question: {
-      id: 'pyq-q-4',
-      subject: 'Physics',
-      chapter: 'Mechanics',
-      topic: 'Gravitation',
-      difficulty: 'Easy',
-      questionText: '[NEET 2022] The escape velocity from the Earth\'s surface is v. The escape velocity from the surface of another planet having a radius, four times that of Earth and same mass density is:',
-      options: [
-        'v',
-        '2v',
-        '4v',
-        'v/4'
-      ],
-      correctAnswer: 2,
-      explanation: 'Escape velocity v_esc = √(2GM / R) = √(2G (4/3 π R³ ρ) / R) = R * √(8/3 π G ρ). Since density ρ is constant, v_esc is directly proportional to Radius R. If R\' = 4R, then v\' = 4v.',
-      pyqYear: 2022
+      id: 'pyq-q2',
+      subject: 'Biology',
+      chapter: 'Photosynthesis in Higher Plants',
+      topic: 'C4 Pathway',
+      difficulty: 'Medium',
+      questionText: 'In C4 plants, the first stable product of CO2 fixation is formed in:',
+      options: ['Mesophyll cells (Oxaloacetic acid, 4C)', 'Bundle sheath cells (PGA)', 'Epidermal cells', 'Guard cells'],
+      correctAnswer: 0,
+      explanation: 'In C4 plants, CO2 is fixed by PEP carboxylase in mesophyll cells to form Oxaloacetic acid (OAA, 4C).',
+      tags: ['NEET 2023', 'NCERT Class 11']
+    }
+  },
+  {
+    id: 'pyq-chem-2024-1',
+    subject: 'Chemistry',
+    chapter: 'Aldehydes, Ketones and Carboxylic Acids',
+    topic: 'Named Reactions',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-q3',
+      subject: 'Chemistry',
+      chapter: 'Aldehydes, Ketones and Carboxylic Acids',
+      topic: 'Aldol & Cannizzaro',
+      difficulty: 'Medium',
+      questionText: 'Which of the following aldehydes will undergo Cannizzaro reaction on treatment with 50% NaOH?',
+      options: ['Benzaldehyde (C6H5CHO)', 'Acetaldehyde (CH3CHO)', 'Propionaldehyde (CH3CH2CHO)', 'Acetone (CH3COCH3)'],
+      correctAnswer: 0,
+      explanation: 'Cannizzaro reaction is given by aldehydes having NO alpha-hydrogen atom, such as Benzaldehyde (C6H5CHO) and Formaldehyde (HCHO).',
+      tags: ['NEET 2024', 'Organic Chemistry']
     }
   }
 ];
 
-export const RANKER_STORIES: RankerStory[] = [
-  {
-    id: 'ranker-1',
-    name: 'Aarav Singhania',
-    exam: 'NEET',
-    air: 1,
-    score: '720/720 (Perfect Score)',
-    college: 'AIIMS New Delhi',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
-    quote: 'The AI weak-chapter analysis and CBT Full Syllabus test series gave me the exact confidence to eliminate negative marking. Attempted 45 full mocks here!',
-    state: 'Maharashtra',
-    year: 2024,
-    category: 'General',
-    keyStrategy: 'Solved 1 DPP daily and mastered NCERT line-by-line notes.'
-  },
-  {
-    id: 'ranker-2',
-    name: 'Diya Mukherjee',
-    exam: 'NEET',
-    air: 14,
-    score: '715/720',
-    college: 'AIIMS New Delhi',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80',
-    quote: 'The flashcards for Organic reactions and Biology diagrams transformed my last 30 days revision. The mentor support resolved every difficult doubt within minutes.',
-    state: 'West Bengal',
-    year: 2024,
-    category: 'General',
-    keyStrategy: 'Used Custom Test generator to target weak Physical Chemistry numericals.'
-  },
-  {
-    id: 'ranker-3',
-    name: 'Rohan Deshmukh',
-    exam: 'NEET',
-    air: 32,
-    score: '710/720',
-    college: 'JIPMER Puducherry',
-    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80',
-    quote: 'As a dropper, the Achievers batch kept me disciplined. National rankings and detailed subject-wise analysis showed my exact standing each Sunday.',
-    state: 'Rajasthan',
-    year: 2024,
-    category: 'OBC-NCL',
-    keyStrategy: 'Re-attempted incorrect questions from every Minor and Major test.'
-  },
-  {
-    id: 'ranker-4',
-    name: 'Ananya S. Iyer',
-    exam: 'JEE',
-    air: 48,
-    score: '99.99 Percentile (JEE Adv 312/360)',
-    college: 'IIT Bombay (Computer Science)',
-    image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80',
-    quote: 'The level of multi-chapter Major tests matched the trickiest questions of JEE Advanced. The mind maps gave a birds eye view of entire Physics concepts.',
-    state: 'Karnataka',
-    year: 2024,
-    category: 'General',
-    keyStrategy: 'Strict time-management drills and daily PYQ topic-wise solving.'
-  }
-];
-
-export const COLLEGES_DATA: CollegeInfo[] = [
+// ==========================================
+// TOP MEDICAL & ENGINEERING COLLEGES DATABASE
+// ==========================================
+export const COLLEGES_DATA: any[] = [
   {
     id: 'clg-1',
     name: 'All India Institute of Medical Sciences (AIIMS)',
@@ -5668,35 +1627,35 @@ export const COLLEGES_DATA: CollegeInfo[] = [
     totalSeats: 125,
     closingRankGen: 55,
     closingRankOBC: 240,
-    closingRankSC: 850,
+    closingRankSC: 1100,
     closingRankST: 2800,
     approxFeePerYear: '₹1,628 / yr',
     nirfRank: 1
   },
   {
     id: 'clg-2',
-    name: 'JIPMER (Jawaharlal Institute of Postgraduate Medical Education & Research)',
-    type: 'Government',
-    location: 'Puducherry',
-    totalSeats: 182,
-    closingRankGen: 260,
-    closingRankOBC: 620,
-    closingRankSC: 2100,
-    closingRankST: 5400,
-    approxFeePerYear: '₹7,620 / yr',
-    nirfRank: 2
-  },
-  {
-    id: 'clg-3',
     name: 'Maulana Azad Medical College (MAMC)',
     type: 'Government',
     location: 'New Delhi',
     totalSeats: 250,
-    closingRankGen: 110,
-    closingRankOBC: 450,
-    closingRankSC: 1800,
+    closingRankGen: 98,
+    closingRankOBC: 410,
+    closingRankSC: 1850,
     closingRankST: 4200,
-    approxFeePerYear: '₹3,000 / yr',
+    approxFeePerYear: '₹4,445 / yr',
+    nirfRank: 5
+  },
+  {
+    id: 'clg-3',
+    name: 'Christian Medical College (CMC)',
+    type: 'Private',
+    location: 'Vellore, Tamil Nadu',
+    totalSeats: 100,
+    closingRankGen: 220,
+    closingRankOBC: 650,
+    closingRankSC: 2900,
+    closingRankST: 6500,
+    approxFeePerYear: '₹52,830 / yr',
     nirfRank: 3
   },
   {
@@ -5705,65 +1664,79 @@ export const COLLEGES_DATA: CollegeInfo[] = [
     type: 'Government',
     location: 'Lucknow, Uttar Pradesh',
     totalSeats: 250,
-    closingRankGen: 1200,
-    closingRankOBC: 2400,
-    closingRankSC: 9800,
-    closingRankST: 18500,
-    approxFeePerYear: '₹54,000 / yr',
-    nirfRank: 5
+    closingRankGen: 1450,
+    closingRankOBC: 2800,
+    closingRankSC: 14200,
+    closingRankST: 28000,
+    approxFeePerYear: '₹54,900 / yr',
+    nirfRank: 12
   },
   {
     id: 'clg-5',
-    name: 'Christian Medical College (CMC)',
-    type: 'Private',
-    location: 'Vellore, Tamil Nadu',
-    totalSeats: 100,
-    closingRankGen: 180,
-    closingRankOBC: 520,
+    name: 'JIPMER (Jawaharlal Institute of Postgraduate Medical Education)',
+    type: 'Government',
+    location: 'Puducherry',
+    totalSeats: 182,
+    closingRankGen: 270,
+    closingRankOBC: 890,
     closingRankSC: 3400,
-    closingRankST: 7100,
-    approxFeePerYear: '₹48,000 / yr',
-    nirfRank: 4
-  },
-  {
-    id: 'clg-6',
-    name: 'Kasturba Medical College (KMC Manipal)',
-    type: 'Private',
-    location: 'Manipal, Karnataka',
-    totalSeats: 250,
-    closingRankGen: 45000,
-    closingRankOBC: 48000,
-    closingRankSC: 85000,
-    closingRankST: 120000,
-    approxFeePerYear: '₹14,50,000 / yr',
-    nirfRank: 9
+    closingRankST: 7800,
+    approxFeePerYear: '₹7,620 / yr',
+    nirfRank: 2
   }
 ];
 
-export const FAQS_DATA = [
+// ==========================================
+// TOP RANKER SUCCESS STORIES
+// ==========================================
+export const RANKER_STORIES: any[] = [
   {
-    category: 'Test Series',
-    question: 'How do Minor, Major, Part Syllabus, and Full Syllabus tests differ?',
-    answer: 'Minor Test Series focus on single chapters with topic-wise MCQs for daily building. Major Test Series cover multi-chapter blocks with negative marking and national percentiles. Part Syllabus Tests group whole units (e.g. Optics + Genetics) according to scheduled calendar dates. Full Syllabus Tests replicate the exact official 720-mark NEET / 300-mark JEE pattern with AIR prediction.'
+    id: 'story-1',
+    name: 'Aryan Sharma',
+    exam: 'NEET',
+    air: 24,
+    score: '715 / 720',
+    college: 'AIIMS New Delhi',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150',
+    quote: 'Practicing the 45-question chapterwise and Sunday CBT test series with instant solutions helped me eliminate negative marks.',
+    state: 'Maharashtra',
+    year: 2024,
+    category: 'General',
+    keyStrategy: 'Solved all 32 biology chapters with 1-min-per-question strict timer discipline.'
   },
   {
-    category: 'CBT Simulator',
-    question: 'Is the test interface identical to the actual CBT examination?',
-    answer: 'Yes! Our CBT mode features the official CBT color-coded palette (Answered, Not Answered, Marked for Review, Answered & Marked for Review), live countdown timer, clear response options, and section-switching capabilities.'
+    id: 'story-2',
+    name: 'Sneha Patel',
+    exam: 'NEET',
+    air: 68,
+    score: '708 / 720',
+    college: 'MAMC New Delhi',
+    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150',
+    quote: 'The flashcards and mind maps made my morning revision super fast before attempting Sunday mocks.',
+    state: 'Gujarat',
+    year: 2024,
+    category: 'OBC',
+    keyStrategy: 'Replaced random MCQs with focused 45-question tests and daily DPPs.'
+  }
+];
+
+// ==========================================
+// FREQUENTLY ASKED QUESTIONS (FAQS)
+// ==========================================
+export const FAQS_DATA: any[] = [
+  {
+    question: 'How is this CBT Test Series structured for NEET 2026/2027?',
+    answer: 'Every test is strictly structured with 45 questions, 45 minutes allotted time, and 180 marks (+4 for correct, -1 for incorrect). It features scheduled Sunday-to-Sunday All India mock tests, Class 11 & 12 chapter-wise tests, and customizable tests from our 6,465 verified NCERT question bank.',
+    category: 'CBT Test Series'
   },
   {
-    category: 'Custom Test & DPP',
-    question: 'How does the Custom Test & DPP Generator work?',
-    answer: 'You can choose your target subjects (Physics, Chemistry, Biology, Mathematics), select specific chapters/topics, adjust the question count, set the timer duration, and choose difficulty (Easy, Medium, Hard, or Adaptive). The platform dynamically synthesizes a fresh paper with instant scoring.'
+    question: 'Can I download question papers and scorecards as PDFs for offline practice?',
+    answer: 'Yes! Every test, DPP, formula book, and scorecard comes with a 1-click "Download PDF" button that generates a high-quality printable document with questions, OMR matrix, and verified step solutions.',
+    category: 'Downloads & Study Material'
   },
   {
-    category: 'Mentorship & Support',
-    question: 'How does 1-on-1 Mentor Support and Doubt Resolution work?',
-    answer: 'Enrolled students can submit doubt photos or text 24/7 to our Academic Support team for sub-10 minute solutions from top medical & engineering graduates. You also get weekly 1-on-1 video counselling for exam strategy.'
-  },
-  {
-    category: 'NEET Exam & Counselling',
-    question: 'What is the current NEET-UG marking scheme and duration?',
-    answer: 'NEET-UG consists of 200 questions (Physics: 50, Chemistry: 50, Botany: 50, Zoology: 50). Students must attempt 180 questions for 720 total marks. Marking scheme: +4 for each correct answer, -1 for incorrect answer, 0 for unattempted. Duration is 200 minutes (3 hours 20 minutes).'
+    question: 'How does the 24/7 AI Faculty Doubt Solver work?',
+    answer: 'You can paste or type any question in Biology, Chemistry, or Physics. Our system uses advanced AI and verified NCERT references to provide instant step-by-step derivations, calculations, and examiner tips.',
+    category: 'Academic Doubts'
   }
 ];

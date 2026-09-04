@@ -12,6 +12,8 @@ import {
   UserCheck
 } from 'lucide-react';
 
+import { solveStudentAcademicDoubt } from '../utils/aiTutorEngine';
+
 interface LiveDoubtModalProps {
   onClose: () => void;
 }
@@ -53,14 +55,10 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
     if (!doubtText.trim()) return;
 
     setIsSolving(true);
-    let simulatedResponse = '';
-    if (subject === 'Physics') {
-      simulatedResponse = `**Academic Faculty Solution (Er. Sandeep Verma - IIT Kanpur):**\n\n1. **Core Concept:** Apply Conservation of Linear Momentum and Energy Equations: $P_i = P_f$.\n2. **Step 1:** Calculate initial kinetic energy: $E_k = \\frac{1}{2} m v^2$.\n3. **Step 2:** Account for rotational inertia $I = \\frac{1}{2} M R^2$ for pure rolling condition ($v = \\omega R$).\n4. **Key Trick:** Always check if friction does work (in pure rolling without slipping, work done by static friction is ZERO).\n\n*Verified by NEET/JEE Physics Expert Committee.*`;
-    } else if (subject === 'Biology') {
-      simulatedResponse = `**Academic Faculty Solution (Dr. Vivek Sharma - AIIMS New Delhi):**\n\n1. **NCERT Reference:** Page 104, Class 12 NCERT Biology (Chapter 6 - Molecular Basis of Inheritance).\n2. **Mechanism:** The coding strand has the same polarity and base sequence as mRNA, except Thymine (T) is replaced with Uracil (U).\n3. **Examiner Trap:** Many students accidentally convert coding strand to template strand instead of directly reading 5' to 3'.\n\n*Verified by Biology Master Faculty.*`;
-    } else {
-      simulatedResponse = `**Academic Faculty Solution (Dr. Ananya Ray - IISc Bangalore):**\n\n1. **Named Reaction Mechanism:** Aldol Condensation requires $\\alpha$-hydrogen for enolate ion generation by strong base (OH⁻).\n2. **Thermodynamics:** Dehydration occurs readily due to extended conjugation with the carbonyl pi-system forming an $\\alpha,\\beta$-unsaturated ketone.\n3. **High Yield Note:** Cannizzaro reaction occurs when NO $\\alpha$-hydrogen exists (e.g. Formaldehyde, Benzaldehyde).\n\n*Verified by Senior Organic Chemistry Faculty.*`;
-    }
+    setSolvedResponse(null);
+
+    const activeDoubt = doubtText;
+    const responseText = await solveStudentAcademicDoubt(subject, activeDoubt);
 
     if (supabase && user) {
       const { data, error } = await supabase
@@ -68,9 +66,9 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
         .insert({
           user_id: user.id,
           subject,
-          doubt_text: doubtText,
+          doubt_text: activeDoubt,
           is_solving: false,
-          solved_response: simulatedResponse
+          solved_response: responseText
         })
         .select();
 
@@ -79,11 +77,9 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
       }
     }
 
-    setTimeout(() => {
-      setIsSolving(false);
-      setSolvedResponse(simulatedResponse);
-      setDoubtText('');
-    }, 1200);
+    setIsSolving(false);
+    setSolvedResponse(responseText);
+    setDoubtText('');
   };
 
   return (

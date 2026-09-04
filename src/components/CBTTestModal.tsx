@@ -21,6 +21,7 @@ import confetti from 'canvas-confetti';
 import { TestItem, Question, UserTestResult } from '../types';
 import { supabase } from '../supabaseClient';
 import { cleanOcrText } from '../utils/ocrCleaner';
+import { downloadTestPaperPDF, downloadTestScorecardPDF } from '../utils/pdfDownloader';
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -597,12 +598,28 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </button>
                 </div>
 
-                <button
-                  onClick={onClose}
-                  className="px-3 py-1.5 rounded bg-gray-100 hover:bg-gray-200 text-xs font-semibold text-gray-700 border border-gray-200"
-                >
-                  Close & Back to Dashboard
-                </button>
+                <div className="flex items-center space-x-2">
+                  <button
+                    onClick={() => downloadTestScorecardPDF(testResult)}
+                    className="px-2.5 py-1.5 rounded bg-emerald-50 hover:bg-emerald-100 text-xs font-semibold text-emerald-800 border border-emerald-300 flex items-center space-x-1 shadow-xs"
+                  >
+                    <FileText className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Download Scorecard PDF</span>
+                  </button>
+                  <button
+                    onClick={() => downloadTestPaperPDF(test, true)}
+                    className="px-2.5 py-1.5 rounded bg-blue-50 hover:bg-blue-100 text-xs font-semibold text-blue-800 border border-blue-300 flex items-center space-x-1 shadow-xs"
+                  >
+                    <FileText className="w-3.5 h-3.5 text-blue-600" />
+                    <span>Download Test Paper PDF</span>
+                  </button>
+                  <button
+                    onClick={onClose}
+                    className="px-3 py-1.5 rounded bg-gray-100 hover:bg-gray-200 text-xs font-semibold text-gray-700 border border-gray-200"
+                  >
+                    Close & Back to Dashboard
+                  </button>
+                </div>
               </div>
 
               {activeSolutionTab === 'scorecard' ? (

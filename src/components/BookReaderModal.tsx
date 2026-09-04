@@ -10,6 +10,8 @@ import {
 } from 'lucide-react';
 import { BookItem } from '../types';
 
+import { downloadBookPDF } from '../utils/pdfDownloader';
+
 interface BookReaderModalProps {
   book: BookItem;
   onClose: () => void;
@@ -22,6 +24,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
   const [downloaded, setDownloaded] = useState(false);
 
   const handleDownload = () => {
+    downloadBookPDF(book);
     setDownloaded(true);
     setTimeout(() => setDownloaded(false), 3000);
   };
