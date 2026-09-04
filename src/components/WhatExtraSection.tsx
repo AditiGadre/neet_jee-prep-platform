@@ -876,7 +876,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   Daily Practice Paper for {dppDate} &bull; {dppSubject}
                 </h3>
                 <p className="text-xs text-gray-500 font-mono">
-                  45 High-Yield Questions &bull; 45 Minutes Time Target &bull; +4 / -1 Marking
+                  45 High-Yield Questions &bull; 15 Minutes Speed Time Target &bull; +4 / -1 Marking
                 </p>
               </div>
 

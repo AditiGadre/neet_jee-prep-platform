@@ -136,8 +136,8 @@ const get45 = (arr: Question[], start = 0): Question[] => {
 };
 
 export const TEST_SERIES_DATA: TestItem[] = [
-  // ==========================================
-  // 1. SUNDAY-TO-SUNDAY ALL INDIA SCHEDULED TEST SERIES (45 Qs EACH & 45 MINS)
+// ==========================================
+  // 1. SUNDAY-TO-SUNDAY ALL INDIA SCHEDULED TEST SERIES (45 Qs & 15 MINS)
   // ==========================================
   {
     id: 'test-sunday-01',
@@ -150,878 +150,1716 @@ export const TEST_SERIES_DATA: TestItem[] = [
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
-    cbtMode: true,
     scheduledDate: '2026-09-06',
+    cbtMode: true,
     features: [
-      '45 Standard NEET Exam Questions (180 Marks)',
-      'Allotted Time: 45 Minutes (1 Min per Question)',
-      'Unit 1 Mastery: Binomial rules, 5 Kingdoms, Algae/Gymnosperms & Non-chordates',
+      '45 NCERT Verified Questions',
+      'Allotted Time: 15 Minutes Speed CBT',
+      '+4 for Correct, -1 for Negative',
       'All India Percentile & Weak Area Diagnostic'
     ],
-    questions: get45(FINGERTIPS_BIO_CH01_MCQS),
-    enrolledStudentsCount: 142000,
-    avgScore: 148
+    questions: get45(FINGERTIPS_BIO_CH01_MCQS)
   },
   {
     id: 'test-sunday-02',
     title: 'Sunday Mock 02: Structural Organisation in Plants & Animals (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 2: Morphology of Flowering Plants, Anatomy of Flowering Plants, Animal Tissues & Cockroach/Frog',
+    syllabus: 'Unit 2: Morphology & Anatomy of Flowering Plants, Animal Tissues, Cockroach & Frog Anatomy',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
-    cbtMode: true,
     scheduledDate: '2026-09-13',
+    cbtMode: true,
     features: [
-      '45 Precision NCERT Line-by-Line Questions',
-      'Floral Formulas, Dicot/Monocot Anatomy & Epithelial/Connective Tissues',
-      'Allotted Time: 45 Minutes (180 Marks)',
-      'Detailed Step Solutions with NCERT Page References'
+      '45 NCERT Questions',
+      'Allotted Time: 15 Minutes (180 Marks)',
+      '100% Verified Diagrams & Explanations',
+      'Instant AI Scorecard & Detailed Solutions'
     ],
-    questions: get45(FINGERTIPS_BIO_CH05_MCQS),
-    enrolledStudentsCount: 138000,
-    avgScore: 142
+    questions: get45(FINGERTIPS_BIO_CH05_MCQS)
   },
   {
     id: 'test-sunday-03',
-    title: 'Sunday Mock 03: Cell Biology, Biomolecules & Division (45 Qs)',
+    title: 'Sunday Mock 03: Cell Structure, Biomolecules & Cell Division (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 3: Cell: The Unit of Life, Biomolecules & Cell Cycle/Division (Mitosis & Meiosis)',
+    syllabus: 'Unit 3: Cell: Unit of Life, Biomolecules & Enzymes, Cell Cycle & Mitosis/Meiosis',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    cbtMode: true,
     scheduledDate: '2026-09-20',
+    cbtMode: true,
     features: [
-      '45 High-Yield Questions on Organelles, Enzyme Kinetics & Meiotic Prophase I',
-      'Sub-phases of Prophase I, Activation Energy & Secondary Metabolites',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      'All India Rank Prediction'
+      '45 High-Yield Questions',
+      '15 Minutes Speed Practice',
+      '+4/-1 NTA Marking Pattern',
+      'Detailed Step-by-Step Solutions'
     ],
-    questions: get45(FINGERTIPS_BIO_CH08_MCQS),
-    enrolledStudentsCount: 154000,
-    avgScore: 139
+    questions: get45(FINGERTIPS_BIO_CH08_MCQS)
   },
   {
     id: 'test-sunday-04',
-    title: 'Sunday Mock 04: Plant Physiology Mastery (45 Qs)',
+    title: 'Sunday Mock 04: Plant Physiology Master Challenge (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 4: Photosynthesis (Light/Dark, C3/C4), Respiration (Glycolysis, Krebs, ETS) & Plant Growth Regulators (Auxin, GA, Cytokinin, Ethylene, ABA)',
+    syllabus: 'Unit 4: Photosynthesis in Higher Plants, Cellular Respiration & Plant Growth Regulators',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    cbtMode: true,
     scheduledDate: '2026-09-27',
+    cbtMode: true,
     features: [
-      '45 High-Frequency Bioenergetics & Hormone Questions',
-      'Kranz Anatomy, ATP Yield Calculations & Photolysis of Water',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      'Instant Scorecard with Weak Chapter Diagnostics'
+      '45 NCERT Questions',
+      '15 Minutes Speed Practice',
+      'Z-Scheme, Krebs Cycle, Kranz Anatomy',
+      'National AIR Predictor'
     ],
-    questions: get45(FINGERTIPS_BIO_CH11_MCQS),
-    enrolledStudentsCount: 149000,
-    avgScore: 136
+    questions: get45(FINGERTIPS_BIO_CH13_MCQS)
   },
   {
     id: 'test-sunday-05',
     title: 'Sunday Mock 05: Human Physiology Core Systems (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 5: Breathing & Gas Exchange, Body Fluids & ECG, Excretion & RAAS, Locomotion, Neural System & Endocrine Hormones',
+    syllabus: 'Unit 5: Breathing, Body Fluids & Circulation, Excretion & Nephron Counter-current',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
+    difficulty: 'Medium',
     scheduledDate: '2026-10-04',
+    cbtMode: true,
     features: [
-      '45 Clinical & Physiological Mechanism Questions',
-      'Counter-Current Multiplier, Sliding Filament, Action Potential & Cardiac Cycle',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      'Verified Step-by-Step Explanations'
+      '45 NCERT Questions',
+      '15 Minutes Speed Practice',
+      'Cardiac Cycle, ECG & RAAS Pathway',
+      'Instant CBT Scorecard'
     ],
-    questions: get45(FINGERTIPS_BIO_CH15_MCQS),
-    enrolledStudentsCount: 162000,
-    avgScore: 144
+    questions: get45(FINGERTIPS_BIO_CH17_MCQS)
   },
   {
     id: 'test-sunday-06',
-    title: 'Sunday Mock 06: Reproduction in Plants & Humans (45 Qs)',
+    title: 'Sunday Mock 06: Human Physiology Neural & Chemical Integration (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 6: Sexual Reproduction in Flowering Plants, Human Reproduction & Reproductive Health (Contraception & ART)',
+    syllabus: 'Unit 5 (Part 2): Locomotion, Sliding Filament, Neural Control, Eye/Ear & Endocrine System',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
-    cbtMode: true,
     scheduledDate: '2026-10-11',
+    cbtMode: true,
     features: [
-      '45 NCERT Questions on Double Fertilisation, Spermatogenesis & IUDs',
-      'Outbreeding devices, Menstrual Cycle phases & MTP/IVF protocols',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      '100% NCERT Verbatim Solutions'
+      '45 NCERT Questions',
+      '15 Minutes Speed Practice',
+      'Hormone Feedback & Synaptic Transmission',
+      'Detailed Step Solutions'
     ],
-    questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS),
-    enrolledStudentsCount: 156000,
-    avgScore: 151
+    questions: get45(FINGERTIPS_BIO_CH19_MCQS)
   },
   {
     id: 'test-sunday-07',
-    title: 'Sunday Mock 07: Genetics, Molecular Biology & Evolution (45 Qs)',
+    title: 'Sunday Mock 07: Genetics & Molecular Basis of Inheritance (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 7: Principles of Inheritance, Molecular Basis of Inheritance (DNA, Replication, Transcription, Lac Operon) & Evolution (Hardy-Weinberg)',
+    syllabus: 'Class 12 Unit 7: Mendelian Genetics, Linkage, DNA Replication, Transcription & Lac Operon',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    cbtMode: true,
     scheduledDate: '2026-10-18',
+    cbtMode: true,
     features: [
-      '45 High-Weightage Genetics & Molecular Biology Questions',
-      'Pedigree Charts, Griffith/Hershey-Chase Experiments & Human Evolution',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      'AIR & National Percentile Benchmark'
+      '45 Questions (180 Marks)',
+      '15 Minutes Speed CBT',
+      'High-Yield Genetics Problems',
+      'All India Rank Prediction'
     ],
-    questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS),
-    enrolledStudentsCount: 171000,
-    avgScore: 134
+    questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS)
   },
   {
     id: 'test-sunday-08',
-    title: 'Sunday Mock 08: Biotechnology & Human Welfare (45 Qs)',
+    title: 'Sunday Mock 08: Biotechnology Principles & Applications (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 8 & 9: Human Health & Disease, Microbes in Welfare, Biotech Principles (pBR322, PCR) & Biotech Applications (Bt Cotton, RNAi, Humulin)',
+    syllabus: 'Class 12 Unit 9: Restriction Enzymes, pBR322 Vectors, PCR, Bt Toxin & RNA Interference',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
-    cbtMode: true,
     scheduledDate: '2026-10-25',
+    cbtMode: true,
     features: [
-      '45 Questions on Immunity, Vaccines, Restriction Enzymes & Bioreactors',
-      'Malaria Cycle, Antibodies, Gene Therapy & Downstream Processing',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      'Detailed Official MTG Solutions'
+      '45 Questions (180 Marks)',
+      '15 Minutes Speed CBT',
+      'NCERT Line-by-Line Verified',
+      'Instant Diagnostic Report'
     ],
-    questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS),
-    enrolledStudentsCount: 147000,
-    avgScore: 146
+    questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS)
   },
   {
     id: 'test-sunday-09',
-    title: 'Sunday Mock 09: Ecology & Environmental Biology (45 Qs)',
+    title: 'Sunday Mock 09: Ecology & Environment Master Test (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 10: Organisms and Populations (Growth Models & Interactions), Ecosystem (Productivity & Pyramids) & Biodiversity and Conservation (Hotspots & Sanctuaries)',
+    syllabus: 'Class 12 Unit 10: Organisms & Populations, Ecosystem, Biodiversity & Environmental Issues',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
-    cbtMode: true,
     scheduledDate: '2026-11-01',
+    cbtMode: true,
     features: [
-      '45 NCERT Ecology Questions (dN/dt equations, 10% law, Evil Quartet)',
-      'Latitudinal gradients, In-situ vs Ex-situ & Sacred Groves',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      'Instant Weak Area Analytics'
+      '45 NCERT Questions',
+      '15 Minutes Speed CBT',
+      'Population Curves & Biomes',
+      'Detailed Answers'
     ],
-    questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS),
-    enrolledStudentsCount: 141000,
-    avgScore: 149
+    questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS)
   },
   {
     id: 'test-sunday-10',
-    title: 'Sunday Mock 10: NEET Full Syllabus Model Test 1 (45 Qs)',
+    title: 'Sunday Mock 10: Full Class 11 Biology Grand Test (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Full NCERT Biology Syllabus (Class 11 & Class 12 Combined) - Section A 45 Questions',
+    syllabus: 'Complete Class 11 NCERT Biology (Units 1 to 5 Comprehensive Balanced 45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    cbtMode: true,
     scheduledDate: '2026-11-08',
+    cbtMode: true,
     features: [
-      '45 Full Syllabus Questions with Balanced Botany & Zoology Distribution',
-      'A&R, Statement Based, Matching & Experimental Drills',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      '100% Verified MTG Official Answer Key'
+      '45 Grand Test Questions',
+      '15 Minutes Speed Practice',
+      'NTA NEET Standard Format',
+      'Weak Topic Diagnostic'
     ],
-    questions: get45(NEET_MODEL_TEST_PAPER_1, 0),
-    enrolledStudentsCount: 185000,
-    avgScore: 141
+    questions: get45(NEET_MODEL_TEST_PAPER_1, 0)
   },
   {
     id: 'test-sunday-11',
-    title: 'Sunday Mock 11: NEET Full Syllabus Model Test 2 (45 Qs)',
+    title: 'Sunday Mock 11: Full Class 12 Biology Grand Test (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Full NCERT Biology Syllabus (Class 11 & Class 12 Combined) - Section B 45 Questions',
+    syllabus: 'Complete Class 12 NCERT Biology (Units 6 to 10 Comprehensive Balanced 45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
-    cbtMode: true,
     scheduledDate: '2026-11-15',
+    cbtMode: true,
     features: [
-      '45 Full Syllabus Questions Covering Enzymes, Hormones, Genetics & Ecology',
-      'Photolysis, RAAS, Meiosis Stages & Recombinant DNA',
-      '15 Mins Speed CBT Duration & 180 Marks',
-      '100% Verified MTG Official Answer Key'
+      '45 Grand Test Questions',
+      '15 Minutes Speed Practice',
+      'NTA NEET Standard Format',
+      'Weak Topic Diagnostic'
     ],
-    questions: get45(NEET_MODEL_TEST_PAPER_2, 0),
-    enrolledStudentsCount: 179000,
-    avgScore: 138
+    questions: get45(NEET_MODEL_TEST_PAPER_2, 0)
+  },
+  {
+    id: 'test-sunday-12',
+    title: 'Sunday Mock 12: All India Full Syllabus Pre-NEET Mock (45 Qs)',
+    category: 'neet_mock',
+    exam: 'NEET',
+    syllabus: 'Complete Class 11 & Class 12 Master Mock (All 38 Chapters High-Yield Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    scheduledDate: '2026-11-22',
+    cbtMode: true,
+    features: [
+      '45 Master Mock Questions',
+      '15 Minutes Speed CBT',
+      'Final NEET Simulation',
+      'All India Percentile'
+    ],
+    questions: get45(ALL_FINGERTIPS_BIOLOGY_QUESTIONS, 100)
   },
 
   // ==========================================
-  // 2. CHAPTER-WISE MASTERY TESTS (45 QUESTIONS & 45 MINS EACH)
+  // 2. BIOLOGY ALL 38 CHAPTER-WISE TESTS (45 Qs & 15 MINS EACH)
   // ==========================================
   {
-    id: 'test-ft-bio-ch01-mcqs-45',
-    title: 'Chapter 01: The Living World (45 Qs)',
+    id: 'test-bio-ch01',
+    title: 'Biology Chapter 01: The Living World (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 01: What is Living, Diversity, Binomial Nomenclature, Taxonomic Hierarchy & Aids',
+    syllabus: 'Biology Chapter 01: The Living World (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH01_MCQS),
-    enrolledStudentsCount: 88000,
-    avgScore: 154
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH01_MCQS)
   },
   {
-    id: 'test-ft-bio-ch02-mcqs-45',
-    title: 'Chapter 02: Biological Classification (45 Qs)',
+    id: 'test-bio-ch02',
+    title: 'Biology Chapter 02: Biological Classification (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 02: Monera, Protista, Fungi, Viruses, Viroids & Lichens',
+    syllabus: 'Biology Chapter 02: Biological Classification (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH02_MCQS),
-    enrolledStudentsCount: 85000,
-    avgScore: 147
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH02_MCQS)
   },
   {
-    id: 'test-ft-bio-ch03-mcqs-45',
-    title: 'Chapter 03: Plant Kingdom (45 Qs)',
+    id: 'test-bio-ch03',
+    title: 'Biology Chapter 03: Plant Kingdom (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 03: Algae (Chlorophyceae, Phaeophyceae, Rhodophyceae), Bryophytes, Pteridophytes & Gymnosperms',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH03_MCQS),
-    enrolledStudentsCount: 82000,
-    avgScore: 140
-  },
-  {
-    id: 'test-ft-bio-ch04-mcqs-45',
-    title: 'Chapter 04: Animal Kingdom (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 04: Non-Chordates (Porifera to Hemichordata) & Chordates (Cyclostomata to Mammalia)',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH04_MCQS),
-    enrolledStudentsCount: 91000,
-    avgScore: 138
-  },
-  {
-    id: 'test-ft-bio-ch05-mcqs-45',
-    title: 'Chapter 05: Morphology of Flowering Plants (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 05: Root, Stem, Leaf Modifications, Inflorescence, Flower Anatomy, Fruit & Families',
+    syllabus: 'Biology Chapter 03: Plant Kingdom (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH05_MCQS),
-    enrolledStudentsCount: 84000,
-    avgScore: 144
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH03_MCQS)
   },
   {
-    id: 'test-ft-bio-ch06-mcqs-45',
-    title: 'Chapter 06: Anatomy of Flowering Plants (45 Qs)',
+    id: 'test-bio-ch04',
+    title: 'Biology Chapter 04: Animal Kingdom (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 06: Meristematic & Permanent Tissues, Vascular Bundles, Dicot/Monocot Anatomy & Secondary Growth',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH06_MCQS),
-    enrolledStudentsCount: 79000,
-    avgScore: 139
-  },
-  {
-    id: 'test-ft-bio-ch07-mcqs-45',
-    title: 'Chapter 07: Structural Organisation in Animals (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 07: Epithelial, Connective, Muscular & Neural Tissues, Cockroach Morphology & Frog Anatomy',
+    syllabus: 'Biology Chapter 04: Animal Kingdom (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH07_MCQS),
-    enrolledStudentsCount: 81000,
-    avgScore: 145
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH04_MCQS)
   },
   {
-    id: 'test-ft-bio-ch08-mcqs-45',
-    title: 'Chapter 08: Cell: The Unit of Life (45 Qs)',
+    id: 'test-bio-ch05',
+    title: 'Biology Chapter 05: Morphology of Flowering Plants (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 08: Prokaryotic & Eukaryotic Cells, Endomembrane System, Mitochondria, Plastids & Nucleus',
+    syllabus: 'Biology Chapter 05: Morphology of Flowering Plants (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH08_MCQS),
-    enrolledStudentsCount: 96000,
-    avgScore: 152
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH05_MCQS)
   },
   {
-    id: 'test-ft-bio-ch09-mcqs-45',
-    title: 'Chapter 09: Biomolecules (45 Qs)',
+    id: 'test-bio-ch06',
+    title: 'Biology Chapter 06: Anatomy of Flowering Plants (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 09: Amino acids, Proteins, Lipids, Nucleic Acids, Cellular Pool & Enzyme Action/Kinetics',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH09_MCQS),
-    enrolledStudentsCount: 87000,
-    avgScore: 141
-  },
-  {
-    id: 'test-ft-bio-ch10-mcqs-45',
-    title: 'Chapter 10: Cell Cycle & Division (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 10: Interphase (G1, S, G2), Mitosis & Meiosis I/II with Sub-phases',
+    syllabus: 'Biology Chapter 06: Anatomy of Flowering Plants (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH10_MCQS),
-    enrolledStudentsCount: 89000,
-    avgScore: 148
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH06_MCQS)
   },
   {
-    id: 'test-ft-bio-ch11-mcqs-45',
-    title: 'Chapter 11: Photosynthesis in Higher Plants (45 Qs)',
+    id: 'test-bio-ch07',
+    title: 'Biology Chapter 07: Structural Organisation in Animals (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 11: Light Reaction, Z-Scheme, Calvin Cycle (C3), Hatch & Slack (C4) & Factors',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH11_MCQS),
-    enrolledStudentsCount: 92000,
-    avgScore: 137
-  },
-  {
-    id: 'test-ft-bio-ch12-mcqs-45',
-    title: 'Chapter 12: Respiration in Plants (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 12: Glycolysis, Link Reaction, Krebs Cycle, ETS, ATP Yield & RQ Values',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH12_MCQS),
-    enrolledStudentsCount: 86000,
-    avgScore: 139
-  },
-  {
-    id: 'test-ft-bio-ch13-mcqs-45',
-    title: 'Chapter 13: Plant Growth & Development (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 13: Growth Kinetics, Plasticity & PGRs (Auxin, GA, Cytokinin, Ethylene, ABA)',
+    syllabus: 'Biology Chapter 07: Structural Organisation in Animals (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH13_MCQS),
-    enrolledStudentsCount: 81000,
-    avgScore: 147
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH07_MCQS)
   },
   {
-    id: 'test-ft-bio-ch14-mcqs-45',
-    title: 'Chapter 14: Breathing & Exchange of Gases (45 Qs)',
+    id: 'test-bio-ch08',
+    title: 'Biology Chapter 08: Cell: The Unit of Life (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 14: Respiratory Volumes, Gas Transport, Regulation & Disorders (Asthma, Emphysema)',
+    syllabus: 'Biology Chapter 08: Cell: The Unit of Life (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH14_MCQS),
-    enrolledStudentsCount: 88000,
-    avgScore: 153
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH08_MCQS)
   },
   {
-    id: 'test-ft-bio-ch15-mcqs-45',
-    title: 'Chapter 15: Body Fluids & Circulation (45 Qs)',
+    id: 'test-bio-ch09',
+    title: 'Biology Chapter 09: Biomolecules (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 15: Blood Elements, Coagulation, Cardiac Cycle, ECG Waves & Double Circulation',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH15_MCQS),
-    enrolledStudentsCount: 94000,
-    avgScore: 142
-  },
-  {
-    id: 'test-ft-bio-ch16-mcqs-45',
-    title: 'Chapter 16: Excretory Products & Elimination (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 16: Nephron, Urine Formation, Counter-Current Mechanism, RAAS Regulation & Disorders',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH16_MCQS),
-    enrolledStudentsCount: 86000,
-    avgScore: 143
-  },
-  {
-    id: 'test-ft-bio-ch17-mcqs-45',
-    title: 'Chapter 17: Locomotion & Movement (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 17: Sarcomere, Sliding Filament Theory, Human Skeleton (206 bones), Joints & Disorders',
+    syllabus: 'Biology Chapter 09: Biomolecules (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH17_MCQS),
-    enrolledStudentsCount: 84000,
-    avgScore: 149
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH09_MCQS)
   },
   {
-    id: 'test-ft-bio-ch18-mcqs-45',
-    title: 'Chapter 18: Neural Control & Coordination (45 Qs)',
+    id: 'test-bio-ch10',
+    title: 'Biology Chapter 10: Cell Cycle and Cell Division (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 11 Chapter 18: Neuron Structure, Action Potential, Synaptic Transmission & Human Brain Regions',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH18_MCQS),
-    enrolledStudentsCount: 82000,
-    avgScore: 141
-  },
-  {
-    id: 'test-ft-bio-ch19-mcqs-45',
-    title: 'Chapter 19: Chemical Coordination & Integration (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 11 Chapter 19: Endocrine Glands (Pituitary, Thyroid, Adrenal, Pancreas), Hormones & Mechanism of Action',
+    syllabus: 'Biology Chapter 10: Cell Cycle and Cell Division (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_CH19_MCQS),
-    enrolledStudentsCount: 87000,
-    avgScore: 148
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH10_MCQS)
   },
-
-  // CLASS 12 CHAPTER TESTS (45 Qs EACH)
   {
-    id: 'test-ft-bio-c12-ch01-mcqs-45',
-    title: 'Class 12 Ch 01: Sexual Reproduction in Flowering Plants (45 Qs)',
+    id: 'test-bio-ch11',
+    title: 'Biology Chapter 11: Transport in Plants (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 01: Microsporogenesis, Megasporogenesis, Pollination, Outbreeding Devices, Double Fertilisation & Apomixis',
+    syllabus: 'Biology Chapter 11: Transport in Plants (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS),
-    enrolledStudentsCount: 97000,
-    avgScore: 153
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH11_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch02-mcqs-45',
-    title: 'Class 12 Ch 02: Human Reproduction (45 Qs)',
+    id: 'test-bio-ch12',
+    title: 'Biology Chapter 12: Mineral Nutrition (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 02: Spermatogenesis, Oogenesis, Menstrual Cycle, Fertilisation, Implantation & Parturition',
+    syllabus: 'Biology Chapter 12: Mineral Nutrition (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH02_MCQS),
-    enrolledStudentsCount: 104000,
-    avgScore: 155
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH12_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch03-mcqs-45',
-    title: 'Class 12 Ch 03: Reproductive Health (45 Qs)',
+    id: 'test-bio-ch13',
+    title: 'Biology Chapter 13: Photosynthesis in Higher Plants (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 03: Contraceptive Methods, IUDs, MTP Act, STIs & Assisted Reproductive Technologies (ART)',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH03_MCQS),
-    enrolledStudentsCount: 91000,
-    avgScore: 161
-  },
-  {
-    id: 'test-ft-bio-c12-ch04-mcqs-45',
-    title: 'Class 12 Ch 04: Principles of Inheritance & Variation (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 12 Chapter 04: Mendelian Genetics, Linkage, Recombination, Sex Determination & Genetic Disorders (Pedigree, Aneuploidy)',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH04_MCQS),
-    enrolledStudentsCount: 99000,
-    avgScore: 136
-  },
-  {
-    id: 'test-ft-bio-c12-ch05-mcqs-45',
-    title: 'Class 12 Ch 05: Molecular Basis of Inheritance (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 12 Chapter 05: DNA Structure, Nucleosomes, Replication, Transcription, Genetic Code, Translation, Lac Operon & DNA Fingerprinting',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS),
-    enrolledStudentsCount: 108000,
-    avgScore: 137
-  },
-  {
-    id: 'test-ft-bio-c12-ch06-mcqs-45',
-    title: 'Class 12 Ch 06: Evolution (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 12 Chapter 06: Origin of Life, Evidences (Homology/Analogy), Adaptive Radiation, Hardy-Weinberg & Human Evolution',
+    syllabus: 'Biology Chapter 13: Photosynthesis in Higher Plants (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH06_MCQS),
-    enrolledStudentsCount: 88000,
-    avgScore: 147
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH13_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch07-mcqs-45',
-    title: 'Class 12 Ch 07: Human Health & Disease (45 Qs)',
+    id: 'test-bio-ch14',
+    title: 'Biology Chapter 14: Respiration in Plants (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 07: Pathogens (Malaria, Typhoid), Innate/Acquired Immunity, Antibodies, AIDS, Cancer & Drug Abuse',
+    syllabus: 'Biology Chapter 14: Respiration in Plants (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH07_MCQS),
-    enrolledStudentsCount: 93000,
-    avgScore: 152
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH14_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch08-mcqs-45',
-    title: 'Class 12 Ch 08: Microbes in Human Welfare (45 Qs)',
+    id: 'test-bio-ch15',
+    title: 'Biology Chapter 15: Plant Growth and Development (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 08: Household Products, Industrial Fermentation, Sewage Treatment (BOD/Flocs), Biogas & Biocontrol',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH08_MCQS),
-    enrolledStudentsCount: 84000,
-    avgScore: 159
-  },
-  {
-    id: 'test-ft-bio-c12-ch09-mcqs-45',
-    title: 'Class 12 Ch 09: Biotechnology: Principles & Processes (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 12 Chapter 09: Restriction Endonucleases, Agarose Gel Electrophoresis, pBR322 Cloning Vector, PCR & Bioreactors',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS),
-    enrolledStudentsCount: 95000,
-    avgScore: 142
-  },
-  {
-    id: 'test-ft-bio-c12-ch10-mcqs-45',
-    title: 'Class 12 Ch 10: Biotechnology & its Applications (45 Qs)',
-    category: 'minor',
-    exam: 'NEET',
-    syllabus: 'Class 12 Chapter 10: Bt Cotton, RNA Interference (dsRNA), Humulin Recombinant Insulin, ADA Gene Therapy & Transgenics',
+    syllabus: 'Biology Chapter 15: Plant Growth and Development (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH10_MCQS),
-    enrolledStudentsCount: 89000,
-    avgScore: 148
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH15_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch11-mcqs-45',
-    title: 'Class 12 Ch 11: Organisms & Populations (45 Qs)',
+    id: 'test-bio-ch16',
+    title: 'Biology Chapter 16: Digestion and Absorption (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 11: Adaptations, Population Growth Models (dN/dt equations) & Interspecific Interactions (Mutualism, Competition)',
+    syllabus: 'Biology Chapter 16: Digestion and Absorption (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS),
-    enrolledStudentsCount: 87000,
-    avgScore: 151
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH16_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch12-mcqs-45',
-    title: 'Class 12 Ch 12: Ecosystem (45 Qs)',
+    id: 'test-bio-ch17',
+    title: 'Biology Chapter 17: Breathing and Exchange of Gases (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 12: Stratification, Productivity (GPP/NPP), Decomposition Steps, PAR Energy Flow & Eltonian Pyramids',
+    syllabus: 'Biology Chapter 17: Breathing and Exchange of Gases (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH12_MCQS),
-    enrolledStudentsCount: 83000,
-    avgScore: 154
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH17_MCQS)
   },
   {
-    id: 'test-ft-bio-c12-ch13-mcqs-45',
-    title: 'Class 12 Ch 13: Biodiversity & Conservation (45 Qs)',
+    id: 'test-bio-ch18',
+    title: 'Biology Chapter 18: Body Fluids and Circulation (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Class 12 Chapter 13: Latitudinal Gradients, Species-Area Curve, Evil Quartet, 34 Hotspots, In-situ/Ex-situ & Sacred Groves',
+    syllabus: 'Biology Chapter 18: Body Fluids and Circulation (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 NCERT Questions', '45 Mins Allotted Time', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(FINGERTIPS_BIO_C12_CH13_MCQS),
-    enrolledStudentsCount: 92000,
-    avgScore: 158
-  },
-
-  // ==========================================
-  // 3. CHEMISTRY CHAPTER TESTS (45 QUESTIONS & 45 MINS)
-  // ==========================================
-  {
-    id: 'test-chem-mock-1',
-    title: 'Chemistry Full Mock 1: Physical, Inorganic & Organic (45 Qs)',
-    category: 'major',
-    exam: 'NEET',
-    syllabus: 'Full NEET Chemistry: Mole Concept, Thermodynamics, Equilibrium, Coordination, GOC, Hydrocarbons & Carbonyls',
-    totalQuestions: 45,
-    durationMinutes: 15,
-    totalMarks: 180,
-    negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
-    cbtMode: true,
-    features: ['45 Questions (180 Marks)', '45 Mins Duration', 'NTA Pattern', 'Detailed Solutions'],
-    questions: get45(CHEMISTRY_MOCK_TEST_1_QUESTIONS),
-    enrolledStudentsCount: 112000,
-    avgScore: 132
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH18_MCQS)
   },
   {
-    id: 'test-chem-mock-2',
-    title: 'Chemistry Full Mock 2: High Yield Score Booster (45 Qs)',
-    category: 'major',
+    id: 'test-bio-ch19',
+    title: 'Biology Chapter 19: Excretory Products and their Elimination (45 Qs)',
+    category: 'minor',
     exam: 'NEET',
-    syllabus: 'Full NEET Chemistry: Electrochemistry, Kinetics, d/f-Block, Alcohols, Phenols, Ethers & Amines',
+    syllabus: 'Biology Chapter 19: Excretory Products and their Elimination (45 Standard NCERT Questions)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
+    difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 Questions (180 Marks)', '45 Mins Duration', 'NTA Pattern', 'Detailed Solutions'],
-    questions: get45(CHEMISTRY_MOCK_TEST_2_QUESTIONS),
-    enrolledStudentsCount: 108000,
-    avgScore: 129
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH19_MCQS)
+  },
+  {
+    id: 'test-bio-ch20',
+    title: 'Biology Chapter 20: Locomotion and Movement (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 20: Locomotion and Movement (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH18_EXAM_SCORER)
+  },
+  {
+    id: 'test-bio-ch21',
+    title: 'Biology Chapter 21: Neural Control and Coordination (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 21: Neural Control and Coordination (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH19_EXAM_SCORER)
+  },
+  {
+    id: 'test-bio-ch22',
+    title: 'Biology Chapter 22: Chemical Coordination and Integration (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 22: Chemical Coordination and Integration (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_CH17_EXAM_SCORER)
+  },
+  {
+    id: 'test-bio-ch23',
+    title: 'Biology Chapter 23: Reproduction in Organisms (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 23: Reproduction in Organisms (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS)
+  },
+  {
+    id: 'test-bio-ch24',
+    title: 'Biology Chapter 24: Sexual Reproduction in Flowering Plants (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 24: Sexual Reproduction in Flowering Plants (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH02_MCQS)
+  },
+  {
+    id: 'test-bio-ch25',
+    title: 'Biology Chapter 25: Human Reproduction (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 25: Human Reproduction (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH03_MCQS)
+  },
+  {
+    id: 'test-bio-ch26',
+    title: 'Biology Chapter 26: Reproductive Health (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 26: Reproductive Health (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH04_MCQS)
+  },
+  {
+    id: 'test-bio-ch27',
+    title: 'Biology Chapter 27: Principles of Inheritance and Variation (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 27: Principles of Inheritance and Variation (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS)
+  },
+  {
+    id: 'test-bio-ch28',
+    title: 'Biology Chapter 28: Molecular Basis of Inheritance (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 28: Molecular Basis of Inheritance (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH06_MCQS)
+  },
+  {
+    id: 'test-bio-ch29',
+    title: 'Biology Chapter 29: Evolution (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 29: Evolution (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH07_MCQS)
+  },
+  {
+    id: 'test-bio-ch30',
+    title: 'Biology Chapter 30: Human Health and Disease (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 30: Human Health and Disease (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH08_MCQS)
+  },
+  {
+    id: 'test-bio-ch31',
+    title: 'Biology Chapter 31: Strategies for Enhancement in Food Production (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 31: Strategies for Enhancement in Food Production (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS)
+  },
+  {
+    id: 'test-bio-ch32',
+    title: 'Biology Chapter 32: Microbes in Human Welfare (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 32: Microbes in Human Welfare (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH10_MCQS)
+  },
+  {
+    id: 'test-bio-ch33',
+    title: 'Biology Chapter 33: Biotechnology: Principles and Processes (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 33: Biotechnology: Principles and Processes (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS)
+  },
+  {
+    id: 'test-bio-ch34',
+    title: 'Biology Chapter 34: Biotechnology and its Applications (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 34: Biotechnology and its Applications (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH12_MCQS)
+  },
+  {
+    id: 'test-bio-ch35',
+    title: 'Biology Chapter 35: Organisms and Populations (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 35: Organisms and Populations (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH13_MCQS)
+  },
+  {
+    id: 'test-bio-ch36',
+    title: 'Biology Chapter 36: Ecosystem (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 36: Ecosystem (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH11_EXAM_SCORER)
+  },
+  {
+    id: 'test-bio-ch37',
+    title: 'Biology Chapter 37: Biodiversity and Conservation (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 37: Biodiversity and Conservation (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH12_EXAM_SCORER)
+  },
+  {
+    id: 'test-bio-ch38',
+    title: 'Biology Chapter 38: Environmental Issues (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Biology Chapter 38: Environmental Issues (45 Standard NCERT Questions)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(FINGERTIPS_BIO_C12_CH13_EXAM_SCORER)
   },
 
   // ==========================================
-  // 4. PHYSICS CHAPTER TESTS (45 QUESTIONS & 45 MINS)
+  // 3. CHEMISTRY ALL 30 CHAPTER-WISE TESTS (45 Qs & 15 MINS EACH)
   // ==========================================
   {
-    id: 'test-phy-mechanics',
-    title: 'Physics Mastery: Mechanics & Vectors (45 Qs)',
-    category: 'part',
+    id: 'test-chem-ch01',
+    title: 'Chemistry Chapter 01: Some Basic Concepts of Chemistry (45 Qs)',
+    category: 'minor',
     exam: 'NEET',
-    syllabus: 'Units & Dimensions, Vectors, Motion in 1D/2D, Laws of Motion & Gravitation',
+    syllabus: 'Chemistry Chapter 01: Some Basic Concepts of Chemistry (Physical, Inorganic & Organic 45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
+    difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 Numerical & Concept Questions', '45 Mins Duration', 'Step-by-step Formulas', 'Instant Analysis'],
-    questions: get45([...VECTORS_BOOK_QUESTIONS, ...UNITS_BOOK_QUESTIONS, ...MOTION_BOOK_QUESTIONS, ...GRAVITATION_BOOK_QUESTIONS]),
-    enrolledStudentsCount: 121000,
-    avgScore: 124
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS)
   },
   {
-    id: 'test-phy-electrodynamics',
-    title: 'Physics Mastery: Electrodynamics & Magnetism (45 Qs)',
-    category: 'part',
+    id: 'test-chem-ch02',
+    title: 'Chemistry Chapter 02: Structure of Atom (45 Qs)',
+    category: 'minor',
     exam: 'NEET',
-    syllabus: 'Electrostatics, Gauss Law, Capacitance, Current Electricity, Magnetism & Biot-Savart Law',
+    syllabus: 'Chemistry Chapter 02: Structure of Atom (Physical, Inorganic & Organic 45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Hard',
+    difficulty: 'Medium',
     cbtMode: true,
-    features: ['45 High-Yield Physics Questions', '45 Mins Duration', 'Standard NEET Numerical Level', 'Detailed Explanations'],
-    questions: get45([...ELECTROSTATICS_BOOK_QUESTIONS, ...MAGNETISM_BOOK_QUESTIONS, ...PHYSICS_THERMO_QUESTIONS]),
-    enrolledStudentsCount: 118000,
-    avgScore: 121
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(STRUCTURE_OF_ATOM_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch03',
+    title: 'Chemistry Chapter 03: Classification of Elements & Periodicity (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 03: Classification of Elements & Periodicity (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch04',
+    title: 'Chemistry Chapter 04: Chemical Bonding and Molecular Structure (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 04: Chemical Bonding and Molecular Structure (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch05',
+    title: 'Chemistry Chapter 05: States of Matter: Gases & Liquids (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 05: States of Matter: Gases & Liquids (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(STATES_OF_MATTER_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch06',
+    title: 'Chemistry Chapter 06: Chemical Thermodynamics (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 06: Chemical Thermodynamics (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(THERMODYNAMICS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch07',
+    title: 'Chemistry Chapter 07: Chemical & Ionic Equilibrium (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 07: Chemical & Ionic Equilibrium (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(EQUILIBRIUM_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch08',
+    title: 'Chemistry Chapter 08: Redox Reactions (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 08: Redox Reactions (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(REDOX_REACTIONS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch09',
+    title: 'Chemistry Chapter 09: Hydrogen & Its Compounds (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 09: Hydrogen & Its Compounds (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(HYDROGEN_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch10',
+    title: 'Chemistry Chapter 10: The s-Block Elements (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 10: The s-Block Elements (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(THE_S_BLOCK_ELEMENTS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch11',
+    title: 'Chemistry Chapter 11: The p-Block Elements (Groups 13 & 14) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 11: The p-Block Elements (Groups 13 & 14) (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch12',
+    title: 'Chemistry Chapter 12: Organic Chemistry: Basic Principles & Techniques (GOC) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 12: Organic Chemistry: Basic Principles & Techniques (GOC) (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch13',
+    title: 'Chemistry Chapter 13: Hydrocarbons (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 13: Hydrocarbons (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(HYDROCARBONS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch14',
+    title: 'Chemistry Chapter 14: Environmental Chemistry (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 14: Environmental Chemistry (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ENVIRONMENTAL_CHEMISTRY_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch15',
+    title: 'Chemistry Chapter 15: The Solid State (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 15: The Solid State (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(THE_SOLID_STATE_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch16',
+    title: 'Chemistry Chapter 16: Solutions & Colligative Properties (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 16: Solutions & Colligative Properties (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(SOLUTIONS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch17',
+    title: 'Chemistry Chapter 17: Electrochemistry (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 17: Electrochemistry (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ELECTROCHEMISTRY_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch18',
+    title: 'Chemistry Chapter 18: Chemical Kinetics (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 18: Chemical Kinetics (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(CHEMICAL_KINETICS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch19',
+    title: 'Chemistry Chapter 19: Surface Chemistry (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 19: Surface Chemistry (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(SURFACE_CHEMISTRY_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch20',
+    title: 'Chemistry Chapter 20: General Principles of Isolation of Elements (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 20: General Principles of Isolation of Elements (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch21',
+    title: 'Chemistry Chapter 21: The p-Block Elements (Groups 15 to 18) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 21: The p-Block Elements (Groups 15 to 18) (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch22',
+    title: 'Chemistry Chapter 22: The d- and f-Block Elements (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 22: The d- and f-Block Elements (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch23',
+    title: 'Chemistry Chapter 23: Coordination Compounds (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 23: Coordination Compounds (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(COORDINATION_COMPOUNDS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch24',
+    title: 'Chemistry Chapter 24: Haloalkanes and Haloarenes (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 24: Haloalkanes and Haloarenes (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(HALOALKANES_AND_HALOARENES_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch25',
+    title: 'Chemistry Chapter 25: Alcohols, Phenols and Ethers (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 25: Alcohols, Phenols and Ethers (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch26',
+    title: 'Chemistry Chapter 26: Aldehydes, Ketones and Carboxylic Acids (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 26: Aldehydes, Ketones and Carboxylic Acids (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch27',
+    title: 'Chemistry Chapter 27: Amines and Organic Nitrogen Compounds (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 27: Amines and Organic Nitrogen Compounds (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(AMINES_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch28',
+    title: 'Chemistry Chapter 28: Biomolecules (Chemistry) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 28: Biomolecules (Chemistry) (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(BIOMOLECULES_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch29',
+    title: 'Chemistry Chapter 29: Polymers (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 29: Polymers (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(POLYMERS_QUESTIONS)
+  },
+  {
+    id: 'test-chem-ch30',
+    title: 'Chemistry Chapter 30: Chemistry in Everyday Life (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Chemistry Chapter 30: Chemistry in Everyday Life (Physical, Inorganic & Organic 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS)
+  },
+
+  // ==========================================
+  // 4. PHYSICS ALL 29 CHAPTER-WISE TESTS (45 Qs & 15 MINS EACH)
+  // ==========================================
+  {
+    id: 'test-phy-ch01',
+    title: 'Physics Chapter 01: Physical World & Units and Measurements (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 01: Physical World & Units and Measurements (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(UNITS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch02',
+    title: 'Physics Chapter 02: Vectors & Basic Mathematical Tools (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 02: Vectors & Basic Mathematical Tools (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(VECTORS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch03',
+    title: 'Physics Chapter 03: Motion in a Straight Line (1D Kinematics) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 03: Motion in a Straight Line (1D Kinematics) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MOTION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch04',
+    title: 'Physics Chapter 04: Motion in a Plane (2D & Projectile Motion) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 04: Motion in a Plane (2D & Projectile Motion) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MOTION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch05',
+    title: 'Physics Chapter 05: Laws of Motion & Friction (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 05: Laws of Motion & Friction (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MOTION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch06',
+    title: 'Physics Chapter 06: Work, Energy, and Power (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 06: Work, Energy, and Power (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MOTION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch07',
+    title: 'Physics Chapter 07: System of Particles & Rotational Motion (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 07: System of Particles & Rotational Motion (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MOTION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch08',
+    title: 'Physics Chapter 08: Gravitation (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 08: Gravitation (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch09',
+    title: 'Physics Chapter 09: Mechanical Properties of Solids (Elasticity) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 09: Mechanical Properties of Solids (Elasticity) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch10',
+    title: 'Physics Chapter 10: Mechanical Properties of Fluids (Viscosity & Surface Tension) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 10: Mechanical Properties of Fluids (Viscosity & Surface Tension) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch11',
+    title: 'Physics Chapter 11: Thermal Properties of Matter & Calorimetry (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 11: Thermal Properties of Matter & Calorimetry (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(PHYSICS_THERMO_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch12',
+    title: 'Physics Chapter 12: Thermodynamics (Physics) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 12: Thermodynamics (Physics) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(PHYSICS_THERMO_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch13',
+    title: 'Physics Chapter 13: Kinetic Theory of Gases (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 13: Kinetic Theory of Gases (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(PHYSICS_THERMO_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch14',
+    title: 'Physics Chapter 14: Oscillations (Simple Harmonic Motion) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 14: Oscillations (Simple Harmonic Motion) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(VECTORS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch15',
+    title: 'Physics Chapter 15: Waves and Acoustics (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 15: Waves and Acoustics (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(UNITS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch16',
+    title: 'Physics Chapter 16: Electrostatics: Electric Charges and Fields (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 16: Electrostatics: Electric Charges and Fields (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch17',
+    title: 'Physics Chapter 17: Electrostatic Potential and Capacitance (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 17: Electrostatic Potential and Capacitance (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch18',
+    title: 'Physics Chapter 18: Current Electricity & DC Circuits (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 18: Current Electricity & DC Circuits (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch19',
+    title: 'Physics Chapter 19: Moving Charges and Magnetism (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 19: Moving Charges and Magnetism (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch20',
+    title: 'Physics Chapter 20: Magnetism and Matter (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 20: Magnetism and Matter (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch21',
+    title: 'Physics Chapter 21: Electromagnetic Induction (EMI) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 21: Electromagnetic Induction (EMI) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch22',
+    title: 'Physics Chapter 22: Alternating Current (AC) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 22: Alternating Current (AC) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch23',
+    title: 'Physics Chapter 23: Electromagnetic Waves (EM Waves) (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 23: Electromagnetic Waves (EM Waves) (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch24',
+    title: 'Physics Chapter 24: Ray Optics and Optical Instruments (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 24: Ray Optics and Optical Instruments (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(UNITS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch25',
+    title: 'Physics Chapter 25: Wave Optics & Interference (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 25: Wave Optics & Interference (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(VECTORS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch26',
+    title: 'Physics Chapter 26: Dual Nature of Radiation and Matter (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 26: Dual Nature of Radiation and Matter (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch27',
+    title: 'Physics Chapter 27: Atoms & Bohr Model (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 27: Atoms & Bohr Model (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(UNITS_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch28',
+    title: 'Physics Chapter 28: Nuclei & Radioactivity (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 28: Nuclei & Radioactivity (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+  },
+  {
+    id: 'test-phy-ch29',
+    title: 'Physics Chapter 29: Semiconductor Electronics & Logic Gates (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 29: Semiconductor Electronics & Logic Gates (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(MAGNETISM_BOOK_QUESTIONS)
   }
 ];
 
-// ==========================================
-// EXPANSIVE, HIGH-YIELD FLASHCARDS DATABASE (30+ RICH CARDS)
 // ==========================================
 export const FLASHCARDS_DATA: Flashcard[] = [
   // ==========================================
@@ -1158,6 +1996,23 @@ export const FLASHCARDS_DATA: Flashcard[] = [
   {
     id: 'fc-chem-2',
     subject: 'Chemistry',
+    category: 'Diagrams',
+    subCategory: 'Inorganic / Chemical Bonding',
+    topic: 'Chemical Bonding - sp3 Hybridization & VSEPR',
+    frontTitle: 'Methane (CH4) Tetrahedral Geometry & 109.5° Angle',
+    frontContent: 'Describe orbital overlap, bond angle, and geometry of sp3 hybridized central atoms.',
+    diagramSvg: `<svg viewBox="0 0 300 170" class="w-full h-38 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="170" rx="8" fill="#F8FAFC"/><circle cx="150" cy="85" r="14" fill="#3B82F6" stroke="#1D4ED8" stroke-width="2"/><text x="144" y="89" font-size="10" fill="#FFFFFF" font-weight="bold">C</text><line x1="150" y1="71" x2="150" y2="25" stroke="#1D4ED8" stroke-width="3"/><circle cx="150" cy="22" r="8" fill="#EF4444"/><line x1="138" y1="92" x2="90" y2="135" stroke="#1D4ED8" stroke-width="3"/><circle cx="86" cy="138" r="8" fill="#EF4444"/><line x1="162" y1="92" x2="210" y2="135" stroke="#1D4ED8" stroke-width="3"/><circle cx="214" cy="138" r="8" fill="#EF4444"/><line x1="150" y1="99" x2="150" y2="145" stroke="#1D4ED8" stroke-width="4" stroke-dasharray="3,2"/><circle cx="150" cy="148" r="8" fill="#EF4444"/><text x="150" y="165" text-anchor="middle" font-size="9" fill="#1E3A8A" font-weight="bold">sp³ Tetrahedral Geometry (109.5° Bond Angle, CH4)</text></svg>`,
+    backExplanation: '• 1 s orbital mixes with 3 p orbitals to form 4 equivalent sp3 hybrid orbitals oriented tetrahedrally at 109.5°.\n• In NH3 (1 lone pair): Bond angle compresses to 107° (Pyramidal).\n• In H2O (2 lone pairs): Bond angle compresses to 104.5° (Bent / V-shaped).',
+    backKeyPoints: [
+      'VSEPR Repulsion order: Lone Pair - Lone Pair > Lone Pair - Bond Pair > Bond Pair - Bond Pair',
+      'CH4 has zero dipole moment due to symmetric tetrahedral cancellation'
+    ],
+    mnemonic: 'sp3 = 4 domains = 109.5° Tetrahedral!',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-chem-3',
+    subject: 'Chemistry',
     category: 'Formulas',
     subCategory: 'Physical / Equilibrium',
     topic: 'Ionic Equilibrium - Buffer Solutions',
@@ -1173,7 +2028,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     difficulty: 'Medium'
   },
   {
-    id: 'fc-chem-3',
+    id: 'fc-chem-4',
     subject: 'Chemistry',
     category: 'Reactions',
     subCategory: 'Organic / Aldehydes & Ketones',
@@ -1186,23 +2041,6 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Benzaldehyde gives Benzyl Alcohol + Sodium Benzoate in Cannizzaro'
     ],
     mnemonic: 'Alpha-H = Aldol! Zero Alpha-H = Cannizzaro!',
-    difficulty: 'Medium'
-  },
-  {
-    id: 'fc-chem-4',
-    subject: 'Chemistry',
-    category: 'Concepts',
-    subCategory: 'Inorganic / d & f Block',
-    topic: 'Lanthanoid Contraction & Chemical Twins',
-    frontTitle: 'Poor 4f Shielding & Zr/Hf Similarity',
-    frontContent: 'Explain the cause of Lanthanoid Contraction and why Zr (4d) and Hf (5d) have nearly identical radii.',
-    backExplanation: 'Due to imperfect shielding of one 4f electron by another in the intervening 14 elements (La to Lu), effective nuclear charge increases steadily, pulling the 5d electrons inward and canceling the expected shell growth.',
-    backKeyPoints: [
-      'Zr (160 pm) and Hf (159 pm) are chemical twins',
-      'Causes extremely high densities in 5d transition elements (Osmium, Iridium ~22.6 g/cm3)',
-      'Basic strength of lanthanoid hydroxides decreases: La(OH)3 > Lu(OH)3'
-    ],
-    mnemonic: 'Poor 4f shielding pulls 5d shell tight!',
     difficulty: 'Medium'
   },
 
@@ -1248,6 +2086,24 @@ export const FLASHCARDS_DATA: Flashcard[] = [
   {
     id: 'fc-phy-3',
     subject: 'Physics',
+    category: 'Diagrams',
+    subCategory: 'Electrodynamics / Current Electricity',
+    topic: 'Current Electricity - Balanced Wheatstone Bridge',
+    frontTitle: 'Wheatstone Bridge Null Deflection Condition',
+    frontContent: 'What is the condition for null deflection in galvanometer and how to find unknown resistance S?',
+    diagramSvg: `<svg viewBox="0 0 300 180" class="w-full h-40 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="180" rx="8" fill="#F8FAFC"/><polygon points="150,30 230,90 150,150 70,90" fill="none" stroke="#2563EB" stroke-width="2.5"/><circle cx="150" cy="30" r="4" fill="#1E40AF"/><circle cx="230" cy="90" r="4" fill="#1E40AF"/><circle cx="150" cy="150" r="4" fill="#1E40AF"/><circle cx="70" cy="90" r="4" fill="#1E40AF"/><text x="95" y="55" font-size="10" fill="#1E3A8A" font-weight="bold">P (Resistor)</text><text x="185" y="55" font-size="10" fill="#1E3A8A" font-weight="bold">Q (Resistor)</text><text x="95" y="130" font-size="10" fill="#1E3A8A" font-weight="bold">R (Resistor)</text><text x="185" y="130" font-size="10" fill="#1E3A8A" font-weight="bold">S (Resistor)</text><line x1="70" y1="90" x2="230" y2="90" stroke="#DC2626" stroke-width="2" stroke-dasharray="4,3"/><circle cx="150" cy="90" r="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/><text x="146" y="94" font-size="10" fill="#DC2626" font-weight="bold">G</text><text x="150" y="172" text-anchor="middle" font-size="9" fill="#047857" font-weight="bold">Balanced Condition: P / Q = R / S (Ig = 0)</text></svg>`,
+    frontFormula: 'P / Q = R / S  ==>  S = (Q / P) * R',
+    backExplanation: '• When P/Q = R/S, potential at junction B equals potential at junction D (V_B = V_D).\n• Zero current flows through galvanometer (Ig = 0).\n• Interchanging galvanometer and battery positions does NOT alter balance condition.',
+    backKeyPoints: [
+      'Meter bridge works strictly on Wheatstone bridge principle',
+      'End errors in meter bridge arise from resistance of copper strips at wire ends'
+    ],
+    mnemonic: 'P over Q equals R over S for zero deflection!',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-phy-4',
+    subject: 'Physics',
     category: 'Formulas',
     subCategory: 'Modern Physics / Dual Nature',
     topic: 'Modern Physics - De Broglie Wavelength Shortcuts',
@@ -1261,30 +2117,14 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     ],
     mnemonic: '12.27 over root V in Angstroms for Electron!',
     difficulty: 'Easy'
-  },
-  {
-    id: 'fc-phy-4',
-    subject: 'Physics',
-    category: 'Formulas',
-    subCategory: 'Electrodynamics / Magnetism',
-    topic: 'Magnetism - Biot-Savart Law for Circular Loop',
-    frontTitle: 'B-Field at Center & Axis of Circular Current Coil',
-    frontContent: 'State formulas for magnetic field B at center and axial distance x of an N-turn circular loop.',
-    frontFormula: 'B_center = (μ₀ N I) / (2 R)  ;  B_axis = (μ₀ N I R²) / (2 (R² + x²)^(3/2))',
-    backExplanation: '• At Center (x = 0): B = μ₀ N I / (2R).\n• At Axial point x >> R: B = (μ₀ / 4π) * (2 M / x^3), where M = N I A = N I (π R^2) is magnetic dipole moment.\n• Semi-circular arc: B = μ₀ I / (4 R).',
-    backKeyPoints: [
-      'Ratio B_center / B_axis = (1 + x^2/R^2)^(3/2)',
-      'Helmholtz coils produce highly uniform magnetic field at midpoint'
-    ],
-    mnemonic: 'Center is maximum: μ₀ N I / (2 R)',
-    difficulty: 'Medium'
   }
 ];
 
 // ==========================================
-// EXPANSIVE, RICH VISUAL MIND MAPS
-// ==========================================
 export const MIND_MAPS_DATA: MindMapNode[] = [
+  // ==========================================
+  // BIOLOGY MIND MAPS
+  // ==========================================
   {
     id: 'mm-bio-1',
     subject: 'Biology',
@@ -1294,43 +2134,53 @@ export const MIND_MAPS_DATA: MindMapNode[] = [
       {
         title: '1. Mendelian Genetics & Inheritance',
         details: [
-          'Monohybrid cross (3:1 Phenotype, 1:2:1 Genotype)',
-          'Dihybrid cross (9:3:3:1 Phenotype, 1:2:1:2:4:2:1:2:1 Genotype)',
-          'Incomplete dominance (Mirabilis jalapa / Antirrhinum 1:2:1 pink flower)',
-          'Co-dominance & Multiple Alleles (Human ABO blood groups: IA, IB, i)'
+          'Monohybrid cross: 3:1 phenotypic, 1:2:1 genotypic ratio',
+          'Dihybrid cross: 9:3:3:1 phenotypic ratio (independent assortment)',
+          'Incomplete dominance in Mirabilis jalapa (1:2:1 phenotypic and genotypic)',
+          'Co-dominance in ABO blood grouping (IA, IB, i alleles on chromosome 9)'
         ],
         subTopics: [
-          'Chromosomal theory of inheritance (Walter Sutton & Theodor Boveri)',
-          'Linkage & Recombination (T.H. Morgan experiments on Drosophila melanogaster)',
-          'Sex determination: XX-XY (Humans/Drosophila), ZZ-ZW (Birds), Haplodiploidy (Honeybees)',
-          'Genetic disorders: Down syndrome (Trisomy 21), Turner (45, XO), Klinefelter (47, XXY)'
+          'Test Cross (Unknown dominant x Homozygous recessive) gives 1:1 or 1:1:1:1',
+          'Pleiotropy: Single gene controls multiple phenotypic traits (e.g. Phenylketonuria)'
         ]
       },
       {
-        title: '2. DNA Structure & Packaging',
+        title: '2. DNA Replication & Polarity',
         details: [
-          'Double helix model (Watson & Crick 1953, B-DNA pitch 3.4 nm, 10 bp/turn, diameter 2 nm)',
-          'Chargaff equivalence rules: [A] + [G] = [T] + [C], A/T = 1, G/C = 1',
-          'Histone octamer core (2 of H2A, H2B, H3, H4) with positively charged Lysine & Arginine',
-          'Nucleosome structure: 200 bp wrapped around octamer + H1 linker histone'
+          'Semiconservative replication proven by Meselson and Stahl (15N and 14N in E. coli)',
+          'Replication fork synthesizes strictly in 5 prime to 3 prime direction',
+          'Leading strand is continuous, Lagging strand produces Okazaki fragments',
+          'Enzymes: Helicase, Single-strand binding proteins, Primase, DNA Polymerase III, Ligase'
         ],
         subTopics: [
-          'Transforming principle (Frederick Griffith 1928 S-strain / R-strain in mice)',
-          'Biochemical characterisation (Avery, MacLeod, McCarty 1944: DNase destroys activity)',
-          'Unequivocal proof: Hershey & Chase 1952 using 32P (DNA) and 35S (protein capsid)'
+          'Taylor used radioactive thymidine on Vicia faba chromosomes',
+          'DNA Polymerase I removes RNA primers via 5 to 3 exonuclease proofreading'
         ]
       },
       {
-        title: '3. Central Dogma & Gene Regulation',
+        title: '3. Transcription & Translation',
         details: [
-          'Semi-conservative DNA replication (Meselson & Stahl 1958 using 15N and 14N CsCl gradient)',
-          "DNA Polymerase: synthesizes strictly in 5'->3' direction (Leading continuous, Lagging Okazaki)",
-          'Transcription in Eukaryotes: Pol I (rRNA 28S, 18S, 5.8S), Pol II (hnRNA/mRNA), Pol III (tRNA, 5S rRNA, snRNA)',
-          "Post-transcriptional modifications: Splicing (introns removed), Capping (7-methylguanosine 5'), Tailing (200-300 Poly-A 3')"
+          'Transcription unit: Promoter, Structural Gene, Terminator',
+          'RNA Polymerase II transcribes hnRNA in eukaryotes (capped with m7Gppp, poly-A tail)',
+          'Genetic code: 64 codons, 61 code for amino acids, 3 stop codons (UAA, UAG, UGA)',
+          'AUG is dual-purpose: codes for Methionine and acts as Start codon'
         ],
         subTopics: [
-          'Genetic code properties: Triplet, Universal, Non-overlapping, Degenerate (61 codons for 20 AA), AUG start (Methionine), UAA/UAG/UGA stop',
-          'Lac Operon (Jacob & Monod): Inducible system, z (beta-gal), y (permease), a (transacetylase), allolactose inducer'
+          'Wobble hypothesis by Crick: Non-Watson-Crick base pairing at 3rd codon base',
+          'Peptidyl transferase (23S rRNA in bacteria / 28S rRNA in eukaryotes) forms peptide bond'
+        ]
+      },
+      {
+        title: '4. Gene Regulation (Lac Operon)',
+        details: [
+          'Jacob and Monod model in E. coli for lactose catabolism',
+          'z gene (beta-galactosidase), y gene (permease), a gene (transacetylase)',
+          'i gene synthesizes repressor protein constitutively',
+          'Allolactose acts as inducer binding to repressor to turn transcription ON'
+        ],
+        subTopics: [
+          'Negative regulation: Operon is normally OFF in presence of active repressor',
+          'Catabolite activator protein (CAP-cAMP) provides positive regulation'
         ]
       }
     ]
@@ -1339,157 +2189,169 @@ export const MIND_MAPS_DATA: MindMapNode[] = [
     id: 'mm-bio-2',
     subject: 'Biology',
     title: 'Human Physiology & Organ Systems',
-    description: 'Integrated roadmap of Circulatory, Excretory, Neural, Respiratory & Endocrine systems.',
+    description: 'Integrated roadmap of Circulation, Excretion, Respiration & Neural Control.',
     children: [
       {
         title: '1. Circulatory System & Cardiac Cycle',
         details: [
-          'Blood components: Plasma (55%), Formed elements (45%: RBCs 5-5.5M, WBCs 6-8k, Platelets 1.5-3.5L)',
-          'Cardiac cycle duration: 0.8s (Joint diastole 0.4s, Atrial systole 0.1s, Ventricular systole 0.3s)',
-          'Stroke volume = 70 mL; Cardiac output = 70 * 72 bpm = 5 L/min',
-          'ECG waves: P (atrial depolarisation), QRS (ventricular depolarisation), T (ventricular repolarisation)'
+          'Double circulation: Pulmonary circuit (Right Ventricle -> Lungs -> Left Atrium) and Systemic circuit',
+          'Cardiac Output = Stroke Volume (70 mL) x Heart Rate (72 bpm) = 5 L/min',
+          'Nodal tissue: SA Node (72 bpm), AV Node (40-60 bpm), Bundle of His (35 bpm)'
         ],
         subTopics: [
-          'Double circulation: Pulmonary circuit (RV -> Lungs -> LA) + Systemic circuit (LV -> Body -> RA)',
-          'Disorders: Hypertension (>140/90), CAD (Atherosclerosis), Angina pectoris, Heart failure'
+          'ECG: P-wave (Atrial depolarisation), QRS (Ventricular depolarisation), T-wave (Ventricular repolarisation)'
         ]
       },
       {
-        title: '2. Excretory System & Osmoregulation',
+        title: '2. Excretory System & Nephron Dynamics',
         details: [
-          'Nephron structure: Glomerulus + Bowman capsule (Malpighian corpuscle), PCT, Loop of Henle, DCT, CD',
-          'Urine formation: Ultrafiltration (GFR 125 mL/min = 180 L/day), 99% Reabsorption (1-1.5 L urine excreted), Tubular secretion (H+, K+, NH3)',
-          'Counter-current multiplier in Loop of Henle & Vasa Recta maintains 1200 mOsmol/L medullary gradient',
-          'Regulation: RAAS (Renin-Angiotensin-Aldosterone), ADH/Vasopressin (water reabsorption), ANF check'
+          'Glomerular Filtration Rate (GFR) = 125 mL/min = 180 Litres/day',
+          'PCT reabsorbs 70-80% of electrolytes and water (brush border cuboidal)',
+          'Counter-current multiplier in Loop of Henle creates 1200 mOsmol/L medullary gradient'
         ],
         subTopics: [
-          'Disorders: Uraemia, Renal calculi (calcium oxalate stones), Glomerulonephritis',
-          'Hemodialysis: Counter-current artificial dialysing fluid clearing urea without losing plasma proteins'
-        ]
-      },
-      {
-        title: '3. Endocrine Glands & Hormones',
-        details: [
-          'Hypothalamus: Releasing (GnRH, TRH) & Inhibiting (Somatostatin) neurohormones',
-          'Pituitary: Anterior (GH, PRL, TSH, ACTH, LH, FSH), Intermediate (MSH), Posterior stores (Oxytocin, Vasopressin)',
-          'Thyroid: T3, T4 (BMR control, cretinism/goitre) & Calcitonin (TCT - lowers blood Ca2+)',
-          'Parathyroid: PTH (hypercalcemic - elevates blood Ca2+ by bone resorption)'
-        ],
-        subTopics: [
-          'Adrenal cortex: Glucocorticoids (Cortisol - gluconeogenesis) & Mineralocorticoids (Aldosterone - Na+ retention)',
-          'Adrenal medulla: Epinephrine & Norepinephrine (Fight-or-flight catecholamines)',
-          'Pancreas: Alpha (Glucagon - hyperglycemic) & Beta (Insulin - hypoglycemic, promotes GLUT-4 uptake)'
+          'RAAS: JG cells secrete Renin -> Angiotensin II -> Aldosterone -> Na+ and water retention'
         ]
       }
     ]
   },
-  {
-    id: 'mm-bio-3',
-    subject: 'Biology',
-    title: 'Plant Physiology & Photosynthesis',
-    description: 'Light reactions, Calvin cycle, C4 Kranz anatomy, cellular respiration, and plant hormones.',
-    children: [
-      {
-        title: '1. Photosynthesis in Higher Plants',
-        details: [
-          'Light reaction (Thylakoids): PS-II (P680) splits H2O -> O2 + 4H+ + 4e-; PS-I (P700) reduces NADP+',
-          'Z-Scheme non-cyclic photophosphorylation produces ATP + NADPH; Cyclic produces ATP only',
-          'Chemiosmotic hypothesis (Peter Mitchell): Proton gradient builds inside Thylakoid lumen (low pH)',
-          'Calvin cycle (Stroma): 1. Carboxylation (RuBisCO), 2. Reduction (uses 2 ATP + 2 NADPH), 3. Regeneration (1 ATP). Total 3 ATP + 2 NADPH per CO2'
-        ],
-        subTopics: [
-          'C4 Pathway (Kranz anatomy in Maize/Sorghum): Mesophyll fixes CO2 via PEPcase -> OAA (4C), Bundle sheath runs Calvin cycle with zero photorespiration',
-          'Blackman law of limiting factors: Rate dictated by factor present in minimum quantity'
-        ]
-      },
-      {
-        title: '2. Plant Growth Regulators (PGRs)',
-        details: [
-          'Auxins (IAA, NAA, 2,4-D): Apical dominance, rooting, parthenocarpy in tomatoes, 2,4-D dicot weedicide',
-          'Gibberellins (GA3): Internode elongation in sugarcane, bolting in beet/cabbage, breaks seed dormancy',
-          'Cytokinins (Zeatin, Kinetin): Cell division, overcomes apical dominance, delays leaf senescence',
-          'Ethylene (Gaseous): Fruit ripening, horizontal growth of seedlings, respiratory climacteric',
-          'Abscisic Acid (ABA): Stress hormone, stomatal closure during drought, induces seed dormancy'
-        ],
-        subTopics: [
-          'Photoperiodism: Flowering response to day/night length perceived by phytochrome in leaves',
-          'Vernalization: Low temperature promotion of flowering'
-        ]
-      }
-    ]
-  },
+
+  // ==========================================
+  // CHEMISTRY MIND MAPS
+  // ==========================================
   {
     id: 'mm-chem-1',
     subject: 'Chemistry',
-    title: 'Organic Chemistry Reaction Mechanisms',
-    description: 'Nucleophilic substitution, elimination, electrophilic aromatic substitution, named carbonyl reactions & polymers.',
+    title: 'Physical Chemistry: Thermodynamics & Electrochemistry',
+    description: 'Formulas, laws, cell potentials, Nernst equation, and Gibbs free energy relations.',
     children: [
       {
-        title: '1. Alkyl Halides & Substitution / Elimination',
+        title: '1. Chemical Thermodynamics',
         details: [
-          'SN1: 2 steps, 3° > 2° > 1°, carbocation intermediate, polar protic solvent, racemization',
-          'SN2: 1 step concerted, 1° > 2° > 3°, backside attack, polar aprotic solvent, Walden inversion',
-          'E1 vs E2: Saytzeff rule (more substituted alkene is major) vs Hofmann product (bulky base)',
-          'Grignard reagents (R-Mg-X): Strong nucleophile/base, reacts with active H (H2O, ROH) to form R-H'
+          'First Law: Delta U = q + w (where w = -P_ext * Delta V for expansion)',
+          'Enthalpy: H = U + PV -> Delta H = Delta U + Delta n_g * R * T',
+          'Gibbs Free Energy: Delta G = Delta H - T * Delta S (Spontaneous when Delta G < 0)'
         ],
         subTopics: [
-          'Haloarenes: Low reactivity due to resonance partial double bond character of C-Cl',
-          'Wurtz, Fittig & Wurtz-Fittig cross-coupling reactions'
+          'Standard Delta G° = -2.303 R T log K_c',
+          'Third law: Entropy of perfectly crystalline substance is ZERO at 0 Kelvin'
         ]
       },
       {
-        title: '2. Carbonyl Compounds (Aldehydes & Ketones)',
+        title: '2. Electrochemistry & Galvanic Cells',
         details: [
-          'Nucleophilic addition to C=O (HCN, NaHSO3, Grignard, ROH for acetals/ketals)',
-          'Aldol condensation: alpha-H containing carbonyls + dil. NaOH -> alpha,beta-unsaturated product',
-          'Cannizzaro reaction: carbonyls without alpha-H + conc. 50% NaOH -> Alcohol + Carboxylate salt',
-          'Clemmensen reduction (Zn-Hg / conc. HCl) & Wolff-Kishner reduction (NH2NH2 / KOH / glycol) -> C=O to CH2'
+          'Standard EMF: E°cell = E°cathode - E°anode (both standard reduction potentials)',
+          'Nernst Equation at 298 K: E_cell = E°cell - (0.0591 / n) * log Q',
+          'Equilibrium condition: E_cell = 0 -> E°cell = (0.0591 / n) * log K_c'
         ],
         subTopics: [
-          'Tollens reagent test (Silver mirror) & Fehling test (Cu2O red ppt) for aldehydes',
-          'Iodoform test (I2 + NaOH): Positive for CH3-C=O and CH3-CH(OH)- groups (yellow CHI3 ppt)'
+          'Kohlrausch Law: Limiting molar conductivity equals sum of individual ionic conductivities',
+          'Faraday 1st Law: m = Z * I * t = (E / 96500) * Q'
         ]
       }
     ]
   },
   {
-    id: 'mm-phy-1',
-    subject: 'Physics',
-    title: 'Modern Physics & Dual Nature',
-    description: 'Photoelectric effect, Bohr atom model, nuclear binding energy, radioactivity & semiconductor devices.',
+    id: 'mm-chem-2',
+    subject: 'Chemistry',
+    title: 'Organic Chemistry: Reaction Mechanisms & Carbonyls',
+    description: 'Named reactions, electrophilic/nucleophilic substitutions, and conversions.',
     children: [
       {
-        title: '1. Photoelectric Effect & Photons',
+        title: '1. Carbonyl Reactions (Aldehydes & Ketones)',
         details: [
-          'Einstein equation: K_max = h nu - phi_0 = e V_0 (where V_0 is stopping potential)',
-          'Photoelectric current is proportional to light INTENSITY (number of photons)',
-          'Max kinetic energy and stopping potential depend ONLY on light FREQUENCY, not intensity',
-          'De Broglie wavelength: lambda = h/p = 12.27 / sqrt(V) Angstroms for accelerated electron'
+          'Aldol: Requires alpha-H, dil. NaOH -> beta-hydroxy aldehyde -> enal',
+          'Cannizzaro: NO alpha-H, 50% NaOH -> disproportionation to alcohol + acid salt',
+          'Nucleophilic addition: Reactivity order HCHO > RCHO > RCOR (steric + electronic)'
         ],
         subTopics: [
-          'Work function phi_0 = h nu_0 (threshold frequency)',
-          'Davisson-Germer experiment proved wave nature of moving electrons'
+          'Tollens Test (Ammoniacal AgNO3) & Fehlings Test oxidize aliphatic aldehydes',
+          'Haloform reaction (I2 + NaOH) tests for CH3-C=O and CH3-CH(OH)- groups'
         ]
       },
       {
-        title: '2. Bohr Atomic Model & Hydrogen Spectrum',
+        title: '2. Nucleophilic Substitutions (SN1 vs SN2)',
         details: [
-          'Postulates: Quantized angular momentum mvr = n h / 2pi; Radiation emitted on transition E_i - E_f = h nu',
-          'Radius of nth orbit: r_n = 0.529 * (n^2 / Z) Angstroms',
-          'Velocity in nth orbit: v_n = 2.18 x 10^6 * (Z / n) m/s',
-          'Energy of nth level: E_n = -13.6 * (Z^2 / n^2) eV'
+          'SN1: 2-step, carbocation intermediate, polar protic solvent, 3° > 2° > 1° > CH3X, Racemization',
+          'SN2: 1-step concerted, transition state, polar aprotic solvent, CH3X > 1° > 2° > 3°, Walden Inversion'
         ],
         subTopics: [
-          'Rydberg formula: 1/lambda = R_H * Z^2 * (1/n1^2 - 1/n2^2)',
-          'Spectral Series: Lyman (n1=1, UV), Balmer (n1=2, Visible), Paschen (n1=3, IR), Brackett (n1=4, IR), Pfund (n1=5, IR)'
+          'Good leaving groups: I- > Br- > Cl- > F-',
+          'Nucleophilicity in polar protic solvents: I- > Br- > Cl- > F-'
+        ]
+      }
+    ]
+  },
+
+  // ==========================================
+  // PHYSICS MIND MAPS
+  // ==========================================
+  {
+    id: 'mm-phy-1',
+    subject: 'Physics',
+    title: 'Mechanics & Rotational Dynamics',
+    description: 'Kinematics, Newton laws, work energy theorem, rolling dynamics & gravitation.',
+    children: [
+      {
+        title: '1. Rotational Motion & Pure Rolling',
+        details: [
+          'Pure rolling: v_cm = omega * R, contact point has zero instantaneous velocity',
+          'Kinetic Energy: K_total = 1/2 M v^2 * (1 + K^2/R^2)',
+          'Acceleration on Incline: a = (g sin theta) / (1 + K^2/R^2)'
+        ],
+        subTopics: [
+          'Race down incline winner: Solid Sphere (K^2/R^2 = 0.4) > Disc (0.5) > Hollow Sphere (0.67) > Ring (1.0)',
+          'Parallel Axis Theorem: I = I_cm + M d^2; Perpendicular Axis: I_z = I_x + I_y'
+        ]
+      },
+      {
+        title: '2. Gravitation & Orbital Motion',
+        details: [
+          'g variation: At height h: g_h = g(1 - 2h/R); At depth d: g_d = g(1 - d/R)',
+          'Escape Velocity: v_e = sqrt(2 g R) = sqrt(2 G M / R) = 11.2 km/s on Earth',
+          'Orbital Velocity: v_o = sqrt(g R) = 7.9 km/s (v_e = sqrt(2) * v_o)'
+        ],
+        subTopics: [
+          'Kepler 3rd Law: T^2 is proportional to R^3',
+          'Gravitational Potential at center of solid sphere: V_center = -1.5 * (G M / R)'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'mm-phy-2',
+    subject: 'Physics',
+    title: 'Electrodynamics & Modern Physics',
+    description: 'Current electricity, circuits, optics, dual nature & atomic models.',
+    children: [
+      {
+        title: '1. Current Electricity & Circuits',
+        details: [
+          'Drift velocity: v_d = e E tau / m, Current: I = n e A v_d',
+          'Kirchhoff Laws: Junction rule (Charge conservation), Loop rule (Energy conservation)',
+          'Balanced Wheatstone Bridge: P / Q = R / S -> Zero galvanometer current'
+        ],
+        subTopics: [
+          'Potentiometer compares EMF: E1 / E2 = l1 / l2',
+          'Internal resistance: r = R * (l1 - l2) / l2'
+        ]
+      },
+      {
+        title: '2. Modern Physics & Photoelectric Effect',
+        details: [
+          'Einstein equation: K_max = h * nu - phi_0 = e * V_0',
+          'De Broglie wavelength of accelerated electron: lambda = 12.27 / sqrt(V) Angstroms',
+          'Bohr orbit radius: r_n = 0.529 * n^2 / Z Angstroms, Energy: E_n = -13.6 * Z^2 / n^2 eV'
+        ],
+        subTopics: [
+          'Rydberg formula: 1 / lambda = R_H * Z^2 * (1/n1^2 - 1/n2^2)',
+          'Stopping potential V0 depends strictly on frequency nu, NOT on intensity!'
         ]
       }
     ]
   }
 ];
 
-// ==========================================
-// BOOKS & NOTES REPOSITORY DATA
 // ==========================================
 export const BOOKS_DATA: BookItem[] = [
   {

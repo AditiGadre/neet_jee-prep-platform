@@ -452,7 +452,7 @@ export function downloadDppPDF(dppInfo: {
       <p style="margin: 0; color: #4b5563; font-size: 12px;"><strong>Target Standard:</strong> ${dppInfo.level} &bull; Date: ${dppInfo.date}</p>
       <div class="meta-grid">
         <div class="meta-item"><strong>Questions:</strong> ${dppInfo.questions.length} Qs</div>
-        <div class="meta-item"><strong>Target Time:</strong> 45 Mins</div>
+        <div class="meta-item"><strong>Target Time:</strong> 15 Mins (Speed CBT)</div>
         <div class="meta-item"><strong>Total Marks:</strong> ${dppInfo.questions.length * 4} Marks</div>
         <div class="meta-item"><strong>Marking:</strong> +4 / -1</div>
       </div>
