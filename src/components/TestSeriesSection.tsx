@@ -34,14 +34,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [viewingTest, setViewingTest] = useState<TestItem | null>(null);
 
-  const sundayTests = testItems.filter(t => t.id.startsWith('test-sunday-') || t.scheduledDate);
+  const sundayTests = testItems.filter(t => t.id.startsWith('test-sunday-') || t.category === 'neet_mock' || !!t.scheduledDate);
+  const biologyTests = testItems.filter(t => (t.title.toLowerCase().includes('biology') || t.syllabus.toLowerCase().includes('biology') || t.id.includes('bio') || t.id.startsWith('ft-bio-')) && !t.id.startsWith('test-sunday-'));
+  const chemistryTests = testItems.filter(t => t.title.toLowerCase().includes('chemistry') || t.syllabus.toLowerCase().includes('chemistry') || t.id.includes('chem'));
+  const physicsTests = testItems.filter(t => t.title.toLowerCase().includes('physics') || t.syllabus.toLowerCase().includes('physics') || t.id.includes('phy') || t.id.includes('vector') || t.id.includes('motion') || t.id.includes('gravitation') || t.id.includes('electrostatics') || t.id.includes('thermodynamics') || t.id.includes('units'));
 
   const subjects = [
     { id: 'all', label: '🌟 All Tests', count: testItems.length },
     { id: 'sunday', label: '📅 Sunday Scheduled Mocks (45 Qs)', count: sundayTests.length },
-    { id: 'biology', label: '🧬 Biology Chapters (45 Qs)', count: testItems.filter(t => (t.title.toLowerCase().includes('biology') || t.syllabus.toLowerCase().includes('biology') || t.id.includes('bio')) && !t.id.startsWith('test-sunday-')).length },
-    { id: 'chemistry', label: '🧪 Chemistry (45 Qs)', count: testItems.filter(t => t.title.toLowerCase().includes('chemistry') || t.syllabus.toLowerCase().includes('chemistry') || t.id.includes('chem')).length },
-    { id: 'physics', label: '⚡ Physics (45 Qs)', count: testItems.filter(t => t.title.toLowerCase().includes('physics') || t.id.includes('phy') || t.syllabus.toLowerCase().includes('physics')).length }
+    { id: 'biology', label: '🧬 Biology Tests (45 Qs)', count: biologyTests.length },
+    { id: 'chemistry', label: '🧪 Chemistry Tests (45 Qs)', count: chemistryTests.length },
+    { id: 'physics', label: '⚡ Physics Tests (45 Qs)', count: physicsTests.length }
   ];
 
   const categories = [
@@ -57,7 +60,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     
     let matchesSubject = true;
     if (selectedSubject === 'sunday') {
-      matchesSubject = test.id.startsWith('test-sunday-') || !!test.scheduledDate;
+      matchesSubject = test.id.startsWith('test-sunday-') || test.category === 'neet_mock' || !!test.scheduledDate;
     } else if (selectedSubject === 'chemistry') {
       matchesSubject = test.title.toLowerCase().includes('chemistry') || 
                        test.syllabus.toLowerCase().includes('chemistry') || 
@@ -65,11 +68,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     } else if (selectedSubject === 'biology') {
       matchesSubject = (test.title.toLowerCase().includes('biology') || 
                        test.syllabus.toLowerCase().includes('biology') || 
-                       test.id.includes('bio') || test.id.includes('ft-bio')) && !test.id.startsWith('test-sunday-');
+                       test.id.includes('bio') || test.id.startsWith('ft-bio-')) && !test.id.startsWith('test-sunday-');
     } else if (selectedSubject === 'physics') {
       matchesSubject = test.title.toLowerCase().includes('physics') || 
+                       test.syllabus.toLowerCase().includes('physics') ||
                        test.id.includes('phy') ||
-                       test.syllabus.toLowerCase().includes('physics');
+                       test.id.includes('vector') ||
+                       test.id.includes('motion') ||
+                       test.id.includes('gravitation') ||
+                       test.id.includes('electrostatics') ||
+                       test.id.includes('thermodynamics') ||
+                       test.id.includes('units');
     }
 
     const matchesQuery =
@@ -86,13 +95,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-100 pb-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5">
-              <Zap className="w-3 h-3 text-blue-600" /> Standard 45-Question CBT Engine & Question Bank
+              <Zap className="w-3 h-3 text-blue-600" /> Standard 45-Question Speed CBT Engine (15 Minutes)
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
               1. Test Series & Computer-Based Tests (CBT)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Strictly standard <strong>45 Questions &bull; 45 Minutes &bull; 180 Marks (+4/-1)</strong> tests. Features scheduled Sunday-to-Sunday All India Test Series, Class 11 & 12 chapter-wise tests, and downloadable PDF question papers with solutions.
+              Strictly standard <strong>45 Questions &bull; 15 Minutes (Speed CBT Mode) &bull; 180 Marks (+4/-1)</strong> tests. Features scheduled Sunday-to-Sunday All India Test Series, Class 11 & 12 chapter-wise tests, and downloadable PDF question papers with solutions.
             </p>
           </div>
 
@@ -111,13 +120,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">Sunday-to-Sunday Live</div>
           </div>
           <div className="p-3 rounded bg-gray-50 border border-gray-200">
-            <div className="text-[10px] uppercase font-bold text-gray-500 tracking-wider">Test Format</div>
-            <div className="text-xl font-bold text-blue-700 mt-0.5">45 Qs / 45 Mins</div>
+            <div className="text-[10px] uppercase font-bold text-gray-500 tracking-wider">Speed Test Format</div>
+            <div className="text-xl font-bold text-blue-700 mt-0.5">45 Qs / 15 Mins</div>
             <div className="text-[10px] text-blue-600 font-semibold mt-0.5 font-mono">180 Marks (+4 / -1)</div>
           </div>
           <div className="p-3 rounded bg-gray-50 border border-gray-200">
-            <div className="text-[10px] uppercase font-bold text-gray-500 tracking-wider">Master Database</div>
-            <div className="text-xl font-bold text-purple-700 mt-0.5">6,465 Qs</div>
+            <div className="text-[10px] uppercase font-bold text-gray-500 tracking-wider">Question Bank</div>
+            <div className="text-xl font-bold text-purple-700 mt-0.5">All Chapters</div>
             <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">100% NCERT Verified</div>
           </div>
           <div className="p-3 rounded bg-gray-50 border border-gray-200">
@@ -146,7 +155,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               </div>
             </div>
             <span className="text-[11px] font-mono font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded border border-blue-300 self-start sm:self-auto">
-              Every Sunday &bull; 45 Mins CBT
+              Every Sunday &bull; 15 Mins Speed CBT
             </span>
           </div>
 
@@ -176,7 +185,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
                 <div className="pt-2 border-t border-gray-100 flex items-center justify-between">
                   <div className="text-[11px] text-gray-600 font-mono font-semibold">
-                    45 Qs &bull; 45m &bull; 180 M
+                    45 Qs &bull; 15m &bull; 180 M
                   </div>
                   <div className="flex items-center space-x-1.5">
                     <button

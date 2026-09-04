@@ -33,44 +33,79 @@ export default function App() {
   const [isDoubtModalOpen, setIsDoubtModalOpen] = useState(false);
   const [activeBookForReading, setActiveBookForReading] = useState<BookItem | null>(null);
 
-  // User History & Stats
-  const [completedTests, setCompletedTests] = useState<UserTestResult[]>([]);
+  // User History & Stats - Load from localStorage if available
+  const [completedTests, setCompletedTests] = useState<UserTestResult[]>(() => {
+    try {
+      const saved = localStorage.getItem('neet_completed_tests');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
 
-  // Supabase Auth State
-  const [user, setUser] = useState<User | null>(null);
+  // Auth State (Supabase + Local fallback)
+  const [user, setUser] = useState<any>(() => {
+    try {
+      const local = localStorage.getItem('neet_local_user');
+      return local ? JSON.parse(local) : null;
+    } catch {
+      return null;
+    }
+  });
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   useEffect(() => {
-    if (!supabase) {
-      console.warn("Supabase is not configured. Local/mock mode active.");
-      return;
+    const syncAuth = () => {
+      try {
+        const local = localStorage.getItem('neet_local_user');
+        if (local) {
+          setUser(JSON.parse(local));
+        }
+      } catch (err) {
+        console.error('Error syncing local auth:', err);
+      }
+    };
+
+    window.addEventListener('neet_auth_change', syncAuth);
+
+    if (supabase) {
+      supabase.auth.getSession().then(({ data: { session } }) => {
+        if (session?.user) {
+          setUser(session.user);
+        }
+      }).catch(err => {
+        console.warn('Supabase getSession failed, using local session:', err);
+      });
+
+      const {
+        data: { subscription },
+      } = supabase.auth.onAuthStateChange((_event, session) => {
+        if (session?.user) {
+          setUser(session.user);
+        }
+      });
+
+      return () => {
+        subscription.unsubscribe();
+        window.removeEventListener('neet_auth_change', syncAuth);
+      };
     }
 
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user ?? null);
-    });
-
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-    });
-
-    return () => subscription.unsubscribe();
+    return () => window.removeEventListener('neet_auth_change', syncAuth);
   }, []);
 
   useEffect(() => {
-    if (!supabase) return;
+    if (!supabase || !user) return;
 
-    if (user) {
-      // Fetch completed tests
-      const fetchTestResults = async () => {
+    // Fetch completed tests from Supabase if online
+    const fetchTestResults = async () => {
+      try {
         const { data, error } = await supabase
           .from('test_results')
           .select('*')
           .order('created_at', { ascending: false });
 
-        if (!error && data) {
+        if (!error && data && data.length > 0) {
           const formatted = data.map((d: any) => ({
             testId: d.test_id,
             testTitle: d.test_title,
@@ -90,13 +125,14 @@ export default function App() {
             answers: d.answers,
           }));
           setCompletedTests(formatted);
+          localStorage.setItem('neet_completed_tests', JSON.stringify(formatted));
         }
-      };
+      } catch (err) {
+        console.warn('Could not sync remote test results:', err);
+      }
+    };
 
-      fetchTestResults();
-    } else {
-      setCompletedTests([]);
-    }
+    fetchTestResults();
   }, [user]);
 
   const handleStartTest = (test: TestItem) => {
@@ -104,35 +140,51 @@ export default function App() {
   };
 
   const handleSaveTestResult = async (result: UserTestResult) => {
-    setCompletedTests(prev => [result, ...prev]);
+    setCompletedTests(prev => {
+      const updated = [result, ...prev];
+      localStorage.setItem('neet_completed_tests', JSON.stringify(updated));
+      return updated;
+    });
 
-    if (supabase && user) {
-      const { error } = await supabase.from('test_results').insert({
-        user_id: user.id,
-        test_id: result.testId,
-        test_title: result.testTitle,
-        score: result.score,
-        total_marks: result.totalMarks,
-        correct_answers: result.correctAnswers,
-        wrong_answers: result.wrongAnswers,
-        unattempted: result.unattempted,
-        time_spent_seconds: result.timeSpentSeconds,
-        accuracy_percentage: result.accuracyPercentage,
-        predicted_air: result.predictedAIR,
-        national_percentile: result.nationalPercentile,
-        subject_breakdown: result.subjectBreakdown,
-        weak_chapters: result.weakChapters,
-        strong_chapters: result.strongChapters,
-        revision_suggestions: result.revisionSuggestions,
-        answers: result.answers,
-      });
-      if (error) {
-        console.error('Error saving test result to Supabase:', error);
+    if (supabase && user && user.id && !String(user.id).startsWith('local-')) {
+      try {
+        await supabase.from('test_results').insert({
+          user_id: user.id,
+          test_id: result.testId,
+          test_title: result.testTitle,
+          score: result.score,
+          total_marks: result.totalMarks,
+          correct_answers: result.correctAnswers,
+          wrong_answers: result.wrongAnswers,
+          unattempted: result.unattempted,
+          time_spent_seconds: result.timeSpentSeconds,
+          accuracy_percentage: result.accuracyPercentage,
+          predicted_air: result.predictedAIR,
+          national_percentile: result.nationalPercentile,
+          subject_breakdown: result.subjectBreakdown,
+          weak_chapters: result.weakChapters,
+          strong_chapters: result.strongChapters,
+          revision_suggestions: result.revisionSuggestions,
+          answers: result.answers,
+        });
+      } catch (error) {
+        console.warn('Test result saved locally, remote sync failed:', error);
       }
     }
   };
 
-
+  const handleSignOut = async () => {
+    localStorage.removeItem('neet_local_user');
+    setUser(null);
+    if (supabase) {
+      try {
+        await supabase.auth.signOut();
+      } catch (e) {
+        // ignore
+      }
+    }
+    window.dispatchEvent(new Event('neet_auth_change'));
+  };
 
   const handleQuickMockTest = () => {
     const defaultMock = TEST_SERIES_DATA.find(t => t.category === 'neet_mock') || TEST_SERIES_DATA[0];
@@ -150,7 +202,7 @@ export default function App() {
         completedTestsCount={completedTests.length}
         userEmail={user?.email ?? null}
         onOpenAuth={() => setIsAuthModalOpen(true)}
-        onSignOut={() => supabase?.auth.signOut()}
+        onSignOut={handleSignOut}
       />
 
       {/* Main Layout Container */}

@@ -79,7 +79,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
   const [customTopic, setCustomTopic] = useState<string>('All Topics');
   const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Adaptive'>('Medium');
-  const [customDuration, setCustomDuration] = useState<number>(45);
+  const [customDuration, setCustomDuration] = useState<number>(15);
   const [customQCount, setCustomQCount] = useState<number>(45);
 
   // Flashcards State
@@ -145,8 +145,36 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   }, []);
 
   const physicsChapters = [
-    'Units and Dimensions', 'Vectors', 'Motion in One Dimension',
-    'Gravitation', 'Electrostatics', 'Magnetism', 'Thermodynamics'
+    'Physical World & Units and Measurements',
+    'Vectors & Basic Mathematical Tools',
+    'Motion in a Straight Line (1D Kinematics)',
+    'Motion in a Plane (2D & Projectile Motion)',
+    'Laws of Motion & Friction',
+    'Work, Energy, and Power',
+    'System of Particles & Rotational Motion',
+    'Gravitation',
+    'Mechanical Properties of Solids (Elasticity)',
+    'Mechanical Properties of Fluids (Fluid Dynamics)',
+    'Thermal Properties of Matter & Calorimetry',
+    'Thermodynamics (Physics)',
+    'Kinetic Theory of Gases',
+    'Oscillations (Simple Harmonic Motion)',
+    'Waves & Acoustics',
+    'Electrostatics: Electric Charges and Fields',
+    'Electrostatic Potential and Capacitance',
+    'Current Electricity & DC Circuits',
+    'Moving Charges and Magnetism',
+    'Magnetism and Matter',
+    'Electromagnetic Induction (EMI)',
+    'Alternating Current (AC)',
+    'Electromagnetic Waves (EM Waves)',
+    'Ray Optics and Optical Instruments',
+    'Wave Optics & Diffraction',
+    'Dual Nature of Radiation and Matter',
+    'Atoms & Spectra',
+    'Nuclei & Nuclear Energy',
+    'Semiconductor Electronics & Logic Gates',
+    'Physics Full Syllabus Mock Test'
   ];
 
   const currentChapterList = customSubject === 'Biology'
@@ -267,13 +295,13 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               2. What Extra We Offer (7 Precision Tools)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Custom 45-Question Test Generator connected to the 6,465 NCERT question bank, 30+ interactive Flashcards, deep Mind Maps, and 1-click PDF download engine.
+              Custom 45-Question Test Generator connected to the complete NCERT chapter-wise question bank, 30+ interactive Flashcards, deep Mind Maps, and 1-click PDF download engine.
             </p>
           </div>
 
           <div className="flex items-center gap-2 self-start md:self-auto shrink-0 font-mono text-[10px]">
             <span className="px-2.5 py-1 rounded bg-blue-50 text-blue-700 border border-blue-200 font-bold">
-              6,465 Master Qs
+              Complete Question Bank
             </span>
           </div>
         </div>
@@ -311,7 +339,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <span>Custom Chapter-wise CBT Test Generator</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Select any chapter from our 6,465-question database. Default format is strictly 45 Questions in 45 Minutes (180 Marks).
+                Select any chapter from our complete NCERT database. Standard format is 45 Questions in 15 Minutes Speed Practice (180 Marks).
               </p>
             </div>
             <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 self-start sm:self-auto uppercase">
@@ -335,7 +363,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 }}
                 className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
               >
-                <option value="Biology">🧬 Biology (Class 11 & 12 - 6,465 Qs)</option>
+                <option value="Biology">🧬 Biology (Class 11 & 12 - All 38 Chapters)</option>
                 <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
                 <option value="Physics">⚡ Physics (Mechanics, Electrodynamics, Modern)</option>
               </select>
@@ -381,7 +409,9 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     key={cnt}
                     onClick={() => {
                       setCustomQCount(cnt);
-                      setCustomDuration(cnt); // 1 min per question standard
+                      // Scaled Rapid Speed CBT: 15Q=5m, 25Q=8m, 45Q=15m, 90Q=30m
+                      const scaledTime = cnt === 15 ? 5 : cnt === 25 ? 8 : cnt === 45 ? 15 : 30;
+                      setCustomDuration(scaledTime);
                     }}
                     className={`py-1.5 rounded text-xs font-bold font-mono transition-colors ${
                       customQCount === cnt
@@ -399,7 +429,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             <div className="space-y-1">
               <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
               <div className="grid grid-cols-4 gap-1.5">
-                {[15, 30, 45, 60].map(mins => (
+                {[5, 8, 15, 30].map(mins => (
                   <button
                     key={mins}
                     onClick={() => setCustomDuration(mins)}
@@ -563,6 +593,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       <p className="text-xs sm:text-sm text-gray-700 leading-relaxed max-w-lg mx-auto">
                         {currentFlashcard.frontContent}
                       </p>
+
+                      {currentFlashcard.diagramSvg && (
+                        <div
+                          className="my-3 p-3 bg-white/90 border border-blue-200 rounded-lg flex justify-center items-center overflow-x-auto shadow-2xs"
+                          dangerouslySetInnerHTML={{ __html: currentFlashcard.diagramSvg }}
+                        />
+                      )}
+
                       {currentFlashcard.frontFormula && (
                         <div className="inline-block px-3.5 py-1.5 rounded bg-white border border-blue-300 text-blue-900 font-mono text-xs font-bold shadow-xs">
                           {currentFlashcard.frontFormula}

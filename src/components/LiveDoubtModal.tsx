@@ -24,56 +24,111 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
   const [isSolving, setIsSolving] = useState(false);
   const [solvedResponse, setSolvedResponse] = useState<string | null>(null);
 
-  const [user, setUser] = useState<any>(null);
-  const [pastDoubts, setPastDoubts] = useState<any[]>([]);
+  const [user, setUser] = useState<any>(() => {
+    try {
+      const local = localStorage.getItem('neet_local_user');
+      return local ? JSON.parse(local) : null;
+    } catch {
+      return null;
+    }
+  });
+  const [pastDoubts, setPastDoubts] = useState<any[]>(() => {
+    try {
+      const saved = localStorage.getItem('neet_solved_doubts');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
+
+  const suggestedDoubts: Record<string, string[]> = {
+    Physics: [
+      'In Photoelectric Effect, why does increasing light intensity not change kinetic energy of photoelectrons?',
+      'Who wins the rolling race down an incline plane: Solid Sphere or Hollow Cylinder?',
+      'What is the de Broglie wavelength shortcut for an electron accelerated through 100 V?',
+      'Explain Biot-Savart law for a circular current loop at center vs axial point.'
+    ],
+    Chemistry: [
+      'What is the fundamental structural requirement for Aldol Condensation vs Cannizzaro Reaction?',
+      'How to calculate buffer pH using Henderson-Hasselbalch equation when [Salt] = [Acid]?',
+      'Explain Lanthanoid Contraction and why Zr and Hf have identical radii.',
+      'Compare SN1 vs SN2 reaction mechanisms in terms of kinetics and stereochemistry.'
+    ],
+    Biology: [
+      'Explain Lac Operon gene regulation and the role of allolactose as an inducer.',
+      'Describe C4 Kranz anatomy and why C4 plants have zero photorespiration.',
+      'Explain standard ECG waves (P, QRS, T) and cardiac output calculation.',
+      'Trace the RAAS feedback pathway and role of Renin from JG cells.'
+    ],
+    Mathematics: [
+      'What is the shortcut formula for finding the area under standard parabola and line?',
+      'Explain properties of definite integrals when f(a - x) = f(x).',
+      'How to find the shortest distance between two skew lines in 3D geometry?'
+    ]
+  };
 
   useEffect(() => {
-    if (!supabase) return;
-    supabase.auth.getUser().then(({ data: { user } }) => {
-      setUser(user);
-    });
+    if (supabase) {
+      supabase.auth.getUser().then(({ data: { user } }) => {
+        if (user) setUser(user);
+      }).catch(() => {});
+    }
   }, []);
 
   useEffect(() => {
-    if (!supabase) return;
-    if (user) {
-      const fetchDoubts = async () => {
+    if (!supabase || !user) return;
+    const fetchDoubts = async () => {
+      try {
         const { data, error } = await supabase
           .from('academic_doubts')
           .select('*')
           .order('created_at', { ascending: false });
-        if (!error && data) {
+        if (!error && data && data.length > 0) {
           setPastDoubts(data);
+          localStorage.setItem('neet_solved_doubts', JSON.stringify(data));
         }
-      };
-      fetchDoubts();
-    }
+      } catch (err) {
+        console.warn('Could not sync past doubts from database:', err);
+      }
+    };
+    fetchDoubts();
   }, [user]);
 
-  const handleAskDoubt = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!doubtText.trim()) return;
+  const handleAskDoubt = async (e: React.FormEvent, directText?: string) => {
+    if (e) e.preventDefault();
+    const queryToSolve = directText || doubtText;
+    if (!queryToSolve.trim()) return;
 
     setIsSolving(true);
     setSolvedResponse(null);
 
-    const activeDoubt = doubtText;
-    const responseText = await solveStudentAcademicDoubt(subject, activeDoubt);
+    const responseText = await solveStudentAcademicDoubt(subject, queryToSolve);
 
-    if (supabase && user) {
-      const { data, error } = await supabase
-        .from('academic_doubts')
-        .insert({
+    const newDoubtEntry = {
+      id: 'doubt-' + Date.now(),
+      subject,
+      doubt_text: queryToSolve,
+      solved_response: responseText,
+      created_at: new Date().toISOString()
+    };
+
+    setPastDoubts(prev => {
+      const updated = [newDoubtEntry, ...prev];
+      localStorage.setItem('neet_solved_doubts', JSON.stringify(updated));
+      return updated;
+    });
+
+    if (supabase && user && user.id && !String(user.id).startsWith('local-')) {
+      try {
+        await supabase.from('academic_doubts').insert({
           user_id: user.id,
           subject,
-          doubt_text: activeDoubt,
+          doubt_text: queryToSolve,
           is_solving: false,
           solved_response: responseText
-        })
-        .select();
-
-      if (!error && data && data.length > 0) {
-        setPastDoubts(prev => [data[0], ...prev]);
+        });
+      } catch (err) {
+        console.warn('Doubt saved locally, remote sync failed:', err);
       }
     }
 
@@ -140,6 +195,29 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
               className="w-full p-2.5 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-500"
               required
             />
+          </div>
+
+          {/* Suggested Quick Questions */}
+          <div className="space-y-1">
+            <div className="text-[10px] font-bold text-gray-500 uppercase tracking-wider">
+              Quick {subject} High-Yield Queries:
+            </div>
+            <div className="flex flex-wrap gap-1">
+              {(suggestedDoubts[subject] || []).map((qPrompt, qIdx) => (
+                <button
+                  key={qIdx}
+                  type="button"
+                  onClick={() => {
+                    setDoubtText(qPrompt);
+                    handleAskDoubt(null as any, qPrompt);
+                  }}
+                  className="text-[11px] px-2 py-1 bg-blue-50 hover:bg-blue-100 text-blue-800 rounded border border-blue-200 text-left transition-colors truncate max-w-full"
+                  title={qPrompt}
+                >
+                  ⚡ {qPrompt}
+                </button>
+              ))}
+            </div>
           </div>
 
           <div className="flex items-center justify-between pt-1">

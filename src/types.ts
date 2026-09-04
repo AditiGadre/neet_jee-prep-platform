@@ -10,6 +10,7 @@ export interface Question {
   difficulty: 'Easy' | 'Medium' | 'Hard';
   questionText: string;
   image?: string;
+  diagramSvg?: string;
   options: string[];
   correctAnswer: number; // 0-indexed
   explanation: string;
@@ -68,10 +69,13 @@ export interface Flashcard {
   id: string;
   subject: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics';
   category: 'Formulas' | 'Reactions' | 'Diagrams' | 'Concepts';
+  subCategory?: string;
   topic: string;
   frontTitle: string;
   frontContent: string;
   frontFormula?: string;
+  diagramSvg?: string;
+  image?: string;
   backExplanation: string;
   backKeyPoints: string[];
   mnemonic?: string;

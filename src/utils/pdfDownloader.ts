@@ -325,6 +325,12 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
             <span class="q-num">Q${idx + 1}.</span> ${q.questionText}
           </div>
           
+          ${q.diagramSvg ? `
+            <div style="margin: 8px auto; text-align: center; max-width: 280px;">
+              ${q.diagramSvg}
+            </div>
+          ` : ''}
+
           <div class="options-grid">
             ${q.options.map((opt, oIdx) => `
               <div class="option-item">

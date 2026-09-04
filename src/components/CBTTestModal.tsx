@@ -126,7 +126,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               };
             });
             setQuestions(mappedQs);
-            setTimeLeftSeconds(mappedQs.length * 60);
+            setTimeLeftSeconds((test.durationMinutes || 15) * 60);
           } else {
             console.error('Supabase query returned no questions or error:', error);
             setErrorMsg(error ? error.message : `No questions found for chapter: ${chapterName} in database.`);
@@ -137,7 +137,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               explanation: cleanOcrText(q.explanation)
             }));
             setQuestions(fallback);
-            setTimeLeftSeconds(fallback.length * 60 || 3600);
+            setTimeLeftSeconds((test.durationMinutes || 15) * 60);
           }
         } else {
           console.error('Supabase client is not configured');
@@ -149,7 +149,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             explanation: cleanOcrText(q.explanation)
           }));
           setQuestions(fallback);
-          setTimeLeftSeconds(fallback.length * 60 || 3600);
+          setTimeLeftSeconds((test.durationMinutes || 15) * 60);
         }
       } catch (err: any) {
         console.error('Error loading dynamic questions:', err);
@@ -430,6 +430,19 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   <div className="text-xs sm:text-sm font-semibold text-gray-900 leading-relaxed">
                     {currentQ.questionText}
                   </div>
+
+                  {/* Diagram / Visual Rendering */}
+                  {currentQ.diagramSvg && (
+                    <div
+                      className="my-3 p-3 bg-gray-50 border border-gray-200 rounded-lg flex justify-center items-center overflow-x-auto shadow-2xs"
+                      dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg }}
+                    />
+                  )}
+                  {currentQ.image && !currentQ.diagramSvg && (
+                    <div className="my-3 p-2 bg-gray-50 border border-gray-200 rounded-lg flex justify-center items-center">
+                      <img src={currentQ.image} alt="Question Diagram" className="max-h-56 rounded object-contain" />
+                    </div>
+                  )}
 
                   {/* Options List */}
                   <div className="space-y-2 pt-1">
@@ -748,6 +761,18 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <p className="text-xs text-gray-800 font-medium leading-relaxed">
                           {q.questionText}
                         </p>
+
+                        {q.diagramSvg && (
+                          <div
+                            className="my-2.5 p-2.5 bg-gray-50 border border-gray-200 rounded-lg flex justify-center items-center overflow-x-auto"
+                            dangerouslySetInnerHTML={{ __html: q.diagramSvg }}
+                          />
+                        )}
+                        {q.image && !q.diagramSvg && (
+                          <div className="my-2.5 p-2 bg-gray-50 border border-gray-200 rounded-lg flex justify-center items-center">
+                            <img src={q.image} alt="Question Diagram" className="max-h-48 rounded object-contain" />
+                          </div>
+                        )}
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 my-2.5">
                           {q.options.map((opt, oIdx) => (

@@ -146,7 +146,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 1: The Living World, Biological Classification, Plant Kingdom & Animal Kingdom (45 High-Yield NCERT Questions)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -169,7 +169,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 2: Morphology of Flowering Plants, Anatomy of Flowering Plants, Animal Tissues & Cockroach/Frog',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -192,7 +192,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 3: Cell: The Unit of Life, Biomolecules & Cell Cycle/Division (Mitosis & Meiosis)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -201,7 +201,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 High-Yield Questions on Organelles, Enzyme Kinetics & Meiotic Prophase I',
       'Sub-phases of Prophase I, Activation Energy & Secondary Metabolites',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       'All India Rank Prediction'
     ],
     questions: get45(FINGERTIPS_BIO_CH08_MCQS),
@@ -215,7 +215,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 4: Photosynthesis (Light/Dark, C3/C4), Respiration (Glycolysis, Krebs, ETS) & Plant Growth Regulators (Auxin, GA, Cytokinin, Ethylene, ABA)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -224,7 +224,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 High-Frequency Bioenergetics & Hormone Questions',
       'Kranz Anatomy, ATP Yield Calculations & Photolysis of Water',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       'Instant Scorecard with Weak Chapter Diagnostics'
     ],
     questions: get45(FINGERTIPS_BIO_CH11_MCQS),
@@ -238,7 +238,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 5: Breathing & Gas Exchange, Body Fluids & ECG, Excretion & RAAS, Locomotion, Neural System & Endocrine Hormones',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -247,7 +247,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 Clinical & Physiological Mechanism Questions',
       'Counter-Current Multiplier, Sliding Filament, Action Potential & Cardiac Cycle',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       'Verified Step-by-Step Explanations'
     ],
     questions: get45(FINGERTIPS_BIO_CH15_MCQS),
@@ -261,7 +261,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 6: Sexual Reproduction in Flowering Plants, Human Reproduction & Reproductive Health (Contraception & ART)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -270,7 +270,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 NCERT Questions on Double Fertilisation, Spermatogenesis & IUDs',
       'Outbreeding devices, Menstrual Cycle phases & MTP/IVF protocols',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       '100% NCERT Verbatim Solutions'
     ],
     questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS),
@@ -284,7 +284,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 7: Principles of Inheritance, Molecular Basis of Inheritance (DNA, Replication, Transcription, Lac Operon) & Evolution (Hardy-Weinberg)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -293,7 +293,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 High-Weightage Genetics & Molecular Biology Questions',
       'Pedigree Charts, Griffith/Hershey-Chase Experiments & Human Evolution',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       'AIR & National Percentile Benchmark'
     ],
     questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS),
@@ -307,7 +307,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 8 & 9: Human Health & Disease, Microbes in Welfare, Biotech Principles (pBR322, PCR) & Biotech Applications (Bt Cotton, RNAi, Humulin)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -316,7 +316,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 Questions on Immunity, Vaccines, Restriction Enzymes & Bioreactors',
       'Malaria Cycle, Antibodies, Gene Therapy & Downstream Processing',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       'Detailed Official MTG Solutions'
     ],
     questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS),
@@ -330,7 +330,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Unit 10: Organisms and Populations (Growth Models & Interactions), Ecosystem (Productivity & Pyramids) & Biodiversity and Conservation (Hotspots & Sanctuaries)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -339,7 +339,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 NCERT Ecology Questions (dN/dt equations, 10% law, Evil Quartet)',
       'Latitudinal gradients, In-situ vs Ex-situ & Sacred Groves',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       'Instant Weak Area Analytics'
     ],
     questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS),
@@ -353,7 +353,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Full NCERT Biology Syllabus (Class 11 & Class 12 Combined) - Section A 45 Questions',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -362,7 +362,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 Full Syllabus Questions with Balanced Botany & Zoology Distribution',
       'A&R, Statement Based, Matching & Experimental Drills',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       '100% Verified MTG Official Answer Key'
     ],
     questions: get45(NEET_MODEL_TEST_PAPER_1, 0),
@@ -376,7 +376,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Full NCERT Biology Syllabus (Class 11 & Class 12 Combined) - Section B 45 Questions',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -385,7 +385,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     features: [
       '45 Full Syllabus Questions Covering Enzymes, Hormones, Genetics & Ecology',
       'Photolysis, RAAS, Meiosis Stages & Recombinant DNA',
-      '45 Mins CBT Duration & 180 Marks',
+      '15 Mins Speed CBT Duration & 180 Marks',
       '100% Verified MTG Official Answer Key'
     ],
     questions: get45(NEET_MODEL_TEST_PAPER_2, 0),
@@ -403,7 +403,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 01: What is Living, Diversity, Binomial Nomenclature, Taxonomic Hierarchy & Aids',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -420,7 +420,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 02: Monera, Protista, Fungi, Viruses, Viroids & Lichens',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -437,7 +437,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 03: Algae (Chlorophyceae, Phaeophyceae, Rhodophyceae), Bryophytes, Pteridophytes & Gymnosperms',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -454,7 +454,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 04: Non-Chordates (Porifera to Hemichordata) & Chordates (Cyclostomata to Mammalia)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -471,7 +471,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 05: Root, Stem, Leaf Modifications, Inflorescence, Flower Anatomy, Fruit & Families',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -488,7 +488,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 06: Meristematic & Permanent Tissues, Vascular Bundles, Dicot/Monocot Anatomy & Secondary Growth',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -505,7 +505,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 07: Epithelial, Connective, Muscular & Neural Tissues, Cockroach Morphology & Frog Anatomy',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -522,7 +522,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 08: Prokaryotic & Eukaryotic Cells, Endomembrane System, Mitochondria, Plastids & Nucleus',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -539,7 +539,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 09: Amino acids, Proteins, Lipids, Nucleic Acids, Cellular Pool & Enzyme Action/Kinetics',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -556,7 +556,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 10: Interphase (G1, S, G2), Mitosis & Meiosis I/II with Sub-phases',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -573,7 +573,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 11: Light Reaction, Z-Scheme, Calvin Cycle (C3), Hatch & Slack (C4) & Factors',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -590,7 +590,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 12: Glycolysis, Link Reaction, Krebs Cycle, ETS, ATP Yield & RQ Values',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -607,7 +607,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 13: Growth Kinetics, Plasticity & PGRs (Auxin, GA, Cytokinin, Ethylene, ABA)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -624,7 +624,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 14: Respiratory Volumes, Gas Transport, Regulation & Disorders (Asthma, Emphysema)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -641,7 +641,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 15: Blood Elements, Coagulation, Cardiac Cycle, ECG Waves & Double Circulation',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -658,7 +658,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 16: Nephron, Urine Formation, Counter-Current Mechanism, RAAS Regulation & Disorders',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -675,7 +675,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 17: Sarcomere, Sliding Filament Theory, Human Skeleton (206 bones), Joints & Disorders',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -692,7 +692,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 18: Neuron Structure, Action Potential, Synaptic Transmission & Human Brain Regions',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -709,7 +709,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 11 Chapter 19: Endocrine Glands (Pituitary, Thyroid, Adrenal, Pancreas), Hormones & Mechanism of Action',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -728,7 +728,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 01: Microsporogenesis, Megasporogenesis, Pollination, Outbreeding Devices, Double Fertilisation & Apomixis',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -745,7 +745,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 02: Spermatogenesis, Oogenesis, Menstrual Cycle, Fertilisation, Implantation & Parturition',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -762,7 +762,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 03: Contraceptive Methods, IUDs, MTP Act, STIs & Assisted Reproductive Technologies (ART)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Easy',
@@ -779,7 +779,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 04: Mendelian Genetics, Linkage, Recombination, Sex Determination & Genetic Disorders (Pedigree, Aneuploidy)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -796,7 +796,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 05: DNA Structure, Nucleosomes, Replication, Transcription, Genetic Code, Translation, Lac Operon & DNA Fingerprinting',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -813,7 +813,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 06: Origin of Life, Evidences (Homology/Analogy), Adaptive Radiation, Hardy-Weinberg & Human Evolution',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -830,7 +830,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 07: Pathogens (Malaria, Typhoid), Innate/Acquired Immunity, Antibodies, AIDS, Cancer & Drug Abuse',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -847,7 +847,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 08: Household Products, Industrial Fermentation, Sewage Treatment (BOD/Flocs), Biogas & Biocontrol',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Easy',
@@ -864,7 +864,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 09: Restriction Endonucleases, Agarose Gel Electrophoresis, pBR322 Cloning Vector, PCR & Bioreactors',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -881,7 +881,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 10: Bt Cotton, RNA Interference (dsRNA), Humulin Recombinant Insulin, ADA Gene Therapy & Transgenics',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -898,7 +898,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 11: Adaptations, Population Growth Models (dN/dt equations) & Interspecific Interactions (Mutualism, Competition)',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -915,7 +915,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 12: Stratification, Productivity (GPP/NPP), Decomposition Steps, PAR Energy Flow & Eltonian Pyramids',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Medium',
@@ -932,7 +932,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Class 12 Chapter 13: Latitudinal Gradients, Species-Area Curve, Evil Quartet, 34 Hotspots, In-situ/Ex-situ & Sacred Groves',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Easy',
@@ -953,7 +953,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Full NEET Chemistry: Mole Concept, Thermodynamics, Equilibrium, Coordination, GOC, Hydrocarbons & Carbonyls',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -970,7 +970,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Full NEET Chemistry: Electrochemistry, Kinetics, d/f-Block, Alcohols, Phenols, Ethers & Amines',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -991,7 +991,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Units & Dimensions, Vectors, Motion in 1D/2D, Laws of Motion & Gravitation',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -1008,7 +1008,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     exam: 'NEET',
     syllabus: 'Electrostatics, Gauss Law, Capacitance, Current Electricity, Magnetism & Biot-Savart Law',
     totalQuestions: 45,
-    durationMinutes: 45,
+    durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
     difficulty: 'Hard',
@@ -1024,270 +1024,265 @@ export const TEST_SERIES_DATA: TestItem[] = [
 // EXPANSIVE, HIGH-YIELD FLASHCARDS DATABASE (30+ RICH CARDS)
 // ==========================================
 export const FLASHCARDS_DATA: Flashcard[] = [
-  // BIOLOGY FLASHCARDS
+  // ==========================================
+  // BIOLOGY FLASHCARDS (BOTANY & ZOOLOGY)
+  // ==========================================
   {
     id: 'fc-bio-1',
     subject: 'Biology',
-    category: 'Formulas',
-    topic: 'Population Ecology - Growth Models',
-    frontTitle: 'Exponential vs Logistic Growth Equations',
-    frontContent: 'State the differential equations for Exponential (unlimited resources) and Logistic (carrying capacity K) population growth.',
-    frontFormula: 'dN/dt = rN  vs  dN/dt = rN ((K - N) / K)',
-    backExplanation: '1. Exponential Growth (J-shaped curve): dN/dt = rN. Integral form: N_t = N_0 * e^(rt). Occurs when resources are unlimited.\n2. Logistic Growth (Verhulst-Pearl S-shaped / Sigmoid curve): dN/dt = rN((K - N)/K). More realistic model as resources are finite.',
+    category: 'Diagrams',
+    subCategory: 'Zoology / Physiology',
+    topic: 'Human Circulatory System & Double Circulation',
+    frontTitle: 'Human Heart Anatomy & Double Circulation',
+    frontContent: 'Trace the flow of deoxygenated and oxygenated blood through chambers, valves and great vessels.',
+    diagramSvg: `<svg viewBox="0 0 300 200" class="w-full h-44 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="200" rx="8" fill="#F8FAFC"/><path d="M70,20 L70,80" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/><text x="35" y="45" font-size="9" fill="#1E40AF" font-weight="bold">Vena Cava</text><rect x="50" y="80" width="80" height="45" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/><text x="60" y="105" font-size="10" fill="#1E40AF" font-weight="bold">Right Atrium</text><line x1="90" y1="125" x2="90" y2="138" stroke="#1E40AF" stroke-width="2" stroke-dasharray="3,2"/><rect x="50" y="140" width="80" height="45" rx="6" fill="#BFDBFE" stroke="#3B82F6" stroke-width="2"/><text x="56" y="165" font-size="10" fill="#1E40AF" font-weight="bold">Right Ventricle</text><path d="M130,150 Q160,110 170,40" stroke="#3B82F6" stroke-width="4" fill="none"/><text x="175" y="45" font-size="9" fill="#1E40AF" font-weight="bold">Pulmonary Art. (to Lungs)</text><path d="M230,20 L230,80" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/><text x="238" y="45" font-size="9" fill="#991B1B" font-weight="bold">Pulmonary Veins</text><rect x="170" y="80" width="80" height="45" rx="6" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/><text x="180" y="105" font-size="10" fill="#991B1B" font-weight="bold">Left Atrium</text><line x1="210" y1="125" x2="210" y2="138" stroke="#991B1B" stroke-width="2" stroke-dasharray="3,2"/><rect x="170" y="140" width="80" height="45" rx="6" fill="#FECACA" stroke="#EF4444" stroke-width="2"/><text x="178" y="165" font-size="10" fill="#991B1B" font-weight="bold">Left Ventricle</text><path d="M210,140 Q150,50 120,20" stroke="#EF4444" stroke-width="5" fill="none"/><text x="80" y="20" font-size="9" fill="#991B1B" font-weight="bold">Systemic Aorta</text></svg>`,
+    backExplanation: '1. Deoxygenated blood: Vena Cava -> Right Atrium -> Tricuspid Valve -> Right Ventricle -> Pulmonary Artery -> Lungs.\n2. Oxygenated blood: Pulmonary Veins -> Left Atrium -> Bicuspid (Mitral) Valve -> Left Ventricle -> Aorta -> Systemic Circulation.',
     backKeyPoints: [
-      'r = Intrinsic rate of natural increase (Biotic potential)',
-      'K = Carrying capacity (maximum population environment can sustain)',
-      '(K - N)/K represents Environmental Resistance factor'
+      'SA Node (Pacemaker) generates 70-75 impulses/min in upper right wall of right atrium',
+      'Stroke Volume = 70 mL, Cardiac Output = ~5000 mL/min (5 L/min)',
+      'Tricuspid on right (3 flaps), Bicuspid/Mitral on left (2 flaps)'
     ],
-    mnemonic: 'Remember: J-shape is Just rN, S-shape Slows down at K!',
+    mnemonic: 'LAB RAT: Left Atrium Bicuspid, Right Atrium Tricuspid!',
     difficulty: 'Medium'
   },
   {
     id: 'fc-bio-2',
     subject: 'Biology',
-    category: 'Concepts',
-    topic: 'Genetics - Mendelian Dihybrid Ratio',
-    frontTitle: 'Mendelian Dihybrid Phenotypic & Genotypic Ratios',
-    frontContent: 'What are the exact phenotypic and genotypic ratios in a standard dihybrid cross F2 generation?',
-    backExplanation: 'Phenotypic Ratio = 9 : 3 : 3 : 1 (9 Round Yellow, 3 Round Green, 3 Wrinkled Yellow, 1 Wrinkled Green).\nGenotypic Ratio = 1:2:1 : 2:4:2 : 1:2:1 (9 different genotypes across 16 zygotic combinations).',
+    category: 'Diagrams',
+    subCategory: 'Zoology / Physiology',
+    topic: 'Human Excretory System - Nephron Structure',
+    frontTitle: 'Nephron Segments & Counter-Current Mechanism',
+    frontContent: 'Identify key functional segments of nephron and their primary reabsorption/secretion roles.',
+    diagramSvg: `<svg viewBox="0 0 300 200" class="w-full h-44 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="200" rx="8" fill="#F8FAFC"/><circle cx="60" cy="50" r="18" fill="#FEF08A" stroke="#CA8A04" stroke-width="2"/><circle cx="60" cy="50" r="10" fill="#EF4444" opacity="0.6"/><text x="15" y="30" font-size="9" fill="#854D0E" font-weight="bold">Malpighian Body (Glomerulus)</text><path d="M78,50 C110,30 110,80 130,60" stroke="#EAB308" stroke-width="6" fill="none"/><text x="90" y="25" font-size="9" fill="#854D0E" font-weight="bold">PCT (70-80% Reabsorption)</text><path d="M130,60 L130,160" stroke="#3B82F6" stroke-width="4" fill="none"/><text x="60" y="120" font-size="8" fill="#1E40AF">Desc. Limb (Permeable to H2O)</text><path d="M130,160 C130,185 170,185 170,160" stroke="#6366F1" stroke-width="4" fill="none"/><text x="120" y="195" font-size="8" fill="#4338CA" font-weight="bold">Loop of Henle</text><path d="M170,160 L170,60" stroke="#EC4899" stroke-width="5" fill="none"/><text x="175" y="120" font-size="8" fill="#BE185D">Asc. Limb (Impermeable to H2O)</text><path d="M170,60 C190,40 210,70 230,50" stroke="#10B981" stroke-width="5" fill="none"/><text x="185" y="35" font-size="8" fill="#047857" font-weight="bold">DCT (Conditional Na+/H2O)</text><path d="M230,20 L230,180" stroke="#059669" stroke-width="8" stroke-linecap="round"/><text x="238" y="100" font-size="9" fill="#065F46" font-weight="bold">Collecting Duct</text></svg>`,
+    backExplanation: '• Glomerulus + Bowman Capsule = Malpighian body (Ultrafiltration, GFR = 125 mL/min = 180 L/day).\n• PCT: 70-80% electrolytes and water reabsorbed (simple cuboidal brush border).\n• Henles Loop Descending: Permeable to water, impermeable to electrolytes (concentrates filtrate).\n• Henles Loop Ascending: Impermeable to water, actively transports electrolytes (dilutes filtrate).\n• DCT: Conditional reabsorption of Na+ and water under Aldosterone & ADH.',
     backKeyPoints: [
-      'Homozygous dominant RRYY = 1/16',
-      'Double heterozygous RrYy = 4/16 = 1/4',
-      'Double homozygous recessive rryy = 1/16'
+      'Counter-current multiplier occurs in Loop of Henle and Vasa Recta',
+      'Osmolarity rises from 300 mOsmol/L in cortex to 1200 mOsmol/L in inner medulla',
+      'Juxtaglomerular (JG) cells release Renin upon fall in GFR'
     ],
-    mnemonic: 'Phone Number trick: 121-242-121 for genotypes!',
-    difficulty: 'Medium'
+    mnemonic: 'PCT = Primary Collector of 80% Total electrolytes!',
+    difficulty: 'Hard'
   },
   {
     id: 'fc-bio-3',
     subject: 'Biology',
     category: 'Diagrams',
-    topic: 'Plant Physiology - C4 Pathway (Kranz Anatomy)',
-    frontTitle: 'Primary CO2 Acceptor & Enzyme in C4 Plants',
-    frontContent: 'Identify the primary CO2 acceptor and enzyme in mesophyll cells, and the Calvin cycle location in C4 plants.',
-    backExplanation: 'Primary CO2 Acceptor: Phosphoenolpyruvate (PEP) - 3 carbon compound in Mesophyll cells.\nEnzyme: PEP carboxylase (PEPcase) - lacks RuBisCO in mesophyll.\nFirst stable product: Oxaloacetic acid (OAA) - 4C dicarboxylic acid.\nCalvin Cycle occurs exclusively in Bundle Sheath cells where RuBisCO is concentrated.',
+    subCategory: 'Botany / Physiology',
+    topic: 'Photosynthesis - C4 Pathway & Kranz Anatomy',
+    frontTitle: 'C4 Leaf Kranz Anatomy & PEPcase Fixation',
+    frontContent: 'Describe the anatomical differences and dual CO2 fixation in mesophyll vs bundle sheath cells of C4 plants.',
+    diagramSvg: `<svg viewBox="0 0 300 180" class="w-full h-40 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="180" rx="8" fill="#F0FDF4"/><circle cx="150" cy="90" r="28" fill="#BBF7D0" stroke="#16A34A" stroke-width="2"/><text x="126" y="94" font-size="9" fill="#15803D" font-weight="bold">Vascular Bundle</text><circle cx="150" cy="90" r="54" fill="none" stroke="#22C55E" stroke-width="20" stroke-dasharray="16,4"/><text x="150" y="155" text-anchor="middle" font-size="9" fill="#166534" font-weight="bold">Bundle Sheath Cells (RuBisCO, No Grana, Rich CO2)</text><circle cx="150" cy="90" r="76" fill="none" stroke="#86EFAC" stroke-width="12" stroke-dasharray="22,6"/><text x="150" y="20" text-anchor="middle" font-size="9" fill="#166534" font-weight="bold">Mesophyll Cells (PEPcase, C4 Acid OAA Formation)</text></svg>`,
+    backExplanation: '1. Mesophyll Cells: Contain PEP carboxylase (PEPcase). Fixes atmospheric CO2 with PEP (3C) into Oxaloacetate OAA (4C). Lacks RuBisCO.\n2. Bundle Sheath Cells: Large, wreath-like (Kranz) cells with thick impermeable walls, rich in RuBisCO but lacking grana/PSII. Calvin cycle occurs here with zero photorespiration.',
     backKeyPoints: [
-      'Kranz anatomy: Wreath-like large bundle sheath cells with thick suberized walls',
-      'Zero photorespiration: High photosynthetic efficiency under intense light and temperature',
-      'Examples: Sugarcane, Maize, Sorghum'
+      'C4 plants: Sugarcane, Maize, Sorghum',
+      'Zero photorespiration allows maximum productivity in hot, bright tropical climates',
+      'Optimum temperature: 30°C - 45°C (higher than C3 20°C - 25°C)'
     ],
-    mnemonic: 'PEP catches CO2 to form OAA in Mesophyll!',
+    mnemonic: 'PEP in Mesophyll catches CO2, feeds RuBisCO in Bundle Sheath!',
     difficulty: 'Hard'
   },
   {
     id: 'fc-bio-4',
     subject: 'Biology',
-    category: 'Reactions',
-    topic: 'Cell Respiration - Krebs Cycle Energetics',
-    frontTitle: 'ATP & Reduced Coenzyme Yield per Glucose',
-    frontContent: 'What is the net yield of NADH, FADH2, GTP/ATP from 1 molecule of Glucose during Krebs Cycle (2 turns)?',
-    frontFormula: '2 Acetyl-CoA -> 6 NADH + 2 FADH2 + 2 GTP (ATP)',
-    backExplanation: 'For 2 turns of Krebs cycle (1 Glucose):\n• 6 NADH -> 6 * 3 = 18 ATP (via ETS complex I)\n• 2 FADH2 -> 2 * 2 = 4 ATP (via ETS complex II)\n• 2 GTP -> 2 ATP (Substrate-level phosphorylation)\nTotal from Krebs cycle = 24 ATP molecules.',
+    category: 'Diagrams',
+    subCategory: 'Genetics / Molecular',
+    topic: 'DNA Packaging - Nucleosome Core Particle',
+    frontTitle: 'Nucleosome Octamer & 200 bp DNA Wrapping',
+    frontContent: 'What is the molecular composition of the histone octamer and how many base pairs wrap around each nucleosome?',
+    diagramSvg: `<svg viewBox="0 0 300 170" class="w-full h-38 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="170" rx="8" fill="#FDF4FF"/><ellipse cx="150" cy="85" rx="50" ry="35" fill="#E879F9" stroke="#C026D3" stroke-width="2"/><text x="115" y="90" font-size="9" fill="#701A75" font-weight="bold">Histone Octamer (H2A, H2B, H3, H4 x 2)</text><path d="M60,60 C90,20 210,20 240,60 C260,90 240,140 150,140 C80,140 50,100 60,60" stroke="#2563EB" stroke-width="5" fill="none"/><rect x="80" y="110" width="22" height="35" rx="4" fill="#F43F5E" stroke="#BE123C" stroke-width="1.5"/><text x="75" y="155" font-size="8" fill="#9F1239" font-weight="bold">H1 Histone</text><text x="150" y="165" text-anchor="middle" font-size="9" fill="#1E293B" font-weight="bold">1.75 Turns of DNA (200 base pairs per nucleosome)</text></svg>`,
+    backExplanation: '• Histone Octamer: Positively charged basic proteins (rich in Lysine and Arginine) made of two molecules each of H2A, H2B, H3, and H4.\n• DNA wrapping: ~1.75 turns of negatively charged double helix containing 200 base pairs of DNA (146 bp core + linker DNA).\n• H1 Histone: Plugs linker DNA at the entry/exit site.',
     backKeyPoints: [
-      'Succinyl-CoA to Succinate is the ONLY substrate-level phosphorylation step',
-      'Succinate to Fumarate is the ONLY FADH2 generation step (enzyme: Succinate dehydrogenase in inner membrane)',
-      'Total aerobic respiration yield = 36 or 38 ATP'
+      'Euchromatin: Loosely packed, lightly staining, transcriptionally active',
+      'Heterochromatin: Densely packed, darkly staining, transcriptionally inactive'
     ],
-    mnemonic: '6-2-2 Rule: 6 NADH, 2 FADH2, 2 GTP per Glucose in Krebs!',
-    difficulty: 'Hard'
+    mnemonic: 'Octamer = 2 x (H2A + H2B + H3 + H4), sealed by H1 outside!',
+    difficulty: 'Medium'
   },
   {
     id: 'fc-bio-5',
     subject: 'Biology',
-    category: 'Concepts',
-    topic: 'Molecular Biology - Lac Operon',
-    frontTitle: 'Structural Genes & Products of Lac Operon',
-    frontContent: 'What are the products encoded by genes z, y, and a of the E. coli lac operon?',
-    backExplanation: '• z gene -> beta-galactosidase (hydrolyzes lactose into glucose + galactose)\n• y gene -> permease (increases cell membrane permeability to beta-galactosides)\n• a gene -> transacetylase (transfers acetyl group to beta-galactosides)\n• i gene (regulatory) -> codes for repressor protein constitutively.',
+    category: 'Formulas',
+    subCategory: 'Ecology / Population',
+    topic: 'Population Growth - Exponential vs Logistic',
+    frontTitle: 'Exponential (J-curve) vs Logistic (S-curve) Models',
+    frontContent: 'State differential equations and environmental resistance for Verhulst-Pearl logistic growth.',
+    frontFormula: 'dN/dt = rN ((K - N) / K)',
+    backExplanation: '• Exponential: dN/dt = rN (Integral: Nt = N0 * e^(rt)). Occurs with unlimited resources.\n• Logistic: dN/dt = rN * ((K - N) / K). Realistic model with carrying capacity K and sigmoid curve.',
     backKeyPoints: [
-      'Inducer: Allolactose (binds to repressor and inactivates it)',
+      'r = Intrinsic rate of natural increase',
+      'K = Carrying capacity (environmental limit)',
+      '(K - N)/K is the fraction of carrying capacity still available'
+    ],
+    mnemonic: 'J-shape = Jet speed, S-shape = Settles at K!',
+    difficulty: 'Medium'
+  },
+  {
+    id: 'fc-bio-6',
+    subject: 'Biology',
+    category: 'Concepts',
+    subCategory: 'Genetics / Molecular',
+    topic: 'Gene Regulation - Lac Operon Structure',
+    frontTitle: 'Structural Genes & Products of Lac Operon',
+    frontContent: 'List the enzymes encoded by z, y, and a structural genes and identify the natural inducer.',
+    backExplanation: '• z gene -> beta-galactosidase (hydrolyzes lactose to glucose + galactose)\n• y gene -> permease (increases membrane permeability to beta-galactosides)\n• a gene -> transacetylase (acetyl transferase)\n• i gene -> synthesizes repressor protein constitutively.',
+    backKeyPoints: [
+      'Inducer: Allolactose (inactivates lac repressor)',
       'Operon is inducible and under both negative and positive control',
       'Discovered by Francois Jacob and Jacques Monod'
     ],
     mnemonic: 'Z-Y-A = B-P-T (Beta-gal, Permease, Transacetylase)',
     difficulty: 'Medium'
   },
-  {
-    id: 'fc-bio-6',
-    subject: 'Biology',
-    category: 'Formulas',
-    topic: 'Biodiversity - Species-Area Relationship',
-    frontTitle: 'Alexander von Humboldt Species-Area Curve',
-    frontContent: 'State the rectangular hyperbola equation and logarithmic linear form for species-area relationship.',
-    frontFormula: 'S = C * A^Z  ->  log S = log C + Z * log A',
-    backExplanation: 'On logarithmic scale, the relationship is a straight line: log S = log C + Z log A.\n• S = Species richness\n• A = Area\n• Z = Slope of line (regression coefficient, usually 0.1 to 0.2 for local regions; 0.6 to 1.2 for entire continents)\n• C = Y-intercept.',
-    backKeyPoints: [
-      'Frugivorous birds and mammals in tropical forests of continents give Z = 1.15',
-      'Steeper slope (higher Z) means species richness rises rapidly with area'
-    ],
-    mnemonic: 'Log S = Log C + Z Log A (Straight line on log-log paper)',
-    difficulty: 'Medium'
-  },
-  {
-    id: 'fc-bio-7',
-    subject: 'Biology',
-    category: 'Concepts',
-    topic: 'Human Physiology - RAAS Pathway',
-    frontTitle: 'Renin-Angiotensin-Aldosterone System (RAAS)',
-    frontContent: 'What triggers renin release and how does Angiotensin II restore blood pressure and GFR?',
-    backExplanation: '1. Fall in GFR / Blood Pressure stimulates Juxtaglomerular (JG) cells to secrete Renin.\n2. Renin converts Angiotensinogen -> Angiotensin I.\n3. ACE converts Angiotensin I -> Angiotensin II (potent vasoconstrictor).\n4. Angiotensin II activates Adrenal Cortex to release Aldosterone -> reabsorbs Na+ and water from DCT.\n5. Blood volume, BP and GFR are fully restored.',
-    backKeyPoints: [
-      'ANF (Atrial Natriuretic Factor) from heart acts as an antagonistic check on RAAS',
-      'ANF causes vasodilation and decreases blood pressure'
-    ],
-    mnemonic: 'Renin -> Angio II -> Aldosterone -> Na+ & Water retention!',
-    difficulty: 'Hard'
-  },
-  {
-    id: 'fc-bio-8',
-    subject: 'Biology',
-    category: 'Concepts',
-    topic: 'Biotechnology - Vectors & PCR',
-    frontTitle: 'pBR322 Selectable Markers & PCR Steps',
-    frontContent: 'Explain insertional inactivation in pBR322 and list the 3 thermal steps of PCR.',
-    backExplanation: 'pBR322 has two antibiotic resistance genes: ampR and tetR.\n• Inserting foreign gene into BamHI site of tetR causes loss of tetracycline resistance (insertional inactivation).\n• PCR Steps: 1. Denaturation (94°C) -> 2. Annealing of primers (50-60°C) -> 3. Extension via Taq Polymerase (72°C from Thermus aquaticus).',
-    backKeyPoints: [
-      'Selectable markers distinguish transformants from non-transformants',
-      '1 billion copies produced after ~30 cycles of PCR'
-    ],
-    mnemonic: 'D-A-E: Denature (94°C), Anneal (54°C), Extend (72°C)!',
-    difficulty: 'Medium'
-  },
 
-  // CHEMISTRY FLASHCARDS
+  // ==========================================
+  // CHEMISTRY FLASHCARDS (PHYSICAL, ORGANIC, INORGANIC)
+  // ==========================================
   {
     id: 'fc-chem-1',
     subject: 'Chemistry',
-    category: 'Reactions',
-    topic: 'Organic - Aldol vs Cannizzaro',
-    frontTitle: 'Aldol Condensation vs Cannizzaro Reaction',
-    frontContent: 'What is the fundamental structural difference determining whether an aldehyde undergoes Aldol or Cannizzaro reaction?',
-    backExplanation: '• Aldol Condensation: Requires AT LEAST ONE alpha-hydrogen (reagent: dil. NaOH). Forms beta-hydroxy aldehyde which dehydrates to alpha,beta-unsaturated aldehyde.\n• Cannizzaro Reaction: Aldehydes with NO alpha-hydrogen (e.g. Formaldehyde HCHO, Benzaldehyde C6H5CHO). Reagent: Conc. 50% NaOH. Undergoes self-oxidation-reduction to alcohol and acid salt.',
+    category: 'Diagrams',
+    subCategory: 'Physical / Electrochemistry',
+    topic: 'Electrochemistry - Daniell Galvanic Cell',
+    frontTitle: 'Galvanic Cell Notation & Standard Cell Potential',
+    frontContent: 'Identify anode, cathode, electron flow direction and calculate standard EMF of Daniell Cell.',
+    diagramSvg: `<svg viewBox="0 0 300 190" class="w-full h-40 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="190" rx="8" fill="#F8FAFC"/><rect x="30" y="70" width="90" height="90" rx="4" fill="#DBEAFE" stroke="#64748B" stroke-width="2"/><rect x="180" y="70" width="90" height="90" rx="4" fill="#CFFAFE" stroke="#64748B" stroke-width="2"/><rect x="55" y="40" width="16" height="90" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/><text x="45" y="30" font-size="9" fill="#1E293B" font-weight="bold">Zn Anode (-)</text><text x="45" y="150" font-size="8" fill="#1E40AF">1M ZnSO4</text><rect x="225" y="40" width="16" height="90" fill="#F97316" stroke="#C2410C" stroke-width="1.5"/><text x="215" y="30" font-size="9" fill="#9A3412" font-weight="bold">Cu Cathode (+)</text><text x="215" y="150" font-size="8" fill="#0E7490">1M CuSO4</text><path d="M63,40 L63,15 L140,15" stroke="#334155" stroke-width="2" fill="none"/><circle cx="150" cy="15" r="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/><text x="144" y="19" font-size="9" fill="#2563EB" font-weight="bold">V</text><path d="M160,15 L233,15 L233,40" stroke="#334155" stroke-width="2" fill="none"/><path d="M95,85 L95,60 L205,60 L205,85" stroke="#F59E0B" stroke-width="8" fill="none" stroke-linecap="round"/><text x="120" y="55" font-size="8" fill="#B45309" font-weight="bold">Salt Bridge (KCl)</text><text x="150" y="180" text-anchor="middle" font-size="9" fill="#334155" font-weight="bold">E°cell = E°(Cu2+/Cu) - E°(Zn2+/Zn) = +1.10 V</text></svg>`,
+    backExplanation: '• Anode (Oxidation, Negative): Zn(s) -> Zn2+(aq) + 2e- (E° = -0.76 V)\n• Cathode (Reduction, Positive): Cu2+(aq) + 2e- -> Cu(s) (E° = +0.34 V)\n• Cell EMF: E°cell = E°cathode - E°anode = 0.34 - (-0.76) = +1.10 V.\n• Electrons flow from Zn anode to Cu cathode through external wire.',
     backKeyPoints: [
-      'Acetaldehyde CH3CHO has 3 alpha-H -> Aldol',
-      'Formaldehyde HCHO has 0 alpha-H -> Cannizzaro',
-      'Benzaldehyde C6H5CHO has 0 alpha-H -> Cannizzaro'
+      'LOAN rule: Left, Oxidation, Anode, Negative',
+      'Salt bridge maintains electrical neutrality via inert electrolyte (KCl/KNO3 in agar-agar)',
+      'If E_ext > 1.10 V, current reverses and cell acts as electrolytic cell'
     ],
-    mnemonic: 'Alpha-H = Aldol! NO Alpha-H = Cannizzaro!',
+    mnemonic: 'LOAN: Left Anode Oxidizes Negatively!',
     difficulty: 'Medium'
   },
   {
     id: 'fc-chem-2',
     subject: 'Chemistry',
     category: 'Formulas',
-    topic: 'Physical - Nernst Equation & Cell Potential',
-    frontTitle: 'Nernst Equation at 298 K (25°C)',
-    frontContent: 'State the Nernst equation for an electrochemical cell reaction at standard temperature 298 K.',
-    frontFormula: 'E_cell = E°_cell - (0.0591 / n) * log Q',
-    backExplanation: 'At 298 K:\nE_cell = E°_cell - (2.303 RT / nF) log Q = E°_cell - (0.0591 / n) log [Products] / [Reactants].\nAt equilibrium: E_cell = 0 and Q = K_c -> E°_cell = (0.0591 / n) log K_c.',
+    subCategory: 'Physical / Equilibrium',
+    topic: 'Ionic Equilibrium - Buffer Solutions',
+    frontTitle: 'Henderson-Hasselbalch Equation for Buffer pH',
+    frontContent: 'State formulas for acidic and basic buffer pH and condition for maximum buffer capacity.',
+    frontFormula: 'pH = pKa + log([Salt] / [Acid])  ;  pOH = pKb + log([Salt] / [Base])',
+    backExplanation: '• Acidic Buffer: CH3COOH + CH3COONa -> pH = pKa + log([Conjugate Base]/[Weak Acid]).\n• Basic Buffer: NH4OH + NH4Cl -> pOH = pKb + log([Conjugate Acid]/[Weak Base]), where pH = 14 - pOH.\n• Max Buffer Capacity occurs when [Salt] = [Acid], giving pH = pKa.',
     backKeyPoints: [
-      'n = number of moles of electrons transferred in balanced reaction',
-      'Delta G° = -n F E°_cell'
+      'Buffer range: pH = pKa ± 1',
+      'Blood buffer: H2CO3 / HCO3- maintains pH ~ 7.4'
     ],
-    mnemonic: 'E = E° minus 0.0591 over n times log Q',
-    difficulty: 'Hard'
+    mnemonic: 'pH = pKa + Log(Salt over Acid)',
+    difficulty: 'Medium'
   },
   {
     id: 'fc-chem-3',
     subject: 'Chemistry',
-    category: 'Concepts',
-    topic: 'Inorganic - Lanthanoid Contraction',
-    frontTitle: 'Lanthanoid Contraction & Chemical Twins',
-    frontContent: 'Why do 4d and 5d elements like Zr/Hf and Nb/Ta have nearly identical atomic radii and chemical properties?',
-    backExplanation: 'Due to the poor shielding effect of 14 intervening 4f electrons before 5d series filling, the effective nuclear charge (Z_eff) increases substantially, pulling outer electrons inward and compensating for expected shell size increase.',
+    category: 'Reactions',
+    subCategory: 'Organic / Aldehydes & Ketones',
+    topic: 'Aldol Condensation vs Cannizzaro Reaction',
+    frontTitle: 'Alpha-Hydrogen Rule in Carbonyl Reactions',
+    frontContent: 'Compare structural requirements, reagents, and products for Aldol vs Cannizzaro.',
+    backExplanation: '• Aldol: Requires AT LEAST ONE alpha-H (e.g. CH3CHO, CH3COCH3). Reagent: dil. NaOH. Yields beta-hydroxy aldehyde/ketone -> alpha,beta-unsaturated carbonyl upon heating.\n• Cannizzaro: NO alpha-H (e.g. HCHO, C6H5CHO, (CH3)3C-CHO). Reagent: Conc. 50% NaOH. Undergoes self-redox to alcohol and carboxylic acid salt.',
     backKeyPoints: [
-      'Zr (160 pm) and Hf (159 pm) are nearly identical chemical twins',
-      'Makes separation of Zr and Hf extremely difficult',
-      'Causes unusually high densities in 5d transition series'
+      'Cross-Cannizzaro with HCHO: HCHO is always oxidized to formate, other aldehyde reduced to alcohol',
+      'Benzaldehyde gives Benzyl Alcohol + Sodium Benzoate in Cannizzaro'
     ],
-    mnemonic: 'Poor 4f shielding pulls 5d atoms tight!',
+    mnemonic: 'Alpha-H = Aldol! Zero Alpha-H = Cannizzaro!',
     difficulty: 'Medium'
   },
   {
     id: 'fc-chem-4',
     subject: 'Chemistry',
-    category: 'Reactions',
-    topic: 'Organic - SN1 vs SN2 Mechanisms',
-    frontTitle: 'SN1 vs SN2 Nucleophilic Substitution',
-    frontContent: 'Compare kinetics, stereochemistry, solvent preference, and substrate reactivity order for SN1 and SN2.',
-    backExplanation: '• SN1: Unimolecular, 2 steps, Carbocation intermediate, Racemization, Polar Protic solvent (H2O, EtOH), 3° > 2° > 1° > CH3X.\n• SN2: Bimolecular, 1 step concerted, Backside attack, 100% Walden Inversion, Polar Aprotic solvent (DMSO, Acetone, DMF), CH3X > 1° > 2° > 3° (steric hindrance).',
+    category: 'Concepts',
+    subCategory: 'Inorganic / d & f Block',
+    topic: 'Lanthanoid Contraction & Chemical Twins',
+    frontTitle: 'Poor 4f Shielding & Zr/Hf Similarity',
+    frontContent: 'Explain the cause of Lanthanoid Contraction and why Zr (4d) and Hf (5d) have nearly identical radii.',
+    backExplanation: 'Due to imperfect shielding of one 4f electron by another in the intervening 14 elements (La to Lu), effective nuclear charge increases steadily, pulling the 5d electrons inward and canceling the expected shell growth.',
     backKeyPoints: [
-      'Tertiary halides almost always undergo SN1 / E1',
-      'Primary halides almost always undergo SN2 / E2'
+      'Zr (160 pm) and Hf (159 pm) are chemical twins',
+      'Causes extremely high densities in 5d transition elements (Osmium, Iridium ~22.6 g/cm3)',
+      'Basic strength of lanthanoid hydroxides decreases: La(OH)3 > Lu(OH)3'
     ],
-    mnemonic: 'SN1 = 3° & Racemization; SN2 = 1° & Inversion!',
-    difficulty: 'Hard'
+    mnemonic: 'Poor 4f shielding pulls 5d shell tight!',
+    difficulty: 'Medium'
   },
 
-  // PHYSICS FLASHCARDS
+  // ==========================================
+  // PHYSICS FLASHCARDS (MECHANICS, ELECTRODYNAMICS, OPTICS, MODERN)
+  // ==========================================
   {
     id: 'fc-phy-1',
     subject: 'Physics',
-    category: 'Formulas',
-    topic: 'Modern Physics - De Broglie Wavelength',
-    frontTitle: 'De Broglie Wavelength of Accelerated Electron',
-    frontContent: 'What is the direct shortcut formula for De Broglie wavelength of an electron accelerated through potential V volts?',
-    frontFormula: 'λ = 12.27 / √V  Å  =  1.227 / √V  nm',
-    backExplanation: 'De Broglie wavelength λ = h / p = h / √(2m e V).\nPlugging constants h = 6.63 x 10^-34 J s, m = 9.1 x 10^-31 kg, e = 1.6 x 10^-19 C gives:\nλ = 12.27 / √V in Angstroms (Å) or 1.227 / √V in nanometers (nm).',
+    category: 'Diagrams',
+    subCategory: 'Mechanics / Rotational Motion',
+    topic: 'Rotational Dynamics - Pure Rolling on Incline',
+    frontTitle: 'Acceleration & Rolling Race on Incline Plane',
+    frontContent: 'What is the acceleration formula for pure rolling down an incline and who wins the rolling race?',
+    diagramSvg: `<svg viewBox="0 0 300 180" class="w-full h-40 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="180" rx="8" fill="#F8FAFC"/><polygon points="30,150 270,150 270,40" fill="#E2E8F0" stroke="#64748B" stroke-width="2"/><text x="60" y="145" font-size="10" fill="#334155" font-weight="bold">θ</text><circle cx="190" cy="75" r="24" fill="#FDE047" stroke="#CA8A04" stroke-width="2"/><circle cx="190" cy="75" r="3" fill="#000000"/><line x1="190" y1="75" x2="190" y2="120" stroke="#DC2626" stroke-width="2"/><text x="195" y="115" font-size="8" fill="#DC2626" font-weight="bold">mg</text><line x1="190" y1="75" x2="150" y2="100" stroke="#2563EB" stroke-width="2"/><text x="145" y="90" font-size="8" fill="#2563EB" font-weight="bold">a = g sinθ / (1 + K²/R²)</text><path d="M210,65 A 18 18 0 0 1 205,92" stroke="#9333EA" stroke-width="2" fill="none"/><text x="215" y="80" font-size="8" fill="#9333EA" font-weight="bold">ω</text></svg>`,
+    frontFormula: 'a = (g sin θ) / (1 + K²/R²)',
+    backExplanation: '• Total Kinetic Energy: K_total = 1/2 M v^2 * (1 + K^2/R^2).\n• K^2/R^2 values: Solid Sphere (2/5 = 0.4) < Disc/Solid Cylinder (1/2 = 0.5) < Hollow Sphere (2/3 = 0.67) < Ring/Hollow Cylinder (1.0).\n• Smallest K^2/R^2 reaches bottom first: Solid Sphere > Disc > Hollow Sphere > Ring.',
     backKeyPoints: [
-      'For V = 100 Volts: λ = 12.27 / 10 = 1.227 Å',
-      'For Proton: λ = 0.286 / √V Å; For Alpha particle: λ = 0.101 / √V Å'
+      'Static friction provides the required torque for pure rolling but does ZERO work',
+      'Velocity at bottom: v = sqrt(2gh / (1 + K^2/R^2))'
     ],
-    mnemonic: '12.27 over root V in Angstroms for Electron!',
-    difficulty: 'Easy'
+    mnemonic: 'Least K²/R² wins: Solid Sphere > Disc > Hollow Sphere > Ring!',
+    difficulty: 'Hard'
   },
   {
     id: 'fc-phy-2',
     subject: 'Physics',
-    category: 'Formulas',
-    topic: 'Electromagnetism - Biot-Savart Law',
-    frontTitle: 'Magnetic Field at Center & Axis of Circular Loop',
-    frontContent: 'What is magnetic field B at the center of circular loop (radius R, N turns, current I) and at axial distance x?',
-    frontFormula: 'B_center = (μ₀ N I) / (2 R)  ;  B_axis = (μ₀ N I R²) / (2 (R² + x²)^(3/2))',
-    backExplanation: '• At Center (x = 0): B = μ₀ N I / (2R).\n• At Axial distance x >> R: B = μ₀ N I R² / (2 x³) = (μ₀ / 4π) * (2 M / x³).\n• Semi-circular wire at center: B = μ₀ I / (4R).',
+    category: 'Diagrams',
+    subCategory: 'Optics / Ray Optics',
+    topic: 'Ray Optics - Convex Lens Image Formation',
+    frontTitle: 'Convex Lens Formula & Real Inverted Image at 2F',
+    frontContent: 'State lens maker formula, thin lens formula, and image characteristics when object is at 2F.',
+    diagramSvg: `<svg viewBox="0 0 300 170" class="w-full h-38 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="170" rx="8" fill="#F8FAFC"/><line x1="10" y1="85" x2="290" y2="85" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,2"/><ellipse cx="150" cy="85" rx="8" ry="60" fill="#93C5FD" stroke="#2563EB" stroke-width="2" opacity="0.8"/><circle cx="90" cy="85" r="3" fill="#DC2626"/><text x="85" y="100" font-size="8" fill="#DC2626" font-weight="bold">F1</text><circle cx="30" cy="85" r="3" fill="#DC2626"/><text x="22" y="100" font-size="8" fill="#DC2626" font-weight="bold">2F1</text><circle cx="210" cy="85" r="3" fill="#DC2626"/><text x="205" y="100" font-size="8" fill="#DC2626" font-weight="bold">F2</text><circle cx="270" cy="85" r="3" fill="#DC2626"/><text x="262" y="100" font-size="8" fill="#DC2626" font-weight="bold">2F2</text><line x1="30" y1="85" x2="30" y2="45" stroke="#16A34A" stroke-width="3"/><polygon points="30,40 26,48 34,48" fill="#16A34A"/><text x="15" y="45" font-size="8" fill="#16A34A" font-weight="bold">Object</text><line x1="30" y1="45" x2="150" y2="45" stroke="#EA580C" stroke-width="1.5"/><line x1="150" y1="45" x2="270" y2="125" stroke="#EA580C" stroke-width="1.5"/><line x1="30" y1="45" x2="270" y2="125" stroke="#7C3AED" stroke-width="1.5"/><line x1="270" y1="85" x2="270" y2="125" stroke="#DC2626" stroke-width="3"/><polygon points="270,130 266,122 274,122" fill="#DC2626"/><text x="250" y="145" font-size="8" fill="#DC2626" font-weight="bold">Real, Inverted (m = -1)</text></svg>`,
+    frontFormula: '1/f = 1/v - 1/u  ;  1/f = (μ - 1)(1/R1 - 1/R2)',
+    backExplanation: '• When object is placed at 2F1: Real, inverted, same size image forms at 2F2 with magnification m = -1.\n• When object is between Focus F and Optical Center O: Virtual, erect, magnified image forms on same side (Magnifying Glass mode).\n• Power of lens: P = 1 / f(in meters) in Dioptres (D).',
     backKeyPoints: [
-      'Direction given by Right Hand Grip Rule along normal',
-      'Ratio B_center / B_axis = (1 + x²/R²)^(3/2)'
+      'Convex lens in water (μ_w = 4/3): Focal length increases 4 times, Power drops to 1/4',
+      'Sign convention: u is negative, real image v is positive'
     ],
-    mnemonic: 'Center is max: μ₀NI / 2R',
+    mnemonic: 'Object at 2F gives identical image at 2F (m = -1)!',
     difficulty: 'Medium'
   },
   {
     id: 'fc-phy-3',
     subject: 'Physics',
     category: 'Formulas',
-    topic: 'Thermodynamics - Carnot Engine Efficiency',
-    frontTitle: 'Carnot Efficiency & Refrigerator COP',
-    frontContent: 'State the formulas for Carnot engine efficiency η and refrigerator coefficient of performance (COP) β.',
-    frontFormula: 'η = 1 - (T_cold / T_hot) = W / Q_hot  ;  β = T_cold / (T_hot - T_cold) = Q_cold / W',
-    backExplanation: 'For a reversible Carnot engine operating between absolute temperatures T_hot (source) and T_cold (sink):\n• Efficiency η = 1 - (T_cold / T_hot) = (Q_1 - Q_2) / Q_1 = W / Q_1.\n• Refrigerator COP β = Q_2 / W = T_cold / (T_hot - T_cold).\n• Key Relation: β = (1 - η) / η.',
+    subCategory: 'Modern Physics / Dual Nature',
+    topic: 'Modern Physics - De Broglie Wavelength Shortcuts',
+    frontTitle: 'De Broglie Shortcut for Accelerated Electrons',
+    frontContent: 'What are the rapid calculation shortcuts for electron, proton, deuteron, and alpha particle wavelengths?',
+    frontFormula: 'λ_e = 12.27 / √V  Å  =  1.227 / √V  nm',
+    backExplanation: 'Using de Broglie relation λ = h / p = h / √(2m q V):\n• Electron: λ = 12.27 / √V Å (For V = 100V, λ = 1.227 Å)\n• Proton: λ = 0.286 / √V Å\n• Deuteron: λ = 0.202 / √V Å\n• Alpha Particle: λ = 0.101 / √V Å\n• Thermal Neutron at T Kelvin: λ = 30.83 / √T Å.',
     backKeyPoints: [
-      'Temperatures MUST ALWAYS be in Kelvin (K = °C + 273.15)',
-      '100% efficiency is impossible by 2nd Law of Thermodynamics'
+      'Davisson-Germer experiment proved wave nature of electrons',
+      'Stopping potential V0 depends ONLY on frequency, NOT on light intensity'
     ],
-    mnemonic: 'Efficiency is 1 minus T_sink over T_source in Kelvin!',
-    difficulty: 'Medium'
+    mnemonic: '12.27 over root V in Angstroms for Electron!',
+    difficulty: 'Easy'
   },
   {
     id: 'fc-phy-4',
     subject: 'Physics',
     category: 'Formulas',
-    topic: 'Mechanics - Pure Rolling on Inclined Plane',
-    frontTitle: 'Acceleration & Rolling Kinetic Energy',
-    frontContent: 'What is acceleration a and total kinetic energy K for a body of radius R rolling without slipping down incline θ?',
-    frontFormula: 'a = (g sin θ) / (1 + K²/R²)  ;  K_total = 1/2 M v² (1 + K²/R²)',
-    backExplanation: 'For pure rolling without slipping:\n• K²/R² values: Solid Sphere (2/5 = 0.4) < Disc/Solid Cylinder (1/2 = 0.5) < Hollow Sphere (2/3 = 0.67) < Ring/Hollow Cylinder (1.0).\n• Smaller K²/R² = HIGHER acceleration = reaches bottom FIRST (Solid Sphere wins race!).',
+    subCategory: 'Electrodynamics / Magnetism',
+    topic: 'Magnetism - Biot-Savart Law for Circular Loop',
+    frontTitle: 'B-Field at Center & Axis of Circular Current Coil',
+    frontContent: 'State formulas for magnetic field B at center and axial distance x of an N-turn circular loop.',
+    frontFormula: 'B_center = (μ₀ N I) / (2 R)  ;  B_axis = (μ₀ N I R²) / (2 (R² + x²)^(3/2))',
+    backExplanation: '• At Center (x = 0): B = μ₀ N I / (2R).\n• At Axial point x >> R: B = (μ₀ / 4π) * (2 M / x^3), where M = N I A = N I (π R^2) is magnetic dipole moment.\n• Semi-circular arc: B = μ₀ I / (4 R).',
     backKeyPoints: [
-      'Static friction does ZERO work in pure rolling',
-      'Solid Sphere reaches bottom first, Ring reaches bottom last'
+      'Ratio B_center / B_axis = (1 + x^2/R^2)^(3/2)',
+      'Helmholtz coils produce highly uniform magnetic field at midpoint'
     ],
-    mnemonic: 'Least K²/R² wins the incline race: Solid Sphere > Disc > Hollow Sphere > Ring!',
-    difficulty: 'Hard'
+    mnemonic: 'Center is maximum: μ₀ N I / (2 R)',
+    difficulty: 'Medium'
   }
 ];
 
 // ==========================================
-// EXPANSIVE, RICH VISUAL MIND MAPS (10+ DETAILED NODES)
+// EXPANSIVE, RICH VISUAL MIND MAPS
 // ==========================================
 export const MIND_MAPS_DATA: MindMapNode[] = [
   {
