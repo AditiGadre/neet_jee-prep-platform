@@ -6,11 +6,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Light year is a unit of",
     options: ["Time", "Mass", "Distance", "Energy"],
     correctAnswer: 2,
-    explanation: "1 510-dyne= Newton, 1 cm = 10\u207b\u00b2 m m N cm dyne 2 5 10 107070 - -\u00d7= = mN /107 2-\u00d7 .",
+    explanation: "Light year is the distance traveled by light in vacuum in one year (365.25 days).\n1 light year = c \u00d7 t = (3 \u00d7 10\u2078 m/s) \u00d7 (365.25 \u00d7 24 \u00d7 3600 s) \u2248 9.46 \u00d7 10\u00b9\u2075 m = 9.46 \u00d7 10\u00b9\u00b2 km.\nDimensional formula: [M\u2070 L\u00b9 T\u2070].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -18,11 +18,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The magnitude of any physical quantity",
     options: ["Depends on the method of measurement", "Does not depend on the method of measurement", "Is more in SI system than in CGS system", "Directly proportional to the fundamental units of mass, length and time"],
     correctAnswer: 1,
-    explanation: "11 --=\u00d7==\u21d2= molJKKelvinmole Joule nT PVRnRTPV",
+    explanation: "The magnitude of a physical quantity Q is invariant: Q = n\u2081u\u2081 = n\u2082u\u2082 = constant, where n is the numerical value and u is the unit size (n \u221d 1/u). It does not depend on the method or unit system chosen for measurement.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -34,7 +34,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "Which of the following is not equal to watt?",
     options: ["Joule/second", "Ampere \u00d7 volt", "(Ampere)\u00b2 \u00d7 ohm", "Ampere/volt"],
     correctAnswer: 3,
-    explanation: "2 21 0 .4 1 r QQF \u03c0\uf065= \u21d2 2 2 0 rF Q \u00d7 \u03bc\uf065 So 0\uf065 has units of 22 -/ mNewtonCoulomb",
+    explanation: "Power P = Work/time = J/s = Watt.\nElectric Power P = V\u00b7I = Volt \u00d7 Ampere = Watt;\nP = I\u00b2R = (Ampere)\u00b2 \u00d7 Ohm = Watt.\nWhereas Ampere/Volt = I/V = 1/R = Conductance (Siemens or Mho or \u03a9\u207b\u00b9), which is NOT equal to watt.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -42,11 +42,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Newton-second is the unit of",
     options: ["Velocity", "Angular momentum", "Momentum", "Energy"],
     correctAnswer: 2,
-    explanation: "25.5745 273 9 32 5 273 9 32 =\u21d2-=-\u21d2-=- xxxKF",
+    explanation: "Newton-second (N\u00b7s) = (kg\u00b7m/s\u00b2) \u00d7 s = kg\u00b7m/s.\nFrom Impulse-Momentum Theorem: Impulse J = F\u00b7\u0394t = \u0394p = Change in Linear Momentum.\nDimensional formula: [M L T\u207b\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -56,9 +56,9 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
     questionText: "Which of the following is not represented in correct unit?",
-    options: ["Stress/Strain = N/m\u00b2", "Surface tension = N/m", "Energy = kg\u00b7m\u00b2/s\u00b2", "Pressure = N/m\u00b2"],
+    options: ["Stress/Strain = N/m", "Surface tension = N/m", "Energy = kg\u00b7m\u00b2/s\u00b2", "Pressure = N/m\u00b2"],
     correctAnswer: 0,
-    explanation: "Unit of 22 0 -/ mNC=\uf065 \u2234Unit of K = 22 -CNm",
+    explanation: "Stress/Strain = Modulus of Elasticity (Young's/Bulk/Shear modulus).\nSince Strain is dimensionless (\u0394L/L), Unit of Stress/Strain = Unit of Stress = N/m\u00b2 (Pascal).\nTherefore, representing Stress/Strain as N/m is incorrect.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -70,7 +70,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "One second is equal to",
     options: ["1650763.73 time periods of Kr clock", "652189.63 time periods of Kr clock", "1650763.73 time periods of Cs clock", "9192631770 time periods of Cs clock"],
     correctAnswer: 3,
-    explanation: "",
+    explanation: "According to the official standard SI definition (CGPM): 1 second is the duration of 9,192,631,770 periods of radiation corresponding to the transition between the two hyperfine levels of the ground state of the Caesium-133 (\u00b9\u00b3\u00b3Cs) atom.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -78,11 +78,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "One nanometre is equal to",
-    options: ["10^-9 mm", "10^-6 cm", "10^-7 cm", "10^-9 cm"],
+    options: ["10\u207b\u2079 mm", "10\u207b\u2076 cm", "10\u207b\u2077 cm", "10\u207b\u2079 cm"],
     correctAnswer: 2,
-    explanation: "][][],[][],[][ 1222 -- === TMLlMmTMLE and ][][ 231 --= TLMG Substituting the dimension of above quantities in the given formula : 25 2 Gm El ][ ][][ ][][ 000 463 463 22315 21222 TLM TLM TLM TLMM TMLTML == - - -- --",
+    explanation: "1 nanometre (1 nm) = 10\u207b\u2079 m.\nSince 1 m = 10\u00b2 cm, 1 nm = 10\u207b\u2079 \u00d7 10\u00b2 cm = 10\u207b\u2077 cm.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -90,11 +90,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "A micron is related to centimetre as",
-    options: ["1 micron = 10^-8 cm", "1 micron = 10^-6 cm", "1 micron = 10^-5 cm", "1 micron = 10^-4 cm"],
+    options: ["1 micron = 10\u207b\u2078 cm", "1 micron = 10\u207b\u2076 cm", "1 micron = 10\u207b\u2075 cm", "1 micron = 10\u207b\u2074 cm"],
     correctAnswer: 3,
-    explanation: "Given equation is dimensionally correct because both sides are dimensionless but numerically wrong because the correct equation is rg v 2 tan =\u03b8 .",
+    explanation: "1 micron (1 \u03bcm) = 10\u207b\u2076 m.\nSince 1 m = 10\u00b2 cm: 1 \u03bcm = 10\u207b\u2076 \u00d7 10\u00b2 cm = 10\u207b\u2074 cm.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -102,11 +102,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The unit of power is",
     options: ["Joule", "Joule per second only", "Joule per second and watt both", "Only watt"],
     correctAnswer: 2,
-    explanation: "Formula for viscosity l prVVl pr \uf068 \u03c0\u03c0\uf068 88 44 =\u21d2=",
+    explanation: "Power P = Work/Time. In SI units, 1 Watt (W) = 1 Joule/second (J/s). Thus, both Joule per second and Watt are units of power.\nDimensional formula: [M L\u00b2 T\u207b\u00b3].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -115,10 +115,10 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
-    questionText: "A suitable unit for gravitational constant is",
-    options: ["N m sec\u207b\u00b9 kg\u207b\u00b9", "N m\u00b2 sec\u207b\u00b9", "N m\u00b2 kg\u207b\u00b2", "N m sec kg\u207b\u00b9"],
+    questionText: "A suitable unit for gravitational constant (G) is",
+    options: ["N m s\u207b\u00b9 kg\u207b\u00b9", "N m\u00b2 s\u207b\u00b9", "N m\u00b2 kg\u207b\u00b2", "N m s kg\u207b\u00b9"],
     correctAnswer: 2,
-    explanation: "From the principle of dimensional homogenity ][][][][ 2-=\u21d2= LTaatv . Similarly ][][and ][][ TcLb ==",
+    explanation: "From Newton's Law of Gravitation: F = G(m\u2081m\u2082)/r\u00b2 \u21d2 G = (F\u00b7r\u00b2)/(m\u2081m\u2082).\nUnit of G = (N \u00d7 m\u00b2)/(kg \u00d7 kg) = N\u00b7m\u00b2\u00b7kg\u207b\u00b2 (or m\u00b3\u00b7kg\u207b\u00b9\u00b7s\u207b\u00b2).\nDimensional formula: [M\u207b\u00b9 L\u00b3 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -126,11 +126,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "SI unit of pressure is",
-    options: ["Pascal", "Dynes/cm\u00b2", "cm of Hg", "Atmosphere"],
+    options: ["Pascal", "Dyne/cm\u00b2", "cm of Hg", "Atmosphere"],
     correctAnswer: 0,
-    explanation: "By substituting the dimensions in GM RT 3 2\u03c0= we get T MTLM L = \u00d7-- 231 3",
+    explanation: "Pressure P = Force/Area. In SI units: N/m\u00b2 = Pascal (Pa).\nDimensional formula: [M L\u207b\u00b9 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -138,11 +138,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The unit of angular acceleration in the SI system is",
     options: ["kg\u00b7N", "m/s\u00b2", "rad/s\u00b2", "kg\u00b7m\u207b\u00b9"],
     correctAnswer: 2,
-    explanation: "Dimension of t\u03b1 = ][ 000 TLM \u2234 [\u03b1] = ][ 1-T Again ][0 Lv =\uf0fa\uf0fb \uf0f9 \uf0ea\uf0eb \uf0e9 \u03b1 so ][][ 1 0 -= LTv",
+    explanation: "Angular acceleration \u03b1 = d\u03c9/dt = (rad/s)/s = rad/s\u00b2 = rad\u00b7s\u207b\u00b2.\nDimensional formula: [M\u2070 L\u2070 T\u207b\u00b2] (radian is dimensionless).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -151,10 +151,10 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
-    questionText: "The unit of Stefan's constant is",
+    questionText: "The unit of Stefan's constant (\u03c3) is",
     options: ["W m\u207b\u00b2 K\u207b\u00b9", "W m\u207b\u00b2 K\u207b\u2074", "W m\u00b2 K\u207b\u2074", "W m\u00b2 K\u2074"],
     correctAnswer: 1,
-    explanation: "By the principle of dimensional homogenity ][][][][][][ 6212 2 LTMLVPa V aP --=\u00d7=\u21d2\uf0fa\uf0fb \uf0f9 \uf0ea\uf0eb \uf0e9= = ][ 25 -TML",
+    explanation: "From Stefan-Boltzmann Law: E = \u03c3 T\u2074 \u21d2 \u03c3 = E/T\u2074, where E is energy emitted per unit area per unit time (W/m\u00b2) and T is temperature in Kelvin (K).\nUnit of \u03c3 = (W/m\u00b2)/K\u2074 = W\u00b7m\u207b\u00b2\u00b7K\u207b\u2074 (value: 5.67 \u00d7 10\u207b\u2078 W m\u207b\u00b2 K\u207b\u2074).\nDimensional formula: [M L\u2070 T\u207b\u00b3 K\u207b\u2074].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -164,9 +164,9 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
     questionText: "Which of the following is not a unit of energy?",
-    options: ["W\u00b7s (watt-second)", "kg\u00b7m\u00b2/s\u00b2 (kilogram metre squared per second squared)", "N\u00b7m (newton-metre)", "Joule"],
+    options: ["W\u00b7s (watt-second)", "kg\u00b7m/s\u00b2 (kilogram metre per second squared)", "N\u00b7m (newton-metre)", "Joule"],
     correctAnswer: 1,
-    explanation: "][][ 2Ta = and ][][][][ ][][ 21 22 LTML T xP tab --=-= \u21d2 ][][ 41TMb -= So ][ ][ ][ 2 41 2 - - ==\uf0fa\uf0fb \uf0f9 \uf0ea\uf0eb \uf0e9 MT TM T b a",
+    explanation: "Energy has dimensions [M L\u00b2 T\u207b\u00b2].\nkg\u00b7m/s\u00b2 = [M L T\u207b\u00b2] is the SI unit of Force (Newton), NOT energy.\nW\u00b7s, N\u00b7m, and Joule all represent energy.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -174,11 +174,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "In S = ct\u00b2, S is measured in metres and t in seconds. The unit of c is",
-    options: ["None", "m", "ms\u207b\u00b9", "ms\u207b\u00b2"],
+    options: ["None", "m", "m\u00b7s\u207b\u00b9", "m\u00b7s\u207b\u00b2"],
     correctAnswer: 3,
-    explanation: "][11 222 0000 -==\u21d2= TLcC \uf065\uf06d\uf065\uf06d",
+    explanation: "Given S = ct\u00b2 \u21d2 c = S/t\u00b2.\nUnit of c = (metre)/(second)\u00b2 = m/s\u00b2 = m\u00b7s\u207b\u00b2.\nDimensional formula: [M\u2070 L T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -190,7 +190,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "Joule-second is the unit of",
     options: ["Work", "Momentum", "Pressure", "Angular momentum"],
     correctAnswer: 3,
-    explanation: "],[][ ATe = ],[ 2431 0 ATLM --=\uf0ce ][][ 12 -= TMLh and ][][ 1-= LTc \u2234 \uf0fa\uf0fa \uf0fb \uf0f9 \uf0ea\uf0ea \uf0eb \uf0e9 \u00d7\u00d7 = \uf0fa\uf0fa \uf0fb \uf0f9 \uf0ea\uf0ea \uf0eb \uf0e9 \uf0ce ---- 1122431 22 0 2 4 LTTMLATLM TA hc e \u03c0 ][ 000 TLM=",
+    explanation: "Joule-second (J\u00b7s) = (N\u00b7m)\u00b7s = (kg\u00b7m/s\u00b2)\u00b7m\u00b7s = kg\u00b7m\u00b2/s.\nThis matches the dimension of Angular Momentum L = mvr = [M L\u00b2 T\u207b\u00b9] as well as Planck's constant h.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -198,11 +198,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Unit of energy in SI system is",
     options: ["Erg", "Calorie", "Joule", "Electron volt"],
     correctAnswer: 2,
-    explanation: "Volume of sphere 3 3 4)( rV \u03c0= % error in volume 1003 \u00d7\u0394\u00d7= r r 1003.5 1.03 \u00d7 \u00d7=",
+    explanation: "In the SI system, the unit of energy is Joule (J) = 1 N\u00b7m = 1 kg\u00b7m\u00b2/s\u00b2.\nErg is CGS unit (1 J = 10\u2077 erg); Calorie is practical thermal unit (1 cal = 4.186 J); eV is atomic unit (1 eV = 1.6 \u00d7 10\u207b\u00b9\u2079 J).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -210,11 +210,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "A cube has numerically equal volume and surface area. The volume of such a cube is",
     options: ["216 units", "1000 units", "2000 units", "3000 units"],
     correctAnswer: 0,
-    explanation: ",2l F A FP == so maximum error in pressure (P) 1002100100 max \u00d7\u0394+\u00d7\u0394= \u00d7\u0394 l l F F P P =4%+2\u00d72%=8%",
+    explanation: "For a cube of side a:\nVolume V = a\u00b3, Surface Area A = 6a\u00b2.\nGiven V = A \u21d2 a\u00b3 = 6a\u00b2 \u21d2 a = 6 units.\nVolume = 6\u00b3 = 216 cubic units.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -222,11 +222,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Wavelength of a ray of light is 0.00006 m. It is equal to",
     options: ["6 microns", "60 microns", "600 microns", "6.0 microns"],
-    correctAnswer: 2,
-    explanation: "Percentage error in g = )in(%error l + 2(% error in T) = 1% + 2(3%) = 7%",
+    correctAnswer: 1,
+    explanation: "1 micron (\u03bcm) = 10\u207b\u2076 m.\n\u03bb = 0.00006 m = 6 \u00d7 10\u207b\u2075 m = 60 \u00d7 10\u207b\u2076 m = 60 microns (60 \u03bcm).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -234,11 +234,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Electron volt is a unit of",
     options: ["Charge", "Potential difference", "Momentum", "Energy"],
     correctAnswer: 3,
-    explanation: "Volume tblV \u00d7\u00d7= 45.2612 \u00d7\u00d7= 34.176 cm= V 3210764.1 cm\u00d7= since, the minimum number of significant figure is one in breadth, hence volume will also contain only one significant figure. Hence, 32102 cmV \u00d7= . ***",
+    explanation: "1 electron volt (eV) is the work done / energy gained when an electron moves through a potential difference of 1 Volt: E = q\u00b7V = (1.602 \u00d7 10\u207b\u00b9\u2079 C) \u00d7 (1 V) = 1.602 \u00d7 10\u207b\u00b9\u2079 J.\nDimensional formula: [M L\u00b2 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -250,7 +250,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "Temperature can be expressed as a derived quantity in terms of any of the following",
     options: ["Length and mass", "Length and time", "Length, mass and time", "None of these"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Units & Dimensions Q21.",
+    explanation: "Temperature is an independent fundamental (base) physical quantity in SI units (measured in Kelvin [K]). It cannot be derived from mechanical base quantities (Mass [M], Length [L], and Time [T]).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -258,11 +258,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
-    questionText: "Density of wood is 0.5 g/cm\u00b3 in the CGS system of units. The corresponding value in MKS units is",
+    difficulty: "Easy",
+    questionText: "Density of wood is 0.5 g/cm\u00b3 in the CGS system of units. The corresponding value in MKS (SI) units is",
     options: ["500", "5", "0.5", "5000"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Units & Dimensions Q23.",
+    explanation: "1 g/cm\u00b3 = (10\u207b\u00b3 kg)/(10\u207b\u2076 m\u00b3) = 1000 kg/m\u00b3.\nTherefore, 0.5 g/cm\u00b3 = 0.5 \u00d7 1000 kg/m\u00b3 = 500 kg/m\u00b3 in MKS units.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -272,9 +272,9 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
     questionText: "Unit of energy is",
-    options: ["sec/J", "day \u00d7 Watt", "Kilowatt", "gm\u00b7cm\u00b2/sec\u00b2"],
+    options: ["sec/J", "day \u00d7 Watt", "Kilowatt", "g\u00b7cm/sec\u00b2"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q24.",
+    explanation: "Energy = Power \u00d7 Time.\nday \u00d7 Watt = (24 \u00d7 3600 s) \u00d7 (1 W) = 86,400 Joules (Energy).\nKilowatt is power; sec/J is 1/power; g\u00b7cm/s\u00b2 is dyne (force).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -282,11 +282,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Which is the correct unit for measuring nuclear radii?",
     options: ["Micron", "Millimetre", "Angstrom", "Fermi"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Units & Dimensions Q25.",
+    explanation: "Nuclear radius is of the order of 10\u207b\u00b9\u2075 m, which is defined as 1 Fermi (or femtometre, 1 fm = 10\u207b\u00b9\u2075 m).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -294,11 +294,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "One Mach number is equal to",
     options: ["Velocity of light", "Velocity of sound (332 m/sec)", "1 km/sec", "1 m/sec"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q26.",
+    explanation: "Mach number M = (Speed of object) / (Speed of sound in the medium).\nMach 1 corresponds to the speed of sound in air (\u2248 332 m/s at 0\u00b0C).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -307,10 +307,10 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
-    questionText: "The unit for nuclear dose given to a patient is",
+    questionText: "The unit for radiation dose exposure given to a patient is",
     options: ["Fermi", "Rutherford", "Curie", "Roentgen"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Units & Dimensions Q27.",
+    explanation: "Roentgen (R) is the unit of exposure to ionizing radiation (X-rays/gamma rays).\nCurie and Rutherford measure radioactivity/decay activity (disintegrations per second).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -318,11 +318,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Volt/metre is the unit of",
     options: ["Potential", "Work", "Force", "Electric intensity"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Units & Dimensions Q28.",
+    explanation: "Electric field intensity E = -dV/dr \u21d2 Unit is Volt/metre (V/m) \u2261 Newton/Coulomb (N/C).\nDimensional formula: [M L T\u207b\u00b3 A\u207b\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -330,11 +330,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Newton/metre\u00b2 is the unit of",
     options: ["Energy", "Momentum", "Force", "Pressure"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Units & Dimensions Q29.",
+    explanation: "Pressure P = Force/Area = N/m\u00b2 = Pascal (Pa).\nDimensional formula: [M L\u207b\u00b9 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -342,11 +342,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The unit of surface tension in SI system is",
     options: ["Dyne/cm\u00b2", "Newton/m", "Dyne/cm", "Newton/m\u00b2"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q30.",
+    explanation: "Surface tension T = Force / Length = N/m = J/m\u00b2.\nDimensional formula: [M L\u2070 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -355,10 +355,10 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
-    questionText: "The unit of reduction factor of tangent galvanometer is",
+    questionText: "The unit of reduction factor of a tangent galvanometer is",
     options: ["Ampere", "Gauss", "Radian", "None of these"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Units & Dimensions Q31.",
+    explanation: "For a tangent galvanometer: I = K tan\u03b8, where \u03b8 is deflection angle (dimensionless) and K is the reduction factor.\nTherefore, Unit of K = Unit of current I = Ampere (A).\nDimensional formula: [M\u2070 L\u2070 T\u2070 A\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -366,11 +366,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The unit of self inductance of a coil is",
     options: ["Farad", "Henry", "Weber", "Tesla"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q32.",
+    explanation: "Induced emf e = -L(dI/dt) \u21d2 L = e / |dI/dt| = V / (A/s) = V\u00b7s/A = Henry (H).\nDimensional formula: [M L\u00b2 T\u207b\u00b2 A\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -382,7 +382,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "Henry/ohm can be expressed in",
     options: ["Second", "Coulomb", "Mho", "Metre"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Units & Dimensions Q33.",
+    explanation: "In an L-R inductive circuit, the time constant is \u03c4 = L/R.\nTherefore, Henry/Ohm = Second (s).\n[L] = [M L\u00b2 T\u207b\u00b2 A\u207b\u00b2], [R] = [M L\u00b2 T\u207b\u00b3 A\u207b\u00b2] \u21d2 [L/R] = [T\u00b9] = Second.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -390,11 +390,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The SI unit of momentum is",
     options: ["kg\u00b7m/s", "kg\u00b7m/s\u00b2", "kg\u00b7m\u00b2/s", "N\u00b7kg"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Units & Dimensions Q34.",
+    explanation: "Linear momentum p = m\u00b7v \u21d2 kg \u00d7 (m/s) = kg\u00b7m/s (or N\u00b7s).\nDimensional formula: [M L T\u207b\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -402,11 +402,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "The velocity of a particle depends upon time as v = a + bt + ct\u00b2; if the velocity is in m/s, the unit of a will be",
     options: ["m/s", "m/s\u00b2", "m/s\u00b3", "m\u00b2/s"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Units & Dimensions Q35.",
+    explanation: "By the Principle of Dimensional Homogeneity: [a] = [v] = m/s.\n(Similarly, unit of b is m/s\u00b2 and unit of c is m/s\u00b3).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -414,11 +414,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "One million electron volt (1 MeV) is equal to",
-    options: ["10^5 eV", "10^6 eV", "10^4 eV", "10^7 eV"],
+    options: ["10\u2075 eV", "10\u2076 eV", "10\u2074 eV", "10\u2077 eV"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q36.",
+    explanation: "Mega (M) prefix stands for 10\u2076 = 1 Million.\n1 MeV = 10\u2076 eV = (10\u2076) \u00d7 (1.602 \u00d7 10\u207b\u00b9\u2079 J) = 1.602 \u00d7 10\u207b\u00b9\u00b3 J.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -426,11 +426,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
-    questionText: "1 mErg can be the unit of measure for",
+    difficulty: "Easy",
+    questionText: "Erg/sec is the unit of measure for",
     options: ["Force", "Momentum", "Power", "Acceleration"],
     correctAnswer: 2,
-    explanation: "Detailed solution for Units & Dimensions Q37.",
+    explanation: "Erg/sec = (CGS Energy) / (Time) = Power.\n1 Watt = 10\u2077 erg/s.\nDimensional formula: [M L\u00b2 T\u207b\u00b3].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -438,11 +438,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
-    questionText: "The unit of potential energy is",
-    options: ["g\u00b7cm/sec\u00b2", "g\u00b7cm\u00b2/sec\u00b2", "g\u00b7cm/sec\u00b2", "g\u00b7cm\u00b2/sec"],
+    difficulty: "Easy",
+    questionText: "The unit of potential energy in CGS system is",
+    options: ["g\u00b7cm/sec\u00b2", "g\u00b7cm\u00b2/sec\u00b2", "g\u00b7cm/sec", "g\u00b7cm\u00b2/sec"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q38.",
+    explanation: "Potential energy U = mgh = Mass \u00d7 Acceleration \u00d7 Height.\nCGS unit = g \u00d7 (cm/s\u00b2) \u00d7 cm = g\u00b7cm\u00b2/s\u00b2 = dyne\u00b7cm = erg.\nDimensional formula: [M L\u00b2 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -450,11 +450,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Which of the following represents a volt?",
     options: ["Joule/second", "Watt/Ampere", "Watt/Coulomb", "Coulomb/Joule"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q39.",
+    explanation: "Electric power P = V\u00b7I \u21d2 V = P/I = Watt/Ampere (or V = W/q = Joule/Coulomb).\nDimensional formula: [M L\u00b2 T\u207b\u00b3 A\u207b\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -462,11 +462,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
-    questionText: "hourKilowatt- is a unit of",
+    difficulty: "Easy",
+    questionText: "Kilowatt-hour (kWh) is a unit of",
     options: ["Electrical charge", "Energy", "Power", "Force"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q40.",
+    explanation: "Kilowatt-hour is the commercial unit of Electrical Energy:\n1 kWh = 1000 W \u00d7 3600 s = 3.6 \u00d7 10\u2076 Joules.\nDimensional formula: [M L\u00b2 T\u207b\u00b2].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -475,10 +475,10 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
     difficulty: "Medium",
-    questionText: "What is the SI unit of permeability?",
+    questionText: "What is the SI unit of magnetic permeability (\u03bc\u2080)?",
     options: ["Henry per metre", "Tesla metre per ampere", "Weber per ampere metre", "All the above units are correct"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Units & Dimensions Q41.",
+    explanation: "Permeability of free space \u03bc\u2080 has multiple equivalent SI expressions:\n1. H/m (from L = \u03bc\u2080N\u00b2A/l)\n2. T\u00b7m/A (from B = \u03bc\u2080I/2\u03c0r)\n3. Wb/(A\u00b7m) (since 1 T = 1 Wb/m\u00b2)\n4. N/A\u00b2 (from F/l = \u03bc\u2080I\u2081I\u2082/2\u03c0d).\nAll are identical: [M L T\u207b\u00b2 A\u207b\u00b2]. Value: \u03bc\u2080 = 4\u03c0 \u00d7 10\u207b\u2077 H/m.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -486,11 +486,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "In which of the following systems of unit, Weber is the unit of magnetic flux?",
     options: ["CGS", "MKS", "SI", "None of these"],
     correctAnswer: 2,
-    explanation: "Detailed solution for Units & Dimensions Q42.",
+    explanation: "In the SI system, magnetic flux \u03a6_B is measured in Weber (Wb) = 1 T\u00b7m\u00b2 = 1 V\u00b7s.\nIn CGS, magnetic flux is measured in Maxwell (Mx) (1 Wb = 10\u2078 Mx).",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -498,11 +498,11 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
+    difficulty: "Easy",
     questionText: "Tesla is a unit for measuring",
     options: ["Magnetic moment", "Magnetic induction", "Magnetic intensity", "Magnetic pole strength"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q43.",
+    explanation: "Tesla (T) is the SI unit of Magnetic Induction / Magnetic Flux Density (B).\nF = q(v \u00d7 B) \u21d2 B = F/(qv) = N/(C\u00b7m/s) = N/(A\u00b7m) = Tesla.\nDimensional formula: [M L\u2070 T\u207b\u00b2 A\u207b\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -514,7 +514,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "If the unit of length and force are each increased four times, then the unit of energy is",
     options: ["Increased 4 times", "Increased 8 times", "Increased 16 times", "Decreased 16 times"],
     correctAnswer: 2,
-    explanation: "Detailed solution for Units & Dimensions Q44.",
+    explanation: "Work (Energy) = Force \u00d7 Displacement [E = F \u00d7 L].\nIf F' = 4F and L' = 4L:\nE' = F' \u00d7 L' = (4F) \u00d7 (4L) = 16 (F \u00d7 L) = 16E.\nThus, the unit of energy increases 16 times.",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -526,7 +526,7 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     questionText: "Oersted is a unit of",
     options: ["Dip", "Magnetic intensity", "Magnetic moment", "Pole strength"],
     correctAnswer: 1,
-    explanation: "Detailed solution for Units & Dimensions Q45.",
+    explanation: "Oersted (Oe) is the CGS unit of Magnetic Field Intensity (H).\n1 Oe = (1000 / 4\u03c0) A/m \u2248 79.58 A/m.\nDimensional formula: [M\u2070 L\u207b\u00b9 T\u2070 A\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
   {
@@ -534,14 +534,14 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     subject: "Physics",
     chapter: "Units, Dimensions",
     topic: "Units, Dimensions and Measurement",
-    difficulty: "Medium",
-    questionText: "Hour-Ampere is a unit of",
+    difficulty: "Easy",
+    questionText: "Ampere-hour is a unit of",
     options: ["Quantity of electricity", "Strength of electric current", "Power", "Energy"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Units & Dimensions Q46.",
+    explanation: "Electric charge (Quantity of electricity) Q = I \u00d7 t.\nAmpere-hour (A\u00b7h) = 1 A \u00d7 3600 s = 3600 Coulombs (Charge / Quantity of electricity).\nDimensional formula: [M\u2070 L\u2070 T\u00b9 A\u00b9].",
     tags: ["Units, Dimensions and Measurement"]
   },
-  {
+{
     id: "units & dimensions-units,-dimensions-and-measurement-47",
     subject: "Physics",
     chapter: "Units, Dimensions",
