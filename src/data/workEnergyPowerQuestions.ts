@@ -7192,6 +7192,405 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
       "assertion-reason",
       "plastic-deformation-work"
     ]
+  },
+  {
+    "id": "errorless-phy-wep-362",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "How much work does a pulling force of 40 N do on the 20 kg box in pulling it 8 m across the floor at a constant speed. The pulling force is directed at $60^\\circ$ above the horizontal",
+    "options": [
+      "160 J",
+      "277 J",
+      "784 J",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Work done by a constant force is $W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Given: $F = 40\\text{ N}$, $s = 8\\text{ m}$, $\\theta = 60^\\circ$.\n- $W = 40 \\times 8 \\times \\cos 60^\\circ = 320 \\times 0.5 = 160\\text{ J}$.\n\n✓ **Examiner Pro-Tip**: Mass of the box does not affect the work done by the specified external applied force.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "work-done"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-363",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "A horizontal force of 5 N is required to maintain a velocity of 2 m/s for a block of 10 kg mass sliding over a rough surface. The work done by this force in one minute is",
+    "options": [
+      "600 J",
+      "60 J",
+      "6 J",
+      "6000 J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Work done at constant velocity is $W = F \\times s = F \\times v \\times t$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Given: $F = 5\\text{ N}$, $v = 2\\text{ m/s}$, $t = 1\\text{ minute} = 60\\text{ s}$.\n- Distance $s = v \\times t = 2 \\times 60 = 120\\text{ m}$.\n- Work done $W = 5\\text{ N} \\times 120\\text{ m} = 600\\text{ J}$.\n\n✓ **Examiner Pro-Tip**: Power $P = Fv = 10\\text{ W}$, and $W = P \\times t = 10 \\times 60 = 600\\text{ J}$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "work-done"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-364",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "Work done in time $t$ on a body of mass $m$ which is accelerated from rest to a speed $v$ in time $t_1$ as a function of time $t$ is given by",
+    "options": [
+      "$\\frac{1}{2}m \\frac{v}{t_1} t^2$",
+      "$m \\frac{v}{t_1} t^2$",
+      "$\\frac{1}{2}\\left(\\frac{mv}{t_1}\\right)^2 t^2$",
+      "$\\frac{1}{2}m \\frac{v^2}{t_1^2} t^2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: Work-Energy Theorem: $W(t) = \\Delta K = \\frac{1}{2}m [v(t)]^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Acceleration $a = \\frac{v}{t_1}$ (constant).\n- Velocity at time $t$ is $v(t) = a t = \\left(\\frac{v}{t_1}\\right) t$.\n- Work done $W = \\frac{1}{2}m [v(t)]^2 = \\frac{1}{2}m \\left(\\frac{v}{t_1} t\\right)^2 = \\frac{1}{2}m \\frac{v^2}{t_1^2} t^2$.\n\n✓ **Examiner Pro-Tip**: $W = \\int P dt = \\int (m a^2 t) dt = \\frac{1}{2}m a^2 t^2$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "work-variable-time"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-365",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "What is the shape of the graph between the speed and kinetic energy of a body",
+    "options": [
+      "Straight line",
+      "Hyperbola",
+      "Parabola",
+      "Exponential"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: Kinetic energy is $K = \\frac{1}{2}mv^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Since mass $m$ is constant, $K \\propto v^2$.\n- The relation $y = c x^2$ represents a parabola passing through the origin symmetric to the $K$-axis.\n\n✓ **Examiner Pro-Tip**: $K-v$ curve is a parabola, while $K-v^2$ curve is a straight line.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "graphs"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-366",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "When a body moves with some friction on a surface",
+    "options": [
+      "It loses kinetic energy but momentum is constant",
+      "It loses kinetic energy but gains potential energy",
+      "Kinetic energy and momentum both decrease",
+      "Mechanical energy is conserved"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: Kinetic friction is a non-conservative external retarding force.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Friction causes negative acceleration (retardation): $a = -\\mu g$.\n- Velocity decreases over time ($v < v_0$), which directly decreases linear momentum ($p = mv$) and kinetic energy ($K = \\frac{1}{2}mv^2$).\n- Mechanical energy is dissipated as thermal energy.\n\n✓ **Examiner Pro-Tip**: Non-conservative forces always dissipate mechanical energy.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "friction-energy"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-367",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "A bullet of mass $m$ moving with velocity $v$ strikes a suspended wooden block of mass $M$. If the block rises to a height $h$, the initial velocity of the block will be",
+    "options": [
+      "$\\sqrt{2gh}$",
+      "$\\frac{M+m}{m}\\sqrt{2gh}$",
+      "$\\frac{m}{M+m}\\sqrt{2gh}$",
+      "$\\frac{M+m}{M}\\sqrt{2gh}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Conservation of Mechanical Energy for ballistic pendulum swing.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Immediately after collision, the block (with embedded bullet) starts moving with initial speed $V$.\n- As it swings upward, its kinetic energy transforms into gravitational potential energy:\n  $$\\frac{1}{2}(M+m)V^2 = (M+m)gh \\implies V = \\sqrt{2gh}$$\n- (Note: The velocity of the bullet before impact is $v = \\frac{M+m}{m}\\sqrt{2gh}$, but the initial speed of the block after impact is $\\sqrt{2gh}$).\n\n✓ **Examiner Pro-Tip**: Distinguish between velocity of bullet before impact and velocity of block right after impact.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "ballistic-pendulum"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-368",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "There will be decrease in potential energy of the system, if work is done upon the system by",
+    "options": [
+      "Any conservative or non-conservative force",
+      "A non-conservative force",
+      "A conservative force",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: Definition of Potential Energy: $\\Delta U = -W_c$, where $W_c$ is work done by conservative forces.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- When positive work is done by a conservative force on the system ($W_c > 0$), $\\Delta U = -W_c < 0$, which means potential energy decreases.\n- Potential energy is defined strictly and uniquely for conservative forces.\n\n✓ **Examiner Pro-Tip**: Positive work by conservative force $\\iff$ Decrease in Potential Energy.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "potential-energy"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-369",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "The slope of kinetic energy displacement curve of a particle in motion is",
+    "options": [
+      "Equal to the acceleration of the particle",
+      "Inversely proportional to the acceleration",
+      "Directly proportional to the acceleration",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: Work-Energy Theorem in differential form: $dK = F dx$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Kinetic energy $K = \\frac{1}{2}mv^2$.\n- Differentiating with respect to position $x$:\n  $$\\frac{dK}{dx} = \\frac{1}{2}m (2v) \\frac{dv}{dx} = m v \\frac{dv}{dx}$$\n- Since $v \\frac{dv}{dx} = a$ (acceleration):\n  $$\\frac{dK}{dx} = m a$$\n- Since mass $m$ is constant, slope $\\frac{dK}{dx} \\propto a$.\n\n✓ **Examiner Pro-Tip**: The slope of $K-x$ curve equals the net force $F = ma$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "kinetic-energy-slope"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-370",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "The energy required to accelerate a car from 10 m/s to 20 m/s is how many times the energy required to accelerate the car from rest to 10 m/s",
+    "options": [
+      "Equal",
+      "4 times",
+      "2 times",
+      "3 times"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: Work done equals change in kinetic energy: $W = \\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2)$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Case 1 ($10\\text{ m/s}$ to $20\\text{ m/s}$):\n  $$W_1 = \\frac{1}{2}m (20^2 - 10^2) = \\frac{1}{2}m (400 - 100) = 150m$$\n- Case 2 ($0$ to $10\\text{ m/s}$):\n  $$W_2 = \\frac{1}{2}m (10^2 - 0^2) = \\frac{1}{2}m (100) = 50m$$\n- Ratio: $\\frac{W_1}{W_2} = \\frac{150m}{50m} = 3\\text{ times}$.\n\n✓ **Examiner Pro-Tip**: Due to quadratic dependence ($v^2$), accelerating at higher speeds requires drastically more energy.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "work-energy-theorem"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-371",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "A body of mass 2 kg slides down a curved track which is quadrant of a circle of radius 1 metre. All the surfaces are frictionless. If the body starts from rest, its speed at the bottom of the track is",
+    "options": [
+      "4.43 m/sec",
+      "2 m/sec",
+      "0.5 m/sec",
+      "19.6 m/sec"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Conservation of Mechanical Energy along frictionless profile.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Vertical drop $h = R = 1\\text{ m}$.\n- Loss in gravitational potential energy = Gain in kinetic energy:\n  $$mgh = \\frac{1}{2}mv^2 \\implies v = \\sqrt{2gh}$$\n- $v = \\sqrt{2 \\times 9.8 \\times 1} = \\sqrt{19.6} \\approx 4.43\\text{ m/s}$.\n\n✓ **Examiner Pro-Tip**: On frictionless surfaces, bottom speed depends only on vertical descent $h$, independent of track profile.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "conservation-of-energy"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-372",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "The kinetic energy of a body decreases by 36%. The decrease in its momentum is",
+    "options": [
+      "36%",
+      "20%",
+      "8%",
+      "6%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: Relation between momentum and kinetic energy: $p = \\sqrt{2mK} \\implies p \\propto \\sqrt{K}$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Initial kinetic energy $= K_1$, initial momentum $= p_1$.\n- When KE decreases by 36%, final KE $K_2 = (1 - 0.36)K_1 = 0.64 K_1$.\n- Final momentum $p_2 = \\sqrt{0.64} p_1 = 0.80 p_1 = 80\\% \\text{ of } p_1$.\n- Percentage decrease in momentum $= (1 - 0.80) \\times 100\\% = 20\\%$.\n\n✓ **Examiner Pro-Tip**: For large changes, avoid binomial approximation and use direct square-root ratios.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "momentum-kinetic-energy"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-373",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "A bomb of mass $3m\\text{ kg}$ explodes into two pieces of mass $m\\text{ kg}$ and $2m\\text{ kg}$. If the velocity of $m\\text{ kg}$ mass is $16\\text{ m/s}$, the total kinetic energy released in the explosion is",
+    "options": [
+      "$192 m\\text{ J}$",
+      "$96 m\\text{ J}$",
+      "$384 m\\text{ J}$",
+      "$768 m\\text{ J}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Conservation of Linear Momentum in explosion.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Initial momentum is zero (at rest).\n- By conservation of linear momentum:\n  $$m \\times 16 = 2m \\times v_B \\implies v_B = 8\\text{ m/s}$$\n- Total kinetic energy released:\n  $$K_{total} = \\frac{1}{2}m (16)^2 + \\frac{1}{2}(2m)(8)^2 = \\frac{1}{2}m(256) + m(64) = 128m + 64m = 192m\\text{ J}$$\n\n✓ **Examiner Pro-Tip**: Total kinetic energy released is the sum of kinetic energies of all fragments.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "explosion-momentum"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-374",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following statement does not hold good when two balls of masses $m_1$ and $m_2$ undergo elastic collision",
+    "options": [
+      "When $m_1 \\ll m_2$ and $m_2$ at rest, there will be maximum transfer of momentum",
+      "When $m_1 \\gg m_2$ and $m_2$ at rest, after collision the ball of mass $m_2$ moves with four times the velocity of $m_1$",
+      "When $m_1 = m_2$ and $m_2$ at rest, there will be maximum transfer of K.E.",
+      "When collision is oblique and $m_2$ at rest with $m_1 = m_2$, after collision the balls move in opposite directions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: 1D and 2D Elastic collisions.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- For 1D elastic collision with $m_2$ at rest, $v_2 = \\frac{2m_1}{m_1 + m_2}u_1$.\n- When $m_1 \\gg m_2$, $v_2 \\approx 2u_1$ (twice the velocity, not four times). Hence statement (b) does not hold good.\n- (Also, in oblique elastic collision with equal masses, they move at $90^\\circ$ mutually perpendicular, not opposite).\n\n✓ **Examiner Pro-Tip**: Heavy projectile striking light stationary target gives $v_2 \\approx 2u_1$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "elastic-collision"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-375",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "A neutron travelling with a velocity $v$ and K.E. $E$ collides perfectly elastically head on with the nucleus of an atom of mass number $A$ at rest. The fraction of total energy retained by neutron is",
+    "options": [
+      "$\\left(\\frac{A-1}{A+1}\\right)^2$",
+      "$\\left(\\frac{A+1}{A-1}\\right)^2$",
+      "$\\left(\\frac{A-1}{A}\\right)^2$",
+      "$\\left(\\frac{A+1}{A}\\right)^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Head-on elastic collision velocity formula: $v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right) u_1$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Mass of neutron $m_1 = 1\\text{ u}$, mass of nucleus $m_2 = A\\text{ u}$.\n- Velocity after collision: $v_1 = \\left(\\frac{1 - A}{1 + A}\\right) v$.\n- Fraction of kinetic energy retained:\n  $$\\frac{K_1'}{K_1} = \\frac{\\frac{1}{2}m_1 v_1^2}{\\frac{1}{2}m_1 v^2} = \\left(\\frac{1 - A}{1 + A}\\right)^2 = \\left(\\frac{A-1}{A+1}\\right)^2$$\n\n✓ **Examiner Pro-Tip**: For hydrogen ($A = 1$), fraction retained is 0 (100% transfer), which is why water/paraffin are prime moderators.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "neutron-moderation"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-376",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Easy",
+    "questionText": "A body of mass $m_1$ moving with uniform velocity of 40 m/s collides with another mass $m_2$ at rest and then the two together begin to move with uniform velocity of 30 m/s. The ratio of their masses $m_1/m_2$ is",
+    "options": [
+      "0.75",
+      "1.33",
+      "3.0",
+      "4.0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: Conservation of Linear Momentum in perfectly inelastic collision.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Initial momentum = Final momentum:\n  $$m_1 (40) + m_2 (0) = (m_1 + m_2)(30)$$\n  $$40 m_1 = 30 m_1 + 30 m_2$$\n  $$10 m_1 = 30 m_2 \\implies \\frac{m_1}{m_2} = \\frac{30}{10} = 3.0$$\n\n✓ **Examiner Pro-Tip**: Sticking together means common velocity $V = \\frac{m_1 u_1}{m_1 + m_2}$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "inelastic-collision"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-377",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "Six identical balls are lined in a straight groove made on a horizontal frictionless surface as shown. Two similar balls each moving with a velocity $v$ collide elastically with the row of 6 balls from left. What will happen",
+    "options": [
+      "One ball from the right rolls out with a speed $2v$ and the remaining balls will remain at rest",
+      "Two balls from the right roll out with speed $v$ each and the remaining balls will remain stationary",
+      "All the six balls in the row will roll out with speed $v/6$ each and the two colliding balls will come to rest",
+      "The colliding balls will come to rest and no ball rolls out from right"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: Simultaneous conservation of Momentum and Kinetic Energy (Executive toy / Newton's Cradle principle).\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Incoming momentum: $P = 2mv$.\n- Incoming kinetic energy: $K = 2 \\times \\frac{1}{2}mv^2 = mv^2$.\n- If $n$ balls emerge with speed $u$:\n  $$n m u = 2 m v \\implies u = \\frac{2v}{n}$$\n  $$K' = n \\left(\\frac{1}{2}m u^2\\right) = \\frac{1}{2} n m \\left(\\frac{4v^2}{n^2}\\right) = \\frac{2}{n} m v^2$$\n- For $K' = K = mv^2$, we must have $\\frac{2}{n} = 1 \\implies n = 2$ and $u = v$.\n- Thus, exactly two balls roll out from the right with speed $v$ each.\n\n✓ **Examiner Pro-Tip**: Elastic chain collisions preserve the exact number of incoming colliding balls.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "newtons-cradle"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-378",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Hard",
+    "questionText": "A wooden block of mass $M$ rests on a horizontal surface. A bullet of mass $m$ moving in the horizontal direction strikes and gets embedded in it. The combined system covers a distance $x$ on the surface. If the coefficient of friction between wood and the surface is $\\mu$, the speed of the bullet at the time of striking the block is (where $m$ is mass of the bullet)",
+    "options": [
+      "$\\sqrt{\\frac{2Mg}{\\mu m}}$",
+      "$\\sqrt{\\frac{2\\mu mg}{Mx}}$",
+      "$\\left(\\frac{M+m}{m}\\right)\\sqrt{2\\mu gx}$",
+      "$\\sqrt{\\frac{2\\mu mx}{M+m}}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: Combination of momentum conservation (during impact) and Work-Energy theorem (during stopping slide).\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Let bullet speed be $v$. System speed after impact $V = \\frac{mv}{M+m}$.\n- Work done by friction over distance $x$:\n  $$W_f = f_k x = \\mu (M+m)g x$$\n- Kinetic energy after impact is dissipated by friction:\n  $$\\frac{1}{2}(M+m)V^2 = \\mu (M+m)g x \\implies V = \\sqrt{2\\mu gx}$$\n- Equating speeds:\n  $$\\frac{mv}{M+m} = \\sqrt{2\\mu gx} \\implies v = \\left(\\frac{M+m}{m}\\right)\\sqrt{2\\mu gx}$$\n\n✓ **Examiner Pro-Tip**: Standard forensic bullet velocity formula: $v = \\frac{M+m}{m}\\sqrt{2\\mu gx}$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "bullet-block-friction"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-379",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "A ball moving with speed $v$ hits another identical ball at rest. The two balls stick together after collision. If specific heat of the material of the balls is $S$, the temperature rise resulting from the collision is [Roorkee 1999]",
+    "options": [
+      "$\\frac{v^2}{8S}$",
+      "$\\frac{v^2}{4S}$",
+      "$\\frac{v^2}{2S}$",
+      "$\\frac{v^2}{S}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: Perfectly inelastic collision mechanical energy loss converted to thermal heat: $\\Delta Q = m_{tot} S \\Delta T$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Common velocity after collision: $V = \\frac{m v}{2m} = \\frac{v}{2}$.\n- Loss in kinetic energy:\n  $$\\Delta K = \\frac{1}{2}mv^2 - \\frac{1}{2}(2m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{2}mv^2 - \\frac{1}{4}mv^2 = \\frac{1}{4}mv^2$$\n- This lost energy heats the combined mass $2m$:\n  $$\\Delta Q = (2m) S \\Delta T = \\frac{1}{4}mv^2 \\implies \\Delta T = \\frac{\\frac{1}{4}mv^2}{2m S} = \\frac{v^2}{8S}$$\n\n✓ **Examiner Pro-Tip**: Remember the total mass heated is $2m$, yielding denominator $8S$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "heat-collision"
+    ]
+  },
+  {
+    "id": "errorless-phy-wep-380",
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "topic": "Self Evaluation Test - 6",
+    "difficulty": "Medium",
+    "questionText": "A bag of sand of mass $M$ is suspended by a string. A bullet of mass $m$ is fired at it with velocity $v$ and gets embedded into it. The loss of kinetic energy in this process is",
+    "options": [
+      "$\\frac{1}{2}mv^2$",
+      "$\\frac{1}{2}mv^2 \\times \\frac{1}{M+m}$",
+      "$\\frac{1}{2}mv^2 \\times \\frac{M}{m}$",
+      "$\\frac{1}{2}mv^2 \\left(\\frac{M}{M+m}\\right)$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: Kinetic energy loss in perfectly inelastic collision: $\\Delta K = \\frac{1}{2}\\frac{m_1 m_2}{m_1 + m_2}(u_1 - u_2)^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Initial KE $= K_i = \\frac{1}{2}mv^2$.\n- Velocity after collision: $V = \\frac{mv}{M+m}$.\n- Final KE $= K_f = \\frac{1}{2}(M+m)V^2 = \\frac{1}{2}(M+m)\\left(\\frac{mv}{M+m}\\right)^2 = \\frac{1}{2}\\frac{m^2 v^2}{M+m}$.\n- Loss in KE $\\Delta K = K_i - K_f = \\frac{1}{2}mv^2 \\left(1 - \\frac{m}{M+m}\\right) = \\frac{1}{2}mv^2 \\left(\\frac{M}{M+m}\\right)$.\n\n✓ **Examiner Pro-Tip**: $\\Delta K = \\frac{1}{2}\\mu v_{rel}^2$ where reduced mass $\\mu = \\frac{mM}{m+M}$.",
+    "tags": [
+      "work-energy-power",
+      "set-6",
+      "kinetic-energy-loss"
+    ]
   }
 ];
 
