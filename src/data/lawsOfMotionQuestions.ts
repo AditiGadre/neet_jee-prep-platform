@@ -1,6 +1,7 @@
+import { FRICTION_QUESTIONS } from './frictionQuestions';
 import { Question } from '../types';
 
-export const LAWS_OF_MOTION_BOOK_QUESTIONS: Question[] = [
+export const NEWTONS_LAWS_OF_MOTION_QUESTIONS: Question[] = [
   {
     "id": "lom-fl-01",
     "subject": "Physics",
@@ -5685,4 +5686,9 @@ export const LAWS_OF_MOTION_BOOK_QUESTIONS: Question[] = [
   }
 ];
 
-export const LAWS_OF_MOTION_QUESTIONS: Question[] = LAWS_OF_MOTION_BOOK_QUESTIONS;
+export const LAWS_OF_MOTION_QUESTIONS: Question[] = [
+  ...NEWTONS_LAWS_OF_MOTION_QUESTIONS,
+  ...FRICTION_QUESTIONS
+];
+
+export const LAWS_OF_MOTION_BOOK_QUESTIONS = LAWS_OF_MOTION_QUESTIONS;
