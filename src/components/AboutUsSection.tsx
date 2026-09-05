@@ -18,15 +18,15 @@ export const AboutUsSection: React.FC = () => {
     <div className="space-y-4">
       {/* Header Banner */}
       <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-xs">
-        <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-blue-200">
+        <div className="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5 border border-blue-200">
           <Info className="w-3 h-3" />
-          <span>NEETcbt Pedagogy & Story</span>
+          <span>NeetCbt Exam Test Pedagogy & Story</span>
         </div>
-        <h1 className="text-base sm:text-lg font-bold text-gray-900">
-          4. About NEETcbt
+        <h1 className="text-base sm:text-lg font-bold text-slate-900">
+          4. About NeetCbt Exam Test
         </h1>
-        <p className="mt-0.5 text-xs text-gray-500 max-w-3xl">
-          India's most trusted NCERT-first NEET preparation platform, empowering over 1,500,000 aspirants with Target Batches, Masterclass in Biology, and Classroom Test Series.
+        <p className="mt-0.5 text-xs text-slate-600 max-w-3xl">
+          India&apos;s most trusted NCERT-first NEET preparation platform, empowering over 1,500,000 aspirants with Target Batches, Sunday 180-Marks CBT Mocks, and Continuous AI Tutor doubt solving.
         </p>
       </div>
 

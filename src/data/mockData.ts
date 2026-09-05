@@ -107,13 +107,38 @@ import {
   CHEMISTRY_MOCK_TEST_4_QUESTIONS,
   CHEMISTRY_MOCK_TEST_5_QUESTIONS
 } from './chemistryMockTests';
-import { VECTORS_BOOK_QUESTIONS } from './vectorsQuestions';
-import { UNITS_BOOK_QUESTIONS } from './unitsQuestions';
-import { MOTION_BOOK_QUESTIONS } from './motionQuestions';
-import { GRAVITATION_BOOK_QUESTIONS } from './gravitationQuestions';
-import { ELECTROSTATICS_BOOK_QUESTIONS } from './electrostaticsQuestions';
-import { MAGNETISM_BOOK_QUESTIONS } from './magnetismQuestions';
-import { THERMODYNAMICS_BOOK_QUESTIONS as PHYSICS_THERMO_QUESTIONS } from './thermodynamicsQuestions';
+import {
+  UNITS_BOOK_QUESTIONS,
+  VECTORS_BOOK_QUESTIONS,
+  MOTION_BOOK_QUESTIONS,
+  MOTION_2D_QUESTIONS,
+  LAWS_OF_MOTION_QUESTIONS,
+  WORK_ENERGY_POWER_QUESTIONS,
+  ROTATIONAL_MOTION_QUESTIONS,
+  GRAVITATION_BOOK_QUESTIONS,
+  ELASTICITY_QUESTIONS,
+  FLUID_MECHANICS_QUESTIONS,
+  THERMAL_PROPERTIES_QUESTIONS,
+  THERMODYNAMICS_PHYSICS_QUESTIONS,
+  KINETIC_THEORY_QUESTIONS,
+  OSCILLATIONS_SHM_QUESTIONS,
+  WAVES_ACOUSTICS_QUESTIONS,
+  ELECTROSTATICS_BOOK_QUESTIONS,
+  CAPACITANCE_QUESTIONS,
+  CURRENT_ELECTRICITY_QUESTIONS,
+  MAGNETISM_BOOK_QUESTIONS,
+  MAGNETISM_MATTER_QUESTIONS,
+  EMI_QUESTIONS,
+  ALTERNATING_CURRENT_QUESTIONS,
+  EM_WAVES_QUESTIONS,
+  RAY_OPTICS_QUESTIONS,
+  WAVE_OPTICS_QUESTIONS,
+  DUAL_NATURE_QUESTIONS,
+  ATOMS_PHYSICS_QUESTIONS,
+  NUCLEI_PHYSICS_QUESTIONS,
+  SEMICONDUCTORS_QUESTIONS,
+  ALL_PHYSICS_MASTER_QUESTIONS
+} from './physicsMasterQuestions';
 import {
   TestItem,
   Flashcard,
@@ -1481,7 +1506,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MOTION_BOOK_QUESTIONS)
+    questions: get45(MOTION_2D_QUESTIONS)
   },
   {
     id: 'test-phy-ch05',
@@ -1496,7 +1521,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MOTION_BOOK_QUESTIONS)
+    questions: get45(LAWS_OF_MOTION_QUESTIONS)
   },
   {
     id: 'test-phy-ch06',
@@ -1511,7 +1536,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MOTION_BOOK_QUESTIONS)
+    questions: get45(WORK_ENERGY_POWER_QUESTIONS)
   },
   {
     id: 'test-phy-ch07',
@@ -1526,7 +1551,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MOTION_BOOK_QUESTIONS)
+    questions: get45(ROTATIONAL_MOTION_QUESTIONS)
   },
   {
     id: 'test-phy-ch08',
@@ -1556,7 +1581,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+    questions: get45(ELASTICITY_QUESTIONS)
   },
   {
     id: 'test-phy-ch10',
@@ -1571,7 +1596,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+    questions: get45(FLUID_MECHANICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch11',
@@ -1586,7 +1611,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(PHYSICS_THERMO_QUESTIONS)
+    questions: get45(THERMAL_PROPERTIES_QUESTIONS)
   },
   {
     id: 'test-phy-ch12',
@@ -1601,7 +1626,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(PHYSICS_THERMO_QUESTIONS)
+    questions: get45(THERMODYNAMICS_PHYSICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch13',
@@ -1616,7 +1641,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(PHYSICS_THERMO_QUESTIONS)
+    questions: get45(KINETIC_THEORY_QUESTIONS)
   },
   {
     id: 'test-phy-ch14',
@@ -1631,7 +1656,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(VECTORS_BOOK_QUESTIONS)
+    questions: get45(OSCILLATIONS_SHM_QUESTIONS)
   },
   {
     id: 'test-phy-ch15',
@@ -1646,7 +1671,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(UNITS_BOOK_QUESTIONS)
+    questions: get45(WAVES_ACOUSTICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch16',
@@ -1676,7 +1701,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+    questions: get45(CAPACITANCE_QUESTIONS)
   },
   {
     id: 'test-phy-ch18',
@@ -1691,7 +1716,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+    questions: get45(CURRENT_ELECTRICITY_QUESTIONS)
   },
   {
     id: 'test-phy-ch19',
@@ -1721,7 +1746,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+    questions: get45(MAGNETISM_MATTER_QUESTIONS)
   },
   {
     id: 'test-phy-ch21',
@@ -1736,7 +1761,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+    questions: get45(EMI_QUESTIONS)
   },
   {
     id: 'test-phy-ch22',
@@ -1751,7 +1776,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+    questions: get45(ALTERNATING_CURRENT_QUESTIONS)
   },
   {
     id: 'test-phy-ch23',
@@ -1766,7 +1791,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+    questions: get45(EM_WAVES_QUESTIONS)
   },
   {
     id: 'test-phy-ch24',
@@ -1781,7 +1806,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(UNITS_BOOK_QUESTIONS)
+    questions: get45(RAY_OPTICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch25',
@@ -1796,7 +1821,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(VECTORS_BOOK_QUESTIONS)
+    questions: get45(WAVE_OPTICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch26',
@@ -1811,7 +1836,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+    questions: get45(DUAL_NATURE_QUESTIONS)
   },
   {
     id: 'test-phy-ch27',
@@ -1826,7 +1851,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(UNITS_BOOK_QUESTIONS)
+    questions: get45(ATOMS_PHYSICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch28',
@@ -1841,7 +1866,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(GRAVITATION_BOOK_QUESTIONS)
+    questions: get45(NUCLEI_PHYSICS_QUESTIONS)
   },
   {
     id: 'test-phy-ch29',
@@ -1856,7 +1881,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+    questions: get45(SEMICONDUCTORS_QUESTIONS)
   }
 ];
 
@@ -2405,69 +2430,949 @@ export const BOOKS_DATA: BookItem[] = [
 // ==========================================
 export const PYQS_DATA: PYQItem[] = [
   {
-    id: 'pyq-bio-2024-1',
+    id: 'pyq-b-24-01',
     subject: 'Biology',
     chapter: 'Molecular Basis of Inheritance',
-    topic: 'Lac Operon',
+    topic: 'Lac Operon & Gene Regulation',
     year: 2024,
     exam: 'NEET',
     frequency: 'Asked 6 times in last 7 years',
     conceptWeightage: 'Very High (12 Marks)',
     question: {
-      id: 'pyq-q1',
+      id: 'pyq-b-24-01-q',
       subject: 'Biology',
       chapter: 'Molecular Basis of Inheritance',
-      topic: 'Lac Operon',
+      topic: 'Lac Operon & Gene Regulation',
       difficulty: 'Medium',
-      questionText: 'In the lac operon of E. coli, which gene encodes the enzyme beta-galactosidase?',
-      options: ['z gene', 'y gene', 'a gene', 'i gene'],
+      questionText: "In the lac operon of Escherichia coli, which structural gene encodes the enzyme beta-galactosidase?",
+      options: ["z gene", "y gene", "a gene", "i gene"],
       correctAnswer: 0,
-      explanation: 'The z gene codes for beta-galactosidase, y gene codes for permease, and a gene codes for transacetylase.',
-      tags: ['NEET 2024', 'NCERT Page 104', 'Class 12']
+      explanation: "In the lac operon, the z gene codes for beta-galactosidase (which hydrolyzes lactose into glucose and galactose), the y gene codes for permease (increases cell permeability to beta-galactosides), and the a gene encodes transacetylase. The i gene is the regulatory gene producing the repressor protein.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 116"]
     }
   },
   {
-    id: 'pyq-bio-2023-1',
+    id: 'pyq-b-24-02',
+    subject: 'Biology',
+    chapter: 'Principles of Inheritance and Variation',
+    topic: 'Mendelian Disorders & Pedigree',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'Very High (12 Marks)',
+    question: {
+      id: 'pyq-b-24-02-q',
+      subject: 'Biology',
+      chapter: 'Principles of Inheritance and Variation',
+      topic: 'Mendelian Disorders & Pedigree',
+      difficulty: 'Medium',
+      questionText: "Which of the following is an autosomal recessive genetic disorder caused by a point mutation resulting in the substitution of Glutamic acid by Valine at the 6th position of beta-globin chain?",
+      options: ["Sickle-cell anemia", "Haemophilia A", "Thalassemia major", "Phenylketonuria"],
+      correctAnswer: 0,
+      explanation: "Sickle-cell anemia is an autosomal recessive disorder caused by the substitution of Glutamic acid (GAG) by Valine (GUG) at the 6th position of the beta-globin chain of hemoglobin. This causes polymerisation of mutant Hb under low oxygen tension, altering RBC shape into a sickle form.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 89"]
+    }
+  },
+  {
+    id: 'pyq-b-24-03',
+    subject: 'Biology',
+    chapter: 'Biotechnology: Principles and Processes',
+    topic: 'Restriction Endonucleases & Vectors',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked every year',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-24-03-q',
+      subject: 'Biology',
+      chapter: 'Biotechnology: Principles and Processes',
+      topic: 'Restriction Endonucleases & Vectors',
+      difficulty: 'Medium',
+      questionText: "During agarose gel electrophoresis, the separated DNA fragments migrate towards the anode because:",
+      options: ["DNA fragments are negatively charged due to phosphate groups", "DNA fragments are positively charged due to histone proteins", "DNA is neutral and moves solely by diffusion", "Smaller DNA fragments have positive surface charges"],
+      correctAnswer: 0,
+      explanation: "DNA fragments are negatively charged molecules due to the presence of phosphate groups in their sugar-phosphate backbone. Therefore, in an electric field, they migrate towards the positive electrode (anode) through the sieving matrix of agarose gel.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 198"]
+    }
+  },
+  {
+    id: 'pyq-b-24-04',
+    subject: 'Biology',
+    chapter: 'Human Health and Disease',
+    topic: 'Immunity & Antibodies',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-24-04-q',
+      subject: 'Biology',
+      chapter: 'Human Health and Disease',
+      topic: 'Immunity & Antibodies',
+      difficulty: 'Medium',
+      questionText: "Which class of immunoglobulin (antibody) is predominantly present in human colostrum (initial milk secreted by mother) providing passive natural immunity to newborn?",
+      options: ["IgA", "IgG", "IgE", "IgM"],
+      correctAnswer: 0,
+      explanation: "Colostrum secreted by the mother during the initial days of lactation has abundant antibodies of the IgA class to protect the infant. IgG is the only antibody capable of crossing the placenta; IgE mediates allergic responses.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 151"]
+    }
+  },
+  {
+    id: 'pyq-b-23-01',
     subject: 'Biology',
     chapter: 'Photosynthesis in Higher Plants',
-    topic: 'C4 Pathway',
+    topic: 'C4 Pathway & Kranz Anatomy',
     year: 2023,
     exam: 'NEET',
     frequency: 'Asked every year',
     conceptWeightage: 'High (8 Marks)',
     question: {
-      id: 'pyq-q2',
+      id: 'pyq-b-23-01-q',
       subject: 'Biology',
       chapter: 'Photosynthesis in Higher Plants',
-      topic: 'C4 Pathway',
+      topic: 'C4 Pathway & Kranz Anatomy',
       difficulty: 'Medium',
-      questionText: 'In C4 plants, the first stable product of CO2 fixation is formed in:',
-      options: ['Mesophyll cells (Oxaloacetic acid, 4C)', 'Bundle sheath cells (PGA)', 'Epidermal cells', 'Guard cells'],
+      questionText: "In C4 plants, the primary carbon dioxide acceptor is a 3-carbon molecule called:",
+      options: ["Phosphoenolpyruvate (PEP)", "Ribulose-1,5-bisphosphate (RuBP)", "Oxaloacetic acid (OAA)", "Phosphoglyceric acid (PGA)"],
       correctAnswer: 0,
-      explanation: 'In C4 plants, CO2 is fixed by PEP carboxylase in mesophyll cells to form Oxaloacetic acid (OAA, 4C).',
-      tags: ['NEET 2023', 'NCERT Class 11']
+      explanation: "In C4 plants (e.g. Maize, Sugarcane), the primary CO2 acceptor is Phosphoenolpyruvate (PEP, 3-carbon) located in mesophyll cells, catalyzed by the enzyme PEP carboxylase (PEPcase) to form the 4-carbon organic acid Oxaloacetic acid (OAA).",
+      tags: ["NEET 2023", "NCERT Class 11 Page 218"]
     }
   },
   {
-    id: 'pyq-chem-2024-1',
+    id: 'pyq-b-23-02',
+    subject: 'Biology',
+    chapter: 'Cell Cycle and Cell Division',
+    topic: 'Meiosis I Prophase Sub-stages',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 7 times in last 8 years',
+    conceptWeightage: 'Very High (8 Marks)',
+    question: {
+      id: 'pyq-b-23-02-q',
+      subject: 'Biology',
+      chapter: 'Cell Cycle and Cell Division',
+      topic: 'Meiosis I Prophase Sub-stages',
+      difficulty: 'Medium',
+      questionText: "The enzyme recombinase is required and crossing over between non-sister chromatids of homologous chromosomes occurs during which stage of Prophase I?",
+      options: ["Pachytene", "Zygotene", "Diplotene", "Diakinesis"],
+      correctAnswer: 0,
+      explanation: "Crossing over is an enzyme-mediated process involving recombinase that occurs during the Pachytene stage of Prophase I of Meiosis. Zygotene involves synapsis and synaptonemal complex formation; Diplotene shows dissolution of synaptonemal complex with Chiasmata visibility.",
+      tags: ["NEET 2023", "NCERT Class 11 Page 168"]
+    }
+  },
+  {
+    id: 'pyq-b-23-03',
+    subject: 'Biology',
+    chapter: 'Human Reproduction',
+    topic: 'Spermatogenesis & Hormonal Control',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-23-03-q',
+      subject: 'Biology',
+      chapter: 'Human Reproduction',
+      topic: 'Spermatogenesis & Hormonal Control',
+      difficulty: 'Medium',
+      questionText: "Which hormone acts directly on Leydig cells to stimulate the synthesis and secretion of androgens (testosterone)?",
+      options: ["Luteinizing Hormone (LH)", "Follicle Stimulating Hormone (FSH)", "Inhibin", "Prolactin"],
+      correctAnswer: 0,
+      explanation: "LH (Luteinizing Hormone / ICSH) acts on the Leydig (interstitial) cells and stimulates them to synthesize and secrete androgens (testosterone). FSH acts on Sertoli cells and stimulates spermiogenesis.",
+      tags: ["NEET 2023", "NCERT Class 12 Page 47"]
+    }
+  },
+  {
+    id: 'pyq-b-23-04',
+    subject: 'Biology',
+    chapter: 'Sexual Reproduction in Flowering Plants',
+    topic: 'Double Fertilization & Endosperm',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-23-04-q',
+      subject: 'Biology',
+      chapter: 'Sexual Reproduction in Flowering Plants',
+      topic: 'Double Fertilization & Endosperm',
+      difficulty: 'Medium',
+      questionText: "In angiosperms, double fertilization involves the fusion of:",
+      options: ["One male gamete with egg (syngamy) and other with two polar nuclei (triple fusion)", "Two male gametes with one egg cell", "One male gamete with synergid and other with antipodal", "Both male gametes with secondary nucleus"],
+      correctAnswer: 0,
+      explanation: "Double fertilization is a unique event in flowering plants: Syngamy (fusion of 1st male gamete n with egg cell n -> Zygote 2n) + Triple fusion (fusion of 2nd male gamete n with diploid secondary nucleus 2n -> Primary Endosperm Nucleus 3n).",
+      tags: ["NEET 2023", "NCERT Class 12 Page 34"]
+    }
+  },
+  {
+    id: 'pyq-b-22-01',
+    subject: 'Biology',
+    chapter: 'Breathing and Exchange of Gases',
+    topic: 'Oxygen-Hemoglobin Dissociation Curve',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-22-01-q',
+      subject: 'Biology',
+      chapter: 'Breathing and Exchange of Gases',
+      topic: 'Oxygen-Hemoglobin Dissociation Curve',
+      difficulty: 'Medium',
+      questionText: "Which of the following factors causes a rightward shift of the Oxygen-Hemoglobin dissociation curve (facilitating oxygen delivery to tissues)?",
+      options: ["High pCO2, high H+ concentration (low pH), and high temperature", "Low pCO2, low H+ concentration (high pH), and low temperature", "High pO2 and low body temperature", "Low 2,3-DPG concentration"],
+      correctAnswer: 0,
+      explanation: "A rightward shift of the sigmoid oxyhemoglobin curve (Bohr effect) means decreased affinity of Hb for O2, promoting O2 release to actively respiring tissues. It is caused by: High pCO2, High [H+] (low pH), High Temperature, and High 2,3-BPG.",
+      tags: ["NEET 2022", "NCERT Class 11 Page 274"]
+    }
+  },
+  {
+    id: 'pyq-b-22-02',
+    subject: 'Biology',
+    chapter: 'Ecology: Organisms and Populations',
+    topic: 'Population Growth Models',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-22-02-q',
+      subject: 'Biology',
+      chapter: 'Ecology: Organisms and Populations',
+      topic: 'Population Growth Models',
+      difficulty: 'Medium',
+      questionText: "In the Verhulst-Pearl Logistic Growth equation dN/dt = rN((K - N)/K), the term (K - N)/K represents:",
+      options: ["Environmental resistance to population growth", "Biotic potential of the population", "Intrinsic rate of natural increase (r)", "Carrying capacity (K)"],
+      correctAnswer: 0,
+      explanation: "In the logistic growth equation dN/dt = rN(1 - N/K) or rN((K - N)/K), the term (K - N)/K reflects environmental resistance or the proportion of carrying capacity remaining unutilized.",
+      tags: ["NEET 2022", "NCERT Class 12 Page 231"]
+    }
+  },
+  {
+    id: 'pyq-b-22-03',
+    subject: 'Biology',
+    chapter: 'Plant Growth and Development',
+    topic: 'Phytohormones & Auxin/Ethylene',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-22-03-q',
+      subject: 'Biology',
+      chapter: 'Plant Growth and Development',
+      topic: 'Phytohormones & Auxin/Ethylene',
+      difficulty: 'Medium',
+      questionText: "Which plant growth regulator is a gaseous phytohormone used extensively for commercial ripening of fruits like bananas and tomatoes?",
+      options: ["Ethylene (C2H4)", "Gibberellic Acid (GA3)", "Abscisic Acid (ABA)", "Cytokinin (Zeatin)"],
+      correctAnswer: 0,
+      explanation: "Ethylene is a gaseous plant hormone that promotes senescence, abscission of plant organs, and fruit ripening (climacteric respiration burst). Ethephon is the compound most widely used as a source of ethylene.",
+      tags: ["NEET 2022", "NCERT Class 11 Page 250"]
+    }
+  },
+  {
+    id: 'pyq-b-21-01',
+    subject: 'Biology',
+    chapter: 'Excretory Products and their Elimination',
+    topic: 'Renin-Angiotensin-Aldosterone System (RAAS)',
+    year: 2021,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-21-01-q',
+      subject: 'Biology',
+      chapter: 'Excretory Products and their Elimination',
+      topic: 'Renin-Angiotensin-Aldosterone System (RAAS)',
+      difficulty: 'Medium',
+      questionText: "A decrease in glomerular blood pressure or GFR stimulates the Juxtaglomerular (JG) cells to release which substance?",
+      options: ["Renin", "Angiotensinogen", "Aldosterone", "Atrial Natriuretic Factor (ANF)"],
+      correctAnswer: 0,
+      explanation: "A fall in GFR, blood pressure, or blood volume activates the Juxtaglomerular (JG) cells of the kidney to release the enzyme Renin into the bloodstream, which converts plasma angiotensinogen to angiotensin I and subsequently to angiotensin II (a potent vasoconstrictor that also stimulates aldosterone release).",
+      tags: ["NEET 2021", "NCERT Class 11 Page 297"]
+    }
+  },
+  {
+    id: 'pyq-b-21-02',
+    subject: 'Biology',
+    chapter: 'Evolution',
+    topic: 'Hardy-Weinberg Principle',
+    year: 2021,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-21-02-q',
+      subject: 'Biology',
+      chapter: 'Evolution',
+      topic: 'Hardy-Weinberg Principle',
+      difficulty: 'Medium',
+      questionText: "In a population in Hardy-Weinberg equilibrium, if the frequency of the recessive allele (q) is 0.4, what is the frequency of heterozygous individuals (2pq)?",
+      options: ["0.48", "0.24", "0.36", "0.16"],
+      correctAnswer: 0,
+      explanation: "By Hardy-Weinberg equation: p + q = 1 => p = 1 - 0.4 = 0.6. Frequency of heterozygotes = 2pq = 2 * 0.6 * 0.4 = 0.48 (48%).",
+      tags: ["NEET 2021", "NCERT Class 12 Page 136"]
+    }
+  },
+  {
+    id: 'pyq-b-20-01',
+    subject: 'Biology',
+    chapter: 'Cell: The Unit of Life',
+    topic: 'Fluid Mosaic Model & Membrane Proteins',
+    year: 2020,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-20-01-q',
+      subject: 'Biology',
+      chapter: 'Cell: The Unit of Life',
+      topic: 'Fluid Mosaic Model & Membrane Proteins',
+      difficulty: 'Medium',
+      questionText: "According to Singer and Nicolson\u2019s Fluid Mosaic Model (1972), the quasi-fluid nature of membrane lipids enables:",
+      options: ["Lateral movement of proteins within the overall bilayer", "Flip-flop movement of all integral proteins constantly", "Permanent rigidity to cellular shape", "Unrestricted transport of all macromolecules without energy"],
+      correctAnswer: 0,
+      explanation: "The quasi-fluid nature of lipid enables lateral movement of proteins within the overall bilayer. This ability to move within the membrane is measured as its membrane fluidity, which is crucial for cell growth, formation of intercellular junctions, secretion, endocytosis, and cell division.",
+      tags: ["NEET 2020", "NCERT Class 11 Page 131"]
+    }
+  },
+  {
+    id: 'pyq-b-20-02',
+    subject: 'Biology',
+    chapter: 'Neural Control and Coordination',
+    topic: 'Action Potential & Synapse',
+    year: 2020,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-20-02-q',
+      subject: 'Biology',
+      chapter: 'Neural Control and Coordination',
+      topic: 'Action Potential & Synapse',
+      difficulty: 'Medium',
+      questionText: "During the transmission of a nerve impulse across a chemical synapse, the influx of which ion into the presynaptic terminal triggers the exocytosis of neurotransmitter vesicles into the synaptic cleft?",
+      options: ["Calcium ions (Ca2+)", "Sodium ions (Na+)", "Potassium ions (K+)", "Chloride ions (Cl-)"],
+      correctAnswer: 0,
+      explanation: "When an action potential arrives at the axon terminal, it opens voltage-gated Ca2+ channels, causing an influx of Ca2+ ions. This stimulates synaptic vesicles to fuse with the presynaptic membrane and release neurotransmitters (e.g. acetylcholine) into the synaptic cleft.",
+      tags: ["NEET 2020", "NCERT Class 11 Page 319"]
+    }
+  },
+  {
+    id: 'pyq-b-19-01',
+    subject: 'Biology',
+    chapter: 'Morphology of Flowering Plants',
+    topic: 'Placentation Types & Examples',
+    year: 2019,
+    exam: 'NEET',
+    frequency: 'Asked 6 times in 7 years',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-19-01-q',
+      subject: 'Biology',
+      chapter: 'Morphology of Flowering Plants',
+      topic: 'Placentation Types & Examples',
+      difficulty: 'Medium',
+      questionText: "Placentation in which ovules develop on the inner wall of the ovary or in peripheral parts, becoming two-chambered due to formation of a false septum (replum), is seen in:",
+      options: ["Mustard and Argemone (Parietal placentation)", "Dianthus and Primrose (Free central)", "Tomato and Lemon (Axile)", "Pea (Marginal)"],
+      correctAnswer: 0,
+      explanation: "In parietal placentation, the ovules develop on the inner wall of the ovary or peripheral parts. The ovary is one-chambered but becomes two-chambered due to the formation of a false septum (replum). Examples: Mustard (Brassica) and Argemone.",
+      tags: ["NEET 2019", "NCERT Class 11 Page 75"]
+    }
+  },
+  {
+    id: 'pyq-b-18-01',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    topic: 'Phylum Chordata & Non-Chordata Features',
+    year: 2018,
+    exam: 'NEET',
+    frequency: 'Asked every year',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-b-18-01-q',
+      subject: 'Biology',
+      chapter: 'Animal Kingdom',
+      topic: 'Phylum Chordata & Non-Chordata Features',
+      difficulty: 'Medium',
+      questionText: "The presence of a Water Vascular (Ambulacral) System for locomotion, food capture, and respiration is a unique diagnostic feature of which phylum?",
+      options: ["Echinodermata", "Porifera", "Coelenterata (Cnidaria)", "Mollusca"],
+      correctAnswer: 0,
+      explanation: "Phylum Echinodermata (e.g. Asterias/Starfish, Echinus/Sea urchin) uniquely possesses a water vascular system of coelomic origin used for locomotion, capture and transport of food, and respiration. Note: Porifera has a water canal system (spongocoel with choanocytes).",
+      tags: ["NEET 2018", "NCERT Class 11 Page 54"]
+    }
+  },
+  {
+    id: 'pyq-c-24-01',
     subject: 'Chemistry',
     chapter: 'Aldehydes, Ketones and Carboxylic Acids',
-    topic: 'Named Reactions',
+    topic: 'Cannizzaro & Aldol Reactions',
     year: 2024,
     exam: 'NEET',
     frequency: 'Asked 5 times',
     conceptWeightage: 'High (8 Marks)',
     question: {
-      id: 'pyq-q3',
+      id: 'pyq-c-24-01-q',
       subject: 'Chemistry',
       chapter: 'Aldehydes, Ketones and Carboxylic Acids',
-      topic: 'Aldol & Cannizzaro',
+      topic: 'Cannizzaro & Aldol Reactions',
       difficulty: 'Medium',
-      questionText: 'Which of the following aldehydes will undergo Cannizzaro reaction on treatment with 50% NaOH?',
-      options: ['Benzaldehyde (C6H5CHO)', 'Acetaldehyde (CH3CHO)', 'Propionaldehyde (CH3CH2CHO)', 'Acetone (CH3COCH3)'],
+      questionText: "Which of the following compounds will undergo disproportionation via Cannizzaro reaction upon heating with concentrated 50% NaOH solution?",
+      options: ["Benzaldehyde (C6H5CHO)", "Acetaldehyde (CH3CHO)", "Acetone (CH3COCH3)", "Propanal (CH3CH2CHO)"],
       correctAnswer: 0,
-      explanation: 'Cannizzaro reaction is given by aldehydes having NO alpha-hydrogen atom, such as Benzaldehyde (C6H5CHO) and Formaldehyde (HCHO).',
-      tags: ['NEET 2024', 'Organic Chemistry']
+      explanation: "Aldehydes lacking alpha-hydrogen atoms (e.g. Benzaldehyde C6H5CHO, Formaldehyde HCHO, Trimethylacetaldehyde) undergo self-oxidation and reduction (disproportionation) in the presence of concentrated alkali (50% NaOH) to yield an alcohol (Benzyl alcohol) and a carboxylic acid salt (Sodium benzoate). Compounds with alpha-hydrogen atoms undergo Aldol condensation instead.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 375"]
+    }
+  },
+  {
+    id: 'pyq-c-24-02',
+    subject: 'Chemistry',
+    chapter: 'Electrochemistry',
+    topic: 'Nernst Equation & Standard Potential',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'Very High (8 Marks)',
+    question: {
+      id: 'pyq-c-24-02-q',
+      subject: 'Chemistry',
+      chapter: 'Electrochemistry',
+      topic: 'Nernst Equation & Standard Potential',
+      difficulty: 'Medium',
+      questionText: "For a galvanic cell reaction Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s) with standard EMF E\u00b0cell = 1.10 V at 298 K, what is the cell potential when [Zn2+] = 0.1 M and [Cu2+] = 0.01 M? (Take 2.303 RT/F = 0.059 V)",
+      options: ["1.0705 V", "1.1295 V", "1.1000 V", "0.9815 V"],
+      correctAnswer: 0,
+      explanation: "According to the Nernst Equation: Ecell = E\u00b0cell - (0.0591 / n) * log([Zn2+] / [Cu2+]). Here n = 2. Ecell = 1.10 - (0.059 / 2) * log(0.1 / 0.01) = 1.10 - 0.0295 * log(10) = 1.10 - 0.0295 = 1.0705 V.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 72"]
+    }
+  },
+  {
+    id: 'pyq-c-24-03',
+    subject: 'Chemistry',
+    chapter: 'Chemical Bonding and Molecular Structure',
+    topic: 'VSEPR Theory & Hybridization',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked every year',
+    conceptWeightage: 'Very High (12 Marks)',
+    question: {
+      id: 'pyq-c-24-03-q',
+      subject: 'Chemistry',
+      chapter: 'Chemical Bonding and Molecular Structure',
+      topic: 'VSEPR Theory & Hybridization',
+      difficulty: 'Medium',
+      questionText: "According to VSEPR theory and hybridization rules, the molecular geometry and hybridization of the central atom in SF4 and XeF4 are respectively:",
+      options: ["See-saw (sp3d) and Square planar (sp3d2)", "Square planar (sp3d2) and See-saw (sp3d)", "Tetrahedral (sp3) and Octahedral (sp3d2)", "Trigonal bipyramidal (sp3d) and Square pyramidal (sp3d2)"],
+      correctAnswer: 0,
+      explanation: "In SF4: S has 6 valence electrons; 4 bonding pairs + 1 lone pair = steric number 5 (sp3d hybridization). Due to 1 lone pair in the equatorial position, geometry is See-saw. In XeF4: Xe has 8 valence electrons; 4 bonding pairs + 2 lone pairs = steric number 6 (sp3d2 hybridization). The 2 lone pairs occupy axial positions, yielding a Square planar geometry.",
+      tags: ["NEET 2024", "NCERT Class 11 Page 112"]
+    }
+  },
+  {
+    id: 'pyq-c-24-04',
+    subject: 'Chemistry',
+    chapter: 'Amines',
+    topic: 'Hinsberg Test & Gabriel Phthalimide',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-24-04-q',
+      subject: 'Chemistry',
+      chapter: 'Amines',
+      topic: 'Hinsberg Test & Gabriel Phthalimide',
+      difficulty: 'Medium',
+      questionText: "Which reagent is used in Hinsberg test to distinguish between primary (1\u00b0), secondary (2\u00b0), and tertiary (3\u00b0) amines?",
+      options: ["Benzenesulphonyl chloride (C6H5SO2Cl)", "Hinsberg ester (CH3COCl)", "Tollens reagent [Ag(NH3)2]+", "Lucas reagent (conc. HCl + ZnCl2)"],
+      correctAnswer: 0,
+      explanation: "Benzenesulphonyl chloride (C6H5SO2Cl, Hinsberg reagent) reacts with 1\u00b0 amines to form N-alkylbenzenesulphonamide (soluble in alkali due to acidic N-H), with 2\u00b0 amines to form N,N-dialkylbenzenesulphonamide (insoluble in alkali as no N-H remains), and does not react with 3\u00b0 amines.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 398"]
+    }
+  },
+  {
+    id: 'pyq-c-23-01',
+    subject: 'Chemistry',
+    chapter: 'Thermodynamics',
+    topic: 'Gibbs Free Energy & Spontaneity',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-23-01-q',
+      subject: 'Chemistry',
+      chapter: 'Thermodynamics',
+      topic: 'Gibbs Free Energy & Spontaneity',
+      difficulty: 'Medium',
+      questionText: "For an endothermic chemical reaction (Delta H > 0) with an increase in disorder (Delta S > 0), the reaction will be spontaneous (Delta G < 0) under which temperature condition?",
+      options: ["At high temperatures where T > Delta H / Delta S", "At low temperatures where T < Delta H / Delta S", "At all temperatures unconditionally", "The reaction can never be spontaneous"],
+      correctAnswer: 0,
+      explanation: "According to the Gibbs-Helmholtz equation: Delta G = Delta H - T * Delta S. For spontaneity, Delta G must be negative (Delta G < 0). When Delta H > 0 and Delta S > 0, T * Delta S must exceed Delta H, which requires T > Delta H / Delta S (high temperature).",
+      tags: ["NEET 2023", "NCERT Class 11 Page 179"]
+    }
+  },
+  {
+    id: 'pyq-c-23-02',
+    subject: 'Chemistry',
+    chapter: 'Coordination Compounds',
+    topic: 'Crystal Field Splitting & Magnetic Moment',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 7 times in 8 years',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-23-02-q',
+      subject: 'Chemistry',
+      chapter: 'Coordination Compounds',
+      topic: 'Crystal Field Splitting & Magnetic Moment',
+      difficulty: 'Medium',
+      questionText: "What is the spin-only magnetic moment (in Bohr Magnetons, BM) of the octahedral complex [Fe(CN)6]3- and [Fe(H2O)6]3+ respectively? (Atomic number of Fe = 26)",
+      options: ["1.73 BM (low spin) and 5.92 BM (high spin)", "5.92 BM and 1.73 BM", "0 BM and 4.90 BM", "2.83 BM and 3.87 BM"],
+      correctAnswer: 0,
+      explanation: "In both complexes, Fe is in the +3 oxidation state: Fe3+ has 3d5 configuration. In [Fe(CN)6]3-, CN- is a strong field ligand (Delta o > P), causing pairing into t2g5 eg0 with 1 unpaired electron: mu = sqrt(1(1 + 2)) = sqrt(3) = 1.73 BM. In [Fe(H2O)6]3+, H2O is a weak field ligand (Delta o < P), giving t2g3 eg2 with 5 unpaired electrons: mu = sqrt(5(5 + 2)) = sqrt(35) = 5.92 BM.",
+      tags: ["NEET 2023", "NCERT Class 12 Page 254"]
+    }
+  },
+  {
+    id: 'pyq-c-23-03',
+    subject: 'Chemistry',
+    chapter: 'Equilibrium',
+    topic: 'Solubility Product (Ksp) & Common Ion Effect',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-23-03-q',
+      subject: 'Chemistry',
+      chapter: 'Equilibrium',
+      topic: 'Solubility Product (Ksp) & Common Ion Effect',
+      difficulty: 'Medium',
+      questionText: "If the solubility product constant of silver chromate (Ag2CrO4) is Ksp = 1.1 x 10^-12, its molar solubility S in pure water is given by:",
+      options: ["S = (Ksp / 4)^(1/3) = 6.5 x 10^-5 M", "S = (Ksp)^(1/2) = 1.05 x 10^-6 M", "S = (Ksp / 27)^(1/4)", "S = 2 * Ksp"],
+      correctAnswer: 0,
+      explanation: "For Ag2CrO4(s) <=> 2 Ag+(aq) + CrO4 2-(aq): [Ag+] = 2S and [CrO4 2-] = S. Ksp = [Ag+]^2 * [CrO4 2-] = (2S)^2 * (S) = 4S^3. Therefore S = (Ksp / 4)^(1/3) = (1.1 x 10^-12 / 4)^(1/3) = 6.5 x 10^-5 mol/L.",
+      tags: ["NEET 2023", "NCERT Class 11 Page 226"]
+    }
+  },
+  {
+    id: 'pyq-c-22-01',
+    subject: 'Chemistry',
+    chapter: 'Solutions',
+    topic: 'Colligative Properties & Van\'t Hoff Factor',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-22-01-q',
+      subject: 'Chemistry',
+      chapter: 'Solutions',
+      topic: 'Colligative Properties & Van\'t Hoff Factor',
+      difficulty: 'Medium',
+      questionText: "Which of the following 0.1 M aqueous solutions will exhibit the lowest freezing point (maximum freezing point depression Delta Tf)?",
+      options: ["0.1 M Al2(SO4)3 (i = 5)", "0.1 M BaCl2 (i = 3)", "0.1 M NaCl (i = 2)", "0.1 M Glucose (i = 1)"],
+      correctAnswer: 0,
+      explanation: "Freezing point depression is a colligative property: Delta Tf = i * Kf * m. For Al2(SO4)3, complete dissociation produces 2 Al3+ + 3 SO4 2-, giving Van't Hoff factor i = 5. Therefore, effective molality = 5 * 0.1 = 0.5 M (highest Delta Tf), which results in the lowest freezing point (Tf = 0 - Delta Tf).",
+      tags: ["NEET 2022", "NCERT Class 12 Page 53"]
+    }
+  },
+  {
+    id: 'pyq-c-22-02',
+    subject: 'Chemistry',
+    chapter: 'Structure of Atom',
+    topic: 'Bohr Model & Rydberg Formula',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-22-02-q',
+      subject: 'Chemistry',
+      chapter: 'Structure of Atom',
+      topic: 'Bohr Model & Rydberg Formula',
+      difficulty: 'Medium',
+      questionText: "The wavelength of the first spectral line in the Balmer series of hydrogen spectrum is 6563 \u00c5. What is the wavelength of the second line (H-beta) of the Balmer series?",
+      options: ["4861 \u00c5 (486.1 nm)", "5460 \u00c5", "4102 \u00c5", "3646 \u00c5"],
+      correctAnswer: 0,
+      explanation: "Rydberg formula: 1/lambda = R * [1/n1^2 - 1/n2^2]. For first line of Balmer series (H-alpha): n1 = 2, n2 = 3 => 1/lambda1 = R * [1/4 - 1/9] = 5R/36. For second line (H-beta): n1 = 2, n2 = 4 => 1/lambda2 = R * [1/4 - 1/16] = 3R/16. Dividing: lambda2 / lambda1 = (5R/36) / (3R/16) = (5/36) * (16/3) = 20/27. lambda2 = (20/27) * 6563 \u00c5 = 4861 \u00c5.",
+      tags: ["NEET 2022", "NCERT Class 11 Page 45"]
+    }
+  },
+  {
+    id: 'pyq-c-21-01',
+    subject: 'Chemistry',
+    chapter: 'Organic Chemistry: Some Basic Principles & Techniques',
+    topic: 'Aromaticity & Huckel\'s Rule',
+    year: 2021,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-21-01-q',
+      subject: 'Chemistry',
+      chapter: 'Organic Chemistry: Some Basic Principles & Techniques',
+      topic: 'Aromaticity & Huckel\'s Rule',
+      difficulty: 'Medium',
+      questionText: "According to Huckel's Rule, a planar, completely conjugated cyclic polyene exhibits extra aromatic stability if it contains:",
+      options: ["(4n + 2) pi electrons where n is an integer (0, 1, 2, ...)", "4n pi electrons where n is an integer (1, 2, ...)", "(2n + 1) pi electrons", "(4n + 1) pi electrons"],
+      correctAnswer: 0,
+      explanation: "Huckel's rule states that cyclic, planar, fully conjugated systems with (4n + 2) delocalized pi electrons (where n = 0, 1, 2, 3... yielding 2, 6, 10, 14 pi electrons) possess special thermodynamic and resonance stabilization known as aromaticity.",
+      tags: ["NEET 2021", "NCERT Class 11 Page 397"]
+    }
+  },
+  {
+    id: 'pyq-c-20-01',
+    subject: 'Chemistry',
+    chapter: 'Chemical Kinetics',
+    topic: 'First Order Reaction Half Life',
+    year: 2020,
+    exam: 'NEET',
+    frequency: 'Asked every year',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-20-01-q',
+      subject: 'Chemistry',
+      chapter: 'Chemical Kinetics',
+      topic: 'First Order Reaction Half Life',
+      difficulty: 'Medium',
+      questionText: "For a first-order chemical reaction, the rate constant is k = 4.606 x 10^-3 s^-1. What is the time required for 90% completion of this reaction?",
+      options: ["500 seconds", "1000 seconds", "250 seconds", "100 seconds"],
+      correctAnswer: 0,
+      explanation: "For a first order reaction: t = (2.303 / k) * log([A]0 / [A]t). For 90% completion, remaining concentration [A]t = 100 - 90 = 10% of [A]0. t90% = (2.303 / 4.606 x 10^-3) * log(100 / 10) = (2.303 / 4.606 x 10^-3) * 1 = 1 / (2 x 10^-3) = 1000 / 2 = 500 seconds.",
+      tags: ["NEET 2020", "NCERT Class 12 Page 108"]
+    }
+  },
+  {
+    id: 'pyq-c-19-01',
+    subject: 'Chemistry',
+    chapter: 'Classification of Elements and Periodicity in Properties',
+    topic: 'Ionization Enthalpy & Electron Gain Enthalpy',
+    year: 2019,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-19-01-q',
+      subject: 'Chemistry',
+      chapter: 'Classification of Elements and Periodicity in Properties',
+      topic: 'Ionization Enthalpy & Electron Gain Enthalpy',
+      difficulty: 'Medium',
+      questionText: "The correct order of first ionization enthalpy (IE1) among the Group 15 and 16 elements B, C, N, and O is:",
+      options: ["B < C < O < N", "B < C < N < O", "C < B < N < O", "B < N < C < O"],
+      correctAnswer: 0,
+      explanation: "Across period 2: IE1 increases from left to right with increasing nuclear charge. However, Nitrogen (1s2 2s2 2p3) has a half-filled, extra stable 2p subshell, making it harder to remove an electron than from Oxygen (1s2 2s2 2p4) which experiences inter-electronic repulsion. Hence, the correct order is B (801 kJ/mol) < C (1086 kJ/mol) < O (1314 kJ/mol) < N (1402 kJ/mol).",
+      tags: ["NEET 2019", "NCERT Class 11 Page 87"]
+    }
+  },
+  {
+    id: 'pyq-c-18-01',
+    subject: 'Chemistry',
+    chapter: 'Haloalkanes and Haloarenes',
+    topic: 'SN1 vs SN2 Mechanisms',
+    year: 2018,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-c-18-01-q',
+      subject: 'Chemistry',
+      chapter: 'Haloalkanes and Haloarenes',
+      topic: 'SN1 vs SN2 Mechanisms',
+      difficulty: 'Medium',
+      questionText: "Which of the following alkyl halides undergoes nucleophilic substitution by SN1 mechanism with the highest rate?",
+      options: ["tert-Butyl bromide ((CH3)3C-Br)", "Isopropyl bromide ((CH3)2CH-Br)", "Ethyl bromide (CH3CH2-Br)", "Methyl bromide (CH3-Br)"],
+      correctAnswer: 0,
+      explanation: "The rate-determining step in an SN1 mechanism is the formation of a carbocation intermediate. Tertiary carbocations ((CH3)3C+) are the most stable due to 9 hyperconjugative alpha-hydrogens and inductive (+I) electron donation from three methyl groups. Therefore, the reactivity order for SN1 is 3\u00b0 > 2\u00b0 > 1\u00b0 > methyl.",
+      tags: ["NEET 2018", "NCERT Class 12 Page 303"]
+    }
+  },
+  {
+    id: 'pyq-p-24-01',
+    subject: 'Physics',
+    chapter: 'Dual Nature of Radiation and Matter',
+    topic: 'Photoelectric Effect & Stopping Potential',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked every single year',
+    conceptWeightage: 'Very High (8 Marks)',
+    question: {
+      id: 'pyq-p-24-01-q',
+      subject: 'Physics',
+      chapter: 'Dual Nature of Radiation and Matter',
+      topic: 'Photoelectric Effect & Stopping Potential',
+      difficulty: 'Medium',
+      questionText: "When light of frequency 2nu0 (where nu0 is the threshold frequency) is incident on a metal surface, the maximum velocity of emitted photoelectrons is v1. When the frequency is increased to 5nu0, the maximum velocity becomes v2. The ratio v1 / v2 is:",
+      options: ["1 : 2", "1 : 4", "1 : sqrt(2)", "1 : 3"],
+      correctAnswer: 0,
+      explanation: "According to Einstein photoelectric equation: Kmax = (1/2) m v^2 = h * nu - phi0 = h(nu - nu0).\\nFor case 1 (nu = 2nu0): (1/2) m v1^2 = h(2nu0 - nu0) = h * nu0.\\nFor case 2 (nu = 5nu0): (1/2) m v2^2 = h(5nu0 - nu0) = 4 * h * nu0.\\nDividing equation (1) by (2): (v1 / v2)^2 = (h * nu0) / (4 * h * nu0) = 1/4 => v1 / v2 = 1/2.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 394"]
+    }
+  },
+  {
+    id: 'pyq-p-24-02',
+    subject: 'Physics',
+    chapter: 'Current Electricity',
+    topic: 'Drift Velocity & Ohm\'s Law in Microscopic Form',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-24-02-q',
+      subject: 'Physics',
+      chapter: 'Current Electricity',
+      topic: 'Drift Velocity & Ohm\'s Law in Microscopic Form',
+      difficulty: 'Medium',
+      questionText: "A cylindrical copper wire of length L and cross-sectional area A carries a steady electric current I. If the wire is uniformly stretched to double its original length (2L), its new resistance R' and drift velocity vd' for the same applied potential difference V become:",
+      options: ["R' = 4R and vd' = vd / 2", "R' = 2R and vd' = vd", "R' = 4R and vd' = vd / 4", "R' = R / 4 and vd' = 2vd"],
+      correctAnswer: 0,
+      explanation: "Volume remains constant: A * L = A' * (2L) => A' = A / 2. New resistance R' = rho * (2L) / (A / 2) = 4 * (rho * L / A) = 4R. Drift velocity vd = e * E * tau / m = e * (V / L) * tau / m. When length is doubled under constant V, electric field E' = V / (2L) = E / 2, so vd' = vd / 2.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 99"]
+    }
+  },
+  {
+    id: 'pyq-p-24-03',
+    subject: 'Physics',
+    chapter: 'Ray Optics and Optical Instruments',
+    topic: 'Compound Microscope Magnifying Power',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-24-03-q',
+      subject: 'Physics',
+      chapter: 'Ray Optics and Optical Instruments',
+      topic: 'Compound Microscope Magnifying Power',
+      difficulty: 'Medium',
+      questionText: "In a compound microscope, the focal length of objective lens is fo = 1.0 cm and eyepiece is fe = 2.5 cm. If an object is placed at a distance of 1.2 cm from the objective and the final virtual image is formed at the near point (D = 25 cm), the total magnifying power m of the microscope is:",
+      options: ["-55", "-60", "-45", "-50"],
+      correctAnswer: 0,
+      explanation: "For objective lens: 1/vo - 1/uo = 1/fo => 1/vo - 1/(-1.2) = 1/1.0 => 1/vo = 1 - 5/6 = 1/6 => vo = +6 cm. Linear magnification of objective mo = vo / uo = 6 / (-1.2) = -5. Angular magnification of eyepiece me = 1 + D/fe = 1 + 25/2.5 = 1 + 10 = 11. Total magnifying power m = mo * me = (-5) * (11) = -55.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 339"]
+    }
+  },
+  {
+    id: 'pyq-p-24-04',
+    subject: 'Physics',
+    chapter: 'Electromagnetic Induction (EMI)',
+    topic: 'Faraday & Lenz Law Induced EMF',
+    year: 2024,
+    exam: 'NEET',
+    frequency: 'Asked 4 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-24-04-q',
+      subject: 'Physics',
+      chapter: 'Electromagnetic Induction (EMI)',
+      topic: 'Faraday & Lenz Law Induced EMF',
+      difficulty: 'Medium',
+      questionText: "A circular coil of radius r = 10 cm and 500 turns is placed in a uniform magnetic field B = 0.2 T with its plane perpendicular to the field. If the coil is rotated through 180\u00b0 in 0.1 seconds, the average induced EMF in the coil is:",
+      options: ["6.28 V (2 * pi V)", "3.14 V", "12.56 V", "1.57 V"],
+      correctAnswer: 0,
+      explanation: "Initial flux phi1 = N * B * A * cos(0\u00b0) = 500 * 0.2 * (pi * 0.1^2) * 1 = 100 * 0.01 * pi = pi Wb. Final flux after 180\u00b0 rotation phi2 = N * B * A * cos(180\u00b0) = -pi Wb. Change in flux Delta phi = phi2 - phi1 = -2 * pi Wb. By Faraday law: induced EMF e = - Delta phi / Delta t = 2 * pi / 0.1 = 20 * pi * 0.1 = 2 * pi * 10 / 10 = 6.28 V.",
+      tags: ["NEET 2024", "NCERT Class 12 Page 211"]
+    }
+  },
+  {
+    id: 'pyq-p-23-01',
+    subject: 'Physics',
+    chapter: 'System of Particles & Rotational Motion',
+    topic: 'Rolling Motion on an Inclined Plane',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 6 times in 7 years',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-23-01-q',
+      subject: 'Physics',
+      chapter: 'System of Particles & Rotational Motion',
+      topic: 'Rolling Motion on an Inclined Plane',
+      difficulty: 'Medium',
+      questionText: "A solid sphere, a solid cylinder, and a hollow cylinder, all of the same mass M and radius R, are released simultaneously from the top of an inclined plane of inclination theta to roll without slipping. The order in which they reach the bottom is:",
+      options: ["Solid Sphere first, then Solid Cylinder, then Hollow Cylinder last", "Hollow Cylinder first, then Solid Cylinder, then Solid Sphere", "Solid Cylinder first, then Solid Sphere, then Hollow Cylinder", "All reach the bottom at the exact same instant"],
+      correctAnswer: 0,
+      explanation: "Acceleration in pure rolling down an incline of angle theta is given by a = g * sin(theta) / (1 + I / (M * R^2)) = g * sin(theta) / (1 + K^2 / R^2). The body with the lowest K^2/R^2 value has the highest acceleration and reaches the bottom first:\\n\u2022 Solid Sphere: K^2/R^2 = 2/5 = 0.40 => a = (5/7) g * sin(theta) approx 0.71 g * sin(theta) (1st)\\n\u2022 Solid Cylinder: K^2/R^2 = 1/2 = 0.50 => a = (2/3) g * sin(theta) approx 0.67 g * sin(theta) (2nd)\\n\u2022 Hollow Cylinder: K^2/R^2 = 1.00 => a = (1/2) g * sin(theta) = 0.50 g * sin(theta) (3rd / Last).",
+      tags: ["NEET 2023", "NCERT Class 11 Page 178"]
+    }
+  },
+  {
+    id: 'pyq-p-23-02',
+    subject: 'Physics',
+    chapter: 'Electrostatics: Electric Charges and Fields',
+    topic: 'Gauss\'s Law & Electric Dipole in Uniform Field',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-23-02-q',
+      subject: 'Physics',
+      chapter: 'Electrostatics: Electric Charges and Fields',
+      topic: 'Gauss\'s Law & Electric Dipole in Uniform Field',
+      difficulty: 'Medium',
+      questionText: "An electric dipole with dipole moment p = 4 x 10^-9 C*m is aligned at an angle of 30\u00b0 with the direction of a uniform electric field of magnitude E = 5 x 10^4 N/C. The magnitude of the torque acting on the dipole is:",
+      options: ["10^-4 N*m", "2 x 10^-4 N*m", "10^-3 N*m", "1.73 x 10^-4 N*m"],
+      correctAnswer: 0,
+      explanation: "Torque on an electric dipole in a uniform electric field is given by tau = p x E = p * E * sin(theta). Here, p = 4 x 10^-9 C*m, E = 5 x 10^4 N/C, and theta = 30\u00b0. tau = (4 x 10^-9) * (5 x 10^4) * sin(30\u00b0) = (20 x 10^-5) * 0.5 = 10 x 10^-5 = 10^-4 N*m.",
+      tags: ["NEET 2023", "NCERT Class 12 Page 31"]
+    }
+  },
+  {
+    id: 'pyq-p-23-03',
+    subject: 'Physics',
+    chapter: 'Wave Optics & Diffraction',
+    topic: 'Young\'s Double Slit Experiment (YDSE)',
+    year: 2023,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-23-03-q',
+      subject: 'Physics',
+      chapter: 'Wave Optics & Diffraction',
+      topic: 'Young\'s Double Slit Experiment (YDSE)',
+      difficulty: 'Medium',
+      questionText: "In Young's double slit experiment, if the distance between the two slits is halved (d' = d / 2) and the distance between the slit plane and screen is doubled (D' = 2D), the fringe width beta becomes:",
+      options: ["4 times the original fringe width (4 beta)", "2 times the original fringe width (2 beta)", "Halved (beta / 2)", "Remains unchanged"],
+      correctAnswer: 0,
+      explanation: "Fringe width in YDSE is beta = lambda * D / d. When D' = 2D and d' = d / 2: beta' = lambda * (2D) / (d / 2) = 4 * (lambda * D / d) = 4 * beta.",
+      tags: ["NEET 2023", "NCERT Class 12 Page 364"]
+    }
+  },
+  {
+    id: 'pyq-p-22-01',
+    subject: 'Physics',
+    chapter: 'Gravitation',
+    topic: 'Escape Velocity & Orbital Velocity',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-22-01-q',
+      subject: 'Physics',
+      chapter: 'Gravitation',
+      topic: 'Escape Velocity & Orbital Velocity',
+      difficulty: 'Medium',
+      questionText: "If a body of mass m is projected from the surface of Earth with escape velocity ve = sqrt(2GM/R) approx 11.2 km/s, what would be the escape velocity from a planet having twice the mass and half the radius of Earth?",
+      options: ["22.4 km/s (2 ve)", "11.2 km/s (ve)", "5.6 km/s (ve / 2)", "44.8 km/s (4 ve)"],
+      correctAnswer: 0,
+      explanation: "Escape velocity is given by ve = sqrt(2GM / R). For the new planet with mass M' = 2M and radius R' = R / 2: v'e = sqrt(2G (2M) / (R / 2)) = sqrt(4 * (2GM / R)) = 2 * sqrt(2GM / R) = 2 * ve = 2 * 11.2 km/s = 22.4 km/s.",
+      tags: ["NEET 2022", "NCERT Class 11 Page 193"]
+    }
+  },
+  {
+    id: 'pyq-p-22-02',
+    subject: 'Physics',
+    chapter: 'Alternating Current (AC)',
+    topic: 'Series LCR Resonant Circuit & Q-Factor',
+    year: 2022,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-22-02-q',
+      subject: 'Physics',
+      chapter: 'Alternating Current (AC)',
+      topic: 'Series LCR Resonant Circuit & Q-Factor',
+      difficulty: 'Medium',
+      questionText: "In a series LCR alternating current circuit at resonance, the phase difference between applied voltage and alternating current is:",
+      options: ["Zero degrees (0 rad, purely resistive behavior)", "90 degrees (pi / 2 rad)", "180 degrees (pi rad)", "45 degrees (pi / 4 rad)"],
+      correctAnswer: 0,
+      explanation: "At resonance in a series LCR circuit, inductive reactance equals capacitive reactance (XL = XC = omega * L = 1 / (omega * C)), so total circuit impedance Z = sqrt(R^2 + (XL - XC)^2) = R (minimum). Thus tan(phi) = (XL - XC) / R = 0, meaning voltage and current are in phase (phase difference = 0).",
+      tags: ["NEET 2022", "NCERT Class 12 Page 246"]
+    }
+  },
+  {
+    id: 'pyq-p-21-01',
+    subject: 'Physics',
+    chapter: 'Oscillations (Simple Harmonic Motion)',
+    topic: 'Energy of Simple Harmonic Oscillator',
+    year: 2021,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-21-01-q',
+      subject: 'Physics',
+      chapter: 'Oscillations (Simple Harmonic Motion)',
+      topic: 'Energy of Simple Harmonic Oscillator',
+      difficulty: 'Medium',
+      questionText: "A particle executes Simple Harmonic Motion with amplitude A. At what displacement x from the mean equilibrium position is the kinetic energy of the particle equal to its potential energy (K = U)?",
+      options: ["x = A / sqrt(2)", "x = A / 2", "x = A / 4", "x = sqrt(3) A / 2"],
+      correctAnswer: 0,
+      explanation: "Kinetic energy in SHM is K = (1/2) k (A^2 - x^2) and Potential energy is U = (1/2) k x^2. Setting K = U: (1/2) k (A^2 - x^2) = (1/2) k x^2 => A^2 - x^2 = x^2 => 2x^2 = A^2 => x = +- A / sqrt(2).",
+      tags: ["NEET 2021", "NCERT Class 11 Page 353"]
+    }
+  },
+  {
+    id: 'pyq-p-20-01',
+    subject: 'Physics',
+    chapter: 'Semiconductor Electronics & Logic Gates',
+    topic: 'p-n Junction Diode & Logic Combinations',
+    year: 2020,
+    exam: 'NEET',
+    frequency: 'Asked every year',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-20-01-q',
+      subject: 'Physics',
+      chapter: 'Semiconductor Electronics & Logic Gates',
+      topic: 'p-n Junction Diode & Logic Combinations',
+      difficulty: 'Medium',
+      questionText: "A NAND gate whose both inputs A and B are tied together acts as which fundamental logic gate?",
+      options: ["NOT gate (Inverter)", "AND gate", "OR gate", "NOR gate"],
+      correctAnswer: 0,
+      explanation: "The boolean output of a 2-input NAND gate is Y = (A * B) bar. When both inputs are tied together such that A = B, the expression becomes Y = (A * A) bar = A bar, which is precisely the logic operation of a NOT gate (inverter).",
+      tags: ["NEET 2020", "NCERT Class 12 Page 491"]
+    }
+  },
+  {
+    id: 'pyq-p-19-01',
+    subject: 'Physics',
+    chapter: 'Thermodynamics (Physics)',
+    topic: 'Carnot Engine Efficiency',
+    year: 2019,
+    exam: 'NEET',
+    frequency: 'Asked 6 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-19-01-q',
+      subject: 'Physics',
+      chapter: 'Thermodynamics (Physics)',
+      topic: 'Carnot Engine Efficiency',
+      difficulty: 'Medium',
+      questionText: "A Carnot heat engine operates between a source at temperature T1 = 500 K and a sink at temperature T2 = 300 K. If the engine absorbs 6.0 x 10^4 cal of heat from the source per cycle, the work done W per cycle is:",
+      options: ["2.4 x 10^4 cal", "3.6 x 10^4 cal", "4.0 x 10^4 cal", "1.2 x 10^4 cal"],
+      correctAnswer: 0,
+      explanation: "Efficiency of a Carnot engine is eta = 1 - T2 / T1 = 1 - 300 / 500 = 1 - 0.6 = 0.40 (40%). Work done W = eta * Q1 = 0.40 * (6.0 x 10^4 cal) = 2.4 x 10^4 cal.",
+      tags: ["NEET 2019", "NCERT Class 11 Page 313"]
+    }
+  },
+  {
+    id: 'pyq-p-18-01',
+    subject: 'Physics',
+    chapter: 'Moving Charges and Magnetism',
+    topic: 'Magnetic Force on a Moving Charge (Lorentz Force)',
+    year: 2018,
+    exam: 'NEET',
+    frequency: 'Asked 5 times',
+    conceptWeightage: 'High (8 Marks)',
+    question: {
+      id: 'pyq-p-18-01-q',
+      subject: 'Physics',
+      chapter: 'Moving Charges and Magnetism',
+      topic: 'Magnetic Force on a Moving Charge (Lorentz Force)',
+      difficulty: 'Medium',
+      questionText: "A proton and an alpha particle (having charge 2e and mass 4m) with equal kinetic energies K enter perpendicularly into a uniform magnetic field B. The ratio of the radii of their circular paths (rp / ralpha) is:",
+      options: ["1 : 1", "1 : 2", "2 : 1", "1 : 4"],
+      correctAnswer: 0,
+      explanation: "Radius of circular trajectory in uniform magnetic field is r = p / (q B) = sqrt(2 m K) / (q B). For proton (m, e) and alpha particle (4m, 2e) with same kinetic energy K: rp / ralpha = (sqrt(2 m K) / (e B)) / (sqrt(2 (4m) K) / (2e B)) = (sqrt(m) / e) / (2 sqrt(m) / 2e) = 1 / 1 = 1 : 1.",
+      tags: ["NEET 2018", "NCERT Class 12 Page 138"]
     }
   }
 ];

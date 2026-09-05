@@ -12,7 +12,11 @@ import { LiveDoubtModal } from './components/LiveDoubtModal';
 import { BookReaderModal } from './components/BookReaderModal';
 import { supabase } from './supabaseClient';
 import { AuthModal } from './components/AuthModal';
-import { User } from '@supabase/supabase-js';
+import { DownloadsModal } from './components/DownloadsModal';
+import { SuperUserModal } from './components/SuperUserModal';
+import { UploadContentModal } from './components/UploadContentModal';
+import { EnrollmentGate, EnrolledStudent } from './components/EnrollmentGate';
+import { SundayChapterSelection } from './components/SundayTestChapterModal';
 
 import {
   TEST_SERIES_DATA,
@@ -28,10 +32,67 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('test-series');
   const [extraSubTab, setExtraSubTab] = useState<string>('custom-test');
 
+  // Mandatory Enrollment Gate State - Persistent check for existing enrolled users
+  const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
+    try {
+      const saved = localStorage.getItem('neet_enrolled_student');
+      if (saved) return JSON.parse(saved);
+      const local = localStorage.getItem('neet_local_user');
+      if (local) {
+        const u = JSON.parse(local);
+        const reconstructed: EnrolledStudent = {
+          studentName: u.studentName || u.name || 'Aditi Sanjay Gadre',
+          parentName: u.parentName || 'Sanjay Gadre',
+          parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
+          studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
+          caste: u.caste || 'General / Open',
+          email: u.email || 'aditi.gadre@gmail.com',
+          dob: u.dob || '2006-08-15',
+          dobPin: u.dobPin || '15082006',
+          targetYear: u.targetYear || '2026',
+          enrolledAt: u.enrolledAt || new Date().toISOString(),
+          rollNumber: u.rollNumber || 'NCBT-2026-784920',
+          devices: u.devices || ['dev-1']
+        };
+        localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
+        localStorage.setItem('neet_user_enrolled', 'true');
+        return reconstructed;
+      }
+      const enrolledFlag = localStorage.getItem('neet_user_enrolled');
+      if (enrolledFlag === 'true') {
+        const fallbackStudent: EnrolledStudent = {
+          studentName: 'Aditi Sanjay Gadre',
+          parentName: 'Sanjay Gadre',
+          parentPhone: '9876543210',
+          studentPhone: '9876543210',
+          caste: 'General / Open',
+          email: 'student@neetcbt.in',
+          dob: '2006-08-15',
+          dobPin: '15082006',
+          targetYear: '2026',
+          enrolledAt: new Date().toISOString(),
+          rollNumber: 'NCBT-2026-784920',
+          devices: ['dev-1']
+        };
+        localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
+        return fallbackStudent;
+      }
+      return null;
+    } catch {
+      return null;
+    }
+  });
+
   // Modal States
   const [activeTestForCBT, setActiveTestForCBT] = useState<TestItem | null>(null);
+  const [selectedSundayChapters, setSelectedSundayChapters] = useState<SundayChapterSelection | undefined>(undefined);
   const [isDoubtModalOpen, setIsDoubtModalOpen] = useState(false);
   const [activeBookForReading, setActiveBookForReading] = useState<BookItem | null>(null);
+  const [isDownloadsModalOpen, setIsDownloadsModalOpen] = useState(false);
+  const [isSuperUserModalOpen, setIsSuperUserModalOpen] = useState(false);
+  const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
+  const [uploadSubject, setUploadSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
+  const [uploadChapter, setUploadChapter] = useState<string>('Molecular Basis of Inheritance');
 
   // User History & Stats - Load from localStorage if available
   const [completedTests, setCompletedTests] = useState<UserTestResult[]>(() => {
@@ -60,13 +121,24 @@ export default function App() {
         const local = localStorage.getItem('neet_local_user');
         if (local) {
           setUser(JSON.parse(local));
+        } else {
+          setUser(null);
+        }
+        const student = localStorage.getItem('neet_enrolled_student');
+        if (student) {
+          setEnrolledStudent(JSON.parse(student));
         }
       } catch (err) {
         console.error('Error syncing local auth:', err);
       }
     };
 
+    const handleAuthRequired = () => {
+      setIsAuthModalOpen(true);
+    };
+
     window.addEventListener('neet_auth_change', syncAuth);
+    window.addEventListener('neet_auth_required_for_download', handleAuthRequired);
 
     if (supabase) {
       supabase.auth.getSession().then(({ data: { session } }) => {
@@ -88,16 +160,19 @@ export default function App() {
       return () => {
         subscription.unsubscribe();
         window.removeEventListener('neet_auth_change', syncAuth);
+        window.removeEventListener('neet_auth_required_for_download', handleAuthRequired);
       };
     }
 
-    return () => window.removeEventListener('neet_auth_change', syncAuth);
+    return () => {
+      window.removeEventListener('neet_auth_change', syncAuth);
+      window.removeEventListener('neet_auth_required_for_download', handleAuthRequired);
+    };
   }, []);
 
   useEffect(() => {
     if (!supabase || !user) return;
 
-    // Fetch completed tests from Supabase if online
     const fetchTestResults = async () => {
       try {
         const { data, error } = await supabase
@@ -135,8 +210,9 @@ export default function App() {
     fetchTestResults();
   }, [user]);
 
-  const handleStartTest = (test: TestItem) => {
+  const handleStartTest = (test: TestItem, chapters?: SundayChapterSelection) => {
     setActiveTestForCBT(test);
+    setSelectedSundayChapters(chapters);
   };
 
   const handleSaveTestResult = async (result: UserTestResult) => {
@@ -191,8 +267,27 @@ export default function App() {
     setActiveTestForCBT(defaultMock);
   };
 
+  const handleOpenUpload = (sub?: string, ch?: string) => {
+    if (sub === 'Biology' || sub === 'Chemistry' || sub === 'Physics') {
+      setUploadSubject(sub);
+    }
+    if (ch) {
+      setUploadChapter(ch);
+    }
+    setIsUploadModalOpen(true);
+  };
+
   return (
-    <div className="min-h-screen bg-[#F3F4F6] text-[#1F2937] flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+    <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers */}
+      {!enrolledStudent && (
+        <EnrollmentGate
+          onEnrollSuccess={student => {
+            setEnrolledStudent(student);
+          }}
+        />
+      )}
+
       {/* Top Navigation Header */}
       <Header
         activeExam={activeExam}
@@ -200,9 +295,12 @@ export default function App() {
         onOpenQuickTest={handleQuickMockTest}
         onOpenDoubtModal={() => setIsDoubtModalOpen(true)}
         completedTestsCount={completedTests.length}
-        userEmail={user?.email ?? null}
+        userEmail={user?.email ?? (enrolledStudent?.email || null)}
         onOpenAuth={() => setIsAuthModalOpen(true)}
         onSignOut={handleSignOut}
+        onOpenDownloads={() => setIsDownloadsModalOpen(true)}
+        onOpenSuperUser={() => setIsSuperUserModalOpen(true)}
+        onOpenUploadModal={() => handleOpenUpload()}
       />
 
       {/* Main Layout Container */}
@@ -216,7 +314,7 @@ export default function App() {
         />
 
         {/* Dynamic Content Area */}
-        <main className="flex-1 p-4 sm:p-5 lg:p-6 overflow-y-auto bg-[#F3F4F6] min-w-0">
+        <main className="flex-1 p-4 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
           {activeTab === 'test-series' && (
             <TestSeriesSection
               testItems={TEST_SERIES_DATA}
@@ -235,6 +333,7 @@ export default function App() {
               onStartCustomTest={handleStartTest}
               onOpenBook={setActiveBookForReading}
               completedTests={completedTests}
+              onOpenUploadModal={handleOpenUpload}
             />
           )}
 
@@ -256,7 +355,11 @@ export default function App() {
       {activeTestForCBT && (
         <CBTTestModal
           test={activeTestForCBT}
-          onClose={() => setActiveTestForCBT(null)}
+          selectedChapters={selectedSundayChapters}
+          onClose={() => {
+            setActiveTestForCBT(null);
+            setSelectedSundayChapters(undefined);
+          }}
           onSaveResult={handleSaveTestResult}
         />
       )}
@@ -277,6 +380,25 @@ export default function App() {
       {/* Auth Modal */}
       {isAuthModalOpen && (
         <AuthModal onClose={() => setIsAuthModalOpen(false)} />
+      )}
+
+      {/* Downloads Vault Modal */}
+      {isDownloadsModalOpen && (
+        <DownloadsModal onClose={() => setIsDownloadsModalOpen(false)} />
+      )}
+
+      {/* Super User & Admin Notification Center */}
+      {isSuperUserModalOpen && (
+        <SuperUserModal onClose={() => setIsSuperUserModalOpen(false)} />
+      )}
+
+      {/* Content Upload & Ingestion Modal */}
+      {isUploadModalOpen && (
+        <UploadContentModal
+          onClose={() => setIsUploadModalOpen(false)}
+          defaultSubject={uploadSubject}
+          defaultChapter={uploadChapter}
+        />
       )}
     </div>
   );

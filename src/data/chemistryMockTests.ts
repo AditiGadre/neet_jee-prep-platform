@@ -1,653 +1,947 @@
-import { Question } from '../types';
+import { Question } from "../types";
 
 export const CHEMISTRY_MOCK_TEST_1_QUESTIONS: Question[] = [
   {
-    "id": "mock-test-1-q1",
+    "id": "some-basic-concepts-of-chemistry-q1",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "An acidic solution of 'X' does not give precipitate on passing H2S through it. 'X' gives white precipitate when NH4OH is added to it. The white precipitate dissolves in excess of NaOH solution. Pure 'X' fumes in air and dense white fumes are obtained when a glass rod dipped in NH4OH is put in the fumes. Compound 'X' can be",
+    "questionText": "A mixture of sand and iodine can be separated by",
     "options": [
-      "ZnCl 2",
-      "FeCl 3",
-      "AlCl 3",
-      "SnCl 2"
+      "rystallisation",
+      "istillation",
+      "sublimation",
+      "fractionation"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 1.",
+    "explanation": "Correct answer is 'rystallisation'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q2",
+    "id": "some-basic-concepts-of-chemistry-q2",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "CN- is a strong field ligand. This is due to the fact that",
+    "questionText": "Difference in density is the basis of",
     "options": [
-      "it carries negative charge",
-      "it is a pseudohalide",
-      "it can accept electrons from metal species",
-      "it forms high spin complexes with metal species"
+      "ultrafiltration",
+      "molecular sieving",
+      "molecular attraction",
+      "gravity separation"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 2.",
+    "explanation": "Correct answer is 'ultrafiltration'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q3",
+    "id": "some-basic-concepts-of-chemistry-q3",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The weight of NaCl decomposed by 4.9g of H2SO4, if 6 g of sodium hydrogen sulphate and 1.825 g of HCl, were produced in the reaction is:",
+    "questionText": "Which of the following is an example of a heterogeneous substance?",
     "options": [
-      "6.921 g",
-      "4.65 g",
-      "2.925 g",
-      "1.4 g"
+      "ottled water",
+      "Table salt",
+      "Pieces of copper",
+      "ndle"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 3.",
+    "explanation": "Correct answer is 'ottled water'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q4",
+    "id": "some-basic-concepts-of-chemistry-q4",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Which one of the following statement is not true ?",
+    "questionText": "Which of the following substances cannot be separated in to its constituents by physical methods?",
     "options": [
-      "pH of drinking water should be between 5.5 - 9.5.",
-      "Concentration of DO below 6 ppm is good for the growth of fish.",
-      "Clean water would have a BOD value of less than 5 ppm.",
-      "Oxides of sulphur, nitrogen and carbon are the most widespread air pollutant."
+      "Sugar and water solution",
+      "Salt and sugar",
+      "Solid glucose",
+      "oth (a) and"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 4.",
+    "explanation": "Correct answer is 'Sugar and water solution'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q5",
+    "id": "some-basic-concepts-of-chemistry-q5",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Which of the following statements is not correct for nitrogen ?",
+    "questionText": "Which of the following pair of substances contain element and compound within a pair ? (",
     "options": [
-      "Its electronegativity is very high",
-      "d-orbitals are available for bonding",
-      "It is a typical non-metal",
-      "Its molecular size is small"
+      "O₂, CH₄",
+      "H₂, O₂",
+      "N₂, CO₂",
+      "Na, CO"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 5.",
+    "explanation": "Correct answer is 'O₂, CH₄'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q6",
+    "id": "some-basic-concepts-of-chemistry-q6",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Which of the following statement is false ?",
+    "questionText": "Which of the following statements about a compound is incorrect?",
     "options": [
-      "For 1 mole of an ideal gas, C p - C v = R",
-      "0T E T  \u00b8 \u00b9 \u00b7\u00a8 \u00a9 \u00a7 w w for an ideal gas",
-      "q w pv' '\u000e'",
-      "For reversible isothermal expansion of 1 mole of an ideal gas from volume V1 to V2, work done is equal to RT ln (V2/V1)"
+      "molecule of a compound has atoms of different elements.",
+      "ompound cannot be separated into its constituent elements by physical methods of separation.",
+      "ompound retains the physical properties of its constituent elements.",
+      "The ratio of atoms of different elements in a compound is fixed."
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 6.",
+    "explanation": "Correct answer is 'molecule of a compound has atoms of different elements.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q7",
+    "id": "some-basic-concepts-of-chemistry-q7",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "0.4 moles of HCl and 0.2 moles of 2CaCl were dissolved in water to have 500 mL of solution, the molarity of Cl- ion is:",
+    "questionText": "Choose the correct combination Element Compound Mixture",
     "options": [
-      "0.8 M",
-      "1.6 M",
-      "1.2 M",
-      "10.0 M Mock Test-1"
+      "mmonia Sodium Air",
+      "Water Sugar Aqueous sugar solution",
+      "Hydrogen Oxygen Water",
+      "Silver Water Air SOME BASIC CONCEPTS OF CHEMISTRY 1"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 7.",
+    "explanation": "Correct answer is 'mmonia Sodium Air'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q8",
+    "id": "some-basic-concepts-of-chemistry-q8",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "In sodium fusion test of organic compounds, the nitrogen of the organic compound is converted into",
+    "questionText": "Choose the correct statement.",
     "options": [
-      "Sodamide",
-      "Sodium cyanide",
-      "Sodium nitrite",
-      "Sodium nitrate"
+      "The particle s in liquids are more closely held than gases but less free to move than solids.",
+      "The particles of solids are arranged in orderly fashion but they can move as freely as liquids.",
+      "The particles of gases are far apart as compared to solids and liquids and their movement is easy and fast.",
+      "The particles of gases moves faster than liquids only when the gases are heated."
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 8.",
+    "explanation": "Correct answer is 'The particle s in liquids are more closely held than gases but less free to move than solids.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q9",
+    "id": "some-basic-concepts-of-chemistry-q9",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Specific volume of cylindrical virus particle is 6.02 \u00d7 10-2 cc/gm. whose radius and length 7 \u00c5 & 10 \u00c5 respectively . If NA = 6.02 \u00d7 1023, find molecular weight of virus",
+    "questionText": "A mixture contains two or more substances in ________ which are called its ________.",
     "options": [
-      "3.08 \u00d7 10 3 kg/mol",
-      "3.08 \u00d7 10 4 kg/mol",
-      "1.54 \u00d7 10 4 kg/mol",
-      "15.4 kg/mol"
+      "fixed ratio, compounds",
+      "fixed ratio, elements",
+      "ny ratio, components",
+      "ny ratio, elements"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 9.",
+    "explanation": "Correct answer is 'fixed ratio, compounds'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q10",
+    "id": "some-basic-concepts-of-chemistry-q10",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Classification of Matter",
+    "difficulty": "Easy",
+    "questionText": "Which one of the following is NOT a pure chemical compound?",
+    "options": [
+      "O₃ (Ozone)",
+      "H₂O₂ (Hydrogen peroxide)",
+      "H₂O (Water)",
+      "Sucrose solution"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sucrose solution is a homogeneous mixture (solution) of solute (sucrose) in solvent (water), whereas O₃ is a pure elemental substance, and H₂O and H₂O₂ are pure chemical compounds.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q11",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Units and Measurements",
+    "difficulty": "Easy",
+    "questionText": "One fermi (femtometre) is equal to",
+    "options": [
+      "0⁻¹⁵ m (10⁻¹³ cm)",
+      "0⁻¹⁵ cm",
+      "0⁻¹⁰ cm",
+      "0⁻¹² cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1 fermi = 1 fm = 10⁻¹⁵ m = 10⁻¹³ cm.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q12",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The prefix 1018 is",
+    "options": [
+      "giga",
+      "kilo",
+      "exa",
+      "nano"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'giga'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q13",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Inductive effect involves",
+    "questionText": "The prefix zepto stands for (in m)",
     "options": [
-      "displacement of V-electrons",
-      "delocalisation of S-electrons",
-      "delocalisation of V-electrons",
-      "displacement of S-electrons"
+      "0⁹",
+      "0⁻¹²",
+      "0⁻¹⁵",
+      "0⁻²¹"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 10.",
+    "explanation": "Correct answer is '0⁹'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q11",
+    "id": "some-basic-concepts-of-chemistry-q14",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Units and Dimensions",
+    "difficulty": "Medium",
+    "questionText": "The unit J·Pa⁻¹ is equivalent to",
+    "options": [
+      "m³",
+      "m³",
+      "m³",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1 Joule = 1 N·m and 1 Pascal = 1 N·m⁻². Therefore, J·Pa⁻¹ = (N·m) / (N·m⁻²) = m³.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q15",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which has highest weight ?",
+    "options": [
+      "m³ of water",
+      "normal adult man",
+      "0 litre of Hg",
+      "ll have same weight"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'm³ of water'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q16",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which one of the following set of units represents the smallest and largest amount of energy respectively?",
+    "options": [
+      "J and erg",
+      "erg and cal",
+      "l and eV",
+      "eV and L-atm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'J and erg'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q17",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "The energy of a photon is 3 \u00d7 10 -12 erg. What is its wavelength in nm ? (h = 6.62 \u00d7 10-27 erg-sec; c = 3 \u00d7 1010 cm/s)",
+    "questionText": "A m easured temperature on Fahrenheit scale is 200 °F. What will this reading be on Celsius scale ?",
     "options": [
-      "662",
-      "1324",
-      "66.2",
-      "6.62"
+      "0° C",
+      "94° C",
+      "93.3 °C",
+      "0° C"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 11.",
+    "explanation": "Correct answer is '0° C'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q12",
+    "id": "some-basic-concepts-of-chemistry-q18",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Among the following compounds (I - III), the ease of their reaction with electrophiles is, OCH3 NO2 I II III",
+    "questionText": "Which of the following is not a SI unit?",
     "options": [
-      "II > III > I",
-      "III > II > I",
-      "II > I > III",
-      "I > II > III"
+      "metre",
+      "ndela",
+      "mole",
+      "litre"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 12.",
+    "explanation": "Correct answer is 'metre'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q13",
+    "id": "some-basic-concepts-of-chemistry-q19",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Aluminium vessels should not be washed with materials containing washing soda since",
+    "questionText": "The prefix 10⁻²⁴ is",
     "options": [
-      "washing soda is expensive",
-      "washing soda is easily decomposed",
-      "washing soda reacts with Al to form soluble aluminate",
-      "washing soda reacts with Al to form insoluble aluminium oxide"
+      "yotta",
+      "zeta",
+      "yocto",
+      "zepto"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 13.",
+    "explanation": "Correct answer is 'yotta'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q14",
+    "id": "some-basic-concepts-of-chemistry-q20",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "The following data are for the decomposition of ammonium nitrite in aqueous solution : Vol. of N2 in cc Time (min) 6.25 10 9.00 15 11.40 20 13.65 25 35.65 Infinity The order of rection is :",
+    "questionText": "Many countries use Fahrenheit scale for expressing temperature of atmosphere. If temperature in any such country is measured 41°F then what is its value in celcius scale and would you expect hot or cold atmosphere in that country?",
     "options": [
-      "Zero",
-      "One",
-      "Two",
-      "Three"
+      "5°C, cold",
+      "5°C, normal",
+      "5°C, cold",
+      "°C, hot"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 14.",
+    "explanation": "Correct answer is '5°C, cold'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q31",
+    "id": "some-basic-concepts-of-chemistry-q21",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "A sample was weighted using two different balances. The results were (i) 3.929 g (ii) 4.0 g How would the weight of the sample be reported?",
+    "options": [
+      ".93 g",
+      "g",
+      ".9 g",
+      ".929 g"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.93 g'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q22",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "The number of enantiomers of the compound COOHCHBrCHBrCH3 is : ( a )2 (b) 3 ( c )4 (d) 6",
+    "questionText": "Two students performed the same experiment separately and each one of them recorded two readings of mass which are given below. Correct reading of mass is 3.0 g. On the basis of given data, mark the correct option out of the following statements. Students Readings (i) (ii) A 3.01 2.99 B 3.05 2.95",
     "options": [
-      "",
-      "3 ( c )4",
-      "",
-      "6"
+      "Results of both the students are neither accurate nor precise.",
+      "Results of student A are both precise and accurate.",
+      "Results of student B are neither precise nor accurate.",
+      "Results of student B are both precise and accurate."
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 31.",
+    "explanation": "Correct answer is 'Results of both the students are neither accurate nor precise.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q32",
+    "id": "some-basic-concepts-of-chemistry-q23",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Equivalent weighs of KMnO 4 acidic medium, neutral medium and concentrated alkaline medium respectively are MMM,,.513  Reduced products can be",
+    "questionText": "0.00016 can be written as ...A... in scientific notaiton. Here, A refers to",
     "options": [
-      "22 24MnO , MnO , Mn\u0010\u000e",
-      "22 24MnO , Mn , MnO\u000e\u0010",
-      "22 42Mn , MnO , MnO\u000e\u0010",
-      "22 24Mn , MnO , MnO\u000e\u0010"
+      ".6 × 10⁻⁴",
+      ".50 × 10⁻⁹",
+      ".450 × 10⁻⁸",
+      ".50 × 10⁻⁷"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 32.",
+    "explanation": "Correct answer is '.6 × 10⁻⁴'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q33",
+    "id": "some-basic-concepts-of-chemistry-q24",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Which of these have no unit?",
+    "questionText": "If the true value for an experimental result is 6.23 and the results reported by three students X, Y and Z are : X : 6.18 and 6.28 Y : 6.20 and 6.023 Z : 6.22 and 6.24 Which of the following option is correct :",
     "options": [
-      "Electronegativity",
-      "Electron affinity",
-      "Ionisation energy",
-      "Excitation potential"
+      "X precise, Y accurate, Z precise and accurate.",
+      "X precise and accurate, Y not precise, Z precise",
+      "oth X & Z precise & accurate, Y not precise.",
+      "oth X & Y neither precise nor accurate, Z both precise and accurate."
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 33.",
+    "explanation": "Correct answer is 'X precise, Y accurate, Z precise and accurate.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q34",
+    "id": "some-basic-concepts-of-chemistry-q25",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
-    "topic": "Comprehensive Test",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Significant Figures",
     "difficulty": "Medium",
-    "questionText": "Which of the following statements is not correct for sigma and pi-bonds formed between two carbon atoms?",
+    "questionText": "The number of significant figures in the measured value 0.00250 kg is",
     "options": [
-      "Sigma-bond determines the direction between carbon atoms but a pi-bond has no primary effect in this regard",
-      "Sigma-bond is stronger than a pi-bond",
-      "Bond energies of sigma- and pi-bonds are of the order of 264 kJ/mol and 347 kJ/mol, respectively",
-      "Free rotation of atoms about a sigma-bond is allowed but not in case of a pi-bond"
+      "5",
+      "Increases",
+      "Decreases",
+      "Remains constant"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 34.",
+    "explanation": "Leading zeros before the first non-zero digit are not significant, while trailing zeros in a decimal number are significant. The digits '2', '5', '0' give 3 significant figures.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q35",
+    "id": "some-basic-concepts-of-chemistry-q26",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "The reactivity of metals with water is in the order of",
+    "questionText": "The number of significant figures for the three numbers 161 cm, 0.161 cm, 0.0161 cm are",
     "options": [
-      "Na > Mg > Zn >Fe > Cu",
-      "Cu > Fe > Zn > Mg > Na",
-      "Mg > Zn > Na > Fe > Cu",
-      "Zn > Na > Mg > Fe > Cu"
+      ",4 and 5 respectively",
+      ",4 and 4 respectively",
+      ",3 and 4 respectively",
+      ",3 and 3 respectively"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 35.",
+    "explanation": "Correct answer is ',4 and 5 respectively'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q36",
+    "id": "some-basic-concepts-of-chemistry-q27",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The emf of Daniell cell at 298 K is E1 Zn | ZnSO4 (0.01 M) | | CuSO4 (1.0 M) | Cu When the concentration of ZnSO 4 is 1.0 M and that of CuSO4 is 0.01 M, the emf changed to E2 What is the relation between E1 and E2?",
+    "questionText": "Given P = 0.0030m, Q = 2.40m, R = 3000m, Significant figures in P , Q and R are respectively",
     "options": [
-      "E1 = E2",
-      "22 0 zEE",
-      "12!EE",
-      "12\u001fEE"
+      ", 2, 1",
+      ", 3, 4",
+      ", 2, 1",
+      ", 2, 3"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 36.",
+    "explanation": "Correct answer is ', 2, 1'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q37",
+    "id": "some-basic-concepts-of-chemistry-q28",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "2CH 2CH O O O 2CH The above shown polymer is obtained when a carbonyl compound is allowed to stand. It is a white solid. The polymer is",
+    "questionText": "If the density of a solution is 3.12 g mL-1 , the mass of 1.5 mL solution in significant figures is______.",
     "options": [
-      "Trioxane",
-      "Formose",
-      "Paraformaldehyde",
-      "Metaldehyde."
+      ".7 g",
+      "680 × 10⁻³ g",
+      ".680 g",
+      "6.80 g"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 37.",
+    "explanation": "Correct answer is '.7 g'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q38",
+    "id": "some-basic-concepts-of-chemistry-q29",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "The correct order of atomic/ionic sizes is",
+    "questionText": "In which of the following number all zeros are significant?",
     "options": [
-      "N < Li < B",
-      "\u0010\u0010\u0010 \u001f\u001f 32 NOF",
-      "\u0010\u0010\u000e \u001f\u001f ClSCa 22",
-      "\u0010\u000e\u000e \u001f\u001f ClMgNa 2"
+      "0.0005",
+      "0.0500",
+      "50.000",
+      "0.0050"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 38.",
+    "explanation": "Correct answer is '0.0005'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q39",
+    "id": "some-basic-concepts-of-chemistry-q30",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "In qualitative analysis, the metals of Group I can be separated from other ions by precipitating them as chloride salts. A solution initially contains Ag + and Pb 2+ a t a concentration of 0.10 M. Aqueous HCl is added to this solution until the Cl- concentration is 0.10 M. What will the concentrations of Ag+ and Pb2+ be at equilibrium? (Ksp for AgCl = 1.8 \u00d7 10-10 , Ksp for PbCl2 = 1.7 \u00d7 10-5 )",
+    "questionText": "The correctly reported answer of addition of 29.4406, 3.2 and 2.25 will have significant figures (",
     "options": [
-      "[Ag +] = 1.8 \u00d7 10-7 M ; [Pb2+] = 1.7 \u00d7 10-6 M",
-      "[Ag +] = 1.8 \u00d7 10-11 M ; [Pb2+] = 8.5 \u00d710-5 M",
-      "[Ag +] = 1.8 \u00d7 10-9 M ; [Pb2+] = 1.7 \u00d7 10-3 M",
-      "[Ag +] = 1.8 \u00d7 10-11 M ; [Pb2+] = 8.5 \u00d710-4 M"
+      "(",
+      "5",
+      "oth of these",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 39.",
+    "explanation": "Correct answer is '('. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q40",
+    "id": "some-basic-concepts-of-chemistry-q31",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "In the diazotization of arylamines with sodium nitrite and hydrochloric acid, an excess of hydrochloric acid is used primarily to",
+    "questionText": "The number of significant figures in 10.3106 g is (",
     "options": [
-      "Supress the concentration of free aniline available for coupling",
-      "Supress hydrolysis of phenol",
-      "Ensure a stoichiometric amount of nitrous acid",
-      "Neutralise the base liberated"
+      "(",
+      "6",
+      "oth of these",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 40.",
+    "explanation": "Correct answer is '('. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q41",
+    "id": "some-basic-concepts-of-chemistry-q0",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Significant Figures",
+    "difficulty": "Medium",
+    "questionText": "The number of significant figures in the measured value 0.00250 kg is",
+    "options": [
+      "5",
+      "Increases",
+      "Decreases",
+      "Remains constant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Leading zeros before the first non-zero digit are not significant, while trailing zeros in a decimal number are significant. The digits '2', '5', '0' give 3 significant figures.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q33",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Arrange the numbers in increasing no. of significant figures. 0.002600, 2.6000, 2.6, 0.260",
+    "options": [
+      ".6 < 0.260 < 0.002600 < 2.6000",
+      ".6000 < 2.6 < 0.002600 < 0.260",
+      "0.260 < 2.6 < 0.002600 < 2.6000",
+      "0.002600 < 0.260 < 2.6 < 2.6000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.6 < 0.260 < 0.002600 < 2.6000'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q34",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Dimension of pressure are same as that of",
+    "options": [
+      "Energy",
+      "Force",
+      "Force per unit volume",
+      "Energy per unit volume"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Energy'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q35",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "In lake test of \u000e3Al ion, there is formation of coloured floating lake. It is due to",
+    "questionText": "n g of substance X reacts with m g of substance Y to form p g of substance R and q g of substance S. This reaction can be represented as, X + Y = R + S. The relation which can be established in the amounts of the reactants and the products will be",
     "options": [
-      "adsorption of litmus by H 2O",
-      "adsorption of litmus by Al(OH)3",
-      "adsorption of litmus by Al(OH) 4 -",
-      "none of these"
+      "n - m = p - q",
+      "n + m = p + q",
+      "n = m",
+      "p = q EBD_7207"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 41.",
+    "explanation": "Correct answer is 'n - m = p - q'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q42",
+    "id": "some-basic-concepts-of-chemistry-q36",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "For the reaction, 2Cl(g) -o Cl2(g), the signs of 'H and 'S respectively, are:",
+    "questionText": "20 g of CaCO₃ on heating gave 8.8 g of CO₂ and 11.2 g of CaO. This is in accordance with",
     "options": [
-      "+, -",
-      "+, +",
-      "-, -",
-      "-, +"
+      "The law of conservation of mass.",
+      "The law of constant composition.",
+      "The law of reciprocal proportion.",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 42.",
+    "explanation": "Correct answer is 'The law of conservation of mass.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q43",
+    "id": "some-basic-concepts-of-chemistry-q37",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Ethanol and dimethyl ether form a pair of functional isomers. The boiling point of ethanol is higher than that of dimethyl ether, due to the presence of",
+    "questionText": "Which of the following is the best example of law of conservation of mass?",
     "options": [
-      "H-bonding in ethanol",
-      "H-bonding in dimethyl ether",
-      "CH 3 group in ethanol",
-      "CH 3 group in dimethyl ether"
+      "g of carbon combines with 32 g of oxygen to form 44 g of CO₂",
+      "When 12 g of carbon is heated in a vacuum there is no change in mass",
+      "sample of air increases in volume when heated at constant pressure but its mass remains unaltered",
+      "The weight of a piece of platinum is the same before and after heating in air"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 43.",
+    "explanation": "Correct answer is '2 g of carbon combines with 32 g of oxygen to form 44 g of CO₂'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q44",
+    "id": "some-basic-concepts-of-chemistry-q38",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Which of the following reactions will not result in the formation of anisole?",
+    "questionText": "Which of the following statements is correct about the reaction given below ? 2 234Fe(s) 3O (g) 2Fe O (g)\u000e  o",
     "options": [
-      "Phenol + dimethyl sulphate in presence of a base",
-      "Sodium phenoxide is treated with methyl iodide",
-      "Reaction of diazomethane with phenol",
-      "Reaction of methylmagnesium iodide with phenol"
+      "Total mass of iron and oxygen in reactants = total mass of iron and oxygen in product therefore, it follows law of conservation of mass.",
+      "Total mass of reactants = total mass of product; therefore, law of multiple proportions is followed.",
+      "mount of Fe₂O₃ can be increased by reducing the amount of any one of the reactants (iron or oxygen).",
+      "mount of Fe₂O₃ produced will decrease if the amount of any one of the reactants (iron or oxygen) is taken in excess."
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 44.",
+    "explanation": "Correct answer is 'Total mass of iron and oxygen in reactants = total mass of iron and oxygen in product therefore, it follows law of conservation of mass.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q45",
+    "id": "some-basic-concepts-of-chemistry-q39",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "What will be the heat of formation of methane, if the heat of combustion of carbon is '-x' kJ, heat of formation of water is '-y' kJ and heat of combustion of methane is 'z' kJ ?",
+    "questionText": "In an experiment 4.2 g of NaHCO₃ is added to a solution of acetic acid weighing 10.0 g, it is observed that 2.2 g of CO₂ is released into the atmosphere. The residue left behind is found to weigh 12.0 g The above observations illustrate",
     "options": [
-      "(-x - y + z) kJ",
-      "(-z - x + 2y) kJ",
-      "(-x - 2y - z) kJ",
-      "(-x - 2y + z) kJ"
+      "law of definite proportions.",
+      "law of conservation of mass",
+      "law of multiple proportions",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 45.",
+    "explanation": "Correct answer is 'law of definite proportions.'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q16",
+    "id": "some-basic-concepts-of-chemistry-q40",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "(b) totp 740mm  22t o t OHppp \u000e Number of moles of 2O and 2H are equal ? 22OHpp  ? 22OHp p 740\u000e  22OHp 370mm p",
+    "questionText": "In one experiment, 4g of H₂ combine with 32g of O₂ to form 36g of H₂O. In another experiment, when 50g of H₂ combine with 400g of O₂ then 450g of H₂O is formed. Above two experiments follow",
     "options": [
-      "",
-      "totp 740mm  22t o t OHppp \u000e Number of moles of 2O and 2H are equal ? 22OHpp  ? 22OHp p 740\u000e  22OHp 370mm p",
-      "",
-      ""
+      "The law of conservation of mass",
+      "The law of constant composition",
+      "oth (a) and",
+      "Neither (a) nor"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 16.",
+    "explanation": "Correct answer is 'The law of conservation of mass'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-1-q18",
+    "id": "some-basic-concepts-of-chemistry-q41",
     "subject": "Chemistry",
-    "chapter": "Mock Test 1",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "(b) 1pH [p log1]2 \u0010 aK p 2 aK pH' (twice of pH) = pKa ? 1p [ p l o g]2 \u0010aaK KC - log C = pKa = - log Ka C = Ka = 1.8 \u00d7 10-5 M dilution 1 C  5.55 \u00d7 104 times",
+    "difficulty": "Hard",
+    "questionText": "Irrespective of the source, pure sample, of water always yields 88.89% mass of oxygen and 11.11% mass of hydrogen. This is explained by the law of",
     "options": [
-      "",
-      "1pH [p log1]2 \u0010 aK p 2 aK pH' (twice of pH) = pKa ? 1p [ p l o g]2 \u0010aaK KC - log C = pKa = - log Ka C = Ka = 1.8 \u00d7 10-5 M dilution 1 C  5.55 \u00d7 104 times",
-      "",
-      ""
+      "onservation of mass",
+      "multiple proportions",
+      "onstant composition",
+      "onstant volume"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 1 Question 18.",
+    "explanation": "Correct answer is 'onservation of mass'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 1",
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q42",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The percentage of copper and oxygen in samples of CuO obtained by different methods were found to be the same. The illustrate the law of",
+    "options": [
+      "onstant proportions",
+      "onservation of mass",
+      "multiple proportions",
+      "reciprocal proportions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'onstant proportions'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q43",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The law of definite proportions was given by -",
+    "options": [
+      "John Dalton",
+      "Humphry Davy",
+      "Proust",
+      "Michael Faraday"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'John Dalton'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q44",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which one of the following pairs of compounds illustrate the law of multiple proportions ? (",
+    "options": [
+      "H₂O and Na₂O",
+      "MgO and Na₂O",
+      "Na₂O and BaO",
+      "SnCl₂ and SnCl₄"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'H₂O and Na₂O'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q45",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Among the following pairs of compounds, the one that illustrates the law of multiple proportions is",
+    "options": [
+      "NH₃ and NCl3",
+      "H 2S and SO₂",
+      "S₂ and FeSO4",
+      "uO and Cu 2O"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'NH₃ and NCl3'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
@@ -656,673 +950,946 @@ export const CHEMISTRY_MOCK_TEST_1_QUESTIONS: Question[] = [
 
 export const CHEMISTRY_MOCK_TEST_2_QUESTIONS: Question[] = [
   {
-    "id": "mock-test-2-q1",
+    "id": "some-basic-concepts-of-chemistry-q61",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "The angular momentum of the electron in first excited energy state of hydrogen atom is",
+    "questionText": "If the mass of the one atom is found to be 2.324784×10⁻²³ g, then this atom can be ?",
     "options": [
-      "S h",
-      "S2 h",
-      "S\u000e 2)12(2 h",
-      "None of these"
+      "Oxygen",
+      "rbon",
+      "Fluorine",
+      "Nitrogen"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 1.",
+    "explanation": "Correct answer is 'Oxygen'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q2",
+    "id": "some-basic-concepts-of-chemistry-q62",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "When NaCl is dopped with 1.0 \u00d7 10-3 mole of SrCl2, the number of cation vacancy is",
+    "questionText": "What is the mass of 1 molecule of CO.",
     "options": [
-      "6.023 \u00d7 10 18",
-      "6.023 \u00d7 10 20",
-      "2 \u00d7 6.023 \u00d7 10 20",
-      "3.011 \u00d7 10 20"
+      ".325 × 10⁻²³",
+      ".65 × 10⁻²³",
+      ".732 × 10⁻²³",
+      ".895 × 10⁻²³"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 2.",
+    "explanation": "Correct answer is '.325 × 10⁻²³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q3",
+    "id": "some-basic-concepts-of-chemistry-q63",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "A 0.5 M NaOH solution offers a resistance of 31.6 ohm in a conductivity cell at room temperature. What shall be the approximate molar conductance of this NaOH solution if cell constant of the cell is 0.367 cm-1 .",
+    "questionText": "Calculate the volume at STP occupied by 240 gm of SO₂.",
     "options": [
-      "23.4 S cm 2 mole-1",
-      "23.2 S cm 2 mole-1",
-      "46.45 S cm2 mole-1",
-      "54.64 S cm 2 mole-1"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 3.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q4",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Ammonium dichromate on heating gives",
-    "options": [
-      "chromic acid & ammonia",
-      "chromium sesquioxide & nitrogen",
-      "chromium sesquioxide & ammonia",
-      "chromic acid and N 2"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 4.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q5",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Predict the relative acidic strength among the following ( a )H 2O, H2S, H2Se, H2Te (b) H 2O < H2S < H2Se < H2Te ( c )H 2Te < H2Se < H2S < H2O (d) H 2O < H2Se < H2S < H2Te",
-    "options": [
-      "",
-      "H 2O < H2S < H2Se < H2Te ( c )H 2Te < H2Se < H2S < H2O",
-      "",
-      "H 2O < H2Se < H2S < H2Te"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 5.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q6",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "The catalyst used in the preparation of an alkyl chloride by the action of dry HCl on an alcohol is",
-    "options": [
-      "anhydrous AlCl 3",
-      "FeCl 3",
-      "anhydrous ZnCl 2",
-      "Cu"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 6.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q7",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "In which of the following, resonance will be possible?",
-    "options": [
-      "CHOCHCHCH 222 \u0010\u0010\u0010",
-      "OCHCHCH 2 \u0010",
-      "33COCHCH",
-      "222 CHCHCHCHCH \u0010\u0010"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 7.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q8",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "The four quantum numbers that could identify the third 3p electron in sulphur are",
-    "options": [
-      "n = 3, l = 0, m = +1, s = 2 1\u000e",
-      "n = 2, l = 2, m = -1, s = 2 1\u000e",
-      "n = 3, l = 2, m = +1, s = 2 1\u0010",
-      "n = 3, l = 1, m = -1, s = 2 1\u000e"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 8.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q9",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Sn4+ + 2e- \u007f \u007foSn2+ E\u00b0 = 0.13 V Br2 + 2e- \u007f \u007fo 2Br- E\u00b0 = 1.08 V Calculate Keq for the cell at 20\u00b0C formed by two electrodes",
-    "options": [
-      "10 41",
-      "10 32",
-      "10 -32",
-      "10 -42"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 9.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q10",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Calculate the pH of a solution obtained by mixing 2 ml of HCl of pH 2 and 3 ml of solution of KOH of pH = 12",
-    "options": [
-      "10.30",
-      "3.70",
-      "11.30",
-      "None of these"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 10.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q11",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Which of the following represents a correct sequence of reducing power of the following elements?",
-    "options": [
-      "Li > Cs > Rb",
-      "Rb > Cs > Li",
-      "Cs > Li > Rb",
-      "Li > Rb > Cs"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 11.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q12",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Paramagnetism of Cr (Z = 24), Mn 2+ (Z = 25) and Fe 3+ (Z = 26) are x, y and z respectively. They are in the order",
-    "options": [
-      "x = y = z",
-      "x > y > z",
-      "x = y > z",
-      "x > y = z"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 12.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q13",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Formaldehyde reacts with ammonia to give urotropine is",
-    "options": [
-      "(CH 2)6N4",
-      "(CH 2)4N3",
-      "(CH 2)6N6",
-      "(CH 2)3N3"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 13.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q14",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Indicate the wrongly named compound",
-    "options": [
-      "CHO2CH2CHH CH | C3CH 3 \u0010\u0010\u0010\u0010 (4-methyl -1- pentanal)",
-      "COOHCCH CH | C3CH 3 \u0010{\u0010\u0010 (4- methyl -2- pentyn -1- oic acid)",
-      "COOHH CH | C2CH2CH3CH 3 \u0010\u0010 (2- methyl -1- pentanoic acid)",
-      "323 CH O || CCHCHCHCH \u0010\u0010 \u0010\u0010"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 14.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q31",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "What will be the emf for the given cell Pt | H2 (P1) | H+ (aq) | H2 (P2) | Pt",
-    "options": [
-      "2 1 P PlnF RT",
-      "2 1 P PlnF2 RT",
-      "1 2 P PlnF RT",
-      "None of these"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 31.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q32",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "H3PO3 is",
-    "options": [
-      "neutral",
-      "basic",
-      "a tribasic acid",
-      "a dibasic acid"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 32.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q33",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Of the following which is diamagnetic in nature?",
-    "options": [
-      "\u000e3 6 ]FCo[",
-      "\u00102 4 ]ClNi[",
-      "\u00102 4 ]ClCu[",
-      "2 4[Ni(CN) ] \u0010"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 33.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q34",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Which of the following products is formed when benzaldehyde is treated with CH3MgBr and the addition product so obtained is subjected to acid hydrolysis ?",
-    "options": [
-      "A secondary alcohol",
-      "A primary alcohol",
-      "Phenol",
-      "tert-Butyl alcohol"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 34.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q35",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Mole fraction of methanol in its aqueous solution is 0.5. The concentration of solution in terms of percent by mass of methanol is",
-    "options": [
-      "36",
-      "50",
       "64",
-      "72"
+      "84",
+      "59",
+      "73"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 35.",
+    "explanation": "Correct answer is '64'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q36",
+    "id": "some-basic-concepts-of-chemistry-q64",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "The unit cell of an ionic compound is a cube in which cations (A) occupy each of the corners and anions (B) are at the centres of each face . The simplest formula of the ionic compound is",
-    "options": [
-      "AB2",
-      "A3B",
-      "AB3",
-      "A4B3"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 36.",
-    "tags": [
-      "Mock Test 2",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-2-q37",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "For orthorhombic system axial ratios are a z b z c and the axial angles are",
+    "questionText": "At S.T.P . the density of CCl4 vapours in g/L will be nearest to:",
     "options": [
-      "qzJ E D 90",
-      "q J E D 90",
-      "qzEq J E D 90,90",
-      "q JzEzD 90"
+      "6.87",
+      ".42",
+      "0.26",
+      ".57"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 37.",
+    "explanation": "Correct answer is '6.87'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q38",
+    "id": "some-basic-concepts-of-chemistry-q65",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Electrolytic reduction of alumina to aluminium by Hall- Heroult process is carried out",
+    "questionText": "The number of gram molecules of oxygen in 6.02 × 1024 CO molecules is",
     "options": [
-      "in the presence of NaCl",
-      "in the presence of fluorite",
-      "in the presence of cryolite which forms a melt with lower melting temperature",
-      "in the presence of cryolite which forms a melt with higher melting temperature"
+      "0 gm molecules",
+      "5 gm molecules",
+      "gm molecules",
+      "0.5 gm molelcules"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 38.",
+    "explanation": "Correct answer is '0 gm molecules'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q39",
+    "id": "some-basic-concepts-of-chemistry-q66",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Consider the following complex [Co(NH3)5CO3]ClO4. The coordination number, oxidation number, number of d- electrons and number of unpaired d-electrons on the meal are respectively",
+    "questionText": "The number of oxygen atoms in 4.4 g of CO₂ is",
     "options": [
-      "6, 3, 6, 0",
-      "7, 2, 7, 1",
-      "7, 1, 6, 4",
-      "6, 2, 7, 3"
+      ".2 × 10²³",
+      "6 × 10²²",
+      "6 × 10²³",
+      "× 10²³"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 39.",
+    "explanation": "Correct answer is '.2 × 10²³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q40",
+    "id": "some-basic-concepts-of-chemistry-q67",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Nylon is a :",
+    "questionText": "Which has maximum number of molecules?",
     "options": [
-      "polysaccharide",
-      "polyester",
-      "polyamide",
-      "all of the above"
+      "7 gm N₂",
+      "gm H₂",
+      "6 gm NO₂",
+      "6 gm O₂"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 40.",
+    "explanation": "Correct answer is '7 gm N₂'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q41",
+    "id": "some-basic-concepts-of-chemistry-q68",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Br2OH S OH3 H2O X, X is identified as",
+    "questionText": "Number of atoms in 558.5 gram Fe (at. wt. of Fe = 55.85 g·mol⁻¹ ) is",
     "options": [
-      "2, 4, 6-tribromophenol",
-      "2-bromo-4-hydroxylbenzene sulphonic acid",
-      "3, 5-dibromo-4-hydroxybenzene sulphonic acid",
-      "2-bromophenol"
+      "twice that in 60 g carbon",
+      "6.023 u 1022",
+      "558.5 u 6.023 u 1023",
+      "None of the above"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 41.",
+    "explanation": "Correct answer is 'twice that in 60 g carbon'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q42",
+    "id": "some-basic-concepts-of-chemistry-q69",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The non-polar molecule is :",
+    "questionText": "Th e number of molecules in 16 g of methane is",
     "options": [
-      "NF 3",
-      "SO 3",
-      "CHCl 3",
-      "ClO 2"
+      ".0 × 10²³",
+      "1002 . 6 16 u",
+      "100 . 3 16 u",
+      "None of the above"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 42.",
+    "explanation": "Correct answer is '.0 × 10²³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q43",
+    "id": "some-basic-concepts-of-chemistry-q70",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "The hybridization of P in \u00103 4PO is the same as of",
+    "questionText": "N umber of g of oxygen in 32.2 g Na₂SO₄.10 H₂O is",
     "options": [
-      "S in SO 3",
-      "N in NO - 3",
-      "S in SO 4 --",
-      "I in ICl 4 -"
+      "0.8",
+      ".24",
+      ".4",
+      ".08 EBD_7207"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 43.",
+    "explanation": "Correct answer is '0.8'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q44",
+    "id": "some-basic-concepts-of-chemistry-q71",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Solution of potash alum is acidic in nature. This is due to hydrolysis of",
+    "questionText": "The number of moles of oxygen in one litre of air containing 21% oxygen by volume, under standard conditions are",
     "options": [
-      "\u00102 4SO",
-      "K +",
-      "Al 2(SO4)3",
-      "Al 3+"
+      "0.0093 mole",
+      "0.21 mole",
+      ".10 mole",
+      "0.186 mole"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 44.",
+    "explanation": "Correct answer is '0.0093 mole'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q45",
+    "id": "some-basic-concepts-of-chemistry-q72",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "When conc. HNO 3 a c t s o n o u r s k i n, t he s k i n b e c o m e s yellow, because",
+    "questionText": "The number of molecules in 8.96 litre of a gas at 0°C and 1 atm. pressure is approximately",
     "options": [
-      "HNO 3 acts as an oxidising agent",
-      "HNO 3 acts as a dehydrating agent",
-      "Nitro-cellulose is formed",
-      "The proteins are converted into xanthoproteins"
+      "6.022 × 10²³",
+      ".04 × 10²³",
+      "8.06 × 10²³",
+      ".08 × 10²²"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 45.",
+    "explanation": "Correct answer is '6.022 × 10²³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q19",
+    "id": "some-basic-concepts-of-chemistry-q73",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "(b) Structural formula of glucose is | 4 | 2 CHO (CHOH) CH OH In addition to - CHO group it contains one primary and four secondary - OH groups.",
+    "questionText": "The mass of a molecule of water is",
     "options": [
-      "",
-      "Structural formula of glucose is | 4 | 2 CHO (CHOH) CH OH In addition to - CHO group it contains one primary and four secondary - OH groups.",
-      "",
-      ""
+      "× 10⁻²⁵ kg",
+      "× 10⁻²⁶ kg",
+      ".5 × 10⁻²⁶ kg",
+      ".5 × 10⁻²⁶ kg"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 19.",
+    "explanation": "Correct answer is '× 10⁻²⁵ kg'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q21",
+    "id": "some-basic-concepts-of-chemistry-q74",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "(b) In general, Acyloins |||CN aldehyde Aromatic Ar O CH OH CArArCHO \u007f\u007fo\u007f \u0010",
+    "difficulty": "Hard",
+    "questionText": "One mole of CO₂ contains :",
     "options": [
-      "",
-      "In general, Acyloins |||CN aldehyde Aromatic Ar O CH OH CArArCHO \u007f\u007fo\u007f \u0010",
-      "",
-      ""
+      "g atoms of CO₂",
+      "8.1 × 10²³ molecules of CO₂",
+      "6.022 × 10²³ atoms of O",
+      "6.022 × 10²³ atoms of C"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 21.",
+    "explanation": "Correct answer is 'g atoms of CO₂'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-2-q30",
+    "id": "some-basic-concepts-of-chemistry-q75",
     "subject": "Chemistry",
-    "chapter": "Mock Test 2",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "(b) )g(22ClSO )g(2)g(2 ClSO \u000e % 100( 1) Dd dy \u0010D u \u0010  (y = 2)",
+    "questionText": "Volume of a gas at NTP is 1.12 × 10⁻⁷ cm³. The number of molecules in it is :",
     "options": [
-      "",
-      ")g(22ClSO )g(2)g(2 ClSO \u000e % 100( 1) Dd dy \u0010D u \u0010  (y = 2)",
-      "",
-      ""
+      ".01 × 10¹²",
+      ".01 × 10²⁴",
+      ".01 × 10²³",
+      ".01 × 10²⁰"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 2 Question 30.",
+    "explanation": "Correct answer is '.01 × 10¹²'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 2",
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q76",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "How many atoms are contained in one mole of sucrose (C₁₂H₂₂O₁₁)?",
+    "options": [
+      "0 × 6.022 × 10²³ atoms/mol",
+      "5 × 6.022 × 10²³ atoms/mol",
+      "5 × 6.022 × 10²³ atoms/mol",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0 × 6.022 × 10²³ atoms/mol'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q77",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "One litre oxygen gas at S.T.P will weigh :",
+    "options": [
+      ".43 g",
+      ".24 g",
+      ".2 g",
+      ".4 g"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.43 g'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q78",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Number of moles of NaOH present in 2 litre of 0.5 M NaOH i s:",
+    "options": [
+      ".5",
+      ".0",
+      ".0",
+      ".5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.5'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q79",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "O₂, N₂ are present in the ratio of 1 : 4 by weight. The ratio of number of molecules is :",
+    "options": [
+      "7 : 32",
+      ": 4",
+      ": 1",
+      ": 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '7 : 32'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q80",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "How many moles of Al 2(SO₄²⁻)3 w o uld b e in 50 g o f the substance ?",
+    "options": [
+      "0.083 mole",
+      "0.952 mole",
+      "0.481 mole",
+      "0.140 mole"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.083 mole'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q81",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The mass of 1 mole of electrons is",
+    "options": [
+      "9.1 × 10⁻²⁸ g",
+      ".008 mg",
+      "0.55 mg",
+      "9.1 × 10⁻²⁷ g"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '9.1 × 10⁻²⁸ g'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q82",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "10 g of hydrogen and 64 g of oxygen were filled in a steel vessel and exploded. Amount of water produced in this reaction will be:",
+    "options": [
+      "mol",
+      "mol",
+      "mol",
+      "mol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'mol'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q83",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which has the maximum number of molecules among the following ?",
+    "options": [
+      "g CO₂",
+      "8 g O₃",
+      "8 g H₂",
+      "64 g SO₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '4 g CO₂'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q84",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The weight of one molecule of a compound 12260HC is",
+    "options": [
+      "gram102.1 20u",
+      "gram104.1 21u",
+      "gram10025.5 23u",
+      "gram10023.6 23u 85 The simplest formula of a compound containing 50% of element X (atomic mass 10) and 50% of element Y (atomic mass 20) is ( a ) XY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'gram102.1 20u'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q86",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Empirical formula of hydrocarbon containing 80% carbon and 20% hydrogen is :",
+    "options": [
+      "H 3",
+      "H₄",
+      "H",
+      "H₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'H 3'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q87",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The empirical formula of a compound is CH2. One mole of this compound has a mass of 42 grams. Its molecular formula is : (",
+    "options": [
+      "H6",
+      "H8",
+      "H₂",
+      "₂H₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '3H6'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q88",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "A compound contains 54.55 % carbon, 9.09% hydrogen , 36.36% oxygen. The empirical formula of this compound is",
+    "options": [
+      "OHC 53",
+      "84 OHC",
+      "2 OHC",
+      "OHC 42"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'OHC 53'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q89",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "In a hydrocarbon, mass ratio of hydrogen and carbon is 1:3, the empirical formula of hydrocarbon is",
+    "options": [
+      "H₄",
+      "H₂",
+      "H 3",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'H₄'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q90",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "An organic compound contains carbon, hydrogen and oxygen. Its elemental analysis gave C, 38.71% and H, 9.67%. The empirical formula of the compound would be :",
+    "options": [
+      "H 3O",
+      "H₂O",
+      "HO",
+      "H 4O"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'H 3O'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q91",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "A hydrocarbon is composed of 75% carbon. The empirical formula of the compound is",
+    "options": [
+      "H₂",
+      "H 3",
+      "H₄",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'H₂'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q92",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "12 gm of Mg (atomic mass 24) will react completely with hydrochloric acid to give",
+    "options": [
+      "One mol of H₂",
+      "/2 mol of H₂",
+      "/3 mol of O₂",
+      "oth 1/2 mol of H₂ and 1/2 mol of O₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'One mol of H₂'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q93",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "20.0 kg of N₂(g) and 3.0 kg of H₂(g) are mixed to produce NH₃(g). The amount of NH₃(g) formed is",
+    "options": [
+      "7 kg",
+      "kg",
+      "0 kg",
+      "kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '7 kg'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q94",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "20.0 kg of H₂(g) and 32 kg of O₂(g) are reacted to produce H₂O(l). The amount of H₂O (l) formed after completion of reaction is",
+    "options": [
+      "62 kg",
+      "8 kg",
+      "kg",
+      "72 kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '62 kg'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q95",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "What is the weight of oxygen required for the complete combustion of 2.8 kg of ethylene ?",
+    "options": [
+      ".8 kg",
+      "6.4 kg",
+      "9.6 kg",
+      "96 kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.8 kg'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q96",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "In the reaction 3 224 NH ( ) 5O ( ) 4 NO( ) 6H O( )g g gl\u000e o\u000e When 1 mole of ammonia and 1 mole of O₂ are made to react to completion,",
+    "options": [
+      ".0 mole of H₂O is produced",
+      ".0 mole of NO will be produced",
+      "ll the oxygen will be consumed",
+      "ll the ammonia will be consumed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.0 mole of H₂O is produced'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q97",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "What is the molarity of 0.2N 3 2CONa solution?",
+    "options": [
+      "0.1 M",
+      "0 M",
+      "0.4 M",
+      "0.2 M"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.1 M'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q98",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The molar solution of 4 2SO H is equal to :",
+    "options": [
+      "N/2 solution",
+      "N solution",
+      "N solution",
+      "N solution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'N/2 solution'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q99",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Volume of water needed to mix with 10 mL 10N HNO₃ to get 0.1 N HNO₃ is :",
+    "options": [
+      "000 mL",
+      "990 mL",
+      "010 mL",
+      "0 mL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '000 mL'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q100",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "One kilogram of a sea water sample contains 6 mg of dissolved O₂. The c o nc e ntratio n o f O₂ in the sample in ppm is",
+    "options": [
+      "0.6",
+      "6.0",
+      "60.0",
+      "6.0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.6'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q101",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "A 5 molar solution of H₂SO₄ is diluted from 1 litre to a volume of 10 litres, the normality of the solution will be :",
+    "options": [
+      "N",
+      "0.1N",
+      "5N",
+      "0.5N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'N'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q102",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "With increase of temperature, which of these changes?",
+    "options": [
+      "Molality",
+      "Weight fraction of solute",
+      "Molarity",
+      "Mole fraction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Molality'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q103",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "6.02 × 1020 molecules of urea are present in 100 ml of its solution. The concentration of urea solution is",
+    "options": [
+      "0.02 M",
+      "0.01 M",
+      "0.001 M",
+      "0.1 M (Avogadro constant, NA = 6.022 × 10²³ mol-1 )"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.02 M'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q104",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Two solutions of a substance (non electrolyte) are mixed in the following manner. 480 ml of 1.5 M first solution + 520 ml of 1.2 M second solution. What is the molarity of the final mixture?",
+    "options": [
+      ".70 M",
+      ".344 M",
+      ".50 M",
+      ".20 M STA TEMENT TYPE QUESTIONS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.70 M'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q105",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements are correct ? (i) Both solids and liquids have definite volume. (ii) Both liquids and gases do not have definite shape. (iii) Both solids and gases take the shape of the container.",
+    "options": [
+      "(i) and (iii)",
+      "(ii) and (iii)",
+      "(i) and (ii)",
+      "(i), (ii) and (iii)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i) and (iii)'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q106",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Choose correct option based on following statements. Here T stands for true statement and F for false statement. (i) Homogeneous mixture has uniform composition throughout. ( ii) All components of a heterogeneous mixture are observable to naked eyes. (iii) All solutions are homogeneous in nature. (iv) Air is an example of heterogeneous mixture.",
+    "options": [
+      "TTFF",
+      "TFTF",
+      "FFTT",
+      "TFFF"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'TTFF'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
@@ -1331,484 +1898,946 @@ export const CHEMISTRY_MOCK_TEST_2_QUESTIONS: Question[] = [
 
 export const CHEMISTRY_MOCK_TEST_3_QUESTIONS: Question[] = [
   {
-    "id": "mock-test-3-q1",
+    "id": "some-basic-concepts-of-chemistry-q129",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Fluorine is more electronegative than either boron or phosphorus. What conclusion can be drawn from the fact that BF3 has no dipole moment but PF3 does ?",
+    "difficulty": "Easy",
+    "questionText": "How many moles of magnesium phosphate, Mg3(PO4)2 will contain 0.25 mole of oxygen atoms?",
     "options": [
-      "BF 3 is not spherically symmetrical but PF3 is spherically symmetrical.",
-      "BF 3 molecule must be linear",
-      "The atomic radius of P is larger than that of B",
-      "The BF 3 molecule must be planar triangular"
-    ],
-    "correctAnswer": 3,
-    "explanation": "BF 3 is planar triangular while PF3 is pyramidal.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q2",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "The volume-temperature graphs of a given mass of an ideal gas at constant pressure are shown below. 273 T(K) O p2 p3 p1V What is the correct order of pressures ? ( a )p 1 > p3 > p2 (b) p 1 > p2 > p3 ( c )p 2 > p3 > p1 (d) p 2 > p1 > p3",
-    "options": [
-      "",
-      "p 1 > p2 > p3 ( c )p 2 > p3 > p1",
-      "",
-      "p 2 > p1 > p3"
+      ".25 × 10⁻²",
+      ".5 × 10⁻²",
+      "0.02",
+      ".125 × 10⁻²"
     ],
     "correctAnswer": 0,
-    "explanation": "From the graph we can see the correct order of pressures p1 > p3 > p2",
+    "explanation": "Correct answer is '.25 × 10⁻²'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-3-q4",
+    "id": "some-basic-concepts-of-chemistry-q130",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": ".23 CHCHCH \u0010",
+    "questionText": "Volume occupied by one molecule of water (density = 1 g·cm⁻³ ) is : ]",
     "options": [
-      "Bromine in carbon tetrachloride",
-      "Bromine in acetic acid",
-      "Alk KMnO 4",
-      "Ammonical silver nitrate."
-    ],
-    "correctAnswer": 3,
-    "explanation": "Decomposition of carbonates and hydrated oxides.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q5",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "An example of electrophilic substitution reaction is",
-    "options": [
-      "Chlorination of methane",
-      "Conversion of methyl chloride to methyl alcohol",
-      "Nitration of benzene",
-      "Formation of ethylene from ethyl alcohol."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Chlorination of methane proceeds via free radical mechanism. Conversion of methyl chloride to methyl alcohol proceeds via nucleophilic substitution. Formation of ethylene from ethyl alcohol proceeds via dehydration reaction. Nitration of benzene is electrophilic substitution reaction.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q6",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Which of the following molecules is most suitable to disperse benzene in water ?",
-    "options": [
-      "O O Na -+",
-      "O O Na + O - O Na -+",
-      "CH3",
-      "Cl"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Benzene is non-polar and hence dissolves non-polar compounds (like dissolves like). Among the given compounds, only (c) is non-polar hence it dissolves in benzene.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q7",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Ozone hole refers to",
-    "options": [
-      "Increase in concentration of ozone",
-      "Hole in ozone layer",
-      "Reduction in thickness of ozone layer in troposphere",
-      "Reduction in thickness of ozone layer in stratsophere"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Ozone hole is reduction in ozone layer in stratosphere.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q8",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Which of the following does not represent the correct order of the properties indicated",
-    "options": [
-      "Ni 2+ > Cr2+ > Fe2+ > Mn2+ (size)",
-      "Sc > Ti > Cr > Mn (size)",
-      "Mn 2+ > Ni2+ < Co2+ < Fe2+ (unpaired electron)",
-      "Fe 2+ > Co2+ > Ni2+ > Cu2+ (unpaired electron)"
+      "9.0 × 10⁻²³ cm³",
+      "6.023 × 10⁻²³ cm³",
+      ".0 × 10⁻²³ cm³",
+      "5.5 × 10⁻²³ cm³"
     ],
     "correctAnswer": 0,
-    "explanation": "In a period on moving from left to right ionic radii decreases. (a) So order of cationic radii is Cr2+ > Mn2+ > Fe2+ > Ni2+ and (b) Sc > Ti > Cr > Mn (correct order of atomic radii) (c) For unpaired electrons  22Mn (Five) Ni (Two)\u000e\u000e ! 22Co (Three) Fe (Four)\u000e\u000e\u001f\u001f (d) For unpaired electrons 22Fe (Four) Co (Three)\u000e\u000e ! 22Ni (Two) Cu (One)\u000e\u000e!!",
+    "explanation": "Correct answer is '9.0 × 10⁻²³ cm³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-3-q9",
+    "id": "some-basic-concepts-of-chemistry-q131",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "The major product formed in the following reaction is : OHCH OCH 2| 3| 3 3 -3BrCH- H CH C-CH \u007f\u007f\u007f o\u007f",
-    "options": [
-      "3 | 3 23 | CH CH -C - CH OCH H",
-      "32 3 |3 CHCH-H OCH C-CH",
-      "2 3| 3 CH CH C-CH",
-      "3| 33 | 3 CH CH - C - CH OCH"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The reaction is an example of SN1 reaction - 33 || -Br 3 2 32 1 carbocation CH CH C H -C H-C H B r C H -CH-CH \u000e q \u007f \u007f \u007fo 3 |hydrideshift 33 3 carbocation CH CH - C - CH\u000e q \u007f\u007f\u007f\u007f\u007f o - 3 3 |OCH 33 | 3 CH CH - C - CH OCH \u007f\u007f\u007f\u007f o 10. ( b ) A s e t o f q u e s t i o n n u m b e r i s v a l i d w h e n l < n and m1 lies between - l to + l. Thus sets I, II, IV are valid, III, V invalid.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q25",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "A balloon has maximum capacity of 20 L. At one atmospheric pressure 10 L of air is filled in the balloon. It will burst when pressure is (assuming isothermal condition)",
-    "options": [
-      "> 0.5 atm",
-      "< 0.5 atm",
-      "= 0.5 atm",
-      "t 0.5 atm"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option (b) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q26",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Which one of the following complexes will have four different isomers ?",
+    "questionText": "The number of atoms in 0.1 mol of a triatomic gas is : (NA = 6.022 × 10²³ mol-1 )",
     "options": [
-      "Cl]Cl)en(Co[ 22",
-      "Cl]Cl)NH)(en(Co[ 23",
-      "3 22[Co(PPh ) Cl ]Cl",
-      "33 Cl])en(Co["
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option (b) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q27",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Solubility product of a salt AB is 1 \u00d7 10-8 in a solution in which the concentration of A+ ions is 10-3 M. The salt will precipitate when the concentration of B- ions is kept",
-    "options": [
-      "between 10 -8 M to 10-7 M",
-      "between 10 -7 M to 10-8 M",
-      "> 10 -5 M",
-      "< 10 -8 M"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Option (c) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q28",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Sucrose in water is dextro-rotatory , [D]D= + 66.4\u00b0. When boiled with dilute HCl, the solution becomes leavo-rotatory , [D]D= -20\u00b0. In this process the sucrose molecule breaks into",
-    "options": [
-      "L-glucose + D-fructose",
-      "L-glucose + L-fructose",
-      "D-glucose + D-fructose",
-      "D-glucose + L-fructose"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Option (c) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q29",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Select correct statement(s).",
-    "options": [
-      "Cyanamide ion (CN 2 2- ) is isoelectronic with CO2 and has the same linear structure",
-      "Mg 2C3 reacts with water to form propyne",
-      "CaC 2 has NaCl type lattice",
-      "All of the above"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Option (d) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q30",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "In DNA the complementary bases are",
-    "options": [
-      "adenine and thymine; guanine and cytosine",
-      "uracil and adenine; cytosine and guanine",
-      "adenine and guanine; thymine and cytosine",
-      "adenine and thymine; guanine and uracil"
+      "6.026 × 10²²",
+      ".806 × 10²³",
+      ".600 × 10²³",
+      ".800 × 10²² EBD_7207"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a) is the correct answer.",
+    "explanation": "Correct answer is '6.026 × 10²²'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-3-q31",
+    "id": "some-basic-concepts-of-chemistry-q132",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "V apour pressure of benzene at 30\u00b0C is 121.8 mm. When 15 g of a non volatile solute is dissolved in 250 g of benzene its vapour pressure decreased to 120.2 mm. The molecular weight of the solute (Mo. wt. of solvent = 78)",
-    "options": [
-      "356.2",
-      "456.8",
-      "530.1",
-      "656.7"
-    ],
-    "correctAnswer": 0,
-    "explanation": "32. (b) 33. (b) 34. (a) 35. (a) 36. (b) 37. (d) 38. (d) 39. (d) 40. (c)",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q32",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "In nitrogen family , the H-M-H bond angle in the hydrides gradually becomes closer to 90\u00b0 on going from N to Sb. This shows that gradually",
-    "options": [
-      "The basic strength of the hydrides increases",
-      "Almost pure p-orbitals are used for M-H bonding",
-      "The bond energies of M-H bonds increase",
-      "The bond pairs of electrons become nearer to the central atom"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option (b) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q33",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "For reaction APax o , when [A] = 2.2 mM, the rate was found to be 2.4 mMs- . On reducing concentration of A to half, the rate changes to 0.6 mMs-1 . The order of reaction with respect to A is :",
+    "questionText": "1 c.c. N₂O at NTP contains :",
     "options": [
-      "1.5",
-      "2.0",
-      "2.5",
-      "3.0"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option (b) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q34",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Which of the following is used for making optical instruments?",
-    "options": [
-      "S iO2",
-      "Si",
-      "SiH 4",
-      "SiC"
+      "toms10224 8.1 22u",
+      "molecules1022400 02.6 23u",
+      "10224 32.1 u electrons",
+      "ll of the above"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a) is the correct answer.",
+    "explanation": "Correct answer is 'toms10224 8.1 22u'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-3-q35",
+    "id": "some-basic-concepts-of-chemistry-q133",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "If 'a' stands for the edge length of the cubic systems : simple cubic, body centred cubic and face centred cubic, then the ratio of radii of the spheres in these systems will be respectively,",
-    "options": [
-      "131a : a :a24 22",
-      "11a : 3 a :a2 2",
-      "133a :a :a2 22",
-      "1 a: 3 a: 2 a"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Option (a) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q36",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Which of the following is correct order of acidity?",
-    "options": [
-      "HCOOH > CH3COOH > ClCH2COOH > C2H5 COOH",
-      "ClCH 2COOH > HCOOH > CH3COOH > C2H5 COOH",
-      "CH 3COOH > HCOOH > ClCH2COOH > C2H5COOH",
-      "C 2H5COOH > CH3COOH > HCOOH > ClCH2COOH"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option (b) is the correct answer.",
-    "tags": [
-      "Mock Test 3",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-3-q37",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Penicillin is :",
+    "questionText": "How much time (in hours) would it take to distribute one Avogadro number of wheat grains if 10²⁰ grains are distributed each second ?",
     "options": [
-      "analgesic",
-      "antipyretic",
-      "antimalarial",
-      "antibiotic"
+      "0.1673",
+      ".673",
+      "6.73",
+      "67.3"
     ],
-    "correctAnswer": 3,
-    "explanation": "Option (d) is the correct answer.",
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.1673'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-3-q38",
+    "id": "some-basic-concepts-of-chemistry-q134",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "The rate constant k, for the reaction )g(O2 1)g(NO2)g(ON 2252 \u000e\u007fo\u007f is 1.3 \u00d7 10-2 s-1 . Which equation given below describes the c h a n g e o f [ N2O5] with time ? [N 2O5]0 and [N 2O5]t corrospond to concentration of N2O5 initially and at time t.",
+    "questionText": "Arrange the following in the order of increasing mass (atomic mass: O = 16, Cu = 63, N = 14) I. one atom of oxygen II. one atom of nitrogen III. 1 × 10⁻¹⁰ mole of oxygen I V . 1 × 10⁻¹⁰ mole of copper",
     "options": [
-      "[N 2O5]t = [N2O5]0 + kt",
-      "[N 2O5]0 = [N2O5]t ekt",
-      "log [N 2O5]t = log [N2O5]0 + kt",
-      "In 2 50 25 [ NP] [ NP] t kt"
+      "II < I < III < IV",
+      "I < II < III < IV",
+      "III < II < IV < I",
+      "IV < II < III < I"
     ],
-    "correctAnswer": 3,
-    "explanation": "Option (d) is the correct answer.",
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'II < I < III < IV'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-3-q39",
+    "id": "some-basic-concepts-of-chemistry-q135",
     "subject": "Chemistry",
-    "chapter": "Mock Test 3",
+    "chapter": "Some Basic Concepts of Chemistry",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Which of the following reactions can produce aniline as main product? ( a )C 6H5NO2 + Zn/KOH (b) C 6H5NO2 + Zn/NH4Cl ( c )C 6H5NO2 + LiAlH4 (d) C 6H5NO2 + Zn/HCl",
+    "questionText": "If 1.5 moles of oxygen combines with Al to form Al₂O₃, the mass of Al in g [Atomic mass of Al = 27] used in the reaction is",
     "options": [
-      "",
-      "C 6H5NO2 + Zn/NH4Cl ( c )C 6H5NO2 + LiAlH4",
-      "",
-      "C 6H5NO2 + Zn/HCl"
+      ".7",
+      "54",
+      "0.5",
+      "81"
     ],
-    "correctAnswer": 3,
-    "explanation": "Option (d) is the correct answer.",
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.7'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
     "tags": [
-      "Mock Test 3",
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q136",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which one of the following is the lightest?",
+    "options": [
+      "0.2 mole of hydrogen gas",
+      "6.023 × 10²² molecules of nitrogen",
+      "0.1 g of silver",
+      "0.1 mole of oxygen gas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.2 mole of hydrogen gas'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q137",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "In a compound C, H and N atoms are present in 9 : 1 : 3.5 by weight. Molecular weight of compound is 108. Molecular formula of compound is (",
+    "options": [
+      "H6N2",
+      "H4N (",
+      "6H8N2",
+      "9H12N3."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '2H6N2'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q138",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The empirical formula of an acid is CH 2O2, the probable molecular formula of acid may be : (",
+    "options": [
+      "H6O4",
+      "H₂O",
+      "H₂O₂",
+      "H4O2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '3H6O4'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q139",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "A gaseous hydrocarbon gives upon combustion 0.72 g of water and 3.08 g. of CO₂. The empirical formula of the hydrocarbon is : (",
+    "options": [
+      "₂H₄",
+      "H4 (",
+      "6H5",
+      "7H8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '₂H₄'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q140",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is the correct empirical and molecular formulae of a compound, if the molecular mass of a compound is 80 and compound contains 60% of C, 5% of H and 35% of N ? (",
+    "options": [
+      "H2N ; C 4H4N2",
+      "H4N2 ; C 6H8N4 (",
+      "H4N2 ; C 4H8N4",
+      "H2N ; C 2H2N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '2H2N ; C 4H4N2'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q141",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is the correct empirical and molecular formulae of a compound, if the molecular mass of a compound is 93 and compound containing 77.43% of C, 7.53% of H and 15.05% of N ? (",
+    "options": [
+      "H3.5N1.5 a n d C6H7N",
+      "6H7N and C 6H7N (",
+      "H3N and C 6H7N",
+      "H3N and C 6H6N2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '3H3.5N1.5 a n d C6H7N'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q142",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Liquid benzene (C₆H₆) burns in oxygen according to the equation )(OH6)(CO12)(O15)(HC2 22266 gggl \u000eo\u000e How many litres of O₂ at STP are needed to complete the combustion of 39 g of liquid benzene?(Mol. wt. of O₂ = 32, C₆H₆ = 78)",
+    "options": [
+      "74 L",
+      ".2 L",
+      ".4 L",
+      "84 L"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '74 L'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q143",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Assuming fully decomposed, the volume of CO₂ released at STP on heating 9.85 g of BaCO3 (Atomic mass, Ba = 137) will be",
+    "options": [
+      ".24 L",
+      ".96 L",
+      ".12 L",
+      "0.84 L"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.24 L'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q144",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The mass of BaCO3 produced when excess CO₂ is bubbled through a solution of 0.205 mol Ba(OH)2 is :",
+    "options": [
+      "81 g",
+      "0.5 g",
+      "0.25 g",
+      "62 g"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '81 g'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q145",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "For the reaction Fe₂O₃ + 3CO2 o 2Fe + 3CO2, the volume of carbon monoxide required to reduce one mole of ferric oxide is",
+    "options": [
+      "67.2 dm³",
+      ".2 dm³",
+      ".4 dm³",
+      ".8 dm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '67.2 dm³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q146",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "How many moles of lead (II) chloride will be formed from a reaction between 6.5 g of PbO and 3.2 g of HCl ?",
+    "options": [
+      "0.044",
+      "0.333",
+      "0.011",
+      "0.029"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.044'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q147",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Fat is an important source of energy and water, this is important for the desert animals like camel which store fat in its hump and provide water and energy . How many g r a m s a n d m o l e s o f H₂O are produced from the combustion of fat C57H110O6 from 450 gram of fat stored in hump of camel ? 5 71 1 06 2 2 2 163C H O O 57CO 55H O₂\u000eo\u000e",
+    "options": [
+      "500.56 , 27.80",
+      "50, 26.80",
+      "580, 25.0",
+      "00, 26.6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '500.56 , 27.80'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q149",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "10 mL of 2(M) NaOH solution is added to 200 mL of 0.5 (M) of NaOH solution. What is the final concentration ?",
+    "options": [
+      "0.57 (M)",
+      "5.7 (M)",
+      ".4 (M)",
+      ".14 (M)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.57 (M)'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q150",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "If maximum fluoride ion presence was set to be 4 ppm number of moles of fluoride in 10 ml drinking water ?",
+    "options": [
+      ".10 × 10⁻³",
+      ".10 × 10⁻²",
+      ".10 × 10⁻³",
+      ".3 × 10⁻²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.10 × 10⁻³'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q151",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The increasing order of molarity with 25 gm each of NaOH, LiOH, Al(OH)3, KOH, B(OH)3 in same volume of water?",
+    "options": [
+      "l(OH) 3 < B(OH)3 < KOH < NaOH < LiOH",
+      "LiOH < NaOH < KOH < B(OH) 3 < Al(OH)3",
+      "LiOH < NaOH < B(OH) 3 < KOH < Al(OH)3",
+      "NaOH < LiOH < B(OH) 3 < Al(OH)3 < KOH EBD_7207"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'l(OH) 3 < B(OH)3 < KOH < NaOH < LiOH'. Follows standard NCERT chemical principles for Some Basic Concepts of Chemistry.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "some-basic-concepts-of-chemistry-q32",
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "topic": "Significant Figures",
+    "difficulty": "Medium",
+    "questionText": "The number of significant figures in the measured value 0.00250 kg is",
+    "options": [
+      "5",
+      "Increases",
+      "Decreases",
+      "Remains constant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Leading zeros before the first non-zero digit are not significant, while trailing zeros in a decimal number are significant. The digits '2', '5', '0' give 3 significant figures.",
+    "tags": [
+      "Some Basic Concepts of Chemistry",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q1",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which of the scientist were able to prove that atom is no longer non-divisible?",
+    "options": [
+      "lton",
+      "Michael Faraday",
+      "Thomson",
+      "hadwick"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'alton'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q2",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is never true for cathode rays ?",
+    "options": [
+      "They possess kinetic energy.",
+      "They are electromagnetic waves.",
+      "They produce heat.",
+      "They produce mechanical pressure."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'They possess kinetic energy.'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q3",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Cathode rays are deflected by",
+    "options": [
+      "n electric field only",
+      "magnetic field only",
+      "y both",
+      "y none"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'n electric field only'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q4",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which of the following statement is not correct about the characteristics of cathode rays?",
+    "options": [
+      "They start from the cathode and move towards the anode.",
+      "They travel in straight line in the absence of an external electrical or magnetic field.",
+      "haracteristics of cathode rays do not depend upon the material of electrodes in cathode ray tube.",
+      "haracteristics of cathode rays depend upon the nature of gas present in the cathode ray tube."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'They start from the cathode and move towards the anode.'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q5",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statements about the electron is incorrect?",
+    "options": [
+      "It is negatively charged particle",
+      "The mass of electron is equal to the mass of neutron.",
+      "It is a basic constituent of all atoms.",
+      "It is a constituent of cathode rays."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'It is negatively charged particle'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q6",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "While performing cathode ray experiments, it was observed that there was no passage of electric current under normal conditions. Which of the following can account for this observation ?",
+    "options": [
+      "ust particles are present in air",
+      "rbon dioxide is present in air",
+      "ir is a poor conductor of electricity under normal conditions",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'ust particles are present in air'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q7",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which is not true with respect to cathode rays?",
+    "options": [
+      "stream of electrons",
+      "harged particles",
+      "Move with speed same as that of light",
+      "n be deflected by magnetic fields"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'stream of electrons'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q8",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "What is the optimum conditions required to study the conduction of electricity through gases.",
+    "options": [
+      "High pressure and low voltage",
+      "High pressure and high voltage",
+      "Low pressure and high voltage",
+      "Low pressure and low voltage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'High pressure and low voltage'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q9",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "In discharge tube experiment stream of negatively charged particles travel from",
+    "options": [
+      "node to cathode",
+      "thode to anode",
+      "oth (a) and",
+      "Electrons does not travel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'node to cathode'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q10",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Millikan performed an experiment method to determine which of the following ?",
+    "options": [
+      "Mass of the electron",
+      "harge of the electron",
+      "e/m ratio of electron",
+      "oth (a) and"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Mass of the electron'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q11",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The discovery of neutron became very late because :",
+    "options": [
+      "neutrons are present in nucleus",
+      "neutrons are chargeless",
+      "neutrons are fundamental particles",
+      "ll of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'neutrons are present in nucleus'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q12",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which is correct statement about proton ?",
+    "options": [
+      "Proton is nucleus of deuterium",
+      "Proton is D-particle",
+      "Proton is ionized hydrogen molecule",
+      "Proton is ionized hydrogen atom"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Proton is nucleus of deuterium'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q13",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The lightest particle is :",
+    "options": [
+      "-particle",
+      "positron",
+      "proton",
+      "neutron"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '-particle'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q14",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "When beryllium is bombarded with alpha particles (Chadwick's experiment) extremely penetrating radiations, which cannot be deflected by electrical or magnetic field are given out. These are :",
+    "options": [
+      "eam of protons",
+      "lpha rays",
+      "eam of neutrons",
+      "eam of neutrons and protons STRUCTURE OF ATOM 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'beam of protons'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q15",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "N eutron is discovered by",
+    "options": [
+      "hadwick",
+      "Rutherford",
+      "Y ukawa",
+      "lton"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'hadwick'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q16",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Suppose beam containing all three fundamental subatomic particles are allowed to pass through an electric field as shown in figure. The subatomic particles detected at three points A, B and C on the screen respectively are ? - + p articles Beam of A B C (",
+    "options": [
+      "Protons, neutrons, electrons",
+      "Electrons, neutrons, protons",
+      "Electrons, protons, neutrons",
+      "Neutrons, protons, electrons"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Protons, neutrons, electrons'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q17",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which of the following properties of atom could be explained correctly by Thomson Model of atom?",
+    "options": [
+      "Overall neutrality of atom.",
+      "Spectra of hydrogen atom.",
+      "Position of electrons, protons and neutrons in atom.",
+      "Stability of atom."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Overall neutrality of atom.'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q18",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Arrange the following in terms of penetrating power. D-rays, E-rays, J-rays",
+    "options": [
+      "> E > J",
+      "< E < J",
+      "> E < J",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '> E > J'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q19",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which of the rays are not deflected by the electric and magnetic field ?",
+    "options": [
+      "J-rays",
+      "X-rays",
+      "E-rays",
+      "oth (a) and"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'J-rays'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q20",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Rutherford's experiment on the scattering of D -p articles showed for the first time that the atom has :",
+    "options": [
+      "electrons",
+      "protons",
+      "nucleus",
+      "neutrons'"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'electrons'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q21",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "When atoms are bombarded with alpha particles, only , a few in million suffer deflection, others pass out undeflected. This is because",
+    "options": [
+      "the force of repulsion on the moving alpha particle is small",
+      "the force of attraction between alpha particle and oppositely charged electrons is very small",
+      "there is only one nucleus and large number of electrons",
+      "the nucleus occupies much smaller volume compared to the volume of the atom"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'the force of repulsion on the moving alpha particle is small'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q22",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Rutherford's D-particle dispersion experiment concludes",
+    "options": [
+      "ll positive ions are deposited at small part",
+      "ll negative ions are deposited at small part",
+      "proton moves around the electron",
+      "neutrons are charged particles."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'll positive ions are deposited at small part'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
@@ -1817,421 +2846,946 @@ export const CHEMISTRY_MOCK_TEST_3_QUESTIONS: Question[] = [
 
 export const CHEMISTRY_MOCK_TEST_4_QUESTIONS: Question[] = [
   {
-    "id": "mock-test-4-q2",
+    "id": "structure-of-atom-q38",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Which of the following structures does not contain any chiral C atom but represent the chirality in the structure.",
+    "questionText": "Which is the correct schematic representation of the graph of black body radiation.",
     "options": [
-      "2 - Ethyl - 3 - hexene",
-      "2, 3-Pentadiene",
-      "1,3 - Butadiene",
-      "Pent - 3 - en - 1 - yne"
+      "T > T12 T2T1 Wavelength Intensity",
+      "T > T12 T2T1 Wavelength Intensity",
+      "T > T12 T2 T1 Wavelength Intensity",
+      "T > T21 T2 T1 Wavelength Intensity"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 2.",
+    "explanation": "Correct answer is 'T > T12 T2T1 Wavelength Intensity'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q3",
+    "id": "structure-of-atom-q39",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "N2 and O 2 are converted to mono cations N 2 + and O 2 + respectively , which of the following is wrong?",
+    "questionText": "The ideal body , which emits and absorbs radiations of all frequencies, is called a black body and the radiation emitted by such a body is called",
     "options": [
-      "In N 2 +, the N - N bond weakens",
-      "In O 2 +, the O - O bond order increases",
-      "In O 2 +, paramagnetism decreases",
-      "N 2 + becomes diamagnetic"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 3.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q4",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "In a compound AOH, electronegativity of 'A ' is 2.1, the compound would be",
-    "options": [
-      "Acidic",
-      "Neutral towards acid & base",
-      "Basic",
-      "Amphoteric"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 4.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q5",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Which of the following orders is wrong?",
-    "options": [
-      "Electron affinity- N < O < F < Cl",
-      "Ist ionisation potential - Be < B < N < O",
-      "Basic property- MgO < CaO < FeO < Fe 2O3",
-      "Reactivity-Be < Li < K < Cs"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 5.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q6",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "The dipole moment of chlorobenzene  Cl  is 1.5 D. The dipole moment of  Cl Cl Cl Cl  is",
-    "options": [
-      "2.86 D",
-      "2.25 D",
-      "1.5 D",
-      "0 D"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 6.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q7",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Following substances are in solid state : (A) Methane (B) Cesium chloride (C) Ice (D) Lithium Time : 1 hr Max. Marks -120 Mock Test-4 Which non-conductive solid when melts converts into conductive liquid?",
-    "options": [
-      "C, D",
-      "Only C",
-      "Only B",
-      "A, B and C"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 7.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q8",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "On applying pressure to the equilibrium ice water, which phenomenon will happen",
-    "options": [
-      "More ice will be formed",
-      "More water will be formed",
-      "Equilibrium will not be disturbed",
-      "Water will evaporate"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 8.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q9",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Let Q1 be the frequency of the series limit of the Lyman series, Q2 be the frequency of the first line of the Lyman series, and Q3 be the frequency of the series limit of the Balmer series, then -",
-    "options": [
-      "Q3 = 1 2 (Q1 - Q3)",
-      "Q2 - Q1 = Q3",
-      "Q1 - Q2 = Q3",
-      "Q1 + Q2 = Q3"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 9.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q10",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Given, - 3 K 2 FOHOHHF a \u000e\u007f\u007fo\u007f\u000e \u000e ; -bK 2 - OHHFOHF \u000e\u007f\u007fo\u007f\u000e . Which relation is correct ( a )K b = Kw (b) w b K 1K  ( c )K a \u00d7 Kb = Kw (d) w b a KK K",
-    "options": [
-      "",
-      "w b K 1K  ( c )K a \u00d7 Kb = Kw",
-      "",
-      "w b a KK K"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 10.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q11",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "In an amino acid, the carboxyl group ionises at 1apK = 2.34 and ammonium ion at 2apK = 9.60. The isoelectric point of the amino acid is at pH",
-    "options": [
-      "5.97",
-      "2.34",
-      "9.60",
-      "6.97"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 11.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q12",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "AB, A2 and B2 are diatomic molecules. If the bond enthalpies of A2, AB and B2 are in the ratio 1:1 :0.5 and enthalpy of formation of AB from A2 and B2 is -100 kJ mol-1 . What is the bond energy of A2 :",
-    "options": [
-      "200 kJ mol -1",
-      "100 kJ mol -1",
-      "300 kJ mol -1",
-      "400 kJ mol -1"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 12.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q13",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "Equal volume of 0.1 M urea and 0.1 M glucose are mixed. The mixture will have",
-    "options": [
-      "Lower osmotic pressure",
-      "Same osmotic pressure",
-      "Higher osmotic pressure",
+      "white body radiation",
+      "lack body radiation",
+      "lack body emission",
       "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 13.",
+    "explanation": "Correct answer is 'white body radiation'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q26",
+    "id": "structure-of-atom-q40",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "Identify X in the sequence given : NH2 Cl CHCl3 KOH (Y) HCl (300 K) X + methanoic acid",
-    "options": [
-      "NH2 Cl",
-      "NC Cl",
-      "N C Cl",
-      "ClCH -NH3"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 26.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q27",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "Select the rate law that corresponds to the data shown for the following reaction CBA \u007fo\u007f\u000e Expt. No. (1) (2) Initial Rate  1 0.012 0.035 0.10  2 0.024 0.070 0.80  3 0.024 0.035 0.10  4 0.012 0.070 0.80",
-    "options": [
-      "Rate = K[B] 3",
-      "Rate = K [B] 4",
-      "Rate = K [A] [B] 3",
-      "Rate = K [A] 2 [B]2"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 27.",
-    "tags": [
-      "Mock Test 4",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-4-q28",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "An alkene upon ozonolysis yield CHO - CH2- CH 2- CH 2 - CHO only . The alkene is",
+    "questionText": "Which one of the following is not the characteristic of Planck's quantum theory of radiation ?",
     "options": [
-      "CH 2= CH - CH2 -- CH 2 -- CH 2 -- CH 2 -- CH 3",
-      "",
-      "",
-      ""
+      "The energy is not absorbed or emitted in whole number or multiple of quantum",
+      "Radiation is associated with energy",
+      "This magnitude of energy associated with a quantum is proportional to the frequency .",
+      "None of the above"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 28.",
+    "explanation": "Correct answer is 'The energy is not absorbed or emitted in whole number or multiple of quantum'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q29",
+    "id": "structure-of-atom-q41",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "1 mol of 2N and 3 mol of 2H are placed in a closed container at a pressure of 4 atm. The pressure falls to 3 atm at the same temperature when the following equilibrium is attained )g(H3)g(N 22 \u000e 2 )g(NH3 . The pK for the dissociation of 3NH is",
+    "questionText": "Which of the following is related with both wave nature and particle nature ?",
     "options": [
-      "2 3 atm )5.1(5.0 33 \u0010 u u",
-      "23atm)5.1(5.0 u",
-      "2 3 atm 33 )5.1(5.0 u u",
-      "23 atm5.0 )5.1( \u0010"
+      "Interference",
+      "E = mc2",
+      "iffraction",
+      "E = Qh"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 29.",
+    "explanation": "Correct answer is 'Interference'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q30",
+    "id": "structure-of-atom-q42",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "0.5 g mixture of K2Cr2O7 and KMnO4 was treated with excess of KI in acidic medium. I2 liberated required 100 cm3 of 0.15N. Na2S2O3 solution for titration. The percentage amount of K2Cr2O7 in the mixture is",
+    "questionText": "The value of Planck's constant is 6.63 × 10⁻³⁴ Js. The velocity of light is 3.0 × 108 m s⁻¹ . Which value is closest to the wavelength in nanometers of a quantum of light with frequency of 8 × 1015 s⁻¹ ?",
     "options": [
-      "85.36 %",
-      "14.64 %",
-      "58.63 %",
-      "26.14 %"
+      "× 10⁷",
+      "× 10⁻²⁵",
+      "5 × 10⁻¹⁸",
+      "× 10¹"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 30.",
+    "explanation": "Correct answer is '× 10⁷'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q17",
+    "id": "structure-of-atom-q43",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "(b) NO2 X = Cl Br CH ONa3 S ArN NO2 OCH3 Br",
+    "difficulty": "Medium",
+    "questionText": "In the photo-electron emission, the energy of the emitted electron is",
     "options": [
-      "",
-      "NO2 X = Cl Br CH ONa3 S ArN NO2 OCH3 Br",
-      "",
-      ""
+      "greater than the incident photon",
+      "same as than of the incident photon",
+      "smaller than the incident photon",
+      "proportional to the intensity of incident photon"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 17.",
+    "explanation": "Correct answer is 'greater than the incident photon'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q20",
+    "id": "structure-of-atom-q44",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "(b) 22 IKCl2ClKI2 \u000eo\u000e ColourVioletCClI 42 o\u000e Note: The excess of Cl2 should be avoided. The layer may become colorless due to conversion of 32 HIOtoI HCl10HIO2OH6Cl5I 3222 \u000eo\u000e\u000e In case of Br2 : HCl2HBrO2ClOH2Br 222 \u000eo\u000e\u000e",
+    "questionText": "When a metal surface is exposed to solar radiations",
     "options": [
-      "",
-      "22 IKCl2ClKI2 \u000eo\u000e ColourVioletCClI 42 o\u000e Note: The excess of Cl2 should be avoided. The layer may become colorless due to conversion of 32 HIOtoI HCl10HIO2OH6Cl5I 3222 \u000eo\u000e\u000e In case of Br2 : HCl2HBrO2ClOH2Br 222 \u000eo\u000e\u000e",
-      "",
-      ""
+      "The emitted electrons have energy less than a maximum value of energy depending upon frequency of incident radiations",
+      "The emitted electrons have energy less than maximum value of energy depending upon intensity of incident radiation",
+      "The emitted electrons have zero energy",
+      "The emitted electrons have energy equal to energy of photons of incident light"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 20.",
+    "explanation": "Correct answer is 'The emitted electrons have energy less than a maximum value of energy depending upon frequency of incident radiations'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-4-q23",
+    "id": "structure-of-atom-q45",
     "subject": "Chemistry",
-    "chapter": "Mock Test 4",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "(b). (1) When the pH of rain water is below 5.6, it is called acid rain. (2) Ozone hole occurs over Antarctica mainly during September-October and it gets replenished in November-December. (3) Methylcyclohexane is not an ozone-depleting molecule. (4) BOD (Biological oxygen demand) is a measure of organic pollutant present in the sample of water. Higher is the value of BOD, higher is the level of organic pollution in water. The amount of oxygen (in mg/L) consumed for oxidising all organic and oxidisable inorganic material in a sample of water is called chemical oxygen demand (COD). COD is always larger than BOD.",
+    "difficulty": "Easy",
+    "questionText": "In photoelectric effect, at which frequency electron will be ejected with certain kinetic energy ( Q0 = threshold frequency).",
     "options": [
-      "",
-      ". (1) When the pH of rain water is below 5.6, it is called acid rain. (2) Ozone hole occurs over Antarctica mainly during September-October and it gets replenished in November-December. (3) Methylcyclohexane is not an ozone-depleting molecule. (4) BOD (Biological oxygen demand) is a measure of organic pollutant present in the sample of water. Higher is the value of BOD, higher is the level of organic pollution in water. The amount of oxygen (in mg/L) consumed for oxidising all organic and oxidisable inorganic material in a sample of water is called chemical oxygen demand (COD). COD is always larger than BOD.",
-      "",
-      ""
+      "Q > Q0",
+      "Q0 > Q",
+      "Q0 t Q",
+      "Q t Q0"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 4 Question 23.",
+    "explanation": "Correct answer is 'Q > Q0'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 4",
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q46",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "In c ontinous spectrum light of _(i)___ wavelength is deviated the ___ii",
+    "options": [
+      "(i) = longest, least",
+      "(ii) = shortest, least",
+      "(i) = shortest, most",
+      "(i) = longest, most"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i) = longest, least'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q47",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which of the following statements do not form a part of Bohr's model of hydrogen atom ?",
+    "options": [
+      "Energy of the electrons in the orbits are quantized",
+      "The electron(s) in the orbit nearest to the nucleus has the lowest energy",
+      "Electrons revolve in different orbits around the nucleus",
+      "The position and velocity of the electrons in the orbit cannot be determined simultaneously"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Energy of the electrons in the orbits are quantized'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q48",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "An electron from one Bohr stationary orbit can go to next higher orbit",
+    "options": [
+      "y emission of electromagnetic radiation",
+      "y absorption of any electromagnetic radiation",
+      "y absorption of electromagnetic radiation of particular frequency",
+      "without emission or absorption of electromagnetic radiation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'y emission of electromagnetic radiation'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q49",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "For a Bohr atom angular momentum M of the electron is (n = 0, 1, 2, .....) :",
+    "options": [
+      "S nh",
+      "4S nh",
+      "S nh",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '4S nh'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q50",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "A ccording to Bohr's theory , the angular momentum of an electron in 5th orbit is",
+    "options": [
+      "0/h S",
+      ". 5/h S",
+      ". 0/h S",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0/h S'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q51",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "In B ohr's model, atomic radius of the first orbit is y, the radius of the 3rd orbit, is",
+    "options": [
+      "y / 3",
+      "y",
+      "9 y",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'y / 3'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q52",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The radius of 1st Bohr's orbit for hydrogen atom is 'r'. The radius of second Bohr's orbit is",
+    "options": [
+      "r",
+      "r 3",
+      "r 2",
+      "r 1/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'r'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q53",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The third line of the Balmer series, in the emission spectrum of the hydrogen atom, is due to the transition from the",
+    "options": [
+      "fourth Bohr orbit to the first Bohr orbit",
+      "fifth Bohr orbit to the second Bohr orbit",
+      "sixth Bohr orbit to the third Bohr orbit",
+      "seventh Bohr orbit to the third Bohr orbit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'fourth Bohr orbit to the first Bohr orbit'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q54",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which one of the following pairs is not correctly matched ?",
+    "options": [
+      "Rutherford-Proton",
+      "J.J. Thomson-Electron",
+      "J.H. Chadwick-Neutron",
+      "ohr-Isotopes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Rutherford-Proton'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q55",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "If r is the radius of the first orbit, the radius of nth orbit of H-atom is given by",
+    "options": [
+      "rn2",
+      "rn",
+      "r/n",
+      "r2 n2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'rn2'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q56",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The radius of hydrogen atom in the ground state is 0.53 Å. The radius of Li2+ ion (atomic number = 3) in a similar state is",
+    "options": [
+      "0.17 Å",
+      "0.265 Å",
+      "0.53 Å",
+      ".06 Å"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.17 Å'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q57",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The energy of an electron in the nth Bohr orbit of hydrogen atom is (",
+    "options": [
+      "- 4 1 36 eV. n",
+      "- 3 13.6 eV n (",
+      "- 2 1 36 eV. n",
+      "- 13.6 eVn 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '- 4 1 36 eV. n'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q59",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "In a hydrogen atom, if energy of an electron in ground state is 13.6. eV , then that in the 2nd excited state is",
+    "options": [
+      ".51 eV",
+      ".4 eV",
+      "6.04 eV",
+      ".6 eV ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.51 eV'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q60",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The energy of an electron in second Bohr orbit of hydrogen atom is :",
+    "options": [
+      "-5.44 × 10⁻¹⁹ eV",
+      "-5.44 × 10⁻¹⁹ cal",
+      "-5.44 × 10⁻¹⁹ kJ",
+      "-5.44 × 10⁻¹⁹ J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '-5.44 × 10⁻¹⁹ eV'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q61",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The energy of electron in first energy level is 121079.21 u er g per atom. The energy of electron in second energy level i s:",
+    "options": [
+      "2 a tome rg1047.54 u",
+      "2 at omerg10447 . 5 u",
+      "2 at omerg10 05447 . 0 u",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '12 a tome rg1047.54 u'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q62",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Th e ionisation potential of a hydrogen atom is -13.6 eV . What will be the energy of the atom corresponding to n = 2.",
+    "options": [
+      "- 3.4 eV",
+      "- 6.8 eV",
+      "- 1.7 eV",
+      "-2.7 eV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '- 3.4 eV'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q63",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The line spectrum of He + ion will resemble that of",
+    "options": [
+      "hydrogen atom",
+      "Li + ion",
+      "helium atom",
+      "lithium atom"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'hydrogen atom'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q64",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "What does negative sign in the electronic energy for hydrogen atom convey.",
+    "options": [
+      "Energy of electron when n = f",
+      "The energy of electron in the atom is lower than the energy of a free electron in motion",
+      "The energy of electron in the atom is lower than the energy of a free electron of rest",
+      "The energy of electron decreases as it moves away from nucleus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Energy of electron when n = f'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q65",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "In which of the following Bohr's stationary state, the electron will be at maximum distance from the nucleus ?",
+    "options": [
+      "IInd",
+      "Ist",
+      "Vth",
+      "IIIrd EBD_7207"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'IInd'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q66",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The wavelength of the radiation emitted, when in a hydrogen atom electron falls from infinity to stationary state 1, would be (Rydberg constant = 1.097×107 m-1 )",
+    "options": [
+      "06 nm",
+      "92 nm",
+      "91 nm",
+      "9.1×10⁻⁸ nm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '06 nm'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q67",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The frequency of radiation emitted when the electron falls from n = 4 to n = 1 in a hydrogen atom will be (Given : ionization energy of H=2.18 ×10⁻¹⁸ J atom-1 and h = 6.625 × 10⁻³⁴ J s )",
+    "options": [
+      "5 s1054.1 u",
+      "5 s1003.1 u",
+      "5 s1008.3 u",
+      "5 s1000.2 u"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '15 s1054.1 u'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q68",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "W hi c h o f t h e f o l l o w i ng t r a n s i t i o ns o f e l e c t ro ns i n t h e hydrogen atom will emit maximum energy ?",
+    "options": [
+      "n5 o n4",
+      "n4 o n3",
+      "n3 o n2",
+      "ll will emit same energy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'n5 o n4'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q69",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The first emission line of hydrogen atomic spectrum in the Balmer series appears is (R = Rydberg constant)",
+    "options": [
+      "5 cm36 R",
+      "cm4 R",
+      "7 cm144 R",
+      "9 cm 400 R"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '5 cm36 R'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q70",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "According to the Bohr theory, which of the following transitions in the hydrogen atom will give rise to the least energetic photon ?",
+    "options": [
+      "n = 6 to n = 1",
+      "n = 5 to n = 4",
+      "n = 6 to n = 5",
+      "n = 5 to n = 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'n = 6 to n = 1'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q71",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The wavelength (in cm) of second line in the Lyman series of hydrogen atomic spectrum is (Rydberg constant = R cm-1 )",
+    "options": [
+      "8R 9 §· ¨¸©¹",
+      "9 8R §· ¨¸©¹",
+      "R §· ¨¸©¹",
+      "R 4 §· ¨¸©¹"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '8R 9 §· ¨¸©¹'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q72",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The shortest wavelength in hydrogen spectrum of Lyman series when RH = 109678 cm-1 is",
+    "options": [
+      "002.7Å",
+      "15.67Å",
+      "27.30Å",
+      "911.7Å"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '002.7Å'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q73",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "What is the expression of frequency ( Q) associated with absorption spectra of the photon.",
+    "options": [
+      "H if if R 11 nnh nn §· ¨¸Q ! ¨¸©¹",
+      "H fi i f R 1 1 nnhn n §· ¨¸Q ! ¨¸©¹",
+      "H fi if R 11 nnh nn §· ¨¸Q !¨¸©¹",
+      "ll the above are correct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '2 H if if R 11 nnh nn §· ¨¸Q ! ¨¸©¹'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q74",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Bohr model can explain :",
+    "options": [
+      "the solar spectrum",
+      "the spectrum of hydrogen molecule",
+      "spectrum of any atom or ion containing one electron only",
+      "the spectrum of hydrogen atom only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'the solar spectrum'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q75",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements do not form a part of Bohr's model of hydrogen atom ?",
+    "options": [
+      "Energy of the electrons in the orbits are quantized",
+      "The electron in the orbit nearest the nucleus has the lowest energy",
+      "Electrons revolve in different orbits around the nucleus",
+      "The position and velocity of the electrons in the orbit cannot be determined simultaneously ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Energy of the electrons in the orbits are quantized'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q76",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Bohr's theory can be applied to which of the following ions.",
+    "options": [
+      "Na +",
+      "e 2+",
+      "Li +",
+      "Li 2+"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Na +'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q77",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Bohr's model is not able to account for which of the following.",
+    "options": [
+      "Stability of atom.",
+      "Spectrum of neutral helium atom.",
+      "Energy of free electron at rest.",
+      "lculation of radii of the stationary states."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Stability of atom.'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q78",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "If electron, hydrogen, helium and neon nuclei are all moving with the velocity of light, then the wavelength associated with these particles are in the order",
+    "options": [
+      "Electron > hydrogen > helium > neon",
+      "Electron > helium > hydrogen > neon",
+      "Electron < hydrogen < helium < neon",
+      "Neon < hydrogen < helium < electron"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Electron > hydrogen > helium > neon'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q79",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The de Broglie wavelength of a tennis ball of mass 60 g moving with a velocity of 10 metres per second is approximately",
+    "options": [
+      "0⁻³¹ metres",
+      "0⁻¹⁶ metres",
+      "0⁻²⁵ metres",
+      "0⁻³³ metres Planck's constant, h = 6.63 × 10⁻³⁴ Js"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0⁻³¹ metres'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q80",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "If the energy difference between the ground state of an atom and its excited state is 4.4 × 10⁻⁴ J, the wavelength of photon required to produce the transition :",
+    "options": [
+      ".26 × 10⁻¹² m",
+      ".13 × 10⁻¹² m",
+      ".52 × 10⁻¹⁶ m",
+      ".52 × 10⁻¹² m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '.26 × 10⁻¹² m'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q81",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The mass of a photon with a wavelength equal to 1.54 × 10⁻⁸ cm is",
+    "options": [
+      "0.8268 × 10⁻³⁴ kg",
+      ".2876 × 10⁻³³ kg",
+      ".4285 × 10⁻³² kg",
+      ".8884 × 10⁻³² kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.8268 × 10⁻³⁴ kg'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q82",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "If the Planck's constant h = 6.6×10⁻³⁴ Js, the de Broglie wavelength of a particle having momentum of 3.3 × 10⁻²⁴ kg ms -1 will be",
+    "options": [
+      "0.002 Å",
+      "0.5Å",
+      "Å",
+      "500Å"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '0.002 Å'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q83",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "T he v alue s o f Planc k's c o nstant is 6.63 × 10⁻³⁴ Js. The velocity of light is 3.0 × 108 m s⁻¹ . Which value is closest to the wavelength in nanometres of a quantum of light with frequency of 8 × 1015 s⁻¹ ?",
+    "options": [
+      "5 × 10⁻¹⁸",
+      "× 10¹",
+      "× 10⁷",
+      "× 10⁻²⁵"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '5 × 10⁻¹⁸'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
@@ -2240,442 +3794,946 @@ export const CHEMISTRY_MOCK_TEST_4_QUESTIONS: Question[] = [
 
 export const CHEMISTRY_MOCK_TEST_5_QUESTIONS: Question[] = [
   {
-    "id": "mock-test-5-q1",
+    "id": "structure-of-atom-q99",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
-    "topic": "Comprehensive Test",
-    "difficulty": "Medium",
-    "questionText": "An atom X belongs to 4th period of the periodic table and has highest number of unpaired electrons in comparison to the other elements of the period. The atomic number of X is",
-    "options": [
-      "23",
-      "25",
-      "24",
-      "33"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 1.",
-    "tags": [
-      "Mock Test 5",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-5-q2",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 5",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "In 2O\u0010, 0 2O and 2 2O \u0010 molecular species, the total number of antibonding electrons respectively are :",
-    "options": [
-      "7, 6, 8",
-      "1, 0, 2",
-      "6, 6, 6",
-      "8, 6, 8"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 2.",
-    "tags": [
-      "Mock Test 5",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-5-q3",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Aluminothermy used for on the spot welding of large iron structure is based on the fact that-",
+    "questionText": "Which of the following sets of quantum numbers represents the highest energy of an atom?",
     "options": [
-      "As compared to iron, aluminium has greater affinity for oxygen.",
-      "As compared to aluminium, iron has greater affinity for oxygen.",
-      "Reaction between aluminium and oxygen is endothermic.",
-      "Reaction between iron and oxygen is endothermic."
+      "n = 3, l = 0, m = 0, s = +1/2",
+      "n = 3, l = 1, m = 1, s = +1/2",
+      "n = 3, l = 2, m = 1, s = +1/2",
+      "n = 4, l = 0, m = 0, s = +1/2"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 3.",
+    "explanation": "Correct answer is 'n = 3, l = 0, m = 0, s = +1/2'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q4",
+    "id": "structure-of-atom-q100",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Which of the following shows the tendency to form peroxide?",
+    "questionText": "Which set of quantum numbers are not possible? n l m s (",
     "options": [
-      "Lithium",
-      "Magnesium",
-      "Beryllium",
-      "Radium"
+      "0 +1/2",
+      "1 +1/2 (",
+      "0 0 -1/2",
+      "-2 +1/2"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 4.",
+    "explanation": "Correct answer is '2 0 +1/2'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q5",
+    "id": "structure-of-atom-q101",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "A 1.0 M solution with respect to each of the metal halides 3AX , 2BX , 3CX and 2DX is electrolysed using platinum electrodes. If 3+A /AE\u00b0 = 1.50 V , 2+B /BE\u00b0 = 0.3 V ,V, 3+C /CE\u00b0 = - 0. 74 V , 2+D /DE\u00b0 = - 2.37 V .V. The correct sequence in which the various metals are deposited at the cathode is",
+    "questionText": "What will be the sum of all possible values of l and m for n = 5 ?",
     "options": [
-      "A, B, C, D",
-      "A, B, C",
-      "D, C, B, A",
-      "C, B, A"
+      "9",
+      "None of the above",
+      "Both of these",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 5.",
+    "explanation": "Correct answer is '2'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q6",
+    "id": "structure-of-atom-q102",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "Arrange hypophosphorous acid (H 3PO2), phosphorous acid (H 3PO3) and Phosphoric acid (H 3PO4) in the decreasing order of acidic strength ( a )H 3PO3 > H3PO4 > H3PO2 (b) H 3PO4 > H3PO3 > H3PO2 ( c )H 3PO4 > H3PO2 > H3PO3 (d) H 3PO4 | H3PO3 | H3PO2",
+    "questionText": "The following quantum numbers are possible for how many orbital(s) n = 3, l = 2, m = +2 ? (",
     "options": [
-      "",
-      "H 3PO4 > H3PO3 > H3PO2 ( c )H 3PO4 > H3PO2 > H3PO3",
-      "",
-      "H 3PO4 | H3PO3 | H3PO2"
+      "(",
+      "Increases",
+      "ecreases",
+      "Remains constant"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 6.",
+    "explanation": "Correct answer is '('. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q7",
+    "id": "structure-of-atom-q103",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Which of the following reactions corresponds to the definition of enthalpy of formation ?",
+    "questionText": "The orbitals are called degenerate when",
     "options": [
-      "C(diamond) + O 2(g) o CO2(g)",
-      "C(graphite) + O 2(l) o CO2(g)",
-      "C(graphite) + O 2(g) o CO2(g)",
-      "C(g) + O 2(g) o CO2(g)"
+      "they have the same wave functions",
+      "they have the same wave functions but different energies",
+      "they have different wave functions but same energy",
+      "they have the same energy EBD_7207"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 7.",
+    "explanation": "Correct answer is 'they have the same wave functions'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q8",
+    "id": "structure-of-atom-q104",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Among the reactions given below for B2H6, the one which does not take place is ( a )B 2H6 + HCl \u007f \u007fo B2H5Cl + H2 (b) 2B 2H6 + 6NH3 '\u007f \u007fo B3N3H6 (borazine) ( c )B 2H6 + 2N(CH3)3 \u007f \u007fo 2(CH3)3 NBH3 (d) B 2H6 + 6C2H4 HO3 \u000e \u007f\u007f\u007fo 3C2H5OH + 2B(OH)3",
+    "questionText": "The number of spherical nodes in 3p orbitals are (",
     "options": [
-      "",
-      "2B 2H6 + 6NH3 '\u007f \u007fo B3N3H6 (borazine) ( c )B 2H6 + 2N(CH3)3 \u007f \u007fo 2(CH3)3 NBH3",
-      "",
-      "B 2H6 + 6C2H4 HO3 \u000e \u007f\u007f\u007fo 3C2H5OH + 2B(OH)3"
+      "one",
+      "three",
+      "two",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 8.",
+    "explanation": "Correct answer is 'one'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q9",
+    "id": "structure-of-atom-q105",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The pure crystalline substance on being heated gradually first forms a turbid liquid at constant temperature and still at higher temperature turbidity completely disappears. The behaviour is a characteristic of substance forming.",
+    "questionText": "Which of the following graph correspond to one node",
     "options": [
-      "Allotropic crystals",
-      "Liquid crystals",
-      "Isomeric crystals",
-      "Isomorphous crystals."
+      "0 <",
+      "0 <",
+      "0 <",
+      "0 <"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 9.",
+    "explanation": "Correct answer is '0 <'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q10",
+    "id": "structure-of-atom-q106",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "Silver bromide when dissolve in hypo solution gives complex ..... in which oxidation state of silver is ....",
+    "questionText": "If there are five radial nodes, then what can be the correct representation of the orbital for n = 8.",
     "options": [
-      "Na 3[Ag(S2O3)2], (I)",
-      "Na 3[Ag(S2O3)3], (III)",
-      "Na 3[Ag(S2O3)2], (II)",
-      "Na 3[Ag(S2O3)4], (I)"
+      "8d",
+      "8s",
+      "8p",
+      "8f"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 10.",
+    "explanation": "Correct answer is '8d'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q11",
+    "id": "structure-of-atom-q107",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Which of the following can be termed as a mixed complex? ( a )K 4 [Fe(CN)6] (b) [Cu(NH 3)4] SO4 (c) [Co(NH 3)4NO2Cl] Cl (d) K 2FeO4",
+    "questionText": "What can be the representation of the orbital having 3 angular nodes and n = 5.",
     "options": [
-      "",
-      "[Cu(NH 3)4] SO4",
-      "[Co(NH 3)4NO2Cl] Cl",
-      "K 2FeO4"
+      "5d",
+      "5f",
+      "5p",
+      "5s"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 11.",
+    "explanation": "Correct answer is '5d'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q12",
+    "id": "structure-of-atom-q108",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "The relationship between the values of osmotic pressures of solutions obtained by dissolving 6.00 g L-1 of CH3COOH (S1) and 7.45 g L-1 of KCl (S2) is",
+    "questionText": "The number of orbitals present in the fifth shell will be",
     "options": [
-      "21 S\u001fS",
-      "21 S!S",
-      "21 S S",
-      "21 2 21 1 S\u000eS S S\u000eS S"
+      "5",
+      "0",
+      "50",
+      "0"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 12.",
+    "explanation": "Correct answer is '5'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q13",
+    "id": "structure-of-atom-q109",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "In the reaction of 4KMnO with an oxalate in acidic medium, \u0010 4MnO is reduced to \u000e2Mn and \u00102 42OC is oxidised to CO2. Hence, 50 ml of 0.02 M 4KMnO is equivalent to",
+    "questionText": "Arrange the orbital of same shell in the increasing order of shielding strength of the outer shell of electrons. s, f, d, p",
     "options": [
-      "100 ml of 0.05 M 422 OCH",
-      "50 ml of 0.05 M 422 OCH",
-      "25 ml of 0.2 M 422 OCH",
-      "50 ml of 0.10 M 422 OCH"
+      "s < p < d < f",
+      "s > p < d < f",
+      "s > p > d < f",
+      "s > p > d > f"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 13.",
+    "explanation": "Correct answer is 's < p < d < f'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q27",
+    "id": "structure-of-atom-q110",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Which of the following is not correct for electronic distribution in the ground state ?",
+    "options": [
+      "o [Ar]",
+      "Ni [Ar]",
+      "u [Ar]",
+      "ll of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'o [Ar]'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q111",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "An organic amino compound reacts with aqueous nitrous acid at low temperature to produce an oily nitrosoamine. The compound is:",
+    "questionText": "The electronic configuration of gadolinium (Atomic number 64) is",
     "options": [
-      "CH 3 NH2",
-      "CH 3CH2NH2",
-      "CH 3CH2NH.CH2CH3",
-      "(CH 3 CH2)3N"
+      "[Xe] 4 f 8 5d0 6s2",
+      "[Xe] 4 f 3 5d5 6s2",
+      "[Xe] 4 f 6 5d2 6s2",
+      "[Xe] 4 f 7 5d1 6s2"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 27.",
+    "explanation": "Correct answer is '[Xe] 4 f 8 5d0 6s2'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q28",
+    "id": "structure-of-atom-q112",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "The standard reduction potential of Li+/Li, Ba2+/Ba, Na+/Na and Mg2+/Mg are -3.05, -2.73, - 2.71 and -2.37 volts respectively . Which one of the following is strongest oxidising agent?",
+    "questionText": "The order of filling of electrons in the orbitals of an atom will be (",
     "options": [
-      "Na +",
-      "Li +",
-      "Ba 2+",
-      "Mg 2+"
+      ", 4s, 4p, 4d, 5s",
+      "s, 3d, 4p, 5s, 4d (",
+      "5 s, 4p, 3d, 4d, 5s",
+      ", 4p, 4s, 4d, 5s"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 28.",
+    "explanation": "Correct answer is 'd, 4s, 4p, 4d, 5s'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q29",
+    "id": "structure-of-atom-q113",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "Phospholipids are esters of glycerol with",
+    "questionText": "The number of d-electrons retained in Fe2+ (At. no. of Fe = 26) ion is (",
     "options": [
-      "two carboxylic acid residues and one phosphate group",
-      "one carboxylic acid residue and two phosphate groups",
-      "three phosphate groups",
-      "three carboxylic acid residues"
+      "5 (",
+      "6",
+      "oth of these",
+      "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 29.",
+    "explanation": "Correct answer is '5 ('. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q30",
+    "id": "structure-of-atom-q114",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Easy",
-    "questionText": "CN{ + C H MgBr65 3HOEther A Ba \u000e \u007f \u007f \u007f o \u007f \u007f \u007f \u007fo",
+    "questionText": "The electronic configuration of an element is 1s2, 2s2 2p6, 3s2 3p6 3d5, 4s1. This represents its",
     "options": [
-      "C O",
-      "C N-MgBr",
-      "C N-H",
-      "C N-OH"
+      "excited state",
+      "ground state",
+      "tionic form",
+      "nionic form"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 30.",
+    "explanation": "Correct answer is 'excited state'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q20",
+    "id": "structure-of-atom-q115",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
-    "topic": "Comprehensive Test",
-    "difficulty": "Hard",
-    "questionText": "(b) 2NaI + 2 2NaNO + 4 COOHCH3 \u007fo\u007f 2I + 2NO + 4 COONaCH3 + 2 OH2 The colour of CCl4 layer turns purple due to liberated I2.",
-    "options": [
-      "",
-      "2NaI + 2 2NaNO + 4 COOHCH3 \u007fo\u007f 2I + 2NO + 4 COONaCH3 + 2 OH2 The colour of CCl4 layer turns purple due to liberated I2.",
-      "",
-      ""
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 20.",
-    "tags": [
-      "Mock Test 5",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-5-q21",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 5",
-    "topic": "Comprehensive Test",
-    "difficulty": "Easy",
-    "questionText": "(b) For bcc lattice, number of atoms per unit cell = 2 Now 3 8 3 23 o n M 2 100d a N (4 10 cm) 6.02 10\u0010 uu  u u uu = 200/38.528 = 5.19 g/cc",
-    "options": [
-      "",
-      "For bcc lattice, number of atoms per unit cell = 2 Now 3 8 3 23 o n M 2 100d a N (4 10 cm) 6.02 10\u0010 uu  u u uu = 200/38.528 = 5.19 g/cc",
-      "",
-      ""
-    ],
-    "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 21.",
-    "tags": [
-      "Mock Test 5",
-      "NEET Chemistry",
-      "NCERT"
-    ]
-  },
-  {
-    "id": "mock-test-5-q22",
-    "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Medium",
-    "questionText": "(b) Entiomers of C 4H10O are | || 32 3 3 23 | H OH HO H CH C C CH H C C CH CH H \u0010\u0010 \u0010\u0010 \u007f\u007f\u007f o\u007f\u0010\u0010 4SO2H A 3 | 23 CHH OH CCHCH )C(Minor 322 )B(Major 33 CHCHCHCHCHCHCHCH \u000e\u0010",
+    "questionText": "Number of unpaired electrons in N₂+ is (",
     "options": [
-      "",
-      "Entiomers of C 4H10O are | || 32 3 3 23 | H OH HO H CH C C CH H C C CH CH H \u0010\u0010 \u0010\u0010 \u007f\u007f\u007f o\u007f\u0010\u0010 4SO2H A 3 | 23 CHH OH CCHCH )C(Minor 322 )B(Major 33 CHCHCHCHCHCHCHCH \u000e\u0010",
-      "",
-      ""
+      "0 (",
+      "Increases",
+      "ecreases",
+      "Remains constant"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 22.",
+    "explanation": "Correct answer is '0 ('. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]
   },
   {
-    "id": "mock-test-5-q23",
+    "id": "structure-of-atom-q116",
     "subject": "Chemistry",
-    "chapter": "Mock Test 5",
+    "chapter": "Structure of Atom",
     "topic": "Comprehensive Test",
     "difficulty": "Hard",
-    "questionText": "(b) In general 1/2t of reaction v n1 0 1 ( a) \u0010 For a second order reaction, 1/2 n1 00 1 11t 10min K(a ) 0.5 0.2K ( a) \u0010 u",
+    "questionText": "An ion has 18 electrons in the outermost shell, it is",
     "options": [
-      "",
-      "In general 1/2t of reaction v n1 0 1 ( a) \u0010 For a second order reaction, 1/2 n1 00 1 11t 10min K(a ) 0.5 0.2K ( a) \u0010 u",
-      "",
-      ""
+      "u +",
+      "Th 4+",
+      "s +",
+      "K +"
     ],
     "correctAnswer": 0,
-    "explanation": "Detailed solution for Mock Test 5 Question 23.",
+    "explanation": "Correct answer is 'u +'. Follows standard NCERT chemical principles for Structure of Atom.",
     "tags": [
-      "Mock Test 5",
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q117",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "In a given atom no two electrons can have the same values for all the four quantum numbers. This is called",
+    "options": [
+      "Hund's Rule",
+      "ufbau principle",
+      "Uncertainty principle",
+      "Pauli's exclusion principle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Hund's Rule'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q118",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The electronic configuration of Cu (atomic number 29) is",
+    "options": [
+      "6 26 291, 22 , 33 , 43s s p s p sd",
+      "626 1 011 ,2 2 ,3 3 3 ,4s s p s p ds",
+      "6 26262 11, 22 , 3 3 , 44 , 55s sp pp sp sp",
+      "6 2 62 6 31, 22 , 3 3 , 44 3s s p p p s pd"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '2 6 26 291, 22 , 33 , 43s s p s p sd'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q119",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The orbital diagram in which the Aufbau principle is violated is : 2s 2p",
+    "options": [
+      "np nnp",
+      "n nnnp",
+      "np nnn",
+      "np nnnp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'np nnp'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q120",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "If n = 6, the correct sequence for filling of electrons will be :",
+    "options": [
+      "ns o\u0003(n - 2) f o (n - 1) d o np",
+      "ns o\u0003(n - 1) d o (n - 2) f o np",
+      "ns o\u0003(n - 2) f o np o\u0003(n - 1) d",
+      "ns o np (n - 1) d o\u0003(n - 2) f"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'ns o\u0003(n - 2) f o (n - 1) d o np'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q121",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Maximum number of electrons in a subshell of an atom is determined by the following:",
+    "options": [
+      "l + 1",
+      "l - 2",
+      "n 2",
+      "l + 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'l + 1'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q122",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "The correct order of increasing energy of atomic orbitals is",
+    "options": [
+      "5 p < 4 f < 6 s < 5 d",
+      "5 p < 6 s < 4 f < 5 d",
+      "5 p < 5 d < 4 f < 6 s",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '5 p < 4 f < 6 s < 5 d'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q123",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "For which element, the valence electron will be present in the highest energy orbital.",
+    "options": [
+      "Li",
+      "6S",
+      "0Ca",
+      "Sc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Li'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q125",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "On the basis of figure given below which of the following statement(s) is/are correct ? Magnet AnodeCathode - Fluorescent screen + (i) At point B, when only electric field is applied. (ii) At point C, when both electric and magnetic field is applied. (iii) At point B, when both electric and magnetic fields are balanced. (iv) At point C, when only magnetic field is applied. Which of the following is/are correct?",
+    "options": [
+      "(i) and (ii)",
+      "only (iii)",
+      "(iii) and (iv)",
+      "(i) and (iii)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i) and (ii)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q126",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements are not correct about electromagnetic radiation ? (i) Electromagnetic waves require medium to travel. (ii) Different electromagnetic radiations travel at same speed in vaccum. (iii) The oscillating electric and magnetic fields produced by oscillating charged particles are perpendicular to each other, but not to the direction of propagation. (iv) The oscillating electric field and magnetic field are perpendicular to each other, and also to the direction of propagation.",
+    "options": [
+      "(i), (ii) and (iii)",
+      "(ii) and (iii)",
+      "(i) and (iii)",
+      "(i) and (iv)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i), (ii) and (iii)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q127",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which of the following statement(s) is/are incorrect regarding photoelectric effect? (i) The number of electrons ejected is proportional to the intensity of light. (ii) There is some time lag between the striking of light beam on the metal surface and the ejection of electrons. (iii) The kinetic energy of ejected electrons depends upon the brightness of light. (iv) The kinetic energy of the ejected electron is proportional to the frequency of the incident radiation.",
+    "options": [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(ii) only",
+      "(ii) and (iv)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i) and (ii)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q128",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "For Balmer series in the spectrum of atomic hydrogen, the wave number of each line is given by H 22 12 11R- nn §· ¨¸©¹ v where RH is a constant and n1 and n2 are integers. Which of the following statement(s) is (are) correct? (i) As wavelength decreases, the lines in the series converge. (ii) The integer n 1 is equal to 2. (iii) The ionization energy of hydrogen can be calculated from the wave number of these lines. (iv) The line of longest wavelength corresponds to n2 = 3.",
+    "options": [
+      "(i), (ii) and (iii)",
+      "(ii), (iii) and (iv)",
+      "(i), (i) and (iv)",
+      "(ii) and (iv)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i), (ii) and (iii)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q129",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements of quantum mechanics was in agreement with Bohr's model? (i) The path of an electron in an atom can never be determined accurately. (ii) The energy of electrons in atom is quantized i.e., can only have specific values. (iii) An orbital cannot contain more than two electrons.",
+    "options": [
+      "Only (i)",
+      "(i) and (ii)",
+      "Only (ii)",
+      "(ii) and (iii)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Only (i)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q130",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which of the following statements concerning the quantum numbers are correct ? ( i) Angular quantum number determines the three- dimensional shape of the orbital. ( ii) The principal quantum number determines the orientation and energy of the orbital. (iii) Magnetic quantum number determines the size of the orbital. (iv) Spin quantum number of an electron determines the orientation of the spin of electron relative to the chosen axis. The correct set of option is",
+    "options": [
+      "(i) and (ii)",
+      "(i) and (iv)",
+      "(iii) and (iv)",
+      "(ii), (iii) and (iv) EBD_7207"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(i) and (ii)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q131",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Match the columns. Column-I Column-II (A) 1 23H, H and ¹H 11 (p) Isobars (B) 14 6C and 14 7 N (q) Isotopes (C) Na + a nd M g2+ (r) Isoelectronic species",
+    "options": [
+      "A - (p), B - (q), C - (r)",
+      "A - (q), B - (p), C - (r)",
+      "A - (r), B - (q), C - (p)",
+      "A - (p), B - (r), C - (q)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '- (p), B - (q), C - (r)'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q132",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Match the columns. Column-I Column-II",
+    "options": [
+      "X-rays (p) v = 100 - 104 Hz",
+      "UV (q) v = 1010 Hz",
+      "Long radio waves (r) v = 1016 Hz",
+      "Microwave (s) v = 1018 Hz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'X-rays (p) v = 100 - 104 Hz'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q133",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Match the columns. Column-I Column-II",
+    "options": [
+      "< (p) Energy can be emitted or absorbed in packets",
+      "e Brolie (q) Significant only for motion of microscopic objects.",
+      "Heisenberg (r) The probability of finding an electron at a point within an atom",
+      "Planck's (s) Every object in motion has a wave character."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '< (p) Energy can be emitted or absorbed in packets'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q134",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "Match the columns. Column-I Column-II (Quantum number) (Information provided)",
+    "options": [
+      "Principal (p) orientation of the orbital quantum number",
+      "zimuthal (q) energy and size of orbital quantum number",
+      "Magnetic (r) spin of electron quantum number",
+      "Spin quantum (s) shape of the orbital number"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'Principal (p) orientation of the orbital quantum number'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q135",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Match the columns. Column-I Column-II Column-III (Sub shell) (Number of (Angular/Azimuthal orbitals) Quantum Number) (",
+    "options": [
+      "(p) 1 ( i )1",
+      "f (q) 3 ( i i )2",
+      "s ( r )5 (iii) 0 (",
+      "p ( s )7 ( i v )3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '(p) 1 ( i )1'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q136",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Match the columns. Column-I Column-II",
+    "options": [
+      "xyd (p) z xy",
+      "xy (q) z xy",
+      "yz (r) z x y",
+      "zd (s) z x y"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is '2xyd (p) z xy'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q138",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Match the columns. Column-I Column-II (Atom / Ion) (Electronic configuration)",
+    "options": [
+      "u (p) 1s 2 2s2 2p6 3s2 3p6 3d10",
+      "u 2+ (q) 1s 2 2s2 2p6 3s2 3p6 3d10 4s2",
+      "Zn 2+ (r) 1s 2 2s2 2p6 3s2 3p6 3d10 4s1",
+      "r 3+ (s) 1s 2 2s2 2p6 3s2 3p6 3d9 (t) 1s 2 2s2 2p6 3s2 3p6 3d3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'u (p) 1s 2 2s2 2p6 3s2 3p6 3d10'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q144",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "What is the ratio of mass of an electron to the mass of a proton?",
+    "options": [
+      ": 2",
+      ": 1",
+      ": 1837",
+      ": 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is ': 2'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q145",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "The increasing order for the values of e/m (charge/mass) is",
+    "options": [
+      "e, p, n, D",
+      "n, p, e, D",
+      "n, p, D, e",
+      "n, D, p, e"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'e, p, n, D'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q146",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "In which of the following the amount of deviation from their path in the presence of electric and magnetic field will be maximum? (",
+    "options": [
+      "N₂-",
+      "N 3- (",
+      "N -",
+      "N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'N₂-'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q147",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "The deflection of the particles from their path in presence of electric and magnetic field will be maximum in which of the following. (",
+    "options": [
+      "O",
+      "N (",
+      "U",
+      "He"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'O'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q148",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Medium",
+    "questionText": "Which of the following pairs have identical values of e/m?",
+    "options": [
+      "proton and a neutron",
+      "proton and deuterium",
+      "euterium and an D-particle",
+      "n electron and J-rays"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'proton and a neutron'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q149",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Hard",
+    "questionText": "If the alpha-particles are projected against the following atoms Fe, Be, Mg, Al then increasing order in which the alpha-particle feel repulsion will be",
+    "options": [
+      "e, Mg, Al, Fe",
+      "e, Al, Mg, Fe",
+      "Mg, Al, Mg, Fe",
+      "l, Mg, Fe, Be"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is 'e, Mg, Al, Fe'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
+      "NEET Chemistry",
+      "NCERT"
+    ]
+  },
+  {
+    "id": "structure-of-atom-q150",
+    "subject": "Chemistry",
+    "chapter": "Structure of Atom",
+    "topic": "Comprehensive Test",
+    "difficulty": "Easy",
+    "questionText": "Chlorine exists in two isotopic forms, C1-37 and C1-35 but its atomic mass is 35.5. This indicates the ratio of C1-37 and C1-35 is approximately",
+    "options": [
+      ": 2",
+      ": 1",
+      ": 3",
+      ": 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct answer is ': 2'. Follows standard NCERT chemical principles for Structure of Atom.",
+    "tags": [
+      "Structure of Atom",
       "NEET Chemistry",
       "NCERT"
     ]

@@ -1,0 +1,947 @@
+[
+  {
+    "id": "motion-2d-q1",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A projectile is thrown with speed u at an angle θ with the horizontal. Its speed at the highest point of trajectory is",
+    "options": [
+      "Zero",
+      "u cos θ",
+      "u sin θ",
+      "u tan θ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the highest point of projectile motion, the vertical component of velocity becomes zero (v_y = 0), while the horizontal component remains constant: v = v_x = u cos θ.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q2",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "For a given velocity of projection, the horizontal range is maximum when the angle of projection is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horizontal range R = (u² sin 2θ) / g. R is maximum when sin 2θ = 1 => 2θ = 90° => θ = 45°.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q3",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "The horizontal ranges of a projectile projected at angles θ and (90° - θ) with the same initial speed are in the ratio",
+    "options": [
+      "1 : 1",
+      "1 : 2",
+      "2 : 1",
+      "tan θ : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Range for angle θ is R₁ = (u² sin 2θ)/g. For (90° - θ), R₂ = [u² sin(180° - 2θ)]/g = (u² sin 2θ)/g = R₁. Ratio is 1 : 1.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q4",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "A ball is projected with kinetic energy E at an angle of 45° to the horizontal. At the highest point during its flight, its kinetic energy will be",
+    "options": [
+      "Zero",
+      "E / 2",
+      "E / √2",
+      "E"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Initial kinetic energy E = (1/2)mu². At highest point, speed is v = u cos 45° = u/√2. Kinetic energy E' = (1/2)m(u/√2)² = (1/2)((1/2)mu²) = E/2.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q5",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "The maximum height attained by a projectile is given by the formula",
+    "options": [
+      "u² sin²θ / (2g)",
+      "u² sin 2θ / g",
+      "u² cos²θ / (2g)",
+      "2u sin θ / g"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From kinematics v_y² - u_y² = -2gH => 0 - (u sin θ)² = -2gH => H = (u² sin²θ) / (2g).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q6",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The total time of flight of a projectile on level ground is",
+    "options": [
+      "u sin θ / g",
+      "2u sin θ / g",
+      "u cos θ / g",
+      "2u cos θ / g"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time to reach highest point is t = (u sin θ)/g. Total time of flight T = 2t = (2u sin θ)/g.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q7",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "If the horizontal range of a projectile is 4√3 times its maximum height, the angle of projection is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R = 4H cot θ. Given R = 4√3 H, we have 4H cot θ = 4√3 H => cot θ = √3 => θ = 30°.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q8",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The equation of trajectory of a projectile is y = √3 x - (g x²)/2. The angle of projection is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comparing with standard trajectory equation y = x tan θ - (g x²)/(2u² cos²θ), tan θ = √3 => θ = 60°.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q9",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A particle moves in a circle of radius 20 cm with a linear speed of 10 m/s. Its centripetal acceleration is",
+    "options": [
+      "25 m/s²",
+      "50 m/s²",
+      "250 m/s²",
+      "500 m/s²"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Centripetal acceleration a_c = v² / r = 10² / 0.20 = 100 / 0.20 = 500 m/s².",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q10",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "In uniform circular motion, which of the following physical quantities remains constant?",
+    "options": [
+      "Velocity",
+      "Acceleration",
+      "Kinetic energy",
+      "Momentum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In uniform circular motion, speed is constant so kinetic energy K = (1/2)mv² is constant. Velocity, acceleration, and momentum continuously change direction.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q11",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A body of mass 0.5 kg is whirled in a horizontal circle of radius 1 m with angular velocity 2 rad/s. The centripetal force is",
+    "options": [
+      "1 N",
+      "2 N",
+      "4 N",
+      "8 N"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Centripetal force F = m ω² r = 0.5 × 2² × 1 = 0.5 × 4 = 2 N.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q12",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The optimum banking angle θ for a curved road of radius r designed for speed v is given by",
+    "options": [
+      "tan θ = v² / (rg)",
+      "tan θ = rg / v²",
+      "sin θ = v² / (rg)",
+      "cos θ = v² / (rg)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For safe negotiation without friction: N sin θ = mv²/r and N cos θ = mg => tan θ = v² / (rg).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q13",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A car rounds an unbanked circular curve of radius 100 m at speed 10 m/s. The minimum coefficient of static friction required to prevent skidding is (g = 10 m/s²)",
+    "options": [
+      "0.05",
+      "0.10",
+      "0.20",
+      "0.25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "μ_s ≥ v² / (rg) = 10² / (100 × 10) = 100 / 1000 = 0.10.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q14",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "A river flows east with a speed of 3 m/s. A swimmer can swim in still water at 4 m/s. If he swims due north across the river, his resultant velocity is",
+    "options": [
+      "1 m/s",
+      "5 m/s at 37° East of North",
+      "7 m/s",
+      "5 m/s at 53° East of North"
+    ],
+    "correctAnswer": 1,
+    "explanation": "v_resultant = √(v_swimmer² + v_river²) = √(4² + 3²) = 5 m/s. Direction tan α = v_river / v_swimmer = 3/4 => α = 37° East of North.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q15",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "To cross a river of width d flowing with velocity v_r in the shortest path, a swimmer (speed v_s in still water, v_s > v_r) must head at an angle θ with upstream where",
+    "options": [
+      "sin θ = v_r / v_s",
+      "cos θ = v_r / v_s",
+      "tan θ = v_r / v_s",
+      "sin θ = v_s / v_r"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For shortest path (straight across), the horizontal component must cancel river flow: v_s sin θ = v_r => sin θ = v_r / v_s with the normal upstream.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q16",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "An object is projected horizontally from the top of a tower of height 80 m with speed 20 m/s. The time taken to hit the ground is (g = 10 m/s²)",
+    "options": [
+      "2 s",
+      "4 s",
+      "6 s",
+      "8 s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vertical motion is purely free fall: h = (1/2)gt² => 80 = (1/2)(10)t² = 5t² => t² = 16 => t = 4 s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q17",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "In the above problem, the horizontal distance (range) from the base of the tower where the object lands is",
+    "options": [
+      "40 m",
+      "80 m",
+      "100 m",
+      "160 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horizontal distance x = u_x × t = 20 m/s × 4 s = 80 m.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q18",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The angle of elevation of a projectile at its highest point as seen from the point of projection is given by",
+    "options": [
+      "tan φ = (1/2) tan θ",
+      "tan φ = 2 tan θ",
+      "tan φ = tan θ",
+      "tan φ = (1/4) tan θ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From point of projection, coordinates of peak are (R/2, H). tan φ = H / (R/2) = 2H / R. Since R = 4H cot θ, 2H / R = 2H / (4H cot θ) = (1/2) tan θ.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q19",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A stone is dropped from a moving train. The path of the stone as observed by an observer on the ground is",
+    "options": [
+      "A straight line",
+      "A parabola",
+      "A circle",
+      "A hyperbola"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The stone has initial horizontal velocity equal to the train's speed and undergoes vertical acceleration due to gravity, resulting in a parabolic trajectory w.r.t the ground.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q20",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "Two bullets are fired simultaneously, horizontally and with different speeds from the same height. Which bullet will hit the ground first?",
+    "options": [
+      "The faster one",
+      "The slower one",
+      "Both will reach the ground simultaneously",
+      "Depends on masses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since initial vertical velocities are both zero (u_y = 0) and vertical acceleration is g for both, the time of descent t = √(2h/g) is identical for both.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q21",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "If T is the total time of flight and H is the maximum height of a projectile, then g T² is equal to",
+    "options": [
+      "2H",
+      "4H",
+      "8H",
+      "16H"
+    ],
+    "correctAnswer": 2,
+    "explanation": "T = (2u sin θ)/g => T² = 4u² sin²θ / g². H = (u² sin²θ)/(2g). Therefore g T² = 4(2H) = 8H.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q22",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The angular displacement of a fly wheel varies with time as θ = 2t + 3t² rad. The angular acceleration at t = 2 s is",
+    "options": [
+      "2 rad/s²",
+      "6 rad/s²",
+      "12 rad/s²",
+      "14 rad/s²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Angular velocity ω = dθ/dt = 2 + 6t. Angular acceleration α = dω/dt = 6 rad/s² (constant for all t).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q23",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A body moves along a circular path of radius 5 m with uniform speed 10 m/s. The magnitude of average acceleration during half a revolution is",
+    "options": [
+      "Zero",
+      "40/π m/s²",
+      "20/π m/s²",
+      "10/π m/s²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Change in velocity in half revolution Δv = v - (-v) = 2v = 20 m/s. Time t = πr/v = 5π/10 = π/2 s. Average acceleration = Δv / t = 20 / (π/2) = 40/π m/s².",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q24",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "A particle has initial velocity (3î + 4ĵ) m/s and acceleration (0.4î + 0.3ĵ) m/s². Its speed after 10 s is",
+    "options": [
+      "7√2 m/s",
+      "7 m/s",
+      "8.5 m/s",
+      "10 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "v = u + at = (3î + 4ĵ) + 10(0.4î + 0.3ĵ) = (3 + 4)î + (4 + 3)ĵ = 7î + 7ĵ. |v| = √(7² + 7²) = 7√2 m/s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q25",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "The radius of curvature of a projectile at its highest point where its speed is u cos θ is",
+    "options": [
+      "u² cos²θ / g",
+      "u² / g",
+      "u² sin²θ / g",
+      "u² / (g cos θ)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At the highest point, the normal acceleration is gravity g. Radius of curvature ρ = v² / a_n = (u cos θ)² / g = (u² cos²θ) / g.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q26",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "A bomber flying horizontally at a height of 500 m with speed 100 m/s releases a bomb. The horizontal distance covered by the bomb before striking ground is (g = 10 m/s²)",
+    "options": [
+      "500 m",
+      "1000 m",
+      "1500 m",
+      "2000 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time of fall t = √(2h/g) = √(2 × 500 / 10) = √100 = 10 s. Horizontal distance = u × t = 100 × 10 = 1000 m.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q27",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A particle is projected at an angle of 60° with the horizontal with kinetic energy K. At the highest point, its potential energy (taking ground as reference) is",
+    "options": [
+      "K / 4",
+      "K / 2",
+      "3K / 4",
+      "K"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Initial energy E = K. Kinetic energy at peak K' = K cos² 60° = K(1/4) = K/4. By conservation of energy, Potential Energy U = E - K' = K - K/4 = 3K/4.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q28",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "Two projectiles A and B are thrown with identical speeds at 30° and 60° respectively. The ratio of their maximum heights H_A / H_B is",
+    "options": [
+      "1 : 3",
+      "3 : 1",
+      "1 : √3",
+      "√3 : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "H ∝ sin²θ. H_A / H_B = sin² 30° / sin² 60° = (1/2)² / (√3/2)² = (1/4) / (3/4) = 1/3 = 1 : 3.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q29",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "In the above problem, the ratio of their total times of flight T_A / T_B is",
+    "options": [
+      "1 : √3",
+      "√3 : 1",
+      "1 : 3",
+      "3 : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "T ∝ sin θ. T_A / T_B = sin 30° / sin 60° = (1/2) / (√3/2) = 1/√3 = 1 : √3.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q30",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The coordinates of a moving particle at any time t are given by x = c t and y = b t². The trajectory of the particle is",
+    "options": [
+      "A straight line",
+      "A circle",
+      "A parabola",
+      "An ellipse"
+    ],
+    "correctAnswer": 2,
+    "explanation": "From x = ct, t = x/c. Substituting in y gives y = b(x/c)² = (b/c²) x², which is the equation of a parabola.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q31",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A particle moves in a circle of radius r with constant angular speed ω. Its linear acceleration is directed",
+    "options": [
+      "Radially outwards",
+      "Radially inwards towards centre",
+      "Tangential to the path",
+      "Along the axis of rotation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In uniform circular motion, the only acceleration is the centripetal acceleration, which acts radially inwards towards the centre of the circle.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q32",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The vector position of a particle is given by r = (3t î + 2t² ĵ + 5 k̂) m. The acceleration of the particle at t = 3 s is",
+    "options": [
+      "2 ĵ m/s²",
+      "4 ĵ m/s²",
+      "6 ĵ m/s²",
+      "12 ĵ m/s²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Velocity v = dr/dt = 3î + 4t ĵ. Acceleration a = dv/dt = 4 ĵ m/s² (constant in magnitude and direction).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q33",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A particle is projected with a speed of 40 m/s at an angle of 60° with the horizontal. Its velocity vector at t = 2 s is (g = 10 m/s²)",
+    "options": [
+      "20î + (20√3 - 20)ĵ",
+      "20î + 20√3 ĵ",
+      "20î + 10ĵ",
+      "10î + 20ĵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "v_x = u cos 60° = 40(1/2) = 20 m/s. v_y = u sin 60° - gt = 40(√3/2) - 10(2) = 20√3 - 20 m/s. Hence v = 20î + (20√3 - 20)ĵ m/s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q34",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "For a particle performing non-uniform circular motion with radius R, the total acceleration is given by",
+    "options": [
+      "a_c only",
+      "a_t only",
+      "√(a_c² + a_t²)",
+      "a_c + a_t"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Centripetal acceleration a_c and tangential acceleration a_t are perpendicular vectors, so net acceleration a = √(a_c² + a_t²).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q35",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A body of mass m is suspended from a ceiling by a string of length L and rotated in a horizontal circle (conical pendulum) of radius r. The tension in string is",
+    "options": [
+      "mg / cos θ",
+      "mg cos θ",
+      "mg sin θ",
+      "mg / sin θ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resolving vertically: T cos θ = mg => T = mg / cos θ (where θ is semi-vertical angle).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q36",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "In the conical pendulum of length L and angle θ, the period of revolution is given by",
+    "options": [
+      "2π √(L/g)",
+      "2π √(L cos θ / g)",
+      "2π √(L sin θ / g)",
+      "2π √(L tan θ / g)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Radius r = L sin θ. T_time = 2π √(r / (g tan θ)) = 2π √((L sin θ) / (g sin θ / cos θ)) = 2π √(L cos θ / g).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q37",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A ball is thrown at angle θ. If the range R equals the maximum height H, then tan θ is equal to",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "1/4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "R = 4H cot θ. Setting R = H gives 1 = 4 cot θ => tan θ = 4.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q38",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "The maximum horizontal range of a gun on level ground is 16 km. If g = 10 m/s², the muzzle velocity of the shell must be",
+    "options": [
+      "200 m/s",
+      "400 m/s",
+      "800 m/s",
+      "1600 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R_max = u² / g => 16000 = u² / 10 => u² = 160000 => u = 400 m/s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q39",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A cyclist turns around a curve of radius 20 m at a speed of 14 m/s. The angle made by the cycle with the vertical is (g = 9.8 m/s²)",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "tan θ = v² / (rg) = 14² / (20 × 9.8) = 196 / 196 = 1 => θ = 45°.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q40",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "A point on the rim of a disc of radius 0.5 m has a linear speed of 10 m/s. The angular speed of the disc is",
+    "options": [
+      "5 rad/s",
+      "10 rad/s",
+      "20 rad/s",
+      "50 rad/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "v = r ω => ω = v / r = 10 / 0.5 = 20 rad/s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q41",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "When a projectile reaches the ground, its vertical velocity is",
+    "options": [
+      "Equal and opposite to initial vertical velocity",
+      "Zero",
+      "Double the initial velocity",
+      "Independent of initial velocity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "By symmetry of trajectory on level ground, v_y = -u_y = -u sin θ.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q42",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "A projectile is fired with velocity u = 10 m/s at 45°. Its speed when it is at half its maximum height is",
+    "options": [
+      "5√3 m/s",
+      "5√2 m/s",
+      "5 m/s",
+      "10√2 m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "v² = u² - 2g(H/2) = u² - gH. Since H = u² sin² 45° / (2g) = u² / (4g), v² = u² - g(u²/4g) = 3u²/4 => v = u√3/2 = 10√3/2 = 5√3 m/s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q43",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "The angular velocity of the hour hand of a standard clock is",
+    "options": [
+      "π / 1800 rad/s",
+      "π / 3600 rad/s",
+      "π / 21600 rad/s",
+      "π / 43200 rad/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The hour hand completes 2π radians in 12 hours = 12 × 3600 s = 43200 s. ω = 2π / 43200 = π / 21600 rad/s.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q44",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Medium",
+    "questionText": "If the speed of a particle in circular motion of radius R is doubled and radius is halved, the centripetal acceleration becomes",
+    "options": [
+      "2 times",
+      "4 times",
+      "8 times",
+      "16 times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "a_c = v² / r. a'_c = (2v)² / (r/2) = 4v² / (r/2) = 8 (v²/r) = 8 a_c.",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  },
+  {
+    "id": "motion-2d-q45",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "topic": "Motion in a Plane",
+    "difficulty": "Easy",
+    "questionText": "A stone tied to a string of length L is whirled in a vertical circle. The minimum speed at the highest point to prevent slacking of the string is",
+    "options": [
+      "√(gL)",
+      "√(2gL)",
+      "√(3gL)",
+      "√(5gL)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At top: T + mg = mv²/L. For minimum speed without slacking, T ≥ 0 => mg = mv_min²/L => v_min = √(gL).",
+    "tags": [
+      "Motion in a Plane",
+      "2D Kinematics",
+      "Projectile Motion"
+    ]
+  }
+]

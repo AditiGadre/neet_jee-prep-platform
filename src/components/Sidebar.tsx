@@ -15,7 +15,8 @@ import {
   BookMarked,
   HelpCircle,
   ShieldCheck,
-  Zap
+  Zap,
+  ArrowDownToLine
 } from 'lucide-react';
 
 export type TabType =
@@ -43,29 +44,29 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const menuItems = [
     {
       id: 'test-series' as TabType,
-      label: '1. Test Series & CBT',
-      sublabel: 'Classroom, HYTS, Minor, Major, Part & Full Mocks',
+      label: '1. Test Series & Sunday Mocks',
+      sublabel: '180 Marks Combined PCB & Chapter Customizer',
       icon: FileCheck2,
-      badge: 'HYTS & OMR'
+      badge: '180 Qs PCB'
     },
     {
       id: 'what-extra' as TabType,
       label: '2. What Extra We Offer',
       sublabel: 'Custom DPP, 10K Flashcards, Mind Maps, NCERT Audio',
       icon: Sparkles,
-      badge: '7 Tools',
+      badge: '8 Tools',
       highlight: true
     },
     {
       id: 'about-exam' as TabType,
-      label: '3. About NEET Exam',
+      label: '3. About NEET CBT Exam',
       sublabel: 'CBT Pattern, Syllabus, Seats & Marks vs Rank',
       icon: BookOpen
     },
     {
       id: 'about-us' as TabType,
-      label: '4. About NEETcbt',
-      sublabel: 'Philosophy, NCERT First & Faculty Panel',
+      label: '4. About NeetCbt Exam Test',
+      sublabel: 'Philosophy, NCERT First & AI Learning Engine',
       icon: Info
     },
     {
@@ -90,62 +91,67 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'analytics', label: 'Performance Analytics', icon: LineChart },
     { id: 'dpp-generator', label: 'DPP Generator', icon: FileSpreadsheet },
     { id: 'books', label: 'NCERT Notes & eBooks', icon: BookMarked },
-    { id: 'pyqs', label: 'NEET/JEE PYQ Bank', icon: HelpCircle }
+    { id: 'pyqs', label: 'NEET/JEE PYQ Bank', icon: HelpCircle },
+    { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine }
   ];
 
   return (
-    <aside className="w-full lg:w-64 bg-[#111827] border-r border-gray-800 flex flex-col shrink-0 text-white select-none">
+    <aside className="w-full lg:w-64 bg-slate-900 border-r border-slate-800 flex flex-col shrink-0 text-white select-none">
       {/* Platform Header in Sidebar */}
-      <div className="p-4 border-b border-gray-800 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-5 h-5 bg-blue-600 rounded-sm flex items-center justify-center text-white font-bold text-[10px]">
-            N
+      <div className="p-4 border-b border-slate-800/80 bg-slate-950/40">
+        <div className="flex items-center space-x-2">
+          <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center font-black text-xs shadow-xs">
+            nc
           </div>
-          <span className="font-bold text-xs tracking-tight text-white uppercase">
-            Curriculum Hub
-          </span>
+          <div>
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-400">
+              Platform Modules
+            </div>
+            <div className="text-sm font-extrabold text-white">
+              NeetCbt<span className="text-cyan-400"> Exam Test</span>
+            </div>
+          </div>
         </div>
-        <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-blue-950 text-blue-400 border border-blue-800">
-          CBT 2026
-        </span>
       </div>
 
-      {/* Main Navigation List */}
-      <nav className="p-2 space-y-1 overflow-y-auto flex-1 custom-scrollbar">
-        <div className="px-3 py-1.5 text-[10px] uppercase tracking-widest text-gray-500 font-bold">
-          Core Modules
-        </div>
-
+      {/* Main Nav Items */}
+      <div className="p-2 space-y-1 flex-1 overflow-y-auto">
         {menuItems.map(item => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;
 
           return (
-            <div key={item.id}>
+            <div key={item.id} className="space-y-1">
               <button
-                id={`sidebar-tab-${item.id}`}
                 onClick={() => onSelectTab(item.id)}
-                className={`w-full text-left px-3 py-2 rounded-md transition-colors flex items-center justify-between group ${
+                className={`w-full text-left p-2.5 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
                   isActive
-                    ? 'bg-blue-600 text-white font-semibold shadow-xs'
-                    : 'text-gray-400 hover:bg-gray-800 hover:text-gray-100'
+                    ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold shadow-md shadow-blue-900/20'
+                    : 'text-slate-300 hover:bg-slate-800/70 hover:text-white'
                 }`}
               >
                 <div className="flex items-center space-x-2.5 min-w-0">
                   <Icon
                     className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-white' : 'text-gray-400 group-hover:text-blue-400'
+                      isActive ? 'text-white' : item.highlight ? 'text-amber-400' : 'text-slate-400'
                     }`}
                   />
-                  <div className="truncate text-xs font-medium">{item.label}</div>
+                  <div className="min-w-0">
+                    <div className="truncate font-semibold">{item.label}</div>
+                    <div className="text-[10px] text-slate-400 truncate font-normal">
+                      {item.sublabel}
+                    </div>
+                  </div>
                 </div>
 
                 {item.badge && (
                   <span
-                    className={`text-[9px] px-1.5 py-0.2 rounded font-bold uppercase tracking-tight shrink-0 ${
+                    className={`text-[9px] px-1.5 py-0.2 rounded font-mono font-bold uppercase shrink-0 ${
                       isActive
-                        ? 'bg-blue-700 text-blue-100'
-                        : 'bg-gray-800 text-gray-400 group-hover:bg-gray-700'
+                        ? 'bg-white/20 text-white'
+                        : item.highlight
+                        ? 'bg-amber-400/20 text-amber-300 border border-amber-400/30'
+                        : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {item.badge}
@@ -153,27 +159,26 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 )}
               </button>
 
-              {/* Sub-items for "What Extra We Offer" when active */}
+              {/* Collapsible Sub-modules under What Extra We Offer */}
               {item.id === 'what-extra' && isActive && (
-                <div className="ml-4 pl-2 my-1 border-l border-gray-700 space-y-0.5 animate-in fade-in duration-100">
+                <div className="pl-4 pr-1 py-1 space-y-0.5 border-l-2 border-blue-500/40 ml-4 animate-in fade-in slide-in-from-top-1 duration-150">
                   {extraSubModules.map(sub => {
                     const SubIcon = sub.icon;
                     const isSubActive = extraSubTab === sub.id;
+
                     return (
                       <button
                         key={sub.id}
-                        id={`sidebar-subtab-${sub.id}`}
-                        onClick={e => {
-                          e.stopPropagation();
+                        onClick={() => {
                           if (onSelectExtraSubTab) onSelectExtraSubTab(sub.id);
                         }}
-                        className={`w-full text-left px-2.5 py-1.5 rounded text-[11px] flex items-center space-x-2 transition-colors ${
+                        className={`w-full text-left px-2 py-1.5 rounded-lg text-[11px] transition flex items-center space-x-2 cursor-pointer ${
                           isSubActive
-                            ? 'bg-blue-500/20 text-blue-300 font-semibold'
-                            : 'text-gray-400 hover:text-white hover:bg-gray-800/60'
+                            ? 'bg-white/10 text-cyan-300 font-bold'
+                            : 'text-slate-400 hover:bg-white/5 hover:text-slate-200'
                         }`}
                       >
-                        <SubIcon className="w-3 h-3 shrink-0" />
+                        <SubIcon className="w-3 h-3 text-slate-400" />
                         <span className="truncate">{sub.label}</span>
                       </button>
                     );
@@ -183,18 +188,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
           );
         })}
-      </nav>
+      </div>
 
-      {/* Trust & Guarantee Footer Card */}
-      <div className="p-3 border-t border-gray-800 bg-[#0d121d]">
-        <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-sm bg-blue-600/20 border border-blue-500/30 text-blue-400 flex items-center justify-center shrink-0">
-            <ShieldCheck className="w-4 h-4" />
+      {/* Verified Banner in Bottom Sidebar */}
+      <div className="p-3 bg-slate-950/60 border-t border-slate-800/80">
+        <div className="p-2.5 rounded-xl bg-gradient-to-br from-blue-900/40 to-slate-900 border border-blue-800/40 space-y-1">
+          <div className="flex items-center space-x-1.5 text-xs font-bold text-cyan-300">
+            <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
+            <span>NeetCbt Verified</span>
           </div>
-          <div className="flex-1 overflow-hidden">
-            <p className="text-xs font-semibold text-gray-200 truncate">CBT Engine v4.2</p>
-            <p className="text-[10px] text-gray-500 truncate font-mono">100% CBT Simulation</p>
-          </div>
+          <p className="text-[10px] text-slate-400 font-mono">
+            Target Batch 2026 &bull; 100% NCERT Authenticated
+          </p>
         </div>
       </div>
     </aside>

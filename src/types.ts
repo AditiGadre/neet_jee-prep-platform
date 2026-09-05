@@ -172,3 +172,26 @@ export interface UserTestResult {
   revisionSuggestions: string[];
   answers: Record<number, number>; // questionIdx -> selectedOption
 }
+
+export interface UserProfile {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  createdAt: string;
+  targetExam?: ExamType;
+}
+
+export interface DownloadRecord {
+  id: string;
+  userId?: string;
+  userEmail: string;
+  userName?: string;
+  userPhone?: string;
+  title: string;
+  category: 'Test Paper' | 'Scorecard' | 'Book' | 'DPP' | 'Formula Sheet' | 'Mind Map' | 'Custom Test';
+  subject?: string;
+  timestamp: string;
+  fileSize?: string;
+  format: 'PDF' | 'HTML' | 'DOC';
+}

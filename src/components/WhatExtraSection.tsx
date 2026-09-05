@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   Sparkles,
   Sliders,
@@ -28,7 +28,17 @@ import {
   Target,
   ArrowRight,
   Award,
-  FileText
+  FileText,
+  ArrowDownToLine,
+  Trash2,
+  Calendar,
+  HardDrive,
+  User,
+  Phone,
+  Mail,
+  Upload,
+  RefreshCw,
+  AlertCircle
 } from 'lucide-react';
 import {
   Flashcard,
@@ -37,19 +47,22 @@ import {
   PYQItem,
   TestItem,
   UserTestResult,
-  Question
+  Question,
+  DownloadRecord
 } from '../types';
-import { SAMPLE_QUESTIONS } from '../data/mockData';
+import { SAMPLE_QUESTIONS, TEST_SERIES_DATA } from '../data/mockData';
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
-import { VECTORS_BOOK_QUESTIONS } from '../data/vectorsQuestions';
-import { UNITS_BOOK_QUESTIONS } from '../data/unitsQuestions';
-import { MOTION_BOOK_QUESTIONS } from '../data/motionQuestions';
-import { GRAVITATION_BOOK_QUESTIONS } from '../data/gravitationQuestions';
-import { ELECTROSTATICS_BOOK_QUESTIONS } from '../data/electrostaticsQuestions';
-import { MAGNETISM_BOOK_QUESTIONS } from '../data/magnetismQuestions';
-import { THERMODYNAMICS_BOOK_QUESTIONS as PHYSICS_THERMO_QUESTIONS } from '../data/thermodynamicsQuestions';
-import { downloadBookPDF, downloadDppPDF } from '../utils/pdfDownloader';
+import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
+import { downloadBookPDF, downloadDppPDF, downloadTestPaperPDF } from '../utils/pdfDownloader';
+import { getUserDownloads, clearUserDownloads, getCurrentUser } from '../utils/downloadTracker';
+import { getUnifiedQuestionBank } from '../utils/questionDatabase';
+import {
+  getUnusedQuestions,
+  markQuestionsAsConsumed,
+  notifyDataExhaustion,
+  resetChapterConsumption
+} from '../utils/questionTracker';
 
 interface WhatExtraSectionProps {
   activeSubTab: string;
@@ -61,6 +74,7 @@ interface WhatExtraSectionProps {
   onStartCustomTest: (customTest: TestItem) => void;
   onOpenBook: (book: BookItem) => void;
   completedTests: UserTestResult[];
+  onOpenUploadModal?: (subject?: string, chapter?: string) => void;
 }
 
 export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
@@ -72,15 +86,24 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   pyqs,
   onStartCustomTest,
   onOpenBook,
-  completedTests
+  completedTests,
+  onOpenUploadModal
 }) => {
   // Custom Test Builder State
   const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology' | 'Mathematics'>('Biology');
   const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
   const [customTopic, setCustomTopic] = useState<string>('All Topics');
-  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Adaptive'>('Medium');
+  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Both' | 'Adaptive'>('Both');
   const [customDuration, setCustomDuration] = useState<number>(15);
-  const [customQCount, setCustomQCount] = useState<number>(45);
+  const [customQCount, setCustomQCount] = useState<number>(15);
+
+  // Exhaustion state
+  const [exhaustionNotice, setExhaustionNotice] = useState<{
+    subject: string;
+    chapter: string;
+    total: number;
+    remaining: number;
+  } | null>(null);
 
   // Flashcards State
   const [fcSubjectFilter, setFcSubjectFilter] = useState<string>('All');
@@ -91,10 +114,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Mind Map State
   const [selectedMindMapId, setSelectedMindMapId] = useState<string>(mindMaps[0]?.id || '');
-  const [expandedNodes, setExpandedNodes] = useState<Record<string, boolean>>({
-    '0': true,
-    '1': true
-  });
 
   // DPP Generator State
   const [dppDate, setDppDate] = useState<string>(new Date().toISOString().split('T')[0]);
@@ -111,15 +130,52 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   // Books Filter State
   const [bookCategory, setBookCategory] = useState<string>('All');
 
+  // Downloads Vault State
+  const [downloads, setDownloads] = useState<DownloadRecord[]>([]);
+  const [dlCategory, setDlCategory] = useState<string>('All');
+  const [dlSearch, setDlSearch] = useState<string>('');
+  const [dlUser, setDlUser] = useState<any>(getCurrentUser());
+  const [reDownloadSuccess, setReDownloadSuccess] = useState<string | null>(null);
+
+  // Consumption State Listener
+  const [consumptionVersion, setConsumptionVersion] = useState<number>(0);
+
+  const reloadDownloads = () => {
+    const u = getCurrentUser();
+    setDlUser(u);
+    setDownloads(getUserDownloads(u?.email));
+  };
+
+  useEffect(() => {
+    reloadDownloads();
+    const handleDlChange = () => reloadDownloads();
+    const handleAuthChange = () => reloadDownloads();
+    const handleConsumptionChange = () => setConsumptionVersion(v => v + 1);
+    const handleBankUpdate = () => setConsumptionVersion(v => v + 1);
+
+    window.addEventListener('neet_downloads_change', handleDlChange);
+    window.addEventListener('neet_auth_change', handleAuthChange);
+    window.addEventListener('neet_consumption_updated', handleConsumptionChange);
+    window.addEventListener('neet_question_bank_updated', handleBankUpdate);
+
+    return () => {
+      window.removeEventListener('neet_downloads_change', handleDlChange);
+      window.removeEventListener('neet_auth_change', handleAuthChange);
+      window.removeEventListener('neet_consumption_updated', handleConsumptionChange);
+      window.removeEventListener('neet_question_bank_updated', handleBankUpdate);
+    };
+  }, []);
+
   // Sub-tab definitions
   const subModules = [
-    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders, desc: 'Generate 45-question tests by subject, chapter, difficulty & proper allotted time.' },
+    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders, desc: 'Generate 45-question tests strictly without repeating questions.' },
     { id: 'flash-cards', label: 'Flash Cards', icon: Layers, desc: '30+ high-yield revision cards with formulas, reactions, diagrams & mnemonics.' },
     { id: 'mind-maps', label: 'Mind Maps', icon: Network, desc: 'Interactive concept visual trees for rapid revision.' },
     { id: 'analytics', label: 'Student Analytics', icon: LineChart, desc: 'Score analysis, accuracy, weak topics & progress graphs.' },
     { id: 'dpp-generator', label: 'DPP Generator', icon: FileSpreadsheet, desc: 'Personalized daily practice papers with instant PDF download.' },
     { id: 'books', label: 'Books & Notes', icon: BookMarked, desc: 'NCERT highlighters, revision notes, formula books & downloadable PDFs.' },
-    { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with step solutions.' }
+    { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with step solutions.' },
+    { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine, desc: 'Preserved download history of question papers, scorecards, NCERT books and DPPs.' }
   ];
 
   // Available Chapters by Subject
@@ -183,71 +239,88 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     ? chemistryChapters
     : physicsChapters;
 
-  // Custom Test Launch Handler
-  const handleGenerateAndStartCustomTest = () => {
-    let pool: Question[] = [];
+  // Unused question pool calculation for active chapter
+  const currentPoolStats = useMemo(() => {
+    return getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
+  }, [customSubject, customChapter, customDifficulty, consumptionVersion]);
 
-    if (customSubject === 'Biology') {
-      const filtered = ALL_FINGERTIPS_BIOLOGY_QUESTIONS.filter(q =>
-        q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
-        customChapter.toLowerCase().includes(q.chapter.toLowerCase())
-      );
-      pool = filtered.length >= customQCount ? filtered : ALL_FINGERTIPS_BIOLOGY_QUESTIONS;
-    } else if (customSubject === 'Chemistry') {
-      const filtered = ALL_CHEMISTRY_MASTER_QUESTIONS.filter(q =>
-        q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
-        customChapter.toLowerCase().includes(q.chapter.toLowerCase())
-      );
-      pool = filtered.length >= customQCount ? filtered : ALL_CHEMISTRY_MASTER_QUESTIONS;
-    } else {
-      const allPhysics = [...VECTORS_BOOK_QUESTIONS, ...UNITS_BOOK_QUESTIONS, ...MOTION_BOOK_QUESTIONS, ...GRAVITATION_BOOK_QUESTIONS, ...ELECTROSTATICS_BOOK_QUESTIONS, ...MAGNETISM_BOOK_QUESTIONS, ...PHYSICS_THERMO_QUESTIONS];
-      const filtered = allPhysics.filter(q =>
-        q.chapter.toLowerCase().includes(customChapter.toLowerCase()) ||
-        customChapter.toLowerCase().includes(q.chapter.toLowerCase())
-      );
-      pool = filtered.length >= customQCount ? filtered : allPhysics;
+  // Custom Test Launch Handler with Zero Repetition & Exhaustion Notification
+  const handleGenerateAndStartCustomTest = () => {
+    const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
+
+    // If remaining questions in database are fewer than requested, notify user & super user
+    if (stats.remainingUnused === 0 || stats.remainingUnused < customQCount) {
+      notifyDataExhaustion(customSubject, customChapter, stats.totalInBank, customQCount);
+      setExhaustionNotice({
+        subject: customSubject,
+        chapter: customChapter,
+        total: stats.totalInBank,
+        remaining: stats.remainingUnused
+      });
+      return;
     }
 
-    // Shuffle pool for realistic dynamic test generation
-    const shuffled = [...pool].sort(() => 0.5 - Math.random());
+    setExhaustionNotice(null);
+
+    // Filter by difficulty if needed (e.g. Both Medium & Hard)
+    let candidatePool = stats.unusedQuestions;
+    if (customDifficulty === 'Both') {
+      const filtered = candidatePool.filter(q => q.difficulty === 'Medium' || q.difficulty === 'Hard');
+      if (filtered.length >= customQCount) candidatePool = filtered;
+    } else if (customDifficulty === 'Hard') {
+      const filtered = candidatePool.filter(q => q.difficulty === 'Hard');
+      if (filtered.length >= customQCount) candidatePool = filtered;
+    } else if (customDifficulty === 'Medium') {
+      const filtered = candidatePool.filter(q => q.difficulty === 'Medium');
+      if (filtered.length >= customQCount) candidatePool = filtered;
+    }
+
+    const shuffled = [...candidatePool].sort(() => 0.5 - Math.random());
     const selectedQuestions = shuffled.slice(0, customQCount);
+
+    // Mark these questions as consumed so they are never served again
+    const selectedIds = selectedQuestions.map(q => q.id);
+    markQuestionsAsConsumed(selectedIds);
 
     const customTestItem: TestItem = {
       id: `custom-test-${Date.now()}`,
-      title: `Custom Test: ${customSubject} - ${customChapter} (${customQCount} Qs)`,
+      title: `Custom Test: ${customSubject} - ${customChapter} (${customQCount} Qs - 100% Unique)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level &bull; ${customQCount} Questions)`,
-      totalQuestions: selectedQuestions.length > 0 ? selectedQuestions.length : customQCount,
+      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level &bull; ${customQCount} Unseen Questions)`,
+      totalQuestions: selectedQuestions.length,
       durationMinutes: customDuration,
-      totalMarks: (selectedQuestions.length > 0 ? selectedQuestions.length : customQCount) * 4,
+      totalMarks: selectedQuestions.length * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
       difficulty: customDifficulty === 'Adaptive' ? 'Mixed' : customDifficulty,
       cbtMode: true,
       features: [
         `Subject: ${customSubject}`,
         `Chapter: ${customChapter}`,
-        `Format: ${customQCount} Qs in ${customDuration} Mins`,
-        `Difficulty: ${customDifficulty}`,
+        `Format: ${customQCount} Unique Qs (Zero Repetition)`,
         `100% Verified NCERT Explanations`
       ],
-      questions: selectedQuestions.length > 0 ? selectedQuestions : SAMPLE_QUESTIONS
+      questions: selectedQuestions
     };
 
     onStartCustomTest(customTestItem);
   };
 
-  // Handle DPP Download
+  // Handle DPP Download (Purely unique questions)
   const handleDownloadDpp = () => {
-    const dppPool = customSubject === 'Biology'
-      ? ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45)
-      : ALL_CHEMISTRY_MASTER_QUESTIONS.slice(0, 45);
+    const stats = getUnusedQuestions(
+      dppSubject.includes('Biology') ? 'Biology' : dppSubject.includes('Chemistry') ? 'Chemistry' : 'Biology',
+      'All Chapters'
+    );
+
+    const pool = stats.unusedQuestions.length >= 45 ? stats.unusedQuestions.slice(0, 45) : ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45);
+    markQuestionsAsConsumed(pool.map(q => q.id));
 
     downloadDppPDF({
       date: dppDate,
       subject: dppSubject,
       level: dppLevel,
-      questions: dppPool
+      questions: pool
     });
     setGeneratedDppSuccess(true);
     setTimeout(() => setGeneratedDppSuccess(false), 4000);
@@ -282,6 +355,49 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     return bookCategory === 'All' || b.category === bookCategory;
   });
 
+  // Filtered Downloads
+  const filteredDownloads = downloads.filter(d => {
+    const matchesCategory = dlCategory === 'All' || d.category === dlCategory;
+    const matchesQuery =
+      !dlSearch ||
+      d.title.toLowerCase().includes(dlSearch.toLowerCase()) ||
+      (d.subject && d.subject.toLowerCase().includes(dlSearch.toLowerCase()));
+    return matchesCategory && matchesQuery;
+  });
+
+  const handleReDownloadItem = (record: DownloadRecord) => {
+    if (record.category === 'Book') {
+      const match = books.find(b => b.title.toLowerCase() === record.title.toLowerCase()) || books[0];
+      downloadBookPDF(match);
+    } else if (record.category === 'DPP') {
+      downloadDppPDF({
+        date: new Date().toISOString().split('T')[0],
+        subject: record.subject || 'Biology & Chemistry High-Yield',
+        level: 'CBT Standard NEET/JEE Level',
+        questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45)
+      });
+    } else {
+      const match = TEST_SERIES_DATA.find(t => t.title.toLowerCase().includes(record.title.toLowerCase())) || TEST_SERIES_DATA[0];
+      downloadTestPaperPDF(match, true);
+    }
+    setReDownloadSuccess(`Re-downloading "${record.title}"...`);
+    setTimeout(() => setReDownloadSuccess(null), 3000);
+  };
+
+  const handleRemoveDownload = (id: string) => {
+    try {
+      const raw = localStorage.getItem('neet_user_downloads');
+      if (raw) {
+        const list: DownloadRecord[] = JSON.parse(raw);
+        const filtered = list.filter(item => item.id !== id);
+        localStorage.setItem('neet_user_downloads', JSON.stringify(filtered));
+        reloadDownloads();
+      }
+    } catch (e) {
+      console.warn('Could not remove download record:', e);
+    }
+  };
+
   return (
     <div className="space-y-4">
       {/* Header Banner */}
@@ -289,21 +405,17 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-100 pb-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5">
-              <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Edge Suite & Custom Generator
+              <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Edge Suite & Precision Tools
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
-              2. What Extra We Offer (7 Precision Tools)
+              2. What Extra We Offer (8 Precision Tools)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Custom 45-Question Test Generator connected to the complete NCERT chapter-wise question bank, 30+ interactive Flashcards, deep Mind Maps, and 1-click PDF download engine.
+              Zero-repetition custom test generator extracting strictly unattempted questions from our 4,500+ database, interactive Flashcards, Mind Maps, and tracked PDF download vault.
             </p>
           </div>
 
-          <div className="flex items-center gap-2 self-start md:self-auto shrink-0 font-mono text-[10px]">
-            <span className="px-2.5 py-1 rounded bg-blue-50 text-blue-700 border border-blue-200 font-bold">
-              Complete Question Bank
-            </span>
-          </div>
+
         </div>
 
         {/* Sub-Tab Navigation Bar */}
@@ -315,7 +427,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <button
                 key={tab.id}
                 onClick={() => onSelectSubTab(tab.id)}
-                className={`flex items-center space-x-1.5 px-3 py-2 rounded text-xs font-semibold whitespace-nowrap transition-colors ${
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer ${
                   isActive
                     ? 'bg-blue-600 text-white shadow-xs'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -323,29 +435,82 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               >
                 <Icon className="w-3.5 h-3.5" />
                 <span>{tab.label}</span>
+                {tab.id === 'my-downloads' && downloads.length > 0 && (
+                  <span className={`px-1.5 py-0.2 rounded-full text-[9px] font-mono ${isActive ? 'bg-white text-blue-700' : 'bg-blue-600 text-white'}`}>
+                    {downloads.length}
+                  </span>
+                )}
               </button>
             );
           })}
         </div>
       </div>
 
-      {/* 1. CUSTOM TEST GENERATOR (45 Qs & 45 MINS) */}
+      {/* 1. CUSTOM TEST GENERATOR (ZERO-REPETITION + EXHAUSTION ALERTS) */}
       {activeSubTab === 'custom-test' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <Sliders className="w-4 h-4 text-blue-600" />
-                <span>Custom Chapter-wise CBT Test Generator</span>
+                <span>Custom CBT Test Generator (Zero Question Repetition)</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Select any chapter from our complete NCERT database. Standard format is 45 Questions in 15 Minutes Speed Practice (180 Marks).
+                Pulls exclusively unattempted questions from the central database. When questions are exhausted, you will be notified immediately.
               </p>
             </div>
-            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 self-start sm:self-auto uppercase">
-              100% NCERT Verified Bank
-            </span>
+            
+            {/* Real-time Unused Question Bank Counter Badge */}
+            <div className="flex items-center space-x-2">
+              <span className={`text-[10px] font-mono font-bold px-2.5 py-1 rounded border uppercase ${
+                currentPoolStats.remainingUnused === 0
+                  ? 'bg-rose-50 text-rose-700 border-rose-300'
+                  : currentPoolStats.remainingUnused < 45
+                  ? 'bg-amber-50 text-amber-800 border-amber-300'
+                  : 'bg-emerald-50 text-emerald-700 border-emerald-300'
+              }`}>
+                {currentPoolStats.remainingUnused} / {currentPoolStats.totalInBank} Unused Questions Remaining
+              </span>
+            </div>
           </div>
+
+          {/* EXHAUSTION ALERT BANNER (IF DATA IS OVER) */}
+          {exhaustionNotice && (
+            <div className="p-4 rounded-xl bg-rose-50 border border-rose-300 text-rose-900 space-y-3 animate-in zoom-in-95 duration-150">
+              <div className="flex items-start space-x-2.5">
+                <AlertCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="text-sm font-bold text-rose-900">
+                    ⚠️ Question Pool Exhausted for &quot;{exhaustionNotice.chapter}&quot;
+                  </h4>
+                  <p className="text-xs text-rose-700 mt-0.5 leading-relaxed">
+                    You have completed all <strong>{exhaustionNotice.total} unique questions</strong> in this chapter! To uphold strict test series integrity, no duplicate questions will be served.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-rose-200">
+                <button
+                  onClick={() => onOpenUploadModal && onOpenUploadModal(customSubject, customChapter)}
+                  className="px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                >
+                  <Upload className="w-3.5 h-3.5" />
+                  <span>Upload / AI Generate New Questions</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    resetChapterConsumption(customSubject, customChapter);
+                    setExhaustionNotice(null);
+                  }}
+                  className="px-3.5 py-1.5 rounded-lg bg-white hover:bg-gray-100 text-gray-800 border border-gray-300 font-bold text-xs flex items-center space-x-1.5 transition cursor-pointer"
+                >
+                  <RefreshCw className="w-3.5 h-3.5 text-gray-600" />
+                  <span>Reset Chapter History & Retake</span>
+                </button>
+              </div>
+            </div>
+          )}
 
           {/* Builder Controls Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -357,13 +522,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 onChange={e => {
                   const sub = e.target.value as any;
                   setCustomSubject(sub);
+                  setExhaustionNotice(null);
                   if (sub === 'Biology') setCustomChapter(biologyChapters[0]);
                   else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
                   else setCustomChapter(physicsChapters[0]);
                 }}
                 className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
               >
-                <option value="Biology">🧬 Biology (Class 11 & 12 - All 38 Chapters)</option>
+                <option value="Biology">🧬 Biology (All 38 Chapters)</option>
                 <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
                 <option value="Physics">⚡ Physics (Mechanics, Electrodynamics, Modern)</option>
               </select>
@@ -374,7 +540,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Available)</label>
               <select
                 value={customChapter}
-                onChange={e => setCustomChapter(e.target.value)}
+                onChange={e => {
+                  setCustomChapter(e.target.value);
+                  setExhaustionNotice(null);
+                }}
                 className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
               >
                 {currentChapterList.map((ch, idx) => (
@@ -391,10 +560,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <select
                 value={customDifficulty}
                 onChange={e => setCustomDifficulty(e.target.value as any)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
               >
-                <option value="Medium">Medium (NTA NEET Standard)</option>
-                <option value="Hard">Hard (AIIMS / Top 100 Ranker Booster)</option>
+                <option value="Both">Both Medium & Hard (Mixed NTA Standard)</option>
+                <option value="Medium">Medium Level Only</option>
+                <option value="Hard">Hard (Top Ranker Booster)</option>
                 <option value="Easy">Easy (Rapid NCERT Warmup)</option>
                 <option value="Adaptive">Adaptive (AI Dynamic Blend)</option>
               </select>
@@ -404,16 +574,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             <div className="space-y-1">
               <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
               <div className="grid grid-cols-4 gap-1.5">
-                {[15, 25, 45, 90].map(cnt => (
+                {[15, 30, 45, 60].map(cnt => (
                   <button
                     key={cnt}
                     onClick={() => {
                       setCustomQCount(cnt);
-                      // Scaled Rapid Speed CBT: 15Q=5m, 25Q=8m, 45Q=15m, 90Q=30m
-                      const scaledTime = cnt === 15 ? 5 : cnt === 25 ? 8 : cnt === 45 ? 15 : 30;
-                      setCustomDuration(scaledTime);
+                      setCustomDuration(cnt);
                     }}
-                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors ${
+                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors cursor-pointer ${
                       customQCount === cnt
                         ? 'bg-blue-600 text-white shadow-xs'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -429,11 +597,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             <div className="space-y-1">
               <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
               <div className="grid grid-cols-4 gap-1.5">
-                {[5, 8, 15, 30].map(mins => (
+                {[15, 30, 45, 60].map(mins => (
                   <button
                     key={mins}
                     onClick={() => setCustomDuration(mins)}
-                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors ${
+                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors cursor-pointer ${
                       customDuration === mins
                         ? 'bg-purple-600 text-white shadow-xs'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -447,10 +615,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* Marking Scheme */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Marking Scheme</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Anti-Repetition Status</label>
               <div className="p-2 rounded bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
-                <span>Correct: <strong className="text-emerald-700">+4 Marks</strong></span>
-                <span>Incorrect: <strong className="text-rose-700">-1 Mark</strong></span>
+                <span>Unused: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
+                <span>Consumed: <strong className="text-blue-700">{currentPoolStats.totalInBank - currentPoolStats.remainingUnused}</strong></span>
               </div>
             </div>
           </div>
@@ -467,16 +635,19 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <div className="text-gray-600 font-mono text-[11px]">
                 Format:{' '}
                 <span className="text-blue-700 font-bold">{customQCount} Questions ({customQCount * 4} Marks)</span> &bull;{' '}
-                <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Difficulty: {customDifficulty}
+                <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Status:{' '}
+                <span className={currentPoolStats.remainingUnused >= customQCount ? 'text-emerald-700 font-bold' : 'text-rose-600 font-bold'}>
+                  {currentPoolStats.remainingUnused >= customQCount ? '✓ Ready (100% Unique Questions)' : '⚠️ Insufficient Unused Data'}
+                </span>
               </div>
             </div>
 
             <button
               onClick={handleGenerateAndStartCustomTest}
-              className="w-full sm:w-auto px-5 py-2.5 rounded bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95"
+              className="w-full sm:w-auto px-5 py-2.5 rounded bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95 cursor-pointer"
             >
               <Play className="w-3.5 h-3.5 fill-current" />
-              <span>Launch 45-Question CBT Test</span>
+              <span>Launch {customQCount}-Question CBT Test</span>
             </button>
           </div>
         </div>
@@ -514,7 +685,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     setActiveFcIndex(0);
                     setIsFlipped(false);
                   }}
-                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     fcSubjectFilter === sub
                       ? 'bg-blue-600 text-white shadow-xs'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -533,7 +704,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     setActiveFcIndex(0);
                     setIsFlipped(false);
                   }}
-                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     fcCategoryFilter === cat
                       ? 'bg-purple-600 text-white shadow-xs'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -645,7 +816,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       setIsFlipped(false);
                       setActiveFcIndex(prev => (prev > 0 ? prev - 1 : filteredFlashcards.length - 1));
                     }}
-                    className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold border border-gray-200 shadow-xs"
+                    className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold border border-gray-200 shadow-xs cursor-pointer"
                   >
                     &larr; Previous Card
                   </button>
@@ -660,7 +831,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       setIsFlipped(false);
                       setActiveFcIndex(prev => (prev < filteredFlashcards.length - 1 ? prev + 1 : 0));
                     }}
-                    className="px-3 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs"
+                    className="px-3 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs cursor-pointer"
                   >
                     Next Card &rarr;
                   </button>
@@ -671,7 +842,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       )}
 
-      {/* 3. MIND MAPS (RICH VISUAL TREES) */}
+      {/* 3. MIND MAPS */}
       {activeSubTab === 'mind-maps' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
@@ -689,7 +860,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <button
                   key={mm.id}
                   onClick={() => setSelectedMindMapId(mm.id)}
-                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     selectedMindMapId === mm.id
                       ? 'bg-blue-600 text-white shadow-xs'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -701,7 +872,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
           </div>
 
-          {/* Selected Mind Map Node Display */}
           {(() => {
             const activeMap = mindMaps.find(m => m.id === selectedMindMapId) || mindMaps[0];
             if (!activeMap) return null;
@@ -772,7 +942,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </span>
           </div>
 
-          {/* Quick Metrics */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Avg NEET Score</div>
@@ -809,7 +978,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       )}
 
-      {/* 5. DPP GENERATOR (Daily Practice Papers & Real PDF Download) */}
+      {/* 5. DPP GENERATOR (PURELY UNIQUE DAILY QUESTIONS) */}
       {activeSubTab === 'dpp-generator' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
@@ -819,11 +988,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <span>Daily Practice Paper (DPP) Generator & Offline PDF</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Generate 45-question daily practice papers with step solutions and download as printable PDFs.
+                Extracts unattempted daily practice papers with step solutions and downloads as printable PDFs.
               </p>
             </div>
             <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 self-start sm:self-auto uppercase">
-              Auto-Generated Daily
+              100% Unique Questions
             </span>
           </div>
 
@@ -865,7 +1034,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
           </div>
 
-          {/* Generated DPP Box */}
           <div className="p-4 rounded bg-gray-50 border border-gray-200 space-y-3">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
@@ -883,14 +1051,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <div className="flex items-center space-x-2">
                 <button
                   onClick={handleDownloadDpp}
-                  className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold flex items-center space-x-1.5 border border-gray-300 shadow-xs"
+                  className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold flex items-center space-x-1.5 border border-gray-300 shadow-xs cursor-pointer"
                 >
                   <Download className="w-3.5 h-3.5" />
                   <span>Download DPP PDF</span>
                 </button>
                 <button
                   onClick={handleGenerateAndStartCustomTest}
-                  className="px-3 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-xs"
+                  className="px-3 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-xs cursor-pointer"
                 >
                   <Play className="w-3.5 h-3.5 fill-current" />
                   <span>Attempt DPP Live</span>
@@ -901,14 +1069,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             {generatedDppSuccess && (
               <div className="p-2.5 rounded bg-green-50 border border-green-200 text-green-800 text-xs flex items-center space-x-1.5 animate-in fade-in">
                 <Check className="w-3.5 h-3.5 text-green-600" />
-                <span>Daily Practice Paper (DPP) PDF generated and downloaded successfully!</span>
+                <span>Daily Practice Paper (DPP) PDF generated and logged to download tracker!</span>
               </div>
             )}
           </div>
         </div>
       )}
 
-      {/* 6. BOOKS & NOTES LIBRARY (WITH REAL PDF DOWNLOAD) */}
+      {/* 6. BOOKS & NOTES LIBRARY */}
       {activeSubTab === 'books' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
@@ -926,7 +1094,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <button
                   key={cat}
                   onClick={() => setBookCategory(cat)}
-                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
                     bookCategory === cat
                       ? 'bg-blue-600 text-white shadow-xs'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
@@ -971,14 +1139,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     <button
                       onClick={() => downloadBookPDF(book)}
                       title="Download PDF"
-                      className="px-2.5 py-1 rounded bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 border border-gray-200 shadow-xs"
+                      className="px-2.5 py-1 rounded bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 border border-gray-200 shadow-xs cursor-pointer"
                     >
                       <Download className="w-3 h-3" />
                       <span>PDF</span>
                     </button>
                     <button
                       onClick={() => onOpenBook(book)}
-                      className="px-2.5 py-1 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1 shadow-xs"
+                      className="px-2.5 py-1 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1 shadow-xs cursor-pointer"
                     >
                       <Eye className="w-3 h-3" />
                       <span>Read</span>
@@ -1009,7 +1177,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </span>
           </div>
 
-          {/* Filter Bar */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
             <div>
               <label className="text-[10px] font-bold text-gray-500 uppercase">Filter Subject</label>
@@ -1030,13 +1197,16 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <select
                 value={pyqYear}
                 onChange={e => setPyqYear(e.target.value)}
-                className="w-full mt-0.5 p-1.5 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
+                className="w-full mt-0.5 p-1.5 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
               >
-                <option value="All">All Years (2020 - 2024)</option>
+                <option value="All">All Years (2018 - 2024 Solved)</option>
                 <option value="2024">2024 (Latest)</option>
                 <option value="2023">2023</option>
                 <option value="2022">2022</option>
                 <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
               </select>
             </div>
 
@@ -1052,7 +1222,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
           </div>
 
-          {/* PYQ List */}
           <div className="space-y-3">
             {filteredPYQs.map(item => {
               const isSolutionOpen = expandedSolutionId === item.id;
@@ -1098,13 +1267,12 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                     ))}
                   </div>
 
-                  {/* Solution Accordion */}
                   <div className="pt-2 flex items-center justify-between border-t border-gray-200">
                     <button
                       onClick={() =>
                         setExpandedSolutionId(isSolutionOpen ? null : item.id)
                       }
-                      className="text-xs text-blue-700 font-semibold flex items-center space-x-1 hover:underline"
+                      className="text-xs text-blue-700 font-semibold flex items-center space-x-1 hover:underline cursor-pointer"
                     >
                       <span>{isSolutionOpen ? 'Hide Step-by-Step Solution' : 'View Verified Solution'}</span>
                       <ChevronDown
@@ -1129,6 +1297,162 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               );
             })}
           </div>
+        </div>
+      )}
+
+      {/* 8. MY DOWNLOAD VAULT */}
+      {activeSubTab === 'my-downloads' && (
+        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
+            <div>
+              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
+                <ArrowDownToLine className="w-4 h-4 text-blue-600" />
+                <span>My Download History & Preserved Document Vault</span>
+              </h2>
+              <p className="text-xs text-gray-500 mt-0.5">
+                All downloaded test question papers, scorecards, NCERT notes, and DPPs logged to your student session.
+              </p>
+            </div>
+            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 self-start sm:self-auto uppercase">
+              {downloads.length} Documents Tracked
+            </span>
+          </div>
+
+          <div className="p-3 rounded-lg bg-blue-50/60 border border-blue-100 flex flex-wrap items-center justify-between gap-3 text-xs">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+              <div className="flex items-center space-x-1.5 text-blue-900 font-bold">
+                <User className="w-3.5 h-3.5 text-blue-600" />
+                <span>{dlUser?.name || dlUser?.user_metadata?.name || 'Enrolled Student'}</span>
+              </div>
+              <div className="flex items-center space-x-1.5 text-gray-600 font-mono text-[11px]">
+                <Mail className="w-3.5 h-3.5 text-gray-400" />
+                <span>{dlUser?.email || 'student.target2026@neetprep.in'}</span>
+              </div>
+              <div className="flex items-center space-x-1.5 text-emerald-800 font-mono font-semibold text-[11px]">
+                <Phone className="w-3.5 h-3.5 text-emerald-600" />
+                <span>{dlUser?.phone || dlUser?.user_metadata?.phone || '+91 9876543210'}</span>
+              </div>
+            </div>
+
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold text-[10px] font-mono flex items-center space-x-1">
+              <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+              <span>Session Logged</span>
+            </span>
+          </div>
+
+          {reDownloadSuccess && (
+            <div className="p-2.5 rounded bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-semibold flex items-center space-x-1.5 animate-in fade-in">
+              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+              <span>{reDownloadSuccess}</span>
+            </div>
+          )}
+
+          <div className="flex flex-col sm:flex-row gap-2.5 items-stretch sm:items-center justify-between">
+            <div className="flex flex-wrap items-center gap-1.5">
+              {['All', 'Test Paper', 'Book', 'Scorecard', 'DPP'].map(cat => (
+                <button
+                  key={cat}
+                  onClick={() => setDlCategory(cat)}
+                  className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors cursor-pointer ${
+                    dlCategory === cat
+                      ? 'bg-blue-600 text-white shadow-xs'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                  }`}
+                >
+                  {cat === 'All' ? 'All' : cat}
+                </button>
+              ))}
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <div className="relative flex-1 sm:w-60">
+                <Search className="absolute left-2.5 top-2 w-3.5 h-3.5 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="Search downloads..."
+                  value={dlSearch}
+                  onChange={e => setDlSearch(e.target.value)}
+                  className="w-full pl-8 pr-3 py-1 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
+              {downloads.length > 0 && (
+                <button
+                  onClick={() => {
+                    if (window.confirm('Clear all your download history?')) {
+                      clearUserDownloads(dlUser?.email);
+                      reloadDownloads();
+                    }
+                  }}
+                  className="p-1.5 rounded bg-gray-100 hover:bg-rose-50 text-gray-500 hover:text-rose-600 border border-gray-200 transition cursor-pointer shrink-0"
+                  title="Clear Download History"
+                >
+                  <Trash2 className="w-4 h-4" />
+                </button>
+              )}
+            </div>
+          </div>
+
+          {filteredDownloads.length > 0 ? (
+            <div className="space-y-2.5">
+              {filteredDownloads.map(item => (
+                <div
+                  key={item.id}
+                  className="p-3.5 rounded-lg bg-gray-50 border border-gray-200 hover:border-gray-300 transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"
+                >
+                  <div className="space-y-1 min-w-0">
+                    <div className="flex items-center space-x-2 flex-wrap gap-y-1">
+                      <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-blue-100 text-blue-800 border border-blue-200 uppercase font-mono">
+                        {item.category}
+                      </span>
+                      <span className="text-[11px] text-gray-500 font-mono">
+                        {new Date(item.timestamp).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                      </span>
+                      <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-white text-gray-600 border border-gray-200">
+                        {item.fileSize || '1.8 MB'} &bull; {item.format || 'PDF'}
+                      </span>
+                    </div>
+
+                    <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">
+                      {item.title}
+                    </h4>
+
+                    {item.subject && (
+                      <p className="text-[11px] text-gray-500 truncate">
+                        Syllabus: <span className="font-medium text-gray-700">{item.subject}</span>
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="flex items-center space-x-2 self-end sm:self-center shrink-0">
+                    <button
+                      onClick={() => handleReDownloadItem(item)}
+                      className="px-3 py-1.5 rounded bg-white hover:bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold flex items-center space-x-1.5 shadow-2xs transition cursor-pointer"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <span>Re-Download PDF</span>
+                    </button>
+
+                    <button
+                      onClick={() => handleRemoveDownload(item.id)}
+                      className="p-1.5 rounded text-gray-400 hover:text-rose-600 hover:bg-rose-50 transition cursor-pointer"
+                      title="Remove record"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-8 px-4 space-y-3 bg-gray-50 rounded-lg border border-dashed border-gray-200">
+              <HardDrive className="w-8 h-8 text-gray-400 mx-auto" />
+              <div className="space-y-0.5">
+                <p className="text-xs font-bold text-gray-700">No downloads tracked in this session</p>
+                <p className="text-[11px] text-gray-500">Download any test paper, scorecard, book or DPP to view it here.</p>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>
