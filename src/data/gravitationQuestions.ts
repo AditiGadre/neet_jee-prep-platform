@@ -7598,5 +7598,572 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
       "assertion-reason",
       "angular-momentum"
     ]
+  },
+  {
+    "id": "errorless-phy-grav-361",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "Two identical spheres of radius $R$ and uniform density $\\rho$ are placed in contact with each other. The force of gravitation between the spheres will be proportional to:",
+    "options": [
+      "$R$",
+      "$R^2$",
+      "$R^4$",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nGravitational force between two spherical masses whose centers are separated by distance $r = 2R$ is $F = \\frac{G M M}{(2R)^2}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- Mass of each sphere: $M = \\frac{4}{3}\\pi R^3 \\rho$.\n- Center-to-center distance when in contact: $r = 2R$.\n- Gravitational force:\n  $$F = \\frac{G \\left(\\frac{4}{3}\\pi R^3 \\rho\\right)^2}{(2R)^2} = \\frac{4}{9}\\pi^2 G \\rho^2 \\frac{R^6}{4R^2} = \\frac{1}{9}\\pi^2 G \\rho^2 R^4 \\propto R^4$$\n\n✓ **Examiner Pro-Tip**: \nWhen two identical touching spheres scale in size with constant density, $M \\propto R^3$, $r \\propto R$, hence $F \\propto \\frac{M^2}{r^2} \\propto \\frac{R^6}{R^2} = R^4$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "touching-spheres"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-362",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "Suppose that the force of earth's gravity suddenly disappears, choose the correct answer out of the following statements:",
+    "options": [
+      "The weight of the body will become zero but mass remains the same",
+      "The mass of the body will become zero but the weight remains the same",
+      "Both the mass and weight will be the same",
+      "Mass and weight will remain the same"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nMass is an intrinsic property representing the amount of matter in a body ($m = \\text{constant}$), while weight is the gravitational force exerted on it ($W = mg$).\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- If gravity disappears ($g = 0$), then $W = m \\times 0 = 0$.\n- The intrinsic mass $m$ remains completely unchanged.\n\n✓ **Examiner Pro-Tip**: \nMass is invariant under changes in gravitational field, whereas weight varies directly with $g$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "mass-vs-weight"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-363",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "An earth satellite is moved from one stable circular orbit to a further stable circular orbit. Which one of the following quantities increases?",
+    "options": [
+      "Gravitational force",
+      "Gravitational P.E.",
+      "Linear orbital speed",
+      "Centripetal acceleration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nFor a satellite in a circular orbit of radius $r$:\n- Gravitational potential energy: $U = -\\frac{GMm}{r}$\n- Orbital speed: $v = \\sqrt{\\frac{GM}{r}}$\n- Gravitational force: $F = \\frac{GMm}{r^2}$\n- Centripetal acceleration: $a_c = \\frac{GM}{r^2}$\n\n⚡ **Step-by-Step Derivation & Calculations**: \nAs the orbital radius $r$ increases:\n- $F$, $v$, and $a_c$ all decrease.\n- $U = -\\frac{GMm}{r}$ becomes less negative, which means $U$ increases towards zero.\n\n✓ **Examiner Pro-Tip**: \nMoving to a higher orbit increases potential energy $U$ and total energy $E$, while reducing kinetic energy $K$ and orbital speed $v$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "satellite-orbit"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-364",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "Two planets revolve round the sun with frequencies $N_1$ and $N_2$ revolutions per year. If their average orbital radii be $R_1$ and $R_2$ respectively, then $R_1 / R_2$ is equal to:",
+    "options": [
+      "$(N_1 / N_2)^{3/2}$",
+      "$(N_2 / N_1)^{3/2}$",
+      "$(N_1 / N_2)^{2/3}$",
+      "$(N_2 / N_1)^{2/3}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBy Kepler's Third Law, $T^2 \\propto R^3$. Since frequency of revolution is $N = \\frac{1}{T}$, $N^{-2} \\propto R^3$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{N_1}{N_2} = \\frac{T_2}{T_1} = \\left(\\frac{R_2}{R_1}\\right)^{3/2} \\implies \\frac{R_1}{R_2} = \\left(\\frac{N_2}{N_1}\\right)^{2/3}$$\n\n✓ **Examiner Pro-Tip**: \n$\\frac{R_1}{R_2} = \\left(\\frac{T_1}{T_2}\\right)^{2/3} = \\left(\\frac{N_2}{N_1}\\right)^{2/3}$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "keplers-third-law"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-365",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "There is no atmosphere on the moon because:",
+    "options": [
+      "It is closer to the earth",
+      "It revolves round the earth",
+      "It gets light from the sun",
+      "The escape velocity of gas molecules is lesser than their root mean square velocity here"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nA celestial body cannot hold an atmosphere if the thermal root-mean-square speed ($v_{rms}$) of gas molecules exceeds the escape velocity ($v_e$) from its surface.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nOn the Moon, $v_e = \\sqrt{\\frac{2GM}{R}} \\approx 2.38\\text{ km/s}$. The thermal $v_{rms} = \\sqrt{\\frac{3k_B T}{m}}$ of gases at lunar temperatures is greater than $2.38\\text{ km/s}$, so atmospheric gases easily escaped into space.\n\n✓ **Examiner Pro-Tip**: \nCondition to retain atmosphere: $v_{rms} < v_e$ (ideally $v_{rms} \\le \\frac{1}{5} v_e$ for geological stability).",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "lunar-atmosphere"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-366",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "Two heavenly bodies $S_1$ and $S_2$, not far off from each other, are seen to revolve in orbits:",
+    "options": [
+      "Around their common centre of mass",
+      "Which are arbitrary",
+      "With $S_1$ fixed and $S_2$ moving round $S_1$",
+      "With $S_2$ fixed and $S_1$ moving round $S_2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nIn an isolated two-body gravitational system under mutual attraction with no external force, the centre of mass of the system remains at rest or moves with uniform velocity in an inertial frame.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nBoth bodies orbit about their common centre of mass (barycentre) with the same angular velocity $\\omega$, with orbital radii inversely proportional to their respective masses: $r_1 / r_2 = m_2 / m_1$.\n\n✓ **Examiner Pro-Tip**: \nBinary star systems always orbit their common centre of mass, maintaining collinearity with the barycentre at all times.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "centre-of-mass"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-367",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "The mass of the moon is about 1.2% of the mass of the earth. Compared to the gravitational force the earth exerts on the moon, the gravitational force the moon exerts on earth:",
+    "options": [
+      "Is the same",
+      "Is smaller",
+      "Is greater",
+      "Varies with its phase"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nNewton's Third Law of Motion and Universal Gravitation states that action and reaction forces are always equal in magnitude and opposite in direction: $\\vec{F}_{EM} = -\\vec{F}_{ME}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$F = \\frac{G M_E M_M}{r^2}$$\nBoth the Earth and the Moon experience the exact same gravitational force magnitude $F$.\n\n✓ **Examiner Pro-Tip**: \nAlthough forces are identical in magnitude, the resulting acceleration of the Moon is $\\sim 81$ times greater than that of the Earth ($a = F/m$).",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "newtons-third-law"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-368",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "A clock S is based on the oscillation of a spring and a clock P is based on pendulum motion. Both clocks run at the same rate on earth. On a planet having the same density as earth but twice the radius:",
+    "options": [
+      "S will run faster than P",
+      "P will run faster than S",
+      "They will both run at the same rate as on the earth",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \n- Spring clock period: $T_S = 2\\pi \\sqrt{\\frac{m}{k}}$ (independent of $g$).\n- Pendulum clock period: $T_P = 2\\pi \\sqrt{\\frac{l}{g}}$ (inversely proportional to $\\sqrt{g}$).\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- On the planet with same density $\\rho$ and radius $R_p = 2R_e$:\n  $$g = \\frac{4}{3}\\pi G \\rho R \\implies g_p = 2 g_e$$\n- Since $g_p > g_e$, the time period $T_P = 2\\pi \\sqrt{l/g_p}$ decreases, meaning clock P ticks faster (runs faster).\n- Clock S period is unaffected by $g$, so S runs at its normal rate.\n- Hence, P runs faster than S.\n\n✓ **Examiner Pro-Tip**: \nWhen $g$ increases, pendulum clocks gain time (run fast), whereas spring-driven clocks remain unaffected.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "pendulum-vs-spring"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-369",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "Consider earth to be a homogeneous sphere. Scientist A goes deep down in a mine and scientist B goes high up in a balloon. The value of g measured by:",
+    "options": [
+      "A goes on decreasing and that by B goes on increasing",
+      "B goes on decreasing and that by A goes on increasing",
+      "Each decreases at the same rate",
+      "Each decreases at different rates"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nAcceleration due to gravity decreases both with altitude ($h$) and depth ($d$).\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- At depth $d$: $g_d = g\\left(1 - \\frac{d}{R}\\right) \\implies \\left|\\frac{\\Delta g}{g}\\right|_{depth} = \\frac{d}{R}$\n- At height $h$ ($h \\ll R$): $g_h = g\\left(1 - \\frac{2h}{R}\\right) \\implies \\left|\\frac{\\Delta g}{g}\\right|_{height} = \\frac{2h}{R}$\n- Both scientists observe a decrease in $g$, but the rate of decrease with height is twice as fast as with depth for equal distances ($2h/R$ vs $d/R$). Thus, each decreases at different rates.\n\n✓ **Examiner Pro-Tip**: \nRate of decrease of $g$ with height is double the rate of decrease with depth near the Earth's surface.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "variation-in-g"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-370",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "The mass of the moon is $\\frac{1}{81}$ of the earth but the gravitational pull is $\\frac{1}{6}$ of the earth. It is due to the fact that:",
+    "options": [
+      "The radius of the moon is $\\frac{81}{6}$ of the earth",
+      "The radius of the earth is $\\frac{9}{\\sqrt{6}}$ of the moon",
+      "Moon is the satellite of the earth",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nAcceleration due to gravity is $g = \\frac{GM}{R^2} \\implies R = \\sqrt{\\frac{GM}{g}}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{R_e}{R_m} = \\sqrt{\\frac{M_e}{M_m} \\cdot \\frac{g_m}{g_e}} = \\sqrt{81 \\times \\frac{1}{6}} = \\frac{9}{\\sqrt{6}}$$\nTherefore, $R_e = \\frac{9}{\\sqrt{6}} R_m$.\n\n✓ **Examiner Pro-Tip**: \nRatio of radii: $\\frac{R_e}{R_m} = \\sqrt{\\frac{M_e/M_m}{g_e/g_m}} = \\sqrt{\\frac{81}{6}} = \\frac{9}{\\sqrt{6}} \\approx 3.67$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "moon-parameters"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-371",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "A weight is suspended from the ceiling of a lift by a spring balance. When the lift is stationary the spring balance reads $W$. If the lift suddenly falls freely under gravity, the reading on the spring balance will be:",
+    "options": [
+      "$W$",
+      "$2W$",
+      "$W/2$",
+      "$0$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nApparent weight recorded by a spring balance in an accelerating lift is $R = m(g - a)$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nIn free fall under gravity, the downward acceleration of the lift is $a = g$.\n$$R = m(g - g) = 0$$\nThe spring balance reading becomes zero (state of weightlessness).\n\n✓ **Examiner Pro-Tip**: \nIn any freely falling frame, apparent gravity $g_{eff} = 0$, so all support forces and balance readings vanish.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "weightlessness"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-372",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "If a planet has a mass and radius that are both half that of the earth, the acceleration due to gravity at its surface would be ($g$ on earth $= 9.8\\text{ m/s}^2$):",
+    "options": [
+      "$4.9\\text{ m/s}^2$",
+      "$8.9\\text{ m/s}^2$",
+      "$19.6\\text{ m/s}^2$",
+      "$29.4\\text{ m/s}^2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nSurface gravity is given by $g = \\frac{GM}{R^2}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nGiven $M_p = \\frac{M_e}{2}$ and $R_p = \\frac{R_e}{2}$:\n$$\\frac{g_p}{g_e} = \\frac{M_p}{M_e} \\left(\\frac{R_e}{R_p}\\right)^2 = \\left(\\frac{1}{2}\\right) (2)^2 = 2$$\n$$g_p = 2 g_e = 2 \\times 9.8\\text{ m/s}^2 = 19.6\\text{ m/s}^2$$\n\n✓ **Examiner Pro-Tip**: \nHalving radius increases $g$ by factor 4; halving mass reduces $g$ by factor 2; net effect is $4/2 = 2$ times.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "surface-gravity"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-373",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "At a given place where acceleration due to gravity is $g\\text{ m/s}^2$, a sphere of lead of density $d\\text{ kg/m}^3$ is gently released in a column of liquid of density $\\rho\\text{ kg/m}^3$. If $d > \\rho$, the sphere will:",
+    "options": [
+      "Fall vertically with an acceleration $g\\text{ m/s}^2$",
+      "Fall vertically with no acceleration",
+      "Fall vertically with an acceleration $g\\left(\\frac{d - \\rho}{d}\\right)$",
+      "Fall vertically with an acceleration $g\\left(\\frac{\\rho}{d}\\right)$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nEffective downward force on a submerged body is $F_{net} = \\text{Weight} - \\text{Buoyant Force} = Vdg - V\\rho g$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- Mass of the sphere: $m = V d$.\n- Net downward acceleration:\n  $$a = \\frac{F_{net}}{m} = \\frac{V(d - \\rho)g}{Vd} = g\\left(\\frac{d - \\rho}{d}\\right)$$\n\n✓ **Examiner Pro-Tip**: \nEffective acceleration in a buoyant fluid: $g' = g\\left(1 - \\frac{\\rho_{fluid}}{\\rho_{body}}\\right)$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "apparent-weight"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-374",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "$g_e$ and $g_p$ denote the acceleration due to gravity on the surface of the earth and another planet whose mass and radius are twice as that of earth. Then:",
+    "options": [
+      "$g_p = g_e$",
+      "$g_p = g_e / 2$",
+      "$g_p = 2g_e$",
+      "$g_p = g_e / 4$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nAcceleration due to gravity is $g = \\frac{GM}{R^2}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nWith $M_p = 2M_e$ and $R_p = 2R_e$:\n$$\\frac{g_p}{g_e} = \\frac{M_p}{M_e} \\left(\\frac{R_e}{R_p}\\right)^2 = (2) \\left(\\frac{1}{2}\\right)^2 = \\frac{2}{4} = \\frac{1}{2}$$\n$$g_p = \\frac{g_e}{2}$$\n\n✓ **Examiner Pro-Tip**: \nDoubling both mass and radius always halves the surface gravitational acceleration.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "surface-gravity"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-375",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "If the value of $g$ at the surface of the earth is $9.8\\text{ m/s}^2$, then the value of $g$ at a place 480 km above the surface of the earth will be (Radius of the earth is 6400 km):",
+    "options": [
+      "$8.4\\text{ m/s}^2$",
+      "$9.8\\text{ m/s}^2$",
+      "$7.2\\text{ m/s}^2$",
+      "$4.2\\text{ m/s}^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nExact formula for acceleration due to gravity at height $h$: $g' = g\\left(\\frac{R}{R+h}\\right)^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- $R = 6400\\text{ km}$, $h = 480\\text{ km} \\implies R + h = 6880\\text{ km}$.\n- $g' = 9.8 \\times \\left(\\frac{6400}{6880}\\right)^2 = 9.8 \\times (0.9302)^2 = 9.8 \\times 0.8653 \\approx 8.48\\text{ m/s}^2 \\approx 8.4\\text{ m/s}^2$.\n\n✓ **Examiner Pro-Tip**: \nFor large heights ($h \\ge 100\\text{ km}$), always use the exact inverse square formula $g' = g\\frac{R^2}{(R+h)^2}$ rather than the linear approximation.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "height-variation"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-376",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "The acceleration due to gravity above the earth's surface would be half of its value on the surface of the earth at an altitude of ($R = 4000\\text{ miles}$):",
+    "options": [
+      "1200 miles",
+      "2000 miles",
+      "1600 miles",
+      "4000 miles"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nAt height $h$, $g' = g\\left(\\frac{R}{R+h}\\right)^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{g}{2} = g\\left(\\frac{R}{R+h}\\right)^2 \\implies \\frac{R+h}{R} = \\sqrt{2} \\approx 1.414$$\n$$h = (\\sqrt{2} - 1)R = 0.414 \\times 4000\\text{ miles} = 1656\\text{ miles} \\approx 1600\\text{ miles}$$\n\n✓ **Examiner Pro-Tip**: \nAltitude where $g' = g/n$ is given by $h = (\\sqrt{n} - 1)R$. For $n=2$, $h = (\\sqrt{2} - 1)R \\approx 0.414 R$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "height-variation"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-377",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "A pendulum clock is set to give correct time at sea level. This clock is moved to a hill station at an altitude of 2500 m above sea level. In order to keep correct time at the hill station, the length of the pendulum:",
+    "options": [
+      "Has to be reduced",
+      "Has to be increased",
+      "Needs no adjustment",
+      "Needs no adjustment but its mass has to be increased"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nTime period of a simple pendulum is $T = 2\\pi \\sqrt{\\frac{l}{g}}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- At higher altitude (on a hill), acceleration due to gravity $g$ decreases.\n- To keep the time period $T$ constant so that the clock reads correct time, the ratio $\\frac{l}{g}$ must remain constant.\n- Since $g$ decreases, the length $l$ of the pendulum must be proportionally reduced.\n\n✓ **Examiner Pro-Tip**: \n$\\frac{l}{g} = \\text{constant} \\implies \\frac{\\Delta l}{l} = \\frac{\\Delta g}{g}$. Since $g$ decreases, $l$ must be decreased.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "pendulum-clock"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-378",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "At some point the gravitational potential and also the gravitational field due to earth is zero. The point is:",
+    "options": [
+      "On earth's surface",
+      "Below earth's surface",
+      "At a height $R_e$ from earth's surface",
+      "At infinity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nGravitational field $E(r) = \\frac{GM}{r^2}$ and gravitational potential $V(r) = -\\frac{GM}{r}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- At $r \\to \\infty$:\n  $$V(\\infty) = \\lim_{r\\to\\infty} \\left(-\\frac{GM}{r}\\right) = 0$$\n  $$E(\\infty) = \\lim_{r\\to\\infty} \\left(\\frac{GM}{r^2}\\right) = 0$$\nBoth potential and field intensity simultaneously vanish at infinity.\n\n✓ **Examiner Pro-Tip**: \nAt the Earth's center, field is zero but potential is $-1.5 \\frac{GM}{R} \\neq 0$. Both are zero only at infinity.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "infinity-boundary"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-379",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "A body falls freely under gravity. Its speed is $v$ when it has lost an amount $U$ of gravitational energy. Then its mass is:",
+    "options": [
+      "$\\frac{U g}{v^2}$",
+      "$\\frac{U^2}{g}$",
+      "$\\frac{2U}{v^2}$",
+      "$2 U g v^2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBy the law of conservation of mechanical energy, loss in gravitational potential energy equals gain in kinetic energy.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\Delta K = |\\Delta U| = U$$\n$$\\frac{1}{2} m v^2 = U \\implies m = \\frac{2U}{v^2}$$\n\n✓ **Examiner Pro-Tip**: \n$m = \\frac{2K}{v^2} = \\frac{2U}{v^2}$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "energy-conservation"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-380",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "The ratio of the radius of the earth to that of the moon is 10. The ratio of acceleration due to gravity on the earth and on the moon is 6. The ratio of the escape velocity from the earth's surface to that from the moon is:",
+    "options": [
+      "10",
+      "6",
+      "Nearly 8",
+      "1.66"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nEscape velocity is given by $v_e = \\sqrt{2gR}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{v_{e, earth}}{v_{e, moon}} = \\sqrt{\\frac{g_e}{g_m} \\cdot \\frac{R_e}{R_m}} = \\sqrt{6 \\times 10} = \\sqrt{60} \\approx 7.75 \\approx 8$$\n\n✓ **Examiner Pro-Tip**: \n$\\sqrt{60} \\approx 7.75$, which is rounded to nearly 8.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "escape-velocity"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-381",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "Escape velocity from the moon surface is less than that on the earth surface, because:",
+    "options": [
+      "Moon has no atmosphere while the earth has",
+      "Radius and mass of moon are less than that of the earth",
+      "Moon is nearer to the sun",
+      "Moon is attracted by other planets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nEscape velocity $v_e = \\sqrt{\\frac{2GM}{R}}$ depends directly on the mass and radius of the celestial body.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nSince the Moon's mass ($M_m \\approx M_e/81$) and radius ($R_m \\approx R_e/3.7$) are significantly smaller than Earth's, $v_e = \\sqrt{2GM/R}$ is much lower on the Moon ($2.38\\text{ km/s}$ vs $11.2\\text{ km/s}$). (Option b is the correct physical cause).\n\n✓ **Examiner Pro-Tip**: \nSmaller mass and radius yield a much shallower gravitational potential well.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "escape-velocity"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-382",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Easy",
+    "questionText": "The ratio of the radius of planet A to that of planet B is $r$. The ratio of acceleration due to gravity on the planets is $x$. The ratio of the escape velocities from the two planets is:",
+    "options": [
+      "$x r$",
+      "$\\sqrt{x/r}$",
+      "$\\sqrt{r x}$",
+      "$\\sqrt{x}/r$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nEscape velocity is $v = \\sqrt{2gR}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nGiven $\\frac{R_A}{R_B} = r$ and $\\frac{g_A}{g_B} = x$:\n$$\\frac{v_A}{v_B} = \\sqrt{\\frac{g_A}{g_B} \\cdot \\frac{R_A}{R_B}} = \\sqrt{x \\cdot r} = \\sqrt{rx}$$\n\n✓ **Examiner Pro-Tip**: \nEscape velocity ratio directly equals $\\sqrt{x r}$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "escape-velocity"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-383",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "The time period of revolution of a nearest satellite around a planet of radius $R$ is $T$. The period of revolution around another planet whose radius is $3R$ but having the same density is:",
+    "options": [
+      "$T$",
+      "$3T$",
+      "$9T$",
+      "$3\\sqrt{3}T$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nFor a satellite orbiting very close to the surface of a planet ($r \\approx R$):\n$$T = 2\\pi \\sqrt{\\frac{R^3}{GM}} = 2\\pi \\sqrt{\\frac{R^3}{G \\left(\\frac{4}{3}\\pi R^3 \\rho\\right)}} = \\sqrt{\\frac{3\\pi}{G\\rho}}$$\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- The orbital period $T$ depends only on the mean density $\\rho$ of the planet and is completely independent of its radius $R$.\n- Since both planets have the exact same density, $T' = T$.\n\n✓ **Examiner Pro-Tip**: \nFor surface satellites, $T = \\sqrt{\\frac{3\\pi}{G\\rho}} = \\text{constant}$ for all planets of the same density.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "satellite-period"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-384",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "The maximum possible velocity of a satellite orbiting round the earth in a stable orbit is:",
+    "options": [
+      "$\\sqrt{2 R_e g}$",
+      "$\\sqrt{R_e g}$",
+      "$\\sqrt{\\frac{R_e g}{2}}$",
+      "Infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nFor a satellite to remain in a stable closed orbit around the Earth, its speed must satisfy $v_o \\le v < v_e$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- The maximum orbital speed in a circular orbit is attained at the closest possible orbit ($h \\to 0$, near surface): $v_{max} = \\sqrt{g R_e}$.\n- If velocity reaches or exceeds $v_e = \\sqrt{2 g R_e}$, the satellite escapes the orbit into a parabolic/hyperbolic trajectory and is no longer in a closed bound orbit.\n- Therefore, the maximum stable circular orbit speed is $\\sqrt{g R_e}$.\n\n✓ **Examiner Pro-Tip**: \nMaximum closed circular orbital speed is the first cosmic velocity $v_o = \\sqrt{g R_e} \\approx 7.92\\text{ km/s}$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "maximum-orbital-velocity"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-385",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "A man inside an artificial satellite feels weightlessness because the force of attraction due to earth is:",
+    "options": [
+      "Zero at that place",
+      "Is balanced by the force of attraction due to moon",
+      "Equal to the required centripetal force",
+      "Non-effective due to particular design of the satellite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nIn an orbiting satellite, the entire gravitational attraction of Earth is utilized in providing the necessary centripetal acceleration ($a = g'$).\n\n⚡ **Step-by-Step Derivation & Calculations**: \nBoth the satellite and the occupant fall freely together towards Earth's center with the same acceleration $g'$. As a result, the normal contact reaction from the floor is zero ($N = m(g' - a) = 0$), producing the condition of weightlessness.\n\n✓ **Examiner Pro-Tip**: \nWeightlessness does not mean zero gravity; it means zero normal reaction force ($N = 0$).",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "weightlessness"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-386",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "Two identical satellites A and B are circulating round the earth at heights of $R$ and $2R$ respectively (where $R$ is radius of the earth). The ratio of kinetic energy of A to that of B is:",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$",
+      "$2$",
+      "$\\frac{3}{2}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nKinetic energy of a satellite of mass $m$ in an orbit of radius $r = R + h$ is $K = \\frac{GMm}{2r} \\propto \\frac{1}{r}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- For satellite A: $r_A = R + R = 2R$.\n- For satellite B: $r_B = R + 2R = 3R$.\n$$\\frac{K_A}{K_B} = \\frac{r_B}{r_A} = \\frac{3R}{2R} = \\frac{3}{2}$$\n\n✓ **Examiner Pro-Tip**: \n$\\frac{K_A}{K_B} = \\frac{R + h_B}{R + h_A} = \\frac{3R}{2R} = \\frac{3}{2}$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "satellite-kinetic-energy"
+    ]
+  },
+  {
+    "id": "errorless-phy-grav-387",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Self Evaluation Test - 8",
+    "difficulty": "Medium",
+    "questionText": "The mean radius of the earth's orbit round the sun is $1.5 \\times 10^{11}\\text{ m}$. The mean radius of the orbit of mercury round the sun is $6 \\times 10^{10}\\text{ m}$. Mercury will rotate around the sun in:",
+    "options": [
+      "1 year",
+      "Nearly 4 years",
+      "Nearly $\\frac{1}{4}$ year",
+      "2.5 years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBy Kepler's Third Law, $\\left(\\frac{T_M}{T_E}\\right)^2 = \\left(\\frac{R_M}{R_E}\\right)^3$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{T_M}{T_E} = \\left(\\frac{R_M}{R_E}\\right)^{3/2} = \\left(\\frac{6 \\times 10^{10}}{1.5 \\times 10^{11}}\\right)^{3/2} = (0.4)^{3/2} = \\sqrt{0.064} \\approx 0.253\\text{ year} \\approx \\frac{1}{4}\\text{ year}$$\n\n✓ **Examiner Pro-Tip**: \nMercury's actual orbital period is $\\approx 88\\text{ days} \\approx 0.24\\text{ years} \\approx \\frac{1}{4}\\text{ year}$.",
+    "tags": [
+      "gravitation",
+      "self-evaluation-test-8",
+      "keplers-third-law"
+    ]
   }
 ];
