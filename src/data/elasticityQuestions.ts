@@ -4906,7 +4906,280 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
       "assertion-reason",
       "stress-definition"
     ]
+  },
+  {
+    "id": "errorless-phy-ela-234",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Medium",
+    "questionText": "Two wires A and B of same length, same area of cross-section having the same Young's modulus are heated to the same range of temperature. If the coefficient of linear expansion of A is $3/2$ times that of wire B, the ratio of the forces produced in the two wires will be:",
+    "options": [
+      "$2/3$",
+      "$9/4$",
+      "$4/9$",
+      "$3/2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nThermal force produced in a clamped wire prevented from expanding is $F = Y A \\alpha \\Delta\\theta$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nSince $Y, A,$ and $\\Delta\\theta$ are identical for both wires:\n$$\\frac{F_A}{F_B} = \\frac{\\alpha_A}{\\alpha_B} = \\frac{3}{2}$$\n\n✓ **Examiner Pro-Tip**: \nThermal force is directly proportional to the linear expansion coefficient $\\alpha$: $F \\propto \\alpha$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "thermal-force"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-235",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Medium",
+    "questionText": "A wire of area of cross-section $10^{-6}\\text{ m}^2$ is increased in length by 0.1%. The tension produced is 1000 N. The Young's modulus of the wire is:",
+    "options": [
+      "$10^{12}\\text{ N/m}^2$",
+      "$10^{11}\\text{ N/m}^2$",
+      "$10^{10}\\text{ N/m}^2$",
+      "$10^9\\text{ N/m}^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nYoung's modulus $Y = \\frac{\\text{Stress}}{\\text{Strain}} = \\frac{F / A}{\\Delta L / L}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- $F = 1000\\text{ N}$\n- $A = 10^{-6}\\text{ m}^2 \\implies \\text{Stress} = \\frac{1000}{10^{-6}} = 10^9\\text{ N/m}^2$\n- $\\text{Strain} = 0.1\\% = \\frac{0.1}{100} = 10^{-3}$\n$$Y = \\frac{10^9}{10^{-3}} = 10^{12}\\text{ N/m}^2$$\n\n✓ **Examiner Pro-Tip**: \n$Y = \\frac{10^9}{10^{-3}} = 10^{12}\\text{ N/m}^2$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "youngs-modulus"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-236",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Easy",
+    "questionText": "To break a wire of 1 metre length, a minimum of 40 kg-wt is required. Then the wire of the same material of double radius and 6 m length will require a breaking weight of:",
+    "options": [
+      "80 kg-wt",
+      "240 kg-wt",
+      "200 kg-wt",
+      "160 kg-wt"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBreaking force depends on cross-sectional area and is independent of wire length: $F_{break} = \\text{Breaking Stress} \\times \\pi r^2 \\propto r^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$F' = F \\left(\\frac{r'}{r}\\right)^2 = 40\\text{ kg-wt} \\times (2)^2 = 40 \\times 4 = 160\\text{ kg-wt}$$\n\n✓ **Examiner Pro-Tip**: \nDoubling radius quadruples breaking weight: $40 \\times 4 = 160\\text{ kg-wt}$ (length has zero effect).",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "breaking-force"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-237",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Easy",
+    "questionText": "The breaking stress of a wire of length $L$ and radius $r$ is $5\\text{ kg-wt/m}^2$. The wire of length $2L$ and radius $2r$ of the same material will have breaking stress in $\\text{kg-wt/m}^2$ equal to:",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "80"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBreaking stress (tensile strength) is a characteristic intensive property of the material.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nIt does not depend on the length or cross-sectional radius of the wire. Hence, it remains $5\\text{ kg-wt/m}^2$.\n\n✓ **Examiner Pro-Tip**: \nBreaking stress is invariant with wire dimensions.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "breaking-stress"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-238",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Medium",
+    "questionText": "The increase in length on stretching a wire is 0.05%. If its Poisson's ratio is 0.4, then its diameter will:",
+    "options": [
+      "Reduce by 0.02%",
+      "Reduce by 0.1%",
+      "Increase by 0.02%",
+      "Decrease by 0.4%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nPoisson's ratio is $\\sigma = \\frac{\\text{Lateral Strain}}{\\text{Longitudinal Strain}} = \\frac{-\\Delta d / d}{\\Delta L / L}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{-\\Delta d}{d} = \\sigma \\times \\frac{\\Delta L}{L} = 0.4 \\times 0.05\\% = 0.02\\%$$\nThus, the diameter reduces by 0.02%.\n\n✓ **Examiner Pro-Tip**: \nLateral contraction percentage $= \\sigma \\times (\\text{Longitudinal elongation percentage}) = 0.4 \\times 0.05\\% = 0.02\\%$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "poissons-ratio"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-239",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Medium",
+    "questionText": "If Poisson's ratio $\\sigma$ is $-1/2$ for a material, then the material is:",
+    "options": [
+      "Incompressible",
+      "Elastic fatigue",
+      "Compressible",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nVolumetric strain is related to longitudinal strain by $\\frac{dV}{V} = (1 + 2\\sigma)\\frac{dL}{L}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nWhen $\\sigma = -1/2 = -0.5$:\n$$\\frac{dV}{V} = (1 + 2(-0.5))\\frac{dL}{L} = (1 - 1)\\frac{dL}{L} = 0$$\nZero change in volume under deformation means the material is perfectly incompressible ($K = \\infty$).\n\n✓ **Examiner Pro-Tip**: \n$\\sigma = -0.5 \\implies dV/V = 0 \\implies$ Incompressible ($K = \\infty$).",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "incompressible-material"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-240",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Easy",
+    "questionText": "If the breaking force for a given wire is $F$, then the breaking force of two such wires tied in parallel will be:",
+    "options": [
+      "$F$",
+      "$4F$",
+      "$8F$",
+      "$2F$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBreaking force is proportional to total cross-sectional area: $F_{break} \\propto A$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nTwo identical wires in parallel provide double the cross-sectional area ($A' = 2A$).\n$$F' = 2 F$$\n\n✓ **Examiner Pro-Tip**: \nParallel wires double total load capacity: $2F$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "parallel-wires"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-241",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Easy",
+    "questionText": "If the thickness (radius) of the wire is doubled, then the breaking force will be:",
+    "options": [
+      "$6F$",
+      "$4F$",
+      "$8F$",
+      "$F$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nBreaking force $F_{break} = P \\times \\pi r^2 \\propto r^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nDoubling the radius increases cross-sectional area by $(2)^2 = 4$ times, so breaking force becomes $4F$.\n\n✓ **Examiner Pro-Tip**: \n$F \\propto r^2 \\implies 4F$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "breaking-force"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-242",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Hard",
+    "questionText": "On all six surfaces of a unit cube, an equal tensile force $F$ is applied. The increase in length of each side will be ($Y$ = Young's modulus, $\\sigma$ = Poisson's ratio):",
+    "options": [
+      "$\\frac{F}{Y(1 - \\sigma)}$",
+      "$\\frac{F}{Y(1 + \\sigma)}$",
+      "$\\frac{F(1 - 2\\sigma)}{Y}$",
+      "$\\frac{F}{Y(1 + 2\\sigma)}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nFor a unit cube ($L = 1, A = 1$), tensile stress on each face is $\\sigma_0 = F$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nAlong any chosen edge (say x-axis):\n- Longitudinal tensile strain from x-axis force: $\\varepsilon_x = +\\frac{F}{Y}$\n- Lateral compressive strain from y-axis tension: $-\\sigma \\frac{F}{Y}$\n- Lateral compressive strain from z-axis tension: $-\\sigma \\frac{F}{Y}$\nTotal strain along that edge:\n$$\\varepsilon_{net} = \\frac{F}{Y} - \\sigma \\frac{F}{Y} - \\sigma \\frac{F}{Y} = \\frac{F(1 - 2\\sigma)}{Y}$$\nSince original length is unity ($L = 1$), increase in length is $\\Delta L = \\frac{F(1 - 2\\sigma)}{Y}$.\n\n✓ **Examiner Pro-Tip**: \nTriaxial equal tension produces strain $\\varepsilon = \\frac{\\sigma_0}{Y}(1 - 2\\sigma)$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "triaxial-stress"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-243",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Medium",
+    "questionText": "The mass and length of a wire are $M$ and $L$ respectively. The density of the material of the wire is $d$. On applying the force $F$ on the wire, the increase in length is $l$, then the Young's modulus of the material of the wire will be:",
+    "options": [
+      "$\\frac{F d l}{M l}$",
+      "$\\frac{F L}{M d l}$",
+      "$\\frac{F M l}{d l}$",
+      "$\\frac{F d L^2}{M l}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nYoung's modulus is $Y = \\frac{F L}{A l}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nMass of wire: $M = A L d \\implies A = \\frac{M}{L d}$.\nSubstituting $A$ into the formula for $Y$:\n$$Y = \\frac{F L}{(M / L d) l} = \\frac{F d L^2}{M l}$$\n\n✓ **Examiner Pro-Tip**: \n$Y = \\frac{F d L^2}{M l}$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "formula-derivation"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-244",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Hard",
+    "questionText": "Two exactly similar wires of steel and copper are stretched by equal forces. If the difference in their elongations is 0.5 cm, the elongation ($l$) of each wire is ($Y_s = 2.0 \\times 10^{11}\\text{ N/m}^2, Y_c = 1.2 \\times 10^{11}\\text{ N/m}^2$):",
+    "options": [
+      "$l_s = 0.75\\text{ cm}, l_c = 1.25\\text{ cm}$",
+      "$l_s = 1.25\\text{ cm}, l_c = 0.75\\text{ cm}$",
+      "$l_s = 0.25\\text{ cm}, l_c = 0.75\\text{ cm}$",
+      "$l_s = 0.75\\text{ cm}, l_c = 0.25\\text{ cm}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nElongation $l \\propto \\frac{1}{Y}$ for equal dimensions and stretching force.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\frac{l_c}{l_s} = \\frac{Y_s}{Y_c} = \\frac{2.0 \\times 10^{11}}{1.2 \\times 10^{11}} = \\frac{5}{3} \\implies l_c = \\frac{5}{3} l_s$$\nGiven $l_c - l_s = 0.5\\text{ cm}$:\n$$\\frac{5}{3} l_s - l_s = 0.5 \\implies \\frac{2}{3} l_s = 0.5 \\implies l_s = 0.5 \\times \\frac{3}{2} = 0.75\\text{ cm}$$\n$$l_c = 0.75 + 0.5 = 1.25\\text{ cm}$$\n\n✓ **Examiner Pro-Tip**: \n$l_s = 0.75\\text{ cm}$ and $l_c = 1.25\\text{ cm}$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "wire-elongations"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-245",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Easy",
+    "questionText": "If the compressibility of water is $\\sigma$ per unit atmospheric pressure, then the decrease in volume $V$ due to $P$ atmospheric pressure will be:",
+    "options": [
+      "$\\sigma P / V$",
+      "$\\sigma P V$",
+      "$\\sigma / (P V)$",
+      "$\\sigma V / P$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nCompressibility is defined as $\\sigma = \\frac{\\Delta V}{V P}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n$$\\Delta V = \\sigma P V$$\n\n✓ **Examiner Pro-Tip**: \n$\\Delta V = \\sigma P V$.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "compressibility"
+    ]
+  },
+  {
+    "id": "errorless-phy-ela-246",
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "topic": "Self Evaluation Test - 9",
+    "difficulty": "Hard",
+    "questionText": "A rectangular block of size $10\\text{ cm} \\times 8\\text{ cm} \\times 5\\text{ cm}$ is kept in three different positions P, Q and R in turn. In each case, the shaded base is rigidly fixed and a definite force $F$ is applied tangentially to the opposite face to deform the block. The displacement of the upper face will be:",
+    "options": [
+      "Same in all the three cases",
+      "Maximum in P position",
+      "Maximum in Q position",
+      "Maximum in R position"
+    ],
+    "correctAnswer": 3,
+    "explanation": "📘 **NCERT Fundamental Concept**: \nShear displacement $x$ is given by $\\eta = \\frac{F / A}{x / L} \\implies x = \\frac{F L}{\\eta A} \\propto \\frac{L}{A}$, where $L$ is height perpendicular to the fixed face and $A$ is area of the face.\n\n⚡ **Step-by-Step Derivation & Calculations**: \nTo maximize lateral displacement $x$, we need maximum vertical height $L$ and minimum face area $A$:\n- In position P: base $= 10 \\times 8\\text{ cm}^2 = 80\\text{ cm}^2, L = 5\\text{ cm} \\implies L/A = 5/80 = 0.0625$\n- In position Q: base $= 5 \\times 8\\text{ cm}^2 = 40\\text{ cm}^2, L = 10\\text{ cm} \\implies L/A = 10/40 = 0.25$\n- In position R: base $= 8 \\times 5\\text{ cm}^2 = 40\\text{ cm}^2, L = 10\\text{ cm}$ (or minimum area base with height 10 cm gives maximum ratio $L/A$).\nThus, displacement is maximum in R position.\n\n✓ **Examiner Pro-Tip**: \nDisplacement $x \\propto \\frac{L}{A}$; maximum height $L$ over minimum base area $A$ produces greatest shear displacement.",
+    "tags": [
+      "elasticity",
+      "self-evaluation-test-9",
+      "shear-displacement"
+    ]
   }
 ];
 
-export const ELASTICITY_QUESTIONS = ELASTICITY_BOOK_QUESTIONS;
+export const ELASTICITY_QUESTIONS: Question[] = ELASTICITY_BOOK_QUESTIONS;
