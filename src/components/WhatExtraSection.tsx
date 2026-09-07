@@ -51,12 +51,14 @@ import {
   DownloadRecord
 } from '../types';
 import { SAMPLE_QUESTIONS, TEST_SERIES_DATA } from '../data/mockData';
-import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
-import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
-import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 import { downloadBookPDF, downloadDppPDF, downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { getUserDownloads, clearUserDownloads, getCurrentUser } from '../utils/downloadTracker';
-import { getUnifiedQuestionBank } from '../utils/questionDatabase';
+import {
+  getUnifiedQuestionBank,
+  ALL_BIOLOGY_CHAPTERS,
+  ALL_CHEMISTRY_CHAPTERS,
+  ALL_PHYSICS_CHAPTERS
+} from '../utils/questionDatabase';
 import {
   getUnusedQuestions,
   markQuestionsAsConsumed,
@@ -178,62 +180,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine, desc: 'Preserved download history of question papers, scorecards, NCERT books and DPPs.' }
   ];
 
-  // Available Chapters by Subject
-  const biologyChapters = useMemo(() => {
-    const chapters = Array.from(new Set(ALL_FINGERTIPS_BIOLOGY_QUESTIONS.map(q => q.chapter))).filter(Boolean);
-    return chapters.length > 0 ? chapters : [
-      'The Living World', 'Biological Classification', 'Plant Kingdom', 'Animal Kingdom',
-      'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Structural Organisation in Animals',
-      'Cell: The Unit of Life', 'Biomolecules', 'Cell Cycle and Cell Division',
-      'Photosynthesis in Higher Plants', 'Respiration in Plants', 'Plant Growth and Development',
-      'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products and their Elimination',
-      'Locomotion and Movement', 'Neural Control and Coordination', 'Chemical Coordination and Integration',
-      'Sexual Reproduction in Flowering Plants', 'Human Reproduction', 'Reproductive Health',
-      'Principles of Inheritance and Variation', 'Molecular Basis of Inheritance', 'Evolution',
-      'Human Health and Disease', 'Microbes in Human Welfare',
-      'Biotechnology: Principles and Processes', 'Biotechnology and its Applications',
-      'Organisms and Populations', 'Ecosystem', 'Biodiversity and Conservation', 'NEET Full Syllabus Mock'
-    ];
-  }, []);
-
-  const chemistryChapters = useMemo(() => {
-    return Array.from(new Set(ALL_CHEMISTRY_MASTER_QUESTIONS.map(q => q.chapter))).filter(Boolean);
-  }, []);
-
-  const physicsChapters = useMemo(() => {
-    const chapters = Array.from(new Set(ALL_PHYSICS_MASTER_QUESTIONS.map(q => q.chapter))).filter(Boolean);
-    return chapters.length > 0 ? chapters : [
-      'Units and Measurement',
-      'Vectors',
-      'Motion in One Dimension',
-      'Motion in a Plane',
-      'Laws of Motion',
-      'Work, Energy and Power',
-      'Gravitation',
-      'Mechanical Properties of Solids',
-      'Mechanical Properties of Fluids',
-      'Thermal Properties of Matter',
-      'Thermodynamics',
-      'Transmission of Heat',
-      'Simple Harmonic Motion',
-      'Waves and Sound',
-      'Rotational Motion',
-      'Kinetic Theory of Gases',
-      'Electrostatics',
-      'Electrostatic Potential and Capacitance',
-      'Current Electricity',
-      'Magnetism and Matter',
-      'Electromagnetic Induction',
-      'Alternating Current',
-      'Electromagnetic Waves',
-      'Ray Optics and Optical Instruments',
-      'Wave Optics',
-      'Dual Nature of Radiation and Matter',
-      'Atoms',
-      'Nuclei',
-      'Semiconductor Electronics: Materials, Devices and Simple Circuits'
-    ];
-  }, []);
+  // Available Chapters by Subject (Instantly pre-computed)
+  const biologyChapters = ALL_BIOLOGY_CHAPTERS;
+  const chemistryChapters = ALL_CHEMISTRY_CHAPTERS;
+  const physicsChapters = ALL_PHYSICS_CHAPTERS;
 
   const currentChapterList = customSubject === 'Biology'
     ? biologyChapters
@@ -332,7 +282,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       'All Chapters'
     );
 
-    const pool = stats.unusedQuestions.length >= 45 ? stats.unusedQuestions.slice(0, 45) : ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45);
+    const pool = stats.unusedQuestions.length >= 45 ? stats.unusedQuestions.slice(0, 45) : getUnifiedQuestionBank('Biology').slice(0, 45);
     markQuestionsAsConsumed(pool.map(q => q.id));
 
     downloadDppPDF({
@@ -393,7 +343,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         date: new Date().toISOString().split('T')[0],
         subject: record.subject || 'Biology & Chemistry High-Yield',
         level: 'CBT Standard NEET/JEE Level',
-        questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45)
+        questions: getUnifiedQuestionBank('Biology').slice(0, 45)
       });
     } else {
       const match = TEST_SERIES_DATA.find(t => t.title.toLowerCase().includes(record.title.toLowerCase())) || TEST_SERIES_DATA[0];

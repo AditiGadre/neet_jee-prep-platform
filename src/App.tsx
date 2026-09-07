@@ -1,22 +1,35 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Header } from './components/Header';
 import { Sidebar, TabType } from './components/Sidebar';
 import { TestSeriesSection } from './components/TestSeriesSection';
-import { WhatExtraSection } from './components/WhatExtraSection';
-import { AboutExamSection } from './components/AboutExamSection';
-import { AboutUsSection } from './components/AboutUsSection';
-import { ResultsSection } from './components/ResultsSection';
-import { SupportSection } from './components/SupportSection';
-import { CBTTestModal } from './components/CBTTestModal';
-import { LiveDoubtModal } from './components/LiveDoubtModal';
-import { BookReaderModal } from './components/BookReaderModal';
 import { supabase } from './supabaseClient';
-import { AuthModal } from './components/AuthModal';
-import { DownloadsModal } from './components/DownloadsModal';
-import { SuperUserModal } from './components/SuperUserModal';
-import { UploadContentModal } from './components/UploadContentModal';
 import { EnrollmentGate, EnrolledStudent } from './components/EnrollmentGate';
 import { SundayChapterSelection } from './components/SundayTestChapterModal';
+
+// Lazy-load secondary tabs & heavy interactive modals for sub-second initial load
+const WhatExtraSection = lazy(() => import('./components/WhatExtraSection').then(m => ({ default: m.WhatExtraSection })));
+const AboutExamSection = lazy(() => import('./components/AboutExamSection').then(m => ({ default: m.AboutExamSection })));
+const AboutUsSection = lazy(() => import('./components/AboutUsSection').then(m => ({ default: m.AboutUsSection })));
+const ResultsSection = lazy(() => import('./components/ResultsSection').then(m => ({ default: m.ResultsSection })));
+const SupportSection = lazy(() => import('./components/SupportSection').then(m => ({ default: m.SupportSection })));
+const CBTTestModal = lazy(() => import('./components/CBTTestModal').then(m => ({ default: m.CBTTestModal })));
+const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m => ({ default: m.LiveDoubtModal })));
+const BookReaderModal = lazy(() => import('./components/BookReaderModal').then(m => ({ default: m.BookReaderModal })));
+const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
+const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
+const SuperUserModal = lazy(() => import('./components/SuperUserModal').then(m => ({ default: m.SuperUserModal })));
+const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
+
+const SectionLoadingFallback = () => (
+  <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
+    <div className="relative w-12 h-12 mb-4">
+      <div className="absolute inset-0 rounded-full border-4 border-blue-200 animate-ping opacity-75"></div>
+      <div className="w-12 h-12 rounded-full border-4 border-blue-600 border-t-transparent animate-spin"></div>
+    </div>
+    <p className="text-sm font-semibold text-slate-700">Loading module...</p>
+    <p className="text-xs text-slate-400 mt-1">Preparing high-speed NCERT resources</p>
+  </div>
+);
 
 import {
   TEST_SERIES_DATA,
@@ -315,91 +328,96 @@ export default function App() {
 
         {/* Dynamic Content Area */}
         <main className="flex-1 p-4 sm:p-5 lg:p-6 overflow-y-auto bg-slate-100 min-w-0">
-          {activeTab === 'test-series' && (
-            <TestSeriesSection
-              testItems={TEST_SERIES_DATA}
-              onStartTest={handleStartTest}
-            />
-          )}
+          <Suspense fallback={<SectionLoadingFallback />}>
+            {activeTab === 'test-series' && (
+              <TestSeriesSection
+                testItems={TEST_SERIES_DATA}
+                onStartTest={handleStartTest}
+              />
+            )}
 
-          {activeTab === 'what-extra' && (
-            <WhatExtraSection
-              activeSubTab={extraSubTab}
-              onSelectSubTab={setExtraSubTab}
-              flashcards={FLASHCARDS_DATA}
-              mindMaps={MIND_MAPS_DATA}
-              books={BOOKS_DATA}
-              pyqs={PYQS_DATA}
-              onStartCustomTest={handleStartTest}
-              onOpenBook={setActiveBookForReading}
-              completedTests={completedTests}
-              onOpenUploadModal={handleOpenUpload}
-            />
-          )}
+            {activeTab === 'what-extra' && (
+              <WhatExtraSection
+                activeSubTab={extraSubTab}
+                onSelectSubTab={setExtraSubTab}
+                flashcards={FLASHCARDS_DATA}
+                mindMaps={MIND_MAPS_DATA}
+                books={BOOKS_DATA}
+                pyqs={PYQS_DATA}
+                onStartCustomTest={handleStartTest}
+                onOpenBook={setActiveBookForReading}
+                completedTests={completedTests}
+                onOpenUploadModal={handleOpenUpload}
+              />
+            )}
 
-          {activeTab === 'about-exam' && <AboutExamSection />}
+            {activeTab === 'about-exam' && <AboutExamSection />}
 
-          {activeTab === 'about-us' && <AboutUsSection />}
+            {activeTab === 'about-us' && <AboutUsSection />}
 
-          {activeTab === 'our-results' && <ResultsSection />}
+            {activeTab === 'our-results' && <ResultsSection />}
 
-          {activeTab === 'support' && (
-            <SupportSection
-              onOpenAskDoubtModal={() => setIsDoubtModalOpen(true)}
-            />
-          )}
+            {activeTab === 'support' && (
+              <SupportSection
+                onOpenAskDoubtModal={() => setIsDoubtModalOpen(true)}
+              />
+            )}
+          </Suspense>
         </main>
       </div>
 
-      {/* CBT Test Simulation Modal */}
-      {activeTestForCBT && (
-        <CBTTestModal
-          test={activeTestForCBT}
-          selectedChapters={selectedSundayChapters}
-          onClose={() => {
-            setActiveTestForCBT(null);
-            setSelectedSundayChapters(undefined);
-          }}
-          onSaveResult={handleSaveTestResult}
-        />
-      )}
+      {/* Suspended Modals */}
+      <Suspense fallback={null}>
+        {/* CBT Test Simulation Modal */}
+        {activeTestForCBT && (
+          <CBTTestModal
+            test={activeTestForCBT}
+            selectedChapters={selectedSundayChapters}
+            onClose={() => {
+              setActiveTestForCBT(null);
+              setSelectedSundayChapters(undefined);
+            }}
+            onSaveResult={handleSaveTestResult}
+          />
+        )}
 
-      {/* 24/7 Academic Doubt Modal */}
-      {isDoubtModalOpen && (
-        <LiveDoubtModal onClose={() => setIsDoubtModalOpen(false)} />
-      )}
+        {/* 24/7 Academic Doubt Modal */}
+        {isDoubtModalOpen && (
+          <LiveDoubtModal onClose={() => setIsDoubtModalOpen(false)} />
+        )}
 
-      {/* NCERT & Books Reader Modal */}
-      {activeBookForReading && (
-        <BookReaderModal
-          book={activeBookForReading}
-          onClose={() => setActiveBookForReading(null)}
-        />
-      )}
+        {/* NCERT & Books Reader Modal */}
+        {activeBookForReading && (
+          <BookReaderModal
+            book={activeBookForReading}
+            onClose={() => setActiveBookForReading(null)}
+          />
+        )}
 
-      {/* Auth Modal */}
-      {isAuthModalOpen && (
-        <AuthModal onClose={() => setIsAuthModalOpen(false)} />
-      )}
+        {/* Auth Modal */}
+        {isAuthModalOpen && (
+          <AuthModal onClose={() => setIsAuthModalOpen(false)} />
+        )}
 
-      {/* Downloads Vault Modal */}
-      {isDownloadsModalOpen && (
-        <DownloadsModal onClose={() => setIsDownloadsModalOpen(false)} />
-      )}
+        {/* Downloads Vault Modal */}
+        {isDownloadsModalOpen && (
+          <DownloadsModal onClose={() => setIsDownloadsModalOpen(false)} />
+        )}
 
-      {/* Super User & Admin Notification Center */}
-      {isSuperUserModalOpen && (
-        <SuperUserModal onClose={() => setIsSuperUserModalOpen(false)} />
-      )}
+        {/* Super User & Admin Notification Center */}
+        {isSuperUserModalOpen && (
+          <SuperUserModal onClose={() => setIsSuperUserModalOpen(false)} />
+        )}
 
-      {/* Content Upload & Ingestion Modal */}
-      {isUploadModalOpen && (
-        <UploadContentModal
-          onClose={() => setIsUploadModalOpen(false)}
-          defaultSubject={uploadSubject}
-          defaultChapter={uploadChapter}
-        />
-      )}
+        {/* Content Upload & Ingestion Modal */}
+        {isUploadModalOpen && (
+          <UploadContentModal
+            onClose={() => setIsUploadModalOpen(false)}
+            defaultSubject={uploadSubject}
+            defaultChapter={uploadChapter}
+          />
+        )}
+      </Suspense>
     </div>
   );
 }

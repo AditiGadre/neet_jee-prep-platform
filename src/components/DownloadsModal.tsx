@@ -22,9 +22,8 @@ import {
 } from 'lucide-react';
 import { DownloadRecord } from '../types';
 import { getUserDownloads, clearUserDownloads, getCurrentUser } from '../utils/downloadTracker';
-import { TEST_SERIES_DATA, BOOKS_DATA } from '../data/mockData';
 import { downloadBookPDF, downloadTestPaperPDF, downloadDppPDF } from '../utils/pdfDownloader';
-import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
+import { getUnifiedQuestionBank } from '../utils/questionDatabase';
 
 interface DownloadsModalProps {
   onClose: () => void;
@@ -109,7 +108,7 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
         date: new Date().toISOString().split('T')[0],
         subject: record.subject || 'Biology & Chemistry High-Yield',
         level: 'CBT Standard NEET/JEE Level',
-        questions: ALL_FINGERTIPS_BIOLOGY_QUESTIONS.slice(0, 45)
+        questions: getUnifiedQuestionBank('Biology').slice(0, 45)
       });
     } else {
       // Test Paper / Scorecard / Default

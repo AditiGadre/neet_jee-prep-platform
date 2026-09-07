@@ -9,15 +9,34 @@ import { getLearnedKnowledgeStore } from './aiKnowledgeEngine';
 
 const CUSTOM_QUESTIONS_KEY = 'neet_custom_questions';
 
+// Cached custom questions in memory
+let cachedCustomQuestions: Question[] | null = null;
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('storage', (e) => {
+    if (e.key === CUSTOM_QUESTIONS_KEY) {
+      cachedCustomQuestions = null;
+    }
+  });
+}
+
 /**
- * Get all custom uploaded questions from localStorage
+ * Get all custom uploaded questions from localStorage (cached)
  */
 export function getCustomQuestions(): Question[] {
+  if (cachedCustomQuestions !== null) {
+    return cachedCustomQuestions;
+  }
   try {
     const raw = localStorage.getItem(CUSTOM_QUESTIONS_KEY);
-    if (!raw) return [];
-    return JSON.parse(raw);
+    if (!raw) {
+      cachedCustomQuestions = [];
+      return cachedCustomQuestions;
+    }
+    cachedCustomQuestions = JSON.parse(raw);
+    return cachedCustomQuestions || [];
   } catch {
+    cachedCustomQuestions = [];
     return [];
   }
 }
@@ -30,33 +49,158 @@ function normalizeChapterName(name: string): string {
     .trim();
 }
 
+// Build pre-computed index structures once at module load
+function buildChapterIndex(questions: Question[]) {
+  const map = new Map<string, Question[]>();
+  const chapterSet = new Set<string>();
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    const ch = q.chapter;
+    if (ch) {
+      chapterSet.add(ch);
+      const norm = normalizeChapterName(ch);
+      let list = map.get(norm);
+      if (!list) {
+        list = [];
+        map.set(norm, list);
+      }
+      list.push(q);
+    }
+  }
+
+  return { map, chapters: Array.from(chapterSet) };
+}
+
+const bioIndex = buildChapterIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS);
+const chemIndex = buildChapterIndex(ALL_CHEMISTRY_MASTER_QUESTIONS);
+const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS);
+
+export const ALL_BIOLOGY_CHAPTERS: string[] = bioIndex.chapters;
+export const ALL_CHEMISTRY_CHAPTERS: string[] = chemIndex.chapters;
+export const ALL_PHYSICS_CHAPTERS: string[] = physIndex.chapters;
+
+// Static pre-combined array allocated once
+const ALL_BUILTIN_QUESTIONS: Question[] = [
+  ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
+  ...ALL_CHEMISTRY_MASTER_QUESTIONS,
+  ...ALL_PHYSICS_MASTER_QUESTIONS
+];
+
+function getQuestionsFromSubjectIndex(
+  subjectQuestions: Question[],
+  chapterMap: Map<string, Question[]>,
+  chapterList: string[],
+  chapter?: string
+): Question[] {
+  if (!chapter || chapter === 'All Chapters' || chapter === 'All Topics' || chapter.toLowerCase().includes('full syllabus mock')) {
+    return subjectQuestions;
+  }
+
+  const cleanChapter = chapter.trim().toLowerCase();
+  const normChapter = normalizeChapterName(chapter);
+
+  // 1. Direct norm match (O(1))
+  const directMatch = chapterMap.get(normChapter);
+  if (directMatch && directMatch.length > 0) {
+    return directMatch;
+  }
+
+  // 2. Substring match on chapter names (iterating ~30 chapter keys, not 11,000 questions)
+  const matchedQuestions: Question[] = [];
+  for (let i = 0; i < chapterList.length; i++) {
+    const ch = chapterList[i];
+    const chClean = ch.toLowerCase();
+    const chNorm = normalizeChapterName(ch);
+    if (
+      chClean.includes(cleanChapter) ||
+      cleanChapter.includes(chClean) ||
+      chNorm.includes(normChapter) ||
+      normChapter.includes(chNorm)
+    ) {
+      const qs = chapterMap.get(chNorm);
+      if (qs) {
+        for (let j = 0; j < qs.length; j++) {
+          matchedQuestions.push(qs[j]);
+        }
+      }
+    }
+  }
+
+  if (matchedQuestions.length > 0) {
+    return matchedQuestions;
+  }
+
+  // 3. Keyword tokens matching (e.g. "waves", "shm", "kinematics", "optics")
+  const tokens = cleanChapter
+    .split(/[^a-z0-9]+/)
+    .filter(t => t.length >= 3 && !['and', 'the', 'for', 'with', 'chapter'].includes(t));
+
+  if (tokens.length > 0) {
+    for (let i = 0; i < chapterList.length; i++) {
+      const ch = chapterList[i];
+      const chClean = ch.toLowerCase();
+      if (tokens.some(tok => chClean.includes(tok))) {
+        const qs = chapterMap.get(normalizeChapterName(ch));
+        if (qs) {
+          for (let j = 0; j < qs.length; j++) {
+            matchedQuestions.push(qs[j]);
+          }
+        }
+      }
+    }
+  }
+
+  if (matchedQuestions.length > 0) {
+    return matchedQuestions;
+  }
+
+  // Fallback: topic matching
+  return subjectQuestions.filter(q => {
+    const qTopic = q.topic ? q.topic.toLowerCase() : '';
+    return tokens.some(tok => qTopic.includes(tok));
+  });
+}
+
 /**
  * Get unified master question bank combining built-in NCERT questions + user uploaded questions
+ * Ultra-fast O(1) indexed lookup without heavy array reallocation
  */
 export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics', chapter?: string): Question[] {
   const customList = getCustomQuestions();
-  let all: Question[] = [
-    ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-    ...ALL_CHEMISTRY_MASTER_QUESTIONS,
-    ...ALL_PHYSICS_MASTER_QUESTIONS,
-    ...customList
-  ];
 
-  if (subject) {
-    all = all.filter(q => q.subject.toLowerCase() === subject.toLowerCase());
+  let builtin: Question[] = [];
+  if (subject === 'Biology') {
+    builtin = getQuestionsFromSubjectIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS, bioIndex.map, bioIndex.chapters, chapter);
+  } else if (subject === 'Chemistry') {
+    builtin = getQuestionsFromSubjectIndex(ALL_CHEMISTRY_MASTER_QUESTIONS, chemIndex.map, chemIndex.chapters, chapter);
+  } else if (subject === 'Physics') {
+    builtin = getQuestionsFromSubjectIndex(ALL_PHYSICS_MASTER_QUESTIONS, physIndex.map, physIndex.chapters, chapter);
+  } else {
+    // All subjects or unspecified
+    if (chapter && chapter !== 'All Chapters' && chapter !== 'All Topics' && !chapter.toLowerCase().includes('full syllabus mock')) {
+      const bio = getQuestionsFromSubjectIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS, bioIndex.map, bioIndex.chapters, chapter);
+      const chem = getQuestionsFromSubjectIndex(ALL_CHEMISTRY_MASTER_QUESTIONS, chemIndex.map, chemIndex.chapters, chapter);
+      const phys = getQuestionsFromSubjectIndex(ALL_PHYSICS_MASTER_QUESTIONS, physIndex.map, physIndex.chapters, chapter);
+      builtin = [...bio, ...chem, ...phys];
+    } else {
+      builtin = ALL_BUILTIN_QUESTIONS;
+    }
   }
 
-  if (
-    chapter &&
-    chapter !== 'All Chapters' &&
-    chapter !== 'All Topics' &&
-    !chapter.toLowerCase().includes('full syllabus mock')
-  ) {
+  if (customList.length === 0) {
+    return builtin;
+  }
+
+  // Filter custom questions if subject or chapter given
+  let filteredCustom = customList;
+  if (subject) {
+    filteredCustom = filteredCustom.filter(q => q.subject.toLowerCase() === subject.toLowerCase());
+  }
+  if (chapter && chapter !== 'All Chapters' && chapter !== 'All Topics' && !chapter.toLowerCase().includes('full syllabus mock')) {
     const cleanChapter = chapter.trim().toLowerCase();
     const normChapter = normalizeChapterName(chapter);
-
-    // 1. Direct contains or normalized contains
-    let filtered = all.filter(q => {
+    filteredCustom = filteredCustom.filter(q => {
       const qClean = q.chapter.toLowerCase();
       const qNorm = normalizeChapterName(q.chapter);
       return (
@@ -66,27 +210,9 @@ export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biol
         normChapter.includes(qNorm)
       );
     });
-
-    // 2. Keyword tokens matching (e.g. "waves", "shm", "kinematics", "optics", "thermodynamics")
-    if (filtered.length === 0) {
-      const tokens = cleanChapter
-        .split(/[^a-z0-9]+/)
-        .filter(t => t.length >= 3 && !['and', 'the', 'for', 'with', 'chapter'].includes(t));
-      if (tokens.length > 0) {
-        filtered = all.filter(q => {
-          const qLower = q.chapter.toLowerCase();
-          const qTopic = q.topic ? q.topic.toLowerCase() : '';
-          return tokens.some(tok => qLower.includes(tok) || qTopic.includes(tok));
-        });
-      }
-    }
-
-    if (filtered.length > 0) {
-      all = filtered;
-    }
   }
 
-  return all;
+  return [...builtin, ...filteredCustom];
 }
 
 /**
@@ -118,6 +244,7 @@ export function uploadCustomQuestions(newQuestions: Question[], sourceTag: strin
     const uniqueToAdd = validatedQuestions.filter(q => !existingTexts.has(q.questionText.toLowerCase()));
 
     const updatedCustom = [...uniqueToAdd, ...currentCustom];
+    cachedCustomQuestions = updatedCustom;
     localStorage.setItem(CUSTOM_QUESTIONS_KEY, JSON.stringify(updatedCustom));
 
     // Also ingest key explanations into AI Knowledge Store so AI Chatbot immediately learns from new data
@@ -257,23 +384,20 @@ export function generateAiAugmentedBatch(subject: 'Physics' | 'Chemistry' | 'Bio
 }
 
 /**
- * Get comprehensive question bank statistics
+ * Get comprehensive question bank statistics in O(1) constant time
  */
 export function getQuestionDatabaseStats() {
-  const all = getUnifiedQuestionBank();
-  const bio = all.filter(q => q.subject === 'Biology').length;
-  const chem = all.filter(q => q.subject === 'Chemistry').length;
-  const phys = all.filter(q => q.subject === 'Physics').length;
-  const custom = getCustomQuestions().length;
-
-  const chaptersSet = new Set(all.map(q => q.chapter));
+  const custom = getCustomQuestions();
+  const bioCount = ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length + custom.filter(q => q.subject === 'Biology').length;
+  const chemCount = ALL_CHEMISTRY_MASTER_QUESTIONS.length + custom.filter(q => q.subject === 'Chemistry').length;
+  const physCount = ALL_PHYSICS_MASTER_QUESTIONS.length + custom.filter(q => q.subject === 'Physics').length;
 
   return {
-    totalQuestions: all.length,
-    biologyCount: bio,
-    chemistryCount: chem,
-    physicsCount: phys,
-    customUploadedCount: custom,
-    totalChapters: chaptersSet.size
+    totalQuestions: ALL_BUILTIN_QUESTIONS.length + custom.length,
+    biologyCount: bioCount,
+    chemistryCount: chemCount,
+    physicsCount: physCount,
+    customUploadedCount: custom.length,
+    totalChapters: bioIndex.chapters.length + chemIndex.chapters.length + physIndex.chapters.length
   };
 }
