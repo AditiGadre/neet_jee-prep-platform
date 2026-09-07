@@ -6091,6 +6091,534 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
       "Thermodynamics",
       "Errorless Physics"
     ]
+  },
+  {
+    "id": "errorless-phy-thd-290",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Hard",
+    "questionText": "The P-V diagram of 2 gm of helium gas for a certain process $A \\to B$ is shown in the figure. What is the heat given to the gas during the process $A \\to B$?",
+    "options": [
+      "$4 P_0 V_0$",
+      "$6 P_0 V_0$",
+      "$4.5 P_0 V_0$",
+      "$2 P_0 V_0$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nBy the First Law of Thermodynamics, $\\Delta Q = \\Delta U + W$. For helium (monoatomic gas, $f = 3$), the change in internal energy is $\\Delta U = \\frac{f}{2} (P_f V_f - P_i V_i)$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n1. Initial state $A$: $(P_0, V_0)$; Final state $B$: $(2P_0, 2V_0)$.\n$$\\Delta U = \\frac{3}{2}(2P_0 \\times 2V_0 - P_0 \\times V_0) = \\frac{3}{2}(4P_0 V_0 - P_0 V_0) = \\frac{9}{2} P_0 V_0$$\n2. Work done $W$ is the area under the straight line $A \\to B$ (trapezoid):\n$$W = \\frac{P_0 + 2P_0}{2} (2V_0 - V_0) = \\frac{3}{2} P_0 V_0$$\n3. Heat supplied $\\Delta Q$:\n$$\\Delta Q = \\Delta U + W = \\frac{9}{2} P_0 V_0 + \\frac{3}{2} P_0 V_0 = \\frac{12}{2} P_0 V_0 = 6 P_0 V_0$$\n\n### ✓ Examiner Pro-Tip\nSum of internal energy change and trapezoidal work: $\\Delta Q = 4.5 P_0 V_0 + 1.5 P_0 V_0 = 6 P_0 V_0$.",
+    "tags": [
+      "Thermodynamics",
+      "P-V Diagram",
+      "First Law",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-291",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "A certain mass of gas at $273\\text{ K}$ is expanded to $81$ times its volume under adiabatic condition. If $\\gamma = 1.25$ for the gas, then its final temperature is [Pb. PET 1997]",
+    "options": [
+      "$-235^\\circ\\text{C}$",
+      "$-182^\\circ\\text{C}$",
+      "$-91^\\circ\\text{C}$",
+      "$0^\\circ\\text{C}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nFor an adiabatic process, $T V^{\\gamma - 1} = \\text{constant} \\implies T_2 = T_1 \\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$T_1 = 273\\text{ K}, \\quad \\frac{V_2}{V_1} = 81, \\quad \\gamma = 1.25 \\implies \\gamma - 1 = 0.25 = \\frac{1}{4}$$\n$$T_2 = 273 \\times \\left(\\frac{1}{81}\\right)^{1/4} = 273 \\times \\frac{1}{3} = 91\\text{ K}$$\nIn Celsius:\n$$T_2 = 91 - 273 = -182^\\circ\\text{C}$$\n\n### ✓ Examiner Pro-Tip\n$(81)^{1/4} = (3^4)^{1/4} = 3$. So $T_2 = 273 / 3 = 91\\text{ K} = -182^\\circ\\text{C}$.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-292",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "In an adiabatic process $90\\text{ J}$ of work is done on the gas. The change in internal energy of the gas is [CPMT 1996]",
+    "options": [
+      "$-90\\text{ J}$",
+      "$+90\\text{ J}$",
+      "$0\\text{ J}$",
+      "Depends on initial temperature"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nIn an adiabatic process $\\Delta Q = 0$. By the First Law of Thermodynamics: $\\Delta Q = \\Delta U + W \\implies \\Delta U = -W$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nSince work is done *on* the gas, $W = -90\\text{ J}$:\n$$\\Delta U = -(-90\\text{ J}) = +90\\text{ J}$$\n\n### ✓ Examiner Pro-Tip\nWork done on the gas during adiabatic compression directly increases its internal energy by $+90\\text{ J}$.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-293",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "If a Carnot's engine functions at source temperature $127^\\circ\\text{C}$ and at sink temperature $87^\\circ\\text{C}$, what is its efficiency [DCE 1997]",
+    "options": [
+      "$10\\%$",
+      "$25\\%$",
+      "$40\\%$",
+      "$50\\%$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "### 📘 NCERT Fundamental Concept\nCarnot efficiency is $\\eta = \\frac{T_1 - T_2}{T_1}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$T_1 = 127 + 273 = 400\\text{ K}$$\n$$T_2 = 87 + 273 = 360\\text{ K}$$\n$$\\eta = \\frac{400 - 360}{400} = \\frac{40}{400} = 0.10 = 10\\%$$\n\n### ✓ Examiner Pro-Tip\nEfficiency is $\\frac{40}{400} = 10\\%$.",
+    "tags": [
+      "Thermodynamics",
+      "Carnot Engine",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-294",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "In the case of diatomic gas, the heat given at constant pressure is that part of energy which is used for the expansion of gas, is",
+    "options": [
+      "$\\frac{2}{5}$",
+      "$\\frac{3}{7}$",
+      "$\\frac{2}{7}$",
+      "$\\frac{5}{7}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\nFraction of heat energy used for expansion work at constant pressure is $f_W = \\frac{\\Delta W}{\\Delta Q_p} = 1 - \\frac{1}{\\gamma}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nFor a diatomic gas, $\\gamma = \\frac{7}{5}$:\n$$f_W = 1 - \\frac{1}{7/5} = 1 - \\frac{5}{7} = \\frac{2}{7}$$\n\n### ✓ Examiner Pro-Tip\nDiatomic expansion work gets $\\frac{2}{7} \\approx 28.6\\%$ of supplied heat; internal energy gets $\\frac{5}{7} \\approx 71.4\\%$.",
+    "tags": [
+      "Thermodynamics",
+      "First Law",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-295",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "An ideal monoatomic gas is taken round the cycle ABCDA shown in the PV diagram. The work done during the cycle is [UPSEAT 1998]",
+    "options": [
+      "$\\frac{1}{2} PV$",
+      "$2 PV$",
+      "$PV$",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\nWork done during a rectangular cyclic process equals the area enclosed by the cycle: $W = \\Delta P \\times \\Delta V$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nFrom the given figure: $\\Delta P = 2P - P = P$, $\\Delta V = 2V - V = V$.\n$$W = \\Delta P \\times \\Delta V = P V$$\n\n### ✓ Examiner Pro-Tip\nClockwise rectangular cycle work $= (2P - P)(2V - V) = PV$.",
+    "tags": [
+      "Thermodynamics",
+      "P-V Diagram",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-296",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "A gas is compressed adiabatically till its temperature is doubled. The ratio of its final volume to initial volume will be [BHU 1997]",
+    "options": [
+      "$1 / 2$",
+      "More than $1 / 2$",
+      "Less than $1 / 2$",
+      "Between $1$ and $2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\nIn an adiabatic compression, $T V^{\\gamma - 1} = \\text{constant} \\implies \\frac{V_2}{V_1} = \\left(\\frac{T_1}{T_2}\\right)^{\\frac{1}{\\gamma - 1}}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven $T_2 = 2T_1$:\n$$\\frac{V_2}{V_1} = \\left(\\frac{1}{2}\\right)^{\\frac{1}{\\gamma - 1}}$$\nSince for any gas $\\gamma > 1$ and specifically $\\gamma \\le 5/3$, we have $\\gamma - 1 \\le 2/3 \\implies \\frac{1}{\\gamma - 1} \\ge 1.5 > 1$.\nBecause the exponent is greater than 1:\n$$\\left(\\frac{1}{2}\\right)^{\\frac{1}{\\gamma - 1}} < \\frac{1}{2}$$\nTherefore, the ratio of final volume to initial volume is less than $1/2$.\n\n### ✓ Examiner Pro-Tip\nSince $\\frac{1}{\\gamma - 1} > 1$, $(1/2)^{1/(\\gamma - 1)} < 1/2$.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-297",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "A tyre filled with air ($27^\\circ\\text{C}$ and $2\\text{ atm}$) bursts, then what is the temperature of air ($\\gamma = 1.5$) [RPMT 2002]",
+    "options": [
+      "$-33^\\circ\\text{C}$",
+      "$0^\\circ\\text{C}$",
+      "$27^\\circ\\text{C}$",
+      "$240^\\circ\\text{C}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "### 📘 NCERT Fundamental Concept\nBursting of a tyre is a rapid adiabatic expansion into atmospheric pressure ($P_2 = 1\\text{ atm}$). The relation between $T$ and $P$ is $T_2 = T_1 \\left(\\frac{P_2}{P_1}\\right)^{\\frac{\\gamma - 1}{\\gamma}}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$T_1 = 27 + 273 = 300\\text{ K}, \\quad P_1 = 2\\text{ atm}, \\quad P_2 = 1\\text{ atm}, \\quad \\gamma = 1.5$$\n$$\\frac{\\gamma - 1}{\\gamma} = \\frac{1.5 - 1}{1.5} = \\frac{0.5}{1.5} = \\frac{1}{3}$$\n$$T_2 = 300 \\times \\left(\\frac{1}{2}\\right)^{1/3} = \\frac{300}{1.26} \\approx 238.1\\text{ K}$$\nIn Celsius:\n$$T_2 = 238.1 - 273 \\approx -34.8^\\circ\\text{C} \\approx -33^\\circ\\text{C}$$\n\n### ✓ Examiner Pro-Tip\nAdiabatic expansion sharply reduces the air temperature from $+27^\\circ\\text{C}$ down to $-33^\\circ\\text{C}$.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-298",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "A gas expands adiabatically such that its temperature $T \\propto \\frac{1}{\\sqrt{V}}$, the value of $C_p / C_v$ of gas is [RPMT 2002; MHCET 2004]",
+    "options": [
+      "$1.30$",
+      "$1.50$",
+      "$1.67$",
+      "$2.00$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nIn an adiabatic process, $T V^{\\gamma - 1} = \\text{constant} \\implies T \\propto V^{1 - \\gamma}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven $T \\propto V^{-1/2}$:\n$$1 - \\gamma = -\\frac{1}{2} \\implies \\gamma = 1 + \\frac{1}{2} = 1.50$$\n$$\\frac{C_p}{C_v} = \\gamma = 1.50$$\n\n### ✓ Examiner Pro-Tip\nEquate exponents: $1 - \\gamma = -0.5 \\implies \\gamma = 1.50$.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-299",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "P-V diagram of an ideal gas is as shown in figure. Work done by the gas in process ABCD is",
+    "options": [
+      "$4 P_0 V_0$",
+      "$2 P_0 V_0$",
+      "$3 P_0 V_0$",
+      "$P_0 V_0$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\nTotal work done along path ABCD is $W_{ABCD} = W_{AB} + W_{BC} + W_{CD}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n1. $W_{AB} = P_0 (V_0 - 2V_0) = -P_0 V_0$ (isobaric compression at $P_0$).\n2. $W_{BC} = 0$ (isochoric heating at $V_0$).\n3. $W_{CD} = 2P_0 (3V_0 - V_0) = +4 P_0 V_0$ (isobaric expansion at $2P_0$).\n$$W_{ABCD} = -P_0 V_0 + 0 + 4 P_0 V_0 = 3 P_0 V_0$$\n\n### ✓ Examiner Pro-Tip\nSum of signed areas: $4 P_0 V_0 - 1 P_0 V_0 = 3 P_0 V_0$.",
+    "tags": [
+      "Thermodynamics",
+      "P-V Diagram",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-300",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "An engineer claims to have made an engine delivering $10\\text{ kW}$ power with fuel consumption of $1\\text{ g s}^{-1}$. The calorific value of fuel is $2\\text{ kcal/g}$. His claim [J & K CET 2000]",
+    "options": [
+      "Is non-valid",
+      "Is valid",
+      "Depends on engine",
+      "Depends on load"
+    ],
+    "correctAnswer": 0,
+    "explanation": "### 📘 NCERT Fundamental Concept\nFirst Law of Thermodynamics prevents an engine from delivering more power output than the rate of thermal energy input.\n\n### ⚡ Step-by-Step Derivation & Calculations\nInput rate: $P_{\\text{in}} = (1\\text{ g/s}) \\times (2\\text{ kcal/g}) = 2\\text{ kcal/s} = 2 \\times 4.184\\text{ kW} = 8.37\\text{ kW}$.\nOutput claimed: $P_{\\text{out}} = 10\\text{ kW} > P_{\\text{in}}$.\nEfficiency $\\eta = \\frac{10}{8.37} \\approx 1.19 > 1$, which is impossible.\nHence, the claim is non-valid.\n\n### ✓ Examiner Pro-Tip\nAny machine creating energy out of nothing violates the First Law of Thermodynamics.",
+    "tags": [
+      "Thermodynamics",
+      "Second Law",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-301",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "An ideal gas heat engine operates in a Carnot cycle between $27^\\circ\\text{C}$ and $127^\\circ\\text{C}$ (wait, $127^\\circ\\text{C}$ and $227^\\circ\\text{C}$). It absorbs $6\\text{ kcal}$ at the higher temperature. The amount of heat (in kcal) converted into work is equal to [CBSE PMT 2003]",
+    "options": [
+      "$3.5$",
+      "$1.6$",
+      "$1.2$",
+      "$4.8$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\n$$\\eta = 1 - \\frac{T_2}{T_1} = \\frac{W}{Q_1}$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$T_1 = 227 + 273 = 500\\text{ K}$$\n$$T_2 = 127 + 273 = 400\\text{ K}$$\n$$\\eta = 1 - \\frac{400}{500} = 0.20$$\n$$W = \\eta Q_1 = 0.20 \\times 6\\text{ kcal} = 1.2\\text{ kcal}$$\n\n### ✓ Examiner Pro-Tip\n$W = 0.20 \\times 6 = 1.2\\text{ kcal}$.",
+    "tags": [
+      "Thermodynamics",
+      "Carnot Engine",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-302",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Hard",
+    "questionText": "A gas expands with temperature according to the relation $V = k T^{2/3}$. What is the work done when the temperature changes by $30^\\circ\\text{C}$ [UPSEAT 1998]",
+    "options": [
+      "$10 R$",
+      "$20 R$",
+      "$30 R$",
+      "$40 R$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nWork done is $W = \\int P \\, dV$. For 1 mole of an ideal gas, $P = \\frac{R T}{V}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven $V = k T^{2/3} \\implies dV = \\frac{2}{3} k T^{-1/3} \\, dT$.\n$$\\frac{dV}{V} = \\frac{\\frac{2}{3} k T^{-1/3} \\, dT}{k T^{2/3}} = \\frac{2}{3} \\frac{dT}{T}$$\n$$W = \\int P \\, dV = \\int \\frac{R T}{V} dV = \\int R T \\left(\\frac{2}{3} \\frac{dT}{T}\\right) = \\frac{2}{3} R \\int_{T_1}^{T_2} dT = \\frac{2}{3} R \\Delta T$$\nWith $\\Delta T = 30\\text{ K}$:\n$$W = \\frac{2}{3} R (30) = 20 R$$\n\n### ✓ Examiner Pro-Tip\nFor $V \\propto T^n$, work done is $W = n R \\Delta T = \\frac{2}{3} R (30) = 20R$.",
+    "tags": [
+      "Thermodynamics",
+      "Polytropic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-303",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "An ideal gas ($\\gamma = 1.5$) is expanded adiabatically. How many times has the gas to be expanded to reduce the root mean square velocity of molecules $2.0$ times?",
+    "options": [
+      "$4\\text{ times}$",
+      "$16\\text{ times}$",
+      "$8\\text{ times}$",
+      "$2\\text{ times}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nThe RMS velocity $v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\propto \\sqrt{T}$. Reducing $v_{\\text{rms}}$ by a factor of 2 requires reducing temperature $T$ by a factor of $2^2 = 4$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$T_2 = \\frac{T_1}{4} \\implies \\frac{T_1}{T_2} = 4$$\nFor adiabatic expansion: $T_1 V_1^{\\gamma - 1} = T_2 V_2^{\\gamma - 1}$:\n$$\\frac{V_2}{V_1} = \\left(\\frac{T_1}{T_2}\\right)^{\\frac{1}{\\gamma - 1}} = (4)^{\\frac{1}{1.5 - 1}} = (4)^{\\frac{1}{0.5}} = 4^2 = 16$$\nThus the volume must expand 16 times.\n\n### ✓ Examiner Pro-Tip\n$v_{\\text{rms}} \\propto T^{1/2} \\implies T$ drops 4 times $\\implies V$ expands $4^{1/(\\gamma - 1)} = 4^2 = 16$ times.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "RMS Speed",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-304",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Hard",
+    "questionText": "Three samples of the same gas A, B and C ($\\gamma = 3/2$) have initially equal volume. Now the volume of each sample is doubled. The process is adiabatic for A, isobaric for B and isothermal for C. If the final pressures are equal for all three samples, the ratio of their initial pressures is",
+    "options": [
+      "$2\\sqrt{2} : 2 : 1$",
+      "$2\\sqrt{2} : 1 : 2$",
+      "$\\sqrt{2} : 1 : 2$",
+      "$2 : 1 : \\sqrt{2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nLet final common pressure be $P$.\n- For A (adiabatic): $P_A V^{3/2} = P (2V)^{3/2} \\implies P_A = P \\times 2^{3/2} = 2\\sqrt{2} P$.\n- For B (isobaric): $P_B = P$.\n- For C (isothermal): $P_C V = P (2V) \\implies P_C = 2P$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$P_A : P_B : P_C = 2\\sqrt{2} P : P : 2P = 2\\sqrt{2} : 1 : 2$$\n\n### ✓ Examiner Pro-Tip\nRatio is $2^{3/2} : 1 : 2 = 2\\sqrt{2} : 1 : 2$.",
+    "tags": [
+      "Thermodynamics",
+      "Thermodynamic Processes",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-305",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "Volume versus temperature graph of two moles of helium gas is as shown in figure (straight line through origin). The ratio of heat absorbed and the work done by the gas in process 1-2 is",
+    "options": [
+      "$3$",
+      "$\\frac{5}{2}$",
+      "$\\frac{5}{3}$",
+      "$\\frac{7}{2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nA straight line $V-T$ graph passing through the origin represents an **isobaric process** ($V \\propto T \\implies P = \\text{constant}$).\n\n### ⚡ Step-by-Step Derivation & Calculations\nHeat absorbed at constant pressure: $\\Delta Q = n C_p \\Delta T$.\nWork done: $\\Delta W = n R \\Delta T = n (C_p - C_v) \\Delta T$.\n$$\\frac{\\Delta Q}{\\Delta W} = \\frac{C_p}{C_p - C_v} = \\frac{C_p/C_v}{C_p/C_v - 1} = \\frac{\\gamma}{\\gamma - 1}$$\nFor helium (monoatomic, $\\gamma = 5/3$):\n$$\\frac{\\Delta Q}{\\Delta W} = \\frac{5/3}{5/3 - 1} = \\frac{5/3}{2/3} = \\frac{5}{2}$$\n\n### ✓ Examiner Pro-Tip\nFor monoatomic isobaric process: $\\frac{Q}{W} = \\frac{5/2 R}{R} = \\frac{5}{2}$.",
+    "tags": [
+      "Thermodynamics",
+      "P-V Diagram",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-306",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "In the P-V diagram shown in figure ABC is a semicircle. The work done in the process ABC is",
+    "options": [
+      "Zero",
+      "$\\frac{\\pi}{2}\\text{ atm-lt}$",
+      "$-\\frac{\\pi}{2}\\text{ atm-lt}$",
+      "$4\\text{ atm-lt}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nWork done in a semicircular process ABC equals the area of the semicircle: $W = \\frac{1}{2} \\pi r_P r_V$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nFrom the figure, the semicircle has radius along P-axis $r_P = 1\\text{ atm}$ and along V-axis $r_V = 1\\text{ lt}$.\nTraversed from $V=1$ to $V=2$ via upper lobe (expansion $\\implies W > 0$):\n$$W = \\frac{1}{2} \\pi (1) (1) = \\frac{\\pi}{2}\\text{ atm-lt}$$\n\n### ✓ Examiner Pro-Tip\nArea of semicircle $= \\frac{\\pi}{2} r_1 r_2 = \\frac{\\pi}{2}\\text{ atm-lt}$.",
+    "tags": [
+      "Thermodynamics",
+      "P-V Diagram",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-307",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "Heat is supplied to a diatomic gas at constant pressure. The ratio of $\\Delta Q : \\Delta U : \\Delta W$ is",
+    "options": [
+      "$5 : 3 : 2$",
+      "$5 : 2 : 3$",
+      "$7 : 5 : 2$",
+      "$7 : 2 : 5$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\nAt constant pressure for an ideal gas:\n$$\\Delta Q = n C_p \\Delta T$$\n$$\\Delta U = n C_v \\Delta T$$\n$$\\Delta W = n R \\Delta T = n (C_p - C_v) \\Delta T$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nFor a diatomic gas, $C_p = \\frac{7}{2}R$, $C_v = \\frac{5}{2}R$, and $R = \\frac{2}{2}R$:\n$$\\Delta Q : \\Delta U : \\Delta W = \\frac{7}{2} : \\frac{5}{2} : 1 = 7 : 5 : 2$$\n\n### ✓ Examiner Pro-Tip\nDiatomic isobaric ratio: $\\Delta Q : \\Delta U : \\Delta W = 7 : 5 : 2$.",
+    "tags": [
+      "Thermodynamics",
+      "First Law",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-308",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "A gas undergoes a change of state during which $100\\text{ J}$ of heat is supplied to it and it does $20\\text{ J}$ of work. The system is brought back to its original state through a process during which $20\\text{ J}$ of heat is released by the gas. The work done by the gas in the second process is",
+    "options": [
+      "$-60\\text{ J}$ (or $60\\text{ J}$ on gas)",
+      "$40\\text{ J}$",
+      "$80\\text{ J}$",
+      "$20\\text{ J}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "### 📘 NCERT Fundamental Concept\nFor a complete cycle returning to the original state, $\\Delta U_{\\text{net}} = 0 \\implies Q_{\\text{net}} = W_{\\text{net}}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$Q_{\\text{net}} = Q_1 + Q_2 = 100 - 20 = 80\\text{ J}$$\n$$W_{\\text{net}} = W_1 + W_2 = 20 + W_2 = 80\\text{ J}$$\n$$W_2 = 80 - 20 = 60\\text{ J}$$\n(Magnitude of second process work is $60\\text{ J}$).\n\n### ✓ Examiner Pro-Tip\n$W_2 = Q_{\\text{net}} - W_1 = 80 - 20 = 60\\text{ J}$.",
+    "tags": [
+      "Thermodynamics",
+      "First Law",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-309",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Hard",
+    "questionText": "$N\\text{ moles}$ of an ideal diatomic gas are in a cylinder at temperature $T$. Suppose on supplying heat to the gas, its temperature remains constant but $n\\text{ moles}$ get dissociated into atoms. Heat supplied to the gas is",
+    "options": [
+      "Zero",
+      "$\\frac{1}{2} n R T$",
+      "$\\frac{3}{2} n R T$",
+      "$\\frac{3}{2} (N - n) R T$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nSince the gas is enclosed in a rigid vessel at constant volume, $W = 0$, so $\\Delta Q = \\Delta U = U_{\\text{final}} - U_{\\text{initial}}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n1. Initial state: $N$ moles diatomic at $T$:\n$$U_1 = N \\left(\\frac{5}{2} R T\\right) = \\frac{5}{2} N R T$$\n2. Final state: $(N - n)$ moles diatomic $+ 2n$ moles monoatomic at $T$:\n$$U_2 = (N - n) \\left(\\frac{5}{2} R T\\right) + 2n \\left(\\frac{3}{2} R T\\right) = \\frac{5}{2} N R T - \\frac{5}{2} n R T + 3 n R T = \\frac{5}{2} N R T + \\frac{1}{2} n R T$$\n3. Heat supplied:\n$$\\Delta Q = U_2 - U_1 = \\frac{1}{2} n R T$$\n\n### ✓ Examiner Pro-Tip\nDissociation of $n$ diatomic molecules increases translational energy by $2n(3/2 RT) - n(5/2 RT) = 1/2 n RT$.",
+    "tags": [
+      "Thermodynamics",
+      "Internal Energy",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-310",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Hard",
+    "questionText": "Three moles of an ideal gas ($C_p = \\frac{7}{2}R$) at pressure $P_A$ and temperature $T_A$ is isothermally expanded to twice its initial volume. It is then compressed at constant pressure to its original volume. Finally the gas is compressed at constant volume to its original pressure $P_A$. The correct P-V and P-T diagrams are represented by",
+    "options": [
+      "Diagram showing isothermal curve from $(P_A, V_A)$ to $(P_A/2, 2V_A)$, isobaric compression to $V_A$, and isochoric heating back to $P_A$",
+      "Diagram with clockwise circular paths",
+      "Diagram with straight isotherms",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "### 📘 NCERT Fundamental Concept\nAnalyzing each stage of the cycle:\n1. Isothermal expansion from $(P_A, V_A, T_A)$ to $(P_A/2, 2V_A, T_A)$ (hyperbolic curve on P-V, horizontal on P-T).\n2. Isobaric compression at $P = P_A/2$ from $2V_A$ to $V_A$, where temperature drops to $T_A/2$ (horizontal line on P-V, inclined line to origin on P-T).\n3. Isochoric heating at $V = V_A$ from $P_A/2$ back to $P_A$, temperature returning to $T_A$ (vertical line on P-V, straight line on P-T).\n\n### ⚡ Step-by-Step Derivation & Calculations\nGraph (A) accurately depicts all three distinct thermodynamic transitions.\n\n### ✓ Examiner Pro-Tip\nCheck the state coordinates at each corner: $A(P_A, V_A, T_A) \\to B(P_A/2, 2V_A, T_A) \\to C(P_A/2, V_A, T_A/2) \\to A$.",
+    "tags": [
+      "Thermodynamics",
+      "P-V Diagram",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-311",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "A cylinder of mass $1\\text{ kg}$ is given heat of $20000\\text{ J}$ at atmospheric pressure. If initially temperature of cylinder is $20^\\circ\\text{C}$, then work done by the cylinder will be (Given: Specific heat $= 400\\text{ J}/(\\text{kg}\\cdot{}^\\circ\\text{C})$, Coefficient of volume expansion $\\gamma = 9 \\times 10^{-5}{}^\\circ\\text{C}^{-1}$, Atmospheric pressure $= 10^5\\text{ N/m}^2$ and density $= 9000\\text{ kg/m}^3$)",
+    "options": [
+      "$0.02\\text{ J}$",
+      "$0.05\\text{ J}$",
+      "$0.08\\text{ J}$",
+      "$0.1\\text{ J}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "### 📘 NCERT Fundamental Concept\nHeat added raises temperature by $\\Delta T = \\frac{Q}{m c}$. Thermal volume expansion is $\\Delta V = V_0 \\gamma \\Delta T = \\left(\\frac{m}{\\rho}\\right) \\gamma \\Delta T$. Work done against atmospheric pressure is $W = P_{\\text{atm}} \\Delta V$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n1. Temperature rise:\n$$\\Delta T = \\frac{20000}{1 \\times 400} = 50^\\circ\\text{C}$$\n2. Volume expansion:\n$$\\Delta V = \\left(\\frac{1\\text{ kg}}{9000\\text{ kg/m}^3}\\right) \\times (9 \\times 10^{-5}) \\times 50 = \\frac{4.5 \\times 10^{-3}}{9000} = 0.5 \\times 10^{-6}\\text{ m}^3$$\n3. Work done:\n$$W = P_{\\text{atm}} \\Delta V = (10^5\\text{ N/m}^2) \\times (0.5 \\times 10^{-6}\\text{ m}^3) = 0.05\\text{ J}$$\n\n### ✓ Examiner Pro-Tip\n$W = 10^5 \\times 0.5 \\times 10^{-6} = 0.05\\text{ J}$.",
+    "tags": [
+      "Thermodynamics",
+      "Thermal Expansion",
+      "Work Done",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-312",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "In a thermodynamic process pressure of a fixed mass of a gas is changed in such a manner that the gas releases $30\\text{ joules}$ of heat and $10\\text{ joules}$ of work was done on the gas. If the initial internal energy of the gas was $30\\text{ joules}$, then the final internal energy will be [CPMT 1986]",
+    "options": [
+      "$2\\text{ J}$",
+      "$-18\\text{ J}$",
+      "$10\\text{ J}$",
+      "$58\\text{ J}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "### 📘 NCERT Fundamental Concept\nFrom the First Law of Thermodynamics: $\\Delta Q = \\Delta U + W \\implies \\Delta U = \\Delta Q - W$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n- Heat released: $\\Delta Q = -30\\text{ J}$\n- Work done *on* the gas: $W = -10\\text{ J}$\n$$\\Delta U = U_f - U_i = -30 - (-10) = -20\\text{ J}$$\n$$U_f = U_i + \\Delta U = 30 + (-20) = 10\\text{ J}$$\n\n### ✓ Examiner Pro-Tip\n$U_f = 30 - 30 + 10 = 10\\text{ J}$.",
+    "tags": [
+      "Thermodynamics",
+      "First Law",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-313",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Easy",
+    "questionText": "In an adiabatic change, the pressure $P$ and temperature $T$ of a monoatomic gas are related by the relation $P \\propto T^c$, where $c$ equals [CBSE PMT 1994; BHU 1997; AIIMS 2001; MH CET 2000]",
+    "options": [
+      "$5 / 3$",
+      "$2 / 5$",
+      "$3 / 5$",
+      "$5 / 2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "### 📘 NCERT Fundamental Concept\nFor an adiabatic process, $T^\\gamma P^{1 - \\gamma} = \\text{constant} \\implies P \\propto T^{\\frac{\\gamma}{\\gamma - 1}}$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nFor a monoatomic gas, $\\gamma = 5/3$:\n$$c = \\frac{\\gamma}{\\gamma - 1} = \\frac{5/3}{5/3 - 1} = \\frac{5/3}{2/3} = \\frac{5}{2}$$\n\n### ✓ Examiner Pro-Tip\nExponent $c = \\frac{\\gamma}{\\gamma - 1} = \\frac{5/3}{2/3} = 5/2 = 2.5$.",
+    "tags": [
+      "Thermodynamics",
+      "Adiabatic Process",
+      "SET-14"
+    ]
+  },
+  {
+    "id": "errorless-phy-thd-314",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "topic": "Self Evaluation Test - 14",
+    "difficulty": "Medium",
+    "questionText": "The internal energy of an ideal gas increases during an isothermal process when the gas is [SCRA 1998]",
+    "options": [
+      "Expanded by adding more molecules to it",
+      "Expanded by adding more heat to it",
+      "Expanded against zero pressure",
+      "Compressed by doing work on it"
+    ],
+    "correctAnswer": 0,
+    "explanation": "### 📘 NCERT Fundamental Concept\nInternal energy of an ideal gas is an extensive property given by $U = n C_v T = \\left(\\frac{N}{N_A}\\right) C_v T$.\n\n### ⚡ Step-by-Step Derivation & Calculations\nIn an isothermal process, $T = \\text{constant}$, so $U \\propto N$ (proportional to total number of molecules/moles). Thus, internal energy increases if more molecules are added to the system.\n\n### ✓ Examiner Pro-Tip\nFor a fixed amount of gas, isothermal $\\Delta U = 0$; but if mass/mole count increases, $U$ increases at constant temperature.",
+    "tags": [
+      "Thermodynamics",
+      "Internal Energy",
+      "SET-14"
+    ]
   }
 ];
 
