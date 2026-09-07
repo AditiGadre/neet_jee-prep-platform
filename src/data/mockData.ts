@@ -1660,11 +1660,11 @@ export const TEST_SERIES_DATA: TestItem[] = [
     questions: get45(OSCILLATIONS_SHM_QUESTIONS)
   },
   {
-    id: 'test-phy-ch15',
-    title: 'Physics Chapter 15: Waves and Acoustics (45 Qs)',
+    id: 'test-phy-ch17',
+    title: 'Physics Chapter 17: Waves and Sound (436 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Physics Chapter 15: Waves and Acoustics (Numerical & Conceptual 45 Qs)',
+    syllabus: 'Physics Chapter 17: Waves and Sound (Universal Self Scorer 436 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
