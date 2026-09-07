@@ -358,22 +358,17 @@ function downloadHtmlDocument(filename: string, title: string, htmlBody: string)
 </body>
 </html>`;
 
-  // Create Blob & Trigger Download
+  // Create Blob & Trigger Instant Download
   const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   
-  const printWindow = window.open(url, '_blank');
-  if (printWindow) {
-    // let user input password in the popup window
-  }
-
   const link = document.createElement('a');
   link.href = url;
   link.download = `${filename}.html`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
-  setTimeout(() => URL.revokeObjectURL(url), 5000);
+  setTimeout(() => URL.revokeObjectURL(url), 3000);
 }
 
 /**
