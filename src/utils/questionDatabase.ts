@@ -22,6 +22,14 @@ export function getCustomQuestions(): Question[] {
   }
 }
 
+function normalizeChapterName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]/g, '')
+    .trim();
+}
+
 /**
  * Get unified master question bank combining built-in NCERT questions + user uploaded questions
  */
@@ -38,12 +46,44 @@ export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biol
     all = all.filter(q => q.subject.toLowerCase() === subject.toLowerCase());
   }
 
-  if (chapter && chapter !== 'All Chapters' && chapter !== 'All Topics') {
+  if (
+    chapter &&
+    chapter !== 'All Chapters' &&
+    chapter !== 'All Topics' &&
+    !chapter.toLowerCase().includes('full syllabus mock')
+  ) {
     const cleanChapter = chapter.trim().toLowerCase();
-    all = all.filter(q =>
-      q.chapter.toLowerCase().includes(cleanChapter) ||
-      cleanChapter.includes(q.chapter.toLowerCase())
-    );
+    const normChapter = normalizeChapterName(chapter);
+
+    // 1. Direct contains or normalized contains
+    let filtered = all.filter(q => {
+      const qClean = q.chapter.toLowerCase();
+      const qNorm = normalizeChapterName(q.chapter);
+      return (
+        qClean.includes(cleanChapter) ||
+        cleanChapter.includes(qClean) ||
+        qNorm.includes(normChapter) ||
+        normChapter.includes(qNorm)
+      );
+    });
+
+    // 2. Keyword tokens matching (e.g. "waves", "shm", "kinematics", "optics", "thermodynamics")
+    if (filtered.length === 0) {
+      const tokens = cleanChapter
+        .split(/[^a-z0-9]+/)
+        .filter(t => t.length >= 3 && !['and', 'the', 'for', 'with', 'chapter'].includes(t));
+      if (tokens.length > 0) {
+        filtered = all.filter(q => {
+          const qLower = q.chapter.toLowerCase();
+          const qTopic = q.topic ? q.topic.toLowerCase() : '';
+          return tokens.some(tok => qLower.includes(tok) || qTopic.includes(tok));
+        });
+      }
+    }
+
+    if (filtered.length > 0) {
+      all = filtered;
+    }
   }
 
   return all;

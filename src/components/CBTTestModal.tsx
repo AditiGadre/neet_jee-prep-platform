@@ -1,36 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {
-  X,
-  Clock,
-  CheckCircle2,
-  AlertCircle,
-  Bookmark,
-  ChevronLeft,
-  ChevronRight,
-  Award,
-  TrendingUp,
-  BarChart2,
-  Sparkles,
-  RotateCcw,
-  Check,
-  Flag,
-  FileText,
-  Loader,
-  GraduationCap,
-  Trophy,
-  Users,
-  Target,
-  Zap,
-  Atom,
-  Dna,
-  ArrowUpRight,
-  ArrowDownRight,
-  Percent,
-  Compass,
-  CheckCheck,
-  Building2,
-  BookOpen
-} from 'canvas-confetti';
 import confetti from 'canvas-confetti';
 import {
   X as XIcon,
@@ -53,7 +21,16 @@ import {
   Sparkles as SparkleIcon,
   Flag as FlagIcon,
   ArrowUpRight as UpIcon,
-  ArrowDownRight as DownIcon
+  ArrowDownRight as DownIcon,
+  CheckCheck,
+  RotateCcw,
+  Check,
+  Bookmark,
+  Award,
+  TrendingUp,
+  Loader,
+  Percent,
+  BookOpen
 } from 'lucide-react';
 import { TestItem, Question, UserTestResult } from '../types';
 import { supabase } from '../supabaseClient';

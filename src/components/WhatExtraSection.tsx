@@ -200,38 +200,40 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     return Array.from(new Set(ALL_CHEMISTRY_MASTER_QUESTIONS.map(q => q.chapter))).filter(Boolean);
   }, []);
 
-  const physicsChapters = [
-    'Physical World & Units and Measurements',
-    'Vectors & Basic Mathematical Tools',
-    'Motion in a Straight Line (1D Kinematics)',
-    'Motion in a Plane (2D & Projectile Motion)',
-    'Laws of Motion & Friction',
-    'Work, Energy, and Power',
-    'System of Particles & Rotational Motion',
-    'Gravitation',
-    'Mechanical Properties of Solids (Elasticity)',
-    'Mechanical Properties of Fluids (Fluid Dynamics)',
-    'Thermal Properties of Matter & Calorimetry',
-    'Thermodynamics (Physics)',
-    'Kinetic Theory of Gases',
-    'Oscillations (Simple Harmonic Motion)',
-    'Waves & Acoustics',
-    'Electrostatics: Electric Charges and Fields',
-    'Electrostatic Potential and Capacitance',
-    'Current Electricity & DC Circuits',
-    'Moving Charges and Magnetism',
-    'Magnetism and Matter',
-    'Electromagnetic Induction (EMI)',
-    'Alternating Current (AC)',
-    'Electromagnetic Waves (EM Waves)',
-    'Ray Optics and Optical Instruments',
-    'Wave Optics & Diffraction',
-    'Dual Nature of Radiation and Matter',
-    'Atoms & Spectra',
-    'Nuclei & Nuclear Energy',
-    'Semiconductor Electronics & Logic Gates',
-    'Physics Full Syllabus Mock Test'
-  ];
+  const physicsChapters = useMemo(() => {
+    const chapters = Array.from(new Set(ALL_PHYSICS_MASTER_QUESTIONS.map(q => q.chapter))).filter(Boolean);
+    return chapters.length > 0 ? chapters : [
+      'Units and Measurement',
+      'Vectors',
+      'Motion in One Dimension',
+      'Motion in a Plane',
+      'Laws of Motion',
+      'Work, Energy and Power',
+      'Gravitation',
+      'Mechanical Properties of Solids',
+      'Mechanical Properties of Fluids',
+      'Thermal Properties of Matter',
+      'Thermodynamics',
+      'Transmission of Heat',
+      'Simple Harmonic Motion',
+      'Waves and Sound',
+      'Rotational Motion',
+      'Kinetic Theory of Gases',
+      'Electrostatics',
+      'Electrostatic Potential and Capacitance',
+      'Current Electricity',
+      'Magnetism and Matter',
+      'Electromagnetic Induction',
+      'Alternating Current',
+      'Electromagnetic Waves',
+      'Ray Optics and Optical Instruments',
+      'Wave Optics',
+      'Dual Nature of Radiation and Matter',
+      'Atoms',
+      'Nuclei',
+      'Semiconductor Electronics: Materials, Devices and Simple Circuits'
+    ];
+  }, []);
 
   const currentChapterList = customSubject === 'Biology'
     ? biologyChapters
@@ -239,30 +241,24 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     ? chemistryChapters
     : physicsChapters;
 
+  useEffect(() => {
+    if (currentChapterList.length > 0 && !currentChapterList.includes(customChapter)) {
+      setCustomChapter(currentChapterList[0]);
+    }
+  }, [customSubject, currentChapterList, customChapter]);
+
   // Unused question pool calculation for active chapter
   const currentPoolStats = useMemo(() => {
     return getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
   }, [customSubject, customChapter, customDifficulty, consumptionVersion]);
 
-  // Custom Test Launch Handler with Zero Repetition & Exhaustion Notification
+  // Custom Test Launch Handler with Zero Repetition & Seamless Fallback
   const handleGenerateAndStartCustomTest = () => {
     const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
+    const allInChapter = getUnifiedQuestionBank(customSubject, customChapter);
+    const subjectBackup = getUnifiedQuestionBank(customSubject);
 
-    // If remaining questions in database are fewer than requested, notify user & super user
-    if (stats.remainingUnused === 0 || stats.remainingUnused < customQCount) {
-      notifyDataExhaustion(customSubject, customChapter, stats.totalInBank, customQCount);
-      setExhaustionNotice({
-        subject: customSubject,
-        chapter: customChapter,
-        total: stats.totalInBank,
-        remaining: stats.remainingUnused
-      });
-      return;
-    }
-
-    setExhaustionNotice(null);
-
-    // Filter by difficulty if needed (e.g. Both Medium & Hard)
+    // Filter by difficulty if needed
     let candidatePool = stats.unusedQuestions;
     if (customDifficulty === 'Both') {
       const filtered = candidatePool.filter(q => q.difficulty === 'Medium' || q.difficulty === 'Hard');
@@ -273,21 +269,44 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     } else if (customDifficulty === 'Medium') {
       const filtered = candidatePool.filter(q => q.difficulty === 'Medium');
       if (filtered.length >= customQCount) candidatePool = filtered;
+    } else if (customDifficulty === 'Easy') {
+      const filtered = candidatePool.filter(q => q.difficulty === 'Easy');
+      if (filtered.length >= customQCount) candidatePool = filtered;
+    }
+
+    // If candidate pool is smaller than requested, supplement from full chapter or subject pool
+    if (candidatePool.length < customQCount) {
+      const supplemental = allInChapter.length > 0 ? allInChapter : subjectBackup;
+      const seenIds = new Set(candidatePool.map(q => q.id));
+      const needed = [...candidatePool];
+      for (const q of supplemental) {
+        if (!seenIds.has(q.id)) {
+          seenIds.add(q.id);
+          needed.push(q);
+        }
+        if (needed.length >= customQCount) break;
+      }
+      candidatePool = needed;
+    }
+
+    // If still empty (e.g. initial cold state), use subject backup or sample questions
+    if (candidatePool.length === 0) {
+      candidatePool = subjectBackup.length > 0 ? subjectBackup : SAMPLE_QUESTIONS;
     }
 
     const shuffled = [...candidatePool].sort(() => 0.5 - Math.random());
     const selectedQuestions = shuffled.slice(0, customQCount);
 
-    // Mark these questions as consumed so they are never served again
+    // Mark these questions as consumed so fresh questions are prioritized next time
     const selectedIds = selectedQuestions.map(q => q.id);
     markQuestionsAsConsumed(selectedIds);
 
     const customTestItem: TestItem = {
       id: `custom-test-${Date.now()}`,
-      title: `Custom Test: ${customSubject} - ${customChapter} (${customQCount} Qs - 100% Unique)`,
+      title: `Custom Test: ${customSubject} - ${customChapter} (${selectedQuestions.length} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level &bull; ${customQCount} Unseen Questions)`,
+      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level &bull; ${selectedQuestions.length} Questions)`,
       totalQuestions: selectedQuestions.length,
       durationMinutes: customDuration,
       totalMarks: selectedQuestions.length * 4,
@@ -297,7 +316,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       features: [
         `Subject: ${customSubject}`,
         `Chapter: ${customChapter}`,
-        `Format: ${customQCount} Unique Qs (Zero Repetition)`,
+        `Format: ${selectedQuestions.length} High-Yield Qs`,
         `100% Verified NCERT Explanations`
       ],
       questions: selectedQuestions
