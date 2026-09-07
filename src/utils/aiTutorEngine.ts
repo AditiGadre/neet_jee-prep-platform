@@ -267,7 +267,7 @@ ${topItem.verifiedSolution}`;
    - **Step 3 (Dimensional Verification):** Verify that left-hand side dimensions match right-hand side dimensions.
    - **Step 4 (Limiting Cases):** Check boundary conditions and sign conventions (+/-).
 
-3. **NEET/JEE Examiner Tip & Trap Warning:**
+3. **Core Principles & High-Yield Calculations:**
    - Pay close attention to unit conversions (e.g. $\text{cm} \rightarrow \text{m}$, $\text{eV} \rightarrow \text{Joules}$, $\text{mL} \rightarrow \text{L}$).${databaseInsightBlock}
 
 *Verified by NEET/JEE Academic Expert Panel & Database Knowledge Engine.*`;

@@ -3499,7 +3499,7 @@ export const FAQS_DATA: any[] = [
   },
   {
     question: 'How does the 24/7 AI Faculty Doubt Solver work?',
-    answer: 'You can paste or type any question in Biology, Chemistry, or Physics. Our system uses advanced AI and verified NCERT references to provide instant step-by-step derivations, calculations, and examiner tips.',
+    answer: 'You can paste or type any question in Biology, Chemistry, or Physics. Our system uses advanced AI and verified NCERT references to provide instant step-by-step derivations, calculations, and high-yield derivations.',
     category: 'Academic Doubts'
   }
 ];

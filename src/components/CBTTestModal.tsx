@@ -457,12 +457,12 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const keyTakeaway =
       parts.length > 2
         ? parts[parts.length - 1]
-        : `Pay close attention to unit conversions, sign conventions (+/-), and examiner trap conditions.`;
+        : `Pay close attention to unit conversions, sign conventions (+/-), and key test conditions.`;
 
     return (
       <div className="space-y-2.5">
         <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200 text-xs sm:text-sm text-slate-800 leading-relaxed">
-          <strong className="text-blue-800 block mb-0.5">📘 NCERT Fundamental Concept:</strong>
+          <strong className="text-blue-800 block mb-0.5">📘 Fundamental Concept:</strong>
           {conceptPart}
         </div>
 
@@ -472,7 +472,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         </div>
 
         <div className="p-3 rounded-xl bg-purple-50/70 border border-purple-200 text-xs sm:text-sm text-slate-800 leading-relaxed">
-          <strong className="text-purple-800 block mb-0.5">✓ Examiner Key Takeaway & Pro-Tip:</strong>
+          <strong className="text-purple-800 block mb-0.5">✓ Core Principle & High-Yield Key Takeaway:</strong>
           {keyTakeaway}
         </div>
       </div>
@@ -1283,7 +1283,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700 mt-2">
                           <div className="font-bold text-blue-700 mb-2 flex items-center gap-1.5">
                             <SparkleIcon className="w-3.5 h-3.5" />
-                            <span>NCERT Verified Step-by-Step Derivation & Explanation:</span>
+                            <span>Step-by-Step Derivation & Detailed Explanation:</span>
                           </div>
                           {renderMultiLineExplanation(q)}
                         </div>

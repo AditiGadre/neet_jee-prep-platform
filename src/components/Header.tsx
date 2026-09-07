@@ -23,6 +23,8 @@ import { getSuperUserMetrics } from '../utils/superUserNotifier';
 interface HeaderProps {
   activeExam: ExamType;
   onSelectExam: (exam: ExamType) => void;
+  targetYear?: '2026' | '2027' | '2028';
+  onSelectTargetYear?: (year: '2026' | '2027' | '2028') => void;
   onOpenQuickTest: () => void;
   onOpenDoubtModal: () => void;
   completedTestsCount: number;
@@ -37,6 +39,8 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
   activeExam,
   onSelectExam,
+  targetYear = '2026',
+  onSelectTargetYear,
   onOpenQuickTest,
   onOpenDoubtModal,
   completedTestsCount,
@@ -112,73 +116,82 @@ export const Header: React.FC<HeaderProps> = ({
                   NeetCbt<span className="text-blue-600"> Exam Test</span>
                 </span>
                 <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-amber-900 border border-amber-200">
-                  <Sparkles className="w-2.5 h-2.5 mr-1 text-amber-600" /> Target Batch 2026
+                  <Sparkles className="w-2.5 h-2.5 mr-1 text-amber-600" /> Target {targetYear}
                 </span>
               </div>
             </div>
           </div>
 
-          {/* Target Exam Dropdown */}
-          <div className="relative">
-            <button
-              id="exam-selector-btn"
-              onClick={() => {
-                setExamDropdownOpen(!examDropdownOpen);
-                setProfileDropdownOpen(false);
-              }}
-              className="flex items-center space-x-1.5 sm:space-x-2 px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-xs font-medium text-slate-700 transition cursor-pointer"
-            >
-              <span className="hidden sm:inline text-[10px] uppercase font-bold text-slate-400">Target:</span>
-              <span className="text-blue-700 font-bold text-xs sm:text-xs">
-                {examOptions.find(o => o.value === activeExam)?.label || activeExam}
-              </span>
-              <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-            </button>
+          {/* Target Exam & Target Year Selector Bar */}
+          <div className="flex items-center space-x-2">
+            {/* Target Exam Dropdown */}
+            <div className="relative">
+              <button
+                id="exam-selector-btn"
+                onClick={() => {
+                  setExamDropdownOpen(!examDropdownOpen);
+                  setProfileDropdownOpen(false);
+                }}
+                className="flex items-center space-x-1.5 sm:space-x-2 px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-xs font-medium text-slate-700 transition cursor-pointer"
+              >
+                <span className="hidden sm:inline text-[10px] uppercase font-bold text-slate-400">Target:</span>
+                <span className="text-blue-700 font-bold text-xs sm:text-xs">
+                  {examOptions.find(o => o.value === activeExam)?.label || activeExam}
+                </span>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
+              </button>
 
-            {examDropdownOpen && (
-              <div className="absolute left-0 mt-1.5 w-64 rounded-xl bg-white border border-slate-200 shadow-xl py-1 z-50 animate-in fade-in zoom-in-95 duration-100">
-                <div className="px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider border-b border-slate-100">
-                  Select Exam Goal
+              {examDropdownOpen && (
+                <div className="absolute left-0 mt-1.5 w-64 rounded-xl bg-white border border-slate-200 shadow-xl py-1 z-50 animate-in fade-in zoom-in-95 duration-100">
+                  <div className="px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider border-b border-slate-100">
+                    Select Exam Goal
+                  </div>
+                  {examOptions.map(option => (
+                    <button
+                      key={option.value}
+                      onClick={() => {
+                        onSelectExam(option.value);
+                        setExamDropdownOpen(false);
+                      }}
+                      className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-50 transition cursor-pointer ${
+                        activeExam === option.value
+                          ? 'text-blue-700 font-semibold bg-blue-50/70'
+                          : 'text-slate-700'
+                      }`}
+                    >
+                      <span>{option.label}</span>
+                      {option.badge && (
+                        <span className="text-[9px] px-1.5 py-0.2 rounded bg-slate-100 text-slate-600 font-semibold uppercase">
+                          {option.badge}
+                        </span>
+                      )}
+                    </button>
+                  ))}
                 </div>
-                {examOptions.map(option => (
-                  <button
-                    key={option.value}
-                    onClick={() => {
-                      onSelectExam(option.value);
-                      setExamDropdownOpen(false);
-                    }}
-                    className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-50 transition cursor-pointer ${
-                      activeExam === option.value
-                        ? 'text-blue-700 font-semibold bg-blue-50/70'
-                        : 'text-slate-700'
-                    }`}
-                  >
-                    <span>{option.label}</span>
-                    {option.badge && (
-                      <span className="text-[9px] px-1.5 py-0.2 rounded bg-slate-100 text-slate-600 font-semibold uppercase">
-                        {option.badge}
-                      </span>
-                    )}
-                  </button>
-                ))}
-              </div>
-            )}
+              )}
+            </div>
+
+            {/* Target Year Buttons: 2026, 2027, 2028 */}
+            <div className="flex items-center bg-slate-100/90 p-1 rounded-xl border border-slate-200">
+              {(['2026', '2027', '2028'] as const).map(yr => (
+                <button
+                  key={yr}
+                  onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}
+                  className={`px-2.5 sm:px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    targetYear === yr
+                      ? 'bg-blue-600 text-white shadow-xs'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                  }`}
+                  title={`Select NEET Target Year ${yr}`}
+                >
+                  {yr}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Quick Stats & Action Buttons */}
           <div className="flex items-center space-x-1.5 sm:space-x-2.5">
-            {/* My Downloads Tracker Vault Button */}
-            <button
-              onClick={onOpenDownloads}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-blue-50 hover:bg-blue-100 border border-blue-200 text-blue-700 text-xs font-bold transition shadow-2xs cursor-pointer"
-              title="View Tracked Download Vault"
-            >
-              <Download className="w-3.5 h-3.5 text-blue-600" />
-              <span className="hidden sm:inline">Downloads</span>
-              <span className="px-1.5 py-0.2 rounded-full bg-blue-600 text-white text-[10px] font-mono">
-                {downloadsCount}
-              </span>
-            </button>
 
             {/* Ask Doubt Button */}
             <button

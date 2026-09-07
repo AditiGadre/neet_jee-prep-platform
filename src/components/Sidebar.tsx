@@ -85,7 +85,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   const extraSubModules = [
-    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders },
     { id: 'flash-cards', label: 'Interactive Flashcards', icon: Layers },
     { id: 'mind-maps', label: 'Visual Mind Maps', icon: Network },
     { id: 'analytics', label: 'Performance Analytics', icon: LineChart },

@@ -132,7 +132,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
             questionText: qText,
             options,
             correctAnswer: 0,
-            explanation: 'Verified NCERT solution reference.',
+            explanation: 'Verified step-by-step derivation and reference.',
             tags: ['Text Ingested', chapter]
           });
         }

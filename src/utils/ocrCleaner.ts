@@ -147,11 +147,29 @@ export function cleanOcrText(text: string): string {
   cleaned = cleaned.split('10^-2').join('10⁻²');
   cleaned = cleaned.split('10^-3').join('10⁻³');
   cleaned = cleaned.split('10^5').join('10⁵');
-  // Placeholder text cleanup (remove "refer q59...", "Detailed solution for...")
-  cleaned = cleaned.replace(/refer\s+q\d+.*$/gi, 'Follows standard NCERT core postulates and verified derivations.');
-  cleaned = cleaned.replace(/refer\s+to\s+q\d+.*$/gi, 'Derived according to standard NCERT principles.');
-  cleaned = cleaned.replace(/see\s+solution\s+of\s+q\d+.*$/gi, 'Follows established NCERT chemical and physical laws.');
-  cleaned = cleaned.replace(/detailed\s+solution\s+for\s+[a-zA-Z0-9\s]+q\d+/gi, 'Verified NCERT step-by-step resolution');
+  // LaTeX & /text tag cleanups
+  cleaned = cleaned.replace(/\/text\{([^}]+)\}/gi, '$1');
+  cleaned = cleaned.replace(/\\text\{([^}]+)\}/gi, '$1');
+  cleaned = cleaned.replace(/\\mathrm\{([^}]+)\}/gi, '$1');
+  cleaned = cleaned.replace(/\\mathbf\{([^}]+)\}/gi, '$1');
+  cleaned = cleaned.replace(/\\mathit\{([^}]+)\}/gi, '$1');
+  cleaned = cleaned.replace(/\\dfrac\{([^}]+)\}\{([^}]+)\}/gi, '($1)/($2)');
+  cleaned = cleaned.replace(/\\frac\{([^}]+)\}\{([^}]+)\}/gi, '($1)/($2)');
+  cleaned = cleaned.replace(/\/text\s+/gi, ' ');
+  cleaned = cleaned.replace(/\/text/gi, '');
+  cleaned = cleaned.replace(/\\text\s+/gi, ' ');
+  cleaned = cleaned.replace(/\\text/gi, '');
+
+  // Clean examiner / ncert solution wording
+  cleaned = cleaned.replace(/Examiner(?:'s)?\s*(?:Pro-)?Tip:?/gi, 'Core Principle:');
+  cleaned = cleaned.replace(/NCERT\s*Verified\s*Solution:?/gi, 'Detailed Concept Derivation:');
+  cleaned = cleaned.replace(/NCERT\s*Solution:?/gi, 'Detailed Solution:');
+
+  // Placeholder text cleanup
+  cleaned = cleaned.replace(/refer\s+q\d+.*$/gi, 'Follows standard core postulates and verified derivations.');
+  cleaned = cleaned.replace(/refer\s+to\s+q\d+.*$/gi, 'Derived according to fundamental principles.');
+  cleaned = cleaned.replace(/see\s+solution\s+of\s+q\d+.*$/gi, 'Follows established chemical and physical laws.');
+  cleaned = cleaned.replace(/detailed\s+solution\s+for\s+[a-zA-Z0-9\s]+q\d+/gi, 'Step-by-step conceptual resolution');
 
   // Clean up double spaces
   cleaned = cleaned.replace(/\s+/g, ' ');

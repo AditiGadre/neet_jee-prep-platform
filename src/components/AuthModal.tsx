@@ -95,6 +95,33 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
     };
 
     localStorage.setItem('neet_local_user', JSON.stringify(localUser));
+
+    // Ensure enrolled student record is synced with the signed in credentials
+    let enrolledStudent = null;
+    try {
+      const raw = localStorage.getItem('neet_enrolled_student');
+      if (raw) enrolledStudent = JSON.parse(raw);
+    } catch {}
+
+    const updatedEnrolled = {
+      studentName: cleanName,
+      parentName: enrolledStudent?.parentName || 'Parent / Guardian',
+      parentPhone: cleanPhone.replace(/\D/g, '') || enrolledStudent?.parentPhone || '9876543210',
+      studentPhone: cleanPhone.replace(/\D/g, '') || enrolledStudent?.studentPhone || '9876543210',
+      domicileState: enrolledStudent?.domicileState || 'Maharashtra',
+      caste: enrolledStudent?.caste || 'General / Open',
+      email: cleanEmail,
+      dob: enrolledStudent?.dob || '2006-08-15',
+      dobPin: enrolledStudent?.dobPin || '15082006',
+      targetYear: enrolledStudent?.targetYear || '2026',
+      enrolledAt: enrolledStudent?.enrolledAt || new Date().toISOString(),
+      rollNumber: enrolledStudent?.rollNumber || 'NCBT-2026-' + Math.floor(100000 + Math.random() * 900000),
+      devices: enrolledStudent?.devices || ['dev-1']
+    };
+
+    localStorage.setItem('neet_enrolled_student', JSON.stringify(updatedEnrolled));
+    localStorage.setItem('neet_user_enrolled', 'true');
+
     window.dispatchEvent(new Event('neet_auth_change'));
   };
 
@@ -105,13 +132,13 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
   ) => {
     setLoading(true);
     setMessage({
-      text: `✓ Signed in successfully as ${demoEmail}! Syncing downloads & dashboard...`,
+      text: `✓ Signed in successfully as ${demoEmail}! Syncing dashboard...`,
       type: 'success',
     });
     saveLocalUserSession(demoEmail, demoPhone, demoName);
     setTimeout(() => {
       onClose();
-    }, 600);
+    }, 500);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -385,7 +412,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
               <Lock className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
               <input
                 type={showPassword ? 'text' : 'password'}
-                placeholder="Enter password (e.g. Neet2026!)"
+                placeholder="Enter password securely"
                 value={password}
                 onChange={(e) => {
                   setPassword(e.target.value);

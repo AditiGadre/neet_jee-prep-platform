@@ -43,6 +43,19 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
 
   let out = String(text);
 
+  // Strip /text, \text, \mathrm, \mathbf, \frac artifacts
+  out = out.replace(/\/text\{([^}]+)\}/gi, '$1');
+  out = out.replace(/\\text\{([^}]+)\}/gi, '$1');
+  out = out.replace(/\\mathrm\{([^}]+)\}/gi, '$1');
+  out = out.replace(/\\mathbf\{([^}]+)\}/gi, '$1');
+  out = out.replace(/\\mathit\{([^}]+)\}/gi, '$1');
+  out = out.replace(/\\dfrac\{([^}]+)\}\{([^}]+)\}/gi, '($1)/($2)');
+  out = out.replace(/\\frac\{([^}]+)\}\{([^}]+)\}/gi, '($1)/($2)');
+  out = out.replace(/\/text\s+/gi, ' ');
+  out = out.replace(/\/text/gi, '');
+  out = out.replace(/\\text\s+/gi, ' ');
+  out = out.replace(/\\text/gi, '');
+
   // 1. Remove unnecessary LaTeX delimiters like $...$ or \(...\)
   out = out.replace(/\\\((.*?)\\\)/g, '$1');
   out = out.replace(/\$([^\$]+)\$/g, '$1');

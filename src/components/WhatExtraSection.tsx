@@ -73,7 +73,7 @@ interface WhatExtraSectionProps {
   mindMaps: MindMapNode[];
   books: BookItem[];
   pyqs: PYQItem[];
-  onStartCustomTest: (customTest: TestItem) => void;
+  onStartCustomTest?: (customTest: TestItem) => void;
   onOpenBook: (book: BookItem) => void;
   completedTests: UserTestResult[];
   onOpenUploadModal?: (subject?: string, chapter?: string) => void;
@@ -91,22 +91,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   completedTests,
   onOpenUploadModal
 }) => {
-  // Custom Test Builder State
-  const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology' | 'Mathematics'>('Biology');
-  const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
-  const [customTopic, setCustomTopic] = useState<string>('All Topics');
-  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Both' | 'Adaptive'>('Both');
-  const [customDuration, setCustomDuration] = useState<number>(15);
-  const [customQCount, setCustomQCount] = useState<number>(15);
-
-  // Exhaustion state
-  const [exhaustionNotice, setExhaustionNotice] = useState<{
-    subject: string;
-    chapter: string;
-    total: number;
-    remaining: number;
-  } | null>(null);
-
   // Flashcards State
   const [fcSubjectFilter, setFcSubjectFilter] = useState<string>('All');
   const [fcCategoryFilter, setFcCategoryFilter] = useState<string>('All');
@@ -168,9 +152,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     };
   }, []);
 
-  // Sub-tab definitions
+  // Sub-tab definitions (Student High-Yield Precision Suite)
   const subModules = [
-    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders, desc: 'Generate 45-question tests strictly without repeating questions.' },
     { id: 'flash-cards', label: 'Flash Cards', icon: Layers, desc: '30+ high-yield revision cards with formulas, reactions, diagrams & mnemonics.' },
     { id: 'mind-maps', label: 'Mind Maps', icon: Network, desc: 'Interactive concept visual trees for rapid revision.' },
     { id: 'analytics', label: 'Student Analytics', icon: LineChart, desc: 'Score analysis, accuracy, weak topics & progress graphs.' },
@@ -179,101 +162,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with step solutions.' },
     { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine, desc: 'Preserved download history of question papers, scorecards, NCERT books and DPPs.' }
   ];
-
-  // Available Chapters by Subject (Instantly pre-computed)
-  const biologyChapters = ALL_BIOLOGY_CHAPTERS;
-  const chemistryChapters = ALL_CHEMISTRY_CHAPTERS;
-  const physicsChapters = ALL_PHYSICS_CHAPTERS;
-
-  const currentChapterList = customSubject === 'Biology'
-    ? biologyChapters
-    : customSubject === 'Chemistry'
-    ? chemistryChapters
-    : physicsChapters;
-
-  useEffect(() => {
-    if (currentChapterList.length > 0 && !currentChapterList.includes(customChapter)) {
-      setCustomChapter(currentChapterList[0]);
-    }
-  }, [customSubject, currentChapterList, customChapter]);
-
-  // Unused question pool calculation for active chapter
-  const currentPoolStats = useMemo(() => {
-    return getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
-  }, [customSubject, customChapter, customDifficulty, consumptionVersion]);
-
-  // Custom Test Launch Handler with Zero Repetition & Seamless Fallback
-  const handleGenerateAndStartCustomTest = () => {
-    const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
-    const allInChapter = getUnifiedQuestionBank(customSubject, customChapter);
-    const subjectBackup = getUnifiedQuestionBank(customSubject);
-
-    // Filter by difficulty if needed
-    let candidatePool = stats.unusedQuestions;
-    if (customDifficulty === 'Both') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Medium' || q.difficulty === 'Hard');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    } else if (customDifficulty === 'Hard') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Hard');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    } else if (customDifficulty === 'Medium') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Medium');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    } else if (customDifficulty === 'Easy') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Easy');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    }
-
-    // If candidate pool is smaller than requested, supplement from full chapter or subject pool
-    if (candidatePool.length < customQCount) {
-      const supplemental = allInChapter.length > 0 ? allInChapter : subjectBackup;
-      const seenIds = new Set(candidatePool.map(q => q.id));
-      const needed = [...candidatePool];
-      for (const q of supplemental) {
-        if (!seenIds.has(q.id)) {
-          seenIds.add(q.id);
-          needed.push(q);
-        }
-        if (needed.length >= customQCount) break;
-      }
-      candidatePool = needed;
-    }
-
-    // If still empty (e.g. initial cold state), use subject backup or sample questions
-    if (candidatePool.length === 0) {
-      candidatePool = subjectBackup.length > 0 ? subjectBackup : SAMPLE_QUESTIONS;
-    }
-
-    const shuffled = [...candidatePool].sort(() => 0.5 - Math.random());
-    const selectedQuestions = shuffled.slice(0, customQCount);
-
-    // Mark these questions as consumed so fresh questions are prioritized next time
-    const selectedIds = selectedQuestions.map(q => q.id);
-    markQuestionsAsConsumed(selectedIds);
-
-    const customTestItem: TestItem = {
-      id: `custom-test-${Date.now()}`,
-      title: `Custom Test: ${customSubject} - ${customChapter} (${selectedQuestions.length} Qs)`,
-      category: 'custom',
-      exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulty} Level &bull; ${selectedQuestions.length} Questions)`,
-      totalQuestions: selectedQuestions.length,
-      durationMinutes: customDuration,
-      totalMarks: selectedQuestions.length * 4,
-      negativeMarking: '+4 for correct, -1 for incorrect',
-      difficulty: customDifficulty === 'Adaptive' ? 'Mixed' : customDifficulty,
-      cbtMode: true,
-      features: [
-        `Subject: ${customSubject}`,
-        `Chapter: ${customChapter}`,
-        `Format: ${selectedQuestions.length} High-Yield Qs`,
-        `100% Verified NCERT Explanations`
-      ],
-      questions: selectedQuestions
-    };
-
-    onStartCustomTest(customTestItem);
-  };
 
   // Handle DPP Download (Purely unique questions)
   const handleDownloadDpp = () => {
@@ -374,17 +262,15 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-100 pb-4">
           <div>
             <div className="inline-flex items-center space-x-1.5 px-2 py-0.5 rounded bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold uppercase tracking-wider mb-1.5">
-              <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Edge Suite & Precision Tools
+              <Sparkles className="w-3 h-3 text-blue-600" /> High-Yield Academic Edge Suite
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
-              2. What Extra We Offer (8 Precision Tools)
+              2. What Extra We Offer (7 Precision Learning Tools)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Zero-repetition custom test generator extracting strictly unattempted questions from our 4,500+ database, interactive Flashcards, Mind Maps, and tracked PDF download vault.
+              Interactive Flashcards, Visual Mind Maps, Personalized DPP Generator, Books & Notes, PYQs, and tracked PDF download vault.
             </p>
           </div>
-
-
         </div>
 
         {/* Sub-Tab Navigation Bar */}
@@ -415,214 +301,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       </div>
 
-      {/* 1. CUSTOM TEST GENERATOR (ZERO-REPETITION + EXHAUSTION ALERTS) */}
-      {activeSubTab === 'custom-test' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
-            <div>
-              <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
-                <Sliders className="w-4 h-4 text-blue-600" />
-                <span>Custom CBT Test Generator (Zero Question Repetition)</span>
-              </h2>
-              <p className="text-xs text-gray-500 mt-0.5">
-                Pulls exclusively unattempted questions from the central database. When questions are exhausted, you will be notified immediately.
-              </p>
-            </div>
-            
-            {/* Real-time Unused Question Bank Counter Badge */}
-            <div className="flex items-center space-x-2">
-              <span className={`text-[10px] font-mono font-bold px-2.5 py-1 rounded border uppercase ${
-                currentPoolStats.remainingUnused === 0
-                  ? 'bg-rose-50 text-rose-700 border-rose-300'
-                  : currentPoolStats.remainingUnused < 45
-                  ? 'bg-amber-50 text-amber-800 border-amber-300'
-                  : 'bg-emerald-50 text-emerald-700 border-emerald-300'
-              }`}>
-                {currentPoolStats.remainingUnused} / {currentPoolStats.totalInBank} Unused Questions Remaining
-              </span>
-            </div>
-          </div>
-
-          {/* EXHAUSTION ALERT BANNER (IF DATA IS OVER) */}
-          {exhaustionNotice && (
-            <div className="p-4 rounded-xl bg-rose-50 border border-rose-300 text-rose-900 space-y-3 animate-in zoom-in-95 duration-150">
-              <div className="flex items-start space-x-2.5">
-                <AlertCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="text-sm font-bold text-rose-900">
-                    ⚠️ Question Pool Exhausted for &quot;{exhaustionNotice.chapter}&quot;
-                  </h4>
-                  <p className="text-xs text-rose-700 mt-0.5 leading-relaxed">
-                    You have completed all <strong>{exhaustionNotice.total} unique questions</strong> in this chapter! To uphold strict test series integrity, no duplicate questions will be served.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-rose-200">
-                <button
-                  onClick={() => onOpenUploadModal && onOpenUploadModal(customSubject, customChapter)}
-                  className="px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
-                >
-                  <Upload className="w-3.5 h-3.5" />
-                  <span>Upload / AI Generate New Questions</span>
-                </button>
-
-                <button
-                  onClick={() => {
-                    resetChapterConsumption(customSubject, customChapter);
-                    setExhaustionNotice(null);
-                  }}
-                  className="px-3.5 py-1.5 rounded-lg bg-white hover:bg-gray-100 text-gray-800 border border-gray-300 font-bold text-xs flex items-center space-x-1.5 transition cursor-pointer"
-                >
-                  <RefreshCw className="w-3.5 h-3.5 text-gray-600" />
-                  <span>Reset Chapter History & Retake</span>
-                </button>
-              </div>
-            </div>
-          )}
-
-          {/* Builder Controls Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {/* Subject Selector */}
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
-              <select
-                value={customSubject}
-                onChange={e => {
-                  const sub = e.target.value as any;
-                  setCustomSubject(sub);
-                  setExhaustionNotice(null);
-                  if (sub === 'Biology') setCustomChapter(biologyChapters[0]);
-                  else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
-                  else setCustomChapter(physicsChapters[0]);
-                }}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
-              >
-                <option value="Biology">🧬 Biology (All 38 Chapters)</option>
-                <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
-                <option value="Physics">⚡ Physics (Mechanics, Electrodynamics, Modern)</option>
-              </select>
-            </div>
-
-            {/* Chapter Selector */}
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Available)</label>
-              <select
-                value={customChapter}
-                onChange={e => {
-                  setCustomChapter(e.target.value);
-                  setExhaustionNotice(null);
-                }}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
-              >
-                {currentChapterList.map((ch, idx) => (
-                  <option key={idx} value={ch}>
-                    {idx + 1}. {ch}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* Difficulty Level */}
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standard</label>
-              <select
-                value={customDifficulty}
-                onChange={e => setCustomDifficulty(e.target.value as any)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
-              >
-                <option value="Both">Both Medium & Hard (Mixed NTA Standard)</option>
-                <option value="Medium">Medium Level Only</option>
-                <option value="Hard">Hard (Top Ranker Booster)</option>
-                <option value="Easy">Easy (Rapid NCERT Warmup)</option>
-                <option value="Adaptive">Adaptive (AI Dynamic Blend)</option>
-              </select>
-            </div>
-
-            {/* Questions Count Preset */}
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
-              <div className="grid grid-cols-4 gap-1.5">
-                {[15, 30, 45, 60].map(cnt => (
-                  <button
-                    key={cnt}
-                    onClick={() => {
-                      setCustomQCount(cnt);
-                      setCustomDuration(cnt);
-                    }}
-                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors cursor-pointer ${
-                      customQCount === cnt
-                        ? 'bg-blue-600 text-white shadow-xs'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
-                    }`}
-                  >
-                    {cnt} Qs
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Duration Preset */}
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
-              <div className="grid grid-cols-4 gap-1.5">
-                {[15, 30, 45, 60].map(mins => (
-                  <button
-                    key={mins}
-                    onClick={() => setCustomDuration(mins)}
-                    className={`py-1.5 rounded text-xs font-bold font-mono transition-colors cursor-pointer ${
-                      customDuration === mins
-                        ? 'bg-purple-600 text-white shadow-xs'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
-                    }`}
-                  >
-                    {mins} Mins
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Marking Scheme */}
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Anti-Repetition Status</label>
-              <div className="p-2 rounded bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
-                <span>Unused: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
-                <span>Consumed: <strong className="text-blue-700">{currentPoolStats.totalInBank - currentPoolStats.remainingUnused}</strong></span>
-              </div>
-            </div>
-          </div>
-
-          {/* Test Summary Preview & Launch Button */}
-          <div className="p-4 rounded bg-blue-50/60 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div className="space-y-0.5 text-xs">
-              <div className="text-gray-700">
-                Configured Custom Test:{' '}
-                <strong className="text-gray-900">
-                  {customSubject} &bull; {customChapter}
-                </strong>
-              </div>
-              <div className="text-gray-600 font-mono text-[11px]">
-                Format:{' '}
-                <span className="text-blue-700 font-bold">{customQCount} Questions ({customQCount * 4} Marks)</span> &bull;{' '}
-                <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Status:{' '}
-                <span className={currentPoolStats.remainingUnused >= customQCount ? 'text-emerald-700 font-bold' : 'text-rose-600 font-bold'}>
-                  {currentPoolStats.remainingUnused >= customQCount ? '✓ Ready (100% Unique Questions)' : '⚠️ Insufficient Unused Data'}
-                </span>
-              </div>
-            </div>
-
-            <button
-              onClick={handleGenerateAndStartCustomTest}
-              className="w-full sm:w-auto px-5 py-2.5 rounded bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition-colors active:scale-95 cursor-pointer"
-            >
-              <Play className="w-3.5 h-3.5 fill-current" />
-              <span>Launch {customQCount}-Question CBT Test</span>
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* 2. FLASH CARDS (30+ RICH CARDS) */}
+      {/* 1. FLASH CARDS (30+ RICH CARDS) */}
       {activeSubTab === 'flash-cards' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
@@ -769,7 +448,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                         <div className="p-2.5 rounded bg-white border border-purple-200 text-purple-900 text-xs flex items-center space-x-2">
                           <Lightbulb className="w-4 h-4 text-amber-500 shrink-0" />
                           <span>
-                            <strong>Examiner Mnemonic:</strong> {currentFlashcard.mnemonic}
+                            <strong>High-Yield Mnemonic:</strong> {currentFlashcard.mnemonic}
                           </span>
                         </div>
                       )}
@@ -821,7 +500,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <span>Interactive NCERT Concept Mind Maps</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Deep hierarchical concept branches with examiner notes and subtopics.
+                Deep hierarchical concept branches with high-yield key notes and subtopics.
               </p>
             </div>
             <div className="flex flex-wrap gap-1.5">
@@ -874,7 +553,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                       {child.subTopics && child.subTopics.length > 0 && (
                         <div className="pt-2 border-t border-gray-200/80 space-y-1">
                           <div className="text-[10px] font-bold text-purple-700 uppercase tracking-wider">
-                            Examiner Key Highlights & Traps:
+                            Key High-Yield Highlights & Notes:
                           </div>
                           {child.subTopics.map((st, sIdx) => (
                             <div key={sIdx} className="text-[11px] text-gray-600 flex items-start space-x-1.5">

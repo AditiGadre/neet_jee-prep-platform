@@ -29,11 +29,12 @@ export interface EnrolledStudent {
   parentName: string;
   parentPhone: string;
   studentPhone: string;
+  domicileState: string;
   caste: 'General / Open' | 'OBC-NCL' | 'SC (Scheduled Caste)' | 'ST (Scheduled Tribe)' | 'GEN-EWS';
   email: string;
   dob: string; // YYYY-MM-DD
   dobPin: string; // DDMMYYYY for PDF password
-  targetYear: '2025' | '2026' | '2027';
+  targetYear: '2026' | '2027' | '2028';
   enrolledAt: string;
   rollNumber: string;
   devices: string[];
@@ -48,6 +49,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
   const [parentName, setParentName] = useState('');
   const [parentPhone, setParentPhone] = useState('');
   const [studentPhone, setStudentPhone] = useState('');
+  const [domicileState, setDomicileState] = useState('Maharashtra');
   const [caste, setCaste] = useState<EnrolledStudent['caste']>('General / Open');
   const [email, setEmail] = useState('');
   const [dob, setDob] = useState('2006-08-15');
@@ -146,6 +148,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
       parentName: parentName.trim(),
       parentPhone: parentPhone.replace(/\D/g, ''),
       studentPhone: studentPhone.replace(/\D/g, ''),
+      domicileState,
       caste,
       email: email.trim().toLowerCase(),
       dob,
@@ -167,6 +170,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
         phone: '+91 ' + studentData.studentPhone,
         parentName: studentData.parentName,
         parentPhone: '+91 ' + studentData.parentPhone,
+        domicileState: studentData.domicileState,
         caste: studentData.caste,
         dob: studentData.dob,
         dobPin: studentData.dobPin,
@@ -451,7 +455,47 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
                   />
                 </div>
                 <p className="text-[10px] text-blue-700 font-mono mt-1 flex items-center gap-1">
-                  <KeyRound className="w-3 h-3 text-blue-600" /> PDF Password: <strong>{formatDobToPin(dob)}</strong> (Format: DDMMYYYY)
+                  <KeyRound className="w-3 h-3 text-blue-600" /> PDF Password Format: DDMMYYYY (Protected via DOB)
+                </p>
+              </div>
+
+              {/* Domicile State */}
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  State of Domicile <span className="text-rose-500">*</span>
+                </label>
+                <select
+                  value={domicileState}
+                  onChange={e => setDomicileState(e.target.value)}
+                  className="w-full px-3 py-2 text-xs rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-100 focus:border-blue-600 text-slate-900 font-medium transition cursor-pointer"
+                >
+                  <option value="Maharashtra">Maharashtra (MH State Quota)</option>
+                  <option value="Delhi (NCT)">Delhi (NCT - DU / IPU Quota)</option>
+                  <option value="Karnataka">Karnataka (KEA State Quota)</option>
+                  <option value="Uttar Pradesh">Uttar Pradesh (UP State Quota)</option>
+                  <option value="Rajasthan">Rajasthan (State Quota)</option>
+                  <option value="Gujarat">Gujarat (State Quota)</option>
+                  <option value="Tamil Nadu">Tamil Nadu (TN State Quota)</option>
+                  <option value="Kerala">Kerala (KEAM State Quota)</option>
+                  <option value="Telangana">Telangana (KNRUHS Quota)</option>
+                  <option value="Andhra Pradesh">Andhra Pradesh (YSRUHS Quota)</option>
+                  <option value="Madhya Pradesh">Madhya Pradesh (MP State Quota)</option>
+                  <option value="Bihar">Bihar (BCECEB Quota)</option>
+                  <option value="West Bengal">West Bengal (WB State Quota)</option>
+                  <option value="Punjab">Punjab (BFUHS Quota)</option>
+                  <option value="Haryana">Haryana (State Quota)</option>
+                  <option value="Odisha">Odisha (OJEE Quota)</option>
+                  <option value="Assam">Assam (DME Quota)</option>
+                  <option value="Jharkhand">Jharkhand (JCECEB Quota)</option>
+                  <option value="Chhattisgarh">Chhattisgarh (CG State Quota)</option>
+                  <option value="Uttarakhand">Uttarakhand (HNBUMU Quota)</option>
+                  <option value="Himachal Pradesh">Himachal Pradesh (HP State Quota)</option>
+                  <option value="Jammu & Kashmir">Jammu & Kashmir (JKBOPEE Quota)</option>
+                  <option value="Goa">Goa (DTE Quota)</option>
+                  <option value="Other State / UT">Other State / Union Territory</option>
+                </select>
+                <p className="text-[10px] text-slate-500 mt-1">
+                  85% State Quota counselling eligibility will be mapped to this domicile.
                 </p>
               </div>
 
@@ -508,19 +552,19 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
               </div>
             </div>
 
-            {/* Target Batch Select */}
+            {/* Target Batch Select (2026, 2027, 2028) */}
             <div className="pt-2 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
               <div className="flex items-center space-x-2">
                 <Calendar className="w-4 h-4 text-blue-600" />
                 <span className="text-xs font-bold text-slate-800">Target NEET Exam Year:</span>
               </div>
               <div className="flex items-center space-x-2">
-                {(['2025', '2026', '2027'] as const).map(yr => (
+                {(['2026', '2027', '2028'] as const).map(yr => (
                   <button
                     type="button"
                     key={yr}
                     onClick={() => setTargetYear(yr)}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                    className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
                       targetYear === yr
                         ? 'bg-blue-600 text-white shadow-xs'
                         : 'bg-slate-100 text-slate-600 hover:bg-slate-200'

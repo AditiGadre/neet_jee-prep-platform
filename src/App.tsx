@@ -43,7 +43,7 @@ import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 export default function App() {
   const [activeExam, setActiveExam] = useState<ExamType>('NEET');
   const [activeTab, setActiveTab] = useState<TabType>('test-series');
-  const [extraSubTab, setExtraSubTab] = useState<string>('custom-test');
+  const [extraSubTab, setExtraSubTab] = useState<string>('flash-cards');
 
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
@@ -262,9 +262,25 @@ export default function App() {
     }
   };
 
+  const [targetYear, setTargetYear] = useState<'2026' | '2027' | '2028'>(() => {
+    try {
+      const saved = localStorage.getItem('neet_target_year');
+      if (saved === '2026' || saved === '2027' || saved === '2028') return saved;
+    } catch {}
+    return '2026';
+  });
+
+  const handleSelectTargetYear = (yr: '2026' | '2027' | '2028') => {
+    setTargetYear(yr);
+    localStorage.setItem('neet_target_year', yr);
+  };
+
   const handleSignOut = async () => {
     localStorage.removeItem('neet_local_user');
+    localStorage.removeItem('neet_enrolled_student');
+    localStorage.removeItem('neet_user_enrolled');
     setUser(null);
+    setEnrolledStudent(null);
     if (supabase) {
       try {
         await supabase.auth.signOut();
@@ -273,6 +289,7 @@ export default function App() {
       }
     }
     window.dispatchEvent(new Event('neet_auth_change'));
+    window.dispatchEvent(new Event('neet_downloads_change'));
   };
 
   const handleQuickMockTest = () => {
@@ -305,6 +322,8 @@ export default function App() {
       <Header
         activeExam={activeExam}
         onSelectExam={setActiveExam}
+        targetYear={targetYear}
+        onSelectTargetYear={handleSelectTargetYear}
         onOpenQuickTest={handleQuickMockTest}
         onOpenDoubtModal={() => setIsDoubtModalOpen(true)}
         completedTestsCount={completedTests.length}
@@ -332,6 +351,7 @@ export default function App() {
             {activeTab === 'test-series' && (
               <TestSeriesSection
                 testItems={TEST_SERIES_DATA}
+                targetYear={targetYear}
                 onStartTest={handleStartTest}
               />
             )}
@@ -404,9 +424,13 @@ export default function App() {
           <DownloadsModal onClose={() => setIsDownloadsModalOpen(false)} />
         )}
 
-        {/* Super User & Admin Notification Center */}
+        {/* Super User & Admin Control Center (Custom Test Generator & Telemetry) */}
         {isSuperUserModalOpen && (
-          <SuperUserModal onClose={() => setIsSuperUserModalOpen(false)} />
+          <SuperUserModal
+            onClose={() => setIsSuperUserModalOpen(false)}
+            onStartCustomTest={handleStartTest}
+            onOpenUploadModal={handleOpenUpload}
+          />
         )}
 
         {/* Content Upload & Ingestion Modal */}
