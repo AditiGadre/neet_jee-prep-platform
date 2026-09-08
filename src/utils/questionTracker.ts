@@ -56,7 +56,7 @@ export function getUnusedQuestions(
   subject: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics',
   chapter: string,
   userEmail?: string,
-  difficulty?: string
+  difficulty?: string | string[]
 ): {
   unusedQuestions: Question[];
   totalInBank: number;
@@ -73,10 +73,17 @@ export function getUnusedQuestions(
     unused = [...allInChapter].sort(() => 0.5 - Math.random());
   }
 
-  if (difficulty && difficulty !== 'Mixed' && difficulty !== 'Adaptive' && difficulty !== 'Both') {
-    const filteredDiff = unused.filter(q => q.difficulty === difficulty);
-    if (filteredDiff.length >= 10) {
-      unused = filteredDiff;
+  if (difficulty) {
+    const diffArray = Array.isArray(difficulty)
+      ? difficulty
+      : [difficulty];
+
+    const cleanDiffs = diffArray.filter(d => d !== 'Mixed' && d !== 'Adaptive' && d !== 'Both');
+    if (cleanDiffs.length > 0) {
+      const filteredDiff = unused.filter(q => cleanDiffs.includes(q.difficulty || 'Medium'));
+      if (filteredDiff.length >= 10) {
+        unused = filteredDiff;
+      }
     }
   }
 

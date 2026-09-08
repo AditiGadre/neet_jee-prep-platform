@@ -452,10 +452,10 @@ export function getUniqueDiagramForQuestion(
     candidates.push('bio_synapse');
   }
 
-  // Strictly enforce <= 2 uses per diagram
+  // Strictly enforce max 1 use per diagram (ZERO REPEATS in a test paper)
   for (const diagId of candidates) {
     const currentUsage = sessionDiagramUsageMap.get(diagId) || 0;
-    if (currentUsage < 2) {
+    if (currentUsage < 1) {
       sessionDiagramUsageMap.set(diagId, currentUsage + 1);
       return DIAGRAM_REGISTRY[diagId]?.svg || null;
     }

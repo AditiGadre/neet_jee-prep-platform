@@ -94,10 +94,21 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   // Custom Test Builder State (Student High-Yield Edge Tool)
   const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
   const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
-  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Both' | 'Adaptive'>('Both');
+  const [customDifficulties, setCustomDifficulties] = useState<string[]>(['Medium', 'Hard']);
   const [customDuration, setCustomDuration] = useState<number>(45);
   const [customQCount, setCustomQCount] = useState<number>(45);
   const [customTestPdfSuccess, setCustomTestPdfSuccess] = useState<string | null>(null);
+
+  const toggleDifficulty = (diff: string) => {
+    setCustomDifficulties(prev => {
+      if (prev.includes(diff)) {
+        if (prev.length === 1) return prev; // Keep at least one
+        return prev.filter(d => d !== diff);
+      } else {
+        return [...prev, diff];
+      }
+    });
+  };
 
   // Flashcards State
   const [fcSubjectFilter, setFcSubjectFilter] = useState<string>('All');
@@ -192,27 +203,18 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Unused question pool calculation for active chapter
   const currentPoolStats = useMemo(() => {
-    return getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
-  }, [customSubject, customChapter, customDifficulty, consumptionVersion]);
+    return getUnusedQuestions(customSubject, customChapter, undefined, customDifficulties);
+  }, [customSubject, customChapter, customDifficulties, consumptionVersion]);
 
   // Helper to build test question set
   const generateStudentCustomTestQuestions = (): Question[] => {
-    const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulty);
+    const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulties);
     const allInChapter = getUnifiedQuestionBank(customSubject, customChapter);
     const subjectBackup = getUnifiedQuestionBank(customSubject);
 
     let candidatePool = stats.unusedQuestions;
-    if (customDifficulty === 'Both') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Medium' || q.difficulty === 'Hard');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    } else if (customDifficulty === 'Hard') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Hard');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    } else if (customDifficulty === 'Medium') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Medium');
-      if (filtered.length >= customQCount) candidatePool = filtered;
-    } else if (customDifficulty === 'Easy') {
-      const filtered = candidatePool.filter(q => q.difficulty === 'Easy');
+    if (customDifficulties.length > 0) {
+      const filtered = candidatePool.filter(q => customDifficulties.includes(q.difficulty || 'Medium'));
       if (filtered.length >= customQCount) candidatePool = filtered;
     }
 
@@ -248,18 +250,18 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       title: `Custom Test: ${customSubject} - ${customChapter} (${selectedQuestions.length} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} (${customDifficulty} Level &bull; ${selectedQuestions.length} Questions)`,
+      syllabus: `${customSubject} > ${customChapter} (${customDifficulties.join(' + ')} Level &bull; ${selectedQuestions.length} Questions)`,
       totalQuestions: selectedQuestions.length,
       durationMinutes: customDuration,
       totalMarks: selectedQuestions.length * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
-      difficulty: customDifficulty === 'Adaptive' ? 'Mixed' : customDifficulty,
+      difficulty: customDifficulties.length > 1 ? 'Mixed' : (customDifficulties[0] as any || 'Medium'),
       cbtMode: true,
       features: [
         `Subject: ${customSubject}`,
         `Chapter: ${customChapter}`,
-        `Format: ${selectedQuestions.length} High-Yield Qs`,
-        `Complete Step-by-Step Derivations`
+        `Difficulty: ${customDifficulties.join(' + ')}`,
+        `Format: ${selectedQuestions.length} High-Yield Qs (4-5 Line Problems)`
       ],
       questions: selectedQuestions
     };
@@ -277,12 +279,12 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       title: `Custom Test: ${customSubject} - ${customChapter}`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} &bull; ${selectedQuestions.length} Questions`,
+      syllabus: `${customSubject} > ${customChapter} &bull; ${selectedQuestions.length} Questions (${customDifficulties.join(' + ')})`,
       totalQuestions: selectedQuestions.length,
       durationMinutes: customDuration,
       totalMarks: selectedQuestions.length * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
-      difficulty: customDifficulty === 'Adaptive' ? 'Mixed' : customDifficulty,
+      difficulty: customDifficulties.length > 1 ? 'Mixed' : (customDifficulties[0] as any || 'Medium'),
       cbtMode: true,
       questions: selectedQuestions
     };
@@ -549,20 +551,46 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               </select>
             </div>
 
-            {/* Difficulty Level */}
+            {/* Difficulty Level (Multi-Select Support) */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standard</label>
-              <select
-                value={customDifficulty}
-                onChange={e => setCustomDifficulty(e.target.value as any)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
-              >
-                <option value="Both">Both Medium & Hard (Standard NTA Mix)</option>
-                <option value="Hard">Hard (High Difficulty & Advanced Analytical)</option>
-                <option value="Medium">Medium Level Only</option>
-                <option value="Easy">Easy (Fundamental Warmup)</option>
-                <option value="Adaptive">Adaptive (Dynamic Multi-Tier Blend)</option>
-              </select>
+              <div className="flex items-center justify-between">
+                <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
+                <span className="text-[10px] font-semibold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100">
+                  {customDifficulties.length} Selected
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-1.5">
+                {[
+                  { id: 'Easy', label: 'Easy (NCERT Warmup)', desc: 'Fundamental theory' },
+                  { id: 'Medium', label: 'Medium (NTA Level)', desc: 'Standard numericals' },
+                  { id: 'Hard', label: 'Hard (High-Rigor)', desc: 'Multi-statement & multi-clause' },
+                  { id: 'Advanced', label: 'Advanced (AIIMS Level)', desc: 'Assertion-Reason & deep analytical' }
+                ].map(item => {
+                  const isSelected = customDifficulties.includes(item.id);
+                  return (
+                    <button
+                      key={item.id}
+                      type="button"
+                      onClick={() => toggleDifficulty(item.id)}
+                      className={`p-2 rounded text-left border transition-all cursor-pointer flex flex-col justify-between ${
+                        isSelected
+                          ? 'bg-blue-50/90 border-blue-500 ring-1 ring-blue-500/30 text-blue-900 shadow-2xs'
+                          : 'bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100 hover:border-gray-300'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between w-full">
+                        <span className="text-xs font-bold">{item.id}</span>
+                        <span className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold ${
+                          isSelected ? 'bg-blue-600 text-white' : 'border border-gray-300 bg-white'
+                        }`}>
+                          {isSelected ? '✓' : ''}
+                        </span>
+                      </div>
+                      <span className="text-[9px] text-gray-500 mt-0.5">{item.desc}</span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
             {/* Questions Count Preset */}
@@ -630,7 +658,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <div className="text-gray-600 font-mono text-[11px]">
                 Format:{' '}
                 <span className="text-blue-700 font-bold">{customQCount} Questions ({customQCount * 4} Marks)</span> &bull;{' '}
-                <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Level: {customDifficulty}
+                <span className="text-purple-700 font-bold">{customDuration} Minutes</span> &bull; Level:{' '}
+                <span className="text-indigo-700 font-bold">{customDifficulties.join(' + ')}</span>
               </div>
             </div>
 
