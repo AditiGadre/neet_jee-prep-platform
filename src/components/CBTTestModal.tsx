@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import confetti from 'canvas-confetti';
 import {
   X as XIcon,
@@ -45,6 +45,7 @@ import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { cleanOcrText } from '../utils/ocrCleaner';
 import { downloadTestPaperPDF, downloadTestScorecardPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
+import { getUniqueDiagramForQuestion } from '../utils/diagramEngine';
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -464,73 +465,64 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     });
   };
 
-  const getDynamicSvgDiagram = (q: Question) => {
-    const text = (q.questionText + ' ' + (q.explanation || '')).toLowerCase();
-    
-    if (text.includes('lens') || text.includes('prism') || text.includes('mirror') || text.includes('refraction') || text.includes('focal length')) {
-      return `<svg viewBox="0 0 340 110" className="w-full max-w-sm h-28" xmlns="http://www.w3.org/2000/svg">
-        <line x1="20" y1="55" x2="320" y2="55" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <path d="M 170 15 Q 185 55 170 95 Q 155 55 170 15 Z" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
-        <line x1="60" y1="55" x2="60" y2="25" stroke="#16a34a" stroke-width="2.5"/>
-        <polygon points="56,30 60,20 64,30" fill="#16a34a"/>
-        <text x="50" y="20" font-size="10" font-weight="bold" fill="#16a34a">Object</text>
-        <line x1="60" y1="25" x2="170" y2="25" stroke="#dc2626" stroke-width="1.5"/>
-        <line x1="170" y1="25" x2="280" y2="85" stroke="#dc2626" stroke-width="1.5"/>
-        <line x1="60" y1="25" x2="170" y2="55" stroke="#2563eb" stroke-width="1.5"/>
-        <line x1="170" y1="55" x2="280" y2="85" stroke="#2563eb" stroke-width="1.5"/>
-        <line x1="280" y1="55" x2="280" y2="85" stroke="#ea580c" stroke-width="2.5"/>
-        <polygon points="276,80 280,90 284,80" fill="#ea580c"/>
-        <text x="270" y="102" font-size="10" font-weight="bold" fill="#ea580c">Image (Real)</text>
-      </svg>`;
+  // Memoized Diagram Map ensuring NO diagram is used for more than 2 questions across the entire test
+  const questionDiagramMap = useMemo(() => {
+    const map = new Map<number, string | null>();
+    const usageTracker = new Map<string, number>();
+
+    questions.forEach((q, idx) => {
+      const diag = getUniqueDiagramForQuestion(q, usageTracker);
+      map.set(idx, diag);
+    });
+
+    return map;
+  }, [questions]);
+
+  const renderFormattedQuestionText = (text: string) => {
+    const clean = formatMathAndFormulas(cleanOcrText(text));
+
+    // Detect Assertion-Reason, Statement I/II, or Match questions
+    const isAssertionReason = clean.includes('Assertion (A):') || clean.includes('Assertion(A):') || clean.includes('Reason (R):') || clean.includes('Reason(R):');
+    const isStatements = clean.includes('Statement I:') || clean.includes('Statement 1:') || clean.includes('Statement II:') || clean.includes('Statement 2:');
+
+    if (isAssertionReason || isStatements) {
+      const parts = clean.split(/(?=Assertion\s*\([A-Z]\):|Reason\s*\([A-Z]\):|Statement\s*(?:I|II|1|2):)/i);
+      return (
+        <div className="space-y-2.5">
+          {parts.map((part, pIdx) => {
+            const p = part.trim();
+            if (!p) return null;
+            const isAss = p.toLowerCase().startsWith('assertion');
+            const isReas = p.toLowerCase().startsWith('reason');
+            const isStmt = p.toLowerCase().startsWith('statement');
+
+            if (isAss || isReas || isStmt) {
+              return (
+                <div
+                  key={pIdx}
+                  className={`p-3 rounded-xl border text-xs sm:text-sm font-medium leading-relaxed ${
+                    isAss
+                      ? 'bg-blue-50/80 border-blue-200 text-blue-950 font-semibold'
+                      : isReas
+                      ? 'bg-amber-50/80 border-amber-200 text-amber-950 font-semibold'
+                      : 'bg-indigo-50/80 border-indigo-200 text-indigo-950 font-semibold'
+                  }`}
+                >
+                  {p}
+                </div>
+              );
+            }
+            return (
+              <p key={pIdx} className="m-0 text-slate-900 font-semibold">
+                {p}
+              </p>
+            );
+          })}
+        </div>
+      );
     }
 
-    if (text.includes('circuit') || text.includes('resistor') || text.includes('galvanometer') || text.includes('current') || text.includes('wheatstone') || text.includes('capacit')) {
-      return `<svg viewBox="0 0 340 100" className="w-full max-w-sm h-26" xmlns="http://www.w3.org/2000/svg">
-        <rect x="25" y="25" width="290" height="50" fill="none" stroke="#64748b" stroke-width="2" rx="6"/>
-        <line x1="110" y1="18" x2="110" y2="32" stroke="#dc2626" stroke-width="3"/>
-        <line x1="120" y1="22" x2="120" y2="28" stroke="#1e293b" stroke-width="2"/>
-        <text x="100" y="15" font-size="9" font-weight="bold" fill="#dc2626">+ V -</text>
-        <path d="M 210 25 L 216 18 L 224 32 L 232 18 L 240 32 L 246 25" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-        <text x="220" y="15" font-size="10" font-weight="bold" fill="#2563eb">R</text>
-        <circle cx="170" cy="75" r="14" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-        <text x="165" y="79" font-size="11" font-weight="bold" fill="#b45309">G</text>
-        <polygon points="280,72 290,75 280,78" fill="#64748b"/>
-        <text x="140" y="94" font-size="9" fill="#64748b">Current Direction (I)</text>
-      </svg>`;
-    }
-
-    if (text.includes('incline') || text.includes('rolling') || text.includes('friction') || text.includes('moment of inertia') || text.includes('torque')) {
-      return `<svg viewBox="0 0 340 100" className="w-full max-w-sm h-26" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="30,90 310,90 310,25" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
-        <circle cx="210" cy="42" r="16" fill="#93c5fd" stroke="#2563eb" stroke-width="2"/>
-        <line x1="210" y1="42" x2="210" y2="78" stroke="#dc2626" stroke-width="2"/>
-        <text x="215" y="70" font-size="9" font-weight="bold" fill="#dc2626">mg</text>
-        <line x1="210" y1="42" x2="230" y2="55" stroke="#16a34a" stroke-width="2"/>
-        <text x="235" y="55" font-size="9" font-weight="bold" fill="#16a34a">mg sinθ</text>
-        <path d="M 60,90 A 30,30 0 0,0 85,78" fill="none" stroke="#d97706" stroke-width="1.5"/>
-        <text x="90" y="87" font-size="10" font-weight="bold" fill="#d97706">θ</text>
-      </svg>`;
-    }
-
-    if (text.includes('operon') || text.includes('dna') || text.includes('replication') || text.includes('genetic') || text.includes('transcription') || text.includes('cell')) {
-      return `<svg viewBox="0 0 360 75" className="w-full max-w-sm h-20" xmlns="http://www.w3.org/2000/svg">
-        <rect x="20" y="20" width="40" height="28" fill="#fef08a" stroke="#ca8a04" rx="4"/>
-        <text x="32" y="38" font-size="10" font-weight="bold" fill="#854d0e">p (P)</text>
-        <rect x="65" y="20" width="40" height="28" fill="#fed7aa" stroke="#ea580c" rx="4"/>
-        <text x="78" y="38" font-size="10" font-weight="bold" fill="#9a3412">i (I)</text>
-        <rect x="110" y="20" width="40" height="28" fill="#e9d5ff" stroke="#9333ea" rx="4"/>
-        <text x="123" y="38" font-size="10" font-weight="bold" fill="#6b21a8">o (O)</text>
-        <rect x="155" y="20" width="60" height="28" fill="#bbf7d0" stroke="#16a34a" rx="4"/>
-        <text x="175" y="38" font-size="10" font-weight="bold" fill="#14532d">z (β-Gal)</text>
-        <rect x="220" y="20" width="55" height="28" fill="#bae6fd" stroke="#0284c7" rx="4"/>
-        <text x="238" y="38" font-size="10" font-weight="bold" fill="#0369a1">y (Perm)</text>
-        <rect x="280" y="20" width="55" height="28" fill="#fbcfe8" stroke="#db2777" rx="4"/>
-        <text x="298" y="38" font-size="10" font-weight="bold" fill="#831843">a (Trans)</text>
-        <text x="120" y="65" font-size="9" fill="#64748b">Structural & Regulatory Genes</text>
-      </svg>`;
-    }
-
-    return null;
+    return <span>{clean}</span>;
   };
 
   const renderMultiLineExplanation = (q: Question | string) => {
@@ -733,17 +725,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                   {/* Question Text */}
                   <div className="text-sm sm:text-base font-semibold text-slate-900 leading-relaxed p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80 shadow-2xs">
-                    {currentQ.questionText}
+                    {renderFormattedQuestionText(currentQ.questionText)}
                   </div>
 
-                  {/* Visual / SVG Diagram in Question */}
-                  {(currentQ.diagramSvg || getDynamicSvgDiagram(currentQ)) && (
+                  {/* Visual / SVG Diagram in Question (Max 2 uses per test) */}
+                  {(currentQ.diagramSvg || questionDiagramMap.get(currentQuestionIdx)) && (
                     <div
                       className="my-3 p-4 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
-                      dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg || getDynamicSvgDiagram(currentQ) || '' }}
+                      dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg || questionDiagramMap.get(currentQuestionIdx) || '' }}
                     />
                   )}
-                  {currentQ.image && !currentQ.diagramSvg && !getDynamicSvgDiagram(currentQ) && (
+                  {currentQ.image && !currentQ.diagramSvg && !questionDiagramMap.get(currentQuestionIdx) && (
                     <div className="my-3 p-2 bg-white border border-slate-200 rounded-2xl flex justify-center items-center shadow-xs">
                       <img src={currentQ.image} alt="Question Diagram" className="max-h-60 rounded-xl object-contain" />
                     </div>
@@ -1829,17 +1821,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           </span>
                         </div>
 
-                        <p className="text-xs sm:text-sm text-slate-900 font-medium leading-relaxed">
-                          {q.questionText}
-                        </p>
+                        <div className="text-xs sm:text-sm text-slate-900 font-medium leading-relaxed">
+                          {renderFormattedQuestionText(q.questionText)}
+                        </div>
 
-                        {(q.diagramSvg || getDynamicSvgDiagram(q)) && (
+                        {(q.diagramSvg || questionDiagramMap.get(qIdx)) && (
                           <div
                             className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center overflow-x-auto"
-                            dangerouslySetInnerHTML={{ __html: q.diagramSvg || getDynamicSvgDiagram(q) || '' }}
+                            dangerouslySetInnerHTML={{ __html: q.diagramSvg || questionDiagramMap.get(qIdx) || '' }}
                           />
                         )}
-                        {q.image && !q.diagramSvg && !getDynamicSvgDiagram(q) && (
+                        {q.image && !q.diagramSvg && !questionDiagramMap.get(qIdx) && (
                           <div className="my-3 p-2 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
                             <img src={q.image} alt="Question Diagram" className="max-h-48 rounded-lg object-contain" />
                           </div>

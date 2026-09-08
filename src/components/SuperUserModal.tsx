@@ -54,7 +54,10 @@ import {
 import {
   getUnusedQuestions,
   markQuestionsAsConsumed,
-  resetChapterConsumption
+  resetChapterConsumption,
+  getRemainingTestDataTelemetry,
+  auditAndNotifyAdminRemainingTestData,
+  TestDataTelemetry
 } from '../utils/questionTracker';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { TestItem, Question } from '../types';
@@ -133,11 +136,16 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
   onStartCustomTest,
   onOpenUploadModal
 }) => {
-  const [adminTab, setAdminTab] = useState<'requests' | 'generator' | 'telemetry' | 'students'>('requests');
+  const [adminTab, setAdminTab] = useState<'requests' | 'generator' | 'inventory' | 'telemetry' | 'students'>('requests');
   const [notifications, setNotifications] = useState<SuperUserNotification[]>([]);
   const [metrics, setMetrics] = useState(getSuperUserMetrics());
   const [categoryFilter, setCategoryFilter] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // Test Data Inventory Telemetry State (Admin Exclusive)
+  const [inventoryTelemetry, setInventoryTelemetry] = useState<TestDataTelemetry>(() => getRemainingTestDataTelemetry());
+  const [inventorySubjectFilter, setInventorySubjectFilter] = useState<'All' | 'Physics' | 'Chemistry' | 'Biology'>('All');
+  const [inventorySearch, setInventorySearch] = useState<string>('');
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(getStoredUnlockRequests());
@@ -173,10 +181,38 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
     setTimeout(() => setActionSuccessBanner(null), 3000);
   };
 
+  const handleAuditAndNotifyAdmin = () => {
+    const updated = auditAndNotifyAdminRemainingTestData();
+    setInventoryTelemetry(updated);
+    setNotifications(getSuperUserNotifications());
+    setMetrics(getSuperUserMetrics());
+    setActionSuccessBanner(`✓ Remaining Test Data Audited: ${updated.totalRemaining.toLocaleString()} Qs Available (${updated.percentageRemaining}%). Admin Alert Dispatched!`);
+    setTimeout(() => setActionSuccessBanner(null), 4000);
+  };
+
+  const handleResetAllConsumption = () => {
+    resetChapterConsumption();
+    const updated = getRemainingTestDataTelemetry();
+    setInventoryTelemetry(updated);
+    setConsumptionVersion(v => v + 1);
+    setActionSuccessBanner('✓ All Question Consumption History Reset! 100% Questions Restored to Pool.');
+    setTimeout(() => setActionSuccessBanner(null), 3500);
+  };
+
+  const handleResetSpecificChapter = (sub: 'Physics' | 'Chemistry' | 'Biology', ch: string) => {
+    resetChapterConsumption(sub, ch);
+    const updated = getRemainingTestDataTelemetry();
+    setInventoryTelemetry(updated);
+    setConsumptionVersion(v => v + 1);
+    setActionSuccessBanner(`✓ Consumption Reset for ${ch}.`);
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };
+
   const reloadData = () => {
     setNotifications(getSuperUserNotifications());
     setMetrics(getSuperUserMetrics());
     setUnlockRequests(getStoredUnlockRequests());
+    setInventoryTelemetry(getRemainingTestDataTelemetry());
   };
 
   useEffect(() => {
@@ -512,7 +548,23 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               <span>Custom Test Generator</span>
             </button>
 
-            {/* TAB 3: TELEMETRY & AUDIT */}
+            {/* TAB 3: QUESTION BANK & REMAINING TEST DATA INVENTORY (ADMIN ONLY) */}
+            <button
+              onClick={() => setAdminTab('inventory')}
+              className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                adminTab === 'inventory'
+                  ? 'bg-blue-600 text-white shadow-xs'
+                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+              }`}
+            >
+              <Database className="w-3.5 h-3.5 text-blue-500" />
+              <span>Remaining Test Data Inventory</span>
+              <span className="px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-mono font-bold">
+                {inventoryTelemetry.percentageRemaining}% Available
+              </span>
+            </button>
+
+            {/* TAB 4: TELEMETRY & AUDIT */}
             <button
               onClick={() => setAdminTab('telemetry')}
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
@@ -530,7 +582,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               )}
             </button>
 
-            {/* TAB 4: STUDENT DIRECTORY & ACCESS */}
+            {/* TAB 5: STUDENT DIRECTORY & ACCESS */}
             <button
               onClick={() => setAdminTab('students')}
               className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
@@ -970,7 +1022,244 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
         )}
 
         {/* ========================================================================= */}
-        {/* TAB 2: LIVE DOWNLOAD TELEMETRY & AUDIT LOGS */}
+        {/* TAB 3: QUESTION BANK & REMAINING TEST DATA INVENTORY (ADMIN ONLY) */}
+        {/* ========================================================================= */}
+        {adminTab === 'inventory' && (
+          <div className="flex-1 flex flex-col overflow-hidden bg-slate-50">
+            {/* Top Inventory Controls & KPI Header */}
+            <div className="p-4 sm:p-5 bg-white border-b border-gray-200">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-4">
+                <div>
+                  <div className="flex items-center space-x-2">
+                    <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
+                      <Database className="w-5 h-5 text-blue-600" />
+                      <span>Remaining Test Data & Question Bank Telemetry</span>
+                    </h3>
+                    <span className="px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-mono font-bold text-[10px] border border-blue-200">
+                      ADMIN ONLY
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    Real-time audit of total master questions, student consumption rates, remaining pool availability, and 33-Sunday Mock test series capacity.
+                  </p>
+                </div>
+
+                <div className="flex items-center space-x-2 shrink-0">
+                  <button
+                    onClick={handleAuditAndNotifyAdmin}
+                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold shadow-xs flex items-center space-x-1.5 transition cursor-pointer"
+                  >
+                    <Bell className="w-3.5 h-3.5" />
+                    <span>Audit & Dispatch Alert</span>
+                  </button>
+
+                  <button
+                    onClick={handleResetAllConsumption}
+                    className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer"
+                    title="Reset all consumption history across chapters"
+                  >
+                    <RefreshCw className="w-3.5 h-3.5 text-slate-500" />
+                    <span>Reset All</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* KPI Cards */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 uppercase">
+                    <span>Total Question Bank</span>
+                    <Database className="w-4 h-4 text-blue-600" />
+                  </div>
+                  <div className="text-xl sm:text-2xl font-black text-slate-900 font-mono mt-1">
+                    {inventoryTelemetry.totalBankQuestions.toLocaleString()}
+                  </div>
+                  <p className="text-[10px] text-slate-400 mt-0.5">Across PCB Syllabus</p>
+                </div>
+
+                <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 uppercase">
+                    <span>Consumed by Students</span>
+                    <Activity className="w-4 h-4 text-amber-600" />
+                  </div>
+                  <div className="text-xl sm:text-2xl font-black text-amber-700 font-mono mt-1">
+                    {inventoryTelemetry.totalConsumed.toLocaleString()}
+                  </div>
+                  <p className="text-[10px] text-slate-400 mt-0.5">Attempted in Practice/Tests</p>
+                </div>
+
+                <div className="p-3.5 bg-emerald-50/70 border border-emerald-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-emerald-800 uppercase">
+                    <span>Remaining Test Data</span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                  </div>
+                  <div className="text-xl sm:text-2xl font-black text-emerald-700 font-mono mt-1">
+                    {inventoryTelemetry.totalRemaining.toLocaleString()}
+                  </div>
+                  <div className="flex items-center gap-1.5 mt-1">
+                    <div className="flex-1 bg-emerald-200 rounded-full h-1.5 overflow-hidden">
+                      <div
+                        className="bg-emerald-600 h-full rounded-full transition-all duration-500"
+                        style={{ width: `${inventoryTelemetry.percentageRemaining}%` }}
+                      />
+                    </div>
+                    <span className="text-[10px] font-mono font-bold text-emerald-800">
+                      {inventoryTelemetry.percentageRemaining}%
+                    </span>
+                  </div>
+                </div>
+
+                <div className="p-3.5 bg-purple-50/70 border border-purple-200 rounded-xl">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-purple-800 uppercase">
+                    <span>Sunday Mock Series</span>
+                    <Award className="w-4 h-4 text-purple-600" />
+                  </div>
+                  <div className="text-xl sm:text-2xl font-black text-purple-700 font-mono mt-1">
+                    33 / 33 Papers
+                  </div>
+                  <p className="text-[10px] text-purple-600 mt-0.5 font-bold">180 Qs Combined PCB Ready</p>
+                </div>
+              </div>
+
+              {/* Subject Breakdown Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-3">
+                {inventoryTelemetry.subjectBreakdown.map((sb, idx) => (
+                  <div key={idx} className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
+                    <div className="flex items-center justify-between">
+                      <span className="font-bold text-xs text-slate-800">
+                        {sb.subject === 'Biology' ? '🧬 Biology' : sb.subject === 'Chemistry' ? '🧪 Chemistry' : '⚡ Physics'}
+                      </span>
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200">
+                        {sb.percent}% Avail
+                      </span>
+                    </div>
+                    <div className="flex items-center justify-between text-xs mt-2 font-mono text-slate-600">
+                      <span>Total: <strong>{sb.total.toLocaleString()}</strong></span>
+                      <span>Remaining: <strong className="text-emerald-700">{sb.remaining.toLocaleString()}</strong></span>
+                    </div>
+                    <div className="w-full bg-slate-100 rounded-full h-1.5 mt-2 overflow-hidden">
+                      <div
+                        className={`h-full rounded-full ${
+                          sb.percent >= 50 ? 'bg-emerald-500' : sb.percent >= 20 ? 'bg-amber-500' : 'bg-rose-500'
+                        }`}
+                        style={{ width: `${sb.percent}%` }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Filter & Search Bar */}
+            <div className="p-3.5 bg-slate-100 border-b border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+              <div className="flex items-center space-x-1.5 w-full sm:w-auto">
+                {(['All', 'Biology', 'Chemistry', 'Physics'] as const).map(sub => (
+                  <button
+                    key={sub}
+                    onClick={() => setInventorySubjectFilter(sub)}
+                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                      inventorySubjectFilter === sub
+                        ? 'bg-blue-600 text-white shadow-2xs'
+                        : 'bg-white text-slate-700 hover:bg-slate-200 border border-slate-200'
+                    }`}
+                  >
+                    {sub}
+                  </button>
+                ))}
+              </div>
+
+              <div className="relative w-full sm:w-72">
+                <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="text"
+                  value={inventorySearch}
+                  onChange={e => setInventorySearch(e.target.value)}
+                  placeholder="Search chapter inventory..."
+                  className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-white border border-slate-300 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-blue-500 font-medium"
+                />
+              </div>
+            </div>
+
+            {/* Chapter Breakdown Table */}
+            <div className="flex-1 overflow-y-auto p-4">
+              <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-2xs">
+                <table className="w-full text-left text-xs">
+                  <thead className="bg-slate-100/80 border-b border-gray-200 text-slate-600 font-bold uppercase text-[10px] tracking-wider">
+                    <tr>
+                      <th className="py-2.5 px-3.5">Subject</th>
+                      <th className="py-2.5 px-3.5">Chapter Unit</th>
+                      <th className="py-2.5 px-3 text-center">Total In Bank</th>
+                      <th className="py-2.5 px-3 text-center">Consumed</th>
+                      <th className="py-2.5 px-3 text-center">Remaining Unused</th>
+                      <th className="py-2.5 px-3 text-center">Stock Health</th>
+                      <th className="py-2.5 px-3 text-right">Admin Action</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 font-medium text-slate-800">
+                    {inventoryTelemetry.chapterInventory
+                      .filter(item => {
+                        if (inventorySubjectFilter !== 'All' && item.subject !== inventorySubjectFilter) return false;
+                        if (inventorySearch.trim()) {
+                          return item.chapter.toLowerCase().includes(inventorySearch.toLowerCase().trim());
+                        }
+                        return true;
+                      })
+                      .map((item, idx) => (
+                        <tr key={idx} className="hover:bg-slate-50 transition">
+                          <td className="py-2 px-3.5 font-bold">
+                            <span className={`px-2 py-0.5 rounded text-[10px] ${
+                              item.subject === 'Biology'
+                                ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                                : item.subject === 'Chemistry'
+                                ? 'bg-amber-50 text-amber-700 border border-amber-200'
+                                : 'bg-blue-50 text-blue-700 border border-blue-200'
+                            }`}>
+                              {item.subject}
+                            </span>
+                          </td>
+                          <td className="py-2 px-3.5 font-semibold text-slate-900">
+                            {item.chapter}
+                          </td>
+                          <td className="py-2 px-3 text-center font-mono font-bold text-slate-700">
+                            {item.totalInBank}
+                          </td>
+                          <td className="py-2 px-3 text-center font-mono text-amber-700">
+                            {item.consumed}
+                          </td>
+                          <td className="py-2 px-3 text-center font-mono font-bold text-emerald-700">
+                            {item.remaining}
+                          </td>
+                          <td className="py-2 px-3 text-center">
+                            <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold font-mono ${
+                              item.status === 'Healthy'
+                                ? 'bg-emerald-100 text-emerald-800'
+                                : item.status === 'Adequate'
+                                ? 'bg-amber-100 text-amber-800'
+                                : 'bg-rose-100 text-rose-800 animate-pulse'
+                            }`}>
+                              {item.status} ({item.percentageRemaining}%)
+                            </span>
+                          </td>
+                          <td className="py-2 px-3 text-right">
+                            <button
+                              onClick={() => handleResetSpecificChapter(item.subject, item.chapter)}
+                              className="px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-[10px] font-semibold border border-slate-200 transition cursor-pointer"
+                              title="Reset consumption for this chapter"
+                            >
+                              Reset Unit
+                            </button>
+                          </td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ========================================================================= */}
+        {/* TAB 4: LIVE DOWNLOAD TELEMETRY & AUDIT LOGS */}
         {/* ========================================================================= */}
         {adminTab === 'telemetry' && (
           <div className="flex-1 flex flex-col overflow-hidden">

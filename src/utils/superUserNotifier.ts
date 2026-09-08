@@ -3,13 +3,13 @@ import { getCurrentUser } from './downloadTracker';
 
 export interface SuperUserNotification {
   id: string;
-  type: 'DOWNLOAD_ALERT' | 'USER_SIGNUP' | 'TEST_COMPLETED';
+  type: 'DOWNLOAD_ALERT' | 'USER_SIGNUP' | 'TEST_COMPLETED' | 'INVENTORY_ALERT';
   title: string;
   userName: string;
   userEmail: string;
   userPhone: string;
   contentTitle: string;
-  category: 'Test Paper' | 'Book' | 'Scorecard' | 'DPP' | 'Custom Test' | 'Other';
+  category: 'Test Paper' | 'Book' | 'Scorecard' | 'DPP' | 'Custom Test' | 'Inventory Alert' | 'Other';
   fileSize: string;
   fileSizeBytes: number;
   timestamp: string;
@@ -101,6 +101,45 @@ export function recordSuperUserNotification(item: {
     } catch {
       // ignore
     }
+  }
+
+  return notification;
+}
+
+/**
+ * Record a high-priority inventory telemetry alert exclusively for Administrator
+ */
+export function recordSuperUserInventoryAlert(data: {
+  title: string;
+  details: string;
+  remainingCount: number;
+  totalCount: number;
+  subject?: string;
+  chapter?: string;
+}): SuperUserNotification {
+  const notification: SuperUserNotification = {
+    id: 'su-inv-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6),
+    type: 'INVENTORY_ALERT',
+    title: data.title,
+    userName: 'Central Question Bank Telemetry Engine',
+    userEmail: 'admin@neetcbt.in',
+    userPhone: 'Automated Audit Alert',
+    contentTitle: `${data.details} (${data.remainingCount} / ${data.totalCount} Qs Remaining)`,
+    category: 'Inventory Alert',
+    fileSize: `${Math.round((data.remainingCount / Math.max(1, data.totalCount)) * 100)}% Stock`,
+    fileSizeBytes: data.remainingCount * 1024,
+    timestamp: new Date().toISOString(),
+    read: false
+  };
+
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const list: SuperUserNotification[] = raw ? JSON.parse(raw) : [];
+    const updated = [notification, ...list].slice(0, 150);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    window.dispatchEvent(new CustomEvent('neet_superuser_alert', { detail: notification }));
+  } catch (err) {
+    console.warn('Could not save inventory alert:', err);
   }
 
   return notification;

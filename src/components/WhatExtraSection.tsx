@@ -498,8 +498,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
             
             <div className="flex items-center space-x-2">
-              <span className="text-[10px] font-mono font-bold px-2.5 py-1 rounded border uppercase bg-emerald-50 text-emerald-700 border-emerald-300">
-                {currentPoolStats.remainingUnused} Available in {customChapter}
+              <span className="text-[10px] font-mono font-bold px-2.5 py-1 rounded border uppercase bg-blue-50 text-blue-700 border-blue-200">
+                NTA NEET Simulation &bull; +4 / -1
               </span>
             </div>
           </div>
@@ -610,10 +610,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
             {/* Marking Scheme */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Question Pool Status</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">6. Exam Standard & Marking</label>
               <div className="p-2 rounded bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
-                <span>Available: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
-                <span>Total Unit: <strong className="text-blue-700">{currentPoolStats.totalInBank}</strong></span>
+                <span>Correct: <strong className="text-emerald-700">+4 Marks</strong></span>
+                <span>Incorrect: <strong className="text-rose-700">-1 Mark</strong></span>
               </div>
             </div>
           </div>
