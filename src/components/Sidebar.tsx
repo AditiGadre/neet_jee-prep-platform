@@ -45,7 +45,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     {
       id: 'test-series' as TabType,
       label: '1. Test Series & Sunday Mocks',
-      sublabel: '180 Marks Combined PCB & Chapter Customizer',
+      sublabel: '180 Marks Combined PCB (33 Sunday Cycle)',
       icon: FileCheck2,
       badge: '180 Qs PCB'
     },

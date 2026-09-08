@@ -79,6 +79,22 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
   const [consumptionVersion, setConsumptionVersion] = useState<number>(0);
   const [exportSuccess, setExportSuccess] = useState<string | null>(null);
 
+  // Institution Sunday Test Access Control State
+  const [isAdminTestAccessGranted, setIsAdminTestAccessGranted] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem('neet_admin_test_access') === 'true';
+    } catch {
+      return false;
+    }
+  });
+
+  const handleToggleAdminTestAccess = () => {
+    const next = !isAdminTestAccessGranted;
+    localStorage.setItem('neet_admin_test_access', next ? 'true' : 'false');
+    setIsAdminTestAccessGranted(next);
+    window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: next } }));
+  };
+
   const reloadData = () => {
     setNotifications(getSuperUserNotifications());
     setMetrics(getSuperUserMetrics());
@@ -320,48 +336,75 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
           </button>
         </div>
 
-        {/* Primary Admin Navigation Tabs */}
-        <div className="flex items-center space-x-2 px-4 py-2.5 bg-slate-100 border-b border-gray-200 overflow-x-auto">
-          <button
-            onClick={() => setAdminTab('generator')}
-            className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
-              adminTab === 'generator'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
-            }`}
-          >
-            <Sliders className="w-3.5 h-3.5" />
-            <span>Custom Test Generator</span>
-          </button>
+        {/* Primary Admin Navigation Tabs + Quick Test Access Switch */}
+        <div className="flex flex-wrap items-center justify-between px-4 py-2.5 bg-slate-100 border-b border-gray-200 gap-2">
+          <div className="flex items-center space-x-2 overflow-x-auto">
+            <button
+              onClick={() => setAdminTab('generator')}
+              className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                adminTab === 'generator'
+                  ? 'bg-blue-600 text-white shadow-xs'
+                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+              }`}
+            >
+              <Sliders className="w-3.5 h-3.5" />
+              <span>Custom Test Generator</span>
+            </button>
 
-          <button
-            onClick={() => setAdminTab('telemetry')}
-            className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
-              adminTab === 'telemetry'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
-            }`}
-          >
-            <Activity className="w-3.5 h-3.5" />
-            <span>Download Telemetry & Audit</span>
-            {metrics.unreadCount > 0 && (
-              <span className="px-1.5 py-0.2 rounded-full bg-amber-400 text-slate-900 text-[10px] font-mono font-bold">
-                {metrics.unreadCount}
-              </span>
-            )}
-          </button>
+            <button
+              onClick={() => setAdminTab('telemetry')}
+              className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                adminTab === 'telemetry'
+                  ? 'bg-blue-600 text-white shadow-xs'
+                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+              }`}
+            >
+              <Activity className="w-3.5 h-3.5" />
+              <span>Download Telemetry & Audit</span>
+              {metrics.unreadCount > 0 && (
+                <span className="px-1.5 py-0.2 rounded-full bg-amber-400 text-slate-900 text-[10px] font-mono font-bold">
+                  {metrics.unreadCount}
+                </span>
+              )}
+            </button>
 
-          <button
-            onClick={() => setAdminTab('students')}
-            className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
-              adminTab === 'students'
-                ? 'bg-blue-600 text-white shadow-xs'
-                : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
-            }`}
-          >
-            <Users className="w-3.5 h-3.5" />
-            <span>Enrolled Students & Domicile</span>
-          </button>
+            <button
+              onClick={() => setAdminTab('students')}
+              className={`flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                adminTab === 'students'
+                  ? 'bg-blue-600 text-white shadow-xs'
+                  : 'bg-white text-slate-700 hover:bg-slate-200 border border-gray-200'
+              }`}
+            >
+              <Users className="w-3.5 h-3.5" />
+              <span>Student Directory & Access Control</span>
+            </button>
+          </div>
+
+          {/* Quick Test Access Controller in Header */}
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={handleToggleAdminTestAccess}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition flex items-center space-x-1.5 cursor-pointer shadow-xs ${
+                isAdminTestAccessGranted
+                  ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
+                  : 'bg-amber-500 hover:bg-amber-600 text-slate-950'
+              }`}
+              title="Toggle Student Sunday Test Series Access"
+            >
+              {isAdminTestAccessGranted ? (
+                <>
+                  <CheckCircle2 className="w-3.5 h-3.5" />
+                  <span>Sunday Tests: UNLOCKED (Click to Lock)</span>
+                </>
+              ) : (
+                <>
+                  <Lock className="w-3.5 h-3.5" />
+                  <span>Sunday Tests: LOCKED (Click to Unlock)</span>
+                </>
+              )}
+            </button>
+          </div>
         </div>
 
         {/* ========================================================================= */}
@@ -758,11 +801,73 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               <div>
                 <h3 className="text-base font-bold text-gray-900 flex items-center space-x-2">
                   <Users className="w-4 h-4 text-blue-600" />
-                  <span>Enrolled Student Database & 85% Domicile Quota Registry</span>
+                  <span>Enrolled Student Database & Test Access Control</span>
                 </h3>
                 <p className="text-xs text-gray-500 mt-0.5">
-                  Real-time database of registered candidates with category, domicile state, contact numbers, and parent details.
+                  Real-time database of registered candidates with category, domicile state, contact numbers, and Sunday test authorizations.
                 </p>
+              </div>
+            </div>
+
+            {/* Institutional Test Access Management Master Card */}
+            <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 p-5 rounded-2xl text-white shadow-md space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-3">
+                <div className="space-y-0.5">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber-400 text-slate-900 uppercase">
+                      Admin Access Authority
+                    </span>
+                    <span className="text-xs text-blue-200 font-mono">33 Sunday Tests Master Switch</span>
+                  </div>
+                  <h4 className="text-base font-bold text-white mt-1 flex items-center gap-2">
+                    <ShieldCheck className="w-5 h-5 text-cyan-300" />
+                    <span>Institution Sunday Test Series Authorization</span>
+                  </h4>
+                </div>
+
+                <button
+                  onClick={handleToggleAdminTestAccess}
+                  className={`px-4 py-2 rounded-xl font-bold text-xs transition flex items-center justify-center space-x-2 cursor-pointer shadow-md ${
+                    isAdminTestAccessGranted
+                      ? 'bg-rose-600 hover:bg-rose-700 text-white'
+                      : 'bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white'
+                  }`}
+                >
+                  {isAdminTestAccessGranted ? (
+                    <>
+                      <Lock className="w-4 h-4" />
+                      <span>Revoke & Lock Sunday Tests</span>
+                    </>
+                  ) : (
+                    <>
+                      <Unlock className="w-4 h-4" />
+                      <span>Grant & Unlock Sunday Tests for Students</span>
+                    </>
+                  )}
+                </button>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <div className="p-3 rounded-xl bg-white/10 border border-white/10 space-y-1">
+                  <div className="text-[10px] uppercase font-bold text-blue-200">Current Access Status</div>
+                  <div className={`text-sm font-bold font-mono ${isAdminTestAccessGranted ? 'text-emerald-300' : 'text-amber-300'}`}>
+                    {isAdminTestAccessGranted ? '✓ ACCESS GRANTED (UNLOCKED)' : '🔒 ACCESS LOCKED (APPROVAL REQUIRED)'}
+                  </div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white/10 border border-white/10 space-y-1">
+                  <div className="text-[10px] uppercase font-bold text-blue-200">Test Series Scope</div>
+                  <div className="text-sm font-bold text-white font-mono">
+                    33 Official Sunday Tests (5,940 Qs)
+                  </div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white/10 border border-white/10 space-y-1">
+                  <div className="text-[10px] uppercase font-bold text-blue-200">Student Enforcement</div>
+                  <div className="text-sm font-bold text-white font-mono">
+                    {isAdminTestAccessGranted ? 'Direct CBT Launch Allowed' : 'Strict Approval Gate Active'}
+                  </div>
+                </div>
               </div>
             </div>
 

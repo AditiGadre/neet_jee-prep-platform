@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   FileCheck2,
   Clock,
@@ -16,7 +16,6 @@ import {
   Play,
   Download,
   FileText,
-  SlidersHorizontal,
   Sparkles,
   Atom,
   Dna,
@@ -30,11 +29,13 @@ import {
   GraduationCap,
   X,
   Search,
-  BookOpen
+  BookOpen,
+  Send,
+  KeyRound
 } from 'lucide-react';
 import { TestItem, TestCategory, Question } from '../types';
 import { downloadTestPaperPDF } from '../utils/pdfDownloader';
-import { SundayTestChapterModal, SundayChapterSelection } from './SundayTestChapterModal';
+import { recordSuperUserNotification } from '../utils/superUserNotifier';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
   SundayPlannerTest,
@@ -44,7 +45,7 @@ import {
 interface TestSeriesSectionProps {
   testItems: TestItem[];
   targetYear?: '2026' | '2027' | '2028';
-  onStartTest: (test: TestItem, selectedChapters?: SundayChapterSelection) => void;
+  onStartTest: (test: TestItem) => void;
 }
 
 export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
@@ -55,20 +56,38 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
   const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full'>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [isChapterModalOpen, setIsChapterModalOpen] = useState(false);
-  const [targetSundayTest, setTargetSundayTest] = useState<any | null>(null);
   const [reminderSetFor, setReminderSetFor] = useState<string | null>(null);
-  const [showCoursePurchaseModal, setShowCoursePurchaseModal] = useState(false);
-  const [pendingTestToStart, setPendingTestToStart] = useState<any | null>(null);
+  const [showAdminApprovalModal, setShowAdminApprovalModal] = useState(false);
+  const [accessRequestSent, setAccessRequestSent] = useState(false);
+  const [pendingTestToStart, setPendingTestToStart] = useState<SundayPlannerTest | null>(null);
 
-  // Course Access State
-  const [isCoursePurchased, setIsCoursePurchased] = useState<boolean>(() => {
+  // Admin Portal Controlled Test Access State
+  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => {
     try {
-      return localStorage.getItem('neet_course_purchased') === 'true';
+      return localStorage.getItem('neet_admin_test_access') === 'true';
     } catch {
       return false;
     }
   });
+
+  // Listen for Admin Portal real-time access updates
+  useEffect(() => {
+    const handleAccessChange = (e: any) => {
+      try {
+        const granted = e?.detail?.accessGranted ?? (localStorage.getItem('neet_admin_test_access') === 'true');
+        setIsAdminAccessGranted(Boolean(granted));
+      } catch {
+        setIsAdminAccessGranted(false);
+      }
+    };
+
+    window.addEventListener('neet_admin_access_changed', handleAccessChange);
+    window.addEventListener('storage', handleAccessChange);
+    return () => {
+      window.removeEventListener('neet_admin_access_changed', handleAccessChange);
+      window.removeEventListener('storage', handleAccessChange);
+    };
+  }, []);
 
   const enrolledStudent = (() => {
     try {
@@ -79,6 +98,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     }
   })();
 
+  const studentName = enrolledStudent?.studentName || 'Enrolled Student';
+  const rollNumber = enrolledStudent?.rollNumber || 'NEET-2027-001';
   const studentPhone = enrolledStudent?.studentPhone || '9876543210';
   const parentPhone = enrolledStudent?.parentPhone || '9876543211';
   const parentName = enrolledStudent?.parentName || 'Parent / Guardian';
@@ -134,9 +155,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     : batch11thSundays;
 
   const handleLaunchDirectSundayTest = (plannerTest: SundayPlannerTest) => {
-    if (!isCoursePurchased) {
+    if (!isAdminAccessGranted) {
       setPendingTestToStart(plannerTest);
-      setShowCoursePurchaseModal(true);
+      setShowAdminApprovalModal(true);
       return;
     }
 
@@ -162,44 +183,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       questions: testQuestions
     };
 
-    onStartTest(testItem, {
-      physics: [plannerTest.physicsUnit],
-      chemistry: [plannerTest.chemistryUnit],
-      biology: [plannerTest.botanyBlock, plannerTest.zoologyBlock]
-    });
+    onStartTest(testItem);
   };
 
-  const handleOpenCustomizeModal = (plannerTest: SundayPlannerTest) => {
-    if (!isCoursePurchased) {
-      setPendingTestToStart(plannerTest);
-      setShowCoursePurchaseModal(true);
-      return;
-    }
-
-    const baseTest: TestItem = {
-      id: plannerTest.id,
-      title: `${plannerTest.code}: ${plannerTest.title}`,
-      category: 'neet_mock',
-      exam: 'NEET',
-      syllabus: `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
-      totalQuestions: 180,
-      durationMinutes: 180,
-      totalMarks: 180,
-      difficulty: 'Mixed'
-    };
-
-    setTargetSundayTest({
-      ...baseTest,
-      physicsUnit: plannerTest.physicsUnit,
-      chemistryUnit: plannerTest.chemistryUnit,
-      botanyBlock: plannerTest.botanyBlock,
-      zoologyBlock: plannerTest.zoologyBlock,
-      physicsKeywords: plannerTest.physicsKeywords,
-      chemistryKeywords: plannerTest.chemistryKeywords,
-      botanyKeywords: plannerTest.botanyKeywords,
-      zoologyKeywords: plannerTest.zoologyKeywords
+  const handleSendAccessRequest = () => {
+    setAccessRequestSent(true);
+    recordSuperUserNotification({
+      contentTitle: `Sunday Test Access Request: Candidate ${studentName} (Roll #${rollNumber}) requested authorization for ${pendingTestToStart?.code || 'All Sunday Tests'}`,
+      category: 'Test Paper',
+      fileSize: 'Test Access',
+      subject: 'Sunday Test Series'
     });
-    setIsChapterModalOpen(true);
   };
 
   const handleDownloadSundayPdf = (plannerTest: SundayPlannerTest) => {
@@ -219,18 +213,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       questions
     };
     downloadTestPaperPDF(testItem, questions);
-  };
-
-  const handleUnlockCoursePass = () => {
-    localStorage.setItem('neet_course_purchased', 'true');
-    setIsCoursePurchased(true);
-    setShowCoursePurchaseModal(false);
-
-    if (pendingTestToStart) {
-      const mockItem = pendingTestToStart;
-      setPendingTestToStart(null);
-      handleLaunchDirectSundayTest(mockItem);
-    }
   };
 
   const handleSetReminder = (testTitle: string, dateStr: string) => {
@@ -296,20 +278,20 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </button>
         </div>
 
-        {/* Course Purchase Pass Status Badge */}
+        {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
-          {isCoursePurchased ? (
-            <span className="px-3 py-1 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono">
+          {isAdminAccessGranted ? (
+            <span className="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono shadow-2xs">
               <Unlock className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Sunday Test Access Active</span>
+              <span>Admin Access Granted (Tests Unlocked)</span>
             </span>
           ) : (
             <button
-              onClick={() => setShowCoursePurchaseModal(true)}
-              className="px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white text-xs font-bold shadow-xs transition flex items-center space-x-1.5 cursor-pointer"
+              onClick={() => setShowAdminApprovalModal(true)}
+              className="px-3.5 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer shadow-2xs"
             >
-              <Lock className="w-3.5 h-3.5" />
-              <span>Unlock Sunday Tests</span>
+              <Lock className="w-3.5 h-3.5 text-amber-700" />
+              <span>Awaiting Admin Portal Approval</span>
             </button>
           )}
         </div>
@@ -336,13 +318,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           </div>
 
           <div className="flex items-center gap-2 self-start md:self-auto shrink-0">
-            <button
-              onClick={() => handleOpenCustomizeModal(SUNDAY_DROPPER_PLANNER_TESTS[0])}
-              className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold shadow-md hover:shadow-lg transition flex items-center space-x-1.5 cursor-pointer"
-            >
-              <SlidersHorizontal className="w-4 h-4 text-cyan-300" />
-              <span>Custom Syllabus Selector</span>
-            </button>
+            <span className="px-3.5 py-2 rounded-xl bg-blue-50 border border-blue-200 text-blue-800 text-xs font-mono font-bold flex items-center space-x-1.5">
+              <ShieldCheck className="w-4 h-4 text-blue-600" />
+              <span>{isAdminAccessGranted ? '✓ Authorized by Admin' : '🔒 Admin Managed'}</span>
+            </span>
           </div>
         </div>
 
@@ -439,12 +418,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         <div className="grid grid-cols-1 gap-3.5">
           {currentDisplayTests.map((mock: SundayPlannerTest) => {
-            const isLive = isSundayToday; // Can be marked live on Sundays
+            const isLive = isSundayToday;
             return (
               <div
                 key={mock.id}
                 className={`p-5 rounded-2xl border transition hover:shadow-md flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 ${
-                  isLive
+                  isLive && isAdminAccessGranted
                     ? 'bg-gradient-to-br from-blue-50/70 via-white to-cyan-50/40 border-blue-400 shadow-sm'
                     : 'bg-white border-slate-200'
                 }`}
@@ -454,12 +433,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   <div className="flex flex-wrap items-center gap-2">
                     <span
                       className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase font-mono tracking-wider flex items-center gap-1 ${
-                        isLive
+                        isLive && isAdminAccessGranted
                           ? 'bg-rose-600 text-white animate-pulse'
                           : 'bg-slate-100 text-slate-700'
                       }`}
                     >
-                      {isLive ? '🔴 LIVE TODAY (SUNDAY)' : `📅 ${mock.dateStr}`}
+                      {isLive && isAdminAccessGranted ? '🔴 LIVE TODAY (SUNDAY)' : `📅 ${mock.dateStr}`}
                     </span>
 
                     <span className="text-xs font-bold font-mono text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-lg">
@@ -470,9 +449,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       180 Marks &bull; 180 Mins &bull; 180 Qs
                     </span>
 
-                    {!isCoursePurchased && (
+                    {!isAdminAccessGranted && (
                       <span className="text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <Lock className="w-3 h-3" /> Course Purchase Required
+                        <Lock className="w-3 h-3" /> Awaiting Admin Approval
                       </span>
                     )}
                   </div>
@@ -548,23 +527,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   </button>
 
                   <button
-                    onClick={() => handleOpenCustomizeModal(mock)}
-                    className="flex-1 lg:flex-none px-3.5 py-2 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold border border-slate-200 flex items-center justify-center space-x-1.5 transition cursor-pointer"
-                  >
-                    <SlidersHorizontal className="w-3.5 h-3.5 text-slate-500" />
-                    <span>Choose Chapters</span>
-                  </button>
-
-                  <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
                     className={`flex-1 lg:flex-none px-5 py-2 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      isLive
-                        ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-blue-500/20'
-                        : 'bg-blue-600 hover:bg-blue-700'
+                      isAdminAccessGranted
+                        ? isLive
+                          ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-blue-500/20'
+                          : 'bg-blue-600 hover:bg-blue-700'
+                        : 'bg-slate-700 hover:bg-slate-800'
                     }`}
                   >
-                    <Play className="w-3.5 h-3.5 fill-current" />
-                    <span>{isLive ? 'Start Live Sunday Test' : 'Start Test'}</span>
+                    {isAdminAccessGranted ? (
+                      <>
+                        <Play className="w-3.5 h-3.5 fill-current" />
+                        <span>{isLive ? 'Start Live Sunday Test' : 'Start Test'}</span>
+                      </>
+                    ) : (
+                      <>
+                        <Lock className="w-3.5 h-3.5" />
+                        <span>Locked (Admin Approval)</span>
+                      </>
+                    )}
                   </button>
                 </div>
               </div>
@@ -573,34 +555,25 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         </div>
       </div>
 
-      {/* Chapter Selection Modal */}
-      {isChapterModalOpen && (
-        <SundayTestChapterModal
-          initialTest={targetSundayTest}
-          onClose={() => setIsChapterModalOpen(false)}
-          onLaunchSundayTest={(test, selectedChapters) => {
-            setIsChapterModalOpen(false);
-            onStartTest(test, selectedChapters);
-          }}
-        />
-      )}
-
-      {/* Course Purchase & Batch Unlock Modal */}
-      {showCoursePurchaseModal && (
+      {/* Admin Authorization Required Modal */}
+      {showAdminApprovalModal && (
         <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
           <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900">
             {/* Header */}
-            <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-700 p-5 text-white flex items-center justify-between">
+            <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-slate-900 p-5 text-white flex items-center justify-between">
               <div className="space-y-1">
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900 uppercase font-mono">
-                  Official Course Access
+                  Administrator Authorization Gate
                 </span>
                 <h3 className="text-lg font-bold flex items-center gap-2">
-                  <Lock className="w-5 h-5 text-amber-300" /> Unlock Sunday All-India Test Series
+                  <Lock className="w-5 h-5 text-amber-300" /> Admin Portal Access Required
                 </h3>
               </div>
               <button
-                onClick={() => setShowCoursePurchaseModal(false)}
+                onClick={() => {
+                  setShowAdminApprovalModal(false);
+                  setAccessRequestSent(false);
+                }}
                 className="p-1.5 rounded-xl hover:bg-white/10 text-white transition"
               >
                 <X className="w-5 h-5" />
@@ -610,48 +583,62 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {/* Content */}
             <div className="p-6 space-y-4">
               <p className="text-xs text-slate-600 leading-relaxed">
-                Sunday All-India Mock Tests (180 Questions &bull; 180 Marks &bull; AIR Prediction & Government Medical College Seat Predictor) require an active <strong>{activeBatch === '12th' ? 'Class 12th' : activeBatch === '11th' ? 'Class 11th' : 'Repeater Dropper'} NEET {targetYear} Course Pass</strong>.
+                All 33 scheduled Sunday All-India Mock Tests (180 Questions &bull; 180 Marks &bull; AIR Prediction) are strictly controlled by the <strong>Institution Admin Portal</strong>. Access will unlock automatically once the administrator grants authorization for your enrollment.
               </p>
 
-              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-200 space-y-2">
-                <h4 className="text-xs font-bold text-blue-900 flex items-center gap-1.5">
-                  <Sparkles className="w-4 h-4 text-blue-600" /> Included in your Course Access:
-                </h4>
-                <ul className="text-xs text-blue-950 space-y-1.5">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                    <span>All 33 Scheduled Sunday Tests (CWT 1-19, Cumulative 1-5, Part 1-3, Full Syllabus 1-6)</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                    <span>All-India Rank (AIR) & Medical College Predictor for {targetYear}</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                    <span>Parent SMS / WhatsApp Sunday Test Alerts</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                    <span>Unlimited Test Retakes with zero question exhaustion</span>
-                  </li>
-                </ul>
+              {/* Student Identification Card */}
+              <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
+                <div className="font-bold text-slate-800 flex items-center gap-1.5">
+                  <KeyRound className="w-4 h-4 text-blue-600" /> Candidate Verification Details:
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-[11px] font-mono">
+                  <div>
+                    <span className="text-slate-500">Student:</span> <span className="font-bold text-slate-900">{studentName}</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-500">Roll No:</span> <span className="font-bold text-blue-700">{rollNumber}</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-500">Contact:</span> <span className="font-bold text-slate-800">+91 {studentPhone}</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-500">Status:</span> <span className="font-bold text-amber-700">Pending Admin Approval</span>
+                  </div>
+                </div>
               </div>
+
+              {accessRequestSent ? (
+                <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-900 flex items-start space-x-3 animate-in fade-in">
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                  <div className="space-y-0.5 text-xs">
+                    <div className="font-bold text-emerald-950">✓ Access Request Sent to Admin Portal!</div>
+                    <p className="text-emerald-800">
+                      Your test authorization request has been logged in the Admin Portal. Once faculty approves, tests will unlock automatically.
+                    </p>
+                  </div>
+                </div>
+              ) : null}
 
               {/* Action Buttons */}
               <div className="pt-2 space-y-2">
-                <button
-                  onClick={handleUnlockCoursePass}
-                  className="w-full py-3 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
-                >
-                  <Unlock className="w-4 h-4" />
-                  <span>Activate Enrolled Student Course Pass (Instant Unlock)</span>
-                </button>
+                {!accessRequestSent && (
+                  <button
+                    onClick={handleSendAccessRequest}
+                    className="w-full py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
+                  >
+                    <Send className="w-4 h-4" />
+                    <span>Send Access Request to Administrator</span>
+                  </button>
+                )}
 
                 <button
-                  onClick={() => setShowCoursePurchaseModal(false)}
+                  onClick={() => {
+                    setShowAdminApprovalModal(false);
+                    setAccessRequestSent(false);
+                  }}
                   className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-xs transition cursor-pointer"
                 >
-                  Maybe Later
+                  Close
                 </button>
               </div>
             </div>
