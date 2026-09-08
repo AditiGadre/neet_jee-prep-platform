@@ -1,0 +1,22 @@
+import { Question } from '../types';
+import { AAKASH_PHYSICAL_WORLD_QUESTIONS } from './aakashPhysicalWorldQuestions';
+import { AAKASH_UNITS_QUESTIONS } from './aakashUnitsQuestions';
+import { AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS } from './aakashMotionStraightLineQuestions';
+import { AAKASH_MOTION_PLANE_QUESTIONS } from './aakashMotionPlaneQuestions';
+import { AAKASH_LAWS_OF_MOTION_QUESTIONS } from './aakashLawsOfMotionQuestions';
+
+export {
+  AAKASH_PHYSICAL_WORLD_QUESTIONS,
+  AAKASH_UNITS_QUESTIONS,
+  AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS,
+  AAKASH_MOTION_PLANE_QUESTIONS,
+  AAKASH_LAWS_OF_MOTION_QUESTIONS
+};
+
+export const ALL_AAKASH_PHYSICS_QUESTIONS: Question[] = [
+  ...AAKASH_PHYSICAL_WORLD_QUESTIONS,
+  ...AAKASH_UNITS_QUESTIONS,
+  ...AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS,
+  ...AAKASH_MOTION_PLANE_QUESTIONS,
+  ...AAKASH_LAWS_OF_MOTION_QUESTIONS
+];
