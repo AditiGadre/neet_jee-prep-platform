@@ -176,10 +176,68 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     }
   };
 
+  const maxTotalMarks = test.totalMarks || questions.length * 4 || 720;
+
+  // Dynamically compute subjects present in active test
+  const activeTestSubjects = useMemo(() => {
+    const subjectsMap = new Map<string, {
+      name: string;
+      count: number;
+      marks: number;
+      firstIdx: number;
+      icon: any;
+      activeClass: string;
+    }>();
+
+    questions.forEach((q, idx) => {
+      let subName = q.subject || 'Physics';
+      if (q.tags?.includes('Botany')) subName = 'Botany';
+      else if (q.tags?.includes('Zoology')) subName = 'Zoology';
+
+      if (!subjectsMap.has(subName)) {
+        let icon = ZapIcon;
+        let activeClass = 'bg-blue-600 text-white shadow-xs';
+        if (subName === 'Chemistry') {
+          icon = AtomIcon;
+          activeClass = 'bg-emerald-600 text-white shadow-xs';
+        } else if (subName === 'Botany' || subName === 'Biology') {
+          icon = DnaIcon;
+          activeClass = 'bg-purple-600 text-white shadow-xs';
+        } else if (subName === 'Zoology') {
+          icon = GradIcon;
+          activeClass = 'bg-amber-600 text-white shadow-xs';
+        }
+
+        subjectsMap.set(subName, {
+          name: subName,
+          count: 0,
+          marks: 0,
+          firstIdx: idx,
+          icon,
+          activeClass
+        });
+      }
+
+      const record = subjectsMap.get(subName)!;
+      record.count += 1;
+      record.marks += 4;
+    });
+
+    return Array.from(subjectsMap.values());
+  }, [questions]);
+
   // Jump to first question of a subject section
-  const jumpToSubject = (sub: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology' | 'Biology') => {
+  const jumpToSubject = (sub: string) => {
+    const target = activeTestSubjects.find(
+      s => s.name.toLowerCase() === sub.toLowerCase() ||
+      (sub.toLowerCase() === 'biology' && (s.name.toLowerCase() === 'botany' || s.name.toLowerCase() === 'zoology'))
+    );
+    if (target && target.firstIdx >= 0) {
+      setCurrentQuestionIdx(target.firstIdx);
+      return;
+    }
     const targetIdx = questions.findIndex(q => {
-      if (sub === 'Biology') {
+      if (sub.toLowerCase() === 'biology') {
         return q.subject.toLowerCase() === 'biology' || q.subject.toLowerCase() === 'botany' || q.subject.toLowerCase() === 'zoology';
       }
       return q.subject.toLowerCase() === sub.toLowerCase();
@@ -251,12 +309,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
     const totalAttempted = correctCount + wrongCount;
     const rawScore = Math.max(0, correctCount * 4 - wrongCount * 1);
-    const totalPossibleMarks = 720;
+    const totalPossibleMarks = test.totalMarks || questions.length * 4 || 720;
     const accuracy = totalAttempted > 0 ? Math.round((correctCount / totalAttempted) * 100) : 0;
 
-    const predictedAIR = calculateNEETAIR(rawScore);
+    const simulated720Score = Math.round((rawScore / (totalPossibleMarks || 1)) * 720);
+    const predictedAIR = calculateNEETAIR(simulated720Score);
     const percentile = Math.min(99.99, Math.max(12.5, +(100 - (predictedAIR / 2400000) * 100).toFixed(2)));
-    const batchRankNum = Math.max(1, Math.min(180, Math.round(1 + (720 - rawScore) / 38)));
+    const batchRankNum = Math.max(1, Math.min(180, Math.round(1 + (720 - simulated720Score) / 38)));
     const cityRankNum = Math.max(1, Math.min(4200, Math.round(predictedAIR * 0.0042 + 1)));
 
     const chapterAnalytics = Object.keys(chapterStatsMap).map((ch, idx) => {
@@ -303,15 +362,28 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const weakChapters = chapterAnalytics.filter(c => c.wrong > 0 || c.accuracy < 70).slice(0, 3).map(c => c.chapter);
     const strongChapters = chapterAnalytics.filter(c => c.accuracy >= 80).slice(0, 3).map(c => c.chapter);
 
-    const breakdownList = Object.keys(subjectStats).map(sub => ({
-      subject: sub,
-      correct: subjectStats[sub].correct,
-      wrong: subjectStats[sub].wrong,
-      unattempted: subjectStats[sub].unattempted,
-      score: Math.max(0, subjectStats[sub].score),
-      maxMarks: 180,
-      percentage: Math.round((Math.max(0, subjectStats[sub].score) / 180) * 100)
-    }));
+    const activeNames = activeTestSubjects.map(s => s.name);
+    const breakdownList = Object.keys(subjectStats)
+      .filter(sub => {
+        if (activeNames.length > 0) {
+          return activeNames.includes(sub) || (activeNames.includes('Biology') && (sub === 'Botany' || sub === 'Zoology'));
+        }
+        return subjectStats[sub].score > 0 || subjectStats[sub].correct > 0 || subjectStats[sub].wrong > 0 || subjectStats[sub].unattempted > 0;
+      })
+      .map(sub => {
+        const subInfo = activeTestSubjects.find(s => s.name === sub);
+        const subMaxMarks = subInfo ? subInfo.marks : 180;
+        const subScore = Math.max(0, subjectStats[sub].score);
+        return {
+          subject: sub,
+          correct: subjectStats[sub].correct,
+          wrong: subjectStats[sub].wrong,
+          unattempted: subjectStats[sub].unattempted,
+          score: subScore,
+          maxMarks: subMaxMarks,
+          percentage: subMaxMarks > 0 ? Math.round((subScore / subMaxMarks) * 100) : 0
+        };
+      });
 
     const lastSundayTest = prevTestHistory.find(
       t => t.testId !== test.id && (t.testId.includes('sunday') || t.totalMarks === 720 || t.totalMarks === 180)
@@ -592,14 +664,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
             <div>
               <div className="flex items-center space-x-2">
                 <span className="font-extrabold text-sm sm:text-base tracking-tight text-white">
-                  NeetCbt<span className="text-cyan-300"> Exam Test (720 Marks)</span>
+                  NeetCbt<span className="text-cyan-300"> {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Exam Test'} ({maxTotalMarks} Marks)</span>
                 </span>
                 <span className="px-2 py-0.2 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900">
-                  {isSundayTest ? 'Sunday 180-Question Mock (720M)' : 'CBT Practice'}
+                  {isSundayTest ? 'Sunday 180-Question Mock (720M)' : activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Custom Test (${maxTotalMarks}M)` : `CBT Practice (${maxTotalMarks}M)`}
                 </span>
               </div>
               <p className="text-[11px] text-blue-100 font-mono truncate max-w-xs sm:max-w-md">
-                {test.title} &bull; +4 for Correct, -1 for Incorrect (Total 720 Marks)
+                {test.title} &bull; +4 for Correct, -1 for Incorrect (Total {maxTotalMarks} Marks)
               </p>
             </div>
           </div>
@@ -638,53 +710,24 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   {/* Subject Switcher Header Tabs */}
                   <div className="flex flex-wrap items-center justify-between pb-3 border-b border-slate-100 gap-2">
                     <div className="flex flex-wrap items-center gap-1.5">
-                      <button
-                        onClick={() => jumpToSubject('Physics')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold transition flex items-center space-x-1 ${
-                          currentQ.subject === 'Physics'
-                            ? 'bg-blue-600 text-white shadow-xs'
-                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                        }`}
-                      >
-                        <ZapIcon className="w-3.5 h-3.5" />
-                        <span>Physics (45 Qs &bull; 180M)</span>
-                      </button>
-
-                      <button
-                        onClick={() => jumpToSubject('Chemistry')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold transition flex items-center space-x-1 ${
-                          currentQ.subject === 'Chemistry'
-                            ? 'bg-emerald-600 text-white shadow-xs'
-                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                        }`}
-                      >
-                        <AtomIcon className="w-3.5 h-3.5" />
-                        <span>Chemistry (45 Qs &bull; 180M)</span>
-                      </button>
-
-                      <button
-                        onClick={() => jumpToSubject('Botany')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold transition flex items-center space-x-1 ${
-                          currentQ.subject === 'Botany'
-                            ? 'bg-purple-600 text-white shadow-xs'
-                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                        }`}
-                      >
-                        <DnaIcon className="w-3.5 h-3.5" />
-                        <span>Botany (45 Qs &bull; 180M)</span>
-                      </button>
-
-                      <button
-                        onClick={() => jumpToSubject('Zoology')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold transition flex items-center space-x-1 ${
-                          currentQ.subject === 'Zoology'
-                            ? 'bg-amber-600 text-white shadow-xs'
-                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                        }`}
-                      >
-                        <GradIcon className="w-3.5 h-3.5" />
-                        <span>Zoology (45 Qs &bull; 180M)</span>
-                      </button>
+                      {activeTestSubjects.map((subItem) => {
+                        const IconComponent = subItem.icon;
+                        const isCurrent = currentQ.subject === subItem.name || (currentQ.subject === 'Biology' && (subItem.name === 'Botany' || subItem.name === 'Zoology'));
+                        return (
+                          <button
+                            key={subItem.name}
+                            onClick={() => setCurrentQuestionIdx(subItem.firstIdx)}
+                            className={`px-3 py-1 rounded-lg text-xs font-bold transition flex items-center space-x-1 cursor-pointer ${
+                              isCurrent
+                                ? subItem.activeClass
+                                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                            }`}
+                          >
+                            <IconComponent className="w-3.5 h-3.5" />
+                            <span>{subItem.name} ({subItem.count} Qs &bull; {subItem.marks}M)</span>
+                          </button>
+                        );
+                      })}
                     </div>
 
                     <div className="text-xs font-mono font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded-lg">
@@ -821,7 +864,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       onClick={handleSubmitTest}
                       className="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md transition cursor-pointer"
                     >
-                      Submit Complete 720-Marks Paper
+                      Submit {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : isSundayTest ? 'Complete 720-Marks Paper' : 'Complete Test'} ({maxTotalMarks} Marks)
                     </button>
                   )}
                 </div>
@@ -833,7 +876,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               <div>
                 <div className="flex items-center justify-between pb-2 border-b border-slate-200">
                   <h3 className="text-xs font-bold text-slate-800 uppercase tracking-wider">
-                    Question Palette (180 Qs)
+                    Question Palette ({questions.length} Qs)
                   </h3>
                   <span className="text-[10px] text-slate-500 font-mono">
                     {Object.keys(answers).length}/{questions.length} Done
@@ -879,7 +922,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 onClick={handleSubmitTest}
                 className="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-xs shadow-md transition cursor-pointer"
               >
-                Submit Complete CBT (720M)
+                Submit {activeTestSubjects.length === 1 ? `${activeTestSubjects[0].name} Test` : 'Complete CBT'} ({maxTotalMarks}M)
               </button>
             </div>
           </div>
@@ -1009,17 +1052,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Current Score</span>
                         <div className="text-2xl font-black text-emerald-700 font-mono mt-0.5">
-                          {testResult.score} <span className="text-xs text-slate-400 font-normal">/ 720</span>
+                          {testResult.score} <span className="text-xs text-slate-400 font-normal">/ {testResult.totalMarks || 720}</span>
                         </div>
                         <span className="text-[11px] text-emerald-600 font-bold">
-                          {((testResult.score / 720) * 100).toFixed(1)}% of Max
+                          {((testResult.score / (testResult.totalMarks || 720)) * 100).toFixed(1)}% of Max
                         </span>
                       </div>
 
                       <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Previous Score</span>
                         <div className="text-2xl font-black text-slate-700 font-mono mt-0.5">
-                          {testResult.previousScore} <span className="text-xs text-slate-400 font-normal">/ 720</span>
+                          {testResult.previousScore} <span className="text-xs text-slate-400 font-normal">/ {testResult.totalMarks || 720}</span>
                         </div>
                         <span className="text-[11px] text-slate-500 font-mono">Prior CWT Baseline</span>
                       </div>
@@ -1116,7 +1159,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                   }`} />
                                   <span>{sub.subject}</span>
                                 </td>
-                                <td className="p-3.5 text-center text-slate-600">180</td>
+                                <td className="p-3.5 text-center text-slate-600">{sub.maxMarks || 180}</td>
                                 <td className="p-3.5 text-center text-slate-500">{prevScore}</td>
                                 <td className="p-3.5 text-center font-bold text-slate-900">{sub.score}</td>
                                 <td className={`p-3.5 text-center font-bold ${delta >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>
@@ -1134,13 +1177,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                           <tr className="bg-blue-50/70 border-t-2 border-blue-400 font-bold">
                             <td className="p-3.5 font-sans text-blue-950 font-black text-sm">Overall Total</td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">720</td>
+                            <td className="p-3.5 text-center text-blue-900 font-black">{testResult.totalMarks || 720}</td>
                             <td className="p-3.5 text-center text-slate-600">{testResult.previousScore}</td>
                             <td className="p-3.5 text-center text-emerald-800 font-black text-sm">{testResult.score}</td>
                             <td className="p-3.5 text-center text-emerald-700 font-black">
                               {(testResult.changeFromPrevious || 0) >= 0 ? `+${testResult.changeFromPrevious}` : testResult.changeFromPrevious}
                             </td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">{((testResult.score / 720) * 100).toFixed(1)}%</td>
+                            <td className="p-3.5 text-center text-blue-900 font-black">{((testResult.score / (testResult.totalMarks || 720)) * 100).toFixed(1)}%</td>
                             <td className="p-3.5 text-center font-sans">
                               <span className="px-3 py-1 rounded-full text-xs font-bold bg-emerald-600 text-white shadow-xs">
                                 Top Tier GMC Safe Zone
@@ -1291,22 +1334,23 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <span>SECTION 3: Subject Performance Trend & Marks Contribution (25% Weightage Each)</span>
                       </h3>
                       <p className="text-xs text-slate-500">
-                        Relative marks contribution of each subject domain towards the total 720-marks target.
+                        Relative marks contribution of each subject domain towards the total {testResult.totalMarks || 720}-marks target.
                       </p>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                       {testResult.subjectBreakdown.map((sub, i) => {
                         const score = sub.score;
-                        const pctOfTotal = ((score / 720) * 100).toFixed(1);
-                        const pctOfSub = ((score / 180) * 100).toFixed(1);
+                        const subMax = sub.maxMarks || 180;
+                        const pctOfTotal = (((score / (testResult.totalMarks || 720))) * 100).toFixed(1);
+                        const pctOfSub = (((score / (subMax || 1))) * 100).toFixed(1);
 
                         return (
                           <div key={i} className="p-4 rounded-2xl border border-slate-200 bg-slate-50 space-y-3">
                             <div className="flex items-center justify-between">
                               <span className="font-extrabold text-sm text-slate-900">{sub.subject}</span>
                               <span className="text-xs font-mono font-bold text-blue-700 bg-blue-100/70 px-2 py-0.5 rounded-lg">
-                                {score} / 180
+                                {score} / {subMax}
                               </span>
                             </div>
 
@@ -1340,7 +1384,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             </div>
 
                             <p className="text-[10px] text-slate-500 text-center font-mono">
-                              Contributes <strong>{pctOfTotal}%</strong> to 720 Score
+                              Contributes <strong>{pctOfTotal}%</strong> to {testResult.totalMarks || 720} Score
                             </p>
                           </div>
                         );
@@ -1649,14 +1693,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                     <div>
                       <h3 className="text-base font-bold text-slate-900 flex items-center gap-1.5">
-                        <TrophyIcon className="w-5 h-5 text-amber-500" /> All India Top 10 Performers Leaderboard (720 Marks Standard)
+                        <TrophyIcon className="w-5 h-5 text-amber-500" /> All India Top 10 Performers Leaderboard ({testResult.totalMarks || 720} Marks Scale)
                       </h3>
                       <p className="text-xs text-slate-500">
                         Sunday All-India Dropper & Class 12th Test Series &bull; Verified CBT Rank List
                       </p>
                     </div>
                     <span className="text-xs font-bold font-mono bg-amber-50 text-amber-800 border border-amber-200 px-3 py-1 rounded-xl">
-                      Your Score: {testResult.score}/720 (AIR #{testResult.predictedAIR})
+                      Your Score: {testResult.score}/{testResult.totalMarks || 720} (AIR #{testResult.predictedAIR})
                     </span>
                   </div>
 

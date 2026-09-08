@@ -524,6 +524,7 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   const batchRankStr = result.batchRank ? `${result.batchRank.rank} / ${result.batchRank.total}` : '3 / 180';
   const cityRankStr = result.cityRank ? `${result.cityRank.rank} / ${result.cityRank.total}` : '29 / 4,200';
 
+  const totalPossibleMarks = result.totalMarks || 720;
   const phy = result.subjectBreakdown.find(s => s.subject === 'Physics')?.score || 148;
   const chem = result.subjectBreakdown.find(s => s.subject === 'Chemistry')?.score || 149;
   const bot = result.subjectBreakdown.find(s => s.subject === 'Botany')?.score || 168;
@@ -563,13 +564,13 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
       <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; text-align: center;">
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 10px;">
           <div style="font-size: 9px; font-weight: 700; color: #166534; text-transform: uppercase;">Current Score</div>
-          <div style="font-size: 18px; font-weight: 900; color: #15803d; font-family: monospace;">${result.score} / 720</div>
-          <div style="font-size: 10px; color: #16a34a; font-weight: 700;">${((result.score / 720) * 100).toFixed(1)}% Max</div>
+          <div style="font-size: 18px; font-weight: 900; color: #15803d; font-family: monospace;">${result.score} / ${totalPossibleMarks}</div>
+          <div style="font-size: 10px; color: #16a34a; font-weight: 700;">${((result.score / totalPossibleMarks) * 100).toFixed(1)}% Max</div>
         </div>
 
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px;">
           <div style="font-size: 9px; font-weight: 700; color: #64748b; text-transform: uppercase;">Previous Score</div>
-          <div style="font-size: 18px; font-weight: 900; color: #334155; font-family: monospace;">${prevScore} / 720</div>
+          <div style="font-size: 18px; font-weight: 900; color: #334155; font-family: monospace;">${prevScore} / ${totalPossibleMarks}</div>
           <div style="font-size: 10px; color: #64748b;">Prior Baseline</div>
         </div>
 
@@ -662,7 +663,7 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
             <td style="padding: 10px 8px; text-align: center; color: #64748b;">${prevScore}</td>
             <td style="padding: 10px 8px; text-align: center; color: #166534; font-size: 13px;">${result.score}</td>
             <td style="padding: 10px 8px; text-align: center; color: #16a34a; font-size: 12px;">${changeScore >= 0 ? '+' + changeScore : changeScore}</td>
-            <td style="padding: 10px 8px; text-align: center; color: #1e40af;">${((result.score / 720) * 100).toFixed(1)}%</td>
+            <td style="padding: 10px 8px; text-align: center; color: #1e40af;">${((result.score / totalPossibleMarks) * 100).toFixed(1)}%</td>
             <td style="padding: 10px 8px; text-align: center; font-family: sans-serif;"><span style="background: #16a34a; color: #ffffff; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 4px;">Top Tier GMC Safe Zone</span></td>
           </tr>
         </tbody>
