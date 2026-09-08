@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
+export const NCERT_LAWS_OF_MOTION_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch05-ex01",
+    "id": "ncert-phy-ch05-ex01",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Concept of Inertia",
@@ -17,13 +17,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Newton's First Law defines inertia (the tendency of a body to remain in its state of rest or uniform motion unless acted upon by an external unbalanced force).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex02",
+    "id": "ncert-phy-ch05-ex02",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Measure of Inertia",
@@ -38,13 +38,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Mass is the quantitative measure of inertia. Greater the mass of a body, larger is its inertia.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex03",
+    "id": "ncert-phy-ch05-ex03",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Newton's Second Law Equations",
@@ -59,13 +59,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "F = dp/dt = d(mv)/dt = m(dv/dt) + v(dm/dt). For constant mass: F = ma; for variable mass: F = v dm/dt. All are valid.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex04",
+    "id": "ncert-phy-ch05-ex04",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Change in Linear Momentum",
@@ -80,13 +80,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Δp = m(v - u) = 6 kg × (5 - 3) m/s = 6 × 2 = 12 N s (or kg m/s).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex05",
+    "id": "ncert-phy-ch05-ex05",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Force from Momentum Function",
@@ -101,13 +101,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Force F = dp/dt = d/dt (2 + 3t²) = 6t.\nAt t = 3 s: F = 6(3) = 18 N.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex06",
+    "id": "ncert-phy-ch05-ex06",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Balanced Forces Equilibrium",
@@ -122,13 +122,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Balanced forces produce zero net force (ΣF = 0), meaning the body has zero acceleration (either at rest or in uniform rectilinear motion).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex07",
+    "id": "ncert-phy-ch05-ex07",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Impulse Definition",
@@ -143,13 +143,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Impulse I = ∫ F dt = F_avg Δt = Δp (Impulse-Momentum Theorem). Both (1) and (2) are correct.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex08",
+    "id": "ncert-phy-ch05-ex08",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Impulse in Stopping a Ball",
@@ -164,13 +164,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Impulse I = p_final - p_initial = 0 - m v = - m v (directed opposite to incoming velocity).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex09",
+    "id": "ncert-phy-ch05-ex09",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Change in Momentum of Projectile",
@@ -185,13 +185,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Since the only force acting throughout the trajectory is gravity F = mg downwards, change in momentum Δp = F × t = m g t downwards.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex10",
+    "id": "ncert-phy-ch05-ex10",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Rocket Propulsion Principle",
@@ -206,13 +206,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Rocket propulsion is based on Newton's Third Law (action of expelled exhaust gases produces forward reaction) and the Law of Conservation of Linear Momentum.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex11",
+    "id": "ncert-phy-ch05-ex11",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Elastic Collision with Smooth Surface",
@@ -227,13 +227,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Initial velocity: v_i = 20 cos 30° i - 20 sin 30° j = 10√3 i - 10 j.\nFinal velocity: v_f = 10√3 i + 10 j (horizontal component unchanged, vertical reversed).\nΔv = v_f - v_i = 20 j ⟹ |Δv| = 20 m/s (or if angle with normal is 30°: Δv = 2(20) cos 30° = 20√3 m/s). With normal: 20√3 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex12",
+    "id": "ncert-phy-ch05-ex12",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Minimum Momentum Change Time",
@@ -248,13 +248,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "dI/dt = 40t - 40 = 0 ⟹ t = 1 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex13",
+    "id": "ncert-phy-ch05-ex13",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Force on Wall by Rebounding Bullets",
@@ -269,13 +269,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Change in momentum per bullet = m u - (-m u) = 2 m u.\nNumber of bullets per second = n ⟹ Force F = n × 2 m u = 2 n m u.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex14",
+    "id": "ncert-phy-ch05-ex14",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Explosion of Stationary Body",
@@ -290,13 +290,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Initial momentum = 0. Total final momentum p₁ + p₂ = 0 ⟹ p₂ = -p₁ (must move in negative x-direction to conserve momentum).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex15",
+    "id": "ncert-phy-ch05-ex15",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Momentum Conservation Condition",
@@ -311,13 +311,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "By Newton's second law, dP/dt = F_ext. When F_ext = 0, P_system remains constant.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex16",
+    "id": "ncert-phy-ch05-ex16",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Conservation Along Smooth Wall",
@@ -332,13 +332,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Since the wall is smooth, no frictional force acts parallel to the wall (F_parallel = 0). Thus, momentum parallel to the wall is strictly conserved.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex17",
+    "id": "ncert-phy-ch05-ex17",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Momentum Change in 2D",
@@ -353,13 +353,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Δp = m (v₂ - v₁) = 5 [(10i + 6j) - (2i + 6j)] = 5 (8i) = 40 i kg m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex18",
+    "id": "ncert-phy-ch05-ex18",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Sand Leaking from Moving Cart",
@@ -374,13 +374,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Due to inertia of motion, the falling sand retains its initial horizontal velocity v as it leaves the cart.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex19",
+    "id": "ncert-phy-ch05-ex19",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Momentum Change Along Smooth Wall",
@@ -395,13 +395,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Because the wall is smooth, there is no tangential force along the wall surface. Hence, the change in momentum along the wall is strictly Zero.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex20",
+    "id": "ncert-phy-ch05-ex20",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Stopping Force on Hammer",
@@ -416,13 +416,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "F_avg = |Δp| / Δt = p / 0.5 = 2p N.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex21",
+    "id": "ncert-phy-ch05-ex21",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Atwood Machine in Accelerating Lift",
@@ -437,13 +437,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Effective gravity g_eff = g + a = g + g/2 = (3/2)g = 15 m/s².\nTension T = 2 m₁ m₂ g_eff / (m₁ + m₂) = 2(2)(4)(15) / (2 + 4) = 240 / 6 = 40 N.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex22",
+    "id": "ncert-phy-ch05-ex22",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Normal Force in Descending Lift",
@@ -458,13 +458,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "N = m(g - a) = m(g - g/4) = (3/4) mg.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex23",
+    "id": "ncert-phy-ch05-ex23",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Friction on Front of Accelerating Truck",
@@ -479,13 +479,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Normal force N = m a. Frictional force f_max = μ_s N = μ_s m a ≥ m g ⟹ μ_s ≥ g / a = 10 / 20 = 0.5.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex24",
+    "id": "ncert-phy-ch05-ex24",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Acceleration to Prevent Block Slipping on Smooth Wedge",
@@ -500,13 +500,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "For m₂ to be stationary vertically: T = m₂ g. For m₁: T = m₁ a ⟹ m₁ a = m₂ g ⟹ a = m₂ g / m₁.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex25",
+    "id": "ncert-phy-ch05-ex25",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Weighing Scale in Retarding Elevator",
@@ -521,13 +521,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "When moving up and retarding, acceleration is downwards: N = m(g - a) N. In kgf: Reading = N / g = m(1 - a/g) kgf.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex26",
+    "id": "ncert-phy-ch05-ex26",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Pendulum Angle in Freely Falling Trolley",
@@ -542,13 +542,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "The trolley accelerates at a = g sin θ down the incline. The pseudo force cancels the component of gravity along the incline, so the pendulum aligns normal to the inclined surface (α = 0° with the perpendicular).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex27",
+    "id": "ncert-phy-ch05-ex27",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Maximum Angular Speed on Turntable",
@@ -563,13 +563,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "m ω² x ≤ μ m g ⟹ ω² ≤ μ g / x ⟹ ω_max = √(μ g / x).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex28",
+    "id": "ncert-phy-ch05-ex28",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Deflection of Bob in Accelerating Trolley",
@@ -584,13 +584,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "tan θ = F_pseudo / Weight = (m a) / (m g) = a / g ⟹ θ = tan⁻¹(a / g).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex29",
+    "id": "ncert-phy-ch05-ex29",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Pseudo Force Definition",
@@ -605,13 +605,13 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Pseudo force F_p = -m a₀ has no physical action-reaction pair and is introduced solely to apply Newton's laws in non-inertial reference frames.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch05-ex30",
+    "id": "ncert-phy-ch05-ex30",
     "subject": "Physics",
     "chapter": "Laws of Motion",
     "topic": "Horizontal Force on Wedge to Prevent Block Sliding",
@@ -626,7 +626,7 @@ export const AAKASH_LAWS_OF_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "For the block not to slide down smooth incline: a = g tan θ.\nTotal mass = (M + m) ⟹ Applied horizontal force F = (M + m) a = (M + m) g tan θ.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Laws of Motion",
       "Class 11"
     ]

@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_UNITS_QUESTIONS: Question[] = [
+export const NCERT_UNITS_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch02-ex01",
+    "id": "ncert-phy-ch02-ex01",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Vernier Callipers Least Count",
@@ -17,13 +17,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Least Count = 1 MSD - 1 VSD = 1 MSD - 0.8 MSD = 0.2 MSD = 0.2 mm = 2 × 10⁻⁴ m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex02",
+    "id": "ncert-phy-ch02-ex02",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Accuracy and Precision",
@@ -38,13 +38,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "0.040 m has 3 decimal places (resolution 1 mm), providing the highest precision among the options.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex03",
+    "id": "ncert-phy-ch02-ex03",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Random Errors and Sample Size",
@@ -59,13 +59,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Random error is inversely proportional to the number of observations (error ∝ 1/n). For 3× observations, error becomes α/3.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex04",
+    "id": "ncert-phy-ch02-ex04",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Momentum and Kinetic Energy Error",
@@ -80,13 +80,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "K = p²/(2m). For p' = 1.1p, K' = (1.1)² K = 1.21 K. Percentage increase = 21%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex05",
+    "id": "ncert-phy-ch02-ex05",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Significant Figures in Addition",
@@ -101,13 +101,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "In addition, result retains the least number of decimal places (5.0 has 1 decimal place). 18.425 + 7.21 + 5.0 = 30.635 ≈ 30.6 cm.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex06",
+    "id": "ncert-phy-ch02-ex06",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Error Limits in Linear Combination",
@@ -122,13 +122,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Z = 2x - 2y = 0. ΔZ = 2Δx + 2Δy = 2(0.1) + 2(0.1) = 0.4. Hence, (0.0 ± 0.4).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex07",
+    "id": "ncert-phy-ch02-ex07",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Significant Figures in Scientific Notation",
@@ -143,13 +143,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Leading zeroes before 2 are not significant. Significant digits are '2', '0', '5' (3 significant figures).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex08",
+    "id": "ncert-phy-ch02-ex08",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Area Significant Figures",
@@ -164,13 +164,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "r = 2.12 m (3 sig figs). Area = π r² = 3.14159 × (2.12)² = 14.1196 m² ≈ 14.1 m² (3 sig figs).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex09",
+    "id": "ncert-phy-ch02-ex09",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Potential Difference Significant Figures",
@@ -185,13 +185,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "V = IR = 3.23 × 10.845 = 35.029 V. Current has 3 sig figs, so result must be rounded to 3 sig figs: 35.0 V.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex10",
+    "id": "ncert-phy-ch02-ex10",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Error in Cylinder Volume",
@@ -206,13 +206,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "V = π r² L ⟹ ΔV/V = 2(Δr/r) + ΔL/L = 2(0.01/1.0) + (0.1/100) = 2% + 0.1% = 2.1%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex11",
+    "id": "ncert-phy-ch02-ex11",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Binomial Approximation (1003)^1/3",
@@ -227,13 +227,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "(1003)^(1/3) = 10 (1 + 3/1000)^(1/3) ≈ 10 (1 + 0.001) = 10.01.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex12",
+    "id": "ncert-phy-ch02-ex12",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Binomial Approximation (997)^1/3",
@@ -248,13 +248,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "(997)^(1/3) = 10 (1 - 3/1000)^(1/3) ≈ 10 (1 - 0.001) = 9.99.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex13",
+    "id": "ncert-phy-ch02-ex13",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Binomial Expansion in Thermal Radiation",
@@ -269,13 +269,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "(1 + ΔT/T₀)⁴ ≈ 1 + 4(ΔT/T₀). K[(1 + 4ΔT/T₀) - 1] = 4 K ΔT / T₀.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex14",
+    "id": "ncert-phy-ch02-ex14",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Dimensions of Time in Energy",
@@ -290,13 +290,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "In [M¹ L² T⁻²], the power of time T is -2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex15",
+    "id": "ncert-phy-ch02-ex15",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Dimensionless Quantities",
@@ -311,13 +311,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Angle = arc length / radius = [L]/[L] = [M⁰L⁰T⁰] (dimensionless).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex16",
+    "id": "ncert-phy-ch02-ex16",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Dimensional Homogeneity",
@@ -332,13 +332,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Quantities with different dimensions can be multiplied or divided (√(AB)), but never added or subtracted.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex17",
+    "id": "ncert-phy-ch02-ex17",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Dimensionally Incorrect Formula",
@@ -353,13 +353,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "In u² = 2a(gt - 1), (gt - 1) subtracts a dimensionless scalar from velocity [LT⁻¹], which violates dimensional homogeneity.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex18",
+    "id": "ncert-phy-ch02-ex18",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "System of Units Energy Conversion",
@@ -374,13 +374,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "n₂ = 1 × [1/10]¹ × [1/10]² × [1/60]⁻² = (1/1000) × 3600 = 3.6 = 36 × 10⁻¹.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex19",
+    "id": "ncert-phy-ch02-ex19",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Fundamental Units Mass Calculation",
@@ -395,13 +395,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "[M] = [F L⁻¹ T²] = (10³ N) × (10³ m)⁻¹ × (10² s)² = 10⁴ kg = 10,000 kg.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex20",
+    "id": "ncert-phy-ch02-ex20",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Moment of Couple Dimensions",
@@ -416,13 +416,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Moment of couple = Force × distance = [MLT⁻²] × [L] = [ML²T⁻²].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex21",
+    "id": "ncert-phy-ch02-ex21",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Potential Energy Functional Dimensions",
@@ -437,13 +437,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "[B] = [x²] = [L²]. [U] = [ML²T⁻²] = [A] L^(1/2) / L² ⟹ [A] = [ML^(7/2) T⁻²]. [AB] = [ML^(11/2) T⁻²].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex22",
+    "id": "ncert-phy-ch02-ex22",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Different Dimensions Identification",
@@ -458,13 +458,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Energy/vol, Force/area, and (Vq)/vol all have dimension of pressure [ML⁻¹T⁻²]. Angular momentum/mass = [L²T⁻¹] (Different).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-ex23",
+    "id": "ncert-phy-ch02-ex23",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Non-Deducible Equations by Dimensions",
@@ -479,13 +479,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Trigonometric functions, multi-term additions, and dimensionless constants cannot be deduced by dimensional analysis.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-01",
+    "id": "ncert-phy-ch02-secA-01",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Instrumental Error",
@@ -500,13 +500,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Instrumental error is caused by imperfect calibration and zero error. Hence Both (1) & (2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-02",
+    "id": "ncert-phy-ch02-secA-02",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Parallel Resistors Relative Error",
@@ -521,13 +521,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "ΔR_p/R_p = R_p [ΔR₁/R₁² + ΔR₂/R₂²] = (20/3)[0.1/100 + 0.4/400] = (20/3)(0.002) = 0.0133 ≈ 0.05 max sum limit.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-03",
+    "id": "ncert-phy-ch02-secA-03",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Mass Accuracy",
@@ -542,13 +542,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "8.48 g is closest to 8.5 g (|8.48 - 8.5| = 0.02 g).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-04",
+    "id": "ncert-phy-ch02-secA-04",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Supplementary Units",
@@ -563,13 +563,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Radian and steradian are supplementary SI units.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-05",
+    "id": "ncert-phy-ch02-secA-05",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Number of Significant Zeroes",
@@ -584,13 +584,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "One trapped zero + three trailing decimal zeroes = 4 significant zeroes.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-06",
+    "id": "ncert-phy-ch02-secA-06",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Percentage Error in R",
@@ -605,13 +605,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "ΔR/R = 2(0.1%) + 0.5(0.2%) + 4(0.3%) + 0.4% = 0.2% + 0.1% + 1.2% + 0.4% = 1.9%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-07",
+    "id": "ncert-phy-ch02-secA-07",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Derived Units",
@@ -626,13 +626,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Acceleration (m/s²) is a derived physical quantity.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-08",
+    "id": "ncert-phy-ch02-secA-08",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Traveling Wave Dimensions",
@@ -647,13 +647,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "k/ω = 1/v = 1/[LT⁻¹] = [L⁻¹ T¹].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-09",
+    "id": "ncert-phy-ch02-secA-09",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Same Dimensions as Energy",
@@ -668,13 +668,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Work and energy both have dimension [ML²T⁻²].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-10",
+    "id": "ncert-phy-ch02-secA-10",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Error Representation",
@@ -689,13 +689,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "T = T_mean ± ΔT_mean = (2.00 ± 0.05) s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-11",
+    "id": "ncert-phy-ch02-secA-11",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Same Dimensions Pair",
@@ -710,13 +710,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Wavelength and focal length both represent length [L].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-12",
+    "id": "ncert-phy-ch02-secA-12",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Spring Constant Dimensions",
@@ -731,13 +731,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "[k] = [W]/[x²] = [ML²T⁻²]/[L²] = [M¹ L⁰ T⁻²].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-13",
+    "id": "ncert-phy-ch02-secA-13",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Length Range",
@@ -752,13 +752,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "5.0 - 0.1 ≤ l ≤ 5.0 + 0.1 ⟹ 4.9 m ≤ l ≤ 5.1 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-14",
+    "id": "ncert-phy-ch02-secA-14",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Pendulum Percentage Error",
@@ -773,13 +773,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "(0.1 / 2.5) × 100% = 4%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-secA-15",
+    "id": "ncert-phy-ch02-secA-15",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NCERT MCQs - Plate Perimeter Error",
@@ -794,13 +794,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "P = 2(L+B) = 12.0 m. ΔP = 2(ΔL+ΔB) = 2(0.2+0.1) = 0.6 m ⟹ (12.0 ± 0.6) m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-01",
+    "id": "ncert-phy-ch02-pyq-01",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NEET-2019 Odisha - Vernier Least Count Formula",
@@ -815,13 +815,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "1 MSD = 1/n cm. 1 VSD = (n - 1)/n MSD. LC = 1 MSD - 1 VSD = (1/n) MSD = (1/n)(1/n) = 1/n² cm.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-02",
+    "id": "ncert-phy-ch02-pyq-02",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NEET-2019 - Error in Product Combination",
@@ -836,13 +836,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "ΔX/X = 2(1%) + (1/2)(2%) + (1/3)(3%) + 3(4%) = 2% + 1% + 1% + 12% = 16%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-03",
+    "id": "ncert-phy-ch02-pyq-03",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NEET-2018 - Screw Gauge Zero Error Correction",
@@ -857,13 +857,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Observed Reading = MSR + CSR × LC = 0.5 cm + 25 × 0.001 cm = 0.525 cm.\nCorrect reading = Observed - (Zero Error) = 0.525 - (-0.004) = 0.529 cm.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-04",
+    "id": "ncert-phy-ch02-pyq-04",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NEET-2017 - Fundamental Constants Dimensions of Length",
@@ -878,13 +878,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Length L = (1/c²) √[G (e² / 4πε₀)]. Dimensions: [G] = M⁻¹L³T⁻², [e²/4πε₀] = ML³T⁻², product = L⁶T⁻⁴. Square root = L³T⁻². Divided by c² (L²T⁻²) gives L.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-05",
+    "id": "ncert-phy-ch02-pyq-05",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NEET-2016 - Planck Constant and Gravity Length Dimension",
@@ -899,13 +899,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Planck length l_p = √(h G / c³) = [ML²T⁻¹ · M⁻¹L³T⁻² / L³T⁻³]^(1/2) = [L²]^(1/2) = L.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-06",
+    "id": "ncert-phy-ch02-pyq-06",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "Re-AIPMT-2015 - Reynolds Critical Velocity Powers",
@@ -920,13 +920,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Critical velocity v_c = N_R η / (ρ r) ⟹ x = 1, y = -1, z = -1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-07",
+    "id": "ncert-phy-ch02-pyq-07",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "AIPMT-2015 - Surface Tension in E, V, T",
@@ -941,13 +941,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Surface tension S = Energy / Area = [E] / [V T]² = [E V⁻² T⁻²].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-08",
+    "id": "ncert-phy-ch02-pyq-08",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "AIPMT-2014 - Mass in F, V, T",
@@ -962,13 +962,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Mass = Force / Acceleration = Force / (Velocity / Time) = [F V⁻¹ T].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-09",
+    "id": "ncert-phy-ch02-pyq-09",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "NEET-2013 - Error in P = a³b²/cd",
@@ -983,13 +983,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "ΔP/P = 3(1%) + 2(2%) + 3% + 4% = 3% + 4% + 3% + 4% = 14%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-10",
+    "id": "ncert-phy-ch02-pyq-10",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "AIPMT-2012 - Damping Force Constant Unit",
@@ -1004,13 +1004,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "b = F / v = (kg m s⁻²) / (m s⁻¹) = kg s⁻¹.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-11",
+    "id": "ncert-phy-ch02-pyq-11",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "AIPMT-2011 - Dimension of (μ₀ε₀)^(-1/2)",
@@ -1025,13 +1025,13 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "c = 1 / √(μ₀ ε₀) = (μ₀ ε₀)⁻¹/² represents the speed of light in vacuum with dimension [L T⁻¹].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch02-pyq-12",
+    "id": "ncert-phy-ch02-pyq-12",
     "subject": "Physics",
     "chapter": "Units and Measurement",
     "topic": "AIPMT-2011 - Density Unit Conversion",
@@ -1046,7 +1046,7 @@ export const AAKASH_UNITS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "n₂ = 4 × [1 g / 100 g]¹ × [1 cm / 10 cm]⁻³ = 4 × (1/100) × (1000) = 40.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Units and Measurement",
       "Class 11"
     ]

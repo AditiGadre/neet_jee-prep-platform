@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
+export const NCERT_SOLIDS_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch09-ex01",
+    "id": "ncert-phy-ch09-ex01",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Breaking Stress Properties",
@@ -17,13 +17,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Breaking stress is an intrinsic characteristic property of the material of the wire and is independent of its geometric dimensions (length and cross-sectional area).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex02",
+    "id": "ncert-phy-ch09-ex02",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Perfect Plasticity Classification",
@@ -38,13 +38,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Plasticine (or putty) retains its deformed shape completely when deforming force is removed, showing near-perfect plastic behavior. (Quartz fibre is nearly perfectly elastic).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex03",
+    "id": "ncert-phy-ch09-ex03",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Natural Length of Stretched String",
@@ -59,13 +59,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Let natural length be L_0 and spring compliance be k: L = L_0 + k T.\nX = L_0 + 8k, Y = L_0 + 10k => k = (Y - X)/2.\nL_0 = X - 8k = X - 4(Y - X) = 5X - 4Y.\nFor T = 18 N: L_18 = L_0 + 18k = (5X - 4Y) + 9(Y - X) = 5Y - 4X.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex04",
+    "id": "ncert-phy-ch09-ex04",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Work Done by Internal Restoring Force",
@@ -80,13 +80,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Work done by elastic restoring force W_rest = -(1/2) * F * \u0394L = -(1/2) * (mg) * \u0394L = -(1/2) * (100) * 2 = -100 J.\nMagnitude = 100 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex05",
+    "id": "ncert-phy-ch09-ex05",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Classification of Elastomers",
@@ -101,13 +101,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Materials that can undergo large reversible elastic strains are defined as elastomers.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex06",
+    "id": "ncert-phy-ch09-ex06",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Young's Modulus Doubling Length",
@@ -122,13 +122,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Doubling the length means extension \u0394L = L, so longitudinal strain = \u0394L / L = 1.\nStress = F / a.\nYoung's modulus Y = Stress / Strain = (F / a) / 1 = F / a.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex07",
+    "id": "ncert-phy-ch09-ex07",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Stress-Strain Slope Comparison",
@@ -143,13 +143,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Young's modulus Y = Stress / Strain = slope of the linear elastic region of the stress-strain graph. The metal with the greatest slope (Metal A) has the highest Young's modulus.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex08",
+    "id": "ncert-phy-ch09-ex08",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Maximum Length of Hanging Wire Under Own Weight",
@@ -164,13 +164,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Maximum stress occurs at the top clamp: \u03c3_max = (M g) / A = (A L \u03c1 g) / A = \u03c1 g L.\nBreaking stress = \u03c1 g L_max => 2 \u00d7 10^8 = (5 \u00d7 10^3)(10) L_max => L_max = (2 \u00d7 10^8) / (5 \u00d7 10^4) = 4000 m = 4 km.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex09",
+    "id": "ncert-phy-ch09-ex09",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Young's Modulus of Gases",
@@ -185,13 +185,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Gases have no fixed shape or length and cannot sustain longitudinal tension or compression. Hence, Young's modulus for gases is zero.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex10",
+    "id": "ncert-phy-ch09-ex10",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Effect of Impurities on Elasticity",
@@ -206,13 +206,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Adding carbon to iron increases its tensile strength and elasticity, whereas other impurities may weaken bonding and decrease elasticity. Thus, elasticity may change.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex11",
+    "id": "ncert-phy-ch09-ex11",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Elasticity of Perfectly Rigid Body",
@@ -227,13 +227,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "For a perfectly rigid body, deformation \u0394L = 0 for any finite applied stress, so Strain = 0. Therefore, Modulus = Stress / Strain = Stress / 0 = \u221e (Infinite).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex12",
+    "id": "ncert-phy-ch09-ex12",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Shear Modulus Displacement of Cube",
@@ -248,13 +248,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Shear stress = F / b^2. Shear strain = x / b.\nModulus of rigidity G = Shear stress / Shear strain = (F / b^2) / (x / b) = F / (b x) => x = F / (G b).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex13",
+    "id": "ncert-phy-ch09-ex13",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Bulk Modulus of Rubber Ball Underwater",
@@ -269,13 +269,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Excess hydrostatic pressure \u0394P = \u03c1 g h = (10^3)(10)(10^3) = 10^7 N/m^2.\nVolume strain \u0394V / V = 0.05% = 5 \u00d7 10^-4.\nBulk Modulus B = \u0394P / (\u0394V / V) = 10^7 / (5 \u00d7 10^-4) = 2 \u00d7 10^10 N/m^2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex14",
+    "id": "ncert-phy-ch09-ex14",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Elastic Moduli of Liquids",
@@ -290,13 +290,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Liquids have no definite shape and cannot support longitudinal tension or shear stress under static equilibrium. Hence, only Bulk modulus (resistance to volume compression) is defined.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex15",
+    "id": "ncert-phy-ch09-ex15",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Nature of Elastic Restoring Forces",
@@ -311,13 +311,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Within the elastic limit, the work done in deforming a solid is stored completely as recoverable elastic potential energy; thus, elastic forces are strictly conservative.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex16",
+    "id": "ncert-phy-ch09-ex16",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Isothermal Elasticity of Ideal Gas",
@@ -332,13 +332,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "For an isothermal process, PV = constant => P dV + V dP = 0 => -V (dP/dV) = P. Therefore, B_isothermal = P.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex17",
+    "id": "ncert-phy-ch09-ex17",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Elastic Energy Density Formula",
@@ -353,13 +353,13 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Energy density u = (1/2) * stress * strain = (1/2) * (Y * S) * S = (1/2) Y S^2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch09-ex18",
+    "id": "ncert-phy-ch09-ex18",
     "subject": "Physics",
     "chapter": "Mechanical Properties of Solids",
     "topic": "Poisson's Ratio for Incompressible Material",
@@ -374,7 +374,7 @@ export const AAKASH_SOLIDS_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "V = \u03c0 r^2 L => dV / V = 2(dr / r) + (dL / L) = 0 => 2(-lateral strain) + (longitudinal strain) = 0 => \u03bd = lateral strain / longitudinal strain = 1/2 = 0.5.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Mechanical Properties of Solids",
       "Class 11"
     ]

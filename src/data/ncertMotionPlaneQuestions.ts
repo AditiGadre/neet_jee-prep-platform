@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
+export const NCERT_MOTION_PLANE_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch04-ex01",
+    "id": "ncert-phy-ch04-ex01",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Vector Quantities Identification",
@@ -17,13 +17,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Displacement is a vector quantity having both magnitude and direction, whereas mass, time, and distance are scalars.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex02",
+    "id": "ncert-phy-ch04-ex02",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Commutative Property of Vector Addition",
@@ -38,13 +38,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Vector addition obeys commutative law: A + B = B + A.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex03",
+    "id": "ncert-phy-ch04-ex03",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Unit Vector Definition",
@@ -59,13 +59,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "A unit vector in the direction of vector A is defined as vector divided by its magnitude: â = A / |A|.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex04",
+    "id": "ncert-phy-ch04-ex04",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Addition of Equal and Opposite Vectors",
@@ -80,13 +80,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "A + (-A) = 0 (Null vector having zero magnitude and indeterminate direction).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex05",
+    "id": "ncert-phy-ch04-ex05",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Properties of Unit Vector",
@@ -101,13 +101,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Unit vector â = A / |A| is a dimensionless pure directional vector having no physical unit.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex06",
+    "id": "ncert-phy-ch04-ex06",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Magnitude of Two Perpendicular Unit Vectors",
@@ -122,13 +122,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "|i + j| = √(1² + 1²) = √2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex07",
+    "id": "ncert-phy-ch04-ex07",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Scalar Multiplication with Zero",
@@ -143,13 +143,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "0 × A = 0 (Null vector).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex08",
+    "id": "ncert-phy-ch04-ex08",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Condition for Zero Vector Sum",
@@ -164,13 +164,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "P + Q = 0 ⟹ P = -Q (vectors P and Q must be equal in magnitude and oppositely directed).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex09",
+    "id": "ncert-phy-ch04-ex09",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Vector Magnitude Equation P+Q = P-Q",
@@ -185,13 +185,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "P + Q = P - Q ⟹ 2Q = 0 ⟹ Q = 0.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex10",
+    "id": "ncert-phy-ch04-ex10",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Rectangular Components in Plane",
@@ -206,13 +206,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "In a 2D plane, any vector can be uniquely resolved into at most 2 mutually orthogonal components (A_x and A_y).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex11",
+    "id": "ncert-phy-ch04-ex11",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Displacement Between Position Vectors",
@@ -227,13 +227,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Displacement Δr = r₂ - r₁ = (5 - 2)i + (1 - 4)j = 3i - 3j.\nMagnitude |Δr| = √(3² + (-3)²) = √(9 + 9) = √18 = 3√2 units.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex12",
+    "id": "ncert-phy-ch04-ex12",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Resultant of Coplanar Vectors",
@@ -248,13 +248,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "F_net = F₁ + F₂ + F₃ = (2 + 2 - 4)i + (2 - 2 + 0)j = 0i + 0j = 0.\nSince net force is zero, the stationary particle remains at rest.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex13",
+    "id": "ncert-phy-ch04-ex13",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "3D Displacement Calculation",
@@ -269,13 +269,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "r = 8i + 6j + 10k.\n|r| = √(8² + 6² + 10²) = √(64 + 36 + 100) = √200 = 10√2 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex14",
+    "id": "ncert-phy-ch04-ex14",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Velocity after 10 s in 2D",
@@ -290,13 +290,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "v = u + at = (3i + 4j) + 10(0.4i + 0.3j) = (3 + 4)i + (4 + 3)j = 7i + 7j.\n|v| = √(7² + 7²) = 7√2 units.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex15",
+    "id": "ncert-phy-ch04-ex15",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Velocity Component Along Y-Axis",
@@ -311,13 +311,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v_y = dy/dt = d/dt (6t) = 6 m/s (constant).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex16",
+    "id": "ncert-phy-ch04-ex16",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "2D Kinematic Position at t = 3s",
@@ -332,13 +332,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "x = x₀ + u_x t + (1/2) a_x t² = 3 + 0 + (1/2)(4)(3)² = 3 + 18 = 21.\ny = y₀ = 7 (since a_y = 0).\nPosition = (21, 7).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex17",
+    "id": "ncert-phy-ch04-ex17",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Acceleration Vector from Displacement",
@@ -353,13 +353,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Δr = r - r₀ = (2 - 3)i + (4 - (-8))j = -1i + 12j.\nSince u = 0, Δr = (1/2) a t² ⟹ -i + 12j = (1/2) a (16) = 8a ⟹ a = (-1/8) i + (12/8) j = (-1/8) i + (3/2) j.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex18",
+    "id": "ncert-phy-ch04-ex18",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Relative Velocity Between Two Particles",
@@ -374,13 +374,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v_BA = v_B - v_A = (3i - 7j) - (2i + 4j) = (3 - 2)i + (-7 - 4)j = i - 11j.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex19",
+    "id": "ncert-phy-ch04-ex19",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Rain-Car Relative Speed",
@@ -395,13 +395,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "v_car = 7j km/h. v_bus = v_b i km/h.\nv_rel = v_bus - v_car = v_b i - 7j.\n|v_rel| = √(v_b² + 7²) = 25 ⟹ v_b² + 49 = 625 ⟹ v_b² = 576 ⟹ v_b = 24 km/h.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex20",
+    "id": "ncert-phy-ch04-ex20",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Rectangular Components of 2D Vector",
@@ -416,13 +416,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "A_x = 4 cos 30° = 4 × (√3 / 2) = 2√3 m.\nA_y = 4 sin 30° = 4 × (1 / 2) = 2 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex21",
+    "id": "ncert-phy-ch04-ex21",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angle Between Velocity and Acceleration at Peak",
@@ -437,13 +437,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "At the peak, velocity is horizontal (u cos θ i) and acceleration due to gravity is vertically downward (-g j). Angle = 90°.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex22",
+    "id": "ncert-phy-ch04-ex22",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Complementary Angles Horizontal Range Ratio",
@@ -458,13 +458,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Since (45° - θ) + (45° + θ) = 90° (complementary angles), horizontal ranges are identical: R₁ = R₂ ⟹ Ratio = 1 : 1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex23",
+    "id": "ncert-phy-ch04-ex23",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Kinetic Energy at Top of Trajectory",
@@ -479,13 +479,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "At top, speed v_top = v cos 45° = v / √2.\nKinetic energy K_top = (1/2) m (v / √2)² = (1/4) m v².",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex24",
+    "id": "ncert-phy-ch04-ex24",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Trajectory of Projectile",
@@ -500,13 +500,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Equation of trajectory y = x tan θ - g x² / (2 u² cos² θ) is quadratic in x, which represents a Parabola.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex25",
+    "id": "ncert-phy-ch04-ex25",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Non-Projectile Example",
@@ -521,13 +521,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "A projectile moves solely under gravity after release. An aircraft is driven by engine thrust and wing aerodynamic lift.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex26",
+    "id": "ncert-phy-ch04-ex26",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Time of Flight from Peak Time",
@@ -542,13 +542,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Time of flight T = 2 × t_ascent = 2 × 4 s = 8 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex27",
+    "id": "ncert-phy-ch04-ex27",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Maximum Height at 45 Degrees",
@@ -563,13 +563,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "H = u² sin² θ / (2g) = (20)² sin²(45°) / (2 × 10) = 400 × (1/2) / 20 = 10 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex28",
+    "id": "ncert-phy-ch04-ex28",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Time of Flight at 30 Degrees",
@@ -584,13 +584,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "T = 2 u sin θ / g = 2(20) sin 30° / 10 = 40(0.5) / 10 = 2 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex29",
+    "id": "ncert-phy-ch04-ex29",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Acceleration at Projectile Peak",
@@ -605,13 +605,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "The acceleration of a projectile is constant and equal to g (directed vertically downwards) at every point of its trajectory.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex30",
+    "id": "ncert-phy-ch04-ex30",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angle for Target Height",
@@ -626,13 +626,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "H = u² sin² θ / (2g) ⟹ 10 = 400 sin² θ / 20 = 20 sin² θ ⟹ sin² θ = 1/2 ⟹ sin θ = 1/√2 ⟹ θ = 45°.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex31",
+    "id": "ncert-phy-ch04-ex31",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angle between Velocity and Centripetal Acceleration",
@@ -647,13 +647,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Instantaneous velocity is along the tangent and centripetal acceleration is radially inwards. Angle = 90°.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex32",
+    "id": "ncert-phy-ch04-ex32",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angular Speed Ratio for Equal Time Periods",
@@ -668,13 +668,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Angular speed ω = 2π / T. Since T is identical for both, ω₁ : ω₂ = 1 : 1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex33",
+    "id": "ncert-phy-ch04-ex33",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angular Speed Formula",
@@ -689,13 +689,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "ω = 2π / T (rad/s).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex34",
+    "id": "ncert-phy-ch04-ex34",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Constant Quantity in Uniform Circular Motion",
@@ -710,13 +710,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Speed is constant, so Kinetic Energy = (1/2) m v² is constant. Velocity and acceleration continuously change direction.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex35",
+    "id": "ncert-phy-ch04-ex35",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Linear Speed from Angular Speed",
@@ -731,13 +731,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "v = r ω = 10 m × 2 rad/s = 20 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex36",
+    "id": "ncert-phy-ch04-ex36",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angular Speed from Frequency",
@@ -752,13 +752,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "ω = 2π ν = 2 × (22/7) × 140 = 2 × 22 × 20 = 880 rad/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex37",
+    "id": "ncert-phy-ch04-ex37",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Centripetal Acceleration Calculation",
@@ -773,13 +773,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "ν = 7 / 60 rev/s. ω = 2π ν = 2 × (22/7) × (7/60) = 44/60 = 11/15 rad/s.\na_c = ω² r = (11/15)² × 5 = (121 / 225) × 5 = 121 / 45 ≈ 2.688 m/s² ≈ 2.7 m/s².",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex38",
+    "id": "ncert-phy-ch04-ex38",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Effect of Frequency Doubling on Acceleration",
@@ -794,13 +794,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Centripetal acceleration a_c = 4π² ν² r ∝ ν². If frequency ν is doubled, a_c becomes 2² = 4 times.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex39",
+    "id": "ncert-phy-ch04-ex39",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Angle with Decelerating Circular Motion",
@@ -815,13 +815,13 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Centripetal acceleration a_c = v² / r = (20)² / 80 = 400 / 80 = 5 m/s² (radially inward, perpendicular to v).\nTangential acceleration a_t = -5 m/s² (anti-parallel to v).\nAngle with velocity = 90° + 45° = 135°.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch04-ex40",
+    "id": "ncert-phy-ch04-ex40",
     "subject": "Physics",
     "chapter": "Motion in a Plane",
     "topic": "Ratio of Tangential to Centripetal Acceleration",
@@ -836,7 +836,7 @@ export const AAKASH_MOTION_PLANE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v = ds/dt = 6t². Tangential acceleration a_t = dv/dt = 12t.\nAt t = 2 s: a_t = 12(2) = 24 m/s².\nv = 6(2)² = 24 m/s.\nCentripetal acceleration a_c = v² / r = (24)² / 12 = 576 / 12 = 48 m/s².\nRatio a_t / a_c = 24 / 48 = 1 / 2 (1 : 2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Plane",
       "Class 11"
     ]

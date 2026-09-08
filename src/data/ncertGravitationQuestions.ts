@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
+export const NCERT_GRAVITATION_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch08-ex01",
+    "id": "ncert-phy-ch08-ex01",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Variation of Gravity with Altitude",
@@ -17,13 +17,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "g' = g / (1 + h/R)^2 = g / (1 + 3)^2 = g / 16.\nWeight w' = w / 16 = 144 / 16 = 9 N.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex02",
+    "id": "ncert-phy-ch08-ex02",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Newton's Law of Universal Gravitation",
@@ -38,13 +38,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "F' = G (3m1)(3m2) / (2r)^2 = (9/4) F = 2.25 F.\nPercentage change = ((2.25 F - F)/F) * 100% = +125% increase.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex03",
+    "id": "ncert-phy-ch08-ex03",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Dimensions of Gravitational Ratio",
@@ -59,13 +59,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "G = [M^-1 L^3 T^-2], g = [L T^-2].\n[G / g] = [M^-1 L^3 T^-2] / [L T^-2] = [M^-1 L^2].",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex04",
+    "id": "ncert-phy-ch08-ex04",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Planetary Surface Gravity & Weight",
@@ -80,13 +80,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "g_p = G M_p / R_p^2 = G (M_e / 7) / (R_e / 2)^2 = (4/7) g_e.\nWeight = 70 * (4/7) = 40 kgf.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex05",
+    "id": "ncert-phy-ch08-ex05",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Earth Rotation Effect at Poles",
@@ -101,13 +101,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "g' = g - R \u03c9^2 cos^2(\u03bb). At the poles, latitude \u03bb = 90\u00b0, so cos 90\u00b0 = 0. Therefore, g'_pole = g, which is completely independent of the Earth's rotation speed.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex06",
+    "id": "ncert-phy-ch08-ex06",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Contraction of Earth & Fractional Change",
@@ -122,13 +122,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "g = GM / R^2 => dg / g = -2 (dR / R) = -2 (-0.1%) = +0.2% increase.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex07",
+    "id": "ncert-phy-ch08-ex07",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Surface Gravity with Scaled Mass and Radius",
@@ -143,13 +143,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "M' = 0.75 M, R' = 1.5 R.\ng' = G (0.75 M) / (1.5 R)^2 = (0.75 / 2.25) g = (1/3) g.\nPercentage decrease = (1 - 1/3) * 100% = 66.67% \u2248 67%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex08",
+    "id": "ncert-phy-ch08-ex08",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Maximum Gravitational Force Condition",
@@ -164,13 +164,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Total mass M = 2x + 3x = 5x. For fixed distance, force F \u221d m1 * m2 is maximum when m1 = m2 = 5x / 2 = 2.5x.\nMass to transfer = 3x - 2.5x = 0.5x = x/2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex09",
+    "id": "ncert-phy-ch08-ex09",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Planetary Density & Radius Relation",
@@ -185,13 +185,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "g = (4/3) \u03c0 G \u03c1 R. Since g_p = g_e => \u03c1_p R_p = \u03c1_e R_e => (1.5 \u03c1_e) R_p = \u03c1_e R => R_p = R / 1.5 = (2/3) R.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex10",
+    "id": "ncert-phy-ch08-ex10",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Height vs Depth Weight Comparison",
@@ -206,13 +206,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Fractional decrease at height h: \u0394g/g = 2h/R = 1.5%.\nFractional decrease at depth h: \u0394g/g = h/R = (1/2) * (2h/R) = 1.5% / 2 = 0.75% decrease.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex11",
+    "id": "ncert-phy-ch08-ex11",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Interstellar Speed from Super-Escape Projection",
@@ -227,13 +227,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Projection speed v = u + 200% of u = u + 2u = 3u.\nBy conservation of energy: v_\u221e = \u221a(v^2 - v_e^2) = \u221a((3u)^2 - u^2) = \u221a(9u^2 - u^2) = \u221a8 u = 2\u221a2 u.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex12",
+    "id": "ncert-phy-ch08-ex12",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Satellite Kinetic Energy & Time Period",
@@ -248,13 +248,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "KE = GMm / (2r) = x => r \u221d 1/x.\nBy Kepler's Third Law, T \u221d r^(3/2) \u221d (1/x)^(3/2) = x^(-3/2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex13",
+    "id": "ncert-phy-ch08-ex13",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Satellite Orbital Altitude from Escape Speed Fraction",
@@ -269,13 +269,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "v_orb = \u221a(GM / (R + h)) and v_e = \u221a(2GM / R).\nv_orb = (1/4) v_e => GM / (R + h) = (1/16) * (2GM / R) = GM / (8R) => R + h = 8R => h = 7R.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex14",
+    "id": "ncert-phy-ch08-ex14",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Kepler's Law Orbital Radius vs Time Graph",
@@ -290,13 +290,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "r = C * T^(2/3). Since the exponent 2/3 < 1, the curve starts from origin with infinite slope and bends concavely downward as T increases.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex15",
+    "id": "ncert-phy-ch08-ex15",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Satellite Binding Energy",
@@ -311,13 +311,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Binding Energy = -Total Energy = +GMm / (2r) = (6.67 \u00d7 10^-11 * 5 \u00d7 10^30 * 200) / (2 * 6.67 \u00d7 10^6) = 5 \u00d7 10^15 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex16",
+    "id": "ncert-phy-ch08-ex16",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Ratio of Satellite Orbital Speeds",
@@ -332,13 +332,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v_orb = \u221a(GM / r) => v_A / v_B = \u221a(r_B / r_A) = \u221a(R / 4R) = 1/2.\nv_B = 2 * v_A = 2 * (3v) = 6v.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex17",
+    "id": "ncert-phy-ch08-ex17",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Escape Velocity at Altitude",
@@ -353,13 +353,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "v_e(h) = \u221a(2GM / (R + h)) = \u221a((2 g R^2)/(R + h)) = \u221a( (2 * 9.8 * (6.4 \u00d7 10^6)^2) / (7.4 \u00d7 10^6) ) \u2248 10.0 \u00d7 10^3 m/s = 10 km/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex18",
+    "id": "ncert-phy-ch08-ex18",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Escape vs Orbital Kinetic Energy Ratio",
@@ -374,13 +374,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "KE_escape = (1/2) m v_e^2 = (1/2) m (2GM/R) = GMm/R.\nKE_orbit = (1/2) m v_o^2 = (1/2) m (GM/R) = GMm/(2R).\nRatio = (GMm/R) / (GMm/2R) = 2 : 1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex19",
+    "id": "ncert-phy-ch08-ex19",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Disappearance of Gravity on Orbiting Satellite",
@@ -395,13 +395,13 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "By Newton's First Law, in the absence of any net external force, the satellite will continue in straight-line motion along the instantaneous tangent to its orbit with speed v.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch08-ex20",
+    "id": "ncert-phy-ch08-ex20",
     "subject": "Physics",
     "chapter": "Gravitation",
     "topic": "Gravitational Principles Verification",
@@ -416,7 +416,7 @@ export const AAKASH_GRAVITATION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "All three statements are factually correct physical principles of celestial gravitation.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Gravitation",
       "Class 11"
     ]

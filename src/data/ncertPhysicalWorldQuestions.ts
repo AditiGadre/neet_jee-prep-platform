@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
+export const NCERT_PHYSICAL_WORLD_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch01-q01",
+    "id": "ncert-phy-ch01-q01",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "What is Physics?, Main Thrusts",
@@ -17,13 +17,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "In Physics, the two principal thrusts are:\n1. Unification: Explaining diverse physical phenomena in terms of a few fundamental concepts and universal laws.\n2. Reductionism: Deriving properties of a complex system from its simpler constituent parts.\nHence, both (1) and (2) are correct.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q02",
+    "id": "ncert-phy-ch01-q02",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Unification in Physics",
@@ -38,13 +38,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Unification is the quest to explain diverse physical phenomena across nature using a minimal set of universal laws and concepts (e.g. Newton's gravitation explaining terrestrial and celestial motions).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q03",
+    "id": "ncert-phy-ch01-q03",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Reductionism in Physics",
@@ -59,13 +59,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Reductionism involves breaking down complex bulk systems and understanding their macroscopic properties through the kinetic behavior and interactions of microscopic constituent atoms and molecules.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q04",
+    "id": "ncert-phy-ch01-q04",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Domains of Physics - Mesoscopic",
@@ -80,13 +80,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Mesoscopic physics deals with intermediate-scale systems between classical macroscopic mechanics and quantum microscopic scales, typically involving groups of tens to hundreds of atoms.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q05",
+    "id": "ncert-phy-ch01-q05",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Domains of Physics - Classical",
@@ -101,13 +101,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Classical physics primarily deals with macroscopic phenomena at laboratory, terrestrial, and astronomical scales.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q06",
+    "id": "ncert-phy-ch01-q06",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Scope of Physics",
@@ -122,13 +122,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Physics covers length from 10⁻¹⁵ m to 10²⁶ m, time from 10⁻²² s to 10¹⁸ s, and mass from 10⁻³⁰ kg to 10⁵⁵ kg. Hence all ranges are correct.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q07",
+    "id": "ncert-phy-ch01-q07",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Scientific Method & Approximation",
@@ -143,13 +143,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Approximation extracts essential features of a physical phenomenon while temporarily neglecting minor secondary perturbations.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q08",
+    "id": "ncert-phy-ch01-q08",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Physics and Technology",
@@ -164,13 +164,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Supercomputers utilize superconductivity for zero electrical resistance, minimal heat dissipation, and ultra-high-speed quantum computing.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q09",
+    "id": "ncert-phy-ch01-q09",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Nature of Physical Laws",
@@ -185,13 +185,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Fundamental laws are hypotheses based on experimental observations and can be continually verified by experimental measurements.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q10",
+    "id": "ncert-phy-ch01-q10",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Fundamental Forces in Nature - Relative Strengths",
@@ -206,13 +206,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Relative strengths: Gravitational F_g (10⁻³⁹) < Weak nuclear F_W (10⁻¹³) < Electromagnetic F_E (10⁻²) < Strong nuclear F_N (1).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q11",
+    "id": "ncert-phy-ch01-q11",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Fundamental Forces - Inverse Square Law",
@@ -227,13 +227,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Both Gravitational force (F = G m₁m₂/r²) and Electrostatic force (F = k q₁q₂/r²) strictly follow the inverse square law.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q12",
+    "id": "ncert-phy-ch01-q12",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Fundamental Forces - Weakest Force",
@@ -248,13 +248,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Gravitational force is the weakest fundamental force in nature, having a relative strength ~ 10⁻³⁹ compared to strong nuclear force.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q13",
+    "id": "ncert-phy-ch01-q13",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Charge Independence of Forces",
@@ -269,13 +269,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Strong nuclear force, weak nuclear force, and gravitational forces do not depend on the sign or presence of electric charge. Hence all statements are correct.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q14",
+    "id": "ncert-phy-ch01-q14",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Nature of Forces (Attractive vs Repulsive)",
@@ -290,13 +290,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Gravity is always attractive; nuclear force binds nucleons attractively; electromagnetic force is attractive between opposite charges and repulsive between like charges.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q15",
+    "id": "ncert-phy-ch01-q15",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Strong Nuclear Force Strength Ratios",
@@ -311,13 +311,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Normalized to strong nuclear force = 1: Electrostatic ~ 10⁻² (100 times weaker), Weak ~ 10⁻¹³ (10¹³ times weaker), Gravitational ~ 10⁻³⁹ (10³⁹ times weaker).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q16",
+    "id": "ncert-phy-ch01-q16",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Conservative Nature of Forces",
@@ -332,13 +332,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Gravitational and electrostatic forces are central and conservative. Nuclear forces possess velocity and spin dependence, making them non-conservative and non-central.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q17",
+    "id": "ncert-phy-ch01-q17",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Central vs Non-Central Forces",
@@ -353,13 +353,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Gravity and electrostatics act along the line connecting the centers of masses/charges (central forces). Nuclear forces are non-central.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q18",
+    "id": "ncert-phy-ch01-q18",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Medium Dependence of Forces",
@@ -374,13 +374,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Gravity is medium-independent; electrostatic force is reduced in dielectric media by 1/ε_r; nuclear forces fall off exponentially (Yukawa potential) without inverse square dependence.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q19",
+    "id": "ncert-phy-ch01-q19",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Conservation Laws in Classical Physics",
@@ -395,13 +395,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Conservation laws are fundamental physical principles linked to space-time symmetries that are validated experimentally.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q20",
+    "id": "ncert-phy-ch01-q20",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Relativistic Energy and Mass",
@@ -416,13 +416,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Total relativistic energy E = m c² = m₀ c² + K ⟹ Kinetic Energy K = (m - m₀) c².",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q21",
+    "id": "ncert-phy-ch01-q21",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Range of Fundamental Forces",
@@ -437,13 +437,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Weak nuclear force has range ~ 10⁻¹⁶ m to 10⁻¹⁸ m, which is shorter than strong nuclear force (~ 10⁻¹⁵ m).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q22",
+    "id": "ncert-phy-ch01-q22",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Symmetry and Conservation Laws",
@@ -458,13 +458,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "By Noether's Theorem, spatial translation invariance gives Conservation of Linear Momentum; rotational invariance gives Angular Momentum; time translation gives Energy Conservation.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q23",
+    "id": "ncert-phy-ch01-q23",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Basic Conservation Laws",
@@ -479,13 +479,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Mass can be converted into energy (E = Δm c²), so conservation of mass alone is not universally valid; only total mass-energy is conserved.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q24",
+    "id": "ncert-phy-ch01-q24",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Neutrino Hypothesis by Pauli",
@@ -500,13 +500,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Pauli postulated the neutral, spin-1/2 neutrino to account for the continuous energy spectrum and conserve total energy and angular momentum in β-decay.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q25",
+    "id": "ncert-phy-ch01-q25",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Exchange Particles for Weak Interactions",
@@ -521,13 +521,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Weak nuclear interactions are mediated by the massive W⁺, W⁻, and Z⁰ intermediate vector bosons.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q26",
+    "id": "ncert-phy-ch01-q26",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Maxwell's Unification",
@@ -542,13 +542,13 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Maxwell unified electricity and magnetism into electromagnetism and showed light is an electromagnetic wave, thereby unifying Electromagnetism with Optics.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch01-q27",
+    "id": "ncert-phy-ch01-q27",
     "subject": "Physics",
     "chapter": "Physical World",
     "topic": "Derived vs Fundamental Forces",
@@ -563,7 +563,7 @@ export const AAKASH_PHYSICAL_WORLD_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Nuclear force between nucleons is a fundamental strong interaction, whereas tension, Van der Waals forces, and drag are electromagnetic contact forces at atomic level.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Physical World",
       "Class 11"
     ]

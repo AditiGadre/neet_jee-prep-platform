@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
+export const NCERT_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch07-ex01",
+    "id": "ncert-phy-ch07-ex01",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Center of Mass of Symmetrical Plate",
@@ -17,13 +17,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Adding equal masses symmetrically at corners b and c adds excess mass on side bc, shifting the center of mass horizontally towards the right along the line OY.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex02",
+    "id": "ncert-phy-ch07-ex02",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Center of Mass of Diatomic Molecule",
@@ -38,13 +38,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "r_C = (m_O * d) / (m_C + m_O) = (16 * 1.2) / (12 + 16) = 19.2 / 28 \u2248 0.69 \u00c5.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex03",
+    "id": "ncert-phy-ch07-ex03",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Acceleration of Center of Mass",
@@ -59,13 +59,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "a_cm = (m1 a1 + m2 a2) / (m1 + m2) = (m * 0 + m * f) / (2m) = f / 2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex04",
+    "id": "ncert-phy-ch07-ex04",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Center of Mass Velocity from Impulse",
@@ -80,13 +80,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v_cm = (m1 v1 + m2 v2) / (m1 + m2) = (5 * 7 + 2 * 0) / (5 + 2) = 35 / 7 = 5 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex05",
+    "id": "ncert-phy-ch07-ex05",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Center of Mass of Exploding Projectile",
@@ -101,13 +101,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Since the explosion involves only internal forces, the net external horizontal force is zero (F_ext,x = 0). Thus, the center of mass continues its original purely vertical motion without shifting horizontally.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex06",
+    "id": "ncert-phy-ch07-ex06",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Explosion of Stationary Body",
@@ -122,13 +122,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "By conservation of linear momentum: m1 v1 + m2 v2 = 0 => v1 / v2 = -m2 / m1. Since m1 \u2260 m2, they move in opposite directions with unequal speeds.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex07",
+    "id": "ncert-phy-ch07-ex07",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Center of Mass Coordinate Balancing",
@@ -143,13 +143,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "x_cm = (m * a + M * (-3a)) / (m + M) = 0 => ma - 3Ma = 0 => 3M = m => M = m/3.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex08",
+    "id": "ncert-phy-ch07-ex08",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Center of Mass of Three-Rod System",
@@ -164,13 +164,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Rod 1 (vertical): CM at (0, L/2).\nRod 2 (bottom): CM at (L/2, 0).\nRod 3 (top): CM at (L/2, L).\nx_cm = (0 + L/2 + L/2)/3 = L/3.\ny_cm = (L/2 + 0 + L)/3 = (3L/2)/3 = L/2.\nCM = (L/3, L/2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex09",
+    "id": "ncert-phy-ch07-ex09",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Acceleration of CM under Gravity",
@@ -185,13 +185,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Both particles experience only the downward gravitational acceleration g.\na_cm = (m*g + 2m*g)/(m + 2m) = (3m g) / (3m) = g vertically downward.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex10",
+    "id": "ncert-phy-ch07-ex10",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Trolley-Child System Velocity",
@@ -206,13 +206,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Since the track is frictionless and no external horizontal force acts on the (trolley + child) system, the velocity of the center of mass remains constant at v.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex11",
+    "id": "ncert-phy-ch07-ex11",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Cross Product of Vectors",
@@ -227,13 +227,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "By vector anti-commutativity, (N \u00d7 M) = -(M \u00d7 N). Two vectors that are exact negatives of each other point in opposite directions, making the angle between them 180\u00b0.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex12",
+    "id": "ncert-phy-ch07-ex12",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Direction of Cross Product",
@@ -248,13 +248,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Using right-hand rule: pointing index finger North and middle finger Upwards causes thumb to point directly West.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex13",
+    "id": "ncert-phy-ch07-ex13",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Zero Vector Sum Cross Product",
@@ -269,13 +269,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "A = -(B + C) => A \u00d7 B = -(B + C) \u00d7 B = -(B \u00d7 B) - (C \u00d7 B) = 0 + (B \u00d7 C) = B \u00d7 C.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex14",
+    "id": "ncert-phy-ch07-ex14",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Magnitude of Cross Product",
@@ -290,13 +290,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "A \u00d7 B = i(-6 - 4) - j(4 - 16) + k(2 - (-12)) = -10i + 12j + 14k.\n|A \u00d7 B| = \u221a((-10)^2 + 12^2 + 14^2) = \u221a(100 + 144 + 196) = \u221a440 = 2\u221a110.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex15",
+    "id": "ncert-phy-ch07-ex15",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Rotational Kinematics Equations",
@@ -311,13 +311,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "\u03c9_0 = 0, \u03c9 = 100 rev/s = 200\u03c0 rad/s, t = 4 s.\n\u03b1 = (\u03c9 - \u03c9_0)/t = 200\u03c0 / 4 = 50\u03c0 rad/s^2.\n\u03b8 = \u03c9_0 t + (1/2) \u03b1 t^2 = 0 + (1/2)(50\u03c0)(16) = 400\u03c0 rad.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex16",
+    "id": "ncert-phy-ch07-ex16",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Uniform Angular Acceleration",
@@ -332,13 +332,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "\u03b8 = (1/2) \u03b1 t^2 => 100\u03c0 = (1/2) \u03b1 (25) => \u03b1 = 8\u03c0 rad/s^2.\n\u03c9 = \u03b1 t = (8\u03c0)(5) = 40\u03c0 rad/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex17",
+    "id": "ncert-phy-ch07-ex17",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Three-Stage Rotational Motion",
@@ -353,13 +353,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Stage 1: \u03b81 = (1/2)(2)(20^2) = 400 rad; \u03c9_max = 2 * 20 = 40 rad/s.\nStage 2: \u03b82 = \u03c9_max * 10 = 40 * 10 = 400 rad.\nStage 3: \u03b83 = (40 / 2) * 20 = 400 rad.\nTotal \u03b8 = 400 + 400 + 400 = 1200 rad.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex18",
+    "id": "ncert-phy-ch07-ex18",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Third Rotational Equation",
@@ -374,13 +374,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "\u03c9^2 - \u03c9_0^2 = 2 \u03b1 \u03b8 => (20)^2 - (10)^2 = 2(3) \u03b8 => 400 - 100 = 6\u03b8 => \u03b8 = 300 / 6 = 50 rad.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex19",
+    "id": "ncert-phy-ch07-ex19",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Torque Vector Calculation",
@@ -395,13 +395,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "\u03c4 = r \u00d7 F = | i j k ; 1 -2 1 ; -2 2 3 | = i(-6 - 2) - j(3 - (-2)) + k(2 - 4) = -8i - 5j - 2k Nm.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex20",
+    "id": "ncert-phy-ch07-ex20",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Moment of Force about a Given Point",
@@ -416,13 +416,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Position vector of application relative to pivot r = (3 - 0)i + (0 - 2)j + (0 - 0)k = (3i - 2j) m.\nForce F = 20i N.\n\u03c4 = r \u00d7 F = (3i - 2j) \u00d7 (20i) = -2(20)(j \u00d7 i) = +40k Nm => Magnitude = 40 Nm.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex21",
+    "id": "ncert-phy-ch07-ex21",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Flywheel Deceleration Torque",
@@ -437,13 +437,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "\u03b1 = (\u03c9_0 - 0)/t = 30 / 15 = 2 rad/s^2.\nTorque \u03c4 = I \u03b1 = 2 * 2 = 4 Nm.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex22",
+    "id": "ncert-phy-ch07-ex22",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Stopping Time under Constant Torque",
@@ -458,13 +458,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "T = I \u03b1 = I (\u03c9 / t) => t = I \u03c9 / T.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex23",
+    "id": "ncert-phy-ch07-ex23",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Angular Momentum of Particle Moving Parallel to Axis",
@@ -479,13 +479,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Position vector r = xi + bj, velocity v = vi.\nL = r \u00d7 p = (xi + bj) \u00d7 (mvi) = m b v (j \u00d7 i) = -mv b k.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex24",
+    "id": "ncert-phy-ch07-ex24",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Angular Momentum Along Line of Motion",
@@ -500,13 +500,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "For any point on the line of motion, the perpendicular distance r_perp = 0. Therefore, L = r_perp * p = 0 at all times.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex25",
+    "id": "ncert-phy-ch07-ex25",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Rolling Speed on Inclined Plane",
@@ -521,13 +521,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "v = \u221a(2gh / (1 + K^2/R^2)). For any uniform disc, K^2/R^2 = 1/2 regardless of mass M and radius R. Thus, both reach the bottom with the identical velocity v = \u221a(4gh/3), making the ratio 1 : 1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex26",
+    "id": "ncert-phy-ch07-ex26",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Rotational Kinetic Energy Fraction in Pure Rolling",
@@ -542,13 +542,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Fraction in rotational form = (K^2/R^2) / (1 + K^2/R^2).\nFor Ring: K^2/R^2 = 1 => Fraction = 1/(1+1) = 50% (highest).\nFor Hollow Sphere: 40%.\nFor Disc: 33.3%.\nFor Solid Sphere: 28.6%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex27",
+    "id": "ncert-phy-ch07-ex27",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Solid Cylinder Pure Rolling on Incline",
@@ -563,13 +563,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Linear velocity at bottom v = \u221a(2gh / (1 + 1/2)) = \u221a(4gh/3) = 2\u221a(gh/3).\nAngular velocity \u03c9 = v / R = (2/R) \u221a(gh/3).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex28",
+    "id": "ncert-phy-ch07-ex28",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Conservation of Angular Momentum of Earth",
@@ -584,13 +584,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Since no external torque acts, angular momentum L = I \u03c9 is conserved.\nI = (2/5) M R^2 => I' = n^2 I.\nI \u03c9 = I' \u03c9' => \u03c9' = \u03c9 / n^2 => T' = n^2 T = 24 n^2 hours.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex29",
+    "id": "ncert-phy-ch07-ex29",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Melting of Polar Ice Caps Effect",
@@ -605,13 +605,13 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "When polar ice melts and water redistributes towards the equator, the mass shifts farther from the rotational axis, increasing the Earth's moment of inertia (I increases). Since angular momentum L = I \u03c9 is conserved, the angular velocity \u03c9 must decrease (and the length of the day increases).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch07-ex30",
+    "id": "ncert-phy-ch07-ex30",
     "subject": "Physics",
     "chapter": "Systems of Particles and Rotational Motion",
     "topic": "Moment of Inertia of Hollow Cylinder",
@@ -626,7 +626,7 @@ export const AAKASH_ROTATIONAL_MOTION_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "All mass of the hollow cylinder is at a uniform perpendicular distance R from the central axis. Hence I = MR^2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Systems of Particles and Rotational Motion",
       "Class 11"
     ]

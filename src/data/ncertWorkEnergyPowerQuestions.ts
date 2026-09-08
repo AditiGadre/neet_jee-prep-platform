@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
+export const NCERT_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch06-ex01",
+    "id": "ncert-phy-ch06-ex01",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
@@ -17,13 +17,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Displacement vector d = r_Q - r_P = (2 - 1)i + (1 - 2)j + (4 - 3)k = (i - j + k) m.\nWork done W = F . d = (2)(1) + (1)(-1) + (1)(1) = 2 - 1 + 1 = 2 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex02",
+    "id": "ncert-phy-ch06-ex02",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Scalar (Dot) Product of Vectors",
@@ -38,13 +38,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Two vectors are perpendicular if their dot product equals zero.\nFor option (4): A . B = (2)(1) + (3)(2) + (4)(-2) = 2 + 6 - 8 = 0.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex03",
+    "id": "ncert-phy-ch06-ex03",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done against Opposing Force",
@@ -59,13 +59,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Net force is in the direction of F1 (since 20 N > 5 N), so displacement d = 5 m is opposite to F2.\nWork done by F2 = F2 . d = F2 * d * cos(180\u00b0) = 5 * 5 * (-1) = -25 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex04",
+    "id": "ncert-phy-ch06-ex04",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done from Force-Displacement Graph",
@@ -80,13 +80,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Work done is area under F-x graph.\nPositive area (0 to 3 m) = (1/2) * 3 * 10 = +15 J.\nNegative area (3 to 5 m) = (1/2) * 2 * (-10) = -10 J.\nTotal Work = 15 - 10 = 5 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex05",
+    "id": "ncert-phy-ch06-ex05",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done in Accelerated Frame",
@@ -101,13 +101,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Effective normal reaction N = m(g + a) = 50 * (10 + 10/3) = 50 * (40/3) = 2000/3 N.\nWork done by normal reaction W = N * d = (2000/3) * 12 = 8000 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex06",
+    "id": "ncert-phy-ch06-ex06",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
@@ -122,13 +122,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "W = \u222b[0 to 3] (5x^2 - 2x) dx = [5x^3/3 - x^2] from 0 to 3 = 5(27)/3 - (3)^2 = 45 - 9 = 36 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex07",
+    "id": "ncert-phy-ch06-ex07",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Conditions for Maximum & Minimum Work",
@@ -143,13 +143,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "W = F d cos \u03b8. For maximum work, cos \u03b8 = +1 => \u03b8 = 0\u00b0. For minimum (most negative) work, cos \u03b8 = -1 => \u03b8 = 180\u00b0.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex08",
+    "id": "ncert-phy-ch06-ex08",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Constrained Motion Work",
@@ -164,13 +164,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Displacement vector d = 4k m.\nWork done W = F . d = (-i + 2j + 3k) . (4k) = 3 * 4 = 12 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex09",
+    "id": "ncert-phy-ch06-ex09",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done in Pumping Water",
@@ -185,13 +185,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Volume V = 1 m^3 => Mass of water M = 1000 kg.\nThe center of mass of the water is at h/2 = 0.5 m below the top rim.\nMinimum work done = M g (h/2) = 1000 * 10 * 0.5 = 5000 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex10",
+    "id": "ncert-phy-ch06-ex10",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done with Variable Mass Rope",
@@ -206,13 +206,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Work to lift bucket = Mgh.\nCenter of mass of uniform rope is raised by h/2, so work to lift rope = m g (h/2).\nTotal work = (M + m/2)gh.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex11",
+    "id": "ncert-phy-ch06-ex11",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Potential Energy of Springs",
@@ -227,13 +227,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "U = (1/2) K x^2. Since elongation x is identical, U1 / U2 = K1 / K2 = 5 / 4.\nU2 = U1 * (4/5) = 25 * (4/5) = 20 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex12",
+    "id": "ncert-phy-ch06-ex12",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Spring Elongation under Equal Force",
@@ -248,13 +248,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "F = K1 x1 = K2 x2 => x2 = (K1 / K2) x1 = (3/4) x.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex13",
+    "id": "ncert-phy-ch06-ex13",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work-Energy Principle on Incline",
@@ -269,13 +269,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Vertical height descended h = x sin \u03b8 => Gain in KE at bottom = mgh = mgx sin \u03b8.\nWork done against friction on horizontal track = \u03bc N d = \u03bc mg d.\nEquating energy: mgx sin \u03b8 = \u03bc mg d => \u03bc = (x sin \u03b8) / d.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex14",
+    "id": "ncert-phy-ch06-ex14",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work-Energy Theorem & Kinematics",
@@ -290,13 +290,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "v(t) = dx/dt = 4t.\nAt t = 0: v_i = 0.\nAt t = 3 s: v_f = 4(3) = 12 m/s.\nBy Work-Energy Theorem: W = \u0394KE = (1/2) m (v_f^2 - v_i^2) = (1/2)(3)(144 - 0) = 216 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex15",
+    "id": "ncert-phy-ch06-ex15",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Instantaneous Power Calculation",
@@ -311,13 +311,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Power P = F . v = (2)(1) + (1)(2) + (1)(1) = 2 + 2 + 1 = 5 W.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex16",
+    "id": "ncert-phy-ch06-ex16",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Potential Energy & Equilibrium",
@@ -332,13 +332,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "At equilibrium, F = -dU/dx = 0 => -(2x - 5) = 0 => 2x = 5 => x = 2.5 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex17",
+    "id": "ncert-phy-ch06-ex17",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Power on Inclined Plane",
@@ -353,13 +353,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Since velocity is constant, applied force F = mg sin 30\u00b0 = 4 * 10 * 0.5 = 20 N.\nPower delivered P = F * v = 20 * 3 = 60 W.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex18",
+    "id": "ncert-phy-ch06-ex18",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Vertical Circular Motion Pacing",
@@ -374,13 +374,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "By conservation of mechanical energy between lowest point (L) and highest point (H):\n(1/2) m v_L^2 = (1/2) m v_H^2 + mg(2l) => v_L^2 = v^2 + 4gl => v_L = \u221a(v^2 + 4gl).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex19",
+    "id": "ncert-phy-ch06-ex19",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Hydroelectric Turbine Power",
@@ -395,13 +395,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Power P = (dm/dt) * g * h = 100 * 10 * 100 = 100,000 W = 100 kW.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex20",
+    "id": "ncert-phy-ch06-ex20",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Constant Power Kinematics",
@@ -416,13 +416,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "P = F v = m v (dv/dt) => v dv = (P/m) dt => v^2 = (2P/m) t => v \u221d t^(1/2).\nDistance s = \u222b v dt \u221d \u222b t^(1/2) dt \u221d t^(3/2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex21",
+    "id": "ncert-phy-ch06-ex21",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Elastic Collision Maximum Energy Transfer",
@@ -437,13 +437,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Fractional energy transferred = 4 m1 m2 / (m1 + m2)^2. This value reaches its maximum of 1 (100% transfer) when m1 = m2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex22",
+    "id": "ncert-phy-ch06-ex22",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Elastic Collision Impulse",
@@ -458,13 +458,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "For identical masses in 1D elastic collision, velocities interchange after collision.\nBall 1 initial velocity u1 = +2 m/s, final velocity v1 = -3 m/s.\nImpulse J = |m (v1 - u1)| = 4 * |-3 - 2| = 4 * 5 = 20 Ns.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex23",
+    "id": "ncert-phy-ch06-ex23",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "1D Elastic Collision Velocity Ratio",
@@ -479,13 +479,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "For 1D elastic collision with target at rest: v1 = ((m1 - m2)/(m1 + m2)) * u1.\nGiven v1 = u1 / 4 => (4 - m) / (4 + m) = 1/4 => 16 - 4m = 4 + m => 5m = 12 => m = 2.4 kg.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex24",
+    "id": "ncert-phy-ch06-ex24",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Collision with Massive Body",
@@ -500,13 +500,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "When M >> m and u2 = 0, the rebound velocity of the lighter object is v2 = 2u1 - u2 = 2(15) - 0 = 30 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex25",
+    "id": "ncert-phy-ch06-ex25",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "2D Oblique Elastic Collision",
@@ -521,13 +521,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "For two identical masses undergoing an elastic oblique collision with one initially stationary, the final velocities are always mutually perpendicular (\u03b81 + \u03b82 = 90\u00b0 = \u03c0/2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex26",
+    "id": "ncert-phy-ch06-ex26",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Rebound Velocity from Moving Floor",
@@ -542,13 +542,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Velocity of approach = v_ball + v_lift = 10 + 1 = 11 m/s.\nFor elastic collision (e = 1), velocity of separation = 11 m/s.\nRebound velocity relative to ground = v_sep + v_lift = 11 + 1 = 12 m/s upward.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex27",
+    "id": "ncert-phy-ch06-ex27",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Spring Compression Energy Conservation",
@@ -563,13 +563,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "m = 10 g = 0.01 kg, v = 20 m/s, k = 100 N/m.\n(1/2) k x^2 = (1/2) m v^2 => 100 x^2 = 0.01 * (20)^2 = 4 => x^2 = 0.04 => x = 0.2 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex28",
+    "id": "ncert-phy-ch06-ex28",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Head-on Elastic Collision of Dissimilar Masses",
@@ -584,13 +584,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Since m_A (10 kg) >> m_B (0.01 kg), ball A continues with speed ~5 m/s.\nv_B' = 2 v_A - v_B = 2(5) - (-1) = 10 + 1 = 11 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex29",
+    "id": "ncert-phy-ch06-ex29",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Multiple Elastic Ball Collisions",
@@ -605,13 +605,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Ball 3 collides elastically with ball 2, transferring its entire momentum to 2 and coming to rest. Ball 2 instantly collides elastically with ball 1, transferring its momentum to 1 and coming to rest. Thus, balls 3 and 2 remain at rest and ball 1 moves with speed u.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex30",
+    "id": "ncert-phy-ch06-ex30",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Inelastic Rebound Height",
@@ -626,13 +626,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Remaining kinetic energy after rebound E' = E - 0.60 E = 0.40 E = (2/5) E.\nSince height h' is directly proportional to energy, h' = (2/5) h.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex31",
+    "id": "ncert-phy-ch06-ex31",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Stopping Time with Constant Power",
@@ -647,13 +647,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Braking energy P * t = (1/2) m v^2 => v = \u221a(2Pt/m) => v \u221d \u221at.\nTherefore, v1 / v2 = \u221a(t1 / t2).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex32",
+    "id": "ncert-phy-ch06-ex32",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Repeated Bouncing Impulse",
@@ -668,13 +668,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Speed before 2nd collision = e u (downward).\nSpeed after 2nd collision = e(e u) = e^2 u (upward).\nImpulse J2 = m(v_after - v_before) = m(e^2 u - (-e u)) = meu(e + 1).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex33",
+    "id": "ncert-phy-ch06-ex33",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "1D Inelastic Collision",
@@ -689,13 +689,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "By conservation of linear momentum: m(25) - m(20) = (2m) V_f => 5m = 2m V_f => V_f = 2.5 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex34",
+    "id": "ncert-phy-ch06-ex34",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Kinetic Energy Loss in Inelastic Collision",
@@ -710,13 +710,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "\u0394K = (1/2) * (m1 m2 / (m1 + m2)) * u1^2 = (1/2) * (5 * 15 / 20) * (8)^2 = (1/2) * 3.75 * 64 = 120 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex35",
+    "id": "ncert-phy-ch06-ex35",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Fraction of Energy Lost in Bounce",
@@ -731,13 +731,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Fractional energy loss = (mgh - mg(3h/4)) / (mgh) = 1 - 3/4 = 1/4.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex36",
+    "id": "ncert-phy-ch06-ex36",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "2D Inelastic Collision Speed",
@@ -752,13 +752,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Initial momentum vector p = mvi + mvj => |p| = \u221a2 mv.\nSince the collision is perfectly inelastic, total mass = 2m.\nFinal velocity V = |p| / (2m) = (\u221a2 mv) / (2m) = v / \u221a2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex37",
+    "id": "ncert-phy-ch06-ex37",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Coefficient of Restitution Calculation",
@@ -773,13 +773,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Rebound height h' = e^2 h => h/2 = e^2 h => e^2 = 1/2 => e = 1 / \u221a2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex38",
+    "id": "ncert-phy-ch06-ex38",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Work Done in Pulling Hanging Chain",
@@ -794,13 +794,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Hanging length l' = 4/4 = 1 m. Hanging mass m' = 2/4 = 0.5 kg.\nThe center of mass of the hanging part is at a depth of l'/2 = 0.5 m below table edge.\nWork done W = m' g (l'/2) = 0.5 * 10 * 0.5 = 2.5 J.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex39",
+    "id": "ncert-phy-ch06-ex39",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Kinetic Energy Percentage Change",
@@ -815,13 +815,13 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "KE = p^2 / 2m. If p' = 0.5 p, then KE' = (0.5)^2 KE = 0.25 KE.\nPercentage decrease = ((KE - 0.25 KE)/KE) * 100% = 75%.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch06-ex40",
+    "id": "ncert-phy-ch06-ex40",
     "subject": "Physics",
     "chapter": "Work, Energy and Power",
     "topic": "Conservative Force from Potential Field",
@@ -836,7 +836,7 @@ export const AAKASH_WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Conservative force F = -dU/dx = -d(x^2)/dx = -2x.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Work, Energy and Power",
       "Class 11"
     ]

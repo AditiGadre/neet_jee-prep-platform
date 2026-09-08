@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
-export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
+export const NCERT_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
   {
-    "id": "aakash-phy-ch03-ex01",
+    "id": "ncert-phy-ch03-ex01",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Circular Path Distance and Displacement",
@@ -17,13 +17,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "In one complete revolution, total path length = circumference = 2πR, and final position coincides with initial position so displacement = 0.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex02",
+    "id": "ncert-phy-ch03-ex02",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "1D Path Distance and Displacement",
@@ -38,13 +38,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Distance = |0 to 10| + |10 to -10| = 10 + 20 = 30 m.\nDisplacement = x_final - x_initial = -10 m - 0 = -10 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex03",
+    "id": "ncert-phy-ch03-ex03",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Zero Quantity in Closed Path",
@@ -59,13 +59,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Since initial and final positions are identical, net displacement is strictly zero.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex04",
+    "id": "ncert-phy-ch03-ex04",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Average Speed for Fractional Distances",
@@ -80,13 +80,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Total time t = (S/3)/20 + (2S/3)/60 = S/60 + S/90 = 5S / 180 = S / 36.\nAverage speed = Total Distance / Total Time = S / (S/36) = 36 km/h.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex05",
+    "id": "ncert-phy-ch03-ex05",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Average Velocity for Equal Distance Halves",
@@ -101,13 +101,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v_avg = 2 v₁ v₂ / (v₁ + v₂) = 2(40)(60) / (40 + 60) = 4800 / 100 = 48 km/h.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex06",
+    "id": "ncert-phy-ch03-ex06",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Negative Instantaneous Velocity on Graph",
@@ -122,13 +122,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Instantaneous velocity equals the tangent slope (dx/dt) of the x-t graph. At point C, the curve slopes downwards, meaning dx/dt < 0 (negative velocity).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex07",
+    "id": "ncert-phy-ch03-ex07",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Slope Ratio of Position-Time Graphs",
@@ -143,13 +143,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Velocity = tan θ. v_A = tan 30° = 1/√3; v_B = tan 60° = √3.\nv_A / v_B = (1/√3) / √3 = 1 / 3 (1 : 3).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex08",
+    "id": "ncert-phy-ch03-ex08",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Distance from Velocity-Time Graph Area",
@@ -164,13 +164,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Distance = Area of trapezium = (1/2) × (Sum of parallel sides) × Height = (1/2) × (5 + 1) × 20 = (1/2) × 6 × 20 = 60 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex09",
+    "id": "ncert-phy-ch03-ex09",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Displacement from v-t Graph with Negative Loop",
@@ -185,13 +185,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Displacement = Area₁ - Area₂ + Area₃ = (1/2)(2)(2) - (1/2)(1)(2) + (2)(1) = 2 - 1 + 2 = 3 m ≈ 2.0 m net.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex10",
+    "id": "ncert-phy-ch03-ex10",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Inclination of Position-Time Graph",
@@ -206,13 +206,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "v_A = tan 30° = 1/√3. v_B = 3 v_A = 3 × (1/√3) = √3 = tan 60° ⟹ θ_B = 60°.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex11",
+    "id": "ncert-phy-ch03-ex11",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Maxima and Minima of Cubic Function",
@@ -227,13 +227,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "dy/dx = 3x² - 6x = 3x(x - 2) = 0 ⟹ x = 0, x = 2.\nd²y/dx² = 6x - 6. At x = 0, d²y/dx² = -6 < 0 (Maxima): y_max = 0 - 0 + 6 = 6.\nAt x = 2, d²y/dx² = +6 > 0 (Minima): y_min = 2³ - 3(2)² + 6 = 8 - 12 + 6 = 2.\nHence, Maximum = 6 and Minimum = 2.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex12",
+    "id": "ncert-phy-ch03-ex12",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Minimum Value of Trigonometric Function",
@@ -248,13 +248,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "sin θ + √3 cos θ can be written as 2 [1/2 sin θ + √3/2 cos θ] = 2 sin(θ + 60°).\nMaximum value of denominator = 2 × 1 = 2.\nMinimum value of y = 2 / (Denominator_max) = 2 / 2 = 1.\nHence, y_min = 1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex13",
+    "id": "ncert-phy-ch03-ex13",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Rate of Increase of Disc Area",
@@ -269,13 +269,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "dA/dt = d/dt (5t² + 4t + 8) = 10t + 4.\nAt t = 3 s: dA/dt = 10(3) + 4 = 34 m²/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex14",
+    "id": "ncert-phy-ch03-ex14",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Derivative of Cosine Function",
@@ -290,13 +290,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "dy/dt = -sin(5 - 3t) × d/dt(5 - 3t) = -sin(5 - 3t) × (-3) = 3 sin(5 - 3t).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex15",
+    "id": "ncert-phy-ch03-ex15",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Integration of Linear Rational Function",
@@ -311,13 +311,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Using standard integral ∫ dx / (ax + b) = (1/a) ln|ax + b| + c, for a = 3: (1/3) ln(3x + 5) + c.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex16",
+    "id": "ncert-phy-ch03-ex16",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Maximum Velocity from Acceleration-Time Graph",
@@ -332,13 +332,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Change in velocity Δv = Area under a-t graph.\nSince u = 0, v_max = Area of triangle = (1/2) × base × height = (1/2) × 12 × 10 = 60 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex17",
+    "id": "ncert-phy-ch03-ex17",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Displacement-Time Graph Interpretation",
@@ -353,13 +353,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Since the x-t graph of B is curved (parabolic), its velocity is changing with time; it is NOT moving with constant velocity. Statement (1) is incorrect.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex18",
+    "id": "ncert-phy-ch03-ex18",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Uniform Retardation Stopping Distance",
@@ -374,13 +374,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "v² - u² = 2as. (u/2)² - u² = 2a(3) ⟹ -3u²/4 = 6a ⟹ a = -u²/8.\nFor coming to rest from u/2: 0² - (u/2)² = 2a s' ⟹ -u²/4 = 2(-u²/8) s' = (-u²/4) s' ⟹ s' = 1 km.\nHence, it travels an additional 1 km before coming to rest.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex19",
+    "id": "ncert-phy-ch03-ex19",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Vertical Projection from Tower Ground Speed",
@@ -395,13 +395,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Using v = u + at taking upward as positive: v = -3u, u_initial = +u, a = -g.\n-3u = +u - gt ⟹ gt = 4u ⟹ t = 4u / g.\nHence, total time taken is 4u / g.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex20",
+    "id": "ncert-phy-ch03-ex20",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Velocity from Quadratic Displacement",
@@ -416,13 +416,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Velocity v = ds/dt = d/dt [(1/2) g t²] = (1/2) g (2t) = g t.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex21",
+    "id": "ncert-phy-ch03-ex21",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Tower Height Calculation",
@@ -437,13 +437,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Taking upward as positive: initial velocity u = +100 m/s, a = -10 m/s², t = 25 s.\nDisplacement s = ut + (1/2)at² = 100(25) - (1/2)(10)(25)² = 2500 - 5(625) = 2500 - 3125 = -625 m.\nHeight of the tower = |s| = 625 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex22",
+    "id": "ncert-phy-ch03-ex22",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Galileo's Odd Number Ratio",
@@ -458,13 +458,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Distance in nth second: s_n = u + (g/2)(2n - 1) = (g/2)(2n - 1) for u = 0.\nFor n = 1, 2, 3, 4: s₁ : s₂ : s₃ : s₄ = 1 : 3 : 5 : 7 (Galileo's Law of Odd Numbers).",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex23",
+    "id": "ncert-phy-ch03-ex23",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Time for Half Velocity",
@@ -479,13 +479,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "H_max = u² / (2g) ⟹ 45 = u² / 20 ⟹ u² = 900 ⟹ u = 30 m/s.\nFor v = u / 2 = 15 m/s: v = u - gt ⟹ 15 = 30 - 10t ⟹ 10t = 15 ⟹ t = 1.5 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex24",
+    "id": "ncert-phy-ch03-ex24",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Deceleration of Car",
@@ -500,13 +500,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "u = 80 × 5/18 = 22.22 m/s; v = 44 × 5/18 = 12.22 m/s.\nRetardation a = (u - v) / t = (22.22 - 12.22) / 15 = 10 / 15 = 0.67 m/s².",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-ex25",
+    "id": "ncert-phy-ch03-ex25",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "Driver Reaction Time",
@@ -521,13 +521,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "Speed u = 72 km/h = 72 × (5/18) = 20 m/s.\nDuring reaction time t_r, car moves at constant speed: d = u × t_r ⟹ 5 = 20 × t_r ⟹ t_r = 5/20 = 0.25 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-01",
+    "id": "ncert-phy-ch03-secA-01",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Average Speed for Two Halves",
@@ -542,13 +542,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "explanation": "v_avg = 2(3)(6) / (3 + 6) = 36 / 9 = 4 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-02",
+    "id": "ncert-phy-ch03-secA-02",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Round Trip Average Velocity",
@@ -563,13 +563,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "Since net displacement for the round trip is zero, average velocity = 0.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-04",
+    "id": "ncert-phy-ch03-secA-04",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Circular Track Displacement",
@@ -584,13 +584,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "In 70 s, number of rounds = 70 / 20 = 3.5 rounds.\nAfter 3.5 rounds, athlete is at the diametrically opposite point ⟹ Displacement = 2R.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-05",
+    "id": "ncert-phy-ch03-secA-05",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Displacement to Distance Ratio",
@@ -605,13 +605,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "Displacement is the straight-line shortest path between two points, so |Displacement| ≤ Distance ⟹ |Displacement| / Distance ≤ 1.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-06",
+    "id": "ncert-phy-ch03-secA-06",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Average Speed Equal Time Intervals",
@@ -626,13 +626,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "For equal time intervals: v_avg = (v₁ + v₂ + v₃) / 3 = (6 + 8 + 10) / 3 = 24 / 3 = 8 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-07",
+    "id": "ncert-phy-ch03-secA-07",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Velocity from Polynomial x(t)",
@@ -647,13 +647,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "v = dx/dt = 4t + 2. At t = 1 s: v = 4(1) + 2 = 6 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-08",
+    "id": "ncert-phy-ch03-secA-08",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Maximum Position from Velocity Zero",
@@ -668,13 +668,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "At maximum position, v_y = dy/dt = 0 ⟹ 3 - 2t = 0 ⟹ t = 1.5 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-09",
+    "id": "ncert-phy-ch03-secA-09",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Velocity from a-t Graph",
@@ -689,13 +689,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 1,
     "explanation": "v(8) = v(0) + Area(a-t) = 10 - 6 = 4 m/s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-10",
+    "id": "ncert-phy-ch03-secA-10",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Free Fall First Quarter Height Time",
@@ -710,13 +710,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "h = (1/2) g t² ⟹ t = √(2h/g). For h/4: t₁ = √[2(h/4)/g] = (1/2) √(2h/g) = (1/2)(8 s) = 4 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-11",
+    "id": "ncert-phy-ch03-secA-11",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Definite Integral of Quadratic",
@@ -731,13 +731,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "x = [t³ / 3]₀³ = (27 - 0) / 3 = 9.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-14",
+    "id": "ncert-phy-ch03-secA-14",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Two Crossing Trains",
@@ -752,13 +752,13 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "explanation": "v_rel = 90 + 90 = 180 km/h = 180 × (5/18) = 50 m/s.\nTotal distance = 300 + 700 = 1000 m.\nTime = 1000 / 50 = 20 s.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
   },
   {
-    "id": "aakash-phy-ch03-secA-15",
+    "id": "ncert-phy-ch03-secA-15",
     "subject": "Physics",
     "chapter": "Motion in a Straight Line",
     "topic": "NCERT MCQs - Stopping Distance vs Speed",
@@ -773,7 +773,7 @@ export const AAKASH_MOTION_STRAIGHT_LINE_QUESTIONS: Question[] = [
     "correctAnswer": 0,
     "explanation": "Stopping distance s = v² / (2a) ∝ v². If speed is halved, stopping distance becomes (1/2)² × 100 = 25 m.",
     "tags": [
-      "Aakash NEET Physics",
+      "NCERT NEET Physics",
       "Motion in a Straight Line",
       "Class 11"
     ]
