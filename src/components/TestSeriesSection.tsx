@@ -46,12 +46,14 @@ interface TestSeriesSectionProps {
   testItems: TestItem[];
   targetYear?: '2026' | '2027' | '2028';
   onStartTest: (test: TestItem) => void;
+  onOpenAdmin?: () => void;
 }
 
 export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   testItems,
   targetYear = '2026',
-  onStartTest
+  onStartTest,
+  onOpenAdmin
 }) => {
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
   const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full'>('all');
@@ -170,14 +172,14 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       syllabus: `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
       totalQuestions: 180,
       durationMinutes: 180,
-      totalMarks: 180,
-      negativeMarking: '+1 for correct, -0.25 for incorrect (Total 180 Marks)',
+      totalMarks: 720,
+      negativeMarking: '+4 for correct, -1 for incorrect, 0 for unattempted (Total 720 Marks)',
       difficulty: 'Mixed',
       cbtMode: true,
       features: [
-        '180 Questions (45 Phys + 45 Chem + 90 Bio)',
+        '180 Questions (45 Phys + 45 Chem + 45 Bot + 45 Zoo)',
         '180 Minutes (3.0 Hours NTA Timer)',
-        '180 Marks (+1 / -0.25 Standard Marking)',
+        '720 Marks (+4 / -1 NTA Official Standard)',
         'All India Rank (AIR) & College Probability Predictor'
       ],
       questions: testQuestions
@@ -188,6 +190,30 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
   const handleSendAccessRequest = () => {
     setAccessRequestSent(true);
+
+    const newRequest = {
+      id: `req-${Date.now()}`,
+      studentName,
+      rollNumber,
+      studentPhone,
+      parentPhone,
+      parentEmail: enrolledStudent?.parentEmail || enrolledStudent?.email || 'parent@example.com',
+      targetExam: 'NEET (UG)',
+      targetBatch: activeBatch === 'repeater' ? 'Dropper / Target 2027' : activeBatch === '12th' ? 'Class 12th Batch' : 'Class 11th Batch',
+      testCode: pendingTestToStart?.code || 'All Sunday Tests',
+      testTitle: pendingTestToStart?.title || 'Sunday All-India Test Series (720 Marks)',
+      requestedAt: new Date().toISOString(),
+      status: 'pending' as const
+    };
+
+    try {
+      const raw = localStorage.getItem('neet_unlock_requests');
+      const list = raw ? JSON.parse(raw) : [];
+      list.unshift(newRequest);
+      localStorage.setItem('neet_unlock_requests', JSON.stringify(list));
+      window.dispatchEvent(new Event('neet_unlock_request_sent'));
+    } catch {}
+
     recordSuperUserNotification({
       contentTitle: `Sunday Test Access Request: Candidate ${studentName} (Roll #${rollNumber}) requested authorization for ${pendingTestToStart?.code || 'All Sunday Tests'}`,
       category: 'Test Paper',
@@ -206,8 +232,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       syllabus: `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
       totalQuestions: 180,
       durationMinutes: 180,
-      totalMarks: 180,
-      negativeMarking: '+1 for correct, -0.25 for incorrect (Total 180 Marks)',
+      totalMarks: 720,
+      negativeMarking: '+4 for correct, -1 for incorrect (Total 720 Marks)',
       difficulty: 'Mixed',
       cbtMode: true,
       questions
@@ -281,10 +307,16 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
           {isAdminAccessGranted ? (
-            <span className="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono shadow-2xs">
+            <button
+              onClick={() => {
+                if (onOpenAdmin) onOpenAdmin();
+              }}
+              className="px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono shadow-2xs transition cursor-pointer"
+              title="Open Admin Portal"
+            >
               <Unlock className="w-3.5 h-3.5 text-emerald-600" />
               <span>Admin Access Granted (Tests Unlocked)</span>
-            </span>
+            </button>
           ) : (
             <button
               onClick={() => setShowAdminApprovalModal(true)}
@@ -412,7 +444,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             <Calendar className="w-4 h-4 text-blue-600" /> Showing {currentDisplayTests.length} Scheduled Sunday Tests
           </h2>
           <span className="text-xs font-mono font-semibold text-slate-500">
-            Official NTA NEET Standard &bull; 180 Marks
+            Official NTA NEET Standard &bull; 720 Marks
           </span>
         </div>
 
@@ -446,7 +478,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </span>
 
                     <span className="text-xs font-mono text-slate-600 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded-lg">
-                      180 Marks &bull; 180 Mins &bull; 180 Qs
+                      720 Marks &bull; 180 Mins &bull; 180 Qs
                     </span>
 
                     {!isAdminAccessGranted && (
@@ -466,85 +498,71 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     </p>
                   </div>
 
-                  {/* 4-Subject Exact Syllabus Breakdown Grid */}
+                  {/* 4-Subject Exact Syllabus Breakdown Grid (180 Marks Each) */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 pt-1.5">
                     <div className="p-2.5 rounded-xl bg-blue-50/70 border border-blue-200 text-xs">
-                      <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center gap-1">
-                        <Zap className="w-3 h-3 text-blue-600" /> Physics (45 Qs)
+                      <div className="text-[10px] font-bold text-blue-800 uppercase flex items-center justify-between">
+                        <span className="flex items-center gap-1"><Zap className="w-3 h-3 text-blue-600" /> Physics</span>
+                        <span className="font-mono text-blue-600">45 Qs &bull; 180M</span>
                       </div>
-                      <div className="text-[11px] font-semibold text-blue-950 mt-0.5 leading-snug">
+                      <div className="text-[11px] font-semibold text-blue-950 mt-1 leading-snug">
                         {mock.physicsUnit}
                       </div>
                     </div>
 
                     <div className="p-2.5 rounded-xl bg-emerald-50/70 border border-emerald-200 text-xs">
-                      <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center gap-1">
-                        <Atom className="w-3 h-3 text-emerald-600" /> Chemistry (45 Qs)
+                      <div className="text-[10px] font-bold text-emerald-800 uppercase flex items-center justify-between">
+                        <span className="flex items-center gap-1"><Atom className="w-3 h-3 text-emerald-600" /> Chemistry</span>
+                        <span className="font-mono text-emerald-600">45 Qs &bull; 180M</span>
                       </div>
-                      <div className="text-[11px] font-semibold text-emerald-950 mt-0.5 leading-snug">
+                      <div className="text-[11px] font-semibold text-emerald-950 mt-1 leading-snug">
                         {mock.chemistryUnit}
                       </div>
                     </div>
 
                     <div className="p-2.5 rounded-xl bg-teal-50/70 border border-teal-200 text-xs">
-                      <div className="text-[10px] font-bold text-teal-800 uppercase flex items-center gap-1">
-                        <BookOpen className="w-3 h-3 text-teal-600" /> Botany (45 Qs)
+                      <div className="text-[10px] font-bold text-teal-800 uppercase flex items-center justify-between">
+                        <span className="flex items-center gap-1"><BookOpen className="w-3 h-3 text-teal-600" /> Botany</span>
+                        <span className="font-mono text-teal-600">45 Qs &bull; 180M</span>
                       </div>
-                      <div className="text-[11px] font-semibold text-teal-950 mt-0.5 leading-snug">
+                      <div className="text-[11px] font-semibold text-teal-950 mt-1 leading-snug">
                         {mock.botanyBlock}
                       </div>
                     </div>
 
                     <div className="p-2.5 rounded-xl bg-purple-50/70 border border-purple-200 text-xs">
-                      <div className="text-[10px] font-bold text-purple-800 uppercase flex items-center gap-1">
-                        <Dna className="w-3 h-3 text-purple-600" /> Zoology (45 Qs)
+                      <div className="text-[10px] font-bold text-purple-800 uppercase flex items-center justify-between">
+                        <span className="flex items-center gap-1"><Dna className="w-3 h-3 text-purple-600" /> Zoology</span>
+                        <span className="font-mono text-purple-600">45 Qs &bull; 180M</span>
                       </div>
-                      <div className="text-[11px] font-semibold text-purple-950 mt-0.5 leading-snug">
+                      <div className="text-[11px] font-semibold text-purple-950 mt-1 leading-snug">
                         {mock.zoologyBlock}
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Action Buttons */}
+                {/* Clean Single Action CTA */}
                 <div className="flex flex-wrap lg:flex-col items-stretch sm:items-center lg:items-end gap-2 shrink-0 self-stretch lg:self-center">
                   <button
-                    onClick={() => handleSetReminder(mock.title, mock.dateStr)}
-                    className="flex-1 lg:flex-none px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-amber-50 hover:text-amber-900 text-slate-700 text-xs font-semibold border border-slate-200 flex items-center justify-center space-x-1.5 transition cursor-pointer"
-                    title="Notify Student & Parent on WhatsApp/SMS"
-                  >
-                    <Bell className="w-3.5 h-3.5 text-amber-600" />
-                    <span>Notify Parent</span>
-                  </button>
-
-                  <button
-                    onClick={() => handleDownloadSundayPdf(mock)}
-                    className="flex-1 lg:flex-none px-3.5 py-2 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold border border-slate-200 flex items-center justify-center space-x-1.5 transition cursor-pointer"
-                    title="Export 180-Question Test PDF"
-                  >
-                    <Download className="w-3.5 h-3.5 text-blue-600" />
-                    <span>Export Test PDF</span>
-                  </button>
-
-                  <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
-                    className={`flex-1 lg:flex-none px-5 py-2 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-1.5 cursor-pointer ${
+                    className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
                       isAdminAccessGranted
                         ? isLive
                           ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-blue-500/20'
                           : 'bg-blue-600 hover:bg-blue-700'
-                        : 'bg-slate-700 hover:bg-slate-800'
+                        : 'bg-slate-800 hover:bg-slate-900 border border-slate-700'
                     }`}
                   >
                     {isAdminAccessGranted ? (
                       <>
-                        <Play className="w-3.5 h-3.5 fill-current" />
-                        <span>{isLive ? 'Start Live Sunday Test' : 'Start Test'}</span>
+                        <Play className="w-4 h-4 fill-current" />
+                        <span>{isLive ? 'Start Live Sunday Test (720M)' : 'Start Sunday Test (720M)'}</span>
                       </>
                     ) : (
                       <>
-                        <Lock className="w-3.5 h-3.5" />
-                        <span>Locked (Admin Approval)</span>
+                        <Lock className="w-4 h-4 text-amber-400" />
+                        <span>Request Unlock from Admin</span>
                       </>
                     )}
                   </button>
@@ -628,6 +646,20 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>
+                  </button>
+                )}
+
+                {onOpenAdmin && (
+                  <button
+                    onClick={() => {
+                      setShowAdminApprovalModal(false);
+                      setAccessRequestSent(false);
+                      onOpenAdmin();
+                    }}
+                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-600 hover:to-rose-600 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
+                  >
+                    <ShieldCheck className="w-4 h-4" />
+                    <span>Faculty / Admin Direct Login &amp; Unlock Portal</span>
                   </button>
                 )}
 

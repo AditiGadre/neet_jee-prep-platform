@@ -17,7 +17,9 @@ const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m =
 const BookReaderModal = lazy(() => import('./components/BookReaderModal').then(m => ({ default: m.BookReaderModal })));
 const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
 const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
-const SuperUserModal = lazy(() => import('./components/SuperUserModal').then(m => ({ default: m.SuperUserModal })));
+import { SuperUserModal } from './components/SuperUserModal';
+import { AdminLoginModal } from './components/AdminLoginModal';
+import { AdminSection } from './components/AdminSection';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 
 const SectionLoadingFallback = () => (
@@ -103,6 +105,7 @@ export default function App() {
   const [activeBookForReading, setActiveBookForReading] = useState<BookItem | null>(null);
   const [isDownloadsModalOpen, setIsDownloadsModalOpen] = useState(false);
   const [isSuperUserModalOpen, setIsSuperUserModalOpen] = useState(false);
+  const [isAdminLoginModalOpen, setIsAdminLoginModalOpen] = useState(false);
   const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
   const [uploadSubject, setUploadSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
   const [uploadChapter, setUploadChapter] = useState<string>('Molecular Basis of Inheritance');
@@ -307,14 +310,44 @@ export default function App() {
     setIsUploadModalOpen(true);
   };
 
+  const handleOpenAdminDirectly = () => {
+    sessionStorage.setItem('neet_admin_authenticated', 'true');
+    localStorage.setItem('neet_admin_authenticated', 'true');
+    if (!enrolledStudent) {
+      const adminStudent: EnrolledStudent = {
+        studentName: 'Dr. Aditi (Institutional Admin)',
+        parentName: 'Academic Director',
+        parentPhone: '9876543210',
+        studentPhone: '9876543210',
+        parentEmail: 'admin@neetprep.in',
+        domicileState: 'Maharashtra',
+        caste: 'General / Open',
+        email: 'admin@neetcbt.in',
+        dob: '2000-01-01',
+        dobPin: '01012000',
+        targetYear: '2026',
+        enrolledAt: new Date().toISOString(),
+        rollNumber: 'ADMIN-2026-001',
+        devices: ['admin-terminal']
+      };
+      localStorage.setItem('neet_enrolled_student', JSON.stringify(adminStudent));
+      localStorage.setItem('neet_user_enrolled', 'true');
+      setEnrolledStudent(adminStudent);
+    }
+    setActiveTab('admin');
+    setIsSuperUserModalOpen(true);
+    setIsAdminLoginModalOpen(false);
+  };
+
   return (
     <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
-      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers */}
-      {!enrolledStudent && (
+      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers or logs in as admin */}
+      {!enrolledStudent && activeTab !== 'admin' && (
         <EnrollmentGate
           onEnrollSuccess={student => {
             setEnrolledStudent(student);
           }}
+          onOpenAdmin={handleOpenAdminDirectly}
         />
       )}
 
@@ -331,7 +364,7 @@ export default function App() {
         onOpenAuth={() => setIsAuthModalOpen(true)}
         onSignOut={handleSignOut}
         onOpenDownloads={() => setIsDownloadsModalOpen(true)}
-        onOpenSuperUser={() => setIsSuperUserModalOpen(true)}
+        onOpenSuperUser={handleOpenAdminDirectly}
         onOpenUploadModal={() => handleOpenUpload()}
       />
 
@@ -343,6 +376,7 @@ export default function App() {
           onSelectTab={setActiveTab}
           extraSubTab={extraSubTab}
           onSelectExtraSubTab={setExtraSubTab}
+          onOpenAdmin={handleOpenAdminDirectly}
         />
 
         {/* Dynamic Content Area */}
@@ -353,6 +387,7 @@ export default function App() {
                 testItems={TEST_SERIES_DATA}
                 targetYear={targetYear}
                 onStartTest={handleStartTest}
+                onOpenAdmin={handleOpenAdminDirectly}
               />
             )}
 
@@ -380,6 +415,13 @@ export default function App() {
             {activeTab === 'support' && (
               <SupportSection
                 onOpenAskDoubtModal={() => setIsDoubtModalOpen(true)}
+              />
+            )}
+
+            {activeTab === 'admin' && (
+              <AdminSection
+                onStartCustomTest={handleStartTest}
+                onOpenUploadModal={handleOpenUpload}
               />
             )}
           </Suspense>
@@ -422,6 +464,18 @@ export default function App() {
         {/* Downloads Vault Modal */}
         {isDownloadsModalOpen && (
           <DownloadsModal onClose={() => setIsDownloadsModalOpen(false)} />
+        )}
+
+        {/* Admin Login Authorization Gate */}
+        {isAdminLoginModalOpen && (
+          <AdminLoginModal
+            isOpen={isAdminLoginModalOpen}
+            onClose={() => setIsAdminLoginModalOpen(false)}
+            onLoginSuccess={() => {
+              setIsAdminLoginModalOpen(false);
+              setIsSuperUserModalOpen(true);
+            }}
+          />
         )}
 
         {/* Super User & Admin Control Center (Custom Test Generator & Telemetry) */}

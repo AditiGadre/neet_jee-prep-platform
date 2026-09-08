@@ -28,6 +28,7 @@ export interface EnrolledStudent {
   studentName: string;
   parentName: string;
   parentPhone: string;
+  parentEmail?: string;
   studentPhone: string;
   domicileState: string;
   caste: 'General / Open' | 'OBC-NCL' | 'SC (Scheduled Caste)' | 'ST (Scheduled Tribe)' | 'GEN-EWS';
@@ -42,12 +43,14 @@ export interface EnrolledStudent {
 
 interface EnrollmentGateProps {
   onEnrollSuccess: (student: EnrolledStudent) => void;
+  onOpenAdmin?: () => void;
 }
 
-export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess }) => {
+export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess, onOpenAdmin }) => {
   const [studentName, setStudentName] = useState('');
   const [parentName, setParentName] = useState('');
   const [parentPhone, setParentPhone] = useState('');
+  const [parentEmail, setParentEmail] = useState('');
   const [studentPhone, setStudentPhone] = useState('');
   const [domicileState, setDomicileState] = useState('Maharashtra');
   const [caste, setCaste] = useState<EnrolledStudent['caste']>('General / Open');
@@ -111,6 +114,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
       newErrors.email = 'Please enter a valid email address';
     }
 
+    if (parentEmail.trim() && !emailRegex.test(parentEmail.trim())) {
+      newErrors.parentEmail = 'Please enter a valid parent email address';
+    }
+
     if (!dob) {
       newErrors.dob = 'Date of birth is required for PDF password protection';
     }
@@ -147,6 +154,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
       studentName: studentName.trim(),
       parentName: parentName.trim(),
       parentPhone: parentPhone.replace(/\D/g, ''),
+      parentEmail: parentEmail.trim().toLowerCase() || email.trim().toLowerCase(),
       studentPhone: studentPhone.replace(/\D/g, ''),
       domicileState,
       caste,
@@ -170,6 +178,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
         phone: '+91 ' + studentData.studentPhone,
         parentName: studentData.parentName,
         parentPhone: '+91 ' + studentData.parentPhone,
+        parentEmail: studentData.parentEmail,
         domicileState: studentData.domicileState,
         caste: studentData.caste,
         dob: studentData.dob,
@@ -204,7 +213,9 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
       studentName: studentName.trim(),
       parentName: parentName.trim(),
       parentPhone: parentPhone.replace(/\D/g, ''),
+      parentEmail: parentEmail.trim().toLowerCase() || email.trim().toLowerCase(),
       studentPhone: studentPhone.replace(/\D/g, ''),
+      domicileState,
       caste,
       email: email.trim().toLowerCase(),
       dob,
@@ -249,9 +260,22 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
               </div>
             </div>
 
-            <div className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/15 border border-white/20 text-xs font-mono">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
-              <span>2-Device Protected</span>
+            <div className="flex items-center space-x-2">
+              {onOpenAdmin && (
+                <button
+                  type="button"
+                  onClick={onOpenAdmin}
+                  className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs shadow-md transition cursor-pointer"
+                  title="Access Admin & Faculty Control Portal"
+                >
+                  <ShieldCheck className="w-4 h-4 text-slate-950" />
+                  <span>Admin Portal</span>
+                </button>
+              )}
+              <div className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/15 border border-white/20 text-xs font-mono">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
+                <span>2-Device Protected</span>
+              </div>
             </div>
           </div>
 
@@ -399,6 +423,37 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
                 {errors.parentPhone && (
                   <p className="text-[10px] text-rose-600 font-semibold mt-1 flex items-center gap-1">
                     <AlertCircle className="w-3 h-3 shrink-0" /> {errors.parentPhone}
+                  </p>
+                )}
+              </div>
+
+              {/* Parent Email Address (for automated scorecard delivery) */}
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Parent Email ID <span className="text-slate-400 font-normal">(for Sunday Scorecards)</span>
+                </label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                    <Mail className="w-4 h-4" />
+                  </div>
+                  <input
+                    type="email"
+                    value={parentEmail}
+                    onChange={e => {
+                      setParentEmail(e.target.value);
+                      if (errors.parentEmail) setErrors(prev => ({ ...prev, parentEmail: '' }));
+                    }}
+                    placeholder="e.g. parent.name@gmail.com"
+                    className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                      errors.parentEmail
+                        ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
+                        : 'border-slate-200 focus:ring-blue-100 focus:border-blue-600 text-slate-900'
+                    }`}
+                  />
+                </div>
+                {errors.parentEmail && (
+                  <p className="text-[10px] text-rose-600 font-semibold mt-1 flex items-center gap-1">
+                    <AlertCircle className="w-3 h-3 shrink-0" /> {errors.parentEmail}
                   </p>
                 )}
               </div>
@@ -597,7 +652,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
             </div>
 
             {/* Submit Action */}
-            <div className="pt-3">
+            <div className="pt-3 space-y-2.5">
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -607,6 +662,48 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess 
                 <span>{isSubmitting ? 'Verifying 2-Device Concurrency & DOB...' : 'Submit Enrollment & Enter NeetCbt Exam Test'}</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
+
+              <div className="flex flex-col sm:flex-row items-center gap-2 pt-1">
+                <button
+                  type="button"
+                  onClick={() => {
+                    const demoStudent: EnrolledStudent = {
+                      studentName: 'Dr. Aditi Sanjay Gadre',
+                      parentName: 'Sanjay Gadre',
+                      parentPhone: '9876543210',
+                      studentPhone: '9876543210',
+                      parentEmail: 'parents.aditi@neetprep.in',
+                      domicileState: 'Maharashtra',
+                      caste: 'General / Open',
+                      email: 'student@neetcbt.in',
+                      dob: '2006-08-15',
+                      dobPin: '15082006',
+                      targetYear: '2026',
+                      enrolledAt: new Date().toISOString(),
+                      rollNumber: 'NCBT-2026-784920',
+                      devices: ['dev-fast-pass']
+                    };
+                    localStorage.setItem('neet_enrolled_student', JSON.stringify(demoStudent));
+                    localStorage.setItem('neet_user_enrolled', 'true');
+                    onEnrollSuccess(demoStudent);
+                  }}
+                  className="w-full sm:flex-1 py-2.5 px-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition flex items-center justify-center space-x-1.5 cursor-pointer"
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                  <span>1-Click Student Fast Pass</span>
+                </button>
+
+                {onOpenAdmin && (
+                  <button
+                    type="button"
+                    onClick={onOpenAdmin}
+                    className="w-full sm:flex-1 py-2.5 px-3 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 font-bold text-xs transition flex items-center justify-center space-x-1.5 cursor-pointer"
+                  >
+                    <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                    <span>Admin Direct Portal</span>
+                  </button>
+                )}
+              </div>
             </div>
           </form>
         )}

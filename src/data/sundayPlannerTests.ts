@@ -21,7 +21,7 @@ export interface SundayPlannerTest {
   zoologyKeywords: string[];
   totalQuestions: number; // 180
   durationMinutes: number; // 180
-  totalMarks: number; // 180
+  totalMarks: number; // 720
 }
 
 export interface SundayChapterSelection {
@@ -160,7 +160,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Animal Kingdom'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-02',
@@ -180,7 +180,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Structural Organisation in Animals', 'Structural Organisation of Animals'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-03',
@@ -200,7 +200,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Breathing and Exchange of Gases', 'Breathing & Respiration'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-04',
@@ -220,7 +220,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Body Fluids and Circulation', 'Body Fluids & Circulation'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cum-01',
@@ -241,7 +241,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-05',
@@ -261,7 +261,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Excretory Products and their Elimination', 'Excretory Products & Elimination'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-06',
@@ -281,7 +281,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Locomotion and Movement', 'Locomotion & Movement'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-07',
@@ -301,7 +301,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Neural Control and Coordination', 'Neural Control & Coordination'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-08',
@@ -321,7 +321,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Chemical Coordination and Integration', 'Chemical Coordination & Regulation'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cum-02',
@@ -342,7 +342,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products', 'Locomotion and Movement', 'Neural Control', 'Chemical Coordination and Integration'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-09',
@@ -362,7 +362,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Human Reproduction'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-10',
@@ -382,7 +382,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Reproductive Health'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-11',
@@ -402,7 +402,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Human Health and Disease', 'Human Health & Disease'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-12',
@@ -422,7 +422,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Microbes in Human Welfare', 'Microbes & Human Welfare Applications'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cum-03',
@@ -443,7 +443,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Breathing', 'Body Fluids', 'Excretory Products', 'Locomotion', 'Neural Control', 'Chemical Coordination', 'Human Reproduction', 'Reproductive Health', 'Human Health and Disease', 'Microbes in Human Welfare'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-13',
@@ -463,7 +463,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Principles of Inheritance and Variation', 'Principles of Inheritance & Variation', 'Mendelian Genetics #01'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-14',
@@ -483,7 +483,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Molecular Basis of Inheritance'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-15',
@@ -503,7 +503,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Evolution', 'Origin and Evolution: RACE 01', 'Origin and Evolution: RACE 02'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-16',
@@ -523,7 +523,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Biotechnology and its Applications', 'Biotechnology: Application', 'Biotechnology & Its Applications'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cum-04',
@@ -544,7 +544,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Breathing', 'Body Fluids', 'Excretory', 'Locomotion', 'Neural Control', 'Chemical Coordination', 'Human Reproduction', 'Reproductive Health', 'Human Health and Disease', 'Microbes in Human Welfare', 'Principles of Inheritance', 'Molecular Basis', 'Evolution', 'Biotechnology and its Applications'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-17',
@@ -564,7 +564,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Biology & Human Welfare', 'Human Health and Disease', 'Microbes in Human Welfare', 'Domestication of Animals'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-18',
@@ -584,7 +584,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Organisms and Populations', 'Organisms & Populations', 'Organism and Population (Ecology)'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cwt-19',
@@ -604,7 +604,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Ecosystem'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-cum-05',
@@ -625,7 +625,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
 
   // ==========================================
@@ -650,7 +650,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products', 'Locomotion and Movement', 'Neural Control', 'Chemical Coordination and Integration'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-part-02',
@@ -671,7 +671,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Human Reproduction', 'Reproductive Health', 'Principles of Inheritance and Variation', 'Molecular Basis of Inheritance', 'Evolution'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-part-03',
@@ -692,7 +692,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['Biotechnology and its Applications', 'Human Health and Disease', 'Microbes in Human Welfare', 'Ecosystem', 'Biodiversity and Conservation'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
 
   // ==========================================
@@ -717,7 +717,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-fst-02',
@@ -738,7 +738,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-fst-03',
@@ -759,7 +759,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-fst-04',
@@ -780,7 +780,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-fst-05',
@@ -801,7 +801,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   },
   {
     id: 'test-sunday-fst-06',
@@ -822,7 +822,7 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     zoologyKeywords: ['All Chapters'],
     totalQuestions: 180,
     durationMinutes: 180,
-    totalMarks: 180
+    totalMarks: 720
   }
 ];
 
@@ -903,17 +903,27 @@ export function generateSundayTestQuestions(
   let zooPool = filterQuestionsByKeywords(bioBank, zooKeywords);
   if (zooPool.length < 45) zooPool = bioBank;
 
-  const pickedBot = [...botPool].sort(() => 0.5 - Math.random()).slice(0, 45);
-  const pickedZoo = [...zooPool].sort(() => 0.5 - Math.random()).slice(0, 45);
-
-  const pickedBio = [...pickedBot, ...pickedZoo].slice(0, 90).map((q, idx) => ({
+  const pickedBot = [...botPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
     ...q,
-    id: `sunday-${test.code.toLowerCase()}-bio-${idx + 1}-${q.id}`,
+    id: `sunday-${test.code.toLowerCase()}-bot-${idx + 1}-${q.id}`,
     subject: 'Biology' as const,
+    tags: [...(q.tags || []), 'Botany'],
     questionText: formatMathAndFormulas(q.questionText),
     options: q.options.map(o => formatMathAndFormulas(o)),
     explanation: formatMathAndFormulas(q.explanation)
   }));
+
+  const pickedZoo = [...zooPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
+    ...q,
+    id: `sunday-${test.code.toLowerCase()}-zoo-${idx + 1}-${q.id}`,
+    subject: 'Biology' as const,
+    tags: [...(q.tags || []), 'Zoology'],
+    questionText: formatMathAndFormulas(q.questionText),
+    options: q.options.map(o => formatMathAndFormulas(o)),
+    explanation: formatMathAndFormulas(q.explanation)
+  }));
+
+  const pickedBio = [...pickedBot, ...pickedZoo];
 
   return [...pickedPhy, ...pickedChem, ...pickedBio];
 }

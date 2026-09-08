@@ -166,11 +166,36 @@ export interface UserTestResult {
     wrong: number;
     unattempted: number;
     score: number;
+    maxMarks?: number;
+    percentage?: number;
   }[];
   weakChapters: string[];
   strongChapters: string[];
   revisionSuggestions: string[];
   answers: Record<number, number>; // questionIdx -> selectedOption
+  studentName?: string;
+  rollNumber?: string;
+  parentEmail?: string;
+  parentPhone?: string;
+  parentName?: string;
+  studentCategory?: string;
+  batchRank?: { rank: number; total: number };
+  cityRank?: { rank: number; total: number };
+  previousScore?: number;
+  changeFromPrevious?: number;
+  dateStr?: string;
+  chapterAnalytics?: {
+    chapter: string;
+    subject: string;
+    total: number;
+    correct: number;
+    wrong: number;
+    unattempted: number;
+    accuracy: number;
+    priority: number;
+    errorType: string;
+    actionPlan: string;
+  }[];
 }
 
 export interface UserProfile {
