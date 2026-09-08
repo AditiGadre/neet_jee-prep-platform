@@ -18,6 +18,12 @@ import {
 import { TestItem, Question } from '../types';
 import { getUnifiedQuestionBank } from '../utils/questionDatabase';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
+import {
+  OFFICIAL_PHYSICS_UNITS,
+  OFFICIAL_CHEMISTRY_UNITS,
+  OFFICIAL_BOTANY_BLOCKS,
+  OFFICIAL_ZOOLOGY_BLOCKS
+} from '../data/sundayPlannerTests';
 
 export interface SundayChapterSelection {
   physics: string[];
@@ -25,67 +31,26 @@ export interface SundayChapterSelection {
   biology: string[];
 }
 
-export const PHYSICS_CHAPTERS_LIST = [
-  'Gravitation',
-  'Electrostatics',
-  'Thermodynamics',
-  'Magnetism',
-  'Units, Dimensions',
-  'Vectors',
-  'Motion in One Dimension',
-  'Current Electricity',
-  'Optics & Wave Optics',
-  'Modern Physics',
-  'Kinematics & Laws of Motion',
-  'Work, Energy & Power',
-  'Rotational Motion',
-  'Oscillations & Waves',
-  'Semiconductors & Electronic Devices'
-];
-
-export const CHEMISTRY_CHAPTERS_LIST = [
-  'Chemical Bonding & Molecular Structure',
-  'Classification of Elements & Periodicity',
-  'Structure of Atom',
-  'Some Basic Concepts of Chemistry',
-  'Thermodynamics (Chemistry)',
-  'Equilibrium',
-  'Solutions',
-  'Electrochemistry',
-  'Chemical Kinetics',
-  'Organic Chemistry - Principles & Techniques',
-  'Hydrocarbons',
-  'Haloalkanes & Haloarenes',
-  'Alcohols, Phenols & Ethers',
-  'Aldehydes, Ketones & Carboxylic Acids',
-  'Coordination Compounds',
-  'Biomolecules (Chemistry)'
-];
-
+export const PHYSICS_CHAPTERS_LIST = OFFICIAL_PHYSICS_UNITS;
+export const CHEMISTRY_CHAPTERS_LIST = OFFICIAL_CHEMISTRY_UNITS;
 export const BIOLOGY_CHAPTERS_LIST = [
-  'The Living World',
-  'Biological Classification',
-  'Plant Kingdom',
-  'Animal Kingdom',
-  'Morphology & Anatomy of Flowering Plants',
-  'Cell: The Unit of Life',
-  'Cell Cycle & Cell Division',
-  'Biomolecules',
-  'Photosynthesis in Higher Plants',
-  'Respiration in Plants',
-  'Human Physiology: Digestion, Breathing & Circulation',
-  'Excretory & Locomotion Systems',
-  'Neural Control & Chemical Coordination',
-  'Principles of Inheritance & Variation',
-  'Molecular Basis of Inheritance',
-  'Biotechnology: Principles & Applications',
-  'Ecology & Environment'
+  ...OFFICIAL_BOTANY_BLOCKS.map(b => `[Botany] ${b}`),
+  ...OFFICIAL_ZOOLOGY_BLOCKS.map(z => `[Zoology] ${z}`)
 ];
 
 interface SundayTestChapterModalProps {
   onClose: () => void;
   onLaunchSundayTest: (test: TestItem, selectedChapters: SundayChapterSelection) => void;
-  initialTest?: TestItem | null;
+  initialTest?: (TestItem & {
+    physicsKeywords?: string[];
+    chemistryKeywords?: string[];
+    botanyKeywords?: string[];
+    zoologyKeywords?: string[];
+    physicsUnit?: string;
+    chemistryUnit?: string;
+    botanyBlock?: string;
+    zoologyBlock?: string;
+  }) | null;
 }
 
 export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
@@ -95,22 +60,48 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
 }) => {
   const [activeSubjectTab, setActiveSubjectTab] = useState<'Physics' | 'Chemistry' | 'Biology'>('Physics');
   
-  const [selectedPhysics, setSelectedPhysics] = useState<string[]>([
-    'Gravitation',
-    'Electrostatics',
-    'Thermodynamics'
-  ]);
-  const [selectedChemistry, setSelectedChemistry] = useState<string[]>([
-    'Chemical Bonding & Molecular Structure',
-    'Structure of Atom',
-    'Solutions'
-  ]);
-  const [selectedBiology, setSelectedBiology] = useState<string[]>([
-    'Cell: The Unit of Life',
-    'Cell Cycle & Cell Division',
-    'Molecular Basis of Inheritance',
-    'Principles of Inheritance & Variation'
-  ]);
+  // Initialize with initialTest units if available, or default syllabus units
+  const [selectedPhysics, setSelectedPhysics] = useState<string[]>(() => {
+    if (initialTest?.physicsUnit) {
+      const match = OFFICIAL_PHYSICS_UNITS.filter(u => 
+        initialTest.physicsUnit?.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
+        initialTest.physicsKeywords?.some(kw => u.toLowerCase().includes(kw.toLowerCase()))
+      );
+      if (match.length > 0) return match;
+    }
+    return [OFFICIAL_PHYSICS_UNITS[0], OFFICIAL_PHYSICS_UNITS[1]];
+  });
+
+  const [selectedChemistry, setSelectedChemistry] = useState<string[]>(() => {
+    if (initialTest?.chemistryUnit) {
+      const match = OFFICIAL_CHEMISTRY_UNITS.filter(u =>
+        initialTest.chemistryUnit?.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
+        initialTest.chemistryKeywords?.some(kw => u.toLowerCase().includes(kw.toLowerCase()))
+      );
+      if (match.length > 0) return match;
+    }
+    return [OFFICIAL_CHEMISTRY_UNITS[0], OFFICIAL_CHEMISTRY_UNITS[1]];
+  });
+
+  const [selectedBiology, setSelectedBiology] = useState<string[]>(() => {
+    const list: string[] = [];
+    if (initialTest?.botanyBlock) {
+      const bMatch = BIOLOGY_CHAPTERS_LIST.filter(b => 
+        initialTest.botanyBlock?.toLowerCase().includes(b.replace('[Botany] ', '').toLowerCase()) ||
+        initialTest.botanyKeywords?.some(kw => b.toLowerCase().includes(kw.toLowerCase()))
+      );
+      list.push(...bMatch);
+    }
+    if (initialTest?.zoologyBlock) {
+      const zMatch = BIOLOGY_CHAPTERS_LIST.filter(z => 
+        initialTest.zoologyBlock?.toLowerCase().includes(z.replace('[Zoology] ', '').toLowerCase()) ||
+        initialTest.zoologyKeywords?.some(kw => z.toLowerCase().includes(kw.toLowerCase()))
+      );
+      list.push(...zMatch);
+    }
+    if (list.length > 0) return list;
+    return [BIOLOGY_CHAPTERS_LIST[0], BIOLOGY_CHAPTERS_LIST[20]]; // Living World + Animal Kingdom
+  });
 
   const toggleChapter = (subject: 'Physics' | 'Chemistry' | 'Biology', chapter: string) => {
     if (subject === 'Physics') {
@@ -129,35 +120,41 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
   };
 
   const selectAllSubject = (subject: 'Physics' | 'Chemistry' | 'Biology') => {
-    if (subject === 'Physics') setSelectedPhysics([...PHYSICS_CHAPTERS_LIST]);
-    else if (subject === 'Chemistry') setSelectedChemistry([...CHEMISTRY_CHAPTERS_LIST]);
+    if (subject === 'Physics') setSelectedPhysics([...OFFICIAL_PHYSICS_UNITS]);
+    else if (subject === 'Chemistry') setSelectedChemistry([...OFFICIAL_CHEMISTRY_UNITS]);
     else setSelectedBiology([...BIOLOGY_CHAPTERS_LIST]);
   };
 
   const applyPreset = (preset: 'all' | 'class11' | 'class12') => {
     if (preset === 'all') {
-      setSelectedPhysics([...PHYSICS_CHAPTERS_LIST]);
-      setSelectedChemistry([...CHEMISTRY_CHAPTERS_LIST]);
+      setSelectedPhysics([...OFFICIAL_PHYSICS_UNITS]);
+      setSelectedChemistry([...OFFICIAL_CHEMISTRY_UNITS]);
       setSelectedBiology([...BIOLOGY_CHAPTERS_LIST]);
     } else if (preset === 'class11') {
-      setSelectedPhysics(['Units, Dimensions', 'Vectors', 'Motion in One Dimension', 'Gravitation', 'Thermodynamics']);
-      setSelectedChemistry(['Some Basic Concepts of Chemistry', 'Structure of Atom', 'Classification of Elements & Periodicity', 'Chemical Bonding & Molecular Structure']);
-      setSelectedBiology(['The Living World', 'Biological Classification', 'Plant Kingdom', 'Animal Kingdom', 'Cell: The Unit of Life']);
+      setSelectedPhysics(OFFICIAL_PHYSICS_UNITS.slice(0, 10));
+      setSelectedChemistry(OFFICIAL_CHEMISTRY_UNITS.slice(0, 10));
+      setSelectedBiology(BIOLOGY_CHAPTERS_LIST.slice(0, 20));
     } else {
-      setSelectedPhysics(['Electrostatics', 'Current Electricity', 'Magnetism', 'Optics & Wave Optics', 'Modern Physics']);
-      setSelectedChemistry(['Solutions', 'Electrochemistry', 'Chemical Kinetics', 'Coordination Compounds', 'Haloalkanes & Haloarenes']);
-      setSelectedBiology(['Principles of Inheritance & Variation', 'Molecular Basis of Inheritance', 'Biotechnology: Principles & Applications', 'Ecology & Environment']);
+      setSelectedPhysics(OFFICIAL_PHYSICS_UNITS.slice(10));
+      setSelectedChemistry(OFFICIAL_CHEMISTRY_UNITS.slice(10));
+      setSelectedBiology(BIOLOGY_CHAPTERS_LIST.slice(20));
     }
   };
 
   const handleLaunch = () => {
     // 1. Collect questions for Physics (45 Qs) strictly from selected Physics chapters
     const phyBank = getUnifiedQuestionBank('Physics');
-    let phyPool = phyBank.filter(q =>
-      selectedPhysics.some(ch => q.chapter.toLowerCase().includes(ch.toLowerCase().split(' ')[0]))
-    );
+    const phyCleanKeywords = selectedPhysics.map(u => u.replace(/^Unit \d+:\s*/i, '').toLowerCase());
+    let phyPool = phyBank.filter(q => {
+      const qCh = (q.chapter || '').toLowerCase();
+      const qTop = (q.topic || '').toLowerCase();
+      return phyCleanKeywords.some(kw => {
+        const words = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
+        return qCh.includes(kw) || kw.includes(qCh) || words.some(w => qCh.includes(w) || qTop.includes(w));
+      });
+    });
     if (phyPool.length < 45) phyPool = phyBank; // fallback if needed
-    // Shuffle & pick 45
+    
     const selectedPhyQs = [...phyPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
       ...q,
       id: `sunday-phy-${idx + 1}-${q.id}`,
@@ -169,9 +166,15 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
 
     // 2. Collect questions for Chemistry (45 Qs) strictly from selected Chemistry chapters
     const chemBank = getUnifiedQuestionBank('Chemistry');
-    let chemPool = chemBank.filter(q =>
-      selectedChemistry.some(ch => q.chapter.toLowerCase().includes(ch.toLowerCase().split(' ')[0]))
-    );
+    const chemCleanKeywords = selectedChemistry.map(u => u.replace(/^Unit \d+:\s*/i, '').toLowerCase());
+    let chemPool = chemBank.filter(q => {
+      const qCh = (q.chapter || '').toLowerCase();
+      const qTop = (q.topic || '').toLowerCase();
+      return chemCleanKeywords.some(kw => {
+        const words = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
+        return qCh.includes(kw) || kw.includes(qCh) || words.some(w => qCh.includes(w) || qTop.includes(w));
+      });
+    });
     if (chemPool.length < 45) chemPool = chemBank;
     const selectedChemQs = [...chemPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
       ...q,
@@ -184,9 +187,15 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
 
     // 3. Collect questions for Biology (90 Qs) strictly from selected Biology chapters
     const bioBank = getUnifiedQuestionBank('Biology');
-    let bioPool = bioBank.filter(q =>
-      selectedBiology.some(ch => q.chapter.toLowerCase().includes(ch.toLowerCase().split(' ')[0]))
-    );
+    const bioCleanKeywords = selectedBiology.map(u => u.replace(/^\[(Botany|Zoology)\]\s*\d+\.\s*/i, '').toLowerCase());
+    let bioPool = bioBank.filter(q => {
+      const qCh = (q.chapter || '').toLowerCase();
+      const qTop = (q.topic || '').toLowerCase();
+      return bioCleanKeywords.some(kw => {
+        const words = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
+        return qCh.includes(kw) || kw.includes(qCh) || words.some(w => qCh.includes(w) || qTop.includes(w));
+      });
+    });
     if (bioPool.length < 90) bioPool = bioBank;
     const selectedBioQs = [...bioPool].sort(() => 0.5 - Math.random()).slice(0, 90).map((q, idx) => ({
       ...q,
@@ -204,7 +213,7 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
       title: initialTest?.title || 'NeetCbt Exam Test: Sunday 180-Question PCB All-India Mock',
       category: 'neet_mock',
       exam: 'NEET',
-      syllabus: `Custom PCB Syllabus: Physics (${selectedPhysics.length} Chs), Chemistry (${selectedChemistry.length} Chs), Biology (${selectedBiology.length} Chs)`,
+      syllabus: `Calendar Syllabus: Physics (${selectedPhysics.length} Units), Chemistry (${selectedChemistry.length} Units), Biology (${selectedBiology.length} Blocks)`,
       totalQuestions: 180,
       durationMinutes: 180,
       totalMarks: 180,
@@ -237,13 +246,13 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
               <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900">
                 180 Marks &bull; 180 Mins &bull; 180 Qs
               </span>
-              <span className="text-[11px] text-blue-100 font-mono">PCB Customizer</span>
+              <span className="text-[11px] text-blue-100 font-mono">Sunday Calendar Syllabus Selector</span>
             </div>
             <h2 className="text-base sm:text-lg font-bold text-white mt-1 flex items-center gap-1.5">
-              <Sparkles className="w-4 h-4 text-cyan-300" /> Sunday Test Series: Choose Subject Chapters
+              <Sparkles className="w-4 h-4 text-cyan-300" /> Sunday Test Series: Syllabus & Chapter Customizer
             </h2>
             <p className="text-xs text-blue-100">
-              Select the exact chapters of Physics, Chemistry, and Biology to include in your 180-Question Sunday Mock Test.
+              {initialTest ? initialTest.title : 'Configure official NEET units for Physics (45 Qs), Chemistry (45 Qs), and Biology (90 Qs).'}
             </p>
           </div>
 
@@ -259,119 +268,102 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         <div className="px-4 py-2.5 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-2 shrink-0">
           <div className="flex items-center space-x-1.5 text-xs text-slate-600 font-semibold">
             <Filter className="w-3.5 h-3.5 text-blue-600" />
-            <span>Quick Presets:</span>
+            <span>Quick Syllabus Presets:</span>
           </div>
-          <div className="flex items-center gap-1.5">
+
+          <div className="flex items-center space-x-1.5">
             <button
               onClick={() => applyPreset('all')}
-              className="px-2.5 py-1 rounded-lg text-xs font-bold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 transition"
+              className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition cursor-pointer"
             >
-              Full PCB Syllabus
+              Full NEET Syllabus
             </button>
             <button
               onClick={() => applyPreset('class11')}
-              className="px-2.5 py-1 rounded-lg text-xs font-bold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 transition"
+              className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200 transition cursor-pointer"
             >
-              Class 11 Focus
+              Class 11th Units
             </button>
             <button
               onClick={() => applyPreset('class12')}
-              className="px-2.5 py-1 rounded-lg text-xs font-bold bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 transition"
+              className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200 transition cursor-pointer"
             >
-              Class 12 Focus
+              Class 12th Units
             </button>
           </div>
         </div>
 
-        {/* Subject Tabs */}
-        <div className="grid grid-cols-3 border-b border-slate-200 bg-white shrink-0">
+        {/* Subject Navigation Tabs */}
+        <div className="flex border-b border-slate-200 bg-white shrink-0">
           <button
             onClick={() => setActiveSubjectTab('Physics')}
-            className={`py-3 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition ${
+            className={`flex-1 py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition cursor-pointer ${
               activeSubjectTab === 'Physics'
-                ? 'border-blue-600 text-blue-700 bg-blue-50/50'
-                : 'border-transparent text-slate-600 hover:text-slate-900'
+                ? 'border-blue-600 text-blue-600 bg-blue-50/50'
+                : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
-            <Zap className="w-4 h-4 text-blue-600" />
-            <span>Physics</span>
-            <span className="px-1.5 py-0.2 rounded-full bg-blue-100 text-blue-800 text-[10px] font-mono">
-              {selectedPhysics.length}
-            </span>
+            <Zap className="w-4 h-4 text-amber-500" />
+            <span>Physics ({selectedPhysics.length} Units)</span>
           </button>
 
           <button
             onClick={() => setActiveSubjectTab('Chemistry')}
-            className={`py-3 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition ${
+            className={`flex-1 py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition cursor-pointer ${
               activeSubjectTab === 'Chemistry'
-                ? 'border-emerald-600 text-emerald-700 bg-emerald-50/50'
-                : 'border-transparent text-slate-600 hover:text-slate-900'
+                ? 'border-emerald-600 text-emerald-600 bg-emerald-50/50'
+                : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
-            <Atom className="w-4 h-4 text-emerald-600" />
-            <span>Chemistry</span>
-            <span className="px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-mono">
-              {selectedChemistry.length}
-            </span>
+            <Atom className="w-4 h-4 text-emerald-500" />
+            <span>Chemistry ({selectedChemistry.length} Units)</span>
           </button>
 
           <button
             onClick={() => setActiveSubjectTab('Biology')}
-            className={`py-3 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition ${
+            className={`flex-1 py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center space-x-2 border-b-2 transition cursor-pointer ${
               activeSubjectTab === 'Biology'
-                ? 'border-purple-600 text-purple-700 bg-purple-50/50'
-                : 'border-transparent text-slate-600 hover:text-slate-900'
+                ? 'border-purple-600 text-purple-600 bg-purple-50/50'
+                : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
-            <Dna className="w-4 h-4 text-purple-600" />
-            <span>Biology</span>
-            <span className="px-1.5 py-0.2 rounded-full bg-purple-100 text-purple-800 text-[10px] font-mono">
-              {selectedBiology.length}
-            </span>
+            <Dna className="w-4 h-4 text-purple-500" />
+            <span>Biology ({selectedBiology.length} Blocks)</span>
           </button>
         </div>
 
-        {/* Chapter Selection Grid */}
+        {/* Selection Content Area */}
         <div className="p-4 sm:p-5 overflow-y-auto flex-1 space-y-3">
-          <div className="flex items-center justify-between pb-2 border-b border-slate-100">
+          <div className="flex items-center justify-between">
             <span className="text-xs font-bold text-slate-700">
-              Select Chapters for {activeSubjectTab} ({activeSubjectTab === 'Biology' ? '90 Qs' : '45 Qs'} in test):
+              Select {activeSubjectTab} chapters to include in test pool:
             </span>
             <button
               onClick={() => selectAllSubject(activeSubjectTab)}
-              className="text-xs text-blue-600 hover:text-blue-800 font-bold hover:underline"
+              className="text-xs font-semibold text-blue-600 hover:underline flex items-center space-x-1 cursor-pointer"
             >
-              Select All {activeSubjectTab}
+              <Check className="w-3.5 h-3.5" />
+              <span>Select All {activeSubjectTab}</span>
             </button>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {(activeSubjectTab === 'Physics'
-              ? PHYSICS_CHAPTERS_LIST
-              : activeSubjectTab === 'Chemistry'
-              ? CHEMISTRY_CHAPTERS_LIST
-              : BIOLOGY_CHAPTERS_LIST
-            ).map(chapter => {
-              const isSelected =
-                activeSubjectTab === 'Physics'
-                  ? selectedPhysics.includes(chapter)
-                  : activeSubjectTab === 'Chemistry'
-                  ? selectedChemistry.includes(chapter)
-                  : selectedBiology.includes(chapter);
-
-              return (
-                <div
-                  key={chapter}
-                  onClick={() => toggleChapter(activeSubjectTab, chapter)}
-                  className={`p-3 rounded-xl border flex items-center justify-between cursor-pointer transition ${
-                    isSelected
-                      ? 'bg-blue-50 border-blue-400 text-blue-900 font-semibold shadow-xs'
-                      : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
-                  }`}
-                >
-                  <div className="flex items-center space-x-2.5">
+            {activeSubjectTab === 'Physics' &&
+              OFFICIAL_PHYSICS_UNITS.map(ch => {
+                const isSelected = selectedPhysics.includes(ch);
+                return (
+                  <button
+                    key={ch}
+                    onClick={() => toggleChapter('Physics', ch)}
+                    className={`p-2.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
+                      isSelected
+                        ? 'bg-blue-50/80 border-blue-400 text-blue-900 shadow-2xs font-bold'
+                        : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
+                    }`}
+                  >
+                    <span className="pr-2 leading-relaxed">{ch}</span>
                     <div
-                      className={`w-4 h-4 rounded flex items-center justify-center border transition ${
+                      className={`w-4 h-4 rounded-md flex items-center justify-center shrink-0 border ${
                         isSelected
                           ? 'bg-blue-600 border-blue-600 text-white'
                           : 'border-slate-300 bg-white'
@@ -379,41 +371,87 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
                     >
                       {isSelected && <Check className="w-3 h-3 stroke-[3]" />}
                     </div>
-                    <span className="text-xs">{chapter}</span>
-                  </div>
-                </div>
-              );
-            })}
+                  </button>
+                );
+              })}
+
+            {activeSubjectTab === 'Chemistry' &&
+              OFFICIAL_CHEMISTRY_UNITS.map(ch => {
+                const isSelected = selectedChemistry.includes(ch);
+                return (
+                  <button
+                    key={ch}
+                    onClick={() => toggleChapter('Chemistry', ch)}
+                    className={`p-2.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
+                      isSelected
+                        ? 'bg-emerald-50/80 border-emerald-400 text-emerald-900 shadow-2xs font-bold'
+                        : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
+                    }`}
+                  >
+                    <span className="pr-2 leading-relaxed">{ch}</span>
+                    <div
+                      className={`w-4 h-4 rounded-md flex items-center justify-center shrink-0 border ${
+                        isSelected
+                          ? 'bg-emerald-600 border-emerald-600 text-white'
+                          : 'border-slate-300 bg-white'
+                      }`}
+                    >
+                      {isSelected && <Check className="w-3 h-3 stroke-[3]" />}
+                    </div>
+                  </button>
+                );
+              })}
+
+            {activeSubjectTab === 'Biology' &&
+              BIOLOGY_CHAPTERS_LIST.map(ch => {
+                const isSelected = selectedBiology.includes(ch);
+                return (
+                  <button
+                    key={ch}
+                    onClick={() => toggleChapter('Biology', ch)}
+                    className={`p-2.5 rounded-xl text-left text-xs font-semibold border transition flex items-center justify-between cursor-pointer ${
+                      isSelected
+                        ? 'bg-purple-50/80 border-purple-400 text-purple-900 shadow-2xs font-bold'
+                        : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
+                    }`}
+                  >
+                    <span className="pr-2 leading-relaxed">{ch}</span>
+                    <div
+                      className={`w-4 h-4 rounded-md flex items-center justify-center shrink-0 border ${
+                        isSelected
+                          ? 'bg-purple-600 border-purple-600 text-white'
+                          : 'border-slate-300 bg-white'
+                      }`}
+                    >
+                      {isSelected && <Check className="w-3 h-3 stroke-[3]" />}
+                    </div>
+                  </button>
+                );
+              })}
           </div>
         </div>
 
-        {/* Selected Summary & Launch Bar */}
-        <div className="p-4 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
-          <div className="text-xs text-slate-600 space-y-0.5">
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-slate-800">Selected Coverage:</span>
-              <span className="text-blue-700 font-semibold">Phy ({selectedPhysics.length})</span> &bull;{' '}
-              <span className="text-emerald-700 font-semibold">Chem ({selectedChemistry.length})</span> &bull;{' '}
-              <span className="text-purple-700 font-semibold">Bio ({selectedBiology.length})</span>
-            </div>
-            <div className="text-[11px] text-slate-500 font-mono">
-              Pattern: 180 Questions &bull; 180 Mins (3.0 Hrs) &bull; 180 Marks (+1 / -0.25)
-            </div>
+        {/* Footer Actions */}
+        <div className="p-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 shrink-0">
+          <div className="flex items-center space-x-3 text-xs text-slate-600 font-mono">
+            <span>
+              Selected: <strong>{selectedPhysics.length}</strong> Phys + <strong>{selectedChemistry.length}</strong> Chem + <strong>{selectedBiology.length}</strong> Bio
+            </span>
           </div>
 
-          <div className="flex items-center space-x-2 w-full sm:w-auto">
+          <div className="flex items-center space-x-2">
             <button
               onClick={onClose}
-              className="px-3 py-2 rounded-xl text-xs font-semibold text-slate-700 bg-white border border-slate-200 hover:bg-slate-100 transition"
+              className="px-4 py-2 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-200 transition cursor-pointer"
             >
               Cancel
             </button>
             <button
               onClick={handleLaunch}
-              className="flex-1 sm:flex-initial px-5 py-2 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white text-xs font-bold shadow-md hover:shadow-lg transition flex items-center justify-center space-x-1.5"
+              className="px-5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white shadow-md transition flex items-center space-x-1.5 cursor-pointer"
             >
-              <span>Launch 180-Question Sunday Test</span>
-              <ChevronRight className="w-4 h-4" />
+              <Sparkles className="w-4 h-4 text-cyan-300" />
+              <span>Launch 180-Question Sunday CBT</span>
             </button>
           </div>
         </div>
