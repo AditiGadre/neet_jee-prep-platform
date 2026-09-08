@@ -307,16 +307,10 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         {/* Admin Authorization Status Badge */}
         <div className="flex items-center space-x-2">
           {isAdminAccessGranted ? (
-            <button
-              onClick={() => {
-                if (onOpenAdmin) onOpenAdmin();
-              }}
-              className="px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono shadow-2xs transition cursor-pointer"
-              title="Open Admin Portal"
-            >
+            <span className="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-bold flex items-center space-x-1.5 font-mono shadow-2xs">
               <Unlock className="w-3.5 h-3.5 text-emerald-600" />
               <span>Admin Access Granted (Tests Unlocked)</span>
-            </button>
+            </span>
           ) : (
             <button
               onClick={() => setShowAdminApprovalModal(true)}
@@ -646,20 +640,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   >
                     <Send className="w-4 h-4" />
                     <span>Send Access Request to Administrator</span>
-                  </button>
-                )}
-
-                {onOpenAdmin && (
-                  <button
-                    onClick={() => {
-                      setShowAdminApprovalModal(false);
-                      setAccessRequestSent(false);
-                      onOpenAdmin();
-                    }}
-                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-600 hover:to-rose-600 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
-                  >
-                    <ShieldCheck className="w-4 h-4" />
-                    <span>Faculty / Admin Direct Login &amp; Unlock Portal</span>
                   </button>
                 )}
 

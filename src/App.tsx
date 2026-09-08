@@ -19,7 +19,6 @@ const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ defau
 const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
 import { SuperUserModal } from './components/SuperUserModal';
 import { AdminLoginModal } from './components/AdminLoginModal';
-import { AdminSection } from './components/AdminSection';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 
 const SectionLoadingFallback = () => (
@@ -310,44 +309,23 @@ export default function App() {
     setIsUploadModalOpen(true);
   };
 
-  const handleOpenAdminDirectly = () => {
-    sessionStorage.setItem('neet_admin_authenticated', 'true');
-    localStorage.setItem('neet_admin_authenticated', 'true');
-    if (!enrolledStudent) {
-      const adminStudent: EnrolledStudent = {
-        studentName: 'Dr. Aditi (Institutional Admin)',
-        parentName: 'Academic Director',
-        parentPhone: '9876543210',
-        studentPhone: '9876543210',
-        parentEmail: 'admin@neetprep.in',
-        domicileState: 'Maharashtra',
-        caste: 'General / Open',
-        email: 'admin@neetcbt.in',
-        dob: '2000-01-01',
-        dobPin: '01012000',
-        targetYear: '2026',
-        enrolledAt: new Date().toISOString(),
-        rollNumber: 'ADMIN-2026-001',
-        devices: ['admin-terminal']
-      };
-      localStorage.setItem('neet_enrolled_student', JSON.stringify(adminStudent));
-      localStorage.setItem('neet_user_enrolled', 'true');
-      setEnrolledStudent(adminStudent);
+  const handleOpenSuperUser = () => {
+    const isAuthed = sessionStorage.getItem('neet_admin_authenticated') === 'true';
+    if (isAuthed) {
+      setIsSuperUserModalOpen(true);
+    } else {
+      setIsAdminLoginModalOpen(true);
     }
-    setActiveTab('admin');
-    setIsSuperUserModalOpen(true);
-    setIsAdminLoginModalOpen(false);
   };
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
-      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers or logs in as admin */}
-      {!enrolledStudent && activeTab !== 'admin' && (
+      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers */}
+      {!enrolledStudent && (
         <EnrollmentGate
           onEnrollSuccess={student => {
             setEnrolledStudent(student);
           }}
-          onOpenAdmin={handleOpenAdminDirectly}
         />
       )}
 
@@ -364,7 +342,7 @@ export default function App() {
         onOpenAuth={() => setIsAuthModalOpen(true)}
         onSignOut={handleSignOut}
         onOpenDownloads={() => setIsDownloadsModalOpen(true)}
-        onOpenSuperUser={handleOpenAdminDirectly}
+        onOpenSuperUser={handleOpenSuperUser}
         onOpenUploadModal={() => handleOpenUpload()}
       />
 
@@ -376,7 +354,6 @@ export default function App() {
           onSelectTab={setActiveTab}
           extraSubTab={extraSubTab}
           onSelectExtraSubTab={setExtraSubTab}
-          onOpenAdmin={handleOpenAdminDirectly}
         />
 
         {/* Dynamic Content Area */}
@@ -387,7 +364,6 @@ export default function App() {
                 testItems={TEST_SERIES_DATA}
                 targetYear={targetYear}
                 onStartTest={handleStartTest}
-                onOpenAdmin={handleOpenAdminDirectly}
               />
             )}
 
@@ -415,13 +391,6 @@ export default function App() {
             {activeTab === 'support' && (
               <SupportSection
                 onOpenAskDoubtModal={() => setIsDoubtModalOpen(true)}
-              />
-            )}
-
-            {activeTab === 'admin' && (
-              <AdminSection
-                onStartCustomTest={handleStartTest}
-                onOpenUploadModal={handleOpenUpload}
               />
             )}
           </Suspense>

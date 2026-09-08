@@ -26,8 +26,7 @@ export type TabType =
   | 'about-exam'
   | 'about-us'
   | 'our-results'
-  | 'support'
-  | 'admin';
+  | 'support';
 
 interface SidebarProps {
   activeTab: TabType;
@@ -84,14 +83,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
       label: '6. Support & FAQ',
       sublabel: '24/7 Academic Doubt Desk & Counselling',
       icon: Headphones
-    },
-    {
-      id: 'admin' as TabType,
-      label: '7. Admin & Faculty Control',
-      sublabel: 'Student Unlock Requests, Paper Generator & Telemetry',
-      icon: ShieldCheck,
-      badge: 'ADMIN',
-      highlight: true
     }
   ];
 
@@ -201,23 +192,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
         })}
       </div>
 
-      {/* Verified Banner & Admin Button in Bottom Sidebar */}
-      <div className="p-3 bg-slate-950/60 border-t border-slate-800/80 space-y-2">
-        <button
-          onClick={() => {
-            onSelectTab('admin');
-            if (onOpenAdmin) onOpenAdmin();
-          }}
-          className="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-amber-300 hover:bg-amber-500/10 border border-amber-500/30 flex items-center justify-between transition cursor-pointer"
-          title="Administrator & Unlock Approval Portal"
-        >
-          <div className="flex items-center space-x-2">
-            <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
-            <span>Admin Portal</span>
-          </div>
-          <span className="text-[9px] px-1.5 py-0.2 rounded bg-amber-400/20 text-amber-300 font-mono">AUTH</span>
-        </button>
-
+      {/* Verified Banner in Bottom Sidebar */}
+      <div className="p-3 bg-slate-950/60 border-t border-slate-800/80">
         <div className="p-2.5 rounded-xl bg-gradient-to-br from-blue-900/40 to-slate-900 border border-blue-800/40 space-y-1">
           <div className="flex items-center space-x-1.5 text-xs font-bold text-cyan-300">
             <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />

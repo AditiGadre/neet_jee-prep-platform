@@ -260,22 +260,9 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
               </div>
             </div>
 
-            <div className="flex items-center space-x-2">
-              {onOpenAdmin && (
-                <button
-                  type="button"
-                  onClick={onOpenAdmin}
-                  className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs shadow-md transition cursor-pointer"
-                  title="Access Admin & Faculty Control Portal"
-                >
-                  <ShieldCheck className="w-4 h-4 text-slate-950" />
-                  <span>Admin Portal</span>
-                </button>
-              )}
-              <div className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/15 border border-white/20 text-xs font-mono">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
-                <span>2-Device Protected</span>
-              </div>
+            <div className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/15 border border-white/20 text-xs font-mono">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
+              <span>2-Device Protected</span>
             </div>
           </div>
 
@@ -663,7 +650,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
 
-              <div className="flex flex-col sm:flex-row items-center gap-2 pt-1">
+              <div className="pt-1">
                 <button
                   type="button"
                   onClick={() => {
@@ -687,22 +674,11 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                     localStorage.setItem('neet_user_enrolled', 'true');
                     onEnrollSuccess(demoStudent);
                   }}
-                  className="w-full sm:flex-1 py-2.5 px-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition flex items-center justify-center space-x-1.5 cursor-pointer"
+                  className="w-full py-2.5 px-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition flex items-center justify-center space-x-1.5 cursor-pointer"
                 >
                   <Sparkles className="w-3.5 h-3.5 text-amber-500" />
                   <span>1-Click Student Fast Pass</span>
                 </button>
-
-                {onOpenAdmin && (
-                  <button
-                    type="button"
-                    onClick={onOpenAdmin}
-                    className="w-full sm:flex-1 py-2.5 px-3 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 font-bold text-xs transition flex items-center justify-center space-x-1.5 cursor-pointer"
-                  >
-                    <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
-                    <span>Admin Direct Portal</span>
-                  </button>
-                )}
               </div>
             </div>
           </form>

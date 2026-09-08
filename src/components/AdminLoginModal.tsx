@@ -30,7 +30,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
   onLoginSuccess
 }) => {
   const [username, setUsername] = useState('admin');
-  const [password, setPassword] = useState(INSTITUTIONAL_MASTER_PASS);
+  const [password, setPassword] = useState('');
   const [pin2FA, setPin2FA] = useState('843791');
   const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -192,19 +192,6 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
                   ? 'Verifying Security Token...'
                   : 'Authenticate & Access Admin Vault'}
               </span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                sessionStorage.setItem('neet_admin_authenticated', 'true');
-                sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
-                onLoginSuccess();
-              }}
-              className="w-full py-2.5 rounded-2xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-xs font-bold transition flex items-center justify-center space-x-2 cursor-pointer"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>Instant 1-Click Master Admin Access</span>
             </button>
 
             <button

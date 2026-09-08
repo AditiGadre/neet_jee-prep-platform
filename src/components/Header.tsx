@@ -145,19 +145,6 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Ask Doubt</span>
             </button>
 
-            {/* Direct Admin Security & Control Portal Button */}
-            <button
-              id="header-admin-portal-btn"
-              onClick={() => {
-                if (onOpenSuperUser) onOpenSuperUser();
-              }}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500/10 via-rose-500/10 to-indigo-500/10 hover:from-amber-500/20 hover:to-indigo-500/20 text-slate-800 border border-amber-300 text-xs font-bold shadow-2xs transition cursor-pointer"
-              title="Admin Portal (Institutional Test Authorization & Telemetry)"
-            >
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
-              <span>Admin Portal</span>
-            </button>
-
             {/* Auth / User Profile Button & Dropdown */}
             {userEmail || enrolledStudent ? (
               <div className="relative">
