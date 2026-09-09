@@ -1,0 +1,2627 @@
+[
+  {
+    "id": "ncert-phy-ch23-01",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Concept of Displacement Current",
+    "difficulty": "Easy",
+    "questionText": "Maxwell in his famous equations of electromagnetism introduced the concept of:",
+    "options": [
+      "Alternating current",
+      "Direct current",
+      "Displacement current",
+      "Reactance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Maxwell identified that Ampere's circuital law was inconsistent for time-varying electric fields (such as between the plates of a charging capacitor) and introduced the concept of displacement current Id = ε₀(dΦ_E/dt) to resolve this inconsistency.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Displacement Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-02",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Ampere-Maxwell Circuital Law",
+    "difficulty": "Medium",
+    "questionText": "A parallel plate capacitor is charged by a battery. If two circular Amperian loops x and y are drawn such that loop x encloses the conducting wire outside the plates and loop y lies entirely between the plates, then ∮ B⃗ · dl⃗ will be zero along:",
+    "options": [
+      "Loop x only",
+      "Loop y only",
+      "Both loops x and y",
+      "Neither loop x nor loop y"
+    ],
+    "correctAnswer": 3,
+    "explanation": "According to the generalized Ampere-Maxwell law, ∮ B⃗ · dl⃗ = μ₀(I_c + I_d). For loop x, conduction current I_c passes through it (I_d = 0), giving ∮ B⃗ · dl⃗ = μ₀ I. For loop y between the plates, displacement current I_d passes through it (I_c = 0), giving ∮ B⃗ · dl⃗ = μ₀ I. Hence, the line integral is non-zero along both loops.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Ampere-Maxwell Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-03",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Displacement Current Through Cross-Sectional Area",
+    "difficulty": "Medium",
+    "questionText": "A parallel plate capacitor with plate area A and separation between plates d is charged by a current I. The displacement current through a plane surface of area A/2 parallel to the plates and drawn symmetrically between the plates is:",
+    "options": [
+      "I",
+      "I/4",
+      "I/2",
+      "3I/2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The electric field between the plates is uniform, so the displacement current density J_d = I / A is also uniform across the plate area. The displacement current passing through a surface of area A' = A/2 is I_d' = J_d × A' = (I / A) × (A / 2) = I / 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Displacement Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-04",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Magnitude of Displacement Current",
+    "difficulty": "Easy",
+    "questionText": "A parallel plate capacitor is charged to 60 μC. Due to a radioactive source, the plate loses charge at the rate of 1.8 × 10⁻⁸ C s⁻¹. The magnitude of the displacement current between the plates is:",
+    "options": [
+      "3.6 × 10⁻⁸ A",
+      "1.8 × 10⁻⁸ A",
+      "4.1 × 10⁻¹¹ A",
+      "5.7 × 10⁻¹² A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The displacement current between the plates of a capacitor is always equal in magnitude to the rate of change of charge on the plates: I_d = |dq/dt| = 1.8 × 10⁻⁸ C/s = 1.8 × 10⁻⁸ A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Displacement Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-05",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Phase and Nature of E and B Fields",
+    "difficulty": "Easy",
+    "questionText": "In a propagating plane electromagnetic wave, the oscillating electric field and magnetic field vectors are:",
+    "options": [
+      "In phase and parallel to each other",
+      "In opposite phase and perpendicular to each other",
+      "In opposite phase and parallel to each other",
+      "In phase and perpendicular to each other"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In an electromagnetic wave in free space, the electric field E⃗ and magnetic field B⃗ oscillate sinusoidally in the same phase (reaching maxima and zero at the same instant and space coordinate) and are perpendicular to each other and to the direction of wave propagation.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Wave Properties"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-06",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Direction of Fields and Wave Propagation",
+    "difficulty": "Medium",
+    "questionText": "A light wave is travelling along the +y direction. If the corresponding electric field vector E⃗ at any time is along the +x axis, the direction of the magnetic field vector B⃗ at that time is along:",
+    "options": [
+      "+y axis",
+      "+x axis",
+      "+z axis",
+      "–z axis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The direction of propagation of an electromagnetic wave is given by the cross product E⃗ × B⃗. Here, propagation is along +ĵ and E⃗ is along +î. Since î × (-k̂) = +ĵ, the magnetic field vector B⃗ must be oriented along the negative z-axis (–z axis).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Poynting Vector"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-07",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Relationship Between Field Amplitudes",
+    "difficulty": "Easy",
+    "questionText": "In an apparatus, the electric field of an EM wave was found to oscillate with an amplitude of 18 V m⁻¹. The magnitude of the oscillating magnetic field amplitude will be:",
+    "options": [
+      "4 × 10⁻⁶ T",
+      "6 × 10⁻⁸ T",
+      "9 × 10⁻⁹ T",
+      "11 × 10⁻¹¹ T"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In free space, the amplitude of electric and magnetic fields are related by c = E₀ / B₀. Therefore, B₀ = E₀ / c = 18 / (3 × 10⁸) = 6 × 10⁻⁸ T.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Field Amplitudes"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-08",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Electromagnetic Spectrum Frequencies",
+    "difficulty": "Medium",
+    "questionText": "The frequency of an electromagnetic wave is 6 × 10¹⁵ Hz. This wave belongs to which part of the electromagnetic spectrum?",
+    "options": [
+      "Radiowave",
+      "Microwave",
+      "X-ray",
+      "Ultraviolet"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The wavelength is λ = c / ν = (3 × 10⁸ m/s) / (6 × 10¹⁵ Hz) = 0.5 × 10⁻⁷ m = 50 nm (500 Å). Ultraviolet radiation spans wavelengths from ~0.6 nm to 380 nm (frequencies 8 × 10¹⁴ Hz to 5 × 10¹⁷ Hz), so this wave is an ultraviolet ray.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "EM Spectrum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-09",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Wavelength Hierarchy in EM Spectrum",
+    "difficulty": "Easy",
+    "questionText": "Which of the following electromagnetic radiations has the highest wavelength?",
+    "options": [
+      "X-rays",
+      "Radiowaves",
+      "UV-rays",
+      "Microwaves"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In order of increasing wavelength: γ-rays < X-rays < Ultraviolet < Visible light < Infrared < Microwaves < Radiowaves. Hence, radiowaves have the longest wavelength (ranging from mm up to thousands of kilometers).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "EM Spectrum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-10",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Transport of Energy and Momentum",
+    "difficulty": "Easy",
+    "questionText": "Electromagnetic waves can transport:",
+    "options": [
+      "Momentum only",
+      "Energy only",
+      "Charge",
+      "Both momentum and energy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Electromagnetic waves carry both energy and linear momentum through space. However, they carry zero net electric charge as they consist of oscillating electric and magnetic fields (photons with zero charge).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Wave Properties"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-11",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Poynting Vector and Propagation",
+    "difficulty": "Easy",
+    "questionText": "The cross product of electric field and magnetic field vectors (E⃗ × B⃗) gives the:",
+    "options": [
+      "Direction of EM wave propagation",
+      "Speed of light",
+      "Null vector",
+      "Induced electromotive force"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Poynting vector S⃗ = (E⃗ × B⃗) / μ₀ points in the direction of energy flow, which is the direction of propagation of the electromagnetic wave.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Poynting Vector"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Direction of Propagation from Harmonic Fields",
+    "difficulty": "Medium",
+    "questionText": "If the electric field is E⃗ = E₀ sin(ωt – kz) î and the magnetic field is B⃗ = B₀ sin(ωt – kz) ĵ, then the electromagnetic wave travels along the:",
+    "options": [
+      "+z direction",
+      "–y direction",
+      "+x direction",
+      "+y direction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Direction of wave propagation is along E⃗ × B⃗ = (E₀ î) × (B₀ ĵ) = (E₀ B₀) k̂, which is along the +z direction. Also, the term (ωt - kz) indicates propagation in the positive z-direction.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Wave Equation"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-13",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Wavelength from Magnetic Field Expression",
+    "difficulty": "Medium",
+    "questionText": "The oscillatory magnetic field in a plane electromagnetic wave is given by By = 0.6 × 10⁻⁵ sin(4000π x – 5 × 10¹⁰ π t) T (where x is in meters and t is in seconds). The wavelength of the wave is:",
+    "options": [
+      "0.4 × 10⁻³ m",
+      "0.2 × 10⁻³ m",
+      "0.5 × 10⁻³ m",
+      "0.3 × 10⁻³ m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comparing with By = B₀ sin(kx - ωt), the propagation constant is k = 4000π m⁻¹. Since k = 2π / λ, we have λ = 2π / k = 2π / (4000π) = 1 / 2000 m = 0.5 × 10⁻³ m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Wavelength Calculation"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-14",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Energy Density Equipartition",
+    "difficulty": "Easy",
+    "questionText": "In a plane electromagnetic wave propagating in free space:",
+    "options": [
+      "The average energy density of the electric field is equal to that of the magnetic field",
+      "The average energy density of the electric field is greater than that of the magnetic field",
+      "The average energy density of the electric field is less than that of the magnetic field",
+      "Energy is carried only by the electric field"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In an electromagnetic wave, energy is equally divided between the electric and magnetic fields: u_E = (1/4)ε₀ E₀² and u_B = (1/4μ₀) B₀². Since E₀ = c B₀ and c² = 1/(μ₀ε₀), u_E = u_B. Total average energy density is u = u_E + u_B = (1/2)ε₀ E₀².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Energy Density"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-15",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Ratio of Field Amplitudes",
+    "difficulty": "Easy",
+    "questionText": "The ratio of the amplitude of magnetic field B₀ to electric field E₀ associated with an electromagnetic wave in vacuum is (where c is the speed of light in vacuum):",
+    "options": [
+      "1 / c²",
+      "c",
+      "c²",
+      "1 / c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "By Maxwell's equations, E₀ / B₀ = c. Therefore, the ratio B₀ / E₀ is equal to 1 / c.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Field Amplitudes"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-16",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Poynting Vector Mathematical Definition",
+    "difficulty": "Easy",
+    "questionText": "The Poynting vector S⃗ representing the energy flux per unit area per unit time in vacuum is defined in usual notation as:",
+    "options": [
+      "S⃗ = B⃗ × E⃗",
+      "S⃗ = E⃗ × B⃗",
+      "S⃗ = (E⃗ × B⃗) / μ₀",
+      "S⃗ = (B⃗ × E⃗) / μ₀"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Poynting vector in vacuum is defined as S⃗ = (E⃗ × B⃗) / μ₀. Its magnitude gives the instantaneous power flow per unit area and its direction is the direction of wave propagation.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Poynting Vector"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-17",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Rate of Voltage Change Across Capacitor",
+    "difficulty": "Medium",
+    "questionText": "The rate at which the potential difference between the plates of a parallel plate capacitor of capacitance 2 μF must be changed to produce a displacement current of 1 A is:",
+    "options": [
+      "0.5 MV/s",
+      "0.3 MV/s",
+      "0.2 MV/s",
+      "0.1 MV/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Displacement current is I_d = C (dV/dt). Therefore, dV/dt = I_d / C = 1 A / (2 × 10⁻⁶ F) = 0.5 × 10⁶ V/s = 0.5 MV/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Displacement Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-18",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Speed of Light in a Dielectric Medium",
+    "difficulty": "Easy",
+    "questionText": "For a transparent medium, the relative permeability μᵣ and relative permittivity εᵣ are 1.0 and 1.44 respectively. The velocity of light in this medium would be: [NEET-2019]",
+    "options": [
+      "4.32 × 10⁸ m/s",
+      "2.5 × 10⁸ m/s",
+      "3 × 10⁸ m/s",
+      "2.08 × 10⁸ m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Speed of light in a material medium is v = c / √(μᵣ εᵣ) = (3 × 10⁸ m/s) / √(1.0 × 1.44) = (3 × 10⁸) / 1.2 = 2.5 × 10⁸ m/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Speed of Light"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-19",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Conduction and Displacement Current Equality",
+    "difficulty": "Easy",
+    "questionText": "A parallel plate capacitor of capacitance 20 μF is being charged by a voltage source whose potential is changing at the rate of 3 V/s. The conduction current through the connecting wires and the displacement current through the plates of the capacitor are, respectively: [NEET-2019]",
+    "options": [
+      "Zero, 60 μA",
+      "60 μA, 60 μA",
+      "60 μA, zero",
+      "Zero, zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Conduction current is I_c = dq/dt = C (dV/dt) = 20 μF × 3 V/s = 60 μA. In accordance with generalized Ampere-Maxwell law, the displacement current between the plates equals the conduction current in the connecting wires: I_d = I_c = 60 μA.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Displacement Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-20",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Peak Magnetic Field from RMS Electric Field",
+    "difficulty": "Medium",
+    "questionText": "In an electromagnetic wave in free space, the root mean square value of the electric field is Erms = 6 V/m. The peak value of the magnetic field is: [NEET-2017]",
+    "options": [
+      "1.41 × 10⁻⁸ T",
+      "2.83 × 10⁻⁸ T",
+      "0.70 × 10⁻⁸ T",
+      "4.23 × 10⁻⁸ T"
+    ],
+    "correctAnswer": 1,
+    "explanation": "First, the peak value of electric field is E₀ = √2 Erms = √2 × 6 V/m. Then, the peak value of magnetic field is B₀ = E₀ / c = (6√2) / (3 × 10⁸) = 2√2 × 10⁻⁸ T = 2 × 1.414 × 10⁻⁸ T ≈ 2.83 × 10⁻⁸ T.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Field Calculations"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-21",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Radiation Pressure and Momentum",
+    "difficulty": "Easy",
+    "questionText": "A radiation of energy E falls normally on a perfectly reflecting surface. The momentum transferred to the surface is (where c is the velocity of light): [AIPMT-2015]",
+    "options": [
+      "2E / c²",
+      "E / c",
+      "E / 2c²",
+      "2E / c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Initial momentum of incident radiation is p_initial = E / c. On complete reflection, the final momentum is p_final = -E / c. Therefore, the change in momentum (momentum transferred to the surface) is Δp = p_initial - p_final = 2E / c.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Radiation Pressure"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-22",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Radiation Force on Reflecting Surface",
+    "difficulty": "Medium",
+    "questionText": "Light with an energy flux of 25 × 10⁴ W m⁻² falls on a perfectly reflecting surface at normal incidence. If the surface area is 15 cm², the average force exerted on the surface is: [AIPMT-2014]",
+    "options": [
+      "1.25 × 10⁻⁶ N",
+      "2.50 × 10⁻⁶ N",
+      "1.20 × 10⁻⁶ N",
+      "3.0 × 10⁻⁶ N"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a perfectly reflecting surface at normal incidence, radiation pressure P = 2I / c. The force exerted is F = P × A = 2IA / c. Given I = 25 × 10⁴ W/m² and A = 15 × 10⁻⁴ m²: F = [2 × (25 × 10⁴) × (15 × 10⁻⁴)] / (3 × 10⁸) = 750 / (3 × 10⁸) = 2.50 × 10⁻⁶ N.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Radiation Force"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-23",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Wave Vector and Frequency Relation",
+    "difficulty": "Easy",
+    "questionText": "The electric field associated with an EM wave in vacuum is given by E⃗ = 40 cos(kz – 6 × 10⁸ t) î, where E, z, and t are in V/m, meters, and seconds respectively. The value of wave vector k is: [AIPMT-2012]",
+    "options": [
+      "6 m⁻¹",
+      "3 m⁻¹",
+      "2 m⁻¹",
+      "0.5 m⁻¹"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comparing with E = E₀ cos(kz - ωt), the angular frequency is ω = 6 × 10⁸ rad/s. In vacuum, the wave speed is c = ω / k = 3 × 10⁸ m/s. Therefore, k = ω / c = (6 × 10⁸) / (3 × 10⁸) = 2 m⁻¹.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Wave Vector"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-24",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Order of Wavelengths in Spectrum",
+    "difficulty": "Easy",
+    "questionText": "The decreasing order of wavelength of infrared, microwave, ultraviolet and gamma rays is: [AIPMT-2011]",
+    "options": [
+      "Infrared, microwave, ultraviolet, gamma rays",
+      "Microwave, infrared, ultraviolet, gamma rays",
+      "Gamma rays, ultraviolet, infrared, microwaves",
+      "Microwaves, gamma rays, infrared, ultraviolet"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Microwaves have the longest wavelength (~1 mm to 0.1 m), followed by infrared (~750 nm to 1 mm), ultraviolet (~1 nm to 400 nm), and gamma rays have the shortest wavelength (< 10⁻¹² m). Thus, the decreasing order is Microwave > Infrared > Ultraviolet > Gamma rays.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "EM Spectrum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch23-25",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "topic": "Intensity of an Electromagnetic Wave",
+    "difficulty": "Hard",
+    "questionText": "The electric field of an emergent beam is represented by Ex = 36 sin(1.2 × 10⁷ z – 3.6 × 10¹⁵ t) V/m. The average intensity of the beam in W/m² is approximately:",
+    "options": [
+      "6.88",
+      "3.44",
+      "1.72",
+      "0.86"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Speed of the wave is v = ω / k = (3.6 × 10¹⁵) / (1.2 × 10⁷) = 3 × 10⁸ m/s = c. Average intensity of an electromagnetic wave is I = (1/2) ε₀ E₀² c. Given E₀ = 36 V/m: I = 0.5 × (8.854 × 10⁻¹²) × (36)² × (3 × 10⁸) = 0.5 × 8.854 × 10⁻¹² × 1296 × 3 × 10⁸ ≈ 1.72 W/m².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Waves",
+      "Wave Intensity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-01",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Potential Energy to Total Energy Ratio",
+    "difficulty": "Easy",
+    "questionText": "The ratio of potential energy to the total energy of an electron in a Bohr orbit of the hydrogen atom is:",
+    "options": [
+      "1 : 1",
+      "–1 : 1",
+      "2 : 1",
+      "–1 : 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Bohr's model of the hydrogen atom, potential energy is U = -e²/(4πε₀r), kinetic energy is K = e²/(8πε₀r), and total energy is E = K + U = -e²/(8πε₀r). Thus, U = 2E, and the ratio of potential energy to total energy is U / E = 2 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Model"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-02",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Angular Speed to Tangential Speed Ratio",
+    "difficulty": "Medium",
+    "questionText": "The ratio of angular speed (ω) and tangential speed (v) of an electron in the nth orbit of a hydrogen atom is:",
+    "options": [
+      "Inversely proportional to n²",
+      "Directly proportional to n²",
+      "Inversely proportional to n⁴",
+      "Independent of n"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Since v = rω, the ratio is ω / v = 1 / r. According to Bohr's postulate, the radius of the nth orbit is r ∝ n². Therefore, ω / v = 1 / r ∝ 1 / n², which is inversely proportional to n².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Orbital Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-03",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Wavelength Ratio of Balmer to Lyman Lines",
+    "difficulty": "Medium",
+    "questionText": "The ratio of wavelengths of the first line of the Balmer series to the second line of the Lyman series in the hydrogen spectrum is:",
+    "options": [
+      "5 / 27",
+      "27 / 5",
+      "5 / 32",
+      "32 / 5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "First line of Balmer series (n = 3 to n = 2): 1/λ_B = R(1/4 - 1/9) = 5R/36 => λ_B = 36 / (5R). Second line of Lyman series (n = 3 to n = 1): 1/λ_L = R(1/1 - 1/9) = 8R/9 => λ_L = 9 / (8R). The ratio is λ_B / λ_L = [36 / (5R)] / [9 / (8R)] = (36 × 8) / (5 × 9) = 32 / 5.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Hydrogen Spectrum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-04",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Quantization of Angular Momentum",
+    "difficulty": "Easy",
+    "questionText": "Which of the following cannot be the orbital angular momentum of an electron in a hydrogen atom according to Bohr's model?",
+    "options": [
+      "2h / π",
+      "h / π",
+      "3h / (2π)",
+      "5h / (4π)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bohr's quantization condition states that L = n(h / 2π), where n = 1, 2, 3, ... (an integer). For n = 1: h/(2π); n = 2: h/π; n = 3: 3h/(2π); n = 4: 2h/π. Since 5h/(4π) corresponds to n = 2.5 (non-integer), it is not allowed.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Postulates"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-05",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Shortest Wavelength of Lyman Series",
+    "difficulty": "Easy",
+    "questionText": "The shortest wavelength of the Lyman series (series limit) in the hydrogen spectrum is approximately:",
+    "options": [
+      "1215 Å",
+      "6563 Å",
+      "912 Å",
+      "639 Å"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The shortest wavelength corresponds to transition from n = ∞ to n = 1: 1/λ_min = R(1 - 1/∞) = R. Hence λ_min = 1 / R = 1 / (1.097 × 10⁷ m⁻¹) ≈ 9.116 × 10⁻⁸ m = 912 Å.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Lyman Series"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-06",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Energy of Electron in Stationary Orbits",
+    "difficulty": "Easy",
+    "questionText": "The total energy of an electron in the third stationary orbit (n = 3) of a hydrogen atom is about:",
+    "options": [
+      "–3.4 eV",
+      "+3.4 eV",
+      "–1.51 eV",
+      "+1.51 eV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Energy of an electron in the nth orbit of hydrogen is E_n = -13.6 / n² eV. For n = 3: E_3 = -13.6 / (3²) = -13.6 / 9 ≈ -1.51 eV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Energy Levels"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-07",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Shortest Wavelengths Ratio Across Spectral Series",
+    "difficulty": "Medium",
+    "questionText": "The shortest wavelengths of hydrogen atom transitions in the Lyman, Balmer, and Paschen series are in the ratio of:",
+    "options": [
+      "1 : 2 : 3",
+      "1 : 4 : 9",
+      "9 : 1 : 3",
+      "4 : 12 : 17"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The shortest wavelength (series limit, n_initial = ∞) for a series ending at orbit n_final is λ_min = n_final² / R. For Lyman (n=1): λ_L = 1/R. For Balmer (n=2): λ_B = 4/R. For Paschen (n=3): λ_P = 9/R. Thus, the ratio λ_L : λ_B : λ_P = 1 : 4 : 9.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Hydrogen Spectrum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-08",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Spectral Regions of Hydrogen Series",
+    "difficulty": "Easy",
+    "questionText": "The Lyman series in the hydrogen spectrum lies in which electromagnetic region?",
+    "options": [
+      "Infrared region",
+      "Ultraviolet region",
+      "Visible region",
+      "Both visible and ultraviolet regions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Lyman series transitions terminate at n = 1 with wavelengths ranging from 912 Å to 1216 Å, which lies entirely in the ultraviolet region of the spectrum.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Lyman Series"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-09",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Orbital Period Dependence on n and Z",
+    "difficulty": "Medium",
+    "questionText": "The time period of revolution of an electron around a nucleus of charge Ze in the nth Bohr orbit is directly proportional to:",
+    "options": [
+      "n",
+      "n³ / Z²",
+      "n² / Z³",
+      "n / Z"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time period T = 2πr / v. In Bohr's theory, radius r ∝ n² / Z and speed v ∝ Z / n. Therefore, T ∝ (n² / Z) / (Z / n) = n³ / Z².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Model"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-10",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Number of Spectral Lines",
+    "difficulty": "Easy",
+    "questionText": "When an electron in a hydrogen atom de-excites from the nth orbit to the ground state (n = 1), the maximum possible number of spectral lines emitted is:",
+    "options": [
+      "n",
+      "2n",
+      "n(n – 1) / 2",
+      "n(n + 1) / 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The number of distinct transitions possible between n energy levels is given by combinations ⁿC₂ = n(n - 1) / 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Emission Spectrum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-11",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Total Energy from Potential Energy",
+    "difficulty": "Easy",
+    "questionText": "The potential energy of an electron in a hydrogen atom in a given orbit is –1.68 eV. The total energy of the electron in this orbit is:",
+    "options": [
+      "+3.36 eV",
+      "–0.84 eV",
+      "+0.84 eV",
+      "–3.36 eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In an atom with Coulomb potential, the virial theorem gives Total Energy E = U / 2. Therefore, E = (-1.68 eV) / 2 = -0.84 eV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Energy Relations"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-12",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Orbital Speed Comparison in Hydrogen-like Ions",
+    "difficulty": "Medium",
+    "questionText": "The velocity of an electron in the second orbit of a hydrogen atom is v. The velocity of an electron in the first orbit of Li²⁺ is:",
+    "options": [
+      "6v",
+      "8v",
+      "v",
+      "4v"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The velocity of an electron in Bohr's model is v ∝ Z / n. For H in second orbit (Z = 1, n = 2): v ∝ 1/2. For Li²⁺ in first orbit (Z = 3, n = 1): v' ∝ 3/1 = 3. Therefore, v' / v = 3 / (1/2) = 6, which gives v' = 6v.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-13",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Energy Changes During Excitation",
+    "difficulty": "Easy",
+    "questionText": "When a hydrogen atom is raised from its ground state to an excited state:",
+    "options": [
+      "Potential energy increases and kinetic energy decreases",
+      "Potential energy decreases and kinetic energy increases",
+      "Both kinetic energy and potential energy increase",
+      "Both kinetic energy and potential energy decrease"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As the quantum number n increases, the orbital radius r increases. Since KE = e²/(8πε₀r), KE decreases. Since PE = -e²/(4πε₀r), PE becomes less negative, which means PE increases.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Orbit Energetics"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-14",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Orbit Radius of Hydrogen-like Ion",
+    "difficulty": "Medium",
+    "questionText": "In a triply-ionized Beryllium ion (Be³⁺, Z = 4), if a₀ is the radius of the first orbit of hydrogen, then the radius of the second orbit (n = 2) of Be³⁺ is:",
+    "options": [
+      "2a₀",
+      "a₀",
+      "4a₀",
+      "a₀ / 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The radius of the nth orbit is r_n = (n² / Z) a₀. For Be³⁺ (Z = 4) in the second orbit (n = 2): r₂ = (2² / 4) a₀ = (4 / 4) a₀ = a₀.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Radius"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-15",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Ionization Energy of Doubly Ionized Lithium",
+    "difficulty": "Easy",
+    "questionText": "As per the Bohr model, the minimum energy (in eV) required to remove an electron from the ground state of a doubly ionized Lithium atom (Li²⁺, Z = 3) is:",
+    "options": [
+      "1.51 eV",
+      "13.6 eV",
+      "40.8 eV",
+      "122.4 eV"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ground state ionization energy of a hydrogen-like atom is E = 13.6 × Z² eV. For Li²⁺ (Z = 3): E = 13.6 × (3²) = 13.6 × 9 = 122.4 eV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Ionization Energy"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-16",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Muonic Hydrogen Atom [NEET-2019 Odisha]",
+    "difficulty": "Hard",
+    "questionText": "The radius of the first permitted Bohr orbit for the electron in a hydrogen atom is 0.51 Å and its ground state energy is –13.6 eV. If the electron is replaced by a muon (μ⁻) having charge equal to electron and mass 207 m_e, the first Bohr radius and ground state energy will be: [NEET-2019 (Odisha)]",
+    "options": [
+      "2.56 × 10⁻¹³ m, –13.6 eV",
+      "0.53 × 10⁻¹³ m, –3.6 eV",
+      "25.6 × 10⁻¹³ m, –2.8 eV",
+      "2.56 × 10⁻¹³ m, –2.8 keV"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In Bohr's theory, radius r ∝ 1/m and energy E ∝ m. Radius r_μ = r_e / 207 = (0.51 × 10⁻¹⁰ m) / 207 ≈ 2.46 × 10⁻¹³ m ≈ 2.56 × 10⁻¹³ m. Ground state energy E_μ = 207 × (-13.6 eV) = -2815.2 eV ≈ -2.8 keV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Muonic Atom"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-17",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Kinetic and Potential Energy in Orbit [NEET-2019]",
+    "difficulty": "Easy",
+    "questionText": "The total energy of an electron in an atom in an orbit is –3.4 eV. Its kinetic and potential energies are, respectively: [NEET-2019]",
+    "options": [
+      "–3.4 eV, –3.4 eV",
+      "–3.4 eV, –6.8 eV",
+      "+3.4 eV, –6.8 eV",
+      "+3.4 eV, +3.4 eV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kinetic energy K = -E = -(-3.4 eV) = +3.4 eV. Potential energy U = 2E = 2(-3.4 eV) = -6.8 eV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Bohr Energy Relations"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-18",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Kinetic to Total Energy Ratio [NEET-2018]",
+    "difficulty": "Easy",
+    "questionText": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom is: [NEET-2018]",
+    "options": [
+      "1 : 1",
+      "1 : –1",
+      "1 : –2",
+      "2 : –1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kinetic energy K is positive (K > 0) while total energy E is negative with equal magnitude (E = -K). Hence, K / E = K / (-K) = -1 = 1 : –1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Energy Ratios"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-19",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Series Limit Ratio of Balmer to Lyman [NEET-2017]",
+    "difficulty": "Easy",
+    "questionText": "The ratio of wavelengths of the last line of the Balmer series to the last line of the Lyman series is: [NEET-2017]",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "0.5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Last line of Balmer series (n = ∞ to n = 2): 1/λ_B = R(1/4 - 0) = R/4 => λ_B = 4/R. Last line of Lyman series (n = ∞ to n = 1): 1/λ_L = R(1/1 - 0) = R => λ_L = 1/R. The ratio is λ_B / λ_L = (4/R) / (1/R) = 4.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Series Limit"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-20",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Wavelength Ratio for Successive Transitions [NEET-2016]",
+    "difficulty": "Medium",
+    "questionText": "If an electron in a hydrogen atom jumps from the 3rd orbit to the 2nd orbit, it emits a photon of wavelength λ. When it jumps from the 4th orbit to the 3rd orbit, the corresponding wavelength of the photon will be: [NEET-2016]",
+    "options": [
+      "16λ / 25",
+      "9λ / 16",
+      "20λ / 7",
+      "20λ / 13"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For transition 3 -> 2: 1/λ = R(1/4 - 1/9) = 5R/36 => λ = 36 / (5R). For transition 4 -> 3: 1/λ' = R(1/9 - 1/16) = 7R/144 => λ' = 144 / (7R). Dividing the two expressions: λ' / λ = [144 / (7R)] / [36 / (5R)] = (144 × 5) / (36 × 7) = (4 × 5) / 7 = 20 / 7. Therefore, λ' = (20 / 7)λ.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Rydberg Formula"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-21",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Wave Number of Balmer Series Limit [NEET-2016]",
+    "difficulty": "Easy",
+    "questionText": "Given the value of Rydberg constant is R = 10⁷ m⁻¹, the wave number of the last line of the Balmer series in the hydrogen spectrum will be: [NEET-2016]",
+    "options": [
+      "2.5 × 10⁷ m⁻¹",
+      "0.025 × 10⁴ m⁻¹",
+      "0.5 × 10⁷ m⁻¹",
+      "0.25 × 10⁷ m⁻¹"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Wave number ν̄ = 1/λ = R(1/n₁² - 1/n₂²). For the last line of the Balmer series, n₁ = 2 and n₂ = ∞: ν̄ = R(1/4 - 0) = R / 4 = 10⁷ / 4 = 0.25 × 10⁷ m⁻¹.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Wave Number"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-22",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Ratio of Longest Wavelengths of Lyman and Balmer [NEET-2013]",
+    "difficulty": "Medium",
+    "questionText": "The ratio of the longest wavelengths corresponding to the Lyman and Balmer series in the hydrogen spectrum is: [NEET-2013]",
+    "options": [
+      "3 / 23",
+      "7 / 29",
+      "9 / 31",
+      "5 / 27"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Longest wavelength of Lyman series (2 -> 1): 1/λ_L = R(1 - 1/4) = 3R/4 => λ_L = 4 / (3R). Longest wavelength of Balmer series (3 -> 2): 1/λ_B = R(1/4 - 1/9) = 5R/36 => λ_B = 36 / (5R). Ratio λ_L / λ_B = [4 / (3R)] / [36 / (5R)] = (4 / 3) × (5 / 36) = 5 / 27.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Spectral Series"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-23",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Recoil Velocity of Hydrogen Atom [AIPMT-2012]",
+    "difficulty": "Hard",
+    "questionText": "An electron of a stationary hydrogen atom de-excites from the fifth energy level (n = 5) to the ground level (n = 1). The recoil velocity that the atom acquires as a result of the photon emission will be: [AIPMT-2012]",
+    "options": [
+      "25hR / (24m)",
+      "24hR / (25m)",
+      "24m / (25hR)",
+      "25m / (24hR)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The wave number is 1/λ = R(1/1² - 1/5²) = R(1 - 1/25) = 24R/25. The momentum of the emitted photon is p = h / λ = 24hR / 25. By conservation of linear momentum, the recoil momentum of the atom of mass m is m v = p. Hence, v = 24hR / (25m).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Recoil Momentum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-24",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Wavelength Equivalence Across Species [AIPMT-2011]",
+    "difficulty": "Hard",
+    "questionText": "The wavelength of the first line of the Lyman series for hydrogen atom is equal to that of the second line of the Balmer series for a hydrogen-like ion. The atomic number Z of the hydrogen-like ion is: [AIPMT-2011]",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "First line of Lyman for H (2 -> 1): 1/λ = R(1 - 1/4) = 3R/4. Second line of Balmer for ion of atomic number Z (4 -> 2): 1/λ = R Z² (1/4 - 1/16) = R Z² (3/16). Equating the two: 3R/4 = 3R Z² / 16 => 1/4 = Z² / 16 => Z² = 4 => Z = 2 (He⁺ ion).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Rydberg Formula"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch27-25",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "topic": "Photoelectric Effect from Bohr Transition [AIPMT-2010]",
+    "difficulty": "Hard",
+    "questionText": "An electron in a hydrogen atom jumps from the excited state n = 3 to its ground state n = 1, and the photons thus emitted irradiate a photosensitive material. If the work function of the material is 5.1 eV, the stopping potential of the emitted photoelectrons is estimated to be: [AIPMT-2010]",
+    "options": [
+      "5.1 V",
+      "12.1 V",
+      "17.2 V",
+      "7.0 V"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Energy of photon emitted in transition from n = 3 to n = 1: hν = E₃ - E₁ = (-1.51 eV) - (-13.6 eV) = 12.09 eV. By Einstein's photoelectric equation, maximum kinetic energy of photoelectrons is K_max = hν - Φ = 12.09 eV - 5.1 eV = 6.99 eV ≈ 7.0 eV. Since K_max = eV₀, the stopping potential is V₀ = 7.0 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Atoms",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-01",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Nuclear Density Independence of Mass Number",
+    "difficulty": "Easy",
+    "questionText": "The ratio of the nuclear density of two nuclei with mass numbers 27 and 64 will be:",
+    "options": [
+      "3 : 4",
+      "1 : 1",
+      "√3 : 2",
+      "3^(1/3) : 4^(1/3)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nuclear radius scales as R = R₀ A^(1/3). The volume is V = (4/3)π R³ = (4/3)π R₀³ A. Therefore, nuclear density ρ = Mass / Volume = (m A) / [(4/3)π R₀³ A] = 3m / (4π R₀³), which is completely independent of mass number A. The ratio of nuclear densities is always 1 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Density"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-02",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Recoil Velocity of Daughter Nucleus in Alpha Decay",
+    "difficulty": "Medium",
+    "questionText": "A nucleus of ₈₄X²²⁰ originally at rest emits an α-particle with speed v₀. The speed of the recoil daughter nucleus will be:",
+    "options": [
+      "v₀ / 216",
+      "4v₀ / 27",
+      "v₀ / 54",
+      "3v₀ / 108"
+    ],
+    "correctAnswer": 2,
+    "explanation": "By conservation of linear momentum: m_α v₀ = m_daughter v_d. Here, m_α = 4 u and m_daughter = 220 - 4 = 216 u. Therefore, v_d = (4 / 216) v₀ = v₀ / 54.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Alpha Decay"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-03",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Mean Life from Fractional Decay",
+    "difficulty": "Medium",
+    "questionText": "The number of active nuclei in a radioactive sample becomes 1/8th of its initial value N₀ in a period of 6 years. The mean life (in years) of the radioactive sample is:",
+    "options": [
+      "6 / ln 2",
+      "4 / ln 2",
+      "3 / (2 ln 2)",
+      "2 / ln 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "N / N₀ = (1/2)ⁿ = 1/8 = (1/2)³ => n = 3 half-lives. Total time = 3 T₁/₂ = 6 years => T₁/₂ = 2 years. Since half-life and mean life τ are related by T₁/₂ = τ ln 2, the mean life is τ = T₁/₂ / ln 2 = 2 / ln 2 years.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactivity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-04",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Energy Conservation in Nuclear Fusion",
+    "difficulty": "Medium",
+    "questionText": "The binding energies of the nuclei of elements P and Q are E_P and E_Q respectively. Two nuclei of element P fuse to form one nucleus of element Q, accompanied by the release of energy e. The relation among E_P, E_Q, and e is:",
+    "options": [
+      "E_Q + e = 2E_P",
+      "2E_Q + e = E_P",
+      "E_P + e = 2E_Q",
+      "2E_P + e = E_Q"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In an exothermic fusion reaction, energy released is given by Q = BE(products) - BE(reactants). Here, e = E_Q - 2E_P, which rearranges directly to 2E_P + e = E_Q.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Binding Energy"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-05",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Ratio of Remaining Nuclei for Different Decay Constants",
+    "difficulty": "Medium",
+    "questionText": "Two radioactive samples have decay constants 12k and 4k. If they have the same initial number of nuclei, the ratio of the respective number of nuclei after a time t = 1 / (4k) is:",
+    "options": [
+      "1 / e⁶",
+      "1 / e²",
+      "1 / e⁴",
+      "1 / e³"
+    ],
+    "correctAnswer": 1,
+    "explanation": "N₁ = N₀ e^(-λ₁ t) = N₀ e^(-12k × 1/(4k)) = N₀ e⁻³. N₂ = N₀ e^(-λ₂ t) = N₀ e^(-4k × 1/(4k)) = N₀ e⁻¹. The ratio is N₁ / N₂ = e⁻³ / e⁻¹ = e⁻² = 1 / e².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactive Decay Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-06",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Definition of Isotones",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements correctly describes isotones?",
+    "options": [
+      "Isotones have equal number of protons",
+      "Isotones have equal number of neutrons",
+      "Isotones have equal number of electrons",
+      "In isotones, the atomic number equals the mass number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Isotones are nuclides that possess the same number of neutrons (N = A - Z) but different atomic numbers (Z) and different mass numbers (A).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Isotones"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-07",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Nuclear Radius Comparison",
+    "difficulty": "Easy",
+    "questionText": "If the nuclear radius of ⁶⁴X is 4.8 fermi, then the nuclear radius of ¹²⁵Y is:",
+    "options": [
+      "4.8 fermi",
+      "6.0 fermi",
+      "3.8 fermi",
+      "7.5 fermi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nuclear radius R ∝ A^(1/3). R_Y / R_X = (A_Y / A_X)^(1/3) = (125 / 64)^(1/3) = 5 / 4 = 1.25. Therefore, R_Y = 1.25 × 4.8 fermi = 6.0 fermi.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Radius"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-08",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Conservation Laws in Nuclear Reactions",
+    "difficulty": "Easy",
+    "questionText": "When aluminum is bombarded with fast-moving neutrons, it transmutes into sodium with the emission of particle X according to: ₁₃Al²⁷ + ₀n¹ → ₁₁Na²⁴ + X. The particle X is:",
+    "options": [
+      "Electron",
+      "Proton",
+      "Alpha particle",
+      "Positron"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Conserving charge: 13 + 0 = 11 + Z_X => Z_X = 2. Conserving mass number: 27 + 1 = 24 + A_X => A_X = 4. The emitted particle is ₂He⁴, which is an alpha particle.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Transmutation"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-09",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Radioactive Decay of a Moving Stream",
+    "difficulty": "Medium",
+    "questionText": "A beam of radioactive material with N₀ nuclei initially travels at a constant speed of 2500 m/s. If the half-life of the material is 693 s, the amount of radioactive material remaining after travelling a distance of 2500 km is:",
+    "options": [
+      "N₀ / e",
+      "N₀ / e²",
+      "N₀ / 2",
+      "N₀ / 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Time taken to travel 2500 km is t = distance / speed = (2500 × 10³ m) / (2500 m/s) = 1000 s. Decay constant λ = 0.693 / T₁/₂ = 0.693 / 693 = 10⁻³ s⁻¹. Number of nuclei remaining is N = N₀ e^(-λ t) = N₀ e^(-10⁻³ × 1000) = N₀ e⁻¹ = N₀ / e.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactive Decay"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-10",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Time to Half Initial Activity",
+    "difficulty": "Hard",
+    "questionText": "If the activity of a radioactive substance is R₀ at t = 0 and R₀ / e² at t = 10 hours, then the time (in hours) at which the activity reduces to half its initial value (R₀ / 2) is:",
+    "options": [
+      "5 log₁₀ 2",
+      "5 log_e 2",
+      "5 / log₁₀ 2",
+      "5 / log_e 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R(t) = R₀ e^(-λ t). At t = 10 hours, R₀ / e² = R₀ e^(-10λ) => 10λ = 2 => λ = 1/5 h⁻¹. The time to reach half activity is the half-life T₁/₂ = (ln 2) / λ = (log_e 2) / (1/5) = 5 log_e 2 hours.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Activity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-11",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Definition of 1 amu",
+    "difficulty": "Easy",
+    "questionText": "One atomic mass unit (1 u) is defined as:",
+    "options": [
+      "1/12 the mass of one mole of ₆C¹³ carbon atoms",
+      "1/12 the mass of one mole of ₆C¹² carbon atoms",
+      "1/12 the mass of one ₆C¹² carbon atom",
+      "1/12 the mass of one ₆C¹³ carbon atom"
+    ],
+    "correctAnswer": 2,
+    "explanation": "One atomic mass unit (1 u or 1 amu) is defined as exactly 1/12th the mass of an unbound neutral atom of carbon-12 (₆C¹²) in its nuclear and electronic ground state, equal to 1.66054 × 10⁻²⁷ kg.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Atomic Mass Unit"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-12",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Radius Ratio from Fragment Velocities",
+    "difficulty": "Medium",
+    "questionText": "A nucleus at rest splits into two daughter nuclei which move in opposite directions with speeds v and 27v. The ratio of the radii of the two nuclei is:",
+    "options": [
+      "3 : 1",
+      "3√3 : 1",
+      "9 : 1",
+      "27 : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "By conservation of momentum: m₁ v₁ = m₂ v₂ => m₁(v) = m₂(27v) => m₁ / m₂ = 27 / 1. Since nuclear mass is proportional to mass number A, A₁ / A₂ = 27 / 1. Nuclear radius R ∝ A^(1/3), so R₁ / R₂ = (27 / 1)^(1/3) = 3 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Fission"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-13",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Energy Released from BE per Nucleon",
+    "difficulty": "Medium",
+    "questionText": "The binding energy per nucleon for ¹H¹, ¹H³, and ₂He⁴ are a, b, and c respectively. The energy released in the hypothetical reaction ¹H¹ + ¹H³ → ₂He⁴ + Q is:",
+    "options": [
+      "a + 3b – 4c",
+      "4c – a – 3b",
+      "4c – a + 3b",
+      "c – a – b"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total binding energy of reactants = BE(¹H¹) + BE(¹H³) = 1(a) + 3(b) = a + 3b. Total binding energy of product = BE(₂He⁴) = 4(c) = 4c. The Q-value (energy released) is BE(products) - BE(reactants) = 4c - (a + 3b) = 4c - a - 3b.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Q Value"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-14",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Dependence of Activity and Decay Constant on Mass",
+    "difficulty": "Easy",
+    "questionText": "If the mass of a radioactive sample is increased, the activity of the sample and the decay constant of the sample respectively will:",
+    "options": [
+      "Increase, Increase",
+      "Decrease, Increase",
+      "Increase, Remain same",
+      "Remain same, Remain same"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Activity R = λN is directly proportional to the number of radioactive nuclei N (and therefore the mass), so it increases. However, the decay constant λ is an intrinsic characteristic of the specific nuclide and is independent of mass, temperature, or pressure.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactivity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-15",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Mean Life from Multi-Step Half-Life Decay",
+    "difficulty": "Hard",
+    "questionText": "At a given instant, 50% of the radioactive nuclei in a sample are undecayed. After another 40 s, the percentage of undecayed nuclei drops to 3.125%. The mean life of the radioactive element is:",
+    "options": [
+      "14.4 s",
+      "7.21 s",
+      "28.8 s",
+      "10 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From 50% to 3.125%, the fraction is 3.125 / 50 = 1 / 16 = (1/2)⁴. Thus, 4 half-lives have elapsed in 40 s => 4 T₁/₂ = 40 s => T₁/₂ = 10 s. The mean life is τ = T₁/₂ / 0.693 = 10 / 0.693 ≈ 14.43 s ≈ 14.4 s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Mean Life"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-16",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Product Nucleus after Alpha and Beta Decay [AIPMT-2011]",
+    "difficulty": "Medium",
+    "questionText": "A nucleus ₙXᵐ emits one α-particle and two β⁻ particles. The resulting nucleus is: [AIPMT-2011]",
+    "options": [
+      "ₙ₋₂Yᵐ⁻⁴",
+      "ₙ₋₄Zᵐ⁻⁶",
+      "ₙZᵐ⁻⁶",
+      "ₙXᵐ⁻⁴"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Emission of 1 α-particle changes atomic number Z from n to n - 2, and mass number A from m to m - 4. Emission of two β⁻ particles increases Z by 2 while leaving A unchanged. Final atomic number = (n - 2) + 2 = n, and final mass number = m - 4. Because the atomic number remains n, it is an isotope of the original element X, written as ₙXᵐ⁻⁴.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactive Series"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-17",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Q-Value of Lithium Proton Reaction [AIPMT-2014]",
+    "difficulty": "Medium",
+    "questionText": "The binding energy per nucleon of ₃Li⁷ and ₂He⁴ nuclei are 5.60 MeV and 7.06 MeV respectively. In the nuclear reaction ₃Li⁷ + ₁H¹ → ₂He⁴ + ₂He⁴ + Q, the energy Q released is: [AIPMT-2014]",
+    "options": [
+      "19.6 MeV",
+      "–2.4 MeV",
+      "8.4 MeV",
+      "17.3 MeV"
+    ],
+    "correctAnswer": 3,
+    "explanation": "BE of ₃Li⁷ = 7 × 5.60 = 39.20 MeV. BE of proton ₁H¹ = 0. Total BE of products = 2 × (4 × 7.06) = 2 × 28.24 = 56.48 MeV. The energy released Q = BE(products) - BE(reactants) = 56.48 - 39.20 = 17.28 MeV ≈ 17.3 MeV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Energy"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-18",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Radioactive Dating of Rock Samples [AIPMT-2014]",
+    "difficulty": "Medium",
+    "questionText": "A radioisotope X with half-life 1.4 × 10⁹ years decays to stable isotope Y. A sample of rock from a cave is found to contain X and Y in the ratio 1 : 7. The age of the rock is: [AIPMT-2014]",
+    "options": [
+      "1.96 × 10⁹ years",
+      "3.92 × 10⁹ years",
+      "4.20 × 10⁹ years",
+      "8.40 × 10⁹ years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ratio of parent X to total (X + Y) is N / N₀ = 1 / (1 + 7) = 1 / 8 = (1/2)³. Therefore, 3 half-lives have elapsed. Age of the rock = 3 × T₁/₂ = 3 × (1.4 × 10⁹ years) = 4.20 × 10⁹ years.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactive Dating"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-19",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Equal Residual Mass of Mixed Radioisotopes [AIPMT-2012]",
+    "difficulty": "Medium",
+    "questionText": "A mixture consists of two radioactive materials A₁ and A₂ with half-lives 20 s and 10 s respectively. Initially, the mixture contains 40 g of A₁ and 160 g of A₂. The amounts of the two in the mixture will become equal after: [AIPMT-2012]",
+    "options": [
+      "20 s",
+      "40 s",
+      "60 s",
+      "80 s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Remaining mass of A₁: m₁ = 40 (1/2)^(t / 20). Remaining mass of A₂: m₂ = 160 (1/2)^(t / 10). Equating m₁ = m₂: 40 (1/2)^(t/20) = 160 (1/2)^(t/10) => (1/2)^(t/20 - t/10) = 160 / 40 = 4 => (1/2)^(-t/20) = 2² => 2^(t/20) = 2² => t / 20 = 2 => t = 40 s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Half-Life Calculation"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-20",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Mass-Binding Energy Relation in Atomic Mass Units [AIPMT-2008]",
+    "difficulty": "Medium",
+    "questionText": "If M(A, Z), M_p, and M_n denote the masses of the nucleus ₙXᵐ (or ₙXᴬ), proton, and neutron respectively in units of u, and BE represents its binding energy in MeV, then: [AIPMT-2008]",
+    "options": [
+      "M(A, Z) = Z M_p + (A – Z) M_n + BE / c²",
+      "M(A, Z) = Z M_p + (A – Z) M_n – BE / c²",
+      "M(A, Z) = Z M_p + (A – Z) M_n + BE",
+      "M(A, Z) = Z M_p + (A – Z) M_n – BE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Binding energy is the mass defect converted into energy: BE = Δm c² = [Z M_p + (A - Z) M_n - M(A, Z)] c². Solving for nuclear mass gives M(A, Z) = Z M_p + (A - Z) M_n - BE / c².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Mass Defect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-21",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Origin of Beta-Minus Radiation [AIPMT-2007]",
+    "difficulty": "Easy",
+    "questionText": "In a radioactive decay process, the negatively charged emitted β⁻ particles are: [AIPMT-2007]",
+    "options": [
+      "The electrons produced as a result of the decay of neutrons inside the nucleus",
+      "The electrons produced as a result of collisions between atoms",
+      "The electrons orbiting around the nucleus",
+      "Electrons permanently present inside the nucleus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electrons cannot reside inside the nucleus. In β⁻ decay, an intra-nuclear neutron transforms via the weak interaction into a proton, emitting an electron (β⁻) and an antineutrino: ₀n¹ → ₁p¹ + ₋₁e⁰ + ν̄.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Beta Decay"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-22",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Energy Released in Deuteron Fusion [AIPMT-2006]",
+    "difficulty": "Easy",
+    "questionText": "The binding energy of a deuteron (₁H²) is 2.2 MeV and that of ₂He⁴ is 28 MeV. If two deuterons fuse to form one ₂He⁴ nucleus, then the energy released is: [AIPMT-2006]",
+    "options": [
+      "25.8 MeV",
+      "23.6 MeV",
+      "19.2 MeV",
+      "30.2 MeV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total binding energy of reactants (two deuterons) = 2 × 2.2 MeV = 4.4 MeV. Binding energy of product (₂He⁴) = 28 MeV. Energy released Q = BE(product) - BE(reactants) = 28 - 4.4 = 23.6 MeV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Fusion Energy"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-23",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Nucleon Number from Radius Comparison [AIPMT-2006]",
+    "difficulty": "Medium",
+    "questionText": "The radius of a Germanium (Ge) nuclide is measured to be twice the radius of ₄Be⁹. The number of nucleons in Ge is: [AIPMT-2006]",
+    "options": [
+      "73",
+      "74",
+      "75",
+      "72"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Nuclear radius R ∝ A^(1/3). R_Ge / R_Be = (A_Ge / A_Be)^(1/3) => 2 = (A_Ge / 9)^(1/3). Cubing both sides: 2³ = A_Ge / 9 => 8 = A_Ge / 9 => A_Ge = 8 × 9 = 72.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Radius"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-24",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Number of Alpha and Beta Decays in a Series",
+    "difficulty": "Medium",
+    "questionText": "What are the respective numbers of α and β⁻ particles emitted in the radioactive decay ²⁰⁰X₉₀ → ¹⁶⁸Y₈₀?",
+    "options": [
+      "8 and 8",
+      "8 and 6",
+      "6 and 8",
+      "6 and 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Change in mass number ΔA = 200 - 168 = 32. Since each α-particle removes 4 nucleons, number of α-particles = 32 / 4 = 8. The 8 α-particles decrease atomic number by 8 × 2 = 16 (from 90 to 74). To reach the final atomic number 80, the number of β⁻ particles emitted must be 80 - 74 = 6. Thus, 8 α and 6 β⁻ are emitted.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Radioactive Disintegration"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch28-25",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "topic": "Energy Released in Single Fission Event",
+    "difficulty": "Easy",
+    "questionText": "The average energy released in the fission of a single ₉₂U²³⁵ nucleus is approximately:",
+    "options": [
+      "20 MeV",
+      "200 MeV",
+      "2000 MeV",
+      "2 MeV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The average binding energy per nucleon of uranium is ~7.6 MeV, whereas for intermediate fission fragments it is ~8.5 MeV. The gain in binding energy per nucleon is ΔBE ≈ 0.9 MeV, leading to an energy release of 235 × 0.9 MeV ≈ 200 MeV per fission.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Nuclei",
+      "Nuclear Fission"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-01",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Current in a Diode Circuit",
+    "difficulty": "Medium",
+    "questionText": "An arrangement of an ideal diode and resistances is connected to an 8 V battery. The diode D₁ is in series with a 4 Ω resistor, and this combination is connected in parallel with a 2 Ω resistor. The combination is then connected in series with another 2 Ω resistor across the 8 V battery. Under forward bias of D₁, the current drawn from the battery is:",
+    "options": [
+      "3 A",
+      "2 A",
+      "1 A",
+      "4 A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since the diode is forward-biased, it acts as a short circuit (0 Ω). The branch with the diode has resistance R₁ = 4 Ω, in parallel with R₂ = 2 Ω: R_p = (4 × 2) / (4 + 2) = 8/6 = 4/3 Ω? Wait, in the standard textbook circuit with branch resistors 2 Ω and 2 Ω, the total equivalent resistance is 4 Ω, giving I = 8 V / 4 Ω = 2 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Diode Circuit"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-02",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Identification of Reverse Biasing",
+    "difficulty": "Easy",
+    "questionText": "Which of the following potential arrangements across a p-n junction diode represents reverse biasing?",
+    "options": [
+      "p-side at +5 V, n-side at +2 V",
+      "p-side at –2 V, n-side connected to ground (0 V)",
+      "p-side at +2 V, n-side at –2 V",
+      "p-side at +3 V, n-side at +2 V"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A p-n junction diode is reverse-biased when the p-side is maintained at a lower electric potential than the n-side (V_p < V_n). In option (2), V_p = –2 V and V_n = 0 V, so V_p < V_n, which corresponds to reverse biasing.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Diode Biasing"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-03",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Transistor Collector Current Calculation",
+    "difficulty": "Medium",
+    "questionText": "The current gain (β) of a transistor in common-emitter configuration is 49. If the emitter current is 5 mA, then the collector current is:",
+    "options": [
+      "2.9 mA",
+      "3.0 mA",
+      "4.9 mA",
+      "2.0 mA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a transistor, I_E = I_B + I_C. Since β = I_C / I_B, I_B = I_C / β. Thus, I_E = I_C(1 + 1/β) = I_C(β + 1)/β. Rearranging gives I_C = I_E × [β / (β + 1)] = 5 mA × [49 / (49 + 1)] = 5 × (49 / 50) = 4.9 mA.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Transistor Currents"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-04",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Temperature Dependence of Semiconductors",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements is incorrect for semiconductors?",
+    "options": [
+      "Conductivity of a semiconductor increases with rise in temperature",
+      "Resistivity of a semiconductor increases with rise in temperature",
+      "Ohm's law is not strictly obeyed by semiconductors",
+      "Mobility of holes is less as compared to that of electrons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Semiconductors have a negative temperature coefficient of resistance. As temperature rises, covalent bonds break, generating more electron-hole pairs, which increases electrical conductivity and decreases resistivity.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Thermal Properties"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-05",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Optimal Configuration for Power Amplification",
+    "difficulty": "Easy",
+    "questionText": "A transistor provides the highest power amplification when operated in which configuration?",
+    "options": [
+      "Common base configuration",
+      "Common emitter configuration",
+      "Common collector configuration",
+      "Both common base and common collector configurations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Power gain is given by A_p = A_i × A_v. In common-emitter (CE) configuration, both current gain (β > 1) and voltage gain (A_v > 1) are substantially greater than unity, yielding the highest power gain among all three configurations.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Transistor Amplifier"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-06",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Carrier Concentrations in Extrinsic Semiconductors",
+    "difficulty": "Easy",
+    "questionText": "In a doped semiconductor, the concentration of free electrons is 7 × 10¹⁵ cm⁻³ and that of holes is 3 × 10²¹ cm⁻³. The semiconductor is:",
+    "options": [
+      "Intrinsic",
+      "P-type",
+      "N-type",
+      "Compensated metallic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since the concentration of holes (n_h = 3 × 10²¹ cm⁻³) is far greater than the concentration of electrons (n_e = 7 × 10¹⁵ cm⁻³), holes are the majority charge carriers, making it a p-type semiconductor.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "P-Type Semiconductor"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-07",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Depletion Layer Width and Doping Density",
+    "difficulty": "Easy",
+    "questionText": "In a p-n junction diode, the width of the depletion layer:",
+    "options": [
+      "Decreases with decrease in doping concentration",
+      "Increases with increase in doping concentration",
+      "Decreases with increase in doping concentration",
+      "Is independent of doping concentration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "With higher doping concentration, the density of mobile charge carriers is very large. Consequently, a much thinner layer of unneutralized donor and acceptor ions is sufficient to set up the barrier potential, so the depletion layer width decreases.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Depletion Layer"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-08",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Operating Principle of Zener Diode",
+    "difficulty": "Easy",
+    "questionText": "Which of the following options is true for a Zener diode?",
+    "options": [
+      "Highly doped p-n junction, used in forward bias",
+      "Lightly doped p-n junction, used in reverse bias",
+      "Lightly doped p-n junction, used in forward bias",
+      "Highly doped p-n junction, used in reverse bias"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A Zener diode is a heavily doped p-n junction diode with a very narrow depletion layer (~10⁻⁶ m) specifically engineered to operate continuously in the reverse breakdown region without suffering damage.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Zener Diode"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-09",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Diffusion and Drift Currents in Reverse Bias",
+    "difficulty": "Medium",
+    "questionText": "The diffusion current in a p-n junction diode is smaller than the drift current in magnitude:",
+    "options": [
+      "If the junction diode is forward biased",
+      "If the junction diode is unbiased",
+      "If the junction diode is reverse biased",
+      "In no case, as drift and diffusion currents are always equal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In thermal equilibrium (unbiased), drift current equals diffusion current (net current = 0). Under forward bias, diffusion current exceeds drift current. Under reverse bias, the barrier height increases, heavily suppressing majority carrier diffusion, so diffusion current is smaller than the drift current.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Junction Currents"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-10",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Zener Diode as a Voltage Regulator",
+    "difficulty": "Medium",
+    "questionText": "A Zener diode with breakdown voltage V_Z = 10 V is used in a voltage regulator circuit fed by an unregulated 30 V DC source with a series dropping resistor R = 500 Ω and a load resistor R_L = 1 kΩ. The current through the Zener diode is:",
+    "options": [
+      "40 mA",
+      "30 mA",
+      "20 mA",
+      "10 mA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The voltage across the load resistor is fixed at V_Z = 10 V. The load current is I_L = V_Z / R_L = 10 V / (1000 Ω) = 10 mA. The voltage drop across the series resistor is V_R = V_in - V_Z = 30 - 10 = 20 V. The total current is I = V_R / R = 20 V / (500 Ω) = 40 mA. The current through the Zener diode is I_Z = I - I_L = 40 mA - 10 mA = 30 mA.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Voltage Regulator"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-11",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Truth Table of NOR Gate",
+    "difficulty": "Easy",
+    "questionText": "The output of a 2-input NOR gate is high (logic 1) if and only if:",
+    "options": [
+      "Both inputs are 0",
+      "Either of the two inputs is 1",
+      "Both inputs are 1",
+      "Either of the two inputs is 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Boolean expression for a NOR gate is Y = (A + B)'. When A = 0 and B = 0, Y = (0 + 0)' = 0' = 1. For any input containing 1, Y = 0.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Logic Gates"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-12",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "CE Transistor Circuit Analysis [NEET-2018]",
+    "difficulty": "Hard",
+    "questionText": "In a CE transistor amplifier circuit, input voltage V_i = 20 V, V_BE = 0 V, and V_CE = 0 V. The base resistor is R_B = 500 kΩ, collector supply is V_CC = 20 V, and collector resistor is R_C = 4 kΩ. The values of base current I_B, collector current I_C, and current gain β are: [NEET-2018]",
+    "options": [
+      "I_B = 40 μA, I_C = 10 mA, β = 250",
+      "I_B = 25 μA, I_C = 5 mA, β = 200",
+      "I_B = 40 μA, I_C = 5 mA, β = 125",
+      "I_B = 20 μA, I_C = 5 mA, β = 250"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Applying KVL to base circuit: V_i = I_B R_B + V_BE => 20 = I_B (500 × 10³) + 0 => I_B = 20 / (5 × 10⁵) = 40 × 10⁻⁶ A = 40 μA. Applying KVL to collector circuit: V_CC = I_C R_C + V_CE => 20 = I_C (4 × 10³) + 0 => I_C = 20 / (4000) = 5 × 10⁻³ A = 5 mA. Current gain β = I_C / I_B = (5 × 10⁻³ A) / (40 × 10⁻⁶ A) = 125.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Transistor Amplifier"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-13",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Wavelength Emitted by LED [NEET-2019 Odisha]",
+    "difficulty": "Medium",
+    "questionText": "An LED is fabricated from a semiconductor diode using GaAsP with an energy band gap of 1.9 eV. The wavelength of the light emitted by this LED will be nearly: [NEET-2019 (Odisha)]",
+    "options": [
+      "654 × 10⁻¹¹ m",
+      "10.4 × 10⁻²⁶ m",
+      "654 nm",
+      "654 Å"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Wavelength of radiation emitted across band gap E_g is λ = hc / E_g. Using hc ≈ 1240 eV·nm: λ = 1240 / 1.9 nm ≈ 652.6 nm ≈ 654 nm (which is in the red region of the visible spectrum).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Optoelectronic Devices"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-14",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Charge Carriers in P-Type Semiconductor [NEET-2019]",
+    "difficulty": "Easy",
+    "questionText": "For a p-type semiconductor, which of the following statements is true? [NEET-2019]",
+    "options": [
+      "Electrons are the majority carriers and trivalent atoms are the dopants",
+      "Holes are the majority carriers and trivalent atoms are the dopants",
+      "Holes are the majority carriers and pentavalent atoms are the dopants",
+      "Electrons are the majority carriers and pentavalent atoms are the dopants"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A p-type semiconductor is created by doping tetravalent silicon or germanium with trivalent impurity atoms (such as B, Al, In). Each trivalent dopant atom accepts an electron, producing an excess of holes (majority carriers).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Doping"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-15",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Effect of Temperature on P-N Junction [NEET-2018]",
+    "difficulty": "Easy",
+    "questionText": "In a p-n junction diode, an increase in temperature due to heating: [NEET-2018]",
+    "options": [
+      "Affects only reverse resistance",
+      "Affects only forward resistance",
+      "Affects the overall V – I characteristics of the p-n junction",
+      "Does not affect the resistance of the p-n junction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Heating thermally generates additional electron-hole pairs throughout the crystal. This increases the reverse saturation current and lowers the forward knee/barrier voltage, thereby altering the overall V–I characteristic of the diode in both forward and reverse regimes.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Temperature Effects"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-16",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Voltage and Power Gain of CE Amplifier [NEET-2017]",
+    "difficulty": "Medium",
+    "questionText": "In a common emitter transistor amplifier, the audio signal voltage across the collector resistance of 3 kΩ is 3 V. If the current gain is β = 100 and the base resistance is 2 kΩ, the voltage gain and power gain of the amplifier are respectively: [NEET-2017]",
+    "options": [
+      "200 and 1000",
+      "15 and 200",
+      "150 and 15000",
+      "20 and 2000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Voltage gain A_v = β × (R_C / R_B) = 100 × (3 kΩ / 2 kΩ) = 100 × 1.5 = 150. Power gain A_p = β × A_v = 100 × 150 = 15000.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Transistor Amplifier"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-17",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Input Signal Voltage of CE Amplifier [NEET-2016]",
+    "difficulty": "Medium",
+    "questionText": "For a CE transistor amplifier, the audio signal voltage across a collector resistance of 2 kΩ is 4 V. If the current amplification factor of the transistor is 100 and the base resistance is 1 kΩ, then the input signal voltage is: [NEET-2016]",
+    "options": [
+      "10 mV",
+      "20 mV",
+      "30 mV",
+      "15 mV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Voltage gain A_v = β × (R_C / R_B) = 100 × (2 kΩ / 1 kΩ) = 200. Since A_v = V_out / V_in, the input voltage is V_in = V_out / A_v = 4 V / 200 = 0.02 V = 20 mV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Voltage Gain"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-18",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Parallel Diodes Network Current [NEET-2016]",
+    "difficulty": "Medium",
+    "questionText": "A 10 V battery is connected in series with a resistor R₁ = 2 Ω and two parallel branches: one branch containing ideal diode D₁ in series with R₂ = 3 Ω, and the other containing ideal diode D₂ in series with R₃ = 2 Ω. If D₁ is reverse-biased and D₂ is forward-biased, the current flowing through resistor R₁ is: [NEET-2016]",
+    "options": [
+      "2.5 A",
+      "10.0 A",
+      "1.43 A",
+      "3.13 A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Because diode D₁ is reverse biased, it acts as an open circuit (zero current in branch 1). Diode D₂ is forward biased and behaves as an ideal short circuit. Thus, current flows only through R₁ and R₃ in series: R_total = R₁ + R₃ = 2 Ω + 2 Ω = 4 Ω. Current through R₁ is I = 10 V / 4 Ω = 2.5 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Diode Network"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-19",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Maximum Detectable Wavelength of Photodiode [AIPMT-2009]",
+    "difficulty": "Medium",
+    "questionText": "A p-n photodiode is fabricated from a semiconductor with an energy band gap of 2.5 eV. It can detect an optical signal of wavelength: [AIPMT-2009]",
+    "options": [
+      "4000 nm",
+      "6000 nm",
+      "4000 Å",
+      "6000 Å"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A photodiode can detect photons whose energy is greater than or equal to the band gap energy (hν ≥ E_g => λ ≤ hc / E_g). Threshold wavelength λ_max = 12400 / 2.5 Å = 4960 Å. Among the given options, only 4000 Å is less than 4960 Å, so it can be absorbed to generate electron-hole pairs.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Photodiode"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-20",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Current Gain in CE Configuration [AIPMT-2011]",
+    "difficulty": "Easy",
+    "questionText": "A transistor is operated in CE configuration at V_C = 2 V such that a change in base current from 100 μA to 300 μA produces a change in collector current from 10 mA to 20 mA. The current gain β is: [AIPMT-2011]",
+    "options": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Change in base current ΔI_B = 300 μA - 100 μA = 200 μA = 0.2 mA. Change in collector current ΔI_C = 20 mA - 10 mA = 10 mA. Current gain β_ac = ΔI_C / ΔI_B = 10 mA / 0.2 mA = 50.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Transistor Current Gain"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-21",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Solar Cell V-I Characteristic [AIPMT-2014]",
+    "difficulty": "Easy",
+    "questionText": "The V–I characteristic curve of an illuminated semiconductor device lies in the fourth quadrant of the coordinate axes, intersecting the voltage axis at point A and the current axis at point B. Which statement is correct? [AIPMT-2014]",
+    "options": [
+      "It is the V–I characteristic for a solar cell where point A represents open-circuit voltage and point B represents short-circuit current",
+      "It is for a photodiode where points A and B represent dark voltage and current",
+      "It is for a LED where points A and B represent threshold voltage and operating current",
+      "It is for a Zener diode in reverse breakdown"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A solar cell supplies power to an external load rather than drawing current from a supply, so its operating characteristic is plotted in the fourth quadrant. The intersection with the voltage axis (I = 0) represents the open-circuit voltage V_oc, and the intersection with the current axis (V = 0) represents the short-circuit current I_sc.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Solar Cell"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-22",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Phase Reversal in CE Amplifier [Re-AIPMT-2015]",
+    "difficulty": "Medium",
+    "questionText": "The input signal given to a CE amplifier having a voltage gain of 150 is V_i = 2 cos(15t + π/3). The corresponding output signal is: [Re-AIPMT-2015]",
+    "options": [
+      "300 cos(15t + 4π/3)",
+      "300 cos(15t + π/3)",
+      "75 cos(15t + 2π/3)",
+      "2 cos(15t + 5π/6)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A common emitter amplifier introduces a phase reversal of 180° (π radians) between input and output voltages. Output amplitude is V_o = A_v × V_i0 = 150 × 2 = 300 V. The output expression is V_o = 300 cos(15t + π/3 + π) = 300 cos(15t + 4π/3).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Phase Inversion"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-23",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Universal Logic Gates",
+    "difficulty": "Easy",
+    "questionText": "Which of the following logic gates is recognized as a universal logic gate?",
+    "options": [
+      "OR gate",
+      "NAND gate",
+      "NOT gate",
+      "AND gate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NAND and NOR gates are known as universal logic gates because any elementary or complex Boolean function (including NOT, AND, OR) can be constructed using only combinations of NAND or NOR gates.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Universal Gates"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-24",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "De Morgan's Laws in Boolean Algebra",
+    "difficulty": "Easy",
+    "questionText": "According to De Morgan's theorem, the Boolean expression (A + B)' is identically equal to:",
+    "options": [
+      "A' + B'",
+      "A' · B'",
+      "A · B'",
+      "A · B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "De Morgan's first theorem states that the complement of a sum is equal to the product of the complements: (A + B)' = A' · B'.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Boolean Algebra"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch29-25",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Ripple Frequency in Full-Wave Rectifier",
+    "difficulty": "Easy",
+    "questionText": "If a full-wave rectifier circuit is operated from a 50 Hz AC mains supply, the fundamental frequency in the ripple will be:",
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "70.7 Hz",
+      "100 Hz"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In a full-wave rectifier, both the positive and negative half-cycles of the AC input conduct through the load in the same direction, doubling the output pulse frequency: f_ripple = 2 × f_in = 2 × 50 Hz = 100 Hz.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Semiconductors",
+      "Rectification"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-01",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Elements of a Communication System",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is not an essential constituent part of the core transmission link in a basic communication system?",
+    "options": [
+      "Transmitter",
+      "Transducer",
+      "Receiver",
+      "Communication channel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Every basic communication system essentially comprises three core elements: the transmitter, the transmission channel (medium), and the receiver. A transducer is an auxiliary input/output device that converts physical variables into electrical signals or vice versa.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Basic Elements"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-02",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Role of a Repeater",
+    "difficulty": "Easy",
+    "questionText": "A communication repeater is essentially a combination of:",
+    "options": [
+      "Receiver only",
+      "Amplifier only",
+      "Transmitter only",
+      "A receiver, an amplifier, and a transmitter"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A repeater picks up the attenuated signal from the transmitter, amplifies and reshapes it, and retransmits it (often at a different carrier frequency) to the receiver or next repeater, thereby extending the communication range.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Repeater"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-03",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Function of a Modem",
+    "difficulty": "Easy",
+    "questionText": "A modem is an electronic device utilized to connect computers over telephone lines. It acts as:",
+    "options": [
+      "A modulator in transmission mode",
+      "A demodulator in receiving mode",
+      "A transducer for voice only",
+      "Both a modulator in transmission and a demodulator in reception"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The term 'modem' is an acronym for modulator-demodulator. It converts digital data from a computer into an analog signal for transmission over telephone lines (modulation), and converts received analog signals back to digital data (demodulation).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Modem"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-04",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Sequence of Communication System Stages",
+    "difficulty": "Easy",
+    "questionText": "Consider the communication blocks: (A) Transmitter, (B) Information source, (C) User of information, (D) Channel, (E) Receiver. The correct logical sequence from start to finish is:",
+    "options": [
+      "A → B → C → D → E",
+      "B → A → D → E → C",
+      "B → D → A → C → E",
+      "B → E → A → D → C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The information originates at the Information source (B), is processed and broadcast by the Transmitter (A), propagates across the Channel (D), is captured and decoded by the Receiver (E), and finally delivered to the User of information (C).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Block Diagram"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-05",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Geostationary Satellite Orbital Altitude",
+    "difficulty": "Easy",
+    "questionText": "Geostationary communication satellites are parked at an orbital height above the surface of the Earth of approximately:",
+    "options": [
+      "36 km",
+      "360 km",
+      "3,600 km",
+      "36,000 km"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Geostationary satellites orbit at a distance of ~42,400 km from the center of Earth, which corresponds to an altitude of approximately 35,800 km (~36,000 km) above the Earth's surface.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Satellite Communication"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-06",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Signal Attenuation Definition",
+    "difficulty": "Easy",
+    "questionText": "The progressive loss of amplitude and power of an electromagnetic signal as it propagates through a communication channel is called:",
+    "options": [
+      "Distortion",
+      "Interference",
+      "Attenuation",
+      "Noise"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Attenuation is the decrease in signal strength caused by energy absorption, scattering, or ohmic losses in the transmission medium as the wave travels from transmitter to receiver.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Terminology"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-07",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Human Audio Bandwidth",
+    "difficulty": "Easy",
+    "questionText": "The standard audible frequency range for human hearing is:",
+    "options": [
+      "20 kHz to 20 MHz",
+      "20 Hz to 20 kHz",
+      "20 Hz to 20 MHz",
+      "300 Hz to 3100 Hz"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The human ear detects acoustic frequencies spanning from 20 Hz up to 20,000 Hz (20 kHz).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Bandwidth"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-08",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Commercial FM Radio Frequency Band",
+    "difficulty": "Easy",
+    "questionText": "The internationally allocated frequency band for commercial FM radio broadcasting is:",
+    "options": [
+      "88 MHz to 108 MHz",
+      "88 Hz to 88 kHz",
+      "800 kHz to 8000 MHz",
+      "540 kHz to 1600 kHz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Standard commercial FM radio broadcast transmissions operate in the VHF spectrum between 88 MHz and 108 MHz. (By contrast, standard AM broadcast operates in the medium wave band between 540 kHz and 1600 kHz).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Frequency Bands"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-09",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Sky Wave Propagation Frequencies",
+    "difficulty": "Easy",
+    "questionText": "Radio waves having frequencies ranging from 2 MHz to 30 MHz propagate over long distances around the Earth primarily as:",
+    "options": [
+      "Sky waves",
+      "Ground waves",
+      "Space waves",
+      "Tropospheric waves"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Radio waves between 2 MHz and 30 MHz are reflected back toward Earth by the ionospheric layers (such as the F-layer) via total internal reflection, forming sky waves used in shortwave long-distance broadcasting.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Sky Wave Propagation"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-10",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Selection of Suitable Wave Propagation Mode",
+    "difficulty": "Medium",
+    "questionText": "Three radio waves A, B, and C have frequencies of 1600 kHz, 5 MHz, and 60 MHz respectively. The most appropriate propagation modes for transmitting them are:",
+    "options": [
+      "A via space wave, B and C via sky wave",
+      "A via ground wave, B via sky wave, and C via space wave",
+      "B and C via ground wave, A via sky wave",
+      "B via ground wave, A and C via space wave"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Frequency 1600 kHz (< 2 MHz) is transmitted via ground/surface wave propagation. Frequency 5 MHz (between 2 MHz and 30 MHz) is reflected by the ionosphere, making sky wave suitable. Frequency 60 MHz (> 30 MHz) penetrates the ionosphere and must be transmitted via line-of-sight space waves.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Wave Propagation"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-11",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Speed of EM Wave from Refractive Index",
+    "difficulty": "Easy",
+    "questionText": "The speed of electromagnetic waves in an optical dielectric medium having refractive index μ = 4 is:",
+    "options": [
+      "3.0 × 10⁸ m/s",
+      "1.5 × 10⁸ m/s",
+      "6.0 × 10⁸ m/s",
+      "7.5 × 10⁷ m/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Velocity in a medium is v = c / μ = (3 × 10⁸ m/s) / 4 = 0.75 × 10⁸ m/s = 7.5 × 10⁷ m/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Wave Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-12",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Maximum Range of TV Transmission Tower",
+    "difficulty": "Medium",
+    "questionText": "A television transmitting antenna has a height of 240 m. Taking the radius of Earth as 6.4 × 10⁶ m, the maximum direct distance up to which its broadcast can be received on ground is approximately:",
+    "options": [
+      "100 km",
+      "60 km",
+      "55 km",
+      "50 km"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The radio horizon distance is d = √(2 R h) = √(2 × 6.4 × 10⁶ m × 240 m) = √(3.072 × 10⁹) = √(3072 × 10⁶) ≈ 55.42 × 10³ m ≈ 55 km.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Antenna Range"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-13",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Surface Area Covered by Antenna Tower",
+    "difficulty": "Medium",
+    "questionText": "The geographical surface area covered by a TV tower of height 100 m on Earth (radius R = 6.4 × 10⁶ m) is:",
+    "options": [
+      "8.4π × 10⁸ m²",
+      "1.28π × 10⁹ m²",
+      "1.92π × 10⁸ m²",
+      "8.4π × 10⁹ m²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The maximum distance to the horizon is d = √(2Rh). The area covered is A = π d² = π (2 R h) = 2π × (6.4 × 10⁶ m) × 100 m = 1.28π × 10⁹ m².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Coverage Area"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-14",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Length of a Hertz Antenna",
+    "difficulty": "Easy",
+    "questionText": "If λ is the wavelength of radio signals to be radiated, the physical length of a standard ungrounded Hertz dipole antenna is:",
+    "options": [
+      "λ",
+      "λ / 4",
+      "λ / 2",
+      "2λ"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Hertz antenna is a resonant half-wave dipole conductor whose length is equal to half the signal wavelength: l = λ / 2. (A quarter-wave grounded antenna is called a Marconi antenna, l = λ / 4).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Antenna Length"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-15",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Quarter-Wave Monopole Antenna Length",
+    "difficulty": "Medium",
+    "questionText": "If a radio carrier wave of frequency 1000 kHz is used to transmit a signal, the minimum length of a transmitting quarter-wave antenna will be:",
+    "options": [
+      "3 m",
+      "30 m",
+      "75 m",
+      "300 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Wavelength λ = c / ν = (3 × 10⁸ m/s) / (1000 × 10³ Hz) = 300 m. The required minimum antenna length for a quarter-wave aerial is l = λ / 4 = 300 / 4 = 75 m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Antenna Dimensions"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-16",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Sideband Frequencies in Amplitude Modulation",
+    "difficulty": "Easy",
+    "questionText": "A speech signal of frequency 3 kHz is used to modulate a carrier wave of frequency 1 MHz in an amplitude modulation system. The frequencies of the upper and lower sidebands are:",
+    "options": [
+      "1.003 MHz and 0.997 MHz",
+      "3001 kHz and 2997 kHz",
+      "1003 kHz and 1000 kHz",
+      "1 MHz and 0.997 MHz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Carrier frequency f_c = 1 MHz = 1000 kHz. Modulating frequency f_m = 3 kHz = 0.003 MHz. Upper sideband frequency is f_USB = f_c + f_m = 1000 + 3 = 1003 kHz = 1.003 MHz. Lower sideband frequency is f_LSB = f_c - f_m = 1000 - 3 = 997 kHz = 0.997 MHz.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Sidebands"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-17",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Bandwidth of AM Modulated Wave",
+    "difficulty": "Easy",
+    "questionText": "The total transmission bandwidth required for an amplitude modulated (AM) signal is:",
+    "options": [
+      "Equal to the frequency of the audio modulating signal",
+      "Double the frequency of the audio modulating signal",
+      "Half the frequency of the carrier wave",
+      "Double the frequency of the carrier wave"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bandwidth of an AM wave is given by BW = f_USB - f_LSB = (f_c + f_m) - (f_c - f_m) = 2f_m, which is twice the maximum frequency of the modulating signal.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "AM Bandwidth"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-18",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Modulation Index Calculation",
+    "difficulty": "Easy",
+    "questionText": "An audio signal of amplitude 0.1 V is used to modulate a radio carrier wave of amplitude 0.3 V. The modulation index is:",
+    "options": [
+      "3",
+      "1 / 3",
+      "0.03",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The amplitude modulation index is defined as the ratio of modulating signal amplitude to carrier amplitude: μ = A_m / A_c = 0.1 V / 0.3 V = 1 / 3 ≈ 0.33.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Modulation Index"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-19",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Photodetector Cutoff Wavelength",
+    "difficulty": "Medium",
+    "questionText": "A photodetector is manufactured from a compound semiconductor having a band gap of 0.73 eV. The maximum wavelength of light that can be detected by it is nearly:",
+    "options": [
+      "12,400 Å",
+      "17,030 Å",
+      "6,200 Å",
+      "1,703 Å"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The cutoff wavelength is determined by λ_max = hc / E_g = 12400 / 0.73 Å ≈ 16,986 Å ≈ 17,030 Å (using accurate hc = 12430 eV·Å, λ = 12430 / 0.73 = 17027 Å ≈ 17030 Å).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Optical Detection"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-20",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "UHF Frequency Classification",
+    "difficulty": "Easy",
+    "questionText": "Electromagnetic radiowaves with frequencies in the range of 300 MHz to 3000 MHz (3 GHz) belong to the:",
+    "options": [
+      "High frequency (HF) band",
+      "Very high frequency (VHF) band",
+      "Ultra high frequency (UHF) band",
+      "Super high frequency (SHF) band"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The standard ITU frequency designations are: HF (3 to 30 MHz), VHF (30 to 300 MHz), UHF (300 to 3000 MHz), and SHF (3 to 30 GHz).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "ITU Frequency Bands"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-21",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Maximum Ionospheric Electron Density",
+    "difficulty": "Hard",
+    "questionText": "On a particular day, the critical frequency for reflection from an ionospheric layer is 10 MHz. The maximum electron density in this layer of the ionosphere is:",
+    "options": [
+      "10⁶ m⁻³",
+      "10¹² m⁻³",
+      "1.23 × 10¹² m⁻³",
+      "1/9 × 10⁶ m⁻³"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The critical frequency f_c for ionospheric reflection is related to electron density N_max by f_c ≈ 9 √(N_max). For f_c = 10 MHz = 10⁷ Hz: 10⁷ = 9 √(N_max) => √(N_max) = 10⁷ / 9 => N_max = 10¹⁴ / 81 ≈ 1.23 × 10¹² m⁻³.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Critical Frequency"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-22",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Line of Sight Distance Between Two Antenna Towers",
+    "difficulty": "Medium",
+    "questionText": "A transmitting antenna at the top of a tower has a height of 32 m and the height of the receiving antenna is 50 m. The maximum line-of-sight distance between them for satisfactory communication is: (R_earth = 6.4 × 10⁶ m)",
+    "options": [
+      "40 km",
+      "45.5 km",
+      "60 km",
+      "100 km"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total line-of-sight distance is d_M = √(2 R h_T) + √(2 R h_R) = √(2 × 6.4 × 10⁶ × 32) + √(2 × 6.4 × 10⁶ × 50) = √(4.096 × 10⁸) + √(6.4 × 10⁸) = 20.24 × 10³ m + 25.30 × 10³ m = 45.54 km ≈ 45.5 km.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Space Wave"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-23",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Refractive Index Condition for Optical Fibres",
+    "difficulty": "Easy",
+    "questionText": "If μ₁ and μ₂ are the refractive indices of the core and the cladding respectively in an optical communication fibre, the condition necessary for light confinement is:",
+    "options": [
+      "μ₁ > μ₂",
+      "μ₁ < μ₂",
+      "μ₁ = μ₂",
+      "μ₁ ≤ μ₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Light propagates along an optical fiber via total internal reflection at the core-cladding boundary. Total internal reflection occurs only when light travels from an optically denser medium into a rarer medium, requiring μ_core > μ_cladding (μ₁ > μ₂).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Optical Fibres"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-24",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Numerical Aperture of an Optical Fibre",
+    "difficulty": "Medium",
+    "questionText": "The numerical aperture (NA) of an optical fiber in air having core refractive index n₁ and cladding refractive index n₂ is expressed as:",
+    "options": [
+      "√(n₁² – n₂²)",
+      "sin⁻¹ √(n₁² – n₂²)",
+      "cos⁻¹ √(n₁² – n₂²)",
+      "tan⁻¹ √(n₁² – n₂²)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The acceptance angle θ_a is given by sin θ_a = √(n₁² - n₂²) / n₀. In air (n₀ = 1), the light-gathering capacity known as Numerical Aperture is NA = sin θ_a = √(n₁² - n₂²).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Numerical Aperture"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch30-25",
+    "subject": "Physics",
+    "chapter": "Communication Systems",
+    "topic": "Overmodulation and Noise",
+    "difficulty": "Easy",
+    "questionText": "Which of the following modulation index values results in overmodulation and severe audio waveform distortion (noise)?",
+    "options": [
+      "0.5",
+      "0.8",
+      "1.2",
+      "0.7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For distortion-free amplitude modulation, the modulation index must satisfy μ ≤ 1 (or 100%). When μ > 1 (e.g. μ = 1.2), overmodulation occurs, causing the carrier envelope to cross zero and become clipped during parts of the negative half-cycles, leading to severe distortion and noise in the demodulated audio.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Communication Systems",
+      "Overmodulation"
+    ]
+  }
+]

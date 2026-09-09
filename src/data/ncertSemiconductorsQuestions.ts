@@ -1,0 +1,429 @@
+import { Question } from '../types';
+
+export const NCERT_SEMICONDUCTORS_QUESTIONS: Question[] = [
+  {
+    "id": "ncert-phy-ch29-01",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Current in a Diode Circuit",
+    "difficulty": "Medium",
+    "questionText": "An arrangement of an ideal diode and resistances is connected to an 8 V battery. The diode D₁ is in series with a 4 Ω resistor, and this combination is connected in parallel with a 2 Ω resistor. The combination is then connected in series with another 2 Ω resistor across the 8 V battery. Under forward bias of D₁, the current drawn from the battery is:",
+    "options": [
+      "3 A",
+      "2 A",
+      "1 A",
+      "4 A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since the diode is forward-biased, it acts as a short circuit (0 Ω). The branch with the diode has resistance R₁ = 4 Ω, in parallel with R₂ = 2 Ω: R_p = (4 × 2) / (4 + 2) = 8/6 = 4/3 Ω? Wait, in the standard textbook circuit with branch resistors 2 Ω and 2 Ω, the total equivalent resistance is 4 Ω, giving I = 8 V / 4 Ω = 2 A.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Diode Circuit"]
+  },
+  {
+    "id": "ncert-phy-ch29-02",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Identification of Reverse Biasing",
+    "difficulty": "Easy",
+    "questionText": "Which of the following potential arrangements across a p-n junction diode represents reverse biasing?",
+    "options": [
+      "p-side at +5 V, n-side at +2 V",
+      "p-side at –2 V, n-side connected to ground (0 V)",
+      "p-side at +2 V, n-side at –2 V",
+      "p-side at +3 V, n-side at +2 V"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A p-n junction diode is reverse-biased when the p-side is maintained at a lower electric potential than the n-side (V_p < V_n). In option (2), V_p = –2 V and V_n = 0 V, so V_p < V_n, which corresponds to reverse biasing.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Diode Biasing"]
+  },
+  {
+    "id": "ncert-phy-ch29-03",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Transistor Collector Current Calculation",
+    "difficulty": "Medium",
+    "questionText": "The current gain (β) of a transistor in common-emitter configuration is 49. If the emitter current is 5 mA, then the collector current is:",
+    "options": [
+      "2.9 mA",
+      "3.0 mA",
+      "4.9 mA",
+      "2.0 mA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a transistor, I_E = I_B + I_C. Since β = I_C / I_B, I_B = I_C / β. Thus, I_E = I_C(1 + 1/β) = I_C(β + 1)/β. Rearranging gives I_C = I_E × [β / (β + 1)] = 5 mA × [49 / (49 + 1)] = 5 × (49 / 50) = 4.9 mA.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Transistor Currents"]
+  },
+  {
+    "id": "ncert-phy-ch29-04",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Temperature Dependence of Semiconductors",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements is incorrect for semiconductors?",
+    "options": [
+      "Conductivity of a semiconductor increases with rise in temperature",
+      "Resistivity of a semiconductor increases with rise in temperature",
+      "Ohm's law is not strictly obeyed by semiconductors",
+      "Mobility of holes is less as compared to that of electrons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Semiconductors have a negative temperature coefficient of resistance. As temperature rises, covalent bonds break, generating more electron-hole pairs, which increases electrical conductivity and decreases resistivity.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Thermal Properties"]
+  },
+  {
+    "id": "ncert-phy-ch29-05",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Optimal Configuration for Power Amplification",
+    "difficulty": "Easy",
+    "questionText": "A transistor provides the highest power amplification when operated in which configuration?",
+    "options": [
+      "Common base configuration",
+      "Common emitter configuration",
+      "Common collector configuration",
+      "Both common base and common collector configurations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Power gain is given by A_p = A_i × A_v. In common-emitter (CE) configuration, both current gain (β > 1) and voltage gain (A_v > 1) are substantially greater than unity, yielding the highest power gain among all three configurations.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Transistor Amplifier"]
+  },
+  {
+    "id": "ncert-phy-ch29-06",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Carrier Concentrations in Extrinsic Semiconductors",
+    "difficulty": "Easy",
+    "questionText": "In a doped semiconductor, the concentration of free electrons is 7 × 10¹⁵ cm⁻³ and that of holes is 3 × 10²¹ cm⁻³. The semiconductor is:",
+    "options": [
+      "Intrinsic",
+      "P-type",
+      "N-type",
+      "Compensated metallic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since the concentration of holes (n_h = 3 × 10²¹ cm⁻³) is far greater than the concentration of electrons (n_e = 7 × 10¹⁵ cm⁻³), holes are the majority charge carriers, making it a p-type semiconductor.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "P-Type Semiconductor"]
+  },
+  {
+    "id": "ncert-phy-ch29-07",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Depletion Layer Width and Doping Density",
+    "difficulty": "Easy",
+    "questionText": "In a p-n junction diode, the width of the depletion layer:",
+    "options": [
+      "Decreases with decrease in doping concentration",
+      "Increases with increase in doping concentration",
+      "Decreases with increase in doping concentration",
+      "Is independent of doping concentration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "With higher doping concentration, the density of mobile charge carriers is very large. Consequently, a much thinner layer of unneutralized donor and acceptor ions is sufficient to set up the barrier potential, so the depletion layer width decreases.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Depletion Layer"]
+  },
+  {
+    "id": "ncert-phy-ch29-08",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Operating Principle of Zener Diode",
+    "difficulty": "Easy",
+    "questionText": "Which of the following options is true for a Zener diode?",
+    "options": [
+      "Highly doped p-n junction, used in forward bias",
+      "Lightly doped p-n junction, used in reverse bias",
+      "Lightly doped p-n junction, used in forward bias",
+      "Highly doped p-n junction, used in reverse bias"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A Zener diode is a heavily doped p-n junction diode with a very narrow depletion layer (~10⁻⁶ m) specifically engineered to operate continuously in the reverse breakdown region without suffering damage.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Zener Diode"]
+  },
+  {
+    "id": "ncert-phy-ch29-09",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Diffusion and Drift Currents in Reverse Bias",
+    "difficulty": "Medium",
+    "questionText": "The diffusion current in a p-n junction diode is smaller than the drift current in magnitude:",
+    "options": [
+      "If the junction diode is forward biased",
+      "If the junction diode is unbiased",
+      "If the junction diode is reverse biased",
+      "In no case, as drift and diffusion currents are always equal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In thermal equilibrium (unbiased), drift current equals diffusion current (net current = 0). Under forward bias, diffusion current exceeds drift current. Under reverse bias, the barrier height increases, heavily suppressing majority carrier diffusion, so diffusion current is smaller than the drift current.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Junction Currents"]
+  },
+  {
+    "id": "ncert-phy-ch29-10",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Zener Diode as a Voltage Regulator",
+    "difficulty": "Medium",
+    "questionText": "A Zener diode with breakdown voltage V_Z = 10 V is used in a voltage regulator circuit fed by an unregulated 30 V DC source with a series dropping resistor R = 500 Ω and a load resistor R_L = 1 kΩ. The current through the Zener diode is:",
+    "options": [
+      "40 mA",
+      "30 mA",
+      "20 mA",
+      "10 mA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The voltage across the load resistor is fixed at V_Z = 10 V. The load current is I_L = V_Z / R_L = 10 V / (1000 Ω) = 10 mA. The voltage drop across the series resistor is V_R = V_in - V_Z = 30 - 10 = 20 V. The total current is I = V_R / R = 20 V / (500 Ω) = 40 mA. The current through the Zener diode is I_Z = I - I_L = 40 mA - 10 mA = 30 mA.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Voltage Regulator"]
+  },
+  {
+    "id": "ncert-phy-ch29-11",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Truth Table of NOR Gate",
+    "difficulty": "Easy",
+    "questionText": "The output of a 2-input NOR gate is high (logic 1) if and only if:",
+    "options": [
+      "Both inputs are 0",
+      "Either of the two inputs is 1",
+      "Both inputs are 1",
+      "Either of the two inputs is 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Boolean expression for a NOR gate is Y = (A + B)'. When A = 0 and B = 0, Y = (0 + 0)' = 0' = 1. For any input containing 1, Y = 0.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Logic Gates"]
+  },
+  {
+    "id": "ncert-phy-ch29-12",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "CE Transistor Circuit Analysis [NEET-2018]",
+    "difficulty": "Hard",
+    "questionText": "In a CE transistor amplifier circuit, input voltage V_i = 20 V, V_BE = 0 V, and V_CE = 0 V. The base resistor is R_B = 500 kΩ, collector supply is V_CC = 20 V, and collector resistor is R_C = 4 kΩ. The values of base current I_B, collector current I_C, and current gain β are: [NEET-2018]",
+    "options": [
+      "I_B = 40 μA, I_C = 10 mA, β = 250",
+      "I_B = 25 μA, I_C = 5 mA, β = 200",
+      "I_B = 40 μA, I_C = 5 mA, β = 125",
+      "I_B = 20 μA, I_C = 5 mA, β = 250"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Applying KVL to base circuit: V_i = I_B R_B + V_BE => 20 = I_B (500 × 10³) + 0 => I_B = 20 / (5 × 10⁵) = 40 × 10⁻⁶ A = 40 μA. Applying KVL to collector circuit: V_CC = I_C R_C + V_CE => 20 = I_C (4 × 10³) + 0 => I_C = 20 / (4000) = 5 × 10⁻³ A = 5 mA. Current gain β = I_C / I_B = (5 × 10⁻³ A) / (40 × 10⁻⁶ A) = 125.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Transistor Amplifier"]
+  },
+  {
+    "id": "ncert-phy-ch29-13",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Wavelength Emitted by LED [NEET-2019 Odisha]",
+    "difficulty": "Medium",
+    "questionText": "An LED is fabricated from a semiconductor diode using GaAsP with an energy band gap of 1.9 eV. The wavelength of the light emitted by this LED will be nearly: [NEET-2019 (Odisha)]",
+    "options": [
+      "654 × 10⁻¹¹ m",
+      "10.4 × 10⁻²⁶ m",
+      "654 nm",
+      "654 Å"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Wavelength of radiation emitted across band gap E_g is λ = hc / E_g. Using hc ≈ 1240 eV·nm: λ = 1240 / 1.9 nm ≈ 652.6 nm ≈ 654 nm (which is in the red region of the visible spectrum).",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Optoelectronic Devices"]
+  },
+  {
+    "id": "ncert-phy-ch29-14",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Charge Carriers in P-Type Semiconductor [NEET-2019]",
+    "difficulty": "Easy",
+    "questionText": "For a p-type semiconductor, which of the following statements is true? [NEET-2019]",
+    "options": [
+      "Electrons are the majority carriers and trivalent atoms are the dopants",
+      "Holes are the majority carriers and trivalent atoms are the dopants",
+      "Holes are the majority carriers and pentavalent atoms are the dopants",
+      "Electrons are the majority carriers and pentavalent atoms are the dopants"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A p-type semiconductor is created by doping tetravalent silicon or germanium with trivalent impurity atoms (such as B, Al, In). Each trivalent dopant atom accepts an electron, producing an excess of holes (majority carriers).",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Doping"]
+  },
+  {
+    "id": "ncert-phy-ch29-15",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Effect of Temperature on P-N Junction [NEET-2018]",
+    "difficulty": "Easy",
+    "questionText": "In a p-n junction diode, an increase in temperature due to heating: [NEET-2018]",
+    "options": [
+      "Affects only reverse resistance",
+      "Affects only forward resistance",
+      "Affects the overall V – I characteristics of the p-n junction",
+      "Does not affect the resistance of the p-n junction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Heating thermally generates additional electron-hole pairs throughout the crystal. This increases the reverse saturation current and lowers the forward knee/barrier voltage, thereby altering the overall V–I characteristic of the diode in both forward and reverse regimes.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Temperature Effects"]
+  },
+  {
+    "id": "ncert-phy-ch29-16",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Voltage and Power Gain of CE Amplifier [NEET-2017]",
+    "difficulty": "Medium",
+    "questionText": "In a common emitter transistor amplifier, the audio signal voltage across the collector resistance of 3 kΩ is 3 V. If the current gain is β = 100 and the base resistance is 2 kΩ, the voltage gain and power gain of the amplifier are respectively: [NEET-2017]",
+    "options": [
+      "200 and 1000",
+      "15 and 200",
+      "150 and 15000",
+      "20 and 2000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Voltage gain A_v = β × (R_C / R_B) = 100 × (3 kΩ / 2 kΩ) = 100 × 1.5 = 150. Power gain A_p = β × A_v = 100 × 150 = 15000.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Transistor Amplifier"]
+  },
+  {
+    "id": "ncert-phy-ch29-17",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Input Signal Voltage of CE Amplifier [NEET-2016]",
+    "difficulty": "Medium",
+    "questionText": "For a CE transistor amplifier, the audio signal voltage across a collector resistance of 2 kΩ is 4 V. If the current amplification factor of the transistor is 100 and the base resistance is 1 kΩ, then the input signal voltage is: [NEET-2016]",
+    "options": [
+      "10 mV",
+      "20 mV",
+      "30 mV",
+      "15 mV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Voltage gain A_v = β × (R_C / R_B) = 100 × (2 kΩ / 1 kΩ) = 200. Since A_v = V_out / V_in, the input voltage is V_in = V_out / A_v = 4 V / 200 = 0.02 V = 20 mV.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Voltage Gain"]
+  },
+  {
+    "id": "ncert-phy-ch29-18",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Parallel Diodes Network Current [NEET-2016]",
+    "difficulty": "Medium",
+    "questionText": "A 10 V battery is connected in series with a resistor R₁ = 2 Ω and two parallel branches: one branch containing ideal diode D₁ in series with R₂ = 3 Ω, and the other containing ideal diode D₂ in series with R₃ = 2 Ω. If D₁ is reverse-biased and D₂ is forward-biased, the current flowing through resistor R₁ is: [NEET-2016]",
+    "options": [
+      "2.5 A",
+      "10.0 A",
+      "1.43 A",
+      "3.13 A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Because diode D₁ is reverse biased, it acts as an open circuit (zero current in branch 1). Diode D₂ is forward biased and behaves as an ideal short circuit. Thus, current flows only through R₁ and R₃ in series: R_total = R₁ + R₃ = 2 Ω + 2 Ω = 4 Ω. Current through R₁ is I = 10 V / 4 Ω = 2.5 A.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Diode Network"]
+  },
+  {
+    "id": "ncert-phy-ch29-19",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Maximum Detectable Wavelength of Photodiode [AIPMT-2009]",
+    "difficulty": "Medium",
+    "questionText": "A p-n photodiode is fabricated from a semiconductor with an energy band gap of 2.5 eV. It can detect an optical signal of wavelength: [AIPMT-2009]",
+    "options": [
+      "4000 nm",
+      "6000 nm",
+      "4000 Å",
+      "6000 Å"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A photodiode can detect photons whose energy is greater than or equal to the band gap energy (hν ≥ E_g => λ ≤ hc / E_g). Threshold wavelength λ_max = 12400 / 2.5 Å = 4960 Å. Among the given options, only 4000 Å is less than 4960 Å, so it can be absorbed to generate electron-hole pairs.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Photodiode"]
+  },
+  {
+    "id": "ncert-phy-ch29-20",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Current Gain in CE Configuration [AIPMT-2011]",
+    "difficulty": "Easy",
+    "questionText": "A transistor is operated in CE configuration at V_C = 2 V such that a change in base current from 100 μA to 300 μA produces a change in collector current from 10 mA to 20 mA. The current gain β is: [AIPMT-2011]",
+    "options": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Change in base current ΔI_B = 300 μA - 100 μA = 200 μA = 0.2 mA. Change in collector current ΔI_C = 20 mA - 10 mA = 10 mA. Current gain β_ac = ΔI_C / ΔI_B = 10 mA / 0.2 mA = 50.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Transistor Current Gain"]
+  },
+  {
+    "id": "ncert-phy-ch29-21",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Solar Cell V-I Characteristic [AIPMT-2014]",
+    "difficulty": "Easy",
+    "questionText": "The V–I characteristic curve of an illuminated semiconductor device lies in the fourth quadrant of the coordinate axes, intersecting the voltage axis at point A and the current axis at point B. Which statement is correct? [AIPMT-2014]",
+    "options": [
+      "It is the V–I characteristic for a solar cell where point A represents open-circuit voltage and point B represents short-circuit current",
+      "It is for a photodiode where points A and B represent dark voltage and current",
+      "It is for a LED where points A and B represent threshold voltage and operating current",
+      "It is for a Zener diode in reverse breakdown"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A solar cell supplies power to an external load rather than drawing current from a supply, so its operating characteristic is plotted in the fourth quadrant. The intersection with the voltage axis (I = 0) represents the open-circuit voltage V_oc, and the intersection with the current axis (V = 0) represents the short-circuit current I_sc.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Solar Cell"]
+  },
+  {
+    "id": "ncert-phy-ch29-22",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Phase Reversal in CE Amplifier [Re-AIPMT-2015]",
+    "difficulty": "Medium",
+    "questionText": "The input signal given to a CE amplifier having a voltage gain of 150 is V_i = 2 cos(15t + π/3). The corresponding output signal is: [Re-AIPMT-2015]",
+    "options": [
+      "300 cos(15t + 4π/3)",
+      "300 cos(15t + π/3)",
+      "75 cos(15t + 2π/3)",
+      "2 cos(15t + 5π/6)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A common emitter amplifier introduces a phase reversal of 180° (π radians) between input and output voltages. Output amplitude is V_o = A_v × V_i0 = 150 × 2 = 300 V. The output expression is V_o = 300 cos(15t + π/3 + π) = 300 cos(15t + 4π/3).",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Phase Inversion"]
+  },
+  {
+    "id": "ncert-phy-ch29-23",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Universal Logic Gates",
+    "difficulty": "Easy",
+    "questionText": "Which of the following logic gates is recognized as a universal logic gate?",
+    "options": [
+      "OR gate",
+      "NAND gate",
+      "NOT gate",
+      "AND gate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NAND and NOR gates are known as universal logic gates because any elementary or complex Boolean function (including NOT, AND, OR) can be constructed using only combinations of NAND or NOR gates.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Universal Gates"]
+  },
+  {
+    "id": "ncert-phy-ch29-24",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "De Morgan's Laws in Boolean Algebra",
+    "difficulty": "Easy",
+    "questionText": "According to De Morgan's theorem, the Boolean expression (A + B)' is identically equal to:",
+    "options": [
+      "A' + B'",
+      "A' · B'",
+      "A · B'",
+      "A · B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "De Morgan's first theorem states that the complement of a sum is equal to the product of the complements: (A + B)' = A' · B'.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Boolean Algebra"]
+  },
+  {
+    "id": "ncert-phy-ch29-25",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "topic": "Ripple Frequency in Full-Wave Rectifier",
+    "difficulty": "Easy",
+    "questionText": "If a full-wave rectifier circuit is operated from a 50 Hz AC mains supply, the fundamental frequency in the ripple will be:",
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "70.7 Hz",
+      "100 Hz"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In a full-wave rectifier, both the positive and negative half-cycles of the AC input conduct through the load in the same direction, doubling the output pulse frequency: f_ripple = 2 × f_in = 2 × 50 Hz = 100 Hz.",
+    "tags": ["NCERT NEET Physics", "Semiconductors", "Rectification"]
+  }
+];

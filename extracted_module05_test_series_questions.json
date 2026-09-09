@@ -1,0 +1,2672 @@
+[
+  {
+    "id": "ncert-phy-ch21-01",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Magnetic Flux Through an Area Vector",
+    "difficulty": "Easy",
+    "questionText": "A uniform magnetic field exists in space as B⃗ = 4î T. The magnetic flux through a planar area whose area vector is S⃗ = (2î + 4ĵ) m² is:",
+    "options": [
+      "6 Wb",
+      "2 Wb",
+      "8 Wb",
+      "4 Wb"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic flux is given by the scalar dot product: Φ = B⃗ · S⃗ = (4î) · (2î + 4ĵ) = 4 × 2 = 8 Wb.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Magnetic Flux"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-02",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Magnitude of Instantaneous Induced EMF",
+    "difficulty": "Easy",
+    "questionText": "Magnetic flux (in Wb) linked with a closed conducting loop varies with time t (in s) as Φ(t) = 2t² + 1. The magnitude of induced emf at t = 1 s is:",
+    "options": [
+      "1 V",
+      "2 V",
+      "3 V",
+      "4 V"
+    ],
+    "correctAnswer": 3,
+    "explanation": "According to Faraday's law of induction, |ε| = |dΦ/dt| = d/dt (2t² + 1) = 4t. At t = 1 s, |ε| = 4(1) = 4 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Faraday's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-03",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Motional EMF Across a Moving Conductor",
+    "difficulty": "Easy",
+    "questionText": "A copper rod of length 2 m moves at a constant speed of 2 m/s in a direction perpendicular to its length in a uniform transverse magnetic field of 3 T. The induced emf across its ends is:",
+    "options": [
+      "8 V",
+      "10 V",
+      "12 V",
+      "14 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Motional emf across a conductor moving perpendicular to its length and the magnetic field is ε = B v l = (3 T) × (2 m/s) × (2 m) = 12 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Motional EMF"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-04",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "EMF in a Rotating Conducting Rod",
+    "difficulty": "Easy",
+    "questionText": "A metallic rod of length l is hinged at one end and rotated with angular velocity ω in a plane perpendicular to a uniform magnetic field B. The induced emf across its ends is:",
+    "options": [
+      "(1/2) B l ω²",
+      "(1/2) B ω l²",
+      "(1/2) B² l ω",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an element at distance x from the pivot with speed v = ωx, dε = B v dx = B ω x dx. Integrating from x = 0 to l gives ε = ∫₀ˡ B ω x dx = (1/2) B ω l².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Motional EMF"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-05",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Rectangular Loop Moving in Uniform Field",
+    "difficulty": "Easy",
+    "questionText": "A rectangular metal loop ABCD of length l and breadth b is moving entirely inside a uniform transverse magnetic field B with a constant velocity v. The net induced emf in the closed loop is:",
+    "options": [
+      "B b v",
+      "B l v",
+      "(1/2) B l v",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "As long as the loop is moving entirely inside a uniform magnetic field, the magnetic flux through the loop is constant (dΦ/dt = 0). The emfs induced in the two opposite arms are equal and in the same sense, resulting in zero net circulating emf in the loop.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Faraday's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-06",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Induced Charge Flow During Flux Change",
+    "difficulty": "Easy",
+    "questionText": "The change in magnetic flux linked with a coil of resistance 2 Ω is 6 Wb. The total electric charge flown through the coil during this flux change is:",
+    "options": [
+      "1 C",
+      "2 C",
+      "3 C",
+      "4 C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Induced charge Δq = |ΔΦ| / R = 6 Wb / 2 Ω = 3 C. Notably, the total charge flown depends solely on the change in flux and circuit resistance, independent of the time interval.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Induced Charge"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-07",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Self-Induced EMF from Changing Current",
+    "difficulty": "Easy",
+    "questionText": "An electric current flowing in a coil of self-inductance 2 mH increases steadily from 1 A to 2 A in 2 ms. The magnitude of induced emf in the coil is:",
+    "options": [
+      "1 V",
+      "3 V",
+      "2 V",
+      "4 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Induced emf |ε| = L |ΔI / Δt| = (2 × 10⁻³ H) × [(2 - 1) A / (2 × 10⁻³ s)] = 1 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Self-Inductance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-08",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Mutual Inductance and Induced EMF",
+    "difficulty": "Easy",
+    "questionText": "Two closed conducting loops have a mutual inductance of 1 H. The average emf induced in one loop when current in the other changes by 2 A in 1 s is:",
+    "options": [
+      "1 V",
+      "2 V",
+      "3 V",
+      "4 V"
+    ],
+    "correctAnswer": 1,
+    "explanation": "|ε| = M |ΔI / Δt| = (1 H) × (2 A / 1 s) = 2 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Mutual Inductance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-09",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Dimensional Formula of Magnetic Energy Term",
+    "difficulty": "Easy",
+    "questionText": "The dimensional formula of [L i²] is (where L is inductance and i is electric current):",
+    "options": [
+      "[M¹ L² T² A²]",
+      "[M¹ L² T⁻²]",
+      "[M⁰ L⁰ T⁰ A¹]",
+      "[M¹ L² T⁻² A²]"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Energy stored in an inductor is U = (1/2) L i². Therefore, [L i²] represents physical energy or work done, having dimensions of [M¹ L² T⁻²].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Units and Dimensions"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-10",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Energy Stored in a Solenoid",
+    "difficulty": "Easy",
+    "questionText": "A current of 2 A flows through a solenoid of self-inductance 3 mH. The energy stored inside the solenoid in its magnetic field is:",
+    "options": [
+      "4 mJ",
+      "6 mJ",
+      "8 mJ",
+      "10 mJ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "U = (1/2) L I² = 0.5 × (3 × 10⁻³ H) × (2 A)² = 0.5 × 3 × 4 = 6 mJ.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Magnetic Energy"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-11",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Conservation Law Underlying Lenz's Law",
+    "difficulty": "Easy",
+    "questionText": "Lenz's law is a direct consequence of which fundamental conservation principle?",
+    "options": [
+      "Conservation of mass",
+      "Conservation of charge",
+      "Conservation of momentum",
+      "Conservation of energy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lenz's law states that induced current opposes the change in flux causing it. Mechanical work done against this opposing electromagnetic force is transformed into electrical energy, satisfying the law of conservation of energy.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Lenz's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Induced Current Direction in Vertically Kept Loop",
+    "difficulty": "Medium",
+    "questionText": "A circular conducting loop is placed in a region where a magnetic field directed perpendicular into the plane of the loop is increasing with time. As seen from the front, the induced current in the loop will be:",
+    "options": [
+      "Clockwise",
+      "Anti-clockwise",
+      "Zero",
+      "Insufficient information"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The inward magnetic flux through the loop is increasing. According to Lenz's law, the induced current must create an opposing outward magnetic field. By the right-hand thumb rule, an outward magnetic field is generated by an anti-clockwise circulating current.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Lenz's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-13",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Time Constant of an L-R Circuit",
+    "difficulty": "Easy",
+    "questionText": "A coil of self-inductance 50 H and resistance 10 Ω is connected to a DC supply of 2 V until a steady current is reached. When the battery is disconnected, the time in which current decays to 1/e of its steady value is:",
+    "options": [
+      "500 s",
+      "50 s",
+      "5 s",
+      "0.5 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In an L-R decay circuit, current decays as I(t) = I₀ e^(-t/τ), where τ = L / R is the inductive time constant. At t = τ, I = I₀ / e. Thus t = L / R = 50 H / 10 Ω = 5 s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "L-R Circuit"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-14",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Initial vs Final Current in L-R Inductive Branch",
+    "difficulty": "Medium",
+    "questionText": "In a circuit containing a battery of emf V, a branch with an ideal inductor L in series with resistance R is connected in parallel with another resistor of resistance R. Just after the key is closed (t = 0) and after a long time (t = ∞), the currents drawn from the battery are in the ratio:",
+    "options": [
+      "Zero",
+      "∞",
+      "1 : 2",
+      "2 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "At t = 0, an ideal inductor acts as an open circuit (infinite impedance), so current flows only through the pure resistive branch: I(0) = V / R.\nAt t = ∞, the inductor acts as a short circuit (zero impedance), so both R branches are in parallel with equivalent resistance R/2: I(∞) = V / (R/2) = 2V / R.\nRatio I(0) : I(∞) = (V/R) / (2V/R) = 1 : 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "L-R Circuit"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-15",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "EMF Generated in a Rotating Wheel Rim",
+    "difficulty": "Medium",
+    "questionText": "A cycle wheel of radius 0.5 m is rotated with a constant angular velocity of 10 rad/s in a uniform magnetic field of 0.1 T directed perpendicular to the plane of the wheel. The EMF generated between its centre and the rim is: [NEET-2019-Odisha]",
+    "options": [
+      "Zero",
+      "0.25 V",
+      "0.125 V",
+      "0.5 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The emf induced across each metallic spoke between the hub and rim is ε = (1/2) B ω R².\nε = 0.5 × (0.1 T) × (10 rad/s) × (0.5 m)² = 0.5 × 1 × 0.25 = 0.125 V.\nSince all spokes are in parallel, the net emf across the centre and the rim remains 0.125 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Motional EMF",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-16",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Application of Eddy Currents",
+    "difficulty": "Easy",
+    "questionText": "In which of the following electrical devices is the eddy current effect NOT utilized for its working? [NEET-2019]",
+    "options": [
+      "Induction furnace",
+      "Magnetic braking in trains",
+      "Electromagnet",
+      "Electric heater"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An electric heater works on the principle of simple Joule heating (I²R loss) in a high-resistance nichrome wire element, not by eddy currents. Induction furnaces, magnetic brakes, and electromagnetic deadbeat damping rely directly on induced eddy currents.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Eddy Currents",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-17",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Rotational EMF in an 800-Turn Coil",
+    "difficulty": "Medium",
+    "questionText": "An 800-turn coil of effective area 0.05 m² is kept perpendicular to a uniform magnetic field of 5 × 10⁻⁵ T. When the plane of the coil is rotated by 90° about a coplanar axis in 0.1 s, the average emf induced in the coil is: [NEET-2019]",
+    "options": [
+      "2 V",
+      "0.2 V",
+      "2 × 10⁻³ V",
+      "0.02 V"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Initial flux Φ₁ = N B A cos 0° = 800 × (5 × 10⁻⁵) × 0.05 = 2 × 10⁻³ Wb.\nWhen rotated by 90°, the plane of the coil is parallel to B⃗, so Φ₂ = N B A cos 90° = 0.\n|ΔΦ| = 2 × 10⁻³ Wb.\nInduced emf |ε| = |ΔΦ| / Δt = (2 × 10⁻³ Wb) / 0.1 s = 0.02 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Faraday's Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-18",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Inductance from Stored Magnetic Energy",
+    "difficulty": "Medium",
+    "questionText": "The magnetic potential energy stored in an inductor is 25 mJ when the current flowing through it is 60 mA. The self-inductance of this inductor is: [NEET-2018]",
+    "options": [
+      "0.138 H",
+      "138.88 H",
+      "13.89 H",
+      "1.389 H"
+    ],
+    "correctAnswer": 2,
+    "explanation": "U = (1/2) L I² => L = (2U) / I².\nL = [2 × (25 × 10⁻³ J)] / (60 × 10⁻³ A)² = (50 × 10⁻³) / (3600 × 10⁻⁶) = 50,000 / 3600 ≈ 13.89 H.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Magnetic Energy",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-19",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Localized Time-Varying Field and Concentric Loops",
+    "difficulty": "Hard",
+    "questionText": "A uniform magnetic field is restricted within a circular cylindrical region of radius r and changes with time at a rate dB/dt. Loop 1 of radius R (R > r) encloses this region, while Loop 2 of radius R is placed completely outside the magnetic field region. The induced emfs generated in the two loops are: [NEET (Phase-2) 2016]",
+    "options": [
+      "Zero in loop 1 and zero in loop 2",
+      "-πr² (dB/dt) in loop 1 and -πr² (dB/dt) in loop 2",
+      "-πR² (dB/dt) in loop 1 and zero in loop 2",
+      "-πr² (dB/dt) in loop 1 and zero in loop 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For Loop 1: Magnetic flux exists only over the region of radius r, so Φ₁ = B · (πr²). The induced emf is ε₁ = -dΦ₁/dt = -πr² (dB/dt).\nFor Loop 2: No magnetic field passes through its enclosed area at all, so Φ₂ = 0 and ε₂ = 0.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Induced Electric Field",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-20",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Self-Inductance of a Solenoid from Flux Linkage",
+    "difficulty": "Easy",
+    "questionText": "A long solenoid has 1000 turns. When a steady current of 4 A flows through it, the magnetic flux linked with each individual turn of the solenoid is 4 × 10⁻³ Wb. The self-inductance of the solenoid is: [NEET-2016]",
+    "options": [
+      "1 H",
+      "4 H",
+      "3 H",
+      "2 H"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total flux linkage is N Φ_turn = L · I.\nL = (N Φ_turn) / I = (1000 × 4 × 10⁻³ Wb) / 4 A = 4 / 4 = 1 H.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Self-Inductance",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-21",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Potential Difference in a Falling Semicircular Ring",
+    "difficulty": "Medium",
+    "questionText": "A thin semicircular conducting ring PQR of radius r is falling vertically with its diameter PR horizontal in a uniform horizontal magnetic field B perpendicular to its plane. When its speed is v, the potential difference developed across the endpoints P and R is: [AIPMT-2014]",
+    "options": [
+      "Zero",
+      "(B v π r²) / 2 and P is at higher potential",
+      "π r B v and R is at higher potential",
+      "2 r B v and R is at higher potential"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The motional emf developed across any conductor depends solely on the straight-line displacement between its endpoints: L⃗_eff = 2r along PR. Hence |ε| = B v L_eff = 2r B v. By Fleming's right-hand rule (or Lorentz force q(v⃗ × B⃗)), positive charges are driven towards R, placing end R at higher potential.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Motional EMF",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-22",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Mutual Inductance of Tightly Coupled Coils",
+    "difficulty": "Easy",
+    "questionText": "Two coils of self-inductances 2 mH and 8 mH are placed so close together that the magnetic flux in one coil is completely linked with the other (coefficient of coupling k = 1). The mutual inductance between these coils is: [AIPMT-2006]",
+    "options": [
+      "10 mH",
+      "6 mH",
+      "4 mH",
+      "16 mH"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For complete coupling (k = 1): M = √(L₁ L₂) = √(2 mH × 8 mH) = √16 = 4 mH.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Mutual Inductance",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-23",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Falling Magnet Acceleration Through Ring",
+    "difficulty": "Easy",
+    "questionText": "A metal ring is held horizontally and a bar magnet is dropped vertically through the ring along its axis. The downward acceleration of the falling magnet while entering and leaving the ring is:",
+    "options": [
+      "More than g",
+      "Equal to g",
+      "Less than g",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "As the magnet falls towards the ring, an opposing magnetic field is induced in the ring by Lenz's law, exerting an upward repulsive force on the magnet. When leaving, the induced current attracts the receding pole, again exerting an upward force. In both phases, the upward retarding force ensures acceleration a < g.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Lenz's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-24",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Mutual Inductance Scaling for Concentric Square Loops",
+    "difficulty": "Medium",
+    "questionText": "A small square loop of wire of side l is placed at the centre of a large coplanar square loop of wire of side L (where L >> l). The mutual inductance M of the system is proportional to:",
+    "options": [
+      "l / L",
+      "l² / L",
+      "L / l",
+      "L² / l"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The magnetic field produced at the centre of the large square loop carrying current I is B ∝ I / L. The magnetic flux linked with the small inner loop of area A = l² is Φ = B · A ∝ (I / L) · l² = (l² / L) I. Therefore, M = Φ / I ∝ l² / L.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "Mutual Inductance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch21-25",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "topic": "Back EMF and DC Motor Operating Speed",
+    "difficulty": "Medium",
+    "questionText": "The armature of a DC motor has a resistance of 20 Ω. It draws a current of 1.5 A when connected across a 220 V DC supply at operating speed. The value of back emf induced in the armature is:",
+    "options": [
+      "150 V",
+      "170 V",
+      "180 V",
+      "190 V"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Applying Ohm's law to the motor circuit: V - E_back = I · R => E_back = V - I R.\nE_back = 220 V - (1.5 A × 20 Ω) = 220 V - 30 V = 190 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electromagnetic Induction",
+      "DC Motor"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-01",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Physical Meaning of Domestic AC Voltage",
+    "difficulty": "Easy",
+    "questionText": "The voltage of domestic AC supply in India is specified as 220 V. This value represents:",
+    "options": [
+      "Mean voltage",
+      "Peak voltage",
+      "Root mean voltage",
+      "Root mean square (RMS) voltage"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All standard AC meters and domestic rating specifications measure and state the Root Mean Square (RMS) or effective value of alternating voltage: V_rms = 220 V (where peak voltage V₀ = 220√2 ≈ 311 V).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Fundamentals"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-02",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "RMS Voltage and Frequency from AC Equation",
+    "difficulty": "Easy",
+    "questionText": "The equation of an alternating voltage is V = 100√2 sin(100πt) volts. The RMS value of voltage and its frequency are respectively:",
+    "options": [
+      "100 V, 50 Hz",
+      "50 V, 100 Hz",
+      "150 V, 50 Hz",
+      "200 V, 50 Hz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comparing with V = V₀ sin(2πft):\nPeak voltage V₀ = 100√2 V => V_rms = V₀ / √2 = (100√2) / √2 = 100 V.\nAngular frequency ω = 2πf = 100π => f = 50 Hz.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Fundamentals"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-03",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Phase Relationship in Purely Inductive Circuit",
+    "difficulty": "Easy",
+    "questionText": "In an AC circuit containing an ideal inductor only, the alternating current:",
+    "options": [
+      "Lags behind the applied voltage by a phase angle of π/2",
+      "Leads the applied voltage by a phase angle of π/2",
+      "Lags behind the applied voltage by a phase angle of π/3",
+      "Leads the applied voltage by a phase angle of π/6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a purely inductive AC circuit, the self-induced back emf opposes current growth, causing the current to lag behind the applied alternating voltage by a quarter cycle, i.e., by phase angle π/2 (90°).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Through Inductor"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-04",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Time Difference Corresponding to Phase Difference",
+    "difficulty": "Easy",
+    "questionText": "The phase difference between alternating current and voltage in an AC circuit is π/4 radian. If the frequency of AC is 50 Hz, this phase difference corresponds to a time difference of:",
+    "options": [
+      "0.75 s",
+      "10.5 ms",
+      "2.5 ms",
+      "0.25 ms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Phase difference Δϕ = (2π / T) · Δt = 2π f · Δt.\nΔt = Δϕ / (2π f) = (π/4) / (2π × 50) = 1 / (4 × 100) = 1 / 400 s = 2.5 × 10⁻³ s = 2.5 ms.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Fundamentals"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-05",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Superimposed DC and AC Effective Current",
+    "difficulty": "Medium",
+    "questionText": "A direct current of 5 A is superimposed on an alternating current I = 10 sin(ωt) flowing through a wire. The effective (RMS) value of the resulting current will be:",
+    "options": [
+      "7.5 A",
+      "2√3 A",
+      "5√3 A",
+      "15 A"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For i(t) = I_dc + I₀ sin(ωt), mean square value is <i²> = I_dc² + (I₀² / 2).\nI_eff = √(I_dc² + I₀² / 2) = √(5² + 10² / 2) = √(25 + 50) = √75 = 5√3 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "RMS Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-06",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "RMS Value of Orthogonal AC Currents",
+    "difficulty": "Easy",
+    "questionText": "An alternating current is given by I = 3 sin(ωt) + 4 cos(ωt). The RMS value of this current is:",
+    "options": [
+      "5 / √2 A",
+      "5 A",
+      "4 / √2 A",
+      "3 / √2 A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Peak amplitude I₀ = √(3² + 4²) = √25 = 5 A.\nRMS value I_rms = I₀ / √2 = 5 / √2 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "RMS Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-07",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Quality Factor at Resonance",
+    "difficulty": "Medium",
+    "questionText": "The circuit parameters in a series LCR circuit are L = 1 H, C = 9 μF, and R = 3 Ω. What is the quality factor (Q-factor) of the circuit at resonance?",
+    "options": [
+      "1",
+      "9",
+      "1/9",
+      "111"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Quality factor Q = (1 / R) √(L / C).\nQ = (1 / 3) · √[1 / (9 × 10⁻⁶)] = (1 / 3) · √[(10⁶) / 9] = (1 / 3) · (1000 / 3) = 1000 / 9 ≈ 111.1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Resonance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-08",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Power Dissipated in Series LCR Circuit",
+    "difficulty": "Medium",
+    "questionText": "In an LCR series circuit, the alternating emf and current are given by e = 100 sin(100t) V and i = 100 sin(100t + π/3) mA. The average power dissipated in the circuit will be:",
+    "options": [
+      "100 W",
+      "10 W",
+      "5 W",
+      "2.5 W"
+    ],
+    "correctAnswer": 3,
+    "explanation": "V_rms = 100 / √2 V, I_rms = (100 × 10⁻³ A) / √2 = 0.1 / √2 A, phase angle ϕ = π/3 (60°).\nP_avg = V_rms I_rms cos ϕ = (100 / √2) × (0.1 / √2) × cos 60° = (10 / 2) × 0.5 = 2.5 W.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Power Factor"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-09",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "DC Voltage Across Transformer Primary",
+    "difficulty": "Easy",
+    "questionText": "A step-up transformer has a turns ratio of 1 : 2. A DC Leclanché cell of emf 1.5 V is connected across its primary winding. The voltage across the secondary winding is:",
+    "options": [
+      "3.0 V",
+      "0.75 V",
+      "Zero",
+      "1.5 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Transformers operate strictly on the principle of mutual electromagnetic induction driven by time-varying magnetic flux (dΦ/dt). Since a DC cell supplies constant current, dΦ/dt = 0, so the induced voltage across the secondary is exactly zero.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Transformers"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-10",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Energy Sharing in LC Oscillations",
+    "difficulty": "Medium",
+    "questionText": "In an oscillating LC circuit, the maximum charge on the capacitor is Q₀. The charge on the capacitor at an instant when the energy is stored equally between the electric and magnetic fields is:",
+    "options": [
+      "Q₀ / 2",
+      "Q₀ / √2",
+      "Q₀ / √3",
+      "Q₀ / 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total energy U_total = Q₀² / (2C). When electric energy U_E is half of total energy:\nU_E = (1/2) U_total => q² / (2C) = (1/2) [Q₀² / (2C)] => q² = Q₀² / 2 => q = Q₀ / √2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "LC Oscillations"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-11",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Characteristics of an Ideal Choke Coil",
+    "difficulty": "Easy",
+    "questionText": "A choke coil used for controlling alternating current in a circuit should have:",
+    "options": [
+      "High resistance and low inductance",
+      "High inductance and low resistance",
+      "High capacitance and low resistance",
+      "Low inductance and low resistance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ideal choke coil has very high self-inductance L to create high inductive reactance (X_L = ωL) to limit current, but negligible ohmic resistance R to minimize I²R power loss.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Choke Coil"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Series LCR Voltmeter Reading at Resonance",
+    "difficulty": "Medium",
+    "questionText": "In a series circuit, an inductor with X_L = 20 Ω, a capacitor with X_C = 20 Ω, and a resistor of 11 Ω are connected across an AC voltage source of 220 V. A voltmeter is connected across the series combination of L and C. The reading of this voltmeter is:",
+    "options": [
+      "400 V",
+      "220 V",
+      "200 V",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Since X_L = X_C = 20 Ω, the circuit is in electrical resonance. Voltages across the inductor and capacitor are equal in magnitude and 180° out of phase: V_LC = |V_L - V_C| = 0 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Resonance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-13",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Impedance and Power Factor from Voltmeter Readings",
+    "difficulty": "Medium",
+    "questionText": "In an L-C-R circuit, the potential differences across the resistance, capacitance, and inductance are measured to be 80 V, 40 V, and 100 V respectively. The power factor of this circuit is: [NEET (Phase-2) 2016]",
+    "options": [
+      "0.4",
+      "0.5",
+      "0.8",
+      "1.0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Total applied voltage V = √[V_R² + (V_L - V_C)²] = √[80² + (100 - 40)²] = √[80² + 60²] = √[6400 + 3600] = 100 V.\nPower factor cos ϕ = V_R / V = 80 V / 100 V = 0.8.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Power Factor",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-14",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Energy Consumption of Ideal Capacitor Over Full Cycle",
+    "difficulty": "Easy",
+    "questionText": "A small signal voltage V(t) = V₀ sin(ωt) is applied across an ideal capacitor C. Over a full complete cycle, the capacitor: [NEET-2016]",
+    "options": [
+      "Current I(t) leads voltage V(t) by 180°",
+      "Current I(t) lags voltage V(t) by 90°",
+      "Over a full cycle the capacitor does not consume any energy from the voltage source",
+      "Current I(t) is in phase with voltage V(t)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a purely capacitive circuit, the current leads the voltage by π/2, so the phase angle is ϕ = 90°. The power factor is cos 90° = 0. Consequently, average power P_avg = V_rms I_rms cos(90°) = 0, meaning zero net energy is consumed over a complete cycle.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Through Capacitor",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-15",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Transformer Ratings and Primary Current",
+    "difficulty": "Medium",
+    "questionText": "A transformer having an efficiency of 90% operates on 200 V with 3 kW input power. If the current in the secondary coil is 6 A, the voltage across the secondary coil and the current in the primary coil respectively are: [AIPMT-2014]",
+    "options": [
+      "300 V, 15 A",
+      "450 V, 15 A",
+      "450 V, 13.5 A",
+      "600 V, 15 A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Input power P_in = V_p · I_p => 3000 W = 200 V × I_p => I_p = 3000 / 200 = 15 A.\nOutput power P_out = η · P_in = 0.90 × 3000 W = 2700 W.\nP_out = V_s · I_s => 2700 W = V_s × 6 A => V_s = 2700 / 6 = 450 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Transformers",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-16",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Power Factor When L and C Individually Shift Phase Equally",
+    "difficulty": "Hard",
+    "questionText": "In a series R-L-C circuit connected to an AC source, when only inductor L is removed, the phase difference between voltage and current is π/3. If instead only capacitor C is removed, the phase difference is again π/3. The power factor of the complete R-L-C circuit is: [AIPMT-2012]",
+    "options": [
+      "1",
+      "√3 / 2",
+      "1 / 2",
+      "1 / √2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When L is removed: tan(π/3) = X_C / R = √3.\nWhen C is removed: tan(π/3) = X_L / R = √3.\nTherefore X_L = X_C = √3 R. When both L and C are present, X_L - X_C = 0, so the circuit is in resonance with Z = R and phase difference ϕ = 0°. Thus power factor cos ϕ = cos 0° = 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Power Factor",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-17",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Power Loss in Series LCR from Formula",
+    "difficulty": "Medium",
+    "questionText": "The average power dissipated in an L-C-R series circuit connected to an AC source of rms emf ε is: [AIPMT-2009]",
+    "options": [
+      "[ε² · R] / [R² + (ωL - 1/ωC)²]",
+      "[ε² · √{R² + (ωL - 1/ωC)²}] / R",
+      "[ε² · R] / √[R² + (ωL - 1/ωC)²]",
+      "ε² / R"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Impedance Z = √[R² + (ωL - 1/ωC)²], and power factor cos ϕ = R / Z.\nP_avg = I_rms² R = (ε / Z)² R = (ε² R) / Z² = (ε² R) / [R² + (ωL - 1/ωC)²].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Power Factor",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-18",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Transformer Core Lamination Purpose",
+    "difficulty": "Easy",
+    "questionText": "The soft iron core of a transformer is laminated in order to: [AIPMT-2006]",
+    "options": [
+      "Minimize energy losses due to eddy currents",
+      "Reduce the total weight of the transformer",
+      "Prevent rusting of the core plates",
+      "Increase the turns ratio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Alternating magnetic flux induces eddy currents in the bulk iron core, causing unwanted heating losses. By laminating the core into thin sheets insulated from one another, the paths of eddy currents are broken up, drastically reducing eddy current energy losses.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Transformers",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-19",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Capacitance for Current Leading Voltage by 45 Degrees",
+    "difficulty": "Medium",
+    "questionText": "In a series LCR circuit connected to an AC voltage source of frequency f, the current leads the voltage by 45°. The capacitance C of the capacitor is: [AIPMT-2005]",
+    "options": [
+      "1 / [2πf (2πfL + R)]",
+      "1 / [πf (2πfL + R)]",
+      "1 / [2πf (2πfL - R)]",
+      "1 / [πf (2πfL - R)]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Current leading by 45° means tan 45° = (X_C - X_L) / R = 1 => X_C - X_L = R.\nX_C = X_L + R => 1 / (2πf C) = 2πfL + R.\nC = 1 / [2πf (2πfL + R)].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "LCR Circuit",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-20",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Capacitor Reactance Doubling Frequency and Capacitance",
+    "difficulty": "Easy",
+    "questionText": "A capacitor of capacitance C has reactance X at frequency f. If both the capacitance and operating frequency are doubled, its new capacitive reactance will be:",
+    "options": [
+      "4 X",
+      "X / 2",
+      "X / 4",
+      "2 X"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Capacitive reactance X_C = 1 / (2π f C) ∝ 1 / (f C).\nWhen f' = 2f and C' = 2C: X_C' = 1 / [2π (2f)(2C)] = (1/4) X_C = X / 4.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Through Capacitor"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-21",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Bulb Brightness on Dielectric Insertion in Series RC",
+    "difficulty": "Medium",
+    "questionText": "An electric bulb is connected in series with a capacitor across an alternating voltage source. If a dielectric slab is inserted between the plates of the capacitor, the brightness of the bulb will:",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Remain the same",
+      "Become zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inserting a dielectric increases the capacitance: C' = K C. The capacitive reactance X_C = 1 / (ωC) decreases, reducing the total circuit impedance Z = √(R² + X_C²). As impedance decreases, current I increases, so power dissipation I²R and bulb brightness increase.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "AC Through Capacitor"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-22",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Inductor Discharge into Capacitor Current",
+    "difficulty": "Hard",
+    "questionText": "A capacitor of capacitance C is charged to a potential difference V₁ and then connected across an ideal inductor of inductance L. The current through the inductor when the potential difference across the capacitor drops to V₂ is:",
+    "options": [
+      "[(C / L) (V₁ - V₂)²]^(1/2)",
+      "(C / L) (V₁² - V₂²)",
+      "(C / L) (V₁² + V₂²)",
+      "[(C / L) (V₁² - V₂²)]^(1/2)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "By conservation of total electromagnetic energy in the LC circuit:\nInitial energy = (1/2) C V₁².\nEnergy at any later instant = (1/2) C V₂² + (1/2) L I².\n(1/2) L I² = (1/2) C (V₁² - V₂²) => I² = (C / L) (V₁² - V₂²).\nI = √[(C / L) (V₁² - V₂²)].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "LC Oscillations"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-23",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Effective Current from Peak and Phase",
+    "difficulty": "Medium",
+    "questionText": "An alternating current is given by I = (3 + 4 sin ωt) A. The effective (RMS) value of this current is:",
+    "options": [
+      "3 A",
+      "4 A",
+      "√17 A",
+      "7 A"
+    ],
+    "correctAnswer": 2,
+    "explanation": "I_rms = √[ (1/T) ∫₀ᵀ (3 + 4 sin ωt)² dt ] = √[ 3² + (4² / 2) ] = √[ 9 + 8 ] = √17 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "RMS Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-24",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Circuit Nature Below Resonant Frequency",
+    "difficulty": "Easy",
+    "questionText": "In a series LCR circuit, the operating frequency ω of the applied source is less than the resonant frequency ω₀ (ω < ω₀). The nature of the circuit is predominantly:",
+    "options": [
+      "Capacitive",
+      "Resistive",
+      "Inductive",
+      "Cannot be defined"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When ω < ω₀: X_L = ωL is small, while X_C = 1 / (ωC) is large. Hence X_C > X_L. The net reactance is capacitive, so current leads the applied voltage and the circuit behaves capacitively.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Resonance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch22-25",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "topic": "Dimensional Formula of the LC Product Square Root",
+    "difficulty": "Easy",
+    "questionText": "The dimensional formula of √(LC) is identical to the dimensional formula of:",
+    "options": [
+      "Time [M⁰ L⁰ T¹]",
+      "Frequency [M⁰ L⁰ T⁻¹]",
+      "Velocity [M⁰ L¹ T⁻¹]",
+      "Resistance [M¹ L² T⁻³ A⁻²]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resonant angular frequency is ω₀ = 1 / √(LC), so √(LC) = 1 / ω₀ = T / (2π). Thus, √(LC) has the dimensions of time [M⁰ L⁰ T¹].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Alternating Current",
+      "Units and Dimensions"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-01",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Deviation Produced by an Equilateral Prism",
+    "difficulty": "Easy",
+    "questionText": "A ray of light is incident at an angle of 60° on a glass prism of refracting angle 60°. If the refractive index of the prism material is √3, the angle between the incident ray and the emergent ray (angle of deviation) will be: [NCERT Pg. 331]",
+    "options": [
+      "45°",
+      "60°",
+      "37°",
+      "30°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the first face: sin i₁ / sin r₁ = μ => sin 60° / sin r₁ = √3 => (√3/2) / sin r₁ = √3 => sin r₁ = 1/2 => r₁ = 30°.\nInside the prism: r₁ + r₂ = A => 30° + r₂ = 60° => r₂ = 30°.\nBy symmetry, at the second face: i₂ = e = 60° (minimum deviation condition).\nDeviation δ = i + e - A = 60° + 60° - 60° = 60°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Prisms"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-02",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Telescope Tube Length in Strained Eye Adjustment",
+    "difficulty": "Medium",
+    "questionText": "The focal lengths of the objective and eyepiece of an astronomical telescope are 50 cm and 4 cm respectively. The length of the telescope tube when adjusted for the most strained eye (image at least distance of distinct vision D = 25 cm) is about: [NCERT Pg. 341]",
+    "options": [
+      "63 cm",
+      "45 cm",
+      "53 cm",
+      "40 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "When the final image is formed at D = 25 cm: 1/v_e - 1/u_e = 1/f_e => -1/25 - 1/(-u_e) = 1/4 => 1/u_e = 1/4 + 1/25 = 29 / 100 => u_e = 100 / 29 ≈ 3.45 cm.\nTotal tube length L = f_o + u_e = 50 cm + 3.45 cm = 53.45 cm ≈ 53 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Optical Instruments"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-03",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Critical Angle in Terms of Travel Times",
+    "difficulty": "Medium",
+    "questionText": "Light takes time t₁ to travel a distance 'a' in medium 1, and time t₂ to travel a distance 'b' in medium 2. If medium 2 is optically denser than medium 1, the critical angle for the interface between the two media is: [NCERT Pg. 320]",
+    "options": [
+      "sin⁻¹[(a · t₂) / (b · t₁)]",
+      "sin⁻¹[(b · t₁) / (a · t₂)]",
+      "sin⁻¹[(a · t₁) / (b · t₂)]",
+      "sin⁻¹[(b · t₂) / (a · t₁)]"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Speed in medium 1: v₁ = a / t₁. Speed in medium 2: v₂ = b / t₂.\nCritical angle for light going from denser medium 2 to rarer medium 1: sin C = v₂ / v₁ = (b / t₂) / (a / t₁) = (b · t₁) / (a · t₂).\nC = sin⁻¹[(b · t₁) / (a · t₂)].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Total Internal Reflection"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-04",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Dispersive Power Dependence",
+    "difficulty": "Easy",
+    "questionText": "The dispersive power (ω) of a prism depends on: [NCERT Pg. 332]",
+    "options": [
+      "The refracting angle of the prism",
+      "The physical size and shape of the prism",
+      "The material of the prism",
+      "Both the angle and size of the prism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dispersive power is defined as ω = (μ_v - μ_r) / (μ_y - 1). It is an intrinsic optical characteristic of the material of the prism and is completely independent of the refracting angle, shape, or geometric dimensions of the prism.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Dispersion"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-05",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Refraction at a Spherical Convex Surface",
+    "difficulty": "Medium",
+    "questionText": "A spherical convex refracting surface of radius of curvature R = 2/9 m separates a rarer medium of refractive index 4/3 from a denser medium of refractive index 3/2. If an object is kept in the first medium at infinity (u = -∞), the position of the image is: [NCERT Pg. 325]",
+    "options": [
+      "1 m",
+      "2 m",
+      "1.5 m",
+      "0.5 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Refraction formula at a spherical interface: μ₂ / v - μ₁ / u = (μ₂ - μ₁) / R.\n(3/2) / v - (4/3) / (-∞) = (3/2 - 4/3) / (2/9).\n(3/2) / v = (1/6) / (2/9) = (1/6) × (9/2) = 9/12 = 3/4.\nv = (3/2) / (3/4) = (3/2) × (4/3) = 2/2 = 1.0 m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Refraction at Spherical Surface"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-06",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Speed of Image for Object Moving Along Lens Axis",
+    "difficulty": "Hard",
+    "questionText": "A point object is moving with a speed of 8 cm/s along the principal axis of a converging lens of focal length 20 cm towards the lens. When the object is at a distance of 30 cm from the lens, the speed of the image is: [NCERT Pg. 328]",
+    "options": [
+      "32 cm/s",
+      "34 cm/s",
+      "20 cm/s",
+      "10 cm/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lens formula: 1/v - 1/u = 1/f. For u = -30 cm and f = +20 cm:\n1/v = 1/20 - 1/30 = 1/60 => v = +60 cm.\nTransverse/longitudinal velocity relation: v_image = (v / u)² · v_object = (60 / -30)² × (8 cm/s) = (-2)² × 8 = 4 × 8 = 32 cm/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-07",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Focal Length of a Glass Equiconvex Lens",
+    "difficulty": "Easy",
+    "questionText": "A double convex lens of refractive index 1.5 has both radii of curvature equal to 30 cm. Incident rays of light parallel to the principal axis will converge at a distance from the lens equal to: [NCERT Pg. 328]",
+    "options": [
+      "20 cm",
+      "10 cm",
+      "15 cm",
+      "30 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "From Lens Maker's formula: 1/f = (μ - 1) (1/R₁ - 1/R₂) = (1.5 - 1) [1/30 - (-1/30)] = 0.5 × (2/30) = 1/30 => f = 30 cm. Parallel rays converge at the focus, so distance = 30 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-08",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Refraction Angle Relation for Half Incident Angle",
+    "difficulty": "Medium",
+    "questionText": "If the angle of incidence i is half of the angle of refraction r in a medium of refractive index μ relative to the first medium (i.e., r = 2i), then the angle of incidence i is: [NCERT Pg. 317]",
+    "options": [
+      "cos⁻¹(1 / 2μ)",
+      "cos⁻¹(1 / μ)",
+      "sin⁻¹(1 / 2μ)",
+      "sin⁻¹(1 / μ)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "By Snell's law: sin i / sin r = 1/μ => sin i / sin(2i) = 1/μ.\nsin i / [2 sin i cos i] = 1/μ => 1 / (2 cos i) = 1/μ => cos i = 1 / (2μ) => i = cos⁻¹(1 / 2μ).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Snell's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-09",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Concave Mirror Object Distance for Unit Magnification",
+    "difficulty": "Easy",
+    "questionText": "To obtain a magnification of magnitude equal to one (|m| = 1) for a real image, the distance of a real object from the pole of a concave mirror of focal length 10 cm should be: [NCERT Pg. 314]",
+    "options": [
+      "10 cm",
+      "20 cm",
+      "5 cm",
+      "15 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A concave mirror produces a real inverted image of the exact same size (|m| = 1) when the object is situated at the centre of curvature C: u = R = 2f = 2 × 10 cm = 20 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Spherical Mirrors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-10",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Wavelength Change in Denser Medium",
+    "difficulty": "Easy",
+    "questionText": "A beam of monochromatic light of wavelength 3900 Å in air enters into glass of refractive index 1.5. Its wavelength inside the glass will be: [NCERT Pg. 317]",
+    "options": [
+      "1800 Å",
+      "2600 Å",
+      "3600 Å",
+      "13000 Å"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When light enters a medium of refractive index μ, its frequency remains unchanged while its speed and wavelength decrease by a factor of μ: λ_medium = λ_air / μ = 3900 Å / 1.5 = 2600 Å.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Refraction"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-11",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Power of Cut Lens Halves",
+    "difficulty": "Easy",
+    "questionText": "An equiconvex lens has power P. It is cut into two symmetrical halves by a plane containing the principal axis (longitudinally). The optical power of each individual half will be: [NEET-2019 (Odisha)]",
+    "options": [
+      "P",
+      "0",
+      "P / 2",
+      "P / 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cutting a lens along a plane containing the principal axis leaves the radii of curvature of both surfaces unchanged. Therefore, by Lens Maker's formula, the focal length f and the optical power P = 1/f of each half remain completely unchanged (P). Only the aperture area is halved, reducing image brightness.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Radii of Curvature of Convex Lens",
+    "difficulty": "Medium",
+    "questionText": "A double convex lens has a focal length of 25 cm. The radius of curvature of one surface is double that of the other. If the refractive index of the lens material is 1.5, the two radii of curvature are: [NEET-2019 (Odisha)]",
+    "options": [
+      "50 cm, 100 cm",
+      "100 cm, 50 cm",
+      "25 cm, 50 cm",
+      "18.75 cm, 37.5 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Let R₁ = R and R₂ = -2R.\n1/f = (μ - 1) [1/R₁ - 1/R₂] => 1/25 = (1.5 - 1) [1/R + 1/(2R)] = 0.5 × (3 / 2R) = 3 / (4R).\n4R = 3 × 25 = 75 => R = 75 / 4 = 18.75 cm.\nSecond radius 2R = 2 × 18.75 = 37.5 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-13",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Glycerine-Filled Lens Combination",
+    "difficulty": "Hard",
+    "questionText": "Two similar thin equiconvex lenses, of focal length f each, are kept coaxially in contact with each other (focal length F₁). When the intervening space between the lenses is filled with glycerine (refractive index μ = 1.5, same as glass), the equivalent focal length becomes F₂. The ratio F₁ : F₂ is: [NEET-2019]",
+    "options": [
+      "2 : 1",
+      "1 : 2",
+      "2 : 3",
+      "3 : 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Initial combination: 1/F₁ = 1/f + 1/f = 2/f => F₁ = f / 2.\nThe liquid filling the space forms an equiconcave lens with identical curvature radii and refractive index as the glass lenses, so its focal length is f_liquid = -f.\nNew focal length: 1/F₂ = 1/f + 1/(-f) + 1/f = 1/f => F₂ = f.\nRatio F₁ : F₂ = (f/2) / f = 1 : 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-14",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Incorrect Statement Regarding Rainbow Formation",
+    "difficulty": "Easy",
+    "questionText": "Pick the INCORRECT statement in the context of rainbow formation: [NEET-2019]",
+    "options": [
+      "When light rays undergo two internal reflections in a raindrop, a secondary rainbow is formed",
+      "The order of colours is reversed in the secondary rainbow compared to the primary",
+      "An observer can see a rainbow when his front is facing towards the sun",
+      "A rainbow is formed by the combined effect of dispersion, refraction, and internal reflection of sunlight"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An observer can see a rainbow only when the sun is behind him and water droplets are in front of him. Facing directly towards the sun makes it impossible to see the back-reflected/refracted rays forming the rainbow.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Optical Phenomena",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-15",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Image Displacement in a Concave Mirror",
+    "difficulty": "Medium",
+    "questionText": "An object is placed at a distance of 40 cm from a concave mirror of focal length 15 cm. If the object is displaced by 20 cm towards the mirror, the displacement of the image will be: [NEET-2018]",
+    "options": [
+      "30 cm away from the mirror",
+      "36 cm away from the mirror",
+      "36 cm towards the mirror",
+      "30 cm towards the mirror"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Initial position: u₁ = -40 cm, f = -15 cm.\n1/v₁ = 1/(-15) - 1/(-40) = -1/15 + 1/40 = -5/120 = -1/24 => v₁ = -24 cm.\nFinal position: u₂ = -(40 - 20) = -20 cm.\n1/v₂ = 1/(-15) - 1/(-20) = -1/15 + 1/20 = -1/60 => v₂ = -60 cm.\nImage displacement Δv = |v₂| - |v₁| = 60 - 24 = 36 cm away from the mirror.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Spherical Mirrors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-16",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Plane Mirror Rotation and Reflected Spot Displacement",
+    "difficulty": "Medium",
+    "questionText": "A beam of light from source L is incident normally on a plane mirror at distance x. The reflected spot falls on a scale just above L. When the mirror is rotated through a small angle θ, the spot shifts through distance y on the scale. The angle θ is: [NEET-2017]",
+    "options": [
+      "y / (2x)",
+      "y / x",
+      "x / (2y)",
+      "x / y"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a plane mirror is rotated by an angle θ, the reflected ray is deflected by an angle 2θ. For small angles, the linear shift on a screen at distance x is y = x · (2θ) => 2θ = y / x => θ = y / (2x).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Plane Mirror",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-17",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Achromatic Combination Without Deviation",
+    "difficulty": "Medium",
+    "questionText": "A thin prism with refracting angle 10° has refractive index 1.42. It is combined with another thin prism of refractive index 1.7 to produce dispersion without deviation. The refracting angle of the second prism should be: [NEET-2017]",
+    "options": [
+      "4°",
+      "6°",
+      "8°",
+      "10°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For zero net deviation (dispersion without deviation): δ₁ + δ₂ = 0 => (μ₁ - 1) A₁ + (μ₂ - 1) A₂ = 0.\nA₂ = -[(μ₁ - 1) / (μ₂ - 1)] · A₁ = -[(1.42 - 1) / (1.7 - 1)] × 10° = -[0.42 / 0.70] × 10° = -0.6 × 10° = -6°.\nMagnitude of the refracting angle is 6°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Prisms",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-18",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Thickness of Glass Slab from Apparent Depths",
+    "difficulty": "Easy",
+    "questionText": "An air bubble trapped inside a glass slab of refractive index 1.5 appears 5 cm deep when viewed from one surface and 3 cm deep when viewed from the opposite face. The actual thickness of the slab is: [NEET (Phase-2) 2016]",
+    "options": [
+      "8 cm",
+      "10 cm",
+      "12 cm",
+      "16 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Apparent depth d' = real depth / μ.\nTotal thickness t = d₁ + d₂ = μ d₁' + μ d₂' = μ (d₁' + d₂') = 1.5 × (5 cm + 3 cm) = 1.5 × 8 cm = 12 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Refraction",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-19",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Refraction at Critical Angle",
+    "difficulty": "Easy",
+    "questionText": "In total internal reflection, when the angle of incidence in the denser medium is exactly equal to the critical angle for the pair of media, the angle of refraction in the rarer medium is: [NEET-2019]",
+    "options": [
+      "180°",
+      "0°",
+      "Equal to angle of incidence",
+      "90°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "By definition, the critical angle C is the specific angle of incidence in the denser medium for which the corresponding angle of refraction in the rarer medium becomes 90° (the refracted ray grazes the interface).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Total Internal Reflection",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-20",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Silvered Plano-Convex Lens on Plane Face",
+    "difficulty": "Medium",
+    "questionText": "The radius of curvature of the curved surface of a plano-convex lens of refractive index 1.5 is 10 cm. If its plane surface is silvered, it behaves as a concave mirror of focal length:",
+    "options": [
+      "10 cm",
+      "20 cm",
+      "15 cm",
+      "25 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Focal length of lens: 1/f_L = (1.5 - 1)(1/10) = 0.5/10 = 1/20 => f_L = 20 cm.\nPlane mirror has focal length f_M = ∞.\nPower of combination: P = 2 P_L + P_M = 2 / f_L + 1 / f_M = 2 / 20 + 0 = 1/10 cm⁻¹.\nEquivalent concave mirror focal length F = 1 / P = 10 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Silvering of Lenses"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-21",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Displacement Method Object Size",
+    "difficulty": "Easy",
+    "questionText": "In the lens displacement method, for two positions of a convex lens between an object and a screen, the lengths of the images formed are 18 cm and 8 cm respectively. The actual length of the object is:",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "13 cm",
+      "14 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the displacement method, object size O is the geometric mean of the two image heights: O = √(I₁ · I₂) = √(18 × 8) = √144 = 12 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Displacement Method"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-22",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Radius of Circular Field of View of Fish",
+    "difficulty": "Medium",
+    "questionText": "A fish looking up through water (μ = 4/3) sees the entire outside world compressed into a circular horizon on the surface. If the fish is at a depth of 12 cm below the water surface, the radius of this circular horizon is:",
+    "options": [
+      "16 / √7 cm",
+      "26 / √7 cm",
+      "36 / √7 cm",
+      "46 / √7 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The radius of the circle of illumination is r = h tan C = h / √(μ² - 1).\nHere h = 12 cm and μ = 4/3 => μ² - 1 = 16/9 - 1 = 7/9 => √(μ² - 1) = √7 / 3.\nr = 12 / (√7 / 3) = (12 × 3) / √7 = 36 / √7 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Total Internal Reflection"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-23",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Refraction at Spherical Water Boundary",
+    "difficulty": "Medium",
+    "questionText": "A glass lens (μ_g = 1.5) has a focal length of 25 cm in air. If it is completely submerged in water of refractive index μ_w = 4/3, its new focal length in water will be:",
+    "options": [
+      "50 cm",
+      "75 cm",
+      "1 m",
+      "1.25 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "f_water / f_air = [(μ_g - 1) / (μ_g / μ_w - 1)] = [(1.5 - 1) / (1.5 / (4/3) - 1)] = 0.5 / (9/8 - 1) = 0.5 / (1/8) = 4.\nf_water = 4 × f_air = 4 × 25 cm = 100 cm = 1.0 m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-24",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Power of Thin Lens Combination in Contact",
+    "difficulty": "Easy",
+    "questionText": "A convex lens of focal length 20 cm is placed in contact with a concave lens of focal length 30 cm. The focal length and converging/diverging nature of the combination will be:",
+    "options": [
+      "60 cm converging",
+      "60 cm diverging",
+      "12 cm converging",
+      "12 cm diverging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "f₁ = +20 cm, f₂ = -30 cm.\n1/F = 1/f₁ + 1/f₂ = 1/20 - 1/30 = (3 - 2)/60 = +1/60 cm⁻¹ => F = +60 cm.\nSince the effective focal length is positive (+60 cm), the combination is converging.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Lenses"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch24-25",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Magnification of Compound Microscope Eyepiece and Objective",
+    "difficulty": "Medium",
+    "questionText": "A compound microscope has a total magnifying power of 48. The focal length of its eyepiece is 5 cm. If the final image is formed at the least distance of distinct vision (D = 25 cm), the linear magnification produced by the objective lens is:",
+    "options": [
+      "-8",
+      "8",
+      "-200",
+      "200"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magnification of eyepiece at near point: m_e = 1 + D / f_e = 1 + 25 / 5 = 6.\nTotal magnifying power M = |m_o| · m_e => 48 = |m_o| × 6 => |m_o| = 8.\nSince the objective forms a real, inverted image, m_o = -8.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Ray Optics and Optical Instruments",
+      "Optical Instruments"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-01",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "YDSE Fringe Width Calculation",
+    "difficulty": "Easy",
+    "questionText": "In a Young's double slit experiment, two slits 2 mm apart are illuminated by monochromatic light of wavelength 8000 Å. The fringe width observed on a screen placed 1 m from the slits will be: [NCERT Pg. 364]",
+    "options": [
+      "2 mm",
+      "4 mm",
+      "0.2 mm",
+      "0.4 mm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Fringe width β = (λ D) / d.\nβ = [(8000 × 10⁻¹⁰ m) × (1 m)] / (2 × 10⁻³ m) = (8 × 10⁻⁷) / (2 × 10⁻³) = 4 × 10⁻⁴ m = 0.4 mm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-02",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Doppler Shift of Light",
+    "difficulty": "Medium",
+    "questionText": "How fast should a car drive so that a signal of wavelength 480 nm appears Doppler-shifted to 480.08 nm? [NCERT Pg. 359]",
+    "options": [
+      "5 × 10² m/s",
+      "5 × 10⁴ m/s",
+      "2 × 10³ m/s",
+      "3 × 10⁴ m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From the Doppler relation for light (v << c): Δλ / λ = v / c.\nΔλ = 480.08 - 480.00 = 0.08 nm.\nv = c · (Δλ / λ) = (3 × 10⁸ m/s) × (0.08 / 480) = (3 × 10⁸) / 6000 = 5 × 10⁴ m/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Doppler Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-03",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Brewster's Law and Refraction Angle",
+    "difficulty": "Easy",
+    "questionText": "The refractive index of a transparent medium is 4/3. If unpolarised light is incident at the polarizing angle, the angle of refraction inside the medium will be: [NCERT Pg. 380]",
+    "options": [
+      "53°",
+      "30°",
+      "37°",
+      "45°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "By Brewster's law, tan i_p = μ = 4/3 => i_p = 53°.\nAt the polarizing angle, the reflected and refracted rays are perpendicular: i_p + r = 90°.\nr = 90° - 53° = 37°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Polarization"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-04",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Slit Separation from Angular Fringe Width",
+    "difficulty": "Medium",
+    "questionText": "In a YDSE experiment, the angular width of a fringe formed on a distant screen is 0.5°. If light of wavelength 7000 Å is used, the separation between the two slits is: [NCERT Pg. 364]",
+    "options": [
+      "0.08 mm",
+      "0.08 cm",
+      "0.01 mm",
+      "0.02 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Angular fringe width θ = λ / d (in radians).\n0.5° = 0.5 × (π / 180) rad = π / 360 rad.\nd = λ / θ = (7000 × 10⁻¹⁰ m) / (π / 360) = (7 × 10⁻⁷ × 360) / 3.1416 ≈ 8.02 × 10⁻⁵ m ≈ 0.08 mm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-05",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Fringe Visibility Ratio Formula",
+    "difficulty": "Medium",
+    "questionText": "Two coherent sources with intensities I₁ and I₂ interfere to form a fringe pattern on a screen. The value of the ratio (I_max - I_min) / (I_max + I_min) is: [NCERT Pg. 366]",
+    "options": [
+      "(I₁ + I₂) / √(I₁ I₂)",
+      "√(I₁ I₂) / (I₁ + I₂)",
+      "(I₁ + I₂) / (2√(I₁ I₂))",
+      "(2√(I₁ I₂)) / (I₁ + I₂)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "I_max = (√I₁ + √I₂)² = I₁ + I₂ + 2√(I₁I₂).\nI_min = (√I₁ - √I₂)² = I₁ + I₂ - 2√(I₁I₂).\nI_max - I_min = 4√(I₁I₂).\nI_max + I_min = 2(I₁ + I₂).\nRatio = [4√(I₁I₂)] / [2(I₁ + I₂)] = 2√(I₁I₂) / (I₁ + I₂).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-06",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Resultant Amplitude of Interfering Waves",
+    "difficulty": "Easy",
+    "questionText": "Two coherent light waves are represented by y₁ = 8 sin(ωt) and y₂ = 6 sin(ωt + 60°). The amplitude of the resultant wave upon superposition is: [NCERT Pg. 362]",
+    "options": [
+      "16",
+      "20",
+      "12",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A = √(a₁² + a₂² + 2 a₁ a₂ cos ϕ) = √[8² + 6² + 2(8)(6) cos 60°] = √[64 + 36 + 96(0.5)] = √[100 + 48] = √148 ≈ 12.16 ≈ 12.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Superposition Principle"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-07",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Polarizing Angle from Refractive Index",
+    "difficulty": "Easy",
+    "questionText": "A transparent material has a refractive index of √3. The angle of incidence of unpolarised light at which the reflected light is completely plane polarised is: [NCERT Pg. 380]",
+    "options": [
+      "30°",
+      "60°",
+      "45°",
+      "37°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By Brewster's law: tan i_p = μ = √3 => i_p = 60°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Polarization"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-08",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Intensity Ratio from Slit Widths",
+    "difficulty": "Medium",
+    "questionText": "If two slits in a YDSE experiment have their width ratio as 1 : 9, the ratio of minimum to maximum intensity (I_min / I_max) in the interference pattern would be: [NCERT Pg. 366]",
+    "options": [
+      "1 : 4",
+      "1 : 8",
+      "1 : √2",
+      "1 : 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Slit width ratio w₁ / w₂ = I₁ / I₂ = 1 / 9 => a₁ / a₂ = √(I₁ / I₂) = 1 / 3.\nI_min / I_max = (a₂ - a₁)² / (a₂ + a₁)² = (3 - 1)² / (3 + 1)² = 2² / 4² = 4 / 16 = 1 : 4.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-09",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Single Slit First Minima Width",
+    "difficulty": "Easy",
+    "questionText": "The first diffraction minimum due to a single slit of width a occurs at θ = 30° for light of wavelength 6000 Å. The width of the slit is: [NCERT Pg. 369]",
+    "options": [
+      "0.8 μm",
+      "1.2 μm",
+      "0.6 μm",
+      "0.3 μm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Condition for first diffraction minimum: a sin θ = 1 · λ.\na sin 30° = 6000 × 10⁻¹⁰ m => a (1/2) = 6 × 10⁻⁷ m => a = 12 × 10⁻⁷ m = 1.2 μm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Diffraction"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-10",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Law of Malus for 45 Degree Analyzer",
+    "difficulty": "Easy",
+    "questionText": "Plane polarised light of intensity I₀ is incident on a polaroid with its electric field vector making an angle of 45° with the transmission axis of the polaroid. The transmitted light intensity will be: [NCERT Pg. 378]",
+    "options": [
+      "I₀",
+      "I₀ / 2",
+      "(3/4) I₀",
+      "I₀ / 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By Malus's law: I = I₀ cos² θ = I₀ cos² 45° = I₀ (1 / √2)² = I₀ / 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Polarization"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-11",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Separation Between Maxima and Minima in YDSE",
+    "difficulty": "Medium",
+    "questionText": "The distance between the 2nd bright maximum and 5th dark minimum on the same side of the central maximum in a YDSE pattern is 5 mm. The slits are separated by 0.30 mm and the screen is at 100 cm. The wavelength of light used is: [NCERT Pg. 364]",
+    "options": [
+      "400 nm",
+      "550 nm",
+      "600 nm",
+      "700 nm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Position of 2nd bright maximum: y_2B = 2 (λ D / d).\nPosition of 5th dark minimum: y_5D = (5 - 0.5) (λ D / d) = 4.5 (λ D / d).\nSeparation Δy = (4.5 - 2) (λ D / d) = 2.5 (λ D / d).\n5 × 10⁻³ m = 2.5 × [λ × 1.0 m / (0.30 × 10⁻³ m)] => 5 × 10⁻³ = (2.5 / 3 × 10⁻⁴) λ.\nλ = (5 × 10⁻³ × 0.30 × 10⁻³) / 2.5 = 6 × 10⁻⁷ m = 600 nm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Microscope Resolving Power Wavelength Ratio",
+    "difficulty": "Easy",
+    "questionText": "The ratio of resolving powers of an optical microscope for two illuminating wavelengths λ₁ = 4500 Å and λ₂ = 600 nm is: [NCERT Pg. 375]",
+    "options": [
+      "4 : 7",
+      "3 : 2",
+      "4 : 3",
+      "15 : 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Resolving power of a microscope is inversely proportional to the wavelength: RP ∝ 1 / λ.\nRP₁ / RP₂ = λ₂ / λ₁ = (600 nm) / (450 nm) = 600 / 450 = 4 / 3 = 4 : 3.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Resolving Power"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-13",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Angular Width of Central Maxima Reduction",
+    "difficulty": "Easy",
+    "questionText": "The angular width of the central maximum in Fraunhofer diffraction for wavelength λ = 6000 Å is θ₀. When illuminated by another monochromatic light, the angular width decreases by 30%. The wavelength of this new light is: [NEET-2019 (Odisha)]",
+    "options": [
+      "420 Å",
+      "1800 Å",
+      "4200 Å",
+      "6000 Å"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Angular width of central maximum θ = 2λ / a ∝ λ.\nIf θ decreases by 30%, new width θ' = 0.70 θ₀.\nTherefore, λ' = 0.70 × λ = 0.70 × 6000 Å = 4200 Å.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Diffraction",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-14",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Path Difference for the Fifth Minimum",
+    "difficulty": "Easy",
+    "questionText": "In a Young's double slit experiment with light of wavelength λ and no initial phase difference, a point on the screen corresponding to the fifth minimum has a path difference of: [NEET-2019 (Odisha)]",
+    "options": [
+      "11λ / 2",
+      "5λ / 2",
+      "10λ / 2",
+      "9λ / 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Path difference for destructive interference (dark fringe / minimum) is Δx = (2n - 1) λ / 2.\nFor the fifth minimum (n = 5): Δx = (2 × 5 - 1) λ / 2 = 9λ / 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-15",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Angular Fringe Width in Liquid",
+    "difficulty": "Easy",
+    "questionText": "In a double slit experiment, the angular width of the first fringe on a screen 1 m away is 0.2° in air. What will be the angular width of the fringe if the entire apparatus is immersed in water (μ_w = 4/3)? [NEET-2019]",
+    "options": [
+      "0.266°",
+      "0.15°",
+      "0.05°",
+      "0.1°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Angular fringe width θ = λ / d. When immersed in water, wavelength decreases to λ' = λ / μ.\nθ' = θ / μ = 0.20° / (4/3) = 0.20° × 3/4 = 0.15°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-16",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Slit Separation Adjustment for Angular Width",
+    "difficulty": "Medium",
+    "questionText": "In YDSE, the separation between slits is 2 mm and the angular width of fringes is 0.20°. To increase the fringe angular width to 0.21° keeping wavelength and distance constant, the slit separation must be changed to: [NEET-2018]",
+    "options": [
+      "1.8 mm",
+      "1.9 mm",
+      "1.7 mm",
+      "2.1 mm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "θ = λ / d => θ · d = constant.\nθ₁ d₁ = θ₂ d₂ => (0.20°) × (2 mm) = (0.21°) × d₂.\nd₂ = 0.40 / 0.21 ≈ 1.904 mm ≈ 1.9 mm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-17",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Polarized Light Electric Vector Orientation",
+    "difficulty": "Easy",
+    "questionText": "Unpolarised light is incident from air on a transparent surface of refractive index μ at Brewster's angle i_p, where reflected and refracted rays are perpendicular. The reflected light is completely polarised with its electric vector: [NEET-2018]",
+    "options": [
+      "Parallel to the plane of incidence",
+      "Perpendicular to the plane of incidence",
+      "At 45° to the plane of incidence",
+      "Vibrating randomly in all directions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At Brewster's angle of incidence, the reflected light is completely plane polarized with its electric field vector vibrating perpendicular to the plane of incidence (parallel to the reflecting boundary surface).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Polarization",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-18",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Coinciding Bright and Dark Fringes in Medium",
+    "difficulty": "Hard",
+    "questionText": "A YDSE is performed first in air and then in an unknown liquid medium. The 8th bright fringe in the medium lies at the exact position where the 5th dark fringe lies in air. The refractive index of the medium is nearly: [NEET-2017]",
+    "options": [
+      "1.25",
+      "1.59",
+      "1.69",
+      "1.78"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Position of 5th dark fringe in air: y = (5 - 0.5) (λ_air D / d) = 4.5 (λ_air D / d).\nPosition of 8th bright fringe in medium: y = 8 (λ_med D / d) = 8 (λ_air D / (μ d)).\nEquating positions: 4.5 λ_air = 8 λ_air / μ => μ = 8 / 4.5 = 16 / 9 ≈ 1.778 ≈ 1.78.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-19",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Three-Polaroid Transmission at 45 Degrees",
+    "difficulty": "Medium",
+    "questionText": "Two Polaroids P₁ and P₂ are placed with their transmission axes crossed (at 90°). Unpolarised light of intensity I₀ is incident on P₁. A third Polaroid P₃ is inserted between P₁ and P₂ with its axis at 45° to P₁. The intensity of light transmitted through P₂ is: [NEET-2017]",
+    "options": [
+      "I₀ / 2",
+      "I₀ / 4",
+      "I₀ / 8",
+      "I₀ / 16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "After passing through P₁: I₁ = I₀ / 2.\nAngle between P₁ and P₃ is 45°: I₃ = I₁ cos² 45° = (I₀ / 2) × (1/2) = I₀ / 4.\nAngle between P₃ and P₂ is (90° - 45°) = 45°: I₂ = I₃ cos² 45° = (I₀ / 4) × (1/2) = I₀ / 8.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Polarization",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-20",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Fringe Contrast from Intensity Ratio n",
+    "difficulty": "Medium",
+    "questionText": "An interference pattern is obtained with two coherent light sources having an intensity ratio n (I₂ / I₁ = n). The ratio (I_max - I_min) / (I_max + I_min) is: [NEET (Phase-2) 2016]",
+    "options": [
+      "√n / (n + 1)",
+      "2√n / (n + 1)",
+      "√n / (n + 1)²",
+      "2√n / (n + 1)²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Let I₁ = I, then I₂ = n I.\nI_max = (√I + √nI)² = I (1 + √n)².\nI_min = (√nI - √I)² = I (√n - 1)².\nI_max - I_min = 4 I √n.\nI_max + I_min = 2 I (n + 1).\n(I_max - I_min) / (I_max + I_min) = (4 I √n) / [2 I (n + 1)] = 2√n / (n + 1).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-21",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Intensity on Screen Opposite to One Slit",
+    "difficulty": "Hard",
+    "questionText": "In YDSE, the maximum intensity is I₀. The distance between the two slits is d = 5λ, and the screen is placed at D = 10d. The intensity on the screen at a point directly opposite to one of the slits is: [NEET-2016]",
+    "options": [
+      "I₀ / 2",
+      "I₀",
+      "I₀ / 4",
+      "(3/4) I₀"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A point directly opposite to one slit is at distance y = d/2 from the central maximum.\nPath difference Δx = y · d / D = (d/2) · d / (10d) = d / 20.\nSince d = 5λ: Δx = 5λ / 20 = λ / 4.\nPhase difference ϕ = (2π / λ) · Δx = (2π / λ) · (λ / 4) = π / 2.\nIntensity I = I₀ cos²(ϕ / 2) = I₀ cos²(π / 4) = I₀ (1 / √2)² = I₀ / 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-22",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Single-Slit Wavelet Phase Difference at First Minimum",
+    "difficulty": "Medium",
+    "questionText": "At the first minimum adjacent to the central maximum in a single-slit diffraction pattern, the phase difference between the Huygens' wavelet from the edge of the slit and that from the midpoint of the slit is: [Re-AIPMT-2015]",
+    "options": [
+      "π/8 radian",
+      "π/4 radian",
+      "π/2 radian",
+      "π radian"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For the first minimum of a single slit of width a: total path difference between wavelets from the two opposite edges is a sin θ = λ.\nThe path difference between a wavelet from the edge and one from the midpoint (a/2) is Δx = (a/2) sin θ = λ / 2.\nPhase difference Δϕ = (2π / λ) · Δx = (2π / λ) · (λ / 2) = π radian.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Diffraction",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-23",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Diffraction Central Maxima Width Formula",
+    "difficulty": "Easy",
+    "questionText": "For a parallel beam of monochromatic light of wavelength λ incident on a single slit of width a, the linear width of the central diffraction maximum formed on a screen at distance D is: [AIPMT-2015]",
+    "options": [
+      "2Da / λ",
+      "2Dλ / a",
+      "Dλ / a",
+      "Da / λ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The first minima on either side occur at angular positions θ = ± λ / a. The total angular width of the central maximum is 2θ = 2λ / a. The linear width on a screen at distance D is β₀ = 2θ · D = 2Dλ / a.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Diffraction",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-24",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Intensity at Quarter-Wavelength Path Difference",
+    "difficulty": "Easy",
+    "questionText": "In a YDSE, the intensity of light at a point on the screen where the path difference is λ is K. The intensity at a point where the path difference is λ/4 will be: [AIPMT-2014]",
+    "options": [
+      "K",
+      "K / 4",
+      "K / 2",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "When path difference is λ, phase difference is 2π, corresponding to maximum intensity: I_max = K.\nWhen path difference is λ/4, phase difference is ϕ = (2π/λ)(λ/4) = π/2.\nIntensity I = I_max cos²(ϕ / 2) = K cos²(π / 4) = K (1 / √2)² = K / 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Interference of Light",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch25-25",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "topic": "Fresnel Distance Condition for Ray Optics Validity",
+    "difficulty": "Medium",
+    "questionText": "Light of wavelength λ is incident on a slit of width d. The resulting diffraction pattern is observed on a screen at distance D. The linear width of the principal maximum is equal to the slit width d when distance D equals:",
+    "options": [
+      "d / λ",
+      "d / (2λ)",
+      "d² / (2λ)",
+      "(2d²) / λ"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Linear width of the central maximum is 2Dλ / d. Setting this equal to the slit width d:\n2Dλ / d = d => 2Dλ = d² => D = d² / (2λ).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Wave Optics",
+      "Diffraction"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-01",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Electron Speed from de Broglie Wavelength",
+    "difficulty": "Easy",
+    "questionText": "The speed of an electron having a de Broglie wavelength of 1.2 × 10⁻⁹ m is about (m_e = 9.1 × 10⁻³¹ kg, h = 6.63 × 10⁻³⁴ J·s): [NCERT Pg. 398]",
+    "options": [
+      "6 × 10⁵ m/s",
+      "4 × 10⁶ m/s",
+      "5 × 10⁶ m/s",
+      "3 × 10⁶ m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From the de Broglie relation: λ = h / (m v) => v = h / (m λ).\nv = (6.63 × 10⁻³⁴ J·s) / [(9.1 × 10⁻³¹ kg) × (1.2 × 10⁻⁹ m)] = (6.63 × 10⁻³⁴) / (1.092 × 10⁻³⁹) ≈ 6.07 × 10⁵ m/s ≈ 6 × 10⁵ m/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-02",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Photocurrent vs Light Intensity",
+    "difficulty": "Easy",
+    "questionText": "For radiation of frequency above the threshold frequency, the variation of photoelectric current with the intensity of incident light is correctly represented by: [NCERT Pg. 390]",
+    "options": [
+      "A straight line passing through the origin (linear increase)",
+      "An exponentially decaying curve",
+      "A curve that rapidly saturates to a constant level",
+      "A horizontal straight line independent of intensity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The number of photoelectrons emitted per unit time is directly proportional to the number of incident photons per unit area per unit time (intensity). Hence, photocurrent varies linearly with light intensity, represented by a straight line through the origin.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-03",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Parameters of Matter Waves",
+    "difficulty": "Easy",
+    "questionText": "The de Broglie wavelength of a matter wave associated with a moving particle is fundamentally independent of the particle's: [NCERT Pg. 398]",
+    "options": [
+      "Charge",
+      "Mass",
+      "Velocity",
+      "Momentum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The de Broglie wavelength depends strictly on momentum: λ = h / p = h / (m v). It depends on mass and velocity, but is completely independent of whether the particle carries an electric charge or is neutral.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-04",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "de Broglie Wavelength Ratio for Equal Velocity",
+    "difficulty": "Easy",
+    "questionText": "An alpha particle (mass 4m) and a deuteron (mass 2m) are moving with the same velocity. The ratio of their respective de Broglie wavelengths (λ_α : λ_d) is: [NCERT Pg. 400]",
+    "options": [
+      "1 : 1",
+      "1 : √2",
+      "√3 : 1",
+      "1 : 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "λ = h / (m v). For equal velocities: λ ∝ 1 / m.\nλ_α / λ_d = m_d / m_α = (2m) / (4m) = 1 / 2 = 1 : 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-05",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Wavelength Change with Increased Kinetic Energy",
+    "difficulty": "Easy",
+    "questionText": "The kinetic energy of a subatomic particle is increased to 16 times its original value. The percentage change in the de Broglie wavelength of the particle is: [NCERT Pg. 400]",
+    "options": [
+      "-25%",
+      "-50%",
+      "-75%",
+      "-100%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "λ = h / √(2mK) ∝ 1 / √K.\nWhen K' = 16K: λ' = λ / √16 = λ / 4 = 0.25 λ.\nPercentage change = [(λ' - λ) / λ] × 100% = [(0.25 - 1) / 1] × 100% = -75%.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-06",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Quantum Explanation of Photoelectric Effect",
+    "difficulty": "Easy",
+    "questionText": "The photoelectric effect can only be successfully explained on the basis of: [NCERT Pg. 395]",
+    "options": [
+      "Particle nature of light (quantum photon model)",
+      "Wave nature of light",
+      "Classical electromagnetic wave theory",
+      "Electromagnetic wave interference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Classical wave theory failed to explain the existence of a threshold frequency, the independence of maximum kinetic energy on intensity, and the instantaneous emission of electrons. Einstein's photon hypothesis (discrete particle quanta of energy E = hν) fully explained all observations.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-07",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Momentum of a High Energy Photon",
+    "difficulty": "Easy",
+    "questionText": "The linear momentum of a 6 MeV photon is: [NCERT Pg. 396]",
+    "options": [
+      "1 × 10⁻² eV·s/m",
+      "0.5 × 10⁻² eV·s/m",
+      "2 × 10⁻² eV·s/m",
+      "4 × 10⁻² eV·s/m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "p = E / c = (6 × 10⁶ eV) / (3 × 10⁸ m/s) = 2 × 10⁻² eV·s/m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photon Momentum"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-08",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Rate of Photoelectron Emission",
+    "difficulty": "Easy",
+    "questionText": "The number of photoelectrons emitted per second from a clean metal surface increases whenever: [NCERT Pg. 396]",
+    "options": [
+      "Energy of each incident photon increases",
+      "Frequency of incident light increases",
+      "Wavelength of incident light increases",
+      "Intensity of incident light increases"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The rate of electron emission depends on the flux of incident photons above the threshold frequency. Increasing the intensity at constant frequency means more photons strike the cathode per second, thereby increasing the rate of photoelectron emission.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-09",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Work Function from Threshold Wavelength",
+    "difficulty": "Easy",
+    "questionText": "If the threshold wavelength for a metal is 6200 Å, the minimum energy (work function) required to eject an electron from the metal surface is nearly: [NCERT Pg. 394]",
+    "options": [
+      "1 eV",
+      "2 eV",
+      "0.5 eV",
+      "0.8 eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work function ϕ₀ = hc / λ₀ ≈ 12400 eV·Å / 6200 Å = 2.0 eV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Work Function"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-10",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "de Broglie Wavelength of Accelerated Electron",
+    "difficulty": "Easy",
+    "questionText": "The de Broglie wavelength of a charged particle accelerated from rest through a potential difference of 100 V is 10⁻⁹ m. If it is accelerated through a potential difference of 1600 V, its de Broglie wavelength will be: [NCERT Pg. 400]",
+    "options": [
+      "25 Å",
+      "2.5 Å",
+      "5 Å",
+      "0.5 Å"
+    ],
+    "correctAnswer": 1,
+    "explanation": "λ = h / √(2mqV) ∝ 1 / √V.\nλ₂ / λ₁ = √(V₁ / V₂) = √(100 / 1600) = √(1/16) = 1/4.\nλ₂ = λ₁ / 4 = 10⁻⁹ m / 4 = 0.25 × 10⁻⁹ m = 2.5 × 10⁻¹⁰ m = 2.5 Å.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-11",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Photoelectric Velocity Scaling with Frequency",
+    "difficulty": "Hard",
+    "questionText": "The maximum velocity of emitted photoelectrons is tripled when the frequency ν of the incident radiation is doubled. The work function of this metal is: [NCERT Pg. 394]",
+    "options": [
+      "(5/8) hν",
+      "(3/8) hν",
+      "(7/8) hν",
+      "(1/4) hν"
+    ],
+    "correctAnswer": 2,
+    "explanation": "From Einstein's photoelectric equation:\nCase 1: (1/2) m v₁² = hν - ϕ₀\nCase 2: (1/2) m (3v₁)² = h(2ν) - ϕ₀ => 9 [(1/2) m v₁²] = 2hν - ϕ₀\nSubstitute Case 1 into Case 2:\n9 (hν - ϕ₀) = 2hν - ϕ₀ => 9hν - 9ϕ₀ = 2hν - ϕ₀ => 7hν = 8ϕ₀ => ϕ₀ = (7/8) hν.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-12",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Stopping Potential from Wavelength and Work Function",
+    "difficulty": "Medium",
+    "questionText": "Light of wavelength 4.36 × 10⁻⁷ m (436 nm) is incident on a target material of work function 2.34 eV. The minimum retarding potential required to stop the photocurrent is about (h = 6.63 × 10⁻³⁴ J·s): [NCERT Pg. 395]",
+    "options": [
+      "1.5 V",
+      "0.5 V",
+      "2 V",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Energy of incident photon: E = hc / λ = (1240 eV·nm) / 436 nm ≈ 2.84 eV.\nMaximum kinetic energy K_max = E - ϕ₀ = 2.84 eV - 2.34 eV = 0.50 eV.\nStopping potential V₀ = K_max / e = 0.50 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-13",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Photon Emission Rate of a Monochromatic Source",
+    "difficulty": "Easy",
+    "questionText": "A monochromatic light source of wavelength 440 nm produces an output power of 18 mW. The number of photons emitted per second by the source is: [NCERT Pg. 396]",
+    "options": [
+      "3 × 10¹⁶",
+      "4 × 10¹⁶",
+      "3 × 10¹⁸",
+      "4 × 10¹⁸"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Energy of one photon: E = hc / λ = (6.63 × 10⁻³⁴ × 3 × 10⁸) / (440 × 10⁻⁹) ≈ 4.52 × 10⁻¹⁹ J.\nRate of photon emission n = P / E = (18 × 10⁻³ W) / (4.52 × 10⁻¹⁹ J) ≈ 3.98 × 10¹⁶ ≈ 4 × 10¹⁶ photons/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photon Theory"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-14",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Threshold Wavelength for Photosensitive Material",
+    "difficulty": "Easy",
+    "questionText": "The work function of a photosensitive material is 4.0 eV. The longest wavelength of incident light that can cause photoelectron emission from the substance is approximately: [NEET-2019 (Odisha)]",
+    "options": [
+      "310 nm",
+      "3100 nm",
+      "966 nm",
+      "31 nm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Threshold wavelength λ₀ = hc / ϕ₀ = 1240 eV·nm / 4.0 eV = 310 nm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-15",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "de Broglie Wavelength Ratio for Same Energy",
+    "difficulty": "Easy",
+    "questionText": "A proton and an α-particle are accelerated from rest to have the same kinetic energy. The de Broglie wavelengths λ_p and λ_α are in the ratio: [NEET-2019 (Odisha)]",
+    "options": [
+      "4 : 1",
+      "2 : 1",
+      "1 : 1",
+      "√2 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "λ = h / √(2mE). For equal kinetic energy E: λ ∝ 1 / √m.\nλ_p / λ_α = √(m_α / m_p) = √(4m_p / m_p) = √4 = 2 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-16",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "de Broglie Wavelength at 10 kV Accelerating Potential",
+    "difficulty": "Easy",
+    "questionText": "An electron is accelerated through a potential difference of 10,000 V. Its de Broglie wavelength is nearly: [NEET-2019]",
+    "options": [
+      "12.2 × 10⁻¹³ m",
+      "12.2 × 10⁻¹² m",
+      "12.2 × 10⁻¹⁴ m",
+      "12.2 nm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an electron: λ = 12.27 / √V Å = 12.27 / √10000 Å = 12.27 / 100 Å = 0.1227 Å = 1.227 × 10⁻¹¹ m ≈ 12.2 × 10⁻¹² m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-17",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Time-Dependent de Broglie Wavelength in Electric Field",
+    "difficulty": "Hard",
+    "questionText": "An electron of mass m with initial velocity v⃗ = v₀ î (v₀ > 0) enters an electric field E⃗ = -E₀ î (E₀ = const > 0) at t = 0. If λ₀ is its initial de Broglie wavelength, its de Broglie wavelength at time t is: [NEET-2018]",
+    "options": [
+      "λ₀ / [1 + (e E₀ t) / (m v₀)]",
+      "λ₀ [1 + (e E₀ t) / (m v₀)]",
+      "λ₀",
+      "λ₀ t"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electrostatic force on electron: F⃗ = -e E⃗ = -e (-E₀ î) = +e E₀ î.\nAcceleration a = (e E₀) / m along the direction of initial motion.\nVelocity at time t: v(t) = v₀ + a t = v₀ + (e E₀ t / m) = v₀ [1 + (e E₀ t) / (m v₀)].\nNew de Broglie wavelength λ(t) = h / [m v(t)] = [h / (m v₀)] / [1 + (e E₀ t) / (m v₀)] = λ₀ / [1 + (e E₀ t) / (m v₀)].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-18",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Velocity Ratio at 2ν₀ and 5ν₀ Frequencies",
+    "difficulty": "Medium",
+    "questionText": "When light of frequency 2ν₀ (where ν₀ is threshold frequency) is incident on a metal plate, the maximum velocity of photoelectrons emitted is v₁. When the incident frequency is increased to 5ν₀, the maximum velocity is v₂. The ratio v₁ : v₂ is: [NEET-2018]",
+    "options": [
+      "1 : 2",
+      "1 : 4",
+      "2 : 1",
+      "4 : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "K₁ = (1/2) m v₁² = h(2ν₀) - hν₀ = hν₀ => v₁ ∝ √(hν₀).\nK₂ = (1/2) m v₂² = h(5ν₀) - hν₀ = 4hν₀ => v₂ ∝ √(4hν₀) = 2√(hν₀).\nRatio v₁ / v₂ = √(hν₀) / [2√(hν₀)] = 1 / 2 = 1 : 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-19",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Thermal Neutron de Broglie Wavelength",
+    "difficulty": "Medium",
+    "questionText": "The de Broglie wavelength of a neutron of mass m in thermal equilibrium with heavy water at absolute temperature T (Kelvin) is: [NEET-2017]",
+    "options": [
+      "h / √(m k T)",
+      "h / √(3 m k T)",
+      "(2h) / √(3 m k T)",
+      "(2h) / √(m k T)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The average kinetic energy of a thermal neutron in three dimensions is E = (3/2) k T.\nMomentum p = √(2mE) = √[2m (3/2 k T)] = √(3 m k T).\nde Broglie wavelength λ = h / p = h / √(3 m k T).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "de Broglie Wavelength",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-20",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Cutoff Wavelength of Emitted X-Rays",
+    "difficulty": "Hard",
+    "questionText": "Electrons of mass m with de Broglie wavelength λ strike the target of an X-ray tube. The cutoff wavelength λ₀ of the emitted continuous X-rays is: [NEET (Phase-2) 2016]",
+    "options": [
+      "(2 m c λ²) / h",
+      "(2h) / (m c)",
+      "(2 m² c² λ³) / h²",
+      "λ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy of incident electrons: E = p² / (2m) = (h / λ)² / (2m) = h² / (2m λ²).\nMaximum energy of an emitted X-ray photon: E_max = hc / λ₀.\nSetting equal: hc / λ₀ = h² / (2m λ²) => c / λ₀ = h / (2m λ²) => λ₀ = (2 m c λ²) / h.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "X-Rays",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-21",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Stopping Potential for Increased Photon Energy",
+    "difficulty": "Easy",
+    "questionText": "Photons of energy 5 eV are incident on cathode C in a photoelectric cell, and the maximum energy of emitted photoelectrons is 2 eV. When photons of energy 6 eV are incident on C, no photoelectrons reach anode A if the potential of A relative to C is: [NEET (Phase-2) 2016]",
+    "options": [
+      "+3 V",
+      "+4 V",
+      "-1 V",
+      "-3 V"
+    ],
+    "correctAnswer": 3,
+    "explanation": "From the first observation: Work function ϕ₀ = E₁ - K_max1 = 5 eV - 2 eV = 3 eV.\nFor photons of 6 eV: K_max2 = 6 eV - 3 eV = 3 eV.\nTo stop photoelectrons from reaching anode A, a retarding potential of at least 3 V must be applied to A relative to C: V_A = -3 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-22",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Threshold Wavelength from Stopping Potentials V and V/4",
+    "difficulty": "Medium",
+    "questionText": "When a metal surface is illuminated with radiation of wavelength λ, the stopping potential is V. When illuminated with radiation of wavelength 2λ, the stopping potential is V/4. The threshold wavelength for this metal surface is: [NEET-2016]",
+    "options": [
+      "3 λ",
+      "4 λ",
+      "5 λ",
+      "(5/2) λ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "eV = hc/λ - hc/λ₀ ...(1)\ne(V/4) = hc/(2λ) - hc/λ₀ => eV = 2(hc/λ) - 4(hc/λ₀) ...(2)\nEquating (1) and (2):\nhc/λ - hc/λ₀ = 2(hc/λ) - 4(hc/λ₀)\n3(hc/λ₀) = hc/λ => 3/λ₀ = 1/λ => λ₀ = 3λ.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-23",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Slope of Stopping Potential vs Frequency Graph",
+    "difficulty": "Easy",
+    "questionText": "The slope of the graph between stopping potential V₀ (along y-axis) and incident light frequency ν (along x-axis) for a photoelectric emitter is equal to:",
+    "options": [
+      "h",
+      "h / e",
+      "e · h",
+      "e"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From Einstein's photoelectric equation: e V₀ = hν - ϕ₀ => V₀ = (h / e) ν - (ϕ₀ / e).\nComparing with the linear equation y = mx + c, the slope is m = h / e, a universal constant independent of the photosensitive metal.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Photoelectric Effect"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-24",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Davisson-Germer Peak Conditions",
+    "difficulty": "Easy",
+    "questionText": "In the Davisson and Germer electron diffraction experiment, a pronounced peak in the intensity of scattered electrons is observed at a scattering angle and accelerating voltage of:",
+    "options": [
+      "50° and 54 V",
+      "54° and 50 V",
+      "50° and 50 V",
+      "65° and 50 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In the historic Davisson-Germer experiment using a nickel crystal, constructive interference of scattered electron waves produced a sharp maximum at scattering angle ϕ = 50° with accelerating potential V = 54 V, confirming de Broglie's wave hypothesis.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Davisson-Germer Experiment"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch26-25",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "topic": "Resolving Power Scaling in Electron Microscope",
+    "difficulty": "Easy",
+    "questionText": "If the accelerating potential in an electron microscope is increased from 20 kV to 80 kV, its resolving power R will become:",
+    "options": [
+      "R / 4",
+      "4 R",
+      "2 R",
+      "R / 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Resolving power of an electron microscope is inversely proportional to electron wavelength: RP ∝ 1 / λ. Since λ = h / √(2mqV) ∝ 1 / √V, we have RP ∝ √V.\nRP₂ / RP₁ = √(V₂ / V₁) = √(80 kV / 20 kV) = √4 = 2 => RP₂ = 2R.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Dual Nature of Radiation and Matter",
+      "Electron Microscope"
+    ]
+  }
+]

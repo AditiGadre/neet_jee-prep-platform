@@ -138,6 +138,21 @@ import {
   ATOMS_PHYSICS_QUESTIONS,
   NUCLEI_PHYSICS_QUESTIONS,
   SEMICONDUCTORS_QUESTIONS,
+  NCERT_ELECTRIC_CHARGES_QUESTIONS,
+  NCERT_ELECTROSTATIC_POTENTIAL_QUESTIONS,
+  NCERT_CURRENT_ELECTRICITY_QUESTIONS,
+  NCERT_MOVING_CHARGES_MAGNETISM_QUESTIONS,
+  NCERT_MAGNETISM_MATTER_QUESTIONS,
+  NCERT_EMI_QUESTIONS,
+  NCERT_ALTERNATING_CURRENT_QUESTIONS,
+  NCERT_RAY_OPTICS_QUESTIONS,
+  NCERT_WAVE_OPTICS_QUESTIONS,
+  NCERT_DUAL_NATURE_QUESTIONS,
+  NCERT_EM_WAVES_QUESTIONS,
+  NCERT_ATOMS_QUESTIONS,
+  NCERT_NUCLEI_QUESTIONS,
+  NCERT_SEMICONDUCTORS_QUESTIONS,
+  NCERT_COMMUNICATION_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -1687,7 +1702,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ELECTROSTATICS_BOOK_QUESTIONS)
+    questions: get45([...NCERT_ELECTRIC_CHARGES_QUESTIONS, ...ELECTROSTATICS_BOOK_QUESTIONS])
   },
   {
     id: 'test-phy-ch17',
@@ -1702,7 +1717,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(CAPACITANCE_QUESTIONS)
+    questions: get45([...NCERT_ELECTROSTATIC_POTENTIAL_QUESTIONS, ...CAPACITANCE_QUESTIONS])
   },
   {
     id: 'test-phy-ch18',
@@ -1717,7 +1732,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(CURRENT_ELECTRICITY_QUESTIONS)
+    questions: get45([...NCERT_CURRENT_ELECTRICITY_QUESTIONS, ...CURRENT_ELECTRICITY_QUESTIONS])
   },
   {
     id: 'test-phy-ch19',
@@ -1732,7 +1747,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MAGNETISM_BOOK_QUESTIONS)
+    questions: get45([...NCERT_MOVING_CHARGES_MAGNETISM_QUESTIONS, ...MAGNETISM_BOOK_QUESTIONS])
   },
   {
     id: 'test-phy-ch20',
@@ -1747,7 +1762,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MAGNETISM_MATTER_QUESTIONS)
+    questions: get45([...NCERT_MAGNETISM_MATTER_QUESTIONS, ...MAGNETISM_MATTER_QUESTIONS])
   },
   {
     id: 'test-phy-ch21',
@@ -1762,7 +1777,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(EMI_QUESTIONS)
+    questions: get45([...NCERT_EMI_QUESTIONS, ...EMI_QUESTIONS])
   },
   {
     id: 'test-phy-ch22',
@@ -1777,7 +1792,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ALTERNATING_CURRENT_QUESTIONS)
+    questions: get45([...NCERT_ALTERNATING_CURRENT_QUESTIONS, ...ALTERNATING_CURRENT_QUESTIONS])
   },
   {
     id: 'test-phy-ch23',
@@ -1792,7 +1807,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(EM_WAVES_QUESTIONS)
+    questions: get45([...NCERT_EM_WAVES_QUESTIONS, ...EM_WAVES_QUESTIONS])
   },
   {
     id: 'test-phy-ch24',
@@ -1807,7 +1822,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(RAY_OPTICS_QUESTIONS)
+    questions: get45([...NCERT_RAY_OPTICS_QUESTIONS, ...RAY_OPTICS_QUESTIONS])
   },
   {
     id: 'test-phy-ch25',
@@ -1822,7 +1837,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(WAVE_OPTICS_QUESTIONS)
+    questions: get45([...NCERT_WAVE_OPTICS_QUESTIONS, ...WAVE_OPTICS_QUESTIONS])
   },
   {
     id: 'test-phy-ch26',
@@ -1837,7 +1852,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(DUAL_NATURE_QUESTIONS)
+    questions: get45([...NCERT_DUAL_NATURE_QUESTIONS, ...DUAL_NATURE_QUESTIONS])
   },
   {
     id: 'test-phy-ch27',
@@ -1852,7 +1867,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(ATOMS_PHYSICS_QUESTIONS)
+    questions: get45([...NCERT_ATOMS_QUESTIONS, ...ATOMS_PHYSICS_QUESTIONS])
   },
   {
     id: 'test-phy-ch28',
@@ -1867,7 +1882,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(NUCLEI_PHYSICS_QUESTIONS)
+    questions: get45([...NCERT_NUCLEI_QUESTIONS, ...NUCLEI_PHYSICS_QUESTIONS])
   },
   {
     id: 'test-phy-ch29',
@@ -1882,7 +1897,22 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(SEMICONDUCTORS_QUESTIONS)
+    questions: get45([...NCERT_SEMICONDUCTORS_QUESTIONS, ...SEMICONDUCTORS_QUESTIONS])
+  },
+  {
+    id: 'test-phy-ch30',
+    title: 'Physics Chapter 30: Communication Systems (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 30: Communication Systems (Numerical & Conceptual 45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
+    questions: get45(NCERT_COMMUNICATION_QUESTIONS)
   }
 ];
 

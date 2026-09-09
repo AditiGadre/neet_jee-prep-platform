@@ -1,0 +1,2672 @@
+[
+  {
+    "id": "ncert-phy-ch16-01",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Additivity of Electric Charges",
+    "difficulty": "Easy",
+    "questionText": "A system contains six point charges: +1 μC, +2 μC, -3 μC, +4 μC, -5 μC and +6 μC. The total electric charge of the system is:",
+    "options": [
+      "5 μC",
+      "-5 μC",
+      "Zero",
+      "2 μC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electric charge is an algebraic scalar quantity and follows the principle of additivity of charge: Q_total = (+1) + (+2) + (-3) + (+4) + (-5) + (+6) = 5 μC.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Properties of Charge"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-02",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Quantization of Charge",
+    "difficulty": "Easy",
+    "questionText": "The number of electrons present in 2 coulomb of negative charge is:",
+    "options": [
+      "1.25 × 10¹⁷",
+      "1.25 × 10¹⁹",
+      "6.25 × 10¹⁸",
+      "6.25 × 10¹⁹"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From quantization of electric charge: q = n · e.\nn = q / e = 2 C / (1.6 × 10⁻¹⁹ C) = 1.25 × 10¹⁹ electrons.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Quantization of Charge"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-03",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Permittivity of Free Space",
+    "difficulty": "Easy",
+    "questionText": "The SI unit of permittivity of free space (ε₀) is:",
+    "options": [
+      "C / (N · m)",
+      "C² / (N · m²)",
+      "N · m² / C",
+      "C² · N / m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From Coulomb's law, F = (1 / 4πε₀) · (q₁q₂ / r²). Rearranging gives ε₀ = (q₁q₂) / (4π F r²). Units: C · C / (N · m²) = C² / (N · m²) or C² N⁻¹ m⁻².",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Units and Dimensions"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-04",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Coulomb's Law & Newton's Third Law",
+    "difficulty": "Easy",
+    "questionText": "Two point charges q₁ and q₂ are separated by a distance r. The ratio of the electrostatic forces acting on each other is:",
+    "options": [
+      "q₁ : q₂",
+      "q₂ : q₁",
+      "q₁² : q₂²",
+      "1 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "According to Newton's third law and Coulomb's law in vector form, F⃗₁₂ = -F⃗₂₁. The magnitudes of mutual electrostatic forces between two interacting charges are always strictly equal, giving |F₁₂| : |F₂₁| = 1 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Coulomb's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-05",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Coulomb's Inverse Square Law",
+    "difficulty": "Easy",
+    "questionText": "If the distance between two point charges is doubled, then the electrostatic force between them will become:",
+    "options": [
+      "2 times",
+      "4 times",
+      "1/4 times",
+      "1/2 times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electrostatic force varies inversely as the square of separation: F ∝ 1 / r². When r' = 2r, F' = F / 2² = F / 4.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Coulomb's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-06",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Dipole Moment of Triangular System",
+    "difficulty": "Medium",
+    "questionText": "Three point charges -2q, +q and +q are placed at the vertices of an equilateral triangle of side l, with -2q at the top vertex and +q at each of the bottom vertices. The electric dipole moment of the system is:",
+    "options": [
+      "√3 ql",
+      "ql",
+      "2 ql",
+      "√2 ql"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Splitting -2q into (-q) and (-q) gives two individual dipoles of magnitude p = ql, each inclined at 60° to one another. The resultant dipole moment is P_net = √(p² + p² + 2p² cos 60°) = √(3p²) = √3 ql.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-07",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Infinite Line Charge Field",
+    "difficulty": "Medium",
+    "questionText": "An infinite line charge produces an electric field of 18 × 10¹⁰ N/C at a distance of 1 m. The linear charge density is:",
+    "options": [
+      "10 C/m",
+      "2 × 10⁻¹ C/m",
+      "2 × 10⁻² C/m",
+      "2 × 10⁻³ C/m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The electric field due to an infinitely long line charge is E = λ / (2πε₀ r) = 2kλ / r.\nλ = (E · r) / (2k) = (18 × 10¹⁰ × 1) / (18 × 10⁹) = 10 C/m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Gauss's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-08",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Gauss's Law for Enclosed Dipole",
+    "difficulty": "Easy",
+    "questionText": "An electric dipole of dipole moment p is enclosed in a hollow sphere of radius R (R > l, where l is the length of dipole). The electric flux through the sphere is:",
+    "options": [
+      "Zero",
+      "(4πR²) × p",
+      "p / (l ε₀)",
+      "p / (2l ε₀)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "By Gauss's law, Φ = q_enclosed / ε₀. An electric dipole consists of equal and opposite charges (+q and -q), so q_enclosed = 0, giving zero net flux through the sphere.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Gauss's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-09",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Axial Field of Short Dipole",
+    "difficulty": "Easy",
+    "questionText": "The electric field due to a short electric dipole at a distance r on its axis is:",
+    "options": [
+      "Directly proportional to r",
+      "Inversely proportional to r³",
+      "Directly proportional to r²",
+      "Inversely proportional to r"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a short dipole (r >> a), E_axial = 2kp / r³. Hence the field is inversely proportional to r³.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-10",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Angle Between Dipole Moment and Axial Field",
+    "difficulty": "Easy",
+    "questionText": "The angle between the electric dipole moment and the electric field strength due to it on the axial line is:",
+    "options": [
+      "0°",
+      "90°",
+      "270°",
+      "180°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On the axial line of an electric dipole, the electric field vector points in the same direction as the dipole moment vector p⃗ (from -q to +q). Hence the angle is 0°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-11",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Flux and Surface Size Independence",
+    "difficulty": "Easy",
+    "questionText": "A charge of 20 μC is enclosed by a Gaussian spherical surface of radius 10 cm. If the radius is doubled, then outward electric flux will:",
+    "options": [
+      "Be doubled",
+      "Be reduced to half",
+      "Increase four times",
+      "Remain same"
+    ],
+    "correctAnswer": 3,
+    "explanation": "According to Gauss's law, Φ = q_enclosed / ε₀. The total flux depends only on the enclosed charge, not on the dimensions of the Gaussian surface. Hence it remains the same.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Gauss's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Dipole Torque in Uniform Field",
+    "difficulty": "Medium",
+    "questionText": "The net torque acting on an electric dipole placed in a uniform electric field may be:",
+    "options": [
+      "Zero",
+      "pE / 2",
+      "pE",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Torque τ = pE sin θ. As θ varies from 0° to 180°, sin θ varies from 0 to 1, taking values 0 (at 0°), 1/2 (at 30°), and 1 (at 90°). Thus all of these values are possible.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-13",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Electrostatic Field Lines Properties",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is NOT a property of electrostatic field lines?",
+    "options": [
+      "Field lines are continuous curves in free space without any break",
+      "Two field lines cannot intersect each other",
+      "Field lines start at positive charge and end at negative charge",
+      "Electrostatic field lines form closed loops"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Electrostatic field lines cannot form closed loops because electrostatic field is conservative (line integral ∮ E⃗ · dl⃗ = 0).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Field Lines"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-14",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Flux Through Area Vector",
+    "difficulty": "Easy",
+    "questionText": "The electric field is given by E⃗ = (5î + 8ĵ + 9k̂) N/C. The electric flux through a surface whose area vector is given by A⃗ = 10î m² would be:",
+    "options": [
+      "5 units",
+      "10 units",
+      "50 units",
+      "100 units"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electric flux Φ = E⃗ · A⃗ = (5î + 8ĵ + 9k̂) · (10î) = 5 × 10 = 50 units (N·m²/C).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Flux"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-15",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Axial vs Equatorial Dipole Field Directions",
+    "difficulty": "Easy",
+    "questionText": "The directions of electric field at axial and equatorial points of an electric dipole are:",
+    "options": [
+      "Parallel to each other",
+      "Antiparallel to each other",
+      "Perpendicular to each other",
+      "At some angle between 0° and 180°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At an axial point, E⃗ is parallel to dipole moment p⃗. At an equatorial point, E⃗ is antiparallel to p⃗ (-p⃗ direction). Thus, the fields at axial and equatorial points are antiparallel to each other.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-16",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Neutral Particle in Electric Field",
+    "difficulty": "Easy",
+    "questionText": "If a neutron has an initial velocity in a direction different from that of a uniform electric field, the path of the neutron (neglecting gravity) is:",
+    "options": [
+      "A straight line",
+      "Parabola",
+      "Circle",
+      "Ellipse"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A neutron has zero charge (q = 0). It experiences zero electrostatic force in an electric field. Since no force acts on it, its velocity vector remains constant and its trajectory is a straight line.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Motion of Charged Particle"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-17",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Alpha Particle Circular Orbit Around Line Charge",
+    "difficulty": "Medium",
+    "questionText": "An alpha particle is revolving around an infinitely long line charge of linear charge density λ at a perpendicular distance r from it. The centripetal force on the particle is:",
+    "options": [
+      "(λe) / (2πε₀ r)",
+      "(λe) / (πε₀ r)",
+      "(λe) / (4πε₀ r)",
+      "(λe) / (πε₀ r²)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Electric field of line charge E = λ / (2πε₀ r). Force on alpha particle (q = 2e) is F = qE = 2e · [λ / (2πε₀ r)] = (λe) / (πε₀ r), which provides the required centripetal force.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Gauss's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-18",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Suspended Charges in Orbiting Satellite",
+    "difficulty": "Hard",
+    "questionText": "Two identical small bodies each of mass m and charge q are suspended from two strings each of length l from a fixed point. When this whole system is taken into an orbiting artificial satellite, find the tension in each string:",
+    "options": [
+      "(K q² / l²) + 2 mg",
+      "(K q² / 4l²) + 2 mg",
+      "K q² / l²",
+      "K q² / (4l²)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In an orbiting satellite, effective gravity g_eff = 0. Electrostatic repulsion pushes the two charges directly apart into a straight line of length 2l. The tension in each string balances the electrostatic repulsion: T = F_e = K q² / (2l)² = K q² / (4l²).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Coulomb's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-19",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Force Between Two Dipoles",
+    "difficulty": "Medium",
+    "questionText": "The force between two short electric dipoles separated by a distance r is directly proportional to:",
+    "options": [
+      "r",
+      "r²",
+      "1 / r³",
+      "1 / r⁴"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For two short dipoles, the interaction potential energy varies as U ∝ 1 / r³. Since force F = -dU / dr, differentiating gives F ∝ 1 / r⁴.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-20",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Field of Uniformly Charged Metal Sphere",
+    "difficulty": "Easy",
+    "questionText": "A hollow metal sphere of radius R is uniformly charged. The electric field due to the sphere at a distance r from the centre: [NEET-2019]",
+    "options": [
+      "Increases as r increases for r < R and for r > R",
+      "Zero as r increases for r < R, decreases as r increases for r > R",
+      "Zero as r increases for r < R, increases as r increases for r > R",
+      "Decreases as r increases for r < R and for r > R"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inside the hollow conducting sphere (r < R), the enclosed charge is zero, so E = 0. Outside the sphere (r > R), E = Q / (4πε₀ r²), which decreases inversely with r² as r increases.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Gauss's Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-21",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Field Between Opposite Parallel Line Charges",
+    "difficulty": "Medium",
+    "questionText": "Two parallel infinite line charges with linear charge densities +λ C/m and -λ C/m are placed at a distance of 2R in free space. What is the electric field mid-way between the two line charges? [NEET-2019]",
+    "options": [
+      "Zero",
+      "2λ / (πε₀ R) N/C",
+      "λ / (πε₀ R) N/C",
+      "λ / (2πε₀ R) N/C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Midway between the wires, distance from each wire is R. Field from +λ points away from it: E₁ = λ / (2πε₀ R). Field from -λ points towards it: E₂ = λ / (2πε₀ R) in the same direction. Total field E = E₁ + E₂ = λ / (πε₀ R) N/C.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Gauss's Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-22",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Force Between Charges After Fractional Transfer",
+    "difficulty": "Easy",
+    "questionText": "Two point charges A and B, having charges +Q and -Q respectively, are placed at a distance apart and force acting between them is F. If 25% charge of A is transferred to B, then the force between the charges becomes: [NEET-2019]",
+    "options": [
+      "F",
+      "(9/16) F",
+      "(16/9) F",
+      "(4/3) F"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Initial force F = k Q² / r². When 25% (Q/4) is transferred from A to B:\nqA' = Q - Q/4 = 3Q/4, and qB' = -Q + Q/4 = -3Q/4.\nNew force F' = k (3Q/4)² / r² = (9/16) (k Q² / r²) = (9/16) F.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Coulomb's Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-23",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Kinematics of Charged Toy Car in Electric Field",
+    "difficulty": "Hard",
+    "questionText": "A toy car with charge q moves on a frictionless horizontal plane under a uniform electric field E⃗. Its velocity increases from 0 to 6 m/s in 1 s. At that instant the field is reversed, and the car continues for 2 more seconds. The average velocity and average speed of the car from 0 to 3 s are respectively: [NEET-2018]",
+    "options": [
+      "2 m/s, 4 m/s",
+      "1 m/s, 3 m/s",
+      "1.5 m/s, 3 m/s",
+      "1 m/s, 3.5 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acceleration a = 6 m/s². From t = 0 to 1 s: s₁ = 3 m, v(1) = 6 m/s.\nFrom t = 1 to 2 s: deceleration a = -6 m/s², stops at t = 2 s, s₂ = 3 m.\nFrom t = 2 to 3 s: accelerates backwards from rest with a = -6 m/s², s₃ = -3 m.\nNet displacement = 3 + 3 - 3 = 3 m => v_avg = 3/3 = 1 m/s.\nTotal distance = 3 + 3 + 3 = 9 m => speed_avg = 9/3 = 3 m/s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Motion of Charged Particle",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-24",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Time of Fall in Reversed Electric Field",
+    "difficulty": "Medium",
+    "questionText": "An electron falls from rest through vertical distance h in uniform upward electric field E. The field direction is reversed with magnitude unchanged, and a proton falls from rest through same distance h. The time of fall of electron compared to proton is: [NEET-2018]",
+    "options": [
+      "Smaller",
+      "5 times greater",
+      "Equal",
+      "10 times greater"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acceleration is a = eE / m. Since t = √(2h / a) = √(2hm / (eE)), t ∝ √m. As mass of electron is much less than proton (m_e << m_p), the electron has much greater acceleration and thus smaller time of fall.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Motion of Charged Particle",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch16-25",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "topic": "Order of Magnitude of Charge Difference",
+    "difficulty": "Hard",
+    "questionText": "Suppose proton and electron charges differ slightly: -e and (e + Δe). If net electrostatic and gravitational force between two hydrogen atoms at distance d apart is zero, then Δe is of the order of (m_h = 1.67 × 10⁻²⁷ kg): [NEET-2017]",
+    "options": [
+      "10⁻²⁰ C",
+      "10⁻²³ C",
+      "10⁻³⁷ C",
+      "10⁻⁴⁷ C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Net charge on hydrogen atom = Δe. Setting electrostatic repulsion equal to gravitational attraction: (1 / 4πε₀) · (Δe)² / d² = G m_h² / d².\n(Δe)² = 4πε₀ G m_h² = (6.67 × 10⁻¹¹ × (1.67 × 10⁻²⁷)²) / (9 × 10⁹) ≈ 2.06 × 10⁻⁷⁴ C².\nΔe ≈ 1.4 × 10⁻³⁷ C, which is of order 10⁻³⁷ C.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electric Charges and Fields",
+      "Coulomb's Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-01",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Equipotential Points in Uniform Field",
+    "difficulty": "Easy",
+    "questionText": "In a region of uniform electric field E directed along the positive x-axis, four points A, B, C, and D are situated such that the line AB is perpendicular to the field lines and CD is also perpendicular to the field lines, with CD situated further to the right. Which of the following statements is correct?",
+    "options": [
+      "V_A < V_B",
+      "V_C = V_D",
+      "V_B = V_D",
+      "V_A = V_D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since electric field is perpendicular to equipotential surfaces, all points on a plane perpendicular to E⃗ have the same potential. Line CD is perpendicular to E⃗, hence V_C = V_D. Also, V_A = V_B, and because potential decreases along the field direction, V_A = V_B > V_C = V_D.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Equipotential Surfaces"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-02",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Potential at Centre of Equilateral Triangle",
+    "difficulty": "Easy",
+    "questionText": "Three point charges -Q, -q, and +2q are placed at the vertices of an equilateral triangle of side length L. If the electric potential at the centre of the triangle is zero, the correct relation between Q and q is:",
+    "options": [
+      "Q = q",
+      "Q = 2q",
+      "Q = -q",
+      "Q = -2q"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The distance r from each vertex to the centre of an equilateral triangle is the same (r = L / √3).\nTotal potential V = (1 / 4πε₀ r) · [(-Q) + (-q) + (2q)] = 0.\n=> -Q - q + 2q = 0 => -Q + q = 0 => Q = q.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Potential"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-03",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Potential Due to Short Electric Dipole",
+    "difficulty": "Easy",
+    "questionText": "The electric potential at any point with position vector r⃗ due to a short electric dipole of dipole moment p⃗ is given by (where k = 1 / 4πε₀):",
+    "options": [
+      "(k p⃗ · r⃗) / r²",
+      "(k p⃗ · r⃗) / r³",
+      "(k p⃗ × r⃗) / r²",
+      "(k p⃗ × r⃗) / r³"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The electrostatic potential of a short electric dipole is V = (1 / 4πε₀) · (p cos θ / r²) = (k p⃗ · r̂) / r² = (k p⃗ · r⃗) / r³.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-04",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Superposition of Potential at Triangle Vertex",
+    "difficulty": "Easy",
+    "questionText": "Two charges +2 μC and +8 μC are placed at two vertices of an equilateral triangle of side 1 m. The electric potential at the third vertex of the triangle is:",
+    "options": [
+      "90 × 10³ V",
+      "9 × 10³ V",
+      "0.9 × 10³ V",
+      "900 × 10³ V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distance from each charge to the third vertex is r = 1 m.\nV = (1 / 4πε₀) · (q₁/r + q₂/r) = (9 × 10⁹) · [(2 + 8) × 10⁻⁶ / 1] = 9 × 10⁹ × 10 × 10⁻⁶ = 90 × 10³ V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Potential"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-05",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Axial Potential of a Finite Dipole",
+    "difficulty": "Medium",
+    "questionText": "An electric dipole consists of charges -q at x = -a and +q at x = +a. The electric potential at an axial point A at distance r from the centre (r > a) on the positive side is:",
+    "options": [
+      "(3 k q a) / (r - a)",
+      "(2 k q a) / (r² - a²)",
+      "(k q a) / (r² - a²)",
+      "(4 k q a) / (r² - a²)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance from +q to A is (r - a), distance from -q to A is (r + a).\nV_A = k [q / (r - a) - q / (r + a)] = k q [(r + a - (r - a)) / (r² - a²)] = (2 k q a) / (r² - a²).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-06",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Surface Curvature and Electric Field on Conductor",
+    "difficulty": "Easy",
+    "questionText": "An isolated charged conductor has a pear-like shape with a sharp curved region A and a broader, flatter region B. If the electric fields just outside the conductor at points A and B are E_A and E_B respectively, then:",
+    "options": [
+      "E_B > E_A",
+      "E_A > E_B",
+      "E_A = E_B ≠ 0",
+      "E_A = E_B = 0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "On a charged conductor, surface charge density σ is inversely proportional to the radius of curvature (σ ∝ 1/R). At the sharper pointed end A, radius of curvature is smaller, so σ_A > σ_B. Since the electric field just outside a conductor is E = σ / ε₀, we have E_A > E_B.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electrostatics of Conductors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-07",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Potential Energy of Dipole in Uniform Field",
+    "difficulty": "Easy",
+    "questionText": "An electric dipole of dipole moment p⃗ is placed in a uniform electric field E⃗. The electrostatic potential energy of the dipole is given by:",
+    "options": [
+      "p⃗ × E⃗",
+      "-p⃗ × E⃗",
+      "p⃗ · E⃗",
+      "-p⃗ · E⃗"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Taking the potential energy to be zero when the dipole is perpendicular to the electric field (θ = 90°), the potential energy at any angle θ is U = -pE cos θ = -p⃗ · E⃗.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-08",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Work Done Moving Charge in Point Charge Field",
+    "difficulty": "Medium",
+    "questionText": "A positive test charge q is carried slowly from a point x (distance a from source) to a point y (distance b from source) in the electric field of a fixed point charge +Q. The work done by the external force is:",
+    "options": [
+      "(Qq / 4πε₀) · (1/b - 1/a)",
+      "(Qq / 2πε₀) · (1/a - 1/b)",
+      "(Qq / 2πε₀) · (1/a + 1/b)",
+      "(Qq / 2πε₀) · (1/b - 1/a)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Work done by external force = ΔU = U_y - U_x = (Qq / 4πε₀)(1/r_y - 1/r_x) = (Qq / 4πε₀)(1/b - 1/a).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Potential"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-09",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Orientation for Maximum Potential Energy",
+    "difficulty": "Easy",
+    "questionText": "An electric dipole placed in a uniform electric field has maximum electrostatic potential energy when the angle between the dipole moment and the electric field is:",
+    "options": [
+      "90°",
+      "180°",
+      "0°",
+      "270°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Potential energy U = -pE cos θ. U is maximum when cos θ = -1, which occurs at θ = 180° (unstable equilibrium, U_max = +pE).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-10",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Work Done Rotating Dipole by 90 Degrees",
+    "difficulty": "Medium",
+    "questionText": "An electric dipole of dipole moment p is placed parallel to a uniform electric field E. The work done by an external force to rotate it perpendicular to the field is:",
+    "options": [
+      "-pE",
+      "pE",
+      "2pE",
+      "-2pE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work done by external force W_ext = ΔU = U(90°) - U(0°) = (-pE cos 90°) - (-pE cos 0°) = 0 - (-pE) = +pE.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-11",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Heat Dissipated During Capacitor Charging",
+    "difficulty": "Medium",
+    "questionText": "A capacitor of capacitance 2 μF is connected to a battery of 10 V. The energy dissipated as heat in the connecting wires until the capacitor is completely charged is:",
+    "options": [
+      "200 μJ",
+      "100 μJ",
+      "50 μJ",
+      "400 μJ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Energy supplied by the battery = Q V = C V² = (2 × 10⁻⁶ F) × (10 V)² = 200 μJ.\nElectrostatic energy stored in capacitor = (1/2) C V² = 100 μJ.\nHeat dissipated = Work done by battery - Stored energy = C V² - (1/2) C V² = (1/2) C V² = 100 μJ.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Half Space Dielectric Insertion",
+    "difficulty": "Medium",
+    "questionText": "A parallel plate air capacitor has capacitance C. Half of the space between the plates (divided vertically across the plate area A/2) is filled with a dielectric of constant K = 5. The new capacitance of the capacitor is:",
+    "options": [
+      "C / 3",
+      "3 C",
+      "(5/2) C",
+      "(3/2) C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When the slab divides the area into two equal halves each of area A/2 with same separation d, the two parts act in parallel:\nC₁ = ε₀ (A/2) / d = C / 2\nC₂ = K ε₀ (A/2) / d = K C / 2 = 5 C / 2\nC_new = C₁ + C₂ = C/2 + 5C/2 = 6C / 2 = 3C.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-13",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Charge Redistribution Between Conducting Spheres",
+    "difficulty": "Hard",
+    "questionText": "Two metal spheres, one of radius R and the other of radius 2R, have the same initial surface charge density σ. They are brought in contact and then separated. What will be the new surface charge densities on them? [NEET-2019 (Odisha)]",
+    "options": [
+      "σ₁ = (5/3) σ, σ₂ = (5/6) σ",
+      "σ₁ = (5/6) σ, σ₂ = (5/2) σ",
+      "σ₁ = (5/2) σ, σ₂ = (5/6) σ",
+      "σ₁ = (5/2) σ, σ₂ = (5/3) σ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Initial charges: q₁ = σ(4πR²), q₂ = σ(4π(2R)²) = 4σ(4πR²).\nTotal charge Q = q₁ + q₂ = 5σ(4πR²).\nAfter contact, spheres reach a common potential, so charges distribute proportional to radii: q₁'/q₂' = R₁/R₂ = 1/2.\nq₁' = (1/3) Q = (5/3) σ(4πR²) => σ₁' = q₁' / (4πR²) = (5/3) σ.\nq₂' = (2/3) Q = (10/3) σ(4πR²) => σ₂' = q₂' / (4π(2R)²) = (10/12) σ = (5/6) σ.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electrostatics of Conductors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-14",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Energy Loss in Parallel Capacitor Sharing",
+    "difficulty": "Medium",
+    "questionText": "Two identical capacitors C₁ and C₂ of equal capacitance C are used. Capacitor C₁ is charged using a battery of emf V. The battery is disconnected and C₁ is connected across uncharged C₂ in parallel. The percentage loss of stored energy in this process is: [NEET-2019 (Odisha)]",
+    "options": [
+      "25%",
+      "75%",
+      "0%",
+      "50%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Initial energy U_i = (1/2) C V².\nWhen connected to identical uncharged capacitor C, common potential V' = V/2.\nFinal energy U_f = (1/2) (2C) (V/2)² = (1/4) C V² = U_i / 2.\nLoss of energy ΔU = U_i - U_f = (1/2) U_i.\nPercentage loss = (ΔU / U_i) × 100% = 50%.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-15",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Electrostatic Force Between Isolated Capacitor Plates",
+    "difficulty": "Medium",
+    "questionText": "The electrostatic force of attraction between the metal plates of an isolated parallel plate capacitor C having charge Q and plate area A is: [NEET-2018]",
+    "options": [
+      "Independent of the distance between the plates",
+      "Linearly proportional to the distance between the plates",
+      "Inversely proportional to the distance between the plates",
+      "Proportional to the square root of the distance between the plates"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The electric field due to one plate is E₁ = σ / (2ε₀) = Q / (2A ε₀).\nThe electrostatic force on the other plate carrying charge Q is F = Q E₁ = Q² / (2A ε₀).\nSince neither Q nor A depends on plate separation d for an isolated capacitor, the force is independent of the distance between the plates.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-16",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Energy Dissipated in Two-Capacitor Sharing",
+    "difficulty": "Medium",
+    "questionText": "A capacitor of 2 μF is charged to potential V. When it is disconnected from the battery and connected in parallel to an uncharged 8 μF capacitor, the percentage of its stored energy dissipated is: [NEET-2016]",
+    "options": [
+      "80%",
+      "0%",
+      "20%",
+      "75%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Energy loss formula for capacitor sharing with initially uncharged C₂:\nFractional loss = ΔU / U_i = C₂ / (C₁ + C₂) = 8 μF / (2 μF + 8 μF) = 8/10 = 0.80 = 80%.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-17",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Attractive Force on Parallel Plate Capacitor",
+    "difficulty": "Medium",
+    "questionText": "A parallel plate air capacitor has capacitance C, plate separation d, and potential difference V applied between the plates. The force of attraction between the plates is: [Re-AIPMT-2015]",
+    "options": [
+      "(C² V²) / (2 d²)",
+      "(C² V²) / (2 d)",
+      "(C V²) / (2 d)",
+      "(C V²) / d"
+    ],
+    "correctAnswer": 2,
+    "explanation": "F = Q² / (2 A ε₀) = (C V)² / (2 A ε₀).\nSince C = ε₀ A / d => A ε₀ = C d, substituting gives:\nF = C² V² / (2 C d) = C V² / (2 d).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-18",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Potential and Field at Centre of Conducting Sphere",
+    "difficulty": "Easy",
+    "questionText": "A conducting sphere of radius R is given a charge Q. The electric potential and the electric field at the centre of the sphere respectively are: [AIPMT-2014]",
+    "options": [
+      "Zero and Q / (4πε₀ R²)",
+      "Q / (4πε₀ R) and zero",
+      "Q / (4πε₀ R) and Q / (4πε₀ R²)",
+      "Both are zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inside a charged conductor, the electric field is everywhere zero (E = 0) and the electric potential is constant throughout its entire volume, equal to its value on the surface: V = Q / (4πε₀ R).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electrostatics of Conductors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-19",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Force from 3D Potential Function",
+    "difficulty": "Hard",
+    "questionText": "In a region of space, the electric potential is given by V(x, y, z) = 6x - 8xy - 8y + 6yz (in volts). The electric force experienced by a charge of 2 C situated at the point (1, 1, 1) is: [AIPMT-2014]",
+    "options": [
+      "6√5 N",
+      "30 N",
+      "24 N",
+      "4√35 N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "E_x = -∂V/∂x = -(6 - 8y) = -6 + 8(1) = 2 N/C.\nE_y = -∂V/∂y = -(-8x - 8 + 6z) = 8(1) + 8 - 6(1) = 10 N/C.\nE_z = -∂V/∂z = -(6y) = -6(1) = -6 N/C.\nMagnitude of electric field: E = √(2² + 10² + (-6)²) = √(4 + 100 + 36) = √140 = 2√35 N/C.\nForce on charge q = 2 C: F = qE = 2 × 2√35 = 4√35 N.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Potential Gradient",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-20",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Equipotentials and Path Independence of Work",
+    "difficulty": "Medium",
+    "questionText": "Four different equipotential diagrams show a positive charge q moved from a surface at 10 V to a surface at 40 V. In all diagrams the initial potential is 10 V and final potential is 40 V. The work done in moving the charge from A to B: [NEET-2017]",
+    "options": [
+      "Is maximum in the case where surfaces are most closely curved",
+      "In all four cases the work done is the same",
+      "Is minimum in the planar case",
+      "Depends on the path taken"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Electrostatic field is conservative, so work done depends only on the potential difference between the initial and final points: W = q(V_B - V_A) = q(40 V - 10 V) = 30q J. Since V_A and V_B are identical in all cases, work done is exactly the same.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Equipotential Surfaces",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-21",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Ratio of Capacitance for Series and Parallel Coalescence",
+    "difficulty": "Medium",
+    "questionText": "64 small identical mercury drops of radius r and capacitance C combine to form a single bigger spherical drop. The capacitance of the bigger drop is:",
+    "options": [
+      "4 C",
+      "2 C",
+      "64 C",
+      "32 C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Volume of 64 drops = Volume of big drop: 64 × (4/3 π r³) = 4/3 π R³ => R = (64)^(1/3) r = 4r.\nSince capacitance of a spherical conductor is C = 4πε₀ R, C_big = 4 C_small = 4C.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-22",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Internal Field of Uniform Solid Dielectric Sphere",
+    "difficulty": "Medium",
+    "questionText": "A solid non-conducting sphere of radius R has a uniform charge distribution throughout its volume. At a distance x from its centre (where x < R), the electric field is directly proportional to:",
+    "options": [
+      "1 / x²",
+      "1 / x",
+      "x",
+      "x²"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Inside a uniformly charged solid sphere (x < R), enclosed charge q_in = Q (x³ / R³).\nBy Gauss's law: E(4πx²) = q_in / ε₀ = Q x³ / (ε₀ R³) => E = (Q / 4πε₀ R³) · x.\nThus E is directly proportional to x (linear increase from centre).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Field"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-23",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Potential at Centre vs Surface of Solid Sphere",
+    "difficulty": "Medium",
+    "questionText": "For a uniformly charged non-conducting solid sphere with total charge Q and radius R (taking potential at infinity to be zero), the electric potential at the centre V_c is related to the surface potential V_s by:",
+    "options": [
+      "V_c = (3/2) V_s",
+      "V_c = (2/3) V_s",
+      "V_c = V_s",
+      "V_c = 2 V_s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inside a uniformly charged solid sphere, V(r) = (kQ / 2R³) (3R² - r²). At the centre r = 0: V_c = 3 kQ / (2R) = (3/2) V_s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Electric Potential"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-24",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Electric Field Variation Across Dielectric Slabs",
+    "difficulty": "Medium",
+    "questionText": "Two thin dielectric slabs of dielectric constants K₁ and K₂ (with K₁ < K₂) are inserted between the plates of a parallel plate capacitor. If E₀ is the field in vacuum, the electric field inside the slabs E₁ and E₂ satisfy:",
+    "options": [
+      "E₀ > E₁ > E₂",
+      "E₂ > E₁ > E₀",
+      "E₁ = E₂ = E₀",
+      "E₀ > E₂ > E₁"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The electric field inside a dielectric slab with constant K is reduced to E = E₀ / K. Since 1 < K₁ < K₂, we have E₀ > E₀ / K₁ > E₀ / K₂, meaning E₀ > E₁ > E₂.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch17-25",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "topic": "Capacitance of Concentric Earthed Inner Sphere",
+    "difficulty": "Hard",
+    "questionText": "Two concentric hollow spherical conductors of radii a and b (b > a) are placed in air. The outer sphere is given a positive charge +Q and the inner sphere is earthed. The equivalent capacitance of the system is:",
+    "options": [
+      "4πε₀ [ab / (b - a)]",
+      "4πε₀ (a + b)",
+      "4πε₀ b",
+      "4πε₀ [b² / (b - a)]"
+    ],
+    "correctAnswer": 3,
+    "explanation": "When the outer sphere carries charge +Q and the inner sphere is grounded, charge induced on the inner sphere is q = -Q (a/b). The outer surface of the outer sphere carries charge Q(1 - a/b) = Q(b - a)/b and behaves like an isolated sphere of radius b in parallel with the spherical capacitor formed by the two concentric surfaces:\nC = 4πε₀ [ab / (b - a)] + 4πε₀ b = 4πε₀ [ab + b(b - a)] / (b - a) = 4πε₀ [b² / (b - a)].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Electrostatic Potential and Capacitance",
+      "Capacitors"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-01",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Electric Current Definition",
+    "difficulty": "Easy",
+    "questionText": "A conductor carries a steady current of 1 A. In one second, the charge that flows through any cross-section of the conductor is:",
+    "options": [
+      "2 coulomb",
+      "3 coulomb",
+      "1 coulomb",
+      "0.5 coulomb"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electric current is defined as I = Q / t. Therefore, Q = I · t = (1 A) × (1 s) = 1 coulomb.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Electric Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-02",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Microscopic Form of Ohm's Law",
+    "difficulty": "Easy",
+    "questionText": "The correct vector relation between current density J⃗ and electric field E⃗ in a conductor is (where σ is conductivity and ρ is resistivity):",
+    "options": [
+      "J⃗ = ρ E⃗",
+      "J⃗ = σ E⃗",
+      "E⃗ = σ² J⃗",
+      "E⃗ = R J⃗"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The microscopic (differential) form of Ohm's law relates current density J⃗ to the electric field E⃗ via conductivity σ as: J⃗ = σ E⃗ (or equivalently E⃗ = ρ J⃗).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Ohm's Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-03",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "V-I Characteristic & Temperature of Metal",
+    "difficulty": "Medium",
+    "questionText": "The voltage-current (V-I) characteristics of a metallic conductor are plotted at two different temperatures T₁ and T₂. If the linear graph for T₁ has a larger slope (dV/dI) than that for T₂, then:",
+    "options": [
+      "T₁ > T₂",
+      "T₂ > T₁",
+      "T₁ = T₂",
+      "Data is insufficient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The slope of the V versus I graph represents the electrical resistance of the conductor (R = V/I). Since the resistance of a metallic conductor increases with increasing temperature (R ∝ T), the higher resistance at T₁ implies T₁ > T₂.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Temperature Dependence of Resistance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-04",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Instantaneous Current from Charge Function",
+    "difficulty": "Easy",
+    "questionText": "Charge passing through a cross-section of a conductor varies with time as Q(t) = (t⁵ + 2t) C. The instantaneous electric current through the conductor at t = 1 s is:",
+    "options": [
+      "2 A",
+      "5 A",
+      "7 A",
+      "10 A"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Instantaneous current is the time derivative of charge: I(t) = dQ/dt = d/dt (t⁵ + 2t) = 5t⁴ + 2.\nAt t = 1 s, I(1) = 5(1)⁴ + 2 = 7 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Electric Current"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-05",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Temperature Dependence of Resistivity",
+    "difficulty": "Easy",
+    "questionText": "For a metallic conductor, if ρ_T is the resistivity at temperature T and ρ₀ is the resistivity at reference temperature T₀, then ρ_T is given by (where α is temperature coefficient of resistivity):",
+    "options": [
+      "ρ_T = ρ₀ [1 - α(T - T₀)]",
+      "ρ_T = ρ₀ [1 + α(T + T₀)]",
+      "ρ_T = ρ₀ [1 - α(T₀ + T)]",
+      "ρ_T = ρ₀ [1 + α(T - T₀)]"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The fractional change in resistivity over a temperature interval ΔT = (T - T₀) is given by ρ_T = ρ₀ [1 + α(T - T₀)].",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Resistivity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-06",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Resistance Change upon Wire Stretching",
+    "difficulty": "Easy",
+    "questionText": "If the length of a cylindrical wire is stretched by 0.2%, then the percentage increment in its electrical resistance is:",
+    "options": [
+      "0.2%",
+      "0.1%",
+      "0.4%",
+      "0.3%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "During stretching, volume V = A · L remains constant (A ∝ 1/L). Resistance R = ρ L / A = ρ L² / V, so R ∝ L².\nFor small fractional changes: ΔR / R = 2 (ΔL / L) = 2 × (0.2%) = 0.4%.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Resistance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-07",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Series Thermal Power Dissipation Ratio",
+    "difficulty": "Easy",
+    "questionText": "Two resistors of resistances 2 Ω and 4 Ω are connected in series across an electric circuit. The ratio of thermal power dissipated in each resistance (P₁ : P₂) is:",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "4 : 1",
+      "1 : 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a series combination, the electric current I passing through both resistors is identical. Power dissipated is P = I² R. Hence, P₁ / P₂ = R₁ / R₂ = 2 / 4 = 1 : 2.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Electrical Power"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-08",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Resistance Ratio from Power Ratings",
+    "difficulty": "Easy",
+    "questionText": "If R₁ and R₂ are the resistances of two electric bulbs rated 50 W and 100 W respectively, designed to operate at the same supply voltage, then the ratio R₁ / R₂ is:",
+    "options": [
+      "2 : 3",
+      "2 : 1",
+      "1 : 2",
+      "1 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rated power is P = V² / R. For the same voltage V, resistance is inversely proportional to rated power: R ∝ 1/P.\nR₁ / R₂ = P₂ / P₁ = 100 / 50 = 2 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Electrical Power"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-09",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Negative Temperature Coefficient of Resistance",
+    "difficulty": "Easy",
+    "questionText": "Which of the following materials possesses a negative temperature coefficient of resistance (α < 0)?",
+    "options": [
+      "Copper",
+      "Silver",
+      "Gold",
+      "Germanium"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Metals (Cu, Ag, Au) have positive temperature coefficients of resistance (resistance increases with temperature). Semiconductors like Germanium and Silicon have negative temperature coefficients because thermally generated free carriers increase exponentially with temperature, lowering resistivity.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Semiconductor Physics"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-10",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Microscopic Expression for Resistivity",
+    "difficulty": "Easy",
+    "questionText": "The relaxation time (τ), number density of free electrons (n), electronic charge (e), and mass of electron (m) determine the electrical resistivity (ρ) of a conductor according to:",
+    "options": [
+      "ρ = m / (n e² τ)",
+      "ρ = n / (m e τ)",
+      "ρ = e² τ / (n m)",
+      "ρ = n e² τ / m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From the electron gas model, drift velocity v_d = (e E τ) / m. Current density J = n e v_d = (n e² τ / m) E. Conductivity σ = n e² τ / m, and resistivity ρ = 1 / σ = m / (n e² τ).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Drift Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-11",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Current and Drift Velocity Relation",
+    "difficulty": "Easy",
+    "questionText": "The relationship between electric current I and drift speed v_d of conduction electrons in a wire of cross-sectional area A and electron density n is:",
+    "options": [
+      "I = n e A v_d",
+      "I = v_d / (n e A)",
+      "I = n e / (A v_d)",
+      "I = n e v_d / A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In time dt, electrons drift a distance dx = v_d dt. Charge passing through area A is dQ = n e A dx = n e A v_d dt. Current I = dQ/dt = n e A v_d.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Drift Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Direction of Electron Drift Velocity",
+    "difficulty": "Easy",
+    "questionText": "The direction of the drift velocity of free electrons inside a current-carrying conducting wire is:",
+    "options": [
+      "Opposite to the direction of the electric field",
+      "In the direction of the electric field",
+      "Perpendicular to the direction of the electric field",
+      "At an acute angle with the direction of the electric field"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electrons carry negative charge (q = -e), so the electrostatic force F⃗ = -e E⃗ acts in the direction opposite to the electric field. Hence, the net drift velocity is opposite to E⃗.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Drift Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-13",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Electron Motion Between Collisions Without Field",
+    "difficulty": "Easy",
+    "questionText": "In the absence of an applied electric field, the trajectory of a free electron inside a metal conductor between two consecutive collisions is:",
+    "options": [
+      "Hyperbolic",
+      "Straight line",
+      "Parabolic",
+      "Elliptical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the absence of an electric field, no net force acts on the free electrons between collisions. By Newton's first law, they move with constant velocity in a straight line between collisions.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Drift Velocity"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-14",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Meter Bridge Balancing Length",
+    "difficulty": "Medium",
+    "questionText": "In a meter-bridge circuit, a resistance of 20 Ω is connected in the left gap and 30 Ω in the right gap. The length AB from the left end for null deflection in the galvanometer is:",
+    "options": [
+      "30 cm",
+      "40 cm",
+      "50 cm",
+      "70 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From the Wheatstone bridge condition on the meter bridge:\nR₁ / R₂ = l / (100 - l)\n20 / 30 = l / (100 - l) => 2(100 - l) = 3l => 200 - 2l = 3l => 5l = 200 => l = 40 cm.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Meter Bridge"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-15",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Balanced Wheatstone Bridge Resistance",
+    "difficulty": "Medium",
+    "questionText": "In a bridge network, the four arms have resistances 2 Ω, 4 Ω, 4 Ω, and 8 Ω arranged consecutively, with a 2 Ω resistor connected across the central galvanometer arm. The equivalent resistance across the supply terminals is:",
+    "options": [
+      "4 Ω",
+      "6 Ω",
+      "8 Ω",
+      "10 Ω"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ratio of opposite arms is 2 / 4 = 4 / 8 = 1/2. Thus the bridge is balanced and no current flows through the central 2 Ω resistor.\nThe top branch has series resistance 2 + 4 = 6 Ω.\nThe bottom branch has series resistance 4 + 8 = 12 Ω.\nEquivalent resistance R_eq = (6 × 12) / (6 + 12) = 72 / 18 = 4 Ω.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Wheatstone Bridge"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-16",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Interchange of Galvanometer and Cell in Meter Bridge",
+    "difficulty": "Medium",
+    "questionText": "A metre bridge is in balanced position with P / Q = l₁ / l₂. If we now interchange the positions of the galvanometer and the cell, will the bridge work, and what will be the balance condition? [NEET-2019 (Odisha)]",
+    "options": [
+      "Yes, P / Q = l₁ / l₂",
+      "Yes, P / Q = (l₂ - l₁) / (l₂ + l₁)",
+      "No, no null point",
+      "Yes, P / Q = l₂ / l₁"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to the principle of conjugate arms of a Wheatstone bridge, interchanging the battery and the galvanometer does not affect the balance condition. The bridge continues to work and gives the exact same balance ratio: P / Q = l₁ / l₂.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Meter Bridge",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-17",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Power Ratio of Bulb Network",
+    "difficulty": "Hard",
+    "questionText": "Six similar bulbs are connected to a DC source of emf E and zero internal resistance. Section A has three bulbs in parallel, and Section B has three bulbs in parallel, connected in series with each other. The ratio of power consumption when (i) all 6 are glowing and (ii) two bulbs from section A and one from section B are glowing, will be: [NEET-2019]",
+    "options": [
+      "4 : 9",
+      "9 : 4",
+      "1 : 2",
+      "2 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Let each bulb have resistance R.\nCase (i): Section A has 3 in parallel (R/3), section B has 3 in parallel (R/3).\nTotal resistance R₁ = R/3 + R/3 = 2R/3.\nPower P₁ = E² / R₁ = E² / (2R/3) = (3/2) (E² / R).\nCase (ii): Section A has 2 in parallel (R/2), section B has 1 bulb (R).\nTotal resistance R₂ = R/2 + R = 3R/2.\nPower P₂ = E² / R₂ = E² / (3R/2) = (2/3) (E² / R).\nRatio P₁ : P₂ = (3/2) / (2/3) = 9 : 4.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Electrical Power",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-18",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Circuit Protection Device",
+    "difficulty": "Easy",
+    "questionText": "Which of the following components acts as a circuit protection device against excessive currents? [NEET-2019]",
+    "options": [
+      "Conductor",
+      "Inductor",
+      "Switch",
+      "Fuse"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A fuse is a safety circuit protection device with a low melting point wire that melts (melts open) when excessive current passes through it due to Joule heating, interrupting the circuit.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Domestic Circuits",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-19",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Ideal Voltmeter and Ammeter Readings in Circuits",
+    "difficulty": "Medium",
+    "questionText": "In Circuit 1, a 10 V battery is connected to a 10 Ω resistor in series with an ideal ammeter A₁, and an ideal voltmeter V₁ is connected across the resistor. In Circuit 2, a 10 V battery is connected across a 10 Ω resistor, and another identical 10 Ω branch with voltmeter V₂ and ammeter A₂ is connected. Assuming ideal instruments, the readings satisfy: [NEET-2019]",
+    "options": [
+      "V₂ > V₁ and i₁ = i₂",
+      "V₁ = V₂ and i₁ > i₂",
+      "V₁ = V₂ and i₁ = i₂",
+      "V₂ > V₁ and i₁ > i₂"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ideal voltmeter has infinite resistance and draws zero current. An ideal ammeter has zero resistance. In both circuits, the voltage drop across the 10 Ω resistor connected to the 10 V source is exactly 10 V (V₁ = V₂ = 10 V), and the current measured by the ammeters is 10 V / 10 Ω = 1.0 A (i₁ = i₂ = 1.0 A).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Measuring Instruments",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-20",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Resistor Colour Code Determination",
+    "difficulty": "Easy",
+    "questionText": "A carbon resistor of resistance (47 ± 4.7) kΩ is to be marked with coloured rings for its identification. The colour code sequence will be: [NEET-2018]",
+    "options": [
+      "Violet - Yellow - Orange - Silver",
+      "Yellow - Violet - Orange - Silver",
+      "Green - Orange - Violet - Gold",
+      "Yellow - Green - Violet - Gold"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R = 47 kΩ ± 10% = 47 × 10³ Ω ± 10%.\nFirst digit 4 = Yellow\nSecond digit 7 = Violet\nMultiplier 10³ = Orange\nTolerance ±10% = Silver\nSequence: Yellow - Violet - Orange - Silver.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Colour Code",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-21",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Ratio of Currents in Series vs Parallel of n Resistors",
+    "difficulty": "Medium",
+    "questionText": "A set of n equal resistors, each of value R, are connected in series to a battery of emf E and internal resistance R. The current drawn is I. When the n resistors are now connected in parallel to the same battery, the current drawn becomes 10 I. The value of n is: [NEET-2018]",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In series: R_net = nR + R = (n + 1)R => I = E / ((n + 1)R).\nIn parallel: R_net = R/n + R = R(1 + 1/n) = R(n + 1)/n => I' = nE / ((n + 1)R) = n I.\nGiven I' = 10 I, hence n = 10.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Combination of Resistors",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-22",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Short-Circuit Current of n Series Cells",
+    "difficulty": "Medium",
+    "questionText": "A battery consists of a variable number n of identical cells (each of emf E and internal resistance r) connected in series. The terminals of the battery are short-circuited and the current I is measured as a function of n. The current I:",
+    "options": [
+      "Remains constant independent of n",
+      "Increases linearly with n",
+      "Decreases inversely with n",
+      "Increases quadratically with n"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total emf of n series cells = nE. Total internal resistance = nr.\nShort-circuit current I = (nE) / (nr) = E / r, which is completely independent of the number of cells n. The graph of I versus n is a horizontal straight line.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Cells in Series",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-23",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Wire Recasting and Resistance Scaling",
+    "difficulty": "Easy",
+    "questionText": "A uniform wire of resistance R is melted and recast into a wire of length triple (3 times) its original length. The new resistance of the wire will be:",
+    "options": [
+      "3 R",
+      "6 R",
+      "9 R",
+      "R / 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "When volume is conserved during recasting, area A' = A / 3 when L' = 3L.\nNew resistance R' = ρ L' / A' = ρ (3L) / (A / 3) = 9 (ρ L / A) = 9 R.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Resistance"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-24",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Potential Difference Across a Circuit Branch",
+    "difficulty": "Medium",
+    "questionText": "In a branch AB of a circuit, current I = 2 A flows from A to B through a 2 Ω resistor, followed by a 3 V battery with its positive plate first, followed by a 1 Ω resistor. The potential difference (V_A - V_B) is: [NEET (Phase-2) 2016]",
+    "options": [
+      "-3 V",
+      "+3 V",
+      "+6 V",
+      "+9 V"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Applying Kirchhoff's loop rule moving from A to B:\nV_A - I(2 Ω) - 3 V - I(1 Ω) = V_B\nV_A - 2(2) - 3 - 2(1) = V_B\nV_A - 4 - 3 - 2 = V_B => V_A - V_B = 9 V.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Kirchhoff's Rules",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch18-25",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "topic": "Series Dropping Resistor for Filament Bulb",
+    "difficulty": "Medium",
+    "questionText": "A filament bulb rated (500 W, 100 V) is to be used in a 230 V main supply. To operate the bulb at its rated power of 500 W, the series resistance R required is: [NEET (Phase-2) 2016]",
+    "options": [
+      "230 Ω",
+      "46 Ω",
+      "26 Ω",
+      "13 Ω"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rated current of bulb: I = P / V = 500 W / 100 V = 5 A.\nBulb requires 100 V, so the voltage dropped across resistor R must be V_R = 230 V - 100 V = 130 V.\nSince the current through the series circuit is 5 A: R = V_R / I = 130 V / 5 A = 26 Ω.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Current Electricity",
+      "Electrical Power",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-01",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Power Delivered by Magnetic Lorentz Force",
+    "difficulty": "Easy",
+    "questionText": "The instantaneous power supplied by the magnetic Lorentz force acting on a moving charged particle in a magnetic field is:",
+    "options": [
+      "Never zero",
+      "Always zero",
+      "Zero only when velocity is perpendicular to magnetic field",
+      "Zero only when velocity is parallel to magnetic field"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The magnetic force F⃗_m = q (v⃗ × B⃗) is always strictly perpendicular to the velocity vector v⃗. Power is given by P = F⃗_m · v⃗ = q (v⃗ × B⃗) · v⃗ = 0 at all times, so the magnetic force does zero work and supplies zero power.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Magnetic Force"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-02",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Speed of Charged Particle in Magnetic Field",
+    "difficulty": "Easy",
+    "questionText": "When a charged particle enters and moves through a uniform magnetic field, its speed:",
+    "options": [
+      "Must increase",
+      "Must decrease",
+      "Will remain constant",
+      "May decrease or increase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Because the magnetic force acts perpendicular to the velocity, work done on the particle is zero. By the work-energy theorem, the kinetic energy (and hence the speed) of the charged particle remains strictly constant.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Motion of Charged Particle"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-03",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Time Period of Helical Motion",
+    "difficulty": "Easy",
+    "questionText": "A charged particle of mass m and charge q is projected with velocity v into a uniform magnetic field B at an angle θ with the direction of the field. The time period of revolution is:",
+    "options": [
+      "(2πm) / (qB)",
+      "(2πm sin θ) / (qB)",
+      "(2πm cos θ) / (qB)",
+      "(2πm tan θ) / (qB)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The circular component of motion is governed by v_⊥ = v sin θ. The orbital radius is r = (m v sin θ) / (qB). The time period T = (2π r) / v_⊥ = 2πm / (qB), which is completely independent of the projection angle θ and speed v.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Cyclotron Motion"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-04",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Conditions for Undeviated Motion",
+    "difficulty": "Medium",
+    "questionText": "An electron moving with constant velocity passes through a region of space without any change in its speed or direction. If E⃗ and B⃗ represent electric and magnetic fields, the region may have:",
+    "options": [
+      "E = 0, B = 0",
+      "E = 0, B ≠ 0 (with v⃗ parallel to B⃗)",
+      "E ≠ 0, B ≠ 0 (with crossed fields satisfying E = vB)",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Zero acceleration occurs if: (1) no fields exist (E=0, B=0), (2) B is parallel to velocity so v⃗ × B⃗ = 0 with E=0, or (3) crossed fields where electric and magnetic forces balance (qE⃗ + q(v⃗ × B⃗) = 0). Thus, all these cases allow undeflected motion.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Lorentz Force"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-05",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field Variation with Distance from Straight Wire",
+    "difficulty": "Easy",
+    "questionText": "The ratio of magnetic fields at distances 10 cm and 20 cm from an infinitely long straight wire carrying a steady current is:",
+    "options": [
+      "1 : 2",
+      "1 : 4",
+      "2 : 1",
+      "4 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic field due to an infinitely long straight wire: B = (μ₀ I) / (2π r) ∝ 1 / r.\nB(10 cm) / B(20 cm) = 20 / 10 = 2 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Biot-Savart Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-06",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field at Centre of Circular Arc",
+    "difficulty": "Easy",
+    "questionText": "A current I flows in a circular arc of wire of radius R which subtends an angle (2π / 9) radian at its centre. The magnetic field B at the centre is:",
+    "options": [
+      "(μ₀ I) / (2R)",
+      "(μ₀ I) / (4R)",
+      "(μ₀ I) / (18R)",
+      "(μ₀ I) / (36R)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Field at the centre of a circular arc: B = (μ₀ I / 4π R) · θ.\nHere θ = 2π / 9 rad.\nB = (μ₀ I / 4π R) · (2π / 9) = (μ₀ I) / (18 R).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Biot-Savart Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-07",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field Between Parallel Wires",
+    "difficulty": "Medium",
+    "questionText": "Two long parallel wires carrying currents of 1 A and 2 A in the same direction produce a net magnetic field B at their midpoint. What will be the magnetic field at the midpoint if the 1 A current is switched off?",
+    "options": [
+      "B",
+      "2 B",
+      "B / 2",
+      "3B / 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Let distance between wires be 2d. Midpoint is at distance d from each wire.\nFields are in opposite directions: B_net = B₂ - B₁ = (μ₀ · 2) / (2π d) - (μ₀ · 1) / (2π d) = μ₀ / (2π d) = B.\nWhen the 1 A wire is switched off, only B₂ remains: B' = B₂ = 2 · [μ₀ / (2π d)] = 2 B.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Biot-Savart Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-08",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Field Inside and Outside Thick Wire",
+    "difficulty": "Hard",
+    "questionText": "A long straight solid cylindrical wire of radius a carries a steady current I uniformly distributed across its cross-section. The ratio of the magnetic field at a distance a/4 inside from the surface to that at a distance a/4 outside from the surface is:",
+    "options": [
+      "1 : 1",
+      "7 : 16",
+      "15 : 16",
+      "16 : 9"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Distance from the central axis for a point a/4 inside from surface: r₁ = a - a/4 = 3a/4.\nInside field: B_in(r₁) = (μ₀ I r₁) / (2π a²) = (μ₀ I / 2π a) × (3/4).\nDistance from central axis for a point a/4 outside from surface: r₂ = a + a/4 = 5a/4.\nOutside field: B_out(r₂) = (μ₀ I) / (2π r₂) = (μ₀ I / 2π a) × (4/5).\nRatio B_in / B_out = (3/4) / (4/5) = 15 / 16.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Ampere's Circuital Law"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-09",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field for Cyclotron Resonance",
+    "difficulty": "Medium",
+    "questionText": "The magnitude of magnetic field required to accelerate protons (mass = 1.67 × 10⁻²⁷ kg, charge = 1.6 × 10⁻¹⁹ C) in a cyclotron operated at an oscillator frequency of 10 MHz is approximately:",
+    "options": [
+      "0.66 T",
+      "1.30 T",
+      "0.85 T",
+      "1.70 T"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cyclotron resonance frequency f = qB / (2πm).\nB = (2π m f) / q = (2 × 3.1416 × 1.67 × 10⁻²⁷ kg × 10 × 10⁶ s⁻¹) / (1.6 × 10⁻¹⁹ C) ≈ 0.656 T ≈ 0.66 T.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Cyclotron"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-10",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field Inside a Solenoid",
+    "difficulty": "Easy",
+    "questionText": "A long solenoid having 400 turns per meter carries a steady current of 5 A. The magnetic field at the centre of the solenoid is about:",
+    "options": [
+      "1.2 mT",
+      "Zero",
+      "5.0 mT",
+      "2.5 mT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Magnetic field inside an ideal solenoid is B = μ₀ n I.\nB = (4π × 10⁻⁷ T·m/A) × 400 m⁻¹ × 5 A = 8000π × 10⁻⁷ T ≈ 2.51 × 10⁻³ T = 2.5 mT.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Solenoid"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-11",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Galvanometer to Ammeter Shunt Calculation",
+    "difficulty": "Medium",
+    "questionText": "A moving-coil galvanometer with coil resistance 1 kΩ has a full-scale deflection current of 1 mA. To convert it into an ammeter of range 10 A, the required shunt resistance is:",
+    "options": [
+      "(10³ / 9999) Ω",
+      "1 Ω",
+      "10⁴ Ω",
+      "10³ Ω"
+    ],
+    "correctAnswer": 0,
+    "explanation": "S = (I_g · R_g) / (I - I_g) = (10⁻³ A × 1000 Ω) / (10 A - 0.001 A) = 1 / 9.999 = 1000 / 9999 Ω = 10³ / 9999 Ω.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Galvanometer Conversion"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Torque and Work on Magnetic Needle",
+    "difficulty": "Medium",
+    "questionText": "A magnetic needle is suspended parallel to a uniform magnetic field. The work required to turn it through 60° is 0.5 J. The torque required to maintain the needle in this position is:",
+    "options": [
+      "√3 N·m",
+      "2 N·m",
+      "(√3 / 2) N·m",
+      "(1/2) N·m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Work done W = MB (1 - cos 60°) = MB (1 - 1/2) = 0.5 MB.\nGiven W = 0.5 J => 0.5 MB = 0.5 => MB = 1 N·m.\nTorque τ = MB sin 60° = 1 × (√3 / 2) = (√3 / 2) N·m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Magnetic Dipole"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-13",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Moment of Rotating Charged Spherical Shell",
+    "difficulty": "Medium",
+    "questionText": "A hollow spherical shell of mass m and radius R with charge Q uniformly distributed on its surface rotates about its diameter with angular velocity ω. The magnetic moment of the sphere is:",
+    "options": [
+      "(2/3) Q R² ω",
+      "(2/5) Q R² ω",
+      "(1/4) Q R² ω",
+      "Zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a surface-charged hollow sphere, the gyromagnetic ratio is M / L = Q / (2m). The moment of inertia of a spherical shell is I = (2/3) m R², so angular momentum L = I ω = (2/3) m R² ω.\nTherefore, M = (Q / 2m) · [(2/3) m R² ω] = (2/3) Q R² ω.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Magnetic Moment"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-14",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Ratio of Magnetic Fields in Two Toroids",
+    "difficulty": "Easy",
+    "questionText": "Two toroids 1 and 2 have total number of turns 200 and 100 respectively, with average radii 40 cm and 20 cm respectively. If they carry the same electric current, the ratio of the magnetic fields along the two toroid loops is: [NEET-2019 (Odisha)]",
+    "options": [
+      "1 : 2",
+      "1 : 1",
+      "4 : 1",
+      "2 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The magnetic field inside a toroid is B = μ₀ n I = μ₀ (N / 2πr) I.\nFor toroid 1: n₁ = 200 / (2π × 0.40) = 250 / π.\nFor toroid 2: n₂ = 100 / (2π × 0.20) = 250 / π.\nSince n₁ = n₂ and current I is identical, B₁ : B₂ = 1 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Toroid",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-15",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field at Center of Symmetrically Fed Circular Loop",
+    "difficulty": "Medium",
+    "questionText": "A straight conductor carrying current i splits into two semicircular branches of a circular loop of radius R and recombines at the diametrically opposite end. The total magnetic field at the centre P of the loop is: [NEET-2019 (Odisha)]",
+    "options": [
+      "(μ₀ i) / (2R) inward",
+      "Zero",
+      "(3μ₀ i) / (32R) outward",
+      "(3μ₀ i) / (32R) inward"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Due to geometric symmetry, the current divides equally into the two branches: i₁ = i₂ = i/2. The two halves create equal magnetic fields at the centre in opposite directions (one inward, one outward), completely cancelling each other out: B_net = 0.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Biot-Savart Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-16",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Orbital Radii Ratio with Same Momentum",
+    "difficulty": "Easy",
+    "questionText": "Ionized hydrogen atoms (protons) and α-particles with the same linear momentum enter perpendicular to a uniform magnetic field B. The ratio of their orbital radii r_H : r_α will be: [NEET-2019]",
+    "options": [
+      "2 : 1",
+      "1 : 2",
+      "4 : 1",
+      "1 : 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Radius of trajectory in magnetic field is r = p / (q B). With equal momentum p and same B: r ∝ 1/q.\nr_H / r_α = q_α / q_H = (2e) / e = 2 : 1.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Motion of Charged Particle",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-17",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Field of Rewound Coil",
+    "difficulty": "Medium",
+    "questionText": "A long wire carrying a steady current is bent into a circular loop of one turn, producing magnetic field B at its centre. It is then rewound into a circular coil of n turns. The magnetic field at the centre of this new n-turn coil will be: [NEET (Phase-2) 2016]",
+    "options": [
+      "n B",
+      "n² B",
+      "2n B",
+      "2n² B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For 1 turn: length L = 2πR => B = μ₀ I / (2R).\nFor n turns: L = n(2πR') => R' = R / n.\nNew field at centre B' = n [μ₀ I / (2R')] = n [μ₀ I / (2(R/n))] = n² [μ₀ I / (2R)] = n² B.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Biot-Savart Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-18",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Frequency of Revolution of Electron",
+    "difficulty": "Medium",
+    "questionText": "An electron moves in a circular path under the influence of a transverse magnetic field of 3.57 × 10⁻² T. If e/m = 1.76 × 10¹¹ C/kg, the frequency of revolution of the electron is: [NEET (Phase-2) 2016]",
+    "options": [
+      "1 GHz",
+      "100 MHz",
+      "62.8 MHz",
+      "6.28 MHz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "f = (e B) / (2π m) = (1 / 2π) · (e/m) · B = [1.76 × 10¹¹ C/kg × 3.57 × 10⁻² T] / (2 × 3.1416) = 6.283 × 10⁹ / 6.283 ≈ 1.0 × 10⁹ Hz = 1 GHz.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Motion of Charged Particle",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-19",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Kinetic Energy Ratio in Same Magnetic Radius",
+    "difficulty": "Medium",
+    "questionText": "A proton and an alpha particle both enter a uniform magnetic field B at right angles to the field. If the radius of circular orbits for both particles is equal and the kinetic energy of the proton is 1 MeV, the kinetic energy of the alpha particle is: [Re-AIPMT-2015]",
+    "options": [
+      "1 MeV",
+      "4 MeV",
+      "0.5 MeV",
+      "1.5 MeV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Orbital radius r = √(2mK) / (qB) => K = (q² B² r²) / (2m). Hence K ∝ q² / m.\nK_α / K_p = (q_α / q_p)² × (m_p / m_α) = (2e / e)² × (m_p / 4m_p) = 4 × (1/4) = 1.\nTherefore, K_α = K_p = 1 MeV.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Motion of Charged Particle",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-20",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Force on a Segment of a Closed Current Loop",
+    "difficulty": "Medium",
+    "questionText": "A square current-carrying loop is suspended in a uniform magnetic field acting in the plane of the loop. If the magnetic force on one arm of the loop is F⃗, the net force on the remaining three arms of the loop is: [AIPMT-2010]",
+    "options": [
+      "3 F⃗",
+      "-F⃗",
+      "-3 F⃗",
+      "F⃗"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For any closed planar loop of wire carrying steady current in a uniform magnetic field, the total magnetic force is strictly zero: F⃗_net = F⃗_arm1 + F⃗_remaining = 0. Therefore, F⃗_remaining = -F⃗_arm1 = -F⃗.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Magnetic Force",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-21",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Specific Charge of Cathode Rays from Velocity Selector",
+    "difficulty": "Medium",
+    "questionText": "A beam of cathode rays is subjected to crossed electric (E) and magnetic (B) fields and passes undeflected. The electrons are accelerated by potential difference V between cathode and anode. The specific charge (e/m) of cathode rays is: [AIPMT-2010]",
+    "options": [
+      "B² / (2 V E²)",
+      "(2 V B²) / E²",
+      "(2 V E²) / B²",
+      "E² / (2 V B²)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For undeflected passage in crossed fields: v = E / B.\nKinetic energy from accelerating potential: (1/2) m v² = e V => v² = 2 (e/m) V.\nSubstitute v = E/B: (E/B)² = 2 (e/m) V => e/m = E² / (2 V B²).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Velocity Selector",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-22",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Perpendicular Semicircular Coils Field",
+    "difficulty": "Medium",
+    "questionText": "A current loop consists of two identical semicircular parts each of radius R carrying current i, one lying in the x-y plane and the other in the x-z plane. The magnitude of resultant magnetic field at their common centre is: [AIPMT-2010]",
+    "options": [
+      "(μ₀ i) / (2√2 R)",
+      "(μ₀ i) / (2 R)",
+      "(μ₀ i) / (4 R)",
+      "(μ₀ i) / (√2 R)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Field due to each semicircular loop at centre: B₁ = B₂ = (1/2) · (μ₀ i / 2R) = μ₀ i / (4R).\nSince the loops lie in mutually perpendicular planes (x-y and x-z), their magnetic field vectors are mutually perpendicular (along z and y axes respectively):\nB_net = √(B₁² + B₂²) = √2 · [μ₀ i / (4R)] = (μ₀ i) / (2√2 R).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Biot-Savart Law",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-23",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Magnetic Force on Conductor of Arbitrary Curve",
+    "difficulty": "Medium",
+    "questionText": "A wire carrying a current i is bent into the shape of a curve y = a sin(πx / L) for 0 ≤ x ≤ 2L in the x-y plane. A uniform magnetic field B acts into the plane (along -z axis). The net magnetic force on the wire is:",
+    "options": [
+      "(i B L) / π",
+      "i B L π",
+      "2 i B L",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For any current-carrying conductor in a uniform magnetic field, the net magnetic force depends only on the vector displacement from the starting point to the end point: F⃗ = i (L⃗_eff × B⃗).\nHere initial point is (0, 0) and final point is (2L, 0), so displacement vector is L⃗_eff = 2L î.\nForce magnitude F = i (2L) B sin 90° = 2 i B L.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Magnetic Force"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-24",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Gyromagnetic Ratio",
+    "difficulty": "Easy",
+    "questionText": "The gyromagnetic ratio (ratio of magnetic dipole moment to orbital angular momentum) for an electron of charge e and mass m is given by:",
+    "options": [
+      "e / m",
+      "e / (2m)",
+      "(2e) / m",
+      "m / (2e)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Magnetic moment of orbiting electron μ = (1/2) e v r. Angular momentum L = m v r. The ratio μ / L = [(1/2) e v r] / (m v r) = e / (2m).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Magnetic Moment"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch19-25",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "topic": "Parallel Current-Carrying Wires Interaction",
+    "difficulty": "Easy",
+    "questionText": "Two parallel conductors carrying steady currents in the same direction attract each other. This magnetic attraction is fundamentally due to:",
+    "options": [
+      "Electrostatic attraction between opposite charges",
+      "Magnetic forces exerted by the magnetic field of each conductor on the moving charges in the other",
+      "Electric fields induced by the changing flux",
+      "Nuclear forces between copper conductors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each current produces a circular magnetic field around it according to Biot-Savart/Ampere's law. The charges moving in the second conductor experience a magnetic Lorentz force F⃗ = I (L⃗ × B⃗) directed toward the first wire, resulting in mutual attraction.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Moving Charges and Magnetism",
+      "Parallel Currents"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-01",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Axial Magnetic Field of Short Bar Magnet",
+    "difficulty": "Easy",
+    "questionText": "A short bar magnet of magnetic moment 10 A·m² is placed along the x-axis at the origin. The magnetic field at a point (5 m, 0) on its axis is:",
+    "options": [
+      "0.8 × 10⁻⁸ T",
+      "1.6 × 10⁻⁸ T",
+      "10⁻⁸ T",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a short bar magnet on its axial line: B_axial = (μ₀ / 4π) · (2M / r³).\nB = 10⁻⁷ × [2 × 10 / 5³] = 10⁻⁷ × (20 / 125) = 10⁻⁷ × 0.16 = 1.6 × 10⁻⁸ T.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Bar Magnet"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-02",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Gauss's Law for Magnetism",
+    "difficulty": "Easy",
+    "questionText": "According to Gauss's law in magnetism, the net magnetic flux through any arbitrary closed Gaussian surface is:",
+    "options": [
+      "μ₀ i",
+      "μ₀",
+      "i",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Gauss's law in magnetism states that ∮ B⃗ · dA⃗ = 0 for any closed surface. This fundamental law signifies that isolated magnetic monopoles do not exist in nature; magnetic field lines always form continuous closed loops.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Gauss's Law for Magnetism"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-03",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Demagnetization Current in Solenoid",
+    "difficulty": "Medium",
+    "questionText": "The coercivity of a small bar magnet is 10³ A/m. It is placed inside a 10 cm long solenoid with 200 turns. The electric current required to pass through the solenoid to completely demagnetize the magnet is:",
+    "options": [
+      "0.5 A",
+      "2 A",
+      "3 A",
+      "4 A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The magnetic intensity inside a solenoid is H = n I = (N / L) I.\nCoercivity H = 10³ A/m, N = 200 turns, and L = 10 cm = 0.1 m.\nn = 200 / 0.1 = 2000 turns/m.\n1000 = 2000 × I => I = 1000 / 2000 = 0.5 A.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Hysteresis"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-04",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Total Earth's Magnetic Field from Dip",
+    "difficulty": "Medium",
+    "questionText": "At a certain location, the angle of dip is 37° and the vertical component of Earth's magnetic field is 0.5 G. The total magnetic field of the Earth at this location is:",
+    "options": [
+      "0.3 G",
+      "0.4 G",
+      "0.83 G",
+      "0.5 G"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Vertical component B_V = B_E sin δ.\nGiven B_V = 0.5 G and δ = 37° (where sin 37° ≈ 3/5 = 0.6):\nB_E = B_V / sin 37° = 0.5 / 0.6 = 5 / 6 ≈ 0.833 G.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-05",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Properties of Bar Magnets",
+    "difficulty": "Easy",
+    "questionText": "Which of the following statements regarding bar magnets is INCORRECT?",
+    "options": [
+      "Magnetic moment is a vector quantity directed from south pole to north pole",
+      "Geometrical length of a bar magnet is less than its magnetic length",
+      "Magnetic field lines inside a bar magnet run from the south pole to the north pole",
+      "Magnetic pole strength is a scalar quantity measured in A·m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The magnetic poles lie slightly inside the geometric ends of a bar magnet. Hence, the magnetic length (2l) is approximately 84% of the geometrical length (L_geom), meaning magnetic length is LESS than geometric length. Statement (2) is false/incorrect.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Bar Magnet"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-06",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Vibration Magnetometer Period in Changed Field",
+    "difficulty": "Medium",
+    "questionText": "A freely suspended magnetic needle makes 10 oscillations per minute at a location. At another place where the horizontal magnetic field is doubled, its time period of oscillation will be:",
+    "options": [
+      "3 s",
+      "2 s",
+      "3√2 s",
+      "2√3 s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Initial time period T₁ = 60 s / 10 = 6 s.\nTime period of oscillation is T = 2π √(I / (M B)) => T ∝ 1 / √B.\nWhen B' = 2B: T₂ = T₁ / √2 = 6 / √2 = 3√2 s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Vibration Magnetometer"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-07",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Angle of Dip from Components",
+    "difficulty": "Easy",
+    "questionText": "The vertical component of Earth's magnetic field at a place is 75% of the horizontal component. The angle of dip at that place is:",
+    "options": [
+      "53°",
+      "37°",
+      "45°",
+      "60°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "tan δ = B_V / B_H.\nGiven B_V = 0.75 B_H = (3/4) B_H.\ntan δ = 3/4 => δ = 37°.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-08",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Apparent Dip Calculation",
+    "difficulty": "Medium",
+    "questionText": "The true angle of dip at a place is 60°. If the vertical plane of the dip circle is turned through 30° from the magnetic meridian, the apparent dip angle δ' will be:",
+    "options": [
+      "tan⁻¹(1)",
+      "tan⁻¹(4/5)",
+      "tan⁻¹(3/5)",
+      "tan⁻¹(2)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Relation between real dip δ and apparent dip δ' in a plane inclined at angle α to the magnetic meridian:\ntan δ' = tan δ / cos α.\nHere δ = 60° and α = 30°:\ntan δ' = tan 60° / cos 30° = √3 / (√3 / 2) = 2 => δ' = tan⁻¹(2).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-09",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Superposition of Magnetic Fields of Perpendicular Magnets",
+    "difficulty": "Hard",
+    "questionText": "Two identical short bar magnets of magnetic moment M each are placed such that a point O lies on the equatorial line of one magnet and on the axial line of the other magnet, both at the same distance r (r >> size of magnet). The net magnetic field at O is:",
+    "options": [
+      "(μ₀ / 4π) · (M / r³)",
+      "(μ₀ / 4π) · (√3 M / r³)",
+      "(μ₀ / 4π) · (√5 M / r³)",
+      "(μ₀ / 4π) · (2 M / r³)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Field on the axial line: B₁ = (μ₀ / 4π) · (2M / r³) along the axis.\nField on the equatorial line: B₂ = (μ₀ / 4π) · (M / r³) perpendicular to the axis.\nSince B₁ and B₂ are mutually perpendicular:\nB_net = √(B₁² + B₂²) = (μ₀ / 4π) · (M / r³) · √(2² + 1²) = (μ₀ / 4π) · (√5 M / r³).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Bar Magnet"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-10",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Equilibrium Orientation in Perpendicular Fields",
+    "difficulty": "Medium",
+    "questionText": "A bar magnet of magnetic moment M is gently placed inside two mutually perpendicular uniform magnetic fields B_V = 6 T (vertical) and B_H = 2 T (horizontal). The net torque on the bar magnet will be zero when it makes an angle θ with the vertical field such that:",
+    "options": [
+      "θ = tan⁻¹(3/2)",
+      "θ = tan⁻¹(1/3)",
+      "θ = tan⁻¹(3)",
+      "θ = tan⁻¹(2/3)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Net torque is zero when the magnet aligns along the resultant magnetic field vector B⃗_net = B_H î + B_V ĵ.\nThe angle θ made with the vertical (y-axis) satisfies: tan θ = B_H / B_V = 2 T / 6 T = 1/3 => θ = tan⁻¹(1/3).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Magnetic Torque"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-11",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Work Done Rotating Magnet in Uniform Field",
+    "difficulty": "Medium",
+    "questionText": "A bar magnet of magnetic moment M is suspended in a uniform magnetic field B. The work done by an external agent to rotate it slowly from stable equilibrium to an angle of 120° with the field is:",
+    "options": [
+      "(3/2) MB",
+      "(1/2) MB",
+      "MB",
+      "-MB / 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stable equilibrium corresponds to θ₁ = 0°. Final position is θ₂ = 120°.\nWork done W = MB (cos θ₁ - cos θ₂) = MB [cos 0° - cos 120°] = MB [1 - (-1/2)] = (3/2) MB.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Bar Magnet"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Elements of Earth's Magnetic Field",
+    "difficulty": "Easy",
+    "questionText": "The three standard magnetic elements required to completely specify the Earth's magnetic field at any point on the surface are:",
+    "options": [
+      "Magnetic declination, angle of dip, and horizontal component of Earth's field",
+      "Magnetic declination, magnetic latitude, and total field",
+      "Angle of dip, vertical component, and geographical longitude",
+      "Pole strength, magnetic length, and susceptibility"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The three classical magnetic elements of the Earth are: (1) Magnetic Declination (θ or D), (2) Magnetic Inclination or Angle of Dip (δ or I), and (3) Horizontal Component of Earth's magnetic field (B_H or H).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-13",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Hemispheric Location from Sign of Dip Angle",
+    "difficulty": "Easy",
+    "questionText": "At a point A on the Earth's surface, the angle of dip is δ = +25°. At a point B on the Earth's surface, the angle of dip is δ = -25°. We can interpret that: [NEET-2019]",
+    "options": [
+      "A and B are both located in the northern hemisphere",
+      "A is in the southern hemisphere and B is in the northern hemisphere",
+      "A is located in the northern hemisphere and B is located in the southern hemisphere",
+      "A and B are both located in the southern hemisphere"
+    ],
+    "correctAnswer": 2,
+    "explanation": "By convention, angle of dip is positive in the northern hemisphere (where the north pole of a dip needle dips below the horizontal) and negative in the southern hemisphere (where the north pole tilts upward). Hence A is in the northern hemisphere and B is in the southern hemisphere.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-14",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Orthogonal Planes Apparent Dip Relation",
+    "difficulty": "Medium",
+    "questionText": "If θ₁ and θ₂ are the apparent angles of dip observed in two vertical planes at right angles to each other, then the true angle of dip θ is given by: [NEET-2017]",
+    "options": [
+      "cot² θ = cot² θ₁ + cot² θ₂",
+      "tan² θ = tan² θ₁ + tan² θ₂",
+      "cot² θ = cot² θ₁ - cot² θ₂",
+      "tan² θ = tan² θ₁ - tan² θ₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In plane 1 at angle α: tan θ₁ = tan θ / cos α => cot θ₁ = cot θ cos α.\nIn plane 2 at (90° - α): tan θ₂ = tan θ / sin α => cot θ₂ = cot θ sin α.\nSquaring and adding:\ncot² θ₁ + cot² θ₂ = cot² θ (cos² α + sin² α) = cot² θ.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-15",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Torque and Work on Suspended Bar Magnet",
+    "difficulty": "Medium",
+    "questionText": "A bar magnet is hung in a uniform horizontal magnetic field in its equilibrium position. The energy required to rotate it by 60° is W. The torque required to keep the magnet in this new position is: [NEET (Phase-2) 2016]",
+    "options": [
+      "W / √3",
+      "√3 W",
+      "(√3 / 2) W",
+      "(2 / √3) W"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work done W = MB (1 - cos 60°) = MB (1 - 1/2) = MB / 2 => MB = 2W.\nTorque required at 60°: τ = MB sin 60° = (2W) × (√3 / 2) = √3 W.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Magnetic Torque",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-16",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Sign of Magnetic Susceptibility",
+    "difficulty": "Easy",
+    "questionText": "The magnetic susceptibility (χ) is negative for: [NEET-2016]",
+    "options": [
+      "Paramagnetic and ferromagnetic materials",
+      "Diamagnetic material only",
+      "Paramagnetic material only",
+      "Ferromagnetic material only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Diamagnetic materials acquire feeble magnetization in a direction opposite to the applied magnetizing field, giving a small negative magnetic susceptibility (χ < 0). For paramagnets and ferromagnets, χ is always positive.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Magnetic Materials",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-17",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Dipole Moment of Bent Arc Magnet",
+    "difficulty": "Medium",
+    "questionText": "A bar magnet of length l and magnetic dipole moment M is bent in the form of a circular arc subtending an angle of 60° at its centre. The new magnetic dipole moment will be: [NEET-2013]",
+    "options": [
+      "(3 / π) M",
+      "(2 / π) M",
+      "M / 2",
+      "M"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Length of arc l = R θ = R (π / 3) => R = 3l / π.\nThe straight-line separation between the two poles (the chord of 60°) is d = 2 R sin(60°/2) = 2 R sin 30° = R = 3l / π.\nNew magnetic dipole moment M' = m · d = m (3l / π) = (3/π) (m · l) = (3 / π) M.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Bar Magnet",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-18",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Horizontal Compass Needle at Geomagnetic Pole",
+    "difficulty": "Easy",
+    "questionText": "A compass needle which is constrained to move only in a horizontal plane is taken to the Earth's geomagnetic pole. It: [AIPMT-2012]",
+    "options": [
+      "Will stay in north-south direction only",
+      "Will stay in east-west direction only",
+      "Will become completely rigid showing no motion",
+      "Can point and stay in any arbitrary horizontal direction"
+    ],
+    "correctAnswer": 3,
+    "explanation": "At the geomagnetic poles, the Earth's magnetic field is entirely vertical (B_V = B_E) and the horizontal component is zero (B_H = 0). A needle constrained to rotate horizontally experiences zero horizontal magnetic torque and can rest stably in any direction.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Earth's Magnetism",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-19",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Torque from Work Done to Rotate Needle",
+    "difficulty": "Medium",
+    "questionText": "A magnetic needle suspended parallel to a uniform magnetic field requires √3 J of work to turn it through 60°. The torque needed to maintain the needle in this position will be: [AIPMT-2012]",
+    "options": [
+      "2√3 N·m",
+      "3 N·m",
+      "√3 N·m",
+      "(3/2) N·m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "W = MB (1 - cos 60°) = 0.5 MB.\nGiven W = √3 J => 0.5 MB = √3 => MB = 2√3 J.\nTorque at 60°: τ = MB sin 60° = (2√3) × (√3 / 2) = 3 N·m.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Magnetic Torque",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-20",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Potential Energy in Stable Equilibrium",
+    "difficulty": "Easy",
+    "questionText": "A short bar magnet of magnetic moment 0.4 J·T⁻¹ is placed in a uniform magnetic field of 0.16 T. The magnet is in stable equilibrium when its potential energy is: [AIPMT-2011]",
+    "options": [
+      "-0.082 J",
+      "+0.064 J",
+      "-0.064 J",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stable equilibrium occurs when the magnetic moment is aligned parallel to the magnetic field (θ = 0°).\nU_min = -MB cos 0° = -MB = -(0.4 J·T⁻¹) × (0.16 T) = -0.064 J.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Bar Magnet",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-21",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Material Properties of Electromagnet Cores",
+    "difficulty": "Easy",
+    "questionText": "Soft iron is universally chosen as the core material for electromagnets and transformer cores because it possesses: [AIPMT-2010]",
+    "options": [
+      "High retentivity and low coercive force",
+      "Low retentivity and high coercive force",
+      "High retentivity and high coercive force",
+      "High permeability and low coercivity (low retentivity and low hysteresis loss)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An electromagnet should easily magnetize to saturation when current is switched on (requiring high magnetic permeability) and immediately demagnetize when current is switched off (requiring low retentivity and low coercivity, minimizing hysteresis energy loss).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Hysteresis",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-22",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Oscillation Period in Opposing Added Field",
+    "difficulty": "Hard",
+    "questionText": "A vibration magnetometer in the magnetic meridian has a small bar magnet executing oscillations with a period of 2 s in the Earth's horizontal field of 24 μT. When an opposing horizontal field of 18 μT is produced by an external wire, the new oscillation period will be: [AIPMT-2010]",
+    "options": [
+      "4 s",
+      "1 s",
+      "2 s",
+      "3 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "T = 2π √(I / (M B_net)).\nInitial field B₁ = 24 μT, period T₁ = 2 s.\nNew opposing field: B₂ = 24 - 18 = 6 μT.\nT₂ / T₁ = √(B₁ / B₂) = √(24 / 6) = √4 = 2.\nT₂ = 2 × T₁ = 2 × 2 s = 4 s.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Vibration Magnetometer",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-23",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Atomic Dipole Moments in Diamagnets",
+    "difficulty": "Easy",
+    "questionText": "The net magnetic dipole moment of an individual isolated atom of a diamagnetic substance is: [AIPMT-2010]",
+    "options": [
+      "Much greater than one",
+      "1",
+      "Between zero and one",
+      "Equal to zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In diamagnetic materials, electrons are paired with opposite orbital and spin angular momenta, so their individual magnetic moments cancel out completely. The net intrinsic magnetic dipole moment of an isolated atom is exactly zero.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Magnetic Materials",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-24",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Stationary Electric Charge Near Bar Magnets",
+    "difficulty": "Easy",
+    "questionText": "Two identical bar magnets are placed fixed with their centres at a distance d apart. A stationary electric charge Q is placed midway at point P in the gap between them. The magnetic force on the charge Q is: [AIPMT-2010]",
+    "options": [
+      "Zero",
+      "Directed along the axis of magnets",
+      "Directed perpendicular to the axis",
+      "Directed out of the plane"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The magnetic force on a charged particle is given by the Lorentz magnetic force F⃗ = q (v⃗ × B⃗). Because the charge is stationary (velocity v = 0), the magnetic force exerted on it is strictly zero, regardless of how strong the local magnetic field is.",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Magnetic Force",
+      "NEET PYQ"
+    ]
+  },
+  {
+    "id": "ncert-phy-ch20-25",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "topic": "Curie Temperature Transition",
+    "difficulty": "Easy",
+    "questionText": "Curie temperature is defined as the critical temperature above which: [AIPMT-2008]",
+    "options": [
+      "A ferromagnetic material becomes a diamagnetic material",
+      "A ferromagnetic material becomes a paramagnetic material",
+      "A paramagnetic material becomes a diamagnetic material",
+      "A paramagnetic material becomes a ferromagnetic material"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At temperatures above the Curie temperature (T_C), thermal agitation destroys domain alignment in ferromagnetic materials, causing them to transition into ordinary paramagnetic substances obeying the Curie-Weiss law: χ = C / (T - T_C).",
+    "tags": [
+      "NCERT NEET Physics",
+      "Magnetism and Matter",
+      "Curie's Law",
+      "NEET PYQ"
+    ]
+  }
+]
