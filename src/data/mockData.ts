@@ -153,6 +153,7 @@ import {
   NCERT_NUCLEI_QUESTIONS,
   NCERT_SEMICONDUCTORS_QUESTIONS,
   NCERT_COMMUNICATION_QUESTIONS,
+  DUAL_NATURE_XRAYS_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -1852,7 +1853,37 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45([...NCERT_DUAL_NATURE_QUESTIONS, ...DUAL_NATURE_QUESTIONS])
+    questions: get45([...NCERT_DUAL_NATURE_QUESTIONS, ...DUAL_NATURE_XRAYS_QUESTIONS, ...DUAL_NATURE_QUESTIONS])
+  },
+  {
+    id: 'test-phy-ch25-xrays',
+    title: 'Physics Chapter 25: X-Rays & Moseley Law Test Series (45 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 25: X-Rays, Continuous & Characteristic Spectra, Moseley Law (45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Step-by-Step Solutions'],
+    questions: get45(DUAL_NATURE_XRAYS_QUESTIONS.filter(q => q.id.includes('xrays') || q.id.includes('ct')))
+  },
+  {
+    id: 'test-phy-ch25-set',
+    title: 'Physics Chapter 25: Self Evaluation Test 25 (20 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Physics Chapter 25: Self Evaluation Test SET-25 (Photoelectric, X-Rays, Matter Waves 20 Qs)',
+    totalQuestions: 20,
+    durationMinutes: 15,
+    totalMarks: 80,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['20 Chapter Comprehensive Qs', 'Official SET-25 Test', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: DUAL_NATURE_XRAYS_QUESTIONS.filter(q => q.id.includes('set25'))
   },
   {
     id: 'test-phy-ch27',
