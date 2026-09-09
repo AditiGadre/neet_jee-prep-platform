@@ -24,6 +24,8 @@ import { DownloadRecord } from '../types';
 import { getUserDownloads, clearUserDownloads, getCurrentUser } from '../utils/downloadTracker';
 import { downloadBookPDF, downloadTestPaperPDF, downloadDppPDF } from '../utils/pdfDownloader';
 import { getUnifiedQuestionBank } from '../utils/questionDatabase';
+import { BOOKS_DATA, TEST_SERIES_DATA } from '../data/mockData';
+import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
 
 interface DownloadsModalProps {
   onClose: () => void;

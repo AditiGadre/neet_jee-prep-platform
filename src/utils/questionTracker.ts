@@ -261,6 +261,8 @@ export function auditAndNotifyAdminRemainingTestData(userEmail?: string) {
   return telemetry;
 }
 
+export const notifyDataExhaustion = auditAndNotifyAdminRemainingTestData;
+
 /**
  * Reset consumption history for a chapter or all chapters so student can practice again if desired
  */

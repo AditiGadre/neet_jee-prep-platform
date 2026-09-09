@@ -1287,7 +1287,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
             <div className="flex items-center space-x-2">
               <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 uppercase">
-                {downloadHistory.length} Files in History
+                {downloads.length} Files in History
               </span>
             </div>
           </div>

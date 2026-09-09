@@ -13,6 +13,7 @@ import {
   Zap as ZapIcon,
   Atom as AtomIcon,
   Dna as DnaIcon,
+  FileText,
   FileText as FileIcon,
   Compass as CompassIcon,
   Building2 as BuildingIcon,
@@ -46,6 +47,7 @@ import { cleanOcrText } from '../utils/ocrCleaner';
 import { downloadTestPaperPDF, downloadTestScorecardPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
 import { getUniqueDiagramForQuestion } from '../utils/diagramEngine';
+import { ErrorBoundary } from './ErrorBoundary';
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -483,12 +485,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     { rank: 10, name: 'Meera Iyer', score: 654, accuracy: 91, time: '173m', state: 'Tamil Nadu' }
   ];
 
-  const getEligibleColleges = (air: number, category: string) => {
-    let effectiveRank = air;
-    if (category.includes('OBC')) effectiveRank = Math.round(air * 0.7);
-    else if (category.includes('EWS')) effectiveRank = Math.round(air * 0.75);
-    else if (category.includes('SC')) effectiveRank = Math.round(air * 0.35);
-    else if (category.includes('ST')) effectiveRank = Math.round(air * 0.2);
+  const getEligibleColleges = (air: number = 10000, category: string = 'General / Open') => {
+    let effectiveRank = Number.isFinite(air) && air > 0 ? air : 10000;
+    const cat = String(category || 'General / Open');
+    if (cat.includes('OBC')) effectiveRank = Math.round(effectiveRank * 0.7);
+    else if (cat.includes('EWS')) effectiveRank = Math.round(effectiveRank * 0.75);
+    else if (cat.includes('SC')) effectiveRank = Math.round(effectiveRank * 0.35);
+    else if (cat.includes('ST')) effectiveRank = Math.round(effectiveRank * 0.2);
 
     const colleges = [
       { name: 'AIIMS, New Delhi', cutoff: 55, type: 'Apex Central Institute', seats: 125, state: 'Delhi' },
@@ -640,15 +643,15 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     {
       code: test.title.includes('CWT') ? test.title.split(':')[0] : 'CWT-06 (Current)',
       date: new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }),
-      phy: testResult?.subjectBreakdown.find(s => s.subject === 'Physics')?.score || 148,
-      chem: testResult?.subjectBreakdown.find(s => s.subject === 'Chemistry')?.score || 149,
-      bot: testResult?.subjectBreakdown.find(s => s.subject === 'Botany')?.score || 168,
-      zoo: testResult?.subjectBreakdown.find(s => s.subject === 'Zoology')?.score || 151,
-      total: testResult?.score || 616,
-      rank: `${testResult?.batchRank?.rank || 3} / 180`,
-      cityRank: `${testResult?.cityRank?.rank || 29} / 4,200`,
-      air: `${(testResult?.predictedAIR || 6840).toLocaleString()}`,
-      acc: testResult?.accuracyPercentage || 86
+      phy: testResult?.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 148,
+      chem: testResult?.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 149,
+      bot: testResult?.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 168,
+      zoo: testResult?.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 151,
+      total: testResult?.score ?? 616,
+      rank: `${testResult?.batchRank?.rank ?? 3} / 180`,
+      cityRank: `${testResult?.cityRank?.rank ?? 29} / 4,200`,
+      air: `${(testResult?.predictedAIR ?? 6840).toLocaleString()}`,
+      acc: testResult?.accuracyPercentage ?? 86
     }
   ];
 
@@ -928,7 +931,11 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
           </div>
         ) : (
           /* POST-TEST RESULTS & 6-PAGE REPORT */
-          testResult && (
+          <ErrorBoundary
+            fallbackTitle="Test Results & Scorecard"
+            fallbackMessage="Your score has been safely calculated and saved. Click below to refresh the scorecard view or review your test solutions."
+          >
+            {testResult && (
             <div className="p-4 sm:p-6 space-y-6 overflow-y-auto flex-1 bg-slate-100/90 text-slate-900">
               {/* Header Navigation Tabs */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-200 bg-white p-4 rounded-2xl shadow-xs">
@@ -1099,7 +1106,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <div className="p-4 rounded-2xl bg-purple-50 border border-purple-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Simulated AIR</span>
                         <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
-                          #{testResult.predictedAIR.toLocaleString()}
+                          #{(testResult.predictedAIR ?? 6840).toLocaleString()}
                         </div>
                         <span className="text-[11px] text-purple-700 font-bold">{testResult.nationalPercentile}%ile</span>
                       </div>
@@ -1292,10 +1299,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <div className="w-full bg-slate-50 p-4 rounded-2xl border border-slate-200 flex flex-col items-center justify-center">
                         <svg viewBox="0 0 420 180" className="w-full h-44" xmlns="http://www.w3.org/2000/svg">
                           {[
-                            { name: 'Physics', prev: 138, cur: testResult.subjectBreakdown[0]?.score || 148, x: 40 },
-                            { name: 'Chemistry', prev: 142, cur: testResult.subjectBreakdown[1]?.score || 149, x: 135 },
-                            { name: 'Botany', prev: 160, cur: testResult.subjectBreakdown[2]?.score || 168, x: 230 },
-                            { name: 'Zoology', prev: 155, cur: testResult.subjectBreakdown[3]?.score || 151, x: 325 }
+                            { name: 'Physics', prev: 138, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? (testResult.subjectBreakdown?.[0]?.score ?? 148), x: 40 },
+                            { name: 'Chemistry', prev: 142, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? (testResult.subjectBreakdown?.[1]?.score ?? 149), x: 135 },
+                            { name: 'Botany', prev: 160, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? (testResult.subjectBreakdown?.[2]?.score ?? 168), x: 230 },
+                            { name: 'Zoology', prev: 155, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? (testResult.subjectBreakdown?.[3]?.score ?? 151), x: 325 }
                           ].map((b, i) => {
                             const prevH = (b.prev / 180) * 120;
                             const curH = (b.cur / 180) * 120;
@@ -1826,7 +1833,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               {activeSolutionTab === 'solutions' && (
                 <div className="space-y-4 max-w-5xl mx-auto animate-in fade-in">
                   {questions.map((q, idx) => {
-                    const userOption = testResult.answers[idx];
+                    const userOption = testResult?.answers ? testResult.answers[idx] : undefined;
                     const isCorrect = userOption === q.correctAnswer;
                     const isUnattempted = userOption === undefined;
 
@@ -1869,13 +1876,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           {renderFormattedQuestionText(q.questionText)}
                         </div>
 
-                        {(q.diagramSvg || questionDiagramMap.get(qIdx)) && (
+                        {(q.diagramSvg || questionDiagramMap.get(idx)) && (
                           <div
                             className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center overflow-x-auto"
-                            dangerouslySetInnerHTML={{ __html: q.diagramSvg || questionDiagramMap.get(qIdx) || '' }}
+                            dangerouslySetInnerHTML={{ __html: q.diagramSvg || questionDiagramMap.get(idx) || '' }}
                           />
                         )}
-                        {q.image && !q.diagramSvg && !questionDiagramMap.get(qIdx) && (
+                        {q.image && !q.diagramSvg && !questionDiagramMap.get(idx) && (
                           <div className="my-3 p-2 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
                             <img src={q.image} alt="Question Diagram" className="max-h-48 rounded-lg object-contain" />
                           </div>
@@ -1908,7 +1915,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 </div>
               )}
             </div>
-          )
+            )}
+          </ErrorBoundary>
         )}
       </div>
     </div>

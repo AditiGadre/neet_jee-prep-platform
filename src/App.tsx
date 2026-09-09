@@ -5,6 +5,7 @@ import { TestSeriesSection } from './components/TestSeriesSection';
 import { supabase } from './supabaseClient';
 import { EnrollmentGate, EnrolledStudent } from './components/EnrollmentGate';
 import { SundayChapterSelection } from './components/SundayTestChapterModal';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 // Lazy-load secondary tabs & heavy interactive modals for sub-second initial load
 const WhatExtraSection = lazy(() => import('./components/WhatExtraSection').then(m => ({ default: m.WhatExtraSection })));
@@ -233,7 +234,11 @@ export default function App() {
   const handleSaveTestResult = async (result: UserTestResult) => {
     setCompletedTests(prev => {
       const updated = [result, ...prev];
-      localStorage.setItem('neet_completed_tests', JSON.stringify(updated));
+      try {
+        localStorage.setItem('neet_completed_tests', JSON.stringify(updated));
+      } catch (err) {
+        console.warn('Unable to cache completed tests to localStorage:', err);
+      }
       return updated;
     });
 
@@ -401,15 +406,24 @@ export default function App() {
       <Suspense fallback={null}>
         {/* CBT Test Simulation Modal */}
         {activeTestForCBT && (
-          <CBTTestModal
-            test={activeTestForCBT}
-            selectedChapters={selectedSundayChapters}
-            onClose={() => {
+          <ErrorBoundary
+            fallbackTitle="Exam Simulation Session"
+            fallbackMessage="An unexpected display error occurred in the CBT exam window. You can safely return to the dashboard and try again."
+            onReset={() => {
               setActiveTestForCBT(null);
               setSelectedSundayChapters(undefined);
             }}
-            onSaveResult={handleSaveTestResult}
-          />
+          >
+            <CBTTestModal
+              test={activeTestForCBT}
+              selectedChapters={selectedSundayChapters}
+              onClose={() => {
+                setActiveTestForCBT(null);
+                setSelectedSundayChapters(undefined);
+              }}
+              onSaveResult={handleSaveTestResult}
+            />
+          </ErrorBoundary>
         )}
 
         {/* 24/7 Academic Doubt Modal */}

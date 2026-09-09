@@ -151,7 +151,6 @@ export const Header: React.FC<HeaderProps> = ({
                 <button
                   onClick={() => {
                     setProfileDropdownOpen(!profileDropdownOpen);
-                    setExamDropdownOpen(false);
                   }}
                   className="flex items-center space-x-1.5 sm:space-x-2 bg-slate-50 hover:bg-slate-100 border border-slate-200 px-2 sm:px-2.5 py-1 rounded-xl transition cursor-pointer"
                 >

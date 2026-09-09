@@ -525,10 +525,10 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   const cityRankStr = result.cityRank ? `${result.cityRank.rank} / ${result.cityRank.total}` : '29 / 4,200';
 
   const totalPossibleMarks = result.totalMarks || 720;
-  const phy = result.subjectBreakdown.find(s => s.subject === 'Physics')?.score || 148;
-  const chem = result.subjectBreakdown.find(s => s.subject === 'Chemistry')?.score || 149;
-  const bot = result.subjectBreakdown.find(s => s.subject === 'Botany')?.score || 168;
-  const zoo = result.subjectBreakdown.find(s => s.subject === 'Zoology')?.score || 151;
+  const phy = result.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 148;
+  const chem = result.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 149;
+  const bot = result.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 168;
+  const zoo = result.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 151;
 
   const htmlBody = `
     <!-- PAGE 1: HEADER & SECTION 1 -->
@@ -932,7 +932,7 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   });
 
   recordSuperUserNotification({
-    contentTitle: `Password-Protected 6-Page Scorecard: ${result.testTitle} (Score: ${result.score}/720, AIR #${result.predictedAIR.toLocaleString()})`,
+    contentTitle: `Password-Protected 6-Page Scorecard: ${result.testTitle} (Score: ${result.score}/720, AIR #${(result.predictedAIR ?? 6840).toLocaleString()})`,
     category: 'Scorecard',
     fileSize,
     subject: 'Scorecard'
