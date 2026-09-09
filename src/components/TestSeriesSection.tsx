@@ -388,7 +388,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               🔔 Automated Sunday Test Reminder Activated for {reminderSetFor}!
             </div>
             <p className="text-emerald-800">
-              WhatsApp and SMS alerts will be dispatched on Sunday at <strong>8:00 AM</strong> to Parent <strong>{parentName} (+91 {parentPhone})</strong> and Candidate <strong>(+91 {studentPhone})</strong>.
+              Test reminder scheduled for Sunday at <strong>8:00 AM</strong>. Candidate alert will be sent to <strong>+91 {studentPhone}</strong>. Exam window opens at 9:00 AM.
             </p>
           </div>
         </div>

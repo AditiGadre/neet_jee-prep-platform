@@ -66,11 +66,21 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   onSaveResult,
   selectedChapters
 }) => {
+  const isCustomTest =
+    test.category === 'custom' ||
+    test.id.startsWith('custom-') ||
+    Boolean(selectedChapters && selectedChapters.length > 0 && !test.id.includes('sunday') && !test.id.includes('cwt'));
+
   const isSundayTest =
-    test.id.includes('sunday') ||
-    test.category === 'neet_mock' ||
-    test.totalQuestions >= 90 ||
-    test.durationMinutes >= 90;
+    !isCustomTest && (
+      test.id.includes('sunday') ||
+      test.id.includes('cwt') ||
+      test.id.includes('cum') ||
+      test.id.includes('part') ||
+      test.totalMarks === 720 ||
+      test.totalQuestions === 180 ||
+      test.category === 'neet_mock'
+    );
 
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
@@ -433,10 +443,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     onSaveResult(resultObj);
 
     recordSuperUserNotification({
-      contentTitle: `⚡ AUTOMATED PARENT REPORT DISPATCHED: Score ${rawScore}/720 (AIR #${predictedAIR.toLocaleString()}) sent to Parent (${parentName} - Email: ${parentEmail} & Mobile: ${parentPhone}) for ${test.title}`,
+      contentTitle: `Test Completed: ${studentName} completed ${test.title} (Score: ${rawScore}/${totalPossibleMarks}, Accuracy: ${accuracy}%)`,
       category: 'Scorecard',
-      fileSize: '720M Report',
-      subject: 'Parent Notification Delivered'
+      fileSize: `${totalPossibleMarks}M Report`,
+      subject: 'Test Completed'
     });
 
     if (rawScore > 0) {
@@ -654,6 +664,216 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
       acc: testResult?.accuracyPercentage ?? 86
     }
   ];
+
+  const renderBasicReport = (result: UserTestResult) => {
+    const totalQ = questions.length || 1;
+    const attemptedQ = result.correctAnswers + result.wrongAnswers;
+    const scorePct = (((result.score / (result.totalMarks || 1))) * 100).toFixed(1);
+
+    return (
+      <div className="space-y-6 max-w-5xl mx-auto animate-in fade-in">
+        {/* Header & Candidate Info */}
+        <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4">
+            <div>
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-xs font-extrabold uppercase tracking-wider">
+                <span>Custom Practice Test</span>
+                <span>&bull;</span>
+                <span>Self-Paced Performance Review</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight mt-1.5">
+                {test.title}
+              </h2>
+              <p className="text-xs text-slate-500 font-mono">
+                {totalQ} Questions &bull; Total {result.totalMarks} Marks &bull; +4 / -1 Marking
+              </p>
+            </div>
+
+            <div className="text-left sm:text-right font-mono text-xs text-slate-600 shrink-0">
+              <div className="font-bold text-slate-900">Candidate: {studentName}</div>
+              <div>Roll No: {rollNumber}</div>
+              <div className="text-slate-400">Date: {result.dateStr}</div>
+            </div>
+          </div>
+
+          {/* Top Score Cards */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-200 text-center">
+              <span className="text-[10px] font-bold text-slate-500 uppercase">Score Obtained</span>
+              <div className="text-2xl font-black text-emerald-700 font-mono mt-0.5">
+                {result.score} <span className="text-xs text-slate-400 font-normal">/ {result.totalMarks}</span>
+              </div>
+              <span className="text-[11px] text-emerald-600 font-bold">
+                {scorePct}% of Max
+              </span>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-blue-50 border border-blue-200 text-center">
+              <span className="text-[10px] font-bold text-slate-500 uppercase">Accuracy</span>
+              <div className="text-2xl font-black text-blue-700 font-mono mt-0.5">
+                {result.accuracyPercentage}%
+              </div>
+              <span className="text-[11px] text-blue-600 font-medium">
+                {result.correctAnswers} of {attemptedQ} correct
+              </span>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+              <span className="text-[10px] font-bold text-slate-500 uppercase">Attempt Rate</span>
+              <div className="text-2xl font-black text-slate-800 font-mono mt-0.5">
+                {attemptedQ} <span className="text-xs text-slate-400 font-normal">/ {totalQ}</span>
+              </div>
+              <span className="text-[11px] text-slate-500 font-mono">
+                {result.unattempted} Unattempted
+              </span>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-purple-50 border border-purple-200 text-center">
+              <span className="text-[10px] font-bold text-slate-500 uppercase">Time Spent</span>
+              <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
+                {formatTimer(result.timeSpentSeconds)}
+              </div>
+              <span className="text-[11px] text-purple-700 font-bold">
+                ~{Math.round(result.timeSpentSeconds / totalQ)}s / Question
+              </span>
+            </div>
+          </div>
+
+          {/* Outcome Breakdown Visual Bar */}
+          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div className="flex items-center justify-between text-xs font-bold text-slate-800">
+              <span>Question Attempt Breakdown</span>
+              <span className="font-mono text-slate-500">{totalQ} Questions</span>
+            </div>
+
+            <div className="h-3 w-full bg-slate-200 rounded-full overflow-hidden flex">
+              <div
+                className="bg-emerald-500 h-full transition-all"
+                style={{ width: `${totalQ > 0 ? (result.correctAnswers / totalQ) * 100 : 0}%` }}
+                title={`Correct: ${result.correctAnswers}`}
+              />
+              <div
+                className="bg-rose-500 h-full transition-all"
+                style={{ width: `${totalQ > 0 ? (result.wrongAnswers / totalQ) * 100 : 0}%` }}
+                title={`Wrong: ${result.wrongAnswers}`}
+              />
+              <div
+                className="bg-slate-300 h-full transition-all"
+                style={{ width: `${totalQ > 0 ? (result.unattempted / totalQ) * 100 : 0}%` }}
+                title={`Unattempted: ${result.unattempted}`}
+              />
+            </div>
+
+            <div className="grid grid-cols-3 gap-2 text-center text-xs pt-1">
+              <div className="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200">
+                <span className="text-emerald-800 font-black text-base font-mono block">+{result.correctAnswers * 4} Marks</span>
+                <span className="text-[11px] text-emerald-700 font-bold">✓ {result.correctAnswers} Correct</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-200">
+                <span className="text-rose-700 font-black text-base font-mono block">-{result.wrongAnswers * 1} Marks</span>
+                <span className="text-[11px] text-rose-600 font-bold">✗ {result.wrongAnswers} Incorrect</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-slate-100 border border-slate-200">
+                <span className="text-slate-600 font-black text-base font-mono block">0 Marks</span>
+                <span className="text-[11px] text-slate-500 font-bold">— {result.unattempted} Left</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Subject Performance Breakdown */}
+        <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
+          <div className="border-b border-slate-100 pb-2 flex items-center justify-between">
+            <div>
+              <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
+                <Activity className="w-5 h-5 text-blue-600" />
+                <span>Subject & Domain Performance</span>
+              </h3>
+              <p className="text-xs text-slate-500">
+                Score and accuracy distribution across tested subjects.
+              </p>
+            </div>
+            <button
+              onClick={() => setActiveSolutionTab('solutions')}
+              className="px-3.5 py-1.5 rounded-xl bg-blue-50 text-blue-700 hover:bg-blue-100 text-xs font-bold border border-blue-200 transition cursor-pointer flex items-center gap-1"
+            >
+              <span>View Solutions</span> &rarr;
+            </button>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs">
+              <thead>
+                <tr className="bg-slate-50 text-slate-600 font-bold border-b border-slate-200 font-sans">
+                  <th className="p-3">Subject / Domain</th>
+                  <th className="p-3 text-center">Correct (+4)</th>
+                  <th className="p-3 text-center">Wrong (-1)</th>
+                  <th className="p-3 text-center">Unattempted</th>
+                  <th className="p-3 text-center">Score</th>
+                  <th className="p-3 text-center">Accuracy</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 font-mono text-[11px]">
+                {(result.subjectBreakdown || []).map((sub, sIdx) => {
+                  const attempted = sub.correct + sub.wrong;
+                  const acc = attempted > 0 ? Math.round((sub.correct / attempted) * 100) : 0;
+                  return (
+                    <tr key={sIdx} className="hover:bg-slate-50 transition">
+                      <td className="p-3 font-bold font-sans text-slate-900">{sub.subject}</td>
+                      <td className="p-3 text-center text-emerald-700 font-bold">{sub.correct}</td>
+                      <td className="p-3 text-center text-rose-600 font-bold">{sub.wrong}</td>
+                      <td className="p-3 text-center text-slate-400">{sub.unattempted}</td>
+                      <td className="p-3 text-center font-bold text-blue-700">{sub.score} / {sub.maxMarks}</td>
+                      <td className="p-3 text-center font-bold text-slate-800">{acc}%</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Chapter Insights if any */}
+          {result.chapterAnalytics && result.chapterAnalytics.length > 0 && (
+            <div className="pt-3 border-t border-slate-100 space-y-2">
+              <h4 className="text-xs font-bold text-slate-700 uppercase tracking-wider">Chapter-Wise Performance:</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                {result.chapterAnalytics.map((ch, idx) => (
+                  <div key={idx} className="p-3 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-between text-xs">
+                    <div className="space-y-0.5 truncate pr-2">
+                      <div className="font-bold text-slate-900 truncate">{ch.chapter}</div>
+                      <div className="text-[10px] text-slate-500 font-mono">{ch.subject} &bull; {ch.total} Questions ({ch.correct}C / {ch.wrong}W / {ch.unattempted}U)</div>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <span className={`px-2.5 py-1 rounded-xl text-xs font-mono font-bold border ${
+                        ch.accuracy >= 75 ? 'bg-emerald-50 text-emerald-800 border-emerald-200' :
+                        ch.accuracy >= 50 ? 'bg-amber-50 text-amber-800 border-amber-200' : 'bg-rose-50 text-rose-800 border-rose-200'
+                      }`}>
+                        {ch.accuracy}%
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Quick Review CTA */}
+        <div className="p-5 rounded-3xl bg-gradient-to-r from-blue-600 to-indigo-700 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-md">
+          <div className="space-y-1">
+            <h4 className="font-bold text-sm sm:text-base">Review Step-by-Step Question Solutions</h4>
+            <p className="text-xs text-blue-100">Examine verified solutions, key formulas, and rationale for all {questions.length} questions.</p>
+          </div>
+          <button
+            onClick={() => setActiveSolutionTab('solutions')}
+            className="px-5 py-2.5 rounded-xl bg-white text-blue-700 hover:bg-blue-50 font-bold text-xs transition cursor-pointer shadow-xs shrink-0"
+          >
+            Review Solutions &rarr;
+          </button>
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex flex-col overflow-hidden text-slate-900">
@@ -949,32 +1169,36 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     }`}
                   >
                     <FileText className="w-4 h-4" />
-                    <span>1. Official Performance Report (6 Pages)</span>
+                    <span>{isSundayTest ? '1. Official Performance Report (Advanced Diagnostic)' : '1. Performance Summary (Basic Report)'}</span>
                   </button>
 
-                  <button
-                    onClick={() => setActiveSolutionTab('leaderboard')}
-                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
-                      activeSolutionTab === 'leaderboard'
-                        ? 'bg-blue-600 text-white shadow-xs'
-                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                    }`}
-                  >
-                    <TrophyIcon className="w-4 h-4 text-amber-500" />
-                    <span>2. Top 10 Performers Leaderboard</span>
-                  </button>
+                  {isSundayTest && (
+                    <button
+                      onClick={() => setActiveSolutionTab('leaderboard')}
+                      className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
+                        activeSolutionTab === 'leaderboard'
+                          ? 'bg-blue-600 text-white shadow-xs'
+                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                      }`}
+                    >
+                      <TrophyIcon className="w-4 h-4 text-amber-500" />
+                      <span>2. Top 10 Performers Leaderboard</span>
+                    </button>
+                  )}
 
-                  <button
-                    onClick={() => setActiveSolutionTab('comparison')}
-                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
-                      activeSolutionTab === 'comparison'
-                        ? 'bg-blue-600 text-white shadow-xs'
-                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                    }`}
-                  >
-                    <TargetIcon className="w-4 h-4 text-indigo-500" />
-                    <span>3. You vs Top Scorer</span>
-                  </button>
+                  {isSundayTest && (
+                    <button
+                      onClick={() => setActiveSolutionTab('comparison')}
+                      className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
+                        activeSolutionTab === 'comparison'
+                          ? 'bg-blue-600 text-white shadow-xs'
+                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                      }`}
+                    >
+                      <TargetIcon className="w-4 h-4 text-indigo-500" />
+                      <span>3. You vs Top Scorer</span>
+                    </button>
+                  )}
 
                   <button
                     onClick={() => setActiveSolutionTab('solutions')}
@@ -985,7 +1209,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     }`}
                   >
                     <CheckCheck className="w-4 h-4 text-emerald-500" />
-                    <span>4. Step-by-Step Solutions</span>
+                    <span>{isSundayTest ? '4. Step-by-Step Solutions' : '2. Step-by-Step Solutions'}</span>
                   </button>
                 </div>
 
@@ -1007,9 +1231,12 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                 </div>
               </div>
 
-              {/* TAB 1: SCORECARD & 6-PAGE REPORT */}
+              {/* TAB 1: SCORECARD & PERFORMANCE REPORT */}
               {activeSolutionTab === 'scorecard' && (
-                <div className="space-y-6 max-w-6xl mx-auto animate-in fade-in">
+                !isSundayTest ? (
+                  renderBasicReport(testResult)
+                ) : (
+                  <div className="space-y-6 max-w-6xl mx-auto animate-in fade-in">
                   {/* Institutional Header & Candidate Details */}
                   <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-5">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-5">
@@ -1644,55 +1871,9 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       </div>
                     </div>
                   </div>
-
-                  {/* SECTION 9 */}
-                  <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white border border-slate-700 rounded-3xl p-6 shadow-md space-y-4">
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/10 pb-3">
-                      <div>
-                        <h3 className="text-base font-extrabold text-white flex items-center gap-2">
-                          <ShieldCheck className="w-5 h-5 text-emerald-400" />
-                          <span>SECTION 9: Automated Parent Notification & Delivery Receipt</span>
-                        </h3>
-                        <p className="text-xs text-slate-300">
-                          Automated electronic delivery dispatch confirmation to verified parent contact channels.
-                        </p>
-                      </div>
-                      <span className="text-xs font-mono font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 px-3 py-1 rounded-xl">
-                        ✓ Transmission Verified
-                      </span>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1.5">
-                        <div className="flex items-center space-x-2 text-emerald-400 text-xs font-bold">
-                          <Mail className="w-4 h-4" />
-                          <span>Parent Email Notification</span>
-                        </div>
-                        <p className="text-xs font-mono text-slate-200">Recipient: <strong>{parentEmail}</strong></p>
-                        <p className="text-[11px] text-slate-400">
-                          Status: <strong className="text-emerald-300">Delivered & Verified</strong> &bull; Complete 6-Page Performance PDF Scorecard attached.
-                        </p>
-                      </div>
-
-                      <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1.5">
-                        <div className="flex items-center space-x-2 text-cyan-400 text-xs font-bold">
-                          <Phone className="w-4 h-4" />
-                          <span>Parent Mobile SMS & WhatsApp Alert</span>
-                        </div>
-                        <p className="text-xs font-mono text-slate-200">Recipient: <strong>{parentPhone}</strong></p>
-                        <p className="text-[11px] text-slate-400">
-                          Status: <strong className="text-cyan-300">Sent & Delivered</strong> &bull; Instant SMS & WhatsApp summary with AIR #{testResult.predictedAIR} delivered.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-wrap items-center justify-between text-[10px] text-slate-400 font-mono pt-1">
-                      <span>Dispatch Timestamp: {new Date().toISOString()}</span>
-                      <span>Verification Signature: SHA256: 9f8c2b71...a4e9</span>
-                    </div>
-                  </div>
                 </div>
-              )}
+              )
+            )}
 
               {/* TAB 2: LEADERBOARD */}
               {activeSolutionTab === 'leaderboard' && (

@@ -1150,12 +1150,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
 
                 <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="text-[10px] uppercase font-bold text-gray-500">Parent Mobile (SMS/WhatsApp)</div>
+                  <div className="text-[10px] uppercase font-bold text-gray-500">Parent / Emergency Phone</div>
                   <div className="font-mono font-bold text-emerald-800 mt-0.5">+91 {enrolledStudent.parentPhone || enrolledStudent.studentPhone}</div>
                 </div>
 
                 <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email (Scorecards)</div>
+                  <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email ID</div>
                   <div className="font-mono font-semibold text-gray-900 mt-0.5 truncate">{enrolledStudent.parentEmail || enrolledStudent.email}</div>
                 </div>
 

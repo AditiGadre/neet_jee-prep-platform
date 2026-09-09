@@ -414,10 +414,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                 )}
               </div>
 
-              {/* Parent Email Address (for automated scorecard delivery) */}
+              {/* Parent Email Address */}
               <div>
                 <label className="block text-xs font-bold text-slate-700 mb-1">
-                  Parent Email ID <span className="text-slate-400 font-normal">(for Sunday Scorecards)</span>
+                  Parent Email ID <span className="text-slate-400 font-normal">(Optional Contact)</span>
                 </label>
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">

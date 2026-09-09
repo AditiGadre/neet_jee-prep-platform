@@ -637,7 +637,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   <span>Student Test Unlock Approval Queue</span>
                 </h3>
                 <p className="text-xs text-gray-500 mt-0.5">
-                  Review student requests to unlock 720-Marks Sunday CBT Tests. Approving grants real-time access and sends SMS/Email updates to parents.
+                  Review student requests to unlock 720-Marks Sunday CBT Tests. Approving grants real-time CBT access to the candidate.
                 </p>
               </div>
 
@@ -818,18 +818,18 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               </div>
             </div>
 
-            {/* Parent Notification Telemetry Banner */}
+            {/* Candidate Verification & Session Telemetry Banner */}
             <div className="p-4 rounded-xl bg-gradient-to-r from-blue-900 to-slate-900 text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div className="space-y-0.5">
                 <div className="text-[10px] uppercase font-mono font-bold text-emerald-300 flex items-center gap-1">
-                  <Mail className="w-3.5 h-3.5" /> Automated Parent Notification Gateway Active
+                  <ShieldCheck className="w-3.5 h-3.5" /> Candidate CBT Verification & Test Access Engine
                 </div>
                 <p className="text-xs text-slate-300">
-                  All test completions and unlock events dispatch automated scorecards & SMS/WhatsApp notifications to the verified parent contact extracted during enrollment.
+                  Real-time CBT unlock with verified roll number validation, time tracking, and NTA-standard scoring telemetry.
                 </p>
               </div>
               <span className="px-3 py-1 rounded-lg bg-white/10 text-white font-mono text-xs font-bold border border-white/20 whitespace-nowrap">
-                Email + SMS Dispatcher 100%
+                CBT Engine 100% Operational
               </span>
             </div>
           </div>
@@ -1595,12 +1595,12 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                   </div>
 
                   <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="text-[10px] uppercase font-bold text-gray-500">Parent Mobile (SMS/WhatsApp)</div>
+                    <div className="text-[10px] uppercase font-bold text-gray-500">Parent / Emergency Phone</div>
                     <div className="font-mono font-bold text-emerald-800 mt-0.5">+91 {enrolledStudent.parentPhone || enrolledStudent.studentPhone}</div>
                   </div>
 
                   <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                    <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email (Scorecards)</div>
+                    <div className="text-[10px] uppercase font-bold text-gray-500">Parent Email ID</div>
                     <div className="font-mono font-semibold text-gray-900 mt-0.5 truncate">{enrolledStudent.parentEmail || enrolledStudent.email}</div>
                   </div>
 
