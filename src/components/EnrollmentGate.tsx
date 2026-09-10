@@ -35,7 +35,7 @@ export interface EnrolledStudent {
   email: string;
   dob: string; // YYYY-MM-DD
   dobPin: string; // DDMMYYYY for PDF password
-  targetYear: '2026' | '2027' | '2028';
+  targetYear: '2027' | '2028' | '2029';
   enrolledAt: string;
   rollNumber: string;
   devices: string[];
@@ -56,7 +56,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
   const [caste, setCaste] = useState<EnrolledStudent['caste']>('General / Open');
   const [email, setEmail] = useState('');
   const [dob, setDob] = useState('2006-08-15');
-  const [targetYear, setTargetYear] = useState<EnrolledStudent['targetYear']>('2026');
+  const [targetYear, setTargetYear] = useState<EnrolledStudent['targetYear']>('2027');
   const [agreedTerms, setAgreedTerms] = useState(true);
 
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -147,7 +147,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
       return;
     }
 
-    const rollNo = 'NCBT-2026-' + Math.floor(100000 + Math.random() * 900000);
+    const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
     const dobPin = formatDobToPin(dob);
 
     const studentData: EnrolledStudent = {
@@ -206,7 +206,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
     const updatedDevices = deauthorizeDevice(email.trim().toLowerCase(), deviceToRemoveId);
     setDeviceLimitError(null);
     // Proceed with enrollment
-    const rollNo = 'NCBT-2026-' + Math.floor(100000 + Math.random() * 900000);
+    const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
     const dobPin = formatDobToPin(dob);
 
     const studentData: EnrolledStudent = {
@@ -594,14 +594,14 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
               </div>
             </div>
 
-            {/* Target Batch Select (2026, 2027, 2028) */}
+            {/* Target Batch Select (2027, 2028, 2029) */}
             <div className="pt-2 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
               <div className="flex items-center space-x-2">
                 <Calendar className="w-4 h-4 text-blue-600" />
                 <span className="text-xs font-bold text-slate-800">Target NEET Exam Year:</span>
               </div>
               <div className="flex items-center space-x-2">
-                {(['2026', '2027', '2028'] as const).map(yr => (
+                {(['2027', '2028', '2029'] as const).map(yr => (
                   <button
                     type="button"
                     key={yr}
@@ -665,9 +665,9 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                       email: 'student@neetcbt.in',
                       dob: '2006-08-15',
                       dobPin: '15082006',
-                      targetYear: '2026',
+                      targetYear: '2027',
                       enrolledAt: new Date().toISOString(),
-                      rollNumber: 'NCBT-2026-784920',
+                      rollNumber: 'NCBT-2027-784920',
                       devices: ['dev-fast-pass']
                     };
                     localStorage.setItem('neet_enrolled_student', JSON.stringify(demoStudent));

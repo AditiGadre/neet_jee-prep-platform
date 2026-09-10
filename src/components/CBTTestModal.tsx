@@ -1027,7 +1027,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     </span>
                     <span className="px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-bold flex items-center gap-1 font-mono">
                       <SparkleIcon className="w-3 h-3 text-amber-600" />
-                      <span>High Yield NCERT 2026/2027</span>
+                      <span>High Yield NCERT 2027/2028</span>
                     </span>
                   </div>
 

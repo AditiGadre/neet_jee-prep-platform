@@ -23,8 +23,8 @@ import { getSuperUserMetrics } from '../utils/superUserNotifier';
 interface HeaderProps {
   activeExam: ExamType;
   onSelectExam: (exam: ExamType) => void;
-  targetYear?: '2026' | '2027' | '2028';
-  onSelectTargetYear?: (year: '2026' | '2027' | '2028') => void;
+  targetYear?: '2027' | '2028' | '2029';
+  onSelectTargetYear?: (year: '2027' | '2028' | '2029') => void;
   onOpenQuickTest: () => void;
   onOpenDoubtModal: () => void;
   completedTestsCount: number;
@@ -39,7 +39,7 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
   activeExam,
   onSelectExam,
-  targetYear = '2026',
+  targetYear = '2027',
   onSelectTargetYear,
   onOpenQuickTest,
   onOpenDoubtModal,
@@ -112,10 +112,10 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          {/* Target Year Selector Bar: 2026, 2027, 2028 */}
+          {/* Target Year Selector Bar: 2027, 2028, 2029 */}
           <div className="flex items-center space-x-2">
             <div className="flex items-center bg-slate-100/90 p-1 rounded-xl border border-slate-200">
-              {(['2026', '2027', '2028'] as const).map(yr => (
+              {(['2027', '2028', '2029'] as const).map(yr => (
                 <button
                   key={yr}
                   onClick={() => onSelectTargetYear && onSelectTargetYear(yr)}

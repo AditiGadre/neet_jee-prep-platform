@@ -27,7 +27,7 @@ export const SupportSection: React.FC<SupportSectionProps> = ({
   const [counsellingFormSubmitted, setCounsellingFormSubmitted] = useState(false);
   const [counsellingName, setCounsellingName] = useState('');
   const [counsellingPhone, setCounsellingPhone] = useState('');
-  const [counsellingGoal, setCounsellingGoal] = useState('NEET 2026 Strategy');
+  const [counsellingGoal, setCounsellingGoal] = useState('NEET 2027 Strategy');
 
   const [techTicketSubmitted, setTechTicketSubmitted] = useState(false);
   const [techIssue, setTechIssue] = useState('');

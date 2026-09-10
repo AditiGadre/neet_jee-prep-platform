@@ -1300,7 +1300,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               </div>
               <div className="flex items-center space-x-1.5 text-gray-600 font-mono text-[11px]">
                 <Mail className="w-3.5 h-3.5 text-gray-400" />
-                <span>{dlUser?.email || 'student.target2026@neetprep.in'}</span>
+                <span>{dlUser?.email || 'student.target2027@neetprep.in'}</span>
               </div>
               <div className="flex items-center space-x-1.5 text-emerald-800 font-mono font-semibold text-[11px]">
                 <Phone className="w-3.5 h-3.5 text-emerald-600" />

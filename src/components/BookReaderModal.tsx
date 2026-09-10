@@ -76,7 +76,7 @@ export const BookReaderModal: React.FC<BookReaderModalProps> = ({
               <div className="p-3.5 rounded bg-white border border-gray-200 space-y-1.5">
                 <div className="flex items-center justify-between text-xs font-bold text-gray-900">
                   <span>Chapter 01: Core Principles & High-Yield NCERT Highlights</span>
-                  <span className="text-emerald-700 text-[10px] px-1.5 py-0.2 rounded bg-emerald-50 border border-emerald-200">Verified 2026</span>
+                  <span className="text-emerald-700 text-[10px] px-1.5 py-0.2 rounded bg-emerald-50 border border-emerald-200">Verified 2027</span>
                 </div>
                 <p className="text-xs text-gray-600 leading-relaxed">
                   &bull; Complete NCERT text with examiner-marked traps and exceptions highlighted in color codes.

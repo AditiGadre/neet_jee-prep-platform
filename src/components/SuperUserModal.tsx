@@ -1578,7 +1578,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
                         </span>
                       </div>
                       <p className="text-xs text-gray-500 font-mono">
-                        Roll: {enrolledStudent.rollNumber} &bull; Target: {enrolledStudent.targetExam || 'NEET (UG)'} {enrolledStudent.targetYear || '2026'}
+                        Roll: {enrolledStudent.rollNumber} &bull; Target: {enrolledStudent.targetExam || 'NEET (UG)'} {enrolledStudent.targetYear || '2027'}
                       </p>
                     </div>
                   </div>

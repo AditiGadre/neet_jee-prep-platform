@@ -200,7 +200,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <span>NeetCbt Verified</span>
           </div>
           <p className="text-[10px] text-slate-400 font-mono">
-            Target Batch 2026 &bull; 100% NCERT Authenticated
+            Target Batch 2027–2029 &bull; 100% NCERT Authenticated
           </p>
         </div>
       </div>

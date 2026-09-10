@@ -64,9 +64,9 @@ export default function App() {
           email: u.email || 'aditi.gadre@gmail.com',
           dob: u.dob || '2006-08-15',
           dobPin: u.dobPin || '15082006',
-          targetYear: u.targetYear || '2026',
+          targetYear: u.targetYear || '2027',
           enrolledAt: u.enrolledAt || new Date().toISOString(),
-          rollNumber: u.rollNumber || 'NCBT-2026-784920',
+          rollNumber: u.rollNumber || 'NCBT-2027-784920',
           devices: u.devices || ['dev-1']
         };
         localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
@@ -84,9 +84,9 @@ export default function App() {
           email: 'student@neetcbt.in',
           dob: '2006-08-15',
           dobPin: '15082006',
-          targetYear: '2026',
+          targetYear: '2027',
           enrolledAt: new Date().toISOString(),
-          rollNumber: 'NCBT-2026-784920',
+          rollNumber: 'NCBT-2027-784920',
           devices: ['dev-1']
         };
         localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
@@ -269,15 +269,15 @@ export default function App() {
     }
   };
 
-  const [targetYear, setTargetYear] = useState<'2026' | '2027' | '2028'>(() => {
+  const [targetYear, setTargetYear] = useState<'2027' | '2028' | '2029'>(() => {
     try {
       const saved = localStorage.getItem('neet_target_year');
-      if (saved === '2026' || saved === '2027' || saved === '2028') return saved;
+      if (saved === '2027' || saved === '2028' || saved === '2029') return saved;
     } catch {}
-    return '2026';
+    return '2027';
   });
 
-  const handleSelectTargetYear = (yr: '2026' | '2027' | '2028') => {
+  const handleSelectTargetYear = (yr: '2027' | '2028' | '2029') => {
     setTargetYear(yr);
     localStorage.setItem('neet_target_year', yr);
   };

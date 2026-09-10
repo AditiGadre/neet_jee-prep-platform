@@ -2193,7 +2193,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                       </span>
                     </div>
                     <p className="text-xs text-gray-500 font-mono">
-                      Roll: {enrolledStudent.rollNumber} • Target: {enrolledStudent.targetExam || 'NEET (UG)'} {enrolledStudent.targetYear || '2026'}
+                      Roll: {enrolledStudent.rollNumber} • Target: {enrolledStudent.targetExam || 'NEET (UG)'} {enrolledStudent.targetYear || '2027'}
                     </p>
                   </div>
                 </div>

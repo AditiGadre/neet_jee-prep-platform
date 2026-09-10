@@ -113,9 +113,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
       email: cleanEmail,
       dob: enrolledStudent?.dob || '2006-08-15',
       dobPin: enrolledStudent?.dobPin || '15082006',
-      targetYear: enrolledStudent?.targetYear || '2026',
+      targetYear: enrolledStudent?.targetYear || '2027',
       enrolledAt: enrolledStudent?.enrolledAt || new Date().toISOString(),
-      rollNumber: enrolledStudent?.rollNumber || 'NCBT-2026-' + Math.floor(100000 + Math.random() * 900000),
+      rollNumber: enrolledStudent?.rollNumber || 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
       devices: enrolledStudent?.devices || ['dev-1']
     };
 
@@ -126,7 +126,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
   };
 
   const handleQuickLogin = (
-    demoEmail = 'student.target2026@neetprep.in',
+    demoEmail = 'student.target2027@neetprep.in',
     demoPhone = '9876543210',
     demoName = 'Dr. Aditi (NEET Aspirant)'
   ) => {

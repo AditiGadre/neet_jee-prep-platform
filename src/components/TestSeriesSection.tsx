@@ -45,14 +45,14 @@ import {
 
 interface TestSeriesSectionProps {
   testItems: TestItem[];
-  targetYear?: '2026' | '2027' | '2028';
+  targetYear?: '2027' | '2028' | '2029';
   onStartTest: (test: TestItem) => void;
   onOpenAdmin?: () => void;
 }
 
 export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   testItems,
-  targetYear = '2026',
+  targetYear = '2027',
   onStartTest,
   onOpenAdmin
 }) => {
@@ -349,8 +349,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               {activeBatch === 'repeater'
                 ? 'NEET 2027 Dropper Sunday Test Series (Official 33-Sunday Cycle)'
                 : activeBatch === '12th'
-                ? 'Class 12th Sunday All-India Test Series (Target 2026/2027)'
-                : 'Class 11th Foundation Sunday All-India Test Series (Target 2027/2028)'}
+                ? 'Class 12th Sunday All-India Test Series (Target 2027/2028)'
+                : 'Class 11th Foundation Sunday All-India Test Series (Target 2028/2029)'}
             </h1>
             <p className="mt-1 text-xs text-slate-600 max-w-3xl leading-relaxed">
               Strictly aligned to official NMC/NTA NEET syllabus: <strong>180 Questions &bull; 180 Minutes (3.0 Hours) &bull; 180 Marks (Physics 45, Chemistry 45, Biology 90)</strong>. Every Sunday test follows the prescribed chapter progression: <strong>CWT (Chapter-Wise 1-19) &rarr; Cumulative (CUM 1-5) &rarr; Part Tests (PART 1-3) &rarr; Full Syllabus (FST 1-6)</strong>.
