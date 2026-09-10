@@ -56,17 +56,63 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
   out = out.replace(/\\text\s+/gi, ' ');
   out = out.replace(/\\text/gi, '');
 
-  // 1. Remove unnecessary LaTeX delimiters like $...$ or \(...\)
+  // 1. Remove unnecessary LaTeX delimiters like $...$, $$...$$, \(...\)
+  out = out.replace(/\$\$([\s\S]*?)\$\$/g, '$1');
   out = out.replace(/\\\((.*?)\\\)/g, '$1');
   out = out.replace(/\$([^\$]+)\$/g, '$1');
+  out = out.replace(/\$\$/g, '');
+  out = out.replace(/\$/g, '');
 
-  // 2. Square Root formatting: \sqrt{...}, sqrt(...), sqrt(...)
+  // 2. Bracket sizing macros: \left[ \right], \left( \right), etc.
+  out = out.replace(/\\left\s*\[/g, '[');
+  out = out.replace(/\\right\s*\]/g, ']');
+  out = out.replace(/\\left\s*\(/g, '(');
+  out = out.replace(/\\right\s*\)/g, ')');
+  out = out.replace(/\\left\s*\\\{/g, '{');
+  out = out.replace(/\\right\s*\\\}/g, '}');
+  out = out.replace(/\\left\s*\|/g, '|');
+  out = out.replace(/\\right\s*\|/g, '|');
+  out = out.replace(/\\left\./g, '');
+  out = out.replace(/\\right\./g, '');
+
+  // 3. Calculus & Mathematical operators
+  out = out.replace(/\\iint/g, '∬');
+  out = out.replace(/\\oint/g, '∮');
+  out = out.replace(/\\int/g, '∫');
+  out = out.replace(/\\ln\b/g, 'ln');
+  out = out.replace(/\\log\b/g, 'log');
+  out = out.replace(/\\exp\b/g, 'exp');
+  out = out.replace(/\\sin\b/g, 'sin');
+  out = out.replace(/\\cos\b/g, 'cos');
+  out = out.replace(/\\tan\b/g, 'tan');
+  out = out.replace(/\\cot\b/g, 'cot');
+  out = out.replace(/\\sec\b/g, 'sec');
+  out = out.replace(/\\csc\b/g, 'csc');
+  out = out.replace(/\\implies/g, ' ⟹ ');
+  out = out.replace(/\\iff/g, ' ⟺ ');
+  out = out.replace(/\\cdot/g, ' · ');
+  out = out.replace(/\\partial/g, '∂');
+  out = out.replace(/\\sum/g, '∑');
+  out = out.replace(/\\prod/g, '∏');
+  out = out.replace(/\\nabla/g, '∇');
+  out = out.replace(/\\propto/g, ' ∝ ');
+
+  // 4. LaTeX spacing commands
+  out = out.replace(/\\[,;:!]/g, ' ');
+  out = out.replace(/\\qquad/g, '   ');
+  out = out.replace(/\\quad/g, '  ');
+
+  // 5. Square Root formatting: \sqrt{...}, sqrt(...), sqrt(...)
   out = out.replace(/\\sqrt\{([^}]+)\}/gi, '√($1)');
   out = out.replace(/\\sqrt\[([0-9]+)\]\{([^}]+)\}/gi, '$1√($2)');
   out = out.replace(/\bsqrt\s*\(([^)]+)\)/gi, '√($1)');
   out = out.replace(/\bsqrt\s*([a-zA-Z0-9]+)/gi, '√$1');
 
-  // 3. Superscripts with care: ^(-?[0-9a-zA-Z]+) or ^{...}
+  // 6. Subscripts: _{V_1}, _{2}, _1, _x
+  out = out.replace(/_\{([^}]+)\}/g, (_, p1) => toSubscript(p1.replace(/_/g, '')));
+  out = out.replace(/_([0-9a-zA-Z\+\-]+)(?=[^0-9a-zA-Z\+\-]|$)/g, (_, p1) => toSubscript(p1));
+
+  // 7. Superscripts with care: ^(-?[0-9a-zA-Z]+) or ^{...}
   out = out.replace(/\^\{([^}]+)\}/g, (_, p1) => toSuperscript(p1));
   out = out.replace(/\^\(([^)]+)\)/g, (_, p1) => toSuperscript(p1));
   // 10^-3 or x^2 or m/s^2 or 10^8

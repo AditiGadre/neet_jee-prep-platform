@@ -378,25 +378,65 @@ function formatExplanationParagraphs(explanation: string): string {
   if (!explanation) return '<p>Refer to standard NCERT textbook concept and derivation.</p>';
   const clean = formatMathAndFormulas(cleanOcrText(explanation));
   
-  const rawSegments = clean
-    .split(/(?<=[.!?])\s+|;\s*|(?=\bStep\s*\d+:|\bConcept:|\bHence,|\bTherefore,|\bFormula:|\bApply:)/i)
-    .map(s => s.trim())
-    .filter(s => s.length > 0 && !s.toLowerCase().startsWith('refer q') && !s.toLowerCase().startsWith('hint:'));
+  // Check if explanation has structured markdown sections
+  const tokens = clean.split(/(?=###|\b(?:📘|⚡|✓|💡)\s*\*\*)/i);
+  if (tokens.length > 1) {
+    return tokens.map(token => {
+      const trimmed = token.trim();
+      if (!trimmed) return '';
+      const lower = trimmed.toLowerCase();
+      let header = '';
+      let bg = '#f8fafc';
+      let border = '#e2e8f0';
+      let color = '#334155';
 
-  let lines = rawSegments;
-  if (lines.length === 1 && lines[0].length > 70) {
-    const sub = lines[0]
-      .split(/,\s*(?=(?:and|where|which|due to|as|thus|hence|with|by)\b)/i)
-      .map(s => s.trim())
-      .filter(s => s.length > 0);
-    if (sub.length > 1) {
-      lines = sub;
-    }
+      if (lower.includes('concept') || lower.includes('ncert') || lower.includes('theory')) {
+        header = '📘 NCERT Fundamental Concept';
+        bg = '#eff6ff'; border = '#bfdbfe'; color = '#1e3a8a';
+      } else if (lower.includes('derivation') || lower.includes('calculation') || lower.includes('step')) {
+        header = '⚡ Step-by-Step Derivation & Calculations';
+        bg = '#fffbeb'; border = '#fde68a'; color = '#78350f';
+      } else if (lower.includes('tip') || lower.includes('principle') || lower.includes('examiner') || lower.includes('takeaway')) {
+        header = '💡 Examiner Pro-Tip & Key Takeaway';
+        bg = '#ecfdf5'; border = '#a7f3d0'; color = '#065f46';
+      }
+
+      let body = trimmed
+        .replace(/^###\s*(?:📘|⚡|✓|💡)?\s*[^\n\r]+/i, '')
+        .replace(/^(?:📘|⚡|✓|💡)\s*\*\*[^*]+\*\*\s*:?/i, '')
+        .replace(/^\*\*[^*]+\*\*\s*:?/i, '')
+        .trim();
+
+      const lines = body.split(/\r?\n+/).map(l => l.trim()).filter(l => l.length > 0);
+
+      let contentHtml = '';
+      if (header.includes('Derivation')) {
+        const subLines: string[] = [];
+        for (const l of lines) {
+          const subs = l.split(/(?<=[^\s=+\-*/(])\s+(?=[A-Za-z]\s*=\s*|Step\s*\d+:|\bHence,|\bTherefore,|\bFormula:|\bApply:|\bNow,|\bThus)/);
+          subLines.push(...subs);
+        }
+        contentHtml = subLines.map((l, idx) => `
+          <div style="margin: 3px 0; font-family: monospace; font-size: 10px; color: #0f172a;">
+            <span style="font-weight: 700; color: #b45309; min-width: 44px; display: inline-block;">Step ${idx + 1}:</span> ${l}
+          </div>
+        `).join('');
+      } else {
+        contentHtml = lines.map(l => `<p style="margin: 2px 0; font-size: 10px; line-height: 1.4; color: #1e293b;">${l}</p>`).join('');
+      }
+
+      return `
+        <div style="margin-top: 6px; padding: 6px 10px; background: ${bg}; border: 1px solid ${border}; border-radius: 6px;">
+          ${header ? `<div style="font-weight: 800; font-size: 10px; color: ${color}; margin-bottom: 3px;">${header}</div>` : ''}
+          ${contentHtml}
+        </div>
+      `;
+    }).join('');
   }
 
-  return lines
-    .map(line => `<p style="margin: 4px 0; color: #1e293b; font-size: 11px; line-height: 1.5;">${line.endsWith('.') || line.endsWith(';') || line.endsWith(':') ? line : line + '.'}</p>`)
-    .join('');
+  // Fallback for simple explanations
+  const lines = clean.split(/\r?\n+/).map(l => l.trim()).filter(l => l.length > 0);
+  return lines.map(l => `<p style="margin: 3px 0; color: #1e293b; font-size: 10px; line-height: 1.4;">${l}</p>`).join('');
 }
 
 /**
@@ -519,16 +559,76 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   const parentEmail = result.parentEmail || 'parent.gadre@example.com';
   const parentPhone = result.parentPhone || '+91 9876543211';
   const dateStr = result.dateStr || new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
-  const prevScore = result.previousScore || Math.max(480, result.score - 21);
-  const changeScore = result.changeFromPrevious !== undefined ? result.changeFromPrevious : (result.score - prevScore);
-  const batchRankStr = result.batchRank ? `${result.batchRank.rank} / ${result.batchRank.total}` : '3 / 180';
-  const cityRankStr = result.cityRank ? `${result.cityRank.rank} / ${result.cityRank.total}` : '29 / 4,200';
+  
+  // Retrieve candidate's authentic test history from localStorage
+  let pastCompletedTests: any[] = [];
+  try {
+    const raw = typeof window !== 'undefined' ? localStorage.getItem('neet_completed_tests') : null;
+    if (raw) pastCompletedTests = JSON.parse(raw);
+  } catch {}
+
+  const previousExam = pastCompletedTests.find((t: any) => t.testId !== result.testId && t.dateStr !== dateStr);
+  const prevPhy = previousExam?.subjectBreakdown?.find((s: any) => s.subject === 'Physics')?.score;
+  const prevChem = previousExam?.subjectBreakdown?.find((s: any) => s.subject === 'Chemistry')?.score;
+  const prevBot = previousExam?.subjectBreakdown?.find((s: any) => s.subject === 'Botany')?.score;
+  const prevZoo = previousExam?.subjectBreakdown?.find((s: any) => s.subject === 'Zoology')?.score;
+  const prevScore = previousExam?.score ?? (result.previousScore ?? null);
+  const changeScore = prevScore !== null ? (result.score - prevScore) : null;
+  const batchRankStr = result.batchRank && result.batchRank.rank > 0 ? `${result.batchRank.rank} / ${result.batchRank.total}` : 'Unranked';
+  const cityRankStr = result.cityRank && result.cityRank.rank > 0 ? `${result.cityRank.rank} / ${result.cityRank.total}` : 'Unranked';
 
   const totalPossibleMarks = result.totalMarks || 720;
-  const phy = result.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 148;
-  const chem = result.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 149;
-  const bot = result.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 168;
-  const zoo = result.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 151;
+  const phy = result.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 0;
+  const chem = result.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 0;
+  const bot = result.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 0;
+  const zoo = result.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
+
+  // Build authentic multi-exam history
+  const pastPdfRows = pastCompletedTests
+    .filter((t: any) => t.testId !== result.testId && t.dateStr !== dateStr)
+    .map((t: any) => ({
+      code: t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle?.slice(0, 14) || 'TEST'),
+      date: t.dateStr || 'Past Exam',
+      phy: t.subjectBreakdown?.find((s: any) => s.subject === 'Physics')?.score ?? 0,
+      chem: t.subjectBreakdown?.find((s: any) => s.subject === 'Chemistry')?.score ?? 0,
+      bot: t.subjectBreakdown?.find((s: any) => s.subject === 'Botany')?.score ?? 0,
+      zoo: t.subjectBreakdown?.find((s: any) => s.subject === 'Zoology')?.score ?? 0,
+      total: t.score ?? 0,
+      rank: t.batchRank?.rank && t.batchRank.rank > 0 ? `${t.batchRank.rank} / ${t.batchRank.total || 180}` : '—',
+      air: t.score > 0 && t.predictedAIR ? `#${t.predictedAIR.toLocaleString()}` : '—',
+      acc: `${t.accuracyPercentage ?? 0}%`,
+      isCurrent: false
+    }));
+
+  const currentPdfRow = {
+    code: result.testTitle?.includes(':') ? result.testTitle.split(':')[0].trim() : (result.testTitle?.length > 15 ? result.testTitle.slice(0, 15) + '...' : result.testTitle || 'Current Exam'),
+    date: dateStr,
+    phy,
+    chem,
+    bot,
+    zoo,
+    total: result.score,
+    rank: batchRankStr,
+    air: result.score > 0 && result.predictedAIR ? `#${result.predictedAIR.toLocaleString()}` : '—',
+    acc: `${result.accuracyPercentage}%`,
+    isCurrent: true
+  };
+
+  const allPdfExams = [...pastPdfRows, currentPdfRow];
+  const numExams = allPdfExams.length;
+  const pdfPhyList = allPdfExams.map(e => e.phy);
+  const pdfChemList = allPdfExams.map(e => e.chem);
+  const pdfBotList = allPdfExams.map(e => e.bot);
+  const pdfZooList = allPdfExams.map(e => e.zoo);
+  const pdfTotalList = allPdfExams.map(e => e.total);
+
+  const calcAvg = (arr: number[]) => (arr.reduce((a, b) => a + b, 0) / arr.length).toFixed(1);
+  const calcBest = (arr: number[]) => Math.max(...arr);
+  const calcGain = (arr: number[]) => {
+    if (arr.length <= 1) return 'Baseline';
+    const diff = arr[arr.length - 1] - arr[0];
+    return diff >= 0 ? `+${diff}M Net` : `${diff}M Net`;
+  };
 
   const htmlBody = `
     <!-- PAGE 1: HEADER & SECTION 1 -->
@@ -546,7 +646,7 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
           </p>
         </div>
         <div style="text-align: right; font-size: 11px; font-family: monospace; color: #334155;">
-          <div><strong>Exam Code:</strong> ${result.testTitle.split(':')[0] || 'CWT-06'}</div>
+          <div><strong>Exam Code:</strong> ${result.testTitle.split(':')[0] || 'NEET CBT'}</div>
           <div><strong>Date:</strong> ${dateStr}</div>
           <div style="color: #16a34a; font-weight: 700;">Standard 720-Marks NTA Scheme</div>
         </div>
@@ -570,14 +670,14 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
 
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px;">
           <div style="font-size: 9px; font-weight: 700; color: #64748b; text-transform: uppercase;">Previous Score</div>
-          <div style="font-size: 18px; font-weight: 900; color: #334155; font-family: monospace;">${prevScore} / ${totalPossibleMarks}</div>
-          <div style="font-size: 10px; color: #64748b;">Prior Baseline</div>
+          <div style="font-size: 18px; font-weight: 900; color: #334155; font-family: monospace;">${prevScore !== null ? `${prevScore} / ${totalPossibleMarks}` : '—'}</div>
+          <div style="font-size: 10px; color: #64748b;">${prevScore !== null ? 'Prior Benchmark' : 'Initial Attempt'}</div>
         </div>
 
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 10px;">
           <div style="font-size: 9px; font-weight: 700; color: #1e40af; text-transform: uppercase;">Net Change</div>
-          <div style="font-size: 18px; font-weight: 900; color: ${changeScore >= 0 ? '#16a34a' : '#dc2626'}; font-family: monospace;">
-            ${changeScore >= 0 ? '+' + changeScore : changeScore}
+          <div style="font-size: 18px; font-weight: 900; color: ${changeScore !== null ? (changeScore >= 0 ? '#16a34a' : '#dc2626') : '#2563eb'}; font-family: monospace;">
+            ${changeScore !== null ? (changeScore >= 0 ? '+' + changeScore : changeScore) : 'Baseline'}
           </div>
           <div style="font-size: 10px; color: #2563eb; font-weight: 700;">Growth Delta</div>
         </div>
@@ -596,8 +696,8 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
 
         <div style="background: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 10px;">
           <div style="font-size: 9px; font-weight: 700; color: #6b21a8; text-transform: uppercase;">Simulated AIR</div>
-          <div style="font-size: 18px; font-weight: 900; color: #7e22ce; font-family: monospace;">#${result.predictedAIR.toLocaleString()}</div>
-          <div style="font-size: 10px; color: #7e22ce; font-weight: 700;">${result.nationalPercentile}%ile</div>
+          <div style="font-size: 18px; font-weight: 900; color: #7e22ce; font-family: monospace;">${result.score > 0 && result.predictedAIR ? '#' + result.predictedAIR.toLocaleString() : 'N/A'}</div>
+          <div style="font-size: 10px; color: #7e22ce; font-weight: 700;">${result.score > 0 ? `${result.nationalPercentile}%ile` : 'Unranked'}</div>
         </div>
       </div>
     </div>
@@ -624,53 +724,83 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
           <tr style="border-bottom: 1px solid #f1f5f9;">
             <td style="padding: 8px; font-weight: bold; color: #1e293b; font-family: sans-serif;">Physics</td>
             <td style="padding: 8px; text-align: center;">180</td>
-            <td style="padding: 8px; text-align: center; color: #64748b;">138</td>
+            <td style="padding: 8px; text-align: center; color: #64748b;">${prevPhy !== undefined ? prevPhy : '—'}</td>
             <td style="padding: 8px; text-align: center; font-weight: bold; color: #0f172a;">${phy}</td>
-            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${phy - 138 >= 0 ? '#16a34a' : '#dc2626'};">${phy - 138 >= 0 ? '+' + (phy - 138) : (phy - 138)}</td>
+            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${prevPhy !== undefined ? (phy - prevPhy >= 0 ? '#16a34a' : '#dc2626') : '#64748b'};">
+              ${prevPhy !== undefined ? (phy - prevPhy >= 0 ? '+' + (phy - prevPhy) : (phy - prevPhy)) : 'Baseline'}
+            </td>
             <td style="padding: 8px; text-align: center;">${((phy / 180) * 100).toFixed(1)}%</td>
-            <td style="padding: 8px; text-align: center; font-family: sans-serif;"><span style="background: #dcfce7; color: #166534; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;">Strong (>80%)</span></td>
+            <td style="padding: 8px; text-align: center; font-family: sans-serif;">
+              <span style="background: ${phy >= 140 ? '#dcfce7' : '#fef3c7'}; color: ${phy >= 140 ? '#166534' : '#92400e'}; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;">
+                ${phy >= 140 ? 'Strong (>75%)' : phy >= 100 ? 'Moderate' : 'Needs Review'}
+              </span>
+            </td>
           </tr>
           <tr style="border-bottom: 1px solid #f1f5f9;">
             <td style="padding: 8px; font-weight: bold; color: #1e293b; font-family: sans-serif;">Chemistry</td>
             <td style="padding: 8px; text-align: center;">180</td>
-            <td style="padding: 8px; text-align: center; color: #64748b;">142</td>
+            <td style="padding: 8px; text-align: center; color: #64748b;">${prevChem !== undefined ? prevChem : '—'}</td>
             <td style="padding: 8px; text-align: center; font-weight: bold; color: #0f172a;">${chem}</td>
-            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${chem - 142 >= 0 ? '#16a34a' : '#dc2626'};">${chem - 142 >= 0 ? '+' + (chem - 142) : (chem - 142)}</td>
+            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${prevChem !== undefined ? (chem - prevChem >= 0 ? '#16a34a' : '#dc2626') : '#64748b'};">
+              ${prevChem !== undefined ? (chem - prevChem >= 0 ? '+' + (chem - prevChem) : (chem - prevChem)) : 'Baseline'}
+            </td>
             <td style="padding: 8px; text-align: center;">${((chem / 180) * 100).toFixed(1)}%</td>
-            <td style="padding: 8px; text-align: center; font-family: sans-serif;"><span style="background: #dcfce7; color: #166534; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;">Steady & High</span></td>
+            <td style="padding: 8px; text-align: center; font-family: sans-serif;">
+              <span style="background: ${chem >= 140 ? '#dcfce7' : '#fef3c7'}; color: ${chem >= 140 ? '#166534' : '#92400e'}; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;">
+                ${chem >= 140 ? 'Steady & High' : chem >= 100 ? 'Moderate' : 'Needs Review'}
+              </span>
+            </td>
           </tr>
           <tr style="border-bottom: 1px solid #f1f5f9;">
             <td style="padding: 8px; font-weight: bold; color: #1e293b; font-family: sans-serif;">Botany</td>
             <td style="padding: 8px; text-align: center;">180</td>
-            <td style="padding: 8px; text-align: center; color: #64748b;">160</td>
+            <td style="padding: 8px; text-align: center; color: #64748b;">${prevBot !== undefined ? prevBot : '—'}</td>
             <td style="padding: 8px; text-align: center; font-weight: bold; color: #0f172a;">${bot}</td>
-            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${bot - 160 >= 0 ? '#16a34a' : '#dc2626'};">${bot - 160 >= 0 ? '+' + (bot - 160) : (bot - 160)}</td>
+            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${prevBot !== undefined ? (bot - prevBot >= 0 ? '#16a34a' : '#dc2626') : '#64748b'};">
+              ${prevBot !== undefined ? (bot - prevBot >= 0 ? '+' + (bot - prevBot) : (bot - prevBot)) : 'Baseline'}
+            </td>
             <td style="padding: 8px; text-align: center;">${((bot / 180) * 100).toFixed(1)}%</td>
-            <td style="padding: 8px; text-align: center; font-family: sans-serif;"><span style="background: #dbeafe; color: #1e40af; font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 4px;">Exceptional (>90%)</span></td>
+            <td style="padding: 8px; text-align: center; font-family: sans-serif;">
+              <span style="background: ${bot >= 155 ? '#dbeafe' : '#dcfce7'}; color: ${bot >= 155 ? '#1e40af' : '#166534'}; font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 4px;">
+                ${bot >= 155 ? 'Exceptional (>85%)' : 'Good Standing'}
+              </span>
+            </td>
           </tr>
           <tr style="border-bottom: 1px solid #f1f5f9;">
             <td style="padding: 8px; font-weight: bold; color: #1e293b; font-family: sans-serif;">Zoology</td>
             <td style="padding: 8px; text-align: center;">180</td>
-            <td style="padding: 8px; text-align: center; color: #64748b;">155</td>
+            <td style="padding: 8px; text-align: center; color: #64748b;">${prevZoo !== undefined ? prevZoo : '—'}</td>
             <td style="padding: 8px; text-align: center; font-weight: bold; color: #0f172a;">${zoo}</td>
-            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${zoo - 155 >= 0 ? '#16a34a' : '#dc2626'};">${zoo - 155 >= 0 ? '+' + (zoo - 155) : (zoo - 155)}</td>
+            <td style="padding: 8px; text-align: center; font-weight: bold; color: ${prevZoo !== undefined ? (zoo - prevZoo >= 0 ? '#16a34a' : '#dc2626') : '#64748b'};">
+              ${prevZoo !== undefined ? (zoo - prevZoo >= 0 ? '+' + (zoo - prevZoo) : (zoo - prevZoo)) : 'Baseline'}
+            </td>
             <td style="padding: 8px; text-align: center;">${((zoo / 180) * 100).toFixed(1)}%</td>
-            <td style="padding: 8px; text-align: center; font-family: sans-serif;"><span style="background: #dcfce7; color: #166534; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;">High Accuracy</span></td>
+            <td style="padding: 8px; text-align: center; font-family: sans-serif;">
+              <span style="background: ${zoo >= 150 ? '#dcfce7' : '#fef3c7'}; color: ${zoo >= 150 ? '#166534' : '#92400e'}; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;">
+                ${zoo >= 150 ? 'High Accuracy' : 'Moderate'}
+              </span>
+            </td>
           </tr>
           <tr style="background: #eff6ff; border-top: 2px solid #3b82f6; font-weight: 900;">
             <td style="padding: 10px 8px; color: #1e3a8a; font-size: 12px; font-family: sans-serif;">Overall Total</td>
             <td style="padding: 10px 8px; text-align: center; color: #1e3a8a;">720</td>
-            <td style="padding: 10px 8px; text-align: center; color: #64748b;">${prevScore}</td>
+            <td style="padding: 10px 8px; text-align: center; color: #64748b;">${prevScore !== null ? prevScore : '—'}</td>
             <td style="padding: 10px 8px; text-align: center; color: #166534; font-size: 13px;">${result.score}</td>
-            <td style="padding: 10px 8px; text-align: center; color: #16a34a; font-size: 12px;">${changeScore >= 0 ? '+' + changeScore : changeScore}</td>
+            <td style="padding: 10px 8px; text-align: center; color: ${changeScore !== null ? (changeScore >= 0 ? '#16a34a' : '#dc2626') : '#2563eb'}; font-size: 12px;">
+              ${changeScore !== null ? (changeScore >= 0 ? '+' + changeScore : changeScore) : 'Baseline'}
+            </td>
             <td style="padding: 10px 8px; text-align: center; color: #1e40af;">${((result.score / totalPossibleMarks) * 100).toFixed(1)}%</td>
-            <td style="padding: 10px 8px; text-align: center; font-family: sans-serif;"><span style="background: #16a34a; color: #ffffff; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 4px;">Top Tier GMC Safe Zone</span></td>
+            <td style="padding: 10px 8px; text-align: center; font-family: sans-serif;">
+              <span style="background: ${result.score >= 600 ? '#16a34a' : '#2563eb'}; color: #ffffff; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 4px;">
+                ${result.score >= 650 ? 'Top Tier GMC Safe' : result.score >= 550 ? 'Competitive Range' : 'Foundation Level'}
+              </span>
+            </td>
           </tr>
         </tbody>
       </table>
 
       <div style="background: #f8fafc; border-left: 3px solid #2563eb; padding: 8px 12px; font-size: 11px; color: #475569; line-height: 1.5;">
-        <strong style="color: #1e3a8a;">Academic Performance Interpretation:</strong> Candidate registered positive growth (+${changeScore} Marks). Biology performance remains extraordinarily high (319/360, 88.6%), which anchors rank security. Continued targeted drill in Physics numerical problem-solving and Chemistry physical equilibrium will ensure 650+ breach for Apex AIIMS allotment.
+        <strong style="color: #1e3a8a;">Academic Performance Interpretation:</strong> Candidate achieved ${result.score}/720 with ${result.accuracyPercentage}% accuracy. Biology aggregate (${bot + zoo}/360) provides core foundation. Sustained practice in Physics and Chemistry high-weightage topics will strengthen rank progression.
       </div>
     </div>
 
@@ -681,25 +811,52 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
       </h2>
 
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
-        <!-- Chart 1: Line chart SVG -->
+        <!-- Chart 1: Progression / Target SVG -->
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;">
-          <div style="font-size: 11px; font-weight: 700; color: #334155; margin-bottom: 8px;">Overall Score Progression (CWT-01 to CWT-06)</div>
-          <svg viewBox="0 0 380 150" style="width: 100%; height: 130px;" xmlns="http://www.w3.org/2000/svg">
-            <line x1="30" y1="20" x2="360" y2="20" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2" />
-            <line x1="30" y1="45" x2="360" y2="45" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,3" />
-            <text x="362" y="48" font-size="8" fill="#ef4444" font-weight="bold">650 GMC</text>
-            <line x1="30" y1="80" x2="360" y2="80" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2" />
-            <line x1="30" y1="115" x2="360" y2="115" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2" />
+          <div style="font-size: 11px; font-weight: 700; color: #334155; margin-bottom: 8px;">
+            ${numExams > 1 ? `Overall Score Progression (${numExams} Assessments)` : 'Score Target & Milestone Tracker'}
+          </div>
+          ${numExams > 1 ? `
+            <svg viewBox="0 0 380 150" style="width: 100%; height: 130px;" xmlns="http://www.w3.org/2000/svg">
+              <line x1="30" y1="20" x2="360" y2="20" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2" />
+              <line x1="30" y1="45" x2="360" y2="45" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,3" />
+              <text x="362" y="48" font-size="8" fill="#ef4444" font-weight="bold">650 GMC</text>
+              <line x1="30" y1="80" x2="360" y2="80" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2" />
+              <line x1="30" y1="115" x2="360" y2="115" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2" />
 
-            <polyline points="50,110 110,95 170,82 230,72 290,66 350,60" fill="none" stroke="#2563eb" stroke-width="2.5" />
-            
-            <circle cx="50" cy="110" r="3.5" fill="#2563eb" /><text x="50" y="103" font-size="8" fill="#1e293b" text-anchor="middle" font-family="monospace">540</text><text x="50" y="132" font-size="7" fill="#64748b" text-anchor="middle">CWT-01</text>
-            <circle cx="110" cy="95" r="3.5" fill="#2563eb" /><text x="110" y="88" font-size="8" fill="#1e293b" text-anchor="middle" font-family="monospace">565</text><text x="110" y="132" font-size="7" fill="#64748b" text-anchor="middle">CWT-02</text>
-            <circle cx="170" cy="82" r="3.5" fill="#2563eb" /><text x="170" y="75" font-size="8" fill="#1e293b" text-anchor="middle" font-family="monospace">584</text><text x="170" y="132" font-size="7" fill="#64748b" text-anchor="middle">CWT-03</text>
-            <circle cx="230" cy="72" r="3.5" fill="#2563eb" /><text x="230" y="65" font-size="8" fill="#1e293b" text-anchor="middle" font-family="monospace">598</text><text x="230" y="132" font-size="7" fill="#64748b" text-anchor="middle">CWT-04</text>
-            <circle cx="290" cy="66" r="3.5" fill="#2563eb" /><text x="290" y="59" font-size="8" fill="#1e293b" text-anchor="middle" font-family="monospace">608</text><text x="290" y="132" font-size="7" fill="#64748b" text-anchor="middle">CWT-05</text>
-            <circle cx="350" cy="60" r="4.5" fill="#16a34a" /><text x="350" y="52" font-size="9" font-weight="bold" fill="#166534" text-anchor="middle" font-family="monospace">${result.score}</text><text x="350" y="132" font-size="7" font-weight="bold" fill="#166534" text-anchor="middle">CWT-06</text>
-          </svg>
+              <polyline
+                points="${allPdfExams.map((e, idx) => {
+                  const x = 50 + (idx / Math.max(1, numExams - 1)) * 300;
+                  const y = Math.max(20, Math.min(125, 125 - (e.total / 720) * 105));
+                  return `${x},${y}`;
+                }).join(' ')}"
+                fill="none"
+                stroke="#2563eb"
+                stroke-width="2.5"
+              />
+              ${allPdfExams.map((e, idx) => {
+                const x = 50 + (idx / Math.max(1, numExams - 1)) * 300;
+                const y = Math.max(20, Math.min(125, 125 - (e.total / 720) * 105));
+                const isCur = idx === numExams - 1;
+                return `
+                  <circle cx="${x}" cy="${y}" r="${isCur ? 4.5 : 3.5}" fill="${isCur ? '#16a34a' : '#2563eb'}" />
+                  <text x="${x}" y="${y - 6}" font-size="${isCur ? 9 : 8}" fill="${isCur ? '#166534' : '#1e293b'}" text-anchor="middle" font-family="monospace" font-weight="${isCur ? 'bold' : 'normal'}">${e.total}</text>
+                  <text x="${x}" y="140" font-size="7" fill="${isCur ? '#166534' : '#64748b'}" text-anchor="middle" font-weight="${isCur ? 'bold' : 'normal'}">${e.code}</text>
+                `;
+              }).join('')}
+            </svg>
+          ` : `
+            <svg viewBox="0 0 380 150" style="width: 100%; height: 130px;" xmlns="http://www.w3.org/2000/svg">
+              <rect x="30" y="45" width="320" height="18" rx="9" fill="#e2e8f0" />
+              <rect x="30" y="45" width="${Math.min(320, Math.max(8, (result.score / 720) * 320))}" height="18" rx="9" fill="${result.score >= 650 ? '#16a34a' : result.score >= 500 ? '#2563eb' : '#d97706'}" />
+              <line x1="${30 + (650 / 720) * 320}" y1="35" x2="${30 + (650 / 720) * 320}" y2="75" stroke="#ef4444" stroke-width="2" stroke-dasharray="3,2" />
+              <text x="${30 + (650 / 720) * 320}" y="30" font-size="8" fill="#ef4444" font-weight="bold" text-anchor="middle">650 GMC Target</text>
+              <text x="30" y="80" font-size="8" fill="#64748b">0</text>
+              <text x="${30 + Math.min(320, (result.score / 720) * 320)}" y="80" font-size="9" font-weight="bold" fill="#0f172a" text-anchor="middle">${result.score} Marks</text>
+              <text x="350" y="80" font-size="8" fill="#64748b" text-anchor="end">720 Max</text>
+              <text x="190" y="115" font-size="10" fill="#334155" text-anchor="middle" font-weight="bold">Achieved ${((result.score / 720) * 100).toFixed(1)}% of Target Maximum</text>
+            </svg>
+          `}
         </div>
 
         <!-- Chart 2: Bar chart SVG -->
@@ -758,12 +915,20 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
           </tr>
         </thead>
         <tbody style="font-family: monospace;">
-          <tr style="border-bottom: 1px solid #f1f5f9;"><td>CWT-01</td><td>27 Jul 2025</td><td style="text-align: center;">125</td><td style="text-align: center;">130</td><td style="text-align: center;">145</td><td style="text-align: center;">140</td><td style="text-align: center; font-weight: bold;">540</td><td style="text-align: center;">18 / 180</td><td style="text-align: center;">24,120</td><td style="text-align: center;">76%</td></tr>
-          <tr style="border-bottom: 1px solid #f1f5f9;"><td>CWT-02</td><td>10 Aug 2025</td><td style="text-align: center;">132</td><td style="text-align: center;">136</td><td style="text-align: center;">152</td><td style="text-align: center;">145</td><td style="text-align: center; font-weight: bold;">565</td><td style="text-align: center;">12 / 180</td><td style="text-align: center;">16,400</td><td style="text-align: center;">79%</td></tr>
-          <tr style="border-bottom: 1px solid #f1f5f9;"><td>CWT-03</td><td>24 Aug 2025</td><td style="text-align: center;">138</td><td style="text-align: center;">140</td><td style="text-align: center;">158</td><td style="text-align: center;">148</td><td style="text-align: center; font-weight: bold;">584</td><td style="text-align: center;">8 / 180</td><td style="text-align: center;">11,200</td><td style="text-align: center;">82%</td></tr>
-          <tr style="border-bottom: 1px solid #f1f5f9;"><td>CWT-04</td><td>07 Sep 2025</td><td style="text-align: center;">142</td><td style="text-align: center;">144</td><td style="text-align: center;">162</td><td style="text-align: center;">150</td><td style="text-align: center; font-weight: bold;">598</td><td style="text-align: center;">6 / 180</td><td style="text-align: center;">8,900</td><td style="text-align: center;">84%</td></tr>
-          <tr style="border-bottom: 1px solid #f1f5f9;"><td>CWT-05</td><td>21 Sep 2025</td><td style="text-align: center;">145</td><td style="text-align: center;">146</td><td style="text-align: center;">165</td><td style="text-align: center;">152</td><td style="text-align: center; font-weight: bold;">608</td><td style="text-align: center;">4 / 180</td><td style="text-align: center;">7,450</td><td style="text-align: center;">85%</td></tr>
-          <tr style="background: #eff6ff; font-weight: 800; border-top: 2px solid #3b82f6;"><td>CWT-06 (Cur)</td><td>${dateStr}</td><td style="text-align: center;">${phy}</td><td style="text-align: center;">${chem}</td><td style="text-align: center;">${bot}</td><td style="text-align: center;">${zoo}</td><td style="text-align: center; color: #166534; font-size: 11px;">${result.score}</td><td style="text-align: center;">${batchRankStr}</td><td style="text-align: center; color: #1e40af;">#${result.predictedAIR.toLocaleString()}</td><td style="text-align: center;">${result.accuracyPercentage}%</td></tr>
+          ${allPdfExams.map((row) => `
+            <tr style="${row.isCurrent ? 'background: #eff6ff; font-weight: 800; border-top: 2px solid #3b82f6;' : 'border-bottom: 1px solid #f1f5f9;'}">
+              <td style="padding: 6px 8px; font-weight: bold; font-family: sans-serif;">${row.code} ${row.isCurrent ? '<span style="background:#2563eb; color:#fff; font-size:8px; padding:1px 4px; border-radius:3px; margin-left:4px;">CUR</span>' : ''}</td>
+              <td style="padding: 6px 8px;">${row.date}</td>
+              <td style="padding: 6px 8px; text-align: center;">${row.phy}</td>
+              <td style="padding: 6px 8px; text-align: center;">${row.chem}</td>
+              <td style="padding: 6px 8px; text-align: center;">${row.bot}</td>
+              <td style="padding: 6px 8px; text-align: center;">${row.zoo}</td>
+              <td style="padding: 6px 8px; text-align: center; color: ${row.isCurrent ? '#166534' : '#0f172a'}; font-size: 11px; font-weight: bold;">${row.total}</td>
+              <td style="padding: 6px 8px; text-align: center;">${row.rank}</td>
+              <td style="padding: 6px 8px; text-align: center; color: #1e40af;">${row.air}</td>
+              <td style="padding: 6px 8px; text-align: center;">${row.acc}</td>
+            </tr>
+          `).join('')}
         </tbody>
       </table>
 
@@ -771,28 +936,28 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
       <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; text-align: center; font-size: 10px;">
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px;">
           <strong style="color: #475569; display: block;">Physics (Avg/Best)</strong>
-          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">138.3 / 148</div>
-          <span style="color: #16a34a; font-weight: 700;">+23M Net</span>
+          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">${calcAvg(pdfPhyList)} / ${calcBest(pdfPhyList)}</div>
+          <span style="color: #16a34a; font-weight: 700;">${calcGain(pdfPhyList)}</span>
         </div>
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px;">
           <strong style="color: #475569; display: block;">Chem (Avg/Best)</strong>
-          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">141.2 / 149</div>
-          <span style="color: #16a34a; font-weight: 700;">+19M Net</span>
+          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">${calcAvg(pdfChemList)} / ${calcBest(pdfChemList)}</div>
+          <span style="color: #16a34a; font-weight: 700;">${calcGain(pdfChemList)}</span>
         </div>
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px;">
           <strong style="color: #475569; display: block;">Botany (Avg/Best)</strong>
-          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">158.3 / 168</div>
-          <span style="color: #16a34a; font-weight: 700;">+23M Net</span>
+          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">${calcAvg(pdfBotList)} / ${calcBest(pdfBotList)}</div>
+          <span style="color: #16a34a; font-weight: 700;">${calcGain(pdfBotList)}</span>
         </div>
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px;">
           <strong style="color: #475569; display: block;">Zoology (Avg/Best)</strong>
-          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">149.3 / 152</div>
-          <span style="color: #16a34a; font-weight: 700;">+11M Net</span>
+          <div style="font-size: 12px; font-weight: 800; color: #0f172a; font-family: monospace;">${calcAvg(pdfZooList)} / ${calcBest(pdfZooList)}</div>
+          <span style="color: #16a34a; font-weight: 700;">${calcGain(pdfZooList)}</span>
         </div>
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 6px; padding: 6px;">
           <strong style="color: #166534; display: block;">Overall Average</strong>
-          <div style="font-size: 12px; font-weight: 800; color: #15803d; font-family: monospace;">585.1 / 720</div>
-          <span style="color: #16a34a; font-weight: 800;">+76M Journey</span>
+          <div style="font-size: 12px; font-weight: 800; color: #15803d; font-family: monospace;">${calcAvg(pdfTotalList)} / 720</div>
+          <span style="color: #16a34a; font-weight: 800;">${numExams > 1 ? calcGain(pdfTotalList) + ' (' + numExams + ' Exams)' : 'Initial Assessment'}</span>
         </div>
       </div>
     </div>

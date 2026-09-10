@@ -48,6 +48,7 @@ import { downloadTestPaperPDF, downloadTestScorecardPDF } from '../utils/pdfDown
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
 import { getUniqueDiagramForQuestion } from '../utils/diagramEngine';
 import { ErrorBoundary } from './ErrorBoundary';
+import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -623,58 +624,88 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
   const renderMultiLineExplanation = (q: Question | string) => {
     const rawExplanation = typeof q === 'string' ? q : q.explanation;
-    const cleanText = formatMathAndFormulas(cleanOcrText(rawExplanation));
-
-    // Split on sentence terminals (. ! ?), semicolons, or Step / Concept / Therefore markers
-    const rawSegments = cleanText
-      .replace(/\r?\n+/g, ' ')
-      .split(/(?<=[.!?])\s+|;\s*|(?=\bStep\s*\d+:|\bConcept:|\bHence,|\bTherefore,|\bFormula:|\bApply:)/i)
-      .map(s => s.trim())
-      .filter(s => s.length > 0 && !s.toLowerCase().startsWith('refer q') && !s.toLowerCase().startsWith('hint:'));
-
-    let lines = rawSegments;
-    if (lines.length === 1 && lines[0].length > 70) {
-      const sub = lines[0]
-        .split(/,\s*(?=(?:and|where|which|due to|as|thus|hence|with|by)\b)/i)
-        .map(s => s.trim())
-        .filter(s => s.length > 0);
-      if (sub.length > 1) {
-        lines = sub;
-      }
-    }
-
-    // Keep ONLY the explanation lines, 3-4 lines one after the other
-    return (
-      <div className="space-y-2 text-xs sm:text-sm text-slate-800 leading-relaxed font-sans">
-        {lines.map((line, idx) => (
-          <p key={idx} className="m-0 text-slate-800 leading-relaxed">
-            {line.endsWith('.') || line.endsWith(';') || line.endsWith(':') ? line : `${line}.`}
-          </p>
-        ))}
-      </div>
-    );
+    return <DetailedSolutionViewer explanation={rawExplanation} />;
   };
 
-  const longitudinalExamHistory = [
-    { code: 'CWT-01', date: '27 Jul 2025', phy: 125, chem: 130, bot: 145, zoo: 140, total: 540, rank: '18 / 180', cityRank: '142 / 4,200', air: '24,120', acc: 76 },
-    { code: 'CWT-02', date: '10 Aug 2025', phy: 132, chem: 136, bot: 152, zoo: 145, total: 565, rank: '12 / 180', cityRank: '98 / 4,200', air: '16,400', acc: 79 },
-    { code: 'CWT-03', date: '24 Aug 2025', phy: 138, chem: 140, bot: 158, zoo: 148, total: 584, rank: '8 / 180', cityRank: '64 / 4,200', air: '11,200', acc: 82 },
-    { code: 'CWT-04', date: '07 Sep 2025', phy: 142, chem: 144, bot: 162, zoo: 150, total: 598, rank: '6 / 180', cityRank: '46 / 4,200', air: '8,900', acc: 84 },
-    { code: 'CWT-05', date: '21 Sep 2025', phy: 145, chem: 146, bot: 165, zoo: 152, total: 608, rank: '4 / 180', cityRank: '35 / 4,200', air: '7,450', acc: 85 },
-    {
-      code: test.title.includes('CWT') ? test.title.split(':')[0] : 'CWT-06 (Current)',
-      date: new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }),
-      phy: testResult?.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 148,
-      chem: testResult?.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 149,
-      bot: testResult?.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 168,
-      zoo: testResult?.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 151,
-      total: testResult?.score ?? 616,
-      rank: `${testResult?.batchRank?.rank ?? 3} / 180`,
-      cityRank: `${testResult?.cityRank?.rank ?? 29} / 4,200`,
-      air: `${(testResult?.predictedAIR ?? 6840).toLocaleString()}`,
-      acc: testResult?.accuracyPercentage ?? 86
-    }
-  ];
+  const longitudinalExamHistory = useMemo(() => {
+    // Extract genuine past completed tests from localStorage (excluding current test session)
+    const pastRows = (prevTestHistory || [])
+      .filter(t => t.testId !== test.id && t.dateStr !== testResult?.dateStr)
+      .map(t => {
+        const phy = t.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 0;
+        const chem = t.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 0;
+        const bot = t.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 0;
+        const zoo = t.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
+        return {
+          code: t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle?.slice(0, 16) || 'TEST'),
+          date: t.dateStr || 'Past Exam',
+          phy,
+          chem,
+          bot,
+          zoo,
+          total: t.score ?? (phy + chem + bot + zoo),
+          rank: t.batchRank?.rank && t.batchRank.rank > 0 ? `${t.batchRank.rank} / ${t.batchRank.total || 180}` : '—',
+          cityRank: t.cityRank?.rank && t.cityRank.rank > 0 ? `${t.cityRank.rank} / ${t.cityRank.total || 4200}` : '—',
+          air: t.score > 0 && t.predictedAIR ? `${t.predictedAIR.toLocaleString()}` : '—',
+          acc: t.accuracyPercentage ?? 0,
+          isCurrent: false
+        };
+      });
+
+    const currentPhy = testResult?.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 0;
+    const currentChem = testResult?.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 0;
+    const currentBot = testResult?.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 0;
+    const currentZoo = testResult?.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
+    const currentTotal = testResult?.score ?? (currentPhy + currentChem + currentBot + currentZoo);
+
+    const currentRow = {
+      code: test.title?.includes(':') ? test.title.split(':')[0].trim() : (test.title?.length > 18 ? test.title.slice(0, 18) + '...' : test.title || 'Current Test'),
+      date: testResult?.dateStr || new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }),
+      phy: currentPhy,
+      chem: currentChem,
+      bot: currentBot,
+      zoo: currentZoo,
+      total: currentTotal,
+      rank: testResult?.batchRank?.rank && testResult.batchRank.rank > 0 ? `${testResult.batchRank.rank} / ${testResult.batchRank.total || 180}` : '—',
+      cityRank: testResult?.cityRank?.rank && testResult.cityRank.rank > 0 ? `${testResult.cityRank.rank} / ${testResult.cityRank.total || 4200}` : '—',
+      air: currentTotal > 0 && testResult?.predictedAIR ? `${testResult.predictedAIR.toLocaleString()}` : '—',
+      acc: testResult?.accuracyPercentage ?? 0,
+      isCurrent: true
+    };
+
+    return [...pastRows, currentRow];
+  }, [prevTestHistory, testResult, test]);
+
+  const longitudinalStats = useMemo(() => {
+    if (!longitudinalExamHistory || longitudinalExamHistory.length === 0) return null;
+    const n = longitudinalExamHistory.length;
+    const phyList = longitudinalExamHistory.map(r => r.phy);
+    const chemList = longitudinalExamHistory.map(r => r.chem);
+    const botList = longitudinalExamHistory.map(r => r.bot);
+    const zooList = longitudinalExamHistory.map(r => r.zoo);
+    const totalList = longitudinalExamHistory.map(r => r.total);
+
+    const avg = (arr: number[]) => (arr.reduce((a, b) => a + b, 0) / arr.length).toFixed(1);
+    const best = (arr: number[]) => Math.max(...arr);
+    const gainStr = (arr: number[]) => {
+      if (arr.length <= 1) return 'Baseline Assessment';
+      const diff = arr[arr.length - 1] - arr[0];
+      return diff >= 0 ? `+${diff}M Net Gain` : `${diff}M Net Diff`;
+    };
+
+    return {
+      totalExams: n,
+      phy: { avg: avg(phyList), best: best(phyList), gain: gainStr(phyList) },
+      chem: { avg: avg(chemList), best: best(chemList), gain: gainStr(chemList) },
+      bot: { avg: avg(botList), best: best(botList), gain: gainStr(botList) },
+      zoo: { avg: avg(zooList), best: best(zooList), gain: gainStr(zooList) },
+      overall: {
+        avg: avg(totalList),
+        best: best(totalList),
+        gain: n <= 1 ? 'Initial Test Baseline' : `${gainStr(totalList)} (${n} Tests)`
+      }
+    };
+  }, [longitudinalExamHistory]);
 
   const renderBasicReport = (result: UserTestResult) => {
     const totalQ = questions.length || 1;
@@ -1668,10 +1699,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     <div className="border-b border-slate-100 pb-2">
                       <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
                         <FileIcon className="w-5 h-5 text-purple-600" />
-                        <span>SECTION 4: Exam-by-Exam Longitudinal Statistical Record</span>
+                        <span>SECTION 4: Exam-by-Exam Statistical Record & History</span>
                       </h3>
                       <p className="text-xs text-slate-500">
-                        Multi-exam tracking table across all Cumulative Weekly Tests (CWTs).
+                        Candidate authentic test attempt history and chronological performance trajectory.
                       </p>
                     </div>
 
@@ -1696,9 +1727,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           {longitudinalExamHistory.map((row, rIdx) => (
                             <tr
                               key={rIdx}
-                              className={rIdx === longitudinalExamHistory.length - 1 ? 'bg-blue-50/80 font-bold border-t-2 border-blue-400' : 'hover:bg-slate-50'}
+                              className={row.isCurrent ? 'bg-blue-50/80 font-bold border-t-2 border-blue-400' : 'hover:bg-slate-50'}
                             >
-                              <td className="p-3 font-sans font-bold text-slate-900">{row.code}</td>
+                              <td className="p-3 font-sans font-bold text-slate-900 flex items-center gap-1.5">
+                                <span>{row.code}</span>
+                                {row.isCurrent && (
+                                  <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.2 rounded bg-blue-600 text-white">Current</span>
+                                )}
+                              </td>
                               <td className="p-3 text-slate-500">{row.date}</td>
                               <td className="p-3 text-center">{row.phy}</td>
                               <td className="p-3 text-center">{row.chem}</td>
@@ -1722,32 +1758,52 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
                         <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
                           <span className="text-[10px] text-slate-500 uppercase font-bold">Physics (Avg/Best)</span>
-                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">138.3 / 148</div>
-                          <span className="text-[10px] text-emerald-600 font-bold">+23M Net Gain</span>
+                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">
+                            {longitudinalStats?.phy.avg ?? 0} / {longitudinalStats?.phy.best ?? 0}
+                          </div>
+                          <span className="text-[10px] text-emerald-600 font-bold">
+                            {longitudinalStats?.phy.gain ?? '—'}
+                          </span>
                         </div>
 
                         <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
                           <span className="text-[10px] text-slate-500 uppercase font-bold">Chemistry (Avg/Best)</span>
-                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">141.2 / 149</div>
-                          <span className="text-[10px] text-emerald-600 font-bold">+19M Net Gain</span>
+                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">
+                            {longitudinalStats?.chem.avg ?? 0} / {longitudinalStats?.chem.best ?? 0}
+                          </div>
+                          <span className="text-[10px] text-emerald-600 font-bold">
+                            {longitudinalStats?.chem.gain ?? '—'}
+                          </span>
                         </div>
 
                         <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
                           <span className="text-[10px] text-slate-500 uppercase font-bold">Botany (Avg/Best)</span>
-                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">158.3 / 168</div>
-                          <span className="text-[10px] text-emerald-600 font-bold">+23M Net Gain</span>
+                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">
+                            {longitudinalStats?.bot.avg ?? 0} / {longitudinalStats?.bot.best ?? 0}
+                          </div>
+                          <span className="text-[10px] text-emerald-600 font-bold">
+                            {longitudinalStats?.bot.gain ?? '—'}
+                          </span>
                         </div>
 
                         <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
                           <span className="text-[10px] text-slate-500 uppercase font-bold">Zoology (Avg/Best)</span>
-                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">149.3 / 152</div>
-                          <span className="text-[10px] text-emerald-600 font-bold">+11M Net Gain</span>
+                          <div className="text-sm font-black text-slate-900 font-mono mt-0.5">
+                            {longitudinalStats?.zoo.avg ?? 0} / {longitudinalStats?.zoo.best ?? 0}
+                          </div>
+                          <span className="text-[10px] text-emerald-600 font-bold">
+                            {longitudinalStats?.zoo.gain ?? '—'}
+                          </span>
                         </div>
 
                         <div className="p-3.5 rounded-2xl bg-emerald-50 border border-emerald-200 text-center col-span-2 sm:col-span-1">
                           <span className="text-[10px] text-emerald-800 uppercase font-bold">Overall Average</span>
-                          <div className="text-sm font-black text-emerald-800 font-mono mt-0.5">585.1 / 720</div>
-                          <span className="text-[10px] text-emerald-700 font-bold">+76M Total Journey</span>
+                          <div className="text-sm font-black text-emerald-800 font-mono mt-0.5">
+                            {longitudinalStats?.overall.avg ?? testResult.score} / {testResult.totalMarks || 720}
+                          </div>
+                          <span className="text-[10px] text-emerald-700 font-bold">
+                            {longitudinalStats?.overall.gain ?? 'Initial Assessment'}
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -2148,8 +2204,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           ))}
                         </div>
 
-                        <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 mt-2">
-                          {renderMultiLineExplanation(q)}
+                        <div className="mt-3">
+                          <DetailedSolutionViewer
+                            explanation={q.explanation}
+                            correctAnswer={q.correctAnswer}
+                            options={q.options}
+                            showCorrectOptionHeader={false}
+                          />
                         </div>
                       </div>
                     );

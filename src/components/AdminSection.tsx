@@ -79,6 +79,7 @@ import {
 import { getSequentialLoopQuestions, resetLoopCursor } from '../utils/questionLoopManager';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
+import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 
 interface AdminSectionProps {
   onClose?: () => void;
@@ -1732,9 +1733,12 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
                           {/* Explanation */}
                           {q.explanation && (
-                            <div className="p-3 rounded-xl bg-blue-50/50 border border-blue-100 text-[11px] text-slate-600 leading-relaxed">
-                              <strong className="text-blue-900 block font-bold mb-0.5">Solution & Conceptual Reference:</strong>
-                              {q.explanation}
+                            <div className="mt-3">
+                              <DetailedSolutionViewer
+                                explanation={q.explanation}
+                                correctAnswer={q.correctAnswer}
+                                options={q.options}
+                              />
                             </div>
                           )}
                         </>
