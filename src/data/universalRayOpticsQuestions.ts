@@ -1527,6 +1527,306 @@ export const UNIVERSAL_SPHERICAL_MIRROR_QUESTIONS: Question[] = [
       "RPMT 1999",
       "Universal Self-Scorer"
     ]
+  },
+  {
+    "id": "univ-sm-q32",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Convex Mirror Image Location",
+    "difficulty": "Easy",
+    "questionText": "An object is placed at 20 cm from a convex mirror of focal length 10 cm. The image formed by the mirror is: [JIPMER 1999]",
+    "options": [
+      "Real and at 20 cm from the mirror",
+      "Virtual and at 20 cm from the mirror",
+      "Virtual and at 20/3 cm from the mirror",
+      "Real and at 20/3 cm from the mirror"
+    ],
+    "correctAnswer": 2,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nFor a convex mirror, focal length is positive (+f) and object distance is negative (-u). By mirror formula: 1/v = 1/f - 1/u.\n\n\u26a1 **Step-by-Step Derivation:**\n1. f = +10 cm, u = -20 cm.\n2. 1/v = 1/10 - (-1/20) = 1/10 + 1/20 = 3/20.\n3. v = +20/3 cm.\n4. Positive image distance denotes a **virtual image** formed behind the mirror at 20/3 cm.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nConvex mirrors always form virtual images for real objects: v = +20/3 cm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Convex Mirror",
+      "JIPMER 1999",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q33",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Differential Image Shift in Concave Mirror",
+    "difficulty": "Hard",
+    "questionText": "A point object is placed at a distance of 10 cm and its real image is formed at a distance of 20 cm from a concave mirror. If the object is moved by 0.1 cm towards the mirror, the image will shift by about: [MP PMT 2000]",
+    "options": [
+      "0.4 cm away from the mirror",
+      "0.4 cm towards the mirror",
+      "0.8 cm away from the mirror",
+      "0.8 cm towards the mirror"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nFrom differentiating the mirror formula 1/v + 1/u = 1/f:\n-dv/v\u00b2 - du/u\u00b2 = 0 \u27f9 dv = -(v/u)\u00b2 du = -m\u00b2 du.\nThe negative sign signifies that when the object moves toward the mirror (+du), the real image moves away from the mirror (-dv).\n\n\u26a1 **Step-by-Step Derivation:**\n1. u = -10 cm, v = -20 cm (real image).\n2. Longitudinal magnification factor:\n   m\u00b2 = (v/u)\u00b2 = (-20 / -10)\u00b2 = 2\u00b2 = 4.\n3. Given displacement of object: du = +0.1 cm (towards mirror).\n4. Shift of image:\n   dv = -m\u00b2 du = -4 \u00d7 0.1 cm = -0.4 cm.\n5. The image moves 0.4 cm away from the mirror.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\ndv = -m\u00b2 du. Always remember the minus sign: object moving towards mirror pushes real image away!",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "Differential Shift",
+      "MP PMT 2000",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q34",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Convex Mirror Image Invariance",
+    "difficulty": "Easy",
+    "questionText": "Under which of the following conditions will a convex mirror of focal length f produce an image that is erect, diminished and virtual? [AMU (Engg.) 2001]",
+    "options": [
+      "Only when 2f > u > f",
+      "Only when u = f",
+      "Only when u < f",
+      "Always"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nA convex mirror diverges incident rays for any real object position along the principal axis (from u = 0 to u = \u221e). The virtual image is ALWAYS formed between the pole and focus, and is always erect and diminished (m < 1).\n\n\u26a1 **Step-by-Step Derivation:**\n1. 1/v = 1/f + 1/|u| > 1/f \u27f9 0 < v < f for all real objects.\n2. Magnification m = +v/|u| < 1 (always positive and less than 1).\n3. Therefore, the image is **Always** erect, diminished, and virtual.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nNo special condition is required for a convex mirror; it produces an erect, diminished, virtual image for ALL real object positions.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Convex Mirror",
+      "AMU 2001",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q35",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Radius of Curvature Relation",
+    "difficulty": "Easy",
+    "questionText": "The focal length of a convex mirror is 20 cm. Its radius of curvature will be: [MP PMT 2001]",
+    "options": [
+      "10 cm",
+      "20 cm",
+      "30 cm",
+      "40 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nFor paraxial rays on a spherical mirror of radius of curvature R, the focal length is f = R / 2 \u27f9 R = 2f.\n\n\u26a1 **Step-by-Step Derivation:**\n1. Given focal length f = 20 cm.\n2. Radius of curvature R = 2 \u00d7 f = 2 \u00d7 20 cm = 40 cm.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nR = 2f = 40 cm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Radius of Curvature",
+      "MP PMT 2001",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q36",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Concave Mirror Virtual Image Magnification",
+    "difficulty": "Medium",
+    "questionText": "A concave mirror of focal length 15 cm forms an image having twice the linear dimensions of the object. The position of the object when the image is virtual will be:",
+    "options": [
+      "22.5 cm",
+      "7.5 cm",
+      "30 cm",
+      "45 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nWhen the image formed by a concave mirror is virtual, it is erect, so magnification is positive: m = +2.\n\n\u26a1 **Step-by-Step Derivation:**\n1. Concave mirror focal length f = -15 cm.\n2. Virtual image \u27f9 m = +2.\n3. Using magnification formula:\n   m = f / (f - u)\n   +2 = -15 / (-15 - u)\n4. Cross-multiplying:\n   -30 - 2u = -15\n   -2u = 15\n   u = -7.5 cm.\n5. The object is at a distance of 7.5 cm from the mirror.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nCheck: u = 7.5 cm < f = 15 cm, perfectly located between pole and focus!",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "Universal Self-Scorer",
+      "NEET 2027"
+    ]
+  },
+  {
+    "id": "univ-sm-q37",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Convex Mirror Image Distance",
+    "difficulty": "Easy",
+    "questionText": "A point object is placed at a distance of 30 cm from a convex mirror of focal length 30 cm. The image will form at: [JIPMER 2002]",
+    "options": [
+      "Infinity",
+      "Focus",
+      "Pole",
+      "15 cm behind the mirror"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nMirror formula: 1/v + 1/u = 1/f.\n\n\u26a1 **Step-by-Step Derivation:**\n1. Convex mirror: f = +30 cm.\n2. Real object: u = -30 cm.\n3. 1/v = 1/f - 1/u = 1/30 - (-1/30) = 2/30 = 1/15.\n4. v = +15 cm.\n5. The image is formed at 15 cm behind the mirror.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nWhen u = f for a convex mirror, image is always at f/2 behind the mirror: v = 30/2 = 15 cm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Convex Mirror",
+      "JIPMER 2002",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q38",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Concave Mirror Image Height",
+    "difficulty": "Medium",
+    "questionText": "An object 2.5 cm high is placed at a distance of 10 cm from a concave mirror of radius of curvature 30 cm. The size of the image is: [BVP 2003]",
+    "options": [
+      "9.2 cm",
+      "10.5 cm",
+      "5.6 cm",
+      "7.5 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nRadius of curvature R = -30 cm \u27f9 f = -15 cm.\nMagnification m = f / (f - u) = h_i / h_o.\n\n\u26a1 **Step-by-Step Derivation:**\n1. f = -15 cm, u = -10 cm, h_o = 2.5 cm.\n2. m = (-15) / [-15 - (-10)] = -15 / -5 = +3.\n3. Size of image:\n   h_i = m \u00d7 h_o = 3 \u00d7 2.5 cm = 7.5 cm.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nVirtual erect image formed inside focus: h_i = 3 \u00d7 2.5 = 7.5 cm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "BVP 2003",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q39",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Real Image Formation",
+    "difficulty": "Easy",
+    "questionText": "For a real object, which of the following can produce a real image? [Orissa JEE 2003]",
+    "options": [
+      "Plane mirror",
+      "Concave lens",
+      "Convex mirror",
+      "Concave mirror"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nFor a real object:\n- Plane mirror produces only virtual images.\n- Convex mirror produces only virtual images.\n- Concave lens produces only virtual images.\n- Only a **concave mirror** (and a convex lens) can produce a **real image** when the object is placed at or beyond the focal point.\n\n\u26a1 **Step-by-Step Derivation:**\n1. Divergent rays from a real object can only be converged by converging optical elements.\n2. Among mirrors, the concave mirror is converging and forms real inverted images for u \u2265 f.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nReal object \u27f9 Real image only possible with Concave Mirror & Convex Lens!",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Real Image",
+      "Orissa JEE 2003",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q40",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Object at Distance 4f",
+    "difficulty": "Easy",
+    "questionText": "An object of length 6 cm is placed on the principal axis of a concave mirror of focal length f at a distance of 4f. The length of the image will be: [MP PET 2003]",
+    "options": [
+      "2 cm",
+      "12 cm",
+      "4 cm",
+      "1.2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nMagnification m = f / (f - u).\n\n\u26a1 **Step-by-Step Derivation:**\n1. Concave mirror focal length = -f.\n2. Object distance u = -4f.\n3. m = (-f) / [-f - (-4f)] = (-f) / (3f) = -1/3.\n4. Image height h_i = |m| \u00d7 h_o = (1/3) \u00d7 6 cm = 2 cm.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nm = 1/(4 - 1) = 1/3 \u27f9 h_i = 6 / 3 = 2 cm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "MP PET 2003",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q41",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Convergence Medium Invariance",
+    "difficulty": "Easy",
+    "questionText": "Convergence of concave mirror can be decreased by dipping in: [AFMC 2003]",
+    "options": [
+      "Water",
+      "Oil",
+      "Both",
+      "None of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nThe focal length of a spherical mirror depends strictly on its radius of curvature (f = R / 2) and follows the law of reflection (angle of incidence = angle of reflection), which is independent of the surrounding medium's refractive index.\n\n\u26a1 **Step-by-Step Derivation:**\n1. Unlike lenses, where focal length depends on relative refractive index (1/f = (\u03bc - 1)(1/R\u2081 - 1/R\u2082)), mirror focal length depends purely on geometric radius R.\n2. Dipping the concave mirror in water or oil does NOT alter its focal length or convergence power.\n3. Hence, convergence cannot be decreased by dipping in any liquid.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nMirror focal length is immune to surrounding medium! Lenses change focal length in liquids; mirrors NEVER do!",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "AFMC 2003",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q42",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Convex Mirror Image Height",
+    "difficulty": "Easy",
+    "questionText": "What will be the height of image when an object of 2 mm is placed on the axis of a convex mirror at a distance 20 cm of radius of curvature 40 cm? [Orissa PMT 2004]",
+    "options": [
+      "20 mm",
+      "10 mm",
+      "6 mm",
+      "1 mm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nConvex mirror: f = +R / 2 = +40 / 2 = +20 cm.\nMagnification m = f / (f - u).\n\n\u26a1 **Step-by-Step Derivation:**\n1. f = +20 cm, u = -20 cm, h_o = 2 mm.\n2. m = 20 / [20 - (-20)] = 20 / 40 = 0.5.\n3. Image height:\n   h_i = m \u00d7 h_o = 0.5 \u00d7 2 mm = 1 mm.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nAt u = f for convex mirror, magnification is always 0.5. Image height = 0.5 \u00d7 2 mm = 1 mm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Convex Mirror",
+      "Orissa PMT 2004",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q43",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Concave Mirror Distance for 3-Fold Image",
+    "difficulty": "Medium",
+    "questionText": "Image formed by a concave mirror of focal length 6 cm, is 3 times of the object, then the distance of object from mirror is: [RPMT 2000]",
+    "options": [
+      "\u2013 4 cm",
+      "8 cm",
+      "6 cm",
+      "12 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nA concave mirror produces an image 3 times the size of the object in two configurations:\n- Virtual image (erect): m = +3\n- Real image (inverted): m = -3.\n\n\u26a1 **Step-by-Step Derivation:**\n1. Concave mirror focal length f = -6 cm.\n2. For virtual image (m = +3):\n   +3 = (-6) / (-6 - u)\n   -18 - 3u = -6 \u27f9 -3u = 12 \u27f9 u = -4 cm.\n3. For real image (m = -3):\n   -3 = (-6) / (-6 - u)\n   18 + 3u = -6 \u27f9 3u = -24 \u27f9 u = -8 cm (Distance = 8 cm).\n4. Looking at the options, option (a) explicitly provides the coordinate **\u2013 4 cm** (virtual image configuration).\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nIf sign convention is included, u = -4 cm (virtual) or -8 cm (real). Option (a) is -4 cm.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "RPMT 2000",
+      "Universal Self-Scorer"
+    ]
+  },
+  {
+    "id": "univ-sm-q44",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "topic": "Mirror Focal Length in Liquid",
+    "difficulty": "Easy",
+    "questionText": "A concave mirror of focal length f (in air) is immersed in water (\u03bc = 4/3). The focal length of the mirror in water will be: [MNR 1998]",
+    "options": [
+      "f",
+      "(4/3) f",
+      "(3/4) f",
+      "(7/3) f"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\ud83d\udcd8 **NCERT Concept:**\nThe focal length of a concave mirror depends solely on its geometric radius of curvature (f = R / 2). The law of reflection (i = r) is completely independent of the refractive index of the surrounding medium.\n\n\u26a1 **Step-by-Step Derivation:**\n1. f_air = R / 2.\n2. When immersed in water: f_water = R / 2 = f.\n3. Therefore, the focal length remains exactly **f**.\n\n\ud83d\udca1 **Examiner Pro-Tip:**\nMirrors reflect; they do not refract! Medium refractive index has ZERO effect on mirror focal length.",
+    "tags": [
+      "Ray Optics",
+      "Spherical Mirror",
+      "Concave Mirror",
+      "MNR 1998",
+      "Universal Self-Scorer"
+    ]
   }
 ];
 
