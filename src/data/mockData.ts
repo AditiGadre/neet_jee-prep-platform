@@ -155,6 +155,7 @@ import {
   NCERT_COMMUNICATION_QUESTIONS,
   DUAL_NATURE_XRAYS_QUESTIONS,
   ATOMIC_NUCLEAR_PHYSICS_QUESTIONS,
+  SELF_EVALUATION_TEST_26_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -1993,6 +1994,21 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: ['24 AIIMS A&R + 16 Graphical Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
     questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.id.includes('ar') || q.id.includes('graph'))
+  },
+  {
+    id: 'test-phy-set-26',
+    title: 'Universal Physics: Self Evaluation Test 26 (SET-26 Official 25 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-26: Official Self Evaluation Test (SET-26) Comprehensive Drill (25 Qs)',
+    totalQuestions: 25,
+    durationMinutes: 15,
+    totalMarks: 100,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['25 Official Universal Self-Scorer Qs', 'SET-26 Comprehensive Test', 'Full Diagrams & SVGs', 'Step-by-Step Solutions'],
+    questions: SELF_EVALUATION_TEST_26_QUESTIONS
   },
   {
     id: 'test-phy-ch29',
