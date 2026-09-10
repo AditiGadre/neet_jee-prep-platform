@@ -154,6 +154,7 @@ import {
   NCERT_SEMICONDUCTORS_QUESTIONS,
   NCERT_COMMUNICATION_QUESTIONS,
   DUAL_NATURE_XRAYS_QUESTIONS,
+  ATOMIC_NUCLEAR_PHYSICS_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -1898,7 +1899,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45([...NCERT_ATOMS_QUESTIONS, ...ATOMS_PHYSICS_QUESTIONS])
+    questions: get45([...ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.chapter === 'Atoms'), ...NCERT_ATOMS_QUESTIONS, ...ATOMS_PHYSICS_QUESTIONS])
   },
   {
     id: 'test-phy-ch28',
@@ -1913,7 +1914,85 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45([...NCERT_NUCLEI_QUESTIONS, ...NUCLEI_PHYSICS_QUESTIONS])
+    questions: get45([...ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.chapter === 'Nuclei'), ...NCERT_NUCLEI_QUESTIONS, ...NUCLEI_PHYSICS_QUESTIONS])
+  },
+  {
+    id: 'test-phy-universal-atomic-1',
+    title: 'Universal Physics: Atomic Structure & Bohr Orbits (SET-01)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-26: Rutherford & Bohr Models, Quantum Numbers, Orbit Radii (45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(0, 45)
+  },
+  {
+    id: 'test-phy-universal-atomic-2',
+    title: 'Universal Physics: Spectral Series & Energy Levels (SET-02)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-26: Lyman/Balmer Series, Rydberg Formula, Orbit Energies (45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(45, 90)
+  },
+  {
+    id: 'test-phy-universal-atomic-3',
+    title: 'Universal Physics: Hydrogen Transitions & De Broglie Waves (SET-03)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-26: Photon Absorption/Emission, De Broglie Wavelength, Ionization (45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(90, 135)
+  },
+  {
+    id: 'test-phy-universal-nuclear',
+    title: 'Universal Physics: Nuclear Reactions & Binding Energy (SET-04)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-26: Nuclear Dimensions, Mass Defect, Q-Value, Fission & Fusion (45 Qs)',
+    totalQuestions: 45,
+    durationMinutes: 15,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: [
+      ...ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(135, 174),
+      ...ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.id.includes('nuclear-react'))
+    ].slice(0, 45)
+  },
+  {
+    id: 'test-phy-universal-aiims-ar',
+    title: 'Universal Physics: AIIMS Assertion-Reason & Graphical (SET-05)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-26: Graphical Analysis & High-Yield AIIMS Assertion-Reason (40 Qs)',
+    totalQuestions: 40,
+    durationMinutes: 15,
+    totalMarks: 160,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['24 AIIMS A&R + 16 Graphical Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.id.includes('ar') || q.id.includes('graph'))
   },
   {
     id: 'test-phy-ch29',
