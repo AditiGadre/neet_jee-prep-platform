@@ -159,6 +159,8 @@ import {
   SELF_EVALUATION_TEST_27_QUESTIONS,
   SEMICONDUCTOR_AIIMS_AR_QUESTIONS,
   ELECTRONICS_CIRCUIT_AND_GRAPHICAL_QUESTIONS,
+  SELF_EVALUATION_TEST_28_QUESTIONS,
+  ALL_COMMUNICATION_ADVANCED_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -2072,6 +2074,36 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(NCERT_COMMUNICATION_QUESTIONS)
+  },
+  {
+    id: 'test-phy-set-28',
+    title: 'Universal Physics: Self Evaluation Test 28 (SET-28 Official 14 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-28: Official Self Evaluation Test (SET-28) Communication Systems (14 Qs)',
+    totalQuestions: 14,
+    durationMinutes: 15,
+    totalMarks: 56,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['14 Official Universal Self-Scorer Qs', 'SET-28 Speed Drill', 'Full Circuit Diagrams & SVGs', 'Step-by-Step Solutions'],
+    questions: SELF_EVALUATION_TEST_28_QUESTIONS
+  },
+  {
+    id: 'test-phy-comm-adv',
+    title: 'Universal Physics: Communication Systems AIIMS Assertion-Reason & Critical Thinking (26 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-28: AIIMS Assertion-Reason (12 Qs) + Critical Thinking & Numericals (14 Qs)',
+    totalQuestions: 26,
+    durationMinutes: 20,
+    totalMarks: 104,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['12 AIIMS A&R + 14 Critical Thinking Qs', '20 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: ALL_COMMUNICATION_ADVANCED_QUESTIONS
   }
 ];
 
