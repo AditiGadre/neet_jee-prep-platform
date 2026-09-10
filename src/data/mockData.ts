@@ -161,6 +161,9 @@ import {
   ELECTRONICS_CIRCUIT_AND_GRAPHICAL_QUESTIONS,
   SELF_EVALUATION_TEST_28_QUESTIONS,
   ALL_COMMUNICATION_ADVANCED_QUESTIONS,
+  UNIVERSAL_PLANE_MIRROR_QUESTIONS,
+  UNIVERSAL_SPHERICAL_MIRROR_QUESTIONS,
+  ALL_UNIVERSAL_RAY_OPTICS_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -2104,6 +2107,51 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: ['12 AIIMS A&R + 14 Critical Thinking Qs', '20 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
     questions: ALL_COMMUNICATION_ADVANCED_QUESTIONS
+  },
+  {
+    id: 'test-phy-univ-plane-mirror',
+    title: 'Universal Physics: Ray Optics - Plane Mirrors Mastery Drill (34 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-29: Reflection at Plane Surfaces & Plane Mirrors (34 Qs with Ray Tracing)',
+    totalQuestions: 34,
+    durationMinutes: 25,
+    totalMarks: 136,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['34 Official Plane Mirror Qs', 'Ray Tracing & Deviations', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: UNIVERSAL_PLANE_MIRROR_QUESTIONS
+  },
+  {
+    id: 'test-phy-univ-spherical-mirror',
+    title: 'Universal Physics: Ray Optics - Spherical Mirrors Mastery Drill (31 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-29: Concave & Convex Mirrors, Newton Formula & Magnification (31 Qs)',
+    totalQuestions: 31,
+    durationMinutes: 25,
+    totalMarks: 124,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['31 Spherical Mirror Qs', 'Concave & Convex Optics', 'Newton Formula Derivations', 'Step-by-Step Solutions'],
+    questions: UNIVERSAL_SPHERICAL_MIRROR_QUESTIONS
+  },
+  {
+    id: 'test-phy-univ-ray-optics-full',
+    title: 'Universal Physics: Ray Optics Mirrors Complete Chapter Practice (65 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-29: Complete Plane & Spherical Mirror Drill (All 65 Qs)',
+    totalQuestions: 65,
+    durationMinutes: 45,
+    totalMarks: 260,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['65 Authentic Universal Qs', 'Complete Mirror Optics CBT', 'All Diagrams & Ray Vectors', 'Step-by-Step Solutions'],
+    questions: ALL_UNIVERSAL_RAY_OPTICS_QUESTIONS
   }
 ];
 
