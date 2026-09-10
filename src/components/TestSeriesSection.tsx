@@ -39,7 +39,8 @@ import { recordSuperUserNotification } from '../utils/superUserNotifier';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
   SundayPlannerTest,
-  generateSundayTestQuestions
+  generateSundayTestQuestions,
+  getSavedCustomSundayPaper
 } from '../data/sundayPlannerTests';
 
 interface TestSeriesSectionProps {
@@ -163,25 +164,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       return;
     }
 
+    // Check if admin has customized this specific Sunday test
+    const customPaper = getSavedCustomSundayPaper(plannerTest.code);
     let testQuestions: Question[] = [];
-    try {
-      const publishedRaw = localStorage.getItem('neet_published_sunday_test');
-      if (publishedRaw) {
-        const parsed = JSON.parse(publishedRaw);
-        if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180) {
-          testQuestions = parsed.questions;
-        }
+    let syllabusStr = `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`;
+
+    if (customPaper && Array.isArray(customPaper.questions) && customPaper.questions.length === 180) {
+      testQuestions = customPaper.questions;
+      if (customPaper.customChapters) {
+        syllabusStr = `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`;
       }
-    } catch {}
-    if (testQuestions.length === 0) {
+    } else {
       testQuestions = generateSundayTestQuestions(plannerTest);
     }
+
     const testItem: TestItem = {
       id: plannerTest.id,
       title: `${plannerTest.code}: ${plannerTest.title}`,
       category: 'neet_mock',
       exam: 'NEET',
-      syllabus: `Physics: ${plannerTest.physicsUnit} | Chemistry: ${plannerTest.chemistryUnit} | Botany: ${plannerTest.botanyBlock} | Zoology: ${plannerTest.zoologyBlock}`,
+      syllabus: syllabusStr,
       totalQuestions: 180,
       durationMinutes: 180,
       totalMarks: 720,

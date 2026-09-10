@@ -522,94 +522,109 @@ export const DIAGRAM_REGISTRY: Record<string, { title: string; category: 'Physic
 /**
  * Returns a high-quality guaranteed physics vector diagram for hard questions
  */
-export function getHardPhysicsDiagram(q: Question): string | null {
-  if (q.diagramSvg) return q.diagramSvg;
-  if (q.subject !== 'Physics') return null;
-
+export function getHardPhysicsDiagram(q: Question, usedDiagrams?: Set<string>): string | null {
   const text = (q.questionText + ' ' + (q.explanation || '') + ' ' + (q.topic || '') + ' ' + (q.chapter || '')).toLowerCase();
 
-  // Modern Physics & Atoms / Nuclei
-  if (text.includes('bohr') || text.includes('hydrogen') || text.includes('lyman') || text.includes('balmer') || text.includes('spectrum') || text.includes('orbit')) {
-    return DIAGRAM_REGISTRY['phy_bohr_atom_levels']?.svg || null;
+  const tryUse = (id: string): string | null => {
+    if (usedDiagrams && usedDiagrams.has(id)) return null;
+    if (usedDiagrams) usedDiagrams.add(id);
+    return DIAGRAM_REGISTRY[id]?.svg || null;
+  };
+
+  // Modern Physics & Atoms
+  if (text.includes('bohr') || text.includes('spectral series') || text.includes('energy level') || text.includes('rydberg') || text.includes('balmer') || text.includes('lyman')) {
+    const res = tryUse('phy_bohr_atom_levels');
+    if (res) return res;
   }
-  if (text.includes('nucle') || text.includes('binding energy') || text.includes('decay') || text.includes('radioactiv') || text.includes('fission') || text.includes('fusion') || text.includes('mass defect')) {
-    return DIAGRAM_REGISTRY['phy_nuclear_be_curve']?.svg || null;
+  if (text.includes('nucleus') || text.includes('nuclear') || text.includes('binding energy') || text.includes('mass defect') || text.includes('fission') || text.includes('fusion') || text.includes('radioactive')) {
+    const res = tryUse('phy_nuclear_be_curve');
+    if (res) return res;
   }
 
   // Optics
-  if (text.includes('prism') || text.includes('deviation') || text.includes('angle of minimum deviation')) {
-    return DIAGRAM_REGISTRY['phy_prism_dispersion']?.svg || null;
+  if (text.includes('prism') || text.includes('minimum deviation') || text.includes('dispersion') || text.includes('refracting angle')) {
+    const res = tryUse('phy_prism_dispersion');
+    if (res) return res;
   }
-  if (text.includes('lens') || text.includes('mirror') || text.includes('focal') || text.includes('refract') || text.includes('magnif')) {
-    return DIAGRAM_REGISTRY['phy_convex_lens_ray']?.svg || null;
+  if (text.includes('convex lens') || text.includes('concave lens') || text.includes('lens formula') || text.includes('focal length') || text.includes('magnification')) {
+    const res = tryUse('phy_convex_lens_ray');
+    if (res) return res;
   }
-  if (text.includes('slit') || text.includes('interfer') || text.includes('fringe') || text.includes('diffract') || text.includes('young')) {
-    return DIAGRAM_REGISTRY['phy_young_double_slit']?.svg || null;
+  if (text.includes('young') || text.includes('double slit') || text.includes('fringe width') || text.includes('interference pattern')) {
+    const res = tryUse('phy_young_double_slit');
+    if (res) return res;
   }
 
-  // Electrodynamics & Circuits
-  if (text.includes('wheatstone') || text.includes('bridge') || text.includes('galvanometer')) {
-    return DIAGRAM_REGISTRY['phy_wheatstone_bridge']?.svg || null;
+  // Electricity & Circuits
+  if (text.includes('wheatstone') || text.includes('galvanometer') || text.includes('null deflection') || text.includes('bridge')) {
+    const res = tryUse('phy_wheatstone_bridge');
+    if (res) return res;
   }
-  if (text.includes('meter bridge') || text.includes('potentiometer') || text.includes('wire resistance')) {
-    return DIAGRAM_REGISTRY['phy_meter_bridge']?.svg || null;
+  if (text.includes('meter bridge') || text.includes('slide wire')) {
+    const res = tryUse('phy_meter_bridge');
+    if (res) return res;
   }
-  if (text.includes('lcr') || text.includes('inductor') || text.includes('capacitor') || text.includes('ac circuit') || text.includes('resonance') || text.includes('impedance')) {
-    return DIAGRAM_REGISTRY['phy_series_lcr']?.svg || null;
+  if (text.includes('lcr') || text.includes('resonance frequency') || text.includes('impedance') || text.includes('q-factor') || text.includes('ac circuit')) {
+    const res = tryUse('phy_series_lcr');
+    if (res) return res;
   }
-  if (text.includes('dipole') || text.includes('electric field') || text.includes('gauss') || text.includes('flux') || text.includes('coulomb')) {
-    return DIAGRAM_REGISTRY['phy_electric_dipole_field']?.svg || null;
+  if (text.includes('electric dipole') || text.includes('dipole moment') || text.includes('equipotential') || text.includes('electric field lines')) {
+    const res = tryUse('phy_electric_dipole_field');
+    if (res) return res;
   }
-  if (text.includes('magnetic') || text.includes('lorentz') || text.includes('biot') || text.includes('solenoid') || text.includes('cyclotron')) {
-    return DIAGRAM_REGISTRY['phy_magnetic_lorentz_force']?.svg || null;
+  if (text.includes('lorentz force') || text.includes('charged particle in magnetic field') || text.includes('cyclotron') || text.includes('helical path')) {
+    const res = tryUse('phy_magnetic_lorentz_force');
+    if (res) return res;
   }
 
   // Mechanics & Thermodynamics
-  if (text.includes('incline') || text.includes('friction') || text.includes('normal') || text.includes('block') || text.includes('wedge') || text.includes('tension')) {
-    return DIAGRAM_REGISTRY['phy_inclined_fbd']?.svg || null;
+  // ONLY match inclined plane when genuinely about an inclined plane / wedge / ramp!
+  if (text.includes('inclined plane') || text.includes('angle of inclination') || text.includes('inclination θ') || text.includes('incline of') || text.includes('on the incline') || text.includes('along the incline') || text.includes('wedge of angle') || text.includes('slides down a plane')) {
+    const res = tryUse('phy_inclined_fbd');
+    if (res) return res;
   }
-  if (text.includes('projectile') || text.includes('trajectory') || text.includes('range') || text.includes('maximum height')) {
-    return DIAGRAM_REGISTRY['phy_projectile_motion']?.svg || null;
+  if (text.includes('projectile') || text.includes('angle of projection') || text.includes('trajectory') || text.includes('horizontal range') || text.includes('maximum height')) {
+    const res = tryUse('phy_projectile_motion');
+    if (res) return res;
   }
-  if (text.includes('carnot') || text.includes('isothermal') || text.includes('adiabatic') || text.includes('efficiency') || text.includes('thermodynamic') || text.includes('indicator diagram') || text.includes('pv')) {
-    return DIAGRAM_REGISTRY['phy_carnot_engine']?.svg || null;
+  if (text.includes('carnot engine') || text.includes('carnot cycle') || text.includes('pv diagram') || text.includes('indicator diagram') || text.includes('isothermal expansion') || text.includes('adiabatic expansion')) {
+    const res = tryUse('phy_carnot_engine');
+    if (res) return res;
   }
-  if (text.includes('spring') || text.includes('shm') || text.includes('oscillat') || text.includes('pendulum') || text.includes('frequency')) {
-    return DIAGRAM_REGISTRY['phy_shm_spring_mass']?.svg || null;
+  if (text.includes('spring-mass') || text.includes('spring constant') || text.includes('oscillating spring') || text.includes('restoring force of spring')) {
+    const res = tryUse('phy_shm_spring_mass');
+    if (res) return res;
   }
-  if (text.includes('bernoulli') || text.includes('venturi') || text.includes('viscosity') || text.includes('fluid') || text.includes('pressure difference')) {
-    return DIAGRAM_REGISTRY['phy_bernoulli_venturi']?.svg || null;
+  if (text.includes('bernoulli') || text.includes('venturi') || text.includes('venturimeter') || text.includes('tube of varying cross-section')) {
+    const res = tryUse('phy_bernoulli_venturi');
+    if (res) return res;
   }
 
   // Semiconductors & Modern
-  if (text.includes('gate') || text.includes('nand') || text.includes('logic') || text.includes('truth table')) {
-    return DIAGRAM_REGISTRY['phy_logic_gates_circuit']?.svg || null;
+  if (text.includes('logic gate') || text.includes('nand gate') || text.includes('nor gate') || text.includes('truth table of')) {
+    const res = tryUse('phy_logic_gates_circuit');
+    if (res) return res;
   }
-  if (text.includes('junction') || text.includes('diode') || text.includes('semiconductor') || text.includes('transistor') || text.includes('depletion')) {
-    return DIAGRAM_REGISTRY['phy_pn_junction_depletion']?.svg || null;
+  if (text.includes('p-n junction') || text.includes('pn junction') || text.includes('depletion layer') || text.includes('barrier potential') || text.includes('forward bias') || text.includes('reverse bias')) {
+    const res = tryUse('phy_pn_junction_depletion');
+    if (res) return res;
   }
 
-  // Default high quality diagram for any remaining hard physics questions
-  return DIAGRAM_REGISTRY['phy_inclined_fbd']?.svg || null;
+  // Never return a generic fallback! If there is no specific conceptual match, return null.
+  return null;
 }
 
 /**
  * Assigns diagrams to questions guaranteeing:
- * 1. Zero duplicate diagrams in the same test paper
- * 2. High-yield mapping to relevant question themes
- * 3. 100% diagram coverage for hard physics questions
+ * 1. Zero duplicate diagrams in the same test paper (at most 1 per diagram ID)
+ * 2. High-yield mapping strictly to genuinely relevant question themes
+ * 3. Never fallback to unrelated diagrams
  */
 export function getUniqueDiagramForQuestion(
   q: Question,
   sessionDiagramUsageMap: Map<string, number>
 ): string | null {
   if (q.diagramSvg) return q.diagramSvg;
-
-  // For hard physics questions, provide guaranteed high-quality diagram
-  if (q.subject === 'Physics' && q.difficulty === 'Hard') {
-    const hardDiag = getHardPhysicsDiagram(q);
-    if (hardDiag) return hardDiag;
-  }
 
   const text = (q.questionText + ' ' + (q.explanation || '') + ' ' + (q.topic || '') + ' ' + (q.chapter || '')).toLowerCase();
 
@@ -620,13 +635,13 @@ export function getUniqueDiagramForQuestion(
   if (text.includes('bohr') || text.includes('spectral series') || text.includes('energy level')) {
     candidates.push('phy_bohr_atom_levels');
   }
-  if (text.includes('nucleus') || text.includes('binding energy') || text.includes('radioactiv')) {
+  if (text.includes('nucleus') || text.includes('binding energy') || text.includes('mass defect')) {
     candidates.push('phy_nuclear_be_curve');
   }
-  if (text.includes('prism') || text.includes('deviation') || text.includes('dispersion')) {
+  if (text.includes('prism') || text.includes('minimum deviation') || text.includes('dispersion')) {
     candidates.push('phy_prism_dispersion');
   }
-  if (text.includes('convex lens') || text.includes('focal length') || text.includes('real image') || text.includes('lens formula')) {
+  if (text.includes('convex lens') || text.includes('lens formula') || text.includes('focal length')) {
     candidates.push('phy_convex_lens_ray');
   }
   if (text.includes('wheatstone') || text.includes('galvanometer bridge')) {
@@ -635,74 +650,69 @@ export function getUniqueDiagramForQuestion(
   if (text.includes('meter bridge') || text.includes('slide wire')) {
     candidates.push('phy_meter_bridge');
   }
-  if (text.includes('lcr') || text.includes('resonance') || text.includes('impedance') || text.includes('inductor')) {
+  if (text.includes('lcr') || text.includes('resonance frequency') || text.includes('impedance')) {
     candidates.push('phy_series_lcr');
   }
-  if (text.includes('incline') || text.includes('friction') || text.includes('sinθ') || text.includes('normal reaction')) {
+  if (text.includes('inclined plane') || text.includes('angle of inclination') || text.includes('wedge of angle') || text.includes('slides down a plane')) {
     candidates.push('phy_inclined_fbd');
   }
-  if (text.includes('projectile') || text.includes('trajectory') || text.includes('maximum height') || text.includes('range')) {
+  if (text.includes('projectile') || text.includes('angle of projection') || text.includes('trajectory')) {
     candidates.push('phy_projectile_motion');
   }
-  if (text.includes('carnot') || text.includes('isothermal') || text.includes('adiabatic') || text.includes('efficiency')) {
+  if (text.includes('carnot engine') || text.includes('carnot cycle') || text.includes('indicator diagram')) {
     candidates.push('phy_carnot_engine');
   }
-  if (text.includes('young') || text.includes('double slit') || text.includes('fringe width') || text.includes('interference')) {
+  if (text.includes('young') || text.includes('double slit') || text.includes('fringe width')) {
     candidates.push('phy_young_double_slit');
   }
-  if (text.includes('dipole') || text.includes('electric field') || text.includes('gauss')) {
+  if (text.includes('electric dipole') || text.includes('dipole moment')) {
     candidates.push('phy_electric_dipole_field');
   }
-  if (text.includes('lorentz') || text.includes('magnetic force') || text.includes('cyclotron')) {
+  if (text.includes('lorentz force') || text.includes('charged particle in magnetic field')) {
     candidates.push('phy_magnetic_lorentz_force');
   }
-  if (text.includes('spring') || text.includes('shm') || text.includes('simple harmonic')) {
+  if (text.includes('spring-mass') || text.includes('oscillating spring')) {
     candidates.push('phy_shm_spring_mass');
   }
   if (text.includes('bernoulli') || text.includes('venturimeter')) {
     candidates.push('phy_bernoulli_venturi');
   }
-  if (text.includes('logic gate') || text.includes('nand') || text.includes('truth table')) {
+  if (text.includes('logic gate') || text.includes('truth table')) {
     candidates.push('phy_logic_gates_circuit');
   }
-  if (text.includes('pn junction') || text.includes('depletion layer') || text.includes('barrier potential')) {
+  if (text.includes('p-n junction') || text.includes('depletion layer')) {
     candidates.push('phy_pn_junction_depletion');
   }
 
   // Chemistry mapping
-  if (text.includes('daniel') || text.includes('galvanic') || text.includes('salt bridge') || text.includes('cell potential')) {
+  if (text.includes('daniel cell') || text.includes('galvanic cell') || text.includes('salt bridge')) {
     candidates.push('chem_daniel_cell');
   }
-  if (text.includes('crystal field') || text.includes('splitting') || text.includes('t2g') || text.includes('octahedral')) {
+  if (text.includes('crystal field') || text.includes('splitting') || text.includes('octahedral')) {
     candidates.push('chem_crystal_field_oct');
   }
-  if (text.includes('activation energy') || text.includes('transition state') || text.includes('arrhenius') || text.includes('exothermic')) {
+  if (text.includes('activation energy') || text.includes('transition state') || text.includes('arrhenius')) {
     candidates.push('chem_reaction_coordinate');
   }
-  if (text.includes('vsepr') || text.includes('pcl5') || text.includes('trigonal bipyramidal') || text.includes('axial bond')) {
+  if (text.includes('vsepr') || text.includes('pcl5') || text.includes('trigonal bipyramidal')) {
     candidates.push('chem_vsepr_geometry');
   }
 
-  // Biology mapping (bio_lac_operon has been removed)
-  if (text.includes('replication') || text.includes('okazaki') || text.includes('leading strand') || text.includes('fork')) {
+  // Biology mapping (bio_lac_operon is deleted)
+  if (text.includes('replication fork') || text.includes('okazaki') || text.includes('leading strand')) {
     candidates.push('bio_dna_replication_fork');
   }
-  if (text.includes('pedigree') || text.includes('autosomal') || text.includes('carrier') || text.includes('hemophilia')) {
+  if (text.includes('pedigree chart') || text.includes('autosomal recessive') || text.includes('hemophilia')) {
     candidates.push('bio_pedigree_chart');
   }
-  if (text.includes('nephron') || text.includes('glomerulus') || text.includes('bowman') || text.includes('afferent')) {
+  if (text.includes('nephron') || text.includes('glomerulus') || text.includes('bowman')) {
     candidates.push('bio_nephron_malpighian');
   }
-  if (text.includes('chloroplast') || text.includes('thylakoid') || text.includes('grana') || text.includes('light reaction')) {
+  if (text.includes('chloroplast') || text.includes('thylakoid') || text.includes('light reaction')) {
     candidates.push('bio_chloroplast_grana');
   }
-  if (text.includes('synapse') || text.includes('neurotransmitter') || text.includes('acetylcholine') || text.includes('cleft')) {
+  if (text.includes('synapse') || text.includes('neurotransmitter') || text.includes('synaptic cleft')) {
     candidates.push('bio_synapse');
-  }
-
-  // If hard physics, fall back to general physics diagram
-  if (q.subject === 'Physics') {
-    candidates.push('phy_inclined_fbd', 'phy_convex_lens_ray', 'phy_series_lcr', 'phy_carnot_engine');
   }
 
   // Strictly enforce max 1 use per diagram (ZERO REPEATS in a test paper)

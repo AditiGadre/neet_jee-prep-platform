@@ -1,6 +1,8 @@
 import { Question, TestItem } from '../types';
 import { getUnifiedQuestionBank } from '../utils/questionDatabase';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
+import { getSequentialLoopQuestions } from '../utils/questionLoopManager';
+import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 
 export interface SundayPlannerTest {
   id: string;
@@ -858,55 +860,177 @@ function filterQuestionsByKeywords(bank: Question[], keywords: string[]): Questi
   return matched.length > 0 ? matched : bank;
 }
 
+
+export const SUNDAY_CUSTOM_PAPERS_KEY = 'neet_custom_sunday_papers';
+
+export interface SavedSundayPaper {
+  paperCode: string;
+  testTitle?: string;
+  customChapters?: SundayChapterSelection;
+  questions: Question[];
+  updatedAt: string;
+  publishedBy?: string;
+}
+
+export function getAllSavedCustomSundayPapers(): Record<string, SavedSundayPaper> {
+  try {
+    const raw = localStorage.getItem(SUNDAY_CUSTOM_PAPERS_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+export function getSavedCustomSundayPaper(paperIdOrCode: string): SavedSundayPaper | null {
+  if (!paperIdOrCode) return null;
+  const all = getAllSavedCustomSundayPapers();
+  const key = paperIdOrCode.toLowerCase().trim();
+  if (all[key]) return all[key];
+
+  for (const k of Object.keys(all)) {
+    if (k.toLowerCase() === key || all[k].paperCode?.toLowerCase() === key) {
+      return all[k];
+    }
+  }
+
+  // Fallback check legacy neet_published_sunday_test
+  try {
+    const legacyRaw = localStorage.getItem('neet_published_sunday_test');
+    if (legacyRaw) {
+      const legacy = JSON.parse(legacyRaw);
+      if (legacy && Array.isArray(legacy.questions) && legacy.questions.length === 180) {
+        if (!legacy.paperCode || legacy.paperCode.toLowerCase() === key) {
+          return {
+            paperCode: legacy.paperCode || paperIdOrCode,
+            testTitle: legacy.testTitle,
+            questions: legacy.questions,
+            customChapters: legacy.units ? {
+              physics: legacy.units.physics || [],
+              chemistry: legacy.units.chemistry || [],
+              biology: legacy.units.biology || []
+            } : undefined,
+            updatedAt: legacy.publishedAt || new Date().toISOString(),
+            publishedBy: legacy.publishedBy || 'Admin'
+          };
+        }
+      }
+    }
+  } catch {}
+
+  return null;
+}
+
+export function saveCustomSundayPaper(
+  paperCode: string,
+  data: {
+    questions: Question[];
+    customChapters?: SundayChapterSelection;
+    testTitle?: string;
+    publishedBy?: string;
+  }
+): void {
+  try {
+    const all = getAllSavedCustomSundayPapers();
+    const key = paperCode.toLowerCase().trim();
+    const payload: SavedSundayPaper = {
+      paperCode: paperCode.toUpperCase(),
+      testTitle: data.testTitle,
+      customChapters: data.customChapters,
+      questions: data.questions,
+      updatedAt: new Date().toISOString(),
+      publishedBy: data.publishedBy || 'Admin Portal'
+    };
+    all[key] = payload;
+    localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
+
+    // Also sync legacy neet_published_sunday_test
+    try {
+      const legacyPayload = {
+        paperCode: paperCode.toUpperCase(),
+        testTitle: data.testTitle,
+        publishedAt: new Date().toISOString(),
+        publishedBy: data.publishedBy || 'Admin Portal',
+        questions: data.questions,
+        units: data.customChapters
+      };
+      localStorage.setItem('neet_published_sunday_test', JSON.stringify(legacyPayload));
+      window.dispatchEvent(new CustomEvent('neet_published_sunday_test_updated', { detail: legacyPayload }));
+    } catch {}
+
+    window.dispatchEvent(new CustomEvent('neet_custom_sunday_paper_saved', { detail: { paperCode, payload } }));
+  } catch (err) {
+    console.error('Failed to save custom Sunday paper:', err);
+  }
+}
+
+export function deleteCustomSundayPaper(paperCode: string): void {
+  try {
+    const all = getAllSavedCustomSundayPapers();
+    const key = paperCode.toLowerCase().trim();
+    if (all[key]) {
+      delete all[key];
+      localStorage.setItem(SUNDAY_CUSTOM_PAPERS_KEY, JSON.stringify(all));
+      window.dispatchEvent(new CustomEvent('neet_custom_sunday_paper_deleted', { detail: { paperCode } }));
+    }
+  } catch (err) {
+    console.error('Failed to delete custom Sunday paper:', err);
+  }
+}
+
 /**
  * Generate a complete 180-Question Sunday Mock Test (45 Physics, 45 Chemistry, 90 Biology)
  * strictly conforming to the prescribed calendar chapters without mixing unrelated chapters.
+ * Utilizes a round-robin sequential question loop to cycle through all available bank questions,
+ * and seamlessly loads any admin-customized papers.
  */
 export function generateSundayTestQuestions(
   test: SundayPlannerTest,
-  customChapters?: SundayChapterSelection
+  customChapters?: SundayChapterSelection,
+  advanceLoop: boolean = true
 ): Question[] {
-  // 1. Physics (45 Questions strictly from selected chapter pool)
+  // If this paper was customized and saved by admin, load those exact questions directly!
+  if (!customChapters) {
+    const saved = getSavedCustomSundayPaper(test.code);
+    if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
+      return saved.questions;
+    }
+  }
+
+  const usedDiagrams = new Set<string>();
+
+  // 1. Physics (45 Questions strictly from selected chapter pool using round-robin loop)
   const phyBank = getUnifiedQuestionBank('Physics');
   const phyKeywords = customChapters?.physics && customChapters.physics.length > 0
     ? customChapters.physics
     : test.physicsKeywords;
   const phyPool = filterQuestionsByKeywords(phyBank, phyKeywords);
-  const randomizedPhy = [...phyPool].sort(() => 0.5 - Math.random());
-  const pickedPhy: Question[] = [];
-  for (let idx = 0; idx < 45; idx++) {
-    const q = randomizedPhy[idx % randomizedPhy.length];
-    pickedPhy.push({
-      ...q,
-      id: `sunday-${test.code.toLowerCase()}-phy-${idx + 1}-${q.id}`,
-      subject: 'Physics' as const,
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    });
-  }
+  const topicKeyPhy = phyKeywords.slice(0, 2).join('_');
+  const pickedPhy = getSequentialLoopQuestions(
+    'Physics',
+    phyPool.length > 0 ? phyPool : phyBank,
+    45,
+    `${test.code}_phy_${topicKeyPhy}`,
+    advanceLoop,
+    usedDiagrams
+  );
 
-  // 2. Chemistry (45 Questions strictly from selected chapter pool)
+  // 2. Chemistry (45 Questions strictly from selected chapter pool using round-robin loop)
   const chemBank = getUnifiedQuestionBank('Chemistry');
   const chemKeywords = customChapters?.chemistry && customChapters.chemistry.length > 0
     ? customChapters.chemistry
     : test.chemistryKeywords;
   const chemPool = filterQuestionsByKeywords(chemBank, chemKeywords);
-  const randomizedChem = [...chemPool].sort(() => 0.5 - Math.random());
-  const pickedChem: Question[] = [];
-  for (let idx = 0; idx < 45; idx++) {
-    const q = randomizedChem[idx % randomizedChem.length];
-    pickedChem.push({
-      ...q,
-      id: `sunday-${test.code.toLowerCase()}-chem-${idx + 1}-${q.id}`,
-      subject: 'Chemistry' as const,
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    });
-  }
+  const topicKeyChem = chemKeywords.slice(0, 2).join('_');
+  const pickedChem = getSequentialLoopQuestions(
+    'Chemistry',
+    chemPool.length > 0 ? chemPool : chemBank,
+    45,
+    `${test.code}_chem_${topicKeyChem}`,
+    advanceLoop,
+    usedDiagrams
+  );
 
-  // 3. Biology (90 Questions: 45 Botany + 45 Zoology strictly from selected pool)
+  // 3. Biology (90 Questions: 45 Botany + 45 Zoology strictly from selected pool using round-robin loop)
   const bioBank = getUnifiedQuestionBank('Biology');
   const botKeywords = customChapters?.biology && customChapters.biology.length > 0
     ? customChapters.biology
@@ -918,35 +1042,32 @@ export function generateSundayTestQuestions(
   const botPool = filterQuestionsByKeywords(bioBank, botKeywords);
   const zooPool = filterQuestionsByKeywords(bioBank, zooKeywords);
 
-  const randomizedBot = [...botPool].sort(() => 0.5 - Math.random());
-  const pickedBot: Question[] = [];
-  for (let idx = 0; idx < 45; idx++) {
-    const q = randomizedBot[idx % randomizedBot.length];
-    pickedBot.push({
-      ...q,
-      id: `sunday-${test.code.toLowerCase()}-bot-${idx + 1}-${q.id}`,
-      subject: 'Biology' as const,
-      tags: [...(q.tags || []), 'Botany'],
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    });
-  }
+  const topicKeyBot = botKeywords.slice(0, 2).join('_');
+  const topicKeyZoo = zooKeywords.slice(0, 2).join('_');
 
-  const randomizedZoo = [...zooPool].sort(() => 0.5 - Math.random());
-  const pickedZoo: Question[] = [];
-  for (let idx = 0; idx < 45; idx++) {
-    const q = randomizedZoo[idx % randomizedZoo.length];
-    pickedZoo.push({
-      ...q,
-      id: `sunday-${test.code.toLowerCase()}-zoo-${idx + 1}-${q.id}`,
-      subject: 'Biology' as const,
-      tags: [...(q.tags || []), 'Zoology'],
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    });
-  }
+  const pickedBot = getSequentialLoopQuestions(
+    'Biology',
+    botPool.length > 0 ? botPool : bioBank,
+    45,
+    `${test.code}_bot_${topicKeyBot}`,
+    advanceLoop,
+    usedDiagrams
+  ).map(q => ({
+    ...q,
+    tags: [...(q.tags || []), 'Botany']
+  }));
+
+  const pickedZoo = getSequentialLoopQuestions(
+    'Biology',
+    zooPool.length > 0 ? zooPool : bioBank,
+    45,
+    `${test.code}_zoo_${topicKeyZoo}`,
+    advanceLoop,
+    usedDiagrams
+  ).map(q => ({
+    ...q,
+    tags: [...(q.tags || []), 'Zoology']
+  }));
 
   return [...pickedPhy, ...pickedChem, ...pickedBot, ...pickedZoo];
 }

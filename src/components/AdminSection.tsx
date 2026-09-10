@@ -36,6 +36,8 @@ import {
   Zap,
   Edit2,
   RefreshCw,
+  RotateCcw,
+  Save,
   Eye,
   Layers,
   Filter,
@@ -69,8 +71,12 @@ import {
   OFFICIAL_PHYSICS_UNITS,
   OFFICIAL_CHEMISTRY_UNITS,
   OFFICIAL_BOTANY_BLOCKS,
-  OFFICIAL_ZOOLOGY_BLOCKS
+  OFFICIAL_ZOOLOGY_BLOCKS,
+  getSavedCustomSundayPaper,
+  saveCustomSundayPaper,
+  deleteCustomSundayPaper
 } from '../data/sundayPlannerTests';
+import { getSequentialLoopQuestions, resetLoopCursor } from '../utils/questionLoopManager';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 
@@ -96,19 +102,20 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     `[Botany] ${OFFICIAL_BOTANY_BLOCKS[0]}`,
     `[Zoology] ${OFFICIAL_ZOOLOGY_BLOCKS[0]}`
   ]);
-  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('cwt-01');
+  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('CWT-01');
   const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
     try {
-      const publishedRaw = localStorage.getItem('neet_published_sunday_test');
-      if (publishedRaw) {
-        const parsed = JSON.parse(publishedRaw);
-        if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180) {
-          return parsed.questions;
-        }
+      const savedPaper = getSavedCustomSundayPaper('CWT-01');
+      if (savedPaper && Array.isArray(savedPaper.questions) && savedPaper.questions.length === 180) {
+        return savedPaper.questions;
       }
     } catch {}
-    return generateSundayTestQuestions(SUNDAY_DROPPER_PLANNER_TESTS[0]);
+    return generateSundayTestQuestions(SUNDAY_DROPPER_PLANNER_TESTS[0], undefined, false);
   });
+
+  const isCurrentPaperCustomized = useMemo(() => {
+    return Boolean(getSavedCustomSundayPaper(selectedPlannerPreset));
+  }, [selectedPlannerPreset, publishSuccessMsg, actionSuccessBanner]);
   const [studioSubjectFilter, setStudioSubjectFilter] = useState<'All' | 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'>('All');
   const [studioSearch, setStudioSearch] = useState<string>('');
   const [studioPage, setStudioPage] = useState<number>(1);
@@ -498,27 +505,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   };
 
   const handlePublishSundayPaper = () => {
-    try {
-      const payload = {
-        publishedAt: new Date().toISOString(),
-        publishedBy: 'Admin Portal',
-        questions: sundayQuestions,
-        units: {
-          physics: sundayPhyUnits,
-          chemistry: sundayChemUnits,
-          biology: sundayBioUnits
-        }
-      };
-      localStorage.setItem('neet_published_sunday_test', JSON.stringify(payload));
-      localStorage.setItem('neet_admin_test_access', 'true');
-      setIsAdminTestAccessGranted(true);
-      window.dispatchEvent(new CustomEvent('neet_published_sunday_test_updated', { detail: payload }));
-      window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
-      setPublishSuccessMsg('✓ Official Sunday Test Paper Published! All students will take this exact 180-question paper.');
-      setTimeout(() => setPublishSuccessMsg(null), 4500);
-    } catch (e) {
-      console.error(e);
-    }
+    handleSaveAndPublishSelectedPaper();
   };
 
   const handleLaunchSundayInCBT = () => {
@@ -1069,118 +1056,196 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       {/* TAB: SUNDAY TEST PAPER STUDIO (180 QUESTIONS INSPECTOR & CUSTOMIZER) */}
       {adminTab === 'sunday_studio' && (
         <div className="space-y-6">
-          {/* Top Banner with Actions */}
-          <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-purple-100 text-purple-800 border border-purple-200 uppercase tracking-wider">
-                  Official NTA Format • 720 Marks
-                </span>
-                <span className="px-3 py-1 rounded-full text-[11px] font-mono font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
-                  Strict Chapter Isolation
-                </span>
+          {/* Top Banner with All-Sunday Paper Selector & Master Controls */}
+          <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-purple-950 text-white p-6 rounded-3xl shadow-lg space-y-5 border border-indigo-800/40">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+              <div>
+                <div className="flex items-center gap-2 flex-wrap mb-1.5">
+                  <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-purple-500/20 text-purple-300 border border-purple-400/30 uppercase tracking-wider">
+                    Official NTA Format • 720 Marks • 180 Qs
+                  </span>
+                  {isCurrentPaperCustomized ? (
+                    <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 flex items-center gap-1.5 shadow-xs">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                      Admin Customized Paper Active
+                    </span>
+                  ) : (
+                    <span className="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-blue-500/20 text-blue-300 border border-blue-400/30">
+                      Standard Planner Syllabus
+                    </span>
+                  )}
+                </div>
+                <h3 className="text-xl font-black text-white flex items-center gap-2">
+                  <Sparkles className="w-6 h-6 text-amber-400" />
+                  Sunday Test Paper Studio: <span className="text-amber-300 font-mono underline decoration-amber-400/50">{selectedPlannerPreset.toUpperCase()}</span>
+                </h3>
+                <p className="text-xs text-indigo-200/90 mt-1 max-w-2xl leading-relaxed">
+                  Select and edit <strong>all Sunday papers</strong> across Chapter-Wise (CWT-01 to 19), Cumulative (CUM-01 to 05), Part-Wise (PART-01 to 03), and Full-Syllabus (FST-01 to 06). Choose specific topics, inspect questions 1 to 180, edit question text, answer keys, and solutions in-place.
+                </p>
               </div>
-              <h3 className="text-xl font-black text-slate-900 mt-2 flex items-center gap-2">
-                <Sparkles className="w-6 h-6 text-amber-500" />
-                Sunday Test Paper Studio (180 Questions)
-              </h3>
-              <p className="text-xs text-slate-500 mt-1 max-w-2xl">
-                Choose chapters for Physics, Chemistry, and Biology. Inspect, swap, and edit each and every individual question (1 to 180). Publish to all students or launch directly in the interactive CBT player.
-              </p>
+
+              {/* Master Actions Bar */}
+              <div className="flex flex-wrap items-center gap-2.5">
+                <button
+                  onClick={handleSaveAndPublishSelectedPaper}
+                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-xl text-xs font-black transition flex items-center gap-2 shadow-md cursor-pointer"
+                  title="Save & Publish this specific Sunday Paper for all students"
+                >
+                  <CheckCheck className="w-4 h-4" />
+                  Save & Publish {selectedPlannerPreset.toUpperCase()}
+                </button>
+
+                {isCurrentPaperCustomized && (
+                  <button
+                    onClick={handleResetSelectedPaperToDefault}
+                    className="px-3 py-2.5 bg-rose-500/20 hover:bg-rose-500/40 text-rose-200 border border-rose-400/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer"
+                    title="Reset this paper back to default planner syllabus and questions"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5" />
+                    Reset to Default
+                  </button>
+                )}
+
+                <button
+                  onClick={handleLaunchSundayInCBT}
+                  className="px-3.5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-xs cursor-pointer"
+                >
+                  <Play className="w-4 h-4" />
+                  Test in CBT
+                </button>
+
+                <button
+                  onClick={() => handleDownloadSundayMasterPDF(false)}
+                  className="px-3 py-2.5 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-white/10"
+                  title="Download Student Question Paper PDF"
+                >
+                  <Download className="w-4 h-4 text-sky-400" />
+                  Paper PDF
+                </button>
+
+                <button
+                  onClick={() => handleDownloadSundayMasterPDF(true)}
+                  className="px-3 py-2.5 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-white/10"
+                  title="Download Master Paper with Solutions & Diagrams"
+                >
+                  <FileText className="w-4 h-4 text-amber-300" />
+                  Solutions PDF
+                </button>
+              </div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2">
+            {/* Circular Question Loop & Sequential Queue Status */}
+            <div className="p-3.5 bg-white/5 rounded-2xl border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-indigo-100 font-mono">
+              <div className="flex items-center gap-2.5">
+                <RefreshCw className="w-4 h-4 text-amber-400 shrink-0" />
+                <span>
+                  <strong className="text-amber-300">Continuous Question Loop Active:</strong> 45-question batches are drawn round-robin per subject without repeating diagrams. When exhausted, the loop resets back to 0 so 100% of question bank data is utilized.
+                </span>
+              </div>
               <button
-                onClick={handleLaunchSundayInCBT}
-                className="px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-xs cursor-pointer"
+                onClick={() => {
+                  resetLoopCursor('physics');
+                  resetLoopCursor('chemistry');
+                  resetLoopCursor('biology');
+                  setActionSuccessBanner('✓ Circular loop cursors reset to start (offset 0)');
+                  setTimeout(() => setActionSuccessBanner(null), 2500);
+                }}
+                className="text-[11px] underline text-amber-300 hover:text-white shrink-0 cursor-pointer font-bold"
               >
-                <Play className="w-4 h-4" />
-                Launch in CBT Player
-              </button>
-
-              <button
-                onClick={handlePublishSundayPaper}
-                className="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-xs cursor-pointer"
-              >
-                <CheckCheck className="w-4 h-4" />
-                Publish for All Students
-              </button>
-
-              <button
-                onClick={() => handleDownloadSundayMasterPDF(false)}
-                className="px-3 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-slate-200"
-                title="Download Clean Student Question Paper PDF"
-              >
-                <Download className="w-4 h-4 text-slate-600" />
-                Student Paper PDF
-              </button>
-
-              <button
-                onClick={() => handleDownloadSundayMasterPDF(true)}
-                className="px-3 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-slate-200"
-                title="Download Master Paper with Solutions & Diagrams"
-              >
-                <FileText className="w-4 h-4 text-purple-600" />
-                Master Key PDF
+                Reset Loop to Start
               </button>
             </div>
           </div>
 
           {publishSuccessMsg && (
-            <div className="p-4 bg-emerald-50 border border-emerald-300 rounded-2xl text-emerald-800 text-xs font-bold flex items-center justify-between">
+            <div className="p-4 bg-emerald-50 border border-emerald-300 rounded-2xl text-emerald-800 text-xs font-bold flex items-center justify-between shadow-xs">
               <span>{publishSuccessMsg}</span>
-              <button onClick={() => setPublishSuccessMsg(null)} className="text-emerald-600 hover:text-emerald-900 font-bold">
+              <button onClick={() => setPublishSuccessMsg(null)} className="text-emerald-600 hover:text-emerald-900 font-bold cursor-pointer">
                 ✕
               </button>
             </div>
           )}
 
-          {/* STEP 1: CHAPTER SELECTION ACCORDION / PICKER */}
+          {/* STEP 1: SUNDAY PAPER SELECTOR & TOPIC CHOOSER */}
           <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-gray-100 pb-3">
               <div>
                 <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-2">
                   <Layers className="w-4 h-4 text-blue-600" />
-                  Step 1: Choose Chapters (Zero Cross-Chapter Content Mixing)
+                  Step 1: Choose Sunday Paper & Topic Customization
                 </h4>
                 <p className="text-[11px] text-slate-500">
-                  Select which syllabus units to include for Physics (45 Qs), Chemistry (45 Qs), and Biology (90 Qs).
+                  Select which Sunday test paper you are editing, customize syllabus topics, and re-assemble 180 questions with zero cross-chapter mixing.
                 </p>
               </div>
 
-              {/* Presets */}
-              <div className="flex items-center gap-1.5 flex-wrap">
-                <span className="text-[10px] font-bold text-slate-400 uppercase mr-1">Presets:</span>
+              {/* Sunday Paper Selector Dropdown & Presets */}
+              <div className="flex items-center gap-2 flex-wrap">
+                <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-xl border border-slate-200">
+                  <span className="text-[11px] font-extrabold text-slate-700 px-1">Paper:</span>
+                  <select
+                    value={selectedPlannerPreset.toUpperCase()}
+                    onChange={(e) => handleSelectSundayPaper(e.target.value)}
+                    className="bg-white text-slate-900 font-black text-xs px-3 py-1 rounded-lg border border-slate-300 focus:outline-hidden focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                  >
+                    <optgroup label="Phase 1: Chapter-Wise Tests (CWT 01 - 19)">
+                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Phase 1: Cumulative Revision Tests (CUM 01 - 05)">
+                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'cumulative').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Phase 2: Part-Wise Tests (PART 01 - 03)">
+                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'part').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Phase 3: Full Syllabus Tests (FST 01 - 06)">
+                      {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
+                        <option key={t.code} value={t.code}>
+                          {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                  </select>
+                </div>
+
+                {/* Quick Presets */}
                 <button
                   onClick={() => handleApplyPreset('all')}
                   className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
                 >
-                  Full Syllabus (All)
+                  Full Syllabus
                 </button>
                 <button
                   onClick={() => handleApplyPreset('class11')}
                   className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
                 >
-                  Class 11 Focus
+                  Class 11
                 </button>
                 <button
                   onClick={() => handleApplyPreset('class12')}
                   className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
                 >
-                  Class 12 Focus
+                  Class 12
                 </button>
-                <button
-                  onClick={() => handleApplyPreset('cwt-01')}
-                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-blue-50 text-blue-700 border border-blue-200 cursor-pointer"
-                >
-                  CWT-01 Baseline
-                </button>
+
                 <button
                   onClick={handleAssembleSundayStudio}
-                  className="px-3 py-1 text-[11px] font-bold rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer flex items-center gap-1 ml-2"
+                  className="px-3 py-1.5 text-xs font-extrabold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer flex items-center gap-1.5 shadow-xs ml-1"
+                  title="Re-assemble 180 questions strictly matching currently selected units"
                 >
-                  <RefreshCw className="w-3 h-3" />
-                  Re-Assemble 180 Qs
+                  <RefreshCw className="w-3.5 h-3.5" />
+                  Re-Assemble {selectedPlannerPreset.toUpperCase()} (180 Qs)
                 </button>
               </div>
             </div>
@@ -1418,7 +1483,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 return paginated.map(({ q, originalIdx }) => {
                   const isEditing = editingQuestionIdx === originalIdx;
                   const isHardPhysics = (originalIdx < 45) && (q.difficulty === 'Hard' || q.difficulty === 'hard');
-                  const diagramSvg = isHardPhysics ? (getHardPhysicsDiagram(q) || q.diagramSvg) : q.diagramSvg;
+                  const diagramSvg = q.diagramSvg;
 
                   return (
                     <div
