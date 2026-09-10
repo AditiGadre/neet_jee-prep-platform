@@ -466,11 +466,17 @@ export default function App() {
           <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 overflow-y-auto animate-in fade-in duration-150">
             <div className="w-full max-w-6xl bg-slate-100 border border-slate-700 rounded-3xl shadow-2xl flex flex-col max-h-[96vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
               <div className="flex-1 overflow-y-auto p-3 sm:p-5">
-                <AdminSection
-                  onClose={() => setIsSuperUserModalOpen(false)}
-                  onStartCustomTest={handleStartTest}
-                  onOpenUploadModal={handleOpenUpload}
-                />
+                <ErrorBoundary
+                  fallbackTitle="Admin & Faculty Studio Session"
+                  fallbackMessage="An unexpected display issue occurred in the Admin Studio window. Click below to reload cleanly."
+                  onReset={() => setIsSuperUserModalOpen(false)}
+                >
+                  <AdminSection
+                    onClose={() => setIsSuperUserModalOpen(false)}
+                    onStartCustomTest={handleStartTest}
+                    onOpenUploadModal={handleOpenUpload}
+                  />
+                </ErrorBoundary>
               </div>
             </div>
           </div>

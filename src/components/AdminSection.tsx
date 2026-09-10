@@ -329,6 +329,58 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     }
   };
 
+  const handleSelectSundayPaper = (paperCode: string) => {
+    setSelectedPlannerPreset(paperCode);
+    handleApplyPreset(paperCode);
+
+    const saved = getSavedCustomSundayPaper(paperCode);
+    if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
+      setSundayQuestions(saved.questions);
+      if (saved.customChapters) {
+        if (saved.customChapters.physics?.length) setSundayPhyUnits(saved.customChapters.physics);
+        if (saved.customChapters.chemistry?.length) setSundayChemUnits(saved.customChapters.chemistry);
+        if (saved.customChapters.biology?.length) setSundayBioUnits(saved.customChapters.biology);
+      }
+    } else {
+      const planner = SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === paperCode.toUpperCase()) || SUNDAY_DROPPER_PLANNER_TESTS[0];
+      const defaultQuestions = generateSundayTestQuestions(planner, undefined, false);
+      setSundayQuestions(defaultQuestions);
+    }
+    setStudioPage(1);
+    setEditingQuestionIdx(null);
+    setEditForm(null);
+  };
+
+  const handleSaveAndPublishSelectedPaper = () => {
+    saveCustomSundayPaper(selectedPlannerPreset, {
+      questions: sundayQuestions,
+      customChapters: {
+        physics: sundayPhyUnits,
+        chemistry: sundayChemUnits,
+        biology: sundayBioUnits
+      },
+      testTitle: `Customized Sunday Paper: ${selectedPlannerPreset.toUpperCase()}`,
+      publishedBy: 'Institutional Master Admin'
+    });
+
+    setPublishSuccessMsg(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} saved & published platform-wide! All candidates will now receive these 180 questions with 100% chapter isolation.`);
+    setActionSuccessBanner(`✓ Sunday Paper ${selectedPlannerPreset.toUpperCase()} published!`);
+    setTimeout(() => {
+      setPublishSuccessMsg(null);
+      setActionSuccessBanner(null);
+    }, 4500);
+  };
+
+  const handleResetSelectedPaperToDefault = () => {
+    deleteCustomSundayPaper(selectedPlannerPreset);
+    handleApplyPreset(selectedPlannerPreset);
+    const planner = SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === selectedPlannerPreset.toUpperCase()) || SUNDAY_DROPPER_PLANNER_TESTS[0];
+    const defaultQs = generateSundayTestQuestions(planner, undefined, false);
+    setSundayQuestions(defaultQs);
+    setActionSuccessBanner(`✓ Paper ${selectedPlannerPreset.toUpperCase()} reset to standard planner default.`);
+    setTimeout(() => setActionSuccessBanner(null), 3000);
+  };
+
   const handleAssembleSundayStudio = () => {
     const matchStrict = (q: Question, units: string[]) => {
       const qCh = (q.chapter || '').toLowerCase().trim();
@@ -533,6 +585,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     };
 
     if (onStartCustomTest) {
+      if (onClose) onClose();
       onStartCustomTest(testItem);
     }
   };
@@ -633,6 +686,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     };
 
     if (onStartCustomTest) {
+      if (onClose) onClose();
       onStartCustomTest(customTestItem);
     }
   };
