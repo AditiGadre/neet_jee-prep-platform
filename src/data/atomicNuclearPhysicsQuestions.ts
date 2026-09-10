@@ -73,7 +73,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "In the following atoms and moleculates for the transition from n= 2 to n = 1, the spectral line of minimum w avelength will be produced by [NEET 2029 Practice]",
+    "questionText": "In the following atoms and molecules for the transition from n= 2 to n = 1, the spectral line of minimum wavelength will be produced by [NEET 2029 Practice]",
     "options": [
       "Hydrogen atom",
       "Deuterium atom",
@@ -161,7 +161,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "The ener gy levels of the hydrogen spectrum is shown in figure. There are some transitions A, B, C, D and E. Transition A, B and C respectively represent [NEET 2028 Expected]",
+    "questionText": "The energy levels of the hydrogen spectrum are shown in the figure. Transitions A, B, C, D and E represent various electron jumps. Transitions A, B and C respectively represent: [CPMT 1986, 88]",
     "options": [
       "First member of Lyman series, third spectral line of Balmer series and the second spectral line of Paschen series",
       "Ionization potential of hydrogen, second spectral line of Balmer series and third spectral line of Paschen series",
@@ -169,13 +169,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "Series limit of Lyman series, second spectral line of Balmer series and third spectral line of Paschen series"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): Transition A (n = ∞ to 1) : Series limit of Lyman series Transition B (n = 5 to n = 2) : Third spectral line of Balmer series Transition C (n = 5 to n = 3) : Second spectral line of Paschen series",
+    "explanation": "📘 NCERT Concept: Energy levels of hydrogen atom are given by E_n = -13.6/n² eV.\n⚡ Step-by-Step Derivation:\n1. Transition A starts from n = ∞ and ends at n = 1: This corresponds to the shortest wavelength (maximum energy) of the Lyman series, known as the Series Limit of the Lyman series.\n2. Transition B starts from n = 5 and ends at n = 2: For Balmer series, n₁ = 2. The 1st line is 3→2, 2nd line is 4→2, and 3rd spectral line is 5→2.\n3. Transition C starts from n = 5 and ends at n = 3: For Paschen series, n₁ = 3. The 1st line is 4→3, and 2nd spectral line is 5→3.\n💡 Examiner Pro-Tip: Downward arrows ending at n=1 belong to Lyman, n=2 to Balmer, and n=3 to Paschen.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 440 280\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"440\" height=\"280\" rx=\"10\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-down\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n    <marker id=\"arrow-up\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\" />\n    </marker>\n  </defs>\n  <text x=\"220\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Hydrogen Energy Level Transitions</text>\n  \n  <!-- Level Lines -->\n  <!-- n = infinity -->\n  <line x1=\"70\" y1=\"45\" x2=\"370\" y2=\"45\" stroke=\"#64748B\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"60\" y=\"49\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">n = ∞</text>\n  <text x=\"378\" y=\"49\" font-size=\"11\" font-family=\"monospace\" fill=\"#64748B\">0.00 eV</text>\n\n  <!-- n = 6 -->\n  <line x1=\"70\" y1=\"68\" x2=\"370\" y2=\"68\" stroke=\"#94A3B8\" stroke-width=\"1\"/>\n  <text x=\"60\" y=\"72\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 6</text>\n  <text x=\"378\" y=\"72\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-0.36 eV</text>\n\n  <!-- n = 5 -->\n  <line x1=\"70\" y1=\"90\" x2=\"370\" y2=\"90\" stroke=\"#94A3B8\" stroke-width=\"1\"/>\n  <text x=\"60\" y=\"94\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 5</text>\n  <text x=\"378\" y=\"94\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-0.54 eV</text>\n\n  <!-- n = 4 -->\n  <line x1=\"70\" y1=\"116\" x2=\"370\" y2=\"116\" stroke=\"#94A3B8\" stroke-width=\"1\"/>\n  <text x=\"60\" y=\"120\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 4</text>\n  <text x=\"378\" y=\"120\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-0.85 eV</text>\n\n  <!-- n = 3 -->\n  <line x1=\"70\" y1=\"148\" x2=\"370\" y2=\"148\" stroke=\"#94A3B8\" stroke-width=\"1.2\"/>\n  <text x=\"60\" y=\"152\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 3</text>\n  <text x=\"378\" y=\"152\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-1.51 eV</text>\n\n  <!-- n = 2 -->\n  <line x1=\"70\" y1=\"188\" x2=\"370\" y2=\"188\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"60\" y=\"192\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">n = 2</text>\n  <text x=\"378\" y=\"192\" font-size=\"11\" font-family=\"monospace\" fill=\"#475569\">-3.40 eV</text>\n\n  <!-- n = 1 -->\n  <line x1=\"70\" y1=\"248\" x2=\"370\" y2=\"248\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"60\" y=\"252\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">n = 1</text>\n  <text x=\"378\" y=\"252\" font-size=\"11\" font-family=\"monospace\" font-weight=\"bold\" fill=\"#0F172A\">-13.6 eV</text>\n\n  <!-- Arrow A: n = inf to n = 1 (Lyman series limit) -->\n  <line x1=\"120\" y1=\"47\" x2=\"120\" y2=\"242\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-down)\"/>\n  <rect x=\"110\" y=\"135\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/>\n  <text x=\"120\" y=\"148\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">A</text>\n\n  <!-- Arrow B: n = 5 to n = 2 (3rd line of Balmer) -->\n  <line x1=\"180\" y1=\"92\" x2=\"180\" y2=\"182\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-down)\"/>\n  <rect x=\"170\" y=\"130\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/>\n  <text x=\"180\" y=\"143\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">B</text>\n\n  <!-- Arrow C: n = 5 to n = 3 (2nd line of Paschen) -->\n  <line x1=\"240\" y1=\"92\" x2=\"240\" y2=\"142\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-down)\"/>\n  <rect x=\"230\" y=\"110\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/>\n  <text x=\"240\" y=\"123\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">C</text>\n\n  <!-- Arrow D: n = 2 to n = 6 (Absorption line of Balmer) -->\n  <line x1=\"300\" y1=\"186\" x2=\"300\" y2=\"74\" stroke=\"#DC2626\" stroke-width=\"2\" marker-end=\"url(#arrow-up)\"/>\n  <rect x=\"290\" y=\"120\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#FEF2F2\" stroke=\"#EF4444\"/>\n  <text x=\"300\" y=\"133\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#B91C1C\">D</text>\n\n  <!-- Arrow E: n = 1 to n = inf (Ionization) -->\n  <line x1=\"345\" y1=\"246\" x2=\"345\" y2=\"51\" stroke=\"#DC2626\" stroke-width=\"2\" marker-end=\"url(#arrow-up)\"/>\n  <rect x=\"335\" y=\"135\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#FEF2F2\" stroke=\"#EF4444\"/>\n  <text x=\"345\" y=\"148\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#B91C1C\">E</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q009",
@@ -183,7 +184,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "In the above figure D and E respectively represent [NEET 2027 Target]",
+    "questionText": "In the above energy level diagram of hydrogen, transitions D and E respectively represent: [CPMT 1986, 88]",
     "options": [
       "Absorption line of Balmer series and the ionization potential of hydrogen",
       "Absorption line of Balmer series and the wavelength lesser than lowest of the Lyman series",
@@ -191,13 +192,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "Spectral line of Lyman series and the absorp tion of greater wavelength of limiting value of Paschen series"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a): D is excitation of electron from 2 nd orbit corresponding to absorption line in Balmer series and E is the energy released to bring the electron from ∞ to ground state i.e. ionisation potential.",
+    "explanation": "📘 NCERT Concept: Upward arrows indicate energy absorption (excitation or ionization).\n⚡ Step-by-Step Derivation:\n1. Transition D starts from n = 2 and goes upwards to higher level n = 6: This represents an absorption line in the Balmer series.\n2. Transition E starts from the ground state n = 1 and goes to n = ∞: This represents the energy required to remove an electron completely from the ground state, which is the Ionization Potential of hydrogen (13.6 eV).\n💡 Key Takeaway: Emission lines point downward (ΔE < 0); absorption lines point upward (ΔE > 0).",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2028 Expected"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 440 280\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"440\" height=\"280\" rx=\"10\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-down\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n    <marker id=\"arrow-up\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\" />\n    </marker>\n  </defs>\n  <text x=\"220\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Hydrogen Energy Level Transitions</text>\n  \n  <!-- Level Lines -->\n  <!-- n = infinity -->\n  <line x1=\"70\" y1=\"45\" x2=\"370\" y2=\"45\" stroke=\"#64748B\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"60\" y=\"49\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">n = ∞</text>\n  <text x=\"378\" y=\"49\" font-size=\"11\" font-family=\"monospace\" fill=\"#64748B\">0.00 eV</text>\n\n  <!-- n = 6 -->\n  <line x1=\"70\" y1=\"68\" x2=\"370\" y2=\"68\" stroke=\"#94A3B8\" stroke-width=\"1\"/>\n  <text x=\"60\" y=\"72\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 6</text>\n  <text x=\"378\" y=\"72\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-0.36 eV</text>\n\n  <!-- n = 5 -->\n  <line x1=\"70\" y1=\"90\" x2=\"370\" y2=\"90\" stroke=\"#94A3B8\" stroke-width=\"1\"/>\n  <text x=\"60\" y=\"94\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 5</text>\n  <text x=\"378\" y=\"94\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-0.54 eV</text>\n\n  <!-- n = 4 -->\n  <line x1=\"70\" y1=\"116\" x2=\"370\" y2=\"116\" stroke=\"#94A3B8\" stroke-width=\"1\"/>\n  <text x=\"60\" y=\"120\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 4</text>\n  <text x=\"378\" y=\"120\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-0.85 eV</text>\n\n  <!-- n = 3 -->\n  <line x1=\"70\" y1=\"148\" x2=\"370\" y2=\"148\" stroke=\"#94A3B8\" stroke-width=\"1.2\"/>\n  <text x=\"60\" y=\"152\" text-anchor=\"end\" font-size=\"10\" fill=\"#475569\">n = 3</text>\n  <text x=\"378\" y=\"152\" font-size=\"10\" font-family=\"monospace\" fill=\"#64748B\">-1.51 eV</text>\n\n  <!-- n = 2 -->\n  <line x1=\"70\" y1=\"188\" x2=\"370\" y2=\"188\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"60\" y=\"192\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">n = 2</text>\n  <text x=\"378\" y=\"192\" font-size=\"11\" font-family=\"monospace\" fill=\"#475569\">-3.40 eV</text>\n\n  <!-- n = 1 -->\n  <line x1=\"70\" y1=\"248\" x2=\"370\" y2=\"248\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"60\" y=\"252\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">n = 1</text>\n  <text x=\"378\" y=\"252\" font-size=\"11\" font-family=\"monospace\" font-weight=\"bold\" fill=\"#0F172A\">-13.6 eV</text>\n\n  <!-- Arrow A: n = inf to n = 1 (Lyman series limit) -->\n  <line x1=\"120\" y1=\"47\" x2=\"120\" y2=\"242\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-down)\"/>\n  <rect x=\"110\" y=\"135\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/>\n  <text x=\"120\" y=\"148\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">A</text>\n\n  <!-- Arrow B: n = 5 to n = 2 (3rd line of Balmer) -->\n  <line x1=\"180\" y1=\"92\" x2=\"180\" y2=\"182\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-down)\"/>\n  <rect x=\"170\" y=\"130\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/>\n  <text x=\"180\" y=\"143\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">B</text>\n\n  <!-- Arrow C: n = 5 to n = 3 (2nd line of Paschen) -->\n  <line x1=\"240\" y1=\"92\" x2=\"240\" y2=\"142\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-down)\"/>\n  <rect x=\"230\" y=\"110\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/>\n  <text x=\"240\" y=\"123\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">C</text>\n\n  <!-- Arrow D: n = 2 to n = 6 (Absorption line of Balmer) -->\n  <line x1=\"300\" y1=\"186\" x2=\"300\" y2=\"74\" stroke=\"#DC2626\" stroke-width=\"2\" marker-end=\"url(#arrow-up)\"/>\n  <rect x=\"290\" y=\"120\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#FEF2F2\" stroke=\"#EF4444\"/>\n  <text x=\"300\" y=\"133\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#B91C1C\">D</text>\n\n  <!-- Arrow E: n = 1 to n = inf (Ionization) -->\n  <line x1=\"345\" y1=\"246\" x2=\"345\" y2=\"51\" stroke=\"#DC2626\" stroke-width=\"2\" marker-end=\"url(#arrow-up)\"/>\n  <rect x=\"335\" y=\"135\" width=\"20\" height=\"18\" rx=\"3\" fill=\"#FEF2F2\" stroke=\"#EF4444\"/>\n  <text x=\"345\" y=\"148\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#B91C1C\">E</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q010",
@@ -205,7 +207,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "The Rutherford α-particle experiment shows that most of the α- particles pass through almost unscattered while some are scattered through large angles. What information does it give ab out the structure of the atom [NEET 2029 Practice]",
+    "questionText": "The Rutherford α-particle experiment shows that most of the α- particles pass through almost unscattered while some are scattered through large angles. What information does it give about the structure of the atom [NEET 2029 Practice]",
     "options": [
       "Atom is hollow",
       "The whole mass of the atom is concentrated in a small centre called nucleus",
@@ -424,21 +426,22 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "Energy levels A, B, C of a certain atom corresponding to increasing values of energy i.e. CBA EEE << . If 321 ,, λλλ are the wavelengths of radiations corresponding to the transitions C to B, B to A and C to A respectively, which of the following statements is correct [NEET 2029 Practice]",
+    "questionText": "Energy levels A, B, C of a certain atom correspond to increasing values of energy i.e., E_A < E_B < E_C. If λ₁, λ₂, λ₃ are the wavelengths of radiations corresponding to transitions C → B, B → A and C → A respectively, which of the following statements is correct? [AIIMS 1995; CBSE PMT 1990, 2005]",
     "options": [
-      "213 λλλ +=",
-      "21 21 3 λλ λλλ +=",
-      "0321 =++ λλλ",
-      "2 2 2 1 2 3 λλλ +="
+      "λ₃ = λ₁ + λ₂",
+      "λ₃ = (λ₁ λ₂) / (λ₁ + λ₂)",
+      "λ₁ + λ₂ + λ₃ = 0",
+      "λ₃² = λ₁² + λ₂²"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): Let the energy in A, B and C state be E A . E B and E C , then from the figure )()()( ACABBC EEEEEE -=-+- or 321 λλλ hchchc =+ 21 21 3 λλ λλλ +=⇒",
+    "explanation": "📘 NCERT Concept: By conservation of energy, the energy of a direct transition equals the sum of energies of the intermediate transitions.\n⚡ Step-by-Step Derivation:\n1. E_{C→A} = E_{C→B} + E_{B→A}\n2. Since photon energy is E = hc/λ, we have: hc/λ₃ = hc/λ₁ + hc/λ₂\n3. Dividing both sides by hc: 1/λ₃ = 1/λ₁ + 1/λ₂ = (λ₁ + λ₂) / (λ₁ λ₂)\n4. Inverting gives: λ₃ = (λ₁ λ₂) / (λ₁ + λ₂).",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2027 Target"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 380 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"380\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-q20\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n  </defs>\n  <text x=\"190\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Energy Levels: E_A &lt; E_B &lt; E_C</text>\n  \n  <!-- Level C (Highest) -->\n  <line x1=\"60\" y1=\"50\" x2=\"320\" y2=\"50\" stroke=\"#0F172A\" stroke-width=\"2.5\"/>\n  <text x=\"45\" y=\"55\" font-size=\"14\" font-weight=\"bold\" fill=\"#0F172A\">C</text>\n\n  <!-- Level B (Middle) -->\n  <line x1=\"60\" y1=\"105\" x2=\"320\" y2=\"105\" stroke=\"#334155\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"110\" font-size=\"14\" font-weight=\"bold\" fill=\"#334155\">B</text>\n\n  <!-- Level A (Lowest) -->\n  <line x1=\"60\" y1=\"165\" x2=\"320\" y2=\"165\" stroke=\"#0F172A\" stroke-width=\"2.5\"/>\n  <text x=\"45\" y=\"170\" font-size=\"14\" font-weight=\"bold\" fill=\"#0F172A\">A</text>\n\n  <!-- C to B : lambda 1 -->\n  <line x1=\"120\" y1=\"53\" x2=\"120\" y2=\"99\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow-q20)\"/>\n  <rect x=\"95\" y=\"70\" width=\"22\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#93C5FD\"/>\n  <text x=\"106\" y=\"83\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">λ₁</text>\n\n  <!-- B to A : lambda 2 -->\n  <line x1=\"190\" y1=\"108\" x2=\"190\" y2=\"159\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow-q20)\"/>\n  <rect x=\"165\" y=\"125\" width=\"22\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#93C5FD\"/>\n  <text x=\"176\" y=\"138\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">λ₂</text>\n\n  <!-- C to A : lambda 3 -->\n  <line x1=\"260\" y1=\"53\" x2=\"260\" y2=\"159\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow-q20)\"/>\n  <rect x=\"272\" y=\"100\" width=\"22\" height=\"18\" rx=\"3\" fill=\"#EFF6FF\" stroke=\"#93C5FD\"/>\n  <text x=\"283\" y=\"113\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">λ₃</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q021",
@@ -578,21 +581,22 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "The following diagram indicates the energy levels of a certain atom when the system moves from 2E level to E, a photon of wavelength λ is emitted. The wavelength of photon produced during its transition from 3 4 E level to E is [NEET 2029 Practice]",
+    "questionText": "The following diagram indicates the energy levels of a certain atom. When the system moves from the 2E level to E, a photon of wavelength λ is emitted. The wavelength of photon produced during its transition from (4/3)E level to E is: [CPMT 1989]",
     "options": [
-      "3/λ",
-      "4/3λ",
-      "3/4λ",
-      "λ3"
+      "λ / 3",
+      "3λ / 4",
+      "4λ / 3",
+      "3λ"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): λλ hcEhcEE =⇒=-2 λλλ λ λλ 3'3' '3'3 4 =⇒=∴=⇒=- hcEhcEE",
+    "explanation": "📘 NCERT Concept: Emitted photon energy ΔE = hc/λ.\n⚡ Step-by-Step Derivation:\n1. First transition (2E → E): ΔE₁ = 2E - E = E = hc/λ.\n2. Second transition ((4/3)E → E): ΔE₂ = (4/3)E - E = E/3 = hc/λ'.\n3. Comparing energies: ΔE₂ = ΔE₁ / 3 ⟹ hc/λ' = (1/3)(hc/λ).\n4. Therefore, λ' = 3λ.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2027 Target"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 190\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"190\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-q27\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n  </defs>\n  <text x=\"180\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Energy Levels: 2E, 4/3 E, E</text>\n\n  <!-- Level 2E -->\n  <line x1=\"70\" y1=\"50\" x2=\"300\" y2=\"50\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"55\" y=\"55\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\" text-anchor=\"end\">2E</text>\n\n  <!-- Level 4/3 E -->\n  <line x1=\"70\" y1=\"100\" x2=\"300\" y2=\"100\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"55\" y=\"105\" font-size=\"13\" font-weight=\"bold\" fill=\"#475569\" text-anchor=\"end\">4/3 E</text>\n\n  <!-- Level E -->\n  <line x1=\"70\" y1=\"155\" x2=\"300\" y2=\"155\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"55\" y=\"160\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\" text-anchor=\"end\">E</text>\n\n  <!-- Transition 2E -> E : lambda -->\n  <line x1=\"140\" y1=\"53\" x2=\"140\" y2=\"149\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow-q27)\"/>\n  <rect x=\"150\" y=\"90\" width=\"45\" height=\"22\" rx=\"4\" fill=\"#EFF6FF\" stroke=\"#93C5FD\"/>\n  <text x=\"172\" y=\"105\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">λ</text>\n\n  <!-- Transition 4/3 E -> E : lambda' -->\n  <line x1=\"240\" y1=\"103\" x2=\"240\" y2=\"149\" stroke=\"#2563EB\" stroke-width=\"2.5\" marker-end=\"url(#arrow-q27)\"/>\n  <rect x=\"250\" y=\"115\" width=\"45\" height=\"22\" rx=\"4\" fill=\"#EFF6FF\" stroke=\"#93C5FD\"/>\n  <text x=\"272\" y=\"130\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">λ' = ?</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q028",
@@ -600,21 +604,22 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "A beam of fast moving alpha particles were directed towards a thin film of gold. The parts BA ′′, and C′ of the transmitted and reflected beams corresponding to the incident parts A, B and C of the beam, are shown in the adjoining diagram. The number of alpha particles in [NEET 2028 Expected] λ1 λ2 λ3 C B A 2E 4/3E E B′ B A C C′ A′",
+    "questionText": "A beam of fast-moving alpha particles is directed towards a thin film of gold. The parts A', B' and C' of the transmitted and reflected beams corresponding to incident parts A, B and C are shown in the diagram. The number of alpha particles in: [CPMT 1986, 88; RPET 2000]",
     "options": [
-      "B′ will be minimum and in C′ maximum",
-      "A′ will be maximum and in B′ minimum",
-      "A′ will be minimum and in B′ maximum",
-      "C′ will be minimum and in B′ maximum"
+      "B' will be minimum and C' maximum",
+      "A' will be maximum and B' minimum",
+      "A' will be minimum and B' maximum",
+      "C' will be minimum and B' maximum"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): Because atom is hollow and whole mass of atom is concentrated in a small centre called nucleus.",
+    "explanation": "📘 NCERT Concept: Rutherford's gold foil experiment proved that most of the atom is empty space.\n⚡ Step-by-Step Derivation:\n1. Most α-particles (over 99.8%) pass through the gold foil with virtually no deflection (Beam A → A'), so A' is maximum.\n2. Only about 1 in 8000 α-particles collides nearly head-on with a massive positive nucleus and rebounds back (>90°, Beam B → B'), so B' is minimum.\n3. Beam C suffers moderate scattering (C').\n4. Thus, A' is maximum and B' is minimum.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 420 220\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"420\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-beam\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#0F172A\" />\n    </marker>\n    <marker id=\"arrow-beam-def\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\" />\n    </marker>\n  </defs>\n  <text x=\"210\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Rutherford α-Particle Scattering on Thin Gold Film</text>\n\n  <!-- Gold Foil -->\n  <rect x=\"220\" y=\"45\" width=\"12\" height=\"140\" fill=\"#FDE047\" stroke=\"#CA8A04\" stroke-width=\"1.5\" rx=\"2\"/>\n  <text x=\"226\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#854D0E\">Gold Foil</text>\n\n  <!-- Nucleus -->\n  <circle cx=\"226\" cy=\"115\" r=\"5\" fill=\"#EF4444\"/>\n\n  <!-- Beam B (center - backscattered) -->\n  <line x1=\"60\" y1=\"95\" x2=\"215\" y2=\"95\" stroke=\"#0F172A\" stroke-width=\"2\" marker-end=\"url(#arrow-beam)\"/>\n  <text x=\"45\" y=\"99\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">B</text>\n  <!-- Beam B reflected back as B' -->\n  <path d=\"M 215,95 Q 210,80 140,75\" stroke=\"#DC2626\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#arrow-beam-def)\"/>\n  <text x=\"130\" y=\"72\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">B' (Reflected)</text>\n\n  <!-- Beam A (straight through - maximum) -->\n  <line x1=\"60\" y1=\"115\" x2=\"215\" y2=\"115\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"119\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">A</text>\n  <!-- Beam A transmitted to A' -->\n  <line x1=\"232\" y1=\"115\" x2=\"360\" y2=\"115\" stroke=\"#16A34A\" stroke-width=\"2.5\" marker-end=\"url(#arrow-beam)\"/>\n  <text x=\"375\" y=\"119\" font-size=\"11\" font-weight=\"bold\" fill=\"#16A34A\">A' (Straight)</text>\n\n  <!-- Beam C (glancing / deflected) -->\n  <line x1=\"60\" y1=\"150\" x2=\"215\" y2=\"150\" stroke=\"#0F172A\" stroke-width=\"2\" marker-end=\"url(#arrow-beam)\"/>\n  <text x=\"45\" y=\"154\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">C</text>\n  <!-- Beam C deflected to C' -->\n  <path d=\"M 215,150 Q 230,155 350,175\" stroke=\"#2563EB\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#arrow-beam)\"/>\n  <text x=\"360\" y=\"180\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">C'</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q029",
@@ -754,7 +759,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "Figure shows the energy levels P, Q, R, S and G of an atom where G is the ground state. A red line in the emission spectrum of the atom can be obtained by an energy level change from Q to S. A blue line can be obtained by following energy level change [NEET 2029 Practice]",
+    "questionText": "Figure shows the energy levels P, Q, R, S and G of an atom where G is the ground state. A red line in the emission spectrum of the atom is obtained by transition Q → S. A blue line can be obtained by which energy level transition? [MP PMT 1994]",
     "options": [
       "P to Q",
       "Q to R",
@@ -762,13 +767,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "R to G"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): If E is the energy radiated in transition then QPRQSRSQGR EEEEE →→→→→ >>>> For getting blue line energy radiated should be maximum | ) )| ( ( ∝ λ 1E . Hence (d) is the correct option.",
+    "explanation": "📘 NCERT Concept: Photon energy is inversely proportional to wavelength: E = hc/λ. Blue light has a shorter wavelength and higher energy than red light (E_blue > E_red).\n⚡ Step-by-Step Derivation:\n1. E_{Q→S} corresponds to the red line.\n2. The transition for blue light must have a significantly larger energy gap than Q → S.\n3. Looking at the levels: E_{R→G} > E_{Q→S} > E_{R→S} > E_{Q→R} > E_{P→Q}.\n4. The transition from R to ground state G has the largest energy difference, hence producing the blue line.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2027 Target"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 210\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"210\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-red\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\" />\n    </marker>\n  </defs>\n  <text x=\"180\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Energy Levels: P, Q, R, S, G (Ground State)</text>\n\n  <!-- Level P -->\n  <line x1=\"70\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"#94A3B8\" stroke-width=\"1.5\"/>\n  <text x=\"55\" y=\"49\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"end\">P</text>\n\n  <!-- Level Q -->\n  <line x1=\"70\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#64748B\" stroke-width=\"1.5\"/>\n  <text x=\"55\" y=\"79\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"end\">Q</text>\n\n  <!-- Level R -->\n  <line x1=\"70\" y1=\"110\" x2=\"300\" y2=\"110\" stroke=\"#64748B\" stroke-width=\"1.5\"/>\n  <text x=\"55\" y=\"114\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"end\">R</text>\n\n  <!-- Level S -->\n  <line x1=\"70\" y1=\"145\" x2=\"300\" y2=\"145\" stroke=\"#475569\" stroke-width=\"1.8\"/>\n  <text x=\"55\" y=\"149\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"end\">S</text>\n\n  <!-- Level G (Ground state) -->\n  <line x1=\"70\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#0F172A\" stroke-width=\"2.5\"/>\n  <text x=\"55\" y=\"189\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\" text-anchor=\"end\">G</text>\n\n  <!-- Transition Q -> S : Red Line -->\n  <line x1=\"150\" y1=\"77\" x2=\"150\" y2=\"139\" stroke=\"#DC2626\" stroke-width=\"2.5\" marker-end=\"url(#arrow-red)\"/>\n  <rect x=\"160\" y=\"98\" width=\"70\" height=\"20\" rx=\"4\" fill=\"#FEF2F2\" stroke=\"#EF4444\"/>\n  <text x=\"195\" y=\"112\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#B91C1C\">Red Line</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q036",
@@ -798,7 +804,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Easy",
-    "questionText": "The figure indicates the energy level diag ram of an atom and the origin of six spectral lines in emission (e.g. line no. 5 arises from the transition from level B to A). The following spectral lines will also occur in the absorption spectrum [NEET 2027 Target]",
+    "questionText": "The figure indicates the energy level diagram of an atom and the origin of six spectral lines in emission (e.g., line 5 arises from transition B → A). Which of these spectral lines will also occur in the absorption spectrum? [CBSE PMT 1995]",
     "options": [
       "1, 4, 6",
       "4, 5, 6",
@@ -806,13 +812,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "1, 2, 3, 4, 5, 6"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): The absorption lines are obtained when the electron jumps from ground state ( n = 1) to the higher energy states. Thus only 1, 2 and 3 lines will be obtained.",
+    "explanation": "📘 NCERT Concept: At normal temperatures, atoms reside almost entirely in their lowest ground state (level X).\n⚡ Step-by-Step Derivation:\n1. Absorption requires an incoming photon to excite an electron from the ground state X to higher levels: X → A, X → B, X → C.\n2. The emission transitions that connect back down to ground state X are line 1 (C → X), line 2 (B → X), and line 3 (A → X).\n3. Transitions between excited states (lines 4, 5, 6) do not appear in ordinary absorption spectra because excited states are unoccupied.\n4. Hence, only lines 1, 2, and 3 appear in the absorption spectrum.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2028 Expected"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 400 220\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"400\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-lines\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n  </defs>\n  <text x=\"200\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Atomic Energy Levels & Six Emission Spectral Lines</text>\n\n  <!-- Level C -->\n  <line x1=\"60\" y1=\"50\" x2=\"350\" y2=\"50\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"365\" y=\"55\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">C</text>\n\n  <!-- Level B -->\n  <line x1=\"60\" y1=\"95\" x2=\"350\" y2=\"95\" stroke=\"#334155\" stroke-width=\"1.8\"/>\n  <text x=\"365\" y=\"100\" font-size=\"13\" font-weight=\"bold\" fill=\"#334155\">B</text>\n\n  <!-- Level A -->\n  <line x1=\"60\" y1=\"140\" x2=\"350\" y2=\"140\" stroke=\"#334155\" stroke-width=\"1.8\"/>\n  <text x=\"365\" y=\"145\" font-size=\"13\" font-weight=\"bold\" fill=\"#334155\">A</text>\n\n  <!-- Level X (Ground State) -->\n  <line x1=\"60\" y1=\"185\" x2=\"350\" y2=\"185\" stroke=\"#0F172A\" stroke-width=\"2.5\"/>\n  <text x=\"365\" y=\"190\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">X</text>\n\n  <!-- Line 1: C -> X -->\n  <line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"179\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-lines)\"/>\n  <text x=\"90\" y=\"202\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">1</text>\n\n  <!-- Line 2: B -> X -->\n  <line x1=\"135\" y1=\"97\" x2=\"135\" y2=\"179\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-lines)\"/>\n  <text x=\"135\" y=\"202\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">2</text>\n\n  <!-- Line 3: A -> X -->\n  <line x1=\"180\" y1=\"142\" x2=\"180\" y2=\"179\" stroke=\"#2563EB\" stroke-width=\"2\" marker-end=\"url(#arrow-lines)\"/>\n  <text x=\"180\" y=\"202\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">3</text>\n\n  <!-- Line 4: C -> A -->\n  <line x1=\"225\" y1=\"52\" x2=\"225\" y2=\"134\" stroke=\"#475569\" stroke-width=\"1.8\" marker-end=\"url(#arrow-lines)\"/>\n  <text x=\"225\" y=\"152\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">4</text>\n\n  <!-- Line 5: B -> A -->\n  <line x1=\"270\" y1=\"97\" x2=\"270\" y2=\"134\" stroke=\"#475569\" stroke-width=\"1.8\" marker-end=\"url(#arrow-lines)\"/>\n  <text x=\"270\" y=\"152\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">5</text>\n\n  <!-- Line 6: C -> B -->\n  <line x1=\"315\" y1=\"52\" x2=\"315\" y2=\"89\" stroke=\"#475569\" stroke-width=\"1.8\" marker-end=\"url(#arrow-lines)\"/>\n  <text x=\"315\" y=\"108\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">6</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q038",
@@ -1941,7 +1948,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "Which of the following statements are true regarding Bohr's model of hydrogen atom (I) Orbiting speed of electron decreases as it shifts to discrete orbits away from the nucleus (II) Radii of allowed orbits of electron are proportional to the principal quantum number (III) Frequency with which electrons orbits around the nucleus in discrete orbits is inverse ly proportional to the principal quantum number (IV) Binding force with which the electron is bound to the nucleus increases as it shifts to outer orbits Select correct answer using the codes given below Codes : [NEET 2029 Practice]",
+    "questionText": "Which of the following statements are true regarding Bohr's model of hydrogen atom?\n(I) Orbiting speed of electron decreases as it shifts to discrete orbits away from the nucleus.\n(II) Radii of allowed orbits of electron are proportional to the principal quantum number.\n(III) Frequency with which electron orbits around the nucleus in discrete orbits is inversely proportional to the cube of the principal quantum number.\n(IV) Binding force with which the electron is bound to the nucleus increases as it shifts to outer orbits.\nSelect the correct answer using the codes given below: [SCRA 1998]",
     "options": [
       "I and III",
       "II and IV",
@@ -1963,15 +1970,15 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "The wavelength of radiation emitted is 0λ when an electron jumps from the third to the second orbit of hydrogen atom. For the electron jump from the fourth to the second orbit of the hy drogen atom, the wavelength of radiation emitted will be [NEET 2028 Expected]",
+    "questionText": "The wavelength of radiation emitted is λ₀ when an electron jumps from the third to the second orbit of hydrogen atom. For the electron jump from the fourth to the second orbit of the hydrogen atom, the wavelength of radiation emitted will be: [SCRA 1998; MP PET 2001; MH CET 2003]",
     "options": [
-      "025 16 λ",
-      "027 20 λ",
-      "020 27 λ",
-      "016 25 λ"
+      "(16/25) λ₀",
+      "(20/27) λ₀",
+      "(27/20) λ₀",
+      "(25/16) λ₀"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): }} | ] {{ | [ -= 2 2 2 1 111 nn Rλ ⇒ 36 5 )3( 1 )2( 11 22 23 RR =}| ] {| [ -= →λ and 16 3 )4( 1 )2( 11 22 24 RR =} | ] { | [ -= →λ ∴ 27 20 23 24 = → → λ λ ⇒ 024 27 20 λλ =→",
+    "explanation": "📘 NCERT Concept: Rydberg formula for Balmer series: 1/λ = R(1/2² - 1/n²).\n⚡ Step-by-Step Derivation:\n1. For 3 → 2 transition: 1/λ₀ = R(1/4 - 1/9) = 5R/36 ⟹ λ₀ = 36 / (5R).\n2. For 4 → 2 transition: 1/λ = R(1/4 - 1/16) = 3R/16 ⟹ λ = 16 / (3R).\n3. Dividing the two: λ / λ₀ = (16 / 3R) / (36 / 5R) = (16 × 5) / (3 × 36) = 80 / 108 = 20 / 27.\n4. Therefore, λ = (20/27) λ₀.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
@@ -2007,15 +2014,15 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "The energy of electron in first excited state of H -atom is eV4.3- its kinetic energy is [NEET 2029 Practice]",
+    "questionText": "The energy of an electron in the first excited state of H-atom is -3.4 eV. Its kinetic energy is: [RPET 1999; CBSE PMT 2005]",
     "options": [
-      "– 3.4 eV",
-      "+ 3.4 eV",
-      "– 6.8 eV",
-      "6.8 eV"
+      "-3.4 eV",
+      "+3.4 eV",
+      "-6.8 eV",
+      "+6.8 eV"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): Kinetic energy = |Total energy|",
+    "explanation": "📘 NCERT Concept: In Bohr atom, Kinetic Energy K = -Total Energy E.\n⚡ Step-by-Step Derivation:\n1. Total energy in first excited state (n = 2): E = -3.4 eV.\n2. Kinetic energy K = |E| = -(-3.4 eV) = +3.4 eV.\n3. Potential energy U = 2E = -6.8 eV.\n4. Hence, kinetic energy is +3.4 eV.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
@@ -2337,7 +2344,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "In hydrogen atom, if the difference in the ener gy of the electron in 2=n and 3=n orbits is E, the ionization energy of hydrogen atom is [NEET 2027 Target]",
+    "questionText": "In hydrogen atom, if the difference in the energy of the electron in 2=n and 3=n orbits is E, the ionization energy of hydrogen atom is [NEET 2027 Target]",
     "options": [
       "13.2 E",
       "7.2 E",
@@ -2777,7 +2784,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "The diagram shows the path of four α-particles of the same energy being scattered by the nucleus of an atom simultaneously. Which of these are/is not physically possible [NEET 2028 Expected]",
+    "questionText": "The diagram shows the path of four α-particles of the same energy being scattered by the nucleus of an atom simultaneously. Which of these is/are not physically possible? [AMU (Med.) 2001]",
     "options": [
       "3 and 4",
       "2 and 3",
@@ -2785,13 +2792,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "4 only"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): α-particles cannot be attracted by the nucleus.",
+    "explanation": "📘 NCERT Concept: An α-particle has charge +2e and the nucleus has charge +Ze. The Coulomb electrostatic interaction between them is strictly repulsive.\n⚡ Step-by-Step Derivation:\n1. Trajectories 1, 2, and 3 show paths bending away from the positive nucleus with varying impact parameters (hyperbolic repulsive trajectories).\n2. Trajectory 4 curves inward towards the nucleus, which would require an attractive force.\n3. Because two positive charges cannot attract, trajectory 4 is physically impossible.\n💡 Examiner Pro-Tip: Rutherford scattering trajectories must always be convex with respect to the scattering center.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 380 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"380\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-traj\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n    <marker id=\"arrow-attract\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\" />\n    </marker>\n  </defs>\n  <text x=\"190\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Scattering of α-particles by Nucleus</text>\n\n  <!-- Nucleus (+) -->\n  <circle cx=\"210\" cy=\"100\" r=\"14\" fill=\"#FEF08A\" stroke=\"#CA8A04\" stroke-width=\"2\"/>\n  <text x=\"210\" y=\"104\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#854D0E\">+</text>\n  <text x=\"210\" y=\"128\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">Nucleus</text>\n\n  <!-- Path 1 (Deflected up away from nucleus) -->\n  <path d=\"M 40,70 L 160,70 Q 200,68 280,45\" stroke=\"#2563EB\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#arrow-traj)\"/>\n  <text x=\"25\" y=\"74\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E40AF\">1</text>\n\n  <!-- Path 2 (Large angle deflection back/up) -->\n  <path d=\"M 40,90 L 165,90 Q 185,88 280,68\" stroke=\"#2563EB\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#arrow-traj)\"/>\n  <text x=\"25\" y=\"94\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E40AF\">2</text>\n\n  <!-- Path 3 (Head-on deflection) -->\n  <path d=\"M 40,110 L 160,110 Q 200,115 280,140\" stroke=\"#2563EB\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#arrow-traj)\"/>\n  <text x=\"25\" y=\"114\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E40AF\">3</text>\n\n  <!-- Path 4 (Curving towards the nucleus - attractive, IMPOSSIBLE) -->\n  <path d=\"M 40,130 L 140,130 Q 185,130 250,95\" stroke=\"#DC2626\" stroke-width=\"2.5\" stroke-dasharray=\"4,2\" fill=\"none\" marker-end=\"url(#arrow-attract)\"/>\n  <text x=\"25\" y=\"134\" font-size=\"12\" font-weight=\"bold\" fill=\"#B91C1C\">4</text>\n  <text x=\"260\" y=\"85\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">(Attraction - Impossible)</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q128",
@@ -2843,7 +2851,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "Four lowest energy leve ls of H-atom are shown in the figure. The number of possible emission lines would be [NEET 2028 Expected] 1 2 3 4 n = 4 n = 3 n = 2 n = 1",
+    "questionText": "Four lowest energy levels of H-atom are shown in the figure (n = 1, 2, 3, 4). The total number of possible emission lines when an electron is in the n = 4 state is: [MP PMT 2001]",
     "options": [
       "3",
       "4",
@@ -2851,13 +2859,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "6"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): Number of possible emission lines 2 )1( -= nn Where n = 4; Number .62 )14(4 =-=",
+    "explanation": "📘 NCERT Concept: The number of possible spectral emission lines from level n is N = n(n - 1) / 2.\n⚡ Step-by-Step Derivation:\n1. For n = 4: N = 4(4 - 1) / 2 = (4 × 3) / 2 = 6 lines.\n2. The 6 transitions are:\n   • Lyman series (to n=1): 4→1, 3→1, 2→1 (3 lines)\n   • Balmer series (to n=2): 4→2, 3→2 (2 lines)\n   • Paschen series (to n=3): 4→3 (1 line)\n3. Total = 3 + 2 + 1 = 6 lines.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 180\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"180\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Four Lowest Energy Levels of Hydrogen Atom</text>\n\n  <!-- Level n = 4 -->\n  <line x1=\"60\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"315\" y=\"49\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">n = 4</text>\n\n  <!-- Level n = 3 -->\n  <line x1=\"60\" y1=\"80\" x2=\"300\" y2=\"80\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"315\" y=\"84\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">n = 3</text>\n\n  <!-- Level n = 2 -->\n  <line x1=\"60\" y1=\"115\" x2=\"300\" y2=\"115\" stroke=\"#475569\" stroke-width=\"1.8\"/>\n  <text x=\"315\" y=\"119\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">n = 2</text>\n\n  <!-- Level n = 1 -->\n  <line x1=\"60\" y1=\"155\" x2=\"300\" y2=\"155\" stroke=\"#0F172A\" stroke-width=\"2.5\"/>\n  <text x=\"315\" y=\"159\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">n = 1</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q131",
@@ -3723,7 +3732,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Atomic Structure & Hydrogen Spectrum",
     "difficulty": "Medium",
-    "questionText": "The diagram shows -the energy levels for an electron in a certain atom. Which transition shown represents the emission of a photon with the most energy [NEET 2028 Expected]",
+    "questionText": "The diagram shows energy levels for an electron in a certain atom (n = 1, 2, 3, 4). Which transition represents the emission of a photon with the most energy? [AIEEE 2005]",
     "options": [
       "I",
       "II",
@@ -3731,13 +3740,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "IV"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): Emitted energy || ) ) || ( ( -=Δ 2 2 2 1 11 nn hcE λ .",
+    "explanation": "📘 NCERT Concept: For photon emission, the transition must be downward (higher to lower energy). The emitted photon energy is ΔE = E_initial - E_final.\n⚡ Step-by-Step Derivation:\n1. Transition I (n=3 → n=4) is an upward transition (absorption, not emission).\n2. Transition II (n=2 → n=1): ΔE = -3.4 - (-13.6) = 10.2 eV.\n3. Transition III (n=4 → n=1): ΔE = -0.85 - (-13.6) = 12.75 eV.\n4. Transition IV (n=4 → n=2): ΔE = -0.85 - (-3.4) = 2.55 eV.\n5. Transition III has the largest energy difference (12.75 eV), emitting the photon with the most energy.",
     "tags": [
       "NEET Physics",
       "Atomic Physics",
       "Bohr Model & Spectral Series",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 380 220\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"380\" height=\"220\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <defs>\n    <marker id=\"arrow-down-170\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563EB\" />\n    </marker>\n    <marker id=\"arrow-up-170\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#DC2626\" />\n    </marker>\n  </defs>\n  <text x=\"190\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1E293B\">Electron Transitions: I, II, III, IV</text>\n\n  <!-- Level n = 4 -->\n  <line x1=\"50\" y1=\"50\" x2=\"320\" y2=\"50\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"335\" y=\"54\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">n = 4</text>\n\n  <!-- Level n = 3 -->\n  <line x1=\"50\" y1=\"85\" x2=\"320\" y2=\"85\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"335\" y=\"89\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">n = 3</text>\n\n  <!-- Level n = 2 -->\n  <line x1=\"50\" y1=\"125\" x2=\"320\" y2=\"125\" stroke=\"#475569\" stroke-width=\"1.8\"/>\n  <text x=\"335\" y=\"129\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">n = 2</text>\n\n  <!-- Level n = 1 -->\n  <line x1=\"50\" y1=\"180\" x2=\"320\" y2=\"180\" stroke=\"#0F172A\" stroke-width=\"2.5\"/>\n  <text x=\"335\" y=\"184\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">n = 1</text>\n\n  <!-- Transition I: n = 3 to n = 4 (Upward absorption) -->\n  <line x1=\"90\" y1=\"83\" x2=\"90\" y2=\"56\" stroke=\"#DC2626\" stroke-width=\"2.2\" marker-end=\"url(#arrow-up-170)\"/>\n  <text x=\"90\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#B91C1C\">I</text>\n\n  <!-- Transition II: n = 2 to n = 1 (Downward emission) -->\n  <line x1=\"150\" y1=\"127\" x2=\"150\" y2=\"174\" stroke=\"#2563EB\" stroke-width=\"2.2\" marker-end=\"url(#arrow-down-170)\"/>\n  <text x=\"150\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1D4ED8\">II</text>\n\n  <!-- Transition III: n = 4 to n = 1 (Max energy emission) -->\n  <line x1=\"210\" y1=\"52\" x2=\"210\" y2=\"174\" stroke=\"#2563EB\" stroke-width=\"3\" marker-end=\"url(#arrow-down-170)\"/>\n  <text x=\"210\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1D4ED8\">III</text>\n\n  <!-- Transition IV: n = 4 to n = 2 (Downward emission) -->\n  <line x1=\"270\" y1=\"52\" x2=\"270\" y2=\"119\" stroke=\"#2563EB\" stroke-width=\"2.2\" marker-end=\"url(#arrow-down-170)\"/>\n  <text x=\"270\" y=\"200\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1D4ED8\">IV</text>\n</svg>"
   },
   {
     "id": "universal-atomic-struct-q171",
@@ -4031,21 +4041,22 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "A radioactive sample consists of two distinct species having equal number of atoms initially. The mean life time of one species is and that of the other is 5 . The decay products in both cases are stable. A plot is made of the total number of radioactive nuclei as a function of time. Which of the following figures best represents the form of this plot [NEET 2028 Expected] (a) (b) (c) (d)",
+    "questionText": "A radioactive sample consists of two distinct species having equal numbers of atoms initially. The mean lifetime of one species is τ and that of the other is 5τ. The decay products in both cases are stable. A plot is made of the total number of radioactive nuclei N as a function of time t. Which of the following figures best represents this plot? [IIT-JEE 2001]",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (d) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Radioactive decay follows N(t) = N₀ e^(-t/τ).\n⚡ Step-by-Step Derivation:\n1. Total remaining nuclei: N(t) = N₁(t) + N₂(t) = N₀ e^(-t/τ) + N₀ e^(-t/5τ).\n2. Both terms are strictly positive, continuously decreasing, and asymptotically approach zero as t → ∞.\n3. The derivative dN/dt is negative everywhere (no bumps, no local minima/maxima).\n4. Graph (d) is the only smooth, monotonically decaying exponential curve.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Two Radioactive Species Decay: N vs t</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <path d=\"M 30,30 L 60,30 L 60,75 L 140,75\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <path d=\"M 30,25 Q 60,65 90,65 Q 120,40 150,45\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <path d=\"M 30,30 Q 50,65 75,65 Q 100,35 150,75\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <path d=\"M 30,25 Q 55,68 150,78\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"110\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ Correct</text>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q005",
@@ -4053,21 +4064,22 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "Radioactive element decays to form a stable nuclide, then the rate of decay of reactant | ) )| ( ( dt dN will vary with time (t) as shown in figure [NEET 2027 Target] (a) (b) (c) (d)",
+    "questionText": "A radioactive element decays to form a stable nuclide. The rate of decay |dN/dt| varies with time t as shown in figure: [DCE 2000]",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (c) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: The rate of disintegration is given by |dN/dt| = λN.\n⚡ Step-by-Step Derivation:\n1. Since N(t) = N₀ e^(-λt), the rate is R(t) = |dN/dt| = λN₀ e^(-λt).\n2. At t = 0, R = λN₀ (maximum initial rate).\n3. As t increases, R decreases exponentially and approaches zero as t → ∞.\n4. This exponential decay curve is shown in Graph (c).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis",
       "NEET 2028 Expected"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Rate of Decay |dN/dt| vs Time t</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">|dN/dt|</text>\n    <path d=\"M 30,75 Q 85,25 140,75\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">|dN/dt|</text>\n    <path d=\"M 30,35 Q 70,35 90,50 L 150,75\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">|dN/dt|</text>\n    <path d=\"M 30,25 Q 60,70 150,77\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"95\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ Correct</text>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">|dN/dt|</text>\n    <path d=\"M 30,75 Q 100,70 150,30\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q006",
@@ -4075,20 +4087,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "A radioactive sample has 0N active atoms at 0=t . If the rate of disintegration at any time is R and the number of atoms is N, then the ratio R/N varies with time as (a) (b) (c) (d)",
+    "questionText": "A radioactive sample has N₀ active atoms at t = 0. If the rate of disintegration at any time is R and the number of active atoms is N, then the ratio R/N varies with time t as:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (d) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Rutherford-Soddy law states that rate of decay R = λN.\n⚡ Step-by-Step Derivation:\n1. Dividing by N: R / N = λ (decay constant).\n2. The decay constant λ is a characteristic constant of the radioactive substance and is independent of time.\n3. Therefore, R/N is constant over time, giving a horizontal line parallel to the time axis (Graph (d)).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Ratio of Rate to Atoms (R/N) vs Time t</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">R/N</text>\n    <path d=\"M 30,25 Q 50,70 150,75\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">R/N</text>\n    <path d=\"M 30,75 Q 70,30 150,35\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">R/N</text>\n    <line x1=\"30\" y1=\"30\" x2=\"140\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">R/N</text>\n    <line x1=\"30\" y1=\"45\" x2=\"150\" y2=\"45\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><text x=\"80\" y=\"38\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ R/N = λ (Const)</text>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q007",
@@ -4096,21 +4109,22 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The count rate of 10 g of radioactive material was measured at different times and this has been shown in the figure. The half life of material and the total counts (approximately) in the first half life period, respectively are [NEET 2029 Practice]",
+    "questionText": "The count rate of 10 g of radioactive material was measured at different times as shown in the figure. The half-life of the material and the total counts (approximately) in the first half-life period are: [CPMT 1986]",
     "options": [
-      "4h, 9000",
-      "3h, 14000",
-      "3h, 235",
-      "3h, 50"
+      "4 h, 9000",
+      "3 h, 14000",
+      "3 h, 235",
+      "3 h, 50"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (b) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Half-life T_{1/2} is the time taken for activity to drop to 50% of initial value.\n⚡ Step-by-Step Derivation:\n1. From the plot: at t = 0, initial count rate R₀ = 100 counts/min.\n2. Half of R₀ is 50 counts/min. The curve intersects R = 50 at t = 3 hours. Hence T_{1/2} = 3 hours.\n3. Total counts in first half-life = area under curve = ∫₀^{T_{1/2}} R(t) dt = (R₀ - R₀/2) / λ = (50 counts/min × 60 min/h) / (0.693 / 3 h) ≈ 14000 counts.\n4. Therefore, T_{1/2} = 3 h, and total counts ≈ 14000.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis",
       "NEET 2027 Target"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 380 240\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"380\" height=\"240\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"190\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Radioactive Decay: Count Rate vs Time</text>\n\n  <!-- Grid lines -->\n  <line x1=\"70\" y1=\"50\" x2=\"330\" y2=\"50\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"70\" y1=\"80\" x2=\"330\" y2=\"80\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"70\" y1=\"110\" x2=\"330\" y2=\"110\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"70\" y1=\"140\" x2=\"330\" y2=\"140\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"70\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n\n  <!-- Vertical grid -->\n  <line x1=\"122\" y1=\"40\" x2=\"122\" y2=\"200\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"174\" y1=\"40\" x2=\"174\" y2=\"200\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"226\" y1=\"40\" x2=\"226\" y2=\"200\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"278\" y1=\"40\" x2=\"278\" y2=\"200\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n  <line x1=\"330\" y1=\"40\" x2=\"330\" y2=\"200\" stroke=\"#E2E8F0\" stroke-width=\"1\"/>\n\n  <!-- Axes -->\n  <line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"200\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <line x1=\"70\" y1=\"200\" x2=\"340\" y2=\"200\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n\n  <!-- Y Labels -->\n  <text x=\"62\" y=\"54\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">100</text>\n  <text x=\"62\" y=\"84\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">80</text>\n  <text x=\"62\" y=\"114\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">60</text>\n  <text x=\"62\" y=\"129\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" font-weight=\"bold\" fill=\"#DC2626\">50</text>\n  <text x=\"62\" y=\"144\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">40</text>\n  <text x=\"62\" y=\"174\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">20</text>\n  <text x=\"62\" y=\"204\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">0</text>\n\n  <!-- X Labels -->\n  <text x=\"70\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">0</text>\n  <text x=\"122\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">2</text>\n  <text x=\"148\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" font-weight=\"bold\" fill=\"#DC2626\">3</text>\n  <text x=\"174\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">4</text>\n  <text x=\"226\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">6</text>\n  <text x=\"278\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">8</text>\n  <text x=\"330\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">10</text>\n  <text x=\"200\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#0F172A\">Time t (hours)</text>\n\n  <!-- Axis Title Y -->\n  <text x=\"16\" y=\"120\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"bold\" fill=\"#0F172A\" transform=\"rotate(-90 16 120)\">Count rate (per min)</text>\n\n  <!-- Decay Curve -->\n  <path d=\"M 70,50 Q 110,105 148,125 T 226,170 T 330,192\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/>\n\n  <!-- Half life highlight (50 cpm -> 3h) -->\n  <line x1=\"70\" y1=\"125\" x2=\"148\" y2=\"125\" stroke=\"#DC2626\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/>\n  <line x1=\"148\" y1=\"125\" x2=\"148\" y2=\"200\" stroke=\"#DC2626\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/>\n  <circle cx=\"148\" cy=\"125\" r=\"4\" fill=\"#DC2626\"/>\n  <text x=\"156\" y=\"120\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">T½ = 3h</text>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q008",
@@ -4118,20 +4132,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The fraction f of radioactive material that has decayed in time t, varies with time t. The correct variation is given by the curve",
+    "questionText": "The fraction f of radioactive material that has decayed in time t varies with time t according to curve:",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Curve A",
+      "Curve B",
+      "Curve C",
+      "Curve D"
     ],
-    "correctAnswer": 1,
-    "explanation": "Option (b): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (b) accurately represents the physical relationship.",
+    "correctAnswer": 3,
+    "explanation": "📘 NCERT Concept: Fraction undecayed is N/N₀ = e^(-λt).\n⚡ Step-by-Step Derivation:\n1. The fraction decayed is f = (N₀ - N) / N₀ = 1 - e^(-λt).\n2. At t = 0: f = 1 - 1 = 0 (starts at origin).\n3. As t → ∞: e^(-λt) → 0 ⟹ f → 1 (asymptotes to 1).\n4. The rate of increase df/dt = λ e^(-λt) is positive and decreases with time (concave downwards).\n5. This matches Curve D.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 210\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"210\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"180\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Fraction Decayed f vs Time t</text>\n\n  <!-- Axes -->\n  <line x1=\"50\" y1=\"40\" x2=\"50\" y2=\"170\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <line x1=\"50\" y1=\"170\" x2=\"320\" y2=\"170\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"330\" y=\"174\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">t</text>\n  <text x=\"40\" y=\"45\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">f</text>\n  <text x=\"45\" y=\"182\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748B\">0</text>\n  \n  <!-- Horizontal line at f = 1 -->\n  <line x1=\"50\" y1=\"60\" x2=\"320\" y2=\"60\" stroke=\"#94A3B8\" stroke-dasharray=\"3,3\" stroke-width=\"1\"/>\n  <text x=\"40\" y=\"64\" text-anchor=\"end\" font-size=\"10\" font-weight=\"bold\" fill=\"#64748B\">1.0</text>\n\n  <!-- Curve A: Linear -->\n  <line x1=\"50\" y1=\"170\" x2=\"280\" y2=\"60\" stroke=\"#475569\" stroke-width=\"1.8\"/>\n  <text x=\"245\" y=\"80\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">A</text>\n\n  <!-- Curve B: Concave from top -->\n  <path d=\"M 50,70 Q 150,130 300,150\" stroke=\"#475569\" stroke-width=\"1.8\" fill=\"none\"/>\n  <text x=\"285\" y=\"140\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">B</text>\n\n  <!-- Curve C: Convex from top -->\n  <path d=\"M 50,70 Q 200,90 300,165\" stroke=\"#475569\" stroke-width=\"1.8\" fill=\"none\"/>\n  <text x=\"280\" y=\"160\" font-size=\"12\" font-weight=\"bold\" fill=\"#334155\">C</text>\n\n  <!-- Curve D: f = 1 - e^(-lambda*t) (Correct) -->\n  <path d=\"M 50,170 Q 100,80 300,62\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/>\n  <text x=\"285\" y=\"80\" font-size=\"12\" font-weight=\"bold\" fill=\"#1D4ED8\">D (✓)</text>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q009",
@@ -4139,7 +4154,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "Binding energy per nucleon verses mass number curve for nuclei is shown in the figure. W, X, Y and Z are four nuclei indicated on the curve. The process that would release energy is [NEET 2028 Expected]",
+    "questionText": "Binding energy per nucleon versus mass number curve for nuclei is shown in the figure. W, X, Y and Z are four nuclei indicated on the curve. The process that would release energy is: [IIT-JEE 1999]",
     "options": [
       "Y → 2Z",
       "W → X + Z",
@@ -4147,13 +4162,14 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "X → Y + Z"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (c) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Nuclear reactions release energy (exothermic) when total binding energy increases: Q = BE_{products} - BE_{reactants} > 0.\n⚡ Step-by-Step Derivation:\n1. From the curve: Z(A=30, BE/A=5.0 MeV), Y(A=60, BE/A=8.5 MeV), X(A=90, BE/A=8.0 MeV), W(A=120, BE/A=7.5 MeV).\n2. For W → 2Y (mass conserved: 120 = 2 × 60):\n   • Initial BE of W = 120 × 7.5 = 900 MeV\n   • Final BE of 2Y = 2 × (60 × 8.5) = 1020 MeV\n3. Q = 1020 - 900 = +120 MeV > 0 (releases energy).\n4. Hence, process W → 2Y releases energy.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis",
       "NEET 2029 Practice"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 380 230\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"380\" height=\"230\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"190\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Binding Energy per Nucleon vs Mass Number</text>\n\n  <!-- Axes -->\n  <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"180\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <line x1=\"60\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"215\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#0F172A\">Mass Number of Nuclei (A)</text>\n  <text x=\"18\" y=\"110\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"bold\" fill=\"#0F172A\" transform=\"rotate(-90 18 110)\">B.E. / nucleon (MeV)</text>\n\n  <!-- Y labels -->\n  <text x=\"52\" y=\"160\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">5.0</text>\n  <text x=\"52\" y=\"110\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">7.5</text>\n  <text x=\"52\" y=\"90\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">8.0</text>\n  <text x=\"52\" y=\"65\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">8.5</text>\n\n  <!-- X labels -->\n  <text x=\"120\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">30</text>\n  <text x=\"180\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">60</text>\n  <text x=\"240\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">90</text>\n  <text x=\"300\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\" fill=\"#334155\">120</text>\n\n  <!-- Curve -->\n  <path d=\"M 60,180 Q 90,165 120,155 Q 150,85 180,62 Q 240,85 300,105\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/>\n\n  <!-- Points Z, Y, X, W -->\n  <!-- Z (30, 5.0) -->\n  <circle cx=\"120\" cy=\"155\" r=\"4\" fill=\"#EF4444\"/>\n  <text x=\"128\" y=\"152\" font-size=\"11\" font-weight=\"bold\" fill=\"#DC2626\">Z (30, 5.0)</text>\n\n  <!-- Y (60, 8.5) -->\n  <circle cx=\"180\" cy=\"62\" r=\"4\" fill=\"#16A34A\"/>\n  <text x=\"180\" y=\"52\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#15803D\">Y (60, 8.5)</text>\n\n  <!-- X (90, 8.0) -->\n  <circle cx=\"240\" cy=\"85\" r=\"4\" fill=\"#0284C7\"/>\n  <text x=\"248\" y=\"82\" font-size=\"11\" font-weight=\"bold\" fill=\"#0369A1\">X (90, 8.0)</text>\n\n  <!-- W (120, 7.5) -->\n  <circle cx=\"300\" cy=\"105\" r=\"4\" fill=\"#9333EA\"/>\n  <text x=\"308\" y=\"102\" font-size=\"11\" font-weight=\"bold\" fill=\"#7E22CE\">W (120, 7.5)</text>\n\n  <!-- Energy release arrow: W -> 2Y -->\n  <line x1=\"300\" y1=\"110\" x2=\"300\" y2=\"180\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/>\n  <line x1=\"180\" y1=\"67\" x2=\"180\" y2=\"180\" stroke=\"#94A3B8\" stroke-dasharray=\"2,2\"/>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q010",
@@ -4161,20 +4177,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The plot of the number )(N of decayed atoms versus activity )(A of a radioactive substance is (a) (b) (c) (d)",
+    "questionText": "The plot of the number of decayed atoms N_d versus activity A of a radioactive substance is represented by:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (d) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Activity A = λN, where N is the number of active (undecayed) atoms.\n⚡ Step-by-Step Derivation:\n1. N = A / λ.\n2. Number of decayed atoms N_d = N₀ - N = N₀ - (1/λ)A.\n3. Comparing with straight line equation y = mx + c: slope m = -1/λ (negative) and y-intercept c = N₀ (positive).\n4. This linear relationship with negative slope is shown in Graph (d).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Decayed Atoms (N_d) vs Activity (A)</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N_d</text>\n    <path d=\"M 30,25 Q 50,70 150,75\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N_d</text>\n    <line x1=\"30\" y1=\"70\" x2=\"140\" y2=\"25\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N_d</text>\n    <line x1=\"30\" y1=\"45\" x2=\"150\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N_d</text>\n    <line x1=\"30\" y1=\"25\" x2=\"145\" y2=\"80\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><text x=\"75\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ Slope = -1/λ</text>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q011",
@@ -4182,20 +4199,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "If in hydrogen atom, radius of thn Bohr orbit is ,nr frequency of revolution of electron in thn orbit is nf choose the correct option",
+    "questionText": "In a hydrogen atom, the radius of the nth Bohr orbit is r_n and the frequency of revolution of the electron is f_n. Choose the correct option: [IIT-JEE Level]",
     "options": [
-      "Plot of log(r_n/r₁) vs log(n) is a straight line",
-      "Plot of log(f_n/f₁) vs log(n) is a straight line",
-      "Both plots are parabolic curves",
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
       "Both (a) and (b)"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (d) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Bohr orbit dependencies on quantum number n: r_n ∝ n² and f_n ∝ 1/n³.\n⚡ Step-by-Step Derivation:\n1. Radius r_n = r₁ n²: Graph of r_n vs n is a parabola opening upward (Graph a is correct).\n2. Taking log: log(r_n / r₁) = 2 log n: Graph of log(r_n/r₁) vs log n is a straight line through the origin with slope 2 (Graph b is correct).\n3. For frequency: log(f_n / f₁) = -3 log n (negative slope), so Graph c with positive slope is incorrect.\n4. Therefore, both (a) and (b) are correct.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Bohr Orbit Parameters vs n</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">n / log n</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">r_n / log r_n</text>\n    <path d=\"M 30,80 Q 90,75 145,25\" stroke=\"#2563EB\" stroke-width=\"2.2\" fill=\"none\"/><text x=\"40\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">r_n ∝ n² (✓)</text>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">n / log n</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">r_n / log r_n</text>\n    <line x1=\"30\" y1=\"80\" x2=\"145\" y2=\"30\" stroke=\"#2563EB\" stroke-width=\"2.2\"/><text x=\"40\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">log(r_n/r₁) = 2 log n (✓)</text>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">n / log n</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">r_n / log r_n</text>\n    <line x1=\"30\" y1=\"80\" x2=\"145\" y2=\"35\" stroke=\"#94A3B8\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/><text x=\"40\" y=\"45\" font-size=\"9\" fill=\"#64748B\">log(f_n/f₁)</text>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">n / log n</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">r_n / log r_n</text>\n    <rect x=\"15\" y=\"25\" width=\"155\" height=\"50\" rx=\"4\" fill=\"#EFF6FF\" stroke=\"#3B82F6\"/><text x=\"92\" y=\"45\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">Both (a) and (b)</text><text x=\"92\" y=\"62\" text-anchor=\"middle\" font-size=\"9\" fill=\"#1E40AF\">are valid relations</text>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q012",
@@ -4203,20 +4221,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The graph between the instantaneous concentration )(N of a radioactive element and time )(t is (a) (b) (c) (d)",
+    "questionText": "The graph between the instantaneous concentration N of a radioactive element and time t is:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 3,
-    "explanation": "Option (d): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (d) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Radioactive decay law states N(t) = N₀ e^(-λt).\n⚡ Step-by-Step Derivation:\n1. At t = 0, N = N₀.\n2. As time increases, N decays exponentially toward zero.\n3. This standard exponential decay curve is shown in Graph (d).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Instantaneous Concentration (N) vs Time (t)</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <line x1=\"30\" y1=\"75\" x2=\"140\" y2=\"25\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <line x1=\"30\" y1=\"35\" x2=\"150\" y2=\"35\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <line x1=\"30\" y1=\"80\" x2=\"110\" y2=\"25\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <path d=\"M 30,25 Q 55,70 150,77\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"80\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ N = N₀e^(-λt)</text>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q013",
@@ -4224,20 +4243,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "In Fig. X represents time and Y represent activity of a ra dioactive sample. Then the activity of sample, varies with time according to the curve",
+    "questionText": "In the figure, X represents time and Y represents activity of a radioactive sample. The activity of the sample varies with time according to curve:",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Curve A",
+      "Curve B",
+      "Curve C",
+      "Curve D"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (b) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Activity of a radioactive sample A(t) = A₀ e^(-λt).\n⚡ Step-by-Step Derivation:\n1. Curve A is horizontal (A = const, incorrect).\n2. Curve C is a straight line with constant negative slope (incorrect).\n3. Curve D increases with time (incorrect).\n4. Curve B starts at A₀ and decays exponentially with an asymptotic tail toward zero, which correctly represents A(t).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"180\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Activity (Y) vs Time (X)</text>\n\n  <!-- Axes -->\n  <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"165\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <line x1=\"60\" y1=\"165\" x2=\"310\" y2=\"165\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"320\" y=\"170\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">X (time)</text>\n  <text x=\"50\" y=\"45\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">Y (activity)</text>\n  <text x=\"52\" y=\"176\" text-anchor=\"end\" font-size=\"10\" fill=\"#64748B\">O</text>\n\n  <!-- Line A: horizontal -->\n  <line x1=\"60\" y1=\"60\" x2=\"280\" y2=\"60\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"290\" y=\"64\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">A</text>\n\n  <!-- Curve B: exponential decay (Correct) -->\n  <path d=\"M 60,65 Q 120,150 280,158\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/>\n  <text x=\"290\" y=\"155\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">B (✓)</text>\n\n  <!-- Line C: linear decay -->\n  <line x1=\"60\" y1=\"65\" x2=\"280\" y2=\"135\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"290\" y=\"138\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">C</text>\n\n  <!-- Curve D: increasing -->\n  <path d=\"M 60,155 Q 180,140 280,65\" stroke=\"#475569\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"290\" y=\"70\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">D</text>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q014",
@@ -4245,20 +4265,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The graph which represents the correct variation of logarithm of activity (log A) versus time, in figure is",
+    "questionText": "The graph which represents the correct variation of the logarithm of activity (log A) versus time t is:",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Curve A",
+      "Curve B",
+      "Curve C",
+      "Curve D"
     ],
-    "correctAnswer": 3,
-    "explanation": "Option (d): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (d) accurately represents the physical relationship.",
+    "correctAnswer": 2,
+    "explanation": "📘 NCERT Concept: Activity A = A₀ e^(-λt).\n⚡ Step-by-Step Derivation:\n1. Taking natural logarithm: ln A = ln A₀ - λt.\n2. In common log: log₁₀ A = log₁₀ A₀ - (λ / 2.303) t.\n3. This is in the form of a linear equation y = c - mx, where m = λ / 2.303 is a positive constant.\n4. The graph of log A versus t is a straight line with a constant negative slope, corresponding to Line C.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"180\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Logarithm of Activity (log A) vs Time t</text>\n\n  <!-- Axes -->\n  <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"165\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <line x1=\"60\" y1=\"165\" x2=\"310\" y2=\"165\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"185\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#0F172A\">time t</text>\n  <text x=\"50\" y=\"45\" text-anchor=\"end\" font-size=\"10\" font-weight=\"bold\" fill=\"#0F172A\">Log A</text>\n\n  <!-- Curve A: horizontal -->\n  <line x1=\"60\" y1=\"60\" x2=\"280\" y2=\"60\" stroke=\"#475569\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"290\" y=\"64\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">A</text>\n\n  <!-- Curve B: convex downward -->\n  <path d=\"M 60,75 Q 160,110 280,115\" stroke=\"#475569\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"290\" y=\"118\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">B</text>\n\n  <!-- Line C: Straight line with negative slope (Correct: log A = log A0 - lambda*t / 2.303) -->\n  <line x1=\"60\" y1=\"75\" x2=\"280\" y2=\"155\" stroke=\"#2563EB\" stroke-width=\"2.5\"/>\n  <text x=\"290\" y=\"158\" font-size=\"11\" font-weight=\"bold\" fill=\"#1D4ED8\">C (✓)</text>\n\n  <!-- Curve D: increasing -->\n  <line x1=\"60\" y1=\"150\" x2=\"280\" y2=\"70\" stroke=\"#475569\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"290\" y=\"74\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">D</text>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q015",
@@ -4266,20 +4287,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The charge density in a nucleus varies with distance from the centre of the nucleus according to the curve in Fig. (a) (b) (c) (d)",
+    "questionText": "The nuclear charge density ρ varies with distance r from the centre of the nucleus according to the curve:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Curve (a)",
+      "Curve (b)",
+      "Curve (c)",
+      "Curve (d)"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (c) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Nuclear matter is practically incompressible with a uniform central density.\n⚡ Step-by-Step Derivation:\n1. Inside the nucleus (from r = 0 up to nuclear radius R), the charge density ρ is roughly constant: ρ ≈ 2.3 × 10¹⁷ kg/m³.\n2. Near the surface boundary (r ≈ R), the density drops sharply to zero over a skin thickness of ~2.4 fm (Fermi-Dirac distribution).\n3. Curve (c) accurately depicts this flat central core followed by a rapid drop to zero.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Nuclear Charge Density (ρ) vs Distance (r)</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">r</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">ρ</text>\n    <path d=\"M 30,80 Q 70,80 85,30 Q 100,80 150,80\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">r</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">ρ</text>\n    <line x1=\"30\" y1=\"80\" x2=\"105\" y2=\"30\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105\" y1=\"30\" x2=\"105\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">r</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">ρ</text>\n    <path d=\"M 30,30 L 85,30 Q 95,30 100,75 L 150,80\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"40\" y=\"55\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ Uniform Core + Skin</text>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">r</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">ρ</text>\n    <path d=\"M 30,25 Q 45,75 150,80\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q016",
@@ -4287,20 +4309,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The graph between log R and log A where R is the nuclear radius and A is the mass number is (a) (b) (c) (d)",
+    "questionText": "The graph between log R and log A, where R is nuclear radius and A is mass number, is represented by:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (a) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Nuclear radius R = R₀ A^{1/3}, where R₀ ≈ 1.2 fm.\n⚡ Step-by-Step Derivation:\n1. Taking log on both sides: log R = log R₀ + (1/3) log A.\n2. This is a straight line equation y = mx + c with slope m = 1/3 and intercept c = log R₀.\n3. A straight line with a positive slope and positive intercept is shown in Graph (a).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">log R vs log A (Nuclear Radius)</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">log A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">log R</text>\n    <line x1=\"30\" y1=\"65\" x2=\"145\" y2=\"25\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><text x=\"45\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ Slope = 1/3</text>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">log A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">log R</text>\n    <path d=\"M 30,30 Q 85,25 90,60 Q 95,80 150,80\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">log A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">log R</text>\n    <path d=\"M 30,25 Q 50,75 145,80\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">log A</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">log R</text>\n    <path d=\"M 30,80 Q 55,40 145,35\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q017",
@@ -4308,20 +4331,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The curve between the activity A of a radioactive sample and the number of active atoms N is (a) (b) (c) (d)",
+    "questionText": "The curve between the activity A of a radioactive sample and the number of active atoms N is:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (b) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: By Rutherford-Soddy law, activity A = λN.\n⚡ Step-by-Step Derivation:\n1. The decay constant λ is constant for a given radioisotope.\n2. A is directly proportional to N: A ∝ N.\n3. The plot of A vs N is a straight line passing through the origin (0, 0) with slope λ, as depicted in Graph (b).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Activity (A) vs Active Atoms (N)</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <line x1=\"30\" y1=\"45\" x2=\"150\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <line x1=\"30\" y1=\"80\" x2=\"140\" y2=\"25\" stroke=\"#2563EB\" stroke-width=\"2.5\"/><text x=\"45\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ A = λN (Linear)</text>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <path d=\"M 30,25 Q 55,75 145,80\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">N</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">A</text>\n    <line x1=\"30\" y1=\"55\" x2=\"150\" y2=\"55\" stroke=\"#334155\" stroke-width=\"2\"/>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q018",
@@ -4329,20 +4353,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The graph between number of decayed atoms N′ of a radioactive element and time t is (a) (b) (c) (d)",
+    "questionText": "The graph between the number of decayed atoms N' of a radioactive element and time t is:",
     "options": [
-      "(a) Graph representation curve A",
-      "(b) Graph representation curve B",
-      "(c) Graph representation curve C",
-      "(d) Graph representation curve D"
+      "Graph (a)",
+      "Graph (b)",
+      "Graph (c)",
+      "Graph (d)"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (c) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Number of undecayed atoms is N = N₀ e^(-λt).\n⚡ Step-by-Step Derivation:\n1. Number of decayed atoms N' = N₀ - N = N₀ (1 - e^(-λt)).\n2. At t = 0: N' = 0 (starts from origin).\n3. As t → ∞: N' → N₀ (asymptotically approaches initial population).\n4. The rate of decay dN'/dt = λ N₀ e^(-λt) is positive and decreases with time.\n5. This concave-downward curve approaching N₀ is shown in Graph (c).",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 460 260\" class=\"w-full max-w-lg mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"260\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">Decayed Atoms (N') vs Time (t)</text>\n  \n  <!-- Panel (a) Top Left -->\n  <g transform=\"translate(30, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(a)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N'</text>\n    <path d=\"M 30,25 Q 55,75 145,80\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (b) Top Right -->\n  <g transform=\"translate(245, 35)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(b)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N'</text>\n    <path d=\"M 30,80 Q 110,75 130,25\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n\n  <!-- Panel (c) Bottom Left -->\n  <g transform=\"translate(30, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(c)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N'</text>\n    <path d=\"M 30,80 Q 50,30 145,28\" stroke=\"#2563EB\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"45\" y=\"45\" font-size=\"9\" font-weight=\"bold\" fill=\"#2563EB\">✓ N' = N₀(1 - e^-λt)</text>\n  </g>\n\n  <!-- Panel (d) Bottom Right -->\n  <g transform=\"translate(245, 145)\">\n    <rect width=\"185\" height=\"95\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n    <text x=\"12\" y=\"16\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">(d)</text>\n    <line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <line x1=\"30\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"168\" y=\"83\" font-size=\"9\" fill=\"#64748B\">t</text>\n    <text x=\"28\" y=\"16\" text-anchor=\"end\" font-size=\"9\" fill=\"#64748B\">N'</text>\n    <path d=\"M 30,80 Q 80,45 145,35\" stroke=\"#334155\" stroke-width=\"2\" fill=\"none\"/>\n  </g>\n</svg>"
   },
   {
     "id": "universal-atomic-graph-q019",
@@ -4350,20 +4375,21 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Nuclei",
     "topic": "Radioactive Decay & Binding Energy Graphs",
     "difficulty": "Medium",
-    "questionText": "The figure shows a graph between 1 ln A An and ln|n|, where nA is the area enclosed by the nth orbit in a hydrogen like atom. The correct curve is",
+    "questionText": "The figure shows a graph between ln(A_n / A₁) and ln|n|, where A_n is the area enclosed by the nth orbit in a hydrogen-like atom. The correct curve is:",
     "options": [
-      "4",
-      "3",
-      "2",
-      "1"
+      "Curve 4",
+      "Curve 3",
+      "Curve 2",
+      "Curve 1"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a): From radioactive decay kinetics N = N₀ e^(-λt) and activity law A = λN, graph curve (a) accurately represents the physical relationship.",
+    "explanation": "📘 NCERT Concept: Radius of the nth Bohr orbit is r_n ∝ n².\n⚡ Step-by-Step Derivation:\n1. The enclosed circular area is A_n = π r_n² ∝ (n²)² = n⁴.\n2. Therefore, A_n / A₁ = n⁴.\n3. Taking natural logarithm: ln(A_n / A₁) = ln(n⁴) = 4 ln n.\n4. This represents a straight line through the origin with slope m = 4.\n5. In the diagram, Curve 4 passes through ln n = 1, ln(A_n/A₁) = 4 with slope 4. Hence Curve 4 is correct.",
     "tags": [
       "NEET Physics",
       "Nuclear Physics",
       "Radioactivity & Graphical Analysis"
-    ]
+    ],
+    "diagramSvg": "<svg viewBox=\"0 0 360 210\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"360\" height=\"210\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"180\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#0F172A\">ln(A_n / A₁) vs ln|n| (Orbit Area vs n)</text>\n\n  <!-- Axes -->\n  <line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"170\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <line x1=\"70\" y1=\"170\" x2=\"320\" y2=\"170\" stroke=\"#0F172A\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"195\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#0F172A\">ln|n|</text>\n  <text x=\"25\" y=\"105\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#0F172A\" transform=\"rotate(-90 25 105)\">ln(A_n / A₁)</text>\n  <text x=\"60\" y=\"178\" font-size=\"11\" fill=\"#64748B\">O</text>\n\n  <!-- Ticks -->\n  <line x1=\"65\" y1=\"125\" x2=\"75\" y2=\"125\" stroke=\"#0F172A\" stroke-width=\"1.5\"/>\n  <text x=\"58\" y=\"129\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\">2</text>\n  <line x1=\"65\" y1=\"80\" x2=\"75\" y2=\"80\" stroke=\"#0F172A\" stroke-width=\"1.5\"/>\n  <text x=\"58\" y=\"84\" text-anchor=\"end\" font-size=\"10\" font-family=\"monospace\">4</text>\n\n  <line x1=\"170\" y1=\"165\" x2=\"170\" y2=\"175\" stroke=\"#0F172A\" stroke-width=\"1.5\"/>\n  <text x=\"170\" y=\"188\" text-anchor=\"middle\" font-size=\"10\" font-family=\"monospace\">1</text>\n\n  <!-- Curve 1 (slope ~ 0.5) -->\n  <line x1=\"70\" y1=\"170\" x2=\"300\" y2=\"145\" stroke=\"#64748B\" stroke-width=\"1.5\"/>\n  <text x=\"310\" y=\"148\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">1</text>\n\n  <!-- Curve 2 (slope ~ 1) -->\n  <line x1=\"70\" y1=\"170\" x2=\"300\" y2=\"115\" stroke=\"#64748B\" stroke-width=\"1.5\"/>\n  <text x=\"310\" y=\"118\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">2</text>\n\n  <!-- Curve 3 (slope ~ 2) -->\n  <line x1=\"70\" y1=\"170\" x2=\"260\" y2=\"65\" stroke=\"#64748B\" stroke-width=\"1.5\"/>\n  <text x=\"268\" y=\"68\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\">3</text>\n\n  <!-- Curve 4 (slope = 4, passes through ln n = 1, ln(An/A1) = 4) -->\n  <line x1=\"70\" y1=\"170\" x2=\"190\" y2=\"50\" stroke=\"#2563EB\" stroke-width=\"2.5\"/>\n  <circle cx=\"170\" cy=\"80\" r=\"4\" fill=\"#2563EB\"/>\n  <text x=\"198\" y=\"55\" font-size=\"12\" font-weight=\"bold\" fill=\"#1D4ED8\">4 (Slope = 4, ✓)</text>\n  <line x1=\"170\" y1=\"80\" x2=\"170\" y2=\"170\" stroke=\"#93C5FD\" stroke-dasharray=\"2,2\"/>\n  <line x1=\"70\" y1=\"80\" x2=\"170\" y2=\"80\" stroke=\"#93C5FD\" stroke-dasharray=\"2,2\"/>\n</svg>"
   },
   {
     "id": "universal-atomic-ar-q001",
@@ -4371,7 +4397,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: It is not possible to use Cl35 as the fuel for fusion energy.\nReason: The binding energy of Cl35 is too small. [NEET 2027 Target] t N t N t N X A D C B O Y time t A B C D Log A r P O r P O r P O r P O log R log A log R log A log R log A log R log A A N N A A N A N N t N′ t t N′ t N′ t N′ 1 ln A An 1 2 3 4 4 2 O ||ln n 1",
+    "questionText": "Assertion: It is not possible to use ³⁵Cl as the fuel for fusion energy. Reason: The binding energy of ³⁵Cl is too small. [AIIMS 2005]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4379,7 +4405,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
       "Both Assertion and Reason are false."
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): Detailed evaluation of nuclear stability, radioactive decay, and Bohr postulates validates (c).",
+    "explanation": "📘 NCERT Concept: Nuclear fusion requires light nuclei (A < 20) combining to move toward higher binding energy per nucleon.\n⚡ Step-by-Step Derivation:\n1. ³⁵Cl has mass number A = 35 with a high binding energy per nucleon (~8.5 MeV/nucleon), near the stability peak.\n2. Fusing ³⁵Cl would decrease binding energy per nucleon rather than increase it, so it cannot release fusion energy (Assertion is true).\n3. The reason states binding energy of ³⁵Cl is too small, which is false (it is tightly bound, not small).\n4. Thus, Assertion is true but Reason is false (Option c).",
     "tags": [
       "NEET Physics",
       "Atomic & Nuclear Physics",
@@ -4393,7 +4419,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Sr90 from the radioactive fall out from a nuclear bomb ends up in the bones of human beings through the milk consu med by them. It causes impairment of the production of red blood cells.\nReason: The energetics β-particles emitted in the decay of Sr90 damage the bone marrow. [NEET 2028 Expected]",
+    "questionText": "Assertion: Sr90 from the radioactive fall out from a nuclear bomb ends up in the bones of human beings through the milk consu med by them. It causes impairment of the production of red blood cells. Reason: The energetics β-particles emitted in the decay of Sr90 damage the bone marrow. [NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4415,7 +4441,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Neutrons penetrate matter more readily as compared to protons.\nReason: Neutrons are slightly more massive than protons. [NEET 2029 Practice]",
+    "questionText": "Assertion: Neutrons penetrate matter more readily as compared to protons. Reason: Neutrons are slightly more massive than protons. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4437,7 +4463,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Bohr had to postulate that the electrons in stationary orbits around the nucleus do not radiate.\nReason: According to classical physics all moving e lectrons radiate. [NEET 2027 Target]",
+    "questionText": "Assertion: Bohr had to postulate that the electrons in stationary orbits around the nucleus do not radiate. Reason: According to classical physics all moving e lectrons radiate. [NEET 2027 Target]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4459,7 +4485,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Radioactive nuclei emit 1-β particles.\nReason: Electrons exist inside the nucleus. [NEET 2028 Expected]",
+    "questionText": "Assertion: Radioactive nuclei emit 1-β particles. Reason: Electrons exist inside the nucleus. [NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4481,7 +4507,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: A Z X undergoes -α2 decays. -β2 decays and -γ2 decays and the daughter product is 8 2 - - A Z Y .\nReason: In α-decay the mass number decreases by 4 and atomic number decreases by 2. In β- decay the mass number remains unchanged, but atomic number increases by 1 only. [NEET 2029 Practice]",
+    "questionText": "Assertion: A Z X undergoes -α2 decays. -β2 decays and -γ2 decays and the daughter product is 8 2 - - A Z Y . Reason: In α-decay the mass number decreases by 4 and atomic number decreases by 2. In β- decay the mass number remains unchanged, but atomic number increases by 1 only. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4503,7 +4529,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Density of all the nuclei is same.\nReason: Radius of nucleus is directly proportional to the cube root of mass number. [NEET 2027 Target]",
+    "questionText": "Assertion: Density of all the nuclei is same. Reason: Radius of nucleus is directly proportional to the cube root of mass number. [NEET 2027 Target]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4525,7 +4551,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Isobars are the element having same mass number but different atomic number.\nReason: Neutrons and protons are present inside nucleus. [NEET 2028 Expected]",
+    "questionText": "Assertion: Isobars are the element having same mass number but different atomic number. Reason: Neutrons and protons are present inside nucleus. [NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4547,7 +4573,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The force of repulsion between atomic nucleus and α-particle varies with distance according to inverse square law.\nReason: Rutherford did α-particle scattering experiment.",
+    "questionText": "Assertion: The force of repulsion between atomic nucleus and α-particle varies with distance according to inverse square law. Reason: Rutherford did α-particle scattering experiment.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4569,7 +4595,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The positively charged nucleus of an atom has a radius of almost .10 15 m-\nReason: In α-particle scattering experiment, the distance of closest approach for α-particles is ≃ .10 15 m-",
+    "questionText": "Assertion: The positively charged nucleus of an atom has a radius of almost .10 15 m- Reason: In α-particle scattering experiment, the distance of closest approach for α-particles is ≃ .10 15 m-",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4591,7 +4617,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: According to classical theory, the proposed path of an electron in Rutherford atom model will be parabolic.\nReason: According to electromagnetic theory an accelerated particle continuously emits radiation.",
+    "questionText": "Assertion: According to classical theory, the proposed path of an electron in Rutherford atom model will be parabolic. Reason: According to electromagnetic theory an accelerated particle continuously emits radiation.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4613,7 +4639,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Electrons in the atom are held due to coulomb forces.\nReason: The atom is stable only because the centripetal force due to Coulomb’s law is balanced by the centrifugal force.",
+    "questionText": "Assertion: Electrons in the atom are held due to coulomb forces. Reason: The atom is stable only because the centripetal force due to Coulomb’s law is balanced by the centrifugal force.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4635,7 +4661,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The electron in the hydrogen atom passes from energy level 4=n to the 1=n level. The maximum and minimum number of photon that can be emitted are six and one respectively.\nReason: The photons are emitted when electron make a transition from the higher energy state to the lower energy state.",
+    "questionText": "Assertion: The electron in the hydrogen atom passes from energy level 4=n to the 1=n level. The maximum and minimum number of photon that can be emitted are six and one respectively. Reason: The photons are emitted when electron make a transition from the higher energy state to the lower energy state.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4657,7 +4683,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Hydrogen atom consists of only one electron but its emission spectrum has many lines.\nReason: Only Lyman series is found in the absorption spectrum of hydrogen atom whereas in the emission spectrum, all the series are found.",
+    "questionText": "Assertion: Hydrogen atom consists of only one electron but its emission spectrum has many lines. Reason: Only Lyman series is found in the absorption spectrum of hydrogen atom whereas in the emission spectrum, all the series are found.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4679,7 +4705,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: It i s essential that all the lines available in the emission spectrum will also be available in the absorption spectrum.\nReason: The spectrum of hydrogen atom is only absorption spectrum.",
+    "questionText": "Assertion: It i s essential that all the lines available in the emission spectrum will also be available in the absorption spectrum. Reason: The spectrum of hydrogen atom is only absorption spectrum.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4701,7 +4727,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: For the scattering of α-particles at a large angles, only the nucleus of the atom is responsible.\nReason: Nucleus is very heavy in comparison to electrons.",
+    "questionText": "Assertion: For the scattering of α-particles at a large angles, only the nucleus of the atom is responsible. Reason: Nucleus is very heavy in comparison to electrons.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4723,7 +4749,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: All the radioactive elements are ultimately converted in lead.\nReason: All the elements above lead are unstable.",
+    "questionText": "Assertion: All the radioactive elements are ultimately converted in lead. Reason: All the elements above lead are unstable.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4745,7 +4771,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Amongst alpha, beta and gamma rays, α-particle has maximum penetrating power.\nReason: The alpha particle is heavier than beta and gamma rays.",
+    "questionText": "Assertion: Amongst alpha, beta and gamma rays, α-particle has maximum penetrating power. Reason: The alpha particle is heavier than beta and gamma rays.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4767,7 +4793,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The ionising power of β-particle is less compared to α-particles but their penetrating power is more.\nReason: The mass of β-particle is less than the mass of α- particle.",
+    "questionText": "Assertion: The ionising power of β-particle is less compared to α-particles but their penetrating power is more. Reason: The mass of β-particle is less than the mass of α- particle.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4789,7 +4815,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The mass of β-particles when they are emitted is higher than the mass of electrons obtained by other means.\nReason: β-particle and electron, both are similar particles.",
+    "questionText": "Assertion: The mass of β-particles when they are emitted is higher than the mass of electrons obtained by other means. Reason: β-particle and electron, both are similar particles.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4811,7 +4837,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Radioactivity of 810 undecayed radioactive nuclei of half life of 50 days is equal to that of 8102.1 × number of undecayed nuclei of some other material with half life of 60 days\nReason: Radioactivity is proportional to half-life.",
+    "questionText": "Assertion: Radioactivity of 810 undecayed radioactive nuclei of half life of 50 days is equal to that of 8102.1 × number of undecayed nuclei of some other material with half life of 60 days Reason: Radioactivity is proportional to half-life.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4833,7 +4859,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Fragments produced in the fission of 235U are radioactive.\nReason: The fragments have abnormally high proton to neutron ratio.",
+    "questionText": "Assertion: Fragments produced in the fission of 235U are radioactive. Reason: The fragments have abnormally high proton to neutron ratio.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4855,7 +4881,7 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Electron capture occurs more often than positron emission in heavy elements.\nReason: Heavy elements exhibit radioactivity.",
+    "questionText": "Assertion: Electron capture occurs more often than positron emission in heavy elements. Reason: Heavy elements exhibit radioactivity.",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -4877,15 +4903,15 @@ export const ATOMIC_NUCLEAR_PHYSICS_QUESTIONS: Question[] = [
     "chapter": "Atoms",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The mass of a nucleus can be either less than or more than the sum of the masses of nucleons present in it.\nReason: The whole mass of the atom is considered in the nucleus. Atomic Structure 1 a 2 d 3 a 4 d 5 c 6 b 7 b 8 c 9 a 10 d 11 b 12 b 13 b 14 c 15 c 16 c 17 c 18 b 19 c 20 b 21 c 22 c 23 c 24 d 25 d 26 c 27 d 28 b 29 d 30 b 31 a 32 d 33 c 34 d 35 d 36 b 37 c 38 a 39 c 40 c 41 a 42 d 43 d 44 a 45 a 46 a 47 c 48 a 49 b 50 a 51 b 52 c 53 d 54 c 55 d 56 a 57 c 58 d 59 d 60 d 61 c 62 ad 63 d 64 b 65 b 66 b 67 c 68 a 69 b 70 c 71 a 72 b 73 b 74 d 75 b 76 d 77 d 78 b 79 a 80 d 81 a 82 a 83 b 84 b 85 d 86 c 87 a 88 c 89 a 90 b 91 d 92 b 93 c 94 c 95 b 96 a 97 c 98 b 99 a 100 b 101 a 102 c 103 a 104 b 105 d 106 b 107 b 108 c 109 d 110 c 111 a 112 a 113 a 114 b 115 d 116 b 117 d 118 a 119 b 120 a 121 b 122 b 123 b 124 d 125 a 126 d 127 d 128 c 129 c 130 d 131 a 132 c 133 c 134 a 135 c 136 a 137 c 138 d 139 d 140 b 141 b 142 a 143 b 144 a 145 d 146 a 147 b 148 d 149 b 150 b 151 a 152 d 153 a 154 a 155 c 156 d 157 d 158 d 159 c 160 a 161 c 162 b 163 a 164 c 165 b 166 a 167 b 168 a 169 b 170 c 171 c 172 a 173 d 174 c Nucleus, Nuclear Reaction 1 b 2 c 3 c 4 d 5 d 6 d 7 d 8 b 9 b 10 c 11 a 12 b 13 d 14 c 15 c 16 c 17 c 18 c 19 d 20 c 21 b 22 d 23 a 24 b 25 c 26 b 27 c 28 c 29 a 30 a 31 b 32 a 33 d 34 c 35 c 36 b 37 a 38 a 39 d 40 c 41 b 42 a 43 c 44 a 45 c 46 c 47 d 48 b 49 a 50 b 51 d 52 b 53 d 54 c 55 a 56 a 57 d 58 ad 59 c 60 a 61 c 62 b 63 a 64 a 65 d 66 c 67 a 68 b 69 b 70 d 71 b 72 d 73 bc 74 d 75 c 76 d 77 d 78 c 79 b 80 b 81 c 82 d 83 c 84 b 85 d 86 b 87 a 88 d 89 d 90 a 91 c 92 b 93 a 94 c 95 a 96 b 97 c 98 d 99 d 100 b 101 c 102 b 103 a 104 d 105 c 106 b 107 a 108 b 109 d 110 c 111 c 112 c 113 b 114 b 115 d 116 a 117 b 118 a 119 c 120 b 121 d 122 d 123 a 124 a 125 c 126 c 127 b 128 d 129 c 130 a 131 c 132 a 133 a 134 b 135 b 136 c 137 a 138 c 139 b 140 a 141 b 142 b 143 b 144 d 145 d 146 a 147 b 148 b 149 d 150 a 151 c 152 b 153 d 154 c 155 c 156 a 157 b 158 a 159 c 160 c 161 a 162 a 163 b 164 b 165 c 166 b 167 d 168 d 169 a 170 b 171 b 172 a 173 c 174 b 175 a 176 b 177 a 178 c 179 b Radioactivity 1 a 2 a 3 d 4 c 5 a 6 c 7 c 8 d 9 c 10 c 11 b 12 c 13 c 14 c 15 a 16 c 17 a 18 c 19 b 20 a 21 a 22 c 23 a 24 d 25 d 26 d 27 c 28 b 29 a 30 c 31 c 32 c 33 d 34 c 35 c 36 b 37 b 38 d 39 d 40 d 41 a 42 b 43 c 44 d 45 b 46 b 47 d 48 d 49 b 50 a 51 b 52 c 53 a 54 d 55 c 56 d 57 b 58 d 59 d 60 b 61 a 62 d 63 a 64 d 65 b 66 a 67 b 68 c 69 d 70 c 71 d 72 a 73 a 74 d 75 c 76 d 77 d 78 c 79 a 80 d 81 d 82 b 83 a 84 a 85 b 86 c 87 d 88 d 89 b 90 a 91 b 92 d 93 c 94 c 95 a 96 d 97 d 98 a 99 b 100 c 101 a 102 d 103 b 104 b 105 b 106 d 107 a 108 d 109 c 110 b 111 c 112 c 113 d 114 d 115 c 116 b 117 a 118 a 119 d 120 a 121 c 122 d 123 a 124 d 125 d 126 d 127 c 128 d 129 c 130 b 131 d 132 b 133 c 134 a 135 a 136 b 137 ac 138 b 139 c 140 c 141 d 142 c 143 a 144 d 145 c 146 b 147 d 148 b 149 b 150 c 151 c 152 a 153 b 154 b 155 d 156 b 157 c 158 c 159 d 160 c 161 a 162 d 163 c 164 c 165 d 166 d 167 c 168 c 169 b 170 d 171 b 172 c 173 b 174 a 175 c 176 d Critical Thinking Questions 1 c 2 c 3 b 4 a 5 a 6 a 7 a 8 d 9 b 10 d 11 a 12 a 13 a 14 d 15 c 16 d 17 c 18 d 19 c 20 d 21 b 22 c 23 d 24 a 25 d 26 d 27 c 28 c 29 cd 30 a 31 a 32 c 33 a 34 a 35 b 36 b 37 b 38 c 39 b 40 a 41 a 42 b 43 c 44 c 45 d 46 a 47 b 48 d 49 a 50 b 51 d 52 a 53 b 54 b 55 a 56 a 57 b 58 b 59 b 60 a 61 a 62 a 63 b 64 c 65 a Graphical Questions 1 a 2 a 3 c 4 d 5 c 6 d 7 b 8 b 9 c 10 d 11 d 12 d 13 b 14 d 15 c 16 a 17 b 18 c 19 a Assertion and Reason 1 c 2 a 3 b 4 b 5 c 6 a 7 a 8 b 9 b 10 a 11 e 12 c 13 b 14 b 15 d 16 a 17 c 18 d 19 b 20 b 21 c 22 c 23 b 24 e Atomic Structure 1. (a) For n=1, maximum number of states 22 2 == n and for n = 2, 3, 4, maximum number of states would be 8, 18, 32 respectively, Hence number of possible elements = 2 + 8 + 18 + 32 = 60. 2. (d) Bohr radius 2 2 22 0 ; nr Zme hnr ∝∴= π 3. (a) eVE 2.10)6.13(4.321 +=--=→ 4. (d) | ) )| ( ( -= 22 2 2 1 1 11 RZλ For di-ionised lithium the value of Z is maximum. 5. (c) Lyman series lies in the UV region. 6. (b) The size of the atom is of the order of 1Å = 10 –10 m. 7. (b) Balmer series lies in the visible region. 8. (c) Transition A (n = ∞ to 1) : Series limit of Lyman series Transition B (n = 5 to n = 2) : Third spectral line of Balmer series Transition C (n = 5 to n = 3) : Second spectral line of Paschen series 9. (a) D is excitation of electron from 2 nd orbit corresponding to absorption line in Balmer series and E is the energy released to bring the electron from ∞ to ground state i.e. ionisation potential. 10. (d) 11. (b) Paschen series lies in the infrared region. 12. (b) Energy required to knock out the electron in the n th orbit eV n2 6.13+= ⇒ eVE 9 6.13 3 += . 13. (b) Linear momentum 631 102.2101.9 ×××== -mv smkg /100.2 24 -×= - 14. (c) 2nr∝ ⇒ 0 2anrn = )( 01 ar =θ 15. (c) For the ioniza tion of second He electron. +He will act as hydrogen like atom. Hence ionization potential VvoltZ 4.546.13)2(6.13 22 =×=×= 16. (c) Energy required eV n 136.0 10 6.136.13 22 === 17. (c) }} | ] {{ | [ -= 2 2 2 1 111 nn Rλ λRnn 111 2 2 2 1 =-⇒ 107 101875210097.1 1 -××× = .144 70486.0 == But 3144 7 4 1 3 1 122 =⇒=- n and n 2 = 4 (Paschen series) 18. (b) Potential energy of electron in n th orbit of radius r in H-atom r eU 2 -= (in CGS) ∵ K.E. |..|2 1 EP= ⇒ r eK 2 2 = 19. (c) Final energy of electron .51.11.126.13 eV-=+-= which is corresponds to third level i.e. 3=n . Hence number of spectral lines emitted 3 2 )13(3 2 )1( =-=-= nn 20. (b) Let the energy in A, B and C state be E A . E B and E C , then from the figure )()()( ACABBC EEEEEE -=-+- or 321 λλλ hchchc =+ 21 21 3 λλ λλλ +=⇒ 21. (c) According to Bohr’s second postulate. 22. (c) First excited state i.e. second orbit (n = 2) Second excited state i.e. third orbit (n = 3) 2 6.13 n E -=θ ⇒ 4 9 2 3 2 3 2 =| ) )| ( (=E E 23. (c) cmR RR 5 22 103 16 3 16 16 3 4 1 2 11 -×==⇒=| ) )| ( ( -= λλ Frequency Hzcn 15 5 10 10 16 9 103 16 103 ×= × ×== -λ 24. (d) Energy required to remove electron in the n = 2 state eV4.3 )2( 6.13 2 +=+= 25. (d) (E ion ) Na eVEZ Hion 6.13)11()( 22 == 26. (c) The wavelength of spectral line in Balmer series is given by }| ] {| [ -= 22 1 2 11 n Rλ For first line of Balmer series, n = 3 λ1 λ2 λ3 C B A n = 2 n = 1 eVE 4.3 )2( 6.13 22 -=-= eVE 6.131 -= ⇒ 36 5 3 1 2 11 22 1 RR =}| ] {| [ -=λ ; For second line n = 4. ⇒ 16 3 4 1 2 11 22 2 RR =}| ] {| [ -=λ ∴ Å4860656127 20 27 20 1 1 2 =×=⇒= λλ λ 27. (d) λλ hcEhcEE =⇒=-2 λλλ λ λλ 3'3' '3'3 4 =⇒=∴=⇒=- hcEhcEE 28. (b) Because atom is hollow and whole mass of atom is concentrated in a small centre called nucleus. 29. (d) Z nr Zme hnr 2 2 22 0 ; ∝∴= π 30. (b) 2nr∝ ⇒ 9 4 )3( )2( = = = n n r r ⇒ RRrn 25.24 9 )3( === 31. (a) In the revolution of electron, coulomb force provides the necessary centripetal force ⇒ r mv r ze 2 2 2 = ⇒ r zemv 2 2 = ∴ K.E. r zemv 22 1 2 2 == 32. (d) According to Bohr’s theory π2 hnmvr = ⇒ Circumference λπ nmv hnr =| ) )| ( (=2 33. (c) r kZeEK 2. 2 = and ;.. 2 r kZeEP -= ∴ 2 1 .. .. -=EP EK . 34. (d) Lyman series lies in the UV region. 35. (d) If E is the energy radiated in transition then QPRQSRSQGR EEEEE →→→→→ >>>> For getting blue line energy radiated should be maximum | ) )| ( ( ∝ λ 1E . Hence (d) is the correct option. 36. (b) Energy released eV55.2 )4( 1 )2( 16.13 22 =}| ] {| [ -= 37. (c) The absorption lines are obtained when the electron jumps from ground state ( n = 1) to the higher energy states. Thus only 1, 2 and 3 lines will be obtained. 38. (a) P.E. r 1-∝ and K.E. r 1∝ As r increases so K.E. decreases but P.E. increases. 39. (c) Wave number 16 3 16 1 4 1111 2 2 2 1 RR nn R =}| ] {| [ -= } } | ] { { | [ -=λ 40. (c) In hydrogen atom, the lowest orbit ( n = 1) corresponds to minimum energy (– 13.6 eV). 41. (a) K.E. = – (T.E.) 42. (d) Required energy eVE 51.1 3 6.13 23 =+= 43. (d) As n increases P.E. also increases. 44. (a) When an electron jumps from the orbit of lower energy ( n=1) to the orbit of higher energy (n=3), energy is absorbed. 45. (a) For Lyman series 4 3 )2( 1 )1( 1 22 max Lymen RCRcc =}| ] {| [ -== λν For Balmer series 36 5 )3( 1 )2( 1 22 max Balmer RCRcc =}| ] {| [ -== λν ∴ 5 27 Balmer Lymen =ν ν 46. (a) 21 EE >θ 21 νν >∴ i.e. photons of higher frequency will be emitted if transition takes place from n = 2 to 1. 47. (c) Wave number || ) ) || ( ( -== 2 2 2 1 111 nn R λ For first Balmer line n 1 = 2, n 2 =3 ∴ Wave number 36 5 49 49 3 1 2 1 22 RRR =| ) )| ( ( × -=| ) )| ( ( -= 48. (a) Energy required to ionise helium atom = 24.6 eV 49. (b) From diagram eVE 2.10)4.3(6.131 -=---= eVE 09.12)51.1(6.132 -=---= eVE 66.0)85.0(51.13 -=---= eVE 89.1)51.1(4.34 -=---= 3E is least i.e. frequency is lowest. 50. (a) P.E. r e r ke 0 22 4π-=-= ; K.E. r e 0 2 8)P.E.(2 1 π=-= 51. (b) Similar to Q. 49 52. (c) π2 nhmvr = , for n =1 it is π2 h 53. (d) Minimum energy required to excite from ground state eV2.10 2 1 1 16.13 22 =}| ] {| [ -= 54. (c) || ) ) || ( ( -= 2 2 2 1 111 nn R λ n=6 n=5 n=4 n=3 n=2 n=1 E2 E1 n=4 (– 0.85 eV) n=3 (– 1.51 eV) n=2 ( –3.4 eV) n=1 (– 13.6 eV) E2 E1 E3 E4 r e + For first line of Lymen series n 1 = 1 and n 2 = 2 For first line of Balmer series n 2 = 2 and n 2 = 3 So, 27 5 Balmer Lymen =λ λ 55. (d) 3 422 0 3 422 2 4 12 ch me ch mekR π π π || ) ) || ( (== 56. (a) 36 5 9 1 4 11 RR =}| ] {| [ -=λ 17 10 1009.1 1065635 36 5 36 - - ×= ×× ==∴ mR λ 57. (c) Angular momentum | ) )| ( (= π2 hnL For this case n=2, hence ππ hhL =×= 2 2 58. (d) v n n 1∝ ⇒ vvvv v 5 2 5 2 5 2 25 2 5 ==⇒= 59. (d) By using 2 )1( -= nnN E ⇒ 62 )14(4 =-=EN 60. (d) Shortest wavelength comes from ∞=1n to 12 =n and longest wavelength comes from 61 =n to 52 =n in the given case. Hence RR =| ) )| ( ( ∞ -= 22 min 1 1 11 λ RRR 900 11 3625 2536 6 1 5 11 22 max =| ) )| ( ( × -=| ) )| ( ( -=λ 11 900 min max =∴ λ λ 61. (c) ma ev a e a mv 00 2 0 2 00 2 44 1 ππ =⇒= 62. (a,d) 3nT ∝ . Given 21 8 nn TT = , hence 21 2nn = Therefore, option (a) and (d) both are correct. 63. (d) eVZE 6.132×-= eVeV 4.1226.139 -=×-= So ionisation energy = + 122.4 eV. 64. (b) 65. (b) As n increases P.E. increases and K.E. decreases. 66. (b) )( 0 2 rZ nr = ; ⇒ Årn 06.153.02 )2( 2 )2( =×== 67. (c) 68. (a) =⇒∝∝ 221 ZZ λλν constant 24 2 =⇒=⇒ ZZλλ 69. (b) In Paschen series } | ] { | [ -= 22 max )4( 1 )3( 11 Rλ ⇒ mm R μλ 89.11089.1 101.17 144 7 144 6 7max =×= ×× == - Similarly m R μλ 818.0 101.1 99 7min = × == 70. (c) For third line of Balmer series 21 =n , 52 =n ∴ } } | ] { { | [ -= 2 2 2 1 2 111 nn RZ λ gives Rnn nnZ λ)( 2 1 2 2 2 2 2 12 - = On putting values Z = 2 From eV n ZE 4.54 )1( )2(6.136.13 2 2 2 2 -=-=-= 71. (a) Ionization energy = Binding energy. 72. (b) RchE -= ⇒ 348 19 106.6103 106.16.13 - - ××× ××-=-= ch ER mper710098.1 ×= 73. (b) Bohr postulated that the angular momentum of the electron is conserved. 74. (d) ;51.1 9 6.13 3 eVE -=-= eVE 85.016 6.13 4 -=-= eVEE 66.034 =-∴ 75. (b) Number of spectral lines 62 )14(4 2 )1( =-=-= nnN E 76. (d) In the transition from orbit ,25→ more energy is liberated as compared to transition from .24 → 77. (d) Impact parameter 2cotθ∝b Here b = 0, hence o180=θ 78. (b) 2 2 .. || ) ) || ( (=∝ i f i f n n r reinr ⇒ 2 11 11 1103.5 102.21 | ) )| ( (= × × - - n ⇒ 42 =n ⇒ n = 2 79. (a) 80. (d) eV n En 4.3 4 6.136.13 2 -=-=-= 81. (a) 36 5 3 1 2 11 22 Balmer RR =}| ] {| [ -= λ , 4 3 2 1 1 11 22 Lyman RR =}| ] {| [ -= λ Å4.121527 5 BalmerLyman =×=∴ λλ 82. (a) .111 2 2 2 1 }} | ] {{ | [ -= nn RH λ For Lyman series n 1 =1 and n 2 =2, 3, 4, When n 2 =2, we get cmRH 109673 4 3 4 ×==λ 83. (b) 2nr∝ . For ground state n=1 and for first excited state n=2. 84. (b) No. of lines 32 )13(3 2 )1( =-=-= nnN E 85. (d) Infinitely large transitions are possible (in principle) for the hydrogen atom. 86. (c) 2nrn ∝ 87. (a) 2 2 n ZhcE ∝| ) )| ( (= λ ⇒ 2 1 Z ∝λ Hence cmHe 099.54 397.20 ==+λ 88. (c) Excitation potential e energy Excitation= Minimum excitation energy corresponds to excitation from 1=n to 2=n ∴ Minimum excitation energy in hydrogen atom eV2.10)6.13(4.3 +=---= so minimum excitation potential = 10.2 eV. 89. (a) Orbital speed varies inversely as the radius of the orbit. Energy increases with the increase in quantum number. 90. (b) }} | ] {{ | [ -= 2 2 2 1 111 nn Rλ ⇒ 36 5 )3( 1 )2( 11 22 23 RR =}| ] {| [ -= →λ and 16 3 )4( 1 )2( 11 22 24 RR =} | ] { | [NEET 2029 Practice] { | [=⇒∝ θ θ θ N NN 4 4 1 2 30sin 45sin 2 60sin 2 90sin }} | ] {{ | [= } } } } | ] { { { { | [NEET 2027 Target] { { | [ -= 2 2 2 1 11 nn KE (K = constant) n 1 = 2 and n 2 = 3, so }| ] {| [=}| ] {| [ -= 36 5 3 1 2 1 22 KKE For removing an electron n 1 = 1 to ∞=2n Energy EEKE 2.75 36]1[1 === ∴ Ionization energy = 7.2 E 108. (c) For Paschen series }| ] {| [ -== 22 1 3 11 n Rλν ; n=4, 5, 6.... For first member of Paschen series n = 4 144 71 4 1 3 11 1 22 1 RR =⇒}| ] {| [ -= λλ 7 10 1 101.1 10188007 144 7 144 - - ×= ×× ==⇒ λR For shortest wave length ∞=n So 9 1 3 11 22 RR =}| ] {| [ ∞ -=λ First excited state Ground state n = 1 (–13.6 eV) n = 2 (– 3.4 eV) (For H2 - atom) ÅmR 822510225.8 101.1 99 7 7 =×= × ==⇒ - -λ 109. (d) For Lyman series RR 4 3 2 1 1 11 22 max =}| ] {| [ -=λ and 3 4 1 1 1 11 min max 22 min =⇒=}| ] {| [ ∞ -= λ λ λ RR 110. (c) 1 8 1 2 3 3 1 23 ==⇒∝ T TnT 111. (a) For Bracket series RR 1625 9 5 1 4 11 22 max ×=}| ] {| [ -=λ and 9 25 16 1 4 11 min max 22 min =⇒=}| ] {| [ ∞ -= λ λ λ RR 112. (a) For hydrogen and hydrogen like atoms eV n zEn 2 2 6.13-= eV n zEU nn 2 2 2.272 -== and eV n zEK nn 2 2 6.13== From these three relations we can see that as n decreases, K n will increase but E n and U n will decreases. 113. (a) 9 5 1 2 1 3 1 2 1 111 2 22 max min 2 2 2 1 = }| ] {| [ ∞- }| ] {| [ - =⇒ } } | ] { { | [ -= λ λ λ nn R 114. (b) By using Z nrrn 2 0= ; Where r 0 = Radius of the Bohr orbit in the ground state atom . So for +He third excited state ÅrZn 5.0,2,4 0 === ⇒ År 42 45.0 2 4 =×= 115. (d) Speed of electron in n th orbit (in CGS) nh Zevn 22π= (k = 1) For first orbit 2H ; n = 1 and Z = 1 So h ev 22π= ⇒ hc e c v 22π= 116. (b) 117. (d) E_n = -13.6/n² eV ⇒ eVE 54.025 6.13 5 6.13 25 -=-=-= 118. (a) 119. (b) 120. (a) π2 nhmvr = ⇒ mr nhv π2= ⇒ 322 222 4 rm hn r v π = . 121. (b) Maximum number of spectral lines are observed in Lymen series. 122. (b) Wave number λν 1= 16961 105896 1 8 = × = - per cm 123. (b) Årrr rnrn 77.453.0991 3 13 2 1 32 =×==⇒=⇒∝ 124. (d) For first line in Lyman series RL 3 4 1 =λ ..... (i) For first line in Balmer series RB 5 36 1 =λ ..... (ii) From equation (i) and (ii) λλλλλ λ 5 27 5 27 5 27 111 1 1 =⇒=⇒= BLB L B 125. (a) 126. (d) 3 – 1 transition has higher energy so i t has higher frequency | ) )| ( ( = h Eν 127. (d) α-particles cannot be attracted by the nucleus. 128. (c) By using }} | ] {{ | [ -= 2 2 2 1 11 nn RCν }| ] {| [NEET 2028 Expected] { { | [ --=→ nn nn E nn eVEE III 2.104 36.13 -=×-=→⇒ 140. (b) eVEeV n zEn 4.54 )1( )2(6.136.13 2 2 12 2 -=×-=⇒-= 141. (b) 2 2 4 4 1 2 1 2 2 HHe He H Z ννν νν =⇒=| ) )| ( (=⇒∝ = 4ν 0 142. (a) }} | ] {{ | [ -= 2 2 2 1 111 nn Rλ First condition λλ 3 4 2 1 1 11 22 =⇒}| ] {| [ -= RR Second condition }| ] {| [ -= 22 3 1 1 1 ' 1 Rλ 32 27 3 48 9'8 9' λ λ λλ = × =⇒=⇒ R 143. (b) 144. (a) 2nrn ∝ 145. (d) 12 EE <θ ⇒ 12 λλ > 146. (a) Wave number ∞= }} | ] {{ | [ -== 22 2 2 1 ;111 n nn Rλν and 11 =n 117 10970010097.1 -- =×==⇒ cmmRν 147. (b) 321 EEE >> 148. (d) ,1 Zr∝ for double ionized lithium )3(=Z will be maximum. So r will be minimum 149. (b) .6.13 2 2 Z n En ×= For first excited state n = 2 and for 3, =++ zLi ⇒ eVE 6.3094 6.13 =×= 150. (b) 151. (a) In Lyman series R L 1)( min =λ and R B 4)( min =λ ⇒ ÅLB 36489124)(4)( minmin =×=×= λλ 152. (d) eVE 89.1)51.1(4.323 -=---=→ ⇒ eVE 9.1|| 23 ≈→ 153. (a) 154. (a) 155. (c) Radius of n th orbit for any hydrogen like atom || ) ) || ( (= Z nrrn 2 0 ( =0r radius of first orbit of 2H -atom) If 0rrn = ⇒ .Zn= For Be +++ , Z = 4 ⇒ n = 2. 156. (d) 4nrn ∝ ⇒ 4nAn ∝ ⇒ 1 16 1 2 4 0 1 =| ) )| ( (=A A 157. (d) 158. (d) .111 2 2 2 1 }} | ] {{ | [ -= nn Rλ For first wavelength, 21 =n , 32 =n ⇒ Å65631 =λ . For second wavelength, 21 =n , 42 =n ⇒ Å48612 =λ 159. (c) K.E. = – (Total energy) = – (–13.6 eV) = + 13.6 eV 160. (a) In Lyman series R3 4 max =λ In Balmer series .5 36 max R=λ So required ratio 27 5= 161. (c) 162. (b) .116.13 2 2 2 1 }} | ] {{ | [ -= nn E For highest energy in Balme r series 21 =n and ∞=2n ⇒ eVE 4.3 )( 1 )2( 16.13 22 =} | ] { | [ ∞ -= 163. (a) 164. (c) 3nT ∝ 165. (b) }| ] {| [ -= }} | ] {{ | [ -= 222 2 2 1 )4( 1 )2( 1111 R nn Rλ ⇒ R3 16=λ 166. (a) 2ZEn ∝ ⇒ 4)( )( 2 2 == H He Hn Hen Z Z E E ⇒ HnHen EE )(4)( ×= 167. (b) By using }} | ] {{ | [ -= 2 2 2 1 111 nn Rλ 168. (a) }| ] {| [ -= 22 max )2( 1 )1( 11 Rλ ⇒ ÅR 12133 4 max ≈=λ and }| ] {| [ ∞-= 1 )1( 11 2 min Rλ ⇒ ÅR 9101 min ≈=λ 169. (b) P.E. eV27.2)6.13(2energyTotal 2 -=-×=×= 170. (c) Emitted energy || ) ) || ( ( -=Δ 2 2 2 1 11 nn hcE λ . 171. (c) ,2EU = EK -= and eV n E =-= 2 6.13 . 172. (a) 173. (d) 174. (c) 2nr ∝ Nucleus, Nuclear Reaction 1. (b) 2. (c) Neutrons are neutral particles. 3. (c) James Chadwick discovered the neutron. n=5 n=4 n=3 n=2 n=1 E2 E1 λ1 λ2 n=4 n=3 n=2 n=1 E2 E1 E3 E3 n = 3 (– 1.51 eV) n = 2 (– 1.51 eV) n = 1 (– 1.51 eV) 4. (d) In hydrogen, atomic number and mass number are equal. 5. (d) JmcE 1716282 10109)103(1 ≈×=××== 6. (d) B.E. = Δm amu = Δm × 931 MeV. 7. (d) Mass defect 931 23.2=Δm = 0.0024. 8. (b) Positron is the antiparticle of electron. 9. (b) 10. (c) 11. (a) B.E.= Δmc 2 MeV4.28]0015.4)0073.10087.1(2[ =-+= 12. (b) 74 9310303.0 Nucleon energyBinding ≈×= 13. (d) Energy / day 36002410200 6 ×××= J1012 101728106.34.22 ×=×××= 14. (c) JmcE 102862 109)103(10 ×=××=Δ= - 15. (c) 16. (c) Mass of ...01478.22 1 umaH = Mass of ...00388.44 2 umaHe = Mass of two deuterium 02956.401478.22 =×= Energy equivalent to 2 12 H MeVMeV 48.4112.102956.4 =×= Energy equivalent to 4 2 H MeVMeV 21.28047.700388.4 =×= Energy released MeV73.2348.421.28 =-= = 24 MeV 17. (c) Energy released while forming a nucleus is known as binding energy (by definition). 18. (c) Nuclear force is stronger than coulomb force. 19. (d) 20. (c) 21. (b) Q = 4 (x 2 – x 1 ) 22. (d) 23. (a) Rest energy of an electron 2cme= Here kgme 31101.9 -×= and c = velocity of light ∴ Rest energy joule2831 )103(101.9 ×××= - keVeV 510 106.1 )103(101.9 19 2831 = × ×××= - - 24. (b) 226 88 RaX A z = Number of protons = Z = 88 Number of neutrons 13888226 =-=-= ZA . 25. (c) Out side the Nucleus, neutron is unstable (life ≈ 932 sec). 26. (b) The order of magnitude of mass and volume of uranium nucleus will be m ≃ A(1.67 × 10 -27 kg) (A is atomic number) 33/1153 ])1025.1[NEET 2029 Practice],([ cZNMMNMZB np -+= 2/),( cBMNMZZMM np -+=⇒ 155. (c) 156. (a) In nuclear reacter, nuclear fission can be carried out through a sustained and a controlled chain reaction. 157. (b) o o NnC β1 13 7 112 6 -+→+ 158. (a) 189 36 144 56 235 92 1 3 nKrBaUn oo ++→+ 159. (c) The energy released in sun and hydrogen bomb are due to nuclear fusion. 160. (c) 161. (a) 162. (a) 4 2 206 82 210 84 HeXPo +→ Using conservation of linear moments )206( 404206 vvvv -=′⇒=+′ 206 4|| vv =′⇒ 163. (b) Power ,tim e Energy 2 t mcP == = 1 × 10 –6 × (3 × 10 8 ) 2 = 9 × 10 10 W = 9 × 10 7 kW. 164. (b) 165. (c) 166. (b) The elements high on the B.E. versus mass number plot are very tightly bound and hence, are stable. And the elements those are lower on this plot, are less tightly bound and hence, are unstable. Since helium nucleus shows a peak on this plot so, it is very stable. 167. (d) 168. (d) JmcE 10282 109)103(1 ×=××=Δ= eVE 35 19 16 10625.5 106.1 109 ×= × ×=⇒ - .10625.5 29 MeV×= 169. (a) jmcE 132832 105.4)103(105.0 ×=×××=Δ= - .1025.1 106.3 105.4 7 6 13 kW HE ×= × ×=⇒ 170. (b) 1 0 139 56 94 36 235 92 1 0 3 nBaKrUn ++→+ 171. (b) 172. (a) Number of protons = 2 + 2 + 6 + 2 + 6 = 18 Number of neutrons = 40 – 18 = 22. 173. (c) Neutrons are unstable and having mean life time of 32 sec, decaying by emitting an electron and antineutrino to become proton. 174. (b) During fusion binding energy of daughter nucleus is always greater than the total energy of the parent nuclei so energy released = c – (a + b) = c – a – b 175. (a) These nuclei having different Z and A but equal ( A – Z) are called isotones. 176. (b) 177. (a) 178. (c) 3/1Ar∝ ⇒ 3/1 2 1 2 1 || ) ) || ( (= A A r r ⇒ 5 3 125 276.3 3/1 2 =| ) )| ( (=r ⇒ Fermir 62 = 179. (b) Radioactivity 1. (a) 2. (a) By formula Tt NN / 0 2 1| ) )| ( (= or 3/ 44 2 110810 t | ) )| ( (×= or 3/ 2 1 8 1 t | ) )| ( (=| ) )| ( ( or 332 1 2 1 3/3 t t =⇒| ) )| ( (=| ) )| ( ( Hence t = 9 years. 3. (d) Fraction 16 1 2 1 2 1 41600 6400 0 =| ) )| ( (=| ) )| ( (== N N 4. (c) Negative -β decay is expressed by the equation --+ ++= νepn 5. (a) No radioactive substance emit both α and β particles simultaneously. Some substances emit -α particles and some other emits -β particles. -γ rays are emitted along with both α and -β particles. 6. (c) γ-rays are highly penetrating. + + A A EB .. Fusion Fission 7. (c) Average life 23192308693.0 16001 ≈==λ years. 8. (d) Fraction of atoms remains after five half lives 32 1 2 1 2 1 /5/ 0 =| ) )| ( (=| ) )| ( (= TTTt N N ⇒ Percentage atom remains %125.310032 1 =×= 9. (c) β-rays emitted from nucleus and they carry negative charge. 10. (c) 11. (b) → → + - )(2 1 40 1 αβ HeA Z A Z YX 4 1 4 1 0 0 - - - - → A Z A Z KK γ 12. (c) 125002 1500002 1 5/10/ 0 =| ) )| ( (=| ) )| ( (= Tt t NN 13. (c) A Z A Z XX 1 0 1 + →- β 14. (c) TTt NNNN /30 0 0 / 0 2 1 642 1 | ) )| ( (=⇒| ) )| ( (= sec56 30 ==⇒ T 15. (a) 16. (c) 17. (a) Average life λ 1 atom sof num ber Total atom all theof livesall of Sum ==T ⇒ Tλ = 1 18. (c) Fraction remains after n half lives Ttn N N / 0 2 1 2 1 | ) )| ( (=| ) )| ( (= ∴ 2 1 2 1 2 1 2/12/ 0 =| ) )| ( (=| ) )| ( (= T T N N 19. (b) 20. (a) Penetration power of γ is 100 times of β, while that of β is 100 times of α. 21. (a) 126052 1 32 /60 0 0 =⇒=⇒| ) )| ( (= TTNN T days 22. (c) By using ;2 1 / 0 Tt NN | ) )| ( (= where 00 8 1 8 71 NNN =| ) )| ( ( -= So Tt NN / 00 2 1 8 1 | ) )| ( (= ⇒ 5/3 2 1 2 1 t | ) )| ( (=| ) )| ( ( ⇒ t =15 days. 23. (a) 172 369 176 271 176 170 180 72 AAAA →→→ αβα 172 469 A→γ 24. (d) 25. (d) Half life of a substance doesn't depends upon Amount, temperature and pressure. It depends upon the nature of the substance. 26. (d) yearsyearT 1620 1028.4 16931.016931.0 4 = × ×=×= -λ 27. (c) In fusion two lighter nuclei combines, it is not the radioactive decay. 28. (b) 6 4 208232 4 ' =-=-= AAnα and 4)829062()'2( =+-×=+-= ZZnn αβ 29. (a) Remaining amount mg12 1 2 1162 116 12162/32 <| ) )| ( (=| ) )| ( (×=| ) )| ( (×= 30. (c) 8 1 2 1 5/15 0 =| ) )| ( (=N N ⇒ Decayed fraction 8 7 8 11 =-= 31. (c) 32. (c) By using 4 'AAn -=α and '2 ZZnn +-= αβ ⇒ 224342364' =×-=-= αnAA and 83)88321()2(' =+×-=+-= ZnnZ αβ 33. (d) Uncertain, because it is infinite. No radioactive element can be disintegrated fully. 34. (c) . 2 1 16 1 2 1 140/140/ 0 tt N N | ) )| ( (=⇒| ) )| ( (= daystt 5604140 =⇒=⇒ 35. (c) 5700/ 12 14 2 1 4 1 t C C | ) )| ( (== yearstt 1140025700 =⇒=⇒ 36. (b) Ionising property depends upon the charge and mass. 37. (b) 1 2 1 2 N N R RN dt dNR =⇒∝= But 32 1 8 1 200 25 2 1 2/1 3 1 2 2/1 =⇒| ) )| ( (==⇒| ) )| ( (= t t N N t 6013 3 3 2/1 ====∴ hourtt minutes 38. (d) 31.69 01.0 6931.0 2/1 ==t seconds. 39. (d) Because radioactivity is a spontaneous phenomenon. 40. (d) Undecayed isotope 8 1 8 71 =-= 3152 1 8 1 2 1 15// 0 =⇒| ) )| ( (=| ) )| ( (⇒| ) )| ( (=∴ t N N tTt or t =45 hours 41. (a) Mean life hours4.146931.0 10 6931.0 lifeHalf === 42. (b) 20 gm substance reduces to 10 gm (i.e. becomes half in 4 min. So m in42/1 =T . Again 2/1/ 0 2 1 Tt MM | ) )| ( (= ⇒ 4/ 2 18010 t | ) )| ( (= ⇒ 4/3 2 1 2 1 8 1 t | ) )| ( (=| ) )| ( (= ⇒ t = 12 min. 43. (c) 2/1/ 0 2 1 Tt NN | ) )| ( (= ⇒ 2/1 2 2 1161 T | ) )| ( (= ⇒ hourT 2 1 2/1 = 44. (d) 45. (b) -β decay from nuclei based on this process only. 46. (b) 2/1/ 0 2 1 Tt AA | ) )| ( (= ⇒ 162 15 030 602 0 AA =| ) )| ( (= × ⇒ 1 0 80 -= secA 47. (d) 84 168200 4 ' =-=-= AAnα 6809082'2 =+-×=+-= ZZnn aβ 48. (d) Similar to Q. 47 49. (b) .2 1 2/1 0 T t NN | ) )| ( (= Hence fraction of atoms decayed = 8 7 2 112 111 60 603 0 2/1 =| ) )| ( (-=| ) )| ( (-=- × T t N N In percentage it is %5.871008 7 =× 50. (a) C-14 is carbon dating substance. 51. (b) Tt N N / 0 2 1| ) )| ( (= TT /24/2 2 1 2 1 2 1 16 1 | ) )| ( (=| ) )| ( (⇒| ) )| ( (=| ) )| ( (⇒ hourT 5.0=⇒ = 30 minutes. 52. (c) NnN dt dN λλ -=⇒-= (Given ndt dN = ) ∴-=∴ N nλ Half life sec693.0693.0693.0 n N=== λλ 53. (a) 231 91 231 90 235 92 0 1 YXX e →→ -α 54. (d) 0 1 13 6 13 7 eCN ++→ 55. (c) 2/1 2 1 0 T t AA | ) )| ( (= ⇒ 2/1 8 2 11600100 T | ) )| ( (= ⇒ secT 22/1 = Again at t = 6 sec, 2002 11600 2 6 =| ) )| ( (=A counts/sec 56. (d) 4 2 234 92 238 92 HeThU +→ 57. (b) 58. (d) 59. (d) 60. (b) By using teNN λ-= 0 ⇒ 2/1 0 0 2 TeNN λ-= ⇒ 2/12 Teλ= By taking log e both the side 2/12log Te λ= ⇒ 693.02/1 =Tλ 61. (a) Number of half lives in 20 min = n 45 20 == Fraction of material remains after four half lives 16 1= Hence fraction that decays %75.93 16 15 16 11 ==-= 62. (d) In the given case, 12 days = 3 half lives Number of atoms left after 3 half lives. 10 3 10 108.0 2 1104.6 ×=××= 63. (a) Decay constant remains unchanged in a chemical reaction. 64. (d) 84 206238 4 ' =-=-= AAnα 65. (b) 4242 --- →→ AZAZA Z XYX βα 66. (a) Both the β-rays and the cathode rays are made up of electrons. γ-rays are EM waves, α-particles are doubly ionized helium atoms and protons and neutrons have approximately the same mass. 67. (b) ;14 6 4 2 4 2 22 10 XHeHeNe ++→ hence X is carbon. 68. (c) For 80 minutes, number of half lives of sample 420 80 === AnA and number of half lives of sample .240 80 === BnB Also by using n NN | ) )| ( (= 2 1 0 ⇒ nN 2 1∝ ⇒ 4 1 2 2 2 2 4 2 === A B n n B A N N 69. (d) 4142 -- --- →→ mnmnm n XXX βα 70. (c) Half-life yearsT 6476 1007.1 693.0693.0 42/1 = × == -λ 71. (d) Number of nuclei decreases exponentially teNN λ-= 0 and Rate of decay Ndt dN λ=| ) )| ( (- Therefore, decay process losts up to t = ∞. Therefore, a given nucleus may decay at any time after t = 0. 72. (a) To becomes 4 1 th, it requires time of two half lives 58258002)(2.,. 2/1 ×=×== Ttei centuries 73. (a) Carbon dating 74. (d) 18 8 1 1 4 2 15 7 YPHeX +→+ 75. (c) 76. (d) 234 91 234 90 238 92 YXU →→ -βα 77. (d)",
+    "questionText": "Assertion: The mass of a nucleus can be either less than or more than the sum of the masses of nucleons present in it. Reason: The whole mass of the atom is considered in the nucleus. [AIIMS Level]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
       "Assertion is true but Reason is false.",
-      "Both Assertion and Reason are false."
+      "Assertion is false but Reason is true."
     ],
     "correctAnswer": 3,
-    "explanation": "Option (e): Detailed evaluation of nuclear stability, radioactive decay, and Bohr postulates validates (e).",
+    "explanation": "📘 NCERT Concept: Mass defect Δm = [Z m_p + (A - Z) m_n] - M_{nucleus}.\n⚡ Step-by-Step Derivation:\n1. For any stable nucleus, mass defect is strictly positive (Δm > 0), because binding energy ΔE = Δm c² was released during nuclear formation.\n2. Therefore, the mass of a nucleus is ALWAYS less than the sum of constituent nucleons (never more). Thus, Assertion is false.\n3. The mass of electrons is negligible (~0.05%), so almost the entire mass of an atom is concentrated in the nucleus. Thus, Reason is true.\n4. Hence, Assertion is false but Reason is true (Option e / 4th option).",
     "tags": [
       "NEET Physics",
       "Atomic & Nuclear Physics",
