@@ -90,7 +90,7 @@ export function getSequentialLoopQuestions(
         diagSvg = rawQ.diagramSvg;
         localUsedDiagrams.add(diagSvg);
       }
-    } else if (rawQ.subject === 'Physics' && (rawQ.difficulty === 'Hard' || rawQ.difficulty === 'hard')) {
+    } else if (rawQ.subject === 'Physics' && (rawQ.difficulty === 'Hard' || (rawQ.difficulty as string) === 'hard')) {
       const hardDiag = getHardPhysicsDiagram(rawQ, localUsedDiagrams);
       if (hardDiag) {
         diagSvg = hardDiag;

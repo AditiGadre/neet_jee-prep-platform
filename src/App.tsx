@@ -18,7 +18,7 @@ const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m =
 const BookReaderModal = lazy(() => import('./components/BookReaderModal').then(m => ({ default: m.BookReaderModal })));
 const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ default: m.AuthModal })));
 const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
-import { SuperUserModal } from './components/SuperUserModal';
+import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 
@@ -463,11 +463,17 @@ export default function App() {
 
         {/* Super User & Admin Control Center (Custom Test Generator & Telemetry) */}
         {isSuperUserModalOpen && (
-          <SuperUserModal
-            onClose={() => setIsSuperUserModalOpen(false)}
-            onStartCustomTest={handleStartTest}
-            onOpenUploadModal={handleOpenUpload}
-          />
+          <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 overflow-y-auto animate-in fade-in duration-150">
+            <div className="w-full max-w-6xl bg-slate-100 border border-slate-700 rounded-3xl shadow-2xl flex flex-col max-h-[96vh] text-gray-900 relative animate-in zoom-in-95 duration-150 overflow-hidden">
+              <div className="flex-1 overflow-y-auto p-3 sm:p-5">
+                <AdminSection
+                  onClose={() => setIsSuperUserModalOpen(false)}
+                  onStartCustomTest={handleStartTest}
+                  onOpenUploadModal={handleOpenUpload}
+                />
+              </div>
+            </div>
+          </div>
         )}
 
         {/* Content Upload & Ingestion Modal */}

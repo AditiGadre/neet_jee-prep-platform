@@ -81,11 +81,13 @@ import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 
 interface AdminSectionProps {
+  onClose?: () => void;
   onStartCustomTest?: (customTest: TestItem) => void;
   onOpenUploadModal?: (subject?: string, chapter?: string) => void;
 }
 
 export const AdminSection: React.FC<AdminSectionProps> = ({
+  onClose,
   onStartCustomTest,
   onOpenUploadModal
 }) => {
@@ -94,6 +96,8 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [metrics, setMetrics] = useState(getSuperUserMetrics());
   const [categoryFilter, setCategoryFilter] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
+  const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
 
   // Sunday Test Paper Studio State (180 Qs)
   const [sundayPhyUnits, setSundayPhyUnits] = useState<string[]>([OFFICIAL_PHYSICS_UNITS[0], OFFICIAL_PHYSICS_UNITS[1]]);
@@ -126,7 +130,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     correctAnswer: number;
     explanation: string;
   } | null>(null);
-  const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
@@ -138,7 +141,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   });
   const [requestStatusFilter, setRequestStatusFilter] = useState<'all' | 'pending' | 'approved' | 'rejected'>('all');
   const [requestSearch, setRequestSearch] = useState<string>('');
-  const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
 
   // Custom Test Builder State (Admin Exclusive)
   const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
@@ -775,6 +777,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </>
               )}
             </button>
+
+            {onClose && (
+              <button
+                onClick={onClose}
+                className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+                title="Close Admin Portal"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            )}
           </div>
         </div>
       </div>
