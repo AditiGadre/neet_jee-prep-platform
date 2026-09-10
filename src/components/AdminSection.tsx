@@ -33,7 +33,13 @@ import {
   FileDown,
   Trash2,
   Sparkles,
-  Zap
+  Zap,
+  Edit2,
+  RefreshCw,
+  Eye,
+  Layers,
+  Filter,
+  CheckSquare
 } from 'lucide-react';
 import {
   SuperUserNotification,
@@ -56,6 +62,17 @@ import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { TestItem, Question } from '../types';
 import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { StudentUnlockRequest, getStoredUnlockRequests } from './SuperUserModal';
+import {
+  SUNDAY_DROPPER_PLANNER_TESTS,
+  SundayPlannerTest,
+  generateSundayTestQuestions,
+  OFFICIAL_PHYSICS_UNITS,
+  OFFICIAL_CHEMISTRY_UNITS,
+  OFFICIAL_BOTANY_BLOCKS,
+  OFFICIAL_ZOOLOGY_BLOCKS
+} from '../data/sundayPlannerTests';
+import { formatMathAndFormulas } from '../utils/mathFormatter';
+import { getHardPhysicsDiagram } from '../utils/diagramEngine';
 
 interface AdminSectionProps {
   onStartCustomTest?: (customTest: TestItem) => void;
@@ -66,11 +83,43 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   onStartCustomTest,
   onOpenUploadModal
 }) => {
-  const [adminTab, setAdminTab] = useState<'requests' | 'generator' | 'telemetry' | 'students'>('requests');
+  const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
   const [notifications, setNotifications] = useState<SuperUserNotification[]>([]);
   const [metrics, setMetrics] = useState(getSuperUserMetrics());
   const [categoryFilter, setCategoryFilter] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // Sunday Test Paper Studio State (180 Qs)
+  const [sundayPhyUnits, setSundayPhyUnits] = useState<string[]>([OFFICIAL_PHYSICS_UNITS[0], OFFICIAL_PHYSICS_UNITS[1]]);
+  const [sundayChemUnits, setSundayChemUnits] = useState<string[]>([OFFICIAL_CHEMISTRY_UNITS[0], OFFICIAL_CHEMISTRY_UNITS[1]]);
+  const [sundayBioUnits, setSundayBioUnits] = useState<string[]>([
+    `[Botany] ${OFFICIAL_BOTANY_BLOCKS[0]}`,
+    `[Zoology] ${OFFICIAL_ZOOLOGY_BLOCKS[0]}`
+  ]);
+  const [selectedPlannerPreset, setSelectedPlannerPreset] = useState<string>('cwt-01');
+  const [sundayQuestions, setSundayQuestions] = useState<Question[]>(() => {
+    try {
+      const publishedRaw = localStorage.getItem('neet_published_sunday_test');
+      if (publishedRaw) {
+        const parsed = JSON.parse(publishedRaw);
+        if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180) {
+          return parsed.questions;
+        }
+      }
+    } catch {}
+    return generateSundayTestQuestions(SUNDAY_DROPPER_PLANNER_TESTS[0]);
+  });
+  const [studioSubjectFilter, setStudioSubjectFilter] = useState<'All' | 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'>('All');
+  const [studioSearch, setStudioSearch] = useState<string>('');
+  const [studioPage, setStudioPage] = useState<number>(1);
+  const [editingQuestionIdx, setEditingQuestionIdx] = useState<number | null>(null);
+  const [editForm, setEditForm] = useState<{
+    questionText: string;
+    options: string[];
+    correctAnswer: number;
+    explanation: string;
+  } | null>(null);
+  const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
 
   // Student Unlock Requests State
   const [unlockRequests, setUnlockRequests] = useState<StudentUnlockRequest[]>(() => {
@@ -203,6 +252,319 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       setCustomChapter(currentChapterList[0]);
     }
   }, [customSubject, currentChapterList, customChapter]);
+
+  // Sunday Studio Handlers
+  const handleToggleSundayUnit = (subject: 'Physics' | 'Chemistry' | 'Biology', unit: string) => {
+    if (subject === 'Physics') {
+      setSundayPhyUnits(prev =>
+        prev.includes(unit) ? (prev.length > 1 ? prev.filter(u => u !== unit) : prev) : [...prev, unit]
+      );
+    } else if (subject === 'Chemistry') {
+      setSundayChemUnits(prev =>
+        prev.includes(unit) ? (prev.length > 1 ? prev.filter(u => u !== unit) : prev) : [...prev, unit]
+      );
+    } else {
+      setSundayBioUnits(prev =>
+        prev.includes(unit) ? (prev.length > 1 ? prev.filter(u => u !== unit) : prev) : [...prev, unit]
+      );
+    }
+  };
+
+  const handleApplyPreset = (presetKey: string) => {
+    setSelectedPlannerPreset(presetKey);
+    if (presetKey === 'all') {
+      setSundayPhyUnits([...OFFICIAL_PHYSICS_UNITS]);
+      setSundayChemUnits([...OFFICIAL_CHEMISTRY_UNITS]);
+      setSundayBioUnits([
+        ...OFFICIAL_BOTANY_BLOCKS.map(b => `[Botany] ${b}`),
+        ...OFFICIAL_ZOOLOGY_BLOCKS.map(z => `[Zoology] ${z}`)
+      ]);
+    } else if (presetKey === 'class11') {
+      setSundayPhyUnits(OFFICIAL_PHYSICS_UNITS.slice(0, 10));
+      setSundayChemUnits(OFFICIAL_CHEMISTRY_UNITS.slice(0, 10));
+      setSundayBioUnits([
+        ...OFFICIAL_BOTANY_BLOCKS.slice(0, 5).map(b => `[Botany] ${b}`),
+        ...OFFICIAL_ZOOLOGY_BLOCKS.slice(0, 5).map(z => `[Zoology] ${z}`)
+      ]);
+    } else if (presetKey === 'class12') {
+      setSundayPhyUnits(OFFICIAL_PHYSICS_UNITS.slice(10));
+      setSundayChemUnits(OFFICIAL_CHEMISTRY_UNITS.slice(10));
+      setSundayBioUnits([
+        ...OFFICIAL_BOTANY_BLOCKS.slice(5).map(b => `[Botany] ${b}`),
+        ...OFFICIAL_ZOOLOGY_BLOCKS.slice(5).map(z => `[Zoology] ${z}`)
+      ]);
+    } else {
+      const planner = SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === presetKey.toLowerCase());
+      if (planner) {
+        const phyMatch = OFFICIAL_PHYSICS_UNITS.filter(u =>
+          planner.physicsUnit.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
+          planner.physicsKeywords.some(kw => u.toLowerCase().includes(kw.toLowerCase()))
+        );
+        const chemMatch = OFFICIAL_CHEMISTRY_UNITS.filter(u =>
+          planner.chemistryUnit.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
+          planner.chemistryKeywords.some(kw => u.toLowerCase().includes(kw.toLowerCase()))
+        );
+        const botMatch = OFFICIAL_BOTANY_BLOCKS.filter(b =>
+          planner.botanyBlock.toLowerCase().includes(b.toLowerCase()) ||
+          planner.botanyKeywords.some(kw => b.toLowerCase().includes(kw.toLowerCase()))
+        ).map(b => `[Botany] ${b}`);
+        const zooMatch = OFFICIAL_ZOOLOGY_BLOCKS.filter(z =>
+          planner.zoologyBlock.toLowerCase().includes(z.toLowerCase()) ||
+          planner.zoologyKeywords.some(kw => z.toLowerCase().includes(kw.toLowerCase()))
+        ).map(z => `[Zoology] ${z}`);
+
+        if (phyMatch.length > 0) setSundayPhyUnits(phyMatch);
+        if (chemMatch.length > 0) setSundayChemUnits(chemMatch);
+        if (botMatch.length > 0 || zooMatch.length > 0) setSundayBioUnits([...botMatch, ...zooMatch]);
+      }
+    }
+  };
+
+  const handleAssembleSundayStudio = () => {
+    const matchStrict = (q: Question, units: string[]) => {
+      const qCh = (q.chapter || '').toLowerCase().trim();
+      const qTop = (q.topic || '').toLowerCase().trim();
+      const normQCh = qCh.replace(/[^a-z0-9]/g, '');
+
+      return units.some(unit => {
+        const clean = unit
+          .replace(/^Unit \d+:\s*/i, '')
+          .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
+          .toLowerCase()
+          .trim();
+        const normUnit = clean.replace(/[^a-z0-9]/g, '');
+        if (normQCh && normUnit && (normQCh.includes(normUnit) || normUnit.includes(normQCh))) return true;
+        const kwWords = clean.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class'].includes(w));
+        return kwWords.length > 0 && kwWords.every(w => qCh.includes(w) || qTop.includes(w));
+      });
+    };
+
+    // 1. Physics (45 Qs)
+    const phyBank = getUnifiedQuestionBank('Physics');
+    let phyPool = phyBank.filter(q => matchStrict(q, sundayPhyUnits));
+    if (phyPool.length === 0) {
+      phyPool = phyBank.filter(q => sundayPhyUnits.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    }
+    if (phyPool.length === 0) phyPool = phyBank;
+
+    const randPhy = [...phyPool].sort(() => 0.5 - Math.random());
+    const phy45: Question[] = [];
+    for (let i = 0; i < 45; i++) {
+      const q = randPhy[i % randPhy.length];
+      const hardDiag = (q.difficulty === 'Hard' || q.difficulty === 'hard') ? getHardPhysicsDiagram(q) : null;
+      phy45.push({
+        ...q,
+        id: `sunday-phy-${i + 1}-${q.id}`,
+        subject: 'Physics',
+        diagramSvg: hardDiag || q.diagramSvg,
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
+      });
+    }
+
+    // 2. Chemistry (45 Qs)
+    const chemBank = getUnifiedQuestionBank('Chemistry');
+    let chemPool = chemBank.filter(q => matchStrict(q, sundayChemUnits));
+    if (chemPool.length === 0) {
+      chemPool = chemBank.filter(q => sundayChemUnits.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    }
+    if (chemPool.length === 0) chemPool = chemBank;
+
+    const randChem = [...chemPool].sort(() => 0.5 - Math.random());
+    const chem45: Question[] = [];
+    for (let i = 0; i < 45; i++) {
+      const q = randChem[i % randChem.length];
+      chem45.push({
+        ...q,
+        id: `sunday-chem-${i + 1}-${q.id}`,
+        subject: 'Chemistry',
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
+      });
+    }
+
+    // 3. Biology (Botany 45 Qs + Zoology 45 Qs)
+    const bioBank = getUnifiedQuestionBank('Biology');
+    const botUnits = sundayBioUnits.filter(u => u.includes('[Botany]'));
+    const zooUnits = sundayBioUnits.filter(u => u.includes('[Zoology]'));
+
+    let botPool = bioBank.filter(q => matchStrict(q, botUnits.length > 0 ? botUnits : sundayBioUnits));
+    if (botPool.length === 0) botPool = bioBank;
+    let zooPool = bioBank.filter(q => matchStrict(q, zooUnits.length > 0 ? zooUnits : sundayBioUnits));
+    if (zooPool.length === 0) zooPool = bioBank;
+
+    const randBot = [...botPool].sort(() => 0.5 - Math.random());
+    const bot45: Question[] = [];
+    for (let i = 0; i < 45; i++) {
+      const q = randBot[i % randBot.length];
+      bot45.push({
+        ...q,
+        id: `sunday-bot-${i + 1}-${q.id}`,
+        subject: 'Biology',
+        tags: [...(q.tags || []), 'Botany'],
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
+      });
+    }
+
+    const randZoo = [...zooPool].sort(() => 0.5 - Math.random());
+    const zoo45: Question[] = [];
+    for (let i = 0; i < 45; i++) {
+      const q = randZoo[i % randZoo.length];
+      zoo45.push({
+        ...q,
+        id: `sunday-zoo-${i + 1}-${q.id}`,
+        subject: 'Biology',
+        tags: [...(q.tags || []), 'Zoology'],
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
+      });
+    }
+
+    const total180 = [...phy45, ...chem45, ...bot45, ...zoo45];
+    setSundayQuestions(total180);
+    setActionSuccessBanner('✓ Fresh 180-Question Sunday Test Paper Assembled with 100% Chapter Isolation!');
+    setTimeout(() => setActionSuccessBanner(null), 3500);
+  };
+
+  const handleSwapSundayQuestion = (questionIdx: number) => {
+    const currentQ = sundayQuestions[questionIdx];
+    if (!currentQ) return;
+
+    const sub = currentQ.subject || (questionIdx < 45 ? 'Physics' : questionIdx < 90 ? 'Chemistry' : 'Biology');
+    const ch = currentQ.chapter || '';
+    const bank = getUnifiedQuestionBank(sub, ch.length > 0 ? ch : undefined);
+    const existingIds = new Set(sundayQuestions.map(q => q.id));
+    const candidates = bank.filter(q => !existingIds.has(q.id) && q.questionText !== currentQ.questionText);
+
+    const replacement = candidates.length > 0
+      ? candidates[Math.floor(Math.random() * candidates.length)]
+      : bank[Math.floor(Math.random() * bank.length)];
+
+    if (!replacement) return;
+
+    const hardDiag = (replacement.difficulty === 'Hard' || replacement.difficulty === 'hard') && sub === 'Physics'
+      ? getHardPhysicsDiagram(replacement)
+      : null;
+
+    const newQ: Question = {
+      ...replacement,
+      id: `sunday-${sub.toLowerCase()}-swap-${Date.now()}-${replacement.id}`,
+      subject: sub as any,
+      tags: currentQ.tags || replacement.tags,
+      diagramSvg: hardDiag || replacement.diagramSvg,
+      questionText: formatMathAndFormulas(replacement.questionText),
+      options: replacement.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(replacement.explanation)
+    };
+
+    const copy = [...sundayQuestions];
+    copy[questionIdx] = newQ;
+    setSundayQuestions(copy);
+    setActionSuccessBanner(`✓ Question #${questionIdx + 1} swapped with another question from ${ch || sub}!`);
+    setTimeout(() => setActionSuccessBanner(null), 3000);
+  };
+
+  const handleStartEditQuestion = (idx: number) => {
+    const q = sundayQuestions[idx];
+    setEditingQuestionIdx(idx);
+    setEditForm({
+      questionText: q.questionText,
+      options: [...q.options],
+      correctAnswer: q.correctAnswer ?? 0,
+      explanation: q.explanation || ''
+    });
+  };
+
+  const handleSaveQuestionEdit = (idx: number) => {
+    if (!editForm) return;
+    const copy = [...sundayQuestions];
+    copy[idx] = {
+      ...copy[idx],
+      questionText: editForm.questionText,
+      options: editForm.options,
+      correctAnswer: editForm.correctAnswer,
+      explanation: editForm.explanation
+    };
+    setSundayQuestions(copy);
+    setEditingQuestionIdx(null);
+    setEditForm(null);
+    setActionSuccessBanner(`✓ Question #${idx + 1} updated and saved!`);
+    setTimeout(() => setActionSuccessBanner(null), 3000);
+  };
+
+  const handlePublishSundayPaper = () => {
+    try {
+      const payload = {
+        publishedAt: new Date().toISOString(),
+        publishedBy: 'Admin Portal',
+        questions: sundayQuestions,
+        units: {
+          physics: sundayPhyUnits,
+          chemistry: sundayChemUnits,
+          biology: sundayBioUnits
+        }
+      };
+      localStorage.setItem('neet_published_sunday_test', JSON.stringify(payload));
+      localStorage.setItem('neet_admin_test_access', 'true');
+      setIsAdminTestAccessGranted(true);
+      window.dispatchEvent(new CustomEvent('neet_published_sunday_test_updated', { detail: payload }));
+      window.dispatchEvent(new CustomEvent('neet_admin_access_changed', { detail: { accessGranted: true } }));
+      setPublishSuccessMsg('✓ Official Sunday Test Paper Published! All students will take this exact 180-question paper.');
+      setTimeout(() => setPublishSuccessMsg(null), 4500);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const handleLaunchSundayInCBT = () => {
+    const testItem: TestItem = {
+      id: 'sunday-studio-test-' + Date.now(),
+      title: 'Official Sunday Test Paper (Admin Studio)',
+      category: 'neet_mock',
+      exam: 'NEET',
+      syllabus: `Physics: ${sundayPhyUnits.join(', ')} | Chemistry: ${sundayChemUnits.join(', ')} | Biology: ${sundayBioUnits.join(', ')}`,
+      totalQuestions: 180,
+      durationMinutes: 180,
+      totalMarks: 720,
+      negativeMarking: '+4 for correct, -1 for incorrect, 0 for unattempted (Total 720 Marks)',
+      difficulty: 'Mixed',
+      cbtMode: true,
+      features: [
+        '180 Questions (45 Phys + 45 Chem + 45 Bot + 45 Zoo)',
+        '180 Minutes (3.0 Hours NTA Timer)',
+        '720 Marks (+4 / -1 NTA Standard)',
+        'Admin Verified & Chapter Isolated'
+      ],
+      questions: sundayQuestions
+    };
+
+    if (onStartCustomTest) {
+      onStartCustomTest(testItem);
+    }
+  };
+
+  const handleDownloadSundayMasterPDF = (includeSolutions: boolean) => {
+    const testItem: TestItem = {
+      id: 'sunday-studio-pdf-' + Date.now(),
+      title: 'Sunday Mock Test Paper (Master Paper)',
+      category: 'neet_mock',
+      exam: 'NEET',
+      totalQuestions: 180,
+      durationMinutes: 180,
+      totalMarks: 720,
+      syllabus: 'Physics (45 Qs), Chemistry (45 Qs), Botany (45 Qs), Zoology (45 Qs)',
+      negativeMarking: '+4 for correct, -1 for incorrect',
+      difficulty: 'Mixed',
+      cbtMode: true,
+      questions: sundayQuestions
+    };
+    downloadTestPaperPDF(testItem, includeSolutions);
+  };
 
   // Unused question pool calculation for active chapter
   const currentPoolStats = useMemo(() => {
@@ -462,6 +824,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         </button>
 
         <button
+          onClick={() => setAdminTab('sunday_studio')}
+          className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
+            adminTab === 'sunday_studio'
+              ? 'bg-blue-600 text-white shadow-xs'
+              : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+          }`}
+        >
+          <Sparkles className="w-4 h-4 text-amber-400" />
+          <span>Sunday Test Studio (180 Qs)</span>
+        </button>
+
+        <button
           onClick={() => setAdminTab('generator')}
           className={`flex items-center space-x-2 px-4 py-2 rounded-xl text-xs font-bold transition cursor-pointer ${
             adminTab === 'generator'
@@ -687,6 +1061,557 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                   )}
                 </tbody>
               </table>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* TAB: SUNDAY TEST PAPER STUDIO (180 QUESTIONS INSPECTOR & CUSTOMIZER) */}
+      {adminTab === 'sunday_studio' && (
+        <div className="space-y-6">
+          {/* Top Banner with Actions */}
+          <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="px-3 py-1 rounded-full text-[11px] font-mono font-black bg-purple-100 text-purple-800 border border-purple-200 uppercase tracking-wider">
+                  Official NTA Format • 720 Marks
+                </span>
+                <span className="px-3 py-1 rounded-full text-[11px] font-mono font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
+                  Strict Chapter Isolation
+                </span>
+              </div>
+              <h3 className="text-xl font-black text-slate-900 mt-2 flex items-center gap-2">
+                <Sparkles className="w-6 h-6 text-amber-500" />
+                Sunday Test Paper Studio (180 Questions)
+              </h3>
+              <p className="text-xs text-slate-500 mt-1 max-w-2xl">
+                Choose chapters for Physics, Chemistry, and Biology. Inspect, swap, and edit each and every individual question (1 to 180). Publish to all students or launch directly in the interactive CBT player.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                onClick={handleLaunchSundayInCBT}
+                className="px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-xs cursor-pointer"
+              >
+                <Play className="w-4 h-4" />
+                Launch in CBT Player
+              </button>
+
+              <button
+                onClick={handlePublishSundayPaper}
+                className="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition flex items-center gap-2 shadow-xs cursor-pointer"
+              >
+                <CheckCheck className="w-4 h-4" />
+                Publish for All Students
+              </button>
+
+              <button
+                onClick={() => handleDownloadSundayMasterPDF(false)}
+                className="px-3 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-slate-200"
+                title="Download Clean Student Question Paper PDF"
+              >
+                <Download className="w-4 h-4 text-slate-600" />
+                Student Paper PDF
+              </button>
+
+              <button
+                onClick={() => handleDownloadSundayMasterPDF(true)}
+                className="px-3 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer border border-slate-200"
+                title="Download Master Paper with Solutions & Diagrams"
+              >
+                <FileText className="w-4 h-4 text-purple-600" />
+                Master Key PDF
+              </button>
+            </div>
+          </div>
+
+          {publishSuccessMsg && (
+            <div className="p-4 bg-emerald-50 border border-emerald-300 rounded-2xl text-emerald-800 text-xs font-bold flex items-center justify-between">
+              <span>{publishSuccessMsg}</span>
+              <button onClick={() => setPublishSuccessMsg(null)} className="text-emerald-600 hover:text-emerald-900 font-bold">
+                ✕
+              </button>
+            </div>
+          )}
+
+          {/* STEP 1: CHAPTER SELECTION ACCORDION / PICKER */}
+          <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-gray-100 pb-3">
+              <div>
+                <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-2">
+                  <Layers className="w-4 h-4 text-blue-600" />
+                  Step 1: Choose Chapters (Zero Cross-Chapter Content Mixing)
+                </h4>
+                <p className="text-[11px] text-slate-500">
+                  Select which syllabus units to include for Physics (45 Qs), Chemistry (45 Qs), and Biology (90 Qs).
+                </p>
+              </div>
+
+              {/* Presets */}
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <span className="text-[10px] font-bold text-slate-400 uppercase mr-1">Presets:</span>
+                <button
+                  onClick={() => handleApplyPreset('all')}
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
+                >
+                  Full Syllabus (All)
+                </button>
+                <button
+                  onClick={() => handleApplyPreset('class11')}
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
+                >
+                  Class 11 Focus
+                </button>
+                <button
+                  onClick={() => handleApplyPreset('class12')}
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer"
+                >
+                  Class 12 Focus
+                </button>
+                <button
+                  onClick={() => handleApplyPreset('cwt-01')}
+                  className="px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-blue-50 text-blue-700 border border-blue-200 cursor-pointer"
+                >
+                  CWT-01 Baseline
+                </button>
+                <button
+                  onClick={handleAssembleSundayStudio}
+                  className="px-3 py-1 text-[11px] font-bold rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer flex items-center gap-1 ml-2"
+                >
+                  <RefreshCw className="w-3 h-3" />
+                  Re-Assemble 180 Qs
+                </button>
+              </div>
+            </div>
+
+            {/* 3 Columns: Physics, Chemistry, Biology Chapters */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Physics */}
+              <div className="p-4 rounded-2xl bg-blue-50/40 border border-blue-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-blue-900 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-blue-600" />
+                    Physics Units ({sundayPhyUnits.length} Selected)
+                  </span>
+                  <span className="text-[10px] font-mono text-blue-700 font-semibold">45 Questions</span>
+                </div>
+                <div className="max-h-48 overflow-y-auto space-y-1 pr-1">
+                  {OFFICIAL_PHYSICS_UNITS.map((u, i) => {
+                    const isSelected = sundayPhyUnits.includes(u);
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => handleToggleSundayUnit('Physics', u)}
+                        className={`w-full text-left p-2 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                          isSelected
+                            ? 'bg-blue-600 text-white font-bold shadow-xs'
+                            : 'bg-white hover:bg-blue-100/50 text-slate-700 border border-slate-200'
+                        }`}
+                      >
+                        <span className="truncate mr-2">{u}</span>
+                        {isSelected && <Check className="w-3.5 h-3.5 shrink-0" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Chemistry */}
+              <div className="p-4 rounded-2xl bg-emerald-50/40 border border-emerald-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-600" />
+                    Chemistry Units ({sundayChemUnits.length} Selected)
+                  </span>
+                  <span className="text-[10px] font-mono text-emerald-700 font-semibold">45 Questions</span>
+                </div>
+                <div className="max-h-48 overflow-y-auto space-y-1 pr-1">
+                  {OFFICIAL_CHEMISTRY_UNITS.map((u, i) => {
+                    const isSelected = sundayChemUnits.includes(u);
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => handleToggleSundayUnit('Chemistry', u)}
+                        className={`w-full text-left p-2 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                          isSelected
+                            ? 'bg-emerald-600 text-white font-bold shadow-xs'
+                            : 'bg-white hover:bg-emerald-100/50 text-slate-700 border border-slate-200'
+                        }`}
+                      >
+                        <span className="truncate mr-2">{u}</span>
+                        {isSelected && <Check className="w-3.5 h-3.5 shrink-0" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Biology */}
+              <div className="p-4 rounded-2xl bg-purple-50/40 border border-purple-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-purple-900 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-purple-600" />
+                    Biology Units ({sundayBioUnits.length} Selected)
+                  </span>
+                  <span className="text-[10px] font-mono text-purple-700 font-semibold">90 Questions</span>
+                </div>
+                <div className="max-h-48 overflow-y-auto space-y-1 pr-1">
+                  {[
+                    ...OFFICIAL_BOTANY_BLOCKS.map(b => `[Botany] ${b}`),
+                    ...OFFICIAL_ZOOLOGY_BLOCKS.map(z => `[Zoology] ${z}`)
+                  ].map((u, i) => {
+                    const isSelected = sundayBioUnits.includes(u);
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => handleToggleSundayUnit('Biology', u)}
+                        className={`w-full text-left p-2 rounded-xl text-xs transition flex items-center justify-between cursor-pointer ${
+                          isSelected
+                            ? 'bg-purple-600 text-white font-bold shadow-xs'
+                            : 'bg-white hover:bg-purple-100/50 text-slate-700 border border-slate-200'
+                        }`}
+                      >
+                        <span className="truncate mr-2">{u}</span>
+                        {isSelected && <Check className="w-3.5 h-3.5 shrink-0" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* STEP 2: QUESTION INSPECTOR (1 TO 180) */}
+          <div className="bg-white p-6 rounded-3xl border border-gray-200 shadow-sm space-y-4">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-gray-100 pb-3">
+              <div>
+                <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-2">
+                  <Eye className="w-4 h-4 text-purple-600" />
+                  Step 2: Question-Level Access & Customization (1 to 180)
+                </h4>
+                <p className="text-[11px] text-slate-500">
+                  Inspect every question, verify diagrams, swap questions within the same chapter, or edit in-place.
+                </p>
+              </div>
+
+              {/* Subject Filter Bar */}
+              <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl">
+                {(['All', 'Physics', 'Chemistry', 'Botany', 'Zoology'] as const).map(tab => (
+                  <button
+                    key={tab}
+                    onClick={() => {
+                      setStudioSubjectFilter(tab);
+                      setStudioPage(1);
+                    }}
+                    className={`px-3 py-1 rounded-lg text-xs font-bold transition cursor-pointer ${
+                      studioSubjectFilter === tab
+                        ? 'bg-white text-slate-900 shadow-xs'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    {tab === 'All' ? 'All 180 Qs' : tab === 'Physics' ? 'Physics (1-45)' : tab === 'Chemistry' ? 'Chem (46-90)' : tab === 'Botany' ? 'Botany (91-135)' : 'Zoology (136-180)'}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Search & Jump Bar */}
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-slate-50 p-3 rounded-2xl border border-slate-200">
+              <div className="relative w-full sm:w-80">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="text"
+                  placeholder="Search questions or chapter name..."
+                  value={studioSearch}
+                  onChange={e => {
+                    setStudioSearch(e.target.value);
+                    setStudioPage(1);
+                  }}
+                  className="w-full pl-9 pr-3 py-1.5 bg-white border border-slate-200 rounded-xl text-xs focus:outline-hidden focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+
+              <div className="flex items-center gap-2 text-xs text-slate-600 font-mono">
+                <span>Showing Page {studioPage} of {Math.max(1, Math.ceil((
+                  sundayQuestions.filter((q, idx) => {
+                    if (studioSubjectFilter === 'Physics' && idx >= 45) return false;
+                    if (studioSubjectFilter === 'Chemistry' && (idx < 45 || idx >= 90)) return false;
+                    if (studioSubjectFilter === 'Botany' && (idx < 90 || idx >= 135)) return false;
+                    if (studioSubjectFilter === 'Zoology' && idx < 135) return false;
+                    if (studioSearch.trim()) {
+                      const term = studioSearch.toLowerCase();
+                      const matchText = q.questionText.toLowerCase().includes(term);
+                      const matchCh = (q.chapter || '').toLowerCase().includes(term);
+                      const matchIdx = `q${idx + 1}`.includes(term) || `${idx + 1}` === term;
+                      return matchText || matchCh || matchIdx;
+                    }
+                    return true;
+                  }).length
+                ) / 10))}</span>
+                <div className="flex items-center gap-1 ml-2">
+                  <button
+                    onClick={() => setStudioPage(p => Math.max(1, p - 1))}
+                    disabled={studioPage <= 1}
+                    className="px-2.5 py-1 rounded bg-white border border-slate-200 hover:bg-slate-100 disabled:opacity-50 text-xs cursor-pointer"
+                  >
+                    &larr; Prev
+                  </button>
+                  <button
+                    onClick={() => setStudioPage(p => p + 1)}
+                    disabled={
+                      studioPage >= Math.ceil(sundayQuestions.filter((q, idx) => {
+                        if (studioSubjectFilter === 'Physics' && idx >= 45) return false;
+                        if (studioSubjectFilter === 'Chemistry' && (idx < 45 || idx >= 90)) return false;
+                        if (studioSubjectFilter === 'Botany' && (idx < 90 || idx >= 135)) return false;
+                        if (studioSubjectFilter === 'Zoology' && idx < 135) return false;
+                        if (studioSearch.trim()) {
+                          const term = studioSearch.toLowerCase();
+                          const matchText = q.questionText.toLowerCase().includes(term);
+                          const matchCh = (q.chapter || '').toLowerCase().includes(term);
+                          const matchIdx = `q${idx + 1}`.includes(term) || `${idx + 1}` === term;
+                          return matchText || matchCh || matchIdx;
+                        }
+                        return true;
+                      }).length / 10)
+                    }
+                    className="px-2.5 py-1 rounded bg-white border border-slate-200 hover:bg-slate-100 disabled:opacity-50 text-xs cursor-pointer"
+                  >
+                    Next &rarr;
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Questions List */}
+            <div className="space-y-4">
+              {(() => {
+                const filtered = sundayQuestions
+                  .map((q, originalIdx) => ({ q, originalIdx }))
+                  .filter(({ q, originalIdx }) => {
+                    if (studioSubjectFilter === 'Physics' && originalIdx >= 45) return false;
+                    if (studioSubjectFilter === 'Chemistry' && (originalIdx < 45 || originalIdx >= 90)) return false;
+                    if (studioSubjectFilter === 'Botany' && (originalIdx < 90 || originalIdx >= 135)) return false;
+                    if (studioSubjectFilter === 'Zoology' && originalIdx < 135) return false;
+                    if (studioSearch.trim()) {
+                      const term = studioSearch.toLowerCase();
+                      const matchText = q.questionText.toLowerCase().includes(term);
+                      const matchCh = (q.chapter || '').toLowerCase().includes(term);
+                      const matchIdx = `q${originalIdx + 1}`.includes(term) || `${originalIdx + 1}` === term;
+                      return matchText || matchCh || matchIdx;
+                    }
+                    return true;
+                  });
+
+                const paginated = filtered.slice((studioPage - 1) * 10, studioPage * 10);
+
+                if (paginated.length === 0) {
+                  return (
+                    <div className="text-center py-12 bg-slate-50 rounded-2xl border border-dashed border-slate-300">
+                      <Search className="w-8 h-8 mx-auto text-slate-400 mb-2" />
+                      <p className="text-sm font-bold text-slate-700">No Questions Match Search</p>
+                      <p className="text-xs text-slate-400 mt-0.5">Try a different keyword or reset filters.</p>
+                    </div>
+                  );
+                }
+
+                return paginated.map(({ q, originalIdx }) => {
+                  const isEditing = editingQuestionIdx === originalIdx;
+                  const isHardPhysics = (originalIdx < 45) && (q.difficulty === 'Hard' || q.difficulty === 'hard');
+                  const diagramSvg = isHardPhysics ? (getHardPhysicsDiagram(q) || q.diagramSvg) : q.diagramSvg;
+
+                  return (
+                    <div
+                      key={originalIdx}
+                      className="p-5 rounded-2xl border border-slate-200 bg-white hover:border-blue-300 transition space-y-3 shadow-xs"
+                    >
+                      {/* Header of Question Card */}
+                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
+                        <div className="flex items-center gap-2">
+                          <span className="w-8 h-8 rounded-xl bg-slate-900 text-white font-mono font-black text-xs flex items-center justify-center shadow-xs">
+                            #{originalIdx + 1}
+                          </span>
+                          <span className={`px-2.5 py-0.5 rounded-md text-[10px] font-bold ${
+                            originalIdx < 45 ? 'bg-blue-100 text-blue-800' :
+                            originalIdx < 90 ? 'bg-emerald-100 text-emerald-800' :
+                            originalIdx < 135 ? 'bg-purple-100 text-purple-800' : 'bg-amber-100 text-amber-800'
+                          }`}>
+                            {originalIdx < 45 ? 'Physics' : originalIdx < 90 ? 'Chemistry' : originalIdx < 135 ? 'Botany' : 'Zoology'}
+                          </span>
+                          <span className="text-xs font-semibold text-slate-700 bg-slate-100 px-2 py-0.5 rounded">
+                            {q.chapter || 'Syllabus Chapter'}
+                          </span>
+                          {q.difficulty && (
+                            <span className={`text-[10px] px-2 py-0.5 rounded font-mono font-bold ${
+                              q.difficulty === 'Hard' ? 'bg-rose-100 text-rose-800' :
+                              q.difficulty === 'Medium' ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800'
+                            }`}>
+                              {q.difficulty}
+                            </span>
+                          )}
+                        </div>
+
+                        {/* Action Buttons */}
+                        <div className="flex items-center gap-1.5">
+                          <button
+                            onClick={() => handleSwapSundayQuestion(originalIdx)}
+                            className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 transition flex items-center gap-1 cursor-pointer"
+                            title="Swap this question with another from the same chapter"
+                          >
+                            <RefreshCw className="w-3.5 h-3.5" />
+                            Swap Question
+                          </button>
+
+                          <button
+                            onClick={() => isEditing ? setEditingQuestionIdx(null) : handleStartEditQuestion(originalIdx)}
+                            className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 transition flex items-center gap-1 cursor-pointer"
+                          >
+                            <Edit2 className="w-3.5 h-3.5 text-slate-500" />
+                            {isEditing ? 'Cancel' : 'Edit'}
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Editing View */}
+                      {isEditing && editForm ? (
+                        <div className="p-4 bg-slate-50 rounded-xl border border-blue-200 space-y-3">
+                          <div>
+                            <label className="text-xs font-bold text-slate-700 block mb-1">Question Prompt:</label>
+                            <textarea
+                              value={editForm.questionText}
+                              onChange={e => setEditForm({ ...editForm, questionText: e.target.value })}
+                              rows={3}
+                              className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                            />
+                          </div>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {editForm.options.map((opt, optIdx) => (
+                              <div key={optIdx} className="space-y-0.5">
+                                <label className="text-[11px] font-bold text-slate-600 block">
+                                  Option {String.fromCharCode(65 + optIdx)}:
+                                </label>
+                                <input
+                                  type="text"
+                                  value={opt}
+                                  onChange={e => {
+                                    const opts = [...editForm.options];
+                                    opts[optIdx] = e.target.value;
+                                    setEditForm({ ...editForm, options: opts });
+                                  }}
+                                  className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg"
+                                />
+                              </div>
+                            ))}
+                          </div>
+
+                          <div className="flex items-center gap-4">
+                            <div>
+                              <label className="text-xs font-bold text-slate-700 block mb-1">Correct Answer:</label>
+                              <select
+                                value={editForm.correctAnswer}
+                                onChange={e => setEditForm({ ...editForm, correctAnswer: Number(e.target.value) })}
+                                className="p-1.5 text-xs bg-white border border-slate-300 rounded-lg"
+                              >
+                                {editForm.options.map((_, idx) => (
+                                  <option key={idx} value={idx}>
+                                    Option {String.fromCharCode(65 + idx)}
+                                  </option>
+                                ))}
+                              </select>
+                            </div>
+
+                            <div className="flex-1">
+                              <label className="text-xs font-bold text-slate-700 block mb-1">Explanation / Solution:</label>
+                              <input
+                                type="text"
+                                value={editForm.explanation}
+                                onChange={e => setEditForm({ ...editForm, explanation: e.target.value })}
+                                className="w-full p-1.5 text-xs bg-white border border-slate-300 rounded-lg"
+                              />
+                            </div>
+                          </div>
+
+                          <div className="flex justify-end gap-2 pt-2">
+                            <button
+                              onClick={() => setEditingQuestionIdx(null)}
+                              className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-200 text-slate-700"
+                            >
+                              Cancel
+                            </button>
+                            <button
+                              onClick={() => handleSaveQuestionEdit(originalIdx)}
+                              className="px-4 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white"
+                            >
+                              Save Question
+                            </button>
+                          </div>
+                        </div>
+                      ) : (
+                        /* Normal Question Display */
+                        <>
+                          {/* Vector Diagram if Available */}
+                          {diagramSvg && (
+                            <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                              <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider mb-1">
+                                High-Quality Technical Schematic
+                              </span>
+                              <div
+                                className="w-full max-w-sm flex items-center justify-center"
+                                dangerouslySetInnerHTML={{ __html: diagramSvg }}
+                              />
+                            </div>
+                          )}
+
+                          {/* Question Text */}
+                          <p className="text-xs text-slate-900 leading-relaxed font-medium">
+                            {q.questionText}
+                          </p>
+
+                          {/* Options Grid */}
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                            {q.options.map((opt, optIdx) => {
+                              const isCorrect = optIdx === q.correctAnswer;
+                              return (
+                                <div
+                                  key={optIdx}
+                                  className={`p-2.5 rounded-xl text-xs flex items-center justify-between border ${
+                                    isCorrect
+                                      ? 'bg-emerald-50 border-emerald-300 text-emerald-950 font-bold'
+                                      : 'bg-slate-50 border-slate-200 text-slate-700'
+                                  }`}
+                                >
+                                  <span className="flex items-center gap-2">
+                                    <span className={`w-5 h-5 rounded-full text-[10px] flex items-center justify-center font-bold ${
+                                      isCorrect ? 'bg-emerald-600 text-white' : 'bg-slate-200 text-slate-600'
+                                    }`}>
+                                      {String.fromCharCode(65 + optIdx)}
+                                    </span>
+                                    <span>{opt}</span>
+                                  </span>
+                                  {isCorrect && (
+                                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-200 text-emerald-800 font-bold">
+                                      Key
+                                    </span>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+
+                          {/* Explanation */}
+                          {q.explanation && (
+                            <div className="p-3 rounded-xl bg-blue-50/50 border border-blue-100 text-[11px] text-slate-600 leading-relaxed">
+                              <strong className="text-blue-900 block font-bold mb-0.5">Solution & Conceptual Reference:</strong>
+                              {q.explanation}
+                            </div>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  );
+                });
+              })()}
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function of a metal is 4.2 eV, its threshold wavelength will be [BHU 2003; CPMT 2004]",
+    "questionText": "The work function of a metal is 4.2 eV, its threshold wavelength will be [NEET 2027 Target]",
     "options": [
       "4000 Å",
       "3500 Å",
@@ -20,7 +20,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "BHU 2003; CPMT 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -29,7 +29,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The number of photo -electrons emitted per second from a metal surface increases when [EAMCET (Med.) 1995; CBSE PMT 1993; MP PMT 1994, 2002; MH CET 1999; KCET 2003]",
+    "questionText": "The number of photo -electrons emitted per second from a metal surface increases when [NEET 2029 Practice]",
     "options": [
       "The energy of incident photons increases",
       "The frequency of incident light increases",
@@ -42,7 +42,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "EAMCET (Med.) 1995; CBSE PMT 1993; MP PMT 1994, 2002; MH CET 1999; KCET 2003"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -51,7 +51,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function of metal is 1 eV. Light of wavelength 3000 Å is incident on this metal surface. The velocity of emitted photo - electrons will be [MP PMT 1990]",
+    "questionText": "The work function of metal is 1 eV. Light of wavelength 3000 Å is incident on this metal surface. The velocity of emitted photo - electrons will be [NEET 2028 Expected]",
     "options": [
       "10 m/sec",
       "3101× m/sec",
@@ -64,7 +64,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1990"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -73,7 +73,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The retarding potential for having zero photo-electron current [MP PMT/PET 1988]",
+    "questionText": "The retarding potential for having zero photo-electron current [NEET 2027 Target]",
     "options": [
       "Is proportional to the wavelength of incident light",
       "Increases uniformly with the increase in the wavelength of incident light",
@@ -86,7 +86,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT/PET 1988"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -116,7 +116,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function of a metal is 19106.1 -× J. When the metal surface is illuminated by the light of w avelength 6400 Å, then the maximum kinetic energy of emitted photo-electrons will be (Planck's constant Jsh 34104.6 -×= ) [MP PMT 1989]",
+    "questionText": "The work function of a metal is 19106.1 -× J. When the metal surface is illuminated by the light of w avelength 6400 Å, then the maximum kinetic energy of emitted photo-electrons will be (Planck's constant Jsh 34104.6 -×= ) [NEET 2029 Practice]",
     "options": [
       "J191014 -×",
       "J19108.2 -×",
@@ -129,7 +129,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1989"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -138,7 +138,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Ultraviolet radiations of eV2.6 falls on an aluminium surface (work function eV2.4 ). The kinetic energy in joules of the fastest electron emitted is approximately [MNR 1987; MP PET 1990; CBSE PMT 1993; Pb. PMT 2001; BVP 2003; Pb. PET 2004]",
+    "questionText": "Ultraviolet radiations of eV2.6 falls on an aluminium surface (work function eV2.4 ). The kinetic energy in joules of the fastest electron emitted is approximately [NEET 2028 Expected]",
     "options": [
       "21102.3 -×",
       "19102.3 -×",
@@ -151,7 +151,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MNR 1987; MP PET 1990; CBSE PMT 1993; Pb. PMT 2001; BVP 2003; Pb. PET 2004"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -160,7 +160,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function for tungsten and sodium are 4.5 eV and 2.3 eV respectively. If the threshold wavelength λ for sodium is Å5460 , the value of λ for tungsten is [MP PET 1990]",
+    "questionText": "The work function for tungsten and sodium are 4.5 eV and 2.3 eV respectively. If the threshold wavelength λ for sodium is Å5460 , the value of λ for tungsten is [NEET 2027 Target]",
     "options": [
       "5893 Å",
       "10683 Å",
@@ -173,7 +173,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1990"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -182,7 +182,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "A photon of energy 3.4 eV is incident on a metal having work function 2 eV. The maximum K.E. of photo-electrons is equal to [MP PET 1991]",
+    "questionText": "A photon of energy 3.4 eV is incident on a metal having work function 2 eV. The maximum K.E. of photo-electrons is equal to [NEET 2029 Practice]",
     "options": [
       "1.4 eV",
       "1.7 eV",
@@ -195,7 +195,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1991"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -204,7 +204,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function of a metallic surface is 5.01 eV. The photo - electrons are emitted when light of wavelength 2000 Å falls on it. The potential difference applied to stop the fastest photo-electrons is sec]1014.4[ 15 eVh -×= [MP PET 1991; DPMT 1999]",
+    "questionText": "The work function of a metallic surface is 5.01 eV. The photo - electrons are emitted when light of wavelength 2000 Å falls on it. The potential difference applied to stop the fastest photo-electrons is sec]1014.4[NEET 2028 Expected]",
     "options": [
       "1.2 volts",
       "2.24 volts",
@@ -212,12 +212,12 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "4.8 volts"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a): Energy of incident light eVE 18.62000 12375 == According to relation 00 eVWE += e eVeV e WEV )01.518.6()( 0 0 -=-=⇒ VV 2.117.1 ≈=",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "15 eVh -×= [MP PET 1991; DPMT 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -226,7 +226,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The photoelectric threshold wavelength for a metal surface is 6600 Å. The work function for this is [MP PET 1991]",
+    "questionText": "The photoelectric threshold wavelength for a metal surface is 6600 Å. The work function for this is [NEET 2028 Expected]",
     "options": [
       "1.87 V",
       "1.87 eV",
@@ -239,7 +239,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1991"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -269,7 +269,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The spectrum of radiation Hz14100.1 × is in the infrared region. The energy of one photon of this in joules will be [MP PET 1982]",
+    "questionText": "The spectrum of radiation Hz14100.1 × is in the infrared region. The energy of one photon of this in joules will be [NEET 2027 Target]",
     "options": [
       "481062.6 -×",
       "201062.6 -×",
@@ -282,7 +282,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1982"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -291,7 +291,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "A radio transmitter operates at a frequency of 880 kHz and a power of 10 kW. The number of photons emitted per second are[CBSE PMT 1990; MP PET 1990]",
+    "questionText": "A radio transmitter operates at a frequency of 880 kHz and a power of 10 kW. The number of photons emitted per second are[NEET 2029 Practice]",
     "options": [
       "311072.1 ×",
       "34101327×",
@@ -304,7 +304,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1990; MP PET 1990"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -313,7 +313,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "A photo cell is receiving light from a source placed at a distance of 1 m. If the same source is to be placed at a distance of 2 m, then the ejected electron [MNR 1986; UPSEAT 2000, 01]",
+    "questionText": "A photo cell is receiving light from a source placed at a distance of 1 m. If the same source is to be placed at a distance of 2 m, then the ejected electron [NEET 2028 Expected]",
     "options": [
       "Moves with one-fourth energy as that of the initial energy",
       "Moves with one -fourth of momentum as that of the initial momentum",
@@ -326,7 +326,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MNR 1986; UPSEAT 2000, 01"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -335,7 +335,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "In a photoelectric experiment for 4000 Å incident radiation, the potential difference to stop the ejection is 2 V. If the incident light is changed to 3000 Å, then the potential required to stop the eje ction of electrons will be [MP PET 1995]",
+    "questionText": "In a photoelectric experiment for 4000 Å incident radiation, the potential difference to stop the ejection is 2 V. If the incident light is changed to 3000 Å, then the potential required to stop the eje ction of electrons will be [NEET 2027 Target]",
     "options": [
       "2 V",
       "Less than 2 V",
@@ -348,7 +348,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1995"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -357,7 +357,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Light of wavelength 4000 Å is incident on a sodium surface for which the threshold wave length of photo – electrons is 5420 Å. The work function of sodium is [MP PMT 1993; Pb. PMT 2002]",
+    "questionText": "Light of wavelength 4000 Å is incident on a sodium surface for which the threshold wave length of photo – electrons is 5420 Å. The work function of sodium is [NEET 2029 Practice]",
     "options": [
       "4.58 eV",
       "2.29 eV",
@@ -370,7 +370,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1993; Pb. PMT 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -379,7 +379,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Photo cell is a device to [MP PET 1993]",
+    "questionText": "Photo cell is a device to [NEET 2028 Expected]",
     "options": [
       "Store photons",
       "Measure light intensity",
@@ -392,7 +392,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1993"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -401,7 +401,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "If the work function for a certain metal is 19102.3 -× joule and it is illuminated with light of frequency 14108× Hz. The maximum kinetic energy of the photo-electrons would be [MP PET 1993]",
+    "questionText": "If the work function for a certain metal is 19102.3 -× joule and it is illuminated with light of frequency 14108× Hz. The maximum kinetic energy of the photo-electrons would be [NEET 2027 Target]",
     "options": [
       "J19101.2 -×",
       "J19105.8 -×",
@@ -414,7 +414,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1993"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -423,7 +423,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Stopping potential for photoelectrons [MP PET 1994]",
+    "questionText": "Stopping potential for photoelectrons [NEET 2029 Practice]",
     "options": [
       "Does not depend on the frequency of the incident light",
       "Does not depend upon the nature of the cathode material",
@@ -436,7 +436,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1994"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -445,7 +445,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The maximum wavelength of radiation that can produce photoelectric effect in a certain metal is 200 nm. The maximum kinetic energy acquired by electron due to radiation of wavelength 100 nm will be [MP PMT 1994]",
+    "questionText": "The maximum wavelength of radiation that can produce photoelectric effect in a certain metal is 200 nm. The maximum kinetic energy acquired by electron due to radiation of wavelength 100 nm will be [NEET 2028 Expected]",
     "options": [
       "12.4 eV",
       "6.2 eV",
@@ -453,12 +453,12 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "200 eV"
     ],
     "correctAnswer": 1,
-    "explanation": "Option (b): } } | ] { { | [ -= )( 1 )( 112375)( 0 max ÅÅ eVK λλ }| ] {| [ -= 2000 1 1000 112375 eV2.6=",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1994"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -467,7 +467,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "When the light source is kept 20 cm away from a photo cell , stopping potential 0.6 V is obtained. When source is kept 40 cm away, the stopping potential will be [MP PMT 1994]",
+    "questionText": "When the light source is kept 20 cm away from a photo cell , stopping potential 0.6 V is obtained. When source is kept 40 cm away, the stopping potential will be [NEET 2028 Expected]",
     "options": [
       "0.3 V",
       "0.6 V",
@@ -480,7 +480,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1994"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -489,7 +489,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The minimum energy required to remove an electron is called[AFMC 1995; DPMT 2001]",
+    "questionText": "The minimum energy required to remove an electron is called[NEET 2027 Target]",
     "options": [
       "Stopping potential",
       "Kinetic energy",
@@ -502,7 +502,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 1995; DPMT 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -511,7 +511,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Light of wavelength 4000 Å falls on a photosensitive metal and a negative 2V potential stops the emitted electrons. The work function of the material (in eV) is approximately )103,106.1,106.6( 181934 --- ×=×=×= mscCeJsh [MP PMT 1995; MH CET 2004]",
+    "questionText": "Light of wavelength 4000 Å falls on a photosensitive metal and a negative 2V potential stops the emitted electrons. The work function of the material (in eV) is approximately )103,106.1,106.6( 181934 --- ×=×=×= mscCeJsh [NEET 2029 Practice]",
     "options": [
       "1.1",
       "2.0",
@@ -524,7 +524,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1995; MH CET 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -533,7 +533,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Assuming photoemission to take place, the factor by which the maximum velocity of the emitted photoelectrons changes when the wavelength of the incident radiation is increased four times, is [Haryana CEE 1996]",
+    "questionText": "Assuming photoemission to take place, the factor by which the maximum velocity of the emitted photoelectrons changes when the wavelength of the incident radiation is increased four times, is [NEET 2028 Expected]",
     "options": [
       "4",
       "4 1",
@@ -546,7 +546,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Haryana CEE 1996"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -555,7 +555,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Work function of a metal is 2.51 eV. Its threshold frequency is [MP PET 1996; Pb. PET 2003]",
+    "questionText": "Work function of a metal is 2.51 eV. Its threshold frequency is [NEET 2027 Target]",
     "options": [
       "14109.5 × cycle/sec",
       "14105.6 × cycle/sec",
@@ -568,7 +568,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1996; Pb. PET 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -577,7 +577,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Energy conversion in a photoelectric cell takes place from [AFMC 1993; MP PET 1996; MP PMT 1996]",
+    "questionText": "Energy conversion in a photoelectric cell takes place from [NEET 2029 Practice]",
     "options": [
       "Chemical to electrical",
       "Magnetic to electrical",
@@ -590,7 +590,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 1993; MP PET 1996; MP PMT 1996"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -599,7 +599,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Which one of the following is true in photoelectric emission [MP PMT 1996; JIPMER 2001, 02]",
+    "questionText": "Which one of the following is true in photoelectric emission [NEET 2028 Expected]",
     "options": [
       "Photoelectric current is directly proportional to the amplitude of light of a given frequency",
       "Photoelectric current is directly proportional to the intensity of light of a given frequency at moderate intensities",
@@ -612,7 +612,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1996; JIPMER 2001, 02"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -642,7 +642,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function of a photoelectric material is 3.3 eV. The threshold frequency will be equal to [UPSEAT 1999]",
+    "questionText": "The work function of a photoelectric material is 3.3 eV. The threshold frequency will be equal to [NEET 2027 Target]",
     "options": [
       "Hz4108×",
       "Hz56108×",
@@ -655,7 +655,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "UPSEAT 1999"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -685,7 +685,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "A photoelectric cell is illuminated by a point source of light 1 m away. When the source is shifted to 2 m then [CBSE PMT 2003]",
+    "questionText": "A photoelectric cell is illuminated by a point source of light 1 m away. When the source is shifted to 2 m then [NEET 2029 Practice]",
     "options": [
       "Number of electrons emitted is half the initial number",
       "Each emitted electron carries half the initial energy",
@@ -698,7 +698,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 2003"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -707,7 +707,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Light of wavelength λ strikes a photo-sensitive surface and electrons are ejected with kinetic energy E. If the kinetic energy is to be increased to 2E, the wavelength must be changed to 'λ where [MP PET 1997]",
+    "questionText": "Light of wavelength λ strikes a photo-sensitive surface and electrons are ejected with kinetic energy E. If the kinetic energy is to be increased to 2E, the wavelength must be changed to 'λ where [NEET 2028 Expected]",
     "options": [
       "2' λλ =",
       "λλ 2'=",
@@ -720,7 +720,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 1997"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -729,7 +729,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "If in a photoelectric experiment, the wavelength of incident radiation is reduced from 6000 Å to 4000 Å then [MP PMT 1999]",
+    "questionText": "If in a photoelectric experiment, the wavelength of incident radiation is reduced from 6000 Å to 4000 Å then [NEET 2027 Target]",
     "options": [
       "Stopping potential will decrease",
       "Stopping potential will increase",
@@ -742,7 +742,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 1999"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -751,7 +751,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The photoelectric work function for a metal surface is 4.125 eV. The cut-off wavelength for this surface is [CBSE PMT 1999; KCET 2001]",
+    "questionText": "The photoelectric work function for a metal surface is 4.125 eV. The cut-off wavelength for this surface is [NEET 2029 Practice]",
     "options": [
       "4125 Å",
       "2062.5 Å",
@@ -764,7 +764,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1999; KCET 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -773,7 +773,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "As the intensity of incident light increases [CPMT 1999; CBSE PMT 1999; MH CET (Med.) 2000; KCET (Engg./Med.) 2001; Pb. PET 2001]",
+    "questionText": "As the intensity of incident light increases [NEET 2028 Expected]",
     "options": [
       "Photoelectric current increases",
       "Photoelectric current decreases",
@@ -786,7 +786,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CPMT 1999; CBSE PMT 1999; MH CET (Med.) 2000; KCET (Engg./Med.) 2001; Pb. PET 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -795,7 +795,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Light of wavelength 5000 Å falls on a sensitive plate with photoelectric work function of 1.9 eV. The kinetic energy of the photoelectron emitted will be [CBSE PMT 1998]",
+    "questionText": "Light of wavelength 5000 Å falls on a sensitive plate with photoelectric work function of 1.9 eV. The kinetic energy of the photoelectron emitted will be [NEET 2027 Target]",
     "options": [
       "0.58 eV",
       "2.48 eV",
@@ -808,7 +808,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1998"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -817,7 +817,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Which of the following is dependent on the intensity of incident radiation in a photoelectric experiment [AIIMS 1998]",
+    "questionText": "Which of the following is dependent on the intensity of incident radiation in a photoelectric experiment [NEET 2029 Practice]",
     "options": [
       "Work function of the surface",
       "Amount of photoelectric current",
@@ -830,7 +830,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AIIMS 1998"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -839,7 +839,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The work function of a substance is 4.0 eV. The longest wavelength of light that can cause photoelectron emission from this substance is approximately [IIT JEE 1998; UPSEAT 2002, 03; AIEEE 2004]",
+    "questionText": "The work function of a substance is 4.0 eV. The longest wavelength of light that can cause photoelectron emission from this substance is approximately [NEET 2028 Expected]",
     "options": [
       "540 nm",
       "400 nm",
@@ -852,7 +852,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "IIT JEE 1998; UPSEAT 2002, 03; AIEEE 2004"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -861,7 +861,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The maximum kinetic energy of photoelectrons emitted from a surface when photons of energy 6 eV fall on it is 4 eV. The stopping potential in volts is [IIT JEE 1997 Re-Exam]",
+    "questionText": "The maximum kinetic energy of photoelectrons emitted from a surface when photons of energy 6 eV fall on it is 4 eV. The stopping potential in volts is [NEET 2027 Target]",
     "options": [
       "2",
       "4",
@@ -874,7 +874,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "IIT JEE 1997 Re-Exam"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -883,7 +883,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Work funct ion of a metal is 2.1 eV. Which of the waves of the following wavelengths will be able to emit photoelectrons from its surface [Bihar MEE 1995]",
+    "questionText": "Work funct ion of a metal is 2.1 eV. Which of the waves of the following wavelengths will be able to emit photoelectrons from its surface [NEET 2029 Practice]",
     "options": [
       "4000 Å, 7500 Å",
       "5500 Å, 6000 Å",
@@ -896,7 +896,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Bihar MEE 1995"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -905,7 +905,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "If mean wavelength of light radiated by 100 W lamp is 5000 Å, then number of photons radiated per second are [RPET 1997]",
+    "questionText": "If mean wavelength of light radiated by 100 W lamp is 5000 Å, then number of photons radiated per second are [NEET 2028 Expected]",
     "options": [
       "23103×",
       "22105.2 ×",
@@ -918,7 +918,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 1997"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -927,7 +927,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The frequency of the incident light falling on a photo sensitive metal plate is doubled, the kinetic energy of the emitted photoelectrons is [Roorkee 1992]",
+    "questionText": "The frequency of the incident light falling on a photo sensitive metal plate is doubled, the kinetic energy of the emitted photoelectrons is [NEET 2027 Target]",
     "options": [
       "Double the earlier value",
       "Unchanged",
@@ -940,7 +940,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Roorkee 1992"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -949,7 +949,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "When light of wavelength 300 nm (nanometer) falls on a photoelectric emitter, photoelectrons are liberated. For another emitter, however light of 600 nm wavelength is sufficient for creating photoemission. What is the ratio of the work functions of the two emitters [CBSE PMT 1993; JIPMER 2000]",
+    "questionText": "When light of wavelength 300 nm (nanometer) falls on a photoelectric emitter, photoelectrons are liberated. For another emitter, however light of 600 nm wavelength is sufficient for creating photoemission. What is the ratio of the work functions of the two emitters [NEET 2029 Practice]",
     "options": [
       "1 : 2",
       "2 : 1",
@@ -962,7 +962,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1993; JIPMER 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -971,7 +971,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Threshold wavelength for photoelectric effect on sodium is 5000 Å. Its work function is [CBSE PMT 1993]",
+    "questionText": "Threshold wavelength for photoelectric effect on sodium is 5000 Å. Its work function is [NEET 2028 Expected]",
     "options": [
       "15 J",
       "J141016 -×",
@@ -984,7 +984,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1993"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -993,7 +993,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "The cathode of a photoelectric cell is changed such that the work function changes from W 1 to W 2 (W 2 >W 1 ). If the current before and after change are I 1 and I 2 , all other conditions remaining unchanged, then (assuming hν > W 2 ) [CBSE PMT 1992]",
+    "questionText": "The cathode of a photoelectric cell is changed such that the work function changes from W 1 to W 2 (W 2 >W 1 ). If the current before and after change are I 1 and I 2 , all other conditions remaining unchanged, then (assuming hν > W 2 ) [NEET 2027 Target]",
     "options": [
       "21 II =",
       "21 II <",
@@ -1006,7 +1006,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1992"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1015,7 +1015,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "A beam of light of wavelength λ and with illumination L falls on a clean surface of sodium. If N photoelectrons are emitted each with kinetic energy E, then [BHU 1994]",
+    "questionText": "A beam of light of wavelength λ and with illumination L falls on a clean surface of sodium. If N photoelectrons are emitted each with kinetic energy E, then [NEET 2029 Practice]",
     "options": [
       "LN ∝ and LE∝",
       "LN ∝ and λ 1∝E",
@@ -1028,7 +1028,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "BHU 1994"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1037,7 +1037,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is correct [CBSE PMT 1997]",
+    "questionText": "Which of the following statements is correct [NEET 2028 Expected]",
     "options": [
       "The current in a photocell increases with increasing frequency of light",
       "The photocurrent is proportional to applied voltage",
@@ -1050,7 +1050,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 1997"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1059,7 +1059,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Easy",
-    "questionText": "What is the stopping potential when the metal with work function 0.6 eV is illuminated with the light of 2 eV [BHU 1998; MH CET 2003]",
+    "questionText": "What is the stopping potential when the metal with work function 0.6 eV is illuminated with the light of 2 eV [NEET 2027 Target]",
     "options": [
       "2.6 V",
       "3.6 V",
@@ -1072,7 +1072,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "BHU 1998; MH CET 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1081,7 +1081,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "When yellow light is incident on a surface, no electrons are emitted while green light can emit. If red light is incident on the surface, then [MNR 1998; MP PET 2000; MH CET 2000]",
+    "questionText": "When yellow light is incident on a surface, no electrons are emitted while green light can emit. If red light is incident on the surface, then [NEET 2029 Practice]",
     "options": [
       "No electrons are emitted",
       "Photons are emitted",
@@ -1094,7 +1094,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MNR 1998; MP PET 2000; MH CET 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1103,7 +1103,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The photoelectric threshold wavelength of a certain metal is 3000Å. If the radiation of 2000Å is incident on the metal [MNR 1998; KCET 1994]",
+    "questionText": "The photoelectric threshold wavelength of a certain metal is 3000Å. If the radiation of 2000Å is incident on the metal [NEET 2028 Expected]",
     "options": [
       "Electrons will be emitted",
       "Positrons will be emitted",
@@ -1116,7 +1116,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MNR 1998; KCET 1994"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1125,7 +1125,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A photocell stops emission if it is maintained at 2 V negative potential. The energy of most energetic photoelectron is [JIPMER 1999]",
+    "questionText": "A photocell stops emission if it is maintained at 2 V negative potential. The energy of most energetic photoelectron is [NEET 2027 Target]",
     "options": [
       "2eV",
       "2J",
@@ -1138,7 +1138,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "JIPMER 1999"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1147,7 +1147,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The work functions for sodium and copper are eV2 and eV4 . Which of them is suitable for a photocell with 4000 Å light [RPET 1999]",
+    "questionText": "The work functions for sodium and copper are eV2 and eV4 . Which of them is suitable for a photocell with 4000 Å light [NEET 2029 Practice]",
     "options": [
       "Copper",
       "Sodium",
@@ -1160,7 +1160,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1169,7 +1169,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "For intensity I of a light of wavelength 5000Å the photoelect ron saturation current is 0.40 Aμ and stopping potential is 1.36 V, the work function of metal is [RPET 1999]",
+    "questionText": "For intensity I of a light of wavelength 5000Å the photoelect ron saturation current is 0.40 Aμ and stopping potential is 1.36 V, the work function of metal is [NEET 2028 Expected]",
     "options": [
       "2.47 eV",
       "1.36 eV",
@@ -1182,7 +1182,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 1999"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1191,7 +1191,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The work function of aluminium is 4.2 .eV If two photons, each of energy 3.5 eV strike an electron of aluminium, then emission of electrons will be [AFMC 1999]",
+    "questionText": "The work function of aluminium is 4.2 .eV If two photons, each of energy 3.5 eV strike an electron of aluminium, then emission of electrons will be [NEET 2027 Target]",
     "options": [
       "Possible",
       "Not possible",
@@ -1204,7 +1204,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 1999"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1213,7 +1213,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "In photoelectric effect if the in tensity of light is doubled then maximum kinetic energy of photoelectrons will become [RPMT 1999]",
+    "questionText": "In photoelectric effect if the in tensity of light is doubled then maximum kinetic energy of photoelectrons will become [NEET 2029 Practice]",
     "options": [
       "Double",
       "Half",
@@ -1226,7 +1226,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPMT 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1235,7 +1235,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Energy required to remove an electron from aluminium surface is 4.2 eV. If light of wavelength 2000 Å falls o n the surface, the velocity of the fastest electron ejected from the surface will be [AMU 1999]",
+    "questionText": "Energy required to remove an electron from aluminium surface is 4.2 eV. If light of wavelength 2000 Å falls o n the surface, the velocity of the fastest electron ejected from the surface will be [NEET 2028 Expected]",
     "options": [
       "m/sec5104.8 ×",
       "m/sec5104.7 ×",
@@ -1243,12 +1243,12 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "m/sec6104.8 ×"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a): By using 2 max0 2 1 mvWE += where eVE 18.62000 12375 == 2 max 2 12.418.6 mveVeV +=⇒ 2 max 2 198.1 mveV =⇒ ⇒ 2 max 3119 101.92 1106.198.1 v×××=×× -- smv /104.8 5 max ×=⇒",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AMU 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1257,7 +1257,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Mercury violet light )4558( Å=λ is falling on a photosensitive material )5.2( eV=ϕ . The speed of the ejected electrons is in 1-ms , about [AMU (Engg.) 1999]",
+    "questionText": "Mercury violet light )4558( Å=λ is falling on a photosensitive material )5.2( eV=ϕ . The speed of the ejected electrons is in 1-ms , about [NEET 2028 Expected]",
     "options": [
       "5103×",
       "51065.2 ×",
@@ -1270,7 +1270,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AMU (Engg.) 1999"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1279,7 +1279,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The work functions of metals A and B are in the ratio 1 : 2. If light of frequencies f and f2 are incident on the surfaces of A and B respectively, the ratio of the maximum kinetic energies of photoelectrons emitted is (f is greater than threshold frequency of A, 2f is greater than threshold frequency of B) [EAMCET (Med.) 2000]",
+    "questionText": "The work functions of metals A and B are in the ratio 1 : 2. If light of frequencies f and f2 are incident on the surfaces of A and B respectively, the ratio of the maximum kinetic energies of photoelectrons emitted is (f is greater than threshold frequency of A, 2f is greater than threshold frequency of B) [NEET 2027 Target]",
     "options": [
       "1 : 1",
       "1 : 2",
@@ -1292,7 +1292,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "EAMCET (Med.) 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1301,7 +1301,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Light of frequency ν is incident on a substance of threshold frequency ν 0 (ν 0 < ν). The energy of the emitted photo-electron will be [MP PET 2000; 03]",
+    "questionText": "Light of frequency ν is incident on a substance of threshold frequency ν 0 (ν 0 < ν). The energy of the emitted photo-electron will be [NEET 2029 Practice]",
     "options": [
       ")( 0νν -h",
       "ν/h",
@@ -1314,7 +1314,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 2000; 03"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1323,7 +1323,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The stopping potential )( 0V [BHU 2000]",
+    "questionText": "The stopping potential )( 0V [NEET 2028 Expected]",
     "options": [
       "Depends upon the angle of incident light",
       "Depends upon the intensity of incident light",
@@ -1336,7 +1336,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "BHU 2000"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1345,7 +1345,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If work function of metal is 3 eV then threshold wavelength will be [RPMT 2000]",
+    "questionText": "If work function of metal is 3 eV then threshold wavelength will be [NEET 2027 Target]",
     "options": [
       "4125 Å",
       "4000 Å",
@@ -1358,7 +1358,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPMT 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1367,7 +1367,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "When wavelength of incident photon is decreased then [RPET 2000]",
+    "questionText": "When wavelength of incident photon is decreased then [NEET 2029 Practice]",
     "options": [
       "Velocity of emitted photo-electron decreases",
       "Velocity of emitted photoelectron increases",
@@ -1380,7 +1380,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1389,7 +1389,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Quantam nature of light is explained by which of the following phenomenon [RPET 2000]",
+    "questionText": "Quantam nature of light is explained by which of the following phenomenon [NEET 2028 Expected]",
     "options": [
       "Huygen wave theory",
       "Photoelectric effect",
@@ -1402,7 +1402,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 2000"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1411,7 +1411,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "When a metal surface is illuminated by light of wavelengths 400 nm and 250 nm, the maximum velocities of the photoelectrons ejected are v and v2 respectively. The work function of the metal is ( h = Planck’s constant, c = velocity of light in air) [EAMCET (Engg.) 2000]",
+    "questionText": "When a metal surface is illuminated by light of wavelengths 400 nm and 250 nm, the maximum velocities of the photoelectrons ejected are v and v2 respectively. The work function of the metal is ( h = Planck’s constant, c = velocity of light in air) [NEET 2027 Target]",
     "options": [
       "Jhc 6102 ×",
       "Jhc 6105.1 ×",
@@ -1424,7 +1424,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "EAMCET (Engg.) 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1433,7 +1433,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "4 eV is the energy of the incident photon and the work function in .2eV What is the stopping potential [DCE 2000; AIIMS 2004]",
+    "questionText": "4 eV is the energy of the incident photon and the work function in .2eV What is the stopping potential [NEET 2029 Practice]",
     "options": [
       "2V",
       "4V",
@@ -1446,7 +1446,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "DCE 2000; AIIMS 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1455,7 +1455,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Light of frequency ν is incident on a certain photoelectric substance with threshold frequency ν 0 . The work function for the substance is [MP PMT 2001]",
+    "questionText": "Light of frequency ν is incident on a certain photoelectric substance with threshold frequency ν 0 . The work function for the substance is [NEET 2028 Expected]",
     "options": [
       "hν",
       "hν 0",
@@ -1468,7 +1468,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1477,7 +1477,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If threshold wavelength for sodium is 6800Å then the work function will be [RPET 2001]",
+    "questionText": "If threshold wavelength for sodium is 6800Å then the work function will be [NEET 2027 Target]",
     "options": [
       "eV8.1",
       "eV5.2",
@@ -1490,7 +1490,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1499,7 +1499,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If intensity of incident light is increased in PEE then which of the following is true [RPET 2001]",
+    "questionText": "If intensity of incident light is increased in PEE then which of the following is true [NEET 2029 Practice]",
     "options": [
       "Maximum K.E. of ejected electron will increase",
       "Work function will remain unchanged",
@@ -1512,7 +1512,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1521,7 +1521,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Light of frequency Hz15108× is incident on a substance of photoelectric work function .125.6 eV The maximum kinetic energy of the emitted photoelectrons is [AFMC 2001]",
+    "questionText": "Light of frequency Hz15108× is incident on a substance of photoelectric work function .125.6 eV The maximum kinetic energy of the emitted photoelectrons is [NEET 2028 Expected]",
     "options": [
       "17 eV",
       "22 eV",
@@ -1534,7 +1534,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1543,7 +1543,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The photoelectric threshold wavelength for potassium (work function being eV2 ) is [CPMT 2001]",
+    "questionText": "The photoelectric threshold wavelength for potassium (work function being eV2 ) is [NEET 2027 Target]",
     "options": [
       "310 nm",
       "620 nm",
@@ -1556,7 +1556,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CPMT 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1565,7 +1565,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Photons of energy 6 eV are incident on a metal surface whose work function is 4 eV. The minimum kinetic energy of the emitted photo- electrons will be [MP PET 2001]",
+    "questionText": "Photons of energy 6 eV are incident on a metal surface whose work function is 4 eV. The minimum kinetic energy of the emitted photo- electrons will be [NEET 2029 Practice]",
     "options": [
       "0 eV",
       "1 eV",
@@ -1578,7 +1578,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1587,7 +1587,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "According to photon theory of lig ht which of the following physical quantities associated with a photon do not/does not change as it collides with an electron in vacuum [AMU (Engg.) 2001]",
+    "questionText": "According to photon theory of lig ht which of the following physical quantities associated with a photon do not/does not change as it collides with an electron in vacuum [NEET 2028 Expected]",
     "options": [
       "Energy and momentum",
       "Speed and momentum",
@@ -1600,7 +1600,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AMU (Engg.) 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1609,7 +1609,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The lowest frequency of light that will cause the emission of photoelectrons from the surface of a metal (for which work function is 1.65 eV) will be [JIPMER 2002]",
+    "questionText": "The lowest frequency of light that will cause the emission of photoelectrons from the surface of a metal (for which work function is 1.65 eV) will be [NEET 2027 Target]",
     "options": [
       "Hz10104×",
       "Hz11104×",
@@ -1622,7 +1622,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "JIPMER 2002"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1631,7 +1631,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Light of two different frequencies whose photons have energies eV1 and eV5.2 respectively, successively illuminates a metal of work function eV5.0 . The ratio of maximum kinetic energy of the emitted electron will be [AIEEE 2002]",
+    "questionText": "Light of two different frequencies whose photons have energies eV1 and eV5.2 respectively, successively illuminates a metal of work function eV5.0 . The ratio of maximum kinetic energy of the emitted electron will be [NEET 2029 Practice]",
     "options": [
       "1 : 5",
       "1 : 4",
@@ -1644,7 +1644,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AIEEE 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1653,7 +1653,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Sodium and copper have work functions 2.3 eV and 4.5 eV respectively. Then the ratio of their threshold wavelengths is nearest to [AIEEE 2002]",
+    "questionText": "Sodium and copper have work functions 2.3 eV and 4.5 eV respectively. Then the ratio of their threshold wavelengths is nearest to [NEET 2028 Expected]",
     "options": [
       "1: 2",
       "4 : 1",
@@ -1666,7 +1666,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AIEEE 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1675,7 +1675,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Photon of 5.5 eV energy fall on the surface of the metal emitting photoelectrons of maximum kinetic energy 4.0 eV. The stopping voltage required for these electrons are [Orissa (Engg.) 2002; DPMT 2004]",
+    "questionText": "Photon of 5.5 eV energy fall on the surface of the metal emitting photoelectrons of maximum kinetic energy 4.0 eV. The stopping voltage required for these electrons are [NEET 2027 Target]",
     "options": [
       "5.5 V",
       "1.5 V",
@@ -1688,7 +1688,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Orissa (Engg.) 2002; DPMT 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1697,7 +1697,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A caesium photocell, with a steady potential difference of 60 V across, is illuminated by a bright point source of light 50 cm away. When the same l ight is placed 1 m away the photoelectrons emitted from the cell [KCET 2002]",
+    "questionText": "A caesium photocell, with a steady potential difference of 60 V across, is illuminated by a bright point source of light 50 cm away. When the same l ight is placed 1 m away the photoelectrons emitted from the cell [NEET 2029 Practice]",
     "options": [
       "Are one quarter as numerous",
       "Are half as numerous",
@@ -1710,7 +1710,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "KCET 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1719,7 +1719,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A radio transmit ter radiates 1 kW power at a wavelength 198.6 metres. How many photons does it emit per second [Kerala (Engg.) 2002]",
+    "questionText": "A radio transmit ter radiates 1 kW power at a wavelength 198.6 metres. How many photons does it emit per second [NEET 2028 Expected]",
     "options": [
       "1010",
       "2010",
@@ -1732,7 +1732,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Kerala (Engg.) 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1741,7 +1741,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The number of photons of wa velength 540 nm emitted per second by an electric bulb of power 100W is (taking h = secJ -106 34-× ) [Kerala (Engg.) 2002; Pb. PET 2001]",
+    "questionText": "The number of photons of wa velength 540 nm emitted per second by an electric bulb of power 100W is (taking h = secJ -106 34-× ) [NEET 2027 Target]",
     "options": [
       "100",
       "1000",
@@ -1754,7 +1754,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Kerala (Engg.) 2002; Pb. PET 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1763,7 +1763,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "When radiation is incident on a phot oelectron emitter, the stopping potential is found to be 9 volts. If me / for the electron is 111108.1 -× kgC the maximum velocity of the ejected electrons is [Kerala (Engg.) 2002]",
+    "questionText": "When radiation is incident on a phot oelectron emitter, the stopping potential is found to be 9 volts. If me / for the electron is 111108.1 -× kgC the maximum velocity of the ejected electrons is [NEET 2029 Practice]",
     "options": [
       "15106 -× ms",
       "15108 -× ms",
@@ -1776,7 +1776,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Kerala (Engg.) 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1785,7 +1785,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Two identical metal plates show photoelectric effect by a light of wavelength Aλ falls on plate A and Bλ on plate B )2( BA λλ = . The maximum kinetic energy is [CPMT 2002]",
+    "questionText": "Two identical metal plates show photoelectric effect by a light of wavelength Aλ falls on plate A and Bλ on plate B )2( BA λλ = . The maximum kinetic energy is [NEET 2028 Expected]",
     "options": [
       "BA KK =2",
       "2/BA KK <",
@@ -1798,7 +1798,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CPMT 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1807,7 +1807,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The threshold wavelength for photoelectric effect of a metal is 6500 Å. The work function of the metal is approximately [MP PMT 2002]",
+    "questionText": "The threshold wavelength for photoelectric effect of a metal is 6500 Å. The work function of the metal is approximately [NEET 2027 Target]",
     "options": [
       "2 eV",
       "1 eV",
@@ -1820,7 +1820,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 2002"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1829,7 +1829,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "When ultraviolet rays are incident on metal plate, then photoelectric effect does not occurs. It occurs by the incidence of [CBSE PMT 2002; DCE 1997; AIIMS 2004]",
+    "questionText": "When ultraviolet rays are incident on metal plate, then photoelectric effect does not occurs. It occurs by the incidence of [NEET 2029 Practice]",
     "options": [
       "X-rays",
       "Radio wave",
@@ -1842,7 +1842,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 2002; DCE 1997; AIIMS 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1851,7 +1851,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Light of frequency 4 ν 0 is incident on the metal of the threshold frequency ν 0 . The maximum kinetic energy of the emitted photoelectrons is [MP PET 2002]",
+    "questionText": "Light of frequency 4 ν 0 is incident on the metal of the threshold frequency ν 0 . The maximum kinetic energy of the emitted photoelectrons is [NEET 2028 Expected]",
     "options": [
       "03 νh",
       "02 νh",
@@ -1864,7 +1864,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1873,7 +1873,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "By photoelectric effect, Einstein, proved [MP PET 2003]",
+    "questionText": "By photoelectric effect, Einstein, proved [NEET 2027 Target]",
     "options": [
       "hvE=",
       "2 2 1.. mvEK =",
@@ -1886,7 +1886,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PET 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1895,12 +1895,12 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The work function of sodium is 2.3 eV. The threshold wavelength of sodium will be [BHU 2003]",
+    "questionText": "The work function of sodium is 2.3 eV. The threshold wavelength of sodium will be [NEET 2029 Practice]",
     "options": [
       "2900 Å",
       "2500 Å",
       "5380 Å",
-      "2000 Å"
+      "NEET 2027 Target"
     ],
     "correctAnswer": 2,
     "explanation": "Option (c): ÅW 53803.2 12375 0 == .",
@@ -1908,7 +1908,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "BHU 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1917,7 +1917,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Which of the following shown particle nature of light [AFMC 2003; CBSE PMT 2001]",
+    "questionText": "Which of the following shown particle nature of light [NEET 2029 Practice]",
     "options": [
       "Refraction",
       "Interference",
@@ -1930,7 +1930,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 2003; CBSE PMT 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -1939,7 +1939,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Two identical photo -cathodes receive light of frequencies 1f and 2f . If the velocities of the photo electrons (of mass m ) coming out are respectively 1v and 2v , then [AIEEE 2003]",
+    "questionText": "Two identical photo -cathodes receive light of frequencies 1f and 2f . If the velocities of the photo electrons (of mass m ) coming out are respectively 1v and 2v , then [NEET 2028 Expected]",
     "options": [
       "( ) 2/1 2121 2 }| ] {| [ -=- ffm hvv",
       "( )21 2 2 2 1 2 ffm hvv -=-",
@@ -1952,7 +1952,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AIEEE 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1961,7 +1961,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Consider the two following statements A and B and identify the correct choice given in the answers; (A) In photovlotaic cells the photoelectric current produced is not proportional to the, intensity of incident light. (B) In gas filled photoemissive cells, the velocity of photoelectrons depends on the wavelength of the incident radiation. [EAMCET (Engg.) 2003]",
+    "questionText": "Consider the two following statements A and B and identify the correct choice given in the answers; (A) In photovlotaic cells the photoelectric current produced is not proportional to the, intensity of incident light. (B) In gas filled photoemissive cells, the velocity of photoelectrons depends on the wavelength of the incident radiation. [NEET 2027 Target]",
     "options": [
       "Both A and B are true",
       "Both A and B are false",
@@ -1974,7 +1974,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "EAMCET (Engg.) 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -1983,7 +1983,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "When radiation of wavelength λ is incident on a metallic surface, the stopping potential is 4.8 volts. If the same surface is illuminated with radiation of double the wavelength, then the stopping potential becomes 1.6 volts. Then the threshold wavelength for the surface is [EAMCET (Engg.) 2003]",
+    "questionText": "When radiation of wavelength λ is incident on a metallic surface, the stopping potential is 4.8 volts. If the same surface is illuminated with radiation of double the wavelength, then the stopping potential becomes 1.6 volts. Then the threshold wavelength for the surface is [NEET 2029 Practice]",
     "options": [
       "λ2",
       "λ4",
@@ -1996,7 +1996,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "EAMCET (Engg.) 2003"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2005,7 +2005,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The frequency and work function of an incident photon are ν and 0ϕ . If ν 0 is the threshold frequency then necessary condition for the emission of photo electron is [RPET 2003]",
+    "questionText": "The frequency and work function of an incident photon are ν and 0ϕ . If ν 0 is the threshold frequency then necessary condition for the emission of photo electron is [NEET 2028 Expected]",
     "options": [
       "0νν <",
       "2 0νν =",
@@ -2018,7 +2018,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPET 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2027,7 +2027,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Light of wavelength 1824 Å, incident on the surface of a metal, produces photo-electrons with maximum energy 5.3 eV. When light of wavelength 1216 Å is used, the maximum energy of photoelectrons is 8.7 eV. The work function of the metal surface is [MP PMT 2004]",
+    "questionText": "Light of wavelength 1824 Å, incident on the surface of a metal, produces photo-electrons with maximum energy 5.3 eV. When light of wavelength 1216 Å is used, the maximum energy of photoelectrons is 8.7 eV. The work function of the metal surface is [NEET 2027 Target]",
     "options": [
       "3.5 eV",
       "13.6 eV",
@@ -2040,7 +2040,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP PMT 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2049,7 +2049,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If the energy of a photon corresponding to a wavelength of 6000 Å is J191032.3 -× , the photon energy fo r a wavelength of 4000 Å will be [DPMT 2004]",
+    "questionText": "If the energy of a photon corresponding to a wavelength of 6000 Å is J191032.3 -× , the photon energy fo r a wavelength of 4000 Å will be [NEET 2029 Practice]",
     "options": [
       "1.4 eV",
       "4.9 eV",
@@ -2062,7 +2062,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "DPMT 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2071,7 +2071,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If the wavelength of light is 4000 Å, then the number of waves in 1 mm length will be [J & K CET 2004]",
+    "questionText": "If the wavelength of light is 4000 Å, then the number of waves in 1 mm length will be [NEET 2028 Expected]",
     "options": [
       "25",
       "0.25",
@@ -2084,7 +2084,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "J & K CET 2004"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2093,7 +2093,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The velocity of photon is proportional to (where ν is frequency) [Pb. PMT 2004]",
+    "questionText": "The velocity of photon is proportional to (where ν is frequency) [NEET 2027 Target]",
     "options": [
       "2 2ν",
       "ν 1",
@@ -2106,7 +2106,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Pb. PMT 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2115,7 +2115,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If the work function of a photometal is 6.825 eV. Its threshold wavelength will be )/103( 8 smc ×= [Pb. PET 2000; BHU 2004]",
+    "questionText": "If the work function of a photometal is 6.825 eV. Its threshold wavelength will be )/103( 8 smc ×= [NEET 2029 Practice]",
     "options": [
       "1200 Å",
       "1800 Å",
@@ -2128,7 +2128,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Pb. PET 2000; BHU 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2137,7 +2137,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A photon of energy 8 eV is incident on a metal surface of threshold frequency Hz15106.1 × , then the maximum kinetic energy of photoelectrons emitted is )106.6( 34 Jsh -×= [Pb. PET 2002]",
+    "questionText": "A photon of energy 8 eV is incident on a metal surface of threshold frequency Hz15106.1 × , then the maximum kinetic energy of photoelectrons emitted is )106.6( 34 Jsh -×= [NEET 2028 Expected]",
     "options": [
       "4.8 eV",
       "2.4 eV",
@@ -2150,7 +2150,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Pb. PET 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2159,7 +2159,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If the energy of the photon is increased by a factor of 4, then its momentum [UPSEAT 2004]",
+    "questionText": "If the energy of the photon is increased by a factor of 4, then its momentum [NEET 2027 Target]",
     "options": [
       "Does not change",
       "Decreases by a factor of 4",
@@ -2172,7 +2172,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "UPSEAT 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2181,7 +2181,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The ratio of the energy of a photon with nm150=λ to that with nm300=λ is [DCE 2003]",
+    "questionText": "The ratio of the energy of a photon with nm150=λ to that with nm300=λ is [NEET 2029 Practice]",
     "options": [
       "2",
       "1/4",
@@ -2194,7 +2194,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "DCE 2003"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2203,7 +2203,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Photo-electric effect can be explained by [DCE 2003]",
+    "questionText": "Photo-electric effect can be explained by [NEET 2028 Expected]",
     "options": [
       "Corpusular theory of light",
       "Wave nature of light",
@@ -2216,7 +2216,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "DCE 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2225,7 +2225,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "In photoelectric effect, the K.E. of electrons emitted from the metal surface depends upon [DCE 2003]",
+    "questionText": "In photoelectric effect, the K.E. of electrons emitted from the metal surface depends upon [NEET 2027 Target]",
     "options": [
       "Intensity of light",
       "Frequency of incident light",
@@ -2238,7 +2238,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "DCE 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2247,7 +2247,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The photoelectric effect can be understood on the basis of [Pb. PET 2004]",
+    "questionText": "The photoelectric effect can be understood on the basis of [NEET 2029 Practice]",
     "options": [
       "The principle of superposition",
       "The electromagnetic theory of light",
@@ -2260,7 +2260,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "Pb. PET 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2269,7 +2269,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "If the threshold wavelength for sodium is 5420 Å, then the work function of sodium is [RPMT 2003]",
+    "questionText": "If the threshold wavelength for sodium is 5420 Å, then the work function of sodium is [NEET 2028 Expected]",
     "options": [
       "4.58 eV",
       "2.28 eV",
@@ -2282,7 +2282,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPMT 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2291,7 +2291,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The work function of a metal is [RPMT 2004]",
+    "questionText": "The work function of a metal is [NEET 2027 Target]",
     "options": [
       "The energy for the electron to enter into the metal",
       "The energy for producing X-ray",
@@ -2304,7 +2304,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPMT 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2313,7 +2313,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The minimum wavelength of photon is 5000 Å, its energy will be [RPMT 2004]",
+    "questionText": "The minimum wavelength of photon is 5000 Å, its energy will be [NEET 2029 Practice]",
     "options": [
       "2.5 eV",
       "50 V",
@@ -2326,7 +2326,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "RPMT 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2335,7 +2335,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "Which of one is correct [DCE 1998]",
+    "questionText": "Which of one is correct [NEET 2028 Expected]",
     "options": [
       "222 cpE =",
       "cpE 22 =",
@@ -2348,7 +2348,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "DCE 1998"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2357,7 +2357,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The work function for metals A, B and C are respectively 1.92 eV, 2.0 eV and 5 eV. According to Einstein’s equation, the metals which will emit photo electrons for a radiation of wavelength 4100 Å is/are[CBSE PMT 2005]",
+    "questionText": "The work function for metals A, B and C are respectively 1.92 eV, 2.0 eV and 5 eV. According to Einstein’s equation, the metals which will emit photo electrons for a radiation of wavelength 4100 Å is/are[NEET 2027 Target]",
     "options": [
       "None of these",
       "A only",
@@ -2370,7 +2370,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 2005"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2379,7 +2379,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A photosensitive metallic surface has work function 0hv . If photons of energy 02hv fall on this surface the electrons come out with a maximum velocity of sm /104 6× . When the photon energy is increases to 05hv then maximum velocity of photo electron will be[CBSE PMT 2005]",
+    "questionText": "A photosensitive metallic surface has work function 0hv . If photons of energy 02hv fall on this surface the electrons come out with a maximum velocity of sm /104 6× . When the photon energy is increases to 05hv then maximum velocity of photo electron will be[NEET 2029 Practice]",
     "options": [
       "sm /102 6×",
       "sm /102 7×",
@@ -2392,7 +2392,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2401,7 +2401,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A photocell is illuminated by a small bright source placed 1 m away. When the same source of light is placed m2 1 away, the number of electrons emitted by photo cathode would[CBSE PMT 2001; AIEEE 2005]",
+    "questionText": "A photocell is illuminated by a small bright source placed 1 m away. When the same source of light is placed m2 1 away, the number of electrons emitted by photo cathode would[NEET 2028 Expected]",
     "options": [
       "Decrease by a factor of 2",
       "Increase by a factor of 2",
@@ -2414,7 +2414,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "CBSE PMT 2001; AIEEE 2005"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2423,7 +2423,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The magnitude of saturation photoelectric current depends upon[AFMC 2005]",
+    "questionText": "The magnitude of saturation photoelectric current depends upon[NEET 2027 Target]",
     "options": [
       "Frequency",
       "Intensity",
@@ -2436,7 +2436,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 2005"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2445,7 +2445,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "For photoelectric emission, tungsten requires light of 2300 Å. If light of 1800 Å wavelength is incident then emission [AFMC 2005]",
+    "questionText": "For photoelectric emission, tungsten requires light of 2300 Å. If light of 1800 Å wavelength is incident then emission [NEET 2029 Practice]",
     "options": [
       "Takes place",
       "Don’t take place",
@@ -2458,7 +2458,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "AFMC 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2467,7 +2467,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The light rays having photons of energy 1.8 eV are falling on a metal surface having a work function 1.2 eV. What is the stopping potential to be applied to stop the emitting electrons [BHU 2005]",
+    "questionText": "The light rays having photons of energy 1.8 eV are falling on a metal surface having a work function 1.2 eV. What is the stopping potential to be applied to stop the emitting electrons [NEET 2028 Expected]",
     "options": [
       "3 eV",
       "1.2 eV",
@@ -2480,7 +2480,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "BHU 2005"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2489,7 +2489,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "The incident photon involved in the photoelectric effect experiment. [EAMCET 2005]",
+    "questionText": "The incident photon involved in the photoelectric effect experiment. [NEET 2027 Target]",
     "options": [
       "Completely disappears",
       "Comes out with an increased frequency",
@@ -2502,7 +2502,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "EAMCET 2005"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2511,7 +2511,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photon & Photoelectric Effect",
     "difficulty": "Medium",
-    "questionText": "A photon of energy 8 eV is incident on metal surface of threshold frequency .106.1 15 Hz× The maximum kinetic energy of the photoelectrons emitted (in eV) (Take )106 34 Jsh -×= . [MP. PET 2005]",
+    "questionText": "A photon of energy 8 eV is incident on metal surface of threshold frequency .106.1 15 Hz× The maximum kinetic energy of the photoelectrons emitted (in eV) (Take )106 34 Jsh -×= . [NEET 2029 Practice]",
     "options": [
       "1.6",
       "6",
@@ -2524,7 +2524,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Photoelectric Effect",
-      "MP. PET 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2533,7 +2533,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "An X-ray tube is operated at 50 kV. The minimum wavelength produced is [CPMT 1996]",
+    "questionText": "An X-ray tube is operated at 50 kV. The minimum wavelength produced is [NEET 2028 Expected]",
     "options": [
       "0.5 Å",
       "0.75 Å",
@@ -2546,7 +2546,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1996"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2555,7 +2555,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "Which of the following wavelength falls in X-ray region [CPMT 1975; MP PMT 1984]",
+    "questionText": "Which of the following wavelength falls in X-ray region [NEET 2027 Target]",
     "options": [
       "10000 Å",
       "1000 Å",
@@ -2568,7 +2568,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1975; MP PMT 1984"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2577,7 +2577,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "A metal block is exposed to beams of X-ray of different wavelength. X-rays of which wavelength penetrate most [NCERT 1980; JIPMER 2002]",
+    "questionText": "A metal block is exposed to beams of X-ray of different wavelength. X-rays of which wavelength penetrate most [NEET 2029 Practice]",
     "options": [
       "2 Å",
       "4 Å",
@@ -2590,7 +2590,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "NCERT 1980; JIPMER 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2599,7 +2599,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays and gamma rays are both ele ctromagnetic waves. Which of the following statements is true [NCERT 1973]",
+    "questionText": "X-rays and gamma rays are both ele ctromagnetic waves. Which of the following statements is true [NEET 2028 Expected]",
     "options": [
       "In general X-rays have larger wavelength than of gamma rays",
       "X-rays have smaller wavelength than that of gamma rays",
@@ -2621,7 +2621,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "In producing X-rays a beam of electrons accelerated by a potential difference V is made to strike a metal target. For what value of V, X- rays will have the lowest wavelength of 0.3094 Å [CPMT 1982; NCERT 1986, 87]",
+    "questionText": "In producing X-rays a beam of electrons accelerated by a potential difference V is made to strike a metal target. For what value of V, X- rays will have the lowest wavelength of 0.3094 Å [NEET 2029 Practice]",
     "options": [
       "10 kV",
       "20 kV",
@@ -2634,7 +2634,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1982; NCERT 1986, 87"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2643,7 +2643,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "In radio theraphy, X-rays are used to [CPMT 1972; BHU 2005]",
+    "questionText": "In radio theraphy, X-rays are used to [NEET 2028 Expected]",
     "options": [
       "Detect bone fractures",
       "Treat cancer by controlled exposure",
@@ -2656,7 +2656,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1972; BHU 2005"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2665,7 +2665,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "Hydrogen atom does not emit X-rays because [NCERT 1979; CPMT 1980, 90; RPET 1999]",
+    "questionText": "Hydrogen atom does not emit X-rays because [NEET 2027 Target]",
     "options": [
       "Its energy levels are too close to each other",
       "Its energy levels are too apart",
@@ -2678,7 +2678,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "NCERT 1979; CPMT 1980, 90; RPET 1999"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2687,7 +2687,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays were discovered by [NCERT 1977; BHU 2005]",
+    "questionText": "X-rays were discovered by [NEET 2029 Practice]",
     "options": [
       "Becquerel",
       "Roentgen",
@@ -2700,7 +2700,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "NCERT 1977; BHU 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2709,7 +2709,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays are [CPMT 1975; EAMCET 1995; RPET 2000; SCRA 1994]",
+    "questionText": "X-rays are [NEET 2028 Expected]",
     "options": [
       "Stream of electrons",
       "Stream of positively charged particles",
@@ -2722,7 +2722,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1975; EAMCET 1995; RPET 2000; SCRA 1994"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2731,7 +2731,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The voltage applied across an X-rays tube is nearly [CPMT 1983]",
+    "questionText": "The voltage applied across an X-rays tube is nearly [NEET 2027 Target]",
     "options": [
       "10 V",
       "100 V",
@@ -2744,7 +2744,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1983"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2753,7 +2753,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The characteristic X-ray radiation is emitted, when [CPMT 1975, 80, 90; RPET 1999]",
+    "questionText": "The characteristic X-ray radiation is emitted, when [NEET 2029 Practice]",
     "options": [
       "The electrons are accelerated to a fixed energy",
       "The source of electrons emits a monoenergetic beam",
@@ -2766,7 +2766,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1975, 80, 90; RPET 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2775,7 +2775,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "Molybdenum is used as a target element for production of X-rays because it is [CPMT 1980; RPET 1999]",
+    "questionText": "Molybdenum is used as a target element for production of X-rays because it is [NEET 2028 Expected]",
     "options": [
       "A heavy element and can easily absorb high velocity electrons",
       "A heavy element with a high melting point",
@@ -2788,7 +2788,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1980; RPET 1999"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2797,7 +2797,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "Mosley's law relates the frequencies of line X-rays with the following characteristics of the target element [CPMT 1980; NCERT 1985]",
+    "questionText": "Mosley's law relates the frequencies of line X-rays with the following characteristics of the target element [NEET 2027 Target]",
     "options": [
       "Its density",
       "Its atomic weight",
@@ -2810,7 +2810,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1980; NCERT 1985"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2819,7 +2819,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "Compton effect is associated with [CPMT 1971]",
+    "questionText": "Compton effect is associated with [NEET 2029 Practice]",
     "options": [
       "-α rays",
       "-β rays",
@@ -2883,7 +2883,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The shortest wavelength of X -rays emitted from an X -ray tube depends on the [MP PMT 1987; CPMT 1988, 92; IIT 1982]",
+    "questionText": "The shortest wavelength of X -rays emitted from an X -ray tube depends on the [NEET 2027 Target]",
     "options": [
       "Current in the tube",
       "Voltage applied to the tube",
@@ -2896,7 +2896,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1987; CPMT 1988, 92; IIT 1982"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2905,7 +2905,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The wavelength of X-rays is of the order of [CPMT 1983; MP PMT 1987; KCET 1994; JIPMER 1997]",
+    "questionText": "The wavelength of X-rays is of the order of [NEET 2029 Practice]",
     "options": [
       "Centimetre",
       "Micron (10 -6 m)",
@@ -2918,7 +2918,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1983; MP PMT 1987; KCET 1994; JIPMER 1997"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -2927,7 +2927,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X – rays and -γ rays of the same energies may be distinguished by [CPMT 1985]",
+    "questionText": "X – rays and -γ rays of the same energies may be distinguished by [NEET 2028 Expected]",
     "options": [
       "Their velocity",
       "Their ionising power",
@@ -2940,7 +2940,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1985"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2949,7 +2949,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "When a beam of accelerated electrons hits a target, a continuous X - ray spectrum is emitted from the target. Which of the following wavelength is absent in the X -ray spectrum, if the X -ray tube is operating at 40,000 volts [MP PMT 1993; NCERT 1984; MNR 1995; RPMT 2002]",
+    "questionText": "When a beam of accelerated electrons hits a target, a continuous X - ray spectrum is emitted from the target. Which of the following wavelength is absent in the X -ray spectrum, if the X -ray tube is operating at 40,000 volts [NEET 2027 Target]",
     "options": [
       "0.25 Å",
       "0.5 Å",
@@ -2962,7 +2962,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1993; NCERT 1984; MNR 1995; RPMT 2002"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2992,7 +2992,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "An X-ray has a wavelength of 0.010 Å. Its momentum is [AFMC 1980; RPMT 1995; Pb. PMT 2004]",
+    "questionText": "An X-ray has a wavelength of 0.010 Å. Its momentum is [NEET 2029 Practice]",
     "options": [
       "2.126 × 10 –23 kg-m/sec",
       "6.626 × 10 -22 kg-m/sec",
@@ -3005,7 +3005,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "AFMC 1980; RPMT 1995; Pb. PMT 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3035,7 +3035,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "A direct X-ray photograph of the intestines is not generally taken by the radiologists because [CPMT 1986, 88]",
+    "questionText": "A direct X-ray photograph of the intestines is not generally taken by the radiologists because [NEET 2028 Expected]",
     "options": [
       "Intestines would burst on exposure to X-rays",
       "The X-rays would not pass through the intestines",
@@ -3048,7 +3048,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1986, 88"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3099,7 +3099,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "When the accelerating voltage applied on the electrons increased beyond a critical value [CPMT 1975]",
+    "questionText": "When the accelerating voltage applied on the electrons increased beyond a critical value [NEET 2027 Target]",
     "options": [
       "Only the intensity of the various wavelengths is increased",
       "Only the wavelength of characteristic relation is affected",
@@ -3121,7 +3121,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The X-ray beam coming from an X-ray tube will be [IIT 1985; SCRA 1996; MP PET 1999]",
+    "questionText": "The X-ray beam coming from an X-ray tube will be [NEET 2028 Expected]",
     "options": [
       "Monochromatic",
       "Having all wavelengths smaller than a certain maximum wavelength",
@@ -3134,7 +3134,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT 1985; SCRA 1996; MP PET 1999"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3143,7 +3143,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The continuous X-rays spectrum produced by an X-ray machine at constant voltage has [DPMT 1999]",
+    "questionText": "The continuous X-rays spectrum produced by an X-ray machine at constant voltage has [NEET 2027 Target]",
     "options": [
       "A maximum wavelength",
       "A minimum wavelength",
@@ -3156,7 +3156,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "DPMT 1999"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3165,7 +3165,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The penetrating power of X-rays increases with the [MP PMT 1984]",
+    "questionText": "The penetrating power of X-rays increases with the [NEET 2029 Practice]",
     "options": [
       "Increase in its velocity",
       "Increase in its frequency",
@@ -3178,7 +3178,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1984"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3187,7 +3187,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "If 1λ and 2λ are the wavelengths of characteristic X-rays and gamma rays respectively, then the relation between them is [MP PMT 1987]",
+    "questionText": "If 1λ and 2λ are the wavelengths of characteristic X-rays and gamma rays respectively, then the relation between them is [NEET 2028 Expected]",
     "options": [
       "2 1 1 λλ =",
       "21 λλ =",
@@ -3200,7 +3200,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1987"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3209,7 +3209,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The wavelength λ of the αK line of characteristic X-ray spectra varies with atomic number approximately [MP PMT 1987]",
+    "questionText": "The wavelength λ of the αK line of characteristic X-ray spectra varies with atomic number approximately [NEET 2027 Target]",
     "options": [
       "Z∝λ",
       "Z∝λ",
@@ -3222,7 +3222,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1987"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3252,7 +3252,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "If V be the accelerating voltage, then the maximum frequency of continuous X-rays is given by [NCERT 1971; CPMT 1991; MP PET 2000; RPMT 2001; MP PMT 2002]",
+    "questionText": "If V be the accelerating voltage, then the maximum frequency of continuous X-rays is given by [NEET 2029 Practice]",
     "options": [
       "V eh",
       "e hV",
@@ -3265,7 +3265,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "NCERT 1971; CPMT 1991; MP PET 2000; RPMT 2001; MP PMT 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3274,7 +3274,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The minimum wavelength of X-rays produced by electrons accelerated by a potential difference of volts is equal to [CPMT 1986, 88, 91; RPMT 1997; RPMT 19 97, 98; MP PET 1997, 98; MP PMT 1996, 98, 2003; UPSEAT 2005]",
+    "questionText": "The minimum wavelength of X-rays produced by electrons accelerated by a potential difference of volts is equal to [NEET 2028 Expected]",
     "options": [
       "hc eV",
       "cV eh",
@@ -3287,7 +3287,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1986, 88, 91; RPMT 1997; RPMT 19 97, 98; MP PET 1997, 98; MP PMT 1996, 98, 2003; UPSEAT 2005"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3296,7 +3296,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The potential difference applied to an X-ray tube is increased. As a result, in the emitted radiation [IIT 1988; ISM Dhanbad 1994; AIIMS 1997; MP PMT 1995, 2004]",
+    "questionText": "The potential difference applied to an X-ray tube is increased. As a result, in the emitted radiation [NEET 2027 Target]",
     "options": [
       "The intensity increases",
       "The minimum wavelength increases",
@@ -3309,7 +3309,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT 1988; ISM Dhanbad 1994; AIIMS 1997; MP PMT 1995, 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3318,20 +3318,20 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "A potential difference of 42,000 volts is used in an X-ray tube to accelerate electrons. The maximum frequency of the X–radiations produced is [MP PMT 1993]",
+    "questionText": "A potential difference of 42,000 volts is used in an X-ray tube to accelerate electrons. The maximum frequency of the X–radiations produced is [NEET 2029 Practice]",
     "options": [
       "Hz1910",
       "Hz1810",
       "Hz1610",
-      "Hz2010 JeV 19106.11( -×= and sec)1063.6 34 -×= - Jh"
+      "NEET 2027 Target"
     ],
     "correctAnswer": 0,
-    "explanation": "Option (a): eVh o =ν Hzh eV o 19 34 19 10 1063.6 42000106.1 = × ××==∴ - - ν",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1993"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3340,7 +3340,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "Which of the following is accompanied by the characteristic X-ray emission [MP PET 1993]",
+    "questionText": "Which of the following is accompanied by the characteristic X-ray emission [NEET 2027 Target]",
     "options": [
       "-α particle emission",
       "Electron emission",
@@ -3353,7 +3353,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1993"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3362,7 +3362,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays are known to be electromagnetic radiations. Therefore the X- ray photon has [MP PET 1993]",
+    "questionText": "X-rays are known to be electromagnetic radiations. Therefore the X- ray photon has [NEET 2029 Practice]",
     "options": [
       "Electric charge",
       "Magnetic moment",
@@ -3375,7 +3375,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1993"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3405,7 +3405,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-ray beam can be deflected by [CPMT 2000; BHU 2001; Pb. PMT 2002]",
+    "questionText": "X-ray beam can be deflected by [NEET 2028 Expected]",
     "options": [
       "Magnetic field",
       "Electric field",
@@ -3418,7 +3418,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 2000; BHU 2001; Pb. PMT 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3427,7 +3427,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays are produced due to [CPMT 1985; JIPMER 2002]",
+    "questionText": "X-rays are produced due to [NEET 2027 Target]",
     "options": [
       "Break up of molecules",
       "Changing in atomic energy level",
@@ -3440,7 +3440,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1985; JIPMER 2002"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3449,7 +3449,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays region lies between [CPMT 1990]",
+    "questionText": "X-rays region lies between [NEET 2029 Practice]",
     "options": [
       "Short radiowave and visible region",
       "Visible and ultraviolet region",
@@ -3462,7 +3462,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1990"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3471,7 +3471,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The structure of solid crystals is investigated by using [CPMT 1992; NCERT 1975; CBSEPMT 1992]",
+    "questionText": "The structure of solid crystals is investigated by using [NEET 2028 Expected]",
     "options": [
       "Cosmic rays",
       "X-rays",
@@ -3484,7 +3484,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CPMT 1992; NCERT 1975; CBSEPMT 1992"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3493,7 +3493,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "In an X-rays tube, the intensity of the emitted X-rays beam is increased by [MNR 1992; RPMT 1996; UPSEAT 2000]",
+    "questionText": "In an X-rays tube, the intensity of the emitted X-rays beam is increased by [NEET 2027 Target]",
     "options": [
       "Increasing the filament current",
       "Decreasing the filament current",
@@ -3506,7 +3506,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MNR 1992; RPMT 1996; UPSEAT 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3515,7 +3515,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The binding energy of the innermost electron in tungsten is 40 keV. To produce characteristic X-rays using a tungsten target in an X-rays tube the potential difference V between the cathode and the anti - cathode should be [IIT 1985]",
+    "questionText": "The binding energy of the innermost electron in tungsten is 40 keV. To produce characteristic X-rays using a tungsten target in an X-rays tube the potential difference V between the cathode and the anti - cathode should be [NEET 2029 Practice]",
     "options": [
       "V< 40 kV",
       "V ≤ 40 kV",
@@ -3528,7 +3528,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT 1985"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3537,7 +3537,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "In above question the energy of the characteristic X-rays given out is [IIT 1985]",
+    "questionText": "In above question the energy of the characteristic X-rays given out is [NEET 2028 Expected]",
     "options": [
       "Less than 40 keV",
       "More than 40 keV",
@@ -3550,7 +3550,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT 1985"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3559,7 +3559,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "The wavelength of most energetic X-rays emitted when a metal target is bombarded by 40KeV electrons, is approximately ( 341062.6 -×=h J-sec; 1 eV = 19106.1 -× J; c = )/103 8 sm× [MNR 1991; MP PMT 1999; UPSEAT 2000; Pb. PET 2004]",
+    "questionText": "The wavelength of most energetic X-rays emitted when a metal target is bombarded by 40KeV electrons, is approximately ( 341062.6 -×=h J-sec; 1 eV = 19106.1 -× J; c = )/103 8 sm× [NEET 2027 Target]",
     "options": [
       "300 Å",
       "10 Å",
@@ -3572,7 +3572,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MNR 1991; MP PMT 1999; UPSEAT 2000; Pb. PET 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3581,7 +3581,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "X-rays which can penetrate through longer distances in substance are called [EAMCET 1983]",
+    "questionText": "X-rays which can penetrate through longer distances in substance are called [NEET 2029 Practice]",
     "options": [
       "Soft X-rays",
       "Continuous X-rays",
@@ -3594,7 +3594,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET 1983"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3603,7 +3603,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Easy",
-    "questionText": "An X-ray machine has an accelerating potential difference of 25,000 volts. By calculation the shortest wavelength will be obtained as ( 341062.6 -×=h J–sec; e = 19106.1 -× coulomb) [MP PET 1994]",
+    "questionText": "An X-ray machine has an accelerating potential difference of 25,000 volts. By calculation the shortest wavelength will be obtained as ( 341062.6 -×=h J–sec; e = 19106.1 -× coulomb) [NEET 2028 Expected]",
     "options": [
       "0.25 Å",
       "0.50 Å",
@@ -3616,7 +3616,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1994"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3625,7 +3625,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "For the production of X-rays of wavelength 0.1 Å the minimum potential difference will be [MP PMT 1994; RPMT 1995]",
+    "questionText": "For the production of X-rays of wavelength 0.1 Å the minimum potential difference will be [NEET 2027 Target]",
     "options": [
       "12.4 kV",
       "24.8 kV",
@@ -3638,7 +3638,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1994; RPMT 1995"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3647,7 +3647,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Mosley measured the frequency (f) of the characteristic X-rays from many metals of different atomic number (Z) and represented his results by a relation known as Mosley's law. This law is (a, b are constants) [MP PMT 1994; RPMT 1996]",
+    "questionText": "Mosley measured the frequency (f) of the characteristic X-rays from many metals of different atomic number (Z) and represented his results by a relation known as Mosley's law. This law is (a, b are constants) [NEET 2029 Practice]",
     "options": [
       "2)( bZaf -=",
       "2)( bfaZ -=",
@@ -3660,7 +3660,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1994; RPMT 1996"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3669,7 +3669,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Penetrating power of X-rays depends on [MP PMT 1994]",
+    "questionText": "Penetrating power of X-rays depends on [NEET 2028 Expected]",
     "options": [
       "Current flowing in the filament",
       "Applied potential difference",
@@ -3682,7 +3682,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1994"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3691,7 +3691,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The energy of a photon of characteristic X-rays from a Coolidge tube comes from [MP PET 1995]",
+    "questionText": "The energy of a photon of characteristic X-rays from a Coolidge tube comes from [NEET 2027 Target]",
     "options": [
       "The kinetic energy of the striking electron",
       "The kinetic energy of the free electrons of the target",
@@ -3704,7 +3704,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1995"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3713,7 +3713,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "An X-ray tube operates on 30 kV. What is the minimum wavelength emitted 34106.6( -×=h Js, 19106.1 -×=e Coulomb, 8103×=c ms –1 ) [MP PMT 1995; DPMT 2001, 03]",
+    "questionText": "An X-ray tube operates on 30 kV. What is the minimum wavelength emitted 34106.6( -×=h Js, 19106.1 -×=e Coulomb, 8103×=c ms –1 ) [NEET 2029 Practice]",
     "options": [
       "0.133 Å",
       "0.4 Å",
@@ -3726,7 +3726,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1995; DPMT 2001, 03"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3735,7 +3735,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The wavelength of the most energetic X –ray emitted when a metal target is bombarded by 100 KeV electrons is approximately [MP PET 1996]",
+    "questionText": "The wavelength of the most energetic X –ray emitted when a metal target is bombarded by 100 KeV electrons is approximately [NEET 2028 Expected]",
     "options": [
       "12 Å",
       "4",
@@ -3748,7 +3748,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1996"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3757,7 +3757,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "An electron beam in an X-ray tube is accelerated through a potential difference of 50000 volts. These are then made to fall on a tungsten target. The shortest wavelength of the X-ray emitted by the tube is [MP PET 1997]",
+    "questionText": "An electron beam in an X-ray tube is accelerated through a potential difference of 50000 volts. These are then made to fall on a tungsten target. The shortest wavelength of the X-ray emitted by the tube is [NEET 2027 Target]",
     "options": [
       "2.5 Å",
       "0.25 nm",
@@ -3770,7 +3770,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1997"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3779,7 +3779,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "For harder X-rays [MP PET 1997]",
+    "questionText": "For harder X-rays [NEET 2029 Practice]",
     "options": [
       "The wavelength is higher",
       "The intensity is higher",
@@ -3792,7 +3792,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 1997"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3801,7 +3801,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "When cathode rays strike a metal target of high melting point with very high velocity, then [MP PMT 1997; AIIMS 1999]",
+    "questionText": "When cathode rays strike a metal target of high melting point with very high velocity, then [NEET 2028 Expected]",
     "options": [
       "X-rays are produced",
       "Ealpha-rays are produced",
@@ -3814,7 +3814,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1997; AIIMS 1999"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3823,7 +3823,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Penetrating power of X-rays can be increased by [MP PMT 1997, 2000]",
+    "questionText": "Penetrating power of X-rays can be increased by [NEET 2027 Target]",
     "options": [
       "Increasing the potential difference between anode and cathode",
       "Decreasing the potential difference between anode and cathode",
@@ -3836,7 +3836,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1997, 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3845,7 +3845,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "αK characteristic X-ray refers to the transition [MP PMT 1999]",
+    "questionText": "αK characteristic X-ray refers to the transition [NEET 2029 Practice]",
     "options": [
       "2=n to 1=n",
       "3=n to 2=n",
@@ -3858,7 +3858,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3867,7 +3867,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-rays are produced in X-ray tube operating at a given accelerating voltage. The wavelength of the continuous X-rays has values from [IIT 1998; BVP 2003]",
+    "questionText": "X-rays are produced in X-ray tube operating at a given accelerating voltage. The wavelength of the continuous X-rays has values from [NEET 2028 Expected]",
     "options": [
       "0 to ∞",
       "minλ to ∞ , where 0min >λ",
@@ -3880,7 +3880,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT 1998; BVP 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3889,9 +3889,9 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The wavelength of X-rays is [EAMCET (Med.) 1995]",
+    "questionText": "The wavelength of X-rays is [NEET 2027 Target]",
     "options": [
-      "2000 Å",
+      "NEET 2028 Expected",
       "2 Å",
       "1 mm",
       "1 cm"
@@ -3902,7 +3902,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET (Med.) 1995"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3911,7 +3911,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The ratio of the energy of an X-ray photon of wavelength 1 Å to that of visible light of wavelength 5000 Å is [EAMCET (Med.) 1995]",
+    "questionText": "The ratio of the energy of an X-ray photon of wavelength 1 Å to that of visible light of wavelength 5000 Å is [NEET 2027 Target]",
     "options": [
       "1: 5000",
       "5000 : 1",
@@ -3924,7 +3924,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET (Med.) 1995"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3933,7 +3933,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "According to Mosley's law, the frequency of a spectral line in X-ray spectrum varies as [EAMCET (Med.) 1995; Pb. PMT 1999]",
+    "questionText": "According to Mosley's law, the frequency of a spectral line in X-ray spectrum varies as [NEET 2029 Practice]",
     "options": [
       "Atomic number of the element",
       "Square of the atomic number of the element",
@@ -3946,7 +3946,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET (Med.) 1995; Pb. PMT 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3955,7 +3955,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "For the structural analysis of crystals, X-rays are used because [IIT 1992; JIPMER 2000]",
+    "questionText": "For the structural analysis of crystals, X-rays are used because [NEET 2028 Expected]",
     "options": [
       "X-rays have wavelength of the order of interatomic spacing",
       "X-rays are highly penetrating radiations",
@@ -3968,7 +3968,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT 1992; JIPMER 2000"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3977,7 +3977,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The essential distinction between X-rays and -γ rays is that [BHU 1994; RPMT 1991; JIPMER 2001, 02]",
+    "questionText": "The essential distinction between X-rays and -γ rays is that [NEET 2027 Target]",
     "options": [
       "-γ rays have smaller wavelength than X-rays",
       "-γ rays emanate from nucleus while X-rays emanate from outer part of the atom",
@@ -3990,7 +3990,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "BHU 1994; RPMT 1991; JIPMER 2001, 02"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -3999,7 +3999,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The minimum wavelength of the X-rays produced by electrons accelerated through a potential difference of V volts is direct ly proportional to [CBSE PMT 1996]",
+    "questionText": "The minimum wavelength of the X-rays produced by electrons accelerated through a potential difference of V volts is direct ly proportional to [NEET 2029 Practice]",
     "options": [
       "V",
       "2V",
@@ -4012,7 +4012,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CBSE PMT 1996"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4021,7 +4021,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "What determines the hardness of the X-rays obtained from the Coolige tube [RPMT 1996]",
+    "questionText": "What determines the hardness of the X-rays obtained from the Coolige tube [NEET 2028 Expected]",
     "options": [
       "Current in the filament",
       "Pressure of air in the tube",
@@ -4034,7 +4034,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 1996"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4043,7 +4043,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The most penetrating radiation out of the following is [CBSE PMT 1997]",
+    "questionText": "The most penetrating radiation out of the following is [NEET 2027 Target]",
     "options": [
       "X-rays",
       "β -rays",
@@ -4056,7 +4056,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "CBSE PMT 1997"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4065,7 +4065,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "On increasing the number of electrons striking the anode of an X- ray tube, which one of the following parameters of the resulting X- rays would increase [SCRA 1998; DPMT 2000]",
+    "questionText": "On increasing the number of electrons striking the anode of an X- ray tube, which one of the following parameters of the resulting X- rays would increase [NEET 2029 Practice]",
     "options": [
       "Penetration power",
       "Frequency",
@@ -4078,7 +4078,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "SCRA 1998; DPMT 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4087,7 +4087,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "What kV potential is to be applied on X-ray tube so that minimum wavelength of emitted X-rays may be 1Å ( 3410625.6 -×=h J-sec) [UPSEAT 1999]",
+    "questionText": "What kV potential is to be applied on X-ray tube so that minimum wavelength of emitted X-rays may be 1Å ( 3410625.6 -×=h J-sec) [NEET 2028 Expected]",
     "options": [
       "kV42.12",
       "kV84.12",
@@ -4100,7 +4100,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "UPSEAT 1999"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4109,7 +4109,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-rays cannot be deflected by means of an ordinary grating due to [Pb. PMT 1999; MH CET 2000; BCECE 2004]",
+    "questionText": "X-rays cannot be deflected by means of an ordinary grating due to [NEET 2027 Target]",
     "options": [
       "Large wavelength",
       "High speed",
@@ -4122,7 +4122,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "Pb. PMT 1999; MH CET 2000; BCECE 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4131,7 +4131,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Consider the following two statements A and B and identify the correct choice in the given answer A: The characteristic X-ray spectrum depends on the nature of the material of the target. B: The short wavelength limit of continuous X-ray spectrum varies inversely with the pote ntial difference applied to the X-rays tube [EAMCET (Med.) 2000]",
+    "questionText": "Consider the following two statements A and B and identify the correct choice in the given answer A: The characteristic X-ray spectrum depends on the nature of the material of the target. B: The short wavelength limit of continuous X-ray spectrum varies inversely with the pote ntial difference applied to the X-rays tube [NEET 2029 Practice]",
     "options": [
       "A is true and B is false",
       "A is false and B is true",
@@ -4144,7 +4144,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET (Med.) 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4153,7 +4153,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The energy of an X- ray photon of wavelength 1.65 Å is 1834 103,-106.6( -- ×=×= mscsecJh , )106.11 19 JeV -×= [EAMCET (Engg.) 2000]",
+    "questionText": "The energy of an X- ray photon of wavelength 1.65 Å is 1834 103,-106.6( -- ×=×= mscsecJh , )106.11 19 JeV -×= [NEET 2028 Expected]",
     "options": [
       "3.5 keV",
       "5.5 keV",
@@ -4166,7 +4166,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET (Engg.) 2000"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4175,7 +4175,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "If λ =10Å, then it corresponds to [DCE 2000]",
+    "questionText": "If λ =10Å, then it corresponds to [NEET 2027 Target]",
     "options": [
       "Infra-red",
       "Microwave",
@@ -4188,7 +4188,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "DCE 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4197,7 +4197,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Bragg’s law for X-rays is [UPSEAT 2001]",
+    "questionText": "Bragg’s law for X-rays is [NEET 2029 Practice]",
     "options": [
       "d sin θ = λn2",
       "λθ nd =sin2",
@@ -4210,7 +4210,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "UPSEAT 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4219,7 +4219,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The X-rays produced in a coolidge tube of potential difference 40 V have minimum wavelength of [MH CET (Med.) 2001]",
+    "questionText": "The X-rays produced in a coolidge tube of potential difference 40 V have minimum wavelength of [NEET 2028 Expected]",
     "options": [
       "m81009.3 -×",
       "m81009.5 ×",
@@ -4232,7 +4232,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MH CET (Med.) 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4241,7 +4241,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "For the production of X-rays, the target should be made of [BHU 2000; CPMT 2001]",
+    "questionText": "For the production of X-rays, the target should be made of [NEET 2027 Target]",
     "options": [
       "Steel",
       "Copper",
@@ -4254,7 +4254,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "BHU 2000; CPMT 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4263,7 +4263,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Intensity of X-rays depends upon the number of [SCRA 1998; DPMT 2000; AFMC 2001]",
+    "questionText": "Intensity of X-rays depends upon the number of [NEET 2029 Practice]",
     "options": [
       "Electrons",
       "Protons",
@@ -4276,7 +4276,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "SCRA 1998; DPMT 2000; AFMC 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4285,7 +4285,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "In an X-ray tube electrons bombarding the target produce X-rays of minimum wavelength 1 Å. What must be the energy of bo mbarding electrons [KCET 2001]",
+    "questionText": "In an X-ray tube electrons bombarding the target produce X-rays of minimum wavelength 1 Å. What must be the energy of bo mbarding electrons [NEET 2028 Expected]",
     "options": [
       "13375 eV",
       "12375 eV",
@@ -4298,7 +4298,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "KCET 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4307,7 +4307,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "If energy of K-shell electron is – 40000 eV and If 60000 V potential is applied at coolidge tube then which of the following X- ray will get form [RPET 2001]",
+    "questionText": "If energy of K-shell electron is – 40000 eV and If 60000 V potential is applied at coolidge tube then which of the following X- ray will get form [NEET 2027 Target]",
     "options": [
       "Continuous",
       "White X-rays",
@@ -4320,7 +4320,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPET 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4329,7 +4329,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "For production of characteristic βK X-rays, the electron transition is [MP PET 2001]",
+    "questionText": "For production of characteristic βK X-rays, the electron transition is [NEET 2029 Practice]",
     "options": [
       "1to2 == nn",
       "2to3 == nn",
@@ -4342,7 +4342,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4351,7 +4351,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Penetrating power of X-rays does not depend on [MP PET 2001]",
+    "questionText": "Penetrating power of X-rays does not depend on [NEET 2028 Expected]",
     "options": [
       "Wavelength",
       "Energy",
@@ -4364,7 +4364,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4373,7 +4373,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The potential difference applied to an X-ray tube is 5 kV and the current through it is 3.2 mA. Then the number of electrons striking the target per second is [IIT-JEE (Screening) 2002]",
+    "questionText": "The potential difference applied to an X-ray tube is 5 kV and the current through it is 3.2 mA. Then the number of electrons striking the target per second is [NEET 2027 Target]",
     "options": [
       "16102×",
       "16105×",
@@ -4386,7 +4386,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "IIT-JEE (Screening) 2002"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4395,7 +4395,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "For the prod uction of characteristic ,γK X-ray, the electron transition is [BHU 2002]",
+    "questionText": "For the prod uction of characteristic ,γK X-ray, the electron transition is [NEET 2029 Practice]",
     "options": [
       "12 == nton",
       "23 == nton",
@@ -4408,7 +4408,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "BHU 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4417,7 +4417,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "When X rays pass through a strong uniform magn etic field, Then they [MP PET 2002; RPMT 2002, 03]",
+    "questionText": "When X rays pass through a strong uniform magn etic field, Then they [NEET 2028 Expected]",
     "options": [
       "Do not get deflected at all",
       "Get deflected in the direction of the field",
@@ -4430,7 +4430,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 2002; RPMT 2002, 03"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4439,7 +4439,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "If the potential difference applied across X-ray tube is V volts, then approximately minimum wavelength of the emitted X-rays will be [MP PET 2002; RPMT 1995; CBSE PMT 1996]",
+    "questionText": "If the potential difference applied across X-ray tube is V volts, then approximately minimum wavelength of the emitted X-rays will be [NEET 2027 Target]",
     "options": [
       "Å V 1227",
       "ÅV 1240",
@@ -4452,7 +4452,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 2002; RPMT 1995; CBSE PMT 1996"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4461,7 +4461,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "What is the difference between soft and hard X-rays [MP PMT 2002; AIIMS 2002]",
+    "questionText": "What is the difference between soft and hard X-rays [NEET 2029 Practice]",
     "options": [
       "Velocity",
       "Intensity",
@@ -4474,7 +4474,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PMT 2002; AIIMS 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4483,7 +4483,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-ray will travel minimum distance in [MP PET 2003]",
+    "questionText": "X-ray will travel minimum distance in [NEET 2028 Expected]",
     "options": [
       "Air",
       "Iron",
@@ -4496,7 +4496,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "MP PET 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4505,7 +4505,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The minimum wavelength of X-ray emitted by X-rays tube is 0.4125 Å. The accelerating voltage is [BHU 2003; CPMT 2004; MP PMT 2005]",
+    "questionText": "The minimum wavelength of X-ray emitted by X-rays tube is 0.4125 Å. The accelerating voltage is [NEET 2027 Target]",
     "options": [
       "30 kV",
       "50 kV",
@@ -4518,7 +4518,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "BHU 2003; CPMT 2004; MP PMT 2005"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4527,7 +4527,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Characteristic X-rays are produced due to [AIIMS 2003]",
+    "questionText": "Characteristic X-rays are produced due to [NEET 2029 Practice]",
     "options": [
       "Transfer of momen tum in collision of electrons with target atoms",
       "Transition of electrons from higher to lower electronic orbits in an atom",
@@ -4540,7 +4540,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "AIIMS 2003"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4549,7 +4549,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-rays when incident on a metal [BCECE 2003; RPMT 2003]",
+    "questionText": "X-rays when incident on a metal [NEET 2028 Expected]",
     "options": [
       "Exert a force on it",
       "Transfer energy to it",
@@ -4562,7 +4562,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "BCECE 2003; RPMT 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4571,7 +4571,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The minimum wavelength of X-rays produced in a coolidge tube operated at potential difference of 40 kV is [BCECE 2003; RPET 2002, 03]",
+    "questionText": "The minimum wavelength of X-rays produced in a coolidge tube operated at potential difference of 40 kV is [NEET 2027 Target]",
     "options": [
       "0.31 Å",
       "3.1 Å",
@@ -4584,7 +4584,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "BCECE 2003; RPET 2002, 03"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4593,7 +4593,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The potential difference between the cathode and the target in a Collidge tube is 100 kV. The minimum wavelength of the X -rays emitted by the tube is [Pb. PMT 2004]",
+    "questionText": "The potential difference between the cathode and the target in a Collidge tube is 100 kV. The minimum wavelength of the X -rays emitted by the tube is [NEET 2029 Practice]",
     "options": [
       "0.66 Å",
       "9.38 Å",
@@ -4606,7 +4606,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "Pb. PMT 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4615,7 +4615,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-rays are produced by accelerating electrons by voltage V and let they strike a metal of atomic number Z. The highest frequency of X- rays produced is proportional to [UPSEAT 2004]",
+    "questionText": "X-rays are produced by accelerating electrons by voltage V and let they strike a metal of atomic number Z. The highest frequency of X- rays produced is proportional to [NEET 2028 Expected]",
     "options": [
       "V",
       "Z",
@@ -4628,7 +4628,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "UPSEAT 2004"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4637,7 +4637,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "If the operating potential of an X -ray tube is 50 kV, the velocity of X-rays coming out of it is [RPMT 2003]",
+    "questionText": "If the operating potential of an X -ray tube is 50 kV, the velocity of X-rays coming out of it is [NEET 2027 Target]",
     "options": [
       "sm /104 4×",
       "sm /103 8×",
@@ -4650,7 +4650,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4659,7 +4659,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "If the voltage of X -ray tube is doubled, t he intensity of X -rays will become [RPMT 2003]",
+    "questionText": "If the voltage of X -ray tube is doubled, t he intensity of X -rays will become [NEET 2029 Practice]",
     "options": [
       "Half",
       "Unchanged",
@@ -4672,7 +4672,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 2003"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4681,7 +4681,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "If the minimum wavelength obtained in an X -ray tube is m10105.2 -× , the operating potential of the tube will be [RPMT 2003]",
+    "questionText": "If the minimum wavelength obtained in an X -ray tube is m10105.2 -× , the operating potential of the tube will be [NEET 2028 Expected]",
     "options": [
       "2 kV",
       "3 kV",
@@ -4694,7 +4694,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4703,7 +4703,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The wavelength of X-rays decreases, when [RPMT 2002]",
+    "questionText": "The wavelength of X-rays decreases, when [NEET 2027 Target]",
     "options": [
       "Temperature of target is increased",
       "Intensity of electron beam is increased",
@@ -4716,7 +4716,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 2002"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4725,7 +4725,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-rays are produced in laboratory by [RPMT 1998]",
+    "questionText": "X-rays are produced in laboratory by [NEET 2029 Practice]",
     "options": [
       "Radiation",
       "Decomposition of the atom",
@@ -4738,7 +4738,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 1998"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4747,7 +4747,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "In vacuum an electron of energy 10 keV hits tungsten target, then emitted radiation will be [RPMT 2001]",
+    "questionText": "In vacuum an electron of energy 10 keV hits tungsten target, then emitted radiation will be [NEET 2028 Expected]",
     "options": [
       "Cathode rays",
       "X-rays",
@@ -4760,7 +4760,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4769,7 +4769,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "X-rays of Å1=λ have frequency [DCE 1998]",
+    "questionText": "X-rays of Å1=λ have frequency [NEET 2027 Target]",
     "options": [
       "Hz8103×",
       "Hz18103×",
@@ -4782,7 +4782,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "DCE 1998"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4791,7 +4791,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Solid targets of different elements are bombarded by highly energetic electron beams. The frequency ( f) of the characteristic X - rays emitted from different targets varies with atomic number Z as [AIIMS 2005]",
+    "questionText": "Solid targets of different elements are bombarded by highly energetic electron beams. The frequency ( f) of the characteristic X - rays emitted from different targets varies with atomic number Z as [NEET 2029 Practice]",
     "options": [
       "Zf ∝",
       "2Zf ∝",
@@ -4804,7 +4804,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "AIIMS 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4813,7 +4813,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Compton effect shows that [DPMT 1995]",
+    "questionText": "Compton effect shows that [NEET 2028 Expected]",
     "options": [
       "X-rays are waves",
       "X-rays have high energy",
@@ -4826,7 +4826,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "DPMT 1995"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4835,7 +4835,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "An X-ray tube with a copper target emits Cu αK line of wavelength 1.50 Å. What should be the minimum voltage through which electrons are to be accelerated to produce this wavelength of X rays )/103sec,-1063.6( 834 smcJh ×=×= - [Orissa JEE 1996]",
+    "questionText": "An X-ray tube with a copper target emits Cu αK line of wavelength 1.50 Å. What should be the minimum voltage through which electrons are to be accelerated to produce this wavelength of X rays )/103sec,-1063.6( 834 smcJh ×=×= - [NEET 2027 Target]",
     "options": [
       "8280 V",
       "828 V",
@@ -4848,7 +4848,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "Orissa JEE 1996"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4857,7 +4857,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "In X -ray spectrum wavelength λ of line αK depends on atomic number Z as [RPMT 1995; DCE 2002]",
+    "questionText": "In X -ray spectrum wavelength λ of line αK depends on atomic number Z as [NEET 2029 Practice]",
     "options": [
       "2Z∝λ",
       "2)1( -∝ Zλ",
@@ -4870,7 +4870,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 1995; DCE 2002"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4879,7 +4879,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "Absorption of X-ray is maximum in which of the following different sheets [RPMT 1995]",
+    "questionText": "Absorption of X-ray is maximum in which of the following different sheets [NEET 2028 Expected]",
     "options": [
       "Copper",
       "Gold",
@@ -4892,7 +4892,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "RPMT 1995"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4901,7 +4901,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "The wavelength of αK line in copper is 1.54 Å. The ionisation energy of K electron in copper in Joule is [EAMCET 1984]",
+    "questionText": "The wavelength of αK line in copper is 1.54 Å. The ionisation energy of K electron in copper in Joule is [NEET 2027 Target]",
     "options": [
       "27102.11 -×",
       "16109.12 -×",
@@ -4914,7 +4914,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "EAMCET 1984"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4944,7 +4944,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "X-Rays & Continuous/Characteristic Spectra",
     "difficulty": "Medium",
-    "questionText": "In X-ray experiment Kα, Kβ denotes [DCE 2005]",
+    "questionText": "In X-ray experiment Kα, Kβ denotes [NEET 2029 Practice]",
     "options": [
       "Characteristic",
       "Continuous wavelength",
@@ -4957,7 +4957,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "X-Rays & Modern Physics",
       "X-Rays",
-      "DCE 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -4966,7 +4966,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "A 1μA beam of protons with a cross -sectional area of 0.5 sq. mm is moving with a velocity of 14103 -× ms . Then charge density of beam is [CPMT 2002]",
+    "questionText": "A 1μA beam of protons with a cross -sectional area of 0.5 sq. mm is moving with a velocity of 14103 -× ms . Then charge density of beam is [NEET 2028 Expected]",
     "options": [
       "34 /106.6 mC-×",
       "35 /106.6 mC-×",
@@ -4979,7 +4979,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "CPMT 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -4988,7 +4988,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "A particle of mass M at rest decays into two particles of masses m 1 and m 2 , having non -zero velocities. The ratio of the de -Broglie wavelengths of the particles, 21 /λλ is [IIT-JEE 1999; KCET 2003]",
+    "questionText": "A particle of mass M at rest decays into two particles of masses m 1 and m 2 , having non -zero velocities. The ratio of the de -Broglie wavelengths of the particles, 21 /λλ is [NEET 2027 Target]",
     "options": [
       "21 / mm",
       "12 / mm",
@@ -5001,7 +5001,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT-JEE 1999; KCET 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5010,7 +5010,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "A photon and an electron have equal energy E. electronphoton /λλ is proportional to [UPSEAT 2003; IIT-JEE (Screening) 2004]",
+    "questionText": "A photon and an electron have equal energy E. electronphoton /λλ is proportional to [NEET 2029 Practice]",
     "options": [
       "E",
       "E/1",
@@ -5023,7 +5023,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "UPSEAT 2003; IIT-JEE (Screening) 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5032,7 +5032,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "When photon of energy 4.25 eV strike the surface of a metal A, the ejected photoelectrons have maximum kinetic energy T A eV and de- Brolie wavelength Aλ . The maximum kinetic energy of photoelectrons liberated from another metal B by photon of energy 4.70 eV is eVTT AB )50.1( -= . If the de -Broglie wavelength of these photoelectrons is AB λλ 2= , then [IIT-JEE 1994]",
+    "questionText": "When photon of energy 4.25 eV strike the surface of a metal A, the ejected photoelectrons have maximum kinetic energy T A eV and de- Brolie wavelength Aλ . The maximum kinetic energy of photoelectrons liberated from another metal B by photon of energy 4.70 eV is eVTT AB )50.1( -= . If the de -Broglie wavelength of these photoelectrons is AB λλ 2= , then [NEET 2028 Expected]",
     "options": [
       "The work function of A is 2.25 eV",
       "The work function of B is 4.20 eV",
@@ -5045,7 +5045,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT-JEE 1994"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5054,7 +5054,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "An image of the sun is formed by a lens of focal length of 30 cm on the metal surface of a photoelectric cell and a photoelectric current I is produced. The lens forming the image is then replaced by another of the same diameter but of focal length 15 cm. The photoelectric current in this case is [Manipal MEE 1995]",
+    "questionText": "An image of the sun is formed by a lens of focal length of 30 cm on the metal surface of a photoelectric cell and a photoelectric current I is produced. The lens forming the image is then replaced by another of the same diameter but of focal length 15 cm. The photoelectric current in this case is [NEET 2027 Target]",
     "options": [
       "2 I",
       "I",
@@ -5067,7 +5067,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "Manipal MEE 1995"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5076,7 +5076,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "When an inert gas is filled in the place vacuum in a photo cell, then [MP PMT 1997]",
+    "questionText": "When an inert gas is filled in the place vacuum in a photo cell, then [NEET 2029 Practice]",
     "options": [
       "Photo-electric current is decreased",
       "Photo-electric current is increased",
@@ -5089,7 +5089,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "MP PMT 1997"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5098,7 +5098,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "A ph oton of 13107.1 -× Joules is absorbed by a material under special circumstances. The correct statement is [MP PET 1999; JIPMER 2000]",
+    "questionText": "A ph oton of 13107.1 -× Joules is absorbed by a material under special circumstances. The correct statement is [NEET 2028 Expected]",
     "options": [
       "Electrons of the atom of absorbed material will go the higher energy states",
       "Electron and positron pair will be created",
@@ -5111,7 +5111,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "MP PET 1999; JIPMER 2000"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5120,7 +5120,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "The maximum velocity of an electron emitted by light of wavelength λ incident on the surface of a metal of work function ,ϕ is[MP PMT/PET 1998, MP PMT 2003]",
+    "questionText": "The maximum velocity of an electron emitted by light of wavelength λ incident on the surface of a metal of work function ,ϕ is[NEET 2027 Target]",
     "options": [
       "2/1 )(2 }| ] {| [ + λ λϕ m hc",
       "m hc )(2 λϕ-",
@@ -5133,7 +5133,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "MP PMT/PET 1998, MP PMT 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5142,7 +5142,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "When a point source of monochromatic light is at a distance of 0.2 m from a photoelectric cell, the cut -off voltage and the saturation current are 0.6 volt and 18 mA respectively. If the same source is placed 0.6 m away from the photoelectric cell, then[IIT JEE 1992; MP PMT 1999]",
+    "questionText": "When a point source of monochromatic light is at a distance of 0.2 m from a photoelectric cell, the cut -off voltage and the saturation current are 0.6 volt and 18 mA respectively. If the same source is placed 0.6 m away from the photoelectric cell, then[NEET 2029 Practice]",
     "options": [
       "The stopping potential will be 0.2 V",
       "The stopping potential will be 0.6 V",
@@ -5155,7 +5155,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT JEE 1992; MP PMT 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5164,7 +5164,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "In a photoemissive cell with executing wavelength λ , the fastest electron has speed v. If the exciting wavelength is changed to 4/3λ , the speed of the fastest emitted electron will be [CBSE PMT 1998]",
+    "questionText": "In a photoemissive cell with executing wavelength λ , the fastest electron has speed v. If the exciting wavelength is changed to 4/3λ , the speed of the fastest emitted electron will be [NEET 2028 Expected]",
     "options": [
       "2/1)4/3(v",
       "2/1)3/4(v",
@@ -5177,7 +5177,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "CBSE PMT 1998"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5186,7 +5186,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "Ultraviolet light of wavelength 300 nm and intensity 1.0 watt/m 2 falls on the surface of a photosensitive material. If 1% of the incident photons produce photoelectrons, then the number of photoelectrons emitted from an area of 1.0 cm 2 of the surface is nearly [AMU 1995]",
+    "questionText": "Ultraviolet light of wavelength 300 nm and intensity 1.0 watt/m 2 falls on the surface of a photosensitive material. If 1% of the incident photons produce photoelectrons, then the number of photoelectrons emitted from an area of 1.0 cm 2 of the surface is nearly [NEET 2027 Target]",
     "options": [
       "141061.9 × per sec",
       "131012.4 × per sec",
@@ -5199,7 +5199,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "AMU 1995"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5208,7 +5208,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "Photoelectric emission is observ ed from a metallic surface for frequencies 1ν and 2ν of the incident light rays )( 21 νν > . If the maximum values of kinetic energy of the photoelectrons emitted in the two cases are in the ratio of k:1 , then the threshold frequency of the metallic surface is [EAMCET (Engg.) 2001]",
+    "questionText": "Photoelectric emission is observ ed from a metallic surface for frequencies 1ν and 2ν of the incident light rays )( 21 νν > . If the maximum values of kinetic energy of the photoelectrons emitted in the two cases are in the ratio of k:1 , then the threshold frequency of the metallic surface is [NEET 2029 Practice]",
     "options": [
       "1 21 - - k νν",
       "1 21 - - k k νν",
@@ -5221,7 +5221,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "EAMCET (Engg.) 2001"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5230,7 +5230,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "Light from a hydrogen discharge tube is incident on the cathode of a photoelectric cell the work function of the cathode surface is 4.2 eV. In order to reduce the photo -current to zero the voltage of the anode relative to the cathode must be made [DCE 2002]",
+    "questionText": "Light from a hydrogen discharge tube is incident on the cathode of a photoelectric cell the work function of the cathode surface is 4.2 eV. In order to reduce the photo -current to zero the voltage of the anode relative to the cathode must be made [NEET 2028 Expected]",
     "options": [
       "– 4.2 V",
       "– 9.4 V",
@@ -5243,7 +5243,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "DCE 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5252,7 +5252,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "Work function of lithium and copper are respectively 2.3 eV and 4.0 eV. Which one of the metal will be useful for the photoelectric cell working with visible light ? (h = 6.6 × 10 –34 J-s, c = 3 × 10 8 m/s) [DPMT 2003]",
+    "questionText": "Work function of lithium and copper are respectively 2.3 eV and 4.0 eV. Which one of the metal will be useful for the photoelectric cell working with visible light ? (h = 6.6 × 10 –34 J-s, c = 3 × 10 8 m/s) [NEET 2027 Target]",
     "options": [
       "Lithium",
       "Copper",
@@ -5265,7 +5265,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "DPMT 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5295,7 +5295,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "The largest distance between the interatomic planes of a crystal is 10 - 7 cm. The upper limit for the wavelength of X-rays which can be usefully studied with this crystal is [CPMT 1984]",
+    "questionText": "The largest distance between the interatomic planes of a crystal is 10 - 7 cm. The upper limit for the wavelength of X-rays which can be usefully studied with this crystal is [NEET 2029 Practice]",
     "options": [
       "1 Å",
       "2 Å",
@@ -5308,7 +5308,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "CPMT 1984"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5317,7 +5317,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "An X-ray tube is operating at 50 kV and 20 mA. The target material of the tube has a mass of 1.0 kg and specific heat 495 J kg -1 1-Co . One percent of the supplied electric power is converted into X-rays and the entire remaining energy goes into heating the target. Then [IIT 1995]",
+    "questionText": "An X-ray tube is operating at 50 kV and 20 mA. The target material of the tube has a mass of 1.0 kg and specific heat 495 J kg -1 1-Co . One percent of the supplied electric power is converted into X-rays and the entire remaining energy goes into heating the target. Then [NEET 2028 Expected]",
     "options": [
       "A suitable target material must have a high melting temperature",
       "A suitable target material must have low thermal conductivity",
@@ -5330,7 +5330,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT 1995"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5339,7 +5339,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "The wavelength of αK X-rays produced by an X-ray tube is 0.76 Å. The atomic number of the anode material of the tube is [IIT 1996]",
+    "questionText": "The wavelength of αK X-rays produced by an X-ray tube is 0.76 Å. The atomic number of the anode material of the tube is [NEET 2027 Target]",
     "options": [
       "20",
       "60",
@@ -5352,7 +5352,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT 1996"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5361,7 +5361,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "X-ray beam of intensity 0I passes through an absorption plate of thickness d. If absorption coefficient of material of plate is μ , the correct statement regarding the transmitted intensity I of X-ray is [MP PET 1999]",
+    "questionText": "X-ray beam of intensity 0I passes through an absorption plate of thickness d. If absorption coefficient of material of plate is μ , the correct statement regarding the transmitted intensity I of X-ray is [NEET 2029 Practice]",
     "options": [
       ")1(0 deII μ--=",
       "deII μ-= 0",
@@ -5374,7 +5374,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "MP PET 1999"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5383,7 +5383,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "The αK X-ray emission line of tungsten occurs at 021.0=λ nm . The energy difference between K and L levels in this atom is about [IIT 1997 Cancelled]",
+    "questionText": "The αK X-ray emission line of tungsten occurs at 021.0=λ nm . The energy difference between K and L levels in this atom is about [NEET 2028 Expected]",
     "options": [
       "0.51MeV",
       "1.2 MeV",
@@ -5396,7 +5396,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT 1997 Cancelled"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5405,7 +5405,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "Electrons with energy 80 keV are incident on the tungsten target of an X-ray tube. K shell electrons of tungsten have ionization energy 72.5 keV. X-rays emitted by the tube contain only [IIT-JEE (Screening) 2000]",
+    "questionText": "Electrons with energy 80 keV are incident on the tungsten target of an X-ray tube. K shell electrons of tungsten have ionization energy 72.5 keV. X-rays emitted by the tube contain only [NEET 2027 Target]",
     "options": [
       "A continuous X-ray spectrum (Bremsstrahlung) with a minimum wavelength of ~ 0.155Å",
       "A continuous X-ray spectrum (Bremsstrahlung] with all wavelengths",
@@ -5418,7 +5418,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT-JEE (Screening) 2000"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5427,7 +5427,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "The X-ray wavelength of αL line of platinum (Z=78) is .30.1 Å The X –ray wavelength of αL line of Molybdenum (Z=42) is [EAMCET (Eng.) 2000]",
+    "questionText": "The X-ray wavelength of αL line of platinum (Z=78) is .30.1 Å The X –ray wavelength of αL line of Molybdenum (Z=42) is [NEET 2029 Practice]",
     "options": [
       "5.41Å",
       "4.20Å",
@@ -5440,7 +5440,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "EAMCET (Eng.) 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5478,7 +5478,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "Zero"
     ],
     "correctAnswer": 2,
-    "explanation": "Option (c): hc En λ= 11 834 97 101 103106.6 10200101 ×= ××× ×××= - -- Number of electrons ejected 8 3 11 10 10 10 == ∴ Vr qV 3 108.4 109)106.110( 4 2 9198 0 = × ××××== - - π",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
@@ -5533,7 +5533,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "Kα wavelength emitted by an atom of atomic number Z = 11 is λ. Find the atomic number for an atom that emits Kα radiation with wavelength 4λ [IIT-JEE (Screening) 2005]",
+    "questionText": "Kα wavelength emitted by an atom of atomic number Z = 11 is λ. Find the atomic number for an atom that emits Kα radiation with wavelength 4λ [NEET 2029 Practice]",
     "options": [
       "Z = 6",
       "Z = 4",
@@ -5546,7 +5546,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT-JEE (Screening) 2005"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5555,7 +5555,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "The potential energy of a particle of mass m is given by > ≤≤= 1;0 10;)( 0 x xExU λ 1 and λ 2 are the de-Broglie wavelengths of the particle, when 0 ≤ x ≤ 1 and x > 1 respectively. If the total energy of particle is 2 E 0 , the ratio 2 1 λ λ will be [Based on IIT-JEE (Mains) 2005]",
+    "questionText": "The potential energy of a particle of mass m is given by > ≤≤= 1;0 10;)( 0 x xExU λ 1 and λ 2 are the de-Broglie wavelengths of the particle, when 0 ≤ x ≤ 1 and x > 1 respectively. If the total energy of particle is 2 E 0 , the ratio 2 1 λ λ will be [NEET 2028 Expected]",
     "options": [
       "2",
       "1",
@@ -5568,7 +5568,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "Based on IIT-JEE (Mains) 2005"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5787,7 +5787,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Critical Thinking & Advanced Problems",
     "difficulty": "Hard",
-    "questionText": "A photon collides with a stationary hydrogen atom in ground state inelastically. Energy of the colliding photon is 10.2 eV. After a time interval of the order of micro second another photon collides with same hydrogen atom inelastically with an energy of 15 eV. What will be observed by the detector [IIT-JEE (Screening) 2005]",
+    "questionText": "A photon collides with a stationary hydrogen atom in ground state inelastically. Energy of the colliding photon is 10.2 eV. After a time interval of the order of micro second another photon collides with same hydrogen atom inelastically with an energy of 15 eV. What will be observed by the detector [NEET 2027 Target]",
     "options": [
       "2 photon of energy 10.2 eV",
       "2 photon of energy of 1.4 eV",
@@ -5800,7 +5800,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Critical Thinking",
-      "IIT-JEE (Screening) 2005"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5809,7 +5809,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The curve drawn between velocity and frequency of photon in vacuum will be a [MP PET 2000]",
+    "questionText": "The curve drawn between velocity and frequency of photon in vacuum will be a [NEET 2029 Practice]",
     "options": [
       "Straight line parallel to frequency axis",
       "Straight line parallel to velocity axis",
@@ -5822,7 +5822,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "MP PET 2000"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5831,7 +5831,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "Which of the following figure represents the variation of particle momentum and the associated de-Broglie wavelength [AIIMS 1982] (a) (b) (c) (d)",
+    "questionText": "Which of the following figure represents the variation of particle momentum and the associated de-Broglie wavelength [NEET 2028 Expected] (a) (b) (c) (d)",
     "options": [
       "(a) Graph curve A",
       "(b) Graph curve B",
@@ -5844,7 +5844,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "AIIMS 1982"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5853,7 +5853,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The figure shows the variation of photocurrent with anode potential for a photo -sensitive surface for three different radiations. Let ba II , and cI be the intensities and ba ff , and cf be the frequencies for the curves a, b and c respectively [IIT-JEE (Screening) 2004]",
+    "questionText": "The figure shows the variation of photocurrent with anode potential for a photo -sensitive surface for three different radiations. Let ba II , and cI be the intensities and ba ff , and cf be the frequencies for the curves a, b and c respectively [NEET 2027 Target]",
     "options": [
       "ba ff = and ba ll",
       "ca ff = and ca ll = A S y d Bright Dark Bright Dark Bright D p λ p λ p λ p λ Photo current O Anode potential a b c",
@@ -5866,7 +5866,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "IIT-JEE (Screening) 2004"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5875,7 +5875,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "According to Einstein's photoelectric equation, the graph between the kinetic energy of photoelectrons ejected and the frequency of incident radiation is [MP PMT 1994; CBSE PMT 1996; CBSE PMT 2004] (a) (b) (c) (d)",
+    "questionText": "According to Einstein's photoelectric equation, the graph between the kinetic energy of photoelectrons ejected and the frequency of incident radiation is [NEET 2029 Practice] (a) (b) (c) (d)",
     "options": [
       "(a) Graph curve A",
       "(b) Graph curve B",
@@ -5888,7 +5888,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "MP PMT 1994; CBSE PMT 1996; CBSE PMT 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5897,7 +5897,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "For the photoelectric effect, the maximum kinetic energy kE of the emitted photoelectrons is plotted against the frequency ν of the incident photons as shown in the figure. The slope of the curve gives [CPMT 1987; MP PET 2001; DPMT 2002]",
+    "questionText": "For the photoelectric effect, the maximum kinetic energy kE of the emitted photoelectrons is plotted against the frequency ν of the incident photons as shown in the figure. The slope of the curve gives [NEET 2028 Expected]",
     "options": [
       "Charge of the electron",
       "Work function of the metal",
@@ -5910,7 +5910,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "CPMT 1987; MP PET 2001; DPMT 2002"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5919,7 +5919,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The stopping potential V for photoelectric emission from a metal surface is plotted along Y-axis and frequency ν of incident light along X-axis. A straight line is obtained as shown. Planck's constant is given by [CPMT 1987; Similar to MP PMT 2000; Kerala PET 2001]",
+    "questionText": "The stopping potential V for photoelectric emission from a metal surface is plotted along Y-axis and frequency ν of incident light along X-axis. A straight line is obtained as shown. Planck's constant is given by [NEET 2027 Target]",
     "options": [
       "Slope of the line",
       "Product of slope on the line and charge on the electron",
@@ -5932,7 +5932,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "CPMT 1987; Similar to MP PMT 2000; Kerala PET 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5941,7 +5941,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "In an experiment on photoelectric effect the frequency f of the incident light is plotted against the stopping potential 0V . The work function of the photoelectric surface is given by ( e is electronic charge) [CPMT 1987]",
+    "questionText": "In an experiment on photoelectric effect the frequency f of the incident light is plotted against the stopping potential 0V . The work function of the photoelectric surface is given by ( e is electronic charge) [NEET 2029 Practice]",
     "options": [
       "OB × e in eV",
       "OB in volt",
@@ -5954,7 +5954,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "CPMT 1987"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -5963,7 +5963,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The stopping potential as a function of the frequency of the incident radiation is plotted for two different photoelectric surfaces A and B. The graphs show that work function of A is [DPMT 1992]",
+    "questionText": "The stopping potential as a function of the frequency of the incident radiation is plotted for two different photoelectric surfaces A and B. The graphs show that work function of A is [NEET 2028 Expected]",
     "options": [
       "Greater than that of B",
       "Smaller than that of B",
@@ -5976,7 +5976,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "DPMT 1992"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5985,7 +5985,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The intensity of X -rays from a Coolidge tube is plotted against wavelength as shown in the figure. The minimum wavelength found is cλ and the wavelength of the αK line is kλ . As the accelerating voltage is increased [IIT-JEE (Screening) 2001]",
+    "questionText": "The intensity of X -rays from a Coolidge tube is plotted against wavelength as shown in the figure. The minimum wavelength found is cλ and the wavelength of the αK line is kλ . As the accelerating voltage is increased [NEET 2027 Target]",
     "options": [
       ")( CK λλ - increases",
       ")( CK λλ - decreases",
@@ -5998,7 +5998,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "IIT-JEE (Screening) 2001"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -6007,7 +6007,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The figure represents the observed intensity of X-rays emitted by an X-ray tube as a function of wavelength. The sharp peaks A and B denote [CBSE PMT 1995]",
+    "questionText": "The figure represents the observed intensity of X-rays emitted by an X-ray tube as a function of wavelength. The sharp peaks A and B denote [NEET 2029 Practice]",
     "options": [
       "Band spectrum",
       "Continuous spectrum",
@@ -6020,7 +6020,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "CBSE PMT 1995"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -6029,7 +6029,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The graph between intensity of light falling on a metallic plate ( I) with the current (i) generated is [DCE 2001] (a) (b) (c) (d)",
+    "questionText": "The graph between intensity of light falling on a metallic plate ( I) with the current (i) generated is [NEET 2028 Expected] (a) (b) (c) (d)",
     "options": [
       "(a) Graph curve A",
       "(b) Graph curve B",
@@ -6042,7 +6042,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "DCE 2001"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -6051,7 +6051,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "For a photoelectric cell the graph showing the variation o f cut of voltage (V o ) with frequency (ν) of incident light is best represented by [DCE 2001; MP PET 2003] (a) (b) (c) (d) Frequency Kinetic energy Frequency Kinetic energy Frequency Kinetic energy Frequency Kinetic energy Ek ν V A B ν I λ λK λC A O Wave length B Intensity i I i I i I i I Vo ν Vo ν Vo ν V0 ν Y V0 O X ν0 B ν A Y V 0 X ν",
+    "questionText": "For a photoelectric cell the graph showing the variation o f cut of voltage (V o ) with frequency (ν) of incident light is best represented by [NEET 2027 Target] (a) (b) (c) (d) Frequency Kinetic energy Frequency Kinetic energy Frequency Kinetic energy Frequency Kinetic energy Ek ν V A B ν I λ λK λC A O Wave length B Intensity i I i I i I i I Vo ν Vo ν Vo ν V0 ν Y V0 O X ν0 B ν A Y V 0 X ν",
     "options": [
       "(a) Graph curve A",
       "(b) Graph curve B",
@@ -6064,7 +6064,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "DCE 2001; MP PET 2003"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -6178,7 +6178,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "According to Einstein’s photoelectric equation, the plot of the kinetic energy of the emitted photo electrons from a metal versus the frequency, of the incident radiation gives a straight line whose slope [AIEEE 2004]",
+    "questionText": "According to Einstein’s photoelectric equation, the plot of the kinetic energy of the emitted photo electrons from a metal versus the frequency, of the incident radiation gives a straight line whose slope [NEET 2029 Practice]",
     "options": [
       "Is the same for all metals and independent of the intensity of the radiation",
       "Depends on the intensity of the radiation",
@@ -6191,7 +6191,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "AIEEE 2004"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -6578,7 +6578,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "The slope of frequency of incident light and stopping potential graph for a given surface will be [MP PET 1999; MP PMT 2000; JIPMER 2001, 02; UPSEAT 2003]",
+    "questionText": "The slope of frequency of incident light and stopping potential graph for a given surface will be [NEET 2028 Expected]",
     "options": [
       "h",
       "h/e",
@@ -6591,7 +6591,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "MP PET 1999; MP PMT 2000; JIPMER 2001, 02; UPSEAT 2003"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -6600,7 +6600,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Photoelectric & X-Ray Graphs",
     "difficulty": "Medium",
-    "questionText": "From the figure describing photoelectric effect we may infer correctly that [KCET 2005]",
+    "questionText": "From the figure describing photoelectric effect we may infer correctly that [NEET 2027 Target]",
     "options": [
       "Na and Al both have the same threshold frequency",
       "Maximum kinetic energy for both the metals depend linearly on the frequency",
@@ -6613,7 +6613,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
       "NEET Physics",
       "Dual Nature of Radiation and Matter",
       "Graphical Analysis",
-      "KCET 2005"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -6622,7 +6622,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The energy (E) and momentum (p) of a photon are related by cEp /= .\nReason: The photon behaves like a particle. [AIIMS 2005]",
+    "questionText": "Assertion: The energy (E) and momentum (p) of a photon are related by cEp /= .\nReason: The photon behaves like a particle. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6644,7 +6644,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Photoelectric effect demonstrates the wave nature of light.\nReason: The number of photoelect rons is proportional to the frequency of light. [AIIMS 2004]",
+    "questionText": "Assertion: Photoelectric effect demonstrates the wave nature of light.\nReason: The number of photoelect rons is proportional to the frequency of light. [NEET 2027 Target]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6666,7 +6666,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: When the speed of an electron increases its specific charge decreases.\nReason: Specific charge is the ratio of the charge to mass.[AIIMS 2001]",
+    "questionText": "Assertion: When the speed of an electron increases its specific charge decreases.\nReason: Specific charge is the ratio of the charge to mass.[NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6688,7 +6688,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: X-ray travel with the speed of light.\nReason: X-rays are electromagnetic rays. [AIIMS 2001]",
+    "questionText": "Assertion: X-ray travel with the speed of light.\nReason: X-rays are electromagnetic rays. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6710,7 +6710,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Mass of moving photon varies inversely as the wavelength.\nReason: Energy of the particle 2light)of (Speed Mass ×= [AIIMS 2000]",
+    "questionText": "Assertion: Mass of moving photon varies inversely as the wavelength.\nReason: Energy of the particle 2light)of (Speed Mass ×= [NEET 2027 Target]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6732,7 +6732,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Kinetic energy of photo electr ons emitted by a photosensitive surface depends upon the intensity of incident photon.\nReason: The ejection of electrons from metallic surface is possible with frequency of incident photon below the threshold frequency. [AIIMS 1999]",
+    "questionText": "Assertion: Kinetic energy of photo electr ons emitted by a photosensitive surface depends upon the intensity of incident photon.\nReason: The ejection of electrons from metallic surface is possible with frequency of incident photon below the threshold frequency. [NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6754,7 +6754,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Separation of isotope is possible because of the difference in electron numbers of isotope.\nReason: Isotope of an element can be separated by using a mass spectrometer. [AIIMS 1999]",
+    "questionText": "Assertion: Separation of isotope is possible because of the difference in electron numbers of isotope.\nReason: Isotope of an element can be separated by using a mass spectrometer. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6776,7 +6776,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The specific charge of positive rays is not constant.\nReason: The mass of ions varies with speed. [AIIMS 1999]",
+    "questionText": "Assertion: The specific charge of positive rays is not constant.\nReason: The mass of ions varies with speed. [NEET 2027 Target]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6798,7 +6798,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: Photosensitivity of a metal is high if its work function is small.\nReason: Work function 0hf= where 0f is the threshold frequency. [AIIMS 1997]",
+    "questionText": "Assertion: Photosensitivity of a metal is high if its work function is small.\nReason: Work function 0hf= where 0f is the threshold frequency. [NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
@@ -6820,7 +6820,7 @@ export const DUAL_NATURE_XRAYS_QUESTIONS: Question[] = [
     "chapter": "Dual Nature of Radiation and Matter",
     "topic": "Assertion & Reason (AIIMS Level)",
     "difficulty": "Hard",
-    "questionText": "Assertion: The de -Broglie wavelength of a molecule varies inversely as the square root of temperature. –4V Potential difference V i (Photoelectric current) –2V λ2 λ1 P Q R S Y X O P Q R S Y X O θ θ 10 5 X Al Na Frequency 1 2 3 4 Stopping potential Y\nReason: The root mean square velocity of the molecule depends on the temperature. [AIIMS 1997]",
+    "questionText": "Assertion: The de -Broglie wavelength of a molecule varies inversely as the square root of temperature. –4V Potential difference V i (Photoelectric current) –2V λ2 λ1 P Q R S Y X O P Q R S Y X O θ θ 10 5 X Al Na Frequency 1 2 3 4 Stopping potential Y\nReason: The root mean square velocity of the molecule depends on the temperature. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",

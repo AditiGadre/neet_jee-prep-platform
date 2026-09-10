@@ -163,7 +163,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       return;
     }
 
-    const testQuestions = generateSundayTestQuestions(plannerTest);
+    let testQuestions: Question[] = [];
+    try {
+      const publishedRaw = localStorage.getItem('neet_published_sunday_test');
+      if (publishedRaw) {
+        const parsed = JSON.parse(publishedRaw);
+        if (parsed && Array.isArray(parsed.questions) && parsed.questions.length === 180) {
+          testQuestions = parsed.questions;
+        }
+      }
+    } catch {}
+    if (testQuestions.length === 0) {
+      testQuestions = generateSundayTestQuestions(plannerTest);
+    }
     const testItem: TestItem = {
       id: plannerTest.id,
       title: `${plannerTest.code}: ${plannerTest.title}`,

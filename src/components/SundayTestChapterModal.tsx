@@ -142,69 +142,97 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
   };
 
   const handleLaunch = () => {
+    const matchChapterStrict = (q: Question, selectedUnits: string[]) => {
+      const qCh = (q.chapter || '').toLowerCase().trim();
+      const qTop = (q.topic || '').toLowerCase().trim();
+      const normQCh = qCh.replace(/[^a-z0-9]/g, '');
+
+      return selectedUnits.some(unit => {
+        const clean = unit
+          .replace(/^Unit \d+:\s*/i, '')
+          .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
+          .toLowerCase()
+          .trim();
+        const normUnit = clean.replace(/[^a-z0-9]/g, '');
+
+        if (normQCh && normUnit && (normQCh.includes(normUnit) || normUnit.includes(normQCh))) {
+          return true;
+        }
+
+        const keywords = clean
+          .split(/[^a-z0-9]+/)
+          .filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class'].includes(w));
+
+        return keywords.length > 0 && keywords.every(kw => qCh.includes(kw) || qTop.includes(kw));
+      });
+    };
+
     // 1. Collect questions for Physics (45 Qs) strictly from selected Physics chapters
     const phyBank = getUnifiedQuestionBank('Physics');
-    const phyCleanKeywords = selectedPhysics.map(u => u.replace(/^Unit \d+:\s*/i, '').toLowerCase());
-    let phyPool = phyBank.filter(q => {
-      const qCh = (q.chapter || '').toLowerCase();
-      const qTop = (q.topic || '').toLowerCase();
-      return phyCleanKeywords.some(kw => {
-        const words = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
-        return qCh.includes(kw) || kw.includes(qCh) || words.some(w => qCh.includes(w) || qTop.includes(w));
-      });
-    });
-    if (phyPool.length < 45) phyPool = phyBank; // fallback if needed
+    let phyPool = phyBank.filter(q => matchChapterStrict(q, selectedPhysics));
+    if (phyPool.length === 0) {
+      phyPool = phyBank.filter(q => selectedPhysics.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    }
+    if (phyPool.length === 0) phyPool = phyBank; // ultimate fallback only if 0 found
     
-    const selectedPhyQs = [...phyPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
-      ...q,
-      id: `sunday-phy-${idx + 1}-${q.id}`,
-      subject: 'Physics' as const,
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    }));
+    // Pick 45 questions strictly from phyPool without cross-chapter mixing
+    const randomizedPhy = [...phyPool].sort(() => 0.5 - Math.random());
+    const selectedPhyQs: Question[] = [];
+    for (let idx = 0; idx < 45; idx++) {
+      const q = randomizedPhy[idx % randomizedPhy.length];
+      selectedPhyQs.push({
+        ...q,
+        id: `sunday-phy-${idx + 1}-${q.id}`,
+        subject: 'Physics' as const,
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
+      });
+    }
 
     // 2. Collect questions for Chemistry (45 Qs) strictly from selected Chemistry chapters
     const chemBank = getUnifiedQuestionBank('Chemistry');
-    const chemCleanKeywords = selectedChemistry.map(u => u.replace(/^Unit \d+:\s*/i, '').toLowerCase());
-    let chemPool = chemBank.filter(q => {
-      const qCh = (q.chapter || '').toLowerCase();
-      const qTop = (q.topic || '').toLowerCase();
-      return chemCleanKeywords.some(kw => {
-        const words = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
-        return qCh.includes(kw) || kw.includes(qCh) || words.some(w => qCh.includes(w) || qTop.includes(w));
+    let chemPool = chemBank.filter(q => matchChapterStrict(q, selectedChemistry));
+    if (chemPool.length === 0) {
+      chemPool = chemBank.filter(q => selectedChemistry.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    }
+    if (chemPool.length === 0) chemPool = chemBank;
+    
+    const randomizedChem = [...chemPool].sort(() => 0.5 - Math.random());
+    const selectedChemQs: Question[] = [];
+    for (let idx = 0; idx < 45; idx++) {
+      const q = randomizedChem[idx % randomizedChem.length];
+      selectedChemQs.push({
+        ...q,
+        id: `sunday-chem-${idx + 1}-${q.id}`,
+        subject: 'Chemistry' as const,
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
       });
-    });
-    if (chemPool.length < 45) chemPool = chemBank;
-    const selectedChemQs = [...chemPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
-      ...q,
-      id: `sunday-chem-${idx + 1}-${q.id}`,
-      subject: 'Chemistry' as const,
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    }));
+    }
 
     // 3. Collect questions for Biology (90 Qs) strictly from selected Biology chapters
     const bioBank = getUnifiedQuestionBank('Biology');
-    const bioCleanKeywords = selectedBiology.map(u => u.replace(/^\[(Botany|Zoology)\]\s*\d+\.\s*/i, '').toLowerCase());
-    let bioPool = bioBank.filter(q => {
-      const qCh = (q.chapter || '').toLowerCase();
-      const qTop = (q.topic || '').toLowerCase();
-      return bioCleanKeywords.some(kw => {
-        const words = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
-        return qCh.includes(kw) || kw.includes(qCh) || words.some(w => qCh.includes(w) || qTop.includes(w));
+    let bioPool = bioBank.filter(q => matchChapterStrict(q, selectedBiology));
+    if (bioPool.length === 0) {
+      bioPool = bioBank.filter(q => selectedBiology.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    }
+    if (bioPool.length === 0) bioPool = bioBank;
+
+    const randomizedBio = [...bioPool].sort(() => 0.5 - Math.random());
+    const selectedBioQs: Question[] = [];
+    for (let idx = 0; idx < 90; idx++) {
+      const q = randomizedBio[idx % randomizedBio.length];
+      selectedBioQs.push({
+        ...q,
+        id: `sunday-bio-${idx + 1}-${q.id}`,
+        subject: 'Biology' as const,
+        questionText: formatMathAndFormulas(q.questionText),
+        options: q.options.map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation)
       });
-    });
-    if (bioPool.length < 90) bioPool = bioBank;
-    const selectedBioQs = [...bioPool].sort(() => 0.5 - Math.random()).slice(0, 90).map((q, idx) => ({
-      ...q,
-      id: `sunday-bio-${idx + 1}-${q.id}`,
-      subject: 'Biology' as const,
-      questionText: formatMathAndFormulas(q.questionText),
-      options: q.options.map(o => formatMathAndFormulas(o)),
-      explanation: formatMathAndFormulas(q.explanation)
-    }));
+    }
 
     const total180Qs: Question[] = [...selectedPhyQs, ...selectedChemQs, ...selectedBioQs];
 

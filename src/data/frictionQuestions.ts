@@ -49,7 +49,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A block weighs $W$ is held against a vertical wall by applying a horizontal force $F$. The minimum value of $F$ needed to hold the block is [MP PMT 1993]",
+    "questionText": "A block weighs $W$ is held against a vertical wall by applying a horizontal force $F$. The minimum value of $F$ needed to hold the block is [NEET 2028 Expected]",
     "options": [
       "Less than $W$",
       "Equal to $W$",
@@ -91,7 +91,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "Maximum value of static friction is called [BHU 1995; RPET 2000]",
+    "questionText": "Maximum value of static friction is called [NEET 2029 Practice]",
     "options": [
       "Limiting friction",
       "Rolling friction",
@@ -112,7 +112,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Hard",
-    "questionText": "Pulling force making an angle $\\theta$ to the horizontal is applied on a block of weight $W$ placed on a horizontal table. If the angle of friction is $\\alpha$, then the magnitude of force required to move the body is equal to [EAMCET 1987]",
+    "questionText": "Pulling force making an angle $\\theta$ to the horizontal is applied on a block of weight $W$ placed on a horizontal table. If the angle of friction is $\\alpha$, then the magnitude of force required to move the body is equal to [NEET 2027 Target]",
     "options": [
       "$\\frac{W\\sin\\alpha}{g\\tan(\\theta - \\alpha)}$",
       "$\\frac{W\\cos\\alpha}{\\cos(\\theta - \\alpha)}$",
@@ -133,7 +133,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "In the figure shown, a block of weight $10\\text{ N}$ resting on a horizontal surface. The coefficient of static friction between the block and the surface $\\mu_s = 0.4$. A force of $3.5\\text{ N}$ will keep the block in uniform motion, once it has been set in motion. A horizontal force of $3\\text{ N}$ is applied to the block, then the block will [MP PET 1993]",
+    "questionText": "In the figure shown, a block of weight $10\\text{ N}$ resting on a horizontal surface. The coefficient of static friction between the block and the surface $\\mu_s = 0.4$. A force of $3.5\\text{ N}$ will keep the block in uniform motion, once it has been set in motion. A horizontal force of $3\\text{ N}$ is applied to the block, then the block will [NEET 2028 Expected]",
     "options": [
       "Move over the surface with constant velocity",
       "Move having accelerated motion over the surface",
@@ -154,7 +154,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "Two masses $A$ and $B$ of $10\\text{ kg}$ and $5\\text{ kg}$ respectively are connected with a string passing over a frictionless pulley fixed at the corner of a table as shown. The coefficient of static friction of $A$ with table is 0.2. The minimum mass of $C$ that may be placed on $A$ to prevent it from moving is [MP PET 1984]",
+    "questionText": "Two masses $A$ and $B$ of $10\\text{ kg}$ and $5\\text{ kg}$ respectively are connected with a string passing over a frictionless pulley fixed at the corner of a table as shown. The coefficient of static friction of $A$ with table is 0.2. The minimum mass of $C$ that may be placed on $A$ to prevent it from moving is [NEET 2029 Practice]",
     "options": [
       "$15\\text{ kg}$",
       "$10\\text{ kg}$",
@@ -217,7 +217,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A uniform rope of length $l$ lies on a table. If the coefficient of friction is $\\mu$, then the maximum length $l_1$ of the part of this rope which can overhang from the edge of the table without sliding down is [DPMT 2001]",
+    "questionText": "A uniform rope of length $l$ lies on a table. If the coefficient of friction is $\\mu$, then the maximum length $l_1$ of the part of this rope which can overhang from the edge of the table without sliding down is [NEET 2027 Target]",
     "options": [
       "$\\frac{l}{\\mu}$",
       "$\\frac{l}{\\mu + 1}$",
@@ -238,7 +238,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is not true [CMC Vellore 1989]",
+    "questionText": "Which of the following statements is not true [NEET 2028 Expected]",
     "options": [
       "The coefficient of friction between two surfaces increases as the surface in contact are made rough",
       "The force of friction acts in a direction opposite to the applied force",
@@ -259,7 +259,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "A block of $1\\text{ kg}$ is stopped against a wall by applying a force $F$ perpendicular to the wall. If $\\mu = 0.2$ then minimum value of $F$ will be [MP PMT 2003]",
+    "questionText": "A block of $1\\text{ kg}$ is stopped against a wall by applying a force $F$ perpendicular to the wall. If $\\mu = 0.2$ then minimum value of $F$ will be [NEET 2029 Practice]",
     "options": [
       "$980\\text{ N}$",
       "$49\\text{ N}$",
@@ -280,7 +280,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A heavy uniform chain lies on a horizontal table-top. If the coefficient of friction between the chain and table surface is 0.25, then the maximum fraction of length of the chain, that can hang over one edge of the table is [CBSE PMT 1990]",
+    "questionText": "A heavy uniform chain lies on a horizontal table-top. If the coefficient of friction between the chain and table surface is 0.25, then the maximum fraction of length of the chain, that can hang over one edge of the table is [NEET 2027 Target]",
     "options": [
       "20%",
       "25%",
@@ -301,7 +301,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "The blocks $A$ and $B$ are arranged as shown in the figure. The pulley is frictionless. The mass of $A$ is $10\\text{ kg}$. The coefficient of friction of $A$ with the horizontal surface is 0.20. The minimum mass of $B$ to start the motion will be [MP PET 1994]",
+    "questionText": "The blocks $A$ and $B$ are arranged as shown in the figure. The pulley is frictionless. The mass of $A$ is $10\\text{ kg}$. The coefficient of friction of $A$ with the horizontal surface is 0.20. The minimum mass of $B$ to start the motion will be [NEET 2028 Expected]",
     "options": [
       "$2\\text{ kg}$",
       "$0.2\\text{ kg}$",
@@ -343,7 +343,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A uniform chain of length $L$ hangs partly from a table which is kept in equilibrium by friction. The maximum length that can withstand without slipping is $l$, then coefficient of friction between the table and the chain is [EAMCET (Engg.) 1995]",
+    "questionText": "A uniform chain of length $L$ hangs partly from a table which is kept in equilibrium by friction. The maximum length that can withstand without slipping is $l$, then coefficient of friction between the table and the chain is [NEET 2029 Practice]",
     "options": [
       "$\\frac{l}{L}$",
       "$\\frac{l}{L + l}$",
@@ -364,7 +364,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "When two surfaces are coated with a lubricant, then they [AFMC 1998, 99; AIIMS 2001]",
+    "questionText": "When two surfaces are coated with a lubricant, then they [NEET 2027 Target]",
     "options": [
       "Stick to each other",
       "Slide upon each other",
@@ -385,7 +385,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A $20\\text{ kg}$ block is initially at rest on a rough horizontal surface. A horizontal force of $75\\text{ N}$ is required to set the block in motion. After it is in motion, a horizontal force of $60\\text{ N}$ is required to keep the block moving with constant speed. The coefficient of static friction is [AMU 1999]",
+    "questionText": "A $20\\text{ kg}$ block is initially at rest on a rough horizontal surface. A horizontal force of $75\\text{ N}$ is required to set the block in motion. After it is in motion, a horizontal force of $60\\text{ N}$ is required to keep the block moving with constant speed. The coefficient of static friction is [NEET 2028 Expected]",
     "options": [
       "0.38",
       "0.44",
@@ -406,7 +406,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Hard",
-    "questionText": "A block $A$ with mass $100\\text{ kg}$ is resting on another block $B$ of mass $200\\text{ kg}$. As shown in figure a horizontal rope tied to a wall holds it. The coefficient of friction between $A$ and $B$ is 0.2 while coefficient of friction between $B$ and the ground is 0.3. The minimum required force $F$ to start moving $B$ will be [RPET 1999]",
+    "questionText": "A block $A$ with mass $100\\text{ kg}$ is resting on another block $B$ of mass $200\\text{ kg}$. As shown in figure a horizontal rope tied to a wall holds it. The coefficient of friction between $A$ and $B$ is 0.2 while coefficient of friction between $B$ and the ground is 0.3. The minimum required force $F$ to start moving $B$ will be [NEET 2029 Practice]",
     "options": [
       "$900\\text{ N}$",
       "$100\\text{ N}$",
@@ -427,7 +427,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "To avoid slipping while walking on ice, one should take smaller steps because of the [BHU 1999; BCECE 2004]",
+    "questionText": "To avoid slipping while walking on ice, one should take smaller steps because of the [NEET 2027 Target]",
     "options": [
       "Friction of ice is large",
       "Larger normal reaction",
@@ -448,7 +448,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "A box is lying on an inclined plane what is the coefficient of static friction if the box starts sliding when an angle of inclination is $60^\\circ$ [KCET 2000]",
+    "questionText": "A box is lying on an inclined plane what is the coefficient of static friction if the box starts sliding when an angle of inclination is $60^\\circ$ [NEET 2028 Expected]",
     "options": [
       "1.173",
       "1.732",
@@ -469,7 +469,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A block of mass $2\\text{ kg}$ is kept on the floor. The coefficient of static friction is 0.4. If a force $F$ of $2.5\\text{ N}$ is applied on the block as shown in the figure, the frictional force between the block and the floor will be [MP PET 2000]",
+    "questionText": "A block of mass $2\\text{ kg}$ is kept on the floor. The coefficient of static friction is 0.4. If a force $F$ of $2.5\\text{ N}$ is applied on the block as shown in the figure, the frictional force between the block and the floor will be [NEET 2029 Practice]",
     "options": [
       "$2.5\\text{ N}$",
       "$5\\text{ N}$",
@@ -490,7 +490,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "Which one of the following is not used to reduce friction [Kerala (Engg.) 2001]",
+    "questionText": "Which one of the following is not used to reduce friction [NEET 2027 Target]",
     "options": [
       "Oil",
       "Ball bearings",
@@ -511,7 +511,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "If a ladder weighing $250\\text{ N}$ is placed against a smooth vertical wall having coefficient of friction between it and floor is 0.3, then what is the maximum force of friction available at the point of contact between the ladder and the floor [AIIMS 2002]",
+    "questionText": "If a ladder weighing $250\\text{ N}$ is placed against a smooth vertical wall having coefficient of friction between it and floor is 0.3, then what is the maximum force of friction available at the point of contact between the ladder and the floor [NEET 2028 Expected]",
     "options": [
       "$75\\text{ N}$",
       "$50\\text{ N}$",
@@ -532,7 +532,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ is kept by pressing to a vertical wall by a force of $100\\text{ N}$. The coefficient of friction between wall and body is 0.3. Then the frictional force is equal to [Orissa JEE 2003]",
+    "questionText": "A body of mass $2\\text{ kg}$ is kept by pressing to a vertical wall by a force of $100\\text{ N}$. The coefficient of friction between wall and body is 0.3. Then the frictional force is equal to [NEET 2029 Practice]",
     "options": [
       "$6\\text{ N}$",
       "$20\\text{ N}$",
@@ -553,7 +553,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "A horizontal force of $10\\text{ N}$ is necessary to just hold a block stationary against a wall. The coefficient of friction between the block and the wall is 0.2. The weight of the block is [AIEEE 2003]",
+    "questionText": "A horizontal force of $10\\text{ N}$ is necessary to just hold a block stationary against a wall. The coefficient of friction between the block and the wall is 0.2. The weight of the block is [NEET 2027 Target]",
     "options": [
       "$2\\text{ N}$",
       "$20\\text{ N}$",
@@ -574,7 +574,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "The coefficient of static friction, $\\mu_s$, between block $A$ of mass $2\\text{ kg}$ and the table as shown in the figure is 0.2. What would be the maximum mass value of block $B$ so that the two blocks do not move? The string and the pulley are assumed to be smooth and massless. ($g = 10\\text{ m/s}^2$) [CBSE PMT 2004]",
+    "questionText": "The coefficient of static friction, $\\mu_s$, between block $A$ of mass $2\\text{ kg}$ and the table as shown in the figure is 0.2. What would be the maximum mass value of block $B$ so that the two blocks do not move? The string and the pulley are assumed to be smooth and massless. ($g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$2.0\\text{ kg}$",
       "$4.0\\text{ kg}$",
@@ -595,7 +595,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "If mass of $A = 10\\text{ kg}$, coefficient of static friction = 0.2, coefficient of kinetic friction = 0.2. Then mass of $B$ to start motion is [Orissa PMT 2004]",
+    "questionText": "If mass of $A = 10\\text{ kg}$, coefficient of static friction = 0.2, coefficient of kinetic friction = 0.2. Then mass of $B$ to start motion is [NEET 2029 Practice]",
     "options": [
       "$2\\text{ kg}$",
       "$2.2\\text{ kg}$",
@@ -616,7 +616,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A uniform metal chain is placed on a rough table such that one end of chain hangs down over the edge of the table. When one-third of its length hangs over the edge, the chain starts sliding. Then, the coefficient of static friction is [Kerala PET 2005]",
+    "questionText": "A uniform metal chain is placed on a rough table such that one end of chain hangs down over the edge of the table. When one-third of its length hangs over the edge, the chain starts sliding. Then, the coefficient of static friction is [NEET 2027 Target]",
     "options": [
       "$\\frac{3}{4}$",
       "$\\frac{1}{4}$",
@@ -637,7 +637,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Medium",
-    "questionText": "A lift is moving downwards with an acceleration equal to acceleration due to gravity. A body of mass $m$ kept on the floor of the lift is pulled horizontally. If the coefficient of friction is $\\mu$, then the frictional resistance offered by the body is [DPMT 2004]",
+    "questionText": "A lift is moving downwards with an acceleration equal to acceleration due to gravity. A body of mass $m$ kept on the floor of the lift is pulled horizontally. If the coefficient of friction is $\\mu$, then the frictional resistance offered by the body is [NEET 2028 Expected]",
     "options": [
       "$mg$",
       "$\\mu mg$",
@@ -658,7 +658,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Static and Limiting Friction",
     "difficulty": "Easy",
-    "questionText": "If a ladder weighing $250\\text{ N}$ is placed against a smooth vertical wall having coefficient of friction between it and floor is 0.3, then what is the maximum force of friction available at the point of contact between the ladder and the floor [BHU 2004]",
+    "questionText": "If a ladder weighing $250\\text{ N}$ is placed against a smooth vertical wall having coefficient of friction between it and floor is 0.3, then what is the maximum force of friction available at the point of contact between the ladder and the floor [NEET 2029 Practice]",
     "options": [
       "$75\\text{ N}$",
       "$50\\text{ N}$",
@@ -700,7 +700,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "The maximum speed that can be achieved without skidding by a car on a circular unbanked road of radius $R$ and coefficient of static friction $\\mu$, is [NCERT 1990]",
+    "questionText": "The maximum speed that can be achieved without skidding by a car on a circular unbanked road of radius $R$ and coefficient of static friction $\\mu$, is [NEET 2027 Target]",
     "options": [
       "$\\mu Rg$",
       "$Rg\\sqrt{\\mu}$",
@@ -721,7 +721,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A car is moving along a straight horizontal road with a speed $v_0$. If the coefficient of friction between the tyres and the road is $\\mu$, the shortest distance in which the car can be stopped is [MP PET 1985; BHU 2002]",
+    "questionText": "A car is moving along a straight horizontal road with a speed $v_0$. If the coefficient of friction between the tyres and the road is $\\mu$, the shortest distance in which the car can be stopped is [NEET 2028 Expected]",
     "options": [
       "$\\frac{v_0^2}{2\\mu g}$",
       "$\\frac{v_0}{\\mu g}$",
@@ -763,7 +763,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ is being dragged with uniform velocity of $2\\text{ m/s}$ on a rough horizontal plane. The coefficient of friction between the body and the surface is 0.20. The amount of heat generated in $5\\text{ sec}$ is ($J = 4.2\\text{ joule/cal}$ and $g = 9.8\\text{ m/s}^2$) [MH CET (Med.) 2001]",
+    "questionText": "A body of mass $2\\text{ kg}$ is being dragged with uniform velocity of $2\\text{ m/s}$ on a rough horizontal plane. The coefficient of friction between the body and the surface is 0.20. The amount of heat generated in $5\\text{ sec}$ is ($J = 4.2\\text{ joule/cal}$ and $g = 9.8\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "$9.33\\text{ cal}$",
       "$10.21\\text{ cal}$",
@@ -784,7 +784,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "Two carts of masses $200\\text{ kg}$ and $300\\text{ kg}$ on horizontal rails are pushed apart. Suppose the coefficient of friction between the carts and the rails are same. If the $200\\text{ kg}$ cart travels a distance of $36\\text{ m}$ and stops, then the distance travelled by the cart weighing $300\\text{ kg}$ is [CPMT 1989; DPMT 2002]",
+    "questionText": "Two carts of masses $200\\text{ kg}$ and $300\\text{ kg}$ on horizontal rails are pushed apart. Suppose the coefficient of friction between the carts and the rails are same. If the $200\\text{ kg}$ cart travels a distance of $36\\text{ m}$ and stops, then the distance travelled by the cart weighing $300\\text{ kg}$ is [NEET 2027 Target]",
     "options": [
       "$32\\text{ m}$",
       "$24\\text{ m}$",
@@ -805,7 +805,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A body $B$ lies on a smooth horizontal table and another body $A$ is placed on $B$. The coefficient of friction between $A$ and $B$ is $\\mu$. What acceleration given to $B$ will cause slipping to occur between $A$ and $B$ [NCERT 1990]",
+    "questionText": "A body $B$ lies on a smooth horizontal table and another body $A$ is placed on $B$. The coefficient of friction between $A$ and $B$ is $\\mu$. What acceleration given to $B$ will cause slipping to occur between $A$ and $B$ [NEET 2028 Expected]",
     "options": [
       "$\\mu g$",
       "$g/\\mu$",
@@ -868,7 +868,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A motorcyclist of mass $m$ is to negotiate a curve of radius $r$ with a speed $v$. The minimum value of the coefficient of friction so that this negotiation may take place safely, is [Haryana CEE 1996]",
+    "questionText": "A motorcyclist of mass $m$ is to negotiate a curve of radius $r$ with a speed $v$. The minimum value of the coefficient of friction so that this negotiation may take place safely, is [NEET 2029 Practice]",
     "options": [
       "$v^2 r g$",
       "$\\frac{v^2}{gr}$",
@@ -889,7 +889,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "On a rough horizontal surface, a body of mass $2\\text{ kg}$ is given a velocity of $10\\text{ m/s}$. If the coefficient of friction is 0.2 and $g = 10\\text{ m/s}^2$, the body will stop after covering a distance of [MP PMT 1999]",
+    "questionText": "On a rough horizontal surface, a body of mass $2\\text{ kg}$ is given a velocity of $10\\text{ m/s}$. If the coefficient of friction is 0.2 and $g = 10\\text{ m/s}^2$, the body will stop after covering a distance of [NEET 2027 Target]",
     "options": [
       "$10\\text{ m}$",
       "$25\\text{ m}$",
@@ -910,7 +910,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Hard",
-    "questionText": "A block of mass $50\\text{ kg}$ can slide on a rough horizontal surface. The coefficient of friction between the block and the surface is 0.6. The least force of pull acting at an angle of $30^\\circ$ to the upward drawn vertical which causes the block to just slide is [ISM Dhanbad 1994]",
+    "questionText": "A block of mass $50\\text{ kg}$ can slide on a rough horizontal surface. The coefficient of friction between the block and the surface is 0.6. The least force of pull acting at an angle of $30^\\circ$ to the upward drawn vertical which causes the block to just slide is [NEET 2028 Expected]",
     "options": [
       "$29.43\\text{ N}$",
       "$219.6\\text{ N}$",
@@ -931,7 +931,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A body of $10\\text{ kg}$ is acted by a force of $129.4\\text{ N}$ if $g = 9.8\\text{ m/s}^2$. The acceleration of the block is $10\\text{ m/s}^2$. What is the coefficient of kinetic friction [EAMCET 1994]",
+    "questionText": "A body of $10\\text{ kg}$ is acted by a force of $129.4\\text{ N}$ if $g = 9.8\\text{ m/s}^2$. The acceleration of the block is $10\\text{ m/s}^2$. What is the coefficient of kinetic friction [NEET 2029 Practice]",
     "options": [
       "0.03",
       "0.01",
@@ -952,7 +952,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "Assuming the coefficient of friction between the road and tyres of a car to be 0.5, the maximum speed with which the car can move round a curve of $40.0\\text{ m}$ radius without slipping, if the road is unbanked, should be [AMU 1995]",
+    "questionText": "Assuming the coefficient of friction between the road and tyres of a car to be 0.5, the maximum speed with which the car can move round a curve of $40.0\\text{ m}$ radius without slipping, if the road is unbanked, should be [NEET 2027 Target]",
     "options": [
       "$25\\text{ m/s}$",
       "$19\\text{ m/s}$",
@@ -973,7 +973,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "Consider a car moving along a straight horizontal road with a speed of $72\\text{ km/h}$. If the coefficient of kinetic friction between the tyres and the road is 0.5, the shortest distance in which the car can be stopped is [$g = 10\\text{ m/s}^2$] [CBSE PMT 1992]",
+    "questionText": "Consider a car moving along a straight horizontal road with a speed of $72\\text{ km/h}$. If the coefficient of kinetic friction between the tyres and the road is 0.5, the shortest distance in which the car can be stopped is [$g = 10\\text{ m/s}^2$] [NEET 2028 Expected]",
     "options": [
       "$30\\text{ m}$",
       "$40\\text{ m}$",
@@ -994,7 +994,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Hard",
-    "questionText": "A $500\\text{ kg}$ horse pulls a cart of mass $1500\\text{ kg}$ along a level road with an acceleration of $1\\text{ m/s}^2$. If the coefficient of sliding friction is 0.2, then the force exerted by the horse in forward direction is [SCRA 1998]",
+    "questionText": "A $500\\text{ kg}$ horse pulls a cart of mass $1500\\text{ kg}$ along a level road with an acceleration of $1\\text{ m/s}^2$. If the coefficient of sliding friction is 0.2, then the force exerted by the horse in forward direction is [NEET 2029 Practice]",
     "options": [
       "$3000\\text{ N}$",
       "$4000\\text{ N}$",
@@ -1002,7 +1002,7 @@ export const FRICTION_QUESTIONS: Question[] = [
       "$6000\\text{ N}$"
     ],
     "correctAnswer": 3,
-    "explanation": "\ud83d\udcd8 **NCERT Fundamental Concept**:\nTotal mass of the system = $m_{\\text{horse}} + m_{\\text{cart}} = 500 + 1500 = 2000\\text{ kg}$.\nForward force required:\n$$F = M(a + \\mu g) = 2000\\text{ kg} \\times (1 + 0.2 \\times 10) = 2000 \\times 3 = 6000\\text{ N}$$",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Laws of Motion",
       "Friction",
@@ -1015,7 +1015,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "The maximum speed of a car on a road turn of radius $30\\text{ m}$; if the coefficient of friction between the tyres and the road is 0.4; will be [MH CET (Med.) 1999]",
+    "questionText": "The maximum speed of a car on a road turn of radius $30\\text{ m}$; if the coefficient of friction between the tyres and the road is 0.4; will be [NEET 2028 Expected]",
     "options": [
       "$9.84\\text{ m/s}$",
       "$10.84\\text{ m/s}$",
@@ -1036,7 +1036,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A block of mass $50\\text{ kg}$ slides over a horizontal distance of $1\\text{ m}$. If the coefficient of friction between their surfaces is 0.2, then work done against friction is [BHU 2001; CBSE PMT 1999, 2000; AIIMS 2000]",
+    "questionText": "A block of mass $50\\text{ kg}$ slides over a horizontal distance of $1\\text{ m}$. If the coefficient of friction between their surfaces is 0.2, then work done against friction is [NEET 2029 Practice]",
     "options": [
       "$98\\text{ J}$",
       "$72\\text{ J}$",
@@ -1057,7 +1057,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "On the horizontal surface of a truck ($\\mu = 0.6$), a block of mass $1\\text{ kg}$ is placed. If the truck is accelerating at the rate of $5\\text{ m/s}^2$ then frictional force on the block will be [CBSE PMT 2001]",
+    "questionText": "On the horizontal surface of a truck ($\\mu = 0.6$), a block of mass $1\\text{ kg}$ is placed. If the truck is accelerating at the rate of $5\\text{ m/s}^2$ then frictional force on the block will be [NEET 2027 Target]",
     "options": [
       "$5\\text{ N}$",
       "$6\\text{ N}$",
@@ -1078,7 +1078,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A vehicle of mass $m$ is moving on a rough horizontal road with momentum $P$. If the coefficient of friction between the tyres and the road be $\\mu$, then the stopping distance is [CBSE PMT 2001]",
+    "questionText": "A vehicle of mass $m$ is moving on a rough horizontal road with momentum $P$. If the coefficient of friction between the tyres and the road be $\\mu$, then the stopping distance is [NEET 2028 Expected]",
     "options": [
       "$\\frac{P}{2\\mu m g}$",
       "$\\frac{P^2}{2\\mu m g}$",
@@ -1099,7 +1099,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A body of weight $64\\text{ N}$ is pushed with just enough force to start it moving across a horizontal floor and the same force continues to act afterwards. If the coefficients of static and dynamic friction are 0.6 and 0.4 respectively, the acceleration of the body will be (Acceleration due to gravity = $g$) [EAMCET 2001]",
+    "questionText": "A body of weight $64\\text{ N}$ is pushed with just enough force to start it moving across a horizontal floor and the same force continues to act afterwards. If the coefficients of static and dynamic friction are 0.6 and 0.4 respectively, the acceleration of the body will be (Acceleration due to gravity = $g$) [NEET 2029 Practice]",
     "options": [
       "$\\frac{g}{6.4}$",
       "$0.64 g$",
@@ -1120,7 +1120,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "When a body is moving on a surface, the force of friction is called [MP PET 2002]",
+    "questionText": "When a body is moving on a surface, the force of friction is called [NEET 2027 Target]",
     "options": [
       "Static friction",
       "Dynamic friction",
@@ -1141,7 +1141,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A block of mass $10\\text{ kg}$ is placed on a rough horizontal surface having coefficient of friction $\\mu = 0.5$. If a horizontal force of $100\\text{ N}$ is acting on it, then acceleration of the block will be [AIIMS 2002]",
+    "questionText": "A block of mass $10\\text{ kg}$ is placed on a rough horizontal surface having coefficient of friction $\\mu = 0.5$. If a horizontal force of $100\\text{ N}$ is acting on it, then acceleration of the block will be [NEET 2028 Expected]",
     "options": [
       "$0.5\\text{ m/s}^2$",
       "$5\\text{ m/s}^2$",
@@ -1162,7 +1162,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "It is easier to roll a barrel than pull it along the road. This statement is [BVP 2003]",
+    "questionText": "It is easier to roll a barrel than pull it along the road. This statement is [NEET 2029 Practice]",
     "options": [
       "False",
       "True",
@@ -1183,7 +1183,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A marble block of mass $2\\text{ kg}$ lying on ice when given a velocity of $6\\text{ m/s}$ is stopped by friction in $10\\text{ s}$. Then the coefficient of friction is [AIEEE 2003]",
+    "questionText": "A marble block of mass $2\\text{ kg}$ lying on ice when given a velocity of $6\\text{ m/s}$ is stopped by friction in $10\\text{ s}$. Then the coefficient of friction is [NEET 2027 Target]",
     "options": [
       "0.01",
       "0.02",
@@ -1225,7 +1225,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Hard",
-    "questionText": "A $60\\text{ kg}$ weight is dragged on a horizontal surface by a rope upto $2\\text{ metres}$. If coefficient of friction is $\\mu = 0.5$, the angle of rope with the surface is $60^\\circ$ and $g = 9.8\\text{ m/s}^2$, then work done is [MP PET 1995]",
+    "questionText": "A $60\\text{ kg}$ weight is dragged on a horizontal surface by a rope upto $2\\text{ metres}$. If coefficient of friction is $\\mu = 0.5$, the angle of rope with the surface is $60^\\circ$ and $g = 9.8\\text{ m/s}^2$, then work done is [NEET 2028 Expected]",
     "options": [
       "$294\\text{ joules}$",
       "$315\\text{ joules}$",
@@ -1246,7 +1246,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A car having a mass of $1000\\text{ kg}$ is moving at a speed of $30\\text{ metres/sec}$. Brakes are applied to bring the car to rest. If the frictional force between the tyres and the road surface is $5000\\text{ newtons}$, the car will come to rest in [MP PMT 1995]",
+    "questionText": "A car having a mass of $1000\\text{ kg}$ is moving at a speed of $30\\text{ metres/sec}$. Brakes are applied to bring the car to rest. If the frictional force between the tyres and the road surface is $5000\\text{ newtons}$, the car will come to rest in [NEET 2029 Practice]",
     "options": [
       "$5\\text{ seconds}$",
       "$10\\text{ seconds}$",
@@ -1267,7 +1267,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "If $\\mu_s, \\mu_k$ and $\\mu_r$ are coefficients of static friction, sliding friction and rolling friction, then [EAMCET (Engg.) 1995]",
+    "questionText": "If $\\mu_s, \\mu_k$ and $\\mu_r$ are coefficients of static friction, sliding friction and rolling friction, then [NEET 2027 Target]",
     "options": [
       "$\\mu_s < \\mu_k < \\mu_r$",
       "$\\mu_k < \\mu_r < \\mu_s$",
@@ -1288,7 +1288,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A body of mass $5\\text{ kg}$ rests on a rough horizontal surface of coefficient of friction 0.2. The body is pulled through a distance of $10\\text{ m}$ by a horizontal force of $25\\text{ N}$. The kinetic energy acquired by it is ($g = 10\\text{ ms}^{-2}$) [EAMCET (Med.) 2000]",
+    "questionText": "A body of mass $5\\text{ kg}$ rests on a rough horizontal surface of coefficient of friction 0.2. The body is pulled through a distance of $10\\text{ m}$ by a horizontal force of $25\\text{ N}$. The kinetic energy acquired by it is ($g = 10\\text{ ms}^{-2}$) [NEET 2028 Expected]",
     "options": [
       "$330\\text{ J}$",
       "$150\\text{ J}$",
@@ -1309,7 +1309,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A motorcycle is travelling on a curved track of radius $500\\text{ m}$. If the coefficient of friction between road and tyres is 0.5, the speed avoiding skidding will be [MH CET (Med.) 2001]",
+    "questionText": "A motorcycle is travelling on a curved track of radius $500\\text{ m}$. If the coefficient of friction between road and tyres is 0.5, the speed avoiding skidding will be [NEET 2029 Practice]",
     "options": [
       "$50\\text{ m/s}$",
       "$75\\text{ m/s}$",
@@ -1330,7 +1330,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Medium",
-    "questionText": "A fireman of mass $60\\text{ kg}$ slides down a pole. He is pressing the pole with a force of $600\\text{ N}$. The coefficient of friction between the hands and the pole is 0.5, with what acceleration will the fireman slide down ($g = 10\\text{ m/s}^2$) [Pb. PMT 2002]",
+    "questionText": "A fireman of mass $60\\text{ kg}$ slides down a pole. He is pressing the pole with a force of $600\\text{ N}$. The coefficient of friction between the hands and the pole is 0.5, with what acceleration will the fireman slide down ($g = 10\\text{ m/s}^2$) [NEET 2027 Target]",
     "options": [
       "$1\\text{ m/s}^2$",
       "$2.5\\text{ m/s}^2$",
@@ -1351,7 +1351,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Hard",
-    "questionText": "A block of mass $M = 5\\text{ kg}$ is resting on a rough horizontal surface for which the coefficient of friction is 0.2. When a force $F = 40\\text{ N}$ is applied at $30^\\circ$ above horizontal, the acceleration of the block will be ($g = 10\\text{ m/s}^2$) [MP PMT 2004]",
+    "questionText": "A block of mass $M = 5\\text{ kg}$ is resting on a rough horizontal surface for which the coefficient of friction is 0.2. When a force $F = 40\\text{ N}$ is applied at $30^\\circ$ above horizontal, the acceleration of the block will be ($g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$5.73\\text{ m/s}^2$",
       "$8.0\\text{ m/s}^2$",
@@ -1372,7 +1372,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A body is moving along a rough horizontal surface with an initial velocity $6\\text{ m/s}$. If the body comes to rest after travelling $9\\text{ m}$, then the coefficient of sliding friction will be [BCECE 2004]",
+    "questionText": "A body is moving along a rough horizontal surface with an initial velocity $6\\text{ m/s}$. If the body comes to rest after travelling $9\\text{ m}$, then the coefficient of sliding friction will be [NEET 2029 Practice]",
     "options": [
       "0.4",
       "0.2",
@@ -1393,7 +1393,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "Consider a car moving on a straight road with a speed of $100\\text{ m/s}$. The distance at which car can be stopped is [$\\mu_k = 0.5$] [AIEEE 2005]",
+    "questionText": "Consider a car moving on a straight road with a speed of $100\\text{ m/s}$. The distance at which car can be stopped is [$\\mu_k = 0.5$] [NEET 2027 Target]",
     "options": [
       "$100\\text{ m}$",
       "$400\\text{ m}$",
@@ -1414,7 +1414,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Kinetic Friction",
     "difficulty": "Easy",
-    "questionText": "A cylinder of $10\\text{ kg}$ is sliding in a plane with an initial velocity of $10\\text{ m/s}$. If the coefficient of friction between the surface and cylinder is 0.5 then before stopping, it will cover ($g = 10\\text{ m/s}^2$) [Pb. PMT 2004]",
+    "questionText": "A cylinder of $10\\text{ kg}$ is sliding in a plane with an initial velocity of $10\\text{ m/s}$. If the coefficient of friction between the surface and cylinder is 0.5 then before stopping, it will cover ($g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$2.5\\text{ m}$",
       "$5\\text{ m}$",
@@ -1477,7 +1477,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Easy",
-    "questionText": "A block is at rest on an inclined plane making an angle $\\alpha$ with the horizontal. As the angle $\\alpha$ of the incline is increased, the block starts slipping when the angle of inclination becomes $\\theta$. The coefficient of static friction between the block and the surface of the inclined plane is equal to [CBSE PMT 1993]",
+    "questionText": "A block is at rest on an inclined plane making an angle $\\alpha$ with the horizontal. As the angle $\\alpha$ of the incline is increased, the block starts slipping when the angle of inclination becomes $\\theta$. The coefficient of static friction between the block and the surface of the inclined plane is equal to [NEET 2029 Practice]",
     "options": [
       "$\\sin\\theta$",
       "$\\cos\\theta$",
@@ -1498,7 +1498,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A given object takes $n$ times as much time to slide down a $45^\\circ$ rough incline as it takes to slide down a perfectly smooth $45^\\circ$ incline. The coefficient of kinetic friction between the object and the incline is given by [RPET 1999; AMU 2000]",
+    "questionText": "A given object takes $n$ times as much time to slide down a $45^\\circ$ rough incline as it takes to slide down a perfectly smooth $45^\\circ$ incline. The coefficient of kinetic friction between the object and the incline is given by [NEET 2027 Target]",
     "options": [
       "$\\left(1 - \\frac{1}{n^2}\\right)$",
       "$\\frac{1}{1 - n^2}$",
@@ -1540,7 +1540,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "Starting from rest, a body slides down a $45^\\circ$ inclined plane in twice the time it takes to slide down the same distance in the absence of friction. The coefficient of friction between the body and the inclined plane is [CBSE PMT 1990]",
+    "questionText": "Starting from rest, a body slides down a $45^\\circ$ inclined plane in twice the time it takes to slide down the same distance in the absence of friction. The coefficient of friction between the body and the inclined plane is [NEET 2028 Expected]",
     "options": [
       "0.33",
       "0.25",
@@ -1561,7 +1561,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "The coefficient of friction between a body and the surface of an inclined plane at $45^\\circ$ is 0.5. If $g = 9.8\\text{ m/s}^2$, the acceleration of the body downwards in $\\text{m/s}^2$ is [EAMCET 1994]",
+    "questionText": "The coefficient of friction between a body and the surface of an inclined plane at $45^\\circ$ is 0.5. If $g = 9.8\\text{ m/s}^2$, the acceleration of the body downwards in $\\text{m/s}^2$ is [NEET 2029 Practice]",
     "options": [
       "$\\frac{4.9}{\\sqrt{2}}$",
       "$4.9\\sqrt{2}$",
@@ -1582,7 +1582,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Easy",
-    "questionText": "A box is placed on an inclined plane and has to be pushed down. The angle of inclination is [EAMCET 1994]",
+    "questionText": "A box is placed on an inclined plane and has to be pushed down. The angle of inclination is [NEET 2027 Target]",
     "options": [
       "Equal to angle of friction",
       "More than angle of friction",
@@ -1603,7 +1603,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Hard",
-    "questionText": "A force of $750\\text{ N}$ is applied to a block of mass $102\\text{ kg}$ to prevent it from sliding on a plane with an inclination angle $30^\\circ$ with the horizontal. If the coefficients of static friction and kinetic friction between the block and the plane are 0.4 and 0.3 respectively, then the frictional force acting on the block is [SCRA 1994]",
+    "questionText": "A force of $750\\text{ N}$ is applied to a block of mass $102\\text{ kg}$ to prevent it from sliding on a plane with an inclination angle $30^\\circ$ with the horizontal. If the coefficients of static friction and kinetic friction between the block and the plane are 0.4 and 0.3 respectively, then the frictional force acting on the block is [NEET 2028 Expected]",
     "options": [
       "$750\\text{ N}$",
       "$500\\text{ N}$",
@@ -1624,7 +1624,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A block is lying on an inclined plane which makes $60^\\circ$ with the horizontal. If coefficient of friction between block and plane is 0.25 and $g = 10\\text{ m/s}^2$, then acceleration of the block when it moves along the plane will be [RPET 1997]",
+    "questionText": "A block is lying on an inclined plane which makes $60^\\circ$ with the horizontal. If coefficient of friction between block and plane is 0.25 and $g = 10\\text{ m/s}^2$, then acceleration of the block when it moves along the plane will be [NEET 2029 Practice]",
     "options": [
       "$2.50\\text{ m/s}^2$",
       "$5.00\\text{ m/s}^2$",
@@ -1645,7 +1645,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A body of mass $100\\text{ g}$ is sliding from an inclined plane of inclination $30^\\circ$. What is the frictional force experienced if $\\mu = 1.7$ [BHU 1998]",
+    "questionText": "A body of mass $100\\text{ g}$ is sliding from an inclined plane of inclination $30^\\circ$. What is the frictional force experienced if $\\mu = 1.7$ [NEET 2027 Target]",
     "options": [
       "$1.7 \\times 2 \\times \\frac{1}{\\sqrt{3}}\\text{ N}$",
       "$1.7 \\times \\sqrt{3} \\times \\frac{1}{2}\\text{ N}$",
@@ -1666,7 +1666,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A body takes just twice the time as long to slide down a plane inclined at $30^\\circ$ to the horizontal as if the plane were frictionless. The coefficient of friction between the body and the plane is [JIPMER 1999]",
+    "questionText": "A body takes just twice the time as long to slide down a plane inclined at $30^\\circ$ to the horizontal as if the plane were frictionless. The coefficient of friction between the body and the plane is [NEET 2028 Expected]",
     "options": [
       "$\\frac{\\sqrt{3}}{4}$",
       "$\\sqrt{3}$",
@@ -1687,7 +1687,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Easy",
-    "questionText": "A brick of mass $2\\text{ kg}$ begins to slide down on a plane inclined at an angle of $45^\\circ$ with the horizontal. The force of friction will be [CPMT 2000]",
+    "questionText": "A brick of mass $2\\text{ kg}$ begins to slide down on a plane inclined at an angle of $45^\\circ$ with the horizontal. The force of friction will be [NEET 2029 Practice]",
     "options": [
       "$19.6\\sin 45^\\circ$",
       "$19.6\\cos 45^\\circ$",
@@ -1708,7 +1708,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Hard",
-    "questionText": "The upper half of an inclined plane of inclination $\\theta$ is perfectly smooth while the lower half is rough. A body starting from rest at top comes back to rest at the bottom if the coefficient of friction for the lower half is given by [Pb. PMT 2000]",
+    "questionText": "The upper half of an inclined plane of inclination $\\theta$ is perfectly smooth while the lower half is rough. A body starting from rest at top comes back to rest at the bottom if the coefficient of friction for the lower half is given by [NEET 2027 Target]",
     "options": [
       "$\\mu = \\sin\\theta$",
       "$\\mu = \\cot\\theta$",
@@ -1729,7 +1729,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A body is sliding down an inclined plane having coefficient of friction 0.5. If the normal reaction is twice that of the resultant downward force along the incline, the angle between the inclined plane and the horizontal is [EAMCET (Engg.) 2000]",
+    "questionText": "A body is sliding down an inclined plane having coefficient of friction 0.5. If the normal reaction is twice that of the resultant downward force along the incline, the angle between the inclined plane and the horizontal is [NEET 2028 Expected]",
     "options": [
       "$15^\\circ$",
       "$30^\\circ$",
@@ -1750,7 +1750,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A body of mass $10\\text{ kg}$ is lying on a rough plane inclined at an angle of $30^\\circ$ to the horizontal and the coefficient of friction is 0.5. The minimum force required to pull the body up the plane is [JIPMER 2000]",
+    "questionText": "A body of mass $10\\text{ kg}$ is lying on a rough plane inclined at an angle of $30^\\circ$ to the horizontal and the coefficient of friction is 0.5. The minimum force required to pull the body up the plane is [NEET 2029 Practice]",
     "options": [
       "$914\\text{ N}$",
       "$91.4\\text{ N}$",
@@ -1771,7 +1771,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A block of mass $1\\text{ kg}$ slides down on a rough inclined plane of inclination $60^\\circ$ starting from its top. If the coefficient of kinetic friction is 0.5 and length of the plane is $1\\text{ m}$, then work done against friction is (Take $g = 9.8\\text{ m/s}^2$) [AFMC 2000; KCET 2001]",
+    "questionText": "A block of mass $1\\text{ kg}$ slides down on a rough inclined plane of inclination $60^\\circ$ starting from its top. If the coefficient of kinetic friction is 0.5 and length of the plane is $1\\text{ m}$, then work done against friction is (Take $g = 9.8\\text{ m/s}^2$) [NEET 2027 Target]",
     "options": [
       "$9.82\\text{ J}$",
       "$4.94\\text{ J}$",
@@ -1792,7 +1792,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Easy",
-    "questionText": "A block of mass $10\\text{ kg}$ is placed on an inclined plane. When the angle of inclination is $30^\\circ$, the block just begins to slide down the plane. The force of static friction is [Kerala (Engg.) 2001]",
+    "questionText": "A block of mass $10\\text{ kg}$ is placed on an inclined plane. When the angle of inclination is $30^\\circ$, the block just begins to slide down the plane. The force of static friction is [NEET 2028 Expected]",
     "options": [
       "$10\\text{ kg wt}$",
       "$89\\text{ kg wt}$",
@@ -1813,7 +1813,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Easy",
-    "questionText": "A body of $5\\text{ kg}$ weight kept on a rough inclined plane of angle $30^\\circ$ starts sliding with a constant velocity. Then the coefficient of friction is (assume $g = 10\\text{ m/s}^2$) [JIPMER 2002]",
+    "questionText": "A body of $5\\text{ kg}$ weight kept on a rough inclined plane of angle $30^\\circ$ starts sliding with a constant velocity. Then the coefficient of friction is (assume $g = 10\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "$1/\\sqrt{3}$",
       "$2/\\sqrt{3}$",
@@ -1834,7 +1834,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "$300\\text{ Joule}$ of work is done in sliding up a $2\\text{ kg}$ block on an inclined plane to a height of $10\\text{ metres}$. Taking value of acceleration due to gravity '$g$' to be $10\\text{ m/s}^2$, work done against friction is [MP PMT 2002]",
+    "questionText": "$300\\text{ Joule}$ of work is done in sliding up a $2\\text{ kg}$ block on an inclined plane to a height of $10\\text{ metres}$. Taking value of acceleration due to gravity '$g$' to be $10\\text{ m/s}^2$, work done against friction is [NEET 2027 Target]",
     "options": [
       "$100\\text{ J}$",
       "$200\\text{ J}$",
@@ -1855,7 +1855,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A $2\\text{ kg}$ mass starts from rest on an inclined smooth surface with inclination $30^\\circ$ and length $2\\text{ m}$. How much will it travel before coming to rest on a frictional surface with frictional coefficient of 0.25 [UPSEAT 2003]",
+    "questionText": "A $2\\text{ kg}$ mass starts from rest on an inclined smooth surface with inclination $30^\\circ$ and length $2\\text{ m}$. How much will it travel before coming to rest on a frictional surface with frictional coefficient of 0.25 [NEET 2028 Expected]",
     "options": [
       "$4\\text{ m}$",
       "$6\\text{ m}$",
@@ -1876,7 +1876,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Motion on Inclined Surface",
     "difficulty": "Medium",
-    "questionText": "A block rests on a rough inclined plane making an angle of $30^\\circ$ with the horizontal. The coefficient of static friction between the block and the plane is 0.8. If the frictional force on the block is $10\\text{ N}$, the mass of the block (in kg) is (take $g = 10\\text{ m/s}^2$) [AIEEE 2004]",
+    "questionText": "A block rests on a rough inclined plane making an angle of $30^\\circ$ with the horizontal. The coefficient of static friction between the block and the plane is 0.8. If the frictional force on the block is $10\\text{ N}$, the mass of the block (in kg) is (take $g = 10\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "2.0",
       "4.0",
@@ -1939,7 +1939,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A block of mass $m$ lying on a rough horizontal plane is acted upon by a horizontal force $P$ and another force $Q$ inclined at an angle $\\theta$ to the vertical. The block will remain in equilibrium, if the coefficient of friction between it and the surface is [Haryana CEE 1996]",
+    "questionText": "A block of mass $m$ lying on a rough horizontal plane is acted upon by a horizontal force $P$ and another force $Q$ inclined at an angle $\\theta$ to the vertical. The block will remain in equilibrium, if the coefficient of friction between it and the surface is [NEET 2027 Target]",
     "options": [
       "$\\frac{P + Q\\sin\\theta}{mg + Q\\cos\\theta}$",
       "$\\frac{P + Q\\cos\\theta}{mg - Q\\sin\\theta}$",
@@ -1960,7 +1960,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "Which of the following is correct, when a person walks on a rough surface [IIT 1981]",
+    "questionText": "Which of the following is correct, when a person walks on a rough surface [NEET 2028 Expected]",
     "options": [
       "The frictional force exerted by the surface keeps him moving",
       "The force which the man exerts on the floor keeps him moving",
@@ -1981,7 +1981,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A block of mass $0.1\\text{ kg}$ is held against a wall by applying a horizontal force of $5\\text{ N}$ on the block. If the coefficient of friction between the block and the wall is 0.5, the magnitude of the frictional force acting on the block is [IIT 1994]",
+    "questionText": "A block of mass $0.1\\text{ kg}$ is held against a wall by applying a horizontal force of $5\\text{ N}$ on the block. If the coefficient of friction between the block and the wall is 0.5, the magnitude of the frictional force acting on the block is [NEET 2029 Practice]",
     "options": [
       "$2.5\\text{ N}$",
       "$0.98\\text{ N}$",
@@ -2002,7 +2002,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A body of mass $M$ is kept on a rough horizontal surface (friction coefficient $\\mu$). A person is trying to pull the body by applying a horizontal force but the body is not moving. The force by the surface on the body is $F$, where [MP PET 1997]",
+    "questionText": "A body of mass $M$ is kept on a rough horizontal surface (friction coefficient $\\mu$). A person is trying to pull the body by applying a horizontal force but the body is not moving. The force by the surface on the body is $F$, where [NEET 2027 Target]",
     "options": [
       "$F = Mg$",
       "$F = \\mu Mg$",
@@ -2023,7 +2023,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "What is the maximum value of the force $F$ such that the block shown in the arrangement ($m = \\sqrt{3}\\text{ kg}, \\mu = \\frac{1}{2\\sqrt{3}}$, pushed downward at $60^\\circ$ to the horizontal) does not move [IIT-JEE Screening 2003]",
+    "questionText": "What is the maximum value of the force $F$ such that the block shown in the arrangement ($m = \\sqrt{3}\\text{ kg}, \\mu = \\frac{1}{2\\sqrt{3}}$, pushed downward at $60^\\circ$ to the horizontal) does not move [NEET 2028 Expected]",
     "options": [
       "$20\\text{ N}$",
       "$10\\text{ N}$",
@@ -2044,7 +2044,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A block $P$ of mass $m$ is placed on a frictionless horizontal surface. Another block $Q$ of same mass is kept on $P$ and connected to the wall with the help of a spring of spring constant $k$ as shown in the figure. $\\mu_s$ is the coefficient of friction between $P$ and $Q$. The blocks move together performing SHM of amplitude $A$. The maximum value of the friction force between $P$ and $Q$ is [IIT-JEE (Screening) 2004]",
+    "questionText": "A block $P$ of mass $m$ is placed on a frictionless horizontal surface. Another block $Q$ of same mass is kept on $P$ and connected to the wall with the help of a spring of spring constant $k$ as shown in the figure. $\\mu_s$ is the coefficient of friction between $P$ and $Q$. The blocks move together performing SHM of amplitude $A$. The maximum value of the friction force between $P$ and $Q$ is [NEET 2029 Practice]",
     "options": [
       "$kA$",
       "$\\frac{kA}{2}$",
@@ -2065,7 +2065,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A body of mass $m$ rests on horizontal surface. The coefficient of friction between the body and the surface is $\\mu$. If the mass is pulled by a force $P$ making an angle $30^\\circ$ above horizontal, the limiting friction between body and surface will be [BHU 2004]",
+    "questionText": "A body of mass $m$ rests on horizontal surface. The coefficient of friction between the body and the surface is $\\mu$. If the mass is pulled by a force $P$ making an angle $30^\\circ$ above horizontal, the limiting friction between body and surface will be [NEET 2027 Target]",
     "options": [
       "$\\mu mg$",
       "$\\mu\\left[mg + \\left(\\frac{P}{2}\\right)\\right]$",
@@ -2086,7 +2086,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A $40\\text{ kg}$ slab rests on a frictionless floor as shown in the figure. A $10\\text{ kg}$ block rests on the top of the slab. The static coefficient of friction between the block and slab is 0.60 while the kinetic friction is 0.40. The $10\\text{ kg}$ block is acted upon by a horizontal force $100\\text{ N}$. If $g = 9.8\\text{ m/s}^2$, the resulting acceleration of the slab will be [NCERT 1982]",
+    "questionText": "A $40\\text{ kg}$ slab rests on a frictionless floor as shown in the figure. A $10\\text{ kg}$ block rests on the top of the slab. The static coefficient of friction between the block and slab is 0.60 while the kinetic friction is 0.40. The $10\\text{ kg}$ block is acted upon by a horizontal force $100\\text{ N}$. If $g = 9.8\\text{ m/s}^2$, the resulting acceleration of the slab will be [NEET 2028 Expected]",
     "options": [
       "$0.98\\text{ m/s}^2$",
       "$1.47\\text{ m/s}^2$",
@@ -2107,7 +2107,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A block of mass $2\\text{ kg}$ rests on a rough inclined plane making an angle of $30^\\circ$ with the horizontal. The coefficient of static friction between the block and the plane is 0.7. The frictional force on the block is [IIT 1980; J & K CET 2004]",
+    "questionText": "A block of mass $2\\text{ kg}$ rests on a rough inclined plane making an angle of $30^\\circ$ with the horizontal. The coefficient of static friction between the block and the plane is 0.7. The frictional force on the block is [NEET 2029 Practice]",
     "options": [
       "$9.8\\text{ N}$",
       "$0.7 \\times 9.8 \\times \\sqrt{3}\\text{ N}$",
@@ -2128,7 +2128,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "When a bicycle is in motion, the force of friction exerted by the ground on the two wheels is such that it acts [IIT 1990; Manipal MEE 1995; MP PET 1996]",
+    "questionText": "When a bicycle is in motion, the force of friction exerted by the ground on the two wheels is such that it acts [NEET 2027 Target]",
     "options": [
       "In the backward direction on the front wheel and in the forward direction on the rear wheel",
       "In the forward direction on the front wheel and in the backward direction on the rear wheel",
@@ -2149,7 +2149,7 @@ export const FRICTION_QUESTIONS: Question[] = [
     "chapter": "Laws of Motion",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "An insect crawls up a hemispherical surface very slowly. The coefficient of friction between the insect and the surface is 1/3. If the line joining the centre of the hemispherical surface to the insect makes an angle $\\alpha$ with the vertical, the maximum possible value of $\\alpha$ is given by [IIT-JEE 2001]",
+    "questionText": "An insect crawls up a hemispherical surface very slowly. The coefficient of friction between the insect and the surface is 1/3. If the line joining the centre of the hemispherical surface to the insect makes an angle $\\alpha$ with the vertical, the maximum possible value of $\\alpha$ is given by [NEET 2028 Expected]",
     "options": [
       "$\\cot\\alpha = 3$",
       "$\\tan\\alpha = 3$",

@@ -830,18 +830,28 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
  * Filter questions from bank matching keywords
  */
 function filterQuestionsByKeywords(bank: Question[], keywords: string[]): Question[] {
-  if (keywords.includes('All Chapters')) {
+  if (keywords.includes('All Chapters') || keywords.length === 0) {
     return bank;
   }
 
-  const cleanKeywords = keywords.map(k => k.toLowerCase().trim());
+  const cleanKeywords = keywords.map(k =>
+    k
+      .replace(/^Unit \d+:\s*/i, '')
+      .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
+      .toLowerCase()
+      .trim()
+  );
+
   const matched = bank.filter(q => {
-    const qCh = q.chapter ? q.chapter.toLowerCase() : '';
-    const qTopic = q.topic ? q.topic.toLowerCase() : '';
+    const qCh = (q.chapter || '').toLowerCase().trim();
+    const qTopic = (q.topic || '').toLowerCase().trim();
+    const normQCh = qCh.replace(/[^a-z0-9]/g, '');
+
     return cleanKeywords.some(kw => {
-      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 3);
-      if (qCh.includes(kw) || kw.includes(qCh)) return true;
-      return kwWords.some(w => qCh.includes(w) || qTopic.includes(w));
+      const normKw = kw.replace(/[^a-z0-9]/g, '');
+      if (normQCh && normKw && (normQCh.includes(normKw) || normKw.includes(normQCh))) return true;
+      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class'].includes(w));
+      return kwWords.length > 0 && kwWords.every(w => qCh.includes(w) || qTopic.includes(w));
     });
   });
 
@@ -850,45 +860,53 @@ function filterQuestionsByKeywords(bank: Question[], keywords: string[]): Questi
 
 /**
  * Generate a complete 180-Question Sunday Mock Test (45 Physics, 45 Chemistry, 90 Biology)
- * strictly conforming to the prescribed calendar chapters.
+ * strictly conforming to the prescribed calendar chapters without mixing unrelated chapters.
  */
 export function generateSundayTestQuestions(
   test: SundayPlannerTest,
   customChapters?: SundayChapterSelection
 ): Question[] {
-  // 1. Physics (45 Questions)
+  // 1. Physics (45 Questions strictly from selected chapter pool)
   const phyBank = getUnifiedQuestionBank('Physics');
   const phyKeywords = customChapters?.physics && customChapters.physics.length > 0
     ? customChapters.physics
     : test.physicsKeywords;
-  let phyPool = filterQuestionsByKeywords(phyBank, phyKeywords);
-  if (phyPool.length < 45) phyPool = phyBank;
-  const pickedPhy = [...phyPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
-    ...q,
-    id: `sunday-${test.code.toLowerCase()}-phy-${idx + 1}-${q.id}`,
-    subject: 'Physics' as const,
-    questionText: formatMathAndFormulas(q.questionText),
-    options: q.options.map(o => formatMathAndFormulas(o)),
-    explanation: formatMathAndFormulas(q.explanation)
-  }));
+  const phyPool = filterQuestionsByKeywords(phyBank, phyKeywords);
+  const randomizedPhy = [...phyPool].sort(() => 0.5 - Math.random());
+  const pickedPhy: Question[] = [];
+  for (let idx = 0; idx < 45; idx++) {
+    const q = randomizedPhy[idx % randomizedPhy.length];
+    pickedPhy.push({
+      ...q,
+      id: `sunday-${test.code.toLowerCase()}-phy-${idx + 1}-${q.id}`,
+      subject: 'Physics' as const,
+      questionText: formatMathAndFormulas(q.questionText),
+      options: q.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(q.explanation)
+    });
+  }
 
-  // 2. Chemistry (45 Questions)
+  // 2. Chemistry (45 Questions strictly from selected chapter pool)
   const chemBank = getUnifiedQuestionBank('Chemistry');
   const chemKeywords = customChapters?.chemistry && customChapters.chemistry.length > 0
     ? customChapters.chemistry
     : test.chemistryKeywords;
-  let chemPool = filterQuestionsByKeywords(chemBank, chemKeywords);
-  if (chemPool.length < 45) chemPool = chemBank;
-  const pickedChem = [...chemPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
-    ...q,
-    id: `sunday-${test.code.toLowerCase()}-chem-${idx + 1}-${q.id}`,
-    subject: 'Chemistry' as const,
-    questionText: formatMathAndFormulas(q.questionText),
-    options: q.options.map(o => formatMathAndFormulas(o)),
-    explanation: formatMathAndFormulas(q.explanation)
-  }));
+  const chemPool = filterQuestionsByKeywords(chemBank, chemKeywords);
+  const randomizedChem = [...chemPool].sort(() => 0.5 - Math.random());
+  const pickedChem: Question[] = [];
+  for (let idx = 0; idx < 45; idx++) {
+    const q = randomizedChem[idx % randomizedChem.length];
+    pickedChem.push({
+      ...q,
+      id: `sunday-${test.code.toLowerCase()}-chem-${idx + 1}-${q.id}`,
+      subject: 'Chemistry' as const,
+      questionText: formatMathAndFormulas(q.questionText),
+      options: q.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(q.explanation)
+    });
+  }
 
-  // 3. Biology (90 Questions: Botany 45 + Zoology 45)
+  // 3. Biology (90 Questions: 45 Botany + 45 Zoology strictly from selected pool)
   const bioBank = getUnifiedQuestionBank('Biology');
   const botKeywords = customChapters?.biology && customChapters.biology.length > 0
     ? customChapters.biology
@@ -897,33 +915,38 @@ export function generateSundayTestQuestions(
     ? customChapters.biology
     : test.zoologyKeywords;
 
-  let botPool = filterQuestionsByKeywords(bioBank, botKeywords);
-  if (botPool.length < 45) botPool = bioBank;
+  const botPool = filterQuestionsByKeywords(bioBank, botKeywords);
+  const zooPool = filterQuestionsByKeywords(bioBank, zooKeywords);
 
-  let zooPool = filterQuestionsByKeywords(bioBank, zooKeywords);
-  if (zooPool.length < 45) zooPool = bioBank;
+  const randomizedBot = [...botPool].sort(() => 0.5 - Math.random());
+  const pickedBot: Question[] = [];
+  for (let idx = 0; idx < 45; idx++) {
+    const q = randomizedBot[idx % randomizedBot.length];
+    pickedBot.push({
+      ...q,
+      id: `sunday-${test.code.toLowerCase()}-bot-${idx + 1}-${q.id}`,
+      subject: 'Biology' as const,
+      tags: [...(q.tags || []), 'Botany'],
+      questionText: formatMathAndFormulas(q.questionText),
+      options: q.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(q.explanation)
+    });
+  }
 
-  const pickedBot = [...botPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
-    ...q,
-    id: `sunday-${test.code.toLowerCase()}-bot-${idx + 1}-${q.id}`,
-    subject: 'Biology' as const,
-    tags: [...(q.tags || []), 'Botany'],
-    questionText: formatMathAndFormulas(q.questionText),
-    options: q.options.map(o => formatMathAndFormulas(o)),
-    explanation: formatMathAndFormulas(q.explanation)
-  }));
+  const randomizedZoo = [...zooPool].sort(() => 0.5 - Math.random());
+  const pickedZoo: Question[] = [];
+  for (let idx = 0; idx < 45; idx++) {
+    const q = randomizedZoo[idx % randomizedZoo.length];
+    pickedZoo.push({
+      ...q,
+      id: `sunday-${test.code.toLowerCase()}-zoo-${idx + 1}-${q.id}`,
+      subject: 'Biology' as const,
+      tags: [...(q.tags || []), 'Zoology'],
+      questionText: formatMathAndFormulas(q.questionText),
+      options: q.options.map(o => formatMathAndFormulas(o)),
+      explanation: formatMathAndFormulas(q.explanation)
+    });
+  }
 
-  const pickedZoo = [...zooPool].sort(() => 0.5 - Math.random()).slice(0, 45).map((q, idx) => ({
-    ...q,
-    id: `sunday-${test.code.toLowerCase()}-zoo-${idx + 1}-${q.id}`,
-    subject: 'Biology' as const,
-    tags: [...(q.tags || []), 'Zoology'],
-    questionText: formatMathAndFormulas(q.questionText),
-    options: q.options.map(o => formatMathAndFormulas(o)),
-    explanation: formatMathAndFormulas(q.explanation)
-  }));
-
-  const pickedBio = [...pickedBot, ...pickedZoo];
-
-  return [...pickedPhy, ...pickedChem, ...pickedBio];
+  return [...pickedPhy, ...pickedChem, ...pickedBot, ...pickedZoo];
 }

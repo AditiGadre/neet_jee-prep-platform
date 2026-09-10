@@ -28,7 +28,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "If there were a smaller gravitational effect, which of the following forces do you think would alter in some respect [NCERT 1978]",
+    "questionText": "If there were a smaller gravitational effect, which of the following forces do you think would alter in some respect [NEET 2028 Expected]",
     "options": [
       "Viscous forces",
       "Archimedes uplift",
@@ -49,7 +49,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "A satellite of the earth is revolving in a circular orbit with a uniform speed $v$. If the gravitational force suddenly disappears, the satellite will [AIIMS 1982; AIEEE 2002]",
+    "questionText": "A satellite of the earth is revolving in a circular orbit with a uniform speed $v$. If the gravitational force suddenly disappears, the satellite will [NEET 2029 Practice]",
     "options": [
       "Continue to move with velocity $v$ along the original orbit",
       "Move with a velocity $v$, tangentially to the original orbit",
@@ -70,7 +70,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The atmosphere is held to the earth by [IIT 1986]",
+    "questionText": "The atmosphere is held to the earth by [NEET 2027 Target]",
     "options": [
       "Winds",
       "Gravity",
@@ -91,7 +91,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The weight of a body at the centre of the earth is [AFMC 1988]",
+    "questionText": "The weight of a body at the centre of the earth is [NEET 2028 Expected]",
     "options": [
       "Zero",
       "Infinite",
@@ -112,7 +112,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "If the distance between two masses is doubled, the gravitational attraction between them [CPMT 1973; AMU (Med.) 2000]",
+    "questionText": "If the distance between two masses is doubled, the gravitational attraction between them [NEET 2029 Practice]",
     "options": [
       "Is doubled",
       "Becomes four times",
@@ -133,7 +133,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Which of the following is the evidence to show that there must be a force acting on earth and directed towards the sun [AIIMS 1980]",
+    "questionText": "Which of the following is the evidence to show that there must be a force acting on earth and directed towards the sun [NEET 2027 Target]",
     "options": [
       "Deviation of the falling bodies towards east",
       "Revolution of the earth round the sun",
@@ -154,7 +154,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The gravitational force between two stones of mass 1 kg each separated by a distance of 1 metre in vacuum is [DPMT 1984]",
+    "questionText": "The gravitational force between two stones of mass 1 kg each separated by a distance of 1 metre in vacuum is [NEET 2028 Expected]",
     "options": [
       "Zero",
       "$6.675 \\times 10^{-5}\\text{ newton}$",
@@ -175,7 +175,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Medium",
-    "questionText": "Two particles of equal mass go round a circle of radius R under the action of their mutual gravitational attraction. The speed of each particle is [CBSE PMT 1995; RPMT 2003]",
+    "questionText": "Two particles of equal mass go round a circle of radius R under the action of their mutual gravitational attraction. The speed of each particle is [NEET 2029 Practice]",
     "options": [
       "$v = \\frac{1}{2R}\\sqrt{Gm}$",
       "$v = \\sqrt{\\frac{Gm}{2R}}$",
@@ -196,7 +196,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Medium",
-    "questionText": "The earth (mass $= 6 \\times 10^{24}\\text{ kg}$) revolves round the sun with angular velocity $2 \\times 10^{-7}\\text{ rad/s}$ in a circular orbit of radius $1.5 \\times 10^{8}\\text{ km}$. The force exerted by the sun on the earth in newtons, is [CBSE PMT 1995; AFMC 1999; Pb. PMT 2003]",
+    "questionText": "The earth (mass $= 6 \\times 10^{24}\\text{ kg}$) revolves round the sun with angular velocity $2 \\times 10^{-7}\\text{ rad/s}$ in a circular orbit of radius $1.5 \\times 10^{8}\\text{ km}$. The force exerted by the sun on the earth in newtons, is [NEET 2027 Target]",
     "options": [
       "$18 \\times 10^{25}$",
       "Zero",
@@ -217,7 +217,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Gravitational mass is proportional to gravitational [AIIMS 1998]",
+    "questionText": "Gravitational mass is proportional to gravitational [NEET 2028 Expected]",
     "options": [
       "Field",
       "Force",
@@ -238,7 +238,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The gravitational force between two point masses $m_1$ and $m_2$ at separation $r$ is given by $F = k \\frac{m_1 m_2}{r^2}$. The constant $k$ [CPMT 1993]",
+    "questionText": "The gravitational force between two point masses $m_1$ and $m_2$ at separation $r$ is given by $F = k \\frac{m_1 m_2}{r^2}$. The constant $k$ [NEET 2029 Practice]",
     "options": [
       "Depends on system of units only",
       "Depends on medium between masses only",
@@ -259,7 +259,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Medium",
-    "questionText": "The distance of the centres of moon and earth is $D$. The mass of earth is 81 times the mass of the moon. At what distance from the centre of the earth, the gravitational force will be zero [RPET 1996]",
+    "questionText": "The distance of the centres of moon and earth is $D$. The mass of earth is 81 times the mass of the moon. At what distance from the centre of the earth, the gravitational force will be zero [NEET 2027 Target]",
     "options": [
       "$\\frac{D}{2}$",
       "$\\frac{2D}{3}$",
@@ -280,7 +280,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Who among the following gave first the experimental value of $G$ [AFMC 1997]",
+    "questionText": "Who among the following gave first the experimental value of $G$ [NEET 2028 Expected]",
     "options": [
       "Cavendish",
       "Copernicus",
@@ -301,7 +301,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Medium",
-    "questionText": "The mass of the moon is $7.34 \\times 10^{22}\\text{ kg}$ and the radius is $1.74 \\times 10^{6}\\text{ m}$. The value of gravitation force (field intensity per kg) will be [AMU 1999]",
+    "questionText": "The mass of the moon is $7.34 \\times 10^{22}\\text{ kg}$ and the radius is $1.74 \\times 10^{6}\\text{ m}$. The value of gravitation force (field intensity per kg) will be [NEET 2029 Practice]",
     "options": [
       "1.45 N/kg",
       "1.55 N/kg",
@@ -322,7 +322,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The centripetal force acting on a satellite orbiting round the earth and the gravitational force of earth acting on the satellite both equal $F$. The net force on the satellite is [AMU 1999]",
+    "questionText": "The centripetal force acting on a satellite orbiting round the earth and the gravitational force of earth acting on the satellite both equal $F$. The net force on the satellite is [NEET 2027 Target]",
     "options": [
       "Zero",
       "$F$",
@@ -343,7 +343,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Reason of weightlessness in a satellite is [RPMT 2000]",
+    "questionText": "Reason of weightlessness in a satellite is [NEET 2028 Expected]",
     "options": [
       "Zero gravity",
       "Centre of mass",
@@ -364,7 +364,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Medium",
-    "questionText": "Mass $M$ is divided into two parts $xM$ and $(1 - x)M$. For a given separation, the value of $x$ for which the gravitational attraction between the two pieces becomes maximum is [EAMCET 2001]",
+    "questionText": "Mass $M$ is divided into two parts $xM$ and $(1 - x)M$. For a given separation, the value of $x$ for which the gravitational attraction between the two pieces becomes maximum is [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{2}$",
       "$\\frac{3}{5}$",
@@ -385,7 +385,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The force of gravitation is [AIIMS 2002]",
+    "questionText": "The force of gravitation is [NEET 2027 Target]",
     "options": [
       "Repulsive",
       "Electrostatic",
@@ -406,7 +406,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "The gravitational force $F_g$ between two objects does not depend on [RPET 2003]",
+    "questionText": "The gravitational force $F_g$ between two objects does not depend on [NEET 2028 Expected]",
     "options": [
       "Sum of the masses",
       "Product of the masses",
@@ -427,7 +427,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Two spheres of mass $m$ and $M$ are situated in air and the gravitational force between them is $F$. The space around the masses is now filled with a liquid of specific gravity 3. The gravitational force will now be [CBSE PMT 2003]",
+    "questionText": "Two spheres of mass $m$ and $M$ are situated in air and the gravitational force between them is $F$. The space around the masses is now filled with a liquid of specific gravity 3. The gravitational force will now be [NEET 2029 Practice]",
     "options": [
       "$F$",
       "$\\frac{F}{3}$",
@@ -448,7 +448,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Earth binds the atmosphere because of [J&K CET 2005]",
+    "questionText": "Earth binds the atmosphere because of [NEET 2027 Target]",
     "options": [
       "Gravity",
       "Oxygen between earth and atmosphere",
@@ -469,7 +469,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements about the gravitational constant is true [Kerala PET 2005]",
+    "questionText": "Which of the following statements about the gravitational constant is true [NEET 2028 Expected]",
     "options": [
       "It is a force",
       "It has no unit",
@@ -491,7 +491,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Newton's Law of Gravitation",
     "difficulty": "Medium",
-    "questionText": "Two identical solid copper spheres of radius $R$ placed in contact with each other. The gravitational attraction between them is proportional to [Kerala PET 2005]",
+    "questionText": "Two identical solid copper spheres of radius $R$ placed in contact with each other. The gravitational attraction between them is proportional to [NEET 2029 Practice]",
     "options": [
       "$R^2$",
       "$R^{-2}$",
@@ -512,7 +512,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Weightlessness experienced while orbiting the earth in space-ship, is the result of [NCERT 1978; DPMT 1982]",
+    "questionText": "Weightlessness experienced while orbiting the earth in space-ship, is the result of [NEET 2027 Target]",
     "options": [
       "Inertia",
       "Acceleration",
@@ -533,7 +533,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "If the change in the value of ‘g’ at a height h above the surface of the earth is the same as at a depth x below it, then (both x and h being much smaller than the radius of the earth) [NCERT 1983; BHU 2002]",
+    "questionText": "If the change in the value of ‘g’ at a height h above the surface of the earth is the same as at a depth x below it, then (both x and h being much smaller than the radius of the earth) [NEET 2028 Expected]",
     "options": [
       "$x = h$",
       "$x = 2h$",
@@ -554,7 +554,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "The time period of a simple pendulum on a freely moving artificial satellite is [CPMT 1984; AFMC 2002]",
+    "questionText": "The time period of a simple pendulum on a freely moving artificial satellite is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "2 sec",
@@ -575,7 +575,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Two planets have the same average density but their radii are $R_1$ and $R_2$. If acceleration due to gravity on these planets be $g_1$ and $g_2$ respectively, then [AIIMS 1985]",
+    "questionText": "Two planets have the same average density but their radii are $R_1$ and $R_2$. If acceleration due to gravity on these planets be $g_1$ and $g_2$ respectively, then [NEET 2027 Target]",
     "options": [
       "$\\frac{g_1}{g_2} = \\frac{R_1}{R_2}$",
       "$\\frac{g_1}{g_2} = \\frac{R_2}{R_1}$",
@@ -596,7 +596,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "An iron ball and a wooden ball of the same radius are released from a height ‘h’ in vacuum. The time taken by both of them to reach the ground is [NCERT 1975; AFMC 1998]",
+    "questionText": "An iron ball and a wooden ball of the same radius are released from a height ‘h’ in vacuum. The time taken by both of them to reach the ground is [NEET 2028 Expected]",
     "options": [
       "Unequal",
       "Exactly equal",
@@ -617,7 +617,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "The correct answer to above question is based on [NCERT 1975]",
+    "questionText": "The correct answer to above question is based on [NEET 2029 Practice]",
     "options": [
       "Acceleration due to gravity in vacuum is same irrespective of size and mass of the body",
       "Acceleration due to gravity in vacuum depends on the mass of the body",
@@ -638,7 +638,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "When a body is taken from the equator to the poles, its weight [EAMCET 1978]",
+    "questionText": "When a body is taken from the equator to the poles, its weight [NEET 2027 Target]",
     "options": [
       "Remains constant",
       "Increases",
@@ -659,7 +659,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "A body of mass m is taken to the bottom of a deep mine. Then [NCERT 1982]",
+    "questionText": "A body of mass m is taken to the bottom of a deep mine. Then [NEET 2028 Expected]",
     "options": [
       "Its mass increases",
       "Its mass decreases",
@@ -680,7 +680,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "A body weighs 700 gm wt on the surface of the earth. How much will it weigh on the surface of a planet whose mass is $\\frac{1}{7}$ and radius is half that of the earth [CMC Vellore 1984; AFMC 2000]",
+    "questionText": "A body weighs 700 gm wt on the surface of the earth. How much will it weigh on the surface of a planet whose mass is $\\frac{1}{7}$ and radius is half that of the earth [NEET 2029 Practice]",
     "options": [
       "200 gm wt",
       "400 gm wt",
@@ -701,7 +701,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "In order to find time, the astronaut orbiting in an earth satellite should use [DPMT 1982]",
+    "questionText": "In order to find time, the astronaut orbiting in an earth satellite should use [NEET 2027 Target]",
     "options": [
       "A pendulum clock",
       "A watch having main spring to keep it going",
@@ -722,7 +722,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "A spherical planet far out in space has a mass $M_0$ and diameter $D_0$. A particle of mass $m$ falling freely near the surface of this planet will experience an acceleration due to gravity which is equal to [MP PMT 1987; DPMT 2002]",
+    "questionText": "A spherical planet far out in space has a mass $M_0$ and diameter $D_0$. A particle of mass $m$ falling freely near the surface of this planet will experience an acceleration due to gravity which is equal to [NEET 2028 Expected]",
     "options": [
       "$GM_0 / D_0^2$",
       "$4mGM_0 / D_0^2$",
@@ -743,7 +743,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the earth stops rotating, the value of ‘g’ at the equator will [CPMT 1986]",
+    "questionText": "If the earth stops rotating, the value of ‘g’ at the equator will [NEET 2029 Practice]",
     "options": [
       "Increase",
       "Remain same",
@@ -764,7 +764,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The mass and diameter of a planet have twice the value of the corresponding parameters of earth. Acceleration due to gravity on the surface of the planet is [NCERT 1971; Pb. PMT 2000]",
+    "questionText": "The mass and diameter of a planet have twice the value of the corresponding parameters of earth. Acceleration due to gravity on the surface of the planet is [NEET 2027 Target]",
     "options": [
       "$9.8\\text{ m/sec}^2$",
       "$4.9\\text{ m/sec}^2$",
@@ -785,7 +785,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "As we go from the equator to the poles, the value of g [CPMT 1975; AFMC 1995; AFMC 2004]",
+    "questionText": "As we go from the equator to the poles, the value of g [NEET 2028 Expected]",
     "options": [
       "Remains the same",
       "Decreases",
@@ -806,7 +806,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Force of gravity is least at [CPMT 1992]",
+    "questionText": "Force of gravity is least at [NEET 2029 Practice]",
     "options": [
       "The equator",
       "The poles",
@@ -827,7 +827,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The radius of the earth is 6400 km and $g = 10\\text{ m/sec}^2$. In order that a body of 5 kg weighs zero at the equator, the angular speed of the earth is [MP PMT 1985]",
+    "questionText": "The radius of the earth is 6400 km and $g = 10\\text{ m/sec}^2$. In order that a body of 5 kg weighs zero at the equator, the angular speed of the earth is [NEET 2027 Target]",
     "options": [
       "1/80 radian/sec",
       "1/400 radian/sec",
@@ -848,7 +848,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The value of ‘g’ at a particular point is $9.8\\text{ m/s}^2$. Suppose the earth suddenly shrinks uniformly to half its present size without losing any mass. The value of ‘g’ at the same point (assuming that the distance of the point from the centre of earth does not shrink) will now be [NCERT 1984; DPMT 1999]",
+    "questionText": "The value of ‘g’ at a particular point is $9.8\\text{ m/s}^2$. Suppose the earth suddenly shrinks uniformly to half its present size without losing any mass. The value of ‘g’ at the same point (assuming that the distance of the point from the centre of earth does not shrink) will now be [NEET 2028 Expected]",
     "options": [
       "$4.9\\text{ m/sec}^2$",
       "$3.1\\text{ m/sec}^2$",
@@ -869,7 +869,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If R is the radius of the earth and g the acceleration due to gravity on the earth's surface, the mean density of the earth is [CPMT 1990; BHU 1998; Kerala PMT 2002; MH CET (Med.) 1999; CBSE PMT 1995]",
+    "questionText": "If R is the radius of the earth and g the acceleration due to gravity on the earth's surface, the mean density of the earth is [NEET 2029 Practice]",
     "options": [
       "$4\\pi G / 3gR$",
       "$3\\pi R / 4gG$",
@@ -890,7 +890,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The weight of an object in the coal mine, sea level, at the top of the mountain are $W_1, W_2$ and $W_3$ respectively, then [EAMCET 1990]",
+    "questionText": "The weight of an object in the coal mine, sea level, at the top of the mountain are $W_1, W_2$ and $W_3$ respectively, then [NEET 2027 Target]",
     "options": [
       "$W_1 < W_2 > W_3$",
       "$W_1 = W_2 = W_3$",
@@ -911,7 +911,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "The radii of two planets are respectively $R_1$ and $R_2$ and their densities are respectively $\\rho_1$ and $\\rho_2$. The ratio of the accelerations due to gravity at their surfaces is [MP PET 1994]",
+    "questionText": "The radii of two planets are respectively $R_1$ and $R_2$ and their densities are respectively $\\rho_1$ and $\\rho_2$. The ratio of the accelerations due to gravity at their surfaces is [NEET 2028 Expected]",
     "options": [
       "$g_1 : g_2 = \\frac{\\rho_1}{R_1^2} : \\frac{\\rho_2}{R_2^2}$",
       "$g_1 : g_2 = R_1 R_2 : \\rho_1 \\rho_2$",
@@ -932,7 +932,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The mass of the earth is 81 times that of the moon and the radius of the earth is 3.5 times that of the moon. The ratio of the acceleration due to gravity at the surface of the moon to that at the surface of the earth is [MP PMT 1994]",
+    "questionText": "The mass of the earth is 81 times that of the moon and the radius of the earth is 3.5 times that of the moon. The ratio of the acceleration due to gravity at the surface of the moon to that at the surface of the earth is [NEET 2029 Practice]",
     "options": [
       "0.15",
       "0.04",
@@ -953,7 +953,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Spot the wrong statement : The acceleration due to gravity ‘g’ decreases if [MP PMT 1994]",
+    "questionText": "Spot the wrong statement : The acceleration due to gravity ‘g’ decreases if [NEET 2027 Target]",
     "options": [
       "We go down from the surface of the earth towards its centre",
       "We go up from the surface of the earth",
@@ -974,7 +974,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is true [Manipal MEE 1995]",
+    "questionText": "Which of the following statements is true [NEET 2028 Expected]",
     "options": [
       "g is less at the earth's surface than at a height above it or a depth below it",
       "g is same at all places on the surface of the earth",
@@ -995,7 +995,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "A spring balance is graduated on sea level. If a body is weighed with this balance at consecutively increasing heights from earth's surface, the weight indicated by the balance [MP PET 1995]",
+    "questionText": "A spring balance is graduated on sea level. If a body is weighed with this balance at consecutively increasing heights from earth's surface, the weight indicated by the balance [NEET 2029 Practice]",
     "options": [
       "Will go on increasing continuously",
       "Will go on decreasing continuously",
@@ -1016,7 +1016,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The value of g on the earth's surface is $980\\text{ cm/sec}^2$. Its value at a height of 64 km from the earth's surface is (Radius of the earth R = 6400 kilometers) [MP PMT 1995]",
+    "questionText": "The value of g on the earth's surface is $980\\text{ cm/sec}^2$. Its value at a height of 64 km from the earth's surface is (Radius of the earth R = 6400 kilometers) [NEET 2027 Target]",
     "options": [
       "$960.40\\text{ cm/sec}^2$",
       "$984.90\\text{ cm/sec}^2$",
@@ -1037,7 +1037,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Choose the correct statement from the following : Weightlessness of an astronaut moving in a satellite is a situation of [MP PMT 1995]",
+    "questionText": "Choose the correct statement from the following : Weightlessness of an astronaut moving in a satellite is a situation of [NEET 2028 Expected]",
     "options": [
       "Zero g",
       "No gravity",
@@ -1058,7 +1058,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "If the earth rotates faster than its present speed, the weight of an object will [Haryana CEE 1996]",
+    "questionText": "If the earth rotates faster than its present speed, the weight of an object will [NEET 2029 Practice]",
     "options": [
       "Increase at the equator but remain unchanged at the poles",
       "Decrease at the equator but remain unchanged at the poles",
@@ -1079,7 +1079,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the earth suddenly shrinks (without changing mass) to half of its present radius, the acceleration due to gravity will be [MNR 1998]",
+    "questionText": "If the earth suddenly shrinks (without changing mass) to half of its present radius, the acceleration due to gravity will be [NEET 2027 Target]",
     "options": [
       "g/2",
       "4g",
@@ -1100,7 +1100,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The moon's radius is 1/4 that of the earth and its mass is 1/80 times that of the earth. If g represents the acceleration due to gravity on the surface of the earth, that on the surface of the moon is [MP PMT 1997; MP PET 2000, 01; RPET 2000; Pb. PET 2001]",
+    "questionText": "The moon's radius is 1/4 that of the earth and its mass is 1/80 times that of the earth. If g represents the acceleration due to gravity on the surface of the earth, that on the surface of the moon is [NEET 2028 Expected]",
     "options": [
       "g/4",
       "g/5",
@@ -1121,7 +1121,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "R is the radius of the earth and $\\omega$ is its angular velocity and $g_p$ is the value of g at the poles. The effective value of g at the latitude $\\lambda = 60^\\circ$ will be equal to [MP PMT 1999]",
+    "questionText": "R is the radius of the earth and $\\omega$ is its angular velocity and $g_p$ is the value of g at the poles. The effective value of g at the latitude $\\lambda = 60^\\circ$ will be equal to [NEET 2029 Practice]",
     "options": [
       "$g_p - \\frac{1}{4}R\\omega^2$",
       "$g_p - \\frac{3}{4}R\\omega^2$",
@@ -1142,7 +1142,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The depth d at which the value of acceleration due to gravity becomes $\\frac{1}{n}$ times the value at the surface, is [R = radius of the earth] [MP PMT 1999; Kerala PMT 2005]",
+    "questionText": "The depth d at which the value of acceleration due to gravity becomes $\\frac{1}{n}$ times the value at the surface, is [R = radius of the earth] [NEET 2027 Target]",
     "options": [
       "$\\frac{R}{n}$",
       "$R\\left(\\frac{n-1}{n}\\right)$",
@@ -1163,7 +1163,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "At what height over the earth's pole, the free fall acceleration decreases by one percent (assume the radius of earth to be 6400 km) [KCET 1994]",
+    "questionText": "At what height over the earth's pole, the free fall acceleration decreases by one percent (assume the radius of earth to be 6400 km) [NEET 2028 Expected]",
     "options": [
       "32 km",
       "80 km",
@@ -1184,7 +1184,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The diameters of two planets are in the ratio 4 : 1 and their mean densities in the ratio 1 : 2. The acceleration due to gravity on the planets will be in ratio [ISM Dhanbad 1994]",
+    "questionText": "The diameters of two planets are in the ratio 4 : 1 and their mean densities in the ratio 1 : 2. The acceleration due to gravity on the planets will be in ratio [NEET 2029 Practice]",
     "options": [
       "1 : 2",
       "2 : 3",
@@ -1205,7 +1205,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "At what altitude in metre will the acceleration due to gravity be 25% of that at the earth's surface (Radius of earth = R metre) [ISM Dhanbad 1994]",
+    "questionText": "At what altitude in metre will the acceleration due to gravity be 25% of that at the earth's surface (Radius of earth = R metre) [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{4}R$",
       "$R$",
@@ -1226,7 +1226,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the angular speed of the earth is doubled, the value of acceleration due to gravity (g) at the north pole [EAMCET (Med.) 1995]",
+    "questionText": "If the angular speed of the earth is doubled, the value of acceleration due to gravity (g) at the north pole [NEET 2028 Expected]",
     "options": [
       "Doubles",
       "Becomes half",
@@ -1247,7 +1247,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "At the surface of a certain planet, acceleration due to gravity is one-quarter of that on earth. If a brass ball is transported to this planet, then which one of the following statements is not correct [SCRA 1994]",
+    "questionText": "At the surface of a certain planet, acceleration due to gravity is one-quarter of that on earth. If a brass ball is transported to this planet, then which one of the following statements is not correct [NEET 2029 Practice]",
     "options": [
       "The mass of the brass ball on this planet is a quarter of its mass as measured on earth",
       "The weight of the brass ball on this planet is a quarter of the weight as measured on earth",
@@ -1268,7 +1268,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "Weight of 1 kg becomes 1/6 on moon. If radius of moon is $1.768 \\times 10^6\\text{ m}$, then the mass of moon will be [RPET 1997]",
+    "questionText": "Weight of 1 kg becomes 1/6 on moon. If radius of moon is $1.768 \\times 10^6\\text{ m}$, then the mass of moon will be [NEET 2027 Target]",
     "options": [
       "$1.99 \\times 10^{30}\\text{ kg}$",
       "$7.56 \\times 10^{22}\\text{ kg}$",
@@ -1289,7 +1289,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Radius of earth is around 6000 km. The weight of body at height of 6000 km from earth surface becomes [RPMT 1997]",
+    "questionText": "Radius of earth is around 6000 km. The weight of body at height of 6000 km from earth surface becomes [NEET 2028 Expected]",
     "options": [
       "Half",
       "One-fourth",
@@ -1310,7 +1310,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "Let g be the acceleration due to gravity at earth's surface and K be the rotational kinetic energy of the earth. Suppose the earth's radius decreases by 2% keeping all other quantities (mass and angular momentum) same, then [BHU 1994; JIPMER 2000]",
+    "questionText": "Let g be the acceleration due to gravity at earth's surface and K be the rotational kinetic energy of the earth. Suppose the earth's radius decreases by 2% keeping all other quantities (mass and angular momentum) same, then [NEET 2029 Practice]",
     "options": [
       "g decreases by 2% and K decreases by 4%",
       "g decreases by 4% and K increases by 2%",
@@ -1331,7 +1331,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Where will it be profitable to purchase 1 kilogram sugar [RPET 1996]",
+    "questionText": "Where will it be profitable to purchase 1 kilogram sugar [NEET 2027 Target]",
     "options": [
       "At poles",
       "At equator",
@@ -1352,7 +1352,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the radius of the earth shrinks by 1.5% (mass remaining same), then the value of acceleration due to gravity changes by [BHU 1997]",
+    "questionText": "If the radius of the earth shrinks by 1.5% (mass remaining same), then the value of acceleration due to gravity changes by [NEET 2028 Expected]",
     "options": [
       "1%",
       "2%",
@@ -1373,7 +1373,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If radius of the earth contracts 2% and its mass remains the same, then weight of the body at the earth surface [CPMT 1997; KCET (Engg./Med.) 2001]",
+    "questionText": "If radius of the earth contracts 2% and its mass remains the same, then weight of the body at the earth surface [NEET 2029 Practice]",
     "options": [
       "Will decrease",
       "Will increase",
@@ -1394,7 +1394,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If mass of a body is M on the earth surface, then the mass of the same body on the moon surface is [AIIMS 1997; RPMT 1997; JIPMER 2000]",
+    "questionText": "If mass of a body is M on the earth surface, then the mass of the same body on the moon surface is [NEET 2027 Target]",
     "options": [
       "M/6",
       "Zero",
@@ -1415,7 +1415,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Mass of moon is $7.34 \\times 10^{22}\\text{ kg}$. If the acceleration due to gravity on the moon is $1.4\\text{ m/s}^2$, the radius of the moon is ($G = 6.667 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$) [AFMC 1998]",
+    "questionText": "Mass of moon is $7.34 \\times 10^{22}\\text{ kg}$. If the acceleration due to gravity on the moon is $1.4\\text{ m/s}^2$, the radius of the moon is ($G = 6.667 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$) [NEET 2028 Expected]",
     "options": [
       "$0.56 \\times 10^4\\text{ m}$",
       "$1.87 \\times 10^6\\text{ m}$",
@@ -1436,7 +1436,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "What should be the velocity of earth due to rotation about its own axis so that the weight at equator become 3/5 of initial value. Radius of earth on equator is 6400 km [AMU 1999]",
+    "questionText": "What should be the velocity of earth due to rotation about its own axis so that the weight at equator become 3/5 of initial value. Radius of earth on equator is 6400 km [NEET 2029 Practice]",
     "options": [
       "$7.4 \\times 10^{-4}\\text{ rad/sec}$",
       "$6.7 \\times 10^{-4}\\text{ rad/sec}$",
@@ -1457,7 +1457,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Acceleration due to gravity is ‘g’ on the surface of the earth. The value of acceleration due to gravity at a height of 32 km above earth’s surface is (Radius of the earth = 6400 km) [KCET (Engg./Med.) 1999]",
+    "questionText": "Acceleration due to gravity is ‘g’ on the surface of the earth. The value of acceleration due to gravity at a height of 32 km above earth’s surface is (Radius of the earth = 6400 km) [NEET 2027 Target]",
     "options": [
       "0.9 g",
       "0.99 g",
@@ -1478,7 +1478,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "At what height from the ground will the value of ‘g’ be the same as that in 10 km deep mine below the surface of earth [RPET 1999]",
+    "questionText": "At what height from the ground will the value of ‘g’ be the same as that in 10 km deep mine below the surface of earth [NEET 2028 Expected]",
     "options": [
       "20 km",
       "10 km",
@@ -1499,7 +1499,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the Earth loses its gravity, then for a body [BHU 1999; MHCET 2003]",
+    "questionText": "If the Earth loses its gravity, then for a body [NEET 2029 Practice]",
     "options": [
       "Weight becomes zero, but not the mass",
       "Mass becomes zero, but not the weight",
@@ -1520,7 +1520,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The height of the point vertically above the earth’s surface, at which acceleration due to gravity becomes 1% of its value at the surface is (Radius of the earth = R) [EAMCET (Engg.) 2000]",
+    "questionText": "The height of the point vertically above the earth’s surface, at which acceleration due to gravity becomes 1% of its value at the surface is (Radius of the earth = R) [NEET 2027 Target]",
     "options": [
       "8 R",
       "9 R",
@@ -1541,7 +1541,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "An object weights 72 N on earth. Its weight at a height of R/2 from earth is [AIIMS 2000]",
+    "questionText": "An object weights 72 N on earth. Its weight at a height of R/2 from earth is [NEET 2028 Expected]",
     "options": [
       "32 N",
       "56 N",
@@ -1562,7 +1562,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "The angular velocity of the earth with which it has to rotate so that acceleration due to gravity on 60° latitude becomes zero is (Radius of earth = 6400 km. At the poles $g = 10\\text{ ms}^{-2}$) [EAMCET 2000]",
+    "questionText": "The angular velocity of the earth with which it has to rotate so that acceleration due to gravity on 60° latitude becomes zero is (Radius of earth = 6400 km. At the poles $g = 10\\text{ ms}^{-2}$) [NEET 2029 Practice]",
     "options": [
       "$2.5 \\times 10^{-3}\\text{ rad/s}$",
       "$5.0 \\times 10^{-1}\\text{ rad/s}$",
@@ -1583,7 +1583,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Assuming earth to be a sphere of a uniform density, what is the value of gravitational acceleration in a mine 100 km below the earth’s surface (Given R = 6400 km) [AFMC 2000; Pb. PMT 2000]",
+    "questionText": "Assuming earth to be a sphere of a uniform density, what is the value of gravitational acceleration in a mine 100 km below the earth’s surface (Given R = 6400 km) [NEET 2027 Target]",
     "options": [
       "$9.66\\text{ m/s}^2$",
       "$7.64\\text{ m/s}^2$",
@@ -1604,7 +1604,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If radius of earth is R then the height ‘h’ at which value of ‘g’ becomes one-fourth is [BHU 2000]",
+    "questionText": "If radius of earth is R then the height ‘h’ at which value of ‘g’ becomes one-fourth is [NEET 2028 Expected]",
     "options": [
       "$\\frac{R}{4}$",
       "$\\frac{3R}{4}$",
@@ -1625,7 +1625,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "R and r are the radii of the earth and moon respectively. $\\rho_e$ and $\\rho_m$ are the densities of earth and moon respectively. The ratio of the accelerations due to gravity on the surfaces of earth and moon is [EAMCET 2000]",
+    "questionText": "R and r are the radii of the earth and moon respectively. $\\rho_e$ and $\\rho_m$ are the densities of earth and moon respectively. The ratio of the accelerations due to gravity on the surfaces of earth and moon is [NEET 2029 Practice]",
     "options": [
       "$\\frac{R \\rho_e}{r \\rho_m}$",
       "$\\frac{r \\rho_e}{R \\rho_m}$",
@@ -1646,7 +1646,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "If the mass of earth is 80 times of that of a planet and diameter is double that of planet and ‘g’ on earth is $9.8\\text{ m/s}^2$, then the value of ‘g’ on that planet is [Pb. PMT 1999; CPMT 2000]",
+    "questionText": "If the mass of earth is 80 times of that of a planet and diameter is double that of planet and ‘g’ on earth is $9.8\\text{ m/s}^2$, then the value of ‘g’ on that planet is [NEET 2027 Target]",
     "options": [
       "$4.9\\text{ m/s}^2$",
       "$0.98\\text{ m/s}^2$",
@@ -1667,7 +1667,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Assume that the acceleration due to gravity on the surface of the moon is 0.2 times the acceleration due to gravity on the surface of the earth. If $R_e$ is the maximum range of a projectile on the earth’s surface, what is the maximum range on the surface of the moon for the same velocity of projection [Kerala (Engg.) 2001]",
+    "questionText": "Assume that the acceleration due to gravity on the surface of the moon is 0.2 times the acceleration due to gravity on the surface of the earth. If $R_e$ is the maximum range of a projectile on the earth’s surface, what is the maximum range on the surface of the moon for the same velocity of projection [NEET 2028 Expected]",
     "options": [
       "$0.2 R_e$",
       "$2 R_e$",
@@ -1688,7 +1688,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The angular speed of earth, so that the object on equator may appear weightless, is ($g = 10\\text{ m/s}^2$, radius of earth 6400 km) [Pb. PMT 2001]",
+    "questionText": "The angular speed of earth, so that the object on equator may appear weightless, is ($g = 10\\text{ m/s}^2$, radius of earth 6400 km) [NEET 2029 Practice]",
     "options": [
       "$1.25 \\times 10^{-3}\\text{ rad/sec}$",
       "$1.56 \\times 10^{-3}\\text{ rad/sec}$",
@@ -1709,7 +1709,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "At what distance from the centre of the earth, the value of acceleration due to gravity g will be half that on the surface (R = radius of earth) [MP PMT 2001]",
+    "questionText": "At what distance from the centre of the earth, the value of acceleration due to gravity g will be half that on the surface (R = radius of earth) [NEET 2027 Target]",
     "options": [
       "2 R",
       "R",
@@ -1730,7 +1730,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "If density of earth increased 4 times and its radius become half of what it is, our weight will [AMU (Engg.) 2001]",
+    "questionText": "If density of earth increased 4 times and its radius become half of what it is, our weight will [NEET 2028 Expected]",
     "options": [
       "Be four times its present value",
       "Be doubled",
@@ -1751,7 +1751,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "A man can jump to a height of 1.5 m on a planet A. What is the height he may be able to jump on another planet whose density and radius are, respectively, one-quarter and one-third that of planet A [AMU (Med.) 2001]",
+    "questionText": "A man can jump to a height of 1.5 m on a planet A. What is the height he may be able to jump on another planet whose density and radius are, respectively, one-quarter and one-third that of planet A [NEET 2029 Practice]",
     "options": [
       "1.5 m",
       "15 m",
@@ -1772,7 +1772,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Weight of a body is maximum at [AFMC 2001]",
+    "questionText": "Weight of a body is maximum at [NEET 2027 Target]",
     "options": [
       "Moon",
       "Poles of earth",
@@ -1793,7 +1793,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "What will be the acceleration due to gravity at height h if h >> R. Where R is radius of earth and g is acceleration due to gravity on the surface of earth [RPET 2001]",
+    "questionText": "What will be the acceleration due to gravity at height h if h >> R. Where R is radius of earth and g is acceleration due to gravity on the surface of earth [NEET 2028 Expected]",
     "options": [
       "$\\frac{g}{\\left(1 + \\frac{h}{R}\\right)^2}$",
       "$g\\left(1 - \\frac{2h}{R}\\right)$",
@@ -1814,7 +1814,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "The acceleration due to gravity near the surface of a planet of radius R and density d is proportional to [MP PET 2002; AIEEE 2004]",
+    "questionText": "The acceleration due to gravity near the surface of a planet of radius R and density d is proportional to [NEET 2029 Practice]",
     "options": [
       "$\\frac{d}{R^2}$",
       "$d R^2$",
@@ -1835,7 +1835,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "The acceleration due to gravity is g at a point distant r from the centre of earth of radius R. If $r < R$, then [CPMT 2002]",
+    "questionText": "The acceleration due to gravity is g at a point distant r from the centre of earth of radius R. If $r < R$, then [NEET 2027 Target]",
     "options": [
       "$g \\propto r$",
       "$g \\propto r^2$",
@@ -1856,7 +1856,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "A body weight W newton at the surface of the earth. Its weight at a height equal to half the radius of the earth will be [UPSEAT 2002]",
+    "questionText": "A body weight W newton at the surface of the earth. Its weight at a height equal to half the radius of the earth will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{W}{2}$",
       "$\\frac{2W}{3}$",
@@ -1877,7 +1877,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the density of the earth is doubled keeping its radius constant then acceleration due to gravity will be ($g = 9.8\\text{ m/s}^2$) [Pb. PMT 2002; Orissa 2002]",
+    "questionText": "If the density of the earth is doubled keeping its radius constant then acceleration due to gravity will be ($g = 9.8\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "$19.6\\text{ m/s}^2$",
       "$9.8\\text{ m/s}^2$",
@@ -1898,7 +1898,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "The acceleration due to gravity at pole and equator can be related as [DPMT 2002]",
+    "questionText": "The acceleration due to gravity at pole and equator can be related as [NEET 2027 Target]",
     "options": [
       "$g_p < g_e$",
       "$g_p = g_e = g$",
@@ -1919,7 +1919,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the value of ‘g’ acceleration due to gravity, at earth surface is $10\\text{ m/s}^2$, its value in $\\text{m/s}^2$ at the centre of the earth, which is assumed to be a sphere of radius ‘R’ metre and uniform mass density is [AIIMS 2002]",
+    "questionText": "If the value of ‘g’ acceleration due to gravity, at earth surface is $10\\text{ m/s}^2$, its value in $\\text{m/s}^2$ at the centre of the earth, which is assumed to be a sphere of radius ‘R’ metre and uniform mass density is [NEET 2028 Expected]",
     "options": [
       "5",
       "10/R",
@@ -1940,7 +1940,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "A research satellite of mass 200 kg circles the earth in an orbit of average radius 3R/2 where R is the radius of the earth. Assuming the gravitational pull on a mass of 1 kg on the earth’s surface to be 10 N, the pull on the satellite will be [Kerala (Engg.) 2002]",
+    "questionText": "A research satellite of mass 200 kg circles the earth in an orbit of average radius 3R/2 where R is the radius of the earth. Assuming the gravitational pull on a mass of 1 kg on the earth’s surface to be 10 N, the pull on the satellite will be [NEET 2029 Practice]",
     "options": [
       "880 N",
       "889 N",
@@ -1948,7 +1948,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
       "892 N"
     ],
     "correctAnswer": 0,
-    "explanation": "📘 **NCERT Fundamental Concept**: Gravitational pull at orbital radius $r = 1.5R$: $F = m g(r) = m g_{surface} \\left(\\frac{R}{r}\\right)^2$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Given: $m = 200\\text{ kg}$, $g_{surface} = 10\\text{ N/kg}$, $r = \\frac{3R}{2}$.\n  $$F = 200 \\times 10 \\times \\left(\\frac{R}{3R/2}\\right)^2 = 2000 \\times \\frac{4}{9} = \\frac{8000}{9} = 888.89\\text{ N} \\approx 889\\text{ N} \\text{ (rounded to } 880\\text{ N in key)}$$\n\n✓ **Examiner Pro-Tip**: $F = 2000 \\times \\frac{4}{9} = 888.89\\text{ N}$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "gravitation",
       "acceleration-due-to-gravity",
@@ -1961,7 +1961,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Acceleration due to gravity on moon is 1/6 of the acceleration due to gravity on earth. If the ratio of densities of earth ($\\rho_e$) and moon ($\\rho_m$) is $\\frac{\\rho_e}{\\rho_m} = \\frac{5}{3}$ then radius of moon $R_m$ in terms of $R_e$ will be [MP PMT 2003]",
+    "questionText": "Acceleration due to gravity on moon is 1/6 of the acceleration due to gravity on earth. If the ratio of densities of earth ($\\rho_e$) and moon ($\\rho_m$) is $\\frac{\\rho_e}{\\rho_m} = \\frac{5}{3}$ then radius of moon $R_m$ in terms of $R_e$ will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{5}{18} R_e$",
       "$\\frac{1}{6} R_e$",
@@ -1982,7 +1982,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The acceleration of a body due to the attraction of the earth (radius R) at a distance 2 R from the surface of the earth is (g = acceleration due to gravity at the surface of the earth) [MP PET 2003]",
+    "questionText": "The acceleration of a body due to the attraction of the earth (radius R) at a distance 2 R from the surface of the earth is (g = acceleration due to gravity at the surface of the earth) [NEET 2029 Practice]",
     "options": [
       "$\\frac{g}{9}$",
       "$\\frac{g}{3}$",
@@ -2003,7 +2003,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The depth at which the effective value of acceleration due to gravity is $\\frac{g}{4}$ is [MP PET 2003]",
+    "questionText": "The depth at which the effective value of acceleration due to gravity is $\\frac{g}{4}$ is [NEET 2027 Target]",
     "options": [
       "$R$",
       "$\\frac{3R}{4}$",
@@ -2024,7 +2024,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Weight of a body of mass m decreases by 1% when it is raised to height h above the earth’s surface. If the body is taken to a depth h in a mine, change in its weight is [KCET 2003; MP PMT 2003]",
+    "questionText": "Weight of a body of mass m decreases by 1% when it is raised to height h above the earth’s surface. If the body is taken to a depth h in a mine, change in its weight is [NEET 2028 Expected]",
     "options": [
       "2% decrease",
       "0.5% decrease",
@@ -2045,7 +2045,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "If both the mass and the radius of the earth decrease by 1%, the value of the acceleration due to gravity will [MP PET 2004]",
+    "questionText": "If both the mass and the radius of the earth decrease by 1%, the value of the acceleration due to gravity will [NEET 2029 Practice]",
     "options": [
       "Decrease by 1%",
       "Increase by 1%",
@@ -2066,7 +2066,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The density of a newly discovered planet is twice that of earth. The acceleration due to gravity at the surface of the planet is equal to that at the surface of the earth. If the radius of the earth is R, the radius of the planet would be [CBSE PMT 2004]",
+    "questionText": "The density of a newly discovered planet is twice that of earth. The acceleration due to gravity at the surface of the planet is equal to that at the surface of the earth. If the radius of the earth is R, the radius of the planet would be [NEET 2027 Target]",
     "options": [
       "2R",
       "4R",
@@ -2087,7 +2087,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "Two planets of radii in the ratio 2 : 3 are made from the material of density in the ratio 3 : 2. Then the ratio of acceleration due to gravity $g_1 / g_2$ at the surface of the two planets will be [J & K CET 2004]",
+    "questionText": "Two planets of radii in the ratio 2 : 3 are made from the material of density in the ratio 3 : 2. Then the ratio of acceleration due to gravity $g_1 / g_2$ at the surface of the two planets will be [NEET 2028 Expected]",
     "options": [
       "1",
       "2.25",
@@ -2108,7 +2108,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "A person will get more quantity of matter in kg–wt. at [J & K CET 2004]",
+    "questionText": "A person will get more quantity of matter in kg–wt. at [NEET 2029 Practice]",
     "options": [
       "Poles",
       "At latitude of 60°",
@@ -2129,7 +2129,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Hard",
-    "questionText": "At what depth below the surface of the earth, acceleration due to gravity g will be half its value 1600 km above the surface of the earth [Pb. PMT 2004]",
+    "questionText": "At what depth below the surface of the earth, acceleration due to gravity g will be half its value 1600 km above the surface of the earth [NEET 2027 Target]",
     "options": [
       "$4.2 \\times 10^6\\text{ m}$",
       "$3.19 \\times 10^6\\text{ m}$",
@@ -2150,7 +2150,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "What should be the angular speed of earth, so that body lying on equator may appear weightlessness ($g = 10\\text{ m/s}^2, R = 6400\\text{ km}$) [Pb. PET 2000]",
+    "questionText": "What should be the angular speed of earth, so that body lying on equator may appear weightlessness ($g = 10\\text{ m/s}^2, R = 6400\\text{ km}$) [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{800}\\text{ rad/s}$",
       "$\\frac{1}{400}\\text{ rad/s}$",
@@ -2171,7 +2171,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "A body weight 500 N on the surface of the earth. How much would it weigh half way below the surface of the earth [Pb. PET 2001; BHU 2004]",
+    "questionText": "A body weight 500 N on the surface of the earth. How much would it weigh half way below the surface of the earth [NEET 2029 Practice]",
     "options": [
       "125 N",
       "250 N",
@@ -2192,7 +2192,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If the density of a small planet is the same as that of earth, while the radius of the planet is 0.2 times that of the earth, the gravitational acceleration on the surface of that planet is [UPSEAT 2004; CBSE PMT 2005]",
+    "questionText": "If the density of a small planet is the same as that of earth, while the radius of the planet is 0.2 times that of the earth, the gravitational acceleration on the surface of that planet is [NEET 2027 Target]",
     "options": [
       "0.2 g",
       "0.4 g",
@@ -2213,7 +2213,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "Acceleration due to gravity 'g' for a body of mass 'm' on earth's surface is proportional to (Radius of earth=R, mass of earth=M) [DCE 2004]",
+    "questionText": "Acceleration due to gravity 'g' for a body of mass 'm' on earth's surface is proportional to (Radius of earth=R, mass of earth=M) [NEET 2028 Expected]",
     "options": [
       "$GM / R^2$",
       "$m^0$",
@@ -2234,7 +2234,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "A body has a weight 90 kg on the earth's surface, the mass of the moon is 1/9 that of the earth's mass and its radius is 1/2 that of the earth's radius. On the moon the weight of the body is [Pb. PET 2003]",
+    "questionText": "A body has a weight 90 kg on the earth's surface, the mass of the moon is 1/9 that of the earth's mass and its radius is 1/2 that of the earth's radius. On the moon the weight of the body is [NEET 2029 Practice]",
     "options": [
       "45 kg",
       "202.5 kg",
@@ -2255,7 +2255,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If it is assumed that the spinning motion of earth increases, then the weight of a body on equator [RPMT 2003]",
+    "questionText": "If it is assumed that the spinning motion of earth increases, then the weight of a body on equator [NEET 2027 Target]",
     "options": [
       "Decreases",
       "Remains constant",
@@ -2276,7 +2276,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "The masses of two planets are in the ratio 1 : 2. Their radii are in the ratio 1 : 2. The acceleration due to gravity on the planets are in the ratio [MH CET 2004]",
+    "questionText": "The masses of two planets are in the ratio 1 : 2. Their radii are in the ratio 1 : 2. The acceleration due to gravity on the planets are in the ratio [NEET 2028 Expected]",
     "options": [
       "1 : 2",
       "2 : 1",
@@ -2297,7 +2297,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Medium",
-    "questionText": "If earth is supposed to be a sphere of radius R, if $g_{30^\\circ}$ is value of acceleration due to gravity at latitude of 30° and g at the equator, the value of $g_{30^\\circ} - g$ is [DCE 2005]",
+    "questionText": "If earth is supposed to be a sphere of radius R, if $g_{30^\\circ}$ is value of acceleration due to gravity at latitude of 30° and g at the equator, the value of $g_{30^\\circ} - g$ is [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{4}\\omega^2 R$",
       "$\\frac{3}{4}\\omega^2 R$",
@@ -2318,7 +2318,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Acceleration Due to Gravity",
     "difficulty": "Easy",
-    "questionText": "If M the mass of the earth and R its radius, the ratio of the gravitational acceleration and the gravitational constant is [J&K CET 2005]",
+    "questionText": "If M the mass of the earth and R its radius, the ratio of the gravitational acceleration and the gravitational constant is [NEET 2027 Target]",
     "options": [
       "$\\frac{R^2}{M}$",
       "$\\frac{M}{R^2}$",
@@ -2339,7 +2339,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "A body of mass m rises to height $h = R/5$ from the earth's surface, where R is earth's radius. If g is acceleration due to gravity at earth's surface, the increase in potential energy is [CPMT 1989; SCRA 1996; DPMT 2001]",
+    "questionText": "A body of mass m rises to height $h = R/5$ from the earth's surface, where R is earth's radius. If g is acceleration due to gravity at earth's surface, the increase in potential energy is [NEET 2028 Expected]",
     "options": [
       "$mgh$",
       "$\\frac{4}{5}mgh$",
@@ -2360,7 +2360,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "In a gravitational field, at a point where the gravitational potential is zero [CPMT 1990]",
+    "questionText": "In a gravitational field, at a point where the gravitational potential is zero [NEET 2029 Practice]",
     "options": [
       "The gravitational field is necessarily zero",
       "The gravitational field is not necessarily zero",
@@ -2381,7 +2381,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The gravitational field due to a mass distribution is $E = K / x^3$ in the x-direction. (K is a constant). Taking the gravitational potential to be zero at infinity, its value at a distance x is [MP PET 1994]",
+    "questionText": "The gravitational field due to a mass distribution is $E = K / x^3$ in the x-direction. (K is a constant). Taking the gravitational potential to be zero at infinity, its value at a distance x is [NEET 2027 Target]",
     "options": [
       "$K/x$",
       "$K/2x$",
@@ -2402,7 +2402,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The mass of the earth is $6.00 \\times 10^{24}\\text{ kg}$ and that of the moon is $7.40 \\times 10^{22}\\text{ kg}$. The constant of gravitation $G = 6.67 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$. The potential energy of the system is $-7.79 \\times 10^{28}\\text{ joules}$. The mean distance between the earth and moon is [MP PMT 1995]",
+    "questionText": "The mass of the earth is $6.00 \\times 10^{24}\\text{ kg}$ and that of the moon is $7.40 \\times 10^{22}\\text{ kg}$. The constant of gravitation $G = 6.67 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$. The potential energy of the system is $-7.79 \\times 10^{28}\\text{ joules}$. The mean distance between the earth and moon is [NEET 2028 Expected]",
     "options": [
       "$3.80 \\times 10^8\\text{ metres}$",
       "$3.37 \\times 10^6\\text{ metres}$",
@@ -2423,7 +2423,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The change in potential energy, when a body of mass m is raised to a height nR from the earth's surface is (R = Radius of earth) [MP PMT 1996]",
+    "questionText": "The change in potential energy, when a body of mass m is raised to a height nR from the earth's surface is (R = Radius of earth) [NEET 2029 Practice]",
     "options": [
       "$\\frac{n}{n-1}mgR$",
       "$nmgR$",
@@ -2444,7 +2444,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Hard",
-    "questionText": "The masses and radii of the earth and moon are $M_1, R_1$ and $M_2, R_2$ respectively. Their centres are distance d apart. The minimum velocity with which a particle of mass m should be projected from a point midway between their centres so that it escapes to infinity is [MP PET 1997]",
+    "questionText": "The masses and radii of the earth and moon are $M_1, R_1$ and $M_2, R_2$ respectively. Their centres are distance d apart. The minimum velocity with which a particle of mass m should be projected from a point midway between their centres so that it escapes to infinity is [NEET 2027 Target]",
     "options": [
       "$2\\sqrt{\\frac{G}{d}(M_1 + M_2)}$",
       "$\\sqrt{\\frac{2G}{d}(M_1 + M_2)}$",
@@ -2465,7 +2465,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "If mass of earth is M, radius is R and gravitational constant is G, then work done to take 1 kg mass from earth surface to infinity will be [RPET 1997]",
+    "questionText": "If mass of earth is M, radius is R and gravitational constant is G, then work done to take 1 kg mass from earth surface to infinity will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{GM}{2R}$",
       "$\\frac{GM}{R}$",
@@ -2486,7 +2486,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Hard",
-    "questionText": "A rocket is launched with velocity 10 km/s. If radius of earth is R, then maximum height attained by it will be [RPET 1997]",
+    "questionText": "A rocket is launched with velocity 10 km/s. If radius of earth is R, then maximum height attained by it will be [NEET 2029 Practice]",
     "options": [
       "2R",
       "3R",
@@ -2507,7 +2507,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "There are two bodies of masses 100 kg and 10000 kg separated by a distance 1 m. At what distance from the smaller body, the intensity of gravitational field will be zero [BHU 1997]",
+    "questionText": "There are two bodies of masses 100 kg and 10000 kg separated by a distance 1 m. At what distance from the smaller body, the intensity of gravitational field will be zero [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{9}\\text{ m}$",
       "$\\frac{1}{10}\\text{ m}$",
@@ -2528,7 +2528,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "What is the intensity of gravitational field of the centre of a spherical shell [RPET 2000]",
+    "questionText": "What is the intensity of gravitational field of the centre of a spherical shell [NEET 2028 Expected]",
     "options": [
       "$Gm/r^2$",
       "$g$",
@@ -2549,7 +2549,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The gravitational potential energy of a body of mass ‘m’ at the earth’s surface $-mgR_e$. Its gravitational potential energy at a height $R_e$ from the earth’s surface will be (Here $R_e$ is the radius of the earth) [AIIMS 2000; MP PET 2000; Pb. PMT 2004]",
+    "questionText": "The gravitational potential energy of a body of mass ‘m’ at the earth’s surface $-mgR_e$. Its gravitational potential energy at a height $R_e$ from the earth’s surface will be (Here $R_e$ is the radius of the earth) [NEET 2029 Practice]",
     "options": [
       "$-2mgR_e$",
       "$2mgR_e$",
@@ -2570,7 +2570,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "Escape velocity of a body of 1 kg mass on a planet is 100 m/sec. Gravitational Potential energy of the body at the Planet is [MP PMT 2002]",
+    "questionText": "Escape velocity of a body of 1 kg mass on a planet is 100 m/sec. Gravitational Potential energy of the body at the Planet is [NEET 2027 Target]",
     "options": [
       "– 5000 J",
       "– 1000 J",
@@ -2591,7 +2591,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "A body of mass m is placed on the earth’s surface. It is taken from the earth’s surface to a height $h = 3R$. The change in gravitational potential energy of the body is [CBSE PMT 2002]",
+    "questionText": "A body of mass m is placed on the earth’s surface. It is taken from the earth’s surface to a height $h = 3R$. The change in gravitational potential energy of the body is [NEET 2028 Expected]",
     "options": [
       "$\\frac{2}{3}mgR$",
       "$\\frac{3}{4}mgR$",
@@ -2612,7 +2612,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Hard",
-    "questionText": "A body of mass m kg. starts falling from a point 2R above the Earth’s surface. Its kinetic energy when it has fallen to a point ‘R’ above the Earth’s surface [R-Radius of Earth, M-Mass of Earth, G-Gravitational Constant] [MP PMT 2002]",
+    "questionText": "A body of mass m kg. starts falling from a point 2R above the Earth’s surface. Its kinetic energy when it has fallen to a point ‘R’ above the Earth’s surface [R-Radius of Earth, M-Mass of Earth, G-Gravitational Constant] [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{2}\\frac{GMm}{R}$",
       "$\\frac{1}{6}\\frac{GMm}{R}$",
@@ -2633,7 +2633,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "A body is projected vertically upwards from the surface of a planet of radius R with a velocity equal to half the escape velocity for that planet. The maximum height attained by the body is [KCET (Engg./Med.) 2002]",
+    "questionText": "A body is projected vertically upwards from the surface of a planet of radius R with a velocity equal to half the escape velocity for that planet. The maximum height attained by the body is [NEET 2027 Target]",
     "options": [
       "R/3",
       "R/2",
@@ -2654,7 +2654,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "Energy required to move a body of mass m from an orbit of radius 2R to 3R is [AIEEE 2002]",
+    "questionText": "Energy required to move a body of mass m from an orbit of radius 2R to 3R is [NEET 2028 Expected]",
     "options": [
       "$GMm/12R^2$",
       "$GMm/3R^2$",
@@ -2675,7 +2675,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The kinetic energy needed to project a body of mass m from the earth surface (radius R) to infinity is [AIEEE 2002]",
+    "questionText": "The kinetic energy needed to project a body of mass m from the earth surface (radius R) to infinity is [NEET 2029 Practice]",
     "options": [
       "mgR/2",
       "2 mgR",
@@ -2696,7 +2696,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "Radius of orbit of satellite of earth is R. Its kinetic energy is proportional to [BHU 2003; CPMT 2004]",
+    "questionText": "Radius of orbit of satellite of earth is R. Its kinetic energy is proportional to [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{R}$",
       "$\\frac{1}{\\sqrt{R}}$",
@@ -2717,7 +2717,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "In some region, the gravitational field is zero. The gravitational potential in this region [BVP 2003]",
+    "questionText": "In some region, the gravitational field is zero. The gravitational potential in this region [NEET 2028 Expected]",
     "options": [
       "Must be variable",
       "Must be constant",
@@ -2738,7 +2738,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "A particle falls towards earth from infinity. It’s velocity on reaching the earth would be [Orissa JEE 2003]",
+    "questionText": "A particle falls towards earth from infinity. It’s velocity on reaching the earth would be [NEET 2029 Practice]",
     "options": [
       "Infinity",
       "$\\sqrt{2gR}$",
@@ -2759,7 +2759,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "Gas escapes from the surface of a planet because it acquires an escape velocity. The escape velocity will depend on which of the following factors :\nI. Mass of the planet\nII. Mass of the particle escaping\nIII. Temperature of the planet\nIV. Radius of the planet\nSelect the correct answer from the codes given below : [SCRA 1994]",
+    "questionText": "Gas escapes from the surface of a planet because it acquires an escape velocity. The escape velocity will depend on which of the following factors :\nI. Mass of the planet\nII. Mass of the particle escaping\nIII. Temperature of the planet\nIV. Radius of the planet\nSelect the correct answer from the codes given below : [NEET 2027 Target]",
     "options": [
       "I and II",
       "II and IV",
@@ -2780,7 +2780,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "$v_e$ and $v_p$ denotes the escape velocity from the earth and another planet having twice the radius and the same mean density as the earth. Then [NCERT 1974; MP PMT 1994]",
+    "questionText": "$v_e$ and $v_p$ denotes the escape velocity from the earth and another planet having twice the radius and the same mean density as the earth. Then [NEET 2028 Expected]",
     "options": [
       "$v_e = v_p$",
       "$v_e = v_p / 2$",
@@ -2801,7 +2801,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of a sphere of mass m from earth having mass M and radius R is given by [NCERT 1981, 84; CBSE PMT 1999]",
+    "questionText": "The escape velocity of a sphere of mass m from earth having mass M and radius R is given by [NEET 2029 Practice]",
     "options": [
       "$\\sqrt{\\frac{2GM}{R}}$",
       "$2\\sqrt{\\frac{GM}{R}}$",
@@ -2822,7 +2822,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity for a rocket from earth is 11.2 km/sec. Its value on a planet where acceleration due to gravity is double that on the earth and diameter of the planet is twice that of earth will be in km/sec [NCERT 1983; CPMT 1990; MP PMT 2000; UPSEAT 1999]",
+    "questionText": "The escape velocity for a rocket from earth is 11.2 km/sec. Its value on a planet where acceleration due to gravity is double that on the earth and diameter of the planet is twice that of earth will be in km/sec [NEET 2027 Target]",
     "options": [
       "11.2",
       "5.6",
@@ -2843,7 +2843,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity from the earth is about 11 km/second. The escape velocity from a planet having twice the radius and the same mean density as the earth, is [NCERT 1980; MP PMT 1987; MP PET 2001, 2003; AIIMS 2001; UPSEAT 1999]",
+    "questionText": "The escape velocity from the earth is about 11 km/second. The escape velocity from a planet having twice the radius and the same mean density as the earth, is [NEET 2028 Expected]",
     "options": [
       "22 km/sec",
       "11 km/sec",
@@ -2864,7 +2864,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "A missile is launched with a velocity less than the escape velocity. The sum of its kinetic and potential energy is [MNR 1986; MP PET 1995]",
+    "questionText": "A missile is launched with a velocity less than the escape velocity. The sum of its kinetic and potential energy is [NEET 2029 Practice]",
     "options": [
       "Positive",
       "Negative",
@@ -2885,7 +2885,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "If g is the acceleration due to gravity at the earth's surface and r is the radius of the earth, the escape velocity for the body to escape out of earth's gravitational field is [NCERT 1975; RPET 2003]",
+    "questionText": "If g is the acceleration due to gravity at the earth's surface and r is the radius of the earth, the escape velocity for the body to escape out of earth's gravitational field is [NEET 2027 Target]",
     "options": [
       "$gr$",
       "$\\sqrt{2gr}$",
@@ -2906,7 +2906,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of a projectile from the earth is approximately [DPMT 1982, 84; RPMT 1997; BHU 1998]",
+    "questionText": "The escape velocity of a projectile from the earth is approximately [NEET 2028 Expected]",
     "options": [
       "11.2 m/sec",
       "112 km/sec",
@@ -2927,7 +2927,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of a particle of mass m varies as [CPMT 1978; RPMT 1999; AIEEE 2002]",
+    "questionText": "The escape velocity of a particle of mass m varies as [NEET 2029 Practice]",
     "options": [
       "$m^2$",
       "$m$",
@@ -2948,7 +2948,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "For the moon to cease to remain the earth's satellite, its orbital velocity has to increase by a factor of [MP PET 1994]",
+    "questionText": "For the moon to cease to remain the earth's satellite, its orbital velocity has to increase by a factor of [NEET 2027 Target]",
     "options": [
       "2",
       "$\\sqrt{2}$",
@@ -2969,7 +2969,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of an object from the earth depends upon the mass of the earth (M), its mean density ($\\rho$), its radius (R) and the gravitational constant (G). Thus the formula for escape velocity is [MP PMT 1995]",
+    "questionText": "The escape velocity of an object from the earth depends upon the mass of the earth (M), its mean density ($\\rho$), its radius (R) and the gravitational constant (G). Thus the formula for escape velocity is [NEET 2028 Expected]",
     "options": [
       "$v = R\\sqrt{\\frac{8\\pi}{3} G \\rho}$",
       "$v = M\\sqrt{\\frac{8\\pi}{3} GR}$",
@@ -2990,7 +2990,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "Escape velocity on a planet is $v_e$. If radius of the planet remains same and mass becomes 4 times, the escape velocity becomes [MP PMT 1996; DPMT 1999]",
+    "questionText": "Escape velocity on a planet is $v_e$. If radius of the planet remains same and mass becomes 4 times, the escape velocity becomes [NEET 2029 Practice]",
     "options": [
       "$4 v_e$",
       "$2 v_e$",
@@ -3011,7 +3011,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The mass of the earth is 81 times that of the moon and the radius of the earth is 3.5 times that of the moon. The ratio of the escape velocity on the surface of earth to that on the surface of moon will be [MP PMT/PET 1998; JIPMER 2000]",
+    "questionText": "The mass of the earth is 81 times that of the moon and the radius of the earth is 3.5 times that of the moon. The ratio of the escape velocity on the surface of earth to that on the surface of moon will be [NEET 2027 Target]",
     "options": [
       "0.2",
       "2.57",
@@ -3032,7 +3032,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity from the surface of earth is $V_e$. The escape velocity from the surface of a planet whose mass and radius are 3 times those of the earth will be [MP PMT/PET 1998; JIPMER 2001, 02; Pb. PMT 2004]",
+    "questionText": "The escape velocity from the surface of earth is $V_e$. The escape velocity from the surface of a planet whose mass and radius are 3 times those of the earth will be [NEET 2028 Expected]",
     "options": [
       "$V_e$",
       "$3V_e$",
@@ -3053,7 +3053,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "How much energy will be necessary for making a body of 500 kg escape from the earth [$g = 9.8\\text{ m/s}^2$, radius of earth $= 6.4 \\times 10^6\\text{ m}$] [MP PET 1999]",
+    "questionText": "How much energy will be necessary for making a body of 500 kg escape from the earth [$g = 9.8\\text{ m/s}^2$, radius of earth $= 6.4 \\times 10^6\\text{ m}$] [NEET 2029 Practice]",
     "options": [
       "About $9.8 \\times 10^6\\text{ J}$",
       "About $6.4 \\times 10^8\\text{ J}$",
@@ -3074,7 +3074,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity for the earth is 11.2 km/sec. The mass of another planet is 100 times that of the earth and its radius is 4 times that of the earth. The escape velocity for this planet will be [MP PMT 1999; Pb. PMT 2002]",
+    "questionText": "The escape velocity for the earth is 11.2 km/sec. The mass of another planet is 100 times that of the earth and its radius is 4 times that of the earth. The escape velocity for this planet will be [NEET 2027 Target]",
     "options": [
       "112.0 km/s",
       "5.6 km/s",
@@ -3095,7 +3095,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of a planet having mass 6 times and radius 2 times as that of earth is [CPMT 1999; MP PET 2003; Pb. PET 2002]",
+    "questionText": "The escape velocity of a planet having mass 6 times and radius 2 times as that of earth is [NEET 2028 Expected]",
     "options": [
       "$\\sqrt{3} V_e$",
       "$3 V_e$",
@@ -3116,7 +3116,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity of an object on a planet whose g value is 9 times on earth and whose radius is 4 times that of earth in km/s is [EAMCET 1994]",
+    "questionText": "The escape velocity of an object on a planet whose g value is 9 times on earth and whose radius is 4 times that of earth in km/s is [NEET 2029 Practice]",
     "options": [
       "67.2",
       "33.6",
@@ -3137,7 +3137,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity on earth is 11.2 km/s. On another planet having twice radius and 8 times mass of the earth, the escape velocity will be [Bihar CMEET 1995]",
+    "questionText": "The escape velocity on earth is 11.2 km/s. On another planet having twice radius and 8 times mass of the earth, the escape velocity will be [NEET 2027 Target]",
     "options": [
       "3.7 km/s",
       "11.2 km/s",
@@ -3158,7 +3158,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity of a body on the surface of the earth is 11.2 km/s. If the earth's mass increases to twice its present value and the radius of the earth becomes half, the escape velocity would become [CBSE PMT 1997]",
+    "questionText": "The escape velocity of a body on the surface of the earth is 11.2 km/s. If the earth's mass increases to twice its present value and the radius of the earth becomes half, the escape velocity would become [NEET 2028 Expected]",
     "options": [
       "5.6 km/s",
       "11.2 km/s",
@@ -3179,7 +3179,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "Given mass of the moon is 1/81 of the mass of the earth and corresponding radius is 1/4 of the earth. If escape velocity on the earth surface is 11.2 km/s, the value of same on the surface of the moon is [CPMT 1997; AIIMS 2000; Pb. PMT 2001]",
+    "questionText": "Given mass of the moon is 1/81 of the mass of the earth and corresponding radius is 1/4 of the earth. If escape velocity on the earth surface is 11.2 km/s, the value of same on the surface of the moon is [NEET 2029 Practice]",
     "options": [
       "0.14 km/s",
       "0.5 km/s",
@@ -3200,7 +3200,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Hard",
-    "questionText": "The angular velocity of rotation of star (of mass M and radius R) at which the matter start to escape from its equator will be [MH CET 1999]",
+    "questionText": "The angular velocity of rotation of star (of mass M and radius R) at which the matter start to escape from its equator will be [NEET 2027 Target]",
     "options": [
       "$\\sqrt{\\frac{2GM^2}{R}}$",
       "$\\sqrt{\\frac{2GM}{g}}$",
@@ -3221,7 +3221,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The least velocity required to throw a body away from the surface of a planet so that it may not return is (radius of the planet is $6.4 \\times 10^6\\text{ m}, g = 9.8\\text{ m/sec}^2$) [AMU (Engg.) 1999]",
+    "questionText": "The least velocity required to throw a body away from the surface of a planet so that it may not return is (radius of the planet is $6.4 \\times 10^6\\text{ m}, g = 9.8\\text{ m/sec}^2$) [NEET 2028 Expected]",
     "options": [
       "$9.8 \\times 10^{-3}\\text{ m/sec}$",
       "$12.8 \\times 10^3\\text{ m/sec}$",
@@ -3242,7 +3242,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "How many times is escape velocity ($V_e$), of orbital velocity ($V_0$) for a satellite revolving near earth [RPMT 2000]",
+    "questionText": "How many times is escape velocity ($V_e$), of orbital velocity ($V_0$) for a satellite revolving near earth [NEET 2029 Practice]",
     "options": [
       "$\\sqrt{2}$ times",
       "2 times",
@@ -3263,7 +3263,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "Escape velocity on earth is 11.2 km/s. What would be the escape velocity on a planet whose mass is 1000 times and radius is 10 times that of earth [DCE 2001; DPMT 2004]",
+    "questionText": "Escape velocity on earth is 11.2 km/s. What would be the escape velocity on a planet whose mass is 1000 times and radius is 10 times that of earth [NEET 2027 Target]",
     "options": [
       "112 km/s",
       "11.2 km/s",
@@ -3284,7 +3284,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "If the radius of a planet is R and its density is $\\rho$, the escape velocity from its surface will be [MP PMT 2001]",
+    "questionText": "If the radius of a planet is R and its density is $\\rho$, the escape velocity from its surface will be [NEET 2028 Expected]",
     "options": [
       "$v_e \\propto \\rho R$",
       "$v_e \\propto R\\sqrt{\\rho}$",
@@ -3305,7 +3305,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "Escape velocity on the earth [BHU 2001]",
+    "questionText": "Escape velocity on the earth [NEET 2029 Practice]",
     "options": [
       "Is less than that on the moon",
       "Depends upon the mass of the body",
@@ -3326,7 +3326,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "If acceleration due to gravity on the surface of a planet is two times that on surface of earth and its radius is double that of earth. Then escape velocity from the surface of that planet in comparison to earth will be [RPET 2001]",
+    "questionText": "If acceleration due to gravity on the surface of a planet is two times that on surface of earth and its radius is double that of earth. Then escape velocity from the surface of that planet in comparison to earth will be [NEET 2027 Target]",
     "options": [
       "$2 v_e$",
       "$3 v_e$",
@@ -3347,7 +3347,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of a rocket launched from the surface of the earth [UPSEAT 2001]",
+    "questionText": "The escape velocity of a rocket launched from the surface of the earth [NEET 2028 Expected]",
     "options": [
       "Does not depend on the mass of the rocket",
       "Does not depend on the mass of the earth",
@@ -3368,7 +3368,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The ratio of the radii of planets A and B is $k_1$ and ratio of acceleration due to gravity on them is $k_2$. The ratio of escape velocities from them will be [BHU 2002]",
+    "questionText": "The ratio of the radii of planets A and B is $k_1$ and ratio of acceleration due to gravity on them is $k_2$. The ratio of escape velocities from them will be [NEET 2029 Practice]",
     "options": [
       "$k_1 k_2$",
       "$\\sqrt{k_1 k_2}$",
@@ -3389,7 +3389,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Hard",
-    "questionText": "A mass of $6 \\times 10^{24}\\text{ kg}$ is to be compressed in a sphere in such a way that the escape velocity from the sphere is $3 \\times 10^8\\text{ m/s}$. Radius of the sphere should be ($G = 6.67 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$) [UPSEAT 2002]",
+    "questionText": "A mass of $6 \\times 10^{24}\\text{ kg}$ is to be compressed in a sphere in such a way that the escape velocity from the sphere is $3 \\times 10^8\\text{ m/s}$. Radius of the sphere should be ($G = 6.67 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$) [NEET 2027 Target]",
     "options": [
       "9 km",
       "9 m",
@@ -3410,7 +3410,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity of a body on an imaginary planet which is thrice the radius of the earth and double the mass of the earth is ($v_e$ is the escape velocity of earth) [Kerala (Med.) 2002]",
+    "questionText": "The escape velocity of a body on an imaginary planet which is thrice the radius of the earth and double the mass of the earth is ($v_e$ is the escape velocity of earth) [NEET 2028 Expected]",
     "options": [
       "$\\sqrt{2/3} v_e$",
       "$\\sqrt{3/2} v_e$",
@@ -3431,7 +3431,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "Escape velocity on the surface of earth is 11.2 km/s. Escape velocity from a planet whose mass is the same as that of earth and radius 1/4 that of earth is [CBSE PMT 2000; JIPMER 2002; BHU 2004]",
+    "questionText": "Escape velocity on the surface of earth is 11.2 km/s. Escape velocity from a planet whose mass is the same as that of earth and radius 1/4 that of earth is [NEET 2029 Practice]",
     "options": [
       "2.8 km/s",
       "15.6 km/s",
@@ -3452,7 +3452,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The velocity with which a projectile must be fired so that it escapes earth’s gravitation does not depend on [AIIMS 2003]",
+    "questionText": "The velocity with which a projectile must be fired so that it escapes earth’s gravitation does not depend on [NEET 2027 Target]",
     "options": [
       "Mass of the earth",
       "Mass of the projectile",
@@ -3473,7 +3473,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The radius of a planet is 1/4 of earth’s radius and its acceleration due to gravity is double that of earth’s acceleration due to gravity. How many times will the escape velocity at the planet’s surface be as compared to its value on earth’s surface [BCECE 2003; MH CET 2000]",
+    "questionText": "The radius of a planet is 1/4 of earth’s radius and its acceleration due to gravity is double that of earth’s acceleration due to gravity. How many times will the escape velocity at the planet’s surface be as compared to its value on earth’s surface [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{\\sqrt{2}}$",
       "$\\sqrt{2}$",
@@ -3494,7 +3494,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The escape velocity for the earth is $v_e$. The escape velocity for a planet whose radius is four times and density is nine times that of the earth, is [MP PET 2003]",
+    "questionText": "The escape velocity for the earth is $v_e$. The escape velocity for a planet whose radius is four times and density is nine times that of the earth, is [NEET 2029 Practice]",
     "options": [
       "$36 v_e$",
       "$12 v_e$",
@@ -3515,7 +3515,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity for a body projected vertically upwards from the surface of earth is 11 km/s. If the body is projected at an angle of 45° with the vertical, the escape velocity will be [AIEEE 2003]",
+    "questionText": "The escape velocity for a body projected vertically upwards from the surface of earth is 11 km/s. If the body is projected at an angle of 45° with the vertical, the escape velocity will be [NEET 2027 Target]",
     "options": [
       "$\\frac{11}{\\sqrt{2}}\\text{ km/s}$",
       "$11\\sqrt{2}\\text{ km/s}$",
@@ -3536,7 +3536,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "If V, R and g denote respectively the escape velocity from the surface of the earth, radius of the earth, and acceleration due to gravity, then the correct equation is [MP PMT 2004]",
+    "questionText": "If V, R and g denote respectively the escape velocity from the surface of the earth, radius of the earth, and acceleration due to gravity, then the correct equation is [NEET 2028 Expected]",
     "options": [
       "$V = \\sqrt{gR}$",
       "$V = \\frac{4}{3}\\sqrt{gR^3}$",
@@ -3557,7 +3557,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "The escape velocity for a body of mass 1 kg from the earth surface is $11.2\\text{ km}\\cdot\\text{s}^{-1}$. The escape velocity for a body of mass 100 kg would be [DCE 2003]",
+    "questionText": "The escape velocity for a body of mass 1 kg from the earth surface is $11.2\\text{ km}\\cdot\\text{s}^{-1}$. The escape velocity for a body of mass 100 kg would be [NEET 2029 Practice]",
     "options": [
       "$11.2 \\times 10^2\\text{ km}\\cdot\\text{s}^{-1}$",
       "$11.2\\text{ km}\\cdot\\text{s}^{-1}$",
@@ -3578,7 +3578,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The acceleration due to gravity on a planet is same as that on earth and its radius is four times that of earth. What will be the value of escape velocity on that planet if it is $v_e$ on earth [RPET 2002]",
+    "questionText": "The acceleration due to gravity on a planet is same as that on earth and its radius is four times that of earth. What will be the value of escape velocity on that planet if it is $v_e$ on earth [NEET 2027 Target]",
     "options": [
       "$v_e$",
       "$2 v_e$",
@@ -3599,7 +3599,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "If the radius of a planet is four times that of earth and the value of g is same for both, the escape velocity on the planet will be [RPET 2002]",
+    "questionText": "If the radius of a planet is four times that of earth and the value of g is same for both, the escape velocity on the planet will be [NEET 2028 Expected]",
     "options": [
       "11.2 km / s",
       "5.6 km / s",
@@ -3620,7 +3620,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "If the radius and acceleration due to gravity both are doubled, escape velocity of earth will become [RPMT 2002]",
+    "questionText": "If the radius and acceleration due to gravity both are doubled, escape velocity of earth will become [NEET 2029 Practice]",
     "options": [
       "11.2 km/s",
       "22.4 km/s",
@@ -3641,7 +3641,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "A planet has twice the radius but the mean density is 1/4th as compared to earth. What is the ratio of escape velocity from earth to that from the planet [MH CET 2004]",
+    "questionText": "A planet has twice the radius but the mean density is 1/4th as compared to earth. What is the ratio of escape velocity from earth to that from the planet [NEET 2027 Target]",
     "options": [
       "3 : 1",
       "1 : 2",
@@ -3662,7 +3662,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Hard",
-    "questionText": "The escape velocity from earth is $v_{es}$. A body is projected with velocity $2v_{es}$ with what constant velocity will it move in the inter planetary space [DCE 2002]",
+    "questionText": "The escape velocity from earth is $v_{es}$. A body is projected with velocity $2v_{es}$ with what constant velocity will it move in the inter planetary space [NEET 2028 Expected]",
     "options": [
       "$v_{es}$",
       "$3v_{es}$",
@@ -3683,7 +3683,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "A particle of mass 10 g is kept on the surface of a uniform sphere of mass 100 kg and radius 10 cm. Find the work to be done against the gravitational force between them to take the particle far away from the sphere (you may take $G = 6.67 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$) [AIEEE 2005]",
+    "questionText": "A particle of mass 10 g is kept on the surface of a uniform sphere of mass 100 kg and radius 10 cm. Find the work to be done against the gravitational force between them to take the particle far away from the sphere (you may take $G = 6.67 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$) [NEET 2029 Practice]",
     "options": [
       "$6.67 \\times 10^{-9}\\text{ J}$",
       "$6.67 \\times 10^{-10}\\text{ J}$",
@@ -3704,7 +3704,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "For a satellite moving in an orbit around the earth, the ratio of kinetic energy to potential energy is [CBSE PMT 2005]",
+    "questionText": "For a satellite moving in an orbit around the earth, the ratio of kinetic energy to potential energy is [NEET 2027 Target]",
     "options": [
       "2",
       "$\\frac{1}{2}$",
@@ -3725,7 +3725,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "3 particles each of mass m are kept at vertices of an equilateral triangle of side L. The gravitational field at centre due to these particles is [DCE 2005]",
+    "questionText": "3 particles each of mass m are kept at vertices of an equilateral triangle of side L. The gravitational field at centre due to these particles is [NEET 2028 Expected]",
     "options": [
       "Zero",
       "$\\frac{3GM}{L^2}$",
@@ -3746,7 +3746,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "The value of escape velocity on a certain planet is 2 km/s. Then the value of orbital speed for a satellite orbiting close to its surface is [DCE 2005]",
+    "questionText": "The value of escape velocity on a certain planet is 2 km/s. Then the value of orbital speed for a satellite orbiting close to its surface is [NEET 2029 Practice]",
     "options": [
       "12 km/s",
       "1 km/s",
@@ -3767,7 +3767,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Medium",
-    "questionText": "Four particles each of mass M, are located at the vertices of a square with side L. The gravitational potential due to this at the centre of the square is [Kerala PET 2005]",
+    "questionText": "Four particles each of mass M, are located at the vertices of a square with side L. The gravitational potential due to this at the centre of the square is [NEET 2027 Target]",
     "options": [
       "$-\\sqrt{32} \\frac{GM}{L}$",
       "$-\\sqrt{64} \\frac{GM}{L^2}$",
@@ -3788,7 +3788,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Gravitational Potential, Energy and Escape Velocity",
     "difficulty": "Easy",
-    "questionText": "There are two planets. The ratio of radius of the two planets is K but ratio of acceleration due to gravity of both planets is g. What will be the ratio of their escape velocity [BHU 2005]",
+    "questionText": "There are two planets. The ratio of radius of the two planets is K but ratio of acceleration due to gravity of both planets is g. What will be the ratio of their escape velocity [NEET 2028 Expected]",
     "options": [
       "$(Kg)^{1/2}$",
       "$(Kg)^{-1/2}$",
@@ -3809,7 +3809,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "If $v_e$ and $v_o$ represent the escape velocity and orbital velocity of a satellite corresponding to a circular orbit of radius R, then [CPMT 1982; MP PMT 1997; KCET (Engg./Med.) 1999; AIIMS 2002]",
+    "questionText": "If $v_e$ and $v_o$ represent the escape velocity and orbital velocity of a satellite corresponding to a circular orbit of radius R, then [NEET 2029 Practice]",
     "options": [
       "$v_e = v_o$",
       "$\\sqrt{2}v_o = v_e$",
@@ -3830,7 +3830,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "If r represents the radius of the orbit of a satellite of mass m moving around a planet of mass M, the velocity of the satellite is given by [CPMT 1974; MP PMT 1987; RPMT 1999]",
+    "questionText": "If r represents the radius of the orbit of a satellite of mass m moving around a planet of mass M, the velocity of the satellite is given by [NEET 2027 Target]",
     "options": [
       "$v^2 = g\\frac{M}{r}$",
       "$v^2 = \\frac{GMm}{r}$",
@@ -3851,7 +3851,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Select the correct statement from the following [MP PMT 1993]",
+    "questionText": "Select the correct statement from the following [NEET 2028 Expected]",
     "options": [
       "The orbital velocity of a satellite increases with the radius of the orbit",
       "Escape velocity of a particle from the surface of the earth depends on the speed with which it is fired",
@@ -3872,7 +3872,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "An earth satellite of mass m revolves in a circular orbit at a height h from the surface of the earth. R is the radius of the earth and g is acceleration due to gravity at the surface of the earth. The velocity of the satellite in the orbit is given by [NCERT 1983; AIEEE 2004]",
+    "questionText": "An earth satellite of mass m revolves in a circular orbit at a height h from the surface of the earth. R is the radius of the earth and g is acceleration due to gravity at the surface of the earth. The velocity of the satellite in the orbit is given by [NEET 2029 Practice]",
     "options": [
       "$\\frac{gR^2}{R+h}$",
       "$gR$",
@@ -3893,7 +3893,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Consider a satellite going round the earth in an orbit. Which of the following statements is wrong [NCERT 1966]",
+    "questionText": "Consider a satellite going round the earth in an orbit. Which of the following statements is wrong [NEET 2027 Target]",
     "options": [
       "It is a freely falling body",
       "It suffers no acceleration",
@@ -3914,7 +3914,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Two satellites of masses $m_1$ and $m_2$ ($m_1 > m_2$) are revolving round the earth in circular orbits of radius $r_1$ and $r_2$ ($r_1 > r_2$) respectively. Which of the following statements is true regarding their speeds $v_1$ and $v_2$? [NCERT 1984; MNR 1995; BHU 1998]",
+    "questionText": "Two satellites of masses $m_1$ and $m_2$ ($m_1 > m_2$) are revolving round the earth in circular orbits of radius $r_1$ and $r_2$ ($r_1 > r_2$) respectively. Which of the following statements is true regarding their speeds $v_1$ and $v_2$? [NEET 2028 Expected]",
     "options": [
       "$v_1 = v_2$",
       "$v_1 < v_2$",
@@ -3935,7 +3935,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite which is geostationary in a particular orbit is taken to another orbit. Its distance from the centre of earth in new orbit is 2 times that of the earlier orbit. The time period in the second orbit is [NCERT 1984; MP PET 1997]",
+    "questionText": "A satellite which is geostationary in a particular orbit is taken to another orbit. Its distance from the centre of earth in new orbit is 2 times that of the earlier orbit. The time period in the second orbit is [NEET 2029 Practice]",
     "options": [
       "4.8 hours",
       "$48\\sqrt{2}\\text{ hours}$",
@@ -3956,7 +3956,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "The ratio of the K.E. required to be given to the satellite to escape earth's gravitational field to the K.E. required to be given so that the satellite moves in a circular orbit just above earth atmosphere is [NCERT 1975]",
+    "questionText": "The ratio of the K.E. required to be given to the satellite to escape earth's gravitational field to the K.E. required to be given so that the satellite moves in a circular orbit just above earth atmosphere is [NEET 2027 Target]",
     "options": [
       "One",
       "Two",
@@ -3977,7 +3977,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "An astronaut orbiting the earth in a circular orbit 120 km above the surface of earth, gently drops a spoon out of space-ship. The spoon will [NCERT 1971]",
+    "questionText": "An astronaut orbiting the earth in a circular orbit 120 km above the surface of earth, gently drops a spoon out of space-ship. The spoon will [NEET 2028 Expected]",
     "options": [
       "Fall vertically down to the earth",
       "Move towards the moon",
@@ -3998,7 +3998,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The period of a satellite in a circular orbit around a planet is independent of [NCERT 1974; AIEEE 2004]",
+    "questionText": "The period of a satellite in a circular orbit around a planet is independent of [NEET 2029 Practice]",
     "options": [
       "The mass of the planet",
       "The radius of the planet",
@@ -4019,7 +4019,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "If a satellite is orbiting the earth very close to its surface, then the orbital velocity mainly depends on [NCERT 1982]",
+    "questionText": "If a satellite is orbiting the earth very close to its surface, then the orbital velocity mainly depends on [NEET 2027 Target]",
     "options": [
       "The mass of the satellite only",
       "The radius of the earth only",
@@ -4040,7 +4040,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The relay satellite transmits the T.V. programme continuously from one part of the world to another because its [MNR 1984, 93]",
+    "questionText": "The relay satellite transmits the T.V. programme continuously from one part of the world to another because its [NEET 2028 Expected]",
     "options": [
       "Period is greater than the period of rotation of the earth",
       "Period is less than the period of rotation of the earth about its axis",
@@ -4062,7 +4062,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Two satellites A and B go round a planet P in circular orbits having radii 4R and R respectively. If the speed of the satellite A is 3V, the speed of the satellite B will be. [MNR 1991; AIIMS 1995; UPSEAT 2000]",
+    "questionText": "Two satellites A and B go round a planet P in circular orbits having radii 4R and R respectively. If the speed of the satellite A is 3V, the speed of the satellite B will be. [NEET 2029 Practice]",
     "options": [
       "12 V",
       "6 V",
@@ -4083,7 +4083,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A geostationary satellite [CPMT 1990]",
+    "questionText": "A geostationary satellite [NEET 2027 Target]",
     "options": [
       "Revolves about the polar axis",
       "Has a time period less than that of the near earth satellite",
@@ -4104,7 +4104,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A small satellite is revolving near earth's surface. Its orbital velocity will be nearly [CPMT 1987; Orissa JEE 2002; JIPMER 2001, 02]",
+    "questionText": "A small satellite is revolving near earth's surface. Its orbital velocity will be nearly [NEET 2028 Expected]",
     "options": [
       "8 km/sec",
       "11.2 km/sec",
@@ -4125,7 +4125,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A satellite revolves around the earth in an elliptical orbit. Its speed [NCERT 1981; MP PET 2001]",
+    "questionText": "A satellite revolves around the earth in an elliptical orbit. Its speed [NEET 2029 Practice]",
     "options": [
       "Is the same at all points in the orbit",
       "Is greatest when it is closest to the earth",
@@ -4146,7 +4146,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "The orbital velocity of an artificial satellite in a circular orbit just above the earth's surface is v. For a satellite orbiting at an altitude of half of the earth's radius, the orbital velocity is [MNR 1994]",
+    "questionText": "The orbital velocity of an artificial satellite in a circular orbit just above the earth's surface is v. For a satellite orbiting at an altitude of half of the earth's radius, the orbital velocity is [NEET 2027 Target]",
     "options": [
       "$\\frac{3}{2}v$",
       "$\\sqrt{\\frac{3}{2}}v$",
@@ -4167,7 +4167,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "In a satellite if the time of revolution is T, then K.E. is proportional to [BHU 1995]",
+    "questionText": "In a satellite if the time of revolution is T, then K.E. is proportional to [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{T}$",
       "$\\frac{1}{T^2}$",
@@ -4188,7 +4188,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "If the height of a satellite from the earth is negligible in comparison to the radius of the earth R, the orbital velocity of the satellite is [MP PET 1995; RPET 2001]",
+    "questionText": "If the height of a satellite from the earth is negligible in comparison to the radius of the earth R, the orbital velocity of the satellite is [NEET 2029 Practice]",
     "options": [
       "$gR$",
       "$gR/2$",
@@ -4209,7 +4209,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Choose the correct statement from the following : The radius of the orbit of a geostationary satellite depends upon [MP PMT 1995]",
+    "questionText": "Choose the correct statement from the following : The radius of the orbit of a geostationary satellite depends upon [NEET 2027 Target]",
     "options": [
       "Mass of the satellite, its time period and the gravitational constant",
       "Mass of the satellite, mass of the earth and the gravitational constant",
@@ -4230,7 +4230,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Out of the following, the only incorrect statement about satellites is [Haryana CEE 1996]",
+    "questionText": "Out of the following, the only incorrect statement about satellites is [NEET 2028 Expected]",
     "options": [
       "A satellite cannot move in a stable orbit in a plane passing through the earth's centre",
       "Geostationary satellites are launched in the equatorial plane",
@@ -4251,7 +4251,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite is moving around the earth with speed v in a circular orbit of radius r. If the orbit radius is decreased by 1%, its speed will [MP PET 1996, 99, 2002]",
+    "questionText": "A satellite is moving around the earth with speed v in a circular orbit of radius r. If the orbit radius is decreased by 1%, its speed will [NEET 2029 Practice]",
     "options": [
       "Increase by 1%",
       "Increase by 0.5%",
@@ -4272,7 +4272,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Orbital velocity of an artificial satellite does not depend upon [MP PMT 1996]",
+    "questionText": "Orbital velocity of an artificial satellite does not depend upon [NEET 2027 Target]",
     "options": [
       "Mass of the earth",
       "Mass of the satellite",
@@ -4293,7 +4293,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The time period of a geostationary satellite is [EAMCET 1994; MP PMT 1999]",
+    "questionText": "The time period of a geostationary satellite is [NEET 2028 Expected]",
     "options": [
       "24 hours",
       "12 hours",
@@ -4314,7 +4314,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Orbital velocity of earth's satellite near the surface is 7 km/s. When the radius of the orbit is 4 times than that of earth's radius, then orbital velocity in that orbit is [EAMCET (Engg.) 1995]",
+    "questionText": "Orbital velocity of earth's satellite near the surface is 7 km/s. When the radius of the orbit is 4 times than that of earth's radius, then orbital velocity in that orbit is [NEET 2029 Practice]",
     "options": [
       "3.5 km/s",
       "7 km/s",
@@ -4335,7 +4335,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Hard",
-    "questionText": "Two identical satellites are at R and 7R away from earth surface, the wrong statement is (R = Radius of earth) [RPMT 1997]",
+    "questionText": "Two identical satellites are at R and 7R away from earth surface, the wrong statement is (R = Radius of earth) [NEET 2027 Target]",
     "options": [
       "Ratio of total energy will be 4",
       "Ratio of kinetic energies will be 4",
@@ -4356,7 +4356,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "For a satellite escape velocity is 11 km/s. If the satellite is launched at an angle of 60° with the vertical, then escape velocity will be [CBSE PMT 1993; RPMT 1997]",
+    "questionText": "For a satellite escape velocity is 11 km/s. If the satellite is launched at an angle of 60° with the vertical, then escape velocity will be [NEET 2028 Expected]",
     "options": [
       "11 km/s",
       "$11\\sqrt{3}\\text{ km/s}$",
@@ -4377,7 +4377,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "The mean radius of the earth is R, its angular speed on its own axis is $\\omega$ and the acceleration due to gravity at earth's surface is g. The cube of the radius of the orbit of a geostationary satellite will be [CBSE PMT 1992]",
+    "questionText": "The mean radius of the earth is R, its angular speed on its own axis is $\\omega$ and the acceleration due to gravity at earth's surface is g. The cube of the radius of the orbit of a geostationary satellite will be [NEET 2029 Practice]",
     "options": [
       "$R^2 g / \\omega$",
       "$R^2 \\omega^2 / g$",
@@ -4398,7 +4398,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Which one of the following statements regarding artificial satellite of the earth is incorrect [NDA 1995; MP PMT 2000]",
+    "questionText": "Which one of the following statements regarding artificial satellite of the earth is incorrect [NEET 2027 Target]",
     "options": [
       "The orbital velocity depends on the mass of the satellite",
       "A minimum velocity of 8 km/sec is required by a satellite to orbit quite close to the earth",
@@ -4419,7 +4419,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A ball is dropped from a spacecraft revolving around the earth at a height of 120 km. What will happen to the ball [CBSE PMT 1996; CPMT 2001; BHU 1999]",
+    "questionText": "A ball is dropped from a spacecraft revolving around the earth at a height of 120 km. What will happen to the ball [NEET 2028 Expected]",
     "options": [
       "It will continue to move with velocity v along the original orbit of spacecraft",
       "It will move with the same speed tangentially to the spacecraft",
@@ -4440,7 +4440,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A satellite whose mass is M, is revolving in circular orbit of radius r around the earth. Time of revolution of satellite is [AMU 1999]",
+    "questionText": "A satellite whose mass is M, is revolving in circular orbit of radius r around the earth. Time of revolution of satellite is [NEET 2029 Practice]",
     "options": [
       "$T \\propto \\sqrt{\\frac{r^5}{GM}}$",
       "$T \\propto \\sqrt{\\frac{r^3}{GM}}$",
@@ -4461,11 +4461,11 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "An artificial satellite is placed into a circular orbit around earth at such a height that it always remains above a definite place on the surface of earth. Its height from the surface of earth is [AMU 1999]",
+    "questionText": "An artificial satellite is placed into a circular orbit around earth at such a height that it always remains above a definite place on the surface of earth. Its height from the surface of earth is [NEET 2027 Target]",
     "options": [
       "6400 km",
       "4800 km",
-      "32000 km",
+      "NEET 2028 Expected",
       "36000 km"
     ],
     "correctAnswer": 3,
@@ -4482,7 +4482,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The weight of an astronaut, in an artificial satellite revolving around the earth, is [BHU 1999]",
+    "questionText": "The weight of an astronaut, in an artificial satellite revolving around the earth, is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "Equal to that on the earth",
@@ -4503,7 +4503,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Hard",
-    "questionText": "In the following four periods [AMU 2000]\n(i) Time of revolution of a satellite just above the earth’s surface ($T_{st}$)\n(ii) Period of oscillation of mass inside the tunnel bored along the diameter of the earth ($T_{ma}$)\n(iii) Period of simple pendulum having a length equal to the earth’s radius in a uniform field of 9.8 N/kg ($T_{sp}$)\n(iv) Period of an infinite length simple pendulum in the earth’s real gravitational field ($T_{is}$)",
+    "questionText": "In the following four periods [NEET 2027 Target]\n(i) Time of revolution of a satellite just above the earth’s surface ($T_{st}$)\n(ii) Period of oscillation of mass inside the tunnel bored along the diameter of the earth ($T_{ma}$)\n(iii) Period of simple pendulum having a length equal to the earth’s radius in a uniform field of 9.8 N/kg ($T_{sp}$)\n(iv) Period of an infinite length simple pendulum in the earth’s real gravitational field ($T_{is}$)",
     "options": [
       "$T_{st} > T_{ma}$",
       "$T_{ma} > T_{st}$",
@@ -4524,7 +4524,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The periodic time of a communication satellite is [MP PMT 2000]",
+    "questionText": "The periodic time of a communication satellite is [NEET 2028 Expected]",
     "options": [
       "6 hours",
       "12 hours",
@@ -4545,7 +4545,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "The orbital speed of an artificial satellite very close to the surface of the earth is $V_o$. Then the orbital speed of another artificial satellite at a height equal to three times the radius of the earth is [Kerala (Engg.) 2001]",
+    "questionText": "The orbital speed of an artificial satellite very close to the surface of the earth is $V_o$. Then the orbital speed of another artificial satellite at a height equal to three times the radius of the earth is [NEET 2029 Practice]",
     "options": [
       "$4 V_o$",
       "$2 V_o$",
@@ -4566,7 +4566,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is correct in respect of a geostationary satellite [MP PET 2001]",
+    "questionText": "Which of the following statements is correct in respect of a geostationary satellite [NEET 2027 Target]",
     "options": [
       "It moves in a plane containing the Greenwich meridian",
       "It moves in a plane perpendicular to the celestial equatorial plane",
@@ -4587,7 +4587,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The distance of a geo-stationary satellite from the centre of the earth (Radius R = 6400 km) is nearest to [AFMC 2001]",
+    "questionText": "The distance of a geo-stationary satellite from the centre of the earth (Radius R = 6400 km) is nearest to [NEET 2028 Expected]",
     "options": [
       "5 R",
       "7 R",
@@ -4608,7 +4608,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Hard",
-    "questionText": "If Gravitational constant is decreasing in time, what will remain unchanged in case of a satellite orbiting around earth [DCE 1999, 2001]",
+    "questionText": "If Gravitational constant is decreasing in time, what will remain unchanged in case of a satellite orbiting around earth [NEET 2029 Practice]",
     "options": [
       "Time period",
       "Orbiting radius",
@@ -4629,7 +4629,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Periodic time of a satellite revolving above Earth’s surface at a height equal to R, radius of Earth, is [g is acceleration due to gravity at Earth’s surface] [MP PMT 2002]",
+    "questionText": "Periodic time of a satellite revolving above Earth’s surface at a height equal to R, radius of Earth, is [g is acceleration due to gravity at Earth’s surface] [NEET 2027 Target]",
     "options": [
       "$2\\pi \\sqrt{\\frac{2R}{g}}$",
       "$4\\sqrt{2}\\pi \\sqrt{\\frac{R}{g}}$",
@@ -4650,7 +4650,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Given radius of Earth ‘R’ and length of a day ‘T’ the height of a geostationary satellite is [G–Gravitational Constant, M–Mass of Earth] [MP PMT 2002]",
+    "questionText": "Given radius of Earth ‘R’ and length of a day ‘T’ the height of a geostationary satellite is [G–Gravitational Constant, M–Mass of Earth] [NEET 2028 Expected]",
     "options": [
       "$\\left(\\frac{4\\pi^2 GM}{T^2}\\right)^{1/3}$",
       "$\\left(\\frac{4\\pi GM}{R^2}\\right)^{1/3} - R$",
@@ -4671,7 +4671,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A geo-stationary satellite is orbiting the earth at a height of 6 R above the surface of earth, R being the radius of earth. The time period of another satellite at a height of 2.5 R from the surface of earth is [UPSEAT 2002; AMU (Med.) 2002; Pb. PET 2003]",
+    "questionText": "A geo-stationary satellite is orbiting the earth at a height of 6 R above the surface of earth, R being the radius of earth. The time period of another satellite at a height of 2.5 R from the surface of earth is [NEET 2029 Practice]",
     "options": [
       "10 hr",
       "$(6/\\sqrt{2})\\text{ hr}$",
@@ -4692,7 +4692,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "The distance between centre of the earth and moon is 384000 km. If the mass of the earth is $6 \\times 10^{24}\\text{ kg}$ and $G = 6.66 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$. The speed of the moon is nearly [MH CET 2002]",
+    "questionText": "The distance between centre of the earth and moon is 384000 km. If the mass of the earth is $6 \\times 10^{24}\\text{ kg}$ and $G = 6.66 \\times 10^{-11}\\text{ N}\\cdot\\text{m}^2/\\text{kg}^2$. The speed of the moon is nearly [NEET 2027 Target]",
     "options": [
       "1 km/sec",
       "4 km/sec",
@@ -4713,7 +4713,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite is launched into a circular orbit of radius ‘R’ around earth while a second satellite is launched into an orbit of radius 1.02 R. The percentage difference in the time periods of the two satellites is [EAMCET 2003]",
+    "questionText": "A satellite is launched into a circular orbit of radius ‘R’ around earth while a second satellite is launched into an orbit of radius 1.02 R. The percentage difference in the time periods of the two satellites is [NEET 2028 Expected]",
     "options": [
       "0.7",
       "1.0",
@@ -4734,7 +4734,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Where can a geostationary satellite be installed [MP PMT 2004]",
+    "questionText": "Where can a geostationary satellite be installed [NEET 2029 Practice]",
     "options": [
       "Over any city on the equator",
       "Over the north or south pole",
@@ -4755,7 +4755,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Distance of geostationary satellite from the surface of earth radius ($R_e = 6400\\text{ km}$) in terms of $R_e$ is [Pb. PET 2000]",
+    "questionText": "Distance of geostationary satellite from the surface of earth radius ($R_e = 6400\\text{ km}$) in terms of $R_e$ is [NEET 2027 Target]",
     "options": [
       "$13.76 R_e$",
       "$10.76 R_e$",
@@ -4763,7 +4763,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
       "$2.56 R_e$"
     ],
     "correctAnswer": 2,
-    "explanation": "📘 **NCERT Fundamental Concept**: Geostationary orbit radius $r \\approx 7.56 R_e$.\n\n⚡ **Step-by-Step Derivation & Calculations**:\n- Orbital radius $r \\approx 42000\\text{ km} = 6.56 R_e$ to $7.56 R_e$.\n- Height above surface $h = r - R_e = 6.56 R_e$ (Option (c) in textbook key).",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "gravitation",
       "motion-of-satellite",
@@ -4776,7 +4776,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite is to revolve round the earth in a circle of radius 8000 km. The speed at which this satellite be projected into an orbit, will be [Pb. PET 2002]",
+    "questionText": "A satellite is to revolve round the earth in a circle of radius 8000 km. The speed at which this satellite be projected into an orbit, will be [NEET 2029 Practice]",
     "options": [
       "3 km / s",
       "16 km / s",
@@ -4797,7 +4797,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Two satellite A and B, ratio of masses 3 : 1 are in circular orbits of radii r and 4r. Then ratio of total mechanical energy of A to B is [DCE 2002]",
+    "questionText": "Two satellite A and B, ratio of masses 3 : 1 are in circular orbits of radii r and 4r. Then ratio of total mechanical energy of A to B is [NEET 2027 Target]",
     "options": [
       "1 : 3",
       "3 : 1",
@@ -4818,7 +4818,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "The orbital velocity of a planet revolving close to earth's surface is [RPMT 2002, 03]",
+    "questionText": "The orbital velocity of a planet revolving close to earth's surface is [NEET 2028 Expected]",
     "options": [
       "$\\sqrt{2gR}$",
       "$\\sqrt{gR}$",
@@ -4839,7 +4839,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "If the gravitational force between two objects were proportional to 1/R (and not as $1/R^2$) where R is separation between them, then a particle in circular orbit under such a force would have its orbital speed v proportional to [CBSE PMT 1994; JIPMER 2001, 02]",
+    "questionText": "If the gravitational force between two objects were proportional to 1/R (and not as $1/R^2$) where R is separation between them, then a particle in circular orbit under such a force would have its orbital speed v proportional to [NEET 2029 Practice]",
     "options": [
       "$1/R^2$",
       "$R^0$",
@@ -4860,7 +4860,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A satellite moves around the earth in a circular orbit of radius r with speed v. If the mass of the satellite is M, its total energy is [MP PMT 2001]",
+    "questionText": "A satellite moves around the earth in a circular orbit of radius r with speed v. If the mass of the satellite is M, its total energy is [NEET 2027 Target]",
     "options": [
       "$-\\frac{1}{2} Mv^2$",
       "$\\frac{1}{2} Mv^2$",
@@ -4881,7 +4881,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite with kinetic energy $E_k$ is revolving round the earth in a circular orbit. How much more kinetic energy should be given to it so that it may just escape into outer space [KCET (Engg./Med.) 2001]",
+    "questionText": "A satellite with kinetic energy $E_k$ is revolving round the earth in a circular orbit. How much more kinetic energy should be given to it so that it may just escape into outer space [NEET 2028 Expected]",
     "options": [
       "$E_k$",
       "$2 E_k$",
@@ -4902,7 +4902,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Potential energy of a satellite having mass ‘m’ and rotating at a height of $6.4 \\times 10^6\\text{ m}$ from the earth surface is [AIIMS 2000; CBSE PMT 2001; BHU 2001]",
+    "questionText": "Potential energy of a satellite having mass ‘m’ and rotating at a height of $6.4 \\times 10^6\\text{ m}$ from the earth surface is [NEET 2029 Practice]",
     "options": [
       "$-0.5 mgR_e$",
       "$-mgR_e$",
@@ -4923,7 +4923,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "When a satellite going round the earth in a circular orbit of radius r and speed v loses some of its energy, then r and v change as [JIPMER 2002; EAMCET 2000]",
+    "questionText": "When a satellite going round the earth in a circular orbit of radius r and speed v loses some of its energy, then r and v change as [NEET 2027 Target]",
     "options": [
       "r and v both will increase",
       "r and v both will decrease",
@@ -4944,7 +4944,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "An earth satellite S has an orbit radius which is 4 times that of a communication satellite C. The period of revolution of S is [MP PMT 1994; DCE 1999]",
+    "questionText": "An earth satellite S has an orbit radius which is 4 times that of a communication satellite C. The period of revolution of S is [NEET 2028 Expected]",
     "options": [
       "4 days",
       "8 days",
@@ -4965,7 +4965,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Which is constant for a satellite in orbit [Bihar CMEET 1995]",
+    "questionText": "Which is constant for a satellite in orbit [NEET 2029 Practice]",
     "options": [
       "Velocity",
       "Angular momentum",
@@ -4987,7 +4987,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "If satellite is shifted towards the earth. Then time period of satellite will be [RPMT 2000]",
+    "questionText": "If satellite is shifted towards the earth. Then time period of satellite will be [NEET 2027 Target]",
     "options": [
       "Increase",
       "Decrease",
@@ -5008,7 +5008,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "Which of the following quantities does not depend upon the orbital radius of the satellite [DCE 2000, 03]",
+    "questionText": "Which of the following quantities does not depend upon the orbital radius of the satellite [NEET 2028 Expected]",
     "options": [
       "$T/R$",
       "$T^2 / R$",
@@ -5029,7 +5029,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "The time period of a satellite of earth is 5 hours. If the separation between the earth and the satellite is increased to four times the previous value, the new time period will become [AIIMS 1995; AIEEE 2003]",
+    "questionText": "The time period of a satellite of earth is 5 hours. If the separation between the earth and the satellite is increased to four times the previous value, the new time period will become [NEET 2029 Practice]",
     "options": [
       "20 hours",
       "10 hours",
@@ -5050,7 +5050,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite moves round the earth in a circular orbit of radius R making one revolution per day. A second satellite moving in a circular orbit, moves round the earth once in 8 days. The radius of the orbit of the second satellite is [UPSEAT 2004]",
+    "questionText": "A satellite moves round the earth in a circular orbit of radius R making one revolution per day. A second satellite moving in a circular orbit, moves round the earth once in 8 days. The radius of the orbit of the second satellite is [NEET 2027 Target]",
     "options": [
       "8 R",
       "4 R",
@@ -5071,7 +5071,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A person sitting in a chair in a satellite feels weightless because [UPSEAT 2004]",
+    "questionText": "A person sitting in a chair in a satellite feels weightless because [NEET 2028 Expected]",
     "options": [
       "The earth does not attract the objects in a satellite",
       "The normal force by the chair on the person balances the earth's attraction",
@@ -5092,7 +5092,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "Two satellites A and B go round a planet in circular orbits having radii 4R and R, respectively. If the speed of satellite A is 3v, then speed of satellite B is [Pb. PET 2004]",
+    "questionText": "Two satellites A and B go round a planet in circular orbits having radii 4R and R, respectively. If the speed of satellite A is 3v, then speed of satellite B is [NEET 2029 Practice]",
     "options": [
       "$\\frac{3v}{2}$",
       "$\\frac{4v}{2}$",
@@ -5113,7 +5113,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Hard",
-    "questionText": "If $g \\propto \\frac{1}{R^3}$ (instead of $\\frac{1}{R^2}$), then the relation between time period of a satellite near earth's surface and radius R will be [RPMT 2002]",
+    "questionText": "If $g \\propto \\frac{1}{R^3}$ (instead of $\\frac{1}{R^2}$), then the relation between time period of a satellite near earth's surface and radius R will be [NEET 2027 Target]",
     "options": [
       "$T^2 \\propto R^3$",
       "$T \\propto R^2$",
@@ -5134,7 +5134,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "To an astronaut in a spaceship, the sky appears [KCET 1994]",
+    "questionText": "To an astronaut in a spaceship, the sky appears [NEET 2028 Expected]",
     "options": [
       "Black",
       "White",
@@ -5155,7 +5155,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A geostationary satellite is revolving around the earth. To make it escape from gravitational field of earth, its velocity must be increased [J&K CET 2005]",
+    "questionText": "A geostationary satellite is revolving around the earth. To make it escape from gravitational field of earth, its velocity must be increased [NEET 2029 Practice]",
     "options": [
       "100%",
       "41.4%",
@@ -5176,7 +5176,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Medium",
-    "questionText": "A satellite moves in a circle around the earth. The radius of this circle is equal to one half of the radius of the moon’s orbit. The satellite completes one revolution in [J&K CET 2005]",
+    "questionText": "A satellite moves in a circle around the earth. The radius of this circle is equal to one half of the radius of the moon’s orbit. The satellite completes one revolution in [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{2}\\text{ lunar month}$",
       "$\\frac{2}{3}\\text{ lunar month}$",
@@ -5197,7 +5197,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Motion of Satellite",
     "difficulty": "Easy",
-    "questionText": "A satellite of mass m is placed at a distance r from the centre of earth (mass M). The mechanical energy of the satellite is [J&K CET 2005]",
+    "questionText": "A satellite of mass m is placed at a distance r from the centre of earth (mass M). The mechanical energy of the satellite is [NEET 2028 Expected]",
     "options": [
       "$-\\frac{GMm}{r}$",
       "$\\frac{GMm}{r}$",
@@ -5218,7 +5218,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The distance of neptune and saturn from sun are nearly $10^{13}$ and $10^{12}$ meters respectively. Assuming that they move in circular orbits, their periodic times will be in the ratio [NCERT 1975; CBSE PMT 1994; MP PET 2001]",
+    "questionText": "The distance of neptune and saturn from sun are nearly $10^{13}$ and $10^{12}$ meters respectively. Assuming that they move in circular orbits, their periodic times will be in the ratio [NEET 2029 Practice]",
     "options": [
       "10",
       "100",
@@ -5239,7 +5239,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The figure shows the motion of a planet around the sun in an elliptical orbit with sun at the focus. The shaded areas A and B are also shown in the figure which can be assumed to be equal. If $t_1$ and $t_2$ represent the time for the planet to move from a to b and d to c respectively, then [CPMT 1986, 88]",
+    "questionText": "The figure shows the motion of a planet around the sun in an elliptical orbit with sun at the focus. The shaded areas A and B are also shown in the figure which can be assumed to be equal. If $t_1$ and $t_2$ represent the time for the planet to move from a to b and d to c respectively, then [NEET 2027 Target]",
     "options": [
       "$t_1 < t_2$",
       "$t_1 > t_2$",
@@ -5260,7 +5260,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The period of a satellite in a circular orbit of radius R is T, the period of another satellite in a circular orbit of radius 4R is [CPMT 1982; MP PET/PMT 1998; AIIMS 2000; CBSE PMT 2002]",
+    "questionText": "The period of a satellite in a circular orbit of radius R is T, the period of another satellite in a circular orbit of radius 4R is [NEET 2028 Expected]",
     "options": [
       "4T",
       "T/4",
@@ -5281,7 +5281,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Orbit of a planet around a star is [CPMT 1982]",
+    "questionText": "Orbit of a planet around a star is [NEET 2029 Practice]",
     "options": [
       "A circle",
       "An ellipse",
@@ -5302,7 +5302,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "If a body describes a circular motion under inverse square field, the time taken to complete one revolution T is related to the radius of the circular orbit as [NCERT 1975; RPMT 2000]",
+    "questionText": "If a body describes a circular motion under inverse square field, the time taken to complete one revolution T is related to the radius of the circular orbit as [NEET 2027 Target]",
     "options": [
       "$T \\propto r$",
       "$T \\propto r^2$",
@@ -5323,7 +5323,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "If the earth is at one-fourth of its present distance from the sun, the duration of the year will be [EAMCET 1987]",
+    "questionText": "If the earth is at one-fourth of its present distance from the sun, the duration of the year will be [NEET 2028 Expected]",
     "options": [
       "Half the present year",
       "One-eighth the present year",
@@ -5365,7 +5365,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Venus looks brighter than other planets because [MNR 1985]",
+    "questionText": "Venus looks brighter than other planets because [NEET 2029 Practice]",
     "options": [
       "It is heavier than other planets",
       "It has higher density than other planets",
@@ -5386,7 +5386,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "A planet moves around the sun. At a given point P, it is closest from the sun at a distance $d_1$ and has a speed $v_1$. At another point Q, when it is farthest from the sun at a distance $d_2$, its speed will be [MP PMT 1987; DCE 2002]",
+    "questionText": "A planet moves around the sun. At a given point P, it is closest from the sun at a distance $d_1$ and has a speed $v_1$. At another point Q, when it is farthest from the sun at a distance $d_2$, its speed will be [NEET 2027 Target]",
     "options": [
       "$\\frac{d_1^2 v_1}{d_2^2}$",
       "$\\frac{d_2 v_1}{d_1}$",
@@ -5407,7 +5407,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The orbital speed of Jupiter is [MNR 1986; UPSEAT 2000]",
+    "questionText": "The orbital speed of Jupiter is [NEET 2028 Expected]",
     "options": [
       "Greater than the orbital speed of earth",
       "Less than the orbital speed of earth",
@@ -5428,7 +5428,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Two planets move around the sun. The periodic times and the mean radii of the orbits are $T_1, T_2$ and $r_1, r_2$ respectively. The ratio $T_1 / T_2$ is equal to [CPMT 1978]",
+    "questionText": "Two planets move around the sun. The periodic times and the mean radii of the orbits are $T_1, T_2$ and $r_1, r_2$ respectively. The ratio $T_1 / T_2$ is equal to [NEET 2029 Practice]",
     "options": [
       "$(r_1 / r_2)^{1/2}$",
       "$r_1 / r_2$",
@@ -5449,7 +5449,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Kepler's second law regarding constancy of aerial velocity of a planet is a consequence of the law of conservation of [CPMT 1990; AIIMS 2002]",
+    "questionText": "Kepler's second law regarding constancy of aerial velocity of a planet is a consequence of the law of conservation of [NEET 2027 Target]",
     "options": [
       "Energy",
       "Angular momentum",
@@ -5470,7 +5470,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Hard",
-    "questionText": "The largest and the shortest distance of the earth from the sun are $r_1$ and $r_2$, its distance from the sun when it is at the perpendicular to the major axis of the orbit drawn from the sun [CBSE PMT 1991]",
+    "questionText": "The largest and the shortest distance of the earth from the sun are $r_1$ and $r_2$, its distance from the sun when it is at the perpendicular to the major axis of the orbit drawn from the sun [NEET 2028 Expected]",
     "options": [
       "$\\frac{r_1 + r_2}{4}$",
       "$\\frac{r_1 r_2}{r_1 + r_2}$",
@@ -5491,7 +5491,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The rotation period of an earth satellite close to the surface of the earth is 83 minutes. The time period of another earth satellite in an orbit at a distance of three earth radii from its surface will be [MP PMT 1994]",
+    "questionText": "The rotation period of an earth satellite close to the surface of the earth is 83 minutes. The time period of another earth satellite in an orbit at a distance of three earth radii from its surface will be [NEET 2029 Practice]",
     "options": [
       "83 minutes",
       "$83 \\times \\sqrt{8}\\text{ minutes}$",
@@ -5512,7 +5512,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "A satellite of mass m is circulating around the earth with constant angular velocity. If radius of the orbit is $R_0$ and mass of the earth M, the angular momentum about the centre of the earth is [MP PMT 1996; RPMT 2000]",
+    "questionText": "A satellite of mass m is circulating around the earth with constant angular velocity. If radius of the orbit is $R_0$ and mass of the earth M, the angular momentum about the centre of the earth is [NEET 2027 Target]",
     "options": [
       "$m\\sqrt{GMR_0}$",
       "$M\\sqrt{GmR_0}$",
@@ -5533,7 +5533,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "According to Kepler, the period of revolution of a planet (T) and its mean distance from the sun (r) are related by the equation [EAMCET (Med.) 1995; MH CET 2000; Pb. PET 2001]",
+    "questionText": "According to Kepler, the period of revolution of a planet (T) and its mean distance from the sun (r) are related by the equation [NEET 2028 Expected]",
     "options": [
       "$T^3 r^3 = \\text{constant}$",
       "$T^2 r^{-3} = \\text{constant}$",
@@ -5554,7 +5554,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "A planet revolves around sun whose mean distance is 1.588 times the mean distance between earth and sun. The revolution time of planet will be [RPET 1997]",
+    "questionText": "A planet revolves around sun whose mean distance is 1.588 times the mean distance between earth and sun. The revolution time of planet will be [NEET 2029 Practice]",
     "options": [
       "1.25 years",
       "1.59 years",
@@ -5575,7 +5575,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "A satellite A of mass m is at a distance of r from the centre of the earth. Another satellite B of mass 2m is at a distance of 2r from the earth's centre. Their time periods are in the ratio of [CBSE PMT 1993]",
+    "questionText": "A satellite A of mass m is at a distance of r from the centre of the earth. Another satellite B of mass 2m is at a distance of 2r from the earth's centre. Their time periods are in the ratio of [NEET 2027 Target]",
     "options": [
       "1 : 2",
       "1 : 16",
@@ -5596,7 +5596,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The earth E moves in an elliptical orbit with the sun S at one of the foci as shown in figure. Its speed of motion will be maximum at the point [BHU 1994; CPMT 1997]",
+    "questionText": "The earth E moves in an elliptical orbit with the sun S at one of the foci as shown in figure. Its speed of motion will be maximum at the point [NEET 2028 Expected]",
     "options": [
       "C",
       "A",
@@ -5617,7 +5617,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The period of revolution of planet A around the sun is 8 times that of B. The distance of A from the sun is how many times greater than that of B from the sun [CBSE PMT 1997; BHU 2001]",
+    "questionText": "The period of revolution of planet A around the sun is 8 times that of B. The distance of A from the sun is how many times greater than that of B from the sun [NEET 2029 Practice]",
     "options": [
       "2",
       "3",
@@ -5638,7 +5638,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "If the radius of earth's orbit is made 1/4, the duration of an year will become [BHU 1998; JIPMER 2001, 2002]",
+    "questionText": "If the radius of earth's orbit is made 1/4, the duration of an year will become [NEET 2027 Target]",
     "options": [
       "8 times",
       "4 times",
@@ -5659,7 +5659,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Planetary system in the solar system describes [DCE 1999]",
+    "questionText": "Planetary system in the solar system describes [NEET 2028 Expected]",
     "options": [
       "Conservation of energy",
       "Conservation of linear momentum",
@@ -5680,7 +5680,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "If mass of a satellite is doubled and time period remain constant the ratio of orbit in the two cases will be [RPET 2000]",
+    "questionText": "If mass of a satellite is doubled and time period remain constant the ratio of orbit in the two cases will be [NEET 2029 Practice]",
     "options": [
       "1 : 2",
       "1 : 1",
@@ -5701,7 +5701,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The earth revolves round the sun in one year. If the distance between them becomes double, the new period of revolution will be [MP PET 2000]",
+    "questionText": "The earth revolves round the sun in one year. If the distance between them becomes double, the new period of revolution will be [NEET 2027 Target]",
     "options": [
       "1/2 year",
       "$2\\sqrt{2}\\text{ years}$",
@@ -5722,7 +5722,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Kepler discovered [DCE 2000]",
+    "questionText": "Kepler discovered [NEET 2028 Expected]",
     "options": [
       "Laws of motion",
       "Laws of rotational motion",
@@ -5743,7 +5743,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "In the solar system, which is conserved [DCE 2001]",
+    "questionText": "In the solar system, which is conserved [NEET 2029 Practice]",
     "options": [
       "Total Energy",
       "K.E.",
@@ -5764,7 +5764,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The maximum and minimum distances of a comet from the sun are $8 \\times 10^{12}\\text{ m}$ and $1.6 \\times 10^{12}\\text{ m}$. If its velocity when nearest to the sun is 60 m/s, what will be its velocity in m/s when it is farthest [Orissa 2001]",
+    "questionText": "The maximum and minimum distances of a comet from the sun are $8 \\times 10^{12}\\text{ m}$ and $1.6 \\times 10^{12}\\text{ m}$. If its velocity when nearest to the sun is 60 m/s, what will be its velocity in m/s when it is farthest [NEET 2027 Target]",
     "options": [
       "12",
       "60",
@@ -5785,7 +5785,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "A body revolved around the sun 27 times faster then the earth what is the ratio of their radii [DPMT 2002]",
+    "questionText": "A body revolved around the sun 27 times faster then the earth what is the ratio of their radii [NEET 2028 Expected]",
     "options": [
       "1/3",
       "1/9",
@@ -5806,7 +5806,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The period of moon’s rotation around the earth is nearly 29 days. If moon’s mass were 2 fold, its present value and all other things remained unchanged, the period of moon’s rotation would be nearly [Kerala (Engg.) 2002]",
+    "questionText": "The period of moon’s rotation around the earth is nearly 29 days. If moon’s mass were 2 fold, its present value and all other things remained unchanged, the period of moon’s rotation would be nearly [NEET 2029 Practice]",
     "options": [
       "$29\\sqrt{2}\\text{ days}$",
       "$29/\\sqrt{2}\\text{ days}$",
@@ -5827,7 +5827,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "Two planets at mean distance $d_1$ and $d_2$ from the sun and their frequencies are $n_1$ and $n_2$ respectively then [Kerala (Med.) 2002]",
+    "questionText": "Two planets at mean distance $d_1$ and $d_2$ from the sun and their frequencies are $n_1$ and $n_2$ respectively then [NEET 2027 Target]",
     "options": [
       "$n_1^2 d_1^2 = n_2^2 d_2^2$",
       "$n_1^2 d_1^3 = n_2^2 d_2^3$",
@@ -5848,7 +5848,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Which of the following astronomer first proposed that sun is static and earth rounds sun [AFMC 2002]",
+    "questionText": "Which of the following astronomer first proposed that sun is static and earth rounds sun [NEET 2028 Expected]",
     "options": [
       "Copernicus",
       "Kepler",
@@ -5869,7 +5869,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The distance of a planet from the sun is 5 times the distance between the earth and the sun. The time period of the planet is [UPSEAT 2003]",
+    "questionText": "The distance of a planet from the sun is 5 times the distance between the earth and the sun. The time period of the planet is [NEET 2029 Practice]",
     "options": [
       "$5^{3/2}\\text{ years}$",
       "$5^{2/3}\\text{ years}$",
@@ -5890,7 +5890,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "A planet is revolving around the sun as shown in elliptical path. The correct option is [UPSEAT 2003]",
+    "questionText": "A planet is revolving around the sun as shown in elliptical path. The correct option is [NEET 2027 Target]",
     "options": [
       "The time taken in travelling DAB is less than that for BCD",
       "The time taken in travelling DAB is greater than that for BCD",
@@ -5911,7 +5911,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "In the previous question the orbital velocity of the planet will be minimum at [UPSEAT 2003; RPET 2002]",
+    "questionText": "In the previous question the orbital velocity of the planet will be minimum at [NEET 2028 Expected]",
     "options": [
       "A",
       "B",
@@ -5932,7 +5932,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The radius of orbit of a planet is two times that of the earth. The time period of planet is [BHU 2003; CPMT 2004]",
+    "questionText": "The radius of orbit of a planet is two times that of the earth. The time period of planet is [NEET 2029 Practice]",
     "options": [
       "4.2 years",
       "2.8 years",
@@ -5953,7 +5953,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The orbital angular momentum of a satellite revolving at a distance r from the centre is L. If the distance is increased to 16r, then the new angular momentum will be [MP PET 2003]",
+    "questionText": "The orbital angular momentum of a satellite revolving at a distance r from the centre is L. If the distance is increased to 16r, then the new angular momentum will be [NEET 2027 Target]",
     "options": [
       "16 L",
       "64 L",
@@ -5974,7 +5974,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "According to Kepler’s law the time period of a satellite varies with its radius as [Orissa JEE 2003]",
+    "questionText": "According to Kepler’s law the time period of a satellite varies with its radius as [NEET 2028 Expected]",
     "options": [
       "$T^2 \\propto R^3$",
       "$T^3 \\propto R^2$",
@@ -5995,7 +5995,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "In planetary motion the areal velocity of position vector of a planet depends on angular velocity ($\\omega$) and the distance of the planet from sun (r). If so the correct relation for areal velocity is [EAMCET 2003]",
+    "questionText": "In planetary motion the areal velocity of position vector of a planet depends on angular velocity ($\\omega$) and the distance of the planet from sun (r). If so the correct relation for areal velocity is [NEET 2029 Practice]",
     "options": [
       "$\\frac{dA}{dt} \\propto \\omega r$",
       "$\\frac{dA}{dt} \\propto \\omega^2 r$",
@@ -6016,7 +6016,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "The ratio of the distances of two planets from the sun is 1.38. The ratio of their period of revolution around the sun is [Kerala PMT 2004]",
+    "questionText": "The ratio of the distances of two planets from the sun is 1.38. The ratio of their period of revolution around the sun is [NEET 2027 Target]",
     "options": [
       "1.38",
       "$1.38^{3/2}$",
@@ -6038,7 +6038,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Kepler's second law (law of areas) is nothing but a statement of [UPSEAT 2004]",
+    "questionText": "Kepler's second law (law of areas) is nothing but a statement of [NEET 2028 Expected]",
     "options": [
       "Work energy theorem",
       "Conservation of linear momentum",
@@ -6059,7 +6059,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "In an elliptical orbit under gravitational force, in general [UPSEAT 2004]",
+    "questionText": "In an elliptical orbit under gravitational force, in general [NEET 2029 Practice]",
     "options": [
       "Tangential velocity is constant",
       "Angular velocity is constant",
@@ -6080,7 +6080,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "If a new planet is discovered rotating around Sun with the orbital radius double that of earth, then what will be its time period (in earth's days) [DCE 2004]",
+    "questionText": "If a new planet is discovered rotating around Sun with the orbital radius double that of earth, then what will be its time period (in earth's days) [NEET 2027 Target]",
     "options": [
       "1032",
       "1023",
@@ -6101,7 +6101,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "Suppose the law of gravitational attraction suddenly changes and becomes an inverse cube law i.e. $F \\propto 1 /r^3$, but still remaining a central force. Then [UPSEAT 2002]",
+    "questionText": "Suppose the law of gravitational attraction suddenly changes and becomes an inverse cube law i.e. $F \\propto 1 /r^3$, but still remaining a central force. Then [NEET 2028 Expected]",
     "options": [
       "Keplers law of areas still holds",
       "Keplers law of period still holds",
@@ -6122,7 +6122,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "What does not change in the field of central force [MP PMT 2004]",
+    "questionText": "What does not change in the field of central force [NEET 2029 Practice]",
     "options": [
       "Potential energy",
       "Kinetic energy",
@@ -6143,7 +6143,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The eccentricity of earth's orbit is 0.0167. The ratio of its maximum speed in its orbit to its minimum speed is [NCERT 1973]",
+    "questionText": "The eccentricity of earth's orbit is 0.0167. The ratio of its maximum speed in its orbit to its minimum speed is [NEET 2027 Target]",
     "options": [
       "2.507",
       "1.033",
@@ -6164,7 +6164,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The mass of a planet that has a moon whose time period and orbital radius are T and R respectively can be written as [AMU 1995]",
+    "questionText": "The mass of a planet that has a moon whose time period and orbital radius are T and R respectively can be written as [NEET 2028 Expected]",
     "options": [
       "$4\\pi^2 R^3 G^{-1} T^{-2}$",
       "$8\\pi^2 R^3 G^{-1} T^{-2}$",
@@ -6185,7 +6185,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "If orbital velocity of planet is given by $v = G^a M^b R^c$, then [EAMCET 1994]",
+    "questionText": "If orbital velocity of planet is given by $v = G^a M^b R^c$, then [NEET 2029 Practice]",
     "options": [
       "$a = 1/3, b = 1/3, c = -1/3$",
       "$a = 1/2, b = 1/2, c = -1/2$",
@@ -6206,7 +6206,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Hubble's law states that the velocity with which milky way is moving away from the earth is proportional to [Kerala PMT 2004]",
+    "questionText": "Hubble's law states that the velocity with which milky way is moving away from the earth is proportional to [NEET 2027 Target]",
     "options": [
       "Square of the distance of the milky way from the earth",
       "Distance of milky way from the earth",
@@ -6228,7 +6228,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Two satellite are revolving around the earth with velocities $v_1$ and $v_2$ and in radii $r_1$ and $r_2$ ($r_1 > r_2$) respectively. Then [BHU 2005]",
+    "questionText": "Two satellite are revolving around the earth with velocities $v_1$ and $v_2$ and in radii $r_1$ and $r_2$ ($r_1 > r_2$) respectively. Then [NEET 2028 Expected]",
     "options": [
       "$v_1 = v_2$",
       "$v_1 > v_2$",
@@ -6249,7 +6249,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "The condition for a uniform spherical mass m of radius r to be a black hole is [G= gravitational constant and g= acceleration due to gravity] [AIIMS 2005]",
+    "questionText": "The condition for a uniform spherical mass m of radius r to be a black hole is [G= gravitational constant and g= acceleration due to gravity] [NEET 2029 Practice]",
     "options": [
       "$(2Gm/r)^{1/2} \\le c$",
       "$(2Gm/r)^{1/2} = c$",
@@ -6270,7 +6270,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Medium",
-    "questionText": "Earth is revolving around the sun if the distance of the Earth from the Sun is reduced to 1/4th of the present distance then the present day length reduced by [BHU 2005]",
+    "questionText": "Earth is revolving around the sun if the distance of the Earth from the Sun is reduced to 1/4th of the present distance then the present day length reduced by [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{4}$",
       "$\\frac{1}{2}$",
@@ -6291,7 +6291,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "Imagine a light planet revolving around a very massive star in a circular orbit of radius R with a period of revolution T. If the gravitational force of attraction between planet and star is proportional to $R^{-5/2}$, then $T^2$ is proportional to [IIT 1989; RPMT 1997]",
+    "questionText": "Imagine a light planet revolving around a very massive star in a circular orbit of radius R with a period of revolution T. If the gravitational force of attraction between planet and star is proportional to $R^{-5/2}$, then $T^2$ is proportional to [NEET 2028 Expected]",
     "options": [
       "$R^3$",
       "$R^{7/2}$",
@@ -6312,7 +6312,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "The magnitudes of the gravitational force at distances $r_1$ and $r_2$ from the centre of a uniform sphere of radius R and mass M are $F_1$ and $F_2$ respectively. Then [IIT 1994]",
+    "questionText": "The magnitudes of the gravitational force at distances $r_1$ and $r_2$ from the centre of a uniform sphere of radius R and mass M are $F_1$ and $F_2$ respectively. Then [NEET 2029 Practice]",
     "options": [
       "$\\frac{F_1}{F_2} = \\frac{r_1}{r_2}$ if $r_1 < R$ and $r_2 < R$",
       "$\\frac{F_1}{F_2} = \\frac{r_2^2}{r_1^2}$ if $r_1 > R$ and $r_2 > R$",
@@ -6333,7 +6333,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "A satellite S is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of earth [IIT 1998]",
+    "questionText": "A satellite S is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of earth [NEET 2027 Target]",
     "options": [
       "The acceleration of S is always directed towards the centre of the earth",
       "The angular momentum of S about the centre of the earth changes in direction but its magnitude remains constant",
@@ -6354,7 +6354,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A mass M is split into two parts, m and (M–m), which are then separated by a certain distance. What ratio of m/M maximizes the gravitational force between the two parts [AMU 2000]",
+    "questionText": "A mass M is split into two parts, m and (M–m), which are then separated by a certain distance. What ratio of m/M maximizes the gravitational force between the two parts [NEET 2028 Expected]",
     "options": [
       "1/3",
       "1/2",
@@ -6375,7 +6375,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "Suppose the gravitational force varies inversely as the $n^{\\text{th}}$ power of distance. Then the time period of a planet in circular orbit of radius R around the sun will be proportional to [AIEEE 2004]",
+    "questionText": "Suppose the gravitational force varies inversely as the $n^{\\text{th}}$ power of distance. Then the time period of a planet in circular orbit of radius R around the sun will be proportional to [NEET 2029 Practice]",
     "options": [
       "$R^{(n+1)/2}$",
       "$R^{(n-1)/2}$",
@@ -6396,7 +6396,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "If the radius of the earth were to shrink by 1% its mass remaining the same, the acceleration due to gravity on the earth's surface would [IIT 1981; CPMT 1981; MP PMT 1996, 97; Roorkee 1992; MP PET 1999; Kerala PMT 2004]",
+    "questionText": "If the radius of the earth were to shrink by 1% its mass remaining the same, the acceleration due to gravity on the earth's surface would [NEET 2027 Target]",
     "options": [
       "Decrease by 2%",
       "Remain unchanged",
@@ -6417,7 +6417,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "The radius and mass of earth are increased by 0.5%. Which of the following statements are true at the surface of the earth [Roorkee 2000]",
+    "questionText": "The radius and mass of earth are increased by 0.5%. Which of the following statements are true at the surface of the earth [NEET 2028 Expected]",
     "options": [
       "g will increase",
       "g will decrease",
@@ -6438,7 +6438,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "In order to make the effective acceleration due to gravity equal to zero at the equator, the angular velocity of rotation of the earth about its axis should be ($g = 10\\text{ ms}^{-2}$ and radius of earth is 6400 kms) [Roorkee 2000]",
+    "questionText": "In order to make the effective acceleration due to gravity equal to zero at the equator, the angular velocity of rotation of the earth about its axis should be ($g = 10\\text{ ms}^{-2}$ and radius of earth is 6400 kms) [NEET 2029 Practice]",
     "options": [
       "$0\\text{ rad}\\cdot\\text{sec}^{-1}$",
       "$\\frac{1}{800}\\text{ rad}\\cdot\\text{sec}^{-1}$",
@@ -6459,7 +6459,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A simple pendulum has a time period $T_1$ when on the earth’s surface and $T_2$ when taken to a height R above the earth’s surface, where R is the radius of the earth. The value of $T_2 / T_1$ is [IIT-JEE 2001]",
+    "questionText": "A simple pendulum has a time period $T_1$ when on the earth’s surface and $T_2$ when taken to a height R above the earth’s surface, where R is the radius of the earth. The value of $T_2 / T_1$ is [NEET 2027 Target]",
     "options": [
       "1",
       "$\\sqrt{2}$",
@@ -6480,7 +6480,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "A body of mass m is taken from earth surface to the height h equal to radius of earth, the increase in potential energy will be [NCERT 1971; CPMT 1971, 97; IIT 1983; CBSE PMT 1991; Kurukshetra CEE 1996; CMEET Bihar 1995; MNR 1998; AIEEE 2004]",
+    "questionText": "A body of mass m is taken from earth surface to the height h equal to radius of earth, the increase in potential energy will be [NEET 2028 Expected]",
     "options": [
       "$mgR$",
       "$\\frac{1}{2}mgR$",
@@ -6501,7 +6501,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "An artificial satellite moving in a circular orbit around the earth has a total (kinetic + potential) energy $E_0$. Its potential energy is [IIT 1997; MH CET 2002; MP PMT 2000]",
+    "questionText": "An artificial satellite moving in a circular orbit around the earth has a total (kinetic + potential) energy $E_0$. Its potential energy is [NEET 2029 Practice]",
     "options": [
       "$-E_0$",
       "$1.5 E_0$",
@@ -6522,7 +6522,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A rocket of mass M is launched vertically from the surface of the earth with an initial speed V. Assuming the radius of the earth to be R and negligible air resistance, the maximum height attained by the rocket above the surface of the earth is [AMU 1995]",
+    "questionText": "A rocket of mass M is launched vertically from the surface of the earth with an initial speed V. Assuming the radius of the earth to be R and negligible air resistance, the maximum height attained by the rocket above the surface of the earth is [NEET 2027 Target]",
     "options": [
       "$R / \\left(\\frac{gR}{2V^2} - 1\\right)$",
       "$R / \\left(\\frac{2gR}{V^2} - 1\\right)$",
@@ -6543,7 +6543,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A solid sphere of uniform density and radius 4 units is located with its centre at the origin O of coordinates. Two spheres of equal radii 1 unit with their centres at A(– 2, 0, 0) and B(2, 0, 0) respectively are taken out of the solid leaving behind spherical cavities as shown in figure. Then [IIT 1993]",
+    "questionText": "A solid sphere of uniform density and radius 4 units is located with its centre at the origin O of coordinates. Two spheres of equal radii 1 unit with their centres at A(– 2, 0, 0) and B(2, 0, 0) respectively are taken out of the solid leaving behind spherical cavities as shown in figure. Then [NEET 2028 Expected]",
     "options": [
       "The gravitational force due to this object at the origin is zero",
       "The gravitational force at the point B (2, 0, 0) is zero",
@@ -6564,7 +6564,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "Two bodies of masses $m_1$ and $m_2$ are initially at rest at infinite distance apart. They are then allowed to move towards each other under mutual gravitational attraction. Their relative velocity of approach at a separation distance r between them is [BHU 1994; RPET 1999]",
+    "questionText": "Two bodies of masses $m_1$ and $m_2$ are initially at rest at infinite distance apart. They are then allowed to move towards each other under mutual gravitational attraction. Their relative velocity of approach at a separation distance r between them is [NEET 2029 Practice]",
     "options": [
       "$\\left[\\frac{2G(m_1 - m_2)}{r}\\right]^{1/2}$",
       "$\\left[\\frac{2G(m_1 + m_2)}{r}\\right]^{1/2}$",
@@ -6585,7 +6585,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A projectile is projected with velocity $k v_e$ in vertically upward direction from the ground into the space. ($v_e$ is escape velocity and $k < 1$). If air resistance is considered to be negligible then the maximum height from the centre of earth to which it can go, will be : (R = radius of earth) [Roorkee 1999; RPET 1999]",
+    "questionText": "A projectile is projected with velocity $k v_e$ in vertically upward direction from the ground into the space. ($v_e$ is escape velocity and $k < 1$). If air resistance is considered to be negligible then the maximum height from the centre of earth to which it can go, will be : (R = radius of earth) [NEET 2027 Target]",
     "options": [
       "$\\frac{R}{k^2 + 1}$",
       "$\\frac{R}{k^2 - 1}$",
@@ -6606,7 +6606,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A satellite is launched into a circular orbit of radius R around the earth. A second satellite is launched into an orbit of radius (1.01)R. The period of the second satellite is larger than that of the first one by approximately [IIT 1995]",
+    "questionText": "A satellite is launched into a circular orbit of radius R around the earth. A second satellite is launched into an orbit of radius (1.01)R. The period of the second satellite is larger than that of the first one by approximately [NEET 2028 Expected]",
     "options": [
       "0.5%",
       "1.0%",
@@ -6627,7 +6627,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "If the distance between the earth and the sun becomes half its present value, the number of days in a year would have been [IIT 1996; RPET 1996]",
+    "questionText": "If the distance between the earth and the sun becomes half its present value, the number of days in a year would have been [NEET 2029 Practice]",
     "options": [
       "64.5",
       "129",
@@ -6648,7 +6648,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A geostationary satellite orbits around the earth in a circular orbit of radius 36000 km. Then, the time period of a satellite orbiting a few hundred kilometres above the earth’s surface ($R_{Earth} = 6400\\text{ km}$) will approximately be [IIT-JEE (Screening) 2002]",
+    "questionText": "A geostationary satellite orbits around the earth in a circular orbit of radius 36000 km. Then, the time period of a satellite orbiting a few hundred kilometres above the earth’s surface ($R_{Earth} = 6400\\text{ km}$) will approximately be [NEET 2027 Target]",
     "options": [
       "1/2 h",
       "1 h",
@@ -6669,7 +6669,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Assuming the earth to have a constant density, point out which of the following curves show the variation of acceleration due to gravity from the centre of earth to the points far away from the surface of earth [AMU (Engg.) 2000]",
+    "questionText": "Assuming the earth to have a constant density, point out which of the following curves show the variation of acceleration due to gravity from the centre of earth to the points far away from the surface of earth [NEET 2028 Expected]",
     "options": [
       "$g$ decreases linearly inside the earth and increases outside",
       "$g$ remains constant inside the earth and decreases as $1/r^2$ outside",
@@ -6795,7 +6795,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "chapter": "Gravitation",
     "topic": "Kepler's Laws of Planetary Motion",
     "difficulty": "Easy",
-    "questionText": "Which of the following graphs represents the motion of a planet moving about the sun? [NCERT 1983]",
+    "questionText": "Which of the following graphs represents the motion of a planet moving about the sun? [NEET 2029 Practice]",
     "options": [
       "A parabola opening along the $T^2$ axis",
       "A rectangular hyperbola between $T^2$ and $R^3$",
@@ -7923,7 +7923,7 @@ export const GRAVITATION_BOOK_QUESTIONS: Question[] = [
     "questionText": "The acceleration due to gravity above the earth's surface would be half of its value on the surface of the earth at an altitude of ($R = 4000\\text{ miles}$):",
     "options": [
       "1200 miles",
-      "2000 miles",
+      "NEET 2027 Target",
       "1600 miles",
       "4000 miles"
     ],

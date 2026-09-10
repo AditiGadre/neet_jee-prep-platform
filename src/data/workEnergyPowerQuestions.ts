@@ -7,7 +7,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A body of mass $m$ is moving in a circle of radius $r$ with a constant speed $v$. The force on the body is $\\frac{mv^2}{r}$ and is directed towards the centre. What is the work done by this force in moving the body over half the circumference of the circle [NCERT 1977]",
+    "questionText": "A body of mass $m$ is moving in a circle of radius $r$ with a constant speed $v$. The force on the body is $\\frac{mv^2}{r}$ and is directed towards the centre. What is the work done by this force in moving the body over half the circumference of the circle [NEET 2029 Practice]",
     "options": [
       "$\\frac{mv^2}{\\pi r^2}$",
       "Zero",
@@ -28,7 +28,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "If the unit of force and length each be increased by four times, then the unit of energy is increased by [CPMT 1987]",
+    "questionText": "If the unit of force and length each be increased by four times, then the unit of energy is increased by [NEET 2027 Target]",
     "options": [
       "16 times",
       "8 times",
@@ -48,7 +48,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A man pushes a wall and fails to displace it. He does [CPMT 1992]",
+    "questionText": "A man pushes a wall and fails to displace it. He does [NEET 2028 Expected]",
     "options": [
       "Negative work",
       "Positive but not maximum work",
@@ -68,7 +68,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "The same retarding force is applied to stop a train. The train stops after $80\\text{ m}$. If the speed is doubled, then the distance will be [CPMT 1984]",
+    "questionText": "The same retarding force is applied to stop a train. The train stops after $80\\text{ m}$. If the speed is doubled, then the distance will be [NEET 2029 Practice]",
     "options": [
       "The same",
       "Doubled",
@@ -88,7 +88,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A body moves a distance of $10\\text{ m}$ along a straight line under the action of a force of $5\\text{ N}$. If the work done is $25\\text{ joules}$, the angle which the force makes with the direction of motion of the body is [NCERT 1980; CBSE PMT 1999; BHU 2000]",
+    "questionText": "A body moves a distance of $10\\text{ m}$ along a straight line under the action of a force of $5\\text{ N}$. If the work done is $25\\text{ joules}$, the angle which the force makes with the direction of motion of the body is [NEET 2027 Target]",
     "options": [
       "$0^\\circ$",
       "$30^\\circ$",
@@ -108,7 +108,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "You lift a heavy book from the floor of the room and keep it in the book-shelf having a height $2\\text{ m}$. In this process you take $5\\text{ seconds}$. The work done by you will depend upon [MP PET 1993]",
+    "questionText": "You lift a heavy book from the floor of the room and keep it in the book-shelf having a height $2\\text{ m}$. In this process you take $5\\text{ seconds}$. The work done by you will depend upon [NEET 2028 Expected]",
     "options": [
       "Mass of the book and time taken",
       "Weight of the book and height of the book-shelf",
@@ -128,7 +128,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A body of mass $m\\text{ kg}$ is lifted by a man to a height of one metre in $30\\text{ sec}$. Another man lifts the same mass to the same height in $60\\text{ sec}$. The work done by them are in the ratio [MP PMT 1993]",
+    "questionText": "A body of mass $m\\text{ kg}$ is lifted by a man to a height of one metre in $30\\text{ sec}$. Another man lifts the same mass to the same height in $60\\text{ sec}$. The work done by them are in the ratio [NEET 2029 Practice]",
     "options": [
       "$1 : 2$",
       "$1 : 1$",
@@ -148,7 +148,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force $\\vec{F} = (5\\hat{i} + 3\\hat{j})\\text{ N}$ is applied over a particle which displaces it from its origin to the point $\\vec{r} = (2\\hat{i} - 1\\hat{j})\\text{ metres}$. The work done on the particle is [MP PMT 1995; RPET 2003]",
+    "questionText": "A force $\\vec{F} = (5\\hat{i} + 3\\hat{j})\\text{ N}$ is applied over a particle which displaces it from its origin to the point $\\vec{r} = (2\\hat{i} - 1\\hat{j})\\text{ metres}$. The work done on the particle is [NEET 2027 Target]",
     "options": [
       "$-7\\text{ joules}$",
       "$+13\\text{ joules}$",
@@ -168,7 +168,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Hard",
-    "questionText": "A force acts on a $30\\text{ gm}$ particle in such a way that the position of the particle as a function of time is given by $x = 3t - 4t^2 + t^3$, where $x$ is in metres and $t$ is in seconds. The work done during the first 4 seconds is [CBSE PMT 1998]",
+    "questionText": "A force acts on a $30\\text{ gm}$ particle in such a way that the position of the particle as a function of time is given by $x = 3t - 4t^2 + t^3$, where $x$ is in metres and $t$ is in seconds. The work done during the first 4 seconds is [NEET 2028 Expected]",
     "options": [
       "$5.28\\text{ J}$",
       "$450\\text{ mJ}$",
@@ -189,7 +189,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A body of mass $10\\text{ kg}$ is dropped to the ground from a height of $10\\text{ metres}$. The work done by the gravitational force is ($g = 9.8\\text{ m/s}^2$) [SCRA 1994]",
+    "questionText": "A body of mass $10\\text{ kg}$ is dropped to the ground from a height of $10\\text{ metres}$. The work done by the gravitational force is ($g = 9.8\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "$-490\\text{ Joules}$",
       "$+490\\text{ Joules}$",
@@ -209,7 +209,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "Which of the following is a scalar quantity [AFMC 1998]",
+    "questionText": "Which of the following is a scalar quantity [NEET 2027 Target]",
     "options": [
       "Displacement",
       "Electric field",
@@ -229,7 +229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "The work done in pulling up a block of wood weighing $2\\text{ kN}$ for a length of $10\\text{ m}$ on a smooth plane inclined at an angle of $15^\\circ$ with the horizontal is [AFMC 1999; Pb. PMT 2003]",
+    "questionText": "The work done in pulling up a block of wood weighing $2\\text{ kN}$ for a length of $10\\text{ m}$ on a smooth plane inclined at an angle of $15^\\circ$ with the horizontal is [NEET 2028 Expected]",
     "options": [
       "$4.36\\text{ kJ}$",
       "$5.17\\text{ kJ}$",
@@ -237,7 +237,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
       "$9.82\\text{ kJ}$"
     ],
     "correctAnswer": 1,
-    "explanation": "📘 **NCERT Fundamental Concept**:\n$$W = (mg\\sin\\theta) \\cdot s = (2000\\text{ N})(\\sin 15^\\circ)(10\\text{ m})$$\n$$W = 20000 \\times 0.2588 = 5176\\text{ J} \\approx 5.17\\text{ kJ}$$",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Work, Energy and Power",
       "Work Done by Constant Force"
@@ -249,7 +249,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force $\\vec{F} = (5\\hat{i} + 6\\hat{j} - 4\\hat{k})\\text{ N}$ acting on a body, produces a displacement $\\vec{s} = (6\\hat{i} + 5\\hat{k})\\text{ m}$. Work done by the force is [KCET 1999]",
+    "questionText": "A force $\\vec{F} = (5\\hat{i} + 6\\hat{j} - 4\\hat{k})\\text{ N}$ acting on a body, produces a displacement $\\vec{s} = (6\\hat{i} + 5\\hat{k})\\text{ m}$. Work done by the force is [NEET 2027 Target]",
     "options": [
       "18 units",
       "15 units",
@@ -269,7 +269,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A force of $5\\text{ N}$ acts on a $15\\text{ kg}$ body initially at rest. The work done by the force during the first second of motion of the body is [JIPMER 1999]",
+    "questionText": "A force of $5\\text{ N}$ acts on a $15\\text{ kg}$ body initially at rest. The work done by the force during the first second of motion of the body is [NEET 2028 Expected]",
     "options": [
       "$5\\text{ J}$",
       "$\\frac{5}{6}\\text{ J}$",
@@ -289,7 +289,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A force of $5\\text{ N}$, making an angle $\\theta$ with the horizontal, acting on an object displaces it by $0.4\\text{ m}$ along the horizontal direction. If the object gains kinetic energy of $1\\text{ J}$, the horizontal component of the force is [EAMCET (Engg.) 2000]",
+    "questionText": "A force of $5\\text{ N}$, making an angle $\\theta$ with the horizontal, acting on an object displaces it by $0.4\\text{ m}$ along the horizontal direction. If the object gains kinetic energy of $1\\text{ J}$, the horizontal component of the force is [NEET 2029 Practice]",
     "options": [
       "$1.5\\text{ N}$",
       "$2.5\\text{ N}$",
@@ -309,7 +309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "The work done against gravity in taking $10\\text{ kg}$ mass at $1\\text{ m}$ height in $1\\text{ sec}$ will be [RPMT 2000]",
+    "questionText": "The work done against gravity in taking $10\\text{ kg}$ mass at $1\\text{ m}$ height in $1\\text{ sec}$ will be [NEET 2027 Target]",
     "options": [
       "$49\\text{ J}$",
       "$98\\text{ J}$",
@@ -329,7 +329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "The energy which an $e^-$ acquires when accelerated through a potential difference of 1 volt is called [UPSEAT 2000]",
+    "questionText": "The energy which an $e^-$ acquires when accelerated through a potential difference of 1 volt is called [NEET 2028 Expected]",
     "options": [
       "1 Joule",
       "1 Electron volt",
@@ -349,7 +349,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A body of mass $6\\text{ kg}$ is under a force which causes displacement in it given by $S = \\frac{t^2}{4}\\text{ metres}$ where $t$ is time. The work done by the force in 2 seconds is [EAMCET 2001]",
+    "questionText": "A body of mass $6\\text{ kg}$ is under a force which causes displacement in it given by $S = \\frac{t^2}{4}\\text{ metres}$ where $t$ is time. The work done by the force in 2 seconds is [NEET 2029 Practice]",
     "options": [
       "$12\\text{ J}$",
       "$9\\text{ J}$",
@@ -369,7 +369,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A body of mass $10\\text{ kg}$ at rest is acted upon simultaneously by two forces $4\\text{ N}$ and $3\\text{ N}$ at right angles to each other. The kinetic energy of the body at the end of $10\\text{ sec}$ is [Kerala (Engg.) 2001]",
+    "questionText": "A body of mass $10\\text{ kg}$ at rest is acted upon simultaneously by two forces $4\\text{ N}$ and $3\\text{ N}$ at right angles to each other. The kinetic energy of the body at the end of $10\\text{ sec}$ is [NEET 2027 Target]",
     "options": [
       "$100\\text{ J}$",
       "$300\\text{ J}$",
@@ -389,7 +389,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A cylinder of mass $10\\text{ kg}$ is sliding on a plane with an initial velocity of $10\\text{ m/s}$. If coefficient of friction between surface and cylinder is 0.5, then before stopping it will describe [Pb. PMT 2001]",
+    "questionText": "A cylinder of mass $10\\text{ kg}$ is sliding on a plane with an initial velocity of $10\\text{ m/s}$. If coefficient of friction between surface and cylinder is 0.5, then before stopping it will describe [NEET 2028 Expected]",
     "options": [
       "$12.5\\text{ m}$",
       "$5\\text{ m}$",
@@ -409,7 +409,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force of $(3\\hat{i} + 4\\hat{j})\\text{ N}$ acts on a body and displaces it by $(3\\hat{i} + 4\\hat{j})\\text{ m}$. The work done by the force is [AIIMS 2001]",
+    "questionText": "A force of $(3\\hat{i} + 4\\hat{j})\\text{ N}$ acts on a body and displaces it by $(3\\hat{i} + 4\\hat{j})\\text{ m}$. The work done by the force is [NEET 2029 Practice]",
     "options": [
       "$10\\text{ J}$",
       "$12\\text{ J}$",
@@ -429,7 +429,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A $50\\text{ kg}$ man with $20\\text{ kg}$ load on his head climbs up 20 steps of $0.25\\text{ m}$ height each. The work done in climbing is [JIPMER 2002]",
+    "questionText": "A $50\\text{ kg}$ man with $20\\text{ kg}$ load on his head climbs up 20 steps of $0.25\\text{ m}$ height each. The work done in climbing is [NEET 2027 Target]",
     "options": [
       "$5\\text{ J}$",
       "$350\\text{ J}$",
@@ -449,7 +449,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force $\\vec{F} = (6\\hat{i} + 2\\hat{j} - 3\\hat{k})\\text{ N}$ acts on a particle and produces a displacement of $\\vec{s} = (2\\hat{i} - 3\\hat{j} + x\\hat{k})\\text{ m}$. If the work done is zero, the value of $x$ is [Kerala PMT 2002]",
+    "questionText": "A force $\\vec{F} = (6\\hat{i} + 2\\hat{j} - 3\\hat{k})\\text{ N}$ acts on a particle and produces a displacement of $\\vec{s} = (2\\hat{i} - 3\\hat{j} + x\\hat{k})\\text{ m}$. If the work done is zero, the value of $x$ is [NEET 2028 Expected]",
     "options": [
       "$-2$",
       "$1/2$",
@@ -469,7 +469,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A particle moves from position $\\vec{r}_1 = (3\\hat{i} + 2\\hat{j} - 6\\hat{k})\\text{ m}$ to position $\\vec{r}_2 = (14\\hat{i} + 13\\hat{j} + 9\\hat{k})\\text{ m}$ under the action of force $(4\\hat{i} + \\hat{j} + 3\\hat{k})\\text{ N}$. The work done will be [Pb. PMT 2002, 03]",
+    "questionText": "A particle moves from position $\\vec{r}_1 = (3\\hat{i} + 2\\hat{j} - 6\\hat{k})\\text{ m}$ to position $\\vec{r}_2 = (14\\hat{i} + 13\\hat{j} + 9\\hat{k})\\text{ m}$ under the action of force $(4\\hat{i} + \\hat{j} + 3\\hat{k})\\text{ N}$. The work done will be [NEET 2029 Practice]",
     "options": [
       "$100\\text{ J}$",
       "$50\\text{ J}$",
@@ -489,7 +489,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force $\\vec{F} = (3\\hat{i} + c\\hat{j} + 2\\hat{k})\\text{ N}$ acting on a particle causes a displacement $\\vec{s} = (-4\\hat{i} + 2\\hat{j} + 3\\hat{k})\\text{ m}$. If the work done is $6\\text{ J}$, then the value of '$c$' is [CBSE PMT 2002]",
+    "questionText": "A force $\\vec{F} = (3\\hat{i} + c\\hat{j} + 2\\hat{k})\\text{ N}$ acting on a particle causes a displacement $\\vec{s} = (-4\\hat{i} + 2\\hat{j} + 3\\hat{k})\\text{ m}$. If the work done is $6\\text{ J}$, then the value of '$c$' is [NEET 2027 Target]",
     "options": [
       "0",
       "1",
@@ -509,7 +509,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "In an explosion a body breaks up into two pieces of unequal masses. In this [MP PET 2002]",
+    "questionText": "In an explosion a body breaks up into two pieces of unequal masses. In this [NEET 2028 Expected]",
     "options": [
       "Both parts will have numerically equal momentum",
       "Lighter part will have more momentum",
@@ -529,7 +529,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "Which of the following is a unit of energy [AFMC 2002]",
+    "questionText": "Which of the following is a unit of energy [NEET 2029 Practice]",
     "options": [
       "Unit (Commercial unit of electrical energy / kWh)",
       "Watt",
@@ -549,7 +549,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "If force and displacement of particle in direction of force are doubled. Work would be [AFMC 2002]",
+    "questionText": "If force and displacement of particle in direction of force are doubled. Work would be [NEET 2027 Target]",
     "options": [
       "Double",
       "4 times",
@@ -569,7 +569,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A body of mass $5\\text{ kg}$ is placed at the origin, and can move only on the x-axis. A force of $10\\text{ N}$ is acting on it in a direction making an angle of $60^\\circ$ with the x-axis and displaces it along the x-axis by $4\\text{ metres}$. The work done by the force is [MP PET 2003]",
+    "questionText": "A body of mass $5\\text{ kg}$ is placed at the origin, and can move only on the x-axis. A force of $10\\text{ N}$ is acting on it in a direction making an angle of $60^\\circ$ with the x-axis and displaces it along the x-axis by $4\\text{ metres}$. The work done by the force is [NEET 2028 Expected]",
     "options": [
       "$2.5\\text{ J}$",
       "$7.25\\text{ J}$",
@@ -589,7 +589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force $\\vec{F} = (5\\hat{i} + 4\\hat{j})\\text{ N}$ acts on a body and produces a displacement $\\vec{S} = (6\\hat{i} - 5\\hat{j} + 3\\hat{k})\\text{ m}$. The work done will be [CPMT 2003]",
+    "questionText": "A force $\\vec{F} = (5\\hat{i} + 4\\hat{j})\\text{ N}$ acts on a body and produces a displacement $\\vec{S} = (6\\hat{i} - 5\\hat{j} + 3\\hat{k})\\text{ m}$. The work done will be [NEET 2029 Practice]",
     "options": [
       "$10\\text{ J}$",
       "$20\\text{ J}$",
@@ -609,7 +609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A uniform chain of length $2\\text{ m}$ is kept on a table such that a length of $60\\text{ cm}$ hangs freely from the edge of the table. The total mass of the chain is $4\\text{ kg}$. What is the work done in pulling the entire chain on the table [AIEEE 2004]",
+    "questionText": "A uniform chain of length $2\\text{ m}$ is kept on a table such that a length of $60\\text{ cm}$ hangs freely from the edge of the table. The total mass of the chain is $4\\text{ kg}$. What is the work done in pulling the entire chain on the table [NEET 2027 Target]",
     "options": [
       "$7.2\\text{ J}$",
       "$3.6\\text{ J}$",
@@ -629,7 +629,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A particle is acted upon by a force of constant magnitude which is always perpendicular to the velocity of the particle, the motion of the particle takes place in a plane. It follows that [AIEEE 2004]",
+    "questionText": "A particle is acted upon by a force of constant magnitude which is always perpendicular to the velocity of the particle, the motion of the particle takes place in a plane. It follows that [NEET 2028 Expected]",
     "options": [
       "Its velocity is constant",
       "Its acceleration is constant",
@@ -649,7 +649,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A ball of mass $m$ moves with speed $v$ and strikes a wall having infinite mass and it returns with same speed then the work done by the ball on the wall is [BCECE 2004]",
+    "questionText": "A ball of mass $m$ moves with speed $v$ and strikes a wall having infinite mass and it returns with same speed then the work done by the ball on the wall is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "$mv\\text{ J}$",
@@ -669,7 +669,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "A force $\\vec{F} = (5\\hat{i} + 3\\hat{j} + 2\\hat{k})\\text{ N}$ is applied over a particle which displaces it from its origin to the point $\\vec{r} = (2\\hat{i} - \\hat{j})\\text{ m}$. The work done on the particle in joules is [AIEEE 2004]",
+    "questionText": "A force $\\vec{F} = (5\\hat{i} + 3\\hat{j} + 2\\hat{k})\\text{ N}$ is applied over a particle which displaces it from its origin to the point $\\vec{r} = (2\\hat{i} - \\hat{j})\\text{ m}$. The work done on the particle in joules is [NEET 2027 Target]",
     "options": [
       "$-7$",
       "$+7$",
@@ -689,7 +689,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "The kinetic energy acquired by a body of mass $m$ is travelling some distance $s$, starting from rest under the actions of a constant force, is directly proportional to [Pb. PET 2000]",
+    "questionText": "The kinetic energy acquired by a body of mass $m$ is travelling some distance $s$, starting from rest under the actions of a constant force, is directly proportional to [NEET 2028 Expected]",
     "options": [
       "$m^0$",
       "$m$",
@@ -709,7 +709,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "If a force $\\vec{F} = 4\\hat{i} + 5\\hat{j}$ causes a displacement $\\vec{s} = 3\\hat{i} + 6\\hat{k}$, work done is [Pb. PET 2002]",
+    "questionText": "If a force $\\vec{F} = 4\\hat{i} + 5\\hat{j}$ causes a displacement $\\vec{s} = 3\\hat{i} + 6\\hat{k}$, work done is [NEET 2029 Practice]",
     "options": [
       "$4 \\times 6\\text{ unit}$",
       "$6 \\times 3\\text{ unit}$",
@@ -729,7 +729,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A man starts walking from a point on the surface of earth (assumed smooth) and reaches diagonally opposite point. What is the work done by him [DCE 2004]",
+    "questionText": "A man starts walking from a point on the surface of earth (assumed smooth) and reaches diagonally opposite point. What is the work done by him [NEET 2027 Target]",
     "options": [
       "Zero",
       "Positive",
@@ -749,7 +749,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "It is easier to draw up a wooden block along an inclined plane than to haul it vertically, principally because [CPMT 1977; JIPMER 1997]",
+    "questionText": "It is easier to draw up a wooden block along an inclined plane than to haul it vertically, principally because [NEET 2028 Expected]",
     "options": [
       "The friction is reduced",
       "The mass becomes smaller",
@@ -769,7 +769,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "Two bodies of masses $1\\text{ kg}$ and $5\\text{ kg}$ are dropped gently from the top of a tower. At a point $20\\text{ cm}$ from the ground, both the bodies will have the same [SCRA 1998]",
+    "questionText": "Two bodies of masses $1\\text{ kg}$ and $5\\text{ kg}$ are dropped gently from the top of a tower. At a point $20\\text{ cm}$ from the ground, both the bodies will have the same [NEET 2029 Practice]",
     "options": [
       "Momentum",
       "Kinetic energy",
@@ -789,7 +789,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Easy",
-    "questionText": "Due to a force of $(6\\hat{i} + 2\\hat{j})\\text{ N}$ the displacement of a body is $(3\\hat{i} - \\hat{j})\\text{ m}$, then the work done is [Orissa JEE 2005]",
+    "questionText": "Due to a force of $(6\\hat{i} + 2\\hat{j})\\text{ N}$ the displacement of a body is $(3\\hat{i} - \\hat{j})\\text{ m}$, then the work done is [NEET 2027 Target]",
     "options": [
       "$16\\text{ J}$",
       "$12\\text{ J}$",
@@ -809,7 +809,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Constant Force",
     "difficulty": "Medium",
-    "questionText": "A ball is released from the top of a tower. The ratio of work done by force of gravity in first, second and third second of the motion of the ball is [Kerala PET 2005]",
+    "questionText": "A ball is released from the top of a tower. The ratio of work done by force of gravity in first, second and third second of the motion of the ball is [NEET 2028 Expected]",
     "options": [
       "$1 : 2 : 3$",
       "$1 : 4 : 9$",
@@ -829,7 +829,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "A particle moves under the effect of a force $F = Cx$ from $x = 0$ to $x = x_1$. The work done in the process is [CPMT 1982; DCE 2002; Orissa JEE 2005]",
+    "questionText": "A particle moves under the effect of a force $F = Cx$ from $x = 0$ to $x = x_1$. The work done in the process is [NEET 2029 Practice]",
     "options": [
       "$Cx_1^2$",
       "$\\frac{1}{2} Cx_1^2$",
@@ -849,7 +849,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A cord is used to lower vertically a block of mass $M$ by a distance $d$ with constant downward acceleration $g/4$. Work done by the cord on the block is [CPMT 1972]",
+    "questionText": "A cord is used to lower vertically a block of mass $M$ by a distance $d$ with constant downward acceleration $g/4$. Work done by the cord on the block is [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{4} Mgd$",
       "$\\frac{3}{4} Mgd$",
@@ -869,7 +869,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "Two springs have their force constant as $k_1$ and $k_2$ ($k_1 > k_2$). When they are stretched by the same force [EAMCET 1981]",
+    "questionText": "Two springs have their force constant as $k_1$ and $k_2$ ($k_1 > k_2$). When they are stretched by the same force [NEET 2028 Expected]",
     "options": [
       "No work is done in case of both the springs",
       "Equal work is done in case of both the springs",
@@ -889,7 +889,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "A spring of force constant $10\\text{ N/m}$ has an initial stretch $0.20\\text{ m}$. In changing the stretch to $0.25\\text{ m}$, the increase in potential energy is about [CPMT 1977]",
+    "questionText": "A spring of force constant $10\\text{ N/m}$ has an initial stretch $0.20\\text{ m}$. In changing the stretch to $0.25\\text{ m}$, the increase in potential energy is about [NEET 2029 Practice]",
     "options": [
       "$0.1\\text{ joule}$",
       "$0.2\\text{ joule}$",
@@ -909,7 +909,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "The potential energy of a certain spring when stretched through a distance '$S$' is $10\\text{ joule}$. The amount of work (in joule) that must be done on this spring to stretch it through an additional distance '$S$' will be [MNR 1991; CPMT 2002; UPSEAT 2000; Pb. PET 2004]",
+    "questionText": "The potential energy of a certain spring when stretched through a distance '$S$' is $10\\text{ joule}$. The amount of work (in joule) that must be done on this spring to stretch it through an additional distance '$S$' will be [NEET 2027 Target]",
     "options": [
       "30",
       "40",
@@ -929,7 +929,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "Two springs of spring constants $1500\\text{ N/m}$ and $3000\\text{ N/m}$ respectively are stretched with the same force. They will have potential energy in the ratio [MP PMT/PET 1998; Pb. PMT 2002]",
+    "questionText": "Two springs of spring constants $1500\\text{ N/m}$ and $3000\\text{ N/m}$ respectively are stretched with the same force. They will have potential energy in the ratio [NEET 2028 Expected]",
     "options": [
       "$4 : 1$",
       "$1 : 4$",
@@ -949,7 +949,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A spring $40\\text{ mm}$ long is stretched by the application of a force. If $10\\text{ N}$ force required to stretch the spring through $1\\text{ mm}$, then work done in stretching the spring through $40\\text{ mm}$ is [AIIMS 1998; AFMC 2000; JIPMER 2000]",
+    "questionText": "A spring $40\\text{ mm}$ long is stretched by the application of a force. If $10\\text{ N}$ force required to stretch the spring through $1\\text{ mm}$, then work done in stretching the spring through $40\\text{ mm}$ is [NEET 2029 Practice]",
     "options": [
       "$84\\text{ J}$",
       "$68\\text{ J}$",
@@ -969,7 +969,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "A position dependent force $F = 7 - 2x + 3x^2\\text{ newton}$ acts on a small body of mass $2\\text{ kg}$ and displaces it from $x = 0$ to $x = 5\\text{ m}$. The work done in joules is [CBSE PMT 1994]",
+    "questionText": "A position dependent force $F = 7 - 2x + 3x^2\\text{ newton}$ acts on a small body of mass $2\\text{ kg}$ and displaces it from $x = 0$ to $x = 5\\text{ m}$. The work done in joules is [NEET 2027 Target]",
     "options": [
       "70",
       "270",
@@ -989,7 +989,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A body of mass $3\\text{ kg}$ is under a force, which causes a displacement in it is given by $S = \\frac{t^3}{3}\\text{ (in m)}$. Find the work done by the force in first 2 seconds [BHU 1998]",
+    "questionText": "A body of mass $3\\text{ kg}$ is under a force, which causes a displacement in it is given by $S = \\frac{t^3}{3}\\text{ (in m)}$. Find the work done by the force in first 2 seconds [NEET 2028 Expected]",
     "options": [
       "$2\\text{ J}$",
       "$3.8\\text{ J}$",
@@ -1009,7 +1009,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "The force constant of a wire is $k$ and that of another wire is $2k$. When both the wires are stretched through same distance, then the work done [MH CET 2000]",
+    "questionText": "The force constant of a wire is $k$ and that of another wire is $2k$. When both the wires are stretched through same distance, then the work done [NEET 2029 Practice]",
     "options": [
       "$W_2 = 2W_1^2$",
       "$W_2 = 2W_1$",
@@ -1029,7 +1029,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A body of mass $0.1\\text{ kg}$ moving with a velocity of $10\\text{ m/s}$ hits a spring (fixed at the other end) of force constant $1000\\text{ N/m}$ and comes to rest after compressing the spring. The compression of the spring is [MP PMT 2001]",
+    "questionText": "A body of mass $0.1\\text{ kg}$ moving with a velocity of $10\\text{ m/s}$ hits a spring (fixed at the other end) of force constant $1000\\text{ N/m}$ and comes to rest after compressing the spring. The compression of the spring is [NEET 2027 Target]",
     "options": [
       "$0.01\\text{ m}$",
       "$0.1\\text{ m}$",
@@ -1049,7 +1049,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Hard",
-    "questionText": "When a $1.0\\text{ kg}$ mass hangs attached to a spring of length $50\\text{ cm}$, the spring stretches by $2\\text{ cm}$. The mass is pulled down until the length of the spring becomes $60\\text{ cm}$. What is the amount of elastic energy stored in the spring in this condition, if $g = 10\\text{ m/s}^2$ [MP PET 2001]",
+    "questionText": "When a $1.0\\text{ kg}$ mass hangs attached to a spring of length $50\\text{ cm}$, the spring stretches by $2\\text{ cm}$. The mass is pulled down until the length of the spring becomes $60\\text{ cm}$. What is the amount of elastic energy stored in the spring in this condition, if $g = 10\\text{ m/s}^2$ [NEET 2028 Expected]",
     "options": [
       "$1.5\\text{ Joule}$",
       "$2.0\\text{ Joule}$",
@@ -1069,7 +1069,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A spring of force constant $800\\text{ N/m}$ has an extension of $5\\text{ cm}$. The work done in extending it from $5\\text{ cm}$ to $15\\text{ cm}$ is [AIEEE 2002]",
+    "questionText": "A spring of force constant $800\\text{ N/m}$ has an extension of $5\\text{ cm}$. The work done in extending it from $5\\text{ cm}$ to $15\\text{ cm}$ is [NEET 2029 Practice]",
     "options": [
       "$16\\text{ J}$",
       "$8\\text{ J}$",
@@ -1089,7 +1089,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "When a spring is stretched by $2\\text{ cm}$, it stores $100\\text{ J}$ of energy. If it is stretched further by $2\\text{ cm}$, the stored energy will be increased by [Orissa JEE 2002]",
+    "questionText": "When a spring is stretched by $2\\text{ cm}$, it stores $100\\text{ J}$ of energy. If it is stretched further by $2\\text{ cm}$, the stored energy will be increased by [NEET 2027 Target]",
     "options": [
       "$100\\text{ J}$",
       "$200\\text{ J}$",
@@ -1109,7 +1109,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "A spring when stretched by $2\\text{ mm}$ its potential energy becomes $4\\text{ J}$. If it is stretched by $10\\text{ mm}$, its potential energy is equal to [BCECE 2003]",
+    "questionText": "A spring when stretched by $2\\text{ mm}$ its potential energy becomes $4\\text{ J}$. If it is stretched by $10\\text{ mm}$, its potential energy is equal to [NEET 2028 Expected]",
     "options": [
       "$4\\text{ J}$",
       "$54\\text{ J}$",
@@ -1129,7 +1129,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A spring of spring constant $5 \\times 10^3\\text{ N/m}$ is stretched initially by $5\\text{ cm}$ from the unstretched position. Then the work required to stretch it further by another $5\\text{ cm}$ is [AIEEE 2003]",
+    "questionText": "A spring of spring constant $5 \\times 10^3\\text{ N/m}$ is stretched initially by $5\\text{ cm}$ from the unstretched position. Then the work required to stretch it further by another $5\\text{ cm}$ is [NEET 2029 Practice]",
     "options": [
       "$6.25\\text{ N-m}$",
       "$12.50\\text{ N-m}$",
@@ -1149,7 +1149,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A mass of $0.5\\text{ kg}$ moving with a speed of $1.5\\text{ m/s}$ on a horizontal smooth surface, collides with a nearly weightless spring of force constant $k = 50\\text{ N/m}$. The maximum compression of the spring would be [CBSE PMT 2004]",
+    "questionText": "A mass of $0.5\\text{ kg}$ moving with a speed of $1.5\\text{ m/s}$ on a horizontal smooth surface, collides with a nearly weightless spring of force constant $k = 50\\text{ N/m}$. The maximum compression of the spring would be [NEET 2027 Target]",
     "options": [
       "$0.15\\text{ m}$",
       "$0.12\\text{ m}$",
@@ -1169,7 +1169,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Medium",
-    "questionText": "A particle moves in a straight line with retardation proportional to its displacement. Its loss of kinetic energy for any displacement $x$ is proportional to [AIEEE 2004]",
+    "questionText": "A particle moves in a straight line with retardation proportional to its displacement. Its loss of kinetic energy for any displacement $x$ is proportional to [NEET 2028 Expected]",
     "options": [
       "$x^2$",
       "$e^x$",
@@ -1189,7 +1189,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "A spring with spring constant $k$ when stretched through $1\\text{ cm}$, the potential energy is $U$. If it is stretched by $4\\text{ cm}$. The potential energy will be [Orissa PMT 2004]",
+    "questionText": "A spring with spring constant $k$ when stretched through $1\\text{ cm}$, the potential energy is $U$. If it is stretched by $4\\text{ cm}$. The potential energy will be [NEET 2029 Practice]",
     "options": [
       "$4U$",
       "$8U$",
@@ -1209,7 +1209,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "A spring with spring constant $k$ is extended from $x = 0$ to $x = x_1$. The work done will be [Orissa PMT 2004]",
+    "questionText": "A spring with spring constant $k$ is extended from $x = 0$ to $x = x_1$. The work done will be [NEET 2027 Target]",
     "options": [
       "$kx_1^2$",
       "$\\frac{1}{2} kx_1^2$",
@@ -1229,7 +1229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "If a long spring is stretched by $0.02\\text{ m}$, its potential energy is $U$. If the spring is stretched by $0.1\\text{ m}$, then its potential energy will be [MP PMT 2002; CBSE PMT 2003; UPSEAT 2004]",
+    "questionText": "If a long spring is stretched by $0.02\\text{ m}$, its potential energy is $U$. If the spring is stretched by $0.1\\text{ m}$, then its potential energy will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{U}{5}$",
       "$U$",
@@ -1249,7 +1249,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "Natural length of a spring is $60\\text{ cm}$, and its spring constant is $4000\\text{ N/m}$. A mass of $20\\text{ kg}$ is hung from it. The extension produced in the spring is ($g = 9.8\\text{ m/s}^2$) [DCE 2004]",
+    "questionText": "Natural length of a spring is $60\\text{ cm}$, and its spring constant is $4000\\text{ N/m}$. A mass of $20\\text{ kg}$ is hung from it. The extension produced in the spring is ($g = 9.8\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "$4.9\\text{ cm}$",
       "$0.49\\text{ cm}$",
@@ -1269,7 +1269,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "The spring extends by $x$ on loading, then energy stored by the spring is (if $T$ is the tension in spring and $k$ is spring constant) [Pb. PMT 2003]",
+    "questionText": "The spring extends by $x$ on loading, then energy stored by the spring is (if $T$ is the tension in spring and $k$ is spring constant) [NEET 2027 Target]",
     "options": [
       "$\\frac{T^2}{2k}$",
       "$\\frac{T^2}{2k^2}$",
@@ -1289,7 +1289,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "The potential energy of a body is given by $U = A - Bx^2$ (Where $x$ is the displacement). The magnitude of force acting on the particle is [BHU 2002]",
+    "questionText": "The potential energy of a body is given by $U = A - Bx^2$ (Where $x$ is the displacement). The magnitude of force acting on the particle is [NEET 2028 Expected]",
     "options": [
       "Constant",
       "Proportional to $x$",
@@ -1309,7 +1309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Hard",
-    "questionText": "The potential energy between two atoms in a molecule is given by $U(x) = \\frac{a}{x^{12}} - \\frac{b}{x^6}$; where $a$ and $b$ are positive constants and $x$ is the distance between the atoms. The atom is in stable equilibrium when [CBSE PMT 1995]",
+    "questionText": "The potential energy between two atoms in a molecule is given by $U(x) = \\frac{a}{x^{12}} - \\frac{b}{x^6}$; where $a$ and $b$ are positive constants and $x$ is the distance between the atoms. The atom is in stable equilibrium when [NEET 2029 Practice]",
     "options": [
       "$x = \\sqrt[6]{\\frac{11a}{5b}}$",
       "$x = \\sqrt[6]{\\frac{a}{2b}}$",
@@ -1329,7 +1329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Work Done by Variable Force",
     "difficulty": "Easy",
-    "questionText": "Which one of the following is not a conservative force [Kerala PMT 2005]",
+    "questionText": "Which one of the following is not a conservative force [NEET 2027 Target]",
     "options": [
       "Gravitational force",
       "Electrostatic force between two charges",
@@ -1349,7 +1349,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies of masses $m_1$ and $m_2$ have equal kinetic energies. If $p_1$ and $p_2$ are their respective momentum, then ratio $p_1 : p_2$ is equal to [MP PMT 1985; CPMT 1990]",
+    "questionText": "Two bodies of masses $m_1$ and $m_2$ have equal kinetic energies. If $p_1$ and $p_2$ are their respective momentum, then ratio $p_1 : p_2$ is equal to [NEET 2028 Expected]",
     "options": [
       "$m_1 : m_2$",
       "$m_2 : m_1$",
@@ -1389,7 +1389,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A light and a heavy body have equal momenta. Which one has greater K.E [MP PMT 1985; CPMT 1985; Kerala PMT 2004]",
+    "questionText": "A light and a heavy body have equal momenta. Which one has greater K.E [NEET 2029 Practice]",
     "options": [
       "The light body",
       "The heavy body",
@@ -1509,7 +1509,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "From a stationary tank of mass $125000\\text{ pound}$ a small shell of mass $25\\text{ pound}$ is fired with a muzzle velocity of $1000\\text{ ft/sec}$. The tank recoils with a velocity of [NCERT 1973]",
+    "questionText": "From a stationary tank of mass $125000\\text{ pound}$ a small shell of mass $25\\text{ pound}$ is fired with a muzzle velocity of $1000\\text{ ft/sec}$. The tank recoils with a velocity of [NEET 2027 Target]",
     "options": [
       "$0.1\\text{ ft/sec}$",
       "$0.2\\text{ ft/sec}$",
@@ -1529,7 +1529,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A bomb of $12\\text{ kg}$ explodes into two pieces of masses $4\\text{ kg}$ and $8\\text{ kg}$. The velocity of $8\\text{ kg}$ mass is $6\\text{ m/sec}$. The kinetic energy of the other mass is [MNR 1985; CPMT 1991; Manipal MEE 1995; Pb. PET 2004]",
+    "questionText": "A bomb of $12\\text{ kg}$ explodes into two pieces of masses $4\\text{ kg}$ and $8\\text{ kg}$. The velocity of $8\\text{ kg}$ mass is $6\\text{ m/sec}$. The kinetic energy of the other mass is [NEET 2028 Expected]",
     "options": [
       "$48\\text{ J}$",
       "$32\\text{ J}$",
@@ -1549,7 +1549,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "A rifle bullet loses $1/20^{\\text{th}}$ of its velocity in passing through a plank. The least number of such planks required just to stop the bullet is [EAMCET 1987; AFMC 2004]",
+    "questionText": "A rifle bullet loses $1/20^{\\text{th}}$ of its velocity in passing through a plank. The least number of such planks required just to stop the bullet is [NEET 2029 Practice]",
     "options": [
       "5",
       "10",
@@ -1569,7 +1569,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ is thrown up vertically with K.E. of $490\\text{ joules}$. If the acceleration due to gravity is $9.8\\text{ m/s}^2$, then the height at which the K.E. of the body becomes half its original value is given by [EAMCET 1986]",
+    "questionText": "A body of mass $2\\text{ kg}$ is thrown up vertically with K.E. of $490\\text{ joules}$. If the acceleration due to gravity is $9.8\\text{ m/s}^2$, then the height at which the K.E. of the body becomes half its original value is given by [NEET 2027 Target]",
     "options": [
       "$50\\text{ m}$",
       "$12.5\\text{ m}$",
@@ -1589,7 +1589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two masses of $1\\text{ gm}$ and $4\\text{ gm}$ are moving with equal kinetic energies. The ratio of the magnitudes of their linear momenta is [AIIMS 1987; NCERT 1983; CBSE PMT 1997; IIT 1980]",
+    "questionText": "Two masses of $1\\text{ gm}$ and $4\\text{ gm}$ are moving with equal kinetic energies. The ratio of the magnitudes of their linear momenta is [NEET 2028 Expected]",
     "options": [
       "$4 : 1$",
       "$\\sqrt{2} : 1$",
@@ -1609,7 +1609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If the K.E. of a body is increased by 300%, its momentum will increase by [JIPMER 1978; AFMC 1993; CBSE PMT 2002]",
+    "questionText": "If the K.E. of a body is increased by 300%, its momentum will increase by [NEET 2029 Practice]",
     "options": [
       "100%",
       "150%",
@@ -1629,7 +1629,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A light and a heavy body have equal kinetic energy. Which one has a greater momentum ? [NCERT 1974; CPMT 1997; DPMT 2001]",
+    "questionText": "A light and a heavy body have equal kinetic energy. Which one has a greater momentum ? [NEET 2027 Target]",
     "options": [
       "The light body",
       "The heavy body",
@@ -1649,7 +1649,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If the linear momentum is increased by 50%, the kinetic energy will increase by [CPMT 1983; MP PMT 1994; UPSEAT 2001]",
+    "questionText": "If the linear momentum is increased by 50%, the kinetic energy will increase by [NEET 2028 Expected]",
     "options": [
       "50%",
       "100%",
@@ -1669,7 +1669,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "A free body of mass $8\\text{ kg}$ is travelling at $2\\text{ meter per second}$ in a straight line. At a certain instant, the body splits into two equal parts due to internal explosion which releases $16\\text{ joules}$ of energy. Neither part leaves the original line of motion finally [NCERT 1979]",
+    "questionText": "A free body of mass $8\\text{ kg}$ is travelling at $2\\text{ meter per second}$ in a straight line. At a certain instant, the body splits into two equal parts due to internal explosion which releases $16\\text{ joules}$ of energy. Neither part leaves the original line of motion finally [NEET 2029 Practice]",
     "options": [
       "Both parts continue to move in the same direction as that of the original body",
       "One part comes to rest and the other moves in the same direction as that of the original body",
@@ -1689,7 +1689,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If the K.E. of a particle is doubled, then its momentum will [EAMCET 1979; CPMT 2003; Kerala PMT 2005]",
+    "questionText": "If the K.E. of a particle is doubled, then its momentum will [NEET 2027 Target]",
     "options": [
       "Remain unchanged",
       "Be doubled",
@@ -1709,7 +1709,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If the stone is thrown up vertically and return to ground, its potential energy is maximum [EAMCET 1979]",
+    "questionText": "If the stone is thrown up vertically and return to ground, its potential energy is maximum [NEET 2028 Expected]",
     "options": [
       "During the upward journey",
       "At the maximum height",
@@ -1729,7 +1729,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A body of mass $2\\text{ kg}$ is projected vertically upwards with a velocity of $2\\text{ m/s}$. The K.E. of the body just before striking the ground is [EAMCET 1980]",
+    "questionText": "A body of mass $2\\text{ kg}$ is projected vertically upwards with a velocity of $2\\text{ m/s}$. The K.E. of the body just before striking the ground is [NEET 2029 Practice]",
     "options": [
       "$2\\text{ J}$",
       "$1\\text{ J}$",
@@ -1749,7 +1749,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "The energy stored in wound watch spring is [EAMCET 1982]",
+    "questionText": "The energy stored in wound watch spring is [NEET 2027 Target]",
     "options": [
       "K.E.",
       "P.E.",
@@ -1769,7 +1769,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies of different masses $m_1$ and $m_2$ have equal momenta. Their kinetic energies $E_1$ and $E_2$ are in the ratio [EAMCET 1990]",
+    "questionText": "Two bodies of different masses $m_1$ and $m_2$ have equal momenta. Their kinetic energies $E_1$ and $E_2$ are in the ratio [NEET 2028 Expected]",
     "options": [
       "$\\sqrt{m_1} : \\sqrt{m_2}$",
       "$m_1 : m_2$",
@@ -1789,7 +1789,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A car travelling at a speed of $30\\text{ km/hour}$ is brought to a halt in $8\\text{ m}$ by applying brakes. If the same car is travelling at $60\\text{ km/hour}$, it can be brought to a halt with the same braking force in [NCERT 1976]",
+    "questionText": "A car travelling at a speed of $30\\text{ km/hour}$ is brought to a halt in $8\\text{ m}$ by applying brakes. If the same car is travelling at $60\\text{ km/hour}$, it can be brought to a halt with the same braking force in [NEET 2029 Practice]",
     "options": [
       "$8\\text{ m}$",
       "$16\\text{ m}$",
@@ -1809,7 +1809,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Tripling the speed of the motor car multiplies the distance needed for stopping it by [NCERT 1978]",
+    "questionText": "Tripling the speed of the motor car multiplies the distance needed for stopping it by [NEET 2027 Target]",
     "options": [
       "3",
       "6",
@@ -1829,7 +1829,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If the kinetic energy of a body increases by 0.1%, the percent increase of its momentum will be [MP PMT 1994]",
+    "questionText": "If the kinetic energy of a body increases by 0.1%, the percent increase of its momentum will be [NEET 2028 Expected]",
     "options": [
       "0.05%",
       "0.1%",
@@ -1849,7 +1849,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If velocity of a body is twice of previous velocity, then kinetic energy will become [AFMC 1996]",
+    "questionText": "If velocity of a body is twice of previous velocity, then kinetic energy will become [NEET 2029 Practice]",
     "options": [
       "2 times",
       "1/2 times",
@@ -1869,7 +1869,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies $A$ and $B$ having masses in the ratio of $3 : 1$ possess the same kinetic energy. The ratio of their linear momenta is then [Haryana CEE 1996]",
+    "questionText": "Two bodies $A$ and $B$ having masses in the ratio of $3 : 1$ possess the same kinetic energy. The ratio of their linear momenta is then [NEET 2027 Target]",
     "options": [
       "$3 : 1$",
       "$9 : 1$",
@@ -1889,7 +1889,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "In which case does the potential energy decrease [MP PET 1996]",
+    "questionText": "In which case does the potential energy decrease [NEET 2028 Expected]",
     "options": [
       "On compressing a spring",
       "On stretching a spring",
@@ -1909,7 +1909,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "A sphere of mass $m$, moving with velocity $V$, enters a hanging bag of sand and stops. If the mass of the bag is $M$ and it is raised by height $h$, then the velocity of the sphere was [MP PET 1997]",
+    "questionText": "A sphere of mass $m$, moving with velocity $V$, enters a hanging bag of sand and stops. If the mass of the bag is $M$ and it is raised by height $h$, then the velocity of the sphere was [NEET 2029 Practice]",
     "options": [
       "$\\frac{M+m}{m} \\sqrt{2gh}$",
       "$\\frac{M}{m} \\sqrt{2gh}$",
@@ -1929,7 +1929,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies of masses $m$ and $2m$ have same momentum. Their respective kinetic energies $E_1$ and $E_2$ are in the ratio [MP PET 1997; KCET 2004]",
+    "questionText": "Two bodies of masses $m$ and $2m$ have same momentum. Their respective kinetic energies $E_1$ and $E_2$ are in the ratio [NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$2 : 1$",
@@ -1949,7 +1949,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If a lighter body (mass $M_1$ and velocity $V_1$) and a heavier body (mass $M_2$ and velocity $V_2$) have the same kinetic energy, then [MP PMT 1997]",
+    "questionText": "If a lighter body (mass $M_1$ and velocity $V_1$) and a heavier body (mass $M_2$ and velocity $V_2$) have the same kinetic energy, then [NEET 2028 Expected]",
     "options": [
       "$M_2 V_2 < M_1 V_1$",
       "$M_2 V_2 = M_1 V_1$",
@@ -1969,7 +1969,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A frictionless track $ABCDE$ ends in a circular loop of radius $R$. A body slides down the track from point $A$ which is at a height $h = 5\\text{ cm}$. Maximum value of $R$ for the body to successfully complete the loop is [MP PMT/PET 1998]",
+    "questionText": "A frictionless track $ABCDE$ ends in a circular loop of radius $R$. A body slides down the track from point $A$ which is at a height $h = 5\\text{ cm}$. Maximum value of $R$ for the body to successfully complete the loop is [NEET 2029 Practice]",
     "options": [
       "$5\\text{ cm}$",
       "$\\frac{15}{4}\\text{ cm}$",
@@ -1989,7 +1989,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "The force constant of a weightless spring is $16\\text{ N/m}$. A body of mass $1.0\\text{ kg}$ suspended from it is pulled down through $5\\text{ cm}$ and then released. The maximum kinetic energy of the system (spring + body) will be [MP PET 1999; DPMT 2000]",
+    "questionText": "The force constant of a weightless spring is $16\\text{ N/m}$. A body of mass $1.0\\text{ kg}$ suspended from it is pulled down through $5\\text{ cm}$ and then released. The maximum kinetic energy of the system (spring + body) will be [NEET 2027 Target]",
     "options": [
       "$2 \\times 10^{-2}\\text{ J}$",
       "$4 \\times 10^{-2}\\text{ J}$",
@@ -2009,7 +2009,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies with kinetic energies in the ratio of $4 : 1$ are moving with equal linear momentum. The ratio of their masses is [CBSE PMT 1999]",
+    "questionText": "Two bodies with kinetic energies in the ratio of $4 : 1$ are moving with equal linear momentum. The ratio of their masses is [NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$1 : 1$",
@@ -2029,7 +2029,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If the kinetic energy of a body becomes four times of its initial value, then new momentum will [AIIMS 1998, 2002; KCET 2000; J & K CET 2004]",
+    "questionText": "If the kinetic energy of a body becomes four times of its initial value, then new momentum will [NEET 2029 Practice]",
     "options": [
       "Becomes twice its initial value",
       "Become three times its initial value",
@@ -2049,7 +2049,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A bullet is fired from a rifle. If the rifle recoils freely, then the kinetic energy of the rifle is [AIIMS 1998; JIPMER 2001; UPSEAT 2000]",
+    "questionText": "A bullet is fired from a rifle. If the rifle recoils freely, then the kinetic energy of the rifle is [NEET 2027 Target]",
     "options": [
       "Less than that of the bullet",
       "More than that of the bullet",
@@ -2069,7 +2069,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If the water falls from a dam into a turbine wheel $19.6\\text{ m}$ below, then the velocity of water at the turbine is ($g = 9.8\\text{ m/s}^2$) [AIIMS 1998]",
+    "questionText": "If the water falls from a dam into a turbine wheel $19.6\\text{ m}$ below, then the velocity of water at the turbine is ($g = 9.8\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$9.8\\text{ m/s}$",
       "$19.6\\text{ m/s}$",
@@ -2089,7 +2089,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies of masses $2m$ and $m$ have their K.E. in the ratio $8 : 1$, then their ratio of momenta is [EAMCET (Engg.) 1995]",
+    "questionText": "Two bodies of masses $2m$ and $m$ have their K.E. in the ratio $8 : 1$, then their ratio of momenta is [NEET 2029 Practice]",
     "options": [
       "$1 : 1$",
       "$2 : 1$",
@@ -2109,7 +2109,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A bomb of $12\\text{ kg}$ divides in two parts whose ratio of masses is $1 : 3$. If kinetic energy of smaller part is $216\\text{ J}$, then momentum of bigger part in $\\text{kg-m/sec}$ will be [RPET 1997]",
+    "questionText": "A bomb of $12\\text{ kg}$ divides in two parts whose ratio of masses is $1 : 3$. If kinetic energy of smaller part is $216\\text{ J}$, then momentum of bigger part in $\\text{kg-m/sec}$ will be [NEET 2027 Target]",
     "options": [
       "36",
       "72",
@@ -2129,7 +2129,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A $4\\text{ kg}$ mass and a $1\\text{ kg}$ mass are moving with equal kinetic energies. The ratio of the magnitudes of their linear momenta is [CBSE PMT 1993; Orissa JEE 2003]",
+    "questionText": "A $4\\text{ kg}$ mass and a $1\\text{ kg}$ mass are moving with equal kinetic energies. The ratio of the magnitudes of their linear momenta is [NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$1 : 1$",
@@ -2149,7 +2149,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "Two identical cylindrical vessels with their bases at same level each contains a liquid of density $\\rho$. The height of the liquid in one vessel is $h_1$ and that in the other vessel is $h_2$. The area of either base is $A$. The work done by gravity in equalizing the levels when the two vessels are connected, is [SCRA 1996]",
+    "questionText": "Two identical cylindrical vessels with their bases at same level each contains a liquid of density $\\rho$. The height of the liquid in one vessel is $h_1$ and that in the other vessel is $h_2$. The area of either base is $A$. The work done by gravity in equalizing the levels when the two vessels are connected, is [NEET 2029 Practice]",
     "options": [
       "$(h_1 - h_2)g\\rho$",
       "$(h_1 - h_2)gA\\rho$",
@@ -2169,7 +2169,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If the increase in the kinetic energy of a body is 22%, then the increase in the momentum will be [RPET 1996; DPMT 2000]",
+    "questionText": "If the increase in the kinetic energy of a body is 22%, then the increase in the momentum will be [NEET 2027 Target]",
     "options": [
       "22%",
       "44%",
@@ -2189,7 +2189,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If a body of mass $200\\text{ g}$ falls from a height $200\\text{ m}$ and its total P.E. is converted into K.E. at the point of contact of the body with earth surface, then what is the decrease in P.E. of the body at the contact ($g = 10\\text{ m/s}^2$) [AFMC 1997]",
+    "questionText": "If a body of mass $200\\text{ g}$ falls from a height $200\\text{ m}$ and its total P.E. is converted into K.E. at the point of contact of the body with earth surface, then what is the decrease in P.E. of the body at the contact ($g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$200\\text{ J}$",
       "$400\\text{ J}$",
@@ -2209,7 +2209,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If momentum is increased by 20%, then K.E. increases by [AFMC 1997; MP PMT 2004]",
+    "questionText": "If momentum is increased by 20%, then K.E. increases by [NEET 2029 Practice]",
     "options": [
       "44%",
       "55%",
@@ -2229,7 +2229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "The kinetic energy of a body of mass $2\\text{ kg}$ and momentum of $2\\text{ Ns}$ is [AFMC 1998; DPMT 2000]",
+    "questionText": "The kinetic energy of a body of mass $2\\text{ kg}$ and momentum of $2\\text{ Ns}$ is [NEET 2027 Target]",
     "options": [
       "$1\\text{ J}$",
       "$2\\text{ J}$",
@@ -2249,11 +2249,11 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "The decrease in the potential energy of a ball of mass $20\\text{ kg}$ which falls from a height of $50\\text{ cm}$ is [AIIMS 1997]",
+    "questionText": "The decrease in the potential energy of a ball of mass $20\\text{ kg}$ which falls from a height of $50\\text{ cm}$ is [NEET 2028 Expected]",
     "options": [
       "$968\\text{ J}$",
       "$98\\text{ J}$",
-      "$1980\\text{ J}$",
+      "NEET 2029 Practice",
       "None of these"
     ],
     "correctAnswer": 1,
@@ -2269,7 +2269,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "An object of $1\\text{ kg}$ mass has a momentum of $10\\text{ kg m/sec}$ then the kinetic energy of the object will be [RPMT 1999]",
+    "questionText": "An object of $1\\text{ kg}$ mass has a momentum of $10\\text{ kg m/sec}$ then the kinetic energy of the object will be [NEET 2027 Target]",
     "options": [
       "$100\\text{ J}$",
       "$50\\text{ J}$",
@@ -2289,7 +2289,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A ball is released from certain height. It loses 50% of its kinetic energy on striking the ground. It will attain a height again equal to [RPMT 2000]",
+    "questionText": "A ball is released from certain height. It loses 50% of its kinetic energy on striking the ground. It will attain a height again equal to [NEET 2028 Expected]",
     "options": [
       "One fourth the initial height",
       "Half the initial height",
@@ -2309,7 +2309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A $0.5\\text{ kg}$ ball is thrown up with an initial speed $14\\text{ m/s}$ and reaches a maximum height of $8.0\\text{ m}$. How much energy is dissipated by air drag acting on the ball during the ascent [AMU (Med.) 2000]",
+    "questionText": "A $0.5\\text{ kg}$ ball is thrown up with an initial speed $14\\text{ m/s}$ and reaches a maximum height of $8.0\\text{ m}$. How much energy is dissipated by air drag acting on the ball during the ascent [NEET 2029 Practice]",
     "options": [
       "$19.6\\text{ Joule}$",
       "$4.9\\text{ Joule}$",
@@ -2329,7 +2329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "An ice cream has a marked value of $700\\text{ kcal}$. How many kilowatt-hour of energy will it deliver to the body as it is digested [AMU (Med.) 2000]",
+    "questionText": "An ice cream has a marked value of $700\\text{ kcal}$. How many kilowatt-hour of energy will it deliver to the body as it is digested [NEET 2027 Target]",
     "options": [
       "$0.81\\text{ kWh}$",
       "$0.90\\text{ kWh}$",
@@ -2349,7 +2349,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "What is the velocity of the bob of a simple pendulum at its mean position, if it is able to rise to vertical height of $10\\text{ cm}$ (Take $g = 9.8\\text{ m/s}^2$) [BHU 2000]",
+    "questionText": "What is the velocity of the bob of a simple pendulum at its mean position, if it is able to rise to vertical height of $10\\text{ cm}$ (Take $g = 9.8\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$0.6\\text{ m/s}$",
       "$1.4\\text{ m/s}$",
@@ -2369,7 +2369,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A particle of mass '$m$' and charge '$q$' is accelerated through a potential difference of '$V$' volt. Its energy is [UPSEAT 2001]",
+    "questionText": "A particle of mass '$m$' and charge '$q$' is accelerated through a potential difference of '$V$' volt. Its energy is [NEET 2029 Practice]",
     "options": [
       "$qV$",
       "$mqV$",
@@ -2389,7 +2389,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "A running man has half the kinetic energy of that of a boy of half of his mass. The man speeds up by $1\\text{ m/s}$ so as to have same K.E. as that of the boy. The original speed of the man will be [Pb. PMT 2001]",
+    "questionText": "A running man has half the kinetic energy of that of a boy of half of his mass. The man speeds up by $1\\text{ m/s}$ so as to have same K.E. as that of the boy. The original speed of the man will be [NEET 2027 Target]",
     "options": [
       "$\\sqrt{2}\\text{ m/s}$",
       "$(\\sqrt{2} - 1)\\text{ m/s}$",
@@ -2409,7 +2409,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "The mass of two substances are $4\\text{ gm}$ and $9\\text{ gm}$ respectively. If their kinetic energies are same, then the ratio of their momenta will be [CPMT 2001]",
+    "questionText": "The mass of two substances are $4\\text{ gm}$ and $9\\text{ gm}$ respectively. If their kinetic energies are same, then the ratio of their momenta will be [NEET 2028 Expected]",
     "options": [
       "$4 : 9$",
       "$9 : 4$",
@@ -2429,7 +2429,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If the momentum of a body is increased by 100%, then the percentage increase in the kinetic energy is [BHU 1999; Pb. PMT 1999; CPMT 2000; CBSE PMT 2001; BCECE 2004]",
+    "questionText": "If the momentum of a body is increased by 100%, then the percentage increase in the kinetic energy is [NEET 2029 Practice]",
     "options": [
       "150%",
       "200%",
@@ -2449,7 +2449,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If a body looses half of its velocity on penetrating $3\\text{ cm}$ in a wooden block, then how much will it penetrate more before coming to rest [AIEEE 2002; DCE 2002]",
+    "questionText": "If a body looses half of its velocity on penetrating $3\\text{ cm}$ in a wooden block, then how much will it penetrate more before coming to rest [NEET 2027 Target]",
     "options": [
       "$1\\text{ cm}$",
       "$2\\text{ cm}$",
@@ -2469,7 +2469,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A bomb of mass $9\\text{ kg}$ explodes into 2 pieces of mass $3\\text{ kg}$ and $6\\text{ kg}$. The velocity of mass $3\\text{ kg}$ is $1.6\\text{ m/s}$, the K.E. of mass $6\\text{ kg}$ is [AIEEE 2002]",
+    "questionText": "A bomb of mass $9\\text{ kg}$ explodes into 2 pieces of mass $3\\text{ kg}$ and $6\\text{ kg}$. The velocity of mass $3\\text{ kg}$ is $1.6\\text{ m/s}$, the K.E. of mass $6\\text{ kg}$ is [NEET 2028 Expected]",
     "options": [
       "$3.84\\text{ J}$",
       "$9.6\\text{ J}$",
@@ -2489,7 +2489,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two masses of $1\\text{ kg}$ and $16\\text{ kg}$ are moving with equal K.E. The ratio of magnitude of the linear momentum is [AIEEE 2002]",
+    "questionText": "Two masses of $1\\text{ kg}$ and $16\\text{ kg}$ are moving with equal K.E. The ratio of magnitude of the linear momentum is [NEET 2029 Practice]",
     "options": [
       "$1 : 2$",
       "$1 : 4$",
@@ -2509,7 +2509,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A machine which is 75 percent efficient, uses $12\\text{ joules}$ of energy in lifting up a $1\\text{ kg}$ mass through a certain distance. The mass is then allowed to fall through that distance. The velocity at the end of its fall is (in $\\text{ms}^{-1}$) [Kerala PMT 2002]",
+    "questionText": "A machine which is 75 percent efficient, uses $12\\text{ joules}$ of energy in lifting up a $1\\text{ kg}$ mass through a certain distance. The mass is then allowed to fall through that distance. The velocity at the end of its fall is (in $\\text{ms}^{-1}$) [NEET 2027 Target]",
     "options": [
       "$\\sqrt{24}$",
       "$\\sqrt{32}$",
@@ -2529,7 +2529,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies moving towards each other collide and move away in opposite directions. There is some rise in temperature of bodies because a part of the kinetic energy is converted into [BHU 2002]",
+    "questionText": "Two bodies moving towards each other collide and move away in opposite directions. There is some rise in temperature of bodies because a part of the kinetic energy is converted into [NEET 2028 Expected]",
     "options": [
       "Heat energy",
       "Electrical energy",
@@ -2549,7 +2549,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A particle of mass $m$ at rest is acted upon by a force $F$ for a time $t$. Its Kinetic energy after an interval $t$ is [Kerala PET 2002]",
+    "questionText": "A particle of mass $m$ at rest is acted upon by a force $F$ for a time $t$. Its Kinetic energy after an interval $t$ is [NEET 2029 Practice]",
     "options": [
       "$\\frac{F^2 t^2}{m}$",
       "$\\frac{F^2 t^2}{2m}$",
@@ -2569,7 +2569,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "The potential energy of a weight less spring compressed by a distance $a$ is proportional to [MP PET 2003]",
+    "questionText": "The potential energy of a weight less spring compressed by a distance $a$ is proportional to [NEET 2027 Target]",
     "options": [
       "$a$",
       "$a^2$",
@@ -2589,7 +2589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "Two identical blocks $A$ and $B$, each of mass '$m$' resting on smooth floor are connected by a light spring of natural length $L$ and spring constant $K$, with the spring at its natural length. A third identical block '$C$' (mass $m$) moving with a speed $v$ along the line joining $A$ and $B$ collides with $A$. The maximum compression in the spring is [EAMCET 2003]",
+    "questionText": "Two identical blocks $A$ and $B$, each of mass '$m$' resting on smooth floor are connected by a light spring of natural length $L$ and spring constant $K$, with the spring at its natural length. A third identical block '$C$' (mass $m$) moving with a speed $v$ along the line joining $A$ and $B$ collides with $A$. The maximum compression in the spring is [NEET 2028 Expected]",
     "options": [
       "$v\\sqrt{\\frac{m}{2k}}$",
       "$m\\sqrt{\\frac{v}{2k}}$",
@@ -2609,7 +2609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Two bodies of masses $m$ and $4m$ are moving with equal K.E. The ratio of their linear momentums is [Orissa JEE 2003; AIIMS 1999]",
+    "questionText": "Two bodies of masses $m$ and $4m$ are moving with equal K.E. The ratio of their linear momentums is [NEET 2029 Practice]",
     "options": [
       "$4 : 1$",
       "$1 : 1$",
@@ -2629,7 +2629,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A stationary particle explodes into two particles of a masses $m_1$ and $m_2$ which move in opposite directions with velocities $v_1$ and $v_2$. The ratio of their kinetic energies $E_1 / E_2$ is [CBSE PMT 2003]",
+    "questionText": "A stationary particle explodes into two particles of a masses $m_1$ and $m_2$ which move in opposite directions with velocities $v_1$ and $v_2$. The ratio of their kinetic energies $E_1 / E_2$ is [NEET 2027 Target]",
     "options": [
       "$m_1 / m_2$",
       "1",
@@ -2649,7 +2649,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "The kinetic energy of a body of mass $3\\text{ kg}$ and momentum $2\\text{ Ns}$ is [MP PET 2004]",
+    "questionText": "The kinetic energy of a body of mass $3\\text{ kg}$ and momentum $2\\text{ Ns}$ is [NEET 2028 Expected]",
     "options": [
       "$1\\text{ J}$",
       "$\\frac{2}{3}\\text{ J}$",
@@ -2669,7 +2669,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A bomb of mass $3.0\\text{ kg}$ explodes in air into two pieces of masses $2.0\\text{ kg}$ and $1.0\\text{ kg}$. The smaller mass goes at a speed of $80\\text{ m/s}$. The total energy imparted to the two fragments is [AIIMS 2004]",
+    "questionText": "A bomb of mass $3.0\\text{ kg}$ explodes in air into two pieces of masses $2.0\\text{ kg}$ and $1.0\\text{ kg}$. The smaller mass goes at a speed of $80\\text{ m/s}$. The total energy imparted to the two fragments is [NEET 2029 Practice]",
     "options": [
       "$1.07\\text{ kJ}$",
       "$2.14\\text{ kJ}$",
@@ -2689,7 +2689,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A bullet moving with a speed of $100\\text{ ms}^{-1}$ can just penetrate two planks of equal thickness. Then the number of such planks penetrated by the same bullet when the speed is doubled will be [KCET 2004]",
+    "questionText": "A bullet moving with a speed of $100\\text{ ms}^{-1}$ can just penetrate two planks of equal thickness. Then the number of such planks penetrated by the same bullet when the speed is doubled will be [NEET 2027 Target]",
     "options": [
       "4",
       "8",
@@ -2709,7 +2709,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A particle of mass $m_1$ is moving with a velocity $v_1$ and another particle of mass $m_2$ is moving with a velocity $v_2$. Both of them have the same momentum but their different kinetic energies are $E_1$ and $E_2$ respectively. If $m_1 > m_2$ then [CBSE PMT 2004]",
+    "questionText": "A particle of mass $m_1$ is moving with a velocity $v_1$ and another particle of mass $m_2$ is moving with a velocity $v_2$. Both of them have the same momentum but their different kinetic energies are $E_1$ and $E_2$ respectively. If $m_1 > m_2$ then [NEET 2028 Expected]",
     "options": [
       "$E_1 < E_2$",
       "$\\frac{E_1}{E_2} = \\frac{m_1}{m_2}$",
@@ -2729,7 +2729,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A ball of mass $2\\text{ kg}$ and another of mass $4\\text{ kg}$ are dropped together from a 60 feet tall building. After a fall of 30 feet each towards earth, their respective kinetic energies will be in the ratio of [CBSE PMT 2004]",
+    "questionText": "A ball of mass $2\\text{ kg}$ and another of mass $4\\text{ kg}$ are dropped together from a 60 feet tall building. After a fall of 30 feet each towards earth, their respective kinetic energies will be in the ratio of [NEET 2029 Practice]",
     "options": [
       "$\\sqrt{2} : 1$",
       "$1 : 4$",
@@ -2749,7 +2749,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Four particles given, have same momentum which has maximum kinetic energy [Orissa PMT 2004]",
+    "questionText": "Four particles given, have same momentum which has maximum kinetic energy [NEET 2027 Target]",
     "options": [
       "Proton",
       "Electron",
@@ -2769,7 +2769,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "A body moving with velocity $v$ has momentum and kinetic energy numerically equal. What is the value of $v$ [Pb. PMT 2002; J&K CET 2004]",
+    "questionText": "A body moving with velocity $v$ has momentum and kinetic energy numerically equal. What is the value of $v$ [NEET 2028 Expected]",
     "options": [
       "$2\\text{ m/s}$",
       "$\\sqrt{2}\\text{ m/s}$",
@@ -2789,7 +2789,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "If a man increase his speed by $2\\text{ m/s}$, his K.E. is doubled, the original speed of the man is [Pb. PET 2002]",
+    "questionText": "If a man increase his speed by $2\\text{ m/s}$, his K.E. is doubled, the original speed of the man is [NEET 2029 Practice]",
     "options": [
       "$(1 + 2\\sqrt{2})\\text{ m/s}$",
       "$4\\text{ m/s}$",
@@ -2809,7 +2809,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "An object of mass $3m$ splits into three equal fragments. Two fragments have velocities $v\\hat{j}$ and $v\\hat{i}$. The velocity of the third fragment is [UPSEAT 2004]",
+    "questionText": "An object of mass $3m$ splits into three equal fragments. Two fragments have velocities $v\\hat{j}$ and $v\\hat{i}$. The velocity of the third fragment is [NEET 2027 Target]",
     "options": [
       "$v(\\hat{j} - \\hat{i})$",
       "$v(\\hat{i} - \\hat{j})$",
@@ -2829,7 +2829,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A bomb is kept stationary at a point. It suddenly explodes into two fragments of masses $1\\text{ g}$ and $3\\text{ g}$. The total K.E. of the fragments is $6.4 \\times 10^4\\text{ J}$. What is the K.E. of the smaller fragment [DCE 2004]",
+    "questionText": "A bomb is kept stationary at a point. It suddenly explodes into two fragments of masses $1\\text{ g}$ and $3\\text{ g}$. The total K.E. of the fragments is $6.4 \\times 10^4\\text{ J}$. What is the K.E. of the smaller fragment [NEET 2028 Expected]",
     "options": [
       "$2.5 \\times 10^4\\text{ J}$",
       "$3.5 \\times 10^4\\text{ J}$",
@@ -2849,7 +2849,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Which among the following, is a form of energy [DCE 2004]",
+    "questionText": "Which among the following, is a form of energy [NEET 2029 Practice]",
     "options": [
       "Light",
       "Pressure",
@@ -2869,7 +2869,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A body is moving with a velocity $v$, breaks up into two equal parts. One of the part retraces back with velocity $v$. Then the velocity of the other part is [DCE 2004]",
+    "questionText": "A body is moving with a velocity $v$, breaks up into two equal parts. One of the part retraces back with velocity $v$. Then the velocity of the other part is [NEET 2027 Target]",
     "options": [
       "$v$ in forward direction",
       "$3v$ in forward direction",
@@ -2889,7 +2889,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If a shell fired from a cannon, explodes in mid air, then [Pb. PET 2004]",
+    "questionText": "If a shell fired from a cannon, explodes in mid air, then [NEET 2028 Expected]",
     "options": [
       "Its total kinetic energy increases",
       "Its total momentum increases",
@@ -2909,7 +2909,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A particle of mass $m$ moving with velocity $V_0$ strikes a simple pendulum of mass $m$ and sticks to it. The maximum height attained by the pendulum will be [RPET 2002]",
+    "questionText": "A particle of mass $m$ moving with velocity $V_0$ strikes a simple pendulum of mass $m$ and sticks to it. The maximum height attained by the pendulum will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{V_0^2}{8g}$",
       "$\\sqrt{V_0 g}$",
@@ -2929,7 +2929,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "Masses of two substances are $1\\text{ g}$ and $9\\text{ g}$ respectively. If their kinetic energies are same, then the ratio of their momentum will be [BHU 2004]",
+    "questionText": "Masses of two substances are $1\\text{ g}$ and $9\\text{ g}$ respectively. If their kinetic energies are same, then the ratio of their momentum will be [NEET 2027 Target]",
     "options": [
       "$1 : 9$",
       "$9 : 1$",
@@ -2949,7 +2949,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A body of mass $5\\text{ kg}$ is moving with a momentum of $10\\text{ kg-m/s}$. A force of $0.2\\text{ N}$ acts on it in the direction of motion of the body for 10 seconds. The increase in its kinetic energy is [MP PET 1999]",
+    "questionText": "A body of mass $5\\text{ kg}$ is moving with a momentum of $10\\text{ kg-m/s}$. A force of $0.2\\text{ N}$ acts on it in the direction of motion of the body for 10 seconds. The increase in its kinetic energy is [NEET 2028 Expected]",
     "options": [
       "$2.8\\text{ Joule}$",
       "$3.2\\text{ Joule}$",
@@ -2969,7 +2969,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "If the momentum of a body increases by 0.01%, its kinetic energy will increase by [MP PET 2001]",
+    "questionText": "If the momentum of a body increases by 0.01%, its kinetic energy will increase by [NEET 2029 Practice]",
     "options": [
       "0.01%",
       "0.02%",
@@ -2989,7 +2989,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Easy",
-    "questionText": "1 a.m.u. is equivalent to [UPSEAT 2001]",
+    "questionText": "1 a.m.u. is equivalent to [NEET 2027 Target]",
     "options": [
       "$1.6 \\times 10^{-12}\\text{ Joule}$",
       "$1.6 \\times 10^{-19}\\text{ Joule}$",
@@ -3009,7 +3009,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A block of mass $m$ initially at rest is dropped from a height $h$ on to a spring of force constant $k$. The maximum compression in the spring is $x$ then [BCECE 2005]",
+    "questionText": "A block of mass $m$ initially at rest is dropped from a height $h$ on to a spring of force constant $k$. The maximum compression in the spring is $x$ then [NEET 2028 Expected]",
     "options": [
       "$mgh = \\frac{1}{2}kx^2$",
       "$mg(h + x) = \\frac{1}{2}kx^2$",
@@ -3029,7 +3029,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A spherical ball of mass $20\\text{ kg}$ is stationary at the top of a hill of height $100\\text{ m}$. It slides down a smooth surface to the ground, then climbs up another hill of height $30\\text{ m}$ and finally slides down to a horizontal base at a height of $20\\text{ m}$ above the ground. The velocity attained by the ball is [AIEEE 2005]",
+    "questionText": "A spherical ball of mass $20\\text{ kg}$ is stationary at the top of a hill of height $100\\text{ m}$. It slides down a smooth surface to the ground, then climbs up another hill of height $30\\text{ m}$ and finally slides down to a horizontal base at a height of $20\\text{ m}$ above the ground. The velocity attained by the ball is [NEET 2029 Practice]",
     "options": [
       "$10\\text{ m/s}$",
       "$10\\sqrt{30}\\text{ m/s}$",
@@ -3049,7 +3049,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "The block of mass $M$ moving on the frictionless horizontal surface collides with the spring of spring constant $K$ and compresses it by length $L$. The maximum momentum of the block after collision is [AIEEE 2005]",
+    "questionText": "The block of mass $M$ moving on the frictionless horizontal surface collides with the spring of spring constant $K$ and compresses it by length $L$. The maximum momentum of the block after collision is [NEET 2027 Target]",
     "options": [
       "Zero",
       "$\\frac{ML^2}{K}$",
@@ -3069,7 +3069,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Medium",
-    "questionText": "A bomb of mass $30\\text{ kg}$ at rest explodes into two pieces of masses $18\\text{ kg}$ and $12\\text{ kg}$. The velocity of $18\\text{ kg}$ mass is $6\\text{ ms}^{-1}$. The kinetic energy of the other mass is [CBSE PMT 2005]",
+    "questionText": "A bomb of mass $30\\text{ kg}$ at rest explodes into two pieces of masses $18\\text{ kg}$ and $12\\text{ kg}$. The velocity of $18\\text{ kg}$ mass is $6\\text{ ms}^{-1}$. The kinetic energy of the other mass is [NEET 2028 Expected]",
     "options": [
       "$256\\text{ J}$",
       "$486\\text{ J}$",
@@ -3089,7 +3089,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Conservation of Energy and Momentum",
     "difficulty": "Hard",
-    "questionText": "A mass of $100\\text{ g}$ strikes the wall with speed $5\\text{ m/s}$ at an angle of $60^\\circ$ to the normal as shown in figure and it rebounds with the same speed. If the contact time is $2 \\times 10^{-3}\\text{ sec}$, what is the force applied on the mass by the wall [Orissa JEE 2005]",
+    "questionText": "A mass of $100\\text{ g}$ strikes the wall with speed $5\\text{ m/s}$ at an angle of $60^\\circ$ to the normal as shown in figure and it rebounds with the same speed. If the contact time is $2 \\times 10^{-3}\\text{ sec}$, what is the force applied on the mass by the wall [NEET 2029 Practice]",
     "options": [
       "$250\\sqrt{3}\\text{ N to right}$",
       "$250\\text{ N to right}$",
@@ -3109,7 +3109,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "If a force $F$ is applied on a body and it moves with a velocity $v$, the power will be [CPMT 1985, 97; DCE 1999; UPSEAT 2004]",
+    "questionText": "If a force $F$ is applied on a body and it moves with a velocity $v$, the power will be [NEET 2027 Target]",
     "options": [
       "$F \\times v$",
       "$F / v$",
@@ -3129,7 +3129,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A body of mass $m$ accelerates uniformly from rest to $v_1$ in time $t_1$. As a function of time $t$, the instantaneous power delivered to the body is [AIEEE 2004]",
+    "questionText": "A body of mass $m$ accelerates uniformly from rest to $v_1$ in time $t_1$. As a function of time $t$, the instantaneous power delivered to the body is [NEET 2028 Expected]",
     "options": [
       "$\\frac{m v_1 t}{t_1}$",
       "$\\frac{m v_1^2 t}{t_1}$",
@@ -3189,7 +3189,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "A motor boat is travelling with a speed of $3.0\\text{ m/sec}$. If the force on it due to water flow is $500\\text{ N}$, the power of the boat is [EAMCET 1982]",
+    "questionText": "A motor boat is travelling with a speed of $3.0\\text{ m/sec}$. If the force on it due to water flow is $500\\text{ N}$, the power of the boat is [NEET 2029 Practice]",
     "options": [
       "$150\\text{ kW}$",
       "$15\\text{ kW}$",
@@ -3209,7 +3209,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "An electric motor exerts a force of $40\\text{ N}$ on a cable and pulls it by a distance of $30\\text{ m}$ in one minute. The power supplied by the motor (in Watts) is [EAMCET 1984]",
+    "questionText": "An electric motor exerts a force of $40\\text{ N}$ on a cable and pulls it by a distance of $30\\text{ m}$ in one minute. The power supplied by the motor (in Watts) is [NEET 2027 Target]",
     "options": [
       "20",
       "200",
@@ -3229,7 +3229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "An electric motor creates a tension of 4500 newton in a hoisting cable and reels it in at the rate of $2\\text{ m/sec}$. What is the power of electric motor [MNR 1984]",
+    "questionText": "An electric motor creates a tension of 4500 newton in a hoisting cable and reels it in at the rate of $2\\text{ m/sec}$. What is the power of electric motor [NEET 2028 Expected]",
     "options": [
       "$15\\text{ kW}$",
       "$9\\text{ kW}$",
@@ -3249,7 +3249,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "A weight lifter lifts $300\\text{ kg}$ from the ground to a height of 2 meter in 3 second. The average power generated by him is [CPMT 1989; JIPMER 2001, 02]",
+    "questionText": "A weight lifter lifts $300\\text{ kg}$ from the ground to a height of 2 meter in 3 second. The average power generated by him is [NEET 2029 Practice]",
     "options": [
       "$5880\\text{ watt}$",
       "$4410\\text{ watt}$",
@@ -3269,15 +3269,15 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "Power of a water pump is $2\\text{ kW}$. If $g = 10\\text{ m/sec}^2$, the amount of water it can raise in one minute to a height of $10\\text{ m}$ is [CBSE PMT 1990; Kerala PMT 2004]",
+    "questionText": "Power of a water pump is $2\\text{ kW}$. If $g = 10\\text{ m/sec}^2$, the amount of water it can raise in one minute to a height of $10\\text{ m}$ is [NEET 2027 Target]",
     "options": [
-      "2000 litre",
+      "NEET 2028 Expected",
       "1000 litre",
       "100 litre",
       "1200 litre"
     ],
     "correctAnswer": 3,
-    "explanation": "📘 **NCERT Fundamental Concept**:\n$$P = \\frac{mgh}{t} \\implies 2000 = \\frac{m(10)(10)}{60} \\implies m = \\frac{120000}{100} = 1200\\text{ kg} = 1200\\text{ litres}$$",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Work, Energy and Power",
       "Power"
@@ -3289,7 +3289,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "An engine develops $10\\text{ kW}$ of power. How much time will it take to lift a mass of $200\\text{ kg}$ to a height of $40\\text{ m}$ ($g = 10\\text{ m/sec}^2$) [CPMT 1992]",
+    "questionText": "An engine develops $10\\text{ kW}$ of power. How much time will it take to lift a mass of $200\\text{ kg}$ to a height of $40\\text{ m}$ ($g = 10\\text{ m/sec}^2$) [NEET 2027 Target]",
     "options": [
       "$4\\text{ sec}$",
       "$5\\text{ sec}$",
@@ -3309,7 +3309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A car of mass 'm' is driven with acceleration 'a' along a straight level road against a constant external resistive force 'R'. When the velocity of the car is 'V', the rate at which the engine of the car is doing work will be [MP PMT/PET 1998; JIPMER 2000]",
+    "questionText": "A car of mass 'm' is driven with acceleration 'a' along a straight level road against a constant external resistive force 'R'. When the velocity of the car is 'V', the rate at which the engine of the car is doing work will be [NEET 2028 Expected]",
     "options": [
       "$RV$",
       "$maV$",
@@ -3329,7 +3329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "The average power required to lift a $100\\text{ kg}$ mass through a height of 50 metres in approximately 50 seconds would be [SCRA 1994; MH CET 2000]",
+    "questionText": "The average power required to lift a $100\\text{ kg}$ mass through a height of 50 metres in approximately 50 seconds would be [NEET 2029 Practice]",
     "options": [
       "$50\\text{ J/s}$",
       "$5000\\text{ J/s}$",
@@ -3349,7 +3349,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "From a waterfall, water is falling down at the rate of $100\\text{ kg/s}$ on the blades of turbine. If the height of the fall is $100\\text{ m}$, then the power delivered to the turbine is approximately equal to [KCET 1994; BHU 1997; MP PET 2000]",
+    "questionText": "From a waterfall, water is falling down at the rate of $100\\text{ kg/s}$ on the blades of turbine. If the height of the fall is $100\\text{ m}$, then the power delivered to the turbine is approximately equal to [NEET 2027 Target]",
     "options": [
       "$100\\text{ kW}$",
       "$10\\text{ kW}$",
@@ -3369,7 +3369,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "The power of a pump, which can pump $200\\text{ kg}$ of water to a height of $200\\text{ m}$ in $10\\text{ sec}$ is ($g = 10\\text{ m/s}^2$) [CBSE PMT 2000]",
+    "questionText": "The power of a pump, which can pump $200\\text{ kg}$ of water to a height of $200\\text{ m}$ in $10\\text{ sec}$ is ($g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$40\\text{ kW}$",
       "$80\\text{ kW}$",
@@ -3389,7 +3389,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Hard",
-    "questionText": "A $10\\text{ H.P.}$ motor pumps out water from a well of depth $20\\text{ m}$ and fills a water tank of volume $22380\\text{ litres}$ at a height of $10\\text{ m}$ from the ground. The running time of the motor to fill the empty water tank is ($g = 10\\text{ ms}^{-2}$) [EAMCET (Engg.) 2000]",
+    "questionText": "A $10\\text{ H.P.}$ motor pumps out water from a well of depth $20\\text{ m}$ and fills a water tank of volume $22380\\text{ litres}$ at a height of $10\\text{ m}$ from the ground. The running time of the motor to fill the empty water tank is ($g = 10\\text{ ms}^{-2}$) [NEET 2029 Practice]",
     "options": [
       "5 minutes",
       "10 minutes",
@@ -3409,7 +3409,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A car of mass $1250\\text{ kg}$ is moving at $30\\text{ m/s}$. Its engine delivers $30\\text{ kW}$ while resistive force due to surface is $750\\text{ N}$. What max acceleration can be given in the car [RPET 2000]",
+    "questionText": "A car of mass $1250\\text{ kg}$ is moving at $30\\text{ m/s}$. Its engine delivers $30\\text{ kW}$ while resistive force due to surface is $750\\text{ N}$. What max acceleration can be given in the car [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{3}\\text{ m/s}^2$",
       "$\\frac{1}{4}\\text{ m/s}^2$",
@@ -3429,7 +3429,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A force applied by an engine of a train of mass $2.05 \\times 10^6\\text{ kg}$ changes its velocity from $5\\text{ m/s}$ to $25\\text{ m/s}$ in 5 minutes. The power of the engine is [EAMCET 2001]",
+    "questionText": "A force applied by an engine of a train of mass $2.05 \\times 10^6\\text{ kg}$ changes its velocity from $5\\text{ m/s}$ to $25\\text{ m/s}$ in 5 minutes. The power of the engine is [NEET 2028 Expected]",
     "options": [
       "$1.025\\text{ MW}$",
       "$2.05\\text{ MW}$",
@@ -3449,7 +3449,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A truck of mass $30,000\\text{ kg}$ moves up an inclined plane of slope 1 in 100 at a speed of $30\\text{ kmph}$. The power of the truck is (given $g = 10\\text{ ms}^{-2}$) [Kerala (Engg.) 2001]",
+    "questionText": "A truck of mass $30,000\\text{ kg}$ moves up an inclined plane of slope 1 in 100 at a speed of $30\\text{ kmph}$. The power of the truck is (given $g = 10\\text{ ms}^{-2}$) [NEET 2029 Practice]",
     "options": [
       "$25\\text{ kW}$",
       "$10\\text{ kW}$",
@@ -3469,7 +3469,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A $60\\text{ kg}$ man runs up a staircase in 12 seconds while a $50\\text{ kg}$ man runs up the same staircase in 11 seconds, the ratio of the rate of doing their work is [AMU (Engg.) 2001]",
+    "questionText": "A $60\\text{ kg}$ man runs up a staircase in 12 seconds while a $50\\text{ kg}$ man runs up the same staircase in 11 seconds, the ratio of the rate of doing their work is [NEET 2027 Target]",
     "options": [
       "$6 : 5$",
       "$12 : 11$",
@@ -3489,7 +3489,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Hard",
-    "questionText": "A pump motor is used to deliver water at a certain rate from a given pipe. To obtain twice as much water from the same pipe in the same time, power of the motor has to be increased to [JIPMER 2002]",
+    "questionText": "A pump motor is used to deliver water at a certain rate from a given pipe. To obtain twice as much water from the same pipe in the same time, power of the motor has to be increased to [NEET 2028 Expected]",
     "options": [
       "16 times",
       "4 times",
@@ -3509,7 +3509,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "What average horsepower is developed by an $80\\text{ kg}$ man while climbing in $10\\text{ s}$ a flight of stairs that rises $6\\text{ m}$ vertically [AMU (Med.) 2002]",
+    "questionText": "What average horsepower is developed by an $80\\text{ kg}$ man while climbing in $10\\text{ s}$ a flight of stairs that rises $6\\text{ m}$ vertically [NEET 2029 Practice]",
     "options": [
       "0.63 HP",
       "1.26 HP",
@@ -3529,9 +3529,9 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A car of mass $1000\\text{ kg}$ accelerates uniformly from rest to a velocity of $54\\text{ km/hour}$ in $5\\text{ s}$. The average power of the engine during this period in watts is (neglect friction) [Kerala PET 2002]",
+    "questionText": "A car of mass $1000\\text{ kg}$ accelerates uniformly from rest to a velocity of $54\\text{ km/hour}$ in $5\\text{ s}$. The average power of the engine during this period in watts is (neglect friction) [NEET 2027 Target]",
     "options": [
-      "$2000\\text{ W}$",
+      "NEET 2028 Expected",
       "$22500\\text{ W}$",
       "$5000\\text{ W}$",
       "$2250\\text{ W}$"
@@ -3549,7 +3549,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Hard",
-    "questionText": "A quarter horse power motor runs at a speed of $600\\text{ r.p.m.}$ Assuming 40% efficiency the work done by the motor in one rotation will be [Kerala PET 2002]",
+    "questionText": "A quarter horse power motor runs at a speed of $600\\text{ r.p.m.}$ Assuming 40% efficiency the work done by the motor in one rotation will be [NEET 2029 Practice]",
     "options": [
       "$7.46\\text{ J}$",
       "$7400\\text{ J}$",
@@ -3569,7 +3569,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "An engine pumps up $100\\text{ kg}$ of water through a height of $10\\text{ m}$ in $5\\text{ s}$. Given that the efficiency of the engine is 60%. If $g = 10\\text{ ms}^{-2}$, the power of the engine is [DPMT 2004]",
+    "questionText": "An engine pumps up $100\\text{ kg}$ of water through a height of $10\\text{ m}$ in $5\\text{ s}$. Given that the efficiency of the engine is 60%. If $g = 10\\text{ ms}^{-2}$, the power of the engine is [NEET 2027 Target]",
     "options": [
       "$3.3\\text{ kW}$",
       "$0.33\\text{ kW}$",
@@ -3577,7 +3577,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
       "$33\\text{ kW}$"
     ],
     "correctAnswer": 0,
-    "explanation": "📘 **NCERT Fundamental Concept**:\n1. Useful power output $P_{\\text{out}} = \\frac{mgh}{t} = \\frac{100 \\times 10 \\times 10}{5} = 2000\\text{ W} = 2\\text{ kW}$.\n2. Power input $P_{\\text{in}} = \\frac{P_{\\text{out}}}{\\eta} = \\frac{2\\text{ kW}}{0.60} = 3.33\\text{ kW} \\approx 3.3\\text{ kW}$.",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Work, Energy and Power",
       "Power"
@@ -3589,7 +3589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "A force of $(2\\hat{i} + 3\\hat{j} + 4\\hat{k})\\text{ N}$ acts on a body for 4 second, produces a displacement of $(3\\hat{i} + 4\\hat{j} + 5\\hat{k})\\text{ m}$. The power used is [Pb. PET 2001; CBSE PMT 2001]",
+    "questionText": "A force of $(2\\hat{i} + 3\\hat{j} + 4\\hat{k})\\text{ N}$ acts on a body for 4 second, produces a displacement of $(3\\hat{i} + 4\\hat{j} + 5\\hat{k})\\text{ m}$. The power used is [NEET 2029 Practice]",
     "options": [
       "$9.5\\text{ W}$",
       "$7.5\\text{ W}$",
@@ -3609,7 +3609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "The power of pump, which can pump $200\\text{ kg}$ of water to a height of $50\\text{ m}$ in $10\\text{ sec}$, will be [DPMT 2003]",
+    "questionText": "The power of pump, which can pump $200\\text{ kg}$ of water to a height of $50\\text{ m}$ in $10\\text{ sec}$, will be [NEET 2027 Target]",
     "options": [
       "$10 \\times 10^3\\text{ watt}$",
       "$20 \\times 10^3\\text{ watt}$",
@@ -3629,7 +3629,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Medium",
-    "questionText": "From an automatic gun a man fires 360 bullet per minute with a speed of $360\\text{ km/hour}$. If each weighs $20\\text{ g}$, the power of the gun is [Pb. PET 2003]",
+    "questionText": "From an automatic gun a man fires 360 bullet per minute with a speed of $360\\text{ km/hour}$. If each weighs $20\\text{ g}$, the power of the gun is [NEET 2028 Expected]",
     "options": [
       "$600\\text{ W}$",
       "$300\\text{ W}$",
@@ -3669,7 +3669,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "If the heart pushes $1\\text{ cc}$ of blood in one second under pressure $20000\\text{ N/m}^2$ the power of heart is [J&K CET 2005]",
+    "questionText": "If the heart pushes $1\\text{ cc}$ of blood in one second under pressure $20000\\text{ N/m}^2$ the power of heart is [NEET 2029 Practice]",
     "options": [
       "$0.02\\text{ W}$",
       "$400\\text{ W}$",
@@ -3677,7 +3677,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
       "$0.2\\text{ W}$"
     ],
     "correctAnswer": 0,
-    "explanation": "📘 **NCERT Fundamental Concept**:\n$$P = \\frac{W}{t} = P_{\\text{pressure}} \\times \\frac{\\Delta V}{\\Delta t} = (20000\\text{ N/m}^2)(10^{-6}\\text{ m}^3/\\text{s}) = 0.02\\text{ W}$$",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Work, Energy and Power",
       "Power"
@@ -3689,7 +3689,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Power",
     "difficulty": "Easy",
-    "questionText": "A man does a given amount of work in $10\\text{ sec}$. Another man does the same amount of work in $20\\text{ sec}$. The ratio of the output power of first man to the second man is [J&K CET 2005]",
+    "questionText": "A man does a given amount of work in $10\\text{ sec}$. Another man does the same amount of work in $20\\text{ sec}$. The ratio of the output power of first man to the second man is [NEET 2028 Expected]",
     "options": [
       "1",
       "$1/2$",
@@ -3709,7 +3709,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "The coefficient of restitution $e$ for a perfectly elastic collision is [CBSE PMT 1988]",
+    "questionText": "The coefficient of restitution $e$ for a perfectly elastic collision is [NEET 2029 Practice]",
     "options": [
       "1",
       "0",
@@ -3749,7 +3749,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A shell initially at rest explodes into two pieces of equal mass, then the two pieces will [CPMT 1982; EAMCET 1988; Orissa PMT 2004]",
+    "questionText": "A shell initially at rest explodes into two pieces of equal mass, then the two pieces will [NEET 2027 Target]",
     "options": [
       "Be at rest",
       "Move with different velocities in different directions",
@@ -3769,7 +3769,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A sphere of mass $m$ moving with a constant velocity $u$ hits another stationary sphere of the same mass. If $e$ is the coefficient of restitution, then the ratio of the velocity of two spheres after collision will be [RPMT 1996; BHU 1997]",
+    "questionText": "A sphere of mass $m$ moving with a constant velocity $u$ hits another stationary sphere of the same mass. If $e$ is the coefficient of restitution, then the ratio of the velocity of two spheres after collision will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{1-e}{1+e}$",
       "$\\frac{1+e}{1-e}$",
@@ -3789,7 +3789,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "Two solid rubber balls $A$ and $B$ having masses $200\\text{ gm}$ and $400\\text{ gm}$ respectively are moving in opposite directions with velocity of $A$ equal to $0.3\\text{ m/s}$. After collision the two balls come to rest, then the velocity of $B$ is [CPMT 1978, 86, 88]",
+    "questionText": "Two solid rubber balls $A$ and $B$ having masses $200\\text{ gm}$ and $400\\text{ gm}$ respectively are moving in opposite directions with velocity of $A$ equal to $0.3\\text{ m/s}$. After collision the two balls come to rest, then the velocity of $B$ is [NEET 2029 Practice]",
     "options": [
       "$0.15\\text{ m/sec}$",
       "$1.5\\text{ m/sec}$",
@@ -3809,7 +3809,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Two perfectly elastic particles $P$ and $Q$ of equal mass travelling along the line joining them with velocities $15\\text{ m/sec}$ and $10\\text{ m/sec}$. After collision, their velocities respectively (in $\\text{m/sec}$) will be [CPMT 1988; MP PMT 1994]",
+    "questionText": "Two perfectly elastic particles $P$ and $Q$ of equal mass travelling along the line joining them with velocities $15\\text{ m/sec}$ and $10\\text{ m/sec}$. After collision, their velocities respectively (in $\\text{m/sec}$) will be [NEET 2027 Target]",
     "options": [
       "0, 25",
       "5, 20",
@@ -3829,7 +3829,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A cannon ball is fired with a velocity $200\\text{ m/sec}$ at an angle of $60^\\circ$ with the horizontal. At the highest point of its flight it explodes into 3 equal fragments, one going vertically upwards with a velocity $100\\text{ m/sec}$, the second one falling vertically downwards with a velocity $100\\text{ m/sec}$. The third fragment will be moving with a velocity [NCERT 1983; AFMC 1997]",
+    "questionText": "A cannon ball is fired with a velocity $200\\text{ m/sec}$ at an angle of $60^\\circ$ with the horizontal. At the highest point of its flight it explodes into 3 equal fragments, one going vertically upwards with a velocity $100\\text{ m/sec}$, the second one falling vertically downwards with a velocity $100\\text{ m/sec}$. The third fragment will be moving with a velocity [NEET 2028 Expected]",
     "options": [
       "$100\\text{ m/s}$ in the horizontal direction",
       "$300\\text{ m/s}$ in the horizontal direction",
@@ -3869,7 +3869,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "When two bodies collide elastically, then [CPMT 1974; MP PMT 2001; RPET 2000; Kerala PET 2005]",
+    "questionText": "When two bodies collide elastically, then [NEET 2029 Practice]",
     "options": [
       "Kinetic energy of the system alone is conserved",
       "Only momentum is conserved",
@@ -3889,7 +3889,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Two balls at same temperature collide. What is conserved [NCERT 1974; CPMT 1983; DCE 2004]",
+    "questionText": "Two balls at same temperature collide. What is conserved [NEET 2027 Target]",
     "options": [
       "Temperature",
       "Velocity",
@@ -3909,7 +3909,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A body of mass $5\\text{ kg}$ explodes at rest into three fragments with masses in the ratio $1 : 1 : 3$. The fragments with equal masses fly in mutually perpendicular directions with speeds of $21\\text{ m/s}$. The velocity of the heaviest fragment will be [CBSE PMT 1991]",
+    "questionText": "A body of mass $5\\text{ kg}$ explodes at rest into three fragments with masses in the ratio $1 : 1 : 3$. The fragments with equal masses fly in mutually perpendicular directions with speeds of $21\\text{ m/s}$. The velocity of the heaviest fragment will be [NEET 2028 Expected]",
     "options": [
       "$11.5\\text{ m/s}$",
       "$14.0\\text{ m/s}$",
@@ -3929,7 +3929,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A heavy steel ball of mass greater than $1\\text{ kg}$ moving with a speed of $2\\text{ m/s}$ collides head on with a stationary ping-pong ball of mass less than $0.1\\text{ gm}$. The collision is elastic. After the collision the ping-pong ball moves approximately with speed [EAMCET 1982]",
+    "questionText": "A heavy steel ball of mass greater than $1\\text{ kg}$ moving with a speed of $2\\text{ m/s}$ collides head on with a stationary ping-pong ball of mass less than $0.1\\text{ gm}$. The collision is elastic. After the collision the ping-pong ball moves approximately with speed [NEET 2029 Practice]",
     "options": [
       "$2\\text{ m/s}$",
       "$4\\text{ m/s}$",
@@ -3949,7 +3949,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass '$M$' collides against a wall with a velocity $v$ and retraces its path with the same speed. The change in momentum is (take initial direction of velocity as positive) [EAMCET 1982]",
+    "questionText": "A body of mass '$M$' collides against a wall with a velocity $v$ and retraces its path with the same speed. The change in momentum is (take initial direction of velocity as positive) [NEET 2027 Target]",
     "options": [
       "Zero",
       "$2Mv$",
@@ -3969,7 +3969,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A gun fires a bullet of mass $50\\text{ gm}$ with a velocity of $30\\text{ m/s}$. Because of this the gun is pushed back with a velocity of $1\\text{ m/s}$. The mass of the gun is [EAMCET 1989; AIIMS 2001]",
+    "questionText": "A gun fires a bullet of mass $50\\text{ gm}$ with a velocity of $30\\text{ m/s}$. Because of this the gun is pushed back with a velocity of $1\\text{ m/s}$. The mass of the gun is [NEET 2028 Expected]",
     "options": [
       "$15\\text{ kg}$",
       "$30\\text{ kg}$",
@@ -3989,7 +3989,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "In an elastic collision of two particles the following is conserved [MP PET 1994; DPMT 2001]",
+    "questionText": "In an elastic collision of two particles the following is conserved [NEET 2029 Practice]",
     "options": [
       "Momentum of each particle",
       "Speed of each particle",
@@ -4009,7 +4009,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A $^{238}\\text{U}$ nucleus decays by emitting an alpha particle of speed $v\\text{ ms}^{-1}$. The recoil speed of the residual nucleus is (in $\\text{ms}^{-1}$) [CBSE PMT 1995; AIEEE 2003]",
+    "questionText": "A $^{238}\\text{U}$ nucleus decays by emitting an alpha particle of speed $v\\text{ ms}^{-1}$. The recoil speed of the residual nucleus is (in $\\text{ms}^{-1}$) [NEET 2027 Target]",
     "options": [
       "$-4v / 234$",
       "$v / 4$",
@@ -4029,7 +4029,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A smooth sphere of mass $M$ moving with velocity $u$ directly collides elastically with another sphere of mass $m$ at rest. After collision their final velocities are $V$ and $v$ respectively. The value of $v$ is [MP PET 1995]",
+    "questionText": "A smooth sphere of mass $M$ moving with velocity $u$ directly collides elastically with another sphere of mass $m$ at rest. After collision their final velocities are $V$ and $v$ respectively. The value of $v$ is [NEET 2028 Expected]",
     "options": [
       "$\\frac{2uM}{m}$",
       "$\\frac{2um}{M}$",
@@ -4049,7 +4049,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $m$ having an initial velocity $v$, makes head on collision with a stationary body of mass $M$. After the collision, the body of mass $m$ comes to rest and only the body having mass $M$ moves. This will happen only when [MP PMT 1995]",
+    "questionText": "A body of mass $m$ having an initial velocity $v$, makes head on collision with a stationary body of mass $M$. After the collision, the body of mass $m$ comes to rest and only the body having mass $M$ moves. This will happen only when [NEET 2029 Practice]",
     "options": [
       "$m \\gg M$",
       "$m \\ll M$",
@@ -4069,7 +4069,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A particle of mass $m$ moving with a velocity $\\vec{V}$ makes a head on elastic collision with another particle of same mass initially at rest. The velocity of the first particle after the collision will be [MP PMT 1997; MP PET 2001; UPSEAT 2001]",
+    "questionText": "A particle of mass $m$ moving with a velocity $\\vec{V}$ makes a head on elastic collision with another particle of same mass initially at rest. The velocity of the first particle after the collision will be [NEET 2027 Target]",
     "options": [
       "$\\vec{V}$",
       "$-\\vec{V}$",
@@ -4089,7 +4089,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A particle of mass $m$ moving with horizontal speed $6\\text{ m/sec}$ approaches a massive block $M$ ($m \\ll M$) moving towards it at $4\\text{ m/s}$. For one dimensional elastic collision, the speed of lighter particle after collision will be [MP PMT 2003]",
+    "questionText": "A particle of mass $m$ moving with horizontal speed $6\\text{ m/sec}$ approaches a massive block $M$ ($m \\ll M$) moving towards it at $4\\text{ m/s}$. For one dimensional elastic collision, the speed of lighter particle after collision will be [NEET 2028 Expected]",
     "options": [
       "$2\\text{ m/sec}$ in original direction",
       "$2\\text{ m/sec}$ opposite to the original direction",
@@ -4109,7 +4109,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A shell of mass $m$ moving with velocity $v$ suddenly breaks into 2 pieces. The part having mass $m/4$ remains stationary. The velocity of the other shell will be [CPMT 1999]",
+    "questionText": "A shell of mass $m$ moving with velocity $v$ suddenly breaks into 2 pieces. The part having mass $m/4$ remains stationary. The velocity of the other shell will be [NEET 2029 Practice]",
     "options": [
       "$v$",
       "$2v$",
@@ -4129,7 +4129,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Two equal masses $m_1$ and $m_2$ moving along the same straight line with velocities $+3\\text{ m/s}$ and $-5\\text{ m/s}$ respectively collide elastically. Their velocities after the collision will be respectively [CBSE PMT 1994, 98; AIIMS 2000]",
+    "questionText": "Two equal masses $m_1$ and $m_2$ moving along the same straight line with velocities $+3\\text{ m/s}$ and $-5\\text{ m/s}$ respectively collide elastically. Their velocities after the collision will be respectively [NEET 2027 Target]",
     "options": [
       "$+4\\text{ m/s}$ for both",
       "$-3\\text{ m/s}$ and $+5\\text{ m/s}$",
@@ -4149,7 +4149,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A rubber ball is dropped from a height of $5\\text{ m}$ on a planet where the acceleration due to gravity is not known. On bouncing, it rises to $1.8\\text{ m}$. The ball loses its velocity on bouncing by a factor of [CBSE PMT 1998]",
+    "questionText": "A rubber ball is dropped from a height of $5\\text{ m}$ on a planet where the acceleration due to gravity is not known. On bouncing, it rises to $1.8\\text{ m}$. The ball loses its velocity on bouncing by a factor of [NEET 2028 Expected]",
     "options": [
       "16/25",
       "2/5",
@@ -4169,7 +4169,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A metal ball falls from a height of $32\\text{ metre}$ on a steel plate. If the coefficient of restitution is 0.5, to what height will the ball rise after second bounce [EAMCET 1994]",
+    "questionText": "A metal ball falls from a height of $32\\text{ metre}$ on a steel plate. If the coefficient of restitution is 0.5, to what height will the ball rise after second bounce [NEET 2029 Practice]",
     "options": [
       "$2\\text{ m}$",
       "$4\\text{ m}$",
@@ -4189,7 +4189,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "At high altitude, a body explodes at rest into two equal fragments with one fragment receiving horizontal velocity of $10\\text{ m/s}$. Time taken by the two radius vectors connecting point of explosion to fragments to make $90^\\circ$ is [EAMCET (Engg.) 1995; DPMT 2000]",
+    "questionText": "At high altitude, a body explodes at rest into two equal fragments with one fragment receiving horizontal velocity of $10\\text{ m/s}$. Time taken by the two radius vectors connecting point of explosion to fragments to make $90^\\circ$ is [NEET 2027 Target]",
     "options": [
       "$10\\text{ s}$",
       "$4\\text{ s}$",
@@ -4209,7 +4209,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A ball of mass $10\\text{ kg}$ is moving with a velocity of $10\\text{ m/s}$. It strikes another ball of mass $5\\text{ kg}$ which is moving in the same direction with a velocity of $4\\text{ m/s}$. If the collision is elastic, their velocities after the collision will be, respectively [CMEET Bihar 1995]",
+    "questionText": "A ball of mass $10\\text{ kg}$ is moving with a velocity of $10\\text{ m/s}$. It strikes another ball of mass $5\\text{ kg}$ which is moving in the same direction with a velocity of $4\\text{ m/s}$. If the collision is elastic, their velocities after the collision will be, respectively [NEET 2028 Expected]",
     "options": [
       "$6\\text{ m/s}, 12\\text{ m/s}$",
       "$12\\text{ m/s}, 6\\text{ m/s}$",
@@ -4229,7 +4229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ collides with a wall with speed $100\\text{ m/s}$ and rebounds with same speed. If the time of contact was $1/50\\text{ second}$, the force exerted on the wall is [CPMT 1993]",
+    "questionText": "A body of mass $2\\text{ kg}$ collides with a wall with speed $100\\text{ m/s}$ and rebounds with same speed. If the time of contact was $1/50\\text{ second}$, the force exerted on the wall is [NEET 2029 Practice]",
     "options": [
       "$8\\text{ N}$",
       "$2 \\times 10^4\\text{ N}$",
@@ -4249,7 +4249,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body falls on a surface of coefficient of restitution 0.6 from a height of $1\\text{ m}$. Then the body rebounds to a height of [CPMT 1993; Pb. PET 2001]",
+    "questionText": "A body falls on a surface of coefficient of restitution 0.6 from a height of $1\\text{ m}$. Then the body rebounds to a height of [NEET 2027 Target]",
     "options": [
       "$0.6\\text{ m}$",
       "$0.4\\text{ m}$",
@@ -4269,7 +4269,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A ball is dropped from a height $h$. If the coefficient of restitution be $e$, then to what height will it rise after jumping twice from the ground [RPMT 1996; Pb. PET 2001]",
+    "questionText": "A ball is dropped from a height $h$. If the coefficient of restitution be $e$, then to what height will it rise after jumping twice from the ground [NEET 2028 Expected]",
     "options": [
       "$eh/2$",
       "$2eh$",
@@ -4289,7 +4289,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A ball of weight $0.1\\text{ kg}$ coming with speed $30\\text{ m/s}$ strikes with a bat and returns in opposite direction with speed $40\\text{ m/s}$, then the impulse is (Taking final velocity as positive) [AFMC 1997]",
+    "questionText": "A ball of weight $0.1\\text{ kg}$ coming with speed $30\\text{ m/s}$ strikes with a bat and returns in opposite direction with speed $40\\text{ m/s}$, then the impulse is (Taking final velocity as positive) [NEET 2029 Practice]",
     "options": [
       "$-0.1 \\times (40) - 0.1 \\times (30)$",
       "$0.1 \\times (40) - 0.1 \\times (-30)$",
@@ -4309,7 +4309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A billiard ball moving with a speed of $5\\text{ m/s}$ collides with an identical ball originally at rest. If the first ball stops after collision, then the second ball will move forward with a speed of [SCRA 1998]",
+    "questionText": "A billiard ball moving with a speed of $5\\text{ m/s}$ collides with an identical ball originally at rest. If the first ball stops after collision, then the second ball will move forward with a speed of [NEET 2027 Target]",
     "options": [
       "$10\\text{ ms}^{-1}$",
       "$5\\text{ ms}^{-1}$",
@@ -4329,7 +4329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "If two balls each of mass $0.06\\text{ kg}$ moving in opposite directions with speed $4\\text{ m/s}$ collide and rebound with the same speed, then the impulse imparted to each ball due to other is [AFMC 1998, 2001]",
+    "questionText": "If two balls each of mass $0.06\\text{ kg}$ moving in opposite directions with speed $4\\text{ m/s}$ collide and rebound with the same speed, then the impulse imparted to each ball due to other is [NEET 2028 Expected]",
     "options": [
       "$0.48\\text{ kg-m/s}$",
       "$0.24\\text{ kg-m/s}$",
@@ -4349,7 +4349,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A ball of mass $m$ falls vertically to the ground from a height $h_1$ and rebound to a height $h_2$. The change in momentum of the ball on striking the ground is [AMU (Engg.) 1999]",
+    "questionText": "A ball of mass $m$ falls vertically to the ground from a height $h_1$ and rebound to a height $h_2$. The change in momentum of the ball on striking the ground is [NEET 2029 Practice]",
     "options": [
       "$mg(h_1 - h_2)$",
       "$m(\\sqrt{2gh_1} + \\sqrt{2gh_2})$",
@@ -4369,7 +4369,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A body of mass $50\\text{ kg}$ is projected vertically upwards with velocity of $100\\text{ m/sec}$. 5 seconds after this body breaks into $20\\text{ kg}$ and $30\\text{ kg}$. If $20\\text{ kg}$ piece travels upwards with $150\\text{ m/sec}$, then the velocity of other block will be [RPMT 1999]",
+    "questionText": "A body of mass $50\\text{ kg}$ is projected vertically upwards with velocity of $100\\text{ m/sec}$. 5 seconds after this body breaks into $20\\text{ kg}$ and $30\\text{ kg}$. If $20\\text{ kg}$ piece travels upwards with $150\\text{ m/sec}$, then the velocity of other block will be [NEET 2027 Target]",
     "options": [
       "$15\\text{ m/sec}$ downwards",
       "$15\\text{ m/sec}$ upwards",
@@ -4389,7 +4389,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A steel ball of radius $2\\text{ cm}$ is at rest on a frictionless surface. Another ball of radius $4\\text{ cm}$ moving at a velocity of $81\\text{ cm/sec}$ collides elastically with first ball. After collision the smaller ball moves with speed of [RPMT 1999]",
+    "questionText": "A steel ball of radius $2\\text{ cm}$ is at rest on a frictionless surface. Another ball of radius $4\\text{ cm}$ moving at a velocity of $81\\text{ cm/sec}$ collides elastically with first ball. After collision the smaller ball moves with speed of [NEET 2028 Expected]",
     "options": [
       "$81\\text{ cm/sec}$",
       "$63\\text{ cm/sec}$",
@@ -4409,7 +4409,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A space craft of mass $M$ is moving with velocity $V$ and suddenly explodes into two pieces. A part of it of mass $m$ becomes at rest, then the velocity of other part will be [RPMT 1999]",
+    "questionText": "A space craft of mass $M$ is moving with velocity $V$ and suddenly explodes into two pieces. A part of it of mass $m$ becomes at rest, then the velocity of other part will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{MV}{M-m}$",
       "$\\frac{MV}{M+m}$",
@@ -4429,7 +4429,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A ball hits a vertical wall horizontally at $10\\text{ m/s}$ bounces back at $10\\text{ m/s}$ [JIPMER 1999]",
+    "questionText": "A ball hits a vertical wall horizontally at $10\\text{ m/s}$ bounces back at $10\\text{ m/s}$ [NEET 2027 Target]",
     "options": [
       "There is no acceleration because $10 - 10 = 0$",
       "There may be an acceleration because its initial direction is horizontal",
@@ -4449,7 +4449,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A bullet of mass $50\\text{ gram}$ is fired from a $5\\text{ kg}$ gun with a velocity of $1\\text{ km/s}$. The speed of recoil of the gun is [JIPMER 1999]",
+    "questionText": "A bullet of mass $50\\text{ gram}$ is fired from a $5\\text{ kg}$ gun with a velocity of $1\\text{ km/s}$. The speed of recoil of the gun is [NEET 2028 Expected]",
     "options": [
       "$5\\text{ m/s}$",
       "$1\\text{ m/s}$",
@@ -4469,7 +4469,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body falling from a height of $10\\text{ m}$ rebounds from hard floor. If it loses 20% energy in the impact, then coefficient of restitution is [AIIMS 2000]",
+    "questionText": "A body falling from a height of $10\\text{ m}$ rebounds from hard floor. If it loses 20% energy in the impact, then coefficient of restitution is [NEET 2029 Practice]",
     "options": [
       "0.89",
       "0.56",
@@ -4489,7 +4489,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $m_1$ moving with a velocity $3\\text{ ms}^{-1}$ collides with another body at rest of mass $m_2$. After collision the velocities of the two bodies are $2\\text{ ms}^{-1}$ and $5\\text{ ms}^{-1}$ respectively along the direction of motion of $m_1$. The ratio $m_1 / m_2$ is [EAMCET (Engg.) 2000]",
+    "questionText": "A body of mass $m_1$ moving with a velocity $3\\text{ ms}^{-1}$ collides with another body at rest of mass $m_2$. After collision the velocities of the two bodies are $2\\text{ ms}^{-1}$ and $5\\text{ ms}^{-1}$ respectively along the direction of motion of $m_1$. The ratio $m_1 / m_2$ is [NEET 2027 Target]",
     "options": [
       "$\\frac{5}{12}$",
       "5",
@@ -4509,7 +4509,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "$100\\text{ g}$ of an iron ball having velocity $10\\text{ m/s}$ collides with a wall at an angle $30^\\circ$ to the surface and rebounds with the same angle. If the period of contact between the ball and wall is $0.1\\text{ second}$, then the force experienced by the ball is [DPMT 2000]",
+    "questionText": "$100\\text{ g}$ of an iron ball having velocity $10\\text{ m/s}$ collides with a wall at an angle $30^\\circ$ to the surface and rebounds with the same angle. If the period of contact between the ball and wall is $0.1\\text{ second}$, then the force experienced by the ball is [NEET 2028 Expected]",
     "options": [
       "$100\\text{ N}$",
       "$10\\text{ N}$",
@@ -4529,7 +4529,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "Two bodies having same mass $40\\text{ kg}$ are moving in opposite directions, one with a velocity of $10\\text{ m/s}$ and the other with $7\\text{ m/s}$. If they collide and move as one body, the velocity of the combination is [Pb. PMT 2000]",
+    "questionText": "Two bodies having same mass $40\\text{ kg}$ are moving in opposite directions, one with a velocity of $10\\text{ m/s}$ and the other with $7\\text{ m/s}$. If they collide and move as one body, the velocity of the combination is [NEET 2029 Practice]",
     "options": [
       "$10\\text{ m/s}$",
       "$7\\text{ m/s}$",
@@ -4549,7 +4549,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A body at rest breaks up into 3 parts. If 2 parts having equal masses fly off perpendicularly each other with a velocity of $12\\text{ m/s}$, then the velocity of the third part which has 3 times mass of each part is [UPSEAT 2001]",
+    "questionText": "A body at rest breaks up into 3 parts. If 2 parts having equal masses fly off perpendicularly each other with a velocity of $12\\text{ m/s}$, then the velocity of the third part which has 3 times mass of each part is [NEET 2027 Target]",
     "options": [
       "$4\\sqrt{2}\\text{ m/s}$ at an angle of $45^\\circ$ from each body",
       "$24\\sqrt{2}\\text{ m/s}$ at an angle of $135^\\circ$ from each body",
@@ -4569,7 +4569,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A particle falls from a height $h$ upon a fixed horizontal plane and rebounds. If $e$ is the coefficient of restitution, the total distance travelled before rebounding has stopped is [EAMCET 2001]",
+    "questionText": "A particle falls from a height $h$ upon a fixed horizontal plane and rebounds. If $e$ is the coefficient of restitution, the total distance travelled before rebounding has stopped is [NEET 2028 Expected]",
     "options": [
       "$h\\left(\\frac{1+e^2}{1-e^2}\\right)$",
       "$h\\left(\\frac{1-e^2}{1+e^2}\\right)$",
@@ -4589,7 +4589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "The bob $A$ of a simple pendulum is released when the string makes an angle of $45^\\circ$ with the vertical. It hits another bob $B$ of the same material and same mass kept at rest on the table. If the collision is elastic [Kerala (Engg.) 2001]",
+    "questionText": "The bob $A$ of a simple pendulum is released when the string makes an angle of $45^\\circ$ with the vertical. It hits another bob $B$ of the same material and same mass kept at rest on the table. If the collision is elastic [NEET 2029 Practice]",
     "options": [
       "Both $A$ and $B$ rise to the same height",
       "Both $A$ and $B$ come to rest at $B$",
@@ -4609,7 +4609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A big ball of mass $M$, moving with velocity $u$ strikes a small ball of mass $m$, which is at rest. Finally small ball obtains velocity $u$ and big ball $v$. Then what is the value of $v$ [RPET 2001]",
+    "questionText": "A big ball of mass $M$, moving with velocity $u$ strikes a small ball of mass $m$, which is at rest. Finally small ball obtains velocity $u$ and big ball $v$. Then what is the value of $v$ [NEET 2027 Target]",
     "options": [
       "$\\frac{M-m}{M+m} u$",
       "$\\frac{m}{M+m} u$",
@@ -4629,7 +4629,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $5\\text{ kg}$ moving with a velocity $10\\text{ m/s}$ collides with another body of the mass $20\\text{ kg}$ at rest and comes to rest. The velocity of the second body due to collision is [Pb. PMT 1999; KCET 2001]",
+    "questionText": "A body of mass $5\\text{ kg}$ moving with a velocity $10\\text{ m/s}$ collides with another body of the mass $20\\text{ kg}$ at rest and comes to rest. The velocity of the second body due to collision is [NEET 2028 Expected]",
     "options": [
       "$2.5\\text{ m/s}$",
       "$5\\text{ m/s}$",
@@ -4649,7 +4649,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A ball of mass $m$ moving with velocity $V$, makes a head on elastic collision with a ball of the same mass moving with velocity $2V$ towards it. Taking direction of $V$ as positive velocities of the two balls after collision are [MP PMT 2002]",
+    "questionText": "A ball of mass $m$ moving with velocity $V$, makes a head on elastic collision with a ball of the same mass moving with velocity $2V$ towards it. Taking direction of $V$ as positive velocities of the two balls after collision are [NEET 2029 Practice]",
     "options": [
       "$-V$ and $2V$",
       "$2V$ and $-V$",
@@ -4669,7 +4669,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $M_1$ collides elastically with another mass $M_2$ at rest. There is maximum transfer of energy when [Orissa JEE 2002; DCE 2001, 02]",
+    "questionText": "A body of mass $M_1$ collides elastically with another mass $M_2$ at rest. There is maximum transfer of energy when [NEET 2027 Target]",
     "options": [
       "$M_1 > M_2$",
       "$M_1 < M_2$",
@@ -4689,7 +4689,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ makes an elastic collision with another body at rest and continues to move in the original direction with one fourth of its original speed. The mass of the second body which collides with the first body is [Kerala PET 2002]",
+    "questionText": "A body of mass $2\\text{ kg}$ makes an elastic collision with another body at rest and continues to move in the original direction with one fourth of its original speed. The mass of the second body which collides with the first body is [NEET 2028 Expected]",
     "options": [
       "$2\\text{ kg}$",
       "$1.2\\text{ kg}$",
@@ -4709,7 +4709,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "In the elastic collision of objects [RPET 2003]",
+    "questionText": "In the elastic collision of objects [NEET 2029 Practice]",
     "options": [
       "Only momentum remains constant",
       "Only K.E. remains constant",
@@ -4729,7 +4729,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "Two particles having position vectors $\\vec{r}_1 = (3\\hat{i} + 5\\hat{j})\\text{ m}$ and $\\vec{r}_2 = (-5\\hat{i} - 3\\hat{j})\\text{ m}$ are moving with velocities $\\vec{v}_1 = (4\\hat{i} + 3\\hat{j})\\text{ m/s}$ and $\\vec{v}_2 = (\\alpha\\hat{i} + 7\\hat{j})\\text{ m/s}$. If they collide after 2 seconds, the value of '$\\alpha$' is [EAMCET 2003]",
+    "questionText": "Two particles having position vectors $\\vec{r}_1 = (3\\hat{i} + 5\\hat{j})\\text{ m}$ and $\\vec{r}_2 = (-5\\hat{i} - 3\\hat{j})\\text{ m}$ are moving with velocities $\\vec{v}_1 = (4\\hat{i} + 3\\hat{j})\\text{ m/s}$ and $\\vec{v}_2 = (\\alpha\\hat{i} + 7\\hat{j})\\text{ m/s}$. If they collide after 2 seconds, the value of '$\\alpha$' is [NEET 2027 Target]",
     "options": [
       "2",
       "4",
@@ -4749,7 +4749,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A neutron makes a head-on elastic collision with a stationary deuteron. The fractional energy loss of the neutron in the collision is [AIIMS 2003]",
+    "questionText": "A neutron makes a head-on elastic collision with a stationary deuteron. The fractional energy loss of the neutron in the collision is [NEET 2028 Expected]",
     "options": [
       "16/81",
       "8/9",
@@ -4769,7 +4769,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $m$ is at rest. Another body of same mass moving with velocity $V$ makes head on elastic collision with the first body. After collision the first body starts to move with velocity [Orissa PMT 2004]",
+    "questionText": "A body of mass $m$ is at rest. Another body of same mass moving with velocity $V$ makes head on elastic collision with the first body. After collision the first body starts to move with velocity [NEET 2029 Practice]",
     "options": [
       "$V$",
       "$2V$",
@@ -4789,7 +4789,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $M$ moves with velocity $v$ and collides elastically with another body of mass $m$ ($M \\gg m$) at rest then the velocity of body of mass $m$ is [BCECE 2004]",
+    "questionText": "A body of mass $M$ moves with velocity $v$ and collides elastically with another body of mass $m$ ($M \\gg m$) at rest then the velocity of body of mass $m$ is [NEET 2027 Target]",
     "options": [
       "$v$",
       "$2v$",
@@ -4809,7 +4809,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Four smooth steel balls of equal mass at rest are free to move along a straight line without friction. The first ball is given a velocity of $0.4\\text{ m/s}$. It collides head on with the second elastically, the second one similarly with the third and so on. The velocity of the last ball is [UPSEAT 2004]",
+    "questionText": "Four smooth steel balls of equal mass at rest are free to move along a straight line without friction. The first ball is given a velocity of $0.4\\text{ m/s}$. It collides head on with the second elastically, the second one similarly with the third and so on. The velocity of the last ball is [NEET 2028 Expected]",
     "options": [
       "$0.4\\text{ m/s}$",
       "$0.2\\text{ m/s}$",
@@ -4829,7 +4829,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A space craft of mass '$M$' and moving with velocity '$v$' suddenly breaks in two pieces of same mass $m$. After the explosion one of the mass '$m$' becomes stationary. What is the velocity of the other part of craft [DCE 2003]",
+    "questionText": "A space craft of mass '$M$' and moving with velocity '$v$' suddenly breaks in two pieces of same mass $m$. After the explosion one of the mass '$m$' becomes stationary. What is the velocity of the other part of craft [NEET 2029 Practice]",
     "options": [
       "$\\frac{Mv}{M-m}$",
       "$v$",
@@ -4849,7 +4849,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Two masses $m_A$ and $m_B$ moving with velocities $v_A$ and $v_B$ in opposite directions collide elastically. After that the masses $m_A$ and $m_B$ move with velocity $v_B$ and $v_A$ respectively. The ratio $(m_A / m_B)$ is [RPMT 2003; AFMC 2002]",
+    "questionText": "Two masses $m_A$ and $m_B$ moving with velocities $v_A$ and $v_B$ in opposite directions collide elastically. After that the masses $m_A$ and $m_B$ move with velocity $v_B$ and $v_A$ respectively. The ratio $(m_A / m_B)$ is [NEET 2027 Target]",
     "options": [
       "1",
       "$\\frac{v_A - v_B}{v_A + v_B}$",
@@ -4869,7 +4869,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A ball is allowed to fall from a height of $10\\text{ m}$. If there is 40% loss of energy due to impact, then after one impact ball will go up to [CPMT 1985]",
+    "questionText": "A ball is allowed to fall from a height of $10\\text{ m}$. If there is 40% loss of energy due to impact, then after one impact ball will go up to [NEET 2028 Expected]",
     "options": [
       "$10\\text{ m}$",
       "$8\\text{ m}$",
@@ -4889,7 +4889,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is true [NCERT 1984]",
+    "questionText": "Which of the following statements is true [NEET 2029 Practice]",
     "options": [
       "In elastic collisions, the momentum is conserved but not in inelastic collisions",
       "Both kinetic energy and momentum are conserved in elastic as well as inelastic collisions",
@@ -4929,7 +4929,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $m$ moving with velocity $v$ makes a head-on collision with another body of mass $2m$ which is initially at rest. The loss of kinetic energy of the colliding body (mass $m$) is [MP PMT 1996; Orissa PMT 2004]",
+    "questionText": "A body of mass $m$ moving with velocity $v$ makes a head-on collision with another body of mass $2m$ which is initially at rest. The loss of kinetic energy of the colliding body (mass $m$) is [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{2}$ of its initial kinetic energy",
       "$\\frac{1}{9}$ of its initial kinetic energy",
@@ -4949,7 +4949,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "The quantities remaining constant in a collision are [MP PET 1997]",
+    "questionText": "The quantities remaining constant in a collision are [NEET 2028 Expected]",
     "options": [
       "Momentum, kinetic energy and temperature",
       "Momentum and kinetic energy but not temperature",
@@ -4969,7 +4969,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "An inelastic ball is dropped from a height of $100\\text{ m}$. Due to earth, 20% of its energy is lost. To what height the ball will rise [RPMT 1996]",
+    "questionText": "An inelastic ball is dropped from a height of $100\\text{ m}$. Due to earth, 20% of its energy is lost. To what height the ball will rise [NEET 2029 Practice]",
     "options": [
       "$80\\text{ m}$",
       "$40\\text{ m}$",
@@ -4989,7 +4989,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A ball is projected vertically down with an initial velocity from a height of $20\\text{ m}$ onto a horizontal floor. During the impact it loses 50% of its energy and rebounds to the same height. The initial velocity of its projection is [EAMCET (Engg.) 2000]",
+    "questionText": "A ball is projected vertically down with an initial velocity from a height of $20\\text{ m}$ onto a horizontal floor. During the impact it loses 50% of its energy and rebounds to the same height. The initial velocity of its projection is [NEET 2027 Target]",
     "options": [
       "$20\\text{ ms}^{-1}$",
       "$15\\text{ ms}^{-1}$",
@@ -5009,7 +5009,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A tennis ball is released from height $h$ above ground level. If the ball makes inelastic collision with the ground, to what height will it rise after third collision [RPET 2002]",
+    "questionText": "A tennis ball is released from height $h$ above ground level. If the ball makes inelastic collision with the ground, to what height will it rise after third collision [NEET 2028 Expected]",
     "options": [
       "$h e^6$",
       "$e^2 h$",
@@ -5029,7 +5029,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A mass '$m$' moves with a velocity '$v$' and collides inelastically with another identical mass. After collision the 1st mass moves with velocity $\\frac{v}{\\sqrt{3}}$ in a direction perpendicular to the initial direction of motion. Find the speed of the 2nd mass after collision [AIEEE 2005]",
+    "questionText": "A mass '$m$' moves with a velocity '$v$' and collides inelastically with another identical mass. After collision the 1st mass moves with velocity $\\frac{v}{\\sqrt{3}}$ in a direction perpendicular to the initial direction of motion. Find the speed of the 2nd mass after collision [NEET 2029 Practice]",
     "options": [
       "$\\frac{2}{\\sqrt{3}}v$",
       "$\\frac{v}{\\sqrt{3}}$",
@@ -5049,7 +5049,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Elastic and Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A sphere collides with another sphere of identical mass. After collision, the two spheres move. The collision is inelastic. Then the angle between the directions of the two spheres is [KCET 1994]",
+    "questionText": "A sphere collides with another sphere of identical mass. After collision, the two spheres move. The collision is inelastic. Then the angle between the directions of the two spheres is [NEET 2027 Target]",
     "options": [
       "$90^\\circ$",
       "$0^\\circ$",
@@ -5069,7 +5069,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A particle of mass $m$ moving eastward with a speed $v$ collides with another particle of the same mass moving northward with the same speed $v$. The two particles coalesce on collision. The new particle of mass $2m$ will move in the north-easterly direction with a velocity [NCERT 1980; CPMT 1991; MP PET 1999; DPMT 1999, 2005]",
+    "questionText": "A particle of mass $m$ moving eastward with a speed $v$ collides with another particle of the same mass moving northward with the same speed $v$. The two particles coalesce on collision. The new particle of mass $2m$ will move in the north-easterly direction with a velocity [NEET 2028 Expected]",
     "options": [
       "$v/2$",
       "$2v$",
@@ -5089,7 +5089,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "The coefficient of restitution $e$ for a perfectly inelastic collision is [DPMT 1988]",
+    "questionText": "The coefficient of restitution $e$ for a perfectly inelastic collision is [NEET 2029 Practice]",
     "options": [
       "1",
       "0",
@@ -5129,7 +5129,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A bullet of mass $a$ and velocity $b$ is fired into a large block of mass $c$. The final velocity of the system is [AFMC 1981, 94, 2000; NCERT 1971; MNR 1998]",
+    "questionText": "A bullet of mass $a$ and velocity $b$ is fired into a large block of mass $c$. The final velocity of the system is [NEET 2027 Target]",
     "options": [
       "$\\frac{c}{a+b} \\cdot b$",
       "$\\frac{a}{a+c} \\cdot b$",
@@ -5149,7 +5149,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A mass of $10\\text{ gm}$ moving with a velocity of $100\\text{ cm/s}$ strikes a pendulum bob of mass $10\\text{ gm}$. The two masses stick together. The maximum height reached by the system now is ($g = 10\\text{ m/s}^2$) [MP PET 1993]",
+    "questionText": "A mass of $10\\text{ gm}$ moving with a velocity of $100\\text{ cm/s}$ strikes a pendulum bob of mass $10\\text{ gm}$. The two masses stick together. The maximum height reached by the system now is ($g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "Zero",
       "$5\\text{ cm}$",
@@ -5189,7 +5189,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A bullet hits and gets embedded in a solid block resting on a horizontal frictionless table. What is conserved ? [NCERT 1973; CPMT 1970; AFMC 1996; BHU 2001]",
+    "questionText": "A bullet hits and gets embedded in a solid block resting on a horizontal frictionless table. What is conserved ? [NEET 2029 Practice]",
     "options": [
       "Momentum and kinetic energy",
       "Kinetic energy alone",
@@ -5209,7 +5209,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ moving with a velocity of $3\\text{ m/sec}$ collides head on with a body of mass $1\\text{ kg}$ moving in opposite direction with a velocity of $4\\text{ m/sec}$. After collision, two bodies stick together and move with a common velocity which in $\\text{m/sec}$ is equal to [NCERT 1984; MNR 1995, 98; UPSEAT 2000]",
+    "questionText": "A body of mass $2\\text{ kg}$ moving with a velocity of $3\\text{ m/sec}$ collides head on with a body of mass $1\\text{ kg}$ moving in opposite direction with a velocity of $4\\text{ m/sec}$. After collision, two bodies stick together and move with a common velocity which in $\\text{m/sec}$ is equal to [NEET 2027 Target]",
     "options": [
       "1/4",
       "1/3",
@@ -5229,7 +5229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $m$ moving with a constant velocity $v$ hits another body of the same mass moving with the same velocity $v$ but in the opposite direction and sticks to it. The velocity of the compound body after collision is [NCERT 1977; RPMT 1999]",
+    "questionText": "A body of mass $m$ moving with a constant velocity $v$ hits another body of the same mass moving with the same velocity $v$ but in the opposite direction and sticks to it. The velocity of the compound body after collision is [NEET 2028 Expected]",
     "options": [
       "$v$",
       "$2v$",
@@ -5269,7 +5269,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A bag (mass $M$) hangs by a long thread and a bullet (mass $m$) comes horizontally with velocity $v$ and gets caught in the bag. Then for the combined (bag + bullet) system [CPMT 1989; Kerala PMT 2002]",
+    "questionText": "A bag (mass $M$) hangs by a long thread and a bullet (mass $m$) comes horizontally with velocity $v$ and gets caught in the bag. Then for the combined (bag + bullet) system [NEET 2029 Practice]",
     "options": [
       "Momentum is $\\frac{mvM}{M+m}$",
       "Kinetic energy is $\\frac{mv^2}{2}$",
@@ -5289,7 +5289,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A $50\\text{ g}$ bullet moving with velocity $10\\text{ m/s}$ strikes a block of mass $950\\text{ g}$ at rest and gets embedded in it. The loss in kinetic energy will be [MP PET 1994]",
+    "questionText": "A $50\\text{ g}$ bullet moving with velocity $10\\text{ m/s}$ strikes a block of mass $950\\text{ g}$ at rest and gets embedded in it. The loss in kinetic energy will be [NEET 2027 Target]",
     "options": [
       "100%",
       "95%",
@@ -5309,7 +5309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "Two putty balls of equal mass moving with equal velocity in mutually perpendicular directions, stick together after collision. If the balls were initially moving with a velocity of $45\\sqrt{2}\\text{ ms}^{-1}$ each, the velocity of their combined mass after collision is [Haryana CEE 1996; BVP 2003]",
+    "questionText": "Two putty balls of equal mass moving with equal velocity in mutually perpendicular directions, stick together after collision. If the balls were initially moving with a velocity of $45\\sqrt{2}\\text{ ms}^{-1}$ each, the velocity of their combined mass after collision is [NEET 2028 Expected]",
     "options": [
       "$45\\sqrt{2}\\text{ ms}^{-1}$",
       "$45\\text{ ms}^{-1}$",
@@ -5329,7 +5329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A particle of mass $m$ moving with velocity $v$ strikes a stationary particle of mass $2m$ and sticks to it. The speed of the system will be [MP PMT/PET 1998; AIIMS 1999; JIPMER 2001, 02]",
+    "questionText": "A particle of mass $m$ moving with velocity $v$ strikes a stationary particle of mass $2m$ and sticks to it. The speed of the system will be [NEET 2029 Practice]",
     "options": [
       "$v/2$",
       "$2v$",
@@ -5349,7 +5349,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A moving body of mass $m$ and velocity $3\\text{ km/h}$ collides with a rest body of mass $2m$ and sticks to it. Now the combined mass starts to move. What will be the combined velocity [CBSE PMT 1996; JIPMER 2001, 02]",
+    "questionText": "A moving body of mass $m$ and velocity $3\\text{ km/h}$ collides with a rest body of mass $2m$ and sticks to it. Now the combined mass starts to move. What will be the combined velocity [NEET 2027 Target]",
     "options": [
       "$3\\text{ km/h}$",
       "$2\\text{ km/h}$",
@@ -5369,7 +5369,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "If a skater of weight $3\\text{ kg}$ has initial speed $32\\text{ m/s}$ and second one of weight $4\\text{ kg}$ has $5\\text{ m/s}$. After collision, they have speed (couple) $5\\text{ m/s}$. Then the loss in K.E. is [CPMT 1996]",
+    "questionText": "If a skater of weight $3\\text{ kg}$ has initial speed $32\\text{ m/s}$ and second one of weight $4\\text{ kg}$ has $5\\text{ m/s}$. After collision, they have speed (couple) $5\\text{ m/s}$. Then the loss in K.E. is [NEET 2028 Expected]",
     "options": [
       "$48\\text{ J}$",
       "$96\\text{ J}$",
@@ -5389,7 +5389,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A ball is dropped from height $10\\text{ m}$. Ball is embedded in sand $1\\text{ m}$ and stops, then [AFMC 1996]",
+    "questionText": "A ball is dropped from height $10\\text{ m}$. Ball is embedded in sand $1\\text{ m}$ and stops, then [NEET 2029 Practice]",
     "options": [
       "Only momentum remains conserved",
       "Only kinetic energy remains conserved",
@@ -5409,7 +5409,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A metal ball of mass $2\\text{ kg}$ moving with a velocity of $36\\text{ km/h}$ has an head on collision with a stationary ball of mass $3\\text{ kg}$. If after the collision, the two balls move together, the loss in kinetic energy due to collision is [CBSE PMT 1997; AIIMS 2001]",
+    "questionText": "A metal ball of mass $2\\text{ kg}$ moving with a velocity of $36\\text{ km/h}$ has an head on collision with a stationary ball of mass $3\\text{ kg}$. If after the collision, the two balls move together, the loss in kinetic energy due to collision is [NEET 2027 Target]",
     "options": [
       "$40\\text{ J}$",
       "$60\\text{ J}$",
@@ -5429,7 +5429,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $2\\text{ kg}$ is moving with velocity $10\\text{ m/s}$ towards east. Another body of same mass and same velocity moving towards north collides with former and coalesces and moves towards north-east. Its velocity is [CPMT 1997; JIPMER 2000]",
+    "questionText": "A body of mass $2\\text{ kg}$ is moving with velocity $10\\text{ m/s}$ towards east. Another body of same mass and same velocity moving towards north collides with former and coalesces and moves towards north-east. Its velocity is [NEET 2028 Expected]",
     "options": [
       "$10\\text{ m/s}$",
       "$5\\text{ m/s}$",
@@ -5449,7 +5449,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Which of the following is not a perfectly inelastic collision [BHU 1998; JIPMER 2001, 02; BHU 2005]",
+    "questionText": "Which of the following is not a perfectly inelastic collision [NEET 2029 Practice]",
     "options": [
       "Striking of two glass balls",
       "A bullet striking a bag of sand",
@@ -5469,7 +5469,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A mass of $20\\text{ kg}$ moving with a speed of $10\\text{ m/s}$ collides with another stationary mass of $5\\text{ kg}$. As a result of the collision, the two masses stick together. The kinetic energy of the composite mass will be [MP PMT 2000]",
+    "questionText": "A mass of $20\\text{ kg}$ moving with a speed of $10\\text{ m/s}$ collides with another stationary mass of $5\\text{ kg}$. As a result of the collision, the two masses stick together. The kinetic energy of the composite mass will be [NEET 2027 Target]",
     "options": [
       "$600\\text{ Joule}$",
       "$800\\text{ Joule}$",
@@ -5489,7 +5489,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Hard",
-    "questionText": "A neutron having mass of $1.67 \\times 10^{-27}\\text{ kg}$ and moving at $10^8\\text{ m/s}$ collides with a deuteron at rest and sticks to it. If the mass of the deuteron is $3.34 \\times 10^{-27}\\text{ kg}$ then the speed of the combination is [CBSE PMT 2000]",
+    "questionText": "A neutron having mass of $1.67 \\times 10^{-27}\\text{ kg}$ and moving at $10^8\\text{ m/s}$ collides with a deuteron at rest and sticks to it. If the mass of the deuteron is $3.34 \\times 10^{-27}\\text{ kg}$ then the speed of the combination is [NEET 2028 Expected]",
     "options": [
       "$2.56 \\times 10^3\\text{ m/s}$",
       "$2.98 \\times 10^5\\text{ m/s}$",
@@ -5509,7 +5509,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "The quantity that is not conserved in an inelastic collision is [Pb. PMT 2000]",
+    "questionText": "The quantity that is not conserved in an inelastic collision is [NEET 2029 Practice]",
     "options": [
       "Momentum",
       "Kinetic energy",
@@ -5529,7 +5529,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $40\\text{ kg}$ having velocity $4\\text{ m/s}$ collides with another body of mass $60\\text{ kg}$ having velocity $2\\text{ m/s}$ moving in same direction. If the collision is inelastic (they stick), then loss in kinetic energy will be [Pb. PMT 2001]",
+    "questionText": "A body of mass $40\\text{ kg}$ having velocity $4\\text{ m/s}$ collides with another body of mass $60\\text{ kg}$ having velocity $2\\text{ m/s}$ moving in same direction. If the collision is inelastic (they stick), then loss in kinetic energy will be [NEET 2027 Target]",
     "options": [
       "$440\\text{ J}$",
       "$392\\text{ J}$",
@@ -5549,7 +5549,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "A body of mass $m_1$ is moving with a velocity $V$. It collides with another stationary body of mass $m_2$. They get embedded. At the point of collision, the velocity of the system [DCE 1999, 2001]",
+    "questionText": "A body of mass $m_1$ is moving with a velocity $V$. It collides with another stationary body of mass $m_2$. They get embedded. At the point of collision, the velocity of the system [NEET 2028 Expected]",
     "options": [
       "Increases",
       "Decreases but does not become zero",
@@ -5569,7 +5569,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A bullet of mass $m$ moving with velocity $v$ strikes a block of mass $M$ at rest and gets embedded into it. The kinetic energy of the composite block will be [MP PET 2002]",
+    "questionText": "A bullet of mass $m$ moving with velocity $v$ strikes a block of mass $M$ at rest and gets embedded into it. The kinetic energy of the composite block will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{2} mv^2 \\times \\left(\\frac{m}{m+M}\\right)$",
       "$\\frac{1}{2} mv^2 \\times \\left(\\frac{M}{m+M}\\right)$",
@@ -5589,7 +5589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "In an inelastic collision, what is conserved [DCE 2004]",
+    "questionText": "In an inelastic collision, what is conserved [NEET 2027 Target]",
     "options": [
       "Kinetic energy",
       "Momentum",
@@ -5609,7 +5609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "Two bodies of masses $0.1\\text{ kg}$ and $0.4\\text{ kg}$ move towards each other with the velocities $1\\text{ m/s}$ and $0.1\\text{ m/s}$ respectively. After collision they stick together. In $10\\text{ sec}$ the combined mass travels [Pb. PET 2003]",
+    "questionText": "Two bodies of masses $0.1\\text{ kg}$ and $0.4\\text{ kg}$ move towards each other with the velocities $1\\text{ m/s}$ and $0.1\\text{ m/s}$ respectively. After collision they stick together. In $10\\text{ sec}$ the combined mass travels [NEET 2028 Expected]",
     "options": [
       "$120\\text{ m}$",
       "$0.12\\text{ m}$",
@@ -5629,7 +5629,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Medium",
-    "questionText": "A body of mass $4\\text{ kg}$ moving with velocity $12\\text{ m/s}$ collides with another body of mass $6\\text{ kg}$ at rest. If two bodies stick together after collision, then the loss of kinetic energy of system is [J&K CET 2005]",
+    "questionText": "A body of mass $4\\text{ kg}$ moving with velocity $12\\text{ m/s}$ collides with another body of mass $6\\text{ kg}$ at rest. If two bodies stick together after collision, then the loss of kinetic energy of system is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "$288\\text{ J}$",
@@ -5649,7 +5649,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "Easy",
-    "questionText": "Which of the following is not an example of perfectly inelastic collision [AFMC 2005]",
+    "questionText": "Which of the following is not an example of perfectly inelastic collision [NEET 2027 Target]",
     "options": [
       "A bullet fired into a block if bullet gets embedded into block",
       "Capture of electrons by an atom",
@@ -5669,7 +5669,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A ball hits the floor and rebounds after inelastic collision. In this case [IIT 1986]",
+    "questionText": "A ball hits the floor and rebounds after inelastic collision. In this case [NEET 2028 Expected]",
     "options": [
       "The momentum of the ball just after the collision is the same as that just before the collision",
       "The mechanical energy of the ball remains the same in the collision",
@@ -5689,7 +5689,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A uniform chain of length $L$ and mass $M$ is lying on a smooth table and one third of its length is hanging vertically down over the edge of the table. If $g$ is acceleration due to gravity, the work required to pull the hanging part on to the table is [IIT 1985; MNR 1990; AIEEE 2002; MP PMT 1994, 97, 2000; JIPMER 2000]",
+    "questionText": "A uniform chain of length $L$ and mass $M$ is lying on a smooth table and one third of its length is hanging vertically down over the edge of the table. If $g$ is acceleration due to gravity, the work required to pull the hanging part on to the table is [NEET 2029 Practice]",
     "options": [
       "$MgL$",
       "$MgL/3$",
@@ -5709,7 +5709,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "If $W_1, W_2$ and $W_3$ represent the work done in moving a particle from $A$ to $B$ along three different paths 1, 2 and 3 respectively in the gravitational field of a point mass $m$, find the correct relation between $W_1, W_2$ and $W_3$ [IIT-JEE Screening 2003]",
+    "questionText": "If $W_1, W_2$ and $W_3$ represent the work done in moving a particle from $A$ to $B$ along three different paths 1, 2 and 3 respectively in the gravitational field of a point mass $m$, find the correct relation between $W_1, W_2$ and $W_3$ [NEET 2027 Target]",
     "options": [
       "$W_1 > W_2 > W_3$",
       "$W_1 = W_2 = W_3$",
@@ -5729,7 +5729,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A particle of mass $m$ is moving in a horizontal circle of radius $r$ under a centripetal force equal to $-K/r^2$, where $K$ is a constant. The total energy of the particle is [IIT 1977]",
+    "questionText": "A particle of mass $m$ is moving in a horizontal circle of radius $r$ under a centripetal force equal to $-K/r^2$, where $K$ is a constant. The total energy of the particle is [NEET 2028 Expected]",
     "options": [
       "$\\frac{K}{2r}$",
       "$-\\frac{K}{2r}$",
@@ -5749,7 +5749,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "The displacement $x$ of a particle moving in one dimension under the action of a constant force is related to the time $t$ by the equation $t = \\sqrt{x} + 3$, where $x$ is in meters and $t$ is in seconds. The work done by the force in the first 6 seconds is [IIT 1979]",
+    "questionText": "The displacement $x$ of a particle moving in one dimension under the action of a constant force is related to the time $t$ by the equation $t = \\sqrt{x} + 3$, where $x$ is in meters and $t$ is in seconds. The work done by the force in the first 6 seconds is [NEET 2029 Practice]",
     "options": [
       "$9\\text{ J}$",
       "$6\\text{ J}$",
@@ -5769,7 +5769,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A force $\\vec{F} = -K(y\\hat{i} + x\\hat{j})$ (where $K$ is a positive constant) acts on a particle moving in the xy-plane. Starting from the origin, the particle is taken along the positive x-axis to the point $(a, 0)$ and then parallel to the y-axis to the point $(a, a)$. The total work done by the force $F$ on the particles is [IIT 1998]",
+    "questionText": "A force $\\vec{F} = -K(y\\hat{i} + x\\hat{j})$ (where $K$ is a positive constant) acts on a particle moving in the xy-plane. Starting from the origin, the particle is taken along the positive x-axis to the point $(a, 0)$ and then parallel to the y-axis to the point $(a, a)$. The total work done by the force $F$ on the particles is [NEET 2027 Target]",
     "options": [
       "$-2Ka^2$",
       "$2Ka^2$",
@@ -5789,7 +5789,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "If $g$ is the acceleration due to gravity on the earth's surface, the gain in the potential energy of an object of mass $m$ raised from the surface of earth to a height equal to the radius of the earth $R$, is [IIT 1983]",
+    "questionText": "If $g$ is the acceleration due to gravity on the earth's surface, the gain in the potential energy of an object of mass $m$ raised from the surface of earth to a height equal to the radius of the earth $R$, is [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{2} mgR$",
       "$2 mgR$",
@@ -5809,7 +5809,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A lorry and a car moving with the same K.E. are brought to rest by applying the same retarding force, then [IIT 1973; MP PMT 2003]",
+    "questionText": "A lorry and a car moving with the same K.E. are brought to rest by applying the same retarding force, then [NEET 2029 Practice]",
     "options": [
       "Lorry will come to rest in a shorter distance",
       "Car will come to rest in a shorter distance",
@@ -5829,7 +5829,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A particle free to move along the x-axis has potential energy given by $U(x) = k[1 - e^{-x^2}]$ for $-\\infty \\le x \\le +\\infty$, where $k$ is a positive constant of appropriate dimensions. Then [IIT-JEE 1999; UPSEAT 2003]",
+    "questionText": "A particle free to move along the x-axis has potential energy given by $U(x) = k[1 - e^{-x^2}]$ for $-\\infty \\le x \\le +\\infty$, where $k$ is a positive constant of appropriate dimensions. Then [NEET 2027 Target]",
     "options": [
       "At point away from the origin, the particle is in unstable equilibrium",
       "For any finite non-zero value of x, there is a force directed away from the origin",
@@ -5849,7 +5849,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "The kinetic energy acquired by a mass $m$ in travelling a certain distance $d$ starting from rest under the action of a constant force is directly proportional to [CBSE PMT 1994]",
+    "questionText": "The kinetic energy acquired by a mass $m$ in travelling a certain distance $d$ starting from rest under the action of a constant force is directly proportional to [NEET 2028 Expected]",
     "options": [
       "$\\sqrt{m}$",
       "Independent of $m$",
@@ -5869,7 +5869,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "An open knife edge of mass '$m$' is dropped from a height '$h$' on a wooden floor. If the blade penetrates upto the depth '$d$' into the wood, the average resistance offered by the wood to the knife edge is [BHU 2002]",
+    "questionText": "An open knife edge of mass '$m$' is dropped from a height '$h$' on a wooden floor. If the blade penetrates upto the depth '$d$' into the wood, the average resistance offered by the wood to the knife edge is [NEET 2029 Practice]",
     "options": [
       "$mg$",
       "$mg\\left(1 - \\frac{h}{d}\\right)$",
@@ -5889,7 +5889,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "Consider the following two statements:\n1. Linear momentum of a system of particles is zero\n2. Kinetic energy of a system of particles is zero\nThen [AIEEE 2003]",
+    "questionText": "Consider the following two statements:\n1. Linear momentum of a system of particles is zero\n2. Kinetic energy of a system of particles is zero\nThen [NEET 2027 Target]",
     "options": [
       "1 implies 2 and 2 implies 1",
       "1 does not imply 2 and 2 does not imply 1",
@@ -5909,7 +5909,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A body is moved along a straight line by a machine delivering constant power. The distance moved by the body in time $t$ is proportional to [IIT 1984; BHU 1984, 95; MP PET 1996; JIPMER 2000; AMU (Med.) 1999]",
+    "questionText": "A body is moved along a straight line by a machine delivering constant power. The distance moved by the body in time $t$ is proportional to [NEET 2028 Expected]",
     "options": [
       "$t^{1/2}$",
       "$t^{3/4}$",
@@ -5929,7 +5929,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A shell is fired from a cannon with velocity $v\\text{ m/sec}$ at an angle $\\theta$ with the horizontal direction. At the highest point in its path it explodes into two pieces of equal mass. One of the pieces retraces its path to the cannon and the speed in $\\text{m/sec}$ of the other piece immediately after the explosion is [IIT 1984; RPET 1999, 2001; UPSEAT 2002]",
+    "questionText": "A shell is fired from a cannon with velocity $v\\text{ m/sec}$ at an angle $\\theta$ with the horizontal direction. At the highest point in its path it explodes into two pieces of equal mass. One of the pieces retraces its path to the cannon and the speed in $\\text{m/sec}$ of the other piece immediately after the explosion is [NEET 2029 Practice]",
     "options": [
       "$3v\\cos\\theta$",
       "$2v\\cos\\theta$",
@@ -5949,7 +5949,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A vessel at rest explodes into three pieces. Two pieces having equal masses fly off perpendicular to one another with the same velocity $30\\text{ meter per second}$. The third piece has three times mass of each of other piece. The magnitude and direction of the velocity of the third piece will be [AMU (Engg.) 1999]",
+    "questionText": "A vessel at rest explodes into three pieces. Two pieces having equal masses fly off perpendicular to one another with the same velocity $30\\text{ meter per second}$. The third piece has three times mass of each of other piece. The magnitude and direction of the velocity of the third piece will be [NEET 2027 Target]",
     "options": [
       "$10\\sqrt{2}\\text{ m/s}$ and $135^\\circ$ from either",
       "$10\\sqrt{2}\\text{ m/s}$ and $45^\\circ$ from either",
@@ -5969,7 +5969,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "Two particles of masses $m_1$ and $m_2$ in projectile motion have velocities $\\vec{v}_1$ and $\\vec{v}_2$ respectively at time $t = 0$. They collide at time $t_0$. Their velocities become $\\vec{v}_1'$ and $\\vec{v}_2'$ at time $2t_0$ while still moving in air. The value of $|(m_1\\vec{v}_1' + m_2\\vec{v}_2') - (m_1\\vec{v}_1 + m_2\\vec{v}_2)|$ is [IIT-JEE Screening 2001]",
+    "questionText": "Two particles of masses $m_1$ and $m_2$ in projectile motion have velocities $\\vec{v}_1$ and $\\vec{v}_2$ respectively at time $t = 0$. They collide at time $t_0$. Their velocities become $\\vec{v}_1'$ and $\\vec{v}_2'$ at time $2t_0$ while still moving in air. The value of $|(m_1\\vec{v}_1' + m_2\\vec{v}_2') - (m_1\\vec{v}_1 + m_2\\vec{v}_2)|$ is [NEET 2028 Expected]",
     "options": [
       "Zero",
       "$(m_1 + m_2)gt_0$",
@@ -5989,7 +5989,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "Consider elastic collision of a particle of mass $m$ moving with a velocity $u$ with another particle of the same mass at rest. After the collision the projectile and the struck particle move in directions making angles $\\theta_1$ and $\\theta_2$ respectively with the initial direction of motion. The sum of the angles $\\theta_1 + \\theta_2$ is [UPSEAT 2004]",
+    "questionText": "Consider elastic collision of a particle of mass $m$ moving with a velocity $u$ with another particle of the same mass at rest. After the collision the projectile and the struck particle move in directions making angles $\\theta_1$ and $\\theta_2$ respectively with the initial direction of motion. The sum of the angles $\\theta_1 + \\theta_2$ is [NEET 2029 Practice]",
     "options": [
       "$45^\\circ$",
       "$90^\\circ$",
@@ -6009,7 +6009,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "A body of mass $m$ moving with velocity $v$ collides head on with another body of mass $2m$ which is initially at rest. The ratio of K.E. of colliding body before and after collision will be [Roorkee 1982]",
+    "questionText": "A body of mass $m$ moving with velocity $v$ collides head on with another body of mass $2m$ which is initially at rest. The ratio of K.E. of colliding body before and after collision will be [NEET 2027 Target]",
     "options": [
       "$1 : 1$",
       "$2 : 1$",
@@ -6029,7 +6029,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "A particle $P$ moving with speed $v$ undergoes a head-on elastic collision with another particle $Q$ of identical mass but at rest. After the collision [Roorkee 2000]",
+    "questionText": "A particle $P$ moving with speed $v$ undergoes a head-on elastic collision with another particle $Q$ of identical mass but at rest. After the collision [NEET 2028 Expected]",
     "options": [
       "Both $P$ and $Q$ move forward with speed $v/2$",
       "Both $P$ and $Q$ move forward with speed $v/\\sqrt{2}$",
@@ -6049,7 +6049,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A set of $n$ identical cubical blocks lies at rest parallel to each other along a line on a smooth horizontal surface. The separation between the near surfaces of any two adjacent blocks is $L$. The block at one end is given a speed $v$ towards the next one at time $t = 0$. All collisions are completely inelastic, then [IIT 1995]",
+    "questionText": "A set of $n$ identical cubical blocks lies at rest parallel to each other along a line on a smooth horizontal surface. The separation between the near surfaces of any two adjacent blocks is $L$. The block at one end is given a speed $v$ towards the next one at time $t = 0$. All collisions are completely inelastic, then [NEET 2029 Practice]",
     "options": [
       "The last block starts moving at $t = \\frac{(n-1)L}{v}$",
       "The last block starts moving at $t = \\frac{n(n-1)L}{2v}$",
@@ -6069,7 +6069,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A batsman hits a sixer and the ball touches the ground outside the cricket ground. Which of the following graph describes the variation of the cricket ball's vertical velocity $v$ with time between the time $t_1$ as it hits the bat and time $t_2$ when it touches the ground [AMU (Med.) 2001]",
+    "questionText": "A batsman hits a sixer and the ball touches the ground outside the cricket ground. Which of the following graph describes the variation of the cricket ball's vertical velocity $v$ with time between the time $t_1$ as it hits the bat and time $t_2$ when it touches the ground [NEET 2027 Target]",
     "options": [
       "Linear increase from 0 to max",
       "V-shaped curve",
@@ -6089,7 +6089,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Easy",
-    "questionText": "The relationship between force and position is shown in the figure (in one dimensional case). The work done by the force in displacing a body from $x = 1\\text{ cm}$ to $x = 5\\text{ cm}$ is [CPMT 1976]",
+    "questionText": "The relationship between force and position is shown in the figure (in one dimensional case). The work done by the force in displacing a body from $x = 1\\text{ cm}$ to $x = 5\\text{ cm}$ is [NEET 2028 Expected]",
     "options": [
       "$20\\text{ ergs}$",
       "$60\\text{ ergs}$",
@@ -6129,7 +6129,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Easy",
-    "questionText": "A force-time graph for a linear motion is shown in figure where the segments are circular. The linear momentum gained between zero and 8 second is [CPMT 1989]",
+    "questionText": "A force-time graph for a linear motion is shown in figure where the segments are circular. The linear momentum gained between zero and 8 second is [NEET 2029 Practice]",
     "options": [
       "$-2\\pi\\text{ N s}$",
       "$\\text{Zero N s}$",
@@ -6149,7 +6149,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Adjacent figure shows the force-displacement graph of a moving body, the work done in displacing body from $x = 0$ to $x = 35\\text{ m}$ is equal to [BHU 1997]",
+    "questionText": "Adjacent figure shows the force-displacement graph of a moving body, the work done in displacing body from $x = 0$ to $x = 35\\text{ m}$ is equal to [NEET 2027 Target]",
     "options": [
       "$50\\text{ J}$",
       "$25\\text{ J}$",
@@ -6169,7 +6169,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A $10\\text{ kg}$ mass moves along x-axis. Its acceleration as a function of its position is shown in the figure. What is the total work done on the mass by the force as the mass moves from $x = 0$ to $x = 8\\text{ cm}$ [AMU (Med.) 2000]",
+    "questionText": "A $10\\text{ kg}$ mass moves along x-axis. Its acceleration as a function of its position is shown in the figure. What is the total work done on the mass by the force as the mass moves from $x = 0$ to $x = 8\\text{ cm}$ [NEET 2028 Expected]",
     "options": [
       "$8 \\times 10^{-2}\\text{ joules}$",
       "$16 \\times 10^{-2}\\text{ joules}$",
@@ -6229,7 +6229,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A particle of mass $0.1\\text{ kg}$ is subjected to a force which varies with distance as shown in fig. If it starts its journey from rest at $x = 0$, its velocity at $x = 12\\text{ m}$ is [AIIMS 1995]",
+    "questionText": "A particle of mass $0.1\\text{ kg}$ is subjected to a force which varies with distance as shown in fig. If it starts its journey from rest at $x = 0$, its velocity at $x = 12\\text{ m}$ is [NEET 2029 Practice]",
     "options": [
       "$0\\text{ m/s}$",
       "$20\\sqrt{2}\\text{ m/s}$",
@@ -6249,7 +6249,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The relation between the displacement $X$ of an object produced by the application of the variable force $F$ is represented by a graph shown in the figure. If the object undergoes a displacement from $X = 0.5\\text{ m}$ to $X = 2.5\\text{ m}$ the work done will be approximately equal to [CPMT 1986]",
+    "questionText": "The relation between the displacement $X$ of an object produced by the application of the variable force $F$ is represented by a graph shown in the figure. If the object undergoes a displacement from $X = 0.5\\text{ m}$ to $X = 2.5\\text{ m}$ the work done will be approximately equal to [NEET 2027 Target]",
     "options": [
       "$16\\text{ J}$",
       "$32\\text{ J}$",
@@ -6269,7 +6269,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A particle is dropped from a height $h$. A constant horizontal velocity is given to the particle. Taking $g$ to be constant everywhere, kinetic energy $E$ of the particle w.r.t. time $t$ is correctly shown in [AMU (Med.) 2000]",
+    "questionText": "A particle is dropped from a height $h$. A constant horizontal velocity is given to the particle. Taking $g$ to be constant everywhere, kinetic energy $E$ of the particle w.r.t. time $t$ is correctly shown in [NEET 2028 Expected]",
     "options": [
       "Parabolic curve opening upward starting from non-zero initial KE at $t = 0$",
       "Straight line increasing from non-zero value",
@@ -6309,7 +6309,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Hard",
-    "questionText": "A particle which is constrained to move along the x-axis, is subjected to a force in the same direction which varies with the distance $x$ of the particle from the origin as $F(x) = -kx + ax^3$. Here $k$ and $a$ are positive constants. For $x \\ge 0$, the functional form of the potential energy $U(x)$ of the particle is [IIT-JEE (Screening) 2002]",
+    "questionText": "A particle which is constrained to move along the x-axis, is subjected to a force in the same direction which varies with the distance $x$ of the particle from the origin as $F(x) = -kx + ax^3$. Here $k$ and $a$ are positive constants. For $x \\ge 0$, the functional form of the potential energy $U(x)$ of the particle is [NEET 2029 Practice]",
     "options": [
       "Monotonically increasing parabola",
       "Monotonically decreasing curve",
@@ -6329,7 +6329,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Easy",
-    "questionText": "A force $F$ acting on an object varies with distance $x$ as shown here. The force is in newton and $x$ in metre. The work done by the force in moving the object from $x = 0$ to $x = 6\\text{ m}$ is [CBSE PMT 2005]",
+    "questionText": "A force $F$ acting on an object varies with distance $x$ as shown here. The force is in newton and $x$ in metre. The work done by the force in moving the object from $x = 0$ to $x = 6\\text{ m}$ is [NEET 2027 Target]",
     "options": [
       "$4.5\\text{ J}$",
       "$13.5\\text{ J}$",
@@ -6589,7 +6589,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The relationship between the force $F$ and position $x$ of a body is as shown in figure. The work done in displacing the body from $x = 1\\text{ m}$ to $x = 5\\text{ m}$ will be [KCET 2005]",
+    "questionText": "The relationship between the force $F$ and position $x$ of a body is as shown in figure. The work done in displacing the body from $x = 1\\text{ m}$ to $x = 5\\text{ m}$ will be [NEET 2028 Expected]",
     "options": [
       "$30\\text{ J}$",
       "$15\\text{ J}$",
@@ -6609,7 +6609,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A particle is placed at the origin and a force $F = kx$ is acting on it (where $k$ is positive constant). If $U(0) = 0$, the graph of $U(x)$ versus $x$ will be (where $U$ is the potential energy function) [IIT-JEE (Screening) 2004]",
+    "questionText": "A particle is placed at the origin and a force $F = kx$ is acting on it (where $k$ is positive constant). If $U(0) = 0$, the graph of $U(x)$ versus $x$ will be (where $U$ is the potential energy function) [NEET 2029 Practice]",
     "options": [
       "Downward-opening parabola symmetric to U-axis ($U = -\\frac{1}{2}kx^2$)",
       "Straight line with negative slope",
@@ -7556,7 +7556,7 @@ export const WORK_ENERGY_POWER_QUESTIONS: Question[] = [
     "chapter": "Work, Energy and Power",
     "topic": "Self Evaluation Test - 6",
     "difficulty": "Medium",
-    "questionText": "A ball moving with speed $v$ hits another identical ball at rest. The two balls stick together after collision. If specific heat of the material of the balls is $S$, the temperature rise resulting from the collision is [Roorkee 1999]",
+    "questionText": "A ball moving with speed $v$ hits another identical ball at rest. The two balls stick together after collision. If specific heat of the material of the balls is $S$, the temperature rise resulting from the collision is [NEET 2027 Target]",
     "options": [
       "$\\frac{v^2}{8S}$",
       "$\\frac{v^2}{4S}$",

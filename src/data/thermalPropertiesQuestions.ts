@@ -7,7 +7,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "On the Celsius scale the absolute zero of temperature is at [CBSE PMT 1994]",
+    "questionText": "On the Celsius scale the absolute zero of temperature is at [NEET 2028 Expected]",
     "options": [
       "0°C",
       "-32°C",
@@ -28,7 +28,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "Oxygen boils at $-183^\\circ\\text{C}$. This temperature is approximately [CPMT 1992]",
+    "questionText": "Oxygen boils at $-183^\\circ\\text{C}$. This temperature is approximately [NEET 2029 Practice]",
     "options": [
       "$215^\\circ\\text{F}$",
       "$-297^\\circ\\text{F}$",
@@ -49,7 +49,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "Recently, the phenomenon of superconductivity has been observed at $95\\text{ K}$. This temperature is nearly equal to [CPMT 1990]",
+    "questionText": "Recently, the phenomenon of superconductivity has been observed at $95\\text{ K}$. This temperature is nearly equal to [NEET 2027 Target]",
     "options": [
       "$-288^\\circ\\text{F}$",
       "$-146^\\circ\\text{F}$",
@@ -70,7 +70,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The temperature of a substance increases by $27^\\circ\\text{C}$. On the Kelvin scale this increase is equal to [CPMT 1993]",
+    "questionText": "The temperature of a substance increases by $27^\\circ\\text{C}$. On the Kelvin scale this increase is equal to [NEET 2028 Expected]",
     "options": [
       "$300\\text{ K}$",
       "$2.46\\text{ K}$",
@@ -91,7 +91,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "The resistance of a resistance thermometer has values $2.71\\ \\Omega$ and $3.70\\ \\Omega$ at $10^\\circ\\text{C}$ and $100^\\circ\\text{C}$. The temperature at which the resistance is $3.26\\ \\Omega$ is [CPMT 1994]",
+    "questionText": "The resistance of a resistance thermometer has values $2.71\\ \\Omega$ and $3.70\\ \\Omega$ at $10^\\circ\\text{C}$ and $100^\\circ\\text{C}$. The temperature at which the resistance is $3.26\\ \\Omega$ is [NEET 2029 Practice]",
     "options": [
       "$40^\\circ\\text{C}$",
       "$50^\\circ\\text{C}$",
@@ -112,7 +112,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "No other thermometer is as suitable as a platinum resistance thermometer to measure temperature in the entire range of [MNR 1993]",
+    "questionText": "No other thermometer is as suitable as a platinum resistance thermometer to measure temperature in the entire range of [NEET 2027 Target]",
     "options": [
       "$0^\\circ\\text{C}$ to $100^\\circ\\text{C}$",
       "$100^\\circ\\text{C}$ to $1500^\\circ\\text{C}$",
@@ -133,7 +133,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The temperature of the sun is measured with [Pb. PMT 1998; CPMT 1998; Pb. PET 1997, 2001]",
+    "questionText": "The temperature of the sun is measured with [NEET 2028 Expected]",
     "options": [
       "Platinum thermometer",
       "Gas thermometer",
@@ -154,7 +154,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "Absolute temperature can be calculated by [AFMC 1994]",
+    "questionText": "Absolute temperature can be calculated by [NEET 2029 Practice]",
     "options": [
       "Mean square velocity",
       "Motion of the molecule",
@@ -175,7 +175,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "Thermoelectric thermometer is based on [CPMT 1993, 95; AFMC 1998]",
+    "questionText": "Thermoelectric thermometer is based on [NEET 2027 Target]",
     "options": [
       "Photoelectric effect",
       "Seebeck effect",
@@ -196,7 +196,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "Maximum density of $\\text{H}_2\\text{O}$ is at the temperature [CPMT 1996; Pb. PMT 1996]",
+    "questionText": "Maximum density of $\\text{H}_2\\text{O}$ is at the temperature [NEET 2028 Expected]",
     "options": [
       "$32^\\circ\\text{F}$",
       "$39.2^\\circ\\text{F}$",
@@ -217,7 +217,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The study of physical phenomenon at low temperatures (below liquid nitrogen temperature) is called [CPMT 1992]",
+    "questionText": "The study of physical phenomenon at low temperatures (below liquid nitrogen temperature) is called [NEET 2029 Practice]",
     "options": [
       "Refrigeration",
       "Radiation",
@@ -238,7 +238,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "‘Stem Correction’ in platinum resistance thermometers are eliminated by the use of [AIIMS 1998]",
+    "questionText": "‘Stem Correction’ in platinum resistance thermometers are eliminated by the use of [NEET 2027 Target]",
     "options": [
       "Cells",
       "Electrodes",
@@ -259,7 +259,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The absolute zero is the temperature at which [AIIMS 1998]",
+    "questionText": "The absolute zero is the temperature at which [NEET 2028 Expected]",
     "options": [
       "Water freezes",
       "All substances exist in solid state",
@@ -280,7 +280,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "Absolute scale of temperature is reproduced in the laboratory by making use of a [SCRA 1998]",
+    "questionText": "Absolute scale of temperature is reproduced in the laboratory by making use of a [NEET 2029 Practice]",
     "options": [
       "Radiation pyrometer",
       "Platinum resistance thermometer",
@@ -301,7 +301,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "Absolute zero ($0\\text{ K}$) is that temperature at which [AFMC 1993]",
+    "questionText": "Absolute zero ($0\\text{ K}$) is that temperature at which [NEET 2027 Target]",
     "options": [
       "Matter ceases to exist",
       "Ice melts and water freezes",
@@ -322,7 +322,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "On which of the following scales of temperature, the temperature is never negative [EAMCET 1997]",
+    "questionText": "On which of the following scales of temperature, the temperature is never negative [NEET 2028 Expected]",
     "options": [
       "Celsius",
       "Fahrenheit",
@@ -343,7 +343,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The temperature on Celsius scale is $25^\\circ\\text{C}$. What is the corresponding temperature on the Fahrenheit scale [AFMC 2001]",
+    "questionText": "The temperature on Celsius scale is $25^\\circ\\text{C}$. What is the corresponding temperature on the Fahrenheit scale [NEET 2029 Practice]",
     "options": [
       "$40^\\circ\\text{F}$",
       "$77^\\circ\\text{F}$",
@@ -364,7 +364,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "One quality of a thermometer is that its heat capacity should be small. If $P$ is a mercury thermometer, $Q$ is a resistance thermometer and $R$ thermocouple type then [CPMT 1997]",
+    "questionText": "One quality of a thermometer is that its heat capacity should be small. If $P$ is a mercury thermometer, $Q$ is a resistance thermometer and $R$ thermocouple type then [NEET 2027 Target]",
     "options": [
       "$P$ is best, $R$ worst",
       "$R$ is best, $P$ worst",
@@ -385,7 +385,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "Two thermometers are used to record the temperature of a room. If the bulb of one is wrapped in wet hanky [AFMC 1997]",
+    "questionText": "Two thermometers are used to record the temperature of a room. If the bulb of one is wrapped in wet hanky [NEET 2028 Expected]",
     "options": [
       "The temperature recorded by both will be same",
       "The temperature recorded by wet-bulb thermometer will be greater than that recorded by the other",
@@ -406,7 +406,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "The temperature of a body on Kelvin scale is found to be $x\\text{ K}$. When it is measured by Fahrenheit thermometer, it is found to be $x^\\circ\\text{F}$, then the value of $x$ is [UPSEAT 2000; Pb. CET 2004]",
+    "questionText": "The temperature of a body on Kelvin scale is found to be $x\\text{ K}$. When it is measured by Fahrenheit thermometer, it is found to be $x^\\circ\\text{F}$, then the value of $x$ is [NEET 2029 Practice]",
     "options": [
       "$40$",
       "$313$",
@@ -427,7 +427,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "A centigrade and a Fahrenheit thermometer are dipped in boiling water. The water temperature is lowered until the Fahrenheit thermometer registers $140^\\circ$. What is the fall in temperature as registered by the Centigrade thermometer [CBSE PMT 1992; AIIMS 1998]",
+    "questionText": "A centigrade and a Fahrenheit thermometer are dipped in boiling water. The water temperature is lowered until the Fahrenheit thermometer registers $140^\\circ$. What is the fall in temperature as registered by the Centigrade thermometer [NEET 2027 Target]",
     "options": [
       "$30^\\circ$",
       "$40^\\circ$",
@@ -448,7 +448,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "At what temperature the centigrade (Celsius) and Fahrenheit, readings are the same [RPMT 1997, 99, 2003; BHU 1997; MNR 1992; DPMT 1998; CPMT 1995; UPSEAT 1999; KCET 2000]",
+    "questionText": "At what temperature the centigrade (Celsius) and Fahrenheit, readings are the same [NEET 2028 Expected]",
     "options": [
       "$-40^\\circ$",
       "$+40^\\circ$",
@@ -469,7 +469,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "Standardisation of thermometers is obtained with [CPMT 1996]",
+    "questionText": "Standardisation of thermometers is obtained with [NEET 2029 Practice]",
     "options": [
       "Jolly’s thermometer",
       "Platinum resistance thermometer",
@@ -490,7 +490,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The gas thermometers are more sensitive than liquid thermometers because [CPMT 1993]",
+    "questionText": "The gas thermometers are more sensitive than liquid thermometers because [NEET 2027 Target]",
     "options": [
       "Gases expand more than liquids",
       "Gases are easily obtained",
@@ -511,7 +511,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "Mercury thermometers can be used to measure temperatures upto [CBSE PMT 1992, 96; BHU 1998; UPSEAT 1998]",
+    "questionText": "Mercury thermometers can be used to measure temperatures upto [NEET 2028 Expected]",
     "options": [
       "$100^\\circ\\text{C}$",
       "$212^\\circ\\text{C}$",
@@ -532,7 +532,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "A constant volume gas thermometer shows pressure reading of $50\\text{ cm}$ and $90\\text{ cm}$ of mercury at $0^\\circ\\text{C}$ and $100^\\circ\\text{C}$ respectively. When the pressure reading is $60\\text{ cm}$ of mercury, the temperature is [MNR 1991; UPSEAT 2000; Pb. CET 2004]",
+    "questionText": "A constant volume gas thermometer shows pressure reading of $50\\text{ cm}$ and $90\\text{ cm}$ of mercury at $0^\\circ\\text{C}$ and $100^\\circ\\text{C}$ respectively. When the pressure reading is $60\\text{ cm}$ of mercury, the temperature is [NEET 2029 Practice]",
     "options": [
       "$25^\\circ\\text{C}$",
       "$40^\\circ\\text{C}$",
@@ -553,7 +553,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "Mercury boils at $367^\\circ\\text{C}$. However, mercury thermometers are made such that they can measure temperature up to $500^\\circ\\text{C}$. This is done by [CPMT 2004]",
+    "questionText": "Mercury boils at $367^\\circ\\text{C}$. However, mercury thermometers are made such that they can measure temperature up to $500^\\circ\\text{C}$. This is done by [NEET 2027 Target]",
     "options": [
       "Maintaining vacuum above mercury column in the stem of the thermometer",
       "Filling nitrogen gas at high pressure above the mercury column",
@@ -574,7 +574,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "A device used to measure very high temperature is [KCET 1998]",
+    "questionText": "A device used to measure very high temperature is [NEET 2028 Expected]",
     "options": [
       "Pyrometer",
       "Thermometer",
@@ -595,7 +595,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "The absolute zero temperature in Fahrenheit scale is [DCE 1996]",
+    "questionText": "The absolute zero temperature in Fahrenheit scale is [NEET 2029 Practice]",
     "options": [
       "$-273^\\circ\\text{F}$",
       "$-32^\\circ\\text{F}$",
@@ -616,7 +616,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "A constant pressure air thermometer gave a reading of $47.5\\text{ units}$ of volume when immersed in ice cold water, and $67\\text{ units}$ in a boiling liquids. The boiling point of the liquid will be [AIIMS 1994]",
+    "questionText": "A constant pressure air thermometer gave a reading of $47.5\\text{ units}$ of volume when immersed in ice cold water, and $67\\text{ units}$ in a boiling liquids. The boiling point of the liquid will be [NEET 2027 Target]",
     "options": [
       "$135^\\circ\\text{C}$",
       "$125^\\circ\\text{C}$",
@@ -637,7 +637,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Medium",
-    "questionText": "If a thermometer reads freezing point of water as $20^\\circ\\text{C}$ and boiling point as $150^\\circ\\text{C}$, how much thermometer read when the actual temperature is $60^\\circ\\text{C}$ [AFMC 2004]",
+    "questionText": "If a thermometer reads freezing point of water as $20^\\circ\\text{C}$ and boiling point as $150^\\circ\\text{C}$, how much thermometer read when the actual temperature is $60^\\circ\\text{C}$ [NEET 2028 Expected]",
     "options": [
       "$98^\\circ\\text{C}$",
       "$110^\\circ\\text{C}$",
@@ -658,7 +658,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "If temperature of an object is $140^\\circ\\text{F}$, then its temperature in centigrade is [RPMT 1999]",
+    "questionText": "If temperature of an object is $140^\\circ\\text{F}$, then its temperature in centigrade is [NEET 2029 Practice]",
     "options": [
       "$105^\\circ\\text{C}$",
       "$32^\\circ\\text{C}$",
@@ -679,7 +679,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "Of the following thermometers, the one which can be used for measuring a rapidly changing temperature is a [CPMT 1992]",
+    "questionText": "Of the following thermometers, the one which can be used for measuring a rapidly changing temperature is a [NEET 2027 Target]",
     "options": [
       "Thermocouple thermometer",
       "Gas thermometer",
@@ -700,7 +700,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "On centigrade scale the temperature of a body increases by $30\\text{ degrees}$. The increase in temperature on Fahrenheit scale is [UPSEAT 2005]",
+    "questionText": "On centigrade scale the temperature of a body increases by $30\\text{ degrees}$. The increase in temperature on Fahrenheit scale is [NEET 2028 Expected]",
     "options": [
       "$50^\\circ$",
       "$40^\\circ$",
@@ -721,7 +721,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermometry",
     "difficulty": "Easy",
-    "questionText": "The correct value of $0^\\circ\\text{C}$ on Kelvin scale will be [RPMT 1999]",
+    "questionText": "The correct value of $0^\\circ\\text{C}$ on Kelvin scale will be [NEET 2029 Practice]",
     "options": [
       "$273.15\\text{ K}$",
       "$273.00\\text{ K}$",
@@ -742,7 +742,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "When a copper ball is heated, the largest percentage increase will occur in its [EAMCET 1992]",
+    "questionText": "When a copper ball is heated, the largest percentage increase will occur in its [NEET 2027 Target]",
     "options": [
       "Diameter",
       "Area",
@@ -763,7 +763,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "A vertical column $50\\text{ cm}$ long at $50^\\circ\\text{C}$ balances another column of same liquid $60\\text{ cm}$ long at $100^\\circ\\text{C}$. The coefficient of absolute expansion of the liquid is [EAMCET 1990]",
+    "questionText": "A vertical column $50\\text{ cm}$ long at $50^\\circ\\text{C}$ balances another column of same liquid $60\\text{ cm}$ long at $100^\\circ\\text{C}$. The coefficient of absolute expansion of the liquid is [NEET 2028 Expected]",
     "options": [
       "$0.005/^\\circ\\text{C}$",
       "$0.0005/^\\circ\\text{C}$",
@@ -784,7 +784,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "The apparent coefficient of expansion of a liquid when heated in a copper vessel is $C$ and when heated in a silver vessel is $S$. If $A$ is the linear coefficient of expansion of copper, then the linear coefficient of expansion of silver is [EAMCET 1991]",
+    "questionText": "The apparent coefficient of expansion of a liquid when heated in a copper vessel is $C$ and when heated in a silver vessel is $S$. If $A$ is the linear coefficient of expansion of copper, then the linear coefficient of expansion of silver is [NEET 2029 Practice]",
     "options": [
       "$\\frac{C + S - 3A}{3}$",
       "$\\frac{C + 3A - S}{3}$",
@@ -805,7 +805,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "A uniform metal rod is used as a bar pendulum. If the room temperature rises by $10^\\circ\\text{C}$, and the coefficient of linear expansion of the metal of the rod is $2 \\times 10^{-6}/^\\circ\\text{C}$, the period of the pendulum will have percentage increase of [NSEP 1992]",
+    "questionText": "A uniform metal rod is used as a bar pendulum. If the room temperature rises by $10^\\circ\\text{C}$, and the coefficient of linear expansion of the metal of the rod is $2 \\times 10^{-6}/^\\circ\\text{C}$, the period of the pendulum will have percentage increase of [NEET 2027 Target]",
     "options": [
       "$-2 \\times 10^{-3}\\%$",
       "$-1 \\times 10^{-3}\\%$",
@@ -826,7 +826,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "A bar of iron is $10\\text{ cm}$ at $20^\\circ\\text{C}$. At $19^\\circ\\text{C}$ it will be ($\\alpha$ of iron $= 11 \\times 10^{-6}/^\\circ\\text{C}$) [EAMCET 1997]",
+    "questionText": "A bar of iron is $10\\text{ cm}$ at $20^\\circ\\text{C}$. At $19^\\circ\\text{C}$ it will be ($\\alpha$ of iron $= 11 \\times 10^{-6}/^\\circ\\text{C}$) [NEET 2028 Expected]",
     "options": [
       "$11 \\times 10^{-6}\\text{ cm longer}$",
       "$11 \\times 10^{-6}\\text{ cm shorter}$",
@@ -847,7 +847,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "When a rod is heated but prevented from expanding, the stress developed is independent of [EAMCET 1997]",
+    "questionText": "When a rod is heated but prevented from expanding, the stress developed is independent of [NEET 2029 Practice]",
     "options": [
       "Material of the rod",
       "Rise in temperature",
@@ -868,7 +868,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "Expansion during heating [CBSE PMT 1994]",
+    "questionText": "Expansion during heating [NEET 2027 Target]",
     "options": [
       "Occurs only in solids",
       "Increases the weight of a material",
@@ -889,7 +889,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "On heating a liquid of coefficient of cubical expansion $\\gamma$ in a container having coefficient of linear expansion $\\gamma / 3$, the level of liquid in the container will [EAMCET 1993; UPSEAT 2005]",
+    "questionText": "On heating a liquid of coefficient of cubical expansion $\\gamma$ in a container having coefficient of linear expansion $\\gamma / 3$, the level of liquid in the container will [NEET 2028 Expected]",
     "options": [
       "Rise",
       "Fall",
@@ -910,7 +910,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "A pendulum clock keeps correct time at $0^\\circ\\text{C}$. Its mean coefficient of linear expansions is $\\alpha/^\\circ\\text{C}$, then the loss in seconds per day by the clock if the temperature rises by $t^\\circ\\text{C}$ is [AFMC 1993]",
+    "questionText": "A pendulum clock keeps correct time at $0^\\circ\\text{C}$. Its mean coefficient of linear expansions is $\\alpha/^\\circ\\text{C}$, then the loss in seconds per day by the clock if the temperature rises by $t^\\circ\\text{C}$ is [NEET 2029 Practice]",
     "options": [
       "$\\frac{\\frac{1}{2} \\alpha t}{1 - \\frac{\\alpha t}{2}} \\times 86400$",
       "$\\frac{1}{2} \\alpha t \\times 86400$",
@@ -931,7 +931,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "When a bimetallic strip is heated, it [CBSE PMT 1990]",
+    "questionText": "When a bimetallic strip is heated, it [NEET 2027 Target]",
     "options": [
       "Does not bend at all",
       "Gets twisted in the form of an helix",
@@ -952,7 +952,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "A solid ball of metal has a concentric spherical cavity within it. If the ball is heated, the volume of the cavity will [AFMC 1997; Orissa PMT 2004]",
+    "questionText": "A solid ball of metal has a concentric spherical cavity within it. If the ball is heated, the volume of the cavity will [NEET 2028 Expected]",
     "options": [
       "Increase",
       "Decrease",
@@ -973,7 +973,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "A litre of alcohol weighs [AFMC 1994]",
+    "questionText": "A litre of alcohol weighs [NEET 2029 Practice]",
     "options": [
       "Less in winter than in summer",
       "Less in summer than in winter",
@@ -994,7 +994,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "5 litre of benzene weighs [MNR 1996]",
+    "questionText": "5 litre of benzene weighs [NEET 2027 Target]",
     "options": [
       "More in summer than in winter",
       "More in winter than in summer",
@@ -1015,7 +1015,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "Water has maximum density at [Pb. PMT 1997]",
+    "questionText": "Water has maximum density at [NEET 2028 Expected]",
     "options": [
       "$0^\\circ\\text{C}$",
       "$32^\\circ\\text{F}$",
@@ -1036,7 +1036,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "At some temperature $T$, a bronze pin is a little large to fit into a hole drilled in a steel block. The change in temperature required for an exact fit is minimum when [SCRA 1998]",
+    "questionText": "At some temperature $T$, a bronze pin is a little large to fit into a hole drilled in a steel block. The change in temperature required for an exact fit is minimum when [NEET 2029 Practice]",
     "options": [
       "Only the block is heated",
       "Both block and pin are heated together",
@@ -1057,7 +1057,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "If the length of a cylinder on heating increases by $2\\%$, the area of its base will increase by [CPMT 1993; BHU 1997]",
+    "questionText": "If the length of a cylinder on heating increases by $2\\%$, the area of its base will increase by [NEET 2027 Target]",
     "options": [
       "$0.5\\%$",
       "$2\\%$",
@@ -1078,7 +1078,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "The volume of a gas at $20^\\circ\\text{C}$ is $100\\text{ cm}^3$ at normal pressure. If it is heated to $100^\\circ\\text{C}$, its volume becomes $125\\text{ cm}^3$ at the same pressure, then volume coefficient of the gas at normal pressure is [Pb. PET 2002; DPMT 2001]",
+    "questionText": "The volume of a gas at $20^\\circ\\text{C}$ is $100\\text{ cm}^3$ at normal pressure. If it is heated to $100^\\circ\\text{C}$, its volume becomes $125\\text{ cm}^3$ at the same pressure, then volume coefficient of the gas at normal pressure is [NEET 2028 Expected]",
     "options": [
       "$0.0015/^\\circ\\text{C}$",
       "$0.0045/^\\circ\\text{C}$",
@@ -1099,7 +1099,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "The coefficient of superficial expansion of a solid is $2 \\times 10^{-5}/^\\circ\\text{C}$. Its coefficient of linear expansion is [KCET 1999]",
+    "questionText": "The coefficient of superficial expansion of a solid is $2 \\times 10^{-5}/^\\circ\\text{C}$. Its coefficient of linear expansion is [NEET 2029 Practice]",
     "options": [
       "$4 \\times 10^{-5}/^\\circ\\text{C}$",
       "$3 \\times 10^{-5}/^\\circ\\text{C}$",
@@ -1120,7 +1120,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "Density of substance at $0^\\circ\\text{C}$ is $10\\text{ gm/cc}$ and at $100^\\circ\\text{C}$, its density is $9.7\\text{ gm/cc}$. The coefficient of linear expansion of the substance will be [BHU 1996; Pb. PMT 1999; DPMT 1998, 2003]",
+    "questionText": "Density of substance at $0^\\circ\\text{C}$ is $10\\text{ gm/cc}$ and at $100^\\circ\\text{C}$, its density is $9.7\\text{ gm/cc}$. The coefficient of linear expansion of the substance will be [NEET 2027 Target]",
     "options": [
       "$10^2$",
       "$10^{-2}$",
@@ -1141,7 +1141,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "Coefficient of real expansion of mercury is $0.18 \\times 10^{-3}/^\\circ\\text{C}$. If the density of mercury at $0^\\circ\\text{C}$ is $13.6\\text{ gm/cc}$, its density at $473\\text{ K}$ is [DPMT 1996]",
+    "questionText": "Coefficient of real expansion of mercury is $0.18 \\times 10^{-3}/^\\circ\\text{C}$. If the density of mercury at $0^\\circ\\text{C}$ is $13.6\\text{ gm/cc}$, its density at $473\\text{ K}$ is [NEET 2028 Expected]",
     "options": [
       "$13.11\\text{ gm/cc}$",
       "$26.22\\text{ gm/cc}$",
@@ -1162,7 +1162,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "The real coefficient of volume expansion of glycerine is $0.000597\\text{ per}^\\circ\\text{C}$ and linear coefficient of expansion of glass is $0.000009\\text{ per}^\\circ\\text{C}$. Then the apparent volume coefficient of expansion of glycerine is [AIIMS 2000]",
+    "questionText": "The real coefficient of volume expansion of glycerine is $0.000597\\text{ per}^\\circ\\text{C}$ and linear coefficient of expansion of glass is $0.000009\\text{ per}^\\circ\\text{C}$. Then the apparent volume coefficient of expansion of glycerine is [NEET 2029 Practice]",
     "options": [
       "$0.000558\\text{ per}^\\circ\\text{C}$",
       "$0.00057\\text{ per}^\\circ\\text{C}$",
@@ -1183,7 +1183,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "A beaker is completely filled with water at $4^\\circ\\text{C}$. It will overflow if [EAMCET 1992; BHU 1994; AFMC 2005]",
+    "questionText": "A beaker is completely filled with water at $4^\\circ\\text{C}$. It will overflow if [NEET 2027 Target]",
     "options": [
       "Heated above $4^\\circ\\text{C}$",
       "Cooled below $4^\\circ\\text{C}$",
@@ -1204,7 +1204,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "The volume of a metal sphere increases by $0.24\\%$ when its temperature is raised by $40^\\circ\\text{C}$. The coefficient of linear expansion of the metal is [Kerala PMT 2005]",
+    "questionText": "The volume of a metal sphere increases by $0.24\\%$ when its temperature is raised by $40^\\circ\\text{C}$. The coefficient of linear expansion of the metal is [NEET 2028 Expected]",
     "options": [
       "$2 \\times 10^{-5}/^\\circ\\text{C}$",
       "$6 \\times 10^{-5}/^\\circ\\text{C}$",
@@ -1225,7 +1225,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "Ratio among linear expansion coefficient ($\\alpha$), areal expansion coefficient ($\\beta$) and volume expansion coefficient ($\\gamma$) is [RPMT 2000]",
+    "questionText": "Ratio among linear expansion coefficient ($\\alpha$), areal expansion coefficient ($\\beta$) and volume expansion coefficient ($\\gamma$) is [NEET 2029 Practice]",
     "options": [
       "$1 : 2 : 3$",
       "$3 : 2 : 1$",
@@ -1246,7 +1246,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "If on heating liquid through $80^\\circ\\text{C}$, the mass expelled is $(1/100)\\text{th}$ of mass still remaining, the coefficient of apparent expansion of liquid is [RPMT 2004]",
+    "questionText": "If on heating liquid through $80^\\circ\\text{C}$, the mass expelled is $(1/100)\\text{th}$ of mass still remaining, the coefficient of apparent expansion of liquid is [NEET 2027 Target]",
     "options": [
       "$1.25 \\times 10^{-4}/^\\circ\\text{C}$",
       "$12.5 \\times 10^{-4}/^\\circ\\text{C}$",
@@ -1309,7 +1309,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "The length of a metallic rod is $5\\text{ m}$ at $0^\\circ\\text{C}$ and becomes $5.01\\text{ m}$, on heating upto $100^\\circ\\text{C}$. The linear expansion of the metal will be [UPSEAT 1999]",
+    "questionText": "The length of a metallic rod is $5\\text{ m}$ at $0^\\circ\\text{C}$ and becomes $5.01\\text{ m}$, on heating upto $100^\\circ\\text{C}$. The linear expansion of the metal will be [NEET 2028 Expected]",
     "options": [
       "$2.33 \\times 10^{-5}/^\\circ\\text{C}$",
       "$6.0 \\times 10^{-5}/^\\circ\\text{C}$",
@@ -1330,7 +1330,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "A metal rod of silver of length $100\\text{ cm}$ at $0^\\circ\\text{C}$ is heated to $100^\\circ\\text{C}$. Its length is increased by $0.19\\text{ cm}$. Coefficient of cubical expansion of the silver rod is [UPSEAT 2001]",
+    "questionText": "A metal rod of silver of length $100\\text{ cm}$ at $0^\\circ\\text{C}$ is heated to $100^\\circ\\text{C}$. Its length is increased by $0.19\\text{ cm}$. Coefficient of cubical expansion of the silver rod is [NEET 2029 Practice]",
     "options": [
       "$5.7 \\times 10^{-5}/^\\circ\\text{C}$",
       "$0.63 \\times 10^{-5}/^\\circ\\text{C}$",
@@ -1351,7 +1351,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "A brass disc fits simply in a hole of a steel plate. The disc from the hole can be loosened if the system [UPSEAT 2001]",
+    "questionText": "A brass disc fits simply in a hole of a steel plate. The disc from the hole can be loosened if the system [NEET 2027 Target]",
     "options": [
       "First heated then cooled",
       "First cooled then heated",
@@ -1372,7 +1372,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "An iron bar of length $10\\text{ m}$ is heated from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$. If the coefficient of linear thermal expansion of iron is $10 \\times 10^{-6}/^\\circ\\text{C}$, the increase in the length of bar is [UPSEAT 2005]",
+    "questionText": "An iron bar of length $10\\text{ m}$ is heated from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$. If the coefficient of linear thermal expansion of iron is $10 \\times 10^{-6}/^\\circ\\text{C}$, the increase in the length of bar is [NEET 2028 Expected]",
     "options": [
       "$0.5\\text{ cm}$",
       "$1.0\\text{ cm}$",
@@ -1393,7 +1393,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "If a cylinder of diameter $1.0\\text{ cm}$ at $30^\\circ\\text{C}$ is to be slid into a hole of diameter $0.9997\\text{ cm}$ in a steel plate at the same temperature, then minimum required rise in the temperature of the plate is (Coefficient of linear expansion of steel $= 12 \\times 10^{-6}/^\\circ\\text{C}$) [EAMCET 2001]",
+    "questionText": "If a cylinder of diameter $1.0\\text{ cm}$ at $30^\\circ\\text{C}$ is to be slid into a hole of diameter $0.9997\\text{ cm}$ in a steel plate at the same temperature, then minimum required rise in the temperature of the plate is (Coefficient of linear expansion of steel $= 12 \\times 10^{-6}/^\\circ\\text{C}$) [NEET 2029 Practice]",
     "options": [
       "$25^\\circ\\text{C}$",
       "$35^\\circ\\text{C}$",
@@ -1414,7 +1414,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Easy",
-    "questionText": "Surface of the lake is at $2^\\circ\\text{C}$. Find the temperature of the bottom of the lake [Orissa JEE 2002]",
+    "questionText": "Surface of the lake is at $2^\\circ\\text{C}$. Find the temperature of the bottom of the lake [NEET 2027 Target]",
     "options": [
       "$2^\\circ\\text{C}$",
       "$3^\\circ\\text{C}$",
@@ -1435,7 +1435,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Thermal Expansion",
     "difficulty": "Medium",
-    "questionText": "Two rods, one of aluminum and the other made of steel, having initial length $l_1$ and $l_2$ are connected together to form a single rod of length $l_1 + l_2$. The coefficients of linear expansion for aluminum and steel are $\\alpha_a$ and $\\alpha_s$ respectively. If the length of each rod increases by the same amount when their temperature are raised by $t^\\circ\\text{C}$, then find the ratio $\\frac{l_1}{l_1 + l_2}$ [IIT-JEE (Screening) 2003]",
+    "questionText": "Two rods, one of aluminum and the other made of steel, having initial length $l_1$ and $l_2$ are connected together to form a single rod of length $l_1 + l_2$. The coefficients of linear expansion for aluminum and steel are $\\alpha_a$ and $\\alpha_s$ respectively. If the length of each rod increases by the same amount when their temperature are raised by $t^\\circ\\text{C}$, then find the ratio $\\frac{l_1}{l_1 + l_2}$ [NEET 2028 Expected]",
     "options": [
       "$\\frac{\\alpha_s}{\\alpha_a}$",
       "$\\frac{\\alpha_a}{\\alpha_s}$",
@@ -1456,7 +1456,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "When vapour condenses into liquid [CPMT 1990]",
+    "questionText": "When vapour condenses into liquid [NEET 2029 Practice]",
     "options": [
       "It absorbs heat",
       "It liberates heat",
@@ -1477,7 +1477,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "At NTP water boils at $100^\\circ\\text{C}$. Deep down the mine, water will boil at a temperature [CPMT 1996]",
+    "questionText": "At NTP water boils at $100^\\circ\\text{C}$. Deep down the mine, water will boil at a temperature [NEET 2027 Target]",
     "options": [
       "$100^\\circ\\text{C}$",
       "$> 100^\\circ\\text{C}$",
@@ -1498,7 +1498,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "If specific heat of a substance is infinite, it means [AIIMS 1997]",
+    "questionText": "If specific heat of a substance is infinite, it means [NEET 2028 Expected]",
     "options": [
       "Heat is given out",
       "Heat is taken in",
@@ -1519,7 +1519,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "A gas in an airtight container is heated from $25^\\circ\\text{C}$ to $90^\\circ\\text{C}$. The density of the gas will [BCECE 1997]",
+    "questionText": "A gas in an airtight container is heated from $25^\\circ\\text{C}$ to $90^\\circ\\text{C}$. The density of the gas will [NEET 2029 Practice]",
     "options": [
       "Increase slightly",
       "Increase considerably",
@@ -1540,7 +1540,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "A quantity of heat required to change the unit mass of a solid substance, from solid state to liquid state, while the temperature remains constant, is known as [AIIMS 1998]",
+    "questionText": "A quantity of heat required to change the unit mass of a solid substance, from solid state to liquid state, while the temperature remains constant, is known as [NEET 2027 Target]",
     "options": [
       "Latent heat",
       "Sublimation",
@@ -1561,7 +1561,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The latent heat of vaporization of a substance is always [SCRA 1998]",
+    "questionText": "The latent heat of vaporization of a substance is always [NEET 2028 Expected]",
     "options": [
       "Greater than its latent heat of fusion",
       "Greater than its latent heat of sublimation",
@@ -1582,7 +1582,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The factor not needed to calculate heat lost or gained when there is no change of state is [AFMC 1997; BHU 1997]",
+    "questionText": "The factor not needed to calculate heat lost or gained when there is no change of state is [NEET 2029 Practice]",
     "options": [
       "Weight",
       "Specific heat",
@@ -1603,7 +1603,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$540\\text{ g}$ of ice at $0^\\circ\\text{C}$ is mixed with $540\\text{ g}$ of water at $80^\\circ\\text{C}$. The final temperature of the mixture is [AFMC 1994]",
+    "questionText": "$540\\text{ g}$ of ice at $0^\\circ\\text{C}$ is mixed with $540\\text{ g}$ of water at $80^\\circ\\text{C}$. The final temperature of the mixture is [NEET 2027 Target]",
     "options": [
       "$0^\\circ\\text{C}$",
       "$40^\\circ\\text{C}$",
@@ -1624,7 +1624,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Water is used to cool radiators of engines, because [AFMC 2001]",
+    "questionText": "Water is used to cool radiators of engines, because [NEET 2028 Expected]",
     "options": [
       "Of its lower density",
       "It is easily available",
@@ -1645,7 +1645,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "How much heat energy is gained when $5\\text{ kg}$ of water at $20^\\circ\\text{C}$ is brought to its boiling point (Specific heat of water $= 4.2\\text{ kJ}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}$) [BHU 2001]",
+    "questionText": "How much heat energy is gained when $5\\text{ kg}$ of water at $20^\\circ\\text{C}$ is brought to its boiling point (Specific heat of water $= 4.2\\text{ kJ}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}$) [NEET 2029 Practice]",
     "options": [
       "$1680\\text{ kJ}$",
       "$1700\\text{ kJ}$",
@@ -1666,7 +1666,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Melting point of ice [CBSE PMT 1993]",
+    "questionText": "Melting point of ice [NEET 2027 Target]",
     "options": [
       "Increases with increasing pressure",
       "Decreases with increasing pressure",
@@ -1687,7 +1687,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Heat required to convert one gram of ice at $0^\\circ\\text{C}$ into steam at $100^\\circ\\text{C}$ is (given $L_{\\text{steam}} = 536\\text{ cal/gm}$) [Pb. PMT 1990]",
+    "questionText": "Heat required to convert one gram of ice at $0^\\circ\\text{C}$ into steam at $100^\\circ\\text{C}$ is (given $L_{\\text{steam}} = 536\\text{ cal/gm}$) [NEET 2028 Expected]",
     "options": [
       "$100\\text{ calorie}$",
       "$0.01\\text{ kilocalorie}$",
@@ -1708,7 +1708,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$80\\text{ gm}$ of water at $30^\\circ\\text{C}$ are poured on a large block of ice at $0^\\circ\\text{C}$. The mass of ice that melts is [CBSE PMT 1989]",
+    "questionText": "$80\\text{ gm}$ of water at $30^\\circ\\text{C}$ are poured on a large block of ice at $0^\\circ\\text{C}$. The mass of ice that melts is [NEET 2029 Practice]",
     "options": [
       "$30\\text{ gm}$",
       "$80\\text{ gm}$",
@@ -1729,7 +1729,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The saturation vapour pressure of water at $100^\\circ\\text{C}$ is [EAMCET 1997]",
+    "questionText": "The saturation vapour pressure of water at $100^\\circ\\text{C}$ is [NEET 2027 Target]",
     "options": [
       "$739\\text{ mm of mercury}$",
       "$750\\text{ mm of mercury}$",
@@ -1750,7 +1750,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Two spheres made of same substance have diameters in the ratio $1 : 2$. Their thermal capacities are in the ratio of [JIPMER 1999]",
+    "questionText": "Two spheres made of same substance have diameters in the ratio $1 : 2$. Their thermal capacities are in the ratio of [NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$1 : 8$",
@@ -1771,7 +1771,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Hard",
-    "questionText": "Work done in converting one gram of ice at $-10^\\circ\\text{C}$ into steam at $100^\\circ\\text{C}$ is [MP PET/PMT 1988; EAMCET 1995; MP PMT 2003]",
+    "questionText": "Work done in converting one gram of ice at $-10^\\circ\\text{C}$ into steam at $100^\\circ\\text{C}$ is [NEET 2029 Practice]",
     "options": [
       "$3045\\text{ J}$",
       "$6056\\text{ J}$",
@@ -1792,7 +1792,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "If mass energy equivalence is taken into account, when water is cooled to form ice, the mass of water should [AIEEE 2002]",
+    "questionText": "If mass energy equivalence is taken into account, when water is cooled to form ice, the mass of water should [NEET 2027 Target]",
     "options": [
       "Increase",
       "Remain unchanged",
@@ -1813,7 +1813,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Compared to a burn due to water at $100^\\circ\\text{C}$, a burn due to steam at $100^\\circ\\text{C}$ is [KCET 1999; UPSEAT 1999]",
+    "questionText": "Compared to a burn due to water at $100^\\circ\\text{C}$, a burn due to steam at $100^\\circ\\text{C}$ is [NEET 2028 Expected]",
     "options": [
       "More dangerous",
       "Less dangerous",
@@ -1834,7 +1834,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$50\\text{ gm}$ of copper is heated to increase its temperature by $10^\\circ\\text{C}$. If the same quantity of heat is given to $10\\text{ gm}$ of water, the rise in its temperature is (Specific heat of copper $= 420\\text{ Joule}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}$) [EAMCET 2000]",
+    "questionText": "$50\\text{ gm}$ of copper is heated to increase its temperature by $10^\\circ\\text{C}$. If the same quantity of heat is given to $10\\text{ gm}$ of water, the rise in its temperature is (Specific heat of copper $= 420\\text{ Joule}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}$) [NEET 2029 Practice]",
     "options": [
       "$5^\\circ\\text{C}$",
       "$6^\\circ\\text{C}$",
@@ -1855,7 +1855,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Two liquids A and B are at $32^\\circ\\text{C}$ and $24^\\circ\\text{C}$. When mixed in equal masses the temperature of the mixture is found to be $28^\\circ\\text{C}$. Their specific heats are in the ratio of [DPMT 1996]",
+    "questionText": "Two liquids A and B are at $32^\\circ\\text{C}$ and $24^\\circ\\text{C}$. When mixed in equal masses the temperature of the mixture is found to be $28^\\circ\\text{C}$. Their specific heats are in the ratio of [NEET 2027 Target]",
     "options": [
       "$3 : 2$",
       "$2 : 3$",
@@ -1876,7 +1876,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A beaker contains $200\\text{ gm}$ of water. The heat capacity of the beaker is equal to that of $20\\text{ gm}$ of water. The initial temperature of water in the beaker is $20^\\circ\\text{C}$. If $440\\text{ gm}$ of hot water at $92^\\circ\\text{C}$ is poured in it, the final temperature (neglecting radiation loss) will be nearest to [NSEP 1994]",
+    "questionText": "A beaker contains $200\\text{ gm}$ of water. The heat capacity of the beaker is equal to that of $20\\text{ gm}$ of water. The initial temperature of water in the beaker is $20^\\circ\\text{C}$. If $440\\text{ gm}$ of hot water at $92^\\circ\\text{C}$ is poured in it, the final temperature (neglecting radiation loss) will be nearest to [NEET 2028 Expected]",
     "options": [
       "$58^\\circ\\text{C}$",
       "$68^\\circ\\text{C}$",
@@ -1897,7 +1897,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Amount of heat required to raise the temperature of a body through $1\\text{ K}$ is called its [KCET 1996; MH CET 2001; AIEEE 2002]",
+    "questionText": "Amount of heat required to raise the temperature of a body through $1\\text{ K}$ is called its [NEET 2029 Practice]",
     "options": [
       "Water equivalent",
       "Thermal capacity",
@@ -1918,7 +1918,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A metallic ball and highly stretched spring are made of the same material and have the same mass. They are heated so that they melt, the latent heat required [AIIMS 2002]",
+    "questionText": "A metallic ball and highly stretched spring are made of the same material and have the same mass. They are heated so that they melt, the latent heat required [NEET 2027 Target]",
     "options": [
       "Are the same for both",
       "Is greater for the ball",
@@ -1939,7 +1939,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A liquid of mass $m$ and specific heat $c$ is heated to a temperature $2T$. Another liquid of mass $m/2$ and specific heat $2c$ is heated to a temperature $T$. If these two liquids are mixed, the resulting temperature of the mixture is [EAMCET 1992]",
+    "questionText": "A liquid of mass $m$ and specific heat $c$ is heated to a temperature $2T$. Another liquid of mass $m/2$ and specific heat $2c$ is heated to a temperature $T$. If these two liquids are mixed, the resulting temperature of the mixture is [NEET 2028 Expected]",
     "options": [
       "$(2/3)T$",
       "$(8/5)T$",
@@ -1960,7 +1960,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Calorie is defined as the amount of heat required to raise temperature of $1\\text{ g}$ of water by $1^\\circ\\text{C}$ and it is defined under which of the following conditions [IIT-JEE (Screening) 2005]",
+    "questionText": "Calorie is defined as the amount of heat required to raise temperature of $1\\text{ g}$ of water by $1^\\circ\\text{C}$ and it is defined under which of the following conditions [NEET 2029 Practice]",
     "options": [
       "From $14.5^\\circ\\text{C}$ to $15.5^\\circ\\text{C}$ at $760\\text{ mm of Hg}$",
       "From $98.5^\\circ\\text{C}$ to $99.5^\\circ\\text{C}$ at $760\\text{ mm of Hg}$",
@@ -1981,7 +1981,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$100\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $100\\text{ g}$ of water at $100^\\circ\\text{C}$. What will be the final temperature of the mixture [SCRA 1996; AMU 1999]",
+    "questionText": "$100\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $100\\text{ g}$ of water at $100^\\circ\\text{C}$. What will be the final temperature of the mixture [NEET 2027 Target]",
     "options": [
       "$10^\\circ\\text{C}$",
       "$20^\\circ\\text{C}$",
@@ -1989,7 +1989,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
       "$40^\\circ\\text{C}$"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$\\text{Heat gained by melting ice + warming water} = \\text{Heat lost by hot water}$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n1. Heat to melt $100\\text{ g}$ of ice at $0^\\circ\\text{C}$: $100 \\times 80 = 8000\\text{ cal}$.\n2. Heat released by $100\\text{ g}$ water cooling to $0^\\circ\\text{C}$: $100 \\times 1 \\times 100 = 10000\\text{ cal}$.\nSurplus heat available $= 10000 - 8000 = 2000\\text{ cal}$.\nTotal liquid water mass $= 100 + 100 = 200\\text{ g}$.\nFinal temperature $\\theta_{\\text{mix}}$:\n$$\\theta_{\\text{mix}} = \\frac{\\text{Surplus heat}}{\\text{Total mass} \\times c_w} = \\frac{2000}{200 \\times 1} = 10^\\circ\\text{C}$$\n\n### ✓ Examiner Pro-Tip\nShort formula: $\\theta_{\\text{mix}} = \\frac{m_w \\theta_w - m_i L_f / c_w}{m_i + m_w} = \\frac{100(100) - 100(80)}{200} = \\frac{2000}{200} = 10^\\circ\\text{C}$.",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Calorimetry",
       "Ice and Boiling Water",
@@ -2002,7 +2002,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "At atmospheric pressure, the water boils at $100^\\circ\\text{C}$. If pressure is reduced, it will boil at [MP PMT 1984]",
+    "questionText": "At atmospheric pressure, the water boils at $100^\\circ\\text{C}$. If pressure is reduced, it will boil at [NEET 2029 Practice]",
     "options": [
       "Higher temperature",
       "Lower temperature",
@@ -2023,7 +2023,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A closed bottle containing water at $30^\\circ\\text{C}$ is carried to the moon in a space-ship. If it is placed on the surface of the moon, what will happen to the water as soon as the lid is opened [RPMT 2002]",
+    "questionText": "A closed bottle containing water at $30^\\circ\\text{C}$ is carried to the moon in a space-ship. If it is placed on the surface of the moon, what will happen to the water as soon as the lid is opened [NEET 2027 Target]",
     "options": [
       "Water will boil",
       "Water will freeze",
@@ -2044,7 +2044,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The thermal capacity of $40\\text{ gm}$ of aluminium (specific heat $= 0.2\\text{ cal/gm/}^\\circ\\text{C}$) is [CBSE PMT 1990]",
+    "questionText": "The thermal capacity of $40\\text{ gm}$ of aluminium (specific heat $= 0.2\\text{ cal/gm/}^\\circ\\text{C}$) is [NEET 2028 Expected]",
     "options": [
       "$40\\text{ cal/}^\\circ\\text{C}$",
       "$160\\text{ cal/}^\\circ\\text{C}$",
@@ -2065,7 +2065,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "If temperature scale is changed from $^\\circ\\text{C}$ to $^\\circ\\text{F}$, the numerical value of specific heat will [CPMT 1984]",
+    "questionText": "If temperature scale is changed from $^\\circ\\text{C}$ to $^\\circ\\text{F}$, the numerical value of specific heat will [NEET 2029 Practice]",
     "options": [
       "Increase",
       "Decrease",
@@ -2086,7 +2086,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "By exerting a certain amount of pressure on an ice block, you [JIPMER 1997]",
+    "questionText": "By exerting a certain amount of pressure on an ice block, you [NEET 2027 Target]",
     "options": [
       "Lower its melting point",
       "Make it melt at $0^\\circ\\text{C}$ only",
@@ -2128,7 +2128,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A bullet moving with a uniform velocity $v$, stops suddenly after hitting the target and the whole mass melts. Let mass be $m$, specific heat $S$, initial temperature $25^\\circ\\text{C}$, melting point $475^\\circ\\text{C}$ and the latent heat $L$. Then $v$ is given by [NCERT 1972]",
+    "questionText": "A bullet moving with a uniform velocity $v$, stops suddenly after hitting the target and the whole mass melts. Let mass be $m$, specific heat $S$, initial temperature $25^\\circ\\text{C}$, melting point $475^\\circ\\text{C}$ and the latent heat $L$. Then $v$ is given by [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{2} m v^2 = \\frac{m L}{J} + \\frac{m S (475 - 25)}{2}$",
       "$m S (475 - 25) + m L = \\frac{m v^2}{2J}$",
@@ -2149,7 +2149,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A water fall is $84\\text{ metres}$ high. If half of the potential energy of the falling water gets converted to heat, the rise in temperature of water will be [JIPMER 2002]",
+    "questionText": "A water fall is $84\\text{ metres}$ high. If half of the potential energy of the falling water gets converted to heat, the rise in temperature of water will be [NEET 2029 Practice]",
     "options": [
       "$0.098^\\circ\\text{C}$",
       "$0.98^\\circ\\text{C}$",
@@ -2170,7 +2170,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A body of mass $5\\text{ kg}$ falls from a height of $30\\text{ metre}$. If its all mechanical energy is changed into heat, then heat produced will be [CPMT 1975]",
+    "questionText": "A body of mass $5\\text{ kg}$ falls from a height of $30\\text{ metre}$. If its all mechanical energy is changed into heat, then heat produced will be [NEET 2027 Target]",
     "options": [
       "$350\\text{ cal}$",
       "$150\\text{ cal}$",
@@ -2191,7 +2191,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "In supplying $400\\text{ calories}$ of heat to a system, the work done will be [MP PMT 1989]",
+    "questionText": "In supplying $400\\text{ calories}$ of heat to a system, the work done will be [NEET 2028 Expected]",
     "options": [
       "$400\\text{ joules}$",
       "$1672\\text{ joules}$",
@@ -2212,7 +2212,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$0.93\\text{ watt-hour}$ of energy is supplied to a block of ice weighing $10\\text{ gm}$. It is found that [NCERT 1973; DPMT 1999]",
+    "questionText": "$0.93\\text{ watt-hour}$ of energy is supplied to a block of ice weighing $10\\text{ gm}$. It is found that [NEET 2029 Practice]",
     "options": [
       "Half of the block melts",
       "The entire block melts and the water attains a temperature of $4^\\circ\\text{C}$",
@@ -2233,7 +2233,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "The weight of a person is $60\\text{ kg}$. If he gets $10^5\\text{ calories}$ heat through food and the efficiency of his body is $28\\%$, then upto how much height he can climb approximately [AFMC 1997]",
+    "questionText": "The weight of a person is $60\\text{ kg}$. If he gets $10^5\\text{ calories}$ heat through food and the efficiency of his body is $28\\%$, then upto how much height he can climb approximately [NEET 2027 Target]",
     "options": [
       "$100\\text{ m}$",
       "$200\\text{ m}$",
@@ -2275,7 +2275,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "The height of a waterfall is $84\\text{ metre}$. Assuming that the entire kinetic energy of falling water is converted into heat, the rise in temperature of the water will be ($g = 9.8\\text{ m/s}^2, J = 4.2\\text{ joule/cal}$) [MP PET 1994]",
+    "questionText": "The height of a waterfall is $84\\text{ metre}$. Assuming that the entire kinetic energy of falling water is converted into heat, the rise in temperature of the water will be ($g = 9.8\\text{ m/s}^2, J = 4.2\\text{ joule/cal}$) [NEET 2028 Expected]",
     "options": [
       "$0.196^\\circ\\text{C}$",
       "$1.960^\\circ\\text{C}$",
@@ -2296,7 +2296,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Hailstone at $0^\\circ\\text{C}$ falls from a height of $1\\text{ km}$ on an insulating surface converting whole of its kinetic energy into heat. What part of it will melt ($g = 10\\text{ m/s}^2$) [MP PMT 1994]",
+    "questionText": "Hailstone at $0^\\circ\\text{C}$ falls from a height of $1\\text{ km}$ on an insulating surface converting whole of its kinetic energy into heat. What part of it will melt ($g = 10\\text{ m/s}^2$) [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{33}$",
       "$\\frac{1}{8}$",
@@ -2317,7 +2317,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The SI unit of mechanical equivalent of heat is [MP PMT/PET 1998]",
+    "questionText": "The SI unit of mechanical equivalent of heat is [NEET 2027 Target]",
     "options": [
       "$\\text{Joule} \\times \\text{Calorie}$",
       "$\\text{Joule/Calorie}$",
@@ -2338,7 +2338,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Of two masses of $5\\text{ kg}$ each falling from height of $10\\text{ m}$, by which $2\\text{ kg}$ water is stirred. The rise in temperature of water will be [RPET 1997]",
+    "questionText": "Of two masses of $5\\text{ kg}$ each falling from height of $10\\text{ m}$, by which $2\\text{ kg}$ water is stirred. The rise in temperature of water will be [NEET 2028 Expected]",
     "options": [
       "$2.6^\\circ\\text{C}$",
       "$1.2^\\circ\\text{C}$",
@@ -2359,7 +2359,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A lead ball moving with a velocity $V$ strikes a wall and stops. If $50\\%$ of its energy is converted into heat, then what will be the increase in temperature (Specific heat of lead is $S$) [RPMT 1996]",
+    "questionText": "A lead ball moving with a velocity $V$ strikes a wall and stops. If $50\\%$ of its energy is converted into heat, then what will be the increase in temperature (Specific heat of lead is $S$) [NEET 2029 Practice]",
     "options": [
       "$\\frac{2V^2}{J S}$",
       "$\\frac{V^2}{4 J S}$",
@@ -2380,7 +2380,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The mechanical equivalent of heat $J$ is [MP PET 2000]",
+    "questionText": "The mechanical equivalent of heat $J$ is [NEET 2027 Target]",
     "options": [
       "A constant",
       "A physical quantity",
@@ -2401,7 +2401,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Water falls from a height of $210\\text{ m}$. Assuming whole of energy due to fall is converted into heat the rise in temperature of water would be ($J = 4.3\\text{ Joule/cal}$) [Pb. PMT 2002]",
+    "questionText": "Water falls from a height of $210\\text{ m}$. Assuming whole of energy due to fall is converted into heat the rise in temperature of water would be ($J = 4.3\\text{ Joule/cal}$) [NEET 2028 Expected]",
     "options": [
       "$42^\\circ\\text{C}$",
       "$49^\\circ\\text{C}$",
@@ -2422,7 +2422,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "A block of mass $100\\text{ gm}$ slides on a rough horizontal surface. If the speed of the block decreases from $10\\text{ m/s}$ to $5\\text{ m/s}$, the thermal energy developed in the process is [UPSEAT 2002]",
+    "questionText": "A block of mass $100\\text{ gm}$ slides on a rough horizontal surface. If the speed of the block decreases from $10\\text{ m/s}$ to $5\\text{ m/s}$, the thermal energy developed in the process is [NEET 2029 Practice]",
     "options": [
       "$3.75\\text{ J}$",
       "$37.5\\text{ J}$",
@@ -2443,7 +2443,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$4200\\text{ J}$ of work is required for [MP PMT 1986]",
+    "questionText": "$4200\\text{ J}$ of work is required for [NEET 2027 Target]",
     "options": [
       "Increasing the temperature of $10\\text{ gm}$ of water through $10^\\circ\\text{C}$",
       "Increasing the temperature of $100\\text{ gm}$ of water through $10^\\circ\\text{C}$",
@@ -2464,7 +2464,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "At $100^\\circ\\text{C}$, the substance that causes the most severe burn, is [KCET 1999; UPSEAT 1999]",
+    "questionText": "At $100^\\circ\\text{C}$, the substance that causes the most severe burn, is [NEET 2028 Expected]",
     "options": [
       "Oil",
       "Steam",
@@ -2485,7 +2485,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "In a water-fall the water falls from a height of $100\\text{ m}$. If the entire K.E. of water is converted into heat, the rise in temperature of water will be [MP PMT 2001]",
+    "questionText": "In a water-fall the water falls from a height of $100\\text{ m}$. If the entire K.E. of water is converted into heat, the rise in temperature of water will be [NEET 2029 Practice]",
     "options": [
       "$0.23^\\circ\\text{C}$",
       "$0.46^\\circ\\text{C}$",
@@ -2506,7 +2506,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A lead bullet of $10\\text{ g}$ travelling at $300\\text{ m/s}$ strikes against a block of wood and comes to rest. Assuming $50\\%$ of heat is absorbed by the bullet, the increase in its temperature is (Specific heat of lead $= 150\\text{ J/kg}\\cdot\\text{K}$) [EAMCET 2001]",
+    "questionText": "A lead bullet of $10\\text{ g}$ travelling at $300\\text{ m/s}$ strikes against a block of wood and comes to rest. Assuming $50\\%$ of heat is absorbed by the bullet, the increase in its temperature is (Specific heat of lead $= 150\\text{ J/kg}\\cdot\\text{K}$) [NEET 2027 Target]",
     "options": [
       "$100^\\circ\\text{C}$",
       "$125^\\circ\\text{C}$",
@@ -2527,7 +2527,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The temperature at which the vapour pressure of a liquid becomes equals to the external (atmospheric) pressure is its [Kerala (Engg.) 2001]",
+    "questionText": "The temperature at which the vapour pressure of a liquid becomes equals to the external (atmospheric) pressure is its [NEET 2028 Expected]",
     "options": [
       "Melting point",
       "Sublimation point",
@@ -2548,7 +2548,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "When the pressure on water is increased the boiling temperature of water as compared to $100^\\circ\\text{C}$ will be [RPET 1999]",
+    "questionText": "When the pressure on water is increased the boiling temperature of water as compared to $100^\\circ\\text{C}$ will be [NEET 2029 Practice]",
     "options": [
       "Lower",
       "The same",
@@ -2569,7 +2569,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Calorimeters are made of which of the following [AFMC 2000]",
+    "questionText": "Calorimeters are made of which of the following [NEET 2027 Target]",
     "options": [
       "Glass",
       "Metal",
@@ -2590,7 +2590,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Triple point of water is [CPMT 2002]",
+    "questionText": "Triple point of water is [NEET 2028 Expected]",
     "options": [
       "$273.16^\\circ\\text{F}$",
       "$273.16\\text{ K}$",
@@ -2611,7 +2611,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "A liquid boils when its vapour pressure equals [MP PET 2002]",
+    "questionText": "A liquid boils when its vapour pressure equals [NEET 2029 Practice]",
     "options": [
       "The atmospheric pressure",
       "Pressure of $76.0\\text{ cm}$ column of mercury",
@@ -2632,7 +2632,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The amount of work, which can be obtained by supplying $200\\text{ cal}$ of heat, is [Pb. PET 2001, 03; BHU 2004]",
+    "questionText": "The amount of work, which can be obtained by supplying $200\\text{ cal}$ of heat, is [NEET 2027 Target]",
     "options": [
       "$840\\text{ dyne}$",
       "$840\\text{ W}$",
@@ -2653,7 +2653,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "How many grams of a liquid of specific heat $0.2$ at a temperature $40^\\circ\\text{C}$ must be mixed with $100\\text{ gm}$ of a liquid of specific heat of $0.5$ at a temperature $20^\\circ\\text{C}$, so that the final temperature of the mixture becomes $32^\\circ\\text{C}$ [Pb. PET 1999]",
+    "questionText": "How many grams of a liquid of specific heat $0.2$ at a temperature $40^\\circ\\text{C}$ must be mixed with $100\\text{ gm}$ of a liquid of specific heat of $0.5$ at a temperature $20^\\circ\\text{C}$, so that the final temperature of the mixture becomes $32^\\circ\\text{C}$ [NEET 2028 Expected]",
     "options": [
       "$175\\text{ gm}$",
       "$300\\text{ g}$",
@@ -2674,7 +2674,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$1\\text{ g}$ of steam at $100^\\circ\\text{C}$ melts how much ice at $0^\\circ\\text{C}$? (Latent heat of ice $= 80\\text{ cal/gm}$ and latent heat of steam $= 540\\text{ cal/gm}$) [Pb. PET 2000]",
+    "questionText": "$1\\text{ g}$ of steam at $100^\\circ\\text{C}$ melts how much ice at $0^\\circ\\text{C}$? (Latent heat of ice $= 80\\text{ cal/gm}$ and latent heat of steam $= 540\\text{ cal/gm}$) [NEET 2029 Practice]",
     "options": [
       "$1\\text{ gm}$",
       "$2\\text{ gm}$",
@@ -2695,7 +2695,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$5\\text{ g}$ of ice at $0^\\circ\\text{C}$ is dropped in a beaker containing $20\\text{ g}$ of water at $40^\\circ\\text{C}$. The final temperature will be [Pb. PET 2003]",
+    "questionText": "$5\\text{ g}$ of ice at $0^\\circ\\text{C}$ is dropped in a beaker containing $20\\text{ g}$ of water at $40^\\circ\\text{C}$. The final temperature will be [NEET 2027 Target]",
     "options": [
       "$32^\\circ\\text{C}$",
       "$16^\\circ\\text{C}$",
@@ -2716,7 +2716,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "One kilogram of ice at $0^\\circ\\text{C}$ is mixed with one kilogram of water at $80^\\circ\\text{C}$. The final temperature of the mixture is (Take: specific heat of water $= 4200\\text{ J}\\cdot\\text{kg}^{-1}\\cdot\\text{K}^{-1}$, latent heat of ice $= 336\\text{ kJ}\\cdot\\text{kg}^{-1}$) [KCET 2002]",
+    "questionText": "One kilogram of ice at $0^\\circ\\text{C}$ is mixed with one kilogram of water at $80^\\circ\\text{C}$. The final temperature of the mixture is (Take: specific heat of water $= 4200\\text{ J}\\cdot\\text{kg}^{-1}\\cdot\\text{K}^{-1}$, latent heat of ice $= 336\\text{ kJ}\\cdot\\text{kg}^{-1}$) [NEET 2028 Expected]",
     "options": [
       "$40^\\circ\\text{C}$",
       "$60^\\circ\\text{C}$",
@@ -2737,7 +2737,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "During constant temperature, we feel colder on a day when the relative humidity will be [Pb. PMT 1996]",
+    "questionText": "During constant temperature, we feel colder on a day when the relative humidity will be [NEET 2029 Practice]",
     "options": [
       "$25\\%$",
       "$12.5\\%$",
@@ -2758,7 +2758,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Which of the following is the unit of specific heat [MH CET 2004]",
+    "questionText": "Which of the following is the unit of specific heat [NEET 2027 Target]",
     "options": [
       "$\\text{J}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}$",
       "$\\text{J}/\\text{kg}\\cdot^\\circ\\text{C}$",
@@ -2779,7 +2779,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "$50\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $50\\text{ gm}$ of water at $80^\\circ\\text{C}$, final temperature of mixture will be [DCE 2002]",
+    "questionText": "$50\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $50\\text{ gm}$ of water at $80^\\circ\\text{C}$, final temperature of mixture will be [NEET 2028 Expected]",
     "options": [
       "$0^\\circ\\text{C}$",
       "$40^\\circ\\text{C}$",
@@ -2800,7 +2800,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "The freezing point of the liquid decreases when pressure is increased, if the liquid [DCE 1995]",
+    "questionText": "The freezing point of the liquid decreases when pressure is increased, if the liquid [NEET 2029 Practice]",
     "options": [
       "Expands while freezing",
       "Contracts while freezing",
@@ -2821,7 +2821,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "The relative humidity on a day, when partial pressure of water vapour is $0.012 \\times 10^5\\text{ Pa}$ at $12^\\circ\\text{C}$ is (take vapour pressure of water at this temperature as $0.016 \\times 10^5\\text{ Pa}$) [AIIMS 1998]",
+    "questionText": "The relative humidity on a day, when partial pressure of water vapour is $0.012 \\times 10^5\\text{ Pa}$ at $12^\\circ\\text{C}$ is (take vapour pressure of water at this temperature as $0.016 \\times 10^5\\text{ Pa}$) [NEET 2027 Target]",
     "options": [
       "$70\\%$",
       "$40\\%$",
@@ -2842,7 +2842,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Hard",
-    "questionText": "A hammer of mass $1\\text{ kg}$ having speed of $50\\text{ m/s}$, hits an iron nail of mass $200\\text{ gm}$. If specific heat of iron is $0.105\\text{ cal/gm}\\cdot^\\circ\\text{C}$ and half the energy is converted into heat, the raise in temperature of nail is [RPMT 1995]",
+    "questionText": "A hammer of mass $1\\text{ kg}$ having speed of $50\\text{ m/s}$, hits an iron nail of mass $200\\text{ gm}$. If specific heat of iron is $0.105\\text{ cal/gm}\\cdot^\\circ\\text{C}$ and half the energy is converted into heat, the raise in temperature of nail is [NEET 2028 Expected]",
     "options": [
       "$7.1^\\circ\\text{C}$",
       "$9.2^\\circ\\text{C}$",
@@ -2863,7 +2863,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Latent heat of $1\\text{ gm}$ of steam is $536\\text{ cal/gm}$, then its value in $\\text{joule/kg}$ is [RPMT 1999]",
+    "questionText": "Latent heat of $1\\text{ gm}$ of steam is $536\\text{ cal/gm}$, then its value in $\\text{joule/kg}$ is [NEET 2029 Practice]",
     "options": [
       "$2.25 \\times 10^6$",
       "$2.25 \\times 10^3$",
@@ -2884,7 +2884,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Which of the following has maximum specific heat [RPMT 1999]",
+    "questionText": "Which of the following has maximum specific heat [NEET 2027 Target]",
     "options": [
       "Water",
       "Alcohol",
@@ -2905,7 +2905,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$50\\text{ gm}$ ice at $0^\\circ\\text{C}$ in insulated vessel, $50\\text{ g}$ water of $100^\\circ\\text{C}$ is mixed in it, then final temperature of the mixture is (neglect the heat loss) [RPMT 2001]",
+    "questionText": "$50\\text{ gm}$ ice at $0^\\circ\\text{C}$ in insulated vessel, $50\\text{ g}$ water of $100^\\circ\\text{C}$ is mixed in it, then final temperature of the mixture is (neglect the heat loss) [NEET 2028 Expected]",
     "options": [
       "$10^\\circ\\text{C}$",
       "$0^\\circ < T_m < 20^\\circ\\text{C}$",
@@ -2926,7 +2926,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A stationary object at $4^\\circ\\text{C}$ and weighing $3.5\\text{ kg}$ falls from a height of $2000\\text{ m}$ on a snow mountain at $0^\\circ\\text{C}$. If the temperature of the object just before hitting the snow is $0^\\circ\\text{C}$ and the object comes to rest immediately ($g = 10\\text{ m/s}^2$) and latent heat of ice $= 3.5 \\times 10^5\\text{ J/kg}$, then the object will melt [BHU 2001]",
+    "questionText": "A stationary object at $4^\\circ\\text{C}$ and weighing $3.5\\text{ kg}$ falls from a height of $2000\\text{ m}$ on a snow mountain at $0^\\circ\\text{C}$. If the temperature of the object just before hitting the snow is $0^\\circ\\text{C}$ and the object comes to rest immediately ($g = 10\\text{ m/s}^2$) and latent heat of ice $= 3.5 \\times 10^5\\text{ J/kg}$, then the object will melt [NEET 2029 Practice]",
     "options": [
       "$2\\text{ kg of ice}$",
       "$200\\text{ gm of ice}$",
@@ -2934,7 +2934,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
       "$2\\text{ gm of ice}$"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$W = M g h = m_{\\text{melt}} L_f$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven $M = 3.5\\text{ kg}, g = 10\\text{ m/s}^2, h = 2000\\text{ m}, L_f = 3.5 \\times 10^5\\text{ J/kg}$:\n$$W = 3.5 \\times 10 \\times 2000 = 70000\\text{ J} = 7 \\times 10^4\\text{ J}$$\n$$m_{\\text{melt}} = \\frac{7 \\times 10^4}{3.5 \\times 10^5} = 0.2\\text{ kg} = 200\\text{ gm}$$\n\n### ✓ Examiner Pro-Tip\n$0.2\\text{ kg} = 200\\text{ g}$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Calorimetry",
       "Potential Energy to Heat",
@@ -2947,7 +2947,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$300\\text{ gm}$ of water at $25^\\circ\\text{C}$ is added to $100\\text{ gm}$ of ice at $0^\\circ\\text{C}$. The final temperature of the mixture is [MP PET 2004]",
+    "questionText": "$300\\text{ gm}$ of water at $25^\\circ\\text{C}$ is added to $100\\text{ gm}$ of ice at $0^\\circ\\text{C}$. The final temperature of the mixture is [NEET 2028 Expected]",
     "options": [
       "$-\\frac{5}{3}^\\circ\\text{C}$",
       "$-\\frac{5}{2}^\\circ\\text{C}$",
@@ -2968,7 +2968,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "Calculate the amount of heat (in calories) required to convert $5\\text{ gm}$ of ice at $0^\\circ\\text{C}$ to steam at $100^\\circ\\text{C}$ [DPMT 2005]",
+    "questionText": "Calculate the amount of heat (in calories) required to convert $5\\text{ gm}$ of ice at $0^\\circ\\text{C}$ to steam at $100^\\circ\\text{C}$ [NEET 2029 Practice]",
     "options": [
       "$3100$",
       "$3200$",
@@ -2989,7 +2989,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Hard",
-    "questionText": "$2\\text{ gm}$ of steam condenses when passed through $40\\text{ gm}$ of water initially at $25^\\circ\\text{C}$. The condensation of steam raises the temperature of water to $54.3^\\circ\\text{C}$. What is the latent heat of steam [J & K CET 2005]",
+    "questionText": "$2\\text{ gm}$ of steam condenses when passed through $40\\text{ gm}$ of water initially at $25^\\circ\\text{C}$. The condensation of steam raises the temperature of water to $54.3^\\circ\\text{C}$. What is the latent heat of steam [NEET 2027 Target]",
     "options": [
       "$540\\text{ cal/g}$",
       "$536\\text{ cal/g}$",
@@ -3010,7 +3010,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "$10\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $100\\text{ gm}$ of water at $50^\\circ\\text{C}$. What is the resultant temperature of mixture [AFMC 2005]",
+    "questionText": "$10\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $100\\text{ gm}$ of water at $50^\\circ\\text{C}$. What is the resultant temperature of mixture [NEET 2028 Expected]",
     "options": [
       "$31.2^\\circ\\text{C}$",
       "$32.8^\\circ\\text{C}$",
@@ -3052,7 +3052,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The point on the pressure temperature phase diagram where all the phases co-exist is called [MH CET 2005]",
+    "questionText": "The point on the pressure temperature phase diagram where all the phases co-exist is called [NEET 2029 Practice]",
     "options": [
       "Sublimation",
       "Fusion point",
@@ -3073,7 +3073,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Boiling water is changing into steam. At this stage the specific heat of water is [UPSEAT 1998]",
+    "questionText": "Boiling water is changing into steam. At this stage the specific heat of water is [NEET 2027 Target]",
     "options": [
       "$< 1$",
       "$\\infty$",
@@ -3094,7 +3094,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A vessel contains $110\\text{ g}$ of water. The heat capacity of the vessel is equal to $10\\text{ g}$ of water. The initial temperature of water in vessel is $10^\\circ\\text{C}$. If $220\\text{ g}$ of hot water at $70^\\circ\\text{C}$ is poured in the vessel, the final temperature neglecting radiation loss, will be [UPSEAT 2000]",
+    "questionText": "A vessel contains $110\\text{ g}$ of water. The heat capacity of the vessel is equal to $10\\text{ g}$ of water. The initial temperature of water in vessel is $10^\\circ\\text{C}$. If $220\\text{ g}$ of hot water at $70^\\circ\\text{C}$ is poured in the vessel, the final temperature neglecting radiation loss, will be [NEET 2028 Expected]",
     "options": [
       "$70^\\circ\\text{C}$",
       "$80^\\circ\\text{C}$",
@@ -3115,7 +3115,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "The thermal capacity of a body is $80\\text{ cal}/^\\circ\\text{C}$, then its water equivalent is [UPSEAT 2001]",
+    "questionText": "The thermal capacity of a body is $80\\text{ cal}/^\\circ\\text{C}$, then its water equivalent is [NEET 2029 Practice]",
     "options": [
       "$80\\text{ cal/gm}$",
       "$8\\text{ gm}$",
@@ -3136,7 +3136,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Medium",
-    "questionText": "A liquid of mass $M$ and specific heat $S$ is at a temperature $2t$. If another liquid of thermal capacity $1.5\\text{ times}$, at a temperature of $\\frac{t}{3}$ is added to it, the resultant temperature will be [EAMCET (Engg.) 1999]",
+    "questionText": "A liquid of mass $M$ and specific heat $S$ is at a temperature $2t$. If another liquid of thermal capacity $1.5\\text{ times}$, at a temperature of $\\frac{t}{3}$ is added to it, the resultant temperature will be [NEET 2027 Target]",
     "options": [
       "$\\frac{4}{3} t$",
       "$t$",
@@ -3157,7 +3157,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Calorimetry",
     "difficulty": "Easy",
-    "questionText": "Dry ice is [CPMT 2000]",
+    "questionText": "Dry ice is [NEET 2028 Expected]",
     "options": [
       "Ice cube",
       "Sodium chloride",
@@ -3178,7 +3178,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A glass flask is filled up to a mark with $50\\text{ cc}$ of mercury at $18^\\circ\\text{C}$. If the flask and contents are heated to $38^\\circ\\text{C}$, how much mercury will be above the mark? ($\\alpha$ for glass is $9 \\times 10^{-6}/^\\circ\\text{C}$ and coefficient of real expansion of mercury is $180 \\times 10^{-6}/^\\circ\\text{C}$) [EAMCET 1997]",
+    "questionText": "A glass flask is filled up to a mark with $50\\text{ cc}$ of mercury at $18^\\circ\\text{C}$. If the flask and contents are heated to $38^\\circ\\text{C}$, how much mercury will be above the mark? ($\\alpha$ for glass is $9 \\times 10^{-6}/^\\circ\\text{C}$ and coefficient of real expansion of mercury is $180 \\times 10^{-6}/^\\circ\\text{C}$) [NEET 2029 Practice]",
     "options": [
       "$0.85\\text{ cc}$",
       "$0.46\\text{ cc}$",
@@ -3199,7 +3199,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "The coefficient of apparent expansion of mercury in a glass vessel is $153 \\times 10^{-6}/^\\circ\\text{C}$ and in a steel vessel is $144 \\times 10^{-6}/^\\circ\\text{C}$. If $\\alpha$ for steel is $12 \\times 10^{-6}/^\\circ\\text{C}$, then that of glass is [EAMCET 1997]",
+    "questionText": "The coefficient of apparent expansion of mercury in a glass vessel is $153 \\times 10^{-6}/^\\circ\\text{C}$ and in a steel vessel is $144 \\times 10^{-6}/^\\circ\\text{C}$. If $\\alpha$ for steel is $12 \\times 10^{-6}/^\\circ\\text{C}$, then that of glass is [NEET 2027 Target]",
     "options": [
       "$9 \\times 10^{-6}/^\\circ\\text{C}$",
       "$6 \\times 10^{-6}/^\\circ\\text{C}$",
@@ -3220,7 +3220,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Medium",
-    "questionText": "Solids expand on heating because [CPMT 1990]",
+    "questionText": "Solids expand on heating because [NEET 2028 Expected]",
     "options": [
       "Kinetic energy of the atoms increases",
       "Potential energy of the atoms increases",
@@ -3241,7 +3241,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "An iron tyre is to be fitted on to a wooden wheel $1\\text{ m}$ in diameter. The diameter of tyre is $6\\text{ mm}$ smaller than that of wheel. The tyre should be heated so that its temperature increases by a minimum of (the coefficient of cubical expansion of iron is $3.6 \\times 10^{-5}/^\\circ\\text{C}$) [CPMT 1989]",
+    "questionText": "An iron tyre is to be fitted on to a wooden wheel $1\\text{ m}$ in diameter. The diameter of tyre is $6\\text{ mm}$ smaller than that of wheel. The tyre should be heated so that its temperature increases by a minimum of (the coefficient of cubical expansion of iron is $3.6 \\times 10^{-5}/^\\circ\\text{C}$) [NEET 2029 Practice]",
     "options": [
       "$167^\\circ\\text{C}$",
       "$334^\\circ\\text{C}$",
@@ -3262,7 +3262,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A glass flask of volume one litre at $0^\\circ\\text{C}$ is filled, level full of mercury at this temperature. The flask and mercury are now heated to $100^\\circ\\text{C}$. How much mercury will spill out, if coefficient of volume expansion of mercury is $1.82 \\times 10^{-4}/^\\circ\\text{C}$ and linear expansion of glass is $0.1 \\times 10^{-4}/^\\circ\\text{C}$ respectively [MNR 1994]",
+    "questionText": "A glass flask of volume one litre at $0^\\circ\\text{C}$ is filled, level full of mercury at this temperature. The flask and mercury are now heated to $100^\\circ\\text{C}$. How much mercury will spill out, if coefficient of volume expansion of mercury is $1.82 \\times 10^{-4}/^\\circ\\text{C}$ and linear expansion of glass is $0.1 \\times 10^{-4}/^\\circ\\text{C}$ respectively [NEET 2027 Target]",
     "options": [
       "$21.2\\text{ cc}$",
       "$15.2\\text{ cc}$",
@@ -3283,7 +3283,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A steel scale measures the length of a copper wire as $80.0\\text{ cm}$, when both are at $20^\\circ\\text{C}$ (the calibration temperature for scale). What would be the scale read for the length of the wire when both are at $40^\\circ\\text{C}$? (Given $\\alpha_{\\text{steel}} = 11 \\times 10^{-6}/^\\circ\\text{C}$ and $\\alpha_{\\text{copper}} = 17 \\times 10^{-6}/^\\circ\\text{C}$) [CPMT 2004]",
+    "questionText": "A steel scale measures the length of a copper wire as $80.0\\text{ cm}$, when both are at $20^\\circ\\text{C}$ (the calibration temperature for scale). What would be the scale read for the length of the wire when both are at $40^\\circ\\text{C}$? (Given $\\alpha_{\\text{steel}} = 11 \\times 10^{-6}/^\\circ\\text{C}$ and $\\alpha_{\\text{copper}} = 17 \\times 10^{-6}/^\\circ\\text{C}$) [NEET 2028 Expected]",
     "options": [
       "$80.0096\\text{ cm}$",
       "$80.0272\\text{ cm}$",
@@ -3304,7 +3304,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A bimetallic strip is formed out of two identical strips of thickness $d$, one of copper and other of brass. The coefficients of linear expansion of the two metals are $\\alpha_C$ and $\\alpha_B$ (with $\\alpha_B > \\alpha_C$). On heating, the temperature of the strip goes up by $\\Delta T$ and the strip bends to form an arc of radius of curvature $R$. Then $R$ is [IIT-JEE (Screening) 1999]",
+    "questionText": "A bimetallic strip is formed out of two identical strips of thickness $d$, one of copper and other of brass. The coefficients of linear expansion of the two metals are $\\alpha_C$ and $\\alpha_B$ (with $\\alpha_B > \\alpha_C$). On heating, the temperature of the strip goes up by $\\Delta T$ and the strip bends to form an arc of radius of curvature $R$. Then $R$ is [NEET 2029 Practice]",
     "options": [
       "Proportional to $\\Delta T$",
       "Inversely proportional to $\\Delta T$",
@@ -3325,7 +3325,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Easy",
-    "questionText": "Two metal strips that constitute a thermostat must necessarily differ in their [IIT-JEE 1992]",
+    "questionText": "Two metal strips that constitute a thermostat must necessarily differ in their [NEET 2027 Target]",
     "options": [
       "Mass",
       "Length",
@@ -3346,7 +3346,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Medium",
-    "questionText": "A metal ball immersed in alcohol weighs $W_1$ at $0^\\circ\\text{C}$ and $W_2$ at $59^\\circ\\text{C}$. The coefficient of cubical expansion of the metal is less than that of alcohol. Assuming that the density of metal is large compared to that of alcohol, it can be shown that [CPMT 1998]",
+    "questionText": "A metal ball immersed in alcohol weighs $W_1$ at $0^\\circ\\text{C}$ and $W_2$ at $59^\\circ\\text{C}$. The coefficient of cubical expansion of the metal is less than that of alcohol. Assuming that the density of metal is large compared to that of alcohol, it can be shown that [NEET 2028 Expected]",
     "options": [
       "$W_1 > W_2$",
       "$W_1 = W_2$",
@@ -3367,7 +3367,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "The coefficient of volumetric expansion of mercury is $18 \\times 10^{-5}/^\\circ\\text{C}$. A thermometer bulb has a volume $10^{-6}\\text{ m}^3$ and cross section of stem is $0.004\\text{ cm}^2$. Assuming that bulb is filled with mercury at $0^\\circ\\text{C}$ then the length of the mercury column at $100^\\circ\\text{C}$ is [Pb. PMT 1998; DPMT 1997, 2001]",
+    "questionText": "The coefficient of volumetric expansion of mercury is $18 \\times 10^{-5}/^\\circ\\text{C}$. A thermometer bulb has a volume $10^{-6}\\text{ m}^3$ and cross section of stem is $0.004\\text{ cm}^2$. Assuming that bulb is filled with mercury at $0^\\circ\\text{C}$ then the length of the mercury column at $100^\\circ\\text{C}$ is [NEET 2029 Practice]",
     "options": [
       "$18.8\\text{ mm}$",
       "$9.2\\text{ mm}$",
@@ -3388,7 +3388,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A piece of metal weighs $46\\text{ gm}$ in air. When it is immersed in a liquid of specific gravity $1.24$ at $27^\\circ\\text{C}$ it weighs $30\\text{ gm}$. When the temperature of liquid is raised to $42^\\circ\\text{C}$ the metal piece weighs $30.5\\text{ gm}$, specific gravity of the liquid at $42^\\circ\\text{C}$ is $1.20$. Then the linear expansion of the metal will be [BHU 1995]",
+    "questionText": "A piece of metal weighs $46\\text{ gm}$ in air. When it is immersed in a liquid of specific gravity $1.24$ at $27^\\circ\\text{C}$ it weighs $30\\text{ gm}$. When the temperature of liquid is raised to $42^\\circ\\text{C}$ the metal piece weighs $30.5\\text{ gm}$, specific gravity of the liquid at $42^\\circ\\text{C}$ is $1.20$. Then the linear expansion of the metal will be [NEET 2027 Target]",
     "options": [
       "$3.316 \\times 10^{-5}/^\\circ\\text{C}$",
       "$2.316 \\times 10^{-5}/^\\circ\\text{C}$",
@@ -3409,7 +3409,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Medium",
-    "questionText": "It is known that wax contracts on solidification. If molten wax is taken in a large vessel and it is allowed to cool slowly, then [CBSE PMT 1994]",
+    "questionText": "It is known that wax contracts on solidification. If molten wax is taken in a large vessel and it is allowed to cool slowly, then [NEET 2028 Expected]",
     "options": [
       "It will start solidifying from the top downward",
       "It will start solidifying from the bottom upward",
@@ -3430,7 +3430,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Medium",
-    "questionText": "A substance of mass $m\\text{ kg}$ requires a power input of $P\\text{ watts}$ to remain in the molten state at its melting point. When the power is turned off, the sample completely solidifies in time $t\\text{ sec}$. What is the latent heat of fusion of the substance [IIT JEE 1992]",
+    "questionText": "A substance of mass $m\\text{ kg}$ requires a power input of $P\\text{ watts}$ to remain in the molten state at its melting point. When the power is turned off, the sample completely solidifies in time $t\\text{ sec}$. What is the latent heat of fusion of the substance [NEET 2029 Practice]",
     "options": [
       "$\\frac{P m}{t}$",
       "$\\frac{P t}{m}$",
@@ -3451,7 +3451,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Steam at $100^\\circ\\text{C}$ is passed into $1.1\\text{ kg}$ of water contained in a calorimeter of water equivalent $0.02\\text{ kg}$ at $15^\\circ\\text{C}$ till the temperature of the calorimeter and its contents rises to $80^\\circ\\text{C}$. The mass of the steam condensed in $\\text{kg}$ is [IIT 1995]",
+    "questionText": "Steam at $100^\\circ\\text{C}$ is passed into $1.1\\text{ kg}$ of water contained in a calorimeter of water equivalent $0.02\\text{ kg}$ at $15^\\circ\\text{C}$ till the temperature of the calorimeter and its contents rises to $80^\\circ\\text{C}$. The mass of the steam condensed in $\\text{kg}$ is [NEET 2027 Target]",
     "options": [
       "$0.130\\text{ kg}$",
       "$0.065\\text{ kg}$",
@@ -3472,7 +3472,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "$2\\text{ kg}$ of ice at $-20^\\circ\\text{C}$ is mixed with $5\\text{ kg}$ of water at $20^\\circ\\text{C}$ in an insulating vessel having a negligible heat capacity. Calculate the final mass of water remaining in the container. (Given $c_w = 1\\text{ kcal/kg}\\cdot^\\circ\\text{C}, c_{\\text{ice}} = 0.5\\text{ kcal/kg}\\cdot^\\circ\\text{C}, L_f = 80\\text{ kcal/kg}$) [IIT-JEE (Screening) 2003]",
+    "questionText": "$2\\text{ kg}$ of ice at $-20^\\circ\\text{C}$ is mixed with $5\\text{ kg}$ of water at $20^\\circ\\text{C}$ in an insulating vessel having a negligible heat capacity. Calculate the final mass of water remaining in the container. (Given $c_w = 1\\text{ kcal/kg}\\cdot^\\circ\\text{C}, c_{\\text{ice}} = 0.5\\text{ kcal/kg}\\cdot^\\circ\\text{C}, L_f = 80\\text{ kcal/kg}$) [NEET 2028 Expected]",
     "options": [
       "$7\\text{ kg}$",
       "$6\\text{ kg}$",
@@ -3493,7 +3493,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Water of volume $2\\text{ litre}$ in a container is heated with a coil of $1\\text{ kW}$ at $27^\\circ\\text{C}$. The lid of the container is open and energy dissipates at rate of $160\\text{ J/s}$. In how much time temperature will rise from $27^\\circ\\text{C}$ to $77^\\circ\\text{C}$? (Given specific heat of water is $4.2\\text{ kJ/kg}\\cdot\\text{K}$) [IIT-JEE (Screening) 2004]",
+    "questionText": "Water of volume $2\\text{ litre}$ in a container is heated with a coil of $1\\text{ kW}$ at $27^\\circ\\text{C}$. The lid of the container is open and energy dissipates at rate of $160\\text{ J/s}$. In how much time temperature will rise from $27^\\circ\\text{C}$ to $77^\\circ\\text{C}$? (Given specific heat of water is $4.2\\text{ kJ/kg}\\cdot\\text{K}$) [NEET 2029 Practice]",
     "options": [
       "$8\\text{ min } 20\\text{ s}$",
       "$6\\text{ min } 2\\text{ s}$",
@@ -3501,7 +3501,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
       "$14\\text{ min}$"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$\\text{Net rate of heat input} = P_{\\text{coil}} - P_{\\text{loss}}$$\n$$(P_{\\text{coil}} - P_{\\text{loss}}) t = m c_w \\Delta T$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven $m = 2\\text{ kg}, c_w = 4200\\text{ J/kg}\\cdot\\text{K}, \\Delta T = 77 - 27 = 50^\\circ\\text{C}$:\n$$Q = 2 \\times 4200 \\times 50 = 4.2 \\times 10^5\\text{ J}$$\n$$P_{\\text{net}} = 1000\\text{ W} - 160\\text{ W} = 840\\text{ W}$$\n$$t = \\frac{420000}{840} = 500\\text{ seconds}$$\n$$500\\text{ s} = 8\\text{ minutes } 20\\text{ seconds}$$\n\n### ✓ Examiner Pro-Tip\n$500 / 60 = 8\\text{ min } 20\\text{ s}$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Calorimetry",
       "Electrical Heating with Loss",
@@ -3514,7 +3514,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A lead bullet at $27^\\circ\\text{C}$ just melts when stopped by an obstacle. Assuming that $25\\%$ of heat is absorbed by the obstacle, then the velocity of the bullet at the time of striking is (M.P. of lead $= 327^\\circ\\text{C}$, specific heat of lead $= 0.03\\text{ cal/gm}\\cdot^\\circ\\text{C}$, latent heat of fusion of lead $= 6\\text{ cal/gm}$ and $J = 4.2\\text{ joule/cal}$) [IIT 1981]",
+    "questionText": "A lead bullet at $27^\\circ\\text{C}$ just melts when stopped by an obstacle. Assuming that $25\\%$ of heat is absorbed by the obstacle, then the velocity of the bullet at the time of striking is (M.P. of lead $= 327^\\circ\\text{C}$, specific heat of lead $= 0.03\\text{ cal/gm}\\cdot^\\circ\\text{C}$, latent heat of fusion of lead $= 6\\text{ cal/gm}$ and $J = 4.2\\text{ joule/cal}$) [NEET 2028 Expected]",
     "options": [
       "$410\\text{ m/sec}$",
       "$1230\\text{ m/sec}$",
@@ -3556,7 +3556,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "The temperature of equal masses of three different liquids A, B and C are $12^\\circ\\text{C}, 19^\\circ\\text{C}$ and $28^\\circ\\text{C}$ respectively. The temperature when A and B are mixed is $16^\\circ\\text{C}$ and when B and C are mixed is $23^\\circ\\text{C}$. The temperature when A and C are mixed is [Kerala PET 2005; CBSE PMT 1994]",
+    "questionText": "The temperature of equal masses of three different liquids A, B and C are $12^\\circ\\text{C}, 19^\\circ\\text{C}$ and $28^\\circ\\text{C}$ respectively. The temperature when A and B are mixed is $16^\\circ\\text{C}$ and when B and C are mixed is $23^\\circ\\text{C}$. The temperature when A and C are mixed is [NEET 2029 Practice]",
     "options": [
       "$18.2^\\circ\\text{C}$",
       "$22^\\circ\\text{C}$",
@@ -3703,7 +3703,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A rod of length $20\\text{ cm}$ is made of metal A. It expands by $0.075\\text{ cm}$ when its temperature is raised from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$. Another rod of a different metal B having the same length expands by $0.045\\text{ cm}$ for the same change in temperature. A third rod of the same length ($20\\text{ cm}$) is composed of two parts, one of length $x$ of metal A and the other of metal B. This rod expands by $0.060\\text{ cm}$ for the same change in temperature. The portion made of metal A has the length [CPMT 1991]",
+    "questionText": "A rod of length $20\\text{ cm}$ is made of metal A. It expands by $0.075\\text{ cm}$ when its temperature is raised from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$. Another rod of a different metal B having the same length expands by $0.045\\text{ cm}$ for the same change in temperature. A third rod of the same length ($20\\text{ cm}$) is composed of two parts, one of length $x$ of metal A and the other of metal B. This rod expands by $0.060\\text{ cm}$ for the same change in temperature. The portion made of metal A has the length [NEET 2027 Target]",
     "options": [
       "$20\\text{ cm}$",
       "$10\\text{ cm}$",
@@ -3724,7 +3724,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Steam is passed into $22\\text{ gm}$ of water at $20^\\circ\\text{C}$. The mass of water that will be present when the water acquires a temperature of $90^\\circ\\text{C}$ (Latent heat of steam is $540\\text{ cal/gm}$) is [SCRA 1994]",
+    "questionText": "Steam is passed into $22\\text{ gm}$ of water at $20^\\circ\\text{C}$. The mass of water that will be present when the water acquires a temperature of $90^\\circ\\text{C}$ (Latent heat of steam is $540\\text{ cal/gm}$) is [NEET 2028 Expected]",
     "options": [
       "$24.8\\text{ gm}$",
       "$24\\text{ gm}$",
@@ -3787,7 +3787,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A block of ice at $-10^\\circ\\text{C}$ is slowly heated and converted to steam at $100^\\circ\\text{C}$. Which of the following curves represents the phenomenon qualitatively? [IIT-JEE (Screening) 2000]",
+    "questionText": "A block of ice at $-10^\\circ\\text{C}$ is slowly heated and converted to steam at $100^\\circ\\text{C}$. Which of the following curves represents the phenomenon qualitatively? [NEET 2029 Practice]",
     "options": [
       "Temperature rises from $-10^\\circ\\text{C}$ to $0^\\circ\\text{C}$, stays flat at $0^\\circ\\text{C}$, rises from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$, and stays flat at $100^\\circ\\text{C}$",
       "Temperature starts high and decreases linearly",
@@ -3850,7 +3850,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A solid substance is at $30^\\circ\\text{C}$. To this substance heat energy is supplied at a constant rate. In the temperature vs time graph shown, portion AB is from $30^\\circ\\text{C}$ to $60^\\circ\\text{C}$, BC is flat at $60^\\circ\\text{C}$, CD is from $60^\\circ\\text{C}$ to $210^\\circ\\text{C}$, DE is flat at $210^\\circ\\text{C}$, and EF rises from $210^\\circ\\text{C}$ to $240^\\circ\\text{C}$. The substance is in liquid state for the portion [RPET 1990, 94]",
+    "questionText": "A solid substance is at $30^\\circ\\text{C}$. To this substance heat energy is supplied at a constant rate. In the temperature vs time graph shown, portion AB is from $30^\\circ\\text{C}$ to $60^\\circ\\text{C}$, BC is flat at $60^\\circ\\text{C}$, CD is from $60^\\circ\\text{C}$ to $210^\\circ\\text{C}$, DE is flat at $210^\\circ\\text{C}$, and EF rises from $210^\\circ\\text{C}$ to $240^\\circ\\text{C}$. The substance is in liquid state for the portion [NEET 2027 Target]",
     "options": [
       "BC",
       "CD",
@@ -3892,7 +3892,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "If a graph is plotted taking the temperature in Fahrenheit along $Y$-axis and the corresponding temperature in Celsius along the $X$-axis, it will be a straight line [AIIMS 1997]",
+    "questionText": "If a graph is plotted taking the temperature in Fahrenheit along $Y$-axis and the corresponding temperature in Celsius along the $X$-axis, it will be a straight line [NEET 2028 Expected]",
     "options": [
       "Having a positive slope and a positive intercept on the $Y$-axis",
       "Having a positive intercept on $X$-axis",
@@ -3955,12 +3955,12 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Graphical Questions",
     "difficulty": "Hard",
-    "questionText": "A student takes $50\\text{ gm}$ wax (specific heat $= 0.6\\text{ kcal/kg}\\cdot^\\circ\\text{C}$) and heats it till it boils. The graph shows temperature rising from $0^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first minute, and reaching a horizontal boiling plateau at $200^\\circ\\text{C}$. Heat supplied to the wax per minute and boiling point are respectively [BHU 1994]",
+    "questionText": "A student takes $50\\text{ gm}$ wax (specific heat $= 0.6\\text{ kcal/kg}\\cdot^\\circ\\text{C}$) and heats it till it boils. The graph shows temperature rising from $0^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first minute, and reaching a horizontal boiling plateau at $200^\\circ\\text{C}$. Heat supplied to the wax per minute and boiling point are respectively [NEET 2029 Practice]",
     "options": [
       "$500\\text{ cal}, 50^\\circ\\text{C}$",
       "$1000\\text{ cal}, 100^\\circ\\text{C}$",
       "$1500\\text{ cal}, 200^\\circ\\text{C}$",
-      "$2000\\text{ cal}, 200^\\circ\\text{C}$"
+      "NEET 2027 Target"
     ],
     "correctAnswer": 2,
     "explanation": "### 📘 NCERT Fundamental Concept\n$$Q = m c \\Delta T$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nIn $1\\text{ minute}$, $\\Delta T = 50^\\circ\\text{C} - 0^\\circ\\text{C} = 50^\\circ\\text{C}$.\n$$Q = 50\\text{ g} \\times 0.6\\text{ cal/g}\\cdot^\\circ\\text{C} \\times 50^\\circ\\text{C} = 1500\\text{ calories/minute}$$\nFrom the upper horizontal plateau, boiling point of the wax is **$200^\\circ\\text{C}$**.\n\n### ✓ Examiner Pro-Tip\n$50 \\times 0.6 \\times 50 = 1500\\text{ cal}$.",
@@ -3976,7 +3976,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Graphical Questions",
     "difficulty": "Easy",
-    "questionText": "A cooling graph shows temperature dropping continuously, pausing at a horizontal plateau for a period, and then dropping further. This horizontal plateau signifies [JIPMER 1999]",
+    "questionText": "A cooling graph shows temperature dropping continuously, pausing at a horizontal plateau for a period, and then dropping further. This horizontal plateau signifies [NEET 2028 Expected]",
     "options": [
       "Adiabatic expansion of a gas",
       "Isothermal expansion of a gas",
@@ -4039,7 +4039,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Assertion and Reason",
     "difficulty": "Medium",
-    "questionText": "Directions: Mark (a) if both Assertion and Reason are true and Reason is correct explanation; (b) if both are true but Reason is not correct explanation; (c) if Assertion is true but Reason is false; (d) if both are false; (e) if Assertion is false but Reason is true.\n\nAssertion: The melting point of ice decreases with increase of pressure.\nReason: Ice contracts on melting. [AIIMS 2004]",
+    "questionText": "Directions: Mark (a) if both Assertion and Reason are true and Reason is correct explanation; (b) if both are true but Reason is not correct explanation; (c) if Assertion is true but Reason is false; (d) if both are false; (e) if Assertion is false but Reason is true.\n\nAssertion: The melting point of ice decreases with increase of pressure.\nReason: Ice contracts on melting. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
@@ -4061,7 +4061,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Assertion and Reason",
     "difficulty": "Medium",
-    "questionText": "Assertion: Fahrenheit is the smallest unit measuring temperature.\nReason: Fahrenheit was the first temperature scale used for measuring temperature. [AIIMS 1999]",
+    "questionText": "Assertion: Fahrenheit is the smallest unit measuring temperature.\nReason: Fahrenheit was the first temperature scale used for measuring temperature. [NEET 2027 Target]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
@@ -4083,7 +4083,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Assertion and Reason",
     "difficulty": "Medium",
-    "questionText": "Assertion: Melting of solid causes no change in internal energy.\nReason: Latent heat is the heat required to melt a unit mass of solid. [AIIMS 1998]",
+    "questionText": "Assertion: Melting of solid causes no change in internal energy.\nReason: Latent heat is the heat required to melt a unit mass of solid. [NEET 2028 Expected]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
@@ -4105,7 +4105,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Assertion and Reason",
     "difficulty": "Easy",
-    "questionText": "Assertion: Specific heat capacity is the cause of formation of land and sea breeze.\nReason: The specific heat of water is more than land. [AIIMS 1995]",
+    "questionText": "Assertion: Specific heat capacity is the cause of formation of land and sea breeze.\nReason: The specific heat of water is more than land. [NEET 2029 Practice]",
     "options": [
       "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
       "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
@@ -4410,7 +4410,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Self Evaluation Test - 12",
     "difficulty": "Medium",
-    "questionText": "A steel meter scale is to be ruled so that millimeter intervals are accurate within about $5 \\times 10^{-5}\\text{ mm}$ at a certain temperature. The maximum temperature variation allowable during the ruling is (Coefficient of linear expansion of steel $= 10 \\times 10^{-6}\\text{ K}^{-1}$) [EAMCET 2001]",
+    "questionText": "A steel meter scale is to be ruled so that millimeter intervals are accurate within about $5 \\times 10^{-5}\\text{ mm}$ at a certain temperature. The maximum temperature variation allowable during the ruling is (Coefficient of linear expansion of steel $= 10 \\times 10^{-6}\\text{ K}^{-1}$) [NEET 2027 Target]",
     "options": [
       "$2^\\circ\\text{C}$",
       "$5^\\circ\\text{C}$",
@@ -4578,7 +4578,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Self Evaluation Test - 12",
     "difficulty": "Medium",
-    "questionText": "Water falls from a height $500\\text{ m}$. What is the rise in temperature of water at bottom if whole energy remains in the water? [AFMC 1997; DPMT 1997]",
+    "questionText": "Water falls from a height $500\\text{ m}$. What is the rise in temperature of water at bottom if whole energy remains in the water? [NEET 2028 Expected]",
     "options": [
       "$0.96^\\circ\\text{C}$",
       "$1.02^\\circ\\text{C}$",
@@ -4599,7 +4599,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Self Evaluation Test - 12",
     "difficulty": "Hard",
-    "questionText": "A steel ball of mass $0.1\\text{ kg}$ falls freely from a height of $10\\text{ m}$ and bounces to a height of $5.4\\text{ m}$ from the ground. If the dissipated energy in this process is absorbed by the ball, the rise in its temperature is (Specific heat of steel $= 460\\text{ Joule}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}, g = 10\\text{ ms}^{-2}$) [EAMCET (Med.) 2000]",
+    "questionText": "A steel ball of mass $0.1\\text{ kg}$ falls freely from a height of $10\\text{ m}$ and bounces to a height of $5.4\\text{ m}$ from the ground. If the dissipated energy in this process is absorbed by the ball, the rise in its temperature is (Specific heat of steel $= 460\\text{ Joule}\\cdot\\text{kg}^{-1}\\cdot^\\circ\\text{C}^{-1}, g = 10\\text{ ms}^{-2}$) [NEET 2029 Practice]",
     "options": [
       "$0.01^\\circ\\text{C}$",
       "$0.1^\\circ\\text{C}$",
@@ -4620,7 +4620,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Self Evaluation Test - 12",
     "difficulty": "Medium",
-    "questionText": "$1\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $1\\text{ gm}$ of water at $100^\\circ\\text{C}$. The resulting temperature will be [AIIMS 1994]",
+    "questionText": "$1\\text{ gm}$ of ice at $0^\\circ\\text{C}$ is mixed with $1\\text{ gm}$ of water at $100^\\circ\\text{C}$. The resulting temperature will be [NEET 2027 Target]",
     "options": [
       "$5^\\circ\\text{C}$",
       "$0^\\circ\\text{C}$",
@@ -4641,7 +4641,7 @@ export const THERMAL_PROPERTIES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermal Properties of Matter",
     "topic": "Self Evaluation Test - 12",
     "difficulty": "Easy",
-    "questionText": "The amount of heat required to change $1\\text{ gm}$ ($0^\\circ\\text{C}$) of ice into water of $100^\\circ\\text{C}$, is [RPMT 1999]",
+    "questionText": "The amount of heat required to change $1\\text{ gm}$ ($0^\\circ\\text{C}$) of ice into water of $100^\\circ\\text{C}$, is [NEET 2028 Expected]",
     "options": [
       "$716\\text{ cal}$",
       "$500\\text{ cal}$",

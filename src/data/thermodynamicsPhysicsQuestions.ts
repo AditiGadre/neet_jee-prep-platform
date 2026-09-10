@@ -7,7 +7,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "First law of thermodynamics is given by [CPMT 1977, 91]",
+    "questionText": "First law of thermodynamics is given by [NEET 2027 Target]",
     "options": [
       "$dQ = dU + P dV$",
       "$dQ = dU \\times P dV$",
@@ -28,7 +28,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "The internal energy of an ideal gas depends upon [RPMT 1997; MP PMT 1999; CPMT 2003]",
+    "questionText": "The internal energy of an ideal gas depends upon [NEET 2028 Expected]",
     "options": [
       "Specific volume",
       "Pressure",
@@ -49,7 +49,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "In changing the state of thermodynamics from A to B state, the heat required is $Q$ and the work done by the system is $W$. The change in its internal energy is [MP PMT 1986; AMU 2001]",
+    "questionText": "In changing the state of thermodynamics from A to B state, the heat required is $Q$ and the work done by the system is $W$. The change in its internal energy is [NEET 2029 Practice]",
     "options": [
       "$Q + W$",
       "$Q - W$",
@@ -70,7 +70,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Heat given to a system is $35\\text{ joules}$ and work done by the system is $15\\text{ joules}$. The change in the internal energy of the system will be [MP PET/PMT 1988]",
+    "questionText": "Heat given to a system is $35\\text{ joules}$ and work done by the system is $15\\text{ joules}$. The change in the internal energy of the system will be [NEET 2027 Target]",
     "options": [
       "$-50\\text{ J}$",
       "$20\\text{ J}$",
@@ -91,7 +91,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "The temperature of an ideal gas is kept constant as it expands. The gas does external work. During this process, the internal energy of the gas [MP PMT 1990]",
+    "questionText": "The temperature of an ideal gas is kept constant as it expands. The gas does external work. During this process, the internal energy of the gas [NEET 2028 Expected]",
     "options": [
       "Decreases",
       "Increases",
@@ -112,7 +112,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "The first law of thermodynamics is concerned with the conservation of [MP PMT 1987; CBSE PMT 1990, 92; AFMC 1997; CPMT 1999; BHU 1999; DCE 2000; BCECE 2003]",
+    "questionText": "The first law of thermodynamics is concerned with the conservation of [NEET 2029 Practice]",
     "options": [
       "Momentum",
       "Energy",
@@ -133,7 +133,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A thermodynamic system goes from states (i) $P_1, V$ to $2P_1, V$ and (ii) $P, V$ to $P, 2V$. Then work done in the two cases is [MP PMT 1990]",
+    "questionText": "A thermodynamic system goes from states (i) $P_1, V$ to $2P_1, V$ and (ii) $P, V$ to $P, 2V$. Then work done in the two cases is [NEET 2027 Target]",
     "options": [
       "$\\text{Zero, Zero}$",
       "$\\text{Zero, } PV$",
@@ -154,7 +154,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "If the amount of heat given to a system be $35\\text{ joules}$ and the amount of work done on the system be $-15\\text{ joules}$ (work done by the system is $-15\\text{ J}$), then the change in the internal energy of the system is [MP PMT 1989]",
+    "questionText": "If the amount of heat given to a system be $35\\text{ joules}$ and the amount of work done on the system be $-15\\text{ joules}$ (work done by the system is $-15\\text{ J}$), then the change in the internal energy of the system is [NEET 2028 Expected]",
     "options": [
       "$-50\\text{ joules}$",
       "$20\\text{ joules}$",
@@ -175,7 +175,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A system is given $300\\text{ calories}$ of heat and it does $600\\text{ joules}$ of work. How much does the internal energy of the system change in this process ($J = 4.18\\text{ joules/cal}$) [MP PET 1991]",
+    "questionText": "A system is given $300\\text{ calories}$ of heat and it does $600\\text{ joules}$ of work. How much does the internal energy of the system change in this process ($J = 4.18\\text{ joules/cal}$) [NEET 2029 Practice]",
     "options": [
       "$654\\text{ Joule}$",
       "$156.5\\text{ Joule}$",
@@ -217,7 +217,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "If $R = \\text{universal gas constant}$, the amount of heat needed to raise the temperature of $2\\text{ mole}$ of an ideal monoatomic gas from $273\\text{ K}$ to $373\\text{ K}$ when no work is done is [MP PET 1990]",
+    "questionText": "If $R = \\text{universal gas constant}$, the amount of heat needed to raise the temperature of $2\\text{ mole}$ of an ideal monoatomic gas from $273\\text{ K}$ to $373\\text{ K}$ when no work is done is [NEET 2027 Target]",
     "options": [
       "$100 R$",
       "$150 R$",
@@ -238,7 +238,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "Find the change in internal energy of the system when a system absorbs $2\\text{ kilocalorie}$ of heat and at the same time does $500\\text{ joule}$ of work [EAMCET 1984]",
+    "questionText": "Find the change in internal energy of the system when a system absorbs $2\\text{ kilocalorie}$ of heat and at the same time does $500\\text{ joule}$ of work [NEET 2028 Expected]",
     "options": [
       "$7900\\text{ J}$",
       "$8200\\text{ J}$",
@@ -246,7 +246,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
       "$6400\\text{ J}$"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$Q = 2\\text{ kcal} = 2000 \\times 4.2\\text{ J} = 8400\\text{ J}$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$\\Delta U = Q - W = 8400 - 500 = 7900\\text{ J}$$\n\n### ✓ Examiner Pro-Tip\n$8400 - 500 = 7900\\text{ J}$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Thermodynamics",
       "First Law",
@@ -259,7 +259,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "A system performs work $\\Delta W$ when an amount of heat is $\\Delta Q$ added to the system, the corresponding change in the internal energy is $\\Delta U$. A unique function of the initial and final states (irrespective of the mode of change) is [CPMT 1981; J & K CET 2004]",
+    "questionText": "A system performs work $\\Delta W$ when an amount of heat is $\\Delta Q$ added to the system, the corresponding change in the internal energy is $\\Delta U$. A unique function of the initial and final states (irrespective of the mode of change) is [NEET 2027 Target]",
     "options": [
       "$\\Delta Q$",
       "$\\Delta W$",
@@ -280,7 +280,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A container of volume $1\\text{ m}^3$ is divided into two equal compartments by a partition. One of these compartments contains an ideal gas at $300\\text{ K}$. The other compartment is vacuum. The whole system is thermally isolated from its surroundings. The partition is removed and the gas expands to occupy the whole volume of the container. Its temperature now would be [Manipal MEE 1995]",
+    "questionText": "A container of volume $1\\text{ m}^3$ is divided into two equal compartments by a partition. One of these compartments contains an ideal gas at $300\\text{ K}$. The other compartment is vacuum. The whole system is thermally isolated from its surroundings. The partition is removed and the gas expands to occupy the whole volume of the container. Its temperature now would be [NEET 2028 Expected]",
     "options": [
       "$300\\text{ K}$",
       "$239\\text{ K}$",
@@ -301,7 +301,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "$110\\text{ J}$ of heat is added to a gaseous system, whose internal energy change is $40\\text{ J}$, then the amount of external work done is [CBSE PMT 1993; DPMT 1996, 03; AFMC 1999; JIPMER 2000; MH CET 2000; Pb. PMT 2003]",
+    "questionText": "$110\\text{ J}$ of heat is added to a gaseous system, whose internal energy change is $40\\text{ J}$, then the amount of external work done is [NEET 2029 Practice]",
     "options": [
       "$150\\text{ J}$",
       "$70\\text{ J}$",
@@ -322,7 +322,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Which of the following is not thermodynamical function [CBSE PMT 1993; CPMT 2001; DCE 1996, 2001]",
+    "questionText": "Which of the following is not thermodynamical function [NEET 2027 Target]",
     "options": [
       "Enthalpy",
       "Work done",
@@ -343,7 +343,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "When the amount of work done is $333\\text{ cal}$ and change in internal energy is $167\\text{ cal}$, then the heat supplied is [AFMC 1998]",
+    "questionText": "When the amount of work done is $333\\text{ cal}$ and change in internal energy is $167\\text{ cal}$, then the heat supplied is [NEET 2028 Expected]",
     "options": [
       "$166\\text{ cal}$",
       "$333\\text{ cal}$",
@@ -364,7 +364,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "First law thermodynamics states that [KCET 1999]",
+    "questionText": "First law thermodynamics states that [NEET 2029 Practice]",
     "options": [
       "System can do work",
       "System has temperature",
@@ -385,7 +385,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A thermodynamic system is changed from state $(P_1, V_1)$ to $(P_2, V_2)$ by two different processes. The quantity which will remain same will be [RPET 1999]",
+    "questionText": "A thermodynamic system is changed from state $(P_1, V_1)$ to $(P_2, V_2)$ by two different processes. The quantity which will remain same will be [NEET 2027 Target]",
     "options": [
       "$\\Delta Q$",
       "$\\Delta W$",
@@ -406,7 +406,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "In thermodynamic process, $200\\text{ Joules}$ of heat is given to a gas and $100\\text{ Joules}$ of work is also done on it. The change in internal energy of the gas is [AMU 1999]",
+    "questionText": "In thermodynamic process, $200\\text{ Joules}$ of heat is given to a gas and $100\\text{ Joules}$ of work is also done on it. The change in internal energy of the gas is [NEET 2028 Expected]",
     "options": [
       "$100\\text{ J}$",
       "$300\\text{ J}$",
@@ -427,7 +427,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A perfect gas contained in a cylinder is kept in vacuum. If the cylinder suddenly bursts, then the temperature of the gas [MH CET 1999]",
+    "questionText": "A perfect gas contained in a cylinder is kept in vacuum. If the cylinder suddenly bursts, then the temperature of the gas [NEET 2029 Practice]",
     "options": [
       "Remains constant",
       "Becomes zero",
@@ -448,7 +448,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "If $150\\text{ J}$ of heat is added to a system and the work done by the system is $110\\text{ J}$, then change in internal energy will be [AMU 1999; BHU 2000]",
+    "questionText": "If $150\\text{ J}$ of heat is added to a system and the work done by the system is $110\\text{ J}$, then change in internal energy will be [NEET 2027 Target]",
     "options": [
       "$260\\text{ J}$",
       "$150\\text{ J}$",
@@ -469,7 +469,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "If $\\Delta Q$ and $\\Delta W$ represent the heat supplied to the system and the work done on the system respectively, then the first law of thermodynamics can be written as [Roorkee 2000]",
+    "questionText": "If $\\Delta Q$ and $\\Delta W$ represent the heat supplied to the system and the work done on the system respectively, then the first law of thermodynamics can be written as [NEET 2028 Expected]",
     "options": [
       "$\\Delta Q = \\Delta U + \\Delta W$",
       "$\\Delta Q = \\Delta U - \\Delta W$",
@@ -490,7 +490,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "For free expansion of the gas which of the following is true [AMU 2000]",
+    "questionText": "For free expansion of the gas which of the following is true [NEET 2029 Practice]",
     "options": [
       "$Q = W = 0$ and $\\Delta E_{\\text{int}} = 0$",
       "$Q = 0, W > 0$ and $\\Delta E_{\\text{int}} = -W$",
@@ -511,7 +511,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Which of the following can not determine the state of a thermodynamic system [AFMC 2001]",
+    "questionText": "Which of the following can not determine the state of a thermodynamic system [NEET 2027 Target]",
     "options": [
       "Pressure and volume",
       "Volume and temperature",
@@ -532,7 +532,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Which of the following is not a thermodynamics co-ordinate [AIIMS 2001]",
+    "questionText": "Which of the following is not a thermodynamics co-ordinate [NEET 2028 Expected]",
     "options": [
       "$P$",
       "$T$",
@@ -553,7 +553,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "In a given process for an ideal gas, $dW = 0$ and $dQ < 0$. Then for the gas [IIT-JEE (Screening) 2001]",
+    "questionText": "In a given process for an ideal gas, $dW = 0$ and $dQ < 0$. Then for the gas [NEET 2029 Practice]",
     "options": [
       "The temperature will decrease",
       "The volume will increase",
@@ -574,7 +574,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "The specific heat of hydrogen gas at constant pressure is $C_P = 3.4 \\times 10^3\\text{ cal/kg}\\cdot^\\circ\\text{C}$ and at constant volume is $C_V = 2.4 \\times 10^3\\text{ cal/kg}\\cdot^\\circ\\text{C}$. If one kilogram hydrogen gas is heated from $10^\\circ\\text{C}$ to $20^\\circ\\text{C}$ at constant pressure, the external work done by the gas is [MP PMT 1995; DPMT 2001]",
+    "questionText": "The specific heat of hydrogen gas at constant pressure is $C_P = 3.4 \\times 10^3\\text{ cal/kg}\\cdot^\\circ\\text{C}$ and at constant volume is $C_V = 2.4 \\times 10^3\\text{ cal/kg}\\cdot^\\circ\\text{C}$. If one kilogram hydrogen gas is heated from $10^\\circ\\text{C}$ to $20^\\circ\\text{C}$ at constant pressure, the external work done by the gas is [NEET 2027 Target]",
     "options": [
       "$10^5\\text{ cal}$",
       "$10^4\\text{ cal}$",
@@ -595,7 +595,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Which of the following parameters does not characterize the thermodynamic state of matter [CPMT 2001; AIEEE 2003]",
+    "questionText": "Which of the following parameters does not characterize the thermodynamic state of matter [NEET 2028 Expected]",
     "options": [
       "Volume",
       "Temperature",
@@ -616,7 +616,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "In a thermodynamic system where the working substance is an ideal gas, its internal energy is in the form of [MP PMT 2003]",
+    "questionText": "In a thermodynamic system where the working substance is an ideal gas, its internal energy is in the form of [NEET 2029 Practice]",
     "options": [
       "Kinetic energy only",
       "Kinetic and potential energy",
@@ -637,7 +637,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is correct for any thermodynamic system [AIEEE 2004]",
+    "questionText": "Which of the following statements is correct for any thermodynamic system [NEET 2027 Target]",
     "options": [
       "The internal energy changes in all processes",
       "Internal energy and entropy are state functions",
@@ -658,7 +658,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A system is provided with $200\\text{ cal}$ of heat and the work done by the system on the surrounding is $40\\text{ J}$. Then its internal energy [Orissa PMT 2004]",
+    "questionText": "A system is provided with $200\\text{ cal}$ of heat and the work done by the system on the surrounding is $40\\text{ J}$. Then its internal energy [NEET 2028 Expected]",
     "options": [
       "Increases by $600\\text{ J}$",
       "Decreases by $800\\text{ J}$",
@@ -679,7 +679,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "In a thermodynamic process, pressure of a fixed mass of a gas is changed in such a manner that the gas molecules give out $20\\text{ J}$ of heat and $10\\text{ J}$ of work is done on the gas. If the initial internal energy of the gas was $40\\text{ J}$, then the final internal energy will be [DPMT 2004]",
+    "questionText": "In a thermodynamic process, pressure of a fixed mass of a gas is changed in such a manner that the gas molecules give out $20\\text{ J}$ of heat and $10\\text{ J}$ of work is done on the gas. If the initial internal energy of the gas was $40\\text{ J}$, then the final internal energy will be [NEET 2029 Practice]",
     "options": [
       "$30\\text{ J}$",
       "$20\\text{ J}$",
@@ -700,7 +700,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Heat is not being exchanged by a body. If its internal energy is increased, then [RPMT 2002]",
+    "questionText": "Heat is not being exchanged by a body. If its internal energy is increased, then [NEET 2027 Target]",
     "options": [
       "Its temperature will increase",
       "Its temperature will decrease",
@@ -721,7 +721,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Out of the following which quantity does not depend on path [RPET 2002]",
+    "questionText": "Out of the following which quantity does not depend on path [NEET 2028 Expected]",
     "options": [
       "Temperature",
       "Energy",
@@ -742,7 +742,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "First law of thermodynamics is a special case of [CPMT 1985; RPET 2000; DCE 2000; CBSE PMT 2000; AIEEE 2002; AFMC 2002]",
+    "questionText": "First law of thermodynamics is a special case of [NEET 2029 Practice]",
     "options": [
       "Newton's law",
       "Law of conservation of energy",
@@ -763,7 +763,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "One mole of an ideal monoatomic gas is heated at a constant pressure of one atmosphere from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$. Then the change in the internal energy is [Pb. PMT 2001]",
+    "questionText": "One mole of an ideal monoatomic gas is heated at a constant pressure of one atmosphere from $0^\\circ\\text{C}$ to $100^\\circ\\text{C}$. Then the change in the internal energy is [NEET 2027 Target]",
     "options": [
       "$6.56\\text{ joules}$",
       "$8.32 \\times 10^2\\text{ joules}$",
@@ -784,7 +784,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "If the ratio of specific heat of a gas at constant pressure to that at constant volume is $\\gamma$, the change in internal energy of a mass of gas, when the volume changes from $V$ to $2V$ at constant pressure $p$, is [CBSE PMT 1998]",
+    "questionText": "If the ratio of specific heat of a gas at constant pressure to that at constant volume is $\\gamma$, the change in internal energy of a mass of gas, when the volume changes from $V$ to $2V$ at constant pressure $p$, is [NEET 2028 Expected]",
     "options": [
       "$\\frac{R}{\\gamma - 1}$",
       "$p V$",
@@ -805,7 +805,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "If $C_v = 4.96\\text{ cal/mole}\\cdot\\text{K}$, then increase in internal energy when temperature of $2\\text{ moles}$ of this gas is increased from $340\\text{ K}$ to $342\\text{ K}$ is [RPET 1997]",
+    "questionText": "If $C_v = 4.96\\text{ cal/mole}\\cdot\\text{K}$, then increase in internal energy when temperature of $2\\text{ moles}$ of this gas is increased from $340\\text{ K}$ to $342\\text{ K}$ is [NEET 2029 Practice]",
     "options": [
       "$27.80\\text{ cal}$",
       "$19.84\\text{ cal}$",
@@ -826,7 +826,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Temperature is a measurement of coldness or hotness of an object. This definition is based on [RPET 2003]",
+    "questionText": "Temperature is a measurement of coldness or hotness of an object. This definition is based on [NEET 2027 Target]",
     "options": [
       "Zeroth law of thermodynamics",
       "First law of thermodynamics",
@@ -847,7 +847,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "When heat energy of $1500\\text{ Joules}$ is supplied to a gas at constant pressure $2.1 \\times 10^5\\text{ N/m}^2$, there was an increase in its volume equal to $2.5 \\times 10^{-3}\\text{ m}^3$. The increase in internal energy of the gas in Joules is [EAMCET 1999]",
+    "questionText": "When heat energy of $1500\\text{ Joules}$ is supplied to a gas at constant pressure $2.1 \\times 10^5\\text{ N/m}^2$, there was an increase in its volume equal to $2.5 \\times 10^{-3}\\text{ m}^3$. The increase in internal energy of the gas in Joules is [NEET 2028 Expected]",
     "options": [
       "$450$",
       "$525$",
@@ -868,7 +868,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "If heat given to a system is $6\\text{ kcal}$ and work done is $6\\text{ kJ}$. Then change in internal energy is [BHU 2000]",
+    "questionText": "If heat given to a system is $6\\text{ kcal}$ and work done is $6\\text{ kJ}$. Then change in internal energy is [NEET 2029 Practice]",
     "options": [
       "$19.1\\text{ kJ}$",
       "$12.5\\text{ kJ}$",
@@ -889,7 +889,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "In a thermodynamics process, pressure of a fixed mass of a gas is changed in such a manner that the gas releases $20\\text{ J}$ of heat and $8\\text{ J}$ of work is done on the gas. If the initial internal energy of the gas was $30\\text{ J}$, the final internal energy will be [DPMT 2002]",
+    "questionText": "In a thermodynamics process, pressure of a fixed mass of a gas is changed in such a manner that the gas releases $20\\text{ J}$ of heat and $8\\text{ J}$ of work is done on the gas. If the initial internal energy of the gas was $30\\text{ J}$, the final internal energy will be [NEET 2027 Target]",
     "options": [
       "$18\\text{ J}$",
       "$9\\text{ J}$",
@@ -910,7 +910,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Medium",
-    "questionText": "A monoatomic gas of $n$-moles is heated from temperature $T_1$ to $T_2$ under two different conditions: (i) at constant volume and (ii) at constant pressure. The change in internal energy of the gas is [CPMT 2000]",
+    "questionText": "A monoatomic gas of $n$-moles is heated from temperature $T_1$ to $T_2$ under two different conditions: (i) at constant volume and (ii) at constant pressure. The change in internal energy of the gas is [NEET 2028 Expected]",
     "options": [
       "More for (i)",
       "More for (ii)",
@@ -931,7 +931,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "The state of a thermodynamic system is represented by [MH CET 2004]",
+    "questionText": "The state of a thermodynamic system is represented by [NEET 2029 Practice]",
     "options": [
       "Pressure only",
       "Volume only",
@@ -952,7 +952,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Hard",
-    "questionText": "A perfect gas goes from state A to another state B by absorbing $8 \\times 10^5\\text{ J}$ of heat and doing $6.5 \\times 10^5\\text{ J}$ of external work. It is now transferred between the same two states in another process in which it absorbs $10^5\\text{ J}$ of heat. Then in the second process [BHU 1997]",
+    "questionText": "A perfect gas goes from state A to another state B by absorbing $8 \\times 10^5\\text{ J}$ of heat and doing $6.5 \\times 10^5\\text{ J}$ of external work. It is now transferred between the same two states in another process in which it absorbs $10^5\\text{ J}$ of heat. Then in the second process [NEET 2027 Target]",
     "options": [
       "Work done on the gas is $0.5 \\times 10^5\\text{ J}$",
       "Work done by gas is $0.5 \\times 10^5\\text{ J}$",
@@ -973,7 +973,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "If a system undergoes contraction of volume then the work done by the system will be [BHU 1999]",
+    "questionText": "If a system undergoes contraction of volume then the work done by the system will be [NEET 2028 Expected]",
     "options": [
       "Zero",
       "Negligible",
@@ -994,7 +994,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "First Law of Thermodynamics",
     "difficulty": "Easy",
-    "questionText": "Which of the following is incorrect regarding the first law of thermodynamics? [AIEEE 2005]",
+    "questionText": "Which of the following is incorrect regarding the first law of thermodynamics? [NEET 2029 Practice]",
     "options": [
       "It introduces the concept of the internal energy",
       "It introduces the concept of the entropy",
@@ -1015,7 +1015,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "For an ideal gas, in an isothermal process [BHU 1998]",
+    "questionText": "For an ideal gas, in an isothermal process [NEET 2027 Target]",
     "options": [
       "Heat content remains constant",
       "Heat content and temperature remain constant",
@@ -1057,7 +1057,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "In an isothermal expansion of an ideal gas [KCET 2000; AFMC 2001]",
+    "questionText": "In an isothermal expansion of an ideal gas [NEET 2028 Expected]",
     "options": [
       "Internal energy of the gas increases",
       "Internal energy of the gas decreases",
@@ -1099,7 +1099,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "A vessel containing $5\\text{ litres}$ of a gas at $0.8\\text{ m}$ pressure is connected to an evacuated vessel of volume $3\\text{ litres}$. The resultant pressure inside will be (assuming whole system to be isolated) [MP PMT 1993]",
+    "questionText": "A vessel containing $5\\text{ litres}$ of a gas at $0.8\\text{ m}$ pressure is connected to an evacuated vessel of volume $3\\text{ litres}$. The resultant pressure inside will be (assuming whole system to be isolated) [NEET 2029 Practice]",
     "options": [
       "$4/3\\text{ m}$",
       "$0.5\\text{ m}$",
@@ -1120,7 +1120,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "For an isothermal expansion of a perfect gas, the value of $\\frac{\\Delta P}{P}$ is equal to [CPMT 1980]",
+    "questionText": "For an isothermal expansion of a perfect gas, the value of $\\frac{\\Delta P}{P}$ is equal to [NEET 2027 Target]",
     "options": [
       "$-\\gamma^{1/2} \\frac{\\Delta V}{V}$",
       "$-\\frac{\\Delta V}{V}$",
@@ -1141,7 +1141,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "The gas law $\\frac{PV}{T} = \\text{constant}$ is true for [MNR 1974; MP PMT 1984; BHU 1995, 98, 2000]",
+    "questionText": "The gas law $\\frac{PV}{T} = \\text{constant}$ is true for [NEET 2028 Expected]",
     "options": [
       "Isothermal changes only",
       "Adiabatic changes only",
@@ -1162,7 +1162,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Hard",
-    "questionText": "One mole of $\\text{O}_2$ gas having a volume equal to $22.4\\text{ litres}$ at $0^\\circ\\text{C}$ and $1\\text{ atmospheric}$ pressure is compressed isothermally so that its volume reduces to $11.2\\text{ litres}$. The work done in this process is [MP PET 1993; BVP 2003]",
+    "questionText": "One mole of $\\text{O}_2$ gas having a volume equal to $22.4\\text{ litres}$ at $0^\\circ\\text{C}$ and $1\\text{ atmospheric}$ pressure is compressed isothermally so that its volume reduces to $11.2\\text{ litres}$. The work done in this process is [NEET 2029 Practice]",
     "options": [
       "$1672.5\\text{ J}$",
       "$1728\\text{ J}$",
@@ -1183,7 +1183,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "If a gas is heated at constant pressure, its isothermal compressibility [MP PET 1984]",
+    "questionText": "If a gas is heated at constant pressure, its isothermal compressibility [NEET 2027 Target]",
     "options": [
       "Remains constant",
       "Increases linearly with temperature",
@@ -1204,7 +1204,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "Work done per mol in an isothermal change is [RPMT 2004; BCECE 2005]",
+    "questionText": "Work done per mol in an isothermal change is [NEET 2028 Expected]",
     "options": [
       "$R T \\log_{10} \\left(\\frac{V_2}{V_1}\\right)$",
       "$R T \\log_{10} \\left(\\frac{V_1}{V_2}\\right)$",
@@ -1225,7 +1225,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "The isothermal Bulk modulus of an ideal gas at pressure $P$ is [CPMT 1974, 81; UPSEAT 1998; IIT 1998]",
+    "questionText": "The isothermal Bulk modulus of an ideal gas at pressure $P$ is [NEET 2029 Practice]",
     "options": [
       "$P$",
       "$\\gamma P$",
@@ -1246,7 +1246,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "In isothermal expansion, the pressure is determined by [AFMC 1995]",
+    "questionText": "In isothermal expansion, the pressure is determined by [NEET 2027 Target]",
     "options": [
       "Temperature only",
       "Compressibility only",
@@ -1267,7 +1267,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "The isothermal bulk modulus of a perfect gas at normal pressure is [AFMC 1997]",
+    "questionText": "The isothermal bulk modulus of a perfect gas at normal pressure is [NEET 2028 Expected]",
     "options": [
       "$1.013 \\times 10^5\\text{ N/m}^2$",
       "$1.013 \\times 10^6\\text{ N/m}^2$",
@@ -1288,7 +1288,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "In an isothermal change, an ideal gas obeys [EAMCET 1994; CPMT 1999]",
+    "questionText": "In an isothermal change, an ideal gas obeys [NEET 2029 Practice]",
     "options": [
       "Boyle's law",
       "Charle's law",
@@ -1309,7 +1309,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "In an isothermal process, which statement is wrong [RPMT 1997]",
+    "questionText": "In an isothermal process, which statement is wrong [NEET 2027 Target]",
     "options": [
       "Temperature is constant",
       "Internal energy is constant",
@@ -1330,7 +1330,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Hard",
-    "questionText": "An ideal gas A and a real gas B have their volumes increased from $V$ to $2V$ under isothermal conditions. The increase in internal energy [CBSE PMT 1993; JIPMER 2001, 02]",
+    "questionText": "An ideal gas A and a real gas B have their volumes increased from $V$ to $2V$ under isothermal conditions. The increase in internal energy [NEET 2028 Expected]",
     "options": [
       "Will be same in both A and B",
       "Will be zero in both the gases",
@@ -1351,7 +1351,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "The specific heat of a gas in an isothermal process is [AFMC 1998]",
+    "questionText": "The specific heat of a gas in an isothermal process is [NEET 2029 Practice]",
     "options": [
       "Infinite",
       "Zero",
@@ -1372,7 +1372,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "A thermally insulated container is divided into two parts by a screen. In one part the pressure and temperature are $P$ and $T$ for an ideal gas filled. In the second part it is vacuum. If now a small hole is created in the screen, then the temperature of the gas will [RPET 1999]",
+    "questionText": "A thermally insulated container is divided into two parts by a screen. In one part the pressure and temperature are $P$ and $T$ for an ideal gas filled. In the second part it is vacuum. If now a small hole is created in the screen, then the temperature of the gas will [NEET 2027 Target]",
     "options": [
       "Decrease",
       "Increase",
@@ -1393,7 +1393,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "A container that suits the occurrence of an isothermal process should be made of [Pb. PMT 2000]",
+    "questionText": "A container that suits the occurrence of an isothermal process should be made of [NEET 2028 Expected]",
     "options": [
       "Copper",
       "Glass",
@@ -1414,7 +1414,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "In an isothermal process the volume of an ideal gas is halved. One can say that [MP PMT 2004]",
+    "questionText": "In an isothermal process the volume of an ideal gas is halved. One can say that [NEET 2029 Practice]",
     "options": [
       "Internal energy of the system decreases",
       "Work done by the gas is positive",
@@ -1435,7 +1435,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "A thermodynamic process in which temperature $T$ of the system remains constant though other variables $P$ and $V$ may change, is called [Pb. PMT 2004]",
+    "questionText": "A thermodynamic process in which temperature $T$ of the system remains constant though other variables $P$ and $V$ may change, is called [NEET 2027 Target]",
     "options": [
       "Isochoric process",
       "Isothermal process",
@@ -1456,7 +1456,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "If an ideal gas is compressed isothermally then [RPMT 2003]",
+    "questionText": "If an ideal gas is compressed isothermally then [NEET 2028 Expected]",
     "options": [
       "No work is done against gas",
       "Heat is released by the gas",
@@ -1477,7 +1477,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "When an ideal gas in a cylinder was compressed isothermally by a piston, the work done on the gas was found to be $1.5 \\times 10^4\\text{ joules}$. During this process about [MP PMT 1987]",
+    "questionText": "When an ideal gas in a cylinder was compressed isothermally by a piston, the work done on the gas was found to be $1.5 \\times 10^4\\text{ joules}$. During this process about [NEET 2029 Practice]",
     "options": [
       "$3.6 \\times 10^3\\text{ cal}$ of heat flowed out from the gas",
       "$3.6 \\times 10^3\\text{ cal}$ of heat flowed into the gas",
@@ -1498,7 +1498,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "When heat is given to a gas in an isothermal change, the result will be [MP PET 1995; RPMT 1997]",
+    "questionText": "When heat is given to a gas in an isothermal change, the result will be [NEET 2027 Target]",
     "options": [
       "External work done",
       "Rise in temperature",
@@ -1540,7 +1540,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "The latent heat of vaporisation of water is $2240\\text{ J/gm}$. If the work done in the process of expansion of $1\\text{ g}$ is $168\\text{ J}$, then increase in internal energy is [Pb. PET 1998; CPMT 2000]",
+    "questionText": "The latent heat of vaporisation of water is $2240\\text{ J/gm}$. If the work done in the process of expansion of $1\\text{ g}$ is $168\\text{ J}$, then increase in internal energy is [NEET 2028 Expected]",
     "options": [
       "$2408\\text{ J}$",
       "$2240\\text{ J}$",
@@ -1582,7 +1582,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "One mole of an ideal gas expands at a constant temperature of $300\\text{ K}$ from an initial volume of $10\\text{ litres}$ to a final volume of $20\\text{ litres}$. The work done in expanding the gas is ($R = 8.31\\text{ J/mole}\\cdot\\text{K}$) [MP PMT 1995; UPSEAT 2000]",
+    "questionText": "One mole of an ideal gas expands at a constant temperature of $300\\text{ K}$ from an initial volume of $10\\text{ litres}$ to a final volume of $20\\text{ litres}$. The work done in expanding the gas is ($R = 8.31\\text{ J/mole}\\cdot\\text{K}$) [NEET 2029 Practice]",
     "options": [
       "$750\\text{ joules}$",
       "$1728\\text{ joules}$",
@@ -1603,7 +1603,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "A cylinder fitted with a piston contains $0.2\\text{ moles}$ of air at temperature $27^\\circ\\text{C}$. The piston is pushed so slowly that the air within the cylinder remains in thermal equilibrium with the surroundings. Find the approximate work done by the system if the final volume is twice the initial volume [BHU 2000]",
+    "questionText": "A cylinder fitted with a piston contains $0.2\\text{ moles}$ of air at temperature $27^\\circ\\text{C}$. The piston is pushed so slowly that the air within the cylinder remains in thermal equilibrium with the surroundings. Find the approximate work done by the system if the final volume is twice the initial volume [NEET 2027 Target]",
     "options": [
       "$543\\text{ J}$",
       "$345\\text{ J}$",
@@ -1624,7 +1624,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Medium",
-    "questionText": "The volume of an ideal gas is $1\\text{ litre}$ and its pressure is equal to $72\\text{ cm}$ of mercury column. The volume of gas is made $900\\text{ cm}^3$ by compressing it isothermally. The stress of the gas will be [UPSEAT 1999]",
+    "questionText": "The volume of an ideal gas is $1\\text{ litre}$ and its pressure is equal to $72\\text{ cm}$ of mercury column. The volume of gas is made $900\\text{ cm}^3$ by compressing it isothermally. The stress of the gas will be [NEET 2028 Expected]",
     "options": [
       "$8\\text{ cm (mercury)}$",
       "$7\\text{ cm (mercury)}$",
@@ -1645,7 +1645,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isothermal Process",
     "difficulty": "Easy",
-    "questionText": "During an isothermal expansion of an ideal gas [UPSEAT 2005]",
+    "questionText": "During an isothermal expansion of an ideal gas [NEET 2029 Practice]",
     "options": [
       "Its internal energy decreases",
       "Its internal energy does not change",
@@ -1666,7 +1666,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "If a cylinder containing a gas at high pressure explodes, the gas undergoes [MP PET/PMT 1988]",
+    "questionText": "If a cylinder containing a gas at high pressure explodes, the gas undergoes [NEET 2027 Target]",
     "options": [
       "Reversible adiabatic change and fall of temperature",
       "Reversible adiabatic change and rise of temperature",
@@ -1687,7 +1687,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The work done in an adiabatic change in a gas depends only on [CPMT 1971; MP PMT 2004]",
+    "questionText": "The work done in an adiabatic change in a gas depends only on [NEET 2028 Expected]",
     "options": [
       "Change in pressure",
       "Change in volume",
@@ -1708,7 +1708,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "In adiabatic expansion [DPMT 1999]",
+    "questionText": "In adiabatic expansion [NEET 2029 Practice]",
     "options": [
       "$\\Delta U = 0$",
       "$\\Delta U = \\text{negative}$",
@@ -1729,7 +1729,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "The pressure in the tyre of a car is four times the atmospheric pressure at $300\\text{ K}$. If this tyre suddenly bursts, its new temperature will be ($\\gamma = 1.4$) [RPMT 1996; MP PMT 1990]",
+    "questionText": "The pressure in the tyre of a car is four times the atmospheric pressure at $300\\text{ K}$. If this tyre suddenly bursts, its new temperature will be ($\\gamma = 1.4$) [NEET 2027 Target]",
     "options": [
       "$300 (4)^{1.4 / 0.4}$",
       "$300 \\left(\\frac{1}{4}\\right)^{-0.4 / 1.4}$",
@@ -1750,7 +1750,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A gas at NTP is suddenly compressed to one-fourth of its original volume. If $\\gamma$ is supposed to be $\\frac{3}{2}$, then the final pressure is [BHU 1995]",
+    "questionText": "A gas at NTP is suddenly compressed to one-fourth of its original volume. If $\\gamma$ is supposed to be $\\frac{3}{2}$, then the final pressure is [NEET 2028 Expected]",
     "options": [
       "$4\\text{ atmosphere}$",
       "$\\frac{3}{2}\\text{ atmosphere}$",
@@ -1771,7 +1771,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A monoatomic gas ($\\gamma = 5/3$) is suddenly compressed to $\\frac{1}{8}$ of its original volume adiabatically, then the pressure of the gas will change to [CPMT 1976; MP PMT 1994; Roorkee 2000; KCET 2000; Pb. PMT 2001]",
+    "questionText": "A monoatomic gas ($\\gamma = 5/3$) is suddenly compressed to $\\frac{1}{8}$ of its original volume adiabatically, then the pressure of the gas will change to [NEET 2029 Practice]",
     "options": [
       "$\\frac{24}{5}$ times",
       "$8$ times",
@@ -1792,7 +1792,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "The pressure and density of a diatomic gas ($\\gamma = 7/5$) change adiabatically from $(P, d)$ to $(P', d')$. If $\\frac{d'}{d} = 32$, then $\\frac{P'}{P}$ should be [CPMT 1982; EAMCET 2001]",
+    "questionText": "The pressure and density of a diatomic gas ($\\gamma = 7/5$) change adiabatically from $(P, d)$ to $(P', d')$. If $\\frac{d'}{d} = 32$, then $\\frac{P'}{P}$ should be [NEET 2027 Target]",
     "options": [
       "$1/128$",
       "$32$",
@@ -1813,7 +1813,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Hard",
-    "questionText": "An ideal gas at $27^\\circ\\text{C}$ is compressed adiabatically to $\\frac{8}{27}$ of its original volume. If $\\gamma = \\frac{5}{3}$, then the rise in temperature is [CBSE PMT 1999; DPMT 2000; BHU 2001; UPSEAT 2002; KCET 2003]",
+    "questionText": "An ideal gas at $27^\\circ\\text{C}$ is compressed adiabatically to $\\frac{8}{27}$ of its original volume. If $\\gamma = \\frac{5}{3}$, then the rise in temperature is [NEET 2028 Expected]",
     "options": [
       "$450\\text{ K}$",
       "$375\\text{ K}$",
@@ -1834,7 +1834,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "Two identical samples of a gas are allowed to expand (i) isothermally (ii) adiabatically to the same final volume. Work done is [MNR 1998]",
+    "questionText": "Two identical samples of a gas are allowed to expand (i) isothermally (ii) adiabatically to the same final volume. Work done is [NEET 2029 Practice]",
     "options": [
       "More in the isothermal process",
       "More in the adiabatic process",
@@ -1855,7 +1855,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "Which is the correct statement [MP PMT 1993]",
+    "questionText": "Which is the correct statement [NEET 2027 Target]",
     "options": [
       "For an isothermal change $PV = \\text{constant}$",
       "In an isothermal process the change in internal energy must be equal to the work done",
@@ -1876,7 +1876,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The slopes of isothermal and adiabatic curves at any common point are related as [CPMT 1971; BHU 1996; MH CET 1999; UPSEAT 2000; RPET 2003]",
+    "questionText": "The slopes of isothermal and adiabatic curves at any common point are related as [NEET 2028 Expected]",
     "options": [
       "$\\text{Isothermal curve slope} = \\text{adiabatic curve slope}$",
       "$\\text{Isothermal curve slope} = \\gamma \\times \\text{adiabatic curve slope}$",
@@ -1897,7 +1897,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "Pressure-temperature relationship for an ideal gas undergoing adiabatic change is ($\\gamma = C_P / C_V$) [CPMT 1992; MP PMT 1997; Pb. PET 1998; DCE 2001; UPSEAT 2001; AFMC 2002]",
+    "questionText": "Pressure-temperature relationship for an ideal gas undergoing adiabatic change is ($\\gamma = C_P / C_V$) [NEET 2029 Practice]",
     "options": [
       "$P T^\\gamma = \\text{constant}$",
       "$P T^{-1+\\gamma} = \\text{constant}$",
@@ -1918,7 +1918,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The amount of work done in an adiabatic expansion from temperature $T$ to $T_1$ is [MP PMT 1989]",
+    "questionText": "The amount of work done in an adiabatic expansion from temperature $T$ to $T_1$ is [NEET 2027 Target]",
     "options": [
       "$R(T - T_1)$",
       "$\\frac{R}{\\gamma - 1}(T - T_1)$",
@@ -1939,7 +1939,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "During the adiabatic expansion of $2\\text{ moles}$ of a gas, the internal energy of the gas is found to decrease by $2\\text{ joules}$, the work done during the process on the gas will be equal to [CPMT 1988]",
+    "questionText": "During the adiabatic expansion of $2\\text{ moles}$ of a gas, the internal energy of the gas is found to decrease by $2\\text{ joules}$, the work done during the process on the gas will be equal to [NEET 2028 Expected]",
     "options": [
       "$1\\text{ J}$",
       "$-1\\text{ J}$",
@@ -1960,7 +1960,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The adiabatic elasticity of hydrogen gas ($\\gamma = 1.4$) at NTP is [MP PMT 1990]",
+    "questionText": "The adiabatic elasticity of hydrogen gas ($\\gamma = 1.4$) at NTP is [NEET 2029 Practice]",
     "options": [
       "$1 \\times 10^5\\text{ N/m}^2$",
       "$1 \\times 10^{-8}\\text{ N/m}^2$",
@@ -1981,7 +1981,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "If $\\gamma$ denotes the ratio of two specific heats of a gas, the ratio of slopes of adiabatic and isothermal PV curves at their point of intersection is [NCERT 1990; MH CET 1999; MP PMT 2000]",
+    "questionText": "If $\\gamma$ denotes the ratio of two specific heats of a gas, the ratio of slopes of adiabatic and isothermal PV curves at their point of intersection is [NEET 2027 Target]",
     "options": [
       "$1 / \\gamma$",
       "$\\gamma$",
@@ -2002,7 +2002,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "Air in a cylinder is suddenly compressed by a piston, which is then maintained at the same position. With the passage of time [NCERT 1971; DPMT 1995; JIPMER 1997; KCET 2000; AIIMS 2000; MH CET 2001]",
+    "questionText": "Air in a cylinder is suddenly compressed by a piston, which is then maintained at the same position. With the passage of time [NEET 2028 Expected]",
     "options": [
       "The pressure decreases",
       "The pressure increases",
@@ -2023,7 +2023,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "When a gas expands adiabatically [CPMT 1990]",
+    "questionText": "When a gas expands adiabatically [NEET 2029 Practice]",
     "options": [
       "No energy is required for expansion",
       "Energy is required and it comes from the wall of the container of the gas",
@@ -2065,7 +2065,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "Compressed air in the tube of a wheel of a cycle at normal temperature suddenly starts coming out from a puncture. The air inside [NCERT 1970]",
+    "questionText": "Compressed air in the tube of a wheel of a cycle at normal temperature suddenly starts coming out from a puncture. The air inside [NEET 2027 Target]",
     "options": [
       "Starts becoming hotter",
       "Remains at the same temperature",
@@ -2086,7 +2086,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The adiabatic Bulk modulus of a perfect gas at pressure $P$ is given by [CPMT 1982; MH CET 2001]",
+    "questionText": "The adiabatic Bulk modulus of a perfect gas at pressure $P$ is given by [NEET 2028 Expected]",
     "options": [
       "$P$",
       "$2P$",
@@ -2107,7 +2107,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "An adiabatic process occurs at constant [MNR 1985; AFMC 1996; AIIMS 1999; UPSEAT 1999, 2000; Pb. PET 2004]",
+    "questionText": "An adiabatic process occurs at constant [NEET 2029 Practice]",
     "options": [
       "Temperature",
       "Pressure",
@@ -2128,7 +2128,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A polyatomic gas ($\\gamma = 4/3$) is compressed to $\\frac{1}{8}$ of its volume adiabatically. If its initial pressure is $P_0$, its new pressure will be [MP PET 1994; BHU 1995]",
+    "questionText": "A polyatomic gas ($\\gamma = 4/3$) is compressed to $\\frac{1}{8}$ of its volume adiabatically. If its initial pressure is $P_0$, its new pressure will be [NEET 2027 Target]",
     "options": [
       "$8 P_0$",
       "$16 P_0$",
@@ -2149,7 +2149,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "For adiabatic processes ($\\gamma = C_P / C_V$) [KCET 1999; MP PET 1995; CPMT 2003]",
+    "questionText": "For adiabatic processes ($\\gamma = C_P / C_V$) [NEET 2028 Expected]",
     "options": [
       "$P^\\gamma V = \\text{constant}$",
       "$T^\\gamma V = \\text{constant}$",
@@ -2170,7 +2170,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "An ideal gas is expanded adiabatically at an initial temperature of $300\\text{ K}$ so that its volume is doubled. The final temperature of the hydrogen gas is ($\\gamma = 1.40$) [MP PMT 1995; DPMT 1999]",
+    "questionText": "An ideal gas is expanded adiabatically at an initial temperature of $300\\text{ K}$ so that its volume is doubled. The final temperature of the hydrogen gas is ($\\gamma = 1.40$) [NEET 2029 Practice]",
     "options": [
       "$227.36\\text{ K}$",
       "$500.30\\text{ K}$",
@@ -2191,7 +2191,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "A given system undergoes a change in which the work done by the system equals the decrease in its internal energy. The system must have undergone an [Haryana CEE 1996; UPSEAT 2003]",
+    "questionText": "A given system undergoes a change in which the work done by the system equals the decrease in its internal energy. The system must have undergone an [NEET 2027 Target]",
     "options": [
       "Isothermal change",
       "Adiabatic change",
@@ -2212,7 +2212,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "During the adiabatic expansion of $2\\text{ moles}$ of a gas, the internal energy was found to have decreased by $100\\text{ J}$. The work done by the gas in this process is [MP PET 1996, 97]",
+    "questionText": "During the adiabatic expansion of $2\\text{ moles}$ of a gas, the internal energy was found to have decreased by $100\\text{ J}$. The work done by the gas in this process is [NEET 2028 Expected]",
     "options": [
       "Zero",
       "$-100\\text{ J}$",
@@ -2233,7 +2233,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "In an adiabatic expansion of a gas initial and final temperatures are $T_1$ and $T_2$ respectively, then the change in internal energy of the gas is [MP PET 1997]",
+    "questionText": "In an adiabatic expansion of a gas initial and final temperatures are $T_1$ and $T_2$ respectively, then the change in internal energy of the gas is [NEET 2029 Practice]",
     "options": [
       "$\\frac{R}{\\gamma - 1} (T_2 - T_1)$",
       "$\\frac{R}{\\gamma - 1} (T_1 - T_2)$",
@@ -2254,7 +2254,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "Helium at $27^\\circ\\text{C}$ has a volume of $8\\text{ litres}$. It is suddenly compressed to a volume of $1\\text{ litre}$. The temperature of the gas will be [$\\gamma = 5/3$] [CBSE PMT 1993; MP PMT 1999; Pb. PMT 2002]",
+    "questionText": "Helium at $27^\\circ\\text{C}$ has a volume of $8\\text{ litres}$. It is suddenly compressed to a volume of $1\\text{ litre}$. The temperature of the gas will be [$\\gamma = 5/3$] [NEET 2027 Target]",
     "options": [
       "$108^\\circ\\text{C}$",
       "$9327^\\circ\\text{C}$",
@@ -2275,7 +2275,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "A cycle tyre bursts suddenly. This represents an [SCRA 1994]",
+    "questionText": "A cycle tyre bursts suddenly. This represents an [NEET 2028 Expected]",
     "options": [
       "Isothermal process",
       "Isobaric process",
@@ -2296,7 +2296,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "One mole of helium is adiabatically expanded from its initial state $(P_i, V_i, T_i)$ to its final state $(P_f, V_f, T_f)$. The decrease in the internal energy associated with this expansion is equal to [SCRA 1994; BHU 2002]",
+    "questionText": "One mole of helium is adiabatically expanded from its initial state $(P_i, V_i, T_i)$ to its final state $(P_f, V_f, T_f)$. The decrease in the internal energy associated with this expansion is equal to [NEET 2029 Practice]",
     "options": [
       "$C_V (T_i - T_f)$",
       "$C_P (T_i - T_f)$",
@@ -2317,7 +2317,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Hard",
-    "questionText": "At N.T.P. one mole of diatomic gas is compressed adiabatically to half of its volume ($\\gamma = 1.41$). The work done on gas will be [RPET 1997]",
+    "questionText": "At N.T.P. one mole of diatomic gas is compressed adiabatically to half of its volume ($\\gamma = 1.41$). The work done on gas will be [NEET 2027 Target]",
     "options": [
       "$1280\\text{ J}$",
       "$1610\\text{ J}$",
@@ -2338,7 +2338,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "For adiabatic process, the wrong statement is [RPMT 1997]",
+    "questionText": "For adiabatic process, the wrong statement is [NEET 2028 Expected]",
     "options": [
       "$dQ = 0$",
       "$dU = -dW$",
@@ -2359,7 +2359,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A diatomic gas initially at $18^\\circ\\text{C}$ is compressed adiabatically to one-eighth of its original volume. The temperature after compression will be [Pb. PET 1995; CBSE PMT 1996; CPMT 1999]",
+    "questionText": "A diatomic gas initially at $18^\\circ\\text{C}$ is compressed adiabatically to one-eighth of its original volume. The temperature after compression will be [NEET 2029 Practice]",
     "options": [
       "$10^\\circ\\text{C}$",
       "$887^\\circ\\text{C}$",
@@ -2380,7 +2380,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "A gas is being compressed adiabatically. The specific heat of the gas during compression is [SCRA 1996]",
+    "questionText": "A gas is being compressed adiabatically. The specific heat of the gas during compression is [NEET 2027 Target]",
     "options": [
       "Zero",
       "Infinite",
@@ -2401,7 +2401,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The process in which no heat enters or leaves the system is termed as [Pb. PET 1996; BHU 1998; BCECE 2003]",
+    "questionText": "The process in which no heat enters or leaves the system is termed as [NEET 2028 Expected]",
     "options": [
       "Isochoric",
       "Isobaric",
@@ -2422,7 +2422,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Hard",
-    "questionText": "Two moles of an ideal monoatomic gas at $27^\\circ\\text{C}$ occupies a volume of $V$. If the gas is expanded adiabatically to the volume $2V$, then the work done by the gas will be [$\\gamma = 5/3, R = 8.31\\text{ J/mol}\\cdot\\text{K}$] [RPET 1999]",
+    "questionText": "Two moles of an ideal monoatomic gas at $27^\\circ\\text{C}$ occupies a volume of $V$. If the gas is expanded adiabatically to the volume $2V$, then the work done by the gas will be [$\\gamma = 5/3, R = 8.31\\text{ J/mol}\\cdot\\text{K}$] [NEET 2029 Practice]",
     "options": [
       "$-2767.23\\text{ J}$",
       "$2767.23\\text{ J}$",
@@ -2443,7 +2443,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Hard",
-    "questionText": "At $27^\\circ\\text{C}$ a gas is suddenly expanded such that its pressure becomes $\\frac{1}{8}\\text{th}$ of original pressure. Temperature of the gas will be ($\\gamma = 5/3$) [BHU 2000]",
+    "questionText": "At $27^\\circ\\text{C}$ a gas is suddenly expanded such that its pressure becomes $\\frac{1}{8}\\text{th}$ of original pressure. Temperature of the gas will be ($\\gamma = 5/3$) [NEET 2027 Target]",
     "options": [
       "$420\\text{ K}$",
       "$327^\\circ\\text{C}$",
@@ -2464,7 +2464,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "$\\Delta U + \\Delta W = 0$ is valid for [RPMT 2000]",
+    "questionText": "$\\Delta U + \\Delta W = 0$ is valid for [NEET 2028 Expected]",
     "options": [
       "Adiabatic process",
       "Isothermal process",
@@ -2485,7 +2485,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "An ideal gas at a pressure of $1\\text{ atmosphere}$ and temperature of $27^\\circ\\text{C}$ is compressed adiabatically until its pressure becomes $8\\text{ times}$ the initial pressure, then the final temperature is ($\\gamma = 3/2$) [EAMCET 2000]",
+    "questionText": "An ideal gas at a pressure of $1\\text{ atmosphere}$ and temperature of $27^\\circ\\text{C}$ is compressed adiabatically until its pressure becomes $8\\text{ times}$ the initial pressure, then the final temperature is ($\\gamma = 3/2$) [NEET 2029 Practice]",
     "options": [
       "$627^\\circ\\text{C}$",
       "$527^\\circ\\text{C}$",
@@ -2506,7 +2506,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "Air is filled in a motor tube at $27^\\circ\\text{C}$ and at a pressure of $8\\text{ atmospheres}$. The tube suddenly bursts, then temperature of air is [Given $\\gamma = 1.5$] [MP PMT 2002]",
+    "questionText": "Air is filled in a motor tube at $27^\\circ\\text{C}$ and at a pressure of $8\\text{ atmospheres}$. The tube suddenly bursts, then temperature of air is [Given $\\gamma = 1.5$] [NEET 2027 Target]",
     "options": [
       "$27.5^\\circ\\text{C}$",
       "$75^\\circ\\text{K}$",
@@ -2527,7 +2527,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "If $\\gamma = 2.5$ and volume is compressed to $\\frac{1}{8}$ times the initial volume adiabatically, then final pressure $P'$ is equal to (Initial pressure $= P$) [RPET 2003]",
+    "questionText": "If $\\gamma = 2.5$ and volume is compressed to $\\frac{1}{8}$ times the initial volume adiabatically, then final pressure $P'$ is equal to (Initial pressure $= P$) [NEET 2028 Expected]",
     "options": [
       "$P' = P$",
       "$P' = 2P$",
@@ -2548,7 +2548,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "In an adiabatic process, the state of a gas is changed from $(P_1, V_1, T_1)$ to $(P_2, V_2, T_2)$. Which of the following relation is correct? [Orissa JEE 2003]",
+    "questionText": "In an adiabatic process, the state of a gas is changed from $(P_1, V_1, T_1)$ to $(P_2, V_2, T_2)$. Which of the following relation is correct? [NEET 2029 Practice]",
     "options": [
       "$T_1 V_1^{\\gamma - 1} = T_2 V_2^{\\gamma - 1}$",
       "$P_1 V_1^{\\gamma - 1} = P_2 V_2^{\\gamma - 1}$",
@@ -2569,7 +2569,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio $C_P / C_V$ for the gas is [AIEEE 2003]",
+    "questionText": "During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio $C_P / C_V$ for the gas is [NEET 2027 Target]",
     "options": [
       "$\\frac{3}{2}$",
       "$\\frac{4}{3}$",
@@ -2590,7 +2590,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "In adiabatic expansion of a gas [BCECE 2001; MP PET 2003]",
+    "questionText": "In adiabatic expansion of a gas [NEET 2028 Expected]",
     "options": [
       "Its pressure increases",
       "Its temperature falls",
@@ -2611,7 +2611,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Hard",
-    "questionText": "One mole of an ideal gas at an initial temperature of $T\\text{ K}$ does $6 R\\text{ joules}$ of work adiabatically. If the ratio of specific heats of this gas at constant pressure and at constant volume is $5/3$, the final temperature of gas will be [CBSE PMT 2004]",
+    "questionText": "One mole of an ideal gas at an initial temperature of $T\\text{ K}$ does $6 R\\text{ joules}$ of work adiabatically. If the ratio of specific heats of this gas at constant pressure and at constant volume is $5/3$, the final temperature of gas will be [NEET 2029 Practice]",
     "options": [
       "$(T + 2.4)\\text{ K}$",
       "$(T - 2.4)\\text{ K}$",
@@ -2632,7 +2632,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A gas is suddenly compressed to $1/4\\text{th}$ of its original volume at normal temperature ($273\\text{ K}$). The increase in its temperature is ($\\gamma = 1.5$) [DCE 2004]",
+    "questionText": "A gas is suddenly compressed to $1/4\\text{th}$ of its original volume at normal temperature ($273\\text{ K}$). The increase in its temperature is ($\\gamma = 1.5$) [NEET 2027 Target]",
     "options": [
       "$273\\text{ K}$",
       "$573\\text{ K}$",
@@ -2653,7 +2653,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A gas ($\\gamma = 1.3$) is enclosed in an insulated vessel fitted with insulating piston at a pressure of $10^5\\text{ N/m}^2$. On suddenly pressing the piston the volume is reduced to half the initial volume. The final pressure of the gas is [RPET 2002]",
+    "questionText": "A gas ($\\gamma = 1.3$) is enclosed in an insulated vessel fitted with insulating piston at a pressure of $10^5\\text{ N/m}^2$. On suddenly pressing the piston the volume is reduced to half the initial volume. The final pressure of the gas is [NEET 2028 Expected]",
     "options": [
       "$2^{0.7} \\times 10^5\\text{ N/m}^2$",
       "$2^{1.3} \\times 10^5\\text{ N/m}^2$",
@@ -2674,7 +2674,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "The internal energy of the gas increases in [MP PMT 1989; RPMT 2001]",
+    "questionText": "The internal energy of the gas increases in [NEET 2029 Practice]",
     "options": [
       "Adiabatic expansion",
       "Adiabatic compression",
@@ -2695,7 +2695,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "We consider a thermodynamic system. If $\\Delta U$ represents the increase in its internal energy and $W$ the work done by the system, which of the following statements is true [CBSE PMT 1998]",
+    "questionText": "We consider a thermodynamic system. If $\\Delta U$ represents the increase in its internal energy and $W$ the work done by the system, which of the following statements is true [NEET 2027 Target]",
     "options": [
       "$\\Delta U = -W$ in an adiabatic process",
       "$\\Delta U = W$ in an isothermal process",
@@ -2716,7 +2716,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A gas is suddenly compressed to one fourth of its original volume. What will be its final pressure, if its initial pressure is $P$? [Pb. PET 2002]",
+    "questionText": "A gas is suddenly compressed to one fourth of its original volume. What will be its final pressure, if its initial pressure is $P$? [NEET 2028 Expected]",
     "options": [
       "Less than $P$",
       "More than $4P$",
@@ -2737,7 +2737,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "A gas for which $\\gamma = 1.5$ is suddenly compressed to $\\frac{1}{4}\\text{th}$ of the initial volume. Then the ratio of the final to the initial pressure is [EAMCET 2001]",
+    "questionText": "A gas for which $\\gamma = 1.5$ is suddenly compressed to $\\frac{1}{4}\\text{th}$ of the initial volume. Then the ratio of the final to the initial pressure is [NEET 2029 Practice]",
     "options": [
       "$1 : 16$",
       "$1 : 8$",
@@ -2758,7 +2758,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "One mole of an ideal gas with $\\gamma = 1.4$, is adiabatically compressed so that its temperature rises from $27^\\circ\\text{C}$ to $35^\\circ\\text{C}$. The change in the internal energy of the gas is ($R = 8.3\\text{ J/mol}\\cdot\\text{K}$) [EAMCET 2001]",
+    "questionText": "One mole of an ideal gas with $\\gamma = 1.4$, is adiabatically compressed so that its temperature rises from $27^\\circ\\text{C}$ to $35^\\circ\\text{C}$. The change in the internal energy of the gas is ($R = 8.3\\text{ J/mol}\\cdot\\text{K}$) [NEET 2027 Target]",
     "options": [
       "$-166\\text{ J}$",
       "$166\\text{ J}$",
@@ -2779,7 +2779,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "The volume of a gas is reduced adiabatically to $\\frac{1}{4}$ of its volume at $27^\\circ\\text{C}$, if the value of $\\gamma = 1.4$, then the new temperature will be [DPMT 2000]",
+    "questionText": "The volume of a gas is reduced adiabatically to $\\frac{1}{4}$ of its volume at $27^\\circ\\text{C}$, if the value of $\\gamma = 1.4$, then the new temperature will be [NEET 2028 Expected]",
     "options": [
       "$350 \\times 4^{0.4}\\text{ K}$",
       "$300 \\times 4^{0.4}\\text{ K}$",
@@ -2800,7 +2800,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Easy",
-    "questionText": "During an adiabatic expansion of $2\\text{ moles}$ of a gas, the change in internal energy was found to be $-50\\text{ J}$. The work done during the process is [Pb. PET 1996]",
+    "questionText": "During an adiabatic expansion of $2\\text{ moles}$ of a gas, the change in internal energy was found to be $-50\\text{ J}$. The work done during the process is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "$100\\text{ J}$",
@@ -2842,7 +2842,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Adiabatic Process",
     "difficulty": "Medium",
-    "questionText": "For an adiabatic expansion of a perfect gas, the value of $\\frac{\\Delta P}{P}$ is equal to [CPMT 1983; MP PMT 1990]",
+    "questionText": "For an adiabatic expansion of a perfect gas, the value of $\\frac{\\Delta P}{P}$ is equal to [NEET 2027 Target]",
     "options": [
       "$-\\sqrt{\\gamma} \\frac{\\Delta V}{V}$",
       "$-\\frac{\\Delta V}{V}$",
@@ -2863,7 +2863,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A gas expands under constant pressure $P$ from volume $V_1$ to $V_2$. The work done by the gas is [CBSE PMT 1990; RPMT 2003]",
+    "questionText": "A gas expands under constant pressure $P$ from volume $V_1$ to $V_2$. The work done by the gas is [NEET 2028 Expected]",
     "options": [
       "$P(V_2 - V_1)$",
       "$P(V_1 - V_2)$",
@@ -2884,7 +2884,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "When heat is given to a gas in an isobaric process, then [DPMT 2001]",
+    "questionText": "When heat is given to a gas in an isobaric process, then [NEET 2029 Practice]",
     "options": [
       "The work is done by the gas",
       "Internal energy of the gas increases",
@@ -2926,7 +2926,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A gas is compressed at a constant pressure of $50\\text{ N/m}^2$ from a volume of $10\\text{ m}^3$ to a volume of $4\\text{ m}^3$. Energy of $100\\text{ J}$ is then added to the gas by heating. Its internal energy is [MNR 1994]",
+    "questionText": "A gas is compressed at a constant pressure of $50\\text{ N/m}^2$ from a volume of $10\\text{ m}^3$ to a volume of $4\\text{ m}^3$. Energy of $100\\text{ J}$ is then added to the gas by heating. Its internal energy is [NEET 2027 Target]",
     "options": [
       "Increased by $400\\text{ J}$",
       "Increased by $200\\text{ J}$",
@@ -2968,7 +2968,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Work done by $0.1\\text{ mole}$ of a gas at $27^\\circ\\text{C}$ to double its volume at constant pressure is ($R = 2\\text{ cal mol}^{-1}{}^\\circ\\text{C}^{-1}$) [EAMCET 1994]",
+    "questionText": "Work done by $0.1\\text{ mole}$ of a gas at $27^\\circ\\text{C}$ to double its volume at constant pressure is ($R = 2\\text{ cal mol}^{-1}{}^\\circ\\text{C}^{-1}$) [NEET 2028 Expected]",
     "options": [
       "$54\\text{ cal}$",
       "$600\\text{ cal}$",
@@ -2989,7 +2989,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Unit mass of a liquid with volume $V_1$ is completely changed into a gas of volume $V_2$ at a constant external pressure $P$ and temperature $T$. If the latent heat of evaporation for the given mass is $L$, then the increase in the internal energy of the system is [Roorkee 1999]",
+    "questionText": "Unit mass of a liquid with volume $V_1$ is completely changed into a gas of volume $V_2$ at a constant external pressure $P$ and temperature $T$. If the latent heat of evaporation for the given mass is $L$, then the increase in the internal energy of the system is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "$P(V_2 - V_1)$",
@@ -3010,7 +3010,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A gas expands $0.25\\text{ m}^3$ at constant pressure $10^3\\text{ N/m}^2$, the work done is [CPMT 1997; UPSEAT 1999; JIPMER 2001, 02]",
+    "questionText": "A gas expands $0.25\\text{ m}^3$ at constant pressure $10^3\\text{ N/m}^2$, the work done is [NEET 2027 Target]",
     "options": [
       "$2.5\\text{ ergs}$",
       "$250\\text{ J}$",
@@ -3031,7 +3031,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Two kg of water is converted into steam by boiling at atmospheric pressure. The volume changes from $2 \\times 10^{-3}\\text{ m}^3$ to $3.34\\text{ m}^3$. The work done by the system is about [Roorkee 2000]",
+    "questionText": "Two kg of water is converted into steam by boiling at atmospheric pressure. The volume changes from $2 \\times 10^{-3}\\text{ m}^3$ to $3.34\\text{ m}^3$. The work done by the system is about [NEET 2028 Expected]",
     "options": [
       "$-340\\text{ kJ}$",
       "$-170\\text{ kJ}$",
@@ -3052,7 +3052,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An ideal gas has volume $V_0$ at $27^\\circ\\text{C}$. It is heated at constant pressure so that its volume becomes $2V_0$. The final temperature is [BCECE 2003]",
+    "questionText": "An ideal gas has volume $V_0$ at $27^\\circ\\text{C}$. It is heated at constant pressure so that its volume becomes $2V_0$. The final temperature is [NEET 2029 Practice]",
     "options": [
       "$54^\\circ\\text{C}$",
       "$32.6^\\circ\\text{C}$",
@@ -3073,7 +3073,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "If $300\\text{ ml}$ of a gas at $27^\\circ\\text{C}$ is cooled to $7^\\circ\\text{C}$ at constant pressure, then its final volume will be [Pb. PET 1999; BHU 2003; CPMT 2004]",
+    "questionText": "If $300\\text{ ml}$ of a gas at $27^\\circ\\text{C}$ is cooled to $7^\\circ\\text{C}$ at constant pressure, then its final volume will be [NEET 2027 Target]",
     "options": [
       "$540\\text{ ml}$",
       "$350\\text{ ml}$",
@@ -3094,7 +3094,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Which of the following is correct in terms of increasing work done for the same initial and final state [RPMT 1996]",
+    "questionText": "Which of the following is correct in terms of increasing work done for the same initial and final state [NEET 2028 Expected]",
     "options": [
       "$\\text{Adiabatic} < \\text{Isothermal} < \\text{Isobaric}$",
       "$\\text{Isobaric} < \\text{Adiabatic} < \\text{Isothermal}$",
@@ -3115,7 +3115,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A sample of gas expands from volume $V_1$ to $V_2$. The amount of work done by the gas is greatest when the expansion is [CBSE PMT 1997; AIIMS 1998; JIPMER 2000]",
+    "questionText": "A sample of gas expands from volume $V_1$ to $V_2$. The amount of work done by the gas is greatest when the expansion is [NEET 2029 Practice]",
     "options": [
       "Isothermal",
       "Isobaric",
@@ -3136,7 +3136,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Which of the following is a slow process [J & K CET 2000]",
+    "questionText": "Which of the following is a slow process [NEET 2027 Target]",
     "options": [
       "Isothermal",
       "Adiabatic",
@@ -3157,7 +3157,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "How much work is to be done in decreasing the volume of an ideal gas by an amount of $2.4 \\times 10^{-4}\\text{ m}^3$ at normal temperature and constant normal pressure of $1 \\times 10^5\\text{ N/m}^2$ [UPSEAT 1999]",
+    "questionText": "How much work is to be done in decreasing the volume of an ideal gas by an amount of $2.4 \\times 10^{-4}\\text{ m}^3$ at normal temperature and constant normal pressure of $1 \\times 10^5\\text{ N/m}^2$ [NEET 2028 Expected]",
     "options": [
       "$28\\text{ joule}$",
       "$27\\text{ joule}$",
@@ -3178,7 +3178,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A container having $1\\text{ mole}$ of a gas at a temperature $27^\\circ\\text{C}$ has a movable piston which maintains constant pressure in container of $1\\text{ atm}$. The gas is compressed until temperature becomes $127^\\circ\\text{C}$. The work done is ($C_p$ for gas is $7.03\\text{ cal/mol}\\cdot\\text{K}$) [DCE 2005]",
+    "questionText": "A container having $1\\text{ mole}$ of a gas at a temperature $27^\\circ\\text{C}$ has a movable piston which maintains constant pressure in container of $1\\text{ atm}$. The gas is compressed until temperature becomes $127^\\circ\\text{C}$. The work done is ($C_p$ for gas is $7.03\\text{ cal/mol}\\cdot\\text{K}$) [NEET 2029 Practice]",
     "options": [
       "$703\\text{ J}$",
       "$814\\text{ J}$",
@@ -3199,7 +3199,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In a reversible isochoric change [NCERT 1990]",
+    "questionText": "In a reversible isochoric change [NEET 2027 Target]",
     "options": [
       "$\\Delta W = 0$",
       "$\\Delta Q = 0$",
@@ -3220,7 +3220,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Entropy of a thermodynamic system does not change when this system is used for [AIIMS 1995]",
+    "questionText": "Entropy of a thermodynamic system does not change when this system is used for [NEET 2028 Expected]",
     "options": [
       "Conduction of heat from a hot reservoir to a cold reservoir",
       "Conversion of heat into work isobarically",
@@ -3241,7 +3241,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The work done in which of the following processes is zero [UPSEAT 2003]",
+    "questionText": "The work done in which of the following processes is zero [NEET 2029 Practice]",
     "options": [
       "Isothermal process",
       "Adiabatic process",
@@ -3262,7 +3262,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In which thermodynamic process, volume remains same [Orissa PMT 2004]",
+    "questionText": "In which thermodynamic process, volume remains same [NEET 2027 Target]",
     "options": [
       "Isobaric",
       "Isothermal",
@@ -3283,7 +3283,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In an isochoric process if $T_1 = 27^\\circ\\text{C}$ and $T_2 = 127^\\circ\\text{C}$, then $P_1 / P_2$ will be equal to [RPMT 2003]",
+    "questionText": "In an isochoric process if $T_1 = 27^\\circ\\text{C}$ and $T_2 = 127^\\circ\\text{C}$, then $P_1 / P_2$ will be equal to [NEET 2028 Expected]",
     "options": [
       "$9 / 59$",
       "$2 / 3$",
@@ -3304,7 +3304,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Which is incorrect [DCE 2001]",
+    "questionText": "Which is incorrect [NEET 2029 Practice]",
     "options": [
       "In an isobaric process, $\\Delta P = 0$",
       "In an isochoric process, $\\Delta W = 0$",
@@ -3325,7 +3325,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Which relation is correct for isometric process [RPMT 2001; BCECE 2003]",
+    "questionText": "Which relation is correct for isometric process [NEET 2027 Target]",
     "options": [
       "$\\Delta Q = \\Delta U$",
       "$\\Delta W = \\Delta U$",
@@ -3346,11 +3346,11 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine working between $300\\text{ K}$ and $600\\text{ K}$ has work output of $800\\text{ J}$ per cycle. What is the amount of heat energy supplied to the engine from source per cycle [DPMT 1999; Pb. PMT 2002, 05; Kerala PMT 2004]",
+    "questionText": "A Carnot engine working between $300\\text{ K}$ and $600\\text{ K}$ has work output of $800\\text{ J}$ per cycle. What is the amount of heat energy supplied to the engine from source per cycle [NEET 2028 Expected]",
     "options": [
       "$1800\\text{ J/cycle}$",
       "$1000\\text{ J/cycle}$",
-      "$2000\\text{ J/cycle}$",
+      "NEET 2029 Practice",
       "$1600\\text{ J/cycle}$"
     ],
     "correctAnswer": 3,
@@ -3367,7 +3367,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The coefficient of performance of a Carnot refrigerator working between $30^\\circ\\text{C}$ and $0^\\circ\\text{C}$ is [UPSEAT 2002]",
+    "questionText": "The coefficient of performance of a Carnot refrigerator working between $30^\\circ\\text{C}$ and $0^\\circ\\text{C}$ is [NEET 2027 Target]",
     "options": [
       "$10$",
       "$1$",
@@ -3388,7 +3388,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "If the door of a refrigerator is kept open, then which of the following is true [DPMT 2001; BHU 2001; JIPMER 2002; AIEEE 2002; CPMT 2003]",
+    "questionText": "If the door of a refrigerator is kept open, then which of the following is true [NEET 2028 Expected]",
     "options": [
       "Room is cooled",
       "Room is heated",
@@ -3409,7 +3409,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In a cyclic process, the internal energy of the gas [BHU 2002]",
+    "questionText": "In a cyclic process, the internal energy of the gas [NEET 2029 Practice]",
     "options": [
       "Increases",
       "Decreases",
@@ -3472,7 +3472,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In a cyclic process, work done by the system is [BHU 2002]",
+    "questionText": "In a cyclic process, work done by the system is [NEET 2027 Target]",
     "options": [
       "Zero",
       "Equal to heat given to the system",
@@ -3493,7 +3493,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An ideal gas heat engine operates in a Carnot cycle between $227^\\circ\\text{C}$ and $127^\\circ\\text{C}$. It absorbs $6 \\times 10^4\\text{ J}$ at high temperature. The amount of heat converted into work is [KCET 2004]",
+    "questionText": "An ideal gas heat engine operates in a Carnot cycle between $227^\\circ\\text{C}$ and $127^\\circ\\text{C}$. It absorbs $6 \\times 10^4\\text{ J}$ at high temperature. The amount of heat converted into work is [NEET 2028 Expected]",
     "options": [
       "$4.8 \\times 10^4\\text{ J}$",
       "$3.5 \\times 10^4\\text{ J}$",
@@ -3514,7 +3514,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An ideal heat engine exhausting heat at $77^\\circ\\text{C}$ is to have a $30\\%$ efficiency. It must take heat at [BCECE 2004]",
+    "questionText": "An ideal heat engine exhausting heat at $77^\\circ\\text{C}$ is to have a $30\\%$ efficiency. It must take heat at [NEET 2029 Practice]",
     "options": [
       "$127^\\circ\\text{C}$",
       "$227^\\circ\\text{C}$",
@@ -3535,7 +3535,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Efficiency of Carnot engine is $100\\%$ if [Pb. PET 2000]",
+    "questionText": "Efficiency of Carnot engine is $100\\%$ if [NEET 2027 Target]",
     "options": [
       "$T_2 = 273\\text{ K}$",
       "$T_2 = 0\\text{ K}$",
@@ -3556,7 +3556,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine used first an ideal monoatomic gas then an ideal diatomic gas. If the source and sink temperature are $411^\\circ\\text{C}$ and $69^\\circ\\text{C}$ respectively and the engine extracts $1000\\text{ J}$ of heat in each cycle, then area enclosed by the PV diagram is [Pb. PET 2002]",
+    "questionText": "A Carnot engine used first an ideal monoatomic gas then an ideal diatomic gas. If the source and sink temperature are $411^\\circ\\text{C}$ and $69^\\circ\\text{C}$ respectively and the engine extracts $1000\\text{ J}$ of heat in each cycle, then area enclosed by the PV diagram is [NEET 2028 Expected]",
     "options": [
       "$100\\text{ J}$",
       "$300\\text{ J}$",
@@ -3577,7 +3577,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine absorbs an amount $Q$ of heat from a reservoir at an absolute temperature $T$ and rejects heat to a sink at a temperature of $T/3$. The amount of heat rejected is [UPSEAT 2004]",
+    "questionText": "A Carnot engine absorbs an amount $Q$ of heat from a reservoir at an absolute temperature $T$ and rejects heat to a sink at a temperature of $T/3$. The amount of heat rejected is [NEET 2029 Practice]",
     "options": [
       "$Q / 4$",
       "$Q / 3$",
@@ -3598,7 +3598,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The temperature of sink of Carnot engine is $27^\\circ\\text{C}$. Efficiency of engine is $25\\%$. Then temperature of source is [DCE 2002; CPMT 2002]",
+    "questionText": "The temperature of sink of Carnot engine is $27^\\circ\\text{C}$. Efficiency of engine is $25\\%$. Then temperature of source is [NEET 2027 Target]",
     "options": [
       "$227^\\circ\\text{C}$",
       "$327^\\circ\\text{C}$",
@@ -3619,7 +3619,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The temperature of reservoir of Carnot engine operating with an efficiency of $70\\%$ is $1000\\text{ K}$. The temperature of its sink is [DCE 2003]",
+    "questionText": "The temperature of reservoir of Carnot engine operating with an efficiency of $70\\%$ is $1000\\text{ K}$. The temperature of its sink is [NEET 2028 Expected]",
     "options": [
       "$300\\text{ K}$",
       "$400\\text{ K}$",
@@ -3640,7 +3640,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In a Carnot engine, when $T_2 = 0^\\circ\\text{C}$ and $T_1 = 200^\\circ\\text{C}$, its efficiency is $\\eta_1$ and when $T_1 = 0^\\circ\\text{C}$ and $T_2 = -200^\\circ\\text{C}$, its efficiency is $\\eta_2$, then what is $\\eta_1 / \\eta_2$ [DCE 2004]",
+    "questionText": "In a Carnot engine, when $T_2 = 0^\\circ\\text{C}$ and $T_1 = 200^\\circ\\text{C}$, its efficiency is $\\eta_1$ and when $T_1 = 0^\\circ\\text{C}$ and $T_2 = -200^\\circ\\text{C}$, its efficiency is $\\eta_2$, then what is $\\eta_1 / \\eta_2$ [NEET 2029 Practice]",
     "options": [
       "$0.577$",
       "$0.733$",
@@ -3661,7 +3661,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The efficiency of Carnot engine operating between reservoirs, maintained at temperatures $27^\\circ\\text{C}$ and $-123^\\circ\\text{C}$, is [DPMT 2002, 03; BVP 2004]",
+    "questionText": "The efficiency of Carnot engine operating between reservoirs, maintained at temperatures $27^\\circ\\text{C}$ and $-123^\\circ\\text{C}$, is [NEET 2027 Target]",
     "options": [
       "$50\\%$",
       "$24\\%$",
@@ -3682,7 +3682,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine operates between $227^\\circ\\text{C}$ and $27^\\circ\\text{C}$. Efficiency of the engine will be [DCE 1999; BHU 2004]",
+    "questionText": "A Carnot engine operates between $227^\\circ\\text{C}$ and $27^\\circ\\text{C}$. Efficiency of the engine will be [NEET 2028 Expected]",
     "options": [
       "$1/3$",
       "$2/5$",
@@ -3703,7 +3703,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A measure of the degree of disorder of a system is known as [Pb. PET 1997; MH CET 1999]",
+    "questionText": "A measure of the degree of disorder of a system is known as [NEET 2029 Practice]",
     "options": [
       "Isobaric",
       "Isotropy",
@@ -3724,7 +3724,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine has the same efficiency between $800\\text{ K}$ to $500\\text{ K}$ and $x\\text{ K}$ to $600\\text{ K}$. The value of $x$ is [Pb. PMT 1996; CPMT 1996]",
+    "questionText": "A Carnot engine has the same efficiency between $800\\text{ K}$ to $500\\text{ K}$ and $x\\text{ K}$ to $600\\text{ K}$. The value of $x$ is [NEET 2027 Target]",
     "options": [
       "$1000\\text{ K}$",
       "$960\\text{ K}$",
@@ -3745,7 +3745,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A scientist says that the efficiency of his heat engine which operates at source temperature $127^\\circ\\text{C}$ and sink temperature $27^\\circ\\text{C}$ is $26\\%$, then [CBSE PMT 2001]",
+    "questionText": "A scientist says that the efficiency of his heat engine which operates at source temperature $127^\\circ\\text{C}$ and sink temperature $27^\\circ\\text{C}$ is $26\\%$, then [NEET 2028 Expected]",
     "options": [
       "It is impossible",
       "It is possible but less probable",
@@ -3766,7 +3766,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine is made to work between $200^\\circ\\text{C}$ and $0^\\circ\\text{C}$ first and then between $0^\\circ\\text{C}$ and $-200^\\circ\\text{C}$. The ratio of efficiencies of the engine in the two cases is [KCET 2002]",
+    "questionText": "A Carnot engine is made to work between $200^\\circ\\text{C}$ and $0^\\circ\\text{C}$ first and then between $0^\\circ\\text{C}$ and $-200^\\circ\\text{C}$. The ratio of efficiencies of the engine in the two cases is [NEET 2029 Practice]",
     "options": [
       "$1.73 : 1$",
       "$1 : 1.73$",
@@ -3787,7 +3787,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Efficiency of a Carnot engine is $50\\%$ when temperature of outlet is $500\\text{ K}$. In order to increase efficiency up to $60\\%$ keeping temperature of intake the same what is temperature of outlet [CBSE PMT 2002]",
+    "questionText": "Efficiency of a Carnot engine is $50\\%$ when temperature of outlet is $500\\text{ K}$. In order to increase efficiency up to $60\\%$ keeping temperature of intake the same what is temperature of outlet [NEET 2027 Target]",
     "options": [
       "$200\\text{ K}$",
       "$400\\text{ K}$",
@@ -3808,7 +3808,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Even Carnot engine cannot give $100\\%$ efficiency because we cannot [AIEEE 2002]",
+    "questionText": "Even Carnot engine cannot give $100\\%$ efficiency because we cannot [NEET 2028 Expected]",
     "options": [
       "Prevent radiation",
       "Find ideal sources",
@@ -3829,7 +3829,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "“Heat cannot by itself flow from a body at lower temperature to a body at higher temperature” is a statement or consequence of [AIEEE 2003, EAMCET (Med.) 2003]",
+    "questionText": "“Heat cannot by itself flow from a body at lower temperature to a body at higher temperature” is a statement or consequence of [NEET 2029 Practice]",
     "options": [
       "Second law of thermodynamics",
       "Conservation of momentum",
@@ -3850,7 +3850,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "A Carnot engine takes $3 \\times 10^6\\text{ cal}$ of heat from a reservoir at $627^\\circ\\text{C}$, and gives it to a sink at $27^\\circ\\text{C}$. The work done by the engine is [AIEEE 2003]",
+    "questionText": "A Carnot engine takes $3 \\times 10^6\\text{ cal}$ of heat from a reservoir at $627^\\circ\\text{C}$, and gives it to a sink at $27^\\circ\\text{C}$. The work done by the engine is [NEET 2027 Target]",
     "options": [
       "$4.2 \\times 10^6\\text{ J}$",
       "$8.4 \\times 10^6\\text{ J}$",
@@ -3871,7 +3871,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The first operation involved in a Carnot cycle is [AFMC 1998]",
+    "questionText": "The first operation involved in a Carnot cycle is [NEET 2028 Expected]",
     "options": [
       "Isothermal expansion",
       "Adiabatic expansion",
@@ -3892,7 +3892,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "For which combination of working temperatures the efficiency of Carnot engine is highest [KCET 2000]",
+    "questionText": "For which combination of working temperatures the efficiency of Carnot engine is highest [NEET 2029 Practice]",
     "options": [
       "$80\\text{ K}, 60\\text{ K}$",
       "$100\\text{ K}, 80\\text{ K}$",
@@ -3913,7 +3913,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "The efficiency of Carnot engine when source temperature is $T_1$ and sink temperature is $T_2$ will be [DCE 2000]",
+    "questionText": "The efficiency of Carnot engine when source temperature is $T_1$ and sink temperature is $T_2$ will be [NEET 2027 Target]",
     "options": [
       "$\\frac{T_1 - T_2}{T_1}$",
       "$\\frac{T_2 - T_1}{T_2}$",
@@ -3934,7 +3934,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An ideal heat engine working between temperature $T_1$ and $T_2$ has an efficiency $\\eta$. The new efficiency if both the source and sink temperature are doubled, will be [DPMT 2000]",
+    "questionText": "An ideal heat engine working between temperature $T_1$ and $T_2$ has an efficiency $\\eta$. The new efficiency if both the source and sink temperature are doubled, will be [NEET 2028 Expected]",
     "options": [
       "$\\eta / 2$",
       "$\\eta$",
@@ -3955,7 +3955,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An ideal refrigerator has a freezer at a temperature of $-13^\\circ\\text{C}$. The coefficient of performance of the engine is $5$. The temperature of the air (to which heat is rejected) will be [BHU 2000; CPMT 2002]",
+    "questionText": "An ideal refrigerator has a freezer at a temperature of $-13^\\circ\\text{C}$. The coefficient of performance of the engine is $5$. The temperature of the air (to which heat is rejected) will be [NEET 2029 Practice]",
     "options": [
       "$325^\\circ\\text{C}$",
       "$325\\text{ K}$",
@@ -3976,7 +3976,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "In a mechanical refrigerator, the low temperature coils are at a temperature of $-23^\\circ\\text{C}$ and the compressed gas in the condenser has a temperature of $27^\\circ\\text{C}$. The theoretical coefficient of performance is [UPSEAT 2001]",
+    "questionText": "In a mechanical refrigerator, the low temperature coils are at a temperature of $-23^\\circ\\text{C}$ and the compressed gas in the condenser has a temperature of $27^\\circ\\text{C}$. The theoretical coefficient of performance is [NEET 2027 Target]",
     "options": [
       "$5$",
       "$8$",
@@ -3997,7 +3997,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An engine is supposed to operate between two reservoirs at temperature $727^\\circ\\text{C}$ and $227^\\circ\\text{C}$. The maximum possible efficiency of such an engine is [UPSEAT 2005]",
+    "questionText": "An engine is supposed to operate between two reservoirs at temperature $727^\\circ\\text{C}$ and $227^\\circ\\text{C}$. The maximum possible efficiency of such an engine is [NEET 2028 Expected]",
     "options": [
       "$1/2$",
       "$1/4$",
@@ -4018,7 +4018,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "An ideal gas heat engine operates in Carnot cycle between $227^\\circ\\text{C}$ and $127^\\circ\\text{C}$. It absorbs $6 \\times 10^4\\text{ cal}$ of heat at higher temperature. Amount of heat converted to work is [CBSE PMT 2005]",
+    "questionText": "An ideal gas heat engine operates in Carnot cycle between $227^\\circ\\text{C}$ and $127^\\circ\\text{C}$. It absorbs $6 \\times 10^4\\text{ cal}$ of heat at higher temperature. Amount of heat converted to work is [NEET 2029 Practice]",
     "options": [
       "$2.4 \\times 10^4\\text{ cal}$",
       "$6 \\times 10^4\\text{ cal}$",
@@ -4039,7 +4039,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Isobaric, Isochoric & Heat Engines",
     "difficulty": "Medium",
-    "questionText": "Which of the following processes is reversible [CBSE PMT 2005]",
+    "questionText": "Which of the following processes is reversible [NEET 2027 Target]",
     "options": [
       "Transfer of heat by radiation",
       "Electrical heating of a nichrome wire",
@@ -4060,7 +4060,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "When an ideal diatomic gas is heated at constant pressure, the fraction of the heat energy supplied which increases the internal energy of the gas, is [IIT 1990; UPSEAT 1998; RPET 2000]",
+    "questionText": "When an ideal diatomic gas is heated at constant pressure, the fraction of the heat energy supplied which increases the internal energy of the gas, is [NEET 2028 Expected]",
     "options": [
       "$\\frac{2}{5}$",
       "$\\frac{3}{5}$",
@@ -4081,7 +4081,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "$1\\text{ cm}^3$ of water at its boiling point absorbs $540\\text{ calories}$ of heat to become steam with a volume of $1671\\text{ cm}^3$. If the atmospheric pressure $= 1.013 \\times 10^5\\text{ N/m}^2$ and the mechanical equivalent of heat $= 4.19\\text{ J/calorie}$, the energy spent in this process in overcoming intermolecular forces is [MP PET 1999, 2001; Orissa JEE 2002]",
+    "questionText": "$1\\text{ cm}^3$ of water at its boiling point absorbs $540\\text{ calories}$ of heat to become steam with a volume of $1671\\text{ cm}^3$. If the atmospheric pressure $= 1.013 \\times 10^5\\text{ N/m}^2$ and the mechanical equivalent of heat $= 4.19\\text{ J/calorie}$, the energy spent in this process in overcoming intermolecular forces is [NEET 2029 Practice]",
     "options": [
       "$540\\text{ cal}$",
       "$40\\text{ cal}$",
@@ -4102,7 +4102,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "During the melting of a slab of ice at $273\\text{ K}$ at atmospheric pressure [IIT 1998]",
+    "questionText": "During the melting of a slab of ice at $273\\text{ K}$ at atmospheric pressure [NEET 2027 Target]",
     "options": [
       "Positive work is done by ice-water system on the atmosphere",
       "Positive work is done on the ice-water system by the atmosphere",
@@ -4123,7 +4123,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Two identical containers A and B with frictionless pistons contain the same ideal gas at the same temperature and the same volume $V$. The mass of the gas in A is $m_A$ and that in B is $m_B$. The gas in each cylinder is now allowed to expand isothermally to the same final volume $2V$. The changes in the pressure in A and B are found to be $\\Delta P$ and $1.5\\Delta P$ respectively. Then [IIT 1998]",
+    "questionText": "Two identical containers A and B with frictionless pistons contain the same ideal gas at the same temperature and the same volume $V$. The mass of the gas in A is $m_A$ and that in B is $m_B$. The gas in each cylinder is now allowed to expand isothermally to the same final volume $2V$. The changes in the pressure in A and B are found to be $\\Delta P$ and $1.5\\Delta P$ respectively. Then [NEET 2028 Expected]",
     "options": [
       "$4 m_A = 9 m_B$",
       "$2 m_A = 3 m_B$",
@@ -4144,7 +4144,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A monoatomic ideal gas, initially at temperature $T_1$, is enclosed in a cylinder fitted with a frictionless piston. The gas is allowed to expand adiabatically to a temperature $T_2$ by releasing the piston suddenly. If $L_1$ and $L_2$ are the lengths of the gas column before and after expansion respectively, then $T_1 / T_2$ is given by [IIT-JEE (Screening) 2000]",
+    "questionText": "A monoatomic ideal gas, initially at temperature $T_1$, is enclosed in a cylinder fitted with a frictionless piston. The gas is allowed to expand adiabatically to a temperature $T_2$ by releasing the piston suddenly. If $L_1$ and $L_2$ are the lengths of the gas column before and after expansion respectively, then $T_1 / T_2$ is given by [NEET 2029 Practice]",
     "options": [
       "$\\left(\\frac{L_1}{L_2}\\right)^{2/3}$",
       "$\\frac{L_1}{L_2}$",
@@ -4165,7 +4165,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A closed hollow insulated cylinder is filled with gas at $0^\\circ\\text{C}$ and also contains an insulated piston of negligible weight and negligible thickness at the middle point. The gas on one side of the piston is heated to $100^\\circ\\text{C}$. If the piston moves $5\\text{ cm}$, the length of the hollow cylinder is [EAMCET 2001]",
+    "questionText": "A closed hollow insulated cylinder is filled with gas at $0^\\circ\\text{C}$ and also contains an insulated piston of negligible weight and negligible thickness at the middle point. The gas on one side of the piston is heated to $100^\\circ\\text{C}$. If the piston moves $5\\text{ cm}$, the length of the hollow cylinder is [NEET 2027 Target]",
     "options": [
       "$13.65\\text{ cm}$",
       "$27.3\\text{ cm}$",
@@ -4186,7 +4186,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A monoatomic gas is supplied the heat $Q$ very slowly keeping the pressure constant. The work done by the gas will be [BHU 2003; CPMT 2004]",
+    "questionText": "A monoatomic gas is supplied the heat $Q$ very slowly keeping the pressure constant. The work done by the gas will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{2}{3} Q$",
       "$\\frac{3}{5} Q$",
@@ -4207,7 +4207,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A gas mixture consists of $2\\text{ moles}$ of oxygen and $4\\text{ moles}$ argon at temperature $T$. Neglecting all vibrational modes, the total internal energy of the system is [IIT 1999; UPSEAT 2003]",
+    "questionText": "A gas mixture consists of $2\\text{ moles}$ of oxygen and $4\\text{ moles}$ argon at temperature $T$. Neglecting all vibrational modes, the total internal energy of the system is [NEET 2029 Practice]",
     "options": [
       "$4\\text{ RT}$",
       "$15\\text{ RT}$",
@@ -4228,7 +4228,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "An ideal gas expands isothermally from a volume $V_1$ to $V_2$ and then compressed to original volume $V_1$ adiabatically. Initial pressure is $P_1$ and final pressure is $P_3$. The total work done is $W$. Then [IIT-JEE (Screening) 2004]",
+    "questionText": "An ideal gas expands isothermally from a volume $V_1$ to $V_2$ and then compressed to original volume $V_1$ adiabatically. Initial pressure is $P_1$ and final pressure is $P_3$. The total work done is $W$. Then [NEET 2027 Target]",
     "options": [
       "$P_3 > P_1, W > 0$",
       "$P_3 < P_1, W < 0$",
@@ -4396,7 +4396,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "When an ideal monoatomic gas is heated at constant pressure, fraction of heat energy supplied which increases the internal energy of gas, is [AIIMS 1995]",
+    "questionText": "When an ideal monoatomic gas is heated at constant pressure, fraction of heat energy supplied which increases the internal energy of gas, is [NEET 2028 Expected]",
     "options": [
       "$\\frac{2}{5}$",
       "$\\frac{3}{5}$",
@@ -4417,7 +4417,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "When an ideal gas ($\\gamma = 5/3$) is heated under constant pressure, then what percentage of given heat energy will be utilised in doing external work [RPET 1999]",
+    "questionText": "When an ideal gas ($\\gamma = 5/3$) is heated under constant pressure, then what percentage of given heat energy will be utilised in doing external work [NEET 2029 Practice]",
     "options": [
       "$40\\%$",
       "$30\\%$",
@@ -4438,7 +4438,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Which one of the following gases possesses the largest internal energy [SCRA 1998]",
+    "questionText": "Which one of the following gases possesses the largest internal energy [NEET 2027 Target]",
     "options": [
       "$2\\text{ moles}$ of helium occupying $1\\text{ m}^3$ at $300\\text{ K}$",
       "$56\\text{ kg}$ of nitrogen at $10^7\\text{ N/m}^2$ and $300\\text{ K}$",
@@ -4446,7 +4446,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
       "$6 \\times 10^{26}\\text{ molecules}$ of argon occupying $40\\text{ m}^3$ at $900\\text{ K}$"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\nInternal energy is $U = n C_v T = n \\left(\\frac{f}{2} R\\right) T$, which is proportional to the number of moles $n$ and temperature $T$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n(A) Helium ($n = 2\\text{ mol}$): $U = 2 \\times \\frac{3}{2} R (300) = 900 R$.\n(B) Nitrogen ($56\\text{ kg} = 56000\\text{ g}$, $M = 28\\text{ g/mol} \\implies n = 2000\\text{ moles}$):\n$$U = 2000 \\times \\frac{5}{2} R (300) = 1.5 \\times 10^6 R$$\n(C) Oxygen ($8\\text{ g} = 0.25\\text{ mol}$): tiny fraction.\n(D) Argon ($6 \\times 10^{26}\\text{ molecules} \\approx 1000\\text{ moles}$): $U = 1000 \\times \\frac{3}{2} R (900) = 1.35 \\times 10^6 R$.\nComparing: Option B has the highest internal energy ($1.5 \\times 10^6 R$).\n\n### ✓ Examiner Pro-Tip\nAlways convert mass to moles: $56\\text{ kg}$ of $N_2$ is an enormous quantity ($2000\\text{ moles}$). ",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Critical Thinking",
       "Thermodynamics",
@@ -4459,7 +4459,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Two samples A and B of a gas initially at the same pressure and temperature are compressed from volume $V$ to $V/2$ (A isothermally and B adiabatically). The final pressure of A is [MP PET 1996, 99; MP PMT 1997, 99]",
+    "questionText": "Two samples A and B of a gas initially at the same pressure and temperature are compressed from volume $V$ to $V/2$ (A isothermally and B adiabatically). The final pressure of A is [NEET 2029 Practice]",
     "options": [
       "Greater than the final pressure of B",
       "Equal to the final pressure of B",
@@ -4480,7 +4480,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Initial pressure and volume of a gas are $P$ and $V$ respectively. First it is expanded isothermally to volume $4 V$ and then compressed adiabatically to volume $V$. The final pressure of gas will be (for $\\gamma = 1.5$) [CBSE PMT 1999]",
+    "questionText": "Initial pressure and volume of a gas are $P$ and $V$ respectively. First it is expanded isothermally to volume $4 V$ and then compressed adiabatically to volume $V$. The final pressure of gas will be (for $\\gamma = 1.5$) [NEET 2027 Target]",
     "options": [
       "$1P$",
       "$2P$",
@@ -4501,7 +4501,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A thermally insulated rigid container contains an ideal gas heated by a filament of resistance $100\\ \\Omega$ through a current of $1\\text{ A}$ for $5\\text{ min}$ then change in internal energy is [IIT-JEE (Screening) 2005]",
+    "questionText": "A thermally insulated rigid container contains an ideal gas heated by a filament of resistance $100\\ \\Omega$ through a current of $1\\text{ A}$ for $5\\text{ min}$ then change in internal energy is [NEET 2028 Expected]",
     "options": [
       "$0\\text{ kJ}$",
       "$10\\text{ kJ}$",
@@ -4522,7 +4522,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A reversible engine converts one-sixth of the heat input into work. When the temperature of the sink is reduced by $62^\\circ\\text{C}$, the efficiency of the engine is doubled. The temperatures of the source and sink are [CBSE PMT 2000]",
+    "questionText": "A reversible engine converts one-sixth of the heat input into work. When the temperature of the sink is reduced by $62^\\circ\\text{C}$, the efficiency of the engine is doubled. The temperatures of the source and sink are [NEET 2029 Practice]",
     "options": [
       "$80^\\circ\\text{C}, 37^\\circ\\text{C}$",
       "$95^\\circ\\text{C}, 28^\\circ\\text{C}$",
@@ -4543,7 +4543,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "An engineer claims to have made an engine delivering $10\\text{ kW}$ power with fuel consumption of $1\\text{ g/sec}$. The calorific value of the fuel is $2\\text{ kcal/g}$. Is the claim of the engineer [J & K CET 2000]",
+    "questionText": "An engineer claims to have made an engine delivering $10\\text{ kW}$ power with fuel consumption of $1\\text{ g/sec}$. The calorific value of the fuel is $2\\text{ kcal/g}$. Is the claim of the engineer [NEET 2027 Target]",
     "options": [
       "Valid",
       "Invalid",
@@ -4564,7 +4564,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Find the change in the entropy in the following process: $100\\text{ gm}$ of ice at $0^\\circ\\text{C}$ melts when dropped in a bucket of water at $50^\\circ\\text{C}$ (Assume temperature of water does not change) [BHU (Med.) 2000]",
+    "questionText": "Find the change in the entropy in the following process: $100\\text{ gm}$ of ice at $0^\\circ\\text{C}$ melts when dropped in a bucket of water at $50^\\circ\\text{C}$ (Assume temperature of water does not change) [NEET 2028 Expected]",
     "options": [
       "$-4.5\\text{ cal/K}$",
       "$+4.5\\text{ cal/K}$",
@@ -4585,7 +4585,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "An ideal gas expands in such a manner that its pressure and volume can be related by equation $P V^2 = \\text{constant}$. During this process, the gas is [UPSEAT 2002]",
+    "questionText": "An ideal gas expands in such a manner that its pressure and volume can be related by equation $P V^2 = \\text{constant}$. During this process, the gas is [NEET 2029 Practice]",
     "options": [
       "Heated",
       "Cooled",
@@ -4606,7 +4606,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "A Carnot engine whose low temperature reservoir is at $7^\\circ\\text{C}$ has an efficiency of $50\\%$. It is desired to increase the efficiency to $70\\%$. By how many degrees should the temperature of the high temperature reservoir be increased [UPSEAT 2005]",
+    "questionText": "A Carnot engine whose low temperature reservoir is at $7^\\circ\\text{C}$ has an efficiency of $50\\%$. It is desired to increase the efficiency to $70\\%$. By how many degrees should the temperature of the high temperature reservoir be increased [NEET 2027 Target]",
     "options": [
       "$840\\text{ K}$",
       "$280\\text{ K}$",
@@ -4669,7 +4669,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Critical Thinking",
     "difficulty": "Hard",
-    "questionText": "Two cylinders A and B fitted with pistons contain equal amounts of an ideal diatomic gas at $300\\text{ K}$. The piston of A is free to move while that of B is held fixed. The same amount of heat is given to the gas in each cylinder. If the rise in temperature of the gas in A is $30\\text{ K}$, then the rise in temperature of the gas in B is [IIT 1998]",
+    "questionText": "Two cylinders A and B fitted with pistons contain equal amounts of an ideal diatomic gas at $300\\text{ K}$. The piston of A is free to move while that of B is held fixed. The same amount of heat is given to the gas in each cylinder. If the rise in temperature of the gas in A is $30\\text{ K}$, then the rise in temperature of the gas in B is [NEET 2028 Expected]",
     "options": [
       "$30\\text{ K}$",
       "$18\\text{ K}$",
@@ -4690,7 +4690,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A system goes from A to B via two processes I and II as shown in figure. If $\\Delta U_1$ and $\\Delta U_2$ are the changes in internal energies in the processes I and II respectively, then [AIEEE 2005]",
+    "questionText": "A system goes from A to B via two processes I and II as shown in figure. If $\\Delta U_1$ and $\\Delta U_2$ are the changes in internal energies in the processes I and II respectively, then [NEET 2029 Practice]",
     "options": [
       "$\\Delta U_I > \\Delta U_{II}$",
       "$\\Delta U_I < \\Delta U_{II}$",
@@ -4711,7 +4711,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A thermodynamic system is taken through the cycle PQRSP process. The net work done by the system is [Orissa JEE 2002]",
+    "questionText": "A thermodynamic system is taken through the cycle PQRSP process. The net work done by the system is [NEET 2027 Target]",
     "options": [
       "$20\\text{ J}$",
       "$-20\\text{ J}$",
@@ -4732,7 +4732,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal gas is taken around ABCA as shown in the $P-V$ diagram. The work done during a cycle is [KCET 2001]",
+    "questionText": "An ideal gas is taken around ABCA as shown in the $P-V$ diagram. The work done during a cycle is [NEET 2028 Expected]",
     "options": [
       "$2PV$",
       "$PV$",
@@ -4753,7 +4753,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The P-V diagram shows seven curved paths (connected by vertical paths) that can be followed by a gas. Which two of them should be parts of a closed cycle if the net work done by the gas is to be at its maximum value [AMU (Engg.) 2000]",
+    "questionText": "The P-V diagram shows seven curved paths (connected by vertical paths) that can be followed by a gas. Which two of them should be parts of a closed cycle if the net work done by the gas is to be at its maximum value [NEET 2029 Practice]",
     "options": [
       "ac",
       "cg",
@@ -4774,7 +4774,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal gas of mass $m$ in a state A goes to another state B via three different processes as shown in figure. If $Q_1, Q_2$ and $Q_3$ denote the heat absorbed by the gas along the three paths, then [MP PET 1992]",
+    "questionText": "An ideal gas of mass $m$ in a state A goes to another state B via three different processes as shown in figure. If $Q_1, Q_2$ and $Q_3$ denote the heat absorbed by the gas along the three paths, then [NEET 2027 Target]",
     "options": [
       "$Q_1 > Q_2 > Q_3$",
       "$Q_1 < Q_2 = Q_3$",
@@ -4795,7 +4795,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Which of the following graphs correctly represents the variation of $\\beta = -V(dP/dV)$ with $P$ for an ideal gas at constant temperature [IIT-JEE (Screening) 2002]",
+    "questionText": "Which of the following graphs correctly represents the variation of $\\beta = -V(dP/dV)$ with $P$ for an ideal gas at constant temperature [NEET 2028 Expected]",
     "options": [
       "A straight line passing through the origin ($\\\\beta \\propto P$)",
       "A horizontal line parallel to $P$-axis",
@@ -4816,7 +4816,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A thermodynamic process is shown in the figure. The pressures and volumes corresponding to some points in the figure are: $P_A = 3 \\times 10^4\\text{ Pa}, P_B = 8 \\times 10^4\\text{ Pa}$ and $V_A = 2 \\times 10^{-3}\\text{ m}^3, V_D = 5 \\times 10^{-3}\\text{ m}^3$. In process AB, $600\\text{ J}$ of heat is added to the system and in process BC, $200\\text{ J}$ of heat is added to the system. The change in internal energy of the system in process AC would be [CBSE PMT 1992]",
+    "questionText": "A thermodynamic process is shown in the figure. The pressures and volumes corresponding to some points in the figure are: $P_A = 3 \\times 10^4\\text{ Pa}, P_B = 8 \\times 10^4\\text{ Pa}$ and $V_A = 2 \\times 10^{-3}\\text{ m}^3, V_D = 5 \\times 10^{-3}\\text{ m}^3$. In process AB, $600\\text{ J}$ of heat is added to the system and in process BC, $200\\text{ J}$ of heat is added to the system. The change in internal energy of the system in process AC would be [NEET 2029 Practice]",
     "options": [
       "$560\\text{ J}$",
       "$800\\text{ J}$",
@@ -4837,7 +4837,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "P-V plots for two gases during adiabatic process are shown in the figure. Plots 1 and 2 should correspond respectively to [IIT-JEE (Screening) 2001]",
+    "questionText": "P-V plots for two gases during adiabatic process are shown in the figure. Plots 1 and 2 should correspond respectively to [NEET 2027 Target]",
     "options": [
       "$\\text{He}$ and $\\text{O}_2$",
       "$\\text{O}_2$ and $\\text{He}$",
@@ -4858,7 +4858,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Four curves A, B, C and D are drawn in the adjoining figure for a given amount of gas. The curves which represent adiabatic and isothermal changes are [CPMT 1986; UPSEAT 1999]",
+    "questionText": "Four curves A, B, C and D are drawn in the adjoining figure for a given amount of gas. The curves which represent adiabatic and isothermal changes are [NEET 2028 Expected]",
     "options": [
       "C and D respectively",
       "D and C respectively",
@@ -4879,7 +4879,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "In the pressure-volume diagram given, the isochoric, isothermal, and isobaric parts respectively, are [Manipal MEE 1995]",
+    "questionText": "In the pressure-volume diagram given, the isochoric, isothermal, and isobaric parts respectively, are [NEET 2029 Practice]",
     "options": [
       "BA, AD, DC",
       "DC, CB, BA",
@@ -4900,7 +4900,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The P-V diagram of a system undergoing thermodynamic transformation is shown in figure. The work done on the system in going from $A \\to B \\to C$ is $50\\text{ J}$ and $20\\text{ cal}$ heat is given to the system. The change in internal energy between A and C is [UPSEAT 2002]",
+    "questionText": "The P-V diagram of a system undergoing thermodynamic transformation is shown in figure. The work done on the system in going from $A \\to B \\to C$ is $50\\text{ J}$ and $20\\text{ cal}$ heat is given to the system. The change in internal energy between A and C is [NEET 2027 Target]",
     "options": [
       "$34\\text{ J}$",
       "$70\\text{ J}$",
@@ -4921,7 +4921,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal gas is taken through the cycle $A \\to B \\to C \\to A$, as shown in the figure. If the net heat supplied to the gas in the cycle is $5\\text{ J}$, the work done by the gas in the process $C \\to A$ is [IIT-JEE (Screening) 2002; RPMT 2004]",
+    "questionText": "An ideal gas is taken through the cycle $A \\to B \\to C \\to A$, as shown in the figure. If the net heat supplied to the gas in the cycle is $5\\text{ J}$, the work done by the gas in the process $C \\to A$ is [NEET 2028 Expected]",
     "options": [
       "$-5\\text{ J}$",
       "$-10\\text{ J}$",
@@ -5005,7 +5005,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Carnot cycle (reversible) of a gas represented by a Pressure-Volume curve is shown in the diagram. Consider the following statements:\nI. Area ABCD = Work done on the gas\nII. Area ABCD = Net heat absorbed\nIII. Change in the internal energy in cycle = 0\nWhich of these are correct [AMU (Med.) 2001]",
+    "questionText": "Carnot cycle (reversible) of a gas represented by a Pressure-Volume curve is shown in the diagram. Consider the following statements:\nI. Area ABCD = Work done on the gas\nII. Area ABCD = Net heat absorbed\nIII. Change in the internal energy in cycle = 0\nWhich of these are correct [NEET 2029 Practice]",
     "options": [
       "I only",
       "II only",
@@ -5026,7 +5026,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The temperature-entropy diagram of a reversible engine cycle is given in the figure. Its efficiency is [AIEEE 2005]",
+    "questionText": "The temperature-entropy diagram of a reversible engine cycle is given in the figure. Its efficiency is [NEET 2027 Target]",
     "options": [
       "$1/3$",
       "$2/3$",
@@ -5047,7 +5047,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Work done in the given P-V diagram in the cyclic process is [UPSEAT 1998; RPET 2000; Kerala PMT 2002]",
+    "questionText": "Work done in the given P-V diagram in the cyclic process is [NEET 2028 Expected]",
     "options": [
       "$PV$",
       "$2PV$",
@@ -5089,7 +5089,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "In the figure given two processes A and B are shown by which a thermodynamical system goes from initial state i to final state f. If $\\Delta Q_A$ and $\\Delta Q_B$ are respectively the heats supplied to the systems then [RPET 1999]",
+    "questionText": "In the figure given two processes A and B are shown by which a thermodynamical system goes from initial state i to final state f. If $\\Delta Q_A$ and $\\Delta Q_B$ are respectively the heats supplied to the systems then [NEET 2029 Practice]",
     "options": [
       "$\\Delta Q_A = \\Delta Q_B$",
       "$\\Delta Q_A \\ge \\Delta Q_B$",
@@ -5110,7 +5110,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "In the cyclic process shown in the figure, the work done by the gas in one cycle is [MP PMT 1999]",
+    "questionText": "In the cyclic process shown in the figure, the work done by the gas in one cycle is [NEET 2027 Target]",
     "options": [
       "$28 P_1 V_1$",
       "$14 P_1 V_1$",
@@ -5131,7 +5131,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal gas is taken around the cycle ABCA as shown in the P-V diagram. The net work done by the gas during the cycle is equal to [CPMT 1991]",
+    "questionText": "An ideal gas is taken around the cycle ABCA as shown in the P-V diagram. The net work done by the gas during the cycle is equal to [NEET 2028 Expected]",
     "options": [
       "$12 P_1 V_1$",
       "$6 P_1 V_1$",
@@ -5152,7 +5152,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Heat energy absorbed by a system in going through a cyclic process shown in figure is [AIIMS 1995; BHU 2002]",
+    "questionText": "Heat energy absorbed by a system in going through a cyclic process shown in figure is [NEET 2029 Practice]",
     "options": [
       "$10^7 \\pi\\text{ J}$",
       "$10^4 \\pi\\text{ J}$",
@@ -5173,7 +5173,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A thermodynamic system is taken from state A to B along ACB and is brought back to A along BDA as shown in the PV diagram. The net work done during the complete cycle is given by the area [CBSE PMT 1992]",
+    "questionText": "A thermodynamic system is taken from state A to B along ACB and is brought back to A along BDA as shown in the PV diagram. The net work done during the complete cycle is given by the area [NEET 2027 Target]",
     "options": [
       "$P_1 A C B P_2 P_1$",
       "$A C B B' A' A$",
@@ -5194,7 +5194,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "In the diagrams (i) to (iv) variation of volume with changing pressure is shown. A gas is taken along the path ABCD. The change in internal energy of the gas will be [CPMT 1986, 88]",
+    "questionText": "In the diagrams (i) to (iv) variation of volume with changing pressure is shown. A gas is taken along the path ABCD. The change in internal energy of the gas will be [NEET 2028 Expected]",
     "options": [
       "Positive in all cases (i) to (iv)",
       "Positive in cases (i), (ii) and (iii) but zero in (iv) case",
@@ -5257,7 +5257,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The P-V graph of an ideal gas cycle is shown here. The adiabatic process is described by [CPMT 1985; UPSEAT 2003]",
+    "questionText": "The P-V graph of an ideal gas cycle is shown here. The adiabatic process is described by [NEET 2029 Practice]",
     "options": [
       "AB and BC",
       "AB and CD",
@@ -5278,7 +5278,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal monoatomic gas is taken round the cycle ABCDA as shown in the following P-V diagram. The work done during the cycle is [IIT 1983; CPMT 1990; AMU 1995]",
+    "questionText": "An ideal monoatomic gas is taken round the cycle ABCDA as shown in the following P-V diagram. The work done during the cycle is [NEET 2027 Target]",
     "options": [
       "$PV$",
       "$2 PV$",
@@ -5299,7 +5299,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A system changes from the state $(P_1, V_1)$ to $(P_2, V_2)$ as shown in the figure. What is the work done by the system [CPMT 1981]",
+    "questionText": "A system changes from the state $(P_1, V_1)$ to $(P_2, V_2)$ as shown in the figure. What is the work done by the system [NEET 2028 Expected]",
     "options": [
       "$7.5 \\times 10^5\\text{ joule}$",
       "$7.5 \\times 10^5\\text{ erg}$",
@@ -5320,7 +5320,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Carbon monoxide is carried around a closed cycle abc in which bc is an isothermal process as shown in the figure. The gas absorbs $7000\\text{ J}$ of heat as its temperature increases from $300\\text{ K}$ to $1000\\text{ K}$ in going from a to b. The quantity of heat rejected by the gas during the process ca is [SCRA 1994]",
+    "questionText": "Carbon monoxide is carried around a closed cycle abc in which bc is an isothermal process as shown in the figure. The gas absorbs $7000\\text{ J}$ of heat as its temperature increases from $300\\text{ K}$ to $1000\\text{ K}$ in going from a to b. The quantity of heat rejected by the gas during the process ca is [NEET 2029 Practice]",
     "options": [
       "$4200\\text{ J}$",
       "$5000\\text{ J}$",
@@ -5341,7 +5341,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A sample of ideal monoatomic gas is taken round the cycle ABCA as shown in the figure. The work done during the cycle is [BHU 1994; KCET 2003]",
+    "questionText": "A sample of ideal monoatomic gas is taken round the cycle ABCA as shown in the figure. The work done during the cycle is [NEET 2027 Target]",
     "options": [
       "Zero",
       "$3 PV$",
@@ -5362,7 +5362,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "When a system is taken from state i to a state f along path iaf, $Q = 50\\text{ J}$ and $W = 20\\text{ J}$. Along path ibf, $Q = 35\\text{ J}$. If $W = -13\\text{ J}$ for the curved return path f i, $Q$ for this path is [AMU (Med.) 2000]",
+    "questionText": "When a system is taken from state i to a state f along path iaf, $Q = 50\\text{ J}$ and $W = 20\\text{ J}$. Along path ibf, $Q = 35\\text{ J}$. If $W = -13\\text{ J}$ for the curved return path f i, $Q$ for this path is [NEET 2028 Expected]",
     "options": [
       "$33\\text{ J}$",
       "$23\\text{ J}$",
@@ -5383,7 +5383,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "For one complete cycle of a thermodynamic process on a gas as shown in the P-V diagram (counter-clockwise), which of following is correct [AMU (Engg.) 2000]",
+    "questionText": "For one complete cycle of a thermodynamic process on a gas as shown in the P-V diagram (counter-clockwise), which of following is correct [NEET 2029 Practice]",
     "options": [
       "$\\Delta E_{\\text{int}} = 0, Q < 0$",
       "$\\Delta E_{\\text{int}} = 0, Q > 0$",
@@ -5404,7 +5404,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal gas is taken around ABCA as shown in the P-V diagram. The work done during a cycle is [UPSEAT 2001]",
+    "questionText": "An ideal gas is taken around ABCA as shown in the P-V diagram. The work done during a cycle is [NEET 2027 Target]",
     "options": [
       "Zero",
       "$\\frac{1}{2} PV$",
@@ -5425,7 +5425,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "An ideal gas is taken from point A to the point B, as shown in the P-V diagram, keeping the temperature constant. The work done in the process is approximated by [UPSEAT 2005]",
+    "questionText": "An ideal gas is taken from point A to the point B, as shown in the P-V diagram, keeping the temperature constant. The work done in the process is approximated by [NEET 2028 Expected]",
     "options": [
       "$(P_A - P_B)(V_B - V_A)$",
       "$\\frac{1}{2}(P_B - P_A)(V_A + V_B)$",
@@ -5446,7 +5446,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The P-V diagram of a system undergoing thermodynamic transformation is shown in figure. The work done by the system in going from $A \\to B \\to C$ is $30\\text{ J}$ and $40\\text{ J}$ heat is given to the system. The change in internal energy between A and C is [BCECE 2005]",
+    "questionText": "The P-V diagram of a system undergoing thermodynamic transformation is shown in figure. The work done by the system in going from $A \\to B \\to C$ is $30\\text{ J}$ and $40\\text{ J}$ heat is given to the system. The change in internal energy between A and C is [NEET 2029 Practice]",
     "options": [
       "$10\\text{ J}$",
       "$70\\text{ J}$",
@@ -5488,7 +5488,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Six moles of an ideal gas performs a cycle shown in figure. If the temperatures are $T_A = 600\\text{ K}, T_B = 800\\text{ K}, T_C = 2200\\text{ K}$ and $T_D = 1200\\text{ K}$, the work done per cycle is [BCECE 2005]",
+    "questionText": "Six moles of an ideal gas performs a cycle shown in figure. If the temperatures are $T_A = 600\\text{ K}, T_B = 800\\text{ K}, T_C = 2200\\text{ K}$ and $T_D = 1200\\text{ K}$, the work done per cycle is [NEET 2027 Target]",
     "options": [
       "$20\\text{ kJ}$",
       "$30\\text{ kJ}$",
@@ -5509,7 +5509,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "Which of the accompanying PV diagrams best represents an isothermal process [MP PET 2005]",
+    "questionText": "Which of the accompanying PV diagrams best represents an isothermal process [NEET 2028 Expected]",
     "options": [
       "Straight horizontal line",
       "Rectangular hyperbola ($P \\propto 1/V$)",
@@ -5530,7 +5530,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "In the following figure, four curves A, B, C and D are shown. The curves are [DCE 2003]",
+    "questionText": "In the following figure, four curves A, B, C and D are shown. The curves are [NEET 2029 Practice]",
     "options": [
       "Isothermal for A and D while adiabatic for B and C",
       "Adiabatic for A and C while isothermal for B and D",
@@ -5614,7 +5614,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: Reversible systems are difficult to find in the real world.\nReason: Most natural processes are dissipative in nature [AIIMS 2005]",
+    "questionText": "Assertion: Reversible systems are difficult to find in the real world.\nReason: Most natural processes are dissipative in nature [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -5636,7 +5636,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: Air quickly leaking out of a balloon becomes cooler.\nReason: The leaking air undergoes adiabatic expansion [AIIMS 2005]",
+    "questionText": "Assertion: Air quickly leaking out of a balloon becomes cooler.\nReason: The leaking air undergoes adiabatic expansion [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -5658,7 +5658,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: Thermodynamic processes in nature are irreversible.\nReason: Dissipative effects cannot be eliminated [AIIMS 2004]",
+    "questionText": "Assertion: Thermodynamic processes in nature are irreversible.\nReason: Dissipative effects cannot be eliminated [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -5680,7 +5680,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: When a bottle of cold carbonated drink is opened, a slight fog forms around the opening.\nReason: Adiabatic expansion of the gas causes lowering of temperature and condensation of water vapours [AIIMS 2003]",
+    "questionText": "Assertion: When a bottle of cold carbonated drink is opened, a slight fog forms around the opening.\nReason: Adiabatic expansion of the gas causes lowering of temperature and condensation of water vapours [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -5702,7 +5702,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: The isothermal curves intersect each other at a certain point.\nReason: The isothermal change takes place slowly, so the isothermal curves have very little slope [AIIMS 2001]",
+    "questionText": "Assertion: The isothermal curves intersect each other at a certain point.\nReason: The isothermal change takes place slowly, so the isothermal curves have very little slope [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -5724,7 +5724,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: In adiabatic compression, the internal energy and temperature of the system get decreased.\nReason: The adiabatic compression is a slow process [AIIMS 2001]",
+    "questionText": "Assertion: In adiabatic compression, the internal energy and temperature of the system get decreased.\nReason: The adiabatic compression is a slow process [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -5746,7 +5746,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Assertion & Reason",
     "difficulty": "Hard",
-    "questionText": "Assertion: In isothermal process whole of the heat energy supplied to the body is converted into internal energy.\nReason: According to the first law of thermodynamics $\\Delta Q = \\Delta U + P \\Delta V$ [AIIMS 1997]",
+    "questionText": "Assertion: In isothermal process whole of the heat energy supplied to the body is converted into internal energy.\nReason: According to the first law of thermodynamics $\\Delta Q = \\Delta U + P \\Delta V$ [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
@@ -6120,7 +6120,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Medium",
-    "questionText": "A certain mass of gas at $273\\text{ K}$ is expanded to $81$ times its volume under adiabatic condition. If $\\gamma = 1.25$ for the gas, then its final temperature is [Pb. PET 1997]",
+    "questionText": "A certain mass of gas at $273\\text{ K}$ is expanded to $81$ times its volume under adiabatic condition. If $\\gamma = 1.25$ for the gas, then its final temperature is [NEET 2028 Expected]",
     "options": [
       "$-235^\\circ\\text{C}$",
       "$-182^\\circ\\text{C}$",
@@ -6141,7 +6141,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "In an adiabatic process $90\\text{ J}$ of work is done on the gas. The change in internal energy of the gas is [CPMT 1996]",
+    "questionText": "In an adiabatic process $90\\text{ J}$ of work is done on the gas. The change in internal energy of the gas is [NEET 2029 Practice]",
     "options": [
       "$-90\\text{ J}$",
       "$+90\\text{ J}$",
@@ -6162,7 +6162,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "If a Carnot's engine functions at source temperature $127^\\circ\\text{C}$ and at sink temperature $87^\\circ\\text{C}$, what is its efficiency [DCE 1997]",
+    "questionText": "If a Carnot's engine functions at source temperature $127^\\circ\\text{C}$ and at sink temperature $87^\\circ\\text{C}$, what is its efficiency [NEET 2027 Target]",
     "options": [
       "$10\\%$",
       "$25\\%$",
@@ -6204,7 +6204,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "An ideal monoatomic gas is taken round the cycle ABCDA shown in the PV diagram. The work done during the cycle is [UPSEAT 1998]",
+    "questionText": "An ideal monoatomic gas is taken round the cycle ABCDA shown in the PV diagram. The work done during the cycle is [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{2} PV$",
       "$2 PV$",
@@ -6225,7 +6225,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Medium",
-    "questionText": "A gas is compressed adiabatically till its temperature is doubled. The ratio of its final volume to initial volume will be [BHU 1997]",
+    "questionText": "A gas is compressed adiabatically till its temperature is doubled. The ratio of its final volume to initial volume will be [NEET 2029 Practice]",
     "options": [
       "$1 / 2$",
       "More than $1 / 2$",
@@ -6246,7 +6246,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Medium",
-    "questionText": "A tyre filled with air ($27^\\circ\\text{C}$ and $2\\text{ atm}$) bursts, then what is the temperature of air ($\\gamma = 1.5$) [RPMT 2002]",
+    "questionText": "A tyre filled with air ($27^\\circ\\text{C}$ and $2\\text{ atm}$) bursts, then what is the temperature of air ($\\gamma = 1.5$) [NEET 2027 Target]",
     "options": [
       "$-33^\\circ\\text{C}$",
       "$0^\\circ\\text{C}$",
@@ -6267,7 +6267,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "A gas expands adiabatically such that its temperature $T \\propto \\frac{1}{\\sqrt{V}}$, the value of $C_p / C_v$ of gas is [RPMT 2002; MHCET 2004]",
+    "questionText": "A gas expands adiabatically such that its temperature $T \\propto \\frac{1}{\\sqrt{V}}$, the value of $C_p / C_v$ of gas is [NEET 2028 Expected]",
     "options": [
       "$1.30$",
       "$1.50$",
@@ -6309,7 +6309,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "An engineer claims to have made an engine delivering $10\\text{ kW}$ power with fuel consumption of $1\\text{ g s}^{-1}$. The calorific value of fuel is $2\\text{ kcal/g}$. His claim [J & K CET 2000]",
+    "questionText": "An engineer claims to have made an engine delivering $10\\text{ kW}$ power with fuel consumption of $1\\text{ g s}^{-1}$. The calorific value of fuel is $2\\text{ kcal/g}$. His claim [NEET 2029 Practice]",
     "options": [
       "Is non-valid",
       "Is valid",
@@ -6330,7 +6330,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "An ideal gas heat engine operates in a Carnot cycle between $27^\\circ\\text{C}$ and $127^\\circ\\text{C}$ (wait, $127^\\circ\\text{C}$ and $227^\\circ\\text{C}$). It absorbs $6\\text{ kcal}$ at the higher temperature. The amount of heat (in kcal) converted into work is equal to [CBSE PMT 2003]",
+    "questionText": "An ideal gas heat engine operates in a Carnot cycle between $27^\\circ\\text{C}$ and $127^\\circ\\text{C}$ (wait, $127^\\circ\\text{C}$ and $227^\\circ\\text{C}$). It absorbs $6\\text{ kcal}$ at the higher temperature. The amount of heat (in kcal) converted into work is equal to [NEET 2027 Target]",
     "options": [
       "$3.5$",
       "$1.6$",
@@ -6351,7 +6351,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Hard",
-    "questionText": "A gas expands with temperature according to the relation $V = k T^{2/3}$. What is the work done when the temperature changes by $30^\\circ\\text{C}$ [UPSEAT 1998]",
+    "questionText": "A gas expands with temperature according to the relation $V = k T^{2/3}$. What is the work done when the temperature changes by $30^\\circ\\text{C}$ [NEET 2028 Expected]",
     "options": [
       "$10 R$",
       "$20 R$",
@@ -6549,7 +6549,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
       "$0.1\\text{ J}$"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\nHeat added raises temperature by $\\Delta T = \\frac{Q}{m c}$. Thermal volume expansion is $\\Delta V = V_0 \\gamma \\Delta T = \\left(\\frac{m}{\\rho}\\right) \\gamma \\Delta T$. Work done against atmospheric pressure is $W = P_{\\text{atm}} \\Delta V$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n1. Temperature rise:\n$$\\Delta T = \\frac{20000}{1 \\times 400} = 50^\\circ\\text{C}$$\n2. Volume expansion:\n$$\\Delta V = \\left(\\frac{1\\text{ kg}}{9000\\text{ kg/m}^3}\\right) \\times (9 \\times 10^{-5}) \\times 50 = \\frac{4.5 \\times 10^{-3}}{9000} = 0.5 \\times 10^{-6}\\text{ m}^3$$\n3. Work done:\n$$W = P_{\\text{atm}} \\Delta V = (10^5\\text{ N/m}^2) \\times (0.5 \\times 10^{-6}\\text{ m}^3) = 0.05\\text{ J}$$\n\n### ✓ Examiner Pro-Tip\n$W = 10^5 \\times 0.5 \\times 10^{-6} = 0.05\\text{ J}$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Thermodynamics",
       "Thermal Expansion",
@@ -6563,7 +6563,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "In a thermodynamic process pressure of a fixed mass of a gas is changed in such a manner that the gas releases $30\\text{ joules}$ of heat and $10\\text{ joules}$ of work was done on the gas. If the initial internal energy of the gas was $30\\text{ joules}$, then the final internal energy will be [CPMT 1986]",
+    "questionText": "In a thermodynamic process pressure of a fixed mass of a gas is changed in such a manner that the gas releases $30\\text{ joules}$ of heat and $10\\text{ joules}$ of work was done on the gas. If the initial internal energy of the gas was $30\\text{ joules}$, then the final internal energy will be [NEET 2027 Target]",
     "options": [
       "$2\\text{ J}$",
       "$-18\\text{ J}$",
@@ -6584,7 +6584,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Easy",
-    "questionText": "In an adiabatic change, the pressure $P$ and temperature $T$ of a monoatomic gas are related by the relation $P \\propto T^c$, where $c$ equals [CBSE PMT 1994; BHU 1997; AIIMS 2001; MH CET 2000]",
+    "questionText": "In an adiabatic change, the pressure $P$ and temperature $T$ of a monoatomic gas are related by the relation $P \\propto T^c$, where $c$ equals [NEET 2028 Expected]",
     "options": [
       "$5 / 3$",
       "$2 / 5$",
@@ -6605,7 +6605,7 @@ export const THERMODYNAMICS_PHYSICS_BOOK_QUESTIONS: Question[] = [
     "chapter": "Thermodynamics",
     "topic": "Self Evaluation Test - 14",
     "difficulty": "Medium",
-    "questionText": "The internal energy of an ideal gas increases during an isothermal process when the gas is [SCRA 1998]",
+    "questionText": "The internal energy of an ideal gas increases during an isothermal process when the gas is [NEET 2029 Practice]",
     "options": [
       "Expanded by adding more molecules to it",
       "Expanded by adding more heat to it",

@@ -134,7 +134,7 @@ function getQuestionsFromSubjectIndex(
   // 3. Keyword tokens matching (e.g. "waves", "shm", "kinematics", "optics")
   const tokens = cleanChapter
     .split(/[^a-z0-9]+/)
-    .filter(t => t.length >= 3 && !['and', 'the', 'for', 'with', 'chapter'].includes(t));
+    .filter(t => t.length >= 4 && !['and', 'the', 'for', 'with', 'chapter', 'unit', 'class', 'part', 'test', 'physics', 'chemistry', 'biology'].includes(t));
 
   if (tokens.length > 0) {
     for (let i = 0; i < chapterList.length; i++) {

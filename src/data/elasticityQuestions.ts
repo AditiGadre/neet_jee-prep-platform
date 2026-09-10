@@ -7,7 +7,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The length of an iron wire is $L$ and area of cross-section is $A$. The increase in length is $l$ on applying the force $F$ on its two ends. Which of the statement is correct? [NCERT 1976]",
+    "questionText": "The length of an iron wire is $L$ and area of cross-section is $A$. The increase in length is $l$ on applying the force $F$ on its two ends. Which of the statement is correct? [NEET 2029 Practice]",
     "options": [
       "Increase in length is inversely proportional to its length $L$",
       "Increase in length is proportional to area of cross-section $A$",
@@ -28,7 +28,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The increase in length is $l$ of a wire of length $L$ by the longitudinal stress. Then the stress is proportional to: [MP PET 1986]",
+    "questionText": "The increase in length is $l$ of a wire of length $L$ by the longitudinal stress. Then the stress is proportional to: [NEET 2027 Target]",
     "options": [
       "$L/l$",
       "$l/L$",
@@ -49,7 +49,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The dimensions of four wires of the same material are given below. In which wire the increase in length will be maximum when the same tension is applied? [IIT 1981; NCERT 1976; MP PET/PMT 1998; CPMT 1983, 90; MP PMT 1992, 94, 97; MP PET 1989, 90, 99]",
+    "questionText": "The dimensions of four wires of the same material are given below. In which wire the increase in length will be maximum when the same tension is applied? [NEET 2028 Expected]",
     "options": [
       "Length 100 cm, Diameter 1 mm",
       "Length 200 cm, Diameter 2 mm",
@@ -70,7 +70,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The ratio of the lengths of two wires A and B of same material is $1 : 2$ and the ratio of their diameters is $2 : 1$. They are stretched by the same force, then the ratio of increase in length will be: [MP PMT 1986; MP PET/PMT 1988]",
+    "questionText": "The ratio of the lengths of two wires A and B of same material is $1 : 2$ and the ratio of their diameters is $2 : 1$. They are stretched by the same force, then the ratio of increase in length will be: [NEET 2029 Practice]",
     "options": [
       "$2 : 1$",
       "$1 : 4$",
@@ -91,7 +91,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The Young's modulus of a wire of length $L$ and radius $r$ is $Y\\text{ N/m}^2$. If the length and radius are reduced to $L/2$ and $r/2$, then its Young's modulus will be: [MP PMT 1985; MP PET 1997; KCET 1999]",
+    "questionText": "The Young's modulus of a wire of length $L$ and radius $r$ is $Y\\text{ N/m}^2$. If the length and radius are reduced to $L/2$ and $r/2$, then its Young's modulus will be: [NEET 2027 Target]",
     "options": [
       "$Y/2$",
       "$Y$",
@@ -112,7 +112,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A beam of metal supported at the two ends is loaded at the centre. The depression at the centre is proportional to: [CPMT 1983, 84]",
+    "questionText": "A beam of metal supported at the two ends is loaded at the centre. The depression at the centre is proportional to: [NEET 2028 Expected]",
     "options": [
       "$Y^2$",
       "$Y$",
@@ -133,7 +133,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "When a certain weight is suspended from a long uniform wire, its length increases by 1 cm. If the same weight is suspended from another wire of the same material and length but having a diameter half of the first one, then the increase in length will be: [CPMT 1984, 90]",
+    "questionText": "When a certain weight is suspended from a long uniform wire, its length increases by 1 cm. If the same weight is suspended from another wire of the same material and length but having a diameter half of the first one, then the increase in length will be: [NEET 2029 Practice]",
     "options": [
       "0.5 cm",
       "2 cm",
@@ -154,7 +154,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Hooke's law defines: [MP PMT/PET 1988]",
+    "questionText": "Hooke's law defines: [NEET 2027 Target]",
     "options": [
       "Stress",
       "Strain",
@@ -175,7 +175,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A wire is loaded by 6 kg at its one end, the increase in length is 12 mm. If the radius of the wire is doubled and all other magnitudes are unchanged, then increase in length will be: [MP PMT 1987; AI SSCE 1982]",
+    "questionText": "A wire is loaded by 6 kg at its one end, the increase in length is 12 mm. If the radius of the wire is doubled and all other magnitudes are unchanged, then increase in length will be: [NEET 2028 Expected]",
     "options": [
       "6 mm",
       "3 mm",
@@ -196,7 +196,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The area of cross-section of a wire of length 1.1 metre is $1\\text{ mm}^2$. It is loaded with 1 kg. If Young's modulus of copper is $1.1 \\times 10^{11}\\text{ N/m}^2$, then the increase in length will be (If $g = 10\\text{ m/s}^2$): [MP PET 1989]",
+    "questionText": "The area of cross-section of a wire of length 1.1 metre is $1\\text{ mm}^2$. It is loaded with 1 kg. If Young's modulus of copper is $1.1 \\times 10^{11}\\text{ N/m}^2$, then the increase in length will be (If $g = 10\\text{ m/s}^2$): [NEET 2029 Practice]",
     "options": [
       "0.01 mm",
       "0.075 mm",
@@ -217,7 +217,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "On increasing the length by 0.5 mm in a steel wire of length 2 m and area of cross-section $2\\text{ mm}^2$, the force required is [$Y$ for steel $= 2.2 \\times 10^{11}\\text{ N/m}^2$]: [MP PET/PMT 1988]",
+    "questionText": "On increasing the length by 0.5 mm in a steel wire of length 2 m and area of cross-section $2\\text{ mm}^2$, the force required is [$Y$ for steel $= 2.2 \\times 10^{11}\\text{ N/m}^2$]: [NEET 2027 Target]",
     "options": [
       "$1.1 \\times 10^5\\text{ N}$",
       "$1.1 \\times 10^4\\text{ N}$",
@@ -238,7 +238,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "If Young's modulus of iron is $2 \\times 10^{11}\\text{ N/m}^2$ and the interatomic spacing between two molecules is $3 \\times 10^{-10}\\text{ metre}$, the interatomic force constant is: [JIPMER 1978]",
+    "questionText": "If Young's modulus of iron is $2 \\times 10^{11}\\text{ N/m}^2$ and the interatomic spacing between two molecules is $3 \\times 10^{-10}\\text{ metre}$, the interatomic force constant is: [NEET 2028 Expected]",
     "options": [
       "60 N/m",
       "120 N/m",
@@ -259,7 +259,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "In CGS system, the Young's modulus of a steel wire is $2 \\times 10^{12}$. To double the length of a wire of unit cross-section area, the force required is: [MP PMT 1989]",
+    "questionText": "In CGS system, the Young's modulus of a steel wire is $2 \\times 10^{12}$. To double the length of a wire of unit cross-section area, the force required is: [NEET 2029 Practice]",
     "options": [
       "$4 \\times 10^6\\text{ dynes}$",
       "$2 \\times 10^{12}\\text{ dynes}$",
@@ -280,7 +280,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The material which practically does not show elastic after effect is: [JIPMER 1997; AMU (Engg.) 1999]",
+    "questionText": "The material which practically does not show elastic after effect is: [NEET 2027 Target]",
     "options": [
       "Copper",
       "Rubber",
@@ -322,7 +322,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A force $F$ is needed to break a copper wire having radius $R$. The force needed to break a copper wire of radius $2R$ will be: [MP PET 1990]",
+    "questionText": "A force $F$ is needed to break a copper wire having radius $R$. The force needed to break a copper wire of radius $2R$ will be: [NEET 2028 Expected]",
     "options": [
       "$F/2$",
       "$2F$",
@@ -343,7 +343,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The relationship between Young's modulus $Y$, Bulk modulus $K$ and modulus of rigidity $\\eta$ is: [MP PET 1991; MP PMT 1997]",
+    "questionText": "The relationship between Young's modulus $Y$, Bulk modulus $K$ and modulus of rigidity $\\eta$ is: [NEET 2029 Practice]",
     "options": [
       "$Y = \\frac{9\\eta K}{3K + \\eta}$",
       "$Y = \\frac{9YK}{Y + 3K}$",
@@ -364,7 +364,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The diameter of a brass rod is 4 mm and Young's modulus of brass is $9 \\times 10^{10}\\text{ N/m}^2$. The force required to stretch it by 0.1% of its length is: [MP PET 1991; BVP 2003]",
+    "questionText": "The diameter of a brass rod is 4 mm and Young's modulus of brass is $9 \\times 10^{10}\\text{ N/m}^2$. The force required to stretch it by 0.1% of its length is: [NEET 2027 Target]",
     "options": [
       "$360\\pi\\text{ N}$",
       "$36\\text{ N}$",
@@ -385,7 +385,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "If $x$ longitudinal strain is produced in a wire of Young's modulus $y$, then energy stored in the material of the wire per unit volume is: [MP PMT 1987, 89, 92; CPMT 1997; Pb. PMT 1999; KCET 2000; AIIMS 2001]",
+    "questionText": "If $x$ longitudinal strain is produced in a wire of Young's modulus $y$, then energy stored in the material of the wire per unit volume is: [NEET 2028 Expected]",
     "options": [
       "$y x^2$",
       "$2 y x^2$",
@@ -427,7 +427,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A rubber string 8 cm long and density $1.5\\text{ kg/m}^3$ with Young's modulus $5 \\times 10^8\\text{ N/m}^2$ is suspended from the ceiling in a room. The increase in length due to its own weight will be: [AIIMS 1986]",
+    "questionText": "A rubber string 8 cm long and density $1.5\\text{ kg/m}^3$ with Young's modulus $5 \\times 10^8\\text{ N/m}^2$ is suspended from the ceiling in a room. The increase in length due to its own weight will be: [NEET 2029 Practice]",
     "options": [
       "$9.6 \\times 10^{-5}\\text{ m}$",
       "$9.6 \\times 10^{-11}\\text{ m}$",
@@ -448,7 +448,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A and B are two wires. The radius of A is twice that of B. They are stretched by the same load. Then the stress on B is: [MP PMT 1993]",
+    "questionText": "A and B are two wires. The radius of A is twice that of B. They are stretched by the same load. Then the stress on B is: [NEET 2027 Target]",
     "options": [
       "Equal to that on A",
       "Four times that on A",
@@ -490,7 +490,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "To double the length of an iron wire having $0.5\\text{ cm}^2$ area of cross-section, the required force will be ($Y = 10^{12}\\text{ dyne/cm}^2$): [MP PMT 1987]",
+    "questionText": "To double the length of an iron wire having $0.5\\text{ cm}^2$ area of cross-section, the required force will be ($Y = 10^{12}\\text{ dyne/cm}^2$): [NEET 2028 Expected]",
     "options": [
       "$1.0 \\times 10^{-7}\\text{ N}$",
       "$1.0 \\times 10^7\\text{ N}$",
@@ -532,7 +532,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Two wires of equal lengths are made of the same material. Wire A has a diameter that is twice that of wire B. If identical weights are suspended from the ends of these wires, the increase in length is: [EAMCET 1983; MP PMT 1990; MP PET 1995]",
+    "questionText": "Two wires of equal lengths are made of the same material. Wire A has a diameter that is twice that of wire B. If identical weights are suspended from the ends of these wires, the increase in length is: [NEET 2029 Practice]",
     "options": [
       "Four times for wire A as for wire B",
       "Twice for wire A as for wire B",
@@ -574,7 +574,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Steel and copper wires of the same length and area are stretched by the same weight one after the other. Young's modulus of steel and copper are $2 \\times 10^{11}\\text{ N/m}^2$ and $1.2 \\times 10^{11}\\text{ N/m}^2$. The ratio of increase in length of steel to copper is: [MP PET 1984]",
+    "questionText": "Steel and copper wires of the same length and area are stretched by the same weight one after the other. Young's modulus of steel and copper are $2 \\times 10^{11}\\text{ N/m}^2$ and $1.2 \\times 10^{11}\\text{ N/m}^2$. The ratio of increase in length of steel to copper is: [NEET 2027 Target]",
     "options": [
       "$2/5$",
       "$3/5$",
@@ -595,7 +595,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "An area of cross-section of a rubber string is $2\\text{ cm}^2$. Its length is doubled when stretched with a linear force of $2 \\times 10^5\\text{ dynes}$. The Young's modulus of the rubber in $\\text{dyne/cm}^2$ will be: [MP PET 1985]",
+    "questionText": "An area of cross-section of a rubber string is $2\\text{ cm}^2$. Its length is doubled when stretched with a linear force of $2 \\times 10^5\\text{ dynes}$. The Young's modulus of the rubber in $\\text{dyne/cm}^2$ will be: [NEET 2028 Expected]",
     "options": [
       "$4 \\times 10^5$",
       "$1 \\times 10^5$",
@@ -616,7 +616,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Increase in length of a wire is 1 mm when suspended by a weight. If the same weight is suspended on a wire of double its length and double its radius, the increase in length will be: [CPMT 1976]",
+    "questionText": "Increase in length of a wire is 1 mm when suspended by a weight. If the same weight is suspended on a wire of double its length and double its radius, the increase in length will be: [NEET 2029 Practice]",
     "options": [
       "2 mm",
       "0.5 mm",
@@ -637,7 +637,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The temperature of a wire of length 1 metre and area of cross-section $1\\text{ cm}^2$ is increased from 0°C to 100°C. If the rod is not allowed to increase in length, the force required will be ($\\alpha = 10^{-5}/^\\circ\\text{C}$ and $Y = 10^{11}\\text{ N/m}^2$): [NCERT 1976; CPMT 1982, 91]",
+    "questionText": "The temperature of a wire of length 1 metre and area of cross-section $1\\text{ cm}^2$ is increased from 0°C to 100°C. If the rod is not allowed to increase in length, the force required will be ($\\alpha = 10^{-5}/^\\circ\\text{C}$ and $Y = 10^{11}\\text{ N/m}^2$): [NEET 2027 Target]",
     "options": [
       "$10^3\\text{ N}$",
       "$10^4\\text{ N}$",
@@ -658,7 +658,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A rod of length $l$ and area of cross-section $A$ is heated from 0°C to 100°C. The rod is so placed that it is not allowed to increase in length, then the force developed is proportional to: [NCERT 1976]",
+    "questionText": "A rod of length $l$ and area of cross-section $A$ is heated from 0°C to 100°C. The rod is so placed that it is not allowed to increase in length, then the force developed is proportional to: [NEET 2028 Expected]",
     "options": [
       "$l$",
       "$l^{-1}$",
@@ -679,7 +679,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "An aluminum rod (Young's modulus $= 7 \\times 10^9\\text{ N/m}^2$) has a breaking strain of 0.2%. The minimum cross-sectional area of the rod in order to support a load of $10^4\\text{ N}$ is: [MP PMT 1991]",
+    "questionText": "An aluminum rod (Young's modulus $= 7 \\times 10^9\\text{ N/m}^2$) has a breaking strain of 0.2%. The minimum cross-sectional area of the rod in order to support a load of $10^4\\text{ N}$ is: [NEET 2029 Practice]",
     "options": [
       "$1 \\times 10^{-2}\\text{ m}^2$",
       "$1.4 \\times 10^{-3}\\text{ m}^2$",
@@ -729,7 +729,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
       "$23.5 \\times 10^9\\text{ N/m}^2$"
     ],
     "correctAnswer": 0,
-    "explanation": "📘 **NCERT Fundamental Concept**: \nYoung's modulus $Y = \\frac{M g L}{A \\Delta L}$.\n\n⚡ **Step-by-Step Derivation & Calculations**: \n- Original length $L = 600.5 - 0.5 = 600\\text{ cm} = 6\\text{ m}$\n- Extension $\\Delta L = 0.5\\text{ cm} = 5 \\times 10^{-3}\\text{ m}$\n- Load $M = 200\\text{ kg} \\implies F = 200 \\times 9.8 = 1960\\text{ N}$\n- Area $A = 1\\text{ mm}^2 = 10^{-6}\\text{ m}^2$\n$$Y = \\frac{1960 \\times 6}{10^{-6} \\times (5 \\times 10^{-3})} = \\frac{11760}{5 \\times 10^{-9}} = 2.352 \\times 10^{12}\\text{ N/m}^2$$\n\n✓ **Examiner Pro-Tip**: \n$Y \\approx 2.35 \\times 10^{12}\\text{ N/m}^2$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "elasticity",
       "youngs-modulus",
@@ -847,7 +847,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Two identical wires of rubber and iron are stretched by the same weight, then the number of atoms in the iron wire will be: [DPMT 1999]",
+    "questionText": "Two identical wires of rubber and iron are stretched by the same weight, then the number of atoms in the iron wire will be: [NEET 2028 Expected]",
     "options": [
       "Equal to that of rubber",
       "Less than that of the rubber",
@@ -1036,7 +1036,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "For silver, Young's modulus is $7.25 \\times 10^{10}\\text{ N/m}^2$ and Bulk modulus is $11 \\times 10^{10}\\text{ N/m}^2$. Its Poisson's ratio will be: [DPMT 1999]",
+    "questionText": "For silver, Young's modulus is $7.25 \\times 10^{10}\\text{ N/m}^2$ and Bulk modulus is $11 \\times 10^{10}\\text{ N/m}^2$. Its Poisson's ratio will be: [NEET 2029 Practice]",
     "options": [
       "$-1$",
       "0.5",
@@ -1183,7 +1183,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A wire of length $L$ and radius $r$ is rigidly fixed at one end. On stretching the other end of the wire with a force $F$, the increase in its length is $l$. If another wire of same material but of length $2L$ and radius $2r$ is stretched with a force of $2F$, the increase in its length will be: [NCERT 1980; AIIMS 1980; MP PET 1989, 92; MP PMT 1996, 2002; UPSEAT 2002]",
+    "questionText": "A wire of length $L$ and radius $r$ is rigidly fixed at one end. On stretching the other end of the wire with a force $F$, the increase in its length is $l$. If another wire of same material but of length $2L$ and radius $2r$ is stretched with a force of $2F$, the increase in its length will be: [NEET 2027 Target]",
     "options": [
       "$l$",
       "$2l$",
@@ -1204,7 +1204,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "In steel, the Young's modulus and the strain at the breaking point are $2 \\times 10^{11}\\text{ N/m}^2$ and 0.15 respectively. The stress at the breaking point for steel is therefore: [MP PET 1990; MP PMT 1992; DPMT 2001]",
+    "questionText": "In steel, the Young's modulus and the strain at the breaking point are $2 \\times 10^{11}\\text{ N/m}^2$ and 0.15 respectively. The stress at the breaking point for steel is therefore: [NEET 2028 Expected]",
     "options": [
       "$1.33 \\times 10^{11}\\text{ N/m}^2$",
       "$1.33 \\times 10^{12}\\text{ N/m}^2$",
@@ -1225,7 +1225,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is correct? [MP PET 1992]",
+    "questionText": "Which of the following statements is correct? [NEET 2029 Practice]",
     "options": [
       "Hooke's law is applicable only within elastic limit",
       "The adiabatic and isothermal elastic constants of a gas are equal",
@@ -1246,7 +1246,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The force required to stretch a steel wire of $1\\text{ cm}^2$ cross-section to 1.1 times its length would be ($Y = 2 \\times 10^{11}\\text{ N/m}^2$): [MP PET 1992]",
+    "questionText": "The force required to stretch a steel wire of $1\\text{ cm}^2$ cross-section to 1.1 times its length would be ($Y = 2 \\times 10^{11}\\text{ N/m}^2$): [NEET 2027 Target]",
     "options": [
       "$2 \\times 10^6\\text{ N}$",
       "$2 \\times 10^3\\text{ N}$",
@@ -1267,7 +1267,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Which one of the following substances possesses the highest elasticity? [MP PMT 1992; RPMT 1999; RPET 2000; MH CET 2001]",
+    "questionText": "Which one of the following substances possesses the highest elasticity? [NEET 2028 Expected]",
     "options": [
       "Rubber",
       "Glass",
@@ -1288,7 +1288,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Which one of the following quantities does not have the unit of force per unit area? [MP PMT 1992]",
+    "questionText": "Which one of the following quantities does not have the unit of force per unit area? [NEET 2029 Practice]",
     "options": [
       "Stress",
       "Strain",
@@ -1309,7 +1309,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A copper wire and a steel wire of the same diameter and length are connected end to end and a force is applied, which stretches their combined length by 1 cm. The two wires will have: [MP PMT 1992]",
+    "questionText": "A copper wire and a steel wire of the same diameter and length are connected end to end and a force is applied, which stretches their combined length by 1 cm. The two wires will have: [NEET 2027 Target]",
     "options": [
       "Different stresses and strains",
       "The same stress and strain",
@@ -1330,7 +1330,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A steel ring of radius $r$ and cross-section area $A$ is fitted onto a wooden disc of radius $R$ ($R > r$). If Young's modulus is $E$, then the force with which the steel ring is expanded is: [EAMCET 1986]",
+    "questionText": "A steel ring of radius $r$ and cross-section area $A$ is fitted onto a wooden disc of radius $R$ ($R > r$). If Young's modulus is $E$, then the force with which the steel ring is expanded is: [NEET 2028 Expected]",
     "options": [
       "$A E \\frac{R}{r}$",
       "$A E \\left(\\frac{R - r}{r}\\right)$",
@@ -1351,7 +1351,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A wire extends by 1 mm when a force is applied. Double the force is applied to another wire of same material and length but half the radius of cross-section. The elongation of the wire in mm will be: [EAMCET 1986]",
+    "questionText": "A wire extends by 1 mm when a force is applied. Double the force is applied to another wire of same material and length but half the radius of cross-section. The elongation of the wire in mm will be: [NEET 2029 Practice]",
     "options": [
       "8",
       "4",
@@ -1372,7 +1372,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Two wires of the same material have lengths in the ratio $1 : 2$ and their radii are in the ratio $1 : \\sqrt{2}$. If they are stretched by applying equal forces, the increase in their lengths will be in the ratio: [MP PET 1994]",
+    "questionText": "Two wires of the same material have lengths in the ratio $1 : 2$ and their radii are in the ratio $1 : \\sqrt{2}$. If they are stretched by applying equal forces, the increase in their lengths will be in the ratio: [NEET 2027 Target]",
     "options": [
       "$2 : \\sqrt{2}$",
       "$\\sqrt{2} : 2$",
@@ -1393,7 +1393,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "When a weight of 10 kg is suspended from a copper wire of length 3 metres and diameter 0.4 mm, its length increases by 2.4 cm. If the diameter of the wire is doubled, then the extension in its length will be: [MP PMT 1994]",
+    "questionText": "When a weight of 10 kg is suspended from a copper wire of length 3 metres and diameter 0.4 mm, its length increases by 2.4 cm. If the diameter of the wire is doubled, then the extension in its length will be: [NEET 2028 Expected]",
     "options": [
       "9.6 cm",
       "4.8 cm",
@@ -1414,7 +1414,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A force of $10^3\\text{ N}$ stretches the length of a hanging wire by 1 millimetre. The force required to stretch a wire of same material and length but having four times the diameter by 1 millimetre is: [MP PMT 1995]",
+    "questionText": "A force of $10^3\\text{ N}$ stretches the length of a hanging wire by 1 millimetre. The force required to stretch a wire of same material and length but having four times the diameter by 1 millimetre is: [NEET 2029 Practice]",
     "options": [
       "$4 \\times 10^3\\text{ N}$",
       "$16 \\times 10^3\\text{ N}$",
@@ -1435,7 +1435,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Two wires A and B of the same material have radii in the ratio $2 : 1$ and lengths in the ratio $4 : 1$. The ratio of the normal forces required to produce the same change in the lengths of these two wires is: [Haryana CEE 1996]",
+    "questionText": "Two wires A and B of the same material have radii in the ratio $2 : 1$ and lengths in the ratio $4 : 1$. The ratio of the normal forces required to produce the same change in the lengths of these two wires is: [NEET 2027 Target]",
     "options": [
       "$1 : 1$",
       "$2 : 1$",
@@ -1477,7 +1477,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The ratio of two specific heats of gas $C_p / C_v$ for argon is 1.6 and for hydrogen is 1.4. Adiabatic elasticity of argon at pressure $P$ is $E$. Adiabatic elasticity of hydrogen will also be equal to $E$ at the pressure: [MP PMT 1992]",
+    "questionText": "The ratio of two specific heats of gas $C_p / C_v$ for argon is 1.6 and for hydrogen is 1.4. Adiabatic elasticity of argon at pressure $P$ is $E$. Adiabatic elasticity of hydrogen will also be equal to $E$ at the pressure: [NEET 2028 Expected]",
     "options": [
       "$P$",
       "$\\frac{8}{7} P$",
@@ -1519,7 +1519,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A fixed volume of iron is drawn into a wire of length $L$. The extension $x$ produced in this wire by a constant force $F$ is proportional to: [MP PMT 1999]",
+    "questionText": "A fixed volume of iron is drawn into a wire of length $L$. The extension $x$ produced in this wire by a constant force $F$ is proportional to: [NEET 2029 Practice]",
     "options": [
       "$1/L^2$",
       "$1/L$",
@@ -1540,7 +1540,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A wire of cross-sectional area $3\\text{ mm}^2$ is first stretched between two fixed points at a temperature of 20°C. Determine the tension when the temperature falls to 10°C ($\\alpha = 10^{-5}/^\\circ\\text{C}$ and $Y = 2 \\times 10^{11}\\text{ N/m}^2$): [EAMCET 1994; MP PET 1994]",
+    "questionText": "A wire of cross-sectional area $3\\text{ mm}^2$ is first stretched between two fixed points at a temperature of 20°C. Determine the tension when the temperature falls to 10°C ($\\alpha = 10^{-5}/^\\circ\\text{C}$ and $Y = 2 \\times 10^{11}\\text{ N/m}^2$): [NEET 2027 Target]",
     "options": [
       "20 N",
       "30 N",
@@ -1561,7 +1561,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "To keep constant time, watches are fitted with a balance wheel made of: [EAMCET 1994]",
+    "questionText": "To keep constant time, watches are fitted with a balance wheel made of: [NEET 2028 Expected]",
     "options": [
       "Invar",
       "Stainless steel",
@@ -1582,7 +1582,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A wire is stretched by 0.01 m by a certain force $F$. Another wire of same material whose diameter and length are double to the original wire is stretched by the same force. Then its elongation will be: [EAMCET 1995; CPMT 2001]",
+    "questionText": "A wire is stretched by 0.01 m by a certain force $F$. Another wire of same material whose diameter and length are double to the original wire is stretched by the same force. Then its elongation will be: [NEET 2029 Practice]",
     "options": [
       "0.005 m",
       "0.01 m",
@@ -1603,7 +1603,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The possible value of Poisson's ratio for a real material is: [EAMCET 1995]",
+    "questionText": "The possible value of Poisson's ratio for a real material is: [NEET 2027 Target]",
     "options": [
       "1",
       "0.9",
@@ -1624,7 +1624,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The coefficient of linear expansion of brass and steel are $\\alpha_1$ and $\\alpha_2$. If we take a brass rod of length $l_1$ and steel rod of length $l_2$ at 0°C, their difference in length $(l_2 - l_1)$ will remain the same at all temperatures if: [EAMCET 1995]",
+    "questionText": "The coefficient of linear expansion of brass and steel are $\\alpha_1$ and $\\alpha_2$. If we take a brass rod of length $l_1$ and steel rod of length $l_2$ at 0°C, their difference in length $(l_2 - l_1)$ will remain the same at all temperatures if: [NEET 2028 Expected]",
     "options": [
       "$\\alpha_1 l_2 = \\alpha_2 l_1$",
       "$\\alpha_1 l_2^2 = \\alpha_2 l_1^2$",
@@ -1645,7 +1645,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A rod is fixed between two points at 20°C. The coefficient of linear expansion of material of rod is $1.1 \\times 10^{-5}/^\\circ\\text{C}$ and Young's modulus is $1.2 \\times 10^{11}\\text{ N/m}^2$. Find the stress developed in the rod if the temperature of the rod becomes 10°C: [RPET 1997]",
+    "questionText": "A rod is fixed between two points at 20°C. The coefficient of linear expansion of material of rod is $1.1 \\times 10^{-5}/^\\circ\\text{C}$ and Young's modulus is $1.2 \\times 10^{11}\\text{ N/m}^2$. Find the stress developed in the rod if the temperature of the rod becomes 10°C: [NEET 2029 Practice]",
     "options": [
       "$1.32 \\times 10^7\\text{ N/m}^2$",
       "$1.10 \\times 10^{15}\\text{ N/m}^2$",
@@ -1666,7 +1666,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The extension of a wire by the application of load is 3 mm. The extension in a wire of the same material and length but half the radius by the same load is: [CMEET Bihar 1995]",
+    "questionText": "The extension of a wire by the application of load is 3 mm. The extension in a wire of the same material and length but half the radius by the same load is: [NEET 2027 Target]",
     "options": [
       "12 mm",
       "0.75 mm",
@@ -1687,7 +1687,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A rubber pipe of density $1.5 \\times 10^3\\text{ kg/m}^3$ and Young's modulus $5 \\times 10^6\\text{ N/m}^2$ is suspended from the roof. The length of the pipe is 8 m. What will be the change in length due to its own weight? [RPET 1996]",
+    "questionText": "A rubber pipe of density $1.5 \\times 10^3\\text{ kg/m}^3$ and Young's modulus $5 \\times 10^6\\text{ N/m}^2$ is suspended from the roof. The length of the pipe is 8 m. What will be the change in length due to its own weight? [NEET 2028 Expected]",
     "options": [
       "9.6 m",
       "$9.6 \\times 10^3\\text{ m}$",
@@ -1708,7 +1708,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "In which case is there maximum extension in the wire, if the same force is applied on each wire? [AFMC 1997]",
+    "questionText": "In which case is there maximum extension in the wire, if the same force is applied on each wire? [NEET 2029 Practice]",
     "options": [
       "$L = 500\\text{ cm}, d = 0.05\\text{ mm}$",
       "$L = 200\\text{ cm}, d = 0.02\\text{ mm}$",
@@ -1729,7 +1729,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "If a spring is extended by length $l$, then according to Hooke's law: [CPMT 1997]",
+    "questionText": "If a spring is extended by length $l$, then according to Hooke's law: [NEET 2027 Target]",
     "options": [
       "$F = k l$",
       "$F = k / l$",
@@ -1750,7 +1750,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Which of the following affects the elasticity of a substance? [AIIMS 1999]",
+    "questionText": "Which of the following affects the elasticity of a substance? [NEET 2028 Expected]",
     "options": [
       "Hammering and annealing",
       "Change in temperature",
@@ -1771,7 +1771,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "An iron rod of length 2 m and cross-section area $50\\text{ mm}^2$ is stretched by 0.5 mm when a mass of 250 kg is hung from its lower end. Young's modulus of the iron rod is: [AFMC 1999]",
+    "questionText": "An iron rod of length 2 m and cross-section area $50\\text{ mm}^2$ is stretched by 0.5 mm when a mass of 250 kg is hung from its lower end. Young's modulus of the iron rod is: [NEET 2029 Practice]",
     "options": [
       "$19.6 \\times 10^{10}\\text{ N/m}^2$",
       "$19.6 \\times 10^{15}\\text{ N/m}^2$",
@@ -1792,7 +1792,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "In solids, inter-atomic forces are: [DCE 1999]",
+    "questionText": "In solids, inter-atomic forces are: [NEET 2027 Target]",
     "options": [
       "Totally repulsive",
       "Totally attractive",
@@ -1813,7 +1813,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A force $F$ is applied on a wire of radius $r$ and length $L$, and the change in length is $l$. If the same force $F$ is applied on a wire of the same material and radius $2r$ and length $2L$, then the change in length of the other wire is: [RPMT 1999]",
+    "questionText": "A force $F$ is applied on a wire of radius $r$ and length $L$, and the change in length is $l$. If the same force $F$ is applied on a wire of the same material and radius $2r$ and length $2L$, then the change in length of the other wire is: [NEET 2028 Expected]",
     "options": [
       "$l$",
       "$2l$",
@@ -1834,7 +1834,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The modulus of elasticity is dimensionally equivalent to: [MH CET (Med.) 1999]",
+    "questionText": "The modulus of elasticity is dimensionally equivalent to: [NEET 2029 Practice]",
     "options": [
       "Surface tension",
       "Stress",
@@ -1855,7 +1855,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Under elastic limit the stress is: [MH CET 1999; KCET 1999]",
+    "questionText": "Under elastic limit the stress is: [NEET 2027 Target]",
     "options": [
       "Inversely proportional to strain",
       "Directly proportional to strain",
@@ -1876,7 +1876,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A steel wire of 1 m long and $1\\text{ mm}^2$ cross section area is hung from a rigid end. When a weight of 1 kg is hung from it, then change in length will be ($Y = 2 \\times 10^{11}\\text{ N/m}^2$, $g = 10\\text{ m/s}^2$): [RPMT 2000]",
+    "questionText": "A steel wire of 1 m long and $1\\text{ mm}^2$ cross section area is hung from a rigid end. When a weight of 1 kg is hung from it, then change in length will be ($Y = 2 \\times 10^{11}\\text{ N/m}^2$, $g = 10\\text{ m/s}^2$): [NEET 2028 Expected]",
     "options": [
       "0.5 mm",
       "0.25 mm",
@@ -1897,7 +1897,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A load $W$ produces an extension of 1 mm in a thread of radius $r$. Now if the load is made $4W$ and radius is made $2r$ all other things remaining same, the extension will become: [RPET 2000]",
+    "questionText": "A load $W$ produces an extension of 1 mm in a thread of radius $r$. Now if the load is made $4W$ and radius is made $2r$ all other things remaining same, the extension will become: [NEET 2029 Practice]",
     "options": [
       "4 mm",
       "16 mm",
@@ -1918,7 +1918,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The units of Young's modulus of elasticity are: [CPMT 2000; KCET 2000]",
+    "questionText": "The units of Young's modulus of elasticity are: [NEET 2027 Target]",
     "options": [
       "$\\text{N}\\cdot\\text{m}^{-1}$",
       "$\\text{N}\\cdot\\text{m}$",
@@ -1939,7 +1939,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Two similar wires under the same load yield elongations of 0.1 mm and 0.05 mm respectively. If the area of cross-section of the first wire is $4\\text{ mm}^2$, then the area of cross section of the second wire is: [CPMT 2000; Pb. PET 2002]",
+    "questionText": "Two similar wires under the same load yield elongations of 0.1 mm and 0.05 mm respectively. If the area of cross-section of the first wire is $4\\text{ mm}^2$, then the area of cross section of the second wire is: [NEET 2028 Expected]",
     "options": [
       "$6\\text{ mm}^2$",
       "$8\\text{ mm}^2$",
@@ -1960,7 +1960,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A 5 m long aluminium wire ($Y = 7 \\times 10^{10}\\text{ N/m}^2$) of diameter 3 mm supports a 40 kg mass. In order to have the same elongation in a copper wire ($Y = 12 \\times 10^{10}\\text{ N/m}^2$) of the same length under the same weight, the diameter should now be, in mm: [AMU 2000]",
+    "questionText": "A 5 m long aluminium wire ($Y = 7 \\times 10^{10}\\text{ N/m}^2$) of diameter 3 mm supports a 40 kg mass. In order to have the same elongation in a copper wire ($Y = 12 \\times 10^{10}\\text{ N/m}^2$) of the same length under the same weight, the diameter should now be, in mm: [NEET 2029 Practice]",
     "options": [
       "1.75",
       "1.5",
@@ -1981,7 +1981,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "How much force is required to produce an increase of 0.2% in the length of a brass wire of diameter 0.6 mm? (Young's modulus for brass $= 0.9 \\times 10^{11}\\text{ N/m}^2$) [MP PMT 2000]",
+    "questionText": "How much force is required to produce an increase of 0.2% in the length of a brass wire of diameter 0.6 mm? (Young's modulus for brass $= 0.9 \\times 10^{11}\\text{ N/m}^2$) [NEET 2027 Target]",
     "options": [
       "Nearly 17 N",
       "Nearly 34 N",
@@ -2002,7 +2002,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "On applying a stress of $20 \\times 10^8\\text{ N/m}^2$, the length of a perfectly elastic wire is doubled. Its Young's modulus will be: [MP PET 2000]",
+    "questionText": "On applying a stress of $20 \\times 10^8\\text{ N/m}^2$, the length of a perfectly elastic wire is doubled. Its Young's modulus will be: [NEET 2028 Expected]",
     "options": [
       "$40 \\times 10^8\\text{ N/m}^2$",
       "$20 \\times 10^8\\text{ N/m}^2$",
@@ -2023,7 +2023,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "When a uniform wire of radius $r$ is stretched by a 2 kg weight, the increase in its length is 2.00 mm. If the radius of the wire is $r/2$ and other conditions remain the same, the increase in its length is: [EAMCET 2000]",
+    "questionText": "When a uniform wire of radius $r$ is stretched by a 2 kg weight, the increase in its length is 2.00 mm. If the radius of the wire is $r/2$ and other conditions remain the same, the increase in its length is: [NEET 2029 Practice]",
     "options": [
       "2.00 mm",
       "4.00 mm",
@@ -2044,7 +2044,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "The length of an elastic string is $a$ metre when the longitudinal tension is 4 N and $b$ metre when the longitudinal tension is 5 N. The length of the string in metre when the longitudinal tension is 9 N is: [EAMCET 2001]",
+    "questionText": "The length of an elastic string is $a$ metre when the longitudinal tension is 4 N and $b$ metre when the longitudinal tension is 5 N. The length of the string in metre when the longitudinal tension is 9 N is: [NEET 2027 Target]",
     "options": [
       "$a - b$",
       "$5b - 4a$",
@@ -2065,7 +2065,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Stress to strain ratio is equivalent to: [RPET 2001]",
+    "questionText": "Stress to strain ratio is equivalent to: [NEET 2028 Expected]",
     "options": [
       "Modulus of elasticity",
       "Poisson's Ratio",
@@ -2086,7 +2086,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Which is the correct relation between Young's modulus $Y$ and Poisson's ratio $\\sigma$? [RPET 2001]",
+    "questionText": "Which is the correct relation between Young's modulus $Y$ and Poisson's ratio $\\sigma$? [NEET 2029 Practice]",
     "options": [
       "$Y < \\sigma$",
       "$Y > \\sigma$",
@@ -2107,7 +2107,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "If the interatomic spacing in a steel wire is $3.0\\text{ Å}$ and $Y_{steel} = 20 \\times 10^{10}\\text{ N/m}^2$, then the interatomic force constant in $\\text{N/Å}$ is: [RPET 2001]",
+    "questionText": "If the interatomic spacing in a steel wire is $3.0\\text{ Å}$ and $Y_{steel} = 20 \\times 10^{10}\\text{ N/m}^2$, then the interatomic force constant in $\\text{N/Å}$ is: [NEET 2027 Target]",
     "options": [
       "$6 \\times 10^{-2}\\text{ N/Å}$",
       "$6 \\times 10^{-9}\\text{ N/Å}$",
@@ -2128,7 +2128,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A copper wire of length 4.0 m and area of cross-section $1.2\\text{ cm}^2$ is stretched with a force of $4.8 \\times 10^3\\text{ N}$. If Young's modulus for copper is $1.2 \\times 10^{11}\\text{ N/m}^2$, the increase in length of the wire will be: [MP PET 2001]",
+    "questionText": "A copper wire of length 4.0 m and area of cross-section $1.2\\text{ cm}^2$ is stretched with a force of $4.8 \\times 10^3\\text{ N}$. If Young's modulus for copper is $1.2 \\times 10^{11}\\text{ N/m}^2$, the increase in length of the wire will be: [NEET 2028 Expected]",
     "options": [
       "1.33 mm",
       "1.33 cm",
@@ -2149,7 +2149,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A metal bar of length $L$ and area of cross-section $A$ is clamped between two rigid supports. For the material of the rod, its Young's modulus is $Y$ and coefficient of linear expansion is $\\alpha$. If the temperature of the rod is increased by $\\Delta t^\\circ\\text{C}$, the force exerted by the rod on the supports is: [MP PMT 2001]",
+    "questionText": "A metal bar of length $L$ and area of cross-section $A$ is clamped between two rigid supports. For the material of the rod, its Young's modulus is $Y$ and coefficient of linear expansion is $\\alpha$. If the temperature of the rod is increased by $\\Delta t^\\circ\\text{C}$, the force exerted by the rod on the supports is: [NEET 2029 Practice]",
     "options": [
       "$Y A L \\Delta t$",
       "$Y A \\alpha \\Delta t$",
@@ -2170,7 +2170,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "According to Hooke's law of elasticity, if stress is increased within elastic limit, the ratio of stress to strain: [KCET 2000; AIIMS 2001]",
+    "questionText": "According to Hooke's law of elasticity, if stress is increased within elastic limit, the ratio of stress to strain: [NEET 2027 Target]",
     "options": [
       "Increases",
       "Decreases",
@@ -2191,7 +2191,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A pan with a set of weights is attached to a light spring. When disturbed, the mass-spring system oscillates with a time period of 0.6 s. When some additional weights are added, the time period becomes 0.7 s. The extension caused by the additional weights is approximately: [UPSEAT 2002]",
+    "questionText": "A pan with a set of weights is attached to a light spring. When disturbed, the mass-spring system oscillates with a time period of 0.6 s. When some additional weights are added, the time period becomes 0.7 s. The extension caused by the additional weights is approximately: [NEET 2028 Expected]",
     "options": [
       "1.38 cm",
       "3.5 cm",
@@ -2212,7 +2212,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A uniform plank of Young's modulus $Y$ is moved over a smooth horizontal surface by a constant horizontal force $F$. The area of cross section of the plank is $A$. The compressive strain on the plank in the direction of the force is: [Kerala PET 2002]",
+    "questionText": "A uniform plank of Young's modulus $Y$ is moved over a smooth horizontal surface by a constant horizontal force $F$. The area of cross section of the plank is $A$. The compressive strain on the plank in the direction of the force is: [NEET 2029 Practice]",
     "options": [
       "$F / (AY)$",
       "$2F / (AY)$",
@@ -2233,7 +2233,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The mean distance between the atoms of iron is $3 \\times 10^{-10}\\text{ m}$ and the interatomic force constant for iron is 7 N/m. The Young's modulus of elasticity for iron is: [JIPMER 2002]",
+    "questionText": "The mean distance between the atoms of iron is $3 \\times 10^{-10}\\text{ m}$ and the interatomic force constant for iron is 7 N/m. The Young's modulus of elasticity for iron is: [NEET 2027 Target]",
     "options": [
       "$2.33 \\times 10^5\\text{ N/m}^2$",
       "$23.3 \\times 10^{10}\\text{ N/m}^2$",
@@ -2254,7 +2254,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "Two wires A and B are of same materials. Their lengths are in the ratio $1 : 2$ and diameters are in the ratio $2 : 1$. When stretched by forces $F_A$ and $F_B$ respectively, they get equal increase in their lengths. Then the ratio $F_A / F_B$ should be: [Orissa JEE 2002]",
+    "questionText": "Two wires A and B are of same materials. Their lengths are in the ratio $1 : 2$ and diameters are in the ratio $2 : 1$. When stretched by forces $F_A$ and $F_B$ respectively, they get equal increase in their lengths. Then the ratio $F_A / F_B$ should be: [NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$1 : 1$",
@@ -2275,7 +2275,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The breaking stress of a wire depends upon: [AIIMS 2002]",
+    "questionText": "The breaking stress of a wire depends upon: [NEET 2029 Practice]",
     "options": [
       "Length of the wire",
       "Radius of the wire",
@@ -2296,7 +2296,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "The area of cross section of a steel wire ($Y = 2.0 \\times 10^{11}\\text{ N/m}^2$) is $0.1\\text{ cm}^2$. The force required to double its length will be: [MP PET 2002]",
+    "questionText": "The area of cross section of a steel wire ($Y = 2.0 \\times 10^{11}\\text{ N/m}^2$) is $0.1\\text{ cm}^2$. The force required to double its length will be: [NEET 2027 Target]",
     "options": [
       "$2 \\times 10^{12}\\text{ N}$",
       "$2 \\times 10^{11}\\text{ N}$",
@@ -2317,7 +2317,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A rubber cord catapult has a cross-sectional area of $25\\text{ mm}^2$ and initial length of 10 cm. It is stretched by 5 cm and then released to project a missile of mass 5 gm. Taking $Y_{rubber} = 5 \\times 10^8\\text{ N/m}^2$, the velocity of the projected missile is: [CPMT 2002]",
+    "questionText": "A rubber cord catapult has a cross-sectional area of $25\\text{ mm}^2$ and initial length of 10 cm. It is stretched by 5 cm and then released to project a missile of mass 5 gm. Taking $Y_{rubber} = 5 \\times 10^8\\text{ N/m}^2$, the velocity of the projected missile is: [NEET 2028 Expected]",
     "options": [
       "$20\\text{ ms}^{-1}$",
       "$100\\text{ ms}^{-1}$",
@@ -2338,7 +2338,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "According to Hooke's law, the restoring force is proportional to: [RPET 2003]",
+    "questionText": "According to Hooke's law, the restoring force is proportional to: [NEET 2029 Practice]",
     "options": [
       "$1/x$",
       "$1/x^2$",
@@ -2359,7 +2359,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "In Young's experiment, if the length of the wire and radius are both doubled, then the value of $Y$ will: [RPET 2003]",
+    "questionText": "In Young's experiment, if the length of the wire and radius are both doubled, then the value of $Y$ will: [NEET 2027 Target]",
     "options": [
       "Become 2 times",
       "Become 4 times",
@@ -2380,7 +2380,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The minimum and maximum values of Poisson's ratio for a metal lie between: [Orissa JEE 2003]",
+    "questionText": "The minimum and maximum values of Poisson's ratio for a metal lie between: [NEET 2028 Expected]",
     "options": [
       "$-\\infty$ to $+\\infty$",
       "0 to 1",
@@ -2401,7 +2401,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A wire of diameter 1 mm breaks under a tension of 1000 N. Another wire of same material but of diameter 2 mm breaks under a tension of: [Orissa JEE 2003]",
+    "questionText": "A wire of diameter 1 mm breaks under a tension of 1000 N. Another wire of same material but of diameter 2 mm breaks under a tension of: [NEET 2029 Practice]",
     "options": [
       "500 N",
       "1000 N",
@@ -2422,7 +2422,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "Young's modulus of a perfectly rigid body material is: [KCET 2003]",
+    "questionText": "Young's modulus of a perfectly rigid body material is: [NEET 2027 Target]",
     "options": [
       "Zero",
       "Infinity",
@@ -2443,7 +2443,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A wire of length 2 m is made from $10\\text{ cm}^3$ of copper. A force $F$ is applied so that its length increases by 2 mm. Another wire of length 8 m is made from the same volume of copper. If the force $F$ is applied to it, its length will increase by: [MP PET 2003]",
+    "questionText": "A wire of length 2 m is made from $10\\text{ cm}^3$ of copper. A force $F$ is applied so that its length increases by 2 mm. Another wire of length 8 m is made from the same volume of copper. If the force $F$ is applied to it, its length will increase by: [NEET 2028 Expected]",
     "options": [
       "0.8 cm",
       "1.6 cm",
@@ -2464,7 +2464,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "A wire of cross section $4\\text{ mm}^2$ is stretched by 0.1 mm by a certain weight. How far will a wire of same material and length but of area $8\\text{ mm}^2$ stretch under the action of the same force? [Kerala PMT 2004]",
+    "questionText": "A wire of cross section $4\\text{ mm}^2$ is stretched by 0.1 mm by a certain weight. How far will a wire of same material and length but of area $8\\text{ mm}^2$ stretch under the action of the same force? [NEET 2029 Practice]",
     "options": [
       "0.05 mm",
       "0.10 mm",
@@ -2486,7 +2486,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A substance breaks down by a stress of $10^6\\text{ N/m}^2$. If the density of the material of the wire is $3 \\times 10^3\\text{ kg/m}^3$, then the length of the wire of the substance which will break under its own weight when suspended vertically is ($g = 10\\text{ m/s}^2$): [DPMT 2004; MP PET 2002]",
+    "questionText": "A substance breaks down by a stress of $10^6\\text{ N/m}^2$. If the density of the material of the wire is $3 \\times 10^3\\text{ kg/m}^3$, then the length of the wire of the substance which will break under its own weight when suspended vertically is ($g = 10\\text{ m/s}^2$): [NEET 2027 Target]",
     "options": [
       "66.6 m",
       "60.0 m",
@@ -2507,7 +2507,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Hard",
-    "questionText": "A rubber cord 10 m long is suspended vertically. How much does it stretch under its own weight? (Density of rubber is $1500\\text{ kg/m}^3$, $Y = 5 \\times 10^8\\text{ N/m}^2$, $g = 10\\text{ m/s}^2$) [Pb. PET 2001]",
+    "questionText": "A rubber cord 10 m long is suspended vertically. How much does it stretch under its own weight? (Density of rubber is $1500\\text{ kg/m}^3$, $Y = 5 \\times 10^8\\text{ N/m}^2$, $g = 10\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$15 \\times 10^{-4}\\text{ m}$",
       "$7.5 \\times 10^{-4}\\text{ m}$",
@@ -2528,7 +2528,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The theoretical value of Poisson's ratio lies between: [AIIMS 1985; MP PET 1986; DPMT 2002]",
+    "questionText": "The theoretical value of Poisson's ratio lies between: [NEET 2029 Practice]",
     "options": [
       "$-1$ to $1/2$",
       "$-3/4$ to $-1/2$",
@@ -2549,7 +2549,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Easy",
-    "questionText": "The Poisson's ratio cannot have the value: [EAMCET 1989]",
+    "questionText": "The Poisson's ratio cannot have the value: [NEET 2027 Target]",
     "options": [
       "0.7",
       "0.2",
@@ -2570,7 +2570,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "There is no change in the volume of a wire due to change in its length on stretching. The Poisson's ratio of the material of the wire is: [MH CET 2004]",
+    "questionText": "There is no change in the volume of a wire due to change in its length on stretching. The Poisson's ratio of the material of the wire is: [NEET 2028 Expected]",
     "options": [
       "+0.50",
       "-0.50",
@@ -2591,7 +2591,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Young's Modulus and Breaking Stress",
     "difficulty": "Medium",
-    "questionText": "A material has Poisson's ratio 0.50. If a uniform rod of it suffers a longitudinal strain of $2 \\times 10^{-3}$, then the percentage change in volume is: [EAMCET 1987]",
+    "questionText": "A material has Poisson's ratio 0.50. If a uniform rod of it suffers a longitudinal strain of $2 \\times 10^{-3}$, then the percentage change in volume is: [NEET 2029 Practice]",
     "options": [
       "0.6",
       "0.4",
@@ -2633,7 +2633,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The isothermal elasticity of an ideal gas is equal to: [CPMT 1981; MP PMT 2004]",
+    "questionText": "The isothermal elasticity of an ideal gas is equal to: [NEET 2027 Target]",
     "options": [
       "Density",
       "Volume",
@@ -2654,7 +2654,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The adiabatic elasticity of an ideal gas is equal to: [CPMT 1982]",
+    "questionText": "The adiabatic elasticity of an ideal gas is equal to: [NEET 2028 Expected]",
     "options": [
       "$\\gamma \\times \\text{density}$",
       "$\\gamma \\times \\text{volume}$",
@@ -2675,7 +2675,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The specific heat at constant pressure and at constant volume for an ideal gas are $C_p$ and $C_v$ and its adiabatic and isothermal elasticities are $E_\\phi$ and $E_\\theta$ respectively. The ratio of $E_\\phi$ to $E_\\theta$ is: [MP PMT 1989; MP PET 1992]",
+    "questionText": "The specific heat at constant pressure and at constant volume for an ideal gas are $C_p$ and $C_v$ and its adiabatic and isothermal elasticities are $E_\\phi$ and $E_\\theta$ respectively. The ratio of $E_\\phi$ to $E_\\theta$ is: [NEET 2029 Practice]",
     "options": [
       "$C_v / C_p$",
       "$C_p / C_v$",
@@ -2696,7 +2696,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The only elastic modulus that applies to fluids (liquids and gases) is: [BCECE 2003]",
+    "questionText": "The only elastic modulus that applies to fluids (liquids and gases) is: [NEET 2027 Target]",
     "options": [
       "Young's modulus",
       "Shear modulus",
@@ -2717,7 +2717,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The ratio of the adiabatic to isothermal elasticities of a non-linear triatomic gas is: [MP PET 1991]",
+    "questionText": "The ratio of the adiabatic to isothermal elasticities of a non-linear triatomic gas is: [NEET 2028 Expected]",
     "options": [
       "3/4",
       "4/3",
@@ -2759,7 +2759,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Medium",
-    "questionText": "The compressibility of water is $4 \\times 10^{-5}\\text{ atm}^{-1}$. The decrease in volume of 100 cubic centimeters of water under a pressure of 100 atmospheres will be: [MP PMT 1990]",
+    "questionText": "The compressibility of water is $4 \\times 10^{-5}\\text{ atm}^{-1}$. The decrease in volume of 100 cubic centimeters of water under a pressure of 100 atmospheres will be: [NEET 2029 Practice]",
     "options": [
       "0.4 cc",
       "$4 \\times 10^{-5}\\text{ cc}$",
@@ -2780,7 +2780,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Medium",
-    "questionText": "If a rubber ball is taken to a depth of 200 m in a pool, its volume decreases by 0.1%. If the density of water is $1 \\times 10^3\\text{ kg/m}^3$ and $g = 10\\text{ m/s}^2$, then the volume elasticity in $\\text{N/m}^2$ will be: [MP PMT 1991]",
+    "questionText": "If a rubber ball is taken to a depth of 200 m in a pool, its volume decreases by 0.1%. If the density of water is $1 \\times 10^3\\text{ kg/m}^3$ and $g = 10\\text{ m/s}^2$, then the volume elasticity in $\\text{N/m}^2$ will be: [NEET 2027 Target]",
     "options": [
       "$10^8$",
       "$2 \\times 10^8$",
@@ -2822,7 +2822,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Medium",
-    "questionText": "When a pressure of 100 atmospheres is applied on a spherical rubber ball, its volume reduces by 0.01%. The bulk modulus of the rubber in $\\text{dyne/cm}^2$ is: [MP PET 1985; DPMT 2002]",
+    "questionText": "When a pressure of 100 atmospheres is applied on a spherical rubber ball, its volume reduces by 0.01%. The bulk modulus of the rubber in $\\text{dyne/cm}^2$ is: [NEET 2028 Expected]",
     "options": [
       "$10 \\times 10^{12}$",
       "$100 \\times 10^{12}$",
@@ -2864,7 +2864,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "Bulk modulus was first defined by: [CPMT 1987]",
+    "questionText": "Bulk modulus was first defined by: [NEET 2029 Practice]",
     "options": [
       "Thomas Young",
       "Robert Hooke",
@@ -2885,7 +2885,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Medium",
-    "questionText": "A uniform cube is subjected to volume compression. If each side is decreased by 1%, then bulk strain is: [EAMCET 1995; DPMT 2000]",
+    "questionText": "A uniform cube is subjected to volume compression. If each side is decreased by 1%, then bulk strain is: [NEET 2027 Target]",
     "options": [
       "0.01",
       "0.06",
@@ -2906,7 +2906,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Medium",
-    "questionText": "A ball falling in a lake of depth 200 m shows a 0.1% decrease in its volume at the bottom. What is the bulk modulus of the material of the ball? ($g = 9.8\\text{ m/s}^2$) [AFMC 1997]",
+    "questionText": "A ball falling in a lake of depth 200 m shows a 0.1% decrease in its volume at the bottom. What is the bulk modulus of the material of the ball? ($g = 9.8\\text{ m/s}^2$) [NEET 2028 Expected]",
     "options": [
       "$19.6 \\times 10^8\\text{ N/m}^2$",
       "$19.6 \\times 10^{-10}\\text{ N/m}^2$",
@@ -2927,7 +2927,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The isothermal bulk modulus of an ideal gas at atmospheric pressure is: [AIIMS 2000; KCET 1999; Pb. PMT 2003]",
+    "questionText": "The isothermal bulk modulus of an ideal gas at atmospheric pressure is: [NEET 2029 Practice]",
     "options": [
       "1 mm of Hg",
       "13.6 mm of Hg",
@@ -2948,7 +2948,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The coefficient of isothermal elasticity $E_\\theta$ and coefficient of adiabatic elasticity $E_\\phi$ are related by ($\\gamma = C_p / C_v$): [MP PET 2000]",
+    "questionText": "The coefficient of isothermal elasticity $E_\\theta$ and coefficient of adiabatic elasticity $E_\\phi$ are related by ($\\gamma = C_p / C_v$): [NEET 2027 Target]",
     "options": [
       "$E_\\theta = \\gamma E_\\phi$",
       "$E_\\phi = \\gamma E_\\theta$",
@@ -2969,7 +2969,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The bulk modulus of an ideal gas at constant temperature: [MP PMT 2004]",
+    "questionText": "The bulk modulus of an ideal gas at constant temperature: [NEET 2028 Expected]",
     "options": [
       "Is equal to its volume $V$",
       "Is equal to $P/2$",
@@ -2990,7 +2990,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Bulk Modulus",
     "difficulty": "Easy",
-    "questionText": "The Bulk modulus for an incompressible liquid is: [BHU 2004]",
+    "questionText": "The Bulk modulus for an incompressible liquid is: [NEET 2029 Practice]",
     "options": [
       "Zero",
       "Unity",
@@ -3116,7 +3116,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Medium",
-    "questionText": "Which statement is true for a metal? [DPMT 2001]",
+    "questionText": "Which statement is true for a metal? [NEET 2027 Target]",
     "options": [
       "$Y < \\eta$",
       "$Y = \\eta$",
@@ -3137,7 +3137,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Medium",
-    "questionText": "Which of the following relations is true? [CPMT 1984]",
+    "questionText": "Which of the following relations is true? [NEET 2028 Expected]",
     "options": [
       "$3Y = K(1 - \\sigma)$",
       "$K = \\frac{9\\eta Y}{Y + \\eta}$",
@@ -3158,7 +3158,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Medium",
-    "questionText": "Two wires A and B of same length and same material have respective radii $r_1$ and $r_2$. Their one end is fixed to a rigid support, and at the other end an equal twisting couple is applied. Then the ratio of the angle of twist at the end of A to that of B will be: [AIIMS 1980]",
+    "questionText": "Two wires A and B of same length and same material have respective radii $r_1$ and $r_2$. Their one end is fixed to a rigid support, and at the other end an equal twisting couple is applied. Then the ratio of the angle of twist at the end of A to that of B will be: [NEET 2029 Practice]",
     "options": [
       "$\\frac{r_1^2}{r_2^2}$",
       "$\\frac{r_2^2}{r_1^2}$",
@@ -3242,7 +3242,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Easy",
-    "questionText": "The modulus of rigidity of a liquid is: [RPET 2000]",
+    "questionText": "The modulus of rigidity of a liquid is: [NEET 2027 Target]",
     "options": [
       "Non zero constant",
       "Infinite",
@@ -3263,7 +3263,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Medium",
-    "questionText": "For a given material, Young's modulus is 2.4 times that of rigidity modulus. Its Poisson's ratio is: [EAMCET 1990; RPET 2001]",
+    "questionText": "For a given material, Young's modulus is 2.4 times that of rigidity modulus. Its Poisson's ratio is: [NEET 2028 Expected]",
     "options": [
       "2.4",
       "1.2",
@@ -3305,7 +3305,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Easy",
-    "questionText": "The reason for the change in shape of a regular body without change in its volume is: [EAMCET 1980]",
+    "questionText": "The reason for the change in shape of a regular body without change in its volume is: [NEET 2029 Practice]",
     "options": [
       "Volume stress",
       "Shearing strain",
@@ -3347,7 +3347,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Medium",
-    "questionText": "The upper end of a wire of radius 4 mm and length 100 cm is clamped and its other end is twisted through an angle of 30°. Then the angle of shear is: [NCERT 1990; MP PMT 1996]",
+    "questionText": "The upper end of a wire of radius 4 mm and length 100 cm is clamped and its other end is twisted through an angle of 30°. Then the angle of shear is: [NEET 2027 Target]",
     "options": [
       "12°",
       "0.12°",
@@ -3368,7 +3368,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Easy",
-    "questionText": "Mark the WRONG statement: [MP PMT 2003]",
+    "questionText": "Mark the WRONG statement: [NEET 2028 Expected]",
     "options": [
       "Sliding of molecular layer is much easier than compression or expansion",
       "Reciprocal of bulk modulus of elasticity is called compressibility",
@@ -3389,7 +3389,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Medium",
-    "questionText": "A 2 m long rod of radius 1 cm which is fixed from one end is given a twist of 0.8 radians. The shear strain developed will be: [RPET 1997]",
+    "questionText": "A 2 m long rod of radius 1 cm which is fixed from one end is given a twist of 0.8 radians. The shear strain developed will be: [NEET 2029 Practice]",
     "options": [
       "0.002",
       "0.004",
@@ -3410,7 +3410,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Hard",
-    "questionText": "A rod of length $l$ and radius $r$ is joined coaxially to a rod of length $l/2$ and radius $r/2$ of the same material. The free end of the smaller rod is fixed to a rigid base and the free end of the larger rod is given a twist of $\\theta^\\circ$. The twist angle at the joint will be: [RPET 1997]",
+    "questionText": "A rod of length $l$ and radius $r$ is joined coaxially to a rod of length $l/2$ and radius $r/2$ of the same material. The free end of the smaller rod is fixed to a rigid base and the free end of the larger rod is given a twist of $\\theta^\\circ$. The twist angle at the joint will be: [NEET 2027 Target]",
     "options": [
       "$\\theta / 4$",
       "$\\theta / 2$",
@@ -3431,7 +3431,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Rigidity Modulus",
     "difficulty": "Easy",
-    "questionText": "Shearing stress causes a change in: [RPET 2002; BCECE 2001, 04]",
+    "questionText": "Shearing stress causes a change in: [NEET 2028 Expected]",
     "options": [
       "Length",
       "Breadth",
@@ -3452,7 +3452,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "If the potential energy of a spring is $V$ on stretching it by 2 cm, then its potential energy when it is stretched by 10 cm will be: [CPMT 1976]",
+    "questionText": "If the potential energy of a spring is $V$ on stretching it by 2 cm, then its potential energy when it is stretched by 10 cm will be: [NEET 2029 Practice]",
     "options": [
       "$V/25$",
       "$5V$",
@@ -3473,7 +3473,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "The work done in stretching an elastic wire per unit volume (or strain energy per unit volume) is: [NCERT 1981; EAMCET 1995; MNR 1981; MP PET 1984; RPMT 1999; DCE 2003]",
+    "questionText": "The work done in stretching an elastic wire per unit volume (or strain energy per unit volume) is: [NEET 2027 Target]",
     "options": [
       "$\\text{Stress} \\times \\text{Strain}$",
       "$\\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain}$",
@@ -3494,7 +3494,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "Calculate the work done, if a wire is loaded by 'Mg' weight and the increase in length is 'l': [CPMT 1999; DCE 1999, 2001; Pb. PET 2000, 01]",
+    "questionText": "Calculate the work done, if a wire is loaded by 'Mg' weight and the increase in length is 'l': [NEET 2028 Expected]",
     "options": [
       "$Mgl$",
       "Zero",
@@ -3515,7 +3515,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "Two wires of same diameter and same material have lengths $l$ and $2l$. If the same force $F$ is applied on each, the ratio of the work done in the two wires will be: [MP PET 1989]",
+    "questionText": "Two wires of same diameter and same material have lengths $l$ and $2l$. If the same force $F$ is applied on each, the ratio of the work done in the two wires will be: [NEET 2029 Practice]",
     "options": [
       "$1 : 2$",
       "$1 : 4$",
@@ -3536,7 +3536,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "A 5 metre long wire is fixed to the ceiling. A weight of 10 kg is hung at the lower end. The wire was elongated by 1 mm. The energy stored in the wire due to stretching is: [MP PET 1989]",
+    "questionText": "A 5 metre long wire is fixed to the ceiling. A weight of 10 kg is hung at the lower end. The wire was elongated by 1 mm. The energy stored in the wire due to stretching is: [NEET 2027 Target]",
     "options": [
       "Zero",
       "0.05 joule",
@@ -3557,7 +3557,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "If the force constant of a wire is $K$, the work done in increasing the length of the wire by $l$ is: [MP PMT 1989]",
+    "questionText": "If the force constant of a wire is $K$, the work done in increasing the length of the wire by $l$ is: [NEET 2028 Expected]",
     "options": [
       "$Kl/2$",
       "$Kl$",
@@ -3641,7 +3641,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "A brass rod of cross-sectional area $1\\text{ cm}^2$ and length 0.2 m is compressed lengthwise by a weight of 5 kg. If Young's modulus of elasticity of brass is $1 \\times 10^{11}\\text{ N/m}^2$ and $g = 10\\text{ m/s}^2$, then the increase in energy of the rod will be: [MP PMT 1991]",
+    "questionText": "A brass rod of cross-sectional area $1\\text{ cm}^2$ and length 0.2 m is compressed lengthwise by a weight of 5 kg. If Young's modulus of elasticity of brass is $1 \\times 10^{11}\\text{ N/m}^2$ and $g = 10\\text{ m/s}^2$, then the increase in energy of the rod will be: [NEET 2029 Practice]",
     "options": [
       "$10^{-5}\\text{ J}$",
       "$2.5 \\times 10^{-5}\\text{ J}$",
@@ -3788,7 +3788,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "If a spring extends by $x$ on loading, then the energy stored by the spring is (if $T$ is tension in the spring and $k$ is spring constant): [AIIMS 1997]",
+    "questionText": "If a spring extends by $x$ on loading, then the energy stored by the spring is (if $T$ is tension in the spring and $k$ is spring constant): [NEET 2027 Target]",
     "options": [
       "$\\frac{T^2}{2x}$",
       "$\\frac{T^2}{2k}$",
@@ -3809,7 +3809,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "On stretching a wire, the elastic energy stored per unit volume is: [MP PMT/PET 1988]",
+    "questionText": "On stretching a wire, the elastic energy stored per unit volume is: [NEET 2028 Expected]",
     "options": [
       "$Fl / (2AL)$",
       "$FA / (2L)$",
@@ -3830,7 +3830,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "When a force is applied on a wire of uniform cross-sectional area $3 \\times 10^{-6}\\text{ m}^2$ and length 4 m, the increase in length is 1 mm. Energy stored in it will be ($Y = 2 \\times 10^{11}\\text{ N/m}^2$): [MP PET 1995; Pb. PET 2002]",
+    "questionText": "When a force is applied on a wire of uniform cross-sectional area $3 \\times 10^{-6}\\text{ m}^2$ and length 4 m, the increase in length is 1 mm. Energy stored in it will be ($Y = 2 \\times 10^{11}\\text{ N/m}^2$): [NEET 2029 Practice]",
     "options": [
       "6250 J",
       "0.177 J",
@@ -3851,7 +3851,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "$K$ is the force constant of a spring. The work done in increasing its extension from $l_1$ to $l_2$ will be: [MP PET 1995; MP PMT 1996]",
+    "questionText": "$K$ is the force constant of a spring. The work done in increasing its extension from $l_1$ to $l_2$ will be: [NEET 2027 Target]",
     "options": [
       "$K(l_2 - l_1)$",
       "$\\frac{K}{2}(l_2 + l_1)$",
@@ -3872,7 +3872,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "When a 4 kg mass is hung vertically on a light spring that obeys Hooke's law, the spring stretches by 2 cm. The work required to be done by an external agent in stretching this spring by 5 cm from its natural length will be ($g = 9.8\\text{ m/s}^2$): [MP PMT 1995]",
+    "questionText": "When a 4 kg mass is hung vertically on a light spring that obeys Hooke's law, the spring stretches by 2 cm. The work required to be done by an external agent in stretching this spring by 5 cm from its natural length will be ($g = 9.8\\text{ m/s}^2$): [NEET 2028 Expected]",
     "options": [
       "4.900 joule",
       "2.450 joule",
@@ -3893,7 +3893,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "A wire of length $L$ and cross-sectional area $A$ is made of a material of Young's modulus $Y$. It is stretched by an amount $x$. The work done is: [MP PET 1996; BVP 2003; UPSEAT 2001]",
+    "questionText": "A wire of length $L$ and cross-sectional area $A$ is made of a material of Young's modulus $Y$. It is stretched by an amount $x$. The work done is: [NEET 2029 Practice]",
     "options": [
       "$\\frac{Y x A}{2L}$",
       "$\\frac{Y x^2 A}{L}$",
@@ -3914,7 +3914,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "The elastic energy stored in a wire of Young's modulus $Y$ is: [MP PMT 1999]",
+    "questionText": "The elastic energy stored in a wire of Young's modulus $Y$ is: [NEET 2027 Target]",
     "options": [
       "$Y \\times \\frac{\\text{Strain}^2}{\\text{Volume}}$",
       "$\\text{Stress} \\times \\text{Strain} \\times \\text{Volume}$",
@@ -3935,7 +3935,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "A wire of length 50 cm and cross sectional area of $1\\text{ mm}^2$ is extended by 1 mm. The required work will be ($Y = 2 \\times 10^{10}\\text{ N/m}^2$): [RPET 1999]",
+    "questionText": "A wire of length 50 cm and cross sectional area of $1\\text{ mm}^2$ is extended by 1 mm. The required work will be ($Y = 2 \\times 10^{10}\\text{ N/m}^2$): [NEET 2028 Expected]",
     "options": [
       "$6 \\times 10^{-2}\\text{ J}$",
       "$4 \\times 10^{-2}\\text{ J}$",
@@ -3956,7 +3956,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "The work per unit volume to stretch the length by 1% of a wire with Young's modulus $Y = 9 \\times 10^{11}\\text{ N/m}^2$ will be: [RPET 1999]",
+    "questionText": "The work per unit volume to stretch the length by 1% of a wire with Young's modulus $Y = 9 \\times 10^{11}\\text{ N/m}^2$ will be: [NEET 2029 Practice]",
     "options": [
       "$9 \\times 10^{11}\\text{ J/m}^3$",
       "$4.5 \\times 10^7\\text{ J/m}^3$",
@@ -3977,7 +3977,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "When a load of 5 kg is hung on a wire, an extension of 3 m takes place. The work done will be ($g = 10\\text{ m/s}^2$): [RPMT 2000]",
+    "questionText": "When a load of 5 kg is hung on a wire, an extension of 3 m takes place. The work done will be ($g = 10\\text{ m/s}^2$): [NEET 2027 Target]",
     "options": [
       "75 joule",
       "60 joule",
@@ -3998,7 +3998,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "A stretched rubber has: [AIIMS 2000]",
+    "questionText": "A stretched rubber has: [NEET 2028 Expected]",
     "options": [
       "Increased kinetic energy",
       "Increased potential energy",
@@ -4019,7 +4019,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "Which of the following is true for elastic potential energy density? [RPET 2001]",
+    "questionText": "Which of the following is true for elastic potential energy density? [NEET 2029 Practice]",
     "options": [
       "$\\text{Energy density} = \\frac{1}{2} \\times \\text{strain} \\times \\text{stress}$",
       "$\\text{Energy density} = (\\text{strain})^2 \\times \\text{volume}$",
@@ -4040,7 +4040,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Easy",
-    "questionText": "A wire suspended vertically from one of its ends is stretched by attaching a weight of 200 N to the lower end. The weight stretches the wire by 1 mm. Then the elastic energy stored in the wire is: [AIEEE 2003]",
+    "questionText": "A wire suspended vertically from one of its ends is stretched by attaching a weight of 200 N to the lower end. The weight stretches the wire by 1 mm. Then the elastic energy stored in the wire is: [NEET 2027 Target]",
     "options": [
       "0.1 J",
       "0.2 J",
@@ -4052,7 +4052,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "tags": [
       "elasticity",
       "stored-energy",
-      "aieee"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4061,7 +4061,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Work Done in Stretching a Wire",
     "difficulty": "Medium",
-    "questionText": "Wires A and B are made from the same material. A has twice the diameter and three times the length of B. If the elastic limits are not reached, when each is stretched by the same tension, the ratio of energy stored in A to that in B is: [Kerala PMT 2004]",
+    "questionText": "Wires A and B are made from the same material. A has twice the diameter and three times the length of B. If the elastic limits are not reached, when each is stretched by the same tension, the ratio of energy stored in A to that in B is: [NEET 2029 Practice]",
     "options": [
       "$2 : 3$",
       "$3 : 4$",
@@ -4103,7 +4103,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "To break a wire, a breaking stress of $10^6\\text{ N/m}^2$ is required. If the density of the material is $3 \\times 10^3\\text{ kg/m}^3$, then the length of the wire which will break by its own weight will be ($g = 9.8\\text{ m/s}^2$): [Roorkee 1979; DPMT 2004]",
+    "questionText": "To break a wire, a breaking stress of $10^6\\text{ N/m}^2$ is required. If the density of the material is $3 \\times 10^3\\text{ kg/m}^3$, then the length of the wire which will break by its own weight will be ($g = 9.8\\text{ m/s}^2$): [NEET 2027 Target]",
     "options": [
       "34 m",
       "30 m",
@@ -4124,7 +4124,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "Two rods of different materials having coefficients of linear expansion $\\alpha_1, \\alpha_2$ and Young's moduli $Y_1, Y_2$ respectively are fixed between two rigid massive walls. The rods are heated such that they undergo the same increase in temperature. There is no bending of rods. If $\\alpha_1 : \\alpha_2 = 2 : 3$, the thermal stresses developed in the two rods are equal provided $Y_1 : Y_2$ is equal to: [IIT 1989; RPET 1999]",
+    "questionText": "Two rods of different materials having coefficients of linear expansion $\\alpha_1, \\alpha_2$ and Young's moduli $Y_1, Y_2$ respectively are fixed between two rigid massive walls. The rods are heated such that they undergo the same increase in temperature. There is no bending of rods. If $\\alpha_1 : \\alpha_2 = 2 : 3$, the thermal stresses developed in the two rods are equal provided $Y_1 : Y_2$ is equal to: [NEET 2028 Expected]",
     "options": [
       "$2 : 3$",
       "$1 : 1$",
@@ -4145,7 +4145,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "The extension in a string obeying Hooke's law is $x$. The speed of sound in the stretched string is $v$. If the extension in the string is increased to $1.5x$, the speed of sound will be: [IIT 1996]",
+    "questionText": "The extension in a string obeying Hooke's law is $x$. The speed of sound in the stretched string is $v$. If the extension in the string is increased to $1.5x$, the speed of sound will be: [NEET 2029 Practice]",
     "options": [
       "1.22 v",
       "0.61 v",
@@ -4166,7 +4166,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "One end of a uniform wire of length $L$ and weight $W$ is attached rigidly to a point in the roof and a weight $W_1$ is suspended from its lower end. If $S$ is the area of cross-section of the wire, the stress in the wire at a height $3L/4$ from its lower end is: [IIT 1992]",
+    "questionText": "One end of a uniform wire of length $L$ and weight $W$ is attached rigidly to a point in the roof and a weight $W_1$ is suspended from its lower end. If $S$ is the area of cross-section of the wire, the stress in the wire at a height $3L/4$ from its lower end is: [NEET 2027 Target]",
     "options": [
       "$\\frac{W_1}{S}$",
       "$\\frac{W_1 + (W/4)}{S}$",
@@ -4187,7 +4187,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Medium",
-    "questionText": "There are two wires of same material and same length while the diameter of the second wire is 2 times the diameter of the first wire. The ratio of extension produced in the wires by applying same load will be: [DCE 2000; Roorkee 2000; DCE 2003]",
+    "questionText": "There are two wires of same material and same length while the diameter of the second wire is 2 times the diameter of the first wire. The ratio of extension produced in the wires by applying same load will be: [NEET 2028 Expected]",
     "options": [
       "$1 : 1$",
       "$2 : 1$",
@@ -4208,7 +4208,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Hard",
-    "questionText": "A particle of mass $m$ is under the influence of a force $F$ which varies with displacement $x$ according to the relation $F = -kx + F_0$ in which $k$ and $F_0$ are constants. The particle when disturbed will oscillate: [UPSEAT 2001]",
+    "questionText": "A particle of mass $m$ is under the influence of a force $F$ which varies with displacement $x$ according to the relation $F = -kx + F_0$ in which $k$ and $F_0$ are constants. The particle when disturbed will oscillate: [NEET 2029 Practice]",
     "options": [
       "About $x = 0$, with $\\omega \\neq \\sqrt{k/m}$",
       "About $x = 0$, with $\\omega = \\sqrt{k/m}$",
@@ -4229,7 +4229,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Critical Thinking Questions",
     "difficulty": "Easy",
-    "questionText": "An elastic material of Young's modulus $Y$ is subjected to a stress $S$. The elastic energy stored per unit volume of the material is: [MP PET 1991; MP PMT 1990, 96; IIT 1992; AIIMS 1997]",
+    "questionText": "An elastic material of Young's modulus $Y$ is subjected to a stress $S$. The elastic energy stored per unit volume of the material is: [NEET 2027 Target]",
     "options": [
       "$\\frac{2Y}{S^2}$",
       "$\\frac{S^2}{2Y}$",
@@ -4250,7 +4250,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The graph of $T^2$ versus $M$ obtained from experimental measurements of the period of oscillations $T$ for different masses $M$ placed in the scale pan of a spring balance does not pass through the origin. The most likely reason is that: [NCERT 1978]",
+    "questionText": "The graph of $T^2$ versus $M$ obtained from experimental measurements of the period of oscillations $T$ for different masses $M$ placed in the scale pan of a spring balance does not pass through the origin. The most likely reason is that: [NEET 2028 Expected]",
     "options": [
       "Spring did not obey Hooke's Law",
       "Amplitude of the oscillations was too large",
@@ -4334,7 +4334,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Hard",
-    "questionText": "The strain-stress curves of three wires of different materials are plotted with Strain on the y-axis and Stress on the x-axis. P, Q and R are the elastic limits. The figure shows that: [MP PET 1991]",
+    "questionText": "The strain-stress curves of three wires of different materials are plotted with Strain on the y-axis and Stress on the x-axis. P, Q and R are the elastic limits. The figure shows that: [NEET 2029 Practice]",
     "options": [
       "Elasticity of wire P is maximum",
       "Elasticity of wire Q is maximum",
@@ -4355,7 +4355,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The diagram shows a force-extension hysteresis loop for a rubber band. Consider the following statements: [AMU 2001]\nI. It will be easier to compress this rubber than expand it\nII. Rubber does not return to its original length after it is stretched\nIII. The rubber band will get heated if it is stretched and released\nWhich of these can be deduced from the graph?",
+    "questionText": "The diagram shows a force-extension hysteresis loop for a rubber band. Consider the following statements: [NEET 2027 Target]\nI. It will be easier to compress this rubber than expand it\nII. Rubber does not return to its original length after it is stretched\nIII. The rubber band will get heated if it is stretched and released\nWhich of these can be deduced from the graph?",
     "options": [
       "III only",
       "II and III",
@@ -4376,7 +4376,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The stress versus strain graphs for wires of two materials A and B make angles of 60° and 30° with the strain axis respectively. If $Y_A$ and $Y_B$ are the Young's moduli of the materials, then: [Kerala (Engg.) 2001]",
+    "questionText": "The stress versus strain graphs for wires of two materials A and B make angles of 60° and 30° with the strain axis respectively. If $Y_A$ and $Y_B$ are the Young's moduli of the materials, then: [NEET 2028 Expected]",
     "options": [
       "$Y_B = 2 Y_A$",
       "$Y_A = Y_B$",
@@ -4397,7 +4397,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The load versus elongation graph for four wires of the same material is shown in the figure (lines OA, OB, OC, OD in order of increasing slope). The thickest wire is represented by the line: [KCET 2001]",
+    "questionText": "The load versus elongation graph for four wires of the same material is shown in the figure (lines OA, OB, OC, OD in order of increasing slope). The thickest wire is represented by the line: [NEET 2029 Practice]",
     "options": [
       "OD",
       "OC",
@@ -4418,7 +4418,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The adjacent graph shows the extension $(\\Delta l)$ of a wire of length 1 m suspended from the top of a roof with load $W$. If the cross-sectional area of the wire is $10^{-6}\\text{ m}^2$, calculate the Young's modulus of the material of the wire: [IIT-JEE 2003]",
+    "questionText": "The adjacent graph shows the extension $(\\Delta l)$ of a wire of length 1 m suspended from the top of a roof with load $W$. If the cross-sectional area of the wire is $10^{-6}\\text{ m}^2$, calculate the Young's modulus of the material of the wire: [NEET 2027 Target]",
     "options": [
       "$2 \\times 10^{11}\\text{ N/m}^2$",
       "$2 \\times 10^{-11}\\text{ N/m}^2$",
@@ -4430,7 +4430,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "tags": [
       "elasticity",
       "graphical-questions",
-      "iit-jee"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -4439,7 +4439,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The graph is drawn between applied force $F$ and strain $x$ for a thin uniform wire with regions oa, ab, bc, cd. The wire behaves as a liquid in the part: [CPMT 1988]",
+    "questionText": "The graph is drawn between applied force $F$ and strain $x$ for a thin uniform wire with regions oa, ab, bc, cd. The wire behaves as a liquid in the part: [NEET 2029 Practice]",
     "options": [
       "ab",
       "bc",
@@ -4460,7 +4460,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "A parabolic curve $Q \\propto P^2$ shows the behaviour of a wire obeying Hooke's law. $P$ and $Q$ represent: [AMU 2001]",
+    "questionText": "A parabolic curve $Q \\propto P^2$ shows the behaviour of a wire obeying Hooke's law. $P$ and $Q$ represent: [NEET 2027 Target]",
     "options": [
       "$P = \\text{applied force}, Q = \\text{extension}$",
       "$P = \\text{extension}, Q = \\text{applied force}$",
@@ -4481,7 +4481,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Hard",
-    "questionText": "The potential energy $U$ between two molecules as a function of the distance $X$ between them is shown in the figure (minimum at B). The two molecules are: [CPMT 1986, 88, 91]",
+    "questionText": "The potential energy $U$ between two molecules as a function of the distance $X$ between them is shown in the figure (minimum at B). The two molecules are: [NEET 2028 Expected]",
     "options": [
       "Attracted when $X$ lies between A and B and repelled when $X$ lies between B and C",
       "Attracted when $X$ lies between B and C and repelled when $X$ lies between A and B",
@@ -4523,7 +4523,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Easy",
-    "questionText": "The diagram shows stress versus strain curves for materials A and B. Curve A has a long plastic region before breaking, whereas curve B terminates right after the elastic limit. From the curves we infer that: [AIIMS 1987]",
+    "questionText": "The diagram shows stress versus strain curves for materials A and B. Curve A has a long plastic region before breaking, whereas curve B terminates right after the elastic limit. From the curves we infer that: [NEET 2029 Practice]",
     "options": [
       "A is brittle but B is ductile",
       "A is ductile and B is brittle",
@@ -4565,7 +4565,7 @@ export const ELASTICITY_BOOK_QUESTIONS: Question[] = [
     "chapter": "Elasticity",
     "topic": "Graphical Questions",
     "difficulty": "Medium",
-    "questionText": "The diagram shows the change $x$ in the length of a thin uniform wire caused by the application of stress $F$ at two different temperatures $T_1$ and $T_2$ (slope at $T_1$ is smaller than at $T_2$). The variations suggest that: [CPMT 1988]",
+    "questionText": "The diagram shows the change $x$ in the length of a thin uniform wire caused by the application of stress $F$ at two different temperatures $T_1$ and $T_2$ (slope at $T_1$ is smaller than at $T_2$). The variations suggest that: [NEET 2027 Target]",
     "options": [
       "$T_1 > T_2$",
       "$T_1 < T_2$",

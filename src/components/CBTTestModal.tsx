@@ -325,10 +325,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const accuracy = totalAttempted > 0 ? Math.round((correctCount / totalAttempted) * 100) : 0;
 
     const simulated720Score = Math.round((rawScore / (totalPossibleMarks || 1)) * 720);
-    const predictedAIR = calculateNEETAIR(simulated720Score);
-    const percentile = Math.min(99.99, Math.max(12.5, +(100 - (predictedAIR / 2400000) * 100).toFixed(2)));
-    const batchRankNum = Math.max(1, Math.min(180, Math.round(1 + (720 - simulated720Score) / 38)));
-    const cityRankNum = Math.max(1, Math.min(4200, Math.round(predictedAIR * 0.0042 + 1)));
+    const predictedAIR = rawScore <= 0 ? 0 : calculateNEETAIR(simulated720Score);
+    const percentile = rawScore <= 0 ? 0 : Math.min(99.99, Math.max(12.5, +(100 - (predictedAIR / 2400000) * 100).toFixed(2)));
+    const batchRankNum = rawScore <= 0 ? 0 : Math.max(1, Math.min(180, Math.round(1 + (720 - simulated720Score) / 38)));
+    const cityRankNum = rawScore <= 0 ? 0 : Math.max(1, Math.min(4200, Math.round(predictedAIR * 0.0042 + 1)));
 
     const chapterAnalytics = Object.keys(chapterStatsMap).map((ch, idx) => {
       const stats = chapterStatsMap[ch];
@@ -400,8 +400,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const lastSundayTest = prevTestHistory.find(
       t => t.testId !== test.id && (t.testId.includes('sunday') || t.totalMarks === 720 || t.totalMarks === 180)
     );
-    const previousScore = lastSundayTest ? (lastSundayTest.totalMarks === 180 ? lastSundayTest.score * 4 : lastSundayTest.score) : Math.max(480, rawScore - 21);
-    const deltaScore = rawScore - previousScore;
+    const previousScore = lastSundayTest ? (lastSundayTest.totalMarks === 180 ? lastSundayTest.score * 4 : lastSundayTest.score) : undefined;
+    const deltaScore = previousScore !== undefined ? rawScore - previousScore : undefined;
 
     const resultObj: UserTestResult = {
       testId: test.id,
@@ -495,9 +495,20 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     { rank: 10, name: 'Meera Iyer', score: 654, accuracy: 91, time: '173m', state: 'Tamil Nadu' }
   ];
 
-  const getEligibleColleges = (air: number = 10000, category: string = 'General / Open') => {
-    let effectiveRank = Number.isFinite(air) && air > 0 ? air : 10000;
+  const getEligibleColleges = (air: number = 10000, category: string = 'General / Open', currentScore: number = 0) => {
+    // If candidate scored 0 or negative marks, or rank is invalid: DO NOT recommend any colleges!
+    if (currentScore <= 0 || !Number.isFinite(air) || air <= 0) {
+      return [];
+    }
+
     const cat = String(category || 'General / Open');
+    const isReserved = cat.includes('OBC') || cat.includes('SC') || cat.includes('ST');
+    const minQualifyingCutoff = isReserved ? 107 : 137;
+    if (currentScore < minQualifyingCutoff) {
+      return [];
+    }
+
+    let effectiveRank = air;
     if (cat.includes('OBC')) effectiveRank = Math.round(effectiveRank * 0.7);
     else if (cat.includes('EWS')) effectiveRank = Math.round(effectiveRank * 0.75);
     else if (cat.includes('SC')) effectiveRank = Math.round(effectiveRank * 0.35);
@@ -1294,48 +1305,67 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       </div>
 
                       <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-center">
-                        <span className="text-[10px] font-bold text-slate-500 uppercase">Previous Score</span>
-                        <div className="text-2xl font-black text-slate-700 font-mono mt-0.5">
-                          {testResult.previousScore} <span className="text-xs text-slate-400 font-normal">/ {testResult.totalMarks || 720}</span>
+                        <span className="text-[10px] font-bold text-slate-500 uppercase">Attempted</span>
+                        <div className="text-2xl font-black text-slate-800 font-mono mt-0.5">
+                          {testResult.correctAnswers + testResult.wrongAnswers} <span className="text-xs text-slate-400 font-normal">/ {testResult.totalMarks ? Math.round(testResult.totalMarks / 4) : 180}</span>
                         </div>
-                        <span className="text-[11px] text-slate-500 font-mono">Prior CWT Baseline</span>
+                        <span className="text-[11px] text-slate-500 font-mono">
+                          {testResult.unattempted} Unattempted
+                        </span>
                       </div>
 
                       <div className="p-4 rounded-2xl bg-blue-50 border border-blue-200 text-center">
-                        <span className="text-[10px] font-bold text-slate-500 uppercase">Net Change</span>
-                        <div className={`text-2xl font-black font-mono mt-0.5 flex items-center justify-center ${
-                          (testResult.changeFromPrevious || 0) >= 0 ? 'text-emerald-700' : 'text-rose-600'
-                        }`}>
-                          {(testResult.changeFromPrevious || 0) >= 0 ? <UpIcon className="w-5 h-5 mr-0.5" /> : <DownIcon className="w-5 h-5 mr-0.5" />}
-                          {(testResult.changeFromPrevious || 0) >= 0 ? `+${testResult.changeFromPrevious}` : testResult.changeFromPrevious}
+                        <span className="text-[10px] font-bold text-slate-500 uppercase">Accuracy Rate</span>
+                        <div className="text-2xl font-black font-mono mt-0.5 text-blue-700">
+                          {testResult.accuracyPercentage}%
                         </div>
                         <span className="text-[11px] text-blue-700 font-bold">
-                          {(((testResult.changeFromPrevious || 0) / (testResult.previousScore || 1)) * 100).toFixed(1)}% Growth
+                          +{testResult.correctAnswers} Correct • -{testResult.wrongAnswers} Wrong
                         </span>
                       </div>
 
                       <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Batch Rank</span>
                         <div className="text-2xl font-black text-amber-800 font-mono mt-0.5">
-                          {testResult.batchRank?.rank} <span className="text-xs text-slate-400 font-normal">/ {testResult.batchRank?.total}</span>
+                          {testResult.batchRank?.rank && testResult.batchRank.rank > 0
+                            ? `${testResult.batchRank.rank}`
+                            : 'Unranked'}
+                          {testResult.batchRank?.rank && testResult.batchRank.rank > 0 && (
+                            <span className="text-xs text-slate-400 font-normal"> / {testResult.batchRank.total}</span>
+                          )}
                         </div>
-                        <span className="text-[11px] text-amber-700 font-bold">Top {Math.max(1, Math.round(((testResult.batchRank?.rank || 1) / (testResult.batchRank?.total || 180)) * 100))}% in Cohort</span>
+                        <span className="text-[11px] text-amber-700 font-bold">
+                          {testResult.score <= 0
+                            ? 'Score <= 0'
+                            : `Top ${Math.max(1, Math.round(((testResult.batchRank?.rank || 1) / (testResult.batchRank?.total || 180)) * 100))}% in Cohort`}
+                        </span>
                       </div>
 
                       <div className="p-4 rounded-2xl bg-indigo-50 border border-indigo-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">City Rank</span>
                         <div className="text-2xl font-black text-indigo-800 font-mono mt-0.5">
-                          {testResult.cityRank?.rank} <span className="text-xs text-slate-400 font-normal">/ {testResult.cityRank?.total}</span>
+                          {testResult.cityRank?.rank && testResult.cityRank.rank > 0
+                            ? `${testResult.cityRank.rank}`
+                            : 'Unranked'}
+                          {testResult.cityRank?.rank && testResult.cityRank.rank > 0 && (
+                            <span className="text-xs text-slate-400 font-normal"> / {testResult.cityRank.total}</span>
+                          )}
                         </div>
-                        <span className="text-[11px] text-indigo-700 font-bold">Regional Zone</span>
+                        <span className="text-[11px] text-indigo-700 font-bold">
+                          {testResult.score <= 0 ? 'Score <= 0' : 'Regional Zone'}
+                        </span>
                       </div>
 
                       <div className="p-4 rounded-2xl bg-purple-50 border border-purple-200 text-center">
                         <span className="text-[10px] font-bold text-slate-500 uppercase">Simulated AIR</span>
                         <div className="text-2xl font-black text-purple-800 font-mono mt-0.5">
-                          #{(testResult.predictedAIR ?? 6840).toLocaleString()}
+                          {testResult.score > 0 && (testResult.predictedAIR || 0) > 0
+                            ? `#${testResult.predictedAIR.toLocaleString()}`
+                            : 'N/A'}
                         </div>
-                        <span className="text-[11px] text-purple-700 font-bold">{testResult.nationalPercentile}%ile</span>
+                        <span className="text-[11px] text-purple-700 font-bold">
+                          {testResult.score > 0 ? `${testResult.nationalPercentile}%ile` : 'Unqualified (0 Marks)'}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -1345,10 +1375,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     <div className="border-b border-slate-100 pb-3">
                       <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
                         <Activity className="w-5 h-5 text-blue-600" />
-                        <span>SECTION 1: Current vs Previous Exam Analysis</span>
+                        <span>SECTION 1: Subject-Wise Performance Breakdown</span>
                       </h3>
                       <p className="text-xs text-slate-500">
-                        Granular 4-subject breakdown comparing baseline trajectory across Physics, Chemistry, Botany, and Zoology.
+                        Granular 4-subject breakdown across Physics, Chemistry, Botany, and Zoology for the current assessment.
                       </p>
                     </div>
 
@@ -1357,26 +1387,33 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <thead>
                           <tr className="bg-slate-50 text-slate-600 font-bold border-b border-slate-200">
                             <th className="p-3.5">Subject</th>
+                            <th className="p-3.5 text-center">Questions</th>
+                            <th className="p-3.5 text-center">Attempted</th>
+                            <th className="p-3.5 text-center">Correct (+4)</th>
+                            <th className="p-3.5 text-center">Wrong (-1)</th>
+                            <th className="p-3.5 text-center">Unattempted</th>
                             <th className="p-3.5 text-center">Max Marks</th>
-                            <th className="p-3.5 text-center">Previous Exam</th>
-                            <th className="p-3.5 text-center">Current Exam</th>
-                            <th className="p-3.5 text-center">Change (Marks)</th>
-                            <th className="p-3.5 text-center">% of Max</th>
+                            <th className="p-3.5 text-center">Current Score</th>
+                            <th className="p-3.5 text-center">Accuracy</th>
                             <th className="p-3.5 text-center">Performance Status</th>
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-slate-100 font-mono">
                           {testResult.subjectBreakdown.map((sub, sIdx) => {
-                            const prevScore = sIdx === 0 ? 138 : sIdx === 1 ? 142 : sIdx === 2 ? 160 : 155;
-                            const delta = sub.score - prevScore;
-                            const pct = ((sub.score / 180) * 100).toFixed(1);
+                            const subTotalQs = (sub.correct || 0) + (sub.wrong || 0) + (sub.unattempted || 0);
+                            const subAttempted = (sub.correct || 0) + (sub.wrong || 0);
+                            const subAcc = subAttempted > 0 ? Math.round(((sub.correct || 0) / subAttempted) * 100) : 0;
+                            
                             let statusBadge = 'Strong (>80%)';
                             let badgeClass = 'bg-emerald-100 text-emerald-800 border-emerald-300';
-                            if (sub.score < 120) {
-                              statusBadge = 'Needs Revision (<65%)';
+                            if (sub.score <= 0) {
+                              statusBadge = 'No Score (0 Marks)';
+                              badgeClass = 'bg-rose-100 text-rose-800 border-rose-300';
+                            } else if (sub.score < 100) {
+                              statusBadge = 'Needs Revision (<55%)';
                               badgeClass = 'bg-rose-100 text-rose-800 border-rose-300';
                             } else if (sub.score < 145) {
-                              statusBadge = 'Moderate (65-80%)';
+                              statusBadge = 'Moderate (55-80%)';
                               badgeClass = 'bg-amber-100 text-amber-800 border-amber-300';
                             } else if (sub.score >= 165) {
                               statusBadge = 'Exceptional (>90%)';
@@ -1393,13 +1430,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                                   }`} />
                                   <span>{sub.subject}</span>
                                 </td>
+                                <td className="p-3.5 text-center text-slate-600">{subTotalQs || (sub.maxMarks ? Math.round(sub.maxMarks / 4) : 45)}</td>
+                                <td className="p-3.5 text-center text-slate-800 font-semibold">{subAttempted}</td>
+                                <td className="p-3.5 text-center text-emerald-600 font-bold">+{sub.correct || 0}</td>
+                                <td className="p-3.5 text-center text-rose-600 font-bold">-{sub.wrong || 0}</td>
+                                <td className="p-3.5 text-center text-slate-400">{sub.unattempted || 0}</td>
                                 <td className="p-3.5 text-center text-slate-600">{sub.maxMarks || 180}</td>
-                                <td className="p-3.5 text-center text-slate-500">{prevScore}</td>
                                 <td className="p-3.5 text-center font-bold text-slate-900">{sub.score}</td>
-                                <td className={`p-3.5 text-center font-bold ${delta >= 0 ? 'text-emerald-700' : 'text-rose-600'}`}>
-                                  {delta >= 0 ? `+${delta}` : delta}
-                                </td>
-                                <td className="p-3.5 text-center text-slate-700">{pct}%</td>
+                                <td className="p-3.5 text-center text-slate-700">{subAcc}%</td>
                                 <td className="p-3.5 text-center font-sans">
                                   <span className={`px-2.5 py-0.5 rounded-full text-[10px] border ${badgeClass}`}>
                                     {statusBadge}
@@ -1411,16 +1449,27 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                           <tr className="bg-blue-50/70 border-t-2 border-blue-400 font-bold">
                             <td className="p-3.5 font-sans text-blue-950 font-black text-sm">Overall Total</td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">{testResult.totalMarks || 720}</td>
-                            <td className="p-3.5 text-center text-slate-600">{testResult.previousScore}</td>
-                            <td className="p-3.5 text-center text-emerald-800 font-black text-sm">{testResult.score}</td>
-                            <td className="p-3.5 text-center text-emerald-700 font-black">
-                              {(testResult.changeFromPrevious || 0) >= 0 ? `+${testResult.changeFromPrevious}` : testResult.changeFromPrevious}
+                            <td className="p-3.5 text-center text-blue-900 font-black">
+                              {testResult.subjectBreakdown.reduce((sum, s) => sum + (s.correct || 0) + (s.wrong || 0) + (s.unattempted || 0), 0) || (testResult.totalMarks ? Math.round(testResult.totalMarks / 4) : 180)}
                             </td>
-                            <td className="p-3.5 text-center text-blue-900 font-black">{((testResult.score / (testResult.totalMarks || 720)) * 100).toFixed(1)}%</td>
+                            <td className="p-3.5 text-center text-blue-900 font-black">
+                              {testResult.correctAnswers + testResult.wrongAnswers}
+                            </td>
+                            <td className="p-3.5 text-center text-emerald-700 font-black">+{testResult.correctAnswers}</td>
+                            <td className="p-3.5 text-center text-rose-600 font-black">-{testResult.wrongAnswers}</td>
+                            <td className="p-3.5 text-center text-slate-600 font-black">{testResult.unattempted}</td>
+                            <td className="p-3.5 text-center text-blue-900 font-black">{testResult.totalMarks || 720}</td>
+                            <td className="p-3.5 text-center text-emerald-800 font-black text-sm">{testResult.score}</td>
+                            <td className="p-3.5 text-center text-blue-900 font-black">{testResult.accuracyPercentage}%</td>
                             <td className="p-3.5 text-center font-sans">
-                              <span className="px-3 py-1 rounded-full text-xs font-bold bg-emerald-600 text-white shadow-xs">
-                                Top Tier GMC Safe Zone
+                              <span className={`px-3 py-1 rounded-full text-xs font-bold shadow-xs ${
+                                testResult.score <= 0 ? 'bg-rose-600 text-white' :
+                                testResult.score >= 600 ? 'bg-emerald-600 text-white' :
+                                testResult.score >= 500 ? 'bg-blue-600 text-white' : 'bg-amber-600 text-white'
+                              }`}>
+                                {testResult.score <= 0 ? '0 Marks / Remedial Required' :
+                                 testResult.score >= 650 ? 'Top Tier GMC Safe Zone' :
+                                 testResult.score >= 550 ? 'GMC Competitive Zone' : 'State Quota / Target Zone'}
                               </span>
                             </td>
                           </tr>
@@ -1431,10 +1480,14 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     <div className="p-4 rounded-2xl bg-blue-50/50 border border-blue-200 text-xs text-slate-700 leading-relaxed space-y-1">
                       <strong className="text-blue-900 font-bold block flex items-center gap-1.5">
                         <SparkleIcon className="w-4 h-4 text-blue-600" />
-                        Academic Interpretation & Momentum Analysis:
+                        Academic Interpretation & Performance Assessment:
                       </strong>
                       <p>
-                        Candidate demonstrated solid upward momentum (+{testResult.changeFromPrevious || 21} Marks overall). High accuracy in Biology (Botany & Zoology marks contribution of ~319/360) forms a dependable bedrock. Physics score reflects consistent problem-solving pacing across kinematics and electrodynamics. To breach the 650+ GMC threshold, Chemistry physical calculations and inorganic coordination nomenclature should be prioritized in the upcoming 7-day revision sprint.
+                        {testResult.score <= 0 ? (
+                          'No positive score recorded for this assessment. Ensure all foundational concepts across Physics, Chemistry, and Biology are thoroughly revised before attempting full-length mock examinations.'
+                        ) : (
+                          `Candidate achieved an aggregate score of ${testResult.score}/${testResult.totalMarks || 720} (${((testResult.score / (testResult.totalMarks || 720)) * 100).toFixed(1)}%) with an accuracy rate of ${testResult.accuracyPercentage}%. ${testResult.correctAnswers} questions answered correctly and ${testResult.wrongAnswers} penalized by negative marking. Focus on minimizing unforced errors in low-accuracy chapters to improve overall standing.`
+                        )}
                       </p>
                     </div>
                   </div>
@@ -1446,60 +1499,52 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <div>
                           <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-1.5">
                             <TrendingUp className="w-4 h-4 text-emerald-600" />
-                            <span>Overall Score Trend Across CWTs (720M)</span>
+                            <span>Current Subject Marks Distribution (/180)</span>
                           </h4>
-                          <p className="text-[11px] text-slate-500">Longitudinal performance from CWT-01 to current test</p>
+                          <p className="text-[11px] text-slate-500">Actual marks achieved across 4 subject domains</p>
                         </div>
                         <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold">
-                          GMC Target: 650+
+                          Max: 180 Each
                         </span>
                       </div>
 
                       <div className="w-full bg-slate-50 p-4 rounded-2xl border border-slate-200 flex flex-col items-center justify-center">
-                        <svg viewBox="0 0 450 180" className="w-full h-44" xmlns="http://www.w3.org/2000/svg">
-                          <line x1="40" y1="20" x2="430" y2="20" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3" />
-                          <text x="15" y="24" font-size="9" fill="#94a3b8" font-family="monospace">700</text>
+                        <svg viewBox="0 0 420 180" className="w-full h-44" xmlns="http://www.w3.org/2000/svg">
+                          <line x1="30" y1="20" x2="390" y2="20" stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3,3" />
+                          <text x="15" y="24" fontSize="9" fill="#94a3b8" fontFamily="monospace">180</text>
 
-                          <line x1="40" y1="48" x2="430" y2="48" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4,4" />
-                          <text x="15" y="52" font-size="9" fill="#ef4444" font-weight="bold" font-family="monospace">650 (GMC)</text>
+                          <line x1="30" y1="55" x2="390" y2="55" stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3,3" />
+                          <text x="15" y="59" fontSize="9" fill="#94a3b8" fontFamily="monospace">135</text>
 
-                          <line x1="40" y1="75" x2="430" y2="75" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3" />
-                          <text x="15" y="79" font-size="9" fill="#94a3b8" font-family="monospace">600</text>
+                          <line x1="30" y1="90" x2="390" y2="90" stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3,3" />
+                          <text x="15" y="94" fontSize="9" fill="#94a3b8" fontFamily="monospace">90</text>
 
-                          <line x1="40" y1="110" x2="430" y2="110" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3" />
-                          <text x="15" y="114" font-size="9" fill="#94a3b8" font-family="monospace">550</text>
+                          <line x1="30" y1="125" x2="390" y2="125" stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3,3" />
+                          <text x="15" y="129" fontSize="9" fill="#94a3b8" fontFamily="monospace">45</text>
 
-                          <line x1="40" y1="145" x2="430" y2="145" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3" />
-                          <text x="15" y="149" font-size="9" fill="#94a3b8" font-family="monospace">500</text>
+                          <line x1="30" y1="145" x2="390" y2="145" stroke="#94a3b8" strokeWidth="1.5" />
 
-                          <defs>
-                            <linearGradient id="scoreGrad" x1="0" y1="0" x2="0" y2="1">
-                              <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
-                              <stop offset="100%" stop-color="#0284c7" stop-opacity="0.0" />
-                            </linearGradient>
-                          </defs>
+                          {testResult.subjectBreakdown.map((b, i) => {
+                            const subMax = b.maxMarks || 180;
+                            const h = Math.max(0, Math.min(125, (b.score / (subMax || 1)) * 125));
+                            const y = 145 - h;
+                            const x = 55 + i * 90;
+                            const color = b.subject === 'Physics' ? '#2563eb' :
+                                          b.subject === 'Chemistry' ? '#059669' :
+                                          b.subject === 'Botany' ? '#7c3aed' : '#d97706';
 
-                          <polygon points="60,118 130,99 200,86 270,76 340,70 410,64 410,155 60,155" fill="url(#scoreGrad)" />
-                          <polyline points="60,118 130,99 200,86 270,76 340,70 410,64" fill="none" stroke="#0284c7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-
-                          {[
-                            { x: 60, y: 118, label: '540', code: 'CWT-01' },
-                            { x: 130, y: 99, label: '565', code: 'CWT-02' },
-                            { x: 200, y: 86, label: '584', code: 'CWT-03' },
-                            { x: 270, y: 76, label: '598', code: 'CWT-04' },
-                            { x: 340, y: 70, label: '608', code: 'CWT-05' },
-                            { x: 410, y: 64, label: `${testResult.score}`, code: 'CWT-06' }
-                          ].map((pt, i) => (
-                            <g key={i}>
-                              <circle cx={pt.x} cy={pt.y} r="5" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
-                              <text x={pt.x} y={pt.y - 8} font-size="9" font-weight="bold" fill="#0f172a" text-anchor="middle" font-family="monospace">
-                                {pt.label}
-                              </text>
-                              <text x={pt.x} y="168" font-size="8" fill="#64748b" text-anchor="middle" font-family="sans-serif">
-                                {pt.code}
-                              </text>
-                            </g>
-                          ))}
+                            return (
+                              <g key={i}>
+                                <rect x={x} y={y} width="40" height={Math.max(4, h)} fill={color} rx="6" />
+                                <text x={x + 20} y={Math.max(16, y - 6)} fontSize="10" fontWeight="bold" fill="#0f172a" textAnchor="middle" fontFamily="monospace">
+                                  {b.score}
+                                </text>
+                                <text x={x + 20} y="165" fontSize="11" fontWeight="bold" fill="#334155" textAnchor="middle">
+                                  {b.subject}
+                                </text>
+                              </g>
+                            );
+                          })}
                         </svg>
                       </div>
                     </div>
@@ -1509,53 +1554,45 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         <div>
                           <h4 className="text-sm font-extrabold text-slate-900 flex items-center gap-1.5">
                             <BarIcon className="w-4 h-4 text-blue-600" />
-                            <span>Current vs Previous Subject Comparison (/180)</span>
+                            <span>Subject Accuracy & Attempt Distribution</span>
                           </h4>
-                          <p className="text-[11px] text-slate-500">Benchmark across 4 subject domains</p>
-                        </div>
-                        <div className="flex items-center space-x-3 text-[10px] font-bold">
-                          <span className="flex items-center gap-1 text-slate-400">
-                            <span className="w-2.5 h-2.5 rounded bg-slate-300 inline-block" /> Prev
-                          </span>
-                          <span className="flex items-center gap-1 text-blue-600">
-                            <span className="w-2.5 h-2.5 rounded bg-blue-600 inline-block" /> Current
-                          </span>
+                          <p className="text-[11px] text-slate-500">Correct, incorrect, and unattempted counts</p>
                         </div>
                       </div>
 
-                      <div className="w-full bg-slate-50 p-4 rounded-2xl border border-slate-200 flex flex-col items-center justify-center">
-                        <svg viewBox="0 0 420 180" className="w-full h-44" xmlns="http://www.w3.org/2000/svg">
-                          {[
-                            { name: 'Physics', prev: 138, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? (testResult.subjectBreakdown?.[0]?.score ?? 148), x: 40 },
-                            { name: 'Chemistry', prev: 142, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? (testResult.subjectBreakdown?.[1]?.score ?? 149), x: 135 },
-                            { name: 'Botany', prev: 160, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? (testResult.subjectBreakdown?.[2]?.score ?? 168), x: 230 },
-                            { name: 'Zoology', prev: 155, cur: testResult.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? (testResult.subjectBreakdown?.[3]?.score ?? 151), x: 325 }
-                          ].map((b, i) => {
-                            const prevH = (b.prev / 180) * 120;
-                            const curH = (b.cur / 180) * 120;
-                            const prevY = 145 - prevH;
-                            const curY = 145 - curH;
+                      <div className="space-y-3 pt-1">
+                        {testResult.subjectBreakdown.map((sub, idx) => {
+                          const attempted = (sub.correct || 0) + (sub.wrong || 0);
+                          const totalQs = attempted + (sub.unattempted || 0);
+                          const acc = attempted > 0 ? Math.round(((sub.correct || 0) / attempted) * 100) : 0;
+                          const colorClass = sub.subject === 'Physics' ? 'bg-blue-600' :
+                                            sub.subject === 'Chemistry' ? 'bg-emerald-600' :
+                                            sub.subject === 'Botany' ? 'bg-purple-600' : 'bg-amber-600';
 
-                            return (
-                              <g key={i}>
-                                <rect x={b.x} y={prevY} width="24" height={prevH} fill="#cbd5e1" rx="4" />
-                                <text x={b.x + 12} y={prevY - 4} font-size="9" fill="#64748b" text-anchor="middle" font-family="monospace">
-                                  {b.prev}
-                                </text>
-
-                                <rect x={b.x + 28} y={curY} width="24" height={curH} fill="#2563eb" rx="4" />
-                                <text x={b.x + 40} y={curY - 4} font-size="9" font-weight="bold" fill="#1e3a8a" text-anchor="middle" font-family="monospace">
-                                  {b.cur}
-                                </text>
-
-                                <text x={b.x + 26} y="165" font-size="10" font-weight="bold" fill="#334155" text-anchor="middle">
-                                  {b.name}
-                                </text>
-                              </g>
-                            );
-                          })}
-                          <line x1="20" y1="145" x2="400" y2="145" stroke="#94a3b8" stroke-width="1.5" />
-                        </svg>
+                          return (
+                            <div key={idx} className="p-3 bg-slate-50 rounded-2xl border border-slate-200 space-y-1.5">
+                              <div className="flex items-center justify-between">
+                                <span className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                                  <span className={`w-2.5 h-2.5 rounded-full ${colorClass}`} />
+                                  {sub.subject}
+                                </span>
+                                <div className="flex items-center gap-2 text-xs font-mono">
+                                  <span className="text-emerald-700 font-bold">+{sub.correct || 0}C</span>
+                                  <span className="text-rose-600 font-bold">-{sub.wrong || 0}W</span>
+                                  <span className="text-slate-400 font-medium">{sub.unattempted || 0}U</span>
+                                  <span className="font-bold text-slate-700 px-1.5 py-0.5 rounded bg-white border border-slate-200 ml-1">
+                                    {acc}% Acc
+                                  </span>
+                                </div>
+                              </div>
+                              <div className="w-full bg-slate-200 rounded-full h-2 overflow-hidden flex">
+                                <div className="bg-emerald-500 h-2" style={{ width: `${totalQs > 0 ? ((sub.correct || 0) / totalQs) * 100 : 0}%` }} title="Correct" />
+                                <div className="bg-rose-500 h-2" style={{ width: `${totalQs > 0 ? ((sub.wrong || 0) / totalQs) * 100 : 0}%` }} title="Wrong" />
+                                <div className="bg-slate-300 h-2" style={{ width: `${totalQs > 0 ? ((sub.unattempted || 0) / totalQs) * 100 : 0}%` }} title="Unattempted" />
+                              </div>
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   </div>
@@ -1801,26 +1838,50 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       </span>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {getEligibleColleges(testResult.predictedAIR, studentCategory).map((col, idx) => (
-                        <div
-                          key={idx}
-                          className="p-4 rounded-2xl border border-slate-200 bg-slate-50/70 flex items-center justify-between hover:bg-white hover:shadow-xs transition"
-                        >
-                          <div className="space-y-0.5">
-                            <h4 className="text-xs font-bold text-slate-900">{col.name}</h4>
-                            <p className="text-[10px] text-slate-500 font-mono">
-                              {col.type} &bull; {col.state} &bull; {col.seats} MBBS Seats
+                    {(() => {
+                      const colleges = getEligibleColleges(testResult.predictedAIR, studentCategory, testResult.score);
+                      if (colleges.length === 0) {
+                        return (
+                          <div className="p-8 rounded-2xl bg-amber-50/80 border border-amber-200 text-center space-y-3">
+                            <div className="w-12 h-12 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center mx-auto">
+                              <AlertIcon className="w-6 h-6" />
+                            </div>
+                            <h4 className="text-sm font-extrabold text-amber-900">
+                              {testResult.score <= 0
+                                ? 'No Medical Colleges Recommended (Current Score: 0 Marks)'
+                                : `Score Below NEET Qualifying Cutoff (${testResult.score} / 720)`}
+                            </h4>
+                            <p className="text-xs text-amber-700 max-w-lg mx-auto leading-relaxed">
+                              {testResult.score <= 0
+                                ? 'Candidates scoring 0 or negative marks are not eligible for medical college seat allotment in AIQ or State Quota counselling. Please review foundational concepts and re-attempt chapter practice tests.'
+                                : `The minimum qualifying marks for NEET admission counselling are 137 (General / EWS) and 107 (OBC / SC / ST). Your current score is below the qualifying cutoff threshold.`}
                             </p>
                           </div>
-                          <div className="text-right shrink-0">
-                            <span className={`px-2.5 py-1 rounded-xl text-xs border ${col.badgeClass}`}>
-                              {col.badge} ({col.probability}%)
-                            </span>
-                          </div>
+                        );
+                      }
+                      return (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {colleges.map((col, idx) => (
+                            <div
+                              key={idx}
+                              className="p-4 rounded-2xl border border-slate-200 bg-slate-50/70 flex items-center justify-between hover:bg-white hover:shadow-xs transition"
+                            >
+                              <div className="space-y-0.5">
+                                <h4 className="text-xs font-bold text-slate-900">{col.name}</h4>
+                                <p className="text-[10px] text-slate-500 font-mono">
+                                  {col.type} &bull; {col.state} &bull; {col.seats} MBBS Seats
+                                </p>
+                              </div>
+                              <div className="text-right shrink-0">
+                                <span className={`px-2.5 py-1 rounded-xl text-xs border ${col.badgeClass}`}>
+                                  {col.badge} ({col.probability}%)
+                                </span>
+                              </div>
+                            </div>
+                          ))}
                         </div>
-                      ))}
-                    </div>
+                      );
+                    })()}
 
                     <p className="text-[10px] text-slate-400 font-mono italic">
                       * Disclaimer: College allotment probabilities are calculated based on historic NTA NEET AIQ/State Counselling opening & closing ranks. Final seat allotment is subject to state quota, category verification, and annual candidate distribution.

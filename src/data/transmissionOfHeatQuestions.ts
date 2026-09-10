@@ -7,7 +7,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "In which case the thermal conductivity increases from left to right [NCERT 1974, 76; AFMC 2000]",
+    "questionText": "In which case the thermal conductivity increases from left to right [NEET 2027 Target]",
     "options": [
       "$\\text{Al}, \\text{Cu}, \\text{Ag}$",
       "$\\text{Ag}, \\text{Cu}, \\text{Al}$",
@@ -26,7 +26,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Which of the following cylindrical rods will conduct most heat, when their ends are maintained at the same steady temperature [CPMT 1981; NCERT 1973, 81; MP PMT 1987; CBSE PMT 1995]",
+    "questionText": "Which of the following cylindrical rods will conduct most heat, when their ends are maintained at the same steady temperature [NEET 2028 Expected]",
     "options": [
       "Length $1\\text{ m}$; radius $1\\text{ cm}$",
       "Length $2\\text{ m}$; radius $1\\text{ cm}$",
@@ -45,7 +45,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The heat is flowing through two cylindrical rods of same material. The diameters of the rods are in the ratio $1 : 2$ and their lengths are in the ratio $2 : 1$. If the temperature difference between their ends is the same, the ratio of rate of flow of heat through them will be [NCERT 1982; CBSE PMT 1995; EAMCET 1997]",
+    "questionText": "The heat is flowing through two cylindrical rods of same material. The diameters of the rods are in the ratio $1 : 2$ and their lengths are in the ratio $2 : 1$. If the temperature difference between their ends is the same, the ratio of rate of flow of heat through them will be [NEET 2029 Practice]",
     "options": [
       "$1 : 1$",
       "$2 : 1$",
@@ -64,7 +64,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two identical square rods of metal are welded end to end as shown in figure (i), $20\\text{ calories}$ of heat flows through it in $4\\text{ minutes}$. If the rods are welded parallel as shown in figure (ii), the same amount of heat will flow through the rods in [NCERT 1982]",
+    "questionText": "Two identical square rods of metal are welded end to end as shown in figure (i), $20\\text{ calories}$ of heat flows through it in $4\\text{ minutes}$. If the rods are welded parallel as shown in figure (ii), the same amount of heat will flow through the rods in [NEET 2027 Target]",
     "options": [
       "$1\\text{ minute}$",
       "$2\\text{ minutes}$",
@@ -83,7 +83,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "For cooking food, which of the following type of utensil is most suitable [MNR 1986; MP PET 1990; CPMT 1991; SCRA 1998; MP PMT/PET 1998, 2000; RPET 2001]",
+    "questionText": "For cooking food, which of the following type of utensil is most suitable [NEET 2028 Expected]",
     "options": [
       "High specific heat and low conductivity",
       "High specific heat and high conductivity",
@@ -102,7 +102,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Under steady state, the temperature of a body [CPMT 1978]",
+    "questionText": "Under steady state, the temperature of a body [NEET 2029 Practice]",
     "options": [
       "Increases with time",
       "Decreases with time",
@@ -121,7 +121,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The coefficient of thermal conductivity depends upon [MP PET/PMT 1984; AFMC 1996; Orissa JEE 2005]",
+    "questionText": "The coefficient of thermal conductivity depends upon [NEET 2027 Target]",
     "options": [
       "Temperature difference of two surfaces",
       "Area of the plate",
@@ -140,7 +140,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "When two ends of a rod wrapped with cotton are maintained at different temperatures and after some time every point of the rod attains a constant temperature, then [MP PET/PMT 1988]",
+    "questionText": "When two ends of a rod wrapped with cotton are maintained at different temperatures and after some time every point of the rod attains a constant temperature, then [NEET 2028 Expected]",
     "options": [
       "Conduction of heat at different points of the rod stops because the temperature is not increasing",
       "Rod is bad conductor of heat",
@@ -178,7 +178,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The ratio of thermal conductivity of two rods of different material is $5 : 4$. The two rods of same area of cross-section and same thermal resistance will have lengths in the ratio [MP PET 1984; BVP 2003]",
+    "questionText": "The ratio of thermal conductivity of two rods of different material is $5 : 4$. The two rods of same area of cross-section and same thermal resistance will have lengths in the ratio [NEET 2029 Practice]",
     "options": [
       "$4 : 5$",
       "$9 : 1$",
@@ -197,7 +197,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The thermal conductivity of a material in CGS system is $0.4$. In steady state, the rate of flow of heat is $10\\text{ cal}/(\\text{sec}\\cdot\\text{cm}^2)$, then the temperature gradient will be [MP PMT 1989]",
+    "questionText": "The thermal conductivity of a material in CGS system is $0.4$. In steady state, the rate of flow of heat is $10\\text{ cal}/(\\text{sec}\\cdot\\text{cm}^2)$, then the temperature gradient will be [NEET 2027 Target]",
     "options": [
       "$10^\\circ\\text{C / cm}$",
       "$12^\\circ\\text{C / cm}$",
@@ -216,7 +216,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two rectangular blocks A and B of different metals have same length and same area of cross-section. They are kept in such a way that their cross-sectional areas touch each other. The temperature at one end of A is $100^\\circ\\text{C}$ and that of B at the other end is $0^\\circ\\text{C}$. If the ratio of their thermal conductivity is $1 : 3$, then under steady state, the temperature of the junction in contact will be [MP PMT 1985]",
+    "questionText": "Two rectangular blocks A and B of different metals have same length and same area of cross-section. They are kept in such a way that their cross-sectional areas touch each other. The temperature at one end of A is $100^\\circ\\text{C}$ and that of B at the other end is $0^\\circ\\text{C}$. If the ratio of their thermal conductivity is $1 : 3$, then under steady state, the temperature of the junction in contact will be [NEET 2028 Expected]",
     "options": [
       "$25^\\circ\\text{C}$",
       "$50^\\circ\\text{C}$",
@@ -235,7 +235,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Two vessels of different materials are similar in size in every respect. The same quantity of ice filled in them gets melted in $20\\text{ minutes}$ and $30\\text{ minutes}$. The ratio of their thermal conductivities will be [MP PMT 1989; CMEET Bihar 1995]",
+    "questionText": "Two vessels of different materials are similar in size in every respect. The same quantity of ice filled in them gets melted in $20\\text{ minutes}$ and $30\\text{ minutes}$. The ratio of their thermal conductivities will be [NEET 2029 Practice]",
     "options": [
       "$1.5$",
       "$1$",
@@ -254,7 +254,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Two rods A and B are of equal lengths. Their ends are kept between the same temperature and their area of cross-sections are $A_1$ and $A_2$ and thermal conductivities $K_1$ and $K_2$. The rate of heat transmission in the two rods will be equal, if [MP PMT 1991; CBSE PMT 2002]",
+    "questionText": "Two rods A and B are of equal lengths. Their ends are kept between the same temperature and their area of cross-sections are $A_1$ and $A_2$ and thermal conductivities $K_1$ and $K_2$. The rate of heat transmission in the two rods will be equal, if [NEET 2027 Target]",
     "options": [
       "$K_1 A_2 = K_2 A_1$",
       "$K_1 A_1 = K_2 A_2$",
@@ -292,7 +292,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "If the ratio of coefficient of thermal conductivity of silver and copper is $10 : 9$, then the ratio of the lengths upto which wax will melt in Ingen-Hausz experiment will be [DPMT 2001]",
+    "questionText": "If the ratio of coefficient of thermal conductivity of silver and copper is $10 : 9$, then the ratio of the lengths upto which wax will melt in Ingen-Hausz experiment will be [NEET 2028 Expected]",
     "options": [
       "$6 : 10$",
       "$\\sqrt{10} : 3$",
@@ -330,7 +330,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "In Searle's method for finding conductivity of metals, the temperature gradient along the bar [MP PMT 1984]",
+    "questionText": "In Searle's method for finding conductivity of metals, the temperature gradient along the bar [NEET 2029 Practice]",
     "options": [
       "Is greater nearer the hot end",
       "Is greater nearer to the cold end",
@@ -368,7 +368,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "A piece of glass is heated to a high temperature and then allowed to cool. If it cracks, a probable reason for this is the following property of glass [CPMT 1985]",
+    "questionText": "A piece of glass is heated to a high temperature and then allowed to cool. If it cracks, a probable reason for this is the following property of glass [NEET 2027 Target]",
     "options": [
       "Low thermal conductivity",
       "High thermal conductivity",
@@ -387,7 +387,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two walls of thicknesses $d_1$ and $d_2$ and thermal conductivities $k_1$ and $k_2$ are in contact. In the steady state, if the temperatures at the outer surfaces are $T_1$ and $T_2$, the temperature at the common wall is [MP PMT 1990; CBSE PMT 1999]",
+    "questionText": "Two walls of thicknesses $d_1$ and $d_2$ and thermal conductivities $k_1$ and $k_2$ are in contact. In the steady state, if the temperatures at the outer surfaces are $T_1$ and $T_2$, the temperature at the common wall is [NEET 2028 Expected]",
     "options": [
       "$\\frac{k_1 T_1 d_2 + k_2 T_2 d_1}{k_1 d_2 + k_2 d_1}$",
       "$\\frac{k_1 T_1 + k_2 d_2}{d_1 + d_2}$",
@@ -406,7 +406,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "A slab consists of two parallel layers of copper and brass of the same thickness and having thermal conductivities in the ratio $1 : 4$. If the free face of brass is at $100^\\circ\\text{C}$ and that of copper at $0^\\circ\\text{C}$, the temperature of interface is [IIT 1981; MP PMT 1987, 2001]",
+    "questionText": "A slab consists of two parallel layers of copper and brass of the same thickness and having thermal conductivities in the ratio $1 : 4$. If the free face of brass is at $100^\\circ\\text{C}$ and that of copper at $0^\\circ\\text{C}$, the temperature of interface is [NEET 2029 Practice]",
     "options": [
       "$80^\\circ\\text{C}$",
       "$20^\\circ\\text{C}$",
@@ -520,7 +520,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two rods of same length and material transfer a given amount of heat in $12\\text{ seconds}$, when they are joined end to end. But when they are joined lengthwise (side-by-side parallel), then they will transfer the same heat in same conditions in [BHU 1998; UPSEAT 2002]",
+    "questionText": "Two rods of same length and material transfer a given amount of heat in $12\\text{ seconds}$, when they are joined end to end. But when they are joined lengthwise (side-by-side parallel), then they will transfer the same heat in same conditions in [NEET 2027 Target]",
     "options": [
       "$24\\text{ s}$",
       "$3\\text{ s}$",
@@ -596,7 +596,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The coefficients of thermal conductivity of copper, mercury and glass are respectively $K_c, K_m$ and $K_g$ such that $K_c > K_m > K_g$. If the same quantity of heat is to flow per second per unit area of each and corresponding temperature gradients are $X_c, X_m$ and $X_g$, then [MP PMT 1990]",
+    "questionText": "The coefficients of thermal conductivity of copper, mercury and glass are respectively $K_c, K_m$ and $K_g$ such that $K_c > K_m > K_g$. If the same quantity of heat is to flow per second per unit area of each and corresponding temperature gradients are $X_c, X_m$ and $X_g$, then [NEET 2028 Expected]",
     "options": [
       "$X_c = X_m = X_g$",
       "$X_c > X_m > X_g$",
@@ -615,7 +615,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "If two metallic plates of equal thicknesses and thermal conductivities $K_1$ and $K_2$ are put together face to face and a common plate is constructed, then the equivalent thermal conductivity of this plate will be [MP PMT 1991]",
+    "questionText": "If two metallic plates of equal thicknesses and thermal conductivities $K_1$ and $K_2$ are put together face to face and a common plate is constructed, then the equivalent thermal conductivity of this plate will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{K_1 K_2}{K_1 + K_2}$",
       "$\\frac{2 K_1 K_2}{K_1 + K_2}$",
@@ -634,7 +634,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The quantity of heat which crosses unit area of a metal plate during conduction depends upon [MP PMT 1992; JIPMER 1997]",
+    "questionText": "The quantity of heat which crosses unit area of a metal plate during conduction depends upon [NEET 2027 Target]",
     "options": [
       "The density of the metal",
       "The temperature gradient perpendicular to the area",
@@ -655,7 +655,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The ends of two rods of different materials with their thermal conductivities, radii of cross-sections and lengths all in the ratio $1 : 2$ are maintained at the same temperature difference. If the rate of flow of heat in the larger rod is $4\\text{ cal/sec}$, that in the shorter rod in $\\text{cal/sec}$ will be [EAMCET 1986]",
+    "questionText": "The ends of two rods of different materials with their thermal conductivities, radii of cross-sections and lengths all in the ratio $1 : 2$ are maintained at the same temperature difference. If the rate of flow of heat in the larger rod is $4\\text{ cal/sec}$, that in the shorter rod in $\\text{cal/sec}$ will be [NEET 2028 Expected]",
     "options": [
       "$1$",
       "$2$",
@@ -676,7 +676,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "Two spheres of different materials one with double the radius and one-fourth wall thickness of the other, are filled with ice. If the time taken for complete melting of ice in the large radius one is $25\\text{ minutes}$ and that for smaller one is $16\\text{ minutes}$, the ratio of thermal conductivities of the materials of larger sphere to the smaller sphere is [EAMCET 1991]",
+    "questionText": "Two spheres of different materials one with double the radius and one-fourth wall thickness of the other, are filled with ice. If the time taken for complete melting of ice in the large radius one is $25\\text{ minutes}$ and that for smaller one is $16\\text{ minutes}$, the ratio of thermal conductivities of the materials of larger sphere to the smaller sphere is [NEET 2029 Practice]",
     "options": [
       "$4 : 5$",
       "$5 : 4$",
@@ -695,7 +695,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The ratio of the diameters of two metallic rods of the same material is $2 : 1$ and their lengths are in the ratio $1 : 4$. If the temperature difference between their ends is equal, the rate of flow of heat in them will be in the ratio [MP PET 1994]",
+    "questionText": "The ratio of the diameters of two metallic rods of the same material is $2 : 1$ and their lengths are in the ratio $1 : 4$. If the temperature difference between their ends is equal, the rate of flow of heat in them will be in the ratio [NEET 2027 Target]",
     "options": [
       "$2 : 1$",
       "$4 : 1$",
@@ -714,7 +714,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two cylinders P and Q have the same length and diameter and are made of different materials having thermal conductivities in the ratio $2 : 3$. These two cylinders are combined to make a cylinder. One end of P is kept at $100^\\circ\\text{C}$ and another end of Q at $0^\\circ\\text{C}$. The temperature at the interface of P and Q is [MP PMT 1994; EAMCET 2000]",
+    "questionText": "Two cylinders P and Q have the same length and diameter and are made of different materials having thermal conductivities in the ratio $2 : 3$. These two cylinders are combined to make a cylinder. One end of P is kept at $100^\\circ\\text{C}$ and another end of Q at $0^\\circ\\text{C}$. The temperature at the interface of P and Q is [NEET 2028 Expected]",
     "options": [
       "$30^\\circ\\text{C}$",
       "$40^\\circ\\text{C}$",
@@ -733,7 +733,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two identical rods of copper and iron are coated with wax uniformly. When one end of each is kept at temperature of boiling water, the lengths upto which wax melts are $8.4\\text{ cm}$ and $4.2\\text{ cm}$ respectively. If thermal conductivity of copper is $0.92$, then thermal conductivity of iron is [MP PET 1995]",
+    "questionText": "Two identical rods of copper and iron are coated with wax uniformly. When one end of each is kept at temperature of boiling water, the lengths upto which wax melts are $8.4\\text{ cm}$ and $4.2\\text{ cm}$ respectively. If thermal conductivity of copper is $0.92$, then thermal conductivity of iron is [NEET 2029 Practice]",
     "options": [
       "$0.23$",
       "$0.46$",
@@ -752,7 +752,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Mud houses are cooler in summer and warmer in winter because [BVP 2003]",
+    "questionText": "Mud houses are cooler in summer and warmer in winter because [NEET 2027 Target]",
     "options": [
       "Mud is superconductor of heat",
       "Mud is good conductor of heat",
@@ -771,7 +771,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The temperature of hot and cold end of a $20\\text{ cm}$ long rod in thermal steady state are at $100^\\circ\\text{C}$ and $20^\\circ\\text{C}$ respectively. Temperature at the centre of the rod is [MP PMT 1996]",
+    "questionText": "The temperature of hot and cold end of a $20\\text{ cm}$ long rod in thermal steady state are at $100^\\circ\\text{C}$ and $20^\\circ\\text{C}$ respectively. Temperature at the centre of the rod is [NEET 2028 Expected]",
     "options": [
       "$50^\\circ\\text{C}$",
       "$60^\\circ\\text{C}$",
@@ -809,7 +809,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "A heat flux of $4000\\text{ J/s}$ is to be passed through a copper rod of length $10\\text{ cm}$ and area of cross-section $100\\text{ cm}^2$. The thermal conductivity of copper is $400\\text{ W}/(\\text{m}\\cdot{}^\\circ\\text{C})$. The two ends of this rod must be kept at a temperature difference of [MP PMT 1999]",
+    "questionText": "A heat flux of $4000\\text{ J/s}$ is to be passed through a copper rod of length $10\\text{ cm}$ and area of cross-section $100\\text{ cm}^2$. The thermal conductivity of copper is $400\\text{ W}/(\\text{m}\\cdot{}^\\circ\\text{C})$. The two ends of this rod must be kept at a temperature difference of [NEET 2029 Practice]",
     "options": [
       "$1^\\circ\\text{C}$",
       "$10^\\circ\\text{C}$",
@@ -828,7 +828,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "On a cold morning, a metal surface will feel colder to touch than a wooden surface because [AIIMS 1998]",
+    "questionText": "On a cold morning, a metal surface will feel colder to touch than a wooden surface because [NEET 2027 Target]",
     "options": [
       "Metal has high specific heat",
       "Metal has high thermal conductivity",
@@ -847,7 +847,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "In order that heat flows from one part of a solid to another part, what is required [Pb. PMT 1999; EAMCET 1998]",
+    "questionText": "In order that heat flows from one part of a solid to another part, what is required [NEET 2028 Expected]",
     "options": [
       "Uniform density",
       "Density gradient",
@@ -866,7 +866,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "At a common temperature, a block of wood and a block of metal feel equally cold or hot. The temperatures of block of wood and block of metal are [AIIMS 1999]",
+    "questionText": "At a common temperature, a block of wood and a block of metal feel equally cold or hot. The temperatures of block of wood and block of metal are [NEET 2029 Practice]",
     "options": [
       "Equal to temperature of the body",
       "Less than the temperature of the body",
@@ -885,7 +885,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "According to the experiment of Ingen-Hausz the relation between the thermal conductivity of a metal rod $K$ and the length of the rod whenever the wax melts $l$ is [UPSEAT 1999]",
+    "questionText": "According to the experiment of Ingen-Hausz the relation between the thermal conductivity of a metal rod $K$ and the length of the rod whenever the wax melts $l$ is [NEET 2027 Target]",
     "options": [
       "$K / l = \\text{constant}$",
       "$K^2 / l = \\text{constant}$",
@@ -904,7 +904,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Temperature of water at the surface of a frozen lake is $-20^\\circ\\text{C}$. Then temperature of water just below the lower surface of ice layer is [RPET 2000]",
+    "questionText": "Temperature of water at the surface of a frozen lake is $-20^\\circ\\text{C}$. Then temperature of water just below the lower surface of ice layer is [NEET 2028 Expected]",
     "options": [
       "$-4^\\circ\\text{C}$",
       "$0^\\circ\\text{C}$",
@@ -923,7 +923,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "One end of a metal rod of length $1.0\\text{ m}$ and area of cross section $100\\text{ cm}^2$ is maintained at $100^\\circ\\text{C}$. If the other end of the rod is maintained at $0^\\circ\\text{C}$, the quantity of heat transmitted through the rod per minute is (Coefficient of thermal conductivity $= 100\\text{ W}/(\\text{m}\\cdot\\text{K})$) [EAMCET (Engg.) 2000]",
+    "questionText": "One end of a metal rod of length $1.0\\text{ m}$ and area of cross section $100\\text{ cm}^2$ is maintained at $100^\\circ\\text{C}$. If the other end of the rod is maintained at $0^\\circ\\text{C}$, the quantity of heat transmitted through the rod per minute is (Coefficient of thermal conductivity $= 100\\text{ W}/(\\text{m}\\cdot\\text{K})$) [NEET 2029 Practice]",
     "options": [
       "$3 \\times 10^3\\text{ J}$",
       "$6 \\times 10^3\\text{ J}$",
@@ -942,7 +942,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The coefficient of thermal conductivity of copper is nine times that of steel. In the composite cylindrical bar shown in the figure (Copper length $18\\text{ cm}$, Steel length $6\\text{ cm}$, ends at $100^\\circ\\text{C}$ and $0^\\circ\\text{C}$). What will be the temperature at the junction of copper and steel? [MP PMT 2000; BHU 2004]",
+    "questionText": "The coefficient of thermal conductivity of copper is nine times that of steel. In the composite cylindrical bar shown in the figure (Copper length $18\\text{ cm}$, Steel length $6\\text{ cm}$, ends at $100^\\circ\\text{C}$ and $0^\\circ\\text{C}$). What will be the temperature at the junction of copper and steel? [NEET 2027 Target]",
     "options": [
       "$75^\\circ\\text{C}$",
       "$67^\\circ\\text{C}$",
@@ -961,7 +961,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The lengths and radii of two rods made of same material are in the ratios $1 : 2$ and $2 : 3$ respectively. If the temperature difference between the ends for the two rods be the same, then in the steady state, the amount of heat flowing per second through them will be in the ratio [MP PET 2000]",
+    "questionText": "The lengths and radii of two rods made of same material are in the ratios $1 : 2$ and $2 : 3$ respectively. If the temperature difference between the ends for the two rods be the same, then in the steady state, the amount of heat flowing per second through them will be in the ratio [NEET 2028 Expected]",
     "options": [
       "$1 : 3$",
       "$4 : 3$",
@@ -980,7 +980,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "A slab consists of two parallel layers of two different materials of same thickness having thermal conductivities $K_1$ and $K_2$ in parallel. The equivalent conductivity of the combination is [BHU 2001]",
+    "questionText": "A slab consists of two parallel layers of two different materials of same thickness having thermal conductivities $K_1$ and $K_2$ in parallel. The equivalent conductivity of the combination is [NEET 2029 Practice]",
     "options": [
       "$K_1 + K_2$",
       "$\\frac{K_1 + K_2}{2}$",
@@ -999,7 +999,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "There are two identical vessels filled with equal amounts of ice. The vessels are of different metals. If the ice melts in the two vessels in $20$ and $35\\text{ minutes}$ respectively, the ratio of the coefficients of thermal conductivity of the two metals is [AFMC 1998; MP PET 2001]",
+    "questionText": "There are two identical vessels filled with equal amounts of ice. The vessels are of different metals. If the ice melts in the two vessels in $20$ and $35\\text{ minutes}$ respectively, the ratio of the coefficients of thermal conductivity of the two metals is [NEET 2027 Target]",
     "options": [
       "$4 : 7$",
       "$7 : 4$",
@@ -1018,7 +1018,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Surface of a lake is at $2^\\circ\\text{C}$. Find the temperature of the bottom of the lake [Orissa JEE 2002]",
+    "questionText": "Surface of a lake is at $2^\\circ\\text{C}$. Find the temperature of the bottom of the lake [NEET 2028 Expected]",
     "options": [
       "$2^\\circ\\text{C}$",
       "$3^\\circ\\text{C}$",
@@ -1037,7 +1037,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The heat is flowing through a rod of length $50\\text{ cm}$ and area of cross-section $5\\text{ cm}^2$. Its ends are respectively at $25^\\circ\\text{C}$ and $125^\\circ\\text{C}$. The coefficient of thermal conductivity of the material of the rod is $0.092\\text{ kcal}/(\\text{m}\\cdot\\text{s}\\cdot{}^\\circ\\text{C})$. The temperature gradient in the rod is [MP PET 2002]",
+    "questionText": "The heat is flowing through a rod of length $50\\text{ cm}$ and area of cross-section $5\\text{ cm}^2$. Its ends are respectively at $25^\\circ\\text{C}$ and $125^\\circ\\text{C}$. The coefficient of thermal conductivity of the material of the rod is $0.092\\text{ kcal}/(\\text{m}\\cdot\\text{s}\\cdot{}^\\circ\\text{C})$. The temperature gradient in the rod is [NEET 2029 Practice]",
     "options": [
       "$2^\\circ\\text{C / cm}$",
       "$2^\\circ\\text{C / m}$",
@@ -1056,7 +1056,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "In the Ingen-Hausz experiment the wax melts up to lengths $10\\text{ cm}$ and $25\\text{ cm}$ on two identical rods of different materials. The ratio of thermal conductivities of the two materials is [MP PET 2002]",
+    "questionText": "In the Ingen-Hausz experiment the wax melts up to lengths $10\\text{ cm}$ and $25\\text{ cm}$ on two identical rods of different materials. The ratio of thermal conductivities of the two materials is [NEET 2027 Target]",
     "options": [
       "$1 : 6.25$",
       "$6.25 : 1$",
@@ -1075,7 +1075,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Heat current is maximum in which of the following (rods are of identical dimensions): (a) Copper alone, (b) Copper and Steel in series, (c) Steel and Copper in series, (d) Steel alone [Orissa JEE 2003]",
+    "questionText": "Heat current is maximum in which of the following (rods are of identical dimensions): (a) Copper alone, (b) Copper and Steel in series, (c) Steel and Copper in series, (d) Steel alone [NEET 2028 Expected]",
     "options": [
       "Copper alone",
       "Copper and Steel in series",
@@ -1094,7 +1094,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Two rods of same length and cross section are joined along the length. Thermal conductivities of first and second rod are $K_1$ and $K_2$. The temperature of the free ends of the first and second rods are maintained at $\\theta_1$ and $\\theta_2$ respectively. The temperature of the common junction is [MP PET 2003]",
+    "questionText": "Two rods of same length and cross section are joined along the length. Thermal conductivities of first and second rod are $K_1$ and $K_2$. The temperature of the free ends of the first and second rods are maintained at $\\theta_1$ and $\\theta_2$ respectively. The temperature of the common junction is [NEET 2029 Practice]",
     "options": [
       "$\\frac{\\theta_1 + \\theta_2}{2}$",
       "$\\frac{K_1 K_2}{K_1 + K_2}(\\theta_1 + \\theta_2)$",
@@ -1113,7 +1113,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Consider a compound slab consisting of two different materials having equal thickness and thermal conductivities $K$ and $2K$ respectively in series. The equivalent thermal conductivity of the slab is [CBSE PMT 2003]",
+    "questionText": "Consider a compound slab consisting of two different materials having equal thickness and thermal conductivities $K$ and $2K$ respectively in series. The equivalent thermal conductivity of the slab is [NEET 2027 Target]",
     "options": [
       "$\\sqrt{2}K$",
       "$3K$",
@@ -1132,7 +1132,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two rods having thermal conductivity in the ratio of $5 : 3$ having equal lengths and equal cross-sectional area are joined face to face. If the temperature of the free end of the first rod is $100^\\circ\\text{C}$ and free end of the second rod is $20^\\circ\\text{C}$, then temperature of the junction is [CPMT 1996; DPMT 1997, 03; BVP 2004]",
+    "questionText": "Two rods having thermal conductivity in the ratio of $5 : 3$ having equal lengths and equal cross-sectional area are joined face to face. If the temperature of the free end of the first rod is $100^\\circ\\text{C}$ and free end of the second rod is $20^\\circ\\text{C}$, then temperature of the junction is [NEET 2028 Expected]",
     "options": [
       "$70^\\circ\\text{C}$",
       "$50^\\circ\\text{C}$",
@@ -1151,7 +1151,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Woollen clothes are used in winter season because woollen clothes [EAMCET 1978; AIIMS 1998]",
+    "questionText": "Woollen clothes are used in winter season because woollen clothes [NEET 2029 Practice]",
     "options": [
       "Are good sources for producing heat",
       "Absorb heat from surroundings",
@@ -1170,7 +1170,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two metal cubes A and B of same size are arranged as shown in the figure. The extreme ends are maintained at $100^\\circ\\text{C}$ and $0^\\circ\\text{C}$. The arrangement is thermally insulated. The coefficients of thermal conductivity of A and B are $300\\text{ W}/(\\text{m}\\cdot{}^\\circ\\text{C})$ and $200\\text{ W}/(\\text{m}\\cdot{}^\\circ\\text{C})$ respectively. After steady state is reached, the temperature of the interface will be [IIT 1996]",
+    "questionText": "Two metal cubes A and B of same size are arranged as shown in the figure. The extreme ends are maintained at $100^\\circ\\text{C}$ and $0^\\circ\\text{C}$. The arrangement is thermally insulated. The coefficients of thermal conductivity of A and B are $300\\text{ W}/(\\text{m}\\cdot{}^\\circ\\text{C})$ and $200\\text{ W}/(\\text{m}\\cdot{}^\\circ\\text{C})$ respectively. After steady state is reached, the temperature of the interface will be [NEET 2027 Target]",
     "options": [
       "$45^\\circ\\text{C}$",
       "$90^\\circ\\text{C}$",
@@ -1189,7 +1189,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "A cylindrical rod has temperature $T_1$ and $T_2$ at its ends. The rate of flow of heat is $Q_1\\text{ cal/sec}$. If all the linear dimensions are doubled keeping temperature constant then rate of flow of heat $Q_2$ will be [CBSE PMT 2001]",
+    "questionText": "A cylindrical rod has temperature $T_1$ and $T_2$ at its ends. The rate of flow of heat is $Q_1\\text{ cal/sec}$. If all the linear dimensions are doubled keeping temperature constant then rate of flow of heat $Q_2$ will be [NEET 2028 Expected]",
     "options": [
       "$4 Q_1$",
       "$2 Q_1$",
@@ -1208,7 +1208,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "A body of length $1\\text{ m}$ having cross sectional area $0.75\\text{ m}^2$ has heat flow through it at the rate of $6000\\text{ Joule/sec}$. Then find the temperature difference if $K = 200\\text{ J}/(\\text{m}\\cdot\\text{s}\\cdot\\text{K})$ [CPMT 2001]",
+    "questionText": "A body of length $1\\text{ m}$ having cross sectional area $0.75\\text{ m}^2$ has heat flow through it at the rate of $6000\\text{ Joule/sec}$. Then find the temperature difference if $K = 200\\text{ J}/(\\text{m}\\cdot\\text{s}\\cdot\\text{K})$ [NEET 2029 Practice]",
     "options": [
       "$20^\\circ\\text{C}$",
       "$40^\\circ\\text{C}$",
@@ -1227,7 +1227,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "A wall has two layers A and B made of different materials. The thickness of both the layers is the same. The thermal conductivity of A and B are $K_A$ and $K_B$ such that $K_A = 3 K_B$. The temperature difference across the entire composite wall is $20^\\circ\\text{C}$. In thermal equilibrium [CPMT 1998]",
+    "questionText": "A wall has two layers A and B made of different materials. The thickness of both the layers is the same. The thermal conductivity of A and B are $K_A$ and $K_B$ such that $K_A = 3 K_B$. The temperature difference across the entire composite wall is $20^\\circ\\text{C}$. In thermal equilibrium [NEET 2027 Target]",
     "options": [
       "The temperature difference across A $= 15^\\circ\\text{C}$",
       "The temperature difference across A $= 5^\\circ\\text{C}$",
@@ -1246,7 +1246,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "A metal rod of length $2\\text{ m}$ has cross sectional areas $2A$ and $A$ as shown in figure (left half $2A$, right half $A$). The ends are maintained at temperatures $100^\\circ\\text{C}$ and $70^\\circ\\text{C}$. The temperature at middle point C is [CPMT 2000]",
+    "questionText": "A metal rod of length $2\\text{ m}$ has cross sectional areas $2A$ and $A$ as shown in figure (left half $2A$, right half $A$). The ends are maintained at temperatures $100^\\circ\\text{C}$ and $70^\\circ\\text{C}$. The temperature at middle point C is [NEET 2028 Expected]",
     "options": [
       "$80^\\circ\\text{C}$",
       "$85^\\circ\\text{C}$",
@@ -1265,7 +1265,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "The ratio of the coefficient of thermal conductivity of two different materials is $5 : 3$. If the thermal resistance of the rods of same thickness (area) of these materials is same, then the ratio of the length of these rods will be [BHU 2000]",
+    "questionText": "The ratio of the coefficient of thermal conductivity of two different materials is $5 : 3$. If the thermal resistance of the rods of same thickness (area) of these materials is same, then the ratio of the length of these rods will be [NEET 2029 Practice]",
     "options": [
       "$3 : 5$",
       "$5 : 3$",
@@ -1284,7 +1284,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Which of the following circular rods (given radius $r$ and length $l$) each made of the same material whose ends are maintained at the same temperature will conduct most heat [CBSE PMT 2005]",
+    "questionText": "Which of the following circular rods (given radius $r$ and length $l$) each made of the same material whose ends are maintained at the same temperature will conduct most heat [NEET 2027 Target]",
     "options": [
       "$r = 2 r_0, l = 2 l_0$",
       "$r = 2 r_0, l = l_0$",
@@ -1303,7 +1303,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "It is hotter for the same distance over the top of a fire than it is in the side of it, mainly because [NCERT 1976, 79, 80; AIIMS 2000]",
+    "questionText": "It is hotter for the same distance over the top of a fire than it is in the side of it, mainly because [NEET 2028 Expected]",
     "options": [
       "Air conducts heat upwards",
       "Heat is radiated upwards",
@@ -1360,7 +1360,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "While measuring the thermal conductivity of a liquid, we keep the upper part hot and lower part cool, so that [CPMT 1985; MP PMT/PET 1988]",
+    "questionText": "While measuring the thermal conductivity of a liquid, we keep the upper part hot and lower part cool, so that [NEET 2029 Practice]",
     "options": [
       "Convection may be stopped",
       "Radiation may be stopped",
@@ -1398,7 +1398,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "The layers of atmosphere are heated through [MP PET 1986]",
+    "questionText": "The layers of atmosphere are heated through [NEET 2027 Target]",
     "options": [
       "Convection",
       "Conduction",
@@ -1417,7 +1417,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "Mode of transmission of heat, in which heat is carried by the moving particles, is [KCET 1999]",
+    "questionText": "Mode of transmission of heat, in which heat is carried by the moving particles, is [NEET 2028 Expected]",
     "options": [
       "Radiation",
       "Conduction",
@@ -1436,7 +1436,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "In a closed room, heat transfer takes place by [BHU 2001]",
+    "questionText": "In a closed room, heat transfer takes place by [NEET 2029 Practice]",
     "options": [
       "Conduction",
       "Convection",
@@ -1455,7 +1455,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "In heat transfer, which method is based on gravitation [CBSE PMT 2000]",
+    "questionText": "In heat transfer, which method is based on gravitation [NEET 2027 Target]",
     "options": [
       "Natural convection",
       "Conduction",
@@ -1474,7 +1474,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "When fluids are heated from the bottom, convection currents are produced because [UPSEAT 2000]",
+    "questionText": "When fluids are heated from the bottom, convection currents are produced because [NEET 2028 Expected]",
     "options": [
       "Molecular motion of fluid becomes aligned",
       "Molecular collisions take place within the fluid",
@@ -1493,7 +1493,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "If a liquid is heated in weightlessness, the heat is transmitted through [RPMT 1996]",
+    "questionText": "If a liquid is heated in weightlessness, the heat is transmitted through [NEET 2029 Practice]",
     "options": [
       "Conduction",
       "Convection",
@@ -1512,7 +1512,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Medium",
-    "questionText": "The rate of loss of heat from a body cooling under conditions of forced convection is proportional to its: (A) heat capacity, (B) surface area, (C) absolute temperature, (D) excess of temperature over that of surroundings. State which are correct: [NCERT 1982]",
+    "questionText": "The rate of loss of heat from a body cooling under conditions of forced convection is proportional to its: (A) heat capacity, (B) surface area, (C) absolute temperature, (D) excess of temperature over that of surroundings. State which are correct: [NEET 2027 Target]",
     "options": [
       "A, B, C are correct",
       "Only A and C are correct",
@@ -1531,7 +1531,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "In which of the following processes, convection does not take place primarily [IIT-JEE (Screening) 2005]",
+    "questionText": "In which of the following processes, convection does not take place primarily [NEET 2028 Expected]",
     "options": [
       "Sea and land breeze",
       "Boiling of water",
@@ -1539,7 +1539,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "Heating air around a furnace"
     ],
     "correctAnswer": 2,
-    "explanation": "### 📘 NCERT Fundamental Concept\nInside an incandescent bulb, there is a vacuum or inert gas, and the filament is at a very high temperature ($> 2000^\\circ\\text{C}$). Heat is transferred from the filament to the glass envelope primarily via **radiation** ($E \\propto T^4$).\n\n### ⚡ Step-by-Step Derivation & Calculations\n- Sea/land breeze: Convection\n- Boiling water: Convection\n- Air around furnace: Convection\n- Bulb glass heating: Radiation\n\n### ✓ Examiner Pro-Tip\nWarming of bulb glass by filament is primarily radiant heat transfer.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission"
     ]
@@ -1550,7 +1550,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Medium",
-    "questionText": "On a clear sunny day, an object at temperature $T$ is placed on the top of a high mountain. An identical object at the same temperature is placed at the foot of mountain. If both objects are exposed to sun-rays for two hours in an identical manner, the object at the top of the mountain will register a temperature [CPMT 1988]",
+    "questionText": "On a clear sunny day, an object at temperature $T$ is placed on the top of a high mountain. An identical object at the same temperature is placed at the foot of mountain. If both objects are exposed to sun-rays for two hours in an identical manner, the object at the top of the mountain will register a temperature [NEET 2027 Target]",
     "options": [
       "Higher than the object at the foot",
       "Lower than the object at the foot",
@@ -1569,7 +1569,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "The velocity of heat radiation in vacuum is [EAMCET 1982; KCET 1998]",
+    "questionText": "The velocity of heat radiation in vacuum is [NEET 2028 Expected]",
     "options": [
       "Equal to that of light",
       "Less than that of light",
@@ -1588,7 +1588,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "In which process, the rate of transfer of heat is maximum [EAMCET 1977; MP PMT 1994; MH CET 2001]",
+    "questionText": "In which process, the rate of transfer of heat is maximum [NEET 2029 Practice]",
     "options": [
       "Conduction",
       "Convection",
@@ -1607,7 +1607,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Which of the following is the correct device for the detection of thermal radiation [Manipal MEE 1995, UPSEAT 2000]",
+    "questionText": "Which of the following is the correct device for the detection of thermal radiation [NEET 2027 Target]",
     "options": [
       "Constant volume thermometer",
       "Liquid-in-glass thermometer",
@@ -1626,7 +1626,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "A thermos flask is polished well [AFMC 1996]",
+    "questionText": "A thermos flask is polished well [NEET 2028 Expected]",
     "options": [
       "To make attractive",
       "For shining",
@@ -1645,7 +1645,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Heat travels through vacuum by [AIIMS 1998; CPMT 2003]",
+    "questionText": "Heat travels through vacuum by [NEET 2029 Practice]",
     "options": [
       "Conduction",
       "Convection",
@@ -1664,7 +1664,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "The energy supply being cut-off, an electric heater element cools down to the temperature of its surroundings, but it will not cool further because [CPMT 2001]",
+    "questionText": "The energy supply being cut-off, an electric heater element cools down to the temperature of its surroundings, but it will not cool further because [NEET 2027 Target]",
     "options": [
       "Supply is cut off",
       "It is made of metal",
@@ -1683,7 +1683,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "We consider the radiation emitted by the human body. Which of the following statements is true [CBSE PMT 2003]",
+    "questionText": "We consider the radiation emitted by the human body. Which of the following statements is true [NEET 2028 Expected]",
     "options": [
       "The radiation is emitted only during the day",
       "The radiation is emitted during summers and absorbed during winters",
@@ -1702,7 +1702,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "The earth radiates in the infra-red region of the spectrum. The spectrum is correctly given by [RPET 2002; AIEEE 2003]",
+    "questionText": "The earth radiates in the infra-red region of the spectrum. The spectrum is correctly given by [NEET 2029 Practice]",
     "options": [
       "Wien's law",
       "Rayleigh-Jeans law",
@@ -1721,7 +1721,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Infrared radiation is detected by [AIEEE 2002]",
+    "questionText": "Infrared radiation is detected by [NEET 2027 Target]",
     "options": [
       "Spectrometer",
       "Pyrometer",
@@ -1740,7 +1740,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Pick out the statement which is not true [KCET 2002]",
+    "questionText": "Pick out the statement which is not true [NEET 2028 Expected]",
     "options": [
       "IR radiations are used for long distance photography",
       "IR radiations arise due to inner electron transitions in atoms",
@@ -1759,7 +1759,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "A hot and a cold body are kept in vacuum separated from each other. Which of the following causes decrease in temperature of the hot body [AFMC 2005]",
+    "questionText": "A hot and a cold body are kept in vacuum separated from each other. Which of the following causes decrease in temperature of the hot body [NEET 2029 Practice]",
     "options": [
       "Radiation",
       "Convection",
@@ -1778,7 +1778,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Good absorbers of heat are [J & K CET 2002]",
+    "questionText": "Good absorbers of heat are [NEET 2027 Target]",
     "options": [
       "Poor emitters",
       "Non-emitters",
@@ -1797,7 +1797,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "For a perfectly black body, its absorptive power is [MP PMT 1989, 92; RPMT 2001; RPET 2001, 03; AFMC 2003]",
+    "questionText": "For a perfectly black body, its absorptive power is [NEET 2028 Expected]",
     "options": [
       "$1$",
       "$0.5$",
@@ -1816,7 +1816,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "A certain substance emits only the wavelengths $\\lambda_1, \\lambda_2, \\lambda_3$ and $\\lambda_4$ when it is at a high temperature. When this substance is at a colder temperature, it will absorb only the following wavelengths [MP PET 1990]",
+    "questionText": "A certain substance emits only the wavelengths $\\lambda_1, \\lambda_2, \\lambda_3$ and $\\lambda_4$ when it is at a high temperature. When this substance is at a colder temperature, it will absorb only the following wavelengths [NEET 2029 Practice]",
     "options": [
       "$\\lambda_1$",
       "$\\lambda_2$",
@@ -1835,7 +1835,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "As compared to a person with white skin, a person with black skin will experience [CPMT 1988]",
+    "questionText": "As compared to a person with white skin, a person with black skin will experience [NEET 2027 Target]",
     "options": [
       "Less heat and more cold",
       "More heat and more cold",
@@ -1873,7 +1873,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is wrong [BCECE 2001]",
+    "questionText": "Which of the following statements is wrong [NEET 2028 Expected]",
     "options": [
       "Rough surfaces are better radiators than smooth surfaces",
       "Highly polished mirror like surfaces are very good radiators",
@@ -1911,7 +1911,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "If between wavelength $\\lambda$ and $\\lambda + d\\lambda$, $e_\\lambda$ and $a_\\lambda$ be the emissive and absorptive powers of a body and $E_\\lambda$ be the emissive power of a perfectly black body, then according to Kirchhoff's law, which is true [RPMT 1998; MP PET 1991]",
+    "questionText": "If between wavelength $\\lambda$ and $\\lambda + d\\lambda$, $e_\\lambda$ and $a_\\lambda$ be the emissive and absorptive powers of a body and $E_\\lambda$ be the emissive power of a perfectly black body, then according to Kirchhoff's law, which is true [NEET 2029 Practice]",
     "options": [
       "$e_\\lambda = a_\\lambda = E_\\lambda$",
       "$e_\\lambda E_\\lambda = a_\\lambda$",
@@ -1949,7 +1949,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Distribution of energy in the spectrum of a black body can be correctly represented by [MP PMT 1989]",
+    "questionText": "Distribution of energy in the spectrum of a black body can be correctly represented by [NEET 2027 Target]",
     "options": [
       "Wien's law",
       "Stefan's law",
@@ -1987,7 +1987,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "There is a rough black spot on a polished metallic plate. It is heated upto $1400\\text{ K}$ approximately and then at once taken in a dark room. Which of the following statements is true [NCERT 1984; CPMT 1998]",
+    "questionText": "There is a rough black spot on a polished metallic plate. It is heated upto $1400\\text{ K}$ approximately and then at once taken in a dark room. Which of the following statements is true [NEET 2028 Expected]",
     "options": [
       "In comparison with the plate, the spot will shine more",
       "In comparison with the plate, the spot will appear more black",
@@ -2006,7 +2006,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "At a certain temperature for given wavelength, the ratio of emissive power of a body to emissive power of black body in same circumstances is known as [RPMT 1997]",
+    "questionText": "At a certain temperature for given wavelength, the ratio of emissive power of a body to emissive power of black body in same circumstances is known as [NEET 2029 Practice]",
     "options": [
       "Relative emissivity",
       "Emissivity",
@@ -2025,7 +2025,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "The cause of Fraunhofer lines is [RPMT 1996; EAMCET 2001]",
+    "questionText": "The cause of Fraunhofer lines is [NEET 2027 Target]",
     "options": [
       "Reflection of radiations by chromosphere",
       "Absorption of radiations by chromosphere",
@@ -2044,7 +2044,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Medium",
-    "questionText": "Two thermometers A and B are exposed to sunlight. The bulb of A is painted black, but that of B is not painted. The correct statement regarding this case is [BHU (Med.) 1999; MH CET 1999]",
+    "questionText": "Two thermometers A and B are exposed to sunlight. The bulb of A is painted black, but that of B is not painted. The correct statement regarding this case is [NEET 2028 Expected]",
     "options": [
       "Temperature of A will rise faster than B but the final temperature will be the same in both",
       "Both A and B show equal rise in beginning",
@@ -2063,7 +2063,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "There is a black spot on a body. If the body is heated and carried into a dark room then it glows more. This can be explained on the basis of [RPET 2000]",
+    "questionText": "There is a black spot on a body. If the body is heated and carried into a dark room then it glows more. This can be explained on the basis of [NEET 2029 Practice]",
     "options": [
       "Newton's law of cooling",
       "Wien's law",
@@ -2082,7 +2082,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "When red glass is heated in a dark room it will seem [RPET 2000]",
+    "questionText": "When red glass is heated in a dark room it will seem [NEET 2027 Target]",
     "options": [
       "Green",
       "Purple",
@@ -2101,7 +2101,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "A hot body will radiate heat most rapidly if its surface is [UPSEAT 1999, 2000]",
+    "questionText": "A hot body will radiate heat most rapidly if its surface is [NEET 2028 Expected]",
     "options": [
       "White & polished",
       "White & rough",
@@ -2120,7 +2120,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "A body, which emits radiations of all possible wavelengths, is known as [CPMT 2001; Pb. PET 2002]",
+    "questionText": "A body, which emits radiations of all possible wavelengths, is known as [NEET 2029 Practice]",
     "options": [
       "Good conductor",
       "Partial radiator",
@@ -2139,7 +2139,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Which of the following is the best practical example of an ideal black body [AIEEE 2002; CBSE PMT 2002]",
+    "questionText": "Which of the following is the best practical example of an ideal black body [NEET 2027 Target]",
     "options": [
       "Kajal (Lampblack)",
       "Black board",
@@ -2158,7 +2158,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Medium",
-    "questionText": "An ideal black body at room temperature is thrown into a furnace. It is observed that [IIT-JEE (Screening) 2002]",
+    "questionText": "An ideal black body at room temperature is thrown into a furnace. It is observed that [NEET 2028 Expected]",
     "options": [
       "Initially it is the darkest body and at later times the brightest",
       "It is the darkest body at all times",
@@ -2177,7 +2177,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Absorption coefficient of an open window is [KCET 2004]",
+    "questionText": "Absorption coefficient of an open window is [NEET 2029 Practice]",
     "options": [
       "Zero",
       "$0.5$",
@@ -2196,7 +2196,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Which prism is used to obtain the infrared spectrum of light [RPMT 2000]",
+    "questionText": "Which prism is used to obtain the infrared spectrum of light [NEET 2027 Target]",
     "options": [
       "Rock-salt (NaCl)",
       "Nicol",
@@ -2215,7 +2215,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Medium",
-    "questionText": "Which of the following statements is correct [RPMT 2001]",
+    "questionText": "Which of the following statements is correct [NEET 2028 Expected]",
     "options": [
       "A good absorber is a bad emitter",
       "Every body stops absorbing and emitting radiation at $0^\\circ\\text{C}$",
@@ -2234,7 +2234,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Medium",
-    "questionText": "A piece of blue glass heated to a high temperature and a piece of red glass at room temperature, are taken inside a dimly lit room then [KCET 2005]",
+    "questionText": "A piece of blue glass heated to a high temperature and a piece of red glass at room temperature, are taken inside a dimly lit room then [NEET 2029 Practice]",
     "options": [
       "The blue piece will look blue and red will look as usual",
       "Red looks brighter red and blue looks ordinary blue",
@@ -2253,7 +2253,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation & Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Which of the following laws states that 'good absorbers of heat are good emitters' [Orissa JEE 2005]",
+    "questionText": "Which of the following laws states that 'good absorbers of heat are good emitters' [NEET 2027 Target]",
     "options": [
       "Stefan's law",
       "Kirchhoff's law",
@@ -2272,7 +2272,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "According to Wien's law [DCE 1995, 96; MP PET/PMT 1988; DPMT 1999; AIIMS 2002; CBSE PMT 2004]",
+    "questionText": "According to Wien's law [NEET 2028 Expected]",
     "options": [
       "$\\lambda_m T = \\text{constant}$",
       "$\\lambda_m / T = \\text{constant}$",
@@ -2291,7 +2291,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "On investigation of light from three different stars A, B and C, it was found that in the spectrum of A the intensity of red colour is maximum, in B the intensity of blue colour is maximum and in C the intensity of yellow colour is maximum. From these observations it can be concluded that [CPMT 1989]",
+    "questionText": "On investigation of light from three different stars A, B and C, it was found that in the spectrum of A the intensity of red colour is maximum, in B the intensity of blue colour is maximum and in C the intensity of yellow colour is maximum. From these observations it can be concluded that [NEET 2029 Practice]",
     "options": [
       "The temperature of A is maximum, B is minimum and C is intermediate",
       "The temperature of A is maximum, C is minimum and B is intermediate",
@@ -2310,7 +2310,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "If wavelengths of maximum intensity of radiations emitted by the sun and the moon are $0.5 \\times 10^{-6}\\text{ m}$ and $10^{-4}\\text{ m}$ respectively, the ratio of their temperatures is [MP PMT 1990]",
+    "questionText": "If wavelengths of maximum intensity of radiations emitted by the sun and the moon are $0.5 \\times 10^{-6}\\text{ m}$ and $10^{-4}\\text{ m}$ respectively, the ratio of their temperatures is [NEET 2027 Target]",
     "options": [
       "$1/100$",
       "$1/200$",
@@ -2329,7 +2329,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "The wavelength of radiation emitted by a body depends upon [MP PMT 1992]",
+    "questionText": "The wavelength of radiation emitted by a body depends upon [NEET 2028 Expected]",
     "options": [
       "The nature of its surface",
       "The area of its surface",
@@ -2348,7 +2348,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "If a black wire of platinum is heated, then its colour first appears red, then yellow and finally white. It can be understood on the basis of [MP PMT 1984]",
+    "questionText": "If a black wire of platinum is heated, then its colour first appears red, then yellow and finally white. It can be understood on the basis of [NEET 2029 Practice]",
     "options": [
       "Wien's displacement law",
       "Prevost theory of heat exchange",
@@ -2367,7 +2367,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "Colour of a shining bright star is an indication of its [AIIMS 2001; RPMT 1999; BCECE 2005]",
+    "questionText": "Colour of a shining bright star is an indication of its [NEET 2027 Target]",
     "options": [
       "Distance from the earth",
       "Size",
@@ -2386,7 +2386,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The wavelength of maximum emitted energy of a body at $700\\text{ K}$ is $4.08\\ \\mu\\text{m}$. If the temperature of the body is raised to $1400\\text{ K}$, the wavelength of maximum emitted energy will be [MP PET 1990]",
+    "questionText": "The wavelength of maximum emitted energy of a body at $700\\text{ K}$ is $4.08\\ \\mu\\text{m}$. If the temperature of the body is raised to $1400\\text{ K}$, the wavelength of maximum emitted energy will be [NEET 2028 Expected]",
     "options": [
       "$1.02\\ \\mu\\text{m}$",
       "$16.32\\ \\mu\\text{m}$",
@@ -2405,7 +2405,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "A black body at $200\\text{ K}$ is found to emit maximum energy at a wavelength of $14\\ \\mu\\text{m}$. When its temperature is raised to $1000\\text{ K}$, the wavelength at which maximum energy is emitted is [RPMT 1998; MP PET 1991; BVP 2003]",
+    "questionText": "A black body at $200\\text{ K}$ is found to emit maximum energy at a wavelength of $14\\ \\mu\\text{m}$. When its temperature is raised to $1000\\text{ K}$, the wavelength at which maximum energy is emitted is [NEET 2029 Practice]",
     "options": [
       "$14\\ \\mu\\text{m}$",
       "$70\\ \\mu\\text{m}$",
@@ -2424,7 +2424,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "Two stars emit maximum radiation at wavelength $3600\\text{ \\AA}$ and $4800\\text{ \\AA}$ respectively. The ratio of their temperatures is [MP PMT 1991]",
+    "questionText": "Two stars emit maximum radiation at wavelength $3600\\text{ \\AA}$ and $4800\\text{ \\AA}$ respectively. The ratio of their temperatures is [NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$3 : 4$",
@@ -2443,7 +2443,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "A black body emits radiations of maximum intensity at a wavelength of $5000\\text{ \\AA}$, when the temperature of the body is $1227^\\circ\\text{C}$. If the temperature of the body is increased by $1000^\\circ\\text{C}$, the maximum intensity of emitted radiation would be observed at [MP PET 1992]",
+    "questionText": "A black body emits radiations of maximum intensity at a wavelength of $5000\\text{ \\AA}$, when the temperature of the body is $1227^\\circ\\text{C}$. If the temperature of the body is increased by $1000^\\circ\\text{C}$, the maximum intensity of emitted radiation would be observed at [NEET 2028 Expected]",
     "options": [
       "$2754.8\\text{ \\AA}$",
       "$3000\\text{ \\AA}$",
@@ -2462,7 +2462,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "Four pieces of iron heated in a furnace to different temperatures show different colours listed below. Which one has the highest temperature [MP PET 1992]",
+    "questionText": "Four pieces of iron heated in a furnace to different temperatures show different colours listed below. Which one has the highest temperature [NEET 2029 Practice]",
     "options": [
       "White",
       "Yellow",
@@ -2481,7 +2481,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "If a black body is heated at a high temperature, it seems to be [DPMT 2001]",
+    "questionText": "If a black body is heated at a high temperature, it seems to be [NEET 2027 Target]",
     "options": [
       "Blue",
       "White",
@@ -2500,7 +2500,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "If the temperature of the sun becomes twice its present temperature, then [MP PET 1989; RPMT 1996]",
+    "questionText": "If the temperature of the sun becomes twice its present temperature, then [NEET 2028 Expected]",
     "options": [
       "Radiated energy would be predominantly in infrared",
       "Radiated energy would be predominantly in ultraviolet",
@@ -2519,7 +2519,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The maximum energy in the thermal radiation from a hot source occurs at a wavelength of $11 \\times 10^{-5}\\text{ cm}$. According to Wien's law, the temperature of the source (on Kelvin scale) will be $n$ times the temperature of another source for which the wavelength at maximum energy is $5.5 \\times 10^{-5}\\text{ cm}$. The value of $n$ is [CPMT 1991]",
+    "questionText": "The maximum energy in the thermal radiation from a hot source occurs at a wavelength of $11 \\times 10^{-5}\\text{ cm}$. According to Wien's law, the temperature of the source (on Kelvin scale) will be $n$ times the temperature of another source for which the wavelength at maximum energy is $5.5 \\times 10^{-5}\\text{ cm}$. The value of $n$ is [NEET 2029 Practice]",
     "options": [
       "$2$",
       "$4$",
@@ -2538,7 +2538,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The wavelength of maximum energy released during an atomic explosion was $2.93 \\times 10^{-10}\\text{ m}$. Given that Wien's constant is $2.93 \\times 10^{-3}\\text{ m}\\cdot\\text{K}$, the maximum temperature attained must be of the order of [Haryana CEE 1996; MH CET 2002; Pb. PET 2000]",
+    "questionText": "The wavelength of maximum energy released during an atomic explosion was $2.93 \\times 10^{-10}\\text{ m}$. Given that Wien's constant is $2.93 \\times 10^{-3}\\text{ m}\\cdot\\text{K}$, the maximum temperature attained must be of the order of [NEET 2027 Target]",
     "options": [
       "$10^{-7}\\text{ K}$",
       "$10^7\\text{ K}$",
@@ -2557,7 +2557,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The maximum wavelength of radiation emitted at $2000\\text{ K}$ is $4\\ \\mu\\text{m}$. What will be the maximum wavelength of radiation emitted at $2400\\text{ K}$? [MP PMT/PET 1998; DPMT 2000]",
+    "questionText": "The maximum wavelength of radiation emitted at $2000\\text{ K}$ is $4\\ \\mu\\text{m}$. What will be the maximum wavelength of radiation emitted at $2400\\text{ K}$? [NEET 2028 Expected]",
     "options": [
       "$3.33\\ \\mu\\text{m}$",
       "$0.66\\ \\mu\\text{m}$",
@@ -2565,7 +2565,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "$1\\text{ m}$"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$\\lambda_{m2} = \\lambda_{m1} \\left(\\frac{T_1}{T_2}\\right)$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$\\lambda_{m2} = 4\\ \\mu\\text{m} \\times \\left(\\frac{2000}{2400}\\right) = 4 \\times \\frac{5}{6} = \\frac{10}{3} \\approx 3.33\\ \\mu\\text{m}$$\n\n### ✓ Examiner Pro-Tip\n$4 \\times (5/6) = 3.33\\ \\mu\\text{m}$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission"
     ]
@@ -2576,7 +2576,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "How is the temperature of stars determined [BHU 1999, 02; DCE 2000, 03]",
+    "questionText": "How is the temperature of stars determined [NEET 2027 Target]",
     "options": [
       "Stefan's law",
       "Wien's displacement law",
@@ -2595,7 +2595,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "On increasing the temperature of a substance gradually, which of the following colours will be noticed first [Pb. PMT 1995; Pb. PET 1996; CPMT 1995, 98; KCET 2000]",
+    "questionText": "On increasing the temperature of a substance gradually, which of the following colours will be noticed first [NEET 2028 Expected]",
     "options": [
       "White",
       "Yellow",
@@ -2614,7 +2614,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "A black body has maximum wavelength $\\lambda_m$ at temperature $2000\\text{ K}$. Its corresponding wavelength at temperature $3000\\text{ K}$ will be [CBSE PMT 2001; Kerala PET 2005]",
+    "questionText": "A black body has maximum wavelength $\\lambda_m$ at temperature $2000\\text{ K}$. Its corresponding wavelength at temperature $3000\\text{ K}$ will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{3}{2} \\lambda_m$",
       "$\\frac{2}{3} \\lambda_m$",
@@ -2622,7 +2622,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "$\\frac{9}{4} \\lambda_m$"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$\\lambda_{m2} = \\lambda_{m1} \\left(\\frac{T_1}{T_2}\\right)$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$\\lambda_{m2} = \\lambda_m \\left(\\frac{2000}{3000}\\right) = \\frac{2}{3} \\lambda_m$$\n\n### ✓ Examiner Pro-Tip\n$\\lambda_{m2} = \\frac{2}{3} \\lambda_m$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Heat Transmission"
     ]
@@ -2633,7 +2633,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "Relation between the colour and the temperature of a star is given by [Kerala PET 2001]",
+    "questionText": "Relation between the colour and the temperature of a star is given by [NEET 2028 Expected]",
     "options": [
       "Wien's displacement law",
       "Planck's law",
@@ -2652,7 +2652,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "A black body at a temperature of $1640\\text{ K}$ has the wavelength corresponding to maximum emission equal to $1.75\\ \\mu\\text{m}$. Assuming the moon to be a perfectly black body, the temperature of the moon, if the wavelength corresponding to maximum emission is $14.35\\ \\mu\\text{m}$ is [Kerala (Med.) 2002]",
+    "questionText": "A black body at a temperature of $1640\\text{ K}$ has the wavelength corresponding to maximum emission equal to $1.75\\ \\mu\\text{m}$. Assuming the moon to be a perfectly black body, the temperature of the moon, if the wavelength corresponding to maximum emission is $14.35\\ \\mu\\text{m}$ is [NEET 2029 Practice]",
     "options": [
       "$100\\text{ K}$",
       "$150\\text{ K}$",
@@ -2671,7 +2671,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The maximum wavelength of radiations emitted at $900\\text{ K}$ is $4\\ \\mu\\text{m}$. What will be the maximum wavelength of radiations emitted at $1200\\text{ K}$? [BHU 2002]",
+    "questionText": "The maximum wavelength of radiations emitted at $900\\text{ K}$ is $4\\ \\mu\\text{m}$. What will be the maximum wavelength of radiations emitted at $1200\\text{ K}$? [NEET 2027 Target]",
     "options": [
       "$3\\ \\mu\\text{m}$",
       "$0.3\\ \\mu\\text{m}$",
@@ -2690,7 +2690,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "Solar radiation emitted by the sun resembles that emitted by a black body at a temperature of $6000\\text{ K}$. Maximum intensity is emitted at a wavelength of about $4800\\text{ \\AA}$. If the sun were to cool down from $6000\\text{ K}$ to $3000\\text{ K}$ then the peak intensity would occur at a wavelength [UPSEAT 2002]",
+    "questionText": "Solar radiation emitted by the sun resembles that emitted by a black body at a temperature of $6000\\text{ K}$. Maximum intensity is emitted at a wavelength of about $4800\\text{ \\AA}$. If the sun were to cool down from $6000\\text{ K}$ to $3000\\text{ K}$ then the peak intensity would occur at a wavelength [NEET 2028 Expected]",
     "options": [
       "$4800\\text{ \\AA}$",
       "$9600\\text{ \\AA}$",
@@ -2709,7 +2709,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "What will be the ratio of temperatures of sun and moon if the wavelengths of their maximum emission radiation rates are $140\\text{ \\AA}$ and $4200\\text{ \\AA}$ respectively [J & K CET 2004]",
+    "questionText": "What will be the ratio of temperatures of sun and moon if the wavelengths of their maximum emission radiation rates are $140\\text{ \\AA}$ and $4200\\text{ \\AA}$ respectively [NEET 2029 Practice]",
     "options": [
       "$1 : 30$",
       "$30 : 1$",
@@ -2728,7 +2728,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "The radiation energy density per unit wavelength at a temperature $T$ has a maximum at a wavelength $\\lambda_0$. At temperature $2T$, it will have a maximum at a wavelength [UPSEAT 2004]",
+    "questionText": "The radiation energy density per unit wavelength at a temperature $T$ has a maximum at a wavelength $\\lambda_0$. At temperature $2T$, it will have a maximum at a wavelength [NEET 2027 Target]",
     "options": [
       "$4\\lambda_0$",
       "$2\\lambda_0$",
@@ -2747,7 +2747,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Easy",
-    "questionText": "The absolute temperatures of two black bodies are $2000\\text{ K}$ and $3000\\text{ K}$ respectively. The ratio of wavelengths corresponding to maximum emission of radiation by them will be [RPMT 2003]",
+    "questionText": "The absolute temperatures of two black bodies are $2000\\text{ K}$ and $3000\\text{ K}$ respectively. The ratio of wavelengths corresponding to maximum emission of radiation by them will be [NEET 2028 Expected]",
     "options": [
       "$2 : 3$",
       "$3 : 2$",
@@ -2755,7 +2755,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "$4 : 9$"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\n$$\\frac{\\lambda_{m1}}{\\lambda_{m2}} = \\frac{T_2}{T_1}$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$\\frac{\\lambda_{m1}}{\\lambda_{m2}} = \\frac{3000}{2000} = \\frac{3}{2} = 3 : 2$$\n\n### ✓ Examiner Pro-Tip\nInverse temperature ratio: $3000 / 2000 = 3 : 2$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission"
     ]
@@ -2766,7 +2766,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The temperature of the sun is $5500\\text{ K}$ and it emits maximum intensity radiation in the yellow region ($5.5 \\times 10^{-7}\\text{ m}$). The maximum radiation from a furnace occurs at wavelength $11 \\times 10^{-7}\\text{ m}$. The temperature of the furnace is [J & K CET 2000]",
+    "questionText": "The temperature of the sun is $5500\\text{ K}$ and it emits maximum intensity radiation in the yellow region ($5.5 \\times 10^{-7}\\text{ m}$). The maximum radiation from a furnace occurs at wavelength $11 \\times 10^{-7}\\text{ m}$. The temperature of the furnace is [NEET 2027 Target]",
     "options": [
       "$1125\\text{ K}$",
       "$2750\\text{ K}$",
@@ -2785,7 +2785,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "A particular star (assuming it as a black body) has a surface temperature of about $5 \\times 10^4\\text{ K}$. The wavelength in nanometers at which its radiation becomes maximum is ($b = 0.0029\\text{ m}\\cdot\\text{K}$) [EAMCET (Med.) 2003]",
+    "questionText": "A particular star (assuming it as a black body) has a surface temperature of about $5 \\times 10^4\\text{ K}$. The wavelength in nanometers at which its radiation becomes maximum is ($b = 0.0029\\text{ m}\\cdot\\text{K}$) [NEET 2028 Expected]",
     "options": [
       "$48\\text{ nm}$",
       "$58\\text{ nm}$",
@@ -2804,7 +2804,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The maximum energy in thermal radiation from a source occurs at the wavelength $4000\\text{ \\AA}$. The effective temperature of the source is [AMU (Engg.) 1999]",
+    "questionText": "The maximum energy in thermal radiation from a source occurs at the wavelength $4000\\text{ \\AA}$. The effective temperature of the source is [NEET 2029 Practice]",
     "options": [
       "$7000\\text{ K}$",
       "$80000\\text{ K}$",
@@ -2823,7 +2823,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Displacement Law",
     "difficulty": "Medium",
-    "questionText": "The intensity of radiation emitted by the sun has its maximum value at a wavelength of $510\\text{ nm}$ and that emitted by the north star has the maximum value at $350\\text{ nm}$. If these stars behave like black bodies, then the ratio of the surface temperature of the sun and north star is [IIT 1997; JIPMER 2000; AIIMS 2000]",
+    "questionText": "The intensity of radiation emitted by the sun has its maximum value at a wavelength of $510\\text{ nm}$ and that emitted by the north star has the maximum value at $350\\text{ nm}$. If these stars behave like black bodies, then the ratio of the surface temperature of the sun and north star is [NEET 2027 Target]",
     "options": [
       "$1.46$",
       "$0.69$",
@@ -2842,7 +2842,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "The amount of radiation emitted by a perfectly black body is proportional to [AFMC 1995; Pb. PMT 1997; CPMT 1974, 98, 02; AIIMS 2000; DPMT 1995, 98, 02]",
+    "questionText": "The amount of radiation emitted by a perfectly black body is proportional to [NEET 2028 Expected]",
     "options": [
       "Temperature on ideal gas scale",
       "Fourth root of temperature on ideal gas scale",
@@ -2861,7 +2861,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "A metal ball of surface area $200\\text{ cm}^2$ and temperature $527^\\circ\\text{C}$ is surrounded by a vessel at $27^\\circ\\text{C}$. If the emissivity of the metal is $0.4$, then the rate of loss of heat from the ball is ($\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$) [MP PMT/PET 1988]",
+    "questionText": "A metal ball of surface area $200\\text{ cm}^2$ and temperature $527^\\circ\\text{C}$ is surrounded by a vessel at $27^\\circ\\text{C}$. If the emissivity of the metal is $0.4$, then the rate of loss of heat from the ball is ($\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$) [NEET 2029 Practice]",
     "options": [
       "$108\\text{ joules approx.}$",
       "$168\\text{ joules approx.}$",
@@ -2880,7 +2880,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The rate of radiation of a black body at $0^\\circ\\text{C}$ is $E\\text{ J/sec}$. The rate of radiation of this black body at $273^\\circ\\text{C}$ will be [MP PMT 1989; Kerala PET 2002; UPSEAT 2001]",
+    "questionText": "The rate of radiation of a black body at $0^\\circ\\text{C}$ is $E\\text{ J/sec}$. The rate of radiation of this black body at $273^\\circ\\text{C}$ will be [NEET 2027 Target]",
     "options": [
       "$16 E$",
       "$8 E$",
@@ -2899,7 +2899,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A black body radiates energy at the rate of $E\\text{ W/m}^2$ at a high temperature $T\\text{ K}$. When the temperature is reduced to $T/2\\text{ K}$, the radiant energy will be [CPMT 1988; UPSEAT 1998; MNR 1993; SCRA 1996; MP PMT 1992; DPMT 2001; MH CET 2001]",
+    "questionText": "A black body radiates energy at the rate of $E\\text{ W/m}^2$ at a high temperature $T\\text{ K}$. When the temperature is reduced to $T/2\\text{ K}$, the radiant energy will be [NEET 2028 Expected]",
     "options": [
       "$\\frac{E}{16}$",
       "$\\frac{E}{4}$",
@@ -2918,7 +2918,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "An object is at a temperature of $400^\\circ\\text{C}$ (wait, $400\\text{ K}$ or $400^\\circ\\text{C} = 673\\text{ K}$). At what temperature would it radiate energy twice as fast? (Temperature of surroundings negligible) [MP PMT 1990; DPMT 2002]",
+    "questionText": "An object is at a temperature of $400^\\circ\\text{C}$ (wait, $400\\text{ K}$ or $400^\\circ\\text{C} = 673\\text{ K}$). At what temperature would it radiate energy twice as fast? (Temperature of surroundings negligible) [NEET 2029 Practice]",
     "options": [
       "$200^\\circ\\text{C}$",
       "$200\\text{ K}$",
@@ -2937,7 +2937,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A black body at a temperature of $227^\\circ\\text{C}$ radiates heat energy at the rate of $5\\text{ cal}/(\\text{cm}^2\\cdot\\text{sec})$. At a temperature of $727^\\circ\\text{C}$, the rate of heat radiated per unit area in $\\text{cal}/(\\text{cm}^2\\cdot\\text{sec})$ will be [MP PET 1987; MH CET 2002]",
+    "questionText": "A black body at a temperature of $227^\\circ\\text{C}$ radiates heat energy at the rate of $5\\text{ cal}/(\\text{cm}^2\\cdot\\text{sec})$. At a temperature of $727^\\circ\\text{C}$, the rate of heat radiated per unit area in $\\text{cal}/(\\text{cm}^2\\cdot\\text{sec})$ will be [NEET 2027 Target]",
     "options": [
       "$80$",
       "$160$",
@@ -2956,7 +2956,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Energy is being emitted from the surface of a black body at $127^\\circ\\text{C}$ temperature at the rate of $1.0 \\times 10^6\\text{ J}/(\\text{sec}\\cdot\\text{m}^2)$. Temperature of the black body at which the rate of energy emission is $16.0 \\times 10^6\\text{ J}/(\\text{sec}\\cdot\\text{m}^2)$ will be [MP PMT 1991; AFMC 1998]",
+    "questionText": "Energy is being emitted from the surface of a black body at $127^\\circ\\text{C}$ temperature at the rate of $1.0 \\times 10^6\\text{ J}/(\\text{sec}\\cdot\\text{m}^2)$. Temperature of the black body at which the rate of energy emission is $16.0 \\times 10^6\\text{ J}/(\\text{sec}\\cdot\\text{m}^2)$ will be [NEET 2028 Expected]",
     "options": [
       "$254^\\circ\\text{C}$",
       "$508^\\circ\\text{C}$",
@@ -2994,7 +2994,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "If temperature of a black body increases from $7^\\circ\\text{C}$ to $287^\\circ\\text{C}$, then the rate of energy radiation increases by a factor of [AIIMS 1997; Haryana PMT 2000; RPMT 2003]",
+    "questionText": "If temperature of a black body increases from $7^\\circ\\text{C}$ to $287^\\circ\\text{C}$, then the rate of energy radiation increases by a factor of [NEET 2029 Practice]",
     "options": [
       "$\\left(\\frac{287}{7}\\right)^4$",
       "$16$",
@@ -3013,7 +3013,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The temperature of a piece of iron is $27^\\circ\\text{C}$ and it is radiating energy at the rate of $Q\\text{ kW/m}^2$. If its temperature is raised to $151^\\circ\\text{C}$, the rate of radiation of energy will become approximately [MP PET 1992]",
+    "questionText": "The temperature of a piece of iron is $27^\\circ\\text{C}$ and it is radiating energy at the rate of $Q\\text{ kW/m}^2$. If its temperature is raised to $151^\\circ\\text{C}$, the rate of radiation of energy will become approximately [NEET 2027 Target]",
     "options": [
       "$2 Q\\text{ kW/m}^2$",
       "$4 Q\\text{ kW/m}^2$",
@@ -3032,7 +3032,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "The temperatures of two bodies A and B are $727^\\circ\\text{C}$ and $127^\\circ\\text{C}$. The ratio of rate of emission of radiations will be [MP PET 1986]",
+    "questionText": "The temperatures of two bodies A and B are $727^\\circ\\text{C}$ and $127^\\circ\\text{C}$. The ratio of rate of emission of radiations will be [NEET 2028 Expected]",
     "options": [
       "$727/127$",
       "$625/16$",
@@ -3073,7 +3073,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "questionText": "The area of a hole of a heat furnace is $10^{-4}\\text{ m}^2$. It radiates $1.58 \\times 10^5\\text{ calories}$ of heat per hour. If the emissivity of the furnace is $0.80$, then its temperature is",
     "options": [
       "$1500\\text{ K}$",
-      "$2000\\text{ K}$",
+      "NEET 2029 Practice",
       "$2500\\text{ K}$",
       "$3000\\text{ K}$"
     ],
@@ -3089,7 +3089,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two spheres P and Q, of same colour having radii $8\\text{ cm}$ and $2\\text{ cm}$ are maintained at temperatures $127^\\circ\\text{C}$ and $527^\\circ\\text{C}$ respectively. The ratio of energy radiated by P and Q is [MP PMT 1994]",
+    "questionText": "Two spheres P and Q, of same colour having radii $8\\text{ cm}$ and $2\\text{ cm}$ are maintained at temperatures $127^\\circ\\text{C}$ and $527^\\circ\\text{C}$ respectively. The ratio of energy radiated by P and Q is [NEET 2027 Target]",
     "options": [
       "$0.054$",
       "$0.0034$",
@@ -3108,7 +3108,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A body radiates energy $5\\text{ W}$ at a temperature of $127^\\circ\\text{C}$. If the temperature is increased to $927^\\circ\\text{C}$, then it radiates energy at the rate of [MP PET 1994; BHU 1995; CPMT 1998; AFMC 2000]",
+    "questionText": "A body radiates energy $5\\text{ W}$ at a temperature of $127^\\circ\\text{C}$. If the temperature is increased to $927^\\circ\\text{C}$, then it radiates energy at the rate of [NEET 2028 Expected]",
     "options": [
       "$410\\text{ W}$",
       "$81\\text{ W}$",
@@ -3127,11 +3127,11 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "A thin square steel plate with each side equal to $10\\text{ cm}$ is heated by a blacksmith. The rate of radiated energy by the heated plate is $1134\\text{ W}$. The temperature of the hot steel plate is ($\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$, emissivity $= 1$) [MP PMT 1995]",
+    "questionText": "A thin square steel plate with each side equal to $10\\text{ cm}$ is heated by a blacksmith. The rate of radiated energy by the heated plate is $1134\\text{ W}$. The temperature of the hot steel plate is ($\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$, emissivity $= 1$) [NEET 2029 Practice]",
     "options": [
       "$1000\\text{ K}$",
       "$1189\\text{ K}$",
-      "$2000\\text{ K}$",
+      "NEET 2027 Target",
       "$2378\\text{ K}$"
     ],
     "correctAnswer": 1,
@@ -3146,7 +3146,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The temperatures of two bodies A and B are respectively $727^\\circ\\text{C}$ and $327^\\circ\\text{C}$. The ratio $H_A : H_B$ of the rates of heat radiated by them is [UPSEAT 1999; MP PET 1999; MH CET 2000; AIIMS 2000]",
+    "questionText": "The temperatures of two bodies A and B are respectively $727^\\circ\\text{C}$ and $327^\\circ\\text{C}$. The ratio $H_A : H_B$ of the rates of heat radiated by them is [NEET 2028 Expected]",
     "options": [
       "$727 : 327$",
       "$5 : 3$",
@@ -3165,7 +3165,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "The energy emitted per second by a black body at $27^\\circ\\text{C}$ is $10\\text{ J}$. If the temperature of the black body is increased to $327^\\circ\\text{C}$, the energy emitted per second will be [CPMT 1999; DCE 1999]",
+    "questionText": "The energy emitted per second by a black body at $27^\\circ\\text{C}$ is $10\\text{ J}$. If the temperature of the black body is increased to $327^\\circ\\text{C}$, the energy emitted per second will be [NEET 2029 Practice]",
     "options": [
       "$20\\text{ J}$",
       "$40\\text{ J}$",
@@ -3184,7 +3184,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The radiant energy from the sun incident normally at the surface of earth is $20\\text{ kcal}/(\\text{m}^2\\cdot\\text{min})$. What would have been the radiant energy incident normally on the earth, if the sun had a temperature twice of the present one [CBSE PMT 1998; Pb. PET 2001]",
+    "questionText": "The radiant energy from the sun incident normally at the surface of earth is $20\\text{ kcal}/(\\text{m}^2\\cdot\\text{min})$. What would have been the radiant energy incident normally on the earth, if the sun had a temperature twice of the present one [NEET 2027 Target]",
     "options": [
       "$160\\text{ kcal}/(\\text{m}^2\\cdot\\text{min})$",
       "$40\\text{ kcal}/(\\text{m}^2\\cdot\\text{min})$",
@@ -3203,7 +3203,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A spherical black body with a radius of $12\\text{ cm}$ radiates $440\\text{ W}$ power at $500\\text{ K}$. If the radius were halved and the temperature doubled, the power radiated in watt would be [IIT 1997 Re-Exam]",
+    "questionText": "A spherical black body with a radius of $12\\text{ cm}$ radiates $440\\text{ W}$ power at $500\\text{ K}$. If the radius were halved and the temperature doubled, the power radiated in watt would be [NEET 2028 Expected]",
     "options": [
       "$225$",
       "$450$",
@@ -3222,7 +3222,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "If the temperature of the sun (black body) is doubled, the rate of energy received on earth will be increased by a factor of [CBSE PMT 1993; BHU 2003; RPMT 2004; CPMT 2004]",
+    "questionText": "If the temperature of the sun (black body) is doubled, the rate of energy received on earth will be increased by a factor of [NEET 2029 Practice]",
     "options": [
       "$2$",
       "$4$",
@@ -3241,7 +3241,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The ratio of energy of emitted radiation of a black body at $27^\\circ\\text{C}$ and $927^\\circ\\text{C}$ is [Pb. PMT 1995; CPMT 1997, 2000; CBSE PMT 2000; DPMT 1998, 02, 03]",
+    "questionText": "The ratio of energy of emitted radiation of a black body at $27^\\circ\\text{C}$ and $927^\\circ\\text{C}$ is [NEET 2027 Target]",
     "options": [
       "$1 : 4$",
       "$1 : 16$",
@@ -3260,7 +3260,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "If the temperature of a black body be increased from $27^\\circ\\text{C}$ to $327^\\circ\\text{C}$, the radiation emitted increases by a factor of [Pb. PET 1997; JIPMER 1999]",
+    "questionText": "If the temperature of a black body be increased from $27^\\circ\\text{C}$ to $327^\\circ\\text{C}$, the radiation emitted increases by a factor of [NEET 2028 Expected]",
     "options": [
       "$16$",
       "$8$",
@@ -3279,7 +3279,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "The rectangular surface of area $8\\text{ cm} \\times 4\\text{ cm}$ of a black body at a temperature of $127^\\circ\\text{C}$ emits energy at the rate of $E$ per second. If the length and breadth of the surface are each reduced to half of the initial value and the temperature is raised to $327^\\circ\\text{C}$, the rate of emission of energy will become [MP PET 2000]",
+    "questionText": "The rectangular surface of area $8\\text{ cm} \\times 4\\text{ cm}$ of a black body at a temperature of $127^\\circ\\text{C}$ emits energy at the rate of $E$ per second. If the length and breadth of the surface are each reduced to half of the initial value and the temperature is raised to $327^\\circ\\text{C}$, the rate of emission of energy will become [NEET 2029 Practice]",
     "options": [
       "$\\frac{3}{8} E$",
       "$\\frac{81}{16} E$",
@@ -3298,7 +3298,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "At temperature $T$, the power radiated by a body is $Q\\text{ watts}$. At temperature $3T$ the power radiated by it will be [MP PET 2000]",
+    "questionText": "At temperature $T$, the power radiated by a body is $Q\\text{ watts}$. At temperature $3T$ the power radiated by it will be [NEET 2027 Target]",
     "options": [
       "$3 Q$",
       "$9 Q$",
@@ -3317,7 +3317,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two spherical black bodies of radii $r_1$ and $r_2$ and with surface temperatures $T_1$ and $T_2$ respectively radiate the same power. Then the ratio of $r_1$ and $r_2$ will be [KCET 2001; UPSEAT 2001]",
+    "questionText": "Two spherical black bodies of radii $r_1$ and $r_2$ and with surface temperatures $T_1$ and $T_2$ respectively radiate the same power. Then the ratio of $r_1$ and $r_2$ will be [NEET 2028 Expected]",
     "options": [
       "$\\left(\\frac{T_2}{T_1}\\right)^2$",
       "$\\left(\\frac{T_2}{T_1}\\right)^4$",
@@ -3336,7 +3336,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Temperature of a black body increases from $327^\\circ\\text{C}$ to $927^\\circ\\text{C}$, the initial energy possessed/radiated is $2\\text{ kJ}$, what is its final energy? [DCE 2001]",
+    "questionText": "Temperature of a black body increases from $327^\\circ\\text{C}$ to $927^\\circ\\text{C}$, the initial energy possessed/radiated is $2\\text{ kJ}$, what is its final energy? [NEET 2029 Practice]",
     "options": [
       "$32\\text{ kJ}$",
       "$320\\text{ kJ}$",
@@ -3355,11 +3355,11 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The original temperature of a black body is $727^\\circ\\text{C}$. The temperature to which this black body must be raised so as to double the total radiant energy, is [Pb. PMT 2001]",
+    "questionText": "The original temperature of a black body is $727^\\circ\\text{C}$. The temperature to which this black body must be raised so as to double the total radiant energy, is [NEET 2027 Target]",
     "options": [
       "$971\\text{ K}$",
       "$1190\\text{ K}$",
-      "$2001\\text{ K}$",
+      "NEET 2028 Expected",
       "$1458\\text{ K}$"
     ],
     "correctAnswer": 1,
@@ -3374,7 +3374,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two black metallic spheres of radius $4\\text{ m}$ at $2000\\text{ K}$ and $1\\text{ m}$ at $4000\\text{ K}$ will have ratio of energy radiation as: [RPET 2000; AIEEE 2002]",
+    "questionText": "Two black metallic spheres of radius $4\\text{ m}$ at $2000\\text{ K}$ and $1\\text{ m}$ at $4000\\text{ K}$ will have ratio of energy radiation as: [NEET 2029 Practice]",
     "options": [
       "$1 : 1$",
       "$4 : 1$",
@@ -3382,7 +3382,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "$2 : 1$"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\nAccording to Stefan-Boltzmann Law, the total radiant energy emitted per second by a spherical black body of radius $r$ at absolute temperature $T$ is given by:\n$$E = \\sigma A T^4 = \\sigma (4\\pi r^2) T^4 \\propto r^2 T^4$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven:\n- Sphere 1: $r_1 = 4\\text{ m}$, $T_1 = 2000\\text{ K}$\n- Sphere 2: $r_2 = 1\\text{ m}$, $T_2 = 4000\\text{ K}$\n\nTaking the ratio of radiated powers:\n$$\\frac{E_1}{E_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\left(\\frac{T_1}{T_2}\\right)^4 = \\left(\\frac{4}{1}\\right)^2 \\left(\\frac{2000}{4000}\\right)^4 = 16 \\times \\left(\\frac{1}{2}\\right)^4 = 16 \\times \\frac{1}{16} = 1$$\n$$\\frac{E_1}{E_2} = \\frac{1}{1} \\implies 1 : 1$$\n\n### ✓ Examiner Pro-Tip\nRemember that total emissive power scales as $r^2 T^4$. While the temperature of the second sphere is doubled (giving a $2^4 = 16\\times$ factor), the radius of the first is 4 times larger (giving a $4^2 = 16\\times$ factor), which exactly balances out to $1:1$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -3395,7 +3395,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The energy spectrum of a black body exhibits a maximum around a wavelength $\\lambda_0$. The temperature of the black body is now changed such that the energy is maximum around a wavelength $\\frac{3}{4}\\lambda_0$. The power radiated by the black body will now increase by a factor of: [KCET 2002]",
+    "questionText": "The energy spectrum of a black body exhibits a maximum around a wavelength $\\lambda_0$. The temperature of the black body is now changed such that the energy is maximum around a wavelength $\\frac{3}{4}\\lambda_0$. The power radiated by the black body will now increase by a factor of: [NEET 2028 Expected]",
     "options": [
       "$\\frac{256}{81}$",
       "$\\frac{64}{27}$",
@@ -3417,7 +3417,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A black body is at a temperature $300\\text{ K}$. It emits energy at a rate which is proportional to: [Pb. PMT 1998; AIIMS 2002; MH CET 2003]",
+    "questionText": "A black body is at a temperature $300\\text{ K}$. It emits energy at a rate which is proportional to: [NEET 2029 Practice]",
     "options": [
       "$(300)$",
       "$(300)^2$",
@@ -3438,7 +3438,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "If the temperature of a hot body is increased by $50\\%$, then the increase in the quantity of emitted heat radiation will be approximately: [RPET 1998; EAMCET 2001; MP PMT 2003]",
+    "questionText": "If the temperature of a hot body is increased by $50\\%$, then the increase in the quantity of emitted heat radiation will be approximately: [NEET 2027 Target]",
     "options": [
       "$125\\%$",
       "$200\\%$",
@@ -3459,7 +3459,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two identical metal balls at temperature $200^\\circ\\text{C}$ and $400^\\circ\\text{C}$ are kept in air at $27^\\circ\\text{C}$. The ratio of net heat loss by these bodies is: [CPMT 2002]",
+    "questionText": "Two identical metal balls at temperature $200^\\circ\\text{C}$ and $400^\\circ\\text{C}$ are kept in air at $27^\\circ\\text{C}$. The ratio of net heat loss by these bodies is: [NEET 2028 Expected]",
     "options": [
       "$\\frac{1}{4}$",
       "$\\frac{1}{2}$",
@@ -3480,7 +3480,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "Two spheres made of same material have radii in the ratio $1 : 2$. Both are at the same temperature. The ratio of heat radiation energy emitted per second by them is: [MP PMT 2002; MH CET 2004]",
+    "questionText": "Two spheres made of same material have radii in the ratio $1 : 2$. Both are at the same temperature. The ratio of heat radiation energy emitted per second by them is: [NEET 2029 Practice]",
     "options": [
       "$1 : 2$",
       "$1 : 8$",
@@ -3501,7 +3501,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A black body at a temperature of $127^\\circ\\text{C}$ radiates heat at the rate of $1\\text{ cal}/(\\text{cm}^2\\cdot\\text{s})$. At a temperature of $527^\\circ\\text{C}$, the rate of heat radiation from the body (in $\\text{cal}/(\\text{cm}^2\\cdot\\text{s})$) will be: [MP PET 2002]",
+    "questionText": "A black body at a temperature of $127^\\circ\\text{C}$ radiates heat at the rate of $1\\text{ cal}/(\\text{cm}^2\\cdot\\text{s})$. At a temperature of $527^\\circ\\text{C}$, the rate of heat radiation from the body (in $\\text{cal}/(\\text{cm}^2\\cdot\\text{s})$) will be: [NEET 2027 Target]",
     "options": [
       "$16.0$",
       "$10.45$",
@@ -3522,7 +3522,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A black body radiates $20\\text{ W}$ at temperature $227^\\circ\\text{C}$. If the temperature of the black body is changed to $727^\\circ\\text{C}$, then its radiating power will be: [UPSEAT 2002]",
+    "questionText": "A black body radiates $20\\text{ W}$ at temperature $227^\\circ\\text{C}$. If the temperature of the black body is changed to $727^\\circ\\text{C}$, then its radiating power will be: [NEET 2028 Expected]",
     "options": [
       "$120\\text{ W}$",
       "$240\\text{ W}$",
@@ -3543,7 +3543,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "An electric heater emits $1000\\text{ W}$ of thermal radiation. The coil has a surface area of $0.020\\text{ m}^2$. Assuming that the coil radiates like a black body, its temperature is approximately: (Stefan's constant $\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$) [UPSEAT 2002]",
+    "questionText": "An electric heater emits $1000\\text{ W}$ of thermal radiation. The coil has a surface area of $0.020\\text{ m}^2$. Assuming that the coil radiates like a black body, its temperature is approximately: (Stefan's constant $\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$) [NEET 2029 Practice]",
     "options": [
       "$96.5\\text{ K}$",
       "$1000\\text{ K}$",
@@ -3564,7 +3564,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The radiation emitted by a star $A$ is $10000$ times that of the sun. If the surface temperature of the sun and star $A$ are $6000\\text{ K}$ and $2000\\text{ K}$ respectively, the ratio of the radii of star $A$ and the sun is: [Kerala (Med.) 2002]",
+    "questionText": "The radiation emitted by a star $A$ is $10000$ times that of the sun. If the surface temperature of the sun and star $A$ are $6000\\text{ K}$ and $2000\\text{ K}$ respectively, the ratio of the radii of star $A$ and the sun is: [NEET 2027 Target]",
     "options": [
       "$300 : 1$",
       "$600 : 1$",
@@ -3572,7 +3572,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "$1200 : 1$"
     ],
     "correctAnswer": 2,
-    "explanation": "### 📘 NCERT Fundamental Concept\nTotal power emitted by a spherical celestial body is given by:\n$$P = \\sigma (4\\pi R^2) T^4 \\implies P \\propto R^2 T^4 \\implies R \\propto \\frac{\\sqrt{P}}{T^2}$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven:\n- $\\frac{P_A}{P_S} = 10000 = 10^4$\n- $T_A = 2000\\text{ K}$, $T_S = 6000\\text{ K}$\n\n$$\\frac{R_A}{R_S} = \\sqrt{\\frac{P_A}{P_S}} \\times \\left(\\frac{T_S}{T_A}\\right)^2 = \\sqrt{10000} \\times \\left(\\frac{6000}{2000}\\right)^2 = 100 \\times (3)^2 = 100 \\times 9 = 900$$\nThus, the ratio of radii $\\frac{R_A}{R_S} = 900 : 1$.\n\n### ✓ Examiner Pro-Tip\nLuminosity ratio $L_A/L_S = (R_A/R_S)^2 (T_A/T_S)^4 \\implies R_A/R_S = \\sqrt{L_A/L_S} / (T_A/T_S)^2$.",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -3585,7 +3585,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A sphere at temperature $600\\text{ K}$ is placed in an environment of temperature $200\\text{ K}$. Its cooling rate is $H$. If its temperature reduced to $400\\text{ K}$, then the cooling rate in the same environment will be: [CPMT 2002]",
+    "questionText": "A sphere at temperature $600\\text{ K}$ is placed in an environment of temperature $200\\text{ K}$. Its cooling rate is $H$. If its temperature reduced to $400\\text{ K}$, then the cooling rate in the same environment will be: [NEET 2029 Practice]",
     "options": [
       "$\\left(\\frac{3}{16}\\right) H$",
       "$\\left(\\frac{16}{3}\\right) H$",
@@ -3606,7 +3606,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A sphere, a cube and a thin circular plate, all made of the same material and having the same mass are initially heated to a temperature of $200^\\circ\\text{C}$. Which of these will cool fastest? [MP PMT 2002; CBSE PMT 2003]",
+    "questionText": "A sphere, a cube and a thin circular plate, all made of the same material and having the same mass are initially heated to a temperature of $200^\\circ\\text{C}$. Which of these will cool fastest? [NEET 2027 Target]",
     "options": [
       "Sphere",
       "Cube",
@@ -3627,7 +3627,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A sphere, a cube and a thin circular plate, all made of the same mass and same material are initially heated to the same high temperature. Which of these will cool slowest? [BHU 2003]",
+    "questionText": "A sphere, a cube and a thin circular plate, all made of the same mass and same material are initially heated to the same high temperature. Which of these will cool slowest? [NEET 2028 Expected]",
     "options": [
       "Cube",
       "Sphere",
@@ -3648,7 +3648,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "If the temperature of a black body increases from $7^\\circ\\text{C}$ to $287^\\circ\\text{C}$, then the rate of energy radiation increases by a factor of: [MP PMT 2003]",
+    "questionText": "If the temperature of a black body increases from $7^\\circ\\text{C}$ to $287^\\circ\\text{C}$, then the rate of energy radiation increases by a factor of: [NEET 2029 Practice]",
     "options": [
       "$\\left(\\frac{287}{7}\\right)^4$",
       "$16$",
@@ -3669,7 +3669,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The rate of emission of radiation of a black body at $273^\\circ\\text{C}$ is $E$, then the rate of emission of radiation of this body at $0^\\circ\\text{C}$ will be: [RPMT 2003]",
+    "questionText": "The rate of emission of radiation of a black body at $273^\\circ\\text{C}$ is $E$, then the rate of emission of radiation of this body at $0^\\circ\\text{C}$ will be: [NEET 2027 Target]",
     "options": [
       "$\\frac{E}{16}$",
       "$\\frac{E}{4}$",
@@ -3690,7 +3690,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The energy emitted per second by a black body at $27^\\circ\\text{C}$ is $10\\text{ J}$. If temperature of black body is increased to $327^\\circ\\text{C}$, then the energy emitted per second will be: [RPMT 2003]",
+    "questionText": "The energy emitted per second by a black body at $27^\\circ\\text{C}$ is $10\\text{ J}$. If temperature of black body is increased to $327^\\circ\\text{C}$, then the energy emitted per second will be: [NEET 2028 Expected]",
     "options": [
       "$20\\text{ J}$",
       "$40\\text{ J}$",
@@ -3711,7 +3711,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A black body at $200\\text{ K}$ is found to exit maximum energy at a wavelength of $14\\,\\mu\\text{m}$. When its temperature is raised to $1000\\text{ K}$, the wavelength at which maximum energy is emitted is: [CPMT 2004]",
+    "questionText": "A black body at $200\\text{ K}$ is found to exit maximum energy at a wavelength of $14\\,\\mu\\text{m}$. When its temperature is raised to $1000\\text{ K}$, the wavelength at which maximum energy is emitted is: [NEET 2029 Practice]",
     "options": [
       "$2.8\\,\\mu\\text{m}$",
       "$28\\,\\mu\\text{m}$",
@@ -3732,7 +3732,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The rate of radiation of a black body at $0^\\circ\\text{C}$ is $E\\text{ J/s}$. The rate of radiation of this black body at $273^\\circ\\text{C}$ will be: [MP PMT 2004]",
+    "questionText": "The rate of radiation of a black body at $0^\\circ\\text{C}$ is $E\\text{ J/s}$. The rate of radiation of this black body at $273^\\circ\\text{C}$ will be: [NEET 2027 Target]",
     "options": [
       "$16 E$",
       "$16 E$",
@@ -3753,7 +3753,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "Two spheres of same material have radius $1\\text{ cm}$ and $4\\text{ cm}$ and temperature $4000\\text{ K}$ and $2000\\text{ K}$ respectively. The energy radiated per second by the first sphere is: [UPSEAT 2004]",
+    "questionText": "Two spheres of same material have radius $1\\text{ cm}$ and $4\\text{ cm}$ and temperature $4000\\text{ K}$ and $2000\\text{ K}$ respectively. The energy radiated per second by the first sphere is: [NEET 2028 Expected]",
     "options": [
       "Greater than that of the second sphere",
       "Less than that of the second sphere",
@@ -3761,7 +3761,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "Equal to double that of the second sphere"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\nRadiated energy per second $E = \\sigma (4\\pi r^2) T^4 \\propto r^2 T^4$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$\\frac{E_1}{E_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\left(\\frac{T_1}{T_2}\\right)^4 = \\left(\\frac{1}{4}\\right)^2 \\left(\\frac{4000}{2000}\\right)^4 = \\frac{1}{16} \\times 16 = 1$$\nWait, ratio is $1:1$, so energies radiated per second are equal. Note: The official key marks option (a) or (c) depending on question wording, but let's check official key from page 6: 47 is `a`.\nLet's check hint for 47: $\\frac{E_1}{E_2} = (1/4)^2 (4000/2000)^4 = 1/16 \\times 16 = 1$. Both radiate equal energy.\n\n### ✓ Examiner Pro-Tip\n$(r_1/r_2)^2 (T_1/T_2)^4 = (1/4)^2 \\times 2^4 = 1/16 \\times 16 = 1$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -3774,7 +3774,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A sphere of density $\\rho$, specific heat capacity $c$ and radius $r$ is at temperature $T$. It is suspended in an evacuated enclosure which is at a temperature $T_0$. The rate of cooling $\\frac{dT}{dt}$ is given by: [DCE 2004]",
+    "questionText": "A sphere of density $\\rho$, specific heat capacity $c$ and radius $r$ is at temperature $T$. It is suspended in an evacuated enclosure which is at a temperature $T_0$. The rate of cooling $\\frac{dT}{dt}$ is given by: [NEET 2027 Target]",
     "options": [
       "$\\frac{3\\sigma(T^4 - T_0^4)}{\\rho r c}$",
       "$\\frac{4\\sigma(T^4 - T_0^4)}{\\rho r c}$",
@@ -3795,7 +3795,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two spheres of radii in the ratio $1 : 2$ and densities in the ratio $2 : 1$ and of the same specific heat are heated to the same temperature and left in the same surrounding. Their initial rates of loss of heat are in the ratio: [MP PMT 2004]",
+    "questionText": "Two spheres of radii in the ratio $1 : 2$ and densities in the ratio $2 : 1$ and of the same specific heat are heated to the same temperature and left in the same surrounding. Their initial rates of loss of heat are in the ratio: [NEET 2028 Expected]",
     "options": [
       "$1 : 4$",
       "$1 : 2$",
@@ -3816,7 +3816,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "The value of Stefan's constant $\\sigma$ in SI units is: [RPMT 2002]",
+    "questionText": "The value of Stefan's constant $\\sigma$ in SI units is: [NEET 2029 Practice]",
     "options": [
       "$5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$",
       "$5.67 \\times 10^{-5}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$",
@@ -3837,7 +3837,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two bodies $A$ and $B$ are placed in an evacuated vessel maintained at a constant temperature $T$. Body $A$ is at an initial temperature $T_A > T$ and body $B$ is at $T_B < T$. Which of the following is correct? [AFMC 2000]",
+    "questionText": "Two bodies $A$ and $B$ are placed in an evacuated vessel maintained at a constant temperature $T$. Body $A$ is at an initial temperature $T_A > T$ and body $B$ is at $T_B < T$. Which of the following is correct? [NEET 2027 Target]",
     "options": [
       "Body $A$ emits more radiation than it absorbs, while body $B$ absorbs more radiation than it emits until thermal equilibrium at temperature $T$ is attained",
       "$A$ only emits radiations while $B$ only absorbs them until both attain temperature $T$",
@@ -3858,7 +3858,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The temperature of a black body is increased from $100\\text{ K}$ to $200\\text{ K}$. The rate of emission of energy will become: [MP PMT 1999]",
+    "questionText": "The temperature of a black body is increased from $100\\text{ K}$ to $200\\text{ K}$. The rate of emission of energy will become: [NEET 2028 Expected]",
     "options": [
       "2 times",
       "4 times",
@@ -3879,7 +3879,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two spheres of the same material have radii $1\\text{ m}$ and $4\\text{ m}$ and temperatures $4000\\text{ K}$ and $2000\\text{ K}$ respectively. The energy radiated per second by the first sphere is: [MP PMT 1998]",
+    "questionText": "Two spheres of the same material have radii $1\\text{ m}$ and $4\\text{ m}$ and temperatures $4000\\text{ K}$ and $2000\\text{ K}$ respectively. The energy radiated per second by the first sphere is: [NEET 2029 Practice]",
     "options": [
       "Greater than that of the second",
       "Equal to that of the second",
@@ -3887,7 +3887,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "Cannot be determined"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\nRate of energy radiation $P = \\sigma (4\\pi r^2) T^4 \\propto r^2 T^4$.\n\n### ⚡ Step-by-Step Derivation & Calculations\n- Sphere 1: $r_1 = 1\\text{ m}, T_1 = 4000\\text{ K} \\implies r_1^2 T_1^4 = 1^2 \\times (4000)^4 = 1 \\times 2.56 \\times 10^{14}$\n- Sphere 2: $r_2 = 4\\text{ m}, T_2 = 2000\\text{ K} \\implies r_2^2 T_2^4 = 4^2 \\times (2000)^4 = 16 \\times 1.6 \\times 10^{13} = 2.56 \\times 10^{14}$\n$$\\frac{P_1}{P_2} = \\frac{1^2 \\times 4^4}{4^2 \\times 2^4} = \\frac{256}{16 \\times 16} = 1$$\nTherefore, energy radiated per second is equal.\n\n### ✓ Examiner Pro-Tip\n$\\frac{P_1}{P_2} = (r_1/r_2)^2 (T_1/T_2)^4 = (1/4)^2 \\times (2)^4 = \\frac{1}{16} \\times 16 = 1$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -3900,7 +3900,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A body radiates heat at the rate of $5\\text{ cal}/(\\text{cm}^2\\cdot\\text{s})$ at $227^\\circ\\text{C}$. The rate of heat radiation at $727^\\circ\\text{C}$ will be: [CPMT 1997]",
+    "questionText": "A body radiates heat at the rate of $5\\text{ cal}/(\\text{cm}^2\\cdot\\text{s})$ at $227^\\circ\\text{C}$. The rate of heat radiation at $727^\\circ\\text{C}$ will be: [NEET 2028 Expected]",
     "options": [
       "$40\\text{ cal}/(\\text{cm}^2\\cdot\\text{s})$",
       "$80\\text{ cal}/(\\text{cm}^2\\cdot\\text{s})$",
@@ -3921,7 +3921,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A black body at $127^\\circ\\text{C}$ emits energy at the rate of $E$. If its temperature is raised to $527^\\circ\\text{C}$, the rate of energy emission will become: [MP PMT 1996]",
+    "questionText": "A black body at $127^\\circ\\text{C}$ emits energy at the rate of $E$. If its temperature is raised to $527^\\circ\\text{C}$, the rate of energy emission will become: [NEET 2029 Practice]",
     "options": [
       "$2 E$",
       "$16 E$",
@@ -3942,7 +3942,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Two black bodies at temperatures $327^\\circ\\text{C}$ and $627^\\circ\\text{C}$ are suspended in an environment at $27^\\circ\\text{C}$. The ratio of the net rates of heat loss of the two bodies is: [MP PMT 1995]",
+    "questionText": "Two black bodies at temperatures $327^\\circ\\text{C}$ and $627^\\circ\\text{C}$ are suspended in an environment at $27^\\circ\\text{C}$. The ratio of the net rates of heat loss of the two bodies is: [NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$1 : 4$",
@@ -3963,7 +3963,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "Newton's law of cooling is also applicable for: [RPMT 1997]",
+    "questionText": "Newton's law of cooling is also applicable for: [NEET 2028 Expected]",
     "options": [
       "Conduction",
       "Natural convection",
@@ -3983,7 +3983,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A liquid takes $5\\text{ minutes}$ to cool from $80^\\circ\\text{C}$ to $50^\\circ\\text{C}$. How much time will it take to cool from $60^\\circ\\text{C}$ to $30^\\circ\\text{C}$ if the room temperature is $20^\\circ\\text{C}$? [MP PET 1996; RPET 1998]",
+    "questionText": "A liquid takes $5\\text{ minutes}$ to cool from $80^\\circ\\text{C}$ to $50^\\circ\\text{C}$. How much time will it take to cool from $60^\\circ\\text{C}$ to $30^\\circ\\text{C}$ if the room temperature is $20^\\circ\\text{C}$? [NEET 2029 Practice]",
     "options": [
       "$5\\text{ min}$",
       "$6\\text{ min}$",
@@ -4003,7 +4003,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "A body cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in $10\\text{ minutes}$ when the surrounding temperature is $10^\\circ\\text{C}$. The time taken by the body to cool from $50^\\circ\\text{C}$ to $42^\\circ\\text{C}$ will be: [MP PMT 1995]",
+    "questionText": "A body cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in $10\\text{ minutes}$ when the surrounding temperature is $10^\\circ\\text{C}$. The time taken by the body to cool from $50^\\circ\\text{C}$ to $42^\\circ\\text{C}$ will be: [NEET 2027 Target]",
     "options": [
       "$10\\text{ min}$",
       "$12\\text{ min}$",
@@ -4023,7 +4023,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "Newton's law of cooling is a special case of: [CPMT 1994; MP PMT 1997]",
+    "questionText": "Newton's law of cooling is a special case of: [NEET 2028 Expected]",
     "options": [
       "Stefan's law",
       "Kirchhoff's law",
@@ -4044,7 +4044,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $8\\text{ minutes}$. The time taken by the body to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the same surrounding will be: [CPMT 1993]",
+    "questionText": "A body cools from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $8\\text{ minutes}$. The time taken by the body to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the same surrounding will be: [NEET 2029 Practice]",
     "options": [
       "Less than $8\\text{ minutes}$",
       "More than $8\\text{ minutes}$",
@@ -4064,7 +4064,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "In Newton's experiment of cooling, the water equivalent of two calorimeters is $10\\text{ g}$ each. In first calorimeter $50\\text{ g}$ of water and in second $100\\text{ g}$ of a liquid are kept. If both cool from $60^\\circ\\text{C}$ to $55^\\circ\\text{C}$ in $5\\text{ min}$ and $6\\text{ min}$ respectively, the specific heat of the liquid is: [CPMT 1993]",
+    "questionText": "In Newton's experiment of cooling, the water equivalent of two calorimeters is $10\\text{ g}$ each. In first calorimeter $50\\text{ g}$ of water and in second $100\\text{ g}$ of a liquid are kept. If both cool from $60^\\circ\\text{C}$ to $55^\\circ\\text{C}$ in $5\\text{ min}$ and $6\\text{ min}$ respectively, the specific heat of the liquid is: [NEET 2027 Target]",
     "options": [
       "$0.3\\text{ cal}/(\\text{g}\\cdot^\\circ\\text{C})$",
       "$0.4\\text{ cal}/(\\text{g}\\cdot^\\circ\\text{C})$",
@@ -4085,7 +4085,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "Newton's law of cooling is used in the laboratory for the determination of: [CPMT 1992]",
+    "questionText": "Newton's law of cooling is used in the laboratory for the determination of: [NEET 2028 Expected]",
     "options": [
       "Thermal conductivity of a liquid",
       "Latent heat of vaporization",
@@ -4105,7 +4105,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A liquid cools down from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$. If the temperature of the surrounding is $30^\\circ\\text{C}$, the time taken by the liquid to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ is: [MP PMT 1991]",
+    "questionText": "A liquid cools down from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$. If the temperature of the surrounding is $30^\\circ\\text{C}$, the time taken by the liquid to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ is: [NEET 2029 Practice]",
     "options": [
       "$5\\text{ min}$",
       "$6\\text{ min}$",
@@ -4125,7 +4125,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "A body cools at the rate of $0.5^\\circ\\text{C}/\\text{min}$ when its temperature is $50^\\circ\\text{C}$ above the surroundings. When the temperature of the body is $20^\\circ\\text{C}$ above the surroundings, the rate of cooling will be: [UPSEAT 2001]",
+    "questionText": "A body cools at the rate of $0.5^\\circ\\text{C}/\\text{min}$ when its temperature is $50^\\circ\\text{C}$ above the surroundings. When the temperature of the body is $20^\\circ\\text{C}$ above the surroundings, the rate of cooling will be: [NEET 2027 Target]",
     "options": [
       "$0.5^\\circ\\text{C}/\\text{min}$",
       "$0.1^\\circ\\text{C}/\\text{min}$",
@@ -4145,7 +4145,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools from $50^\\circ\\text{C}$ to $40^\\circ\\text{C}$ in $5\\text{ minutes}$ in surroundings at $20^\\circ\\text{C}$. The temperature of the body after the next $5\\text{ minutes}$ will be: [MP PMT 1998]",
+    "questionText": "A body cools from $50^\\circ\\text{C}$ to $40^\\circ\\text{C}$ in $5\\text{ minutes}$ in surroundings at $20^\\circ\\text{C}$. The temperature of the body after the next $5\\text{ minutes}$ will be: [NEET 2028 Expected]",
     "options": [
       "$30^\\circ\\text{C}$",
       "$33.3^\\circ\\text{C}$",
@@ -4165,7 +4165,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A hot liquid is kept in a big room. Its temperature is recorded as a function of time. The curve obtained is: [MP PET 1993]",
+    "questionText": "A hot liquid is kept in a big room. Its temperature is recorded as a function of time. The curve obtained is: [NEET 2029 Practice]",
     "options": [
       "A straight line",
       "An exponential decay curve",
@@ -4185,7 +4185,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools from $80^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $6\\text{ minutes}$. How long will it take to cool from $60^\\circ\\text{C}$ to $40^\\circ\\text{C}$ if the room temperature is $20^\\circ\\text{C}$? [MP PMT 1999]",
+    "questionText": "A body cools from $80^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $6\\text{ minutes}$. How long will it take to cool from $60^\\circ\\text{C}$ to $40^\\circ\\text{C}$ if the room temperature is $20^\\circ\\text{C}$? [NEET 2027 Target]",
     "options": [
       "$6\\text{ min}$",
       "$8\\text{ min}$",
@@ -4205,7 +4205,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body takes $10\\text{ minutes}$ to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$. If surrounding temperature is $25^\\circ\\text{C}$, the temperature of the body after next $10\\text{ minutes}$ will be: [UPSEAT 2000]",
+    "questionText": "A body takes $10\\text{ minutes}$ to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$. If surrounding temperature is $25^\\circ\\text{C}$, the temperature of the body after next $10\\text{ minutes}$ will be: [NEET 2028 Expected]",
     "options": [
       "$40^\\circ\\text{C}$",
       "$45^\\circ\\text{C}$",
@@ -4225,7 +4225,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "The rate of cooling at $600\\text{ K}$, if surrounding temperature is $300\\text{ K}$, is $R$. The rate of cooling at $900\\text{ K}$ in the same surrounding is: [MP PMT 2000]",
+    "questionText": "The rate of cooling at $600\\text{ K}$, if surrounding temperature is $300\\text{ K}$, is $R$. The rate of cooling at $900\\text{ K}$ in the same surrounding is: [NEET 2029 Practice]",
     "options": [
       "$\\frac{16}{3} R$",
       "$2 R$",
@@ -4246,7 +4246,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools from $80^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in $5\\text{ minutes}$ and to $35^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The temperature of the surroundings is: [UPSEAT 2000]",
+    "questionText": "A body cools from $80^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in $5\\text{ minutes}$ and to $35^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The temperature of the surroundings is: [NEET 2027 Target]",
     "options": [
       "$10^\\circ\\text{C}$",
       "$15^\\circ\\text{C}$",
@@ -4266,7 +4266,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is true for Newton's law of cooling? [MP PMT 1997]",
+    "questionText": "Which of the following statements is true for Newton's law of cooling? [NEET 2028 Expected]",
     "options": [
       "Rate of cooling is directly proportional to temperature of the body",
       "Rate of cooling is inversely proportional to temperature of surroundings",
@@ -4286,7 +4286,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools from $50^\\circ\\text{C}$ to $46^\\circ\\text{C}$ in $5\\text{ minutes}$ and to $43.2^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The temperature of the surroundings is: [UPSEAT 2001]",
+    "questionText": "A body cools from $50^\\circ\\text{C}$ to $46^\\circ\\text{C}$ in $5\\text{ minutes}$ and to $43.2^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The temperature of the surroundings is: [NEET 2029 Practice]",
     "options": [
       "$30^\\circ\\text{C}$",
       "$28^\\circ\\text{C}$",
@@ -4306,7 +4306,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools down from $65^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$ and then to $55^\\circ\\text{C}$ in the next $7\\text{ minutes}$. The temperature of the surroundings is: [CPMT 2000]",
+    "questionText": "A body cools down from $65^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$ and then to $55^\\circ\\text{C}$ in the next $7\\text{ minutes}$. The temperature of the surroundings is: [NEET 2027 Target]",
     "options": [
       "$35^\\circ\\text{C}$",
       "$45^\\circ\\text{C}$",
@@ -4326,7 +4326,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A liquid cools from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$. The time taken to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ if surrounding temperature is $30^\\circ\\text{C}$ is: [RPMT 1999]",
+    "questionText": "A liquid cools from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$. The time taken to cool from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ if surrounding temperature is $30^\\circ\\text{C}$ is: [NEET 2028 Expected]",
     "options": [
       "$5\\text{ min}$",
       "$6\\text{ min}$",
@@ -4346,7 +4346,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A cup of tea cools from $80^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in one minute. The ambient temperature is $30^\\circ\\text{C}$. In cooling from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ it will take: [MP PMT 1999]",
+    "questionText": "A cup of tea cools from $80^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in one minute. The ambient temperature is $30^\\circ\\text{C}$. In cooling from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ it will take: [NEET 2029 Practice]",
     "options": [
       "$30\\text{ s}$",
       "$48\\text{ s}$",
@@ -4366,7 +4366,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "Newton's law of cooling holds good only if the temperature difference between the body and surroundings is: [AFMC 1998]",
+    "questionText": "Newton's law of cooling holds good only if the temperature difference between the body and surroundings is: [NEET 2027 Target]",
     "options": [
       "Small",
       "Very large",
@@ -4386,7 +4386,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A liquid cools from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$ and from $60^\\circ\\text{C}$ to $54^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The time taken to cool from $54^\\circ\\text{C}$ to $49^\\circ\\text{C}$ will be: [UPSEAT 2000]",
+    "questionText": "A liquid cools from $70^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$ and from $60^\\circ\\text{C}$ to $54^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The time taken to cool from $54^\\circ\\text{C}$ to $49^\\circ\\text{C}$ will be: [NEET 2028 Expected]",
     "options": [
       "$4\\text{ min}$",
       "$6\\text{ min}$",
@@ -4406,7 +4406,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "According to Newton's law of cooling, the rate of cooling of a body is proportional to the: [MP PET 2001]",
+    "questionText": "According to Newton's law of cooling, the rate of cooling of a body is proportional to the: [NEET 2029 Practice]",
     "options": [
       "Temperature of the body",
       "Temperature of the surroundings",
@@ -4426,7 +4426,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body cools in $7\\text{ minutes}$ from $60^\\circ\\text{C}$ to $40^\\circ\\text{C}$. What time (in minutes) does it take to cool from $40^\\circ\\text{C}$ to $28^\\circ\\text{C}$ if the surrounding temperature is $10^\\circ\\text{C}$? [Kerala (Engg.) 2001]",
+    "questionText": "A body cools in $7\\text{ minutes}$ from $60^\\circ\\text{C}$ to $40^\\circ\\text{C}$. What time (in minutes) does it take to cool from $40^\\circ\\text{C}$ to $28^\\circ\\text{C}$ if the surrounding temperature is $10^\\circ\\text{C}$? [NEET 2027 Target]",
     "options": [
       "$3.5$",
       "$11$",
@@ -4446,7 +4446,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body takes $5\\text{ minutes}$ for cooling from $50^\\circ\\text{C}$ to $40^\\circ\\text{C}$. Its temperature comes down to $33.33^\\circ\\text{C}$ in next $5\\text{ minutes}$. Temperature of surroundings is: [MP PMT 2002]",
+    "questionText": "A body takes $5\\text{ minutes}$ for cooling from $50^\\circ\\text{C}$ to $40^\\circ\\text{C}$. Its temperature comes down to $33.33^\\circ\\text{C}$ in next $5\\text{ minutes}$. Temperature of surroundings is: [NEET 2028 Expected]",
     "options": [
       "$15^\\circ\\text{C}$",
       "$20^\\circ\\text{C}$",
@@ -4466,7 +4466,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "The temperature of a body falls from $50^\\circ\\text{C}$ to $40^\\circ\\text{C}$ in $10\\text{ minutes}$. If the temperature of the surroundings is $20^\\circ\\text{C}$, then the temperature of the body after another $10\\text{ minutes}$ will be: [Pb. PMT 2002]",
+    "questionText": "The temperature of a body falls from $50^\\circ\\text{C}$ to $40^\\circ\\text{C}$ in $10\\text{ minutes}$. If the temperature of the surroundings is $20^\\circ\\text{C}$, then the temperature of the body after another $10\\text{ minutes}$ will be: [NEET 2029 Practice]",
     "options": [
       "$36.6^\\circ\\text{C}$",
       "$33.33^\\circ\\text{C}$",
@@ -4486,7 +4486,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "It takes $10\\text{ minutes}$ to cool a liquid from $61^\\circ\\text{C}$ to $59^\\circ\\text{C}$. If room temperature is $30^\\circ\\text{C}$, then the time taken in cooling from $51^\\circ\\text{C}$ to $49^\\circ\\text{C}$ is: [RPET 2003]",
+    "questionText": "It takes $10\\text{ minutes}$ to cool a liquid from $61^\\circ\\text{C}$ to $59^\\circ\\text{C}$. If room temperature is $30^\\circ\\text{C}$, then the time taken in cooling from $51^\\circ\\text{C}$ to $49^\\circ\\text{C}$ is: [NEET 2027 Target]",
     "options": [
       "$10\\text{ min}$",
       "$11\\text{ min}$",
@@ -4506,7 +4506,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A calorimeter of mass $0.2\\text{ kg}$ and specific heat $900\\text{ J}/(\\text{kg}\\cdot\\text{K})$ contains $0.5\\text{ kg}$ of a liquid of specific heat $2400\\text{ J}/(\\text{kg}\\cdot\\text{K})$. Its temperature falls from $60^\\circ\\text{C}$ to $55^\\circ\\text{C}$ in one minute. The rate of cooling (heat loss per second) is: [MP PET 2003]",
+    "questionText": "A calorimeter of mass $0.2\\text{ kg}$ and specific heat $900\\text{ J}/(\\text{kg}\\cdot\\text{K})$ contains $0.5\\text{ kg}$ of a liquid of specific heat $2400\\text{ J}/(\\text{kg}\\cdot\\text{K})$. Its temperature falls from $60^\\circ\\text{C}$ to $55^\\circ\\text{C}$ in one minute. The rate of cooling (heat loss per second) is: [NEET 2028 Expected]",
     "options": [
       "$5\\text{ J/s}$",
       "$15\\text{ J/s}$",
@@ -4527,7 +4527,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Easy",
-    "questionText": "According to Newton's law of cooling, the rate of cooling of a body is proportional to $(\\Delta\\theta)^n$, where $\\Delta\\theta$ is the difference of the temperature of the body and the surroundings, and $n$ is equal to: [AIEEE 2003]",
+    "questionText": "According to Newton's law of cooling, the rate of cooling of a body is proportional to $(\\Delta\\theta)^n$, where $\\Delta\\theta$ is the difference of the temperature of the body and the surroundings, and $n$ is equal to: [NEET 2029 Practice]",
     "options": [
       "One",
       "Two",
@@ -4547,7 +4547,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "The initial temperature of a body is $80^\\circ\\text{C}$. If its temperature falls to $64^\\circ\\text{C}$ in $5\\text{ minutes}$ and in $10\\text{ minutes}$ to $52^\\circ\\text{C}$, then the temperature of surrounding will be: [MP PMT 2003]",
+    "questionText": "The initial temperature of a body is $80^\\circ\\text{C}$. If its temperature falls to $64^\\circ\\text{C}$ in $5\\text{ minutes}$ and in $10\\text{ minutes}$ to $52^\\circ\\text{C}$, then the temperature of surrounding will be: [NEET 2027 Target]",
     "options": [
       "$26^\\circ\\text{C}$",
       "$49^\\circ\\text{C}$",
@@ -4567,7 +4567,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A liquid cools from $50^\\circ\\text{C}$ to $45^\\circ\\text{C}$ in $5\\text{ minutes}$ and from $45^\\circ\\text{C}$ to $41.5^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The temperature of the surrounding is: [BCECE 2004]",
+    "questionText": "A liquid cools from $50^\\circ\\text{C}$ to $45^\\circ\\text{C}$ in $5\\text{ minutes}$ and from $45^\\circ\\text{C}$ to $41.5^\\circ\\text{C}$ in the next $5\\text{ minutes}$. The temperature of the surrounding is: [NEET 2028 Expected]",
     "options": [
       "$27^\\circ\\text{C}$",
       "$40.3^\\circ\\text{C}$",
@@ -4587,7 +4587,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A cup of tea cools from $65.5^\\circ\\text{C}$ to $62.5^\\circ\\text{C}$ in one minute in a room of $22.5^\\circ\\text{C}$. How long will the same cup of tea take (in minutes) to cool from $46.5^\\circ\\text{C}$ to $40.5^\\circ\\text{C}$ in the same room? (choose nearest value) [Kerala PMT 2004]",
+    "questionText": "A cup of tea cools from $65.5^\\circ\\text{C}$ to $62.5^\\circ\\text{C}$ in one minute in a room of $22.5^\\circ\\text{C}$. How long will the same cup of tea take (in minutes) to cool from $46.5^\\circ\\text{C}$ to $40.5^\\circ\\text{C}$ in the same room? (choose nearest value) [NEET 2029 Practice]",
     "options": [
       "$1$",
       "$2$",
@@ -4607,7 +4607,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "The temperature of a body falls from $62^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in $10\\text{ minutes}$. If the temperature of the surroundings is $26^\\circ\\text{C}$, the temperature in the next $10\\text{ minutes}$ will become: [RPMT 2002]",
+    "questionText": "The temperature of a body falls from $62^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in $10\\text{ minutes}$. If the temperature of the surroundings is $26^\\circ\\text{C}$, the temperature in the next $10\\text{ minutes}$ will become: [NEET 2027 Target]",
     "options": [
       "$42^\\circ\\text{C}$",
       "$40^\\circ\\text{C}$",
@@ -4627,7 +4627,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body takes $5\\text{ minutes}$ to cool from $90^\\circ\\text{C}$ to $60^\\circ\\text{C}$. If the temperature of the surroundings is $20^\\circ\\text{C}$, the time taken by it to cool from $60^\\circ\\text{C}$ to $30^\\circ\\text{C}$ will be: [RPMT 2003]",
+    "questionText": "A body takes $5\\text{ minutes}$ to cool from $90^\\circ\\text{C}$ to $60^\\circ\\text{C}$. If the temperature of the surroundings is $20^\\circ\\text{C}$, the time taken by it to cool from $60^\\circ\\text{C}$ to $30^\\circ\\text{C}$ will be: [NEET 2028 Expected]",
     "options": [
       "$5\\text{ min}$",
       "$8\\text{ min}$",
@@ -4647,7 +4647,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "An object is cooled from $75^\\circ\\text{C}$ to $65^\\circ\\text{C}$ in $2\\text{ minutes}$ in a room at $30^\\circ\\text{C}$. The time taken to cool another identical object from $55^\\circ\\text{C}$ to $45^\\circ\\text{C}$ in the same room (in minutes) is: [EAMCET (Med.) 1996]",
+    "questionText": "An object is cooled from $75^\\circ\\text{C}$ to $65^\\circ\\text{C}$ in $2\\text{ minutes}$ in a room at $30^\\circ\\text{C}$. The time taken to cool another identical object from $55^\\circ\\text{C}$ to $45^\\circ\\text{C}$ in the same room (in minutes) is: [NEET 2029 Practice]",
     "options": [
       "$4$",
       "$5$",
@@ -4667,7 +4667,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A body takes $5\\text{ minutes}$ to cool from $80^\\circ\\text{C}$ to $50^\\circ\\text{C}$. How much time will it take to cool from $60^\\circ\\text{C}$ to $30^\\circ\\text{C}$, if room temperature is $20^\\circ\\text{C}$? [RPET 1998]",
+    "questionText": "A body takes $5\\text{ minutes}$ to cool from $80^\\circ\\text{C}$ to $50^\\circ\\text{C}$. How much time will it take to cool from $60^\\circ\\text{C}$ to $30^\\circ\\text{C}$, if room temperature is $20^\\circ\\text{C}$? [NEET 2027 Target]",
     "options": [
       "$40\\text{ min}$",
       "$9\\text{ min}$",
@@ -4687,7 +4687,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A can is taken out from a refrigerator at $0^\\circ\\text{C}$. The atmospheric temperature is $25^\\circ\\text{C}$. If $t_1$ is the time taken to heat from $0^\\circ\\text{C}$ to $5^\\circ\\text{C}$ and $t_2$ is the time taken from $10^\\circ\\text{C}$ to $15^\\circ\\text{C}$, then: [Orissa JEE 2005]",
+    "questionText": "A can is taken out from a refrigerator at $0^\\circ\\text{C}$. The atmospheric temperature is $25^\\circ\\text{C}$. If $t_1$ is the time taken to heat from $0^\\circ\\text{C}$ to $5^\\circ\\text{C}$ and $t_2$ is the time taken from $10^\\circ\\text{C}$ to $15^\\circ\\text{C}$, then: [NEET 2028 Expected]",
     "options": [
       "$t_1 > t_2$",
       "$t_1 < t_2$",
@@ -4707,7 +4707,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "Two rods (one semi-circular and other straight) of same material and of same cross-sectional area are joined at points $A$ and $B$. The points $A$ and $B$ are maintained at different temperatures. The ratio of the heat transferred through a cross-section of the semi-circular rod to the heat transferred through a cross-section of the straight rod in a given time is: [UPSEAT 2002]",
+    "questionText": "Two rods (one semi-circular and other straight) of same material and of same cross-sectional area are joined at points $A$ and $B$. The points $A$ and $B$ are maintained at different temperatures. The ratio of the heat transferred through a cross-section of the semi-circular rod to the heat transferred through a cross-section of the straight rod in a given time is: [NEET 2029 Practice]",
     "options": [
       "$2 : \\pi$",
       "$1 : 2$",
@@ -4728,7 +4728,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "A wall is made up of two layers $A$ and $B$. The thickness of the two layers is the same, but materials are different. The thermal conductivity of $A$ is double that of $B$. In thermal equilibrium the temperature difference between the two outer ends is $36^\\circ\\text{C}$. Then the difference of temperature across the two surfaces of layer $A$ will be: [IIT 1980; CPMT 1991; BHU 1997; MP PET 1996, 99; DPMT 2000]",
+    "questionText": "A wall is made up of two layers $A$ and $B$. The thickness of the two layers is the same, but materials are different. The thermal conductivity of $A$ is double that of $B$. In thermal equilibrium the temperature difference between the two outer ends is $36^\\circ\\text{C}$. Then the difference of temperature across the two surfaces of layer $A$ will be: [NEET 2027 Target]",
     "options": [
       "$6^\\circ\\text{C}$",
       "$12^\\circ\\text{C}$",
@@ -4749,7 +4749,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "Ice starts forming on a lake with water at $0^\\circ\\text{C}$ when the atmospheric temperature is $-10^\\circ\\text{C}$. If the time taken for $1\\text{ cm}$ of ice to form is $7\\text{ hours}$, then the time taken for the thickness of ice to change from $1\\text{ cm}$ to $2\\text{ cm}$ is: [NCERT 1971; MP PMT/PET 1988; UPSEAT 1996]",
+    "questionText": "Ice starts forming on a lake with water at $0^\\circ\\text{C}$ when the atmospheric temperature is $-10^\\circ\\text{C}$. If the time taken for $1\\text{ cm}$ of ice to form is $7\\text{ hours}$, then the time taken for the thickness of ice to change from $1\\text{ cm}$ to $2\\text{ cm}$ is: [NEET 2028 Expected]",
     "options": [
       "$7\\text{ hours}$",
       "$14\\text{ hours}$",
@@ -4770,7 +4770,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "A cylinder of radius $R$ made of a material of thermal conductivity $K_1$ is surrounded by a cylindrical shell of inner radius $R$ and outer radius $2R$ made of material of thermal conductivity $K_2$. The two ends of the combined system are maintained at two different temperatures. There is no loss of heat across the cylindrical surface and the system is in steady state. The effective thermal conductivity of the system is: [IIT 1988; MP PMT 1994, 97; SCRA 1998]",
+    "questionText": "A cylinder of radius $R$ made of a material of thermal conductivity $K_1$ is surrounded by a cylindrical shell of inner radius $R$ and outer radius $2R$ made of material of thermal conductivity $K_2$. The two ends of the combined system are maintained at two different temperatures. There is no loss of heat across the cylindrical surface and the system is in steady state. The effective thermal conductivity of the system is: [NEET 2029 Practice]",
     "options": [
       "$K_1 + K_2$",
       "$\\frac{K_1 K_2}{K_1 + K_2}$",
@@ -4791,7 +4791,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Three rods made of the same material and having the same cross-section have been joined together. Each rod is of the same length. One rod is connected to $0^\\circ\\text{C}$ on the left, and two rods branch out to $90^\\circ\\text{C}$ and $90^\\circ\\text{C}$ on the right. The temperature of the junction of the three rods will be: [IIT-JEE (Screening) 2001]",
+    "questionText": "Three rods made of the same material and having the same cross-section have been joined together. Each rod is of the same length. One rod is connected to $0^\\circ\\text{C}$ on the left, and two rods branch out to $90^\\circ\\text{C}$ and $90^\\circ\\text{C}$ on the right. The temperature of the junction of the three rods will be: [NEET 2027 Target]",
     "options": [
       "$45^\\circ\\text{C}$",
       "$60^\\circ\\text{C}$",
@@ -4812,7 +4812,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "A room is maintained at $20^\\circ\\text{C}$ by a heater of resistance $20\\,\\Omega$ connected to $200\\text{ V}$ mains. The temperature is uniform throughout the room and heat is transmitted through a glass window of area $1\\text{ m}^2$ and thickness $0.2\\text{ cm}$. What will be the temperature outside? Given that thermal conductivity $K$ for glass is $0.2\\text{ cal}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$ and $J = 4.2\\text{ J/cal}$: [IIT 1978]",
+    "questionText": "A room is maintained at $20^\\circ\\text{C}$ by a heater of resistance $20\\,\\Omega$ connected to $200\\text{ V}$ mains. The temperature is uniform throughout the room and heat is transmitted through a glass window of area $1\\text{ m}^2$ and thickness $0.2\\text{ cm}$. What will be the temperature outside? Given that thermal conductivity $K$ for glass is $0.2\\text{ cal}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$ and $J = 4.2\\text{ J/cal}$: [NEET 2028 Expected]",
     "options": [
       "$24.15^\\circ\\text{C}$",
       "$15.00^\\circ\\text{C}$",
@@ -4820,7 +4820,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "None of the above"
     ],
     "correctAnswer": 0,
-    "explanation": "### 📘 NCERT Fundamental Concept\nIn steady state, electrical power generated by heater equals rate of heat conducted out through the window:\n$$P = \\frac{V^2}{R} = \\frac{K A (T_{\\text{in}} - T_{\\text{out}})}{d} \\times J$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n- Heater power $P = \\frac{V^2}{R} = \\frac{200^2}{20} = 2000\\text{ W} = 2000\\text{ J/s}$\n- Heat conducted per second in Watts: $H = \\frac{K A (T_{\\text{in}} - T_{\\text{out}})}{d} \\times 4.2$\n- $K = 0.2\\text{ cal}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$, $A = 1\\text{ m}^2$, $d = 0.2\\text{ cm} = 0.002\\text{ m} = 2 \\times 10^{-3}\\text{ m}$\n$$2000 = \\frac{0.2 \\times 1 \\times (20 - T_{\\text{out}})}{2 \\times 10^{-3}} \\times 4.2$$\n$$2000 = 100 \\times 4.2 \\times (20 - T_{\\text{out}}) = 420 (20 - T_{\\text{out}})$$\n$$20 - T_{\\text{out}} = \\frac{2000}{420} = 4.76^\\circ\\text{C} \\implies T_{\\text{out}} = 20 - 4.76 = 15.24^\\circ\\text{C}$$\nWait, let's verify if $T_{\\text{out}} = 15.24^\\circ\\text{C}$ (option c) or $24.15^\\circ\\text{C}$. The key marks (c) or (a) depending on inside/outside orientation. Official key in page 6 marks 6:a. Let's provide full derivation showing $T_{\\text{out}} = 15.24^\\circ\\text{C} \\approx 24.15^\\circ\\text{C}$ variant.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission",
       "Conduction"
@@ -4832,7 +4832,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "There is formation of a layer of snow $x\\text{ cm}$ thick on water, when the temperature of air is $-\\theta^\\circ\\text{C}$ (below freezing point). If the thickness of layer increases from $x$ to $y$ in time $t$, then the value of $t$ is given by: [MP PMT 1990]",
+    "questionText": "There is formation of a layer of snow $x\\text{ cm}$ thick on water, when the temperature of air is $-\\theta^\\circ\\text{C}$ (below freezing point). If the thickness of layer increases from $x$ to $y$ in time $t$, then the value of $t$ is given by: [NEET 2027 Target]",
     "options": [
       "$\\frac{\\rho L}{2k\\theta} (y^2 - x^2)$",
       "$\\frac{\\rho L}{2k\\theta} (y - x)$",
@@ -4853,7 +4853,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "A composite metal bar of uniform cross-section is made up of length $25\\text{ cm}$ of copper, $10\\text{ cm}$ of nickel, and $15\\text{ cm}$ of aluminium in perfect thermal contact. The copper end is maintained at $100^\\circ\\text{C}$ and the aluminium end at $0^\\circ\\text{C}$. The sides are thermally insulated. If $K_{\\text{Cu}} = 2 K_{\\text{Al}}$ and $K_{\\text{Al}} = 3 K_{\\text{Ni}}$, then what will be the temperatures of the $\\text{Cu-Ni}$ and $\\text{Ni-Al}$ junctions respectively? [MNR 1993]",
+    "questionText": "A composite metal bar of uniform cross-section is made up of length $25\\text{ cm}$ of copper, $10\\text{ cm}$ of nickel, and $15\\text{ cm}$ of aluminium in perfect thermal contact. The copper end is maintained at $100^\\circ\\text{C}$ and the aluminium end at $0^\\circ\\text{C}$. The sides are thermally insulated. If $K_{\\text{Cu}} = 2 K_{\\text{Al}}$ and $K_{\\text{Al}} = 3 K_{\\text{Ni}}$, then what will be the temperatures of the $\\text{Cu-Ni}$ and $\\text{Ni-Al}$ junctions respectively? [NEET 2028 Expected]",
     "options": [
       "$23.33^\\circ\\text{C}$ and $78.8^\\circ\\text{C}$",
       "$83.33^\\circ\\text{C}$ and $20^\\circ\\text{C}$",
@@ -4874,7 +4874,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "Three rods of identical area of cross-section and made from the same metal form the sides of an isosceles triangle $ABC$, right-angled at $B$. The points $A$ and $B$ are maintained at temperatures $T$ and $\\sqrt{2}T$ respectively. In the steady state the temperature of point $C$ is $T_C$. Assuming that only heat conduction takes place, $\\frac{T_C}{T}$ is equal to: [IIT 1995]",
+    "questionText": "Three rods of identical area of cross-section and made from the same metal form the sides of an isosceles triangle $ABC$, right-angled at $B$. The points $A$ and $B$ are maintained at temperatures $T$ and $\\sqrt{2}T$ respectively. In the steady state the temperature of point $C$ is $T_C$. Assuming that only heat conduction takes place, $\\frac{T_C}{T}$ is equal to: [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{\\sqrt{2} + 1}$",
       "$\\frac{3}{\\sqrt{2} + 1}$",
@@ -4894,7 +4894,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The only possibility of heat flow into a thermos flask is through its cork which is $75\\text{ cm}^2$ in area and $5\\text{ cm}$ thick. Its thermal conductivity is $0.0075\\text{ cal}/(\\text{cm}\\cdot\\text{s}\\cdot^\\circ\\text{C})$. The outside temperature is $40^\\circ\\text{C}$ and latent heat of fusion of ice is $80\\text{ cal/g}$. The time taken by $500\\text{ g}$ of ice at $0^\\circ\\text{C}$ in the flask to melt into water at $0^\\circ\\text{C}$ is: [CPMT 1974, 78; MNR 1983]",
+    "questionText": "The only possibility of heat flow into a thermos flask is through its cork which is $75\\text{ cm}^2$ in area and $5\\text{ cm}$ thick. Its thermal conductivity is $0.0075\\text{ cal}/(\\text{cm}\\cdot\\text{s}\\cdot^\\circ\\text{C})$. The outside temperature is $40^\\circ\\text{C}$ and latent heat of fusion of ice is $80\\text{ cal/g}$. The time taken by $500\\text{ g}$ of ice at $0^\\circ\\text{C}$ in the flask to melt into water at $0^\\circ\\text{C}$ is: [NEET 2027 Target]",
     "options": [
       "$2.47\\text{ hr}$",
       "$4.27\\text{ hr}$",
@@ -4915,7 +4915,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A sphere, a cube and a thin circular plate, all made of the same material and having the same mass are initially heated to a temperature of $1000^\\circ\\text{C}$. Which one of these will cool first? [IIT 1972; MP PMT 1993; J & K CET 2000 MH CET 2000; UPSEAT 2001]",
+    "questionText": "A sphere, a cube and a thin circular plate, all made of the same material and having the same mass are initially heated to a temperature of $1000^\\circ\\text{C}$. Which one of these will cool first? [NEET 2028 Expected]",
     "options": [
       "Plate",
       "Sphere",
@@ -4936,7 +4936,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Three rods of the same dimensions have thermal conductivities $3K$, $2K$, and $K$. They are joined at a common junction, with their free ends kept at $100^\\circ\\text{C}$, $50^\\circ\\text{C}$, and $20^\\circ\\text{C}$ respectively. The temperature of their junction is: [UPSEAT 2002]",
+    "questionText": "Three rods of the same dimensions have thermal conductivities $3K$, $2K$, and $K$. They are joined at a common junction, with their free ends kept at $100^\\circ\\text{C}$, $50^\\circ\\text{C}$, and $20^\\circ\\text{C}$ respectively. The temperature of their junction is: [NEET 2029 Practice]",
     "options": [
       "$60^\\circ\\text{C}$",
       "$70^\\circ\\text{C}$",
@@ -4957,7 +4957,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two identical conducting rods are first connected independently (in parallel) to two vessels, one containing water at $100^\\circ\\text{C}$ and the other containing ice at $0^\\circ\\text{C}$. In the second case, the rods are joined end-to-end (in series) and connected to the same vessels. Let $q_1$ and $q_2\\text{ g/s}$ be the rate of melting of ice in the two cases respectively. The ratio $q_1 / q_2$ is: [IIT-JEE (Screening) 2004]",
+    "questionText": "Two identical conducting rods are first connected independently (in parallel) to two vessels, one containing water at $100^\\circ\\text{C}$ and the other containing ice at $0^\\circ\\text{C}$. In the second case, the rods are joined end-to-end (in series) and connected to the same vessels. Let $q_1$ and $q_2\\text{ g/s}$ be the rate of melting of ice in the two cases respectively. The ratio $q_1 / q_2$ is: [NEET 2027 Target]",
     "options": [
       "$\\frac{1}{2}$",
       "$\\frac{2}{1}$",
@@ -4978,7 +4978,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A solid cube and a solid sphere of the same material have equal surface area. Both are at the same temperature $120^\\circ\\text{C}$. Then: [MP PET 1992, 96; MP PMT 2000]",
+    "questionText": "A solid cube and a solid sphere of the same material have equal surface area. Both are at the same temperature $120^\\circ\\text{C}$. Then: [NEET 2028 Expected]",
     "options": [
       "Both the cube and the sphere cool down at the same rate",
       "The cube cools down faster than the sphere",
@@ -4999,7 +4999,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "Two bodies $A$ and $B$ have thermal emissivities of $0.01$ and $0.81$ respectively. The outer surface areas of the two bodies are the same. The two bodies emit total radiant power at the same rate. The wavelength $\\lambda_B$ corresponding to maximum spectral radiancy in the radiation from $B$ is shifted from the wavelength corresponding to maximum spectral radiancy in the radiation from $A$, by $1.00\\,\\mu\\text{m}$. If the temperature of $A$ is $5802\\text{ K}$, then: [IIT 1994; DCE 1996]",
+    "questionText": "Two bodies $A$ and $B$ have thermal emissivities of $0.01$ and $0.81$ respectively. The outer surface areas of the two bodies are the same. The two bodies emit total radiant power at the same rate. The wavelength $\\lambda_B$ corresponding to maximum spectral radiancy in the radiation from $B$ is shifted from the wavelength corresponding to maximum spectral radiancy in the radiation from $A$, by $1.00\\,\\mu\\text{m}$. If the temperature of $A$ is $5802\\text{ K}$, then: [NEET 2029 Practice]",
     "options": [
       "The temperature of $B$ is $1934\\text{ K}$",
       "$\\lambda_B = 1.5\\,\\mu\\text{m}$",
@@ -5021,7 +5021,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Hard",
-    "questionText": "A black body is at a temperature of $2880\\text{ K}$. The energy of radiation emitted by this object with wavelength between $499\\text{ nm}$ and $500\\text{ nm}$ is $U_1$, between $999\\text{ nm}$ and $1000\\text{ nm}$ is $U_2$, and between $1499\\text{ nm}$ and $1500\\text{ nm}$ is $U_3$. The Wien's constant is $b = 2.88 \\times 10^6\\text{ nm}\\cdot\\text{K}$. Then: [IIT 1998]",
+    "questionText": "A black body is at a temperature of $2880\\text{ K}$. The energy of radiation emitted by this object with wavelength between $499\\text{ nm}$ and $500\\text{ nm}$ is $U_1$, between $999\\text{ nm}$ and $1000\\text{ nm}$ is $U_2$, and between $1499\\text{ nm}$ and $1500\\text{ nm}$ is $U_3$. The Wien's constant is $b = 2.88 \\times 10^6\\text{ nm}\\cdot\\text{K}$. Then: [NEET 2027 Target]",
     "options": [
       "$U_1 = 0$",
       "$U_3 = 0$",
@@ -5042,7 +5042,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A black metal foil is warmed by radiation from a small sphere at temperature $T$ and at a distance $d$. It is found that the power received by the foil is $P$. If both the temperature and the distance are doubled, the power received by the foil will be: [MP PMT 1997]",
+    "questionText": "A black metal foil is warmed by radiation from a small sphere at temperature $T$ and at a distance $d$. It is found that the power received by the foil is $P$. If both the temperature and the distance are doubled, the power received by the foil will be: [NEET 2028 Expected]",
     "options": [
       "$16P$",
       "$4P$",
@@ -5063,7 +5063,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "Three rods of same dimensions are arranged such that two rods of conductivities $K_1$ and $K_2$ form path $PRQ$ in series, and a third rod of conductivity $K_3$ forms path $PQ$ in parallel. Points $P$ and $Q$ are maintained at different temperatures. For the heat to flow at the same rate along $PRQ$ and $PQ$, which of the following is correct? [KCET 2001]",
+    "questionText": "Three rods of same dimensions are arranged such that two rods of conductivities $K_1$ and $K_2$ form path $PRQ$ in series, and a third rod of conductivity $K_3$ forms path $PQ$ in parallel. Points $P$ and $Q$ are maintained at different temperatures. For the heat to flow at the same rate along $PRQ$ and $PQ$, which of the following is correct? [NEET 2029 Practice]",
     "options": [
       "$K_3 = \\frac{1}{2}(K_1 + K_2)$",
       "$K_3 = K_1 + K_2$",
@@ -5084,7 +5084,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "Two metallic spheres $S_1$ and $S_2$ are made of the same material and have identical surface finish. The mass of $S_1$ is three times that of $S_2$. Both the spheres are heated to the same high temperature and placed in the same room having lower temperature. The ratio of the initial rate of cooling of $S_1$ to that of $S_2$ is: [IIT 1995]",
+    "questionText": "Two metallic spheres $S_1$ and $S_2$ are made of the same material and have identical surface finish. The mass of $S_1$ is three times that of $S_2$. Both the spheres are heated to the same high temperature and placed in the same room having lower temperature. The ratio of the initial rate of cooling of $S_1$ to that of $S_2$ is: [NEET 2027 Target]",
     "options": [
       "$1/3$",
       "$(1/3)^{1/3}$",
@@ -5105,7 +5105,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "Three discs $A$, $B$ and $C$ having radii $2\\text{ m}$, $4\\text{ m}$, and $6\\text{ m}$ respectively are coated with carbon black on their outer surfaces. The wavelengths corresponding to maximum intensity are $300\\text{ nm}$, $400\\text{ nm}$, and $500\\text{ nm}$ respectively. The power radiated by them are $Q_a$, $Q_b$, and $Q_c$ respectively. Then: [IIT-JEE (Screening) 2004]",
+    "questionText": "Three discs $A$, $B$ and $C$ having radii $2\\text{ m}$, $4\\text{ m}$, and $6\\text{ m}$ respectively are coated with carbon black on their outer surfaces. The wavelengths corresponding to maximum intensity are $300\\text{ nm}$, $400\\text{ nm}$, and $500\\text{ nm}$ respectively. The power radiated by them are $Q_a$, $Q_b$, and $Q_c$ respectively. Then: [NEET 2028 Expected]",
     "options": [
       "$Q_a$ is maximum",
       "$Q_b$ is maximum",
@@ -5127,7 +5127,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The total energy radiated from a black body source is collected for one minute and is used to heat a quantity of water. The temperature of water is found to increase from $20^\\circ\\text{C}$ to $20.5^\\circ\\text{C}$. If the absolute temperature of the black body is doubled and the experiment is repeated with the same quantity of water at $20^\\circ\\text{C}$, the temperature of water will become: [UPSEAT 2004]",
+    "questionText": "The total energy radiated from a black body source is collected for one minute and is used to heat a quantity of water. The temperature of water is found to increase from $20^\\circ\\text{C}$ to $20.5^\\circ\\text{C}$. If the absolute temperature of the black body is doubled and the experiment is repeated with the same quantity of water at $20^\\circ\\text{C}$, the temperature of water will become: [NEET 2029 Practice]",
     "options": [
       "$21^\\circ\\text{C}$",
       "$22^\\circ\\text{C}$",
@@ -5148,7 +5148,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A solid sphere and a hollow sphere of the same material and size are heated to the same temperature and allowed to cool in the same surroundings. If the temperature difference between each sphere and its surroundings is $T$, then: [Manipal MEE 1995]",
+    "questionText": "A solid sphere and a hollow sphere of the same material and size are heated to the same temperature and allowed to cool in the same surroundings. If the temperature difference between each sphere and its surroundings is $T$, then: [NEET 2027 Target]",
     "options": [
       "The hollow sphere will cool at a faster rate for all values of $T$",
       "The solid sphere will cool at a faster rate for all values of $T$",
@@ -5169,7 +5169,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "A solid copper cube of edge $1\\text{ cm}$ is suspended in an evacuated enclosure. Its temperature is found to fall from $100^\\circ\\text{C}$ to $99^\\circ\\text{C}$ in $100\\text{ s}$. Another solid copper cube of edge $2\\text{ cm}$, with similar surface nature, is suspended in a similar manner. The time required for this cube to cool from $100^\\circ\\text{C}$ to $99^\\circ\\text{C}$ will be approximately: [MP PMT 1997]",
+    "questionText": "A solid copper cube of edge $1\\text{ cm}$ is suspended in an evacuated enclosure. Its temperature is found to fall from $100^\\circ\\text{C}$ to $99^\\circ\\text{C}$ in $100\\text{ s}$. Another solid copper cube of edge $2\\text{ cm}$, with similar surface nature, is suspended in a similar manner. The time required for this cube to cool from $100^\\circ\\text{C}$ to $99^\\circ\\text{C}$ will be approximately: [NEET 2028 Expected]",
     "options": [
       "$25\\text{ s}$",
       "$50\\text{ s}$",
@@ -5190,7 +5190,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Hard",
-    "questionText": "A body initially at $80^\\circ\\text{C}$ cools to $64^\\circ\\text{C}$ in $5\\text{ minutes}$ and to $52^\\circ\\text{C}$ in $10\\text{ minutes}$. The temperature of the body after $15\\text{ minutes}$ from the start will be: [UPSEAT 2000; Pb. PET 2004]",
+    "questionText": "A body initially at $80^\\circ\\text{C}$ cools to $64^\\circ\\text{C}$ in $5\\text{ minutes}$ and to $52^\\circ\\text{C}$ in $10\\text{ minutes}$. The temperature of the body after $15\\text{ minutes}$ from the start will be: [NEET 2029 Practice]",
     "options": [
       "$42.7^\\circ\\text{C}$",
       "$35^\\circ\\text{C}$",
@@ -5210,7 +5210,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "A $5\\text{ cm}$ thick ice block is on the surface of water in a lake. The temperature of air is $-10^\\circ\\text{C}$. How much time will it take to double the thickness of the block? ($L = 80\\text{ cal/g}$, $K_{\\text{ice}} = 0.004\\text{ cal}/(\\text{s}\\cdot\\text{cm}\\cdot^\\circ\\text{C})$, $\\rho_{\\text{ice}} = 0.92\\text{ g/cm}^3$) [RPET 1998]",
+    "questionText": "A $5\\text{ cm}$ thick ice block is on the surface of water in a lake. The temperature of air is $-10^\\circ\\text{C}$. How much time will it take to double the thickness of the block? ($L = 80\\text{ cal/g}$, $K_{\\text{ice}} = 0.004\\text{ cal}/(\\text{s}\\cdot\\text{cm}\\cdot^\\circ\\text{C})$, $\\rho_{\\text{ice}} = 0.92\\text{ g/cm}^3$) [NEET 2027 Target]",
     "options": [
       "$1\\text{ hour}$",
       "$191\\text{ hours}$",
@@ -5231,7 +5231,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Four identical rods of same material are joined end to end to form a square. If the temperature difference between the ends of a diagonal is $100^\\circ\\text{C}$, then the temperature difference between the ends of the other diagonal will be: [MP PET 1989; RPMT 2002]",
+    "questionText": "Four identical rods of same material are joined end to end to form a square. If the temperature difference between the ends of a diagonal is $100^\\circ\\text{C}$, then the temperature difference between the ends of the other diagonal will be: [NEET 2028 Expected]",
     "options": [
       "$0^\\circ\\text{C}$",
       "$\\frac{100}{l}^\\circ\\text{C}$",
@@ -5252,7 +5252,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "A cylindrical rod with one end in a steam chamber and the other end in ice results in melting of $0.1\\text{ g}$ of ice per second. If the rod is replaced by another with half the length and double the radius of the first, and if the thermal conductivity of material of second rod is $\\frac{1}{4}$ that of first, the rate at which ice melts (in $\\text{g/s}$) will be: [EAMCET 1987]",
+    "questionText": "A cylindrical rod with one end in a steam chamber and the other end in ice results in melting of $0.1\\text{ g}$ of ice per second. If the rod is replaced by another with half the length and double the radius of the first, and if the thermal conductivity of material of second rod is $\\frac{1}{4}$ that of first, the rate at which ice melts (in $\\text{g/s}$) will be: [NEET 2029 Practice]",
     "options": [
       "$3.2$",
       "$1.6$",
@@ -5272,7 +5272,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "One end of a copper rod of length $1.0\\text{ m}$ and area of cross-section $10^{-3}\\text{ m}^2$ is immersed in boiling water and the other end in ice. If the coefficient of thermal conductivity of copper is $92\\text{ cal}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$ and the latent heat of ice is $8 \\times 10^4\\text{ cal/kg}$, then the amount of ice which will melt in one minute is: [MNR 1994]",
+    "questionText": "One end of a copper rod of length $1.0\\text{ m}$ and area of cross-section $10^{-3}\\text{ m}^2$ is immersed in boiling water and the other end in ice. If the coefficient of thermal conductivity of copper is $92\\text{ cal}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$ and the latent heat of ice is $8 \\times 10^4\\text{ cal/kg}$, then the amount of ice which will melt in one minute is: [NEET 2027 Target]",
     "options": [
       "$9.2 \\times 10^{-3}\\text{ kg}$",
       "$8 \\times 10^{-3}\\text{ kg}$",
@@ -5293,7 +5293,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "An ice box used for keeping eatables cold has a total wall area of $1\\text{ m}^2$ and a wall thickness of $5.0\\text{ cm}$. The thermal conductivity of the ice box material is $0.01\\text{ J}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$. It is filled with ice at $0^\\circ\\text{C}$ along with eatables on a day when the temperature is $30^\\circ\\text{C}$. The latent heat of fusion of ice is $334 \\times 10^3\\text{ J/kg}$. The amount of ice melted in one day ($1\\text{ day} = 86400\\text{ s}$) is: [MP PMT 1995]",
+    "questionText": "An ice box used for keeping eatables cold has a total wall area of $1\\text{ m}^2$ and a wall thickness of $5.0\\text{ cm}$. The thermal conductivity of the ice box material is $0.01\\text{ J}/(\\text{m}\\cdot\\text{s}\\cdot^\\circ\\text{C})$. It is filled with ice at $0^\\circ\\text{C}$ along with eatables on a day when the temperature is $30^\\circ\\text{C}$. The latent heat of fusion of ice is $334 \\times 10^3\\text{ J/kg}$. The amount of ice melted in one day ($1\\text{ day} = 86400\\text{ s}$) is: [NEET 2028 Expected]",
     "options": [
       "$776\\text{ g}$",
       "$7760\\text{ g}$",
@@ -5313,7 +5313,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Five rods of same dimensions are arranged in a Wheatstone bridge layout with thermal conductivities $K_1$, $K_2$, $K_3$, $K_4$ and central rod $K_5$. When points $A$ and $B$ are maintained at different temperatures, no heat flows through the central rod if: [KCET 2002]",
+    "questionText": "Five rods of same dimensions are arranged in a Wheatstone bridge layout with thermal conductivities $K_1$, $K_2$, $K_3$, $K_4$ and central rod $K_5$. When points $A$ and $B$ are maintained at different temperatures, no heat flows through the central rod if: [NEET 2029 Practice]",
     "options": [
       "$K_1 = K_4$ and $K_2 = K_3$",
       "$K_1 K_4 = K_2 K_3$",
@@ -5334,7 +5334,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A hot metallic sphere of radius $r$ radiates heat. Its rate of cooling is: [UPSEAT 1999]",
+    "questionText": "A hot metallic sphere of radius $r$ radiates heat. Its rate of cooling is: [NEET 2027 Target]",
     "options": [
       "Independent of $r$",
       "Proportional to $r$",
@@ -5355,7 +5355,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "A solid copper sphere (density $\\rho$ and specific heat capacity $c$) of radius $r$ at an initial temperature $200\\text{ K}$ is suspended inside a chamber whose walls are at almost $0\\text{ K}$. The time required for the temperature of the sphere to drop to $100\\text{ K}$ is: [IIT-JEE 1991]",
+    "questionText": "A solid copper sphere (density $\\rho$ and specific heat capacity $c$) of radius $r$ at an initial temperature $200\\text{ K}$ is suspended inside a chamber whose walls are at almost $0\\text{ K}$. The time required for the temperature of the sphere to drop to $100\\text{ K}$ is: [NEET 2028 Expected]",
     "options": [
       "$\\frac{72}{7}\\frac{\\rho c r}{\\sigma}$",
       "$\\frac{7}{72}\\frac{\\rho c r}{\\sigma}$",
@@ -5376,7 +5376,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "One end of a copper rod of uniform cross-section and length $3.1\\text{ m}$ is kept in contact with ice ($0^\\circ\\text{C}$) and the other end with water at $100^\\circ\\text{C}$. At what point along its length should a temperature of $200^\\circ\\text{C}$ be maintained so that in steady state, the mass of ice melting equals the mass of steam produced in the same interval of time? (Latent heat of fusion of ice $= 80\\text{ cal/g}$, latent heat of vaporization of water $= 540\\text{ cal/g}$) [Roorkee 1992]",
+    "questionText": "One end of a copper rod of uniform cross-section and length $3.1\\text{ m}$ is kept in contact with ice ($0^\\circ\\text{C}$) and the other end with water at $100^\\circ\\text{C}$. At what point along its length should a temperature of $200^\\circ\\text{C}$ be maintained so that in steady state, the mass of ice melting equals the mass of steam produced in the same interval of time? (Latent heat of fusion of ice $= 80\\text{ cal/g}$, latent heat of vaporization of water $= 540\\text{ cal/g}$) [NEET 2029 Practice]",
     "options": [
       "$40\\text{ cm}$ from $100^\\circ\\text{C}$ end",
       "$40\\text{ cm}$ from $0^\\circ\\text{C}$ end",
@@ -5397,7 +5397,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "A sphere and a cube of same material and same volume are heated up to same temperature and allowed to cool in the same surroundings. The ratio of the amounts of radiations emitted will be: [AIIMS 1999]",
+    "questionText": "A sphere and a cube of same material and same volume are heated up to same temperature and allowed to cool in the same surroundings. The ratio of the amounts of radiations emitted will be: [NEET 2027 Target]",
     "options": [
       "$1 : 1$",
       "$\\frac{4\\pi}{3} : 1$",
@@ -5418,7 +5418,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The temperature of the two outer surfaces of a composite slab, consisting of two materials having coefficients of thermal conductivity $K$ and $2K$ and thickness $x$ and $4x$, respectively are $T_2$ and $T_1$ ($T_2 > T_1$). The rate of heat transfer through the slab, in a steady state is $\\left(\\frac{A(T_2 - T_1)K}{x}\\right) f$, with $f$ equal to: [AIEEE 2004]",
+    "questionText": "The temperature of the two outer surfaces of a composite slab, consisting of two materials having coefficients of thermal conductivity $K$ and $2K$ and thickness $x$ and $4x$, respectively are $T_2$ and $T_1$ ($T_2 > T_1$). The rate of heat transfer through the slab, in a steady state is $\\left(\\frac{A(T_2 - T_1)K}{x}\\right) f$, with $f$ equal to: [NEET 2028 Expected]",
     "options": [
       "$1$",
       "$\\frac{1}{2}$",
@@ -5439,7 +5439,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Hard",
-    "questionText": "A system of two concentric spheres of radii $r_1$ and $r_2$ ($r_2 > r_1$) have temperatures $T_1$ and $T_2$ respectively. The radial rate of flow of heat through a substance filled between the two concentric spheres in steady state is proportional to: [AIEEE 2005]",
+    "questionText": "A system of two concentric spheres of radii $r_1$ and $r_2$ ($r_2 > r_1$) have temperatures $T_1$ and $T_2$ respectively. The radial rate of flow of heat through a substance filled between the two concentric spheres in steady state is proportional to: [NEET 2029 Practice]",
     "options": [
       "$\\frac{r_1 r_2}{r_2 - r_1}$",
       "$(r_2 - r_1)$",
@@ -5460,7 +5460,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Four rods of identical cross-sectional area and made from the same metal form the sides of a square. The temperatures of two diagonally opposite points are $T$ and $\\sqrt{2}T$ respectively in the steady state. Assuming that only heat conduction takes place, what will be the temperature difference between the other two diagonally opposite points? [BCECE 2005]",
+    "questionText": "Four rods of identical cross-sectional area and made from the same metal form the sides of a square. The temperatures of two diagonally opposite points are $T$ and $\\sqrt{2}T$ respectively in the steady state. Assuming that only heat conduction takes place, what will be the temperature difference between the other two diagonally opposite points? [NEET 2027 Target]",
     "options": [
       "$\\frac{\\sqrt{2}+1}{2} T$",
       "$\\frac{2}{\\sqrt{2}+1} T$",
@@ -5481,7 +5481,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation",
     "difficulty": "Medium",
-    "questionText": "The graph represents the variation of temperature ($T$) of two bodies, $x$ and $y$ having same surface area, with time ($t$) due to the emission of radiation. If curve $x$ falls steeper than curve $y$, find the correct relation between the emissivity ($e$) and absorptivity ($a$) of the two bodies: [IIT-JEE (Screening) 2003]",
+    "questionText": "The graph represents the variation of temperature ($T$) of two bodies, $x$ and $y$ having same surface area, with time ($t$) due to the emission of radiation. If curve $x$ falls steeper than curve $y$, find the correct relation between the emissivity ($e$) and absorptivity ($a$) of the two bodies: [NEET 2028 Expected]",
     "options": [
       "$e_x > e_y$ and $a_x < a_y$",
       "$e_x < e_y$ and $a_x > a_y$",
@@ -5502,7 +5502,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Medium",
-    "questionText": "The plots of intensity versus wavelength for three black bodies at temperatures $T_1$, $T_2$ and $T_3$ exhibit peak wavelengths such that $\\lambda_{m1} < \\lambda_{m3} < \\lambda_{m2}$. Their temperatures are related as: [IIT-JEE (Screening) 2000]",
+    "questionText": "The plots of intensity versus wavelength for three black bodies at temperatures $T_1$, $T_2$ and $T_3$ exhibit peak wavelengths such that $\\lambda_{m1} < \\lambda_{m3} < \\lambda_{m2}$. Their temperatures are related as: [NEET 2029 Practice]",
     "options": [
       "$T_1 > T_2 > T_3$",
       "$T_1 > T_3 > T_2$",
@@ -5523,15 +5523,15 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The spectral energy density distribution $E_\\lambda$ of a black body at two different temperatures $2000\\text{ K}$ and $T\\text{ K}$ is plotted against $\\lambda$. If the areas under the curves are in the ratio $1 : 16$ (i.e. $A_T / A_{2000} = 16$), the value of temperature $T$ is: [DCE 1999]",
+    "questionText": "The spectral energy density distribution $E_\\lambda$ of a black body at two different temperatures $2000\\text{ K}$ and $T\\text{ K}$ is plotted against $\\lambda$. If the areas under the curves are in the ratio $1 : 16$ (i.e. $A_T / A_{2000} = 16$), the value of temperature $T$ is: [NEET 2027 Target]",
     "options": [
-      "$32000\\text{ K}$",
+      "NEET 2028 Expected",
       "$16000\\text{ K}$",
       "$8000\\text{ K}$",
       "$4000\\text{ K}$"
     ],
     "correctAnswer": 3,
-    "explanation": "### 📘 NCERT Fundamental Concept\nThe total area under the $E_\\lambda - \\lambda$ curve represents total emissive power $E$, which is proportional to $T^4$ by Stefan-Boltzmann Law:\n$$\\text{Area} = \\int_0^\\infty E_\\lambda d\\lambda = \\sigma T^4 \\propto T^4$$\n\n### ⚡ Step-by-Step Derivation & Calculations\n$$\\frac{A_T}{A_{2000}} = \\left(\\frac{T}{2000}\\right)^4 = 16 = 2^4$$\n$$\\frac{T}{2000} = 2 \\implies T = 4000\\text{ K}$$\n\n### ✓ Examiner Pro-Tip\nArea $\\propto T^4$. Ratio of 16 means temperature ratio is $16^{1/4} = 2 \\implies T = 2000 \\times 2 = 4000\\text{ K}$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -5544,7 +5544,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Medium",
-    "questionText": "Which of the following graphs shows the correct variation of spectral intensity with frequency $\\nu$ of black body radiation at different temperatures ($1500\\text{ K}$, $2500\\text{ K}$, $3500\\text{ K}$)? [AIIMS 2001]",
+    "questionText": "Which of the following graphs shows the correct variation of spectral intensity with frequency $\\nu$ of black body radiation at different temperatures ($1500\\text{ K}$, $2500\\text{ K}$, $3500\\text{ K}$)? [NEET 2027 Target]",
     "options": [
       "Peak shifts to lower frequency with increasing temperature",
       "Peak remains at constant frequency for all temperatures",
@@ -5565,7 +5565,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Hard",
-    "questionText": "Variation of radiant energy emitted by the Sun, filament of a tungsten lamp, and a welding arc as a function of wavelength $\\lambda$ shows peaks at temperatures $T_1$, $T_2$, and $T_3$ where $\\lambda_{m1} < \\lambda_{m3} < \\lambda_{m2}$. Which of the following is the correct match? [IIT-JEE (Screening) 2005]",
+    "questionText": "Variation of radiant energy emitted by the Sun, filament of a tungsten lamp, and a welding arc as a function of wavelength $\\lambda$ shows peaks at temperatures $T_1$, $T_2$, and $T_3$ where $\\lambda_{m1} < \\lambda_{m3} < \\lambda_{m2}$. Which of the following is the correct match? [NEET 2028 Expected]",
     "options": [
       "Sun $- T_1$, tungsten filament $- T_2$, welding arc $- T_3$",
       "Sun $- T_2$, tungsten filament $- T_1$, welding arc $- T_3$",
@@ -5573,7 +5573,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
       "Sun $- T_1$, tungsten filament $- T_3$, welding arc $- T_2$"
     ],
     "correctAnswer": 2,
-    "explanation": "### 📘 NCERT Fundamental Concept\nTemperatures of the sources:\n- Welding arc: $T \\approx 10000\\text{ K}$ (highest temperature, lowest $\\lambda_m \\implies T_1$)\n- Sun surface: $T \\approx 6000\\text{ K}$ (intermediate temperature $\\implies T_3$)\n- Tungsten lamp filament: $T \\approx 2000\\text{ K} - 3000\\text{ K}$ (lowest temperature, longest $\\lambda_m \\implies T_2$)\n\n### ⚡ Step-by-Step Derivation & Calculations\nBy Wien's law $T \\propto 1/\\lambda_m$:\n$$T_{\\text{welding arc}} (10000\\text{ K}) > T_{\\text{Sun}} (6000\\text{ K}) > T_{\\text{tungsten}} (2500\\text{ K})$$\n$$\\implies \\text{Welding arc} \\to T_1,\\quad \\text{Sun} \\to T_3,\\quad \\text{Tungsten filament} \\to T_2$$\n\n### ✓ Examiner Pro-Tip\nWelding arc is hottest (10,000 K), Sun is 6,000 K, Tungsten filament is ~2,500 K.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -5586,7 +5586,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Hard",
-    "questionText": "A body cools in surroundings at constant temperature $\\theta_0$. Its temperature $\\theta$ is plotted against time $t$. Tangents drawn to the curve at points $P(\\theta = \\theta_1)$ and $Q(\\theta = \\theta_2)$ make angles $\\phi_1$ and $\\phi_2$ with the time axis. The ratio $\\frac{\\tan\\phi_2}{\\tan\\phi_1}$ is: [MP PMT 1999]",
+    "questionText": "A body cools in surroundings at constant temperature $\\theta_0$. Its temperature $\\theta$ is plotted against time $t$. Tangents drawn to the curve at points $P(\\theta = \\theta_1)$ and $Q(\\theta = \\theta_2)$ make angles $\\phi_1$ and $\\phi_2$ with the time axis. The ratio $\\frac{\\tan\\phi_2}{\\tan\\phi_1}$ is: [NEET 2027 Target]",
     "options": [
       "$\\frac{\\theta_1 - \\theta_0}{\\theta_2 - \\theta_0}$",
       "$\\frac{\\theta_2 - \\theta_0}{\\theta_1 - \\theta_0}$",
@@ -5606,7 +5606,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Medium",
-    "questionText": "Shown are the black body radiation curves at temperatures $T_1$ and $T_2$ where $T_2 > T_1$. Which graph correctly represents the shift of peak wavelength $\\lambda_m$? [AIIMS 2003]",
+    "questionText": "Shown are the black body radiation curves at temperatures $T_1$ and $T_2$ where $T_2 > T_1$. Which graph correctly represents the shift of peak wavelength $\\lambda_m$? [NEET 2028 Expected]",
     "options": [
       "Peak of $T_2$ is higher and shifted toward the left (lower $\\lambda$)",
       "Peak of $T_2$ is lower and shifted toward the right",
@@ -5627,7 +5627,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "The spectrum of a black body at two temperatures $27^\\circ\\text{C}$ and $327^\\circ\\text{C}$ is plotted. Let $A_1$ and $A_2$ be the areas under the two curves respectively. The value of $\\frac{A_2}{A_1}$ is: [RPET 1999]",
+    "questionText": "The spectrum of a black body at two temperatures $27^\\circ\\text{C}$ and $327^\\circ\\text{C}$ is plotted. Let $A_1$ and $A_2$ be the areas under the two curves respectively. The value of $\\frac{A_2}{A_1}$ is: [NEET 2029 Practice]",
     "options": [
       "$1 : 16$",
       "$4 : 1$",
@@ -5648,7 +5648,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "A block of metal is heated to a temperature much higher than room temperature and allowed to cool in a room free from air currents. Which of the following curves correctly represents temperature $\\theta$ versus time $t$? [Manipal MEE 1995]",
+    "questionText": "A block of metal is heated to a temperature much higher than room temperature and allowed to cool in a room free from air currents. Which of the following curves correctly represents temperature $\\theta$ versus time $t$? [NEET 2027 Target]",
     "options": [
       "Linear decrease to $0$",
       "Exponential decay asymptotically approaching ambient temperature $\\theta_0$",
@@ -5668,7 +5668,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Easy",
-    "questionText": "The spectral energy distribution $E_\\lambda$ with wavelength $\\lambda$ for black body radiation at temperature $T$ is plotted. As the temperature is increased, the maximum of the curve will: [AFMC 1996]",
+    "questionText": "The spectral energy distribution $E_\\lambda$ with wavelength $\\lambda$ for black body radiation at temperature $T$ is plotted. As the temperature is increased, the maximum of the curve will: [NEET 2028 Expected]",
     "options": [
       "Shift towards left and become higher",
       "Rise high but will not shift",
@@ -5689,7 +5689,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Medium",
-    "questionText": "For a small temperature difference between the body and surroundings, the relation between the rate of heat loss $R$ and the temperature of the body $\\theta$ is depicted by a straight line graph with: [MP PMT 1998]",
+    "questionText": "For a small temperature difference between the body and surroundings, the relation between the rate of heat loss $R$ and the temperature of the body $\\theta$ is depicted by a straight line graph with: [NEET 2029 Practice]",
     "options": [
       "Positive slope passing through the origin",
       "Negative slope passing through the origin",
@@ -5709,7 +5709,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Heat is flowing through a uniform conductor of length $l$ from $x = 0$ to $x = l$. If its thermal resistance per unit length is uniform, the temperature $T$ varies with distance $x$ as: [UPSEAT 2000]",
+    "questionText": "Heat is flowing through a uniform conductor of length $l$ from $x = 0$ to $x = l$. If its thermal resistance per unit length is uniform, the temperature $T$ varies with distance $x$ as: [NEET 2027 Target]",
     "options": [
       "Exponential decay curve",
       "Parabolic curve",
@@ -5729,7 +5729,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The radius of a conductor increases uniformly from the left end to the right end. The curved surface is thermally insulated and ends are kept at $T_1$ and $T_2$ ($T_1 > T_2$). In steady state, the graph of heat flow rate $H$ versus distance $x$ is: [IIT-JEE 1999]",
+    "questionText": "The radius of a conductor increases uniformly from the left end to the right end. The curved surface is thermally insulated and ends are kept at $T_1$ and $T_2$ ($T_1 > T_2$). In steady state, the graph of heat flow rate $H$ versus distance $x$ is: [NEET 2028 Expected]",
     "options": [
       "Increasing linearly with $x$",
       "A horizontal straight line parallel to the x-axis",
@@ -5749,7 +5749,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Medium",
-    "questionText": "Which of the following graphs correctly represents the relation between $\\ln E$ and $\\ln T$, where $E$ is the emissive power and $T$ is the absolute temperature? [DCE 2002]",
+    "questionText": "Which of the following graphs correctly represents the relation between $\\ln E$ and $\\ln T$, where $E$ is the emissive power and $T$ is the absolute temperature? [NEET 2029 Practice]",
     "options": [
       "Straight line passing through the origin with slope 1",
       "Curve bending upwards",
@@ -5770,7 +5770,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "A hollow copper sphere $S$ and a hollow copper cube $C$, both with negligibly thin walls of the same surface area, are filled with water at $90^\\circ\\text{C}$ and allowed to cool in the same environment. The graph that correctly represents their temperature versus time is: [IIT-JEE 1993]",
+    "questionText": "A hollow copper sphere $S$ and a hollow copper cube $C$, both with negligibly thin walls of the same surface area, are filled with water at $90^\\circ\\text{C}$ and allowed to cool in the same environment. The graph that correctly represents their temperature versus time is: [NEET 2027 Target]",
     "options": [
       "Sphere cools faster than cube",
       "Cube cools faster than sphere",
@@ -5791,15 +5791,15 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Medium",
-    "questionText": "In the spectral distribution curve of black body radiation, the maximum occurs at wavelength $\\lambda_m = 1.45\\,\\mu\\text{m} \\approx 1.5\\,\\mu\\text{m}$. Given Wien's constant $b = 2.89 \\times 10^{-3}\\text{ m}\\cdot\\text{K}$, the possible temperature of the black body is approximately: [RPMT 1996]",
+    "questionText": "In the spectral distribution curve of black body radiation, the maximum occurs at wavelength $\\lambda_m = 1.45\\,\\mu\\text{m} \\approx 1.5\\,\\mu\\text{m}$. Given Wien's constant $b = 2.89 \\times 10^{-3}\\text{ m}\\cdot\\text{K}$, the possible temperature of the black body is approximately: [NEET 2028 Expected]",
     "options": [
       "$1500\\text{ K}$",
-      "$2000\\text{ K}$",
+      "NEET 2029 Practice",
       "$2500\\text{ K}$",
       "$3000\\text{ K}$"
     ],
     "correctAnswer": 1,
-    "explanation": "### 📘 NCERT Fundamental Concept\nAccording to Wien's Displacement Law:\n$$\\lambda_m T = b \\implies T = \\frac{b}{\\lambda_m}$$\n\n### ⚡ Step-by-Step Derivation & Calculations\nGiven:\n- $\\lambda_m = 1.45\\,\\mu\\text{m} \\approx 1.45 \\times 10^{-6}\\text{ m}$\n- $b = 2.89 \\times 10^{-3}\\text{ m}\\cdot\\text{K}$\n\n$$T = \\frac{2.89 \\times 10^{-3}}{1.45 \\times 10^{-6}} = \\frac{2890}{1.45} \\approx 1993\\text{ K} \\approx 2000\\text{ K}$$\n\n### ✓ Examiner Pro-Tip\n$$T = \\frac{2.89 \\times 10^{-3}}{1.45 \\times 10^{-6}} \\approx 2000\\text{ K}$$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Heat Transmission",
       "Radiation",
@@ -5812,7 +5812,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Easy",
-    "questionText": "Which of the following represents the $\\nu_m - T$ graph for a perfectly black body, where $\\nu_m$ is the frequency of maximum radiation? [RPMT 1996]",
+    "questionText": "Which of the following represents the $\\nu_m - T$ graph for a perfectly black body, where $\\nu_m$ is the frequency of maximum radiation? [NEET 2028 Expected]",
     "options": [
       "Curve A (parabola)",
       "Curve B (straight line passing through origin with positive slope)",
@@ -5833,7 +5833,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Kirchhoff's Law",
     "difficulty": "Easy",
-    "questionText": "Assertion: A body that is a good radiator is also a good absorber of radiation at a given wavelength.\nReason: According to Kirchhoff's law, the absorptivity of a body is equal to its emissivity at a given wavelength. [AIIMS 2005]",
+    "questionText": "Assertion: A body that is a good radiator is also a good absorber of radiation at a given wavelength.\nReason: According to Kirchhoff's law, the absorptivity of a body is equal to its emissivity at a given wavelength. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5855,7 +5855,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Easy",
-    "questionText": "Assertion: For higher temperature, the peak emission wavelength of a black body shifts to lower wavelengths.\nReason: Peak emission wavelength of a blackbody is proportional to the fourth power of temperature. [AIIMS 2005]",
+    "questionText": "Assertion: For higher temperature, the peak emission wavelength of a black body shifts to lower wavelengths.\nReason: Peak emission wavelength of a blackbody is proportional to the fourth power of temperature. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5877,7 +5877,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "Assertion: Temperatures near the sea coast are moderate.\nReason: Water has a high thermal conductivity. [AIIMS 2003]",
+    "questionText": "Assertion: Temperatures near the sea coast are moderate.\nReason: Water has a high thermal conductivity. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5898,7 +5898,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Easy",
-    "questionText": "Assertion: It is hotter over the top of a fire than at the same distance on the sides.\nReason: Air surrounding the fire conducts more heat upwards. [AIIMS 2003]",
+    "questionText": "Assertion: It is hotter over the top of a fire than at the same distance on the sides.\nReason: Air surrounding the fire conducts more heat upwards. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5919,7 +5919,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Prevost Theory",
     "difficulty": "Medium",
-    "questionText": "Assertion: Bodies radiate heat at all temperatures.\nReason: Rate of radiation of heat is proportional to the fourth power of absolute temperature. [AIIMS 1999, 2002]",
+    "questionText": "Assertion: Bodies radiate heat at all temperatures.\nReason: Rate of radiation of heat is proportional to the fourth power of absolute temperature. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5941,7 +5941,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Assertion: Woolen clothes keep the body warm in winter.\nReason: Air is a bad conductor of heat. [AIIMS 2002]",
+    "questionText": "Assertion: Woolen clothes keep the body warm in winter.\nReason: Air is a bad conductor of heat. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5962,7 +5962,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Assertion: The equivalent thermal conductivity of two plates of same thickness in contact (series) is less than the smaller value of thermal conductivity.\nReason: For two plates of equal thickness in contact (series), the equivalent thermal conductivity is given by $\\frac{1}{K} = \\frac{1}{K_1} + \\frac{1}{K_2}$. [AIIMS 1997]",
+    "questionText": "Assertion: The equivalent thermal conductivity of two plates of same thickness in contact (series) is less than the smaller value of thermal conductivity.\nReason: For two plates of equal thickness in contact (series), the equivalent thermal conductivity is given by $\\frac{1}{K} = \\frac{1}{K_1} + \\frac{1}{K_2}$. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -5983,7 +5983,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Black Body Radiation",
     "difficulty": "Easy",
-    "questionText": "Assertion: A hollow metallic closed container maintained at a uniform temperature can act as a source of black body radiation.\nReason: All metals act as a black body. [AIIMS 1996]",
+    "questionText": "Assertion: A hollow metallic closed container maintained at a uniform temperature can act as a source of black body radiation.\nReason: All metals act as a black body. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6004,7 +6004,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "Assertion: If the temperature of a star is doubled, then the rate of loss of heat from it becomes 16 times.\nReason: Specific heat varies with temperature. [AIIMS 1996]",
+    "questionText": "Assertion: If the temperature of a star is doubled, then the rate of loss of heat from it becomes 16 times.\nReason: Specific heat varies with temperature. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6026,7 +6026,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "Assertion: The radiation from the Sun's surface varies as the fourth power of its absolute temperature.\nReason: The Sun is not a black body. [AIIMS 1999]",
+    "questionText": "Assertion: The radiation from the Sun's surface varies as the fourth power of its absolute temperature.\nReason: The Sun is not a black body. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6048,7 +6048,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Easy",
-    "questionText": "Assertion: A blue star is at a higher temperature than a red star.\nReason: Wien's displacement law states that $T \\propto 1/\\lambda_m$. [AIIMS 2002]",
+    "questionText": "Assertion: A blue star is at a higher temperature than a red star.\nReason: Wien's displacement law states that $T \\propto 1/\\lambda_m$. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6070,7 +6070,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Assertion: The SI unit of thermal conductivity is $\\text{W}\\cdot\\text{m}^{-1}\\cdot\\text{K}^{-1}$.\nReason: Thermal conductivity is a measure of the ability of a material to allow the passage of heat through it. [AIIMS 2000]",
+    "questionText": "Assertion: The SI unit of thermal conductivity is $\\text{W}\\cdot\\text{m}^{-1}\\cdot\\text{K}^{-1}$.\nReason: Thermal conductivity is a measure of the ability of a material to allow the passage of heat through it. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6091,7 +6091,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Assertion: A brass tumbler feels much colder than a wooden tray on a chilly day.\nReason: The thermal conductivity of brass is less than that of wood. [AIIMS 1998]",
+    "questionText": "Assertion: A brass tumbler feels much colder than a wooden tray on a chilly day.\nReason: The thermal conductivity of brass is less than that of wood. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6112,7 +6112,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation",
     "difficulty": "Easy",
-    "questionText": "Assertion: Like light radiations, thermal radiations are also electromagnetic radiation.\nReason: Thermal radiations require no material medium for propagation. [AIIMS 1997]",
+    "questionText": "Assertion: Like light radiations, thermal radiations are also electromagnetic radiation.\nReason: Thermal radiations require no material medium for propagation. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6133,7 +6133,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Assertion: Snow is a better insulator than ice.\nReason: Snow contains air pockets, and air is a good insulator of heat. [AIIMS 2001]",
+    "questionText": "Assertion: Snow is a better insulator than ice.\nReason: Snow contains air pockets, and air is a good insulator of heat. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6154,7 +6154,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Convection",
     "difficulty": "Medium",
-    "questionText": "Assertion: Water can be boiled inside an orbiting satellite by convection.\nReason: Convection is the process in which heat is transmitted from a place of higher temperature to a place of lower temperature by means of migration of particles. [AIIMS 2004]",
+    "questionText": "Assertion: Water can be boiled inside an orbiting satellite by convection.\nReason: Convection is the process in which heat is transmitted from a place of higher temperature to a place of lower temperature by means of migration of particles. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6175,7 +6175,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Black Body Radiation",
     "difficulty": "Easy",
-    "questionText": "Assertion: The absorbance of a perfect black body is unity.\nReason: A perfect black body when heated emits radiations of all possible wavelengths at that temperature. [AIIMS 2003]",
+    "questionText": "Assertion: The absorbance of a perfect black body is unity.\nReason: A perfect black body when heated emits radiations of all possible wavelengths at that temperature. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6196,7 +6196,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Assertion: A person would feel iron and wooden balls equally hot at $98.4^\\circ\\text{F}$.\nReason: At $98.4^\\circ\\text{F}$, both iron and wood have the same thermal conductivity. [AIIMS 1999]",
+    "questionText": "Assertion: A person would feel iron and wooden balls equally hot at $98.4^\\circ\\text{F}$.\nReason: At $98.4^\\circ\\text{F}$, both iron and wood have the same thermal conductivity. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6217,7 +6217,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Easy",
-    "questionText": "Assertion: As the temperature of a black body is raised, the wavelength corresponding to maximum energy reduces.\nReason: Higher temperature means higher energy and hence higher wavelength. [AIIMS 2002]",
+    "questionText": "Assertion: As the temperature of a black body is raised, the wavelength corresponding to maximum energy reduces.\nReason: Higher temperature means higher energy and hence higher wavelength. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6239,7 +6239,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Black Body Radiation",
     "difficulty": "Easy",
-    "questionText": "Assertion: All black coloured objects are considered black bodies.\nReason: Black colour is a good absorber of heat. [AIIMS 2000]",
+    "questionText": "Assertion: All black coloured objects are considered black bodies.\nReason: Black colour is a good absorber of heat. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6260,7 +6260,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Assertion: Greater is the coefficient of thermal conductivity of a material, smaller is the thermal resistance of a rod of that material.\nReason: Thermal resistance is the ratio of temperature difference between the ends of the conductor and rate of flow of heat. [AIIMS 2003]",
+    "questionText": "Assertion: Greater is the coefficient of thermal conductivity of a material, smaller is the thermal resistance of a rod of that material.\nReason: Thermal resistance is the ratio of temperature difference between the ends of the conductor and rate of flow of heat. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6282,7 +6282,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation",
     "difficulty": "Easy",
-    "questionText": "Assertion: Radiation is the speediest mode of heat transfer.\nReason: Radiation can be transmitted in zig-zag motion. [AIIMS 1999]",
+    "questionText": "Assertion: Radiation is the speediest mode of heat transfer.\nReason: Radiation can be transmitted in zig-zag motion. [NEET 2029 Practice]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6303,7 +6303,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Easy",
-    "questionText": "Assertion: Two thin blankets put together are warmer than a single blanket of double the thickness.\nReason: Thickness increases because of air layer enclosed between the two blankets. [AIIMS 1998]",
+    "questionText": "Assertion: Two thin blankets put together are warmer than a single blanket of double the thickness.\nReason: Thickness increases because of air layer enclosed between the two blankets. [NEET 2027 Target]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6324,7 +6324,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Radiation",
     "difficulty": "Easy",
-    "questionText": "Assertion: Animals curl into a ball when they feel very cold.\nReason: By curling their body, animals reduce their exposed surface area. [AIIMS 2002]",
+    "questionText": "Assertion: Animals curl into a ball when they feel very cold.\nReason: By curling their body, animals reduce their exposed surface area. [NEET 2028 Expected]",
     "options": [
       "If both assertion and reason are true and reason is the correct explanation of assertion.",
       "If both assertion and reason are true but reason is not the correct explanation of assertion.",
@@ -6367,7 +6367,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "Two vessels of different materials are similar in size in every respect. The same quantity of ice filled in them gets melted in $20\\text{ minutes}$ and $40\\text{ minutes}$ respectively. The ratio of thermal conductivities of the materials $\\frac{K_1}{K_2}$ is: [AFMC 1998]",
+    "questionText": "Two vessels of different materials are similar in size in every respect. The same quantity of ice filled in them gets melted in $20\\text{ minutes}$ and $40\\text{ minutes}$ respectively. The ratio of thermal conductivities of the materials $\\frac{K_1}{K_2}$ is: [NEET 2029 Practice]",
     "options": [
       "$5 : 6$",
       "$6 : 5$",
@@ -6473,9 +6473,9 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Medium",
-    "questionText": "If at temperature $T_1 = 1000\\text{ K}$, the peak wavelength is $\\lambda_1 = 1.4 \\times 10^{-6}\\text{ m}$, then at what temperature will the wavelength be $\\lambda_2 = 2.8 \\times 10^{-6}\\text{ m}$? [RPMT 2004]",
+    "questionText": "If at temperature $T_1 = 1000\\text{ K}$, the peak wavelength is $\\lambda_1 = 1.4 \\times 10^{-6}\\text{ m}$, then at what temperature will the wavelength be $\\lambda_2 = 2.8 \\times 10^{-6}\\text{ m}$? [NEET 2027 Target]",
     "options": [
-      "$2000\\text{ K}$",
+      "NEET 2028 Expected",
       "$500\\text{ K}$",
       "$250\\text{ K}$",
       "None of these"
@@ -6495,7 +6495,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Hard",
-    "questionText": "The wavelength of maximum intensity of radiation emitted by a star is $289.8\\text{ nm}$. The radiation intensity (emissive power) for the star is: (Stefan's constant $\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$, Wien's constant $b = 2898\\,\\mu\\text{m}\\cdot\\text{K}$) [EAMCET 2001]",
+    "questionText": "The wavelength of maximum intensity of radiation emitted by a star is $289.8\\text{ nm}$. The radiation intensity (emissive power) for the star is: (Stefan's constant $\\sigma = 5.67 \\times 10^{-8}\\text{ W}/(\\text{m}^2\\cdot\\text{K}^4)$, Wien's constant $b = 2898\\,\\mu\\text{m}\\cdot\\text{K}$) [NEET 2029 Practice]",
     "options": [
       "$5.67 \\times 10^8\\text{ W/m}^2$",
       "$5.67 \\times 10^{12}\\text{ W/m}^2$",
@@ -6687,7 +6687,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "The area of the glass window of a room is $10\\text{ m}^2$ and thickness is $2\\text{ mm}$. The outer and inner temperatures are $40^\\circ\\text{C}$ and $20^\\circ\\text{C}$ respectively. Thermal conductivity of glass in MKS system is $0.2\\text{ W}/(\\text{m}\\cdot\\text{K})$. The heat flowing into the room per second will be: [MP PMT 1989]",
+    "questionText": "The area of the glass window of a room is $10\\text{ m}^2$ and thickness is $2\\text{ mm}$. The outer and inner temperatures are $40^\\circ\\text{C}$ and $20^\\circ\\text{C}$ respectively. Thermal conductivity of glass in MKS system is $0.2\\text{ W}/(\\text{m}\\cdot\\text{K})$. The heat flowing into the room per second will be: [NEET 2027 Target]",
     "options": [
       "$3 \\times 10^4\\text{ J}$",
       "$2 \\times 10^4\\text{ J}$",
@@ -6708,7 +6708,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Black Body Radiation",
     "difficulty": "Easy",
-    "questionText": "The spectrum of thermal radiation from a black body is a: [MP PMT 1989; RPET 2000]",
+    "questionText": "The spectrum of thermal radiation from a black body is a: [NEET 2028 Expected]",
     "options": [
       "Line spectrum",
       "Band spectrum",
@@ -6729,7 +6729,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Wien's Law",
     "difficulty": "Easy",
-    "questionText": "Wien's displacement law expresses the relation between: [CBSE PMT 2002]",
+    "questionText": "Wien's displacement law expresses the relation between: [NEET 2029 Practice]",
     "options": [
       "Frequency and temperature",
       "Temperature and amplitude",
@@ -6751,7 +6751,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Stefan's Law",
     "difficulty": "Easy",
-    "questionText": "A black body is heated from $27^\\circ\\text{C}$ to $127^\\circ\\text{C}$. The ratio of the energies of radiation emitted per second will be: [AIIMS 2001]",
+    "questionText": "A black body is heated from $27^\\circ\\text{C}$ to $127^\\circ\\text{C}$. The ratio of the energies of radiation emitted per second will be: [NEET 2027 Target]",
     "options": [
       "$3 : 4$",
       "$9 : 16$",
@@ -6773,7 +6773,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Newton's Law of Cooling",
     "difficulty": "Hard",
-    "questionText": "A body takes $T\\text{ minutes}$ to cool from $62^\\circ\\text{C}$ to $61^\\circ\\text{C}$ when the surrounding temperature is $30^\\circ\\text{C}$. The time taken by the body to cool from $46^\\circ\\text{C}$ to $45.5^\\circ\\text{C}$ in the same surrounding is: [MP PET 1999]",
+    "questionText": "A body takes $T\\text{ minutes}$ to cool from $62^\\circ\\text{C}$ to $61^\\circ\\text{C}$ when the surrounding temperature is $30^\\circ\\text{C}$. The time taken by the body to cool from $46^\\circ\\text{C}$ to $45.5^\\circ\\text{C}$ in the same surrounding is: [NEET 2028 Expected]",
     "options": [
       "Greater than $T\\text{ minutes}$",
       "Equal to $T\\text{ minutes}$",
@@ -6794,7 +6794,7 @@ export const TRANSMISSION_OF_HEAT_BOOK_QUESTIONS: Question[] = [
     "chapter": "Transmission of Heat",
     "topic": "Conduction",
     "difficulty": "Medium",
-    "questionText": "A partition wall has two layers $A$ and $B$ in contact, each made of a different material. They have the same thickness, but the thermal conductivity of layer $A$ is twice that of layer $B$. If the steady state temperature difference across the wall is $60\\text{ K}$, then the temperature difference across layer $A$ is: [SCRA 1994; JIPMER 2001]",
+    "questionText": "A partition wall has two layers $A$ and $B$ in contact, each made of a different material. They have the same thickness, but the thermal conductivity of layer $A$ is twice that of layer $B$. If the steady state temperature difference across the wall is $60\\text{ K}$, then the temperature difference across layer $A$ is: [NEET 2029 Practice]",
     "options": [
       "$10\\text{ K}$",
       "$20\\text{ K}$",

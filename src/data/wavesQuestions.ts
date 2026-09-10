@@ -7,7 +7,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Which of the following statements is wrong?\n[NCERT 1976, 79]",
+    "questionText": "Which of the following statements is wrong?\n[NEET 2027 Target]",
     "options": [
       "Sound travels in straight line",
       "Sound is a form of energy",
@@ -29,7 +29,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The relation between frequency '$n$', wavelength '$\\lambda$' and velocity of propagation '$v$' of wave is:\n[EAMCET 1979; CPMT 1976, 85]",
+    "questionText": "The relation between frequency '$n$', wavelength '$\\lambda$' and velocity of propagation '$v$' of wave is:\n[NEET 2028 Expected]",
     "options": [
       "$n = v \\lambda$",
       "$n = \\lambda / v$",
@@ -50,7 +50,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Ultrasonic, Infrasonic and audible waves travel through a given medium with speeds $V_u$, $V_i$, and $V_a$ respectively, then:\n[CPMT 1989]",
+    "questionText": "Ultrasonic, Infrasonic and audible waves travel through a given medium with speeds $V_u$, $V_i$, and $V_a$ respectively, then:\n[NEET 2029 Practice]",
     "options": [
       "$V_u$, $V_i$ and $V_a$ are nearly equal",
       "$V_u \\ge V_a \\ge V_i$",
@@ -71,7 +71,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The distance between two consecutive crests in a wave train produced in a string is $5\\text{ cm}$. If $2$ complete waves pass through any point per second, the velocity of the wave is:\n[CPMT 1990]",
+    "questionText": "The distance between two consecutive crests in a wave train produced in a string is $5\\text{ cm}$. If $2$ complete waves pass through any point per second, the velocity of the wave is:\n[NEET 2027 Target]",
     "options": [
       "$10\\text{ cm/sec}$",
       "$2.5\\text{ cm/sec}$",
@@ -92,7 +92,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "A tuning fork makes $256$ vibrations per second in air. When the velocity of sound is $330\\text{ m/s}$, then wavelength of the tone emitted is:\n[KCET 1994; AFMC 1998; MH CET 1999; CBSE PMT 1999]",
+    "questionText": "A tuning fork makes $256$ vibrations per second in air. When the velocity of sound is $330\\text{ m/s}$, then wavelength of the tone emitted is:\n[NEET 2028 Expected]",
     "options": [
       "$0.56\\text{ m}$",
       "$0.89\\text{ m}$",
@@ -113,7 +113,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A man sets his watch by a whistle that is $2\\text{ km}$ away. How much will his watch be in error? (speed of sound in air $330\\text{ m/sec}$)\n[MP PET 1991]",
+    "questionText": "A man sets his watch by a whistle that is $2\\text{ km}$ away. How much will his watch be in error? (speed of sound in air $330\\text{ m/sec}$)\n[NEET 2029 Practice]",
     "options": [
       "$3\\text{ seconds fast}$",
       "$3\\text{ seconds slow}$",
@@ -121,7 +121,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "$6\\text{ seconds slow}$"
     ],
     "correctAnswer": 3,
-    "explanation": "📘 **NCERT Fundamental Concept:**\nSound travel time creates an acoustic propagation delay: $t = d/v$.\n\n⚡ **Step-by-Step Derivation & Calculations:**\n$$t = \\frac{2000\\text{ m}}{330\\text{ m/s}} \\approx 6.06\\text{ s} \\approx 6\\text{ s}$$\nSince he receives the signal after $6\\text{ s}$, the watch is set $6\\text{ seconds slow}$.\n\n✓ **Examiner Pro-Tip:**\nSignal delay causes local watch to lag behind true source time.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -134,7 +134,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "When a sound wave of frequency $300\\text{ Hz}$ passes through a medium the maximum displacement of a particle of the medium is $0.1\\text{ cm}$. The maximum velocity of the particle is equal to:\n[MNR 1992; UPSEAT 1998, 2000; RPMT 2002; Pb. PET 2004]",
+    "questionText": "When a sound wave of frequency $300\\text{ Hz}$ passes through a medium the maximum displacement of a particle of the medium is $0.1\\text{ cm}$. The maximum velocity of the particle is equal to:\n[NEET 2028 Expected]",
     "options": [
       "$60\\pi\\text{ cm/sec}$",
       "$30\\pi\\text{ cm/sec}$",
@@ -155,7 +155,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "Sound waves have the following frequencies that are audible to human beings:\n[CPMT 1975]",
+    "questionText": "Sound waves have the following frequencies that are audible to human beings:\n[NEET 2029 Practice]",
     "options": [
       "$5\\text{ c/s}$",
       "$27000\\text{ c/s}$",
@@ -176,7 +176,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Velocity of sound waves in air is $330\\text{ m/sec}$. For a particular sound in air, a path difference of $40\\text{ cm}$ is equivalent to a phase difference of $1.6\\pi$. The frequency of this wave is:\n[CBSE PMT 1990]",
+    "questionText": "Velocity of sound waves in air is $330\\text{ m/sec}$. For a particular sound in air, a path difference of $40\\text{ cm}$ is equivalent to a phase difference of $1.6\\pi$. The frequency of this wave is:\n[NEET 2027 Target]",
     "options": [
       "$165\\text{ Hz}$",
       "$150\\text{ Hz}$",
@@ -197,7 +197,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The wavelength of ultrasonic waves in air is of the order of:\n[EAMCET 1989]",
+    "questionText": "The wavelength of ultrasonic waves in air is of the order of:\n[NEET 2028 Expected]",
     "options": [
       "$5 \\times 10^{-5}\\text{ cm}$",
       "$5 \\times 10^{-8}\\text{ cm}$",
@@ -218,7 +218,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The relation between phase difference ($\\Delta\\phi$) and path difference ($\\Delta x$) is:\n[MNR 1995; UPSEAT 1999, 2000]",
+    "questionText": "The relation between phase difference ($\\Delta\\phi$) and path difference ($\\Delta x$) is:\n[NEET 2029 Practice]",
     "options": [
       "$\\Delta\\phi = \\frac{2\\pi}{\\lambda} \\Delta x$",
       "$\\Delta\\phi = 2\\pi\\lambda \\Delta x$",
@@ -239,7 +239,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A hospital uses an ultrasonic scanner to locate tumours in a tissue. The operating frequency of the scanner is $4.2\\text{ MHz}$. The speed of sound in a tissue is $1.7\\text{ km}\\cdot\\text{s}^{-1}$. The wavelength of sound in the tissue is close to:\n[CBSE PMT 1995]",
+    "questionText": "A hospital uses an ultrasonic scanner to locate tumours in a tissue. The operating frequency of the scanner is $4.2\\text{ MHz}$. The speed of sound in a tissue is $1.7\\text{ km}\\cdot\\text{s}^{-1}$. The wavelength of sound in the tissue is close to:\n[NEET 2027 Target]",
     "options": [
       "$4 \\times 10^{-4}\\text{ m}$",
       "$8 \\times 10^{-3}\\text{ m}$",
@@ -260,7 +260,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The minimum audible wavelength at room temperature is about:\n[AFMC 1996]",
+    "questionText": "The minimum audible wavelength at room temperature is about:\n[NEET 2028 Expected]",
     "options": [
       "$0.2\\text{ Å}$",
       "$5\\text{ Å}$",
@@ -281,7 +281,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The ratio of the speed of sound in nitrogen gas to that in helium gas, at $300\\text{ K}$ is:\n[IIT 1999]",
+    "questionText": "The ratio of the speed of sound in nitrogen gas to that in helium gas, at $300\\text{ K}$ is:\n[NEET 2029 Practice]",
     "options": [
       "$\\sqrt{2/7}$",
       "$\\sqrt{1/7}$",
@@ -294,7 +294,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Basics of Mechanical Waves",
-      "IIT"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -303,7 +303,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "In a sinusoidal wave, the time required for a particular point to move from maximum displacement to zero displacement is $0.170\\text{ second}$. The frequency of the wave is:\n[CBSE PMT 1998; AIIMS 2001; AFMC 2002; CPMT 2004]",
+    "questionText": "In a sinusoidal wave, the time required for a particular point to move from maximum displacement to zero displacement is $0.170\\text{ second}$. The frequency of the wave is:\n[NEET 2028 Expected]",
     "options": [
       "$1.47\\text{ Hz}$",
       "$0.36\\text{ Hz}$",
@@ -324,7 +324,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The number of waves contained in unit length of the medium is called:\n[AIIMS 1998]",
+    "questionText": "The number of waves contained in unit length of the medium is called:\n[NEET 2029 Practice]",
     "options": [
       "Elastic wave",
       "Wave number",
@@ -345,7 +345,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The frequency of a rod is $200\\text{ Hz}$. If the velocity of sound in air is $340\\text{ m/s}$, the wavelength of the sound produced is:\n[EAMCET (Med.) 1995; Pb. PMT 1999; CPMT 2000]",
+    "questionText": "The frequency of a rod is $200\\text{ Hz}$. If the velocity of sound in air is $340\\text{ m/s}$, the wavelength of the sound produced is:\n[NEET 2027 Target]",
     "options": [
       "$1.7\\text{ cm}$",
       "$6.8\\text{ cm}$",
@@ -366,7 +366,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Frequency range of the audible sounds is:\n[EAMCET (Med.) 1995; RPMT 1997]",
+    "questionText": "Frequency range of the audible sounds is:\n[NEET 2028 Expected]",
     "options": [
       "$0\\text{ Hz} – 30\\text{ Hz}$",
       "$20\\text{ Hz} – 20\\text{ kHz}$",
@@ -387,7 +387,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "In a medium sound travels $2\\text{ km}$ in $3\\text{ sec}$ and in air, it travels $3\\text{ km}$ in $10\\text{ sec}$. The ratio of the wavelengths of sound in the two media is:\n[NTSE 1995]",
+    "questionText": "In a medium sound travels $2\\text{ km}$ in $3\\text{ sec}$ and in air, it travels $3\\text{ km}$ in $10\\text{ sec}$. The ratio of the wavelengths of sound in the two media is:\n[NEET 2029 Practice]",
     "options": [
       "$1 : 8$",
       "$1 : 18$",
@@ -408,7 +408,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "A stone is dropped into a lake from a tower $500\\text{ metre}$ high. The sound of the splash will be heard by the man approximately after: (Take $g = 10\\text{ m/s}^2, v = 340\\text{ m/s}$)\n[CPMT 1992; JIPMER 2001, 02; Kerala PMT 2005]",
+    "questionText": "A stone is dropped into a lake from a tower $500\\text{ metre}$ high. The sound of the splash will be heard by the man approximately after: (Take $g = 10\\text{ m/s}^2, v = 340\\text{ m/s}$)\n[NEET 2027 Target]",
     "options": [
       "$11.5\\text{ seconds}$",
       "$21\\text{ seconds}$",
@@ -429,7 +429,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "When sound waves travel from air to water, which of the following remains constant?\n[AFMC 1993; DCE 1999; CPMT 2004]",
+    "questionText": "When sound waves travel from air to water, which of the following remains constant?\n[NEET 2028 Expected]",
     "options": [
       "Velocity",
       "Frequency",
@@ -450,7 +450,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "A stone is dropped in a well which is $19.6\\text{ m}$ deep. Echo sound is heard after $2.06\\text{ sec}$ (after dropping) then the velocity of sound is:\n[RPMT 1999]",
+    "questionText": "A stone is dropped in a well which is $19.6\\text{ m}$ deep. Echo sound is heard after $2.06\\text{ sec}$ (after dropping) then the velocity of sound is:\n[NEET 2029 Practice]",
     "options": [
       "$332.6\\text{ m/sec}$",
       "$326.7\\text{ m/sec}$",
@@ -471,7 +471,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "At what temperature velocity of sound is double than that of at $0^\\circ\\text{C}$?\n[RPMT 1999]",
+    "questionText": "At what temperature velocity of sound is double than that of at $0^\\circ\\text{C}$?\n[NEET 2027 Target]",
     "options": [
       "$819\\text{ K}$",
       "$819^\\circ\\text{C}$",
@@ -492,7 +492,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Velocity of sound is maximum in:\n[AFMC 1998; BCECE 2001; RPMT 1999, 02]",
+    "questionText": "Velocity of sound is maximum in:\n[NEET 2028 Expected]",
     "options": [
       "Air",
       "Water",
@@ -513,7 +513,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "If velocity of sound in a gas is $360\\text{ m/s}$ and the distance between a compression and the nearest rarefaction is $1\\text{ m}$, then the frequency of sound is:\n[KCET 1999]",
+    "questionText": "If velocity of sound in a gas is $360\\text{ m/s}$ and the distance between a compression and the nearest rarefaction is $1\\text{ m}$, then the frequency of sound is:\n[NEET 2029 Practice]",
     "options": [
       "$90\\text{ Hz}$",
       "$180\\text{ Hz}$",
@@ -534,7 +534,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "If the density of oxygen is $16$ times that of hydrogen, what will be the ratio of their corresponding velocities of sound waves?\n[KCET 1999]",
+    "questionText": "If the density of oxygen is $16$ times that of hydrogen, what will be the ratio of their corresponding velocities of sound waves?\n[NEET 2027 Target]",
     "options": [
       "$1 : 4$",
       "$4 : 1$",
@@ -555,7 +555,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "At which temperature the speed of sound in hydrogen will be same as that of speed of sound in oxygen at $100^\\circ\\text{C}$?\n[UPSEAT 1999]",
+    "questionText": "At which temperature the speed of sound in hydrogen will be same as that of speed of sound in oxygen at $100^\\circ\\text{C}$?\n[NEET 2028 Expected]",
     "options": [
       "$-148^\\circ\\text{C}$",
       "$-212.5^\\circ\\text{C}$",
@@ -576,7 +576,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "A tuning fork produces waves in a medium. If the temperature of the medium changes, then which of the following will change?\n[EAMCET (Med.) 1998; Pb. PMT 1999; MH CET 2001]",
+    "questionText": "A tuning fork produces waves in a medium. If the temperature of the medium changes, then which of the following will change?\n[NEET 2029 Practice]",
     "options": [
       "Amplitude",
       "Frequency",
@@ -597,7 +597,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The wavelength of light in visible part $(\\lambda_V)$ and for sound $(\\lambda_S)$ are related as:\n[RPMT 1999]",
+    "questionText": "The wavelength of light in visible part $(\\lambda_V)$ and for sound $(\\lambda_S)$ are related as:\n[NEET 2027 Target]",
     "options": [
       "$\\lambda_V > \\lambda_S$",
       "$\\lambda_S > \\lambda_V$",
@@ -618,7 +618,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Which of the following is different from others?\n[AFMC 1994; CPMT 1999; Pb. PMT 2004]",
+    "questionText": "Which of the following is different from others?\n[NEET 2028 Expected]",
     "options": [
       "Velocity",
       "Wavelength",
@@ -639,7 +639,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The phase difference between two points separated by $1\\text{ m}$ in a wave of frequency $120\\text{ Hz}$ is $90^\\circ$. The wave velocity is:\n[KCET 1999]",
+    "questionText": "The phase difference between two points separated by $1\\text{ m}$ in a wave of frequency $120\\text{ Hz}$ is $90^\\circ$. The wave velocity is:\n[NEET 2029 Practice]",
     "options": [
       "$180\\text{ m/s}$",
       "$240\\text{ m/s}$",
@@ -660,7 +660,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The echo of a gun shot is heard $8\\text{ sec}$ after the gun is fired. How far from him is the surface that reflects the sound? (velocity of sound in air $= 350\\text{ m/s}$)\n[JIPMER 1999]",
+    "questionText": "The echo of a gun shot is heard $8\\text{ sec}$ after the gun is fired. How far from him is the surface that reflects the sound? (velocity of sound in air $= 350\\text{ m/s}$)\n[NEET 2027 Target]",
     "options": [
       "$1400\\text{ m}$",
       "$2800\\text{ m}$",
@@ -681,7 +681,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A man sets his watch by the sound of a siren placed at a distance $1\\text{ km}$ away. If the velocity of sound is $330\\text{ m/s}$:\n[JIPMER 1999]",
+    "questionText": "A man sets his watch by the sound of a siren placed at a distance $1\\text{ km}$ away. If the velocity of sound is $330\\text{ m/s}$:\n[NEET 2028 Expected]",
     "options": [
       "His watch is set $3\\text{ sec}$ faster",
       "His watch is set $3\\text{ sec}$ slower",
@@ -702,7 +702,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Velocity of sound in air is:\n[Pb. PMT 1999; UPSEAT 2000]",
+    "questionText": "Velocity of sound in air is:\n[NEET 2029 Practice]",
     "options": [
       "Faster in dry air than in moist air",
       "Directly proportional to pressure",
@@ -723,7 +723,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Two monoatomic ideal gases 1 and 2 of molecular masses $m_1$ and $m_2$ respectively are enclosed in separate containers kept at the same temperature. The ratio of the speed of sound in gas 1 to that in gas 2 is given by:\n[IIT-JEE Screening 2000]",
+    "questionText": "Two monoatomic ideal gases 1 and 2 of molecular masses $m_1$ and $m_2$ respectively are enclosed in separate containers kept at the same temperature. The ratio of the speed of sound in gas 1 to that in gas 2 is given by:\n[NEET 2027 Target]",
     "options": [
       "$\\sqrt{\\frac{m_1}{m_2}}$",
       "$\\sqrt{\\frac{m_2}{m_1}}$",
@@ -736,7 +736,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Basics of Mechanical Waves",
-      "IIT"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -745,7 +745,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A man is standing between two parallel cliffs and fires a gun. If he hears first and second echoes after $1.5\\text{ s}$ and $3.5\\text{ s}$ respectively, the distance between the cliffs is: (Velocity of sound in air $= 340\\text{ ms}^{-1}$)\n[EAMCET (Med.) 2000]",
+    "questionText": "A man is standing between two parallel cliffs and fires a gun. If he hears first and second echoes after $1.5\\text{ s}$ and $3.5\\text{ s}$ respectively, the distance between the cliffs is: (Velocity of sound in air $= 340\\text{ ms}^{-1}$)\n[NEET 2029 Practice]",
     "options": [
       "$1190\\text{ m}$",
       "$850\\text{ m}$",
@@ -766,7 +766,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "When the temperature of an ideal gas is increased by $600\\text{ K}$, the velocity of sound in the gas becomes $\\sqrt{3}$ times the initial velocity in it. The initial temperature of the gas is:\n[EAMCET (Med.) 2000]",
+    "questionText": "When the temperature of an ideal gas is increased by $600\\text{ K}$, the velocity of sound in the gas becomes $\\sqrt{3}$ times the initial velocity in it. The initial temperature of the gas is:\n[NEET 2027 Target]",
     "options": [
       "$-73^\\circ\\text{C}$",
       "$27^\\circ\\text{C}$",
@@ -787,7 +787,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The frequency of a sound wave is $n$ and its velocity is $v$. If the frequency is increased to $4n$, the velocity of the wave will be:\n[MP PET 2000]",
+    "questionText": "The frequency of a sound wave is $n$ and its velocity is $v$. If the frequency is increased to $4n$, the velocity of the wave will be:\n[NEET 2028 Expected]",
     "options": [
       "$v$",
       "$2v$",
@@ -808,7 +808,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The temperature at which the speed of sound in air becomes double of its value at $27^\\circ\\text{C}$ is:\n[CPMT 1997; UPSEAT 2000; DPMT 2003]",
+    "questionText": "The temperature at which the speed of sound in air becomes double of its value at $27^\\circ\\text{C}$ is:\n[NEET 2029 Practice]",
     "options": [
       "$54^\\circ\\text{C}$",
       "$327^\\circ\\text{C}$",
@@ -829,7 +829,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The speed of a wave in a certain medium is $960\\text{ m/s}$. If $3600$ waves pass over a certain point of the medium in $1\\text{ minute}$, the wavelength is:\n[MP PMT 2000]",
+    "questionText": "The speed of a wave in a certain medium is $960\\text{ m/s}$. If $3600$ waves pass over a certain point of the medium in $1\\text{ minute}$, the wavelength is:\n[NEET 2027 Target]",
     "options": [
       "$2\\text{ metres}$",
       "$4\\text{ metres}$",
@@ -850,7 +850,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Speed of sound at constant temperature depends on:\n[RPET 2000; AIIMS 1998]",
+    "questionText": "Speed of sound at constant temperature depends on:\n[NEET 2028 Expected]",
     "options": [
       "Pressure",
       "Density of gas",
@@ -871,7 +871,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A man standing on a cliff claps his hand and hears its echo after $1\\text{ sec}$. If sound is reflected from another mountain and velocity of sound in air is $340\\text{ m/sec}$, then the distance between the man and reflection point is:\n[RPET 2000]",
+    "questionText": "A man standing on a cliff claps his hand and hears its echo after $1\\text{ sec}$. If sound is reflected from another mountain and velocity of sound in air is $340\\text{ m/sec}$, then the distance between the man and reflection point is:\n[NEET 2029 Practice]",
     "options": [
       "$680\\text{ m}$",
       "$340\\text{ m}$",
@@ -892,7 +892,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "What will be the wave velocity, if the radar gives $54\\text{ waves per min}$ and wavelength of the given wave is $10\\text{ m}$?\n[RPET 2000]",
+    "questionText": "What will be the wave velocity, if the radar gives $54\\text{ waves per min}$ and wavelength of the given wave is $10\\text{ m}$?\n[NEET 2027 Target]",
     "options": [
       "$4\\text{ m/sec}$",
       "$6\\text{ m/sec}$",
@@ -913,7 +913,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "Sound velocity is maximum in:\n[Pb. CET 2000; RPMT 2000]",
+    "questionText": "Sound velocity is maximum in:\n[NEET 2028 Expected]",
     "options": [
       "$\\text{H}_2$",
       "$\\text{N}_2$",
@@ -934,7 +934,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The minimum distance of reflector surface from the source for listening the echo of sound is: (velocity of sound $= 330\\text{ m/s}$)\n[CPMT 1997; RPMT 1999; KCET 2000]",
+    "questionText": "The minimum distance of reflector surface from the source for listening the echo of sound is: (velocity of sound $= 330\\text{ m/s}$)\n[NEET 2029 Practice]",
     "options": [
       "$28\\text{ m}$",
       "$18\\text{ m}$",
@@ -955,7 +955,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The type of waves that can be propagated through solid is:\n[CPMT 2000]",
+    "questionText": "The type of waves that can be propagated through solid is:\n[NEET 2027 Target]",
     "options": [
       "Transverse",
       "Longitudinal",
@@ -976,7 +976,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "A man stands in front of a hillock and fires a gun. He hears an echo after $1.5\\text{ sec}$. The distance of the hillock from the man is (velocity of sound in air is $330\\text{ m/s}$):\n[EAMCET (Eng.) 1998; CPMT 2000]",
+    "questionText": "A man stands in front of a hillock and fires a gun. He hears an echo after $1.5\\text{ sec}$. The distance of the hillock from the man is (velocity of sound in air is $330\\text{ m/s}$):\n[NEET 2028 Expected]",
     "options": [
       "$220\\text{ m}$",
       "$247.5\\text{ m}$",
@@ -997,7 +997,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Velocity of sound in air:\nI. Increases with temperature\nII. Decreases with temperature\nIII. Increases with pressure\nIV. Is independent of pressure\nV. Is independent of temperature\nChoose the correct answer:\n[Kerala (Engg.) 2001]",
+    "questionText": "Velocity of sound in air:\nI. Increases with temperature\nII. Decreases with temperature\nIII. Increases with pressure\nIV. Is independent of pressure\nV. Is independent of temperature\nChoose the correct answer:\n[NEET 2029 Practice]",
     "options": [
       "Only I and II are true",
       "Only I and III are true",
@@ -1018,7 +1018,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "The speed of a wave in a medium is $760\\text{ m/s}$. If $3600$ waves are passing through a point in the medium in $2\\text{ minutes}$, then its wavelength is:\n[AFMC 1998; CPMT 2001]",
+    "questionText": "The speed of a wave in a medium is $760\\text{ m/s}$. If $3600$ waves are passing through a point in the medium in $2\\text{ minutes}$, then its wavelength is:\n[NEET 2027 Target]",
     "options": [
       "$13.8\\text{ m}$",
       "$25.3\\text{ m}$",
@@ -1039,7 +1039,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "If at same temperature and pressure, the densities for two diatomic gases are respectively $d_1$ and $d_2$, then the ratio of velocities of sound in these gases will be:\n[CPMT 2001]",
+    "questionText": "If at same temperature and pressure, the densities for two diatomic gases are respectively $d_1$ and $d_2$, then the ratio of velocities of sound in these gases will be:\n[NEET 2028 Expected]",
     "options": [
       "$\\sqrt{\\frac{d_2}{d_1}}$",
       "$\\sqrt{\\frac{d_1}{d_2}}$",
@@ -1060,7 +1060,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The frequency of a tuning fork is $384\\text{ per second}$ and velocity of sound in air is $352\\text{ m/s}$. How far the sound has traversed while fork completes $36\\text{ vibrations}$?\n[KCET 2001]",
+    "questionText": "The frequency of a tuning fork is $384\\text{ per second}$ and velocity of sound in air is $352\\text{ m/s}$. How far the sound has traversed while fork completes $36\\text{ vibrations}$?\n[NEET 2029 Practice]",
     "options": [
       "$3\\text{ m}$",
       "$13\\text{ m}$",
@@ -1081,7 +1081,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "$v_1$ and $v_2$ are the velocities of sound at the same temperature in two monoatomic gases of densities $\\rho_1$ and $\\rho_2$ respectively. If $\\rho_1 / \\rho_2 = 1/4$, then the ratio of velocities $v_1$ and $v_2$ will be:\n[KCET 2000; AIIMS 2002; AFMC 2002]",
+    "questionText": "$v_1$ and $v_2$ are the velocities of sound at the same temperature in two monoatomic gases of densities $\\rho_1$ and $\\rho_2$ respectively. If $\\rho_1 / \\rho_2 = 1/4$, then the ratio of velocities $v_1$ and $v_2$ will be:\n[NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$4 : 1$",
@@ -1102,7 +1102,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The temperature at which the speed of sound in air becomes double of its value at $0^\\circ\\text{C}$ is:\n[AIEEE 2002]",
+    "questionText": "The temperature at which the speed of sound in air becomes double of its value at $0^\\circ\\text{C}$ is:\n[NEET 2028 Expected]",
     "options": [
       "$273\\text{ K}$",
       "$546\\text{ K}$",
@@ -1115,7 +1115,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Basics of Mechanical Waves",
-      "AIEEE"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1124,7 +1124,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "If wavelength of a wave is $\\lambda = 6000\\text{ Å}$, then wave number will be:\n[MH CET 2002]",
+    "questionText": "If wavelength of a wave is $\\lambda = 6000\\text{ Å}$, then wave number will be:\n[NEET 2027 Target]",
     "options": [
       "$166 \\times 10^3\\text{ m}^{-1}$",
       "$16.6 \\times 10^{-1}\\text{ m}^{-1}$",
@@ -1145,7 +1145,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Velocity of sound measured in hydrogen and oxygen gas at a given temperature will be in the ratio:\n[RPET 2001; UPSEAT 2001; KCET 2002, 05]",
+    "questionText": "Velocity of sound measured in hydrogen and oxygen gas at a given temperature will be in the ratio:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 4$",
       "$4 : 1$",
@@ -1166,7 +1166,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "Find the frequency of minimum distance between compression & rarefaction of a wire, if the length of the wire is $1\\text{ m}$ & velocity of sound in air is $360\\text{ m/s}$:\n[CPMT 2003]",
+    "questionText": "Find the frequency of minimum distance between compression & rarefaction of a wire, if the length of the wire is $1\\text{ m}$ & velocity of sound in air is $360\\text{ m/s}$:\n[NEET 2029 Practice]",
     "options": [
       "$90\\text{ sec}^{-1}$",
       "$180\\text{ s}^{-1}$",
@@ -1187,7 +1187,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The velocity of sound is $v_s$ in air. If the density of air is increased to $4\\text{ times}$, then the new velocity of sound will be:\n[BHU 2003]",
+    "questionText": "The velocity of sound is $v_s$ in air. If the density of air is increased to $4\\text{ times}$, then the new velocity of sound will be:\n[NEET 2027 Target]",
     "options": [
       "$v_s / 2$",
       "$v_s / 12$",
@@ -1208,7 +1208,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "It takes $2.0\\text{ seconds}$ for a sound wave to travel between two fixed points when the day temperature is $10^\\circ\\text{C}$. If the temperature rises to $30^\\circ\\text{C}$ the sound wave travels between the same fixed points in:\n[Orissa JEE 2003]",
+    "questionText": "It takes $2.0\\text{ seconds}$ for a sound wave to travel between two fixed points when the day temperature is $10^\\circ\\text{C}$. If the temperature rises to $30^\\circ\\text{C}$ the sound wave travels between the same fixed points in:\n[NEET 2028 Expected]",
     "options": [
       "$1.9\\text{ sec}$",
       "$2.0\\text{ sec}$",
@@ -1229,7 +1229,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "If $v_m$ is the velocity of sound in moist air, $v_d$ is the velocity of sound in dry air, under identical conditions of pressure and temperature:\n[KCET 2002, 03]",
+    "questionText": "If $v_m$ is the velocity of sound in moist air, $v_d$ is the velocity of sound in dry air, under identical conditions of pressure and temperature:\n[NEET 2029 Practice]",
     "options": [
       "$v_m > v_d$",
       "$v_m < v_d$",
@@ -1250,7 +1250,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A man, standing between two cliffs, claps his hands and starts hearing a series of echoes at intervals of one second. If the speed of sound in air is $340\\text{ ms}^{-1}$, the distance between the cliffs is:\n[KCET 2004]",
+    "questionText": "A man, standing between two cliffs, claps his hands and starts hearing a series of echoes at intervals of one second. If the speed of sound in air is $340\\text{ ms}^{-1}$, the distance between the cliffs is:\n[NEET 2027 Target]",
     "options": [
       "$340\\text{ m}$",
       "$1620\\text{ m}$",
@@ -1271,7 +1271,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A source of sound of frequency $600\\text{ Hz}$ is placed inside water. The speed of sound in water is $1500\\text{ m/s}$ and in air is $300\\text{ m/s}$. The frequency of sound recorded by an observer who is standing in air is:\n[IIT-JEE Screening 2004]",
+    "questionText": "A source of sound of frequency $600\\text{ Hz}$ is placed inside water. The speed of sound in water is $1500\\text{ m/s}$ and in air is $300\\text{ m/s}$. The frequency of sound recorded by an observer who is standing in air is:\n[NEET 2028 Expected]",
     "options": [
       "$200\\text{ Hz}$",
       "$3000\\text{ Hz}$",
@@ -1284,7 +1284,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Basics of Mechanical Waves",
-      "IIT"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -1293,7 +1293,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "If the temperature of the atmosphere is increased the following character of the sound wave is affected:\n[AFMC 2004]",
+    "questionText": "If the temperature of the atmosphere is increased the following character of the sound wave is affected:\n[NEET 2027 Target]",
     "options": [
       "Amplitude",
       "Frequency",
@@ -1314,7 +1314,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "An underwater sonar source operating at a frequency of $60\\text{ kHz}$ directs its beam towards the surface. If the velocity of sound in air is $330\\text{ m/s}$, the wavelength and frequency of waves in air are:\n[DPMT 2004]",
+    "questionText": "An underwater sonar source operating at a frequency of $60\\text{ kHz}$ directs its beam towards the surface. If the velocity of sound in air is $330\\text{ m/s}$, the wavelength and frequency of waves in air are:\n[NEET 2028 Expected]",
     "options": [
       "$5.5\\text{ mm}, 60\\text{ kHz}$",
       "$330\\text{ m}, 60\\text{ kHz}$",
@@ -1335,7 +1335,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Two sound waves having a phase difference of $60^\\circ$ have path difference of:\n[CBSE PMT 1996; AIIMS 2001]",
+    "questionText": "Two sound waves having a phase difference of $60^\\circ$ have path difference of:\n[NEET 2029 Practice]",
     "options": [
       "$2\\lambda$",
       "$\\lambda/2$",
@@ -1356,7 +1356,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "It is possible to distinguish between transverse and longitudinal waves by studying the property of:\n[CPMT 1976; EAMCET 1994]",
+    "questionText": "It is possible to distinguish between transverse and longitudinal waves by studying the property of:\n[NEET 2027 Target]",
     "options": [
       "Interference",
       "Diffraction",
@@ -1377,7 +1377,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Water waves are:\n[EAMCET 1979; AIIMS 2004]",
+    "questionText": "Water waves are:\n[NEET 2028 Expected]",
     "options": [
       "Longitudinal",
       "Transverse",
@@ -1398,7 +1398,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Sound travels in rocks in the form of:\n[NCERT 1968]",
+    "questionText": "Sound travels in rocks in the form of:\n[NEET 2029 Practice]",
     "options": [
       "Longitudinal elastic waves only",
       "Transverse elastic waves only",
@@ -1420,7 +1420,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The waves in which the particles of the medium vibrate in a direction perpendicular to the direction of wave motion is known as:\n[EAMCT 1981; AIIMS 1998; DPMT 2000]",
+    "questionText": "The waves in which the particles of the medium vibrate in a direction perpendicular to the direction of wave motion is known as:\n[NEET 2027 Target]",
     "options": [
       "Transverse wave",
       "Longitudinal waves",
@@ -1441,7 +1441,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A medium can carry a longitudinal wave because it has the property of:\n[KCET 1994]",
+    "questionText": "A medium can carry a longitudinal wave because it has the property of:\n[NEET 2028 Expected]",
     "options": [
       "Mass",
       "Density",
@@ -1462,7 +1462,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Which of the following is the longitudinal wave?\n[AFMC 1997]",
+    "questionText": "Which of the following is the longitudinal wave?\n[NEET 2029 Practice]",
     "options": [
       "Sound waves",
       "Waves on plucked string",
@@ -1483,7 +1483,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The nature of sound waves in gases is:\n[RPMT 1999; RPET 2000; J & K CET 2004]",
+    "questionText": "The nature of sound waves in gases is:\n[NEET 2027 Target]",
     "options": [
       "Transverse",
       "Longitudinal",
@@ -1504,7 +1504,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Transverse waves can propagate in:\n[CPMT 1984; KCET 2000; RPET 2001]",
+    "questionText": "Transverse waves can propagate in:\n[NEET 2028 Expected]",
     "options": [
       "Liquids",
       "Solids",
@@ -1525,7 +1525,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Sound waves in air are:\n[RPET 2000; AFMC 2001]",
+    "questionText": "Sound waves in air are:\n[NEET 2029 Practice]",
     "options": [
       "Transverse",
       "Longitudinal",
@@ -1546,7 +1546,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "Which of the following is not a transverse wave?\n[AFMC 1999; BHU 2001]",
+    "questionText": "Which of the following is not a transverse wave?\n[NEET 2027 Target]",
     "options": [
       "X-rays",
       "$\\gamma$-rays",
@@ -1567,7 +1567,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "What is the phase difference between two successive crests in the wave?\n[RPMT 2001, 02; MH CET 2004]",
+    "questionText": "What is the phase difference between two successive crests in the wave?\n[NEET 2028 Expected]",
     "options": [
       "$\\pi$",
       "$\\pi/2$",
@@ -1588,7 +1588,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "A wave of frequency $500\\text{ Hz}$ has velocity $360\\text{ m/sec}$. The distance between two nearest points $60^\\circ$ out of phase, is:\n[NCERT 1979; MP PET 1989; JIPMER 1997; RPMT 2002, 03; CPMT 1979, 90, 2003; BCECE 2005]",
+    "questionText": "A wave of frequency $500\\text{ Hz}$ has velocity $360\\text{ m/sec}$. The distance between two nearest points $60^\\circ$ out of phase, is:\n[NEET 2029 Practice]",
     "options": [
       "$0.6\\text{ cm}$",
       "$12\\text{ cm}$",
@@ -1610,7 +1610,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The following phenomenon cannot be observed for sound waves:\n[NCERT 1982; CPMT 1985, 97; AFMC 2002; RPMT 2003]",
+    "questionText": "The following phenomenon cannot be observed for sound waves:\n[NEET 2027 Target]",
     "options": [
       "Refraction",
       "Interference",
@@ -1632,7 +1632,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "When an aeroplane attains a speed higher than the velocity of sound in air, a loud bang is heard. This is because:\n[NCERT 1972; J & K CET 2002]",
+    "questionText": "When an aeroplane attains a speed higher than the velocity of sound in air, a loud bang is heard. This is because:\n[NEET 2028 Expected]",
     "options": [
       "It explodes",
       "It produces a shock wave which is received as the bang",
@@ -1654,7 +1654,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Ultrasonic waves are those waves:\n[CPMT 1979]",
+    "questionText": "Ultrasonic waves are those waves:\n[NEET 2029 Practice]",
     "options": [
       "To which man can hear",
       "Man can't hear",
@@ -1675,7 +1675,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "A big explosion on the moon cannot be heard on the earth because:\n[CPMT 1972; AFMC 2005]",
+    "questionText": "A big explosion on the moon cannot be heard on the earth because:\n[NEET 2027 Target]",
     "options": [
       "The explosion produces high frequency sound waves which are inaudible",
       "Sound waves require a material medium for propagation",
@@ -1696,7 +1696,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Sound waves of wavelength greater than that of audible sound are called:\n[KCET 1999]",
+    "questionText": "Sound waves of wavelength greater than that of audible sound are called:\n[NEET 2028 Expected]",
     "options": [
       "Seismic waves",
       "Sonic waves",
@@ -1717,7 +1717,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "‘SONAR’ emits which of the following waves?\n[AIIMS 1999]",
+    "questionText": "‘SONAR’ emits which of the following waves?\n[NEET 2029 Practice]",
     "options": [
       "Radio waves",
       "Ultrasonic waves",
@@ -1738,7 +1738,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "Which of the following do not require medium for transmission?\n[RPMT 2000]",
+    "questionText": "Which of the following do not require medium for transmission?\n[NEET 2027 Target]",
     "options": [
       "Cathode ray",
       "Electromagnetic wave",
@@ -1759,7 +1759,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "Consider the following:\nI. Waves created on the surfaces of a water pond by a vibrating source.\nII. Wave created by an oscillating electric field in air.\nIII. Sound waves travelling under water.\nWhich of these can be polarized?\n[AMU 2001]",
+    "questionText": "Consider the following:\nI. Waves created on the surfaces of a water pond by a vibrating source.\nII. Wave created by an oscillating electric field in air.\nIII. Sound waves travelling under water.\nWhich of these can be polarized?\n[NEET 2028 Expected]",
     "options": [
       "I and II",
       "II only",
@@ -1780,7 +1780,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "Mechanical waves on the surface of a liquid are:\n[SCRA 1996]",
+    "questionText": "Mechanical waves on the surface of a liquid are:\n[NEET 2029 Practice]",
     "options": [
       "Transverse",
       "Longitudinal",
@@ -1801,7 +1801,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "The ratio of densities of nitrogen and oxygen is $14:16$. The temperature at which the speed of sound in nitrogen will be same as that in oxygen at $55^\\circ\\text{C}$ is:\n[EAMCET (Engg.) 1999]",
+    "questionText": "The ratio of densities of nitrogen and oxygen is $14:16$. The temperature at which the speed of sound in nitrogen will be same as that in oxygen at $55^\\circ\\text{C}$ is:\n[NEET 2027 Target]",
     "options": [
       "$35^\\circ\\text{C}$",
       "$48^\\circ\\text{C}$",
@@ -1822,7 +1822,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "The intensity of sound increases at night due to:\n[CPMT 2000]",
+    "questionText": "The intensity of sound increases at night due to:\n[NEET 2028 Expected]",
     "options": [
       "Increase in density of air",
       "Decrease in density of air",
@@ -1843,7 +1843,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "A wave with wavelength $0.60\\text{ cm}$ is produced in air and it travels at a speed of $300\\text{ ms}^{-1}$. It will be an:\n[UPSEAT 2000]",
+    "questionText": "A wave with wavelength $0.60\\text{ cm}$ is produced in air and it travels at a speed of $300\\text{ ms}^{-1}$. It will be an:\n[NEET 2029 Practice]",
     "options": [
       "Audible wave",
       "Infrasonic wave",
@@ -1864,7 +1864,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "Speed of sound in mercury at a certain temperature is $1450\\text{ m/s}$. Given the density of mercury as $13.6 \\times 10^3\\text{ kg/m}^3$, the bulk modulus for mercury is:\n[JIPMER 2000]",
+    "questionText": "Speed of sound in mercury at a certain temperature is $1450\\text{ m/s}$. Given the density of mercury as $13.6 \\times 10^3\\text{ kg/m}^3$, the bulk modulus for mercury is:\n[NEET 2027 Target]",
     "options": [
       "$2.86 \\times 10^{10}\\text{ N/m}^2$",
       "$3.86 \\times 10^{10}\\text{ N/m}^2$",
@@ -1885,7 +1885,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "A microwave and an ultrasonic sound wave have the same wavelength. Their frequencies are in the ratio (approximately):\n[Kerala (Engg.) 2002]",
+    "questionText": "A microwave and an ultrasonic sound wave have the same wavelength. Their frequencies are in the ratio (approximately):\n[NEET 2028 Expected]",
     "options": [
       "$10^6 : 1$",
       "$10^4 : 1$",
@@ -1906,7 +1906,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "A point source emits sound equally in all directions in a non-absorbing medium. Two points P and Q are at distance of $2\\text{ m}$ and $3\\text{ m}$ respectively from the source. The ratio of the intensities of the waves at P and Q is:\n[CBSE PMT 2005]",
+    "questionText": "A point source emits sound equally in all directions in a non-absorbing medium. Two points P and Q are at distance of $2\\text{ m}$ and $3\\text{ m}$ respectively from the source. The ratio of the intensities of the waves at P and Q is:\n[NEET 2029 Practice]",
     "options": [
       "$9 : 4$",
       "$2 : 3$",
@@ -1927,7 +1927,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Medium",
-    "questionText": "A wave has velocity $u$ in medium P and velocity $2u$ in medium Q. If the wave is incident in medium P at an angle of $30^\\circ$ then the angle of refraction will be:\n[J & K CET 2005]",
+    "questionText": "A wave has velocity $u$ in medium P and velocity $2u$ in medium Q. If the wave is incident in medium P at an angle of $30^\\circ$ then the angle of refraction will be:\n[NEET 2027 Target]",
     "options": [
       "$30^\\circ$",
       "$45^\\circ$",
@@ -1948,7 +1948,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Hard",
-    "questionText": "An observer standing near the sea shore observes $54\\text{ waves per minute}$. If the wavelength of the water wave is $10\\text{ m}$ then the velocity of water wave is:\n[Kerala (Engg.) 2005]",
+    "questionText": "An observer standing near the sea shore observes $54\\text{ waves per minute}$. If the wavelength of the water wave is $10\\text{ m}$ then the velocity of water wave is:\n[NEET 2028 Expected]",
     "options": [
       "$540\\text{ ms}^{-1}$",
       "$5.4\\text{ ms}^{-1}$",
@@ -1969,7 +1969,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Basics of Mechanical Waves",
     "difficulty": "Easy",
-    "questionText": "An ultrasonic signal sent from SONAR returns to it after reflection from a rock after a lapse of $1\\text{ sec}$. If the velocity of ultrasound in water is $1600\\text{ ms}^{-1}$, the depth of the rock in water is:\n[JIPMER 2000]",
+    "questionText": "An ultrasonic signal sent from SONAR returns to it after reflection from a rock after a lapse of $1\\text{ sec}$. If the velocity of ultrasound in water is $1600\\text{ ms}^{-1}$, the depth of the rock in water is:\n[NEET 2029 Practice]",
     "options": [
       "$300\\text{ m}$",
       "$400\\text{ m}$",
@@ -1990,7 +1990,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a wave is $y = 2\\sin \\pi(0.5x - 200t)$, where $x$ and $y$ are expressed in $\\text{cm}$ and $t$ in $\\text{sec}$. The wave velocity is:\n[MP PMT 1986]",
+    "questionText": "The equation of a wave is $y = 2\\sin \\pi(0.5x - 200t)$, where $x$ and $y$ are expressed in $\\text{cm}$ and $t$ in $\\text{sec}$. The wave velocity is:\n[NEET 2027 Target]",
     "options": [
       "$100\\text{ cm/sec}$",
       "$200\\text{ cm/sec}$",
@@ -2032,7 +2032,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "A travelling wave passes a point of observation. At this point, the time interval between successive crests is $0.2\\text{ seconds}$ and:\n[MP PMT 1990]",
+    "questionText": "A travelling wave passes a point of observation. At this point, the time interval between successive crests is $0.2\\text{ seconds}$ and:\n[NEET 2028 Expected]",
     "options": [
       "The wavelength is $5\\text{ m}$",
       "The frequency is $5\\text{ Hz}$",
@@ -2053,7 +2053,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a transverse wave is given by $y = 10\\sin \\pi(0.01x - 2t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ is in $\\text{second}$. Its frequency is:\n[MP PET 1990; MNR 1986; RPET 2003]",
+    "questionText": "The equation of a transverse wave is given by $y = 10\\sin \\pi(0.01x - 2t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ is in $\\text{second}$. Its frequency is:\n[NEET 2029 Practice]",
     "options": [
       "$10\\text{ sec}^{-1}$",
       "$2\\text{ sec}^{-1}$",
@@ -2095,7 +2095,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "The equation of a wave travelling on a string is $y = 4\\sin \\pi\\left(8t - \\frac{x}{8}\\right)$, where $x, y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The velocity of the wave is:\n[MP PET 1990]",
+    "questionText": "The equation of a wave travelling on a string is $y = 4\\sin \\pi\\left(8t - \\frac{x}{8}\\right)$, where $x, y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The velocity of the wave is:\n[NEET 2027 Target]",
     "options": [
       "$64\\text{ cm/sec}$ in $-x$ direction",
       "$32\\text{ cm/sec}$ in $-x$ direction",
@@ -2116,7 +2116,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a progressive wave is given by $y = a\\sin(628t - 31.4x)$, where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The wavelength is:\n[CBSE PMT 1991]",
+    "questionText": "The equation of a progressive wave is given by $y = a\\sin(628t - 31.4x)$, where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The wavelength is:\n[NEET 2028 Expected]",
     "options": [
       "$0.2\\text{ cm}$",
       "$0.1\\text{ cm}$",
@@ -2137,7 +2137,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "Two waves are given by $y_1 = a\\sin(\\omega t + kx)$ and $y_2 = a\\cos(\\omega t + kx)$. The phase difference between the two waves is:\n[CPMT 1991]",
+    "questionText": "Two waves are given by $y_1 = a\\sin(\\omega t + kx)$ and $y_2 = a\\cos(\\omega t + kx)$. The phase difference between the two waves is:\n[NEET 2029 Practice]",
     "options": [
       "$\\pi/2$",
       "$\\pi$",
@@ -2158,7 +2158,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "If amplitude of waves at distance $r$ from a point source is $A$, then amplitude at distance $2r$ will be:\n[MP PMT 1991; CPMT 1993]",
+    "questionText": "If amplitude of waves at distance $r$ from a point source is $A$, then amplitude at distance $2r$ will be:\n[NEET 2027 Target]",
     "options": [
       "$2A$",
       "$A$",
@@ -2179,7 +2179,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The relation between time and displacement for two particles is given by $y_1 = 0.06\\sin\\left(2\\pi t + \\frac{\\pi}{4}\\right)$ and $y_2 = 0.03\\sin\\left(2\\pi t + \\frac{\\pi}{2}\\right)$. The ratio of the intensity of the waves produced by the vibrations of the two particles is:\n[UPSEAT 1993]",
+    "questionText": "The relation between time and displacement for two particles is given by $y_1 = 0.06\\sin\\left(2\\pi t + \\frac{\\pi}{4}\\right)$ and $y_2 = 0.03\\sin\\left(2\\pi t + \\frac{\\pi}{2}\\right)$. The ratio of the intensity of the waves produced by the vibrations of the two particles is:\n[NEET 2028 Expected]",
     "options": [
       "$2 : 1$",
       "$1 : 2$",
@@ -2200,7 +2200,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave is reflected from a rigid support. The change in phase on reflection is:\n[AFMC 1993; CPMT 2002; RPMT 2003]",
+    "questionText": "A wave is reflected from a rigid support. The change in phase on reflection is:\n[NEET 2029 Practice]",
     "options": [
       "$\\pi$",
       "$\\pi/2$",
@@ -2242,15 +2242,15 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The displacement $y$ (in $\\text{cm}$) produced by a simple harmonic wave is $y = \\frac{10}{\\pi}\\sin\\left(2000\\pi t - \\frac{\\pi x}{17}\\right)$. The periodic time and maximum velocity of the particles in the medium will respectively be:\n[CPMT 1986, 88]",
+    "questionText": "The displacement $y$ (in $\\text{cm}$) produced by a simple harmonic wave is $y = \\frac{10}{\\pi}\\sin\\left(2000\\pi t - \\frac{\\pi x}{17}\\right)$. The periodic time and maximum velocity of the particles in the medium will respectively be:\n[NEET 2027 Target]",
     "options": [
       "$10^{-3}\\text{ sec and } 330\\text{ m/s}$",
       "$10^{-4}\\text{ sec and } 20\\text{ m/s}$",
       "$10^{-3}\\text{ sec and } 200\\text{ m/s}$",
-      "$10^{-2}\\text{ sec and } 2000\\text{ m/s}$"
+      "NEET 2028 Expected"
     ],
     "correctAnswer": 2,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n• Period $T = \\frac{2\\pi}{\\omega}$\n• Maximum particle velocity $v_{\\max} = \\omega A$\n\n⚡ **Step-by-Step Derivation & Calculations:**\n• $\\omega = 2000\\pi\\text{ rad/s} \\implies T = \\frac{2\\pi}{2000\\pi} = 10^{-3}\\text{ sec}$\n• $A = \\frac{10}{\\pi}\\text{ cm} = \\frac{0.1}{\\pi}\\text{ m}$\n• $v_{\\max} = \\omega A = 2000\\pi \\times \\frac{0.1}{\\pi} = 200\\text{ m/s}$\n\n✓ **Examiner Pro-Tip:**\n$T = 10^{-3}\\text{ s}$, $v_{\\max} = 200\\text{ m/s}$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -2263,7 +2263,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of a wave travelling in a string can be written as $y = 3\\cos \\pi(100t - x)$. Its wavelength is:\n[MNR 1985; CPMT 1991; MP PMT 1994, 97; Pb. PET 2004]",
+    "questionText": "The equation of a wave travelling in a string can be written as $y = 3\\cos \\pi(100t - x)$. Its wavelength is:\n[NEET 2027 Target]",
     "options": [
       "$100\\text{ cm}$",
       "$2\\text{ cm}$",
@@ -2284,7 +2284,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A transverse wave is described by the equation $y = y_0 \\sin 2\\pi \\left(ft - \\frac{x}{\\lambda}\\right)$. The maximum particle velocity is four times the wave velocity if:\n[IIT 1984; MP PMT 1997; EAMCET 1998; CBSE PMT 2000; AFMC 2000; KCET 1999, 04]",
+    "questionText": "A transverse wave is described by the equation $y = y_0 \\sin 2\\pi \\left(ft - \\frac{x}{\\lambda}\\right)$. The maximum particle velocity is four times the wave velocity if:\n[NEET 2028 Expected]",
     "options": [
       "$\\lambda = \\frac{\\pi y_0}{4}$",
       "$\\lambda = \\frac{\\pi y_0}{2}$",
@@ -2297,7 +2297,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "IIT"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2306,7 +2306,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave equation which gives the displacement along the Y direction is given by $y = 10^{-4}\\sin(60t + 2x)$, where $x$ and $y$ are in metres and $t$ is time in seconds. This represents a wave:\n[MNR 1983; IIT 1982; RPMT 1998; MP PET 2001]",
+    "questionText": "A wave equation which gives the displacement along the Y direction is given by $y = 10^{-4}\\sin(60t + 2x)$, where $x$ and $y$ are in metres and $t$ is time in seconds. This represents a wave:\n[NEET 2027 Target]",
     "options": [
       "Travelling with a velocity of $30\\text{ m/sec}$ in the negative X direction",
       "Of wavelength $\\pi\\text{ metre}$",
@@ -2327,7 +2327,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A transverse wave of amplitude $0.5\\text{ m}$ and wavelength $1\\text{ m}$ and frequency $2\\text{ Hz}$ is propagating in a string in the negative x-direction. The expression for this wave is:\n[AIIMS 1980]",
+    "questionText": "A transverse wave of amplitude $0.5\\text{ m}$ and wavelength $1\\text{ m}$ and frequency $2\\text{ Hz}$ is propagating in a string in the negative x-direction. The expression for this wave is:\n[NEET 2028 Expected]",
     "options": [
       "$y(x, t) = 0.5\\sin(2\\pi x - 4\\pi t)$",
       "$y(x, t) = 0.5\\cos(2\\pi x + 4\\pi t)$",
@@ -2348,7 +2348,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "The displacement of a particle is given by $y = 5 \\times 10^{-4}\\sin(100t - 50x)$, where $x$ is in meter and $t$ in sec. Find out the velocity of the wave:\n[CPMT 1982]",
+    "questionText": "The displacement of a particle is given by $y = 5 \\times 10^{-4}\\sin(100t - 50x)$, where $x$ is in meter and $t$ in sec. Find out the velocity of the wave:\n[NEET 2029 Practice]",
     "options": [
       "$5000\\text{ m/sec}$",
       "$2\\text{ m/sec}$",
@@ -2369,7 +2369,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "Which one of the following does not represent a travelling wave?\n[NCERT 1984]",
+    "questionText": "Which one of the following does not represent a travelling wave?\n[NEET 2027 Target]",
     "options": [
       "$y = y_m \\sin(x - vt)$",
       "$y = y_m \\sin k(x + vt)$",
@@ -2391,7 +2391,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave represented by $y = A\\sin\\left(10\\pi x + 15\\pi t + \\frac{\\pi}{3}\\right)$, where $x$ is in meter and $t$ is in second, represents:\n[IIT 1990]",
+    "questionText": "A wave represented by $y = A\\sin\\left(10\\pi x + 15\\pi t + \\frac{\\pi}{3}\\right)$, where $x$ is in meter and $t$ is in second, represents:\n[NEET 2028 Expected]",
     "options": [
       "A wave travelling in positive X direction with velocity $1.5\\text{ m/s}$",
       "A wave travelling in negative X direction with velocity $1.5\\text{ m/s}$",
@@ -2404,7 +2404,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "IIT"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -2413,7 +2413,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "A plane wave is described by the equation $y = 3\\cos\\left(\\frac{x}{4} - 10t - \\frac{\\pi}{2}\\right)$. The maximum velocity of the particles of the medium due to this wave is:\n[MP PMT 1994]",
+    "questionText": "A plane wave is described by the equation $y = 3\\cos\\left(\\frac{x}{4} - 10t - \\frac{\\pi}{2}\\right)$. The maximum velocity of the particles of the medium due to this wave is:\n[NEET 2027 Target]",
     "options": [
       "$30$",
       "$3\\pi/2$",
@@ -2434,7 +2434,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The path difference between the two waves $y_1 = a_1 \\sin\\left(\\omega t - \\frac{2\\pi x}{\\lambda}\\right)$ and $y_2 = a_2 \\cos\\left(\\omega t - \\frac{2\\pi x}{\\lambda} + \\phi\\right)$ is:\n[MP PMT 1994]",
+    "questionText": "The path difference between the two waves $y_1 = a_1 \\sin\\left(\\omega t - \\frac{2\\pi x}{\\lambda}\\right)$ and $y_2 = a_2 \\cos\\left(\\omega t - \\frac{2\\pi x}{\\lambda} + \\phi\\right)$ is:\n[NEET 2028 Expected]",
     "options": [
       "$\\frac{\\lambda}{2\\pi}\\phi$",
       "$\\frac{\\lambda}{2\\pi}\\left(\\phi + \\frac{\\pi}{2}\\right)$",
@@ -2455,7 +2455,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "Wave equations of two particles are given by $y_1 = a\\sin(\\omega t - kx)$ and $y_2 = a\\sin(kx + \\omega t)$, then:\n[BHU 1995]",
+    "questionText": "Wave equations of two particles are given by $y_1 = a\\sin(\\omega t - kx)$ and $y_2 = a\\sin(kx + \\omega t)$, then:\n[NEET 2029 Practice]",
     "options": [
       "They are moving in opposite direction",
       "Phase between them is $90^\\circ$",
@@ -2476,7 +2476,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave is represented by the equation $y = 0.5\\sin(10t - x)\\text{ m}$. It is a travelling wave propagating along the $+x$ direction with velocity:\n[Roorkee 1995]",
+    "questionText": "A wave is represented by the equation $y = 0.5\\sin(10t - x)\\text{ m}$. It is a travelling wave propagating along the $+x$ direction with velocity:\n[NEET 2027 Target]",
     "options": [
       "$10\\text{ m/s}$",
       "$20\\text{ m/s}$",
@@ -2497,7 +2497,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "A wave is represented by the equation $y = 7\\sin\\left(7\\pi t - 0.04\\pi x + \\frac{\\pi}{3}\\right)$ where $x$ is in metres and $t$ is in seconds. The speed of the wave is:\n[MP PET 1996; AMU (Engg.) 1999]",
+    "questionText": "A wave is represented by the equation $y = 7\\sin\\left(7\\pi t - 0.04\\pi x + \\frac{\\pi}{3}\\right)$ where $x$ is in metres and $t$ is in seconds. The speed of the wave is:\n[NEET 2028 Expected]",
     "options": [
       "$175\\text{ m/sec}$",
       "$49\\pi\\text{ m/sec}$",
@@ -2518,7 +2518,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of a transverse wave travelling on a rope is given by $y = 10\\sin \\pi(0.01x - 2.00t)$ where $y$ and $x$ are in $\\text{cm}$ and $t$ in seconds. The maximum transverse speed of a particle in the rope is about:\n[MP PET 1999; AIIMS 2000]",
+    "questionText": "The equation of a transverse wave travelling on a rope is given by $y = 10\\sin \\pi(0.01x - 2.00t)$ where $y$ and $x$ are in $\\text{cm}$ and $t$ in seconds. The maximum transverse speed of a particle in the rope is about:\n[NEET 2029 Practice]",
     "options": [
       "$63\\text{ cm/s}$",
       "$75\\text{ cm/s}$",
@@ -2539,7 +2539,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "As a wave propagates:\n[IIT-JEE 1999]",
+    "questionText": "As a wave propagates:\n[NEET 2027 Target]",
     "options": [
       "The wave intensity remains constant for a plane wave",
       "The wave intensity decreases as the inverse of the distance from the source for a spherical wave",
@@ -2552,7 +2552,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "IIT"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2561,7 +2561,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "A transverse wave is represented by the equation $y = y_0 \\sin \\frac{2\\pi}{\\lambda}(vt - x)$. For what value of $\\lambda$, the maximum particle velocity is equal to two times the wave velocity?\n[CBSE PMT 1998; JIPMER 2001, 02; AFMC 2002]",
+    "questionText": "A transverse wave is represented by the equation $y = y_0 \\sin \\frac{2\\pi}{\\lambda}(vt - x)$. For what value of $\\lambda$, the maximum particle velocity is equal to two times the wave velocity?\n[NEET 2029 Practice]",
     "options": [
       "$\\lambda = 2\\pi y_0$",
       "$\\lambda = \\pi y_0 / 3$",
@@ -2582,7 +2582,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A travelling wave in a stretched string is described by the equation $y = A\\sin(kx - \\omega t)$. The maximum particle velocity is:\n[IIT 1997 Re-Exam; UPSEAT 2004]",
+    "questionText": "A travelling wave in a stretched string is described by the equation $y = A\\sin(kx - \\omega t)$. The maximum particle velocity is:\n[NEET 2027 Target]",
     "options": [
       "$A\\omega$",
       "$\\omega/k$",
@@ -2595,7 +2595,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "IIT"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -2604,7 +2604,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "A wave travels in a medium according to the equation of displacement given by $y(x, t) = 0.03\\sin \\pi(2t - 0.01x)$ where $y$ and $x$ are in metres and $t$ in seconds. The wavelength of the wave is:\n[EAMCET 1994; CPMT 2004]",
+    "questionText": "A wave travels in a medium according to the equation of displacement given by $y(x, t) = 0.03\\sin \\pi(2t - 0.01x)$ where $y$ and $x$ are in metres and $t$ in seconds. The wavelength of the wave is:\n[NEET 2029 Practice]",
     "options": [
       "$200\\text{ m}$",
       "$100\\text{ m}$",
@@ -2625,7 +2625,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The particles of a medium vibrate about their mean positions whenever a wave travels through that medium. The phase difference between the vibrations of two such particles:\n[SCRA 1994]",
+    "questionText": "The particles of a medium vibrate about their mean positions whenever a wave travels through that medium. The phase difference between the vibrations of two such particles:\n[NEET 2027 Target]",
     "options": [
       "Varies with time",
       "Varies with distance separating them",
@@ -2646,7 +2646,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave is given by $y = 3\\sin 2\\pi \\left(\\frac{t}{0.04} - \\frac{x}{0.01}\\right)$, where $y$ is in $\\text{cm}$. Frequency of wave and maximum acceleration of particle will be:\n[RPET 1997]",
+    "questionText": "A wave is given by $y = 3\\sin 2\\pi \\left(\\frac{t}{0.04} - \\frac{x}{0.01}\\right)$, where $y$ is in $\\text{cm}$. Frequency of wave and maximum acceleration of particle will be:\n[NEET 2028 Expected]",
     "options": [
       "$100\\text{ Hz}, 4.7 \\times 10^3\\text{ cm/s}^2$",
       "$50\\text{ Hz}, 7.5 \\times 10^3\\text{ cm/s}^2$",
@@ -2667,7 +2667,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "Equation of a progressive wave is given by $y = 4\\sin\\left\\{\\pi\\left(\\frac{t}{5} - \\frac{x}{9}\\right) + \\frac{\\pi}{6}\\right\\}$. Then which of the following is correct?\n[CBSE PMT 1993]",
+    "questionText": "Equation of a progressive wave is given by $y = 4\\sin\\left\\{\\pi\\left(\\frac{t}{5} - \\frac{x}{9}\\right) + \\frac{\\pi}{6}\\right\\}$. Then which of the following is correct?\n[NEET 2029 Practice]",
     "options": [
       "$v = 5\\text{ m/sec}$",
       "$\\lambda = 18\\text{ m}$",
@@ -2688,7 +2688,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "With the propagation of a longitudinal wave through a material medium, the quantities transmitted in the propagation direction are:\n[CBSE PMT 1992; Roorkee 2000]",
+    "questionText": "With the propagation of a longitudinal wave through a material medium, the quantities transmitted in the propagation direction are:\n[NEET 2027 Target]",
     "options": [
       "Energy, momentum and mass",
       "Energy",
@@ -2709,15 +2709,15 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The frequency of the sinusoidal wave $y = 0.40\\cos[2000t + 0.80x]$ would be:\n[CBSE PMT 1992]",
+    "questionText": "The frequency of the sinusoidal wave $y = 0.40\\cos[NEET 2028 Expected]$ would be:\n[NEET 2029 Practice]",
     "options": [
       "$1000\\pi\\text{ Hz}$",
-      "$2000\\text{ Hz}$",
+      "NEET 2027 Target",
       "$20\\text{ Hz}$",
       "$\\frac{1000}{\\pi}\\text{ Hz}$"
     ],
     "correctAnswer": 3,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n$$\\omega = 2\\pi f \\implies f = \\frac{\\omega}{2\\pi}$$\n\n⚡ **Step-by-Step Derivation & Calculations:**\n• $\\omega = 2000\\text{ rad/s}$\n$$f = \\frac{2000}{2\\pi} = \\frac{1000}{\\pi}\\text{ Hz}$$\n\n✓ **Examiner Pro-Tip:**\n$f = \\frac{1000}{\\pi}\\text{ Hz}$.",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -2730,7 +2730,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "Which of the following equations represents a wave?\n[CBSE PMT 1994; JIPMER 2000]",
+    "questionText": "Which of the following equations represents a wave?\n[NEET 2029 Practice]",
     "options": [
       "$Y = A(\\omega t - kx)$",
       "$Y = A\\sin \\omega t$",
@@ -2751,7 +2751,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a transverse wave is given by $y = 100\\sin \\pi(0.04z - 2t)$ where $y$ and $z$ are in $\\text{cm}$ and $t$ is in seconds. The frequency of the wave in $\\text{Hz}$ is:\n[SCRA 1998]",
+    "questionText": "The equation of a transverse wave is given by $y = 100\\sin \\pi(0.04z - 2t)$ where $y$ and $z$ are in $\\text{cm}$ and $t$ is in seconds. The frequency of the wave in $\\text{Hz}$ is:\n[NEET 2027 Target]",
     "options": [
       "$1$",
       "$2$",
@@ -2772,7 +2772,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of a plane progressive wave is given by $y = 0.025\\sin(100t + 0.25x)$. The frequency of this wave would be:\n[CPMT 1993; JIPMER 2001, 02]",
+    "questionText": "The equation of a plane progressive wave is given by $y = 0.025\\sin(100t + 0.25x)$. The frequency of this wave would be:\n[NEET 2028 Expected]",
     "options": [
       "$\\frac{50}{\\pi}\\text{ Hz}$",
       "$\\frac{100}{\\pi}\\text{ Hz}$",
@@ -2793,7 +2793,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of a sound wave is $y = 0.0015\\sin(62.4x + 316t)$. The wavelength of this wave is:\n[CBSE PMT 1996; AFMC 2002; AIIMS 2002]",
+    "questionText": "The equation of a sound wave is $y = 0.0015\\sin(62.4x + 316t)$. The wavelength of this wave is:\n[NEET 2029 Practice]",
     "options": [
       "$0.2\\text{ unit}$",
       "$0.1\\text{ unit}$",
@@ -2814,7 +2814,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "In the given progressive wave equation, what is the maximum velocity of particle? $Y = 0.5\\sin(10\\pi t - 5x)\\text{ cm}$:\n[BHU 1997]",
+    "questionText": "In the given progressive wave equation, what is the maximum velocity of particle? $Y = 0.5\\sin(10\\pi t - 5x)\\text{ cm}$:\n[NEET 2027 Target]",
     "options": [
       "$5\\text{ cm/s}$",
       "$5\\pi\\text{ cm/s}$",
@@ -2835,7 +2835,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A pulse or a wave train travels along a stretched string and reaches the fixed end of the string. It will be reflected with:\n[CPMT 1997]",
+    "questionText": "A pulse or a wave train travels along a stretched string and reaches the fixed end of the string. It will be reflected with:\n[NEET 2028 Expected]",
     "options": [
       "A phase change of $180^\\circ$ with no change in velocity",
       "The same phase as the incident wave with no change in velocity",
@@ -2856,7 +2856,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "The equation of a travelling wave is $y = 60\\cos(1800t - 6x)$ where $y$ is in microns, $t$ in seconds and $x$ in metres. The ratio of maximum particle velocity to wave velocity is:\n[CBSE PMT 1997; Pb. PMT 2003]",
+    "questionText": "The equation of a travelling wave is $y = 60\\cos(1800t - 6x)$ where $y$ is in microns, $t$ in seconds and $x$ in metres. The ratio of maximum particle velocity to wave velocity is:\n[NEET 2029 Practice]",
     "options": [
       "$3.6 \\times 10^{-11}$",
       "$3.6 \\times 10^{-6}$",
@@ -2877,7 +2877,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The wave equation is $y = 0.30\\sin(314t - 1.57x)$ where $t, x$ and $y$ are in second, meter and centimeter respectively. The speed of the wave is:\n[CPMT 1998]",
+    "questionText": "The wave equation is $y = 0.30\\sin(314t - 1.57x)$ where $t, x$ and $y$ are in second, meter and centimeter respectively. The speed of the wave is:\n[NEET 2027 Target]",
     "options": [
       "$100\\text{ m/s}$",
       "$200\\text{ m/s}$",
@@ -2919,7 +2919,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "Progressive wave of sound is represented by $y = a\\sin[400\\pi t - \\pi x / 6.85]$ where $x$ is in $\\text{m}$ and $t$ in $\\text{s}$. Frequency and velocity of the wave will be:\n[RPMT 1999]",
+    "questionText": "Progressive wave of sound is represented by $y = a\\sin[400\\pi t - \\pi x / 6.85]$ where $x$ is in $\\text{m}$ and $t$ in $\\text{s}$. Frequency and velocity of the wave will be:\n[NEET 2028 Expected]",
     "options": [
       "$200\\text{ Hz}, 1370\\text{ m/s}$",
       "$100\\text{ Hz}, 1370\\text{ m/s}$",
@@ -2940,7 +2940,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "Two waves of frequencies $20\\text{ Hz}$ and $30\\text{ Hz}$ travel out from a common point. The phase difference between them after $0.1\\text{ sec}$ is:\n[UPSEAT 1999]",
+    "questionText": "Two waves of frequencies $20\\text{ Hz}$ and $30\\text{ Hz}$ travel out from a common point. The phase difference between them after $0.1\\text{ sec}$ is:\n[NEET 2029 Practice]",
     "options": [
       "$\\pi$",
       "$2\\pi$",
@@ -2961,7 +2961,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The phase difference between two points separated by $0.8\\text{ m}$ in a wave of frequency $120\\text{ Hz}$ is $\\pi/2$. The velocity of wave is:\n[Pb. PET 2000]",
+    "questionText": "The phase difference between two points separated by $0.8\\text{ m}$ in a wave of frequency $120\\text{ Hz}$ is $\\pi/2$. The velocity of wave is:\n[NEET 2027 Target]",
     "options": [
       "$720\\text{ m/s}$",
       "$384\\text{ m/s}$",
@@ -2982,7 +2982,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "The equation of progressive wave is $y = 0.2\\sin 2\\pi \\left(\\frac{t}{0.01} - \\frac{x}{0.3}\\right)$, where $x$ and $y$ are in meter and $t$ is in second. The velocity of propagation of the wave is:\n[CBSE PMT 1997; JIPMER 2000; UPSEAT 2003]",
+    "questionText": "The equation of progressive wave is $y = 0.2\\sin 2\\pi \\left(\\frac{t}{0.01} - \\frac{x}{0.3}\\right)$, where $x$ and $y$ are in meter and $t$ is in second. The velocity of propagation of the wave is:\n[NEET 2028 Expected]",
     "options": [
       "$30\\text{ m/s}$",
       "$40\\text{ m/s}$",
@@ -3003,7 +3003,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "If the equation of transverse wave is $y = 5\\sin 2\\pi\\left(\\frac{t}{0.04} - \\frac{x}{40}\\right)$, where distance is in $\\text{cm}$ and time in $\\text{second}$, then the wavelength of wave is:\n[RPMT 2000]",
+    "questionText": "If the equation of transverse wave is $y = 5\\sin 2\\pi\\left(\\frac{t}{0.04} - \\frac{x}{40}\\right)$, where distance is in $\\text{cm}$ and time in $\\text{second}$, then the wavelength of wave is:\n[NEET 2029 Practice]",
     "options": [
       "$60\\text{ cm}$",
       "$40\\text{ cm}$",
@@ -3024,7 +3024,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave is represented by the equation $y = 7\\sin\\{\\pi(2t - 2x)\\}$ where $x$ is in metres and $t$ in seconds. The velocity of the wave is:\n[CPMT 2000; CBSE PMT 2000; Pb. PET 2000]",
+    "questionText": "A wave is represented by the equation $y = 7\\sin\\{\\pi(2t - 2x)\\}$ where $x$ is in metres and $t$ in seconds. The velocity of the wave is:\n[NEET 2027 Target]",
     "options": [
       "$1\\text{ m/s}$",
       "$2\\text{ m/s}$",
@@ -3045,7 +3045,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "A simple harmonic progressive wave is represented by the equation $y = 8\\sin 2\\pi(0.1x - 2t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ is in seconds. At any instant the phase difference between two particles separated by $2.0\\text{ cm}$ in the $x$-direction is:\n[MP PMT 2000]",
+    "questionText": "A simple harmonic progressive wave is represented by the equation $y = 8\\sin 2\\pi(0.1x - 2t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ is in seconds. At any instant the phase difference between two particles separated by $2.0\\text{ cm}$ in the $x$-direction is:\n[NEET 2028 Expected]",
     "options": [
       "$18^\\circ$",
       "$36^\\circ$",
@@ -3066,7 +3066,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The intensity of a progressing plane wave in loss-free medium is:\n[Roorkee 2000]",
+    "questionText": "The intensity of a progressing plane wave in loss-free medium is:\n[NEET 2029 Practice]",
     "options": [
       "Directly proportional to the square of amplitude",
       "Inversely proportional to the distance from the source",
@@ -3087,7 +3087,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of progressive wave is $y = 0.05\\sin(200t - x/2)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The velocity of propagation of the wave is:\n[KCET 2000]",
+    "questionText": "The equation of progressive wave is $y = 0.05\\sin(200t - x/2)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The velocity of propagation of the wave is:\n[NEET 2027 Target]",
     "options": [
       "$100\\text{ cm/s}$",
       "$200\\text{ cm/s}$",
@@ -3129,7 +3129,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a longitudinal wave is represented as $y = 20\\cos \\pi(50t - x)$. Its wavelength is:\n[UPSEAT 2001; Orissa PMT 2004]",
+    "questionText": "The equation of a longitudinal wave is represented as $y = 20\\cos \\pi(50t - x)$. Its wavelength is:\n[NEET 2028 Expected]",
     "options": [
       "$5\\text{ cm}$",
       "$2\\text{ cm}$",
@@ -3150,7 +3150,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave equation which gives the displacement along $y$-direction is given by $y = 0.001\\sin(100t + x)$ where $x$ and $y$ are in meter and $t$ is time in second. This represents a wave:\n[UPSEAT 2001]",
+    "questionText": "A wave equation which gives the displacement along $y$-direction is given by $y = 0.001\\sin(100t + x)$ where $x$ and $y$ are in meter and $t$ is time in second. This represents a wave:\n[NEET 2029 Practice]",
     "options": [
       "Of frequency $\\frac{100}{\\pi}\\text{ Hz}$",
       "Of wavelength one metre",
@@ -3171,7 +3171,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "A transverse wave is given by $y = A\\sin 2\\pi \\left(\\frac{t}{T} - \\frac{x}{\\lambda}\\right)$. The maximum particle velocity is equal to $4\\text{ times}$ the wave velocity when:\n[MP PMT 2001]",
+    "questionText": "A transverse wave is given by $y = A\\sin 2\\pi \\left(\\frac{t}{T} - \\frac{x}{\\lambda}\\right)$. The maximum particle velocity is equal to $4\\text{ times}$ the wave velocity when:\n[NEET 2027 Target]",
     "options": [
       "$\\lambda = 2\\pi A$",
       "$\\lambda = \\frac{1}{2}\\pi A$",
@@ -3192,7 +3192,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a wave is represented by $y = 10^{-4}\\sin[100t - 10x]$. The velocity of the wave will be:\n[CBSE PMT 2001]",
+    "questionText": "The equation of a wave is represented by $y = 10^{-4}\\sin[100t - 10x]$. The velocity of the wave will be:\n[NEET 2028 Expected]",
     "options": [
       "$100\\text{ m/s}$",
       "$250\\text{ m/s}$",
@@ -3213,7 +3213,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A wave travelling in positive X-direction with $A = 0.2\\text{ m}$ has a velocity of $360\\text{ m/sec}$. If $\\lambda = 60\\text{ m}$, then correct expression for the wave is:\n[CBSE PMT 2002; KCET 2003]",
+    "questionText": "A wave travelling in positive X-direction with $A = 0.2\\text{ m}$ has a velocity of $360\\text{ m/sec}$. If $\\lambda = 60\\text{ m}$, then correct expression for the wave is:\n[NEET 2029 Practice]",
     "options": [
       "$y = 0.2\\sin 2\\pi \\left(6t + \\frac{x}{60}\\right)$",
       "$y = 0.2\\sin \\pi \\left(6t + \\frac{x}{60}\\right)$",
@@ -3234,7 +3234,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "The equation of a wave motion (with $t$ in seconds and $x$ in metres) is given by $y = 7\\sin[7\\pi t - 0.4\\pi x + \\pi/3]$. The velocity of the wave will be:\n[BHU 2002]",
+    "questionText": "The equation of a wave motion (with $t$ in seconds and $x$ in metres) is given by $y = 7\\sin[7\\pi t - 0.4\\pi x + \\pi/3]$. The velocity of the wave will be:\n[NEET 2027 Target]",
     "options": [
       "$17.5\\text{ m/s}$",
       "$49\\pi\\text{ m/s}$",
@@ -3255,7 +3255,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "Two waves represented by the following equations are travelling in the same medium: $y_1 = 5\\sin 2\\pi(75t - 0.25x)$, $y_2 = 10\\sin 2\\pi(150t - 0.50x)$. The intensity ratio $I_1 / I_2$ of the two waves is:\n[UPSEAT 2002]",
+    "questionText": "Two waves represented by the following equations are travelling in the same medium: $y_1 = 5\\sin 2\\pi(75t - 0.25x)$, $y_2 = 10\\sin 2\\pi(150t - 0.50x)$. The intensity ratio $I_1 / I_2$ of the two waves is:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$1 : 4$",
@@ -3276,7 +3276,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of a progressive wave is $y = 8\\sin\\left[10\\pi\\left(t - \\frac{x}{4}\\right) + \\frac{\\pi}{3}\\right]$. The wavelength of the wave is:\n[MH CET 2002]",
+    "questionText": "The equation of a progressive wave is $y = 8\\sin\\left[10\\pi\\left(t - \\frac{x}{4}\\right) + \\frac{\\pi}{3}\\right]$. The wavelength of the wave is:\n[NEET 2029 Practice]",
     "options": [
       "$8\\text{ m}$",
       "$4\\text{ m}$",
@@ -3297,7 +3297,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "Which of the following is not true for the progressive wave $y = 4\\sin 2\\pi\\left(\\frac{t}{0.02} - \\frac{x}{100}\\right)$ where $y$ and $x$ are in $\\text{cm}$ & $t$ in $\\text{sec}$?\n[CPMT 2003]",
+    "questionText": "Which of the following is not true for the progressive wave $y = 4\\sin 2\\pi\\left(\\frac{t}{0.02} - \\frac{x}{100}\\right)$ where $y$ and $x$ are in $\\text{cm}$ & $t$ in $\\text{sec}$?\n[NEET 2027 Target]",
     "options": [
       "Its amplitude is $4\\text{ cm}$",
       "Its wavelength is $100\\text{ cm}$",
@@ -3318,7 +3318,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a wave is given as $y = 0.07\\sin(12\\pi x - 3000\\pi t)$ where $x$ is in metre and $t$ in sec. The correct statement is:\n[UPSEAT 2003]",
+    "questionText": "The equation of a wave is given as $y = 0.07\\sin(12\\pi x - 3000\\pi t)$ where $x$ is in metre and $t$ in sec. The correct statement is:\n[NEET 2028 Expected]",
     "options": [
       "$\\lambda = 1/6\\text{ m}, v = 250\\text{ m/s}$",
       "$a = 0.07\\text{ m}, v = 300\\text{ m/s}$",
@@ -3339,7 +3339,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of the propagating wave is $y = 25\\sin(20t + 5x)$ where $y$ is displacement. Which of the following statements is not true?\n[MP PET 2003]",
+    "questionText": "The equation of the propagating wave is $y = 25\\sin(20t + 5x)$ where $y$ is displacement. Which of the following statements is not true?\n[NEET 2029 Practice]",
     "options": [
       "The amplitude of the wave is $25\\text{ units}$",
       "The wave is propagating in positive $x$-direction",
@@ -3360,7 +3360,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "In a plane progressive wave given by $y = 25\\cos(2\\pi t - \\pi x)$, the amplitude and frequency are respectively:\n[BCECE 2003]",
+    "questionText": "In a plane progressive wave given by $y = 25\\cos(2\\pi t - \\pi x)$, the amplitude and frequency are respectively:\n[NEET 2027 Target]",
     "options": [
       "$25, 100$",
       "$25, 1$",
@@ -3381,7 +3381,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The displacement $y$ of a wave travelling in the x-direction is given by $y = 10^{-4}\\sin\\left(600t - 2x + \\frac{\\pi}{3}\\right)\\text{ metres}$, where $x$ is in metres and $t$ in seconds. The speed of the wave-motion, in $\\text{ms}^{-1}$, is:\n[AIEEE 2003]",
+    "questionText": "The displacement $y$ of a wave travelling in the x-direction is given by $y = 10^{-4}\\sin\\left(600t - 2x + \\frac{\\pi}{3}\\right)\\text{ metres}$, where $x$ is in metres and $t$ in seconds. The speed of the wave-motion, in $\\text{ms}^{-1}$, is:\n[NEET 2028 Expected]",
     "options": [
       "$200$",
       "$300$",
@@ -3394,7 +3394,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "AIEEE"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3403,9 +3403,9 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The displacement $y$ of a particle in a medium can be expressed as $y = 10^{-6}\\sin\\left(100t + 20x + \\frac{\\pi}{4}\\right)\\text{ m}$ where $t$ is in second and $x$ in meter. The speed of wave is:\n[AIEEE 2004]",
+    "questionText": "The displacement $y$ of a particle in a medium can be expressed as $y = 10^{-6}\\sin\\left(100t + 20x + \\frac{\\pi}{4}\\right)\\text{ m}$ where $t$ is in second and $x$ in meter. The speed of wave is:\n[NEET 2027 Target]",
     "options": [
-      "$2000\\text{ m/s}$",
+      "NEET 2028 Expected",
       "$5\\text{ m/s}$",
       "$20\\text{ m/s}$",
       "$5\\pi\\text{ m/s}$"
@@ -3416,7 +3416,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "AIEEE"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -3425,7 +3425,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "If the wave equation is $y = 0.08\\sin\\frac{2\\pi}{\\lambda}(200t - x)$, then the velocity of the wave will be:\n[BCECE 2004]",
+    "questionText": "If the wave equation is $y = 0.08\\sin\\frac{2\\pi}{\\lambda}(200t - x)$, then the velocity of the wave will be:\n[NEET 2027 Target]",
     "options": [
       "$400\\text{ m/s}$",
       "$200\\text{ m/s}$",
@@ -3446,7 +3446,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "The phase difference between two points separated by $0.8\\text{ m}$ in a wave of frequency $120\\text{ Hz}$ is $\\pi/2$. The velocity of wave is:\n[Pb. PET 2000]",
+    "questionText": "The phase difference between two points separated by $0.8\\text{ m}$ in a wave of frequency $120\\text{ Hz}$ is $\\pi/2$. The velocity of wave is:\n[NEET 2028 Expected]",
     "options": [
       "$720\\text{ m/s}$",
       "$384\\text{ m/s}$",
@@ -3467,7 +3467,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A plane progressive wave is represented by the equation $y = 0.1\\sin\\left(200\\pi t - \\frac{20\\pi x}{17}\\right)$ where $y$ is displacement in $\\text{m}$, $t$ in second and $x$ is distance in meter. The frequency, wavelength and speed of the wave respectively are:\n[Pb. PET 2001]",
+    "questionText": "A plane progressive wave is represented by the equation $y = 0.1\\sin\\left(200\\pi t - \\frac{20\\pi x}{17}\\right)$ where $y$ is displacement in $\\text{m}$, $t$ in second and $x$ is distance in meter. The frequency, wavelength and speed of the wave respectively are:\n[NEET 2029 Practice]",
     "options": [
       "$100\\text{ Hz}, 1.7\\text{ m}, 170\\text{ m/s}$",
       "$150\\text{ Hz}, 2.4\\text{ m}, 200\\text{ m/s}$",
@@ -3488,7 +3488,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "The equation of a travelling wave is given by $y = 0.5\\sin(20x - 400t)$ where $x$ and $y$ are in meter and $t$ is in second. The velocity of the wave is:\n[UPSEAT 2004]",
+    "questionText": "The equation of a travelling wave is given by $y = 0.5\\sin(20x - 400t)$ where $x$ and $y$ are in meter and $t$ is in second. The velocity of the wave is:\n[NEET 2027 Target]",
     "options": [
       "$10\\text{ m/s}$",
       "$20\\text{ m/s}$",
@@ -3509,7 +3509,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "A transverse progressive wave on a stretched string has a velocity of $10\\text{ ms}^{-1}$ and a frequency of $100\\text{ Hz}$. The phase difference between two particles of the string which are $2.5\\text{ cm}$ apart will be:\n[MP PMT 1994]",
+    "questionText": "A transverse progressive wave on a stretched string has a velocity of $10\\text{ ms}^{-1}$ and a frequency of $100\\text{ Hz}$. The phase difference between two particles of the string which are $2.5\\text{ cm}$ apart will be:\n[NEET 2028 Expected]",
     "options": [
       "$\\pi/8$",
       "$\\pi/4$",
@@ -3530,7 +3530,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "A transverse sinusoidal wave of amplitude $a$, wavelength $\\lambda$ and frequency $n$ is travelling on a stretched string. The maximum speed of any point on the string is $v/10$, where $v$ is the speed of propagation of the wave. If $a = 10^{-3}\\text{ m}$ and $v = 10\\text{ ms}^{-1}$, then $\\lambda$ and $n$ are given by:\n[IIT 1998]",
+    "questionText": "A transverse sinusoidal wave of amplitude $a$, wavelength $\\lambda$ and frequency $n$ is travelling on a stretched string. The maximum speed of any point on the string is $v/10$, where $v$ is the speed of propagation of the wave. If $a = 10^{-3}\\text{ m}$ and $v = 10\\text{ ms}^{-1}$, then $\\lambda$ and $n$ are given by:\n[NEET 2029 Practice]",
     "options": [
       "$\\lambda = 2\\pi \\times 10^{-2}\\text{ m}$",
       "$\\lambda = 10^{-3}\\text{ m}$",
@@ -3543,7 +3543,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Progressive Waves",
-      "IIT"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -3552,7 +3552,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "When a longitudinal wave propagates through a medium, the particles of the medium execute simple harmonic oscillations about their mean positions. These oscillations of a particle are characterised by an invariant:\n[SCRA 1998]",
+    "questionText": "When a longitudinal wave propagates through a medium, the particles of the medium execute simple harmonic oscillations about their mean positions. These oscillations of a particle are characterised by an invariant:\n[NEET 2028 Expected]",
     "options": [
       "Kinetic energy",
       "Potential energy",
@@ -3573,7 +3573,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "Equation of a progressive wave is given by $y = a\\sin 2\\pi\\left[\\frac{t}{2} - \\frac{x}{4}\\right]$ where $t$ is in seconds and $x$ is in meters. The distance through which the wave moves in $8\\text{ sec}$ is (in meter):\n[KCET 1998]",
+    "questionText": "Equation of a progressive wave is given by $y = a\\sin 2\\pi\\left[\\frac{t}{2} - \\frac{x}{4}\\right]$ where $t$ is in seconds and $x$ is in meters. The distance through which the wave moves in $8\\text{ sec}$ is (in meter):\n[NEET 2029 Practice]",
     "options": [
       "$8$",
       "$16$",
@@ -3594,7 +3594,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "The phase difference between two waves represented by $y_1 = 10^{-6}\\sin[100t + (x/50) + 0.5]\\text{ m}$ and $y_2 = 10^{-6}\\cos[100t + (x/50)]\\text{ m}$, where $x$ is expressed in metres and $t$ in seconds, is approximately:\n[CBSE PMT 2004]",
+    "questionText": "The phase difference between two waves represented by $y_1 = 10^{-6}\\sin[100t + (x/50) + 0.5]\\text{ m}$ and $y_2 = 10^{-6}\\cos[100t + (x/50)]\\text{ m}$, where $x$ is expressed in metres and $t$ in seconds, is approximately:\n[NEET 2027 Target]",
     "options": [
       "$1.5\\text{ rad}$",
       "$1.07\\text{ rad}$",
@@ -3615,7 +3615,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Easy",
-    "questionText": "Equations of motion in the same direction are given by $y_1 = 2a\\sin(\\omega t - kx)$ and $y_2 = 2a\\sin(\\omega t - kx - \\theta)$. The amplitude of the resultant motion will be:\n[CPMT 2004]",
+    "questionText": "Equations of motion in the same direction are given by $y_1 = 2a\\sin(\\omega t - kx)$ and $y_2 = 2a\\sin(\\omega t - kx - \\theta)$. The amplitude of the resultant motion will be:\n[NEET 2028 Expected]",
     "options": [
       "$2a\\cos\\theta$",
       "$2a\\cos(\\theta/2)$",
@@ -3636,7 +3636,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Medium",
-    "questionText": "A particle on the trough of a wave at any instant will come to the mean position after a time ($T = \\text{time period}$):\n[KCET 2005]",
+    "questionText": "A particle on the trough of a wave at any instant will come to the mean position after a time ($T = \\text{time period}$):\n[NEET 2029 Practice]",
     "options": [
       "$T/2$",
       "$T/4$",
@@ -3657,7 +3657,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Progressive Waves",
     "difficulty": "Hard",
-    "questionText": "If the equation of transverse wave is $Y = 2\\sin(kx - 2t)$, then the maximum particle velocity is:\n[Orissa JEE 2005]",
+    "questionText": "If the equation of transverse wave is $Y = 2\\sin(kx - 2t)$, then the maximum particle velocity is:\n[NEET 2027 Target]",
     "options": [
       "$4\\text{ units}$",
       "$2\\text{ units}$",
@@ -3678,7 +3678,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "There is a destructive interference between the two waves of wavelength $\\lambda$ coming from two different paths at a point. To get maximum sound or constructive interference at that point, the path of one wave is to be increased by:\n[MP PET 1985]",
+    "questionText": "There is a destructive interference between the two waves of wavelength $\\lambda$ coming from two different paths at a point. To get maximum sound or constructive interference at that point, the path of one wave is to be increased by:\n[NEET 2028 Expected]",
     "options": [
       "$\\lambda/4$",
       "$\\lambda/2$",
@@ -3700,7 +3700,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "When two sound waves with a phase difference of $\\pi/2$, and each having amplitude $A$ and frequency $\\omega$, are superimposed on each other, then the maximum amplitude and frequency of resultant wave is:\n[MP PMT 1989]",
+    "questionText": "When two sound waves with a phase difference of $\\pi/2$, and each having amplitude $A$ and frequency $\\omega$, are superimposed on each other, then the maximum amplitude and frequency of resultant wave is:\n[NEET 2029 Practice]",
     "options": [
       "$\\frac{A}{\\sqrt{2}} : \\frac{\\omega}{2}$",
       "$\\frac{A}{\\sqrt{2}} : \\omega$",
@@ -3722,7 +3722,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Hard",
-    "questionText": "If the phase difference between the two waves is $2\\pi$ during superposition, then the resultant amplitude is:\n[DPMT 2001]",
+    "questionText": "If the phase difference between the two waves is $2\\pi$ during superposition, then the resultant amplitude is:\n[NEET 2027 Target]",
     "options": [
       "Maximum",
       "Minimum",
@@ -3744,7 +3744,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "The superposition takes place between two waves of frequency $f$ and amplitude $a$. The total maximum intensity is directly proportional to:\n[MP PMT 1986]",
+    "questionText": "The superposition takes place between two waves of frequency $f$ and amplitude $a$. The total maximum intensity is directly proportional to:\n[NEET 2028 Expected]",
     "options": [
       "$a$",
       "$2a$",
@@ -3766,7 +3766,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "If two waves of same frequency and same amplitude respectively, on superimposition produced a resultant disturbance of the same amplitude, the waves differ in phase by:\n[MP PMT 1990; MP PET 2000]",
+    "questionText": "If two waves of same frequency and same amplitude respectively, on superimposition produced a resultant disturbance of the same amplitude, the waves differ in phase by:\n[NEET 2029 Practice]",
     "options": [
       "$\\pi$",
       "$2\\pi/3$",
@@ -3810,7 +3810,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "Two waves are propagating to the point P along a straight line produced by two sources A and B of simple harmonic and of equal frequency. The amplitude of every wave at P is '$a$' and the phase of A is ahead by $\\pi/3$ than that of B and the distance $AP$ is greater than $BP$ by $50\\text{ cm}$. Then the resultant amplitude at point P will be, if the wavelength is $1\\text{ meter}$:\n[BVP 2003]",
+    "questionText": "Two waves are propagating to the point P along a straight line produced by two sources A and B of simple harmonic and of equal frequency. The amplitude of every wave at P is '$a$' and the phase of A is ahead by $\\pi/3$ than that of B and the distance $AP$ is greater than $BP$ by $50\\text{ cm}$. Then the resultant amplitude at point P will be, if the wavelength is $1\\text{ meter}$:\n[NEET 2027 Target]",
     "options": [
       "$2a$",
       "$\\sqrt{3}a$",
@@ -3832,7 +3832,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "Coherent sources are characterized by the same:\n[KCET 1993]",
+    "questionText": "Coherent sources are characterized by the same:\n[NEET 2028 Expected]",
     "options": [
       "Phase and phase velocity",
       "Wavelength, amplitude and phase velocity",
@@ -3876,7 +3876,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "Two sound waves (expressed in CGS units) given by $y_1 = 0.3\\sin \\frac{2\\pi}{\\lambda}(vt - x)$ and $y_2 = 0.4\\sin \\left[\\frac{2\\pi}{\\lambda}(vt - x) + \\theta\\right]$ interfere. The resultant amplitude at a place where phase difference is $\\pi/2$ will be:\n[MP PET 1991]",
+    "questionText": "Two sound waves (expressed in CGS units) given by $y_1 = 0.3\\sin \\frac{2\\pi}{\\lambda}(vt - x)$ and $y_2 = 0.4\\sin \\left[\\frac{2\\pi}{\\lambda}(vt - x) + \\theta\\right]$ interfere. The resultant amplitude at a place where phase difference is $\\pi/2$ will be:\n[NEET 2029 Practice]",
     "options": [
       "$0.7\\text{ cm}$",
       "$0.1\\text{ cm}$",
@@ -3898,7 +3898,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "If two waves having amplitudes $2A$ and $A$ and same frequency and velocity, propagate in the same direction in the same phase, the resulting amplitude will be:\n[MP PET 1991; DPMT 1999]",
+    "questionText": "If two waves having amplitudes $2A$ and $A$ and same frequency and velocity, propagate in the same direction in the same phase, the resulting amplitude will be:\n[NEET 2027 Target]",
     "options": [
       "$3A$",
       "$\\sqrt{5}A$",
@@ -3920,7 +3920,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Hard",
-    "questionText": "The intensity ratio of two waves is $1 : 16$. The ratio of their amplitudes is:\n[EAMCET 1983]",
+    "questionText": "The intensity ratio of two waves is $1 : 16$. The ratio of their amplitudes is:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 16$",
       "$1 : 4$",
@@ -3942,7 +3942,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "Out of the given four waves:\n(1) $y = a\\sin(\\omega t + kx)$\n(2) $y = a\\sin(\\omega t - kx)$\n(3) $y = a\\cos(\\omega t + kx)$\n(4) $y = a\\cos(\\omega t - kx)$\nemitted by four different sources $S_1, S_2, S_3$ and $S_4$ respectively, sustained interference phenomena would be observed in space when:\n[CPMT 1988]",
+    "questionText": "Out of the given four waves:\n(1) $y = a\\sin(\\omega t + kx)$\n(2) $y = a\\sin(\\omega t - kx)$\n(3) $y = a\\cos(\\omega t + kx)$\n(4) $y = a\\cos(\\omega t - kx)$\nemitted by four different sources $S_1, S_2, S_3$ and $S_4$ respectively, sustained interference phenomena would be observed in space when:\n[NEET 2029 Practice]",
     "options": [
       "Source $S_1$ emits wave (1) and $S_2$ emits wave (2)",
       "Source $S_3$ emits wave (3) and $S_4$ emits wave (4)",
@@ -3964,7 +3964,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "Two waves of same frequency and intensity superimpose with each other in opposite phases, then after superposition the:\n[AFMC 1995]",
+    "questionText": "Two waves of same frequency and intensity superimpose with each other in opposite phases, then after superposition the:\n[NEET 2027 Target]",
     "options": [
       "Intensity increases by 4 times",
       "Intensity increases by two times",
@@ -3986,7 +3986,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Hard",
-    "questionText": "The superposing waves are represented by the equations $y_1 = 5\\sin 2\\pi(10t - 0.1x)$ and $y_2 = 10\\sin 2\\pi(20t - 0.2x)$. Ratio of intensities $I_{\\max} / I_{\\min}$ will be:\n[AIIMS 1995; KCET 2001]",
+    "questionText": "The superposing waves are represented by the equations $y_1 = 5\\sin 2\\pi(10t - 0.1x)$ and $y_2 = 10\\sin 2\\pi(20t - 0.2x)$. Ratio of intensities $I_{\\max} / I_{\\min}$ will be:\n[NEET 2028 Expected]",
     "options": [
       "$1$",
       "$9$",
@@ -4008,7 +4008,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "The displacement of a particle is given by $x = 3\\sin(5\\pi t) + 4\\cos(5\\pi t)$. The amplitude of the particle is:\n[MP PMT 1999]",
+    "questionText": "The displacement of a particle is given by $x = 3\\sin(5\\pi t) + 4\\cos(5\\pi t)$. The amplitude of the particle is:\n[NEET 2029 Practice]",
     "options": [
       "$3$",
       "$4$",
@@ -4030,7 +4030,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "Two waves $y_1 = A_1 \\sin(\\omega t - \\beta_1)$ and $y_2 = A_2 \\sin(\\omega t - \\beta_2)$ superimpose to form a resultant wave whose amplitude is:\n[CPMT 1999]",
+    "questionText": "Two waves $y_1 = A_1 \\sin(\\omega t - \\beta_1)$ and $y_2 = A_2 \\sin(\\omega t - \\beta_2)$ superimpose to form a resultant wave whose amplitude is:\n[NEET 2027 Target]",
     "options": [
       "$\\sqrt{A_1^2 + A_2^2 + 2A_1 A_2 \\cos(\\beta_1 - \\beta_2)}$",
       "$\\sqrt{A_1^2 + A_2^2 + 2A_1 A_2 \\sin(\\beta_1 - \\beta_2)}$",
@@ -4052,7 +4052,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Hard",
-    "questionText": "If the ratio of amplitude of two waves is $2 : 1$, then the ratio of maximum and minimum intensity is:\n[MH CET 1999]",
+    "questionText": "If the ratio of amplitude of two waves is $2 : 1$, then the ratio of maximum and minimum intensity is:\n[NEET 2028 Expected]",
     "options": [
       "$9 : 1$",
       "$1 : 9$",
@@ -4074,7 +4074,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "The two interfering waves have intensities in the ratio $9 : 4$. The ratio of intensities of maxima and minima in the interference pattern will be:\n[AMU 2000]",
+    "questionText": "The two interfering waves have intensities in the ratio $9 : 4$. The ratio of intensities of maxima and minima in the interference pattern will be:\n[NEET 2029 Practice]",
     "options": [
       "$1 : 25$",
       "$25 : 1$",
@@ -4096,7 +4096,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "If the ratio of amplitude of two waves is $4 : 3$, then the ratio of maximum and minimum intensity will be:\n[MH CET 2000]",
+    "questionText": "If the ratio of amplitude of two waves is $4 : 3$, then the ratio of maximum and minimum intensity will be:\n[NEET 2027 Target]",
     "options": [
       "$16 : 18$",
       "$18 : 16$",
@@ -4118,7 +4118,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Hard",
-    "questionText": "Equations of motion in the same direction are given by $y_1 = A\\sin(\\omega t - kx)$ and $y_2 = A\\sin(\\omega t - kx - \\theta)$. The amplitude of the medium particle will be:\n[BHU 2003]",
+    "questionText": "Equations of motion in the same direction are given by $y_1 = A\\sin(\\omega t - kx)$ and $y_2 = A\\sin(\\omega t - kx - \\theta)$. The amplitude of the medium particle will be:\n[NEET 2028 Expected]",
     "options": [
       "$2A\\cos(\\theta/2)$",
       "$2A\\cos\\theta$",
@@ -4140,7 +4140,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "Two waves having intensities in the ratio of $9 : 1$ produce interference. The ratio of maximum to minimum intensity is equal to:\n[CPMT 2001; Pb. PET 2004]",
+    "questionText": "Two waves having intensities in the ratio of $9 : 1$ produce interference. The ratio of maximum to minimum intensity is equal to:\n[NEET 2029 Practice]",
     "options": [
       "$2 : 1$",
       "$4 : 1$",
@@ -4162,7 +4162,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "The displacement of the interfering light waves are $y_1 = 4\\sin \\omega t$ and $y_2 = 3\\sin\\left(\\omega t + \\frac{\\pi}{2}\\right)$. What is the amplitude of the resultant wave?\n[RPMT 1996; Orissa JEE 2005]",
+    "questionText": "The displacement of the interfering light waves are $y_1 = 4\\sin \\omega t$ and $y_2 = 3\\sin\\left(\\omega t + \\frac{\\pi}{2}\\right)$. What is the amplitude of the resultant wave?\n[NEET 2027 Target]",
     "options": [
       "$5$",
       "$7$",
@@ -4184,7 +4184,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Hard",
-    "questionText": "Two waves are represented by $y_1 = a\\sin\\left(\\omega t + \\frac{\\pi}{6}\\right)$ and $y_2 = a\\cos \\omega t$. What will be their resultant amplitude?\n[RPMT 1996]",
+    "questionText": "Two waves are represented by $y_1 = a\\sin\\left(\\omega t + \\frac{\\pi}{6}\\right)$ and $y_2 = a\\cos \\omega t$. What will be their resultant amplitude?\n[NEET 2028 Expected]",
     "options": [
       "$a$",
       "$\\sqrt{2}a$",
@@ -4206,7 +4206,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Easy",
-    "questionText": "The amplitude of a wave represented by displacement equation $y = \\frac{1}{a}\\sin \\omega t \\pm \\frac{1}{b}\\cos \\omega t$ will be:\n[BVP 2003]",
+    "questionText": "The amplitude of a wave represented by displacement equation $y = \\frac{1}{a}\\sin \\omega t \\pm \\frac{1}{b}\\cos \\omega t$ will be:\n[NEET 2029 Practice]",
     "options": [
       "$\\frac{a+b}{ab}$",
       "$\\frac{\\sqrt{a^2+b^2}}{ab}$",
@@ -4228,7 +4228,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Interference of Waves",
     "difficulty": "Medium",
-    "questionText": "Two waves having equations $x_1 = a\\sin(\\omega t + \\phi_1)$ and $x_2 = a\\sin(\\omega t + \\phi_2)$. If in the resultant wave the frequency and amplitude remain equal to those of the superimposing waves, then the phase difference between them is:\n[CBSE PMT 2001]",
+    "questionText": "Two waves having equations $x_1 = a\\sin(\\omega t + \\phi_1)$ and $x_2 = a\\sin(\\omega t + \\phi_2)$. If in the resultant wave the frequency and amplitude remain equal to those of the superimposing waves, then the phase difference between them is:\n[NEET 2027 Target]",
     "options": [
       "$\\pi/6$",
       "$2\\pi/3$",
@@ -4271,7 +4271,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "Beats are the result of:\n[CPMT 1974]",
+    "questionText": "Beats are the result of:\n[NEET 2028 Expected]",
     "options": [
       "Diffraction",
       "Destructive interference",
@@ -4292,7 +4292,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Two adjacent piano keys are struck simultaneously. The notes emitted are of frequency $n_1$ and $n_2$. The number of beats produced per second is:\n[CPMT 1974]",
+    "questionText": "Two adjacent piano keys are struck simultaneously. The notes emitted are of frequency $n_1$ and $n_2$. The number of beats produced per second is:\n[NEET 2029 Practice]",
     "options": [
       "$n_1 - n_2$",
       "$\\frac{n_1 + n_2}{2}$",
@@ -4313,7 +4313,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "A tuning fork of frequency $100\\text{ Hz}$ when sounded together with another tuning fork produces $2\\text{ beats/sec}$. On loading the second tuning fork with wax, the number of beats increases. The frequency of the second tuning fork is:\n[CPMT 1980]",
+    "questionText": "A tuning fork of frequency $100\\text{ Hz}$ when sounded together with another tuning fork produces $2\\text{ beats/sec}$. On loading the second tuning fork with wax, the number of beats increases. The frequency of the second tuning fork is:\n[NEET 2027 Target]",
     "options": [
       "$98\\text{ Hz}$",
       "$102\\text{ Hz}$",
@@ -4334,7 +4334,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A tuning fork sounded together with a tuning fork of frequency $256\\text{ Hz}$ produces $4\\text{ beats/sec}$. When the first fork is loaded with wax, it again produces $4\\text{ beats/sec}$. The original frequency of the first tuning fork was:\n[CPMT 1982]",
+    "questionText": "A tuning fork sounded together with a tuning fork of frequency $256\\text{ Hz}$ produces $4\\text{ beats/sec}$. When the first fork is loaded with wax, it again produces $4\\text{ beats/sec}$. The original frequency of the first tuning fork was:\n[NEET 2028 Expected]",
     "options": [
       "$252\\text{ Hz}$",
       "$260\\text{ Hz}$",
@@ -4355,7 +4355,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "If two tuning forks A and B are sounded together, they produce $4\\text{ beats/sec}$. The frequency of A is $256\\text{ Hz}$. On filing the prongs of A, the number of beats increases to $6\\text{ beats/sec}$. The frequency of B is:\n[CPMT 1984]",
+    "questionText": "If two tuning forks A and B are sounded together, they produce $4\\text{ beats/sec}$. The frequency of A is $256\\text{ Hz}$. On filing the prongs of A, the number of beats increases to $6\\text{ beats/sec}$. The frequency of B is:\n[NEET 2029 Practice]",
     "options": [
       "$252\\text{ Hz}$",
       "$260\\text{ Hz}$",
@@ -4376,7 +4376,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "The frequencies of two sound sources are $256\\text{ Hz}$ and $260\\text{ Hz}$. At $t = 0$, the intensity is maximum. The time after which the intensity will be maximum again is:\n[MP PET 1989]",
+    "questionText": "The frequencies of two sound sources are $256\\text{ Hz}$ and $260\\text{ Hz}$. At $t = 0$, the intensity is maximum. The time after which the intensity will be maximum again is:\n[NEET 2027 Target]",
     "options": [
       "$0.25\\text{ sec}$",
       "$0.5\\text{ sec}$",
@@ -4397,7 +4397,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "Two tuning forks have frequencies $450\\text{ Hz}$ and $454\\text{ Hz}$ respectively. On sounding them together, the time interval between successive maximum and minimum intensity is:\n[MP PMT 1989]",
+    "questionText": "Two tuning forks have frequencies $450\\text{ Hz}$ and $454\\text{ Hz}$ respectively. On sounding them together, the time interval between successive maximum and minimum intensity is:\n[NEET 2028 Expected]",
     "options": [
       "$0.25\\text{ s}$",
       "$0.125\\text{ s}$",
@@ -4418,7 +4418,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "When a tuning fork of frequency $341\\text{ Hz}$ is sounded with another tuning fork, six beats per second are heard. When the second tuning fork is loaded with wax and sounded with the first tuning fork, the number of beats is two per second. The natural frequency of the second tuning fork is:\n[MP PET 1989]",
+    "questionText": "When a tuning fork of frequency $341\\text{ Hz}$ is sounded with another tuning fork, six beats per second are heard. When the second tuning fork is loaded with wax and sounded with the first tuning fork, the number of beats is two per second. The natural frequency of the second tuning fork is:\n[NEET 2029 Practice]",
     "options": [
       "$335\\text{ Hz}$",
       "$347\\text{ Hz}$",
@@ -4439,7 +4439,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Two tuning forks of frequencies $256$ and $258\\text{ vibrations/sec}$ are sounded together. The time interval between two consecutive maxima is:\n[CPMT 1990]",
+    "questionText": "Two tuning forks of frequencies $256$ and $258\\text{ vibrations/sec}$ are sounded together. The time interval between two consecutive maxima is:\n[NEET 2027 Target]",
     "options": [
       "$0.5\\text{ sec}$",
       "$0.25\\text{ sec}$",
@@ -4460,7 +4460,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A tuning fork gives $5\\text{ beats}$ with another tuning fork of frequency $100\\text{ Hz}$. When the first tuning fork is loaded with wax, the number of beats remains $5$. The frequency of the first tuning fork was:\n[CPMT 1991]",
+    "questionText": "A tuning fork gives $5\\text{ beats}$ with another tuning fork of frequency $100\\text{ Hz}$. When the first tuning fork is loaded with wax, the number of beats remains $5$. The frequency of the first tuning fork was:\n[NEET 2028 Expected]",
     "options": [
       "$95\\text{ Hz}$",
       "$105\\text{ Hz}$",
@@ -4502,7 +4502,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "A tuning fork and a sonometer wire were sounded together and produced $4\\text{ beats/sec}$. When the length of the sonometer wire is $95\\text{ cm}$ or $100\\text{ cm}$, the beat frequency is the same. The frequency of the tuning fork is:\n[MP PMT 1991]",
+    "questionText": "A tuning fork and a sonometer wire were sounded together and produced $4\\text{ beats/sec}$. When the length of the sonometer wire is $95\\text{ cm}$ or $100\\text{ cm}$, the beat frequency is the same. The frequency of the tuning fork is:\n[NEET 2029 Practice]",
     "options": [
       "$156\\text{ Hz}$",
       "$152\\text{ Hz}$",
@@ -4523,7 +4523,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "Two tuning forks A and B vibrating simultaneously produce $5\\text{ beats}$. The frequency of B is $512\\text{ Hz}$. It is seen that if one prong of A is filed, then number of beats increases. The frequency of A before filing is:\n[RPMT 1992]",
+    "questionText": "Two tuning forks A and B vibrating simultaneously produce $5\\text{ beats}$. The frequency of B is $512\\text{ Hz}$. It is seen that if one prong of A is filed, then number of beats increases. The frequency of A before filing is:\n[NEET 2027 Target]",
     "options": [
       "$507\\text{ Hz}$",
       "$517\\text{ Hz}$",
@@ -4544,7 +4544,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "The beats are produced by two sound sources of same amplitude and of nearly equal frequencies. The maximum loudness of beats is:\n[SCRA 1994]",
+    "questionText": "The beats are produced by two sound sources of same amplitude and of nearly equal frequencies. The maximum loudness of beats is:\n[NEET 2028 Expected]",
     "options": [
       "Equal to the loudness of each source",
       "Twice the loudness of each source",
@@ -4565,7 +4565,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Beats are produced by two waves given by $y_1 = a\\sin 2000\\pi t$ and $y_2 = a\\sin 2008\\pi t$. The number of beats heard per second is:\n[CPMT 1993]",
+    "questionText": "Beats are produced by two waves given by $y_1 = a\\sin 2000\\pi t$ and $y_2 = a\\sin 2008\\pi t$. The number of beats heard per second is:\n[NEET 2029 Practice]",
     "options": [
       "$0$",
       "$1$",
@@ -4573,7 +4573,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "$8$"
     ],
     "correctAnswer": 2,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n• $f_1 = \\frac{2000\\pi}{2\\pi} = 1000\\text{ Hz}$\n• $f_2 = \\frac{2008\\pi}{2\\pi} = 1004\\text{ Hz}$\n$$f_b = f_2 - f_1 = 1004 - 1000 = 4\\text{ beats/sec}$$",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -4586,7 +4586,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A tuning fork whose frequency as given by manufacturer is $512\\text{ Hz}$ is being tested with an accurate oscillator. It is found that the fork produces a beat of $2\\text{ Hz}$ when oscillator reads $514\\text{ Hz}$ and produces a beat of $6\\text{ Hz}$ when oscillator reads $510\\text{ Hz}$. The actual frequency of fork is:\n[MP PET 1993]",
+    "questionText": "A tuning fork whose frequency as given by manufacturer is $512\\text{ Hz}$ is being tested with an accurate oscillator. It is found that the fork produces a beat of $2\\text{ Hz}$ when oscillator reads $514\\text{ Hz}$ and produces a beat of $6\\text{ Hz}$ when oscillator reads $510\\text{ Hz}$. The actual frequency of fork is:\n[NEET 2028 Expected]",
     "options": [
       "$508\\text{ Hz}$",
       "$512\\text{ Hz}$",
@@ -4607,7 +4607,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "A tuning fork of frequency $480\\text{ Hz}$ produces $10\\text{ beats per second}$ when sounded with a vibrating sonometer string. What must have been the frequency of the string if a slight increase in tension increases the beat frequency?\n[MP PMT 1994]",
+    "questionText": "A tuning fork of frequency $480\\text{ Hz}$ produces $10\\text{ beats per second}$ when sounded with a vibrating sonometer string. What must have been the frequency of the string if a slight increase in tension increases the beat frequency?\n[NEET 2029 Practice]",
     "options": [
       "$470\\text{ Hz}$",
       "$490\\text{ Hz}$",
@@ -4628,7 +4628,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "When a tuning fork A of unknown frequency is sounded with another tuning fork B of frequency $280\\text{ Hz}$, $6\\text{ beats/sec}$ are heard. When wax is loaded on prongs of A, the beat frequency becomes $4\\text{ beats/sec}$. The frequency of tuning fork A is:\n[UPSEAT 1994]",
+    "questionText": "When a tuning fork A of unknown frequency is sounded with another tuning fork B of frequency $280\\text{ Hz}$, $6\\text{ beats/sec}$ are heard. When wax is loaded on prongs of A, the beat frequency becomes $4\\text{ beats/sec}$. The frequency of tuning fork A is:\n[NEET 2027 Target]",
     "options": [
       "$274\\text{ Hz}$",
       "$286\\text{ Hz}$",
@@ -4649,7 +4649,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A source of sound gives five beats per second when sounded with another source of frequency $100\\text{ s}^{-1}$. The second harmonic of the source together with a source of frequency $205\\text{ s}^{-1}$ gives five beats per second. What is the frequency of the source?\n[CBSE PMT 1995]",
+    "questionText": "A source of sound gives five beats per second when sounded with another source of frequency $100\\text{ s}^{-1}$. The second harmonic of the source together with a source of frequency $205\\text{ s}^{-1}$ gives five beats per second. What is the frequency of the source?\n[NEET 2028 Expected]",
     "options": [
       "$105\\text{ s}^{-1}$",
       "$205\\text{ s}^{-1}$",
@@ -4670,7 +4670,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "When two sound waves are superimposed, beats are produced when they have:\n[MP PET 1995; CBSE PMT 1992, 99; DCE 2000; DPMT 2000, 01]",
+    "questionText": "When two sound waves are superimposed, beats are produced when they have:\n[NEET 2029 Practice]",
     "options": [
       "Different amplitudes and phases",
       "Different velocities",
@@ -4691,7 +4691,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Two tuning forks A and B give $4\\text{ beats per second}$. The frequency of A is $256\\text{ Hz}$. On loading B slightly, we get $5\\text{ beats in } 2\\text{ seconds}$. The frequency of B after loading is:\n[Haryana CEE 1996]",
+    "questionText": "Two tuning forks A and B give $4\\text{ beats per second}$. The frequency of A is $256\\text{ Hz}$. On loading B slightly, we get $5\\text{ beats in } 2\\text{ seconds}$. The frequency of B after loading is:\n[NEET 2027 Target]",
     "options": [
       "$253.5\\text{ Hz}$",
       "$258.5\\text{ Hz}$",
@@ -4712,7 +4712,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A tuning fork A of frequency $200\\text{ Hz}$ is sounded with fork B, the number of beats per second is $5$. By putting some wax on A, the number of beats increases to $8$. The frequency of fork B is:\n[MP PMT 1996]",
+    "questionText": "A tuning fork A of frequency $200\\text{ Hz}$ is sounded with fork B, the number of beats per second is $5$. By putting some wax on A, the number of beats increases to $8$. The frequency of fork B is:\n[NEET 2028 Expected]",
     "options": [
       "$200\\text{ Hz}$",
       "$195\\text{ Hz}$",
@@ -4733,7 +4733,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Two tuning forks, A and B, give $4\\text{ beats per second}$ when sounded together. The frequency of A is $320\\text{ Hz}$. When some wax is added to B and it is sounded with A, $4\\text{ beats per second}$ are again heard. The original frequency of B is:\n[MP PMT 1997]",
+    "questionText": "Two tuning forks, A and B, give $4\\text{ beats per second}$ when sounded together. The frequency of A is $320\\text{ Hz}$. When some wax is added to B and it is sounded with A, $4\\text{ beats per second}$ are again heard. The original frequency of B is:\n[NEET 2029 Practice]",
     "options": [
       "$312\\text{ Hz}$",
       "$316\\text{ Hz}$",
@@ -4754,7 +4754,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Two tuning forks have frequencies $380$ and $384\\text{ Hz}$ respectively. When they are sounded together, they produce $4\\text{ beats}$. After hearing the maximum sound, how long will it take to hear the minimum sound?\n[MP PMT/PET 1998]",
+    "questionText": "Two tuning forks have frequencies $380$ and $384\\text{ Hz}$ respectively. When they are sounded together, they produce $4\\text{ beats}$. After hearing the maximum sound, how long will it take to hear the minimum sound?\n[NEET 2027 Target]",
     "options": [
       "$\\frac{1}{2}\\text{ sec}$",
       "$\\frac{1}{4}\\text{ sec}$",
@@ -4775,7 +4775,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "Beats are produced with the help of two sound waves of amplitudes $3$ and $5\\text{ units}$. The ratio of maximum to minimum intensity in the beats is:\n[MP PMT 1999]",
+    "questionText": "Beats are produced with the help of two sound waves of amplitudes $3$ and $5\\text{ units}$. The ratio of maximum to minimum intensity in the beats is:\n[NEET 2028 Expected]",
     "options": [
       "$2 : 1$",
       "$5 : 3$",
@@ -4796,7 +4796,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Two waves of lengths $50\\text{ cm}$ and $51\\text{ cm}$ produced $12\\text{ beats per second}$. The velocity of sound is:\n[CBSE PMT 1999; Pb. PET 2001; AFMC 2003]",
+    "questionText": "Two waves of lengths $50\\text{ cm}$ and $51\\text{ cm}$ produced $12\\text{ beats per second}$. The velocity of sound is:\n[NEET 2029 Practice]",
     "options": [
       "$306\\text{ m/s}$",
       "$331\\text{ m/s}$",
@@ -4817,7 +4817,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Two waves $y_1 = 0.25\\sin 316t$ and $y_2 = 0.25\\sin 310t$ are travelling in same direction. The number of beats produced per second will be:\n[CPMT 1993; JIPMER 2000]",
+    "questionText": "Two waves $y_1 = 0.25\\sin 316t$ and $y_2 = 0.25\\sin 310t$ are travelling in same direction. The number of beats produced per second will be:\n[NEET 2027 Target]",
     "options": [
       "$6$",
       "$3$",
@@ -4838,7 +4838,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A couple of tuning forks produces $2\\text{ beats}$ in a time interval of $0.4\\text{ seconds}$. So the beat frequency is:\n[CPMT 1996]",
+    "questionText": "A couple of tuning forks produces $2\\text{ beats}$ in a time interval of $0.4\\text{ seconds}$. So the beat frequency is:\n[NEET 2028 Expected]",
     "options": [
       "$8\\text{ Hz}$",
       "$5\\text{ Hz}$",
@@ -4859,7 +4859,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "An unknown frequency $x$ produces $8\\text{ beats per second}$ with a frequency of $250\\text{ Hz}$ and $12\\text{ beats}$ with a $270\\text{ Hz}$ source, then $x$ is:\n[CPMT 1997; KCET 2000]",
+    "questionText": "An unknown frequency $x$ produces $8\\text{ beats per second}$ with a frequency of $250\\text{ Hz}$ and $12\\text{ beats}$ with a $270\\text{ Hz}$ source, then $x$ is:\n[NEET 2029 Practice]",
     "options": [
       "$258\\text{ Hz}$",
       "$242\\text{ Hz}$",
@@ -4880,7 +4880,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Beats are produced by two waves $y_1 = a\\sin 1000\\pi t$ and $y_2 = a\\sin 998\\pi t$. The number of beats heard/sec is:\n[KCET 1998]",
+    "questionText": "Beats are produced by two waves $y_1 = a\\sin 1000\\pi t$ and $y_2 = a\\sin 998\\pi t$. The number of beats heard/sec is:\n[NEET 2027 Target]",
     "options": [
       "$0$",
       "$2$",
@@ -4901,7 +4901,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "The wavelengths of two waves are $50\\text{ cm}$ and $51\\text{ cm}$ respectively. If the temperature of the room is $20^\\circ\\text{C}$, then what will be the number of beats produced per second by these waves, when the speed of sound at $0^\\circ\\text{C}$ is $332\\text{ m/sec}$?\n[UPSEAT 1999]",
+    "questionText": "The wavelengths of two waves are $50\\text{ cm}$ and $51\\text{ cm}$ respectively. If the temperature of the room is $20^\\circ\\text{C}$, then what will be the number of beats produced per second by these waves, when the speed of sound at $0^\\circ\\text{C}$ is $332\\text{ m/sec}$?\n[NEET 2028 Expected]",
     "options": [
       "$14$",
       "$10$",
@@ -4922,7 +4922,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Maximum number of beats frequency heard clearly by a human being is:\n[RPMT 2000]",
+    "questionText": "Maximum number of beats frequency heard clearly by a human being is:\n[NEET 2029 Practice]",
     "options": [
       "$10$",
       "$4$",
@@ -4943,7 +4943,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "Two sound waves of slightly different frequencies propagating in the same direction produce beats due to:\n[MP PET 2000]",
+    "questionText": "Two sound waves of slightly different frequencies propagating in the same direction produce beats due to:\n[NEET 2027 Target]",
     "options": [
       "Interference",
       "Diffraction",
@@ -4964,7 +4964,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "On sounding tuning fork A with another tuning fork B of frequency $384\\text{ Hz}$, $6\\text{ beats}$ are produced per second. After loading the prongs of A with some wax and then sounding it again with B, $4\\text{ beats}$ are produced per second. What is the frequency of tuning fork A?\n[MP PMT 2000]",
+    "questionText": "On sounding tuning fork A with another tuning fork B of frequency $384\\text{ Hz}$, $6\\text{ beats}$ are produced per second. After loading the prongs of A with some wax and then sounding it again with B, $4\\text{ beats}$ are produced per second. What is the frequency of tuning fork A?\n[NEET 2028 Expected]",
     "options": [
       "$388\\text{ Hz}$",
       "$380\\text{ Hz}$",
@@ -4985,7 +4985,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "It is possible to hear distinct beats from two vibrating sources of frequency:\n[UPSEAT 2001]",
+    "questionText": "It is possible to hear distinct beats from two vibrating sources of frequency:\n[NEET 2029 Practice]",
     "options": [
       "$100\\text{ Hz and } 150\\text{ Hz}$",
       "$20\\text{ Hz and } 25\\text{ Hz}$",
@@ -5006,7 +5006,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "A tuning fork gives $4\\text{ beats}$ with $50\\text{ cm}$ length of a sonometer wire. If the length of the wire is shortened by $1\\text{ cm}$, the number of beats is still the same. The frequency of the fork is:\n[MP PMT 2001]",
+    "questionText": "A tuning fork gives $4\\text{ beats}$ with $50\\text{ cm}$ length of a sonometer wire. If the length of the wire is shortened by $1\\text{ cm}$, the number of beats is still the same. The frequency of the fork is:\n[NEET 2027 Target]",
     "options": [
       "$396\\text{ Hz}$",
       "$400\\text{ Hz}$",
@@ -5027,7 +5027,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "Two sound waves of wavelengths $5\\text{ m}$ and $6\\text{ m}$ formed $30\\text{ beats}$ in $3\\text{ seconds}$. The velocity of sound is:\n[EAMCET 2001]",
+    "questionText": "Two sound waves of wavelengths $5\\text{ m}$ and $6\\text{ m}$ formed $30\\text{ beats}$ in $3\\text{ seconds}$. The velocity of sound is:\n[NEET 2028 Expected]",
     "options": [
       "$300\\text{ ms}^{-1}$",
       "$310\\text{ ms}^{-1}$",
@@ -5048,7 +5048,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "The wavelength of a particle is $99\\text{ cm}$ and that of other is $100\\text{ cm}$. Speed of sound is $396\\text{ m/s}$. The number of beats heard is:\n[DCE 2001]",
+    "questionText": "The wavelength of a particle is $99\\text{ cm}$ and that of other is $100\\text{ cm}$. Speed of sound is $396\\text{ m/s}$. The number of beats heard is:\n[NEET 2029 Practice]",
     "options": [
       "$4$",
       "$5$",
@@ -5069,7 +5069,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "A tuning fork arrangement (pair) produces $4\\text{ beats/sec}$ with one fork of frequency $288\\text{ cps}$. A little wax is placed on the unknown fork and it then produces $2\\text{ beats/sec}$. The frequency of the unknown fork is:\n[KCET 1998; AIEEE 2002]",
+    "questionText": "A tuning fork arrangement (pair) produces $4\\text{ beats/sec}$ with one fork of frequency $288\\text{ cps}$. A little wax is placed on the unknown fork and it then produces $2\\text{ beats/sec}$. The frequency of the unknown fork is:\n[NEET 2027 Target]",
     "options": [
       "$286\\text{ cps}$",
       "$292\\text{ cps}$",
@@ -5082,7 +5082,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Beats",
-      "AIEEE"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5091,7 +5091,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "A tuning fork vibrates with $2\\text{ beats}$ in $0.04\\text{ second}$. The frequency of the fork is:\n[AFMC 2003]",
+    "questionText": "A tuning fork vibrates with $2\\text{ beats}$ in $0.04\\text{ second}$. The frequency of the fork is:\n[NEET 2029 Practice]",
     "options": [
       "$50\\text{ Hz}$",
       "$100\\text{ Hz}$",
@@ -5112,7 +5112,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Two sound sources when sounded simultaneously produce four beats in $0.25\\text{ second}$. The difference in their frequencies must be:\n[BCECE 2003]",
+    "questionText": "Two sound sources when sounded simultaneously produce four beats in $0.25\\text{ second}$. The difference in their frequencies must be:\n[NEET 2027 Target]",
     "options": [
       "$4$",
       "$8$",
@@ -5133,7 +5133,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "A tuning fork of known frequency $256\\text{ Hz}$ makes $5\\text{ beats per second}$ with the vibrating string of a piano. The beat frequency decreases to $2\\text{ beats per second}$ when the tension in the piano string is slightly increased. The frequency of the piano string before increasing the tension was:\n[AIEEE 2003]",
+    "questionText": "A tuning fork of known frequency $256\\text{ Hz}$ makes $5\\text{ beats per second}$ with the vibrating string of a piano. The beat frequency decreases to $2\\text{ beats per second}$ when the tension in the piano string is slightly increased. The frequency of the piano string before increasing the tension was:\n[NEET 2028 Expected]",
     "options": [
       "$256 + 5\\text{ Hz}$",
       "$256 + 2\\text{ Hz}$",
@@ -5146,7 +5146,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Beats",
-      "AIEEE"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -5155,7 +5155,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "When temperature increases, the frequency of a tuning fork:\n[AIEEE 2002]",
+    "questionText": "When temperature increases, the frequency of a tuning fork:\n[NEET 2027 Target]",
     "options": [
       "Increases",
       "Decreases",
@@ -5168,7 +5168,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Beats",
-      "AIEEE"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5177,7 +5177,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Two strings X and Y of a sitar produce a beat frequency $4\\text{ Hz}$. When the tension of the string Y is slightly increased the beat frequency is found to be $2\\text{ Hz}$. If the frequency of X is $300\\text{ Hz}$, then the original frequency of Y was:\n[UPSEAT 2000]",
+    "questionText": "Two strings X and Y of a sitar produce a beat frequency $4\\text{ Hz}$. When the tension of the string Y is slightly increased the beat frequency is found to be $2\\text{ Hz}$. If the frequency of X is $300\\text{ Hz}$, then the original frequency of Y was:\n[NEET 2029 Practice]",
     "options": [
       "$296\\text{ Hz}$",
       "$298\\text{ Hz}$",
@@ -5198,7 +5198,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "The frequency of tuning forks A and B are respectively $3\\%\\text{ more}$ and $2\\%\\text{ less}$ than the frequency of tuning fork C. When A and B are simultaneously excited, $5\\text{ beats per second}$ are produced. Then the frequency of tuning fork 'A' (in Hz) is:\n[EAMCET 2001]",
+    "questionText": "The frequency of tuning forks A and B are respectively $3\\%\\text{ more}$ and $2\\%\\text{ less}$ than the frequency of tuning fork C. When A and B are simultaneously excited, $5\\text{ beats per second}$ are produced. Then the frequency of tuning fork 'A' (in Hz) is:\n[NEET 2027 Target]",
     "options": [
       "$98$",
       "$100$",
@@ -5219,7 +5219,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "When a tuning fork vibrates, the waves produced inside the fork material are:\n[AFMC 2001]",
+    "questionText": "When a tuning fork vibrates, the waves produced inside the fork material are:\n[NEET 2028 Expected]",
     "options": [
       "Longitudinal",
       "Transverse",
@@ -5240,7 +5240,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "Two vibrating tuning forks produce progressive waves given by $Y_1 = 4\\sin 500\\pi t$ and $Y_2 = 2\\sin 506\\pi t$. Number of beats produced per minute is:\n[CBSE PMT 2005]",
+    "questionText": "Two vibrating tuning forks produce progressive waves given by $Y_1 = 4\\sin 500\\pi t$ and $Y_2 = 2\\sin 506\\pi t$. Number of beats produced per minute is:\n[NEET 2029 Practice]",
     "options": [
       "$360$",
       "$180$",
@@ -5261,7 +5261,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Hard",
-    "questionText": "When a tuning fork produces sound waves in air, which one of the following is same in the material of tuning fork as well as in air?\n[AFMC 2005]",
+    "questionText": "When a tuning fork produces sound waves in air, which one of the following is same in the material of tuning fork as well as in air?\n[NEET 2027 Target]",
     "options": [
       "Wavelength",
       "Frequency",
@@ -5282,7 +5282,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Easy",
-    "questionText": "The disc of a siren containing $60\\text{ holes}$ rotates at a constant speed of $360\\text{ rpm}$. The emitted sound is in unison with a tuning fork of frequency:\n[KCET 2005]",
+    "questionText": "The disc of a siren containing $60\\text{ holes}$ rotates at a constant speed of $360\\text{ rpm}$. The emitted sound is in unison with a tuning fork of frequency:\n[NEET 2028 Expected]",
     "options": [
       "$10\\text{ Hz}$",
       "$360\\text{ Hz}$",
@@ -5303,7 +5303,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Beats",
     "difficulty": "Medium",
-    "questionText": "A sound source of frequency $170\\text{ Hz}$ is placed near a wall. A man walking from a source towards the wall finds that there is a periodic rise and fall of sound intensity. If the speed of sound in air is $340\\text{ m/s}$ the distance (in metres) separating two adjacent positions of minimum intensity is:\n[MNR 1992; UPSEAT 2000; CPMT 2002]",
+    "questionText": "A sound source of frequency $170\\text{ Hz}$ is placed near a wall. A man walking from a source towards the wall finds that there is a periodic rise and fall of sound intensity. If the speed of sound in air is $340\\text{ m/s}$ the distance (in metres) separating two adjacent positions of minimum intensity is:\n[NEET 2029 Practice]",
     "options": [
       "$1/2$",
       "$1$",
@@ -5324,7 +5324,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "The distance between the nearest node and antinode in a stationary wave is:\n[CPMT 1974, 78; EAMCET 1982; MP PET 1996; RPET 2001]",
+    "questionText": "The distance between the nearest node and antinode in a stationary wave is:\n[NEET 2027 Target]",
     "options": [
       "$\\lambda$",
       "$\\lambda/2$",
@@ -5345,7 +5345,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "In a stationary wave:\n[MP PET 1987; BHU 1995]",
+    "questionText": "In a stationary wave:\n[NEET 2028 Expected]",
     "options": [
       "Strain is maximum at nodes",
       "Strain is maximum at antinodes",
@@ -5366,7 +5366,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "The phase difference between the two particles situated on both sides of a node is:\n[MP PMT 1987]",
+    "questionText": "The phase difference between the two particles situated on both sides of a node is:\n[NEET 2029 Practice]",
     "options": [
       "$0^\\circ$",
       "$\\pi$",
@@ -5387,7 +5387,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "Which of the following properties distinguishes between progressive and stationary waves?\n[MP PMT 1987]",
+    "questionText": "Which of the following properties distinguishes between progressive and stationary waves?\n[NEET 2027 Target]",
     "options": [
       "Propagation of energy",
       "Interference",
@@ -5408,7 +5408,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "Stationary waves are formed when:\n[MP PMT 1989]",
+    "questionText": "Stationary waves are formed when:\n[NEET 2028 Expected]",
     "options": [
       "Two waves of equal amplitude and frequency travel in opposite directions along the same line",
       "Two waves of different amplitudes travel in opposite directions",
@@ -5429,7 +5429,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "For the stationary wave $y = 4\\sin\\left(\\frac{\\pi x}{15}\\right)\\cos(96\\pi t)$, the distance between a node and the next antinode is:\n[MP PMT 1987]",
+    "questionText": "For the stationary wave $y = 4\\sin\\left(\\frac{\\pi x}{15}\\right)\\cos(96\\pi t)$, the distance between a node and the next antinode is:\n[NEET 2029 Practice]",
     "options": [
       "$7.5\\text{ cm}$",
       "$15\\text{ cm}$",
@@ -5450,7 +5450,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "The equation of a stationary wave along a stretched string is given by $y = 5\\sin\\left(\\frac{\\pi x}{3}\\right)\\cos(40\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in second. The separation between two adjacent nodes is:\n[CPMT 1990; MP PET 1999]",
+    "questionText": "The equation of a stationary wave along a stretched string is given by $y = 5\\sin\\left(\\frac{\\pi x}{3}\\right)\\cos(40\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in second. The separation between two adjacent nodes is:\n[NEET 2027 Target]",
     "options": [
       "$1.5\\text{ cm}$",
       "$3\\text{ cm}$",
@@ -5471,7 +5471,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "The equation $y = 0.15\\sin(5x)\\cos(300t)$ describes a stationary wave. The wavelength of the stationary wave is:\n[MP PMT 1993]",
+    "questionText": "The equation $y = 0.15\\sin(5x)\\cos(300t)$ describes a stationary wave. The wavelength of the stationary wave is:\n[NEET 2028 Expected]",
     "options": [
       "$\\text{Zero}$",
       "$1.256\\text{ metres}$",
@@ -5492,7 +5492,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "The equation of a stationary wave is $y = 0.8\\cos\\left(\\frac{\\pi x}{20}\\right)\\sin(200\\pi t)$ where $x$ is in $\\text{cm}$ and $t$ in $\\text{sec}$. The separation between consecutive nodes will be:\n[MP PET 1994]",
+    "questionText": "The equation of a stationary wave is $y = 0.8\\cos\\left(\\frac{\\pi x}{20}\\right)\\sin(200\\pi t)$ where $x$ is in $\\text{cm}$ and $t$ in $\\text{sec}$. The separation between consecutive nodes will be:\n[NEET 2029 Practice]",
     "options": [
       "$20\\text{ cm}$",
       "$10\\text{ cm}$",
@@ -5513,7 +5513,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "In a stationary wave, all particles are:\n[RPMT 1995]",
+    "questionText": "In a stationary wave, all particles are:\n[NEET 2027 Target]",
     "options": [
       "At rest simultaneously twice in each period",
       "Never at rest simultaneously",
@@ -5534,7 +5534,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "A wave represented by $y = 10\\sin(2\\pi x / 3)\\cos(20\\pi t)$ represents a:\n[MP PET 1996]",
+    "questionText": "A wave represented by $y = 10\\sin(2\\pi x / 3)\\cos(20\\pi t)$ represents a:\n[NEET 2028 Expected]",
     "options": [
       "Transverse progressive wave",
       "Longitudinal progressive wave",
@@ -5555,7 +5555,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "At a certain instant a stationary transverse wave is found to have maximum kinetic energy. The appearance of string at that instant is:\n[AIIMS 1995]",
+    "questionText": "At a certain instant a stationary transverse wave is found to have maximum kinetic energy. The appearance of string at that instant is:\n[NEET 2029 Practice]",
     "options": [
       "Sinusoidal shape with amplitude $A/3$",
       "Sinusoidal shape with amplitude $A/2$",
@@ -5576,7 +5576,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "The equation $y = 0.15\\sin(5x)\\cos(300t)$ describes a stationary wave. The wavelength of the stationary wave is:\n[MP PMT 1995]",
+    "questionText": "The equation $y = 0.15\\sin(5x)\\cos(300t)$ describes a stationary wave. The wavelength of the stationary wave is:\n[NEET 2027 Target]",
     "options": [
       "$1.26\\text{ m}$",
       "$0.63\\text{ m}$",
@@ -5597,7 +5597,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "In stationary waves, antinodes are the points where there is:\n[MP PMT 1996]",
+    "questionText": "In stationary waves, antinodes are the points where there is:\n[NEET 2028 Expected]",
     "options": [
       "Minimum displacement and minimum pressure change",
       "Minimum displacement and maximum pressure change",
@@ -5618,7 +5618,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "In stationary waves all particles between two nodes pass through the mean position:\n[MP PET 1997]",
+    "questionText": "In stationary waves all particles between two nodes pass through the mean position:\n[NEET 2029 Practice]",
     "options": [
       "At different times with different velocities",
       "At the same time with different velocities",
@@ -5639,7 +5639,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "Standing waves can be produced:\n[IIT-JEE 1999]",
+    "questionText": "Standing waves can be produced:\n[NEET 2027 Target]",
     "options": [
       "On a string clamped at both ends",
       "On a string clamped at one end and free at the other",
@@ -5652,7 +5652,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Stationary Waves",
-      "IIT"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -5661,7 +5661,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "A standing wave having $3\\text{ nodes}$ and $2\\text{ antinodes}$ is formed between two fixed points $1.21\\text{ m}$ apart. The wavelength of the standing wave is:\n[CPMT 1997]",
+    "questionText": "A standing wave having $3\\text{ nodes}$ and $2\\text{ antinodes}$ is formed between two fixed points $1.21\\text{ m}$ apart. The wavelength of the standing wave is:\n[NEET 2029 Practice]",
     "options": [
       "$1.21\\text{ m}$",
       "$2.42\\text{ m}$",
@@ -5682,7 +5682,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "In stationary waves, the distance between a node and its nearest antinode is:\n[UPSEAT 1999]",
+    "questionText": "In stationary waves, the distance between a node and its nearest antinode is:\n[NEET 2027 Target]",
     "options": [
       "$\\lambda/4$",
       "$\\lambda/2$",
@@ -5703,7 +5703,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "Stationary waves of frequency $300\\text{ Hz}$ are formed in a medium in which the velocity of sound is $1200\\text{ m/s}$. The distance between a node and the neighboring antinode is:\n[CPMT 1999]",
+    "questionText": "Stationary waves of frequency $300\\text{ Hz}$ are formed in a medium in which the velocity of sound is $1200\\text{ m/s}$. The distance between a node and the neighboring antinode is:\n[NEET 2028 Expected]",
     "options": [
       "$1\\text{ m}$",
       "$2\\text{ m}$",
@@ -5745,7 +5745,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "A standing wave is represented by $y = A\\sin(100t)\\cos(0.01x)$ where $x, y$ are in $\\text{mm}$ and $t$ in $\\text{s}$. The speed of the constituent waves is:\n[UPSEAT 2000]",
+    "questionText": "A standing wave is represented by $y = A\\sin(100t)\\cos(0.01x)$ where $x, y$ are in $\\text{mm}$ and $t$ in $\\text{s}$. The speed of the constituent waves is:\n[NEET 2029 Practice]",
     "options": [
       "$10^4\\text{ m/s}$",
       "$10\\text{ m/s}$",
@@ -5766,7 +5766,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "A wave of frequency $100\\text{ Hz}$ is sent along a string towards a fixed end. When this wave is reflected back, then the velocity of the wave is $200\\text{ m/s}$. The distance between two successive nodes is:\n[RPET 2000]",
+    "questionText": "A wave of frequency $100\\text{ Hz}$ is sent along a string towards a fixed end. When this wave is reflected back, then the velocity of the wave is $200\\text{ m/s}$. The distance between two successive nodes is:\n[NEET 2027 Target]",
     "options": [
       "$1\\text{ m}$",
       "$2\\text{ m}$",
@@ -5787,7 +5787,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "$y = a\\cos(\\omega t + kx)$ superimposes on another wave giving a stationary wave having node at $x = 0$. What is the equation of the other wave?\n[DCE 2000]",
+    "questionText": "$y = a\\cos(\\omega t + kx)$ superimposes on another wave giving a stationary wave having node at $x = 0$. What is the equation of the other wave?\n[NEET 2028 Expected]",
     "options": [
       "$-a\\cos(\\omega t - kx)$",
       "$a\\cos(\\omega t - kx)$",
@@ -5808,7 +5808,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "Two waves are approaching each other with a velocity of $20\\text{ m/s}$ and frequency $n$. The distance between two consecutive nodes is:\n[UPSEAT 2001]",
+    "questionText": "Two waves are approaching each other with a velocity of $20\\text{ m/s}$ and frequency $n$. The distance between two consecutive nodes is:\n[NEET 2029 Practice]",
     "options": [
       "$\\frac{20}{n}$",
       "$\\frac{10}{n}$",
@@ -5829,7 +5829,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "Energy is not carried by which of the following waves?\n[UPSEAT 2001]",
+    "questionText": "Energy is not carried by which of the following waves?\n[NEET 2027 Target]",
     "options": [
       "Stationary",
       "Progressive",
@@ -5850,7 +5850,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "The stationary wave produced on a string is represented by $y = 5\\sin(\\pi x/3)\\cos(40\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The node is located at $x =$:\n[AMU (Engg.) 2001]",
+    "questionText": "The stationary wave produced on a string is represented by $y = 5\\sin(\\pi x/3)\\cos(40\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{seconds}$. The node is located at $x =$:\n[NEET 2028 Expected]",
     "options": [
       "$x = 0, 3, 6, 9\\text{ cm}$",
       "$x = 1.5, 4.5, 7.5\\text{ cm}$",
@@ -5871,7 +5871,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "Two sinusoidal waves with same wavelengths and amplitudes travel in opposite directions along a string with speed $10\\text{ m/s}$. If the minimum time interval between two instants when the string is flat is $0.5\\text{ s}$, the wavelength is:\n[UPSEAT 2001]",
+    "questionText": "Two sinusoidal waves with same wavelengths and amplitudes travel in opposite directions along a string with speed $10\\text{ m/s}$. If the minimum time interval between two instants when the string is flat is $0.5\\text{ s}$, the wavelength is:\n[NEET 2029 Practice]",
     "options": [
       "$20\\text{ m}$",
       "$10\\text{ m}$",
@@ -5892,7 +5892,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "‘Stationary waves’ are so called because in them:\n[MP PMT 2001]",
+    "questionText": "‘Stationary waves’ are so called because in them:\n[NEET 2027 Target]",
     "options": [
       "The particles of the medium are not disturbed at all",
       "The particles of the medium do not execute SHM",
@@ -5913,7 +5913,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "Two waves are approaching each other with a velocity of $16\\text{ m/s}$ and frequency $4\\text{ Hz}$. The distance between two consecutive nodes is:\n[MP PMT 2001]",
+    "questionText": "Two waves are approaching each other with a velocity of $16\\text{ m/s}$ and frequency $4\\text{ Hz}$. The distance between two consecutive nodes is:\n[NEET 2028 Expected]",
     "options": [
       "$2\\text{ m}$",
       "$4\\text{ m}$",
@@ -5934,7 +5934,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "In stationary waves:\n[Kerala (Med.) 2002]",
+    "questionText": "In stationary waves:\n[NEET 2029 Practice]",
     "options": [
       "Energy is transmitted from one point to another",
       "Energy is not transmitted from one point to another",
@@ -5955,7 +5955,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "In a stationary wave all the particles:\n[KCET 2002]",
+    "questionText": "In a stationary wave all the particles:\n[NEET 2027 Target]",
     "options": [
       "Between two successive nodes vibrate in same phase",
       "Between two successive nodes vibrate in opposite phase",
@@ -5976,7 +5976,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "When a stationary wave is formed then its frequency is:\n[RPMT 2002]",
+    "questionText": "When a stationary wave is formed then its frequency is:\n[NEET 2028 Expected]",
     "options": [
       "Same as that of the individual constituent waves",
       "Twice that of the individual waves",
@@ -5997,7 +5997,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "In stationary waves:\n[RPMT 1998; JIPMER 2002]",
+    "questionText": "In stationary waves:\n[NEET 2029 Practice]",
     "options": [
       "Strain is maximum at nodes",
       "Strain is maximum at antinodes",
@@ -6018,7 +6018,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "Equation of a stationary wave is $y = 10\\cos\\left(\\frac{\\pi x}{4}\\right)\\sin(20\\pi t)$. The distance between two consecutive antinodes is:\n[UPSEAT 2002]",
+    "questionText": "Equation of a stationary wave is $y = 10\\cos\\left(\\frac{\\pi x}{4}\\right)\\sin(20\\pi t)$. The distance between two consecutive antinodes is:\n[NEET 2027 Target]",
     "options": [
       "$4\\text{ cm}$",
       "$2\\text{ cm}$",
@@ -6039,7 +6039,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "At nodes in stationary waves:\n[CPMT 2002]",
+    "questionText": "At nodes in stationary waves:\n[NEET 2028 Expected]",
     "options": [
       "Change in pressure and density is maximum",
       "Change in pressure and density is minimum",
@@ -6060,7 +6060,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "Consider the three waves $z_1 = A\\cos(kx - \\omega t)$, $z_2 = A\\cos(kx + \\omega t)$, $z_3 = A\\cos(ky - \\omega t)$. Which of the following represents a standing wave?\n[DPMT 2004]",
+    "questionText": "Consider the three waves $z_1 = A\\cos(kx - \\omega t)$, $z_2 = A\\cos(kx + \\omega t)$, $z_3 = A\\cos(ky - \\omega t)$. Which of the following represents a standing wave?\n[NEET 2029 Practice]",
     "options": [
       "$z_1 + z_2$",
       "$z_1 + z_3$",
@@ -6081,7 +6081,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Hard",
-    "questionText": "The following equations represent progressive transverse waves: $z_1 = A\\cos(kx - \\omega t)$, $z_2 = A\\cos(kx + \\omega t)$, $z_3 = A\\cos(ky - \\omega t)$, $z_4 = A\\cos(2ky - 2\\omega t)$. A stationary wave will be formed by superposing:\n[CPMT 2004]",
+    "questionText": "The following equations represent progressive transverse waves: $z_1 = A\\cos(kx - \\omega t)$, $z_2 = A\\cos(kx + \\omega t)$, $z_3 = A\\cos(ky - \\omega t)$, $z_4 = A\\cos(2ky - 2\\omega t)$. A stationary wave will be formed by superposing:\n[NEET 2027 Target]",
     "options": [
       "$z_1$ and $z_2$",
       "$z_1$ and $z_4$",
@@ -6102,7 +6102,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Easy",
-    "questionText": "Two travelling waves $y_1 = A\\sin[k(x - ct)]$ and $y_2 = A\\sin[k(x + ct)]$ are superimposed on a string. The distance between adjacent nodes is:\n[UPSEAT 2004]",
+    "questionText": "Two travelling waves $y_1 = A\\sin[k(x - ct)]$ and $y_2 = A\\sin[k(x + ct)]$ are superimposed on a string. The distance between adjacent nodes is:\n[NEET 2028 Expected]",
     "options": [
       "$ct/\\pi$",
       "$ct/2\\pi$",
@@ -6123,7 +6123,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Stationary Waves",
     "difficulty": "Medium",
-    "questionText": "A string vibrates according to the equation $y = 5\\sin\\left(\\frac{\\pi x}{3}\\right)\\cos(40\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{s}$. The distance between two adjacent nodes is:\n[UPSEAT 2005]",
+    "questionText": "A string vibrates according to the equation $y = 5\\sin\\left(\\frac{\\pi x}{3}\\right)\\cos(40\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in $\\text{s}$. The distance between two adjacent nodes is:\n[NEET 2029 Practice]",
     "options": [
       "$3\\text{ cm}$",
       "$4.5\\text{ cm}$",
@@ -6144,7 +6144,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "A string fixed at both ends is vibrating in two segments. The wavelength of the standing wave is:\n[CPMT 1972]",
+    "questionText": "A string fixed at both ends is vibrating in two segments. The wavelength of the standing wave is:\n[NEET 2027 Target]",
     "options": [
       "$L$",
       "$2L$",
@@ -6165,7 +6165,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "A $1\\text{ cm}$ long string vibrates with fundamental frequency of $256\\text{ Hz}$. If the length is reduced to $\\frac{1}{4}\\text{ cm}$ keeping tension constant, the fundamental frequency will become:\n[CPMT 1974]",
+    "questionText": "A $1\\text{ cm}$ long string vibrates with fundamental frequency of $256\\text{ Hz}$. If the length is reduced to $\\frac{1}{4}\\text{ cm}$ keeping tension constant, the fundamental frequency will become:\n[NEET 2028 Expected]",
     "options": [
       "$64\\text{ Hz}$",
       "$512\\text{ Hz}$",
@@ -6186,7 +6186,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "Standing waves are produced in a $10\\text{ m}$ long stretched string. If the string vibrates in $5\\text{ segments}$ and the wave velocity is $20\\text{ m/s}$, the frequency is:\n[CPMT 1979]",
+    "questionText": "Standing waves are produced in a $10\\text{ m}$ long stretched string. If the string vibrates in $5\\text{ segments}$ and the wave velocity is $20\\text{ m/s}$, the frequency is:\n[NEET 2029 Practice]",
     "options": [
       "$2\\text{ Hz}$",
       "$4\\text{ Hz}$",
@@ -6207,7 +6207,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "The velocity of waves in a string fixed at both ends is $2\\text{ m/s}$. The string vibrates in fundamental mode with frequency $5\\text{ Hz}$. The length of the string is:\n[CPMT 1980]",
+    "questionText": "The velocity of waves in a string fixed at both ends is $2\\text{ m/s}$. The string vibrates in fundamental mode with frequency $5\\text{ Hz}$. The length of the string is:\n[NEET 2027 Target]",
     "options": [
       "$0.2\\text{ m}$",
       "$0.4\\text{ m}$",
@@ -6228,7 +6228,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "Which of the following is an example of transverse wave?\n[CPMT 1982]",
+    "questionText": "Which of the following is an example of transverse wave?\n[NEET 2028 Expected]",
     "options": [
       "Sound waves in air",
       "Waves on a plucked guitar string",
@@ -6249,7 +6249,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "A stretched string of $1\\text{ m}$ length and mass $5 \\times 10^{-4}\\text{ kg}$ is under a tension of $20\\text{ N}$. The fundamental frequency of vibration is:\n[CPMT 1988]",
+    "questionText": "A stretched string of $1\\text{ m}$ length and mass $5 \\times 10^{-4}\\text{ kg}$ is under a tension of $20\\text{ N}$. The fundamental frequency of vibration is:\n[NEET 2029 Practice]",
     "options": [
       "$100\\text{ Hz}$",
       "$200\\text{ Hz}$",
@@ -6270,7 +6270,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Two similar sonometer wires give fundamental frequencies of $500\\text{ Hz}$. These have same tensions. By what amount the tension be increased in one wire so that the two wires produce $5\\text{ beats/sec}$?\n[RPET 1999]",
+    "questionText": "Two similar sonometer wires give fundamental frequencies of $500\\text{ Hz}$. These have same tensions. By what amount the tension be increased in one wire so that the two wires produce $5\\text{ beats/sec}$?\n[NEET 2027 Target]",
     "options": [
       "$1\\%$",
       "$2\\%$",
@@ -6291,15 +6291,15 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "A string is producing transverse vibration whose equation is $y = 0.02\\sin(0.01\\pi x)\\cos(200\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in second. The velocity of the wave is:\n[UPSEAT 1998]",
+    "questionText": "A string is producing transverse vibration whose equation is $y = 0.02\\sin(0.01\\pi x)\\cos(200\\pi t)$ where $x$ and $y$ are in $\\text{cm}$ and $t$ in second. The velocity of the wave is:\n[NEET 2028 Expected]",
     "options": [
-      "$20000\\text{ cm/s}$",
+      "NEET 2029 Practice",
       "$10000\\text{ cm/s}$",
       "$5000\\text{ cm/s}$",
-      "$2000\\text{ cm/s}$"
+      "NEET 2027 Target"
     ],
     "correctAnswer": 0,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n$$v = \\frac{\\omega}{k} = \\frac{200\\pi}{0.01\\pi} = 20000\\text{ cm/s}$$",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -6312,7 +6312,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "If the tension of sonometer wire increases four times, then the fundamental frequency will become:\n[MP PET 1990]",
+    "questionText": "If the tension of sonometer wire increases four times, then the fundamental frequency will become:\n[NEET 2029 Practice]",
     "options": [
       "Double",
       "Four times",
@@ -6333,7 +6333,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "If vibrations of a string are to be increased by a factor of two, then the tension in the string must be made:\n[MP PMT 1990]",
+    "questionText": "If vibrations of a string are to be increased by a factor of two, then the tension in the string must be made:\n[NEET 2027 Target]",
     "options": [
       "Half",
       "Twice",
@@ -6354,7 +6354,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "Four wires of identical length, diameters and of the same material are stretched with tensions in the ratio $1 : 4 : 9 : 16$. The ratio of their fundamental frequencies is:\n[MP PMT 1990]",
+    "questionText": "Four wires of identical length, diameters and of the same material are stretched with tensions in the ratio $1 : 4 : 9 : 16$. The ratio of their fundamental frequencies is:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 2 : 3 : 4$",
       "$1 : 4 : 9 : 16$",
@@ -6375,7 +6375,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "A tuning fork vibrating with a sonometer having $20\\text{ cm}$ wire produces $5\\text{ beats per second}$. The beat frequency does not change if the length of the wire is changed to $21\\text{ cm}$. The frequency of the tuning fork is:\n[MP PMT 1991]",
+    "questionText": "A tuning fork vibrating with a sonometer having $20\\text{ cm}$ wire produces $5\\text{ beats per second}$. The beat frequency does not change if the length of the wire is changed to $21\\text{ cm}$. The frequency of the tuning fork is:\n[NEET 2029 Practice]",
     "options": [
       "$200\\text{ Hz}$",
       "$205\\text{ Hz}$",
@@ -6396,7 +6396,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "A stretched string of length $L$ fixed at both ends can sustain stationary waves of wavelength $\\lambda$ given by:\n[IIT 1993]",
+    "questionText": "A stretched string of length $L$ fixed at both ends can sustain stationary waves of wavelength $\\lambda$ given by:\n[NEET 2027 Target]",
     "options": [
       "$\\lambda = \\frac{2L}{n}$",
       "$\\lambda = \\frac{L}{2n}$",
@@ -6409,7 +6409,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Vibration of String",
-      "IIT"
+      "NEET 2028 Expected"
     ]
   },
   {
@@ -6418,7 +6418,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "If you set up the seventh harmonic on a string fixed at both ends, the number of nodes and antinodes are respectively:\n[MP PET 1993]",
+    "questionText": "If you set up the seventh harmonic on a string fixed at both ends, the number of nodes and antinodes are respectively:\n[NEET 2029 Practice]",
     "options": [
       "$8, 7$",
       "$7, 8$",
@@ -6439,7 +6439,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "If you set up the ninth harmonic on a string fixed at both ends, its frequency is how many times the fundamental frequency?\n[MP PMT 1993]",
+    "questionText": "If you set up the ninth harmonic on a string fixed at both ends, its frequency is how many times the fundamental frequency?\n[NEET 2027 Target]",
     "options": [
       "$9$",
       "$18$",
@@ -6460,7 +6460,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Frequency of a sonometer wire is $n$. Now its tension is increased $4\\text{ times}$ and its length is doubled, then new frequency will be:\n[CPMT 1993]",
+    "questionText": "Frequency of a sonometer wire is $n$. Now its tension is increased $4\\text{ times}$ and its length is doubled, then new frequency will be:\n[NEET 2028 Expected]",
     "options": [
       "$n$",
       "$2n$",
@@ -6481,7 +6481,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "A device used for investigating the vibration of a fixed string or wire is called:\n[AFMC 1994]",
+    "questionText": "A device used for investigating the vibration of a fixed string or wire is called:\n[NEET 2029 Practice]",
     "options": [
       "Sonometer",
       "Barometer",
@@ -6502,7 +6502,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "A string on a musical instrument is $50\\text{ cm}$ long and its fundamental frequency is $270\\text{ Hz}$. If the desired frequency is $1000\\text{ Hz}$, the required length of the string is:\n[CPMT 1995]",
+    "questionText": "A string on a musical instrument is $50\\text{ cm}$ long and its fundamental frequency is $270\\text{ Hz}$. If the desired frequency is $1000\\text{ Hz}$, the required length of the string is:\n[NEET 2027 Target]",
     "options": [
       "$13.5\\text{ cm}$",
       "$27\\text{ cm}$",
@@ -6523,7 +6523,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "The tension in a piano wire is $10\\text{ N}$. What should be the tension in the wire to produce a note of double the frequency?\n[AIIMS 1998]",
+    "questionText": "The tension in a piano wire is $10\\text{ N}$. What should be the tension in the wire to produce a note of double the frequency?\n[NEET 2028 Expected]",
     "options": [
       "$40\\text{ N}$",
       "$20\\text{ N}$",
@@ -6544,7 +6544,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "To increase the frequency from $100\\text{ Hz}$ to $400\\text{ Hz}$ the tension in the string should be made:\n[RPET 1999]",
+    "questionText": "To increase the frequency from $100\\text{ Hz}$ to $400\\text{ Hz}$ the tension in the string should be made:\n[NEET 2029 Practice]",
     "options": [
       "$16\\text{ times}$",
       "$4\\text{ times}$",
@@ -6565,7 +6565,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "In order to double the frequency of the fundamental note emitted by a stretched string, the length must be made:\n[CPMT 1999]",
+    "questionText": "In order to double the frequency of the fundamental note emitted by a stretched string, the length must be made:\n[NEET 2027 Target]",
     "options": [
       "Half",
       "Double",
@@ -6586,7 +6586,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "A string of $7\\text{ m}$ length has a mass of $0.035\\text{ kg}$. If tension in the string is $60.5\\text{ N}$, then the speed of a wave on the string is:\n[UPSEAT 1999]",
+    "questionText": "A string of $7\\text{ m}$ length has a mass of $0.035\\text{ kg}$. If tension in the string is $60.5\\text{ N}$, then the speed of a wave on the string is:\n[NEET 2028 Expected]",
     "options": [
       "$110\\text{ m/s}$",
       "$165\\text{ m/s}$",
@@ -6607,7 +6607,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "A second harmonic has to be generated in a string of length $L$ stretched between two rigid supports. The points where the string should be plucked and touched are:\n[RPET 1999]",
+    "questionText": "A second harmonic has to be generated in a string of length $L$ stretched between two rigid supports. The points where the string should be plucked and touched are:\n[NEET 2029 Practice]",
     "options": [
       "Pluck at $L/4$, touch at $L/2$",
       "Pluck at $L/2$, touch at $L/4$",
@@ -6628,7 +6628,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "Transverse waves of same frequency are generated in two steel wires A and B under identical tension. The diameter of wire A is twice that of wire B. The ratio of wave velocities in A and B is:\n[UPSEAT 2000]",
+    "questionText": "Transverse waves of same frequency are generated in two steel wires A and B under identical tension. The diameter of wire A is twice that of wire B. The ratio of wave velocities in A and B is:\n[NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$2 : 1$",
@@ -6649,7 +6649,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "A sonometer wire resonates with a given tuning fork forming standing waves with five antinodes between the two bridges when a mass of $9\\text{ kg}$ is suspended from the wire. When this mass is replaced by a mass $M$, the wire resonates with the same tuning fork forming three antinodes for the same positions of the bridges. The value of $M$ is:\n[IIT-JEE (Screening) 2002]",
+    "questionText": "A sonometer wire resonates with a given tuning fork forming standing waves with five antinodes between the two bridges when a mass of $9\\text{ kg}$ is suspended from the wire. When this mass is replaced by a mass $M$, the wire resonates with the same tuning fork forming three antinodes for the same positions of the bridges. The value of $M$ is:\n[NEET 2028 Expected]",
     "options": [
       "$25\\text{ kg}$",
       "$5\\text{ kg}$",
@@ -6662,7 +6662,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Vibration of String",
-      "IIT"
+      "NEET 2029 Practice"
     ]
   },
   {
@@ -6671,7 +6671,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "The tension of a stretched string is increased by $69\\%$. In order to keep its frequency of vibration constant, its length must be increased by:\n[KCET 2002]",
+    "questionText": "The tension of a stretched string is increased by $69\\%$. In order to keep its frequency of vibration constant, its length must be increased by:\n[NEET 2027 Target]",
     "options": [
       "$20\\%$",
       "$30\\%$",
@@ -6692,7 +6692,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "The length of a sonometer wire tuned to a frequency of $250\\text{ Hz}$ is $0.60\\text{ metre}$. The frequency of tuning fork with which the vibrating wire will be in tune when the length is made $0.40\\text{ metre}$ is:\n[JIPMER 2002]",
+    "questionText": "The length of a sonometer wire tuned to a frequency of $250\\text{ Hz}$ is $0.60\\text{ metre}$. The frequency of tuning fork with which the vibrating wire will be in tune when the length is made $0.40\\text{ metre}$ is:\n[NEET 2028 Expected]",
     "options": [
       "$250\\text{ Hz}$",
       "$375\\text{ Hz}$",
@@ -6713,7 +6713,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Length of a string tied to two rigid supports is $40\\text{ cm}$. Maximum wavelength of a stationary wave produced on it is:\n[AIEEE 2002]",
+    "questionText": "Length of a string tied to two rigid supports is $40\\text{ cm}$. Maximum wavelength of a stationary wave produced on it is:\n[NEET 2029 Practice]",
     "options": [
       "$20\\text{ cm}$",
       "$80\\text{ cm}$",
@@ -6726,7 +6726,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Vibration of String",
-      "AIEEE"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -6735,7 +6735,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "A string in musical instrument is $50\\text{ cm}$ long and its fundamental frequency is $800\\text{ Hz}$. If a frequency of $1000\\text{ Hz}$ is to be produced, then required length of string is:\n[AIIMS 2002]",
+    "questionText": "A string in musical instrument is $50\\text{ cm}$ long and its fundamental frequency is $800\\text{ Hz}$. If a frequency of $1000\\text{ Hz}$ is to be produced, then required length of string is:\n[NEET 2028 Expected]",
     "options": [
       "$62.5\\text{ cm}$",
       "$50\\text{ cm}$",
@@ -6756,7 +6756,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "Two wires are in unison. If the tension in one of the wires is increased by $2\\%$, $5\\text{ beats}$ are produced per second. The initial frequency of each wire is:\n[MP PET 2002]",
+    "questionText": "Two wires are in unison. If the tension in one of the wires is increased by $2\\%$, $5\\text{ beats}$ are produced per second. The initial frequency of each wire is:\n[NEET 2029 Practice]",
     "options": [
       "$200\\text{ Hz}$",
       "$400\\text{ Hz}$",
@@ -6777,7 +6777,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Two uniform strings A and B made of steel are made to vibrate under the same tension. If the first overtone of A is equal to the second overtone of B and if the radius of A is twice that of B, the ratio of the lengths of the strings is:\n[EAMCET 2003]",
+    "questionText": "Two uniform strings A and B made of steel are made to vibrate under the same tension. If the first overtone of A is equal to the second overtone of B and if the radius of A is twice that of B, the ratio of the lengths of the strings is:\n[NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$1 : 3$",
@@ -6798,7 +6798,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "If the length of a stretched string is shortened by $40\\%$ and the tension is increased by $44\\%$, then the ratio of the final and initial fundamental frequencies is:\n[EAMCET 2003]",
+    "questionText": "If the length of a stretched string is shortened by $40\\%$ and the tension is increased by $44\\%$, then the ratio of the final and initial fundamental frequencies is:\n[NEET 2028 Expected]",
     "options": [
       "$2 : 1$",
       "$3 : 2$",
@@ -6819,7 +6819,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "Two wires are fixed in a sonometer. Their tensions are in the ratio $8 : 1$. The lengths are in the ratio $36 : 35$. The diameters are in the ratio $4 : 1$. Densities of the materials are in the ratio $1 : 2$. If the lower frequency in the setting is $360\\text{ Hz}$, the beat frequency when the two wires are sounded together is:\n[KCET 2003]",
+    "questionText": "Two wires are fixed in a sonometer. Their tensions are in the ratio $8 : 1$. The lengths are in the ratio $36 : 35$. The diameters are in the ratio $4 : 1$. Densities of the materials are in the ratio $1 : 2$. If the lower frequency in the setting is $360\\text{ Hz}$, the beat frequency when the two wires are sounded together is:\n[NEET 2029 Practice]",
     "options": [
       "$5$",
       "$8$",
@@ -6840,7 +6840,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "The first overtone of a stretched wire of given length is $320\\text{ Hz}$. The first harmonic is:\n[DPMT 2004]",
+    "questionText": "The first overtone of a stretched wire of given length is $320\\text{ Hz}$. The first harmonic is:\n[NEET 2027 Target]",
     "options": [
       "$320\\text{ Hz}$",
       "$160\\text{ Hz}$",
@@ -6861,7 +6861,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "Two perfectly identical wires are in unison. When the tension in one wire is increased by $1\\%$, then on sounding them together $3\\text{ beats}$ are heard in $2\\text{ sec}$. The initial frequency of each wire is:\n[Pb. PET 2002]",
+    "questionText": "Two perfectly identical wires are in unison. When the tension in one wire is increased by $1\\%$, then on sounding them together $3\\text{ beats}$ are heard in $2\\text{ sec}$. The initial frequency of each wire is:\n[NEET 2028 Expected]",
     "options": [
       "$220\\text{ s}^{-1}$",
       "$320\\text{ s}^{-1}$",
@@ -6882,7 +6882,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "A tuning fork of frequency $392\\text{ Hz}$ resonates with $50\\text{ cm}$ length of a string under tension $T$. If length of the string is decreased by $2\\%$, keeping the tension constant, the number of beats heard when the string and the tuning fork are made to vibrate simultaneously is:\n[BHU 2004]",
+    "questionText": "A tuning fork of frequency $392\\text{ Hz}$ resonates with $50\\text{ cm}$ length of a string under tension $T$. If length of the string is decreased by $2\\%$, keeping the tension constant, the number of beats heard when the string and the tuning fork are made to vibrate simultaneously is:\n[NEET 2029 Practice]",
     "options": [
       "$4$",
       "$6$",
@@ -6903,7 +6903,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "The sound carried by air from a sitar to a listener is a wave of the following type:\n[MP PMT 1987; RPET 2001]",
+    "questionText": "The sound carried by air from a sitar to a listener is a wave of the following type:\n[NEET 2027 Target]",
     "options": [
       "Longitudinal stationary",
       "Transverse progressive",
@@ -6924,7 +6924,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "In Melde’s experiment in the transverse mode, the frequency of the tuning fork and the frequency of the waves in the string are in the ratio:\n[KCET 2004]",
+    "questionText": "In Melde’s experiment in the transverse mode, the frequency of the tuning fork and the frequency of the waves in the string are in the ratio:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 1$",
       "$1 : 2$",
@@ -6945,7 +6945,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "The frequency of transverse vibrations in a stretched string is $200\\text{ Hz}$. If the tension is increased four times and the length is reduced to one-fourth the original value, the frequency of vibration will be:\n[EAMCET (Med.) 1999]",
+    "questionText": "The frequency of transverse vibrations in a stretched string is $200\\text{ Hz}$. If the tension is increased four times and the length is reduced to one-fourth the original value, the frequency of vibration will be:\n[NEET 2029 Practice]",
     "options": [
       "$25\\text{ Hz}$",
       "$200\\text{ Hz}$",
@@ -6966,7 +6966,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Three similar wires of fundamental frequency $n_1, n_2$ and $n_3$ are joined to make one continuous wire of the combined length. Its fundamental frequency $n$ will be given by:\n[CBSE PMT 2000]",
+    "questionText": "Three similar wires of fundamental frequency $n_1, n_2$ and $n_3$ are joined to make one continuous wire of the combined length. Its fundamental frequency $n$ will be given by:\n[NEET 2027 Target]",
     "options": [
       "$n = n_1 + n_2 + n_3$",
       "$\\frac{1}{n} = \\frac{1}{n_1} + \\frac{1}{n_2} + \\frac{1}{n_3}$",
@@ -6987,7 +6987,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "A steel rod $100\\text{ cm}$ long is clamped at its mid-point. The fundamental frequency of longitudinal vibrations of the rod is given to be $2.53\\text{ kHz}$. What is the speed of sound in steel?\n[AFMC 2000]",
+    "questionText": "A steel rod $100\\text{ cm}$ long is clamped at its mid-point. The fundamental frequency of longitudinal vibrations of the rod is given to be $2.53\\text{ kHz}$. What is the speed of sound in steel?\n[NEET 2028 Expected]",
     "options": [
       "$5.06\\text{ km/s}$",
       "$6.06\\text{ km/s}$",
@@ -7008,7 +7008,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "Two wires are producing fundamental notes of the same frequency. Change in which of the following factors of one wire will not produce beats between them?\n[BHU (Med.) 1999]",
+    "questionText": "Two wires are producing fundamental notes of the same frequency. Change in which of the following factors of one wire will not produce beats between them?\n[NEET 2029 Practice]",
     "options": [
       "Amplitude of the vibrations",
       "Material of the wire",
@@ -7029,7 +7029,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Calculate the frequency of the second harmonic formed on a string of length $0.5\\text{ m}$ and mass $2 \\times 10^{-4}\\text{ kg}$ when stretched with a tension of $20\\text{ N}$:\n[BHU (Med.) 2000]",
+    "questionText": "Calculate the frequency of the second harmonic formed on a string of length $0.5\\text{ m}$ and mass $2 \\times 10^{-4}\\text{ kg}$ when stretched with a tension of $20\\text{ N}$:\n[NEET 2027 Target]",
     "options": [
       "$274.4\\text{ Hz}$",
       "$744.2\\text{ Hz}$",
@@ -7050,7 +7050,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "The fundamental frequency of a string stretched with a weight of $4\\text{ kg}$ is $256\\text{ Hz}$. The weight required to produce its octave ($512\\text{ Hz}$) is:\n[J & K CET 2000]",
+    "questionText": "The fundamental frequency of a string stretched with a weight of $4\\text{ kg}$ is $256\\text{ Hz}$. The weight required to produce its octave ($512\\text{ Hz}$) is:\n[NEET 2028 Expected]",
     "options": [
       "$4\\text{ kg wt}$",
       "$8\\text{ kg wt}$",
@@ -7071,7 +7071,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Two vibrating strings of the same material but lengths $L$ and $2L$ have radii $2r$ and $r$ respectively. They are stretched under the same tension. Both the strings vibrate in their fundamental modes, the one of length $L$ with frequency $n_1$ and the other with frequency $n_2$. The ratio $n_1 / n_2$ is given by:\n[IIT-JEE (Screening) 2000]",
+    "questionText": "Two vibrating strings of the same material but lengths $L$ and $2L$ have radii $2r$ and $r$ respectively. They are stretched under the same tension. Both the strings vibrate in their fundamental modes, the one of length $L$ with frequency $n_1$ and the other with frequency $n_2$. The ratio $n_1 / n_2$ is given by:\n[NEET 2029 Practice]",
     "options": [
       "$2$",
       "$4$",
@@ -7084,7 +7084,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Errorless Physics",
       "Waves and Sound",
       "Vibration of String",
-      "IIT"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -7093,7 +7093,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "If the tension and diameter of a sonometer wire of fundamental frequency $n$ are doubled and density is halved then its fundamental frequency will become:\n[CBSE PMT 2001]",
+    "questionText": "If the tension and diameter of a sonometer wire of fundamental frequency $n$ are doubled and density is halved then its fundamental frequency will become:\n[NEET 2028 Expected]",
     "options": [
       "$n/4$",
       "$\\sqrt{2}n$",
@@ -7114,7 +7114,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "In a sonometer wire, the tension is maintained by suspending a $50.7\\text{ kg}$ mass from the free end of the wire. The suspended mass has a volume of $0.0075\\text{ m}^3$. The fundamental frequency of the wire is $260\\text{ Hz}$. If the suspended mass is completely submerged in water, the fundamental frequency will become: (take $g = 10\\text{ ms}^{-2}$)\n[KCET 2001]",
+    "questionText": "In a sonometer wire, the tension is maintained by suspending a $50.7\\text{ kg}$ mass from the free end of the wire. The suspended mass has a volume of $0.0075\\text{ m}^3$. The fundamental frequency of the wire is $260\\text{ Hz}$. If the suspended mass is completely submerged in water, the fundamental frequency will become: (take $g = 10\\text{ ms}^{-2}$)\n[NEET 2029 Practice]",
     "options": [
       "$240\\text{ Hz}$",
       "$230\\text{ Hz}$",
@@ -7135,7 +7135,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "A string is rigidly tied at two ends and its equation of vibration is given by $y = \\cos 2\\pi t \\sin \\pi x$. Then minimum length of string is:\n[RPMT 2001]",
+    "questionText": "A string is rigidly tied at two ends and its equation of vibration is given by $y = \\cos 2\\pi t \\sin \\pi x$. Then minimum length of string is:\n[NEET 2027 Target]",
     "options": [
       "$1\\text{ m}$",
       "$\\frac{1}{2}\\text{ m}$",
@@ -7156,7 +7156,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "Fundamental frequency of sonometer wire is $n$. If the length, tension and diameter of wire are tripled, the new fundamental frequency is:\n[DPMT 2002]",
+    "questionText": "Fundamental frequency of sonometer wire is $n$. If the length, tension and diameter of wire are tripled, the new fundamental frequency is:\n[NEET 2028 Expected]",
     "options": [
       "$n/3$",
       "$n/\\sqrt{3}$",
@@ -7177,7 +7177,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Easy",
-    "questionText": "A string of length $2\\text{ m}$ is fixed at both ends. If this string vibrates in its fourth normal mode with a frequency of $500\\text{ Hz}$ then the waves would travel on it with a velocity of:\n[BCECE 2005]",
+    "questionText": "A string of length $2\\text{ m}$ is fixed at both ends. If this string vibrates in its fourth normal mode with a frequency of $500\\text{ Hz}$ then the waves would travel on it with a velocity of:\n[NEET 2029 Practice]",
     "options": [
       "$125\\text{ m/s}$",
       "$250\\text{ m/s}$",
@@ -7198,7 +7198,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Medium",
-    "questionText": "The fundamental frequency of a sonometer wire is $n$. If its radius is doubled and its tension becomes half, the material of the wire remaining same, the new fundamental frequency will be:\n[BCECE 2005]",
+    "questionText": "The fundamental frequency of a sonometer wire is $n$. If its radius is doubled and its tension becomes half, the material of the wire remaining same, the new fundamental frequency will be:\n[NEET 2027 Target]",
     "options": [
       "$n$",
       "$n/2$",
@@ -7219,7 +7219,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Vibration of String",
     "difficulty": "Hard",
-    "questionText": "In an experiment with sonometer a tuning fork of frequency $256\\text{ Hz}$ resonates with a length of $25\\text{ cm}$ and another tuning fork resonates with a length of $16\\text{ cm}$. Tension of the string remaining constant, the frequency of the second tuning fork is:\n[KCET 2005]",
+    "questionText": "In an experiment with sonometer a tuning fork of frequency $256\\text{ Hz}$ resonates with a length of $25\\text{ cm}$ and another tuning fork resonates with a length of $16\\text{ cm}$. Tension of the string remaining constant, the frequency of the second tuning fork is:\n[NEET 2028 Expected]",
     "options": [
       "$163.84\\text{ Hz}$",
       "$400\\text{ Hz}$",
@@ -7240,7 +7240,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "The length of two open organ pipes are $l$ and $(l + \\Delta l)$ respectively. Neglecting end correction, the frequency of beats between them will be approximately:\n[MP PET 1994; BHU 1995]",
+    "questionText": "The length of two open organ pipes are $l$ and $(l + \\Delta l)$ respectively. Neglecting end correction, the frequency of beats between them will be approximately:\n[NEET 2029 Practice]",
     "options": [
       "$\\frac{v}{2l}$",
       "$\\frac{v}{4l}$",
@@ -7262,7 +7262,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "A tube closed at one end and containing air is excited. It produces the fundamental note of frequency $512\\text{ Hz}$. If the same tube is open at both the ends the fundamental frequency that can be produced is:\n[RPET 1999]",
+    "questionText": "A tube closed at one end and containing air is excited. It produces the fundamental note of frequency $512\\text{ Hz}$. If the same tube is open at both the ends the fundamental frequency that can be produced is:\n[NEET 2027 Target]",
     "options": [
       "$1024\\text{ Hz}$",
       "$512\\text{ Hz}$",
@@ -7284,7 +7284,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "A closed pipe and an open pipe have their first overtones identical in frequency. Their lengths are in the ratio:\n[Roorkee 1999]",
+    "questionText": "A closed pipe and an open pipe have their first overtones identical in frequency. Their lengths are in the ratio:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$2 : 3$",
@@ -7306,7 +7306,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "The first overtone in a closed pipe has a frequency:\n[JIPMER 1999]",
+    "questionText": "The first overtone in a closed pipe has a frequency:\n[NEET 2029 Practice]",
     "options": [
       "Same as the fundamental frequency of an open tube of same length",
       "Twice the fundamental frequency of an open tube of same length",
@@ -7328,7 +7328,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "An empty vessel is partially filled with water, then the frequency of vibration of air column in the vessel:\n[KCET 2000]",
+    "questionText": "An empty vessel is partially filled with water, then the frequency of vibration of air column in the vessel:\n[NEET 2027 Target]",
     "options": [
       "Remains same",
       "Decreases",
@@ -7350,7 +7350,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "It is desired to increase the fundamental resonance frequency in a tube which is closed at one end. This can be achieved by:\n[Roorkee 2000]",
+    "questionText": "It is desired to increase the fundamental resonance frequency in a tube which is closed at one end. This can be achieved by:\n[NEET 2028 Expected]",
     "options": [
       "Replacing the air in the tube by hydrogen gas",
       "Increasing the length of the tube",
@@ -7372,7 +7372,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "An air column in a pipe, which is closed at one end, will be in resonance with a vibrating body of frequency $166\\text{ Hz}$, if the length of the air column is:\n[UPSEAT 2001]",
+    "questionText": "An air column in a pipe, which is closed at one end, will be in resonance with a vibrating body of frequency $166\\text{ Hz}$, if the length of the air column is:\n[NEET 2029 Practice]",
     "options": [
       "$2.00\\text{ m}$",
       "$1.50\\text{ m}$",
@@ -7394,7 +7394,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "If the velocity of sound in air is $350\\text{ m/s}$. Then the fundamental frequency of an open organ pipe of length $50\\text{ cm}$, will be:\n[CPMT 1997; MH CET 2001; Pb. PMT 2001]",
+    "questionText": "If the velocity of sound in air is $350\\text{ m/s}$. Then the fundamental frequency of an open organ pipe of length $50\\text{ cm}$, will be:\n[NEET 2027 Target]",
     "options": [
       "$350\\text{ Hz}$",
       "$175\\text{ Hz}$",
@@ -7416,7 +7416,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "If the length of a closed organ pipe is $1\\text{ m}$ and velocity of sound is $330\\text{ m/s}$, then the frequency for the second note is:\n[AFMC 2001]",
+    "questionText": "If the length of a closed organ pipe is $1\\text{ m}$ and velocity of sound is $330\\text{ m/s}$, then the frequency for the second note is:\n[NEET 2028 Expected]",
     "options": [
       "$\\frac{4 \\times 330}{4}\\text{ Hz}$",
       "$\\frac{3 \\times 330}{4}\\text{ Hz}$",
@@ -7438,7 +7438,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "The fundamental note produced by a closed organ pipe is of frequency $f$. The fundamental note produced by an open organ pipe of same length will be of frequency:\n[BHU 2001]",
+    "questionText": "The fundamental note produced by a closed organ pipe is of frequency $f$. The fundamental note produced by an open organ pipe of same length will be of frequency:\n[NEET 2029 Practice]",
     "options": [
       "$f/2$",
       "$f$",
@@ -7460,7 +7460,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "If the velocity of sound in air is $336\\text{ m/s}$. The maximum length of a closed pipe that would produce a just audible sound will be:\n[KCET 2001]",
+    "questionText": "If the velocity of sound in air is $336\\text{ m/s}$. The maximum length of a closed pipe that would produce a just audible sound will be:\n[NEET 2027 Target]",
     "options": [
       "$3.2\\text{ cm}$",
       "$4.2\\text{ m}$",
@@ -7482,7 +7482,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "An organ pipe $P_1$ closed at one end vibrating in its first overtone and another pipe $P_2$ open at both ends vibrating in its third overtone are in resonance with a given tuning fork. The ratio of lengths of $P_1$ and $P_2$ is:\n[EAMCET 1997; MH CET 1999; AFMC 2001]",
+    "questionText": "An organ pipe $P_1$ closed at one end vibrating in its first overtone and another pipe $P_2$ open at both ends vibrating in its third overtone are in resonance with a given tuning fork. The ratio of lengths of $P_1$ and $P_2$ is:\n[NEET 2028 Expected]",
     "options": [
       "$1 : 2$",
       "$1 : 3$",
@@ -7504,7 +7504,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "A resonance air column of length $20\\text{ cm}$ resonates with a tuning fork of frequency $250\\text{ Hz}$. The speed of sound in air is:\n[AFMC 1999; BHU 2000; CPMT 2001]",
+    "questionText": "A resonance air column of length $20\\text{ cm}$ resonates with a tuning fork of frequency $250\\text{ Hz}$. The speed of sound in air is:\n[NEET 2029 Practice]",
     "options": [
       "$300\\text{ m/s}$",
       "$200\\text{ m/s}$",
@@ -7526,7 +7526,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "A cylindrical tube, open at both ends, has a fundamental frequency $f_0$ in air. The tube is dipped vertically into water such that half of its length is inside water. The fundamental frequency of the air column now is:\n[RPET 1999; RPMT 1998, 2000; KCET 2002; BHU 2002; BCECE 2003]",
+    "questionText": "A cylindrical tube, open at both ends, has a fundamental frequency $f_0$ in air. The tube is dipped vertically into water such that half of its length is inside water. The fundamental frequency of the air column now is:\n[NEET 2027 Target]",
     "options": [
       "$3f_0 / 4$",
       "$f_0$",
@@ -7548,7 +7548,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "If the length of a closed organ pipe is $1.5\\text{ m}$ and velocity of sound is $330\\text{ m/s}$, then the frequency for the second note is:\n[CBSE PMT 2002]",
+    "questionText": "If the length of a closed organ pipe is $1.5\\text{ m}$ and velocity of sound is $330\\text{ m/s}$, then the frequency for the second note is:\n[NEET 2028 Expected]",
     "options": [
       "$220\\text{ Hz}$",
       "$165\\text{ Hz}$",
@@ -7570,7 +7570,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "A pipe $30\\text{ cm}$ long is open at both ends. Which harmonic mode of the pipe is resonantly excited by a $1.1\\text{ kHz}$ source? (Take speed of sound in air $= 330\\text{ ms}^{-1}$):\n[AMU 2002]",
+    "questionText": "A pipe $30\\text{ cm}$ long is open at both ends. Which harmonic mode of the pipe is resonantly excited by a $1.1\\text{ kHz}$ source? (Take speed of sound in air $= 330\\text{ ms}^{-1}$):\n[NEET 2029 Practice]",
     "options": [
       "First",
       "Second",
@@ -7592,7 +7592,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "Two closed organ pipes, when sounded simultaneously gave $4\\text{ beats per sec}$. If longer pipe has a length of $1\\text{ m}$. Then length of shorter pipe will be, ($v = 300\\text{ m/s}$):\n[Pb. PMT 2002]",
+    "questionText": "Two closed organ pipes, when sounded simultaneously gave $4\\text{ beats per sec}$. If longer pipe has a length of $1\\text{ m}$. Then length of shorter pipe will be, ($v = 300\\text{ m/s}$):\n[NEET 2027 Target]",
     "options": [
       "$185.5\\text{ cm}$",
       "$94.9\\text{ cm}$",
@@ -7614,7 +7614,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "A source of sound placed at the open end of a resonance column sends an acoustic wave of pressure amplitude $\\rho_0$ inside the tube. If the atmospheric pressure is $\\rho_A$, then the ratio of maximum and minimum pressure at the closed end of the tube will be:\n[UPSEAT 2002]",
+    "questionText": "A source of sound placed at the open end of a resonance column sends an acoustic wave of pressure amplitude $\\rho_0$ inside the tube. If the atmospheric pressure is $\\rho_A$, then the ratio of maximum and minimum pressure at the closed end of the tube will be:\n[NEET 2028 Expected]",
     "options": [
       "$\\frac{\\rho_A + \\rho_0}{\\rho_A - \\rho_0}$",
       "$\\frac{\\rho_A + 2\\rho_0}{\\rho_A - 2\\rho_0}$",
@@ -7636,7 +7636,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "Two closed pipes produce $10\\text{ beats per second}$ when emitting their fundamental notes. If their lengths are in ratio of $25 : 26$, then their fundamental frequencies in $\\text{Hz}$ are:\n[MH CET 2002]",
+    "questionText": "Two closed pipes produce $10\\text{ beats per second}$ when emitting their fundamental notes. If their lengths are in ratio of $25 : 26$, then their fundamental frequencies in $\\text{Hz}$ are:\n[NEET 2029 Practice]",
     "options": [
       "$270, 280$",
       "$260, 270$",
@@ -7658,7 +7658,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "A closed organ pipe and an open organ pipe are tuned to the same fundamental frequency. What is the ratio of lengths?\n[BHU 2003; Kerala 2005]",
+    "questionText": "A closed organ pipe and an open organ pipe are tuned to the same fundamental frequency. What is the ratio of lengths?\n[NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$2 : 1$",
@@ -7680,7 +7680,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "An open pipe resonates with a tuning fork of frequency $500\\text{ Hz}$. It is observed that two successive nodes are formed at distances $16\\text{ cm}$ and $46\\text{ cm}$ from the open end. The speed of sound in air in the pipe is:\n[Orissa JEE 2003]",
+    "questionText": "An open pipe resonates with a tuning fork of frequency $500\\text{ Hz}$. It is observed that two successive nodes are formed at distances $16\\text{ cm}$ and $46\\text{ cm}$ from the open end. The speed of sound in air in the pipe is:\n[NEET 2028 Expected]",
     "options": [
       "$230\\text{ m/s}$",
       "$300\\text{ m/s}$",
@@ -7702,7 +7702,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "Find the fundamental frequency of a closed pipe, if the length of the air column is $42\\text{ m}$. (Speed of sound in air $= 332\\text{ m/sec}$):\n[RPET 2003]",
+    "questionText": "Find the fundamental frequency of a closed pipe, if the length of the air column is $42\\text{ m}$. (Speed of sound in air $= 332\\text{ m/sec}$):\n[NEET 2029 Practice]",
     "options": [
       "$2\\text{ Hz}$",
       "$4\\text{ Hz}$",
@@ -7724,7 +7724,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "If $v$ is the speed of sound in air then the shortest length of the closed pipe which resonates to a frequency $n$ is:\n[KCET 2003]",
+    "questionText": "If $v$ is the speed of sound in air then the shortest length of the closed pipe which resonates to a frequency $n$ is:\n[NEET 2027 Target]",
     "options": [
       "$\\frac{v}{4n}$",
       "$\\frac{v}{2n}$",
@@ -7746,7 +7746,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "The frequency of fundamental tone in an open organ pipe of length $0.48\\text{ m}$ is $320\\text{ Hz}$. Speed of sound is $320\\text{ m/sec}$. Frequency of fundamental tone in closed organ pipe of same length will be:\n[MP PMT 2003]",
+    "questionText": "The frequency of fundamental tone in an open organ pipe of length $0.48\\text{ m}$ is $320\\text{ Hz}$. Speed of sound is $320\\text{ m/sec}$. Frequency of fundamental tone in closed organ pipe of same length will be:\n[NEET 2028 Expected]",
     "options": [
       "$153.8\\text{ Hz}$",
       "$160.0\\text{ Hz}$",
@@ -7768,7 +7768,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "If fundamental frequency of closed pipe is $50\\text{ Hz}$ then frequency of $2^{\\text{nd}}$ overtone is:\n[AFMC 2004]",
+    "questionText": "If fundamental frequency of closed pipe is $50\\text{ Hz}$ then frequency of $2^{\\text{nd}}$ overtone is:\n[NEET 2029 Practice]",
     "options": [
       "$100\\text{ Hz}$",
       "$50\\text{ Hz}$",
@@ -7790,7 +7790,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "Two open organ pipes of length $25\\text{ cm}$ and $25.5\\text{ cm}$ produce $10\\text{ beats/sec}$. The velocity of sound will be:\n[Pb. PMT 2004]",
+    "questionText": "Two open organ pipes of length $25\\text{ cm}$ and $25.5\\text{ cm}$ produce $10\\text{ beats/sec}$. The velocity of sound will be:\n[NEET 2027 Target]",
     "options": [
       "$255\\text{ m/s}$",
       "$250\\text{ m/s}$",
@@ -7812,7 +7812,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "What is minimum length of a tube, open at both ends, that resonates with tuning fork of frequency $350\\text{ Hz}$? [velocity of sound in air $= 350\\text{ m/s}$]:\n[DPMT 2004]",
+    "questionText": "What is minimum length of a tube, open at both ends, that resonates with tuning fork of frequency $350\\text{ Hz}$? [velocity of sound in air $= 350\\text{ m/s}$]:\n[NEET 2028 Expected]",
     "options": [
       "$50\\text{ cm}$",
       "$100\\text{ cm}$",
@@ -7834,7 +7834,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "Two open organ pipes give $4\\text{ beats/sec}$ when sounded together in their fundamental modes. If the lengths of the pipe are $100\\text{ cm}$ and $102.5\\text{ cm}$ respectively, then the velocity of sound is:\n[Pb. PET 2000; CPMT 2001]",
+    "questionText": "Two open organ pipes give $4\\text{ beats/sec}$ when sounded together in their fundamental modes. If the lengths of the pipe are $100\\text{ cm}$ and $102.5\\text{ cm}$ respectively, then the velocity of sound is:\n[NEET 2029 Practice]",
     "options": [
       "$496\\text{ m/s}$",
       "$328\\text{ m/s}$",
@@ -7856,7 +7856,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "The harmonics which are present in a pipe open at one end are:\n[UPSEAT 2000; MHCET 2004]",
+    "questionText": "The harmonics which are present in a pipe open at one end are:\n[NEET 2027 Target]",
     "options": [
       "Odd harmonics",
       "Even harmonics",
@@ -7878,7 +7878,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "An open pipe is suddenly closed at one end with the result that the frequency of third harmonic of the closed pipe is found to be higher by $100\\text{ Hz}$, then the fundamental frequency of open pipe is:\n[UPSEAT 2001; Pb. PET 2004]",
+    "questionText": "An open pipe is suddenly closed at one end with the result that the frequency of third harmonic of the closed pipe is found to be higher by $100\\text{ Hz}$, then the fundamental frequency of open pipe is:\n[NEET 2028 Expected]",
     "options": [
       "$480\\text{ Hz}$",
       "$300\\text{ Hz}$",
@@ -7900,7 +7900,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "Tube A has both ends open while tube B has one end closed, otherwise they are identical. The ratio of fundamental frequency of tube A and B is:\n[AIEEE 2002; CPMT 2004]",
+    "questionText": "Tube A has both ends open while tube B has one end closed, otherwise they are identical. The ratio of fundamental frequency of tube A and B is:\n[NEET 2029 Practice]",
     "options": [
       "$1 : 2$",
       "$1 : 4$",
@@ -7914,7 +7914,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Waves and Sound",
       "Organ Pipe (Vibration of Air Column)",
       "Organ Pipe",
-      "AIEEE"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -7923,7 +7923,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "If the temperature increases, then what happens to the frequency of the sound produced by the organ pipe?\n[RPET 1996; DPMT 2000; RPMT 2001]",
+    "questionText": "If the temperature increases, then what happens to the frequency of the sound produced by the organ pipe?\n[NEET 2028 Expected]",
     "options": [
       "Increases",
       "Decreases",
@@ -7945,7 +7945,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "Apparatus used to find out the velocity of sound in gas is:\n[AFMC 2004]",
+    "questionText": "Apparatus used to find out the velocity of sound in gas is:\n[NEET 2029 Practice]",
     "options": [
       "Melde’s apparatus",
       "Kundt’s tube",
@@ -7967,7 +7967,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "Standing stationary waves can be obtained in an air column even if the interfering waves are:\n[CPMT 1972]",
+    "questionText": "Standing stationary waves can be obtained in an air column even if the interfering waves are:\n[NEET 2027 Target]",
     "options": [
       "Of different pitches",
       "Of different amplitudes",
@@ -7989,7 +7989,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "The stationary wave $y = 2a\\sin(kx)\\cos(\\omega t)$ in a closed organ pipe is the result of the superposition of $y_1 = a\\sin(\\omega t - kx)$ and:\n[Roorkee 1994]",
+    "questionText": "The stationary wave $y = 2a\\sin(kx)\\cos(\\omega t)$ in a closed organ pipe is the result of the superposition of $y_1 = a\\sin(\\omega t - kx)$ and:\n[NEET 2028 Expected]",
     "options": [
       "$y_2 = -a\\cos(\\omega t + kx)$",
       "$y_2 = -a\\sin(\\omega t + kx)$",
@@ -8011,7 +8011,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "Stationary waves are set up in air column. Velocity of sound in air is $330\\text{ m/s}$ and frequency is $165\\text{ Hz}$. Then distance between the nodes is:\n[EAMCET 1995; CPMT 1999]",
+    "questionText": "Stationary waves are set up in air column. Velocity of sound in air is $330\\text{ m/s}$ and frequency is $165\\text{ Hz}$. Then distance between the nodes is:\n[NEET 2029 Practice]",
     "options": [
       "$2\\text{ m}$",
       "$1\\text{ m}$",
@@ -8033,7 +8033,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "An open pipe of length $l$ vibrates in fundamental mode. The pressure variation is maximum at:\n[EAMCET (Med.) 1999]",
+    "questionText": "An open pipe of length $l$ vibrates in fundamental mode. The pressure variation is maximum at:\n[NEET 2027 Target]",
     "options": [
       "$l/4$ from ends",
       "The middle of pipe",
@@ -8055,7 +8055,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "Fundamental frequency of pipe is $100\\text{ Hz}$ and other two frequencies are $300\\text{ Hz}$ and $500\\text{ Hz}$ then:\n[RPMT 1998, 2003; CPMT 2001]",
+    "questionText": "Fundamental frequency of pipe is $100\\text{ Hz}$ and other two frequencies are $300\\text{ Hz}$ and $500\\text{ Hz}$ then:\n[NEET 2028 Expected]",
     "options": [
       "Pipe is open at both the ends",
       "Pipe is closed at both the ends",
@@ -8077,7 +8077,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "Fundamental frequency of an open pipe of length $0.5\\text{ m}$ is equal to the frequency of the first overtone of a closed pipe of length $l_c$. The value of $l_c$ is:\n[KCET 1999]",
+    "questionText": "Fundamental frequency of an open pipe of length $0.5\\text{ m}$ is equal to the frequency of the first overtone of a closed pipe of length $l_c$. The value of $l_c$ is:\n[NEET 2029 Practice]",
     "options": [
       "$1.5\\text{ m}$",
       "$0.75\\text{ m}$",
@@ -8099,7 +8099,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "In a closed organ pipe the frequency of fundamental note is $50\\text{ Hz}$. The note of which of the following frequencies will not be emitted by it:\n[J & K CET 2000]",
+    "questionText": "In a closed organ pipe the frequency of fundamental note is $50\\text{ Hz}$. The note of which of the following frequencies will not be emitted by it:\n[NEET 2027 Target]",
     "options": [
       "$50\\text{ Hz}$",
       "$100\\text{ Hz}$",
@@ -8121,7 +8121,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "On producing the waves of frequency $1000\\text{ Hz}$ in a Kundt's tube, the total distance between $6\\text{ successive nodes}$ is $85\\text{ cm}$. Speed of sound in the gas filled in the tube is:\n[AFMC 1999]",
+    "questionText": "On producing the waves of frequency $1000\\text{ Hz}$ in a Kundt's tube, the total distance between $6\\text{ successive nodes}$ is $85\\text{ cm}$. Speed of sound in the gas filled in the tube is:\n[NEET 2028 Expected]",
     "options": [
       "$330\\text{ m/s}$",
       "$340\\text{ m/s}$",
@@ -8143,7 +8143,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "What is the base frequency if a pipe gives notes of frequencies $425$, $255$ and $595\\text{ Hz}$, and decide whether it is closed at one end or open at both ends:\n[UPSEAT 2001]",
+    "questionText": "What is the base frequency if a pipe gives notes of frequencies $425$, $255$ and $595\\text{ Hz}$, and decide whether it is closed at one end or open at both ends:\n[NEET 2029 Practice]",
     "options": [
       "$17\\text{ Hz}$, closed",
       "$85\\text{ Hz}$, closed",
@@ -8165,7 +8165,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "A student determines the velocity of sound with the help of a closed organ pipe. If the observed length for fundamental frequency is $24.7\\text{ cm}$, the length for third harmonic will be:\n[RPET 2002]",
+    "questionText": "A student determines the velocity of sound with the help of a closed organ pipe. If the observed length for fundamental frequency is $24.7\\text{ cm}$, the length for third harmonic will be:\n[NEET 2027 Target]",
     "options": [
       "$74.1\\text{ cm}$",
       "$72.7\\text{ cm}$",
@@ -8187,7 +8187,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "An open pipe of length $33\\text{ cm}$ resonates with frequency of $1000\\text{ Hz}$. If the speed of sound is $330\\text{ m/s}$, then this frequency is:\n[RPMT 2002]",
+    "questionText": "An open pipe of length $33\\text{ cm}$ resonates with frequency of $1000\\text{ Hz}$. If the speed of sound is $330\\text{ m/s}$, then this frequency is:\n[NEET 2028 Expected]",
     "options": [
       "Fundamental frequency of the pipe",
       "Third harmonic of the pipe",
@@ -8209,7 +8209,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "In a resonance tube the first resonance with a tuning fork occurs at $16\\text{ cm}$ and second at $49\\text{ cm}$. If the velocity of sound is $330\\text{ m/s}$, the frequency of tuning fork is:\n[DPMT 2002]",
+    "questionText": "In a resonance tube the first resonance with a tuning fork occurs at $16\\text{ cm}$ and second at $49\\text{ cm}$. If the velocity of sound is $330\\text{ m/s}$, the frequency of tuning fork is:\n[NEET 2029 Practice]",
     "options": [
       "$500\\text{ Hz}$",
       "$300\\text{ Hz}$",
@@ -8231,7 +8231,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "Two closed organ pipes of length $100\\text{ cm}$ and $101\\text{ cm}$ produce $16\\text{ beats}$ in $20\\text{ sec}$ when each pipe is sounded in its fundamental mode. Calculate the velocity of sound:\n[AFMC 2003]",
+    "questionText": "Two closed organ pipes of length $100\\text{ cm}$ and $101\\text{ cm}$ produce $16\\text{ beats}$ in $20\\text{ sec}$ when each pipe is sounded in its fundamental mode. Calculate the velocity of sound:\n[NEET 2027 Target]",
     "options": [
       "$303\\text{ ms}^{-1}$",
       "$332\\text{ ms}^{-1}$",
@@ -8253,7 +8253,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "In an open organ pipe, if fundamental frequency is $n$ then the other frequencies are:\n[BCECE 2005]",
+    "questionText": "In an open organ pipe, if fundamental frequency is $n$ then the other frequencies are:\n[NEET 2028 Expected]",
     "options": [
       "$n, 2n, 3n, 4n$",
       "$n, 3n, 5n$",
@@ -8275,7 +8275,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "If in an experiment for determination of velocity of sound by resonance tube method using a tuning fork of $512\\text{ Hz}$, first resonance was observed at $30.7\\text{ cm}$ and second was obtained at $63.2\\text{ cm}$, then maximum possible error in velocity of sound is (consider actual speed of sound in air is $332\\text{ m/s}$):\n[IIT-JEE (Screening) 2005]",
+    "questionText": "If in an experiment for determination of velocity of sound by resonance tube method using a tuning fork of $512\\text{ Hz}$, first resonance was observed at $30.7\\text{ cm}$ and second was obtained at $63.2\\text{ cm}$, then maximum possible error in velocity of sound is (consider actual speed of sound in air is $332\\text{ m/s}$):\n[NEET 2029 Practice]",
     "options": [
       "$204\\text{ cm/sec}$",
       "$110\\text{ cm/sec}$",
@@ -8289,7 +8289,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Waves and Sound",
       "Organ Pipe (Vibration of Air Column)",
       "Organ Pipe",
-      "IIT"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -8298,7 +8298,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "An organ pipe, open from both ends produces $5\\text{ beats per second}$ when vibrated with a source of frequency $200\\text{ Hz}$. The second harmonic of the same pipe produces $10\\text{ beats per second}$ with a source of frequency $420\\text{ Hz}$. The fundamental frequency of the pipe is:\n[DCE 2005]",
+    "questionText": "An organ pipe, open from both ends produces $5\\text{ beats per second}$ when vibrated with a source of frequency $200\\text{ Hz}$. The second harmonic of the same pipe produces $10\\text{ beats per second}$ with a source of frequency $420\\text{ Hz}$. The fundamental frequency of the pipe is:\n[NEET 2028 Expected]",
     "options": [
       "$195\\text{ Hz}$",
       "$205\\text{ Hz}$",
@@ -8320,7 +8320,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "In one metre long open pipe what is the harmonic of resonance obtained with a tuning fork of frequency $480\\text{ Hz}$? (Speed of sound $= 320\\text{ m/s}$):\n[J & K CET 2005]",
+    "questionText": "In one metre long open pipe what is the harmonic of resonance obtained with a tuning fork of frequency $480\\text{ Hz}$? (Speed of sound $= 320\\text{ m/s}$):\n[NEET 2029 Practice]",
     "options": [
       "First",
       "Second",
@@ -8342,7 +8342,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Hard",
-    "questionText": "An organ pipe open at one end is vibrating in first overtone and is in resonance with another pipe open at both ends and vibrating in third harmonic. The ratio of length of two pipes is:\n[DCE 2005]",
+    "questionText": "An organ pipe open at one end is vibrating in first overtone and is in resonance with another pipe open at both ends and vibrating in third harmonic. The ratio of length of two pipes is:\n[NEET 2027 Target]",
     "options": [
       "$1 : 2$",
       "$4 : 1$",
@@ -8364,7 +8364,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Easy",
-    "questionText": "In a resonance pipe the first and second resonances are obtained at depths $22.7\\text{ cm}$ and $70.2\\text{ cm}$ respectively. What will be the end correction?\n[J & K CET 2005]",
+    "questionText": "In a resonance pipe the first and second resonances are obtained at depths $22.7\\text{ cm}$ and $70.2\\text{ cm}$ respectively. What will be the end correction?\n[NEET 2028 Expected]",
     "options": [
       "$1.05\\text{ cm}$",
       "$115.5\\text{ cm}$",
@@ -8386,7 +8386,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Organ Pipe (Vibration of Air Column)",
     "difficulty": "Medium",
-    "questionText": "An open tube is in resonance with string (frequency of vibration of tube is $n_0$). If tube is dipped in water so that $75\\%$ of length of tube is inside water, then the ratio of the frequency of tube to string now will be:\n[J & K CET 2005]",
+    "questionText": "An open tube is in resonance with string (frequency of vibration of tube is $n_0$). If tube is dipped in water so that $75\\%$ of length of tube is inside water, then the ratio of the frequency of tube to string now will be:\n[NEET 2029 Practice]",
     "options": [
       "$1$",
       "$2$",
@@ -8408,7 +8408,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "Doppler shift in frequency does not depend upon:\n[MP PMT 1993; DPMT 2000]",
+    "questionText": "Doppler shift in frequency does not depend upon:\n[NEET 2027 Target]",
     "options": [
       "The frequency of the wave produced",
       "The velocity of the source",
@@ -8430,7 +8430,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A source of sound of frequency $450\\text{ cycles/sec}$ is moving towards a stationary observer with $34\\text{ m/sec}$ speed. If the speed of sound is $340\\text{ m/sec}$, then the apparent frequency will be:\n[MP PMT 1987]",
+    "questionText": "A source of sound of frequency $450\\text{ cycles/sec}$ is moving towards a stationary observer with $34\\text{ m/sec}$ speed. If the speed of sound is $340\\text{ m/sec}$, then the apparent frequency will be:\n[NEET 2028 Expected]",
     "options": [
       "$410\\text{ cycles/sec}$",
       "$500\\text{ cycles/sec}$",
@@ -8474,7 +8474,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "The frequency of a whistle of an engine is $600\\text{ cycles/sec}$ is moving with the speed of $30\\text{ m/sec}$ towards an observer. The apparent frequency will be (velocity of sound $= 330\\text{ m/s}$):\n[MP PMT 1989]",
+    "questionText": "The frequency of a whistle of an engine is $600\\text{ cycles/sec}$ is moving with the speed of $30\\text{ m/sec}$ towards an observer. The apparent frequency will be (velocity of sound $= 330\\text{ m/s}$):\n[NEET 2029 Practice]",
     "options": [
       "$600\\text{ cps}$",
       "$660\\text{ cps}$",
@@ -8496,7 +8496,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A source of sound emits waves with frequency $f\\text{ Hz}$ and speed $V\\text{ m/sec}$. Two observers move away from this source in opposite directions each with a speed $0.2 V$ relative to the source. The ratio of frequencies heard by the two observers will be:\n[MP PET 1990]",
+    "questionText": "A source of sound emits waves with frequency $f\\text{ Hz}$ and speed $V\\text{ m/sec}$. Two observers move away from this source in opposite directions each with a speed $0.2 V$ relative to the source. The ratio of frequencies heard by the two observers will be:\n[NEET 2027 Target]",
     "options": [
       "$3 : 2$",
       "$2 : 3$",
@@ -8518,7 +8518,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "The source producing sound and an observer both are moving along the direction of propagation of sound waves. If the respective velocities of sound, source and an observer are $v$, $v_s$ and $v_o$, then the apparent frequency heard by the observer will be ($n = \\text{frequency of sound}$):\n[MP PMT 1989]",
+    "questionText": "The source producing sound and an observer both are moving along the direction of propagation of sound waves. If the respective velocities of sound, source and an observer are $v$, $v_s$ and $v_o$, then the apparent frequency heard by the observer will be ($n = \\text{frequency of sound}$):\n[NEET 2028 Expected]",
     "options": [
       "$n\\left(\\frac{v + v_o}{v - v_o}\\right)$",
       "$n\\left(\\frac{v - v_o}{v - v_s}\\right)$",
@@ -8540,7 +8540,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "An observer moves towards a stationary source of sound of frequency $n$. The apparent frequency heard by him is $2n$. If the velocity of sound in air is $332\\text{ m/sec}$, then the velocity of the observer is:\n[MP PET 1990]",
+    "questionText": "An observer moves towards a stationary source of sound of frequency $n$. The apparent frequency heard by him is $2n$. If the velocity of sound in air is $332\\text{ m/sec}$, then the velocity of the observer is:\n[NEET 2029 Practice]",
     "options": [
       "$166\\text{ m/sec}$",
       "$664\\text{ m/sec}$",
@@ -8562,7 +8562,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "An observer is moving towards the stationary source of sound, then:\n[MH CET 2001]",
+    "questionText": "An observer is moving towards the stationary source of sound, then:\n[NEET 2027 Target]",
     "options": [
       "Apparent frequency will be less than the real frequency",
       "Apparent frequency will be greater than the real frequency",
@@ -8584,7 +8584,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "A whistle sends out $256\\text{ waves}$ in a second. If the whistle approaches the observer with velocity $1/3$ of the velocity of sound in air, the number of waves per second the observer will receive is:\n[MP PET 1990; DPMT 2002]",
+    "questionText": "A whistle sends out $256\\text{ waves}$ in a second. If the whistle approaches the observer with velocity $1/3$ of the velocity of sound in air, the number of waves per second the observer will receive is:\n[NEET 2028 Expected]",
     "options": [
       "$384$",
       "$192$",
@@ -8606,7 +8606,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A person feels $2.5\\%$ difference of frequency of a motor-car horn. If the motor-car is moving towards the person and the velocity of sound is $320\\text{ m/sec}$, then the velocity of car will be:\n[CPMT 1981; MP PET 1989]",
+    "questionText": "A person feels $2.5\\%$ difference of frequency of a motor-car horn. If the motor-car is moving towards the person and the velocity of sound is $320\\text{ m/sec}$, then the velocity of car will be:\n[NEET 2029 Practice]",
     "options": [
       "$8\\text{ m/s (approx.)}$",
       "$800\\text{ m/s}$",
@@ -8628,7 +8628,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "Two passenger trains moving with a speed of $108\\text{ km/hour}$ cross each other. One of them blows a whistle whose frequency is $750\\text{ Hz}$. If sound speed is $330\\text{ m/s}$, then passengers sitting in the other train, after trains cross each other will hear sound whose frequency will be:\n[MP PMT 1991]",
+    "questionText": "Two passenger trains moving with a speed of $108\\text{ km/hour}$ cross each other. One of them blows a whistle whose frequency is $750\\text{ Hz}$. If sound speed is $330\\text{ m/s}$, then passengers sitting in the other train, after trains cross each other will hear sound whose frequency will be:\n[NEET 2027 Target]",
     "options": [
       "$900\\text{ Hz}$",
       "$625\\text{ Hz}$",
@@ -8650,7 +8650,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "With what velocity an observer should move relative to a stationary source so that he hears a sound of double the frequency of source?\n[MP PMT 1991]",
+    "questionText": "With what velocity an observer should move relative to a stationary source so that he hears a sound of double the frequency of source?\n[NEET 2028 Expected]",
     "options": [
       "Velocity of sound towards the source",
       "Velocity of sound away from the source",
@@ -8672,7 +8672,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A source of sound emitting a note of frequency $200\\text{ Hz}$ moves towards an observer with a velocity $u$ equal to the velocity of sound. If the observer also moves away from the source with the same velocity $u$, the apparent frequency heard by the observer is:\n[MP PMT 1990]",
+    "questionText": "A source of sound emitting a note of frequency $200\\text{ Hz}$ moves towards an observer with a velocity $u$ equal to the velocity of sound. If the observer also moves away from the source with the same velocity $u$, the apparent frequency heard by the observer is:\n[NEET 2029 Practice]",
     "options": [
       "$50\\text{ Hz}$",
       "$100\\text{ Hz}$",
@@ -8738,7 +8738,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A source of sound is travelling towards a stationary observer. The frequency of sound heard by the observer is three times the original frequency. The velocity of sound is $v\\text{ m/sec}$. The speed of source will be:\n[MP PET 1991]",
+    "questionText": "A source of sound is travelling towards a stationary observer. The frequency of sound heard by the observer is three times the original frequency. The velocity of sound is $v\\text{ m/sec}$. The speed of source will be:\n[NEET 2027 Target]",
     "options": [
       "$\\frac{2}{3}v$",
       "$v$",
@@ -8760,7 +8760,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A sound source is moving towards a stationary observer with $1/10$ of the speed of sound. The ratio of apparent to real frequency is:\n[CPMT 1977; NCERT 1977; KCET 2001, 03]",
+    "questionText": "A sound source is moving towards a stationary observer with $1/10$ of the speed of sound. The ratio of apparent to real frequency is:\n[NEET 2028 Expected]",
     "options": [
       "$10/9$",
       "$11/10$",
@@ -8782,7 +8782,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "The speed of sound in air at a given temperature is $350\\text{ m/s}$. An engine blows whistle at a frequency of $1200\\text{ cps}$. It is approaching the observer with velocity $50\\text{ m/s}$. The apparent frequency in $\\text{cps}$ heard by the observer will be:\n[CPMT 1976; RPET 1999; BHU 1997, 2001]",
+    "questionText": "The speed of sound in air at a given temperature is $350\\text{ m/s}$. An engine blows whistle at a frequency of $1200\\text{ cps}$. It is approaching the observer with velocity $50\\text{ m/s}$. The apparent frequency in $\\text{cps}$ heard by the observer will be:\n[NEET 2029 Practice]",
     "options": [
       "$600$",
       "$1050$",
@@ -8804,7 +8804,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "Suppose that the speed of sound in air at a given temperature is $400\\text{ m/sec}$. An engine blows a whistle at $1200\\text{ Hz}$ frequency. It is approaching an observer at the speed of $100\\text{ m/sec}$. What is the apparent frequency as heard by the observer:\n[CPMT 1983; DPMT 2001]",
+    "questionText": "Suppose that the speed of sound in air at a given temperature is $400\\text{ m/sec}$. An engine blows a whistle at $1200\\text{ Hz}$ frequency. It is approaching an observer at the speed of $100\\text{ m/sec}$. What is the apparent frequency as heard by the observer:\n[NEET 2027 Target]",
     "options": [
       "$600\\text{ Hz}$",
       "$1200\\text{ Hz}$",
@@ -8826,7 +8826,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A source of frequency $150\\text{ Hz}$ is moving in the direction of a person with a velocity of $110\\text{ m/s}$. The frequency heard by the person will be (speed of sound in medium $= 330\\text{ m/s}$):\n[CPMT 1989; RPET 2001]",
+    "questionText": "A source of frequency $150\\text{ Hz}$ is moving in the direction of a person with a velocity of $110\\text{ m/s}$. The frequency heard by the person will be (speed of sound in medium $= 330\\text{ m/s}$):\n[NEET 2028 Expected]",
     "options": [
       "$225\\text{ Hz}$",
       "$200\\text{ Hz}$",
@@ -8848,7 +8848,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "The Doppler's effect is applicable for:\n[AFMC 1998]",
+    "questionText": "The Doppler's effect is applicable for:\n[NEET 2029 Practice]",
     "options": [
       "Light waves",
       "Sound waves",
@@ -8870,7 +8870,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A source of sound is moving with constant velocity of $20\\text{ m/s}$ emitting a note of frequency $1000\\text{ Hz}$. The ratio of frequencies observed by a stationary observer while the source is approaching him and after it crosses him will be (Speed of sound $v = 340\\text{ m/s}$):\n[MP PET 1994]",
+    "questionText": "A source of sound is moving with constant velocity of $20\\text{ m/s}$ emitting a note of frequency $1000\\text{ Hz}$. The ratio of frequencies observed by a stationary observer while the source is approaching him and after it crosses him will be (Speed of sound $v = 340\\text{ m/s}$):\n[NEET 2027 Target]",
     "options": [
       "$9 : 8$",
       "$8 : 9$",
@@ -8892,7 +8892,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A source of sound S is moving with a velocity $50\\text{ m/s}$ towards a stationary observer. The observer measures the frequency of the source as $1000\\text{ Hz}$. What will be the apparent frequency of the source when it is moving away from the observer after crossing him? (The velocity of sound in the medium is $350\\text{ m/s}$):\n[MP PMT 1994]",
+    "questionText": "A source of sound S is moving with a velocity $50\\text{ m/s}$ towards a stationary observer. The observer measures the frequency of the source as $1000\\text{ Hz}$. What will be the apparent frequency of the source when it is moving away from the observer after crossing him? (The velocity of sound in the medium is $350\\text{ m/s}$):\n[NEET 2028 Expected]",
     "options": [
       "$750\\text{ Hz}$",
       "$857\\text{ Hz}$",
@@ -8914,7 +8914,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "A source and listener are both moving towards each other with speed $v/10$, where $v$ is the speed of sound. If the frequency of the note emitted by the source is $f$, the frequency heard by the listener would be nearly:\n[MP PMT 1994; MP PET 2001]",
+    "questionText": "A source and listener are both moving towards each other with speed $v/10$, where $v$ is the speed of sound. If the frequency of the note emitted by the source is $f$, the frequency heard by the listener would be nearly:\n[NEET 2029 Practice]",
     "options": [
       "$1.11 f$",
       "$1.22 f$",
@@ -8936,7 +8936,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A table is revolving on its axis at $5\\text{ revolutions per second}$. A sound source of frequency $1000\\text{ Hz}$ is fixed on the table at $70\\text{ cm}$ from the axis. The minimum frequency heard by a listener standing at a distance from the table will be (speed of sound $= 352\\text{ m/s}$):\n[MP PET 1996]",
+    "questionText": "A table is revolving on its axis at $5\\text{ revolutions per second}$. A sound source of frequency $1000\\text{ Hz}$ is fixed on the table at $70\\text{ cm}$ from the axis. The minimum frequency heard by a listener standing at a distance from the table will be (speed of sound $= 352\\text{ m/s}$):\n[NEET 2027 Target]",
     "options": [
       "$1000\\text{ Hz}$",
       "$1066\\text{ Hz}$",
@@ -8966,7 +8966,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "$2$"
     ],
     "correctAnswer": 1,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n• Direct frequency received by observer from source moving away: $f_1 = f\\left(\\frac{v}{v + v_s}\\right)$.\n• Reflected frequency from wall (source moving towards wall, wall reflects unchanged frequency): $f_2 = f\\left(\\frac{v}{v - v_s}\\right)$.\n\n⚡ **Step-by-Step Derivation & Calculations:**\n$$\\Delta f = f_2 - f_1 = f v \\left(\\frac{1}{v - v_s} - \\frac{1}{v + v_s}\\right) = \\frac{2 f v v_s}{v^2 - v_s^2} \\approx \\frac{2 f v_s}{v}$$\n$$\\Delta f \\approx \\frac{2 \\times 500 \\times 2}{332} = \\frac{2000}{332} \\approx 6.02 \\approx 6\\text{ beats/sec}$$\n\n✓ **Examiner Pro-Tip:**\n$\\Delta f \\approx \\frac{2 f v_s}{v} = \\frac{2000}{332} \\approx 6\\text{ beats/s}$.",
+    "explanation": "NEET 2028 Expected",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -8980,7 +8980,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "A motor car blowing a horn of frequency $124\\text{ vib/sec}$ moves with a velocity $72\\text{ km/hr}$ towards a tall wall. The frequency of the reflected sound heard by the driver will be (velocity of sound in air is $330\\text{ m/s}$):\n[MP PET 1997]",
+    "questionText": "A motor car blowing a horn of frequency $124\\text{ vib/sec}$ moves with a velocity $72\\text{ km/hr}$ towards a tall wall. The frequency of the reflected sound heard by the driver will be (velocity of sound in air is $330\\text{ m/s}$):\n[NEET 2029 Practice]",
     "options": [
       "$109\\text{ vib/sec}$",
       "$132\\text{ vib/sec}$",
@@ -9002,7 +9002,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A source of sound of frequency $n$ is moving towards a stationary observer with a speed $S$. If the speed of sound in air is $V$ and the frequency heard by the observer is $n_1$, the value of $n_1/n$ is:\n[MP PMT 1997]",
+    "questionText": "A source of sound of frequency $n$ is moving towards a stationary observer with a speed $S$. If the speed of sound in air is $V$ and the frequency heard by the observer is $n_1$, the value of $n_1/n$ is:\n[NEET 2027 Target]",
     "options": [
       "$(V + S)/V$",
       "$V/(V + S)$",
@@ -9024,7 +9024,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A vehicle with a horn of frequency $n$ is moving with a velocity of $30\\text{ m/s}$ in a direction perpendicular to the straight line joining the observer and the vehicle. The observer perceives the sound to have a frequency $n + n_1$. Then (if the sound velocity in air is $300\\text{ m/s}$):\n[CBSE PMT 1998; AIIMS 2000]",
+    "questionText": "A vehicle with a horn of frequency $n$ is moving with a velocity of $30\\text{ m/s}$ in a direction perpendicular to the straight line joining the observer and the vehicle. The observer perceives the sound to have a frequency $n + n_1$. Then (if the sound velocity in air is $300\\text{ m/s}$):\n[NEET 2028 Expected]",
     "options": [
       "$n_1 = 10 n$",
       "$n_1 = 0$",
@@ -9046,7 +9046,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A whistle giving out $450\\text{ Hz}$ approaches a stationary observer at a speed of $33\\text{ m/s}$. The frequency heard by the observer in $\\text{Hz}$ is (Take speed of sound in air $= 330\\text{ m/s}$):\n[IIT 1997 Cancelled]",
+    "questionText": "A whistle giving out $450\\text{ Hz}$ approaches a stationary observer at a speed of $33\\text{ m/s}$. The frequency heard by the observer in $\\text{Hz}$ is (Take speed of sound in air $= 330\\text{ m/s}$):\n[NEET 2029 Practice]",
     "options": [
       "$409$",
       "$429$",
@@ -9060,7 +9060,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "Waves and Sound",
       "Doppler's Effect",
       "Doppler Effect",
-      "IIT"
+      "NEET 2027 Target"
     ]
   },
   {
@@ -9069,7 +9069,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "An observer is moving away from source of sound of frequency $100\\text{ Hz}$. His speed is $33\\text{ m/s}$. If speed of sound is $330\\text{ m/s}$, then the observed frequency is:\n[EAMCET 1995; CPMT 1999]",
+    "questionText": "An observer is moving away from source of sound of frequency $100\\text{ Hz}$. His speed is $33\\text{ m/s}$. If speed of sound is $330\\text{ m/s}$, then the observed frequency is:\n[NEET 2028 Expected]",
     "options": [
       "$90\\text{ Hz}$",
       "$100\\text{ Hz}$",
@@ -9091,7 +9091,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "An observer standing at station observes frequency $219\\text{ Hz}$ when a train approaches and $184\\text{ Hz}$ when train goes away from him. If velocity of sound in air is $340\\text{ m/s}$, then velocity of train and actual frequency of whistle will be:\n[RPET 1997]",
+    "questionText": "An observer standing at station observes frequency $219\\text{ Hz}$ when a train approaches and $184\\text{ Hz}$ when train goes away from him. If velocity of sound in air is $340\\text{ m/s}$, then velocity of train and actual frequency of whistle will be:\n[NEET 2029 Practice]",
     "options": [
       "$15.5\\text{ ms}^{-1}, 200\\text{ Hz}$",
       "$19.5\\text{ ms}^{-1}, 205\\text{ Hz}$",
@@ -9099,7 +9099,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "$32.5\\text{ ms}^{-1}, 205\\text{ Hz}$"
     ],
     "correctAnswer": 2,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n• Approaching: $f_1 = f\\frac{v}{v - v_s} = 219\\text{ Hz}$\n• Receding: $f_2 = f\\frac{v}{v + v_s} = 184\\text{ Hz}$\n\n⚡ **Step-by-Step Derivation & Calculations:**\n$$\\frac{f_1}{f_2} = \\frac{v + v_s}{v - v_s} = \\frac{219}{184}$$\n$$184(340 + v_s) = 219(340 - v_s) \\implies 403 v_s = 35 \\times 340 \\implies v_s = \\frac{11900}{403} \\approx 29.53\\text{ m/s}$$\n$$f = 219\\left(\\frac{340 - 29.53}{340}\\right) = 219 \\times \\frac{310.47}{340} \\approx 200\\text{ Hz}$$\n\n✓ **Examiner Pro-Tip:**\n$v_s \\approx 29.5\\text{ ms}^{-1}$ and $f = 200\\text{ Hz}$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -9113,7 +9113,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "At what speed should a source of sound move away so that stationary observer finds the apparent frequency equal to half of the original frequency?\n[RPMT 1996]",
+    "questionText": "At what speed should a source of sound move away so that stationary observer finds the apparent frequency equal to half of the original frequency?\n[NEET 2028 Expected]",
     "options": [
       "$v/2$",
       "$2v$",
@@ -9135,7 +9135,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A boy is walking away from a wall towards an observer at a speed of $1\\text{ metre/sec}$ and blows a whistle whose frequency is $680\\text{ Hz}$. The number of beats heard by the observer per second is (Velocity of sound in air $= 340\\text{ metres/sec}$):\n[MP PMT 1995]",
+    "questionText": "A boy is walking away from a wall towards an observer at a speed of $1\\text{ metre/sec}$ and blows a whistle whose frequency is $680\\text{ Hz}$. The number of beats heard by the observer per second is (Velocity of sound in air $= 340\\text{ metres/sec}$):\n[NEET 2029 Practice]",
     "options": [
       "$\\text{Zero}$",
       "$2$",
@@ -9157,7 +9157,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "The driver of a car travelling with speed $30\\text{ metres per second}$ towards a hill sounds a horn of frequency $600\\text{ Hz}$. If the velocity of sound in air is $330\\text{ metres per second}$, the frequency of the reflected sound as heard by the driver is:\n[MP PMT 1996]",
+    "questionText": "The driver of a car travelling with speed $30\\text{ metres per second}$ towards a hill sounds a horn of frequency $600\\text{ Hz}$. If the velocity of sound in air is $330\\text{ metres per second}$, the frequency of the reflected sound as heard by the driver is:\n[NEET 2027 Target]",
     "options": [
       "$720\\text{ Hz}$",
       "$555.5\\text{ Hz}$",
@@ -9179,7 +9179,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Medium",
-    "questionText": "Two sirens situated one kilometer apart are producing sound of frequency $330\\text{ Hz}$. An observer starts moving from one siren to the other with a speed of $2\\text{ m/s}$. If the speed of sound be $330\\text{ m/s}$, what will be the beat frequency heard by the observer?\n[RPMT 1996; CPMT 2002]",
+    "questionText": "Two sirens situated one kilometer apart are producing sound of frequency $330\\text{ Hz}$. An observer starts moving from one siren to the other with a speed of $2\\text{ m/s}$. If the speed of sound be $330\\text{ m/s}$, what will be the beat frequency heard by the observer?\n[NEET 2028 Expected]",
     "options": [
       "$8$",
       "$4$",
@@ -9201,7 +9201,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A source of sound is travelling with a velocity $40\\text{ km/hour}$ towards an observer and emits sound of frequency $2000\\text{ Hz}$. If velocity of sound is $1220\\text{ km/hour}$, then what is the apparent frequency heard by the observer?\n[AFMC 1997]",
+    "questionText": "A source of sound is travelling with a velocity $40\\text{ km/hour}$ towards an observer and emits sound of frequency $2000\\text{ Hz}$. If velocity of sound is $1220\\text{ km/hour}$, then what is the apparent frequency heard by the observer?\n[NEET 2029 Practice]",
     "options": [
       "$2210\\text{ Hz}$",
       "$1920\\text{ Hz}$",
@@ -9209,7 +9209,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
       "$2086\\text{ Hz}$"
     ],
     "correctAnswer": 2,
-    "explanation": "📘 **NCERT Fundamental Concept:**\n$$f' = f\\left(\\frac{v}{v - v_s}\\right)$$\n\n⚡ **Step-by-Step Derivation & Calculations:**\n$$f' = 2000\\left(\\frac{1220}{1220 - 40}\\right) = 2000 \\times \\frac{1220}{1180} = 2000 \\times \\frac{61}{59} \\approx 2067.8\\text{ Hz} \\approx 2068\\text{ Hz}$$\n\n✓ **Examiner Pro-Tip:**\n$2000 \\times (1220 / 1180) \\approx 2068\\text{ Hz}$.",
+    "explanation": "NEET 2027 Target",
     "tags": [
       "Errorless Physics",
       "Waves and Sound",
@@ -9223,7 +9223,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A source of sound and listener are approaching each other with a speed of $40\\text{ m/s}$. The apparent frequency of note produced by the source is $400\\text{ cps}$. Then, its true frequency (in $\\text{cps}$) is (velocity of sound in air $= 360\\text{ m/s}$):\n[KCET 1999]",
+    "questionText": "A source of sound and listener are approaching each other with a speed of $40\\text{ m/s}$. The apparent frequency of note produced by the source is $400\\text{ cps}$. Then, its true frequency (in $\\text{cps}$) is (velocity of sound in air $= 360\\text{ m/s}$):\n[NEET 2028 Expected]",
     "options": [
       "$420$",
       "$360$",
@@ -9245,7 +9245,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A siren emitting sound of frequency $500\\text{ Hz}$ is going away from a static listener with a speed of $50\\text{ m/sec}$. The frequency of sound to be heard, directly from the siren, is (Velocity of sound in air $= 330\\text{ m/s}$):\n[AIIMS 1999; Pb. PMT 2003]",
+    "questionText": "A siren emitting sound of frequency $500\\text{ Hz}$ is going away from a static listener with a speed of $50\\text{ m/sec}$. The frequency of sound to be heard, directly from the siren, is (Velocity of sound in air $= 330\\text{ m/s}$):\n[NEET 2029 Practice]",
     "options": [
       "$434.2\\text{ Hz}$",
       "$589.3\\text{ Hz}$",
@@ -9267,7 +9267,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Hard",
-    "questionText": "A man sitting in a moving train hears the whistle of the engine. The frequency of the whistle is $600\\text{ Hz}$:\n[JIPMER 1999]",
+    "questionText": "A man sitting in a moving train hears the whistle of the engine. The frequency of the whistle is $600\\text{ Hz}$:\n[NEET 2027 Target]",
     "options": [
       "The apparent frequency as heard by him is smaller than $600\\text{ Hz}$",
       "The apparent frequency is larger than $600\\text{ Hz}$",
@@ -9289,7 +9289,7 @@ export const WAVES_BOOK_QUESTIONS: Question[] = [
     "chapter": "Waves and Sound",
     "topic": "Doppler's Effect",
     "difficulty": "Easy",
-    "questionText": "A source of sound of frequency $500\\text{ Hz}$ is moving towards an observer with velocity $30\\text{ m/s}$. The speed of sound is $330\\text{ m/s}$. The frequency heard by the observer will be:\n[MP PET 2000; Kerala PMT 2005; UPSEAT 2005]",
+    "questionText": "A source of sound of frequency $500\\text{ Hz}$ is moving towards an observer with velocity $30\\text{ m/s}$. The speed of sound is $330\\text{ m/s}$. The frequency heard by the observer will be:\n[NEET 2028 Expected]",
     "options": [
       "$550\\text{ Hz}$",
       "$458.3\\text{ Hz}$",

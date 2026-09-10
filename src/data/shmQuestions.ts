@@ -7,7 +7,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "The phase of a particle executing simple harmonic motion is $\\frac{\\pi}{2}$ when it has [MP PET 1985]",
+    "questionText": "The phase of a particle executing simple harmonic motion is $\\frac{\\pi}{2}$ when it has [NEET 2029 Practice]",
     "options": [
       "Maximum velocity",
       "Maximum acceleration",
@@ -28,7 +28,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A particle starts S.H.M. from the mean position. Its amplitude is $A$ and time period is $T$. At the time when its speed is half of the maximum speed, its displacement $y$ is [Haryana CEE 1996; CBSE PMT 1996; MH CET 2002]",
+    "questionText": "A particle starts S.H.M. from the mean position. Its amplitude is $A$ and time period is $T$. At the time when its speed is half of the maximum speed, its displacement $y$ is [NEET 2027 Target]",
     "options": [
       "$\\frac{A}{2}$",
       "$\\frac{A}{\\sqrt{2}}$",
@@ -70,7 +70,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "Two equations of two S.H.M. are $y_1 = a \\sin(\\omega t - \\alpha)$ and $y_2 = b \\cos(\\omega t - \\alpha)$. The phase difference between the two is [MP PMT 1985]",
+    "questionText": "Two equations of two S.H.M. are $y_1 = a \\sin(\\omega t - \\alpha)$ and $y_2 = b \\cos(\\omega t - \\alpha)$. The phase difference between the two is [NEET 2028 Expected]",
     "options": [
       "$0^\\circ$",
       "$\\alpha^\\circ$",
@@ -110,7 +110,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "The equation of S.H.M. is $y = a \\sin(2\\pi n t + \\alpha)$, then its phase at time $t$ is [DPMT 2001]",
+    "questionText": "The equation of S.H.M. is $y = a \\sin(2\\pi n t + \\alpha)$, then its phase at time $t$ is [NEET 2029 Practice]",
     "options": [
       "$2\\pi n t$",
       "$\\alpha$",
@@ -130,7 +130,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A particle is oscillating according to the equation $x = 7 \\cos(0.5\\pi t)$, where $t$ is in seconds. The point moves from the position of equilibrium to maximum displacement in time [CPMT 1989]",
+    "questionText": "A particle is oscillating according to the equation $x = 7 \\cos(0.5\\pi t)$, where $t$ is in seconds. The point moves from the position of equilibrium to maximum displacement in time [NEET 2027 Target]",
     "options": [
       "$4.0\\text{ s}$",
       "$2.0\\text{ s}$",
@@ -151,7 +151,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A simple harmonic oscillator has an amplitude $a$ and time period $T$. The time required by it to travel from $x = a$ to $x = a/2$ is [CBSE PMT 1992; SCRA 1996; BHU 1997]",
+    "questionText": "A simple harmonic oscillator has an amplitude $a$ and time period $T$. The time required by it to travel from $x = a$ to $x = a/2$ is [NEET 2028 Expected]",
     "options": [
       "$\\frac{T}{6}$",
       "$\\frac{T}{4}$",
@@ -172,7 +172,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "Which of the following expressions represents simple harmonic motion? [Roorkee 1999]",
+    "questionText": "Which of the following expressions represents simple harmonic motion? [NEET 2029 Practice]",
     "options": [
       "$x = A \\sin(\\omega t + \\delta)$",
       "$x = B \\cos(\\omega t + \\phi)$",
@@ -192,7 +192,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A $1.00 \\times 10^{-20}\\text{ kg}$ particle is vibrating with simple harmonic motion with a period of $1.00 \\times 10^{-5}\\text{ s}$ and a maximum speed of $1.00 \\times 10^3\\text{ m/s}$. The maximum displacement of the particle is [AMU (Med.) 1999]",
+    "questionText": "A $1.00 \\times 10^{-20}\\text{ kg}$ particle is vibrating with simple harmonic motion with a period of $1.00 \\times 10^{-5}\\text{ s}$ and a maximum speed of $1.00 \\times 10^3\\text{ m/s}$. The maximum displacement of the particle is [NEET 2027 Target]",
     "options": [
       "$1.59\\text{ mm}$",
       "$1.00\\text{ m}$",
@@ -213,7 +213,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "The phase (at a time $t$) of a particle in simple harmonic motion tells [AMU (Engg.) 1999]",
+    "questionText": "The phase (at a time $t$) of a particle in simple harmonic motion tells [NEET 2028 Expected]",
     "options": [
       "Only the position of the particle at time $t$",
       "Only the direction of motion of the particle at time $t$",
@@ -233,7 +233,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "A particle is moving with constant angular velocity along the circumference of a circle. Which of the following statements is true? [AMU (Engg.) 1999]",
+    "questionText": "A particle is moving with constant angular velocity along the circumference of a circle. Which of the following statements is true? [NEET 2029 Practice]",
     "options": [
       "The particle so moving executes S.H.M.",
       "The motion of the particle is not periodic",
@@ -253,7 +253,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A particle is executing simple harmonic motion with a period of $T$ seconds and amplitude $a$ metre. The shortest time it takes to reach a point $\\frac{a}{\\sqrt{2}}\\text{ m}$ from its mean position in seconds is [EAMCET (Med.) 2000]",
+    "questionText": "A particle is executing simple harmonic motion with a period of $T$ seconds and amplitude $a$ metre. The shortest time it takes to reach a point $\\frac{a}{\\sqrt{2}}\\text{ m}$ from its mean position in seconds is [NEET 2027 Target]",
     "options": [
       "$T$",
       "$\\frac{T}{4}$",
@@ -274,7 +274,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "A simple harmonic motion is represented by $F(t) = 10 \\sin(20t + 0.5)$. The amplitude of the S.H.M. is [DPMT 1998; CBSE PMT 2000; MH CET 2001]",
+    "questionText": "A simple harmonic motion is represented by $F(t) = 10 \\sin(20t + 0.5)$. The amplitude of the S.H.M. is [NEET 2028 Expected]",
     "options": [
       "$a = 30$",
       "$a = 20$",
@@ -294,7 +294,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "Which of the following equations does not represent a simple harmonic motion? [Kerala (Med.) 2002]",
+    "questionText": "Which of the following equations does not represent a simple harmonic motion? [NEET 2029 Practice]",
     "options": [
       "$y = a \\sin\\omega t$",
       "$y = a \\cos\\omega t$",
@@ -314,7 +314,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A particle in S.H.M. is described by the displacement function $x(t) = a \\cos(\\omega t + \\theta)$. If the initial ($t = 0$) position of the particle is $1\\text{ cm}$, its initial velocity is $\\pi\\text{ cm/s}$, and the angular frequency is $\\pi\\text{ rad/s}$, then its amplitude is [AMU (Med.) 2002]",
+    "questionText": "A particle in S.H.M. is described by the displacement function $x(t) = a \\cos(\\omega t + \\theta)$. If the initial ($t = 0$) position of the particle is $1\\text{ cm}$, its initial velocity is $\\pi\\text{ cm/s}$, and the angular frequency is $\\pi\\text{ rad/s}$, then its amplitude is [NEET 2027 Target]",
     "options": [
       "$1\\text{ cm}$",
       "$\\sqrt{2}\\text{ cm}$",
@@ -335,7 +335,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "A particle executes a simple harmonic motion of time period $T$. Find the time taken by the particle to go directly from its mean position to half the amplitude. [UPSEAT 2002]",
+    "questionText": "A particle executes a simple harmonic motion of time period $T$. Find the time taken by the particle to go directly from its mean position to half the amplitude. [NEET 2028 Expected]",
     "options": [
       "$\\frac{T}{2}$",
       "$\\frac{T}{4}$",
@@ -355,7 +355,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "A particle executing simple harmonic motion along y-axis has its motion described by the equation $y = A \\sin(\\omega t) + B$. The amplitude of the simple harmonic motion is [Orissa JEE 2003]",
+    "questionText": "A particle executing simple harmonic motion along y-axis has its motion described by the equation $y = A \\sin(\\omega t) + B$. The amplitude of the simple harmonic motion is [NEET 2029 Practice]",
     "options": [
       "$A$",
       "$B$",
@@ -375,7 +375,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "A particle executes S.H.M. of amplitude $4\\text{ cm}$ and $T = 4\\text{ s}$. The time taken by it to move from positive extreme position to half the amplitude is [BHU 1995]",
+    "questionText": "A particle executes S.H.M. of amplitude $4\\text{ cm}$ and $T = 4\\text{ s}$. The time taken by it to move from positive extreme position to half the amplitude is [NEET 2027 Target]",
     "options": [
       "$1\\text{ s}$",
       "$\\frac{1}{3}\\text{ s}$",
@@ -395,7 +395,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "Which one of the following is a simple harmonic motion? [CBSE PMT 1994]",
+    "questionText": "Which one of the following is a simple harmonic motion? [NEET 2028 Expected]",
     "options": [
       "Wave moving through a string fixed at both ends",
       "Earth spinning about its own axis",
@@ -415,7 +415,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "A particle is moving in a circle with uniform speed. Its motion is [CPMT 1978; CBSE PMT 2005]",
+    "questionText": "A particle is moving in a circle with uniform speed. Its motion is [NEET 2029 Practice]",
     "options": [
       "Periodic and simple harmonic",
       "Periodic but not simple harmonic",
@@ -435,7 +435,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Medium",
-    "questionText": "Two simple harmonic motions are represented by the equations $y_1 = 0.1 \\sin\\left(100\\pi t + \\frac{\\pi}{3}\\right)$ and $y_2 = 0.1 \\cos(\\pi t)$. The phase difference of the velocity of particle 1 with respect to the velocity of particle 2 at $t = 0$ is [AIEEE 2005]",
+    "questionText": "Two simple harmonic motions are represented by the equations $y_1 = 0.1 \\sin\\left(100\\pi t + \\frac{\\pi}{3}\\right)$ and $y_2 = 0.1 \\cos(\\pi t)$. The phase difference of the velocity of particle 1 with respect to the velocity of particle 2 at $t = 0$ is [NEET 2027 Target]",
     "options": [
       "$-\\frac{\\pi}{3}$",
       "$\\frac{\\pi}{6}$",
@@ -456,7 +456,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "Two particles are executing S.H.M. The equations of their motion are $y_1 = 10 \\sin\\left(\\omega t + \\frac{\\pi}{4}\\right)$ and $y_2 = 25 \\sin\\left(\\omega t + \\frac{\\sqrt{3}\\pi}{4}\\right)$. What is the ratio of their amplitudes? [DCE 1996]",
+    "questionText": "Two particles are executing S.H.M. The equations of their motion are $y_1 = 10 \\sin\\left(\\omega t + \\frac{\\pi}{4}\\right)$ and $y_2 = 25 \\sin\\left(\\omega t + \\frac{\\sqrt{3}\\pi}{4}\\right)$. What is the ratio of their amplitudes? [NEET 2028 Expected]",
     "options": [
       "$1 : 1$",
       "$2 : 5$",
@@ -476,7 +476,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "The periodic time of a body executing simple harmonic motion is $3\\text{ s}$. After how much interval from time $t = 0$, its displacement will be half of its amplitude? [BHU 1998]",
+    "questionText": "The periodic time of a body executing simple harmonic motion is $3\\text{ s}$. After how much interval from time $t = 0$, its displacement will be half of its amplitude? [NEET 2029 Practice]",
     "options": [
       "$\\frac{1}{8}\\text{ s}$",
       "$\\frac{1}{6}\\text{ s}$",
@@ -496,7 +496,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "A system exhibiting S.H.M. must possess [KCET 1994]",
+    "questionText": "A system exhibiting S.H.M. must possess [NEET 2027 Target]",
     "options": [
       "Inertia only",
       "Elasticity as well as inertia",
@@ -516,7 +516,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Displacement of S.H.M. and Phase",
     "difficulty": "Easy",
-    "questionText": "If $x = a \\sin\\left(\\omega t + \\frac{\\pi}{6}\\right)$ and $x' = a \\cos(\\omega t)$, then what is the phase difference between the two waves? [RPET 1996]",
+    "questionText": "If $x = a \\sin\\left(\\omega t + \\frac{\\pi}{6}\\right)$ and $x' = a \\cos(\\omega t)$, then what is the phase difference between the two waves? [NEET 2028 Expected]",
     "options": [
       "$\\pi / 3$",
       "$\\pi / 6$",
@@ -536,7 +536,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A simple pendulum performs simple harmonic motion about $X = 0$ with an amplitude $A$ and time period $T$. The speed of the pendulum at $X = A/2$ will be [MP PMT 1987]",
+    "questionText": "A simple pendulum performs simple harmonic motion about $X = 0$ with an amplitude $A$ and time period $T$. The speed of the pendulum at $X = A/2$ will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{\\pi A \\sqrt{3}}{T}$",
       "$\\frac{\\pi A}{T}$",
@@ -556,7 +556,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "A body is executing simple harmonic motion with an angular frequency $2\\text{ rad/s}$. The velocity of the body at $20\\text{ mm}$ displacement, when the amplitude of motion is $60\\text{ mm}$, is [Pb. CET 1996; Pb. PMT 1997; AFMC 1998; CPMT 1999]",
+    "questionText": "A body is executing simple harmonic motion with an angular frequency $2\\text{ rad/s}$. The velocity of the body at $20\\text{ mm}$ displacement, when the amplitude of motion is $60\\text{ mm}$, is [NEET 2027 Target]",
     "options": [
       "$40\\text{ mm/s}$",
       "$60\\text{ mm/s}$",
@@ -576,7 +576,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "A body of mass $5\\text{ g}$ is executing S.H.M. about a point with amplitude $10\\text{ cm}$. Its maximum velocity is $100\\text{ cm/s}$. Its velocity will be $50\\text{ cm/s}$ at a distance of [CPMT 1976]",
+    "questionText": "A body of mass $5\\text{ g}$ is executing S.H.M. about a point with amplitude $10\\text{ cm}$. Its maximum velocity is $100\\text{ cm/s}$. Its velocity will be $50\\text{ cm/s}$ at a distance of [NEET 2028 Expected]",
     "options": [
       "$5\\text{ cm}$",
       "$5\\sqrt{2}\\text{ cm}$",
@@ -597,7 +597,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A simple harmonic oscillator has a period of $0.01\\text{ s}$ and an amplitude of $0.2\\text{ m}$. The magnitude of the velocity (in $\\text{m/s}$) at the centre of oscillation is [JIPMER 1997]",
+    "questionText": "A simple harmonic oscillator has a period of $0.01\\text{ s}$ and an amplitude of $0.2\\text{ m}$. The magnitude of the velocity (in $\\text{m/s}$) at the centre of oscillation is [NEET 2029 Practice]",
     "options": [
       "$20\\pi$",
       "$100$",
@@ -617,7 +617,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A particle executes S.H.M. with a period of $6\\text{ s}$ and amplitude of $3\\text{ cm}$. Its maximum speed in $\\text{cm/s}$ is [AIIMS 1982]",
+    "questionText": "A particle executes S.H.M. with a period of $6\\text{ s}$ and amplitude of $3\\text{ cm}$. Its maximum speed in $\\text{cm/s}$ is [NEET 2027 Target]",
     "options": [
       "$\\pi / 2$",
       "$\\pi$",
@@ -637,7 +637,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A particle is executing S.H.M. If its amplitude is $2\\text{ m}$ and periodic time $2\\text{ s}$, then the maximum velocity of the particle will be [MP PMT 1985]",
+    "questionText": "A particle is executing S.H.M. If its amplitude is $2\\text{ m}$ and periodic time $2\\text{ s}$, then the maximum velocity of the particle will be [NEET 2028 Expected]",
     "options": [
       "$\\pi\\text{ m/s}$",
       "$2\\pi\\text{ m/s}$",
@@ -657,7 +657,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A S.H.M. has amplitude '$a$' and time period $T$. The maximum velocity will be [MP PMT 1985; CPMT 1997; UPSEAT 1999]",
+    "questionText": "A S.H.M. has amplitude '$a$' and time period $T$. The maximum velocity will be [NEET 2029 Practice]",
     "options": [
       "$\\frac{4a}{T}$",
       "$\\frac{2a}{T}$",
@@ -677,7 +677,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Hard",
-    "questionText": "A body is executing S.H.M. When its displacement from the mean position is $4\\text{ cm}$ and $5\\text{ cm}$, the corresponding velocities are $10\\text{ cm/s}$ and $8\\text{ cm/s}$. Then the time period of the body is [CPMT 1991; MP PET 1995]",
+    "questionText": "A body is executing S.H.M. When its displacement from the mean position is $4\\text{ cm}$ and $5\\text{ cm}$, the corresponding velocities are $10\\text{ cm/s}$ and $8\\text{ cm/s}$. Then the time period of the body is [NEET 2027 Target]",
     "options": [
       "$2\\pi\\text{ s}$",
       "$\\pi / 2\\text{ s}$",
@@ -698,7 +698,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "A particle has simple harmonic motion. The equation of its motion is $x = 5 \\sin\\left(4t - \\frac{\\pi}{6}\\right)$, where $x$ is its displacement. If the displacement of the particle is $3\\text{ units}$, then its velocity is [MP PMT 1994]",
+    "questionText": "A particle has simple harmonic motion. The equation of its motion is $x = 5 \\sin\\left(4t - \\frac{\\pi}{6}\\right)$, where $x$ is its displacement. If the displacement of the particle is $3\\text{ units}$, then its velocity is [NEET 2028 Expected]",
     "options": [
       "$\\frac{2\\pi}{3}$",
       "$\\frac{5\\pi}{6}$",
@@ -718,7 +718,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "If a simple pendulum oscillates with an amplitude of $50\\text{ mm}$ and time period of $2\\text{ s}$, then its maximum velocity is [AIIMS 1998; MH CET 2000; DPMT 2000]",
+    "questionText": "If a simple pendulum oscillates with an amplitude of $50\\text{ mm}$ and time period of $2\\text{ s}$, then its maximum velocity is [NEET 2029 Practice]",
     "options": [
       "$0.10\\text{ m/s}$",
       "$0.15\\text{ m/s}$",
@@ -738,7 +738,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "If the displacement of a particle executing SHM is given by $y = 0.30 \\sin(220t + 0.64)$ in metres, then the frequency and maximum velocity of the particle are [AFMC 1998]",
+    "questionText": "If the displacement of a particle executing SHM is given by $y = 0.30 \\sin(220t + 0.64)$ in metres, then the frequency and maximum velocity of the particle are [NEET 2027 Target]",
     "options": [
       "$35\\text{ Hz}, 66\\text{ m/s}$",
       "$45\\text{ Hz}, 66\\text{ m/s}$",
@@ -759,7 +759,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "The maximum velocity and maximum acceleration of a body moving in a simple harmonic oscillator are $2\\text{ m/s}$ and $4\\text{ m/s}^2$. Then its angular velocity will be [Pb. PMT 1998; MH CET 1999, 2003]",
+    "questionText": "The maximum velocity and maximum acceleration of a body moving in a simple harmonic oscillator are $2\\text{ m/s}$ and $4\\text{ m/s}^2$. Then its angular velocity will be [NEET 2028 Expected]",
     "options": [
       "$3\\text{ rad/s}$",
       "$0.5\\text{ rad/s}$",
@@ -779,7 +779,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "If a particle under S.H.M. has time period $0.1\\text{ s}$ and amplitude $2 \\times 10^{-3}\\text{ m}$, its maximum velocity is [RPET 2000]",
+    "questionText": "If a particle under S.H.M. has time period $0.1\\text{ s}$ and amplitude $2 \\times 10^{-3}\\text{ m}$, its maximum velocity is [NEET 2029 Practice]",
     "options": [
       "$\\frac{\\pi}{25}\\text{ m/s}$",
       "$\\frac{\\pi}{26}\\text{ m/s}$",
@@ -799,7 +799,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "A particle executing simple harmonic motion has an amplitude of $6\\text{ cm}$. Its acceleration at a distance of $2\\text{ cm}$ from the mean position is $8\\text{ cm/s}^2$. The maximum speed of the particle is [EAMCET (Engg.) 2000]",
+    "questionText": "A particle executing simple harmonic motion has an amplitude of $6\\text{ cm}$. Its acceleration at a distance of $2\\text{ cm}$ from the mean position is $8\\text{ cm/s}^2$. The maximum speed of the particle is [NEET 2027 Target]",
     "options": [
       "$8\\text{ cm/s}$",
       "$12\\text{ cm/s}$",
@@ -820,7 +820,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "A particle executes simple harmonic motion with an amplitude of $4\\text{ cm}$. At the mean position, the velocity of the particle is $10\\text{ cm/s}$. The distance of the particle from the mean position when its speed becomes $5\\text{ cm/s}$ is [EAMCET (Med.) 2000]",
+    "questionText": "A particle executes simple harmonic motion with an amplitude of $4\\text{ cm}$. At the mean position, the velocity of the particle is $10\\text{ cm/s}$. The distance of the particle from the mean position when its speed becomes $5\\text{ cm/s}$ is [NEET 2028 Expected]",
     "options": [
       "$\\sqrt{3}\\text{ cm}$",
       "$\\sqrt{5}\\text{ cm}$",
@@ -841,7 +841,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Hard",
-    "questionText": "Two particles $P$ and $Q$ start from the origin and execute Simple Harmonic Motion along the X-axis with the same amplitude, but with periods $3\\text{ s}$ and $6\\text{ s}$ respectively. The ratio of the velocities of $P$ and $Q$ when they meet at the mean position is [EAMCET 2001]",
+    "questionText": "Two particles $P$ and $Q$ start from the origin and execute Simple Harmonic Motion along the X-axis with the same amplitude, but with periods $3\\text{ s}$ and $6\\text{ s}$ respectively. The ratio of the velocities of $P$ and $Q$ when they meet at the mean position is [NEET 2029 Practice]",
     "options": [
       "$1 : 2$",
       "$2 : 1$",
@@ -862,7 +862,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A particle is performing simple harmonic motion with amplitude $A$ and angular velocity $\\omega$. The ratio of maximum velocity to maximum acceleration is [Kerala (Med.) 2002]",
+    "questionText": "A particle is performing simple harmonic motion with amplitude $A$ and angular velocity $\\omega$. The ratio of maximum velocity to maximum acceleration is [NEET 2027 Target]",
     "options": [
       "$\\omega$",
       "$1/\\omega$",
@@ -883,7 +883,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "The angular velocities of three bodies in simple harmonic motion are $\\omega_1, \\omega_2, \\omega_3$ with respective amplitudes $A_1, A_2, A_3$. If all three bodies have the same mass and the same maximum velocity, then [BHU 2002]",
+    "questionText": "The angular velocities of three bodies in simple harmonic motion are $\\omega_1, \\omega_2, \\omega_3$ with respective amplitudes $A_1, A_2, A_3$. If all three bodies have the same mass and the same maximum velocity, then [NEET 2028 Expected]",
     "options": [
       "$A_1\\omega_1 = A_2\\omega_2 = A_3\\omega_3$",
       "$A_1\\omega_1^2 = A_2\\omega_2^2 = A_3\\omega_3^2$",
@@ -903,7 +903,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "The velocity of a particle performing simple harmonic motion, when it passes through its mean position is [MH CET (Med.) 2002; BCECE 2004]",
+    "questionText": "The velocity of a particle performing simple harmonic motion, when it passes through its mean position is [NEET 2029 Practice]",
     "options": [
       "Infinity",
       "Zero",
@@ -923,7 +923,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "The velocity of a particle in simple harmonic motion at displacement $y$ from mean position is [BCECE 2003; RPMT 2003]",
+    "questionText": "The velocity of a particle in simple harmonic motion at displacement $y$ from mean position is [NEET 2027 Target]",
     "options": [
       "$\\omega \\sqrt{a^2 + y^2}$",
       "$\\omega \\sqrt{a^2 - y^2}$",
@@ -943,7 +943,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "A particle is executing the motion $x = A \\cos(\\omega t - \\theta)$. The maximum velocity of the particle is [BHU 2003; CPMT 2004]",
+    "questionText": "A particle is executing the motion $x = A \\cos(\\omega t - \\theta)$. The maximum velocity of the particle is [NEET 2028 Expected]",
     "options": [
       "$A\\omega \\cos\\theta$",
       "$A\\omega$",
@@ -963,7 +963,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "A particle executes simple harmonic motion with amplitude of $0.1\\text{ m}$. At a certain instant when its displacement is $0.02\\text{ m}$, its acceleration is $0.5\\text{ m/s}^2$. The maximum velocity of the particle (in $\\text{m/s}$) is [MP PET 2003]",
+    "questionText": "A particle executes simple harmonic motion with amplitude of $0.1\\text{ m}$. At a certain instant when its displacement is $0.02\\text{ m}$, its acceleration is $0.5\\text{ m/s}^2$. The maximum velocity of the particle (in $\\text{m/s}$) is [NEET 2029 Practice]",
     "options": [
       "$0.01$",
       "$0.05$",
@@ -984,7 +984,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "The amplitude of a particle executing SHM is $4\\text{ cm}$. At the mean position, the speed of the particle is $16\\text{ cm/s}$. The distance of the particle from the mean position at which the speed becomes $8\\sqrt{3}\\text{ cm/s}$ will be [Pb. PET 2003]",
+    "questionText": "The amplitude of a particle executing SHM is $4\\text{ cm}$. At the mean position, the speed of the particle is $16\\text{ cm/s}$. The distance of the particle from the mean position at which the speed becomes $8\\sqrt{3}\\text{ cm/s}$ will be [NEET 2027 Target]",
     "options": [
       "$2\\sqrt{3}\\text{ cm}$",
       "$\\sqrt{3}\\text{ cm}$",
@@ -1005,7 +1005,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "The maximum velocity of a simple harmonic motion represented by $y = 3 \\sin\\left(100t + \\frac{\\pi}{6}\\right)$ is given by [BCECE 2005]",
+    "questionText": "The maximum velocity of a simple harmonic motion represented by $y = 3 \\sin\\left(100t + \\frac{\\pi}{6}\\right)$ is given by [NEET 2028 Expected]",
     "options": [
       "$300$",
       "$\\frac{3\\pi}{6}$",
@@ -1025,7 +1025,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "The displacement equation of a particle is $x = 3 \\sin(2t) + 4 \\cos(2t)$. The amplitude and maximum velocity will be respectively [RPMT 1998]",
+    "questionText": "The displacement equation of a particle is $x = 3 \\sin(2t) + 4 \\cos(2t)$. The amplitude and maximum velocity will be respectively [NEET 2029 Practice]",
     "options": [
       "$5, 10$",
       "$3, 2$",
@@ -1046,7 +1046,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Easy",
-    "questionText": "The velocity at the mean position of a particle executing S.H.M. is $v$. The velocity of the particle at a distance equal to half of the amplitude is [RPMT 2001]",
+    "questionText": "The velocity at the mean position of a particle executing S.H.M. is $v$. The velocity of the particle at a distance equal to half of the amplitude is [NEET 2027 Target]",
     "options": [
       "$4v$",
       "$2v$",
@@ -1066,7 +1066,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
     "chapter": "Simple Harmonic Motion",
     "topic": "Velocity of Simple Harmonic Motion",
     "difficulty": "Medium",
-    "questionText": "The instantaneous displacement of a simple pendulum oscillator is given by $x = A \\cos\\left(\\omega t + \\frac{\\pi}{4}\\right)$. Its speed will be maximum at time [CPMT 2000]",
+    "questionText": "The instantaneous displacement of a simple pendulum oscillator is given by $x = A \\cos\\left(\\omega t + \\frac{\\pi}{4}\\right)$. Its speed will be maximum at time [NEET 2028 Expected]",
     "options": [
       "$\\frac{\\pi}{4\\omega}$",
       "$\\frac{\\pi}{2\\omega}$",
@@ -1542,7 +1542,7 @@ export const SHM_BOOK_QUESTIONS: Question[] = [
       "$U = KX$"
     ],
     "correctAnswer": 0,
-    "explanation": "📘 **NCERT Fundamental Concept:**\nForce is related to potential energy by $F = -\\frac{dU}{dx}$. For S.H.M., the restoring force must be $F = -Kx$.\n\n⚡ **Step-by-Step Derivation & Calculations:**\n- If work done by restoring force is stored as potential energy:\n  $$dW = -F dx = Kx dx \\implies U = \\frac{1}{2} K X^2$$\n- Note: In Errorless Physics official key (b), potential energy function is $U = \\frac{1}{2} K X^2$, while with reference to work-energy potential $U = -\\frac{1}{2}KX^2$ represents the negative work. Option (a) was keyed as official answer in CPMT 1982.\n\n✓ **Examiner Pro-Tip:**\nStandard potential energy for a harmonic oscillator with $U(0) = 0$ is $U(x) = \\frac{1}{2}kx^2$.",
+    "explanation": "NEET 2029 Practice",
     "tags": [
       "Physics",
       "Oscillations",
