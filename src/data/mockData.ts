@@ -156,6 +156,9 @@ import {
   DUAL_NATURE_XRAYS_QUESTIONS,
   ATOMIC_NUCLEAR_PHYSICS_QUESTIONS,
   SELF_EVALUATION_TEST_26_QUESTIONS,
+  SELF_EVALUATION_TEST_27_QUESTIONS,
+  SEMICONDUCTOR_AIIMS_AR_QUESTIONS,
+  ELECTRONICS_CIRCUIT_AND_GRAPHICAL_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -2009,6 +2012,36 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: ['25 Official Universal Self-Scorer Qs', 'SET-26 Comprehensive Test', 'Full Diagrams & SVGs', 'Step-by-Step Solutions'],
     questions: SELF_EVALUATION_TEST_26_QUESTIONS
+  },
+  {
+    id: 'test-phy-set-27',
+    title: 'Universal Physics: Self Evaluation Test 27 (SET-27 Official 23 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-27: Official Self Evaluation Test (SET-27) Comprehensive Drill (23 Qs)',
+    totalQuestions: 23,
+    durationMinutes: 15,
+    totalMarks: 92,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['23 Official Universal Self-Scorer Qs', 'SET-27 Comprehensive Test', 'Full Diagrams & SVGs', 'Step-by-Step Solutions'],
+    questions: SELF_EVALUATION_TEST_27_QUESTIONS
+  },
+  {
+    id: 'test-phy-universal-elec-ar',
+    title: 'Universal Physics: Electronics AIIMS Assertion-Reason & Circuits (39 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'Universal Self-Scorer Ch-27: High-Yield AIIMS Assertion-Reason (31 Qs) + Circuit/Graphical (8 Qs)',
+    totalQuestions: 39,
+    durationMinutes: 15,
+    totalMarks: 156,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['31 AIIMS A&R + 8 Circuit/Graphical Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
+    questions: [...SEMICONDUCTOR_AIIMS_AR_QUESTIONS, ...ELECTRONICS_CIRCUIT_AND_GRAPHICAL_QUESTIONS]
   },
   {
     id: 'test-phy-ch29',
