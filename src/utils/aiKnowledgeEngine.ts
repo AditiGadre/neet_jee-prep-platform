@@ -2,12 +2,18 @@ import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
 import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructureQuestions';
 import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuestions';
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
+import { ALL_ALLEN_ANATOMY_QUESTIONS } from '../data/allenAnatomyQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 
 const ALL_CHEMISTRY_QUESTIONS_POOL = [
   ...ALL_CHEMISTRY_MASTER_QUESTIONS,
   ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
   ...ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
+];
+
+const ALL_BIOLOGY_QUESTIONS_POOL = [
+  ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
+  ...ALL_ALLEN_ANATOMY_QUESTIONS
 ];
 import { FLASHCARDS_DATA, MIND_MAPS_DATA, PYQS_DATA, BOOKS_DATA } from '../data/mockData';
 import { Question, Flashcard } from '../types';
@@ -122,7 +128,7 @@ export function retrieveRelevantKnowledge(subject: string, userQuery: string): R
   // 1. Select Subject Question Pool
   let questionPool: Question[] = [];
   if (subject === 'Biology') {
-    questionPool = ALL_FINGERTIPS_BIOLOGY_QUESTIONS;
+    questionPool = ALL_BIOLOGY_QUESTIONS_POOL;
   } else if (subject === 'Chemistry') {
     questionPool = ALL_CHEMISTRY_QUESTIONS_POOL;
   } else {
@@ -305,7 +311,7 @@ export function recordAILearningFeedback(payload: {
  */
 export function getAILearningStats() {
   const store = getLearnedKnowledgeStore();
-  const totalBio = ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length;
+  const totalBio = ALL_BIOLOGY_QUESTIONS_POOL.length;
   const totalChem = ALL_CHEMISTRY_QUESTIONS_POOL.length;
   const totalPhys = ALL_PHYSICS_MASTER_QUESTIONS.length;
   const totalFlashcards = FLASHCARDS_DATA.length;

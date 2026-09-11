@@ -120,6 +120,13 @@ import {
   ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
 } from './allenMoleConceptQuestions';
 import {
+  ALLEN_ANATOMY_EXERCISE_1_QUESTIONS,
+  ALLEN_ANATOMY_EXERCISE_2_QUESTIONS,
+  ALLEN_ANATOMY_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_ANATOMY_QUESTIONS
+} from './allenAnatomyQuestions';
+
+import {
   UNITS_BOOK_QUESTIONS,
   VECTORS_BOOK_QUESTIONS,
   MOTION_BOOK_QUESTIONS,
@@ -2514,6 +2521,115 @@ export const TEST_SERIES_DATA: TestItem[] = [
       ...ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(35, 55),
       ...ALLEN_MOLE_EXERCISE_2_QUESTIONS.slice(0, 6),
       ...ALLEN_MOLE_EXERCISE_3_QUESTIONS.slice(0, 4)
+    ]
+  },
+  {
+    id: 'test-bio-allen-anatomy-drill1',
+    title: 'ALLEN Anatomy of Flowering Plants - Drill 1 (The Tissues & Meristems)',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Part 1: Q1-Q30)',
+    description: 'Master meristematic tissues, apical meristems, collenchyma, sclerenchyma, and tracheary/sieve elements with official Allen question codes PA0001-PA0038.',
+    durationMinutes: 25,
+    totalMarks: 120,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['30 Authentic Allen Questions', 'Official PA0001-PA0038 Codes', 'Verified NCERT Solutions', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(0, 30)
+  },
+  {
+    id: 'test-bio-allen-anatomy-drill2',
+    title: 'ALLEN Anatomy of Flowering Plants - Drill 2 (Tissue Systems & Plant Organs)',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Part 2: Q31-Q60)',
+    description: 'Epidermal tissue system, stomatal apparatus, ground tissue, vascular bundles (radial, conjoint, open/closed), and internal organ anatomy.',
+    durationMinutes: 25,
+    totalMarks: 120,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['30 Authentic Allen Questions', 'Tissue Systems & Organs', 'Diagnostic Anatomy Criteria', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(30, 60)
+  },
+  {
+    id: 'test-bio-allen-anatomy-drill3',
+    title: 'ALLEN Anatomy of Flowering Plants - Drill 3 (Organ Anatomy & Secondary Growth)',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Part 3: Q61-Q90)',
+    description: 'Dicot vs monocot roots, stems, dorsiventral/isobilateral leaves, vascular cambium activity, cork cambium (phellogen), and wood classification.',
+    durationMinutes: 25,
+    totalMarks: 120,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['30 Authentic Allen Questions', 'Secondary Growth & Periderm', 'Springwood vs Autumnwood', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(60, 90)
+  },
+  {
+    id: 'test-bio-allen-anatomy-pyq1',
+    title: 'ALLEN Anatomy of Flowering Plants - PYQ Part 1 (AIPMT / NEET 2006-2016)',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-II (Part 1: Q1-Q32)',
+    description: 'Previous decade AIPMT & NEET official exam questions on guard cell structure, tracheary elements, vascular bundles, and stele.',
+    durationMinutes: 25,
+    totalMarks: 128,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['32 Authentic NEET/AIPMT Questions', '100% Official Answer Keys', 'Detailed Historical Analysis', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANATOMY_EXERCISE_2_QUESTIONS.slice(0, 32)
+  },
+  {
+    id: 'test-bio-allen-anatomy-pyq2',
+    title: 'ALLEN Anatomy of Flowering Plants - PYQ Part 2 (NEET 2017-2022)',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-II (Part 2: Q33-Q63)',
+    description: 'Recent high-yield NEET exam questions including springwood/autumnwood, heartwood/sapwood, lenticels, bulliform cells, and root cambium origin.',
+    durationMinutes: 25,
+    totalMarks: 124,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['31 Recent NEET 2017-2022 Questions', 'Official NTA Alignment', 'Tricky Match-the-Columns', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANATOMY_EXERCISE_2_QUESTIONS.slice(32, 63)
+  },
+  {
+    id: 'test-bio-allen-anatomy-analytical',
+    title: 'ALLEN Anatomy of Flowering Plants - Analytical & NCERT Exemplar',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-III (Q1-Q61)',
+    description: 'High-order analytical & NCERT Exemplar questions testing conceptual depth, girdling experiment, Haberlandt theory, and root secondary growth.',
+    durationMinutes: 45,
+    totalMarks: 244,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['61 Analytical & NCERT Based Qs', 'Deep Critical Thinking', 'Comprehensive Anatomy Revision', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANATOMY_EXERCISE_3_QUESTIONS
+  },
+  {
+    id: 'test-bio-allen-anatomy-full',
+    title: 'ALLEN Anatomy of Flowering Plants - Full Chapter Grand Mock',
+    subject: 'Biology',
+    chapter: 'Anatomy of Flowering Plants',
+    subtitle: 'Comprehensive CBT Exam Simulation (45 Questions)',
+    description: 'Full chapter NEET simulation drill covering all anatomy topics with real-time countdown timer, instant evaluation, and detailed step-by-step solutions.',
+    durationMinutes: 30,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: ['NTA NEET Pattern 45 Qs', 'Curated from 214 Official Allen Questions', 'Comprehensive Topic Coverage', 'Timer & Instant Scorecard'],
+    questions: [
+      ...ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(0, 20),
+      ...ALLEN_ANATOMY_EXERCISE_2_QUESTIONS.slice(0, 15),
+      ...ALLEN_ANATOMY_EXERCISE_3_QUESTIONS.slice(0, 10)
     ]
   }
 ];

@@ -25,6 +25,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "3.01 \u00d7 10^11.5",
       "6.02 \u00d7 10^23",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gram atomic mass of oxygen is 16 g mol\u207b\u00b9, which contains exactly 1 mole of oxygen atoms, i.e., Avogadro's number ($N_A = 6.022 \\times 10^{23}$) of atoms.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Given mass of oxygen = $16\\text{ g}$\n2. Atomic mass of oxygen = $16\\text{ g mol}^{-1}$\n3. Number of moles of oxygen atoms = $\\frac{\\text{Mass}}{\\text{Atomic mass}} = \\frac{16}{16} = 1\\text{ mol}$\n4. Number of atoms = $n \\times N_A = 1 \\times 6.02 \\times 10^{23} = 6.02 \\times 10^{23}\\text{ atoms}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: When 'oxygen' is specified by atomic mass (16 g), it refers to atomic oxygen unless molecular oxygen ($O_2$) or NTP volume is explicitly designated."
   },
@@ -43,6 +44,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "2 \u00d7 10^23",
       "6 \u00d7 10^23",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Total number of atoms in a given mass of a compound equals: $\\text{Moles} \\times N_A \\times \\text{Atomicity}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{NH}_3 = 14 + 3(1) = 17\\text{ g mol}^{-1}$\n2. Moles of $\\text{NH}_3 = \\frac{4.25}{17} = 0.25\\text{ mol}$\n3. In 1 molecule of $\\text{NH}_3$, there are $1\\text{ N} + 3\\text{ H} = 4\\text{ atoms}$ (Atomicity = 4).\n4. Total atoms = $0.25 \\times N_A \\times 4 = 1 \\times N_A = 6.02 \\times 10^{23} \\approx 6 \\times 10^{23}\\text{ atoms}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Always distinguish between number of *molecules* ($1.5 \\times 10^{23}$) and total *atoms* ($6 \\times 10^{23}$). Multiplying by atomicity (4) is crucial."
   },
@@ -61,6 +63,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1 g of O\u2083",
       "All have the same number of atoms",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The number of atoms of an element in a given mass of any of its allotropic forms depends only on the total mass of that element and its atomic mass ($A = 16\\text{ g mol}^{-1}$).\n\n\u26a1 **Step-by-Step Calculation**:\n- In $1\\text{ g}$ of $\\text{O}$: Atoms = $\\frac{1}{16} \\times N_A$\n- In $1\\text{ g}$ of $\\text{O}_2$: Moles of $\\text{O}_2 = \\frac{1}{32}$. Atoms of $\\text{O} = \\frac{1}{32} \\times 2 \\times N_A = \\frac{1}{16} N_A$\n- In $1\\text{ g}$ of $\\text{O}_3$: Moles of $\\text{O}_3 = \\frac{1}{48}$. Atoms of $\\text{O} = \\frac{1}{48} \\times 3 \\times N_A = \\frac{1}{16} N_A$\nAll three samples contain exactly $\\frac{N_A}{16}$ atoms of oxygen.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Chemical combination or aggregation into diatomic/triatomic molecules does not alter the fundamental atomic mass; mass of element divided by atomic mass gives identical moles of atoms."
   },
@@ -79,6 +82,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "8 g of oxygen",
       "24 g of Mg",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: '$1\\text{ g-atom}$' is the legacy and standard term for $1\\text{ mole of atoms}$. Hence, $0.5\\text{ g-atom of N} = 0.5\\text{ mole of N atoms} = 0.5 N_A\\text{ atoms}$.\n\n\u26a1 **Step-by-Step Calculation**:\n- Option 1: $12\\text{ g of C} = \\frac{12}{12} = 1\\text{ mole of C atoms}$\n- Option 2: $32\\text{ g of S} = \\frac{32}{32} = 1\\text{ mole of S atoms}$\n- Option 3: $8\\text{ g of oxygen atoms} = \\frac{8}{16} = 0.5\\text{ mole of O atoms} = 0.5 N_A\\text{ atoms}$\n- Option 4: $24\\text{ g of Mg} = \\frac{24}{24} = 1\\text{ mole of Mg atoms}$\nThus, $8\\text{ g of oxygen}$ has exactly $0.5 N_A$ atoms.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Remember: $1\\text{ g-atom} = 1\\text{ mole of atoms}$, $1\\text{ g-molecule} = 1\\text{ mole of molecules}$, $1\\text{ g-ion} = 1\\text{ mole of ions}$."
   },
@@ -97,6 +101,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "28 g of N\u2082",
       "18 g of H\u2082O",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Total atoms = $\\frac{\\text{Mass}}{\\text{Molar mass}} \\times \\text{Atomicity} \\times N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $4\\text{ g of }\\text{H}_2: \\frac{4}{2} \\times 2 \\times N_A = 4 N_A\\text{ atoms}$\n2. $16\\text{ g of }\\text{O}_2: \\frac{16}{32} \\times 2 \\times N_A = 1 N_A\\text{ atoms}$\n3. $28\\text{ g of }\\text{N}_2: \\frac{28}{28} \\times 2 \\times N_A = 2 N_A\\text{ atoms}$\n4. $18\\text{ g of }\\text{H}_2\\text{O}: \\frac{18}{18} \\times 3 \\times N_A = 3 N_A\\text{ atoms}$\nMaximum number of atoms is $4 N_A$ in $4\\text{ g of }\\text{H}_2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Hydrogen has the lowest molar mass ($2\\text{ g mol}^{-1}$), yielding the highest number of moles per unit mass."
   },
@@ -115,6 +120,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "(N_A / 10) \u00d7 7",
       "N_A \u00d7 10 \u00d7 7",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Number of neutrons in a molecule = $\\sum (A - Z)$ for each constituent atom. Total neutrons = $\\text{Moles} \\times N_A \\times \\text{Neutrons per molecule}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{NH}_3 = 17\\text{ g mol}^{-1}$\n2. Moles of $\\text{NH}_3 = \\frac{1.7}{17} = 0.1 = \\frac{1}{10}\\text{ mol}$\n3. Neutrons in $1\\text{ atom of } ^{14}_7\\text{N} = 14 - 7 = 7$\n4. Neutrons in $1\\text{ atom of } ^1_1\\text{H} = 1 - 1 = 0$\n5. Total neutrons per $\\text{NH}_3$ molecule = $7 + 3(0) = 7$\n6. Total neutrons = $\\frac{1}{10} \\times N_A \\times 7 = \\left(\\frac{N_A}{10}\\right) \\times 7$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Protium ($^1_1\\text{H}$) has zero neutrons. Therefore, all neutrons in ammonia originate solely from nitrogen."
   },
@@ -133,6 +139,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.505 \u00d7 10^23 atoms",
       "0.7525 \u00d7 10^23 atoms",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: At STP, $1\\text{ mole}$ of an ideal gas occupies $22.4\\text{ L}$. Oxygen gas exists as diatomic $\\text{O}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{O}_2 = \\frac{5.6\\text{ L}}{22.4\\text{ L mol}^{-1}} = 0.25\\text{ mol}$\n2. Moles of oxygen atoms = $0.25 \\times 2 = 0.5\\text{ mol}$\n3. Number of atoms = $0.5 \\times 6.022 \\times 10^{23} = 3.011 \\times 10^{23}\\text{ atoms}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Don't stop at molecules ($1.505 \\times 10^{23}$); multiplying by atomicity of 2 gives $3.01 \\times 10^{23}$ atoms."
   },
@@ -151,6 +158,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "(6.02 \u00d7 10^23) / 3",
       "(6.02 \u00d7 10^23) / 6",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ozone has molecular formula $\\text{O}_3$ and molar mass $48\\text{ g mol}^{-1}$. Each mole of $\\text{O}_3$ contains 3 moles of oxygen atoms.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{O}_3 = \\frac{8}{48} = \\frac{1}{6}\\text{ mol}$\n2. Moles of $\\text{O atoms} = \\frac{1}{6} \\times 3 = \\frac{1}{2}\\text{ mol}$\n3. Number of oxygen atoms = $\\frac{N_A}{2} = \\frac{6.02 \\times 10^{23}}{2}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Alternatively, mass of oxygen atoms is 8 g. Since atomic mass of O is 16 g mol\u207b\u00b9, moles of O = 8/16 = 0.5 mol, directly giving $N_A / 2$."
   },
@@ -169,6 +177,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.084 \u00d7 10^25",
       "10.84 \u00d7 10^23",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A neutral atom of $^{12}_6\\text{C}$ possesses $Z = 6$ protons, $Z = 6$ electrons, and $A - Z = 12 - 6 = 6$ neutrons.\n\n\u26a1 **Step-by-Step Calculation**:\n1. In one atom of $^{12}_6\\text{C}$:\n   $$\\text{Total particles} = 6\\text{ (protons)} + 6\\text{ (electrons)} + 6\\text{ (neutrons)} = 18$$\n2. Number of moles in $12\\text{ g}$ of $^{12}_6\\text{C} = \\frac{12}{12} = 1\\text{ mol}$\n3. Number of carbon atoms = $1 \\times N_A = 6.022 \\times 10^{23}$\n4. Sum of all fundamental particles:\n   $$18 \\times 6.022 \\times 10^{23} = 1.08396 \\times 10^{25} \\approx 1.084 \\times 10^{25}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Watch the powers of 10 carefully: $18 \\times 6 \\times 10^{23} = 108 \\times 10^{23} = 1.08 \\times 10^{25}$."
   },
@@ -187,6 +196,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "6.99 \u00d7 10^-23",
       "1.53 \u00d7 10^-22",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ amu} = \\frac{1}{N_A}\\text{ g} = 1.6605 \\times 10^{-24}\\text{ g}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Actual mass} = 238 \\times 1.6605 \\times 10^{-24}\\text{ g} = 3.952 \\times 10^{-22}\\text{ g} \\approx 3.94 \\times 10^{-22}\\text{ g}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Mass of a single atom in grams is always of the order of $10^{-22}$ to $10^{-24}\\text{ g}$."
   },
@@ -205,6 +215,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Both (1) & (2) are correct",
       "1.66 \u00d7 10^-24 g",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $18\\text{ g}$ is the molar mass (mass of $6.022 \\times 10^{23}$ molecules). The actual mass of a single molecule is $\\frac{\\text{Molar mass}}{N_A}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Mass of 1 molecule of } \\text{H}_2\\text{O} = \\frac{18\\text{ g}}{6.022 \\times 10^{23}} = 2.989 \\times 10^{-23}\\text{ g} \\approx 2.99 \\times 10^{-23}\\text{ g}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Never confuse 'molar mass' (18 g) with the mass of a single molecule ($2.99 \\times 10^{-23}\\text{ g}$)."
   },
@@ -223,6 +234,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "2.66 \u00d7 10^-23 g",
       "16 N_A g",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass of methane ($\\text{CH}_4$) = $12 + 4(1) = 16\\text{ g mol}^{-1}$. Mass of one molecule is $\\frac{M}{N_A}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Mass of 1 molecule} = \\frac{16\\text{ g}}{6.022 \\times 10^{23}} = 2.657 \\times 10^{-23}\\text{ g} \\approx 2.66 \\times 10^{-23}\\text{ g}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notice option (2) has positive power $10^{22}$ which is an absurd mass for a single molecule; only option (3) has the correct negative exponent $10^{-23}$."
   },
@@ -241,6 +253,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "10 mL of water",
       "3.011 \u00d7 10^23 atoms of oxygen",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Convert each quantity into mass in grams for direct comparison.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $1\\text{ g-atom of C} = 1\\text{ mole of C} = 12\\text{ g}$\n2. $\\frac{1}{2}\\text{ mole of CH}_4 = 0.5 \\times 16 = 8\\text{ g}$\n3. $10\\text{ mL of water}: \\text{Density of } \\text{H}_2\\text{O} = 1\\text{ g mL}^{-1} \\implies \\text{Mass} = 10\\text{ g}$\n4. $3.011 \\times 10^{23}\\text{ atoms of oxygen} = \\frac{3.011 \\times 10^{23}}{6.022 \\times 10^{23}} = 0.5\\text{ mole of O atoms} = 0.5 \\times 16 = 8\\text{ g}$\nComparing masses: $12\\text{ g} > 10\\text{ g} > 8\\text{ g} = 8\\text{ g}$. Highest is $12\\text{ g}$ ($1\\text{ g atom of C}$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: $1\\text{ g-atom}$ represents atomic mass expressed in grams ($1\\text{ mol}$). Do not confuse $1\\text{ g-atom}$ with $1\\text{ g}$ of the element."
   },
@@ -259,6 +272,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.6 g CH\u2084",
       "3.2 g SO\u2082",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Number of molecules is directly proportional to number of moles ($n = \\frac{w}{M}$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Moles of CO}_2 = \\frac{4.4}{44} = 0.10\\text{ mol}$\n2. $\\text{Moles of NH}_3 = \\frac{3.4}{17} = 0.20\\text{ mol}$\n3. $\\text{Moles of CH}_4 = \\frac{1.6}{16} = 0.10\\text{ mol}$\n4. $\\text{Moles of SO}_2 = \\frac{3.2}{64} = 0.05\\text{ mol}$\nLeast moles = $0.05\\text{ mol}$, so $3.2\\text{ g SO}_2$ contains the least number of molecules.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The substance with the smallest value of $\\frac{w}{M}$ contains the minimum number of molecules."
   },
@@ -277,6 +291,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "6.02 \u00d7 10^23",
       "None of these",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Number of molecules} = n \\times N_A = \\frac{w}{M} \\times N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{NH}_3 = \\frac{4.25}{17} = 0.25\\text{ mol}$\n2. $\\text{Number of molecules} = 0.25 \\times 6.022 \\times 10^{23} = 1.5055 \\times 10^{23}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Compare with Q2: Q2 asked for *atoms* ($6 \\times 10^{23}$), whereas Q15 asks for *molecules* ($1.505 \\times 10^{23}$)."
   },
@@ -295,6 +310,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "40 and 30",
       "30 and 20",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass $M = \\frac{\\text{Mass}}{\\text{Moles}}$. Express molecular mass in terms of atomic masses $a$ and $b$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. For $\\text{B}_2\\text{A}_3$:\n   $$M(\\text{B}_2\\text{A}_3) = \\frac{9.0}{0.05} = 180\\text{ g mol}^{-1} \\implies 2b + 3a = 180 \\quad \\text{--- (1)}$$\n2. For $\\text{B}_2\\text{A}$:\n   $$M(\\text{B}_2\\text{A}) = \\frac{10}{0.10} = 100\\text{ g mol}^{-1} \\implies 2b + a = 100 \\quad \\text{--- (2)}$$\n3. Subtracting (2) from (1):\n   $$2a = 80 \\implies a = 40$$\n4. Substitute $a = 40$ into (2):\n   $$2b + 40 = 100 \\implies 2b = 60 \\implies b = 30$$\nAtomic weight of A is 40 and B is 30.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Pay attention to the order requested in question: 'A and B' = 40 and 30."
   },
@@ -313,6 +329,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1/4 mol",
       "1/8 mol",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: At NTP, molar volume of any ideal gas is $22.4\\text{ L mol}^{-1}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$n = \\frac{V}{V_m} = \\frac{5.6\\text{ L}}{22.4\\text{ L mol}^{-1}} = \\frac{1}{4}\\text{ mol}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $5.6\\text{ L} = \\frac{22.4}{4}$, $11.2\\text{ L} = \\frac{22.4}{2}$, $2.24\\text{ L} = \\frac{22.4}{10}$. These standard fractions should be memorized."
   },
@@ -331,6 +348,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "CO\u2082",
       "1 & 3 both",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass $M = \\frac{\\text{Mass}}{\\text{Volume at STP}} \\times 22.4\\text{ L}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of gas = $\\frac{2.24}{22.4} = 0.1\\text{ mol}$\n2. Molar mass $M = \\frac{4.4\\text{ g}}{0.1\\text{ mol}} = 44\\text{ g mol}^{-1}$\n3. Testing options:\n   - $\\text{N}_2\\text{O}: 2(14) + 16 = 44\\text{ g mol}^{-1}$\n   - $\\text{CO}: 12 + 16 = 28\\text{ g mol}^{-1}$\n   - $\\text{CO}_2: 12 + 2(16) = 44\\text{ g mol}^{-1}$\nBoth $\\text{N}_2\\text{O}$ and $\\text{CO}_2$ have molar mass $44\\text{ g mol}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Always check all options when 'both 1 & 3' is an available choice."
   },
@@ -349,6 +367,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1 g O\u2082",
       "1 g H\u2082",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: For equal masses ($w = 1\\text{ g}$), number of molecules is inversely proportional to molar mass: $N = \\frac{w}{M} N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n- $\\text{CO}_2: M = 44\\text{ g mol}^{-1} \\implies n = \\frac{1}{44}$\n- $\\text{N}_2: M = 28\\text{ g mol}^{-1} \\implies n = \\frac{1}{28}$\n- $\\text{O}_2: M = 32\\text{ g mol}^{-1} \\implies n = \\frac{1}{32}$\n- $\\text{H}_2: M = 2\\text{ g mol}^{-1} \\implies n = \\frac{1}{2}$\nLargest molar mass gives the least number of moles. $\\text{CO}_2$ has the highest molar mass (44), hence the least molecules.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Highest molar mass = least molecules for fixed mass."
   },
@@ -367,6 +386,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "(W - V) \u00d7 22400",
       "(W \u00d7 1) / (V \u00d7 22400)",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ mole}$ of any vapor at NTP occupies $22400\\text{ mL}$. Molecular weight is the mass of $22400\\text{ mL}$ of vapor.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of $V\\text{ mL}$ of vapor = $W\\text{ g}$\n2. Mass of $1\\text{ mL}$ of vapor = $\\frac{W}{V}\\text{ g}$\n3. Mass of $22400\\text{ mL}$ of vapor (1 mole) = $\\frac{W}{V} \\times 22400\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Remember that $22.4\\text{ L} = 22400\\text{ mL}$. Because $V$ is given in mL, the conversion factor must be $22400$."
   },
@@ -385,6 +405,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.66 \u00d7 10^-3",
       "9.95 \u00d7 10^-2",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Residual moles = $\\text{Initial moles} - \\text{Removed moles}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{H}_2\\text{SO}_4 = 98\\text{ g mol}^{-1}$\n2. Initial mass = $98\\text{ mg} = 98 \\times 10^{-3}\\text{ g}$\n3. Initial moles = $\\frac{98 \\times 10^{-3}}{98} = 1.0 \\times 10^{-3}\\text{ mol}$\n4. Moles removed = $\\frac{3.01 \\times 10^{20}}{6.02 \\times 10^{23}} = 0.5 \\times 10^{-3}\\text{ mol}$\n5. Moles left = $1.0 \\times 10^{-3} - 0.5 \\times 10^{-3} = 0.5 \\times 10^{-3}\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Convert both quantities to moles first before subtracting to avoid mixed-unit arithmetic errors."
   },
@@ -403,6 +424,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "5",
       "6",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molecular Weight} = 2 \\times \\text{Vapour Density (VD)}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Molecular weight} = 2 \\times 70 = 140$\n2. Formula is $(\\text{CO})_x$, where formula weight of $\\text{CO} = 12 + 16 = 28$\n3. $28 \\times x = 140 \\implies x = \\frac{140}{28} = 5$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: This compound is pentacarbonyl, e.g., $\\text{Fe(CO)}_5$ ligand framework."
   },
@@ -421,6 +443,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "22.4 L",
       "2.4 L",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molecular Weight} = 2 \\times \\text{VD}$. Volume at STP = $\\text{Moles} \\times 22.4\\text{ L}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Molar mass} = 2 \\times 11.2 = 22.4\\text{ g mol}^{-1}$\n2. Moles of gas = $\\frac{\\text{Mass}}{\\text{Molar mass}} = \\frac{2.4\\text{ g}}{22.4\\text{ g mol}^{-1}}$\n3. Volume at STP = $\\text{Moles} \\times 22.4 = \\frac{2.4}{22.4} \\times 22.4 = 2.4\\text{ L}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notice that the factor $22.4$ cancels cleanly! Whenever $M = 22.4$, numerical volume in litres at STP exactly equals mass in grams."
   },
@@ -439,6 +462,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "3.01 \u00d7 10^12",
       "3.01 \u00d7 10^16",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $22400\\text{ mL}$ of any gas at STP contains $6.022 \\times 10^{23}$ molecules.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Number of molecules = $\\frac{V\\text{ (in mL)}}{22400} \\times N_A$\n2. $\\text{Number of molecules} = \\frac{1.12 \\times 10^{-7}}{22400} \\times 6.022 \\times 10^{23}$\n3. $\\frac{1.12 \\times 10^{-7}}{2.24 \\times 10^4} \\times 6.022 \\times 10^{23} = 0.5 \\times 10^{-11} \\times 6.022 \\times 10^{23} = 3.011 \\times 10^{12}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Be mindful of units: volume is given in $\\text{mL}$, so denominator must be $22400\\text{ mL}$ ($2.24 \\times 10^4\\text{ mL}$), not $22.4\\text{ L}$."
   },
@@ -457,6 +481,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "9.6 \u00d7 10^20",
       "9.6 \u00d7 10^23",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Total electrons in polyatomic ion = sum of atomic numbers + negative charge. Total electrons = $\\text{Moles} \\times N_A \\times \\text{Electrons per ion}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Formula mass of $\\text{NO}_3^- = 14 + 3(16) = 62\\text{ g mol}^{-1}$\n2. Electrons in one $\\text{NO}_3^-$ ion = $7\\text{ (from N)} + 3 \\times 8\\text{ (from O)} + 1\\text{ (extra negative charge)} = 32\\text{ electrons}$\n3. Moles of $\\text{NO}_3^- = \\frac{3.1 \\times 10^{-3}\\text{ g}}{62\\text{ g mol}^{-1}} = 0.05 \\times 10^{-3} = 5 \\times 10^{-5}\\text{ mol}$\n4. Total electrons = $5 \\times 10^{-5} \\times (6 \\times 10^{23}) \\times 32 = 30 \\times 10^{18} \\times 32 = 960 \\times 10^{18} = 9.6 \\times 10^{20}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Don't forget to add 1 electron for the $-1$ charge on nitrate ion."
   },
@@ -475,6 +500,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "2.5 g L^-1",
       "1.60 g L^-1",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Density of an ideal gas at NTP is defined as $\\rho = \\frac{\\text{Molar mass}}{\\text{Molar volume}} = \\frac{M}{22.4\\text{ L}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{N}_2 = 28\\text{ g mol}^{-1}$\n2. Density $\\rho = \\frac{28\\text{ g}}{22.4\\text{ L}} = 1.25\\text{ g L}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{28}{22.4} = \\frac{5}{4} = 1.25\\text{ g L}^{-1}$."
   },
@@ -493,6 +519,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "3.01 \u00d7 10^19",
       "6.02 \u00d7 10^20",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Number of carbon atoms = $\\frac{\\text{Mass}}{\\text{Atomic mass}} \\times N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of carbon = $1.2 \\times 10^{-3}\\text{ g}$\n2. Atomic mass of carbon = $12\\text{ g mol}^{-1}$\n3. Moles of carbon = $\\frac{1.2 \\times 10^{-3}}{12} = 1.0 \\times 10^{-4}\\text{ mol}$\n4. Number of atoms = $10^{-4} \\times 6.022 \\times 10^{23} = 6.022 \\times 10^{19}\\text{ atoms}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Classic NCERT problem testing unit conversion from milligrams to grams."
   },
@@ -511,6 +538,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "X\u2082Y\u2083",
       "X\u2083Y\u2082",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: When elements have equal mass ($m$), the ratio of atoms is given by the ratio of their moles: $n_X : n_Y = \\frac{m}{A_X} : \\frac{m}{A_Y} = \\frac{1}{A_X} : \\frac{1}{A_Y}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Let mass of $X$ and $Y$ each be $m\\text{ g}$.\n2. Moles of $X = \\frac{m}{30}$\n3. Moles of $Y = \\frac{m}{20}$\n4. Atomic ratio $n_X : n_Y = \\frac{m}{30} : \\frac{m}{20} = \\frac{1}{3} : \\frac{1}{2} = 2 : 3$\n5. Simplest formula is $\\text{X}_2\\text{Y}_3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Ratio of atoms is inversely proportional to atomic weights when masses are equal: $\\frac{n_X}{n_Y} = \\frac{A_Y}{A_X} = \\frac{20}{30} = \\frac{2}{3}$."
   },
@@ -529,6 +557,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "SO",
       "S\u2082O",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Empirical formula represents the simplest whole-number ratio of atoms in a compound.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\%\\text{ S} = 50\\% \\implies \\text{Mass of S} = 50\\text{ g}$\n2. $\\%\\text{ O} = 100 - 50 = 50\\% \\implies \\text{Mass of O} = 50\\text{ g}$\n3. Moles of S = $\\frac{50}{32} = 1.5625$\n4. Moles of O = $\\frac{50}{16} = 3.125$\n5. Ratio $\\text{S} : \\text{O} = \\frac{1.5625}{1.5625} : \\frac{3.125}{1.5625} = 1 : 2$\n6. Empirical formula is $\\text{SO}_2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notice that moles of O ($50/16$) is exactly twice the moles of S ($50/32$), immediately confirming $\\text{SO}_2$."
   },
@@ -547,6 +576,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "C\u2082H\u2086",
       "C\u2082H\u2082",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Calculate molar percentage of carbon in each hydrocarbon: $\\%\\text{C} = \\frac{\\text{Mass of C}}{\\text{Total Molar Mass}} \\times 100$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of C in $100\\text{ g} = \\frac{80}{12} = 6.67$\n2. Moles of H in $100\\text{ g} = \\frac{20}{1} = 20$\n3. Ratio $\\text{C} : \\text{H} = 6.67 : 20 = 1 : 3 \\implies$ Empirical formula is $\\text{CH}_3$.\n4. Stable molecular formula with empirical formula $\\text{CH}_3$ is $(\\text{CH}_3)_2 = \\text{C}_2\\text{H}_6$ (Ethane).\n5. Check: $\\%\\text{C in } \\text{C}_2\\text{H}_6 = \\frac{24}{30} \\times 100 = 80\\%$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{CH}_3$ is a free radical, so the smallest stable neutral molecule is ethane $\\text{C}_2\\text{H}_6$."
   },
@@ -565,6 +595,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "C\u2082H\u2084O\u2082",
       "CH\u2082O",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molecular formula of glucose is $\\text{C}_6\\text{H}_{12}\\text{O}_6$. The empirical formula is obtained by dividing subscripts by the highest common factor (6).\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Ratio of C : H : O} = 6 : 12 : 6 = 1 : 2 : 1$$\nEmpirical formula is $\\text{CH}_2\\text{O}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{CH}_2\\text{O}$ is also the empirical formula for acetic acid ($\\text{CH}_3\\text{COOH}$) and formaldehyde ($\\text{HCHO}$)."
   },
@@ -583,6 +614,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "MO",
       "M\u2083O\u2084",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar ratio of metal to oxygen determines empirical formula subscripts.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of $\\text{O} = 40\\text{ g} \\implies \\text{Moles of O} = \\frac{40}{16} = 2.5$\n2. Mass of $\\text{M} = 100 - 40 = 60\\text{ g} \\implies \\text{Moles of M} = \\frac{60}{24} = 2.5$\n3. Ratio $\\text{M} : \\text{O} = 2.5 : 2.5 = 1 : 1$\nEmpirical formula is $\\text{MO}$ (e.g., $\\text{MgO}$, where $A = 24$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Equal moles ($2.5 : 2.5$) immediately indicates a 1:1 stoichiometry."
   },
@@ -601,6 +633,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "C\u2082H\u2085CN",
       "CH\u2082(NH)\u2082",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Divide percentage composition by atomic weights to obtain relative molar proportions.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of C = $\\frac{38.8}{12} = 3.23$\n2. Moles of H = $\\frac{16.0}{1} = 16.0$\n3. Moles of N = $\\frac{45.2}{14} = 3.23$\n4. Simplest ratio:\n   $$\\text{C} = \\frac{3.23}{3.23} = 1, \\quad \\text{N} = \\frac{3.23}{3.23} = 1, \\quad \\text{H} = \\frac{16.0}{3.23} \\approx 4.95 \\approx 5$$\n5. Empirical formula = $\\text{CH}_5\\text{N}$, which corresponds to methylamine: $\\text{CH}_3\\text{NH}_2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{CH}_3\\text{NH}_2$ has molar mass $12 + 5(1) + 14 = 31\\text{ g mol}^{-1}$. $\\%\\text{C} = 12/31 = 38.7\\%$, $\\%\\text{H} = 5/31 = 16.1\\%$, $\\%\\text{N} = 14/31 = 45.2\\%$."
   },
@@ -619,6 +652,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "XY\u2082",
       "X\u2083Y",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Number of moles of each element is proportional to $\\frac{\\%\\text{ mass}}{\\text{Atomic mass}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $X = \\frac{50}{10} = 5$\n2. Moles of $Y = \\frac{50}{20} = 2.5$\n3. Atomic ratio $X : Y = \\frac{5}{2.5} : \\frac{2.5}{2.5} = 2 : 1$\nSimplest formula is $\\text{X}_2\\text{Y}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: With equal mass percentages, the element with half the atomic weight has twice the number of atoms."
   },
@@ -637,6 +671,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "CH\u2083OH",
       "C\u2082H\u2086",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Glucose has empirical formula $\\text{CH}_2\\text{O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{CH}_3\\text{COOH}$ (acetic acid) has molecular formula $\\text{C}_2\\text{H}_4\\text{O}_2$.\n2. Ratio of $\\text{C} : \\text{H} : \\text{O} = 2 : 4 : 2 = 1 : 2 : 1$\n3. Empirical formula of acetic acid is $\\text{CH}_2\\text{O}$, which is identical to glucose.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Both carbohydrates and low carboxylic acids of the form $\\text{C}_n(\\text{H}_2\\text{O})_n$ share the empirical formula $\\text{CH}_2\\text{O}$."
   },
@@ -655,6 +690,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "P\u2083S\u2084",
       "P\u2084S\u2083",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Mass of sulphur = Total compound mass - mass of phosphorus.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of $\\text{P} = 1.24\\text{ g}$\n2. Mass of $\\text{S} = 2.20 - 1.24 = 0.96\\text{ g}$\n3. Moles of $\\text{P} = \\frac{1.24}{31} = 0.04\\text{ mol}$\n4. Moles of $\\text{S} = \\frac{0.96}{32} = 0.03\\text{ mol}$\n5. Mole ratio $\\text{P} : \\text{S} = 0.04 : 0.03 = 4 : 3$\nEmpirical formula is $\\text{P}_4\\text{S}_3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Phosphorus sesquisulfide ($\\text{P}_4\\text{S}_3$) is the substance used in strike-anywhere matches."
   },
@@ -673,6 +709,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "I\u2085O\u2082",
       "I\u2082O\u2085",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ratio of moles = $\\frac{\\text{Mass of I}}{\\text{Atomic mass of I}} : \\frac{\\text{Mass of O}}{\\text{Atomic mass of O}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{I} = \\frac{254}{127} = 2$\n2. Moles of $\\text{O} = \\frac{80}{16} = 5$\n3. Ratio of $\\text{I} : \\text{O} = 2 : 5$\nFormula is $\\text{I}_2\\text{O}_5$ (Diiodine pentoxide).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notice $254 = 2 \\times 127$ and $80 = 5 \\times 16$, giving an immediate answer of $\\text{I}_2\\text{O}_5$."
   },
@@ -691,6 +728,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Cr\u2082O\u2084",
       "CrO\u2085",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The ratio of the number of atoms of elements directly yields the empirical formula subscripts.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Ratio of Cr : O} = \\frac{4.8 \\times 10^{10}}{4.8 \\times 10^{10}} : \\frac{9.6 \\times 10^{10}}{4.8 \\times 10^{10}} = 1 : 2$$\nEmpirical formula is $\\text{CrO}_2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The empirical formula must always be in the simplest whole number ratio ($1:2 \\implies \\text{CrO}_2$, not $\\text{Cr}_2\\text{O}_4$)."
   },
@@ -709,6 +747,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "945.27",
       "None",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Minimum molecular weight corresponds to the presence of at least one atom of the given element per molecule ($n = 1$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. For minimum molecular weight, molecule contains at least 1 atom of S (atomic mass = $32\\text{ g mol}^{-1}$).\n2. $\\%\\text{ S} = \\frac{1 \\times 32}{M_{\\min}} \\times 100$\n3. $3.4 = \\frac{3200}{M_{\\min}} \\implies M_{\\min} = \\frac{3200}{3.4} = 941.176\\text{ g mol}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Standard minimum molecular weight formula: $M_{\\min} = \\frac{\\text{Atomic mass} \\times 100}{\\%\\text{ of element}}$."
   },
@@ -727,6 +766,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "4",
       "5",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Mass of element in 1 mole of compound} = n \\times \\text{Atomic mass}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of nitrogen in $1\\text{ mole of caffeine} = \\frac{28.9}{100} \\times 194 = 56.066\\text{ g}$\n2. Number of nitrogen atoms ($n$) = $\\frac{56.066}{14} = 4.004 \\approx 4$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Caffeine formula is $\\text{C}_8\\text{H}_{10}\\text{N}_4\\text{O}_2$, containing exactly 4 nitrogen atoms."
   },
@@ -745,6 +785,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "CH\u2083O",
       "CH\u2082O",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Percentage of oxygen = $100 - (\\%\\text{C} + \\%\\text{H})$. Atomic ratios yield empirical formula subscripts.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\%\\text{O} = 100 - (38.71 + 9.67) = 51.62\\%$\n2. Moles of C = $\\frac{38.71}{12} = 3.226$\n3. Moles of H = $\\frac{9.67}{1} = 9.67$\n4. Moles of O = $\\frac{51.62}{16} = 3.226$\n5. Simplest molar ratio:\n   $$\\text{C} : \\text{H} : \\text{O} = \\frac{3.226}{3.226} : \\frac{9.67}{3.226} : \\frac{3.226}{3.226} = 1 : 2.997 : 1 \\approx 1 : 3 : 1$$\nEmpirical formula is $\\text{CH}_3\\text{O}$ (e.g., ethylene glycol monomer fragment or methoxy radical).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Always calculate oxygen percentage first when not explicitly given."
   },
@@ -763,6 +804,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "468 g",
       "693 g",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Balanced combustion of propane: $\\text{C}_3\\text{H}_8 + 5\\text{O}_2 \\longrightarrow 3\\text{CO}_2 + 4\\text{H}_2\\text{O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of propane ($\\text{C}_3\\text{H}_8$) = $3(12) + 8(1) = 44\\text{ g mol}^{-1}$\n2. Moles of propane burnt = $\\frac{286}{44} = 6.5\\text{ mol}$\n3. According to reaction stoichiometry, $1\\text{ mol } \\text{C}_3\\text{H}_8$ produces $4\\text{ mol } \\text{H}_2\\text{O}$.\n4. Moles of $\\text{H}_2\\text{O}$ produced = $6.5 \\times 4 = 26\\text{ mol}$\n5. Mass of $\\text{H}_2\\text{O}$ = $26\\text{ mol} \\times 18\\text{ g mol}^{-1} = 468\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $286/44 = 143/22 = 13/2 = 6.5$. Multiplying by 4 gives exactly 26 moles of water."
   },
@@ -781,6 +823,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "a g of A combines with b g of B to give C and D",
       "a molecules of A combines with b molecules of B to give C and D",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Stoichiometric coefficients ($a, b, c, d$) represent the relative number of molecules, moles, or volumes (for gases at constant T and P according to Gay-Lussac's law), but NEVER the ratio of masses in grams.\n\n\u26a1 **Step-by-Step Calculation**:\n- Masses combine according to molar masses: $(a \\times M_A)\\text{ g of A}$ reacts with $(b \\times M_B)\\text{ g of B}$.\n- Therefore, 'a g of A combines with b g of B' is fundamentally incorrect.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Coefficients denote particle counts and molar ratios; masses combine according to equivalent weights or $(n \\times M)$."
   },
@@ -799,6 +842,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "125 mole of O\u2082",
       "200 mole of O\u2082",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Combustion reaction of octane: $\\text{C}_8\\text{H}_{18} + \\frac{25}{2}\\text{O}_2 \\longrightarrow 8\\text{CO}_2 + 9\\text{H}_2\\text{O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Volume of petrol = $1.425\\text{ L} = 1425\\text{ mL}$\n2. Mass of petrol = $\\text{Volume} \\times \\text{Density} = 1425 \\times 0.8 = 1140\\text{ g}$\n3. Molar mass of octane ($\\text{C}_8\\text{H}_{18}$) = $8(12) + 18(1) = 114\\text{ g mol}^{-1}$\n4. Moles of octane = $\\frac{1140}{114} = 10\\text{ mol}$\n5. Stoichiometric ratio: $1\\text{ mol } \\text{C}_8\\text{H}_{18}$ requires $12.5\\text{ mol } \\text{O}_2$.\n6. Moles of $\\text{O}_2$ consumed = $10 \\times 12.5 = 125\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Beautiful cancellation: $1425 \\times 0.8 = 1140$, and molar mass is 114, giving exactly 10 moles!"
   },
@@ -817,6 +861,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "9 g O\u2082",
       "4 g O\u2082",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $2\\text{ mol of Al}$ ($2 \\times 27 = 54\\text{ g}$) reacts with $\\frac{3}{2}\\text{ mol of } \\text{O}_2$ ($1.5 \\times 32 = 48\\text{ g}$).\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Mass of } \\text{O}_2 = \\frac{48\\text{ g}}{54\\text{ g}} \\times 9\\text{ g} = \\frac{48}{6} = 8\\text{ g of } \\text{O}_2$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Equivalent mass of $\\text{Al} = 27/3 = 9\\text{ g}$. Equivalent mass of oxygen is $8\\text{ g}$. By law of equivalents, $1\\text{ eq of Al}$ ($9\\text{ g}$) reacts with $1\\text{ eq of } \\text{O}_2$ ($8\\text{ g}$)!"
   },
@@ -835,6 +880,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "2 g of Al reacts with 3/2 L of O\u2082 to produce 1 mol of Al\u2082O\u2083",
       "2 mol of Al reacts with 3/2 mol of O\u2082 to produce 1 mol of Al\u2082O\u2083",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The coefficients in a balanced chemical equation directly express the mole ratio of the participating reactants and products.\n\n\u26a1 **Step-by-Step Calculation**:\n$$2\\text{Al(s)} + \\frac{3}{2}\\text{O}_2\\text{(g)} \\longrightarrow 1\\text{Al}_2\\text{O}_3\\text{(s)}$$\nThis stoichiometric statement reads: '$2\\text{ moles of Al}$ reacts with $\\frac{3}{2}\\text{ moles of } \\text{O}_2$ to produce $1\\text{ mole of } \\text{Al}_2\\text{O}_3$'.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Coefficients never represent grams or liters directly without conversion to moles."
   },
@@ -853,6 +899,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "0.6 L CO\u2082 and 0.8 L CO",
       "None",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Reaction: $\\text{CO}_2\\text{(g)} + \\text{C(s)} \\longrightarrow 2\\text{CO(g)}$. Carbon is solid so its volume is negligible.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Initial volume: $\\text{CO}_2 = 1\\text{ L}$, $\\text{CO} = 0\\text{ L}$.\n2. Let $x\\text{ L}$ of $\\text{CO}_2$ react.\n3. At equilibrium / completion: Volume of $\\text{CO}_2 = (1 - x)\\text{ L}$, Volume of $\\text{CO} = 2x\\text{ L}$.\n4. Total gas volume = $(1 - x) + 2x = 1 + x = 1.4\\text{ L} \\implies x = 0.4\\text{ L}$.\n5. Composition:\n   - $\\text{CO}_2 = 1 - 0.4 = 0.6\\text{ L}$\n   - $\\text{CO} = 2(0.4) = 0.8\\text{ L}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The net increase in volume is equal to the volume of $\\text{CO}_2$ reacted ($x = 1.4 - 1.0 = 0.4\\text{ L}$)."
   },
@@ -871,6 +918,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "32 cc",
       "52 cc",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Gay-Lussac's law, 1 volume of $\\text{CO}_2$ gas produces 2 volumes of $\\text{CO}$ gas on complete reduction by carbon: $\\text{CO}_2\\text{(g)} + \\text{C(s)} \\longrightarrow 2\\text{CO(g)}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Volume of CO evolved} = 2 \\times \\text{Volume of } \\text{CO}_2 = 2 \\times 26\\text{ cc} = 52\\text{ cc}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 'cc' means cubic centimeter ($1\\text{ cc} = 1\\text{ mL}$)."
   },
@@ -889,6 +937,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "54 g",
       "40.5 g",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Balanced reaction: $4\\text{Al} + 3\\text{O}_2 \\longrightarrow 2\\text{Al}_2\\text{O}_3$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $3\\text{ mol of } \\text{O}_2$ combines with $4\\text{ mol of Al}$.\n2. $\\frac{1}{2}\\text{ mol of } \\text{O}_2$ will combine with:\n   $$\\frac{4}{3} \\times \\frac{1}{2} = \\frac{2}{3}\\text{ mol of Al}$$\n3. Mass of Aluminium = $\\frac{2}{3} \\times 27\\text{ g} = 18\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Quick method using equivalents: 1 eq of $O_2$ = 8 g = 0.25 mol. Here 0.5 mol $O_2$ = 2 equivalents. 2 equivalents of Al = $2 \\times 9 = 18\\text{ g}$."
   },
@@ -907,6 +956,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "0.3",
       "0.1",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The limiting reagent is determined by comparing $\\frac{\\text{Moles}}{\\text{Stoichiometric Coefficient}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. For $\\text{BaCl}_2: \\frac{0.5}{3} = 0.167$\n2. For $\\text{Na}_3\\text{PO}_4: \\frac{0.2}{2} = 0.100$\n3. Since $0.100 < 0.167$, $\\text{Na}_3\\text{PO}_4$ is the limiting reagent.\n4. $2\\text{ mol } \\text{Na}_3\\text{PO}_4$ yields $1\\text{ mol } \\text{Ba}_3(\\text{PO}_4)_2$.\n5. Moles formed = $\\frac{0.2}{2} = 0.1\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The amount of product formed is always strictly governed by the limiting reagent."
   },
@@ -925,6 +975,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "10",
       "4",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Reaction: $2\\text{H}_2\\text{(g)} + \\text{O}_2\\text{(g)} \\longrightarrow 2\\text{H}_2\\text{O(l)}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Volume ratio: $2\\text{ mL of } \\text{H}_2$ reacts with $1\\text{ mL of } \\text{O}_2$.\n2. $4\\text{ mL of } \\text{H}_2$ consumed = $\\frac{4}{2} = 2\\text{ mL of } \\text{O}_2$.\n3. Given unreacted $\\text{O}_2 = 8\\text{ mL}$.\n4. Original volume of $\\text{O}_2 = \\text{Reacted} + \\text{Unreacted} = 2 + 8 = 10\\text{ mL}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Always add the reacted volume to the residual unreacted volume."
   },
@@ -943,6 +994,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "4.5 g",
       "2.5 g",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $2\\text{H}_2 + \\text{O}_2 \\longrightarrow 2\\text{H}_2\\text{O}$. $4\\text{ g } \\text{H}_2$ ($2\\text{ mol}$) requires $32\\text{ g } \\text{O}_2$ ($1\\text{ mol}$) for complete combustion.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{H}_2 = \\frac{4}{2} = 2\\text{ mol}$\n2. Moles of $\\text{O}_2 = \\frac{4}{32} = 0.125\\text{ mol}$\n3. $\\text{O}_2$ is the limiting reagent ($0.125 < \\frac{2}{2}$).\n4. Moles of $\\text{H}_2\\text{O}$ formed = $2 \\times 0.125 = 0.25\\text{ mol}$\n5. Mass of $\\text{H}_2\\text{O}$ = $0.25 \\times 18 = 4.5\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Alternatively, $32\\text{ g } \\text{O}_2$ gives $36\\text{ g } \\text{H}_2\\text{O}$. So $4\\text{ g } \\text{O}_2$ gives $\\frac{36}{32} \\times 4 = 4.5\\text{ g}$."
   },
@@ -961,6 +1013,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "8 mole of C",
       "13 mole of C",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Theoretical yield is governed solely by the limiting reactant.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\frac{n_A}{1} = \\frac{5}{1} = 5$\n2. $\\frac{n_B}{2} = \\frac{8}{2} = 4$\n3. Since $4 < 5$, $B$ is the limiting reactant.\n4. Moles of $C$ produced = $\\frac{n_B}{2} = \\frac{8}{2} = 4\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $1\\text{ mol of A}$ remains unreacted ($5 - 4 = 1$)."
   },
@@ -979,6 +1032,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "'SO\u2082' will remain in excess",
       "None",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Identify limiting reagent by comparing mole-to-coefficient ratios: $2\\text{H}_2\\text{S} + \\text{SO}_2 \\longrightarrow 3\\text{S} + 2\\text{H}_2\\text{O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{SO}_2 = \\frac{1.6}{64} = 0.025\\text{ mol}$\n2. Moles of $\\text{H}_2\\text{S} = \\frac{1.5 \\times 10^{22}}{6.02 \\times 10^{23}} = 0.0249 \\approx 0.025\\text{ mol}$\n3. Stoichiometry requires $2\\text{ mol } \\text{H}_2\\text{S}$ per $1\\text{ mol } \\text{SO}_2$.\n4. For $0.025\\text{ mol } \\text{SO}_2$, $0.050\\text{ mol } \\text{H}_2\\text{S}$ is required.\n5. We only have $0.025\\text{ mol } \\text{H}_2\\text{S}$, hence $\\text{H}_2\\text{S}$ is limiting and $\\text{SO}_2$ remains in excess.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Moles of $\\text{SO}_2$ consumed = $0.025 / 2 = 0.0125\\text{ mol}$; excess $\\text{SO}_2 = 0.0125\\text{ mol}$."
   },
@@ -997,6 +1051,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "0.8 L H\u2082 and 22.4 L HCl (g)",
       "22.4 L HCl (g)",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Reaction: $\\text{H}_2\\text{(g)} + \\text{Cl}_2\\text{(g)} \\longrightarrow 2\\text{HCl(g)}$. Equal volumes of $\\text{H}_2$ and $\\text{Cl}_2$ react at same T and P.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Cl}_2$ is limiting ($11.2\\text{ L} < 12\\text{ L}$).\n2. $11.2\\text{ L } \\text{Cl}_2$ consumes $11.2\\text{ L } \\text{H}_2$.\n3. Unreacted $\\text{H}_2 = 12.0 - 11.2 = 0.8\\text{ L}$.\n4. Volume of $\\text{HCl}$ formed = $2 \\times 11.2 = 22.4\\text{ L}$.\n5. Final mixture: $0.8\\text{ L } \\text{H}_2$ and $22.4\\text{ L } \\text{HCl(g)}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Total final gas volume is $0.8 + 22.4 = 23.2\\text{ L}$, which exactly equals initial volume ($12 + 11.2 = 23.2\\text{ L}$) because $\\Delta n_g = 0$."
   },
@@ -1015,6 +1070,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "C\u2084H\u2088",
       "C\u2084H\u2081\u2080",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: General eudiometry equation: $\\text{C}_x\\text{H}_y + \\left(x + \\frac{y}{4}\\right)\\text{O}_2 \\longrightarrow x\\text{CO}_2 + \\frac{y}{2}\\text{H}_2\\text{O(v)}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $1\\text{ volume of } \\text{C}_x\\text{H}_y \\longrightarrow x\\text{ volumes of } \\text{CO}_2$\n   $$10x = 40 \\implies x = 4$$\n2. $1\\text{ volume of } \\text{C}_x\\text{H}_y \\longrightarrow \\frac{y}{2}\\text{ volumes of } \\text{H}_2\\text{O(v)}$\n   $$10 \\times \\frac{y}{2} = 50 \\implies 5y = 50 \\implies y = 10$$\n3. The hydrocarbon is $\\text{C}_4\\text{H}_{10}$ (Butane).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Quick check: $x = \\frac{V(\\text{CO}_2)}{V(\\text{hydrocarbon})} = \\frac{40}{10} = 4$; $y = 2 \\times \\frac{V(\\text{H}_2\\text{O})}{V(\\text{hydrocarbon})} = 2 \\times \\frac{50}{10} = 10$."
   },
@@ -1033,6 +1089,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "W",
       "3W",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Equivalent weight of an acid} = \\frac{\\text{Molecular weight}}{\\text{Basicity}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n- For a tribasic acid (e.g., $\\text{H}_3\\text{PO}_4$), basicity = 3.\n- $\\text{Equivalent weight} = \\frac{W}{3}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Basicity represents the number of replaceable $H^+$ ions per molecule of the acid."
   },
@@ -1051,6 +1108,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "A = M / n",
       "M = A \u00d7 n",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The equivalent mass of an element is defined as the mass that combines with or displaces 1.008 g of hydrogen, 8 g of oxygen, or 35.5 g of chlorine. Mathematically, $E = \\frac{A}{n}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Atomic weight } (A) = \\text{Equivalent weight } (E) \\times \\text{Valency } (n)$$\n$$A = E \\times n$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Valency ($n$) is always an integer for an element in a given compound."
   },
@@ -1069,6 +1127,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "32",
       "64",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Equivalent weight of an element is the mass combining with $35.5\\text{ g}$ of chlorine.\n\n\u26a1 **Step-by-Step Calculation**:\n1. In $\\text{S}_2\\text{Cl}_2$, $2 \\times 35.5 = 71\\text{ g}$ of chlorine combines with $2 \\times 32 = 64\\text{ g}$ of sulphur.\n2. Mass of sulphur combining with $35.5\\text{ g}$ of chlorine:\n   $$\\frac{64}{71} \\times 35.5 = 32\\text{ g}$$\n3. Therefore, equivalent weight of sulphur in $\\text{S}_2\\text{Cl}_2$ is $32$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: In $\\text{S}_2\\text{Cl}_2$, oxidation state of S is $+1$, so $E = 32 / 1 = 32$. In $\\text{SCl}_2$, oxidation state is $+2$, so $E = 32 / 2 = 16$."
   },
@@ -1087,6 +1146,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "8 \u00d7 2 \u00d7 3",
       "(2 \u00d7 3) / 8",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Equivalent weight} = \\frac{\\text{Atomic mass}}{\\text{Valency / Oxidation number}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. In $\\text{SO}_2$: Oxidation state of S is $+4$.\n   $$E_1 = \\frac{A}{4} = 8 \\implies A = 32$$\n2. In $\\text{SO}_3$: Oxidation state of S is $+6$.\n   $$E_2 = \\frac{A}{6} = \\frac{32}{6} = \\frac{8 \\times 4}{6} = \\frac{8 \\times 2}{3}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Ratio of equivalent weights: $\\frac{E_2}{E_1} = \\frac{v_1}{v_2} = \\frac{4}{6} = \\frac{2}{3} \\implies E_2 = 8 \\times \\frac{2}{3}$."
   },
@@ -1105,6 +1165,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Equivalent weight",
       "None",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Atomic weight is an intrinsic characteristic property of an element defined by the mass of its isotopes and does not change depending on chemical combination. Valency and equivalent weight vary with oxidation state.\n\n\u26a1 **Step-by-Step Calculation**:\n- Elements frequently show variable valency (e.g., Fe is $+2$ and $+3$).\n- Equivalent weight varies with valency ($E = A / n$).\n- Atomic weight ($A$) remains constant.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dulong and Petit's law and mass spectrometry affirm the invariance of atomic weight for a given element."
   },
@@ -1123,6 +1184,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.00 mol of O\u2082",
       "8.00 mol of O\u2082",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ g-equivalent of oxygen} = 8\\text{ g of O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{O}_2 = 32\\text{ g mol}^{-1}$\n2. Mass of $1\\text{ g-equivalent} = 8\\text{ g}$\n3. Moles of $\\text{O}_2 = \\frac{8\\text{ g}}{32\\text{ g mol}^{-1}} = 0.25\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $n\\text{-factor}$ of $\\text{O}_2$ is 4 (since each O atom gains 2 electrons: $\\text{O}_2 + 4e^- \\to 2\\text{O}^{2-}$). Therefore, $1\\text{ eq} = \\frac{1}{4}\\text{ mol} = 0.25\\text{ mol}$."
   },
@@ -1141,6 +1203,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "3",
       "4",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: At equivalence point: $\\text{Equivalents of acid} = \\text{Equivalents of base}$. Also $\\text{Basicity} = \\frac{\\text{Molecular weight}}{\\text{Equivalent weight}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Equivalents of $\\text{NaOH} = \\frac{N \\times V\\text{ (mL)}}{1000} = \\frac{0.5 \\times 20}{1000} = 0.01\\text{ eq}$\n2. Equivalents of acid = $0.01\\text{ eq}$\n3. $\\text{Equivalent weight of acid} = \\frac{\\text{Mass}}{\\text{Equivalents}} = \\frac{0.45}{0.01} = 45$\n4. $\\text{Basicity} = \\frac{M}{E} = \\frac{90}{45} = 2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Oxalic acid dihydrate (anhydrous $M = 90$) is a classic dibasic acid ($E = 45$)."
   },
@@ -1159,6 +1222,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "25",
       "125",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Equivalents of base = Equivalents of acid.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Equivalents of acid = $\\frac{N \\times V}{1000} = \\frac{0.2 \\times 100}{1000} = 0.02\\text{ eq}$\n2. $\\frac{\\text{Mass of base}}{E_{\\text{base}}} = 0.02$\n3. $E_{\\text{base}} = \\frac{0.5}{0.02} = 25$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $0.5 / 0.02 = 50 / 2 = 25$."
   },
@@ -1177,6 +1241,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "40",
       "63",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\frac{\\text{Weight of acid}}{E} = \\frac{N \\times V\\text{ (mL)}}{1000}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Equivalents of $\\text{NaOH} = \\frac{0.1 \\times 20}{1000} = 0.002\\text{ eq}$\n2. $E = \\frac{0.126}{0.002} = 63$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Oxalic acid dihydrate $(\\text{H}_2\\text{C}_2\\text{O}_4 \\cdot 2\\text{H}_2\\text{O})$ has molar mass $126$ and basicity $2$, so its equivalent weight is $63$."
   },
@@ -1195,6 +1260,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "10",
       "80",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In any neutralization reaction, the number of equivalents of base equals the number of equivalents of acid: $\\frac{w_1}{E_1} = \\frac{w_2}{E_2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\frac{2}{40} = \\frac{3}{E_{\\text{acid}}} \\implies \\frac{1}{20} = \\frac{3}{E_{\\text{acid}}} \\implies E_{\\text{acid}} = 60$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Standard application of Law of Equivalents."
   },
@@ -1213,6 +1279,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "11.2 litres",
       "22.4 litres",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ equivalent}$ of any metal liberates $1\\text{ equivalent of } \\text{H}_2$, which occupies $11.2\\text{ L}$ at STP.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Given $E_{\\text{metal}} = 24\\text{ g eq}^{-1}$.\n2. Equivalents of metal added = $\\frac{12\\text{ g}}{24\\text{ g eq}^{-1}} = 0.5\\text{ eq}$.\n3. Volume of $\\text{H}_2$ liberated = $0.5 \\times 11.2\\text{ L} = 5.6\\text{ litres}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $1\\text{ eq of H}_2 = 1\\text{ g} = 0.5\\text{ mol} = 11.2\\text{ L at STP}$."
   },
@@ -1231,6 +1298,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "42",
       "32",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Equivalents of metal carbonate} = \\text{Equivalents of } \\text{H}_2\\text{SO}_4$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Equivalents of $\\text{H}_2\\text{SO}_4 = \\frac{40 \\times 0.5}{1000} = 0.02\\text{ eq}$\n2. $\\frac{0.84}{E} = 0.02 \\implies E = \\frac{0.84}{0.02} = 42$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{MgCO}_3$ has molar mass $84\\text{ g mol}^{-1}$ and $n\\text{-factor} = 2$, so its equivalent weight is $42$."
   },
@@ -1249,6 +1317,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "10",
       "7",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Equivalent weight of metal = $\\frac{\\text{Mass of metal}}{\\text{Mass of halogen}} \\times \\text{Equivalent weight of halogen}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Equivalent weight of metal} = \\frac{1.0}{8.89} \\times 80 = 8.9988 \\approx 9$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Aluminium ($E = 27/3 = 9$) forms $\\text{AlBr}_3$, exactly matching this value."
   },
@@ -1267,6 +1336,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "20",
       "60",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Mass of metal = Total hydride mass - mass of hydrogen.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of metal = $0.84 - 0.04 = 0.80\\text{ g}$\n2. Mass of hydrogen = $0.04\\text{ g}$\n3. Equivalent weight of metal = $\\frac{\\text{Mass of metal}}{\\text{Mass of hydrogen}} \\times 1 = \\frac{0.80}{0.04} \\times 1 = 20$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Calcium ($E = 40/2 = 20$) forms $\\text{CaH}_2$ (hydrolith)."
   },
@@ -1285,6 +1355,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "60",
       "128",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Equivalent mass of an element = $\\frac{\\text{Mass of element}}{\\text{Mass of oxygen}} \\times 8$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of element in $100\\text{ g} = 100 - 20 = 80\\text{ g}$\n2. Mass of oxygen = $20\\text{ g}$\n3. $E = \\frac{80}{20} \\times 8 = 4 \\times 8 = 32$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Copper in cuprous oxide ($\\text{Cu}_2\\text{O}$) has $E = 63.5 / 1 \\approx 64$, while here $E = 32$."
   },
@@ -1303,6 +1374,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "48",
       "64",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Faraday's and Richter's law of displacement: $\\frac{w_1}{E_1} = \\frac{w_2}{E_2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\frac{w_{\\text{Fe}}}{E_{\\text{Fe}}} = \\frac{w_{\\text{Cu}}}{E_{\\text{Cu}}} \\implies \\frac{2.8}{28} = \\frac{3.2}{E_{\\text{Cu}}}$$\n$$0.1 = \\frac{3.2}{E_{\\text{Cu}}} \\implies E_{\\text{Cu}} = \\frac{3.2}{0.1} = 32$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Copper is divalent in cupric salts (atomic mass $63.6 \\approx 64$), so $E = 64/2 = 32$."
   },
@@ -1321,6 +1393,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "(m\u2081 / m\u2082) \u00d7 E\u2081",
       "(m\u2082 / m\u2081) \u00d7 E\u2081",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In metal displacement: $\\frac{\\text{Mass of A}}{\\text{Equivalent weight of A}} = \\frac{\\text{Mass of B}}{\\text{Equivalent weight of B}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Given mass of A = $m_1$, mass of B = $m_2$.\n2. Given equivalent weight of B is $E_1$.\n3. $\\frac{m_1}{E_A} = \\frac{m_2}{E_1}$\n4. Rearranging for $E_A$:\n   $$E_A = \\frac{m_1}{m_2} \\times E_1$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Equivalent weight of displacing metal is directly proportional to its displacing mass ratio."
   },
@@ -1339,6 +1412,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.2 \u00d7 11.2",
       "1.2 \u00f7 11.2",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $11.2\\text{ L}$ of $\\text{H}_2$ at NTP is liberated by $1\\text{ equivalent}$ of any metal.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Equivalent weight} = \\frac{\\text{Mass of metal}}{\\text{Volume of } \\text{H}_2\\text{ at NTP (in L)}} \\times 11.2 = \\frac{2.4}{1.12} \\times 11.2 = 24$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{11.2}{1.12} = 10$, so $2.4 \\times 10 = 24$."
   },
@@ -1357,6 +1431,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "3",
       "None",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Equivalents of acid} = \\text{Equivalents of KOH} = \\frac{N \\times V\\text{ (mL)}}{1000}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Equivalents of $\\text{KOH} = \\frac{5 \\times 200}{1000} = 1.0\\text{ eq}$\n2. Moles of acid = $\\frac{45}{90} = 0.5\\text{ mol}$\n3. $\\text{Basicity} = \\frac{\\text{Equivalents}}{\\text{Moles}} = \\frac{1.0}{0.5} = 2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notice basicity is an integer ($n = 2$)."
   },
@@ -1375,6 +1450,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Equivalent weight",
       "None",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to the Law of Chemical Equivalents, substances react with one another in the exact ratio of their equivalent weights: $\\frac{w_1}{w_2} = \\frac{E_1}{E_2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n- 1 equivalent of element A always combines with 1 equivalent of element B.\n- Therefore, $w_A / w_B = E_A / E_B$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Combining masses are not generally in the ratio of atomic weights (unless valencies are equal)."
   },
@@ -1393,6 +1469,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "17",
       "16",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $E = \\frac{\\%\\text{ Metal}}{\\%\\text{ Oxygen}} \\times 8$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\%\\text{ Metal} = 100 - 32 = 68\\%$\n2. $E = \\frac{68}{32} \\times 8 = \\frac{68}{4} = 17$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $68 / 4 = 17$, clean arithmetic."
   },
@@ -1411,6 +1488,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "40",
       "5",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Equal amounts of hydrogen displaced mean equal number of equivalents of both metals reacted.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Equivalents of Ca} = \\text{Equivalents of Zn}$$\n$$\\frac{1.6}{E_{\\text{Ca}}} = \\frac{2.60}{32.6} = 0.07975 \\approx 0.08$$\n$$E_{\\text{Ca}} = \\frac{1.6}{0.08} = 20$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Calcium has atomic weight 40 and valency 2, so $E_{\\text{Ca}} = 40 / 2 = 20$."
   },
@@ -1429,6 +1507,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "39.0",
       "78.0",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The equivalent mass of a metal is the mass that combines with $35.5\\text{ g}$ of chlorine.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of chloride = $74.5\\text{ g}$\n2. Mass of chlorine = $35.5\\text{ g}$\n3. Mass of metal = $74.5 - 35.5 = 39.0\\text{ g}$\nSince $39.0\\text{ g}$ of metal combines with exactly $35.5\\text{ g}$ of chlorine, its equivalent mass is $39.0$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: This metal is Potassium (K, at. wt. 39.0), and the compound is potassium chloride ($\\text{KCl}$)."
   },
@@ -1447,6 +1526,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "2",
       "1",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Formula of metal chloride is $\\text{MCl}_x$, where $x$ is the valency. Molar mass $= 2 \\times \\text{VD} = x \\times (E + 35.5)$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of chloride = $2 \\times 59.25 = 118.5\\text{ g mol}^{-1}$\n2. Equivalent weight of metal chloride = $E_{\\text{metal}} + E_{\\text{Cl}} = 4 + 35.5 = 39.5$\n3. Valency $x = \\frac{\\text{Molar mass}}{\\text{Equivalent mass of chloride}} = \\frac{118.5}{39.5} = 3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $39.5 \\times 3 = 118.5$. The valency is 3."
   },
@@ -1465,6 +1545,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "318",
       "95.4",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Dulong and Petit's law: $\\text{Approximate Atomic Weight} \\times \\text{Specific Heat} \\approx 6.4$. Then: $\\text{Valency} = \\frac{\\text{Approx Atomic Weight}}{\\text{Equivalent Weight}}$, and $\\text{Exact Atomic Weight} = \\text{Equivalent Weight} \\times \\text{Valency}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Approximate atomic weight} = \\frac{6.4}{0.1} = 64$\n2. $\\text{Valency} = \\frac{64}{31.8} = 2.01 \\approx 2$\n3. $\\text{Exact atomic weight} = 31.8 \\times 2 = 63.6\\text{ g mol}^{-1}$ (Copper, Cu).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dulong and Petit's law gives only an approximate atomic weight, but multiplying the exact equivalent weight by the nearest integer valency gives the exact atomic weight."
   },
@@ -1483,6 +1564,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "30",
       "65",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Approximate atomic weight} = \\frac{6.4}{\\text{Specific heat (in Cal g}^{-1}\\text{ \u00b0C}^{-1}\\text{)}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Approximate atomic weight} = \\frac{6.4}{0.214} = 29.906 \\approx 30$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $6.4 / 0.214 \\approx 6400 / 214 \\approx 30$."
   },
@@ -1501,6 +1583,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "65.38",
       "74.58",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Isomorphism indicates identical crystal structure and similar chemical formulas. Since $\\text{MgSO}_4\\cdot 7\\text{H}_2\\text{O}$ has $\\text{Mg}^{2+}$, metal M is divalent ($n = 2$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. Metal M displaces silver from $\\text{AgNO}_3$ solution:\n   $$\\frac{w_M}{E_M} = \\frac{w_{\\text{Ag}}}{E_{\\text{Ag}}}$$\n2. Given $w_M = 0.6538\\text{ g}$, $w_{\\text{Ag}} = 2.16\\text{ g}$, and $E_{\\text{Ag}} = 108$:\n   $$\\frac{0.6538}{E_M} = \\frac{2.16}{108} = 0.02$$\n   $$E_M = \\frac{0.6538}{0.02} = 32.69\\text{ g eq}^{-1}$$\n3. Atomic weight $= E_M \\times \\text{Valency} = 32.69 \\times 2 = 65.38\\text{ g mol}^{-1}$ (Zinc, Zn).\n\n\ud83d\udca1 **Examiner Pro-Tip**: This is Mitscherlich's law of isomorphism combined with Faraday's/Richter's law."
   },
@@ -1519,6 +1602,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "137",
       "120",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Carbonate isomorphous with $\\text{MgCO}_3$ has formula $\\text{MCO}_3$ with molar mass $M + 12 + 3(16) = M + 60$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\%\\text{C} = \\frac{12}{M + 60} \\times 100 = 6.091\\%$\n2. $M + 60 = \\frac{1200}{6.091} = 197.01$\n3. $M = 197.01 - 60 = 137.01 \\approx 137\\text{ g mol}^{-1}$ (Barium, Ba).\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{BaCO}_3$ (witherite) has molar mass 197."
   },
@@ -1537,6 +1621,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "40",
       "69",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Isomorphous with $\\text{MgCl}_2\\cdot 6\\text{H}_2\\text{O}$ means the chloride formula is $\\text{MCl}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. In $\\text{MCl}_2$, 1 mole of M combines with $2 \\times 35.5 = 71\\text{ g}$ of chlorine.\n2. Given: $71\\text{ g}$ of chlorine forms $111\\text{ g}$ of chloride.\n3. Mass of metal M = $111 - 71 = 40\\text{ g}$.\n4. Therefore, atomic mass of metal M is $40\\text{ g mol}^{-1}$ (Calcium, $\\text{CaCl}_2$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Molar mass of $\\text{CaCl}_2 = 40 + 71 = 111\\text{ g mol}^{-1}$."
   },
@@ -1555,6 +1640,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "M\u2083Cl",
       "MCl\u2083",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Valency} = \\frac{\\text{Atomic weight}}{\\text{Equivalent weight}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Valency} = \\frac{27}{9} = 3$\n2. Formula of chloride = $\\text{MCl}_3$ (Aluminium chloride, $\\text{AlCl}_3$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Aluminum's atomic weight is 27 and valency is 3."
   },
@@ -1573,6 +1659,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "35.5",
       "71",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass of chloride $= 2 \\times \\text{VD} = 2 \\times 50 = 100\\text{ g mol}^{-1}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of chlorine in 1 mole ($100\\text{ g}$) = $71\\% \\times 100 = 71\\text{ g}$\n2. Number of Cl atoms per molecule = $\\frac{71}{35.5} = 2$\n3. Mass of metal M in 1 mole = $100 - 71 = 29\\text{ g}$\n4. Atomic weight of metal = $29\\text{ g mol}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The formula of the chloride is $\\text{MCl}_2$, and its molecular weight is 100."
   },
@@ -1591,6 +1678,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "24",
       "12",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Dulong and Petit's rule provides approximate atomic weight, from which integer valency is deduced.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Approximate atomic weight} = \\frac{6.4}{0.25} = 25.6$\n2. $\\text{Valency} = \\frac{25.6}{12} = 2.13 \\approx 2$\n3. $\\text{Exact atomic weight} = \\text{Equivalent weight} \\times \\text{Valency} = 12 \\times 2 = 24\\text{ g mol}^{-1}$ (Magnesium, Mg).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Always round valency to the nearest integer before calculating exact atomic weight."
   },
@@ -1609,6 +1697,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1.43",
       "0.143",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Vapour density} = \\frac{\\text{Density of gas at STP}}{\\text{Density of } \\text{H}_2\\text{ at STP}}$. Density of $\\text{H}_2$ at STP is $\\frac{2\\text{ g}}{22400\\text{ mL}} = 0.00008928\\text{ g mL}^{-1}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Molar mass of air} = \\text{Density} \\times 22400\\text{ mL} = 0.001293 \\times 22400 = 28.96\\text{ g mol}^{-1}$\n2. $\\text{Vapour density} = \\frac{\\text{Molar mass}}{2} = \\frac{28.96}{2} = 14.48 \\approx 14.3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Standard reference: air has an apparent molecular weight of $28.96$ and vapour density of $\\approx 14.4$."
   },
@@ -1627,6 +1716,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "64",
       "128",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Relative density with respect to gas } B = \\frac{M_{\\text{substance}}}{M_B}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{CH}_4 = 12 + 4(1) = 16\\text{ g mol}^{-1}$\n2. $\\frac{M}{16} = 4 \\implies M = 4 \\times 16 = 64\\text{ g mol}^{-1}$ (e.g., $\\text{SO}_2$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: When relative density is with respect to $\\text{H}_2$, it is called vapour density ($M = 2 \\times \\text{VD}$)."
   },
@@ -1645,6 +1735,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "24",
       "32",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass $= 2 \\times \\text{VD}$. The ratio of specific heats $\\gamma = \\frac{C_p}{C_v} = 1.4$ signifies a diatomic gas (Atomicity = 2).\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\text{Molecular weight} = 2 \\times 16 = 32\\text{ g mol}^{-1}$\n2. Since $\\gamma = 1.40$, the gas is diatomic (Atomicity = 2).\n3. $\\text{Atomic weight} = \\frac{\\text{Molecular weight}}{\\text{Atomicity}} = \\frac{32}{2} = 16\\text{ g mol}^{-1}$ (Oxygen gas, $\\text{O}_2$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Remember: $\\gamma = 1.66$ (monoatomic), $\\gamma = 1.40$ (diatomic), $\\gamma = 1.33$ (triatomic/polyatomic)."
   },
@@ -1663,6 +1754,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Eq. wt.",
       "All",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Avogadro's hypothesis, 1 mole of any volatile substance occupies or displaces $22.4\\text{ L}$ of air/gas at NTP. The mass of 1 mole is its gram molecular weight.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Mass of } 22.4\\text{ L vapor at NTP} = 1\\text{ mole} = \\text{Molecular weight (Mol. wt.)}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: This is the working principle of Victor Mayer's method for molecular weight determination."
   },
@@ -1681,6 +1773,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "78",
       "112",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molecular weight} = \\frac{\\text{Mass}}{\\text{Volume at STP (mL)}} \\times 22400\\text{ mL}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$M = \\frac{0.39}{112} \\times 22400 = 0.39 \\times 200 = 78\\text{ g mol}^{-1}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{22400}{112} = 200$. Multiplying $0.39 \\times 200 = 78$ (Benzene, $\\text{C}_6\\text{H}_6$)."
   },
@@ -1699,6 +1792,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "80",
       "120",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $M = \\frac{w}{V\\text{ (mL)}} \\times 22400$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$M = \\frac{0.2}{56} \\times 22400 = 0.2 \\times 400 = 80\\text{ g mol}^{-1}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{22400}{56} = 400$. $0.2 \\times 400 = 80$."
   },
@@ -1717,6 +1811,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "1700",
       "170",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ cc} = 1\\text{ mL}$. Molecular weight $= \\frac{w}{V} \\times 22400$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass $w = 510\\text{ mg} = 0.510\\text{ g}$\n2. Volume displaced = $67.2\\text{ cc} = 67.2\\text{ mL}$\n3. $M = \\frac{0.510}{67.2} \\times 22400 = 0.510 \\times \\frac{1000}{3} = \\frac{510}{3} = 170\\text{ g mol}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{22400}{67.2} = \\frac{2240}{6.72} = \\frac{1000}{3}$."
   },
@@ -1735,6 +1830,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "28",
       "56",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gram molecular weight is the weight of $22.4\\text{ L}$ of gas at STP.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Molar mass} = \\frac{6.25\\text{ g}}{5\\text{ L}} \\times 22.4\\text{ L} = 1.25 \\times 22.4 = 28\\text{ g mol}^{-1}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{N}_2$ or $\\text{CO}$ gas."
   },
@@ -1753,6 +1849,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "N\u2082O\u2084",
       "NO\u2082",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $M = \\frac{w}{V} \\times 22400$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass $= \\frac{0.44}{224} \\times 22400 = 44\\text{ g mol}^{-1}$\n2. Molar mass of $\\text{N}_2\\text{O} = 2(14) + 16 = 44\\text{ g mol}^{-1}$\n3. Nitrous oxide ($\\text{N}_2\\text{O}$) is colourless and neutral.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{NO}_2$ is a brown gas ($M = 46$); $\\text{NO}$ is colourless ($M = 30$); $\\text{N}_2\\text{O}_4$ has $M = 92$."
   },
@@ -1771,6 +1868,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "O\u2082",
       "NH\u2083",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass $= \\text{Density at STP} \\times 22.4\\text{ L}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $M = 1.16 \\times 22.4 = 25.98 \\approx 26\\text{ g mol}^{-1}$\n2. Molar mass of acetylene ($\\text{C}_2\\text{H}_2$) = $2(12) + 2(1) = 26\\text{ g mol}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{CO} = 28$, $\\text{O}_2 = 32$, $\\text{NH}_3 = 17$."
   },
@@ -1789,6 +1887,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "136.4",
       "166.3",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Atomic weight $= \\text{Equivalent weight} \\times \\text{Valency} = 32.7 \\times 2 = 65.4\\text{ g mol}^{-1}$. Chloride formula is $\\text{MCl}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Molecular weight of } \\text{MCl}_2 = 65.4 + 2(35.5) = 65.4 + 71.0 = 136.4\\text{ g mol}^{-1}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: This metal is Zinc ($\\text{ZnCl}_2$, molar mass $136.4$)."
   },
@@ -1807,6 +1906,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "102",
       "18",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In $\\text{M}_2\\text{O}_3$, valency of metal is 3. Atomic mass $= E \\times n = 9 \\times 3 = 27\\text{ g mol}^{-1}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Molecular mass of } \\text{M}_2\\text{O}_3 = 2(27) + 3(16) = 54 + 48 = 102\\text{ g mol}^{-1}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: This corresponds to $\\text{Al}_2\\text{O}_3$ (alumina)."
   },
@@ -1825,6 +1925,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Proust",
       "Gaylussac",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The Law of Multiple Proportions was proposed by John Dalton in 1803.\n\n\u26a1 **Step-by-Step Calculation**:\n- Lavoisier proposed Law of Conservation of Mass (1789).\n- Proust proposed Law of Definite Proportions (1799).\n- Dalton proposed Law of Multiple Proportions (1803).\n- Gay-Lussac proposed Law of Gaseous Volumes (1808).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Frequently asked direct historical question in NEET."
   },
@@ -1843,6 +1944,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Na\u2082O, BaO",
       "SnCl\u2082, SnCl\u2084",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The Law of Multiple Proportions strictly applies when the SAME two elements combine to form two or more different compounds.\n\n\u26a1 **Step-by-Step Calculation**:\n- In $\\text{SnCl}_2$ and $\\text{SnCl}_4$, the same two elements (Tin and Chlorine) combine.\n- Fixed mass of Sn combines with chlorine in the mass ratio $2(35.5) : 4(35.5) = 1 : 2$, which is a simple whole number ratio.\n\n\ud83d\udca1 **Examiner Pro-Tip**: All other options contain three different elements, which cannot illustrate multiple proportions."
   },
@@ -1861,6 +1963,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Law of conservation of mass",
       "Gaseous volumes",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gay-Lussac's Law of Gaseous Volumes states that when gases react, they do so in volumes which bear a simple whole number ratio to one another and to the volume of the products (if gaseous) under identical conditions of temperature and pressure.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{N}_2\\text{(g)} + 3\\text{H}_2\\text{(g)} \\longrightarrow 2\\text{NH}_3\\text{(g)}$$\n$$\\text{Volume ratio} = 1 : 3 : 2$$\nThis is the definitive textbook illustration of Gay-Lussac's law of gaseous volumes.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Temperature and pressure must remain constant for volume proportionality."
   },
@@ -1879,6 +1982,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Constant proportion",
       "Conservation of matter",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Nitrogen and oxygen form $\\text{N}_2\\text{O}, \\text{NO}, \\text{N}_2\\text{O}_3, \\text{NO}_2, \\text{N}_2\\text{O}_5$. For a fixed $28\\text{ g}$ of nitrogen, oxygen combines in mass ratio $16 : 32 : 48 : 64 : 80 = 1 : 2 : 3 : 4 : 5$.\n\n\u26a1 **Step-by-Step Calculation**:\nSince a simple whole-number ratio is obtained for oxygen masses combining with a fixed mass of nitrogen, this proves the Law of Multiple Proportions.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Classic Dalton experiment."
   },
@@ -1897,6 +2001,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Law of gaseous volume",
       "None of these",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Classical laws of chemical combination (such as Law of Definite Proportions and Law of Multiple Proportions) were formulated under Dalton's postulate that all atoms of an element are identical in mass. The existence of isotopes creates variable mass ratios, which is an exception/limitation, not an illustration of classical laws.\n\n\u26a1 **Step-by-Step Calculation**:\n- In $^{12}\\text{CO}_2$, mass ratio $\\text{C} : \\text{O} = 12 : 32 = 3 : 8$.\n- In $^{14}\\text{CO}_2$, mass ratio $\\text{C} : \\text{O} = 14 : 32 = 7 : 16$.\n- This reflects isotopic variation, hence 'None of these'.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Classical chemical laws fail when different isotopes of an element are involved."
   },
@@ -1915,6 +2020,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Endothermic reactions",
       "Exothermic reactions",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In nuclear reactions, mass defect is converted into energy via Einstein's mass-energy equation $E = \\Delta m c^2$. Therefore, the Law of Conservation of Mass alone is violated; instead, the combined Law of Conservation of Mass-Energy applies.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Chemical reactions (including exothermic and endothermic ones) involve rearrangements of electron clouds with undetectable mass change ($\\Delta m \\approx 10^{-9}\\text{ g}$).\n2. Nuclear reactions involve binding energy changes where substantial mass defects ($\\Delta m$) are released as energy, so mass is not conserved.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Nuclear reactions are the only significant exception to Lavoisier's law of conservation of mass."
   },
@@ -1933,6 +2039,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "The same",
       "NH\u2083 = CO\u2082 < O\u2082",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Avogadro's hypothesis, equal volumes of all gases under identical conditions of temperature and pressure contain equal number of molecules ($V \\propto N$).\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Molecules} = \\frac{100\\text{ mL}}{22400\\text{ mL}} \\times N_A$$\nSince $V = 100\\text{ mL}$ is identical for $\\text{O}_2, \\text{NH}_3$, and $\\text{CO}_2$ at STP, all three contain exactly the same number of molecules.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Molecular mass and atomicity have no effect on total molecule count for a given gas volume at STP."
   },
@@ -1951,6 +2058,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "C\u2086H\u2081\u2082",
       "C\u2084H\u2088",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: By Avogadro's law, equal volumes of gases at the same T and P contain equal moles. If equal volumes have equal masses, their molar masses must be identical.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{N}_2 = 28\\text{ g mol}^{-1}$\n2. Molar mass of organic gas $= 28\\text{ g mol}^{-1}$\n3. Empirical formula is $\\text{CH}_2$, with empirical mass $= 12 + 2(1) = 14\\text{ g mol}^{-1}$\n4. Multiplier $n = \\frac{\\text{Molar mass}}{\\text{Empirical mass}} = \\frac{28}{14} = 2$\n5. Molecular formula $= (\\text{CH}_2)_2 = \\text{C}_2\\text{H}_4$ (Ethene).\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{C}_2\\text{H}_4$ has $M = 28\\text{ g mol}^{-1}$, matching nitrogen gas."
   },
@@ -1969,6 +2077,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "2 : 1 : 2 : 3",
       "2 : 1 : 3 : 2",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Avogadro's law, equal volumes contain equal molecules ($N$). Total atoms = $N \\times \\text{Atomicity}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Hydrogen ($\\text{H}_2$): Atomicity = 2 $\\implies 2N\\text{ atoms}$\n2. Helium ($\\text{He}$): Atomicity = 1 $\\implies 1N\\text{ atoms}$\n3. Oxygen ($\\text{O}_2$): Atomicity = 2 $\\implies 2N\\text{ atoms}$\n4. Ozone ($\\text{O}_3$): Atomicity = 3 $\\implies 3N\\text{ atoms}$\nRatio of total atoms $= 2 : 1 : 2 : 3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Order is crucial: $\\text{H}_2 (2) : \\text{He} (1) : \\text{O}_2 (2) : \\text{O}_3 (3) = 2 : 1 : 2 : 3$."
   },
@@ -1987,6 +2096,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "66",
       "88",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Under identical conditions of temperature and pressure, equal volumes contain equal number of moles: $n_1 = n_2 \\implies \\frac{w_1}{M_1} = \\frac{w_2}{M_2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\frac{0.28}{28} = \\frac{0.44}{M} \\implies 0.01 = \\frac{0.44}{M} \\implies M = \\frac{0.44}{0.01} = 44\\text{ g mol}^{-1}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Gas with $M = 44$ could be $\\text{CO}_2$ or $\\text{N}_2\\text{O}$."
   },
@@ -2005,6 +2115,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "100 / n g",
       "100n g",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Addition polymerization is a true addition reaction with no byproduct eliminated. According to the Law of Conservation of Mass, the total mass of the polymer product equals the total mass of monomer reacted.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Mass of polyethylene produced} = \\text{Mass of ethylene monomer reacted} = 100\\text{ g}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Do not multiply or divide by $n$; the stoichiometric coefficient $n$ merely groups the units into long chains without changing total mass."
   },
@@ -2023,6 +2134,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Gaseous volume",
       "Conservation of mass",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Atoms can neither be created nor destroyed in a chemical reaction (Law of Conservation of Mass, Lavoisier). Hence, the number of atoms of each element on the reactant side must equal that on the product side.\n\n\u26a1 **Step-by-Step Calculation**:\n- Balancing coefficients ensures: $\\sum \\text{Mass of reactants} = \\sum \\text{Mass of products}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Balancing equations is a direct consequence of the Law of Conservation of Mass."
   },
@@ -2041,6 +2153,7 @@ export const ALLEN_MOLE_EXERCISE_1_QUESTIONS: Question[] = [
       "Both have same moles",
       "None",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Avogadro's hypothesis: Under identical conditions of temperature and pressure, equal volumes of all gases contain equal number of moles ($n = \\frac{PV}{RT}$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. Since $V_A = V_B$, $T_A = T_B$, and $P_A = P_B$, the number of moles in both flasks is identical ($n_A = n_B$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Flask B will be heavier ($M = 64$ vs $17$), but both contain identical number of moles."
   }
@@ -2065,6 +2178,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "3 mol",
       "4 mol",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $2\\text{H}_2\\text{(g)} + \\text{O}_2\\text{(g)} \\longrightarrow 2\\text{H}_2\\text{O(l)}$. The quantity of product formed is dictated by the limiting reagent.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{H}_2 = \\frac{10\\text{ g}}{2\\text{ g mol}^{-1}} = 5\\text{ mol}$\n2. Moles of $\\text{O}_2 = \\frac{64\\text{ g}}{32\\text{ g mol}^{-1}} = 2\\text{ mol}$\n3. Stoichiometric ratio requires $2\\text{ mol } \\text{H}_2$ per $1\\text{ mol } \\text{O}_2$. For $2\\text{ mol } \\text{O}_2$, $4\\text{ mol } \\text{H}_2$ is needed.\n4. Since $5\\text{ mol } \\text{H}_2$ is present, $\\text{O}_2$ is the limiting reagent.\n5. Moles of $\\text{H}_2\\text{O}$ produced = $2 \\times n(\\text{O}_2) = 2 \\times 2 = 4\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $1\\text{ mol of } \\text{H}_2$ ($2\\text{ g}$) remains unreacted in the vessel."
   },
@@ -2083,6 +2197,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "1.806 \u00d7 10^23",
       "3.600 \u00d7 10^23",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A triatomic gas (such as $\\text{O}_3$ or $\\text{CO}_2$) contains 3 atoms per molecule. Total atoms = $n \\times \\text{Atomicity} \\times N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Total atoms} = 0.1\\text{ mol} \\times 3 \\times (6.02 \\times 10^{23}\\text{ atoms mol}^{-1}) = 1.806 \\times 10^{23}\\text{ atoms}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Watch out for option (1) which has exponent $10^{22}$; the correct exponent is $10^{23}$."
   },
@@ -2101,6 +2216,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "48 g O\u2083",
       "8 g H\u2082",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Number of molecules is directly proportional to number of moles ($n = w / M$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. $64\\text{ g } \\text{SO}_2: \\frac{64}{64} = 1\\text{ mol}$\n2. $44\\text{ g } \\text{CO}_2: \\frac{44}{44} = 1\\text{ mol}$\n3. $48\\text{ g } \\text{O}_3: \\frac{48}{48} = 1\\text{ mol}$\n4. $8\\text{ g } \\text{H}_2: \\frac{8}{2} = 4\\text{ mol}$\n$8\\text{ g of } \\text{H}_2$ contains $4 N_A$ molecules, which is 4 times higher than the others.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Low molar mass of hydrogen ($2\\text{ g mol}^{-1}$) gives maximum moles for a given mass."
   },
@@ -2119,6 +2235,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "0.002",
       "0.003",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Dichlorotetraaquachromium(III) chloride is the coordination compound $[\\text{Cr}(\\text{H}_2\\text{O})_4\\text{Cl}_2]\\text{Cl}$. Only the ionizable chloride ion in the outer ionization sphere precipitates as $\\text{AgCl}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of complex = $M \\times V\\text{ (L)} = 0.01 \\times 0.100 = 0.001\\text{ mol}$\n2. In $[\\text{Cr}(\\text{H}_2\\text{O})_4\\text{Cl}_2]\\text{Cl}$, only $1\\text{ mol of } \\text{Cl}^-$ is outside the coordination sphere per mole of complex.\n3. $\\text{Moles of AgCl precipitated} = 1 \\times 0.001 = 0.001\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The two inner $\\text{Cl}^-$ ligands are coordinately bonded to chromium and do not ionize in aqueous solution."
   },
@@ -2137,6 +2254,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "16 : 1 : 2",
       "8 : 1 : 2",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: At constant temperature and pressure, volume of gas is directly proportional to moles: $V \\propto n$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Let equal mass of each gas be $w\\text{ g}$.\n2. Moles of $\\text{H}_2 = \\frac{w}{2}$\n3. Moles of $\\text{O}_2 = \\frac{w}{32}$\n4. Moles of $\\text{CH}_4 = \\frac{w}{16}$\n5. Volume ratio $V(\\text{H}_2) : V(\\text{O}_2) : V(\\text{CH}_4) = \\frac{1}{2} : \\frac{1}{32} : \\frac{1}{16}$\n6. Multiply across by 32:\n   $$16 : 1 : 2$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Be careful with the element order: $\\text{H}_2$ (16) : $\\text{O}_2$ (1) : $\\text{CH}_4$ (2)."
   },
@@ -2155,6 +2273,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "0.5 mol of HCl (g)",
       "1.5 mol of HCl (g)",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{H}_2\\text{(g)} + \\text{Cl}_2\\text{(g)} \\longrightarrow 2\\text{HCl(g)}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{H}_2 = \\frac{22.4}{22.4} = 1.0\\text{ mol}$\n2. Moles of $\\text{Cl}_2 = \\frac{11.2}{22.4} = 0.5\\text{ mol}$\n3. $\\text{Cl}_2$ is the limiting reagent ($0.5 < 1.0$).\n4. $1\\text{ mol of } \\text{Cl}_2$ produces $2\\text{ mol of HCl}$.\n5. Moles of $\\text{HCl}$ formed = $2 \\times 0.5 = 1.0\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $0.5\\text{ mol of } \\text{H}_2$ ($11.2\\text{ L}$) remains unreacted."
   },
@@ -2173,6 +2292,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "Mg, 0.44 g",
       "O\u2082, 0.28 g",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $2\\text{Mg} + \\text{O}_2 \\longrightarrow 2\\text{MgO}$. $48\\text{ g of Mg}$ combines with $32\\text{ g of } \\text{O}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{Mg} = \\frac{1.0}{24} = 0.04167\\text{ mol}$\n2. Moles of $\\text{O}_2 = \\frac{0.56}{32} = 0.0175\\text{ mol}$\n3. Oxygen requires $2 \\times 0.0175 = 0.0350\\text{ mol of Mg}$.\n4. Since $0.04167 > 0.0350$, Magnesium is in excess.\n5. Excess moles of $\\text{Mg} = 0.04167 - 0.0350 = 0.00667\\text{ mol}$\n6. Mass of excess $\\text{Mg} = 0.00667 \\times 24 = 0.16\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Quick mass check: $32\\text{ g } \\text{O}_2$ reacts with $48\\text{ g Mg} \\implies 0.56\\text{ g } \\text{O}_2$ reacts with $\\frac{48}{32} \\times 0.56 = 1.5 \\times 0.56 = 0.84\\text{ g Mg}$. Excess $\\text{Mg} = 1.0 - 0.84 = 0.16\\text{ g}$!"
   },
@@ -2191,6 +2311,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "2 : 1",
       "1 : 4",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molar ratio} = \\frac{w_1 / M_1}{w_2 / M_2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\frac{n(\\text{H}_2)}{n(\\text{O}_2)} = \\frac{1 / 2}{4 / 32} = \\frac{0.5}{0.125} = \\frac{4}{1} = 4 : 1$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{1}{2} \\div \\frac{1}{8} = \\frac{8}{2} = 4$."
   },
@@ -2209,6 +2330,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "18 molecules of water",
       "1.8 g of water",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ mole} = 6.022 \\times 10^{23}\\text{ molecules}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $18\\text{ g of water} = 1\\text{ mol} = 6.022 \\times 10^{23}\\text{ molecules}$\n2. $18\\text{ mol of water} = 18 \\times 6.022 \\times 10^{23} = 1.084 \\times 10^{25}\\text{ molecules}$ (MAXIMUM)\n3. $18\\text{ molecules of water} = 18\\text{ molecules}$\n4. $1.8\\text{ g of water} = 0.1\\text{ mol} = 6.022 \\times 10^{22}\\text{ molecules}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: '18 moles' is 18 times larger than '18 grams'!"
   },
@@ -2227,6 +2349,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "The definition of mass in units of grams",
       "The mass of one mole of carbon",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The mass of 1 mole of any substance is defined as the mass of $N_A$ atoms/molecules. If $N_A$ is changed, the mass of 1 mole of carbon will change proportionally from $12\\text{ g}$ to $12 \\times 10^{-3}\\text{ g} = 12\\text{ mg}$.\n\n\u26a1 **Step-by-Step Calculation**:\n- Chemical ratios, empirical formulas, and gram definition are independent of $N_A$.\n- Only molar quantities (mass of 1 mole) depend directly on the numerical value assigned to $N_A$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Stoichiometric ratios depend on atom-to-atom ratios, which remain invariant regardless of the scale chosen for a mole."
   },
@@ -2245,6 +2368,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "75",
       "96",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Decomposition: $\\text{MgCO}_3\\text{(s)} \\overset{\\Delta}{\\longrightarrow} \\text{MgO(s)} + \\text{CO}_2\\text{(g)}$. Pure $\\text{MgCO}_3$ ($84\\text{ g}$) yields $\\text{MgO}$ ($40\\text{ g}$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{MgO}$ formed = $\\frac{8.0\\text{ g}}{40\\text{ g mol}^{-1}} = 0.20\\text{ mol}$\n2. Moles of pure $\\text{MgCO}_3$ reacted = $0.20\\text{ mol}$\n3. Mass of pure $\\text{MgCO}_3$ = $0.20 \\times 84 = 16.8\\text{ g}$\n4. Percentage purity = $\\frac{16.8\\text{ g}}{20.0\\text{ g}} \\times 100 = 84\\%$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{16.8}{20} = \\frac{84}{100} = 84\\%$."
   },
@@ -2263,6 +2387,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "40, 30",
       "60, 40",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Molar mass $M = \\frac{w}{n}$. Formulate simultaneous linear equations in terms of atomic masses $x$ and $y$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. For $\\text{XY}_2$: $M = \\frac{10}{0.1} = 100\\text{ g mol}^{-1} \\implies x + 2y = 100 \\quad \\text{--- (1)}$\n2. For $\\text{X}_3\\text{Y}_2$: $M = \\frac{9}{0.05} = 180\\text{ g mol}^{-1} \\implies 3x + 2y = 180 \\quad \\text{--- (2)}$\n3. Subtract (1) from (2):\n   $$2x = 80 \\implies x = 40$$\n4. Substitute into (1):\n   $$40 + 2y = 100 \\implies 2y = 60 \\implies y = 30$$\nAtomic weights of X and Y are 40 and 30.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Classic NEET question repeating the principle seen in Exercise-I Q16."
   },
@@ -2281,6 +2406,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "2.8",
       "4.4",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Conc. $\\text{H}_2\\text{SO}_4$ acts as a dehydrating agent. $\\text{KOH}$ pellets selectively absorb acidic $\\text{CO}_2$ gas ($2\\text{KOH} + \\text{CO}_2 \\to \\text{K}_2\\text{CO}_3 + \\text{H}_2\\text{O}$), leaving neutral $\\text{CO}$ unaffected.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{HCOOH} = \\frac{2.3}{46} = 0.05\\text{ mol} \\implies 0.05\\text{ mol of CO}$\n2. Moles of $\\text{H}_2\\text{C}_2\\text{O}_4 = \\frac{4.5}{90} = 0.05\\text{ mol} \\implies 0.05\\text{ mol of CO} + 0.05\\text{ mol of } \\text{CO}_2$\n3. Total $\\text{CO}_2 = 0.05\\text{ mol}$ (completely absorbed by $\\text{KOH}$)\n4. Total remaining gas is $\\text{CO} = 0.05 + 0.05 = 0.10\\text{ mol}$\n5. Mass of remaining $\\text{CO} = 0.10 \\times 28\\text{ g mol}^{-1} = 2.8\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Liquid $\\text{H}_2\\text{O}$ is absorbed by conc. $\\text{H}_2\\text{SO}_4$ itself and does not contribute to the evolved gaseous mixture."
   },
@@ -2299,6 +2425,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "0.00224 L of water vapours at 1 atm and 273 K",
       "10^-3 mol of water",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Liquid water density is $1\\text{ g mL}^{-1}$, so $18\\text{ mL} = 18\\text{ g} = 1\\text{ mole} = 6.022 \\times 10^{23}\\text{ molecules}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $18\\text{ mL of water} = 18\\text{ g} = 1\\text{ mol} = N_A\\text{ molecules}$\n2. $0.18\\text{ g} = \\frac{0.18}{18} = 10^{-2}\\text{ mol} = 0.01 N_A$\n3. $0.00224\\text{ L at STP} = \\frac{0.00224}{22.4} = 10^{-4}\\text{ mol} = 0.0001 N_A$\n4. $10^{-3}\\text{ mol} = 0.001 N_A$\nMaximum is $1\\text{ mol}$ in $18\\text{ mL of water}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Do NOT apply $22.4\\text{ L}$ to liquid water; density of liquid water is $1\\text{ g mL}^{-1}$."
   },
@@ -2317,6 +2444,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "30",
       "40",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{N}_2\\text{(g)} + 3\\text{H}_2\\text{(g)} \\rightleftharpoons 2\\text{NH}_3\\text{(g)}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $2\\text{ moles of } \\text{NH}_3$ requires $3\\text{ moles of } \\text{H}_2$.\n2. Moles of $\\text{H}_2$ required for $20\\text{ moles of } \\text{NH}_3$:\n   $$n(\\text{H}_2) = \\frac{3}{2} \\times 20 = 30\\text{ mol}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Direct molar ratio calculation: $\\frac{3}{2} \\times 20 = 30$."
   },
@@ -2335,6 +2463,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "3.10 L",
       "5.37 L",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ideal gas equation: $PV = nRT \\implies V = \\frac{nRT}{P}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of steam $n = \\frac{1.8\\text{ g}}{18\\text{ g mol}^{-1}} = 0.1\\text{ mol}$\n2. Temperature $T = 374 + 273 = 647\\text{ K}$\n3. Pressure $P = 1\\text{ bar}$\n4. Volume $V = \\frac{0.1 \\times 0.083 \\times 647}{1} = 5.3701\\text{ L} \\approx 5.37\\text{ L}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Convert Celsius to Kelvin: $374 + 273 = 647\\text{ K}$."
   },
@@ -2353,6 +2482,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "1g of Mg(s) [Atomic mass of Mg = 24]",
       "1g of O\u2082(g) [Atomic mass of O = 16]",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Number of atoms in $1\\text{ g}$ of element $= \\frac{1}{\\text{Atomic mass}} \\times N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $1\\text{ g of Li} = \\frac{1}{7} N_A \\approx 0.143 N_A$ (MAXIMUM)\n2. $1\\text{ g of Ag} = \\frac{1}{108} N_A \\approx 0.009 N_A$\n3. $1\\text{ g of Mg} = \\frac{1}{24} N_A \\approx 0.042 N_A$\n4. $1\\text{ g of } \\text{O}_2 = \\frac{1}{32} \\times 2 \\times N_A = \\frac{1}{16} N_A \\approx 0.0625 N_A$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The element with the smallest atomic mass has the highest number of atoms per gram."
   },
@@ -2371,6 +2501,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "12 \u00d7 10^22",
       "6.022 \u00d7 10^23",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: By SI definition, $N_A = \\frac{12\\text{ g}}{\\text{Mass of one } ^{12}\\text{C atom in grams}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$N_A = \\frac{12\\text{ g}}{1.9926 \\times 10^{-23}\\text{ g}} = 6.02228 \\times 10^{23} \\approx 6.022 \\times 10^{23}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: This is the exact foundational calculation given in NCERT Chemistry Class 11 Chapter 1."
   },
@@ -2389,6 +2520,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "CH\u2083",
       "CH\u2084",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Relative atomic ratio = $\\frac{\\%\\text{ Composition}}{\\text{Atomic mass}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $\\%\\text{C} = 78\\% \\implies n_C = \\frac{78}{12} = 6.5$\n2. $\\%\\text{H} = 100 - 78 = 22\\% \\implies n_H = \\frac{22}{1} = 22$\n3. Ratio $\\text{C} : \\text{H} = \\frac{6.5}{6.5} : \\frac{22}{6.5} = 1 : 3.38 \\approx 1 : 3$\nEmpirical formula is $\\text{CH}_3$ (which dimerizes to ethane $\\text{C}_2\\text{H}_6$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: In ethane, $\\%\\text{C} = \\frac{24}{30} \\times 100 = 80\\%$, which is approximately $78\\%$."
   },
@@ -2407,6 +2539,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "C\u2082H\u2084O",
       "C\u2083H\u2084O",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\%\\text{O} = 100 - (\\%\\text{C} + \\%\\text{H}) = 100 - (54.5 + 9.1) = 36.4\\%$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of C = $\\frac{54.5}{12} = 4.54$\n2. Moles of H = $\\frac{9.1}{1} = 9.10$\n3. Moles of O = $\\frac{36.4}{16} = 2.275$\n4. Divide by smallest (2.275):\n   $$\\text{C} = \\frac{4.54}{2.275} = 2, \\quad \\text{H} = \\frac{9.10}{2.275} = 4, \\quad \\text{O} = \\frac{2.275}{2.275} = 1$$\nEmpirical formula is $\\text{C}_2\\text{H}_4\\text{O}$ (e.g., acetaldehyde or ethylene oxide).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notice $4.54 / 2.275$ is exactly $2.0$, and $9.10 / 2.275$ is exactly $4.0$."
   },
@@ -2425,6 +2558,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "1.344 \u00d7 10^18",
       "4.346 \u00d7 10^20",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Density of water $= 1\\text{ g mL}^{-1}$. Mass of 1 drop $= \\frac{1\\text{ g}}{20} = 0.05\\text{ g}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of water in 1 drop = $\\frac{0.05\\text{ g}}{18\\text{ g mol}^{-1}} = 2.778 \\times 10^{-3}\\text{ mol}$\n2. Number of molecules = $2.778 \\times 10^{-3} \\times 6.022 \\times 10^{23} = 1.673 \\times 10^{21}\\text{ molecules}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{0.05 \\times 6.022}{18} \\times 10^{23} = \\frac{0.3011}{18} \\times 10^{23} = 1.673 \\times 10^{21}$."
   },
@@ -2443,6 +2577,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "8.431 \u00d7 10^23",
       "3.372 \u00d7 10^24",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Atomicity of $\\text{PCl}_3 = 1\\text{ P} + 3\\text{ Cl} = 4\\text{ atoms per molecule}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of atoms = $1.4\\text{ mol} \\times 4 = 5.6\\text{ moles of atoms}$\n2. Total atoms = $5.6 \\times 6.022 \\times 10^{23} = 3.3723 \\times 10^{24}\\text{ atoms}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Note option (2) is '5.6', which is the *moles* of atoms, whereas the question asks for the total *number* of atoms ($3.372 \\times 10^{24}$)."
   },
@@ -2461,6 +2596,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "1000 g of solvent",
       "500 mL of solvent",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molality } (m) = \\frac{\\text{Moles of solute}}{\\text{Mass of solvent (in kg)}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Given $m = 1\\text{ mol kg}^{-1}$ and $n_{\\text{solute}} = 0.5\\text{ mol}$.\n2. $1 = \\frac{0.5}{W_{\\text{solvent (kg)}}} \\implies W_{\\text{solvent}} = 0.5\\text{ kg} = 500\\text{ g of solvent}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Molality involves mass of *solvent* in grams/kg, not volume of solution in mL."
   },
@@ -2479,6 +2615,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "9.50 g",
       "1.25 g",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{CaCO}_3 + 2\\text{HCl} \\longrightarrow \\text{CaCl}_2 + \\text{CO}_2 + \\text{H}_2\\text{O}$. $1\\text{ mole of } \\text{CaCO}_3$ ($100\\text{ g}$) neutralizes $2\\text{ moles of HCl}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{HCl} = M \\times V\\text{ (L)} = 0.5 \\times 0.050 = 0.025\\text{ mol}$\n2. Moles of pure $\\text{CaCO}_3$ required = $\\frac{0.025}{2} = 0.0125\\text{ mol}$\n3. Mass of 100% pure $\\text{CaCO}_3$ = $0.0125 \\times 100\\text{ g mol}^{-1} = 1.25\\text{ g}$\n4. Given purity = $95\\%$, required sample mass:\n   $$W_{\\text{sample}} = \\frac{1.25}{0.95} = 1.3157\\text{ g} \\approx 1.32\\text{ g}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Option (4) is 1.25 g, which is the mass of pure $\\text{CaCO}_3$. The question specifies $95\\%$ pure sample, so the actual sample mass is $1.32\\text{ g}$."
   },
@@ -2497,6 +2634,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
       "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Interconversion among moles, volume at STP, mass, and molecule count.\n\n\u26a1 **Step-by-Step Calculation**:\n- **(a) 4.48 L of O\u2082 at STP**: Moles $= \\frac{4.48}{22.4} = 0.2\\text{ mol}$. Mass $= 0.2 \\times 32 = 6.4\\text{ g} \\implies \\mathbf{(a)-(iii)}$\n- **(b) 12.022 \u00d7 10\u00b2\u00b2 molecules of H\u2082O**: Moles $= \\frac{12.022 \\times 10^{22}}{6.022 \\times 10^{23}} = 0.2\\text{ moles} \\implies \\mathbf{(b)-(i)}$\n- **(c) 96 g of O\u2082**: Moles $= \\frac{96}{32} = 3\\text{ mol}$. Volume at STP $= 3 \\times 22.4 = 67.2\\text{ litres} \\implies \\mathbf{(c)-(iv)}$\n- **(d) 88 g of CO\u2082**: Moles $= \\frac{88}{44} = 2\\text{ mol}$. Molecules $= 2 \\times 6.022 \\times 10^{23} = 12.044 \\times 10^{23} \\implies \\mathbf{(d)-(ii)}$\nCorrect matching is (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Identifying any two pairs immediately narrows down the options."
   },
@@ -2515,6 +2653,7 @@ export const ALLEN_MOLE_EXERCISE_2_QUESTIONS: Question[] = [
       "5.38 g",
       "53.75 g",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In multiplication or division, the final result must not have more significant figures than the measurement with the least number of significant figures.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Density = $2.15\\text{ g mL}^{-1}$ (3 significant figures)\n2. Volume = $2.5\\text{ mL}$ (2 significant figures)\n3. Calculated mass = $2.15 \\times 2.5 = 5.375\\text{ g}$\n4. The least number of significant figures is 2 (from $2.5\\text{ mL}$).\n5. Rounding $5.375$ to 2 significant figures gives $5.4\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Since the digit following 3 is 7 (> 5), we round up 3 to 4, yielding 5.4 g."
   }
@@ -2539,6 +2678,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "6.022 \u00d7 10^21",
       "6.022 \u00d7 10^20",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Moles of solute} = \\frac{M \\times V\\text{ (mL)}}{1000}$. Total molecules $= n \\times N_A$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{HCl} = \\frac{0.1 \\times 10}{1000} = 10^{-3}\\text{ mol}$\n2. Number of molecules $= 10^{-3} \\times 6.022 \\times 10^{23} = 6.022 \\times 10^{20}\\text{ molecules}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $0.1 \\times 10 / 1000 = 10^{-3}$. Multiply by $10^{23}$ to get $10^{20}$."
   },
@@ -2557,6 +2697,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "18.8 \u00d7 10^23",
       "18.8 \u00d7 10^22",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Convert gas volume to STP ($P_0 = 760\\text{ mm}$, $T_0 = 273\\text{ K}$) using the ideal gas equation: $\\frac{P_1 V_1}{T_1} = \\frac{P_0 V_0}{T_0}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Since $T_1 = T_0 = 0^\\circ\\text{C}$ (isothermal):\n   $$V_0 = \\frac{P_1 V_1}{P_0} = \\frac{700 \\times 760}{760} = 700\\text{ cc (at STP)}$$\n2. Moles of gas $= \\frac{700\\text{ mL}}{22400\\text{ mL}} = \\frac{7}{224} = \\frac{1}{32}\\text{ mol}$\n3. Number of molecules $= \\frac{6.022 \\times 10^{23}}{32} = 1.8818 \\times 10^{22}\\text{ molecules}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{700 \\times 760}{760} = 700$ cancels beautifully!"
   },
@@ -2575,6 +2716,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "0.40 mole",
       "0.25 mole",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ mole of } \\text{CO}_2$ contains $2\\text{ moles of oxygen atoms} = 2 \\times 16 = 32\\text{ g of O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Moles of } \\text{CO}_2 = \\frac{8\\text{ g of O}}{32\\text{ g of O per mol } \\text{CO}_2} = 0.25\\text{ mole}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $8 / 32 = 1/4 = 0.25\\text{ mol}$."
   },
@@ -2593,6 +2735,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "5.53 \u00d7 10^-23 g",
       "6.24 \u00d7 10^-23 g",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A triatomic molecule contains 3 atoms. $\\text{Mass of 1 atom} = \\frac{\\text{Molar mass}}{3 \\times N_A}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of gas at STP $= \\frac{224\\text{ mL}}{22400\\text{ mL}} = 0.01\\text{ mol}$\n2. Molar mass $M = \\frac{1\\text{ g}}{0.01\\text{ mol}} = 100\\text{ g mol}^{-1}$\n3. Mass of 1 mole of atoms $= \\frac{100}{3} = 33.33\\text{ g}$\n4. Mass of one atom $= \\frac{33.33\\text{ g}}{6.022 \\times 10^{23}} = 5.535 \\times 10^{-23}\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Don't forget to divide by 3 for a *triatomic* gas before dividing by Avogadro's number."
   },
@@ -2611,6 +2754,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "10 g of O\u2082 gas",
       "15 L of H\u2082 gas at STP",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Moles are directly proportional to number of molecules.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $5\\text{ L } \\text{N}_2\\text{ at STP}: \\frac{5}{22.4} \\approx 0.223\\text{ mol}$\n2. $0.5\\text{ g } \\text{H}_2: \\frac{0.5}{2} = 0.25\\text{ mol}$\n3. $10\\text{ g } \\text{O}_2: \\frac{10}{32} = 0.3125\\text{ mol}$\n4. $15\\text{ L } \\text{H}_2\\text{ at STP}: \\frac{15}{22.4} \\approx 0.670\\text{ mol}$ (MAXIMUM)\n$15\\text{ L of } \\text{H}_2\\text{ at STP}$ has the highest number of moles, and thus maximum molecules.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $15 / 22.4$ is more than double any other option."
   },
@@ -2629,6 +2773,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "3.125 \u00d7 10^-2",
       "1.25 \u00d7 10^-2",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In $1\\text{ mole}$ of $\\text{Mg}_3(\\text{PO}_4)_2$, there are $2 \\times 4 = 8\\text{ moles of oxygen atoms}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. $8\\text{ moles of O} \\iff 1\\text{ mole of } \\text{Mg}_3(\\text{PO}_4)_2$\n2. $0.25\\text{ mol of O} \\iff \\frac{0.25}{8} = 0.03125\\text{ mol} = 3.125 \\times 10^{-2}\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{1}{4} \\times \\frac{1}{8} = \\frac{1}{32} = 0.03125$."
   },
@@ -2647,6 +2792,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "1 mL",
       "18 mL",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $22.4\\text{ L}$ of water vapor at NTP is $1\\text{ mole of } \\text{H}_2\\text{O}$. When condensed, its mass remains $18\\text{ g}$. Since the density of liquid water is $1\\text{ g mL}^{-1}$, its liquid volume is $18\\text{ mL}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Volume of liquid} = \\frac{\\text{Mass}}{\\text{Density}} = \\frac{18\\text{ g}}{1\\text{ g mL}^{-1}} = 18\\text{ mL}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Gas to liquid volume collapses by a factor of more than 1200 times ($22400\\text{ mL} \\to 18\\text{ mL}$)."
   },
@@ -2665,6 +2811,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "336 mL",
       "None of these",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to the reaction: $2\\text{CHI}_3 + 6\\text{Ag} \\longrightarrow \\text{C}_2\\text{H}_2\\text{(g)} + 6\\text{AgI(s)}$. $2\\text{ moles of } \\text{CHI}_3$ produce $1\\text{ mole of } \\text{C}_2\\text{H}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{C}_2\\text{H}_2 = \\frac{0.01}{2} = 0.005\\text{ mol}$\n2. Volume at NTP $= 0.005\\text{ mol} \\times 22400\\text{ mL mol}^{-1} = 112\\text{ mL}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $0.005 \\times 22400 = 112\\text{ mL}$."
   },
@@ -2683,6 +2830,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "34 g",
       "20 g",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Stoichiometric ratio: $1\\text{ mole of } \\text{Cu}^{2+}$ ($63.5\\text{ g}$) reacts with $1\\text{ mole of } \\text{H}_2\\text{S}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{Cu}^{2+} = \\frac{63.5\\text{ g}}{63.5\\text{ g mol}^{-1}} = 1.0\\text{ mol}$\n2. Moles of $\\text{H}_2\\text{S}$ required $= 1.0\\text{ mol}$\n3. Molar mass of $\\text{H}_2\\text{S} = 2(1) + 32 = 34\\text{ g mol}^{-1}$\n4. Mass of $\\text{H}_2\\text{S} = 1.0 \\times 34 = 34\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Exactly 1 mole of $\\text{H}_2\\text{S}$ is required."
   },
@@ -2701,6 +2849,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "2.32 g",
       "2.64 g",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Silver oxide and carbonate are thermally unstable and decompose completely to metallic silver: $\\text{Ag}_2\\text{CO}_3 \\overset{\\Delta}{\\longrightarrow} 2\\text{Ag(s)} + \\text{CO}_2\\text{(g)} + \\frac{1}{2}\\text{O}_2\\text{(g)}$. The solid residue is pure silver.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{Ag}_2\\text{CO}_3 = 2(108) + 12 + 3(16) = 216 + 12 + 48 = 276\\text{ g mol}^{-1}$\n2. Moles of $\\text{Ag}_2\\text{CO}_3 = \\frac{2.76}{276} = 0.01\\text{ mol}$\n3. Moles of $\\text{Ag}$ residue formed $= 2 \\times 0.01 = 0.02\\text{ mol}$\n4. Mass of $\\text{Ag}$ residue $= 0.02 \\times 108 = 2.16\\text{ g}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\text{CO}_2$ and $\\text{O}_2$ are gases and escape completely, leaving only solid Ag."
   },
@@ -2719,6 +2868,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "17.5 L",
       "22.4 L",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ mole of } \\text{CaC}_2$ ($64\\text{ g}$) produces $1\\text{ mole of } \\text{C}_2\\text{H}_2\\text{ gas}$ ($22.4\\text{ L at NTP}$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{CaC}_2 = 40 + 2(12) = 64\\text{ g mol}^{-1}$\n2. Moles of $\\text{CaC}_2 = \\frac{100}{64} = 1.5625\\text{ mol}$\n3. Moles of $\\text{C}_2\\text{H}_2 = 1.5625\\text{ mol}$\n4. Volume at NTP $= 1.5625 \\times 22.4\\text{ L} = 35\\text{ L}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{100}{64} \\times 22.4 = \\frac{25}{16} \\times 22.4 = 25 \\times 1.4 = 35\\text{ L}$."
   },
@@ -2737,6 +2887,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "49.7",
       "47.9",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Mass of oxygen $= \\text{Mass of compound} - \\text{Mass of A}$. Stoichiometric mass ratio is $\\frac{2A}{3 \\times 16} = \\frac{w_A}{w_O}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of oxygen $= 0.559 - 0.359 = 0.200\\text{ g}$\n2. $\\frac{2 \\times A}{48} = \\frac{0.359}{0.200}$\n3. $\\frac{A}{24} = 1.795 \\implies A = 1.795 \\times 24 = 43.08\\text{ g mol}^{-1}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $1.795 \\times 24 = 43.08$."
   },
@@ -2755,6 +2906,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "10.08 L",
       "20.16 L",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{CaCO}_3 \\overset{\\Delta}{\\longrightarrow} \\text{CaO} + \\text{CO}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of pure $\\text{CaCO}_3 = 10 \\times 0.90 = 9\\text{ g}$\n2. Moles of pure $\\text{CaCO}_3 = \\frac{9}{100} = 0.09\\text{ mol}$\n3. Volume of $\\text{CO}_2$ at STP $= 0.09 \\times 22.4\\text{ L} = 2.016\\text{ L}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: If $100\\%$ pure, volume would be $2.24\\text{ L}$. $90\\%$ of $2.24 = 2.016\\text{ L}$."
   },
@@ -2773,6 +2925,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "109.5 g",
       "182.5 g",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{CaCO}_3 + 2\\text{HCl} \\longrightarrow \\text{CaCl}_2 + \\text{CO}_2 + \\text{H}_2\\text{O}$. $100\\text{ g of } \\text{CaCO}_3$ requires $73\\text{ g of pure HCl}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of $\\text{CaCO}_3 = \\frac{50}{100} = 0.5\\text{ mol}$\n2. Moles of pure $\\text{HCl}$ needed $= 2 \\times 0.5 = 1.0\\text{ mol}$\n3. Mass of pure $\\text{HCl} = 1.0 \\times 36.5 = 36.5\\text{ g}$\n4. Since HCl is only $20\\%$ pure by weight:\n   $$\\text{Mass of impure solution} = \\frac{36.5}{0.20} = 182.5\\text{ g}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Always divide pure mass by fractional purity ($0.20$)."
   },
@@ -2791,6 +2944,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "M\u2082O",
       "M\u2082O\u2085",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Use the first oxide to find the atomic weight of M, then find the atomic ratio in the second oxide.\n\n\u26a1 **Step-by-Step Calculation**:\n1. In oxide 1 ($\\text{MO}$): $\\%\\text{M} = 50\\%$, $\\%\\text{O} = 50\\%$.\n   $$\\frac{M}{16} = \\frac{50}{50} = 1 \\implies M = 16$$\n2. In oxide 2: $\\%\\text{M} = 40\\%$, $\\%\\text{O} = 60\\%$.\n   - Moles of M $= \\frac{40}{16} = 2.5$\n   - Moles of O $= \\frac{60}{16} = 3.75$\n3. Ratio $\\text{M} : \\text{O} = \\frac{2.5}{2.5} : \\frac{3.75}{2.5} = 1 : 1.5 = 2 : 3$\nFormula of second oxide is $\\text{M}_2\\text{O}_3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $2.5 : 3.75$ simplifies directly to $2 : 3$."
   },
@@ -2809,6 +2963,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "50%, 50%",
       "60%, 40%",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $1\\text{ volume of } \\text{C}_3\\text{H}_8$ yields $3\\text{ volumes of } \\text{CO}_2$. $1\\text{ volume of } \\text{C}_4\\text{H}_{10}$ yields $4\\text{ volumes of } \\text{CO}_2$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Let volume of propane be $x\\text{ L}$, then butane is $(3 - x)\\text{ L}$.\n2. $\\text{Total CO}_2 = 3x + 4(3 - x) = 10$\n3. $3x + 12 - 4x = 10 \\implies 12 - x = 10 \\implies x = 2\\text{ L}$\n4. Volume of propane $= 2\\text{ L}$, volume of butane $= 3 - 2 = 1\\text{ L}$.\n5. $\\%\\text{ Propane} = \\frac{2}{3} \\times 100 = 66.67\\%$\n6. $\\%\\text{ Butane} = \\frac{1}{3} \\times 100 = 33.33\\%$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Initial composition: $66.67\\%$ propane and $33.33\\%$ butane."
   },
@@ -2827,6 +2982,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "667.5",
       "81",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Formula of chloride is $\\text{MCl}_3$. $\\text{Vapour density} = \\frac{\\text{Molar mass}}{2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{MCl}_3 = 27 + 3(35.5) = 27 + 106.5 = 133.5\\text{ g mol}^{-1}$\n2. $\\text{Vapour density} = \\frac{133.5}{2} = 66.75$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Aluminium chloride monomer ($\\text{AlCl}_3$)."
   },
@@ -2845,6 +3001,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "C\u2082H\u2084",
       "C\u2083H\u2086",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Under identical conditions of temperature and pressure, equal volumes containing equal masses possess equal molecular weights.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{CO}_2 = 12 + 2(16) = 44\\text{ g mol}^{-1}$\n2. Hydrocarbon molar mass must be $44\\text{ g mol}^{-1}$\n3. Testing options:\n   - $\\text{C}_3\\text{H}_8: 3(12) + 8(1) = 44\\text{ g mol}^{-1}$ (Propane)\n   - $\\text{C}_2\\text{H}_6: 30$\n   - $\\text{C}_2\\text{H}_4: 28$\n   - $\\text{C}_3\\text{H}_6: 42$\nHydrocarbon is propane ($\\text{C}_3\\text{H}_8$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Propane and carbon dioxide are isosteric and have identical molar masses (44 g mol\u207b\u00b9)."
   },
@@ -2863,6 +3020,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "2 : 3",
       "3 : 2",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Calculate the mass of sulphur combining with a fixed mass ($1\\text{ g}$) of oxygen in each oxide.\n\n\u26a1 **Step-by-Step Calculation**:\n1. In Oxide 1: $50\\%\\text{ S}$ and $50\\%\\text{ O}$.\n   $$\\text{Mass of S per 1 g of O} = \\frac{50}{50} = 1.0\\text{ g}$$\n2. In Oxide 2: $40\\%\\text{ S}$ and $60\\%\\text{ O}$.\n   $$\\text{Mass of S per 1 g of O} = \\frac{40}{60} = \\frac{2}{3}\\text{ g}$$\n3. Ratio of masses of sulphur $= 1 : \\frac{2}{3} = 3 : 2$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Multiply by 3 to clear the fraction: $1 \\times 3 : \\frac{2}{3} \\times 3 = 3 : 2$."
   },
@@ -2881,6 +3039,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "CH\u2083Cl",
       "None",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molecular Weight} = 2 \\times \\text{VD} = 2 \\times 60.0 = 120.0\\text{ g mol}^{-1}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass $= 120\\text{ g mol}^{-1}$\n2. Molar masses of options:\n   - $\\text{CH}_2\\text{Cl}_2: 12 + 2 + 71 = 85$\n   - $\\text{CHCl}_3: 12 + 1 + 106.5 = 119.5 \\approx 120$\n   - $\\text{CH}_3\\text{Cl}: 50.5$\n3. $\\%\\text{Cl in } \\text{CHCl}_3 = \\frac{106.5}{119.5} \\times 100 = 89.12\\%$, matching given data perfectly.\nThe compound is chloroform ($\\text{CHCl}_3$).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Calculating molar mass from vapour density ($2 \\times 60 = 120$) immediately rules out all options except $\\text{CHCl}_3$."
   },
@@ -2899,6 +3058,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "1 : 4",
       "7 : 32",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ratio of number of molecules = Ratio of moles $= \\frac{w_1 / M_1}{w_2 / M_2}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\frac{N(\\text{O}_2)}{N(\\text{N}_2)} = \\frac{w(\\text{O}_2) / 32}{w(\\text{N}_2) / 28} = \\frac{1 / 32}{4 / 28} = \\frac{1}{32} \\times \\frac{28}{4} = \\frac{28}{128} = \\frac{7}{32}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{28}{128} = \\frac{7}{32}$."
   },
@@ -2917,6 +3077,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "C\u2086H\u2086",
       "C\u2087H\u2088",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: All carbon ends up in $\\text{CO}_2$ ($n_C = n_{\\text{CO}_2}$) and all hydrogen ends up in $\\text{H}_2\\text{O}$ ($n_H = 2 \\times n_{\\text{H}_2\\text{O}}$).\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of C $= \\frac{3.08\\text{ g}}{44\\text{ g mol}^{-1}} = 0.07\\text{ mol}$\n2. Moles of H $= 2 \\times \\frac{0.72\\text{ g}}{18\\text{ g mol}^{-1}} = 2 \\times 0.04 = 0.08\\text{ mol}$\n3. Atomic ratio $\\text{C} : \\text{H} = 0.07 : 0.08 = 7 : 8$\nEmpirical formula is $\\text{C}_7\\text{H}_8$ (Toluene).\n\n\ud83d\udca1 **Examiner Pro-Tip**: $3.08 / 44 = 0.07$. $0.72 / 18 = 0.04 \\implies 2 \\times 0.04 = 0.08$."
   },
@@ -2935,6 +3096,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "7 L",
       "6 L",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Balanced combustion: $\\text{C}_3\\text{H}_8\\text{(g)} + 5\\text{O}_2\\text{(g)} \\longrightarrow 3\\text{CO}_2\\text{(g)} + 4\\text{H}_2\\text{O(l)}$.\n\n\u26a1 **Step-by-Step Calculation**:\nBy Gay-Lussac's law, $1\\text{ volume of } \\text{C}_3\\text{H}_8$ requires $5\\text{ volumes of } \\text{O}_2$.\n$$\\text{Volume of } \\text{O}_2 = 1\\text{ L} \\times 5 = 5\\text{ L}$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: For any alkane $\\text{C}_n\\text{H}_{2n+2}$, oxygen required is $\\left(n + \\frac{n+1}{2}\\right) = \\left(\\frac{3n+1}{2}\\right)$ volumes. For $n=3$, $\\frac{10}{2} = 5$."
   },
@@ -2953,6 +3115,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "9.0 \u00d7 10^-23 cm\u00b3",
       "6.023 \u00d7 10^-23 cm\u00b3",
     ],
+    correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Volume of 1 molecule} = \\frac{\\text{Mass of 1 molecule}}{\\text{Density}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Mass of 1 molecule of $\\text{H}_2\\text{O} = \\frac{18\\text{ g}}{6.022 \\times 10^{23}} = 2.989 \\times 10^{-23}\\text{ g}$\n2. Volume $= \\frac{2.989 \\times 10^{-23}\\text{ g}}{1\\text{ g cm}^{-3}} \\approx 3.0 \\times 10^{-23}\\text{ cm}^3$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\frac{18}{6.022} \\times 10^{-23} \\approx 3.0 \\times 10^{-23}\\text{ cm}^3$."
   },
@@ -2971,6 +3134,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "0.044",
       "0.333",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{PbO} + 2\\text{HCl} \\longrightarrow \\text{PbCl}_2 + \\text{H}_2\\text{O}$. $1\\text{ mole of PbO}$ reacts with $2\\text{ moles of HCl}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Molar mass of $\\text{PbO} = 207 + 16 = 223\\text{ g mol}^{-1}$\n2. Moles of $\\text{PbO} = \\frac{6.5}{223} = 0.02915\\text{ mol}$\n3. Moles of $\\text{HCl} = \\frac{3.2}{36.5} = 0.08767\\text{ mol}$\n4. To react with $0.02915\\text{ mol PbO}$, $\\text{HCl}$ needed is $2 \\times 0.02915 = 0.0583\\text{ mol}$.\n5. Since $0.08767 > 0.0583$, $\\text{PbO}$ is the limiting reagent.\n6. Moles of $\\text{PbCl}_2$ formed $= 0.02915 \\approx 0.029\\text{ mol}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The product moles match the limiting reagent moles 1:1."
   },
@@ -2989,6 +3153,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "60%",
       "75%",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ethanol has molecular formula $\\text{C}_2\\text{H}_5\\text{OH}$ with molar mass $2(12) + 6(1) + 16 = 46\\text{ g mol}^{-1}$.\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\%\\text{ O} = \\frac{16}{46} \\times 100 = 34.78\\% \\approx 34.73\\%$$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: $\\%\\text{C} = 52.17\\%$, $\\%\\text{H} = 13.04\\%$, $\\%\\text{O} = 34.78\\%$."
   },
@@ -3007,6 +3172,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "Simplest whole number ratio of various atoms present in a compound.",
       "None of these",
     ],
+    correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The empirical formula of a compound represents the simplest whole-number ratio of various atoms present in a compound.\n\n\u26a1 **Step-by-Step Calculation**:\n- Option (2) defines molecular formula (exact number of atoms).\n- Option (3) correctly defines empirical formula (simplest whole number ratio).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Word 'simplest' is essential to distinguish from molecular formula."
   },
@@ -3025,6 +3191,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "C\u2086H\u2086O\u2081\u2082",
       "C\u2086H\u2081\u2082O\u2086",
     ],
+    correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: $\\text{Molecular formula} = (\\text{Empirical formula})_n$, where $n = \\frac{\\text{Molar mass}}{\\text{Empirical mass}}$.\n\n\u26a1 **Step-by-Step Calculation**:\n1. Moles of C $= \\frac{40}{12} = 3.33$\n2. Moles of H $= \\frac{6.72}{1} = 6.72$\n3. Moles of O $= \\frac{53.28}{16} = 3.33$\n4. Ratio $\\text{C} : \\text{H} : \\text{O} = 1 : 2 : 1 \\implies$ Empirical formula is $\\text{CH}_2\\text{O}$ (mass = 30).\n5. $n = \\frac{180.18}{30} = 6$\n6. Molecular formula is $(\\text{CH}_2\\text{O})_6 = \\text{C}_6\\text{H}_{12}\\text{O}_6$ (Glucose).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Molar mass 180 is characteristic of glucose/fructose."
   },
@@ -3043,6 +3210,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "Avogadro's Law",
       "Law of Lavoisier",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gay-Lussac's Law of Gaseous Volumes states that when gases react together, they do so in volumes which bear a simple whole ratio to one another and to the volume of the products (if gaseous), provided all measurements are made under the same conditions of temperature and pressure.\n\n\u26a1 **Step-by-Step Calculation**:\n- Discovered by Joseph Louis Gay-Lussac in 1808.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT verbatim definition."
   },
@@ -3061,6 +3229,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "4Fe(s) + 3O\u2082(g) \uf8e7\u2192 2Fe\u2082O\u2083(s)",
       "P\u2084(s) + 5O\u2082(g) \uf8e7\u2192 P\u2084O\u2081\u2080(s)",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A reaction satisfies the Law of Conservation of Mass only if it is stoichiometrically balanced.\n\n\u26a1 **Step-by-Step Calculation**:\n- In reaction (2): $\\text{CH}_4\\text{(g)} + \\text{O}_2\\text{(g)} \\longrightarrow \\text{CO}_2\\text{(g)} + \\text{H}_2\\text{O(g)}$:\n  - Reactants: $1\\text{ C}, 4\\text{ H}, 2\\text{ O}$\n  - Products: $1\\text{ C}, 2\\text{ H}, 3\\text{ O}$\n  - The equation is unbalanced (atoms of H and O are not conserved).\n  - The balanced form is $\\text{CH}_4 + 2\\text{O}_2 \\longrightarrow \\text{CO}_2 + 2\\text{H}_2\\text{O}$.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Unbalanced chemical equations violate the Law of Conservation of Mass."
   },
@@ -3079,6 +3248,7 @@ export const ALLEN_MOLE_EXERCISE_3_QUESTIONS: Question[] = [
       "Mass exactly equal to 1/12th of mass of one C-12 atom",
       "Both (2) and (3)",
     ],
+    correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The molecular mass of a single molecule of glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) is $180\\text{ amu}$ (or $180\\text{ u}$). $180\\text{ g}$ is its molar mass (the mass of 1 mole of molecules).\n\n\u26a1 **Step-by-Step Calculation**:\n$$\\text{Mass of 1 glucose molecule} = 6(12) + 12(1) + 6(16) = 180\\text{ amu}$$.\n- Option (3) defines $1\\text{ amu}$, not the mass of glucose.\n- Therefore, only option (2) is correct.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Pay close attention to units: amu (atomic/molecular level) vs grams (macroscopic mole level)."
   }
