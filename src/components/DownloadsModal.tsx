@@ -129,7 +129,17 @@ export const DownloadsModal: React.FC<DownloadsModalProps> = ({ onClose }) => {
   };
 
   const handleDownloadSampleBook = () => {
-    const sample = BOOKS_DATA[0];
+    const sample = BOOKS_DATA[0] || {
+      id: 'sample-ncert-handbook',
+      title: 'NCERT High-Yield Revision Handbook',
+      category: 'NCERT notes' as const,
+      subject: 'Biology' as const,
+      pages: 120,
+      size: '5.2 MB',
+      description: 'Comprehensive NCERT line-by-line revision document.',
+      rating: 4.9,
+      highlights: ['Key formulas and summaries', 'Revision charts']
+    };
     downloadBookPDF(sample);
   };
 

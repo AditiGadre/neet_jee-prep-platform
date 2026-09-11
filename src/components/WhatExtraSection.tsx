@@ -408,7 +408,17 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   const handleReDownloadItem = (record: DownloadRecord) => {
     if (record.category === 'Book') {
-      const match = books.find(b => b.title.toLowerCase() === record.title.toLowerCase()) || books[0];
+      const match = books.find(b => b.title.toLowerCase() === record.title.toLowerCase()) || books[0] || {
+        id: 'book-' + Date.now(),
+        title: record.title,
+        category: 'PDFs' as const,
+        subject: (record.subject as any) || 'All',
+        pages: 120,
+        size: record.fileSize || '2.4 MB',
+        description: 'Complete NCERT High-Yield Revision Document.',
+        rating: 4.9,
+        highlights: ['Full NCERT coverage']
+      };
       downloadBookPDF(match);
     } else if (record.category === 'DPP') {
       downloadDppPDF({
@@ -1138,49 +1148,74 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {filteredBooks.map(book => (
-              <div
-                key={book.id}
-                className="p-4 rounded-lg bg-gray-50 border border-gray-200 flex flex-col justify-between hover:border-blue-300 transition-all space-y-3"
-              >
-                <div className="space-y-1.5">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-mono">
-                      {book.subject} &bull; {book.category}
-                    </span>
-                    <span className="text-[10px] text-gray-500 font-mono">{book.size}</span>
-                  </div>
-                  <h3 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">{book.title}</h3>
-                  <p className="text-xs text-gray-600 line-clamp-2">{book.description}</p>
-                </div>
-
-                <div className="space-y-2 pt-2 border-t border-gray-200">
-                  <div className="flex items-center justify-between text-[11px] text-gray-500 font-mono">
-                    <span>{book.pages} Pages</span>
-                    <span>★ {book.rating} / 5.0</span>
+          {filteredBooks.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {filteredBooks.map(book => (
+                <div
+                  key={book.id}
+                  className="p-4 rounded-lg bg-gray-50 border border-gray-200 flex flex-col justify-between hover:border-blue-300 transition-all space-y-3"
+                >
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-mono">
+                        {book.subject} &bull; {book.category}
+                      </span>
+                      <span className="text-[10px] text-gray-500 font-mono">{book.size}</span>
+                    </div>
+                    <h3 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">{book.title}</h3>
+                    <p className="text-xs text-gray-600 line-clamp-2">{book.description}</p>
                   </div>
 
-                  <div className="flex items-center space-x-2">
-                    <button
-                      onClick={() => onOpenBook(book)}
-                      className="flex-1 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-800 text-xs font-semibold border border-gray-300 flex items-center justify-center space-x-1 cursor-pointer"
-                    >
-                      <Eye className="w-3.5 h-3.5 text-gray-600" />
-                      <span>Read Online</span>
-                    </button>
-                    <button
-                      onClick={() => downloadBookPDF(book)}
-                      className="flex-1 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center justify-center space-x-1 cursor-pointer"
-                    >
-                      <Download className="w-3.5 h-3.5" />
-                      <span>Download PDF</span>
-                    </button>
+                  <div className="space-y-2 pt-2 border-t border-gray-200">
+                    <div className="flex items-center justify-between text-[11px] text-gray-500 font-mono">
+                      <span>{book.pages} Pages</span>
+                      <span>★ {book.rating} / 5.0</span>
+                    </div>
+
+                    <div className="flex items-center space-x-2">
+                      <button
+                        onClick={() => onOpenBook(book)}
+                        className="flex-1 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-800 text-xs font-semibold border border-gray-300 flex items-center justify-center space-x-1 cursor-pointer"
+                      >
+                        <Eye className="w-3.5 h-3.5 text-gray-600" />
+                        <span>Read Online</span>
+                      </button>
+                      <button
+                        onClick={() => downloadBookPDF(book)}
+                        className="flex-1 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center justify-center space-x-1 cursor-pointer"
+                      >
+                        <Download className="w-3.5 h-3.5" />
+                        <span>Download PDF</span>
+                      </button>
+                    </div>
                   </div>
                 </div>
+              ))}
+            </div>
+          ) : (
+            <div className="p-8 text-center bg-gray-50/80 border border-dashed border-gray-200 rounded-xl space-y-3">
+              <div className="w-12 h-12 mx-auto rounded-full bg-blue-50 text-blue-600 flex items-center justify-center">
+                <BookOpen className="w-6 h-6" />
               </div>
-            ))}
-          </div>
+              <div className="space-y-1">
+                <h3 className="text-sm font-bold text-gray-900">Books & Notes Library Active</h3>
+                <p className="text-xs text-gray-500 max-w-md mx-auto leading-relaxed">
+                  The Books & Notes library section is active and open. All previous sample books have been cleared. Upload custom NCERT notes, formula sheets, or reference PDFs via the Upload portal to add books here.
+                </p>
+              </div>
+              {onOpenUploadModal && (
+                <div className="pt-2">
+                  <button
+                    onClick={() => onOpenUploadModal('Biology', 'Books & Notes')}
+                    className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer"
+                  >
+                    <Upload className="w-3.5 h-3.5" />
+                    <span>Upload Notes or Books</span>
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
 

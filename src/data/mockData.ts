@@ -3514,52 +3514,7 @@ export const MIND_MAPS_DATA: MindMapNode[] = [
 ];
 
 // ==========================================
-export const BOOKS_DATA: BookItem[] = [
-  {
-    id: 'book-ncert-bio',
-    title: 'Master NCERT Biology Line-by-Line Highlighter & Notes',
-    category: 'NCERT notes',
-    subject: 'Biology',
-    pages: 420,
-    size: '18.4 MB',
-    description: 'Every single line from NCERT Class 11 & 12 dissected with 3,500+ tagged PYQs, diagrams, and examiner secret traps.',
-    rating: 4.96,
-    highlights: ['100% NCERT verbatim alignment', 'Color coded: Green (High-yield), Yellow (Tricky)', 'Summary mind maps after every chapter']
-  },
-  {
-    id: 'book-formula-phy',
-    title: 'Pocket Formula Book for Physics NEET & JEE',
-    category: 'Formula books',
-    subject: 'Physics',
-    pages: 180,
-    size: '9.2 MB',
-    description: 'Formula handbook with standard derivations, dimensional shortcuts, and common sign convention pitfalls.',
-    rating: 4.91,
-    highlights: ['All 28 chapters covered', 'Includes graphical tricks', 'Printable cheat-sheets included']
-  },
-  {
-    id: 'book-reactions-chem',
-    title: 'Organic Chemistry Reactions, Reagents & Mechanisms',
-    category: 'Revision notes',
-    subject: 'Chemistry',
-    pages: 240,
-    size: '12.8 MB',
-    description: 'Comprehensive named reactions atlas with electron-pushing arrow mechanisms, solvent effects, and conversion roadmaps.',
-    rating: 4.94,
-    highlights: ['All 82 named reactions indexed', 'Conversion flowcharts from Alkane to Amines', 'Reagent function lookup table']
-  },
-  {
-    id: 'book-pyq-archive',
-    title: '37 Years Solved NEET & AIPMT Topic-Wise Archive',
-    category: 'eBooks',
-    subject: 'Biology',
-    pages: 650,
-    size: '34.5 MB',
-    description: 'Complete authentic question bank from 1988 to 2024 with line-by-line NCERT references and step-by-step verified solutions.',
-    rating: 4.98,
-    highlights: ['Topic-wise categorized questions', 'Examiner frequency tag (Hot/Regular)', 'Detailed step-by-step solutions']
-  }
-];
+export const BOOKS_DATA: BookItem[] = [];
 
 // ==========================================
 // PREVIOUS YEAR QUESTIONS (PYQS) REPOSITORY

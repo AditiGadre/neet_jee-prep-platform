@@ -45,7 +45,7 @@ import { ExamType, TestItem, BookItem, UserTestResult } from './types';
 export default function App() {
   const [activeExam, setActiveExam] = useState<ExamType>('NEET');
   const [activeTab, setActiveTab] = useState<TabType>('test-series');
-  const [extraSubTab, setExtraSubTab] = useState<string>('flash-cards');
+  const [extraSubTab, setExtraSubTab] = useState<string>('books');
 
   // Mandatory Enrollment Gate State - Persistent check for existing enrolled users
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
