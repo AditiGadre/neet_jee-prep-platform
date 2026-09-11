@@ -166,6 +166,10 @@ import {
   ALL_UNIVERSAL_RAY_OPTICS_QUESTIONS,
   UNIVERSAL_REFRACTION_PLANE_QUESTIONS,
   UNIVERSAL_TIR_QUESTIONS,
+  ALLEN_UNITS_EXERCISE_1_QUESTIONS,
+  ALLEN_UNITS_EXERCISE_2_QUESTIONS,
+  ALLEN_UNITS_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_UNITS_DIMENSIONS_QUESTIONS,
   ALL_PHYSICS_MASTER_QUESTIONS
 } from './physicsMasterQuestions';
 import {
@@ -2199,6 +2203,86 @@ export const TEST_SERIES_DATA: TestItem[] = [
     cbtMode: true,
     features: ['All 46 Official TIR Qs', 'Snell Window & Fiber Optics', 'Full Wavefront & Ray SVGs', 'Step-by-Step Solutions'],
     questions: UNIVERSAL_TIR_QUESTIONS
+  },
+  {
+    id: 'test-phy-allen-units-ex1-part1',
+    title: 'ALLEN Physics: Units & Dimensions Conceptual Drill Part 1 (26 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-I (Build Up Your Understanding): Q1-Q26 on Base SI Units, Dimensional Formulas, Homogeneity & Physical Constants',
+    totalQuestions: 26,
+    durationMinutes: 20,
+    totalMarks: 104,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['ALLEN Official Exercise-I', 'Units, SI & CGS Conversions', 'Homogeneity Principle', 'Step-by-Step Solutions'],
+    questions: ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(0, 26)
+  },
+  {
+    id: 'test-phy-allen-units-ex1-part2',
+    title: 'ALLEN Physics: Measurement, Instruments & Errors Conceptual Drill Part 2 (26 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-I (Build Up Your Understanding): Q27-Q52 on Error Propagation, Significant Figures, Vernier Callipers & Screw Gauge',
+    totalQuestions: 26,
+    durationMinutes: 20,
+    totalMarks: 104,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['ALLEN Official Exercise-I', 'Vernier Callipers & Screw Gauge SVGs', 'Significant Figures & Rounding Rules', 'Step-by-Step Solutions'],
+    questions: ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(26, 52)
+  },
+  {
+    id: 'test-phy-allen-units-pyq',
+    title: 'ALLEN Physics: Units & Measurement 15-Yr AIPMT/NEET PYQs (38 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-II: 100% Authentic AIPMT & NEET PYQs (2006 to Re-NEET 2022) with Official Keys',
+    totalQuestions: 38,
+    durationMinutes: 30,
+    totalMarks: 152,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['100% Authentic NEET/AIPMT PYQs', 'Screw Gauge Zero Error & Vernier Least Count', 'Multi-Variable Error Propagation', 'Complete Step-by-Step Derivations'],
+    questions: ALLEN_UNITS_EXERCISE_2_QUESTIONS
+  },
+  {
+    id: 'test-phy-allen-units-analytical',
+    title: 'ALLEN Physics: Units & Measurement Master Analytical Drill (11 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-III (Master Your Understanding): High-yield Analytical Problems on Custom Unit Systems, Cylinder & Wire Density Errors',
+    totalQuestions: 11,
+    durationMinutes: 15,
+    totalMarks: 44,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['ALLEN Exercise-III Master Level', 'Arbitrary Unit Systems', 'Cylinder & Wire Volume/Density Errors', 'Full Vector Diagrams'],
+    questions: ALLEN_UNITS_EXERCISE_3_QUESTIONS
+  },
+  {
+    id: 'test-phy-allen-units-full',
+    title: 'ALLEN Physics: Complete Chapter Test - Units, Dimensions & Errors (45 Qs Speed Drill)',
+    category: 'full',
+    exam: 'NEET',
+    syllabus: 'Complete Syllabus: Physical World, Units, Dimensions, Significant Figures, Error Analysis, Vernier Callipers & Screw Gauge (NTA NEET Pattern)',
+    totalQuestions: 45,
+    durationMinutes: 30,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: ['NTA NEET Pattern 45 Qs', 'Curated from 101 Official Allen Questions', 'Interactive Instruments SVGs', 'Timer & Instant Scorecard'],
+    questions: [
+      ...ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(0, 15),
+      ...ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(35, 52),
+      ...ALLEN_UNITS_EXERCISE_2_QUESTIONS.slice(0, 10),
+      ...ALLEN_UNITS_EXERCISE_3_QUESTIONS.slice(0, 3)
+    ]
   }
 ];
 
