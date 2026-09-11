@@ -137,6 +137,13 @@ import {
   ALLEN_ANIMAL_KINGDOM_EXERCISE_3_QUESTIONS,
   ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS
 } from './allenAnimalKingdomQuestions';
+import {
+  ALLEN_DLW_EXERCISE_1_QUESTIONS,
+  ALLEN_DLW_EXERCISE_2_QUESTIONS,
+  ALLEN_DLW_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_DIVERSITY_LIVING_WORLD_QUESTIONS
+} from './allenDiversityLivingWorldQuestions';
+
 
 
 
@@ -2885,6 +2892,157 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     features: ['90 Full-Chapter Questions', 'Exact NEET Zoology Marking (+4, -1)', 'All Phyla & Classes Evaluated', 'National Rank & Percentile Predictor'],
     questions: [...ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(0, 30), ...ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(0, 30), ...ALLEN_ANIMAL_KINGDOM_EXERCISE_3_QUESTIONS.slice(0, 30)]
   },
+  {
+    id: 'test-bot-allen-dlw-living-world',
+    title: 'ALLEN Botany: The Living World & Nomenclature (Drill 1)',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Taxonomy, ICBN & Living World)',
+    description: 'Master principles of nomenclature, Linnaean hierarchy, binomial rules, taxonomic aids (Herbarium, Botanical Gardens, Museum, Keys), and defining properties of living organisms.',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['45 Authentic Allen Questions', 'Taxonomy & Nomenclature', 'Official DL Codes', 'Instant CBT Scorecard'],
+    questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(0, 45)
+  },
+  {
+    id: 'test-bot-allen-dlw-monera',
+    title: 'ALLEN Botany: Kingdom Monera & Archaebacteria (Drill 2)',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Q46 to Q75)',
+    description: 'Master bacterial cell structure, mesosomes, peptidoglycan, Archaebacteria, Methanogens, Cyanobacteria, heterocysts, and biological nitrogen fixation.',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Authentic Allen Questions', 'Prokaryotes & Cyanobacteria', 'Official BC Codes', 'Instant CBT Scorecard'],
+    questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(45, 90)
+  },
+  {
+    id: 'test-bot-allen-dlw-protista-fungi',
+    title: 'ALLEN Botany: Kingdom Protista & Kingdom Fungi (Drill 3)',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Q91 to Q136)',
+    description: 'Master Chrysophytes (diatoms, kieselguhr), Dinoflagellates, Euglenoids, Slime moulds, and Fungi classes (Phycomycetes, Ascomycetes, Basidiomycetes, Deuteromycetes).',
+    durationMinutes: 45,
+    totalMarks: 200,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['50 Authentic Allen Questions', 'Protists & Fungi Life Cycles', 'Official BC Codes', 'Instant CBT Scorecard'],
+    questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(90, 140)
+  },
+  {
+    id: 'test-bot-allen-dlw-algae-bryo',
+    title: 'ALLEN Botany: Plant Kingdom - Algae & Bryophytes (Drill 4)',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Q137 to Q209)',
+    description: 'Detailed coverage of Chlorophyceae, Phaeophyceae, Rhodophyceae, pigments, stored food, hydrocolloids, and Bryophyta (Liverworts, Mosses, gemmae, protonema).',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Authentic Allen Questions', 'Algae & Bryophyta Mastery', 'Official PD Codes', 'Instant CBT Scorecard'],
+    questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(140, 185)
+  },
+  {
+    id: 'test-bot-allen-dlw-ptero-gymno',
+    title: 'ALLEN Botany: Plant Kingdom - Pteridophytes & Gymnosperms (Drill 5)',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Q210 to Q267)',
+    description: 'Master seed habit evolution, heterospory (Selaginella, Salvinia), gymnosperm ovules, haploid endosperm, Cycas, Pinus, and Sequoia.',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['45 Authentic Allen Questions', 'Vascular Cryptogams & Phanerogams', 'Official PD Codes', 'Instant CBT Scorecard'],
+    questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(209, 254)
+  },
+  {
+    id: 'test-bot-allen-dlw-viruses',
+    title: 'ALLEN Botany: Viruses, Viroids, Prions & Lichens (Drill 6)',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-I (Q268 to Q291 with TMV & Phage Diagrams)',
+    description: 'Master acellular entities, TMV and Bacteriophage anatomy, T.O. Diener viroids, Prions, Lichen symbiosis (phycobiont & mycobiont), and mycorrhizae.',
+    durationMinutes: 35,
+    totalMarks: 140,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['35 Authentic Allen Questions', 'TMV & Bacteriophage Diagrams', 'Official BC Codes', 'Instant CBT Scorecard'],
+    questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(254, 291)
+  },
+  {
+    id: 'test-bot-allen-dlw-pyq1',
+    title: 'ALLEN Botany: Diversity in Living World - AIPMT & NEET PYQs 2006–2014',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-II (Part 1: Q1 to Q108 with Diagrams)',
+    description: 'Authentic 9-year previous exams drill with diagrams of Selaginella, Equisetum, Salvinia, Ginkgo, and Marchantia female thallus.',
+    durationMinutes: 45,
+    totalMarks: 200,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['50 Authentic AIPMT/NEET Questions', 'Year-Tagged 2006-2014', 'Original Plant Figures & Diagrams', 'Instant CBT Scoring'],
+    questions: ALLEN_DLW_EXERCISE_2_QUESTIONS.slice(0, 50)
+  },
+  {
+    id: 'test-bot-allen-dlw-pyq2',
+    title: 'ALLEN Botany: Diversity in Living World - NEET PYQs 2015–2022',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-II (Part 2: Q109 to Q224 with Herbarium & Chara Diagrams)',
+    description: 'Recent NEET trends, COVID-19 re-tests, Paper-2, and Overseas papers featuring Herbarium repository and Chara monoecious thallus.',
+    durationMinutes: 45,
+    totalMarks: 200,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['50 Authentic NEET Questions', 'Recent NTA Question Trends 2015-2022', 'Herbarium & Chara Visuals', 'Instant CBT Scoring'],
+    questions: ALLEN_DLW_EXERCISE_2_QUESTIONS.slice(108, 158)
+  },
+  {
+    id: 'test-bot-allen-dlw-ncert-analytical',
+    title: 'ALLEN Botany: NCERT Analytical & Assertion-Reason Mastery',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'ALLEN Class 11 Botany - Exercise-III (Complete High-Yield Analytical Drill)',
+    description: 'Rigorous analytical practice covering taxonomic literature, dual photos of Herbarium vs Zoological park, and multi-statement challenges.',
+    durationMinutes: 45,
+    totalMarks: 200,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['50 NCERT Analytical Questions', 'Visual Photo Analysis', 'High-Order Thinking (HOTS)', 'Instant CBT Scoring'],
+    questions: ALLEN_DLW_EXERCISE_3_QUESTIONS.slice(0, 50)
+  },
+  {
+    id: 'test-bot-allen-dlw-grand-mock',
+    title: 'ALLEN Botany: Diversity in Living World - Full Unit Mock Simulator',
+    subject: 'Biology',
+    chapter: 'Diversity in the Living World',
+    subtitle: 'Complete 90-Question NEET Grand Botany Unit 1 Mock',
+    description: 'Comprehensive 90-question NEET examination standard mock covering The Living World, Biological Classification, and Plant Kingdom.',
+    durationMinutes: 90,
+    totalMarks: 360,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['90 Full-Unit Questions', 'Exact NEET Biology Marking (+4, -1)', 'Complete Unit 1 Coverage', 'All India Rank Predictor'],
+    questions: [...ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(0, 30), ...ALLEN_DLW_EXERCISE_2_QUESTIONS.slice(0, 30), ...ALLEN_DLW_EXERCISE_3_QUESTIONS.slice(0, 30)]
+  },
+
 
   {
     id: 'fc-bio-2',

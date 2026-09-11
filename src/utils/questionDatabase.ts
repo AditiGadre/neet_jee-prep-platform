@@ -3,6 +3,7 @@ import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuest
 import { ALL_ALLEN_ANATOMY_QUESTIONS } from '../data/allenAnatomyQuestions';
 import { ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS } from '../data/allenAnimalTissuesQuestions';
 import { ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS } from '../data/allenAnimalKingdomQuestions';
+import { ALL_ALLEN_DIVERSITY_LIVING_WORLD_QUESTIONS } from '../data/allenDiversityLivingWorldQuestions';
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
 import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructureQuestions';
 import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuestions';
@@ -81,7 +82,8 @@ export const ALL_BIOLOGY_COMBINED_QUESTIONS: Question[] = [
   ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
   ...ALL_ALLEN_ANATOMY_QUESTIONS,
   ...ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS,
-  ...ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS
+  ...ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS,
+  ...ALL_ALLEN_DIVERSITY_LIVING_WORLD_QUESTIONS
 ];
 const bioIndex = buildChapterIndex(ALL_BIOLOGY_COMBINED_QUESTIONS);
 export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = [
