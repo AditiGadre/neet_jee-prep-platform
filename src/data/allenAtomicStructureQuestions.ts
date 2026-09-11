@@ -1,9 +1,9 @@
 import { Question } from '../types';
 
 /**
- * ALLEN PRE-MEDICAL PHYSICAL CHEMISTRY QUESTION BANK
+ * Pre-Medical PHYSICAL CHEMISTRY QUESTION BANK
  * Chapter: Structure of Atom (Atomic Structure)
- * Total Questions: 215 authentic questions with 100% official Allen answer keys
+ * Total Questions: 215 authentic questions with 100% Official Answer Keys
  * - Exercise-I (Conceptual Questions): 136 Questions (AS0001 to AS0152)
  * - Exercise-II (Previous Year Questions - AIPMT/NEET): 37 Questions (AS0156 to AS0320)
  * - Exercise-III (Analytical Questions - Master Level): 42 Questions (AS0198 to AS0273)
@@ -15,8 +15,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Rutherford's α-particle scattering experiment proved that atom has :-",
+    "question": "Rutherford's α-particle scattering experiment proved that atom has :-",
     "options": [
       "Electrons",
       "Neutrons",
@@ -28,7 +30,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -37,8 +39,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "If the value of En = -34.84 then to which of the following values does 'n' correspond :-",
+    "question": "If the value of En = -34.84 then to which of the following values does 'n' correspond :-",
     "options": [
       "1",
       "2",
@@ -50,7 +54,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -59,8 +63,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Find out the atoms which are isoneutronic :-",
+    "question": "Find out the atoms which are isoneutronic :-",
     "options": [
       "14 6 C , 15 7 N , 17 9 F",
       "12 6 C , 14 7 N , 19 9 F",
@@ -72,7 +78,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -81,8 +87,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Species which are isoelectronic to one another are (a) CN - (b) OH - (c) 3 CH+ (d) N2 (e) CO Correct answer is :-",
+    "question": "Species which are isoelectronic to one another are (a) CN - (b) OH - (c) 3 CH+ (d) N2 (e) CO Correct answer is :-",
     "options": [
       "a, b, c",
       "a, c, d",
@@ -94,7 +102,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -103,8 +111,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "For any anion X -3, the mass number is 14. If anion has10 electrons, then number of neutrons in X2 nucleus :-",
+    "question": "For any anion X -3, the mass number is 14. If anion has10 electrons, then number of neutrons in X2 nucleus :-",
     "options": [
       "10",
       "14",
@@ -116,7 +126,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -125,8 +135,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "Which of the following pairs is correctly matched :",
+    "question": "Which of the following pairs is correctly matched :",
     "options": [
       "Isotopes 40 20Ca , 40 19K",
       "Isotones 30 31 32 14 15 16 Si, P, S",
@@ -138,7 +150,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -147,8 +159,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Match the following isotopic/isotonic pairs with the correct terms: | Species Pair | Term | | :--- | :--- | | (i) ⁵⁴₂₆Fe, ⁵⁶₂₆Fe, ⁵⁷₂₆Fe, ⁵⁸₂₆Fe | (a) Isotopes | | (ii) ³₁H, ³₂He | (b) Isotones | | (iii) ⁷⁶₃₂Ge, ⁷⁷₃₃As | (c) Isodiaphers | | (iv) ²³⁵₉₂U, ²³¹₉₀Th | (d) Isobars | | (v) ¹₁H, ²₁D, ³₁T | | Match the above correct terms:-",
+    "question": "Match the following isotopic/isotonic pairs with the correct terms: | Species Pair | Term | | :--- | :--- | | (i) ⁵⁴₂₆Fe, ⁵⁶₂₆Fe, ⁵⁷₂₆Fe, ⁵⁸₂₆Fe | (a) Isotopes | | (ii) ³₁H, ³₂He | (b) Isotones | | (iii) ⁷⁶₃₂Ge, ⁷⁷₃₃As | (c) Isodiaphers | | (iv) ²³⁵₉₂U, ²³¹₉₀Th | (d) Isobars | | (v) ¹₁H, ²₁D, ³₁T | | Match the above correct terms:-",
     "options": [
       "[(i), - a], [(ii) - d], [(iii) - b], [(iv) - c], [(v) - a]",
       "[(i) - a] [(ii) - d], [(iii) - d] [(iv) - c] [v - a]",
@@ -160,7 +174,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -169,8 +183,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "Choose the false statement about deuterium :-",
+    "question": "Choose the false statement about deuterium :-",
     "options": [
       "It is an isotope of hydrogen",
       "It contains [",
@@ -182,7 +198,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -191,8 +207,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "The relative abundance of two rubidium isotopes of atomic weights 85 and 87 are 75% and 25% respectively. The average atomic weight of rubidium is:-",
+    "question": "The relative abundance of two rubidium isotopes of atomic weights 85 and 87 are 75% and 25% respectively. The average atomic weight of rubidium is:-",
     "options": [
       "75.5",
       "85.5",
@@ -204,7 +222,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -213,8 +231,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "The ratio of specific charge of a proton and an α-particle is :-",
+    "question": "The ratio of specific charge of a proton and an α-particle is :-",
     "options": [
       "2 : 1",
       "1 : 2",
@@ -226,7 +246,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -235,8 +255,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "In an atom 27 13 Al , number of proton is (a), electron is (b) and neutron is (c). Hence ratio will be [in order c : b : a] :-",
+    "question": "In an atom 27 13 Al , number of proton is (a), electron is (b) and neutron is (c). Hence ratio will be [in order c : b : a] :-",
     "options": [
       "13 : 14 : 13",
       "13 : 13 : 14",
@@ -248,7 +270,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -257,8 +279,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Atomic weight of Ne is 20.2. Ne is mixture of 20Ne and 22Ne, relative abundance of heavier isotope is :-",
+    "question": "Atomic weight of Ne is 20.2. Ne is mixture of 20Ne and 22Ne, relative abundance of heavier isotope is :-",
     "options": [
       "90",
       "20",
@@ -270,7 +294,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -279,8 +303,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Number of protons, neutrons & electrons in the element 231 89 γ is :-",
+    "question": "Number of protons, neutrons & electrons in the element 231 89 γ is :-",
     "options": [
       "89, 231, 89",
       "89, 89, 242",
@@ -292,7 +318,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -301,8 +327,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "Atoms 13 6 C and 17 8 O are related to each other as:-",
+    "question": "Atoms 13 6 C and 17 8 O are related to each other as:-",
     "options": [
       "Isotones",
       "Isoelectronic",
@@ -314,7 +342,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -323,8 +351,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "The e/m ratio is maximum for :-",
+    "question": "The e/m ratio is maximum for :-",
     "options": [
       "D +",
       "He +",
@@ -336,7 +366,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -345,8 +375,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "An isotone of 76 32Ge is :- (i) 77 32Ge (ii) 77 33 As (iii) 77 34 Se (iv) 78 34 Se",
+    "question": "An isotone of 76 32Ge is :- (i) 77 32Ge (ii) 77 33 As (iii) 77 34 Se (iv) 78 34 Se",
     "options": [
       "(ii) & (iii)",
       "(i) & (ii)",
@@ -358,7 +390,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -367,8 +399,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "In 14 7 N if mass attributed to electrons were doubled & the mass attributed to protons were halved, the atomic mass would become approximately :-",
+    "question": "In 14 7 N if mass attributed to electrons were doubled & the mass attributed to protons were halved, the atomic mass would become approximately :-",
     "options": [
       "Halved",
       "Doubled",
@@ -380,7 +414,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -389,8 +423,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Easy",
     "questionText": "The value of planck's constant is 6.63 × 10⁻34 Js. The velocity of light is 3.0 × 10^8 m s -1. Which value is closest to the wavelength in metres of a quantum of light with frequency of 8 × 10^15 s -1 ?",
+    "question": "The value of planck's constant is 6.63 × 10⁻34 Js. The velocity of light is 3.0 × 10^8 m s -1. Which value is closest to the wavelength in metres of a quantum of light with frequency of 8 × 10^15 s -1 ?",
     "options": [
       "3 × 10^7",
       "2 × 10⁻25",
@@ -402,7 +438,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -412,8 +448,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Easy",
     "questionText": "The energy of one mole photons of radiation having frequency 5.01 × 10^14 Hz is :",
+    "question": "The energy of one mole photons of radiation having frequency 5.01 × 10^14 Hz is :",
     "options": [
       "160 KJ mol -1",
       "180 KJ mol -1",
@@ -425,7 +463,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -434,8 +472,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "Angular momentum in second Bohr orbit of H-atom is x. Then find out angular momentum in I st excited state of Li +2 ion :",
+    "question": "Angular momentum in second Bohr orbit of H-atom is x. Then find out angular momentum in I st excited state of Li +2 ion :",
     "options": [
       "3x",
       "9x",
@@ -447,7 +487,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -457,8 +497,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "Multiplication of electron velocity and radius for a orbit in an atom is :-",
+    "question": "Multiplication of electron velocity and radius for a orbit in an atom is :-",
     "options": [
       "Proportional to mass of electron",
       "Proportional to square of mass of electron",
@@ -470,7 +512,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -479,8 +521,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The radius of a shell for H-atom is 4.761Å. The value of n is :-",
+    "question": "The radius of a shell for H-atom is 4.761Å. The value of n is :-",
     "options": [
       "3",
       "9",
@@ -492,7 +536,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -501,8 +545,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "In Bohr's atomic model radius of I st orbit of Hydrogen is 0.053 nm then radius of 3 rd orbit of Li +2 is :",
+    "question": "In Bohr's atomic model radius of I st orbit of Hydrogen is 0.053 nm then radius of 3 rd orbit of Li +2 is :",
     "options": [
       "0.159 nm",
       "0.053 nm",
@@ -514,7 +560,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -524,8 +570,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The radius ratio of first three Bohr orbits is :-",
+    "question": "The radius ratio of first three Bohr orbits is :-",
     "options": [
       "1 : 0·5 : 0·5",
       "1 : 2 : 3",
@@ -537,7 +585,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -547,8 +595,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "For Li +2 ion, r2 : r5 will be :-",
+    "question": "For Li +2 ion, r2 : r5 will be :-",
     "options": [
       "9 : 25",
       "4 : 25",
@@ -560,7 +610,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -569,8 +619,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The ratio of the radii of two Bohr orbits of H-atom is 4 : 1, what would be their nomenclature :-",
+    "question": "The ratio of the radii of two Bohr orbits of H-atom is 4 : 1, what would be their nomenclature :-",
     "options": [
       "K & L",
       "L & K",
@@ -582,7 +634,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -592,8 +644,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The velocity of electron in third excited state of Be 3+ ion will be :-",
+    "question": "The velocity of electron in third excited state of Be 3+ ion will be :-",
     "options": [
       "3 4",
       ".188 × 10^8)ms -1",
@@ -605,7 +659,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -614,8 +668,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The Bohr orbit radius for the hydrogen atom (n = 1) is approximately 0.530 Å. The radius for the first excited state (n = 2) will be :-",
+    "question": "The Bohr orbit radius for the hydrogen atom (n = 1) is approximately 0.530 Å. The radius for the first excited state (n = 2) will be :-",
     "options": [
       "0.13 Å",
       "1.06 Å",
@@ -627,7 +683,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -637,8 +693,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The ratio of radius of first orbit in hydrogen to the radius of first orbit in deuterium will be :-",
+    "question": "The ratio of radius of first orbit in hydrogen to the radius of first orbit in deuterium will be :-",
     "options": [
       "1 : 1",
       "1 : 2",
@@ -650,7 +708,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -659,8 +717,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "For any H like system, the ratio of velocities of electron in I, II & III orbit i.e., V1 : V2 : V3 will be",
+    "question": "For any H like system, the ratio of velocities of electron in I, II & III orbit i.e., V1 : V2 : V3 will be",
     "options": [
       "1 : 2 : 3",
       "1 : 1/2 : 1/3",
@@ -672,7 +732,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -681,8 +741,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The energy of H-atom in n th orbit is En, then energy in n th orbit of singly ionised helium ion will be:-",
+    "question": "The energy of H-atom in n th orbit is En, then energy in n th orbit of singly ionised helium ion will be:-",
     "options": [
       "4En",
       "En/4",
@@ -694,7 +756,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -703,8 +765,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The energy of second Bohr orbit of the hydrogen atom is -328 kJ/mol. Hence the energy of fourth Bohr orbit should be :",
+    "question": "The energy of second Bohr orbit of the hydrogen atom is -328 kJ/mol. Hence the energy of fourth Bohr orbit should be :",
     "options": [
       "-41 kJ/mol",
       "-1312 kJ/mol",
@@ -716,7 +780,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -726,8 +790,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "In a hydrogen atom, if energy of an electron in ground state is -13.6 eV, then energy in the 2 nd excited state is :-",
+    "question": "In a hydrogen atom, if energy of an electron in ground state is -13.6 eV, then energy in the 2 nd excited state is :-",
     "options": [
       "-1.51 eV",
       "-3.4 eV",
@@ -739,7 +805,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -748,8 +814,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The ratio between kinetic energy and the total energy of the electron of hydrogen atom according to Bohr's model is :-",
+    "question": "The ratio between kinetic energy and the total energy of the electron of hydrogen atom according to Bohr's model is :-",
     "options": [
       "2 : 1",
       "1 : 1",
@@ -761,7 +829,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -771,8 +839,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "Potential energy is - 27.2 eV in second orbit of He +, then calculate double of total energy in first excited state of hydrogen atom :-",
+    "question": "Potential energy is - 27.2 eV in second orbit of He +, then calculate double of total energy in first excited state of hydrogen atom :-",
     "options": [
       "- 13.6 eV",
       "- 54.4 eV",
@@ -784,7 +854,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -793,8 +863,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The graphical representation of energy of electron and atomic number is :-",
+    "question": "The graphical representation of energy of electron and atomic number is :-",
     "options": [
       "E Z2",
       "E Z 2",
@@ -806,7 +878,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -815,8 +887,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "Going from K-shell to N-shell in case of H-atom :-",
+    "question": "Going from K-shell to N-shell in case of H-atom :-",
     "options": [
       "Kinetic energy decreases",
       "Total energy decreases",
@@ -828,7 +902,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -837,8 +911,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Easy",
     "questionText": "Maximum frequency of emission is obtained for the transition :-",
+    "question": "Maximum frequency of emission is obtained for the transition :-",
     "options": [
       "n = 2 to n = 1",
       "n = 6 to n = 2",
@@ -850,7 +926,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -859,8 +935,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "If the ionization energy of hydrogen is 313.8 kcal per mol, then the energy of the electron in 2 nd excited state will be :-",
+    "question": "If the ionization energy of hydrogen is 313.8 kcal per mol, then the energy of the electron in 2 nd excited state will be :-",
     "options": [
       "-113.2 kcal/mol",
       "-78.45 kcal/mol",
@@ -872,7 +950,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -881,8 +959,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "Which of the following electron transition will require the largest amount of energy in a hydrogen atom :-",
+    "question": "Which of the following electron transition will require the largest amount of energy in a hydrogen atom :-",
     "options": [
       "From n = 1 to n = 2",
       "From n = 2 to n = 3",
@@ -894,7 +974,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -903,8 +983,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Easy",
     "questionText": "If the potential energy (PE) of electron of hydrogen atom is -3.02 eV then in which of the following excited level is electron present :-",
+    "question": "If the potential energy (PE) of electron of hydrogen atom is -3.02 eV then in which of the following excited level is electron present :-",
     "options": [
       "1 st",
       "2 nd",
@@ -916,7 +998,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -925,8 +1007,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Easy",
     "questionText": "The radiation of low frequency will be emitted in which transition of hydrogen atom :-",
+    "question": "The radiation of low frequency will be emitted in which transition of hydrogen atom :-",
     "options": [
       "n = 1 to n = 4",
       "n = 2 to n = 5",
@@ -938,7 +1022,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -947,8 +1031,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The ratio of energies of hydrogen atom for first and second excited state is :-",
+    "question": "The ratio of energies of hydrogen atom for first and second excited state is :-",
     "options": [
       "4/1",
       "1/4",
@@ -960,7 +1046,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -969,8 +1055,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Easy",
     "questionText": "En = -313.6/n",
+    "question": "En = -313.6/n",
     "options": [
       "None of these",
       "None of these",
@@ -982,7 +1070,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -991,8 +1079,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Easy",
     "questionText": "The ratio of potential energy and total energy of an electron in a Bohr orbit of hydrogen like species is :-",
+    "question": "The ratio of potential energy and total energy of an electron in a Bohr orbit of hydrogen like species is :-",
     "options": [
       "2",
       "-2",
@@ -1004,7 +1094,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -1014,8 +1104,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "Which is not a correct order of energy for 1 st, 2 nd & 3 rd orbit :-",
+    "question": "Which is not a correct order of energy for 1 st, 2 nd & 3 rd orbit :-",
     "options": [
       "E1 > E2 > E3",
       "(PE)1 < (PE)2 < (PE)3",
@@ -1027,7 +1119,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1036,8 +1128,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "Which is correct for any H like species :-",
+    "question": "Which is correct for any H like species :-",
     "options": [
       "(E2 - E1) > (E3 - E2) > (E4 - E3)",
       "(E2 - E1) < (E3 - E2) < (E4 - E3)",
@@ -1049,7 +1143,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1058,8 +1152,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "Which of the following is a correct graph :-",
+    "question": "Which of the following is a correct graph :-",
     "options": [
       "K.E. ↑ → n",
       "K.E. ↑ → n",
@@ -1071,7 +1167,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1080,8 +1176,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "First excitation potential of H atom is :",
+    "question": "First excitation potential of H atom is :",
     "options": [
       "10.2 eV",
       "3.4 eV",
@@ -1093,7 +1191,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1102,8 +1200,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "Energy required to remove an e - from M shell of H-atom is 1.51 eV, then energy of first excited state will be :-",
+    "question": "Energy required to remove an e - from M shell of H-atom is 1.51 eV, then energy of first excited state will be :-",
     "options": [
       "-1.51 eV",
       "+1.51 eV",
@@ -1115,7 +1215,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1124,8 +1224,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "The ionisation potential of the hydrogen atom is 13.6 eV. The energy needed to ionise a hydrogen atom which is in its second excited state is about:-",
+    "question": "The ionisation potential of the hydrogen atom is 13.6 eV. The energy needed to ionise a hydrogen atom which is in its second excited state is about:-",
     "options": [
       "13.6 eV",
       "10.2 eV",
@@ -1137,7 +1239,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1146,8 +1248,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "The ionisation energy for excited hydrogen atom in eV will be :-",
+    "question": "The ionisation energy for excited hydrogen atom in eV will be :-",
     "options": [
       "13.6",
       "Less than 13.6",
@@ -1159,7 +1263,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1168,8 +1272,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "The energy required to excite an electron of H-atom from first orbit to second orbit is :-",
+    "question": "The energy required to excite an electron of H-atom from first orbit to second orbit is :-",
     "options": [
       "3 4 of its ionisation energy",
       "1 2 of its ionisation energy",
@@ -1181,7 +1287,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1190,8 +1296,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "The ionisation potential of a singly ionised helium ion is equivalent to :-",
+    "question": "The ionisation potential of a singly ionised helium ion is equivalent to :-",
     "options": [
       "Kinetic energy of first orbit",
       "Energy of last orbit",
@@ -1203,7 +1311,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1212,8 +1320,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The spectrum of He is expected to be similar to that of :-",
+    "question": "The spectrum of He is expected to be similar to that of :-",
     "options": [
       "H",
       "Na",
@@ -1225,7 +1335,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1235,8 +1345,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Third line of Balmer series is produced by which transition in spectrum of H-atom",
+    "question": "Third line of Balmer series is produced by which transition in spectrum of H-atom",
     "options": [
       "n = 5 to n = 2",
       "n = 5 to n = 1",
@@ -1248,7 +1360,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1258,8 +1370,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Which one of the following electronic transition between energy levels produces the line of shortest wavelength in hydrogen spectrum ?",
+    "question": "Which one of the following electronic transition between energy levels produces the line of shortest wavelength in hydrogen spectrum ?",
     "options": [
       "n2 → n1",
       "n3 → n1",
@@ -1271,7 +1385,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1281,8 +1395,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Which series have highest energy in hydrogen spectrum :-",
+    "question": "Which series have highest energy in hydrogen spectrum :-",
     "options": [
       "Balmer",
       "Brackett",
@@ -1294,7 +1410,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1304,8 +1420,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The ratio of minimum frequency of Lyman & Balmer series will be :-",
+    "question": "The ratio of minimum frequency of Lyman & Balmer series will be :-",
     "options": [
       "1.25",
       "0.25",
@@ -1317,7 +1435,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1326,8 +1444,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Which transition emits photon of maximum frequency :-",
+    "question": "Which transition emits photon of maximum frequency :-",
     "options": [
       "second spectral line of Balmer series",
       "second spectral line of Paschen series",
@@ -1339,7 +1459,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1348,8 +1468,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Which one of the following species will give a series of spectral lines similar to that of Mg 2+ :-",
+    "question": "Which one of the following species will give a series of spectral lines similar to that of Mg 2+ :-",
     "options": [
       "Al 3+",
       "Na",
@@ -1361,7 +1483,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1371,8 +1493,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The ratio of minimum wavelengths of Lyman & Balmer series will be :-",
+    "question": "The ratio of minimum wavelengths of Lyman & Balmer series will be :-",
     "options": [
       "1.25",
       "0.25",
@@ -1384,7 +1508,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1393,8 +1517,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The wavelength of photon obtained by electron transition between two levels in H- atom and singly ionised He are λ1 and λ2 respectively, then :-",
+    "question": "The wavelength of photon obtained by electron transition between two levels in H- atom and singly ionised He are λ1 and λ2 respectively, then :-",
     "options": [
       "λ2 = λ1",
       "λ2 = 2λ1",
@@ -1406,7 +1532,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1415,8 +1541,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Find out ratio of following for photon (νmax.)Lyman : (νmax)Brackett",
+    "question": "Find out ratio of following for photon (νmax.)Lyman : (νmax)Brackett",
     "options": [
       "1 : 16",
       "16 : 1",
@@ -1428,7 +1556,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1437,8 +1565,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The ratio of wavelengths of first line of Lyman series in Li +2 and first line of Lyman series in deuterium 2 1( H) is :-",
+    "question": "The ratio of wavelengths of first line of Lyman series in Li +2 and first line of Lyman series in deuterium 2 1( H) is :-",
     "options": [
       "1 : 9",
       "9 : 1",
@@ -1450,7 +1580,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1459,8 +1589,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Medium",
     "questionText": "In an electronic transition, atom cannot emit :-",
+    "question": "In an electronic transition, atom cannot emit :-",
     "options": [
       "Visible light",
       "γ - rays",
@@ -1472,7 +1604,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1481,8 +1613,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The first Lyman transition in the hydrogen spectrum has ∆E = 10.2 eV. The same energy change is observed in the second Balmer transition of :-",
+    "question": "The first Lyman transition in the hydrogen spectrum has ∆E = 10.2 eV. The same energy change is observed in the second Balmer transition of :-",
     "options": [
       "Li 2+",
       "Li +",
@@ -1494,7 +1628,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1504,8 +1638,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The limiting line in Balmer series will have a frequency of :-",
+    "question": "The limiting line in Balmer series will have a frequency of :-",
     "options": [
       "3.65 × 10^14s⁻¹",
       "3.29 × 10^15s⁻¹",
@@ -1517,7 +1653,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1526,8 +1662,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The first emission line in the H-atom spectrum in the Balmer series will have wave number :-",
+    "question": "The first emission line in the H-atom spectrum in the Balmer series will have wave number :-",
     "options": [
       "5 R 36 cm -1",
       "3 R 4 cm -1",
@@ -1539,7 +1677,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1549,8 +1687,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "What transition in He + will have the same λ as the 1 st line in Lyman series of H - atom :-",
+    "question": "What transition in He + will have the same λ as the 1 st line in Lyman series of H - atom :-",
     "options": [
       "n = 5 → n = 3",
       "n = 3 → n = 2",
@@ -1562,7 +1702,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1571,8 +1711,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "In H-atom, electron transits from 6 th orbit to 2 nd orbit in multi step. Then total spectral lines (without Balmer series) will be :-",
+    "question": "In H-atom, electron transits from 6 th orbit to 2 nd orbit in multi step. Then total spectral lines (without Balmer series) will be :-",
     "options": [
       "6",
       "10",
@@ -1584,7 +1726,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1594,8 +1736,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "An atom has x energy level, then total number of lines in its spectrum are:-",
+    "question": "An atom has x energy level, then total number of lines in its spectrum are:-",
     "options": [
       "1 + 2 + 3 ............(x + 1)",
       "1 + 2 + 3 ...... (x 2)",
@@ -1607,7 +1751,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1617,8 +1761,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The figure indicates the energy level diagram for the origin of six spectral lines in emission spectrum(e.g. line no. 5 arises from the transition from level B to X) which of the following spectral lines will not occur in the absorption spectrum :-",
+    "question": "The figure indicates the energy level diagram for the origin of six spectral lines in emission spectrum(e.g. line no. 5 arises from the transition from level B to X) which of the following spectral lines will not occur in the absorption spectrum :-",
     "options": [
       "1, 2, 3",
       "3, 2",
@@ -1630,7 +1776,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ],
@@ -1641,8 +1787,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "A certain electronic transition from an excited state to ground state of the H atom in one or more step gives rise to three lines in the ultra violet region of the spectrum. How many lines does this transition produce in the infrared region of the spectrum :-",
+    "question": "A certain electronic transition from an excited state to ground state of the H atom in one or more step gives rise to three lines in the ultra violet region of the spectrum. How many lines does this transition produce in the infrared region of the spectrum :-",
     "options": [
       "1",
       "2",
@@ -1654,7 +1802,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1664,8 +1812,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "Four lowest energy levels of H- atom are shown in the figure. The number of emission lines could be :-",
+    "question": "Four lowest energy levels of H- atom are shown in the figure. The number of emission lines could be :-",
     "options": [
       "3",
       "4",
@@ -1677,7 +1827,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 420 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"420\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"210\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Four Lowest Energy Levels of Hydrogen Atom (n = 1 to 4)</text>\n  \n  <!-- Level n=4 -->\n  <line x1=\"60\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#0284C7\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"54\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">n = 4</text>\n  <text x=\"375\" y=\"54\" font-size=\"10\" fill=\"#64748B\">-0.85 eV</text>\n  \n  <!-- Level n=3 -->\n  <line x1=\"60\" y1=\"80\" x2=\"360\" y2=\"80\" stroke=\"#0284C7\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"84\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">n = 3</text>\n  <text x=\"375\" y=\"84\" font-size=\"10\" fill=\"#64748B\">-1.51 eV</text>\n  \n  <!-- Level n=2 -->\n  <line x1=\"60\" y1=\"120\" x2=\"360\" y2=\"120\" stroke=\"#0284C7\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"124\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">n = 2</text>\n  <text x=\"375\" y=\"124\" font-size=\"10\" fill=\"#64748B\">-3.40 eV</text>\n  \n  <!-- Level n=1 -->\n  <line x1=\"60\" y1=\"175\" x2=\"360\" y2=\"175\" stroke=\"#1E293B\" stroke-width=\"2.5\"/>\n  <text x=\"45\" y=\"179\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">n = 1</text>\n  <text x=\"375\" y=\"179\" font-size=\"10\" font-weight=\"bold\" fill=\"#1E293B\">-13.6 eV (Ground)</text>\n  \n  <text x=\"210\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">Total emission lines = n(n-1)/2 = 4(3)/2 = 6 lines</text>\n</svg>"
@@ -1687,8 +1837,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "In the above problem, the number of absorption lines could be :-",
+    "question": "In the above problem, the number of absorption lines could be :-",
     "options": [
       "3",
       "4",
@@ -1700,7 +1852,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 420 200\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"420\" height=\"200\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"210\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Four Lowest Energy Levels of Hydrogen Atom (n = 1 to 4)</text>\n  \n  <!-- Level n=4 -->\n  <line x1=\"60\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#0284C7\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"54\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">n = 4</text>\n  <text x=\"375\" y=\"54\" font-size=\"10\" fill=\"#64748B\">-0.85 eV</text>\n  \n  <!-- Level n=3 -->\n  <line x1=\"60\" y1=\"80\" x2=\"360\" y2=\"80\" stroke=\"#0284C7\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"84\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">n = 3</text>\n  <text x=\"375\" y=\"84\" font-size=\"10\" fill=\"#64748B\">-1.51 eV</text>\n  \n  <!-- Level n=2 -->\n  <line x1=\"60\" y1=\"120\" x2=\"360\" y2=\"120\" stroke=\"#0284C7\" stroke-width=\"2\"/>\n  <text x=\"45\" y=\"124\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284C7\">n = 2</text>\n  <text x=\"375\" y=\"124\" font-size=\"10\" fill=\"#64748B\">-3.40 eV</text>\n  \n  <!-- Level n=1 -->\n  <line x1=\"60\" y1=\"175\" x2=\"360\" y2=\"175\" stroke=\"#1E293B\" stroke-width=\"2.5\"/>\n  <text x=\"45\" y=\"179\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">n = 1</text>\n  <text x=\"375\" y=\"179\" font-size=\"10\" font-weight=\"bold\" fill=\"#1E293B\">-13.6 eV (Ground)</text>\n  \n  <text x=\"210\" y=\"195\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">Total emission lines = n(n-1)/2 = 4(3)/2 = 6 lines</text>\n</svg>"
@@ -1710,8 +1862,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "If 9.9 eV energy is supplied to H atom, the no. of spectral lines emitted is equal to :-",
+    "question": "If 9.9 eV energy is supplied to H atom, the no. of spectral lines emitted is equal to :-",
     "options": [
       "0",
       "1",
@@ -1723,7 +1877,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -1733,8 +1887,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "Frequency of photons emitted in Paschen series is given by v = 3.29 × 10^15 (hz) 2 2 1 1 3 n   −     . Value of n for photon having wavelength 1285 nm will be :",
+    "question": "Frequency of photons emitted in Paschen series is given by v = 3.29 × 10^15 (hz) 2 2 1 1 3 n   −     . Value of n for photon having wavelength 1285 nm will be :",
     "options": [
       "n = 3",
       "n = 4",
@@ -1746,7 +1902,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1755,8 +1911,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "An electron has a kinetic energy of 2.8 × 10⁻23 J. de-Broglie wavelength will be nearly :- (me = 9.1 × 10⁻31 kg)",
+    "question": "An electron has a kinetic energy of 2.8 × 10⁻23 J. de-Broglie wavelength will be nearly :- (me = 9.1 × 10⁻31 kg)",
     "options": [
       "9.28 × 10⁻24 m",
       "9.28 × 10⁻7 m",
@@ -1768,7 +1926,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "De-Broglie Waves"
     ]
@@ -1778,8 +1936,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "What is the de-Broglie wavelength associated with the hydrogen electron in its third orbit :-",
+    "question": "What is the de-Broglie wavelength associated with the hydrogen electron in its third orbit :-",
     "options": [
       "9.96 × 10⁻10 cm",
       "9.96 × 10⁻8 cm",
@@ -1791,7 +1951,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "De-Broglie Waves"
     ]
@@ -1801,8 +1961,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "If the de-Broglie wavelength of the fourth Bohr orbit of hydrogen atom is 4Å, the circumference of the orbit will be :-",
+    "question": "If the de-Broglie wavelength of the fourth Bohr orbit of hydrogen atom is 4Å, the circumference of the orbit will be :-",
     "options": [
       "4Å",
       "4 nm",
@@ -1814,7 +1976,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model",
       "De-Broglie Waves"
@@ -1825,8 +1987,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "Number of waves in fourth orbit is :-",
+    "question": "Number of waves in fourth orbit is :-",
     "options": [
       "4",
       "5",
@@ -1838,7 +2002,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1847,8 +2011,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "What is the ratio of the de-Broglie wavelengths for electrons accelerated through 200 volts and 50 volts :-",
+    "question": "What is the ratio of the de-Broglie wavelengths for electrons accelerated through 200 volts and 50 volts :-",
     "options": [
       "1 : 2",
       "2 : 1",
@@ -1860,7 +2026,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "De-Broglie Waves"
     ]
@@ -1870,8 +2036,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "For a valid Bohr orbit, its circumference should be",
+    "question": "For a valid Bohr orbit, its circumference should be",
     "options": [
       "= n λ",
       "= (n - 1)λ",
@@ -1883,7 +2051,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -1893,8 +2061,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "The number of waves made by a Bohr electron in an orbit of maximum magnetic quantum number +2:-",
+    "question": "The number of waves made by a Bohr electron in an orbit of maximum magnetic quantum number +2:-",
     "options": [
       "3",
       "4",
@@ -1906,7 +2076,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model",
       "Quantum Numbers"
@@ -1917,8 +2087,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Medium",
     "questionText": "The uncertainity in position of an electron & helium atom are same. If the uncertainity in momentum for the electron is 32 × 10^5 g·cm/s, then the uncertainity in momentum of helium atom will be",
+    "question": "The uncertainity in position of an electron & helium atom are same. If the uncertainity in momentum for the electron is 32 × 10^5 g·cm/s, then the uncertainity in momentum of helium atom will be",
     "options": [
       "32 × 10^5 g cm s -1",
       "16 × 10^5 g cm s -1",
@@ -1930,7 +2102,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1939,8 +2111,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "Calculate the uncertainty in the position of an electron (mass 9.1 × 10⁻28g) moving with a velocity of 3 × 10^4 cm s⁻¹, if the uncertainity in velocity is 0.011% ?",
+    "question": "Calculate the uncertainty in the position of an electron (mass 9.1 × 10⁻28g) moving with a velocity of 3 × 10^4 cm s⁻¹, if the uncertainity in velocity is 0.011% ?",
     "options": [
       "1.92 cm",
       "7.68 cm",
@@ -1952,7 +2126,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -1961,8 +2135,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "Heisenberg Uncertainity principle is not valid for",
+    "question": "Heisenberg Uncertainity principle is not valid for",
     "options": [
       "Moving electron",
       "Motor car",
@@ -1974,7 +2150,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Heisenberg Principle"
     ]
@@ -1984,8 +2160,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "What should be the momentum (in gram centimetre per second) of a particle if its de-Broglie wavelength is 1Å and the value of h is 6.6252 × 10⁻27 erg second ?",
+    "question": "What should be the momentum (in gram centimetre per second) of a particle if its de-Broglie wavelength is 1Å and the value of h is 6.6252 × 10⁻27 erg second ?",
     "options": [
       "6.6252 × 10⁻19 gcm/s",
       "6.6252 × 10⁻21 gcm/s",
@@ -1997,7 +2175,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "De-Broglie Waves"
     ]
@@ -2007,8 +2185,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Medium",
     "questionText": "Which of the following has least de-Broglie wavelength, moving with same speed ?",
+    "question": "Which of the following has least de-Broglie wavelength, moving with same speed ?",
     "options": [
       "e -",
       "p",
@@ -2020,7 +2200,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "De-Broglie Waves"
     ]
@@ -2030,8 +2210,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The following quantum no. are possible for how many orbitals n = 3, λ = 2, m = +2 ?",
+    "question": "The following quantum no. are possible for how many orbitals n = 3, λ = 2, m = +2 ?",
     "options": [
       "1",
       "2",
@@ -2043,7 +2225,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2053,8 +2235,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Number of possible orbitals (all types) in n = 3 energy level is :-",
+    "question": "Number of possible orbitals (all types) in n = 3 energy level is :-",
     "options": [
       "1",
       "3",
@@ -2066,7 +2250,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2075,8 +2259,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Which sub-shell is not permissible :-",
+    "question": "Which sub-shell is not permissible :-",
     "options": [
       "2d",
       "4f",
@@ -2088,7 +2274,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2097,8 +2283,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Nodal plane is found in which orbital :-",
+    "question": "Nodal plane is found in which orbital :-",
     "options": [
       "n = 2, λ = 0",
       "n = 3, λ = 0",
@@ -2110,7 +2298,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2119,8 +2307,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "No. of nodal surface in 2s orbital :-",
+    "question": "No. of nodal surface in 2s orbital :-",
     "options": [
       "0",
       "1",
@@ -2132,7 +2322,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2141,8 +2331,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Number of orbitals in h sub-shell is",
+    "question": "Number of orbitals in h sub-shell is",
     "options": [
       "11",
       "15",
@@ -2154,7 +2346,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2163,8 +2355,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "How many quantum numbers are required to specify the position of electron :-",
+    "question": "How many quantum numbers are required to specify the position of electron :-",
     "options": [
       "1",
       "2",
@@ -2176,7 +2370,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2186,8 +2380,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "Which of the following is correct for a 4d-electron",
+    "question": "Which of the following is correct for a 4d-electron",
     "options": [
       "n = 4, λ = 2, s = + 1 2",
       "n = 4, λ = 2, s = 0",
@@ -2199,7 +2395,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2208,8 +2404,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "If n = 3, then which value of 'λ' is correct :-",
+    "question": "If n = 3, then which value of 'λ' is correct :-",
     "options": [
       "0",
       "1",
@@ -2221,7 +2419,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2230,8 +2428,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Energy of atomic orbitals in a particular shell is in order:-",
+    "question": "Energy of atomic orbitals in a particular shell is in order:-",
     "options": [
       "s < p < d < f",
       "s > p > d > f",
@@ -2243,7 +2443,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2252,8 +2452,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "Which statement is not correct for n = 5, m = 2 :-",
+    "question": "Which statement is not correct for n = 5, m = 2 :-",
     "options": [
       "λ = 4",
       "λ = 0, 1,2,3 ; s = + 1/2",
@@ -2265,7 +2467,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2274,8 +2476,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "Spin angular momentum for electron is :-",
+    "question": "Spin angular momentum for electron is :-",
     "options": [
       "s(s 1) + h 2π",
       "2s(s 1) + h 2π",
@@ -2287,7 +2491,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2296,8 +2500,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The maximum number of electrons in a p-orbital with n = 6 and m = 0 can be :-",
+    "question": "The maximum number of electrons in a p-orbital with n = 6 and m = 0 can be :-",
     "options": [
       "14",
       "6",
@@ -2309,7 +2515,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2318,8 +2524,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "The total number of value of m for the electrons in n = 4 is -",
+    "question": "The total number of value of m for the electrons in n = 4 is -",
     "options": [
       "4",
       "8",
@@ -2331,7 +2539,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2340,8 +2548,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "In an atom, for how many electrons, the quantum numbers will be n = 3, λ = 2, m = + 2, s = + 1 2 :-",
+    "question": "In an atom, for how many electrons, the quantum numbers will be n = 3, λ = 2, m = + 2, s = + 1 2 :-",
     "options": [
       "18",
       "6",
@@ -2353,7 +2563,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2363,8 +2573,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Which orbital is represented by the complete wave function 420 ψ :-",
+    "question": "Which orbital is represented by the complete wave function 420 ψ :-",
     "options": [
       "2 z 4d",
       "2 z 3d",
@@ -2376,7 +2588,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2385,8 +2597,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "An electron is in one of 4d orbital. Which of the following quantum number value is not possible :-",
+    "question": "An electron is in one of 4d orbital. Which of the following quantum number value is not possible :-",
     "options": [
       "n = 4",
       "λ = 1",
@@ -2398,7 +2612,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2408,8 +2622,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "A neutral atom of an element has 2K, 8L, 11 M and 2N electrons. The number of s-electron in the atom are",
+    "question": "A neutral atom of an element has 2K, 8L, 11 M and 2N electrons. The number of s-electron in the atom are",
     "options": [
       "2",
       "8",
@@ -2421,7 +2637,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2430,8 +2646,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "If λ = 3 then type and number of orbital is :-",
+    "question": "If λ = 3 then type and number of orbital is :-",
     "options": [
       "3p, 3",
       "4f, 14",
@@ -2443,7 +2661,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2452,8 +2670,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Any nf-orbital can accomodate upto :-",
+    "question": "Any nf-orbital can accomodate upto :-",
     "options": [
       "14 electron",
       "Six electrons",
@@ -2465,7 +2685,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2474,8 +2694,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "n, λ and m values of an electron in 3py orbital are :-",
+    "question": "n, λ and m values of an electron in 3py orbital are :-",
     "options": [
       "n = 3 ; λ = 1 and m = 1",
       "n = 3 ; λ = 1 and m = -1",
@@ -2487,7 +2709,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2496,8 +2718,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The maximum probability of finding an electron in the dxy orbital is :-",
+    "question": "The maximum probability of finding an electron in the dxy orbital is :-",
     "options": [
       "Along the x-axis",
       "Along the y-axis",
@@ -2509,7 +2733,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2518,8 +2742,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Which orbital has two angular nodal planes :-",
+    "question": "Which orbital has two angular nodal planes :-",
     "options": [
       "s",
       "p",
@@ -2531,7 +2757,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2540,8 +2766,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "An orbital with λ = 0 is symmetrical about the :-",
+    "question": "An orbital with λ = 0 is symmetrical about the :-",
     "options": [
       "x-axis only",
       "y-axis only",
@@ -2553,7 +2781,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2562,8 +2790,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "If n & λ are principal and azimuthal quantum no. respectively then the expression for calculating the total no. of electron in any energy level is :-",
+    "question": "If n & λ are principal and azimuthal quantum no. respectively then the expression for calculating the total no. of electron in any energy level is :-",
     "options": [
       "n 0 2",
       "1) = = + ∑ λ λ λ",
@@ -2575,7 +2805,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2585,8 +2815,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "Which configuration does not obey pauli's exclusion principle :-",
+    "question": "Which configuration does not obey pauli's exclusion principle :-",
     "options": [
       "↓ ↓ ↓",
       "↓ ↓ ↓ ↓ ↓",
@@ -2598,7 +2830,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 460 160\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"160\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Pauli Exclusion Principle Violation (Q116)</text>\n  \n  <!-- Option 1: [↑↓][↑ ] -->\n  <g transform=\"translate(30, 45)\">\n    <text x=\"40\" y=\"-8\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">(1) [↑↓][↑ ]</text>\n    <rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"9\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <text x=\"17\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↓</text>\n    <rect x=\"28\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"38\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <rect x=\"56\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  </g>\n  \n  <!-- Option 2: [↑↑][↑ ] -> VIOLATES PAULI (same spin in single orbital) -->\n  <g transform=\"translate(260, 45)\">\n    <text x=\"40\" y=\"-8\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">(2) [↑↑][↑ ] (Violates Pauli)</text>\n    <rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#FEE2E2\" stroke=\"#DC2626\" stroke-width=\"1.5\"/>\n    <text x=\"7\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"#DC2626\">↑</text>\n    <text x=\"17\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"#DC2626\">↑</text>\n    <rect x=\"28\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"38\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <rect x=\"56\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  </g>\n  \n  <text x=\"230\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">Pauli Principle: No two electrons in an atom can have the same four quantum numbers (s must be opposite: +½ and -½).</text>\n</svg>"
@@ -2608,8 +2840,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "Which of the following configuration follows the Hund's rule :-",
+    "question": "Which of the following configuration follows the Hund's rule :-",
     "options": [
       "↓ ↓ 2s 2p ↓ [He] ↓",
       "↓ ↓ 2s 2p ↓ [He] ↓ ↓",
@@ -2621,7 +2855,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 460 160\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"160\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Pauli Exclusion Principle Violation (Q116)</text>\n  \n  <!-- Option 1: [↑↓][↑ ] -->\n  <g transform=\"translate(30, 45)\">\n    <text x=\"40\" y=\"-8\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">(1) [↑↓][↑ ]</text>\n    <rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"9\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <text x=\"17\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↓</text>\n    <rect x=\"28\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"38\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <rect x=\"56\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  </g>\n  \n  <!-- Option 2: [↑↑][↑ ] -> VIOLATES PAULI (same spin in single orbital) -->\n  <g transform=\"translate(260, 45)\">\n    <text x=\"40\" y=\"-8\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">(2) [↑↑][↑ ] (Violates Pauli)</text>\n    <rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#FEE2E2\" stroke=\"#DC2626\" stroke-width=\"1.5\"/>\n    <text x=\"7\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"#DC2626\">↑</text>\n    <text x=\"17\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"#DC2626\">↑</text>\n    <rect x=\"28\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"38\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <rect x=\"56\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  </g>\n  \n  <text x=\"230\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">Pauli Principle: No two electrons in an atom can have the same four quantum numbers (s must be opposite: +½ and -½).</text>\n</svg>"
@@ -2631,8 +2865,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "The basis of three unpaired electrons present in the configuration of nitrogen is :-",
+    "question": "The basis of three unpaired electrons present in the configuration of nitrogen is :-",
     "options": [
       "Aufbau principle",
       "Pauli's principle",
@@ -2644,7 +2880,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2653,8 +2889,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The orbital with maximum energy is :-",
+    "question": "The orbital with maximum energy is :-",
     "options": [
       "3d",
       "5p",
@@ -2666,7 +2904,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2675,8 +2913,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "No. of all subshells having n + λ = 7 is:-",
+    "question": "No. of all subshells having n + λ = 7 is:-",
     "options": [
       "4",
       "5",
@@ -2688,7 +2928,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2697,8 +2937,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "Electronic configuration has violated :-",
+    "question": "Electronic configuration has violated :-",
     "options": [
       "Hund's rule",
       "Pauli's principle",
@@ -2710,7 +2952,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 460 160\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"460\" height=\"160\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Pauli Exclusion Principle Violation (Q116)</text>\n  \n  <!-- Option 1: [↑↓][↑ ] -->\n  <g transform=\"translate(30, 45)\">\n    <text x=\"40\" y=\"-8\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">(1) [↑↓][↑ ]</text>\n    <rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"9\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <text x=\"17\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↓</text>\n    <rect x=\"28\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"38\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <rect x=\"56\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  </g>\n  \n  <!-- Option 2: [↑↑][↑ ] -> VIOLATES PAULI (same spin in single orbital) -->\n  <g transform=\"translate(260, 45)\">\n    <text x=\"40\" y=\"-8\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">(2) [↑↑][↑ ] (Violates Pauli)</text>\n    <rect x=\"0\" y=\"0\" width=\"28\" height=\"28\" fill=\"#FEE2E2\" stroke=\"#DC2626\" stroke-width=\"1.5\"/>\n    <text x=\"7\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"#DC2626\">↑</text>\n    <text x=\"17\" y=\"20\" font-size=\"15\" font-weight=\"bold\" fill=\"#DC2626\">↑</text>\n    <rect x=\"28\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n    <text x=\"38\" y=\"20\" font-size=\"15\" fill=\"#2563EB\">↑</text>\n    <rect x=\"56\" y=\"0\" width=\"28\" height=\"28\" fill=\"#E2E8F0\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  </g>\n  \n  <text x=\"230\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">Pauli Principle: No two electrons in an atom can have the same four quantum numbers (s must be opposite: +½ and -½).</text>\n</svg>"
@@ -2720,8 +2962,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "The total spin resulting from a d 9 configuration is:-",
+    "question": "The total spin resulting from a d 9 configuration is:-",
     "options": [
       "1 2",
       "2",
@@ -2733,7 +2977,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2742,8 +2986,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "Which of the following transition neither shows absorption nor emission of energy in case of hydrogen atom :-",
+    "question": "Which of the following transition neither shows absorption nor emission of energy in case of hydrogen atom :-",
     "options": [
       "3px → 3s",
       "3dxy → 3dyz",
@@ -2755,7 +3001,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2764,8 +3010,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "In ground state of 24Cr, number of orbitals with paired and unpaired electron :-",
+    "question": "In ground state of 24Cr, number of orbitals with paired and unpaired electron :-",
     "options": [
       "10",
       "12",
@@ -2777,7 +3025,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2786,8 +3034,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "For Na (Z = 11) set of quantum numbers for last electron is:-",
+    "question": "For Na (Z = 11) set of quantum numbers for last electron is:-",
     "options": [
       "n = 3, λ = 1, m = 1, s = + 1 2",
       "n = 3, λ = 0, m = 0, s = + 1 2",
@@ -2799,7 +3049,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2809,8 +3059,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Which of the following set of quantum numbers is correct for the 19 th electron of Chromium :- n λ m s",
+    "question": "Which of the following set of quantum numbers is correct for the 19 th electron of Chromium :- n λ m s",
     "options": [
       "3 0 0 1/2",
       "3 2 -2 1/2",
@@ -2822,7 +3074,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2832,8 +3084,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Which set of quantum number is correct for an electron in 3p orbital :-",
+    "question": "Which set of quantum number is correct for an electron in 3p orbital :-",
     "options": [
       "n = 3, λ = 2, m = 0, s = + 1 2",
       "n = 3, λ = 0, m = + 1, S = + 1 2",
@@ -2845,7 +3099,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2855,8 +3109,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "An atom of Cr [Z = 24] loses 2 electrons. How many unpaired electrons shall be there in Cr +2:",
+    "question": "An atom of Cr [Z = 24] loses 2 electrons. How many unpaired electrons shall be there in Cr +2:",
     "options": [
       "4",
       "3",
@@ -2868,7 +3124,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2877,8 +3133,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The atomic number of an element is 17, the number of orbitals containing electron pairs in the valence shell is:-",
+    "question": "The atomic number of an element is 17, the number of orbitals containing electron pairs in the valence shell is:-",
     "options": [
       "8",
       "2",
@@ -2890,7 +3148,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2899,8 +3157,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "A transition metal 'X' has a configuration [Ar] 3d 5 in its + 3 oxidation state. Its atomic number is:-",
+    "question": "A transition metal 'X' has a configuration [Ar] 3d 5 in its + 3 oxidation state. Its atomic number is:-",
     "options": [
       "22",
       "26",
@@ -2912,7 +3172,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2921,8 +3181,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "4s 2 is the configuration of the outermost orbit of an element. Its atomic number would be :-",
+    "question": "4s 2 is the configuration of the outermost orbit of an element. Its atomic number would be :-",
     "options": [
       "29",
       "24",
@@ -2934,7 +3196,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2943,8 +3205,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Sum of the paired electrons present in the orbital with λ = 2 in all the species Fe 2+, Co 2+ and Ni +2 are:-",
+    "question": "Sum of the paired electrons present in the orbital with λ = 2 in all the species Fe 2+, Co 2+ and Ni +2 are:-",
     "options": [
       "9",
       "12",
@@ -2956,7 +3220,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -2965,8 +3229,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The quantum number of 20 th electron of Fe(Z = 26) would be :-",
+    "question": "The quantum number of 20 th electron of Fe(Z = 26) would be :-",
     "options": [
       "3, 2, - 2, - ½",
       "3, 2, 0, ½",
@@ -2978,7 +3244,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -2988,8 +3254,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "The atomic number of the element having maximum number of unpaired 3p electrons is (in ground state):-",
+    "question": "The atomic number of the element having maximum number of unpaired 3p electrons is (in ground state):-",
     "options": [
       "15",
       "10",
@@ -3001,7 +3269,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3010,8 +3278,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "Which one represent ground state configuration :-",
+    "question": "Which one represent ground state configuration :-",
     "options": [
       "",
       "",
@@ -3023,7 +3293,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3032,8 +3302,10 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "In an atom having 2K, 8L, 8M and 2N electrons, the number of electrons with m = 0; s = 1 2 + are :-",
+    "question": "In an atom having 2K, 8L, 8M and 2N electrons, the number of electrons with m = 0; s = 1 2 + are :-",
     "options": [
       "6",
       "2",
@@ -3045,7 +3317,7 @@ export const ALLEN_ATOMIC_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   }
@@ -3057,8 +3329,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Maximum number of electrons in a subshell of an atom is determined by the following :-",
+    "question": "Maximum number of electrons in a subshell of an atom is determined by the following :-",
     "options": [
       "2n 2",
       "4λ + 2",
@@ -3070,7 +3344,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3079,8 +3353,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Which of the following is not permissible set of quantum numbers in an atom ?",
+    "question": "Which of the following is not permissible set of quantum numbers in an atom ?",
     "options": [
       "n = 3, λ = 2, m = -2, s = -1/2",
       "n = 4, λ = 0, m = 0, s = -1/2",
@@ -3092,7 +3368,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3102,8 +3378,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "A 0.66 kg ball is moving with a speed of 10^0 m/s. The associated wavelength will be (h = 6.6 × 10⁻34 Js) :-",
+    "question": "A 0.66 kg ball is moving with a speed of 10^0 m/s. The associated wavelength will be (h = 6.6 × 10⁻34 Js) :-",
     "options": [
       "6.6 × 10⁻34 m",
       "1.0 × 10⁻35 m",
@@ -3115,7 +3393,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3124,8 +3402,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "The total number of atomic orbitals in fourth energy level of an atom is :-",
+    "question": "The total number of atomic orbitals in fourth energy level of an atom is :-",
     "options": [
       "8",
       "16",
@@ -3137,7 +3417,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3146,8 +3426,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The energies E1 and E2 of two radiations are 25 eV and 50eV respectively. The relation between their wavelengths i.e. λ1 and λ2 will be :",
+    "question": "The energies E1 and E2 of two radiations are 25 eV and 50eV respectively. The relation between their wavelengths i.e. λ1 and λ2 will be :",
     "options": [
       "λ1 = λ2",
       "λ1 = 2λ2",
@@ -3159,7 +3441,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3168,8 +3450,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "2π",
+    "question": "2π",
     "options": [
       "h 2 π",
       "h 3 2π NEET UG 2013",
@@ -3181,7 +3465,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3190,8 +3474,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "According to the Bohr Theory, which of the following transitions in the hydrogen atom will give rise to the least energetic photon ?",
+    "question": "According to the Bohr Theory, which of the following transitions in the hydrogen atom will give rise to the least energetic photon ?",
     "options": [
       "n = 5 to n = 3",
       "n = 6 to n = 1",
@@ -3203,7 +3489,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -3213,8 +3499,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Maximum number of electrons in a subshell with λ = 3 and n = 4 is :-",
+    "question": "Maximum number of electrons in a subshell with λ = 3 and n = 4 is :-",
     "options": [
       "10",
       "12",
@@ -3226,7 +3514,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3235,8 +3523,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The correct set of four quantum numbers for the valence electron of rubidium atom (Z = 37) is:-",
+    "question": "The correct set of four quantum numbers for the valence electron of rubidium atom (Z = 37) is:-",
     "options": [
       "5, 0, 0, + ½",
       "5, 1, 0, + ½",
@@ -3248,7 +3538,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3258,8 +3548,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "The orbital angular momentum of a p-electron is given as :-",
+    "question": "The orbital angular momentum of a p-electron is given as :-",
     "options": [
       "3 h 2 π",
       "h",
@@ -3271,7 +3563,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3280,8 +3572,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "The value of Planck's constant is 6.63 × 10⁻34 Js. The speed of light is 3 × 10^17 nm s -1. Which value is closest to the wavelength in nanometer of a quantum of light with frequency of 6 × 10^15 s -1 ?",
+    "question": "The value of Planck's constant is 6.63 × 10⁻34 Js. The speed of light is 3 × 10^17 nm s -1. Which value is closest to the wavelength in nanometer of a quantum of light with frequency of 6 × 10^15 s -1 ?",
     "options": [
       "75",
       "10",
@@ -3293,7 +3587,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3303,8 +3597,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "Based on equation E = -2.178 × 10⁻18 J 2 2 Z n       certain conclusions are written. Which of them is not correct ?",
+    "question": "Based on equation E = -2.178 × 10⁻18 J 2 2 Z n       certain conclusions are written. Which of them is not correct ?",
     "options": [
       "For n = 1, the electron has a more negative energy than it does for n = 6 which means that the electron is more loosely bound in the smallest allowed orbit.",
       "The negative sign in equation simply means that the energy of electron bound to the nucleus is lower than it would be if the electrons were at the infinite distance from the nucleus",
@@ -3316,7 +3612,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3325,8 +3621,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "What is the maximum numbers of electrons that can be associated with the following set of quantum numbers ⇒ n = 3; λ = 1 and m = -1 ?",
+    "question": "What is the maximum numbers of electrons that can be associated with the following set of quantum numbers ⇒ n = 3; λ = 1 and m = -1 ?",
     "options": [
       "2",
       "10",
@@ -3338,7 +3636,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3348,8 +3646,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "What is the maximum number of orbitals that can be identified with the following quantum numbers. n = 3, λ = 1, mλ = 0 ?",
+    "question": "What is the maximum number of orbitals that can be identified with the following quantum numbers. n = 3, λ = 1, mλ = 0 ?",
     "options": [
       "1",
       "2",
@@ -3361,7 +3661,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3371,8 +3671,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "Calculate the energy in joule corresponding to light of wavelength 45 nm : (Planck's constant h = 6.63 × 10⁻34 Js; speed of light c = 3 × 10^8 ms -1)",
+    "question": "Calculate the energy in joule corresponding to light of wavelength 45 nm : (Planck's constant h = 6.63 × 10⁻34 Js; speed of light c = 3 × 10^8 ms -1)",
     "options": [
       "6.67 × 10^15",
       "6.67 × 10^11",
@@ -3384,7 +3686,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3393,8 +3695,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Medium",
     "questionText": "Magnetic moment 2.83 BM is given by which of the following ions ? (At. no. Ti = 22, Cr = 24, Mn = 25, Ni = 28):-",
+    "question": "Magnetic moment 2.83 BM is given by which of the following ions ? (At. no. Ti = 22, Cr = 24, Mn = 25, Ni = 28):-",
     "options": [
       "Ti 3+",
       "Ni 2+",
@@ -3406,7 +3710,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3415,8 +3719,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Medium",
     "questionText": "Which of the following pairs of ions are isoelectronic and isostructural ?",
+    "question": "Which of the following pairs of ions are isoelectronic and isostructural ?",
     "options": [
       "2 3 3 ClO ,CO - -",
       "2 3 3 SO ,NO - -",
@@ -3428,7 +3734,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3437,8 +3743,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "The number of d-electrons in Fe 2+ (Z = 26) is not equal to the number of electrons in which one of the following?",
+    "question": "The number of d-electrons in Fe 2+ (Z = 26) is not equal to the number of electrons in which one of the following?",
     "options": [
       "p-electrons in Cl (Z = 17)",
       "d-electrons in Fe (Z = 26)",
@@ -3450,7 +3758,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3459,8 +3767,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Medium",
     "questionText": "Magnetic moment 2.84 B.M. is given by :- (At. no.), Ni = 28, Ti = 22, Cr = 24, Co = 27)",
+    "question": "Magnetic moment 2.84 B.M. is given by :- (At. no.), Ni = 28, Ti = 22, Cr = 24, Co = 27)",
     "options": [
       "Ti 3+",
       "Cr 2+",
@@ -3472,7 +3782,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3481,8 +3791,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "The angular momentum of electron in 'd' orbital is equal to :-",
+    "question": "The angular momentum of electron in 'd' orbital is equal to :-",
     "options": [
       "2 ℏ",
       "2 3 ℏ",
@@ -3494,7 +3806,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3503,8 +3815,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Which is the correct order of increasing energy of the listed orbitals in the atom of titanium ? (At. no. Z = 22)",
+    "question": "Which is the correct order of increasing energy of the listed orbitals in the atom of titanium ? (At. no. Z = 22)",
     "options": [
       "3s 3p 3d 4s",
       "3s 3p 4s 3d",
@@ -3516,7 +3830,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3525,8 +3839,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Two electrons occupying the same orbital are distinguished by :-",
+    "question": "Two electrons occupying the same orbital are distinguished by :-",
     "options": [
       "Principal quantum number",
       "Magnetic quantum number",
@@ -3538,7 +3854,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3547,8 +3863,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Which of the following pairs of d-orbitals will have electron density along the axis ?",
+    "question": "Which of the following pairs of d-orbitals will have electron density along the axis ?",
     "options": [
       "2 2 2 z x y d ,d −",
       "2 2 xy x y d ,d −",
@@ -3560,7 +3878,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3569,8 +3887,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "How many electrons can fit in the orbital for which n = 3 and λ = 1 ?",
+    "question": "How many electrons can fit in the orbital for which n = 3 and λ = 1 ?",
     "options": [
       "10",
       "14",
@@ -3582,7 +3902,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3591,8 +3911,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "Which one is the wrong statement ?",
+    "question": "Which one is the wrong statement ?",
     "options": [
       "The uncertainty principle is ΔE × Δt h/4π",
       "Half filled and fully filled orbitals have greater stability due to greater exchange energy, greater symmetry and more balanced arrangement.",
@@ -3604,7 +3926,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3613,8 +3935,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Medium",
     "questionText": "Which one is a wrong statement ?",
+    "question": "Which one is a wrong statement ?",
     "options": [
       "Total orbital angular momentum of electron in 's' orbital is equal to zero",
       "An orbital is designated by three quantum numbers while an electron in an atom is designated by four quantum numbers.",
@@ -3626,7 +3950,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3635,8 +3959,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "Which of the following series of transitions in the spectrum of hydrogen atom falls in visible region ?",
+    "question": "Which of the following series of transitions in the spectrum of hydrogen atom falls in visible region ?",
     "options": [
       "Lyman series",
       "Balmer series",
@@ -3648,7 +3974,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Hydrogen Spectrum"
     ]
@@ -3658,8 +3984,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Orbital having 3 angular nodes and 3 total nodes is :-",
+    "question": "Orbital having 3 angular nodes and 3 total nodes is :-",
     "options": [
       "5 p",
       "3 d",
@@ -3671,7 +3999,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3680,8 +4008,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "In hydrogen atom, the de Broglie wavelength of an electron in the second Bohr orbit is :- [Given that Bohr radius, a0 = 52.9 pm]",
+    "question": "In hydrogen atom, the de Broglie wavelength of an electron in the second Bohr orbit is :- [Given that Bohr radius, a0 = 52.9 pm]",
     "options": [
       "211.6 pm",
       "211.6 π pm",
@@ -3693,7 +4023,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -3703,8 +4033,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "The number of protons, neutrons and electrons in 175 71 Lu , respectively, are :",
+    "question": "The number of protons, neutrons and electrons in 175 71 Lu , respectively, are :",
     "options": [
       "175, 10^4 and 71",
       "71, 10^4 and 71",
@@ -3716,7 +4048,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3725,8 +4057,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "The number of angular nodes and radial nodes in 3s orbital are",
+    "question": "The number of angular nodes and radial nodes in 3s orbital are",
     "options": [
       "0 and 2, respectively",
       "1 and 0, respectively",
@@ -3738,7 +4072,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3747,8 +4081,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light c = 3.0 × 10^8 ms-1]",
+    "question": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light c = 3.0 × 10^8 ms-1]",
     "options": [
       "219.3 m",
       "219.2 m",
@@ -3760,7 +4096,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3769,8 +4105,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "The work function for a metal is 4 eV. To emit a photoelectron of zero velocity from the surface of the metal, the wavelength of incident light should be",
+    "question": "The work function for a metal is 4 eV. To emit a photoelectron of zero velocity from the surface of the metal, the wavelength of incident light should be",
     "options": [
       "2700 Å",
       "1700 Å",
@@ -3782,7 +4120,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3791,8 +4129,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Medium",
     "questionText": "If radius of second Bohr orbit of the He + ion is 10^5.8 pm, what is the radius of third Bohr orbit of Li 2+ ion?",
+    "question": "If radius of second Bohr orbit of the He + ion is 10^5.8 pm, what is the radius of third Bohr orbit of Li 2+ ion?",
     "options": [
       "15.87 pm",
       "1.587 pm",
@@ -3804,7 +4144,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -3814,8 +4154,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Medium",
     "questionText": "A monochromatic infrared range finder of power 1 mW emits photons with wavelength 10^00 nm in 0.1 second. The number of photons emitted in 0.1 second is (Given : h = 6.626 × 10⁻34 Js, c = 3 × 10^8 ms -1 , Avogadro number = 6.022 × 10^23)",
+    "question": "A monochromatic infrared range finder of power 1 mW emits photons with wavelength 10^00 nm in 0.1 second. The number of photons emitted in 0.1 second is (Given : h = 6.626 × 10⁻34 Js, c = 3 × 10^8 ms -1 , Avogadro number = 6.022 × 10^23)",
     "options": [
       "5 × 10^14",
       "30 × 10^34",
@@ -3827,7 +4169,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3836,8 +4178,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "When electromagnetic radiation of wavelength 300 nm falls on the surface of a metal, electrons are emitted with the kinetic energy of 1.68 × 10^5 J mol -1. What is the minimum energy needed to remove an electron from the metal ? (h = 6.626 × 10⁻34 Js, c = 3 × 10^8 ms -1, NA = 6.022 × 10^23 mol -1)",
+    "question": "When electromagnetic radiation of wavelength 300 nm falls on the surface of a metal, electrons are emitted with the kinetic energy of 1.68 × 10^5 J mol -1. What is the minimum energy needed to remove an electron from the metal ? (h = 6.626 × 10⁻34 Js, c = 3 × 10^8 ms -1, NA = 6.022 × 10^23 mol -1)",
     "options": [
       "2.31 × 10^6 J mol -1",
       "3.84 × 10^4 J mol -1",
@@ -3849,7 +4193,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3858,8 +4202,10 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Medium",
     "questionText": "Match List-I with List-II: | List-I (Quantum Number) | List-II (Orbital) | | :--- | :--- | | (a) n = 2, l = 1 | (i) 2s | | (b) n = 3, l = 2 | (ii) 3s | | (c) n = 3, l = 0 | (iii) 2p | | (d) n = 2, l = 0 | (iv) 3d | Choose the correct answer from the options given below:",
+    "question": "Match List-I with List-II: | List-I (Quantum Number) | List-II (Orbital) | | :--- | :--- | | (a) n = 2, l = 1 | (i) 2s | | (b) n = 3, l = 2 | (ii) 3s | | (c) n = 3, l = 0 | (iii) 2p | | (d) n = 2, l = 0 | (iv) 3d | Choose the correct answer from the options given below:",
     "options": [
       "(a) - (iii), (b) - (iv), (c) - (i), (d) - (ii)",
       "(a) - (iv), (b) - (iii), (c) - (i), (d) - (ii)",
@@ -3871,7 +4217,7 @@ export const ALLEN_ATOMIC_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3884,8 +4230,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "The frequency of radiation emitted when the electron falls from n = 4 to n =1 in a hydrogen atom will be (Given ionization energy of H = 2·18 × 10⁻18 J atom -1) :-",
+    "question": "The frequency of radiation emitted when the electron falls from n = 4 to n =1 in a hydrogen atom will be (Given ionization energy of H = 2·18 × 10⁻18 J atom -1) :-",
     "options": [
       "1·03 × 10^15 s -1",
       "3·08 × 10^15 s -1",
@@ -3897,7 +4245,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3906,8 +4254,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "Which orbital diagram does not obey Aufbau principle :-",
+    "question": "Which orbital diagram does not obey Aufbau principle :-",
     "options": [
       "",
       "",
@@ -3919,7 +4269,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3928,8 +4278,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Quantum number which cannot be calculated by schrodinger wave equation is:-",
+    "question": "Quantum number which cannot be calculated by schrodinger wave equation is:-",
     "options": [
       "n",
       "λ",
@@ -3941,7 +4293,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -3951,8 +4303,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Hard",
     "questionText": "h 2π is angular momentum in............orbit of He+",
+    "question": "h 2π is angular momentum in............orbit of He+",
     "options": [
       "First",
       "Second",
@@ -3964,7 +4318,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3973,8 +4327,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "Which element contain non-spherical electron density :-",
+    "question": "Which element contain non-spherical electron density :-",
     "options": [
       "He",
       "B",
@@ -3986,7 +4342,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -3995,8 +4351,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "First shell energy of He+ ion is -54.4 eV. Then energy of its second shell is :-",
+    "question": "First shell energy of He+ ion is -54.4 eV. Then energy of its second shell is :-",
     "options": [
       "-54.4 eV",
       "-13.6 eV",
@@ -4008,7 +4366,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4017,8 +4375,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "If λ = 2 and n = 3 for any atom then maximum number of electron is :-",
+    "question": "If λ = 2 and n = 3 for any atom then maximum number of electron is :-",
     "options": [
       "2",
       "6",
@@ -4030,7 +4390,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4039,8 +4399,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Electronic Configuration & Orbital Filling Rules",
+    "subtopic": "Electronic Configuration & Orbital Filling Rules",
     "difficulty": "Hard",
     "questionText": "A metal in its dipositive state has the electronic configuration 2, 8, 14 and has the atomic weight equal to 56. Number of neutrons in its nucleus would be :-",
+    "question": "A metal in its dipositive state has the electronic configuration 2, 8, 14 and has the atomic weight equal to 56. Number of neutrons in its nucleus would be :-",
     "options": [
       "30",
       "32",
@@ -4052,7 +4414,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4061,8 +4423,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The quantum numbers +1/2 and -1/2 for the electron spin represent.",
+    "question": "The quantum numbers +1/2 and -1/2 for the electron spin represent.",
     "options": [
       "Rotation of the electron in clockwise and anticlockwise direction respectively.",
       "Rotation of the electron in anticlockwise and clockwise direction respectively.",
@@ -4074,7 +4438,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4084,8 +4448,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Hard",
     "questionText": "Uncertainty in position of a 0.25 g particle is 10⁻5 m. Then uncertainty in its velocity will be:- (h = 6.6 × 10⁻34 Js) :-",
+    "question": "Uncertainty in position of a 0.25 g particle is 10⁻5 m. Then uncertainty in its velocity will be:- (h = 6.6 × 10⁻34 Js) :-",
     "options": [
       "1.2 × 10^34 m/s",
       "2.1 × 10⁻26 m/s",
@@ -4097,7 +4463,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4106,8 +4472,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "The wavelength of radiation emitted when an electron in a hydrogen atom makes a transition from an energy level with n = 3 to a level with n = 2 is : [Given that 1 n 2 1312 E kJmol n − − = ]",
+    "question": "The wavelength of radiation emitted when an electron in a hydrogen atom makes a transition from an energy level with n = 3 to a level with n = 2 is : [Given that 1 n 2 1312 E kJmol n − − = ]",
     "options": [
       "6.56 × 10⁻7 m",
       "65.6 nm",
@@ -4119,7 +4487,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4128,8 +4496,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "Electronic energy of hydrogen atom depends on the quantum number :",
+    "question": "Electronic energy of hydrogen atom depends on the quantum number :",
     "options": [
       "n, λ and m",
       "n and λ only",
@@ -4141,7 +4511,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4151,8 +4521,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "A gas absorbs a photon of 355 nm and emits at two wavelengths. If one of the emissions is at 680 nm, the other is at :-",
+    "question": "A gas absorbs a photon of 355 nm and emits at two wavelengths. If one of the emissions is at 680 nm, the other is at :-",
     "options": [
       "743 nm",
       "518 nm",
@@ -4164,7 +4536,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4173,8 +4545,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "The frequency of light emitted for the transition n = 4 to n = 2 of He+ is equal to the transition in H atom corresponding to which of the following :-",
+    "question": "The frequency of light emitted for the transition n = 4 to n = 2 of He+ is equal to the transition in H atom corresponding to which of the following :-",
     "options": [
       "n = 3 to n = 1",
       "n = 2 to n = 1",
@@ -4186,7 +4560,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4195,8 +4569,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "The electrons identified by quantum numbers n and λ :- (a) n = 4 , λ = 1 (b) n = 4, λ = 0 (c) n = 3, λ = 2 (d) n = 3, λ = 1 Can be placed in order of increasing energy as:-",
+    "question": "The electrons identified by quantum numbers n and λ :- (a) n = 4 , λ = 1 (b) n = 4, λ = 0 (c) n = 3, λ = 2 (d) n = 3, λ = 1 Can be placed in order of increasing energy as:-",
     "options": [
       "(a) < (c) < (b) < (d)",
       "(c) < (d) < (b) < (a)",
@@ -4208,7 +4584,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4218,8 +4594,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "Energy of an electron is given by E = - 2.178 × 10⁻18 J 2 2 Z n       . Wavelength of light required to excite an electron in an hydrogen atom from level n = 1 to n = 2 will be :- (h = 6.62 × 10⁻34 Js and c = 3.0 × 10^8 ms -1)",
+    "question": "Energy of an electron is given by E = - 2.178 × 10⁻18 J 2 2 Z n       . Wavelength of light required to excite an electron in an hydrogen atom from level n = 1 to n = 2 will be :- (h = 6.62 × 10⁻34 Js and c = 3.0 × 10^8 ms -1)",
     "options": [
       "1.214 × 10⁻7 m",
       "2.816 × 10⁻7 m",
@@ -4231,7 +4609,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4240,8 +4618,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "A certain negative ion X-2 has 18 neutrons in its nucleus and 18 electrons in its extra nuclear structure. What is the mass number of the most abundant isotope of 'X' :-",
+    "question": "A certain negative ion X-2 has 18 neutrons in its nucleus and 18 electrons in its extra nuclear structure. What is the mass number of the most abundant isotope of 'X' :-",
     "options": [
       "35.46",
       "32",
@@ -4253,7 +4633,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4262,8 +4642,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Hard",
     "questionText": "A single electron orbits a stationary nucleus of charge +Ze, where Z is a constant. It requires 47.2 eV to excite electron from second Bohr orbit to third Bohr orbit, find the value of Z :-",
+    "question": "A single electron orbits a stationary nucleus of charge +Ze, where Z is a constant. It requires 47.2 eV to excite electron from second Bohr orbit to third Bohr orbit, find the value of Z :-",
     "options": [
       "1",
       "3",
@@ -4275,7 +4657,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -4285,8 +4667,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "A photon of energy 12.75 eV is completely absorbed by a hydrogen atom initially in ground state. The principal quantum number of the excited state is :-",
+    "question": "A photon of energy 12.75 eV is completely absorbed by a hydrogen atom initially in ground state. The principal quantum number of the excited state is :-",
     "options": [
       "1",
       "3",
@@ -4298,7 +4682,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4308,8 +4692,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "An hydrogen atom (ionisation energy 13.6 eV) jumps from third excited state to first excited state. The energy of photon emitted in the process is :-",
+    "question": "An hydrogen atom (ionisation energy 13.6 eV) jumps from third excited state to first excited state. The energy of photon emitted in the process is :-",
     "options": [
       "1.89 eV",
       "2.55 eV",
@@ -4321,7 +4707,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4330,8 +4716,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "If a photon of energy 14 eV is incident on an H-atom, what is true :-",
+    "question": "If a photon of energy 14 eV is incident on an H-atom, what is true :-",
     "options": [
       "Atom will be ionised and electron will have a kinetic energy of 14 eV",
       "Atom will be ionised and electron will have a kinetic energy of 0.4 eV",
@@ -4343,7 +4731,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4352,8 +4740,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "An electron of energy 10.8 eV is incident on an H-atom then :-",
+    "question": "An electron of energy 10.8 eV is incident on an H-atom then :-",
     "options": [
       "The electron will come out with 10.8 eV energy.",
       "The electron will be completely absorbed",
@@ -4365,7 +4755,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4374,8 +4764,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Hard",
     "questionText": "The ratio of the difference in energy between the first and second Bohr orbit to that between second and third Bohr orbit in H-atom is :-",
+    "question": "The ratio of the difference in energy between the first and second Bohr orbit to that between second and third Bohr orbit in H-atom is :-",
     "options": [
       "4/9",
       "1/3",
@@ -4387,7 +4779,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Bohr Model"
     ]
@@ -4397,8 +4789,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Hard",
     "questionText": "Match the following physical quantities with their corresponding values: | List-A | List-B | | :--- | :--- | | (A) Energy of ground state of He⁺ | (i) +6.04 eV | | (B) Potential energy of 1st orbit of H-atom | (ii) −27.2 eV | | (C) Kinetic energy of 2nd excited state of He⁺ | (iii) 8.72 × 10⁻¹⁸ J | | (D) Ionisation potential of He⁺ | (iv) −54.4 eV | Choose the correct match:",
+    "question": "Match the following physical quantities with their corresponding values: | List-A | List-B | | :--- | :--- | | (A) Energy of ground state of He⁺ | (i) +6.04 eV | | (B) Potential energy of 1st orbit of H-atom | (ii) −27.2 eV | | (C) Kinetic energy of 2nd excited state of He⁺ | (iii) 8.72 × 10⁻¹⁸ J | | (D) Ionisation potential of He⁺ | (iv) −54.4 eV | Choose the correct match:",
     "options": [
       "A - (i), B - (ii), C - (iii), D - (iv)",
       "A - (iv), B - (iii), C - (ii), D - (i)",
@@ -4410,7 +4804,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4419,8 +4813,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "In the following transition which statement is correct",
+    "question": "In the following transition which statement is correct",
     "options": [
       "E3 - 1 = E3-2 - E2-1",
       "λ3 = λ1 + λ2",
@@ -4432,7 +4828,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 420 180\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"420\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"210\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Energy & Frequency Summation Principle (Ex-III Q25)</text>\n  \n  <!-- Level E3 -->\n  <line x1=\"60\" y1=\"45\" x2=\"360\" y2=\"45\" stroke=\"#1E293B\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"49\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">E₃</text>\n  \n  <!-- Level E2 -->\n  <line x1=\"60\" y1=\"95\" x2=\"360\" y2=\"95\" stroke=\"#1E293B\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"99\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">E₂</text>\n  \n  <!-- Level E1 -->\n  <line x1=\"60\" y1=\"145\" x2=\"360\" y2=\"145\" stroke=\"#1E293B\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"149\" text-anchor=\"end\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\">E₁</text>\n  \n  <!-- Transition 3: E3 -> E2 (lambda 3, nu 3) -->\n  <line x1=\"120\" y1=\"45\" x2=\"120\" y2=\"90\" stroke=\"#2563EB\" stroke-width=\"2\"/>\n  <polygon points=\"116,88 120,95 124,88\" fill=\"#2563EB\"/>\n  <text x=\"135\" y=\"72\" font-size=\"10\" font-weight=\"bold\" fill=\"#2563EB\">λ₃, ν₃</text>\n  \n  <!-- Transition 2: E2 -> E1 (lambda 2, nu 2) -->\n  <line x1=\"200\" y1=\"95\" x2=\"200\" y2=\"140\" stroke=\"#16A34A\" stroke-width=\"2\"/>\n  <polygon points=\"196,138 200,145 204,138\" fill=\"#16A34A\"/>\n  <text x=\"215\" y=\"122\" font-size=\"10\" font-weight=\"bold\" fill=\"#16A34A\">λ₂, ν₂</text>\n  \n  <!-- Transition 1: E3 -> E1 (lambda 1, nu 1) -->\n  <line x1=\"290\" y1=\"45\" x2=\"290\" y2=\"140\" stroke=\"#DC2626\" stroke-width=\"2\"/>\n  <polygon points=\"286,138 290,145 294,138\" fill=\"#DC2626\"/>\n  <text x=\"305\" y=\"95\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">λ₁, ν₁</text>\n  \n  <!-- Identity -->\n  <text x=\"210\" y=\"168\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#475569\">E₃ - E₁ = (E₃ - E₂) + (E₂ - E₁) ⟹ hν₁ = hν₃ + hν₂ ⟹ ν₁ = ν₃ + ν₂</text>\n</svg>"
@@ -4442,8 +4838,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Structure & Quantum Mechanics",
+    "subtopic": "Atomic Structure & Quantum Mechanics",
     "difficulty": "Hard",
     "questionText": "In which transition, one quantum of energy is emitted :-",
+    "question": "In which transition, one quantum of energy is emitted :-",
     "options": [
       "n = 4 → n = 2",
       "n = 3 → n = 1",
@@ -4455,7 +4853,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4465,8 +4863,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "When a hydrogen sample in ground state is bombarded then what potential is required to accelerate electron so that first Paschen line is emitted :-",
+    "question": "When a hydrogen sample in ground state is bombarded then what potential is required to accelerate electron so that first Paschen line is emitted :-",
     "options": [
       "2.55 V",
       "0.65 V",
@@ -4478,7 +4878,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4487,8 +4887,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Bohr's Model of Hydrogen Atom",
+    "subtopic": "Bohr's Model of Hydrogen Atom",
     "difficulty": "Hard",
     "questionText": "The binding energy of electron in ground state of hydrogen atom is 13.6 eV. The energies required to eject out an electron from three lowest states of He + will be - (in eV)",
+    "question": "The binding energy of electron in ground state of hydrogen atom is 13.6 eV. The energies required to eject out an electron from three lowest states of He + will be - (in eV)",
     "options": [
       "13.6, 10.2, 3.4",
       "13.6, 3.4, 1.5",
@@ -4500,7 +4902,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4509,8 +4911,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "The transition of electron in H-atom that will emit maximum energy is :-",
+    "question": "The transition of electron in H-atom that will emit maximum energy is :-",
     "options": [
       "n3 → n2",
       "n4 → n3",
@@ -4522,7 +4926,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4531,8 +4935,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "Given that in the H- atom the transition energy for n = 1 to n = 2 Rydberg states is 10.2eV. The energy for the same transition in Be3+ is :-",
+    "question": "Given that in the H- atom the transition energy for n = 1 to n = 2 Rydberg states is 10.2eV. The energy for the same transition in Be3+ is :-",
     "options": [
       "20.4 eV",
       "163.2 eV",
@@ -4544,7 +4950,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4553,8 +4959,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "When a electron in H- atom jumps from n = 4 to n = 1, ultra violet light is emitted. If the transition corresponds to n = 4 to n = 2 then which of the following colours will be emitted :-",
+    "question": "When a electron in H- atom jumps from n = 4 to n = 1, ultra violet light is emitted. If the transition corresponds to n = 4 to n = 2 then which of the following colours will be emitted :-",
     "options": [
       "Ultra violet",
       "Green",
@@ -4566,7 +4974,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4575,8 +4983,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "The wavelength of first line of the Lyman series for hydrogen is 1216 Å. The wavelength for the first line of this series for a 10 time ionised sodium atom (Z = 11) will be :-",
+    "question": "The wavelength of first line of the Lyman series for hydrogen is 1216 Å. The wavelength for the first line of this series for a 10 time ionised sodium atom (Z = 11) will be :-",
     "options": [
       "10^00 A°",
       "10^0 A°",
@@ -4588,7 +4998,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4597,8 +5007,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "For the azimuthal quantum number (λ), the total number of magnetic quantum number is given by :-",
+    "question": "For the azimuthal quantum number (λ), the total number of magnetic quantum number is given by :-",
     "options": [
       "λ = (m 1) 2 +",
       "λ = (m 1) 2 −",
@@ -4610,7 +5022,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4620,8 +5032,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "In P-atom find out the no. of paired electrons for λ= 1 and m = 0 :-",
+    "question": "In P-atom find out the no. of paired electrons for λ= 1 and m = 0 :-",
     "options": [
       "3",
       "1",
@@ -4633,7 +5047,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4642,8 +5056,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "When the value of principal quantum number n is 3, the permitted values of azimuthal quantum numbers (l) and magnetic quantum numbers (m) are:-",
+    "question": "When the value of principal quantum number n is 3, the permitted values of azimuthal quantum numbers (l) and magnetic quantum numbers (m) are:-",
     "options": [
       "λ m 0 0 1 2 +1, 0, -1 +2, +1, 0, -1, -2",
       "λ m 0 1 2 3 +2, 1, -2 +3, +3, +2, 1, -2, -3",
@@ -4655,7 +5071,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry",
       "Quantum Numbers"
     ]
@@ -4665,8 +5081,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "For H-atom, the energy required for the removal of electron from various sub-shells (3s, 3p, 3d) to infinity (n = ∞) is E₁, E₂, E₃ respectively. The order of the energies would be:-",
+    "question": "For H-atom, the energy required for the removal of electron from various sub-shells (3s, 3p, 3d) to infinity (n = ∞) is E₁, E₂, E₃ respectively. The order of the energies would be:-",
     "options": [
       "E1 > E2 > E3",
       "E3 > E2 > E1",
@@ -4678,7 +5096,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ],
     "diagramSvg": "<svg viewBox=\"0 0 420 180\" class=\"w-full max-w-md mx-auto\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"420\" height=\"180\" rx=\"8\" fill=\"#F8FAFC\" stroke=\"#E2E8F0\" stroke-width=\"1.5\"/>\n  <text x=\"210\" y=\"24\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#0F172A\">Single-Electron Hydrogen Atom Subshell Degeneracy (Ex-III Q36)</text>\n  \n  <!-- n = infinity line (E = 0) -->\n  <line x1=\"60\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#64748B\" stroke-dasharray=\"4 3\" stroke-width=\"1.5\"/>\n  <text x=\"370\" y=\"54\" font-size=\"10\" fill=\"#64748B\">n = ∞ (E = 0)</text>\n  \n  <!-- 3s, 3p, 3d subshells in H atom -->\n  <line x1=\"80\" y1=\"120\" x2=\"140\" y2=\"120\" stroke=\"#2563EB\" stroke-width=\"3\"/>\n  <text x=\"110\" y=\"140\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">3s</text>\n  \n  <line x1=\"180\" y1=\"120\" x2=\"240\" y2=\"120\" stroke=\"#2563EB\" stroke-width=\"3\"/>\n  <text x=\"210\" y=\"140\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">3p</text>\n  \n  <line x1=\"280\" y1=\"120\" x2=\"340\" y2=\"120\" stroke=\"#2563EB\" stroke-width=\"3\"/>\n  <text x=\"310\" y=\"140\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\">3d</text>\n  \n  <!-- Energy arrows to infinity -->\n  <line x1=\"110\" y1=\"120\" x2=\"110\" y2=\"55\" stroke=\"#DC2626\" stroke-width=\"1.5\"/>\n  <text x=\"100\" y=\"85\" text-anchor=\"end\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">E₁</text>\n  \n  <line x1=\"210\" y1=\"120\" x2=\"210\" y2=\"55\" stroke=\"#DC2626\" stroke-width=\"1.5\"/>\n  <text x=\"200\" y=\"85\" text-anchor=\"end\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">E₂</text>\n  \n  <line x1=\"310\" y1=\"120\" x2=\"310\" y2=\"55\" stroke=\"#DC2626\" stroke-width=\"1.5\"/>\n  <text x=\"300\" y=\"85\" text-anchor=\"end\" font-size=\"10\" font-weight=\"bold\" fill=\"#DC2626\">E₃</text>\n  \n  <text x=\"210\" y=\"168\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#059669\">In H-atom, subshell energy depends ONLY on n: E(3s) = E(3p) = E(3d) ⟹ E₁ = E₂ = E₃</text>\n</svg>"
@@ -4688,8 +5106,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Hard",
     "questionText": "If uncertainty in position and momentum are equal, then uncertainty in velocity is ?",
+    "question": "If uncertainty in position and momentum are equal, then uncertainty in velocity is ?",
     "options": [
       "h π",
       "1 h 2m π",
@@ -4701,7 +5121,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4710,8 +5130,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
+    "subtopic": "De-Broglie Hypothesis & Heisenberg Uncertainty",
     "difficulty": "Hard",
     "questionText": "The measurement of the electron's position is associated with an uncertainty in momentum, which is equal to 1× 10⁻18 g·cm/s. The uncertainty in electron velocity is : (mass of electron = 9×10⁻28g)",
+    "question": "The measurement of the electron's position is associated with an uncertainty in momentum, which is equal to 1× 10⁻18 g·cm/s. The uncertainty in electron velocity is : (mass of electron = 9×10⁻28g)",
     "options": [
       "1 × 10^11 cm s -1",
       "1 × 10^9 cm s -1",
@@ -4723,7 +5145,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4732,8 +5154,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Atomic Spectra & Spectral Lines",
+    "subtopic": "Atomic Spectra & Spectral Lines",
     "difficulty": "Hard",
     "questionText": "Electromagnetic radiation of wavelength 248.4 nm is just sufficient to ionise the sodium atom. The ionisation energy of sodium in KJ mol -1 is :",
+    "question": "Electromagnetic radiation of wavelength 248.4 nm is just sufficient to ionise the sodium atom. The ionisation energy of sodium in KJ mol -1 is :",
     "options": [
       "462",
       "473",
@@ -4745,7 +5169,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4754,8 +5178,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "An element with mass number 81 contains 31.7% more neutrons as compared to protons. The atomic symbol is :",
+    "question": "An element with mass number 81 contains 31.7% more neutrons as compared to protons. The atomic symbol is :",
     "options": [
       "30X 81",
       "35X 81",
@@ -4767,7 +5193,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4776,8 +5202,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Subatomic Particles & Early Atomic Models",
+    "subtopic": "Subatomic Particles & Early Atomic Models",
     "difficulty": "Hard",
     "questionText": "Line spectra observed in the case of multielectron atom can be explained by :",
+    "question": "Line spectra observed in the case of multielectron atom can be explained by :",
     "options": [
       "Four quantum numbers",
       "Three quantum numbers",
@@ -4789,7 +5217,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   },
@@ -4798,8 +5226,10 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Chemistry",
     "chapter": "Structure of Atom",
     "topic": "Quantum Numbers & Atomic Orbitals",
+    "subtopic": "Quantum Numbers & Atomic Orbitals",
     "difficulty": "Hard",
     "questionText": "n = 3, l = 1, m = 0 is an orbital in :",
+    "question": "n = 3, l = 1, m = 0 is an orbital in :",
     "options": [
       "'s' subshell of second shell",
       "'s' subshell of third shell",
@@ -4811,7 +5241,7 @@ export const ALLEN_ATOMIC_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Atomic Structure",
       "Physical Chemistry",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Chemistry"
     ]
   }

@@ -1,9 +1,9 @@
 import { Question } from '../types';
 
 /**
- * ALLEN PRE-MEDICAL PHYSICS QUESTION BANK
+ * Pre-Medical PHYSICS QUESTION BANK
  * Chapter: Physical World, Units, Dimensions and Errors in Measurement
- * Total Questions: 101 authentic questions with official Allen answer keys
+ * Total Questions: 101 authentic questions with Official Answer Keys
  * - Exercise-I (Conceptual Questions): 52 Questions (UD0001 to UD0056)
  * - Exercise-II (Previous Year Questions - AIPMT/NEET): 38 Questions (UD0057 to UD0131)
  * - Exercise-III (Analytical Questions - Master Level): 11 Questions (UD0083 to UD0102)
@@ -15,8 +15,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "Which of the following system of units is not based on units of mass, length and time alone ?",
+    "question": "Which of the following system of units is not based on units of mass, length and time alone ?",
     "options": [
       "SI",
       "MKS",
@@ -28,7 +30,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -37,8 +39,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "Which of the following quantity is unitless ?",
+    "question": "Which of the following quantity is unitless ?",
     "options": [
       "Velocity gradient",
       "Pressure gradient",
@@ -50,7 +54,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -59,8 +63,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Easy",
     "questionText": "The fundamental unit which has same power in the dimensional formula of surface tension and co-efficient of viscosity is",
+    "question": "The fundamental unit which has same power in the dimensional formula of surface tension and co-efficient of viscosity is",
     "options": [
       "Mass",
       "Length",
@@ -72,7 +78,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -81,8 +87,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Easy",
     "questionText": "The ratio of one micron to one nanometre is",
+    "question": "The ratio of one micron to one nanometre is",
     "options": [
       "10³",
       "10⁻3",
@@ -94,7 +102,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -103,8 +111,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Easy",
     "questionText": "Temperature can be expressed as a derived quantity in terms of which of the following ?",
+    "question": "Temperature can be expressed as a derived quantity in terms of which of the following ?",
     "options": [
       "Length and mass",
       "Mass and time",
@@ -116,7 +126,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -125,8 +135,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "Density of wood is 0.5 gm/cc in CGS system of units. The corresponding value in MKS units is",
+    "question": "Density of wood is 0.5 gm/cc in CGS system of units. The corresponding value in MKS units is",
     "options": [
       "500",
       "5",
@@ -138,7 +150,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -147,8 +159,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "Match List-I with List-II and select the correct answer by using the codes given below the lists:\n\n| List-I (Item) | List-II (Units of length) |\n| :--- | :--- |\n| A. Distance between earth and stars | 1. Micron |\n| B. Inter atomic distance in a solid | 2. Angstrom |\n| C. Size of nucleus | 3. Light year |\n| D. Wavelength of Infrared Laser | 4. Fermi |\n| | 5. Kilometre |\n\nCodes (A B C D):",
+    "question": "Match List-I with List-II and select the correct answer by using the codes given below the lists:\n\n| List-I (Item) | List-II (Units of length) |\n| :--- | :--- |\n| A. Distance between earth and stars | 1. Micron |\n| B. Inter atomic distance in a solid | 2. Angstrom |\n| C. Size of nucleus | 3. Light year |\n| D. Wavelength of Infrared Laser | 4. Fermi |\n| | 5. Kilometre |\n\nCodes (A B C D):",
     "options": [
       "5 4 2 1",
       "3 2 4 1",
@@ -160,7 +174,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -169,8 +183,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "Which of the following is not the unit of time ?",
+    "question": "Which of the following is not the unit of time ?",
     "options": [
       "Micro second",
       "leap year",
@@ -182,7 +198,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -191,8 +207,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "Which of the following is smallest unit",
+    "question": "Which of the following is smallest unit",
     "options": [
       "Millimetre",
       "Angstrom",
@@ -204,7 +222,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -213,8 +231,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Easy",
     "questionText": "Which relation is wrong ?",
+    "question": "Which relation is wrong ?",
     "options": [
       "1 cal = 4.18 joules",
       "1 Å = 10⁻10 m",
@@ -226,7 +246,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -235,8 +255,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "'Parsec' is the unit of -",
+    "question": "'Parsec' is the unit of -",
     "options": [
       "time",
       "distance",
@@ -248,7 +270,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -257,8 +279,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Easy",
     "questionText": "The ratio of the dimensions of Planck's constant and that of the moment of inertia is :-",
+    "question": "The ratio of the dimensions of Planck's constant and that of the moment of inertia is :-",
     "options": [
       "Velocity",
       "Angular momentum",
@@ -270,7 +294,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -279,8 +303,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Easy",
     "questionText": "When a wave travels in a medium, the displacement of a particle located at distance x at time t is given by y = a sin (bt - cx) where a, b and c are constants of the wave. The dimensions of b/c are same as that of :",
+    "question": "When a wave travels in a medium, the displacement of a particle located at distance x at time t is given by y = a sin (bt - cx) where a, b and c are constants of the wave. The dimensions of b/c are same as that of :",
     "options": [
       "wave velocity",
       "wave length",
@@ -292,7 +318,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -301,8 +327,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Easy",
     "questionText": "The dimensional formula of wave number is",
+    "question": "The dimensional formula of wave number is",
     "options": [
       "[M°L°T⁻¹]",
       "[M⁻¹L⁻¹T°]",
@@ -314,7 +342,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -323,8 +351,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Easy",
     "questionText": "The method of dimensional analysis can be used to derive which of the following relations ?",
+    "question": "The method of dimensional analysis can be used to derive which of the following relations ?",
     "options": [
       "N0e-λt",
       "A sin(ωt + kx)",
@@ -336,7 +366,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -345,8 +375,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Easy",
     "questionText": "Which of the following does not have the dimensions of force ?",
+    "question": "Which of the following does not have the dimensions of force ?",
     "options": [
       "Potential gradient",
       "Energy gradient",
@@ -358,7 +390,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -367,8 +399,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Easy",
     "questionText": "Which of the following is incorrect statement",
+    "question": "Which of the following is incorrect statement",
     "options": [
       "A dimensionally correct equation may be correct",
       "A dimensionally correct equation may be incorrect",
@@ -380,7 +414,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -389,8 +423,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "A dimensionless quantity",
+    "question": "A dimensionless quantity",
     "options": [
       "Never has a unit",
       "Always has a unit",
@@ -402,7 +438,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -411,8 +447,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Easy",
     "questionText": "A unitless quantity",
+    "question": "A unitless quantity",
     "options": [
       "Does not exist",
       "Always has a nonzero dimension",
@@ -424,7 +462,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -433,8 +471,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Easy",
     "questionText": "Which of the following is incorrect ?",
+    "question": "Which of the following is incorrect ?",
     "options": [
       "All derived quantities may be represented dimensionally in terms of the base quantities",
       "A base quantity cannot be represented dimensionally in terms of other base quantities",
@@ -446,7 +486,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -455,8 +495,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "Two physical quantities of which one is a vector and the other is a scalar having the same dimensional formula are :",
+    "question": "Two physical quantities of which one is a vector and the other is a scalar having the same dimensional formula are :",
     "options": [
       "Work and energy",
       "Torque and work",
@@ -468,7 +510,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -477,8 +519,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The equation of a wave is given by Y = A sin[ω(x/v - k)] where ω is the angular velocity and v is the linear velocity. The dimensions of k is",
+    "question": "The equation of a wave is given by Y = A sin[ω(x/v - k)] where ω is the angular velocity and v is the linear velocity. The dimensions of k is",
     "options": [
       "[LT]",
       "[T]",
@@ -490,7 +534,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -499,8 +543,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Medium",
     "questionText": "The time dependence of a physical quantity P is given by P = P0 exp(-α t²), where α is a constant and t is time. The constant α",
+    "question": "The time dependence of a physical quantity P is given by P = P0 exp(-α t²), where α is a constant and t is time. The constant α",
     "options": [
       "is dimensionless",
       "has dimensions [T⁻²]",
@@ -512,7 +558,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -521,8 +567,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The dimensional formula of angular velocity is",
+    "question": "The dimensional formula of angular velocity is",
     "options": [
       "[M0L0T⁻¹]",
       "[MLT⁻¹]",
@@ -534,7 +582,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -543,8 +591,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "A force F is given by F = at + bt², where t is time. The dimensions of a and b are",
+    "question": "A force F is given by F = at + bt², where t is time. The dimensions of a and b are",
     "options": [
       "[M L T⁻³] and [M L T⁻⁴]",
       "[M L T⁻⁴] and [M L T⁻³]",
@@ -556,7 +606,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -565,8 +615,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Medium",
     "questionText": "Which of the following pairs does not have similar dimensions?",
+    "question": "Which of the following pairs does not have similar dimensions?",
     "options": [
       "Tension and surface tension",
       "Stress and pressure",
@@ -578,7 +630,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -587,8 +639,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The dimensions of torque are:",
+    "question": "The dimensions of torque are:",
     "options": [
       "[ML3L⁻³]",
       "[ML⁻¹T⁻¹]",
@@ -600,7 +654,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -609,8 +663,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "Dimensions of relative density is",
+    "question": "Dimensions of relative density is",
     "options": [
       "kg m-3",
       "[ML⁻³]",
@@ -622,7 +678,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -631,8 +687,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The dimensions of universal gravitational constant are :-",
+    "question": "The dimensions of universal gravitational constant are :-",
     "options": [
       "[ML2T⁻¹]",
       "[M⁻²L3T⁻²]",
@@ -644,7 +702,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -653,8 +711,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "If dimensions of A and B are different, then which of the following operation is valid ?",
+    "question": "If dimensions of A and B are different, then which of the following operation is valid ?",
     "options": [
       "A B",
       "e-A/B",
@@ -666,7 +726,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -675,8 +735,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "A quantity is represented by X = M a Lb Tc. The percentage error in measurement of M, L and T are α%, β % and γ % respectively. The percentage error in X would be",
+    "question": "A quantity is represented by X = M a Lb Tc. The percentage error in measurement of M, L and T are α%, β % and γ % respectively. The percentage error in X would be",
     "options": [
       "(α a + βb + γc) %",
       "(αa - βb + γc) %",
@@ -688,7 +750,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -698,8 +760,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "An experiment measures quantities a, b and c, and X is calculated from X = ab 2/c3. If the percentage error in a, b and c are ±1%, ±3% and ±2% respectively, the percentage error in X will be -",
+    "question": "An experiment measures quantities a, b and c, and X is calculated from X = ab 2/c3. If the percentage error in a, b and c are ±1%, ±3% and ±2% respectively, the percentage error in X will be -",
     "options": [
       "±13%",
       "±7%",
@@ -711,7 +775,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -721,8 +785,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "Zero error of an instrument introduces",
+    "question": "Zero error of an instrument introduces",
     "options": [
       "Systematic errors",
       "Random errors",
@@ -734,7 +800,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -744,8 +810,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "What is the fractional error in g calculated from T2 g= π λ ? Given that fractional errors in T and λ are ±x and ±y respectively.",
+    "question": "What is the fractional error in g calculated from T2 g= π λ ? Given that fractional errors in T and λ are ±x and ±y respectively.",
     "options": [
       "x + y",
       "x - y",
@@ -757,7 +825,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ],
@@ -768,8 +836,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Medium",
     "questionText": "A thin copper wire of length λ metre increases in length by 2% when heated through 10°C. What is the percentage increase in area when a square copper sheet of length λ metre is heated through 10°C ?",
+    "question": "A thin copper wire of length λ metre increases in length by 2% when heated through 10°C. What is the percentage increase in area when a square copper sheet of length λ metre is heated through 10°C ?",
     "options": [
       "4%",
       "8%",
@@ -781,7 +851,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -790,8 +860,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "The resistance is VR I= where V = (100 ± 5) volt and I = (10 ± 0.2) ampere. What is the total error in R ?",
+    "question": "The resistance is VR I= where V = (100 ± 5) volt and I = (10 ± 0.2) ampere. What is the total error in R ?",
     "options": [
       "5 %",
       "7 %",
@@ -803,7 +875,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -813,8 +885,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "If error in measuring diameter of a circle is 4 %, the error in circumference of the circle would be :-",
+    "question": "If error in measuring diameter of a circle is 4 %, the error in circumference of the circle would be :-",
     "options": [
       "2%",
       "8%",
@@ -826,7 +900,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -836,8 +910,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Medium",
     "questionText": "The external and internal radius of a hollow cylinder are measured to be",
+    "question": "The external and internal radius of a hollow cylinder are measured to be",
     "options": [
       ".23 ± 0.01) cm and",
       ".89 ± 0.01)cm. The thickness of the wall of the cylinder is :-",
@@ -849,7 +925,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -858,8 +934,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "Percentage error in measuring the radius and mass of a solid sphere are 2% & 1% respectively. Then error in measurement of moment of inertia about to its diameter is :-",
+    "question": "Percentage error in measuring the radius and mass of a solid sphere are 2% & 1% respectively. Then error in measurement of moment of inertia about to its diameter is :-",
     "options": [
       "3 %",
       "6 %",
@@ -871,7 +949,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -881,8 +959,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "The heat generated in a circuit is dependent upon the resistance, current and time for which the current is flown. If the error in measuring the above are as 1%, 2% and 1% the maximum error in measuring heat will be",
+    "question": "The heat generated in a circuit is dependent upon the resistance, current and time for which the current is flown. If the error in measuring the above are as 1%, 2% and 1% the maximum error in measuring heat will be",
     "options": [
       "2%",
       "3%",
@@ -894,7 +974,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -904,8 +984,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "The percentage errors in the measurement of mass and speed are 2% and 3% respectively. How much will be the maximum error in the estimate of kinetic energy obtained by measuring mass and speed ?",
+    "question": "The percentage errors in the measurement of mass and speed are 2% and 3% respectively. How much will be the maximum error in the estimate of kinetic energy obtained by measuring mass and speed ?",
     "options": [
       "11 %",
       "8 %",
@@ -917,7 +999,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -927,8 +1009,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "While measuring acceleration due to gravity by a simple pendulum a student makes a positive error of 1% in the length of the pendulum and a negative error of 3% in the value of the time period. His percentage error in the measurement of the value of g will be -",
+    "question": "While measuring acceleration due to gravity by a simple pendulum a student makes a positive error of 1% in the length of the pendulum and a negative error of 3% in the value of the time period. His percentage error in the measurement of the value of g will be -",
     "options": [
       "2 %",
       "4 %",
@@ -940,7 +1024,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -950,8 +1034,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "The pressure on a square plate is measured by measuring the force on the plate and the length of the sides of the plate. If the maximum error in the measurement of force and length are respectively 4% and 2%, the maximum error in the measurement of pressure is -",
+    "question": "The pressure on a square plate is measured by measuring the force on the plate and the length of the sides of the plate. If the maximum error in the measurement of force and length are respectively 4% and 2%, the maximum error in the measurement of pressure is -",
     "options": [
       "1%",
       "2%",
@@ -963,7 +1049,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -973,8 +1059,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "The error in measuring the side of a cub e is ±1%. The error in the calculation of the volume of the cube will be about",
+    "question": "The error in measuring the side of a cub e is ±1%. The error in the calculation of the volume of the cube will be about",
     "options": [
       "±0.001 %",
       "± 1 %",
@@ -986,7 +1074,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -996,8 +1084,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Medium",
     "questionText": "When a copper sphere is heated, maximum percentage change will be observed in-",
+    "question": "When a copper sphere is heated, maximum percentage change will be observed in-",
     "options": [
       "radius",
       "area",
@@ -1009,7 +1099,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1018,8 +1108,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "The resistance R of a wire is given by the relation R = 2r ρ π λ . Percentage error in the measurement of ρ, λ and r is 1%, 2 % and 3 % respectively. Then the percentage error in the measurement of R is",
+    "question": "The resistance R of a wire is given by the relation R = 2r ρ π λ . Percentage error in the measurement of ρ, λ and r is 1%, 2 % and 3 % respectively. Then the percentage error in the measurement of R is",
     "options": [
       "6%",
       "9%",
@@ -1031,7 +1123,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1041,8 +1133,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Significant Figures & Rounding Off",
+    "subtopic": "Significant Figures & Rounding Off",
     "difficulty": "Medium",
     "questionText": "Which of the following has the highest number of significant figures ?",
+    "question": "Which of the following has the highest number of significant figures ?",
     "options": [
       "0.007 m²",
       "2.64 × 1024 kg",
@@ -1054,7 +1148,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1063,8 +1157,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "A physical quantity X is given by X = 322k mn λ . The percentage error in the measurements of k,λ, m and n are 1%, 2%, 3% and 4% respectively. The value of X is uncertain by",
+    "question": "A physical quantity X is given by X = 322k mn λ . The percentage error in the measurements of k,λ, m and n are 1%, 2%, 3% and 4% respectively. The value of X is uncertain by",
     "options": [
       "8 %",
       "10 %",
@@ -1076,7 +1172,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1086,8 +1182,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Vernier Callipers & Least Count",
+    "subtopic": "Vernier Callipers & Least Count",
     "difficulty": "Medium",
     "questionText": "In a vernier callipers, N divisions of vernier scale coincide with (N - 1) divisions of main scale (in which 1 division represents 1mm). The least count of the instrument in cm should be",
+    "question": "In a vernier callipers, N divisions of vernier scale coincide with (N - 1) divisions of main scale (in which 1 division represents 1mm). The least count of the instrument in cm should be",
     "options": [
       "N",
       "N - 1",
@@ -1099,7 +1197,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Vernier Callipers"
     ],
@@ -1110,8 +1208,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Vernier Callipers & Least Count",
+    "subtopic": "Vernier Callipers & Least Count",
     "difficulty": "Medium",
     "questionText": "A vernier callipers has 20 divisions on the vernier scale which coincide with 19 divisions on the main scale. The least count of the instrument is 0.1 mm. The main scale divisions are of",
+    "question": "A vernier callipers has 20 divisions on the vernier scale which coincide with 19 divisions on the main scale. The least count of the instrument is 0.1 mm. The main scale divisions are of",
     "options": [
       "0.5 mm",
       "1 mm",
@@ -1123,7 +1223,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Vernier Callipers"
     ],
@@ -1134,8 +1234,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Vernier Callipers & Least Count",
+    "subtopic": "Vernier Callipers & Least Count",
     "difficulty": "Medium",
     "questionText": "One centimetre on the main scale of vernier callipers is divided into ten equal parts. If 10 divisions of vernier scale coincide with 8 s mall divisions of the main scale, the least count of the callipers is",
+    "question": "One centimetre on the main scale of vernier callipers is divided into ten equal parts. If 10 divisions of vernier scale coincide with 8 s mall divisions of the main scale, the least count of the callipers is",
     "options": [
       "0.01 cm",
       "0.02 cm",
@@ -1147,7 +1249,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Vernier Callipers"
     ],
@@ -1158,8 +1260,10 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Screw Gauge & Zero Error",
+    "subtopic": "Screw Gauge & Zero Error",
     "difficulty": "Medium",
     "questionText": "A student measured the diameter of a wire using a screw gauge with least count 0.001 cm and listed the meas urements. The correct measurement is -",
+    "question": "A student measured the diameter of a wire using a screw gauge with least count 0.001 cm and listed the meas urements. The correct measurement is -",
     "options": [
       "5.3 cm",
       "5.32 cm",
@@ -1171,7 +1275,7 @@ export const ALLEN_UNITS_EXERCISE_1_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Screw Gauge"
     ],
@@ -1185,8 +1289,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The velocity v of a particle at time t is given by v = at + b tc+ , where a, b and c are constants. The dimensions of a, b and c are respectively :-",
+    "question": "The velocity v of a particle at time t is given by v = at + b tc+ , where a, b and c are constants. The dimensions of a, b and c are respectively :-",
     "options": [
       "LT⁻², L and T",
       "L2, T and LT2",
@@ -1198,7 +1304,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1207,8 +1313,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "Dimensions of electrical resistance is :-",
+    "question": "Dimensions of electrical resistance is :-",
     "options": [
       "[ML2 T⁻³ A⁻¹]",
       "[ML2 T⁻³ A⁻²]",
@@ -1220,7 +1328,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1229,8 +1337,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Hard",
     "questionText": "Which two of the following five physical parameters have the same dimensions ? (a) energy density (b) refractive index (c) dielectric constant (d) Young's modulus (e) magnetic field",
+    "question": "Which two of the following five physical parameters have the same dimensions ? (a) energy density (b) refractive index (c) dielectric constant (d) Young's modulus (e) magnetic field",
     "options": [
       "(a), (d)",
       "(a), (e)",
@@ -1242,7 +1352,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1251,8 +1361,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Medium",
     "questionText": "If the error in the measurement of radius of a sphere is 2 % then the error in the determination of volume of the sphere will be :-",
+    "question": "If the error in the measurement of radius of a sphere is 2 % then the error in the determination of volume of the sphere will be :-",
     "options": [
       "8%",
       "2 %",
@@ -1264,7 +1376,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1274,8 +1386,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "If the dimensions of a physical quantity are given by MaLbTc, then the physical quantity will be :",
+    "question": "If the dimensions of a physical quantity are given by MaLbTc, then the physical quantity will be :",
     "options": [
       "Force if a = 0, b = -1, c = - 2",
       "Pressure if a = 1, b = - 1, c = - 2",
@@ -1287,7 +1401,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1296,8 +1410,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Hard",
     "questionText": "The dimensions of 2 0 1 E2 ε , where ε₀ is permittivity of free sp ace and E is electric field, is:-",
+    "question": "The dimensions of 2 0 1 E2 ε , where ε₀ is permittivity of free sp ace and E is electric field, is:-",
     "options": [
       "[MLT⁻¹]",
       "[ML2T⁻²]",
@@ -1309,7 +1425,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1318,8 +1434,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "A student measures the distance traversed in free fall of a body, initially at rest in a given time. He uses this data to estimate g, the acceleration due to gravity. If the maximum percentage errors in measurement of the distance and the time are e 1 and e2 respectively, the percentage error in the estimation of g is :-",
+    "question": "A student measures the distance traversed in free fall of a body, initially at rest in a given time. He uses this data to estimate g, the acceleration due to gravity. If the maximum percentage errors in measurement of the distance and the time are e 1 and e2 respectively, the percentage error in the estimation of g is :-",
     "options": [
       "e1 + 2e2",
       "e1 + e2",
@@ -1331,7 +1449,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1341,8 +1459,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The dimensions of ( ) 1/2 00 − µε are :-",
+    "question": "The dimensions of ( ) 1/2 00 − µε are :-",
     "options": [
       "[ 11 22LT − ]",
       "[L⁻¹T]",
@@ -1354,7 +1474,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1363,8 +1483,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Hard",
     "questionText": "The density of a material in CGS system of units is 4 g/cm3. In a system of units in which unit of length is 10 cm and unit of mass is 100 g, the value of density of material will be :-",
+    "question": "The density of a material in CGS system of units is 4 g/cm3. In a system of units in which unit of length is 10 cm and unit of mass is 100 g, the value of density of material will be :-",
     "options": [
       "0.04",
       "0.4",
@@ -1376,7 +1498,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1385,8 +1507,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Medium",
     "questionText": "If voltage across a bulb rated 220 Volt 100 Watt drops by 2.5% of its rated value, the percentage of the rated value by which the power would decrease is :-",
+    "question": "If voltage across a bulb rated 220 Volt 100 Watt drops by 2.5% of its rated value, the percentage of the rated value by which the power would decrease is :-",
     "options": [
       "5%",
       "10%",
@@ -1398,7 +1522,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1407,8 +1531,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "In an experiment four quantities a, b, c and d are measured with percentage errors 1%, 2%, 3% and 4% respectively. Quantity P is calculated as follows P = 32ab cd , percentage error in P is :-",
+    "question": "In an experiment four quantities a, b, c and d are measured with percentage errors 1%, 2%, 3% and 4% respectively. Quantity P is calculated as follows P = 32ab cd , percentage error in P is :-",
     "options": [
       "4%",
       "14%",
@@ -1420,7 +1546,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1430,8 +1556,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Hard",
     "questionText": "If force (F), velocity (V) and time (T) are taken as fundamental units, then the dimensions of mass are:",
+    "question": "If force (F), velocity (V) and time (T) are taken as fundamental units, then the dimensions of mass are:",
     "options": [
       "[F V T⁻¹]",
       "[F V T⁻²]",
@@ -1443,7 +1571,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1452,8 +1580,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "If energy (E), velocity (V) and time (T) are chosen as the fundamental quantities, the dimensional formula of surface tension will be :",
+    "question": "If energy (E), velocity (V) and time (T) are chosen as the fundamental quantities, the dimensional formula of surface tension will be :",
     "options": [
       "[EV-1T⁻²]",
       "[EV-2T⁻²]",
@@ -1465,7 +1595,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1474,8 +1604,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Medium",
     "questionText": "If dimension of critical velocity ν c, of liquid flowing through a tube is expressed as ( ηx ρy rz), where η, ρ and r the coefficient of viscosity of liquid, density of liquid and radius of the tube respectively, then the values of x, y and z are given by :",
+    "question": "If dimension of critical velocity ν c, of liquid flowing through a tube is expressed as ( ηx ρy rz), where η, ρ and r the coefficient of viscosity of liquid, density of liquid and radius of the tube respectively, then the values of x, y and z are given by :",
     "options": [
       "1, 1, 1",
       "1, -1, -1",
@@ -1487,7 +1619,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1496,8 +1628,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Hard",
     "questionText": "Planck's constant (h), speed of light in vacuum (c) and Newton's gravitational constant (G) are three fundamental constants. Which of the following combinations of these has the dimension of length?",
+    "question": "Planck's constant (h), speed of light in vacuum (c) and Newton's gravitational constant (G) are three fundamental constants. Which of the following combinations of these has the dimension of length?",
     "options": [
       "hc G",
       "3/2 Gc h",
@@ -1509,7 +1643,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1518,8 +1652,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "A physical quantity of the dimensions of length that can be formed out of c, G and 2 0 e 4πε is [c is velocity of light, G is universal constant of gravitation and e is charge] :-",
+    "question": "A physical quantity of the dimensions of length that can be formed out of c, G and 2 0 e 4πε is [c is velocity of light, G is universal constant of gravitation and e is charge] :-",
     "options": [
       "1/22 2 0 ecG 4   πε",
       "1/22 2 0 1e G4c   πε",
@@ -1531,7 +1667,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1540,8 +1676,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Screw Gauge & Zero Error",
+    "subtopic": "Screw Gauge & Zero Error",
     "difficulty": "Medium",
     "questionText": "A student measured the diameter of a small steel ball using a screw gauge of least count 0.001 cm. The main scale reading is 5 mm and zero of circular scale division coincides with 25 divisions above the reference level. If screw gauge has a zero error of - 0.004 cm, the correct diameter of the ball is :-",
+    "question": "A student measured the diameter of a small steel ball using a screw gauge of least count 0.001 cm. The main scale reading is 5 mm and zero of circular scale division coincides with 25 divisions above the reference level. If screw gauge has a zero error of - 0.004 cm, the correct diameter of the ball is :-",
     "options": [
       "0.521 cm",
       "0.525 cm",
@@ -1553,7 +1691,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Screw Gauge",
       "Error Propagation"
@@ -1565,8 +1703,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Hard",
     "questionText": "In an experiment, the percentage of error occurred in the measurment of physical quantities A, B, C and D are 1%, 2%, 3% and 4% respectively. Then the maximum percentage of error in the measurement X, where X = A² B¹/² / (C¹/³ D³) , will be :",
+    "question": "In an experiment, the percentage of error occurred in the measurment of physical quantities A, B, C and D are 1%, 2%, 3% and 4% respectively. Then the maximum percentage of error in the measurement X, where X = A² B¹/² / (C¹/³ D³) , will be :",
     "options": [
       "3 %13  ",
       "16%",
@@ -1578,7 +1718,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1588,8 +1728,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Medium",
     "questionText": "The unit of thermal conductivity is :",
+    "question": "The unit of thermal conductivity is :",
     "options": [
       "J m K-1",
       "J m-1 K-1",
@@ -1601,7 +1743,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1610,8 +1752,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Vernier Callipers & Least Count",
+    "subtopic": "Vernier Callipers & Least Count",
     "difficulty": "Medium",
     "questionText": "The main scale of a vernier calliper has n divisions/cm. n divisions of the vernier scale coincide with (n - 1) divisions of main scale. The least count of the vernier calliper is,",
+    "question": "The main scale of a vernier calliper has n divisions/cm. n divisions of the vernier scale coincide with (n - 1) divisions of main scale. The least count of the vernier calliper is,",
     "options": [
       "( )( ) 1 n1n1+− cm",
       "1/n cm",
@@ -1623,7 +1767,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Vernier Callipers"
     ],
@@ -1634,8 +1778,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Significant Figures & Rounding Off",
+    "subtopic": "Significant Figures & Rounding Off",
     "difficulty": "Hard",
     "questionText": "Taking into account of the significant figures, what is the value of 9.99 m - 0.0099 m ?",
+    "question": "Taking into account of the significant figures, what is the value of 9.99 m - 0.0099 m ?",
     "options": [
       "9.9 m",
       "9.9801 m",
@@ -1647,7 +1793,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1656,8 +1802,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "Dimensions of stress are :",
+    "question": "Dimensions of stress are :",
     "options": [
       "[M L⁻¹ T⁻²]",
       "[M L T⁻²]",
@@ -1669,7 +1817,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1678,8 +1826,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Screw Gauge & Zero Error",
+    "subtopic": "Screw Gauge & Zero Error",
     "difficulty": "Medium",
     "questionText": "A screw gauge has least count of 0.01 mm and there are 50 divisions in its circular scale. The pitch of the screw gauge is :",
+    "question": "A screw gauge has least count of 0.01 mm and there are 50 divisions in its circular scale. The pitch of the screw gauge is :",
     "options": [
       "1.0 mm",
       "0.01 mm",
@@ -1691,7 +1841,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Screw Gauge"
     ],
@@ -1702,8 +1852,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Hard",
     "questionText": "The angle of 1' (minute of arc) in radian is nearly equal to",
+    "question": "The angle of 1' (minute of arc) in radian is nearly equal to",
     "options": [
       "2.91 × 10⁻4 rad",
       "4.85 × 10⁻4 rad",
@@ -1715,7 +1867,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1724,8 +1876,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "Time intervals measured by a clock give the following readings : 1.25 s, 1.24 s, 1.27 s, 1.21 s and 1.28 s. What is the percentage relative error of the observations ?",
+    "question": "Time intervals measured by a clock give the following readings : 1.25 s, 1.24 s, 1.27 s, 1.21 s and 1.28 s. What is the percentage relative error of the observations ?",
     "options": [
       "2 %",
       "4 %",
@@ -1737,7 +1891,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -1747,8 +1901,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "If force [F], acceleration [A] and time [T] are chosen as the fundamental physical quantities. Find the dimensions of energy.",
+    "question": "If force [F], acceleration [A] and time [T] are chosen as the fundamental physical quantities. Find the dimensions of energy.",
     "options": [
       "[F] [A] [T]",
       "[F] [A] [T2]",
@@ -1760,7 +1916,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1769,8 +1925,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Screw Gauge & Zero Error",
+    "subtopic": "Screw Gauge & Zero Error",
     "difficulty": "Hard",
     "questionText": "A screw gauge gives the following readings when used to measure the diameter of a wire Main scale reading : 0 mm Circular scale reading : 52 divisions Given that 1 mm on main scale corresponds to 100 divisions on the circular scale. The diameter of the wire from the above data is :",
+    "question": "A screw gauge gives the following readings when used to measure the diameter of a wire Main scale reading : 0 mm Circular scale reading : 52 divisions Given that 1 mm on main scale corresponds to 100 divisions on the circular scale. The diameter of the wire from the above data is :",
     "options": [
       "0.52 cm",
       "0.026 cm",
@@ -1782,7 +1940,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Screw Gauge"
     ],
@@ -1793,8 +1951,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "If E and G respectively denote energy and gravitational co nstant, then E G has the dimensions of :",
+    "question": "If E and G respectively denote energy and gravitational co nstant, then E G has the dimensions of :",
     "options": [
       "[M2] [L⁻¹] [T0]",
       "[M] [L⁻¹] [T⁻¹]",
@@ -1806,7 +1966,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1815,8 +1975,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The dimensions of mobility of electrons are",
+    "question": "The dimensions of mobility of electrons are",
     "options": [
       "M⁻¹LA2",
       "MT⁻²A⁻¹",
@@ -1828,7 +1990,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1837,8 +1999,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Hard",
     "questionText": "Plane angle and solid angle have :",
+    "question": "Plane angle and solid angle have :",
     "options": [
       "Dimensions but no units",
       "No units and no dimensions",
@@ -1850,7 +2014,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1859,8 +2023,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Medium",
     "questionText": "The dimensions [MLT -2 A -2 ] belong to the :",
+    "question": "The dimensions [MLT -2 A -2 ] belong to the :",
     "options": [
       "self inductance",
       "magnetic permeability",
@@ -1872,7 +2038,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1881,8 +2047,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Significant Figures & Rounding Off",
+    "subtopic": "Significant Figures & Rounding Off",
     "difficulty": "Medium",
     "questionText": "The area of a rectangular field (in m² ) of length 55.3 m and breadth 25 m after rounding off the value for correct significant digits is :",
+    "question": "The area of a rectangular field (in m² ) of length 55.3 m and breadth 25 m after rounding off the value for correct significant digits is :",
     "options": [
       "1382",
       "1382.5",
@@ -1894,7 +2062,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1903,8 +2071,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Hard",
     "questionText": "Match List - I with List - II:\n\n| List - I (Physical Quantity) | List - II (Dimensional Formula) |\n| :--- | :--- |\n| (a) Gravitational constant (G) | (i) [L² T⁻²] |\n| (b) Gravitational potential energy | (ii) [M⁻¹ L³ T⁻²] |\n| (c) Gravitational potential | (iii) [L T⁻²] |\n| (d) Gravitational intensity | (iv) [M L² T⁻²] |\n\nChoose the correct answer from the options given below:",
+    "question": "Match List - I with List - II:\n\n| List - I (Physical Quantity) | List - II (Dimensional Formula) |\n| :--- | :--- |\n| (a) Gravitational constant (G) | (i) [L² T⁻²] |\n| (b) Gravitational potential energy | (ii) [M⁻¹ L³ T⁻²] |\n| (c) Gravitational potential | (iii) [L T⁻²] |\n| (d) Gravitational intensity | (iv) [M L² T⁻²] |\n\nChoose the correct answer from the options given below:",
     "options": [
       "(a)-(ii), (b)-(iv), (c)-(i), (d)- (iii)",
       "(a)-(ii), (b)-(iv), (c)-(iii), (d)- (i)",
@@ -1916,7 +2086,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1925,8 +2095,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The dimensions of mutual inductance (M) are:",
+    "question": "The dimensions of mutual inductance (M) are:",
     "options": [
       "[MLT⁻² A 2 ]",
       "[M 2 L 2 T⁻² A 2 ]",
@@ -1938,7 +2110,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -1947,8 +2119,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Screw Gauge & Zero Error",
+    "subtopic": "Screw Gauge & Zero Error",
     "difficulty": "Medium",
     "questionText": "When the circular scale of a screw gauge completes 2 rotations, it covers 1 mm over the pitch scale. The total number of the circular scale divisions is 50. The least count of the screw gauge in metre is:",
+    "question": "When the circular scale of a screw gauge completes 2 rotations, it covers 1 mm over the pitch scale. The total number of the circular scale divisions is 50. The least count of the screw gauge in metre is:",
     "options": [
       "10⁻5",
       "10⁻2",
@@ -1960,7 +2134,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Screw Gauge"
     ],
@@ -1971,8 +2145,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Hard",
     "questionText": "The determination of the value of acceleration due to gravity (g) by simple pendulum method employs the formula, g = 4π² L / T² The expression for the relative error in the value of 'g' is:",
+    "question": "The determination of the value of acceleration due to gravity (g) by simple pendulum method employs the formula, g = 4π² L / T² The expression for the relative error in the value of 'g' is:",
     "options": [
       "∆ ∆∆ = π−  2g LT42g LT",
       "∆ ∆∆ = π+  2g LT42g LT",
@@ -1984,7 +2160,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ],
@@ -1995,8 +2171,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Medium",
     "questionText": "The physical quantity that has the same dimensional formula as pressure is :",
+    "question": "The physical quantity that has the same dimensional formula as pressure is :",
     "options": [
       "Force",
       "Momentum",
@@ -2008,7 +2186,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -2017,8 +2195,10 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Medium",
     "questionText": "The percentage error in the measurement of g is: (Given that g = 4π² L / T², L = (10 ± 0.1) cm, T = (100 ± 1) s)",
+    "question": "The percentage error in the measurement of g is: (Given that g = 4π² L / T², L = (10 ± 0.1) cm, T = (100 ± 1) s)",
     "options": [
       "2%",
       "5%",
@@ -2030,7 +2210,7 @@ export const ALLEN_UNITS_EXERCISE_2_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ],
@@ -2044,8 +2224,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Hard",
     "questionText": "In a particular system the units of length mass and time are chosen to be 10 cm, 10 g and 0.1 s respectively. The unit of force in this system will be equal to",
+    "question": "In a particular system the units of length mass and time are chosen to be 10 cm, 10 g and 0.1 s respectively. The unit of force in this system will be equal to",
     "options": [
       "0.1 N",
       "1 N",
@@ -2057,7 +2239,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -2066,8 +2248,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Hard",
     "questionText": "The period of oscillation of a simple pendulum in an experiment is recorded as 2.63s, 2.56s, 2.42s, 2.71s and 2.80s respectively. The average absolute error is",
+    "question": "The period of oscillation of a simple pendulum in an experiment is recorded as 2.63s, 2.56s, 2.42s, 2.71s and 2.80s respectively. The average absolute error is",
     "options": [
       "0.1s",
       "0.11s",
@@ -2079,7 +2263,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ],
@@ -2090,8 +2274,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Errors in Measurement",
+    "subtopic": "Errors in Measurement",
     "difficulty": "Hard",
     "questionText": "The length, breadth and thickness of a strip are (10.0 ± 0.1) cm, (1.00 ± 0.01) cm and (0.100 ± 0.001) cm respectively. The most probable error in its volume will be:",
+    "question": "The length, breadth and thickness of a strip are (10.0 ± 0.1) cm, (1.00 ± 0.01) cm and (0.100 ± 0.001) cm respectively. The most probable error in its volume will be:",
     "options": [
       ".00±0.01) cm and (0.100± 0.001) cm respectively. The most probable error in its volume will be",
       "± 0.03 cm³",
@@ -2103,7 +2289,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -2113,8 +2299,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Vernier Callipers & Least Count",
+    "subtopic": "Vernier Callipers & Least Count",
     "difficulty": "Hard",
     "questionText": "The length of a cylinder is measured with a metre rod having least count 0.1 cm. Its diameter is measured with vernier callipers having least count 0.01 cm. Given the length is 5.0 cm. and radius is 2.00 cm. The percentage error in the calculated value of volume will be -",
+    "question": "The length of a cylinder is measured with a metre rod having least count 0.1 cm. Its diameter is measured with vernier callipers having least count 0.01 cm. Given the length is 5.0 cm. and radius is 2.00 cm. The percentage error in the calculated value of volume will be -",
     "options": [
       "2%",
       "1%",
@@ -2126,7 +2314,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Vernier Callipers",
       "Error Propagation"
@@ -2138,8 +2326,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Hard",
     "questionText": "If energy (E), velocity (V) and time (T) were chosen as fundame ntal physical quantities for measurement, then the dimensional formula for mass will be :-",
+    "question": "If energy (E), velocity (V) and time (T) were chosen as fundame ntal physical quantities for measurement, then the dimensional formula for mass will be :-",
     "options": [
       "[E 1 V2 T1]",
       "[E2 V-2 T0]",
@@ -2151,7 +2341,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -2160,8 +2350,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Hard",
     "questionText": "Which of the following does not have the same unit as others ?",
+    "question": "Which of the following does not have the same unit as others ?",
     "options": [
       "watt-s",
       "kilowatt-hour",
@@ -2173,7 +2365,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -2182,8 +2374,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Units & Systems of Units",
+    "subtopic": "Units & Systems of Units",
     "difficulty": "Hard",
     "questionText": "Suppose refractive index µ is given as µ = A + B/λ², were A and B are constants and λ is wavelength then the dimension of B are same as that of :-",
+    "question": "Suppose refractive index µ is given as µ = A + B/λ², were A and B are constants and λ is wavelength then the dimension of B are same as that of :-",
     "options": [
       "wavelength",
       "pressure",
@@ -2195,7 +2389,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -2204,8 +2398,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Dimensional Analysis & Applications",
+    "subtopic": "Dimensional Analysis & Applications",
     "difficulty": "Hard",
     "questionText": "The dimensional formula for Planck's constant h and gravitational constant G respectively are :-",
+    "question": "The dimensional formula for Planck's constant h and gravitational constant G respectively are :-",
     "options": [
       "[ML3T⁻²], [M⁻¹L2T⁻³]",
       "[ML2T⁻¹], [M⁻¹L3T⁻²]",
@@ -2217,7 +2413,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   },
@@ -2226,8 +2422,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Error Analysis & Propagation",
+    "subtopic": "Error Analysis & Propagation",
     "difficulty": "Hard",
     "questionText": "A wire has a mass (0.3 ± 0.003) g, radius (0.5 ± 0.005) mm and length (6 ± 0.06) cm. The maximum percentage error in the measurement of its density is-",
+    "question": "A wire has a mass (0.3 ± 0.003) g, radius (0.5 ± 0.005) mm and length (6 ± 0.06) cm. The maximum percentage error in the measurement of its density is-",
     "options": [
       "1",
       "2",
@@ -2239,7 +2437,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Error Propagation"
     ]
@@ -2249,8 +2447,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Vernier Callipers & Least Count",
+    "subtopic": "Vernier Callipers & Least Count",
     "difficulty": "Hard",
     "questionText": "In a vernier callipers, one main scale division is x cm and n divisions of the vernier sca le coincide with (n -1) divisions of the main scale. The least count (in cm) of the callipers is :-",
+    "question": "In a vernier callipers, one main scale division is x cm and n divisions of the vernier sca le coincide with (n -1) divisions of the main scale. The least count (in cm) of the callipers is :-",
     "options": [
       "n1 xn −",
       "nx / (n − 1)",
@@ -2262,7 +2462,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics",
       "Vernier Callipers"
     ],
@@ -2273,8 +2473,10 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "subject": "Physics",
     "chapter": "Units, Dimensions and Errors in Measurement",
     "topic": "Physical World & Measurement",
+    "subtopic": "Physical World & Measurement",
     "difficulty": "Hard",
     "questionText": "Choose the incorrect statement out of the following :-",
+    "question": "Choose the incorrect statement out of the following :-",
     "options": [
       "Every measurement made by any measuring instrument has some error.",
       "Every calculated physical quantity that is based on measured values has some error.",
@@ -2286,7 +2488,7 @@ export const ALLEN_UNITS_EXERCISE_3_QUESTIONS: Question[] = [
     "tags": [
       "Units and Measurements",
       "Dimensions",
-      "ALLEN Question Bank",
+      "Master Question Bank",
       "NEET Physics"
     ]
   }

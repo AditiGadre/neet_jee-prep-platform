@@ -122,12 +122,17 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
   const [questions, setQuestions] = useState<Question[]>(() => {
     if (test.questions && test.questions.length > 0) {
-      return test.questions.map(q => ({
-        ...q,
-        questionText: formatMathAndFormulas(cleanOcrText(q.questionText)),
-        options: q.options.map(o => formatMathAndFormulas(cleanOcrText(o))),
-        explanation: formatMathAndFormulas(cleanOcrText(q.explanation))
-      }));
+      return test.questions.map(q => {
+        const rawQText = q.questionText || (q as any).question || '';
+        const rawTopic = q.topic || (q as any).subtopic || q.chapter || '';
+        return {
+          ...q,
+          questionText: formatMathAndFormulas(cleanOcrText(rawQText)),
+          topic: rawTopic,
+          options: (q.options || []).map(o => formatMathAndFormulas(cleanOcrText(o))),
+          explanation: formatMathAndFormulas(cleanOcrText(q.explanation || ''))
+        };
+      });
     }
     return [];
   });
@@ -1007,7 +1012,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <span>&bull;</span>
                       <span className="font-medium text-slate-600">{currentQ.chapter}</span>
                       <span>&bull;</span>
-                      <span className="text-slate-400 font-mono">{currentQ.topic}</span>
+                      <span className="text-slate-400 font-mono">{currentQ.topic || (currentQ as any).subtopic || ''}</span>
                     </div>
 
                     <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-bold border border-emerald-200">
@@ -1033,7 +1038,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
                   {/* Question Text */}
                   <div className="text-sm sm:text-base font-semibold text-slate-900 leading-relaxed p-4 rounded-2xl bg-slate-50/70 border border-slate-200/80 shadow-2xs">
-                    {renderFormattedQuestionText(currentQ.questionText)}
+                    {renderFormattedQuestionText(currentQ.questionText || (currentQ as any).question || '')}
                   </div>
 
                   {/* Visual / SVG Diagram in Question (Max 2 uses per test) */}
@@ -2171,7 +2176,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                         </div>
 
                         <div className="text-xs sm:text-sm text-slate-900 font-medium leading-relaxed">
-                          {renderFormattedQuestionText(q.questionText)}
+                          {renderFormattedQuestionText(q.questionText || (q as any).question || '')}
                         </div>
 
                         {(q.diagramSvg || questionDiagramMap.get(idx)) && (

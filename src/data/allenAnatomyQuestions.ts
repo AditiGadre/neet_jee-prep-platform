@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
 /**
- * ALLEN Pre-Medical BOTANY: Anatomy of Flowering Plants
- * Authenticated Question Bank with 100% verified official ALLEN answer keys,
+ * Pre-Medical BOTANY: Anatomy of Flowering Plants
+ * Authenticated Question Bank with 100% verified Official Answer Keys,
  * comprehensive step-by-step NCERT explanations, and examiner pro-tips.
  * Total Questions: 214
  * - Exercise-I (Conceptual Questions): 90 Questions (PA0001 - PA0112)
@@ -30,7 +30,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Growth in plants is largely restricted to specialised regions of active cell division called meristems (Greek *meristos*: divided).\n\n\u26a1 **Detailed Anatomical Explanation**:\nMeristematic cells possess thin cellulosic primary cell walls, dense cytoplasm, prominent nuclei, and lack vacuoles or intercellular spaces. Their sole function is continuous mitotic division to generate new cells that subsequently differentiate into permanent tissues.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Meristems are self-perpetuating: each division yields one cell that differentiates and another that remains meristematic.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0001"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0001"],
     code: "PA0001"
   },
   {
@@ -49,7 +49,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The root apex is covered at the tip by a thimble-like structure called the root cap. In free-floating hydrophytes, root caps are replaced by root pockets.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn aquatic plants such as *Pistia* (water lettuce) and *Eichhornia* (water hyacinth), root caps are absent because the root apex does not need protection from soil abrasion. Instead, loose root pockets are present that assist in balancing.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Terrestrial mesophytes (*Mustard*, *Sunflower*, *China rose*) have prominent multicellular root caps.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0004"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0004"],
     code: "PA0004"
   },
   {
@@ -68,7 +68,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Meristems that appear later than primary meristem in the life of a plant and contribute to secondary growth are secondary (lateral) meristems.\n\n\u26a1 **Detailed Anatomical Explanation**:\nSecondary meristems (such as interfascicular cambium and cork cambium/phellogen) arise by the **dedifferentiation** of living primary permanent tissues (parenchyma or collenchyma cells) that regain the power of cell division.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Primary meristem -> Primary permanent tissue (Differentiation) -> Secondary meristem (Dedifferentiation) -> Secondary permanent tissue (Redifferentiation).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0006"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0006"],
     code: "PA0006"
   },
   {
@@ -87,7 +87,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The root cap protects the tender apex of the root as it makes its way through the soil.\n\n\u26a1 **Detailed Anatomical Explanation**:\nRoot cap cells secrete mucilage (produced by Golgi bodies) that lubricates the passage through soil particles. Additionally, starch-rich statoliths inside root cap cells mediate positive geotropic perception.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Root hairs absorb water and minerals; the root cap only provides mechanical protection.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0007"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0007"],
     code: "PA0007"
   },
   {
@@ -106,7 +106,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicotyledonous stems, the cells of cambium present between primary xylem and primary phloem within a vascular bundle constitute the intrafascicular cambium.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIntrafascicular cambium is a primary lateral meristem derived directly from procambium. During secondary growth, it joins with interfascicular cambium to form a continuous vascular cambial ring.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 'Intra' means within the bundle; 'Inter' means between two adjacent bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0248"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0248"],
     code: "PA0248"
   },
   {
@@ -125,7 +125,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In hydrophytes, parenchyma cells develop large air spaces/lacunae and are termed aerenchyma.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThe air-filled cavities in aerenchyma provide buoyancy, allowing aquatic organs (leaves, petioles, stems) to float on the water surface and facilitate internal gas exchange.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Chlorenchyma promotes photosynthesis; aerenchyma provides buoyancy.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0011"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0011"],
     code: "PA0011"
   },
   {
@@ -144,7 +144,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Collenchyma cells provide mechanical support to the growing parts of the plant such as young stem and petiole of a leaf. Collenchyma cells may also assimilate food when they contain chloroplasts.\n\n\u26a1 **Detailed Anatomical Explanation**:\nCollenchyma is a living mechanical tissue. When exposed to light, its peripheral layers develop chloroplasts and actively perform photosynthesis while providing tensile flexibility against wind sway.\n\n\ud83d\udca1 **Examiner Pro-Tip**: NCERT explicitly states both mechanical support and photosynthesis (when chloroplasts are present) for collenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0012"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0012"],
     code: "PA0012"
   },
   {
@@ -163,7 +163,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Meristematic cells are living with thin primary cellulosic walls and abundant protoplasm.\n\n\u26a1 **Detailed Anatomical Explanation**:\n- Xylem vessels: Dead at maturity, lignified secondary walls without protoplasts.\n- Meristem: Continuously dividing living cells.\n- Cork (phellem): Dead at maturity with suberin deposits.\n- Fibres: Dead sclerenchymatous elements with obliterated lumens.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sclerenchyma, vessels, tracheids, and cork are dead; parenchyma, collenchyma, and meristems are living.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0013"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0013"],
     code: "PA0013"
   },
   {
@@ -182,7 +182,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Parenchyma forms the major component within plant organs and performs functions like photosynthesis, storage, and secretion.\n\n\u26a1 **Detailed Anatomical Explanation**:\nStorage organs such as potato tubers, carrot taproots, cotyledons, and endosperm consist almost entirely of thin-walled, isodiametric parenchymatous cells packed with starch grains, aleurone, or lipids.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Parenchyma is the most primitive, abundant, and fundamental ground tissue.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0014"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0014"],
     code: "PA0014"
   },
   {
@@ -201,7 +201,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sclereids are spherical, oval or cylindrical, highly thickened dead cells with very narrow lumens. They are commonly found in the fruit walls of nuts, pulp of fruits like guava, pear, and sapota.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBrachysclereids (stone cells) have intensely lignified secondary walls traversed by simple branched pits, imparting characteristic gritty texture to pear (*Pyrus communis*) flesh.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Seed coats of legumes and leaves of tea also contain sclereids.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0249"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0249"],
     code: "PA0249"
   },
   {
@@ -220,7 +220,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Collenchyma provides mechanical support to growing organs while retaining living protoplasts at maturity.\n\n\u26a1 **Detailed Anatomical Explanation**:\nSclerenchyma is a dead mechanical tissue (lignified walls, obliterated lumen). Collenchyma is the unique *living* mechanical tissue of plants, characterized by cellulosic and pectiniferous corner thickenings.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 'Living mechanical tissue' is the textbook NEET keyword for collenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0016"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0016"],
     code: "PA0016"
   },
   {
@@ -239,7 +239,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sclerenchyma cells are usually dead and without protoplasts at maturity. Collenchyma cells possess active living protoplasm at maturity.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBoth collenchyma and sclerenchyma have thick walls and lumens. However, sclerenchyma deposits rigid, impermeable lignin that causes cell death, while collenchyma retains pectin-cellulose walls with living vacuolated protoplasts.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Protoplasm retention at maturity is the fundamental diagnostic difference.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0017"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0017"],
     code: "PA0017"
   },
   {
@@ -258,7 +258,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Collenchyma consists of cells which are much thickened at the corners due to a deposition of cellulose, hemicellulose and pectin. They provide mechanical support to growing parts of the plant such as young stem and petiole of a leaf.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThe hydrated pectin in collenchymatous hypodermis gives tensile flexibility, enabling young stems to bend without breaking under mechanical stress from wind.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Collenchyma acts as a physiological shock absorber in growing aerial organs.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0018"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0018"],
     code: "PA0018"
   },
   {
@@ -277,7 +277,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sclerenchyma consists of long, narrow cells with thick and lignified cell walls having a few or numerous pits.\n\n\u26a1 **Detailed Anatomical Explanation**:\nLignin is a complex hydrophobic aromatic polymer that cross-links cellulose microfibrils, creating a rigid, waterproof wall matrix resistant to compressive and tensile forces.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Collenchyma thickenings are due to pectin and cellulose; sclerenchyma thickenings are due to lignin.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0020"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0020"],
     code: "PA0020"
   },
   {
@@ -296,7 +296,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A vessel element is lignified and devoid of protoplasm at maturity, lacking both nucleus and central vacuole to create a continuous lumen for water conduction.\n\n\u26a1 **Detailed Anatomical Explanation**:\nCambium cells, root hairs, and companion cells are living and retain nuclei, cytoplasm, and vacuoles. Mature xylem vessels undergo programmed cell death, autolysing their protoplasts to function as hollow water conduits.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sieve tube elements are enucleate but living (with peripheral cytoplasm and vacuole); vessels are totally dead.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0021"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0021"],
     code: "PA0021"
   },
   {
@@ -315,7 +315,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Tracheids are the chief water-transporting elements in gymnosperms.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause gymnosperms lack xylem vessels, their tracheids bear numerous large, circular bordered pits with a flexible pit membrane and central thickening (torus) that acts as a valve preventing cavitation.\n\n\ud83d\udca1 **Examiner Pro-Tip**: The presence of abundant bordered pits with torus on radial walls of tracheids is a hallmark of gymnosperm wood (*Pinus*).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0022"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0022"],
     code: "PA0022"
   },
   {
@@ -334,7 +334,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The functions of sieve tubes are controlled by the nucleus of companion cells. Sieve tube elements and companion cells are connected by pit fields present between their common longitudinal walls.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBoth originate from the same mother cell (sister cells). Because mature sieve tube elements lack a nucleus, companion cells maintain their metabolic activity and hydrostatic pressure gradient.\n\n\ud83d\udca1 **Examiner Pro-Tip**: In gymnosperms, companion cells are replaced by albuminous cells (Strasburger cells).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0023"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0023"],
     code: "PA0023"
   },
   {
@@ -353,7 +353,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phloem fibres (bast fibres) are made up of sclerenchymatous cells. These are generally absent in the primary phloem but are found in the secondary phloem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nCommercially exploited bast fibres such as jute, flax, and hemp are secondary phloem fibres derived from vascular cambium activity during secondary growth.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Remember: Phloem fibres are absent in primary phloem of most angiosperms!",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0024"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0024"],
     code: "PA0024"
   },
   {
@@ -372,7 +372,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Presence of vessels is a characteristic feature of angiosperms. Gymnosperms lack vessels in their xylem and lack companion cells in their phloem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPteridophytes and gymnosperms have tracheids for water conduction and sieve cells + albuminous cells for food translocation. Only angiosperms possess the advanced combination of vessels and companion cells.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Notable exception: Gnetales (*Gnetum*, *Ephedra*, *Welwitschia*) are gymnosperms that possess vessels.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0025"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0025"],
     code: "PA0025"
   },
   {
@@ -391,7 +391,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phloem parenchyma is absent in most of the monocotyledons.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn monocot stems (e.g. maize, sugarcane), the vascular bundle phloem consists solely of sieve tubes and companion cells; phloem parenchyma is completely lacking.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT statement tested repeatedly in AIPMT and NEET.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0026"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0026"],
     code: "PA0026"
   },
   {
@@ -410,7 +410,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Collenchyma cells are thickened at corners due to the localized deposition of cellulose, hemicellulose, and primarily **pectin**.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPectin has high water-holding capacity, making the corners hydrophilic and plastic, providing tensile resilience without brittleness.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Never select lignin for collenchyma; collenchyma is strictly unlignified.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0250"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0250"],
     code: "PA0250"
   },
   {
@@ -429,7 +429,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Xylem functions as a conducting tissue for water and minerals (sap) from roots to the stem and leaves.\n\n\u26a1 **Detailed Anatomical Explanation**:\nAscent of sap consists of water along with dissolved mineral nutrients, driven by transpiration pull and root pressure through continuous vessel channels.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sap = water + dissolved mineral ions.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0029"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0029"],
     code: "PA0029"
   },
   {
@@ -448,7 +448,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Tracheids are elongated cells with tapering, imperforate pitted ends. Vessel elements are interconnected through perforations in their common end walls.\n\n\u26a1 **Detailed Anatomical Explanation**:\nWater moves between adjacent tracheids laterally through bordered pit pairs. In vessels, end walls are dissolved completely or possess scalariform/simple perforation plates, forming a continuous open pipe.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Tracheids = imperforate (pitted); Vessels = perforated.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0030"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0030"],
     code: "PA0030"
   },
   {
@@ -467,7 +467,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Fibres are thick-walled, elongated and pointed cells, generally occurring in groups or bundles in various parts of the plant.\n\n\u26a1 **Detailed Anatomical Explanation**:\nSclereids are spherical, oval, or cylindrical with blunt ends. Fibres are long, narrow, spindle-shaped with tapering pointed ends.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sclereids = isodiametric/cylindrical; Fibres = elongated and pointed.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0032"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0032"],
     code: "PA0032"
   },
   {
@@ -486,7 +486,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phloem-protein (P-protein) is present in sieve tube elements of angiosperms.\n\n\u26a1 **Detailed Anatomical Explanation**:\nP-protein forms slime plugs over sieve plate pores upon injury to prevent exudation of nutrient-rich phloem sap.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sieve cells of gymnosperms lack P-protein.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0034"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0034"],
     code: "PA0034"
   },
   {
@@ -505,7 +505,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In conjoint type of vascular bundles, the xylem and phloem are jointly situated along the same radius of vascular bundles.\n\n\u26a1 **Detailed Anatomical Explanation**:\nSuch vascular bundles are common in stems and leaves. When xylem and phloem alternate along different radii, they are radial (roots).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Same radius = Conjoint; Different radii = Radial.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0035"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0035"],
     code: "PA0035"
   },
   {
@@ -524,7 +524,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Bicollateral bundles feature central xylem sandwiched between outer phloem and inner phloem, with two cambium strips (outer and inner cambium).\n\n\u26a1 **Detailed Anatomical Explanation**:\nSequence: Outer phloem -> Outer cambium -> Xylem -> Inner cambium -> Inner phloem. Because cambium is present, it is an open bundle (e.g. stem of *Cucurbita*).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Characteristic of Cucurbitaceae (gourds) and Solanaceae.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0036"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0036"],
     code: "PA0036"
   },
   {
@@ -543,7 +543,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In stems, protoxylem lies towards the centre (pith) and metaxylem lies towards the periphery of the organ. This type of primary xylem is called endarch.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn roots, protoxylem lies towards the periphery and metaxylem lies towards the centre, which is called exarch.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Stem = Endarch (inward protoxylem); Root = Exarch (outward protoxylem).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0039"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0039"],
     code: "PA0039"
   },
   {
@@ -562,7 +562,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Xylem parenchyma cells are living and thin-walled, and their cell walls are made up of cellulose. They store food materials in the form of starch or fat, and other substances like tannins.\n\n\u26a1 **Detailed Anatomical Explanation**:\nVessels, tracheids, and xylem fibres are all dead and lignified at maturity. Xylem parenchyma is the sole living element of xylem.\n\n\ud83d\udca1 **Examiner Pro-Tip**: In xylem, only parenchyma is living; in phloem, only fibres are dead!",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0040"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0040"],
     code: "PA0040"
   },
   {
@@ -581,7 +581,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Epiphytic roots of orchids possess a specialized multilayered hygroscopic epidermis known as velamen.\n\n\u26a1 **Detailed Anatomical Explanation**:\nVelamen consists of dead, air-filled, spongy cells with spirally thickened walls capable of rapidly absorbing atmospheric moisture.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Found in aerial hanging roots of *Vanda*.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0041"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0041"],
     code: "PA0041"
   },
   {
@@ -600,7 +600,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicotyledonous stems (e.g. sunflower), the hypodermis consists of 3-5 layers of collenchymatous cells below the epidermis, which provides mechanical strength to the young stem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nMonocot stems, by contrast, possess a sclerenchymatous hypodermis (e.g. maize).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dicot stem = Collenchyma hypodermis; Monocot stem = Sclerenchyma hypodermis.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0043"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0043"],
     code: "PA0043"
   },
   {
@@ -619,7 +619,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The monocotyledonous stem has a sclerenchymatous hypodermis, a large number of scattered vascular bundles, each surrounded by a sclerenchymatous bundle sheath, and a large, conspicuous parenchymatous ground tissue.\n\n\u26a1 **Detailed Anatomical Explanation**:\nSugarcane and grass are monocots displaying atactostele: closed vascular bundles scattered throughout ground tissue with no distinction between cortex and pith.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sunflower, neem, radish, pea, and peepal are dicots with a ring of open vascular bundles and distinct pith.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0044"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0044"],
     code: "PA0044"
   },
   {
@@ -638,7 +638,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocot stem, all tissues inner to hypodermis represent an undifferentiated, continuous parenchymatous ground tissue in which vascular bundles are scattered.\n\n\u26a1 **Detailed Anatomical Explanation**:\nDicot stems, dicot roots, and monocot roots all display a well-demarcated cortex, endodermis, pericycle, and pith.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Absence of demarcated cortex and pith is the defining hallmark of monocot stem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0045"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0045"],
     code: "PA0045"
   },
   {
@@ -657,7 +657,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Monocot stem vascular bundles are conjoint, collateral, closed (lack cambium), and each is surrounded by a sclerenchymatous bundle sheath.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPeripheral vascular bundles are generally smaller and more numerous than the centrally located ones.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Monocot stem = Closed + Sclerenchymatous bundle sheath.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0046"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0046"],
     code: "PA0046"
   },
   {
@@ -676,7 +676,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In roots, xylem and phloem patches lie on alternating radii, an arrangement termed radial. Xylem in roots is exarch.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThere are typically 2 to 4 (rarely up to 6) xylem and phloem patches separated by parenchymatous conjunctive tissue.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Stems have conjoint endarch bundles; roots have radial exarch bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0047"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0047"],
     code: "PA0047"
   },
   {
@@ -695,7 +695,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot root, pith is small or inconspicuous. In monocot root, pith is large and well developed.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBoth roots possess epiblema, pericycle, and radial exarch vascular bundles. The distinguishing anatomical features are the number of xylem arches (diarch to tetrarch in dicot vs polyarch in monocot) and the size of the pith.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dicot root = Inconspicuous pith; Monocot root = Large well-developed pith.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0048"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0048"],
     code: "PA0048"
   },
   {
@@ -714,7 +714,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocot root, there are usually more than six (polyarch) xylem bundles present.\n\n\u26a1 **Detailed Anatomical Explanation**:\nAll roots have exarch xylem (protoxylem towards periphery). Dicot roots have 2 to 4 (rarely up to 6) xylem bundles, whereas monocot roots are distinctly polyarch (>6, often 8 to 20).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Polyarch + Exarch = Monocot root.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0251"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0251"],
     code: "PA0251"
   },
   {
@@ -733,7 +733,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Water-containing cavities are present within the vascular bundles of monocot stems (e.g. maize).\n\n\u26a1 **Detailed Anatomical Explanation**:\nDuring rapid stem elongation, the earliest formed protoxylem vessels break down and dissolve, leaving a lysigenous (or schizolysigenous) water cavity.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Water cavity is present in Y-shaped xylem of monocot stem bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0050"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0050"],
     code: "PA0050"
   },
   {
@@ -752,7 +752,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In exarch xylem, protoxylem differentiates first towards the outside (periphery) and metaxylem differentiates towards the inside (centre).\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause differentiation progresses from the periphery inwards towards the center, the development of exarch xylem is **centripetal**.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Exarch = Centripetal development (roots); Endarch = Centrifugal development (stems).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0051"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0051"],
     code: "PA0051"
   },
   {
@@ -771,7 +771,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In *Cucurbita* (family Cucurbitaceae), vascular bundles are bicollateral and open.\n\n\u26a1 **Detailed Anatomical Explanation**:\nXylem is located in the middle with phloem on both outer and inner sides. Two strips of cambium are present (outer and inner cambium), making the bundle open.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Cucurbitaceae members feature 10 bicollateral open bundles arranged in two alternating rings of 5 each.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0053"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0053"],
     code: "PA0053"
   },
   {
@@ -790,7 +790,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In a dorsiventral leaf vascular bundle, xylem is directed towards the upper (adaxial) epidermis and phloem is directed towards the lower (abaxial) epidermis.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThis orientation reflects the leaf trace divergence from the stem, where inner xylem faces upwards upon horizontal leaf blade expansion.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Adaxial = Upper = Xylem; Abaxial = Lower = Phloem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0054"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0054"],
     code: "PA0054"
   },
   {
@@ -809,7 +809,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot stems, hypodermis consists of a few layers of collenchymatous cells just below the epidermis.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIt provides mechanical strength along with flexibility to the growing young dicot stem.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Compare: Dicot stem hypodermis is collenchymatous, monocot stem hypodermis is sclerenchymatous.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0252"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0252"],
     code: "PA0252"
   },
   {
@@ -828,7 +828,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Vascular bundles in leaves are conjoint, collateral and closed (no cambium).\n\n\u26a1 **Detailed Anatomical Explanation**:\nLeaves do not undergo secondary growth; hence cambium is completely absent between xylem and phloem, making the bundles closed.\n\n\ud83d\udca1 **Examiner Pro-Tip**: All leaf bundles are collateral and closed.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0056"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0056"],
     code: "PA0056"
   },
   {
@@ -847,7 +847,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocotyledonous stem (such as maize), vascular bundles are scattered throughout the parenchymatous ground tissue.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThis scattered vascular cylinder arrangement without demarcated rings is botanically known as an **atactostele**.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dicot stem has eustele (ring of bundles); monocot stem has atactostele (scattered bundles).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0253"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0253"],
     code: "PA0253"
   },
   {
@@ -866,7 +866,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The monocotyledonous stem (e.g. maize) has a sclerenchymatous hypodermis.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThe 2-3 layered sclerenchymatous hypodermis provides rigidity to the hollow or slender monocot culm against wind shear.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Maize = Monocot = Sclerenchymatous hypodermis.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0058"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0058"],
     code: "PA0058"
   },
   {
@@ -885,7 +885,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In roots, endodermal cells opposite to protoxylem points lack Casparian strips and suberin lamellae. These thin-walled cells are called passage cells or transfusion cells.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn monocot roots, where Casparian bands and suberin depositions are exceptionally heavy in most endodermal cells, passage cells provide an unhindered radial pathway for water and dissolved minerals from the cortex into the xylem.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Passage cells are located strictly opposite to protoxylem poles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0059"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0059"],
     code: "PA0059"
   },
   {
@@ -904,7 +904,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: According to Haberlandt's classification, apical meristem differentiates into three primary meristematic zones: protoderm, procambium, and ground meristem.\n\n\u26a1 **Detailed Anatomical Explanation**:\n- Protoderm -> Epidermal tissue system\n- Procambium -> Primary vascular tissues (xylem and phloem)\n- Ground meristem -> Ground tissue system including cortex, endodermis, pericycle, medullary rays, and central pith.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Ground meristem produces all fundamental ground tissues including the pith.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0060"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0060"],
     code: "PA0060"
   },
   {
@@ -923,7 +923,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gymnosperms have albuminous cells and sieve cells. They lack sieve tubes and companion cells.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPteridophytes and gymnosperms possess primitive, non-aggregated sieve cells where sieve areas are distributed uniformly across all lateral walls rather than localized into distinct end-wall sieve plates.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sieve tubes + companion cells = Angiosperms; Sieve cells + albuminous cells = Gymnosperms.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0061"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0061"],
     code: "PA0061"
   },
   {
@@ -942,7 +942,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In roots, the protoxylem lies towards periphery (facing the pericycle) and metaxylem lies towards the centre. Such arrangement of primary xylem is called exarch.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause the pericycle directly surrounds the vascular cylinder, outward-pointing protoxylem poles directly abut the pericycle.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Facing pericycle = Facing periphery = Exarch.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0062"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0062"],
     code: "PA0062"
   },
   {
@@ -961,7 +961,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The peripheral region of the secondary xylem is lighter in colour and is known as the sapwood (alburnum). It is involved in the conduction of water and minerals from root to leaf.\n\n\u26a1 **Detailed Anatomical Explanation**:\nHeartwood vessels are non-functional and blocked by tyloses and secondary metabolites; only sapwood actively conducts sap.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sapwood = Functional, conducting, peripheral; Heartwood = Dead, non-conducting, central.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0063"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0063"],
     code: "PA0063"
   },
   {
@@ -980,7 +980,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phellogen (cork cambium) cuts off cells on both sides. The outer cells differentiate into phellem (cork) while the inner cells differentiate into phelloderm (secondary cortex).\n\n\u26a1 **Detailed Anatomical Explanation**:\nPhellogen, phellem, and phelloderm are collectively designated as periderm.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Phellogen cuts cork outwards and phelloderm inwards.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0064"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0064"],
     code: "PA0064"
   },
   {
@@ -999,7 +999,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Each annual ring corresponds to one year's seasonal growth. Counting annual rings in a cut cross-section allows estimation of the tree's age.\n\n\u26a1 **Detailed Anatomical Explanation**:\nDendrochronology (Greek *dendron*: tree, *chronos*: time, *logos*: study) determines tree age and past environmental climates using growth ring patterns.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 1 annual ring = 1 springwood band + 1 autumnwood band.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0065"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0065"],
     code: "PA0065"
   },
   {
@@ -1018,7 +1018,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Annual rings seen in a cut stem give an estimate of the age of the tree.\n\n\u26a1 **Detailed Anatomical Explanation**:\nEach year, the cambium produces two concentric rings: early wood (spring) and late wood (autumn). Together, these form one annual growth ring, so 20 rings indicate a 20-year-old tree.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Log diameter varies with growth rate, but annual ring count strictly reflects age.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0066"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0066"],
     code: "PA0066"
   },
   {
@@ -1037,7 +1037,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The activity of vascular cambium produces secondary xylem towards the inside. Variations in cambial activity across spring and autumn produce light and dark concentric bands of secondary xylem, forming annual rings.\n\n\u26a1 **Detailed Anatomical Explanation**:\nWood is botanically defined as secondary xylem. Thus, annual rings represent successive increments of secondary xylem.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Wood = Secondary xylem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0068"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0068"],
     code: "PA0068"
   },
   {
@@ -1056,7 +1056,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Annual rings are formed by the cyclical seasonal activity of the vascular cambium, which is located inside the stele (intrastelar cambium).\n\n\u26a1 **Detailed Anatomical Explanation**:\nCork cambium (phellogen) operates outside the stele (extrastelar cambium) and forms periderm, not annual rings.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Intrastelar cambium = Vascular cambium -> Annual rings.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0070"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0070"],
     code: "PA0070"
   },
   {
@@ -1075,7 +1075,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In old trees, the greater part of secondary xylem is dark brown due to deposition of organic compounds (tannins, resins, oils). This region comprises dead elements and is termed heartwood.\n\n\u26a1 **Detailed Anatomical Explanation**:\nWhile the thickness of functional sapwood remains relatively constant (needed for water conduction), older innermost sapwood layers continuously convert into non-functional heartwood, causing heartwood volume to expand rapidly.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Heartwood increases with age; sapwood thickness remains approximately stable.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0071"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0071"],
     code: "PA0071"
   },
   {
@@ -1094,7 +1094,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Lenticels permit the exchange of gases between the outer atmosphere and the internal tissue of woody stems and roots.\n\n\u26a1 **Detailed Anatomical Explanation**:\nLenticels develop in periderm of woody stems, old roots, and some pericarp fruit surfaces (e.g. apple, pear). Leaves lack periderm and secondary growth, possessing stomata exclusively for gas exchange.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Leaves bear stomata; periderm-covered woody organs bear lenticels.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0072"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0072"],
     code: "PA0072"
   },
   {
@@ -1113,7 +1113,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The epidermis is the outermost protective covering of the primary plant body. When the epidermis ruptures during secondary growth, it is replaced by cork (phellem).\n\n\u26a1 **Detailed Anatomical Explanation**:\nEpidermis serves as the primary external protective layer, while cork (with suberised walls) serves as the secondary external protective layer.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Epidermis (primary) + Cork (secondary) = External protective boundary.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0073"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0073"],
     code: "PA0073"
   },
   {
@@ -1132,7 +1132,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Heartwood does not conduct water but provides mechanical support to the stem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nHeartwood (duramen) contains heavily lignified, dead secondary xylem elements tightly plugged with tyloses and impregnated with hard resins, tannins, and gums, making it highly durable and mechanically resistant.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Heartwood provides mechanical strength; sapwood provides water conduction.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0074"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0074"],
     code: "PA0074"
   },
   {
@@ -1151,7 +1151,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: As the stem continues to increase in girth due to the activity of vascular cambium, the outer cortical and epidermis layers get broken and need to be replaced. Hence, another meristematic tissue called cork cambium or phellogen develops, usually in the cortex region.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPhellogen is located in the cortex (outside the stele); hence its activity constitutes extrastelar secondary growth.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Vascular cambium = Intrastelar secondary growth; Cork cambium = Extrastelar secondary growth.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0076"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0076"],
     code: "PA0076"
   },
   {
@@ -1170,7 +1170,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Secondary growth occurs in gymnosperms and dicotyledonous angiosperms due to the presence of open vascular bundles with lateral meristems (cambium).\n\n\u26a1 **Detailed Anatomical Explanation**:\nMonocots have closed vascular bundles (lacking cambium) and normally do not exhibit secondary growth.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Gymnosperms form extensive secondary xylem (wood) just like dicot trees.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0078"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0078"],
     code: "PA0078"
   },
   {
@@ -1189,7 +1189,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The cells of medullary rays adjoining the intrafascicular cambium become meristematic and form the interfascicular cambium. This process of regaining division capacity by living permanent cells is dedifferentiation.\n\n\u26a1 **Detailed Anatomical Explanation**:\nMedullary rays are living parenchymatous permanent cells. When they dedifferentiate, they yield the secondary meristematic interfascicular cambium.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Intrafascicular cambium is primary in origin; interfascicular cambium is secondary in origin via dedifferentiation.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0080"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0080"],
     code: "PA0080"
   },
   {
@@ -1208,7 +1208,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The primary and secondary phloem get gradually crushed due to the continued formation and accumulation of secondary xylem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause secondary xylem expands centrifugally from within, outward centrifugal pressure pushes the primary and older secondary phloem against the resistant pericycle and cortex, compressing and degenerating them.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Primary xylem remains more or less intact at the centre, but primary phloem gets crushed outwards.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0081"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0081"],
     code: "PA0081"
   },
   {
@@ -1227,7 +1227,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In the spring season, cambium is very active and produces a large number of xylary elements having vessels with wider cavities.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn winter/autumn, the cambium is less active and forms fewer xylary elements with narrow vessels.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Spring season -> High vascular cambium activity -> Springwood/Earlywood.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0082"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0082"],
     code: "PA0082"
   },
   {
@@ -1246,7 +1246,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sapwood (alburnum) is the peripheral region of secondary xylem that conducts water and minerals from root to leaf.\n\n\u26a1 **Detailed Anatomical Explanation**:\nHeartwood lumina are occluded by tyloses and secondary resins; primary xylem is small and inactive. Thus, sapwood conducts essentially all water.\n\n\ud83d\udca1 **Examiner Pro-Tip**: If heartwood is removed or hollowed out, the tree survives because sapwood conducts sap.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0083"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0083"],
     code: "PA0083"
   },
   {
@@ -1265,7 +1265,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Vascular cambium contains two distinct types of meristematic initials: fusiform initials and ray initials.\n\n\u26a1 **Detailed Anatomical Explanation**:\n- **Fusiform initials**: Elongated, vertically oriented spindle-shaped cells that produce axial secondary elements (vessels, tracheids, sieve tubes, fibres, and axial parenchyma).\n- **Ray initials**: Isodiametric cells that produce horizontal radial vascular rays (medullary rays).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Fusiform -> Axial system; Ray initials -> Radial system.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0084"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0084"],
     code: "PA0084"
   },
   {
@@ -1284,7 +1284,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cork cambium (phellogen) arises by dedifferentiation of permanent cortical or epidermal cells during secondary growth.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause it originates exclusively from previously differentiated permanent tissues, cork cambium is **always a secondary meristem**.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Vascular cambium in dicot stem is partly primary and partly secondary, but cork cambium is 100% secondary.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0085"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0085"],
     code: "PA0085"
   },
   {
@@ -1303,7 +1303,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phellogen usually develops in the outer cortical region of dicot stems.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn typical dicot stems, collenchymatous hypodermal cells (outer cortex) dedifferentiate to initiate the phellogen cylinder.\n\n\ud83d\udca1 **Examiner Pro-Tip**: In roots, phellogen originates from pericycle; in stems, from hypodermis / outer cortex.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0086"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0086"],
     code: "PA0086"
   },
   {
@@ -1322,7 +1322,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cork cells have suberin deposited in their walls, which makes them impervious to water and gases.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPhelloderm consists of thin-walled living parenchymatous cells; phellem (cork) consists of dead cells packed with suberin.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Lignin -> Sclerenchyma; Pectin -> Collenchyma; Suberin -> Cork & Casparian strips.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0087"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0087"],
     code: "PA0087"
   },
   {
@@ -1341,7 +1341,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phellogen is the cork cambium, a lateral meristematic tissue a couple of layers thick.\n\n\u26a1 **Detailed Anatomical Explanation**:\n- Phellem (cork) = Dead permanent tissue\n- Phellogen = Cork cambium (meristematic)\n- Phelloderm = Secondary cortex (living permanent tissue)\n- Periderm = Phellem + Phellogen + Phelloderm.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 'Gen' in Phellogen denotes generator/meristem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0088"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0088"],
     code: "PA0088"
   },
   {
@@ -1360,7 +1360,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In coastal areas and tropical rainforests, the climate remains uniform throughout the year. As a result, the cambium remains uniformly active and distinct early and late wood bands are not formed.\n\n\u26a1 **Detailed Anatomical Explanation**:\nDistinct annual rings require sharp seasonal contrast (as in temperate regions).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Temperate plants = Sharp annual rings; Coastal/tropical plants = Inconspicuous/no annual rings.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0089"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0089"],
     code: "PA0089"
   },
   {
@@ -1379,7 +1379,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Secondary growth is mediated by two lateral meristems: the vascular cambium (in the vascular cylinder) and the cork cambium/phellogen (in the cortical region).\n\n\u26a1 **Detailed Anatomical Explanation**:\nVascular cambium produces secondary vascular tissues (xylem and phloem); cork cambium produces periderm (cork and phelloderm) to heal outer cortical tears.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Both intrastelar and extrastelar secondary growth occur simultaneously.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0090"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0090"],
     code: "PA0090"
   },
   {
@@ -1398,7 +1398,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In older wood, adjacent xylem parenchyma cells send balloon-like bladder protrusions through pits into the vessel lumens, known as **tyloses**.\n\n\u26a1 **Detailed Anatomical Explanation**:\nTyloses plug the vessel lumen and store tannins and resins, rendering heartwood non-conducting and rot-resistant.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Tyloses characterize heartwood and block fungal invasion.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0091"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0091"],
     code: "PA0091"
   },
   {
@@ -1417,7 +1417,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ray initials of the vascular cambium divide to form secondary medullary rays, which consist of radial rows of parenchymatous cells.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThese radial parenchyma bands conduct water, nutrients, and gases radially across xylem and phloem cylinders.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Fusiform initials -> Axial elements; Ray initials -> Radial parenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0092"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0092"],
     code: "PA0092"
   },
   {
@@ -1436,7 +1436,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cork cells have walls heavily encrusted with suberin, making them impervious to water and gases.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThis suberin-rich impermeable structure ensures that bottle stoppers made from cork (*Quercus suber*) create an airtight seal preventing liquid leakage and oxidation.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Suberin provides airtight impermeability.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0093"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0093"],
     code: "PA0093"
   },
   {
@@ -1455,7 +1455,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocotyledons, the vascular bundles have no cambium present in them. Hence, since they do not form secondary tissues they are referred to as closed.\n\n\u26a1 **Detailed Anatomical Explanation**:\nWithout fascicular cambium between xylem and phloem, monocot stems cannot form a continuous vascular cambial ring.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Closed bundles = Absence of cambium = No normal secondary growth.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0094"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0094"],
     code: "PA0094"
   },
   {
@@ -1474,7 +1474,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gymnosperms lack xylem vessels. In transverse section, vessels appear as open pores.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause gymnosperm secondary xylem consists of 90-95% tracheids and completely lacks vessels, it is called **non-porous wood** (softwood).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Angiosperm wood = Porous (has vessels); Gymnosperm wood = Non-porous (lacks vessels).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0095"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0095"],
     code: "PA0095"
   },
   {
@@ -1493,7 +1493,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Angiosperm wood containing vessels is referred to as porous wood, because the cut lumina of vessels resemble circular pores.\n\n\u26a1 **Detailed Anatomical Explanation**:\nDepending on vessel distribution, porous wood is classified as ring-porous or diffuse-porous.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Presence of vessels = Porous wood.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0096"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0096"],
     code: "PA0096"
   },
   {
@@ -1512,7 +1512,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The tissues involved in secondary growth are the two lateral meristems: vascular cambium and cork cambium.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPrimary growth increases plant length (via apical/intercalary meristems), while secondary growth increases plant girth through new tissues cut off by lateral meristems.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Apical/Intercalary = Length; Lateral = Girth (Secondary growth).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0098"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0098"],
     code: "PA0098"
   },
   {
@@ -1531,7 +1531,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The two kinds of woods that appear as alternate concentric rings, constitute an annual ring: spring wood (early wood) and autumn wood (late wood).\n\n\u26a1 **Detailed Anatomical Explanation**:\nSpringwood is lighter with wider vessels; autumnwood is darker with narrow vessels.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 1 Annual Ring = 1 Springwood band + 1 Autumnwood band.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0099"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0099"],
     code: "PA0099"
   },
   {
@@ -1550,7 +1550,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot stems, the cells of cambium present between primary xylem and primary phloem within the vascular bundle is the intrafascicular cambium.\n\n\u26a1 **Detailed Anatomical Explanation**:\nInterfascicular cambium is situated in between two adjacent vascular bundles (derived from medullary rays).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Intra = Inside bundle; Inter = Between bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0100"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0100"],
     code: "PA0100"
   },
   {
@@ -1569,7 +1569,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Although monocots typically lack secondary growth, certain arborescent monocot genera such as *Yucca*, *Dracaena*, and *Agave* exhibit anomalous secondary growth.\n\n\u26a1 **Detailed Anatomical Explanation**:\nA secondary cambial ring develops in the cortex/pericycle that produces secondary vascular bundles embedded in ground parenchyma.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Classic textbook examples: *Dracaena* and *Yucca*.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0101"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0101"],
     code: "PA0101"
   },
   {
@@ -1588,7 +1588,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Secondary xylem (wood) formed by vascular cambium contains abundant vessels, tracheids, xylem parenchyma, and rich wood fibres (libriform fibres).\n\n\u26a1 **Detailed Anatomical Explanation**:\nPrimary xylem (protoxylem and metaxylem) contains relatively few or no fibres.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Commercial timber/wood is secondary xylem, valued for its abundant lignified fibres and vessels.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0102"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0102"],
     code: "PA0102"
   },
   {
@@ -1607,7 +1607,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Pith is large and well developed in monocotyledonous roots, whereas it is small or inconspicuous in dicotyledonous roots.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBoth roots have closed radial bundles; scattered bundles occur only in monocot stems.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Monocot root = Large pith + Polyarch xylem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0104"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0104"],
     code: "PA0104"
   },
   {
@@ -1626,7 +1626,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In winter/autumn, the cambium is less active and forms fewer xylary elements that have narrow vessels, and this wood is called autumn wood or late wood.\n\n\u26a1 **Detailed Anatomical Explanation**:\nSpringwood has wider lumens with lower density; autumnwood has narrow lumens with thicker walls and higher density.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Springwood = Broad vessels; Autumnwood = Narrow vessels.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0106"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0106"],
     code: "PA0106"
   },
   {
@@ -1645,7 +1645,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The cambial ring cuts off new cells towards both inside and outside. The cells cut off towards pith mature into secondary xylem and those cut off towards periphery mature into secondary phloem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPrimary vascular tissues are produced by procambium during primary development; vascular cambium produces only secondary vascular tissues.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Inside = Secondary xylem; Outside = Secondary phloem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0108"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0108"],
     code: "PA0108"
   },
   {
@@ -1664,7 +1664,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot stems, vascular bundles are arranged in a regular ring, allowing selective removal of phloem (bark) without damaging xylem. In monocots, vascular bundles are scattered throughout ground tissue.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause vascular bundles are scattered irregularly throughout the ground parenchyma (atactostele), a ring girdle cannot peel off phloem alone without completely severing the internal xylem channels.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Girdling experiment fails in monocots because phloem is scattered throughout the stem cross-section.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0109"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0109"],
     code: "PA0109"
   },
   {
@@ -1683,7 +1683,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A characteristic feature of the dicotyledonous stem is the arrangement of vascular bundles in a ring. Vascular bundles are conjoint, collateral, open, and with endarch protoxylem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThis ring arrangement of conjoint collateral open bundles with central pith is termed a **eustele**.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Eustele = Dicot stem; Atactostele = Monocot stem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0254"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0254"],
     code: "PA0254"
   },
   {
@@ -1702,7 +1702,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: When xylem and phloem within a vascular bundle are arranged in an alternate manner on different radii, the arrangement is called radial.\n\n\u26a1 **Detailed Anatomical Explanation**:\nRadial vascular bundles are the universal diagnostic feature of roots of all vascular plants (pteridophytes, gymnosperms, dicots, and monocots).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Roots = Radial bundles; Stems & Leaves = Conjoint bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0111"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0111"],
     code: "PA0111"
   },
   {
@@ -1721,7 +1721,7 @@ export const ALLEN_ANATOMY_EXERCISE_1_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The tangential as well as radial walls of the endodermal cells have a deposition of water-impermeable, waxy material suberin in the form of Casparian strips.\n\n\u26a1 **Detailed Anatomical Explanation**:\nDiscovered by Robert Caspary, Casparian strips block apoplastic water flow, forcing water and solutes into the symplast to ensure selective uptake into the stele.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Casparian strips occur strictly in root endodermis.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0112"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-I (Conceptual Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0112"],
     code: "PA0112"
   }
 ];
@@ -1746,7 +1746,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A mature sieve tube element possesses a peripheral cytoplasm and a large vacuole but **lacks a nucleus**. Vessel elements also lack protoplasm and nucleus at functional maturity.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBoth vessel elements and sieve tube elements are enucleate at maturity to maximize unobstructed long-distance axial transport of sap.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Sieve tube elements are living without a nucleus (controlled by companion cell nucleus); vessel elements are dead without a nucleus.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0113"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0113"],
     code: "PA0113"
   },
   {
@@ -1765,7 +1765,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Secondary growth occurs in gymnosperms (*Pinus*) and dicotyledonous angiosperms (*Tectona grandis* / Teak).\n\n\u26a1 **Detailed Anatomical Explanation**:\n- Wheat and sugarcane are monocots (lack normal secondary growth).\n- Maiden hair fern and ferns are pteridophytes (lack secondary growth).\n- Teak (woody dicot) and Pine (coniferous gymnosperm) display prominent, perennial secondary growth.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dicot tree + Gymnosperm tree = Ideal experimental material for secondary growth.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0116"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0116"],
     code: "PA0116"
   },
   {
@@ -1784,7 +1784,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In root endodermis, certain cells opposite to the protoxylem elements remain thin-walled and unlignified, lacking Casparian strips. These are passage cells.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPassage cells permit the inward symplastic flow of water and absorbed mineral salts from cortex across the impermeable endodermis into pericycle and xylem vessels.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Passage cells = Root endodermis opposite protoxylem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0117"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0117"],
     code: "PA0117"
   },
   {
@@ -1803,7 +1803,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The meristem which occurs between mature tissues is known as intercalary meristem. They occur in grasses and regenerate parts removed by the grazing herbivores.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn monocot culms like sugarcane, intercalary meristems are located at the base of internodes and nodes. Varying local growth rates of these intercalary meristems lead to different internodal lengths.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Internode elongation in grasses is strictly mediated by intercalary meristem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0119"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0119"],
     code: "PA0119"
   },
   {
@@ -1822,7 +1822,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Barley (*Hordeum vulgare*) is a monocot plant. In monocot stems, vascular bundles are conjoint, collateral, closed, and scattered in ground tissue.\n\n\u26a1 **Detailed Anatomical Explanation**:\nBecause barley is a monocot, cambium is absent (closed) and bundles are distributed throughout the ground tissue (scattered/atactostele).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Barley/Wheat/Maize/Grass = Monocot stem = Closed and scattered.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0120"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0120"],
     code: "PA0120"
   },
   {
@@ -1841,7 +1841,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In an isobilateral (monocot) leaf, the mesophyll is not differentiated into palisade and spongy parenchyma.\n\n\u26a1 **Detailed Anatomical Explanation**:\n*Sorghum* (jowar) is a monocot grass with isobilateral leaves whose mesophyll consists uniformly of identical spongy chlorenchyma cells without palisade layers. Gram, mustard, and soybean are dicots with dorsiventral leaves containing distinct columnar palisade parenchyma.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Monocot grasses (Sorghum, Maize, Wheat) lack palisade parenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0121"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0121"],
     code: "PA0121"
   },
   {
@@ -1860,7 +1860,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Plants growing submerged or floating in water (hydrophytes) do not face water deficit or intense transpiration, and water buoyancy provides physical support.\n\n\u26a1 **Detailed Anatomical Explanation**:\nConsequently, hydrophytes show severe anatomical reduction in xylem conducting vessels, mechanical sclerenchyma fibres, and epidermal cuticle layer.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Maximum aerenchyma + minimal vascular/mechanical tissues = Hydrophytes.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0122"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0122"],
     code: "PA0122"
   },
   {
@@ -1879,7 +1879,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Even after extensive secondary growth, primary xylem remains intact in the central axis of both stem and root.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIn an old dicot stem, primary xylem is **endarch** (protoxylem points inwards toward the centre). In an old dicot root, primary xylem is **exarch** (protoxylem points outwards towards the periphery).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Secondary xylem looks virtually identical; only the position of the persistent protoxylem definitively distinguishes old root from stem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0123"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0123"],
     code: "PA0123"
   },
   {
@@ -1898,7 +1898,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Apical meristems and intercalary meristems are primary meristems because they appear early in the life of a plant and contribute to the formation of the primary plant body.\n\n\u26a1 **Detailed Anatomical Explanation**:\nLateral meristems occur on the lateral sides of stems and roots and divide periclinally to increase girth (e.g. fascicular cambium, interfascicular cambium, and cork cambium/phellogen).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Intercalary meristem increases stem length, not girth.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0124"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0124"],
     code: "PA0124"
   },
   {
@@ -1917,7 +1917,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gymnosperms lack vessels in their xylem. Tracheids are the chief water-transporting elements.\n\n\u26a1 **Detailed Anatomical Explanation**:\nTracheids constitute up to 95% of gymnosperm wood and perform dual functions: water conduction and mechanical support.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Gymnosperms = Tracheids only; Angiosperms = Vessels + Tracheids.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0125"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0125"],
     code: "PA0125"
   },
   {
@@ -1936,7 +1936,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Heartwood comprises dead elements with highly lignified walls and does not conduct water. Sapwood is living/functional and actively involved in water conduction.\n\n\u26a1 **Detailed Anatomical Explanation**:\nTannins, resins, and oils deposited in heartwood make it resistant to microbes and pests (not susceptible).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Dead + non-conducting + durable = Heartwood.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0126"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0126"],
     code: "PA0126"
   },
   {
@@ -1955,7 +1955,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phloem transports food materials, usually from leaves to other parts of the plant. Sieve elements (sieve tube elements in angiosperms, sieve cells in gymnosperms) form the continuous conduits for organic translocation.\n\n\u26a1 **Detailed Anatomical Explanation**:\nCompanion cells aid sieve tubes metabolically, but sucrose translocation occurs directly through the perforated sieve tube elements.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Food transport = Sieve elements.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0127"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0127"],
     code: "PA0127"
   },
   {
@@ -1974,7 +1974,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: All tissues except epidermis and vascular bundles constitute the ground or fundamental tissue.\n\n\u26a1 **Detailed Anatomical Explanation**:\nGround tissue includes the cortex, endodermis, pericycle, medullary rays, and pith, consisting of simple tissues such as parenchyma, collenchyma, and sclerenchyma.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Plant body = Epidermal system + Ground system + Vascular system.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0129"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0129"],
     code: "PA0129"
   },
   {
@@ -1993,7 +1993,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phellogen, phellem, and phelloderm are collectively known as **periderm**.\n\n\u26a1 **Detailed Anatomical Explanation**:\n- Phellogen = Cork cambium\n- Phellem = Cork\n- Phelloderm = Secondary cortex\nTogether they constitute the secondary protective periderm.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Periderm = Phellem + Phellogen + Phelloderm.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0130"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0130"],
     code: "PA0130"
   },
   {
@@ -2012,7 +2012,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicotyledonous stems, cambium is present between phloem and xylem. Such vascular bundles because of the presence of cambium possess the ability to form secondary xylem and phloem tissues, and hence are called open vascular bundles.\n\n\u26a1 **Detailed Anatomical Explanation**:\nClosed bundles (in monocots) lack cambium and cannot produce secondary tissues.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Open = Has cambium = Capable of secondary growth.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0132"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0132"],
     code: "PA0132"
   },
   {
@@ -2031,7 +2031,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gymnosperm wood is commercially known as softwood because it lacks both vessels and thick-walled xylem fibres (libriform fibres).\n\n\u26a1 **Detailed Anatomical Explanation**:\nHardwood (dicot wood) contains dense, thick-walled sclerenchymatous xylem fibres that give physical hardness. Gymnosperm secondary xylem is comprised almost exclusively of tracheids.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Softwood = Gymnosperm wood (no xylem fibres, no vessels); Hardwood = Dicot angiosperm wood.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0134"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0134"],
     code: "PA0134"
   },
   {
@@ -2050,7 +2050,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Water-containing cavities are present within the vascular bundles of monocot stems such as maize (*Zea mays*).\n\n\u26a1 **Detailed Anatomical Explanation**:\nDuring stem elongation, rapid mechanical stretching ruptures the inner protoxylem vessels, forming a conspicuous lysigenous water cavity adjacent to remaining annular/spiral tracheids.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Maize = Monocot stem = Lysigenous water cavity.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0135"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0135"],
     code: "PA0135"
   },
   {
@@ -2069,7 +2069,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocotyledons, the vascular bundles have no cambium present in them. Hence, since they do not form secondary tissues they are referred to as closed.\n\n\u26a1 **Detailed Anatomical Explanation**:\nIntrafascicular cambium is missing; xylem and phloem are in direct physical contact.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Closed = No cambium.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0136"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0136"],
     code: "PA0136"
   },
   {
@@ -2088,7 +2088,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The companion cells are specialized parenchymatous cells, which are closely associated with sieve tube elements. The sieve tube elements and companion cells are connected by pit fields present between their common longitudinal walls.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThey are ontogenetically sister cells derived from the same cambial derivative.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Companion cells regulate sieve element loading and pressure gradients.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0137"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0137"],
     code: "PA0137"
   },
   {
@@ -2107,7 +2107,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Bottle cork is commercial cork obtained from the outer bark of *Quercus suber* (cork oak). It is produced by the activity of phellogen (cork cambium).\n\n\u26a1 **Detailed Anatomical Explanation**:\nPhellogen cells divide periclinally and differentiate centrifugally into phellem (cork).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Phellogen produces cork (phellem).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0138"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0138"],
     code: "PA0138"
   },
   {
@@ -2126,7 +2126,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In temperate trees, annual rings seen in a cut stem give an accurate estimate of the age of the tree.\n\n\u26a1 **Detailed Anatomical Explanation**:\nEach year, exactly one increment of springwood plus autumnwood is added by the vascular cambium.\n\n\ud83d\udca1 **Examiner Pro-Tip**: 1 Annual Ring = 1 year of secondary xylem growth.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0139"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0139"],
     code: "PA0139"
   },
   {
@@ -2145,7 +2145,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The cells of medullary rays, adjoining these intrafascicular cambium, become meristematic and form the interfascicular cambium.\n\n\u26a1 **Detailed Anatomical Explanation**:\nJoining with intrafascicular cambium, it completes the continuous circular vascular cambium ring in dicot stems.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Interfascicular cambium originates from medullary ray parenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0140"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0140"],
     code: "PA0140"
   },
   {
@@ -2164,7 +2164,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Lenticels permit the exchange of gases between the outer atmosphere and the internal tissue of the stem.\n\n\u26a1 **Detailed Anatomical Explanation**:\nLens-shaped aerating pores formed in the periderm of woody stems allow oxygen uptake for living internal tissues.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Primary function of lenticels is gaseous exchange (though lenticular transpiration also occurs incidentally).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0141"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0141"],
     code: "PA0141"
   },
   {
@@ -2183,7 +2183,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In an old dicot stem, primary xylem is endarch with protoxylem facing the central pith. In an old dicot root, primary xylem is exarch with protoxylem facing outwards toward the periphery.\n\n\u26a1 **Detailed Anatomical Explanation**:\nWhile secondary tissues and cortex are heavily altered or sloughed off, primary protoxylem remains distinct in position.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Protoxylem position is the foolproof anatomical marker.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0143"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0143"],
     code: "PA0143"
   },
   {
@@ -2202,7 +2202,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Both tracheids and vessels lack nuclei and have lignified walls. However, vessels have perforated end walls, whereas tracheids are **imperforate**.\n\n\u26a1 **Detailed Anatomical Explanation**:\nTracheids retain intact primary wall pit membranes at their tapering ends, conducting water laterally through bordered pits.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Tracheids = Imperforate; Vessels = Perforated.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0144"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0144"],
     code: "PA0144"
   },
   {
@@ -2221,7 +2221,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Monocotyledonous roots have radial closed vascular bundles without cambium and do not undergo secondary growth.\n\n\u26a1 **Detailed Anatomical Explanation**:\nScattered vascular bundles occur in monocot *stems*, not roots. Monocot roots possess a ring of radial bundles devoid of cambium.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Monocot root = Vasculature without cambium (closed).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0145"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0145"],
     code: "PA0145"
   },
   {
@@ -2240,7 +2240,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Girdling removes bark up to the cambium layer, excising the phloem while leaving xylem intact. Downward translocation of organic food from photosynthetic leaves to roots is halted.\n\n\u26a1 **Detailed Anatomical Explanation**:\nRoots are non-photosynthetic and depend on phloem transport for sustenance. When carbohydrate supply is cut off, roots starve and die first; water transport ceases, and only then does the shoot wither.\n\n\ud83d\udca1 **Examiner Pro-Tip**: In ring girdling, the root dies first due to food starvation.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0146"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0146"],
     code: "PA0146"
   },
   {
@@ -2259,7 +2259,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocotyledons, the vascular bundles have no cambium present in them. Hence, since they do not form secondary tissues they are referred to as closed.\n\n\u26a1 **Detailed Anatomical Explanation**:\nOpen bundles contain meristematic cambium capable of secondary division; closed bundles lack cambium.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Closed = Absence of cambium.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0147"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0147"],
     code: "PA0147"
   },
   {
@@ -2278,7 +2278,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sequence of tissues in an old woody dicot stem from periphery (outside) to centre (inside).\n\n\u26a1 **Detailed Anatomical Explanation**:\n1. Outermost: **(d) Phellem** (cork)\n2. Just beneath phellem & phellogen: **(a) Secondary cortex** (phelloderm)\n3. Inside pericycle: **(c) Secondary phloem**\n4. Inside vascular cambium: **(b) Wood** (secondary xylem).\nCorrect order from outer to inner side is **(d), (a), (c), (b)**.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Phellem -> Phelloderm -> Secondary phloem -> Secondary xylem (wood).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0148"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0148"],
     code: "PA0148"
   },
   {
@@ -2297,7 +2297,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sometimes, a few epidermal cells, in the vicinity of the guard cells become specialised in their shape and size and are known as **subsidiary cells**.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThe stomatal aperture, guard cells and the surrounding subsidiary cells are together called **stomatal apparatus**.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Subsidiary cells act as ion and water reservoirs during stomatal opening and closing.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0149"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0149"],
     code: "PA0149"
   },
   {
@@ -2316,7 +2316,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cortex consists of multiple layers of cells extending from below the epidermis to the innermost boundary called endodermis (or extending from epidermis to stele).\n\n\u26a1 **Detailed Anatomical Explanation**:\nAll tissues internal to endodermis (pericycle, vascular bundles, pith) constitute the stele. Hence cortex lies between the epidermis and the stele.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Cortex lies between epidermis and stele.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0150"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0150"],
     code: "PA0150"
   },
   {
@@ -2335,7 +2335,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In older stems, xylem parenchyma cells send tracheal ingrowths (bladder-like balloon protrusions) through pits into adjacent vessel lumens.\n\n\u26a1 **Detailed Anatomical Explanation**:\nThese balloon-shaped structures are called **tyloses**. They occlude vessels in heartwood and block ascent of sap (they do NOT assist ascent of sap).\n\n\ud83d\udca1 **Examiner Pro-Tip**: Tyloses originate from xylem parenchyma and characterize heartwood.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0151"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0151"],
     code: "PA0151"
   },
   {
@@ -2354,7 +2354,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The vascular cambium normally gives rise to secondary xylem towards the inside and secondary phloem towards the outside.\n\n\u26a1 **Detailed Anatomical Explanation**:\nPeriderm and phelloderm are produced by cork cambium (phellogen); primary phloem is produced by procambium.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Vascular cambium -> Secondary xylem (wood) + Secondary phloem (bast).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0153"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0153"],
     code: "PA0153"
   },
   {
@@ -2373,7 +2373,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phellem (cork) consists of dead cells whose walls are heavily suberised and impervious to water.\n\n\u26a1 **Detailed Anatomical Explanation**:\nCollenchyma, phloem (sieve tubes, companion cells, parenchyma), and xylem parenchyma all possess active living protoplasm.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Phellem = Cork = Dead.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0154"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0154"],
     code: "PA0154"
   },
   {
@@ -2392,7 +2392,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Heartwood does NOT conduct water. It provides mechanical support to the stem. Water conduction is carried out by sapwood.\n\n\u26a1 **Detailed Anatomical Explanation**:\nDue to deposition of tannins, resins, oils, gums, and tyloses, heartwood vessels are occluded and non-functional.\n\n\ud83d\udca1 **Examiner Pro-Tip**: Statement (2) is false because heartwood has zero water conduction.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0155"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0155"],
     code: "PA0155"
   },
   {
@@ -2411,7 +2411,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In grasses (monocots/Gramineae), the guard cells are dumb-bell shaped, whereas in dicots they are kidney or bean-shaped.\n\u26a1 **Detailed Anatomical Explanation**: The dumb-bell shaped guard cells have narrow, thickened middle portions and bulbous, thin-walled ends. When turgor increases in the bulbous ends, they expand and pull the middle thickened portions apart, widening the stomatal pore.\n\ud83d\udca1 **Examiner Pro-Tip**: Dumb-bell shaped guard cells are characteristic of Poaceae (grasses, wheat, maize, sugarcane, bamboo).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0156"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0156"],
     code: "PA0156"
   },
   {
@@ -2430,7 +2430,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The vascular cambium is the lateral meristem responsible for producing secondary vascular tissues\u2014secondary xylem towards the inner side (centripetally) and secondary phloem towards the outer side (centrifugally).\n\u26a1 **Detailed Anatomical Explanation**: The cambial ring becomes active and cuts off cells on both sides. The cells cut off towards the pitch mature into secondary xylem (wood), while those cut off towards the periphery mature into secondary phloem (bast).\n\ud83d\udca1 **Examiner Pro-Tip**: The vascular cambium is usually much more active on the inner side than on the outer; hence secondary xylem is formed 8\u201310 times more rapidly than secondary phloem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0157"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0157"],
     code: "PA0157"
   },
   {
@@ -2449,7 +2449,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Casparian strips are bands of suberin deposition present on the radial and tangential walls of endodermal cells in roots.\n\u26a1 **Detailed Anatomical Explanation**: Suberin is an impervious, waxy substance that blocks the apoplastic movement of water and dissolved minerals across the endodermis. As a result, all water and solutes must cross the plasma membrane of endodermal cells (symplastic pathway), allowing the root to regulate what enters the xylem.\n\ud83d\udca1 **Examiner Pro-Tip**: Endodermis acts as the biological 'checkpoint' or 'traffic control' of the root due to Casparian strips.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0158"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0158"],
     code: "PA0158"
   },
   {
@@ -2468,7 +2468,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Monocotyledons (such as grasses) do not possess vascular cambium or cork cambium in their stems; their vascular bundles are closed and scattered, showing little or no secondary growth.\n\u26a1 **Detailed Anatomical Explanation**: Conifers, cycads (gymnosperms), and deciduous angiosperms (dicots) have open vascular bundles with lateral meristems (vascular cambium and phellogen) that undergo extensive secondary growth in girth.\n\ud83d\udca1 **Examiner Pro-Tip**: Grasses increase in length primarily by apical and intercalary meristems, without secondary vascular cambial activity.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0159"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0159"],
     code: "PA0159"
   },
   {
@@ -2487,7 +2487,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: As stated in NCERT Biology: 'Xylem is associated with translocation of mainly water, mineral salts, some organic nitrogen and hormones, from roots to the aerial parts of the plants.'\n\u26a1 **Detailed Anatomical Explanation**: Historically xylem was thought to conduct only sap (water + minerals), but analysis of xylem exudate shows significant amounts of amino acids, amides, and phytohormones (such as cytokinins and ABA synthesized in roots) moving upwards.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT verbatim line tested repeatedly in NEET.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0242"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0242"],
     code: "PA0242"
   },
   {
@@ -2506,7 +2506,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Bulliform or motor cells on the adaxial epidermis of grass leaves become flaccid due to water loss under water stress, causing the leaf margin to roll or curl inwards.\n\u26a1 **Detailed Anatomical Explanation**: When bulliform cells absorb water, they become turgid and the leaf surface is unfolded/flat. When they lose water due to drought/heat, they lose turgidity (become flaccid), curling the leaf inwards to minimize the exposed surface area and reduce transpiration.\n\ud83d\udca1 **Examiner Pro-Tip**: Bulliform cells = large, empty, thin-walled, colourless cells along the veins on the adaxial (upper) epidermis of monocot/grass leaves.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0243"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0243"],
     code: "PA0243"
   },
   {
@@ -2525,7 +2525,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Gymnosperms lack sieve tubes and companion cells; their phloem instead possesses albuminous cells (Strasburger cells) and sieve cells.\n\u26a1 **Detailed Anatomical Explanation**: In gymnosperms, sieve cells have unspecialized sieve areas distributed along their lateral walls rather than true end-wall sieve plates. Albuminous cells are modified phloem parenchyma cells associated with sieve cells, fulfilling the function performed by companion cells in angiosperms.\n\ud83d\udca1 **Examiner Pro-Tip**: Angiosperms = sieve tubes + companion cells. Gymnosperms/Pteridophytes = sieve cells + albuminous cells.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0244"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0244"],
     code: "PA0244"
   },
   {
@@ -2544,7 +2544,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Annual rings are prominent and distinct in trees of temperate and cold regions where climatic seasons are sharply differentiated. In tropical regions with uniform climate, annual rings are indistinct or absent.\n\u26a1 **Detailed Anatomical Explanation**: Statement (4) is incorrect because annual rings ARE prominent in temperate regions due to alternating favorable spring conditions (early wood, wide vessels, low density, light color) and harsh autumn/winter conditions (late wood, narrow vessels, high density, dark color).\n\ud83d\udca1 **Examiner Pro-Tip**: Read carefully: temperate trees have distinct annual rings; tropical trees near the equator do not show distinct rings.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0245"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0245"],
     code: "PA0245"
   },
   {
@@ -2563,7 +2563,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, the vascular cambium is completely secondary in origin. It originates from the conjunctive tissue located just below the phloem bundles and portions of pericycle tissue located opposite/above the protoxylem.\n\u26a1 **Detailed Anatomical Explanation**: Initially, this cambial strip forms a wavy, undulating ring. Later, as it cuts off secondary xylem faster beneath the phloem, the wavy ring becomes circular.\n\ud83d\udca1 **Examiner Pro-Tip**: Dicot stem cambium is partly primary (intrafascicular) and partly secondary (interfascicular). Dicot root cambium is 100% secondary.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0246"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0246"],
     code: "PA0246"
   },
   {
@@ -2582,7 +2582,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Intercalary meristem occurs between mature tissues (at base of internodes/nodes in grasses) and regenerates parts removed by grazing herbivores.\n\u26a1 **Detailed Anatomical Explanation**: Herbivores eat the apical meristem at the tip of the grass shoot. The intercalary meristems located at the internode bases remain intact and rapidly divide, elongating the stem and regrowing the grass blade.\n\ud83d\udca1 **Examiner Pro-Tip**: Both apical and intercalary meristems are primary meristems because they appear early in life and contribute to the formation of the primary plant body.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0247"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0247"],
     code: "PA0247"
   },
   {
@@ -2601,7 +2601,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Monocot stems (e.g., maize) are characterized by scattered conjoint, collateral, closed vascular bundles surrounded by sclerenchymatous bundle sheaths, embedded in large parenchymatous ground tissue, with phloem parenchyma completely absent.\n\u26a1 **Detailed Anatomical Explanation**: In monocot stem, cortex, endodermis, pericycle, and pith are not differentiated\u2014the entire region inside hypodermis is ground tissue. Vascular bundles are smaller and crowded near the periphery, larger towards the center.\n\ud83d\udca1 **Examiner Pro-Tip**: 'Scattered bundles + phloem parenchyma absent + closed bundles' = diagnostic signature of Monocot Stem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0255"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0255"],
     code: "PA0255"
   },
   {
@@ -2620,7 +2620,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sapwood (alburnum) is the peripheral, outermost functional region of secondary xylem, not the innermost region. Heartwood (duramen) constitutes the central, innermost region.\n\u26a1 **Detailed Anatomical Explanation**: Statement (4) is false because innermost secondary xylem becomes non-functional heartwood due to lumen blockage by tyloses and impregnation with organic compounds. Sapwood is the peripheral lighter wood that actively conducts water.\n\ud83d\udca1 **Examiner Pro-Tip**: Innermost wood = Heartwood (central, dark, dead, non-conducting). Outermost wood = Sapwood (peripheral, light, living cells present, conducts water).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0256"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0256"],
     code: "PA0256"
   },
   {
@@ -2639,7 +2639,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Bulliform cells (motor cells) are large, vacuolated, empty, colourless cells occurring in longitudinal bands along veins on the adaxial (upper) epidermis of monocot/grass leaves.\n\u26a1 **Detailed Anatomical Explanation**: They regulate leaf rolling in response to water availability to limit transpiration loss during dry periods.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT definition. Turgid = leaf expands; Flaccid = leaf curls inward.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0257"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0257"],
     code: "PA0257"
   },
   {
@@ -2658,7 +2658,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cork cambium (phellogen) cuts off cork (phellem) on its outer side and secondary cortex (phelloderm) on its inner side.\n\u26a1 **Detailed Anatomical Explanation**: Statement (1) is incorrect because phelloderm (secondary cortex) is formed on the INNER side of the cork cambium, while phellem (cork) is formed on the outer side.\n\ud83d\udca1 **Examiner Pro-Tip**: Remember the spatial sequence: Outermost Phellem (cork) \u2190 Phellogen (cork cambium) \u2192 Innermost Phelloderm (secondary cortex).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0258"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0258"],
     code: "PA0258"
   },
   {
@@ -2677,7 +2677,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: \n\u2022 Meristematic tissue: actively dividing cells capable of mitotic multiplication \u2192 (ii)\n\u2022 Simple tissue: made of only one type of cells, similar in structure and function (parenchyma, collenchyma, sclerenchyma) \u2192 (iv)\n\u2022 Vascular/complex tissue: composed of more than one type of cells functioning as a unit (xylem, phloem) \u2192 (i)\n\u2022 Sclereids: dead sclerenchymatous cells with extremely thick lignified walls and narrow lumen \u2192 (iii)\n\u26a1 **Detailed Anatomical Explanation**: Matching gives (a)-(ii), (b)-(iv), (c)-(i), (d)-(iii), which corresponds to option (1).\n\ud83d\udca1 **Examiner Pro-Tip**: Identify the easiest match first (cells with active division = meristematic, so a -> ii), immediately isolating option 1!",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0259"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0259"],
     code: "PA0259"
   },
   {
@@ -2696,7 +2696,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**:\n\u2022 (a) Lenticels: lens-shaped openings in bark facilitating exchange of gases between atmosphere and internal tissues \u2192 (iii)\n\u2022 (b) Cork cambium: meristematic layer, also called Phellogen \u2192 (i)\n\u2022 (c) Secondary cortex: parenchymatous layer cut off on inner side of phellogen, also known as Phelloderm \u2192 (iv)\n\u2022 (d) Cork: cells formed on outer side of phellogen with suberized walls, called Phellem \u2192 (ii)\n\u26a1 **Detailed Anatomical Explanation**: Correct combination is (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii), which is option (2).\n\ud83d\udca1 **Examiner Pro-Tip**: Periderm = Phellem (cork) + Phellogen (cork cambium) + Phelloderm (secondary cortex).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0260"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0260"],
     code: "PA0260"
   },
   {
@@ -2715,7 +2715,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: During secondary growth in dicot stems, the cells of medullary rays adjoining the intrafascicular cambium become meristematic and form the interfascicular cambium, completing a continuous ring of vascular cambium.\n\u26a1 **Detailed Anatomical Explanation**: \n\u2022 (1) is incorrect: large colorless empty cells in grass leaves are bulliform cells, not subsidiary cells.\n\u2022 (2) is incorrect: cells surrounding vascular bundles in leaves form bundle sheath, not conjunctive tissue.\n\u2022 (3) is correct: cells of medullary rays become interfascicular cambium.\n\u2022 (4) is incorrect: loose cells rupturing epidermis are complementary cells forming lenticels, not spongy parenchyma.\n\ud83d\udca1 **Examiner Pro-Tip**: Cambial ring = Intrafascicular cambium + Interfascicular cambium (derived from medullary ray cells).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0261"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0261"],
     code: "PA0261"
   },
   {
@@ -2734,7 +2734,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In a transverse section of a young dicot stem, the anatomical layers arranged from outside to inside are:\n1. Epidermis (outermost protective layer)\n2. Cortex (hypodermis + cortical layers + endodermis)\n3. Pericycle (semilunar patches of sclerenchyma/parenchyma)\n4. Vascular bundles\n5. Pith (innermost central parenchymatous core)\n\u26a1 **Detailed Anatomical Explanation**: Hence, the sequence from outer to inner is C (Epidermis) \u2192 A (Cortex) \u2192 B (Pericycle) \u2192 D (Pith), which is C, A, B, D.\n\ud83d\udca1 **Examiner Pro-Tip**: Remember the anatomical sandwich: Epidermis \u2192 Cortex \u2192 Endodermis \u2192 Pericycle \u2192 Stele/Pith.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0279"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0279"],
     code: "PA0279"
   },
   {
@@ -2753,7 +2753,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: As the stem continues to increase in girth due to the activity of vascular cambium, the outer cortical and epidermis layers get broken. Phellogen (cork cambium) usually develops in the cortex (outer cortical region) to replace these broken outer layers.\n\u26a1 **Detailed Anatomical Explanation**: Phellogen is a couple of layers thick, made of narrow, thin-walled, nearly rectangular cells arising dedifferentiation of cortical parenchymatous cells.\n\ud83d\udca1 **Examiner Pro-Tip**: In dicot stem, phellogen develops in the cortex; in dicot roots, phellogen develops from the pericycle.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0280"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0280"],
     code: "PA0280"
   },
   {
@@ -2772,7 +2772,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Tracheary elements (vessels and tracheids) of xylem are the main conducting elements responsible for the long-distance transport of water and mineral salts in vascular plants.\n\u26a1 **Detailed Anatomical Explanation**: Sieve elements and companion cells transport organic food materials (photosynthates) in phloem. Among the choices, tracheids are the only xylem water-conducting elements listed.\n\ud83d\udca1 **Examiner Pro-Tip**: Tracheids and vessels are both tracheary elements; gymnosperms rely solely on tracheids, while angiosperms have both.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0281"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0281"],
     code: "PA0281"
   },
   {
@@ -2791,7 +2791,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In radial arrangement (roots), xylem and phloem occur in separate bundles on different radii, not together 'in a vascular bundle'. Thus statement (a) was regarded as technically flawed by NTA/examiners.\n\u26a1 **Detailed Anatomical Explanation**:\n\u2022 (b) Closed vascular bundles lack cambium (true).\n\u2022 (c) Open vascular bundles have cambium between xylem and phloem (true).\n\u2022 (d) Dicot stem vascular bundles have endarch protoxylem (true, protoxylem towards center).\n\u2022 (e) Monocot root has polyarch condition (>6 xylem bundles) (true).\nTherefore, statements (b), (c), (d), and (e) are unequivocally correct.\n\ud83d\udca1 **Examiner Pro-Tip**: In roots, xylem and phloem are arranged in alternate radius as separate distinct bundles, termed radial vascular bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0282"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0282"],
     code: "PA0282"
   },
   {
@@ -2810,7 +2810,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Spring wood (early wood) is formed during favorable spring conditions when the cambium is very active. It has wider vessels with wider cavities, is lighter in color, and has a lower density.\n\u26a1 **Detailed Anatomical Explanation**:\n\u2022 (a) Spring wood = early wood (True).\n\u2022 (b) Cambium produces xylem elements with wider vessels, not narrow vessels (False).\n\u2022 (c) It is lighter in color (True).\n\u2022 (d) Spring wood + autumn wood form annual rings (True).\n\u2022 (e) It has lower density compared to autumn wood (True).\nThus, (a), (c), (d), and (e) are correct.\n\ud83d\udca1 **Examiner Pro-Tip**: Autumn wood (late wood) = less active cambium, fewer xylary elements with narrow vessels, darker in color, higher density.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0283"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0283"],
     code: "PA0283"
   },
   {
@@ -2829,7 +2829,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cork cambium (phellogen) cuts off cells on both its inner and outer sides. Outer cells differentiate into phellem (cork) and inner cells differentiate into phelloderm (secondary cortex).\n\u26a1 **Detailed Anatomical Explanation**:\n\u2022 (1) is wrong because cork is impervious due to suberin, not tannins/resins.\n\u2022 (2) is wrong because it cuts cells on both sides.\n\u2022 (3) is correct: phellogen is active on both sides.\n\u2022 (4) is wrong because outer cells form phellem, while inner cells form phelloderm.\n\ud83d\udca1 **Examiner Pro-Tip**: Both vascular cambium and cork cambium are bifacial lateral meristems cutting derivatives on both sides.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0284"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0284"],
     code: "PA0284"
   },
   {
@@ -2848,7 +2848,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: During the formation of leaves and elongation of stem, particular cells left behind from the shoot apical meristem constitute the axillary bud.\n\u26a1 **Detailed Anatomical Explanation**: Axillary buds are present in the axils of leaves and are capable of developing into a branch or a flower. Because they originate as detached parts of the shoot apical meristem, their origin is derived from the apical meristem.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT line: 'During the formation of leaves and elongation of stem, some cells \u2018left behind\u2019 from shoot apical meristem, constitute the axillary bud.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0285"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0285"],
     code: "PA0285"
   },
   {
@@ -2867,7 +2867,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Collenchyma is a living mechanical tissue. Its cells possess living protoplasts and vacuolated cytoplasm; they are NOT dead.\n\u26a1 **Detailed Anatomical Explanation**: Sclerenchyma consists of dead cells without protoplasts. Collenchyma cells are living, with localized corner pectin, cellulose, and hemicellulose thickenings, providing tensile strength and flexibility to growing stems and petioles.\n\ud83d\udca1 **Examiner Pro-Tip**: Collenchyma = living mechanical tissue. Sclerenchyma = dead mechanical tissue.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0286"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0286"],
     code: "PA0286"
   },
   {
@@ -2886,7 +2886,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, the pericycle is the site of origin for lateral roots (endogenous origin) and gives rise to parts of the vascular cambium and the phellogen during secondary growth.\n\u26a1 **Detailed Anatomical Explanation**: Lateral roots arise endogenously from pericycle cells located opposite to protoxylem. The pericycle opposite protoxylem also dedifferentiates to produce the outer arcs of the vascular cambial ring.\n\ud83d\udca1 **Examiner Pro-Tip**: Pericycle has multiple crucial roles in roots: lateral root initiation + cork cambium formation + contribution to vascular cambium.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0287"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0287"],
     code: "PA0287"
   },
   {
@@ -2905,7 +2905,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sclereids are spherical, oval or cylindrical, highly thickened dead cells with very narrow cavities (lumen). They are commonly found in the fruit walls of nuts, pulp of fruits like guava, pear and sapota, seed coats of legumes, and leaves of tea.\n\u26a1 **Detailed Anatomical Explanation**: Sclereids provide extreme mechanical hardness and protection to nuts (e.g., walnut shell, coconut endocarp). Sclereid is the specific type of sclerenchyma found in fruit walls of nuts.\n\ud83d\udca1 **Examiner Pro-Tip**: Sclereids = stone cells / brachysclereids giving grittiness to pear/guava and hardness to nutshells.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0288"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0288"],
     code: "PA0288"
   },
   {
@@ -2924,7 +2924,7 @@ export const ALLEN_ANATOMY_EXERCISE_2_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Interfascicular cambium develops from the dedifferentiation of medullary ray cells located in the interfascicular space between two adjacent vascular bundles.\n\u26a1 **Detailed Anatomical Explanation**: The cambium present within a vascular bundle (between primary xylem and phloem) is intrafascicular cambium. When the medullary ray cells between two bundles become meristematic, they form interfascicular cambium, joining with intrafascicular cambium to complete a continuous ring.\n\ud83d\udca1 **Examiner Pro-Tip**: Intra = within the bundle. Inter = between two adjacent bundles.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0289"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-II (Previous Year Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0289"],
     code: "PA0289"
   }
 ];
@@ -2949,7 +2949,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The study of internal structure and organization of plants is called plant anatomy.\n\u26a1 **Detailed Anatomical Explanation**: Cytology is the study of individual cells, physiology studies plant function and metabolism, ecology deals with organism-environment interactions, and plant anatomy investigates internal tissue architecture and organization.\n\ud83d\udca1 **Examiner Pro-Tip**: Nehemiah Grew is regarded as the Father of Plant Anatomy.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0161"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0161"],
     code: "PA0161"
   },
   {
@@ -2968,7 +2968,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: A tissue is a group of cells having a common origin and usually performing a common function.\n\u26a1 **Detailed Anatomical Explanation**: Plant tissues are broadly classified into meristematic tissues (cells capable of active division) and permanent tissues (cells that have lost the ability to divide) based on whether the cells are capable of dividing.\n\ud83d\udca1 **Examiner Pro-Tip**: Verbatim NCERT definition of tissue from Chapter 6 introductory lines.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0162"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0162"],
     code: "PA0162"
   },
   {
@@ -2987,7 +2987,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In the embryonic stage, all cells are meristematic\u2014they possess continuous capacity for cell division and undifferentiated thin cellulosic walls with dense cytoplasm.\n\u26a1 **Detailed Anatomical Explanation**: Specialized permanent tissues such as parenchyma, collenchyma, and sclerenchyma appear later through cellular differentiation and maturation during organogenesis.\n\ud83d\udca1 **Examiner Pro-Tip**: Embryonic tissue = primary meristematic tissue (promeristem/eumeristem).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0163"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0163"],
     code: "PA0163"
   },
   {
@@ -3006,7 +3006,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Apical meristems occur at the growing apices of roots and shoots and produce primary tissues. Shoot apical meristem also gives rise to axillary buds present in leaf axils.\n\u26a1 **Detailed Anatomical Explanation**: Root apical meristem occupies the tip of a root, shoot apical meristem occupies the distantmost region of the stem axis, and axillary buds are derived from cells left behind from the shoot apical meristem.\n\ud83d\udca1 **Examiner Pro-Tip**: All three locations harbor apical meristematic cells responsible for primary elongation and branching.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0164"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0164"],
     code: "PA0164"
   },
   {
@@ -3025,7 +3025,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Intrafascicular cambium (cambium present within primary vascular bundles between primary xylem and primary phloem) is primary in origin because it originates directly from the procambium.\n\u26a1 **Detailed Anatomical Explanation**: Phellogen (cork cambium), vascular cambium of dicot roots, and interfascicular cambium in dicot stems are secondary meristems that develop by dedifferentiation of permanent tissues.\n\ud83d\udca1 **Examiner Pro-Tip**: In dicot stems, intrafascicular cambium is primary, but interfascicular cambium is secondary.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0165"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0165"],
     code: "PA0165"
   },
   {
@@ -3044,7 +3044,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Lateral meristems are cylindrical meristems oriented parallel to the long axis of organs that bring about an increase in girth (secondary growth). Fascicular vascular cambium, interfascicular cambium, and cork cambium (phellogen) are all lateral meristems.\n\u26a1 **Detailed Anatomical Explanation**: As NCERT notes: 'Fascicular vascular cambium, interfascicular cambium and cork-cambium are examples of lateral meristems. These are responsible for producing the secondary tissues.'\n\ud83d\udca1 **Examiner Pro-Tip**: All cylindrical meristems involved in secondary thickening are lateral meristems.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0166"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0166"],
     code: "PA0166"
   },
   {
@@ -3063,7 +3063,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Primary permanent tissues are differentiated from primary meristems during the development of the primary plant body. Parenchyma, collenchyma, and sclerenchyma are simple primary permanent tissues.\n\u26a1 **Detailed Anatomical Explanation**: Secondary permanent tissues arise later through the activity of secondary lateral meristems (e.g., secondary xylem, secondary phloem, phellem, phelloderm).\n\ud83d\udca1 **Examiner Pro-Tip**: Parenchyma, collenchyma, and sclerenchyma formed from apical/intercalary meristems are all primary permanent tissues.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0167"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0167"],
     code: "PA0167"
   },
   {
@@ -3082,7 +3082,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Parenchyma forms the major component within plant organs. The cells are generally isodiametric, may be closely packed or have small intercellular spaces, and perform photosynthesis, storage, and secretion.\n\u26a1 **Detailed Anatomical Explanation**: All statements are verbatim NCERT points describing parenchymatous tissue structure, arrangement, and physiological roles.\n\ud83d\udca1 **Examiner Pro-Tip**: Chlorenchyma (photosynthesis), aerenchyma (buoyancy), and storage parenchyma are key functional modifications.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0168"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0168"],
     code: "PA0168"
   },
   {
@@ -3101,7 +3101,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Collenchyma provides mechanical support to the growing parts of the plant such as young stem and petiole of a leaf.\n\u26a1 **Detailed Anatomical Explanation**: Because collenchyma cells are living with flexible pectin-cellulose thickenings, they offer tensile strength without restraining growth and elongation in young organs.\n\ud83d\udca1 **Examiner Pro-Tip**: Key buzzwords: 'growing parts of plant, young stem, petiole of leaf' = Collenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0169"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0169"],
     code: "PA0169"
   },
   {
@@ -3120,7 +3120,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Among the four elements of xylem (tracheids, vessels, xylem fibres, xylem parenchyma), only xylem parenchyma consists of living cells with protoplasts.\n\u26a1 **Detailed Anatomical Explanation**: Tracheids, vessels, and xylem fibres are dead at maturity, with lignified walls and devoid of protoplasm. Xylem parenchyma stores food (starch, fat) and tannins, and participates in radial water conduction.\n\ud83d\udca1 **Examiner Pro-Tip**: In xylem, 3 dead + 1 living (xylem parenchyma). In phloem, 3 living + 1 dead (phloem fibres).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0170"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0170"],
     code: "PA0170"
   },
   {
@@ -3139,7 +3139,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Companion cells are specialized parenchymatous cells closely associated with sieve tube elements found exclusively in angiosperms.\n\u26a1 **Detailed Anatomical Explanation**: Gymnosperms and pteridophytes lack companion cells and sieve tubes; their phloem possesses albuminous cells and sieve cells instead.\n\ud83d\udca1 **Examiner Pro-Tip**: Companion cells maintain the pressure gradient in the enucleated sieve tubes of angiosperms.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0171"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0171"],
     code: "PA0171"
   },
   {
@@ -3158,7 +3158,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Vessel elements are interconnected through perforations in their common end walls (perforation plates), forming a continuous tube-like pipeline, whereas tracheids are imperforate individual cells with pitted end walls.\n\u26a1 **Detailed Anatomical Explanation**: Both tracheids and vessels are dead at maturity and lack nuclei. Hence, the distinctive feature of vessels is their perforated end walls forming continuous conduits.\n\ud83d\udca1 **Examiner Pro-Tip**: Perforation plate is the hallmark morphological feature separating vessel elements from tracheids.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0172"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0172"],
     code: "PA0172"
   },
   {
@@ -3177,7 +3177,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phloem fibres (bast fibres) from plants like jute, flax, and hemp are commercially exploited for textiles, ropes, and burlap.\n\u26a1 **Detailed Anatomical Explanation**: Bast fibres are elongated, unbranched sclerenchymatous cells of phloem with pointed apices and lignified secondary walls, providing exceptional tensile strength.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT line: 'Phloem fibres of jute, flax and hemp are used commercially.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0173"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0173"],
     code: "PA0173"
   },
   {
@@ -3196,7 +3196,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicotyledonous stems, a strip of cambium is present between xylem and phloem within the vascular bundle. Such vascular bundles because of the presence of cambium possess the ability to form secondary tissues and are called open vascular bundles.\n\u26a1 **Detailed Anatomical Explanation**: When cambium is absent (as in monocots), the vascular bundles are unable to form secondary tissues and are called closed vascular bundles.\n\ud83d\udca1 **Examiner Pro-Tip**: Cambium present = Open; Cambium absent = Closed.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0174"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0174"],
     code: "PA0174"
   },
   {
@@ -3215,7 +3215,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The stomatal aperture, guard cells, and surrounding subsidiary cells together constitute the stomatal apparatus.\n\u26a1 **Detailed Anatomical Explanation**: Sclerenchymatous cells are not components of the epidermal stomatal complex. Guard cells are specialized epidermal cells with chloroplasts, flanked by specialized subsidiary cells.\n\ud83d\udca1 **Examiner Pro-Tip**: Stomatal apparatus = Stomatal aperture + 2 Guard cells + Subsidiary cells.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0175"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0175"],
     code: "PA0175"
   },
   {
@@ -3234,7 +3234,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phloem parenchyma is generally absent in most monocotyledons.\n\u26a1 **Detailed Anatomical Explanation**:\n\u2022 (a) Phloem fibres are sclerenchymatous (True).\n\u2022 (b) Phloem parenchyma is generally absent in monocots, so stating it is 'generally present in monocots' is False.\n\u2022 (c) Protophloem has narrow sieve tubes and metaphloem has wider/bigger sieve tubes (True).\nThus, only statement (b) is false.\n\ud83d\udca1 **Examiner Pro-Tip**: Phloem parenchyma is absent in monocots; a favorite NCERT exception question.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0262"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0262"],
     code: "PA0262"
   },
   {
@@ -3253,7 +3253,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The outside of the epidermis is often covered with a waxy thick layer called the cuticle, which prevents the loss of water.\n\u26a1 **Detailed Anatomical Explanation**: Cuticle is composed of cutin and wax deposited on the outer tangential walls of epidermal cells. Cuticle is absent in roots.\n\ud83d\udca1 **Examiner Pro-Tip**: Cuticle prevents water loss in aerial plant organs.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0263"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0263"],
     code: "PA0263"
   },
   {
@@ -3272,7 +3272,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Cuticle is completely absent in roots (epiblema/rhizodermis).\n\u26a1 **Detailed Anatomical Explanation**: Roots absorb water and dissolved minerals from the soil. A waxy, impermeable cuticle on the root epidermis would prevent water absorption. Therefore, root epidermis is devoid of cuticle.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT statement: 'Cuticle is absent in roots.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0264"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0264"],
     code: "PA0264"
   },
   {
@@ -3291,7 +3291,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In monocotyledonous stems like maize (*Zea mays*), vascular bundles are scattered throughout the ground tissue and each bundle is enclosed by a sclerenchymatous bundle sheath.\n\u26a1 **Detailed Anatomical Explanation**: Sunflower, gram, and ficus are dicots having a ring arrangement of conjoint open vascular bundles with a differentiated cortex and pith.\n\ud83d\udca1 **Examiner Pro-Tip**: Maize stem = classic monocot stem model described in NCERT.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0176"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0176"],
     code: "PA0176"
   },
   {
@@ -3310,7 +3310,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, the pith is small or inconspicuous (or even completely obliterated). In monocot roots, the pith is large and well-developed.\n\u26a1 **Detailed Anatomical Explanation**: In monocot roots, polyarch xylem bundles enclose a large parenchymatous pith. In dicot roots, diarch to hexarch xylem meets in or approaches the center, leaving a tiny or absent pith.\n\ud83d\udca1 **Examiner Pro-Tip**: Pith is small/inconspicuous in Dicot Root; large and well-developed in Monocot Root.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0177"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0177"],
     code: "PA0177"
   },
   {
@@ -3329,7 +3329,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Dicot roots typically have 2 to 4 (rarely up to 6, diarch to tetrarch) xylem and phloem patches, whereas monocot roots have polyarch condition (usually more than 6 xylem bundles).\n\u26a1 **Detailed Anatomical Explanation**: Both dicot and monocot roots have exarch xylem. However, dicot root is distinguished by having 2\u20134 xylem bundles and an inconspicuous pith, whereas monocot root has >6 xylem bundles and a large pith.\n\ud83d\udca1 **Examiner Pro-Tip**: 2\u20134 bundles = Dicot root; >6 (polyarch) = Monocot root.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0178"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0178"],
     code: "PA0178"
   },
   {
@@ -3348,7 +3348,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The central portion of the stem is occupied by a large number of rounded, parenchymatous cells with large intercellular spaces, which constitute the pith (medulla).\n\u26a1 **Detailed Anatomical Explanation**: Pith stores nutrients and water in young dicot stems, situated centrally to the ring of vascular bundles.\n\ud83d\udca1 **Examiner Pro-Tip**: Central parenchymatous core of stem = Pith (Medulla).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0265"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0265"],
     code: "PA0265"
   },
   {
@@ -3367,7 +3367,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In grasses, certain adaxial epidermal cells along the veins modify themselves into large, empty, colourless cells called bulliform cells (motor cells).\n\u26a1 **Detailed Anatomical Explanation**: When turgid, they expose leaf surface; when flaccid due to water stress, they cause inward leaf rolling to minimize water loss.\n\ud83d\udca1 **Examiner Pro-Tip**: Key identifier: 'large, empty, colourless cells along veins on adaxial epidermis' = Bulliform cells.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0266"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0266"],
     code: "PA0266"
   },
   {
@@ -3386,7 +3386,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot stems, the cells of cambium present between primary xylem and primary phloem within a vascular bundle is the intrafascicular cambium.\n\u26a1 **Detailed Anatomical Explanation**: The cells of medullary rays adjoining these intrafascicular cambial strips become meristematic during secondary growth and form interfascicular cambium, completing the continuous vascular cambial ring.\n\ud83d\udca1 **Examiner Pro-Tip**: Inside the bundle = Intrafascicular. Between bundles = Interfascicular.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0267"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0267"],
     code: "PA0267"
   },
   {
@@ -3405,7 +3405,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The innermost layer of cortex is endodermis. The tangential as well as radial walls of the endodermal cells have a deposition of water-impermeable, waxy material suberin in the form of Casparian strips.\n\u26a1 **Detailed Anatomical Explanation**: Because suberin is deposited on both the radial walls and tangential walls (inner/outer tangential walls), water is blocked from moving apoplastically across these boundaries, directing flow into the symplast.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT line: 'The tangential as well as radial walls of the endodermal cells have a deposition of water-impermeable, waxy material suberin in the form of Casparian strips.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0268"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0268"],
     code: "PA0268"
   },
   {
@@ -3424,7 +3424,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In roots, the parenchymatous cells which lie between the alternating xylem and phloem bundles are known as conjunctive tissue.\n\u26a1 **Detailed Anatomical Explanation**: During secondary growth in dicot roots, the conjunctive tissue located beneath the phloem bundles dedifferentiates and becomes meristematic, contributing to the formation of vascular cambium.\n\ud83d\udca1 **Examiner Pro-Tip**: Conjunctive tissue = parenchymatous cells between radial xylem and phloem bundles in roots.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0269"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0269"],
     code: "PA0269"
   },
   {
@@ -3443,7 +3443,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: All tissues on the inner side of the endodermis such as pericycle, vascular bundles, and pith constitute the stele.\n\u26a1 **Detailed Anatomical Explanation**: The stele is the central cylinder of vascular plants. Because endodermis is the innermost layer of cortex, all tissues situated internally to the endodermis (Pericycle + Xylem + Phloem + Pith) constitute the stele.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT verbatim line: 'All tissues on the innerside of the endodermis such as pericycle, vascular bundles and pith constitute the stele.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0270"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0270"],
     code: "PA0270"
   },
   {
@@ -3462,7 +3462,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: At certain regions, phellogen cuts off closely arranged parenchymatous cells on the outer side instead of cork cells. These parenchymatous cells are called complementary cells, which soon rupture the epidermis forming lenticels.\n\u26a1 **Detailed Anatomical Explanation**: The rapid proliferation of complementary cells creates tension that tears the outer epidermis, producing lens-shaped lenticels that facilitate gas exchange between internal tissues and the atmosphere.\n\ud83d\udca1 **Examiner Pro-Tip**: Complementary cells = produced by phellogen (cork cambium) beneath lenticels.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0181"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0181"],
     code: "PA0181"
   },
   {
@@ -3481,7 +3481,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The vascular cambium is generally more active on the inner side than on the outer side. As a result, the amount of secondary xylem produced towards the center is much more than secondary phloem produced towards the periphery.\n\u26a1 **Detailed Anatomical Explanation**: The vascular cambium cuts off cells towards the center to form secondary xylem at approximately 8 to 10 times the rate it cuts off cells towards the outside to form secondary phloem.\n\ud83d\udca1 **Examiner Pro-Tip**: Secondary xylem (wood) accumulates extensively, while secondary phloem is comparatively thin and crushed over time.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0182"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0182"],
     code: "PA0182"
   },
   {
@@ -3500,7 +3500,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, the vascular cambium originates from both the conjunctive parenchyma tissue located just below the phloem bundles AND portions of pericycle tissue situated opposite/above the protoxylem.\n\u26a1 **Detailed Anatomical Explanation**: These two distinct tissues dedifferentiate to form a complete continuous wavy cambial ring, which later becomes circular. Hence, both 1 and 3 are correct.\n\ud83d\udca1 **Examiner Pro-Tip**: Complete secondary origin from conjunctive tissue + pericycle.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0183"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0183"],
     code: "PA0183"
   },
   {
@@ -3519,7 +3519,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, the pericycle plays key developmental roles:\n1. Initiation of lateral roots (endogenous origin)\n2. Giving rise to cork cambium (phellogen)\n3. Forming portions of vascular cambium lying opposite protoxylem.\n\u26a1 **Detailed Anatomical Explanation**: Because all three tissues originate from pericycle cells undergoing dedifferentiation, option (4) 'All of the above' is correct.\n\ud83d\udca1 **Examiner Pro-Tip**: Pericycle in dicot roots is pluripotent and gives rise to lateral roots, cork cambium, and part of vascular cambium.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0184"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0184"],
     code: "PA0184"
   },
   {
@@ -3538,7 +3538,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: \n\u2022 Lenticels permit exchange of gases between atmosphere and internal tissues of woody trees.\n\u2022 Bark is a non-technical term referring to all tissues exterior to the vascular cambium.\n\u2022 Vascular cambium and cork cambium are lateral meristems responsible for secondary growth.\n\u26a1 **Detailed Anatomical Explanation**: All three statements are authentic NCERT facts describing secondary growth and periderm.\n\ud83d\udca1 **Examiner Pro-Tip**: Bark includes periderm + secondary phloem.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0185"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0185"],
     code: "PA0185"
   },
   {
@@ -3557,7 +3557,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Ray initials of the vascular cambium produce narrow bands of radial parenchyma cells passing through both secondary xylem and secondary phloem, termed secondary medullary rays.\n\u26a1 **Detailed Anatomical Explanation**: Primary medullary rays run between the primary vascular bundles. Secondary medullary rays develop later from cambial ray initials and carry out radial translocation of water and organic nutrients across wood and bark.\n\ud83d\udca1 **Examiner Pro-Tip**: Direct NCERT line: 'At some places, the cambium forms a narrow band of parenchyma, which passes through the secondary xylem and the secondary phloem in the radial directions. These are the secondary medullary rays.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0271"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0271"],
     code: "PA0271"
   },
   {
@@ -3576,7 +3576,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Bark formed early in the growing season is called early bark or soft bark, whereas bark formed towards the end of the season is termed late bark or hard bark.\n\u26a1 **Detailed Anatomical Explanation**: Early/soft bark has more parenchyma and phloem elements with thinner walls, while late/hard bark has denser sclerenchymatous fibres and thick-walled cells.\n\ud83d\udca1 **Examiner Pro-Tip**: Early bark = Soft bark; Late bark = Hard bark.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0272"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0272"],
     code: "PA0272"
   },
   {
@@ -3595,7 +3595,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Instead of producing suberized phellem, phellogen in certain localized regions cuts off thin-walled, loosely arranged, non-suberized parenchymatous cells known as complementary cells.\n\u26a1 **Detailed Anatomical Explanation**: The accumulation and swelling of complementary cells exert internal pressure, rupturing the outer epidermis to create aerating lens-shaped pores called lenticels.\n\ud83d\udca1 **Examiner Pro-Tip**: Verbatim NCERT phrase: '...cuts off closely arranged parenchymatous cells on the outer side instead of cork cells. These are called complementary cells.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0273"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0273"],
     code: "PA0273"
   },
   {
@@ -3614,7 +3614,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Secondary cortex (phelloderm) cut off on the inner side of phellogen consists of living parenchymatous cells.\n\u26a1 **Detailed Anatomical Explanation**: As NCERT notes: 'Phellogen cuts off cells on both sides. The outer cells differentiate into cork or phellem while the inner cells differentiate into secondary cortex or phelloderm. Phelloderm cells are parenchymatous.'\n\ud83d\udca1 **Examiner Pro-Tip**: Cork (phellem) = dead, suberized; Secondary cortex (phelloderm) = living, parenchymatous.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0274"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0274"],
     code: "PA0274"
   },
   {
@@ -3633,7 +3633,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, the vascular cambium is completely secondary in origin, arising entirely from dedifferentiated permanent tissues (conjunctive tissue + pericycle).\n\u26a1 **Detailed Anatomical Explanation**: In contrast to dicot stems (where intrafascicular cambium is primary), dicot roots have zero primary cambium in their primary body. All cambium develops anew during secondary growth.\n\ud83d\udca1 **Examiner Pro-Tip**: Dicot stem cambium = partly primary + partly secondary. Dicot root cambium = 100% secondary in origin.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0275"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0275"],
     code: "PA0275"
   },
   {
@@ -3652,7 +3652,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: As the vascular cambium continuously produces secondary xylem centripetally, the outward expansive pressure crushes the primary phloem and earlier-formed secondary phloem against the resistant periderm.\n\u26a1 **Detailed Anatomical Explanation**: NCERT states: 'The primary and secondary phloems get gradually crushed due to the continued formation and accumulation of secondary xylem.'\n\ud83d\udca1 **Examiner Pro-Tip**: Both primary phloem and earlier secondary phloem are crushed; only the innermost newly formed secondary phloem remains functional.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0276"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0276"],
     code: "PA0276"
   },
   {
@@ -3671,7 +3671,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Primary xylem remains more or less intact in or around the centre of the stem.\n\u26a1 **Detailed Anatomical Explanation**: Unlike phloem (which gets crushed against the periphery), primary xylem is pushed towards the center or remains at the inner margin of the secondary xylem surrounding the pith without collapsing, because of its thick lignified walls.\n\ud83d\udca1 **Examiner Pro-Tip**: Verbatim NCERT statement: 'The primary xylem however remains more or less intact, in or around the centre.'",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0277"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0277"],
     code: "PA0277"
   },
   {
@@ -3690,7 +3690,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: During early embryogenesis, cell division is generalized and uniform throughout the entire proembryo; all cells actively divide.\n\u26a1 **Detailed Anatomical Explanation**: As the embryo develops and polarizes, meristematic activity becomes localized and restricted to specific apical zones (shoot and root apical meristems).\n\ud83d\udca1 **Examiner Pro-Tip**: Generalized division occurs in young embryo; localized division characterizes mature plant development.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0186"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0186"],
     code: "PA0186"
   },
   {
@@ -3709,7 +3709,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sclerenchyma consists of long, narrow cells with thick and lignified cell walls. Xerophytes growing under water scarcity extensively develop sclerenchyma to prevent wilting and provide structural rigidity.\n\u26a1 **Detailed Anatomical Explanation**: Lignified walls of sclerenchymatous fibres and sclereids withstand mechanical strain and negative water potential without collapsing during severe drought.\n\ud83d\udca1 **Examiner Pro-Tip**: Lignified dead mechanical tissue promoted under water scarcity = Sclerenchyma.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0188"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0188"],
     code: "PA0188"
   },
   {
@@ -3728,7 +3728,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Mature sieve tube elements are living cells with non-lignified, cellulosic walls and a peripheral layer of cytoplasm with a large vacuole (though lacking a nucleus). In contrast, vessels are dead elements with heavily lignified secondary walls.\n\u26a1 **Detailed Anatomical Explanation**: Both lack a nucleus at maturity, but sieve tubes are living with unlignified cellulosic walls, whereas vessels are dead with thick lignified walls.\n\ud83d\udca1 **Examiner Pro-Tip**: Sieve tubes have cellulose walls and peripheral cytoplasm; vessels have lignified dead walls.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0189"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0189"],
     code: "PA0189"
   },
   {
@@ -3747,7 +3747,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In angiosperms, the end walls between adjacent sieve tube elements are perforated in a sieve-like manner to form sieve plates, which are typically oblique or transverse across the end walls.\n\u26a1 **Detailed Anatomical Explanation**: These perforated end walls allow symplastic cytoplasmic continuity and efficient mass flow of phloem sap along the longitudinal sieve tube columns.\n\ud83d\udca1 **Examiner Pro-Tip**: Sieve plates = oblique/transverse perforated end walls of sieve tubes.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0190"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0190"],
     code: "PA0190"
   },
   {
@@ -3766,7 +3766,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Haberlandt classified primary meristematic zones into:\n1. Protoderm \u2192 differentiates into Epidermal Tissue System\n2. Procambium \u2192 differentiates into Vascular Tissue System (xylem & phloem)\n3. Ground meristem \u2192 differentiates into Ground/Fundamental Tissue System (cortex, endodermis, pericycle, pith).\n\u26a1 **Detailed Anatomical Explanation**: Therefore, protoderm gives rise exclusively to the epidermal tissue system (epidermis, trichomes, stomata).\n\ud83d\udca1 **Examiner Pro-Tip**: Protoderm = Epidermis. Procambium = Vascular bundles. Ground meristem = Ground tissue.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0192"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0192"],
     code: "PA0192"
   },
   {
@@ -3785,7 +3785,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Diagnostic features of a monocotyledonous stem:\n\u2022 Vascular bundles are conjoint, collateral, and closed (lack cambium).\n\u2022 Endarch xylem (protoxylem towards center).\n\u2022 Bundles scattered in parenchymatous ground tissue with no clear distinction into cortex and pith.\n\u26a1 **Detailed Anatomical Explanation**: In dicot stems, bundles are arranged in a ring and are open. In roots, bundles are radial and exarch. Hence, the material is a monocot stem.\n\ud83d\udca1 **Examiner Pro-Tip**: 'Scattered + Closed + Endarch' = Monocot stem (e.g., maize).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0194"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0194"],
     code: "PA0194"
   },
   {
@@ -3804,7 +3804,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: When bulliform cells lose water under dry conditions, they become flaccid and cause grass leaves to roll or curl inward, thereby minimizing water loss through transpiration by reducing exposed leaf surface area.\n\u26a1 **Detailed Anatomical Explanation**: Conversely, when they absorb water and are turgid, the leaf blade unfolds to maximize light interception for photosynthesis.\n\ud83d\udca1 **Examiner Pro-Tip**: Rolling of grass leaves checks transpiration; mediated by flaccidity of bulliform cells.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0197"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0197"],
     code: "PA0197"
   },
   {
@@ -3823,7 +3823,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In heartwood, adjacent xylem/ray parenchyma cells produce balloon-like ballooning outgrowths called tyloses through the pits into the lumen of vessels, filling them with resins, tannins, gums, and aromatic substances.\n\u26a1 **Detailed Anatomical Explanation**: These tyloses physically plug the vessel lumens, rendering heartwood completely non-functional for sap conduction while providing resistance to decay and termites.\n\ud83d\udca1 **Examiner Pro-Tip**: Tyloses = balloon-like tracheal intrusions of xylem parenchyma blocking heartwood vessels.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0198"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0198"],
     code: "PA0198"
   },
   {
@@ -3842,7 +3842,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Distinct annual rings develop only where there are sharp, pronounced climatic differences between seasons (temperate climates). In desert regions, climatic conditions are nearly uniform or erratic without marked seasonal cold-warm cycles, so distinct annual rings do not form.\n\u26a1 **Detailed Anatomical Explanation**: Continuous cambial activity without seasonal contrast yields homogeneous wood lacking distinct spring and autumn wood demarcations.\n\ud83d\udca1 **Examiner Pro-Tip**: Distinct annual rings require pronounced climatic seasonality (temperate zones). Uniform/desert/coastal regions lack distinct annual rings.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0199"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0199"],
     code: "PA0199"
   },
   {
@@ -3861,7 +3861,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sapwood (alburnum) is the peripheral, lighter-colored secondary xylem involved in active conduction of water and minerals from root to leaf.\n\u26a1 **Detailed Anatomical Explanation**: Heartwood (duramen) is the central, dark, durable, non-conducting wood containing organic depositions (tannins, resins). Sapwood is lighter and conducting.\n\ud83d\udca1 **Examiner Pro-Tip**: Sapwood = Light + Conducting (peripheral). Heartwood = Dark + Non-conducting (central).",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0200"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0200"],
     code: "PA0200"
   },
   {
@@ -3880,7 +3880,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Girdling (ringing experiment) removes all tissues outside the vascular cambium, which includes the phloem. This halts the downward translocation of organic solutes (food) from leaves to roots.\n\u26a1 **Detailed Anatomical Explanation**: Because xylem remains intact, water continues to reach the shoot, keeping it alive temporarily. However, roots are cut off from photosynthetic nutrients; their stored reserves deplete, and they starve and die first. Once roots die, water uptake ceases and the shoot subsequently dies.\n\ud83d\udca1 **Examiner Pro-Tip**: Classic Malpighi girdling experiment proves phloem is the tissue for food translocation; root dies first due to food starvation.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0201"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0201"],
     code: "PA0201"
   },
   {
@@ -3899,7 +3899,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Spring wood differs from autumn wood in multiple anatomical characteristics:\n1. Size of vessels: Spring wood has larger/wider vessels with wider lumens, autumn wood has narrow vessels.\n2. Wall thickness: Spring wood has thinner cell walls, autumn wood has thicker cell walls.\n3. Amount: Cambium is much more active in spring, producing a larger volume of xylem elements.\n\u26a1 **Detailed Anatomical Explanation**: Because all three anatomical criteria distinguish early wood from late wood, option (4) 'All the above' is correct.\n\ud83d\udca1 **Examiner Pro-Tip**: Early wood = wider lumen, thinner walls, greater amount, lower density, lighter color.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0203"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0203"],
     code: "PA0203"
   },
   {
@@ -3918,7 +3918,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Conspicuous annual rings require maximum climatic contrast between favorable growing season (spring/summer) and adverse dormant season (winter). This extreme seasonality is most pronounced in temperate deciduous trees.\n\u26a1 **Detailed Anatomical Explanation**: In temperate deciduous forests, trees shed their leaves before freezing winter and undergo severe cambial dormancy, followed by a dramatic burst of activity in warm spring, creating exceptionally sharp and distinct annual growth rings.\n\ud83d\udca1 **Examiner Pro-Tip**: Temperate deciduous plants exhibit the most sharply defined annual growth increments.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0204"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0204"],
     code: "PA0204"
   },
   {
@@ -3937,7 +3937,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, phellogen (cork cambium) arises from the outer cells of the pericycle. Cork (phellem) is produced outwards with impermeable suberin, cutting off all outer tissues from water and nourishment.\n\u26a1 **Detailed Anatomical Explanation**: Consequently, all tissues lying external to the pericycle\u2014namely the endodermis, entire cortex, and epiblema\u2014die, dry up, and peel off (slough away).\n\ud83d\udca1 **Examiner Pro-Tip**: In roots, phellogen originates in pericycle \u2192 everything outside pericycle dies.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0205"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0205"],
     code: "PA0205"
   },
   {
@@ -3956,7 +3956,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Sapwood (alburnum) is the peripheral physiologically functional region of secondary xylem that conducts water and minerals from roots to leaves.\n\u26a1 **Detailed Anatomical Explanation**: Heartwood is physiologically non-functional for water conduction because its vessels are blocked by tyloses and filled with resins and tannins. It functions purely for mechanical support.\n\ud83d\udca1 **Examiner Pro-Tip**: Physiological conduction = Sapwood only.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0207"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0207"],
     code: "PA0207"
   },
   {
@@ -3975,7 +3975,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 2,
     correctOption: 3,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The stomatal apparatus consists of three components: stomatal aperture, guard cells, and subsidiary cells.\n\u26a1 **Detailed Anatomical Explanation**: Lenticels are aerating pores located in the periderm of woody stems and roots formed by phellogen activity, not components of the leaf stomatal apparatus.\n\ud83d\udca1 **Examiner Pro-Tip**: Lenticel is a periderm feature; stomatal apparatus is an epidermal feature.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0278"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0278"],
     code: "PA0278"
   },
   {
@@ -3994,7 +3994,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 0,
     correctOption: 1,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Heartwood comprises dead elements with highly lignified walls and contains no living protoplasts. Stating that it is 'formed of living cells' is incorrect.\n\u26a1 **Detailed Anatomical Explanation**: Heartwood forms from older secondary xylem in the central region where living parenchyma cells die after depositing tannins, resins, oils, gums, and aromatic substances into dead vessel cavities.\n\ud83d\udca1 **Examiner Pro-Tip**: Heartwood = dead elements, highly lignified walls, dark colored, central, non-conducting.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0209"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0209"],
     code: "PA0209"
   },
   {
@@ -4013,7 +4013,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The peripheral, outer region of the secondary xylem is lighter in colour and is known as sapwood (alburnum).\n\u26a1 **Detailed Anatomical Explanation**: It is actively involved in the conduction of water and minerals from root to leaf, surrounding the darker, inner heartwood.\n\ud83d\udca1 **Examiner Pro-Tip**: Peripheral lighter wood = Sapwood; central darker wood = Heartwood.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0210"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0210"],
     code: "PA0210"
   },
   {
@@ -4032,7 +4032,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: In dicot roots, phellogen arises deep within the pericycle. The newly formed suberized cork cuts off all tissues outside it, causing the entire cortex and epiblema to dry, break down, and be completely sloughed away.\n\u26a1 **Detailed Anatomical Explanation**: By the second or third year of secondary growth in dicot roots, the original parenchymatous cortex is entirely absent, with periderm forming the external boundary.\n\ud83d\udca1 **Examiner Pro-Tip**: Cortex in older dicot roots is completely sloughed off due to deep-seated pericyclic phellogen.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0211"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0211"],
     code: "PA0211"
   },
   {
@@ -4051,7 +4051,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: The very first event in dicot root secondary growth is the dedifferentiation of parenchymatous cells of the conjunctive tissue situated just beneath the phloem bundles, causing them to become meristematic.\n\u26a1 **Detailed Anatomical Explanation**: Soon after, pericycle cells lying outside/opposite the protoxylem also become meristematic, and together they join to produce a continuous wavy strip of vascular cambium.\n\ud83d\udca1 **Examiner Pro-Tip**: First event: conjunctive parenchyma beneath phloem becomes meristematic.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0212"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0212"],
     code: "PA0212"
   },
   {
@@ -4070,7 +4070,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 1,
     correctOption: 2,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Phellogen cuts off closely arranged, thin-walled, non-suberised parenchymatous cells on the outer side known as complementary cells.\n\u26a1 **Detailed Anatomical Explanation**: Because they are non-suberised and parenchymatous, they allow gas diffusion through the torn epidermal pores (lenticels). Stating they are 'closely arranged and non-suberised' directly matches NCERT description.\n\ud83d\udca1 **Examiner Pro-Tip**: Complementary cells = thin-walled, non-suberized, parenchymatous cells.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0213"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0213"],
     code: "PA0213"
   },
   {
@@ -4089,7 +4089,7 @@ export const ALLEN_ANATOMY_EXERCISE_3_QUESTIONS: Question[] = [
     correctAnswer: 3,
     correctOption: 4,
     explanation: "\ud83d\udcd8 **NCERT Concept**: Flowers, fruits, and leaves are determinate lateral organs that do not undergo secondary cambial growth. They remain composed predominantly of primary permanent tissues throughout their lifespan.\n\u26a1 **Detailed Anatomical Explanation**: Mature stems and roots of woody trees undergo extensive secondary thickening and are dominated by secondary tissues (wood, bark). Shoot and root tips consist of primary meristematic tissues. Hence, flowers, fruits, and leaves consist mainly of primary permanent tissues.\n\ud83d\udca1 **Examiner Pro-Tip**: Foliage, flowers, and fruits are devoid of secondary vascular cambium and consist of primary permanent tissues.",
-    tags: ["ALLEN Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0214"],
+    tags: ["Botany", "Anatomy of Flowering Plants", "Exercise-III (Analytical Questions)", "NEET 2027", "NEET 2028", "NEET 2029", "PA0214"],
     code: "PA0214"
   }
 ];

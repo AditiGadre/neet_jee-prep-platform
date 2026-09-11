@@ -184,9 +184,9 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         ...q,
         id: `sunday-phy-${idx + 1}-${q.id}`,
         subject: 'Physics' as const,
-        questionText: formatMathAndFormulas(q.questionText),
-        options: q.options.map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation)
+        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
+        options: (q.options || []).map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation || '')
       });
     }
 
@@ -206,9 +206,9 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         ...q,
         id: `sunday-chem-${idx + 1}-${q.id}`,
         subject: 'Chemistry' as const,
-        questionText: formatMathAndFormulas(q.questionText),
-        options: q.options.map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation)
+        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
+        options: (q.options || []).map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation || '')
       });
     }
 
@@ -228,9 +228,9 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
         ...q,
         id: `sunday-bio-${idx + 1}-${q.id}`,
         subject: 'Biology' as const,
-        questionText: formatMathAndFormulas(q.questionText),
-        options: q.options.map(o => formatMathAndFormulas(o)),
-        explanation: formatMathAndFormulas(q.explanation)
+        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
+        options: (q.options || []).map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation || '')
       });
     }
 

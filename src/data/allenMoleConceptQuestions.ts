@@ -1,8 +1,8 @@
 import { Question } from '../types';
 
 /**
- * ALLEN Pre-Medical Physical Chemistry: Some Basic Concepts of Chemistry (Mole Concept)
- * Complete authenticated question bank with 100% verified official ALLEN answer keys,
+ * Pre-Medical Physical Chemistry: Some Basic Concepts of Chemistry (Mole Concept)
+ * Complete authenticated question bank with 100% verified Official Answer Keys,
  * comprehensive step-by-step NCERT solutions, and examiner pro-tips.
  */
 
