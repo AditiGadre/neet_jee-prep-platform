@@ -1,6 +1,7 @@
 import { Question } from '../types';
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
+import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructureQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 import { supabase } from '../supabaseClient';
 import { recordSuperUserNotification } from './superUserNotifier';
@@ -73,7 +74,11 @@ function buildChapterIndex(questions: Question[]) {
 }
 
 const bioIndex = buildChapterIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS);
-const chemIndex = buildChapterIndex(ALL_CHEMISTRY_MASTER_QUESTIONS);
+export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = [
+  ...ALL_CHEMISTRY_MASTER_QUESTIONS,
+  ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS
+];
+const chemIndex = buildChapterIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS);
 const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS);
 
 export const ALL_BIOLOGY_CHAPTERS: string[] = bioIndex.chapters;
@@ -83,7 +88,7 @@ export const ALL_PHYSICS_CHAPTERS: string[] = physIndex.chapters;
 // Static pre-combined array allocated once
 const ALL_BUILTIN_QUESTIONS: Question[] = [
   ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-  ...ALL_CHEMISTRY_MASTER_QUESTIONS,
+  ...ALL_CHEMISTRY_COMBINED_QUESTIONS,
   ...ALL_PHYSICS_MASTER_QUESTIONS
 ];
 
@@ -173,14 +178,14 @@ export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biol
   if (subject === 'Biology') {
     builtin = getQuestionsFromSubjectIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS, bioIndex.map, bioIndex.chapters, chapter);
   } else if (subject === 'Chemistry') {
-    builtin = getQuestionsFromSubjectIndex(ALL_CHEMISTRY_MASTER_QUESTIONS, chemIndex.map, chemIndex.chapters, chapter);
+    builtin = getQuestionsFromSubjectIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS, chemIndex.map, chemIndex.chapters, chapter);
   } else if (subject === 'Physics') {
     builtin = getQuestionsFromSubjectIndex(ALL_PHYSICS_MASTER_QUESTIONS, physIndex.map, physIndex.chapters, chapter);
   } else {
     // All subjects or unspecified
     if (chapter && chapter !== 'All Chapters' && chapter !== 'All Topics' && !chapter.toLowerCase().includes('full syllabus mock')) {
       const bio = getQuestionsFromSubjectIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS, bioIndex.map, bioIndex.chapters, chapter);
-      const chem = getQuestionsFromSubjectIndex(ALL_CHEMISTRY_MASTER_QUESTIONS, chemIndex.map, chemIndex.chapters, chapter);
+      const chem = getQuestionsFromSubjectIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS, chemIndex.map, chemIndex.chapters, chapter);
       const phys = getQuestionsFromSubjectIndex(ALL_PHYSICS_MASTER_QUESTIONS, physIndex.map, physIndex.chapters, chapter);
       builtin = [...bio, ...chem, ...phys];
     } else {
@@ -389,7 +394,7 @@ export function generateAiAugmentedBatch(subject: 'Physics' | 'Chemistry' | 'Bio
 export function getQuestionDatabaseStats() {
   const custom = getCustomQuestions();
   const bioCount = ALL_FINGERTIPS_BIOLOGY_QUESTIONS.length + custom.filter(q => q.subject === 'Biology').length;
-  const chemCount = ALL_CHEMISTRY_MASTER_QUESTIONS.length + custom.filter(q => q.subject === 'Chemistry').length;
+  const chemCount = ALL_CHEMISTRY_COMBINED_QUESTIONS.length + custom.filter(q => q.subject === 'Chemistry').length;
   const physCount = ALL_PHYSICS_MASTER_QUESTIONS.length + custom.filter(q => q.subject === 'Physics').length;
 
   return {

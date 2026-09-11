@@ -108,6 +108,12 @@ import {
   CHEMISTRY_MOCK_TEST_5_QUESTIONS
 } from './chemistryMockTests';
 import {
+  ALLEN_ATOMIC_EXERCISE_1_QUESTIONS,
+  ALLEN_ATOMIC_EXERCISE_2_QUESTIONS,
+  ALLEN_ATOMIC_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS
+} from './allenAtomicStructureQuestions';
+import {
   UNITS_BOOK_QUESTIONS,
   VECTORS_BOOK_QUESTIONS,
   MOTION_BOOK_QUESTIONS,
@@ -2282,6 +2288,116 @@ export const TEST_SERIES_DATA: TestItem[] = [
       ...ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(35, 52),
       ...ALLEN_UNITS_EXERCISE_2_QUESTIONS.slice(0, 10),
       ...ALLEN_UNITS_EXERCISE_3_QUESTIONS.slice(0, 3)
+    ]
+  },
+  {
+    id: 'test-chem-allen-atomic-ex1-part1',
+    title: 'ALLEN Chemistry: Atomic Models & Bohr Orbit Mechanics Drill Part 1 (34 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-I: Q1-Q34 on Subatomic Particles, Isotopes/Isobars/Isotones, Rutherford Scattering, Bohr Radius & Velocity',
+    totalQuestions: 34,
+    durationMinutes: 25,
+    totalMarks: 136,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['ALLEN Official Exercise-I', 'Rutherford & Bohr Model', 'Isotopes & Isobars', 'Step-by-Step Solutions'],
+    questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(0, 34)
+  },
+  {
+    id: 'test-chem-allen-atomic-ex1-part2',
+    title: 'ALLEN Chemistry: Bohr Energy Levels & Hydrogen Spectra Drill Part 2 (34 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-I: Q35-Q68 on Electron Energy Formulas, Excitation/Ionization, Lyman, Balmer, Paschen & Pfund Spectral Series',
+    totalQuestions: 34,
+    durationMinutes: 25,
+    totalMarks: 136,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['ALLEN Official Exercise-I', 'Rydberg Equation & Transitions', 'Full Spectral Diagrams & SVGs', 'Step-by-Step Solutions'],
+    questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(34, 68)
+  },
+  {
+    id: 'test-chem-allen-atomic-ex1-part3',
+    title: 'ALLEN Chemistry: Spectral Lines, de-Broglie & Heisenberg Principle Drill Part 3 (34 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-I: Q69-Q102 on Total Spectral Lines, Absorption vs Emission, de-Broglie Standing Waves & Heisenberg Uncertainty Principle',
+    totalQuestions: 34,
+    durationMinutes: 25,
+    totalMarks: 136,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['ALLEN Official Exercise-I', 'de-Broglie Standing Waves', 'Heisenberg Position & Velocity Uncertainty', 'Step-by-Step Solutions'],
+    questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(68, 102)
+  },
+  {
+    id: 'test-chem-allen-atomic-ex1-part4',
+    title: 'ALLEN Chemistry: Quantum Numbers, Orbitals & Electronic Configurations Drill Part 4 (34 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-I: Q103-Q136 on Quantum Numbers (n, l, m, s), Radial/Angular Nodes, Aufbau, Pauli Exclusion & Hund Rules',
+    totalQuestions: 34,
+    durationMinutes: 25,
+    totalMarks: 136,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['ALLEN Official Exercise-I', 'Quantum Numbers & Shapes', 'Orbital Box Diagrams SVGs', 'Step-by-Step Solutions'],
+    questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(102, 136)
+  },
+  {
+    id: 'test-chem-allen-atomic-pyq',
+    title: 'ALLEN Chemistry: Atomic Structure 14-Yr AIPMT/NEET PYQs (37 Qs)',
+    category: 'major',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-II: 100% Authentic AIPMT & NEET PYQs (2009 to Re-NEET 2022) with Official Keys',
+    totalQuestions: 37,
+    durationMinutes: 30,
+    totalMarks: 148,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['100% Authentic NEET/AIPMT PYQs', 'Photoelectric Effect & Planck Equation', 'de-Broglie & Node Calculations', 'Complete Step-by-Step Solutions'],
+    questions: ALLEN_ATOMIC_EXERCISE_2_QUESTIONS
+  },
+  {
+    id: 'test-chem-allen-atomic-analytical',
+    title: 'ALLEN Chemistry: Atomic Structure Master Analytical Drill (42 Qs)',
+    category: 'minor',
+    exam: 'NEET',
+    syllabus: 'ALLEN Exercise-III (Master Your Understanding): High-Yield Analytical & Multi-Step Problems on Subshell Degeneracy, Franck-Hertz Collisions & Quantum States',
+    totalQuestions: 42,
+    durationMinutes: 35,
+    totalMarks: 168,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['ALLEN Exercise-III Master Level', 'Subshell Degeneracy in H-atom', 'Inelastic Electron Scattering', 'Full Vector Diagrams & SVGs'],
+    questions: ALLEN_ATOMIC_EXERCISE_3_QUESTIONS
+  },
+  {
+    id: 'test-chem-allen-atomic-full',
+    title: 'ALLEN Chemistry: Complete Chapter Test - Structure of Atom (45 Qs Speed Drill)',
+    category: 'full',
+    exam: 'NEET',
+    syllabus: 'Complete Syllabus: Subatomic Particles, Bohr Model, Hydrogen Spectra, Dual Nature, Uncertainty Principle, Quantum Numbers & Electronic Configuration (NTA NEET Pattern)',
+    totalQuestions: 45,
+    durationMinutes: 30,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: ['NTA NEET Pattern 45 Qs', 'Curated from 215 Official Allen Questions', 'Interactive Transition & Orbital SVGs', 'Timer & Instant Scorecard'],
+    questions: [
+      ...ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(0, 15),
+      ...ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(55, 75),
+      ...ALLEN_ATOMIC_EXERCISE_2_QUESTIONS.slice(0, 7),
+      ...ALLEN_ATOMIC_EXERCISE_3_QUESTIONS.slice(0, 3)
     ]
   }
 ];
