@@ -4,6 +4,7 @@ import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuesti
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
 import { ALL_ALLEN_ANATOMY_QUESTIONS } from '../data/allenAnatomyQuestions';
 import { ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS } from '../data/allenAnimalTissuesQuestions';
+import { ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS } from '../data/allenAnimalKingdomQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 
 const ALL_CHEMISTRY_QUESTIONS_POOL = [
@@ -15,7 +16,8 @@ const ALL_CHEMISTRY_QUESTIONS_POOL = [
 const ALL_BIOLOGY_QUESTIONS_POOL = [
   ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
   ...ALL_ALLEN_ANATOMY_QUESTIONS,
-  ...ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS
+  ...ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS,
+  ...ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS
 ];
 import { FLASHCARDS_DATA, MIND_MAPS_DATA, PYQS_DATA, BOOKS_DATA } from '../data/mockData';
 import { Question, Flashcard } from '../types';

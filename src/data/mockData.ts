@@ -131,6 +131,13 @@ import {
   ALLEN_ANIMAL_TISSUES_EXERCISE_3_QUESTIONS,
   ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS
 } from './allenAnimalTissuesQuestions';
+import {
+  ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS,
+  ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS,
+  ALLEN_ANIMAL_KINGDOM_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS
+} from './allenAnimalKingdomQuestions';
+
 
 
 import {
@@ -2773,6 +2780,112 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     mnemonic: 'LAB RAT: Left Atrium Bicuspid, Right Atrium Tricuspid!',
     difficulty: 'Medium'
   },
+  {
+    id: 'test-zoo-allen-ak-ex1-part1',
+    title: 'ALLEN Zoology: Animal Kingdom - Non-Chordates Conceptual (Part 1)',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-I (Q1 to Q59)',
+    description: 'Master Porifera, Cnidaria, Ctenophora, Platyhelminthes, Aschelminthes, Annelida, Arthropoda, Mollusca, and Echinodermata.',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Authentic Allen Questions', 'Non-Chordate Invertebrates', 'Official AD Codes & Diagrams', 'Instant CBT Scoring'],
+    questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(0, 45)
+  },
+  {
+    id: 'test-zoo-allen-ak-ex1-part2',
+    title: 'ALLEN Zoology: Animal Kingdom - Chordates & Vertebrates (Part 2)',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-I (Q60 to Q131)',
+    description: 'Master fundamental chordate characters, Cyclostomata, Chondrichthyes, Osteichthyes, Amphibia, Reptilia, Aves, and Mammalia.',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Authentic Allen Questions', 'Protochordates, Pisces to Mammalia', 'Official AD Codes & Diagrams', 'Instant CBT Scoring'],
+    questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(59, 104)
+  },
+  {
+    id: 'test-zoo-allen-ak-ex2-pyq1',
+    title: 'ALLEN Zoology: Animal Kingdom - AIPMT & NEET PYQs 2006–2015',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-II (Part 1: Q1 to Q45)',
+    description: 'Comprehensive analysis of 10 years of AIPMT and NEET exam questions with authentic diagrams and official answer keys.',
+    durationMinutes: 45,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['45 Authentic AIPMT/NEET Questions', 'Year-Tagged 2006-2015', 'Original Figures & Diagrams', 'Instant CBT Scoring'],
+    questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(0, 45)
+  },
+  {
+    id: 'test-zoo-allen-ak-ex2-pyq2',
+    title: 'ALLEN Zoology: Animal Kingdom - NEET PYQs 2016–2022',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-II (Part 2: Q46 to Q86)',
+    description: 'Master recent high-yield NEET trends, COVID-19 re-tests, Paper-2, and Overseas exams with assertion-reason and matching formats.',
+    durationMinutes: 40,
+    totalMarks: 164,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['41 Authentic NEET Questions', 'Recent NTA Patterns 2016-2022', 'Statement & Match Formats', 'Instant CBT Scoring'],
+    questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(45, 86)
+  },
+  {
+    id: 'test-zoo-allen-ak-ex3-ncert',
+    title: 'ALLEN Zoology: Animal Kingdom - NCERT Analytical & Assertion-Reason',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-III (Complete Q1 to Q50)',
+    description: 'Rigorous analytical practice covering embryonic chordate schematics, NCERT 4-figure matching, and multi-statement challenges.',
+    durationMinutes: 45,
+    totalMarks: 200,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['50 NCERT & Analytical Questions', 'Schematics & Chordate Embryo Figures', 'Assertion-Reason & High-Order Thinking', 'Instant CBT Scoring'],
+    questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_3_QUESTIONS
+  },
+  {
+    id: 'test-zoo-allen-ak-speed',
+    title: 'ALLEN Zoology: Animal Kingdom - Grand Speed Challenge',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'High-Speed Comprehensive Invertebrate & Vertebrate Drill',
+    description: 'Rapid-fire 50 question simulation testing rapid recall across all 11 animal phyla and vertebrate classes under exam pressure.',
+    durationMinutes: 45,
+    totalMarks: 200,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['50 Mixed-Level Speed Questions', 'Comprehensive Phylum Coverage', 'Time-Pressure CBT Simulator', 'Instant Diagnostic Feedback'],
+    questions: [...ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(10, 35), ...ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(20, 45)]
+  },
+  {
+    id: 'test-zoo-allen-ak-full',
+    title: 'ALLEN Zoology: Animal Kingdom - Full Chapter Mock Simulator',
+    subject: 'Biology',
+    chapter: 'Animal Kingdom',
+    subtitle: 'Complete 90-Question NEET Grand Zoology Mock',
+    description: 'Full-scale NEET examination standard test covering the entire Animal Kingdom syllabus with authentic 90-question distribution.',
+    durationMinutes: 90,
+    totalMarks: 360,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['90 Full-Chapter Questions', 'Exact NEET Zoology Marking (+4, -1)', 'All Phyla & Classes Evaluated', 'National Rank & Percentile Predictor'],
+    questions: [...ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(0, 30), ...ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(0, 30), ...ALLEN_ANIMAL_KINGDOM_EXERCISE_3_QUESTIONS.slice(0, 30)]
+  },
+
   {
     id: 'fc-bio-2',
     subject: 'Biology',
