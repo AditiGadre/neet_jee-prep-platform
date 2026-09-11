@@ -1193,28 +1193,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               ))}
             </div>
           ) : (
-            <div className="p-8 text-center bg-gray-50/80 border border-dashed border-gray-200 rounded-xl space-y-3">
-              <div className="w-12 h-12 mx-auto rounded-full bg-blue-50 text-blue-600 flex items-center justify-center">
-                <BookOpen className="w-6 h-6" />
-              </div>
-              <div className="space-y-1">
-                <h3 className="text-sm font-bold text-gray-900">Books & Notes Library Active</h3>
-                <p className="text-xs text-gray-500 max-w-md mx-auto leading-relaxed">
-                  The Books & Notes library section is active and open. All previous sample books have been cleared. Upload custom NCERT notes, formula sheets, or reference PDFs via the Upload portal to add books here.
-                </p>
-              </div>
-              {onOpenUploadModal && (
-                <div className="pt-2">
-                  <button
-                    onClick={() => onOpenUploadModal('Biology', 'Books & Notes')}
-                    className="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors cursor-pointer"
-                  >
-                    <Upload className="w-3.5 h-3.5" />
-                    <span>Upload Notes or Books</span>
-                  </button>
-                </div>
-              )}
-            </div>
+            <div className="min-h-[160px]" />
           )}
         </div>
       )}
