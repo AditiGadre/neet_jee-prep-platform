@@ -3,6 +3,7 @@ import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructu
 import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuestions';
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
 import { ALL_ALLEN_ANATOMY_QUESTIONS } from '../data/allenAnatomyQuestions';
+import { ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS } from '../data/allenAnimalTissuesQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 
 const ALL_CHEMISTRY_QUESTIONS_POOL = [
@@ -13,7 +14,8 @@ const ALL_CHEMISTRY_QUESTIONS_POOL = [
 
 const ALL_BIOLOGY_QUESTIONS_POOL = [
   ...ALL_FINGERTIPS_BIOLOGY_QUESTIONS,
-  ...ALL_ALLEN_ANATOMY_QUESTIONS
+  ...ALL_ALLEN_ANATOMY_QUESTIONS,
+  ...ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS
 ];
 import { FLASHCARDS_DATA, MIND_MAPS_DATA, PYQS_DATA, BOOKS_DATA } from '../data/mockData';
 import { Question, Flashcard } from '../types';

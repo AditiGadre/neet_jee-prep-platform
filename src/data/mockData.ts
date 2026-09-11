@@ -125,6 +125,13 @@ import {
   ALLEN_ANATOMY_EXERCISE_3_QUESTIONS,
   ALL_ALLEN_ANATOMY_QUESTIONS
 } from './allenAnatomyQuestions';
+import {
+  ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS,
+  ALLEN_ANIMAL_TISSUES_EXERCISE_2_QUESTIONS,
+  ALLEN_ANIMAL_TISSUES_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_ANIMAL_TISSUES_QUESTIONS
+} from './allenAnimalTissuesQuestions';
+
 
 import {
   UNITS_BOOK_QUESTIONS,
@@ -2630,6 +2637,115 @@ export const TEST_SERIES_DATA: TestItem[] = [
       ...ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(0, 20),
       ...ALLEN_ANATOMY_EXERCISE_2_QUESTIONS.slice(0, 15),
       ...ALLEN_ANATOMY_EXERCISE_3_QUESTIONS.slice(0, 10)
+    ]
+  },
+  {
+    id: 'test-zoo-allen-tissues-drill1',
+    title: 'ALLEN Animal Tissues - Drill 1 (Epithelial Tissue Fundamentals)',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-I (Part 1: Q1-Q35)',
+    description: 'Master simple squamous, cuboidal, columnar, ciliated, and compound epithelia, germinal epithelium, and basement membrane.',
+    durationMinutes: 25,
+    totalMarks: 140,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['35 Authentic Allen Questions', 'Official AT0001-AT0035 Codes', 'Verified NCERT Explanations', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(0, 35)
+  },
+  {
+    id: 'test-zoo-allen-tissues-drill2',
+    title: 'ALLEN Animal Tissues - Drill 2 (Glands, Cell Junctions & Epithelial Types)',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-I (Part 2: Q36-Q70)',
+    description: 'Master endocrine/exocrine glands, apocrine, holocrine, merocrine glands, cell junctions, and heart tissues.',
+    durationMinutes: 25,
+    totalMarks: 140,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['35 Authentic Allen Questions', 'Glands & Cell Junctions', 'Organ Level Anatomy', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(35, 70)
+  },
+  {
+    id: 'test-zoo-allen-tissues-drill3',
+    title: 'ALLEN Animal Tissues - Drill 3 (Connective Tissue, Cartilage & Bone)',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-I (Part 3: Q71-Q100)',
+    description: 'Hyaline, elastic, white fibrous, calcified cartilages, long bone diaphysis, Haversian canals, and Volkmann canals.',
+    durationMinutes: 25,
+    totalMarks: 120,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['30 Authentic Allen Questions', 'Skeletal Connective Tissues', 'Haversian Canal Systems', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(70, 100)
+  },
+  {
+    id: 'test-zoo-allen-tissues-drill4',
+    title: 'ALLEN Animal Tissues - Drill 4 (Fibers, Blood, Adipose & Bone Histology)',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-I (Part 4: Q101-Q126)',
+    description: 'Collagen and elastin fibres, tendons, ligaments, areolar, adipose tissue, mast cells, and bone mineral composition.',
+    durationMinutes: 20,
+    totalMarks: 104,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['26 Authentic Allen Questions', 'Connective Tissue Proper', 'Ligaments & Tendons', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(100, 126)
+  },
+  {
+    id: 'test-zoo-allen-tissues-pyq',
+    title: 'ALLEN Animal Tissues - AIPMT / NEET 2006–2022 PYQ with Diagrams',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-II (Q1-Q31)',
+    description: 'Authentic AIPMT and NEET past year questions with original labelled histological diagrams and match-the-column grids.',
+    durationMinutes: 25,
+    totalMarks: 124,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['31 Official NEET/AIPMT Questions', 'Includes 3 High-Res Diagrams', '100% Official Answer Keys', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANIMAL_TISSUES_EXERCISE_2_QUESTIONS
+  },
+  {
+    id: 'test-zoo-allen-tissues-analytical',
+    title: 'ALLEN Animal Tissues - NCERT Based & Analytical Grand Drill',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'ALLEN Class 11 Zoology - Exercise-III (Q1-Q41)',
+    description: 'NCERT Exemplar and advanced analytical questions with full diagrams, covering junction types, gland anatomy, and tissue categories.',
+    durationMinutes: 35,
+    totalMarks: 164,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['41 Analytical & NCERT Exemplar Qs', 'Includes 4 High-Res Diagrams', 'Critical Thinking Drills', 'Timer & Instant Scorecard'],
+    questions: ALLEN_ANIMAL_TISSUES_EXERCISE_3_QUESTIONS
+  },
+  {
+    id: 'test-zoo-allen-tissues-full',
+    title: 'ALLEN Animal Tissues - Full Chapter Grand Mock',
+    subject: 'Biology',
+    chapter: 'Structural Organisation in Animals',
+    subtitle: 'Comprehensive CBT Exam Simulation (45 Questions)',
+    description: 'Full chapter NEET simulation drill covering all animal tissues topics with real-time countdown timer, instant evaluation, and detailed step-by-step solutions.',
+    durationMinutes: 30,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: ['NTA NEET Pattern 45 Qs', 'Curated from 198 Official Allen Questions', 'Comprehensive Topic Coverage', 'Timer & Instant Scorecard'],
+    questions: [
+      ...ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(0, 20),
+      ...ALLEN_ANIMAL_TISSUES_EXERCISE_2_QUESTIONS.slice(0, 15),
+      ...ALLEN_ANIMAL_TISSUES_EXERCISE_3_QUESTIONS.slice(0, 10)
     ]
   }
 ];
