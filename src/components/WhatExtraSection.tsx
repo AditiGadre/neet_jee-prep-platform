@@ -120,9 +120,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   // Mind Map State
   const [selectedMindMapId, setSelectedMindMapId] = useState<string>(mindMaps[0]?.id || '');
 
-  // DPP Generator State
+  // DPP State
   const [dppDate, setDppDate] = useState<string>(new Date().toISOString().split('T')[0]);
-  const [dppSubject, setDppSubject] = useState<string>('Biology Only');
+  const [dppSubject, setDppSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Physics');
+  const [dppChapter, setDppChapter] = useState<string>('Thermodynamics');
+  const [dppQCount, setDppQCount] = useState<number>(15);
   const [dppLevel, setDppLevel] = useState<string>('CBT Standard Level');
   const [isGeneratingDpp, setIsGeneratingDpp] = useState<boolean>(false);
   const [generatedDppSuccess, setGeneratedDppSuccess] = useState<boolean>(false);
@@ -174,11 +176,11 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Sub-tab definitions (Student High-Yield Precision Suite)
   const subModules = [
-    { id: 'custom-test', label: 'Custom Test Generator', icon: Sliders, desc: 'Generate high-yield chapter tests and printable papers by difficulty.' },
+    { id: 'custom-test', label: 'Custom Practice Test Generator', icon: Sliders, desc: 'Generate high-yield chapter tests and printable papers by difficulty.' },
     { id: 'flash-cards', label: 'Flash Cards', icon: Layers, desc: '30+ high-yield revision cards with formulas, reactions, diagrams & mnemonics.' },
     { id: 'mind-maps', label: 'Mind Maps', icon: Network, desc: 'Interactive concept visual trees for rapid revision.' },
     { id: 'analytics', label: 'Student Analytics', icon: LineChart, desc: 'Score analysis, accuracy, weak topics & progress graphs.' },
-    { id: 'dpp-generator', label: 'DPP Generator', icon: FileSpreadsheet, desc: 'Personalized daily practice papers with instant PDF download.' },
+    { id: 'dpp-generator', label: 'DPP', icon: FileSpreadsheet, desc: 'Sub-topic daily practice papers with instant solutions and PDF download.' },
     { id: 'books', label: 'Books & Notes', icon: BookMarked, desc: 'NCERT highlighters, revision notes, formula books & downloadable PDFs.' },
     { id: 'pyqs', label: 'NEET/JEE PYQs', icon: HelpCircle, desc: 'Chapter, topic & year-wise previous year questions with step solutions.' },
     { id: 'my-downloads', label: 'My Download Vault', icon: ArrowDownToLine, desc: 'Preserved download history of question papers, scorecards, NCERT books and DPPs.' }
@@ -200,6 +202,18 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       setCustomChapter(currentChapterList[0]);
     }
   }, [customSubject, currentChapterList, customChapter]);
+
+  const dppChapterList = dppSubject === 'Biology'
+    ? biologyChapters
+    : dppSubject === 'Chemistry'
+    ? chemistryChapters
+    : physicsChapters;
+
+  useEffect(() => {
+    if (dppChapterList.length > 0 && !dppChapterList.includes(dppChapter)) {
+      setDppChapter(dppChapterList[0]);
+    }
+  }, [dppSubject, dppChapterList, dppChapter]);
 
   // Unused question pool calculation for active chapter
   const currentPoolStats = useMemo(() => {
@@ -299,21 +313,23 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     setIsGeneratingDpp(true);
     setTimeout(() => {
       try {
-        const sub = dppSubject.includes('Chemistry') ? 'Chemistry' : dppSubject.includes('Physics') ? 'Physics' : 'Biology';
-        const stats = getUnusedQuestions(sub, 'All Chapters');
-        let pool = stats.unusedQuestions;
-        if (pool.length < 45) {
-          pool = getUnifiedQuestionBank(sub);
+        let pool = getUnifiedQuestionBank(dppSubject, dppChapter);
+        if (pool.length < dppQCount) {
+          const allSubject = getUnifiedQuestionBank(dppSubject);
+          const seen = new Set(pool.map(q => q.id));
+          const supplement = allSubject.filter(q => !seen.has(q.id));
+          pool = [...pool, ...supplement];
         }
         if (pool.length === 0) {
           pool = SAMPLE_QUESTIONS;
         }
-        const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, 45);
+        const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
         markQuestionsAsConsumed(selected.map(q => q.id));
 
         downloadDppPDF({
           date: dppDate,
           subject: dppSubject,
+          chapter: dppChapter,
           level: dppLevel,
           questions: selected
         });
@@ -329,35 +345,37 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Handle Attempt DPP Live in CBT Mode
   const handleAttemptDppLive = () => {
-    const sub = dppSubject.includes('Chemistry') ? 'Chemistry' : dppSubject.includes('Physics') ? 'Physics' : 'Biology';
-    const stats = getUnusedQuestions(sub, 'All Chapters');
-    let pool = stats.unusedQuestions;
-    if (pool.length < 45) {
-      pool = getUnifiedQuestionBank(sub);
+    let pool = getUnifiedQuestionBank(dppSubject, dppChapter);
+    if (pool.length < dppQCount) {
+      const allSubject = getUnifiedQuestionBank(dppSubject);
+      const seen = new Set(pool.map(q => q.id));
+      const supplement = allSubject.filter(q => !seen.has(q.id));
+      pool = [...pool, ...supplement];
     }
     if (pool.length === 0) {
       pool = SAMPLE_QUESTIONS;
     }
-    const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, 45);
+    const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
     markQuestionsAsConsumed(selected.map(q => q.id));
 
     const dppTest: TestItem = {
       id: `dpp-live-${Date.now()}`,
-      title: `Daily Practice Paper (DPP) - ${dppSubject} (${dppDate})`,
+      title: `DPP - ${dppSubject}: ${dppChapter} (${selected.length} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${dppSubject} &bull; ${dppLevel} (45 High-Yield Speed Practice Questions)`,
+      syllabus: `${dppSubject} › ${dppChapter} • ${dppLevel} (${selected.length} Sub-Topic Questions with Step-by-Step Solutions)`,
       totalQuestions: selected.length,
-      durationMinutes: 45,
+      durationMinutes: selected.length,
       totalMarks: selected.length * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
       difficulty: dppLevel === 'AIIMS Rankers Booster' ? 'Hard' : 'Medium',
       cbtMode: true,
       features: [
         `Subject: ${dppSubject}`,
+        `Sub-Topic: ${dppChapter}`,
         `Target Date: ${dppDate}`,
-        `Standard: ${dppLevel}`,
-        `Complete Step-by-Step Derivations`
+        `Questions: ${selected.length} Sub-Topic Questions with Full Solutions`,
+        `Standard: ${dppLevel}`
       ],
       questions: selected
     };
@@ -462,7 +480,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               2. What Extra We Offer (8 Precision Learning Tools)
             </h1>
             <p className="mt-1 text-xs text-gray-600 max-w-3xl">
-              Custom CBT Test Generator, Interactive Flashcards, Visual Mind Maps, Personalized DPP Generator, Books & Notes, PYQs, and tracked PDF download vault.
+              Custom Practice Test Generator, Interactive Flashcards, Visual Mind Maps, DPP, Books & Notes, PYQs, and tracked PDF download vault.
             </p>
           </div>
         </div>
@@ -495,14 +513,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       </div>
 
-      {/* 1. CUSTOM TEST GENERATOR (INSTANT 0MS BUILDER) */}
+      {/* 1. CUSTOM PRACTICE TEST GENERATOR (INSTANT 0MS BUILDER) */}
       {activeSubTab === 'custom-test' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <Sliders className="w-4 h-4 text-blue-600" />
-                <span>Custom CBT Test Generator & Paper Factory</span>
+                <span>Custom Practice Test Generator</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
                 Customize subject, chapter, difficulty standard, and question count to launch a personalized CBT test or export a printable test paper.
@@ -1019,57 +1037,84 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         </div>
       )}
 
-      {/* 5. DPP GENERATOR (NON-BLOCKING & INSTANT) */}
+      {/* 5. DPP (SUB-TOPIC PRACTICE PAPERS WITH 10-15 QS & SOLUTIONS) */}
       {activeSubTab === 'dpp-generator' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">
             <div>
               <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
                 <FileSpreadsheet className="w-4 h-4 text-blue-600" />
-                <span>Daily Practice Paper (DPP) Generator & Offline PDF</span>
+                <span>DPP</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Extracts daily practice papers with step solutions and downloads as printable PDFs.
+                Select a subject and sub-topic to generate 10–15 practice questions with verified answers and step-by-step solutions. Download as printable offline PDF or attempt live.
               </p>
             </div>
             <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 self-start sm:self-auto uppercase">
-              100% Unique Questions
+              10–15 Sub-Topic Qs
             </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {/* 1. Subject */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">DPP Schedule Date</label>
-              <input
-                type="date"
-                value={dppDate}
-                onChange={e => setDppDate(e.target.value)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
-              />
-            </div>
-
-            <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">Subject Coverage</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">1. Subject</label>
               <select
                 value={dppSubject}
-                onChange={e => setDppSubject(e.target.value)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
+                onChange={e => setDppSubject(e.target.value as 'Physics' | 'Chemistry' | 'Biology')}
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-blue-500"
               >
-                <option value="Biology Only">🧬 Biology (Botany & Zoology High-Yield Focus)</option>
-                <option value="Chemistry Only">🧪 Chemistry (Physical, Inorganic, Organic)</option>
-                <option value="All Subjects">⚡ Combined PCB (Physics, Chemistry, Biology)</option>
+                <option value="Physics">⚛️ Physics</option>
+                <option value="Chemistry">🧪 Chemistry</option>
+                <option value="Biology">🧬 Biology</option>
               </select>
             </div>
 
+            {/* 2. Sub-Topic / Chapter */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">Target Standard</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Sub-Topic</label>
+              <select
+                value={dppChapter}
+                onChange={e => setDppChapter(e.target.value)}
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-blue-500"
+              >
+                {dppChapterList.map(ch => (
+                  <option key={ch} value={ch}>{ch}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* 3. Question Count (10-15 Qs) */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Question Count</label>
+              <div className="grid grid-cols-2 gap-1.5">
+                {[10, 15].map(cnt => (
+                  <button
+                    key={cnt}
+                    type="button"
+                    onClick={() => setDppQCount(cnt)}
+                    className={`py-1.5 px-2 rounded text-xs font-bold border transition-colors cursor-pointer text-center ${
+                      dppQCount === cnt
+                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                        : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border-gray-300'
+                    }`}
+                  >
+                    {cnt} Questions
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* 4. Target Standard */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Target Standard</label>
               <select
                 value={dppLevel}
                 onChange={e => setDppLevel(e.target.value)}
-                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500"
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-blue-500"
               >
-                <option value="CBT Standard Level">CBT Standard NEET/JEE Level</option>
-                <option value="AIIMS Rankers Booster">AIIMS / Top 100 Rankers Booster</option>
+                <option value="CBT Standard Level">CBT Standard Level</option>
+                <option value="AIIMS Rankers Booster">AIIMS Rankers Booster</option>
                 <option value="Weak Area Remedial">Weak Area Remedial Drill</option>
               </select>
             </div>
@@ -1078,29 +1123,37 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           <div className="p-4 rounded bg-gray-50 border border-gray-200 space-y-3">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
-                <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-blue-100 text-blue-800 uppercase font-mono">
-                  DPP-#{dppDate.replace(/-/g, '')}
-                </span>
-                <h3 className="text-sm font-bold text-gray-900 mt-1">
-                  Daily Practice Paper for {dppDate} &bull; {dppSubject}
+                <div className="flex items-center space-x-2 flex-wrap gap-y-1">
+                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-blue-100 text-blue-800 uppercase font-mono">
+                    DPP &bull; {dppSubject}
+                  </span>
+                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase font-mono">
+                    {dppQCount} Questions ({dppQCount * 4} Marks)
+                  </span>
+                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-purple-100 text-purple-800 uppercase font-mono">
+                    {dppLevel}
+                  </span>
+                </div>
+                <h3 className="text-sm font-bold text-gray-900 mt-1.5">
+                  {dppSubject}: {dppChapter}
                 </h3>
-                <p className="text-xs text-gray-500 font-mono">
-                  45 High-Yield Questions &bull; 45 Minutes Time Target &bull; +4 / -1 Marking
+                <p className="text-xs text-gray-500 font-mono mt-0.5">
+                  {dppQCount} Sub-Topic Questions strictly from {dppChapter} &bull; Official Answer Key & Step Solutions &bull; +4 / -1 Marking
                 </p>
               </div>
 
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 shrink-0">
                 <button
                   onClick={handleDownloadDpp}
                   disabled={isGeneratingDpp}
-                  className="px-3 py-1.5 rounded bg-white hover:bg-gray-100 text-gray-700 text-xs font-semibold flex items-center space-x-1.5 border border-gray-300 shadow-xs cursor-pointer disabled:opacity-50"
+                  className="px-3.5 py-2 rounded bg-white hover:bg-gray-100 text-gray-800 text-xs font-semibold flex items-center space-x-1.5 border border-gray-300 shadow-xs cursor-pointer disabled:opacity-50"
                 >
-                  <Download className="w-3.5 h-3.5" />
+                  <Download className="w-3.5 h-3.5 text-blue-600" />
                   <span>{isGeneratingDpp ? 'Generating PDF...' : 'Download DPP PDF'}</span>
                 </button>
                 <button
                   onClick={handleAttemptDppLive}
-                  className="px-3 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-xs cursor-pointer"
+                  className="px-3.5 py-2 rounded bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-xs cursor-pointer"
                 >
                   <Play className="w-3.5 h-3.5 fill-current" />
                   <span>Attempt DPP Live</span>
@@ -1111,7 +1164,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             {generatedDppSuccess && (
               <div className="p-2.5 rounded bg-green-50 border border-green-200 text-green-800 text-xs flex items-center space-x-1.5 animate-in fade-in">
                 <Check className="w-3.5 h-3.5 text-green-600" />
-                <span>Daily Practice Paper (DPP) PDF generated and logged to download tracker!</span>
+                <span>Daily Practice Paper (DPP) PDF generated with complete answer key & step solutions! Logged to download vault.</span>
               </div>
             )}
           </div>

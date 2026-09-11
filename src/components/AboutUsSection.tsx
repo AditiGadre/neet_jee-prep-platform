@@ -116,7 +116,7 @@ export const AboutUsSection: React.FC = () => {
             </div>
             <h3 className="text-xs font-bold text-gray-900">4. Revision Tools</h3>
             <p className="text-xs text-gray-500 leading-relaxed">
-              Instant interactive flashcards, visual mind maps, NCERT line-by-line notes, formula handbooks, and DPP generator.
+              Instant interactive flashcards, visual mind maps, NCERT line-by-line notes, formula handbooks, and DPP.
             </p>
           </div>
 

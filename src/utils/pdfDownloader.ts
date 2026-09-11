@@ -1168,21 +1168,23 @@ export function downloadBookPDF(book: BookItem): boolean {
 /**
  * Download DPP PDF
  */
-export function downloadDppPDF(dppData: { date: string; subject: string; level: string; questions: Question[] }): boolean {
-  if (!checkAuthForDownload(`DPP: ${dppData.subject}`, 'DPP')) {
+export function downloadDppPDF(dppData: { date: string; subject: string; chapter?: string; level: string; questions: Question[] }): boolean {
+  const dppTitle = `DPP: ${dppData.subject}${dppData.chapter ? ` - ${dppData.chapter}` : ''}`;
+  if (!checkAuthForDownload(dppTitle, 'DPP')) {
     return false;
   }
 
-  const fileSize = '1.1 MB';
+  const fileSize = '1.2 MB';
 
   const htmlBody = `
     <div class="test-title-bar">
-      <h1 style="font-size: 18px; margin-bottom: 4px;">Daily Practice Problem (DPP) - ${dppData.subject}</h1>
+      <h1 style="font-size: 18px; margin-bottom: 4px;">Daily Practice Paper (DPP) - ${dppData.subject}${dppData.chapter ? ` &bull; ${dppData.chapter}` : ''}</h1>
       <div class="meta-grid">
         <div class="meta-item"><strong>Target Date:</strong> ${dppData.date}</div>
+        ${dppData.chapter ? `<div class="meta-item"><strong>Sub-Topic:</strong> ${dppData.chapter}</div>` : ''}
         <div class="meta-item"><strong>Level:</strong> ${dppData.level}</div>
-        <div class="meta-item"><strong>Questions:</strong> ${dppData.questions.length} Qs</div>
-        <div class="meta-item"><strong>Standard:</strong> NTA NEET Speed Practice</div>
+        <div class="meta-item"><strong>Questions:</strong> ${dppData.questions.length} High-Yield Qs</div>
+        <div class="meta-item"><strong>Marking:</strong> +4 Correct, -1 Incorrect</div>
       </div>
     </div>
 
@@ -1191,13 +1193,14 @@ export function downloadDppPDF(dppData: { date: string; subject: string; level: 
         <div class="question-card">
           <div style="margin-bottom: 6px;">
             <span class="q-num">Q${idx + 1}.</span>
-            <span>${formatMathAndFormulas(cleanOcrText(q.questionText))}</span>
+            <span>${formatMathAndFormulas(cleanOcrText(q.questionText || (q as any).question || ''))}</span>
           </div>
 
           ${q.diagramSvg ? `<div style="margin: 10px 0; text-align: center;">${q.diagramSvg}</div>` : ''}
+          ${q.image && !q.diagramSvg ? `<div style="margin: 10px 0; text-align: center;"><img src="${q.image}" style="max-height: 200px; border-radius: 8px;" /></div>` : ''}
 
           <div class="options-grid">
-            ${q.options.map((opt, oIdx) => `
+            ${(q.options || []).map((opt, oIdx) => `
               <div class="option-item">
                 <strong>(${String.fromCharCode(65 + oIdx)})</strong> ${formatMathAndFormulas(cleanOcrText(opt))}
               </div>
@@ -1206,10 +1209,40 @@ export function downloadDppPDF(dppData: { date: string; subject: string; level: 
         </div>
       `).join('')}
     </div>
+
+    <!-- OFFICIAL ANSWER KEY & SOLUTIONS -->
+    <div style="margin-top: 28px; page-break-before: always;">
+      <h3 style="font-size: 14px; border-bottom: 2px solid #16a34a; padding-bottom: 6px; margin-bottom: 12px; color: #15803d;">
+        📊 OFFICIAL ANSWER KEY MATRIX (${dppData.chapter || dppData.subject})
+      </h3>
+      <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; font-family: 'JetBrains Mono', monospace; font-size: 11px; margin-bottom: 16px;">
+        ${dppData.questions.map((q, idx) => `
+          <div style="padding: 6px; background: #f0fdf4; border: 1px solid #bbf7d0; text-align: center; border-radius: 4px;">
+            <strong>Q${idx + 1}:</strong> (${String.fromCharCode(65 + q.correctAnswer)})
+          </div>
+        `).join('')}
+      </div>
+
+      <h4 style="font-size: 13px; font-weight: 800; color: #0f172a; margin: 18px 0 10px 0; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px;">
+        📘 DETAILED STEP-BY-STEP EXPLANATIONS & NCERT DERIVATIONS
+      </h4>
+      <div style="margin-top: 10px;">
+        ${dppData.questions.map((q, idx) => `
+          <div style="margin-bottom: 14px; padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 11px; line-height: 1.55;">
+            <div style="font-weight: 800; color: #0f172a; margin-bottom: 4px;">
+              Q${idx + 1} Correct Answer: Option (${String.fromCharCode(65 + q.correctAnswer)}) &bull; ${formatMathAndFormulas(cleanOcrText(q.options[q.correctAnswer] || ''))}
+            </div>
+            <div style="color: #334155; white-space: pre-line;">
+              ${q.explanation ? formatMathAndFormulas(cleanOcrText(q.explanation)) : 'Verified answer per official NCERT curriculum.'}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
   `;
 
   trackDownload({
-    title: `DPP: ${dppData.subject} (${dppData.date})`,
+    title: `${dppTitle} (${dppData.date})`,
     category: 'DPP',
     subject: dppData.subject,
     fileSize,
@@ -1217,15 +1250,16 @@ export function downloadDppPDF(dppData: { date: string; subject: string; level: 
   });
 
   recordSuperUserNotification({
-    contentTitle: `Password-Protected DPP: ${dppData.subject}`,
+    contentTitle: `Password-Protected DPP: ${dppData.subject}${dppData.chapter ? ` - ${dppData.chapter}` : ''}`,
     category: 'DPP',
     fileSize,
     subject: dppData.subject
   });
 
+  const cleanFileSub = `${dppData.subject}_${dppData.chapter || ''}`.replace(/[^a-zA-Z0-9]/g, '_');
   downloadHtmlDocument(
-    `NeetCbt_DPP_${dppData.subject.replace(/[^a-zA-Z0-9]/g, '_')}_${dppData.date}`,
-    `DPP: ${dppData.subject}`,
+    `NeetCbt_DPP_${cleanFileSub}_${dppData.date}`,
+    dppTitle,
     htmlBody
   );
 
