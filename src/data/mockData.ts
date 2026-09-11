@@ -114,6 +114,12 @@ import {
   ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS
 } from './allenAtomicStructureQuestions';
 import {
+  ALLEN_MOLE_EXERCISE_1_QUESTIONS,
+  ALLEN_MOLE_EXERCISE_2_QUESTIONS,
+  ALLEN_MOLE_EXERCISE_3_QUESTIONS,
+  ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
+} from './allenMoleConceptQuestions';
+import {
   UNITS_BOOK_QUESTIONS,
   VECTORS_BOOK_QUESTIONS,
   MOTION_BOOK_QUESTIONS,
@@ -2398,6 +2404,116 @@ export const TEST_SERIES_DATA: TestItem[] = [
       ...ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(55, 75),
       ...ALLEN_ATOMIC_EXERCISE_2_QUESTIONS.slice(0, 7),
       ...ALLEN_ATOMIC_EXERCISE_3_QUESTIONS.slice(0, 3)
+    ]
+  },
+  {
+    id: 'test-chem-allen-mole-drill1',
+    title: 'ALLEN Mole Concept - Drill 1 (Moles & Number of Particles)',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'ALLEN Class 11 Chemistry - Exercise-I (Part 1: Q1-Q27)',
+    description: 'Master fundamentals of mole concept, gram atoms, molar mass, Avogadro\'s number, atomicity, and number of subatomic particles.',
+    durationMinutes: 25,
+    totalMarks: 108,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Easy',
+    cbtMode: true,
+    features: ['27 Authentic Allen Questions', 'Official MC0001-MC0190 Codes', 'Multi-line NCERT Derivations', 'Timer & Instant Scorecard'],
+    questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(0, 27)
+  },
+  {
+    id: 'test-chem-allen-mole-drill2',
+    title: 'ALLEN Mole Concept - Drill 2 (Empirical Formula & Stoichiometry)',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'ALLEN Class 11 Chemistry - Exercise-I (Part 2: Q28-Q56)',
+    description: 'Empirical & molecular formula determination, percentage composition, hydrocarbon combustion, eudiometry, and limiting reagent calculations.',
+    durationMinutes: 25,
+    totalMarks: 116,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['29 Authentic Allen Questions', 'Stoichiometry & Eudiometry Drill', 'Step-by-Step Reaction Balances', 'Timer & Instant Scorecard'],
+    questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(27, 56)
+  },
+  {
+    id: 'test-chem-allen-mole-drill3',
+    title: 'ALLEN Mole Concept - Drill 3 (Equivalent Weight & Valency)',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'ALLEN Class 11 Chemistry - Exercise-I (Part 3: Q57-Q80)',
+    description: 'Equivalent weight of acids, bases, salts, metal oxides, hydrides, and chlorides with neutralization and displacement methods.',
+    durationMinutes: 20,
+    totalMarks: 96,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['24 Authentic Allen Questions', 'Displacement & Oxide Formations', 'Detailed Equivalent Mass Steps', 'Timer & Instant Scorecard'],
+    questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(56, 80)
+  },
+  {
+    id: 'test-chem-allen-mole-drill4',
+    title: 'ALLEN Mole Concept - Drill 4 (Atomic Weights & Chemical Laws)',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'ALLEN Class 11 Chemistry - Exercise-I (Part 4: Q81-Q113)',
+    description: 'Dulong & Petit\'s law, Victor Mayer\'s method, isomorphism, and classical laws of chemical combination (Dalton, Proust, Gay-Lussac, Avogadro).',
+    durationMinutes: 30,
+    totalMarks: 132,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['33 Authentic Allen Questions', 'Isomorphism & Victor Mayer Calculations', 'Laws of Chemical Combination', 'Timer & Instant Scorecard'],
+    questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(80, 113)
+  },
+  {
+    id: 'test-chem-allen-mole-pyq',
+    title: 'ALLEN Mole Concept - AIPMT & NEET PYQs (2009–2022)',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'ALLEN Class 11 Chemistry - Exercise-II (All 26 Past Year Questions)',
+    description: 'Authentic past 14 years AIPMT/NEET questions with official year tags, limiting reagents, Avogadro constant changes, coordination complexes, and significant figures.',
+    durationMinutes: 25,
+    totalMarks: 104,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Medium',
+    cbtMode: true,
+    features: ['26 Real AIPMT & NEET Questions (2009-2022)', 'Year Tags & Official Allen Keys', 'Full Step-by-Step Derivations', 'Timer & Instant Scorecard'],
+    questions: ALLEN_MOLE_EXERCISE_2_QUESTIONS
+  },
+  {
+    id: 'test-chem-allen-mole-analytical',
+    title: 'ALLEN Mole Concept - Master Level Analytical Drill',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'ALLEN Class 11 Chemistry - Exercise-III (All 31 Analytical Questions)',
+    description: 'High-difficulty multi-concept analytical problems covering gas mixtures, thermal decomposition of carbonates/iodates, eudiometry, percent purity, and volume contraction.',
+    durationMinutes: 30,
+    totalMarks: 124,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Hard',
+    cbtMode: true,
+    features: ['31 Advanced Master Level Questions', 'Multi-Step Chemical Stoichiometry', 'Examiner Pro-Tips & Edge Cases', 'Timer & Instant Scorecard'],
+    questions: ALLEN_MOLE_EXERCISE_3_QUESTIONS
+  },
+  {
+    id: 'test-chem-allen-mole-full',
+    title: 'ALLEN Mole Concept - Full Chapter Grand Mock',
+    subject: 'Chemistry',
+    chapter: 'Some Basic Concepts of Chemistry',
+    subtitle: 'Comprehensive CBT Exam Simulation (45 Questions)',
+    description: 'Full chapter NEET simulation drill covering all mole concept topics with real-time countdown timer, instant evaluation, and detailed step-by-step solutions.',
+    durationMinutes: 30,
+    totalMarks: 180,
+    negativeMarking: '+4 for correct, -1 for incorrect',
+    difficulty: 'Mixed',
+    cbtMode: true,
+    features: ['NTA NEET Pattern 45 Qs', 'Curated from 170 Official Allen Questions', 'Comprehensive Topic Coverage', 'Timer & Instant Scorecard'],
+    questions: [
+      ...ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(0, 15),
+      ...ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(35, 55),
+      ...ALLEN_MOLE_EXERCISE_2_QUESTIONS.slice(0, 6),
+      ...ALLEN_MOLE_EXERCISE_3_QUESTIONS.slice(0, 4)
     ]
   }
 ];

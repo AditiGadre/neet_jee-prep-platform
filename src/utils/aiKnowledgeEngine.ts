@@ -1,11 +1,13 @@
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
 import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructureQuestions';
+import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuestions';
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 
 const ALL_CHEMISTRY_QUESTIONS_POOL = [
   ...ALL_CHEMISTRY_MASTER_QUESTIONS,
-  ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS
+  ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
+  ...ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
 ];
 import { FLASHCARDS_DATA, MIND_MAPS_DATA, PYQS_DATA, BOOKS_DATA } from '../data/mockData';
 import { Question, Flashcard } from '../types';

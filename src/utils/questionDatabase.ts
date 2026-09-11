@@ -2,6 +2,7 @@ import { Question } from '../types';
 import { ALL_FINGERTIPS_BIOLOGY_QUESTIONS } from '../data/fingertipsBiologyQuestions';
 import { ALL_CHEMISTRY_MASTER_QUESTIONS } from '../data/chemistryQuestions';
 import { ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS } from '../data/allenAtomicStructureQuestions';
+import { ALL_ALLEN_MOLE_CONCEPT_QUESTIONS } from '../data/allenMoleConceptQuestions';
 import { ALL_PHYSICS_MASTER_QUESTIONS } from '../data/physicsMasterQuestions';
 import { supabase } from '../supabaseClient';
 import { recordSuperUserNotification } from './superUserNotifier';
@@ -76,7 +77,8 @@ function buildChapterIndex(questions: Question[]) {
 const bioIndex = buildChapterIndex(ALL_FINGERTIPS_BIOLOGY_QUESTIONS);
 export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = [
   ...ALL_CHEMISTRY_MASTER_QUESTIONS,
-  ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS
+  ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
+  ...ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
 ];
 const chemIndex = buildChapterIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS);
 const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS);
