@@ -239,10 +239,10 @@ export const TEST_SERIES_DATA: TestItem[] = [
   // ==========================================
   {
     id: 'test-sunday-01',
-    title: 'Sunday Mock 01: Diversity in Living World (45 Qs)',
+    title: 'Sunday Mock 01: The Living World (45 Qs)',
     category: 'neet_mock',
     exam: 'NEET',
-    syllabus: 'Unit 1: The Living World, Biological Classification, Plant Kingdom & Animal Kingdom (45 High-Yield NCERT Questions)',
+    syllabus: 'The Living World: What is Living?, Diversity, Binomial Nomenclature, Taxonomic Categories & Taxonomical Aids',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
@@ -1523,10 +1523,10 @@ export const TEST_SERIES_DATA: TestItem[] = [
   // ==========================================
   {
     id: 'test-phy-ch01',
-    title: 'Physics Chapter 01: Physical World & Units and Measurements (45 Qs)',
+    title: 'Physics Chapter 01: Units and Measurements (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Physics Chapter 01: Physical World & Units and Measurements (Numerical & Conceptual 45 Qs)',
+    syllabus: 'Physics Chapter 01: Units and Measurements (Numerical & Conceptual 45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
@@ -1553,10 +1553,10 @@ export const TEST_SERIES_DATA: TestItem[] = [
   },
   {
     id: 'test-phy-ch03',
-    title: 'Physics Chapter 03: Motion in a Straight Line (1D Kinematics) (45 Qs)',
+    title: 'Physics Chapter 03: Kinematics (Motion in 1D & 2D) (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Physics Chapter 03: Motion in a Straight Line (1D Kinematics) (Numerical & Conceptual 45 Qs)',
+    syllabus: 'Physics Chapter 03: Kinematics - Motion in a Straight Line (1D) & Motion in a Plane (2D & Projectile Motion) (45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
@@ -1564,14 +1564,14 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MOTION_BOOK_QUESTIONS)
+    questions: get45([...MOTION_BOOK_QUESTIONS, ...MOTION_2D_QUESTIONS])
   },
   {
     id: 'test-phy-ch04',
-    title: 'Physics Chapter 04: Motion in a Plane (2D & Projectile Motion) (45 Qs)',
+    title: 'Physics Chapter 04: Kinematics Advanced (Motion in 1D & 2D) (45 Qs)',
     category: 'minor',
     exam: 'NEET',
-    syllabus: 'Physics Chapter 04: Motion in a Plane (2D & Projectile Motion) (Numerical & Conceptual 45 Qs)',
+    syllabus: 'Physics Chapter 04: Kinematics - Motion in a Plane, Relative Velocity & Projectile Mechanics (45 Qs)',
     totalQuestions: 45,
     durationMinutes: 15,
     totalMarks: 180,
@@ -1579,7 +1579,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     difficulty: 'Medium',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
-    questions: get45(MOTION_2D_QUESTIONS)
+    questions: get45([...MOTION_2D_QUESTIONS, ...MOTION_BOOK_QUESTIONS], 45)
   },
   {
     id: 'test-phy-ch05',

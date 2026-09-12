@@ -36,7 +36,7 @@ export interface SundayChapterSelection {
  * 20 OFFICIAL UNITS - PHYSICS (NEET UG NTA/NMC Syllabus)
  */
 export const OFFICIAL_PHYSICS_UNITS = [
-  'Unit 1: Physics & Measurement + Experimental Skills',
+  'Unit 1: Units and Measurements',
   'Unit 2: Kinematics',
   'Unit 3: Laws of Motion',
   'Unit 4: Work, Energy & Power',
@@ -150,9 +150,9 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
     dateStr: '2026-09-20',
     phase: 'Phase 1: Chapter-Wise',
     phaseGroup: 'cwt',
-    title: 'CWT-01: Physics & Measurement, Basic Concepts of Chemistry, Living World, Animal Kingdom',
-    description: 'Unit 1 Physics + Unit 1 Chemistry + Living World + Animal Kingdom (180 Marks • 180 Qs)',
-    physicsUnit: 'Unit 1: Physics & Measurement + Experimental Skills',
+    title: 'CWT-01: Units and Measurements, Basic Concepts of Chemistry, Living World, Animal Kingdom',
+    description: 'Unit 1 Physics (Units and Measurements) + Unit 1 Chemistry + Living World + Animal Kingdom (180 Marks • 180 Qs)',
+    physicsUnit: 'Unit 1: Units and Measurements',
     chemistryUnit: 'Unit 1: Some Basic Concepts in Chemistry',
     botanyBlock: '1. The Living World',
     zoologyBlock: '1. Animal Kingdom',

@@ -56,7 +56,7 @@ function normalizeChapterName(name: string): string {
 }
 
 // Build pre-computed index structures once at module load
-function buildChapterIndex(questions: Question[]) {
+function buildChapterIndex(questions: Question[], subject?: string) {
   const map = new Map<string, Question[]>();
   const chapterSet = new Set<string>();
 
@@ -64,7 +64,6 @@ function buildChapterIndex(questions: Question[]) {
     const q = questions[i];
     const ch = q.chapter;
     if (ch) {
-      chapterSet.add(ch);
       const norm = normalizeChapterName(ch);
       let list = map.get(norm);
       if (!list) {
@@ -72,10 +71,63 @@ function buildChapterIndex(questions: Question[]) {
         map.set(norm, list);
       }
       list.push(q);
+
+      if (subject === 'Physics') {
+        const chLower = ch.toLowerCase();
+        // Consolidate Motion 1D and 2D under Kinematics
+        if (
+          chLower.includes('motion in one dimension') ||
+          chLower.includes('motion in a plane') ||
+          chLower.includes('motion in a straight line') ||
+          chLower.includes('kinematic')
+        ) {
+          let kinList = map.get('kinematics');
+          if (!kinList) {
+            kinList = [];
+            map.set('kinematics', kinList);
+          }
+          kinList.push(q);
+          chapterSet.add('Kinematics');
+          continue;
+        }
+
+        // Consolidate Units and Measurement
+        if (
+          chLower.includes('unit') ||
+          chLower.includes('dimension') ||
+          chLower.includes('measurement') ||
+          chLower.includes('physical world')
+        ) {
+          let uList = map.get('unitsandmeasurements');
+          if (!uList) {
+            uList = [];
+            map.set('unitsandmeasurements', uList);
+          }
+          uList.push(q);
+          chapterSet.add('Units and Measurements');
+          continue;
+        }
+      }
+
+      chapterSet.add(ch);
     }
   }
 
-  return { map, chapters: Array.from(chapterSet) };
+  let finalChapters = Array.from(chapterSet);
+  if (subject === 'Physics') {
+    // Ensure Units and Measurements and Kinematics are top chapters
+    finalChapters = finalChapters.filter(c => c !== 'Motion in One Dimension' && c !== 'Motion in a Plane');
+    if (!finalChapters.includes('Units and Measurements')) finalChapters.unshift('Units and Measurements');
+    if (!finalChapters.includes('Kinematics')) finalChapters.splice(1, 0, 'Kinematics');
+    // Ensure Units and Measurements is first, Kinematics is second
+    finalChapters = [
+      'Units and Measurements',
+      'Kinematics',
+      ...finalChapters.filter(c => c !== 'Units and Measurements' && c !== 'Kinematics')
+    ];
+  }
+
+  return { map, chapters: finalChapters };
 }
 
 export const ALL_BIOLOGY_COMBINED_QUESTIONS: Question[] = [
@@ -85,14 +137,14 @@ export const ALL_BIOLOGY_COMBINED_QUESTIONS: Question[] = [
   ...ALL_ALLEN_ANIMAL_KINGDOM_QUESTIONS,
   ...ALL_ALLEN_DIVERSITY_LIVING_WORLD_QUESTIONS
 ];
-const bioIndex = buildChapterIndex(ALL_BIOLOGY_COMBINED_QUESTIONS);
+const bioIndex = buildChapterIndex(ALL_BIOLOGY_COMBINED_QUESTIONS, 'Biology');
 export const ALL_CHEMISTRY_COMBINED_QUESTIONS: Question[] = [
   ...ALL_CHEMISTRY_MASTER_QUESTIONS,
   ...ALL_ALLEN_ATOMIC_STRUCTURE_QUESTIONS,
   ...ALL_ALLEN_MOLE_CONCEPT_QUESTIONS
 ];
-const chemIndex = buildChapterIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS);
-const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS);
+const chemIndex = buildChapterIndex(ALL_CHEMISTRY_COMBINED_QUESTIONS, 'Chemistry');
+const physIndex = buildChapterIndex(ALL_PHYSICS_MASTER_QUESTIONS, 'Physics');
 
 export const ALL_BIOLOGY_CHAPTERS: string[] = bioIndex.chapters;
 export const ALL_CHEMISTRY_CHAPTERS: string[] = chemIndex.chapters;

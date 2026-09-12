@@ -3,6 +3,7 @@ import { cleanOcrText } from './ocrCleaner';
 import { formatMathAndFormulas } from './mathFormatter';
 import { trackDownload, getCurrentUser } from './downloadTracker';
 import { recordSuperUserNotification } from './superUserNotifier';
+import { getQuestionDisplayTag } from './subtopicResolver';
 
 /**
  * Validates whether user is signed in / enrolled before allowing PDF downloads.
@@ -450,10 +451,24 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
   const fileSize = includeSolutions ? '1.8 MB' : '1.2 MB';
   const questionsList = test.questions && test.questions.length > 0 ? test.questions : [];
 
+  const cleanTitle = (test.title || '')
+    .replace(/Physics\s*(?:and|&)\s*Measurement\s*\+\s*Experimental\s*Skills/gi, 'Units and Measurements')
+    .replace(/Physical World\s*&\s*Units and Measurements/gi, 'Units and Measurements')
+    .replace(/Physics\s*(?:and|&)\s*Measurement/gi, 'Units and Measurements')
+    .replace(/Physics Chapter 01: Physical World & Units and Measurements/gi, 'Physics Chapter 01: Units and Measurements')
+    .replace(/Motion in a Straight Line\s*\([^\)]*\)\s*(?:&|and)\s*Motion in a Plane\s*\([^\)]*\)/gi, 'Kinematics (Motion in 1D & 2D)');
+
+  const cleanSyllabus = (test.syllabus || '')
+    .replace(/Physics\s*(?:and|&)\s*Measurement\s*\+\s*Experimental\s*Skills/gi, 'Units and Measurements')
+    .replace(/Physical World\s*&\s*Units and Measurements/gi, 'Units and Measurements')
+    .replace(/Physics\s*(?:and|&)\s*Measurement/gi, 'Units and Measurements')
+    .replace(/Physics Chapter 01: Physical World & Units and Measurements/gi, 'Physics Chapter 01: Units and Measurements')
+    .replace(/Unit 1:\s*The Living World,\s*Biological Classification,\s*Plant Kingdom\s*&\s*Animal Kingdom/gi, 'The Living World: What is Living, Diversity, Binomial Nomenclature, Taxonomic Categories & Taxonomical Aids');
+
   const htmlBody = `
     <div class="test-title-bar">
-      <h1 style="font-size: 18px; margin-bottom: 4px;">${test.title}</h1>
-      <p style="margin: 0; color: #4b5563; font-size: 12px;"><strong>Syllabus Scope:</strong> ${test.syllabus}</p>
+      <h1 style="font-size: 18px; margin-bottom: 4px;">${cleanTitle}</h1>
+      <p style="margin: 0; color: #4b5563; font-size: 12px;"><strong>Syllabus Scope:</strong> ${cleanSyllabus}</p>
       
       <div class="meta-grid">
         <div class="meta-item"><strong>Total Questions:</strong> ${test.totalQuestions} Qs</div>
@@ -472,7 +487,7 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
         <div class="question-card">
           <div style="margin-bottom: 8px; font-weight: 600;">
             <span class="q-num">Q${idx + 1}.</span>
-            <span style="font-size: 11px; color: #64748b; font-family: 'JetBrains Mono', monospace;">[${q.subject} &bull; ${q.chapter}]</span>
+            <span style="font-size: 11px; color: #64748b; font-family: 'JetBrains Mono', monospace;">${getQuestionDisplayTag(q)}</span>
           </div>
 
           <div style="font-size: 13px; line-height: 1.6; margin-bottom: 10px;">
@@ -1193,7 +1208,8 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
         <div class="question-card">
           <div style="margin-bottom: 6px;">
             <span class="q-num">Q${idx + 1}.</span>
-            <span>${formatMathAndFormulas(cleanOcrText(q.questionText || (q as any).question || ''))}</span>
+            <span style="font-size: 11px; color: #64748b; font-family: 'JetBrains Mono', monospace; margin-left: 6px;">${getQuestionDisplayTag(q)}</span>
+            <div style="margin-top: 4px;">${formatMathAndFormulas(cleanOcrText(q.questionText || (q as any).question || ''))}</div>
           </div>
 
           ${q.diagramSvg ? `<div style="margin: 10px 0; text-align: center;">${q.diagramSvg}</div>` : ''}

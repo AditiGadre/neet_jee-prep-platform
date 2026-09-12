@@ -100,7 +100,7 @@ export function getStoredUnlockRequests(): StudentUnlockRequest[] {
       targetExam: 'NEET (UG)',
       targetBatch: 'Dropper / Target 2027',
       testCode: 'CWT-01',
-      testTitle: 'CWT-01: Physics Measurement & Kinematics (180 Qs / 720 Marks)',
+      testTitle: 'CWT-01: Units and Measurements & Kinematics (180 Qs / 720 Marks)',
       requestedAt: new Date(Date.now() - 1000 * 60 * 25).toISOString(),
       status: 'pending'
     },

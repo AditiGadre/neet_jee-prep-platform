@@ -49,6 +49,7 @@ import { recordSuperUserNotification } from '../utils/superUserNotifier';
 import { getUniqueDiagramForQuestion } from '../utils/diagramEngine';
 import { ErrorBoundary } from './ErrorBoundary';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
+import { resolveQuestionSubtopic, normalizeChapterForDisplay } from '../utils/subtopicResolver';
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -124,11 +125,13 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     if (test.questions && test.questions.length > 0) {
       return test.questions.map(q => {
         const rawQText = q.questionText || (q as any).question || '';
-        const rawTopic = q.topic || (q as any).subtopic || q.chapter || '';
+        const rawTopic = resolveQuestionSubtopic(q);
+        const normChapter = normalizeChapterForDisplay(q.subject, q.chapter || '');
         return {
           ...q,
-          questionText: formatMathAndFormulas(cleanOcrText(rawQText)),
+          chapter: normChapter,
           topic: rawTopic,
+          questionText: formatMathAndFormulas(cleanOcrText(rawQText)),
           options: (q.options || []).map(o => formatMathAndFormulas(cleanOcrText(o))),
           explanation: formatMathAndFormulas(cleanOcrText(q.explanation || ''))
         };
