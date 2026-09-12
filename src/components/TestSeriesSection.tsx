@@ -175,7 +175,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         syllabusStr = `Physics: ${customPaper.customChapters.physics.join(', ')} | Chemistry: ${customPaper.customChapters.chemistry.join(', ')} | Biology: ${customPaper.customChapters.biology.join(', ')}`;
       }
     } else {
-      testQuestions = generateSundayTestQuestions(plannerTest);
+      testQuestions = generateSundayTestQuestions(plannerTest, undefined, true, activeBatch);
     }
 
     const testItem: TestItem = {
@@ -237,7 +237,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   };
 
   const handleDownloadSundayPdf = (plannerTest: SundayPlannerTest) => {
-    const questions = generateSundayTestQuestions(plannerTest);
+    const questions = generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
     const testItem: TestItem = {
       id: plannerTest.id,
       title: `${plannerTest.code}: ${plannerTest.title}`,

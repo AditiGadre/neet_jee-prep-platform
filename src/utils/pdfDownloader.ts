@@ -598,11 +598,31 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   const bot = result.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 0;
   const zoo = result.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
 
-  // Build authentic multi-exam history
-  const pastPdfRows = pastCompletedTests
-    .filter((t: any) => t.testId !== result.testId && t.dateStr !== dateStr)
-    .map((t: any) => ({
-      code: t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle?.slice(0, 14) || 'TEST'),
+  // Build authentic multi-exam history (excluding unattempted 0-score entries)
+  const authenticPdfPast = pastCompletedTests.filter((t: any) => {
+    if (t.testId === result.testId && t.dateStr === dateStr) return false;
+    const score = t.score ?? 0;
+    const acc = t.accuracyPercentage ?? 0;
+    const attempted = (t.correctAnswers ?? 0) + (t.wrongAnswers ?? 0);
+    return score > 0 || acc > 0 || attempted > 0;
+  });
+
+  const seenPdfCodes = new Set<string>();
+  const deduplicatedPdfPast: any[] = [];
+  for (let i = authenticPdfPast.length - 1; i >= 0; i--) {
+    const t = authenticPdfPast[i];
+    const codeKey = (t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle || t.testId || 'TEST')).toLowerCase();
+    if (!seenPdfCodes.has(codeKey)) {
+      seenPdfCodes.add(codeKey);
+      deduplicatedPdfPast.unshift(t);
+    }
+  }
+
+  const pastPdfRows = deduplicatedPdfPast.slice(-4).map((t: any) => {
+    let cleanCode = t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle?.slice(0, 14) || 'TEST');
+    if (cleanCode.toLowerCase().startsWith('neetcbt exam test')) cleanCode = 'Sunday Mock';
+    return {
+      code: cleanCode,
       date: t.dateStr || 'Past Exam',
       phy: t.subjectBreakdown?.find((s: any) => s.subject === 'Physics')?.score ?? 0,
       chem: t.subjectBreakdown?.find((s: any) => s.subject === 'Chemistry')?.score ?? 0,
@@ -613,10 +633,14 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
       air: t.score > 0 && t.predictedAIR ? `#${t.predictedAIR.toLocaleString()}` : '—',
       acc: `${t.accuracyPercentage ?? 0}%`,
       isCurrent: false
-    }));
+    };
+  });
+
+  let currentPdfCode = result.testTitle?.includes(':') ? result.testTitle.split(':')[0].trim() : (result.testTitle?.length > 15 ? result.testTitle.slice(0, 15) + '...' : result.testTitle || 'Current Exam');
+  if (currentPdfCode.toLowerCase().startsWith('neetcbt exam test')) currentPdfCode = 'Sunday Mock';
 
   const currentPdfRow = {
-    code: result.testTitle?.includes(':') ? result.testTitle.split(':')[0].trim() : (result.testTitle?.length > 15 ? result.testTitle.slice(0, 15) + '...' : result.testTitle || 'Current Exam'),
+    code: currentPdfCode,
     date: dateStr,
     phy,
     chem,

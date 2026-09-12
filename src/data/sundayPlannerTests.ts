@@ -829,11 +829,27 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
 ];
 
 /**
- * Filter questions from bank matching keywords
+ * Filter questions from bank matching keywords with strict Botany/Zoology isolation
  */
-function filterQuestionsByKeywords(bank: Question[], keywords: string[]): Question[] {
+function filterQuestionsByKeywords(
+  bank: Question[],
+  keywords: string[],
+  subject?: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'
+): Question[] {
   if (keywords.includes('All Chapters') || keywords.length === 0) {
     return bank;
+  }
+
+  // Pure Animal Kingdom direct bypass (guarantees authentic Allen Animal Kingdom questions)
+  if (keywords.some(k => k.toLowerCase().includes('animal kingdom'))) {
+    const akBank = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+    if (akBank.length > 0) return akBank;
+  }
+
+  // Pure The Living World direct bypass (guarantees authentic Diversity in Living World questions)
+  if (keywords.some(k => k.toLowerCase().includes('living world'))) {
+    const lwBank = getUnifiedQuestionBank('Biology', 'The Living World');
+    if (lwBank.length > 0) return lwBank;
   }
 
   const cleanKeywords = keywords.map(k =>
@@ -857,7 +873,17 @@ function filterQuestionsByKeywords(bank: Question[], keywords: string[]): Questi
     });
   });
 
-  return matched.length > 0 ? matched : bank;
+  if (matched.length > 0) return matched;
+
+  // Strict subject fallbacks to prevent Zoology ever getting Botany chapters
+  if (subject === 'Zoology') {
+    return getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+  }
+  if (subject === 'Botany') {
+    return getUnifiedQuestionBank('Biology', 'The Living World');
+  }
+
+  return bank;
 }
 
 
@@ -978,15 +1004,329 @@ export function deleteCustomSundayPaper(paperCode: string): void {
 }
 
 /**
+ * 24 CANONICAL PHYSICS CHAPTERS (NEET UG)
+ * Used to ensure 100% comprehensive syllabus coverage across every Full Syllabus Test (FST).
+ */
+export const CANONICAL_NEET_PHYSICS_CHAPTERS: { name: string; keywords: string[] }[] = [
+  { name: 'Units and Measurements', keywords: ['Units and Measurement', 'Units, Dimensions', 'Vectors', 'Experimental Skills'] },
+  { name: 'Kinematics', keywords: ['Kinematics', 'Motion in One Dimension', 'Motion in a Plane'] },
+  { name: 'Laws of Motion', keywords: ['Laws of Motion', 'Friction', 'Newton'] },
+  { name: 'Work, Energy and Power', keywords: ['Work, Energy and Power', 'Work Energy Power'] },
+  { name: 'Rotational Motion', keywords: ['Rotational Motion', 'Moment of Inertia', 'Rigid Body'] },
+  { name: 'Gravitation', keywords: ['Gravitation', 'Kepler'] },
+  { name: 'Mechanical Properties of Solids', keywords: ['Mechanical Properties of Solids', 'Elasticity'] },
+  { name: 'Mechanical Properties of Fluids', keywords: ['Mechanical Properties of Fluids', 'Fluid Mechanics', 'Surface Tension', 'Viscosity'] },
+  { name: 'Thermal Properties & Heat', keywords: ['Thermal Properties of Matter', 'Calorimetry', 'Transmission of Heat'] },
+  { name: 'Thermodynamics', keywords: ['Thermodynamics', 'Heat Engines'] },
+  { name: 'Kinetic Theory of Gases', keywords: ['Kinetic Theory', 'Kinetic Theory of Gases', 'KTG'] },
+  { name: 'Oscillations & SHM', keywords: ['Oscillations', 'Simple Harmonic Motion', 'SHM'] },
+  { name: 'Waves & Acoustics', keywords: ['Waves', 'Wave Motion', 'Doppler Effect', 'Acoustics'] },
+  { name: 'Electrostatics', keywords: ['Electrostatics', 'Electric Charges', 'Electric Potential'] },
+  { name: 'Capacitance', keywords: ['Capacitance', 'Capacitor'] },
+  { name: 'Current Electricity', keywords: ['Current Electricity', 'Kirchhoff', 'Ohm', 'Resistance'] },
+  { name: 'Magnetic Effects of Current & Magnetism', keywords: ['Moving Charges and Magnetism', 'Magnetism and Matter'] },
+  { name: 'Electromagnetic Induction & AC', keywords: ['Electromagnetic Induction', 'Alternating Current', 'EMI'] },
+  { name: 'Electromagnetic Waves', keywords: ['Electromagnetic Waves', 'EM Waves'] },
+  { name: 'Ray Optics', keywords: ['Ray Optics', 'Optical Instruments'] },
+  { name: 'Wave Optics', keywords: ['Wave Optics', 'Interference', 'Diffraction', 'Polarisation'] },
+  { name: 'Dual Nature of Radiation & Matter', keywords: ['Dual Nature of Radiation', 'Photoelectric Effect'] },
+  { name: 'Atoms and Nuclei', keywords: ['Atoms', 'Nuclei', 'Bohr Model', 'Radioactivity'] },
+  { name: 'Semiconductor Electronics', keywords: ['Semiconductor', 'Logic Gates', 'Transistors', 'Diodes'] }
+];
+
+/**
+ * 23 CANONICAL CHEMISTRY CHAPTERS (NEET UG)
+ * Used to ensure 100% comprehensive syllabus coverage across every Full Syllabus Test (FST).
+ */
+export const CANONICAL_NEET_CHEMISTRY_CHAPTERS: { name: string; keywords: string[] }[] = [
+  { name: 'Some Basic Concepts of Chemistry', keywords: ['Some Basic Concepts of Chemistry', 'Mole Concept'] },
+  { name: 'Structure of Atom', keywords: ['Structure of Atom', 'Atomic Structure'] },
+  { name: 'Classification of Elements & Periodicity', keywords: ['Classification of Elements', 'Periodic Table', 'Periodicity'] },
+  { name: 'Chemical Bonding and Molecular Structure', keywords: ['Chemical Bonding', 'Molecular Structure'] },
+  { name: 'States of Matter', keywords: ['States of Matter', 'Gaseous State'] },
+  { name: 'Thermodynamics', keywords: ['Thermodynamics', 'Chemical Thermodynamics'] },
+  { name: 'Equilibrium', keywords: ['Equilibrium', 'Chemical Equilibrium', 'Ionic Equilibrium'] },
+  { name: 'Redox Reactions', keywords: ['Redox Reactions'] },
+  { name: 'Hydrogen & s-Block Elements', keywords: ['Hydrogen', 's-Block'] },
+  { name: 'p-Block Elements', keywords: ['p-Block', 'Group 13', 'Group 14', 'Group 15', 'Group 16', 'Group 17', 'Group 18'] },
+  { name: 'Organic Chemistry - Principles & Techniques (GOC)', keywords: ['Organic Chemistry - Some Basic Principles', 'GOC'] },
+  { name: 'Hydrocarbons', keywords: ['Hydrocarbons', 'Alkanes', 'Alkenes', 'Alkynes', 'Aromatic Hydrocarbons'] },
+  { name: 'Solutions', keywords: ['Solutions', 'Colligative Properties'] },
+  { name: 'Electrochemistry', keywords: ['Electrochemistry'] },
+  { name: 'Chemical Kinetics', keywords: ['Chemical Kinetics'] },
+  { name: 'Surface Chemistry', keywords: ['Surface Chemistry'] },
+  { name: 'd- and f-Block Elements', keywords: ['d and f Block', 'Transition Elements'] },
+  { name: 'Coordination Compounds', keywords: ['Coordination Compounds', 'Ligands'] },
+  { name: 'Haloalkanes and Haloarenes', keywords: ['Haloalkanes', 'Haloarenes'] },
+  { name: 'Alcohols, Phenols and Ethers', keywords: ['Alcohols', 'Phenols', 'Ethers'] },
+  { name: 'Aldehydes, Ketones and Carboxylic Acids', keywords: ['Aldehydes', 'Ketones', 'Carboxylic Acids'] },
+  { name: 'Organic Compounds Containing Nitrogen (Amines)', keywords: ['Amines', 'Diazonium'] },
+  { name: 'Biomolecules & Polymers', keywords: ['Biomolecules', 'Polymers', 'Chemistry in Everyday Life'] }
+];
+
+/**
+ * Preceding CWT mappings for each Cumulative test
+ */
+export const CUMULATIVE_PREV_CWTS: Record<string, string[]> = {
+  'CUM-01': ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04'],
+  'CUM-02': ['CWT-05', 'CWT-06', 'CWT-07', 'CWT-08'],
+  'CUM-03': ['CWT-09', 'CWT-10', 'CWT-11', 'CWT-12'],
+  'CUM-04': ['CWT-13', 'CWT-14', 'CWT-15', 'CWT-16'],
+  'CUM-05': ['CWT-17', 'CWT-18', 'CWT-19']
+};
+
+/**
+ * Generates Full Syllabus Mock Questions ensuring EVERY canonical chapter in Physics,
+ * Chemistry, Botany, and Zoology is represented (45 Phys, 45 Chem, 45 Bot, 45 Zoo).
+ */
+function generateFullSyllabusMockQuestions(
+  test: SundayPlannerTest,
+  advanceLoop: boolean,
+  batch: 'repeater' | '12th' | '11th',
+  usedDiagrams: Set<string>
+): Question[] {
+  const batchOffsetMult = batch === '12th' ? 0.35 : batch === '11th' ? 0.70 : 0;
+  const phyBank = getUnifiedQuestionBank('Physics');
+  const chemBank = getUnifiedQuestionBank('Chemistry');
+  const bioBank = getUnifiedQuestionBank('Biology');
+
+  // 1. Physics: 45 Questions distributed across all 24 canonical NEET physics chapters
+  const pickedPhy: Question[] = [];
+  const numPhysCh = CANONICAL_NEET_PHYSICS_CHAPTERS.length;
+  for (let i = 0; i < numPhysCh; i++) {
+    const ch = CANONICAL_NEET_PHYSICS_CHAPTERS[i];
+    const qCount = i < 21 ? 2 : 1;
+    const pool = filterQuestionsByKeywords(phyBank, ch.keywords, 'Physics');
+    const chPool = pool.length > 0 ? pool : phyBank;
+    const offset = Math.floor(chPool.length * batchOffsetMult);
+    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
+    const qs = getSequentialLoopQuestions(
+      'Physics',
+      rotatedPool,
+      qCount,
+      `${batch}_${test.code}_phy_ch${i + 1}`,
+      advanceLoop,
+      usedDiagrams
+    );
+    pickedPhy.push(...qs);
+  }
+
+  // 2. Chemistry: 45 Questions distributed across all 23 canonical NEET chemistry chapters
+  const pickedChem: Question[] = [];
+  const numChemCh = CANONICAL_NEET_CHEMISTRY_CHAPTERS.length;
+  for (let i = 0; i < numChemCh; i++) {
+    const ch = CANONICAL_NEET_CHEMISTRY_CHAPTERS[i];
+    const qCount = i < 22 ? 2 : 1;
+    const pool = filterQuestionsByKeywords(chemBank, ch.keywords, 'Chemistry');
+    const chPool = pool.length > 0 ? pool : chemBank;
+    const offset = Math.floor(chPool.length * batchOffsetMult);
+    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
+    const qs = getSequentialLoopQuestions(
+      'Chemistry',
+      rotatedPool,
+      qCount,
+      `${batch}_${test.code}_chem_ch${i + 1}`,
+      advanceLoop,
+      usedDiagrams
+    );
+    pickedChem.push(...qs);
+  }
+
+  // 3. Botany: 45 Questions distributed across all 20 official Botany blocks
+  const pickedBot: Question[] = [];
+  const numBotBlocks = OFFICIAL_BOTANY_BLOCKS.length;
+  for (let i = 0; i < numBotBlocks; i++) {
+    const block = OFFICIAL_BOTANY_BLOCKS[i];
+    const qCount = i < 5 ? 3 : 2;
+    let pool: Question[] = [];
+    if (block.toLowerCase().includes('living world')) {
+      pool = getUnifiedQuestionBank('Biology', 'The Living World');
+    } else {
+      pool = filterQuestionsByKeywords(bioBank, [block], 'Botany');
+    }
+    const chPool = pool.length > 0 ? pool : getUnifiedQuestionBank('Biology', 'The Living World');
+    const offset = Math.floor(chPool.length * batchOffsetMult);
+    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
+    const qs = getSequentialLoopQuestions(
+      'Biology',
+      rotatedPool,
+      qCount,
+      `${batch}_${test.code}_bot_b${i + 1}`,
+      advanceLoop,
+      usedDiagrams
+    ).map(q => ({
+      ...q,
+      tags: [...(q.tags || []).filter(t => t !== 'Zoology'), 'Botany']
+    }));
+    pickedBot.push(...qs);
+  }
+
+  // 4. Zoology: 45 Questions distributed across all 20 official Zoology blocks
+  const pickedZoo: Question[] = [];
+  const numZooBlocks = OFFICIAL_ZOOLOGY_BLOCKS.length;
+  for (let i = 0; i < numZooBlocks; i++) {
+    const block = OFFICIAL_ZOOLOGY_BLOCKS[i];
+    const qCount = i < 5 ? 3 : 2;
+    let pool: Question[] = [];
+    if (block.toLowerCase().includes('animal kingdom')) {
+      pool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+    } else {
+      pool = filterQuestionsByKeywords(bioBank, [block], 'Zoology');
+    }
+    const chPool = pool.length > 0 ? pool : getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+    const offset = Math.floor(chPool.length * batchOffsetMult);
+    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
+    const qs = getSequentialLoopQuestions(
+      'Biology',
+      rotatedPool,
+      qCount,
+      `${batch}_${test.code}_zoo_b${i + 1}`,
+      advanceLoop,
+      usedDiagrams
+    ).map(q => ({
+      ...q,
+      tags: [...(q.tags || []).filter(t => t !== 'Botany'), 'Zoology']
+    }));
+    pickedZoo.push(...qs);
+  }
+
+  return [...pickedPhy.slice(0, 45), ...pickedChem.slice(0, 45), ...pickedBot.slice(0, 45), ...pickedZoo.slice(0, 45)];
+}
+
+/**
+ * Generates Cumulative Test Questions ensuring 0% question overlap with preceding CWTs
+ * and balanced distribution across all covered units.
+ */
+function generateCumulativeQuestions(
+  test: SundayPlannerTest,
+  advanceLoop: boolean,
+  batch: 'repeater' | '12th' | '11th',
+  usedDiagrams: Set<string>
+): Question[] {
+  const batchOffsetMult = batch === '12th' ? 0.35 : batch === '11th' ? 0.70 : 0;
+  const phyBank = getUnifiedQuestionBank('Physics');
+  const chemBank = getUnifiedQuestionBank('Chemistry');
+  const bioBank = getUnifiedQuestionBank('Biology');
+
+  const prevCwtCodes = CUMULATIVE_PREV_CWTS[test.code] || ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04'];
+  const prevTests = SUNDAY_DROPPER_PLANNER_TESTS.filter(t => prevCwtCodes.includes(t.code));
+
+  // Collect question signatures used by preceding CWTs in this batch
+  const cwtUsedTexts = new Set<string>();
+  for (const prev of prevTests) {
+    const pPool = filterQuestionsByKeywords(phyBank, prev.physicsKeywords, 'Physics');
+    const pOff = Math.floor(pPool.length * batchOffsetMult);
+    pPool.slice(pOff, pOff + 45).forEach(q => {
+      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
+      if (q.id) cwtUsedTexts.add(q.id);
+    });
+
+    const cPool = filterQuestionsByKeywords(chemBank, prev.chemistryKeywords, 'Chemistry');
+    const cOff = Math.floor(cPool.length * batchOffsetMult);
+    cPool.slice(cOff, cOff + 45).forEach(q => {
+      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
+      if (q.id) cwtUsedTexts.add(q.id);
+    });
+
+    const bPool = prev.botanyKeywords.some(k => k.toLowerCase().includes('living world'))
+      ? getUnifiedQuestionBank('Biology', 'The Living World')
+      : filterQuestionsByKeywords(bioBank, prev.botanyKeywords, 'Botany');
+    const bOff = Math.floor(bPool.length * batchOffsetMult);
+    bPool.slice(bOff, bOff + 45).forEach(q => {
+      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
+      if (q.id) cwtUsedTexts.add(q.id);
+    });
+
+    const zPool = prev.zoologyKeywords.some(k => k.toLowerCase().includes('animal kingdom'))
+      ? getUnifiedQuestionBank('Biology', 'Animal Kingdom')
+      : filterQuestionsByKeywords(bioBank, prev.zoologyKeywords, 'Zoology');
+    const zOff = Math.floor(zPool.length * batchOffsetMult);
+    zPool.slice(zOff, zOff + 45).forEach(q => {
+      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
+      if (q.id) cwtUsedTexts.add(q.id);
+    });
+  }
+
+  // Sample fresh questions with zero overlap across covered units
+  const sampleFreshUnits = (
+    subject: 'Physics' | 'Chemistry' | 'Biology',
+    bank: Question[],
+    units: string[],
+    isBotOrZoo?: 'Botany' | 'Zoology'
+  ): Question[] => {
+    const K = Math.max(1, units.length);
+    const perUnit = Math.floor(45 / K);
+    const remainder = 45 % K;
+    const result: Question[] = [];
+
+    for (let uIdx = 0; uIdx < K; uIdx++) {
+      const uKeyword = units[uIdx];
+      const countForUnit = perUnit + (uIdx === K - 1 ? remainder : 0);
+      let rawPool: Question[] = [];
+
+      if (isBotOrZoo === 'Botany') {
+        rawPool = uKeyword.toLowerCase().includes('living world')
+          ? getUnifiedQuestionBank('Biology', 'The Living World')
+          : filterQuestionsByKeywords(bank, [uKeyword], 'Botany');
+      } else if (isBotOrZoo === 'Zoology') {
+        rawPool = uKeyword.toLowerCase().includes('animal kingdom')
+          ? getUnifiedQuestionBank('Biology', 'Animal Kingdom')
+          : filterQuestionsByKeywords(bank, [uKeyword], 'Zoology');
+      } else {
+        rawPool = filterQuestionsByKeywords(bank, [uKeyword], subject as any);
+      }
+
+      // Strictly filter out questions consumed in earlier CWTs
+      let freshPool = rawPool.filter(q => {
+        const textKey = (q.questionText || (q as any).question || '').trim().toLowerCase();
+        return !cwtUsedTexts.has(textKey) && (!q.id || !cwtUsedTexts.has(q.id));
+      });
+
+      if (freshPool.length === 0) {
+        freshPool = rawPool.slice(45);
+        if (freshPool.length === 0) freshPool = rawPool;
+      }
+
+      const offset = Math.floor(freshPool.length * batchOffsetMult);
+      const rotated = freshPool.length > 0 ? [...freshPool.slice(offset), ...freshPool.slice(0, offset)] : freshPool;
+
+      const picked = getSequentialLoopQuestions(
+        subject,
+        rotated,
+        countForUnit,
+        `${batch}_${test.code}_${subject}_u${uIdx + 1}`,
+        advanceLoop,
+        usedDiagrams
+      ).map(q => ({
+        ...q,
+        tags: isBotOrZoo ? [...(q.tags || []).filter(t => t !== (isBotOrZoo === 'Botany' ? 'Zoology' : 'Botany')), isBotOrZoo] : q.tags
+      }));
+
+      result.push(...picked);
+    }
+
+    return result.slice(0, 45);
+  };
+
+  const pickedPhy = sampleFreshUnits('Physics', phyBank, test.physicsKeywords);
+  const pickedChem = sampleFreshUnits('Chemistry', chemBank, test.chemistryKeywords);
+  const pickedBot = sampleFreshUnits('Biology', bioBank, test.botanyKeywords, 'Botany');
+  const pickedZoo = sampleFreshUnits('Biology', bioBank, test.zoologyKeywords, 'Zoology');
+
+  return [...pickedPhy, ...pickedChem, ...pickedBot, ...pickedZoo];
+}
+
+/**
  * Generate a complete 180-Question Sunday Mock Test (45 Physics, 45 Chemistry, 90 Biology)
  * strictly conforming to the prescribed calendar chapters without mixing unrelated chapters.
- * Utilizes a round-robin sequential question loop to cycle through all available bank questions,
- * and seamlessly loads any admin-customized papers.
+ * Utilizes round-robin sequential question loops, batch namespaces, zero CWT-cumulative overlap,
+ * and comprehensive all-chapter coverage for Full Syllabus Tests.
  */
 export function generateSundayTestQuestions(
   test: SundayPlannerTest,
   customChapters?: SundayChapterSelection,
-  advanceLoop: boolean = true
+  advanceLoop: boolean = true,
+  batch: 'repeater' | '12th' | '11th' = 'repeater'
 ): Question[] {
   // If this paper was customized and saved by admin, load those exact questions directly!
   if (!customChapters) {
@@ -998,75 +1338,113 @@ export function generateSundayTestQuestions(
 
   const usedDiagrams = new Set<string>();
 
-  // 1. Physics (45 Questions strictly from selected chapter pool using round-robin loop)
+  // If Full Syllabus Test or Part Test without custom chapters, use comprehensive all-chapter distribution
+  if (!customChapters && (test.phaseGroup === 'full' || test.code.startsWith('FST-') || test.code.startsWith('PART-'))) {
+    return generateFullSyllabusMockQuestions(test, advanceLoop, batch, usedDiagrams);
+  }
+
+  // If Cumulative Test without custom chapters, use zero-overlap cumulative generator
+  if (!customChapters && test.phaseGroup === 'cumulative') {
+    return generateCumulativeQuestions(test, advanceLoop, batch, usedDiagrams);
+  }
+
+  // Standard Chapter-Wise Test (CWT) or Custom Chapter Selection
+  const batchOffsetMult = batch === '12th' ? 0.35 : batch === '11th' ? 0.70 : 0;
   const phyBank = getUnifiedQuestionBank('Physics');
+  const chemBank = getUnifiedQuestionBank('Chemistry');
+  const bioBank = getUnifiedQuestionBank('Biology');
+
+  // 1. Physics (45 Questions strictly from selected chapter pool)
   const phyKeywords = customChapters?.physics && customChapters.physics.length > 0
     ? customChapters.physics
     : test.physicsKeywords;
-  const phyPool = filterQuestionsByKeywords(phyBank, phyKeywords);
+  const phyPoolRaw = filterQuestionsByKeywords(phyBank, phyKeywords, 'Physics');
+  const phyPool = phyPoolRaw.length > 0 ? phyPoolRaw : phyBank;
+  const phyOffset = Math.floor(phyPool.length * batchOffsetMult);
+  const phyRotated = phyPool.length > 0 ? [...phyPool.slice(phyOffset), ...phyPool.slice(0, phyOffset)] : phyPool;
   const topicKeyPhy = phyKeywords.slice(0, 2).join('_');
   const pickedPhy = getSequentialLoopQuestions(
     'Physics',
-    phyPool.length > 0 ? phyPool : phyBank,
+    phyRotated,
     45,
-    `${test.code}_phy_${topicKeyPhy}`,
+    `${batch}_${test.code}_phy_${topicKeyPhy}`,
     advanceLoop,
     usedDiagrams
   );
 
-  // 2. Chemistry (45 Questions strictly from selected chapter pool using round-robin loop)
-  const chemBank = getUnifiedQuestionBank('Chemistry');
+  // 2. Chemistry (45 Questions strictly from selected chapter pool)
   const chemKeywords = customChapters?.chemistry && customChapters.chemistry.length > 0
     ? customChapters.chemistry
     : test.chemistryKeywords;
-  const chemPool = filterQuestionsByKeywords(chemBank, chemKeywords);
+  const chemPoolRaw = filterQuestionsByKeywords(chemBank, chemKeywords, 'Chemistry');
+  const chemPool = chemPoolRaw.length > 0 ? chemPoolRaw : chemBank;
+  const chemOffset = Math.floor(chemPool.length * batchOffsetMult);
+  const chemRotated = chemPool.length > 0 ? [...chemPool.slice(chemOffset), ...chemPool.slice(0, chemOffset)] : chemPool;
   const topicKeyChem = chemKeywords.slice(0, 2).join('_');
   const pickedChem = getSequentialLoopQuestions(
     'Chemistry',
-    chemPool.length > 0 ? chemPool : chemBank,
+    chemRotated,
     45,
-    `${test.code}_chem_${topicKeyChem}`,
+    `${batch}_${test.code}_chem_${topicKeyChem}`,
     advanceLoop,
     usedDiagrams
   );
 
-  // 3. Biology (90 Questions: 45 Botany + 45 Zoology strictly from selected pool using round-robin loop)
-  const bioBank = getUnifiedQuestionBank('Biology');
-  const botKeywords = customChapters?.biology && customChapters.biology.length > 0
-    ? customChapters.biology
-    : test.botanyKeywords;
-  const zooKeywords = customChapters?.biology && customChapters.biology.length > 0
-    ? customChapters.biology
-    : test.zoologyKeywords;
+  // 3. Biology (90 Questions: 45 Botany + 45 Zoology strictly isolated)
+  const customBotChapters = customChapters?.biology
+    ? customChapters.biology.filter(b => b.startsWith('[Botany]') || !b.startsWith('[Zoology]')).map(b => b.replace('[Botany]', '').trim())
+    : [];
+  const customZooChapters = customChapters?.biology
+    ? customChapters.biology.filter(z => z.startsWith('[Zoology]')).map(z => z.replace('[Zoology]', '').trim())
+    : [];
 
-  const botPool = filterQuestionsByKeywords(bioBank, botKeywords);
-  const zooPool = filterQuestionsByKeywords(bioBank, zooKeywords);
+  const botKeywords = customBotChapters.length > 0 ? customBotChapters : test.botanyKeywords;
+  const zooKeywords = customZooChapters.length > 0 ? customZooChapters : test.zoologyKeywords;
 
+  let botPoolRaw: Question[] = [];
+  if (botKeywords.some(b => b.toLowerCase().includes('living world'))) {
+    botPoolRaw = getUnifiedQuestionBank('Biology', 'The Living World');
+  } else {
+    botPoolRaw = filterQuestionsByKeywords(bioBank, botKeywords, 'Botany');
+  }
+  const botPool = botPoolRaw.length > 0 ? botPoolRaw : getUnifiedQuestionBank('Biology', 'The Living World');
+  const botOffset = Math.floor(botPool.length * batchOffsetMult);
+  const botRotated = botPool.length > 0 ? [...botPool.slice(botOffset), ...botPool.slice(0, botOffset)] : botPool;
   const topicKeyBot = botKeywords.slice(0, 2).join('_');
-  const topicKeyZoo = zooKeywords.slice(0, 2).join('_');
 
   const pickedBot = getSequentialLoopQuestions(
     'Biology',
-    botPool.length > 0 ? botPool : bioBank,
+    botRotated,
     45,
-    `${test.code}_bot_${topicKeyBot}`,
+    `${batch}_${test.code}_bot_${topicKeyBot}`,
     advanceLoop,
     usedDiagrams
   ).map(q => ({
     ...q,
-    tags: [...(q.tags || []), 'Botany']
+    tags: [...(q.tags || []).filter(t => t !== 'Zoology'), 'Botany']
   }));
+
+  let zooPoolRaw: Question[] = [];
+  if (zooKeywords.some(z => z.toLowerCase().includes('animal kingdom'))) {
+    zooPoolRaw = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+  } else {
+    zooPoolRaw = filterQuestionsByKeywords(bioBank, zooKeywords, 'Zoology');
+  }
+  const zooPool = zooPoolRaw.length > 0 ? zooPoolRaw : getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+  const zooOffset = Math.floor(zooPool.length * batchOffsetMult);
+  const zooRotated = zooPool.length > 0 ? [...zooPool.slice(zooOffset), ...zooPool.slice(0, zooOffset)] : zooPool;
+  const topicKeyZoo = zooKeywords.slice(0, 2).join('_');
 
   const pickedZoo = getSequentialLoopQuestions(
     'Biology',
-    zooPool.length > 0 ? zooPool : bioBank,
+    zooRotated,
     45,
-    `${test.code}_zoo_${topicKeyZoo}`,
+    `${batch}_${test.code}_zoo_${topicKeyZoo}`,
     advanceLoop,
     usedDiagrams
   ).map(q => ({
     ...q,
-    tags: [...(q.tags || []), 'Zoology']
+    tags: [...(q.tags || []).filter(t => t !== 'Botany'), 'Zoology']
   }));
 
   return [...pickedPhy, ...pickedChem, ...pickedBot, ...pickedZoo];

@@ -636,29 +636,50 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   };
 
   const longitudinalExamHistory = useMemo(() => {
-    // Extract genuine past completed tests from localStorage (excluding current test session)
-    const pastRows = (prevTestHistory || [])
-      .filter(t => t.testId !== test.id && t.dateStr !== testResult?.dateStr)
-      .map(t => {
-        const phy = t.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 0;
-        const chem = t.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 0;
-        const bot = t.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 0;
-        const zoo = t.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
-        return {
-          code: t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle?.slice(0, 16) || 'TEST'),
-          date: t.dateStr || 'Past Exam',
-          phy,
-          chem,
-          bot,
-          zoo,
-          total: t.score ?? (phy + chem + bot + zoo),
-          rank: t.batchRank?.rank && t.batchRank.rank > 0 ? `${t.batchRank.rank} / ${t.batchRank.total || 180}` : '—',
-          cityRank: t.cityRank?.rank && t.cityRank.rank > 0 ? `${t.cityRank.rank} / ${t.cityRank.total || 4200}` : '—',
-          air: t.score > 0 && t.predictedAIR ? `${t.predictedAIR.toLocaleString()}` : '—',
-          acc: t.accuracyPercentage ?? 0,
-          isCurrent: false
-        };
-      });
+    // Extract genuine past completed tests from localStorage (excluding current test session and unattempted 0-score entries)
+    const authenticTests = (prevTestHistory || []).filter(t => {
+      if (t.testId === test.id || (t.dateStr === testResult?.dateStr && t.testTitle === test.title)) return false;
+      const score = t.score ?? 0;
+      const acc = t.accuracyPercentage ?? 0;
+      const attempted = (t.correctAnswers ?? 0) + (t.wrongAnswers ?? 0);
+      return score > 0 || acc > 0 || attempted > 0;
+    });
+
+    // Deduplicate: if duplicate codes/titles exist, keep the latest genuine attempt
+    const seenCodes = new Set<string>();
+    const deduplicatedPast: typeof authenticTests = [];
+    for (let i = authenticTests.length - 1; i >= 0; i--) {
+      const t = authenticTests[i];
+      const codeKey = (t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle || t.testId || 'TEST')).toLowerCase();
+      if (!seenCodes.has(codeKey)) {
+        seenCodes.add(codeKey);
+        deduplicatedPast.unshift(t);
+      }
+    }
+
+    // Limit to the 4 most recent genuine past exams so total is capped at 5 clean rows
+    const pastRows = deduplicatedPast.slice(-4).map(t => {
+      const phy = t.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 0;
+      const chem = t.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 0;
+      const bot = t.subjectBreakdown?.find(s => s.subject === 'Botany')?.score ?? 0;
+      const zoo = t.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
+      let cleanCode = t.testTitle?.includes(':') ? t.testTitle.split(':')[0].trim() : (t.testTitle?.slice(0, 16) || 'TEST');
+      if (cleanCode.toLowerCase().startsWith('neetcbt exam test')) cleanCode = 'Sunday Mock';
+      return {
+        code: cleanCode,
+        date: t.dateStr || 'Past Exam',
+        phy,
+        chem,
+        bot,
+        zoo,
+        total: t.score ?? (phy + chem + bot + zoo),
+        rank: t.batchRank?.rank && t.batchRank.rank > 0 ? `${t.batchRank.rank} / ${t.batchRank.total || 180}` : '—',
+        cityRank: t.cityRank?.rank && t.cityRank.rank > 0 ? `${t.cityRank.rank} / ${t.cityRank.total || 4200}` : '—',
+        air: t.score > 0 && t.predictedAIR ? `${t.predictedAIR.toLocaleString()}` : '—',
+        acc: t.accuracyPercentage ?? 0,
+        isCurrent: false
+      };
+    });
 
     const currentPhy = testResult?.subjectBreakdown?.find(s => s.subject === 'Physics')?.score ?? 0;
     const currentChem = testResult?.subjectBreakdown?.find(s => s.subject === 'Chemistry')?.score ?? 0;
@@ -666,8 +687,11 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const currentZoo = testResult?.subjectBreakdown?.find(s => s.subject === 'Zoology')?.score ?? 0;
     const currentTotal = testResult?.score ?? (currentPhy + currentChem + currentBot + currentZoo);
 
+    let currentCode = test.title?.includes(':') ? test.title.split(':')[0].trim() : (test.title?.length > 18 ? test.title.slice(0, 18) + '...' : test.title || 'Current Test');
+    if (currentCode.toLowerCase().startsWith('neetcbt exam test')) currentCode = 'Sunday Mock';
+
     const currentRow = {
-      code: test.title?.includes(':') ? test.title.split(':')[0].trim() : (test.title?.length > 18 ? test.title.slice(0, 18) + '...' : test.title || 'Current Test'),
+      code: currentCode,
       date: testResult?.dateStr || new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }),
       phy: currentPhy,
       chem: currentChem,

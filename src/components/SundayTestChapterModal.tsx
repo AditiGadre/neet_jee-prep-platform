@@ -212,29 +212,67 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
       });
     }
 
-    // 3. Collect questions for Biology (90 Qs) strictly from selected Biology chapters
-    const bioBank = getUnifiedQuestionBank('Biology');
-    let bioPool = bioBank.filter(q => matchChapterStrict(q, selectedBiology));
-    if (bioPool.length === 0) {
-      bioPool = bioBank.filter(q => selectedBiology.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    // 3. Collect questions for Botany (45 Qs) strictly from selected Botany chapters
+    const selectedBotany = selectedBiology.filter(c => c.startsWith('[Botany]') || !c.startsWith('[Zoology]'));
+    const effectiveBotChapters = selectedBotany.length > 0 ? selectedBotany : [BIOLOGY_CHAPTERS_LIST[0]];
+    let botPool: Question[] = [];
+    if (effectiveBotChapters.some(b => b.toLowerCase().includes('living world'))) {
+      botPool = getUnifiedQuestionBank('Biology', 'The Living World');
     }
-    if (bioPool.length === 0) bioPool = bioBank;
+    if (botPool.length === 0) {
+      const bioBank = getUnifiedQuestionBank('Biology');
+      botPool = bioBank.filter(q => matchChapterStrict(q, effectiveBotChapters));
+    }
+    if (botPool.length === 0) {
+      botPool = getUnifiedQuestionBank('Biology');
+    }
 
-    const randomizedBio = [...bioPool].sort(() => 0.5 - Math.random());
-    const selectedBioQs: Question[] = [];
-    for (let idx = 0; idx < 90; idx++) {
-      const q = randomizedBio[idx % randomizedBio.length];
-      selectedBioQs.push({
+    const randomizedBot = [...botPool].sort(() => 0.5 - Math.random());
+    const selectedBotQs: Question[] = [];
+    for (let idx = 0; idx < 45; idx++) {
+      const q = randomizedBot[idx % randomizedBot.length];
+      selectedBotQs.push({
         ...q,
-        id: `sunday-bio-${idx + 1}-${q.id}`,
+        id: `sunday-bot-${idx + 1}-${q.id}`,
         subject: 'Biology' as const,
+        tags: [...(q.tags || []).filter(t => t !== 'Zoology'), 'Botany'],
         questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
         options: (q.options || []).map(o => formatMathAndFormulas(o)),
         explanation: formatMathAndFormulas(q.explanation || '')
       });
     }
 
-    const total180Qs: Question[] = [...selectedPhyQs, ...selectedChemQs, ...selectedBioQs];
+    // 4. Collect questions for Zoology (45 Qs) strictly from selected Zoology chapters
+    const selectedZoology = selectedBiology.filter(c => c.startsWith('[Zoology]'));
+    const effectiveZooChapters = selectedZoology.length > 0 ? selectedZoology : [BIOLOGY_CHAPTERS_LIST[20]]; // default Animal Kingdom
+    let zooPool: Question[] = [];
+    if (effectiveZooChapters.some(z => z.toLowerCase().includes('animal kingdom'))) {
+      zooPool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+    }
+    if (zooPool.length === 0) {
+      const bioBank = getUnifiedQuestionBank('Biology');
+      zooPool = bioBank.filter(q => matchChapterStrict(q, effectiveZooChapters));
+    }
+    if (zooPool.length === 0) {
+      zooPool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+    }
+
+    const randomizedZoo = [...zooPool].sort(() => 0.5 - Math.random());
+    const selectedZooQs: Question[] = [];
+    for (let idx = 0; idx < 45; idx++) {
+      const q = randomizedZoo[idx % randomizedZoo.length];
+      selectedZooQs.push({
+        ...q,
+        id: `sunday-zoo-${idx + 1}-${q.id}`,
+        subject: 'Biology' as const,
+        tags: [...(q.tags || []).filter(t => t !== 'Botany'), 'Zoology'],
+        questionText: formatMathAndFormulas(q.questionText || (q as any).question || ''),
+        options: (q.options || []).map(o => formatMathAndFormulas(o)),
+        explanation: formatMathAndFormulas(q.explanation || '')
+      });
+    }
+
+    const total180Qs: Question[] = [...selectedPhyQs, ...selectedChemQs, ...selectedBotQs, ...selectedZooQs];
 
     const sundayTestItem: TestItem = {
       id: 'test-sunday-custom-' + Date.now(),
