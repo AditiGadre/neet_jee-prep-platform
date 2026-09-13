@@ -28,6 +28,7 @@ import {
   Check,
   Bookmark,
   Award,
+  Download,
   TrendingUp,
   Loader,
   Percent,
@@ -1260,13 +1261,53 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                   </button>
                 </div>
 
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center flex-wrap gap-2">
                   <button
-                    onClick={() => downloadTestScorecardPDF(testResult)}
-                    className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
+                    onClick={() => downloadTestScorecardPDF({ ...testResult, questions })}
+                    className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-xs font-bold text-white flex items-center space-x-1.5 shadow-xs transition cursor-pointer"
                   >
                     <FileIcon className="w-4 h-4" />
-                    <span>Download Password-Protected Scorecard PDF</span>
+                    <span>Scorecard (PDF)</span>
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      const paperItem: TestItem = {
+                        id: testResult.testId,
+                        title: testResult.testTitle,
+                        durationMinutes: Math.round(testResult.timeSpentSeconds / 60) || 180,
+                        totalMarks: testResult.totalMarks || 720,
+                        negativeMarking: '+4 for correct, -1 for incorrect',
+                        difficulty: 'Mixed',
+                        cbtMode: true,
+                        questions: (testResult.questions && testResult.questions.length > 0) ? testResult.questions : questions
+                      };
+                      downloadTestPaperPDF(paperItem, false);
+                    }}
+                    className="px-3 py-2 rounded-xl bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    <span>Test Paper (PDF)</span>
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      const paperItem: TestItem = {
+                        id: testResult.testId,
+                        title: testResult.testTitle,
+                        durationMinutes: Math.round(testResult.timeSpentSeconds / 60) || 180,
+                        totalMarks: testResult.totalMarks || 720,
+                        negativeMarking: '+4 for correct, -1 for incorrect',
+                        difficulty: 'Mixed',
+                        cbtMode: true,
+                        questions: (testResult.questions && testResult.questions.length > 0) ? testResult.questions : questions
+                      };
+                      downloadTestPaperPDF(paperItem, true);
+                    }}
+                    className="px-3 py-2 rounded-xl bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200 text-xs font-bold flex items-center space-x-1.5 transition cursor-pointer"
+                  >
+                    <FileText className="w-3.5 h-3.5" />
+                    <span>Solutions (PDF)</span>
                   </button>
 
                   <button

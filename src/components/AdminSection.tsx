@@ -48,7 +48,8 @@ import {
   getSuperUserNotifications,
   getSuperUserMetrics,
   markAllSuperUserNotificationsAsRead,
-  clearSuperUserNotifications
+  clearSuperUserNotifications,
+  getDisplayQuestionReferences
 } from '../utils/superUserNotifier';
 import {
   getUnifiedQuestionBank,
@@ -756,7 +757,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
   const handleExportCSV = () => {
     if (!notifications || notifications.length === 0) return;
-    const headers = ['Timestamp', 'Student Name', 'Contact Number', 'Email', 'Category', 'Document Title', 'File Size'];
+    const headers = ['Timestamp', 'Student Name', 'Contact Number', 'Email', 'Category', 'Document Title', 'Question Bank IDs / Scope', 'File Size'];
     const rows = notifications.map(n => [
       `"${new Date(n.timestamp).toLocaleString()}"`,
       `"${n.userName}"`,
@@ -764,6 +765,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
       `"${n.userEmail}"`,
       `"${n.category}"`,
       `"${n.contentTitle.replace(/"/g, '""')}"`,
+      `"${getDisplayQuestionReferences(n).replace(/"/g, '""')}"`,
       `"${n.fileSize}"`
     ]);
 
@@ -2135,8 +2137,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                             <Calendar className="w-3 h-3 text-gray-400" />
                             <span>{new Date(item.timestamp).toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
                           </span>
-                          <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-gray-100 text-gray-600 border border-gray-200 font-bold">
-                            {item.fileSize}
+                          <span
+                            className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 border border-blue-200 font-semibold"
+                            title={`Question Bank IDs: ${getDisplayQuestionReferences(item)}`}
+                          >
+                            🏷️ {getDisplayQuestionReferences(item)}
                           </span>
                         </div>
 

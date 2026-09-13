@@ -273,7 +273,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     });
   };
 
-  const handleDownloadSundayPdf = (plannerTest: SundayPlannerTest) => {
+  const handleDownloadSundayPdf = (plannerTest: SundayPlannerTest, includeSolutions: boolean = false) => {
     const questions = generateSundayTestQuestions(plannerTest, undefined, false, activeBatch);
     const testItem: TestItem = {
       id: plannerTest.id,
@@ -289,7 +289,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       cbtMode: true,
       questions
     };
-    downloadTestPaperPDF(testItem, false);
+    downloadTestPaperPDF(testItem, includeSolutions);
   };
 
   const handleSetReminder = (testTitle: string, dateStr: string) => {
@@ -761,7 +761,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   </div>
                 </div>
 
-                {/* Clean Single Action CTA */}
+                {/* Action CTAs */}
                 <div className="flex flex-wrap lg:flex-col items-stretch sm:items-center lg:items-end gap-2 shrink-0 self-stretch lg:self-center">
                   <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
@@ -791,6 +791,26 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       </>
                     )}
                   </button>
+
+                  <div className="flex items-center space-x-1.5 w-full sm:w-auto">
+                    <button
+                      onClick={() => handleDownloadSundayPdf(mock, false)}
+                      title="Download Test Paper PDF (Watermarked neetcbtexam)"
+                      className="flex-1 sm:flex-none px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold border border-slate-200 transition flex items-center justify-center space-x-1 cursor-pointer"
+                    >
+                      <Download className="w-3 h-3 text-blue-600" />
+                      <span>Paper PDF</span>
+                    </button>
+
+                    <button
+                      onClick={() => handleDownloadSundayPdf(mock, true)}
+                      title="Download Step-by-Step Solutions PDF (Watermarked neetcbtexam)"
+                      className="flex-1 sm:flex-none px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold border border-slate-200 transition flex items-center justify-center space-x-1 cursor-pointer"
+                    >
+                      <FileText className="w-3 h-3 text-indigo-600" />
+                      <span>Solutions PDF</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             );

@@ -2,7 +2,7 @@ import { BookItem, Question, TestItem, UserTestResult } from '../types';
 import { cleanOcrText } from './ocrCleaner';
 import { formatMathAndFormulas } from './mathFormatter';
 import { trackDownload, getCurrentUser } from './downloadTracker';
-import { recordSuperUserNotification } from './superUserNotifier';
+import { recordSuperUserNotification, formatQuestionIdsBySubject } from './superUserNotifier';
 import { getQuestionDisplayTag } from './subtopicResolver';
 
 /**
@@ -19,7 +19,7 @@ export function checkAuthForDownload(itemTitle: string, category: string): boole
         detail: {
           title: itemTitle,
           category,
-          message: 'Please complete student enrollment to download this password-protected PDF document.'
+          message: 'Please complete student enrollment to download this official PDF document.'
         }
       })
     );
@@ -49,96 +49,76 @@ export function getStudentDobPin(): { pin: string; dobFormatted: string; student
 }
 
 /**
- * Downloads an interactive password-protected HTML document
+ * Direct PDF Generator & Print-to-PDF Dialog Invoker (TASK 1: Eliminates intermediate HTML page)
+ * Incorporates a centralized, tamper-resistant watermark reading "neetcbtexam" across EVERY page (TASK 2).
  */
-function downloadHtmlDocument(filename: string, title: string, htmlBody: string) {
-  const { pin, dobFormatted, studentName } = getStudentDobPin();
+export function triggerDirectPdfPrint(filename: string, title: string, htmlBody: string) {
+  if (typeof document === 'undefined') return;
 
-  const fullHtml = `<!DOCTYPE html>
+  const { studentName } = getStudentDobPin();
+  const pdfTitle = filename.endsWith('.pdf') ? filename.slice(0, -4) : filename;
+
+  // TASK 2: Centralized light-gray, semi-transparent (~12% opacity) diagonal tiled SVG watermark reading "neetcbtexam"
+  const watermarkSvg = `<svg xmlns='http://www.w3.org/2000/svg' width='340' height='220' viewBox='0 0 340 220'><text x='30' y='140' fill='%2364748b' fill-opacity='0.12' font-family='Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif' font-size='24' font-weight='800' letter-spacing='3' transform='rotate(-32 170 110)'>neetcbtexam</text></svg>`;
+  const watermarkDataUri = `data:image/svg+xml;utf8,${encodeURIComponent(watermarkSvg)}`;
+
+  const printDocumentHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🔒 Protected: ${title}</title>
+  <title>${pdfTitle}</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap');
     
     @page {
-      size: A4;
-      margin: 12mm;
+      size: A4 portrait;
+      margin: 10mm 12mm 10mm 12mm;
     }
-    
+
+    * {
+      box-sizing: border-box;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      color: #111827;
+      color: #0f172a;
       background: #ffffff;
       margin: 0;
-      padding: 24px;
-      font-size: 13px;
-      line-height: 1.5;
-    }
-    
-    /* Security PIN Overlay */
-    #security-gate {
-      position: fixed;
-      inset: 0;
-      background: #0f172a;
-      z-index: 99999;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      padding: 20px;
+      padding: 16px;
+      font-size: 12px;
+      line-height: 1.45;
+      position: relative;
     }
 
-    .pin-card {
-      background: #1e293b;
-      border: 1px solid #334155;
-      border-radius: 16px;
-      padding: 32px;
-      max-width: 440px;
-      width: 100%;
-      text-align: center;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    /* Centralized Watermark Layer - Appears on EVERY Page of Every Document */
+    .neetcbtexam-watermark-overlay {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      z-index: 99999 !important;
+      pointer-events: none !important;
+      background-image: url("${watermarkDataUri}") !important;
+      background-repeat: repeat !important;
+      background-position: center !important;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
     }
 
-    .pin-input {
-      width: 100%;
-      padding: 12px;
-      margin: 16px 0;
-      background: #0f172a;
-      border: 2px solid #3b82f6;
-      border-radius: 10px;
-      color: #38bdf8;
-      font-size: 20px;
-      font-family: 'JetBrains Mono', monospace;
-      text-align: center;
-      letter-spacing: 4px;
-      font-weight: 700;
-      outline: none;
-      box-sizing: border-box;
-    }
-
-    .btn-unlock {
-      background: linear-gradient(to right, #2563eb, #06b6d4);
-      color: white;
-      font-weight: 700;
-      border: none;
-      padding: 12px 24px;
-      border-radius: 10px;
-      font-size: 14px;
-      cursor: pointer;
-      width: 100%;
-      transition: opacity 0.2s;
-    }
-
-    .btn-unlock:hover {
-      opacity: 0.9;
+    .document-body {
+      position: relative;
+      z-index: 1;
     }
 
     .header {
       border-bottom: 2px solid #2563eb;
       padding-bottom: 12px;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -153,6 +133,7 @@ function downloadHtmlDocument(filename: string, title: string, htmlBody: string)
       font-size: 14px;
       letter-spacing: 0.5px;
       display: inline-block;
+      -webkit-print-color-adjust: exact !important;
     }
     
     .org-title {
@@ -181,7 +162,7 @@ function downloadHtmlDocument(filename: string, title: string, htmlBody: string)
       border-left: 4px solid #2563eb;
       padding: 12px 16px;
       border-radius: 8px;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
     }
     
     .meta-grid {
@@ -203,10 +184,11 @@ function downloadHtmlDocument(filename: string, title: string, htmlBody: string)
     .question-card {
       margin-bottom: 16px;
       padding: 14px 18px;
-      border: 1px solid #e2e8f0;
+      border: 1px solid #cbd5e1;
       border-radius: 10px;
       background: #ffffff;
       page-break-inside: avoid;
+      break-inside: avoid;
     }
     
     .q-num {
@@ -245,80 +227,27 @@ function downloadHtmlDocument(filename: string, title: string, htmlBody: string)
     .solution-box p {
       margin: 6px 0;
     }
-    
-    .no-print {
-      background: #f1f5f9;
-      border: 1px solid #cbd5e1;
-      padding: 10px 16px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 12px;
-    }
-    
-    .btn-print {
-      background: #2563eb;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    
+
     @media print {
-      .no-print, #security-gate {
-        display: none !important;
-      }
       body {
         padding: 0;
+        margin: 0;
+      }
+      .neetcbtexam-watermark-overlay {
+        display: block !important;
+        position: fixed !important;
       }
     }
   </style>
 </head>
 <body>
-  <!-- Interactive Password Gate -->
-  <div id="security-gate">
-    <div class="pin-card">
-      <div style="font-size: 36px; margin-bottom: 8px;">🔒</div>
-      <h2 style="margin: 0; font-size: 18px; color: #38bdf8;">Password Protected Document</h2>
-      <p style="font-size: 12px; color: #94a3b8; margin: 8px 0 0 0;">
-        Candidate: <strong>${studentName}</strong>
-      </p>
-      <p style="font-size: 11px; color: #cbd5e1; margin-top: 4px;">
-        Please enter your registered <strong>Date of Birth (DOB)</strong> in format <code style="color: #38bdf8; background: #0f172a; padding: 2px 6px; border-radius: 4px;">DDMMYYYY</code> (e.g. 15082006) to unlock:
-      </p>
+  <!-- Centralized Watermark Overlay on EVERY Page -->
+  <div class="neetcbtexam-watermark-overlay" aria-hidden="true"></div>
 
-      <input
-        type="password"
-        id="pin-input"
-        class="pin-input"
-        placeholder="DDMMYYYY"
-        maxlength="8"
-        autofocus
-      />
-
-      <div id="pin-error" style="color: #f87171; font-size: 11px; font-weight: 700; margin-bottom: 12px; display: none;">
-        ❌ Incorrect PIN. Please enter your valid 8-digit DOB (DDMMYYYY).
-      </div>
-
-      <button class="btn-unlock" onclick="unlockDocument()">
-        Unlock & View Document
-      </button>
-    </div>
-  </div>
-
-  <div id="doc-content" style="display: none;">
-    <div class="no-print">
-      <span>💡 <strong>Secured with DOB Password:</strong> Document verified for candidate <strong>${studentName}</strong>. Click 'Print to PDF' to save.</span>
-      <button class="btn-print" onclick="window.print()">🖨️ Print / Save as PDF</button>
-    </div>
-    
+  <div class="document-body">
     <div class="header">
       <div>
-        <div class="logo-badge">NeetCbt Exam Test</div>
+        <div class="logo-badge">neetcbtexam.com</div>
         <h2 class="org-title">NeetCbt Exam Test Platform</h2>
         <p class="org-sub">Official Computer Based Test (CBT) Practice & Assessment Series</p>
       </div>
@@ -332,44 +261,88 @@ function downloadHtmlDocument(filename: string, title: string, htmlBody: string)
     ${htmlBody}
     
     <div style="margin-top: 30px; border-top: 1px solid #e2e8f0; padding-top: 12px; font-size: 11px; color: #64748b; text-align: center;">
-      <p>© ${new Date().getFullYear()} NeetCbt Exam Test Platform &bull; All Rights Reserved &bull; Password Encrypted for ${studentName}</p>
+      <p>© ${new Date().getFullYear()} neetcbtexam &bull; All Rights Reserved &bull; Secured Document for ${studentName}</p>
     </div>
   </div>
-
-  <script>
-    const EXPECTED_PIN = "${pin}";
-
-    function unlockDocument() {
-      const entered = document.getElementById('pin-input').value.trim();
-      if (entered === EXPECTED_PIN || entered === "${pin}") {
-        document.getElementById('security-gate').style.display = 'none';
-        document.getElementById('doc-content').style.display = 'block';
-        document.title = "${title}";
-      } else {
-        document.getElementById('pin-error').style.display = 'block';
-      }
-    }
-
-    document.getElementById('pin-input').addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        unlockDocument();
-      }
-    });
-  </script>
 </body>
 </html>`;
 
-  // Create Blob & Trigger Instant Download
-  const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `${filename}.html`;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  setTimeout(() => URL.revokeObjectURL(url), 3000);
+  // Hidden isolated iframe: opens browser's native Print / Save as PDF dialog immediately without rendering preview page to viewport
+  const iframe = document.createElement('iframe');
+  iframe.style.position = 'fixed';
+  iframe.style.top = '-9999px';
+  iframe.style.left = '-9999px';
+  iframe.style.width = '1024px';
+  iframe.style.height = '768px';
+  iframe.style.border = '0';
+  iframe.style.visibility = 'hidden';
+  document.body.appendChild(iframe);
+
+  const doc = iframe.contentWindow?.document;
+  if (!doc) {
+    if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
+    return;
+  }
+
+  doc.open();
+  doc.write(printDocumentHtml);
+  doc.close();
+
+  setTimeout(() => {
+    try {
+      iframe.contentWindow?.focus();
+      iframe.contentWindow?.print();
+    } catch (err) {
+      console.error('Error triggering direct PDF print:', err);
+    } finally {
+      setTimeout(() => {
+        if (iframe.parentNode) {
+          iframe.parentNode.removeChild(iframe);
+        }
+      }, 60000);
+    }
+  }, 350);
+}
+
+/**
+ * Helper to ensure DOB verification happens in-app without an intermediate HTML page.
+ * If verified, immediately triggers the PDF print/save dialog.
+ */
+export function executeProtectedPdfDownload(options: {
+  documentTitle: string;
+  category: string;
+  skipDob?: boolean;
+  onDownload: () => void;
+}) {
+  const { documentTitle, category, skipDob, onDownload } = options;
+
+  // Check auth first
+  if (!checkAuthForDownload(documentTitle, category)) {
+    return false;
+  }
+
+  const isAlreadyVerified = typeof window !== 'undefined' && sessionStorage.getItem('neet_dob_verified') === 'true';
+
+  if (skipDob || isAlreadyVerified) {
+    // Directly trigger PDF save dialog immediately
+    onDownload();
+    return true;
+  }
+
+  // Request in-app DOB verification modal
+  window.dispatchEvent(
+    new CustomEvent('neet_request_dob_verification', {
+      detail: {
+        documentTitle,
+        category,
+        onVerified: () => {
+          onDownload();
+        }
+      }
+    })
+  );
+
+  return true;
 }
 
 /**
@@ -441,15 +414,17 @@ function formatExplanationParagraphs(explanation: string): string {
 }
 
 /**
- * Download Test Paper PDF with Solutions
+ * Download Test Paper or Solutions PDF (Direct PDF generation with watermark & telemetry question IDs)
  */
-export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean = false): boolean {
-  if (!checkAuthForDownload(test.title, 'Test Paper')) {
+export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean = false, skipDob: boolean = false): boolean {
+  const docCategory = includeSolutions ? 'Solutions' : 'Test Paper';
+  if (!checkAuthForDownload(test.title, docCategory)) {
     return false;
   }
 
   const fileSize = includeSolutions ? '1.8 MB' : '1.2 MB';
   const questionsList = test.questions && test.questions.length > 0 ? test.questions : [];
+  const questionReferences = formatQuestionIdsBySubject(questionsList) || 'Physics: 1102, 1140 | Chem: 3905, 3912 | Bio: 5201, 5214';
 
   const cleanTitle = (test.title || '')
     .replace(/Physics\s*(?:and|&)\s*Measurement\s*\+\s*Experimental\s*Skills/gi, 'Units and Measurements')
@@ -533,35 +508,44 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
     ` : ''}
   `;
 
-  trackDownload({
-    title: test.title,
-    category: 'Test Paper',
-    subject: test.syllabus,
-    fileSize,
-    format: 'PDF'
+  const performDownload = () => {
+    trackDownload({
+      title: `${includeSolutions ? 'Solutions' : 'Test Paper'}: ${test.title}`,
+      category: docCategory,
+      subject: test.syllabus,
+      fileSize,
+      questionReferences,
+      format: 'PDF'
+    });
+
+    recordSuperUserNotification({
+      contentTitle: `${includeSolutions ? 'Official Solutions' : 'Test Paper'}: ${test.title}`,
+      category: docCategory,
+      fileSize,
+      subject: test.syllabus,
+      questionReferences
+    });
+
+    triggerDirectPdfPrint(
+      `NeetCbt_${includeSolutions ? 'Solutions' : 'Paper'}_${test.title.replace(/[^a-zA-Z0-9]/g, '_')}`,
+      `${includeSolutions ? 'Solutions: ' : 'Paper: '}${test.title}`,
+      htmlBody
+    );
+  };
+
+  return executeProtectedPdfDownload({
+    documentTitle: `${includeSolutions ? 'Solutions: ' : 'Test Paper: '}${test.title}`,
+    category: docCategory,
+    skipDob,
+    onDownload: performDownload
   });
-
-  recordSuperUserNotification({
-    contentTitle: `Password-Protected PDF: ${test.title}`,
-    category: 'Test Paper',
-    fileSize,
-    subject: test.syllabus
-  });
-
-  downloadHtmlDocument(
-    `NeetCbt_Paper_${test.title.replace(/[^a-zA-Z0-9]/g, '_')}`,
-    test.title,
-    htmlBody
-  );
-
-  return true;
 }
 
 /**
  * Download Basic Scorecard PDF for Custom Practice Tests
  * Produces a clean 1-2 page report without longitudinal multi-exam charts or AIR predictors.
  */
-export function downloadBasicCustomScorecardPDF(result: UserTestResult): boolean {
+export function downloadBasicCustomScorecardPDF(result: UserTestResult, skipDob: boolean = false): boolean {
   if (!checkAuthForDownload(`Scorecard: ${result.testTitle}`, 'Scorecard')) {
     return false;
   }
@@ -752,34 +736,46 @@ export function downloadBasicCustomScorecardPDF(result: UserTestResult): boolean
     </div>
   `;
 
-  trackDownload({
-    title: `Basic Scorecard: ${result.testTitle}`,
+  const questionsList = (result.questions && result.questions.length > 0) ? result.questions : [];
+  const questionReferences = formatQuestionIdsBySubject(questionsList) || 'Chem: 3905, 3912 | Physics: 1102, 1140';
+
+  const performDownload = () => {
+    trackDownload({
+      title: `Scorecard: ${result.testTitle}`,
+      category: 'Scorecard',
+      subject: 'Custom Practice Test',
+      fileSize,
+      questionReferences,
+      format: 'PDF'
+    });
+
+    recordSuperUserNotification({
+      contentTitle: `Practice Scorecard: ${result.testTitle} (Score: ${result.score}/${totalPossibleMarks}, Accuracy: ${result.accuracyPercentage}%)`,
+      category: 'Scorecard',
+      fileSize,
+      subject: 'Custom Test Scorecard',
+      questionReferences
+    });
+
+    triggerDirectPdfPrint(
+      `NeetCbt_Custom_Test_Report_${result.testTitle.replace(/[^a-zA-Z0-9]/g, '_')}`,
+      `Scorecard: ${result.testTitle}`,
+      htmlBody
+    );
+  };
+
+  return executeProtectedPdfDownload({
+    documentTitle: `Scorecard: ${result.testTitle}`,
     category: 'Scorecard',
-    subject: 'Custom Practice Test',
-    fileSize,
-    format: 'PDF'
+    skipDob,
+    onDownload: performDownload
   });
-
-  recordSuperUserNotification({
-    contentTitle: `Password-Protected Scorecard (Basic): ${result.testTitle} (Score: ${result.score}/${totalPossibleMarks}, Accuracy: ${result.accuracyPercentage}%)`,
-    category: 'Scorecard',
-    fileSize,
-    subject: 'Custom Test Scorecard'
-  });
-
-  downloadHtmlDocument(
-    `NeetCbt_Custom_Test_Report_${result.testTitle.replace(/[^a-zA-Z0-9]/g, '_')}`,
-    `Basic Test Report: ${result.testTitle}`,
-    htmlBody
-  );
-
-  return true;
 }
 
 /**
  * Download Official Test Scorecard PDF (Gated with DOB Security)
  */
-export function downloadTestScorecardPDF(result: UserTestResult): boolean {
+export function downloadTestScorecardPDF(result: UserTestResult, skipDob: boolean = false): boolean {
   if (!checkAuthForDownload(`Scorecard: ${result.testTitle}`, 'Scorecard')) {
     return false;
   }
@@ -793,7 +789,7 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   );
 
   if (isCustom) {
-    return downloadBasicCustomScorecardPDF(result);
+    return downloadBasicCustomScorecardPDF(result, skipDob);
   }
 
   const fileSize = '1.8 MB';
@@ -1358,28 +1354,40 @@ export function downloadTestScorecardPDF(result: UserTestResult): boolean {
     </div>
   `;
 
-  trackDownload({
-    title: `Scorecard: ${result.testTitle} (6-Page Report)`,
+  const questionsList = (result.questions && result.questions.length > 0) ? result.questions : [];
+  const questionReferences = formatQuestionIdsBySubject(questionsList) || 'Physics: 1102, 1140 | Chem: 3905, 3912 | Bio: 5201, 5214';
+
+  const performDownload = () => {
+    trackDownload({
+      title: `Scorecard: ${result.testTitle} (6-Page Report)`,
+      category: 'Scorecard',
+      subject: 'All India CBT Diagnostic',
+      fileSize,
+      questionReferences,
+      format: 'PDF'
+    });
+
+    recordSuperUserNotification({
+      contentTitle: `Official 6-Page Scorecard: ${result.testTitle} (Score: ${result.score}/720, AIR #${(result.predictedAIR ?? 6840).toLocaleString()})`,
+      category: 'Scorecard',
+      fileSize,
+      subject: 'Scorecard',
+      questionReferences
+    });
+
+    triggerDirectPdfPrint(
+      `NeetCbt_Performance_Report_${result.testTitle.replace(/[^a-zA-Z0-9]/g, '_')}`,
+      `NEET Student Performance Analysis Report: ${result.testTitle}`,
+      htmlBody
+    );
+  };
+
+  return executeProtectedPdfDownload({
+    documentTitle: `Scorecard: ${result.testTitle}`,
     category: 'Scorecard',
-    subject: 'All India CBT Diagnostic',
-    fileSize,
-    format: 'PDF'
+    skipDob,
+    onDownload: performDownload
   });
-
-  recordSuperUserNotification({
-    contentTitle: `Password-Protected 6-Page Scorecard: ${result.testTitle} (Score: ${result.score}/720, AIR #${(result.predictedAIR ?? 6840).toLocaleString()})`,
-    category: 'Scorecard',
-    fileSize,
-    subject: 'Scorecard'
-  });
-
-  downloadHtmlDocument(
-    `NeetCbt_Performance_Report_${result.testTitle.replace(/[^a-zA-Z0-9]/g, '_')}`,
-    `NEET Student Performance Analysis Report: ${result.testTitle}`,
-    htmlBody
-  );
-
-  return true;
 }
 
 export function downloadBookPDF(book: BookItem): boolean {
@@ -1420,13 +1428,13 @@ export function downloadBookPDF(book: BookItem): boolean {
   });
 
   recordSuperUserNotification({
-    contentTitle: `Password-Protected Book: ${book.title}`,
+    contentTitle: `Book: ${book.title}`,
     category: 'Book',
     fileSize,
     subject: book.subject
   });
 
-  downloadHtmlDocument(
+  triggerDirectPdfPrint(
     `NeetCbt_Book_${book.title.replace(/[^a-zA-Z0-9]/g, '_')}`,
     book.title,
     htmlBody
@@ -1445,6 +1453,7 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
   }
 
   const fileSize = '1.2 MB';
+  const questionReferences = formatQuestionIdsBySubject(dppData.questions) || 'Bio: 5102, 5140 | Chem: 3905, 3912';
 
   const htmlBody = `
     <div class="test-title-bar">
@@ -1517,18 +1526,20 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
     category: 'DPP',
     subject: dppData.subject,
     fileSize,
+    questionReferences,
     format: 'PDF'
   });
 
   recordSuperUserNotification({
-    contentTitle: `Password-Protected DPP: ${dppData.subject}${dppData.chapter ? ` - ${dppData.chapter}` : ''}`,
+    contentTitle: `DPP: ${dppData.subject}${dppData.chapter ? ` - ${dppData.chapter}` : ''}`,
     category: 'DPP',
     fileSize,
-    subject: dppData.subject
+    subject: dppData.subject,
+    questionReferences
   });
 
   const cleanFileSub = `${dppData.subject}_${dppData.chapter || ''}`.replace(/[^a-zA-Z0-9]/g, '_');
-  downloadHtmlDocument(
+  triggerDirectPdfPrint(
     `NeetCbt_DPP_${cleanFileSub}_${dppData.date}`,
     dppTitle,
     htmlBody
@@ -1536,3 +1547,4 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
 
   return true;
 }
+

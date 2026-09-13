@@ -200,6 +200,7 @@ export interface UserTestResult {
     errorType: string;
     actionPlan: string;
   }[];
+  questions?: Question[];
 }
 
 export interface UserProfile {
@@ -218,9 +219,11 @@ export interface DownloadRecord {
   userName?: string;
   userPhone?: string;
   title: string;
-  category: 'Test Paper' | 'Scorecard' | 'Book' | 'DPP' | 'Formula Sheet' | 'Mind Map' | 'Custom Test';
+  category: 'Test Paper' | 'Solutions' | 'Scorecard' | 'Book' | 'DPP' | 'Formula Sheet' | 'Mind Map' | 'Custom Test';
   subject?: string;
   timestamp: string;
   fileSize?: string;
+  questionReferences?: string;
   format: 'PDF' | 'HTML' | 'DOC';
 }
+

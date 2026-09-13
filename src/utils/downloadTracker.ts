@@ -25,6 +25,7 @@ export function trackDownload(item: {
   subject?: string;
   chapter?: string;
   fileSize?: string;
+  questionReferences?: string;
   format?: 'PDF' | 'HTML' | 'DOC';
 }): DownloadRecord {
   const user = getCurrentUser();
@@ -44,6 +45,7 @@ export function trackDownload(item: {
     subject: item.subject || 'All Subjects',
     timestamp: new Date().toISOString(),
     fileSize: item.fileSize || '1.8 MB',
+    questionReferences: item.questionReferences,
     format: item.format || 'PDF'
   };
 
@@ -73,6 +75,7 @@ export function trackDownload(item: {
         category: item.category,
         subject: item.subject,
         file_size: record.fileSize,
+        question_references: item.questionReferences,
         format: record.format,
         created_at: record.timestamp
       }).then(() => {}).catch(() => {});

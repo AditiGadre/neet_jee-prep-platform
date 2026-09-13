@@ -20,6 +20,7 @@ const AuthModal = lazy(() => import('./components/AuthModal').then(m => ({ defau
 const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m => ({ default: m.DownloadsModal })));
 import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
+import { DobVerificationModal } from './components/DobVerificationModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
 
 const SectionLoadingFallback = () => (
@@ -215,6 +216,17 @@ export default function App() {
     }
   });
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [dobModalState, setDobModalState] = useState<{
+    isOpen: boolean;
+    documentTitle: string;
+    category: string;
+    onVerified: () => void;
+  }>({
+    isOpen: false,
+    documentTitle: '',
+    category: '',
+    onVerified: () => {}
+  });
 
   useEffect(() => {
     const syncAuth = () => {
@@ -238,8 +250,19 @@ export default function App() {
       setIsAuthModalOpen(true);
     };
 
+    const handleDobRequired = (e: any) => {
+      const detail = e.detail || {};
+      setDobModalState({
+        isOpen: true,
+        documentTitle: detail.documentTitle || 'Examination Document',
+        category: detail.category || 'Test Paper',
+        onVerified: detail.onVerified || (() => {})
+      });
+    };
+
     window.addEventListener('neet_auth_change', syncAuth);
     window.addEventListener('neet_auth_required_for_download', handleAuthRequired);
+    window.addEventListener('neet_request_dob_verification', handleDobRequired);
 
     if (supabase) {
       supabase.auth.getSession().then(({ data: { session } }) => {
@@ -314,12 +337,14 @@ export default function App() {
         subscription.unsubscribe();
         window.removeEventListener('neet_auth_change', syncAuth);
         window.removeEventListener('neet_auth_required_for_download', handleAuthRequired);
+        window.removeEventListener('neet_request_dob_verification', handleDobRequired);
       };
     }
 
     return () => {
       window.removeEventListener('neet_auth_change', syncAuth);
       window.removeEventListener('neet_auth_required_for_download', handleAuthRequired);
+      window.removeEventListener('neet_request_dob_verification', handleDobRequired);
     };
   }, []);
 
@@ -625,6 +650,17 @@ export default function App() {
             onClose={() => setIsUploadModalOpen(false)}
             defaultSubject={uploadSubject}
             defaultChapter={uploadChapter}
+          />
+        )}
+
+        {/* Direct In-App DOB Verification Modal for Downloads */}
+        {dobModalState.isOpen && (
+          <DobVerificationModal
+            isOpen={dobModalState.isOpen}
+            onClose={() => setDobModalState(prev => ({ ...prev, isOpen: false }))}
+            documentTitle={dobModalState.documentTitle}
+            category={dobModalState.category}
+            onVerified={dobModalState.onVerified}
           />
         )}
       </Suspense>
