@@ -347,8 +347,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       'Closing AIR',
       'Candidate AIR',
       'Margin (+Ranks)',
-      'Safety Index',
-      'PDF Source Page'
+      'Safety Index'
     ];
 
     const rows = clearedList.map(c => [
@@ -362,8 +361,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
       c.closingAir,
       userAir,
       c.margin,
-      c.probability,
-      `Page ${c.pageNumber}`
+      c.probability
     ]);
 
     const csvContent = 'data:text/csv;charset=utf-8,' + [header.join(','), ...rows.map(e => e.join(','))].join('\n');
@@ -428,7 +426,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
               1. <strong>Historical Reference Only:</strong> 2025-26 (Rounds 1 & 3) and 2024-25 (Round 2) cutoffs reflect previous round closing ranks. Actual cutoffs in upcoming rounds vary due to applicant volume, changes in seat matrix, and score distributions.
             </div>
             <div>
-              2. <strong>Exact Verifiable Citations:</strong> Every cutoff card displays the exact official State CET Cell provisional list round, year, and PDF document page number.
+              2. <strong>Exact Verifiable Citations:</strong> Every cutoff card displays the exact official State CET Cell provisional selection round and academic year.
             </div>
             <div>
               3. <strong>Institutional Quota (`I.Q.`) / Deemed Notice:</strong> Seats marked with `I.Q.` represent 15% Management/Institutional seats in private colleges with distinct fee structures.
@@ -773,7 +771,7 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                   </div>
                 </div>
 
-                {/* Bottom Source Citation (STEP 3 Requirement) */}
+                {/* Bottom Source Citation */}
                 <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
                   <div className="flex items-center space-x-1">
                     <FileText className="w-3.5 h-3.5 text-slate-500" />
@@ -781,8 +779,8 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                       {entry.round} {entry.year === '2024-25' ? '(2024-25 Ref)' : '(2025-26)'}
                     </span>
                   </div>
-                  <span className="font-semibold text-slate-400 bg-slate-800/60 px-2 py-0.5 rounded-md border border-slate-700/60">
-                    PDF Page {entry.pageNumber}
+                  <span className="text-[10px] font-mono text-slate-500 font-semibold">
+                    CET Cell CAP Verified
                   </span>
                 </div>
               </div>
@@ -864,11 +862,14 @@ export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
                 </div>
 
                 <div className="mt-3 pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
-                  <span>
-                    {entry.round} {entry.year === '2024-25' ? '(2024-25 Ref)' : '(2025-26)'}
-                  </span>
-                  <span className="font-semibold text-slate-400 bg-slate-800/60 px-2 py-0.5 rounded-md border border-slate-700/60">
-                    PDF Page {entry.pageNumber}
+                  <div className="flex items-center space-x-1">
+                    <FileText className="w-3.5 h-3.5 text-slate-500" />
+                    <span>
+                      {entry.round} {entry.year === '2024-25' ? '(2024-25 Ref)' : '(2025-26)'}
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-mono text-slate-500 font-semibold">
+                    CET Cell CAP Verified
                   </span>
                 </div>
               </div>
