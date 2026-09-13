@@ -16,11 +16,13 @@ import {
   HelpCircle,
   ShieldCheck,
   Zap,
-  ArrowDownToLine
+  ArrowDownToLine,
+  GraduationCap
 } from 'lucide-react';
 
 export type TabType =
   | 'test-series'
+  | 'college-predictor'
   | 'online-courses'
   | 'what-extra'
   | 'about-exam'
@@ -52,12 +54,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
       badge: '180 Qs PCB'
     },
     {
+      id: 'college-predictor' as TabType,
+      label: '2. NEET College Predictor',
+      sublabel: 'MBBS/BDS Cutoffs 2025-26 & 2024-25',
+      icon: GraduationCap,
+      badge: '6,995 Ranks',
+      highlight: true
+    },
+    {
       id: 'what-extra' as TabType,
-      label: '2. What Extra We Offer',
+      label: '3. What Extra We Offer',
       sublabel: 'Custom DPP, 10K Flashcards, Mind Maps, NCERT Audio',
       icon: Sparkles,
-      badge: '8 Tools',
-      highlight: true
+      badge: '8 Tools'
     },
     {
       id: 'about-exam' as TabType,

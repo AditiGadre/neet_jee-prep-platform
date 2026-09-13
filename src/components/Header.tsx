@@ -154,9 +154,17 @@ export const Header: React.FC<HeaderProps> = ({
                   }}
                   className="flex items-center space-x-1.5 sm:space-x-2 bg-slate-50 hover:bg-slate-100 border border-slate-200 px-2 sm:px-2.5 py-1 rounded-xl transition cursor-pointer"
                 >
-                  <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-bold text-xs flex items-center justify-center shrink-0 uppercase shadow-2xs">
-                    {userName.charAt(0)}
-                  </div>
+                  {enrolledStudent?.studentPhoto ? (
+                    <img
+                      src={enrolledStudent.studentPhoto}
+                      alt={userName}
+                      className="w-7 h-7 rounded-full object-cover border border-blue-400 shrink-0"
+                    />
+                  ) : (
+                    <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-bold text-xs flex items-center justify-center shrink-0 uppercase shadow-2xs">
+                      {userName.charAt(0)}
+                    </div>
+                  )}
                   <div className="text-left hidden sm:block max-w-[110px] truncate">
                     <p className="text-[11px] font-bold text-slate-900 truncate leading-none">{userName}</p>
                     <p className="text-[9px] text-slate-500 font-mono truncate">{userPhone}</p>
@@ -165,8 +173,8 @@ export const Header: React.FC<HeaderProps> = ({
                 </button>
 
                 {profileDropdownOpen && (
-                  <div className="absolute right-0 mt-1.5 w-80 rounded-2xl bg-white border border-slate-200 shadow-2xl py-2 z-50 animate-in fade-in zoom-in-95 duration-100 text-slate-900">
-                    <div className="px-4 py-3 border-b border-slate-100 space-y-1 bg-slate-50/70">
+                  <div className="absolute right-0 mt-1.5 w-84 rounded-2xl bg-white border border-slate-200 shadow-2xl py-2 z-50 animate-in fade-in zoom-in-95 duration-100 text-slate-900">
+                    <div className="px-4 py-3 border-b border-slate-100 space-y-2 bg-slate-50/70">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-1.5">
                           <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -178,8 +186,45 @@ export const Header: React.FC<HeaderProps> = ({
                           {userCaste}
                         </span>
                       </div>
-                      <p className="text-xs font-bold text-slate-900 truncate">{userName}</p>
-                      <p className="text-[10px] text-slate-600">Parent: <strong>{parentName}</strong></p>
+
+                      <div className="flex items-center space-x-3">
+                        {enrolledStudent?.studentPhoto ? (
+                          <img
+                            src={enrolledStudent.studentPhoto}
+                            alt={userName}
+                            className="w-11 h-11 rounded-xl object-cover border-2 border-blue-400 shadow-xs shrink-0"
+                          />
+                        ) : (
+                          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-bold text-base flex items-center justify-center shrink-0 uppercase shadow-xs">
+                            {userName.charAt(0)}
+                          </div>
+                        )}
+                        <div className="min-w-0 flex-1">
+                          <p className="text-xs font-bold text-slate-900 truncate">{userName}</p>
+                          <p className="text-[10px] text-slate-600">Parent: <strong>{parentName}</strong></p>
+                          {enrolledStudent?.gender && (
+                            <p className="text-[10px] text-slate-500">Gender: <strong>{enrolledStudent.gender}</strong></p>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Badges for Disability and Defence Special Reservation */}
+                      {(enrolledStudent?.disabilityStatus && enrolledStudent.disabilityStatus !== 'No Disability' ||
+                        enrolledStudent?.specialReservation && enrolledStudent.specialReservation !== 'None') && (
+                        <div className="flex flex-wrap gap-1 pt-1">
+                          {enrolledStudent.disabilityStatus !== 'No Disability' && (
+                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-md bg-purple-100 text-purple-800 border border-purple-200 truncate max-w-full">
+                              ♿ {enrolledStudent.disabilityStatus}
+                            </span>
+                          )}
+                          {enrolledStudent.specialReservation !== 'None' && (
+                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-md bg-amber-100 text-amber-900 border border-amber-200 truncate max-w-full">
+                              🎖️ {enrolledStudent.specialReservation}
+                            </span>
+                          )}
+                        </div>
+                      )}
+
                       <div className="space-y-0.5 font-mono text-[10px] text-slate-500 pt-0.5">
                         <div className="flex items-center space-x-1">
                           <Mail className="w-3 h-3 text-slate-400 shrink-0" />

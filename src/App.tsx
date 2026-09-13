@@ -21,6 +21,7 @@ const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m =
 import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
+const NeetCollegePredictor = lazy(() => import('./components/NeetCollegePredictor').then(m => ({ default: m.NeetCollegePredictor })));
 
 const SectionLoadingFallback = () => (
   <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
@@ -60,6 +61,7 @@ export default function App() {
           parentName: u.parentName || 'Sanjay Gadre',
           parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
           studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
+          domicileState: u.domicileState || 'Maharashtra',
           caste: u.caste || 'General / Open',
           email: u.email || 'aditi.gadre@gmail.com',
           dob: u.dob || '2006-08-15',
@@ -67,7 +69,11 @@ export default function App() {
           targetYear: u.targetYear || '2027',
           enrolledAt: u.enrolledAt || new Date().toISOString(),
           rollNumber: u.rollNumber || 'NCBT-2027-784920',
-          devices: u.devices || ['dev-1']
+          devices: u.devices || ['dev-1'],
+          studentPhoto: u.studentPhoto || '',
+          gender: u.gender || 'Female',
+          disabilityStatus: u.disabilityStatus || 'No Disability',
+          specialReservation: u.specialReservation || 'None'
         };
         localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
         localStorage.setItem('neet_user_enrolled', 'true');
@@ -80,6 +86,7 @@ export default function App() {
           parentName: 'Sanjay Gadre',
           parentPhone: '9876543210',
           studentPhone: '9876543210',
+          domicileState: 'Maharashtra',
           caste: 'General / Open',
           email: 'student@neetcbt.in',
           dob: '2006-08-15',
@@ -87,7 +94,11 @@ export default function App() {
           targetYear: '2027',
           enrolledAt: new Date().toISOString(),
           rollNumber: 'NCBT-2027-784920',
-          devices: ['dev-1']
+          devices: ['dev-1'],
+          studentPhoto: '',
+          gender: 'Female',
+          disabilityStatus: 'No Disability',
+          specialReservation: 'None'
         };
         localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
         return fallbackStudent;
@@ -371,6 +382,8 @@ export default function App() {
                 onStartTest={handleStartTest}
               />
             )}
+
+            {activeTab === 'college-predictor' && <NeetCollegePredictor />}
 
             {activeTab === 'what-extra' && (
               <WhatExtraSection
