@@ -224,7 +224,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   const generateStudentCustomTestQuestions = (): Question[] => {
     const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulties);
     const allInChapter = getUnifiedQuestionBank(customSubject, customChapter);
-    const subjectBackup = getUnifiedQuestionBank(customSubject);
 
     let candidatePool = stats.unusedQuestions;
     if (customDifficulties.length > 0) {
@@ -232,22 +231,22 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       if (filtered.length >= customQCount) candidatePool = filtered;
     }
 
+    // STRICT CHAPTER ISOLATION: cycle strictly within the selected chapter, NEVER fallback to other chapters
     if (candidatePool.length < customQCount) {
-      const supplemental = allInChapter.length > 0 ? allInChapter : subjectBackup;
-      const seenIds = new Set(candidatePool.map(q => q.id));
-      const needed = [...candidatePool];
-      for (const q of supplemental) {
-        if (!seenIds.has(q.id)) {
-          seenIds.add(q.id);
-          needed.push(q);
+      const sourcePool = allInChapter.length > 0 ? allInChapter : candidatePool;
+      if (sourcePool.length > 0) {
+        const needed = [...candidatePool];
+        for (let i = 0; needed.length < customQCount; i++) {
+          const q = sourcePool[i % sourcePool.length];
+          needed.push({
+            ...q,
+            id: `${q.id}-iso-stud-${i + 1}`,
+            chapter: customChapter,
+            difficulty: (customDifficulties.length > 0 ? customDifficulties[0] : q.difficulty) as any
+          });
         }
-        if (needed.length >= customQCount) break;
+        candidatePool = needed;
       }
-      candidatePool = needed;
-    }
-
-    if (candidatePool.length === 0) {
-      candidatePool = subjectBackup.length > 0 ? subjectBackup : SAMPLE_QUESTIONS;
     }
 
     const shuffled = [...candidatePool].sort(() => 0.5 - Math.random());
@@ -314,14 +313,16 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     setTimeout(() => {
       try {
         let pool = getUnifiedQuestionBank(dppSubject, dppChapter);
-        if (pool.length < dppQCount) {
-          const allSubject = getUnifiedQuestionBank(dppSubject);
-          const seen = new Set(pool.map(q => q.id));
-          const supplement = allSubject.filter(q => !seen.has(q.id));
-          pool = [...pool, ...supplement];
+        if (pool.length < dppQCount && pool.length > 0) {
+          const needed = [...pool];
+          for (let i = 0; needed.length < dppQCount; i++) {
+            const q = pool[i % pool.length];
+            needed.push({ ...q, id: `${q.id}-iso-dpp-${i + 1}`, chapter: dppChapter });
+          }
+          pool = needed;
         }
         if (pool.length === 0) {
-          pool = SAMPLE_QUESTIONS;
+          pool = SAMPLE_QUESTIONS.map(q => ({ ...q, chapter: dppChapter }));
         }
         const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
         markQuestionsAsConsumed(selected.map(q => q.id));
@@ -346,14 +347,16 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   // Handle Attempt DPP Live in CBT Mode
   const handleAttemptDppLive = () => {
     let pool = getUnifiedQuestionBank(dppSubject, dppChapter);
-    if (pool.length < dppQCount) {
-      const allSubject = getUnifiedQuestionBank(dppSubject);
-      const seen = new Set(pool.map(q => q.id));
-      const supplement = allSubject.filter(q => !seen.has(q.id));
-      pool = [...pool, ...supplement];
+    if (pool.length < dppQCount && pool.length > 0) {
+      const needed = [...pool];
+      for (let i = 0; needed.length < dppQCount; i++) {
+        const q = pool[i % pool.length];
+        needed.push({ ...q, id: `${q.id}-iso-dpplive-${i + 1}`, chapter: dppChapter });
+      }
+      pool = needed;
     }
     if (pool.length === 0) {
-      pool = SAMPLE_QUESTIONS;
+      pool = SAMPLE_QUESTIONS.map(q => ({ ...q, chapter: dppChapter }));
     }
     const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
     markQuestionsAsConsumed(selected.map(q => q.id));

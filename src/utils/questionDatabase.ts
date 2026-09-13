@@ -157,6 +157,125 @@ const ALL_BUILTIN_QUESTIONS: Question[] = [
   ...ALL_PHYSICS_MASTER_QUESTIONS
 ];
 
+// Explicit official unit to exact chapter mapping to guarantee 100% strict chapter isolation
+export const STRICT_SYLLABUS_UNIT_MAPPINGS: Record<string, string[]> = {
+  // Physics Units
+  'unit1unitsandmeasurements': ['Units and Measurement', 'Units, Dimensions', 'Units, Dimensions and Errors in Measurement', 'Physical World'],
+  'unitsandmeasurements': ['Units and Measurement', 'Units, Dimensions', 'Units, Dimensions and Errors in Measurement', 'Physical World'],
+  'unit2kinematics': ['Motion in a Straight Line', 'Motion in a Plane', 'Motion in One Dimension', 'Vectors'],
+  'kinematics': ['Motion in a Straight Line', 'Motion in a Plane', 'Motion in One Dimension', 'Vectors'],
+  'unit3lawsofmotion': ['Laws of Motion'],
+  'lawsofmotion': ['Laws of Motion'],
+  'unit4workenergyandpower': ['Work, Energy and Power'],
+  'workenergyandpower': ['Work, Energy and Power'],
+  'unit5rotationalmotion': ['Rotational Motion', 'Systems of Particles and Rotational Motion'],
+  'rotationalmotion': ['Rotational Motion', 'Systems of Particles and Rotational Motion'],
+  'unit6gravitation': ['Gravitation'],
+  'gravitation': ['Gravitation'],
+  'unit7propertiesofsolidsandliquids': ['Mechanical Properties of Solids', 'Mechanical Properties of Fluids', 'Thermal Properties of Matter', 'Elasticity'],
+  'propertiesofsolidsandliquids': ['Mechanical Properties of Solids', 'Mechanical Properties of Fluids', 'Thermal Properties of Matter', 'Elasticity'],
+  'unit8thermodynamics': ['Thermodynamics'],
+  'thermodynamics': ['Thermodynamics'],
+  'unit9kinetictheoryofgases': ['Kinetic Theory', 'Kinetic Theory of Gases'],
+  'kinetictheoryofgases': ['Kinetic Theory', 'Kinetic Theory of Gases'],
+  'unit10oscillationsandwaves': ['Oscillations', 'Waves', 'Simple Harmonic Motion', 'Waves and Sound'],
+  'oscillationsandwaves': ['Oscillations', 'Waves', 'Simple Harmonic Motion', 'Waves and Sound'],
+  'unit11electrostatics': ['Electrostatics', 'Electric Charges and Fields', 'Electrostatic Potential and Capacitance'],
+  'electrostatics': ['Electrostatics', 'Electric Charges and Fields', 'Electrostatic Potential and Capacitance'],
+  'unit12currentelectricity': ['Current Electricity'],
+  'currentelectricity': ['Current Electricity'],
+  'unit13magneticeffectsofcurrentandmagnetism': ['Moving Charges and Magnetism', 'Magnetism', 'Magnetism and Matter'],
+  'magneticeffectsofcurrentandmagnetism': ['Moving Charges and Magnetism', 'Magnetism', 'Magnetism and Matter'],
+  'unit14electromagneticinductionandac': ['Electromagnetic Induction', 'Alternating Current'],
+  'electromagneticinductionandac': ['Electromagnetic Induction', 'Alternating Current'],
+  'unit15electromagneticwaves': ['Electromagnetic Waves'],
+  'electromagneticwaves': ['Electromagnetic Waves'],
+  'unit16optics': ['Ray Optics and Optical Instruments', 'Wave Optics'],
+  'optics': ['Ray Optics and Optical Instruments', 'Wave Optics'],
+  'unit17dualnatureofmatterandradiation': ['Dual Nature of Radiation and Matter'],
+  'dualnatureofmatterandradiation': ['Dual Nature of Radiation and Matter'],
+  'unit18atomsandnuclei': ['Atoms', 'Nuclei'],
+  'atomsandnuclei': ['Atoms', 'Nuclei'],
+  'unit19electronicdevices': ['Semiconductor Electronics', 'Semiconductor Electronics: Materials, Devices and Simple Circuits'],
+  'electronicdevices': ['Semiconductor Electronics', 'Semiconductor Electronics: Materials, Devices and Simple Circuits'],
+  'unit20experimentalskillsandpracticalphysics': ['Units and Measurement', 'Units, Dimensions and Errors in Measurement'],
+
+  // Chemistry Units
+  'unit1somebasicconceptsinchemistry': ['Some Basic Concepts of Chemistry'],
+  'somebasicconceptsinchemistry': ['Some Basic Concepts of Chemistry'],
+  'unit2atomicstructure': ['Structure of Atom'],
+  'atomicstructure': ['Structure of Atom'],
+  'unit3chemicalbondingandmolecularstructure': ['Chemical Bonding and Molecular Structure'],
+  'chemicalbondingandmolecularstructure': ['Chemical Bonding and Molecular Structure'],
+  'unit4chemicalthermodynamics': ['Thermodynamics'],
+  'chemicalthermodynamics': ['Thermodynamics'],
+  'unit5solutions': ['Solutions'],
+  'solutions': ['Solutions'],
+  'unit6equilibrium': ['Equilibrium'],
+  'equilibrium': ['Equilibrium'],
+  'unit7redoxreactionsandelectrochemistry': ['Redox Reactions', 'Electrochemistry'],
+  'redoxreactionsandelectrochemistry': ['Redox Reactions', 'Electrochemistry'],
+  'unit8chemicalkinetics': ['Chemical Kinetics'],
+  'chemicalkinetics': ['Chemical Kinetics'],
+  'unit9classificationofelementsandperiodicity': ['Classification of Elements and Periodicity in Properties'],
+  'classificationofelementsandperiodicity': ['Classification of Elements and Periodicity in Properties'],
+  'unit10pblockelements': ['The p-Block Elements (Groups 13 and 14)', 'The p-Block Elements (Group 15, 16, 17 and 18)'],
+  'pblockelements': ['The p-Block Elements (Groups 13 and 14)', 'The p-Block Elements (Group 15, 16, 17 and 18)'],
+  'unit11dandfblockelements': ['The d- and f-Block Elements'],
+  'dandfblockelements': ['The d- and f-Block Elements'],
+  'unit12coordinationcompounds': ['Coordination Compounds'],
+  'coordinationcompounds': ['Coordination Compounds'],
+  'unit13purificationandcharacterisationoforganiccompounds': ['Organic Chemistry - Some Basic Principles & Techniques'],
+  'unit14somebasicprinciplesoforganicchemistry': ['Organic Chemistry - Some Basic Principles & Techniques'],
+  'unit15hydrocarbons': ['Hydrocarbons'],
+  'hydrocarbons': ['Hydrocarbons'],
+  'unit16organiccompoundscontaininghalogens': ['Haloalkanes and Haloarenes'],
+  'unit17organiccompoundscontainingoxygen': ['Alcohols, Phenols and Ethers', 'Aldehydes, Ketones and Carboxylic Acids'],
+  'unit18organiccompoundscontainingnitrogen': ['Amines'],
+  'unit19biomolecules': ['Biomolecules'],
+  'biomolecules': ['Biomolecules'],
+  'unit20principlesrelatedtopracticalchemistry': ['General Principles and Processes of Isolation of Elements', 'Surface Chemistry'],
+
+  // Biology Units / Tracking Blocks
+  'thelivingworld': ['The Living World', 'Diversity in the Living World'],
+  'biologicalclassification': ['Biological Classification'],
+  'plantkingdom': ['Plant Kingdom'],
+  'morphologyoffloweringplants': ['Morphology of Flowering Plants'],
+  'anatomyoffloweringplants': ['Anatomy of Flowering Plants'],
+  'cellstructureandfunction': ['Cell: The Unit of Life'],
+  'celltheunitoflife': ['Cell: The Unit of Life'],
+  'cellcycleandcelldivision': ['Cell Cycle and Cell Division'],
+  'transportinplants': ['Plant Growth and Development'],
+  'photosynthesisinplants': ['Photosynthesis in Higher Plants'],
+  'photosynthesisinhigherplants': ['Photosynthesis in Higher Plants'],
+  'respirationinplants': ['Respiration in Plants'],
+  'plantgrowthanddevelopment': ['Plant Growth and Development'],
+  'sexualreproductioninfloweringplants': ['Sexual Reproduction in Flowering Plants'],
+  'principlesofinheritanceandvariation': ['Principles of Inheritance and Variation'],
+  'molecularbasisofinheritance': ['Molecular Basis of Inheritance'],
+  'evolution': ['Evolution'],
+  'microbesinhumanwelfare': ['Microbes in Human Welfare'],
+  'biotechnologyprinciplesandprocesses': ['Biotechnology: Principles and Processes'],
+  'biotechnologyanditsapplications': ['Biotechnology and its Applications'],
+  'ecologyandenvironment': ['Organisms and Populations', 'Ecosystem', 'Biodiversity and Conservation'],
+  'animalkingdom': ['Animal Kingdom'],
+  'structuralorganisationinanimals': ['Structural Organisation in Animals'],
+  'breathingandrespiration': ['Breathing and Exchange of Gases'],
+  'breathingandexchangeofgases': ['Breathing and Exchange of Gases'],
+  'bodyfluidsandcirculation': ['Body Fluids and Circulation'],
+  'excretoryproductsandelimination': ['Excretory Products and their Elimination'],
+  'locomotionandmovement': ['Locomotion and Movement'],
+  'neuralcontrolandcoordination': ['Neural Control and Coordination'],
+  'chemicalcoordinationandregulation': ['Chemical Coordination and Integration'],
+  'chemicalcoordinationandintegration': ['Chemical Coordination and Integration'],
+  'humanreproduction': ['Human Reproduction'],
+  'reproductivehealth': ['Reproductive Health'],
+  'humanhealthanddisease': ['Human Health and Disease'],
+  'organismsandpopulations': ['Organisms and Populations'],
+  'ecosystem': ['Ecosystem'],
+  'biodiversityandconservation': ['Biodiversity and Conservation']
+};
+
 function getQuestionsFromSubjectIndex(
   subjectQuestions: Question[],
   chapterMap: Map<string, Question[]>,
@@ -167,53 +286,63 @@ function getQuestionsFromSubjectIndex(
     return subjectQuestions;
   }
 
-  const cleanChapter = chapter.trim().toLowerCase();
-  const normChapter = normalizeChapterName(chapter);
+  // Strip unit and block numbering prefixes
+  const stripped = chapter
+    .replace(/^Unit\s*\d+\s*:\s*/i, '')
+    .replace(/^\[(Botany|Zoology)\]\s*/i, '')
+    .replace(/^\d+\.\s*/, '')
+    .trim();
 
-  // 1. Direct norm match (O(1))
-  const directMatch = chapterMap.get(normChapter);
+  const normChapter = normalizeChapterName(chapter);
+  const normStripped = normalizeChapterName(stripped);
+
+  // 1. Strict unit mappings (prevents keywords from leaking unrelated chapters)
+  const mappedChapters = STRICT_SYLLABUS_UNIT_MAPPINGS[normChapter] || STRICT_SYLLABUS_UNIT_MAPPINGS[normStripped];
+  if (mappedChapters && mappedChapters.length > 0) {
+    const matched: Question[] = [];
+    const seenIds = new Set<string>();
+    for (const targetCh of mappedChapters) {
+      const qs = chapterMap.get(normalizeChapterName(targetCh));
+      if (qs) {
+        for (let i = 0; i < qs.length; i++) {
+          if (!seenIds.has(qs[i].id)) {
+            seenIds.add(qs[i].id);
+            matched.push(qs[i]);
+          }
+        }
+      }
+    }
+    if (matched.length > 0) return matched;
+  }
+
+  // 2. Direct norm match (O(1)) on stripped or raw chapter
+  const directMatch = chapterMap.get(normStripped) || chapterMap.get(normChapter);
   if (directMatch && directMatch.length > 0) {
     return directMatch;
   }
 
-  // 2. Substring match on chapter names (iterating ~30 chapter keys, not 11,000 questions)
-  const matchedQuestions: Question[] = [];
+  // 3. Exact normalized match across all known chapters
   for (let i = 0; i < chapterList.length; i++) {
     const ch = chapterList[i];
-    const chClean = ch.toLowerCase();
     const chNorm = normalizeChapterName(ch);
-    if (
-      chClean.includes(cleanChapter) ||
-      cleanChapter.includes(chClean) ||
-      chNorm.includes(normChapter) ||
-      normChapter.includes(chNorm)
-    ) {
+    if (chNorm === normStripped || chNorm === normChapter) {
       const qs = chapterMap.get(chNorm);
-      if (qs) {
-        for (let j = 0; j < qs.length; j++) {
-          matchedQuestions.push(qs[j]);
-        }
-      }
+      if (qs && qs.length > 0) return qs;
     }
   }
 
-  if (matchedQuestions.length > 0) {
-    return matchedQuestions;
-  }
-
-  // 3. Keyword tokens matching (e.g. "waves", "shm", "kinematics", "optics")
-  const tokens = cleanChapter
-    .split(/[^a-z0-9]+/)
-    .filter(t => t.length >= 4 && !['and', 'the', 'for', 'with', 'chapter', 'unit', 'class', 'part', 'test', 'physics', 'chemistry', 'biology'].includes(t));
-
-  if (tokens.length > 0) {
-    for (let i = 0; i < chapterList.length; i++) {
-      const ch = chapterList[i];
-      const chClean = ch.toLowerCase();
-      if (tokens.some(tok => chClean.includes(tok))) {
-        const qs = chapterMap.get(normalizeChapterName(ch));
-        if (qs) {
-          for (let j = 0; j < qs.length; j++) {
+  // 4. Substring equality strictly if the complete stripped chapter name matches
+  const matchedQuestions: Question[] = [];
+  const seenIds = new Set<string>();
+  for (let i = 0; i < chapterList.length; i++) {
+    const ch = chapterList[i];
+    const chNorm = normalizeChapterName(ch);
+    if (chNorm.includes(normStripped) || normStripped.includes(chNorm)) {
+      const qs = chapterMap.get(chNorm);
+      if (qs) {
+        for (let j = 0; j < qs.length; j++) {
+          if (!seenIds.has(qs[j].id)) {
+            seenIds.add(qs[j].id);
             matchedQuestions.push(qs[j]);
           }
         }
@@ -225,11 +354,9 @@ function getQuestionsFromSubjectIndex(
     return matchedQuestions;
   }
 
-  // Fallback: topic matching
-  return subjectQuestions.filter(q => {
-    const qTopic = q.topic ? q.topic.toLowerCase() : '';
-    return tokens.some(tok => qTopic.includes(tok));
-  });
+  // STRICT ISOLATION: When a specific chapter was requested and nothing matched,
+  // return empty array [] rather than leaking unrelated questions from the whole subject!
+  return [];
 }
 
 /**
@@ -471,4 +598,70 @@ export function getQuestionDatabaseStats() {
     customUploadedCount: custom.length,
     totalChapters: bioIndex.chapters.length + chemIndex.chapters.length + physIndex.chapters.length
   };
+}
+
+export interface TopicAllocationItem {
+  id: string;
+  subject: 'Physics' | 'Chemistry' | 'Biology';
+  chapter: string;
+  count: number;
+}
+
+/**
+ * Strictly assemble questions from an array of allocated topics with guaranteed 100% chapter isolation
+ */
+export function assembleStrictTopicAllocations(
+  allocations: TopicAllocationItem[],
+  difficulties?: string[]
+): Question[] {
+  const result: Question[] = [];
+  const seenSignatures = new Set<string>();
+
+  for (const alloc of allocations) {
+    if (alloc.count <= 0) continue;
+    const cleanBank = getUnifiedQuestionBank(alloc.subject, alloc.chapter);
+    if (cleanBank.length === 0) continue;
+
+    // Filter by difficulty if provided
+    let pool = cleanBank;
+    if (difficulties && difficulties.length > 0 && !difficulties.includes('Both') && !difficulties.includes('Adaptive')) {
+      const diffFiltered = pool.filter(q => difficulties.includes(q.difficulty || 'Hard'));
+      if (diffFiltered.length > 0) pool = diffFiltered;
+    }
+
+    const shuffled = [...pool].sort(() => 0.5 - Math.random());
+    const picked: Question[] = [];
+
+    for (const q of shuffled) {
+      const sig = (q.questionText || (q as any).question || '').trim().toLowerCase().slice(0, 80);
+      if (!seenSignatures.has(sig)) {
+        seenSignatures.add(sig);
+        picked.push({
+          ...q,
+          subject: alloc.subject,
+          chapter: alloc.chapter,
+          difficulty: (q.difficulty || 'Hard') as any
+        });
+        if (picked.length === alloc.count) break;
+      }
+    }
+
+    // STRICT ISOLATION: If picked count is less than alloc.count, cycle from pool of the SAME chapter
+    if (picked.length < alloc.count) {
+      for (let i = 0; picked.length < alloc.count; i++) {
+        const q = pool[i % pool.length];
+        picked.push({
+          ...q,
+          id: `${q.id}-iso-alloc-${i + 1}`,
+          subject: alloc.subject,
+          chapter: alloc.chapter,
+          difficulty: (q.difficulty || 'Hard') as any
+        });
+      }
+    }
+
+    result.push(...picked);
+  }
+
+  return result;
 }

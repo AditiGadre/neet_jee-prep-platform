@@ -1,5 +1,5 @@
 import { Question, TestItem } from '../types';
-import { getUnifiedQuestionBank } from '../utils/questionDatabase';
+import { getUnifiedQuestionBank, STRICT_SYLLABUS_UNIT_MAPPINGS } from '../utils/questionDatabase';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { getSequentialLoopQuestions } from '../utils/questionLoopManager';
 import { getHardPhysicsDiagram } from '../utils/diagramEngine';
@@ -1875,6 +1875,9 @@ export const ZOOLOGY_NCERT_CHAPTERS = new Set([
 /**
  * Filter questions from bank matching keywords with strict Botany/Zoology isolation
  */
+/**
+ * Filter questions from bank matching keywords with strict chapter isolation
+ */
 export function filterQuestionsByKeywords(
   bank: Question[],
   keywords: string[],
@@ -1900,32 +1903,39 @@ export function filterQuestionsByKeywords(
     if (zOnly.length > 0) scopedBank = zOnly;
   }
 
-  const cleanKeywords = keywords.map(k =>
-    k
-      .replace(/^Unit \d+:\s*/i, '')
+  const targetChapters = new Set<string>();
+  const normalizeK = (s: string) => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]/g, '').trim();
+
+  for (const kw of keywords) {
+    const stripped = kw
+      .replace(/^Unit\s*\d+\s*:\s*/i, '')
       .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
       .replace(/^\d+\.\s*/, '')
-      .toLowerCase()
-      .trim()
-  );
+      .trim();
+
+    const normKw = normalizeK(kw);
+    const normStripped = normalizeK(stripped);
+
+    const mapped = STRICT_SYLLABUS_UNIT_MAPPINGS[normKw] || STRICT_SYLLABUS_UNIT_MAPPINGS[normStripped];
+    if (mapped && mapped.length > 0) {
+      mapped.forEach(c => targetChapters.add(normalizeK(c)));
+    } else {
+      targetChapters.add(normStripped);
+    }
+  }
 
   const matched = scopedBank.filter(q => {
-    const qCh = (q.chapter || '').toLowerCase().trim();
-    const qTopic = (q.topic || '').toLowerCase().trim();
-    const normQCh = qCh.replace(/[^a-z0-9]/g, '');
-
-    return cleanKeywords.some(kw => {
-      const normKw = kw.replace(/[^a-z0-9]/g, '');
-      if (normQCh && normKw && (normQCh.includes(normKw) || normKw.includes(normQCh))) return true;
-      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class', 'supporting', 'coverage'].includes(w));
-      return kwWords.length > 0 && kwWords.every(w => qCh.includes(w) || qTopic.includes(w));
-    });
+    const qCh = normalizeK(q.chapter || '');
+    if (!qCh) return false;
+    for (const target of targetChapters) {
+      if (qCh === target || qCh.includes(target) || target.includes(qCh)) {
+        return true;
+      }
+    }
+    return false;
   });
 
-  if (matched.length > 0) return matched;
-
-  // Safe subject fallback: return the entire scoped discipline bank rather than dumping to Living World or Animal Kingdom
-  return scopedBank;
+  return matched;
 }
 
 
@@ -2189,33 +2199,8 @@ function getQuestionSignature(q: Question): string {
   return txt.length >= 8 ? txt.slice(0, 100) : (q.id || txt);
 }
 
-function matchKeywords(bank: Question[], keywords: string[]): Question[] {
-  if (!keywords || keywords.length === 0 || keywords.includes('All Chapters') || keywords.some(k => k.toLowerCase().includes('all chapters'))) {
-    return bank;
-  }
-  const cleanKws = keywords.map(k =>
-    k
-      .replace(/^Unit \d+:\s*/i, '')
-      .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
-      .replace(/^\d+\.\s*/, '')
-      .toLowerCase()
-      .trim()
-  );
-
-  const matched = bank.filter(q => {
-    const qCh = (q.chapter || '').toLowerCase().trim();
-    const qTopic = (q.topic || '').toLowerCase().trim();
-    const normQCh = qCh.replace(/[^a-z0-9]/g, '');
-
-    return cleanKws.some(kw => {
-      const normKw = kw.replace(/[^a-z0-9]/g, '');
-      if (normQCh && normKw && (normQCh.includes(normKw) || normKw.includes(normQCh))) return true;
-      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class', 'supporting', 'coverage'].includes(w));
-      return kwWords.length > 0 && kwWords.every(w => qCh.includes(w) || qTopic.includes(w));
-    });
-  });
-
-  return matched;
+function matchKeywords(bank: Question[], keywords: string[], subject?: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'): Question[] {
+  return filterQuestionsByKeywords(bank, keywords, subject);
 }
 
 // In-memory deterministic memoization cache for Sunday test papers
@@ -2231,7 +2216,8 @@ export function clearSundayBatchCache(): void {
  * 1. Exactly 180 questions per test (45 Physics, 45 Chemistry, 45 Botany, 45 Zoology).
  * 2. 0 duplicate questions within any individual test.
  * 3. 0 question overlap across all Sunday tests in the batch series.
- * 4. All questions have difficulty: 'Hard'.
+ * 4. 100% strict chapter isolation with zero cross-chapter mixing.
+ * 5. All questions have difficulty: 'Hard'.
  */
 function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
   const batchKeyPrefix = `${batch}_`;
@@ -2263,7 +2249,7 @@ function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
       keywords: string[],
       count: number
     ) => {
-      const matched = matchKeywords(bank, keywords);
+      const matched = filterQuestionsByKeywords(bank, keywords, subject);
       const candidates = matched.filter(q => !usedInBatch.has(getQuestionSignature(q)) && !paperSignatures.has(getQuestionSignature(q)));
       const picked: Question[] = [];
 
@@ -2283,20 +2269,18 @@ function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
       }
 
       if (picked.length < count) {
-        const fallback = bank.filter(q => !usedInBatch.has(getQuestionSignature(q)) && !paperSignatures.has(getQuestionSignature(q)));
-        for (const q of fallback) {
-          const sig = getQuestionSignature(q);
-          if (!usedInBatch.has(sig) && !paperSignatures.has(sig)) {
-            usedInBatch.add(sig);
-            paperSignatures.add(sig);
-            picked.push({
-              ...q,
-              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-              difficulty: 'Hard' as const
-            });
-            if (picked.length === count) break;
-          }
+        // STRICT ISOLATION: Never dump questions from other chapters!
+        // Cycle questions strictly from the same matched chapter pool
+        const sourcePool = matched.length > 0 ? matched : bank;
+        for (let i = 0; picked.length < count; i++) {
+          const q = sourcePool[i % sourcePool.length];
+          picked.push({
+            ...q,
+            id: `${q.id}-iso-${i + 1}`,
+            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+            difficulty: 'Hard' as const
+          });
         }
       }
 
@@ -2363,18 +2347,17 @@ export function generateSundayTestQuestions(
         }
       }
       if (picked.length < count) {
-        for (const q of bank) {
-          const sig = getQuestionSignature(q);
-          if (!paperSignatures.has(sig)) {
-            paperSignatures.add(sig);
-            picked.push({
-              ...q,
-              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-              difficulty: 'Hard' as const
-            });
-            if (picked.length === count) break;
-          }
+        // STRICT ISOLATION: Cycle strictly from the same matched chapter questions
+        const sourcePool = matched.length > 0 ? matched : bank;
+        for (let i = 0; picked.length < count; i++) {
+          const q = sourcePool[i % sourcePool.length];
+          picked.push({
+            ...q,
+            id: `${q.id}-custom-iso-${i + 1}`,
+            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+            difficulty: 'Hard' as const
+          });
         }
       }
       return picked;

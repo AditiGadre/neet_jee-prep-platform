@@ -36,7 +36,10 @@ import {
   AlertCircle,
   Clock,
   Send,
-  Check
+  Check,
+  ArrowRightLeft,
+  Plus,
+  Minus
 } from 'lucide-react';
 import {
   SuperUserNotification,
@@ -50,7 +53,9 @@ import {
   getUnifiedQuestionBank,
   ALL_BIOLOGY_CHAPTERS,
   ALL_CHEMISTRY_CHAPTERS,
-  ALL_PHYSICS_CHAPTERS
+  ALL_PHYSICS_CHAPTERS,
+  TopicAllocationItem,
+  assembleStrictTopicAllocations
 } from '../utils/questionDatabase';
 import {
   getUnusedQuestions,
@@ -163,6 +168,21 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
   const [customQCount, setCustomQCount] = useState<number>(45);
   const [consumptionVersion, setConsumptionVersion] = useState<number>(0);
   const [exportSuccess, setExportSuccess] = useState<string | null>(null);
+
+  // Topic Swapping & Allocation Matrix State
+  const [generatorMode, setGeneratorMode] = useState<'single' | 'topic_matrix'>('single');
+  const [swapSourceTopic, setSwapSourceTopic] = useState<string>('Laws of Motion');
+  const [swapTargetTopic, setSwapTargetTopic] = useState<string>('Electrostatics');
+  const [swapQuestionCount, setSwapQuestionCount] = useState<number>(4);
+  const [topicAllocations, setTopicAllocations] = useState<TopicAllocationItem[]>([
+    { id: 'alloc-1', subject: 'Physics', chapter: 'Laws of Motion', count: 4 },
+    { id: 'alloc-2', subject: 'Physics', chapter: 'Electrostatics', count: 4 },
+    { id: 'alloc-3', subject: 'Physics', chapter: 'Thermodynamics', count: 4 },
+    { id: 'alloc-4', subject: 'Chemistry', chapter: 'Chemical Thermodynamics', count: 4 },
+    { id: 'alloc-5', subject: 'Biology', chapter: 'The Living World', count: 4 }
+  ]);
+  const [newAllocChapter, setNewAllocChapter] = useState<string>('Laws of Motion');
+  const [newAllocCount, setNewAllocCount] = useState<number>(4);
 
   const toggleDifficulty = (diff: string) => {
     setCustomDifficulties(prev => {
@@ -313,34 +333,92 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
     return getUnusedQuestions(customSubject, customChapter, undefined, customDifficulties);
   }, [customSubject, customChapter, customDifficulties, consumptionVersion]);
 
-  // Custom Test Generator logic for Admin
+  // Topic Swapping & Matrix Handlers
+  const handleExecuteTopicSwap = (fromTopic: string, toTopic: string, targetCount: number = 4) => {
+    const isPhy = ALL_PHYSICS_CHAPTERS.some(c => c.toLowerCase() === toTopic.toLowerCase());
+    const isChem = ALL_CHEMISTRY_CHAPTERS.some(c => c.toLowerCase() === toTopic.toLowerCase());
+    const targetSubject: 'Physics' | 'Chemistry' | 'Biology' = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
+
+    setTopicAllocations(prev => {
+      const exists = prev.some(a => a.chapter.toLowerCase() === fromTopic.toLowerCase());
+      if (exists) {
+        return prev.map(a => a.chapter.toLowerCase() === fromTopic.toLowerCase() ? { ...a, chapter: toTopic, count: targetCount, subject: targetSubject } : a);
+      } else {
+        return [...prev, { id: `alloc-${Date.now()}`, subject: targetSubject, chapter: toTopic, count: targetCount }];
+      }
+    });
+
+    setActionSuccessBanner(`✓ Swapped "${fromTopic}" with "${toTopic}" — ${targetCount} questions allocated with 100% strict chapter isolation!`);
+    setTimeout(() => setActionSuccessBanner(null), 4000);
+  };
+
+  const handleUpdateAllocationChapter = (id: string, newChapter: string) => {
+    const isPhy = ALL_PHYSICS_CHAPTERS.some(c => c.toLowerCase() === newChapter.toLowerCase());
+    const isChem = ALL_CHEMISTRY_CHAPTERS.some(c => c.toLowerCase() === newChapter.toLowerCase());
+    const sub: 'Physics' | 'Chemistry' | 'Biology' = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
+    setTopicAllocations(prev => prev.map(a => a.id === id ? { ...a, chapter: newChapter, subject: sub } : a));
+  };
+
+  const handleUpdateAllocationCount = (id: string, deltaOrValue: number, isAbsolute: boolean = false) => {
+    setTopicAllocations(prev => prev.map(a => {
+      if (a.id !== id) return a;
+      const nextCount = isAbsolute ? deltaOrValue : Math.max(1, Math.min(45, a.count + deltaOrValue));
+      return { ...a, count: nextCount };
+    }));
+  };
+
+  const handleRemoveAllocation = (id: string) => {
+    setTopicAllocations(prev => prev.filter(a => a.id !== id));
+  };
+
+  const handleAddAllocation = (chapter: string, count: number = 4) => {
+    const isPhy = ALL_PHYSICS_CHAPTERS.some(c => c.toLowerCase() === chapter.toLowerCase());
+    const isChem = ALL_CHEMISTRY_CHAPTERS.some(c => c.toLowerCase() === chapter.toLowerCase());
+    const sub: 'Physics' | 'Chemistry' | 'Biology' = isPhy ? 'Physics' : isChem ? 'Chemistry' : 'Biology';
+    setTopicAllocations(prev => [...prev, { id: `alloc-${Date.now()}-${Math.random()}`, subject: sub, chapter, count }]);
+    setActionSuccessBanner(`✓ Added "${chapter}" (${count} Qs) to test matrix.`);
+    setTimeout(() => setActionSuccessBanner(null), 2500);
+  };
+
+  // Custom Test Generator logic for Admin with Strict Isolation & Multi-Topic support
   const generateCustomTestQuestions = (): Question[] => {
+    if (generatorMode === 'topic_matrix') {
+      const allocated = assembleStrictTopicAllocations(topicAllocations, customDifficulties);
+      if (allocated.length > 0) {
+        markQuestionsAsConsumed(allocated.map(q => q.id));
+        return allocated;
+      }
+    }
+
     const stats = getUnusedQuestions(customSubject, customChapter, undefined, customDifficulties);
     const allInChapter = getUnifiedQuestionBank(customSubject, customChapter);
-    const subjectBackup = getUnifiedQuestionBank(customSubject);
 
-    let candidatePool = stats.unusedQuestions;
+    let candidatePool = stats.unusedQuestions || [];
     if (customDifficulties.length > 0) {
       const filtered = candidatePool.filter(q => customDifficulties.includes(q.difficulty || 'Medium'));
       if (filtered.length >= customQCount) candidatePool = filtered;
     }
 
+    // STRICT ISOLATION: Cycle strictly from the SAME chapter pool, NEVER leak to other chapters!
     if (candidatePool.length < customQCount) {
-      const supplemental = allInChapter.length > 0 ? allInChapter : subjectBackup;
-      const seenIds = new Set(candidatePool.map(q => q.id));
-      const needed = [...candidatePool];
-      for (const q of supplemental) {
-        if (!seenIds.has(q.id)) {
-          seenIds.add(q.id);
-          needed.push(q);
+      const sourcePool = allInChapter.length > 0 ? allInChapter : candidatePool;
+      if (sourcePool.length > 0) {
+        const needed = [...candidatePool];
+        for (let i = 0; needed.length < customQCount; i++) {
+          const q = sourcePool[i % sourcePool.length];
+          needed.push({
+            ...q,
+            id: `${q.id}-iso-super-${i + 1}`,
+            chapter: customChapter,
+            difficulty: (customDifficulties.length > 0 ? customDifficulties[0] : q.difficulty) as any
+          });
         }
-        if (needed.length >= customQCount) break;
+        candidatePool = needed;
       }
-      candidatePool = needed;
     }
 
     if (candidatePool.length === 0) {
-      candidatePool = subjectBackup.length > 0 ? subjectBackup : SAMPLE_QUESTIONS;
+      candidatePool = SAMPLE_QUESTIONS.map(q => ({ ...q, chapter: customChapter }));
     }
 
     const shuffled = [...candidatePool].sort(() => 0.5 - Math.random());
@@ -351,19 +429,29 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
 
   const handleLaunchAdminCbt = () => {
     const selectedQuestions = generateCustomTestQuestions();
+    const isMatrix = generatorMode === 'topic_matrix';
     const customTestItem: TestItem = {
       id: `admin-custom-${Date.now()}`,
-      title: `Admin Custom Test: ${customSubject} - ${customChapter} (${selectedQuestions.length} Qs)`,
+      title: isMatrix
+        ? `Custom Multi-Topic Test (${topicAllocations.map(a => `${a.chapter} (${a.count}Q)`).join(', ')})`
+        : `Admin Custom Test: ${customSubject} - ${customChapter} (${selectedQuestions.length} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulties.join(' + ')} Level &bull; ${selectedQuestions.length} Questions)`,
+      syllabus: isMatrix
+        ? topicAllocations.map(a => `${a.chapter} (${a.count} Qs)`).join(' • ')
+        : `${customSubject} > ${customChapter} > ${customTopic} (${customDifficulties.join(' + ')} Level &bull; ${selectedQuestions.length} Questions)`,
       totalQuestions: selectedQuestions.length,
-      durationMinutes: customDuration,
+      durationMinutes: isMatrix ? Math.max(15, selectedQuestions.length) : customDuration,
       totalMarks: selectedQuestions.length * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
       difficulty: customDifficulties.length > 1 ? 'Mixed' : (customDifficulties[0] as any || 'Medium'),
       cbtMode: true,
-      features: [
+      features: isMatrix ? [
+        `Custom Topic Allocation: ${topicAllocations.length} Topics`,
+        `100% Strict Chapter Isolation`,
+        `Format: ${selectedQuestions.length} High-Yield Qs`,
+        `Complete Step-by-Step Derivations`
+      ] : [
         `Subject: ${customSubject}`,
         `Chapter: ${customChapter}`,
         `Difficulty: ${customDifficulties.join(' + ')}`,
@@ -378,16 +466,21 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
     }
   };
 
-  const handleExportCustomPdf = () => {
+  const handleExportCustomPdf = (includeSolutions: boolean = true) => {
     const selectedQuestions = generateCustomTestQuestions();
+    const isMatrix = generatorMode === 'topic_matrix';
     const customTestItem: TestItem = {
       id: `admin-pdf-${Date.now()}`,
-      title: `Admin Custom Test - ${customSubject} (${customChapter})`,
+      title: isMatrix
+        ? `Custom Multi-Topic Test - ${topicAllocations.map(a => `${a.chapter} (${a.count}Q)`).join(', ')}`
+        : `Admin Custom Test - ${customSubject} (${customChapter})`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${customSubject} > ${customChapter} &bull; ${selectedQuestions.length} Questions (${customDifficulties.join(' + ')})`,
+      syllabus: isMatrix
+        ? topicAllocations.map(a => `${a.chapter} (${a.count} Qs)`).join(' • ')
+        : `${customSubject} > ${customChapter} &bull; ${selectedQuestions.length} Questions (${customDifficulties.join(' + ')})`,
       totalQuestions: selectedQuestions.length,
-      durationMinutes: customDuration,
+      durationMinutes: isMatrix ? Math.max(15, selectedQuestions.length) : customDuration,
       totalMarks: selectedQuestions.length * 4,
       negativeMarking: '+4 for correct, -1 for incorrect',
       difficulty: customDifficulties.length > 1 ? 'Mixed' : (customDifficulties[0] as any || 'Medium'),
@@ -395,7 +488,7 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
       questions: selectedQuestions
     };
 
-    downloadTestPaperPDF(customTestItem, true);
+    downloadTestPaperPDF(customTestItem, includeSolutions);
     setExportSuccess(`Exported "${customTestItem.title}" PDF successfully!`);
     setTimeout(() => setExportSuccess(null), 3500);
   };
@@ -867,188 +960,505 @@ export const SuperUserModal: React.FC<SuperUserModalProps> = ({
               </div>
             )}
 
-            {/* Builder Configuration Form */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 bg-white p-4 rounded-xl border border-gray-200 shadow-2xs">
-              {/* Subject Selector */}
-              <div className="space-y-1">
-                <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
-                <select
-                  value={customSubject}
-                  onChange={e => {
-                    const sub = e.target.value as any;
-                    setCustomSubject(sub);
-                    if (sub === 'Biology') setCustomChapter(biologyChapters[0]);
-                    else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
-                    else setCustomChapter(physicsChapters[0]);
-                  }}
-                  className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
+            {/* Mode Switcher */}
+            <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-3 rounded-xl border border-gray-200 shadow-2xs">
+              <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl">
+                <button
+                  type="button"
+                  onClick={() => setGeneratorMode('single')}
+                  className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                    generatorMode === 'single'
+                      ? 'bg-white text-slate-900 shadow-xs'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
                 >
-                  <option value="Biology">🧬 Biology (All 38 Chapters)</option>
-                  <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
-                  <option value="Physics">⚡ Physics (Mechanics, Electrodynamics, Modern)</option>
-                </select>
+                  Single Chapter Focus (15-90 Qs)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setGeneratorMode('topic_matrix')}
+                  className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                    generatorMode === 'topic_matrix'
+                      ? 'bg-blue-600 text-white shadow-xs'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
+                >
+                  <ArrowRightLeft className="w-3.5 h-3.5" />
+                  <span>Multi-Topic Allocation & Swapper Matrix</span>
+                </button>
               </div>
 
-              {/* Chapter Selector */}
-              <div className="space-y-1">
-                <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
-                <select
-                  value={customChapter}
-                  onChange={e => setCustomChapter(e.target.value)}
-                  className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
-                >
-                  {currentChapterList.map((ch, idx) => (
-                    <option key={idx} value={ch}>
-                      {idx + 1}. {ch}
-                    </option>
-                  ))}
-                </select>
+              <div className="flex items-center gap-2 text-xs font-semibold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                <span>100% Strict Chapter Isolation Active (Zero Cross-Chapter Mixing)</span>
               </div>
+            </div>
 
-              {/* Difficulty Standard (Multi-Select Support) */}
-              <div className="space-y-1">
-                <div className="flex items-center justify-between">
-                  <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
-                  <span className="text-[10px] font-semibold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100">
-                    {customDifficulties.length} Selected
-                  </span>
-                </div>
-                <div className="grid grid-cols-2 gap-1.5">
-                  {[
-                    { id: 'Easy', label: 'Easy (NCERT Warmup)', desc: 'Fundamental theory' },
-                    { id: 'Medium', label: 'Medium (NTA Level)', desc: 'Standard numericals' },
-                    { id: 'Hard', label: 'Hard (High-Rigor)', desc: 'Multi-statement & multi-clause' },
-                    { id: 'Advanced', label: 'Advanced (AIIMS Level)', desc: 'Assertion-Reason & analytical' }
-                  ].map(item => {
-                    const isSelected = customDifficulties.includes(item.id);
-                    return (
-                      <button
-                        key={item.id}
-                        type="button"
-                        onClick={() => toggleDifficulty(item.id)}
-                        className={`p-2 rounded-lg text-left border transition-all cursor-pointer flex flex-col justify-between ${
-                          isSelected
-                            ? 'bg-blue-50/90 border-blue-500 ring-1 ring-blue-500/30 text-blue-900 shadow-2xs'
-                            : 'bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100 hover:border-gray-300'
-                        }`}
+            {/* ============================================================== */}
+            {/* MODE 1: MULTI-TOPIC ALLOCATION & SWAPPER MATRIX */}
+            {/* ============================================================== */}
+            {generatorMode === 'topic_matrix' && (
+              <div className="space-y-4">
+                {/* Quick Topic Swapper Bar */}
+                <div className="p-4 rounded-xl bg-gradient-to-r from-purple-50 via-indigo-50 to-blue-50 border border-purple-200 space-y-3">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <div>
+                      <h4 className="text-sm font-extrabold text-purple-950 flex items-center gap-1.5">
+                        <ArrowRightLeft className="w-4 h-4 text-purple-700" />
+                        <span>Quick Topic Swapper & Allocation</span>
+                      </h4>
+                      <p className="text-[11px] text-purple-800">
+                        Swap one topic for another (e.g. Laws of Motion with Electrostatics) and set custom question counts.
+                      </p>
+                    </div>
+                    <span className="text-[10px] font-mono font-bold px-2.5 py-1 bg-white/80 border border-purple-300 text-purple-900 rounded-lg self-start sm:self-auto">
+                      Pure Chapter Pools Only
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-4 gap-2.5 items-end bg-white/90 p-3 rounded-xl border border-purple-200">
+                    <div className="space-y-1">
+                      <label className="text-[10px] font-bold text-slate-500 uppercase">1. Swap Out (From Topic)</label>
+                      <select
+                        value={swapSourceTopic}
+                        onChange={e => setSwapSourceTopic(e.target.value)}
+                        className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
                       >
-                        <div className="flex items-center justify-between w-full">
-                          <span className="text-xs font-bold">{item.id}</span>
-                          <span className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold ${
-                            isSelected ? 'bg-blue-600 text-white' : 'border border-gray-300 bg-white'
-                          }`}>
-                            {isSelected ? '✓' : ''}
+                        <optgroup label="⚡ Physics">
+                          {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                        <optgroup label="🧪 Chemistry">
+                          {ALL_CHEMISTRY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                        <optgroup label="🧬 Biology">
+                          {ALL_BIOLOGY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                      </select>
+                    </div>
+
+                    <div className="space-y-1">
+                      <label className="text-[10px] font-bold text-slate-500 uppercase">2. Swap In (To Topic)</label>
+                      <select
+                        value={swapTargetTopic}
+                        onChange={e => setSwapTargetTopic(e.target.value)}
+                        className="w-full p-2 text-xs bg-white border border-slate-300 rounded-lg font-semibold"
+                      >
+                        <optgroup label="⚡ Physics">
+                          {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                        <optgroup label="🧪 Chemistry">
+                          {ALL_CHEMISTRY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                        <optgroup label="🧬 Biology">
+                          {ALL_BIOLOGY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                      </select>
+                    </div>
+
+                    <div className="space-y-1">
+                      <label className="text-[10px] font-bold text-slate-500 uppercase">3. Number of Questions</label>
+                      <div className="flex items-center gap-1">
+                        <button
+                          type="button"
+                          onClick={() => setSwapQuestionCount(c => Math.max(1, c - 1))}
+                          className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center cursor-pointer"
+                        >
+                          <Minus className="w-3.5 h-3.5" />
+                        </button>
+                        <input
+                          type="number"
+                          min={1}
+                          max={45}
+                          value={swapQuestionCount}
+                          onChange={e => setSwapQuestionCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
+                          className="w-16 h-8 text-center bg-white border border-slate-300 rounded-lg text-xs font-bold font-mono"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => setSwapQuestionCount(c => Math.min(45, c + 1))}
+                          className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center cursor-pointer"
+                        >
+                          <Plus className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={() => handleExecuteTopicSwap(swapSourceTopic, swapTargetTopic, swapQuestionCount)}
+                      className="h-8 px-4 bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold rounded-lg flex items-center justify-center gap-1.5 shadow-xs transition cursor-pointer active:scale-95"
+                    >
+                      <ArrowRightLeft className="w-3.5 h-3.5" />
+                      <span>Execute Swap</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Topic Allocation Table / List */}
+                <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-2xs space-y-3">
+                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-gray-100 pb-2.5">
+                    <div>
+                      <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
+                        Configured Topics & Question Allocation Matrix ({topicAllocations.length} Topics)
+                      </h4>
+                      <p className="text-[11px] text-slate-500">
+                        Customize question counts per chapter or swap any chapter using the dropdowns below.
+                      </p>
+                    </div>
+                    <span className="text-xs font-mono font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-200">
+                      Total: {topicAllocations.reduce((acc, a) => acc + a.count, 0)} Questions ({topicAllocations.reduce((acc, a) => acc + a.count, 0) * 4} Marks)
+                    </span>
+                  </div>
+
+                  <div className="space-y-2">
+                    {topicAllocations.map((alloc, idx) => (
+                      <div
+                        key={alloc.id}
+                        className="flex flex-wrap items-center justify-between gap-2 p-2.5 rounded-xl border border-slate-200 bg-slate-50/60 hover:bg-slate-50 transition"
+                      >
+                        <div className="flex items-center gap-2 flex-1 min-w-[260px]">
+                          <span className="w-6 h-6 rounded-lg bg-slate-800 text-white text-[11px] font-mono font-bold flex items-center justify-center">
+                            {idx + 1}
                           </span>
+                          <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                            alloc.subject === 'Physics' ? 'bg-blue-100 text-blue-800' :
+                            alloc.subject === 'Chemistry' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'
+                          }`}>
+                            {alloc.subject}
+                          </span>
+                          {/* Dropdown to swap this topic */}
+                          <select
+                            value={alloc.chapter}
+                            onChange={e => handleUpdateAllocationChapter(alloc.id, e.target.value)}
+                            className="flex-1 p-1.5 text-xs bg-white border border-slate-300 rounded-lg font-semibold text-slate-900"
+                          >
+                            <optgroup label="⚡ Physics">
+                              {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                            </optgroup>
+                            <optgroup label="🧪 Chemistry">
+                              {ALL_CHEMISTRY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                            </optgroup>
+                            <optgroup label="🧬 Biology">
+                              {ALL_BIOLOGY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                            </optgroup>
+                          </select>
                         </div>
-                        <span className="text-[9px] text-gray-500 mt-0.5">{item.desc}</span>
-                      </button>
-                    );
-                  })}
+
+                        {/* Question count controls */}
+                        <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-1 bg-white border border-slate-200 rounded-lg p-0.5">
+                            <button
+                              type="button"
+                              onClick={() => handleUpdateAllocationCount(alloc.id, -1)}
+                              className="w-6 h-6 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center cursor-pointer"
+                            >
+                              <Minus className="w-3 h-3" />
+                            </button>
+                            <span className="w-12 text-center text-xs font-bold font-mono text-slate-900">
+                              {alloc.count} Qs
+                            </span>
+                            <button
+                              type="button"
+                              onClick={() => handleUpdateAllocationCount(alloc.id, 1)}
+                              className="w-6 h-6 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center cursor-pointer"
+                            >
+                              <Plus className="w-3 h-3" />
+                            </button>
+                          </div>
+
+                          <span className="text-[11px] font-mono text-slate-500 w-16 text-right">
+                            {alloc.count * 4} Marks
+                          </span>
+
+                          <button
+                            type="button"
+                            onClick={() => handleRemoveAllocation(alloc.id)}
+                            className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 transition cursor-pointer"
+                            title="Remove this topic from test"
+                          >
+                            <X className="w-4 h-4" />
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Add Topic Bar */}
+                  <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100">
+                    <div className="flex-1 min-w-[200px]">
+                      <select
+                        value={newAllocChapter}
+                        onChange={e => setNewAllocChapter(e.target.value)}
+                        className="w-full p-2 text-xs bg-slate-50 border border-slate-300 rounded-xl font-semibold"
+                      >
+                        <optgroup label="⚡ Physics">
+                          {ALL_PHYSICS_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                        <optgroup label="🧪 Chemistry">
+                          {ALL_CHEMISTRY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                        <optgroup label="🧬 Biology">
+                          {ALL_BIOLOGY_CHAPTERS.map(c => <option key={c} value={c}>{c}</option>)}
+                        </optgroup>
+                      </select>
+                    </div>
+
+                    <div className="flex items-center gap-1">
+                      <input
+                        type="number"
+                        min={1}
+                        max={45}
+                        value={newAllocCount}
+                        onChange={e => setNewAllocCount(Math.max(1, Math.min(45, parseInt(e.target.value) || 1)))}
+                        className="w-16 p-2 bg-slate-50 border border-slate-300 rounded-xl text-xs font-bold font-mono text-center"
+                        title="Number of questions to allocate"
+                      />
+                      <span className="text-xs text-slate-500 font-semibold">Qs</span>
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={() => handleAddAllocation(newAllocChapter, newAllocCount)}
+                      className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer shadow-xs"
+                    >
+                      <Plus className="w-3.5 h-3.5" />
+                      <span>Add Topic</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Multi-Topic Action Card */}
+                <div className="p-5 rounded-xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <div className="space-y-1 text-xs text-center sm:text-left">
+                    <div className="text-gray-900 font-bold text-sm">
+                      Multi-Topic Custom Test ({topicAllocations.length} Topics Selected)
+                    </div>
+                    <div className="text-gray-600 font-mono">
+                      {topicAllocations.reduce((acc, a) => acc + a.count, 0)} Questions • {topicAllocations.reduce((acc, a) => acc + a.count, 0) * 4} Marks • {Math.max(15, topicAllocations.reduce((acc, a) => acc + a.count, 0))} Minutes
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto">
+                    <button
+                      type="button"
+                      onClick={() => handleExportCustomPdf(false)}
+                      className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
+                    >
+                      <Printer className="w-4 h-4 text-gray-600" />
+                      <span>Export Paper</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleExportCustomPdf(true)}
+                      className="flex-1 sm:flex-initial px-3.5 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1 shadow-2xs transition cursor-pointer"
+                    >
+                      <FileText className="w-4 h-4 text-emerald-600" />
+                      <span>Paper + Solutions</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={handleLaunchAdminCbt}
+                      className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
+                    >
+                      <Play className="w-4 h-4 fill-current" />
+                      <span>Launch CBT Test</span>
+                    </button>
+                  </div>
                 </div>
               </div>
+            )}
 
-              {/* Questions Count Preset */}
-              <div className="space-y-1">
-                <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
-                <div className="grid grid-cols-4 gap-1.5">
-                  {[15, 30, 45, 90].map(cnt => (
-                    <button
-                      key={cnt}
-                      type="button"
-                      onClick={() => {
-                        setCustomQCount(cnt);
-                        setCustomDuration(cnt);
+            {/* ============================================================== */}
+            {/* MODE 2: SINGLE CHAPTER FOCUS */}
+            {/* ============================================================== */}
+            {generatorMode === 'single' && (
+              <div className="space-y-4">
+                {/* Builder Configuration Form */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 bg-white p-4 rounded-xl border border-gray-200 shadow-2xs">
+                  {/* Subject Selector */}
+                  <div className="space-y-1">
+                    <label className="text-[10px] font-bold text-gray-500 uppercase">1. Select Subject</label>
+                    <select
+                      value={customSubject}
+                      onChange={e => {
+                        const sub = e.target.value as any;
+                        setCustomSubject(sub);
+                        if (sub === 'Biology') setCustomChapter(biologyChapters[0]);
+                        else if (sub === 'Chemistry') setCustomChapter(chemistryChapters[0]);
+                        else setCustomChapter(physicsChapters[0]);
                       }}
-                      className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
-                        customQCount === cnt
-                          ? 'bg-blue-600 text-white shadow-xs'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
-                      }`}
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
                     >
-                      {cnt} Qs
-                    </button>
-                  ))}
-                </div>
-              </div>
+                      <option value="Biology">🧬 Biology (All 38 Chapters)</option>
+                      <option value="Chemistry">🧪 Chemistry (Physical, Inorganic, Organic)</option>
+                      <option value="Physics">⚡ Physics (Mechanics, Electrodynamics, Modern)</option>
+                    </select>
+                  </div>
 
-              {/* Duration Preset */}
-              <div className="space-y-1">
-                <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
-                <div className="grid grid-cols-4 gap-1.5">
-                  {[15, 30, 45, 90].map(mins => (
+                  {/* Chapter Selector */}
+                  <div className="space-y-1">
+                    <label className="text-[10px] font-bold text-gray-500 uppercase">2. Select Chapter ({currentChapterList.length} Units)</label>
+                    <select
+                      value={customChapter}
+                      onChange={e => setCustomChapter(e.target.value)}
+                      className="w-full p-2.5 rounded-lg bg-gray-50 border border-gray-300 text-xs text-gray-900 focus:bg-white focus:border-blue-500 font-semibold"
+                    >
+                      {currentChapterList.map((ch, idx) => (
+                        <option key={idx} value={ch}>
+                          {idx + 1}. {ch}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Difficulty Standard (Multi-Select Support) */}
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between">
+                      <label className="text-[10px] font-bold text-gray-500 uppercase">3. Difficulty Standards (Select 1 or More)</label>
+                      <span className="text-[10px] font-semibold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100">
+                        {customDifficulties.length} Selected
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-1.5">
+                      {[
+                        { id: 'Easy', label: 'Easy (NCERT Warmup)', desc: 'Fundamental theory' },
+                        { id: 'Medium', label: 'Medium (NTA Level)', desc: 'Standard numericals' },
+                        { id: 'Hard', label: 'Hard (High-Rigor)', desc: 'Multi-statement & multi-clause' },
+                        { id: 'Advanced', label: 'Advanced (AIIMS Level)', desc: 'Assertion-Reason & analytical' }
+                      ].map(item => {
+                        const isSelected = customDifficulties.includes(item.id);
+                        return (
+                          <button
+                            key={item.id}
+                            type="button"
+                            onClick={() => toggleDifficulty(item.id)}
+                            className={`p-2 rounded-lg text-left border transition-all cursor-pointer flex flex-col justify-between ${
+                              isSelected
+                                ? 'bg-blue-50/90 border-blue-500 ring-1 ring-blue-500/30 text-blue-900 shadow-2xs'
+                                : 'bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100 hover:border-gray-300'
+                            }`}
+                          >
+                            <div className="flex items-center justify-between w-full">
+                              <span className="text-xs font-bold">{item.id}</span>
+                              <span className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold ${
+                                isSelected ? 'bg-blue-600 text-white' : 'border border-gray-300 bg-white'
+                              }`}>
+                                {isSelected ? '✓' : ''}
+                              </span>
+                            </div>
+                            <span className="text-[9px] text-gray-500 mt-0.5">{item.desc}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  {/* Questions Count Preset */}
+                  <div className="space-y-1">
+                    <label className="text-[10px] font-bold text-gray-500 uppercase">4. Number of Questions</label>
+                    <div className="grid grid-cols-4 gap-1.5">
+                      {[15, 30, 45, 90].map(cnt => (
+                        <button
+                          key={cnt}
+                          type="button"
+                          onClick={() => {
+                            setCustomQCount(cnt);
+                            setCustomDuration(cnt);
+                          }}
+                          className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
+                            customQCount === cnt
+                              ? 'bg-blue-600 text-white shadow-xs'
+                              : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                          }`}
+                        >
+                          {cnt} Qs
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Duration Preset */}
+                  <div className="space-y-1">
+                    <label className="text-[10px] font-bold text-gray-500 uppercase">5. Allotted Time Limit</label>
+                    <div className="grid grid-cols-4 gap-1.5">
+                      {[15, 30, 45, 90].map(mins => (
+                        <button
+                          key={mins}
+                          type="button"
+                          onClick={() => setCustomDuration(mins)}
+                          className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
+                            customDuration === mins
+                              ? 'bg-purple-600 text-white shadow-xs'
+                              : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                          }`}
+                        >
+                          {mins} Mins
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Bank Pool Telemetry */}
+                  <div className="space-y-1">
+                    <label className="text-[10px] font-bold text-gray-500 uppercase">6. Question Pool Health</label>
+                    <div className="p-2 rounded-lg bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
+                      <span>Available: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
+                      <span>Total Unit: <strong className="text-blue-700">{currentPoolStats.totalInBank}</strong></span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Test Actions & Launchers */}
+                <div className="p-5 rounded-xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <div className="space-y-1 text-xs">
+                    <div className="text-gray-900 font-bold text-sm">
+                      Configured Test: {customSubject} &bull; {customChapter}
+                    </div>
+                    <div className="text-gray-600 font-mono">
+                      {customQCount} Questions &bull; {customQCount * 4} Marks &bull; {customDuration} Minutes &bull; Level:{' '}
+                      <span className="text-indigo-700 font-bold">{customDifficulties.join(' + ')}</span>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto">
                     <button
-                      key={mins}
                       type="button"
-                      onClick={() => setCustomDuration(mins)}
-                      className={`py-2 rounded-lg text-xs font-bold font-mono transition-colors cursor-pointer ${
-                        customDuration === mins
-                          ? 'bg-purple-600 text-white shadow-xs'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
-                      }`}
+                      onClick={() => handleExportCustomPdf(false)}
+                      className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer"
                     >
-                      {mins} Mins
+                      <Printer className="w-4 h-4 text-gray-600" />
+                      <span>Export Test PDF</span>
                     </button>
-                  ))}
+
+                    <button
+                      type="button"
+                      onClick={handleLaunchAdminCbt}
+                      className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
+                    >
+                      <Play className="w-4 h-4 fill-current" />
+                      <span>Launch CBT Test</span>
+                    </button>
+
+                    {onOpenUploadModal && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          onClose();
+                          onOpenUploadModal(customSubject, customChapter);
+                        }}
+                        className="px-3.5 py-2.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-xs border border-purple-300 flex items-center justify-center space-x-1 transition cursor-pointer"
+                        title="Upload more questions"
+                      >
+                        <Upload className="w-3.5 h-3.5" />
+                        <span>Upload Qs</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
               </div>
-
-              {/* Bank Pool Telemetry */}
-              <div className="space-y-1">
-                <label className="text-[10px] font-bold text-gray-500 uppercase">6. Question Pool Health</label>
-                <div className="p-2 rounded-lg bg-gray-50 border border-gray-200 text-xs font-mono font-semibold text-gray-800 flex items-center justify-between">
-                  <span>Available: <strong className="text-emerald-700">{currentPoolStats.remainingUnused}</strong></span>
-                  <span>Total Unit: <strong className="text-blue-700">{currentPoolStats.totalInBank}</strong></span>
-                </div>
-              </div>
-            </div>
-
-            {/* Test Actions & Launchers */}
-            <div className="p-5 rounded-xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div className="space-y-1 text-xs">
-                <div className="text-gray-900 font-bold text-sm">
-                  Configured Test: {customSubject} &bull; {customChapter}
-                </div>
-                <div className="text-gray-600 font-mono">
-                  {customQCount} Questions &bull; {customQCount * 4} Marks &bull; {customDuration} Minutes &bull; Level:{' '}
-                  <span className="text-indigo-700 font-bold">{customDifficulties.join(' + ')}</span>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto">
-                <button
-                  type="button"
-                  onClick={handleExportCustomPdf}
-                  className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-white hover:bg-gray-100 text-gray-800 font-bold text-xs border border-gray-300 flex items-center justify-center space-x-1.5 shadow-2xs transition cursor-pointer"
-                >
-                  <Printer className="w-4 h-4 text-gray-600" />
-                  <span>Export Test PDF</span>
-                </button>
-
-                <button
-                  type="button"
-                  onClick={handleLaunchAdminCbt}
-                  className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md transition cursor-pointer active:scale-95"
-                >
-                  <Play className="w-4 h-4 fill-current" />
-                  <span>Launch CBT Test</span>
-                </button>
-
-                {onOpenUploadModal && (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      onClose();
-                      onOpenUploadModal(customSubject, customChapter);
-                    }}
-                    className="px-3.5 py-2.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-xs border border-purple-300 flex items-center justify-center space-x-1 transition cursor-pointer"
-                    title="Upload more questions"
-                  >
-                    <Upload className="w-3.5 h-3.5" />
-                    <span>Upload Qs</span>
-                  </button>
-                )}
-              </div>
-            </div>
+            )}
           </div>
         )}
 

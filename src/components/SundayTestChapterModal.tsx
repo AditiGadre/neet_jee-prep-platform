@@ -16,7 +16,7 @@ import {
   RotateCcw
 } from 'lucide-react';
 import { TestItem, Question } from '../types';
-import { getUnifiedQuestionBank } from '../utils/questionDatabase';
+import { getUnifiedQuestionBank, STRICT_SYLLABUS_UNIT_MAPPINGS } from '../utils/questionDatabase';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import {
   OFFICIAL_PHYSICS_UNITS,
@@ -142,38 +142,15 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
   };
 
   const handleLaunch = () => {
-    const matchChapterStrict = (q: Question, selectedUnits: string[]) => {
-      const qCh = (q.chapter || '').toLowerCase().trim();
-      const qTop = (q.topic || '').toLowerCase().trim();
-      const normQCh = qCh.replace(/[^a-z0-9]/g, '');
-
-      return selectedUnits.some(unit => {
-        const clean = unit
-          .replace(/^Unit \d+:\s*/i, '')
-          .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
-          .toLowerCase()
-          .trim();
-        const normUnit = clean.replace(/[^a-z0-9]/g, '');
-
-        if (normQCh && normUnit && (normQCh.includes(normUnit) || normUnit.includes(normQCh))) {
-          return true;
-        }
-
-        const keywords = clean
-          .split(/[^a-z0-9]+/)
-          .filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class'].includes(w));
-
-        return keywords.length > 0 && keywords.every(kw => qCh.includes(kw) || qTop.includes(kw));
-      });
-    };
-
     // 1. Collect questions for Physics (45 Qs) strictly from selected Physics chapters
-    const phyBank = getUnifiedQuestionBank('Physics');
-    let phyPool = phyBank.filter(q => matchChapterStrict(q, selectedPhysics));
-    if (phyPool.length === 0) {
-      phyPool = phyBank.filter(q => selectedPhysics.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    let phyPool: Question[] = [];
+    for (const unit of selectedPhysics) {
+      phyPool.push(...getUnifiedQuestionBank('Physics', unit));
     }
-    if (phyPool.length === 0) phyPool = phyBank; // ultimate fallback only if 0 found
+    phyPool = Array.from(new Map(phyPool.map(q => [q.id, q])).values());
+    if (phyPool.length === 0) {
+      phyPool = getUnifiedQuestionBank('Physics', selectedPhysics[0] || 'Thermodynamics');
+    }
     
     // Pick 45 questions strictly from phyPool without cross-chapter mixing
     const randomizedPhy = [...phyPool].sort(() => 0.5 - Math.random());
@@ -191,12 +168,14 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
     }
 
     // 2. Collect questions for Chemistry (45 Qs) strictly from selected Chemistry chapters
-    const chemBank = getUnifiedQuestionBank('Chemistry');
-    let chemPool = chemBank.filter(q => matchChapterStrict(q, selectedChemistry));
-    if (chemPool.length === 0) {
-      chemPool = chemBank.filter(q => selectedChemistry.some(u => (q.chapter || '').toLowerCase().includes(u.toLowerCase())));
+    let chemPool: Question[] = [];
+    for (const unit of selectedChemistry) {
+      chemPool.push(...getUnifiedQuestionBank('Chemistry', unit));
     }
-    if (chemPool.length === 0) chemPool = chemBank;
+    chemPool = Array.from(new Map(chemPool.map(q => [q.id, q])).values());
+    if (chemPool.length === 0) {
+      chemPool = getUnifiedQuestionBank('Chemistry', selectedChemistry[0] || 'Chemical Thermodynamics');
+    }
     
     const randomizedChem = [...chemPool].sort(() => 0.5 - Math.random());
     const selectedChemQs: Question[] = [];
@@ -216,15 +195,12 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
     const selectedBotany = selectedBiology.filter(c => c.startsWith('[Botany]') || !c.startsWith('[Zoology]'));
     const effectiveBotChapters = selectedBotany.length > 0 ? selectedBotany : [BIOLOGY_CHAPTERS_LIST[0]];
     let botPool: Question[] = [];
-    if (effectiveBotChapters.some(b => b.toLowerCase().includes('living world'))) {
+    for (const ch of effectiveBotChapters) {
+      botPool.push(...getUnifiedQuestionBank('Biology', ch));
+    }
+    botPool = Array.from(new Map(botPool.map(q => [q.id, q])).values());
+    if (botPool.length === 0) {
       botPool = getUnifiedQuestionBank('Biology', 'The Living World');
-    }
-    if (botPool.length === 0) {
-      const bioBank = getUnifiedQuestionBank('Biology');
-      botPool = bioBank.filter(q => matchChapterStrict(q, effectiveBotChapters));
-    }
-    if (botPool.length === 0) {
-      botPool = getUnifiedQuestionBank('Biology');
     }
 
     const randomizedBot = [...botPool].sort(() => 0.5 - Math.random());
@@ -246,13 +222,10 @@ export const SundayTestChapterModal: React.FC<SundayTestChapterModalProps> = ({
     const selectedZoology = selectedBiology.filter(c => c.startsWith('[Zoology]'));
     const effectiveZooChapters = selectedZoology.length > 0 ? selectedZoology : [BIOLOGY_CHAPTERS_LIST[20]]; // default Animal Kingdom
     let zooPool: Question[] = [];
-    if (effectiveZooChapters.some(z => z.toLowerCase().includes('animal kingdom'))) {
-      zooPool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
+    for (const ch of effectiveZooChapters) {
+      zooPool.push(...getUnifiedQuestionBank('Biology', ch));
     }
-    if (zooPool.length === 0) {
-      const bioBank = getUnifiedQuestionBank('Biology');
-      zooPool = bioBank.filter(q => matchChapterStrict(q, effectiveZooChapters));
-    }
+    zooPool = Array.from(new Map(zooPool.map(q => [q.id, q])).values());
     if (zooPool.length === 0) {
       zooPool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
     }
