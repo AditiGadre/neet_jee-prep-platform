@@ -36,6 +36,15 @@ interface SidebarProps {
   onOpenAdmin?: () => void;
 }
 
+interface MenuItem {
+  id: TabType;
+  label: string;
+  sublabel: string;
+  icon: any;
+  badge?: string;
+  highlight?: boolean;
+}
+
 export const Sidebar: React.FC<SidebarProps> = ({
   activeTab,
   onSelectTab,
@@ -43,7 +52,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onSelectExtraSubTab,
   onOpenAdmin
 }) => {
-  const menuItems = [
+  const menuItems: MenuItem[] = [
     {
       id: 'test-series' as TabType,
       label: '1. Test Series & Sunday Mocks',

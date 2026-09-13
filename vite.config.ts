@@ -23,6 +23,9 @@ export default defineConfig(() => {
               if (id.includes('canvas-confetti')) return 'vendor-confetti';
               return 'vendor-core';
             }
+            if (id.includes('src/data/neetCutoffsData')) {
+              return 'data-neet-cutoffs';
+            }
             if (id.includes('src/data/fingertipsBiologyQuestions')) {
               return 'data-biology';
             }
