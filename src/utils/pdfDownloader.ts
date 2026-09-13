@@ -558,11 +558,242 @@ export function downloadTestPaperPDF(test: TestItem, includeSolutions: boolean =
 }
 
 /**
+ * Download Basic Scorecard PDF for Custom Practice Tests
+ * Produces a clean 1-2 page report without longitudinal multi-exam charts or AIR predictors.
+ */
+export function downloadBasicCustomScorecardPDF(result: UserTestResult): boolean {
+  if (!checkAuthForDownload(`Scorecard: ${result.testTitle}`, 'Scorecard')) {
+    return false;
+  }
+
+  const fileSize = '380 KB';
+  const studentName = result.studentName || 'Aditi Gadre';
+  const rollNumber = result.rollNumber || 'NCBT-2027-882190';
+  const dateStr = result.dateStr || new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
+  const totalPossibleMarks = result.totalMarks || 180;
+  const attemptedQ = (result.correctAnswers || 0) + (result.wrongAnswers || 0);
+  const totalQ = attemptedQ + (result.unattempted || 0) || 45;
+  const scorePct = totalPossibleMarks > 0 ? ((result.score / totalPossibleMarks) * 100).toFixed(1) : '0';
+  const avgTimePerQ = totalQ > 0 ? Math.round(result.timeSpentSeconds / totalQ) : 0;
+  const minSpent = Math.floor(result.timeSpentSeconds / 60);
+  const secSpent = result.timeSpentSeconds % 60;
+  const formattedTime = `${minSpent}m ${secSpent}s`;
+
+  const htmlBody = `
+    <!-- BASIC SCORECARD CONTAINER (1-2 PAGES) -->
+    <div style="font-family: 'Inter', -apple-system, sans-serif; color: #0f172a; line-height: 1.45; max-width: 800px; margin: 0 auto;">
+      <!-- Header -->
+      <div style="border-bottom: 2px solid #0284c7; padding-bottom: 14px; margin-bottom: 18px; display: flex; justify-content: space-between; align-items: flex-start;">
+        <div>
+          <div style="font-size: 10px; font-weight: 800; color: #0284c7; text-transform: uppercase; letter-spacing: 0.1em;">
+            NEET CBT PRACTICE SYSTEM &bull; CUSTOM TEST GENERATOR
+          </div>
+          <h1 style="font-size: 20px; font-weight: 900; color: #0f172a; margin: 4px 0 2px 0;">
+            ${result.testTitle}
+          </h1>
+          <div style="font-size: 11px; color: #64748b; font-family: 'JetBrains Mono', monospace;">
+            Basic Practice Scorecard &bull; Marking: +4 for Correct, -1 for Incorrect, 0 for Unattempted
+          </div>
+        </div>
+        <div style="text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #334155;">
+          <div><strong>Candidate:</strong> ${studentName}</div>
+          <div><strong>Roll No:</strong> ${rollNumber}</div>
+          <div><strong>Date:</strong> ${dateStr}</div>
+        </div>
+      </div>
+
+      <!-- 4 Core KPI Tiles -->
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 18px;">
+        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; text-align: center;">
+          <div style="font-size: 10px; font-weight: 700; color: #166534; text-transform: uppercase;">Score Obtained</div>
+          <div style="font-size: 22px; font-weight: 900; color: #15803d; font-family: 'JetBrains Mono', monospace; margin: 4px 0 2px 0;">
+            ${result.score} <span style="font-size: 12px; color: #64748b; font-weight: 500;">/ ${totalPossibleMarks}</span>
+          </div>
+          <div style="font-size: 11px; font-weight: 700; color: #16a34a;">${scorePct}% of Total</div>
+        </div>
+
+        <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; text-align: center;">
+          <div style="font-size: 10px; font-weight: 700; color: #1e40af; text-transform: uppercase;">Accuracy Rate</div>
+          <div style="font-size: 22px; font-weight: 900; color: #1d4ed8; font-family: 'JetBrains Mono', monospace; margin: 4px 0 2px 0;">
+            ${result.accuracyPercentage}%
+          </div>
+          <div style="font-size: 11px; color: #2563eb;">${result.correctAnswers} of ${attemptedQ} correct</div>
+        </div>
+
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px; text-align: center;">
+          <div style="font-size: 10px; font-weight: 700; color: #475569; text-transform: uppercase;">Attempt Rate</div>
+          <div style="font-size: 22px; font-weight: 900; color: #1e293b; font-family: 'JetBrains Mono', monospace; margin: 4px 0 2px 0;">
+            ${attemptedQ} <span style="font-size: 12px; color: #64748b; font-weight: 500;">/ ${totalQ}</span>
+          </div>
+          <div style="font-size: 11px; color: #64748b;">${result.unattempted} unattempted</div>
+        </div>
+
+        <div style="background: #faf5ff; border: 1px solid #e9d5ff; border-radius: 10px; padding: 12px; text-align: center;">
+          <div style="font-size: 10px; font-weight: 700; color: #6b21a8; text-transform: uppercase;">Pacing / Speed</div>
+          <div style="font-size: 22px; font-weight: 900; color: #7e22ce; font-family: 'JetBrains Mono', monospace; margin: 4px 0 2px 0;">
+            ${formattedTime}
+          </div>
+          <div style="font-size: 11px; color: #9333ea;">~${avgTimePerQ}s / question</div>
+        </div>
+      </div>
+
+      <!-- Question Attempt Breakdown Box -->
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px; margin-bottom: 18px;">
+        <div style="font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; margin-bottom: 8px;">
+          Question Attempt Breakdown
+        </div>
+        <div style="display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: #e2e8f0; margin-bottom: 10px;">
+          <div style="background: #16a34a; width: ${totalQ > 0 ? (result.correctAnswers / totalQ) * 100 : 0}%;"></div>
+          <div style="background: #dc2626; width: ${totalQ > 0 ? (result.wrongAnswers / totalQ) * 100 : 0}%;"></div>
+          <div style="background: #94a3b8; width: ${totalQ > 0 ? (result.unattempted / totalQ) * 100 : 0}%;"></div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 11px;">
+          <div style="color: #166534; font-weight: 600;">
+            <span style="display: inline-block; width: 8px; height: 8px; background: #16a34a; border-radius: 50%; margin-right: 4px;"></span>
+            Correct (+4): <strong>${result.correctAnswers}</strong> (+${result.correctAnswers * 4} Marks)
+          </div>
+          <div style="color: #991b1b; font-weight: 600;">
+            <span style="display: inline-block; width: 8px; height: 8px; background: #dc2626; border-radius: 50%; margin-right: 4px;"></span>
+            Incorrect (-1): <strong>${result.wrongAnswers}</strong> (-${result.wrongAnswers} Marks)
+          </div>
+          <div style="color: #475569; font-weight: 600;">
+            <span style="display: inline-block; width: 8px; height: 8px; background: #94a3b8; border-radius: 50%; margin-right: 4px;"></span>
+            Unattempted (0): <strong>${result.unattempted}</strong> (0 Marks)
+          </div>
+        </div>
+      </div>
+
+      <!-- Subject Breakdown Table -->
+      ${result.subjectBreakdown && result.subjectBreakdown.length > 0 ? `
+        <div style="margin-bottom: 18px;">
+          <div style="font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; margin-bottom: 6px;">
+            Subject Performance Summary
+          </div>
+          <table style="width: 100%; border-collapse: collapse; font-size: 11px; text-align: left;">
+            <thead>
+              <tr style="background: #0f172a; color: white;">
+                <th style="padding: 8px 10px; border-radius: 6px 0 0 0;">Subject</th>
+                <th style="padding: 8px 10px; text-align: center;">Attempted</th>
+                <th style="padding: 8px 10px; text-align: center;">Correct</th>
+                <th style="padding: 8px 10px; text-align: center;">Wrong</th>
+                <th style="padding: 8px 10px; text-align: center;">Unattempted</th>
+                <th style="padding: 8px 10px; text-align: center;">Score</th>
+                <th style="padding: 8px 10px; text-align: center; border-radius: 0 6px 0 0;">Accuracy</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${result.subjectBreakdown.map((sb, idx) => {
+                const subAttempted = (sb.correct || 0) + (sb.wrong || 0);
+                const subAcc = subAttempted > 0 ? Math.round(((sb.correct || 0) / subAttempted) * 100) : 0;
+                return `
+                  <tr style="background: ${idx % 2 === 0 ? '#f8fafc' : '#ffffff'}; border-bottom: 1px solid #e2e8f0;">
+                    <td style="padding: 8px 10px; font-weight: 700; color: #0f172a;">${sb.subject}</td>
+                    <td style="padding: 8px 10px; text-align: center; font-family: 'JetBrains Mono', monospace;">${subAttempted}</td>
+                    <td style="padding: 8px 10px; text-align: center; color: #16a34a; font-weight: 700; font-family: 'JetBrains Mono', monospace;">${sb.correct}</td>
+                    <td style="padding: 8px 10px; text-align: center; color: #dc2626; font-family: 'JetBrains Mono', monospace;">${sb.wrong}</td>
+                    <td style="padding: 8px 10px; text-align: center; color: #64748b; font-family: 'JetBrains Mono', monospace;">${sb.unattempted}</td>
+                    <td style="padding: 8px 10px; text-align: center; font-weight: 800; color: #0f172a; font-family: 'JetBrains Mono', monospace;">${sb.score} / ${sb.maxMarks || 180}</td>
+                    <td style="padding: 8px 10px; text-align: center; font-weight: 700; color: ${subAcc >= 75 ? '#16a34a' : subAcc >= 50 ? '#d97706' : '#dc2626'};">${subAcc}%</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      ` : ''}
+
+      <!-- Chapter / Weakness Insights -->
+      ${result.chapterAnalytics && result.chapterAnalytics.length > 0 ? `
+        <div style="margin-bottom: 18px;">
+          <div style="font-size: 11px; font-weight: 800; color: #334155; text-transform: uppercase; margin-bottom: 6px;">
+            Chapter Analysis & Focus Topics
+          </div>
+          <table style="width: 100%; border-collapse: collapse; font-size: 11px;">
+            <thead>
+              <tr style="background: #f1f5f9; color: #334155; border-bottom: 1px solid #cbd5e1;">
+                <th style="padding: 6px 8px; text-align: left;">Chapter</th>
+                <th style="padding: 6px 8px; text-align: left;">Subject</th>
+                <th style="padding: 6px 8px; text-align: center;">Questions</th>
+                <th style="padding: 6px 8px; text-align: center;">Correct</th>
+                <th style="padding: 6px 8px; text-align: center;">Accuracy</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${result.chapterAnalytics.slice(0, 8).map((ch) => `
+                <tr style="border-bottom: 1px solid #f1f5f9;">
+                  <td style="padding: 6px 8px; font-weight: 600; color: #1e293b;">${ch.chapter}</td>
+                  <td style="padding: 6px 8px; color: #64748b;">${ch.subject}</td>
+                  <td style="padding: 6px 8px; text-align: center; font-family: 'JetBrains Mono', monospace;">${ch.total}</td>
+                  <td style="padding: 6px 8px; text-align: center; color: #16a34a; font-family: 'JetBrains Mono', monospace;">${ch.correct}</td>
+                  <td style="padding: 6px 8px; text-align: center; font-weight: 700; color: ${ch.accuracy >= 70 ? '#16a34a' : ch.accuracy >= 50 ? '#d97706' : '#dc2626'};">${ch.accuracy}%</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      ` : ''}
+
+      <!-- Simple Action Plan -->
+      <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; margin-bottom: 16px;">
+        <div style="font-size: 11px; font-weight: 800; color: #166534; text-transform: uppercase; margin-bottom: 4px;">
+          Targeted Practice Recommendations
+        </div>
+        <ul style="margin: 0; padding-left: 18px; font-size: 11px; color: #14532d; line-height: 1.55;">
+          <li>Review questions answered incorrectly in the solution tab to identify conceptual traps.</li>
+          <li>Focus on high-yield NCERT formula derivations and key definitions for chapters with accuracy under 60%.</li>
+          <li>Practice timed question blocks (45 seconds per question) to enhance speed without sacrificing precision.</li>
+        </ul>
+      </div>
+
+      <!-- Footer Note -->
+      <div style="text-align: center; font-size: 9px; color: #94a3b8; font-family: 'JetBrains Mono', monospace; border-top: 1px solid #e2e8f0; padding-top: 8px;">
+        NEET CBT Practice Platform &bull; Basic Self-Paced Scorecard &bull; Generated: ${new Date().toISOString()}
+      </div>
+    </div>
+  `;
+
+  trackDownload({
+    title: `Basic Scorecard: ${result.testTitle}`,
+    category: 'Scorecard',
+    subject: 'Custom Practice Test',
+    fileSize,
+    format: 'PDF'
+  });
+
+  recordSuperUserNotification({
+    contentTitle: `Password-Protected Scorecard (Basic): ${result.testTitle} (Score: ${result.score}/${totalPossibleMarks}, Accuracy: ${result.accuracyPercentage}%)`,
+    category: 'Scorecard',
+    fileSize,
+    subject: 'Custom Test Scorecard'
+  });
+
+  downloadHtmlDocument(
+    `NeetCbt_Custom_Test_Report_${result.testTitle.replace(/[^a-zA-Z0-9]/g, '_')}`,
+    `Basic Test Report: ${result.testTitle}`,
+    htmlBody
+  );
+
+  return true;
+}
+
+/**
  * Download Official Test Scorecard PDF (Gated with DOB Security)
  */
 export function downloadTestScorecardPDF(result: UserTestResult): boolean {
   if (!checkAuthForDownload(`Scorecard: ${result.testTitle}`, 'Scorecard')) {
     return false;
+  }
+
+  // Branch for custom test generator: basic report card even after downloading
+  const isCustom = Boolean(
+    result.isCustomTest ||
+    result.testId.startsWith('custom-') ||
+    result.testId.startsWith('test-custom') ||
+    (result.totalMarks !== 720 && !result.testId.includes('sunday') && !result.testId.includes('cwt') && !result.testId.includes('cum') && !result.testId.includes('part') && !result.testId.includes('fst'))
+  );
+
+  if (isCustom) {
+    return downloadBasicCustomScorecardPDF(result);
   }
 
   const fileSize = '1.8 MB';

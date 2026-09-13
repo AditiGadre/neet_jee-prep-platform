@@ -94,7 +94,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   // Custom Test Builder State (Student High-Yield Edge Tool)
   const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
   const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
-  const [customDifficulties, setCustomDifficulties] = useState<string[]>(['Medium', 'Hard']);
+  const [customDifficulties, setCustomDifficulties] = useState<string[]>(['Hard']);
   const [customDuration, setCustomDuration] = useState<number>(45);
   const [customQCount, setCustomQCount] = useState<number>(45);
   const [customTestPdfSuccess, setCustomTestPdfSuccess] = useState<string | null>(null);
@@ -1001,7 +1001,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
             </span>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Avg NEET Score</div>
               <div className="text-xl font-bold text-emerald-700 font-mono mt-0.5">
@@ -1026,12 +1026,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               <div className="text-[10px] font-bold text-gray-500 uppercase">Time per Question</div>
               <div className="text-xl font-bold text-purple-700 font-mono mt-0.5">46s / Q</div>
               <div className="text-[10px] text-purple-600 font-semibold mt-0.5">Optimal Speed (&lt; 60s)</div>
-            </div>
-
-            <div className="p-3 rounded bg-gray-50 border border-gray-200 text-center">
-              <div className="text-[10px] font-bold text-gray-500 uppercase">Predicted AIR</div>
-              <div className="text-xl font-bold text-amber-700 font-mono mt-0.5">#2,450</div>
-              <div className="text-[10px] text-amber-600 font-semibold mt-0.5">Government Medical College</div>
             </div>
           </div>
         </div>

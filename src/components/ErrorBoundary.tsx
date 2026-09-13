@@ -27,17 +27,19 @@ export class ErrorBoundary extends Component<Props, State> {
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     console.error('ErrorBoundary caught an error:', error, errorInfo);
-    this.setState({ errorInfo });
+    (this as any).setState({ errorInfo });
   }
 
   public handleReload = () => {
-    if (this.props.onReset) {
-      this.props.onReset();
+    const props = (this as any).props as Props;
+    if (props?.onReset) {
+      props.onReset();
     }
-    this.setState({ hasError: false, error: null, errorInfo: null });
+    (this as any).setState({ hasError: false, error: null, errorInfo: null });
   };
 
   public render() {
+    const props = (this as any).props as Props;
     if (this.state.hasError) {
       return (
         <div className="min-h-[400px] w-full flex items-center justify-center p-6 bg-slate-50 text-slate-900 rounded-2xl border border-slate-200 shadow-sm my-4">
@@ -48,10 +50,10 @@ export class ErrorBoundary extends Component<Props, State> {
 
             <div className="space-y-1">
               <h3 className="text-lg font-bold text-slate-900">
-                {this.props.fallbackTitle || 'Something went wrong displaying this view'}
+                {props?.fallbackTitle || 'Something went wrong displaying this view'}
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                {this.props.fallbackMessage ||
+                {props?.fallbackMessage ||
                   'The view encountered a temporary rendering issue. Your answers and test results have been safely preserved.'}
               </p>
             </div>
@@ -86,6 +88,6 @@ export class ErrorBoundary extends Component<Props, State> {
       );
     }
 
-    return this.props.children;
+    return (this as any).props?.children;
   }
 }

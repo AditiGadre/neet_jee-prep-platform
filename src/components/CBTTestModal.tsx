@@ -50,6 +50,7 @@ import { getUniqueDiagramForQuestion } from '../utils/diagramEngine';
 import { ErrorBoundary } from './ErrorBoundary';
 import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 import { resolveQuestionSubtopic, normalizeChapterForDisplay } from '../utils/subtopicResolver';
+import { NeetCollegePredictor } from './NeetCollegePredictor';
 
 interface CBTTestModalProps {
   test: TestItem;
@@ -415,6 +416,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     const resultObj: UserTestResult = {
       testId: test.id,
       testTitle: test.title,
+      isCustomTest: isCustomTest || test.category === 'custom' || test.id.startsWith('custom-') || totalPossibleMarks !== 720,
       score: rawScore,
       totalMarks: totalPossibleMarks,
       correctAnswers: correctCount,
@@ -503,72 +505,6 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     { rank: 9, name: 'Aditya Singh', score: 660, accuracy: 91, time: '178m', state: 'Uttar Pradesh' },
     { rank: 10, name: 'Meera Iyer', score: 654, accuracy: 91, time: '173m', state: 'Tamil Nadu' }
   ];
-
-  const getEligibleColleges = (air: number = 10000, category: string = 'General / Open', currentScore: number = 0) => {
-    // If candidate scored 0 or negative marks, or rank is invalid: DO NOT recommend any colleges!
-    if (currentScore <= 0 || !Number.isFinite(air) || air <= 0) {
-      return [];
-    }
-
-    const cat = String(category || 'General / Open');
-    const isReserved = cat.includes('OBC') || cat.includes('SC') || cat.includes('ST');
-    const minQualifyingCutoff = isReserved ? 107 : 137;
-    if (currentScore < minQualifyingCutoff) {
-      return [];
-    }
-
-    let effectiveRank = air;
-    if (cat.includes('OBC')) effectiveRank = Math.round(effectiveRank * 0.7);
-    else if (cat.includes('EWS')) effectiveRank = Math.round(effectiveRank * 0.75);
-    else if (cat.includes('SC')) effectiveRank = Math.round(effectiveRank * 0.35);
-    else if (cat.includes('ST')) effectiveRank = Math.round(effectiveRank * 0.2);
-
-    const colleges = [
-      { name: 'AIIMS, New Delhi', cutoff: 55, type: 'Apex Central Institute', seats: 125, state: 'Delhi' },
-      { name: 'Maulana Azad Medical College (MAMC), New Delhi', cutoff: 120, type: 'Govt Medical College', seats: 250, state: 'Delhi' },
-      { name: 'VMMC & Safdarjung Hospital, New Delhi', cutoff: 350, type: 'Central Govt Medical', seats: 170, state: 'Delhi' },
-      { name: 'JIPMER, Puducherry', cutoff: 650, type: 'National Importance Institute', seats: 200, state: 'Puducherry' },
-      { name: 'King George’s Medical University (KGMU), Lucknow', cutoff: 1800, type: 'Top State Govt Medical', seats: 250, state: 'Uttar Pradesh' },
-      { name: 'Seth GS Medical College & KEM, Mumbai', cutoff: 2200, type: 'Top State Govt Medical', seats: 250, state: 'Maharashtra' },
-      { name: 'Madras Medical College (MMC), Chennai', cutoff: 3500, type: 'Premier Govt Medical', seats: 250, state: 'Tamil Nadu' },
-      { name: 'Government Medical College (GMC), Chandigarh', cutoff: 8000, type: 'Govt Medical College', seats: 150, state: 'Chandigarh' },
-      { name: 'Top State Government Medical Colleges (State Quota)', cutoff: 18000, type: 'State Govt MBBS Allotment', seats: 4500, state: 'Home State' },
-      { name: 'Regional Government Medical Colleges (All India Quota)', cutoff: 32000, type: 'AIQ Govt College', seats: 12000, state: 'All India' }
-    ];
-
-    return colleges.map(c => {
-      let isEligible = effectiveRank <= c.cutoff * 1.3;
-      let prob = 0;
-      let badge = 'Eligible for Round 1';
-      let badgeClass = 'bg-emerald-100 text-emerald-800 border-emerald-300';
-
-      if (effectiveRank <= c.cutoff * 0.8) {
-        prob = Math.min(99, Math.round(92 + (1 - effectiveRank / c.cutoff) * 7));
-        badge = '✓ Highly Likely (Round 1)';
-        badgeClass = 'bg-emerald-100 text-emerald-800 border-emerald-300 font-bold';
-      } else if (effectiveRank <= c.cutoff * 1.2) {
-        prob = Math.round(65 + (1 - effectiveRank / (c.cutoff * 1.2)) * 25);
-        badge = '✓ Competitive / Eligible';
-        badgeClass = 'bg-blue-100 text-blue-800 border-blue-300 font-bold';
-      } else if (effectiveRank <= c.cutoff * 1.6) {
-        prob = Math.round(35 + (1 - effectiveRank / (c.cutoff * 1.6)) * 25);
-        badge = 'Eligible in Round 2 / Mop-up';
-        badgeClass = 'bg-amber-100 text-amber-800 border-amber-300 font-semibold';
-      } else {
-        prob = Math.max(8, Math.round(18 - (effectiveRank / c.cutoff) * 2));
-        badge = 'State Quota / Reach';
-        badgeClass = 'bg-slate-100 text-slate-700 border-slate-300';
-      }
-
-      return {
-        ...c,
-        isEligible,
-        probability: prob,
-        badge,
-        badgeClass
-      };
-    });
-  };
 
   // Memoized Diagram Map ensuring NO diagram is used for more than 2 questions across the entire test
   const questionDiagramMap = useMemo(() => {
@@ -930,6 +866,20 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               </div>
             </div>
           )}
+        </div>
+
+        {/* Real-time Predicted Medical Colleges based on Practice Test Score */}
+        <div className="pt-2">
+          <NeetCollegePredictor
+            initialScore={result.score}
+            initialAir={result.predictedAIR}
+            initialCategory={studentCategory}
+            initialGender={enrolledStudent?.gender || 'Female'}
+            initialSpecialReservation={enrolledStudent?.specialReservation || 'None'}
+            candidateName={studentName}
+            rollNumber={rollNumber}
+            isInsideScorecard={true}
+          />
         </div>
 
         {/* Quick Review CTA */}
@@ -1909,71 +1859,18 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     </div>
                   </div>
 
-                  {/* SECTION 7 */}
-                  <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
-                    <div className="border-b border-slate-100 pb-2 flex flex-col sm:flex-row sm:items-center justify-between gap-1">
-                      <div>
-                        <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2">
-                          <BuildingIcon className="w-5 h-5 text-blue-600" />
-                          <span>SECTION 7: Rank & Medical College-Chance Dashboard</span>
-                        </h3>
-                        <p className="text-xs text-slate-500">
-                          AI admission predictor mapped across AIIMS, Central, and State Government Medical Colleges.
-                        </p>
-                      </div>
-                      <span className="text-xs font-mono font-bold bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1 rounded-xl">
-                        Category Quota: {studentCategory}
-                      </span>
-                    </div>
-
-                    {(() => {
-                      const colleges = getEligibleColleges(testResult.predictedAIR, studentCategory, testResult.score);
-                      if (colleges.length === 0) {
-                        return (
-                          <div className="p-8 rounded-2xl bg-amber-50/80 border border-amber-200 text-center space-y-3">
-                            <div className="w-12 h-12 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center mx-auto">
-                              <AlertIcon className="w-6 h-6" />
-                            </div>
-                            <h4 className="text-sm font-extrabold text-amber-900">
-                              {testResult.score <= 0
-                                ? 'No Medical Colleges Recommended (Current Score: 0 Marks)'
-                                : `Score Below NEET Qualifying Cutoff (${testResult.score} / 720)`}
-                            </h4>
-                            <p className="text-xs text-amber-700 max-w-lg mx-auto leading-relaxed">
-                              {testResult.score <= 0
-                                ? 'Candidates scoring 0 or negative marks are not eligible for medical college seat allotment in AIQ or State Quota counselling. Please review foundational concepts and re-attempt chapter practice tests.'
-                                : `The minimum qualifying marks for NEET admission counselling are 137 (General / EWS) and 107 (OBC / SC / ST). Your current score is below the qualifying cutoff threshold.`}
-                            </p>
-                          </div>
-                        );
-                      }
-                      return (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                          {colleges.map((col, idx) => (
-                            <div
-                              key={idx}
-                              className="p-4 rounded-2xl border border-slate-200 bg-slate-50/70 flex items-center justify-between hover:bg-white hover:shadow-xs transition"
-                            >
-                              <div className="space-y-0.5">
-                                <h4 className="text-xs font-bold text-slate-900">{col.name}</h4>
-                                <p className="text-[10px] text-slate-500 font-mono">
-                                  {col.type} &bull; {col.state} &bull; {col.seats} MBBS Seats
-                                </p>
-                              </div>
-                              <div className="text-right shrink-0">
-                                <span className={`px-2.5 py-1 rounded-xl text-xs border ${col.badgeClass}`}>
-                                  {col.badge} ({col.probability}%)
-                                </span>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      );
-                    })()}
-
-                    <p className="text-[10px] text-slate-400 font-mono italic">
-                      * Disclaimer: College allotment probabilities are calculated based on historic NTA NEET AIQ/State Counselling opening & closing ranks. Final seat allotment is subject to state quota, category verification, and annual candidate distribution.
-                    </p>
+                  {/* SECTION 7: Official Maharashtra State CAP Medical College Forecaster */}
+                  <div className="space-y-4">
+                    <NeetCollegePredictor
+                      initialScore={testResult.score}
+                      initialAir={testResult.predictedAIR}
+                      initialCategory={studentCategory}
+                      initialGender={enrolledStudent?.gender || 'Female'}
+                      initialSpecialReservation={enrolledStudent?.specialReservation || 'None'}
+                      candidateName={studentName}
+                      rollNumber={rollNumber}
+                      isInsideScorecard={true}
+                    />
                   </div>
 
                   {/* SECTION 8 */}

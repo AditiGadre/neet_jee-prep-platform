@@ -8,7 +8,7 @@ export interface SundayPlannerTest {
   id: string;
   code: string; // e.g. 'CWT-01', 'CUM-01', 'PART-01', 'FST-01'
   dateStr: string; // e.g. '2026-09-20'
-  phase: 'Phase 1: Chapter-Wise' | 'Phase 1: Cumulative' | 'Phase 2: Part-Wise' | 'Phase 3: Full Syllabus';
+  phase: string;
   phaseGroup: 'cwt' | 'cumulative' | 'part' | 'full';
   title: string;
   description: string;
@@ -829,38 +829,1087 @@ export const SUNDAY_DROPPER_PLANNER_TESTS: SundayPlannerTest[] = [
 ];
 
 /**
+ * OFFICIAL NEET CLASS 11 EXAM TEST PLANNER (20 September 2026 – 14 March 2027)
+ * 20 Sunday Tests: 12 Chapter-Wise Tests (CWT), 5 Cumulative Tests (CUM), 3 Full Syllabus Tests (FST)
+ * Strictly aligned to official NMC/NTA NEET (UG)-2026/2027 syllabus for Class 11.
+ */
+export const SUNDAY_11TH_PLANNER_TESTS: SundayPlannerTest[] = [
+  // 1. CWT-01: 20 Sep 2026
+  {
+    id: 'test-11th-cwt-01',
+    code: 'CWT-01',
+    dateStr: '2026-09-20',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-01: Units & Measurements, Some Basic Concepts of Chemistry, The Living World, Animal Kingdom',
+    description: 'Units & Measurements (Phy) + Some Basic Concepts of Chemistry (Chem) + The Living World (Bot) + Animal Kingdom (Zoo)',
+    objective: 'Complete chapter-wise testing stage 1 — fundamental units, mole concept, diversity of living world, and animal kingdom.',
+    physicsUnit: 'Units & Measurements',
+    chemistryUnit: 'Some Basic Concepts of Chemistry',
+    botanyBlock: 'The Living World',
+    zoologyBlock: 'Animal Kingdom',
+    physicsKeywords: ['Units and Measurement', 'Units, Dimensions', 'Vectors', 'Experimental Skills'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Mole Concept', 'Some Basic Concepts in Chemistry'],
+    botanyKeywords: ['The Living World', 'Diversity of Living World'],
+    zoologyKeywords: ['Animal Kingdom'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 2. CWT-02: 04 Oct 2026
+  {
+    id: 'test-11th-cwt-02',
+    code: 'CWT-02',
+    dateStr: '2026-10-04',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-02: Kinematics, Structure of Atom, Biological Classification, Structural Organisation in Animals',
+    description: 'Kinematics (Phy) + Structure of Atom (Chem) + Biological Classification (Bot) + Structural Organisation in Animals (Zoo)',
+    objective: '1D & 2D Motion, atomic structure, 5-kingdom system, and animal tissues.',
+    physicsUnit: 'Kinematics',
+    chemistryUnit: 'Structure of Atom',
+    botanyBlock: 'Biological Classification',
+    zoologyBlock: 'Structural Organisation in Animals',
+    physicsKeywords: ['Kinematics', 'Motion in One Dimension', 'Motion in a Plane', 'Motion in a Straight Line'],
+    chemistryKeywords: ['Structure of Atom', 'Atomic Structure'],
+    botanyKeywords: ['Biological Classification'],
+    zoologyKeywords: ['Structural Organisation in Animals', 'Structural Organisation of Animals', 'Animal Tissues'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 3. CWT-03: 18 Oct 2026
+  {
+    id: 'test-11th-cwt-03',
+    code: 'CWT-03',
+    dateStr: '2026-10-18',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-03: Laws of Motion, Classification of Elements & Periodicity, Plant Kingdom, Cell Cycle & Cell Division',
+    description: 'Laws of Motion (Phy) + Classification of Elements & Periodicity (Chem) + Plant Kingdom (Bot) + Cell Cycle & Cell Division (Zoo)',
+    objective: 'Newtonian dynamics, periodic trends, plant kingdom classification, and cell division mechanisms.',
+    physicsUnit: 'Laws of Motion',
+    chemistryUnit: 'Classification of Elements & Periodicity',
+    botanyBlock: 'Plant Kingdom',
+    zoologyBlock: 'Cell Cycle & Cell Division',
+    physicsKeywords: ['Laws of Motion', 'Friction', 'Newton'],
+    chemistryKeywords: ['Classification of Elements', 'Periodicity', 'Periodic Table', 'Classification of Elements & Periodicity'],
+    botanyKeywords: ['Plant Kingdom'],
+    zoologyKeywords: ['Cell Cycle & Cell Division', 'Cell Cycle and Cell Division', 'Cell Division'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 4. CUM-01: 25 Oct 2026
+  {
+    id: 'test-11th-cum-01',
+    code: 'CUM-01',
+    dateStr: '2026-10-25',
+    phase: 'Phase 1: Cumulative',
+    phaseGroup: 'cumulative',
+    title: 'CUM-01: Cumulative Checkpoint Test 1 (CWT-01 to CWT-02 Coverage)',
+    description: 'Cumulative test combining all CWT-01 to CWT-02 portions across Physics, Chemistry, Botany, and Zoology.',
+    objective: 'Mixed NEET-level questions + error-analysis + NCERT-based revision (CWT-01 to CWT-02 coverage).',
+    physicsUnit: 'CWT-01 to CWT-02: Units & Measurements, Kinematics',
+    chemistryUnit: 'CWT-01 to CWT-02: Some Basic Concepts, Structure of Atom',
+    botanyBlock: 'CWT-01 to CWT-02: The Living World, Biological Classification',
+    zoologyBlock: 'CWT-01 to CWT-02: Animal Kingdom, Structural Organisation in Animals',
+    physicsKeywords: ['Units and Measurement', 'Kinematics', 'Motion in One Dimension', 'Motion in a Plane'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Mole Concept', 'Structure of Atom'],
+    botanyKeywords: ['The Living World', 'Biological Classification'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 5. CWT-04: 01 Nov 2026
+  {
+    id: 'test-11th-cwt-04',
+    code: 'CWT-04',
+    dateStr: '2026-11-01',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-04: Work, Energy & Power, Chemical Bonding & Molecular Structure, Morphology of Flowering Plants, Breathing & Exchange of Gases',
+    description: 'Work, Energy & Power (Phy) + Chemical Bonding & Molecular Structure (Chem) + Morphology of Flowering Plants (Bot) + Breathing & Exchange of Gases (Zoo)',
+    objective: 'Work-energy theorem, chemical bonds and molecular geometries, flowering plant morphology, and respiratory exchange.',
+    physicsUnit: 'Work, Energy & Power',
+    chemistryUnit: 'Chemical Bonding & Molecular Structure',
+    botanyBlock: 'Morphology of Flowering Plants',
+    zoologyBlock: 'Breathing & Exchange of Gases',
+    physicsKeywords: ['Work, Energy and Power', 'Work, Energy & Power', 'Work Energy Power'],
+    chemistryKeywords: ['Chemical Bonding & Molecular Structure', 'Chemical Bonding', 'Molecular Structure'],
+    botanyKeywords: ['Morphology of Flowering Plants', 'Morphology of Flowering Plant'],
+    zoologyKeywords: ['Breathing and Exchange of Gases', 'Breathing & Exchange of Gases', 'Breathing & Respiration'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 6. CWT-05: 15 Nov 2026
+  {
+    id: 'test-11th-cwt-05',
+    code: 'CWT-05',
+    dateStr: '2026-11-15',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-05: Rotational Motion, Thermodynamics (Chem), Anatomy of Flowering Plants, Body Fluids & Circulation',
+    description: 'Rotational Motion (Phy) + Thermodynamics (Chem) + Anatomy of Flowering Plants (Bot) + Body Fluids & Circulation (Zoo)',
+    objective: 'Rotational dynamics and moment of inertia, chemical thermodynamics, plant internal anatomy, circulatory system.',
+    physicsUnit: 'Rotational Motion',
+    chemistryUnit: 'Thermodynamics',
+    botanyBlock: 'Anatomy of Flowering Plants',
+    zoologyBlock: 'Body Fluids & Circulation',
+    physicsKeywords: ['Rotational Motion', 'Moment of Inertia', 'Rigid Body'],
+    chemistryKeywords: ['Thermodynamics', 'Chemical Thermodynamics'],
+    botanyKeywords: ['Anatomy of Flowering Plants', 'Plant Anatomy'],
+    zoologyKeywords: ['Body Fluids and Circulation', 'Body Fluids & Circulation'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 7. CUM-02: 22 Nov 2026
+  {
+    id: 'test-11th-cum-02',
+    code: 'CUM-02',
+    dateStr: '2026-11-22',
+    phase: 'Phase 1: Cumulative',
+    phaseGroup: 'cumulative',
+    title: 'CUM-02: Cumulative Checkpoint Test 2 (CWT-01 to CWT-04 Coverage)',
+    description: 'Cumulative test combining all CWT-01 to CWT-04 portions across Physics, Chemistry, Botany, and Zoology.',
+    objective: 'Mixed NEET-level questions + error-analysis + NCERT-based revision (CWT-01 to CWT-04 coverage).',
+    physicsUnit: 'CWT-01 to CWT-04: Measurement, Kinematics, Laws of Motion, Work Energy',
+    chemistryUnit: 'CWT-01 to CWT-04: Basic Concepts, Atom Structure, Periodic Table, Chemical Bonding',
+    botanyBlock: 'CWT-01 to CWT-04: Living World, Classification, Plant Kingdom, Morphology',
+    zoologyBlock: 'CWT-01 to CWT-04: Animal Kingdom, Structural Org, Cell Division, Breathing',
+    physicsKeywords: ['Units and Measurement', 'Kinematics', 'Laws of Motion', 'Work, Energy and Power'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Structure of Atom', 'Classification of Elements', 'Chemical Bonding'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell Cycle & Cell Division', 'Breathing and Exchange of Gases'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 8. CWT-06: 29 Nov 2026
+  {
+    id: 'test-11th-cwt-06',
+    code: 'CWT-06',
+    dateStr: '2026-11-29',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-06: Gravitation, Equilibrium, Cell: The Unit of Life, Excretory Products & Elimination',
+    description: 'Gravitation (Phy) + Equilibrium (Chem) + Cell: The Unit of Life (Bot) + Excretory Products & Elimination (Zoo)',
+    objective: 'Gravitational law and orbits, chemical & ionic equilibrium, cell structure and organelles, excretory physiology.',
+    physicsUnit: 'Gravitation',
+    chemistryUnit: 'Equilibrium',
+    botanyBlock: 'Cell: The Unit of Life',
+    zoologyBlock: 'Excretory Products & Elimination',
+    physicsKeywords: ['Gravitation', 'Kepler'],
+    chemistryKeywords: ['Equilibrium', 'Chemical Equilibrium', 'Ionic Equilibrium'],
+    botanyKeywords: ['Cell: The Unit of Life', 'Cell Structure and Function', 'Cell: Structure & Function'],
+    zoologyKeywords: ['Excretory Products and their Elimination', 'Excretory Products & Elimination'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 9. CWT-07: 13 Dec 2026
+  {
+    id: 'test-11th-cwt-07',
+    code: 'CWT-07',
+    dateStr: '2026-12-13',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-07: Properties of Solids & Liquids, Redox Reactions, Biomolecules, Locomotion & Movement',
+    description: 'Properties of Solids & Liquids (Phy) + Redox Reactions (Chem) + Biomolecules (Bot) + Locomotion & Movement (Zoo)',
+    objective: 'Mechanical and thermal properties of matter, redox processes, cellular biomolecules, musculoskeletal system.',
+    physicsUnit: 'Properties of Solids & Liquids',
+    chemistryUnit: 'Redox Reactions',
+    botanyBlock: 'Biomolecules',
+    zoologyBlock: 'Locomotion & Movement',
+    physicsKeywords: ['Properties of Solids & Liquids', 'Mechanical Properties of Solids', 'Mechanical Properties of Fluids', 'Thermal Properties of Matter', 'Elasticity', 'Fluid Mechanics'],
+    chemistryKeywords: ['Redox Reactions'],
+    botanyKeywords: ['Biomolecules'],
+    zoologyKeywords: ['Locomotion and Movement', 'Locomotion & Movement'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 10. CUM-03: 20 Dec 2026
+  {
+    id: 'test-11th-cum-03',
+    code: 'CUM-03',
+    dateStr: '2026-12-20',
+    phase: 'Phase 1: Cumulative',
+    phaseGroup: 'cumulative',
+    title: 'CUM-03: Cumulative Checkpoint Test 3 (CWT-01 to CWT-06 Coverage)',
+    description: 'Mid-session comprehensive cumulative combining all CWT-01 to CWT-06 chapters across all 4 subjects.',
+    objective: 'Mixed NEET-level questions + error-analysis + NCERT-based revision (CWT-01 to CWT-06 coverage).',
+    physicsUnit: 'CWT-01 to CWT-06: Units 1-6 (Measurement through Gravitation)',
+    chemistryUnit: 'CWT-01 to CWT-06: Units 1-6 (Basic Concepts through Equilibrium)',
+    botanyBlock: 'CWT-01 to CWT-06: Chapters 1-6 (Living World through Cell: Unit of Life)',
+    zoologyBlock: 'CWT-01 to CWT-06: Chapters 1-6 (Animal Kingdom through Excretory System)',
+    physicsKeywords: ['Units and Measurement', 'Kinematics', 'Laws of Motion', 'Work, Energy and Power', 'Rotational Motion', 'Gravitation'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Structure of Atom', 'Classification of Elements', 'Chemical Bonding', 'Thermodynamics', 'Equilibrium'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Cell: The Unit of Life'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell Cycle & Cell Division', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products and their Elimination'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 11. CWT-08: 27 Dec 2026
+  {
+    id: 'test-11th-cwt-08',
+    code: 'CWT-08',
+    dateStr: '2026-12-27',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-08: Thermodynamics (Phy), Organic Chemistry: Basic Principles & Techniques, Photosynthesis in Plants, Neural Control & Coordination',
+    description: 'Thermodynamics (Phy) + Organic Chemistry: Basic Principles & Techniques (Chem) + Photosynthesis in Plants (Bot) + Neural Control & Coordination (Zoo)',
+    objective: 'Thermal physics and engines, general organic chemistry (GOC), photosynthetic pathways, neural transmission.',
+    physicsUnit: 'Thermodynamics',
+    chemistryUnit: 'Organic Chemistry: Basic Principles & Techniques',
+    botanyBlock: 'Photosynthesis in Plants',
+    zoologyBlock: 'Neural Control & Coordination',
+    physicsKeywords: ['Thermodynamics', 'Heat Engines'],
+    chemistryKeywords: ['Organic Chemistry: Basic Principles & Techniques', 'Organic Chemistry - Some Basic Principles', 'GOC', 'General Organic Chemistry'],
+    botanyKeywords: ['Photosynthesis in Higher Plants', 'Photosynthesis in Plants', 'Photosynthesis'],
+    zoologyKeywords: ['Neural Control & Coordination', 'Neural Control and Coordination'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 12. CWT-09: 10 Jan 2027
+  {
+    id: 'test-11th-cwt-09',
+    code: 'CWT-09',
+    dateStr: '2027-01-10',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-09: Kinetic Theory of Gases, Hydrocarbons, Respiration in Plants, Chemical Coordination & Integration',
+    description: 'Kinetic Theory of Gases (Phy) + Hydrocarbons (Chem) + Respiration in Plants (Bot) + Chemical Coordination & Integration (Zoo)',
+    objective: 'Kinetic molecular theory, hydrocarbon families, cellular respiration, hormonal integration.',
+    physicsUnit: 'Kinetic Theory of Gases',
+    chemistryUnit: 'Hydrocarbons',
+    botanyBlock: 'Respiration in Plants',
+    zoologyBlock: 'Chemical Coordination & Integration',
+    physicsKeywords: ['Kinetic Theory of Gases', 'Kinetic Theory', 'KTG'],
+    chemistryKeywords: ['Hydrocarbons', 'Alkanes', 'Alkenes', 'Alkynes'],
+    botanyKeywords: ['Respiration in Plants'],
+    zoologyKeywords: ['Chemical Coordination & Integration', 'Chemical Coordination and Integration'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 13. CUM-04: 17 Jan 2027
+  {
+    id: 'test-11th-cum-04',
+    code: 'CUM-04',
+    dateStr: '2027-01-17',
+    phase: 'Phase 1: Cumulative',
+    phaseGroup: 'cumulative',
+    title: 'CUM-04: Cumulative Checkpoint Test 4 (CWT-01 to CWT-08 Coverage)',
+    description: 'Advanced cumulative test combining all chapters from CWT-01 to CWT-08 across all 4 subjects.',
+    objective: 'Mixed NEET-level questions + error-analysis + NCERT-based revision (CWT-01 to CWT-08 coverage).',
+    physicsUnit: 'CWT-01 to CWT-08: Units 1-8 (Measurement through Thermodynamics)',
+    chemistryUnit: 'CWT-01 to CWT-08: Units 1-8 (Basic Concepts through GOC)',
+    botanyBlock: 'CWT-01 to CWT-08: Chapters 1-8 (Living World through Photosynthesis)',
+    zoologyBlock: 'CWT-01 to CWT-08: Chapters 1-8 (Animal Kingdom through Neural Control)',
+    physicsKeywords: ['Units and Measurement', 'Kinematics', 'Laws of Motion', 'Work, Energy and Power', 'Rotational Motion', 'Gravitation', 'Properties of Solids & Liquids', 'Thermodynamics'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Structure of Atom', 'Classification of Elements', 'Chemical Bonding', 'Thermodynamics', 'Equilibrium', 'Redox Reactions', 'Organic Chemistry - Some Basic Principles'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Cell: The Unit of Life', 'Biomolecules', 'Photosynthesis in Plants'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell Cycle & Cell Division', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products and their Elimination', 'Locomotion and Movement', 'Neural Control & Coordination'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 14. CWT-10: 24 Jan 2027
+  {
+    id: 'test-11th-cwt-10',
+    code: 'CWT-10',
+    dateStr: '2027-01-24',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-10: Oscillations & Waves, Hydrocarbons — Mastery, Plant Growth & Development, Animal Tissues & Frog / Supporting NEET Coverage',
+    description: 'Oscillations & Waves (Phy) + Hydrocarbons — mastery (Chem) + Plant Growth & Development (Bot) + Animal Tissues & Frog / supporting NEET unit coverage (Zoo)',
+    objective: 'SHM and wave motion, advanced hydrocarbon reactions, plant growth regulators, and frog anatomy.',
+    physicsUnit: 'Oscillations & Waves',
+    chemistryUnit: 'Hydrocarbons — mastery',
+    botanyBlock: 'Plant Growth & Development',
+    zoologyBlock: 'Animal Tissues & Frog / supporting NEET unit coverage',
+    physicsKeywords: ['Oscillations', 'Waves', 'Simple Harmonic Motion', 'SHM', 'Wave Motion'],
+    chemistryKeywords: ['Hydrocarbons', 'Alkanes', 'Alkenes', 'Alkynes', 'Aromatic Hydrocarbons'],
+    botanyKeywords: ['Plant Growth & Development', 'Plant Growth and Development'],
+    zoologyKeywords: ['Animal Tissues', 'Frog', 'Morphology and Anatomy of Frog', 'Structural Organisation in Animals'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 15. CWT-11: 07 Feb 2027
+  {
+    id: 'test-11th-cwt-11',
+    code: 'CWT-11',
+    dateStr: '2027-02-07',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-11: Class 11 Physics — NEET Mastery / Experimental Skills, Practical Chemistry, Botany & Zoology Mastery Revision',
+    description: 'Deliberate mastery/NEET-format reinforcement test so that no new chapter remains after 21 February 2027. Class 11 Physics (Experimental Skills) + Class 11 Practical Chemistry + Class 11 Botany Mastery + Class 11 Zoology Mastery.',
+    objective: 'NEET mastery and experimental/practical skills reinforcement across all 4 subjects.',
+    physicsUnit: 'Class 11 Physics — NEET mastery / Experimental Skills',
+    chemistryUnit: 'Class 11 Chemistry — NEET mastery / Practical Chemistry',
+    botanyBlock: 'Class 11 Botany — NEET mastery revision',
+    zoologyBlock: 'Class 11 Zoology — NEET mastery revision',
+    physicsKeywords: ['Experimental Skills', 'Units and Measurement', 'Kinematics', 'Laws of Motion', 'Work, Energy and Power', 'Rotational Motion', 'Gravitation', 'Properties of Solids & Liquids', 'Thermodynamics', 'Oscillations'],
+    chemistryKeywords: ['Practical Chemistry', 'Some Basic Concepts of Chemistry', 'Structure of Atom', 'Chemical Bonding', 'Thermodynamics', 'Equilibrium', 'Redox Reactions', 'Organic Chemistry - Some Basic Principles', 'Hydrocarbons'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Cell: The Unit of Life', 'Biomolecules', 'Photosynthesis', 'Respiration in Plants', 'Plant Growth & Development'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell Cycle & Cell Division', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products', 'Locomotion and Movement', 'Neural Control', 'Chemical Coordination', 'Animal Tissues'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 16. CUM-05: 14 Feb 2027
+  {
+    id: 'test-11th-cum-05',
+    code: 'CUM-05',
+    dateStr: '2027-02-14',
+    phase: 'Phase 1: Cumulative',
+    phaseGroup: 'cumulative',
+    title: 'CUM-05: Final Cumulative Checkpoint (CWT-01 to CWT-10 Complete Coverage)',
+    description: 'Final cumulative checkpoint before the last CWT on 21 February. Combines all CWT-01 to CWT-10 chapters across Physics, Chemistry, Botany, and Zoology.',
+    objective: 'Mixed NEET-level questions + error-analysis + NCERT-based revision. Final cumulative checkpoint before the last CWT on 21 February.',
+    physicsUnit: 'CWT-01 to CWT-10: Complete Class 11 Physics Units 1-10',
+    chemistryUnit: 'CWT-01 to CWT-10: Complete Class 11 Chemistry Units 1-9',
+    botanyBlock: 'CWT-01 to CWT-10: Complete Class 11 Botany Chapters 1-10',
+    zoologyBlock: 'CWT-01 to CWT-10: Complete Class 11 Zoology Chapters 1-10',
+    physicsKeywords: ['Units and Measurement', 'Kinematics', 'Laws of Motion', 'Work, Energy and Power', 'Rotational Motion', 'Gravitation', 'Properties of Solids & Liquids', 'Thermodynamics', 'Kinetic Theory of Gases', 'Oscillations & Waves'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Structure of Atom', 'Classification of Elements', 'Chemical Bonding', 'Thermodynamics', 'Equilibrium', 'Redox Reactions', 'Organic Chemistry - Some Basic Principles', 'Hydrocarbons'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Cell: The Unit of Life', 'Biomolecules', 'Photosynthesis in Plants', 'Respiration in Plants', 'Plant Growth & Development'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell Cycle & Cell Division', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products and their Elimination', 'Locomotion and Movement', 'Neural Control & Coordination', 'Chemical Coordination & Integration', 'Animal Tissues'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 17. CWT-12: 21 Feb 2027
+  {
+    id: 'test-11th-cwt-12',
+    code: 'CWT-12',
+    dateStr: '2027-02-21',
+    phase: 'Phase 1: Chapter-Wise',
+    phaseGroup: 'cwt',
+    title: 'CWT-12: Class 11 NEET Mastery & Experimental Skills Final Reinforcement',
+    description: 'Final deliberate mastery/NEET-format reinforcement test so that no new chapter remains after 21 February 2027. Full Class 11 syllabus coverage with experimental skills.',
+    objective: 'Final chapter mastery/reinforcement checkpoint so that no new chapter remains after 21 February 2027.',
+    physicsUnit: 'Class 11 Physics — NEET mastery / Experimental Skills',
+    chemistryUnit: 'Class 11 Chemistry — NEET mastery / Practical Chemistry',
+    botanyBlock: 'Class 11 Botany — NEET mastery revision',
+    zoologyBlock: 'Class 11 Zoology — NEET mastery revision',
+    physicsKeywords: ['Experimental Skills', 'Units and Measurement', 'Kinematics', 'Laws of Motion', 'Work, Energy and Power', 'Rotational Motion', 'Gravitation', 'Properties of Solids & Liquids', 'Thermodynamics', 'Oscillations'],
+    chemistryKeywords: ['Practical Chemistry', 'Some Basic Concepts of Chemistry', 'Structure of Atom', 'Chemical Bonding', 'Thermodynamics', 'Equilibrium', 'Redox Reactions', 'Organic Chemistry - Some Basic Principles', 'Hydrocarbons'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants', 'Anatomy of Flowering Plants', 'Cell: The Unit of Life', 'Biomolecules', 'Photosynthesis', 'Respiration in Plants', 'Plant Growth & Development'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell Cycle & Cell Division', 'Breathing and Exchange of Gases', 'Body Fluids and Circulation', 'Excretory Products', 'Locomotion and Movement', 'Neural Control', 'Chemical Coordination', 'Animal Tissues'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 18. FST-01: 28 Feb 2027
+  {
+    id: 'test-11th-fst-01',
+    code: 'FST-01',
+    dateStr: '2027-02-28',
+    phase: 'Phase 3: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FST-01: Complete Class 11 NEET Full Syllabus Benchmark Test 1',
+    description: 'Complete Class 11 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Baseline full-syllabus benchmark + identify weak chapters.',
+    objective: 'Baseline full-syllabus benchmark + identify weak chapters across complete Class 11 curriculum.',
+    physicsUnit: 'Complete Class 11 Physics (10 Units)',
+    chemistryUnit: 'Complete Class 11 Chemistry (9 Units)',
+    botanyBlock: 'Complete Class 11 Botany (10 Units)',
+    zoologyBlock: 'Complete Class 11 Zoology (10 Units)',
+    physicsKeywords: ['Class 11 Physics All Chapters'],
+    chemistryKeywords: ['Class 11 Chemistry All Chapters'],
+    botanyKeywords: ['Class 11 Botany All Chapters'],
+    zoologyKeywords: ['Class 11 Zoology All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 19. FST-02: 07 Mar 2027
+  {
+    id: 'test-11th-fst-02',
+    code: 'FST-02',
+    dateStr: '2027-03-07',
+    phase: 'Phase 3: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FST-02: Complete Class 11 NEET Full Syllabus Test 2 (Speed & Accuracy)',
+    description: 'Complete Class 11 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Time-management + accuracy + high-level NEET mixed practice.',
+    objective: 'Time-management + accuracy + high-level NEET mixed practice.',
+    physicsUnit: 'Complete Class 11 Physics (10 Units)',
+    chemistryUnit: 'Complete Class 11 Chemistry (9 Units)',
+    botanyBlock: 'Complete Class 11 Botany (10 Units)',
+    zoologyBlock: 'Complete Class 11 Zoology (10 Units)',
+    physicsKeywords: ['Class 11 Physics All Chapters'],
+    chemistryKeywords: ['Class 11 Chemistry All Chapters'],
+    botanyKeywords: ['Class 11 Botany All Chapters'],
+    zoologyKeywords: ['Class 11 Zoology All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  // 20. FST-03: 14 Mar 2027
+  {
+    id: 'test-11th-fst-03',
+    code: 'FST-03',
+    dateStr: '2027-03-14',
+    phase: 'Phase 3: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FST-03: Complete Class 11 NEET Grand Test 3 (Final Revision)',
+    description: 'Complete Class 11 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Final Class 11 grand test + final error-log revision.',
+    objective: 'Final Class 11 grand test + final error-log revision concluding the Class 11 Sunday test series.',
+    physicsUnit: 'Complete Class 11 Physics (10 Units)',
+    chemistryUnit: 'Complete Class 11 Chemistry (9 Units)',
+    botanyBlock: 'Complete Class 11 Botany (10 Units)',
+    zoologyBlock: 'Complete Class 11 Zoology (10 Units)',
+    physicsKeywords: ['Class 11 Physics All Chapters'],
+    chemistryKeywords: ['Class 11 Chemistry All Chapters'],
+    botanyKeywords: ['Class 11 Botany All Chapters'],
+    zoologyKeywords: ['Class 11 Zoology All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  }
+];
+
+export interface RevisionAnalysisBufferStage {
+  period: string;
+  action: string;
+  output: string;
+}
+
+/**
+ * REVISION & ANALYSIS BUFFER — 11 DEC 2026 TO 03 FEB 2027
+ * Post-mock error correction, structured weak-topic repair, and final readiness review.
+ */
+export const REVISION_ANALYSIS_BUFFER_12TH: RevisionAnalysisBufferStage[] = [
+  {
+    period: '11–20 Dec 2026',
+    action: 'Analyse all 5 mocks',
+    output: 'Subject/chapter error heatmap + rank trend'
+  },
+  {
+    period: '21–31 Dec 2026',
+    action: 'Weak-topic repair cycle 1',
+    output: 'NCERT revision + targeted MCQs'
+  },
+  {
+    period: '01–10 Jan 2027',
+    action: 'Weak-topic repair cycle 2',
+    output: 'Re-test weak chapters'
+  },
+  {
+    period: '11–20 Jan 2027',
+    action: 'Physics + Chemistry intensive revision',
+    output: 'Formula/reaction/error notebook'
+  },
+  {
+    period: '21–27 Jan 2027',
+    action: 'Botany + Zoology NCERT revision',
+    output: 'Line-by-line recall + MCQs'
+  },
+  {
+    period: '28 Jan–02 Feb 2027',
+    action: 'Full mixed revision',
+    output: 'Marked questions + repeated-error revision'
+  },
+  {
+    period: '03 Feb 2027',
+    action: 'Final readiness review',
+    output: 'Student report + next-phase study plan'
+  }
+];
+
+/**
+ * COMPLETE SYLLABUS TEST PLANNER FOR CLASS 12TH BATCH (Class 11 + Class 12)
+ * Window: 20 September 2026 – 03 February 2027
+ * 23 Total Tests: 8 Part-Wise (every 5 days), 10 Complete Syllabus (every 4 days), 5 NEET Mocks (every 2 days)
+ * + Structured Revision & Analysis Buffer through 03 Feb 2027.
+ */
+export const PLANNER_12TH_TESTS: SundayPlannerTest[] = [
+  // ==========================================
+  // PHASE 1: 8 PART-WISE TESTS (Every 5 Days)
+  // ==========================================
+  {
+    id: 'test-12th-part-01',
+    code: 'PART 1',
+    dateStr: '2026-09-20',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 1: Measurement, Kinematics, Laws of Motion, Basic Concepts, Living World, Animal Kingdom',
+    description: 'Physics (Measurement, Kinematics, Laws of Motion) + Chemistry (Basic Concepts, Atomic Structure, Periodicity) + Botany (Living World, Classification, Plant Kingdom, Morphology) + Zoology (Animal Kingdom, Structural Organisation, Cell)',
+    objective: 'Progressive coverage of complete Class 11 + 12 syllabus: Stage 1 foundational mechanics, basic chemistry, taxonomy, and animal diversity.',
+    physicsUnit: 'Measurement, Kinematics, Laws of Motion',
+    chemistryUnit: 'Basic Concepts, Atomic Structure, Periodicity',
+    botanyBlock: 'Living World, Classification, Plant Kingdom, Morphology',
+    zoologyBlock: 'Animal Kingdom, Structural Organisation, Cell',
+    physicsKeywords: ['Units and Measurement', 'Kinematics', 'Motion in One Dimension', 'Motion in a Plane', 'Laws of Motion'],
+    chemistryKeywords: ['Some Basic Concepts of Chemistry', 'Mole Concept', 'Structure of Atom', 'Classification of Elements'],
+    botanyKeywords: ['The Living World', 'Biological Classification', 'Plant Kingdom', 'Morphology of Flowering Plants'],
+    zoologyKeywords: ['Animal Kingdom', 'Structural Organisation in Animals', 'Cell: The Unit of Life'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-02',
+    code: 'PART 2',
+    dateStr: '2026-09-25',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 2: Work Energy & Rotation, Bonding & Thermodynamics, Plant Anatomy & Cell, Digestion & Breathing',
+    description: 'Physics (Work, Energy & Power; System of Particles & Rotation) + Chemistry (Chemical Bonding; States of Matter; Thermodynamics) + Botany (Anatomy; Cell; Biomolecules; Cell Division) + Zoology (Biomolecules; Digestion; Breathing)',
+    objective: 'Progressive coverage Stage 2: Rotational dynamics, thermodynamics & states of matter, cell biology, digestion & respiration.',
+    physicsUnit: 'Work, Energy & Power; System of Particles & Rotation',
+    chemistryUnit: 'Chemical Bonding; States of Matter; Thermodynamics',
+    botanyBlock: 'Anatomy; Cell; Biomolecules; Cell Division',
+    zoologyBlock: 'Biomolecules; Digestion; Breathing',
+    physicsKeywords: ['Work, Energy and Power', 'Rotational Motion', 'Moment of Inertia'],
+    chemistryKeywords: ['Chemical Bonding', 'States of Matter', 'Thermodynamics', 'Chemical Thermodynamics'],
+    botanyKeywords: ['Anatomy of Flowering Plants', 'Cell: The Unit of Life', 'Biomolecules', 'Cell Cycle & Cell Division'],
+    zoologyKeywords: ['Biomolecules', 'Breathing and Exchange of Gases', 'Digestion'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-03',
+    code: 'PART 3',
+    dateStr: '2026-09-30',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 3: Gravitation & Bulk Matter, Equilibrium & Redox, Plant Physiology, Circulation & Excretion',
+    description: 'Physics (Gravitation; Properties of Bulk Matter) + Chemistry (Equilibrium; Redox; official NEET inorganic topics) + Botany (Transport; Mineral Nutrition; Photosynthesis) + Zoology (Circulation; Excretion)',
+    objective: 'Progressive coverage Stage 3: Gravitation and fluid/bulk properties, chemical equilibria, photosynthesis and plant nutrition, human circulation & excretion.',
+    physicsUnit: 'Gravitation; Properties of Bulk Matter',
+    chemistryUnit: 'Equilibrium; Redox; official NEET inorganic topics',
+    botanyBlock: 'Transport; Mineral Nutrition; Photosynthesis',
+    zoologyBlock: 'Circulation; Excretion',
+    physicsKeywords: ['Gravitation', 'Mechanical Properties of Solids', 'Mechanical Properties of Fluids', 'Thermal Properties of Matter'],
+    chemistryKeywords: ['Equilibrium', 'Chemical Equilibrium', 'Ionic Equilibrium', 'Redox Reactions'],
+    botanyKeywords: ['Photosynthesis in Higher Plants', 'Photosynthesis in Plants', 'Transport in Plants', 'Mineral Nutrition'],
+    zoologyKeywords: ['Body Fluids and Circulation', 'Excretory Products and their Elimination'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-04',
+    code: 'PART 4',
+    dateStr: '2026-10-05',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 4: Thermal, KTG, Waves & SHM, Organic Basics & Hydrocarbons, Plant Growth, Locomotion & Control',
+    description: 'Physics (Thermodynamics; Kinetic Theory; Oscillations; Waves) + Chemistry (Organic Basics; Hydrocarbons; official practical/organic topics) + Botany (Respiration; Plant Growth & Development) + Zoology (Locomotion; Neural Control; Chemical Coordination)',
+    objective: 'Progressive coverage Stage 4: Thermal & wave physics, general organic chemistry & hydrocarbons, plant respiration & development, nervous & endocrine regulation.',
+    physicsUnit: 'Thermodynamics; Kinetic Theory; Oscillations; Waves',
+    chemistryUnit: 'Organic Basics; Hydrocarbons; official practical/organic topics',
+    botanyBlock: 'Respiration; Plant Growth & Development',
+    zoologyBlock: 'Locomotion; Neural Control; Chemical Coordination',
+    physicsKeywords: ['Thermodynamics', 'Kinetic Theory of Gases', 'Oscillations', 'Waves'],
+    chemistryKeywords: ['Organic Chemistry - Some Basic Principles', 'GOC', 'Hydrocarbons', 'Practical Chemistry'],
+    botanyKeywords: ['Respiration in Plants', 'Plant Growth & Development'],
+    zoologyKeywords: ['Locomotion and Movement', 'Neural Control & Coordination', 'Chemical Coordination & Integration'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-05',
+    code: 'PART 5',
+    dateStr: '2026-10-10',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 5: Electrostatics & Current, Physical Chem (Solutions, Electrochem, Kinetics), Genetics & Reproduction',
+    description: 'Physics (Electrostatics; Current Electricity) + Chemistry (Solutions; Electrochemistry; Chemical Kinetics) + Botany (Sexual Reproduction; Inheritance & Variation) + Zoology (Human Reproduction; Reproductive Health)',
+    objective: 'Progressive coverage Stage 5: Transition into Class 12 syllabus — electrodynamics, solutions and electrochemistry, Mendelian genetics and human reproduction.',
+    physicsUnit: 'Electrostatics; Current Electricity',
+    chemistryUnit: 'Solutions; Electrochemistry; Chemical Kinetics',
+    botanyBlock: 'Sexual Reproduction; Inheritance & Variation',
+    zoologyBlock: 'Human Reproduction; Reproductive Health',
+    physicsKeywords: ['Electrostatics', 'Current Electricity', 'Capacitance'],
+    chemistryKeywords: ['Solutions', 'Electrochemistry', 'Chemical Kinetics'],
+    botanyKeywords: ['Sexual Reproduction in Flowering Plants', 'Principles of Inheritance & Variation'],
+    zoologyKeywords: ['Human Reproduction', 'Reproductive Health'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-06',
+    code: 'PART 6',
+    dateStr: '2026-10-15',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 6: Magnetism & EMI, Inorganic (d/f Block, Coordination, p-Block), Molecular Genetics & Evolution, Health',
+    description: 'Physics (Moving Charges & Magnetism; Magnetism; EMI) + Chemistry (d/f Block; Coordination; official p-Block topics) + Botany (Molecular Basis of Inheritance; Evolution) + Zoology (Human Health & Disease; Food Production)',
+    objective: 'Progressive coverage Stage 6: Magnetic fields and electromagnetic induction, coordination chemistry and transition metals, molecular biology, human health and disease.',
+    physicsUnit: 'Moving Charges & Magnetism; Magnetism; EMI',
+    chemistryUnit: 'd/f Block; Coordination; official p-Block topics',
+    botanyBlock: 'Molecular Basis of Inheritance; Evolution',
+    zoologyBlock: 'Human Health & Disease; Food Production',
+    physicsKeywords: ['Moving Charges and Magnetism', 'Magnetism and Matter', 'Electromagnetic Induction'],
+    chemistryKeywords: ['d and f Block', 'Coordination Compounds', 'p-Block'],
+    botanyKeywords: ['Molecular Basis of Inheritance', 'Evolution'],
+    zoologyKeywords: ['Human Health and Disease', 'Strategies for Enhancement in Food Production'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-07',
+    code: 'PART 7',
+    dateStr: '2026-10-20',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 7: AC, EM Waves & Ray Optics, Organic (Halogens, Oxygen Derivatives), Microbes & Biotechnology',
+    description: 'Physics (AC; EM Waves; Ray Optics) + Chemistry (Haloalkanes; Alcohols/Phenols/Ethers; Carbonyl Compounds) + Botany (Microbes; Biotechnology Principles) + Zoology (Biotechnology Applications; Organisms & Populations)',
+    objective: 'Progressive coverage Stage 7: Alternating currents, optical instruments and rays, haloalkanes and carbonyl compounds, recombinant DNA principles & ecology.',
+    physicsUnit: 'AC; EM Waves; Ray Optics',
+    chemistryUnit: 'Haloalkanes; Alcohols/Phenols/Ethers; Carbonyl Compounds',
+    botanyBlock: 'Microbes; Biotechnology Principles',
+    zoologyBlock: 'Biotechnology Applications; Organisms & Populations',
+    physicsKeywords: ['Alternating Current', 'Electromagnetic Waves', 'Ray Optics'],
+    chemistryKeywords: ['Haloalkanes', 'Alcohols, Phenols and Ethers', 'Aldehydes, Ketones and Carboxylic Acids'],
+    botanyKeywords: ['Microbes in Human Welfare', 'Biotechnology: Principles & Processes'],
+    zoologyKeywords: ['Biotechnology and its Applications', 'Organisms and Populations'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-part-08',
+    code: 'PART 8',
+    dateStr: '2026-10-25',
+    phase: 'Phase 1: Part-Wise',
+    phaseGroup: 'part',
+    title: 'PART 8: Modern Physics & Electronics, Nitrogen Derivatives & Practical Chem, Ecology & Complete Biology Revision',
+    description: 'Physics (Wave Optics; Dual Nature; Atoms; Nuclei; Electronics) + Chemistry (Amines; Biomolecules; Practical Chemistry; remaining official topics) + Botany (Biotechnology Applications; Ecosystem; Biodiversity; Environment) + Zoology (Ecosystem; Biodiversity; Environment + complete Biology revision)',
+    objective: 'Progressive coverage Stage 8: Final part-wise test completing entire Class 11 + 12 syllabus scope before Full-Syllabus phase.',
+    physicsUnit: 'Wave Optics; Dual Nature; Atoms; Nuclei; Electronics',
+    chemistryUnit: 'Amines; Biomolecules; Practical Chemistry; remaining official topics',
+    botanyBlock: 'Biotechnology Applications; Ecosystem; Biodiversity; Environment',
+    zoologyBlock: 'Ecosystem; Biodiversity; Environment + complete Biology revision',
+    physicsKeywords: ['Wave Optics', 'Dual Nature of Radiation', 'Atoms', 'Nuclei', 'Semiconductor'],
+    chemistryKeywords: ['Amines', 'Biomolecules', 'Practical Chemistry'],
+    botanyKeywords: ['Biotechnology and its Applications', 'Ecosystem', 'Biodiversity and Conservation', 'Environmental Issues'],
+    zoologyKeywords: ['Ecosystem', 'Biodiversity and Conservation', 'Environmental Issues', 'Animal Kingdom'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+
+  // ==========================================
+  // PHASE 2: 10 COMPLETE-SYLLABUS TESTS (Every 4 Days)
+  // ==========================================
+  {
+    id: 'test-12th-full-01',
+    code: 'FULL-01',
+    dateStr: '2026-10-29',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-01: Complete Class 11 + 12 NEET Paper 1 (Baseline + Error Tagging)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Baseline benchmark + error tagging across all 4 subjects.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-02',
+    code: 'FULL-02',
+    dateStr: '2026-11-02',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-02: Complete Class 11 + 12 NEET Paper 2 (NCERT Retention + Physics Focus)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'NCERT retention + Physics numerical accuracy and conceptual clarity.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-03',
+    code: 'FULL-03',
+    dateStr: '2026-11-06',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-03: Complete Class 11 + 12 NEET Paper 3 (Chemistry Calculation & Reactions)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Chemistry calculation/reactions precision across Physical, Inorganic, and Organic Chemistry.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-04',
+    code: 'FULL-04',
+    dateStr: '2026-11-10',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-04: Complete Class 11 + 12 NEET Paper 4 (Biology Precision & NCERT Line-by-Line)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Biology precision (target 340+ in Botany + Zoology) and NCERT diagram recall.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-05',
+    code: 'FULL-05',
+    dateStr: '2026-11-14',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-05: Complete Class 11 + 12 NEET Paper 5 (Time Management & Pacing)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Time management training: complete Biology in 45m, Chemistry in 50m, Physics in 70m.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-06',
+    code: 'FULL-06',
+    dateStr: '2026-11-18',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-06: Complete Class 11 + 12 NEET Paper 6 (Negative-Mark Reduction Strategy)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Negative-mark reduction: strategic elimination and disciplined unattempted question protocol.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-07',
+    code: 'FULL-07',
+    dateStr: '2026-11-22',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-07: Complete Class 11 + 12 NEET Paper 7 (Weak-Chapter Reinforcement)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Weak-chapter reinforcement and diagnostic assessment of high-yield topics.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-08',
+    code: 'FULL-08',
+    dateStr: '2026-11-26',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-08: Complete Class 11 + 12 NEET Paper 8 (Mixed Difficulty Simulation)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Mixed difficulty stress test with tricky multi-statement and assertion-reason questions.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-09',
+    code: 'FULL-09',
+    dateStr: '2026-11-30',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-09: Complete Class 11 + 12 NEET Paper 9 (Rank Improvement Milestone)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Rank improvement and scoring consistency above 650+ mark threshold.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-full-10',
+    code: 'FULL-10',
+    dateStr: '2026-12-04',
+    phase: 'Phase 2: Full Syllabus',
+    phaseGroup: 'full',
+    title: 'FULL-10: Complete Class 11 + 12 NEET Paper 10 (Final Readiness Assessment)',
+    description: 'Complete Class 11 + 12 NEET Syllabus across Physics, Chemistry, Botany, and Zoology. Full-syllabus NEET-pattern paper.',
+    objective: 'Final readiness benchmark concluding Phase 2 complete-syllabus testing.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+
+  // ==========================================
+  // PHASE 3: 5 NEET MOCK TESTS (Every 2 Days)
+  // ==========================================
+  {
+    id: 'test-12th-mock-01',
+    code: 'NEET MOCK-01',
+    dateStr: '2026-12-10',
+    phase: 'Phase 3: NEET Mock',
+    phaseGroup: 'full',
+    title: 'NEET MOCK-01: All-India Examination Simulation 1',
+    description: 'Complete Class 11 + 12 NEET Examination Simulation. Mandatory analysis: score, subject analysis, chapter errors, accuracy, negative marks, rank/percentile.',
+    objective: 'Final examination simulation with comprehensive post-test mandatory analytics.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-mock-02',
+    code: 'NEET MOCK-02',
+    dateStr: '2026-12-12',
+    phase: 'Phase 3: NEET Mock',
+    phaseGroup: 'full',
+    title: 'NEET MOCK-02: All-India Examination Simulation 2',
+    description: 'Complete Class 11 + 12 NEET Examination Simulation. Mandatory analysis: score, subject analysis, chapter errors, accuracy, negative marks, rank/percentile.',
+    objective: 'Final examination simulation with comprehensive post-test mandatory analytics.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-mock-03',
+    code: 'NEET MOCK-03',
+    dateStr: '2026-12-14',
+    phase: 'Phase 3: NEET Mock',
+    phaseGroup: 'full',
+    title: 'NEET MOCK-03: All-India Examination Simulation 3',
+    description: 'Complete Class 11 + 12 NEET Examination Simulation. Mandatory analysis: score, subject analysis, chapter errors, accuracy, negative marks, rank/percentile.',
+    objective: 'Final examination simulation with comprehensive post-test mandatory analytics.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-mock-04',
+    code: 'NEET MOCK-04',
+    dateStr: '2026-12-16',
+    phase: 'Phase 3: NEET Mock',
+    phaseGroup: 'full',
+    title: 'NEET MOCK-04: All-India Examination Simulation 4',
+    description: 'Complete Class 11 + 12 NEET Examination Simulation. Mandatory analysis: score, subject analysis, chapter errors, accuracy, negative marks, rank/percentile.',
+    objective: 'Final examination simulation with comprehensive post-test mandatory analytics.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  },
+  {
+    id: 'test-12th-mock-05',
+    code: 'NEET MOCK-05',
+    dateStr: '2026-12-18',
+    phase: 'Phase 3: NEET Mock',
+    phaseGroup: 'full',
+    title: 'NEET MOCK-05: All-India Final Grand Rehearsal 5',
+    description: 'Complete Class 11 + 12 NEET Final Grand Simulation. Mandatory analysis: score, subject analysis, chapter errors, accuracy, negative marks, rank/percentile. Leads directly into Revision & Analysis Buffer.',
+    objective: 'Final examination simulation leading into the structured 7-stage Revision & Analysis Buffer through 03 Feb 2027.',
+    physicsUnit: 'Complete NEET Physics Syllabus (Class 11 + 12)',
+    chemistryUnit: 'Complete NEET Chemistry Syllabus (Class 11 + 12)',
+    botanyBlock: 'Complete NEET Botany Syllabus (Class 11 + 12)',
+    zoologyBlock: 'Complete NEET Zoology Syllabus (Class 11 + 12)',
+    physicsKeywords: ['All Chapters'],
+    chemistryKeywords: ['All Chapters'],
+    botanyKeywords: ['All Chapters'],
+    zoologyKeywords: ['All Chapters'],
+    totalQuestions: 180,
+    durationMinutes: 180,
+    totalMarks: 720
+  }
+];
+
+/**
+ * Official canonical NCERT Biology chapters split between Botany and Zoology
+ */
+export const BOTANY_NCERT_CHAPTERS = new Set([
+  'The Living World',
+  'Diversity in the Living World',
+  'Biological Classification',
+  'Plant Kingdom',
+  'Morphology of Flowering Plants',
+  'Anatomy of Flowering Plants',
+  'Cell: The Unit of Life',
+  'Biomolecules',
+  'Cell Cycle and Cell Division',
+  'Photosynthesis in Higher Plants',
+  'Respiration in Plants',
+  'Plant Growth and Development',
+  'Sexual Reproduction in Flowering Plants',
+  'Principles of Inheritance and Variation',
+  'Molecular Basis of Inheritance',
+  'Biotechnology: Principles and Processes',
+  'Organisms and Populations',
+  'Ecosystem',
+  'Biodiversity and Conservation'
+]);
+
+export const ZOOLOGY_NCERT_CHAPTERS = new Set([
+  'Animal Kingdom',
+  'Structural Organisation in Animals',
+  'Cell: The Unit of Life',
+  'Biomolecules',
+  'Cell Cycle and Cell Division',
+  'Breathing and Exchange of Gases',
+  'Body Fluids and Circulation',
+  'Excretory Products and their Elimination',
+  'Locomotion and Movement',
+  'Neural Control and Coordination',
+  'Chemical Coordination and Integration',
+  'Human Reproduction',
+  'Reproductive Health',
+  'Evolution',
+  'Human Health and Disease',
+  'Microbes in Human Welfare',
+  'Biotechnology and its Applications'
+]);
+
+/**
  * Filter questions from bank matching keywords with strict Botany/Zoology isolation
  */
-function filterQuestionsByKeywords(
+export function filterQuestionsByKeywords(
   bank: Question[],
   keywords: string[],
   subject?: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'
 ): Question[] {
-  if (keywords.includes('All Chapters') || keywords.length === 0) {
+  if (!keywords || keywords.length === 0 || keywords.includes('All Chapters') || keywords.some(k => k.toLowerCase().includes('all chapters'))) {
+    if (subject === 'Botany') {
+      return bank.filter(q => BOTANY_NCERT_CHAPTERS.has(q.chapter || ''));
+    }
+    if (subject === 'Zoology') {
+      return bank.filter(q => ZOOLOGY_NCERT_CHAPTERS.has(q.chapter || ''));
+    }
     return bank;
   }
 
-  // Pure Animal Kingdom direct bypass (guarantees authentic Allen Animal Kingdom questions)
-  if (keywords.some(k => k.toLowerCase().includes('animal kingdom'))) {
-    const akBank = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-    if (akBank.length > 0) return akBank;
-  }
-
-  // Pure The Living World direct bypass (guarantees authentic Diversity in Living World questions)
-  if (keywords.some(k => k.toLowerCase().includes('living world'))) {
-    const lwBank = getUnifiedQuestionBank('Biology', 'The Living World');
-    if (lwBank.length > 0) return lwBank;
+  // Pre-filter bank by subject discipline if Botany or Zoology
+  let scopedBank = bank;
+  if (subject === 'Botany') {
+    const bOnly = bank.filter(q => BOTANY_NCERT_CHAPTERS.has(q.chapter || ''));
+    if (bOnly.length > 0) scopedBank = bOnly;
+  } else if (subject === 'Zoology') {
+    const zOnly = bank.filter(q => ZOOLOGY_NCERT_CHAPTERS.has(q.chapter || ''));
+    if (zOnly.length > 0) scopedBank = zOnly;
   }
 
   const cleanKeywords = keywords.map(k =>
     k
       .replace(/^Unit \d+:\s*/i, '')
       .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
+      .replace(/^\d+\.\s*/, '')
       .toLowerCase()
       .trim()
   );
 
-  const matched = bank.filter(q => {
+  const matched = scopedBank.filter(q => {
     const qCh = (q.chapter || '').toLowerCase().trim();
     const qTopic = (q.topic || '').toLowerCase().trim();
     const normQCh = qCh.replace(/[^a-z0-9]/g, '');
@@ -868,22 +1917,15 @@ function filterQuestionsByKeywords(
     return cleanKeywords.some(kw => {
       const normKw = kw.replace(/[^a-z0-9]/g, '');
       if (normQCh && normKw && (normQCh.includes(normKw) || normKw.includes(normQCh))) return true;
-      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class'].includes(w));
+      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class', 'supporting', 'coverage'].includes(w));
       return kwWords.length > 0 && kwWords.every(w => qCh.includes(w) || qTopic.includes(w));
     });
   });
 
   if (matched.length > 0) return matched;
 
-  // Strict subject fallbacks to prevent Zoology ever getting Botany chapters
-  if (subject === 'Zoology') {
-    return getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-  }
-  if (subject === 'Botany') {
-    return getUnifiedQuestionBank('Biology', 'The Living World');
-  }
-
-  return bank;
+  // Safe subject fallback: return the entire scoped discipline bank rather than dumping to Living World or Animal Kingdom
+  return scopedBank;
 }
 
 
@@ -1065,6 +2107,73 @@ export const CANONICAL_NEET_CHEMISTRY_CHAPTERS: { name: string; keywords: string
 ];
 
 /**
+ * OFFICIAL CLASS 11 NEET CANONICAL CHAPTERS
+ * Strictly covers the official Class 11 scope (10 Physics units, 9 Chemistry units, 10 Botany units, 10 Zoology units)
+ * as prescribed in the NEET Class 11 Exam Test Planner.
+ */
+export const CLASS11_PHYSICS_CHAPTERS: { name: string; keywords: string[] }[] = [
+  { name: 'Units & Measurements', keywords: ['Units and Measurement', 'Units, Dimensions', 'Vectors', 'Experimental Skills'] },
+  { name: 'Kinematics', keywords: ['Kinematics', 'Motion in One Dimension', 'Motion in a Plane', 'Motion in a Straight Line'] },
+  { name: 'Laws of Motion', keywords: ['Laws of Motion', 'Friction', 'Newton'] },
+  { name: 'Work, Energy & Power', keywords: ['Work, Energy and Power', 'Work, Energy & Power', 'Work Energy Power'] },
+  { name: 'Rotational Motion', keywords: ['Rotational Motion', 'Moment of Inertia', 'Rigid Body'] },
+  { name: 'Gravitation', keywords: ['Gravitation', 'Kepler'] },
+  { name: 'Properties of Solids & Liquids', keywords: ['Mechanical Properties of Solids', 'Mechanical Properties of Fluids', 'Thermal Properties of Matter', 'Elasticity', 'Fluid Mechanics'] },
+  { name: 'Thermodynamics', keywords: ['Thermodynamics', 'Heat Engines'] },
+  { name: 'Kinetic Theory of Gases', keywords: ['Kinetic Theory of Gases', 'Kinetic Theory', 'KTG'] },
+  { name: 'Oscillations & Waves', keywords: ['Oscillations', 'Waves', 'Simple Harmonic Motion', 'SHM', 'Wave Motion'] }
+];
+
+export const CLASS11_CHEMISTRY_CHAPTERS: { name: string; keywords: string[] }[] = [
+  { name: 'Some Basic Concepts of Chemistry', keywords: ['Some Basic Concepts of Chemistry', 'Mole Concept'] },
+  { name: 'Structure of Atom', keywords: ['Structure of Atom', 'Atomic Structure'] },
+  { name: 'Classification of Elements & Periodicity', keywords: ['Classification of Elements', 'Periodic Table', 'Periodicity'] },
+  { name: 'Chemical Bonding & Molecular Structure', keywords: ['Chemical Bonding', 'Molecular Structure'] },
+  { name: 'Thermodynamics', keywords: ['Thermodynamics', 'Chemical Thermodynamics'] },
+  { name: 'Equilibrium', keywords: ['Equilibrium', 'Chemical Equilibrium', 'Ionic Equilibrium'] },
+  { name: 'Redox Reactions', keywords: ['Redox Reactions'] },
+  { name: 'Organic Chemistry: Basic Principles & Techniques', keywords: ['Organic Chemistry - Some Basic Principles', 'GOC', 'General Organic Chemistry'] },
+  { name: 'Hydrocarbons', keywords: ['Hydrocarbons', 'Alkanes', 'Alkenes', 'Alkynes', 'Aromatic Hydrocarbons'] }
+];
+
+export const CLASS11_BOTANY_CHAPTERS: { name: string; keywords: string[] }[] = [
+  { name: 'The Living World', keywords: ['The Living World', 'Diversity of Living World'] },
+  { name: 'Biological Classification', keywords: ['Biological Classification'] },
+  { name: 'Plant Kingdom', keywords: ['Plant Kingdom'] },
+  { name: 'Morphology of Flowering Plants', keywords: ['Morphology of Flowering Plants'] },
+  { name: 'Anatomy of Flowering Plants', keywords: ['Anatomy of Flowering Plants', 'Plant Anatomy'] },
+  { name: 'Cell: The Unit of Life', keywords: ['Cell: The Unit of Life', 'Cell: Structure & Function'] },
+  { name: 'Biomolecules', keywords: ['Biomolecules'] },
+  { name: 'Photosynthesis in Plants', keywords: ['Photosynthesis in Higher Plants', 'Photosynthesis in Plants', 'Photosynthesis'] },
+  { name: 'Respiration in Plants', keywords: ['Respiration in Plants'] },
+  { name: 'Plant Growth & Development', keywords: ['Plant Growth & Development', 'Plant Growth and Development'] }
+];
+
+export const CLASS11_ZOOLOGY_CHAPTERS: { name: string; keywords: string[] }[] = [
+  { name: 'Animal Kingdom', keywords: ['Animal Kingdom'] },
+  { name: 'Structural Organisation in Animals', keywords: ['Structural Organisation in Animals', 'Structural Organisation of Animals'] },
+  { name: 'Cell Cycle & Cell Division', keywords: ['Cell Cycle & Cell Division', 'Cell Cycle and Cell Division', 'Cell Division'] },
+  { name: 'Breathing & Exchange of Gases', keywords: ['Breathing and Exchange of Gases', 'Breathing & Exchange of Gases', 'Breathing & Respiration'] },
+  { name: 'Body Fluids & Circulation', keywords: ['Body Fluids and Circulation', 'Body Fluids & Circulation'] },
+  { name: 'Excretory Products & Elimination', keywords: ['Excretory Products and their Elimination', 'Excretory Products & Elimination'] },
+  { name: 'Locomotion & Movement', keywords: ['Locomotion and Movement', 'Locomotion & Movement'] },
+  { name: 'Neural Control & Coordination', keywords: ['Neural Control & Coordination', 'Neural Control and Coordination'] },
+  { name: 'Chemical Coordination & Integration', keywords: ['Chemical Coordination & Integration', 'Chemical Coordination and Integration'] },
+  { name: 'Animal Tissues & Frog / supporting NEET unit coverage', keywords: ['Animal Tissues', 'Frog', 'Morphology and Anatomy of Frog'] }
+];
+
+/**
+ * Preceding CWT mappings for 11th Batch Cumulative tests
+ */
+export const CUMULATIVE_PREV_CWTS_11TH: Record<string, string[]> = {
+  'CUM-01': ['CWT-01', 'CWT-02'],
+  'CUM-02': ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04'],
+  'CUM-03': ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04', 'CWT-05', 'CWT-06'],
+  'CUM-04': ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04', 'CWT-05', 'CWT-06', 'CWT-07', 'CWT-08'],
+  'CUM-05': ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04', 'CWT-05', 'CWT-06', 'CWT-07', 'CWT-08', 'CWT-09', 'CWT-10']
+};
+
+/**
  * Preceding CWT mappings for each Cumulative test
  */
 export const CUMULATIVE_PREV_CWTS: Record<string, string[]> = {
@@ -1075,252 +2184,139 @@ export const CUMULATIVE_PREV_CWTS: Record<string, string[]> = {
   'CUM-05': ['CWT-17', 'CWT-18', 'CWT-19']
 };
 
-/**
- * Generates Full Syllabus Mock Questions ensuring EVERY canonical chapter in Physics,
- * Chemistry, Botany, and Zoology is represented (45 Phys, 45 Chem, 45 Bot, 45 Zoo).
- */
-function generateFullSyllabusMockQuestions(
-  test: SundayPlannerTest,
-  advanceLoop: boolean,
-  batch: 'repeater' | '12th' | '11th',
-  usedDiagrams: Set<string>
-): Question[] {
-  const batchOffsetMult = batch === '12th' ? 0.35 : batch === '11th' ? 0.70 : 0;
-  const phyBank = getUnifiedQuestionBank('Physics');
-  const chemBank = getUnifiedQuestionBank('Chemistry');
-  const bioBank = getUnifiedQuestionBank('Biology');
+function getQuestionSignature(q: Question): string {
+  const txt = (q.questionText || (q as any).question || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  return txt.length >= 8 ? txt.slice(0, 100) : (q.id || txt);
+}
 
-  // 1. Physics: 45 Questions distributed across all 24 canonical NEET physics chapters
-  const pickedPhy: Question[] = [];
-  const numPhysCh = CANONICAL_NEET_PHYSICS_CHAPTERS.length;
-  for (let i = 0; i < numPhysCh; i++) {
-    const ch = CANONICAL_NEET_PHYSICS_CHAPTERS[i];
-    const qCount = i < 21 ? 2 : 1;
-    const pool = filterQuestionsByKeywords(phyBank, ch.keywords, 'Physics');
-    const chPool = pool.length > 0 ? pool : phyBank;
-    const offset = Math.floor(chPool.length * batchOffsetMult);
-    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
-    const qs = getSequentialLoopQuestions(
-      'Physics',
-      rotatedPool,
-      qCount,
-      `${batch}_${test.code}_phy_ch${i + 1}`,
-      advanceLoop,
-      usedDiagrams
-    );
-    pickedPhy.push(...qs);
+function matchKeywords(bank: Question[], keywords: string[]): Question[] {
+  if (!keywords || keywords.length === 0 || keywords.includes('All Chapters') || keywords.some(k => k.toLowerCase().includes('all chapters'))) {
+    return bank;
   }
+  const cleanKws = keywords.map(k =>
+    k
+      .replace(/^Unit \d+:\s*/i, '')
+      .replace(/^\[(Botany|Zoology)\]\s*\d*\.?\s*/i, '')
+      .replace(/^\d+\.\s*/, '')
+      .toLowerCase()
+      .trim()
+  );
 
-  // 2. Chemistry: 45 Questions distributed across all 23 canonical NEET chemistry chapters
-  const pickedChem: Question[] = [];
-  const numChemCh = CANONICAL_NEET_CHEMISTRY_CHAPTERS.length;
-  for (let i = 0; i < numChemCh; i++) {
-    const ch = CANONICAL_NEET_CHEMISTRY_CHAPTERS[i];
-    const qCount = i < 22 ? 2 : 1;
-    const pool = filterQuestionsByKeywords(chemBank, ch.keywords, 'Chemistry');
-    const chPool = pool.length > 0 ? pool : chemBank;
-    const offset = Math.floor(chPool.length * batchOffsetMult);
-    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
-    const qs = getSequentialLoopQuestions(
-      'Chemistry',
-      rotatedPool,
-      qCount,
-      `${batch}_${test.code}_chem_ch${i + 1}`,
-      advanceLoop,
-      usedDiagrams
-    );
-    pickedChem.push(...qs);
-  }
+  const matched = bank.filter(q => {
+    const qCh = (q.chapter || '').toLowerCase().trim();
+    const qTopic = (q.topic || '').toLowerCase().trim();
+    const normQCh = qCh.replace(/[^a-z0-9]/g, '');
 
-  // 3. Botany: 45 Questions distributed across all 20 official Botany blocks
-  const pickedBot: Question[] = [];
-  const numBotBlocks = OFFICIAL_BOTANY_BLOCKS.length;
-  for (let i = 0; i < numBotBlocks; i++) {
-    const block = OFFICIAL_BOTANY_BLOCKS[i];
-    const qCount = i < 5 ? 3 : 2;
-    let pool: Question[] = [];
-    if (block.toLowerCase().includes('living world')) {
-      pool = getUnifiedQuestionBank('Biology', 'The Living World');
-    } else {
-      pool = filterQuestionsByKeywords(bioBank, [block], 'Botany');
-    }
-    const chPool = pool.length > 0 ? pool : getUnifiedQuestionBank('Biology', 'The Living World');
-    const offset = Math.floor(chPool.length * batchOffsetMult);
-    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
-    const qs = getSequentialLoopQuestions(
-      'Biology',
-      rotatedPool,
-      qCount,
-      `${batch}_${test.code}_bot_b${i + 1}`,
-      advanceLoop,
-      usedDiagrams
-    ).map(q => ({
-      ...q,
-      tags: [...(q.tags || []).filter(t => t !== 'Zoology'), 'Botany']
-    }));
-    pickedBot.push(...qs);
-  }
+    return cleanKws.some(kw => {
+      const normKw = kw.replace(/[^a-z0-9]/g, '');
+      if (normQCh && normKw && (normQCh.includes(normKw) || normKw.includes(normQCh))) return true;
+      const kwWords = kw.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !['unit', 'chapter', 'part', 'test', 'class', 'supporting', 'coverage'].includes(w));
+      return kwWords.length > 0 && kwWords.every(w => qCh.includes(w) || qTopic.includes(w));
+    });
+  });
 
-  // 4. Zoology: 45 Questions distributed across all 20 official Zoology blocks
-  const pickedZoo: Question[] = [];
-  const numZooBlocks = OFFICIAL_ZOOLOGY_BLOCKS.length;
-  for (let i = 0; i < numZooBlocks; i++) {
-    const block = OFFICIAL_ZOOLOGY_BLOCKS[i];
-    const qCount = i < 5 ? 3 : 2;
-    let pool: Question[] = [];
-    if (block.toLowerCase().includes('animal kingdom')) {
-      pool = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-    } else {
-      pool = filterQuestionsByKeywords(bioBank, [block], 'Zoology');
-    }
-    const chPool = pool.length > 0 ? pool : getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-    const offset = Math.floor(chPool.length * batchOffsetMult);
-    const rotatedPool = chPool.length > 0 ? [...chPool.slice(offset), ...chPool.slice(0, offset)] : chPool;
-    const qs = getSequentialLoopQuestions(
-      'Biology',
-      rotatedPool,
-      qCount,
-      `${batch}_${test.code}_zoo_b${i + 1}`,
-      advanceLoop,
-      usedDiagrams
-    ).map(q => ({
-      ...q,
-      tags: [...(q.tags || []).filter(t => t !== 'Botany'), 'Zoology']
-    }));
-    pickedZoo.push(...qs);
-  }
+  return matched;
+}
 
-  return [...pickedPhy.slice(0, 45), ...pickedChem.slice(0, 45), ...pickedBot.slice(0, 45), ...pickedZoo.slice(0, 45)];
+// In-memory deterministic memoization cache for Sunday test papers
+const sundayBatchPaperCache = new Map<string, Question[]>();
+
+export function clearSundayBatchCache(): void {
+  sundayBatchPaperCache.clear();
 }
 
 /**
- * Generates Cumulative Test Questions ensuring 0% question overlap with preceding CWTs
- * and balanced distribution across all covered units.
+ * Generate a complete zero-repeat partition for all tests in a batch.
+ * Guarantees:
+ * 1. Exactly 180 questions per test (45 Physics, 45 Chemistry, 45 Botany, 45 Zoology).
+ * 2. 0 duplicate questions within any individual test.
+ * 3. 0 question overlap across all Sunday tests in the batch series.
+ * 4. All questions have difficulty: 'Hard'.
  */
-function generateCumulativeQuestions(
-  test: SundayPlannerTest,
-  advanceLoop: boolean,
-  batch: 'repeater' | '12th' | '11th',
-  usedDiagrams: Set<string>
-): Question[] {
-  const batchOffsetMult = batch === '12th' ? 0.35 : batch === '11th' ? 0.70 : 0;
-  const phyBank = getUnifiedQuestionBank('Physics');
-  const chemBank = getUnifiedQuestionBank('Chemistry');
-  const bioBank = getUnifiedQuestionBank('Biology');
+function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
+  const batchKeyPrefix = `${batch}_`;
+  const tests = batch === '11th'
+    ? SUNDAY_11TH_PLANNER_TESTS
+    : batch === '12th'
+    ? PLANNER_12TH_TESTS
+    : SUNDAY_DROPPER_PLANNER_TESTS;
 
-  const prevCwtCodes = CUMULATIVE_PREV_CWTS[test.code] || ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04'];
-  const prevTests = SUNDAY_DROPPER_PLANNER_TESTS.filter(t => prevCwtCodes.includes(t.code));
-
-  // Collect question signatures used by preceding CWTs in this batch
-  const cwtUsedTexts = new Set<string>();
-  for (const prev of prevTests) {
-    const pPool = filterQuestionsByKeywords(phyBank, prev.physicsKeywords, 'Physics');
-    const pOff = Math.floor(pPool.length * batchOffsetMult);
-    pPool.slice(pOff, pOff + 45).forEach(q => {
-      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
-      if (q.id) cwtUsedTexts.add(q.id);
-    });
-
-    const cPool = filterQuestionsByKeywords(chemBank, prev.chemistryKeywords, 'Chemistry');
-    const cOff = Math.floor(cPool.length * batchOffsetMult);
-    cPool.slice(cOff, cOff + 45).forEach(q => {
-      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
-      if (q.id) cwtUsedTexts.add(q.id);
-    });
-
-    const bPool = prev.botanyKeywords.some(k => k.toLowerCase().includes('living world'))
-      ? getUnifiedQuestionBank('Biology', 'The Living World')
-      : filterQuestionsByKeywords(bioBank, prev.botanyKeywords, 'Botany');
-    const bOff = Math.floor(bPool.length * batchOffsetMult);
-    bPool.slice(bOff, bOff + 45).forEach(q => {
-      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
-      if (q.id) cwtUsedTexts.add(q.id);
-    });
-
-    const zPool = prev.zoologyKeywords.some(k => k.toLowerCase().includes('animal kingdom'))
-      ? getUnifiedQuestionBank('Biology', 'Animal Kingdom')
-      : filterQuestionsByKeywords(bioBank, prev.zoologyKeywords, 'Zoology');
-    const zOff = Math.floor(zPool.length * batchOffsetMult);
-    zPool.slice(zOff, zOff + 45).forEach(q => {
-      cwtUsedTexts.add((q.questionText || (q as any).question || '').trim().toLowerCase());
-      if (q.id) cwtUsedTexts.add(q.id);
-    });
+  if (tests.length > 0 && sundayBatchPaperCache.has(`${batchKeyPrefix}${tests[0].code}`)) {
+    return;
   }
 
-  // Sample fresh questions with zero overlap across covered units
-  const sampleFreshUnits = (
-    subject: 'Physics' | 'Chemistry' | 'Biology',
-    bank: Question[],
-    units: string[],
-    isBotOrZoo?: 'Botany' | 'Zoology'
-  ): Question[] => {
-    const K = Math.max(1, units.length);
-    const perUnit = Math.floor(45 / K);
-    const remainder = 45 % K;
-    const result: Question[] = [];
+  const phyBank = getUnifiedQuestionBank('Physics');
+  const chemBank = getUnifiedQuestionBank('Chemistry');
+  const allBioBank = getUnifiedQuestionBank('Biology');
+  const botanyBank = allBioBank.filter(q => BOTANY_NCERT_CHAPTERS.has(q.chapter || ''));
+  const zoologyBank = allBioBank.filter(q => ZOOLOGY_NCERT_CHAPTERS.has(q.chapter || ''));
 
-    for (let uIdx = 0; uIdx < K; uIdx++) {
-      const uKeyword = units[uIdx];
-      const countForUnit = perUnit + (uIdx === K - 1 ? remainder : 0);
-      let rawPool: Question[] = [];
+  const usedInBatch = new Set<string>();
 
-      if (isBotOrZoo === 'Botany') {
-        rawPool = uKeyword.toLowerCase().includes('living world')
-          ? getUnifiedQuestionBank('Biology', 'The Living World')
-          : filterQuestionsByKeywords(bank, [uKeyword], 'Botany');
-      } else if (isBotOrZoo === 'Zoology') {
-        rawPool = uKeyword.toLowerCase().includes('animal kingdom')
-          ? getUnifiedQuestionBank('Biology', 'Animal Kingdom')
-          : filterQuestionsByKeywords(bank, [uKeyword], 'Zoology');
-      } else {
-        rawPool = filterQuestionsByKeywords(bank, [uKeyword], subject as any);
+  for (const t of tests) {
+    const paperSignatures = new Set<string>();
+    const paperQuestions: Question[] = [];
+
+    const pickCategory = (
+      subject: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology',
+      bank: Question[],
+      keywords: string[],
+      count: number
+    ) => {
+      const matched = matchKeywords(bank, keywords);
+      const candidates = matched.filter(q => !usedInBatch.has(getQuestionSignature(q)) && !paperSignatures.has(getQuestionSignature(q)));
+      const picked: Question[] = [];
+
+      for (const q of candidates) {
+        const sig = getQuestionSignature(q);
+        if (!usedInBatch.has(sig) && !paperSignatures.has(sig)) {
+          usedInBatch.add(sig);
+          paperSignatures.add(sig);
+          picked.push({
+            ...q,
+            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+            difficulty: 'Hard' as const
+          });
+          if (picked.length === count) break;
+        }
       }
 
-      // Strictly filter out questions consumed in earlier CWTs
-      let freshPool = rawPool.filter(q => {
-        const textKey = (q.questionText || (q as any).question || '').trim().toLowerCase();
-        return !cwtUsedTexts.has(textKey) && (!q.id || !cwtUsedTexts.has(q.id));
-      });
-
-      if (freshPool.length === 0) {
-        freshPool = rawPool.slice(45);
-        if (freshPool.length === 0) freshPool = rawPool;
+      if (picked.length < count) {
+        const fallback = bank.filter(q => !usedInBatch.has(getQuestionSignature(q)) && !paperSignatures.has(getQuestionSignature(q)));
+        for (const q of fallback) {
+          const sig = getQuestionSignature(q);
+          if (!usedInBatch.has(sig) && !paperSignatures.has(sig)) {
+            usedInBatch.add(sig);
+            paperSignatures.add(sig);
+            picked.push({
+              ...q,
+              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+              difficulty: 'Hard' as const
+            });
+            if (picked.length === count) break;
+          }
+        }
       }
 
-      const offset = Math.floor(freshPool.length * batchOffsetMult);
-      const rotated = freshPool.length > 0 ? [...freshPool.slice(offset), ...freshPool.slice(0, offset)] : freshPool;
+      return picked;
+    };
 
-      const picked = getSequentialLoopQuestions(
-        subject,
-        rotated,
-        countForUnit,
-        `${batch}_${test.code}_${subject}_u${uIdx + 1}`,
-        advanceLoop,
-        usedDiagrams
-      ).map(q => ({
-        ...q,
-        tags: isBotOrZoo ? [...(q.tags || []).filter(t => t !== (isBotOrZoo === 'Botany' ? 'Zoology' : 'Botany')), isBotOrZoo] : q.tags
-      }));
+    const phy = pickCategory('Physics', phyBank, t.physicsKeywords, 45);
+    const chem = pickCategory('Chemistry', chemBank, t.chemistryKeywords, 45);
+    const bot = pickCategory('Botany', botanyBank, t.botanyKeywords, 45);
+    const zoo = pickCategory('Zoology', zoologyBank, t.zoologyKeywords, 45);
 
-      result.push(...picked);
-    }
-
-    return result.slice(0, 45);
-  };
-
-  const pickedPhy = sampleFreshUnits('Physics', phyBank, test.physicsKeywords);
-  const pickedChem = sampleFreshUnits('Chemistry', chemBank, test.chemistryKeywords);
-  const pickedBot = sampleFreshUnits('Biology', bioBank, test.botanyKeywords, 'Botany');
-  const pickedZoo = sampleFreshUnits('Biology', bioBank, test.zoologyKeywords, 'Zoology');
-
-  return [...pickedPhy, ...pickedChem, ...pickedBot, ...pickedZoo];
+    paperQuestions.push(...phy, ...chem, ...bot, ...zoo);
+    sundayBatchPaperCache.set(`${batchKeyPrefix}${t.code}`, paperQuestions);
+  }
 }
 
 /**
  * Generate a complete 180-Question Sunday Mock Test (45 Physics, 45 Chemistry, 90 Biology)
- * strictly conforming to the prescribed calendar chapters without mixing unrelated chapters.
- * Utilizes round-robin sequential question loops, batch namespaces, zero CWT-cumulative overlap,
- * and comprehensive all-chapter coverage for Full Syllabus Tests.
+ * strictly conforming to the prescribed calendar chapters with ZERO duplicate questions
+ * and ZERO cross-paper overlap across the batch.
  */
 export function generateSundayTestQuestions(
   test: SundayPlannerTest,
@@ -1332,120 +2328,76 @@ export function generateSundayTestQuestions(
   if (!customChapters) {
     const saved = getSavedCustomSundayPaper(test.code);
     if (saved && Array.isArray(saved.questions) && saved.questions.length === 180) {
-      return saved.questions;
+      return saved.questions.map(q => ({ ...q, difficulty: 'Hard' as const }));
     }
   }
 
-  const usedDiagrams = new Set<string>();
+  // Handle custom chapter selection if provided
+  if (customChapters) {
+    const phyBank = getUnifiedQuestionBank('Physics');
+    const chemBank = getUnifiedQuestionBank('Chemistry');
+    const allBioBank = getUnifiedQuestionBank('Biology');
+    const botanyBank = allBioBank.filter(q => BOTANY_NCERT_CHAPTERS.has(q.chapter || ''));
+    const zoologyBank = allBioBank.filter(q => ZOOLOGY_NCERT_CHAPTERS.has(q.chapter || ''));
 
-  // If Full Syllabus Test or Part Test without custom chapters, use comprehensive all-chapter distribution
-  if (!customChapters && (test.phaseGroup === 'full' || test.code.startsWith('FST-') || test.code.startsWith('PART-'))) {
-    return generateFullSyllabusMockQuestions(test, advanceLoop, batch, usedDiagrams);
+    const paperSignatures = new Set<string>();
+    const pickCustom = (
+      subject: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology',
+      bank: Question[],
+      kws: string[],
+      count: number
+    ): Question[] => {
+      const matched = filterQuestionsByKeywords(bank, kws, subject);
+      const picked: Question[] = [];
+      for (const q of matched) {
+        const sig = getQuestionSignature(q);
+        if (!paperSignatures.has(sig)) {
+          paperSignatures.add(sig);
+          picked.push({
+            ...q,
+            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+            difficulty: 'Hard' as const
+          });
+          if (picked.length === count) break;
+        }
+      }
+      if (picked.length < count) {
+        for (const q of bank) {
+          const sig = getQuestionSignature(q);
+          if (!paperSignatures.has(sig)) {
+            paperSignatures.add(sig);
+            picked.push({
+              ...q,
+              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+              difficulty: 'Hard' as const
+            });
+            if (picked.length === count) break;
+          }
+        }
+      }
+      return picked;
+    };
+
+    const customBot = (customChapters.biology || []).filter(b => !b.startsWith('[Zoology]'));
+    const customZoo = (customChapters.biology || []).filter(b => b.startsWith('[Zoology]'));
+
+    const phy = pickCustom('Physics', phyBank, customChapters.physics || [], 45);
+    const chem = pickCustom('Chemistry', chemBank, customChapters.chemistry || [], 45);
+    const bot = pickCustom('Botany', botanyBank, customBot.length > 0 ? customBot : customChapters.biology || [], 45);
+    const zoo = pickCustom('Zoology', zoologyBank, customZoo.length > 0 ? customZoo : customChapters.biology || [], 45);
+    return [...phy, ...chem, ...bot, ...zoo];
   }
 
-  // If Cumulative Test without custom chapters, use zero-overlap cumulative generator
-  if (!customChapters && test.phaseGroup === 'cumulative') {
-    return generateCumulativeQuestions(test, advanceLoop, batch, usedDiagrams);
+  // Official Sunday Test from zero-overlap batch partition
+  ensureBatchPapersGenerated(batch);
+  const cached = sundayBatchPaperCache.get(`${batch}_${test.code}`);
+  if (cached && cached.length === 180) {
+    return cached;
   }
 
-  // Standard Chapter-Wise Test (CWT) or Custom Chapter Selection
-  const batchOffsetMult = batch === '12th' ? 0.35 : batch === '11th' ? 0.70 : 0;
-  const phyBank = getUnifiedQuestionBank('Physics');
-  const chemBank = getUnifiedQuestionBank('Chemistry');
-  const bioBank = getUnifiedQuestionBank('Biology');
-
-  // 1. Physics (45 Questions strictly from selected chapter pool)
-  const phyKeywords = customChapters?.physics && customChapters.physics.length > 0
-    ? customChapters.physics
-    : test.physicsKeywords;
-  const phyPoolRaw = filterQuestionsByKeywords(phyBank, phyKeywords, 'Physics');
-  const phyPool = phyPoolRaw.length > 0 ? phyPoolRaw : phyBank;
-  const phyOffset = Math.floor(phyPool.length * batchOffsetMult);
-  const phyRotated = phyPool.length > 0 ? [...phyPool.slice(phyOffset), ...phyPool.slice(0, phyOffset)] : phyPool;
-  const topicKeyPhy = phyKeywords.slice(0, 2).join('_');
-  const pickedPhy = getSequentialLoopQuestions(
-    'Physics',
-    phyRotated,
-    45,
-    `${batch}_${test.code}_phy_${topicKeyPhy}`,
-    advanceLoop,
-    usedDiagrams
-  );
-
-  // 2. Chemistry (45 Questions strictly from selected chapter pool)
-  const chemKeywords = customChapters?.chemistry && customChapters.chemistry.length > 0
-    ? customChapters.chemistry
-    : test.chemistryKeywords;
-  const chemPoolRaw = filterQuestionsByKeywords(chemBank, chemKeywords, 'Chemistry');
-  const chemPool = chemPoolRaw.length > 0 ? chemPoolRaw : chemBank;
-  const chemOffset = Math.floor(chemPool.length * batchOffsetMult);
-  const chemRotated = chemPool.length > 0 ? [...chemPool.slice(chemOffset), ...chemPool.slice(0, chemOffset)] : chemPool;
-  const topicKeyChem = chemKeywords.slice(0, 2).join('_');
-  const pickedChem = getSequentialLoopQuestions(
-    'Chemistry',
-    chemRotated,
-    45,
-    `${batch}_${test.code}_chem_${topicKeyChem}`,
-    advanceLoop,
-    usedDiagrams
-  );
-
-  // 3. Biology (90 Questions: 45 Botany + 45 Zoology strictly isolated)
-  const customBotChapters = customChapters?.biology
-    ? customChapters.biology.filter(b => b.startsWith('[Botany]') || !b.startsWith('[Zoology]')).map(b => b.replace('[Botany]', '').trim())
-    : [];
-  const customZooChapters = customChapters?.biology
-    ? customChapters.biology.filter(z => z.startsWith('[Zoology]')).map(z => z.replace('[Zoology]', '').trim())
-    : [];
-
-  const botKeywords = customBotChapters.length > 0 ? customBotChapters : test.botanyKeywords;
-  const zooKeywords = customZooChapters.length > 0 ? customZooChapters : test.zoologyKeywords;
-
-  let botPoolRaw: Question[] = [];
-  if (botKeywords.some(b => b.toLowerCase().includes('living world'))) {
-    botPoolRaw = getUnifiedQuestionBank('Biology', 'The Living World');
-  } else {
-    botPoolRaw = filterQuestionsByKeywords(bioBank, botKeywords, 'Botany');
-  }
-  const botPool = botPoolRaw.length > 0 ? botPoolRaw : getUnifiedQuestionBank('Biology', 'The Living World');
-  const botOffset = Math.floor(botPool.length * batchOffsetMult);
-  const botRotated = botPool.length > 0 ? [...botPool.slice(botOffset), ...botPool.slice(0, botOffset)] : botPool;
-  const topicKeyBot = botKeywords.slice(0, 2).join('_');
-
-  const pickedBot = getSequentialLoopQuestions(
-    'Biology',
-    botRotated,
-    45,
-    `${batch}_${test.code}_bot_${topicKeyBot}`,
-    advanceLoop,
-    usedDiagrams
-  ).map(q => ({
-    ...q,
-    tags: [...(q.tags || []).filter(t => t !== 'Zoology'), 'Botany']
-  }));
-
-  let zooPoolRaw: Question[] = [];
-  if (zooKeywords.some(z => z.toLowerCase().includes('animal kingdom'))) {
-    zooPoolRaw = getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-  } else {
-    zooPoolRaw = filterQuestionsByKeywords(bioBank, zooKeywords, 'Zoology');
-  }
-  const zooPool = zooPoolRaw.length > 0 ? zooPoolRaw : getUnifiedQuestionBank('Biology', 'Animal Kingdom');
-  const zooOffset = Math.floor(zooPool.length * batchOffsetMult);
-  const zooRotated = zooPool.length > 0 ? [...zooPool.slice(zooOffset), ...zooPool.slice(0, zooOffset)] : zooPool;
-  const topicKeyZoo = zooKeywords.slice(0, 2).join('_');
-
-  const pickedZoo = getSequentialLoopQuestions(
-    'Biology',
-    zooRotated,
-    45,
-    `${batch}_${test.code}_zoo_${topicKeyZoo}`,
-    advanceLoop,
-    usedDiagrams
-  ).map(q => ({
-    ...q,
-    tags: [...(q.tags || []).filter(t => t !== 'Botany'), 'Zoology']
-  }));
-
-  return [...pickedPhy, ...pickedChem, ...pickedBot, ...pickedZoo];
+  // Fallback if needed
+  ensureBatchPapersGenerated('repeater');
+  return sundayBatchPaperCache.get(`repeater_${test.code}`) || [];
 }

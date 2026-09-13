@@ -282,7 +282,8 @@ export function getUnifiedQuestionBank(subject?: 'Physics' | 'Chemistry' | 'Biol
     });
   }
 
-  return [...builtin, ...filteredCustom];
+  const combined = [...builtin, ...filteredCustom];
+  return combined.map(q => q.difficulty === 'Hard' ? q : { ...q, difficulty: 'Hard' as const });
 }
 
 /**
@@ -299,7 +300,7 @@ export function uploadCustomQuestions(newQuestions: Question[], sourceTag: strin
     subject: q.subject || 'Biology',
     chapter: q.chapter || 'General Chapter',
     topic: q.topic || 'High-Yield Core',
-    difficulty: q.difficulty || 'Medium',
+    difficulty: 'Hard' as const,
     questionText: q.questionText.trim(),
     options: q.options && q.options.length === 4 ? q.options : ['Option A', 'Option B', 'Option C', 'Option D'],
     correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : 0,
@@ -441,7 +442,7 @@ export function generateAiAugmentedBatch(subject: 'Physics' | 'Chemistry' | 'Bio
       subject,
       chapter,
       topic,
-      difficulty: i % 3 === 0 ? 'Hard' : i % 2 === 0 ? 'Medium' : 'Easy',
+      difficulty: 'Hard' as const,
       questionText: qText,
       options: opts,
       correctAnswer: ans,

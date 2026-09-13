@@ -4,10 +4,10 @@ export type TestCategory = 'minor' | 'major' | 'part' | 'full' | 'neet_mock' | '
 
 export interface Question {
   id: string;
-  subject: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics';
-  chapter: string;
-  topic: string;
-  difficulty: 'Easy' | 'Medium' | 'Hard';
+  subject?: 'Physics' | 'Chemistry' | 'Biology' | 'Mathematics';
+  chapter?: string;
+  topic?: string;
+  difficulty?: 'Easy' | 'Medium' | 'Hard';
   questionText: string;
   image?: string;
   diagramSvg?: string;
@@ -16,25 +16,27 @@ export interface Question {
   explanation: string;
   pyqYear?: number;
   tags?: string[];
+  [key: string]: any;
 }
 
 export interface TestItem {
   id: string;
   title: string;
-  category: TestCategory;
-  exam: ExamType;
-  syllabus: string;
-  totalQuestions: number;
+  category?: TestCategory;
+  exam?: ExamType;
+  syllabus?: string;
+  totalQuestions?: number;
   durationMinutes: number;
   totalMarks: number;
   negativeMarking: string;
   difficulty: 'Easy' | 'Medium' | 'Hard' | 'Mixed';
   scheduledDate?: string;
   cbtMode: boolean;
-  features: string[];
+  features?: string[];
   questions: Question[];
   enrolledStudentsCount?: number;
   avgScore?: number;
+  [key: string]: any;
 }
 
 export interface OnlineCourse {
@@ -80,6 +82,7 @@ export interface Flashcard {
   backKeyPoints: string[];
   mnemonic?: string;
   difficulty: 'Easy' | 'Medium' | 'Hard';
+  [key: string]: any;
 }
 
 export interface MindMapNode {
@@ -184,6 +187,7 @@ export interface UserTestResult {
   previousScore?: number;
   changeFromPrevious?: number;
   dateStr?: string;
+  isCustomTest?: boolean;
   chapterAnalytics?: {
     chapter: string;
     subject: string;

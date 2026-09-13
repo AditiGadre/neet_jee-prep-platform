@@ -2425,15 +2425,9 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     "questionText": "Dimensional formula for volume elasticity (Bulk Modulus) is:",
     "options": [
       "[M¹L⁻²T⁻²]",
-      [
-        "[M¹L⁻³T⁻²]"
-      ],
-      [
-        "[M¹L²T⁻²]"
-      ],
-      [
-        "[M¹L⁻¹T⁻²]"
-      ]
+      "[M¹L⁻³T⁻²]",
+      "[M¹L²T⁻²]",
+      "[M¹L⁻¹T⁻²]"
     ],
     "correctAnswer": 3,
     "explanation": "📘 **NCERT Concept**: $\\text{Bulk Modulus} K = -V \\frac{dP}{dV} = [\\text{ML}^{-1}\\text{T}^{-2}]$.",
@@ -2453,12 +2447,8 @@ export const UNITS_BOOK_QUESTIONS: Question[] = [
     "options": [
       "[M⁻²L²T⁻²]",
       "[M⁻¹L³T⁻²]",
-      [
-        "[ML⁻¹T⁻²]"
-      ],
-      [
-        "[ML²T⁻²]"
-      ]
+      "[ML⁻¹T⁻²]",
+      "[ML²T⁻²]"
     ],
     "correctAnswer": 1,
     "explanation": "📘 **NCERT Concept**: $G = \\frac{Fr^2}{m^2} = \\frac{[\\text{MLT}^{-2}][\\text{L}^2]}{[\\text{M}^2]} = [\\text{M}^{-1}\\text{L}^3\\text{T}^{-2}]$.",

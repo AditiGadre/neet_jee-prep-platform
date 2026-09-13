@@ -66,6 +66,8 @@ import { SAMPLE_QUESTIONS } from '../data/mockData';
 import { StudentUnlockRequest, getStoredUnlockRequests } from './SuperUserModal';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_11TH_PLANNER_TESTS,
+  PLANNER_12TH_TESTS,
   SundayPlannerTest,
   generateSundayTestQuestions,
   OFFICIAL_PHYSICS_UNITS,
@@ -147,7 +149,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [customSubject, setCustomSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Biology');
   const [customChapter, setCustomChapter] = useState<string>('Molecular Basis of Inheritance');
   const [customTopic, setCustomTopic] = useState<string>('All Topics');
-  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Both' | 'Adaptive'>('Both');
+  const [customDifficulty, setCustomDifficulty] = useState<'Easy' | 'Medium' | 'Hard' | 'Both' | 'Adaptive'>('Hard');
   const [customDuration, setCustomDuration] = useState<number>(45);
   const [customQCount, setCustomQCount] = useState<number>(45);
   const [consumptionVersion, setConsumptionVersion] = useState<number>(0);
@@ -304,7 +306,16 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         ...OFFICIAL_ZOOLOGY_BLOCKS.slice(5).map(z => `[Zoology] ${z}`)
       ]);
     } else {
-      const planner = SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === presetKey.toLowerCase());
+      const is11th = presetKey.toLowerCase().startsWith('11th-');
+      const is12th = presetKey.toLowerCase().startsWith('12th-');
+      const cleanKey = presetKey.replace(/^(11th|12th)-/i, '').toLowerCase();
+      const planner = is11th
+        ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || SUNDAY_11TH_PLANNER_TESTS[0])
+        : is12th
+        ? (PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey) || PLANNER_12TH_TESTS[0])
+        : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || SUNDAY_11TH_PLANNER_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey)
+          || PLANNER_12TH_TESTS.find(t => t.id === presetKey || t.code.toLowerCase() === cleanKey));
       if (planner) {
         const phyMatch = OFFICIAL_PHYSICS_UNITS.filter(u =>
           planner.physicsUnit.toLowerCase().includes(u.split(':')[0].toLowerCase()) ||
@@ -343,8 +354,18 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         if (saved.customChapters.biology?.length) setSundayBioUnits(saved.customChapters.biology);
       }
     } else {
-      const planner = SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === paperCode.toUpperCase()) || SUNDAY_DROPPER_PLANNER_TESTS[0];
-      const defaultQuestions = generateSundayTestQuestions(planner, undefined, false);
+      const is11th = paperCode.toLowerCase().startsWith('11th-');
+      const is12th = paperCode.toLowerCase().startsWith('12th-');
+      const cleanCode = paperCode.replace(/^(11th|12th)-/i, '').toUpperCase();
+      const planner = is11th
+        ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || SUNDAY_11TH_PLANNER_TESTS[0])
+        : is12th
+        ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode || t.id === paperCode) || PLANNER_12TH_TESTS[0])
+        : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+          || SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+          || PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode)
+          || SUNDAY_DROPPER_PLANNER_TESTS[0]);
+      const defaultQuestions = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
       setSundayQuestions(defaultQuestions);
     }
     setStudioPage(1);
@@ -375,8 +396,15 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const handleResetSelectedPaperToDefault = () => {
     deleteCustomSundayPaper(selectedPlannerPreset);
     handleApplyPreset(selectedPlannerPreset);
-    const planner = SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === selectedPlannerPreset.toUpperCase()) || SUNDAY_DROPPER_PLANNER_TESTS[0];
-    const defaultQs = generateSundayTestQuestions(planner, undefined, false);
+    const is11th = selectedPlannerPreset.toLowerCase().startsWith('11th-');
+    const is12th = selectedPlannerPreset.toLowerCase().startsWith('12th-');
+    const cleanCode = selectedPlannerPreset.replace(/^(11th|12th)-/i, '').toUpperCase();
+    const planner = is11th
+      ? (SUNDAY_11TH_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode) || SUNDAY_11TH_PLANNER_TESTS[0])
+      : is12th
+      ? (PLANNER_12TH_TESTS.find(t => t.code.toUpperCase() === cleanCode) || PLANNER_12TH_TESTS[0])
+      : (SUNDAY_DROPPER_PLANNER_TESTS.find(t => t.code.toUpperCase() === cleanCode) || SUNDAY_DROPPER_PLANNER_TESTS[0]);
+    const defaultQs = generateSundayTestQuestions(planner, undefined, false, is11th ? '11th' : is12th ? '12th' : 'repeater');
     setSundayQuestions(defaultQs);
     setActionSuccessBanner(`✓ Paper ${selectedPlannerPreset.toUpperCase()} reset to standard planner default.`);
     setTimeout(() => setActionSuccessBanner(null), 3000);
@@ -413,7 +441,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     const phy45: Question[] = [];
     for (let i = 0; i < 45; i++) {
       const q = randPhy[i % randPhy.length];
-      const hardDiag = (q.difficulty === 'Hard' || q.difficulty === 'hard') ? getHardPhysicsDiagram(q) : null;
+      const hardDiag = (q.difficulty === 'Hard') ? getHardPhysicsDiagram(q) : null;
       phy45.push({
         ...q,
         id: `sunday-phy-${i + 1}-${q.id}`,
@@ -509,7 +537,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
     if (!replacement) return;
 
-    const hardDiag = (replacement.difficulty === 'Hard' || replacement.difficulty === 'hard') && sub === 'Physics'
+    const hardDiag = (replacement.difficulty === 'Hard') && sub === 'Physics'
       ? getHardPhysicsDiagram(replacement)
       : null;
 
@@ -1276,10 +1304,52 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                         </option>
                       ))}
                     </optgroup>
-                    <optgroup label="Phase 3: Full Syllabus Tests (FST 01 - 06)">
+                    <optgroup label="Dropper Phase 3: Full Syllabus Tests (FST 01 - 06)">
                       {SUNDAY_DROPPER_PLANNER_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
                         <option key={t.code} value={t.code}>
                           {t.code}: {t.title.split(':')[1]?.trim().slice(0, 42) || t.title.slice(0, 42)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 11 Foundation: Chapter-Wise Tests (CWT 01 - 12) ──">
+                      {SUNDAY_11TH_PLANNER_TESTS.filter(t => t.phaseGroup === 'cwt').map(t => (
+                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                          11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 11 Foundation: Cumulative Tests (CUM 01 - 05) ──">
+                      {SUNDAY_11TH_PLANNER_TESTS.filter(t => t.phaseGroup === 'cumulative').map(t => (
+                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                          11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 11 Foundation: Full Syllabus (FST 01 - 03) ──">
+                      {SUNDAY_11TH_PLANNER_TESTS.filter(t => t.phaseGroup === 'full').map(t => (
+                        <option key={`11TH-${t.code}`} value={`11TH-${t.code}`}>
+                          11th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 12 Batch: Phase 1 Part-Wise (PART 1 - 8) ──">
+                      {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('PART')).map(t => (
+                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                          12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 12 Batch: Phase 2 Complete Syllabus (FULL 01 - 10) ──">
+                      {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('FULL-')).map(t => (
+                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                          12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="── Class 12 Batch: Phase 3 NEET Mocks (01 - 05) ──">
+                      {PLANNER_12TH_TESTS.filter(t => t.code.startsWith('NEET MOCK')).map(t => (
+                        <option key={`12TH-${t.code}`} value={`12TH-${t.code}`}>
+                          12th {t.code}: {t.title.split(':')[1]?.trim().slice(0, 40) || t.title.slice(0, 40)}
                         </option>
                       ))}
                     </optgroup>

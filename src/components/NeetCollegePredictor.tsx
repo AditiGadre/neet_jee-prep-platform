@@ -103,31 +103,109 @@ export const CATEGORY_OPTIONS = [
   { value: 'ORPHAN', label: 'Orphan Quota (ORPHAN / ORPHANC)', group: 'Special' },
 ];
 
-export const NeetCollegePredictor: React.FC = () => {
+export interface NeetCollegePredictorProps {
+  initialScore?: number;
+  initialAir?: number;
+  initialCategory?: string;
+  initialGender?: 'Female' | 'Male' | 'Third Gender' | 'ALL';
+  initialSpecialReservation?: string;
+  candidateName?: string;
+  rollNumber?: string;
+  isInsideScorecard?: boolean;
+}
+
+export const NeetCollegePredictor: React.FC<NeetCollegePredictorProps> = ({
+  initialScore,
+  initialAir,
+  initialCategory,
+  initialGender,
+  initialSpecialReservation,
+  candidateName,
+  rollNumber,
+  isInsideScorecard = false
+}) => {
+  // Normalize initial category from student enrollment
+  const resolvedCategory = useMemo(() => {
+    if (!initialCategory) return 'OPEN';
+    const c = initialCategory.toUpperCase();
+    if (c.includes('OBC')) return 'OBC';
+    if (c.includes('EWS')) return 'EWS';
+    if (c.includes('SEBC')) return 'SEBC';
+    if (c.includes('SC')) return 'SC';
+    if (c.includes('ST')) return 'ST';
+    if (c.includes('NT-A') || c.includes('VJ')) return 'VJ';
+    if (c.includes('NT-B') || c.includes('NT1') || c.includes('NTB')) return 'NTB';
+    if (c.includes('NT-C') || c.includes('NT2') || c.includes('NTC')) return 'NTC';
+    if (c.includes('NT-D') || c.includes('NT3') || c.includes('NTD')) return 'NTD';
+    if (c.includes('PWD') || c.includes('DISABILITY')) return 'PWD';
+    if (c.includes('DEF')) return 'DEF';
+    if (c.includes('MKB')) return 'MKB';
+    if (c.includes('ORPHAN')) return 'ORPHAN';
+    return 'OPEN';
+  }, [initialCategory]);
+
+  const defaultGender = useMemo<'ALL' | 'FEMALE' | 'MALE'>(() => {
+    if (initialGender === 'Female') return 'FEMALE';
+    if (initialGender === 'Male') return 'MALE';
+    return 'ALL';
+  }, [initialGender]);
+
+  const initScore = initialScore !== undefined ? initialScore : 650;
+  const initAir = initialAir !== undefined && initialAir > 0 ? initialAir : (initialScore !== undefined && initialScore > 0 ? estimateRankFromScore(initialScore) : 28500);
+
   // Input states
-  const [inputMode, setInputMode] = useState<'rank' | 'score'>('rank');
-  const [rankInput, setRankInput] = useState<string>('28500');
-  const [scoreInput, setScoreInput] = useState<string>('650');
+  const [inputMode, setInputMode] = useState<'rank' | 'score'>(initialAir ? 'rank' : 'score');
+  const [rankInput, setRankInput] = useState<string>(String(initAir));
+  const [scoreInput, setScoreInput] = useState<string>(String(initScore));
   const [selectedCourse, setSelectedCourse] = useState<'ALL' | 'MBBS' | 'BDS'>('ALL');
-  const [selectedCategory, setSelectedCategory] = useState<string>('OPEN');
-  const [gender, setGender] = useState<'ALL' | 'FEMALE' | 'MALE'>('ALL');
+  const [selectedCategory, setSelectedCategory] = useState<string>(resolvedCategory);
+  const [gender, setGender] = useState<'ALL' | 'FEMALE' | 'MALE'>(defaultGender);
   const [includeOpenMerit, setIncludeOpenMerit] = useState<boolean>(true);
   const [selectedRound, setSelectedRound] = useState<'ALL' | 'Round 1' | 'Round 2' | 'Round 3'>('ALL');
   const [collegeTypeFilter, setCollegeTypeFilter] = useState<'ALL' | 'GOVT' | 'PRIVATE'>('ALL');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [missedToleranceRanks, setMissedToleranceRanks] = useState<number>(20000);
 
+  React.useEffect(() => {
+    if (initialScore !== undefined) {
+      setScoreInput(String(initialScore));
+      if (initialAir && initialAir > 0) {
+        setRankInput(String(initialAir));
+      } else if (initialScore > 0) {
+        setRankInput(String(estimateRankFromScore(initialScore)));
+      } else {
+        setRankInput('0');
+      }
+    }
+    if (resolvedCategory) {
+      setSelectedCategory(resolvedCategory);
+    }
+    if (defaultGender) {
+      setGender(defaultGender);
+    }
+  }, [initialScore, initialAir, resolvedCategory, defaultGender]);
+
   // Active user AIR
   const userAir = useMemo(() => {
     if (inputMode === 'rank') {
       const r = parseInt(rankInput.replace(/\D/g, ''), 10);
-      return isNaN(r) || r <= 0 ? 1 : r;
+      return isNaN(r) || r <= 0 ? 0 : r;
     } else {
       const s = parseInt(scoreInput.replace(/\D/g, ''), 10);
-      if (isNaN(s) || s <= 0) return 1;
+      if (isNaN(s) || s <= 0) return 0;
       return estimateRankFromScore(Math.min(720, s));
     }
   }, [inputMode, rankInput, scoreInput]);
+
+  const activeScore = useMemo(() => {
+    if (inputMode === 'score') {
+      const s = parseInt(scoreInput.replace(/\D/g, ''), 10);
+      return isNaN(s) ? 0 : s;
+    } else {
+      if (userAir <= 0) return 0;
+      return estimateScoreFromRank(userAir);
+    }
+  }, [inputMode, scoreInput, userAir]);
 
   // Handle Score Change
   const handleScoreChange = (val: string) => {
@@ -136,6 +214,8 @@ export const NeetCollegePredictor: React.FC = () => {
     if (!isNaN(s) && s > 0) {
       const estRank = estimateRankFromScore(Math.min(720, s));
       setRankInput(String(estRank));
+    } else {
+      setRankInput('0');
     }
   };
 
@@ -146,11 +226,27 @@ export const NeetCollegePredictor: React.FC = () => {
     if (!isNaN(r) && r > 0) {
       const estScore = estimateScoreFromRank(r);
       setScoreInput(String(estScore));
+    } else {
+      setScoreInput('0');
     }
   };
 
   // Filter and compute cleared vs close-not-cleared
   const { clearedList, closeList, stats } = useMemo(() => {
+    if (userAir <= 0 || activeScore <= 0) {
+      return {
+        clearedList: [],
+        closeList: [],
+        stats: {
+          totalCleared: 0,
+          govtMbbsCleared: 0,
+          pvtMbbsCleared: 0,
+          bdsCleared: 0,
+          closeCount: 0
+        }
+      };
+    }
+
     const cleared: Array<NeetCutoffEntry & { margin: number; probability: 'HIGH' | 'MODERATE' | 'BORDERLINE' }> = [];
     const close: Array<NeetCutoffEntry & { margin: number }> = [];
 
@@ -281,7 +377,7 @@ export const NeetCollegePredictor: React.FC = () => {
   };
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto p-2 sm:p-4 lg:p-6 text-slate-100 animate-in fade-in duration-300">
+    <div className={`space-y-6 ${isInsideScorecard ? 'w-full text-slate-100' : 'max-w-7xl mx-auto p-2 sm:p-4 lg:p-6 text-slate-100'} animate-in fade-in duration-300`}>
       {/* 1. Header Banner & Mandatory Step 3 Caveats */}
       <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
         <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
@@ -291,11 +387,23 @@ export const NeetCollegePredictor: React.FC = () => {
               <Sparkles className="w-3.5 h-3.5" />
               <span>Official Maharashtra State CET Cell CAP 2025-26 & 2024-25 Dataset</span>
             </div>
-            <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-              NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">College Predictor</span>
-            </h1>
+            <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
+              {isInsideScorecard ? (
+                <>SECTION 7: Predicted Medical Colleges & Seat Allotment Forecaster</>
+              ) : (
+                <>NEET MBBS & BDS <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">College Predictor</span></>
+              )}
+            </h2>
             <p className="text-sm text-slate-300 max-w-3xl">
-              Instant cut-off margin calculator powered by <strong>6,995 verified provisional selection entries</strong> across Maharashtra Government, Municipal, and Private Medical/Dental Colleges.
+              {isInsideScorecard ? (
+                <>
+                  Admission eligibility mapped dynamically from your test score of <strong className="text-cyan-400 font-mono">{activeScore}/720 Marks</strong> (Simulated AIR: <strong className="text-emerald-400 font-mono">#{userAir > 0 ? userAir.toLocaleString() : 'N/A'}</strong>) for candidate <strong className="text-white">{candidateName || 'Aspirant'}</strong> across <strong>6,995 verified provisional selection entries</strong>.
+                </>
+              ) : (
+                <>
+                  Instant cut-off margin calculator powered by <strong>6,995 verified provisional selection entries</strong> across Maharashtra Government, Municipal, and Private Medical/Dental Colleges.
+                </>
+              )}
             </p>
           </div>
 
@@ -571,10 +679,18 @@ export const NeetCollegePredictor: React.FC = () => {
           </div>
         </div>
 
-        {clearedList.length === 0 ? (
+        {activeScore <= 0 || userAir <= 0 ? (
           <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 text-center space-y-3">
             <AlertCircle className="w-8 h-8 text-amber-400 mx-auto" />
-            <p className="text-sm font-bold text-white">No college cutoffs cleared for AIR {userAir.toLocaleString()} under current filters.</p>
+            <p className="text-sm font-bold text-white">No Medical Colleges Allotted (Current Score: 0 Marks)</p>
+            <p className="text-xs text-slate-400 max-w-md mx-auto leading-relaxed">
+              Candidates scoring 0 or negative marks are not eligible for medical college seat allotment in State CAP counselling. Review test solutions and attempt more questions in your next CBT test to generate real-time college predictions.
+            </p>
+          </div>
+        ) : clearedList.length === 0 ? (
+          <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 text-center space-y-3">
+            <AlertCircle className="w-8 h-8 text-amber-400 mx-auto" />
+            <p className="text-sm font-bold text-white">No college cutoffs cleared for AIR #{userAir.toLocaleString()} under current filters.</p>
             <p className="text-xs text-slate-400 max-w-md mx-auto">
               Try adjusting your category filter, changing to BDS, including Institutional Quota (I.Q.), or checking the "Close But Not Cleared" list below.
             </p>
@@ -703,7 +819,11 @@ export const NeetCollegePredictor: React.FC = () => {
           These colleges closed slightly ahead of your rank. If later counseling rounds drift or seats open in mop-up/stray rounds, you have high upgrade viability here.
         </p>
 
-        {closeList.length === 0 ? (
+        {activeScore <= 0 || userAir <= 0 ? (
+          <div className="bg-slate-900/40 border border-slate-800/80 rounded-2xl p-6 text-center text-xs text-slate-500">
+            Close-miss watchlist unlocks when you achieve a positive score in your CBT mock test.
+          </div>
+        ) : closeList.length === 0 ? (
           <div className="bg-slate-900/40 border border-slate-800/80 rounded-2xl p-6 text-center text-xs text-slate-500">
             No near-miss colleges within the selected {missedToleranceRanks.toLocaleString()} rank margin.
           </div>

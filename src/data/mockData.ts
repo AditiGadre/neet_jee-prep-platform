@@ -247,7 +247,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     scheduledDate: '2026-09-06',
     cbtMode: true,
     features: [
@@ -268,7 +268,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     scheduledDate: '2026-09-13',
     cbtMode: true,
     features: [
@@ -331,7 +331,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     scheduledDate: '2026-10-04',
     cbtMode: true,
     features: [
@@ -352,7 +352,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     scheduledDate: '2026-10-11',
     cbtMode: true,
     features: [
@@ -394,7 +394,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     scheduledDate: '2026-10-25',
     cbtMode: true,
     features: [
@@ -415,7 +415,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     scheduledDate: '2026-11-01',
     cbtMode: true,
     features: [
@@ -503,7 +503,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH01_MCQS)
@@ -518,7 +518,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH02_MCQS)
@@ -533,7 +533,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH03_MCQS)
@@ -548,7 +548,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH04_MCQS)
@@ -563,7 +563,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH05_MCQS)
@@ -578,7 +578,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH06_MCQS)
@@ -593,7 +593,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH07_MCQS)
@@ -608,7 +608,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH08_MCQS)
@@ -623,7 +623,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH09_MCQS)
@@ -638,7 +638,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH10_MCQS)
@@ -653,7 +653,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH11_MCQS)
@@ -668,7 +668,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH12_MCQS)
@@ -683,7 +683,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH13_MCQS)
@@ -698,7 +698,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH14_MCQS)
@@ -713,7 +713,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH15_MCQS)
@@ -728,7 +728,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH16_MCQS)
@@ -743,7 +743,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH17_MCQS)
@@ -758,7 +758,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH18_MCQS)
@@ -773,7 +773,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH19_MCQS)
@@ -788,7 +788,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH18_EXAM_SCORER)
@@ -803,7 +803,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH19_EXAM_SCORER)
@@ -818,7 +818,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_CH17_EXAM_SCORER)
@@ -833,7 +833,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH01_MCQS)
@@ -848,7 +848,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH02_MCQS)
@@ -863,7 +863,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH03_MCQS)
@@ -878,7 +878,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH04_MCQS)
@@ -893,7 +893,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH05_MCQS)
@@ -908,7 +908,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH06_MCQS)
@@ -923,7 +923,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH07_MCQS)
@@ -938,7 +938,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH08_MCQS)
@@ -953,7 +953,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH09_MCQS)
@@ -968,7 +968,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH10_MCQS)
@@ -983,7 +983,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH11_MCQS)
@@ -998,7 +998,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH12_MCQS)
@@ -1013,7 +1013,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH13_MCQS)
@@ -1028,7 +1028,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH11_EXAM_SCORER)
@@ -1043,7 +1043,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH12_EXAM_SCORER)
@@ -1058,7 +1058,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FINGERTIPS_BIO_C12_CH13_EXAM_SCORER)
@@ -1077,7 +1077,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(SOME_BASIC_CONCEPTS_OF_CHEMISTRY_QUESTIONS)
@@ -1092,7 +1092,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(STRUCTURE_OF_ATOM_QUESTIONS)
@@ -1107,7 +1107,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(CLASSIFICATION_OF_ELEMENTS_AND_PERIODICITY_IN_PROPERTIES_QUESTIONS)
@@ -1122,7 +1122,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(CHEMICAL_BONDING_AND_MOLECULAR_STRUCTURE_QUESTIONS)
@@ -1137,7 +1137,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(STATES_OF_MATTER_QUESTIONS)
@@ -1152,7 +1152,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THERMODYNAMICS_QUESTIONS)
@@ -1167,7 +1167,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(EQUILIBRIUM_QUESTIONS)
@@ -1182,7 +1182,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(REDOX_REACTIONS_QUESTIONS)
@@ -1197,7 +1197,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(HYDROGEN_QUESTIONS)
@@ -1212,7 +1212,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THE_S_BLOCK_ELEMENTS_QUESTIONS)
@@ -1227,7 +1227,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THE_P_BLOCK_ELEMENTS__GROUP_13___14__QUESTIONS)
@@ -1242,7 +1242,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ORGANIC_CHEMISTRY___SOME_BASIC_PRINCIPLES___TECHNIQUES_QUESTIONS)
@@ -1257,7 +1257,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(HYDROCARBONS_QUESTIONS)
@@ -1272,7 +1272,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ENVIRONMENTAL_CHEMISTRY_QUESTIONS)
@@ -1287,7 +1287,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THE_SOLID_STATE_QUESTIONS)
@@ -1302,7 +1302,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(SOLUTIONS_QUESTIONS)
@@ -1317,7 +1317,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ELECTROCHEMISTRY_QUESTIONS)
@@ -1332,7 +1332,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(CHEMICAL_KINETICS_QUESTIONS)
@@ -1347,7 +1347,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(SURFACE_CHEMISTRY_QUESTIONS)
@@ -1362,7 +1362,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(GENERAL_PRINCIPLES_AND_PROCESSES_OF_ISOLATION_OF_ELEMENTS_QUESTIONS)
@@ -1377,7 +1377,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THE_P_BLOCK_ELEMENTS__GROUP_15__16__17_AND_18__QUESTIONS)
@@ -1392,7 +1392,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THE_D__AND_F_BLOCK_ELEMENTS_QUESTIONS)
@@ -1407,7 +1407,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(COORDINATION_COMPOUNDS_QUESTIONS)
@@ -1422,7 +1422,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(HALOALKANES_AND_HALOARENES_QUESTIONS)
@@ -1437,7 +1437,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ALCOHOLS__PHENOLS_AND_ETHERS_QUESTIONS)
@@ -1452,7 +1452,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ALDEHYDES__KETONES_AND_CARBOXYLIC_ACIDS_QUESTIONS)
@@ -1467,7 +1467,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(AMINES_QUESTIONS)
@@ -1482,7 +1482,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(BIOMOLECULES_QUESTIONS)
@@ -1497,7 +1497,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(POLYMERS_QUESTIONS)
@@ -1512,7 +1512,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(CHEMISTRY_IN_EVERYDAY_LIFE_QUESTIONS)
@@ -1531,7 +1531,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(UNITS_BOOK_QUESTIONS)
@@ -1546,7 +1546,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(VECTORS_BOOK_QUESTIONS)
@@ -1561,7 +1561,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...MOTION_BOOK_QUESTIONS, ...MOTION_2D_QUESTIONS])
@@ -1576,7 +1576,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...MOTION_2D_QUESTIONS, ...MOTION_BOOK_QUESTIONS], 45)
@@ -1591,7 +1591,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(LAWS_OF_MOTION_QUESTIONS)
@@ -1606,7 +1606,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(WORK_ENERGY_POWER_QUESTIONS)
@@ -1621,7 +1621,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ROTATIONAL_MOTION_QUESTIONS)
@@ -1636,7 +1636,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(GRAVITATION_BOOK_QUESTIONS)
@@ -1651,7 +1651,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(ELASTICITY_QUESTIONS)
@@ -1666,7 +1666,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(FLUID_MECHANICS_QUESTIONS)
@@ -1681,7 +1681,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THERMAL_PROPERTIES_QUESTIONS)
@@ -1696,7 +1696,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(THERMODYNAMICS_PHYSICS_QUESTIONS)
@@ -1711,7 +1711,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(KINETIC_THEORY_QUESTIONS)
@@ -1726,7 +1726,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(OSCILLATIONS_SHM_QUESTIONS)
@@ -1741,7 +1741,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(WAVES_ACOUSTICS_QUESTIONS)
@@ -1756,7 +1756,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_ELECTRIC_CHARGES_QUESTIONS, ...ELECTROSTATICS_BOOK_QUESTIONS])
@@ -1771,7 +1771,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_ELECTROSTATIC_POTENTIAL_QUESTIONS, ...CAPACITANCE_QUESTIONS])
@@ -1786,7 +1786,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_CURRENT_ELECTRICITY_QUESTIONS, ...CURRENT_ELECTRICITY_QUESTIONS])
@@ -1801,7 +1801,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_MOVING_CHARGES_MAGNETISM_QUESTIONS, ...MAGNETISM_BOOK_QUESTIONS])
@@ -1816,7 +1816,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_MAGNETISM_MATTER_QUESTIONS, ...MAGNETISM_MATTER_QUESTIONS])
@@ -1831,7 +1831,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_EMI_QUESTIONS, ...EMI_QUESTIONS])
@@ -1846,7 +1846,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_ALTERNATING_CURRENT_QUESTIONS, ...ALTERNATING_CURRENT_QUESTIONS])
@@ -1861,7 +1861,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_EM_WAVES_QUESTIONS, ...EM_WAVES_QUESTIONS])
@@ -1876,7 +1876,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_RAY_OPTICS_QUESTIONS, ...RAY_OPTICS_QUESTIONS])
@@ -1891,7 +1891,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_WAVE_OPTICS_QUESTIONS, ...WAVE_OPTICS_QUESTIONS])
@@ -1906,7 +1906,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_DUAL_NATURE_QUESTIONS, ...DUAL_NATURE_XRAYS_QUESTIONS, ...DUAL_NATURE_QUESTIONS])
@@ -1921,7 +1921,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Step-by-Step Solutions'],
     questions: get45(DUAL_NATURE_XRAYS_QUESTIONS.filter(q => q.id.includes('xrays') || q.id.includes('ct')))
@@ -1951,7 +1951,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.chapter === 'Atoms'), ...NCERT_ATOMS_QUESTIONS, ...ATOMS_PHYSICS_QUESTIONS])
@@ -1966,7 +1966,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.filter(q => q.chapter === 'Nuclei'), ...NCERT_NUCLEI_QUESTIONS, ...NUCLEI_PHYSICS_QUESTIONS])
@@ -1981,7 +1981,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
     questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(0, 45)
@@ -1996,7 +1996,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
     questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(45, 90)
@@ -2011,7 +2011,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Universal Self-Scorer Qs', '15 Mins Speed Drill', '+4 / -1 Marking', 'Step-by-Step Solutions'],
     questions: ATOMIC_NUCLEAR_PHYSICS_QUESTIONS.slice(90, 135)
@@ -2104,7 +2104,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45([...NCERT_SEMICONDUCTORS_QUESTIONS, ...SEMICONDUCTORS_QUESTIONS])
@@ -2119,7 +2119,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 NCERT Questions', '15 Mins Speed Practice', '+4 / -1 Marking', 'Detailed Solutions'],
     questions: get45(NCERT_COMMUNICATION_QUESTIONS)
@@ -2134,7 +2134,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 15,
     totalMarks: 56,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['14 Official Universal Self-Scorer Qs', 'SET-28 Speed Drill', 'Full Circuit Diagrams & SVGs', 'Step-by-Step Solutions'],
     questions: SELF_EVALUATION_TEST_28_QUESTIONS
@@ -2164,7 +2164,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 136,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['34 Official Plane Mirror Qs', 'Ray Tracing & Deviations', '+4 / -1 Marking', 'Step-by-Step Solutions'],
     questions: UNIVERSAL_PLANE_MIRROR_QUESTIONS
@@ -2209,7 +2209,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic Universal Qs', 'Snell Law & Shifts', 'Full Diagrams & SVGs', 'Step-by-Step Solutions'],
     questions: UNIVERSAL_REFRACTION_PLANE_QUESTIONS.slice(0, 45)
@@ -2239,7 +2239,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 184,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['All 46 Official TIR Qs', 'Snell Window & Fiber Optics', 'Full Wavefront & Ray SVGs', 'Step-by-Step Solutions'],
     questions: UNIVERSAL_TIR_QUESTIONS
@@ -2254,7 +2254,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 20,
     totalMarks: 104,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['Official Exercise-I', 'Units, SI & CGS Conversions', 'Homogeneity Principle', 'Step-by-Step Solutions'],
     questions: ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(0, 26)
@@ -2269,7 +2269,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 20,
     totalMarks: 104,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['Official Exercise-I', 'Vernier Callipers & Screw Gauge SVGs', 'Significant Figures & Rounding Rules', 'Step-by-Step Solutions'],
     questions: ALLEN_UNITS_EXERCISE_1_QUESTIONS.slice(26, 52)
@@ -2284,7 +2284,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 30,
     totalMarks: 152,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['100% Authentic NEET/AIPMT PYQs', 'Screw Gauge Zero Error & Vernier Least Count', 'Multi-Variable Error Propagation', 'Complete Step-by-Step Derivations'],
     questions: ALLEN_UNITS_EXERCISE_2_QUESTIONS
@@ -2334,7 +2334,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 136,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['Official Exercise-I', 'Rutherford & Bohr Model', 'Isotopes & Isobars', 'Step-by-Step Solutions'],
     questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(0, 34)
@@ -2349,7 +2349,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 136,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['Official Exercise-I', 'Rydberg Equation & Transitions', 'Full Spectral Diagrams & SVGs', 'Step-by-Step Solutions'],
     questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(34, 68)
@@ -2364,7 +2364,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 136,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['Official Exercise-I', 'de-Broglie Standing Waves', 'Heisenberg Position & Velocity Uncertainty', 'Step-by-Step Solutions'],
     questions: ALLEN_ATOMIC_EXERCISE_1_QUESTIONS.slice(68, 102)
@@ -2394,7 +2394,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 30,
     totalMarks: 148,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['100% Authentic NEET/AIPMT PYQs', 'Photoelectric Effect & Planck Equation', 'de-Broglie & Node Calculations', 'Complete Step-by-Step Solutions'],
     questions: ALLEN_ATOMIC_EXERCISE_2_QUESTIONS
@@ -2444,7 +2444,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 108,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['27 Authentic Exam Questions', 'Official MC0001-MC0190 Codes', 'Multi-line NCERT Derivations', 'Timer & Instant Scorecard'],
     questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(0, 27)
@@ -2459,7 +2459,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 116,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['29 Authentic Exam Questions', 'Stoichiometry & Eudiometry Drill', 'Step-by-Step Reaction Balances', 'Timer & Instant Scorecard'],
     questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(27, 56)
@@ -2474,7 +2474,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 20,
     totalMarks: 96,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['24 Authentic Exam Questions', 'Displacement & Oxide Formations', 'Detailed Equivalent Mass Steps', 'Timer & Instant Scorecard'],
     questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(56, 80)
@@ -2489,7 +2489,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 30,
     totalMarks: 132,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['33 Authentic Exam Questions', 'Isomorphism & Victor Mayer Calculations', 'Laws of Chemical Combination', 'Timer & Instant Scorecard'],
     questions: ALLEN_MOLE_EXERCISE_1_QUESTIONS.slice(80, 113)
@@ -2504,7 +2504,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 104,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['26 Real AIPMT & NEET Questions (2009-2022)', 'Year Tags & Official Answer Keys', 'Full Step-by-Step Derivations', 'Timer & Instant Scorecard'],
     questions: ALLEN_MOLE_EXERCISE_2_QUESTIONS
@@ -2554,7 +2554,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 120,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['30 Authentic Exam Questions', 'Official PA0001-PA0038 Codes', 'Verified NCERT Solutions', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(0, 30)
@@ -2569,7 +2569,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 120,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['30 Authentic Exam Questions', 'Tissue Systems & Organs', 'Diagnostic Anatomy Criteria', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(30, 60)
@@ -2584,7 +2584,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 120,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['30 Authentic Exam Questions', 'Secondary Growth & Periderm', 'Springwood vs Autumnwood', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANATOMY_EXERCISE_1_QUESTIONS.slice(60, 90)
@@ -2599,7 +2599,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 128,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['32 Authentic NEET/AIPMT Questions', '100% Official Answer Keys', 'Detailed Historical Analysis', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANATOMY_EXERCISE_2_QUESTIONS.slice(0, 32)
@@ -2663,7 +2663,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 140,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['35 Authentic Exam Questions', 'Official AT0001-AT0035 Codes', 'Verified NCERT Explanations', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(0, 35)
@@ -2678,7 +2678,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 140,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['35 Authentic Exam Questions', 'Glands & Cell Junctions', 'Organ Level Anatomy', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(35, 70)
@@ -2693,7 +2693,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 25,
     totalMarks: 120,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['30 Authentic Exam Questions', 'Skeletal Connective Tissues', 'Haversian Canal Systems', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(70, 100)
@@ -2708,7 +2708,7 @@ export const TEST_SERIES_DATA: TestItem[] = [
     durationMinutes: 20,
     totalMarks: 104,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['26 Authentic Exam Questions', 'Connective Tissue Proper', 'Ligaments & Tendons', 'Timer & Instant Scorecard'],
     questions: ALLEN_ANIMAL_TISSUES_EXERCISE_1_QUESTIONS.slice(100, 126)
@@ -2762,32 +2762,8 @@ export const TEST_SERIES_DATA: TestItem[] = [
       ...ALLEN_ANIMAL_TISSUES_EXERCISE_3_QUESTIONS.slice(0, 10)
     ]
   }
-];
-
-// ==========================================
-export const FLASHCARDS_DATA: Flashcard[] = [
-  // ==========================================
-  // BIOLOGY FLASHCARDS (BOTANY & ZOOLOGY)
-  // ==========================================
-  {
-    id: 'fc-bio-1',
-    subject: 'Biology',
-    category: 'Diagrams',
-    subCategory: 'Zoology / Physiology',
-    topic: 'Human Circulatory System & Double Circulation',
-    frontTitle: 'Human Heart Anatomy & Double Circulation',
-    frontContent: 'Trace the flow of deoxygenated and oxygenated blood through chambers, valves and great vessels.',
-    diagramSvg: `<svg viewBox="0 0 300 200" class="w-full h-44 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="200" rx="8" fill="#F8FAFC"/><path d="M70,20 L70,80" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/><text x="35" y="45" font-size="9" fill="#1E40AF" font-weight="bold">Vena Cava</text><rect x="50" y="80" width="80" height="45" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/><text x="60" y="105" font-size="10" fill="#1E40AF" font-weight="bold">Right Atrium</text><line x1="90" y1="125" x2="90" y2="138" stroke="#1E40AF" stroke-width="2" stroke-dasharray="3,2"/><rect x="50" y="140" width="80" height="45" rx="6" fill="#BFDBFE" stroke="#3B82F6" stroke-width="2"/><text x="56" y="165" font-size="10" fill="#1E40AF" font-weight="bold">Right Ventricle</text><path d="M130,150 Q160,110 170,40" stroke="#3B82F6" stroke-width="4" fill="none"/><text x="175" y="45" font-size="9" fill="#1E40AF" font-weight="bold">Pulmonary Art. (to Lungs)</text><path d="M230,20 L230,80" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/><text x="238" y="45" font-size="9" fill="#991B1B" font-weight="bold">Pulmonary Veins</text><rect x="170" y="80" width="80" height="45" rx="6" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/><text x="180" y="105" font-size="10" fill="#991B1B" font-weight="bold">Left Atrium</text><line x1="210" y1="125" x2="210" y2="138" stroke="#991B1B" stroke-width="2" stroke-dasharray="3,2"/><rect x="170" y="140" width="80" height="45" rx="6" fill="#FECACA" stroke="#EF4444" stroke-width="2"/><text x="178" y="165" font-size="10" fill="#991B1B" font-weight="bold">Left Ventricle</text><path d="M210,140 Q150,50 120,20" stroke="#EF4444" stroke-width="5" fill="none"/><text x="80" y="20" font-size="9" fill="#991B1B" font-weight="bold">Systemic Aorta</text></svg>`,
-    backExplanation: '1. Deoxygenated blood: Vena Cava -> Right Atrium -> Tricuspid Valve -> Right Ventricle -> Pulmonary Artery -> Lungs.\n2. Oxygenated blood: Pulmonary Veins -> Left Atrium -> Bicuspid (Mitral) Valve -> Left Ventricle -> Aorta -> Systemic Circulation.',
-    backKeyPoints: [
-      'SA Node (Pacemaker) generates 70-75 impulses/min in upper right wall of right atrium',
-      'Stroke Volume = 70 mL, Cardiac Output = ~5000 mL/min (5 L/min)',
-      'Tricuspid on right (3 flaps), Bicuspid/Mitral on left (2 flaps)'
-    ],
-    mnemonic: 'LAB RAT: Left Atrium Bicuspid, Right Atrium Tricuspid!',
-    difficulty: 'Medium'
-  },
-  {
+,
+{
     id: 'test-zoo-allen-ak-ex1-part1',
     title: 'Zoology: Animal Kingdom - Non-Chordates Conceptual (Part 1)',
     subject: 'Biology',
@@ -2797,7 +2773,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic Exam Questions', 'Non-Chordate Invertebrates', 'Official AD Codes & Diagrams', 'Instant CBT Scoring'],
     questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(0, 45)
@@ -2812,7 +2788,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic Exam Questions', 'Protochordates, Pisces to Mammalia', 'Official AD Codes & Diagrams', 'Instant CBT Scoring'],
     questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(59, 104)
@@ -2827,7 +2803,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic AIPMT/NEET Questions', 'Year-Tagged 2006-2015', 'Original Figures & Diagrams', 'Instant CBT Scoring'],
     questions: ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(0, 45)
@@ -2872,7 +2848,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 200,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['50 Mixed-Level Speed Questions', 'Comprehensive Phylum Coverage', 'Time-Pressure CBT Simulator', 'Instant Diagnostic Feedback'],
     questions: [...ALLEN_ANIMAL_KINGDOM_EXERCISE_1_QUESTIONS.slice(10, 35), ...ALLEN_ANIMAL_KINGDOM_EXERCISE_2_QUESTIONS.slice(20, 45)]
@@ -2902,7 +2878,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Easy',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic Exam Questions', 'Taxonomy & Nomenclature', 'Official DL Codes', 'Instant CBT Scorecard'],
     questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(0, 45)
@@ -2917,7 +2893,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic Exam Questions', 'Prokaryotes & Cyanobacteria', 'Official BC Codes', 'Instant CBT Scorecard'],
     questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(45, 90)
@@ -2932,7 +2908,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 200,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['50 Authentic Exam Questions', 'Protists & Fungi Life Cycles', 'Official BC Codes', 'Instant CBT Scorecard'],
     questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(90, 140)
@@ -2947,7 +2923,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 180,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['45 Authentic Exam Questions', 'Algae & Bryophyta Mastery', 'Official PD Codes', 'Instant CBT Scorecard'],
     questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(140, 185)
@@ -2977,7 +2953,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 35,
     totalMarks: 140,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['35 Authentic Exam Questions', 'TMV & Bacteriophage Diagrams', 'Official BC Codes', 'Instant CBT Scorecard'],
     questions: ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(254, 291)
@@ -2992,7 +2968,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     durationMinutes: 45,
     totalMarks: 200,
     negativeMarking: '+4 for correct, -1 for incorrect',
-    difficulty: 'Medium',
+    difficulty: 'Hard',
     cbtMode: true,
     features: ['50 Authentic AIPMT/NEET Questions', 'Year-Tagged 2006-2014', 'Original Plant Figures & Diagrams', 'Instant CBT Scoring'],
     questions: ALLEN_DLW_EXERCISE_2_QUESTIONS.slice(0, 50)
@@ -3042,6 +3018,32 @@ export const FLASHCARDS_DATA: Flashcard[] = [
     features: ['90 Full-Unit Questions', 'Exact NEET Biology Marking (+4, -1)', 'Complete Unit 1 Coverage', 'All India Rank Predictor'],
     questions: [...ALLEN_DLW_EXERCISE_1_QUESTIONS.slice(0, 30), ...ALLEN_DLW_EXERCISE_2_QUESTIONS.slice(0, 30), ...ALLEN_DLW_EXERCISE_3_QUESTIONS.slice(0, 30)]
   },
+];
+
+// ==========================================
+export const FLASHCARDS_DATA: Flashcard[] = [
+  // ==========================================
+  // BIOLOGY FLASHCARDS (BOTANY & ZOOLOGY)
+  // ==========================================
+  {
+    id: 'fc-bio-1',
+    subject: 'Biology',
+    category: 'Diagrams',
+    subCategory: 'Zoology / Physiology',
+    topic: 'Human Circulatory System & Double Circulation',
+    frontTitle: 'Human Heart Anatomy & Double Circulation',
+    frontContent: 'Trace the flow of deoxygenated and oxygenated blood through chambers, valves and great vessels.',
+    diagramSvg: `<svg viewBox="0 0 300 200" class="w-full h-44 mx-auto" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="200" rx="8" fill="#F8FAFC"/><path d="M70,20 L70,80" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/><text x="35" y="45" font-size="9" fill="#1E40AF" font-weight="bold">Vena Cava</text><rect x="50" y="80" width="80" height="45" rx="6" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/><text x="60" y="105" font-size="10" fill="#1E40AF" font-weight="bold">Right Atrium</text><line x1="90" y1="125" x2="90" y2="138" stroke="#1E40AF" stroke-width="2" stroke-dasharray="3,2"/><rect x="50" y="140" width="80" height="45" rx="6" fill="#BFDBFE" stroke="#3B82F6" stroke-width="2"/><text x="56" y="165" font-size="10" fill="#1E40AF" font-weight="bold">Right Ventricle</text><path d="M130,150 Q160,110 170,40" stroke="#3B82F6" stroke-width="4" fill="none"/><text x="175" y="45" font-size="9" fill="#1E40AF" font-weight="bold">Pulmonary Art. (to Lungs)</text><path d="M230,20 L230,80" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/><text x="238" y="45" font-size="9" fill="#991B1B" font-weight="bold">Pulmonary Veins</text><rect x="170" y="80" width="80" height="45" rx="6" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/><text x="180" y="105" font-size="10" fill="#991B1B" font-weight="bold">Left Atrium</text><line x1="210" y1="125" x2="210" y2="138" stroke="#991B1B" stroke-width="2" stroke-dasharray="3,2"/><rect x="170" y="140" width="80" height="45" rx="6" fill="#FECACA" stroke="#EF4444" stroke-width="2"/><text x="178" y="165" font-size="10" fill="#991B1B" font-weight="bold">Left Ventricle</text><path d="M210,140 Q150,50 120,20" stroke="#EF4444" stroke-width="5" fill="none"/><text x="80" y="20" font-size="9" fill="#991B1B" font-weight="bold">Systemic Aorta</text></svg>`,
+    backExplanation: '1. Deoxygenated blood: Vena Cava -> Right Atrium -> Tricuspid Valve -> Right Ventricle -> Pulmonary Artery -> Lungs.\n2. Oxygenated blood: Pulmonary Veins -> Left Atrium -> Bicuspid (Mitral) Valve -> Left Ventricle -> Aorta -> Systemic Circulation.',
+    backKeyPoints: [
+      'SA Node (Pacemaker) generates 70-75 impulses/min in upper right wall of right atrium',
+      'Stroke Volume = 70 mL, Cardiac Output = ~5000 mL/min (5 L/min)',
+      'Tricuspid on right (3 flaps), Bicuspid/Mitral on left (2 flaps)'
+    ],
+    mnemonic: 'LAB RAT: Left Atrium Bicuspid, Right Atrium Tricuspid!',
+    difficulty: 'Hard'
+  },
+  
 
 
   {
@@ -3095,7 +3097,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Heterochromatin: Densely packed, darkly staining, transcriptionally inactive'
     ],
     mnemonic: 'Octamer = 2 x (H2A + H2B + H3 + H4), sealed by H1 outside!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-bio-5',
@@ -3113,7 +3115,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       '(K - N)/K is the fraction of carrying capacity still available'
     ],
     mnemonic: 'J-shape = Jet speed, S-shape = Settles at K!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-bio-6',
@@ -3130,7 +3132,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Discovered by Francois Jacob and Jacques Monod'
     ],
     mnemonic: 'Z-Y-A = B-P-T (Beta-gal, Permease, Transacetylase)',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
 
   // ==========================================
@@ -3152,7 +3154,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'If E_ext > 1.10 V, current reverses and cell acts as electrolytic cell'
     ],
     mnemonic: 'LOAN: Left Anode Oxidizes Negatively!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-chem-2',
@@ -3169,7 +3171,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'CH4 has zero dipole moment due to symmetric tetrahedral cancellation'
     ],
     mnemonic: 'sp3 = 4 domains = 109.5° Tetrahedral!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-chem-3',
@@ -3186,7 +3188,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Blood buffer: H2CO3 / HCO3- maintains pH ~ 7.4'
     ],
     mnemonic: 'pH = pKa + Log(Salt over Acid)',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-chem-4',
@@ -3202,7 +3204,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Benzaldehyde gives Benzyl Alcohol + Sodium Benzoate in Cannizzaro'
     ],
     mnemonic: 'Alpha-H = Aldol! Zero Alpha-H = Cannizzaro!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
 
   // ==========================================
@@ -3242,7 +3244,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Sign convention: u is negative, real image v is positive'
     ],
     mnemonic: 'Object at 2F gives identical image at 2F (m = -1)!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-phy-3',
@@ -3260,7 +3262,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'End errors in meter bridge arise from resistance of copper strips at wire ends'
     ],
     mnemonic: 'P over Q equals R over S for zero deflection!',
-    difficulty: 'Medium'
+    difficulty: 'Hard'
   },
   {
     id: 'fc-phy-4',
@@ -3277,7 +3279,7 @@ export const FLASHCARDS_DATA: Flashcard[] = [
       'Stopping potential V0 depends ONLY on frequency, NOT on light intensity'
     ],
     mnemonic: '12.27 over root V in Angstroms for Electron!',
-    difficulty: 'Easy'
+    difficulty: 'Hard'
   }
 ];
 
@@ -3534,7 +3536,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Molecular Basis of Inheritance',
       topic: 'Lac Operon & Gene Regulation',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In the lac operon of Escherichia coli, which structural gene encodes the enzyme beta-galactosidase?",
       options: ["z gene", "y gene", "a gene", "i gene"],
       correctAnswer: 0,
@@ -3556,7 +3558,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Principles of Inheritance and Variation',
       topic: 'Mendelian Disorders & Pedigree',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which of the following is an autosomal recessive genetic disorder caused by a point mutation resulting in the substitution of Glutamic acid by Valine at the 6th position of beta-globin chain?",
       options: ["Sickle-cell anemia", "Haemophilia A", "Thalassemia major", "Phenylketonuria"],
       correctAnswer: 0,
@@ -3578,7 +3580,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Biotechnology: Principles and Processes',
       topic: 'Restriction Endonucleases & Vectors',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "During agarose gel electrophoresis, the separated DNA fragments migrate towards the anode because:",
       options: ["DNA fragments are negatively charged due to phosphate groups", "DNA fragments are positively charged due to histone proteins", "DNA is neutral and moves solely by diffusion", "Smaller DNA fragments have positive surface charges"],
       correctAnswer: 0,
@@ -3600,7 +3602,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Human Health and Disease',
       topic: 'Immunity & Antibodies',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which class of immunoglobulin (antibody) is predominantly present in human colostrum (initial milk secreted by mother) providing passive natural immunity to newborn?",
       options: ["IgA", "IgG", "IgE", "IgM"],
       correctAnswer: 0,
@@ -3622,7 +3624,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Photosynthesis in Higher Plants',
       topic: 'C4 Pathway & Kranz Anatomy',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In C4 plants, the primary carbon dioxide acceptor is a 3-carbon molecule called:",
       options: ["Phosphoenolpyruvate (PEP)", "Ribulose-1,5-bisphosphate (RuBP)", "Oxaloacetic acid (OAA)", "Phosphoglyceric acid (PGA)"],
       correctAnswer: 0,
@@ -3644,7 +3646,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Cell Cycle and Cell Division',
       topic: 'Meiosis I Prophase Sub-stages',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "The enzyme recombinase is required and crossing over between non-sister chromatids of homologous chromosomes occurs during which stage of Prophase I?",
       options: ["Pachytene", "Zygotene", "Diplotene", "Diakinesis"],
       correctAnswer: 0,
@@ -3666,7 +3668,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Human Reproduction',
       topic: 'Spermatogenesis & Hormonal Control',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which hormone acts directly on Leydig cells to stimulate the synthesis and secretion of androgens (testosterone)?",
       options: ["Luteinizing Hormone (LH)", "Follicle Stimulating Hormone (FSH)", "Inhibin", "Prolactin"],
       correctAnswer: 0,
@@ -3688,7 +3690,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Sexual Reproduction in Flowering Plants',
       topic: 'Double Fertilization & Endosperm',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In angiosperms, double fertilization involves the fusion of:",
       options: ["One male gamete with egg (syngamy) and other with two polar nuclei (triple fusion)", "Two male gametes with one egg cell", "One male gamete with synergid and other with antipodal", "Both male gametes with secondary nucleus"],
       correctAnswer: 0,
@@ -3710,7 +3712,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Breathing and Exchange of Gases',
       topic: 'Oxygen-Hemoglobin Dissociation Curve',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which of the following factors causes a rightward shift of the Oxygen-Hemoglobin dissociation curve (facilitating oxygen delivery to tissues)?",
       options: ["High pCO2, high H+ concentration (low pH), and high temperature", "Low pCO2, low H+ concentration (high pH), and low temperature", "High pO2 and low body temperature", "Low 2,3-DPG concentration"],
       correctAnswer: 0,
@@ -3732,7 +3734,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Ecology: Organisms and Populations',
       topic: 'Population Growth Models',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In the Verhulst-Pearl Logistic Growth equation dN/dt = rN((K - N)/K), the term (K - N)/K represents:",
       options: ["Environmental resistance to population growth", "Biotic potential of the population", "Intrinsic rate of natural increase (r)", "Carrying capacity (K)"],
       correctAnswer: 0,
@@ -3754,7 +3756,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Plant Growth and Development',
       topic: 'Phytohormones & Auxin/Ethylene',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which plant growth regulator is a gaseous phytohormone used extensively for commercial ripening of fruits like bananas and tomatoes?",
       options: ["Ethylene (C2H4)", "Gibberellic Acid (GA3)", "Abscisic Acid (ABA)", "Cytokinin (Zeatin)"],
       correctAnswer: 0,
@@ -3776,7 +3778,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Excretory Products and their Elimination',
       topic: 'Renin-Angiotensin-Aldosterone System (RAAS)',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A decrease in glomerular blood pressure or GFR stimulates the Juxtaglomerular (JG) cells to release which substance?",
       options: ["Renin", "Angiotensinogen", "Aldosterone", "Atrial Natriuretic Factor (ANF)"],
       correctAnswer: 0,
@@ -3798,7 +3800,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Evolution',
       topic: 'Hardy-Weinberg Principle',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In a population in Hardy-Weinberg equilibrium, if the frequency of the recessive allele (q) is 0.4, what is the frequency of heterozygous individuals (2pq)?",
       options: ["0.48", "0.24", "0.36", "0.16"],
       correctAnswer: 0,
@@ -3820,7 +3822,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Cell: The Unit of Life',
       topic: 'Fluid Mosaic Model & Membrane Proteins',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "According to Singer and Nicolson\u2019s Fluid Mosaic Model (1972), the quasi-fluid nature of membrane lipids enables:",
       options: ["Lateral movement of proteins within the overall bilayer", "Flip-flop movement of all integral proteins constantly", "Permanent rigidity to cellular shape", "Unrestricted transport of all macromolecules without energy"],
       correctAnswer: 0,
@@ -3842,7 +3844,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Neural Control and Coordination',
       topic: 'Action Potential & Synapse',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "During the transmission of a nerve impulse across a chemical synapse, the influx of which ion into the presynaptic terminal triggers the exocytosis of neurotransmitter vesicles into the synaptic cleft?",
       options: ["Calcium ions (Ca2+)", "Sodium ions (Na+)", "Potassium ions (K+)", "Chloride ions (Cl-)"],
       correctAnswer: 0,
@@ -3864,7 +3866,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Morphology of Flowering Plants',
       topic: 'Placentation Types & Examples',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Placentation in which ovules develop on the inner wall of the ovary or in peripheral parts, becoming two-chambered due to formation of a false septum (replum), is seen in:",
       options: ["Mustard and Argemone (Parietal placentation)", "Dianthus and Primrose (Free central)", "Tomato and Lemon (Axile)", "Pea (Marginal)"],
       correctAnswer: 0,
@@ -3886,7 +3888,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Biology',
       chapter: 'Animal Kingdom',
       topic: 'Phylum Chordata & Non-Chordata Features',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "The presence of a Water Vascular (Ambulacral) System for locomotion, food capture, and respiration is a unique diagnostic feature of which phylum?",
       options: ["Echinodermata", "Porifera", "Coelenterata (Cnidaria)", "Mollusca"],
       correctAnswer: 0,
@@ -3908,7 +3910,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Aldehydes, Ketones and Carboxylic Acids',
       topic: 'Cannizzaro & Aldol Reactions',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which of the following compounds will undergo disproportionation via Cannizzaro reaction upon heating with concentrated 50% NaOH solution?",
       options: ["Benzaldehyde (C6H5CHO)", "Acetaldehyde (CH3CHO)", "Acetone (CH3COCH3)", "Propanal (CH3CH2CHO)"],
       correctAnswer: 0,
@@ -3930,7 +3932,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Electrochemistry',
       topic: 'Nernst Equation & Standard Potential',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "For a galvanic cell reaction Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s) with standard EMF E\u00b0cell = 1.10 V at 298 K, what is the cell potential when [Zn2+] = 0.1 M and [Cu2+] = 0.01 M? (Take 2.303 RT/F = 0.059 V)",
       options: ["1.0705 V", "1.1295 V", "1.1000 V", "0.9815 V"],
       correctAnswer: 0,
@@ -3952,7 +3954,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Chemical Bonding and Molecular Structure',
       topic: 'VSEPR Theory & Hybridization',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "According to VSEPR theory and hybridization rules, the molecular geometry and hybridization of the central atom in SF4 and XeF4 are respectively:",
       options: ["See-saw (sp3d) and Square planar (sp3d2)", "Square planar (sp3d2) and See-saw (sp3d)", "Tetrahedral (sp3) and Octahedral (sp3d2)", "Trigonal bipyramidal (sp3d) and Square pyramidal (sp3d2)"],
       correctAnswer: 0,
@@ -3974,7 +3976,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Amines',
       topic: 'Hinsberg Test & Gabriel Phthalimide',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which reagent is used in Hinsberg test to distinguish between primary (1\u00b0), secondary (2\u00b0), and tertiary (3\u00b0) amines?",
       options: ["Benzenesulphonyl chloride (C6H5SO2Cl)", "Hinsberg ester (CH3COCl)", "Tollens reagent [Ag(NH3)2]+", "Lucas reagent (conc. HCl + ZnCl2)"],
       correctAnswer: 0,
@@ -3996,7 +3998,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Thermodynamics',
       topic: 'Gibbs Free Energy & Spontaneity',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "For an endothermic chemical reaction (Delta H > 0) with an increase in disorder (Delta S > 0), the reaction will be spontaneous (Delta G < 0) under which temperature condition?",
       options: ["At high temperatures where T > Delta H / Delta S", "At low temperatures where T < Delta H / Delta S", "At all temperatures unconditionally", "The reaction can never be spontaneous"],
       correctAnswer: 0,
@@ -4018,7 +4020,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Coordination Compounds',
       topic: 'Crystal Field Splitting & Magnetic Moment',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "What is the spin-only magnetic moment (in Bohr Magnetons, BM) of the octahedral complex [Fe(CN)6]3- and [Fe(H2O)6]3+ respectively? (Atomic number of Fe = 26)",
       options: ["1.73 BM (low spin) and 5.92 BM (high spin)", "5.92 BM and 1.73 BM", "0 BM and 4.90 BM", "2.83 BM and 3.87 BM"],
       correctAnswer: 0,
@@ -4040,7 +4042,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Equilibrium',
       topic: 'Solubility Product (Ksp) & Common Ion Effect',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "If the solubility product constant of silver chromate (Ag2CrO4) is Ksp = 1.1 x 10^-12, its molar solubility S in pure water is given by:",
       options: ["S = (Ksp / 4)^(1/3) = 6.5 x 10^-5 M", "S = (Ksp)^(1/2) = 1.05 x 10^-6 M", "S = (Ksp / 27)^(1/4)", "S = 2 * Ksp"],
       correctAnswer: 0,
@@ -4062,7 +4064,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Solutions',
       topic: 'Colligative Properties & Van\'t Hoff Factor',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which of the following 0.1 M aqueous solutions will exhibit the lowest freezing point (maximum freezing point depression Delta Tf)?",
       options: ["0.1 M Al2(SO4)3 (i = 5)", "0.1 M BaCl2 (i = 3)", "0.1 M NaCl (i = 2)", "0.1 M Glucose (i = 1)"],
       correctAnswer: 0,
@@ -4084,7 +4086,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Structure of Atom',
       topic: 'Bohr Model & Rydberg Formula',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "The wavelength of the first spectral line in the Balmer series of hydrogen spectrum is 6563 \u00c5. What is the wavelength of the second line (H-beta) of the Balmer series?",
       options: ["4861 \u00c5 (486.1 nm)", "5460 \u00c5", "4102 \u00c5", "3646 \u00c5"],
       correctAnswer: 0,
@@ -4106,7 +4108,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Organic Chemistry: Some Basic Principles & Techniques',
       topic: 'Aromaticity & Huckel\'s Rule',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "According to Huckel's Rule, a planar, completely conjugated cyclic polyene exhibits extra aromatic stability if it contains:",
       options: ["(4n + 2) pi electrons where n is an integer (0, 1, 2, ...)", "4n pi electrons where n is an integer (1, 2, ...)", "(2n + 1) pi electrons", "(4n + 1) pi electrons"],
       correctAnswer: 0,
@@ -4128,7 +4130,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Chemical Kinetics',
       topic: 'First Order Reaction Half Life',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "For a first-order chemical reaction, the rate constant is k = 4.606 x 10^-3 s^-1. What is the time required for 90% completion of this reaction?",
       options: ["500 seconds", "1000 seconds", "250 seconds", "100 seconds"],
       correctAnswer: 0,
@@ -4150,7 +4152,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Classification of Elements and Periodicity in Properties',
       topic: 'Ionization Enthalpy & Electron Gain Enthalpy',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "The correct order of first ionization enthalpy (IE1) among the Group 15 and 16 elements B, C, N, and O is:",
       options: ["B < C < O < N", "B < C < N < O", "C < B < N < O", "B < N < C < O"],
       correctAnswer: 0,
@@ -4172,7 +4174,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Chemistry',
       chapter: 'Haloalkanes and Haloarenes',
       topic: 'SN1 vs SN2 Mechanisms',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "Which of the following alkyl halides undergoes nucleophilic substitution by SN1 mechanism with the highest rate?",
       options: ["tert-Butyl bromide ((CH3)3C-Br)", "Isopropyl bromide ((CH3)2CH-Br)", "Ethyl bromide (CH3CH2-Br)", "Methyl bromide (CH3-Br)"],
       correctAnswer: 0,
@@ -4194,7 +4196,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Dual Nature of Radiation and Matter',
       topic: 'Photoelectric Effect & Stopping Potential',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "When light of frequency 2nu0 (where nu0 is the threshold frequency) is incident on a metal surface, the maximum velocity of emitted photoelectrons is v1. When the frequency is increased to 5nu0, the maximum velocity becomes v2. The ratio v1 / v2 is:",
       options: ["1 : 2", "1 : 4", "1 : sqrt(2)", "1 : 3"],
       correctAnswer: 0,
@@ -4216,7 +4218,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Current Electricity',
       topic: 'Drift Velocity & Ohm\'s Law in Microscopic Form',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A cylindrical copper wire of length L and cross-sectional area A carries a steady electric current I. If the wire is uniformly stretched to double its original length (2L), its new resistance R' and drift velocity vd' for the same applied potential difference V become:",
       options: ["R' = 4R and vd' = vd / 2", "R' = 2R and vd' = vd", "R' = 4R and vd' = vd / 4", "R' = R / 4 and vd' = 2vd"],
       correctAnswer: 0,
@@ -4238,7 +4240,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Ray Optics and Optical Instruments',
       topic: 'Compound Microscope Magnifying Power',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In a compound microscope, the focal length of objective lens is fo = 1.0 cm and eyepiece is fe = 2.5 cm. If an object is placed at a distance of 1.2 cm from the objective and the final virtual image is formed at the near point (D = 25 cm), the total magnifying power m of the microscope is:",
       options: ["-55", "-60", "-45", "-50"],
       correctAnswer: 0,
@@ -4260,7 +4262,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Electromagnetic Induction (EMI)',
       topic: 'Faraday & Lenz Law Induced EMF',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A circular coil of radius r = 10 cm and 500 turns is placed in a uniform magnetic field B = 0.2 T with its plane perpendicular to the field. If the coil is rotated through 180\u00b0 in 0.1 seconds, the average induced EMF in the coil is:",
       options: ["6.28 V (2 * pi V)", "3.14 V", "12.56 V", "1.57 V"],
       correctAnswer: 0,
@@ -4282,7 +4284,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'System of Particles & Rotational Motion',
       topic: 'Rolling Motion on an Inclined Plane',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A solid sphere, a solid cylinder, and a hollow cylinder, all of the same mass M and radius R, are released simultaneously from the top of an inclined plane of inclination theta to roll without slipping. The order in which they reach the bottom is:",
       options: ["Solid Sphere first, then Solid Cylinder, then Hollow Cylinder last", "Hollow Cylinder first, then Solid Cylinder, then Solid Sphere", "Solid Cylinder first, then Solid Sphere, then Hollow Cylinder", "All reach the bottom at the exact same instant"],
       correctAnswer: 0,
@@ -4304,7 +4306,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Electrostatics: Electric Charges and Fields',
       topic: 'Gauss\'s Law & Electric Dipole in Uniform Field',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "An electric dipole with dipole moment p = 4 x 10^-9 C*m is aligned at an angle of 30\u00b0 with the direction of a uniform electric field of magnitude E = 5 x 10^4 N/C. The magnitude of the torque acting on the dipole is:",
       options: ["10^-4 N*m", "2 x 10^-4 N*m", "10^-3 N*m", "1.73 x 10^-4 N*m"],
       correctAnswer: 0,
@@ -4326,7 +4328,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Wave Optics & Diffraction',
       topic: 'Young\'s Double Slit Experiment (YDSE)',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In Young's double slit experiment, if the distance between the two slits is halved (d' = d / 2) and the distance between the slit plane and screen is doubled (D' = 2D), the fringe width beta becomes:",
       options: ["4 times the original fringe width (4 beta)", "2 times the original fringe width (2 beta)", "Halved (beta / 2)", "Remains unchanged"],
       correctAnswer: 0,
@@ -4348,7 +4350,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Gravitation',
       topic: 'Escape Velocity & Orbital Velocity',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "If a body of mass m is projected from the surface of Earth with escape velocity ve = sqrt(2GM/R) approx 11.2 km/s, what would be the escape velocity from a planet having twice the mass and half the radius of Earth?",
       options: ["22.4 km/s (2 ve)", "11.2 km/s (ve)", "5.6 km/s (ve / 2)", "44.8 km/s (4 ve)"],
       correctAnswer: 0,
@@ -4370,7 +4372,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Alternating Current (AC)',
       topic: 'Series LCR Resonant Circuit & Q-Factor',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "In a series LCR alternating current circuit at resonance, the phase difference between applied voltage and alternating current is:",
       options: ["Zero degrees (0 rad, purely resistive behavior)", "90 degrees (pi / 2 rad)", "180 degrees (pi rad)", "45 degrees (pi / 4 rad)"],
       correctAnswer: 0,
@@ -4392,7 +4394,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Oscillations (Simple Harmonic Motion)',
       topic: 'Energy of Simple Harmonic Oscillator',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A particle executes Simple Harmonic Motion with amplitude A. At what displacement x from the mean equilibrium position is the kinetic energy of the particle equal to its potential energy (K = U)?",
       options: ["x = A / sqrt(2)", "x = A / 2", "x = A / 4", "x = sqrt(3) A / 2"],
       correctAnswer: 0,
@@ -4414,7 +4416,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Semiconductor Electronics & Logic Gates',
       topic: 'p-n Junction Diode & Logic Combinations',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A NAND gate whose both inputs A and B are tied together acts as which fundamental logic gate?",
       options: ["NOT gate (Inverter)", "AND gate", "OR gate", "NOR gate"],
       correctAnswer: 0,
@@ -4436,7 +4438,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Thermodynamics (Physics)',
       topic: 'Carnot Engine Efficiency',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A Carnot heat engine operates between a source at temperature T1 = 500 K and a sink at temperature T2 = 300 K. If the engine absorbs 6.0 x 10^4 cal of heat from the source per cycle, the work done W per cycle is:",
       options: ["2.4 x 10^4 cal", "3.6 x 10^4 cal", "4.0 x 10^4 cal", "1.2 x 10^4 cal"],
       correctAnswer: 0,
@@ -4458,7 +4460,7 @@ export const PYQS_DATA: PYQItem[] = [
       subject: 'Physics',
       chapter: 'Moving Charges and Magnetism',
       topic: 'Magnetic Force on a Moving Charge (Lorentz Force)',
-      difficulty: 'Medium',
+      difficulty: 'Hard',
       questionText: "A proton and an alpha particle (having charge 2e and mass 4m) with equal kinetic energies K enter perpendicularly into a uniform magnetic field B. The ratio of the radii of their circular paths (rp / ralpha) is:",
       options: ["1 : 1", "1 : 2", "2 : 1", "1 : 4"],
       correctAnswer: 0,

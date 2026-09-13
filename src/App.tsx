@@ -21,7 +21,6 @@ const DownloadsModal = lazy(() => import('./components/DownloadsModal').then(m =
 import { AdminSection } from './components/AdminSection';
 import { AdminLoginModal } from './components/AdminLoginModal';
 const UploadContentModal = lazy(() => import('./components/UploadContentModal').then(m => ({ default: m.UploadContentModal })));
-const NeetCollegePredictor = lazy(() => import('./components/NeetCollegePredictor').then(m => ({ default: m.NeetCollegePredictor })));
 
 const SectionLoadingFallback = () => (
   <div className="flex flex-col items-center justify-center min-h-[350px] w-full p-8 text-center animate-in fade-in duration-200">
@@ -48,36 +47,43 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('test-series');
   const [extraSubTab, setExtraSubTab] = useState<string>('books');
 
-  // Mandatory Enrollment Gate State - Persistent check for existing enrolled users
+  // Mandatory Enrollment Gate State - Persistent check for existing enrolled users & saved logins
   const [enrolledStudent, setEnrolledStudent] = useState<EnrolledStudent | null>(() => {
     try {
       const saved = localStorage.getItem('neet_enrolled_student');
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        try {
+          const parsed = JSON.parse(saved);
+          if (parsed && (parsed.studentName || parsed.email)) return parsed;
+        } catch {}
+      }
       const local = localStorage.getItem('neet_local_user');
       if (local) {
-        const u = JSON.parse(local);
-        const reconstructed: EnrolledStudent = {
-          studentName: u.studentName || u.name || 'Aditi Sanjay Gadre',
-          parentName: u.parentName || 'Sanjay Gadre',
-          parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
-          studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
-          domicileState: u.domicileState || 'Maharashtra',
-          caste: u.caste || 'General / Open',
-          email: u.email || 'aditi.gadre@gmail.com',
-          dob: u.dob || '2006-08-15',
-          dobPin: u.dobPin || '15082006',
-          targetYear: u.targetYear || '2027',
-          enrolledAt: u.enrolledAt || new Date().toISOString(),
-          rollNumber: u.rollNumber || 'NCBT-2027-784920',
-          devices: u.devices || ['dev-1'],
-          studentPhoto: u.studentPhoto || '',
-          gender: u.gender || 'Female',
-          disabilityStatus: u.disabilityStatus || 'No Disability',
-          specialReservation: u.specialReservation || 'None'
-        };
-        localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
-        localStorage.setItem('neet_user_enrolled', 'true');
-        return reconstructed;
+        try {
+          const u = JSON.parse(local);
+          const reconstructed: EnrolledStudent = {
+            studentName: u.studentName || u.name || 'Aditi Sanjay Gadre',
+            parentName: u.parentName || 'Sanjay Gadre',
+            parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
+            studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
+            domicileState: u.domicileState || 'Maharashtra',
+            caste: u.caste || 'General / Open',
+            email: u.email || 'aditi.gadre@gmail.com',
+            dob: u.dob || '2006-08-15',
+            dobPin: u.dobPin || '15082006',
+            targetYear: u.targetYear || '2027',
+            enrolledAt: u.enrolledAt || new Date().toISOString(),
+            rollNumber: u.rollNumber || 'NCBT-2027-784920',
+            devices: u.devices || ['dev-1'],
+            studentPhoto: u.studentPhoto || '',
+            gender: u.gender || 'Female',
+            disabilityStatus: u.disabilityStatus || 'No Disability',
+            specialReservation: u.specialReservation || 'None'
+          };
+          localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
+          localStorage.setItem('neet_user_enrolled', 'true');
+          return reconstructed;
+        } catch {}
       }
       const enrolledFlag = localStorage.getItem('neet_user_enrolled');
       if (enrolledFlag === 'true') {
@@ -102,6 +108,74 @@ export default function App() {
         };
         localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
         return fallbackStudent;
+      }
+      // Check if candidate has completed tests stored
+      const savedTests = localStorage.getItem('neet_completed_tests');
+      if (savedTests) {
+        try {
+          const tests = JSON.parse(savedTests);
+          if (Array.isArray(tests) && tests.length > 0) {
+            const fallbackStudent: EnrolledStudent = {
+              studentName: 'Aditi Sanjay Gadre',
+              parentName: 'Sanjay Gadre',
+              parentPhone: '9876543210',
+              studentPhone: '9876543210',
+              domicileState: 'Maharashtra',
+              caste: 'General / Open',
+              email: 'student@neetcbt.in',
+              dob: '2006-08-15',
+              dobPin: '15082006',
+              targetYear: '2027',
+              enrolledAt: new Date().toISOString(),
+              rollNumber: 'NCBT-2027-784920',
+              devices: ['dev-1'],
+              studentPhoto: '',
+              gender: 'Female',
+              disabilityStatus: 'No Disability',
+              specialReservation: 'None'
+            };
+            localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
+            localStorage.setItem('neet_user_enrolled', 'true');
+            return fallbackStudent;
+          }
+        } catch {}
+      }
+      // Check if Supabase session token exists in localStorage
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && (key.startsWith('sb-') && key.endsWith('-auth-token'))) {
+          const val = localStorage.getItem(key);
+          if (val) {
+            try {
+              const session = JSON.parse(val);
+              const u = session?.user;
+              if (u) {
+                const reconstructed: EnrolledStudent = {
+                  studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Aditi Sanjay Gadre',
+                  parentName: 'Sanjay Gadre',
+                  parentPhone: '9876543210',
+                  studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
+                  domicileState: 'Maharashtra',
+                  caste: 'General / Open',
+                  email: u.email || 'aditi.gadre@gmail.com',
+                  dob: '2006-08-15',
+                  dobPin: '15082006',
+                  targetYear: '2027',
+                  enrolledAt: new Date().toISOString(),
+                  rollNumber: 'NCBT-2027-784920',
+                  devices: ['dev-1'],
+                  studentPhoto: '',
+                  gender: 'Female',
+                  disabilityStatus: 'No Disability',
+                  specialReservation: 'None'
+                };
+                localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
+                localStorage.setItem('neet_user_enrolled', 'true');
+                return reconstructed;
+              }
+            } catch {}
+          }
+        }
       }
       return null;
     } catch {
@@ -171,6 +245,32 @@ export default function App() {
       supabase.auth.getSession().then(({ data: { session } }) => {
         if (session?.user) {
           setUser(session.user);
+          setEnrolledStudent(prev => {
+            if (prev) return prev;
+            const u = session.user;
+            const reconstructed: EnrolledStudent = {
+              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Aditi Sanjay Gadre',
+              parentName: 'Sanjay Gadre',
+              parentPhone: '9876543210',
+              studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
+              domicileState: 'Maharashtra',
+              caste: 'General / Open',
+              email: u.email || 'aditi.gadre@gmail.com',
+              dob: '2006-08-15',
+              dobPin: '15082006',
+              targetYear: '2027',
+              enrolledAt: new Date().toISOString(),
+              rollNumber: 'NCBT-2027-784920',
+              devices: ['dev-1'],
+              studentPhoto: '',
+              gender: 'Female',
+              disabilityStatus: 'No Disability',
+              specialReservation: 'None'
+            };
+            localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
+            localStorage.setItem('neet_user_enrolled', 'true');
+            return reconstructed;
+          });
         }
       }).catch(err => {
         console.warn('Supabase getSession failed, using local session:', err);
@@ -181,6 +281,32 @@ export default function App() {
       } = supabase.auth.onAuthStateChange((_event, session) => {
         if (session?.user) {
           setUser(session.user);
+          setEnrolledStudent(prev => {
+            if (prev) return prev;
+            const u = session.user;
+            const reconstructed: EnrolledStudent = {
+              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Aditi Sanjay Gadre',
+              parentName: 'Sanjay Gadre',
+              parentPhone: '9876543210',
+              studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
+              domicileState: 'Maharashtra',
+              caste: 'General / Open',
+              email: u.email || 'aditi.gadre@gmail.com',
+              dob: '2006-08-15',
+              dobPin: '15082006',
+              targetYear: '2027',
+              enrolledAt: new Date().toISOString(),
+              rollNumber: 'NCBT-2027-784920',
+              devices: ['dev-1'],
+              studentPhoto: '',
+              gender: 'Female',
+              disabilityStatus: 'No Disability',
+              specialReservation: 'None'
+            };
+            localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
+            localStorage.setItem('neet_user_enrolled', 'true');
+            return reconstructed;
+          });
         }
       });
 
@@ -382,8 +508,6 @@ export default function App() {
                 onStartTest={handleStartTest}
               />
             )}
-
-            {activeTab === 'college-predictor' && <NeetCollegePredictor />}
 
             {activeTab === 'what-extra' && (
               <WhatExtraSection

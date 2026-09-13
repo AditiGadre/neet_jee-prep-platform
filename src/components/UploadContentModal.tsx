@@ -128,7 +128,7 @@ export const UploadContentModal: React.FC<UploadContentModalProps> = ({
             subject,
             chapter,
             topic: 'Uploaded Question Block',
-            difficulty: 'Medium',
+            difficulty: 'Hard',
             questionText: qText,
             options,
             correctAnswer: 0,

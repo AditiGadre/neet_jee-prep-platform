@@ -71,26 +71,47 @@ export function getSequentialLoopQuestions(
   count: number = 45,
   topicKey: string = 'all',
   advanceCursor: boolean = true,
-  usedDiagramsTracker?: Set<string>
+  usedDiagramsTracker?: Set<string>,
+  fallbackPool?: Question[],
+  excludeSignatures?: Set<string>
 ): Question[] {
-  if (!pool || pool.length === 0) return [];
+  if ((!pool || pool.length === 0) && (!fallbackPool || fallbackPool.length === 0)) return [];
 
-  const N = pool.length;
-  const currentOffset = getLoopCursor(subject, topicKey) % N;
+  const N = pool && pool.length > 0 ? pool.length : 0;
+  const currentOffset = N > 0 ? getLoopCursor(subject, topicKey) % N : 0;
   const picked: Question[] = [];
+  const pickedSignatures = new Set<string>();
   const localUsedDiagrams = usedDiagramsTracker || new Set<string>();
 
-  for (let i = 0; i < count; i++) {
-    const rawQ = pool[(currentOffset + i) % N];
+  let examined = 0;
+  let cursor = currentOffset;
 
-    // Check diagram: if question already has a diagram or hard physics diagram, ensure NO duplicate in this paper
+  // 1. First pass: Pick unique questions from primary pool
+  while (picked.length < count && examined < N) {
+    const rawQ = pool[cursor % N];
+    cursor++;
+    examined++;
+
+    const textSig = (rawQ.questionText || '').trim().toLowerCase();
+    const idSig = rawQ.id;
+
+    if (pickedSignatures.has(textSig) || (idSig && pickedSignatures.has(idSig))) {
+      continue;
+    }
+    if (excludeSignatures && (excludeSignatures.has(textSig) || (idSig && excludeSignatures.has(idSig)))) {
+      continue;
+    }
+
+    pickedSignatures.add(textSig);
+    if (idSig) pickedSignatures.add(idSig);
+
     let diagSvg: string | undefined = undefined;
     if (rawQ.diagramSvg) {
       if (!localUsedDiagrams.has(rawQ.diagramSvg)) {
         diagSvg = rawQ.diagramSvg;
         localUsedDiagrams.add(diagSvg);
       }
-    } else if (rawQ.subject === 'Physics' && (rawQ.difficulty === 'Hard' || (rawQ.difficulty as string) === 'hard')) {
+    } else if (rawQ.subject === 'Physics') {
       const hardDiag = getHardPhysicsDiagram(rawQ, localUsedDiagrams);
       if (hardDiag) {
         diagSvg = hardDiag;
@@ -99,8 +120,9 @@ export function getSequentialLoopQuestions(
 
     picked.push({
       ...rawQ,
-      id: `loop-${subject.toLowerCase()}-${(currentOffset + i) % N}-${rawQ.id}`,
+      id: `loop-${subject.toLowerCase()}-${picked.length}-${rawQ.id}`,
       subject: (rawQ.subject || subject) as any,
+      difficulty: 'Hard' as const,
       diagramSvg: diagSvg,
       questionText: formatMathAndFormulas(rawQ.questionText),
       options: rawQ.options.map(o => formatMathAndFormulas(o)),
@@ -108,9 +130,51 @@ export function getSequentialLoopQuestions(
     });
   }
 
-  if (advanceCursor) {
-    const nextOffset = (currentOffset + count) % N;
-    setLoopCursor(subject, topicKey, nextOffset);
+  // 2. Second pass: If pool didn't have enough unique questions, draw from fallbackPool
+  if (picked.length < count && fallbackPool && fallbackPool.length > 0) {
+    for (let j = 0; j < fallbackPool.length && picked.length < count; j++) {
+      const rawQ = fallbackPool[j];
+      const textSig = (rawQ.questionText || '').trim().toLowerCase();
+      const idSig = rawQ.id;
+
+      if (pickedSignatures.has(textSig) || (idSig && pickedSignatures.has(idSig))) {
+        continue;
+      }
+      if (excludeSignatures && (excludeSignatures.has(textSig) || (idSig && excludeSignatures.has(idSig)))) {
+        continue;
+      }
+
+      pickedSignatures.add(textSig);
+      if (idSig) pickedSignatures.add(idSig);
+
+      let diagSvg: string | undefined = undefined;
+      if (rawQ.diagramSvg) {
+        if (!localUsedDiagrams.has(rawQ.diagramSvg)) {
+          diagSvg = rawQ.diagramSvg;
+          localUsedDiagrams.add(diagSvg);
+        }
+      } else if (rawQ.subject === 'Physics') {
+        const hardDiag = getHardPhysicsDiagram(rawQ, localUsedDiagrams);
+        if (hardDiag) {
+          diagSvg = hardDiag;
+        }
+      }
+
+      picked.push({
+        ...rawQ,
+        id: `loop-${subject.toLowerCase()}-${picked.length}-${rawQ.id}`,
+        subject: (rawQ.subject || subject) as any,
+        difficulty: 'Hard' as const,
+        diagramSvg: diagSvg,
+        questionText: formatMathAndFormulas(rawQ.questionText),
+        options: rawQ.options.map(o => formatMathAndFormulas(o)),
+        explanation: rawQ.explanation ? formatMathAndFormulas(rawQ.explanation) : ''
+      });
+    }
+  }
+
+  if (advanceCursor && N > 0) {
+    setLoopCursor(subject, topicKey, cursor % N);
   }
 
   return picked;
