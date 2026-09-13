@@ -38,6 +38,9 @@ import { downloadTestPaperPDF } from '../utils/pdfDownloader';
 import { recordSuperUserNotification } from '../utils/superUserNotifier';
 import {
   SUNDAY_DROPPER_PLANNER_TESTS,
+  SUNDAY_11TH_PLANNER_TESTS,
+  PLANNER_12TH_TESTS,
+  REVISION_ANALYSIS_BUFFER_12TH,
   SundayPlannerTest,
   generateSundayTestQuestions,
   getSavedCustomSundayPaper
@@ -57,7 +60,8 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   onOpenAdmin
 }) => {
   const [activeBatch, setActiveBatch] = useState<'repeater' | '12th' | '11th'>('repeater');
-  const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full'>('all');
+  const [activePhaseFilter, setActivePhaseFilter] = useState<'all' | 'cwt' | 'cumulative' | 'part' | 'full' | 'mock'>('all');
+  const [showRevisionBuffer, setShowRevisionBuffer] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [reminderSetFor, setReminderSetFor] = useState<string | null>(null);
   const [showAdminApprovalModal, setShowAdminApprovalModal] = useState(false);
@@ -135,27 +139,60 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     });
   }, [activePhaseFilter, searchQuery]);
 
-  // Class 12th Batch Sunday Tests
-  const batch12thSundays = useMemo(() => {
-    return SUNDAY_DROPPER_PLANNER_TESTS.filter(t => 
-      t.phaseGroup === 'full' || 
-      t.phaseGroup === 'part' || 
-      ['CWT-05', 'CWT-07', 'CWT-08', 'CWT-11', 'CWT-12', 'CWT-13', 'CWT-14', 'CWT-15', 'CWT-16', 'CWT-17', 'CWT-18', 'CWT-19', 'CUM-03', 'CUM-04', 'CUM-05'].includes(t.code)
-    );
-  }, []);
+  // Class 12th Batch Scheduled Tests (23 Tests from PDF Planner: 8 Part, 10 Complete Syllabus, 5 NEET Mocks)
+  const filtered12thTests = useMemo(() => {
+    return PLANNER_12TH_TESTS.filter(t => {
+      // Phase Filter
+      if (activePhaseFilter === 'part' && !t.code.startsWith('PART')) return false;
+      if (activePhaseFilter === 'full' && !t.code.startsWith('FULL')) return false;
+      if (activePhaseFilter === 'mock' && !t.code.startsWith('NEET MOCK')) return false;
 
-  // Class 11th Batch Sunday Tests
-  const batch11thSundays = useMemo(() => {
-    return SUNDAY_DROPPER_PLANNER_TESTS.filter(t => 
-      ['CWT-01', 'CWT-02', 'CWT-03', 'CWT-04', 'CUM-01', 'CWT-05', 'CWT-06', 'CWT-07', 'CWT-08', 'CUM-02', 'CWT-09', 'CWT-10', 'PART-01'].includes(t.code)
-    );
-  }, []);
+      // Search Query
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase().trim();
+        const inCode = t.code.toLowerCase().includes(q);
+        const inTitle = t.title.toLowerCase().includes(q);
+        const inPhy = t.physicsUnit.toLowerCase().includes(q);
+        const inChem = t.chemistryUnit.toLowerCase().includes(q);
+        const inBot = t.botanyBlock.toLowerCase().includes(q);
+        const inZoo = t.zoologyBlock.toLowerCase().includes(q);
+        const inDate = t.dateStr.includes(q);
+        return inCode || inTitle || inPhy || inChem || inBot || inZoo || inDate;
+      }
+      return true;
+    });
+  }, [activePhaseFilter, searchQuery]);
+
+  // Class 11th Batch Sunday Tests (Full 20-Sunday Cycle from Planner PDF)
+  const filtered11thTests = useMemo(() => {
+    return SUNDAY_11TH_PLANNER_TESTS.filter(t => {
+      // Phase Filter
+      if (activePhaseFilter === 'cwt' && t.phaseGroup !== 'cwt') return false;
+      if (activePhaseFilter === 'cumulative' && t.phaseGroup !== 'cumulative') return false;
+      if (activePhaseFilter === 'part' && t.phaseGroup !== 'part') return false;
+      if (activePhaseFilter === 'full' && t.phaseGroup !== 'full') return false;
+
+      // Search Query
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase().trim();
+        const inCode = t.code.toLowerCase().includes(q);
+        const inTitle = t.title.toLowerCase().includes(q);
+        const inPhy = t.physicsUnit.toLowerCase().includes(q);
+        const inChem = t.chemistryUnit.toLowerCase().includes(q);
+        const inBot = t.botanyBlock.toLowerCase().includes(q);
+        const inZoo = t.zoologyBlock.toLowerCase().includes(q);
+        const inDate = t.dateStr.includes(q);
+        return inCode || inTitle || inPhy || inChem || inBot || inZoo || inDate;
+      }
+      return true;
+    });
+  }, [activePhaseFilter, searchQuery]);
 
   const currentDisplayTests = activeBatch === 'repeater'
     ? filteredDropperTests
     : activeBatch === '12th'
-    ? batch12thSundays
-    : batch11thSundays;
+    ? filtered12thTests
+    : filtered11thTests;
 
   const handleLaunchDirectSundayTest = (plannerTest: SundayPlannerTest) => {
     if (!isAdminAccessGranted) {
@@ -252,7 +289,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       cbtMode: true,
       questions
     };
-    downloadTestPaperPDF(testItem, questions);
+    downloadTestPaperPDF(testItem, false);
   };
 
   const handleSetReminder = (testTitle: string, dateStr: string) => {
@@ -289,6 +326,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             onClick={() => {
               setActiveBatch('12th');
               setActivePhaseFilter('all');
+              setShowRevisionBuffer(false);
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === '12th'
@@ -298,13 +336,16 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           >
             <GraduationCap className="w-4 h-4" />
             <span>12th Batch</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current">Board + NEET</span>
+            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+              23 Tests + Buffer
+            </span>
           </button>
 
           <button
             onClick={() => {
               setActiveBatch('11th');
               setActivePhaseFilter('all');
+              setShowRevisionBuffer(false);
             }}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 cursor-pointer ${
               activeBatch === '11th'
@@ -314,7 +355,9 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
           >
             <Atom className="w-4 h-4" />
             <span>11th Batch</span>
-            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current">Foundation</span>
+            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-white/20 text-current font-mono">
+              20 Sunday Tests
+            </span>
           </button>
         </div>
 
@@ -341,19 +384,27 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       <div className="bg-gradient-to-br from-white via-slate-50 to-blue-50/50 border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200/80 pb-4">
           <div>
-            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-bold uppercase tracking-wider mb-2 shadow-xs">
-              <Calendar className="w-3.5 h-3.5 text-cyan-300" />
-              <span>NEET 2027 Dropper Test Planner &bull; 15 Sep 2026 – 2 May 2027 &bull; Every Sunday</span>
-            </div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
               {activeBatch === 'repeater'
                 ? 'NEET 2027 Dropper Sunday Test Series (Official 33-Sunday Cycle)'
                 : activeBatch === '12th'
-                ? 'Class 12th Sunday All-India Test Series (Target 2027/2028)'
-                : 'Class 11th Foundation Sunday All-India Test Series (Target 2028/2029)'}
+                ? 'Class 12th Complete Syllabus Test Series (Official 23-Test Cycle + Buffer)'
+                : 'Class 11th Foundation Sunday All-India Test Series (Official 20-Sunday Cycle)'}
             </h1>
             <p className="mt-1 text-xs text-slate-600 max-w-3xl leading-relaxed">
-              Strictly aligned to official NMC/NTA NEET syllabus: <strong>180 Questions &bull; 180 Minutes (3.0 Hours) &bull; 180 Marks (Physics 45, Chemistry 45, Biology 90)</strong>. Every Sunday test follows the prescribed chapter progression: <strong>CWT (Chapter-Wise 1-19) &rarr; Cumulative (CUM 1-5) &rarr; Part Tests (PART 1-3) &rarr; Full Syllabus (FST 1-6)</strong>.
+              {activeBatch === '11th' ? (
+                <>
+                  Strictly aligned to official NMC/NTA NEET syllabus: <strong>Complete chapter-wise testing by the last week of February, followed by three complete Class 11 NEET syllabus tests</strong>. Chapter-wise tests (<strong>CWT-01 to CWT-12</strong>) scheduled every second Sunday, Cumulative tests (<strong>CUM-01 to CUM-05</strong>) placed after learning blocks, and Full Syllabus Tests (<strong>FST-01 to FST-03</strong>). <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                </>
+              ) : activeBatch === '12th' ? (
+                <>
+                  Structured 3-Phase NEET (UG) Master Planner for Class 12: <strong>Phase 1: 8 Part-Wise Tests (PART 1–8)</strong> every 5 days covering Class 11 &amp; 12 progressively; <strong>Phase 2: 10 Complete Syllabus Tests (FULL-01 to FULL-10)</strong> every 4 days focusing on baseline, error tagging, NCERT retention, reactions, and pacing; <strong>Phase 3: 5 NEET Mock Simulations (NEET MOCK-01 to 05)</strong> every 2 days with full analytics; followed by a <strong>7-Stage Revision &amp; Analysis Buffer</strong> through 03 Feb 2027. <strong>180 Questions • 180 Minutes • 720 Marks CBT</strong>.
+                </>
+              ) : (
+                <>
+                  Strictly aligned to official NMC/NTA NEET syllabus: <strong>180 Questions &bull; 180 Minutes (3.0 Hours) &bull; 720 Marks (Physics 180, Chemistry 180, Biology 360)</strong>. Every Sunday test follows the prescribed chapter progression: <strong>CWT (Chapter-Wise 1-19) &rarr; Cumulative (CUM 1-5) &rarr; Part Tests (PART 1-3) &rarr; Full Syllabus (FST 1-6)</strong>.
+                </>
+              )}
             </p>
           </div>
 
@@ -367,29 +418,85 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
         {/* High Density Metric Cards */}
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 1: CWT & Cumulative</div>
-            <div className="text-xl font-bold text-slate-900 mt-0.5">24 Sunday Tests</div>
-            <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep 2026 – 28 Feb 2027</div>
-          </div>
+          {activeBatch === '11th' ? (
+            <>
+              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">12 Sunday Tests</div>
+                <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep 2026 – 21 Feb 2027</div>
+              </div>
 
-          <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 2: Part Tests</div>
-            <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
-            <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">07 Mar – 21 Mar 2027</div>
-          </div>
+              <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 1: Cumulative</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">5 Sunday Tests</div>
+                <div className="text-[10px] text-amber-700 font-semibold mt-0.5 font-mono">25 Oct 2026 – 14 Feb 2027</div>
+              </div>
 
-          <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 3: Full Syllabus</div>
-            <div className="text-xl font-bold text-slate-900 mt-0.5">6 Sunday Tests</div>
-            <div className="text-[10px] text-amber-600 font-semibold mt-0.5 font-mono">28 Mar – 02 May 2027</div>
-          </div>
+              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Final Phase: Full Syllabus</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
+                <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">28 Feb – 14 Mar 2027</div>
+              </div>
 
-          <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Total Sunday Cycle</div>
-            <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">33 Tests (5,940 Qs)</div>
-            <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 180 Marks CBT</div>
-          </div>
+              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Total 11th Cycle</div>
+                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">20 Tests (3,600 Qs)</div>
+                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 720 Marks CBT</div>
+              </div>
+            </>
+          ) : activeBatch === '12th' ? (
+            <>
+              <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Part-Wise</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (Every 5d)</div>
+                <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep – 25 Oct 2026</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 2: Complete Syllabus</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">10 Tests (Every 4d)</div>
+                <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">29 Oct – 04 Dec 2026</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 3: NEET Mocks</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">5 Mocks (Every 2d)</div>
+                <div className="text-[10px] text-amber-700 font-semibold mt-0.5 font-mono">10 Dec – 18 Dec 2026</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Buffer &amp; Analysis</div>
+                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">7 Repair Cycles</div>
+                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">11 Dec 2026 – 03 Feb 2027</div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 1: CWT & Cumulative</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">24 Sunday Tests</div>
+                <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep 2026 – 28 Feb 2027</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 2: Part Tests</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
+                <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">07 Mar – 21 Mar 2027</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 3: Full Syllabus</div>
+                <div className="text-xl font-bold text-slate-900 mt-0.5">6 Sunday Tests</div>
+                <div className="text-[10px] text-amber-600 font-semibold mt-0.5 font-mono">28 Mar – 02 May 2027</div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
+                <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Total Sunday Cycle</div>
+                <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">33 Tests (5,940 Qs)</div>
+                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">180 Mins &bull; 180 Marks CBT</div>
+              </div>
+            </>
+          )}
         </div>
       </div>
 
@@ -411,18 +518,36 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
       {/* PHASE FILTER PILLS & SEARCH BAR */}
       <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-1.5 overflow-x-auto pb-1 md:pb-0">
-          {[
-            { id: 'all', label: `All (${activeBatch === 'repeater' ? SUNDAY_DROPPER_PLANNER_TESTS.length : currentDisplayTests.length})` },
-            { id: 'cwt', label: 'Phase 1: CWT (19)' },
-            { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
-            { id: 'part', label: 'Phase 2: Part-Wise (3)' },
-            { id: 'full', label: 'Phase 3: Full Syllabus (6)' }
-          ].map(f => (
+          {(activeBatch === '11th'
+            ? [
+                { id: 'all', label: `All (${SUNDAY_11TH_PLANNER_TESTS.length})` },
+                { id: 'cwt', label: 'Phase 1: CWT (12)' },
+                { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
+                { id: 'full', label: 'Final Phase: Full Syllabus (3)' }
+              ]
+            : activeBatch === '12th'
+            ? [
+                { id: 'all', label: `All (23 Tests)` },
+                { id: 'part', label: 'Phase 1: Part-Wise (8)' },
+                { id: 'full', label: 'Phase 2: Complete Syllabus (10)' },
+                { id: 'mock', label: 'Phase 3: NEET Mocks (5)' }
+              ]
+            : [
+                { id: 'all', label: `All (${SUNDAY_DROPPER_PLANNER_TESTS.length})` },
+                { id: 'cwt', label: 'Phase 1: CWT (19)' },
+                { id: 'cumulative', label: 'Phase 1: Cumulative (5)' },
+                { id: 'part', label: 'Phase 2: Part-Wise (3)' },
+                { id: 'full', label: 'Phase 3: Full Syllabus (6)' }
+              ]
+          ).map(f => (
             <button
               key={f.id}
-              onClick={() => setActivePhaseFilter(f.id as any)}
+              onClick={() => {
+                setActivePhaseFilter(f.id as any);
+                setShowRevisionBuffer(false);
+              }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition cursor-pointer ${
-                activePhaseFilter === f.id
+                activePhaseFilter === f.id && !showRevisionBuffer
                   ? 'bg-blue-600 text-white shadow-xs'
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200'
               }`}
@@ -430,6 +555,20 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               {f.label}
             </button>
           ))}
+
+          {activeBatch === '12th' && (
+            <button
+              onClick={() => setShowRevisionBuffer(!showRevisionBuffer)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition cursor-pointer flex items-center gap-1.5 ${
+                showRevisionBuffer
+                  ? 'bg-purple-600 text-white shadow-xs'
+                  : 'bg-purple-50 text-purple-800 hover:bg-purple-100 border border-purple-200'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <span>Revision &amp; Analysis Buffer (7 Stages)</span>
+            </button>
+          )}
         </div>
 
         {/* Search Bar */}
@@ -445,11 +584,63 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         </div>
       </div>
 
+      {/* 12th BATCH REVISION & ANALYSIS BUFFER PANEL */}
+      {activeBatch === '12th' && showRevisionBuffer && (
+        <div className="p-5 rounded-2xl bg-gradient-to-br from-purple-50/80 via-white to-indigo-50/50 border border-purple-200 shadow-xs space-y-4 animate-in fade-in duration-200">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-purple-100 pb-3">
+            <div className="flex items-center gap-2.5">
+              <span className="p-2 rounded-xl bg-purple-600 text-white shadow-2xs">
+                <Sparkles className="w-4 h-4 text-amber-300" />
+              </span>
+              <div>
+                <h3 className="text-sm font-bold text-slate-900">
+                  Revision &amp; Analysis Buffer (11 December 2026 – 03 February 2027)
+                </h3>
+                <p className="text-xs text-slate-600">
+                  Structured 7-cycle post-mock remediation program to eliminate errors and cement 720-mark mastery.
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => setShowRevisionBuffer(false)}
+              className="px-3 py-1 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 self-start sm:self-auto cursor-pointer"
+            >
+              Hide Buffer
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {REVISION_ANALYSIS_BUFFER_12TH.map((stage, idx) => (
+              <div
+                key={idx}
+                className="p-3.5 rounded-xl bg-white border border-purple-100 shadow-2xs hover:border-purple-300 transition space-y-2"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-md font-mono">
+                    Stage {idx + 1}
+                  </span>
+                  <span className="text-[11px] font-semibold text-slate-500 font-mono">
+                    {stage.period}
+                  </span>
+                </div>
+                <div className="text-xs font-bold text-slate-900">
+                  {stage.action}
+                </div>
+                <div className="text-[11px] text-slate-600 leading-relaxed bg-purple-50/40 p-2 rounded-lg border border-purple-100/60">
+                  <span className="font-bold text-purple-900">Output:</span> {stage.output}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* SCHEDULED SUNDAYS CALENDAR LIST */}
       <div className="space-y-3">
         <div className="flex items-center justify-between px-1">
           <h2 className="text-sm font-bold text-slate-800 flex items-center gap-1.5">
-            <Calendar className="w-4 h-4 text-blue-600" /> Showing {currentDisplayTests.length} Scheduled Sunday Tests
+            <Calendar className="w-4 h-4 text-blue-600" />
+            <span>Showing {currentDisplayTests.length} {activeBatch === '12th' ? 'Scheduled Tests' : 'Scheduled Sunday Tests'}</span>
           </h2>
           <span className="text-xs font-mono font-semibold text-slate-500">
             Official NTA NEET Standard &bull; 720 Marks
@@ -481,9 +672,29 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       {isLive && isAdminAccessGranted ? '🔴 LIVE TODAY (SUNDAY)' : `📅 ${mock.dateStr}`}
                     </span>
 
-                    <span className="text-xs font-bold font-mono text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-lg">
-                      {mock.code} &bull; {mock.phase}
-                    </span>
+                    {(() => {
+                      const isMock = mock.code.startsWith('NEET MOCK');
+                      const isFull = mock.code.startsWith('FULL-') || mock.code.startsWith('FST-') || mock.phaseGroup === 'full';
+                      const isCum = mock.phaseGroup === 'cumulative' || mock.code.startsWith('CUM-');
+                      const isPart = mock.code.startsWith('PART');
+                      
+                      let badgeColorClass = 'text-blue-700 bg-blue-50 border-blue-200';
+                      if (isMock) {
+                        badgeColorClass = 'text-amber-800 bg-amber-50 border-amber-300';
+                      } else if (isFull && !isMock) {
+                        badgeColorClass = 'text-emerald-800 bg-emerald-50 border-emerald-300';
+                      } else if (isCum) {
+                        badgeColorClass = 'text-amber-800 bg-amber-50 border-amber-300';
+                      } else if (isPart) {
+                        badgeColorClass = 'text-indigo-800 bg-indigo-50 border-indigo-200';
+                      }
+
+                      return (
+                        <span className={`text-xs font-bold font-mono px-2.5 py-0.5 rounded-lg border ${badgeColorClass}`}>
+                          {mock.code} &bull; {mock.phase}
+                        </span>
+                      );
+                    })()}
 
                     <span className="text-xs font-mono text-slate-600 bg-slate-50 border border-slate-200 px-2 py-0.5 rounded-lg">
                       720 Marks &bull; 180 Mins &bull; 180 Qs
@@ -565,7 +776,13 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     {isAdminAccessGranted ? (
                       <>
                         <Play className="w-4 h-4 fill-current" />
-                        <span>{isLive ? 'Start Live Sunday Test (720M)' : 'Start Sunday Test (720M)'}</span>
+                        <span>
+                          {isLive
+                            ? 'Start Live Test (720M)'
+                            : activeBatch === '12th'
+                            ? 'Start Scheduled Test (720M)'
+                            : 'Start Sunday Test (720M)'}
+                        </span>
                       </>
                     ) : (
                       <>
