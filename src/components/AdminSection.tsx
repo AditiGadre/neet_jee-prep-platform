@@ -53,14 +53,6 @@ import {
   ChevronUp
 } from 'lucide-react';
 import {
-  SuperUserNotification,
-  getSuperUserNotifications,
-  getSuperUserMetrics,
-  markAllSuperUserNotificationsAsRead,
-  clearSuperUserNotifications,
-  getDisplayQuestionReferences
-} from '../utils/superUserNotifier';
-import {
   getUnifiedQuestionBank,
   ALL_BIOLOGY_CHAPTERS,
   ALL_CHEMISTRY_CHAPTERS,
@@ -107,10 +99,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   onOpenUploadModal
 }) => {
   const [adminTab, setAdminTab] = useState<'requests' | 'sunday_studio' | 'generator' | 'telemetry' | 'students'>('requests');
-  const [notifications, setNotifications] = useState<SuperUserNotification[]>([]);
-  const [metrics, setMetrics] = useState(getSuperUserMetrics());
-  const [categoryFilter, setCategoryFilter] = useState<string>('All');
-  const [searchQuery, setSearchQuery] = useState<string>('');
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
 
@@ -119,7 +107,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [inventorySearch, setInventorySearch] = useState<string>('');
   const [inventorySortBy, setInventorySortBy] = useState<'count_desc' | 'count_asc' | 'name_asc'>('count_desc');
   const [expandedChapterName, setExpandedChapterName] = useState<string | null>(null);
-  const [showDownloadTelemetryLogs, setShowDownloadTelemetryLogs] = useState<boolean>(false);
 
   // Compute Question Bank Inventory across all subjects & chapters
   const questionInventory = useMemo(() => {
@@ -304,11 +291,9 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
 
   const reloadData = () => {
     try {
-      setNotifications(getSuperUserNotifications());
-      setMetrics(getSuperUserMetrics());
       setUnlockRequests(getStoredUnlockRequests());
     } catch (e) {
-      console.warn('Error reloading admin telemetry:', e);
+      console.warn('Error reloading admin data:', e);
     }
   };
 
@@ -1007,69 +992,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
     setTimeout(() => setExportSuccess(null), 3500);
   };
 
-  const handleMarkAllRead = () => {
-    markAllSuperUserNotificationsAsRead();
-    reloadData();
-  };
-
-  const handleClear = () => {
-    if (window.confirm('Are you sure you want to clear all Super User download notifications?')) {
-      clearSuperUserNotifications();
-      reloadData();
-    }
-  };
-
-  const handleExportCSV = () => {
-    if (!notifications || notifications.length === 0) return;
-    const headers = ['Timestamp', 'Student Name', 'Contact Number', 'Email', 'Category', 'Document Title', 'Question Bank IDs / Scope', 'File Size'];
-    const rows = notifications.map(n => [
-      `"${new Date(n.timestamp).toLocaleString()}"`,
-      `"${n.userName}"`,
-      `"${n.userPhone}"`,
-      `"${n.userEmail}"`,
-      `"${n.category}"`,
-      `"${n.contentTitle.replace(/"/g, '""')}"`,
-      `"${getDisplayQuestionReferences(n).replace(/"/g, '""')}"`,
-      `"${n.fileSize}"`
-    ]);
-
-    const csvContent = 'data:text/csv;charset=utf-8,' + [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement('a');
-    link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `neet_cbt_downloads_report_${new Date().toISOString().split('T')[0]}.csv`);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  const safeNotifications = Array.isArray(notifications) ? notifications : [];
-  const filteredNotifications = safeNotifications.filter(n => {
-    const matchesCat = categoryFilter === 'All' || n.category === categoryFilter;
-    const matchesQuery =
-      !searchQuery ||
-      n.userName?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      n.userPhone?.includes(searchQuery) ||
-      n.userEmail?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      n.contentTitle?.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCat && matchesQuery;
-  });
-
-  const getCategoryBadge = (category: string) => {
-    switch (category) {
-      case 'Test Paper':
-        return { bg: 'bg-blue-50 text-blue-700 border-blue-200', icon: FileText };
-      case 'Book':
-        return { bg: 'bg-emerald-50 text-emerald-700 border-emerald-200', icon: BookOpen };
-      case 'Scorecard':
-        return { bg: 'bg-purple-50 text-purple-700 border-purple-200', icon: Award };
-      case 'DPP':
-        return { bg: 'bg-amber-50 text-amber-700 border-amber-200', icon: FileSpreadsheet };
-      default:
-        return { bg: 'bg-gray-50 text-gray-700 border-gray-200', icon: Download };
-    }
-  };
-
   const enrolledStudent = (() => {
     try {
       const raw = localStorage.getItem('neet_enrolled_student');
@@ -1098,7 +1020,7 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </span>
               </div>
               <p className="text-xs text-slate-300 mt-1">
-                Real-time student unlock approvals, custom test paper generator, download telemetry & Sunday test access management.
+                Real-time student unlock approvals, custom test paper generator, question bank analytics & Sunday test access management.
               </p>
             </div>
           </div>
@@ -3153,155 +3075,6 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                 </div>
               );
             })}
-          </div>
-
-          {/* Collapsible Download Telemetry Section */}
-          <div className="pt-4 border-t border-slate-200">
-            <button
-              onClick={() => setShowDownloadTelemetryLogs(!showDownloadTelemetryLogs)}
-              className="w-full p-3.5 rounded-2xl bg-slate-100 hover:bg-slate-200 border border-slate-300 text-xs font-bold text-slate-700 flex items-center justify-between transition cursor-pointer"
-            >
-              <div className="flex items-center space-x-2">
-                <Activity className="w-4 h-4 text-slate-600" />
-                <span>Student Download Telemetry Logs & PDF Audit Records</span>
-                <span className="px-2 py-0.5 rounded-full bg-slate-300 text-slate-800 font-mono text-[10px]">
-                  {notifications.length} Logs
-                </span>
-              </div>
-              <div className="flex items-center space-x-1 text-slate-500 text-xs">
-                <span>{showDownloadTelemetryLogs ? 'Hide Download Logs' : 'Expand Download Logs'}</span>
-                {showDownloadTelemetryLogs ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
-              </div>
-            </button>
-
-            {showDownloadTelemetryLogs && (
-              <div className="mt-3 space-y-3 animate-in fade-in">
-                <div className="p-4 rounded-2xl border border-gray-200 bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
-                  <div className="flex flex-wrap items-center gap-1.5">
-                    {['All', 'Test Paper', 'Book', 'Scorecard', 'DPP'].map(cat => (
-                      <button
-                        key={cat}
-                        onClick={() => setCategoryFilter(cat)}
-                        className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
-                          categoryFilter === cat
-                            ? 'bg-blue-600 text-white shadow-xs'
-                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                        }`}
-                      >
-                        {cat === 'All' ? 'All Alerts' : cat}
-                      </button>
-                    ))}
-                  </div>
-
-                  <div className="flex items-center space-x-2">
-                    <button
-                      onClick={handleMarkAllRead}
-                      className="px-3 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 transition cursor-pointer"
-                      title="Mark All as Read"
-                    >
-                      <CheckCheck className="w-3.5 h-3.5 text-emerald-600" />
-                      <span className="hidden md:inline">Mark Read</span>
-                    </button>
-
-                    <button
-                      onClick={handleExportCSV}
-                      className="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 text-xs font-semibold flex items-center space-x-1 transition cursor-pointer"
-                      title="Export CSV Report"
-                    >
-                      <FileDown className="w-3.5 h-3.5 text-emerald-600" />
-                      <span className="hidden md:inline">Export CSV</span>
-                    </button>
-
-                    {notifications.length > 0 && (
-                      <button
-                        onClick={handleClear}
-                        className="p-2 rounded-xl bg-gray-100 hover:bg-rose-50 text-gray-400 hover:text-rose-600 transition cursor-pointer"
-                        title="Clear All Notifications"
-                      >
-                        <Trash2 className="w-4 h-4" />
-                      </button>
-                    )}
-                  </div>
-                </div>
-
-                <div className="space-y-2.5">
-                  {filteredNotifications.length > 0 ? (
-                    filteredNotifications.map(item => {
-                      const badge = getCategoryBadge(item.category);
-                      const BadgeIcon = badge.icon;
-
-                      return (
-                        <div
-                          key={item.id}
-                          className={`p-4 rounded-2xl border transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs ${
-                            !item.read ? 'bg-white border-blue-300 ring-1 ring-blue-100' : 'bg-white border-gray-200'
-                          }`}
-                        >
-                          <div className="flex items-start space-x-3.5 min-w-0">
-                            <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border ${badge.bg}`}>
-                              <BadgeIcon className="w-5 h-5" />
-                            </div>
-
-                            <div className="space-y-1 min-w-0">
-                              <div className="flex items-center space-x-2 flex-wrap gap-y-1">
-                                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-lg border uppercase font-mono ${badge.bg}`}>
-                                  {item.category}
-                                </span>
-                                {!item.read && (
-                                  <span className="px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 font-bold text-[9px] uppercase font-mono">
-                                    NEW
-                                  </span>
-                                )}
-                                <span className="text-[11px] text-gray-500 font-mono flex items-center space-x-1">
-                                  <Calendar className="w-3 h-3 text-gray-400" />
-                                  <span>{new Date(item.timestamp).toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
-                                </span>
-                                <span
-                                  className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 border border-blue-200 font-semibold"
-                                  title={`Question Bank IDs: ${getDisplayQuestionReferences(item)}`}
-                                >
-                                  🏷️ {getDisplayQuestionReferences(item)}
-                                </span>
-                              </div>
-
-                              <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">
-                                {item.contentTitle}
-                              </h4>
-
-                              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs pt-0.5">
-                                <span className="inline-flex items-center space-x-1 text-blue-900 font-bold">
-                                  <User className="w-3.5 h-3.5 text-blue-600" />
-                                  <span>{item.userName}</span>
-                                </span>
-                                <span className="inline-flex items-center space-x-1 text-emerald-800 font-mono font-semibold text-[11px]">
-                                  <Phone className="w-3.5 h-3.5 text-emerald-600" />
-                                  <span>{item.userPhone}</span>
-                                </span>
-                                <span className="inline-flex items-center space-x-1 text-gray-500 font-mono text-[11px]">
-                                  <Mail className="w-3.5 h-3.5 text-gray-400" />
-                                  <span>{item.userEmail}</span>
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-
-                          <span className="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-bold font-mono self-end sm:self-center shrink-0">
-                            ✓ Verified
-                          </span>
-                        </div>
-                      );
-                    })
-                  ) : (
-                    <div className="text-center py-8 px-4 bg-white rounded-2xl border border-gray-200 space-y-2">
-                      <div className="w-10 h-10 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mx-auto">
-                        <Bell className="w-5 h-5" />
-                      </div>
-                      <p className="text-xs text-gray-500">No download logs at this time.</p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
           </div>
         </div>
       )}
