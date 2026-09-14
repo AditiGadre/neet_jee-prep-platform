@@ -69,6 +69,7 @@ import {
   getSubtopicsForTopic,
   filterQuestionsBySubtopic
 } from '../utils/subtopicResolver';
+import { cleanOcrText } from '../utils/ocrCleaner';
 
 interface WhatExtraSectionProps {
   activeSubTab: string;
@@ -128,7 +129,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   const [dppDate, setDppDate] = useState<string>(new Date().toISOString().split('T')[0]);
   const [dppSubject, setDppSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Physics');
   const [dppChapter, setDppChapter] = useState<string>('Thermodynamics');
-  const [dppSubtopic, setDppSubtopic] = useState<string>('All Sub-Topics');
+  const [dppSubtopic, setDppSubtopic] = useState<string>('First Law of Thermodynamics');
   const [dppQCount, setDppQCount] = useState<number>(15);
   const [dppLevel, setDppLevel] = useState<string>('CBT Standard Level');
   const [isGeneratingDpp, setIsGeneratingDpp] = useState<boolean>(false);
@@ -221,7 +222,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   }, [dppSubject, dppChapterList, dppChapter]);
 
   useEffect(() => {
-    setDppSubtopic('All Sub-Topics');
+    const subs = getSubtopicsForTopic(dppSubject, dppChapter);
+    setDppSubtopic(subs[0] || '');
   }, [dppSubject, dppChapter]);
 
   const availableDppSubtopics = useMemo(() => {
@@ -338,14 +340,21 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
         if (pool.length === 0) {
           pool = (basePool.length > 0 ? basePool : SAMPLE_QUESTIONS).map(q => ({ ...q, chapter: dppChapter }));
         }
-        const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
+        const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount).map(q => ({
+          ...q,
+          topic: dppSubtopic,
+          subtopic: dppSubtopic,
+          questionText: cleanOcrText(q.questionText || (q as any).question || ''),
+          options: (q.options || []).map(o => cleanOcrText(o)),
+          explanation: cleanOcrText(q.explanation || '')
+        }));
         markQuestionsAsConsumed(selected.map(q => q.id));
 
         downloadDppPDF({
           date: dppDate,
           subject: dppSubject,
           chapter: dppChapter,
-          subtopic: dppSubtopic !== 'All Sub-Topics' ? dppSubtopic : undefined,
+          subtopic: dppSubtopic && dppSubtopic !== 'All Sub-Topics' ? dppSubtopic : undefined,
           level: dppLevel,
           questions: selected
         });
@@ -374,16 +383,23 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     if (pool.length === 0) {
       pool = (basePool.length > 0 ? basePool : SAMPLE_QUESTIONS).map(q => ({ ...q, chapter: dppChapter }));
     }
-    const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
+    const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount).map(q => ({
+      ...q,
+      topic: dppSubtopic,
+      subtopic: dppSubtopic,
+      questionText: cleanOcrText(q.questionText || (q as any).question || ''),
+      options: (q.options || []).map(o => cleanOcrText(o)),
+      explanation: cleanOcrText(q.explanation || '')
+    }));
     markQuestionsAsConsumed(selected.map(q => q.id));
 
-    const subtopicLabel = dppSubtopic !== 'All Sub-Topics' ? ` • ${dppSubtopic}` : '';
+    const subtopicLabel = dppSubtopic ? ` • ${dppSubtopic}` : '';
     const dppTest: TestItem = {
       id: `dpp-live-${Date.now()}`,
       title: `DPP - ${dppSubject}: ${dppChapter}${subtopicLabel} (${selected.length} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${dppSubject} › ${dppChapter}${dppSubtopic !== 'All Sub-Topics' ? ` › ${dppSubtopic}` : ''} • ${dppLevel} (${selected.length} Sub-Topic Questions with Step-by-Step Solutions)`,
+      syllabus: `${dppSubject} › ${dppChapter}${dppSubtopic ? ` › ${dppSubtopic}` : ''} • ${dppLevel} (${selected.length} Sub-Topic Questions with Step-by-Step Solutions)`,
       totalQuestions: selected.length,
       durationMinutes: selected.length,
       totalMarks: selected.length * 4,
@@ -393,7 +409,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       features: [
         `Subject: ${dppSubject}`,
         `Topic: ${dppChapter}`,
-        ...(dppSubtopic !== 'All Sub-Topics' ? [`Sub-Topic: ${dppSubtopic}`] : []),
+        ...(dppSubtopic ? [`Sub-Topic: ${dppSubtopic}`] : []),
         `Target Date: ${dppDate}`,
         `Questions: ${selected.length} Practice Questions with Full Solutions`,
         `Standard: ${dppLevel}`
@@ -1107,7 +1123,6 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 onChange={e => setDppSubtopic(e.target.value)}
                 className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-blue-500"
               >
-                <option value="All Sub-Topics">🌟 All Sub-Topics (Complete Topic)</option>
                 {availableDppSubtopics.map(st => (
                   <option key={st} value={st}>{st}</option>
                 ))}

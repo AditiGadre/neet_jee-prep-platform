@@ -160,6 +160,17 @@ export function cleanOcrText(text: string): string {
   cleaned = cleaned.replace(/\\text\s+/gi, ' ');
   cleaned = cleaned.replace(/\\text/gi, '');
 
+  // Strip exam brackets, years, and target tags:
+  // e.g. [NEET 2007], [NEET 2029 Practice], [NEET 2027 Target], [NEET 2028 Expected], [AIPMT 2005], [AIIMS 2012], (NEET 2020), etc.
+  cleaned = cleaned.replace(/\[\s*(?:NEET|AIPMT|AIIMS|AIEEE|JEE(?:\s*Main|\s*Advanced)?|CBSE(?:\s*PMT)?|AFMC|BHU|PMT|DCE|UPMT|RPMT|CMC|EAMCET|KCET|GUJCET|MHT\s*CET)[^\]]*\]/gi, '');
+  cleaned = cleaned.replace(/\(\s*(?:NEET|AIPMT|AIIMS|AIEEE|JEE(?:\s*Main|\s*Advanced)?|CBSE(?:\s*PMT)?|AFMC|BHU|PMT|DCE|UPMT|RPMT|CMC|EAMCET|KCET|GUJCET|MHT\s*CET)[^)]*\)/gi, '');
+  cleaned = cleaned.replace(/\[\s*\d{4}\s*(?:Practice|Target|Expected|Revision)?\s*\]/gi, '');
+
+  // Strip coaching institute branding words: allen, aakash, resonance, motion, fiitjee, etc.
+  cleaned = cleaned.replace(/\[\s*(?:allen|aakash|resonance|fiitjee|motion|narayana|chaitanya)[^\]]*\]/gi, '');
+  cleaned = cleaned.replace(/\(\s*(?:allen|aakash|resonance|fiitjee|motion|narayana|chaitanya)[^)]*\)/gi, '');
+  cleaned = cleaned.replace(/\b(?:allen|aakash|resonance|motion|fiitjee|career\s*point|narayana|chaitanya)\b/gi, '');
+
   // Clean examiner / ncert solution wording
   cleaned = cleaned.replace(/Examiner(?:'s)?\s*(?:Pro-)?Tip:?/gi, 'Core Principle:');
   cleaned = cleaned.replace(/NCERT\s*Verified\s*Solution:?/gi, 'Detailed Concept Derivation:');
@@ -171,7 +182,8 @@ export function cleanOcrText(text: string): string {
   cleaned = cleaned.replace(/see\s+solution\s+of\s+q\d+.*$/gi, 'Follows established chemical and physical laws.');
   cleaned = cleaned.replace(/detailed\s+solution\s+for\s+[a-zA-Z0-9\s]+q\d+/gi, 'Step-by-step conceptual resolution');
 
-  // Clean up double spaces
+  // Clean up punctuation spacing and double spaces
+  cleaned = cleaned.replace(/\s+([.,;:?!])/g, '$1');
   cleaned = cleaned.replace(/\s+/g, ' ');
 
   return cleaned.trim();

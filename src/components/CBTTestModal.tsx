@@ -1013,7 +1013,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                       <span>&bull;</span>
                       <span className="font-medium text-slate-600">{currentQ.chapter}</span>
                       <span>&bull;</span>
-                      <span className="text-slate-400 font-mono">{currentQ.topic || (currentQ as any).subtopic || ''}</span>
+                      <span className="text-slate-400 font-mono">{resolveQuestionSubtopic(currentQ)}</span>
                     </div>
 
                     <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 font-bold border border-emerald-200">
@@ -1078,7 +1078,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           >
                             {String.fromCharCode(65 + optIdx)}
                           </div>
-                          <span className="text-xs sm:text-sm flex-1 leading-relaxed">{option}</span>
+                          <span className="text-xs sm:text-sm flex-1 leading-relaxed">{formatMathAndFormulas(cleanOcrText(option))}</span>
                           {isSelected && (
                             <CheckIcon className="w-5 h-5 text-blue-600 shrink-0 stroke-[3]" />
                           )}
@@ -2221,7 +2221,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                               }`}
                             >
                               <span className="font-bold">({String.fromCharCode(65 + oIdx)})</span>
-                              <span>{opt}</span>
+                              <span>{formatMathAndFormulas(cleanOcrText(opt))}</span>
                             </div>
                           ))}
                         </div>

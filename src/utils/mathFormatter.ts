@@ -56,6 +56,16 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
   out = out.replace(/\\text\s+/gi, ' ');
   out = out.replace(/\\text/gi, '');
 
+  // Strip exam brackets, years, and target tags: [NEET 2007], [NEET 2029 Practice], [AIPMT 2005], etc.
+  out = out.replace(/\[\s*(?:NEET|AIPMT|AIIMS|AIEEE|JEE(?:\s*Main|\s*Advanced)?|CBSE(?:\s*PMT)?|AFMC|BHU|PMT|DCE|UPMT|RPMT|CMC|EAMCET|KCET|GUJCET|MHT\s*CET)[^\]]*\]/gi, '');
+  out = out.replace(/\(\s*(?:NEET|AIPMT|AIIMS|AIEEE|JEE(?:\s*Main|\s*Advanced)?|CBSE(?:\s*PMT)?|AFMC|BHU|PMT|DCE|UPMT|RPMT|CMC|EAMCET|KCET|GUJCET|MHT\s*CET)[^)]*\)/gi, '');
+  out = out.replace(/\[\s*\d{4}\s*(?:Practice|Target|Expected|Revision)?\s*\]/gi, '');
+
+  // Strip coaching institute branding words: allen, aakash, resonance, motion, fiitjee, etc.
+  out = out.replace(/\[\s*(?:allen|aakash|resonance|fiitjee|motion|narayana|chaitanya)[^\]]*\]/gi, '');
+  out = out.replace(/\(\s*(?:allen|aakash|resonance|fiitjee|motion|narayana|chaitanya)[^)]*\)/gi, '');
+  out = out.replace(/\b(?:allen|aakash|resonance|motion|fiitjee|career\s*point|narayana|chaitanya)\b/gi, '');
+
   // 1. Remove unnecessary LaTeX delimiters like $...$, $$...$$, \(...\)
   out = out.replace(/\$\$([\s\S]*?)\$\$/g, '$1');
   out = out.replace(/\\\((.*?)\\\)/g, '$1');
@@ -199,5 +209,6 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
     out = out.replace(regex, repl);
   });
 
-  return out;
+  out = out.replace(/\s+([.,;:?!])/g, '$1');
+  return out.trim();
 }

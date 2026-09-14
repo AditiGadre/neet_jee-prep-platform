@@ -54,131 +54,137 @@ const LIVING_WORLD_SUBTOPICS = [
   }
 ];
 
+export function isBogusSubtopic(name: string | undefined | null): boolean {
+  if (!name) return true;
+  const n = name.trim().toLowerCase();
+  if (
+    n.length < 3 ||
+    n === 'all sub-topics' ||
+    n === 'all topics' ||
+    n === 'general' ||
+    n.includes('all sub-topic') ||
+    n.includes('assertion') ||
+    n.includes('reason') ||
+    n.includes('critical thinking') ||
+    n.includes('self evaluation') ||
+    n.includes('brain teaser') ||
+    n.includes('graphical') ||
+    n.includes('exemplar') ||
+    n.includes('medical entrance') ||
+    n.includes('ranker') ||
+    n.includes('exercise') ||
+    n.includes('practice paper') ||
+    n.includes('competition focus') ||
+    n.includes('miscellaneous') ||
+    n.includes('level 1') ||
+    n.includes('level 2') ||
+    n.includes('level 3') ||
+    n.includes('check your grasp') ||
+    n.includes('step by step') ||
+    n.includes('chapter') ||
+    n.includes('test series') ||
+    n.includes('practice test') ||
+    n.includes('revision test')
+  ) {
+    return true;
+  }
+  return false;
+}
+
 export function resolveQuestionSubtopic(q: Question): string {
   if (!q) return 'General';
 
   const sub = q.subject || 'General';
   const ch = (q.chapter || '').trim();
-  const top = (q.topic || (q as any).subtopic || '').trim();
-  const qText = ((q.questionText || (q as any).question || '') + ' ' + (q.explanation || '')).toLowerCase();
+  const subtop = ((q as any).subtopic || '').trim();
+  const top = (q.topic || '').trim();
 
-  // 1. BIOLOGY
-  if (sub === 'Biology') {
-    const chLower = ch.toLowerCase();
-    
-    // Specially handle The Living World / Diversity in Living World
-    if (chLower.includes('living world') || chLower.includes('diversity in the living world')) {
-      let bestSub = 'The Living World';
-      let maxScore = 0;
-      for (const rule of LIVING_WORLD_SUBTOPICS) {
-        let score = 0;
-        for (const kw of rule.keywords) {
-          if (qText.includes(kw)) score++;
-        }
-        if (score > maxScore) {
-          maxScore = score;
-          bestSub = rule.name;
-        }
-      }
-      return bestSub;
-    }
-
-    // If topic is already specific and clean (no commas / syllabus list)
-    if (top && !top.includes(',') && top.length <= 45 && !top.toLowerCase().includes('chapter')) {
-      return top;
-    }
-
-    // If topic has comma-separated syllabus list (like fingertips biology)
-    if (top && top.includes(',')) {
-      const candidates = top.split(',').map(s => s.trim()).filter(s => s.length > 2);
-      let bestCandidate = candidates[0];
-      let bestScore = 0;
-      for (const cand of candidates) {
-        const words = cand.toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length >= 3);
-        let score = 0;
-        for (const w of words) {
-          if (qText.includes(w)) score++;
-        }
-        if (score > bestScore) {
-          bestScore = score;
-          bestCandidate = cand;
-        }
-      }
-      return bestCandidate;
-    }
-
-    return ch || 'General Biology';
+  // 1. If explicit conceptual subtopic is set (e.g. from DPP selection), use it directly
+  if (subtop && !isBogusSubtopic(subtop) && subtop !== 'All Sub-Topics') {
+    return subtop;
   }
-
-  // 2. PHYSICS
-  if (sub === 'Physics') {
-    const chLower = ch.toLowerCase();
-    
-    // Kinematics (Motion in 1D and 2D combined)
-    if (
-      chLower.includes('motion in one dimension') ||
-      chLower.includes('motion in a straight line') ||
-      chLower.includes('motion in a plane') ||
-      chLower.includes('motion in 1d') ||
-      chLower.includes('motion in 2d') ||
-      chLower.includes('kinematic')
-    ) {
-      const is2D = (
-        chLower.includes('plane') ||
-        chLower.includes('2d') ||
-        qText.includes('projectile') ||
-        qText.includes('trajectory') ||
-        qText.includes('circular motion') ||
-        qText.includes('radius') ||
-        qText.includes('angular velocity') ||
-        qText.includes('range') ||
-        qText.includes('angle of projection')
-      );
-      if (top && !top.includes(',') && top.length <= 35 && !top.toLowerCase().includes('motion in')) {
-        return top;
-      }
-      return is2D ? 'Motion in a Plane (2D)' : 'Motion in a Straight Line (1D)';
-    }
-
-    // Units and Measurements
-    if (
-      chLower.includes('unit') ||
-      chLower.includes('dimension') ||
-      chLower.includes('measurement') ||
-      chLower.includes('physical world')
-    ) {
-      if (qText.includes('dimension') || qText.includes('m^') || qText.includes('l^') || qText.includes('t^-') || qText.includes('[m') || qText.includes('[l') || qText.includes('[t')) {
-        return 'Dimensional Analysis';
-      }
-      if (qText.includes('error') || qText.includes('percentage') || qText.includes('delta')) {
-        return 'Errors of Measurement';
-      }
-      if (qText.includes('significant') || qText.includes('rounding')) {
-        return 'Significant Figures';
-      }
-      if (qText.includes('vernier') || qText.includes('screw gauge') || qText.includes('least count')) {
-        return 'Measuring Instruments';
-      }
-      if (qText.includes('unit') || qText.includes('joule') || qText.includes('newton') || qText.includes('si unit')) {
-        return 'Units & Systems of Units';
-      }
-      if (top && !top.includes(',') && top.length <= 40) {
-        return top;
-      }
-      return 'Units and Measurements';
-    }
-
-    if (top && !top.includes(',') && top.length <= 40) {
-      return top;
-    }
-    return ch || 'General Physics';
-  }
-
-  // 3. CHEMISTRY
-  if (top && !top.includes(',') && top.length <= 40) {
+  if (top && !isBogusSubtopic(top) && !top.includes(',') && top.length <= 50 && top !== 'All Sub-Topics') {
     return top;
   }
-  return ch || 'General Chemistry';
+
+  // 2. Extract full text
+  const qText = ((q.questionText || (q as any).question || '') + ' ' + (q.explanation || '')).toLowerCase();
+  const normSub = (sub || '').toLowerCase();
+  const normCh = normalizeKey(ch);
+  const regKey = `${normSub}_${normCh}`;
+
+  // 3. Match against NCERT TOPIC_SUBTOPICS_REGISTRY
+  let rules = TOPIC_SUBTOPICS_REGISTRY[regKey];
+  if (!rules || rules.length === 0) {
+    // Check if any registry key ends with chapter name
+    for (const rk of Object.keys(TOPIC_SUBTOPICS_REGISTRY)) {
+      if (rk.endsWith(`_${normCh}`)) {
+        rules = TOPIC_SUBTOPICS_REGISTRY[rk];
+        break;
+      }
+    }
+  }
+
+  if (rules && rules.length > 0) {
+    let bestRule: SubtopicRule | null = null;
+    let maxScore = 0;
+    for (const rule of rules) {
+      let score = 0;
+      for (const kw of rule.keywords) {
+        if (qText.includes(kw.toLowerCase())) {
+          score++;
+        }
+      }
+      if (score > maxScore) {
+        maxScore = score;
+        bestRule = rule;
+      }
+    }
+    if (bestRule && maxScore > 0) {
+      return bestRule.name;
+    }
+    return rules[0].name;
+  }
+
+  // 4. Biological Living World fallback
+  const chLower = ch.toLowerCase();
+  if (sub === 'Biology' && (chLower.includes('living world') || chLower.includes('diversity in the living world'))) {
+    let bestSub = 'The Living World';
+    let maxScore = 0;
+    for (const rule of LIVING_WORLD_SUBTOPICS) {
+      let score = 0;
+      for (const kw of rule.keywords) {
+        if (qText.includes(kw)) score++;
+      }
+      if (score > maxScore) {
+        maxScore = score;
+        bestSub = rule.name;
+      }
+    }
+    return bestSub;
+  }
+
+  // 5. Fallback for comma-separated syllabus lists in biology
+  if (top && top.includes(',')) {
+    const candidates = top.split(',').map(s => s.trim()).filter(s => s.length > 2 && !isBogusSubtopic(s));
+    let bestCandidate = candidates[0];
+    let bestScore = 0;
+    for (const cand of candidates) {
+      const words = cand.toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length >= 3);
+      let score = 0;
+      for (const w of words) {
+        if (qText.includes(w)) score++;
+      }
+      if (score > bestScore) {
+        bestScore = score;
+        bestCandidate = cand;
+      }
+    }
+    if (bestCandidate) return bestCandidate;
+  }
+
+  // 6. Chapter normalizer fallback
+  return normalizeChapterForDisplay(sub, ch) || ch || 'General';
 }
 
 export function normalizeChapterForDisplay(subject: string, chapter: string): string {
@@ -250,8 +256,8 @@ export const TOPIC_SUBTOPICS_REGISTRY: Record<string, SubtopicRule[]> = {
       keywords: ['zeroth', 'thermal equilibrium', 'temperature scale', 'thermometer', 'thermal contact']
     },
     {
-      name: 'First Law of Thermodynamics & Internal Energy',
-      keywords: ['first law', 'internal energy', 'delta u', 'dq =', 'du + dw', 'state function', 'path function', 'heat added', 'heat supplied']
+      name: 'First Law of Thermodynamics',
+      keywords: ['first law', 'internal energy', 'delta u', 'dq =', 'du + dw', 'state function', 'path function', 'heat added', 'heat supplied', 'heat given', 'compressed', 'compression', 'constant pressure', 'work done on gas', 'work done by gas', 'internal energy is']
     },
     {
       name: 'Thermodynamic Processes (Isothermal, Adiabatic, Isobaric, Isochoric)',
@@ -656,7 +662,7 @@ export function getSubtopicsForTopic(subject: string, topic: string): string[] {
     const discovered = new Set<string>();
     for (const q of bank) {
       const t = (q.topic || (q as any).subtopic || '').trim();
-      if (t && t.length <= 40 && !t.includes(',') && normalizeKey(t) !== normTop) {
+      if (t && !isBogusSubtopic(t) && t.length <= 40 && !t.includes(',') && normalizeKey(t) !== normTop) {
         discovered.add(t);
       }
     }
@@ -692,16 +698,17 @@ export function filterQuestionsBySubtopic(
   const normSub = (subject || '').toLowerCase();
   const normTop = normalizeKey(topic || '');
   const key = `${normSub}_${normTop}`;
+  const subLower = subtopic.toLowerCase();
 
   // 1. Match against registry rule keywords if available
   let matchedRule: SubtopicRule | undefined;
   const rules = TOPIC_SUBTOPICS_REGISTRY[key] || [];
-  matchedRule = rules.find(r => r.name.toLowerCase() === subtopic.toLowerCase());
+  matchedRule = rules.find(r => r.name.toLowerCase() === subLower || r.name.toLowerCase().includes(subLower) || subLower.includes(r.name.toLowerCase()));
 
   if (!matchedRule) {
     // Try finding across all registry rules
     for (const rList of Object.values(TOPIC_SUBTOPICS_REGISTRY)) {
-      const f = rList.find(r => r.name.toLowerCase() === subtopic.toLowerCase());
+      const f = rList.find(r => r.name.toLowerCase() === subLower || r.name.toLowerCase().includes(subLower) || subLower.includes(r.name.toLowerCase()));
       if (f) {
         matchedRule = f;
         break;
@@ -711,8 +718,9 @@ export function filterQuestionsBySubtopic(
 
   if (matchedRule) {
     const matched = pool.filter(q => {
-      const qTop = (q.topic || (q as any).subtopic || '').toLowerCase();
-      if (qTop.includes(subtopic.toLowerCase()) || subtopic.toLowerCase().includes(qTop)) {
+      const rawTop = (q.topic || (q as any).subtopic || '').toLowerCase();
+      const qTop = isBogusSubtopic(rawTop) ? '' : rawTop;
+      if (qTop && (qTop.includes(subLower) || subLower.includes(qTop) || qTop.includes(matchedRule!.name.toLowerCase()))) {
         return true;
       }
       const text = `${qTop} ${q.questionText || (q as any).question || ''} ${q.explanation || ''}`.toLowerCase();
@@ -724,14 +732,14 @@ export function filterQuestionsBySubtopic(
   }
 
   // 2. Direct string / keyword match
-  const subLower = subtopic.toLowerCase();
   const directMatches = pool.filter(q => {
-    const qTop = (q.topic || (q as any).subtopic || '').toLowerCase();
+    const rawTop = (q.topic || (q as any).subtopic || '').toLowerCase();
+    const qTop = isBogusSubtopic(rawTop) ? '' : rawTop;
     if (qTop && (qTop.includes(subLower) || subLower.includes(qTop))) {
       return true;
     }
     const text = `${q.questionText || (q as any).question || ''} ${q.explanation || ''}`.toLowerCase();
-    const words = subLower.split(/[^a-z0-9]+/).filter(w => w.length >= 4);
+    const words = subLower.split(/[^a-z0-9]+/).filter(w => w.length >= 4 && !isBogusSubtopic(w));
     return words.some(w => text.includes(w));
   });
 
