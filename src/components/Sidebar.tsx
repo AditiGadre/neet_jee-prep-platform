@@ -69,12 +69,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
       label: '3. About NEET CBT Exam',
       sublabel: 'CBT Pattern, Syllabus, Seats & Marks vs Rank',
       icon: BookOpen
-    },
-    {
-      id: 'support' as TabType,
-      label: '4. Support & FAQ',
-      sublabel: '24/7 Academic Doubt Desk & Counselling',
-      icon: Headphones
     }
   ];
 

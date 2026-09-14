@@ -6,7 +6,6 @@ import {
   Award,
   Layers,
   Building2,
-  CheckCircle2,
   AlertCircle,
   FileText,
   MapPin,
@@ -114,7 +113,7 @@ export const AboutExamSection: React.FC = () => {
               <span>Exam Pattern & Official Rules</span>
             </h2>
             <p className="text-xs text-gray-500 mt-0.5">
-              Strict 45 questions per subject (180 total) — No Section A or Section B.
+              Strict 45 questions per subject (180 total questions, 720 marks).
             </p>
           </div>
 
@@ -141,14 +140,6 @@ export const AboutExamSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Direct 45-Question Notice */}
-          <div className="p-3 bg-blue-50/80 border border-blue-200 rounded-lg text-xs text-blue-950 flex items-start space-x-2">
-            <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
-            <div>
-              <span className="font-bold">Direct 45-Question Pattern (No Section A & B):</span> Each subject consists of exactly <strong>45 questions</strong>. There is <strong>no Section A and Section B</strong> split — all questions are attempted directly without optional choice constraints.
-            </div>
-          </div>
-
           {/* Section Breakdown Table */}
           <div className="overflow-x-auto border border-gray-200 rounded-lg">
             <table className="w-full text-xs text-left">
@@ -156,39 +147,33 @@ export const AboutExamSection: React.FC = () => {
                 <tr>
                   <th className="p-2.5">Subject</th>
                   <th className="p-2.5">Questions</th>
-                  <th className="p-2.5">Pattern & Rules</th>
                   <th className="p-2.5">Total Marks</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 text-gray-700">
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Physics</td>
-                  <td className="p-2.5">45 Questions</td>
-                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
+                  <td className="p-2.5 font-medium">45 Questions</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Chemistry</td>
-                  <td className="p-2.5">45 Questions</td>
-                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
+                  <td className="p-2.5 font-medium">45 Questions</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Botany</td>
-                  <td className="p-2.5">45 Questions</td>
-                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
+                  <td className="p-2.5 font-medium">45 Questions</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Zoology</td>
-                  <td className="p-2.5">45 Questions</td>
-                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
+                  <td className="p-2.5 font-medium">45 Questions</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="bg-slate-50/80 font-bold text-slate-900 border-t border-slate-200">
                   <td className="p-2.5">Total (PCB)</td>
                   <td className="p-2.5">180 Questions</td>
-                  <td className="p-2.5">Direct 45 Qs per Subject</td>
                   <td className="p-2.5 text-blue-700 font-extrabold">720 Marks</td>
                 </tr>
               </tbody>

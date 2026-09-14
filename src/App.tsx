@@ -502,12 +502,6 @@ export default function App() {
             )}
 
             {activeTab === 'about-exam' && <AboutExamSection />}
-
-            {activeTab === 'support' && (
-              <SupportSection
-                onOpenAskDoubtModal={() => setIsDoubtModalOpen(true)}
-              />
-            )}
           </Suspense>
         </main>
       </div>
