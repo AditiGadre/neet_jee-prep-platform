@@ -70,6 +70,7 @@ import {
   filterQuestionsBySubtopic
 } from '../utils/subtopicResolver';
 import { cleanOcrText } from '../utils/ocrCleaner';
+import { DetailedSolutionViewer } from './DetailedSolutionViewer';
 
 interface WhatExtraSectionProps {
   activeSubTab: string;
@@ -1377,9 +1378,17 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   </div>
 
                   {isExpanded && (
-                    <div className="p-3 rounded bg-blue-50/50 border border-blue-200 text-xs text-gray-800 space-y-1.5 animate-in fade-in">
-                      <div className="font-bold text-blue-900">Step-by-Step Derivation & Explanation:</div>
-                      <p className="leading-relaxed whitespace-pre-line">{pyq.question.explanation}</p>
+                    <div className="mt-2 animate-in fade-in">
+                      <DetailedSolutionViewer
+                        explanation={pyq.question.explanation}
+                        correctAnswer={pyq.question.correctAnswer}
+                        options={pyq.question.options}
+                        showCorrectOptionHeader={false}
+                        subject={pyq.question.subject}
+                        chapter={pyq.question.chapter}
+                        topic={pyq.question.topic || (pyq.question as any).subtopic}
+                        questionText={pyq.question.questionText}
+                      />
                     </div>
                   )}
                 </div>

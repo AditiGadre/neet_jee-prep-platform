@@ -606,7 +606,19 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
 
   const renderMultiLineExplanation = (q: Question | string) => {
     const rawExplanation = typeof q === 'string' ? q : q.explanation;
-    return <DetailedSolutionViewer explanation={rawExplanation} />;
+    const subject = typeof q === 'object' ? (q.subject || test.subject) : test.subject;
+    const chapter = typeof q === 'object' ? (q.chapter || test.title) : test.title;
+    const topic = typeof q === 'object' ? (q.topic || (q as any).subtopic) : undefined;
+    const questionText = typeof q === 'object' ? q.questionText : undefined;
+    return (
+      <DetailedSolutionViewer
+        explanation={rawExplanation}
+        subject={subject}
+        chapter={chapter}
+        topic={topic}
+        questionText={questionText}
+      />
+    );
   };
 
   const longitudinalExamHistory = useMemo(() => {
@@ -2232,6 +2244,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                             correctAnswer={q.correctAnswer}
                             options={q.options}
                             showCorrectOptionHeader={false}
+                            subject={q.subject || test.subject}
+                            chapter={q.chapter || test.title}
+                            topic={q.topic || (q as any).subtopic}
+                            questionText={q.questionText}
                           />
                         </div>
                       </div>

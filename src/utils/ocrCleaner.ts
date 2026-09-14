@@ -182,9 +182,10 @@ export function cleanOcrText(text: string): string {
   cleaned = cleaned.replace(/see\s+solution\s+of\s+q\d+.*$/gi, 'Follows established chemical and physical laws.');
   cleaned = cleaned.replace(/detailed\s+solution\s+for\s+[a-zA-Z0-9\s]+q\d+/gi, 'Step-by-step conceptual resolution');
 
-  // Clean up punctuation spacing and double spaces
-  cleaned = cleaned.replace(/\s+([.,;:?!])/g, '$1');
-  cleaned = cleaned.replace(/\s+/g, ' ');
+  // Clean up horizontal whitespace while strictly preserving line breaks
+  cleaned = cleaned.replace(/[^\S\r\n]+([.,;:?!])/g, '$1');
+  cleaned = cleaned.replace(/[^\S\r\n]+/g, ' ');
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
 
   return cleaned.trim();
 }

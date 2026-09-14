@@ -209,6 +209,9 @@ export function formatMathAndFormulas(text: string | null | undefined): string {
     out = out.replace(regex, repl);
   });
 
-  out = out.replace(/\s+([.,;:?!])/g, '$1');
+  // Clean up horizontal whitespace while strictly preserving line breaks
+  out = out.replace(/[^\S\r\n]+([.,;:?!])/g, '$1');
+  out = out.replace(/[^\S\r\n]+/g, ' ');
+  out = out.replace(/\n{3,}/g, '\n\n');
   return out.trim();
 }

@@ -2182,6 +2182,10 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
                                 explanation={q.explanation}
                                 correctAnswer={q.correctAnswer}
                                 options={q.options}
+                                subject={q.subject}
+                                chapter={q.chapter}
+                                topic={q.topic || (q as any).subtopic}
+                                questionText={q.questionText}
                               />
                             </div>
                           )}
