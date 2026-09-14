@@ -54,9 +54,11 @@ export interface EnrolledStudent {
 interface EnrollmentGateProps {
   onEnrollSuccess: (student: EnrolledStudent) => void;
   onOpenAdmin?: () => void;
+  onClose?: () => void;
+  onOpenAuth?: () => void;
 }
 
-export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess, onOpenAdmin }) => {
+export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess, onOpenAdmin, onClose, onOpenAuth }) => {
   const [studentName, setStudentName] = useState('');
   const [parentName, setParentName] = useState('');
   const [parentPhone, setParentPhone] = useState('');
@@ -93,13 +95,13 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
       if (local) {
         const u = JSON.parse(local);
         const reconstructed: EnrolledStudent = {
-          studentName: u.studentName || u.name || 'Aditi Sanjay Gadre',
-          parentName: u.parentName || 'Sanjay Gadre',
+          studentName: u.studentName || u.name || (u.email ? u.email.split('@')[0] : 'Enrolled Student'),
+          parentName: u.parentName || 'Parent / Guardian',
           parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
           studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
           domicileState: u.domicileState || 'Maharashtra',
           caste: u.caste || 'General / Open',
-          email: u.email || 'aditi.gadre@gmail.com',
+          email: u.email || 'student@neetcbt.in',
           dob: u.dob || '2006-08-15',
           dobPin: u.dobPin || '15082006',
           targetYear: u.targetYear || '2027',
@@ -115,60 +117,6 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
         localStorage.setItem('neet_user_enrolled', 'true');
         onEnrollSuccess(reconstructed);
         return;
-      }
-      const enrolledFlag = localStorage.getItem('neet_user_enrolled');
-      if (enrolledFlag === 'true') {
-        const fallbackStudent: EnrolledStudent = {
-          studentName: 'Aditi Sanjay Gadre',
-          parentName: 'Sanjay Gadre',
-          parentPhone: '9876543210',
-          studentPhone: '9876543210',
-          domicileState: 'Maharashtra',
-          caste: 'General / Open',
-          email: 'student@neetcbt.in',
-          dob: '2006-08-15',
-          dobPin: '15082006',
-          targetYear: '2027',
-          enrolledAt: new Date().toISOString(),
-          rollNumber: 'NCBT-2027-784920',
-          devices: ['dev-1'],
-          studentPhoto: '',
-          gender: 'Female',
-          disabilityStatus: 'No Disability',
-          specialReservation: 'None'
-        };
-        localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
-        onEnrollSuccess(fallbackStudent);
-        return;
-      }
-      const savedTests = localStorage.getItem('neet_completed_tests');
-      if (savedTests) {
-        const tests = JSON.parse(savedTests);
-        if (Array.isArray(tests) && tests.length > 0) {
-          const fallbackStudent: EnrolledStudent = {
-            studentName: 'Aditi Sanjay Gadre',
-            parentName: 'Sanjay Gadre',
-            parentPhone: '9876543210',
-            studentPhone: '9876543210',
-            domicileState: 'Maharashtra',
-            caste: 'General / Open',
-            email: 'student@neetcbt.in',
-            dob: '2006-08-15',
-            dobPin: '15082006',
-            targetYear: '2027',
-            enrolledAt: new Date().toISOString(),
-            rollNumber: 'NCBT-2027-784920',
-            devices: ['dev-1'],
-            studentPhoto: '',
-            gender: 'Female',
-            disabilityStatus: 'No Disability',
-            specialReservation: 'None'
-          };
-          localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
-          localStorage.setItem('neet_user_enrolled', 'true');
-          onEnrollSuccess(fallbackStudent);
-          return;
-        }
       }
     } catch {}
   }, [onEnrollSuccess]);
@@ -369,6 +317,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
     localStorage.setItem('neet_enrolled_student', JSON.stringify(studentData));
     localStorage.setItem('neet_user_enrolled', 'true');
     localStorage.setItem('neet_local_user', JSON.stringify(studentData));
+    localStorage.removeItem('neet_guest_mode');
     window.dispatchEvent(new Event('neet_auth_change'));
     onEnrollSuccess(studentData);
   };
@@ -391,7 +340,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                     NeetCbt<span className="text-cyan-300"> Exam Test</span>
                   </span>
                   <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900 shadow-xs">
-                    Mandatory Portal
+                    Candidate Portal
                   </span>
                 </div>
                 <p className="text-[11px] text-blue-100 font-medium">
@@ -400,9 +349,21 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
               </div>
             </div>
 
-            <div className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/15 border border-white/20 text-xs font-mono">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
-              <span>2-Device Protected</span>
+            <div className="flex items-center space-x-2">
+              <div className="hidden sm:flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/15 border border-white/20 text-xs font-mono">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
+                <span>2-Device Protected</span>
+              </div>
+              {onClose && (
+                <button
+                  type="button"
+                  onClick={onClose}
+                  className="w-8 h-8 rounded-xl bg-white/20 hover:bg-white/30 flex items-center justify-center text-white font-bold text-sm transition cursor-pointer"
+                  title="Explore as Guest Candidate"
+                >
+                  ✕
+                </button>
+              )}
             </div>
           </div>
 
@@ -415,6 +376,23 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
             </p>
           </div>
         </div>
+
+        {/* Quick Sign In Bar for Already Registered Candidates */}
+        {onOpenAuth && (
+          <div className="bg-blue-50 border-b border-blue-200/80 px-4 py-2.5 flex items-center justify-between">
+            <span className="text-xs text-blue-950 font-medium">Already enrolled or have an existing candidate account?</span>
+            <button
+              type="button"
+              onClick={() => {
+                if (onClose) onClose();
+                onOpenAuth();
+              }}
+              className="px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg shadow-xs transition cursor-pointer"
+            >
+              Sign In Here →
+            </button>
+          </div>
+        )}
 
         {/* 2-DEVICE LIMIT EXCEEDED MODAL CHALLENGE */}
         {deviceLimitError && deviceLimitError.show ? (
@@ -910,6 +888,18 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                 <span>{isSubmitting ? 'Verifying 2-Device Concurrency & DOB...' : 'Submit Enrollment & Enter NeetCbt Exam Test'}</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
+
+              {onClose && (
+                <div className="text-center pt-1">
+                  <button
+                    type="button"
+                    onClick={onClose}
+                    className="text-xs font-semibold text-slate-500 hover:text-slate-800 transition cursor-pointer"
+                  >
+                    Or continue exploring platform as Guest Candidate →
+                  </button>
+                </div>
+              )}
             </div>
           </form>
         )}

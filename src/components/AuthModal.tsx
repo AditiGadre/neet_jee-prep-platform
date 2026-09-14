@@ -121,6 +121,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
 
     localStorage.setItem('neet_enrolled_student', JSON.stringify(updatedEnrolled));
     localStorage.setItem('neet_user_enrolled', 'true');
+    localStorage.removeItem('neet_guest_mode');
 
     window.dispatchEvent(new Event('neet_auth_change'));
   };

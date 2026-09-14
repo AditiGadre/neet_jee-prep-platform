@@ -62,13 +62,13 @@ export default function App() {
         try {
           const u = JSON.parse(local);
           const reconstructed: EnrolledStudent = {
-            studentName: u.studentName || u.name || 'Aditi Sanjay Gadre',
-            parentName: u.parentName || 'Sanjay Gadre',
+            studentName: u.studentName || u.name || (u.email ? u.email.split('@')[0] : 'Enrolled Student'),
+            parentName: u.parentName || 'Parent / Guardian',
             parentPhone: u.parentPhone ? String(u.parentPhone).replace(/\D/g, '') : '9876543210',
             studentPhone: u.studentPhone ? String(u.studentPhone).replace(/\D/g, '') : (u.phone ? String(u.phone).replace(/\D/g, '') : '9876543210'),
             domicileState: u.domicileState || 'Maharashtra',
             caste: u.caste || 'General / Open',
-            email: u.email || 'aditi.gadre@gmail.com',
+            email: u.email || 'student@neetcbt.in',
             dob: u.dob || '2006-08-15',
             dobPin: u.dobPin || '15082006',
             targetYear: u.targetYear || '2027',
@@ -85,101 +85,17 @@ export default function App() {
           return reconstructed;
         } catch {}
       }
-      const enrolledFlag = localStorage.getItem('neet_user_enrolled');
-      if (enrolledFlag === 'true') {
-        const fallbackStudent: EnrolledStudent = {
-          studentName: 'Aditi Sanjay Gadre',
-          parentName: 'Sanjay Gadre',
-          parentPhone: '9876543210',
-          studentPhone: '9876543210',
-          domicileState: 'Maharashtra',
-          caste: 'General / Open',
-          email: 'student@neetcbt.in',
-          dob: '2006-08-15',
-          dobPin: '15082006',
-          targetYear: '2027',
-          enrolledAt: new Date().toISOString(),
-          rollNumber: 'NCBT-2027-784920',
-          devices: ['dev-1'],
-          studentPhoto: '',
-          gender: 'Female',
-          disabilityStatus: 'No Disability',
-          specialReservation: 'None'
-        };
-        localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
-        return fallbackStudent;
-      }
-      // Check if candidate has completed tests stored
-      const savedTests = localStorage.getItem('neet_completed_tests');
-      if (savedTests) {
-        try {
-          const tests = JSON.parse(savedTests);
-          if (Array.isArray(tests) && tests.length > 0) {
-            const fallbackStudent: EnrolledStudent = {
-              studentName: 'Aditi Sanjay Gadre',
-              parentName: 'Sanjay Gadre',
-              parentPhone: '9876543210',
-              studentPhone: '9876543210',
-              domicileState: 'Maharashtra',
-              caste: 'General / Open',
-              email: 'student@neetcbt.in',
-              dob: '2006-08-15',
-              dobPin: '15082006',
-              targetYear: '2027',
-              enrolledAt: new Date().toISOString(),
-              rollNumber: 'NCBT-2027-784920',
-              devices: ['dev-1'],
-              studentPhoto: '',
-              gender: 'Female',
-              disabilityStatus: 'No Disability',
-              specialReservation: 'None'
-            };
-            localStorage.setItem('neet_enrolled_student', JSON.stringify(fallbackStudent));
-            localStorage.setItem('neet_user_enrolled', 'true');
-            return fallbackStudent;
-          }
-        } catch {}
-      }
-      // Check if Supabase session token exists in localStorage
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && (key.startsWith('sb-') && key.endsWith('-auth-token'))) {
-          const val = localStorage.getItem(key);
-          if (val) {
-            try {
-              const session = JSON.parse(val);
-              const u = session?.user;
-              if (u) {
-                const reconstructed: EnrolledStudent = {
-                  studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Aditi Sanjay Gadre',
-                  parentName: 'Sanjay Gadre',
-                  parentPhone: '9876543210',
-                  studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
-                  domicileState: 'Maharashtra',
-                  caste: 'General / Open',
-                  email: u.email || 'aditi.gadre@gmail.com',
-                  dob: '2006-08-15',
-                  dobPin: '15082006',
-                  targetYear: '2027',
-                  enrolledAt: new Date().toISOString(),
-                  rollNumber: 'NCBT-2027-784920',
-                  devices: ['dev-1'],
-                  studentPhoto: '',
-                  gender: 'Female',
-                  disabilityStatus: 'No Disability',
-                  specialReservation: 'None'
-                };
-                localStorage.setItem('neet_enrolled_student', JSON.stringify(reconstructed));
-                localStorage.setItem('neet_user_enrolled', 'true');
-                return reconstructed;
-              }
-            } catch {}
-          }
-        }
-      }
       return null;
     } catch {
       return null;
+    }
+  });
+
+  const [isGuestMode, setIsGuestMode] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem('neet_guest_mode') === 'true';
+    } catch {
+      return false;
     }
   });
 
@@ -233,12 +149,16 @@ export default function App() {
         const local = localStorage.getItem('neet_local_user');
         if (local) {
           setUser(JSON.parse(local));
+          setIsGuestMode(false);
         } else {
           setUser(null);
         }
         const student = localStorage.getItem('neet_enrolled_student');
         if (student) {
           setEnrolledStudent(JSON.parse(student));
+          setIsGuestMode(false);
+        } else {
+          setEnrolledStudent(null);
         }
       } catch (err) {
         console.error('Error syncing local auth:', err);
@@ -265,24 +185,25 @@ export default function App() {
 
     if (supabase) {
       supabase.auth.getSession().then(({ data: { session } }) => {
-        if (session?.user) {
+        const isGuest = localStorage.getItem('neet_guest_mode') === 'true';
+        if (session?.user && (!isGuest || localStorage.getItem('neet_enrolled_student'))) {
           setUser(session.user);
           setEnrolledStudent(prev => {
             if (prev) return prev;
             const u = session.user;
             const reconstructed: EnrolledStudent = {
-              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Aditi Sanjay Gadre',
-              parentName: 'Sanjay Gadre',
+              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Enrolled Student',
+              parentName: 'Parent / Guardian',
               parentPhone: '9876543210',
               studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
               domicileState: 'Maharashtra',
               caste: 'General / Open',
-              email: u.email || 'aditi.gadre@gmail.com',
+              email: u.email || 'student@neetcbt.in',
               dob: '2006-08-15',
               dobPin: '15082006',
               targetYear: '2027',
               enrolledAt: new Date().toISOString(),
-              rollNumber: 'NCBT-2027-784920',
+              rollNumber: 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
               devices: ['dev-1'],
               studentPhoto: '',
               gender: 'Female',
@@ -301,24 +222,25 @@ export default function App() {
       const {
         data: { subscription },
       } = supabase.auth.onAuthStateChange((_event, session) => {
-        if (session?.user) {
+        const isGuest = localStorage.getItem('neet_guest_mode') === 'true';
+        if (session?.user && (!isGuest || localStorage.getItem('neet_enrolled_student'))) {
           setUser(session.user);
           setEnrolledStudent(prev => {
             if (prev) return prev;
             const u = session.user;
             const reconstructed: EnrolledStudent = {
-              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Aditi Sanjay Gadre',
-              parentName: 'Sanjay Gadre',
+              studentName: u.user_metadata?.name || u.email?.split('@')[0] || 'Enrolled Student',
+              parentName: 'Parent / Guardian',
               parentPhone: '9876543210',
               studentPhone: u.user_metadata?.phone ? String(u.user_metadata.phone).replace(/\D/g, '') : '9876543210',
               domicileState: 'Maharashtra',
               caste: 'General / Open',
-              email: u.email || 'aditi.gadre@gmail.com',
+              email: u.email || 'student@neetcbt.in',
               dob: '2006-08-15',
               dobPin: '15082006',
               targetYear: '2027',
               enrolledAt: new Date().toISOString(),
-              rollNumber: 'NCBT-2027-784920',
+              rollNumber: 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
               devices: ['dev-1'],
               studentPhoto: '',
               gender: 'Female',
@@ -329,6 +251,11 @@ export default function App() {
             localStorage.setItem('neet_user_enrolled', 'true');
             return reconstructed;
           });
+        } else if (_event === 'SIGNED_OUT' || !session) {
+          setUser(null);
+          if (!localStorage.getItem('neet_enrolled_student')) {
+            setEnrolledStudent(null);
+          }
         }
       });
 
@@ -443,12 +370,34 @@ export default function App() {
     localStorage.setItem('neet_target_year', yr);
   };
 
+  const [signOutNotification, setSignOutNotification] = useState(false);
+
   const handleSignOut = async () => {
+    // 1. Purge all student and local user credentials
     localStorage.removeItem('neet_local_user');
     localStorage.removeItem('neet_enrolled_student');
     localStorage.removeItem('neet_user_enrolled');
+    sessionStorage.removeItem('neet_admin_authenticated');
+    localStorage.setItem('neet_guest_mode', 'true');
+
+    // 2. Purge Supabase auth tokens from localStorage
+    try {
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const key = localStorage.key(i);
+        if (key && (key.startsWith('sb-') || key.includes('supabase') || key.includes('auth-token'))) {
+          localStorage.removeItem(key);
+        }
+      }
+    } catch {}
+
+    // 3. Clear in-memory state
     setUser(null);
     setEnrolledStudent(null);
+    setIsGuestMode(true);
+    setSignOutNotification(true);
+    setTimeout(() => setSignOutNotification(false), 4000);
+
+    // 4. Supabase signOut
     if (supabase) {
       try {
         await supabase.auth.signOut();
@@ -456,6 +405,8 @@ export default function App() {
         // ignore
       }
     }
+
+    // 5. Broadcast changes across tabs and components
     window.dispatchEvent(new Event('neet_auth_change'));
     window.dispatchEvent(new Event('neet_downloads_change'));
   };
@@ -486,12 +437,27 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-800 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
-      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers */}
-      {!enrolledStudent && (
+      {/* Sign Out Confirmation Toast */}
+      {signOutNotification && (
+        <div className="fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-bottom-3 duration-200 border border-slate-700">
+          <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>✓ Signed out successfully. Switched to Guest Mode.</span>
+        </div>
+      )}
+
+      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers or chooses guest exploration */}
+      {!enrolledStudent && !isGuestMode && (
         <EnrollmentGate
           onEnrollSuccess={student => {
+            setIsGuestMode(false);
+            localStorage.removeItem('neet_guest_mode');
             setEnrolledStudent(student);
           }}
+          onClose={() => {
+            setIsGuestMode(true);
+            localStorage.setItem('neet_guest_mode', 'true');
+          }}
+          onOpenAuth={() => setIsAuthModalOpen(true)}
         />
       )}
 
@@ -504,6 +470,7 @@ export default function App() {
         onOpenQuickTest={handleQuickMockTest}
         onOpenDoubtModal={() => setIsDoubtModalOpen(true)}
         completedTestsCount={completedTests.length}
+        enrolledStudent={enrolledStudent}
         userEmail={user?.email ?? (enrolledStudent?.email || null)}
         onOpenAuth={() => setIsAuthModalOpen(true)}
         onSignOut={handleSignOut}

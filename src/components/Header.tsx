@@ -19,6 +19,7 @@ import {
 import { ExamType } from '../types';
 import { getCurrentUser, getUserDownloads } from '../utils/downloadTracker';
 import { getSuperUserMetrics } from '../utils/superUserNotifier';
+import { EnrolledStudent } from './EnrollmentGate';
 
 interface HeaderProps {
   activeExam: ExamType;
@@ -28,6 +29,7 @@ interface HeaderProps {
   onOpenQuickTest: () => void;
   onOpenDoubtModal: () => void;
   completedTestsCount: number;
+  enrolledStudent?: EnrolledStudent | null;
   userEmail: string | null;
   onOpenAuth: () => void;
   onSignOut: () => void;
@@ -44,6 +46,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenQuickTest,
   onOpenDoubtModal,
   completedTestsCount,
+  enrolledStudent: propEnrolledStudent,
   userEmail,
   onOpenAuth,
   onSignOut,
@@ -55,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({
   const [downloadsCount, setDownloadsCount] = useState<number>(0);
   const [currentUser, setCurrentUser] = useState<any>(getCurrentUser());
 
-  const enrolledStudent = (() => {
+  const enrolledStudent = propEnrolledStudent !== undefined ? propEnrolledStudent : (() => {
     try {
       const raw = localStorage.getItem('neet_enrolled_student');
       return raw ? JSON.parse(raw) : null;
