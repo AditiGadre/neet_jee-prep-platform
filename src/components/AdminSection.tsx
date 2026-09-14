@@ -44,7 +44,13 @@ import {
   CheckSquare,
   ArrowRightLeft,
   Plus,
-  Minus
+  Minus,
+  BarChart3,
+  Database,
+  FlaskConical,
+  Dna,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 import {
   SuperUserNotification,
@@ -107,6 +113,108 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [publishSuccessMsg, setPublishSuccessMsg] = useState<string | null>(null);
   const [actionSuccessBanner, setActionSuccessBanner] = useState<string | null>(null);
+
+  // Question Bank Inventory & Chapter Analytics State
+  const [inventorySubject, setInventorySubject] = useState<'All' | 'Physics' | 'Chemistry' | 'Biology'>('All');
+  const [inventorySearch, setInventorySearch] = useState<string>('');
+  const [inventorySortBy, setInventorySortBy] = useState<'count_desc' | 'count_asc' | 'name_asc'>('count_desc');
+  const [expandedChapterName, setExpandedChapterName] = useState<string | null>(null);
+  const [showDownloadTelemetryLogs, setShowDownloadTelemetryLogs] = useState<boolean>(false);
+
+  // Compute Question Bank Inventory across all subjects & chapters
+  const questionInventory = useMemo(() => {
+    const allQs = getUnifiedQuestionBank();
+    const physicsQs = allQs.filter(q => q.subject === 'Physics');
+    const chemistryQs = allQs.filter(q => q.subject === 'Chemistry');
+    const biologyQs = allQs.filter(q => (q.subject as string) === 'Biology' || (q.subject as string) === 'Botany' || (q.subject as string) === 'Zoology');
+
+    const buildChapterStats = (qs: Question[], subjectName: 'Physics' | 'Chemistry' | 'Biology') => {
+      const map = new Map<string, Question[]>();
+      for (const q of qs) {
+        const ch = q.chapter || `General ${subjectName}`;
+        let arr = map.get(ch);
+        if (!arr) {
+          arr = [];
+          map.set(ch, arr);
+        }
+        arr.push(q);
+      }
+
+      const totalSubjectQs = qs.length || 1;
+      const result = Array.from(map.entries()).map(([chName, qList]) => {
+        const subtopicMap: Record<string, number> = {};
+        const diffMap = { Easy: 0, Medium: 0, Hard: 0 };
+
+        for (const q of qList) {
+          const sub = q.topic || (q as any).subtopic || 'General Concepts';
+          subtopicMap[sub] = (subtopicMap[sub] || 0) + 1;
+          const d = (q.difficulty || 'Medium') as 'Easy' | 'Medium' | 'Hard';
+          if (diffMap[d] !== undefined) diffMap[d]++;
+          else diffMap.Medium++;
+        }
+
+        return {
+          chapter: chName,
+          subject: subjectName,
+          totalQuestions: qList.length,
+          percentage: Math.round((qList.length / totalSubjectQs) * 1000) / 10,
+          subtopics: Object.keys(subtopicMap),
+          subtopicCounts: subtopicMap,
+          difficultyCounts: diffMap,
+          sampleQuestions: qList.slice(0, 4)
+        };
+      });
+
+      result.sort((a, b) => b.totalQuestions - a.totalQuestions);
+      return result;
+    };
+
+    const physicsChapters = buildChapterStats(physicsQs, 'Physics');
+    const chemistryChapters = buildChapterStats(chemistryQs, 'Chemistry');
+    const biologyChapters = buildChapterStats(biologyQs, 'Biology');
+
+    return {
+      totalCount: allQs.length,
+      physicsTotal: physicsQs.length,
+      chemistryTotal: chemistryQs.length,
+      biologyTotal: biologyQs.length,
+      physicsChapters,
+      chemistryChapters,
+      biologyChapters,
+      allChapters: [...physicsChapters, ...chemistryChapters, ...biologyChapters]
+    };
+  }, []);
+
+  const displayedChapters = useMemo(() => {
+    let list =
+      inventorySubject === 'Physics'
+        ? questionInventory.physicsChapters
+        : inventorySubject === 'Chemistry'
+        ? questionInventory.chemistryChapters
+        : inventorySubject === 'Biology'
+        ? questionInventory.biologyChapters
+        : questionInventory.allChapters;
+
+    if (inventorySearch.trim()) {
+      const q = inventorySearch.toLowerCase().trim();
+      list = list.filter(
+        c =>
+          c.chapter.toLowerCase().includes(q) ||
+          c.subject.toLowerCase().includes(q) ||
+          c.subtopics.some(s => s.toLowerCase().includes(q))
+      );
+    }
+
+    if (inventorySortBy === 'count_desc') {
+      list = [...list].sort((a, b) => b.totalQuestions - a.totalQuestions);
+    } else if (inventorySortBy === 'count_asc') {
+      list = [...list].sort((a, b) => a.totalQuestions - b.totalQuestions);
+    } else if (inventorySortBy === 'name_asc') {
+      list = [...list].sort((a, b) => a.chapter.localeCompare(b.chapter));
+    }
+
+    return list;
+  }, [questionInventory, inventorySubject, inventorySearch, inventorySortBy]);
 
   // Sunday Test Paper Studio State (180 Qs)
   const [sundayPhyUnits, setSundayPhyUnits] = useState<string[]>([OFFICIAL_PHYSICS_UNITS[0], OFFICIAL_PHYSICS_UNITS[1]]);
@@ -1095,13 +1203,11 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
               : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
           }`}
         >
-          <Activity className="w-4 h-4" />
-          <span>Download Telemetry & Audit</span>
-          {metrics.unreadCount > 0 && (
-            <span className="px-1.5 py-0.2 rounded-full bg-amber-400 text-slate-900 text-[10px] font-mono font-bold">
-              {metrics.unreadCount}
-            </span>
-          )}
+          <BarChart3 className="w-4 h-4 text-cyan-400" />
+          <span>Question Bank & Chapter Analytics</span>
+          <span className="px-1.5 py-0.5 rounded-full bg-cyan-400 text-slate-900 text-[10px] font-mono font-bold">
+            {questionInventory.totalCount.toLocaleString()} Qs
+          </span>
         </button>
 
         <button
@@ -2690,191 +2796,509 @@ export const AdminSection: React.FC<AdminSectionProps> = ({
         </div>
       )}
 
-      {/* TAB 3: TELEMETRY */}
+      {/* TAB 3: QUESTION BANK INVENTORY & CHAPTER ANALYTICS */}
       {adminTab === 'telemetry' && (
         <div className="space-y-4">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
-            <div className="p-4 bg-white rounded-2xl border border-gray-200 shadow-2xs">
-              <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
-                <span>Total Volume</span>
-                <HardDrive className="w-4 h-4 text-blue-600" />
+          {/* Header Banner */}
+          <div className="p-4 bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-2xl text-white shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+              <div className="flex items-center space-x-2">
+                <span className="px-2 py-0.5 rounded-full bg-cyan-400 text-slate-950 text-[10px] font-mono font-black uppercase">
+                  Verified Audit
+                </span>
+                <h3 className="text-base font-bold text-white flex items-center space-x-2">
+                  <BarChart3 className="w-5 h-5 text-cyan-400" />
+                  <span>Question Bank Inventory & Chapter Analytics</span>
+                </h3>
               </div>
-              <div className="text-xl sm:text-2xl font-black text-blue-700 font-mono mt-1">
-                {metrics.totalVolumeFormatted}
-              </div>
-              <p className="text-[10px] text-gray-400 mt-0.5 font-medium">Content Downloaded</p>
+              <p className="text-xs text-slate-300 mt-1">
+                Real-time question count distribution across Physics, Chemistry, and Biology syllabus chapters.
+              </p>
             </div>
-
-            <div className="p-4 bg-white rounded-2xl border border-gray-200 shadow-2xs">
-              <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
-                <span>Total Downloads</span>
-                <ArrowDownToLine className="w-4 h-4 text-emerald-600" />
-              </div>
-              <div className="text-xl sm:text-2xl font-black text-emerald-700 font-mono mt-1">
-                {metrics.totalDownloads}
-              </div>
-              <p className="text-[10px] text-gray-400 mt-0.5 font-medium">Verified PDF Actions</p>
-            </div>
-
-            <div className="p-4 bg-white rounded-2xl border border-gray-200 shadow-2xs">
-              <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
-                <span>Active Students</span>
-                <Users className="w-4 h-4 text-purple-600" />
-              </div>
-              <div className="text-xl sm:text-2xl font-black text-purple-700 font-mono mt-1">
-                {metrics.uniqueStudents}
-              </div>
-              <p className="text-[10px] text-gray-400 mt-0.5 font-medium">Verified Contacts</p>
-            </div>
-
-            <div className="p-4 bg-white rounded-2xl border border-gray-200 shadow-2xs">
-              <div className="flex items-center justify-between text-[11px] font-bold text-gray-500 uppercase">
-                <span>Unread Alerts</span>
-                <Bell className="w-4 h-4 text-amber-500" />
-              </div>
-              <div className="text-xl sm:text-2xl font-black text-amber-700 font-mono mt-1">
-                {metrics.unreadCount}
-              </div>
-              <p className="text-[10px] text-gray-400 mt-0.5 font-medium">New Notifications</p>
+            <div className="flex items-center space-x-2 self-start sm:self-center">
+              <span className="px-3 py-1.5 rounded-xl bg-white/10 border border-white/20 text-cyan-300 font-mono text-xs font-bold">
+                {questionInventory.totalCount.toLocaleString()} Total Questions
+              </span>
             </div>
           </div>
 
+          {/* Top 4 Summary Metric Cards */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
+            <div
+              onClick={() => setInventorySubject('All')}
+              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+                inventorySubject === 'All'
+                  ? 'bg-blue-50/90 border-blue-300 ring-2 ring-blue-200'
+                  : 'bg-white border-slate-200 hover:border-blue-300'
+              }`}
+            >
+              <div className="flex items-center justify-between text-[11px] font-bold text-slate-600 uppercase">
+                <span>Total Questions</span>
+                <Database className="w-4 h-4 text-blue-600" />
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-blue-700 font-mono mt-1">
+                {questionInventory.totalCount.toLocaleString()}
+              </div>
+              <p className="text-[10px] text-slate-500 mt-0.5 font-medium">
+                {questionInventory.allChapters.length} Chapters • All Subjects
+              </p>
+            </div>
+
+            <div
+              onClick={() => setInventorySubject('Physics')}
+              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+                inventorySubject === 'Physics'
+                  ? 'bg-sky-50/90 border-sky-300 ring-2 ring-sky-200'
+                  : 'bg-white border-slate-200 hover:border-sky-300'
+              }`}
+            >
+              <div className="flex items-center justify-between text-[11px] font-bold text-sky-700 uppercase">
+                <span>Physics Questions</span>
+                <Zap className="w-4 h-4 text-sky-600" />
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-sky-700 font-mono mt-1">
+                {questionInventory.physicsTotal.toLocaleString()}
+              </div>
+              <p className="text-[10px] text-sky-600/90 mt-0.5 font-medium">
+                {questionInventory.physicsChapters.length} Chapters • {Math.round((questionInventory.physicsTotal / (questionInventory.totalCount || 1)) * 100)}% of Bank
+              </p>
+            </div>
+
+            <div
+              onClick={() => setInventorySubject('Chemistry')}
+              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+                inventorySubject === 'Chemistry'
+                  ? 'bg-amber-50/90 border-amber-300 ring-2 ring-amber-200'
+                  : 'bg-white border-slate-200 hover:border-amber-300'
+              }`}
+            >
+              <div className="flex items-center justify-between text-[11px] font-bold text-amber-700 uppercase">
+                <span>Chemistry Questions</span>
+                <FlaskConical className="w-4 h-4 text-amber-600" />
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-amber-700 font-mono mt-1">
+                {questionInventory.chemistryTotal.toLocaleString()}
+              </div>
+              <p className="text-[10px] text-amber-600/90 mt-0.5 font-medium">
+                {questionInventory.chemistryChapters.length} Chapters • {Math.round((questionInventory.chemistryTotal / (questionInventory.totalCount || 1)) * 100)}% of Bank
+              </p>
+            </div>
+
+            <div
+              onClick={() => setInventorySubject('Biology')}
+              className={`p-4 rounded-2xl border transition-all cursor-pointer shadow-2xs ${
+                inventorySubject === 'Biology'
+                  ? 'bg-emerald-50/90 border-emerald-300 ring-2 ring-emerald-200'
+                  : 'bg-white border-slate-200 hover:border-emerald-300'
+              }`}
+            >
+              <div className="flex items-center justify-between text-[11px] font-bold text-emerald-700 uppercase">
+                <span>Biology Questions</span>
+                <Dna className="w-4 h-4 text-emerald-600" />
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-emerald-700 font-mono mt-1">
+                {questionInventory.biologyTotal.toLocaleString()}
+              </div>
+              <p className="text-[10px] text-emerald-600/90 mt-0.5 font-medium">
+                {questionInventory.biologyChapters.length} Chapters • {Math.round((questionInventory.biologyTotal / (questionInventory.totalCount || 1)) * 100)}% of Bank
+              </p>
+            </div>
+          </div>
+
+          {/* Interactive Subject & Search Filter Bar */}
           <div className="p-4 rounded-2xl border border-gray-200 bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
             <div className="flex flex-wrap items-center gap-1.5">
-              {['All', 'Test Paper', 'Book', 'Scorecard', 'DPP'].map(cat => (
-                <button
-                  key={cat}
-                  onClick={() => setCategoryFilter(cat)}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
-                    categoryFilter === cat
-                      ? 'bg-blue-600 text-white shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
-                >
-                  {cat === 'All' ? 'All Alerts' : cat}
-                </button>
-              ))}
+              <button
+                onClick={() => setInventorySubject('All')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
+                  inventorySubject === 'All'
+                    ? 'bg-blue-600 text-white shadow-xs'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                🌟 All ({questionInventory.totalCount.toLocaleString()})
+              </button>
+              <button
+                onClick={() => setInventorySubject('Physics')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
+                  inventorySubject === 'Physics'
+                    ? 'bg-sky-600 text-white shadow-xs'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                ⚡ Physics ({questionInventory.physicsTotal.toLocaleString()})
+              </button>
+              <button
+                onClick={() => setInventorySubject('Chemistry')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
+                  inventorySubject === 'Chemistry'
+                    ? 'bg-amber-600 text-white shadow-xs'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                🧪 Chemistry ({questionInventory.chemistryTotal.toLocaleString()})
+              </button>
+              <button
+                onClick={() => setInventorySubject('Biology')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
+                  inventorySubject === 'Biology'
+                    ? 'bg-emerald-600 text-white shadow-xs'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                🌿 Biology ({questionInventory.biologyTotal.toLocaleString()})
+              </button>
             </div>
 
             <div className="flex items-center space-x-2">
-              <div className="relative flex-1 sm:w-60">
+              <div className="relative flex-1 sm:w-64">
                 <Search className="absolute left-3 top-2.5 w-3.5 h-3.5 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Search student, phone, title..."
-                  value={searchQuery}
-                  onChange={e => setSearchQuery(e.target.value)}
+                  placeholder="Search chapter, subject, or topic..."
+                  value={inventorySearch}
+                  onChange={e => setInventorySearch(e.target.value)}
                   className="w-full pl-9 pr-3 py-1.5 rounded-xl bg-gray-50 border border-gray-300 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-500"
                 />
               </div>
 
-              <button
-                onClick={handleMarkAllRead}
-                className="px-3 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 transition cursor-pointer"
-                title="Mark All as Read"
+              <select
+                value={inventorySortBy}
+                onChange={e => setInventorySortBy(e.target.value as any)}
+                className="px-2.5 py-1.5 rounded-xl bg-gray-50 border border-gray-300 text-xs font-medium text-gray-700 focus:bg-white focus:outline-none focus:border-blue-500 cursor-pointer"
               >
-                <CheckCheck className="w-3.5 h-3.5 text-emerald-600" />
-                <span className="hidden md:inline">Mark Read</span>
-              </button>
-
-              <button
-                onClick={handleExportCSV}
-                className="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 text-xs font-semibold flex items-center space-x-1 transition cursor-pointer"
-                title="Export CSV Report"
-              >
-                <FileDown className="w-3.5 h-3.5 text-emerald-600" />
-                <span className="hidden md:inline">Export CSV</span>
-              </button>
-
-              {notifications.length > 0 && (
-                <button
-                  onClick={handleClear}
-                  className="p-2 rounded-xl bg-gray-100 hover:bg-rose-50 text-gray-400 hover:text-rose-600 transition cursor-pointer"
-                  title="Clear All Notifications"
-                >
-                  <Trash2 className="w-4 h-4" />
-                </button>
-              )}
+                <option value="count_desc">Most Questions First</option>
+                <option value="count_asc">Fewest Questions First</option>
+                <option value="name_asc">Chapter Name (A-Z)</option>
+              </select>
             </div>
           </div>
 
-          <div className="space-y-2.5">
-            {filteredNotifications.length > 0 ? (
-              filteredNotifications.map(item => {
-                const badge = getCategoryBadge(item.category);
-                const BadgeIcon = badge.icon;
+          {/* Chapters Breakdown Header */}
+          <div className="flex items-center justify-between text-xs text-slate-500 px-1">
+            <span>
+              Showing <strong className="text-slate-900 font-bold">{displayedChapters.length}</strong> chapters
+              {inventorySubject !== 'All' ? ` in ${inventorySubject}` : ' across all subjects'}
+            </span>
+            <span className="font-mono font-medium">
+              Total Questions: <strong className="text-slate-900 font-bold">{displayedChapters.reduce((acc, c) => acc + c.totalQuestions, 0).toLocaleString()}</strong>
+            </span>
+          </div>
 
-                return (
-                  <div
-                    key={item.id}
-                    className={`p-4 rounded-2xl border transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs ${
-                      !item.read ? 'bg-white border-blue-300 ring-1 ring-blue-100' : 'bg-white border-gray-200'
-                    }`}
-                  >
-                    <div className="flex items-start space-x-3.5 min-w-0">
-                      <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border ${badge.bg}`}>
-                        <BadgeIcon className="w-5 h-5" />
+          {/* Chapter Inventory Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+            {displayedChapters.map(item => {
+              const isExpanded = expandedChapterName === `${item.subject}-${item.chapter}`;
+              const subjectTheme =
+                item.subject === 'Physics'
+                  ? {
+                      bg: 'bg-sky-50 text-sky-800 border-sky-200',
+                      bar: 'bg-sky-500',
+                      badge: 'bg-sky-100 text-sky-900 border-sky-300',
+                      icon: <Zap className="w-3.5 h-3.5 text-sky-600" />
+                    }
+                  : item.subject === 'Chemistry'
+                  ? {
+                      bg: 'bg-amber-50 text-amber-800 border-amber-200',
+                      bar: 'bg-amber-500',
+                      badge: 'bg-amber-100 text-amber-900 border-amber-300',
+                      icon: <FlaskConical className="w-3.5 h-3.5 text-amber-600" />
+                    }
+                  : {
+                      bg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+                      bar: 'bg-emerald-500',
+                      badge: 'bg-emerald-100 text-emerald-900 border-emerald-300',
+                      icon: <Dna className="w-3.5 h-3.5 text-emerald-600" />
+                    };
+
+              return (
+                <div
+                  key={`${item.subject}-${item.chapter}`}
+                  className={`p-4 rounded-2xl border transition-all shadow-2xs ${
+                    isExpanded ? 'bg-white border-blue-300 ring-2 ring-blue-100' : 'bg-white border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  {/* Card Header */}
+                  <div className="flex items-start justify-between gap-2.5">
+                    <div className="space-y-1 min-w-0 flex-1">
+                      <div className="flex items-center space-x-2">
+                        <span className={`inline-flex items-center space-x-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase font-mono border ${subjectTheme.bg}`}>
+                          {subjectTheme.icon}
+                          <span>{item.subject}</span>
+                        </span>
+                        <span className="text-[10px] text-slate-400 font-mono">
+                          {item.percentage}% of {item.subject}
+                        </span>
                       </div>
-
-                      <div className="space-y-1 min-w-0">
-                        <div className="flex items-center space-x-2 flex-wrap gap-y-1">
-                          <span className={`text-[10px] font-bold px-2 py-0.5 rounded-lg border uppercase font-mono ${badge.bg}`}>
-                            {item.category}
-                          </span>
-                          {!item.read && (
-                            <span className="px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 font-bold text-[9px] uppercase font-mono">
-                              NEW
-                            </span>
-                          )}
-                          <span className="text-[11px] text-gray-500 font-mono flex items-center space-x-1">
-                            <Calendar className="w-3 h-3 text-gray-400" />
-                            <span>{new Date(item.timestamp).toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
-                          </span>
-                          <span
-                            className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 border border-blue-200 font-semibold"
-                            title={`Question Bank IDs: ${getDisplayQuestionReferences(item)}`}
-                          >
-                            🏷️ {getDisplayQuestionReferences(item)}
-                          </span>
-                        </div>
-
-                        <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">
-                          {item.contentTitle}
-                        </h4>
-
-                        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs pt-0.5">
-                          <span className="inline-flex items-center space-x-1 text-blue-900 font-bold">
-                            <User className="w-3.5 h-3.5 text-blue-600" />
-                            <span>{item.userName}</span>
-                          </span>
-                          <span className="inline-flex items-center space-x-1 text-emerald-800 font-mono font-semibold text-[11px]">
-                            <Phone className="w-3.5 h-3.5 text-emerald-600" />
-                            <span>{item.userPhone}</span>
-                          </span>
-                          <span className="inline-flex items-center space-x-1 text-gray-500 font-mono text-[11px]">
-                            <Mail className="w-3.5 h-3.5 text-gray-400" />
-                            <span>{item.userEmail}</span>
-                          </span>
-                        </div>
-                      </div>
+                      <h4 className="text-sm sm:text-base font-bold text-slate-900 leading-snug">
+                        {item.chapter}
+                      </h4>
                     </div>
 
-                    <span className="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-bold font-mono self-end sm:self-center shrink-0">
-                      ✓ Verified
+                    {/* Question Count Badge */}
+                    <div className="shrink-0 text-right">
+                      <span className={`inline-block px-3 py-1 rounded-xl font-mono font-black text-xs sm:text-sm border shadow-2xs ${subjectTheme.badge}`}>
+                        {item.totalQuestions} Questions
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Relative Size Bar */}
+                  <div className="mt-3 space-y-1">
+                    <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                      <div
+                        className={`h-full rounded-full ${subjectTheme.bar}`}
+                        style={{ width: `${Math.min(100, Math.max(5, item.percentage * 3))}%` }}
+                      />
+                    </div>
+                  </div>
+
+                  {/* Quick Subtopic & Difficulty Counters */}
+                  <div className="flex flex-wrap items-center gap-1.5 mt-3 pt-2.5 border-t border-slate-100 text-[11px]">
+                    <span className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 font-medium">
+                      🏷️ {item.subtopics.length} Subtopic{item.subtopics.length === 1 ? '' : 's'}
+                    </span>
+                    <span className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 font-mono font-semibold">
+                      🟢 {item.difficultyCounts.Easy} Easy
+                    </span>
+                    <span className="px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 font-mono font-semibold">
+                      🟡 {item.difficultyCounts.Medium} Med
+                    </span>
+                    <span className="px-2 py-0.5 rounded-md bg-rose-50 text-rose-800 font-mono font-semibold">
+                      🔴 {item.difficultyCounts.Hard} Hard
                     </span>
                   </div>
-                );
-              })
-            ) : (
-              <div className="text-center py-12 px-4 bg-white rounded-2xl border border-gray-200 space-y-3">
-                <div className="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mx-auto">
-                  <Bell className="w-6 h-6" />
+
+                  {/* Action Buttons */}
+                  <div className="flex items-center justify-between gap-2 mt-3 pt-2">
+                    <button
+                      onClick={() => {
+                        setExpandedChapterName(isExpanded ? null : `${item.subject}-${item.chapter}`);
+                      }}
+                      className="inline-flex items-center space-x-1 text-xs font-semibold text-blue-700 hover:text-blue-800 cursor-pointer"
+                    >
+                      <span>{isExpanded ? 'Hide Details' : 'Inspect Subtopics & Questions'}</span>
+                      {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+                    </button>
+
+                    <button
+                      onClick={() => {
+                        setCustomSubject(item.subject);
+                        setCustomChapter(item.chapter);
+                        setAdminTab('generator');
+                      }}
+                      className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 text-[11px] font-semibold transition cursor-pointer flex items-center space-x-1"
+                      title={`Generate Custom Test from ${item.chapter}`}
+                    >
+                      <Sliders className="w-3 h-3 text-blue-600" />
+                      <span>Generate Test</span>
+                    </button>
+                  </div>
+
+                  {/* Expanded Chapter Details Drawer */}
+                  {isExpanded && (
+                    <div className="mt-3 pt-3 border-t border-slate-200 space-y-3 animate-in fade-in">
+                      {/* Subtopic density */}
+                      <div className="space-y-1.5">
+                        <div className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
+                          Subtopic Question Counts:
+                        </div>
+                        <div className="flex flex-wrap gap-1.5 max-h-36 overflow-y-auto pr-1">
+                          {Object.entries(item.subtopicCounts).map(([sub, count]) => (
+                            <span
+                              key={sub}
+                              className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-50 border border-slate-200 text-xs text-slate-800 font-medium"
+                            >
+                              <span>{sub}</span>
+                              <strong className="px-1.5 py-0.2 rounded bg-white text-blue-700 border border-blue-200 font-mono text-[10px]">
+                                {count}
+                              </strong>
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Sample Questions Preview */}
+                      {item.sampleQuestions.length > 0 && (
+                        <div className="space-y-2 pt-1">
+                          <div className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
+                            Sample Questions Preview:
+                          </div>
+                          <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+                            {item.sampleQuestions.map((sq, sqIdx) => (
+                              <div
+                                key={sq.id || sqIdx}
+                                className="p-2.5 rounded-xl bg-slate-50/80 border border-slate-200 text-xs space-y-1.5"
+                              >
+                                <div className="flex items-center justify-between text-[10px] text-slate-500 font-mono">
+                                  <span>Q{sqIdx + 1} • ID: {sq.id}</span>
+                                  <span className="px-1.5 py-0.2 rounded bg-slate-200 text-slate-800 font-bold">
+                                    {sq.difficulty || 'Medium'}
+                                  </span>
+                                </div>
+                                <p className="font-medium text-slate-900 leading-snug line-clamp-2">
+                                  {formatMathAndFormulas(sq.questionText)}
+                                </p>
+                                <div className="flex items-center gap-2 text-[11px] text-emerald-800 font-mono">
+                                  <span className="font-bold">Correct: ({String.fromCharCode(65 + sq.correctAnswer)})</span>
+                                  <span className="text-slate-600 truncate">{sq.options?.[sq.correctAnswer]}</span>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
-                <div className="space-y-0.5">
-                  <h3 className="text-sm font-bold text-gray-900">No Super User download alerts at this time</h3>
-                  <p className="text-xs text-gray-500">
-                    When students download test papers, NCERT books, scorecards, or DPPs, records stream here in real-time.
-                  </p>
+              );
+            })}
+          </div>
+
+          {/* Collapsible Download Telemetry Section */}
+          <div className="pt-4 border-t border-slate-200">
+            <button
+              onClick={() => setShowDownloadTelemetryLogs(!showDownloadTelemetryLogs)}
+              className="w-full p-3.5 rounded-2xl bg-slate-100 hover:bg-slate-200 border border-slate-300 text-xs font-bold text-slate-700 flex items-center justify-between transition cursor-pointer"
+            >
+              <div className="flex items-center space-x-2">
+                <Activity className="w-4 h-4 text-slate-600" />
+                <span>Student Download Telemetry Logs & PDF Audit Records</span>
+                <span className="px-2 py-0.5 rounded-full bg-slate-300 text-slate-800 font-mono text-[10px]">
+                  {notifications.length} Logs
+                </span>
+              </div>
+              <div className="flex items-center space-x-1 text-slate-500 text-xs">
+                <span>{showDownloadTelemetryLogs ? 'Hide Download Logs' : 'Expand Download Logs'}</span>
+                {showDownloadTelemetryLogs ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+              </div>
+            </button>
+
+            {showDownloadTelemetryLogs && (
+              <div className="mt-3 space-y-3 animate-in fade-in">
+                <div className="p-4 rounded-2xl border border-gray-200 bg-white flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 shadow-2xs">
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    {['All', 'Test Paper', 'Book', 'Scorecard', 'DPP'].map(cat => (
+                      <button
+                        key={cat}
+                        onClick={() => setCategoryFilter(cat)}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition cursor-pointer ${
+                          categoryFilter === cat
+                            ? 'bg-blue-600 text-white shadow-xs'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                      >
+                        {cat === 'All' ? 'All Alerts' : cat}
+                      </button>
+                    ))}
+                  </div>
+
+                  <div className="flex items-center space-x-2">
+                    <button
+                      onClick={handleMarkAllRead}
+                      className="px-3 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold flex items-center space-x-1 transition cursor-pointer"
+                      title="Mark All as Read"
+                    >
+                      <CheckCheck className="w-3.5 h-3.5 text-emerald-600" />
+                      <span className="hidden md:inline">Mark Read</span>
+                    </button>
+
+                    <button
+                      onClick={handleExportCSV}
+                      className="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 text-xs font-semibold flex items-center space-x-1 transition cursor-pointer"
+                      title="Export CSV Report"
+                    >
+                      <FileDown className="w-3.5 h-3.5 text-emerald-600" />
+                      <span className="hidden md:inline">Export CSV</span>
+                    </button>
+
+                    {notifications.length > 0 && (
+                      <button
+                        onClick={handleClear}
+                        className="p-2 rounded-xl bg-gray-100 hover:bg-rose-50 text-gray-400 hover:text-rose-600 transition cursor-pointer"
+                        title="Clear All Notifications"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    )}
+                  </div>
+                </div>
+
+                <div className="space-y-2.5">
+                  {filteredNotifications.length > 0 ? (
+                    filteredNotifications.map(item => {
+                      const badge = getCategoryBadge(item.category);
+                      const BadgeIcon = badge.icon;
+
+                      return (
+                        <div
+                          key={item.id}
+                          className={`p-4 rounded-2xl border transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs ${
+                            !item.read ? 'bg-white border-blue-300 ring-1 ring-blue-100' : 'bg-white border-gray-200'
+                          }`}
+                        >
+                          <div className="flex items-start space-x-3.5 min-w-0">
+                            <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border ${badge.bg}`}>
+                              <BadgeIcon className="w-5 h-5" />
+                            </div>
+
+                            <div className="space-y-1 min-w-0">
+                              <div className="flex items-center space-x-2 flex-wrap gap-y-1">
+                                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-lg border uppercase font-mono ${badge.bg}`}>
+                                  {item.category}
+                                </span>
+                                {!item.read && (
+                                  <span className="px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 font-bold text-[9px] uppercase font-mono">
+                                    NEW
+                                  </span>
+                                )}
+                                <span className="text-[11px] text-gray-500 font-mono flex items-center space-x-1">
+                                  <Calendar className="w-3 h-3 text-gray-400" />
+                                  <span>{new Date(item.timestamp).toLocaleString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
+                                </span>
+                                <span
+                                  className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 border border-blue-200 font-semibold"
+                                  title={`Question Bank IDs: ${getDisplayQuestionReferences(item)}`}
+                                >
+                                  🏷️ {getDisplayQuestionReferences(item)}
+                                </span>
+                              </div>
+
+                              <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug">
+                                {item.contentTitle}
+                              </h4>
+
+                              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs pt-0.5">
+                                <span className="inline-flex items-center space-x-1 text-blue-900 font-bold">
+                                  <User className="w-3.5 h-3.5 text-blue-600" />
+                                  <span>{item.userName}</span>
+                                </span>
+                                <span className="inline-flex items-center space-x-1 text-emerald-800 font-mono font-semibold text-[11px]">
+                                  <Phone className="w-3.5 h-3.5 text-emerald-600" />
+                                  <span>{item.userPhone}</span>
+                                </span>
+                                <span className="inline-flex items-center space-x-1 text-gray-500 font-mono text-[11px]">
+                                  <Mail className="w-3.5 h-3.5 text-gray-400" />
+                                  <span>{item.userEmail}</span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+
+                          <span className="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-bold font-mono self-end sm:self-center shrink-0">
+                            ✓ Verified
+                          </span>
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <div className="text-center py-8 px-4 bg-white rounded-2xl border border-gray-200 space-y-2">
+                      <div className="w-10 h-10 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center mx-auto">
+                        <Bell className="w-5 h-5" />
+                      </div>
+                      <p className="text-xs text-gray-500">No download logs at this time.</p>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
