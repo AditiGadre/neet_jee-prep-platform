@@ -120,8 +120,8 @@ export const AboutExamSection: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Total Duration</div>
-              <div className="text-base font-bold text-gray-900 mt-0.5">180 / 200 Mins</div>
-              <div className="text-[11px] text-blue-600 font-mono">(3 Hours / 3h 20m)</div>
+              <div className="text-base font-bold text-gray-900 mt-0.5">180 Mins</div>
+              <div className="text-[11px] text-blue-600 font-mono">(3 Hours)</div>
             </div>
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Total Questions</div>
