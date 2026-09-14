@@ -62,7 +62,42 @@ interface EnrollmentGateProps {
   onOpenAuth?: () => void;
 }
 
+const RANDOM_STUDENT_NAMES = [
+  'Aarav Sharma',
+  'Rohan Mehta',
+  'Priya Patel',
+  'Ananya Iyer',
+  'Vikram Malhotra',
+  'Sneha Deshmukh',
+  'Aditya Verma',
+  'Kavya Nair',
+  'Ishaan Joshi',
+  'Diya Choudhury'
+];
+
+const RANDOM_PARENT_NAMES = [
+  'Rajesh Sharma',
+  'Manoj Mehta',
+  'Suresh Patel',
+  'Ramesh Iyer',
+  'Sunil Malhotra',
+  'Prakash Deshmukh',
+  'Alok Verma',
+  'Venkat Nair',
+  'Mahesh Joshi',
+  'Debabrata Choudhury'
+];
+
 export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onEnrollSuccess, onOpenAdmin, onClose, onOpenAuth }) => {
+  const [randomStudentPlaceholder] = useState(() => {
+    const idx = Math.floor(Math.random() * RANDOM_STUDENT_NAMES.length);
+    return `e.g. ${RANDOM_STUDENT_NAMES[idx]}`;
+  });
+  const [randomParentPlaceholder] = useState(() => {
+    const idx = Math.floor(Math.random() * RANDOM_PARENT_NAMES.length);
+    return `e.g. ${RANDOM_PARENT_NAMES[idx]}`;
+  });
+
   const [studentName, setStudentName] = useState(initialData?.studentName || '');
   const [parentName, setParentName] = useState(initialData?.parentName || '');
   const [parentPhone, setParentPhone] = useState(initialData?.parentPhone || '');
@@ -616,7 +651,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
                       setStudentName(e.target.value);
                       if (errors.studentName) setErrors(prev => ({ ...prev, studentName: '' }));
                     }}
-                    placeholder="e.g. Aditi Sanjay Gadre"
+                    placeholder={randomStudentPlaceholder}
                     className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.studentName
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
@@ -647,7 +682,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
                       setParentName(e.target.value);
                       if (errors.parentName) setErrors(prev => ({ ...prev, parentName: '' }));
                     }}
-                    placeholder="e.g. Sanjay Gadre"
+                    placeholder={randomParentPlaceholder}
                     className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.parentName
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
@@ -939,7 +974,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
                       setEmail(e.target.value);
                       if (errors.email) setErrors(prev => ({ ...prev, email: '' }));
                     }}
-                    placeholder="e.g. aditi.gadre@gmail.com"
+                    placeholder="e.g. student@gmail.com"
                     className={`w-full pl-9 pr-3 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
                       errors.email
                         ? 'border-rose-300 focus:ring-rose-200 text-rose-900'

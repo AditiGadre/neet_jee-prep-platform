@@ -310,7 +310,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
   const handleQuickLogin = (
     demoPhone = '9876543210',
     demoEmail = 'student.target2027@neetprep.in',
-    demoName = 'Dr. Aditi (NEET Aspirant)'
+    demoName = 'NEET Aspirant Candidate'
   ) => {
     setLoading(true);
     setMessage({

@@ -121,7 +121,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   const studentCategory = enrolledStudent?.caste || 'General / Open';
   const studentDomicile = 'Maharashtra (State Quota)';
   const parentName = enrolledStudent?.parentName || 'Parent / Guardian';
-  const parentEmail = enrolledStudent?.parentEmail || enrolledStudent?.email || 'parent.gadre@example.com';
+  const parentEmail = enrolledStudent?.parentEmail || enrolledStudent?.email || 'parent@example.com';
   const parentPhone = enrolledStudent?.parentPhone ? `+91 ${enrolledStudent.parentPhone}` : '+91 9876543211';
 
   // Check if current test is an authorized Sunday test unlocked by Admin on Sundays

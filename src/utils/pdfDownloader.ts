@@ -551,7 +551,7 @@ export function downloadBasicCustomScorecardPDF(result: UserTestResult, skipDob:
   }
 
   const fileSize = '380 KB';
-  const studentName = result.studentName || 'Aditi Gadre';
+  const studentName = result.studentName || 'Candidate';
   const rollNumber = result.rollNumber || 'NCBT-2027-882190';
   const dateStr = result.dateStr || new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
   const totalPossibleMarks = result.totalMarks || 180;
@@ -793,12 +793,12 @@ export function downloadTestScorecardPDF(result: UserTestResult, skipDob: boolea
   }
 
   const fileSize = '1.8 MB';
-  const studentName = result.studentName || 'Aditi Gadre';
+  const studentName = result.studentName || 'Candidate';
   const rollNumber = result.rollNumber || 'NCBT-2027-882190';
   const studentCategory = result.studentCategory || 'General / Open';
   const studentDomicile = 'Maharashtra (State Quota)';
   const parentName = result.parentName || 'Parent / Guardian';
-  const parentEmail = result.parentEmail || 'parent.gadre@example.com';
+  const parentEmail = result.parentEmail || 'parent@example.com';
   const parentPhone = result.parentPhone || '+91 9876543211';
   const dateStr = result.dateStr || new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
   
