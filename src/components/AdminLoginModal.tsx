@@ -31,8 +31,9 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
 }) => {
   const [username, setUsername] = useState('admin');
   const [password, setPassword] = useState('');
-  const [pin2FA, setPin2FA] = useState('843791');
+  const [pin2FA, setPin2FA] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+  const [showPin2FA, setShowPin2FA] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [isAuthenticating, setIsAuthenticating] = useState(false);
 
@@ -45,6 +46,8 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
 
     setTimeout(() => {
       const cleanPass = password.trim();
+      const cleanPin = pin2FA.trim();
+
       const isPassValid =
         cleanPass === INSTITUTIONAL_MASTER_PASS ||
         cleanPass === '#N33T!Adm1n$9876#M4st3rX@2027!#' ||
@@ -52,15 +55,24 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
         cleanPass === '#N33T!Admin$9876#MasterX@2027!#' ||
         cleanPass.toLowerCase().includes('n33t!adm1n');
 
-      if (isPassValid) {
-        sessionStorage.setItem('neet_admin_authenticated', 'true');
-        sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
-        setIsAuthenticating(false);
-        onLoginSuccess();
-      } else {
+      const isPinValid = cleanPin === INSTITUTIONAL_2FA_PIN;
+
+      if (!isPassValid) {
         setIsAuthenticating(false);
         setErrorMsg('Access Denied: Invalid Master Admin Password. Please check key and retry.');
+        return;
       }
+
+      if (!isPinValid) {
+        setIsAuthenticating(false);
+        setErrorMsg('Access Denied: Invalid 2FA Security Token PIN. Please enter authorized 6-digit PIN.');
+        return;
+      }
+
+      sessionStorage.setItem('neet_admin_authenticated', 'true');
+      sessionStorage.setItem('neet_admin_session_time', Date.now().toString());
+      setIsAuthenticating(false);
+      onLoginSuccess();
     }, 400);
   };
 
@@ -164,19 +176,30 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
                 <KeyRound className="w-3.5 h-3.5 text-emerald-400" />
                 <span>2FA Security Hardware PIN (6-Digit)</span>
               </label>
-              <span className="text-[10px] text-emerald-400/90 font-mono">
-                Default: 843791
+              <span className="text-[10px] text-slate-400 font-mono">
+                Hardware Token
               </span>
             </div>
-            <input
-              type="text"
-              maxLength={6}
-              disabled={isAuthenticating}
-              value={pin2FA}
-              onChange={e => setPin2FA(e.target.value.replace(/\D/g, ''))}
-              placeholder="843791"
-              className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-emerald-400 placeholder-slate-600 text-center text-sm font-mono tracking-[0.4em] font-bold focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 disabled:opacity-50"
-            />
+            <div className="relative">
+              <input
+                type={showPin2FA ? 'text' : 'password'}
+                maxLength={6}
+                required
+                disabled={isAuthenticating}
+                value={pin2FA}
+                onChange={e => setPin2FA(e.target.value.replace(/\D/g, ''))}
+                placeholder="••••••"
+                className="w-full pl-3.5 pr-10 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-emerald-400 placeholder-slate-600 text-center text-sm font-mono tracking-[0.4em] font-bold focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 disabled:opacity-50"
+              />
+              <button
+                type="button"
+                onClick={() => setShowPin2FA(!showPin2FA)}
+                className="absolute right-3 top-2.5 text-slate-400 hover:text-slate-200 transition cursor-pointer"
+                title={showPin2FA ? 'Hide PIN' : 'Show PIN'}
+              >
+                {showPin2FA ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+              </button>
+            </div>
           </div>
 
           {/* Submit Button */}
