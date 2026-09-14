@@ -10,7 +10,6 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 // Lazy-load secondary tabs & heavy interactive modals for sub-second initial load
 const WhatExtraSection = lazy(() => import('./components/WhatExtraSection').then(m => ({ default: m.WhatExtraSection })));
 const AboutExamSection = lazy(() => import('./components/AboutExamSection').then(m => ({ default: m.AboutExamSection })));
-const AboutUsSection = lazy(() => import('./components/AboutUsSection').then(m => ({ default: m.AboutUsSection })));
 const SupportSection = lazy(() => import('./components/SupportSection').then(m => ({ default: m.SupportSection })));
 const CBTTestModal = lazy(() => import('./components/CBTTestModal').then(m => ({ default: m.CBTTestModal })));
 const LiveDoubtModal = lazy(() => import('./components/LiveDoubtModal').then(m => ({ default: m.LiveDoubtModal })));
@@ -503,8 +502,6 @@ export default function App() {
             )}
 
             {activeTab === 'about-exam' && <AboutExamSection />}
-
-            {activeTab === 'about-us' && <AboutUsSection />}
 
             {activeTab === 'support' && (
               <SupportSection

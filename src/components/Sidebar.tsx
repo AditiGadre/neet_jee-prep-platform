@@ -4,7 +4,6 @@ import {
   TvMinimalPlay,
   Sparkles,
   BookOpen,
-  Info,
   Trophy,
   Headphones,
   Sliders,
@@ -24,7 +23,6 @@ export type TabType =
   | 'online-courses'
   | 'what-extra'
   | 'about-exam'
-  | 'about-us'
   | 'support';
 
 interface SidebarProps {
@@ -73,14 +71,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: BookOpen
     },
     {
-      id: 'about-us' as TabType,
-      label: '4. About NeetCbt Exam Test',
-      sublabel: 'Philosophy, NCERT First & AI Learning Engine',
-      icon: Info
-    },
-    {
       id: 'support' as TabType,
-      label: '5. Support & FAQ',
+      label: '4. Support & FAQ',
       sublabel: '24/7 Academic Doubt Desk & Counselling',
       icon: Headphones
     }
