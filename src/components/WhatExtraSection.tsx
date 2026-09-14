@@ -65,6 +65,10 @@ import {
   notifyDataExhaustion,
   resetChapterConsumption
 } from '../utils/questionTracker';
+import {
+  getSubtopicsForTopic,
+  filterQuestionsBySubtopic
+} from '../utils/subtopicResolver';
 
 interface WhatExtraSectionProps {
   activeSubTab: string;
@@ -124,6 +128,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
   const [dppDate, setDppDate] = useState<string>(new Date().toISOString().split('T')[0]);
   const [dppSubject, setDppSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Physics');
   const [dppChapter, setDppChapter] = useState<string>('Thermodynamics');
+  const [dppSubtopic, setDppSubtopic] = useState<string>('All Sub-Topics');
   const [dppQCount, setDppQCount] = useState<number>(15);
   const [dppLevel, setDppLevel] = useState<string>('CBT Standard Level');
   const [isGeneratingDpp, setIsGeneratingDpp] = useState<boolean>(false);
@@ -214,6 +219,14 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       setDppChapter(dppChapterList[0]);
     }
   }, [dppSubject, dppChapterList, dppChapter]);
+
+  useEffect(() => {
+    setDppSubtopic('All Sub-Topics');
+  }, [dppSubject, dppChapter]);
+
+  const availableDppSubtopics = useMemo(() => {
+    return getSubtopicsForTopic(dppSubject, dppChapter);
+  }, [dppSubject, dppChapter]);
 
   // Unused question pool calculation for active chapter
   const currentPoolStats = useMemo(() => {
@@ -312,7 +325,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
     setIsGeneratingDpp(true);
     setTimeout(() => {
       try {
-        let pool = getUnifiedQuestionBank(dppSubject, dppChapter);
+        let basePool = getUnifiedQuestionBank(dppSubject, dppChapter);
+        let pool = filterQuestionsBySubtopic(basePool, dppSubtopic, dppSubject, dppChapter);
         if (pool.length < dppQCount && pool.length > 0) {
           const needed = [...pool];
           for (let i = 0; needed.length < dppQCount; i++) {
@@ -322,7 +336,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           pool = needed;
         }
         if (pool.length === 0) {
-          pool = SAMPLE_QUESTIONS.map(q => ({ ...q, chapter: dppChapter }));
+          pool = (basePool.length > 0 ? basePool : SAMPLE_QUESTIONS).map(q => ({ ...q, chapter: dppChapter }));
         }
         const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
         markQuestionsAsConsumed(selected.map(q => q.id));
@@ -331,6 +345,7 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
           date: dppDate,
           subject: dppSubject,
           chapter: dppChapter,
+          subtopic: dppSubtopic !== 'All Sub-Topics' ? dppSubtopic : undefined,
           level: dppLevel,
           questions: selected
         });
@@ -346,7 +361,8 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
 
   // Handle Attempt DPP Live in CBT Mode
   const handleAttemptDppLive = () => {
-    let pool = getUnifiedQuestionBank(dppSubject, dppChapter);
+    let basePool = getUnifiedQuestionBank(dppSubject, dppChapter);
+    let pool = filterQuestionsBySubtopic(basePool, dppSubtopic, dppSubject, dppChapter);
     if (pool.length < dppQCount && pool.length > 0) {
       const needed = [...pool];
       for (let i = 0; needed.length < dppQCount; i++) {
@@ -356,17 +372,18 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       pool = needed;
     }
     if (pool.length === 0) {
-      pool = SAMPLE_QUESTIONS.map(q => ({ ...q, chapter: dppChapter }));
+      pool = (basePool.length > 0 ? basePool : SAMPLE_QUESTIONS).map(q => ({ ...q, chapter: dppChapter }));
     }
     const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, dppQCount);
     markQuestionsAsConsumed(selected.map(q => q.id));
 
+    const subtopicLabel = dppSubtopic !== 'All Sub-Topics' ? ` • ${dppSubtopic}` : '';
     const dppTest: TestItem = {
       id: `dpp-live-${Date.now()}`,
-      title: `DPP - ${dppSubject}: ${dppChapter} (${selected.length} Qs)`,
+      title: `DPP - ${dppSubject}: ${dppChapter}${subtopicLabel} (${selected.length} Qs)`,
       category: 'custom',
       exam: 'NEET',
-      syllabus: `${dppSubject} › ${dppChapter} • ${dppLevel} (${selected.length} Sub-Topic Questions with Step-by-Step Solutions)`,
+      syllabus: `${dppSubject} › ${dppChapter}${dppSubtopic !== 'All Sub-Topics' ? ` › ${dppSubtopic}` : ''} • ${dppLevel} (${selected.length} Sub-Topic Questions with Step-by-Step Solutions)`,
       totalQuestions: selected.length,
       durationMinutes: selected.length,
       totalMarks: selected.length * 4,
@@ -375,9 +392,10 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
       cbtMode: true,
       features: [
         `Subject: ${dppSubject}`,
-        `Sub-Topic: ${dppChapter}`,
+        `Topic: ${dppChapter}`,
+        ...(dppSubtopic !== 'All Sub-Topics' ? [`Sub-Topic: ${dppSubtopic}`] : []),
         `Target Date: ${dppDate}`,
-        `Questions: ${selected.length} Sub-Topic Questions with Full Solutions`,
+        `Questions: ${selected.length} Practice Questions with Full Solutions`,
         `Standard: ${dppLevel}`
       ],
       questions: selected
@@ -1044,15 +1062,15 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                 <span>DPP</span>
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
-                Select a subject and sub-topic to generate 10–15 practice questions with verified answers and step-by-step solutions. Download as printable offline PDF or attempt live.
+                Select a subject, topic, and sub-topic to generate 10–15 practice questions with verified answers and step-by-step solutions. Download as printable offline PDF or attempt live.
               </p>
             </div>
             <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 self-start sm:self-auto uppercase">
-              10–15 Sub-Topic Qs
+              10–15 Practice Qs
             </span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
             {/* 1. Subject */}
             <div className="space-y-1">
               <label className="text-[10px] font-bold text-gray-500 uppercase">1. Subject</label>
@@ -1067,9 +1085,9 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               </select>
             </div>
 
-            {/* 2. Sub-Topic / Chapter */}
+            {/* 2. Topic */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Sub-Topic</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">2. Topic</label>
               <select
                 value={dppChapter}
                 onChange={e => setDppChapter(e.target.value)}
@@ -1081,9 +1099,24 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               </select>
             </div>
 
-            {/* 3. Question Count (10-15 Qs) */}
+            {/* 3. Sub-Topic */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Question Count</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">3. Sub-Topic</label>
+              <select
+                value={dppSubtopic}
+                onChange={e => setDppSubtopic(e.target.value)}
+                className="w-full p-2 rounded bg-gray-50 border border-gray-300 text-xs text-gray-900 font-medium focus:bg-white focus:border-blue-500"
+              >
+                <option value="All Sub-Topics">🌟 All Sub-Topics (Complete Topic)</option>
+                {availableDppSubtopics.map(st => (
+                  <option key={st} value={st}>{st}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* 4. Question Count (10-15 Qs) */}
+            <div className="space-y-1">
+              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Question Count</label>
               <div className="grid grid-cols-2 gap-1.5">
                 {[10, 15].map(cnt => (
                   <button
@@ -1102,9 +1135,9 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
               </div>
             </div>
 
-            {/* 4. Target Standard */}
+            {/* 5. Target Standard */}
             <div className="space-y-1">
-              <label className="text-[10px] font-bold text-gray-500 uppercase">4. Target Standard</label>
+              <label className="text-[10px] font-bold text-gray-500 uppercase">5. Target Standard</label>
               <select
                 value={dppLevel}
                 onChange={e => setDppLevel(e.target.value)}
@@ -1130,12 +1163,17 @@ export const WhatExtraSection: React.FC<WhatExtraSectionProps> = ({
                   <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-purple-100 text-purple-800 uppercase font-mono">
                     {dppLevel}
                   </span>
+                  {dppSubtopic !== 'All Sub-Topics' && (
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase font-mono">
+                      Sub-Topic: {dppSubtopic}
+                    </span>
+                  )}
                 </div>
                 <h3 className="text-sm font-bold text-gray-900 mt-1.5">
-                  {dppSubject}: {dppChapter}
+                  {dppSubject}: {dppChapter} {dppSubtopic !== 'All Sub-Topics' ? `› ${dppSubtopic}` : ''}
                 </h3>
                 <p className="text-xs text-gray-500 font-mono mt-0.5">
-                  {dppQCount} Sub-Topic Questions strictly from {dppChapter} &bull; Official Answer Key & Step Solutions &bull; +4 / -1 Marking
+                  {dppQCount} Questions strictly from {dppChapter}{dppSubtopic !== 'All Sub-Topics' ? ` (${dppSubtopic})` : ''} &bull; Official Answer Key & Step Solutions &bull; +4 / -1 Marking
                 </p>
               </div>
 

@@ -1446,8 +1446,9 @@ export function downloadBookPDF(book: BookItem): boolean {
 /**
  * Download DPP PDF
  */
-export function downloadDppPDF(dppData: { date: string; subject: string; chapter?: string; level: string; questions: Question[] }): boolean {
-  const dppTitle = `DPP: ${dppData.subject}${dppData.chapter ? ` - ${dppData.chapter}` : ''}`;
+export function downloadDppPDF(dppData: { date: string; subject: string; chapter?: string; subtopic?: string; level: string; questions: Question[] }): boolean {
+  const subtopicStr = dppData.subtopic && dppData.subtopic !== 'All Sub-Topics' ? ` (${dppData.subtopic})` : '';
+  const dppTitle = `DPP: ${dppData.subject}${dppData.chapter ? ` - ${dppData.chapter}` : ''}${subtopicStr}`;
   if (!checkAuthForDownload(dppTitle, 'DPP')) {
     return false;
   }
@@ -1457,10 +1458,11 @@ export function downloadDppPDF(dppData: { date: string; subject: string; chapter
 
   const htmlBody = `
     <div class="test-title-bar">
-      <h1 style="font-size: 18px; margin-bottom: 4px;">Daily Practice Paper (DPP) - ${dppData.subject}${dppData.chapter ? ` &bull; ${dppData.chapter}` : ''}</h1>
+      <h1 style="font-size: 18px; margin-bottom: 4px;">Daily Practice Paper (DPP) - ${dppData.subject}${dppData.chapter ? ` &bull; ${dppData.chapter}` : ''}${dppData.subtopic && dppData.subtopic !== 'All Sub-Topics' ? ` &bull; ${dppData.subtopic}` : ''}</h1>
       <div class="meta-grid">
         <div class="meta-item"><strong>Target Date:</strong> ${dppData.date}</div>
-        ${dppData.chapter ? `<div class="meta-item"><strong>Sub-Topic:</strong> ${dppData.chapter}</div>` : ''}
+        ${dppData.chapter ? `<div class="meta-item"><strong>Topic:</strong> ${dppData.chapter}</div>` : ''}
+        ${dppData.subtopic && dppData.subtopic !== 'All Sub-Topics' ? `<div class="meta-item"><strong>Sub-Topic:</strong> ${dppData.subtopic}</div>` : ''}
         <div class="meta-item"><strong>Level:</strong> ${dppData.level}</div>
         <div class="meta-item"><strong>Questions:</strong> ${dppData.questions.length} High-Yield Qs</div>
         <div class="meta-item"><strong>Marking:</strong> +4 Correct, -1 Incorrect</div>
