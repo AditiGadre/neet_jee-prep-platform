@@ -20,9 +20,12 @@ import {
   Upload,
   Trash2,
   Accessibility,
-  Shield
+  Shield,
+  Eye,
+  EyeOff
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { supabase } from '../supabaseClient';
 import {
   checkDeviceAuthorization,
   deauthorizeDevice,
@@ -68,6 +71,8 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
   const [domicileState, setDomicileState] = useState(initialData?.domicileState || 'Maharashtra');
   const [caste, setCaste] = useState<EnrolledStudent['caste']>(initialData?.caste || 'General / Open');
   const [email, setEmail] = useState(initialData?.email || '');
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [dob, setDob] = useState(initialData?.dob || '2006-08-15');
   const [targetYear, setTargetYear] = useState<EnrolledStudent['targetYear']>(initialData?.targetYear || '2027');
   const [agreedTerms, setAgreedTerms] = useState(true);
@@ -216,6 +221,10 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
       newErrors.parentEmail = 'Please enter a valid parent email address';
     }
 
+    if (password.trim() && password.trim().length < 6) {
+      newErrors.password = 'Password must be at least 6 characters (or leave blank to use your DOB PIN)';
+    }
+
     if (!dob) {
       newErrors.dob = 'Date of birth is required for PDF password protection';
     }
@@ -228,7 +237,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
 
@@ -247,6 +256,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
 
     const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
     const dobPin = formatDobToPin(dob);
+    const accountPassword = password.trim() || dobPin;
 
     const studentData: EnrolledStudent = {
       studentName: studentName.trim(),
@@ -268,6 +278,50 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
       disabilityStatus,
       specialReservation
     };
+
+    // 1. Save credentials and candidate metadata in Supabase Auth
+    if (supabase) {
+      try {
+        await supabase.auth.signUp({
+          email: studentData.email,
+          password: accountPassword,
+          options: {
+            data: {
+              name: studentData.studentName,
+              phone: studentData.studentPhone,
+              parent_name: studentData.parentName,
+              parent_phone: studentData.parentPhone,
+              parent_email: studentData.parentEmail,
+              dob: studentData.dob,
+              dob_pin: studentData.dobPin,
+              target_year: studentData.targetYear,
+              caste: studentData.caste,
+              domicile_state: studentData.domicileState,
+              gender: studentData.gender,
+              disability_status: studentData.disabilityStatus,
+              special_reservation: studentData.specialReservation,
+              roll_number: studentData.rollNumber
+            }
+          }
+        });
+      } catch (supErr) {
+        console.warn('Supabase remote registration sync notice:', supErr);
+      }
+    }
+
+    // 2. Save candidate credentials to local candidate list for fast/offline login
+    try {
+      const existingRaw = localStorage.getItem('neet_registered_candidates');
+      const candidates: any[] = existingRaw ? JSON.parse(existingRaw) : [];
+      const filtered = candidates.filter((c: any) => c.email !== studentData.email);
+      filtered.push({
+        ...studentData,
+        password: accountPassword
+      });
+      localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
+    } catch (e) {
+      console.error('Failed saving to registered candidates list:', e);
+    }
 
     localStorage.setItem('neet_enrolled_student', JSON.stringify(studentData));
     localStorage.setItem('neet_user_enrolled', 'true');
@@ -293,6 +347,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
         specialReservation: studentData.specialReservation
       })
     );
+    localStorage.removeItem('neet_guest_mode');
 
     window.dispatchEvent(new Event('neet_auth_change'));
 
@@ -308,12 +363,13 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
     }, 600);
   };
 
-  const handleDeauthorizeAndContinue = (deviceToRemoveId: string) => {
+  const handleDeauthorizeAndContinue = async (deviceToRemoveId: string) => {
     const updatedDevices = deauthorizeDevice(email.trim().toLowerCase(), deviceToRemoveId);
     setDeviceLimitError(null);
     // Proceed with enrollment
     const rollNo = `NCBT-${targetYear}-` + Math.floor(100000 + Math.random() * 900000);
     const dobPin = formatDobToPin(dob);
+    const accountPassword = password.trim() || dobPin;
 
     const studentData: EnrolledStudent = {
       studentName: studentName.trim(),
@@ -335,6 +391,50 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
       disabilityStatus,
       specialReservation
     };
+
+    // 1. Save credentials and candidate metadata in Supabase Auth
+    if (supabase) {
+      try {
+        await supabase.auth.signUp({
+          email: studentData.email,
+          password: accountPassword,
+          options: {
+            data: {
+              name: studentData.studentName,
+              phone: studentData.studentPhone,
+              parent_name: studentData.parentName,
+              parent_phone: studentData.parentPhone,
+              parent_email: studentData.parentEmail,
+              dob: studentData.dob,
+              dob_pin: studentData.dobPin,
+              target_year: studentData.targetYear,
+              caste: studentData.caste,
+              domicile_state: studentData.domicileState,
+              gender: studentData.gender,
+              disability_status: studentData.disabilityStatus,
+              special_reservation: studentData.specialReservation,
+              roll_number: studentData.rollNumber
+            }
+          }
+        });
+      } catch (supErr) {
+        console.warn('Supabase remote registration sync notice:', supErr);
+      }
+    }
+
+    // 2. Save candidate credentials to local candidate list for fast/offline login
+    try {
+      const existingRaw = localStorage.getItem('neet_registered_candidates');
+      const candidates: any[] = existingRaw ? JSON.parse(existingRaw) : [];
+      const filtered = candidates.filter((c: any) => c.email !== studentData.email);
+      filtered.push({
+        ...studentData,
+        password: accountPassword
+      });
+      localStorage.setItem('neet_registered_candidates', JSON.stringify(filtered));
+    } catch (e) {
+      console.error('Failed saving to registered candidates list:', e);
+    }
 
     localStorage.setItem('neet_enrolled_student', JSON.stringify(studentData));
     localStorage.setItem('neet_user_enrolled', 'true');
@@ -850,6 +950,54 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onE
                 {errors.email && (
                   <p className="text-[10px] text-rose-600 font-semibold mt-1 flex items-center gap-1">
                     <AlertCircle className="w-3 h-3 shrink-0" /> {errors.email}
+                  </p>
+                )}
+              </div>
+
+              {/* Account Login Password */}
+              <div className="sm:col-span-2">
+                <div className="flex items-center justify-between mb-1">
+                  <label className="block text-xs font-bold text-slate-700">
+                    Create Account Password
+                  </label>
+                  <span className="text-[10px] text-slate-500 font-medium">
+                    Optional (Defaults to DOB PIN: <span className="font-mono text-blue-600 font-bold">{formatDobToPin(dob) || 'DDMMYYYY'}</span>)
+                  </span>
+                </div>
+                <div className="relative">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                    <Lock className="w-4 h-4" />
+                  </div>
+                  <input
+                    type={showPassword ? 'text' : 'password'}
+                    value={password}
+                    onChange={e => {
+                      setPassword(e.target.value);
+                      if (errors.password) setErrors(prev => ({ ...prev, password: '' }));
+                    }}
+                    placeholder={`Create password (min 6 chars) or leave blank to use DOB PIN (${formatDobToPin(dob) || 'DDMMYYYY'})`}
+                    className={`w-full pl-9 pr-10 py-2 text-xs rounded-xl border bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 transition ${
+                      errors.password
+                        ? 'border-rose-300 focus:ring-rose-200 text-rose-900'
+                        : 'border-slate-200 focus:ring-blue-100 focus:border-blue-600 text-slate-900'
+                    }`}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="absolute right-3 top-2 text-slate-400 hover:text-slate-700 cursor-pointer"
+                    title={showPassword ? 'Hide password' : 'Show password'}
+                  >
+                    {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  </button>
+                </div>
+                {errors.password ? (
+                  <p className="text-[10px] text-rose-600 font-semibold mt-1 flex items-center gap-1">
+                    <AlertCircle className="w-3 h-3 shrink-0" /> {errors.password}
+                  </p>
+                ) : (
+                  <p className="text-[10px] text-slate-500 mt-1">
+                    Use this password to log in later. If left blank, your Date of Birth PIN (<span className="font-mono font-semibold text-blue-600">{formatDobToPin(dob) || 'DDMMYYYY'}</span>) will be your password.
                   </p>
                 )}
               </div>

@@ -554,7 +554,13 @@ export default function App() {
 
         {/* Auth Modal */}
         {isAuthModalOpen && (
-          <AuthModal onClose={() => setIsAuthModalOpen(false)} />
+          <AuthModal
+            onClose={() => setIsAuthModalOpen(false)}
+            onOpenEnrollment={() => {
+              setIsAuthModalOpen(false);
+              setIsEnrollmentModalOpen(true);
+            }}
+          />
         )}
 
         {/* Downloads Vault Modal */}

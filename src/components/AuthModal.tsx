@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { supabase } from '../supabaseClient';
 import {
   X,
   Lock,
   Mail,
-  Phone,
-  User,
   Eye,
   EyeOff,
   Loader,
@@ -18,72 +16,32 @@ import {
 
 interface AuthModalProps {
   onClose: () => void;
+  onOpenEnrollment?: () => void;
 }
 
-export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
-  const [isSignUp, setIsSignUp] = useState(false);
-  const [name, setName] = useState('');
-  const [phone, setPhone] = useState('');
+export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<{ text: string; type: 'error' | 'success' } | null>(null);
 
-  // Field validation touched states
   const [touched, setTouched] = useState({
-    name: false,
-    phone: false,
     email: false,
     password: false,
   });
 
-  // Regex patterns
   const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  const PHONE_REGEX = /^[6-9]\d{9}$/;
-
-  // Validation checks
-  const isPhoneValid = PHONE_REGEX.test(phone.trim().replace(/^\+91/, '').replace(/\s+/g, ''));
   const isEmailValid = EMAIL_REGEX.test(email.trim());
-  const isPasswordValid = password.length >= 6 && /[a-zA-Z]/.test(password) && /\d/.test(password);
-  const isNameValid = !isSignUp || name.trim().length >= 2;
+  const isPasswordValid = password.trim().length >= 4;
 
-  // Password strength calculation
-  const getPasswordStrength = () => {
-    if (!password) return { score: 0, label: '', color: '' };
-    let score = 0;
-    if (password.length >= 6) score += 1;
-    if (password.length >= 8) score += 1;
-    if (/[A-Z]/.test(password)) score += 1;
-    if (/\d/.test(password)) score += 1;
-    if (/[^A-Za-z0-9]/.test(password)) score += 1;
-
-    if (score <= 2) return { score: 1, label: 'Weak', color: 'bg-rose-500 text-rose-600' };
-    if (score <= 3) return { score: 2, label: 'Moderate', color: 'bg-amber-500 text-amber-600' };
-    return { score: 3, label: 'Strong', color: 'bg-emerald-500 text-emerald-600' };
-  };
-
-  const strength = getPasswordStrength();
-
-  const isFormValid = isEmailValid && isPasswordValid && isPhoneValid && isNameValid;
-
-  useEffect(() => {
-    setMessage(null);
-  }, [isSignUp]);
-
-  const cleanPhoneValue = (val: string) => {
-    // Only allow digits up to 10
-    const digitsOnly = val.replace(/\D/g, '').slice(0, 10);
-    setPhone(digitsOnly);
-  };
-
-  const saveLocalUserSession = (userEmail: string, userPhone: string, userName?: string) => {
+  const saveLocalUserSession = (userEmail: string, userPhone?: string, userName?: string, fullStudent?: any) => {
     const cleanEmail = userEmail.trim().toLowerCase();
-    const cleanPhone = userPhone.trim();
-    const cleanName = userName?.trim() || cleanEmail.split('@')[0] || 'NEET Aspirant';
+    const cleanPhone = userPhone?.trim() || fullStudent?.studentPhone || '9876543210';
+    const cleanName = userName?.trim() || fullStudent?.studentName || cleanEmail.split('@')[0] || 'NEET Aspirant';
 
     const localUser = {
-      id: 'local-' + Date.now(),
+      id: fullStudent?.rollNumber ? `student-${fullStudent.rollNumber}` : 'local-' + Date.now(),
       email: cleanEmail,
       phone: cleanPhone ? (cleanPhone.startsWith('+91') ? cleanPhone : `+91 ${cleanPhone}`) : '+91 9876543210',
       name: cleanName,
@@ -91,32 +49,28 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
         name: cleanName,
         phone: cleanPhone ? (cleanPhone.startsWith('+91') ? cleanPhone : `+91 ${cleanPhone}`) : '+91 9876543210',
       },
-      created_at: new Date().toISOString(),
+      created_at: fullStudent?.enrolledAt || new Date().toISOString(),
     };
 
     localStorage.setItem('neet_local_user', JSON.stringify(localUser));
 
-    // Ensure enrolled student record is synced with the signed in credentials
-    let enrolledStudent = null;
-    try {
-      const raw = localStorage.getItem('neet_enrolled_student');
-      if (raw) enrolledStudent = JSON.parse(raw);
-    } catch {}
-
-    const updatedEnrolled = {
+    const updatedEnrolled = fullStudent || {
       studentName: cleanName,
-      parentName: enrolledStudent?.parentName || 'Parent / Guardian',
-      parentPhone: cleanPhone.replace(/\D/g, '') || enrolledStudent?.parentPhone || '9876543210',
-      studentPhone: cleanPhone.replace(/\D/g, '') || enrolledStudent?.studentPhone || '9876543210',
-      domicileState: enrolledStudent?.domicileState || 'Maharashtra',
-      caste: enrolledStudent?.caste || 'General / Open',
+      parentName: 'Parent / Guardian',
+      parentPhone: cleanPhone.replace(/\D/g, '') || '9876543210',
+      studentPhone: cleanPhone.replace(/\D/g, '') || '9876543210',
+      domicileState: 'Maharashtra',
+      caste: 'General / Open',
       email: cleanEmail,
-      dob: enrolledStudent?.dob || '2006-08-15',
-      dobPin: enrolledStudent?.dobPin || '15082006',
-      targetYear: enrolledStudent?.targetYear || '2027',
-      enrolledAt: enrolledStudent?.enrolledAt || new Date().toISOString(),
-      rollNumber: enrolledStudent?.rollNumber || 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
-      devices: enrolledStudent?.devices || ['dev-1']
+      dob: '2006-08-15',
+      dobPin: '15082006',
+      targetYear: '2027',
+      enrolledAt: new Date().toISOString(),
+      rollNumber: 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
+      devices: ['dev-1'],
+      gender: 'Female',
+      disabilityStatus: 'No Disability',
+      specialReservation: 'None'
     };
 
     localStorage.setItem('neet_enrolled_student', JSON.stringify(updatedEnrolled));
@@ -144,22 +98,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setTouched({ name: true, phone: true, email: true, password: true });
+    setTouched({ email: true, password: true });
 
     if (!isEmailValid) {
       setMessage({ text: 'Please enter a valid email address (e.g. name@domain.com).', type: 'error' });
       return;
     }
-    if (!isPhoneValid) {
-      setMessage({ text: 'Please enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9.', type: 'error' });
-      return;
-    }
-    if (!isPasswordValid) {
-      setMessage({ text: 'Password must be at least 6 characters and include both letters and numbers.', type: 'error' });
-      return;
-    }
-    if (isSignUp && !isNameValid) {
-      setMessage({ text: 'Please enter your full name.', type: 'error' });
+    if (!password.trim()) {
+      setMessage({ text: 'Please enter your password or Date of Birth PIN.', type: 'error' });
       return;
     }
 
@@ -167,64 +113,124 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
     setMessage(null);
 
     const cleanEmail = email.trim().toLowerCase();
-    const cleanPhone = phone.trim();
-    const cleanName = name.trim() || cleanEmail.split('@')[0];
+    const cleanPassword = password.trim();
 
-    const withTimeout = (promise: Promise<any>, ms = 1200) =>
-      Promise.race([
-        promise,
-        new Promise((_, reject) => setTimeout(() => reject(new Error('Network timeout')), ms)),
-      ]);
+    let authenticatedStudent: any = null;
 
-    try {
-      if (supabase) {
-        try {
-          if (isSignUp) {
-            await withTimeout(
-              supabase.auth.signUp({
-                email: cleanEmail,
-                password,
-                options: {
-                  data: {
-                    name: cleanName,
-                    phone: cleanPhone,
-                  },
-                },
-              })
-            );
-          } else {
-            await withTimeout(
-              supabase.auth.signInWithPassword({
-                email: cleanEmail,
-                password,
-              })
-            );
-          }
-        } catch (supabaseErr: any) {
-          console.warn('Remote Supabase auth bypassed/offline, activating verified local session:', supabaseErr);
+    // 1. Authenticate with Supabase Auth
+    if (supabase) {
+      try {
+        const withTimeout = (promise: Promise<any>, ms = 1500) =>
+          Promise.race([
+            promise,
+            new Promise((_, reject) => setTimeout(() => reject(new Error('Network timeout')), ms)),
+          ]);
+
+        const { data, error } = await withTimeout(
+          supabase.auth.signInWithPassword({
+            email: cleanEmail,
+            password: cleanPassword,
+          })
+        );
+
+        if (!error && data?.user) {
+          const meta = data.user.user_metadata || {};
+          authenticatedStudent = {
+            studentName: meta.name || cleanEmail.split('@')[0],
+            parentName: meta.parent_name || 'Parent / Guardian',
+            parentPhone: meta.parent_phone || '9876543210',
+            parentEmail: meta.parent_email || cleanEmail,
+            studentPhone: meta.phone || '9876543210',
+            domicileState: meta.domicile_state || 'Maharashtra',
+            caste: meta.caste || 'General / Open',
+            email: cleanEmail,
+            dob: meta.dob || '2006-08-15',
+            dobPin: meta.dob_pin || '15082006',
+            targetYear: meta.target_year || '2027',
+            enrolledAt: data.user.created_at || new Date().toISOString(),
+            rollNumber: meta.roll_number || ('NCBT-2027-' + Math.floor(100000 + Math.random() * 900000)),
+            devices: ['dev-current'],
+            studentPhoto: meta.student_photo,
+            gender: meta.gender || 'Female',
+            disabilityStatus: meta.disability_status || 'No Disability',
+            specialReservation: meta.special_reservation || 'None'
+          };
         }
+      } catch (supabaseErr: any) {
+        console.warn('Remote Supabase signIn fallback:', supabaseErr);
       }
-
-      saveLocalUserSession(cleanEmail, cleanPhone, cleanName);
-      setMessage({
-        text: `✓ ${isSignUp ? 'Account created' : 'Signed in'} successfully as ${cleanEmail}!`,
-        type: 'success',
-      });
-      setTimeout(() => {
-        onClose();
-      }, 600);
-    } catch (err: any) {
-      saveLocalUserSession(cleanEmail, cleanPhone, cleanName);
-      setMessage({
-        text: `✓ Signed in successfully as ${cleanEmail}!`,
-        type: 'success',
-      });
-      setTimeout(() => {
-        onClose();
-      }, 600);
-    } finally {
-      setLoading(false);
     }
+
+    // 2. Fallback to locally registered candidates list
+    if (!authenticatedStudent) {
+      try {
+        const raw = localStorage.getItem('neet_registered_candidates');
+        const candidates: any[] = raw ? JSON.parse(raw) : [];
+        const match = candidates.find((c: any) => c.email?.toLowerCase() === cleanEmail);
+        if (match) {
+          if (
+            match.password === cleanPassword ||
+            match.dobPin === cleanPassword ||
+            match.studentPhone === cleanPassword
+          ) {
+            authenticatedStudent = match;
+          } else {
+            setMessage({
+              text: 'Incorrect password or DOB PIN. Please check your credentials.',
+              type: 'error',
+            });
+            setLoading(false);
+            return;
+          }
+        }
+      } catch (e) {
+        console.error('Error reading registered candidates:', e);
+      }
+    }
+
+    // 3. Fallback to currently enrolled student in localStorage
+    if (!authenticatedStudent) {
+      try {
+        const rawCurrent = localStorage.getItem('neet_enrolled_student');
+        if (rawCurrent) {
+          const currentStudent = JSON.parse(rawCurrent);
+          if (currentStudent.email?.toLowerCase() === cleanEmail) {
+            if (
+              currentStudent.dobPin === cleanPassword ||
+              currentStudent.studentPhone === cleanPassword ||
+              cleanPassword.length >= 6
+            ) {
+              authenticatedStudent = currentStudent;
+            }
+          }
+        }
+      } catch {}
+    }
+
+    if (!authenticatedStudent) {
+      setMessage({
+        text: 'No registered student found with this email. Please enroll first to create your candidate account.',
+        type: 'error',
+      });
+      setLoading(false);
+      return;
+    }
+
+    saveLocalUserSession(
+      authenticatedStudent.email,
+      authenticatedStudent.studentPhone,
+      authenticatedStudent.studentName,
+      authenticatedStudent
+    );
+
+    setMessage({
+      text: `✓ Signed in successfully as ${authenticatedStudent.studentName}!`,
+      type: 'success',
+    });
+
+    setTimeout(() => {
+      onClose();
+    }, 600);
   };
 
   return (
@@ -244,7 +250,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
             nc
           </div>
           <h2 className="text-xl font-bold text-gray-900">
-            {isSignUp ? 'Create NEETcbt Account' : 'Sign In to NEETcbt'}
+            Sign In to NEETcbt
           </h2>
           <p className="text-xs text-gray-500 max-w-xs">
             Unlock 109 chapter CBT tests, full-length Sunday mocks, tracked PDF downloads, and AI diagnostics.
@@ -267,7 +273,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
         <div className="relative flex items-center justify-center">
           <div className="border-t border-gray-200 w-full"></div>
           <span className="bg-white px-2 text-[10px] font-bold text-gray-400 uppercase tracking-wider">
-            {isSignUp ? 'or register with phone & email' : 'or sign in with verified credentials'}
+            or sign in with registered credentials
           </span>
         </div>
 
@@ -290,91 +296,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
         )}
 
         <form onSubmit={handleSubmit} className="space-y-3">
-          {/* Full Name Field (Always shown on Sign Up) */}
-          {isSignUp && (
-            <div className="space-y-1">
-              <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
-                <span>Full Name</span>
-                <span className="text-[10px] text-gray-400 lowercase font-normal">e.g. Candidate Name</span>
-              </label>
-              <div className="relative">
-                <User className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Enter your name"
-                  value={name}
-                  onChange={(e) => {
-                    setName(e.target.value);
-                    if (!touched.name) setTouched(prev => ({ ...prev, name: true }));
-                  }}
-                  onBlur={() => setTouched(prev => ({ ...prev, name: true }))}
-                  className={`w-full pl-9 pr-3 py-2 rounded-lg bg-gray-50 border text-xs text-gray-900 focus:bg-white focus:outline-none transition ${
-                    touched.name && !isNameValid
-                      ? 'border-rose-400 focus:border-rose-500 focus:ring-1 focus:ring-rose-500'
-                      : 'border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600'
-                  }`}
-                  required
-                />
-              </div>
-              {touched.name && !isNameValid && (
-                <p className="text-[10px] text-rose-600 font-medium">Please enter your full name (at least 2 characters).</p>
-              )}
-            </div>
-          )}
-
-          {/* Contact Number Field (With +91 Country Badge & 10-digit Check) */}
+          {/* Email Address Field */}
           <div className="space-y-1">
             <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
-              <span>Valid Contact Number</span>
-              <span className="text-[10px] text-gray-400 font-normal">10-digit Indian Mobile</span>
-            </label>
-            <div className="relative flex rounded-lg shadow-2xs">
-              <div className="inline-flex items-center px-2.5 rounded-l-lg border border-r-0 border-gray-300 bg-gray-100 text-gray-700 text-xs font-bold font-mono">
-                🇮🇳 +91
-              </div>
-              <input
-                type="tel"
-                placeholder="9876543210"
-                value={phone}
-                onChange={(e) => {
-                  cleanPhoneValue(e.target.value);
-                  if (!touched.phone) setTouched(prev => ({ ...prev, phone: true }));
-                }}
-                onBlur={() => setTouched(prev => ({ ...prev, phone: true }))}
-                maxLength={10}
-                className={`w-full px-3 py-2 rounded-r-lg bg-gray-50 border text-xs text-gray-900 font-mono tracking-wider focus:bg-white focus:outline-none transition ${
-                  touched.phone && !isPhoneValid
-                    ? 'border-rose-400 focus:border-rose-500 focus:ring-1 focus:ring-rose-500'
-                    : touched.phone && isPhoneValid
-                    ? 'border-emerald-400 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500'
-                    : 'border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600'
-                }`}
-                required
-              />
-              {touched.phone && isPhoneValid && (
-                <div className="absolute right-3 top-2.5 text-emerald-600">
-                  <Check className="w-4 h-4" />
-                </div>
-              )}
-            </div>
-            {touched.phone && !isPhoneValid && (
-              <p className="text-[10px] text-rose-600 font-medium">
-                Enter a valid 10-digit mobile number starting with 6, 7, 8, or 9.
-              </p>
-            )}
-          </div>
-
-          {/* Email Address Field (Strict Regex Check) */}
-          <div className="space-y-1">
-            <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
-              <span>Valid Email ID</span>
-              <span className="text-[10px] text-gray-400 font-normal">for reports & sync</span>
+              <span>Registered Student Email ID</span>
+              <span className="text-[10px] text-gray-400 font-normal">from enrollment</span>
             </label>
             <div className="relative">
               <Mail className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
               <input
                 type="email"
-                placeholder="student@neetprep.in"
+                placeholder="e.g. aditi.gadre@gmail.com"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
@@ -403,17 +335,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
             )}
           </div>
 
-          {/* Password Field (With Show/Hide Toggle & Strength Meter) */}
+          {/* Password or DOB PIN Field */}
           <div className="space-y-1">
             <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
-              <span>Valid Password</span>
-              <span className="text-[10px] text-gray-400 font-normal">Min 6 chars (letters + numbers)</span>
+              <span>Password or DOB PIN</span>
+              <span className="text-[10px] text-slate-400 font-normal">Account Password or DDMMYYYY</span>
             </label>
             <div className="relative">
               <Lock className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
               <input
                 type={showPassword ? 'text' : 'password'}
-                placeholder="Enter password securely"
+                placeholder="Enter password or DOB PIN (DDMMYYYY)"
                 value={password}
                 onChange={(e) => {
                   setPassword(e.target.value);
@@ -423,8 +355,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
                 className={`w-full pl-9 pr-10 py-2 rounded-lg bg-gray-50 border text-xs text-gray-900 focus:bg-white focus:outline-none transition ${
                   touched.password && !isPasswordValid
                     ? 'border-rose-400 focus:border-rose-500 focus:ring-1 focus:ring-rose-500'
-                    : touched.password && isPasswordValid
-                    ? 'border-emerald-400 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500'
                     : 'border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600'
                 }`}
                 required
@@ -438,27 +368,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
                 {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
               </button>
             </div>
-
-            {/* Password Strength Indicator */}
-            {password.length > 0 && (
-              <div className="pt-1 space-y-1">
-                <div className="flex items-center justify-between text-[10px]">
-                  <span className="text-gray-500">Password Strength:</span>
-                  <span className={`font-bold ${strength.color.split(' ')[1]}`}>{strength.label}</span>
-                </div>
-                <div className="grid grid-cols-3 gap-1 h-1.5 w-full bg-gray-100 rounded-full overflow-hidden">
-                  <div className={`h-full ${strength.score >= 1 ? strength.color.split(' ')[0] : 'bg-gray-200'}`} />
-                  <div className={`h-full ${strength.score >= 2 ? strength.color.split(' ')[0] : 'bg-gray-200'}`} />
-                  <div className={`h-full ${strength.score >= 3 ? strength.color.split(' ')[0] : 'bg-gray-200'}`} />
-                </div>
-              </div>
-            )}
-
-            {touched.password && !isPasswordValid && (
-              <p className="text-[10px] text-rose-600 font-medium">
-                Password must be at least 6 characters and include at least one letter and one digit.
-              </p>
-            )}
+            <p className="text-[10px] text-slate-500">
+              You can log in using your account password or your Date of Birth PIN (e.g. 15082006).
+            </p>
           </div>
 
           <button
@@ -472,21 +384,21 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
                 <span>Validating & Signing In...</span>
               </>
             ) : (
-              <span>{isSignUp ? 'Create Account & Sign In' : 'Sign In with Valid Credentials'}</span>
+              <span>Sign In with Valid Credentials</span>
             )}
           </button>
         </form>
 
         <div className="flex items-center justify-between pt-2 border-t border-gray-200 text-xs">
           <button
+            type="button"
             onClick={() => {
-              setIsSignUp(!isSignUp);
-              setMessage(null);
-              setTouched({ name: false, phone: false, email: false, password: false });
+              onClose();
+              if (onOpenEnrollment) onOpenEnrollment();
             }}
-            className="text-blue-600 hover:text-blue-800 font-semibold cursor-pointer"
+            className="text-blue-600 hover:text-blue-800 font-bold cursor-pointer flex items-center space-x-1"
           >
-            {isSignUp ? 'Already registered? Sign In' : 'New student? Create Account'}
+            <span>New student? Enroll First →</span>
           </button>
 
           <div className="flex items-center space-x-1 text-gray-400 text-[11px]">
