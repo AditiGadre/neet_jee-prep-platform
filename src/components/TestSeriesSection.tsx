@@ -423,19 +423,16 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Chapter-Wise</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">12 Sunday Tests</div>
-                <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep 2026 – 21 Feb 2027</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 1: Cumulative</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">5 Sunday Tests</div>
-                <div className="text-[10px] text-amber-700 font-semibold mt-0.5 font-mono">25 Oct 2026 – 14 Feb 2027</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Final Phase: Full Syllabus</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
-                <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">28 Feb – 14 Mar 2027</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
@@ -449,25 +446,21 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-blue-700 tracking-wider">Phase 1: Part-Wise</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">8 Tests (Every 5d)</div>
-                <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep – 25 Oct 2026</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-emerald-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-emerald-700 tracking-wider">Phase 2: Complete Syllabus</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">10 Tests (Every 4d)</div>
-                <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">29 Oct – 04 Dec 2026</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-amber-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-amber-700 tracking-wider">Phase 3: NEET Mocks</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">5 Mocks (Every 2d)</div>
-                <div className="text-[10px] text-amber-700 font-semibold mt-0.5 font-mono">10 Dec – 18 Dec 2026</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-purple-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-purple-700 tracking-wider">Buffer &amp; Analysis</div>
                 <div className="text-xl font-bold text-purple-700 mt-0.5 font-mono">7 Repair Cycles</div>
-                <div className="text-[10px] text-purple-600 font-semibold mt-0.5 font-mono">11 Dec 2026 – 03 Feb 2027</div>
               </div>
             </>
           ) : (
@@ -475,19 +468,16 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
               <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 1: CWT & Cumulative</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">24 Sunday Tests</div>
-                <div className="text-[10px] text-blue-700 font-semibold mt-0.5 font-mono">20 Sep 2026 – 28 Feb 2027</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 2: Part Tests</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">3 Sunday Tests</div>
-                <div className="text-[10px] text-emerald-600 font-semibold mt-0.5 font-mono">07 Mar – 21 Mar 2027</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
                 <div className="text-[10px] uppercase font-bold text-slate-500 tracking-wider">Phase 3: Full Syllabus</div>
                 <div className="text-xl font-bold text-slate-900 mt-0.5">6 Sunday Tests</div>
-                <div className="text-[10px] text-amber-600 font-semibold mt-0.5 font-mono">28 Mar – 02 May 2027</div>
               </div>
 
               <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">

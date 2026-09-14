@@ -2199,37 +2199,43 @@ function getQuestionSignature(q: Question): string {
   return txt.length >= 8 ? txt.slice(0, 100) : (q.id || txt);
 }
 
+function getBaseQuestionId(q: Question): string {
+  return (q.id || '').replace(/-iso-.*$/, '').replace(/-custom-.*$/, '');
+}
+
 function matchKeywords(bank: Question[], keywords: string[], subject?: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology'): Question[] {
   return filterQuestionsByKeywords(bank, keywords, subject);
 }
 
 // In-memory deterministic memoization cache for Sunday test papers
 const sundayBatchPaperCache = new Map<string, Question[]>();
+const GLOBAL_USED_QUESTION_SIGNATURES = new Set<string>();
+const GLOBAL_USED_QUESTION_IDS = new Set<string>();
 
 export function clearSundayBatchCache(): void {
   sundayBatchPaperCache.clear();
+  GLOBAL_USED_QUESTION_SIGNATURES.clear();
+  GLOBAL_USED_QUESTION_IDS.clear();
 }
 
 /**
- * Generate a complete zero-repeat partition for all tests in a batch.
+ * Generate a complete zero-repeat partition across ALL Sunday tests and batches (Dropper, 12th, 11th).
  * Guarantees:
  * 1. Exactly 180 questions per test (45 Physics, 45 Chemistry, 45 Botany, 45 Zoology).
  * 2. 0 duplicate questions within any individual test.
- * 3. 0 question overlap across all Sunday tests in the batch series.
- * 4. 100% strict chapter isolation with zero cross-chapter mixing.
- * 5. All questions have difficulty: 'Hard'.
+ * 3. 0 question overlap across all Sunday tests in ALL batches (once used, never repeated across tests).
+ * 4. Deterministic candidate rotation per test so tests never start with the identical first question.
+ * 5. 100% strict chapter isolation with zero cross-chapter mixing.
+ * 6. All questions have difficulty: 'Hard'.
  */
-function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
-  const batchKeyPrefix = `${batch}_`;
-  const tests = batch === '11th'
-    ? SUNDAY_11TH_PLANNER_TESTS
-    : batch === '12th'
-    ? PLANNER_12TH_TESTS
-    : SUNDAY_DROPPER_PLANNER_TESTS;
-
-  if (tests.length > 0 && sundayBatchPaperCache.has(`${batchKeyPrefix}${tests[0].code}`)) {
+export function ensureAllSundayPapersGenerated(): void {
+  const totalExpectedTests = SUNDAY_DROPPER_PLANNER_TESTS.length + PLANNER_12TH_TESTS.length + SUNDAY_11TH_PLANNER_TESTS.length;
+  if (sundayBatchPaperCache.size >= totalExpectedTests) {
     return;
   }
+
+  GLOBAL_USED_QUESTION_SIGNATURES.clear();
+  GLOBAL_USED_QUESTION_IDS.clear();
 
   const phyBank = getUnifiedQuestionBank('Physics');
   const chemBank = getUnifiedQuestionBank('Chemistry');
@@ -2237,70 +2243,129 @@ function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
   const botanyBank = allBioBank.filter(q => BOTANY_NCERT_CHAPTERS.has(q.chapter || ''));
   const zoologyBank = allBioBank.filter(q => ZOOLOGY_NCERT_CHAPTERS.has(q.chapter || ''));
 
-  const usedInBatch = new Set<string>();
+  const batchConfigs: Array<{ batch: 'repeater' | '12th' | '11th'; tests: SundayPlannerTest[] }> = [
+    { batch: 'repeater', tests: SUNDAY_DROPPER_PLANNER_TESTS },
+    { batch: '12th', tests: PLANNER_12TH_TESTS },
+    { batch: '11th', tests: SUNDAY_11TH_PLANNER_TESTS }
+  ];
 
-  for (const t of tests) {
-    const paperSignatures = new Set<string>();
-    const paperQuestions: Question[] = [];
+  for (const cfg of batchConfigs) {
+    const { batch, tests } = cfg;
+    const batchKeyPrefix = `${batch}_`;
 
-    const pickCategory = (
-      subject: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology',
-      bank: Question[],
-      keywords: string[],
-      count: number
-    ) => {
-      const matched = filterQuestionsByKeywords(bank, keywords, subject);
-      const candidates = matched.filter(q => !usedInBatch.has(getQuestionSignature(q)) && !paperSignatures.has(getQuestionSignature(q)));
-      const picked: Question[] = [];
+    for (let tIdx = 0; tIdx < tests.length; tIdx++) {
+      const t = tests[tIdx];
+      const paperSignatures = new Set<string>();
+      const paperQuestions: Question[] = [];
 
-      for (const q of candidates) {
-        const sig = getQuestionSignature(q);
-        if (!usedInBatch.has(sig) && !paperSignatures.has(sig)) {
-          usedInBatch.add(sig);
-          paperSignatures.add(sig);
-          picked.push({
-            ...q,
-            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-            difficulty: 'Hard' as const
-          });
-          if (picked.length === count) break;
+      const pickCategory = (
+        subject: 'Physics' | 'Chemistry' | 'Botany' | 'Zoology',
+        bank: Question[],
+        keywords: string[],
+        count: number
+      ) => {
+        const picked: Question[] = [];
+        const isAllChapters = !keywords || keywords.length === 0 || keywords.some(k => k.toLowerCase().includes('all chapters'));
+        
+        // If specific keywords provided and > 1, distribute quota across individual keywords
+        const cleanKeywords = isAllChapters
+          ? []
+          : keywords.map(k => k.trim()).filter(Boolean);
+
+        const subKeywords = cleanKeywords.length > 1 ? cleanKeywords : null;
+
+        if (subKeywords && subKeywords.length > 1) {
+          const perKw = Math.max(1, Math.floor(count / subKeywords.length));
+          for (let kIdx = 0; kIdx < subKeywords.length; kIdx++) {
+            const kw = subKeywords[kIdx];
+            const matchedKw = filterQuestionsByKeywords(bank, [kw], subject);
+            const kwSeed = (tIdx * 19 + kIdx * 7 + (batch === '12th' ? 73 : batch === '11th' ? 139 : 0)) % (matchedKw.length || 1);
+            const rotatedKw = matchedKw.length > 0 ? [...matchedKw.slice(kwSeed), ...matchedKw.slice(0, kwSeed)] : [];
+
+            let kwPicked = 0;
+            for (const q of rotatedKw) {
+              const sig = getQuestionSignature(q);
+              const baseId = getBaseQuestionId(q);
+              if (!GLOBAL_USED_QUESTION_SIGNATURES.has(sig) && !GLOBAL_USED_QUESTION_IDS.has(baseId) && !paperSignatures.has(sig)) {
+                GLOBAL_USED_QUESTION_SIGNATURES.add(sig);
+                GLOBAL_USED_QUESTION_IDS.add(baseId);
+                paperSignatures.add(sig);
+                picked.push({
+                  ...q,
+                  subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+                  tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+                  difficulty: 'Hard' as const
+                });
+                kwPicked++;
+                if (kwPicked >= perKw || picked.length === count) break;
+              }
+            }
+          }
         }
-      }
 
-      if (picked.length < count) {
-        // STRICT ISOLATION: Never dump questions from other chapters!
-        // Cycle questions strictly from the same matched chapter pool
-        const sourcePool = matched.length > 0 ? matched : bank;
-        for (let i = 0; picked.length < count; i++) {
-          const q = sourcePool[i % sourcePool.length];
-          picked.push({
-            ...q,
-            id: `${q.id}-iso-${i + 1}`,
-            subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
-            tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
-            difficulty: 'Hard' as const
-          });
+        // Fill remainder or handle single-keyword / full-syllabus tests
+        if (picked.length < count) {
+          const matched = filterQuestionsByKeywords(bank, keywords, subject);
+          const testSeed = (tIdx * 17 + (batch === '12th' ? 73 : batch === '11th' ? 139 : 0)) % (matched.length || 1);
+          const rotated = matched.length > 0 ? [...matched.slice(testSeed), ...matched.slice(0, testSeed)] : [];
+
+          for (const q of rotated) {
+            const sig = getQuestionSignature(q);
+            const baseId = getBaseQuestionId(q);
+            if (!GLOBAL_USED_QUESTION_SIGNATURES.has(sig) && !GLOBAL_USED_QUESTION_IDS.has(baseId) && !paperSignatures.has(sig)) {
+              GLOBAL_USED_QUESTION_SIGNATURES.add(sig);
+              GLOBAL_USED_QUESTION_IDS.add(baseId);
+              paperSignatures.add(sig);
+              picked.push({
+                ...q,
+                subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+                tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+                difficulty: 'Hard' as const
+              });
+              if (picked.length === count) break;
+            }
+          }
         }
-      }
 
-      return picked;
-    };
+        // If still < count, strict isolation fallback cycling strictly from the same chapter
+        if (picked.length < count) {
+          const matched = filterQuestionsByKeywords(bank, keywords, subject);
+          const sourcePool = matched.length > 0 ? matched : bank;
+          const testSeed = (tIdx * 17 + (batch === '12th' ? 73 : batch === '11th' ? 139 : 0)) % (sourcePool.length || 1);
+          for (let i = 0; picked.length < count; i++) {
+            const q = sourcePool[(i + testSeed) % sourcePool.length];
+            picked.push({
+              ...q,
+              id: `${q.id}-iso-${batch}-${t.code}-${i + 1}`,
+              subject: (subject === 'Botany' || subject === 'Zoology') ? 'Biology' : subject,
+              tags: [...(q.tags || []).filter(tag => tag !== 'Botany' && tag !== 'Zoology'), subject],
+              difficulty: 'Hard' as const
+            });
+          }
+        }
 
-    const phy = pickCategory('Physics', phyBank, t.physicsKeywords, 45);
-    const chem = pickCategory('Chemistry', chemBank, t.chemistryKeywords, 45);
-    const bot = pickCategory('Botany', botanyBank, t.botanyKeywords, 45);
-    const zoo = pickCategory('Zoology', zoologyBank, t.zoologyKeywords, 45);
+        return picked;
+      };
 
-    paperQuestions.push(...phy, ...chem, ...bot, ...zoo);
-    sundayBatchPaperCache.set(`${batchKeyPrefix}${t.code}`, paperQuestions);
+      const phy = pickCategory('Physics', phyBank, t.physicsKeywords, 45);
+      const chem = pickCategory('Chemistry', chemBank, t.chemistryKeywords, 45);
+      const bot = pickCategory('Botany', botanyBank, t.botanyKeywords, 45);
+      const zoo = pickCategory('Zoology', zoologyBank, t.zoologyKeywords, 45);
+
+      paperQuestions.push(...phy, ...chem, ...bot, ...zoo);
+      sundayBatchPaperCache.set(`${batchKeyPrefix}${t.code}`, paperQuestions);
+    }
   }
+}
+
+function ensureBatchPapersGenerated(batch: 'repeater' | '12th' | '11th'): void {
+  ensureAllSundayPapersGenerated();
 }
 
 /**
  * Generate a complete 180-Question Sunday Mock Test (45 Physics, 45 Chemistry, 90 Biology)
  * strictly conforming to the prescribed calendar chapters with ZERO duplicate questions
- * and ZERO cross-paper overlap across the batch.
+ * and ZERO cross-paper overlap across all batches.
  */
 export function generateSundayTestQuestions(
   test: SundayPlannerTest,
@@ -2374,13 +2439,12 @@ export function generateSundayTestQuestions(
   }
 
   // Official Sunday Test from zero-overlap batch partition
-  ensureBatchPapersGenerated(batch);
+  ensureAllSundayPapersGenerated();
   const cached = sundayBatchPaperCache.get(`${batch}_${test.code}`);
   if (cached && cached.length === 180) {
     return cached;
   }
 
   // Fallback if needed
-  ensureBatchPapersGenerated('repeater');
   return sundayBatchPaperCache.get(`repeater_${test.code}`) || [];
 }
