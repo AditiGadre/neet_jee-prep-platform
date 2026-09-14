@@ -36,6 +36,7 @@ interface HeaderProps {
   onOpenDownloads?: () => void;
   onOpenSuperUser?: () => void;
   onOpenUploadModal?: () => void;
+  onOpenEnrollment?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -52,7 +53,8 @@ export const Header: React.FC<HeaderProps> = ({
   onSignOut,
   onOpenDownloads,
   onOpenSuperUser,
-  onOpenUploadModal
+  onOpenUploadModal,
+  onOpenEnrollment
 }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
   const [downloadsCount, setDownloadsCount] = useState<number>(0);
@@ -255,6 +257,17 @@ export const Header: React.FC<HeaderProps> = ({
                         <span className="px-1.5 py-0.2 rounded-full bg-blue-100 text-blue-800 font-bold text-[10px] font-mono">
                           {downloadsCount}
                         </span>
+                      </button>
+
+                      <button
+                        onClick={() => {
+                          setProfileDropdownOpen(false);
+                          if (onOpenEnrollment) onOpenEnrollment();
+                        }}
+                        className="w-full text-left px-4 py-2 text-xs flex items-center space-x-2 text-slate-700 hover:bg-indigo-50 hover:text-indigo-900 transition cursor-pointer"
+                      >
+                        <GraduationCap className="w-4 h-4 text-indigo-600" />
+                        <span className="font-semibold">Candidate Enrollment Form</span>
                       </button>
 
                       <button

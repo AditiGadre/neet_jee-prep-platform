@@ -91,13 +91,7 @@ export default function App() {
     }
   });
 
-  const [isGuestMode, setIsGuestMode] = useState<boolean>(() => {
-    try {
-      return localStorage.getItem('neet_guest_mode') === 'true';
-    } catch {
-      return false;
-    }
-  });
+  const [isEnrollmentModalOpen, setIsEnrollmentModalOpen] = useState(false);
 
   // Modal States
   const [activeTestForCBT, setActiveTestForCBT] = useState<TestItem | null>(null);
@@ -149,14 +143,12 @@ export default function App() {
         const local = localStorage.getItem('neet_local_user');
         if (local) {
           setUser(JSON.parse(local));
-          setIsGuestMode(false);
         } else {
           setUser(null);
         }
         const student = localStorage.getItem('neet_enrolled_student');
         if (student) {
           setEnrolledStudent(JSON.parse(student));
-          setIsGuestMode(false);
         } else {
           setEnrolledStudent(null);
         }
@@ -185,8 +177,7 @@ export default function App() {
 
     if (supabase) {
       supabase.auth.getSession().then(({ data: { session } }) => {
-        const isGuest = localStorage.getItem('neet_guest_mode') === 'true';
-        if (session?.user && (!isGuest || localStorage.getItem('neet_enrolled_student'))) {
+        if (session?.user && localStorage.getItem('neet_enrolled_student')) {
           setUser(session.user);
           setEnrolledStudent(prev => {
             if (prev) return prev;
@@ -222,8 +213,7 @@ export default function App() {
       const {
         data: { subscription },
       } = supabase.auth.onAuthStateChange((_event, session) => {
-        const isGuest = localStorage.getItem('neet_guest_mode') === 'true';
-        if (session?.user && (!isGuest || localStorage.getItem('neet_enrolled_student'))) {
+        if (session?.user && localStorage.getItem('neet_enrolled_student')) {
           setUser(session.user);
           setEnrolledStudent(prev => {
             if (prev) return prev;
@@ -377,8 +367,8 @@ export default function App() {
     localStorage.removeItem('neet_local_user');
     localStorage.removeItem('neet_enrolled_student');
     localStorage.removeItem('neet_user_enrolled');
+    localStorage.removeItem('neet_guest_mode');
     sessionStorage.removeItem('neet_admin_authenticated');
-    localStorage.setItem('neet_guest_mode', 'true');
 
     // 2. Purge Supabase auth tokens from localStorage
     try {
@@ -393,7 +383,6 @@ export default function App() {
     // 3. Clear in-memory state
     setUser(null);
     setEnrolledStudent(null);
-    setIsGuestMode(true);
     setSignOutNotification(true);
     setTimeout(() => setSignOutNotification(false), 4000);
 
@@ -441,22 +430,19 @@ export default function App() {
       {signOutNotification && (
         <div className="fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-bottom-3 duration-200 border border-slate-700">
           <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-          <span>✓ Signed out successfully. Switched to Guest Mode.</span>
+          <span>✓ Signed out successfully. Complete candidate enrollment below.</span>
         </div>
       )}
 
-      {/* MANDATORY ENROLLMENT GATE: Blocks access until student registers or chooses guest exploration */}
-      {!enrolledStudent && !isGuestMode && (
+      {/* MANDATORY ENROLLMENT GATE: Required for all new / signed-out candidates */}
+      {(!enrolledStudent || isEnrollmentModalOpen) && (
         <EnrollmentGate
+          initialData={enrolledStudent || undefined}
           onEnrollSuccess={student => {
-            setIsGuestMode(false);
-            localStorage.removeItem('neet_guest_mode');
             setEnrolledStudent(student);
+            setIsEnrollmentModalOpen(false);
           }}
-          onClose={() => {
-            setIsGuestMode(true);
-            localStorage.setItem('neet_guest_mode', 'true');
-          }}
+          onClose={enrolledStudent ? () => setIsEnrollmentModalOpen(false) : undefined}
           onOpenAuth={() => setIsAuthModalOpen(true)}
         />
       )}
@@ -477,6 +463,7 @@ export default function App() {
         onOpenDownloads={() => setIsDownloadsModalOpen(true)}
         onOpenSuperUser={handleOpenSuperUser}
         onOpenUploadModal={() => handleOpenUpload()}
+        onOpenEnrollment={() => setIsEnrollmentModalOpen(true)}
       />
 
       {/* Main Layout Container */}

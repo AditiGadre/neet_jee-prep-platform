@@ -52,36 +52,58 @@ export interface EnrolledStudent {
 }
 
 interface EnrollmentGateProps {
+  initialData?: EnrolledStudent | null;
   onEnrollSuccess: (student: EnrolledStudent) => void;
   onOpenAdmin?: () => void;
   onClose?: () => void;
   onOpenAuth?: () => void;
 }
 
-export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess, onOpenAdmin, onClose, onOpenAuth }) => {
-  const [studentName, setStudentName] = useState('');
-  const [parentName, setParentName] = useState('');
-  const [parentPhone, setParentPhone] = useState('');
-  const [parentEmail, setParentEmail] = useState('');
-  const [studentPhone, setStudentPhone] = useState('');
-  const [domicileState, setDomicileState] = useState('Maharashtra');
-  const [caste, setCaste] = useState<EnrolledStudent['caste']>('General / Open');
-  const [email, setEmail] = useState('');
-  const [dob, setDob] = useState('2006-08-15');
-  const [targetYear, setTargetYear] = useState<EnrolledStudent['targetYear']>('2027');
+export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ initialData, onEnrollSuccess, onOpenAdmin, onClose, onOpenAuth }) => {
+  const [studentName, setStudentName] = useState(initialData?.studentName || '');
+  const [parentName, setParentName] = useState(initialData?.parentName || '');
+  const [parentPhone, setParentPhone] = useState(initialData?.parentPhone || '');
+  const [parentEmail, setParentEmail] = useState(initialData?.parentEmail || '');
+  const [studentPhone, setStudentPhone] = useState(initialData?.studentPhone || '');
+  const [domicileState, setDomicileState] = useState(initialData?.domicileState || 'Maharashtra');
+  const [caste, setCaste] = useState<EnrolledStudent['caste']>(initialData?.caste || 'General / Open');
+  const [email, setEmail] = useState(initialData?.email || '');
+  const [dob, setDob] = useState(initialData?.dob || '2006-08-15');
+  const [targetYear, setTargetYear] = useState<EnrolledStudent['targetYear']>(initialData?.targetYear || '2027');
   const [agreedTerms, setAgreedTerms] = useState(true);
 
   // New Aspirant Fields State
-  const [studentPhoto, setStudentPhoto] = useState<string>('');
-  const [gender, setGender] = useState<'Female' | 'Male' | 'Third Gender'>('Female');
-  const [disabilityStatus, setDisabilityStatus] = useState<string>('No Disability');
-  const [specialReservation, setSpecialReservation] = useState<string>('None');
+  const [studentPhoto, setStudentPhoto] = useState<string>(initialData?.studentPhoto || '');
+  const [gender, setGender] = useState<'Female' | 'Male' | 'Third Gender'>(initialData?.gender || 'Female');
+  const [disabilityStatus, setDisabilityStatus] = useState<string>(initialData?.disabilityStatus || 'No Disability');
+  const [specialReservation, setSpecialReservation] = useState<string>(initialData?.specialReservation || 'None');
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // Auto-detect and bypass if student or user credentials are saved in localStorage
   React.useEffect(() => {
+    if (initialData) {
+      setStudentName(initialData.studentName || '');
+      setParentName(initialData.parentName || '');
+      setParentPhone(initialData.parentPhone || '');
+      setParentEmail(initialData.parentEmail || '');
+      setStudentPhone(initialData.studentPhone || '');
+      setDomicileState(initialData.domicileState || 'Maharashtra');
+      setCaste(initialData.caste || 'General / Open');
+      setEmail(initialData.email || '');
+      setDob(initialData.dob || '2006-08-15');
+      setTargetYear(initialData.targetYear || '2027');
+      setStudentPhoto(initialData.studentPhoto || '');
+      setGender(initialData.gender || 'Female');
+      setDisabilityStatus(initialData.disabilityStatus || 'No Disability');
+      setSpecialReservation(initialData.specialReservation || 'None');
+    }
+  }, [initialData]);
+
+  // Auto-detect and bypass if student or user credentials are saved in localStorage (only if NOT explicitly opened to view/edit)
+  React.useEffect(() => {
+    if (initialData) return;
+
     try {
       const saved = localStorage.getItem('neet_enrolled_student');
       if (saved) {
@@ -119,7 +141,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
         return;
       }
     } catch {}
-  }, [onEnrollSuccess]);
+  }, [onEnrollSuccess, initialData]);
 
   const handlePhotoUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -896,7 +918,7 @@ export const EnrollmentGate: React.FC<EnrollmentGateProps> = ({ onEnrollSuccess,
                     onClick={onClose}
                     className="text-xs font-semibold text-slate-500 hover:text-slate-800 transition cursor-pointer"
                   >
-                    Or continue exploring platform as Guest Candidate →
+                    Close Enrollment Form ✕
                   </button>
                 </div>
               )}
