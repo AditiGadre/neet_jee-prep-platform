@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { formatMathAndFormulas } from '../utils/mathFormatter';
 import { cleanOcrText } from '../utils/ocrCleaner';
-import { BookOpen, Sparkles, CheckCircle2, Zap, ArrowRight, Play, ExternalLink } from 'lucide-react';
+import { BookOpen, Sparkles, CheckCircle2, Zap, ArrowRight } from 'lucide-react';
 
 export interface DetailedSolutionViewerProps {
   explanation: string | null | undefined;
@@ -283,150 +283,6 @@ function parseExplanation(rawText: string): ParsedSection[] {
   return sections.length > 0 ? sections : organizeUnstructuredExplanation(normalized);
 }
 
-/** Official YouTube Play Logo */
-const YouTubeIcon: React.FC<{ className?: string }> = ({ className = 'w-5 h-5' }) => (
-  <svg viewBox="0 0 24 24" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path
-      d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"
-      fill="#FF0000"
-    />
-    <path d="M9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FFFFFF" />
-  </svg>
-);
-
-/**
- * Concept Video Referral Component:
- * Provides direct, interactive links to YouTube video lectures, derivations, and numerical tricks
- * targeted specifically at the question's concept and syllabus chapter.
- */
-const ConceptVideoReferral: React.FC<{
-  subject?: string;
-  chapter?: string;
-  topic?: string;
-  subtopic?: string;
-  questionText?: string;
-  conceptTitle?: string;
-}> = ({ subject, chapter, topic, subtopic, questionText, conceptTitle }) => {
-  const queries = useMemo(() => {
-    const cleanSubject = (subject || 'NEET').replace(/batch|dropper|test|exam/gi, '').trim();
-    const cleanChapter = (chapter || '').replace(/\[.*?\]|\(.*?\)/g, '').replace(/test|dpp|exam/gi, '').trim();
-    const cleanTopic = (topic || subtopic || conceptTitle || '').replace(/\[.*?\]|\(.*?\)/g, '').trim();
-
-    let coreKeywords = `${cleanSubject} ${cleanChapter} ${cleanTopic}`.trim();
-    if (!cleanTopic && questionText) {
-      const strippedQ = questionText
-        .replace(/<[^>]+>/g, '')
-        .replace(/[^\w\s]/g, ' ')
-        .split(/\s+/)
-        .slice(0, 8)
-        .join(' ');
-      coreKeywords = `${cleanSubject} ${cleanChapter} ${strippedQ}`.trim();
-    }
-
-    const primaryQuery = `NEET ${coreKeywords} concept lecture derivation`.replace(/\s+/g, ' ').trim();
-    const oneShotQuery = `NEET ${cleanSubject} ${cleanChapter} one shot lecture`.replace(/\s+/g, ' ').trim();
-    const numericalTricksQuery = `NEET ${cleanSubject} ${cleanTopic || cleanChapter} numerical shortcuts tricks`.replace(/\s+/g, ' ').trim();
-    const ncertLineQuery = `NEET NCERT ${cleanSubject} ${cleanChapter} line by line explanation`.replace(/\s+/g, ' ').trim();
-    const pyqQuery = `NEET ${cleanSubject} ${cleanTopic || cleanChapter} pyq video solutions`.replace(/\s+/g, ' ').trim();
-
-    return {
-      primaryQuery,
-      oneShotQuery,
-      numericalTricksQuery,
-      ncertLineQuery,
-      pyqQuery,
-      displayTopic: cleanTopic || cleanChapter || 'Concept Derivation'
-    };
-  }, [subject, chapter, topic, subtopic, questionText, conceptTitle]);
-
-  const getYouTubeUrl = (query: string) =>
-    `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
-
-  return (
-    <div className="rounded-2xl border border-red-200/80 bg-gradient-to-br from-red-50/70 via-rose-50/40 to-white p-3.5 sm:p-4 space-y-3 shadow-xs mt-3">
-      {/* Header & Main Button */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-red-100 pb-2.5">
-        <div className="flex items-center gap-2.5">
-          <div className="p-1.5 rounded-xl bg-white border border-red-200 shadow-2xs shrink-0">
-            <YouTubeIcon className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="flex items-center gap-1.5">
-              <span className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                Related Concept Lectures & Derivations
-              </span>
-              <span className="px-1.5 py-0.5 rounded text-[9px] font-bold bg-red-100 text-red-700">
-                YouTube
-              </span>
-            </div>
-            <p className="text-[11px] text-slate-600 mt-0.5">
-              Topic: <strong className="text-slate-900 font-semibold">{queries.displayTopic}</strong>
-              {chapter && chapter !== queries.displayTopic ? (
-                <span className="text-slate-500"> • {chapter}</span>
-              ) : null}
-            </p>
-          </div>
-        </div>
-
-        {/* Primary Action Button */}
-        <a
-          href={getYouTubeUrl(queries.primaryQuery)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-red-600 hover:bg-red-700 active:bg-red-800 text-white text-xs font-semibold shadow-xs transition-colors group shrink-0"
-        >
-          <Play className="w-3.5 h-3.5 fill-current transition-transform group-hover:scale-110" />
-          <span>Watch Lecture on YouTube</span>
-          <ExternalLink className="w-3 h-3 opacity-80" />
-        </a>
-      </div>
-
-      {/* Targeted Learning Pills */}
-      <div className="flex flex-wrap items-center gap-1.5 pt-0.5">
-        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mr-1">
-          Quick Search:
-        </span>
-        <a
-          href={getYouTubeUrl(queries.oneShotQuery)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white hover:bg-red-50 border border-slate-200 hover:border-red-300 text-[11px] font-medium text-slate-700 hover:text-red-700 transition-all shadow-2xs"
-        >
-          <span>▶ One-Shot Lecture</span>
-          <ExternalLink className="w-2.5 h-2.5 opacity-60" />
-        </a>
-        <a
-          href={getYouTubeUrl(queries.numericalTricksQuery)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white hover:bg-amber-50 border border-slate-200 hover:border-amber-300 text-[11px] font-medium text-slate-700 hover:text-amber-800 transition-all shadow-2xs"
-        >
-          <span>⚡ Numerical Tricks & Shortcuts</span>
-          <ExternalLink className="w-2.5 h-2.5 opacity-60" />
-        </a>
-        <a
-          href={getYouTubeUrl(queries.ncertLineQuery)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 text-[11px] font-medium text-slate-700 hover:text-blue-800 transition-all shadow-2xs"
-        >
-          <span>📘 NCERT Line-by-Line</span>
-          <ExternalLink className="w-2.5 h-2.5 opacity-60" />
-        </a>
-        <a
-          href={getYouTubeUrl(queries.pyqQuery)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white hover:bg-emerald-50 border border-slate-200 hover:border-emerald-300 text-[11px] font-medium text-slate-700 hover:text-emerald-800 transition-all shadow-2xs"
-        >
-          <span>🎯 PYQ Video Derivations</span>
-          <ExternalLink className="w-2.5 h-2.5 opacity-60" />
-        </a>
-      </div>
-    </div>
-  );
-};
-
 export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
   explanation,
   correctAnswer,
@@ -450,14 +306,6 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
         <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-500 italic">
           Standard NCERT textbook derivation & reference solution.
         </div>
-        <ConceptVideoReferral
-          subject={subject}
-          chapter={chapter}
-          topic={topic}
-          subtopic={subtopic}
-          questionText={questionText}
-          conceptTitle={conceptText}
-        />
       </div>
     );
   }
@@ -577,16 +425,6 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
           </div>
         );
       })}
-
-      {/* 🎥 Related Concept Video & Lecture Referral (YouTube) */}
-      <ConceptVideoReferral
-        subject={subject}
-        chapter={chapter}
-        topic={topic}
-        subtopic={subtopic}
-        questionText={questionText}
-        conceptTitle={conceptText}
-      />
     </div>
   );
 };

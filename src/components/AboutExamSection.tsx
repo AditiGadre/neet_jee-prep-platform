@@ -10,14 +10,13 @@ import {
   AlertCircle,
   FileText,
   MapPin,
-  GraduationCap,
   Sparkles,
   Search
 } from 'lucide-react';
 import { COLLEGES_DATA } from '../data/mockData';
 
 export const AboutExamSection: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'what-is-neet' | 'pattern' | 'syllabus' | 'other-courses' | 'colleges'>('what-is-neet');
+  const [activeTab, setActiveTab] = useState<'what-is-neet' | 'pattern' | 'syllabus' | 'colleges'>('what-is-neet');
   const [collegeSearch, setCollegeSearch] = useState('');
   const [collegeTypeFilter, setCollegeTypeFilter] = useState('All');
 
@@ -43,7 +42,7 @@ export const AboutExamSection: React.FC = () => {
               3. About NEET Exam
             </h1>
             <p className="mt-0.5 text-xs text-gray-500 max-w-3xl">
-              Everything you need to know about the National Eligibility cum Entrance Test (NEET-UG), Exam Pattern, Official Syllabus, Other Competitive Courses, and Medical Colleges Seat Matrix.
+              Everything you need to know about the National Eligibility cum Entrance Test (NEET-UG), Exam Pattern, Official Syllabus, and Medical Colleges Seat Matrix.
             </p>
           </div>
         </div>
@@ -54,7 +53,6 @@ export const AboutExamSection: React.FC = () => {
             { id: 'what-is-neet', label: 'What is NEET?' },
             { id: 'pattern', label: 'Exam Pattern & Rules' },
             { id: 'syllabus', label: 'Official Syllabus Breakdown' },
-            { id: 'other-courses', label: 'Other Courses (JEE/CUET/Olympiads)' },
             { id: 'colleges', label: 'Colleges, Seats & Cut-offs' }
           ].map(tab => (
             <button
@@ -113,23 +111,23 @@ export const AboutExamSection: React.FC = () => {
           <div className="border-b border-gray-100 pb-3">
             <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
               <Clock className="w-4 h-4 text-blue-600" />
-              <span>Exam Pattern & Latest Guidelines</span>
+              <span>Exam Pattern & Official Rules</span>
             </h2>
             <p className="text-xs text-gray-500 mt-0.5">
-              Subjects, marking scheme, duration and latest guidelines.
+              Strict 45 questions per subject (180 total) — No Section A or Section B.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Total Duration</div>
-              <div className="text-base font-bold text-gray-900 mt-0.5">200 Minutes</div>
-              <div className="text-[11px] text-blue-600 font-mono">(3 Hours 20 Mins)</div>
+              <div className="text-base font-bold text-gray-900 mt-0.5">180 / 200 Mins</div>
+              <div className="text-[11px] text-blue-600 font-mono">(3 Hours / 3h 20m)</div>
             </div>
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Total Questions</div>
-              <div className="text-base font-bold text-gray-900 mt-0.5">200 Questions</div>
-              <div className="text-[11px] text-emerald-600 font-mono">(Attempt Any 180)</div>
+              <div className="text-base font-bold text-gray-900 mt-0.5">180 Questions</div>
+              <div className="text-[11px] text-emerald-600 font-mono">(All 180 Compulsory)</div>
             </div>
             <div className="p-3.5 rounded bg-gray-50 border border-gray-200">
               <div className="text-[10px] font-bold text-gray-500 uppercase">Maximum Marks</div>
@@ -143,41 +141,55 @@ export const AboutExamSection: React.FC = () => {
             </div>
           </div>
 
+          {/* Direct 45-Question Notice */}
+          <div className="p-3 bg-blue-50/80 border border-blue-200 rounded-lg text-xs text-blue-950 flex items-start space-x-2">
+            <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+            <div>
+              <span className="font-bold">Direct 45-Question Pattern (No Section A & B):</span> Each subject consists of exactly <strong>45 questions</strong>. There is <strong>no Section A and Section B</strong> split — all questions are attempted directly without optional choice constraints.
+            </div>
+          </div>
+
           {/* Section Breakdown Table */}
           <div className="overflow-x-auto border border-gray-200 rounded-lg">
             <table className="w-full text-xs text-left">
               <thead className="bg-gray-50 text-gray-700 font-bold uppercase tracking-wider border-b border-gray-200">
                 <tr>
                   <th className="p-2.5">Subject</th>
-                  <th className="p-2.5">Section A (Compulsory)</th>
-                  <th className="p-2.5">Section B (Attempt any 10 of 15)</th>
+                  <th className="p-2.5">Questions</th>
+                  <th className="p-2.5">Pattern & Rules</th>
                   <th className="p-2.5">Total Marks</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 text-gray-700">
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Physics</td>
-                  <td className="p-2.5">35 Questions (140 Marks)</td>
-                  <td className="p-2.5">15 Questions (Attempt 10 = 40 Marks)</td>
+                  <td className="p-2.5">45 Questions</td>
+                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Chemistry</td>
-                  <td className="p-2.5">35 Questions (140 Marks)</td>
-                  <td className="p-2.5">15 Questions (Attempt 10 = 40 Marks)</td>
+                  <td className="p-2.5">45 Questions</td>
+                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Botany</td>
-                  <td className="p-2.5">35 Questions (140 Marks)</td>
-                  <td className="p-2.5">15 Questions (Attempt 10 = 40 Marks)</td>
+                  <td className="p-2.5">45 Questions</td>
+                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="p-2.5 font-semibold text-gray-900">Zoology</td>
-                  <td className="p-2.5">35 Questions (140 Marks)</td>
-                  <td className="p-2.5">15 Questions (Attempt 10 = 40 Marks)</td>
+                  <td className="p-2.5">45 Questions</td>
+                  <td className="p-2.5 text-slate-600">All 45 questions (No Section A/B)</td>
                   <td className="p-2.5 font-bold text-gray-900">180 Marks</td>
+                </tr>
+                <tr className="bg-slate-50/80 font-bold text-slate-900 border-t border-slate-200">
+                  <td className="p-2.5">Total (PCB)</td>
+                  <td className="p-2.5">180 Questions</td>
+                  <td className="p-2.5">Direct 45 Qs per Subject</td>
+                  <td className="p-2.5 text-blue-700 font-extrabold">720 Marks</td>
                 </tr>
               </tbody>
             </table>
@@ -252,70 +264,7 @@ export const AboutExamSection: React.FC = () => {
         </div>
       )}
 
-      {/* 4. OTHER COURSES */}
-      {activeTab === 'other-courses' && (
-        <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
-          <div className="border-b border-gray-100 pb-3">
-            <h2 className="text-sm sm:text-base font-bold text-gray-900 flex items-center space-x-1.5">
-              <GraduationCap className="w-4 h-4 text-blue-600" />
-              <span>Other Competitive Exam Courses</span>
-            </h2>
-            <p className="text-xs text-gray-500 mt-0.5">
-              JEE Main, JEE Advanced, CUET, Olympiads, Foundation and Board preparation.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-            {[
-              {
-                title: 'JEE Main',
-                desc: 'National engineering entrance for NITs, IIITs & CFTIs with 300 marks CBT format.',
-                tag: 'Engineering'
-              },
-              {
-                title: 'JEE Advanced',
-                desc: 'Elite entrance for Indian Institutes of Technology (IITs) with multi-concept analytical tests.',
-                tag: 'IIT Premier'
-              },
-              {
-                title: 'CUET (UG)',
-                desc: 'Central Universities Common Entrance Test for DU, BHU, JNU undergraduate admissions.',
-                tag: 'Central Universities'
-              },
-              {
-                title: 'Olympiads (NSEP, NSEC, NSEB)',
-                desc: 'National Science Olympiads & International Olympiad selection camp training.',
-                tag: 'Scholarship'
-              },
-              {
-                title: 'Foundation (Class 9 & 10)',
-                desc: 'Early conceptual grooming in Mathematics, Physics & Biology for future top rankers.',
-                tag: 'Early Edge'
-              },
-              {
-                title: 'Board Exam Preparation (Class 11 & 12)',
-                desc: 'CBSE / State Board subjective answer writing, derivations, and numerical formats.',
-                tag: 'Academic Mastery'
-              }
-            ].map((course, idx) => (
-              <div
-                key={idx}
-                className="p-4 rounded-lg bg-gray-50 border border-gray-200 space-y-1.5 hover:border-gray-300 transition-colors"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-blue-50 text-blue-700 border border-blue-200">
-                    {course.tag}
-                  </span>
-                </div>
-                <h3 className="text-xs font-bold text-gray-900">{course.title}</h3>
-                <p className="text-xs text-gray-500 leading-relaxed">{course.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* 5. COLLEGES & SEATS */}
+      {/* 4. COLLEGES & SEATS */}
       {activeTab === 'colleges' && (
         <div className="bg-white border border-gray-200 rounded-lg p-5 space-y-4 shadow-xs animate-in fade-in duration-100">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-gray-100 gap-2">

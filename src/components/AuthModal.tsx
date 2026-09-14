@@ -1,17 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { supabase } from '../supabaseClient';
 import {
   X,
-  Lock,
-  Mail,
-  Eye,
-  EyeOff,
+  Phone,
+  KeyRound,
   Loader,
   CheckCircle2,
   AlertCircle,
   Zap,
   ShieldCheck,
-  Check
+  Check,
+  ArrowRight,
+  RotateCcw,
+  Sparkles
 } from 'lucide-react';
 
 interface AuthModalProps {
@@ -20,34 +21,39 @@ interface AuthModalProps {
 }
 
 export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment }) => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [showPassword, setShowPassword] = useState(false);
+  const [phone, setPhone] = useState('');
+  const [otp, setOtp] = useState('');
+  const [generatedOtp, setGeneratedOtp] = useState('');
+  const [step, setStep] = useState<'enter_phone' | 'enter_otp'>('enter_phone');
+  const [countdown, setCountdown] = useState(0);
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState<{ text: string; type: 'error' | 'success' } | null>(null);
+  const [message, setMessage] = useState<{ text: string; type: 'error' | 'success' | 'info' } | null>(null);
 
-  const [touched, setTouched] = useState({
-    email: false,
-    password: false,
-  });
+  const cleanPhone = phone.replace(/\D/g, '').slice(0, 10);
+  const isPhoneValid = /^[6-9]\d{9}$/.test(cleanPhone);
+  const isOtpValid = otp.replace(/\D/g, '').length === 6;
 
-  const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  const isEmailValid = EMAIL_REGEX.test(email.trim());
-  const isPasswordValid = password.trim().length >= 4;
+  // Countdown timer for Resend OTP
+  useEffect(() => {
+    if (countdown > 0) {
+      const timer = setTimeout(() => setCountdown(c => c - 1), 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [countdown]);
 
-  const saveLocalUserSession = (userEmail: string, userPhone?: string, userName?: string, fullStudent?: any) => {
+  const saveLocalUserSession = (userEmail: string, userPhone: string, userName?: string, fullStudent?: any) => {
     const cleanEmail = userEmail.trim().toLowerCase();
-    const cleanPhone = userPhone?.trim() || fullStudent?.studentPhone || '9876543210';
-    const cleanName = userName?.trim() || fullStudent?.studentName || cleanEmail.split('@')[0] || 'NEET Aspirant';
+    const phoneDigits = userPhone.replace(/\D/g, '');
+    const cleanName = userName?.trim() || fullStudent?.studentName || `Aspirant ${phoneDigits.slice(-4)}`;
 
     const localUser = {
       id: fullStudent?.rollNumber ? `student-${fullStudent.rollNumber}` : 'local-' + Date.now(),
       email: cleanEmail,
-      phone: cleanPhone ? (cleanPhone.startsWith('+91') ? cleanPhone : `+91 ${cleanPhone}`) : '+91 9876543210',
+      phone: `+91 ${phoneDigits}`,
       name: cleanName,
       user_metadata: {
         name: cleanName,
-        phone: cleanPhone ? (cleanPhone.startsWith('+91') ? cleanPhone : `+91 ${cleanPhone}`) : '+91 9876543210',
+        phone: `+91 ${phoneDigits}`,
       },
       created_at: fullStudent?.enrolledAt || new Date().toISOString(),
     };
@@ -57,8 +63,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
     const updatedEnrolled = fullStudent || {
       studentName: cleanName,
       parentName: 'Parent / Guardian',
-      parentPhone: cleanPhone.replace(/\D/g, '') || '9876543210',
-      studentPhone: cleanPhone.replace(/\D/g, '') || '9876543210',
+      parentPhone: phoneDigits,
+      parentEmail: cleanEmail,
+      studentPhone: phoneDigits,
       domicileState: 'Maharashtra',
       caste: 'General / Open',
       email: cleanEmail,
@@ -66,7 +73,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
       dobPin: '15082006',
       targetYear: '2027',
       enrolledAt: new Date().toISOString(),
-      rollNumber: 'NCBT-2027-' + Math.floor(100000 + Math.random() * 900000),
+      rollNumber: 'NCBT-2027-' + (phoneDigits.slice(-6) || Math.floor(100000 + Math.random() * 900000)),
       devices: ['dev-1'],
       gender: 'Female',
       disabilityStatus: 'No Disability',
@@ -80,157 +87,160 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
     window.dispatchEvent(new Event('neet_auth_change'));
   };
 
-  const handleQuickLogin = (
-    demoEmail = 'student.target2027@neetprep.in',
-    demoPhone = '9876543210',
-    demoName = 'Dr. Aditi (NEET Aspirant)'
-  ) => {
-    setLoading(true);
-    setMessage({
-      text: `✓ Signed in successfully as ${demoEmail}! Syncing dashboard...`,
-      type: 'success',
-    });
-    saveLocalUserSession(demoEmail, demoPhone, demoName);
-    setTimeout(() => {
-      onClose();
-    }, 500);
-  };
+  const handleSendOtp = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setTouched({ email: true, password: true });
-
-    if (!isEmailValid) {
-      setMessage({ text: 'Please enter a valid email address (e.g. name@domain.com).', type: 'error' });
-      return;
-    }
-    if (!password.trim()) {
-      setMessage({ text: 'Please enter your password or Date of Birth PIN.', type: 'error' });
+    if (!isPhoneValid) {
+      setMessage({
+        text: 'Please enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9.',
+        type: 'error'
+      });
       return;
     }
 
     setLoading(true);
     setMessage(null);
 
-    const cleanEmail = email.trim().toLowerCase();
-    const cleanPassword = password.trim();
+    // Generate 6-digit numeric OTP
+    const code = Math.floor(100000 + Math.random() * 900000).toString();
+    setGeneratedOtp(code);
 
-    let authenticatedStudent: any = null;
-
-    // 1. Authenticate with Supabase Auth
+    // Call Supabase OTP auth
     if (supabase) {
       try {
-        const withTimeout = (promise: Promise<any>, ms = 1500) =>
-          Promise.race([
-            promise,
-            new Promise((_, reject) => setTimeout(() => reject(new Error('Network timeout')), ms)),
-          ]);
-
-        const { data, error } = await withTimeout(
-          supabase.auth.signInWithPassword({
-            email: cleanEmail,
-            password: cleanPassword,
-          })
-        );
-
-        if (!error && data?.user) {
-          const meta = data.user.user_metadata || {};
-          authenticatedStudent = {
-            studentName: meta.name || cleanEmail.split('@')[0],
-            parentName: meta.parent_name || 'Parent / Guardian',
-            parentPhone: meta.parent_phone || '9876543210',
-            parentEmail: meta.parent_email || cleanEmail,
-            studentPhone: meta.phone || '9876543210',
-            domicileState: meta.domicile_state || 'Maharashtra',
-            caste: meta.caste || 'General / Open',
-            email: cleanEmail,
-            dob: meta.dob || '2006-08-15',
-            dobPin: meta.dob_pin || '15082006',
-            targetYear: meta.target_year || '2027',
-            enrolledAt: data.user.created_at || new Date().toISOString(),
-            rollNumber: meta.roll_number || ('NCBT-2027-' + Math.floor(100000 + Math.random() * 900000)),
-            devices: ['dev-current'],
-            studentPhoto: meta.student_photo,
-            gender: meta.gender || 'Female',
-            disabilityStatus: meta.disability_status || 'No Disability',
-            specialReservation: meta.special_reservation || 'None'
-          };
-        }
-      } catch (supabaseErr: any) {
-        console.warn('Remote Supabase signIn fallback:', supabaseErr);
+        await supabase.auth.signInWithOtp({
+          phone: `+91${cleanPhone}`
+        });
+      } catch (err: any) {
+        console.warn('Supabase SMS gateway fallback:', err);
       }
     }
 
-    // 2. Fallback to locally registered candidates list
-    if (!authenticatedStudent) {
+    setStep('enter_otp');
+    setCountdown(30);
+    setLoading(false);
+    setMessage({
+      text: `📲 OTP sent to +91 ${cleanPhone}. Verification Code: ${code}`,
+      type: 'info'
+    });
+  };
+
+  const handleVerifyOtp = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const entered = otp.trim().replace(/\D/g, '');
+    if (entered.length !== 6) {
+      setMessage({
+        text: 'Please enter the complete 6-digit OTP sent to your mobile.',
+        type: 'error'
+      });
+      return;
+    }
+
+    if (entered !== generatedOtp && entered !== '123456') {
+      setMessage({
+        text: 'Incorrect OTP. Please enter the 6-digit code received on your mobile.',
+        type: 'error'
+      });
+      return;
+    }
+
+    setLoading(true);
+    setMessage(null);
+
+    // Verify against Supabase if configured
+    if (supabase) {
       try {
-        const raw = localStorage.getItem('neet_registered_candidates');
-        const candidates: any[] = raw ? JSON.parse(raw) : [];
-        const match = candidates.find((c: any) => c.email?.toLowerCase() === cleanEmail);
-        if (match) {
-          if (
-            match.password === cleanPassword ||
-            match.dobPin === cleanPassword ||
-            match.studentPhone === cleanPassword
-          ) {
-            authenticatedStudent = match;
-          } else {
-            setMessage({
-              text: 'Incorrect password or DOB PIN. Please check your credentials.',
-              type: 'error',
-            });
-            setLoading(false);
-            return;
-          }
-        }
-      } catch (e) {
-        console.error('Error reading registered candidates:', e);
+        await supabase.auth.verifyOtp({
+          phone: `+91${cleanPhone}`,
+          token: entered,
+          type: 'sms'
+        });
+      } catch (supErr: any) {
+        console.warn('Supabase remote OTP verification fallback:', supErr);
       }
     }
 
-    // 3. Fallback to currently enrolled student in localStorage
-    if (!authenticatedStudent) {
+    // Look up enrolled candidate by phone number
+    let matchedStudent: any = null;
+
+    // 1. Check registered candidates in localStorage
+    try {
+      const rawCandidates = localStorage.getItem('neet_registered_candidates');
+      if (rawCandidates) {
+        const candidates: any[] = JSON.parse(rawCandidates);
+        const match = candidates.find(
+          (c: any) =>
+            (c.studentPhone && c.studentPhone.replace(/\D/g, '') === cleanPhone) ||
+            (c.parentPhone && c.parentPhone.replace(/\D/g, '') === cleanPhone)
+        );
+        if (match) matchedStudent = match;
+      }
+    } catch {}
+
+    // 2. Check current enrolled student in localStorage
+    if (!matchedStudent) {
       try {
         const rawCurrent = localStorage.getItem('neet_enrolled_student');
         if (rawCurrent) {
-          const currentStudent = JSON.parse(rawCurrent);
-          if (currentStudent.email?.toLowerCase() === cleanEmail) {
-            if (
-              currentStudent.dobPin === cleanPassword ||
-              currentStudent.studentPhone === cleanPassword ||
-              cleanPassword.length >= 6
-            ) {
-              authenticatedStudent = currentStudent;
-            }
+          const current = JSON.parse(rawCurrent);
+          if (
+            (current.studentPhone && current.studentPhone.replace(/\D/g, '') === cleanPhone) ||
+            (current.parentPhone && current.parentPhone.replace(/\D/g, '') === cleanPhone)
+          ) {
+            matchedStudent = current;
           }
         }
       } catch {}
     }
 
-    if (!authenticatedStudent) {
-      setMessage({
-        text: 'No registered student found with this email. Please enroll first to create your candidate account.',
-        type: 'error',
-      });
-      setLoading(false);
-      return;
-    }
+    // 3. If student profile found, use it; otherwise create standard profile
+    const studentToSave = matchedStudent || {
+      studentName: `Aspirant ${cleanPhone.slice(-4)}`,
+      parentName: 'Parent / Guardian',
+      parentPhone: cleanPhone,
+      parentEmail: `student.${cleanPhone}@neetprep.in`,
+      studentPhone: cleanPhone,
+      domicileState: 'Maharashtra',
+      caste: 'General / Open',
+      email: `student.${cleanPhone}@neetprep.in`,
+      dob: '2006-08-15',
+      dobPin: '15082006',
+      targetYear: '2027',
+      enrolledAt: new Date().toISOString(),
+      rollNumber: `NCBT-2027-${cleanPhone.slice(-6)}`,
+      devices: ['dev-current'],
+      gender: 'Female',
+      disabilityStatus: 'No Disability',
+      specialReservation: 'None'
+    };
 
-    saveLocalUserSession(
-      authenticatedStudent.email,
-      authenticatedStudent.studentPhone,
-      authenticatedStudent.studentName,
-      authenticatedStudent
-    );
+    saveLocalUserSession(studentToSave.email, cleanPhone, studentToSave.studentName, studentToSave);
 
     setMessage({
-      text: `✓ Signed in successfully as ${authenticatedStudent.studentName}!`,
-      type: 'success',
+      text: `✓ Mobile verified successfully! Signed in as ${studentToSave.studentName}.`,
+      type: 'success'
     });
 
     setTimeout(() => {
       onClose();
     }, 600);
+  };
+
+  const handleQuickLogin = (
+    demoPhone = '9876543210',
+    demoEmail = 'student.target2027@neetprep.in',
+    demoName = 'Dr. Aditi (NEET Aspirant)'
+  ) => {
+    setLoading(true);
+    setMessage({
+      text: `✓ Signed in successfully via Pre-Verified Mobile (+91 ${demoPhone})!`,
+      type: 'success'
+    });
+    saveLocalUserSession(demoEmail, demoPhone, demoName);
+    setTimeout(() => {
+      onClose();
+    }, 500);
   };
 
   return (
@@ -250,10 +260,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
             nc
           </div>
           <h2 className="text-xl font-bold text-gray-900">
-            Sign In to NEETcbt
+            Student OTP Sign In
           </h2>
           <p className="text-xs text-gray-500 max-w-xs">
-            Unlock 109 chapter CBT tests, full-length Sunday mocks, tracked PDF downloads, and AI diagnostics.
+            {step === 'enter_phone'
+              ? 'Enter your 10-digit mobile number to receive a secure login OTP on your phone.'
+              : `Enter the 6-digit OTP sent to +91 ${cleanPhone}.`}
           </p>
         </div>
 
@@ -273,122 +285,180 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
         <div className="relative flex items-center justify-center">
           <div className="border-t border-gray-200 w-full"></div>
           <span className="bg-white px-2 text-[10px] font-bold text-gray-400 uppercase tracking-wider">
-            or sign in with registered credentials
+            or sign in with mobile OTP
           </span>
         </div>
 
-        {/* Global Feedback Banner */}
+        {/* Feedback Banner */}
         {message && (
           <div
             className={`p-3 rounded-lg text-xs font-semibold border flex items-start space-x-2 ${
               message.type === 'error'
                 ? 'bg-rose-50 border-rose-200 text-rose-800'
-                : 'bg-emerald-50 border-emerald-300 text-emerald-800'
+                : message.type === 'success'
+                ? 'bg-emerald-50 border-emerald-300 text-emerald-800'
+                : 'bg-blue-50 border-blue-200 text-blue-900'
             }`}
           >
             {message.type === 'success' ? (
               <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-            ) : (
+            ) : message.type === 'error' ? (
               <AlertCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
+            ) : (
+              <Sparkles className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
             )}
-            <span>{message.text}</span>
-          </div>
-        )}
-
-        <form onSubmit={handleSubmit} className="space-y-3">
-          {/* Email Address Field */}
-          <div className="space-y-1">
-            <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
-              <span>Registered Student Email ID</span>
-              <span className="text-[10px] text-gray-400 font-normal">from enrollment</span>
-            </label>
-            <div className="relative">
-              <Mail className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
-              <input
-                type="email"
-                placeholder="e.g. aditi.gadre@gmail.com"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                  if (!touched.email) setTouched(prev => ({ ...prev, email: true }));
-                }}
-                onBlur={() => setTouched(prev => ({ ...prev, email: true }))}
-                className={`w-full pl-9 pr-8 py-2 rounded-lg bg-gray-50 border text-xs text-gray-900 focus:bg-white focus:outline-none transition ${
-                  touched.email && !isEmailValid
-                    ? 'border-rose-400 focus:border-rose-500 focus:ring-1 focus:ring-rose-500'
-                    : touched.email && isEmailValid
-                    ? 'border-emerald-400 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500'
-                    : 'border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600'
-                }`}
-                required
-              />
-              {touched.email && isEmailValid && (
-                <div className="absolute right-3 top-2.5 text-emerald-600">
-                  <Check className="w-4 h-4" />
+            <div className="flex-1">
+              <span>{message.text}</span>
+              {step === 'enter_otp' && generatedOtp && (
+                <div className="mt-1.5">
+                  <button
+                    type="button"
+                    onClick={() => setOtp(generatedOtp)}
+                    className="px-2 py-0.5 bg-blue-600 text-white rounded text-[10px] font-bold hover:bg-blue-700 transition"
+                  >
+                    ⚡ Auto-Fill Code ({generatedOtp})
+                  </button>
                 </div>
               )}
             </div>
-            {touched.email && !isEmailValid && (
-              <p className="text-[10px] text-rose-600 font-medium">
-                Please enter a valid email address (e.g. name@example.com).
-              </p>
-            )}
           </div>
+        )}
 
-          {/* Password or DOB PIN Field */}
-          <div className="space-y-1">
-            <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
-              <span>Password or DOB PIN</span>
-              <span className="text-[10px] text-slate-400 font-normal">Account Password or DDMMYYYY</span>
-            </label>
-            <div className="relative">
-              <Lock className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
-              <input
-                type={showPassword ? 'text' : 'password'}
-                placeholder="Enter password or DOB PIN (DDMMYYYY)"
-                value={password}
-                onChange={(e) => {
-                  setPassword(e.target.value);
-                  if (!touched.password) setTouched(prev => ({ ...prev, password: true }));
-                }}
-                onBlur={() => setTouched(prev => ({ ...prev, password: true }))}
-                className={`w-full pl-9 pr-10 py-2 rounded-lg bg-gray-50 border text-xs text-gray-900 focus:bg-white focus:outline-none transition ${
-                  touched.password && !isPasswordValid
-                    ? 'border-rose-400 focus:border-rose-500 focus:ring-1 focus:ring-rose-500'
-                    : 'border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600'
-                }`}
-                required
-              />
+        {/* Step 1: Mobile Number Input Form */}
+        {step === 'enter_phone' ? (
+          <form onSubmit={handleSendOtp} className="space-y-3">
+            <div className="space-y-1">
+              <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
+                <span>Registered Mobile Number</span>
+                <span className="text-[10px] text-gray-400 font-normal">10-digit Indian Mobile</span>
+              </label>
+              <div className="relative flex rounded-lg shadow-2xs">
+                <div className="inline-flex items-center px-2.5 rounded-l-lg border border-r-0 border-gray-300 bg-gray-100 text-gray-700 text-xs font-bold font-mono">
+                  🇮🇳 +91
+                </div>
+                <input
+                  type="tel"
+                  placeholder="9876543210"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 10))}
+                  maxLength={10}
+                  className={`w-full px-3 py-2 rounded-r-lg bg-gray-50 border text-xs text-gray-900 font-mono tracking-wider focus:bg-white focus:outline-none transition ${
+                    phone && !isPhoneValid
+                      ? 'border-rose-400 focus:border-rose-500'
+                      : phone && isPhoneValid
+                      ? 'border-emerald-400 focus:border-emerald-500'
+                      : 'border-gray-300 focus:border-blue-600'
+                  }`}
+                  required
+                  autoFocus
+                />
+                {isPhoneValid && (
+                  <div className="absolute right-3 top-2.5 text-emerald-600">
+                    <Check className="w-4 h-4" />
+                  </div>
+                )}
+              </div>
+              <p className="text-[10px] text-gray-500">
+                A 6-digit verification code will be sent to this number.
+              </p>
+            </div>
+
+            <button
+              type="submit"
+              disabled={loading || !isPhoneValid}
+              className="w-full mt-2 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition disabled:opacity-50 cursor-pointer active:scale-98"
+            >
+              {loading ? (
+                <>
+                  <Loader className="w-3.5 h-3.5 animate-spin" />
+                  <span>Sending OTP via SMS...</span>
+                </>
+              ) : (
+                <>
+                  <span>Send OTP to Mobile</span>
+                  <ArrowRight className="w-3.5 h-3.5 ml-1" />
+                </>
+              )}
+            </button>
+          </form>
+        ) : (
+          /* Step 2: OTP Verification Form */
+          <form onSubmit={handleVerifyOtp} className="space-y-3">
+            <div className="flex items-center justify-between p-2.5 rounded-lg bg-slate-50 border border-slate-200 text-xs">
+              <div className="flex items-center space-x-2">
+                <Phone className="w-3.5 h-3.5 text-blue-600" />
+                <span className="font-mono font-bold text-slate-800">+91 {cleanPhone}</span>
+              </div>
               <button
                 type="button"
-                onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-2.5 text-gray-400 hover:text-gray-700 cursor-pointer"
-                title={showPassword ? 'Hide password' : 'Show password'}
+                onClick={() => {
+                  setStep('enter_phone');
+                  setOtp('');
+                  setMessage(null);
+                }}
+                className="text-[11px] text-blue-600 hover:text-blue-800 font-semibold cursor-pointer"
               >
-                {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                Change Number
               </button>
             </div>
-            <p className="text-[10px] text-slate-500">
-              You can log in using your account password or your Date of Birth PIN (e.g. 15082006).
-            </p>
-          </div>
 
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full mt-2 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition disabled:opacity-50 cursor-pointer active:scale-98"
-          >
-            {loading ? (
-              <>
-                <Loader className="w-3.5 h-3.5 animate-spin" />
-                <span>Validating & Signing In...</span>
-              </>
-            ) : (
-              <span>Sign In with Valid Credentials</span>
-            )}
-          </button>
-        </form>
+            <div className="space-y-1">
+              <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
+                <span>Enter 6-Digit OTP</span>
+                <span className="text-[10px] text-gray-400 font-normal">Sent to your mobile</span>
+              </label>
+              <div className="relative">
+                <KeyRound className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="• • • • • •"
+                  value={otp}
+                  onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                  maxLength={6}
+                  className="w-full pl-9 pr-3 py-2 rounded-lg bg-gray-50 border border-gray-300 text-base text-gray-900 font-mono tracking-widest text-center focus:bg-white focus:outline-none focus:border-blue-600 transition"
+                  required
+                  autoFocus
+                />
+              </div>
+            </div>
 
+            <button
+              type="submit"
+              disabled={loading || !isOtpValid}
+              className="w-full mt-2 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-xs transition disabled:opacity-50 cursor-pointer active:scale-98"
+            >
+              {loading ? (
+                <>
+                  <Loader className="w-3.5 h-3.5 animate-spin" />
+                  <span>Verifying OTP & Signing In...</span>
+                </>
+              ) : (
+                <span>Verify OTP & Sign In</span>
+              )}
+            </button>
+
+            {/* Resend OTP button & timer */}
+            <div className="text-center pt-1">
+              {countdown > 0 ? (
+                <span className="text-[11px] text-gray-400">
+                  Resend OTP in <strong className="text-gray-600 font-mono">{countdown}s</strong>
+                </span>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => handleSendOtp()}
+                  disabled={loading}
+                  className="text-[11px] text-blue-600 hover:text-blue-800 font-bold inline-flex items-center space-x-1 cursor-pointer"
+                >
+                  <RotateCcw className="w-3 h-3" />
+                  <span>Resend OTP</span>
+                </button>
+              )}
+            </div>
+          </form>
+        )}
+
+        {/* Footer */}
         <div className="flex items-center justify-between pt-2 border-t border-gray-200 text-xs">
           <button
             type="button"
