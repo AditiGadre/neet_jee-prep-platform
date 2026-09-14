@@ -294,7 +294,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
             <div className="space-y-1">
               <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider flex items-center justify-between">
                 <span>Full Name</span>
-                <span className="text-[10px] text-gray-400 lowercase font-normal">e.g. Dr. Aryan Sharma</span>
+                <span className="text-[10px] text-gray-400 lowercase font-normal">e.g. Candidate Name</span>
               </label>
               <div className="relative">
                 <User className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />

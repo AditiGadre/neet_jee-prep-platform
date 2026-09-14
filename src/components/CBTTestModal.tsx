@@ -7,8 +7,6 @@ import {
   AlertCircle as AlertIcon,
   ChevronLeft as LeftIcon,
   ChevronRight as RightIcon,
-  Trophy as TrophyIcon,
-  Users as UsersIcon,
   Target as TargetIcon,
   Zap as ZapIcon,
   Atom as AtomIcon,
@@ -94,7 +92,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   const [timeLeftSeconds, setTimeLeftSeconds] = useState(test.durationMinutes * 60);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [testResult, setTestResult] = useState<UserTestResult | null>(null);
-  const [activeSolutionTab, setActiveSolutionTab] = useState<'scorecard' | 'solutions' | 'leaderboard' | 'comparison'>('scorecard');
+  const [activeSolutionTab, setActiveSolutionTab] = useState<'scorecard' | 'solutions'>('scorecard');
 
   // Load previous test history for longitudinal progression tracking
   const [prevTestHistory] = useState<UserTestResult[]>(() => {
@@ -116,7 +114,9 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
     }
   })();
 
-  const studentName = enrolledStudent?.studentName || 'Aditi Gadre';
+  const studentName = enrolledStudent?.studentName || 'Enrolled Student';
+  const studentPhone = enrolledStudent?.studentPhone ? `+91 ${enrolledStudent.studentPhone}` : '+91 9876543210';
+  const studentEmail = enrolledStudent?.email || 'student.target2027@neetprep.in';
   const rollNumber = enrolledStudent?.rollNumber || 'NCBT-2027-882190';
   const studentCategory = enrolledStudent?.caste || 'General / Open';
   const studentDomicile = 'Maharashtra (State Quota)';
@@ -124,17 +124,31 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
   const parentEmail = enrolledStudent?.parentEmail || enrolledStudent?.email || 'parent.gadre@example.com';
   const parentPhone = enrolledStudent?.parentPhone ? `+91 ${enrolledStudent.parentPhone}` : '+91 9876543211';
 
-  // Check if current test is an authorized Sunday test unlocked by Admin
+  // Check if current test is an authorized Sunday test unlocked by Admin on Sundays
   const isSundayTestUnlockedByAdmin = useMemo(() => {
     if (!isSundayTest) return false;
     try {
+      const isSundayToday = (() => {
+        try {
+          const now = new Date();
+          const istOffset = 5.5 * 60 * 60 * 1000;
+          const istTime = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + istOffset);
+          return now.getDay() === 0 || istTime.getDay() === 0;
+        } catch {
+          return new Date().getDay() === 0;
+        }
+      })();
+
+      const isAdminSession = sessionStorage.getItem('neet_admin_authenticated') === 'true';
+      if (isAdminSession) return true;
+
+      // Sunday test must be attempted on Sunday for students
+      if (!isSundayToday) return false;
+
       // 1. Platform-wide admin access granted
       if (localStorage.getItem('neet_admin_test_access') === 'true') return true;
 
-      // 2. Active admin authenticated in session
-      if (sessionStorage.getItem('neet_admin_authenticated') === 'true') return true;
-
-      // 3. Check student-specific approved unlock requests
+      // 2. Check student-specific approved unlock requests
       const rawReqs = localStorage.getItem('neet_unlock_requests');
       if (rawReqs) {
         const reqs = JSON.parse(rawReqs);
@@ -530,19 +544,6 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
       ? 'bg-blue-100 text-blue-800 border border-blue-400 font-bold'
       : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200';
   };
-
-  const top10Performers = [
-    { rank: 1, name: 'Aarav Sharma', score: 710, accuracy: 98, time: '162m', state: 'Delhi' },
-    { rank: 2, name: 'Ananya Verma', score: 705, accuracy: 97, time: '168m', state: 'Maharashtra' },
-    { rank: 3, name: 'Rohan Deshmukh', score: 698, accuracy: 96, time: '170m', state: 'Karnataka' },
-    { rank: 4, name: 'Priya Nair', score: 692, accuracy: 95, time: '172m', state: 'Kerala' },
-    { rank: 5, name: 'Devendra Patel', score: 686, accuracy: 94, time: '174m', state: 'Gujarat' },
-    { rank: 6, name: 'Sneha Mukherjee', score: 680, accuracy: 94, time: '175m', state: 'West Bengal' },
-    { rank: 7, name: 'Karthik Reddy', score: 675, accuracy: 93, time: '169m', state: 'Telangana' },
-    { rank: 8, name: 'Tanvi Joshi', score: 668, accuracy: 92, time: '176m', state: 'Rajasthan' },
-    { rank: 9, name: 'Aditya Singh', score: 660, accuracy: 91, time: '178m', state: 'Uttar Pradesh' },
-    { rank: 10, name: 'Meera Iyer', score: 654, accuracy: 91, time: '173m', state: 'Tamil Nadu' }
-  ];
 
   // Memoized Diagram Map ensuring NO diagram is used for more than 2 questions across the entire test
   const questionDiagramMap = useMemo(() => {
@@ -1229,36 +1230,8 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     }`}
                   >
                     <FileText className="w-4 h-4" />
-                    <span>{isSundayTest ? '1. Official Performance Report (Advanced Diagnostic)' : '1. Performance Summary (Basic Report)'}</span>
+                    <span>{isSundayTest ? '1. Official Diagnostic Performance Report' : '1. Performance Summary'}</span>
                   </button>
-
-                  {isSundayTest && (
-                    <button
-                      onClick={() => setActiveSolutionTab('leaderboard')}
-                      className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
-                        activeSolutionTab === 'leaderboard'
-                          ? 'bg-blue-600 text-white shadow-xs'
-                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                      }`}
-                    >
-                      <TrophyIcon className="w-4 h-4 text-amber-500" />
-                      <span>2. Top 10 Performers Leaderboard</span>
-                    </button>
-                  )}
-
-                  {isSundayTest && (
-                    <button
-                      onClick={() => setActiveSolutionTab('comparison')}
-                      className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 cursor-pointer ${
-                        activeSolutionTab === 'comparison'
-                          ? 'bg-blue-600 text-white shadow-xs'
-                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                      }`}
-                    >
-                      <TargetIcon className="w-4 h-4 text-indigo-500" />
-                      <span>3. You vs Top Scorer</span>
-                    </button>
-                  )}
 
                   <button
                     onClick={() => setActiveSolutionTab('solutions')}
@@ -1269,7 +1242,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     }`}
                   >
                     <CheckCheck className="w-4 h-4 text-emerald-500" />
-                    <span>{isSundayTest ? '4. Step-by-Step Solutions' : '2. Step-by-Step Solutions'}</span>
+                    <span>2. Step-by-Step Solutions</span>
                   </button>
                 </div>
 
@@ -2026,142 +1999,7 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
               )
             )}
 
-              {/* TAB 2: LEADERBOARD */}
-              {activeSolutionTab === 'leaderboard' && (
-                <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4 max-w-5xl mx-auto animate-in fade-in">
-                  <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-                    <div>
-                      <h3 className="text-base font-bold text-slate-900 flex items-center gap-1.5">
-                        <TrophyIcon className="w-5 h-5 text-amber-500" /> All India Top 10 Performers Leaderboard ({testResult.totalMarks || 720} Marks Scale)
-                      </h3>
-                      <p className="text-xs text-slate-500">
-                        Sunday All-India Dropper & Class 12th Test Series &bull; Verified CBT Rank List
-                      </p>
-                    </div>
-                    <span className="text-xs font-bold font-mono bg-amber-50 text-amber-800 border border-amber-200 px-3 py-1 rounded-xl">
-                      Your Score: {testResult.score}/{testResult.totalMarks || 720} (AIR #{testResult.predictedAIR})
-                    </span>
-                  </div>
-
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-left text-xs">
-                      <thead>
-                        <tr className="bg-slate-50 text-slate-600 font-bold border-b border-slate-200">
-                          <th className="p-3">Rank</th>
-                          <th className="p-3">Candidate Name</th>
-                          <th className="p-3">State</th>
-                          <th className="p-3 text-center">Score (/720)</th>
-                          <th className="p-3 text-center">Accuracy</th>
-                          <th className="p-3 text-center">Time Taken</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100">
-                        {top10Performers.map(p => (
-                          <tr key={p.rank} className="hover:bg-slate-50 transition">
-                            <td className="p-3">
-                              <span
-                                className={`inline-flex items-center justify-center w-6 h-6 rounded-full font-bold text-xs ${
-                                  p.rank === 1
-                                    ? 'bg-amber-400 text-slate-900'
-                                    : p.rank === 2
-                                    ? 'bg-slate-300 text-slate-800'
-                                    : p.rank === 3
-                                    ? 'bg-amber-700 text-white'
-                                    : 'bg-slate-100 text-slate-700'
-                                }`}
-                              >
-                                {p.rank}
-                              </span>
-                            </td>
-                            <td className="p-3 font-bold text-slate-900">{p.name}</td>
-                            <td className="p-3 text-slate-600">{p.state}</td>
-                            <td className="p-3 text-center font-mono font-bold text-emerald-700">{p.score}</td>
-                            <td className="p-3 text-center font-mono text-blue-700">{p.accuracy}%</td>
-                            <td className="p-3 text-center font-mono text-slate-500">{p.time}</td>
-                          </tr>
-                        ))}
-
-                        {/* Current User Row */}
-                        <tr className="bg-blue-50/80 border-t-2 border-blue-500 font-bold">
-                          <td className="p-3 text-blue-800">AIR #{testResult.predictedAIR}</td>
-                          <td className="p-3 text-blue-900">
-                            {studentName} (Your Rank)
-                          </td>
-                          <td className="p-3 text-blue-800">Verified Candidate</td>
-                          <td className="p-3 text-center font-mono text-emerald-700 text-sm font-black">{testResult.score}</td>
-                          <td className="p-3 text-center font-mono text-blue-700">{testResult.accuracyPercentage}%</td>
-                          <td className="p-3 text-center font-mono text-slate-600">{formatTimer(testResult.timeSpentSeconds)}</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )}
-
-              {/* TAB 3: YOU VS TOP SCORER */}
-              {activeSolutionTab === 'comparison' && (
-                <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4 max-w-5xl mx-auto animate-in fade-in">
-                  <div className="pb-3 border-b border-slate-100">
-                    <h3 className="text-base font-bold text-slate-900 flex items-center gap-1.5">
-                      <TargetIcon className="w-5 h-5 text-blue-600" /> Head-to-Head: You vs AIR 1 (Aarav Sharma)
-                    </h3>
-                    <p className="text-xs text-slate-500">
-                      Benchmark your accuracy, score, speed, and subject depth against the national top scorer on 720-marks standard.
-                    </p>
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <div className="p-5 rounded-2xl border border-slate-200 bg-slate-50 text-center space-y-1">
-                      <span className="text-xs font-bold text-slate-500 uppercase">Score (/720)</span>
-                      <div className="flex items-center justify-center space-x-4 pt-2">
-                        <div>
-                          <div className="text-xs text-slate-500">You</div>
-                          <div className="text-2xl font-black text-blue-700 font-mono">{testResult.score}</div>
-                        </div>
-                        <div className="text-slate-300 font-bold text-lg">vs</div>
-                        <div>
-                          <div className="text-xs text-slate-500">AIR 1</div>
-                          <div className="text-2xl font-black text-emerald-700 font-mono">710</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="p-5 rounded-2xl border border-slate-200 bg-slate-50 text-center space-y-1">
-                      <span className="text-xs font-bold text-slate-500 uppercase">Accuracy Rate</span>
-                      <div className="flex items-center justify-center space-x-4 pt-2">
-                        <div>
-                          <div className="text-xs text-slate-500">You</div>
-                          <div className="text-2xl font-black text-blue-700 font-mono">{testResult.accuracyPercentage}%</div>
-                        </div>
-                        <div className="text-slate-300 font-bold text-lg">vs</div>
-                        <div>
-                          <div className="text-xs text-slate-500">AIR 1</div>
-                          <div className="text-2xl font-black text-emerald-700 font-mono">98%</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="p-5 rounded-2xl border border-slate-200 bg-slate-50 text-center space-y-1">
-                      <span className="text-xs font-bold text-slate-500 uppercase">Avg Speed / Q</span>
-                      <div className="flex items-center justify-center space-x-4 pt-2">
-                        <div>
-                          <div className="text-xs text-slate-500">You</div>
-                          <div className="text-2xl font-black text-blue-700 font-mono">
-                            {Math.round(testResult.timeSpentSeconds / (questions.length || 1))}s
-                          </div>
-                        </div>
-                        <div className="text-slate-300 font-bold text-lg">vs</div>
-                        <div>
-                          <div className="text-xs text-slate-500">AIR 1</div>
-                          <div className="text-2xl font-black text-emerald-700 font-mono">48s</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {/* TAB 4: SOLUTIONS */}
+              {/* TAB 2: SOLUTIONS */}
               {activeSolutionTab === 'solutions' && (
                 <div className="space-y-4 max-w-5xl mx-auto animate-in fade-in">
                   {questions.map((q, idx) => {

@@ -25,7 +25,6 @@ export type TabType =
   | 'what-extra'
   | 'about-exam'
   | 'about-us'
-  | 'our-results'
   | 'support';
 
 interface SidebarProps {
@@ -80,15 +79,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: Info
     },
     {
-      id: 'our-results' as TabType,
-      label: '5. NEET Results & Rankers',
-      sublabel: 'AIIMS Delhi Selections, Toppers & Verifications',
-      icon: Trophy,
-      badge: 'AIR 1'
-    },
-    {
       id: 'support' as TabType,
-      label: '6. Support & FAQ',
+      label: '5. Support & FAQ',
       sublabel: '24/7 Academic Doubt Desk & Counselling',
       icon: Headphones
     }

@@ -4544,36 +4544,7 @@ export const COLLEGES_DATA: any[] = [
 // ==========================================
 // TOP RANKER SUCCESS STORIES
 // ==========================================
-export const RANKER_STORIES: any[] = [
-  {
-    id: 'story-1',
-    name: 'Aryan Sharma',
-    exam: 'NEET',
-    air: 24,
-    score: '715 / 720',
-    college: 'AIIMS New Delhi',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150',
-    quote: 'Practicing the 45-question chapterwise and Sunday CBT test series with instant solutions helped me eliminate negative marks.',
-    state: 'Maharashtra',
-    year: 2024,
-    category: 'General',
-    keyStrategy: 'Solved all 32 biology chapters with 1-min-per-question strict timer discipline.'
-  },
-  {
-    id: 'story-2',
-    name: 'Sneha Patel',
-    exam: 'NEET',
-    air: 68,
-    score: '708 / 720',
-    college: 'MAMC New Delhi',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150',
-    quote: 'The flashcards and mind maps made my morning revision super fast before attempting Sunday mocks.',
-    state: 'Gujarat',
-    year: 2024,
-    category: 'OBC',
-    keyStrategy: 'Replaced random MCQs with focused 45-question tests and daily DPPs.'
-  }
-];
+export const RANKER_STORIES: any[] = [];
 
 // ==========================================
 // FREQUENTLY ASKED QUESTIONS (FAQS)

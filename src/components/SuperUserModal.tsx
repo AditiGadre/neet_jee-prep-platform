@@ -98,11 +98,11 @@ export function getStoredUnlockRequests(): StudentUnlockRequest[] {
   const initial: StudentUnlockRequest[] = [
     {
       id: 'req-001',
-      studentName: enrolled?.studentName || 'Aarav Sharma',
+      studentName: enrolled?.studentName || 'Registered Candidate',
       rollNumber: enrolled?.rollNumber || 'NCBT-2027-042',
       studentPhone: enrolled?.studentPhone || '9876543210',
       parentPhone: enrolled?.parentPhone || '9876543211',
-      parentEmail: enrolled?.parentEmail || 'parents.aarav@gmail.com',
+      parentEmail: enrolled?.parentEmail || 'candidate.parent@gmail.com',
       targetExam: 'NEET (UG)',
       targetBatch: 'Dropper / Target 2027',
       testCode: 'CWT-01',

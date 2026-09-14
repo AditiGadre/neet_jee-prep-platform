@@ -68,34 +68,6 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const [accessRequestSent, setAccessRequestSent] = useState(false);
   const [pendingTestToStart, setPendingTestToStart] = useState<SundayPlannerTest | null>(null);
 
-  // Admin Portal Controlled Test Access State
-  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => {
-    try {
-      return localStorage.getItem('neet_admin_test_access') === 'true';
-    } catch {
-      return false;
-    }
-  });
-
-  // Listen for Admin Portal real-time access updates
-  useEffect(() => {
-    const handleAccessChange = (e: any) => {
-      try {
-        const granted = e?.detail?.accessGranted ?? (localStorage.getItem('neet_admin_test_access') === 'true');
-        setIsAdminAccessGranted(Boolean(granted));
-      } catch {
-        setIsAdminAccessGranted(false);
-      }
-    };
-
-    window.addEventListener('neet_admin_access_changed', handleAccessChange);
-    window.addEventListener('storage', handleAccessChange);
-    return () => {
-      window.removeEventListener('neet_admin_access_changed', handleAccessChange);
-      window.removeEventListener('storage', handleAccessChange);
-    };
-  }, []);
-
   const enrolledStudent = (() => {
     try {
       const raw = localStorage.getItem('neet_enrolled_student');
@@ -111,8 +83,73 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
   const parentPhone = enrolledStudent?.parentPhone || '9876543211';
   const parentName = enrolledStudent?.parentName || 'Parent / Guardian';
 
-  const today = new Date();
-  const isSundayToday = today.getDay() === 0;
+  // Check whether Admin has approved Sunday test access
+  const checkAdminAccess = () => {
+    try {
+      if (localStorage.getItem('neet_admin_test_access') === 'true') return true;
+      if (sessionStorage.getItem('neet_admin_authenticated') === 'true') return true;
+
+      const rawReqs = localStorage.getItem('neet_unlock_requests');
+      if (rawReqs) {
+        const reqs = JSON.parse(rawReqs);
+        if (Array.isArray(reqs)) {
+          return reqs.some((r: any) => {
+            if (r.status !== 'approved') return false;
+            const rCode = (r.testCode || '').toUpperCase();
+            return (
+              rCode === 'ALL SUNDAY TESTS' ||
+              (rollNumber && r.rollNumber === rollNumber) ||
+              (studentPhone && r.studentPhone === studentPhone)
+            );
+          });
+        }
+      }
+    } catch {
+      return false;
+    }
+    return false;
+  };
+
+  // Admin Portal Controlled Test Access State
+  const [isAdminAccessGranted, setIsAdminAccessGranted] = useState<boolean>(() => checkAdminAccess());
+
+  // Listen for Admin Portal real-time access updates
+  useEffect(() => {
+    const handleAccessChange = (e: any) => {
+      try {
+        const granted = e?.detail?.accessGranted ?? checkAdminAccess();
+        setIsAdminAccessGranted(Boolean(granted));
+      } catch {
+        setIsAdminAccessGranted(false);
+      }
+    };
+
+    window.addEventListener('neet_admin_access_changed', handleAccessChange);
+    window.addEventListener('neet_unlock_request_sent', handleAccessChange);
+    window.addEventListener('storage', handleAccessChange);
+    return () => {
+      window.removeEventListener('neet_admin_access_changed', handleAccessChange);
+      window.removeEventListener('neet_unlock_request_sent', handleAccessChange);
+      window.removeEventListener('storage', handleAccessChange);
+    };
+  }, [rollNumber, studentPhone]);
+
+  // Check if today is Sunday (accounting for Indian Standard Time)
+  const isSundayToday = useMemo(() => {
+    try {
+      const now = new Date();
+      const istOffset = 5.5 * 60 * 60 * 1000;
+      const istTime = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + istOffset);
+      return now.getDay() === 0 || istTime.getDay() === 0;
+    } catch {
+      return new Date().getDay() === 0;
+    }
+  }, []);
+
+  const isAdminInSession = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('neet_admin_authenticated') === 'true';
+
+  // Sunday tests unlock ON SUNDAYS and AFTER ADMIN APPROVAL (Faculty preview bypasses schedule)
+  const isSundayTestUnlocked = (isSundayToday && isAdminAccessGranted) || isAdminInSession;
 
   // Filter Dropper / Repeater tests based on Phase Filter & Search Query
   const filteredDropperTests = useMemo(() => {
@@ -195,7 +232,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
     : filtered11thTests;
 
   const handleLaunchDirectSundayTest = (plannerTest: SundayPlannerTest) => {
-    if (!isAdminAccessGranted) {
+    if (!isSundayTestUnlocked) {
       setPendingTestToStart(plannerTest);
       setShowAdminApprovalModal(true);
       return;
@@ -690,9 +727,17 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                       720 Marks &bull; 180 Mins &bull; 180 Qs
                     </span>
 
-                    {!isAdminAccessGranted && (
+                    {isSundayTestUnlocked ? (
+                      <span className="text-[10px] font-bold bg-emerald-100 text-emerald-900 border border-emerald-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
+                        <CheckCircle2 className="w-3 h-3 text-emerald-600" /> ✓ Sunday Test Active
+                      </span>
+                    ) : isAdminAccessGranted && !isSundayToday ? (
+                      <span className="text-[10px] font-bold bg-cyan-100 text-cyan-900 border border-cyan-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
+                        <Calendar className="w-3 h-3 text-cyan-700" /> Authorized • Unlocks on Sunday
+                      </span>
+                    ) : (
                       <span className="text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300 px-2 py-0.5 rounded-lg flex items-center gap-1">
-                        <Lock className="w-3 h-3" /> Awaiting Admin Approval
+                        <Lock className="w-3 h-3" /> Admin Approval Required
                       </span>
                     )}
                   </div>
@@ -756,28 +801,40 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   <button
                     onClick={() => handleLaunchDirectSundayTest(mock)}
                     className={`px-5 py-3 rounded-xl text-white text-xs font-bold shadow-md transition flex items-center justify-center space-x-2 cursor-pointer w-full sm:w-auto ${
-                      isAdminAccessGranted
+                      isSundayTestUnlocked
                         ? isLive
                           ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-blue-500/20'
                           : 'bg-blue-600 hover:bg-blue-700'
+                        : isAdminAccessGranted && !isSundayToday
+                        ? 'bg-slate-700 hover:bg-slate-800 border border-slate-600'
                         : 'bg-slate-800 hover:bg-slate-900 border border-slate-700'
                     }`}
                   >
-                    {isAdminAccessGranted ? (
+                    {isSundayTestUnlocked ? (
                       <>
                         <Play className="w-4 h-4 fill-current" />
                         <span>
                           {isLive
-                            ? 'Start Live Test (720M)'
+                            ? 'Start Live Sunday Test (720M)'
                             : activeBatch === '12th'
                             ? 'Start Scheduled Test (720M)'
                             : 'Start Sunday Test (720M)'}
                         </span>
                       </>
+                    ) : isAdminAccessGranted && !isSundayToday ? (
+                      <>
+                        <Calendar className="w-4 h-4 text-cyan-400" />
+                        <span>Authorized &bull; Unlocks on Sunday</span>
+                      </>
+                    ) : isSundayToday && !isAdminAccessGranted ? (
+                      <>
+                        <Lock className="w-4 h-4 text-amber-400" />
+                        <span>Sunday Live &bull; Request Admin Approval</span>
+                      </>
                     ) : (
                       <>
                         <Lock className="w-4 h-4 text-amber-400" />
-                        <span>Request Unlock from Admin</span>
+                        <span>Unlocks on Sunday with Admin Approval</span>
                       </>
                     )}
                   </button>
@@ -793,13 +850,31 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
         <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
           <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-in zoom-in-95 duration-200 text-slate-900">
             {/* Header */}
-            <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-slate-900 p-5 text-white flex items-center justify-between">
+            <div className={`p-5 text-white flex items-center justify-between ${
+              isAdminAccessGranted && !isSundayToday
+                ? 'bg-gradient-to-r from-cyan-700 via-blue-800 to-slate-900'
+                : 'bg-gradient-to-r from-blue-700 via-indigo-700 to-slate-900'
+            }`}>
               <div className="space-y-1">
-                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-400 text-slate-900 uppercase font-mono">
-                  Administrator Authorization Gate
+                <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase font-mono ${
+                  isAdminAccessGranted && !isSundayToday
+                    ? 'bg-emerald-400 text-slate-900'
+                    : 'bg-amber-400 text-slate-900'
+                }`}>
+                  {isAdminAccessGranted && !isSundayToday ? '✓ Candidate Authorized' : 'Administrator Authorization Required'}
                 </span>
                 <h3 className="text-lg font-bold flex items-center gap-2">
-                  <Lock className="w-5 h-5 text-amber-300" /> Admin Portal Access Required
+                  {isAdminAccessGranted && !isSundayToday ? (
+                    <>
+                      <Calendar className="w-5 h-5 text-cyan-300" />
+                      <span>Scheduled for Sunday (720M CBT)</span>
+                    </>
+                  ) : (
+                    <>
+                      <Lock className="w-5 h-5 text-amber-300" />
+                      <span>{isSundayToday ? 'Sunday Live Test • Admin Approval' : 'Sunday Test Series Authorization'}</span>
+                    </>
+                  )}
                 </h3>
               </div>
               <button
@@ -816,7 +891,19 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
             {/* Content */}
             <div className="p-6 space-y-4">
               <p className="text-xs text-slate-600 leading-relaxed">
-                All 33 scheduled Sunday All-India Mock Tests (180 Questions &bull; 180 Marks &bull; AIR Prediction) are strictly controlled by the <strong>Institution Admin Portal</strong>. Access will unlock automatically once the administrator grants authorization for your enrollment.
+                {isAdminAccessGranted && !isSundayToday ? (
+                  <>
+                    Your candidate registration has been verified and authorized by the institution administrator! Sunday All-India Mock Tests (720 Marks) are conducted on Sundays according to the academic planner. This test room will open automatically on Sunday.
+                  </>
+                ) : isSundayToday ? (
+                  <>
+                    Sunday tests are conducted on Sundays and unlock after administrator approval. Send your authorization request below to obtain faculty approval and unlock your 720-marks CBT access.
+                  </>
+                ) : (
+                  <>
+                    Sunday All-India Mock Tests (180 Questions &bull; 720 Marks &bull; AIR Prediction) are conducted on Sundays and unlock after administrator approval. You can submit your authorization request now to have your profile approved ahead of Sunday.
+                  </>
+                )}
               </p>
 
               {/* Student Identification Card */}
@@ -835,7 +922,12 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                     <span className="text-slate-500">Contact:</span> <span className="font-bold text-slate-800">+91 {studentPhone}</span>
                   </div>
                   <div>
-                    <span className="text-slate-500">Status:</span> <span className="font-bold text-amber-700">Pending Admin Approval</span>
+                    <span className="text-slate-500">Status:</span>{' '}
+                    {isAdminAccessGranted ? (
+                      <span className="font-bold text-emerald-700">✓ Approved by Admin</span>
+                    ) : (
+                      <span className="font-bold text-amber-700">Pending Admin Approval</span>
+                    )}
                   </div>
                 </div>
               </div>
@@ -854,7 +946,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
 
               {/* Action Buttons */}
               <div className="pt-2 space-y-2">
-                {!accessRequestSent && (
+                {!isAdminAccessGranted && !accessRequestSent && (
                   <button
                     onClick={handleSendAccessRequest}
                     className="w-full py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer"
@@ -871,7 +963,7 @@ export const TestSeriesSection: React.FC<TestSeriesSectionProps> = ({
                   }}
                   className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-xs transition cursor-pointer"
                 >
-                  Close
+                  {isAdminAccessGranted && !isSundayToday ? 'OK, Got It' : 'Close'}
                 </button>
               </div>
             </div>
