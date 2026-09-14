@@ -26,7 +26,7 @@ interface LiveDoubtModalProps {
 }
 
 export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
-  const [subject, setSubject] = useState<'Physics' | 'Chemistry' | 'Biology' | 'Mathematics'>('Physics');
+  const [subject, setSubject] = useState<'Physics' | 'Chemistry' | 'Biology'>('Physics');
   const [doubtText, setDoubtText] = useState('');
   const [isSolving, setIsSolving] = useState(false);
   const [solvedResult, setSolvedResult] = useState<SolvedDoubtResult | null>(null);
@@ -80,11 +80,6 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
       'Describe C4 Kranz anatomy and why C4 plants have zero photorespiration.',
       'Explain standard ECG waves (P, QRS, T) and cardiac output calculation.',
       'Trace the RAAS feedback pathway and role of Renin from JG cells.'
-    ],
-    Mathematics: [
-      'What is the shortcut formula for finding the area under standard parabola and line?',
-      'Explain properties of definite integrals when f(a - x) = f(x).',
-      'How to find the shortest distance between two skew lines in 3D geometry?'
     ]
   };
 
@@ -232,8 +227,8 @@ export const LiveDoubtModal: React.FC<LiveDoubtModalProps> = ({ onClose }) => {
         <form onSubmit={handleAskDoubt} className="space-y-3">
           <div className="space-y-1">
             <label className="text-[11px] font-bold text-gray-700 uppercase tracking-wider">1. Select Subject</label>
-            <div className="grid grid-cols-4 gap-1.5">
-              {(['Physics', 'Chemistry', 'Biology', 'Mathematics'] as const).map(s => (
+            <div className="grid grid-cols-3 gap-1.5">
+              {(['Physics', 'Chemistry', 'Biology'] as const).map(s => (
                 <button
                   type="button"
                   key={s}

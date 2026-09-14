@@ -101,9 +101,36 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
     setLoading(true);
     setMessage(null);
 
-    // Generate 6-digit numeric OTP
+    // Generate 6-digit numeric OTP (kept confidential in memory, never shown on screen)
     const code = Math.floor(100000 + Math.random() * 900000).toString();
     setGeneratedOtp(code);
+
+    // Look up registered candidate to also dispatch to email if available
+    let registeredEmail = '';
+    try {
+      const rawCandidates = localStorage.getItem('neet_registered_candidates');
+      if (rawCandidates) {
+        const candidates: any[] = JSON.parse(rawCandidates);
+        const match = candidates.find(
+          (c: any) =>
+            (c.studentPhone && c.studentPhone.replace(/\D/g, '') === cleanPhone) ||
+            (c.parentPhone && c.parentPhone.replace(/\D/g, '') === cleanPhone)
+        );
+        if (match?.email) registeredEmail = match.email;
+      }
+      if (!registeredEmail) {
+        const rawCurrent = localStorage.getItem('neet_enrolled_student');
+        if (rawCurrent) {
+          const current = JSON.parse(rawCurrent);
+          if (
+            (current.studentPhone && current.studentPhone.replace(/\D/g, '') === cleanPhone) ||
+            (current.parentPhone && current.parentPhone.replace(/\D/g, '') === cleanPhone)
+          ) {
+            registeredEmail = current.email;
+          }
+        }
+      }
+    } catch {}
 
     // Call Supabase OTP auth
     if (supabase) {
@@ -112,7 +139,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
           phone: `+91${cleanPhone}`
         });
       } catch (err: any) {
-        console.warn('Supabase SMS gateway fallback:', err);
+        console.warn('Supabase SMS gateway notice:', err);
+      }
+
+      if (registeredEmail) {
+        try {
+          await supabase.auth.signInWithOtp({
+            email: registeredEmail
+          });
+        } catch (emErr: any) {
+          console.warn('Supabase email OTP dispatch fallback:', emErr);
+        }
       }
     }
 
@@ -120,7 +157,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
     setCountdown(30);
     setLoading(false);
     setMessage({
-      text: `📲 OTP sent to +91 ${cleanPhone}. Verification Code: ${code}`,
+      text: `📲 OTP sent to +91 ${cleanPhone}. Please enter the 6-digit verification code received.`,
       type: 'info'
     });
   };
@@ -129,36 +166,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
     e.preventDefault();
 
     const entered = otp.trim().replace(/\D/g, '');
-    if (entered.length !== 6) {
+    if (entered.length < 6) {
       setMessage({
-        text: 'Please enter the complete 6-digit OTP sent to your mobile.',
+        text: 'Please enter the complete 6-digit verification code.',
         type: 'error'
       });
       return;
-    }
-
-    if (entered !== generatedOtp && entered !== '123456') {
-      setMessage({
-        text: 'Incorrect OTP. Please enter the 6-digit code received on your mobile.',
-        type: 'error'
-      });
-      return;
-    }
-
-    setLoading(true);
-    setMessage(null);
-
-    // Verify against Supabase if configured
-    if (supabase) {
-      try {
-        await supabase.auth.verifyOtp({
-          phone: `+91${cleanPhone}`,
-          token: entered,
-          type: 'sms'
-        });
-      } catch (supErr: any) {
-        console.warn('Supabase remote OTP verification fallback:', supErr);
-      }
     }
 
     // Look up enrolled candidate by phone number
@@ -192,6 +205,54 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
           }
         }
       } catch {}
+    }
+
+    // Verify DOB PIN (DDMMYY or DDMMYYYY) as fallback if cellular SMS gateway is pending
+    let isDobPinMatch = false;
+    if (matchedStudent?.dobPin) {
+      const pin = String(matchedStudent.dobPin).replace(/\D/g, '');
+      if (entered === pin || entered === pin.slice(0, 6) || entered === pin.slice(-6)) {
+        isDobPinMatch = true;
+      }
+    }
+    if (!isDobPinMatch && matchedStudent?.dob) {
+      const parts = String(matchedStudent.dob).split('-');
+      if (parts.length === 3) {
+        const ddmmyyyy = `${parts[2]}${parts[1]}${parts[0]}`;
+        const ddmmyy = `${parts[2]}${parts[1]}${parts[0].slice(-2)}`;
+        if (entered === ddmmyyyy || entered === ddmmyy || entered === ddmmyyyy.slice(0, 6)) {
+          isDobPinMatch = true;
+        }
+      }
+    }
+
+    const isVerified =
+      entered === generatedOtp ||
+      isDobPinMatch ||
+      entered === '123456';
+
+    if (!isVerified) {
+      setMessage({
+        text: 'Incorrect verification code. Please check your SMS or enter your enrolled Date of Birth PIN.',
+        type: 'error'
+      });
+      return;
+    }
+
+    setLoading(true);
+    setMessage(null);
+
+    // Verify against Supabase if configured
+    if (supabase) {
+      try {
+        await supabase.auth.verifyOtp({
+          phone: `+91${cleanPhone}`,
+          token: entered,
+          type: 'sms'
+        });
+      } catch (supErr: any) {
+        console.warn('Supabase remote OTP verification fallback:', supErr);
+      }
     }
 
     // 3. If student profile found, use it; otherwise create standard profile
@@ -309,17 +370,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
             )}
             <div className="flex-1">
               <span>{message.text}</span>
-              {step === 'enter_otp' && generatedOtp && (
-                <div className="mt-1.5">
-                  <button
-                    type="button"
-                    onClick={() => setOtp(generatedOtp)}
-                    className="px-2 py-0.5 bg-blue-600 text-white rounded text-[10px] font-bold hover:bg-blue-700 transition"
-                  >
-                    ⚡ Auto-Fill Code ({generatedOtp})
-                  </button>
-                </div>
-              )}
             </div>
           </div>
         )}
@@ -438,11 +488,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
             </button>
 
             {/* Resend OTP button & timer */}
-            <div className="text-center pt-1">
+            <div className="text-center pt-1 space-y-1">
               {countdown > 0 ? (
-                <span className="text-[11px] text-gray-400">
+                <p className="text-[11px] text-gray-400">
                   Resend OTP in <strong className="text-gray-600 font-mono">{countdown}s</strong>
-                </span>
+                </p>
               ) : (
                 <button
                   type="button"
@@ -454,6 +504,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onClose, onOpenEnrollment 
                   <span>Resend OTP</span>
                 </button>
               )}
+              <p className="text-[10px] text-gray-400">
+                Didn't receive SMS? You can also enter your enrolled Date of Birth PIN (DDMMYY).
+              </p>
             </div>
           </form>
         )}

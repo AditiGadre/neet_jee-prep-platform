@@ -144,21 +144,16 @@ function organizeUnstructuredExplanation(text: string): ParsedSection[] {
     });
   }
   if (derivationLines.length > 0) {
-    const allMath = derivationLines.join('\n');
+    const allDerivationLines = takeawayLines.length > 0 ? [...derivationLines, ...takeawayLines] : derivationLines;
+    const allMath = allDerivationLines.join('\n');
     sections.push({
       type: 'derivation',
       title: 'Step-by-Step Derivation & Calculations',
       icon: <Zap className="w-4 h-4 text-amber-600 shrink-0" />,
       lines: splitDerivationSteps(allMath)
     });
-  }
-  if (takeawayLines.length > 0) {
-    sections.push({
-      type: 'protip',
-      title: 'Examiner Pro-Tip & Core Principle',
-      icon: <Sparkles className="w-4 h-4 text-emerald-600 shrink-0" />,
-      lines: takeawayLines
-    });
+  } else if (takeawayLines.length > 0) {
+    conceptLines.push(...takeawayLines);
   }
 
   return sections.length > 0
@@ -239,9 +234,8 @@ function parseExplanation(rawText: string): ParsedSection[] {
       header.includes('✓') ||
       header.includes('💡')
     ) {
-      type = 'protip';
-      title = 'Examiner Pro-Tip & Core Principle';
-      icon = <Sparkles className="w-4 h-4 text-emerald-600 shrink-0" />;
+      // Omit examiner pro-tips from detailed solutions per user instruction
+      continue;
     }
 
     // Join body lines and strip any accidental markdown header remnants
@@ -295,7 +289,10 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
   subtopic,
   questionText
 }) => {
-  const sections = useMemo(() => parseExplanation(explanation || ''), [explanation]);
+  const sections = useMemo(
+    () => parseExplanation(explanation || '').filter(s => s.type !== 'protip'),
+    [explanation]
+  );
 
   const conceptSection = sections.find(s => s.type === 'concept');
   const conceptText = conceptSection && conceptSection.lines.length > 0 ? conceptSection.lines[0] : '';
@@ -374,30 +371,6 @@ export const DetailedSolutionViewer: React.FC<DetailedSolutionViewerProps> = ({
                     <div className="flex-1 min-w-0 p-2.5 sm:p-3 rounded-xl bg-white border border-amber-200/60 text-xs sm:text-sm text-slate-900 font-mono leading-relaxed overflow-x-auto shadow-2xs font-semibold">
                       {line}
                     </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          );
-        }
-
-        if (sec.type === 'protip') {
-          return (
-            <div
-              key={sIdx}
-              className="rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-50/80 via-teal-50/30 to-white p-3.5 sm:p-4 space-y-2 shadow-xs"
-            >
-              <div className="flex items-center gap-2 text-xs font-bold text-emerald-950 uppercase tracking-wider border-b border-emerald-200/60 pb-1.5">
-                {sec.icon}
-                <span>{sec.title}</span>
-              </div>
-              <div className="space-y-1.5 text-xs sm:text-sm text-emerald-950 leading-relaxed">
-                {sec.lines.map((line, lIdx) => (
-                  <div key={lIdx} className="flex items-start gap-2 bg-white/70 p-2.5 rounded-xl border border-emerald-200/60 shadow-2xs">
-                    <ArrowRight className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                    <span className="font-semibold">
-                      {line.endsWith('.') || line.endsWith(';') || line.endsWith(':') ? line : `${line}.`}
-                    </span>
                   </div>
                 ))}
               </div>
