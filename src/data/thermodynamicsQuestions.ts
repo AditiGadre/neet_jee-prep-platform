@@ -739,10 +739,32 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "Two metal cubes A and B of same size are arranged as shown in the figure. The extreme ends of the combination are maintained at the indicated temperatures. The arrangement is thermally insulated. The coefficients of thermal conductivity of A and B are 300 W/m\u00b0C and 200 W/m\u00b0C, respectively. After steady state is reached, the temperature of the interface will be",
-    options: ["45\u00b0C", "90\u00b0C", "30\u00b0C", "60\u00b0C"],
+    questionText: "Two metal cubes A and B of same size are arranged as shown in the figure. The extreme ends of the combination are maintained at 100°C and 0°C. The arrangement is thermally insulated. The coefficients of thermal conductivity of A and B are 300 W/m°C and 200 W/m°C, respectively. After steady state is reached, the temperature of the interface will be",
+    options: ["45°C", "90°C", "30°C", "60°C"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Thermodynamics Q62.",
+    diagramSvg: `<svg viewBox="0 0 440 200" class="w-full max-w-md mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="440" height="200" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="220" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Steady-State Thermal Conduction Through Two Cubes (Q62)</text>
+  <rect x="30" y="55" width="50" height="90" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" rx="4"/>
+  <text x="55" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#B91C1C">100°C</text>
+  <text x="55" y="125" text-anchor="middle" font-size="9" fill="#B91C1C">Hot end</text>
+  <rect x="80" y="55" width="130" height="90" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="145" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#1D4ED8">Cube A</text>
+  <text x="145" y="110" text-anchor="middle" font-size="11" fill="#1E40AF">K_A = 300 W/m°C</text>
+  <line x1="210" y1="45" x2="210" y2="155" stroke="#7C3AED" stroke-width="3" stroke-dasharray="4 2"/>
+  <circle cx="210" cy="100" r="5" fill="#7C3AED"/>
+  <text x="210" y="40" text-anchor="middle" font-size="12" font-weight="bold" fill="#7C3AED">Interface (T = ?)</text>
+  <rect x="210" y="55" width="130" height="90" fill="#E0E7FF" stroke="#6366F1" stroke-width="2"/>
+  <text x="275" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#4338CA">Cube B</text>
+  <text x="275" y="110" text-anchor="middle" font-size="11" fill="#3730A3">K_B = 200 W/m°C</text>
+  <rect x="340" y="55" width="50" height="90" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5" rx="4"/>
+  <text x="365" y="105" text-anchor="middle" font-size="12" font-weight="bold" fill="#1D4ED8">0°C</text>
+  <text x="365" y="125" text-anchor="middle" font-size="9" fill="#1D4ED8">Cold end</text>
+  <line x1="110" y1="172" x2="310" y2="172" stroke="#EA580C" stroke-width="2.5"/>
+  <polygon points="305,167 320,172 305,177" fill="#EA580C"/>
+  <text x="210" y="188" text-anchor="middle" font-size="11" font-weight="bold" fill="#EA580C">Heat Flow (H_A = H_B) ⟹ T = 60°C</text>
+</svg>`,
+    explanation: "At steady state, the rate of heat flow through cube A is equal to that through cube B:\n  H = [K_A · A · (100 - T)] / L = [K_B · A · (T - 0)] / L\nSince the cubes are of identical dimensions (same A and L):\n  300 · (100 - T) = 200 · T\n  3 · (100 - T) = 2T\n  300 - 3T = 2T\n  5T = 300 ⟹ T = 60°C.\nTherefore, the steady-state temperature of the interface is 60°C.",
     tags: ["General Practice"]
   },
   {
@@ -799,10 +821,30 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "A metal rod of length 2 m has cross-sectional areas 2A and A as shown in figure. The ends are maintained at temperatures 100\u00b0C and 70\u00b0C. The temperature at middle point C is",
-    options: ["80\u00b0C", "85\u00b0C", "90\u00b0C", "95\u00b0C"],
+    questionText: "A metal rod of length 2 m has cross-sectional areas 2A and A as shown in figure. The ends are maintained at temperatures 100°C and 70°C. The temperature at middle point C is",
+    options: ["80°C", "85°C", "90°C", "95°C"],
     correctAnswer: 2,
-    explanation: "Detailed solution for Thermodynamics Q66.",
+    diagramSvg: `<svg viewBox="0 0 440 210" class="w-full max-w-md mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="440" height="210" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="220" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Conduction in Non-Uniform Cross-Section Rod (Q66)</text>
+  <rect x="40" y="60" width="30" height="80" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" rx="3"/>
+  <text x="55" y="105" text-anchor="middle" font-size="11" font-weight="bold" fill="#B91C1C">100°C</text>
+  <rect x="70" y="60" width="140" height="80" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="140" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E40AF">Area = 2A</text>
+  <text x="140" y="115" text-anchor="middle" font-size="11" fill="#1D4ED8">L₁ = 1 m</text>
+  <line x1="210" y1="45" x2="210" y2="155" stroke="#7C3AED" stroke-width="3" stroke-dasharray="4 2"/>
+  <circle cx="210" cy="100" r="5" fill="#7C3AED"/>
+  <text x="210" y="40" text-anchor="middle" font-size="12" font-weight="bold" fill="#7C3AED">Point C (T_C = ?)</text>
+  <rect x="210" y="80" width="140" height="40" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="280" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E40AF">Area = A</text>
+  <text x="280" y="140" text-anchor="middle" font-size="11" fill="#1D4ED8">L₂ = 1 m</text>
+  <rect x="350" y="80" width="30" height="40" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5" rx="3"/>
+  <text x="365" y="105" text-anchor="middle" font-size="11" font-weight="bold" fill="#1D4ED8">70°C</text>
+  <line x1="120" y1="175" x2="310" y2="175" stroke="#EA580C" stroke-width="2"/>
+  <polygon points="305,170 320,175 305,180" fill="#EA580C"/>
+  <text x="220" y="195" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#334155">H = K(2A)(100 − T_C)/1 = K(A)(T_C − 70)/1 ⟹ 2(100 − T_C) = T_C − 70 ⟹ T_C = 90°C</text>
+</svg>`,
+    explanation: "At steady state, the rate of heat flow through both sections of the rod is identical:\n  H = [K · (2A) · (100 - T_C)] / L₁ = [K · A · (T_C - 70)] / L₂\nGiven L₁ = L₂ = 1 m (since C is the midpoint of the 2 m rod):\n  2 · (100 - T_C) = T_C - 70\n  200 - 2 T_C = T_C - 70\n  3 T_C = 270 ⟹ T_C = 90°C.\nTherefore, the temperature at the junction C is 90°C.",
     tags: ["General Practice"]
   },
   {
@@ -1617,8 +1659,47 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     difficulty: "Medium",
     questionText: "Five equal resistances each of resistance R are connected as shown in the figure. A battery of V volts is connected between A and B. The current flowing in AFCEB will be",
     options: ["V / (3R)", "V / R", "V / (2R)", "2V / R"],
-    correctAnswer: 0,
-    explanation: "Detailed solution for Thermodynamics Q135.",
+    correctAnswer: 2,
+    diagramSvg: `<svg viewBox="0 0 460 220" class="w-full max-w-md mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="460" height="220" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="230" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Balanced Wheatstone Bridge Network (Q135)</text>
+  <circle cx="50" cy="110" r="4" fill="#1E293B"/>
+  <text x="40" y="115" font-size="12" font-weight="bold" fill="#1E293B">A</text>
+  <line x1="50" y1="110" x2="110" y2="60" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="110" cy="60" r="3" fill="#2563EB"/>
+  <text x="105" y="50" font-size="11" font-weight="bold" fill="#2563EB">F</text>
+  <rect x="65" y="70" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(-40, 80, 77)"/>
+  <text x="70" y="70" font-size="10" font-weight="bold" fill="#1D4ED8">R</text>
+  <line x1="110" y1="60" x2="230" y2="60" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="230" cy="60" r="4" fill="#2563EB"/>
+  <text x="230" y="48" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563EB">C</text>
+  <line x1="230" y1="60" x2="350" y2="60" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="350" cy="60" r="3" fill="#2563EB"/>
+  <text x="355" y="50" font-size="11" font-weight="bold" fill="#2563EB">E</text>
+  <rect x="365" y="70" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(40, 380, 77)"/>
+  <text x="385" y="70" font-size="10" font-weight="bold" fill="#1D4ED8">R</text>
+  <line x1="350" y1="60" x2="410" y2="110" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="410" cy="110" r="4" fill="#1E293B"/>
+  <text x="420" y="115" font-size="12" font-weight="bold" fill="#1E293B">B</text>
+  <line x1="50" y1="110" x2="230" y2="160" stroke="#1E293B" stroke-width="2"/>
+  <rect x="125" y="125" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(15, 140, 132)"/>
+  <text x="135" y="150" font-size="10" font-weight="bold" fill="#1D4ED8">R</text>
+  <circle cx="230" cy="160" r="4" fill="#1E293B"/>
+  <text x="230" y="178" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E293B">D</text>
+  <line x1="230" y1="160" x2="410" y2="110" stroke="#1E293B" stroke-width="2"/>
+  <rect x="305" y="125" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(-15, 320, 132)"/>
+  <text x="315" y="150" font-size="10" font-weight="bold" fill="#1D4ED8">R</text>
+  <line x1="230" y1="60" x2="230" y2="160" stroke="#94A3B8" stroke-width="2"/>
+  <rect x="222" y="95" width="16" height="30" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="245" y="114" font-size="10" font-weight="bold" fill="#854D0E">R (i=0)</text>
+  <path d="M 50,110 L 50,200 L 210,200" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="210" y1="192" x2="210" y2="208" stroke="#1E293B" stroke-width="2.5"/>
+  <line x1="220" y1="195" x2="220" y2="205" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="215" y="188" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E293B">+  V  −</text>
+  <path d="M 220,200 L 410,200 L 410,110" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="230" y="215" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#2563EB">Branch AFCEB Resistance = R + R = 2R ⟹ I_{AFCEB} = V / (2R)</text>
+</svg>`,
+    explanation: "The arrangement of five identical resistances forms a balanced Wheatstone bridge (R/R = R/R = 1). As a result, the potential at C equals the potential at D (V_C = V_D), so no current flows through the central vertical resistor.\nWith the central resistor carrying zero current, the network simplifies into two parallel branches across battery terminals A and B:\n  1. Upper branch AFCEB: contains two resistors R in series, so R_upper = R + R = 2R.\n  2. Lower branch ADB: contains two resistors R in series, so R_lower = R + R = 2R.\nThe current through the branch AFCEB is directly given by Ohm's law:\n  I_{AFCEB} = V / R_upper = V / (2R).",
     tags: ["General Practice"]
   },
   {
@@ -1627,10 +1708,42 @@ export const THERMODYNAMICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Thermodynamics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "For the network shown in the figure, the value of the current i is",
+    questionText: "For the network shown in the figure, connected across a 1 V battery, the value of the main circuit current i is",
     options: ["35/9 A", "18/5 A", "9/5 A", "5/18 A"],
     correctAnswer: 3,
-    explanation: "Detailed solution for Thermodynamics Q136.",
+    diagramSvg: `<svg viewBox="0 0 440 210" class="w-full max-w-md mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="440" height="210" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="220" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Wheatstone Bridge Equivalent Current (Q136)</text>
+  <circle cx="60" cy="100" r="4" fill="#1E293B"/>
+  <line x1="60" y1="100" x2="200" y2="50" stroke="#1E293B" stroke-width="2"/>
+  <rect x="115" y="65" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(-20, 130, 72)"/>
+  <text x="125" y="60" font-size="11" font-weight="bold" fill="#1D4ED8">4 Ω</text>
+  <line x1="200" y1="50" x2="340" y2="100" stroke="#1E293B" stroke-width="2"/>
+  <rect x="255" y="65" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(20, 270, 72)"/>
+  <text x="265" y="60" font-size="11" font-weight="bold" fill="#1D4ED8">2 Ω</text>
+  <line x1="60" y1="100" x2="200" y2="150" stroke="#1E293B" stroke-width="2"/>
+  <rect x="115" y="118" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(20, 130, 125)"/>
+  <text x="125" y="148" font-size="11" font-weight="bold" fill="#1D4ED8">6 Ω</text>
+  <line x1="200" y1="150" x2="340" y2="100" stroke="#1E293B" stroke-width="2"/>
+  <rect x="255" y="118" width="30" height="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" transform="rotate(-20, 270, 125)"/>
+  <text x="265" y="148" font-size="11" font-weight="bold" fill="#1D4ED8">3 Ω</text>
+  <line x1="200" y1="50" x2="200" y2="150" stroke="#94A3B8" stroke-width="2"/>
+  <rect x="193" y="88" width="14" height="24" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="212" y="104" font-size="10" font-weight="bold" fill="#854D0E">5 Ω</text>
+  <circle cx="200" cy="50" r="3" fill="#1E293B"/>
+  <circle cx="200" cy="150" r="3" fill="#1E293B"/>
+  <circle cx="340" cy="100" r="4" fill="#1E293B"/>
+  <path d="M 60,100 L 60,195 L 185,195" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="185" y1="188" x2="185" y2="202" stroke="#1E293B" stroke-width="2.5"/>
+  <line x1="195" y1="191" x2="195" y2="199" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="190" y="184" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E293B">+ 1 V −</text>
+  <path d="M 195,195 L 340,195 L 340,100" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="90" y1="195" x2="130" y2="195" stroke="#DC2626" stroke-width="2.5"/>
+  <polygon points="125,191 135,195 125,199" fill="#DC2626"/>
+  <text x="110" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#DC2626">i</text>
+  <text x="270" y="198" text-anchor="middle" font-size="10" font-weight="bold" fill="#16A34A">Balanced: 4/2 = 6/3 = 2 ⟹ R_eq = 18/5 Ω ⟹ i = 5/18 A</text>
+</svg>`,
+    explanation: "Check the Wheatstone bridge condition across opposite arms:\n  R₁ / R₂ = 4 / 2 = 2\n  R₃ / R₄ = 6 / 3 = 2\nSince R₁/R₂ = R₃/R₄, the bridge is balanced. No current flows through the central 5 Ω resistor, so it can be omitted.\n1. Upper branch resistance: R_top = 4 + 2 = 6 Ω.\n2. Lower branch resistance: R_bottom = 6 + 3 = 9 Ω.\nEquivalent resistance of the parallel combination:\n  1 / R_eq = 1/6 + 1/9 = (3 + 2) / 18 = 5 / 18 ⟹ R_eq = 18 / 5 Ω.\nTotal current drawn from the 1 V source:\n  i = V / R_eq = 1 / (18/5) = 5/18 A.",
     tags: ["General Practice"]
   },
   {

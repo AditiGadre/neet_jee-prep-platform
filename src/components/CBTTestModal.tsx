@@ -180,8 +180,10 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
         const rawQText = q.questionText || (q as any).question || '';
         const rawTopic = resolveQuestionSubtopic(q);
         const normChapter = normalizeChapterForDisplay(q.subject, q.chapter || '');
+        const resolvedImage = q.image || (q as any).imageUrl || (q as any).question_diagram || (q as any).diagram || undefined;
         return {
           ...q,
+          image: resolvedImage,
           chapter: normChapter,
           topic: rawTopic,
           questionText: formatMathAndFormulas(cleanOcrText(rawQText)),
@@ -1055,18 +1057,22 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                     {renderFormattedQuestionText(currentQ.questionText || (currentQ as any).question || '')}
                   </div>
 
-                  {/* Visual / SVG Diagram in Question (Max 2 uses per test) */}
-                  {(currentQ.diagramSvg || questionDiagramMap.get(currentQuestionIdx)) && (
+                  {/* Visual / Authentic Image or SVG Diagram in Question */}
+                  {currentQ.image ? (
+                    <div className="my-3 p-2 bg-white border border-slate-200 rounded-2xl flex justify-center items-center shadow-xs">
+                      <img src={currentQ.image} alt="Question Diagram" className="max-h-72 rounded-xl object-contain" />
+                    </div>
+                  ) : currentQ.diagramSvg ? (
                     <div
                       className="my-3 p-4 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
-                      dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg || questionDiagramMap.get(currentQuestionIdx) || '' }}
+                      dangerouslySetInnerHTML={{ __html: currentQ.diagramSvg }}
                     />
-                  )}
-                  {currentQ.image && !currentQ.diagramSvg && !questionDiagramMap.get(currentQuestionIdx) && (
-                    <div className="my-3 p-2 bg-white border border-slate-200 rounded-2xl flex justify-center items-center shadow-xs">
-                      <img src={currentQ.image} alt="Question Diagram" className="max-h-60 rounded-xl object-contain" />
-                    </div>
-                  )}
+                  ) : questionDiagramMap.get(currentQuestionIdx) ? (
+                    <div
+                      className="my-3 p-4 bg-white border border-slate-200 rounded-2xl flex justify-center items-center overflow-x-auto shadow-xs"
+                      dangerouslySetInnerHTML={{ __html: questionDiagramMap.get(currentQuestionIdx) || '' }}
+                    />
+                  ) : null}
 
                   {/* Option Cards */}
                   <div className="space-y-3 pt-2">
@@ -2046,17 +2052,22 @@ export const CBTTestModal: React.FC<CBTTestModalProps> = ({
                           {renderFormattedQuestionText(q.questionText || (q as any).question || '')}
                         </div>
 
-                        {(q.diagramSvg || questionDiagramMap.get(idx)) && (
+                        {/* Visual / Authentic Image or SVG Diagram in Review */}
+                        {q.image ? (
+                          <div className="my-3 p-2 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
+                            <img src={q.image} alt="Question Diagram" className="max-h-60 rounded-lg object-contain" />
+                          </div>
+                        ) : q.diagramSvg ? (
                           <div
                             className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center overflow-x-auto"
-                            dangerouslySetInnerHTML={{ __html: q.diagramSvg || questionDiagramMap.get(idx) || '' }}
+                            dangerouslySetInnerHTML={{ __html: q.diagramSvg }}
                           />
-                        )}
-                        {q.image && !q.diagramSvg && !questionDiagramMap.get(idx) && (
-                          <div className="my-3 p-2 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
-                            <img src={q.image} alt="Question Diagram" className="max-h-48 rounded-lg object-contain" />
-                          </div>
-                        )}
+                        ) : questionDiagramMap.get(idx) ? (
+                          <div
+                            className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center overflow-x-auto"
+                            dangerouslySetInnerHTML={{ __html: questionDiagramMap.get(idx) || '' }}
+                          />
+                        ) : null}
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 my-3">
                           {q.options.map((opt, oIdx) => (

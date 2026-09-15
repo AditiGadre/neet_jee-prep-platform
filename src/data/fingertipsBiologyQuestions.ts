@@ -6031,28 +6031,28 @@ export const FINGERTIPS_BIO_CH03_EXAM_SCORER: Question[] = [
     explanation: "In all bryophytes (including Funaria Y), the predominant phase is gametophyte.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch03-fig-q1",
     subject: "Biology",
     chapter: "Plant Kingdom",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "Identify given figures of brown algae A (Dictyota) and red algae B (Polysiphonia):",
+    questionText: "Which of the following correctly pairs the dichotomously branched brown alga (A) and the polysiphonous branched red alga (B)?",
     options: ["A: Fucus, B: Polysiphonia", "A: Dictyota, B: Polysiphonia", "A: Dictyota, B: Porphyra", "A: Porphyra, B: Polysiphonia"],
     correctAnswer: 1,
-    explanation: "A = Dictyota (dichotomous brown alga), B = Polysiphonia (branched red alga).",
+    explanation: "Dictyota is a brown alga (Phaeophyceae) with characteristic flattened dichotomous branching, while Polysiphonia is a filamentously branched red alga (Rhodophyceae).",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch03-fig-q2",
     subject: "Biology",
     chapter: "Plant Kingdom",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "The algae shown in given figures (Chlamydomonas, Volvox, Chara, Ulothrix) belong to Class:",
+    questionText: "Green algae including Chlamydomonas, Volvox, Chara, and Ulothrix belong to which class of algae?",
     options: ["Chlorophyceae", "Phaeophyceae", "Rhodophyceae", "Cyanophyceae."],
     correctAnswer: 0,
-    explanation: "All four are green algae (Chlorophyceae).",
+    explanation: "Chlamydomonas (unicellular), Volvox (colonial), Chara (branched), and Ulothrix (filamentous) are all green algae belonging to Class Chlorophyceae.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
   {
@@ -6079,16 +6079,16 @@ export const FINGERTIPS_BIO_CH03_EXAM_SCORER: Question[] = [
     explanation: "A = Diploid sporophyte (capsule/seta), B = Haploid leafy gametophyte.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch03-fig-q5",
     subject: "Biology",
     chapter: "Plant Kingdom",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "Identify the plant shown in figure (Sphagnum moss with antheridial and archegonial branches):",
+    questionText: "The bryophyte commonly known as peat moss, characterized by distinct antheridial and archegonial branches and high water-retention capacity, is:",
     options: ["Marchantia - Liverwort", "Sphagnum - Moss", "Sphagnum - Liverwort", "Funaria - Moss"],
     correctAnswer: 1,
-    explanation: "The figure represents Sphagnum moss.",
+    explanation: "Sphagnum is a moss (Bryopsida) that provides peat used as fuel and packing material for trans-shipment of living material due to its capacity to hold water.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
   {
@@ -6115,16 +6115,16 @@ export const FINGERTIPS_BIO_CH03_EXAM_SCORER: Question[] = [
     explanation: "A = Terminal strobilus (cone), B = Underground perennial rhizome.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch03-fig-q8",
     subject: "Biology",
     chapter: "Plant Kingdom",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "The given figure shows (Fern / Dryopteris frond):",
+    questionText: "A common homosporous fern characterized by circinate vernation, underground rhizome, and pinnately compound megaphyllous fronds is:",
     options: ["Salvinia", "Dryopteris", "Selaginella", "Equisetum."],
     correctAnswer: 1,
-    explanation: "The figure shows a fern (Dryopteris) with pinnate megaphyllous fronds.",
+    explanation: "Dryopteris (wood fern) is a homosporous pteridophyte possessing pinnately compound megaphylls called fronds.",
     tags: ["NCERT at your Fingertips", "Plant Kingdom", "Class 11"]
   },
   {
@@ -8594,16 +8594,16 @@ export const FINGERTIPS_BIO_CH04_EXAM_SCORER: Question[] = [
     explanation: "A = Pleurobrachia (ctenophore); B = Cnidoblast cell; C = Aurelia (medusa); D = Adamsia (polyp).",
     tags: ["NCERT at your Fingertips", "Animal Kingdom", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch04-fig-q5",
     subject: "Biology",
     chapter: "Animal Kingdom",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "Given figures: A (Locust), B (Butterfly), C (Scorpion), D (Prawn). Select correct option:",
-    options: ["A and D respire mainly through body wall.", "B and C show radial symmetry.", "A and B have cnidoblasts for self-defence.", "C and D have a true coelom (hemocoel)."],
+    questionText: "Consider the representative arthropods: Locust, Butterfly, Scorpion, and Prawn. Select the correct statement:",
+    options: ["Locust and Prawn respire mainly through body surface.", "Butterfly and Scorpion exhibit radial symmetry.", "Locust and Butterfly possess cnidoblasts for defence.", "Scorpion and Prawn possess a true coelom with hemocoel."],
     correctAnswer: 3,
-    explanation: "All four are coelomate arthropods possessing an open hemocoelic body cavity.",
+    explanation: "All arthropods (Locust, Butterfly, Scorpion, Prawn) are triploblastic, bilaterally symmetrical, segmented animals with a coelom filled with blood (hemocoel).",
     tags: ["NCERT at your Fingertips", "Animal Kingdom", "Class 11"]
   },
   {
@@ -9078,16 +9078,16 @@ export const FINGERTIPS_BIO_CH05_MCQS: Question[] = [
     explanation: "Monstera possesses an adventitious root system, not a taproot system.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch05-mcq-q5",
     subject: "Biology",
     chapter: "Morphology of Flowering Plants",
     topic: "Root, Stem, Leaf, Flower, Fruit, Seed, Families",
     difficulty: "Medium",
-    questionText: "Refer to given figure of root system and select the incorrect statement:",
+    questionText: "In a typical tap root system (as seen in dicotyledonous plants like mustard), select the INCORRECT statement:",
     options: ["This type of root system develops from radicle of embryo.", "Lateral roots arising from the main root are referred to as primary roots.", "Rootlets are the ultimate root branches that bear root hair for absorption.", "This type of root system is seen in the mustard plant."],
     correctAnswer: 1,
-    explanation: "Lateral roots arising from the primary root are secondary and tertiary roots.",
+    explanation: "In dicots, elongation of the radicle leads to the formation of the primary root. Lateral roots arising from it of several orders are referred to as secondary and tertiary roots, not primary roots.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
   {
@@ -9126,7 +9126,7 @@ export const FINGERTIPS_BIO_CH05_MCQS: Question[] = [
     explanation: "Root is the descending, non-green, cylindrical underground axis of the plant.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch05-mcq-q9",
     subject: "Biology",
     chapter: "Morphology of Flowering Plants",
@@ -9135,7 +9135,28 @@ export const FINGERTIPS_BIO_CH05_MCQS: Question[] = [
     questionText: "Which statement is correct with respect to the given figure showing different zones of a typical root (A: Maturation, B: Elongation, C: Meristematic)?",
     options: ["Part B mainly helps in absorption of water.", "Root cap protects the tender apex of the root part B.", "Part A is most suitable for anatomical studies of root.", "Differentiation of cells can be observed in part C."],
     correctAnswer: 2,
-    explanation: "The region of maturation (Part A) contains fully differentiated tissues suitable for anatomical study.",
+    diagramSvg: `<svg viewBox="0 0 380 280" class="w-full max-w-sm mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="280" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="190" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Zones of a Typical Root Tip</text>
+  <path d="M 120,40 L 120,200 C 120,230 150,250 190,250 C 230,250 260,230 260,200 L 260,40" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <path d="M 140,225 C 140,245 165,255 190,255 C 215,255 240,245 240,225 Z" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+  <text x="270" y="242" font-size="11" font-weight="bold" fill="#B45309">Root Cap</text>
+  <line x1="265" y1="239" x2="230" y2="235" stroke="#B45309" stroke-width="1"/>
+  <line x1="120" y1="200" x2="260" y2="200" stroke="#D97706" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="70" y="215" font-size="12" font-weight="bold" fill="#DC2626">C</text>
+  <line x1="85" y1="212" x2="140" y2="212" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="270" y="214" font-size="10.5" fill="#475569">Meristematic zone</text>
+  <line x1="120" y1="130" x2="260" y2="130" stroke="#D97706" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="70" y="165" font-size="12" font-weight="bold" fill="#2563EB">B</text>
+  <line x1="85" y1="162" x2="140" y2="162" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="270" y="165" font-size="10.5" fill="#475569">Zone of elongation</text>
+  <text x="70" y="85" font-size="12" font-weight="bold" fill="#16A34A">A</text>
+  <line x1="85" y1="82" x2="140" y2="82" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="270" y="85" font-size="10.5" fill="#475569">Zone of maturation</text>
+  <path d="M 120,60 L 95,55 M 120,75 L 90,75 M 120,90 L 95,95 M 120,105 L 90,110 M 120,120 L 95,122" stroke="#D97706" stroke-width="1.5"/>
+  <path d="M 260,60 L 285,55 M 260,75 L 290,75 M 260,90 L 285,95 M 260,105 L 290,110 M 260,120 L 285,122" stroke="#D97706" stroke-width="1.5"/>
+</svg>`,
+    explanation: "The cells of the maturation zone (A) differentiate and mature into primary tissue systems (epidermis, cortex, vascular bundles), making it the most suitable zone for anatomical studies. Root hairs also emerge from zone A to absorb water.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
   {
@@ -9450,16 +9471,16 @@ export const FINGERTIPS_BIO_CH05_MCQS: Question[] = [
     explanation: "A = Reticulate venation (Mango/Dicot), C = Parallel venation (Wheat/Monocot).",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch05-mcq-q36",
     subject: "Biology",
     chapter: "Morphology of Flowering Plants",
     topic: "Root, Stem, Leaf, Flower, Fruit, Seed, Families",
     difficulty: "Hard",
-    questionText: "Given figures of phyllotaxy: (i) Whorled (Alstonia), (ii) Opposite (Calotropis/Guava), (iii) Alternate (China rose/Mustard). Identify (i), (ii), (iii):",
+    questionText: "Identify the types of phyllotaxy where: (i) A single leaf arises at each node in alternate manner, (ii) A pair of leaves arise at each node and lie opposite to each other, (iii) More than two leaves arise at a node and form a whorl:",
     options: ["(i) Whorled, (ii) Opposite, (iii) Alternate", "(i) Alternate, (ii) Opposite, (iii) Whorled", "(i) Opposite, (ii) Alternate, (iii) Whorled", "(i) Opposite, (ii) Whorled, (iii) Alternate"],
     correctAnswer: 1,
-    explanation: "(i) Alternate, (ii) Opposite, (iii) Whorled.",
+    explanation: "(i) Alternate phyllotaxy is seen in China rose, mustard, and sunflower. (ii) Opposite phyllotaxy is seen in Calotropis and guava. (iii) Whorled phyllotaxy is seen in Alstonia.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
   {
@@ -11049,28 +11070,28 @@ export const FINGERTIPS_BIO_CH05_EXAM_SCORER: Question[] = [
     explanation: "Brassicaceae floral diagram shows 4 cruciform petals and 2+4 stamens.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch05-fig-q1",
     subject: "Biology",
     chapter: "Morphology of Flowering Plants",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "Observe given figures and identify kind of roots: A (Banyan prop roots / Adventitious), B (Tap root), C (Fibrous roots):",
+    questionText: "Match the type of root system with its characteristic description: (A) Tap root system with primary root and lateral branches, (B) Fibrous root system arising from base of stem, (C) Adventitious roots arising from parts other than radicle:",
     options: ["A-Adventitious, B-Tap, C-Fibrous", "A-Tap, B-Adventitious, C-Fibrous", "A-Fibrous, B-Tap, C-Adventitious", "A-Tap, B-Fibrous, C-Adventitious"],
     correctAnswer: 3,
-    explanation: "A = Tap root (Mustard), B = Fibrous root (Wheat), C = Adventitious root (Monstera/Banyan).",
+    explanation: "A = Tap root system (Mustard), B = Fibrous root system (Wheat), C = Adventitious root system (Monstera, Banyan tree).",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch05-fig-q2",
     subject: "Biology",
     chapter: "Morphology of Flowering Plants",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "Refer to given figures X (Stem tendril in Passiflora) and Y (Leaf tendril in Gloriosa / Pea). Select incorrect statement:",
-    options: ["In X, stem is modified to form tendril whereas in Y leaf is modified to form tendril.", "Both X and Y are weak-stemmed plants.", "X type tendrils are found in passion flower whereas Y type tendrils are found in Gloriosa.", "In X, leaf is modified to form tendril whereas in Y, stem is modified to form tendril."],
+    questionText: "Regarding stem tendrils (e.g., in Passiflora / gourds) and leaf tendrils (e.g., in wild pea / Gloriosa), select the INCORRECT statement:",
+    options: ["In stem tendrils, the stem is modified whereas in leaf tendrils the leaf is modified.", "Both are found in weak-stemmed plants for climbing support.", "Stem tendrils are found in passion flower whereas leaf tendrils are found in Gloriosa.", "In passion flower, leaf is modified to form tendril whereas in Gloriosa, stem is modified to form tendril."],
     correctAnswer: 3,
-    explanation: "Option (d) is incorrect because X is a stem tendril and Y is a leaf tendril.",
+    explanation: "Passiflora tendrils are modified axillary buds (stem tendrils), whereas Gloriosa / pea tendrils are modified leaf tips or leaflets (leaf tendrils). Option (d) is incorrect.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
   {
@@ -11097,16 +11118,16 @@ export const FINGERTIPS_BIO_CH05_EXAM_SCORER: Question[] = [
     explanation: "A = Dry membranous tunic, B = Concentric fleshy edible scale leaves, C = Central terminal bud.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch05-fig-q5",
     subject: "Biology",
     chapter: "Morphology of Flowering Plants",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "Identify types of inflorescence shown in figure: A (Cymose - determinate), B (Racemose - indeterminate):",
+    questionText: "Inflorescence types: In type A, main axis continues to grow and flowers are borne laterally in acropetal succession. In type B, main axis terminates in a flower and has limited growth. A and B are respectively:",
     options: ["A: Cymose, B: Racemose", "A: Racemose, B: Cymose", "A: Racemose, B: Racemose", "A: Cymose, B: Cymose"],
     correctAnswer: 1,
-    explanation: "A = Racemose (acropetal lateral flowers), B = Cymose (apical flower termination).",
+    explanation: "In racemose inflorescence (A), the main axis continues to grow indeterminate with acropetal succession. In cymose inflorescence (B), the main axis terminates in a flower with basipetal succession.",
     tags: ["NCERT at your Fingertips", "Morphology of Flowering Plants", "Class 11"]
   },
   {
@@ -11581,16 +11602,35 @@ export const FINGERTIPS_BIO_CH06_MCQS: Question[] = [
     explanation: "Meristems consist of undifferentiated, thin-walled, isodiametric cells capable of continuous division.",
     tags: ["NCERT at your Fingertips", "Anatomy of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch06-mcq-q8",
     subject: "Biology",
     chapter: "Anatomy of Flowering Plants",
     topic: "Tissues, Tissue Systems, Dicot/Monocot Anatomy, Secondary Growth",
     difficulty: "Medium",
-    questionText: "Identify the given figure of shoot apex and select the correct option for A (Leaf primordium), B (Shoot apical meristem), C (Axillary bud):",
+    questionText: "Identify the given figure of shoot apex and select the correct option for labels A, B, and C:",
     options: ["A: Leaf primordium, B: Shoot apical meristem, C: Apical bud", "A: Leaf primordium, B: Shoot apical meristem / Meristematic zone, C: Axillary bud", "A: Root hair, B: Root apical meristem, C: Axillary bud", "A: Root hair, B: Root apical meristem, C: Apical bud"],
     correctAnswer: 1,
-    explanation: "A = Leaf primordium, B = Shoot apical meristem, C = Axillary bud left behind during shoot elongation.",
+    diagramSvg: `<svg viewBox="0 0 380 260" class="w-full max-w-sm mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="260" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="190" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Shoot Apical Meristem (L.S.)</text>
+  <path d="M 90,170 Q 100,70 140,50 Q 150,80 155,130" fill="#BBF7D0" stroke="#16A34A" stroke-width="2"/>
+  <text x="60" y="60" font-size="13" font-weight="bold" fill="#16A34A">A</text>
+  <line x1="75" y1="60" x2="120" y2="70" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="40" y="45" font-size="10" fill="#16A34A">Leaf primordium</text>
+  <path d="M 290,170 Q 280,70 240,50 Q 230,80 225,130" fill="#BBF7D0" stroke="#16A34A" stroke-width="2"/>
+  <path d="M 155,130 Q 190,75 225,130 L 225,230 L 155,230 Z" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+  <circle cx="190" cy="98" r="4" fill="#2563EB"/>
+  <text x="190" y="42" text-anchor="middle" font-size="13" font-weight="bold" fill="#2563EB">B</text>
+  <line x1="190" y1="48" x2="190" y2="90" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="190" y="115" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E40AF">SAM Dome</text>
+  <circle cx="130" cy="165" r="7" fill="#FDE047" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="50" y="168" font-size="13" font-weight="bold" fill="#CA8A04">C</text>
+  <line x1="65" y1="165" x2="120" y2="165" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="50" y="183" font-size="10" fill="#854D0E">Axillary bud</text>
+  <text x="190" y="248" text-anchor="middle" font-size="10.5" fill="#475569">A: Leaf primordium, B: Shoot apical meristem, C: Axillary bud</text>
+</svg>`,
+    explanation: "A = Leaf primordium forming at the flanks, B = Shoot apical meristem occupying the tip of the stem axis, C = Axillary bud cells left behind during shoot elongation.",
     tags: ["NCERT at your Fingertips", "Anatomy of Flowering Plants", "Class 11"]
   },
   {
@@ -11725,16 +11765,16 @@ export const FINGERTIPS_BIO_CH06_MCQS: Question[] = [
     explanation: "All four statements are accurate facts regarding simple plant tissues.",
     tags: ["NCERT at your Fingertips", "Anatomy of Flowering Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch06-mcq-q20",
     subject: "Biology",
     chapter: "Anatomy of Flowering Plants",
     topic: "Tissues, Tissue Systems, Dicot/Monocot Anatomy, Secondary Growth",
     difficulty: "Medium",
-    questionText: "Given figure shows sclerenchyma fibre with tapering pointed ends and narrow lumen. It represents:",
-    options: ["companion cell", "sieve tube element", "xylem vessel", "sclerenchyma fibre / xylem tracheid."],
-    correctAnswer: 2,
-    explanation: "The elongated, thick-walled, pitted dead cell represents a sclerenchymatous fibre / tracheid.",
+    questionText: "An elongated, thick-walled, lignified plant cell with tapering pointed ends, a narrow obliterated lumen, and bordered pits represents a:",
+    options: ["companion cell", "sieve tube element", "xylem vessel element", "sclerenchyma fibre / xylem tracheid."],
+    correctAnswer: 3,
+    explanation: "Sclerenchyma fibres and xylem tracheids are elongated, narrow, thick-walled cells with lignified secondary walls and tapering pointed ends.",
     tags: ["NCERT at your Fingertips", "Anatomy of Flowering Plants", "Class 11"]
   },
   {
@@ -18402,16 +18442,16 @@ export const FINGERTIPS_BIO_CH08_EXAM_SCORER: Question[] = [
     explanation: "Chloroplasts are photosynthetic green plastids; chromoplasts are yellow/red.",
     tags: ["NCERT at your Fingertips", "Cell: The Unit of Life", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch08-case-q3",
     subject: "Biology",
     chapter: "Cell: The Unit of Life",
     topic: "Case Based Questions",
     difficulty: "Hard",
-    questionText: "Case 1: The given figure is involved mainly in the process of:",
+    questionText: "In eukaryotic plant cells, the chloroplast organelle is involved primarily in the process of:",
     options: ["photosynthesis", "respiration", "formation of glycoproteins", "formation of glycolipids."],
     correctAnswer: 0,
-    explanation: "Chloroplasts perform photosynthetic carbon fixation and light reactions.",
+    explanation: "Chloroplasts contain chlorophyll pigments and carotenoids responsible for trapping light energy essential for photosynthesis.",
     tags: ["NCERT at your Fingertips", "Cell: The Unit of Life", "Class 11"]
   },
   {
@@ -18654,16 +18694,16 @@ export const FINGERTIPS_BIO_CH08_EXAM_SCORER: Question[] = [
     explanation: "All listed statements describe the 9+2 axoneme of cilia and flagella.",
     tags: ["NCERT at your Fingertips", "Cell: The Unit of Life", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch08-fig-q9",
     subject: "Biology",
     chapter: "Cell: The Unit of Life",
     topic: "Figure Based Questions",
     difficulty: "Hard",
-    questionText: "In eukaryotic cells, the given figure (80S Ribosome with 60S and 40S subunits) is synthesised in:",
+    questionText: "In eukaryotic cells, the ribosomal RNA and subunits of the 80S ribosome (60S and 40S) are synthesized and assembled in the:",
     options: ["nucleolus", "cytoplasm", "mitochondria", "Golgi complex."],
     correctAnswer: 0,
-    explanation: "Ribosomal RNA and preribosomal subunits are synthesized and assembled in the nucleolus.",
+    explanation: "The nucleolus is the site of active ribosomal RNA (rRNA) synthesis and initial subunit assembly in eukaryotic cells.",
     tags: ["NCERT at your Fingertips", "Cell: The Unit of Life", "Class 11"]
   },
   {
@@ -23300,16 +23340,16 @@ export const FINGERTIPS_BIO_CH10_EXAM_SCORER: Question[] = [
     explanation: "DNA duplicates in S phase ($2C \\rightarrow 4C$) and divides equally into two daughter cells ($2C$ each).",
     tags: ["NCERT at your Fingertips", "Cell Cycle and Cell Division", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch10-archive-q11",
     subject: "Biology",
     chapter: "Cell Cycle and Cell Division",
     topic: "Exam Archive (NEET/AIPMT)",
     difficulty: "Medium",
-    questionText: "A stage in cell division is shown in figure (Telophase): Nuclear envelope reforms, Golgi complex reforms:",
+    questionText: "During which stage of mitosis do chromosomes cluster at opposite spindle poles, while the nuclear envelope, nucleolus, Golgi complex, and ER reform?",
     options: ["Cytokinesis", "Telophase - Endoplasmic reticulum and nucleolus not reformed yet", "Telophase - Nuclear envelope reforms, Golgi complex reforms", "Late anaphase"],
     correctAnswer: 2,
-    explanation: "Telophase features nuclear envelope reconstitution and reassembly of Golgi and ER.",
+    explanation: "At telophase, chromosomes decondense at opposite poles, nuclear envelope develops around the chromosome clusters, and nucleolus, Golgi complex, and ER reform.",
     tags: ["NCERT at your Fingertips", "Cell Cycle and Cell Division", "Class 11"]
   },
   {
@@ -25335,16 +25375,16 @@ export const FINGERTIPS_BIO_CH11_EXAM_SCORER: Question[] = [
     explanation: "A = PS II, B = Primary electron acceptor, C = Cytochrome ETS, D = PS I, E = Reduced NADPH.",
     tags: ["NCERT at your Fingertips", "Photosynthesis in Higher Plants", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch11-fig-q6",
     subject: "Biology",
     chapter: "Photosynthesis in Higher Plants",
     topic: "Figure Based Questions",
     difficulty: "Hard",
-    questionText: "Given diagram shows cyclic electron flow in PS I producing ATP only:",
+    questionText: "The photosynthetic electron transport process involving only Photosystem I (P700) where electrons cycle back through the ETS producing ATP without NADPH or O₂ generation is:",
     options: ["$C_3$ cycle", "Cyclic photophosphorylation", "Non-cyclic photophosphorylation", "Z-scheme"],
     correctAnswer: 1,
-    explanation: "The diagram depicts cyclic photophosphorylation around PS I ($P_{700}$).",
+    explanation: "When only PS I is functional (in stroma lamellae membranes lacking PS II and NADP reductase), electrons cycle back to PS I through the ETS, resulting in cyclic photophosphorylation producing only ATP.",
     tags: ["NCERT at your Fingertips", "Photosynthesis in Higher Plants", "Class 11"]
   },
   {
@@ -39369,16 +39409,16 @@ export const FINGERTIPS_BIO_CH17_EXAM_SCORER: Question[] = [
     explanation: "A = Troponin, B = Tropomyosin, C = F-actin.",
     tags: ["NCERT at your Fingertips", "Locomotion and Movement", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch17-fig-q5",
     subject: "Biology",
     chapter: "Locomotion and Movement",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "The given figure represents:",
-    options: ["myosin polymer", "actin polymer", "myosin monomer (Meromyosin with globular head, short arm, and tail)", "actin monomer."],
+    questionText: "A monomeric subunit of the muscle thick filament (myosin) consisting of a globular head with ATPase activity, a short arm, and a tail represents:",
+    options: ["myosin polymer", "actin polymer", "meromyosin monomer", "actin monomer."],
     correctAnswer: 2,
-    explanation: "A single meromyosin molecule (HMM and LMM).",
+    explanation: "Each myosin molecule is composed of many monomeric proteins called meromyosins. Each meromyosin has two parts: Heavy Meromyosin (HMM: globular head + short arm) and Light Meromyosin (LMM: tail).",
     tags: ["NCERT at your Fingertips", "Locomotion and Movement", "Class 11"]
   },
   {
@@ -43319,16 +43359,16 @@ export const FINGERTIPS_BIO_CH19_EXAM_SCORER: Question[] = [
     explanation: "P-(b, ii), Q-(d, iii), R-(a, iv), S-(c, i).",
     tags: ["NCERT at your Fingertips", "Chemical Coordination and Integration", "Class 11"]
   },
-  {
+    {
     id: "ft-bio-ch19-multi-q2",
     subject: "Biology",
     chapter: "Chemical Coordination and Integration",
     topic: "Multidimensional Questions",
     difficulty: "Medium",
-    questionText: "Target sites and metabolic actions shown in figures: Glucose transport, Glycogen synthesis, Lipogenesis, Protein synthesis: Characterises:",
-    options: ["(a) the major target sites and the metabolic actions of the anabolic hormone secreted by the beta cells of heterocrine gland (Insulin).", "(b)", "(c)", "(d)"],
+    questionText: "Stimulation of cellular glucose uptake, glycogen synthesis (glycogenesis), lipogenesis, and protein synthesis in liver, adipose, and muscle cells characterizes the actions of:",
+    options: ["Insulin secreted by beta cells of islets of Langerhans", "Glucagon secreted by alpha cells of pancreas", "Cortisol secreted by adrenal cortex", "Epinephrine secreted by adrenal medulla"],
     correctAnswer: 0,
-    explanation: "Insulin anabolic stimulation in liver, adipose, and skeletal muscle.",
+    explanation: "Insulin is a peptide hormone secreted by beta cells of the islets of Langerhans that stimulates glycogenesis, glucose transport, and anabolic lipid/protein storage.",
     tags: ["NCERT at your Fingertips", "Chemical Coordination and Integration", "Class 11"]
   },
   {
@@ -45882,16 +45922,16 @@ export const FINGERTIPS_BIO_C12_CH01_EXAM_SCORER: Question[] = [
     explanation: "A = Antipodals, B = Synergids, C = Egg cell, D = Filiform apparatus.",
     tags: ["NCERT at your Fingertips", "Sexual Reproduction in Flowering Plants", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch01-fig-q4",
     subject: "Biology",
     chapter: "Sexual Reproduction in Flowering Plants",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "The given figure represents plant with chasmogamous and cleistogamous flowers:",
+    questionText: "Which of the following plants produces both chasmogamous (open) flowers and cleistogamous (invariable closed autogamous) flowers?",
     options: ["*Helianthus*", "*Commelina* (*Commelina benghalensis*)", "*Rosa*", "*Gossypium*."],
     correctAnswer: 1,
-    explanation: "*Commelina* bears both aerial chasmogamous and subterranean cleistogamous flowers.",
+    explanation: "Plants such as Viola (common pansy), Oxalis, and Commelina produce two types of flowers: chasmogamous flowers (open with exposed anthers and stigma) and cleistogamous flowers (never open, ensuring seed-set even in the absence of pollinators).",
     tags: ["NCERT at your Fingertips", "Sexual Reproduction in Flowering Plants", "Class 12"]
   },
   {
@@ -46398,18 +46438,37 @@ export const FINGERTIPS_BIO_C12_CH01_EXAM_SCORER: Question[] = [
     explanation: "Sporopollenin preserves fossilized pollen wall architectures intact for millions of years.",
     tags: ["NCERT at your Fingertips", "Sexual Reproduction in Flowering Plants", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch01-archive-q30",
     subject: "Biology",
     chapter: "Sexual Reproduction in Flowering Plants",
     topic: "Exam Archive (NEET/AIPMT)",
     difficulty: "Hard",
-    questionText: "Which part of the fruit, labelled in the given figure (Apple) makes it a FALSE FRUIT?",
-    options: ["A -> Mesocarp", "B -> Endocarp", "C -> Thalamus (Swollen floral receptacle C forms edible flesh).", "D -> Seed."],
+    questionText: "Which part of the fruit, labelled in the given figure of apple, makes it a FALSE FRUIT?",
+    options: ["A -> Mesocarp", "B -> Endocarp", "C -> Thalamus (Swollen floral receptacle forms edible flesh)", "D -> Seed"],
     correctAnswer: 2,
-    explanation: "Thalamus (C) contributes to the flesh of false fruits.",
+    diagramSvg: `<svg viewBox="0 0 380 260" class="w-full max-w-sm mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="260" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="190" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">L.S. of Apple (False Fruit)</text>
+  <path d="M 190,45 Q 185,30 175,25" fill="none" stroke="#78350F" stroke-width="4"/>
+  <path d="M 190,55 C 130,50 80,90 85,150 C 90,200 130,235 190,235 C 250,235 290,200 295,150 C 300,90 250,50 190,55 Z" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <ellipse cx="190" cy="150" rx="45" ry="55" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.5"/>
+  <ellipse cx="178" cy="145" rx="7" ry="12" fill="#78350F" transform="rotate(-15, 178, 145)"/>
+  <ellipse cx="202" cy="145" rx="7" ry="12" fill="#78350F" transform="rotate(15, 202, 145)"/>
+  <text x="40" y="110" font-size="13" font-weight="bold" fill="#DC2626">C</text>
+  <line x1="55" y1="107" x2="120" y2="107" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="40" y="125" font-size="10" font-weight="bold" fill="#DC2626">Thalamus (Flesh)</text>
+  <text x="320" y="115" font-size="13" font-weight="bold" fill="#CA8A04">B</text>
+  <line x1="315" y1="112" x2="230" y2="125" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="320" y="130" font-size="10" fill="#854D0E">Endocarp</text>
+  <text x="320" y="165" font-size="13" font-weight="bold" fill="#78350F">D</text>
+  <line x1="315" y1="162" x2="210" y2="150" stroke="#78350F" stroke-width="1.5"/>
+  <text x="320" y="180" font-size="10" fill="#78350F">Seed</text>
+  <text x="190" y="250" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#475569">Edible fleshy false fruit flesh develops from C (Thalamus)</text>
+</svg>`,
+    explanation: "In apple, strawberry, and cashew, the floral thalamus (receptacle) contributes to fruit formation alongside the ovary wall, categorizing them as false fruits (pseudocarps).",
     tags: ["NCERT at your Fingertips", "Sexual Reproduction in Flowering Plants", "Class 12"]
-  },
+  }
 ];
 
 // CLASS 12 CHAPTER 02: HUMAN REPRODUCTION (224 Qs)
@@ -48961,16 +49020,16 @@ export const FINGERTIPS_BIO_C12_CH02_EXAM_SCORER: Question[] = [
     explanation: "Endometrium (C) sloughs and regenerates cyclically.",
     tags: ["NCERT at your Fingertips", "Human Reproduction", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch02-fig-q5",
     subject: "Biology",
     chapter: "Human Reproduction",
     topic: "Figure Based Questions",
     difficulty: "Medium",
-    questionText: "The given figure represents:",
-    options: ["sectional view of ovary", "sectional view of seminiferous tubule (Showing spermatogonia, spermatocytes, spermatids, sperms, Sertoli cells)", "L.S. of testis", "mature Graafian follicle."],
+    questionText: "A histological cross-section displaying spermatogonia, primary and secondary spermatocytes, spermatids, mature spermatozoa, and Sertoli nursing cells represents a:",
+    options: ["sectional view of ovary", "sectional view of seminiferous tubule", "L.S. of testis", "mature Graafian follicle."],
     correctAnswer: 1,
-    explanation: "Sectional view of a mammalian seminiferous tubule.",
+    explanation: "Each seminiferous tubule is lined on its inside by two types of cells: male germ cells (spermatogonia undergoing spermatogenesis) and Sertoli cells.",
     tags: ["NCERT at your Fingertips", "Human Reproduction", "Class 12"]
   },
   {
@@ -49889,16 +49948,16 @@ export const FINGERTIPS_BIO_C12_CH03_MCQS: Question[] = [
     explanation: "Statements (i) and (ii) are factually incorrect.",
     tags: ["NCERT at your Fingertips", "Reproductive Health", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch03-mcq-q51",
     subject: "Biology",
     chapter: "Reproductive Health",
     topic: "Problems and Strategies, Population Explosion, Birth Control & Contraception, MTP, STIs, Infertility & ART",
     difficulty: "Hard",
-    questionText: "What does the given figure represent? [Vas deferens cut and tied in scrotum]:",
-    options: ["Ovarian cancer", "Uterine cancer", "Tubectomy", "Vasectomy (Male surgical sterilisation)."],
+    questionText: "The surgical sterilization procedure in males wherein a small portion of the vas deferens is removed or tied up through a small incision on the scrotum is called:",
+    options: ["Oophorectomy", "Hysterectomy", "Tubectomy", "Vasectomy."],
     correctAnswer: 3,
-    explanation: "Vasectomy.",
+    explanation: "In vasectomy, a small part of the vas deferens is removed or tied up through a small incision on the scrotum to block gamete transport.",
     tags: ["NCERT at your Fingertips", "Reproductive Health", "Class 12"]
   },
   {
@@ -56326,16 +56385,29 @@ export const FINGERTIPS_BIO_C12_CH05_EXAM_SCORER: Question[] = [
     explanation: "K = 5' end, L = Hydrogen bond, M = Adenine, N = Deoxyribose sugar.",
     tags: ["NCERT at your Fingertips", "Molecular Basis of Inheritance", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch05-fig-q3",
     subject: "Biology",
     chapter: "Molecular Basis of Inheritance",
     topic: "Figure Based Questions",
     difficulty: "Hard",
-    questionText: "What does the given diagram represent? [Histone octamer core wrapped by DNA]:",
-    options: ["Nucleosome", "Chromatin", "Histone complex", "BOTH (a) AND (b) (Nucleosome bead / structural unit of chromatin)."],
-    correctAnswer: 3,
-    explanation: "Nucleosome core particle in chromatin.",
+    questionText: "What does the given diagram of a histone octamer core wrapped by DNA and sealed by H1 histone represent?",
+    options: ["Nucleosome core particle", "Centrosome", "Spliceosome", "Ribosome subunit."],
+    correctAnswer: 0,
+    diagramSvg: `<svg viewBox="0 0 380 230" class="w-full max-w-sm mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="230" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="190" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Nucleosome Core Particle</text>
+  <ellipse cx="190" cy="115" rx="65" ry="45" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="190" y="112" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E40AF">Histone Octamer</text>
+  <text x="190" y="128" text-anchor="middle" font-size="9" fill="#1D4ED8">(H2A, H2B, H3, H4) × 2</text>
+  <path d="M 60,150 C 100,175 140,165 190,165 C 245,165 275,145 275,115 C 275,80 220,70 190,70 C 140,70 115,90 115,115 C 115,145 150,160 190,160 C 235,160 270,140 320,165" fill="none" stroke="#DC2626" stroke-width="4.5"/>
+  <text x="60" y="140" font-size="10" font-weight="bold" fill="#DC2626">DNA double helix</text>
+  <text x="60" y="170" font-size="9" fill="#B91C1C">~1.65 turns (146-200 bp)</text>
+  <rect x="235" y="135" width="18" height="35" rx="4" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="260" y="155" font-size="11" font-weight="bold" fill="#854D0E">H1 Histone</text>
+  <text x="190" y="215" text-anchor="middle" font-size="10.5" fill="#475569">Bead-on-a-string structural unit of eukaryotic chromatin</text>
+</svg>`,
+    explanation: "A nucleosome consists of negatively charged DNA wrapped around a positively charged histone octamer (two molecules each of H2A, H2B, H3, and H4).",
     tags: ["NCERT at your Fingertips", "Molecular Basis of Inheritance", "Class 12"]
   },
   {
@@ -58649,16 +58721,16 @@ export const FINGERTIPS_BIO_C12_CH06_EXAM_SCORER: Question[] = [
     explanation: "X = *Archaeopteryx*, Y = *Tyrannosaurus*, Z = *Pteranodon*.",
     tags: ["NCERT at your Fingertips", "Evolution", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch06-fig-q3",
     subject: "Biology",
     chapter: "Evolution",
     topic: "Figure Based Questions",
     difficulty: "Hard",
-    questionText: "The given figure shows an example of: [Thorns of *Bougainvillea* and tendrils of *Cucurbita*]:",
-    options: ["HOMOLOGOUS ORGANS (Both are modified axillary buds / Divergent evolution)", "convergent evolution", "divergent evolution", "BOTH (a) AND (c)."],
-    correctAnswer: 3,
-    explanation: "Thorns and tendrils are homologous organs illustrating divergent evolution.",
+    questionText: "Thorns of *Bougainvillea* and tendrils of *Cucurbita* are both modified axillary buds adapted for defence and climbing respectively. They represent an example of:",
+    options: ["Homologous organs resulting from divergent evolution", "Analogous organs resulting from convergent evolution", "Vestigial organs", "Atavism."],
+    correctAnswer: 0,
+    explanation: "Thorns of Bougainvillea and tendrils of Cucurbita share the same basic anatomical origin (modified axillary buds) but perform different functions, exemplifying homology and divergent evolution.",
     tags: ["NCERT at your Fingertips", "Evolution", "Class 12"]
   },
   {
@@ -60273,16 +60345,16 @@ export const FINGERTIPS_BIO_C12_CH07_MCQS: Question[] = [
     explanation: "Barbiturates are sedatives and hypnotics that depress the central nervous system.",
     tags: ["NCERT at your Fingertips", "Human Health and Disease", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch07-mcq-q100",
     subject: "Biology",
     chapter: "Human Health and Disease",
     topic: "Pathogens, Bacterial/Viral/Protozoan/Helminthic/Fungal Diseases, Typhoid/Malaria Cycle, Innate/Acquired Immunity, Antibodies, Lymphoid Organs, Vaccines, Allergies, Autoimmunity, AIDS, Cancer, Drugs/Alcohol Abuse",
     difficulty: "Medium",
-    questionText: "Chemical structure of CANNABINOID molecule shown in figure: Member of the group of chemicals is:",
-    options: ["Marijuana", "Hashish", "Ganja", "ALL OF THESE (Marijuana, Hashish, Charas, and Ganja are all cannabinoid derivatives)."],
+    questionText: "Cannabinoid receptors are principally located in the brain. Which of the following drugs are obtained from the inflorescences of the plant *Cannabis sativa*?",
+    options: ["Marijuana", "Hashish and Charas", "Ganja", "All of these."],
     correctAnswer: 3,
-    explanation: "All listed drugs are cannabinoids derived from *Cannabis sativa*.",
+    explanation: "Natural cannabinoids are obtained from the inflorescences of Cannabis sativa. The flower tops, leaves, and resin are used in various combinations to produce marijuana, hashish, charas, and ganja.",
     tags: ["NCERT at your Fingertips", "Human Health and Disease", "Class 12"]
   },
   {
@@ -61600,16 +61672,16 @@ export const FINGERTIPS_BIO_C12_CH08_MCQS: Question[] = [
     explanation: "Prions are proteinaceous infectious sub-viral agents.",
     tags: ["NCERT at your Fingertips", "Microbes in Human Welfare", "Class 12"]
   },
-  {
+    {
     id: "ft-bio-c12-ch08-mcq-q3",
     subject: "Biology",
     chapter: "Microbes in Human Welfare",
     topic: "Household Products (LAB, Cheese, Toddy), Industrial Fermentation (Beverages, Antibiotics, Organic Acids, Enzymes, Statins, Cyclosporin A), Sewage Treatment (Primary/Secondary Flocs, BOD, Activated Sludge), Biogas (Methanogens), Biocontrol (Bt, NPV, Trichoderma), Biofertilisers (Rhizobium, Mycorrhizae, Cyanobacteria)",
     difficulty: "Hard",
-    questionText: "Refer to the given figure of petri dishes and select the correct option:\n(A) Bacterial colony, (B) Fungal colony:",
-    options: ["A-Fungal colony, B-Bacterial colony", "A-Viral colony, B-Bacterial colony", "A-BACTERIAL COLONY, B-FUNGAL COLONY", "A-Bacterial colony, B-Fungal colony."],
+    questionText: "When cultured on nutrient agar plates, (A) smooth, circular colonies with distinct margins and (B) filamentous, fuzzy, mycelial growths represent:",
+    options: ["A - Fungal colony, B - Bacterial colony", "A - Viral colony, B - Bacterial colony", "A - Bacterial colony, B - Fungal colony", "A - Microscopic protozoans, B - Algal colonies."],
     correctAnswer: 2,
-    explanation: "Dish A contains smooth bacterial colonies; Dish B shows filamentous fungal mycelia.",
+    explanation: "Bacteria grow on solid media as distinct circular smooth/mucoid colonies, whereas molds/fungi form extensive filamentous fuzzy mycelial mats.",
     tags: ["NCERT at your Fingertips", "Microbes in Human Welfare", "Class 12"]
   },
   {

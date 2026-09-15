@@ -1039,10 +1039,38 @@ export const ELECTROSTATICS_BOOK_QUESTIONS: Question[] = [
     chapter: "Electrostatics",
     topic: "General Practice",
     difficulty: "Medium",
-    questionText: "A mass of 100 g strikes the wall with speed 5 m/s at an angle of 60\u00b0 (as shown in figure) and it rebounds with the same speed. If the contact time is 2\u00d710\u207b\u00b3 s, what is the force applied on the mass by the wall?",
-    options: ["250\u221a3 N to right", "250 N to right", "250\u221a3 N to left", "250 N to left"],
+    questionText: "A mass of 100 g strikes the wall with speed 5 m/s at an angle of 60° (as shown in figure) and it rebounds with the same speed. If the contact time is 2×10⁻³ s, what is the force applied on the mass by the wall?",
+    options: ["250√3 N to right", "250 N to right", "250√3 N to left", "250 N to left"],
     correctAnswer: 0,
-    explanation: "Detailed solution for Electrostatics Q88.",
+    diagramSvg: `<svg viewBox="0 0 420 220" class="w-full max-w-md mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="220" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="210" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Elastic Collision with Vertical Wall (Q88)</text>
+  <rect x="60" y="40" width="16" height="150" fill="#64748B" rx="2"/>
+  <line x1="60" y1="50" x2="50" y2="60" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="70" x2="50" y2="80" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="90" x2="50" y2="100" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="110" x2="50" y2="120" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="130" x2="50" y2="140" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="150" x2="50" y2="160" stroke="#475569" stroke-width="1.5"/>
+  <line x1="60" y1="170" x2="50" y2="180" stroke="#475569" stroke-width="1.5"/>
+  <line x1="76" y1="115" x2="320" y2="115" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="325" y="119" font-size="11" fill="#64748B">Normal</text>
+  <line x1="220" y1="58" x2="80" y2="113" stroke="#2563EB" stroke-width="2.5"/>
+  <polygon points="145,84 157,91 143,94" fill="#2563EB"/>
+  <circle cx="200" cy="66" r="10" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.5"/>
+  <text x="215" y="60" font-size="11" font-weight="bold" fill="#1D4ED8">m = 100g, v = 5 m/s</text>
+  <line x1="80" y1="117" x2="220" y2="172" stroke="#16A34A" stroke-width="2.5"/>
+  <polygon points="155,143 150,154 140,146" fill="#16A34A"/>
+  <circle cx="200" cy="164" r="10" fill="#22C55E" stroke="#15803D" stroke-width="1.5"/>
+  <text x="215" y="176" font-size="11" font-weight="bold" fill="#15803D">v = 5 m/s</text>
+  <path d="M 76,85 A 30,30 0 0,1 92,97" fill="none" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="96" y="90" font-size="11" font-weight="bold" fill="#DC2626">60°</text>
+  <line x1="76" y1="115" x2="130" y2="115" stroke="#DC2626" stroke-width="3"/>
+  <polygon points="126,110 138,115 126,120" fill="#DC2626"/>
+  <text x="142" y="119" font-size="11" font-weight="bold" fill="#DC2626">F (to right)</text>
+  <text x="210" y="205" text-anchor="middle" font-size="10.5" fill="#475569">Δp = 2mv·sin(60°) = 2(0.1)(5)(√3/2) = √3/2 kg·m/s ⟹ F = Δp / Δt = 250√3 N (Right)</text>
+</svg>`,
+    explanation: "The velocity component perpendicular to the wall is v_x = v sin(60°) = 5 × (√3/2) m/s directed towards the left. Upon rebound, it reverses to v_x = +5 × (√3/2) m/s directed towards the right.\nChange in momentum: Δp = m(v_x - (-v_x)) = 2 m v sin(60°) = 2 × 0.1 kg × 5 × (√3/2) = √3/2 kg·m/s.\nForce applied by the wall: F = Δp / Δt = (√3/2) / (2 × 10⁻³ s) = 250√3 N directed away from the wall (to the right).",
     tags: ["General Practice"]
   },
   {

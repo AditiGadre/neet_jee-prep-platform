@@ -1233,8 +1233,46 @@ export const MAGNETISM_BOOK_QUESTIONS: Question[] = [
     difficulty: "Medium",
     questionText: "An inductor L, a resistance R, and two identical bulbs B1 and B2 are connected to a battery through a switch S as shown in the figure. The resistance R is the same as that of the coil that makes L. Which of the following statements gives the correct description of the happenings when the switch S is closed? [NEET 2027 Target]",
     options: ["The bulb B2 lights up earlier than B1 and finally both the bulbs shine equally bright", "B1 lights up earlier and finally both the bulbs acquire equal brightness", "B2 lights up earlier and finally B1 shines brighter than B2", "B1 and B2 light up together with equal brightness all the time"],
-    correctAnswer: 2,
-    explanation: "Detailed solution for Magnetism Q102.",
+    correctAnswer: 0,
+    diagramSvg: `<svg viewBox="0 0 440 230" class="w-full max-w-md mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <rect width="440" height="230" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="220" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#0F172A">Inductive Circuit Transient Response (Q102)</text>
+  <line x1="60" y1="70" x2="60" y2="150" stroke="#1E293B" stroke-width="2"/>
+  <line x1="60" y1="70" x2="110" y2="70" stroke="#1E293B" stroke-width="2"/>
+  <path d="M 110,70 Q 120,50 130,70 Q 140,50 150,70 Q 160,50 170,70 Q 180,50 190,70" fill="none" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="150" y="48" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563EB">L (Coil, res. R)</text>
+  <line x1="190" y1="70" x2="260" y2="70" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="280" cy="70" r="14" fill="#FEF08A" stroke="#CA8A04" stroke-width="2"/>
+  <line x1="272" y1="62" x2="288" y2="78" stroke="#854D0E" stroke-width="1.5"/>
+  <line x1="272" y1="78" x2="288" y2="62" stroke="#854D0E" stroke-width="1.5"/>
+  <text x="280" y="48" text-anchor="middle" font-size="11" font-weight="bold" fill="#854D0E">Bulb B₁</text>
+  <line x1="294" y1="70" x2="380" y2="70" stroke="#1E293B" stroke-width="2"/>
+  <line x1="60" y1="150" x2="110" y2="150" stroke="#1E293B" stroke-width="2"/>
+  <path d="M 110,150 L 120,140 L 130,160 L 140,140 L 150,160 L 160,140 L 170,160 L 180,140 L 190,150" fill="none" stroke="#DC2626" stroke-width="2.5"/>
+  <text x="150" y="178" text-anchor="middle" font-size="11" font-weight="bold" fill="#DC2626">Resistor R</text>
+  <line x1="190" y1="150" x2="260" y2="150" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="280" cy="150" r="14" fill="#FEF08A" stroke="#CA8A04" stroke-width="2"/>
+  <line x1="272" y1="142" x2="288" y2="158" stroke="#854D0E" stroke-width="1.5"/>
+  <line x1="272" y1="158" x2="288" y2="142" stroke="#854D0E" stroke-width="1.5"/>
+  <text x="280" y="178" text-anchor="middle" font-size="11" font-weight="bold" fill="#854D0E">Bulb B₂</text>
+  <line x1="294" y1="150" x2="380" y2="150" stroke="#1E293B" stroke-width="2"/>
+  <line x1="380" y1="70" x2="380" y2="150" stroke="#1E293B" stroke-width="2"/>
+  <line x1="60" y1="110" x2="30" y2="110" stroke="#1E293B" stroke-width="2"/>
+  <line x1="30" y1="110" x2="30" y2="205" stroke="#1E293B" stroke-width="2"/>
+  <line x1="30" y1="205" x2="160" y2="205" stroke="#1E293B" stroke-width="2"/>
+  <line x1="160" y1="195" x2="160" y2="215" stroke="#1E293B" stroke-width="3"/>
+  <line x1="170" y1="199" x2="170" y2="211" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="165" y="190" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E293B">+  E  −</text>
+  <line x1="170" y1="205" x2="260" y2="205" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="260" cy="205" r="3" fill="#1E293B"/>
+  <line x1="260" y1="205" x2="282" y2="194" stroke="#1E293B" stroke-width="2.5"/>
+  <circle cx="285" cy="205" r="3" fill="#1E293B"/>
+  <text x="270" y="188" font-size="11" font-weight="bold" fill="#1E293B">S</text>
+  <line x1="285" y1="205" x2="410" y2="205" stroke="#1E293B" stroke-width="2"/>
+  <line x1="410" y1="205" x2="410" y2="110" stroke="#1E293B" stroke-width="2"/>
+  <line x1="410" y1="110" x2="380" y2="110" stroke="#1E293B" stroke-width="2"/>
+</svg>`,
+    explanation: "Immediately upon closing switch S (t = 0), the self-inductance of coil L opposes growth of current (back emf e = -L di/dt), so branch current i₁ starts from zero and increases exponentially: i₁(t) = (E/R_total)(1 - e^(-t/τ)).\nIn contrast, the branch containing pure resistor R and bulb B₂ has no inductance, so i₂ reaches its steady value almost instantaneously. Thus, B₂ lights up earlier.\nIn the steady state (t → ∞), the back emf becomes zero and inductor L behaves as an ordinary conductor with resistance R. Because the resistance of coil L equals R, both branches offer identical total resistance, carrying equal currents. Hence, both bulbs eventually acquire equal brightness.",
     tags: ["General Practice"]
   },
   {
