@@ -1,0 +1,6302 @@
+[
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q1",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect statement regarding early experiments on photosynthesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Priestley experiment revealed the essential role  of air in growth of green plant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ingenhousz showed that sunlight is essential  to the plant process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is green parts of the plants that could release  oxygen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Von Sachs provided evidence for production of  carbon dioxide when plants grow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q2",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "There is clear division of labour within the chloroplast. The membrane system is responsible for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trapping of light energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conversion of CO2 into glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Consumption of ATP and NADPH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Providing site for dark reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q3",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following occurs when light of wavelengths only beyond 680 nm are available for excitation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclic photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Non-cyclic photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Splitting of water into H+ and OH–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q4",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The first product of dicarboxylic acid cycle in a C4-plant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RUBP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PGA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Malic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q5",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The number of ATP required for phosphorylation to form a RUBP during regeneration steps is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q6",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which photosynthetic pigments play a protective role by absorbing the excess light and diverting it away from chlorophyll?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phycobilins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carotenoids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phycocyanin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phycoerythrin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q7",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The rate of photosynthesis declines under conditions of water stress because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stomatal closure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in CO2 supply",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased leaf water potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High leaf water potential that reduces leaf  expansion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q8",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the incorrect pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pineapple – CAM plant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Euphorbia – C3 and C4 plant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sorghum – C3 plant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maize – C4 plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q9",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In case of cyclic photophosphorylation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Large amount of ATP and small amount of  NADPH + H+ are produced",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Photoexcited electron is finally accepted by PS I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary electron acceptor is phaeophytin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ATP synthesis is affected by DCMU",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q10",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reactions is not involved in C2 cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carboxylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transamination",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decarboxylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q11",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correct w.r.t. cyclic photophosphorylation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Produces ATP only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Operate under low light intensity, low CO2  availability and anaerobic condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "External electron donor is required",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Performed by PS-I independently",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 299,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q12",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The absorption spectra of chlorophyll-a and-b show that they absorb maximum light in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blue-violet and red wavelengths",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Violet and blue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Green and yellow",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Orange and violet",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q13",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Photosystem I",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Has P-680 as reaction centre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Performs non-cyclic photophosphorylation only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is located in non-appressed part of grana  thylakoids as well as stroma thylakoids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hand over its electron to pheophytin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q14",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "PCO cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Brings about assimilation of CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is favoured by high O2 concentration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is an anabolic process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Releases O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q15",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During the electron  transport in the thylakoid membrane which of the following conditions will occur?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase proton concentration in the stroma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in pH in the lumen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Movement of protons from stroma to lumen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inactivation of transmembrane channel of F0 of  ATPase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q16",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement w.r.t. carotenoids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Yellow-orange pigments of lipid nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Helps chlorophyll against photo-oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Raw material is glycine and succinyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "These are components of light harvesting  system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q17",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "All given are characteristic to plants performing cooperative photosynthesis, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thick walled cells of bundle sheath are  surrounded by concentrically arranged mesophyll cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Agranal chloroplast is found located in bundle  sheath cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PEPCo is present in the cytoplasm of  mesophyll cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bundle sheath cells lack RuBisCo",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q18",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "CAM plants differ from C4 plants in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spatial separation of both carboxylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of C3-cycle enzymes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plenty of organic acid synthesis during day",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plenty of carbohydrates synthesis during day",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q19",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many photons, e– and H+ are involved in photolysis of water to evolve two molecules of O2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 photons, 2e–, 2H+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16 photons, 8e–, 8H+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 photons, 4e–, 4H+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 photons, 8e–, 8H+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q20",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "First step of regeneration of RUBP is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Condensation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transketolation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transacetylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q21",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Carotenoids absorb strongly in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Yellow - orange range",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blue - violet range",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Orange - red range",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Complete visible range",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q22",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "One of the following is not a electron carrier in Z-scheme of photophosphorylation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pheophytin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytochrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe–S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plastocyanin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q23",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. development of proton gradient across a membrane in chloroplast during ATP synthesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Transport of H+ from thylakoid lumen to stroma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction of NADP+ on inner surface of  granum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Development of more acidic pH in stroma than  lumen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H+ transport by quinone pump to lumen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q24",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Non-cyclic photophosphorylation  (a) Releases O2, catalysed by OEC present on  outer surface of grana  (b) Has one electron carrier that contains vitamin  K1 (c) Excited electron reduces electron acceptors  FRS, Q and pheophytin respectively  (d) Electron donor, that provides replacement of  electron, is water  From above given statements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) & (b) are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(b) & (d) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a) & (d) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q25",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following substrate acts as connecting link between respiration and photosynthesis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PGA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fumarate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PGAL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-KGA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 300,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q26",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The graph given below shows effect of wavelength on rate of photosynthesis. The relationship between wavelength of light and rate of photosynthesis is called  10  8  6  4  2  400 450 500 550 600 650 700 750 0",
+    "question_diagram": "/images/last_leap_part2/p301_q26.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Warburg’s effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Action spectrum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absorption spectrum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enhancement effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q27",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Serine is converted into hydroxypuruvate in C2-cycle in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q28",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Essentiality of sunlight for photosynthesis was first stated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Priestley",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dutrochet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "de Saussure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Jan Ingenhousz",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q29",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Serine and hydroxypyruvate are produced in ____ and ____ respectively during photorespiration.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mitochondria, peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome and mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloroplast and peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mitochondria and chloroplast",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q30",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a feature of cyclic photophosphorylation ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibited by DCMU and triazines",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Predominant in bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Primary electron acceptor is Fe containing  protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synthesises ATP only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q31",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Primary electron acceptor of PS II is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome b6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plastoquinone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pheophytin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FRS or Fe-S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q32",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many assimilatory power molecules are required for the synthesis of one maltose molecule in a C4 plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12 NADPH + H+ and 18 ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "24 NADPH + H+ and 30 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "24 NADPH + H+ and 36 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 NADPH + H+ and 60 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q33",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many PGA molecules are regenerated from 10 molecules of phosphoglycolate in PCO cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q34",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Chlorophyll synthesis starts from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetyl CoA and lysine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Succinyl CoA and tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OAA and methionine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycine and succinyl CoA  + is involved in the reduction of",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q35",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In C3-cycle, NADPH + H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3-PGA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 3 diPGA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3-PGAL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DHAP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q36",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "CAM plant differs from C4-plant in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary carboxylation site",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary CO2 acceptor molecule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both carboxylations in different cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both carboxylations at different time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q37",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the wrong statement regarding photosystem-II",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The reaction centre is P680",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is located in the non-appressed part of the  grana thylakoids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is associated with oxygen evolving complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Involved only in non-cyclic ETC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q38",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements carefully  a. CO2 compensation point is 25-100 ppm  b. Optimum temperature is 30° – 45°C  c. RuBP is the first acceptor of CO2 d. Fixation of one molecule of CO2 requires 5 ATP and 2 NADPH  Find the correct statements for C4 plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) and (c)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(b) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) and (d)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(b) and (c)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 301,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q39",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "First stable product of PCR cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sedoheptulose-1, 7-diphosphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3-phosphoglyceraldehyde",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3-phosphoglyceric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q40",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "________ is a copper containing blue coloured soluble protein",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pheophytin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plastocyanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bacteriorhodopsin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plastoquinone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q41",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Photolysis of H2O is a feature of eukaryotic green plants. It is carried out by oxygen evolving complex (OEC), a small complex of protein. This complex",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contains two Mn ions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidises one molecule of water to form one  molecule of O2, 4H+ and 2e–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is attached to thylakoid membrane towards  lumen side",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Also contains Cl–, Ca++ and Mg++",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q42",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In light reaction of photosynthesis how many ATP is produced per NADP reduction, when sufficient CO2, O2 and light is available?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q43",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "CF0 – CF1 particles found on thylakoid membrane",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Are not similar to F0 – F1 particles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are concerned with ATP hydrolysis only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Perform facilitated diffusion to produce ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Have no proton channel",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q44",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Some self feeder bacteria show anoxygenic photosynthesis and lack pigment system II. This statement proves that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Splitting of H2O is coupled to PS-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PS-I developed earlier in evolution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PS-II developed earlier in evolution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Splitting of H2O occurs only in eukaryotes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q45",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement regarding cyclic photophosphorylation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only PS-I participates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It works when enough NADPH2 but small ATP  are present",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It works when small NADPH2 and small ATP  are present",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It needs light of longer wavelength (> 680 nm)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q46",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following photosynthetic pigments in increasing order, with respect to molecular weight  A  Chl. a B  Chl. c  C  Xanthophylls D  Carotene",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A  C  D  B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "D  C  B  A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "D  C  A  B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D  B  C  A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q47",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Tetrapyrrolic structure is absent in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phycocyanin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chlorophyll",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phytochrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carotenoids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q48",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct statement with respect to action spectrum of photosynthesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It requires a single exposure to full light",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It requires study of light utilisation at various  wavelengths",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It represents the amount of light of different  wavelengths absorbed by a pigment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It represents the amount of fluorescence",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q49",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In T.W. Engelmann experiment of action spectrum of chlorophyll, bacteria showed",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chemotactic movement",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetotactic movement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aerotactic movement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phototactic movement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q50",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In photosynthesis, photolysis of water is concerned with OEC (O2 evolving complex). This OEC is connected to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PS-II only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PS-I only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PS-I and PS-II both",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NADH-reductase enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q51",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During photosynthetic electron transport in thylakoid membrane, proton gradient is developed during",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uphill journey of electron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Downhill journey of electron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diffusion of H+ through CF0 – CF1 particle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electron transfer from plastocyanin to P700",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q52",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During cyclic photophosphorylation only ATP is synthesised and reduced ferredoxin passes its electron to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plastocyanin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plastoquinone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pheophytin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NADP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q53",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "At low temperature and low light intensity the duration of dark phase in photosynthesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Immediately stops",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 302,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q54",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The primary acceptor molecule of cyclic thermo- chemical phase of CO2 reduction in bryophyte is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RuBisCO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PEP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PEPC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RuBP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q55",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In C4 plants, RuBisCO is found in bundle sheath cells and ETS is completed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mesophyll cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bundle sheath cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesophyll and bundle sheath cells jointly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ETS is absent in C4 plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q56",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In C4 plants, 3-PGA is produced in C3 cycle in bundle sheath cells. This 3-PGA is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Further reduced to PGAL in bundle sheath  cells by NADH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Further reduced to PGAL by NADPH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Used to produce oxaloacetic acid liberating  CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Used to produce pyruvic acid which is changed  to PEP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q57",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement regarding operation of photorespiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It involves 3 organelles present in same cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2 is produced in peroxisome and is  metabolised by catalase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2 is taken up by all 3 organelles which  release CO2 simultaneously",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It requires expenditure of ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q58",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PS-I produces a strong reductant capable of  reducing NADP+ and a weak oxidant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PS-II produces a very strong oxidant capable  of oxidising water and a weaker reductant than PS-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The reductant produced by PS-II re-reduces the  oxidant produced by PS-I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PS-II produces a very strong reductant capable  of reducing NADP+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q59",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Name the process / phenomenon marked as A in diagram below  RuBP CO2 O2  CO2  RuBisCO  3 PGA 2-phosphoglycolate  A  CO2",
+    "question_diagram": "/images/last_leap_part2/p303_q59.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C4 cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C2 cycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reduction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q60",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "PS-I and ATP synthase are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primarily stacked region of thylakoid membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unstacked region of thylakoid mainly protruding  into the stroma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In unstacked region protruding into lumen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both unstacked and stacked region of thylakoid  membrance",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q61",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "When photosynthesis reaches a steady state how many triose phosphates out of the total produced, contributes to regeneration of RuBP ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q62",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In photorespiration, 2 molecules of glycine are converted by glycine decarboxylase, a multienzyme complex to serine, NH4  + and CO2. This ammonia formed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Released to outside as it is toxic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Captured by chloroplast to form amino acids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Converted to serine in mitochondria  – and NO3  –",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gradually oxidised to NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q63",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Under photorespiratory conditions i.e. air with high O2 and low CO2, the photosynthetic efficiency decreases and quantum requirement for CO2 fixation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remain same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Become zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q64",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In C4 plants what is approximate cost of CO2 concentrating mechanism in bundle sheath cells?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q65",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Examine the figure given below and select the wrong option.  A  –  e accceptor  ATP  ADP+iP  B  Chlorophyll  C",
+    "question_diagram": "/images/last_leap_part2/p303_q65.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Present in only grana lamellae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B – Involves down hill movement of electron in  terms of oxidation reduction potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C – Absorbs 700 nm light",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The electrons return back to the reaction center",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 303,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q66",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many extra ATPs are required to form two molecules of glucose in CAM plants as compared to C3 plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "24",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "48",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "72",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q67",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Number of electrons, photons and ATP required for the reduction of 2CO2 molecules in C3-plants are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8e–, 16 photons and 6 ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8e–, 8 photons and 6 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4e–, 8 photons and 6 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8e–, 16 photons and 10 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q68",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The evolution of C4 photosynthetic system is probably one of the strategies for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maximising the availablity of CO2 and  minimising the loss of H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Minimising the loss of O2 and maximising the  availability of H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Minimising the availability of CO2 and  maximising the loss of H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q69",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "First stable product of Melvin Calvin cycle in C4-plants is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Malic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phosphoglyceric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ribulose biphosphate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q70",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which molecule of Calvin cycle can enter RuBP regeneration pathway and also forms hexose sugar?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fructose 1, 6-diphosphate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ribulose – 5–phosphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fructose – 2, 6 – diphosphate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fructose – 6 – phosphate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q71",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column-I Column-II  a. Engelmann (i) Scenedesmus  b. Ruben and Kamen (ii) Stellaria media  c. Calvin (iii) Chlorella  d. Hill (iv) Cladophora",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q72",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "“Kranz anatomy” is present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All photosynthetic plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only C3 plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only succulent plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only C4 plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q73",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following feature of C4 plant shares with CAM plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dark acidification",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mesophyll cell as the site of primary  carboxylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of photoactive stomata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Similar value of transpiration ratio",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q74",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many chlorophyll-a molecules form the reaction center in photosystem-I?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Many",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Six",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q75",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The energy required to pump protons across the thylakoid membrane to produce proton gradient, is provided by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electron transportation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidative phosphorylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q76",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "There is no photorespiration in C4 plants because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell wall of bundle sheath cell is thick and  impervious to gaseous exchange",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High CO2 concentration is maintained in the  bundle sheath cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They grow in tropics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q77",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "CO2 is utilised for the carboxylation of RuBP inside the bundle sheath cells of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maize, Sorghum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tomato, Bell pepper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cacti, Sedum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rice, wheat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q78",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Examine the figure given below and select the right option giving all the three parts (a, b & c) correctly identified.  (b)  (c)  –  e acceptor  NADPH  ADP+iP ATP  –  Light e acceptor  +  NADP  (a)  LHC  LHC  H O 2 2e + 2H + [O] – +   (a) (b) (c)",
+    "question_diagram": "/images/last_leap_part2/p304_q78.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "PS-II ETS PS-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ETS PS-I PS-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PS-I PS-II ETS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ETS PS-II PS-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 304,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q79",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Night acidification occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sugarcane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maize",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pineapple",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mango",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q80",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The first step of photorespiration is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxygenation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Condensation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q81",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Site of C3-cycle in CAM plants is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bundle sheath cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mesophyll cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytoplasm of palisade cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thylakoid membrane of spongy tissue cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q82",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Optimum temperature for C4 plants is higher than C3 plants because high temperature favours",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stomatal opening",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phosphorylation of pyruvate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Synthesis of malic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decarboxylation of malic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q83",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Lamellae of the grana and stroma lamellae are similar in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of carboxydismutase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Absence of OEC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absence of PS-II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of PS-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q84",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the step of Calvin cycle during which carbohydrate is formed at the expense of photochemically made ATP and NADPH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carboxylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Regeneration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycolysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q85",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "RuBP carboxylase-oxygenase enzyme is present in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mesophyll cells of all photosynthetic plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bundle sheath cells of the C3 as well as C4  plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All the mesophyll cells of the C3 plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The lumen of thylakoid in C3 plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q86",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Kalanchoe, pineapple and Sedum are similar in the absence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PCR-cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PEPcase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dark acidification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chloroplast dimorphism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q87",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. C4 plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The bundle sheath cells may form several  layers around the vascular bundle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kranz anatomy is seen in maize, rice, wheat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Large number of chloroplasts are present in the  bundle sheath cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mesophyll is undifferentiated",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q88",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules are required for the synthesis of two sucrose molecules by C4 plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "36",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q89",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During non-cyclic photophosphorylation, electrons extracted from water first pass to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PS II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phaeophytin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OEC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FRS",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q90",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "All given statements are correct w.r.t. chemiosmotic hypothesis of photosynthesis, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photolysis of water produces H+ ions that  accumulate within the lumen of thylakoid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protons are transported across the membrane  from lumen of thylakoid to stroma side of chloroplast, which is carried out by primary acceptor of electrons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conversion of NADP+ to NADPH + H+ removes  protons from the stroma side of chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ATP production occurs towards stroma side of  chloroplast due to movement of protons from lumen side through CF0 – CF1 complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q91",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "CAM plants are not different from C4 plants in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Having scotoactive stomata",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Performing CO2 fixation twice in the same cell  i.e., mesophyll",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Production of dicarboxylic acids in mesophyll  cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lacking dimorphic chloroplast",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q92",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP and NADPH + H+ molecules are required to produce two molecules of maltose in Zea mays plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP = 120; NADPH + H+ = 48",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ATP = 30; NADPH + H+ = 12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP = 72; NADPH + H+ = 48",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ATP = 18; NADPH + H+ = 12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q93",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Photorespiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Does not produce energy and CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Begins when light intensity is very low",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate increases with the age of leaves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Requires carboxylase activity of Rubisco",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 305,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q94",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "‘Reduction’ and ‘regeneration’ steps of Calvin cycle are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Most crucial steps",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NADPH dependent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Present in thylakoid membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Energy dependent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q95",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "CAM plants differ from C4 plants in  a. Twice carboxylation  b. Diurnal separation of carboxylation  c. Having low transpiration ratio  d. Involvement of PEPcase  e. Absence of Kranz anatomy  f. Presence of C3 cycle in chloroplast",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b, c, f are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c, e are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c, e are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, e, f are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q96",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "C3 plants show saturation of photosynthetic process when CO2 concentration is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "About 360 ppm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Beyond 450 ppm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "About 100 ppm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "About 25 ppm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q97",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Photorespiration involves/is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Release of CO2 with utilization of ATP and O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of phosphoglycolate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A wasteful process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q98",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Non-cyclic flow of electrons is not possible in the stroma lamellae because it lacks",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PS-I as well as PS-II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NADP-reductase and PS-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP synthetase and PS-I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome bf complex and PS-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q99",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Internal CO2 concentration and amount of chlorophyll are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Environmental and internal factors respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dependent on the growth of the plant only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "External factors affecting photosynthesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dependent on the genetic predisposition of the  plant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q100",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Accessory pigments of thylakoids  a. Can directly absorb light and transfer the e– to chlorophyll a b. Enable a wider range of wavelength of incoming light to be utilised for photosynthesis c. Protect chlorophyll a from photo-oxidation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only c is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only a is incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q101",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Enzyme involved in the synthesis of reducing agent in Z-scheme is located in /on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Matrix of chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lumen of thylakoid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Outer side of thylakoid membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inner surface of thylakoid membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q102",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "First e– acceptor and the ultimate source of e– in non-cyclic photophosphorylation are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "FRS and PC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pheophytin and NADP+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pheophytin and H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fd and H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q103",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C3 plants – CO2 saturation level at 360  ppm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C4 plants – CO2 saturation level at 450  ppm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CAM plants – Scotoactive stomata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Photorespi- – Favoured by high CO2  ration concentration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q104",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Light dependent uptake of oxygen and output of CO2 without the production of ATP involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose oxidation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycolate oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lipid oxidation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Serine oxidation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q105",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. dicarboxylic acid cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "This pathway is less energy consuming than  the C3 pathway",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary CO2 acceptor is present in mesophyll  cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bundle sheath cells perform non-cyclic  photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both carboxylations show time separation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q106",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "C3 cycle occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C3 plants only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C4 plants only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CAM plants only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C3, C4 and CAM plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 306,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q107",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Decarboxylation occurs in PCO cycle in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sphaerosome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q108",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Chloroplasts are aligned with their flat surface, parallel to the tangential walls of cells when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Moderate incident light comes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diffused light comes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plant is kept in strong light",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "When intermittent strong and diffused light is  given",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q109",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Photosynthetic rate and productivity will increase by increasing CO2 concentration in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bell pepper and tomatoes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sugarcane and sugarbeet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maize and Sorghum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Atriplex and Eleusine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q110",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many cell types does the leaf have to fix CO2 in C3 and CAM plants respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 and 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 and 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 and 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 and 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q111",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose odd one w.r.t. events involved in ‘photo- chemical’ phase of photosynthesis in eukaryotes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Water splitting, formation of high energy  intermediates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxygen release, formation of ATP and NADH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Light absorption, electron transport system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-cyclic  photophosphorylation, chemiosmosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q112",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP and NADPH + H+ are required for the synthesis of one maltose molecule in a C3 plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP = 18 ; NADPH + H+ = 12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ATP = 36 ; NADPH + H+ = 24",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP = 12 ; NADPH + H+ = 12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ATP = 18 ; NADPH + H+ = 18",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q113",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "According to chemiosmosis hypothesis for photosynthesis, energy is used",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "To pump protons across a membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "To activate the photosystems",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "To create a high concentration of protons within  the thylakoid lumen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q114",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Final CO2 acceptor in C4 and CAM plants is a _______ compound.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q115",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Action spectrum for photosynthesis was first given by Engelmann by using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Green algae and aerobic bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brown algae and anaerobic bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Red algae and green-S-bacteria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blue algae and purple-S-bacteria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q116",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The membranous system of chloroplast is responsible for the synthesis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP, NADPH and sugars",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Starch and NADPH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP by oxidative phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NADPH and ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q117",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Synthesis of PGA from RUBP and CO2 in C3 plants, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP dependent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dependent on most abundant biological protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NADPH dependent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dependent on phosphoglycerokinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q118",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many turns of C4 cycles are required to produce one molecule of sucrose in Zea mays?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q119",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The CAM plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Show highest photosynthetic rate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lack PEP carboxylase activity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are not adapted for the conditions of extreme  desiccation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are not as photosynthetically efficient as C4  plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q120",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the C4 plants, CO2 acceptor in mesophyll cells and bundle sheath cells respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4C organic acid, 3C organic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3C organic acid, 4C organic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5C keto sugar, 3C keto compound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3C molecule, 5C keto sugar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q121",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Number of carboxylation during photosynthesis in rice is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 307,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q122",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select  the  incorrect  statement  w.r.t. photorespiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycolate is oxidised to glyoxylate in  chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glycine enters mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased O2 level increases photorespiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The phosphoglycolates is dephosphorylated to  form glycolate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q123",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Under water stress condition, the rate of photosynthesis declines because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reduced leaf water potential",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased leaf water potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stomatal closure and the resultant decrease in  CO2 supply",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q124",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. light reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The primary acceptor of PS-II is phaeophytin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The splitting of water is associated with PS-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In PS-I, the reaction centre Chlorophyll-a has  an absorption peak at 680 nm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The LHC are made up of core and antenna  molecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q125",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During cyclic photophosphorylation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only PSI is functional",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The excited electron passes on to NADP  reductase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The electrons move in lamellae of the grana  from higher to lower redox potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q126",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Calvin pathway occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C3-plants only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C3- plants and some C4 plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All photosynthetic plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C3- plants and some CAM plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q127",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "For every CO2 molecule entering the Calvin cycle, _____ molecules of ATP and _______ of NADPH are required.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2, 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12, 18",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18, 12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q128",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one (w.r.t. double carboxylation)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sorghum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Maize",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sugarcane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Wheat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q129",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. Hatch and Slack pathway",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PEP is regenerated in mesophyll",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Few number of chloroplasts in bundle sheath",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RUBP carboxylase is absent in mesophyll",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Multilayered bundle sheath",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q130",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During cyclic photo-phosphorylation in green plants, the process of reduction of CO2 to carbohydrates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Goes on unhindered",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is appreciably retarded",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is enhanced",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stops completely",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q131",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Most of photosynthesis takes place in blue  and red regions of spectrum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In PS-I the reaction centre chl-a has an  absorption peak at 680 nm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PS-II has FRS as primary electron acceptor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Accessory pigments forms the reaction centre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q132",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one out w.r.t. C4-plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adapted to dry tropical regions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Have C4 oxaloacetic acid as first CO2 fixation  product",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They do not use Calvin cycle as main  biosynthetic pathway",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They tolerate high temperatures",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q133",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The major limiting factor for photosynthesis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Light",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon dioxide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q134",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Stroma lamellae in chloroplasts",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cannot perform cyclic photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lack both PS II and NADP reductase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Do not possess multiprotein electron carriers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are activated when irradiated with light  wavelengths shorter than 700 nm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q135",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Consumption of O2 occurs in ____and _____ during  photorespiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chloroplast, peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisome, mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloroplast, mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mesophyll cells, bundle sheath",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q136",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Stroma lamellae membrane differs from grana lamellae in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of PS-I and PS-II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Absence of PS-I, cytochromes and ATPase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of PS-I and NADP reductase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of PS-II and NADP reductase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 308,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q137",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements and select correct set for photosynthesis.  a. External electron donar in non-cyclic photophosphorylation is H2O.  b. Splitting of each molecule of H2O is associated with eight photons.  c. Per carbon assimilation requires two additional ATP in Sorghum than Triticum.  d. CAM plants have double carboxylation and dimorphic chloroplasts.  e. Oxygenase activity of Rubisco is absent due to CO2 concentration effect in C4 plants.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, c & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, d & e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q138",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "a. Peaks of absorption spectrum can be seen at blue and red part of spectrum, where red peak is higher.  b. C4 plants can concentrate CO2 at RuBisCO site in bundle sheath cells.  c. Photorespiration involves both formation and breakdown of H2O2 in mitochondria.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only b is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q139",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the statements true (T) or false (F).  A. Less than 1 percent of water reaching the leaves  is used in photosynthesis and plant growth.  B. Cellulose microfibrils of guard cells are oriented longitudinally, making it easier for the stoma to open.  C. Transpiration can create pressure sufficient to lift a xylem sized column of water over 130 metres high.  D. C4 plants loses only half as much water as a C3 plant for the same amount of CO2 fixed.  A B C D",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F T F T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F T F F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T F T T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T F F T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q140",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "C4 plants are twice efficient than C3 plants in _____ but lose only _____ as much water as a C3 plant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2 fixation, 75%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fixing carbon, 75%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2 fixation, 50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fixing carbon, 50%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q141",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Photosynthetic active radiation (PAR) in photosynthesis lies in between",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 – 400 nm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "400 – 700 nm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "760 – 950 nm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 – 100 nm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q142",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements w.r.t. antenna molecules.  (a) The LHC are made up of hundreds of pigment  molecules bound to proteins.  (b) Water splitting complex is associated with the  PS-II.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (b) is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both (a) & (b) are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (a) is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both (a) & (b) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q143",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Final electron acceptor in the Z-scheme of light reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ferredoxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plastoquinone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NADP+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe-S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q144",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Breakdown of proton gradient across the thylakoid membrane is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Removal of protons from stroma by NADP  reductase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Active transport of protons through F0 part",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diffusion of protons through transmembrane  channel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pumping of protons through F1 part",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q145",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "If CO2 concentration increases in atmosphere then which of the following plants will be benefitted?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maize, Sorghum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tomato, Bell pepper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eleusine, Sugarcane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sugarcane, Maize",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q146",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules per CO2 are required at the reduction step of Calvin cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q147",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "a. C4 pathway is found in plants adapted to dry tropical regions  b. C3 pathway is the main biosynthetic pathway in C4 plants  c. C4 plants have greater productivity of biomass",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only c is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both b & c are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 309,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q148",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the given graph what does A, B represent?  A B  Light absorbed  400 500 600 700 Wavelength of light in nanometres (nm)",
+    "question_diagram": "/images/last_leap_part2/p310_q148.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Absorption spectrum,  B – Action spectrum (Chl. a)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Action spectrum,  B – Absorption spectrum (carotenoids)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Absorption spectrum,  B – Action spectrum (Chl. b)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Action spectrum,  B – Absorption spectrum (Chl. a)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q149",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A chromatographic separation of the leaf pigments shows that colour in leaves is due to four pigments which are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chl a – blue green, Chl b – yellow green,  Xanthophyll – yellow, Carotene – yellow orange",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chl a – yellow green, Chl b – blue green,  Xanthophyll – yellow, Carotene – yellow orange",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chl a – blue green, Chl b – red, Xanthophyll –  orange, Carotene – yellow",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chl a – yellow green, Chl b – blue, green,  Xanthophyll – yellow, Carotene – orange",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q150",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect option w.r.t. stroma lamellae",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of PS I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Site of cyclic photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Perform photosynthesis at wavelength > 680  nm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of NADP+ reductase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q151",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct for C4-plants?  MC – Mesophyll cells  BSC – Bundle sheath cells",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MC – Lack PEPcase, RuBisCO present",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BSC – RuBisCO present, Lack PEPcase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MC – Lack RuBisCO, PEPcase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BSC – RuBisCO, PEPcase present  CO2 ATP ADP+iP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q152",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "RuBP  GP  Triose Phosphate  Reduced  NADP  NADP  ADP ATP  Hexose  The amount of GP increases when a photosynthesizing plant has been transferred in dark for a short time because",
+    "question_diagram": "/images/last_leap_part2/p310_q152.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2 is not available due to stomatal closure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ATP is not available",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Light reaction is inhibited",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NADP (reduced) is not available",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q153",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct statement w.r.t. photorespiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3-PGA and 2-phosphoglycolic acid are  oxidised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate is directly proportional to age of plants  and environmental temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP is produced at many steps",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25% of carbon passing out of chloroplast is  retrieved or reclaimed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q154",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "PEP carboxylase is found in CAM and C4 plants. This enzyme is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Switched on in day in C4 plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Switched off in night in CAM plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Switched off in day in C4 plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Switched on in day in both CAM and C4 plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q155",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "When the leaves are exposed to more light than they can utilize, the reaction centre of PS-II is inactivated and damaged and this phenomenon is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Photorespiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insularisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photoinhibition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thermal deactivation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q156",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many molecules of serine and CO2 are formed respectively from 10 molecules of glycolate during Decker's process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 and 10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 and 10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 and 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 and 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 310,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q157",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In PCR cycle reducing power is used during the production of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glyceraldehyde-3-phosphate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RUBP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DHAP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DPGA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q158",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the photorespiratory pathway",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2 is used with the synthesis of sugar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is no production of NADPH and CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Regeneration of PGA with the utilisation of ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon loss is seen with the production of ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q159",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many additional ATP molecules are required by maize plant as compared to rice for the formation of one maltose?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "24",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "18",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q160",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Who hypothesised that “plants restore to the air whatever breathing animals and burning candles remove?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Julius Von Sachs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Englemann",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Joseph Priestley",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Van Niel",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q161",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The excited electron does not pass on to NADP+ but is cycled back to the PS I complex through the ETC in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stroma lamellae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Granal membrane only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thylakoid lumen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Matrix",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q162",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many additional ATP molecules are required for the reduction of 2CO2 molecules in pea and maize respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 and 10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 and 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero and 10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero and 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q163",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. C3 cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "For one CO2 fixation three ATPs are required",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Regeneration of the CO2 acceptor molecule  RuBP is not crucial for the continuation of the cycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The first stable product is PGA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carboxylation is the most crucial step",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q164",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect option (w.r.t. factors promoting photorespiration)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High light intensity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ageing of leaf",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High O2 concentration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q165",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "PGA as the first CO2 fixation product was discovered in photosynthesis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bryophyte",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Angiosperm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Algae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gymnosperm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q166",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Priestley performed the experiment which hypothesised that plants restore to air whatever breathing animals and burning candles remove. Which plant was utilised by him?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tomato",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mint",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrilla",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potato",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q167",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATPs are required per CO2 fixation by rice and maize respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3, 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5, 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5, 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3, 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q168",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Plants showing cooperative photosynthesis differs from plants having scotoactive stomata in_________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Showing diurnal separation of photosynthetic  process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Having both C3 and C4 cycle in same cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Forming oxaloacetic acid as first stable  product of primary CO2 fixation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Having thick walled bundle sheath cells  surrounded by concentrically arranged mesophyll cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q169",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In sugarcane, first product of CO2 fixation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-ketoglutarate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 PGA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PEP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OAA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secA_q170",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Cornelius van Niel, who, based on his studies of ____(A)     , demonstrated that photosynthesis is essentially a light dependent reaction in which hydrogen from a suitable compound _____(B)____ CO2 to carbohydrates.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A-Unicellular green alga, B-oxidises",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A-Purple and green sulphur bacteria, B-  Reduces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A-Blue green alga, B-oxidises",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A-Multicellular green alga, B-Reduces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 311,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q1",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Temperate plants fix CO2 in GP.\nReason (R): Some tropical monocots and dicots fix CO2  directly into C4 acid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q2",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In C4 plants initial fixation of CO2 and its  subsequent reduction takes place in different cells.\nReason (R): Initial fixation requires PEP.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q3",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In carboxylation a carboxylase enzyme  catalyzes the formation of C–H bond between CO2 and H-atom of an organic molecule.\nReason (R): Both  PEPcase  and  RuBisCo  show carboxylase and oxygenase activity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q4",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): ATP is synthesized on the outer surface of  thylakoid membrane.\nReason (R): Protons flow from thylakoid lumen to stroma  results in breakdown of proton gradient.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q5",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The reaction centre is similar in both the  pigment systems.\nReason (R): Chlorophyll a is present in both pigment  systems which receives energised electron from LHC.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q6",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The primary CO2 acceptor is 3 -C compound  in C4 and CAM plants.\nReason (R): Mesophyll cell lacks rubisco enzyme in both  group of plants.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q7",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Carotenoids are fat soluble pigments.\nReason (R): They are present in light harvesting complex.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q8",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The C4 plants have greater productivity of  biomass.\nReason (R): C4  plants  lack  a  process  called photorespiration.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q9",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): CO2 fixation is decreased in C3 plants during  low CO2 corcentration.\nReason (R): O2 competes with CO2 for RuBisCo enzyme.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_06_photosynthesis_in_higher_plants_secB_q10",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When light is made to split into its spectral  components and then used to illuminate Cladophora,  aerobic bacteria accumulate mainly in the region of blue and red light of the split spectrum.\nReason (R): Plants absorb red and blue lights only.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 312,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

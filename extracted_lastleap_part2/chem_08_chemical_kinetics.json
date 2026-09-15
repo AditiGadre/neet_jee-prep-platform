@@ -1,0 +1,3889 @@
+[
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is/are correct regarding Arrhenius equation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If Ea = 0, then 100% reactant will convert into  product",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If T is equal to infinite, then 100% reactant is  converted into product",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ea cannot be negative",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "At particular concentration, the half life of the reactant is 100 minutes. When the concentration of the reactant becomes 10 times, the half life of the reaction becomes 60 seconds, then what will be the order of reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The rate constant of the given reaction,  R(g)    2P(g) is 2.48 × 10–4 s–1  A 1 : 1 molar ratio of R to P in the reaction mixture is attained after",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "32 min",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "27.3 min",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 min",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 min",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A graph drawn between concentration of reactant (a – x) and time ‘t’ is found to be a straight line. The reaction is of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "First order",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Third order",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Second order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A first order reaction, which is 50% completed in 30.2 minutes has a half life period of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "102.2 min",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "58.2 min",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30.2 min",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120.2 min",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a reaction :  A  B.  The graph is plotted between  dx log dt (Y-axis) and  log (a – x) (X-axis). The slope of the line is found to be 45º. The order of reaction will be  [where dx  dt  rate, (a – x)  conc. of reactant at  time 't']",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Three",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The unit of rate constant of second order reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "s–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "mol–1 L s–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "mol–2 L2 s–2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a first order reaction, initial concentration is 2.5 M, rate constant is x s–1, then t3/4 for the reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.693 s x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.386 s x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.3465x s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3465 s x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If rate constant at 310 K for a reaction is 100 and rate constant at 300 K for a reaction is 40, then temperature coefficient is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.03",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.40",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a zero order reaction, the initial amount of reactant is 20 g and half-life is 30 minutes. The amount of reactant left after 60 minutes would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For an exothermic chemical process occurring in two steps as follows  (i) A + B  Y (slow)  (ii) Y  AB (fast)",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 91,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the first order gas phase decomposition reaction  A(g)  B(g) + C(g)  If P0 is the initial pressure of A and Pt is total pressure after time t, then correct relation is  P 2.303 K log t P P  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0  0 t  P 2.303 K log t 2P P  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0  0 t  P 2.303 K log t P 2P  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0  t 0  P 2.303 K log t P P  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0  t 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 92,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A hypothetical reaction X2 + Y2  2XY follows the mechanism as given below  X2 ⇋ 2X (fast)  X + Y2  XY + Y (slow)  X + Y  XY (fast)  The order of the overall reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 92,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a zero order reaction, a graph of [A] versus ‘t’ is linear and have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Negative slope and non-zero intercept",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative slope and zero intercept",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positive slope and non-zero intercept",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Positive slope and zero intercept",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 92,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The rate constant of a reaction is 3 × 10–3 mol L–1 s–1. Hence, the order is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 92,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched?  Rate  Zero order",
+    "question_diagram": "/images/last_leap_part2/p92_q16.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Conc.  t1/2  First order",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conc.  1 A  Second order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Time  t1/2  Third order",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1/a2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 92,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Rate constants of forward and backward reaction of  A B \u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002  is 3.25 × 10–3 and 1.62 × 10–4  respectively. The equilibrium constant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A reaction mixture has been made by taking equal concentration of two reactants. It takes 40 minutes for the completion of 50% of the reaction. For the completion of next 50% of the reaction time taken is 80 minutes. What is the order?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3  K 2 2 4 K 2NO N O \u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002 , the  1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In the reversible reaction   2  rate of disappearance of NO2 is equal to  2K [NO ] K",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 1 2 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2K1 [NO2]2 – 2K2 [N2O4]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2K1 [NO2]2 – K2 [N2O4]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K1 [NO2]2 – K2 [N2O4]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Half life of a reaction is found to be inversely proportional to the cube of initial concentration. The order of reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is/are incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The rate of a reaction is same at any time  during the reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The rate of a reaction is independent of  temperature change",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The rate of a reaction decreases with increase  in concentration of reactant(s)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a particular reaction, 2A + B  Products, it is seen that when the concentration of only B is doubled, the half life did not change but when the concentration of only A is doubled the rate of reaction increased by two times. The unit of rate constant for this reaction would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "L mol–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unitless",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A graph is plotted between half life and concentration.  t50  1 conc  The order of the reaction will be",
+    "question_diagram": "/images/last_leap_part2/p93_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a first order kinetics, the time required for 75% completion is ________ of its half life",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "th 4 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Twice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Half",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "th 2 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following remains unchanged when a catalyst is added?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enthalpy of reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Activation energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In a second order kinetics, the volume of reaction vessel is halved at constant temperature, the specific reaction rate",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Remains constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases by 4 times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Becomes one fourth of initial",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases but less than 4 times",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction  PCl5(g)  PCl3(g) + Cl2(g)  initially only PCl5(g) is present at 1.5 atm. After 10 minutes the pressure becomes 2.5 atm. The rate constant of the reaction will be (in minute–1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.2303  3 5 log",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2303 log3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 3 log 0.2303",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 5 log 0.2303  1 C(g);",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction, A2(g)  B(g) + 2  shows increase in pressure from 100 mm to 120 mm in 5 minutes. The rate of disappearance of A2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 mm min–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 mm min–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16 mm min–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 mm min–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 93,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The rate expression for a reaction is R = K[H+] [X]. If pH is increased by one, the reaction rate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased by 10 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreased by 10 times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increased by 2 times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The decomposition of a substance ‘R’ takes place according to first order kinetics. Its initial  1 th in 24 s. The rate  concentration is reduced to 8  constant of the reaction is  1 s 16 69 . 0 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 s 24 1 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 s 8 2 ln ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 s 8 1 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The  two reactions are given below  A  B + energy  C + energy  D  If the temperature is increased, then what is the effect on reaction rates in both reactions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both rates are increased",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both rates are decreased",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In A  B, the rate is decreased and in     C  D, the rate is increased",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In A  B, the rate is increased and in     C  D, the rate is decreased",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For study in chemical kinetics, following relationship is observed  ln K (sec–1) =  T 800 12.4   the activation energy (in cal) of the reaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.303 × 8.314 × 800",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.303 × 2 × 800",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.314 × 800",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 × 800",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a gas phase reaction, following rate law is observed  r = k[A]x [B]2  when conc. of A & B both become double the rate is increased by y times and when volume of container is tripled the rate is decreased by 27 times the value of x and y are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2, 8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1, 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction  OH  NO2  OH  K1  HNO H SO  3  OH  2 4  K2  NO2 the fraction of p-nitrophenol in overall amount of product will be  K K   K  1 K  1 2 K",
+    "question_diagram": "/images/last_leap_part2/p94_q34.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  1  K K   K  2 1 K  2 K K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "  1  2 1  C 30 K K   is equal to 2,",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If the ratio of rate constants    C 20  C 10 K K    should be  the value of     C 20",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In a reaction, when concentration is increased by four times, rate constant remains unchanged, the order of reaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The value of rate constant depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of catalyst",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Change in concentration of reactants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a third order kinetics, which of the following relationship is incorrect?  1 t ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 50 (conc)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "r  (conc)3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K is independent to concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A substance ‘A’ is 20% decomposed in 1 hr following 1st order kinetics. The percentage of ‘A’ left after 3 hr will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "81%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "51.2%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 94,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In an exothermal reaction A  B. The activation energy of reverse reaction is three times that of forward reaction. If enthalpy of the reaction is –80 kJ mol–1, the activation energy of the reverse reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "120 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "160 kJ mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Decompositon of H2O2 is a first order reaction. To determine the rate of reaction initially 10 ml of standard KMnO4 solution are required and after 10 min, 5 ml of KMnO4 solution are required, the rate constant will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6.93 hr –1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.0693 min–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.6 min–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.015 min–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graphs represents first-order reaction?  log ( – ) a x  a a–x log  II.  I.  t  t  t1/2  log( – ) a x  III.  IV.  t  a",
+    "question_diagram": "/images/last_leap_part2/p95_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I & II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I, II & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I & IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III & IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Kinetics of decomposition of H2O2 is studied by volumetric measurement of concentration of H2O2 by standard KMnO4 solution at different time interval. If 20 ml of 0.2 N KMnO4 is required at start and after 10 minutes 10 ml of 0.2 N KMnO4 is required  ] O d[H – 2 2 2 2   is  then rate constant K of  ] O K[H dt",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": ") 5 log( 10 303 . 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": ") 2 ( log 10 303 . 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ") 3 ( log 10 303 . 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": ") 4 ( log 10 303 . 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In a first order kinetics, if the concentration of reactant is halved and temperature is increased by 20ºC from initial, the reaction rate will be (assuming temperature coefficient equal to 2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unaltered",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Twice of initial",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 times of initial",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 times of initial",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For decomposition of ammonia on tungsten surface",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Half life period is dependent on initial  concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.303 a K log t a – x ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t99.9 is equal to 10 half life",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "5 g radioactive substance is taken in 1 L flask. How much substance will be left after 100 years, if half life of substance is 25 years?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.625 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.3125 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction  2NO + Br2  2NOBr  Mechanism given is  NO + Br2 ⇋ NOBr2 (fast)  NOBr2 + NO  2NOBr (slow)  Then which of the following is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Order of the above reaction is less than  molecularity of reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Order of the above reaction is equal to  molecularity of reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Order is greater than molecularity of reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relation between order and molecularity cannot  be predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If the initial conc of unity is reduced to half in 25 s for a zero order reaction, then rate constant will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.027 mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.027 s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.02 mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.02 L mol–1 s–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If for a Ist order reaction, k = 8.5 × 105e–15000 K/T  the energy of activation is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "150 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "125 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "500 kJ/mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction ; 2A  4B + C,  At a given time if rate of formation of B is given by x mol/L/s. Then rate of change of concentration of A at that time and rate of reaction at that time can be given respectively by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x – , x 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–2x, x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x x – , 2 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x –2x, 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 95,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For  the  elementary  gaseous  reaction 2P + Q  3R. How the rate is affected if the volume is made triple?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate increases 9 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate increases 27 times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate decreases 27 times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rate remains unchanged",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If for an endothermic process,  A + B  C + D – 30 kJ/mol, the activation energy for the forward reaction is 95 kJ/mol, then the activation energy for backward reaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "95 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "65 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "125 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 kJ/mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If for the reaction A + B  Product, order with respect to A and B is respectively 1.5 and zero. Then in the given table x and y will be respectively  A 0.01 x 0.02  B 0.01 0.015 0.01  Rate  5.0 5.0 y",
+    "question_diagram": "/images/last_leap_part2/p96_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "0.02, 5.0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.01, 14",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.02, 14",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.01, 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Exp. [A] [B] Initial rate  i. 0.012 0.035 0.1  ii. 0.024 0.070 0.8  iii. 0.048 0.070 1.6  The rate for A + B  Products will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate = K(A)3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate = K(B)3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate = K(A)(B)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Insufficient data",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements  i. First order reactions follow an exponential time course  ii. If curve is plotted t1/2 against [C]inital of reactant is a straight line passing through origin then it will be of zero order reaction  iii. Rate of reaction is always proportional to the concentrations of reactants  Of these statements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "i, ii, iii are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "i and ii are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ii, iii are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "i and iii are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The half life of a first order reaction is 10 minutes. If experiment is started with 0.08 mol/litre, then time taken to reduce the concentration to 0.01 mol/ litre",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If activation energy of forward and reverse reactions are 36.8 kJ/mole and 91.3 kJ/mole. Then reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Exothermic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endothermic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Independent of temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither exothermic nor endothermic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For two reactions, activation energies are  1 a E and  2 a E and rate constants are K1 and K2 at same  temperature. If K1 > K2, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 a E > 2 a E",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 a E < 2 a E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 a E = 2 a E",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction N2(g) + 3H2(g)  2NH3(g). If initially 10 g H2 were taken and after 10 s, 34 g NH3 is formed, then rate of reaction (assuming volume of container is 1 L and N2 is present in excess)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.067 mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 mol L–1 s–1  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For any first order reaction 3/4  t  is  1/2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The slope of plot for the reaction  N2 + 3H2 2NH3 would be equal to  log K  1 T",
+    "question_diagram": "/images/last_leap_part2/p96_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "a E 2.303 R ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a E 2.303 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a E R ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "This type of plot is not possible",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The rate constant of a reaction has same dimension as rate of reaction. The reaction is of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero order",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1st order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2nd order",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3rd order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 96,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A graph plotted between log K versus 1/T for calculating activation energy is shown by  log K",
+    "question_diagram": "/images/last_leap_part2/p97_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1/T  log K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1/T  log K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1/T  log K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1/T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "On plotting a graph between concentration of product and time for calculating the instantaneous rate of reaction, the graph has",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive slope",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative slope",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the first order reaction, which one is not correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "t3/4 = 2 × t1/2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t7/8 = 3t1/2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "t99.9% = 10t1/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t90% = 2.5t1/2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "X  Y (K1 = 1010.e–500/T)  X  Z (K2 = 1012.e–1000/T)  At what T both K1 and K2 are equal?  500 K 4.606",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "500 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.606 K 500",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.303 K 5000",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Reaction A + B  C + D + 38 kcal has activation energy 20 kcal. Activation energy for the reaction  C + D A + B is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 20 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "58 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a reaction, A(g)  B(g)  Following data were obtained at 37°C for above reaction  Pressure of A in mm-Hg  10 20 40  Half life (t ) (relative)  1/2  8 4 2  The order of reaction is",
+    "question_diagram": "/images/last_leap_part2/p97_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph is incorrect?  1 order st  Zero order  Rate  t1/2",
+    "question_diagram": "/images/last_leap_part2/p97_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "conc.  conc.  3 order rd  2 order nd  1 (a – x)  t1/2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1/a 3  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Rate constant of a first order reaction is dependent on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Time",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concentration of reactants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following graphs  K = – slope  [A]  (i)  t  K = – slope  (ii)  ln[A]  t  Slope =  K    2.303  [A] [A]  (iii)  0 log  t",
+    "question_diagram": "/images/last_leap_part2/p97_q71.png",
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 97,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction M + N  A + B, energy of activation is  x  A + B  y  M + N  z",
+    "question_diagram": "/images/last_leap_part2/p98_q72.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x + y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x + y – z  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For any nth order reaction, 3/4  t  depends on  1/2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concentration of reactant always",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Concentration of product always",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Order of reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pressure only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The gas phase decomposition of A as  A(g) 2B(g) C(g)    follows first order kinetics and pressure measured after 15 minute and infinite time are 205 and 450 mm of Hg respectively, in a constant volume container at a constant temperature. Calculate the total pressure inside the flask after 50 minute.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "122.5 mm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "293.26 mm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 mm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 mm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Diazonium salt decomposes as  N Cl 2 + – Cl + N2  At 0°C, the evolution of N2 becomes four times faster when the initial concentration of the salt is increased four times. Therefore, it is",
+    "question_diagram": "/images/last_leap_part2/p98_q75.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A first order reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A second order reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero order reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A third order reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction energy diagrams best represents a reaction in the forward direction, that is non-spontaneous with two intermediate states?  G  Reactant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Product  Reaction coordinate  G  Reactant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Product  Reaction coordinate  G  Product",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reactant  Reaction coordinate  G  Product",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reactant  Reaction coordinate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The existence of certain intermediates in a  reaction mechanism can sometimes be proven because intermediates can sometimes be trapped and identified",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intermediates in a reaction mechanism cannot  be isolated because they do not have finite life times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reaction mechanisms cannot have more than  one intermediate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intermediates in a reaction mechanism appear  in the overall balanced equation for the reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction rates for many spontaneous reactions are actually very slow. Which of the following is the best explanation for this observation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The standard entropy change is < 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The activation energy is high",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The standard free energy change for the  reaction is > 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "These reactions are endothermic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Gaseous N2O5 decomposes according to the following equation  2 5 2 2 1 N O (g) 2NO (g) O (g) 2    2 5 2 5 N O k[N O ] t    .  The experimental rate law is",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 98,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Nitrogen monoxide NO, reacts with ozone O3, to produce NO2 and O2  3 2 2 NO(g) O (g) NO (g) O (g)     Consider the following mechanism for the reaction  a. 3 2 O (g) O (g) O(g)   (slow)  b. 2 NO(g) O(g) NO (g)   (fast)  Which one of the following rate laws would be consistent with the mechanism proposed above?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate = k[NO] [O] [O3]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate = k[NO]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate = k[NO] [O3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rate = k[O3]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A and B are two different chemical species undergoing first order decomposition with rate constants kA and kB which are in the ratio of 3 : 2 respectively. If the initial concentration of A and B are in the ratio of [A]0 : [B]0 = 3 : 2. What would be the ratio of [A] : [B] after three half lives of A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 : 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the zero order reaction, A  2B, the rate constant is 2 × 10–6 M min–1. The reaction is started with 10 M of A. What will be concentration of A after 2 days?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7.56 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9.10 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.500 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.994 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a given first order gaseous reaction, if initial pressure is P0 and after t minutes total pressure becomes Pt then the rate constant K is  An(g)  nA(g)  P 1 K ln t nP P  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0  0 t  P 1 K ln t P nP    t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 t            P (n 1) 1 K ln t nP P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0  0 t  P 2.303 K log t P P    0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction, 3A  Product, the rate law is rate = k[A]2. Half life of reaction is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1/2 t [A] ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1/2 1 t [A] ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1/2 2 1 t [A] ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1/2 t [A] ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Consider a reaction aG + bH Products. When concentration of both the reactants G and H is doubled, the rate increases by eight times. However when concentration of G is doubled keeping the concentration of H fixed, the rate is doubled. The overall order of reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a first order homogeneous gaseous reaction, A  2B + C, then initial pressure was Pi while total pressure after time t was Pt. Thus the rate constant K for the reaction would be           2P 2.303 K log t 3P P  i",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "i t           2P 2.303 K log t 2P P  i",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t i           P 2.303 K log t P P  i",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "i t           3P 2.303 K log t 2P P  i",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "i t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For a zero order reaction the initial amount of  reactant is 100 g and its half life   1 2 t  is 20 minute. The amount of reactant left after 40 minute will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12.5 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The half life of a first order reaction is 69.3 second. The value of the rate constant of the reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.01 s–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.001 s–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The time of completion of 90% of a 1st order reaction is approx",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.1 times that of half life",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.2 times that of half life",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.3 times that of half life",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.4 times that of half life",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 99,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "1  2  disappearance of NH3(g) will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K1[N2][H2]3 – K2[NH3]2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2K2[NH3]2 – 2K1[N2][H2]3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2[NH3]2 – K1[N2][H2]3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2K1[N2][H2]3 – K2[NH3]2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "In Arrhenius’s equation K = Ae–Ea/RT. A may be termed as the rate constant at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Very low temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The boiling temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero activation energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Very high activation energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Time required for completion of 99.9% is ____ times of half life of the first order reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "87.5% of a first order reaction is completed in 45 minute. The time in which 99.9% of the reaction will be completed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "120 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150 minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph is correct for 1st order reaction?  log [A]0  t1/2  [A]",
+    "question_diagram": "/images/last_leap_part2/p100_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[A]0  t  log [A]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct  time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Molecularity of the reaction can be zero or  fractional",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "We always determine order of reaction from  balanced chemical equation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The enthalpy of reaction remains constant in  the presence of catalyst",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All collisions of reactant molecules lead to  product formation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Catalyst alters the rate of reaction by changing  Ea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "e–Ea/RT is fraction of molecules with energy  equal or greater than Ea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Second t1/2 of first order reaction is half of the  first t1/2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The following chemical reaction is of zero order at high pressure :  2NH3(g)  1130 K Pt catalyst  N2(g) + 3H2(g)  Choose the correct option(s) for the reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate of reaction is proportional to the  concentration of NH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unit of rate constant is mol L–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Half-life of the reaction is independent of  concentration of NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "A first order reaction is 30% completed in 30 minute. How much time will it require for 100% completion?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "90 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following chemical reaction:  5Br(–)(aq) + BrO3 (–) (aq) + 6H(+)(aq) 3Br2(aq) + 3H2O(l)  Choose the correct expression         ( )  2 [Br ] [Br ] 3 t 5 t",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "       ( ) 3 2 [BrO ] [Br ] 2 t 3 t",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "       – 6 Br – 5 t        H – t",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "=        ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements regarding complex reaction :  ( ) 2 [Br ] 2 [H ] t t",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "4",
+        "text": "I. A complex reaction proceeds through several steps.  II. The molecularity of reaction is the sum of molecularity of each step.  III. Order of a complex reaction is determined by the fastest step in its mechanism.  Choose the correct statement(s)",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "I & II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I, II & III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 100,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following graph  Activated complex  x  Product  E  y  Reactant  Time  Choose the incorrect statement(s)",
+    "question_diagram": "/images/last_leap_part2/p101_q101.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Reaction is exothermic in forward direction i.e.,  H = –ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Activation energy for forward reaction is x – y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Using catalyst will decrease H value of the  reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Which curve represents zero order reaction?  Conc. (A)  Conc. (A)",
+    "question_diagram": "/images/last_leap_part2/p101_q102.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t  t  Conc. (A)  Conc. (A)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t  t",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The threshold energy of a chemical reaction depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nature of reacting species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concentration of species",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Number of collision per unit time or collision  frequency",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "If in a first order reaction 100 gm of reactant becomes 50 gm in 6.93 hrs, then what will be the weight left after 23.03 hours?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "Time taken to reduce the concentration of a first order reaction to 1/4th of initial concentration if half- life is 30 minute",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30 minute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 minute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "120 minute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "45 minute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "The unit of rate constant for 2nd order reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "time–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "L mole–1 s–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "mole–2 L2 s–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "L mole–2 s–2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction :  CH3OCH3(g)  CH4(g) + H2(g) + CO(g)  The rate of reaction is given as R = K(CH3OCH3)3/2  in a closed vessel. If pressure of CH3OCH3(g) is expressed in terms of bar and time in minute (min), then the units of rate constant (K) should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[bar]1 [min]–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[bar]–2 [min]–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[bar]–1 [min]–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[bar]–1/2 [min]–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Product can form only when the required  orientation and energy conditions of reactants are favourable.\nReason (R): All collisions between reactants yield the  desired product.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): For elementary reactions, the law of mass  action and rate law expressions are generally same.\nReason (R): Molecularity of elementary reaction is always  one.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): At very high temperature (approaches to  infinity) rate constant becomes equal to collision frequency.\nReason (R): The collisions in which molecules collide with  proper orientation is called ineffective collisions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 101,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Base catalysed hydrolysis of ethyl acetate is  a first order reversible reaction.\nReason (R): Order of reaction always depend on the  stoichiometry of the reaction.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_08_chemical_kinetics_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The overall order of the reaction is the sum of  power of all the reactants in the rate expression.\nReason (R): There are many higher order reactions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 102,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

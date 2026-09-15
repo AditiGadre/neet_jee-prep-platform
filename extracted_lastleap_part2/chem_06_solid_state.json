@@ -1,0 +1,3962 @@
+[
+  {
+    "question_id": "chem_06_solid_state_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A metal iodide crystallises in bcc structure in which M+ is surrounded by iodide ions. If each ion radius is 2.17 Å, then length of one side of unit cell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5.011 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8.00 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.17 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.34 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A metal of group-I crystallises in a body centred cubic lattice. If atomic mass of metal is 40, calculate number of unit cells in 4.0 g metal.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 × 1023",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 × 1024",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 × 1023",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 × 1022",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a closed packed structure of mixed oxides, the lattice is composed of oxide ions, one eighth of tetrahedral voids are occupied by trivalent cation (A3+) and one-fourth of octahedral voids are occupied by divalent cation (B2+). Find the formula of oxide",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A2B2O4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ABO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ABO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A2BO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A crystal of lead (II) sulphide has NaCl structure. In this crystal, the shortest distance between a Pb2+ ion and S– – ion is 300 pm. What is the volume of unit cell of lead sulphide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "209.6 × 10–24 cm3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "207.8 × 10–23 cm3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "216 × 10–24 cm3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "209.8 × 10–23 cm3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The number of octahedral and tetrahedral voids  present in fcc structure are in the ratio of 1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solids containing F-centres are paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "68% space is unoccupied in bcc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ZnO shows metal excess defect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "AB has NaCl type structure, if all the atoms touching one of the triad axis is removed, formula of unit cell will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A3B2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A4B5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A6B9",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AB",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Ratio of density of bcc and fcc lattice (approx.) of same element having edge length 4 and 3 nm respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a solid lattice, a cation has left a lattice site and is located at an interstitial position. The lattice defect is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Interstitial defect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vacancy defect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Frenkel defect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Schottky defect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "KCl crystallizes in the same type of lattice as does  r  r        and    .  Na  Na  0.5 r  0.7 r  NaCl. Given that       Cl  K  Calculate the ratio of the side of the unit cell for KCl to that for NaCl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.372",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.63",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.143",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.732",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "CsBr possesses bcc structure. The edge length of the unit cell is 200 pm. Find out the interionic distance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "173.2 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "346.4 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If the crystal is rotated about an axis through an angle of 360°, it gives the same appearance three times. The crystal will have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tetrad axis of symmetry",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diad axis of symmetry",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Triad axis of symmetry",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Any one of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 73,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Potassium crystallizes in a bcc lattice, hence the co-ordination number of potassium in the lattice is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If the body diagonal of cube crystal is 2.50 Å, the approximate edge length of unit cell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 Å",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 Å",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 Å",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 Å",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In AB3, anions B are present in ccp structure and cation A is present in octahedral void, the percentage of octahedral void occupied is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "33%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "67%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The percentage of tetrahedral holes occupied in diamond is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "75%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a compound atoms A, B and C are located at corners, edge centres and face centres respectively of the unit cell. If the atoms touching one of the body diagonal plane of symmetry are removed. The formula of the compound is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ABC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AB4C3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AB5C4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A2B3C4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A solid ‘AB’ have NaCl structure. If all the face centred atoms along one of the tetrad axis are removed, then the resultant stoichiometry of the solid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AB2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A4B3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A3B4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If the distance between Na+ and Cl– ions in sodium chloride crystal is X pm, the length of the edge of the unit cell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4X pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X pm 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X pm 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2X pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a compound, atoms of element Y forms ccp  2 3 of  lattice and those of element X occupy   tetrahedral voids. The formula of the compound will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X2Y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X3Y4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X2Y3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X4Y3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The possible types of two dimensional lattices and three dimensional primitive unit cells are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 and 14",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 and 7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 and 14",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 and 28",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The number of tetrahedral and octahedral voids formed by one half of a sphere with its adjacent layer in close packing are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 and 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 and 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 and 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 and 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In the crystal structure of Fe3O4, Fe2+ and Fe3+  occupy collectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50% tetrahedral and 50% octahedral voids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25% tetrahedral and 75% octahedral voids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12.5% tetrahedral and 50% octahedral voids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50% tetrahedral and 100% octahedral voids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "LiBr and KCl have radius ratio equal to 0.38 and 0.77 respectively, they have crystal structure like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ZnS and NaCl type respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl and CsCl type respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CsCl and ZnS type respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both have NaCl type",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "NaCl can show",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stoichiometric defect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metal deficiency defect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metal excess defect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "When AgCl is doped with 10–4 mol percentage RuCl3, what will be the concentration of cationic vacancies per mole of AgCl?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6.023 × 1017",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12.046 × 1019",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10–6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.046 × 1017",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect about magnetic properties of crystals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe3O4 is ferrimagnetic but becomes  paramagnetic at 850K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CrO2 is a ferromagnetic substance, used for  making magnetic tapes for use in audio recording",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ferromagnetic and antiferromagnetic solids  become paramagnetic at high temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ferrimagnetic substances possess zero net  magnetic moment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 74,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "AB has ZnS type structure. What will be interionic distance between A+ and B– if lattice constant of AB is 200 pm?",
+    "question_diagram": "/images/last_leap_part2/p75_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 50",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 100  100",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a crystalline solid, particle C is packed in cubic close packing, particle A  occupies 25% of tetrahedral voids and particle B occupies 50% of octahedral voids. If the particles along one of the face diagonal are removed, then simplest formula of the compound is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A4BC6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A4BC8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A8B8C13",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AB2C4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a cubic crystal of A and B, A atoms are arranged at the corners and edge centres while B atoms are arranged at alternate face centres and body centre. What will be the formula of compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AB",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A4B5/2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A2B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A8B7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the number of formula units of a crystal AB, having CsCl type structure in 240 gm. The unit cell edge length of AB is 200 pm and density of the crystal is 6 gm/cc",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 × 1024",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 × 1024",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10 × 1030",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 × 1030",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A crystal of CsCl type changes into NaCl type by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increasing the temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increasing the pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreasing the temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increasing the pressure and decreasing the  temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a cubical close packing structure of mixed oxide, the lattice is made of oxide ion. 20% of the tetrahedral voids are occupied by divalent X2+ ion and 50% of octahedral voids are occupied by Y3+  ion. The formation of the oxide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X2Y2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XY2O4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X4Y5O10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "XYO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A crystalline solid A+B– possess rock salt structure. If all the cations A lying at the top face of unit cell are removed then simplest formula of solid will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A3B4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AB2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A2B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A5B6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Alkali metals crystallise in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B.C.C. arrangement",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F.C.C. arrangement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H.C.P. arrangement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Simple cubic arrangement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In fcc unit cell, distance between centre of two spheres which are touching each other and distance between centre of two nearest non- touching sphere is respectively (where a = edge length, r = radius of atom)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2a, 2a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2r, a + r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a , a  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Formula of the compound having atoms A at alternate face centre and body centre, atoms B at 50% of edge centre and atoms C at alternate corners",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ABC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2B3C2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A3B4C4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A4B3C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct regarding AB AB AB ......... packing?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its coordination number is 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volume of the unit cell is  3 24 2 r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Atoms are located at corners in the body and  50% of face centre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of carbon atoms in unit cell of diamond is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Approximate number of unit cells present in 1g molecule of KCl is   × 4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NA  A N 4 74.5   A N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatch regarding the location of ions?  Structure Location",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl – Cations in all octahedral void",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ZnS – Cations in alternate tetrahedral voids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2O – Cations in all tetrahedral voids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaF2 – Anions in half of tetrahedral voids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 75,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "On increasing pressure NaCl changes to CsCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zinc oxide is white but on heating becomes  yellow",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conductivity of intrinsic semiconductor  increases on doping",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If edge length of the unit cell remains same, then the order between nearest neighbour distance (d) can be written correctly by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "dsimple cube = dbcc = dfcc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dsimple cube > dfcc > dbcc",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "dsimple cube > dbcc > dfcc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dbcc > dfcc > dsimple cube",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If all the interfacial angles are right angle, but all edge lengths are not equal to each others, then the crystal system becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rhombohedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Orthorhombic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monoclinic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure shown below, if shaded circle represents octahedral void, with radius x and radius of spheres surrounding it is y, then the correct relation between x and y is shown as",
+    "question_diagram": "/images/last_leap_part2/p76_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 – 2 x y 2 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 – 2 y x 2 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "y x( 2 – 1) ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x y( 2 – 1) ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If A is filled in half of tetrahedral voids and B is in tetrahedral voids as well as octahedral voids in equal amount in a CCP lattice formed by oxide ion, then formula of solid will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ABO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AB2O4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A2BO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AB3O4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A solid AB has CsCl type structure. The edge length of unit cell is 404 pm. The closest approach between A+ and B– ions is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "350 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "404 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "202 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "101 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A compound AB has, NaCl like structure, if all the ions along one C4-axis (tetrad axis) are removed, then formula of the compound will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AB",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2B3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 15 4 A B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A15B12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Interionic distance between opposite ion is x in NaCl type crystal then length of edge must be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In CsBr type crystal, the 2nd coordination number of Cs+ ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The ionic radii of Rb+ and I– are 1.46 Å and 2.16 Å respectively. The most probable type of structure exhibited by this is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CsCl type",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl type",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ZnS type",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaF2 type",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "MgAl2O4 has spinel structure. Percentage of octahedral voids occupied and tetrahedral voids occupied respectively by tripositive and dipositive ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12.5%, 25%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12.5%, 50%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25%, 12.5%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50%, 12.5%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A metal crystallizes in bcc structure with its edge length 400 pm, the atomic radius of metal will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "346.4 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "173.2 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "282.8 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "141.4 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a solid ‘AB’ having the NaCl structure. ‘A’ atoms forms ccp. If all the face centred atoms only along one of the tetrad axes are removed, then the resultant stoichiometry of the solid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AB2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A4B3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A3B4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A crystalline solid is made of  X, Y and Z elements. Atoms of X form fcc packing, atoms of Y occupy octahedral voids while atoms of Z occupy tetrahedral voids. What is the simplest formula of solid if atoms along one body diagonal are removed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X5Y4 Z8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "XYZ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X8Y4 Z5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X2YZ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 76,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The possible distance between two tetrahedral voids in ccp structure is (a = edge length)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3a 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a 2  a",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not true for cubic close packing?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There is one octahedral void in the centre of  the body",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There are twelve octahedral voids on the twelve  edges of the cube",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There are eight tetrahedral voids per unit cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Each diagonal of the unit cell has two  tetrahedral voids and two octahedral voids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Doping of Ge with small amount of In, gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insulators",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n-type semi-conductor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-type semi-conductor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oscillator",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "A pure crystalline substance on being heating gradually first forms a turbid looking liquid at a constant temperature and then at a still higher constant temperature the turbidity completely disappears. This is characteristic of substance",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isomeric crystal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Liquid crystal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isomorphous crystal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Allotropic crystal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Oxide ions forms the hexagonal unit cell, and M3+  ions are present in 2/3 of octahedral void, hence molecular formula of oxide",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M3O4  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If  – r   lies between 0.225 to 0.414, then cation  r  would be present",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At body centre",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At edge centre",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At 1 th 4  of body diagonal from corner",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At 1 th 2  of body diagonal from corner",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If a  b  c,  =  = 90°,   90°, the crystal system is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cubic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Orthorhombic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monoclinic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hexagonal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set contains only covalent or network solids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SiO2, SiC, diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AlN, MgO, H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu, graphite, CaF2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ZnS, H2O, Ag",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following case density of solid is more than ideal crystal?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KBr at higher temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AgBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ZnO upon heating",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The distance between two nearest neighbours in body centred cubic lattice of axial length a, is",
+    "question_diagram": "/images/last_leap_part2/p77_q64.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 a 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 a 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 a 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The number of atoms contained in a face centred unit cell of a diatomic molecular solid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following interstitial site is formed when the three closed packed spheres of one layer is put over three closed packed spheres of the second layer, their positions being inverted w.r.t. each other?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Octahedral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rhombohedral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tetragonal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "An ionic solid is hexagonal close packing of Q–2 ions and P+x ions are half of tetrahedral voids. The value of x should be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The coordination number of each type of ions  in CsCl crystal is 8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A metal that crystallises in bcc structure has  a coordination number of 12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A unit cell of an ionic crystal shares some of  its ions with other unit cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The length of the unit cell in NaCl is 552 pm  Na Cl (r 95 pm, r 181 pm)    ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 77,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The number of atoms in 100 g of a fcc crystal with density = 10.0 g/cm3 and cell edge length equal to 200 pm is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 × 1024",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 × 1025",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 × 1023",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 × 1025",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Scandium oxide (Sc2O3) crystallises with the oxide ions in a closed packed array with the scandium ions in octahedral holes. What fraction of the octahedral holes are filled?  2 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If NaCl is doped with 10–3 mol % of SrCl2, what is the number of cation vacancies per mole?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6.023 × 1020",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.023 × 1018",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6.023 × 1019",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.023 × 1017",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The packing fraction of HCP in two dimension is nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "74%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "68%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which is true about piezoelectric crystals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They produce an electric current on heating",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They produce an electric current when a  mechanical stress is applied",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They produce electric current on cooling",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They produce electric current on standing for  sometimes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "What are the number of atoms per unit cell and number of nearest neighbours in a simple cubic structure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1, 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4, 12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In NaCl, the centres of two nearest like charged ions are present at a distance of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a  2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3a 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The number of atoms/molecules contained in one face centred cubic unit cell of a monoatomic substance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The arrangement ABCABCABC..... is referred to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Octahedral close packing",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hexagonal close packing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tetrahedral close packing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cubic close packing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The edge length of the unit cell of NaCl crystal lattice is 552 pm. If ionic radius of sodium ion is 95 pm, what is the ionic radius of chloride ion?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "190 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "368 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "181 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "276 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The crystal with a  b  c,  =  =  = 90° is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cubic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Orthorhombic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tetragonal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hexagonal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following match is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Schottky defect – Number of ionic vacancies increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrolysis of aq. NaCl – H2 and Cl2 at cathode and anode",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SO2, CO2, SiCl4 – Lewis acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B(OH)3 – Tribasic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The hcp and ccp structure for a given element will not have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The same co-ordination number",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The same density",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The same voids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The same fraction of occupied space",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If B is doped with silicon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n-type semiconductor is formed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p-type semiconductor is formed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insulator is formed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polymer is formed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In Fe0.93O, the percentage of Fe+3 by number is nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "ZnO(s) becomes yellow upon heating because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn2+ has d10 configuration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ZnO is a covalent compound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There is impurity present in ZnO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Of metal excess defects",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 78,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a compound, ‘X’ atoms make cubic close packed lattice and ‘Y’ occupy one-third of the tetrahedral voids present. What is the formula of the compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X3Y2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X2Y3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "XY3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X3Y3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a molecular solid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SiC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diamond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AlN",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not possible distance between any two tetrahedral voids in cubic close packed lattice? [a = edge length]",
+    "question_diagram": "/images/last_leap_part2/p79_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "a 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 a 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 a 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3a 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The edge length (a) of the unit cells in terms of radius of spheres (r) constituting simple cubic, bcc and fcc unit cell are respectively  4r",
+    "question_diagram": "/images/last_leap_part2/p79_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "a = 2r, a =   3 and a =  2 r  4r",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a = 2 2 r , a = 2r and a =   3  4r",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a = 2r, a =   3 and a = 2 2 r  4r",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a = 2 2 r , a = 2 2 r and a =   3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The point defect which is shown by AgBr(s) crystals is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metal excess defect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Frenkel defect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Schottky defect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The packing efficiency is maximum in the fcc  structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The total number of atoms present in a simple  cubic unit cell is one",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Total number of octahedral voids present in ccp  unit cell is 3 except that present at body center",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The co-ordinatation number of a sphere in hexagonal close packing in two dimension is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of voids present on body diagonals in one unit cell of cubic close packing is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Edge length of a cube is 400 pm. Its body diagonal would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "600 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "566 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "693 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "500 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In a compound, atoms of element Y form CCP lattice and those of the element X occupy 2/3rd of tetrahedral void. The formula of the compound will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X4Y3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X2Y3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X2Y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X3Y4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Solid CO2 is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Molecular solid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Covalent solid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metallic solid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ionic solid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "The percentage of the available space occupied in a hexagonal close packing of spheres in three dimensions is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "26%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "76%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "52.4%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "74%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In cubic close packing of sphere in three dimensions, the coordination number of each sphere is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "If ‘A’ forms CCP lattice and B occupies 20% of octahedral voids, then the formula of compound is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AB",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AB2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A5B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A3B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statements is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The total number of atoms present in a simple  cubic unit cell is two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The packing efficiency is maximum for bcc  structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Total number of octahedral voids present on  diagonals in unit cell of cubic close packing is one",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The coordination number is always 8 in fcc  structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 79,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Coordination number of cation and anion respectively in fluorite structure is in the ratio",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 : 8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 : 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Radius of Fe atom if it crystallizes in FCC lattice of edge length 400 pm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "141.44 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "332 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "119 pm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In ‘Pervoskite’ structure, Ca atom occupies corners, O atom occupies face centres and ‘Ti’ occupies the mid of lines joining opposite face centres. Then, in the given unit cell formula, the oxidation state of ‘Ti’ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "Compound which can exhibit Schottky defect and Frenkel defect both?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AgCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AgBr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CsCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section A (Objective)",
+    "question_text": "In case of ionic solids maximum possible coordination number is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): On heating zinc oxide turns yellow.\nReason (R): Electrons trapped at anionic site is known as  E centre.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In hcp structure, each sphere is surrounded by  eight other spheres.\nReason (R): ABC, ABC ................. represents hcp  structure.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In cubic close packing (ABCABC...) C layer is  put over octahedral voids of B layer.\nReason (R): If third layer is put over tetrahedral voids of  second layer, hcp is obtained.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): LiCl shows pink colour, when heated in  presence of lithium vapours.\nReason (R): LiCl shows frenkel defect.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The correct order of size of void is  cubic > octahedral > tetrahedral > trigonal.\nReason (R): The cations or anions can occupy the voids.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ferromagnetic solids becomes paramagnetic  upon heating.\nReason (R): Unpaired electrons starts pairing upon heating.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Crystalline solids have sharp melting point.\nReason (R): Crystalline solids have definite enthalpies of  fusions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_06_solid_state_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Solid State",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The total number of atoms present in ccp  arrangement, per unit cell is 4.\nReason (R): In ccp, atoms occupy corners and body  centers of a cubic unit cell.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 80,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

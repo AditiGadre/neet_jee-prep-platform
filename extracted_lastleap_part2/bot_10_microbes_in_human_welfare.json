@@ -1,0 +1,3327 @@
+[
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q1",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not concerned with antibiotics?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They are ‘prolife’ in context of human beings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Have ability to retard or kill the growth of  microbes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Work by acting on different metabolic  pathways",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First antibiotic is actinomyces based",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q2",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct sequence of microbes involved in biogas production",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fermentative microbes, decomposers,  methanogens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decomposers, methanogens, putrefying  microbes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Putrefying microbes, methanogens, saprophytic  microbes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decomposers, fermentative microbes,  methanogens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q3",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "In the STPs, biological process of microbial degradation of organic matter involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Utilisation of activated sludge as inoculant  produced in the physical process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mainly involves anaerobic breakdown of organic  matter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Masses of unicellular bacteria entangled in  filamentous bacterial forms represent flocs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DO is greatly reduced by the microbial activity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q4",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Baculoviruses does not show",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Host specificity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Narrow spectrum applications",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Effects on non-target pathogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Utility in IPM programme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q5",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Enzyme which has the fibrinolytic effect is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amylase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lipase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Streptokinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q6",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Compounds which acts as competitive inhibitors of enzyme HMG CoA reductase of liver are produced from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prokaryotic unicellular organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Eukaryotic multicellular organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prokaryotic multicellular organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Eukaryotic unicellular organisms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q7",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Swiss cheese is associated with which of the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ripened, moisture content 45%, hard cheese",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Large holes, moisture content < 40%, hard  cheese",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Processed, large holes, moisture content 50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Raw cheese, semisoft, large holes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q8",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Statins are produced by   and have been commercialised as  .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria, blood-cholesterol lowering agent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trichoderma, immunosuppressive agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Yeast, blood-cholesterol lowering agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacteria, clot buster",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q9",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The fermentative activity of fungus Trichoderma polysporum yields which of the following substance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclosporin - A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gluconic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soya sauce",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 345,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q10",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Large holed Swiss cheese is ripened with the help of CO2 producing bacterium called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Saccharomyces cerevisiae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leuconostoc cremoris",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Streptococcus cremoris",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Propionibacterium sharmanii",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q11",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The property of domestic sewage of becoming decomposed through microbial activity is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Incineration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Putrescibility",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyrolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pasturisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q12",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Yoghurt is produced by curdling of milk with the help of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Streptococcus thermophilus and Lactobacillus  bulgaricus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S. lactis and S. cremoris",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "L. acidophillus and Fusarium oxysporum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spirulina and Saccharomyces cerevisiae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q13",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Roquefort cheese is associated with which of the following?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ripened, soft cheese",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unripened, hard cheese",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ripened, semihard cheese",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unripened, soft cheese",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q14",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. bioinsecticides",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacillus thuringiensis, releasing cry proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rotenone is obtained from roots of Trichoderma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Species specific nucleopolyhedrovirus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Azadirachtin from neem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q15",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Match column I with column II  Column I Column II  a. Statins (i) Propionibacterium  b. Swiss cheese (ii) Aspergillus  c. Cyclosporin A (iii) Monascus  d. Citric acid (iv) Trichoderma",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q16",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Biological activities are carried out in which of the following effluent treatment plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary treatment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary treatment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tertiary treatment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chemical treatment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q17",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Baculoviruses are pathogens that attack ________.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Birds and mammals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fishes and reptiles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insects and other arthropods",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pathogenic fungi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q18",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not used for ripening of cheese?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Propionibacterium sharmanii",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lactobacillus acidophilus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Penicillium roquefortii",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Penicillium camembertii",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q19",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is used in detergents to remove proteinaceous spots?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Citric acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gluconic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proteases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amylases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q20",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alcoholic fermentation by yeast and conversion  of alcohol to acetic acid both are aerobic processes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alcoholic fermentation is aerobic and  conversion of alcohol to acetic acid is anaerobic one",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alcoholic fermentation by yeast is anaerobic  and conversion of alcohol to acetic acid is aerobic one",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alcoholic fermentation by yeast and conversion  of alcohol to acetic acid both are anaerobic processes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q21",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Screw worm was eradicated by releasing",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sterile females",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sterile males",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both sterile females and sterile males",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pheromones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q22",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Use of renewable resources which causes minimum pollution and maintain the optimum yield lavel, can be regarded as _________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Agroforestry",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Social forestry",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sustainable agriculture",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Organic forestry",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q23",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct for mycorrhiza?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absorbs nitrogen and water only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Helps in nitrogen fixation and hence, regarded  as fertilizer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absorb and store N, P, K and Ca",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Restricted to gymnospermous plants only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 346,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q24",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Gasohol contains a mixture of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "85 – 90% petrol with 10 – 15% diesel",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "85 – 90% alcohol with 10 – 15% petrol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "85 – 90% petrol with 10 – 15% alcohol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75% petrol with 25% alcohol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q25",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Statins produced by the yeast Monascus purpureus have been commercialised as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Immunosuppressive agent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blood-cholesterol lowering agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Clot buster",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Agents to increase immunity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q26",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Who was/were awarded Nobel prize in 1945 for the discovery of penicillin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alexander Fleming",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ernest chain and Howard Florey",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fleming, Chain and Florey",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Howard Florey",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q27",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Nutritional quality of curd is better than milk due to presence of excess amount of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vitamin C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vitamin B6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vitamin B12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q28",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The technology of biogas production in India was",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Imported from Japan",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Imported from Denmark",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Imported from USA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Developed in India due to efforts of IARI and  KVIC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q29",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Most efficient nitrogen fixer in rice field is ______ and in sugarcane field is _______ respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aulosira, Cylindrospermum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cylindrospermum, Aulosira",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nostoc, Anabaena",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Microcystis, Macrocystis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q30",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The enzyme which is not involved in leavening process, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zymase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rennin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amylase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maltase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q31",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "To make soft and porous bread, a small quantity of yeast powder is added to wheat flour and the same is kneaded. What is the correct event for it?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amylase converts starch into maltose sugar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is due to fermentation of glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is due to production and accumulation of  ethyl alcohol and CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is due to evaporation of ethyl alcohol  and CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q32",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "In STPs, primary sludge is produced when sewage is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Passed through filtration and sedimentation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaerobically digested",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Treated with aerobic heterotrophic microbes in  the aeration tank",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chlorinated and treated with UV rays",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q33",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following micro-organisms to the related products.  Column-I Column-II  a. Swiss cheese (i) Monascus  b. Statin (ii) Propionibacterium  c. Butyric acid (iii) Trichoderma  d. Cyclosporin A (iv) Clostridium",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q34",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Leavening of flour is brought about by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zymase, protease and amylase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amylase, pectinase and maltase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protease, pectinase and zymase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zymase, amylase and maltase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q35",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column-I Column-II  a. Gluconic acid (i) Penicillium  b. Cyclosporin A (ii) Monascus  c. Statins (iii) Rhizopus  d. Amylases (iv) Trichoderma",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iii), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q36",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Microbial degradation of organic matter in STP takes place during",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary treatment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary treatment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tertiary treatment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reverse osmosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q37",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Biogas",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Production involves utilisation of obligate  anaerobes only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is methane rich fuel having CO2 and H2S in  traces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Generation involves use of fermentive microbes  during solubilisation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Has calorific value of 4429 kcal/m3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 347,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q38",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Eleven membered cyclic oligopeptides obtained from fungus Trichonderma polysporum and used as immunosuppressive agent is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Streptokinase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclosporin A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Proteases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q39",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement/s  a. Flocs are masses of anaerobic bacteria associated with fungal filaments  b. BOD gets reduced significantly when the secondary treatment is done using aerobic microbes  c. Activated sludge can be sedimented only after anaerobic digestion of sewage  d. Mixture of gases is released during aerobic digestion of sewage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (c)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All, except (b)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q40",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The effective biocontrol agent of several plant pathogens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacillus thuringiensis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ladybird beetle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trichoderma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Baculovirus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q41",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match  Column-I Column-II  a. Gluconic acid (i) Colletotrichum gloeo-sporioides  b. Cyclosporin A (ii) Monascus purpureus  c. Statins (iii) Trichoderma  polysporum  d. Collego (iv) Penicillium  chrysogenum",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iii), c(ii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q42",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct match w.r.t. biopesticides  Column-I Column-II  a. Parthenium (i) Cactoblastis hysterophorus cactorum  b. Hypericum perforatum (ii) Zygogramma  bicolorata  c. Opuntia (iii) Chrysolina  d. Milk weed vines (iv) Phytophthora  palmivora",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q43",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monascus – Statins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trichoderma – Thurioside",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aspergillus – Citric acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Propionibacterium – Swiss cheese",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q44",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The true bacteria that can fix atmospheric nitrogen while free living in the soil are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Frankia, Azospirillum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anabaena azollae, Azotobacter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oscillatoria, Rhizobium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rhodospirillum, Azotobacter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q45",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The competitive inhibitor of -hydroxy- -methyl- glutaryl CoA reductase is the fermentation product of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Streptococci",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monascus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trichoderma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Propionibacterium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q46",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "During sewage treatment a small part of the activated sludge is pumped back into the aeration tank to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Serve as inoculum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Serve as nutrient medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Produce biogas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Produce CO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q47",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following organism is not used in organic farming?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E. coli",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anabaena",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oscillatoria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nostoc",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q48",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Bioactive molecule used as immunosuppressant in organ transplant patients is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclosporin-A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Statins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Streptokinase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TPA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q49",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Effective biocontrol agent of fungal origin against several plant pathogens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacillus thuringiensis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trichoderma",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Baculovirus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Streptomyces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q50",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "‘Flocs’, developing during secondary treatment of sewage refers to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Masses of obligate anaerobic bacteria  associated with fungal filaments",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Masses of bacteria developing in anaerobic  sludge digesters",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mesh formed by groups of methanogenic  bacteria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mesh of fungal filaments when associated with  masses of aerobic bacteria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 348,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q51",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following organism is common in root ecosystems and acts as an effective biocontrol agent of several plant pathogens?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleopolyhedrovirus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lady bird beetle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cactoblastis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Trichoderma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q52",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following four statements (a–d), find out the incorrect option w.r.t. lactic acid bacteria  a. In our stomach, they play beneficial role by checking disease causing microbes.  b. LAB produce acids that coagulate and completely digest the milk proteins.  c. Improves the nutritional quality by increasing the amount of riboflavin.  d. Require suitable temperature for their multiplication.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q53",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Different varieties of cheese are known by their characteristic texture, flavour and taste, the specificity coming from the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flavouring agent used",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Microbes used",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is inherent quality",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molecular interaction between chemicals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q54",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out with respect to distillation of fermented broth.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brandy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Whisky",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q55",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Alexander Fleming accidently discovered antibiotic penicillin from a mould, but he was working on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Streptococci",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Streptobacilli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Staphylobacilli",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Staphylococci",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q56",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option gives the correct matching of microbe, product and use?  Microbe Product Use",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Saccharomyces Methanol Rum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Streptococcus Streptokinase Blood-cholesterol  lowering agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monascus Statins Clot buster",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Trichoderma Cyclosporin A Organ  transplantation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q57",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements (a–d) each with one or two blanks.  a. All solids that settle during primary treatment  of sewage forms  (i)  and supernatant forms  the  (ii) .  b. Secondary treatment of sewage is also known  as  (iii) treatment.  c. A small part of the activated sludge is pumped back into the aeration tank to serve as the  (iv) .  d. The sewage water is treated till  (v)  is reduced.  Which of the following option gives the correct fill ups for the respective blank numbers from (i) to (v) in the statements?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) Primary sludge (iii) Flocs (v) DO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(ii) Effluent (iii) Biological (iv) Inoculum (v) BOD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(i) Primary sludge (iii) Flocs  (iv) Inoculum (v) DO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(i) Effluent (ii) Primary sludge (iii) Flocs  (v) BOD",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q58",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find out which one of the following statement is not correct with respect to biogas plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It has a floating cover which keeps on rising as  gas is produced",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It consists of a 10-15 feet deep tank in which  bio-wastes are collected and a slurry of dung is fed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Main gases produced are methane, isobutane  and propane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spent slurry may be used as fertiliser",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q59",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following pair is wrongly matched?  Biological agent Target",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ladybird Aphids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dragonflies Mosquitoes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trichoderma Insect pests and weeds",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Baculoviruses Insects  and  other arthropods",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q60",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is the correct about bio-fertiliser?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria, fungi and cyanobacteria are major  sources",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "These are ecofriendly",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Micro-organisms involved can be symbiotic or  free living",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 349,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q61",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out with respect to mycorrhiza.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Many members of genus Glomus form  mycorrhiza",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fungal partner absorbs all the nutrients from  soil except phosphorus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Provide protection against root-borne  pathogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Provide tolerance to salinity and drought",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q62",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the mis-matched pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aspergillus niger – Citric acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleopolyhedrovirus – Narrow spectrum weedicide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blue green algae – Important  biofertiliser in paddy fields",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glomus – Mycorrhiza",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q63",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Masses of bacteria associated with fungal filaments to form mesh like structures is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flocs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary sludge",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sewage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biofertiliser",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q64",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Eleven membered cyclic oligopeptide which act as an immunosuppressive agent is obtained through fermentive activity of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aspergillus niger",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trichoderma polysporum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Byssochlamys fulvo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mortierella",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q65",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Proteases used in detergents and clearing of juices are obtained from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monascus purpureus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mortierella renispora",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Streptococcus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Trichoderma sp.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q66",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t streptokinase enzyme activity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of fibrinolytic effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Used as a blood clot buster",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Produced by Streptococci",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Used as an immunosuppressive agent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q67",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "During waste water treatment process in STPs",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Floating debries is removed by sedimentation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary effluent is passed directly in secondary  settling tank for treatment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sedimented flocs are activated sludge in  secondary settling tank",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Secondary treatment is carried out in aeration  tank by anaerobic heterotrophic bacteria and fungi",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q68",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Baculoviruses are pathogens that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Attack insect and arthropods",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Placed in genus Nucleopolyhedrovirus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shows specific insecticidal application",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q69",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a source of cyclosporin A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trichoderma polysporum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monascus purpureus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Propionibacterium sharmanii",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mortierella renispora",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q70",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Find a correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trichoderma – Statins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monascus – Cyclosporin A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Propionibacterium – Camembert cheese",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cactoblastis – Eradication of Opuntia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q71",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair of alcoholic drinks is produced by distillation of the fermented broth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wine and Rum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Beer and Wine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wine and Brandy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Brandy and Whisky",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q72",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match w.r.t. microbes and their product  Column I Column II (Microbes) (Product)  a. Aspergillus niger (i) Ethanol  b. Acetobacter aceti (ii) Butyric acid  c. Clostridium butylicum (iii) Citric acid  d. Saccharomyces cerevisiae (iv) Acetic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q73",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "A     produced by the       B     and modified by genetic engineering is used as “clot buster” for removing clots from the blood vessels of patients who have undergone myocardial infarction leading to heart attack.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(A) Cyclosporin A  (B) Streptococcus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(A) Immunosuppressive agent  (B) Trichoderma polysporum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(A) Streptokinase  (B) Streptococcus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(A) Streptokinase  (B) Trichoderma polysporum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 350,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q74",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Statins, commercialised as blood cholesterol lowering agent, are produced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Penicillium chrysogenum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Saccharomyces",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monascus purpureus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Staphylococci",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q75",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following significantly reduces the biochemical oxygen demand of the effluent in STPs?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Masses of algae associated with fungal  filaments",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Masses of bacteria associated with algal  filaments",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Masses of bacteria associated with fungal  filaments",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Masses of algae associated with viruses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q76",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Bacillus thuringiensis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Controls aphids and Ladybird beetle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are available in sachets as syrups",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serves as an important biofertiliser in paddy  fields",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Releases toxin in the gut of insect larvae and  the larvae get killed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q77",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following organism can fix atmospheric nitrogen while free living in the soil?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rhizobium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Frankia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glomus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Azospirillum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q78",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The greater the BOD of waste water, more is  its polluting potential",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Baculoviruses are pathogens that attack  several insects and plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trichoderma species are effective biocontrol  agents of several plant pathogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sporeine was first bioinsecticide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q79",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Biogas is a mixture of gases produced from the microbial activity and it consists of all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methane and CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrogen and nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sulphur dioxide and carbon monoxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrogen sulphide and nitrogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q80",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is incorrectly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "TPA – Streptococcus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Statins – Inhibits cholesterol  synthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclosporin A – Immunosuppressive agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Citric acid – Clostridium butylicum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q81",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Wine and beer are produced",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "By distillation only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "By fermentation and distillation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "By fermentation but without distillation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Without fermentation and distillation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q82",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Alternate source of proteins for animal and human nutrition may be  a. Methylophilus methylotrophus  b. Spirulina  c. Mushroom",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (a)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (b)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All a, b, & c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q83",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is one of the most significant discoveries of the twentieth century that greatly contributed towards the welfare of human society?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biogas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Curd",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Penicillin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Citric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q84",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Match the Column-I with Column-II  Column-I Column-II (Bioactive molecules) (Source)  a. Cyclosporin A (i) Monascus  b. Statins (ii) Clostridium  c. Clot buster (iii) Trichoderma  d. Butyric acid (iv) Streptococcus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q85",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Fill in the blanks with appropriate words.  A. ________ are the masses of bacteria associated with fungal filaments to form mesh- like structures.  B. ________ is used as a ‘clot buster’.  C. Baculoviruses are excellent candidates for ________ insecticidal application  D. ________ are organisms that enrich the nutrient quality of the soil.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Flocs  D – Biofertilisers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B – Cyclosporin-A  C – Broad spectrum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Primary sludge  C – Narrow spectrum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B – Streptokinase  D – Biopesticides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 351,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q86",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "In a STP, microbial flocs are formed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaerobic sludge digester",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary treatment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aeration tank",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Physicochemical treatment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q87",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Use of some microbes as biofertiliser to enhance crop productivity  is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Organic farming",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Marine farming",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Micro farming",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Compost farming",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q88",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Dough used for making dosa and bread are fermented respectively by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria, Fungi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fungi, Bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eukaryotic, Prokaryotic organism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Yeast, Moneran",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q89",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Three water samples were collected. Drinking water, untreated sewage water and secondary effluent. The samples were labelled A, B, and C but laboratory attendant did not note the source of sample. The BOD values of the samples recorded is 20 mg/L, 2 mg/L and 400 mg/L respectively. Using this data select the correct source of water for the labels A, B and C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Secondary effluent  B – Drinking water  C – Untreated sewage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Untreated sewage  B – Drinking water  C – Secondary effluent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Drinking water  B – Secondary effluent  C – Untreated sewage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Untreated sewage  B – Secondary effluent  C – Drinking water  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q90",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "Sewage treatment process includes all of these features, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A small part of the activated sludge is pumped  back into the aeration tank to serve as inoculum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Activated sludge cannot be used in anaerobic  digestion process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaerobic bacteria digest bacteria in sludge  digesters",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transfer of primary effluent in aeration tanks",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secA_q91",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section A (Objective)",
+    "question_text": "The source of toddy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Opened spadices of coconut",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Opened catkins of coconut",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unopened spadices of coconut",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unopened catkins of coconut",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secB_q1",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Wine and Beer are produced through the  process of distillation.\nReason (R): Nutrient medium utilized for wine in Hordeum  vulgare.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secB_q2",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): After 24 hours toddy remains palatable.\nReason (R): Toddy does not undergo fermentation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secB_q3",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): BOD is a measure of the organic matter  present in the water.\nReason (R): Greater the BOD of waste water, less is its  polluting potential.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_10_microbes_in_human_welfare_secB_q4",
+    "subject": "Botany",
+    "chapter": "Microbes in Human Welfare",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Baculoviruses as biocontrol agents have no  negative impact on plants, mammals and target insects.\nReason (R): These are effective against several plant  pathogens.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 352,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

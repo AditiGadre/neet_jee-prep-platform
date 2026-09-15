@@ -1,0 +1,4172 @@
+[
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal ion is having magnetic moment 5.95 B.M.?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ti3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The green manganate ion is paramagnetic and  tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The green manganate ion is diamagnetic and  tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The purple permanganate ion is diamagnetic  and tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KMnO4 is strongest oxidising agent in acidic  medium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Reduction of permanganate ion is represented by half reactions given below  – + e–  MnO4  2–  Alkaline : MnO4  – + 4H+ + 3e–  MnO2 + 2H2O  Neutral : MnO4  – + 8H+ + 5e–  Mn2+ + 4H2O  Acidic : MnO4  KMnO4 is most powerful oxidising agent in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acidic medium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neutral medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkaline medium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Equal in all",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of magnetic moment for Mn2+, V2+, Fe2+, Ti2+ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ti2+ = V2+ = Mn2+ = Fe2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "V2+ < Ti2+ < Mn2+ < Fe2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ti2+ < V2+ < Fe2+ < Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ti2+ < V2+ < Mn2+ < Fe2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which triad belongs to same period?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu, Ag, Au",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe, Co, Ni",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn, Cd, Hg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of elements of 3d (horizontal row) + 4d (horizontal row) will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "28",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "14",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is/are correct when a mixture of NaCl and K2Cr2O7 is gently warmed with conc. H2SO4?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The vapour when passed into NaOH solution  gives a yellow solution of Na2CrO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chlorine gas is evolved",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromyl chloride is formed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Among the following outermost electronic configurations of transition metals, which shows the highest oxidation state?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3d5, 4s2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5d7, 6s2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5d6, 6s2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4d10, 5s1  Cl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "A + KOH + O2 B green coloured compound  C  purple black prism crystal  513 K  D  A and D in above reaction is",
+    "question_diagram": "/images/last_leap_part2/p211_q9.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "K2MnO4, KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MnSO4, K2MnO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MnO2, KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MnO2, K2MnO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the first transition series, the dip in the melting point is observed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Co",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 211,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of KMnO4 reduced by 1 mole of SO2 in acidic medium is  2 5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "A solution of K2Cr2O7 and sulphuric acid react with  H2O2 to produce blue coloured compound  which is soluble in ether and produces blue colour solution. Which of the following statements are  correct regarding compound  ?  A. The oxidation state of Cr in this compound is +6  B. This compound has 2 peroxy linkage  C. The hybridization of Cr in   is sp3d2  D. It is strongest base among all compound of chromium",
+    "question_diagram": "/images/last_leap_part2/p212_q12.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A and B are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A, B and C are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B & D are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A & D are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not the characteristic of the transition metals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They show variable oxidation state",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They form coloured compounds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They have low enthalpy of atomisation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They act as good catalysts",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "On adding NaOH solution to the aqueous solution of K2Cr2O7, the colour of the solution changes from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Orange to yellow",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Yellow to orange",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Orange to red",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Yellow to pink",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The electronic configuration of actinoids can not be assigned with accuracy on the basis of Aufbau principle because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Overlapping of inner orbitals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Free movement of electrons over all the orbitals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Small energy difference between 5f and 6d  levels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lanthanoid contraction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "If ‘x’ is the number of unpaired electrons, the magnetic moment (in Bohr magneton) is given by",
+    "question_diagram": "/images/last_leap_part2/p212_q16.png",
+    "options": [
+      {
+        "label": "1",
+        "text": ") 2 x ( x ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": ")1 x ( x ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ") 2 x ( x ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": ")1 x ( x ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the titration of Fe2+ ion with KMnO4 in acidic medium, which of the following acid can be used?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "dil. HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dil. H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "dil. HNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  –        F excess  SCN 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "B ) A ( FeCl excess  The spin only magnetic moment of B is",
+    "question_diagram": "/images/last_leap_part2/p212_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "5.916",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.95",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In moist air, copper corrodes to produce a green layer on its surface. The formula of green layer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CuCO3.Cu(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CuCO3)2.Cu(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuCO3.Cu2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CuCO3)2Cu2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following species has maximum tendency to form complexes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "La3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lu3+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gd3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ce3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Chromyl chloride when dissolved in NaOH solution gives yellow solution. The yellow solution contains  2– ions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "CrO4  2– ions",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CrO5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent mass of KMnO4 in acidic medium, alkaline medium and neutral medium respectively (if molecular mass is M)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 M , 3 M , 5 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M , 5 M , 3 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 M , M , 5 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 M , 3 M , M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "O3 cannot be used for oxidation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FeSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K2MnO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "For which of the following ions, the colour is not due to d-d transition?  –2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "[Cu(NH3)4]2+",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CrO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ti(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[CoF6]3–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Iron is rendered passive by treatment with concentrated",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HNO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction given below what is true about the missing substance?  MnO2 + 4HCN  Mn(CN)2 + ...... + 2H2O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is pseudohalogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is hydrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is chalcogen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is methane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 212,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Ammonium dichromate on heating gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chromic acid and ammonia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chromium sesquioxide and nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromium sesquioxide and ammonia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chromic acid and nitrogen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of acidic strength of CO2, CuO, CaO, H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaO < CuO < H2O < CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O < CuO < CaO < CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CaO < H2O < CuO < CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O < CO2 < CaO < CuO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When excess of KI is added to aqueous CuSO4, the solution acquires dark brown colouration. This is due to the formation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CuI2(s)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu2I2(s)  –(aq)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I2(s)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "A complex of certain metal has the magnetic moment of 4.91 BM where as another complex of same metal with same oxidation state has zero magnetic moment. The metal ion would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Co+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of oxidising power of some oxidising agents is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2 4 – 2 7 2 – 4 CrO O Cr MnO  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 4 – 2 4 – 2 7 2 MnO CrO O Cr  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 4 – 2 7 2 – 2 4 MnO O Cr CrO  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 2 7 2 – 2 4 – 4 O Cr CrO MnO  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The number of peroxide linkages in K3CrO8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The element which does not show d0 configuration in its highest oxidation state",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The highest oxidation state shown by  transition element is +8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sc, Y and La do not show variable oxidation  state",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potassium dichromate is more soluble than  sodium dichromate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu+ ion is not stable in aqueous solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst CuCl2.2H2O, Cr2O3, Sc2O3, the colourless species is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cr2O3 and Sc2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sc2O3 and CuCl2.2H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sc2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr2O3 and CuCl2.2H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The element A, B, C and D have atomic number 23, 24, 25, 26 respectively. Which one has maximum second ionization potential?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The lanthanoid which shows +4 oxidation state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ce",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Yb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The element of 3d, 4d & 5d series with highest melting point are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn, Mo, W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn, Tc, W",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr, Tc, W",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr, Mo, W",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Among the following transition metal ions the one with lowest and highest magnetic moment is respectively  Cr+2, Ti+2, Cu+2, V+2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cr+2, V+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu+2, Cr+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu+2, Ti+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All have same magnetic moment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "For the following sequence of reactions  (i) Chromite ore + Na2CO3 + O2  [A] + Fe2O3 + CO2 (ii) [A] + 2H+[B] + 2Na+ + H2O  (iii) [B] + 2KCl[C] + NaCl  [A], [B], [C] respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2Cr2O7, Na2CrO4, K2CrO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2Cr2O4, Na2Cr2O7, K2CrO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CrO4, Na2Cr2O7, K2Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaCrO4, K2CrO4, K2Cr2O7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "CuSO4 reacts with excess of KCN to form",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu(CN)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu(CN)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K3[Cu(CN)4]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K4[Cu( CN)4]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Pyrolusite when fused with KOH and oxidised with air, it forms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn3O4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2MnO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MnO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 213,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Among the following transition metal oxides, the one which is most and least basic are respectively CrO, VO, FeO, TiO",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "TiO, VO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "TiO, FeO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FeO, TiO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FeO, CrO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Blue vitriol on strong heating gives anhydrous compound which on reaction with KI solution gives white precipitate of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CuI2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu2I2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuI3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CuSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  4M + 8CN– + 2H2O + O2  4[M(CN)2]– + 4OH–  The metal ‘M’ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Au",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When K2Cr2O7 is heated with alkali, it gives  2–",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Cr2O3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "None of these",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CrO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The incorrect statement among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "La(OH)3 is less basic than Lu(OH)3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In lanthanide series, ionic radii of Ln3+ ion  decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "La is actually an element of transition series  rather than lanthanide series",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Atomic radii of Zr and Hf are same because of  lanthanide contraction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following ionic species will impart colour to aqueous solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ti4+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct order of m.p.?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ti < V < Cr < Mn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe < Co < Ni < Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mn < Fe > Co > Ni",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr < Mn < Fe < Co",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "An explosion takes place, on heating concentrated H2SO4 with KMnO4 due to formation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn2O7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MnO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MnSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mn2(SO4)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The nature of hydride formed by the element of atomic number 24 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionic hydride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Covalent hydride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interstitial hydride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No hydride",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of melting point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn > Fe > Cr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cr > Fe > Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe > Mn > Cr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe > Cr > Mn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following oxide is most acidic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MnO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ZnO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KCN is used as depressant in the separation of  mixture of PbS and ZnS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Highest oxidation state of transition metal  shown is +8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lanthanoids form stable compounds in +4 state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Compounds of zinc are diamagnetic  Na CO",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "H SO O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KCl (A) (B).     2 3 2 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Ferrochrome   2  Then which of the following is correctly given?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(B) in alkaline medium changes colour from  yellow to orange",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(B) in acidic medium give blue colour on  reaction with H2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(B) on reaction with PbCl2 in acidic medium  give reddish brown colour because of formation of CrO2Cl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound does not give chromyl chloride test?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AgCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When calomel reacts with NH4OH, we get",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hg(NH2)Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH2 – Hg – Hg – Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hg2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HgO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the standardization of Na2S2O3 using K2Cr2O7 in iodometry, the equivalent mass of K2Cr2O7 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Molecular mass  2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Molecular mass  6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molecular mass  3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Same as molecular mass",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 214,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "K2Cr2O7    A + B + O2 Compound ‘A and B’ respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K2CrO4 and Cr2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2CrO4 and CrO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr2O3 and KO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Platinum black is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pt mixed with CuO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pt coated with black paint",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pt powder formed by reduction of PtCl4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pt powder",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The separation of which of the following ions is not possible by H2S in acidic medium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pb2+, Bi3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cd2+, Co2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu2+, Ni2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu2+, Zn2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which metal is protected by layer of its own oxide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pt",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Au",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ag",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Coloured compound is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ZnCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "TiCl4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ni (dmg)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state of Ag in Tollen’s reagent is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+1.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Order of thermal stability of ZnO, HgO and CdO is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HgO < CdO < ZnO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CdO < HgO < ZnO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HgO > CdO > ZnO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ZnO < HgO < CdO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the nature of hydrides formed by elements having electronic configuration [Ne]3s1, [Ne]3s23p2 and [Ar]4s13d5 respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionic, covalent, interstitial",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Covalent, interstitial, ionic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Covalent, interstitial, covalent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ionic, covalent, covalent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is coloured due to charge transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the consequence of lanthanoids contraction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Difficulty in the separation of lanthanoids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Similarity in size of elements belonging to  same group of second and third transition series",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Basic strength of hydroxides decrease from  La(OH)3 to Lu(OH)3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Gold forms chloroauric acid when reacts with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conc. HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conc. HNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conc. H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aqua regia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "How many d-block elements have the ability to evolve hydrogen gas from 2% nitric acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "2 4 4 2 2 xMnO 4H yMnO MnO zH O.         The value of x, y and z respectively for the balanced chemical reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4, 3 & 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3, 2 & 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4, 3 & 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3, 2 & 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following element is radioactive?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "57La",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "61Pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "63Eu",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "68Er",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the two element have least difference in atomic radii?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ti, Fe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zr, Hf",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca, Ba",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li, Na",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The pair in which both member have same magnetic moment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn2+, Fe2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ni2+, Cu2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Co3+, Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Co3+, Fe2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following element belongs to actinide series?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "La",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gd",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lu",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Th",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement about given reaction  KOH Green solution Electrolysis  Pyrolusite  (A)  Purple solution KI (Basic  medium)  (B) (C)",
+    "question_diagram": "/images/last_leap_part2/p215_q76.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(A) is paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All bond lengths are equal in (B) having p–d  character",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidation state of I in (C) is +5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 215,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Titanium shows magnetic moment of 1.73 BM in its compound. What is the oxidation state of Ti in the compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has maximum number of unpaired electron?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which metal is known as non-typical transition metal?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tungsten",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Platinum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cadmium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the equation,  4M + 8CN– + 2H2O + O2  4[M(CN)2]– + 4OH–  The metal M is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gold",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Copper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Silver",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Reaction of Zn with cold and very dilute nitric acid yields",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn(NO3)2 + N2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn(NO3)2 + NO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn(NO3)2 + NH4NO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn(NO3)2 + NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Non-typical transition elements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe, Co and Ni",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sc, Y, La and Ac",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ti, Zr and Hf",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which transition metal has lowest melting point?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Co",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "On heating, KMnO4 is not converted into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K2MnO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MnO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MnO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When gold is reacted with aqua regia then it is converted into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HAuCl4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AuCl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AuCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Most paramagnetic species is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "FeSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NiCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn(NO3)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr2(SO4)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following sulphide is not black?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ZnS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HgS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ag2S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CuS",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "On addition of KMnO4 to well cooled conc. H2SO4, the compound formed which decomposes on warming is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MnO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn3O4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mn2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MnO3  +",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In dichromate ion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4, Cr – O bonds are equivalent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6, Cr – O bonds are equivalent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3, Cr – O bonds are equivalent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All Cr – O bonds are equivalent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compounds is both coloured and paramagnetic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "VOSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KMnO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct increasing order of radii",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Yb+3 < Pm+3 < Ce+3 < La+3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ce+3 < Yb+3 < Pm+3 < La+3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Yb+3 < Pm+3 < La+3 < Ce+3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pm+3 < La+3 < Ce+3 < Yb+3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect about cerium? (Z = 58)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The oxidation state of cerium are +3 and +4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cerium (IV) acts as an oxidizing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The +3 oxidation state of cerium is not known  in solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The +3 oxidation state of cerium is more  stable than +4 oxidation state",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "What would be the oxidation state of chromium in the final product formed by the reaction between KI and acidified K2Cr2O7?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Metals usually do not occur in nature as nitrate because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metal nitrates are insoluble in water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All metal nitrates are volatile",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metal nitrates are soluble in water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction,  K2Cr2O7+14 HCl 2KCl+2CrCl3+3Cl2+7H2O  how many moles of HCl act as reducing agent in balanced chemical equation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 216,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Actinoids have greater tendency to form  complex than lanthanoids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ce exhibit +3 and +5 oxidation states",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Actinoids are non-radioactive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "La(OH)3 is less basic than Lr(OH)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Element of which of the following pair of groups in periodic table are called non-typical transition elements?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 and 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 and 12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 and 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 and 12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is coloured due to charge transfer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CuSO4.5H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "2 2 7 Cr O  is orange coloured due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "d-d transition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Resonance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Charge transfer spectra",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "What is the common oxidation state for lanthanoids ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set of oxides are amphoteric in nature ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ZnO, Cr2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn2O7, V2O5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V2O5, CrO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cr2O3, Mn2O7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The element ‘La’ and ‘Ac’ are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "s-block element",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p-block element",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d-block element",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "f-block element",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The purple colour of KMnO4 is due to  d-d-transition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidation state of Cr is +6 in dichromate ion  and +3 in chromate ion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2Cr2O7 is a powerful reducing reagent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The spin only magnetic moment of [Cr(CO)6] is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.90 BM",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.84 BM",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5.92 BM",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): E° value for the Mn3+/Mn2+ is much more  positive than that of Cr3+/Cr2+.\nReason (R): Third ionisation energy of Mn is very high.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Mn2+ shows a magnetic moment of 5.92 B.M.\nReason (R): This is due to the presence of four unpaired  electrons in 3d orbitals.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ce4+ is good oxidizing agent.\nReason (R): Sm2+ is a good reducing agent.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In weakly alkaline medium, KMnO4 oxidizes  iodides to iodates.\nReason (R): KMnO4 behaves as stronger oxidising agent in  strongly alkaline medium than in acidic medium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ce4+ is used as an oxidising agent in  volumetric analysis.\nReason (R): Ce4+ has tendency of attaining +3 oxidation  state.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): KMnO4 is stored in dark coloured bottles.\nReason (R): On heating with alkalies KMnO4 is converted to  manganate.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): La(OH)3 is more basic than Lu(OH)3.\nReason (R): The basic character of oxides and hydroxides  decreases from La(OH)3 to Lu(OH)3.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): HgCl2 and SnCl2 exist together in aqueous  solution.\nReason (R): On heating HgCl2 is liquefied.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): White tin vessels cannot be used in cold  countries.\nReason (R): At low temperature white tin changes into grey  tin, which is very brittle and easily comes into powdered form.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 217,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Elements of group 3 and group 12 of periodic  table are called non-typical transition elements.\nReason (R): All transition elements are d-block elements  but all d-block elements are not transition elements.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 218,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q11",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): All the actinoids are strong reducing agents.\nReason (R): All the actinoids are radioactive.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 218,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q12",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): KMnO4 acts as oxidizing agent in acidic, basic  and alkaline medium.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): Equivalent weight of KMnO4 is lowest in acidic  medium.  2– ions have orange colour.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 218,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q13",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cr2O7\nReason (R): It is due to presence of unpaired electron.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 218,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_22_d_f_block_elements_secB_q14",
+    "subject": "Chemistry",
+    "chapter": "d & f - Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Actinoids exhibit variable oxidation states.\nReason (R): 5f, 6d and 7s sub-shells are of comparable  energies.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 218,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

@@ -1,0 +1,4082 @@
+[
+  {
+    "question_id": "chem_05_redox_reactions_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent mass of As2S3 in the following reaction  As2S3 + NaClO3 + NaOH  Na3 AsO4 + NaClO + Na2SO4, is  (Assuming molar mass of As2S3 is M)  M  6",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "4  M 20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M 28",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation number of ‘S’ in H2SO5 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The number of peroxide linkage in CrO5 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Three",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of Fe C2O4 required to react with one mole of KMnO4 in the acidic medium is  5 3 mole",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "3 5 mole",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 5 mole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.0 mole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "If ‘M’ is the molar mass of P4 in the following reaction  P4 + 3OH– + 3H2O 3H2PO2  – + PH3 The equivalent mass of P4 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M  4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M 12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation number of middle carbon in the carbon sub-oxide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 4  4 3 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The mass of FeSO4 required to oxidise by 50 ml of 0.2 M KMnO4 solution in the acidic medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.0 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7.6 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.56 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state of Fe in Fe0.93 O1.00 is  200 93 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "93 200 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Molarity of 200 ml KMnO4 in acidic medium, which can oxidise 20 ml of 30 volume H2O2 completely is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.6 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.11 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.2 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.6 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Number of peroxide linkage in CrO5, H2SO5, H2S2O8 are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2, 1, 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2, 2, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1, 1, 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 1, 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "4 CuSO + KI Cu2I2 + I2 + K2SO4 Equivalent weight of underlined compound in this reaction is  M",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M  4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 65,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "6NaOH + 3Cl2 5NaCl + NaClO3 + 3H2O  n-factor of NaOH in this reaction is  5 3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "How many mole of KMnO4 would be required for the complete reaction with one mole of sulphite ion in acidic solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "3",
+        "text": "2 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "2 4 MnO (1 mole) in neutral aqueous medium disproportionates to  2 3 mole of  4 MnO  and   1 3 mole of MnO2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 3 mole of  4 MnO  and   2 3 mole of MnO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 3 mole of Mn2O7 and 2 3 mole of MnO2  2 3 mole of Mn2O7 and  1 3 mole of MnO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Correct option for oxidation number of carbon in hydrogen cyanide and hydrogen isocyanide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HCN > HNC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HNC > HCN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HCN  HNC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Not fixed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "If M is the molar mass of K2Cr2O7. The equivalent mass of K2Cr2O7 in the following reaction   K2CrO4 + Cr2O3 + O2 is  K2Cr2O7  M  M",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6  M 62",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M 12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can act as both oxidising as well as reducing agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HNO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct about bleaching powder?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It has both ionic and covalent bonds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The oxidation number of chlorine is –1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The oxidation number of chlorine is +1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is intramolecular redox reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HNO3 + H2S  S + NO + H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SO2 + H2S  S + H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KClO3  2KCl + 3O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl2 + NaOH  NaCl + NaClO + H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Number of peroxide linkage in K3CrO8 and Na2S2O3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3, 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4, 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1, 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation number of N-atom in HNO4 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Value of coefficient z and q respectively for balanced reaction, xFeS2 + yO2  zFe2O3 + qSO2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4, 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4, 11",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "100 gram sample of ferrous oxalate is oxidised completely by 200 ml of 1M KMnO4 in acidic medium. Percentage purity of sample is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "48",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "75",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which can’t act as both oxidant and reductant ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HNO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation number of iron present within square bracket in Fe4[Fe(CN)6]3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8/3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a disproportionation reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P4 + 3NaOH + 3H2O  3NaH2PO2 + PH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3Cl2 + 6NaOH  5NaCl + NaClO3 + 3H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2HNO2  NO + NO2 + H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2KClO3  2KCl + 3O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The n-factor of M0.25O in the reaction, M0.25O  MO is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 66,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation number of S-atom in H2S2O8 and H2SO5 respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+6, +6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+8, +7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+6, +4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+4, +6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "How much volume of 0.03 M KMnO4 is needed to completely oxidise 1.8 g of anhydrous oxalic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "266.66 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "240 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "133.33 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "210 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  I2 + 2Na2S2O3  Na2S4O6 + 2NaI  the equivalent weight of oxidant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M  4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "One mole of K2Cr2O7 oxidises how many moles of Sn+2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state of central bromine atom in Br3O8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of HCl taking part in redox change when reacts with KMnO4 to give Cl2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the number of moles of FeSO4 oxidised by 1 mole of K2Cr2O7",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 moles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 3 moles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 moles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 6 moles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "When 3.92 g of ferrous ammonium sulphate [FeSO4.(NH4)2SO4.6H2O] dissolved in dil. H2SO4 was added to 50 cm3 of KMnO4, the pink colour just disappeared. The strength of KMnO4 used in terms of g/litre will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6.32",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.58",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7.82",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "What is the coefficient of oxalate ion in the following reaction?  2– + H+  Mn2+ + CO2 + H2O  – + C2O4  MnO4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "When SO2 is passed through the solution of potassium iodate, the oxidation state of Iodine changes from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 5 to 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 5 to – 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 5 to 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–7 to –1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction between SO2 and O3 the equivalent weight of sulphur dioxide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The same as its molecular weight",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Half of the molecular weight",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 1 of the molecular weight",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 1 of the molecular weight",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which substance is serving as a reducing agent in the following reaction?  14H+ + Cr2O7 2– + 3Ni  2Cr3+ + 7H2O + 3Ni2+",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cr2O7  2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ni",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the following reaction  4P + 3KOH + 3H2O  3KH2PO2 + PH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only phosphorus is oxidised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only phosphorus is reduced",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phosphorus is both oxidised and reduced",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphorus is neither oxidised nor reduced",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state shown by silicon when it combines with strong electropositive metal is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In alkaline medium ClO2 oxidise H2O2 to O2 and reduced itself to Cl– then how many mole of H2O2 will be oxidised by one mole of ClO2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent weight of FeC2O4 in the change  FeC2O4  Fe3+ + CO2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 67,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent mass of oxidising agent in the reaction  SO2 + 2H2S  3S + 2H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "32",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "64",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "A, B and C are three elements forming part of a compound in oxidation state of +2 +5 and –2 respectively. What could be the compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A2(BC)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2(BC4)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A3(BC4)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ABC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation state of Cr atom in K3CrO8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+5  3– and S by HNO3 the equivalent weight of ‘As2S3’ will be (Molar mass of As2S3 is M)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "For the oxidation of As2S3 into AsO4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In a reaction, 3 mol of electrons are gained by 1 mole of HNO3 acid assuming no change in oxidation state of hydrogen, the possible product obtained due to reduction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 mol of NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5  mol of N2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 mol of NO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.5 mol of NO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The equivalent mass of HCl in the reaction 2 KMnO4 + 16 HCl  2KCl + 2MnCl2 + 5 Cl2 + 8H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 5 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 8 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 6 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 1 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation number of Cr-atom in CrO5 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation number of two different chlorine atoms in bleaching powder (CaOCl2)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0, 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–1, 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–1, –1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–1, +1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following process, nitrogen is oxidised?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 2 NH N ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 NO NO ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 NO NO ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 4 NO NH   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation number and covalency of sulphur in S8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0, 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0, 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0, 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which is disproportionation reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 2 2 2H O 2H O O  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 3 2 4 3 2 4 n+10HNO 4Zn(NO ) NH NO 3H O Z   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 2 3 4 2 Cl +IO 2OH IO 2Cl H O       ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 4 2 PbS+4H O PbSO 4H O  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Cu + aHNO3 Cu(NO3)2 + bNO2 + H2O. The value of a and b is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3, 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent mass of oxidising agent in the reaction  2 2 2 SO 2H S 3S 2H O   ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "32",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "64",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Number of electrons transferred in each case when KMnO4 acts as an oxidising agent to give MnO2, Mn2+, Mn(OH)3 and MnO4  2– are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3, 5, 4 and 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4, 3, 1 and 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1, 3, 4 and 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5, 4, 3 and 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "KI can be oxidised by KMnO4 in acidic medium and alkaline medium, the products formed are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I2, I2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I–, I2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I2,  – 3 IO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 4 IO ,  – 3 IO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Number of moles of K2Cr2O7 reduced by one mole of Sn2+ ion in acidic medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  KMnO4 + H2SO4 + H2C2O4  K2SO4 + MnSO4 +  CO2 + H2O  which of the following act as autocatalyst?  –",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MnO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn2+  –2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C2O4  –2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 68,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Phenolphthalein cannot be used as an indicator in the titration of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Strong acid versus strong base",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Weak acid versus strong base",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strong acid versus weak base",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "When Cl2 is passed through hot conc. NaOH solution, oxidation number of Cl changes from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 to +5 and 0 to +3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 to +7 and 0 to –1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 to –1 and 0 to +3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 to +5 and 0 to –1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction,  3 3ClO (aq) ClO (aq) 2Cl (aq)       is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Disproportionation reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-redox reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "n-factor of HCl in the reaction  KMnO4 + HCl  KCl + MnCl2 + Cl2 + H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure of hydrogen gas is increased from 1 atm to 100 atm, keeping the concentration of hydrogen ions constant at 1 M. The voltage of hydrogen electrode at 25°C becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.059 V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–0.059 V",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.295 V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.118 V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "9 × 10–3 mole Xn+ reacts completely with 6 × 10–3  mole K2Cr2O7 to give  3 XOand Cr3 +. The value of  n is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of HCl which act as reducing agent in the reaction given below is  2KMnO4 + 16HCl  2KCl + 2MnCl2 + 5Cl2+8H2O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the intramolecular Cannizzaro’s reaction when glyoxal is reacted with concentrated NaOH, the n- factor of glyoxal is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation number of Cr in CrO5 is +10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidation number of S in S8 is –2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formal charge on the central oxygen in ozone  is +1  – – is +2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formal charge on C in CO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent mass of reducing agent in the reaction  Fe3O4 + KMnO4  Fe2O3 + MnO2  M",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M  1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M  4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the oxidation number of underlined atoms for the compounds KClO4 and (CH3)2SO respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1, 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2, 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+1, 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+7, 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correct for balanced redox reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The total increase in oxidation number must  equal to total decrease in oxidation number",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There should be same number of atoms of  each kind in reactants and products",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The sums of actual charges on both sides of  the equation must be equal to each other",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The use of half cell reaction does not permit us  to balance equations using only the principles of atom and charge conservation  COOH  2– + H+ ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "a C6H5CHO + b Cr2O7   +  Cr+3 + H2O. Then what are the values of stoichiometric coefficients a and b respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2, 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3, 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3, 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction C2H5 OH + O2  CO2 + H2O. What will be the change in oxidation state for underlined ‘O’ atom?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Out of hypochlorite ion, chlorite ion, chlorate ion and perchlorate ion which can undergo disproportionation reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only hypochlorite ion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only hypochlorite and chlorite ions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All mentioned ions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All ions except perchlorate ion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 69,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "For the reactions  A. [Ag(NH3)2]+ + 2H+  Ag+ + 2NH4  +  B. Cl2 + 2OH–  Cl– + ClO– + H2O  C. 2CrO4 2– + 2H+  Cr2O7 2– + H2O  Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reaction A is a redox reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reaction B and C are redox reactions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A and C are not redox reactions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction B is a disproportionation non-redox  reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot acts as both oxidising as well as reducing agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrous acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrogen sulphide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sulphur dioxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrogen peroxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "If ‘M’ represents molecular weight, then what will be the equivalent weight of oxidant and reductant respectively for the following redox reaction?  K2MnO4 + Cl2  KCl + KMnO4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M M, 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M, M 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M, M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M M , 2 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "2Na(s) + 2H2O(l)  2Na+(aq) + 2OH–(aq) + H2(g). Which of the following option is correct for above reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Disproportionation redox reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Redox reaction in which H2O acts as a  reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Redox reaction in which Na gets reduced",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Redox reaction in which Na acts as a reducing  agent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state of H in alkali metals hydride is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Not defined",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is intra molecular redox reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2 + NaOH  NaCl + NaClO + H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu + HNO3  Cu(NO3)2 + NO + H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2MnO4  KMnO4 + MnO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KClO3  KCl + O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "What is the oxidation number of N-atom in pernitric acid (HNO4)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent weight of NaOH in the reaction 3Cl2 + 6NaOH  5NaCl + NaClO3 + 3H2O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "48",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "35",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set of oxidation state is not known for oxygen?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–2, –1, 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–2,  1 2  , –1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–2, +2, 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–2, +6, 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "3 3 3 4 3 H PO H PO PH    For the above disproportionation reaction, n-factor for H3PO3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Inappropriate matching of oxidation number of Asterisked element",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "* HC l ( 1) ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "* 4 2 Ba(MnO ) (+7)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "* 2 4 K CrO (+6)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "* 5 CrO (+10)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound undergoes disproportionation reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HNO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HClO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation number of ‘C’ in HCN is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the standardisation of Na2S2O3 using K2Cr2O7 by iodometry, the equivalent mass of Na2S2O3 is  (where M is molecular mass of Na2S2O3)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M  2  M  M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The number of peroxide linkage in H2S2O8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 70,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  3 2 3 3 3 H PO PH + H PO   the equivalent mass of H3PO2 will be  5 M 6",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 M 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 M 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "2 2 2 2H O 2H O    in this reaction, equivalent mass of H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "27",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation state of N in ammonium nitrate",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+3, +5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–3, +5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–3, +3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–3, –5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "How many moles of KMnO4 is required for the oxidation of 2 mol ferrous oxalate in acidic medium?  6 5",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "5 6",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "What is the n-factor of nitrogen in the process NO3  –  N2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation number of sodium in sodium amalgam is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "KMnO4 reacts with ferrous ammonium sulphate in acidic medium. 10 ml of 0.1 M KMnO4 is equivalent to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 ml of 0.1 M FeSO4 .(NH4)2SO4.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30 ml of 0.1 M FeSO4 .(NH4)2SO4.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40 ml of 0.1 M FeSO4 .(NH4)2SO4.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50 ml of 0.1 M FeSO4 .(NH4)2SO4.6H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The brown ring complex compound is formulated as [Fe(H2O)5NO]SO4. The oxidation state of iron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "FeS2 + O2  Fe2O3 + SO2 In this reaction equivalent mass of FeS2 will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M 11",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M  8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In CrO5, how many oxygen atoms have –1 oxidation number?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "60 ml of an aqueous solution of H2O2 was treated with an excess of KI solution in dil H2SO4, the liberated iodine required 50 ml of 0.1 N Na2S2O3 solution for complete reaction. The strength of H2O2 in g/l is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.68",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.42",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.84",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Strongest oxidising agent is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KMnO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "4 6 XeO (aq) 2F (aq) 6H (aq)        XeO3(g) + F2(g) + 3H2O(l)  Incorrect statement regarding the reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 6 XeO is reductant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F– is reductant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 6 XeO is oxidant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction is redox reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation state of Cr in CrO5 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxalate ions are oxidised by  2 2 7 Cr O  ion to form  a gas and that is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Number of moles of Fe2+ required to react completely with 1 mol of  4 MnO in acidic medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "In Br3O8, the oxidation number of Br atoms are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+6, +4, +6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+6, +6, +2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+2, +4, +6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+6, +6, +6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 71,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q108",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "4 3 2 2 P OH   PH   H PO       is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation of P4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction of P4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Disproportionation of P4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydration of P4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q109",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "When the following redox reaction is balanced, the stoichiometric coefficient of H2O will be  2 3 2 4 2 Cr(OH) IO OH I CrO H O         ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q110",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state of oxygen in H2S2O8 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–2 only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–1 only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–1 and –2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero and –2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q111",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "How many moles of  4 MnO are required to oxidise  2 moles of  2 Fe  to  3 Fe in acidic medium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q112",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Number of moles of KMnO4 required to oxidise 0.2 mol KI in alkaline medium",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.2  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q113",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation number of sulphur in H2S2O8",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secA_q114",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will not act as reducing agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Oxidation number of Cr-atom in K3CrO8 is +5.\nReason (R): Oxidation number of oxygen atom in K3CrO8 is  –2.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_05_redox_reactions_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The reaction 3ClO– ClO3  – + 2Cl– is an example of disproportionation reaction.\nReason (R): n-factor of reactant ClO– is 4.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 72,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

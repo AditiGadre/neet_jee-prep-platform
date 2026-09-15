@@ -1,0 +1,5162 @@
+[
+  {
+    "question_id": "chem_19_s_block_elements_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of solubility of Group I bicarbonate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RbHCO3 > KHCO3 > NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaHCO3 > KHCO3 > RbHCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LiHCO3 = NaHCO3 = KHCO3 = RbHCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All Group I bicarbonates are insoluble",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Strongest reducing agent in aqueous solution of Group I and colour imparted to flame by this element is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cs, blue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cs, red",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li, crimson red",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li, pink",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "A substance which gives a brick red flame and breaks down on heating to give oxygen and a brown gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Magnesium nitrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcium carbonate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calcium nitrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Magnesium carbonate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct order of increasing thermal stability of alkaline earth metal carbonates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BeCO3 < MgCO3 < CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCO3 < BeCO3 < MgCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgCO3 < BeCO3 < CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaCO3 < MgCO3 < BeCO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "An amphoteric oxide dissolves in HCl to form a salt. The salt does not impart any colour to the flame and fumes in moist air. The oxide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BeO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MgO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Crude common salt is hygroscopic because of impurities of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaBr2 and MgBr2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca(HCO3)2 and Mg(HCO3)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CaSO4 and MgSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaCl2 and MgCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of reducing character of alkali metal in aqueous state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li < Na < K < Cs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cs < K < Na < Li",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li < Cs < K < Na",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na < K < Cs < Li",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When Na metal is dissolved in liquid ammonia, a blue solution is formed. The blue colour is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solvated Na+ ion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solvated electrons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solvated  O 2 NH ion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solvated protons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is the correct order?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CsCl > KCl > NaCl > LiCl (Ionic nature)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgO > Al2O3 > SO3 > Cl2O7 (Basic nature)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cs > Rb > Na > K > Li (Density)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is coloured because of odd electron bond?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CsOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following s-block element form oxide and nitride when treated with air?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can’t exist ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiCl.2H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgCl2.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Al(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[BeF6]4 –",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 185,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect statement about beryllium halide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is covalent in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Beryllium chloride fumes in dry air",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In solid state beryllium chloride exist as  polymer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of ionic mobility in aqueous medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li+ > Na+ > K+ > Rb+ > Cs+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cs+ > Rb+ > K+ > Na+ > Li+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li+ = Na+ = K+ = Pb+ = Cs+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li+ > K+ > Na+ > Rb+ > Cs+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following is strongest oxidising agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Li2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When CO2 is passed in excess of lime water, the milkiness first formed disappears due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reversal of original reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of volatile calcium derivatives in  gaseous state",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formation of water soluble calcium bicarbonate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formation of water soluble calcium carbonate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li and Mg have widely different properties",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaHCO3 and LiHCO3 are solid compounds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stability of hydrides follows the order  LiH > NaH > KH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following carbonate is sparingly soluble in water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li2CO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rb2CO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Li2CO3, K2CO3, CaCO3, MgCO3  I II III IV  The correct order of solubility is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I < II < III < IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "III < IV < II < I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III < IV < I < II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "IV < III < II < I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The rate of setting of plaster of Paris is enhanced and retarded respectively by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alum, sodium chloride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Borax, alum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sodium chloride, alum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alum, borax",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal bicarbonate does not exist in solid state?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiHCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KHCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of density of alkali metals is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na < K < Rb < Cs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K < Na < Rb < Cs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na < K < Cs < Rb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K < Na < Cs < Rb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following oxide is amphoteric in nature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MgO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SiO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Al2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "2 2 N H O X Y   Z(colourless gas). Z gives blue  colour solution with CuSO4 and X does not give flame test. X, Y and Z respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca, Ca(OH)2, H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg, Mg3N2, NH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na, Na3N, NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba, Ba(NO3)2, H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound liberates oxygen on heating?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li2CO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LiOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LiNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct order of basic strength of hydroxides?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiOH > NaOH > KOH > RbOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RbOH > NaOH > KOH > LiOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RbOH > KOH > NaOH > LiOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LiOH > RbOH > KOH > NaOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Carbonates of alkaline earth metals dissolve in water in the presence of CO2 because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Formation of bicarbonates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of hydroxides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formation of complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acidic nature of CO2 and basic nature of  carbonates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 186,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compounds is used as dehydrating agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaF2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca(OH)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "A fire work gives crimson red colour. It possibly contains some salt of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Barium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strontium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potassium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Magnesium keeps on burning in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Calcium is obtained by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrolysis of molten CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrolysis of aqueous solution of CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduction of CaO with carbon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Roasting of lime stone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Liquid sodium is used in nuclear reactors as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Moderator",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coolant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fuel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Control rods",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "A solution of potassium metal in liquid ammonia is strongly reducing due to the presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium atoms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium hydride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sodium amide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solvated electrons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Plaster of Paris hardens by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Giving off CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Changing into CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Giving out water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Combining with water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When CO2 is passed through brine solution, saturated with ammonia, white crystals precipitate out. The crystals are of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH4HCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH4Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaHCO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has highest negative value of enthalpy of formation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CsCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RbCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The size of Be2+ and Al3+ is not so close but they show diagonal relationship due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Different effective nuclear charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Different atomic number",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Similar charge per unit area",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Similar electron affinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pairs of elements cannot form alloys?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K, Cs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cs, Rb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na, K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li, Rb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The property of group 2 elements that increases with increase in their atomic number",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solubility of their sulphates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thermal stability of carbonates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solubility of their carbonates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electronegativity and ionisation energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Dry powder fire extinguisher contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sand",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sand and Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sand and baking soda",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sand and K2CO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can form complexes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The incorrect reaction for thermal decomposition among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 3 O NaNO 2 NaNO 2   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O H 2 N NO NH 2 2 2 4   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 3 O NO 4 O Li 2 LiNO 4      Low 3 2 CO O Na CO Na    ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 e temperatur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Densities of alkaline earth metals is correctly given as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be < Ca < Mg < Sr < Ba",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca < Be < Mg < Sr < Ba",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca < Mg < Be < Sr < Ba",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be < Mg < Ca < Sr < Ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 187,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "KHCO3 can’t be prepared in Solvay’s process because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KHCO3 is less soluble than NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KHCO3 is more soluble than NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KHCO3 is insoluble",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both KHCO3 and NaHCO3 are equally soluble",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The incorrect statement among following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Density of Be is higher than that of Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BaCO3 is less soluble than CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BaO2 is a peroxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LiNO3 produces LiNO2 on strong heating",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Reaction of KO2 with water produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct thermal stability order is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiH > NaH > KH > RbH > CsH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaH > LiH > KH > CsH > RbH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CsH > RbH > KH > NaH > LiH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RbH > KH > CsH > NaH > LiH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is most stable?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which will react with N2 to form nitride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which alkali metal salts are mostly hydrated?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CsCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which can form super oxide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li, K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Li, Cs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K, Rb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li, Na",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which does not impart colour to flame?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BeCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SrCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In vapour phase (1200 K) BeCl2 exist as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monomer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dimer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trimer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polymer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which has maximum tendency to form complexes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ba",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "What is the formula of carnallite?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KCl.MgCl2.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KCl.MgBr2.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KBr.MgBr2.6H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KCl.MgCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaOH – Castner - Kellner cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2CO3 – Solvay Ammonia process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O2 – Merck’s method",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The colour and magnetic property of diluted solution of alkali metals in ammonia respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Blue, paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bronze",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blue, diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bronze, diamagnetic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Anhydrone is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg(ClO4)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca(ClO3)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MgCl2.MgBr2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Calcium burns in nitrogen to produce a white solid which dissolves in sufficient water to produce a gas  A and an alkaline solution. The solution on  exposure to air produces a solid layer of B on  the surface. The compound A and B are",
+    "question_diagram": "/images/last_leap_part2/p188_q59.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A Ca3N2, B CaO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A Ca3N2, B NH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A NH3, B CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A CaCO3, B CaO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which imparts brick red colour to bunsen flame?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has maximum solubility in water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ba(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sr(OH)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 188,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The order of solubility of lithium halide in non-polar solvent is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiI > LiBr > LiCl > LiF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LiF > LiI > LiBr > LiCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LiCl > LiF > LiI > LiBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LiBr > LiCl > LiF > LiI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is/are correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dilute solution of alkali metals in ammonia is  blue and paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Concentrated solution of alkali metal in  ammonia is bronze and paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3 decomposes readily on heating",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Nitrogen dioxide cannot be obtained by thermal decomposition of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KNO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pb(NO3)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LiNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Hybrid state of Be in solid BeCl2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dsp2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Hybridisation of BeCl2 above 1200 K and in solid state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3 only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp, sp3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp, sp2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Drying agent which reacts with CO2 and removes water is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AgOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SiO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "If Na+ ion is larger than Mg+ 2 ion and S2 – ion is larger than Cl– ion. Which of the following will be least soluble in water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MgS",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of solubility of the following metal sulphates are  BeSO4 MgSO4 CaSO4 SrSO4 I II III IV",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III > IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IV > III > II > I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "II > III > I > IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III > II > I > IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The solubility of NaCl is highest in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CCl4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3OH  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH C – CH 3 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "During electrolysis of aqueous solution of NaOH using inert electrode. The substance produced at cathode is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following chemical reaction is incorrect?   K2O(s) + 2NO2(g) + 2 1O (g) 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2KNO3(s)    Li2O( s) + 2NO2(g) + 2 1O (g) 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2LiNO3(s)    Na2CO3(s) + H2O(g) + CO2(g)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2NaHCO3(s)    K2CO3(s) +  2 3 O (g) 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2KO2(s) + CO2(g)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of solubility product",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiOH > NaOH > KOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg(OH)2 < Ca(OH)2 < Sr(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BeCO3 < MgCO3 < CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MgSO4 < CaSO4 < BaSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of basic nature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaOH > KOH > Mg(OH)2 > Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KOH > NaOH > Ca(OH)2 > Mg(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca(OH)2 > Mg(OH)2 > KOH > NaOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaOH > Ca(OH)2 > Mg(OH)2 > KOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Alkali metals combines with mercury to form compounds known as Amalgams. This reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Highly endothermic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Exothermic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less endothermic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither exothermic nor endothermic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The hydration energy of Mg+2 ions is larger than that of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al+3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Be+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mg+3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 189,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is not correct for Na2O?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2O + H2O  NaOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2O + ZnO  Na2ZnO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2O + Al2O3  NaAlO2  400 C   NaO2 + Na",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of solubility of hydroxides of group 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be(OH)2 < Mg(OH)2 < Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg(OH)2 < Ca(OH)2 < Be(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca(OH)2 < Mg(OH)2 < Be(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be(OH)2 = Mg(OH)2 = Ca(OH)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option related to s-block element is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydrated radii > Ionic radii > Metallic radii",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metallic radii > Hydrated radii > Ionic radii",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrated radii > Metallic radii > Ionic radii",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ionic radii > Metallic radii > Hydrated radii",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkaline earth metal does not give flame colouration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The paramagnetic nature of KO2 is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of one unpaired electron in 2p  molecular orbital",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of one unpaired electron in 2p  molecular orbital",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of two unpaired electron in 2p  molecular orbitals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Presence of one unpaired electron in *2p  molecular orbitals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the outermost orbit maximum electrons in s-block element is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "32",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Alkaline earth metals dissolve in liquid NH3 giving highly conducting ______ solutions (dil)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deep green",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deep blue black",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Light green",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deep red",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is most electropositive element?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Number of crystalline water present in washing soda is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The chemical name of Plaster of Paris is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcium sulphate bihydrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calcium sulphate monohydrate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calcium sulphate hemihydrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcium sulphate hydrate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Slaked lime reacts with CO2 gas form milky insoluble carbonate. The formula of carbonate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(NH4)2CO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BaCO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cation has largest size in aqueous medium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cs+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Beryllium nitrate is unusual because it forms basic nitrate, the correct composition of basic nitrate of Be is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Be2O(NO2)6]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Be3O2(NO3)6]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Be4O(NO3)6]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Be3O(NO3)6]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plaster of Paris – CaSO4· 2 1H O 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Epsom salt – MgSO4·7H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chile salt petre – KNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glauber salt – Na2SO4·10H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Be2C + H2O A + Be(OH)2 Al4C3 + H2O B + Al(OH)3 Hybridisation of carbon in B and A respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp and sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp2 and sp3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp and sp",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3 and sp3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 190,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched regarding the method of preparation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na – Down’s process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2CO3.10H2O – Solvay’s Ammonia process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaOH – Castner Kellner cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaOH – Serpeck’s process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The minimum reduction potential of Lithium is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High energy of sublimation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High ionisation of energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High hydration energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High bond dissociation energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct for CsBr3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a covalent compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Contains Cs3+ and Br– ion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Contains Cs+ and  3 Br ion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Contains Cs+, Br– and Br2 molecule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is least soluble in water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BeSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BaSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SrSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Photoelectric effect is maximum in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The ion which shows maximum mobility in aqueous solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rb+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cs+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Be2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following order is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiH > NaH > KH > RbH (Reducing power)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BeCO3 < MgCO3 < CaCO3 < SrCO3  (Solubility)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BeO < MgO < CaO < SrO (Basic nature)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B < Al < Ga < In < Tl (Atomic radii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following carbide is methanide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaC2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BeC2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg2C3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Al4C3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Products of the reaction between KO2 and H2O are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KOH, H2O2 and O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KOH and H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KOH and H2O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K and H2O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Lithium and beryllium shows similarities to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg and Si",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al and Mg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg and Al",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na and Si respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Oxygen reacts with lithium and sodium to form (major products) respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monoxide and peroxide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monoxide and superoxide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Peroxide and monoxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Peroxide and superoxide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Cs and K are used as electrodes in photoelectric cells because they have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same electronic configuration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tendency to lose electron by absorbing light  energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High ionization enthalpy compared to other  members",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High positive value of standard reduction  potential",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is incorrect statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiF and CsI are highly soluble in water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Li is the most and Na is the least powerful  reducing agents among alkali metals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkali metal hydrides are ionic solids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Most of alkali metal halides are highly soluble  in water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct solubility order in water is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaSO4 < SrSO4 < BaSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaSO4 < BaSO4 < SrSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SrSO4 < CaSO4 < BaSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BaSO4 < SrSO4 < CaSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcium oxide absorbs moisture and carbon  dioxide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Be exhibits coordination number of six",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Beryllium and aluminium ions have strong  tendency to form complexes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "When carbon dioxide is passed through lime  water it turns milky",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 191,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a form of CaCO3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Limestone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chalk",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Quicklime",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Marble",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q108",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The setting of plaster of Paris may be catalysed and retarded by adding",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl and borax respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl and alum respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaCl and boric acid respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q109",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Compared with alkaline earth metals, alkali metals have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Higher melting point",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Smaller atomic radii",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lower ionization energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q110",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alkaline earth metal does not exhibit colour when heated in flame?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Be",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q111",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Most covalent compound among following",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CsF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LiI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CsI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q112",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following alkali metals form hydrated salts?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q113",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Flame test is not given by salts of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q114",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Most water soluble sulphate",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BaSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BeSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q115",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The compound formed upon combustion of sodium metal in excess air free from moisture and CO2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q116",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Baking soda is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2CO3 H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaHCO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q117",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The hybrid state of Be at 500ºC in vapour BeCl2 and solid BeCl2 are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp2 and sp2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp2 and sp3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3 and sp2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3 and sp3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q118",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match  Compound Uses",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium hydrogen – Baking soda carbonate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium hydroxide – Concentration of bauxite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Quick lime – Manufacturing of cement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2CaSO4H2O – Dead burnt plaster",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q119",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The radioactive members of s block are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "He, H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K, Ra",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fr, Ra",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cs, Fr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q120",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of hydration enthalpies",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na+ > K+ > Rb+ > Li+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Li+ > Na+ > K+ > Rb+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg2+ > Be2+ > Ca2+ > Ba2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba2+ > Ca2+ > Mg2+ > Be2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q121",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following oxide of alkali metal is paramagnetic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MgO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q122",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound when placed in flame produces yellow colouration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LiCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K2SO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q123",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Anomalous property of Lithium",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reacts with N2 to form nitride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Strongest reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lithium hydrogen carbonate does not exist in  solid state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 192,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q124",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Na2CO3.10H2O Below 373 K Na2CO3.xH2O + yH2O  Above 373 K Na2CO3  Na2CO3.xH2O  The value of x and y in the above reaction respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5, 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4, 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7, 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1, 9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q125",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Beryllium + air   A     +      B  H O 2  H O 2  C             C + NH3  Compound A, B and C in the reaction are",
+    "question_diagram": "/images/last_leap_part2/p193_q125.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A is amphoteric oxide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B is covalent nitride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C is amphoteric hydroxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q126",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The hybrid state of Be in its chloride in solid phase is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dsp2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q127",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the hydroxide aqueous solution will have highest Kb?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Be(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sr(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba(OH)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q128",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Ca(OH) + CO 2  2 milky appearance + H O  2 CO excess 2  Lime water  Colourless solution  The milky appearance in the above test is due to formation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca(HCO3)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CaCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q129",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Cause of diagonal relationship is due to  simillar value of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionisation energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electron affinity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polarizing power",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electronegativity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q130",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect match :",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Baking soda – NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Slaked lime – CaO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Washing soda – Na2CO3 .10H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plaster of Pairs – 4 2 1 CaSO . H O 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q131",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set does not form peroxide under normal condition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K, Na",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K, Cs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Li, Be",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca, Ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q132",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Best reducing agent among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Li",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q133",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Element A  oxide of A (X)  Element B  oxide of B (Y), and if  X + Y  salt  The elements A and B can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na and Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Be and Na",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S and Ca",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl and S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q134",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkali metals are paramagnetic but their salts  are diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Except lithium and sodium all the alkali metals  can form oxides with paramagnetic character",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Salts of sodium in aqueous solution can never  be acidic in nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q135",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The alkaline earth metal which has minimum melting point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ba",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secA_q136",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The oxide which gives H2O2 on treatment with dilute acid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PbO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MnO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TeO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 193,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alkali metals can be extracted by chemical  reduction.\nReason (R): Alkali metals are weak reductants.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): All alkali metals dissolve in liquid ammonia,  giving conducting solution.\nReason (R): Both ammoniated cation and ammoniated  electrons are formed.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Three centre two electron bonds are present in  BeH2.\nReason (R): In BeH2 hybridisation of Be is sp3 and bond  angle is 109° 28.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Li has lower reduction potential than Na.\nReason (R): Li reacts more violently with water than  sodium.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Beryllium nitrate is unusual and forms basic  nitrate [Be4O(NO3)6] in addition to normal salt.\nReason (R): It shows diagonal relationship with Al.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The stability of hydrides of alkali metals  decreases down the group.\nReason (R): Lattice energies of these hydrides decrease  down the group due to increase in the size of metal ions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In solid BeCl2 hybridisation of Be-atom is sp3.\nReason (R): In solid state BeCl2 exists in polymeric form.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The first ionization energy of Be is greater than  that of B.\nReason (R): In Be electron is removed from 2s2 orbital (full  filled) which is more stable but in B atom electron is removed from 2p1 orbital which is less stable.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Be does not impart any characteristic colour  to the bunsen flame.\nReason (R): It requires a very large amount of energy for  excitation of the electrons.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_19_s_block_elements_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "s-Block Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): LiAlH4 can be used as reducing agent.\nReason (R): LiAlH4 can easily provide H ion.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 194,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

@@ -1,0 +1,3892 @@
+[
+  {
+    "question_id": "chem_07_solution_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The boiling temperature and composition curve of “water ethanol” solution is given below.  Temperature  A  Boiling  B  C  Mole fraction of B 0 1  At point ‘C’, the mixture has ethanol 95.8% by weight in vapour phase. If this solution is boiled at 78.13°C, then percentage by weight of water in liquid phase is (boiling temperature = 78.13°C)",
+    "question_diagram": "/images/last_leap_part2/p81_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "95.8%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4.2%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80.8%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "43.5%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If the total vapour pressure of the liquid mixture A and B is given by the equation P = 160 XA + 80, then the ratio of the vapour pressure of the pure liquids A and B is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A solution containing 0.1 mole of urea in 1 L of glacial acetic acid, when cooled the first crystal which appears at the freezing point contain the molecules of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Urea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both urea and acetic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Either of these depending upon experimental  conditions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A glucose solution weighing 200 g contains 36 g water. The molal concentration of solution is  164 1000 180 36 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "200 1000 180 200 ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "36 1000 180 55.5 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "164 1000 180 200 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "1 kg of 0.3 mole glucose solution in water is cooled to – 3.2°C. What weight of ice would be separated out if a solution containing 50 g ethylene glycol in 0.2 kg water freezes at – 9.3°C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "960 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "784 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "37.2 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of depression in freezing point of following aqueous solutions  A. 0.1 M NaCl B. 0.1 N BaCl2  C. 0.3 M Glucose D. 0.1 M K4[Fe(CN)6]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "D < B = C < A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B < A < C < D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "D < C < A < B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A < B = C < D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following passes through semipermeable membrane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solvent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only colloids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is not an ideal solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C2H5Br and C2H5I mixture",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5Cl and C6H5Br mixture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H6 and C6H5CH3 mixture",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2H5Cl and C2H5OH mixture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 81,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The plant cells contract, when placed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypotonic solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypertonic solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isotonic solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.1 molal aqueous solution of sodium bromide freezes at –0.335°C at atmospheric pressure. Kf for water is 1.86 K kg mol–1. The percentage of dissociation of the salt in solution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.2 molal solution of a weak electrolyte AB is 20% dissociated. Freezing point of the solution would be [Kf = 1.86°C/m]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 0.90°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 0.45°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 0.25°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 0.71°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "At a particular temperature, the vapour pressure of two liquids, A and B are 140 and 160 mm Hg respectively. If 2 moles of A and 6 moles of B are mixed to form an ideal solution, its vapour pressure (mm Hg) at the same temperature will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "155",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "110",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "115",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "130",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Vapour pressure of 1 molal aqueous solution of solute at 100°C is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.00 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.9823 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.0177 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.80 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "7.483 × 105 Nm–2 osmotic pressure is found for 0.1 M Kx[Fe(CN)6] which dissociate 50% at 300 K, the value of x is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "On mixing 10 ml of CH3COCH3 and 40 ml of CHCl3, the total volume of the solution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "< 50 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "> 50 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "= 50 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be predicted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "When mercuric iodide is added to the aqueous solution of KI, the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Freezing point is raised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Freezing point is lowered",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Freezing point does not change",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Boiling point does not change",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Solutions A, B, C and D are respectively 0.1 M urea, 0.05 M KBr, 0.05 M MgCl2 and 0.1 M AlCl3. Which one of the following pair is isotonic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A and B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B and C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A and D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A and C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.2 moles of KCl and 0.1 mole of MgCl2 were dissolved in water to have 500 ml of solution, the molarity of Cl– ions is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.8 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.04 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.08 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A 0.004 M solution of K4[Fe(CN)6] is isotonic with 0.01 M solution of urea at same temperature. The  molarity of K in the solution will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.375 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.006 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.015 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The boiling point of water in pressure cooker is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "> 100°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "< 100°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is correct?  transferred to vessel of 200 ml at same temperature  Case I  transferred to another vessel of 100 ml  capacity   Case II  100 ml ether  at double temperature",
+    "question_diagram": "/images/last_leap_part2/p82_q21.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "In case-I vapour pressure decreases while  increases in case-II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vapour pressure increases in both the cases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vapour pressure decreases in both the cases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vapour pressure remains same in case-I while  increases in case-II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the molality of a solution of urea in acetic acid if the mole fraction of urea in solution is 0.5 (Molecular weight of urea = 60)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 50",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 100",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 40",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The value of Henry’s law constant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases with increase in temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases with increase in temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increases with decrease in temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Independent of temperature and depend only  on pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 82,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If P° and P are the vapour pressures of pure solvent and solution of nonvolatile solute respectively and n1, n2 are moles of solvent and solute, then which of the following relation holds good for a solution of all concentrations?     P P      n P  2 n n P  P P      2 n n",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1  1  P P          2 n n P  n P  P P  2 n n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1  2 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The relation Tb = Kbm (where Tb is elevation in boiling point and 'm' is molality of solution) holds good for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solutions of any solute",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dilute solutions of nonvolatile solute only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solutions of all concentrations but of nonvolatile  solute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dilute solution of volatile solute only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Azeotropes are formed in non ideal solution at  all concentrations",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A solution boils at constant temperature only  when it forms an azeotrope",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maximum boiling azeotropes show a maxima  in pressure composition curve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Minimum boiling azeotropes show a maxima in  temperature composition curve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The correct relation for Kb is  2 0 b l 1000 M  RT K   ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "v  2 0 b H 1000 M  RT K    ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "v  2 0 b l 1000 MRT K  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "v  2 0 b H 1000 MRT K   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "v  (M = mol. mass of solvent, T0 = boiling point of solvent, lv, Hv = latent heat and enthalpy of vaporisation respectively)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "When two solutions of concentrations C1 and C2 (C1 > C2) are separated by semipermeable membrane then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flow of solvent molecules occurs from C1 to C2  only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flow of solvent molecules occurs from C2 to C1  only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flow of solvent occurs from C1 to C2 and C2 to  C1 also",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flow of solute occurs from C1 to C2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The osmotic pressure of a solution obtained by mixing 100 ml each of 1.8% (w/v) glucose (M = 180) solution and 0.4% (w/v) NaOH (M = 40) solution at 300 K will be (Assume complete ionization of NaOH)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.46 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.69 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.42 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7.38 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following solution will have minimum vapour pressure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 N  NaCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 N MgCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 N AlCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 M sucrose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A solution of 5.85%(w/v) NaCl has boiling point equal to 5.8%(w/v) Mg(OH)2 solution. If NaCl is a strong electrolyte then what will be the degree of dissociation of Mg(OH)2? (Assume molarity = molality)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.75",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.33",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a chemical semipermeable membrane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pig’s bladder",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parchment paper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cellophane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Copper ferrocyanide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "At 17ºC the osmotic pressure of sugar solution is 580 torr. The solution is diluted and the temperature is raised to 57ºC. The osmotic pressure is found to be 165 torr. The extent of dilution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 times",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Liquid A and B form solution deviating from Raoult’s law and the former has stronger intermolecular forces, if XA and YA are the mole fractions of ‘A’ in solution and in vapour in equilibrium respectively, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 X Y  A ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 X Y  A   A  A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 X Y  A ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "YA + XA = 1  A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 83,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The mole fraction of a solute in aqueous solution is 0.5. The molality of solution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9.80",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25.65",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "55.55",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15.75",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set of aqueous solutions are having same freezing point?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 M NaCl and 2 M glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.05 M urea and 0.025 M HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 ml 0.1 M Na2SO4 and 100 ml of 0.1 M  Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The difference between elevated boiling point and depressed freezing point of an aqueous solution is 102ºC. The molality of the solution if it contains non-volatile and non-electrolyte solute will be  2 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "102 ",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "b f K K  f b K K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 K K b f ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3   f b K K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following solutions will be having the maximum freezing point?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 M   Al2(SO4)3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18% (wt/volume) glucose solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 N   Na2SO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.42% (wt/volume) sucrose solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Total vapour pressure of a mixture of 2 mole A (P°A = 200 torr) and 4 mole B (P°B = 400 torr) is 250 mm. Therefore solution shows",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive deviation from Raoult’s law",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative deviation from Raoult’s law",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No deviation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molecular masses of A and B are also required",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "In the preparation of solution of two liquids by mixing them, Vmixing is found to be negative, then the values of Hmixing and Smixing will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H > 0 & S > 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H < 0 & S > 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H < 0 & S < 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H > 0 & S < 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A liquid (v.p. = 100 mm Hg) is transferred from a vessel of 100 ml capacity to 1000 ml capacity, hence its vapour pressure",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases 10 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases 1 th 10  times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increases 100 times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains as such",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Molarity of liquid nitric acid, if density of its aqueous solution is 0.95 g/cc",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.15",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.95",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Calculated molecular mass is greater than observed molecular mass for which of the given set of examples?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 Maq MgCl2, 1 Maq Urea, 1 Maq sucrose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 Maq Al2(SO4)3, 0.1 Maq NaCl, 0.1 M acetic  acid in benzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.1 Maq HCl, 0.1 Maq H2SO4, 0.1 Maq Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "When HNO3 is mixed in H2O, which of the following set of information will be correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 total HNO H O mix P P P , V –ve    ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HNO3 – H2O interaction > HNO3 – HNO3  interaction, Smix > 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Smix < 0, Vmix < 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hmix < 0, it forms minimum boiling azeotrope",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Following solutions are given below  I. Centimolar magnesium bromide solution  II. Centinormal potassium chloride solution  III. Normal solution of urea  IV. Molar solution of aqueous benzoic acid  Correct order of freezing point is given below as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "III > IV > I > II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II > I > IV > III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IV > III > I > II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II > I > III > IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Ebullioscopic constant calculation depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Freezing point of solvent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Molecular mass of solute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enthalpy of vapourisation of solvent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 84,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A 1% solution of a non electrolyte having molecular mass approximately 69 is isotonic with 5% (w/v) solution of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Urea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potassium chloride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sucrose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Vapour pressure of pure water, if lowering of vapour pressure becomes 0.125 torr when 50 g of cane- sugar is added to 0.5 litre of water is approximately",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.03 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "23.8 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.3 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "When placed in hypotonic solution, plant cell will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Remain as such",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shrink",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Swell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both shrink and swell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the concentration of chloride ion when 100 ml of 0.1 M AgCl is mixed with 200 ml of 0.05 M BaCl2 solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.05 M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2 M",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.01 M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following boiling point will not be increased?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Addition of KI in 1 M glucose solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Addition of KI in 1 M urea solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Addition of KI in 1 M HgI2 solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Addition of KI in 1 M NaCl solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "10 g of a non-volatile solute when dissolved in 100 g benzene raises its boiling point by 1°. Molecular mass of the solute is (Kb for benzene = 2.53 Kg mol–1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "25",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "253",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "44",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "180",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If an aqueous solution of sugar is allowed to freeze, then crystals of which will be separated out first?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sugar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sugar + glucose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucose + Fructose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct?  P T P.T 1 T  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 0 t  0  273 t P P 273        ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 t",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 t 0 P t P P 273   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solubility of CO2 in water is explained by  Henry’s law",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Henry’s law can be applied even at very low  temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Henry’s law cannot be applied in solubility of  O2 in blood",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "18 g glucose and 34.2 g sucrose are added in one litre water, the osmotic pressure of solution at 27°C is (assume no volume change)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.9 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.4 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.6 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.55 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "An aqueous solution of AB has boiling point of 101.8°C when it is 100% ionised. The freezing point of the same solution is –1.80°C. Hence AB (Kb/Kf = 0.3)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is 100% ionised at freezing point of solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is 50% ionised at freezing point of solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neither dissociated nor associated at freezing  point of solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Forms a associated molecule at freezing point  of solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which has maximum molal depression constant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 M aq. KCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.1 M aq. sodium sulphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2 M aq. barium phosphate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Same for all",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the resultant osmotic pressure if 300 ml of solution with osmotic pressure 2 atm is mixed with 200 ml of same solution with osmotic pressure 3 atm, at 27°C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.5 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.4 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 85,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A solution of W g urea in 500 g of water is cooled to –0.5°C. 128 g of ice separates out. What is the value of W?  (Kf for water = 1.86 K kg/mol)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 g",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 g",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5 g",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 g",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Solubility of a gas X in water increases by lowering the temperature. This means that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dissolution process is endothermic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dissolution process is independent of  temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sdissolution > 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hdissolution < 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The molecular weight of benzoic acid in benzene as determined by depression in freezing point method corresponds to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionization of benzoic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dimerization of benzoic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trimerization of benzoic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solvation of benzoic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Van’t Hoff factor of 80% ionised Hg2Cl2 in its aqueous solution will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Assuming the salts to be unionised in solution. Which of the following has the highest osmotic pressure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1% (w/v) CsCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1% (w/v) RbCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1% (w/v) KCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1% (w/v) NaCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an intensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boiling point of the solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Freezing point of the solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osmotic pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A solution containing 30 g of a non-volatile solute exactly in 90 g water has a vapour pressure of 2.8 kPa at a given temperature. When 18 g of water is added to the solution, the new vapour pressure becomes 2.9 kPa at the same temperature, the molar mass of the solute is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "34 g mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "23 g mol –1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "46 g mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "17 g mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Solution A is 1 M of toluene in benzene but B is 1 m of toluene in benzene having density 0.85 g/cc, then correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b.p. of A < b.p. of B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b.p. of A > b.p. of B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b.p. of A = b.p. of B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "f.p. of A = f.p. of B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If t moles of a solute which dimerises is dissolved in one L-water, then degree of association  is given by     K  2(K t – T ) K t",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b  T ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b b  b  b  T 2K t      ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b  2 T 2 K t",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b  b  b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Solvent which is better to be used during ebullioscopic measurement has",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High Kb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low Kb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kf = Kb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unpredictable",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.9 gm of a hydrocarbon with molecular formula H2(CH2)n when dissolved in 180 gm of solvent freezes at 8.48°C. If freezing point of pure solvent is 9°C, then the formula of hydrocarbon is (Kf = 12 K kg mol–1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C8H6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C8H18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C8H16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C7H8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.5% (w/v) aqueous solution of KCl was found to freeze at – 0.24°C. The degree of dissociation of the solute at this concentration will be (Kf for H2O = 1.86 K kg mol–1).",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "74.5%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "19.2%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "92%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "48%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Freezing point, boiling point and vapour  pressure are all colligative properties",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The freezing point, boiling point and vapour  pressure all decrease when a solute is dissolved in a solvent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plots of freezing point versus molal  concentration for ethyl alcohol, propyl alcohol and butyl alcohol dissolved in water will all be linear with different slopes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 86,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The vapour pressure of two liquids A and B are 100 and 80 torr respectively. The total pressure of the solution obtained by mixing 2 moles of A and 3 moles of B would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 torr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "36 torr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "88 torr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "180 torr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct order of boiling points of the following solutions? (Assume complete dissociation of salts)  a. 0.15 M NaCl  b. 0.4 M glucose solution  c. 0.15 M CaCl2 solution  d. 0.15 M urea solution",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "d < a < c < b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d < b < a < c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d < a < b < c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d < c < b < a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "When you dissolve sugar in a glass containing ice and water in equilibrium, and assuming that no heat  enters or leaves the system",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Some of the ice should melt and the  temperature of water/ice mixture should increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Some of the ice should melt and the  temperature of the water/ice mixture should decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Some of the water should freeze and the  temperature of the water/ice mixture should increase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Some of the water should freeze and the  temperature of the water-ice mixture should decrease",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "At 323 K, the vapour pressure in millimeters of Hg of a methanol-ethanol solution is represented by the equation p = 120 xA + 140, where xA is the mole fraction of methanol. Then the value of  p lim x   is  A  x 1 A  A",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "250 mm Hg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "140 mm Hg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "260 mm Hg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 mm Hg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "x mole of KCl and y mole of BaCl2 are both dissolved in 1 kg of water. Given that x + y = 0.1 and Kf for water is 1.86 K/molal. What is the observed range of Tf if the ratio of x and y is varied?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.37° to 0.55°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.185° to 0.93°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.56° to 0.93°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.37° to 0.93°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Equal moles of benzene and toluene are mixed. The vapour pressures of benzene and toluene in pure state are 700 and 600 mm Hg respectively. The mole fraction of benzene in vapour state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.50",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.53",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "At freezing point of a solution which of the following are in the equilibrium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liquid solvent, solid solvent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Liquid solvent, solid solute",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Liquid solute, solid solvent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Liquid solute, solid solute",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Vapour pressure of a solution is 4.5 atm. This solution has been separated from the solvent by semipermeable membrane. If 5.2 atm external pressure is applied over the solution, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Osmosis will be stopped",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osmosis will be held in opposite direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solute molecules will start migrating",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No effect on osmosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "van’t Hoff’s factor for a dilute solution of potassium argentocyanide is (assuming,  = 1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A 1.2 M solution of NaCl is isotonic with 2.4 M solution of glucose. Calculate the van’t Hoff’s factor of NaCl solution (Assuming NaCl completely dissociates)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.36",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.50",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.00",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "5.85 g NaCl is dissolved in 200 ml of water at 27°C. The osmotic pressure of solution will be (Assume that NaCl is completely ionised)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12.315 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "24.63 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "A 0.1 molal solution of nitrous acid freezes at – 0.198ºC. The Kf of water is 1.86 K kg mole–1. The percentage ionization of nitrous acid at this concentration is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "17.5%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9.6%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.5%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 87,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The mole fraction of benzene in solution containing 30% mass in CCl4 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.45",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.83",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.65",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.6 ml of acetic acid having density 1.06 g/ml, is dissolved in one litre of water. The depression in freezing point observed is 0.02°C. van’t Hoff factor of acetic acid is (assuming molarity = molality and Kf = 1.86 K kg mol–1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.88 (approx)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.99 (approx)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.06 (approx)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.6 (approx)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Henry’s law constant (KH) values for P, Q, R and S are 40.39, 1.67, 1.83 × 10–5 and 0.413 respectively. Which one has maximum solubility?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "When methyl alcohol is added to water, boiling  point of solution increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lowering of vapour pressure of a solution  causes depression in freezing point",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molarity of a solution in liquid state changes  with temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "When a non-volatile solute is added to a  volatile solvent, elevation in boiling point is observed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph is correct for an ideal binary liquid solution containing nonvolatile solute?",
+    "question_diagram": "/images/last_leap_part2/p88_q89.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Total V.P.  XA = 1 XA = 0 XB = 0 XB = 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Total V.P.  XA = 1 XA = 0 XB = 0 XB = 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Total V.P.  XA = 1 XA = 0 XB = 0 XB = 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct  0.001 M KCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.0001 M KCl  0.00001 M KCl  A  B  C  Which of the following is correct about van’t Hoff factor of A, B & C? (Assume complete ionization of KCl)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "iA > iB > iC",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "iA < iB < iC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "iA > iB < iC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "iA = iB = iC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following substance will sublime?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O (ice)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graphite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diamond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2 (dry ice)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethanoic acid dimerises in benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethanoic acid dissociates in water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "van’t Hoff factor of CH3COOH is less than 1 in  benzene while that in water is more than 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following graph  1 atm  Vapour pressure  Solution  Liquid solvent  Frozen solvent  T1 T2 T3 T4  Temperature   Choose the correct option(s) :",
+    "question_diagram": "/images/last_leap_part2/p88_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Depression in freezing point = T2 – T1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Elevation in boiling point = T3 – T4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Boyle temperature = T3 – T2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "200 mL of an aqueous solution of a protein contains 0.63 g of the protein. The osmotic pressure of such a solution at 27°C is found to be 2.57 × 10–3 bar. What will be the approx molar mass of the protein?  [R = 0.083 L bar mol–1 K–1]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "61022 g mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30520 g mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15255.5 g mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "122044 g mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 88,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "31 g of ethylene glycol (C2H6O2) is mixed with 500 g of water. What will be the freezing point of water? [Kf for water = 1.86 K kg mol–1]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "269.14 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "271.29 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "275.01 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "273.95 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which is true about azeotropic mixture?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a constant boiling mixture",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vapour phase composition and liquid phase  composition are same",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cannot be separated by simple distillation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are true",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If two solutions have same osmotic pressure then the solution are said to be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypertonic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isotonic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypotonic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isobaric",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "The magnitude of heat of solution on addition of solvent to solution",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains constant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases or decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If mole fraction of the solvent in a solution decreases, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vapour pressure of solution increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Boiling point decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osmotic pressure increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct statements",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is isotonic with 3 M NaCl aq. solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 M Urea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 M BaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 M AlCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 M KCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following 0.01 M aqueous solutions of  I. KCl  II. CaCl2  III. Glucose  The relative lowering of vapour pressure will be in the order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "III > II > I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III > I > II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II > I > III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following solution has maximum boiling point?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1 M KNO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.01 M CH3COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 M urea",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.2 M K4[Fe(CN)6]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "If 25.6 g of sulphur is dissolved in 100 g benzene, solution shows depression of freezing point of 5.12°C. If (Kf)Benzene is 5.12°C kg/mol, then the best possible structure of sulphur molecule may be given as (Atomic weight of S = 32 g)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monoatomic molecule, S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diatomic molecule, S2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Crown shape, S8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polymeric shape, Sn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section A (Objective)",
+    "question_text": "0.5 molal aqueous solution of KCl, MgCl2 and FeCl3 have freezing points T1, T2 and T3 respectively. Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T1 > T2 > T3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T3 > T2 > T1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T2 > T1 > T3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T1 > T3 > T2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ethanol water mixture forms minimum boiling  azeotropes.\nReason (R): 95.4% ethanol in water (by volume), the liquid  and vapour have the same composition, and no further separation occurs.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): C2H5I and C2H5Br form ideal solution.\nReason (R): The interaction between the components are  similar to those in the pure components.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 89,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Azeotropes have different composition in liquid  and vapour state depending upon the volatility of components.\nReason (R): Composition in both, liquid and vapour phase  depends upon volatility of the substance.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 90,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A liquid mixture which distil with change in  composition is called zeotropic mixture.\nReason (R): Non-ideal solution forms zeotropic mixture at  composition other than a zeotropic point.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 90,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): When 100 ml of A mixed with 25 ml of B then  total volume cannot exceed 125 ml.\nReason (R): Intermolecular forces between A and B is  always stronger than pure A or pure B.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 90,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_07_solution_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Solution",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Raoult’s law for the solution of non-volatile  solute can be given as  P n n     n Pº P  s solute  s solvent solute\nReason (R): Raoult’s law is not applicable for the solution  of FeCl3 in water.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 90,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

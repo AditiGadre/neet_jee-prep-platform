@@ -1,0 +1,5652 @@
+[
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q1",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Yield of rice is enhanced in low land areas by prevention of lodging with application of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Agent orange",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2,4,5-T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NAA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NAAM",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q2",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In plants, removal of apical bud makes the plant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbaceous",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bushy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Succulent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q3",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The formation of cork by the activity of cork cambium is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Differentiation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dedifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Redifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasmatic growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q4",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column I and column II  Column I Column II (PGR) (Application)  a. Abscisic acid (i) Masculanizing effect  b. Cytokinins (ii) Xylem differentiation  c. Auxins (iii) Promotes nutrient  mobilization  d. Gibberellins (iv) Seed development",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q5",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "A PGR that promotes female flower formation in cucumbers and epinasty of leaf is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NAA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BAP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "GA3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q6",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Vernalisation is done to promote flowering in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Summer annuals, biennials and some  perennials",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spring annuals and biennials",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Winter annuals and biennials",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spring annuals and perennials",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q7",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "On Sunday morning, the area of leaf A was 10 cm2 and that of leaf B was 100 cm2. On following Monday morning, area of leaf B was 110 cm2 and that of leaf A was 20 cm2. The relative growth rate of leaf B and A is respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100% and 10%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10% and 100%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "11% and 20%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "55% and 16%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q8",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrectly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prevention of lodging – Auxins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bolting – Gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Delay in senescence – Cytokinins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Triple response test – ABA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q9",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Meristematic cells at growing point of Eucalyptus divide in such a fashion that one daughter remains meristematic, while other grows and differentiate. It",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is geometric growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gives linear curve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is common in unicellular organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Give typical sigmoid or S-curve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q10",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Auxin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibits respiration by decreasing availability  of respiratory substrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases storage of solutes inside the cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Promotes division in cells of vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Promotes abscission of young leaves and  fruits",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 325,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q11",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Florigen is related with all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is same though different groups of plants  require different photoperiodicities",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is produced by the joint activity of leaves  and growing points",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is produced even in juvenile stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is a hypothetical hormone which has not  yet been extracted",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q12",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "There are number of physiological events in the life of a plant where more than one PGR interact to affect that event. This statement is correct for the following processes, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dormancy in seeds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bolting",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abscission",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Apical dominance",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q13",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is not related to growth and differentiation in plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Differentiation and growth in plants is open",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Loss of end walls in case of vessels elements",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Show indeterminate growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both are quantitative phenomenon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q14",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "A ________ is characteristic of living organism growing in a natural environment.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Straight line curve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sigmoid curve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bell shaped curve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hyperbola",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q15",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Seed germination in castor and cucumber is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Epigeal and hypogeal, respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypogeal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epigeal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hypogeal and epigeal, respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q16",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "PGR which is believed to be involved in phloem transport, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NAA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dormin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q17",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following w.r.t. seed dormancy)  Column - I Column - II  a. Apple (i) Excessive salt  b. Wheat (ii) Impermeable to water  c. Atriplex (iii) Impermeable to gases  d. Chenopodium (iv) Absence of growth hormones  (v) Phenolic compounds",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(v), b(iii), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q18",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Triple response test is done for a phytohormone which is derived from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Violaxanthin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methionine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q19",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Dormancy in cereal seeds occurs due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hard seed coat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Demand of after ripening period",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inhibitor chemicals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Immature embryo",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q20",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which plant hormone prevents fruit and leaf drop at early stages but promotes abscission of old and mature leaves as well as fruits?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Abscissic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q21",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Bioassay for gaseous plant growth regulator is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Triple response test",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Split pea test",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chlorophyll preservation test",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dwarf pea test",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q22",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "A brief flash of light prevents flowering in SDP if scotoperoid is interrupted. This is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Requirement of darkness above a critical length  P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1  FR  P  R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SDP requires darkness below a critical period",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inductive photoperiod must be above a critical  length",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q23",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find correct match w.r.t. the roles of PGRs  Column-I Column-II  a. Promotion of cambium activity (i) Gibberellin  b. Bolting (ii) Auxin  c. Tight epicotyl hook (iii) ABA  d. Flowering in Strawberry (iv) Ethylene",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(ii), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q24",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Interruption of dark period by flash of light prevents flowering in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LDP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SDP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 326,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q25",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytokinin increases resistance to low and high  temperature and diseases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GA3 increases yield of malt from barley",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C2H4 inhibits abscission of leaves, flowers and  fruits",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cotton test is a bioassay of ABA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q26",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "If leaf A and leaf B have grown by 5 cm2 in one day. Initial size of leaf A was 10 cm2 while that of leaf B was 15 cm2. What is the correct in the following statements?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Relative rate of growth is faster in leaf A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Relative rate of growth is faster in leaf B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absolute growth is faster in leaf A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absolute growth is faster in leaf B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q27",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out on the basis of photoperiodic response to flowering",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Soyabean",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wheat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coffee",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rice",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q28",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement regarding chemical or physiological characteristics of auxins",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They have an unsaturated terpenoid structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Involved in major plant activities like root  initiation, vascular differentiation and tropic responses",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Free auxins are unbound diffusible forms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In grafting experiment, auxin is added to  enhance cambial activity for union between stock and scion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q29",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In vernalisation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stimulus is perceived by growing tips",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Freshly vernalised plant can’t be devernalised",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The receptor for cold treatment is known",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both juvenile and reproductive phases of plants  are shortened",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q30",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph best represents relationship between growth and concentration of nutrients?  Growth  Growth",
+    "question_diagram": "/images/last_leap_part2/p327_q30.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conc.  Conc.  Growth  Growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conc.  Conc.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q31",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select odd one out w.r.t. physiological effects of plant growth regulator which is biosynthesized from tryptophan",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibits the growth of the axillary buds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Also induce parthenocarpy in tomatoes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leads to early seed production in conifers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Widely used as herbicides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q32",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement regarding phytochrome pigment",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a chromoprotein whose state is influenced  by light",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In darkness Pr is produced in cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pfr is extraordinarily unstable",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is one of main structural protein pigment in  plant kingdom",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q33",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following plants cannot flower if the duration of light exposure is less than critical photo-period?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Short night plants (SNPs)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Long night plants (LNPs)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNPs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SDPs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q34",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "PGR synthesised from methionine shows one of the physiological effects which is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive geotropism to stem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition of rice seedling growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root initiation at high concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Retards the process of chlorophyll degradation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q35",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement regarding physiological effects of auxins",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin promotes growth in stems and  coleoptiles while inhibiting growth in roots",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Auxin rapidly increases the extensibility of cell  wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxin has no effect on vascular differentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phototropism is mediated by the lateral  redistribution of auxin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q36",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following phytochrome is regarded as regulator of plant height?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CK",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IAA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2H4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q37",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Gibberellins are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tetracyclic diterpenoids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sesquiterpenoids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Actually phytoalexins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glycoside",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 327,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q38",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following columns.  Column-I Column-II  (PGR) (Effect / target)  a. Gibberellins (i) Enhances leaf  senescence  b. Cytokinins (ii) Delay leaf senescence  c. Auxins (iii) Delay leaf abscission  d. Ethylene (iv) Transition from juvenile to  adult phase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q39",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Ethylene as a hormone accelerates the ripening of edible fruits. All such fruits exhibiting a rise in respiration before ripening are called climacteric fruits. Which of the following does not show such response?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mango",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Grape",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Banana",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tomato",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q40",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Kinetin (cytokinin) was first discovered as a breakdown product of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t-RNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Spindle fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m-RNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q41",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Overproduction of which of the plant growth regulator has been implicated in genetic tumours?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethylene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Auxins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytokinins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gibberellins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q42",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement regarding physiological characteristics of ABA",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Promotes flowering is some SDP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It promotes desiccation tolerance in the  embryo",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It promotes root growth and inhibits shoot  growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It promotes mitosis in vascular cambium in  winter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q43",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is primary photoreceptor in photoperiodism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Florigen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phytochrome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cryptochrome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chlorophylls",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q44",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which type of plants will flower when the day length exceeds (or the night length is less than) a certain critical duration in a 24 hour cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "LDPs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SDPs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNPs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SLDPs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q45",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The process of making a plant receptive for flowering stimulus by a previous cold treatment does not require",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaerobic condition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 - 17°C in case of Hyoscyamus niger",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protoplasmic hydration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Actively dividing cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q46",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an example of tip growth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pollen tubes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Root hairs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cotton fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leaf expansion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q47",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not related with the effects of red light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stimulates germination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Induces increase in leaf area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inhibits growth of lateral roots",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stimulates flowering in SDPs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q48",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following column  Column I Column II  a. Cause apical dominance (i) Cytokinin  b. Substitute vernalization (ii) Auxins  c. Richmond Lang effect (iii) Gibberellic acid  d. Flowering in strawberry (iv) Abscisic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q49",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The PGR which promotes the production of male flowers in female plants of Cannabis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gibberellin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q50",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one w.r.t seed germination",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gram",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wheat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mango",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Onion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q51",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Winter varieties of wheat, if planted in       A       would       B      mature  grain within a span of a flowering season.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Spring, B – Produce",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Autumn, B – Produce",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Autumn, B – Not produce",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 328,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q52",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The hormone which promotes nutrient mobilisation thereby, helping in delay of leaf senescence and overcoming apical dominance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethylene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ABA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q53",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The response of plants to periods of day and night was first observed on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tomato",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Corn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tobacco",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q54",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Formation of cork cambium from parenchyma cells is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Differentiation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dedifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Redifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Obliteration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q55",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which plant hormone induces the production of hydrolytic enzymes like amylase for mobilising storage reserves during early seedling growth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q56",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Thinning of cotton and promotion of femaleness in cucumber are physiological effects of PGR which",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Helps to withstand desiccation conditions and  is antagonistic to GAs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases the market period of fruits by  delaying senescence",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is synthesised in large amounts in ripening  fruits and tissues undergoing senescence",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prevents fruit and leaf drop at early stages and  produced by growing apices of stem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q57",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect option w.r.t. abscisic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases the tolerance of plants to various  kinds of stresses",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It induces flowering in some long day plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It plays an important role in seed development  and maturation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In most situations, it acts as an antagonist to  gibberellins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q58",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Devernalisation can occur if the freshly vernalised plant is exposed to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Desiccating conditions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q59",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which plant hormone was isolated by F.W. Went from tips of coleoptiles of oat seedlings?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zeatin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Abscisic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q60",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Plant growth involves synthesis of more protoplasm, cell division, cell enlargement and cell differentiation. It is, therefore, influenced by many factors like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravity determines the direction of shoot  growth only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature should be 28-30°C for the proper  growth of most plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nutrients are required for the synthesis of  protoplasm but not as a source of energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Light is required for tissue differentiation but not  for the synthesis of pigments",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q61",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "PGR showing flowering and synchronising fruit set in pineapple, is biosynthesised from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methionine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Violaxanthin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q62",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "There are many plants, where there is no correlation between exposure to light duration and induction of flowering response, such plants are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Xanthium and Glycine max",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Barley and Wheat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chrysanthemum and Oryza sativa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maize and Sunflower",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q63",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Environmental plasticity is found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cotton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Buttercup",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Larkspur",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Coriander",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q64",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "________ was isolated by ________ from tips of coleoptile of ________ seedlings",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin, F.W. Went, oat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GA3, E. Kurosawa, tobacco",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytokinin, F. Skoog, rice",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene, Yabuta, mango",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q65",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Ethephon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hastens fruit ripening in apples",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Accelerates abscission in flowers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Causes thinning of cotton",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q66",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Methionine derived phytohormone shows",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phloem transport",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Apogeotropism in root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prevention of lodging in cereals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vernalization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 329,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q67",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The common volatile hormone is not concerned with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Initiation of flowering and synchronisation of fruit  set in pineapple",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Speeding up the malting process in brewing  industry",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Promotion of rapid internode or petiole  elongation in deep water rice plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Promotion of root growth and root hair formation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q68",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Match the Column-I with Column-II  Column-I Column-II a. Auxin (i) Delay of leaf senescence b. BAP (ii) Climacteric respiration c. Abscisic acid (iii) Herbicide d. Ethylene (iv) ‘40 C’ compound as precursor molecule",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q69",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Thinning of cotton, cherry and walnut is possible by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ABA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IAA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C2H4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BAP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q70",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the odd one w.r.t. flower inhibition by light break reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rice",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Barley",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coffee",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soyabean",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q71",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hormone is used to speed up the malting process in brewing industry?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "IAA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GA3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ABA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "IBA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q72",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct statement w.r.t. PGR derived from methionine",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Richmond Lang effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Climacteric effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bolting effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Masculinizing effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q73",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin – Parthenocarpy in tomatoes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GA3 – Overcoming apical dominance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytokinin – Bolting in cabbage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene – Richmond Lang effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q74",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following effect of gibberellin helps to extend the market period of some fruits?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ability to elongate the length of axis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ability to delay senescence",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ability to elongate and improve the shape of  fruits",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ability to promote bolting",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q75",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Plant growth regulators are broadly grouped into two categories on the basis of function. Which growth hormone fits either of groups?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q76",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The site of perception of light/dark duration for flowering releases a hormonal substance which moves from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leaves  Shoot apex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Meristem  Leaves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Embryo  Shoot apex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Undifferentiated tissue  Differentiated tissue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q77",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "A plant hormone is used to extend market period of some fruits by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Delay senescence",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inducing seed dormancy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Inducing abscission layer formation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thinning",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q78",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "ABA induces seed dormancy and helps seed to withstand",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Desiccation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unfavourable factors for growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaerobic condition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q79",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect statement for plant growth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Some plant parts show limited growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plant shows open form of growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plants possess indeterminate meristems only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plant’s growth is restricted to certain regions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q80",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which plant hormone is used to prepare weed free lawns?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2,4-D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zeatin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dormin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q81",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Why does exogenous application of gibberellin increase sugar contents in sugarcane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gibberellin elongates nodal region",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gibberellin enhances rate of photosynthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellin converts starch in sugar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gibberellin increase the length between two  nodes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q82",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which substance of coconut milk induces the growth of lateral buds even in the presence of apical bud?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zeatin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IAA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All except",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 330,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q83",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The plant hormone which promotes root hair formation and rapid internodal elongation in deep water rice plant, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GA3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C2H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ABA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2H4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q84",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Plant growth regulators showing antagonistic behaviour to the cambium activity are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin and Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gibberellin and ABA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxin and ABA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene and Auxin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q85",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Induction of flowering in plants depends upon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Duration of light period only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Duration of dark period only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Combination of light and dark exposures as  well as their relative durations",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amount of pigment synthesized at shoot tip",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q86",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The hormone responsible for vernalisation is produced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low temperature stimulus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Light stimulus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High nutrients stimulus and anaerobic  condition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Duration of light and temperature stimulus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q87",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "A plant is exposed according to diagrammatic summary given below? If the plant is SDP, will the plant produce flower?  (Hours) 0 4 8 10 12 14 16 18  Light  Dark",
+    "question_diagram": "/images/last_leap_part2/p331_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Yes, because of longer dark period",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Yes, because of longer light period",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No, because of interrupted dark period",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No, because of interrupted light period",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q88",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In which phase of growth, the cell attain its maximum size in term of wall thickening and protoplasmic modification?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phase of elongation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phase of maturation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phase of meristematic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phase of modification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q89",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Phytochrome red absorbs light of wavelength",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "640 nm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "660 nm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "730 nm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "440 nm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q90",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Why does exogenous application of auxin on older leaves and fruits cause abscission?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin induces formation of ABA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Auxin prevents transportation of Zn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxin induces formation of ethylene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Auxin directly acts as ABA in older plant part",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q91",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Process of deposition of lignin on the cell wall of a cell produced by fusiform initial cell, is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secondary growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dedifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Redifferentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Differentiation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q92",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not the character of phase of cell elongation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vacuolation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "New cell wall deposition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protoplasmic modification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reduction in nucleo-cytoplasmic ratio",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q93",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Decapitation is widely applied in tea plantations because it",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibits lateral bud formation nearby tip",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Induces lateral bud formation nearby tip",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Induces lateral bud growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q94",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect for short day plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They always require photoperiod shorter than  critical photoperiod for flowering",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher concentration of phytochrome red  induces flowering",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Higher concentration of phytochrome far-red  induces flower",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interruption of light does not prevent flowering",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q95",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following tissue is formed after redifferentiation in woody dicotyledons?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cork cells and phelloderm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phellogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vascular cambium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sclerenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q96",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Gibberellin is different from tryptophan derived hormone in which of the following applications?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Substitution of low temperature stimulus in  flowering",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell elongation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parthenocarpic development",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In increasing number and size of grape fruits",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 331,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q97",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Growth in plants is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Under the control of external factors only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extrinsic and quantitative phenomenon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Manifested by apparent growth only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intrinsic with plasmatic growth also",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q98",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "2,4-dichlorophenoxy acetic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is widely used to kill monocot weeds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is used to prepare weed rich lawns by  gardeners",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is widely used to kill broad leaved weeds",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is an artificial auxin that increases storage  period in potato",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q99",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following plants must be exposed to light for a period less than a well defined critical photoperiod for flowering in them?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rice, coffee",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oat, radish",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cucumber, tomato",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cotton, maize",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q100",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. growth in plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Indeterminate and quantitative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in the amount of protoplasm at  cellular level",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Irreversible permanent increase in size",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Watermelon expresses growth by increase in  number of cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q101",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Skoog and Miller’s effect is the role of kinetin in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Delaying senescence",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Morphogenesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flowering in pineapple",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stomatal opening",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q102",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one w.r.t. developmental plasticity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Buttercup",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cotton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lerkspur",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Coriander",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q103",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following functions is not concerned with a PGR, synthesised from methionine?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Longitudinal growth of seedlings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Apical hook formation in dicot seedlings",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Initiates germination in peanut seed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sprouting of potato tubers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q104",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Most commonly used hormone in agriculture fields is biosynthesised from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phenylurea",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methionine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q105",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In most situations, ABA acts as an antagonist to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "GAs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethylene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q106",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "What happen if low temperature exposure is given to the actively dividing cells of plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flowering is qualitatively dependent only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flowering is either quantitatively or qualitatively  dependent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It accelerates precocious reproductive  development late in the growing season",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flowering is induced in biennials",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q107",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Abscisic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibits seed dormancy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is antagonist to ethylene in most situation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plays an important role in seed maturation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Initiates seed germination in peanuts",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q108",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. LDP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wheat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tomato",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cabbage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spinach",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q109",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "During experiment, when lettuce seeds are soaked in water and kept in light, 90% germinate. If however they are soaked and kept in dark, 10% germinate.  The correct explanation for this observation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In dark, Pfr gets converted into Pr which  inhibits germination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In light, Pfr gets converted into Pr which  activates germination",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In light, Pr gets converted into Pfr which  inhibits germination",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In dark, Pr gets converted into Pfr which  inhibits germination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q110",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In tea plantation and hedge making decapitation results into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibition of axillary buds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rossette habit",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Petiole elongation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lateral shoot growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q111",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Read the statement a, b, c and d and select the correct choice w.r.t. gibberellins (GAs)  a. They delay senescence  b. Promote bolting just prior to vegetative growth  c. They are isolated from fungi only  d. Induce flowering in LDP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, c & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, c & d are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 332,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q112",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one out w.r.t. sigmoid curve",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is a characteristic of living organisms  growing in a natural environment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is typical for all cells, tissues and organs of  a plant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only one daughter cell continues to divide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Initial growth is slow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q113",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which plant growth regulator is widely used in tea plantations and hedge making?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethylene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytokinin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q114",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In flowering plants, the transition from vegetative to reproductive phase takes place exclusively in response to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2 concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Length of day",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nutrients",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q115",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Thinning of cotton, cherry and walnut is done by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethylene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Abscisic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vernalisation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gibberellin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q116",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Sugarcane crop yield can be increased by as much as 20 tonnes per acre by application of a hormone which is biosynthesised from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetyl coenzyme A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methionine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nucleic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q117",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "When the plants are exposed to the necessary inductive photoperiod then hormonal substance for flower induction is synthesised in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Shoot apices",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Young leaves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mature leaves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q118",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t. arithmetic growth",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is found in stem and root growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is found in initial multiplication of unicellular  organisms and growth of very early embryo",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It gives a linear curve on platting the length of  the organ against time",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only one daughter cell continues to divide  while the other differentiates and matures",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q119",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is correctly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Developmental heterophylly – Buttercup",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dedifferentiated structure – Phelloderm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root hair formation – Ethylene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flowering in LDPs – Pr > Pfr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q120",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Translocation of organic solute occurs through phloem and",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Involves use of ATP for both loading and  unloading in phloem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Do not involve symplast of sieve tubes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is conducted by companion cells, passively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Follows the mass flow or pressure flow theory  of Levitt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q121",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin – Weed free lawns",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gibberellin – Flowering in pineapple",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethylene – Growth of lateral roots",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ABA – Seed development",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q122",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect w.r.t. arithmetic growth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is found in root elongation at constant rate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cells divide in such a manner that only one  daughter cell remains meristematic while the other differentiates and matures",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It follows mathematical progression of 2, 4, 8,  16, 32, 64,....",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is mathematically expressed as Lt = Lo + rt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q123",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select odd one w.r.t. differentiation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secondary wall thickening in tracheary  elements",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Loss of nucleus in tracheary elements",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Loss of protoplasm in sieve tube",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deposition of suberin in cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q124",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements (A - D)  A. Helps in closing of stomata.  B. Induces seed dormancy.  C. Inhibits cambial activity.  D. Seedling develops epicotyl hook.  Select the correct option w.r.t. physiological role of ABA  (abscisic acid) by selecting True (T) and False (F).  A B C D",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F T T T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T F F F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T T T F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F T T F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 333,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q125",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Three leaves have grown by 10 cm2 in one day. Initial size of leaf A was 20 cm2, while that of leaf B and leaf C was 30 cm2 and 5 cm2  respectively, which leaf shows maximum relative growth rate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All leaves have same relative growth rate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leaf A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leaf B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leaf C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q126",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one w.r.t. intrinsic plasticity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cotton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coriander",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Buttercup",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Larkspur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q127",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the correct statement w.r.t. Gibberellins",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They produce narrow range of physiological  responses in plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GA3 was the last gibberellins to be discovered",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They never cause delay in senescence",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gibberellins hasten maturity period in juvenile  conifers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q128",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the function of ethylene?  A. Promotes root growth and root hair formation.  B. Used to prepare weed free lawns by gardeners  C. Enhances respiration rate during fruit ripening.  D. Speed up malting process in brewing industry",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B & D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A & D",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B & C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q129",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following plays important role in plant growth and development?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intrinsic control",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extrinsic control",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Genomic control",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q130",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Chilling treatment prior to flowering",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is essential for biennials",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hastens vegetative growth phase and  reproductive growth phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can’t be reversed with high temperature  treatment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Requires anaerobic condition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q131",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C2H4 – Gaseous PGR",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytokinin – Guanine derivatives",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ABA – Precursor is carotenoids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "IAA – Acidic hormones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q132",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct one w.r.t. cytokinins",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Promote adventitious shoot formation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "They inhibit phloem translocation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are synthesized in shoot apex only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They inhibit nutrient mobilisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q133",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "What would be expected to happen if you cut the shoot tips of tea?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inhibition of lateral growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Growth of lateral buds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Promotion of horizontal growth & male flowers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inhibition of flowering",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q134",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Cells of which zone attain maximal size in terms of wall thickening and protoplasmic modifications?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Meristematic zone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Elongation zone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maturation zone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell division zone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q135",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Plant growth regulators which inhibit and promote the formation of lateral shoot respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin, gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytokinin, ethylene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellins, abscisic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Auxin, cytokinin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q136",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Promotion of flowering by a period of low temperature is seen in biennial plants like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sugarbeet, Wheat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carrot, Mango",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rice, Cabbage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sugarbeet, Cabbage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q137",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following options the PGR is correctly matched with its two functions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Abscisic acid – (i) Induce immediate  stomatal closure in leaves  (ii) Induce rooting is a twig",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gibberellins – (i) Bolting in rosette plant  (ii) Speed up the malting  process in brewing industry",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethylene – (i) Delay leaf senescence  (ii) Controls xylem  differentiation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Auxin – (i) Used to kill  monocotyledonous weeds  (ii) Promotes nutrient  mobilisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 334,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q138",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "When the plants are exposed to the necessary inductive photoperiod, a hormone migrates from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bud to leaves for inducing flowering",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leaves to buds for inducing seed germination",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leaves to shoot apices for inducing flowering",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bud to leaves for inducing seed germination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q139",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The phytohormone that speed up the malting process in brewing industry is also responsible for  a. Initiates rooting in stem cutting.  b. Increases chloroplast in leaves.  c. Promotes root hair formation.  d. Hastens the maturity period in juvenile conifers.  e. Inhibits seed germination.  f. Promotes internode elongation just prior to flowering.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d & f",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "e & f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q140",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t vernalisation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sugar beet",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cabbage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Xanthium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carrots",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q141",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Match column I with column II  Column I Column II  a. Methionine (i) Kinetin  b. Dicot weedicide (ii) GA3 c. Coconut milk (iii) 2, 4-D  d. Acetyl CoA (iv) Ethylene",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q142",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct option (w.r.t. Ethephon)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Releases auxin slowly",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Helps in thinning of cotton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Releases ethylene readily",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q143",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "The heterophylly in which the leaves of different shape and incisions occur at the same time, is termed as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adaptive heterophylly",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Environmental heterophylly",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Developmental heterophylly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Habitual heterophylly",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secA_q144",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section A (Objective)",
+    "question_text": "Environmental heterophylly is found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ficus heterophylla",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mustard",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sagittaria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hemiphragma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q1",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Sunflower is a day neutral flowering plant.\nReason (R): There is no correlation between exposure to  light duration and induction of flowering response.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q2",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In abscission shedding of leaves, flowers and  fruits occurs from a living plants.\nReason (R): Specific cells in leaf petiole differentiate to form  a separation layer having thickened cell walls.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q3",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): By de-differentiation process cells can  regenerate whole plants.\nReason (R): Cells loose their differentiated characteristics  and reinitiate cell division.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q4",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Florigen is synthesized in leaves and  translocated to the shoot apical meristem.\nReason (R): It is translocated via phloem and xylem.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q5",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Lactuca is a positively photoblastic seed.\nReason (R): Seed germination in Lactuca is induced by far  red light",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q6",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): First step for seed germination is breaking of  seed coat.\nReason (R): Differential imbibition occurs in seed coat and  inner material of seed.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q7",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Light and gravity affect certain stages of  growth.\nReason (R): In the presence of light the plants undergo  etiolation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q8",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Vernalisation refers to the promotion of  flowering by the short period of low temperature in dry seeds.\nReason (R): It shortens the reproductive phase of the plant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 335,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q9",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ethylene helps the plants to increase their  absorption surface.\nReason (R): It promotes root growth and root hair formation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q10",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Breaking of seed dormancy by giving cold  treatment to seedling in presence of air is vernalisation.\nReason (R): Vernalisation increases vegetative growth period  to bring early flowering.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q11",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): 2,4-D is a selective herbicide.\nReason (R): 2,4-D kills dicot weeds in crop fields.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q12",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Vegetative shoot changes into reproductive  shoot by perceiving photoperiodic stimulus itself.\nReason (R): Phytohormone which is responsible for apical  dominance also breaks seed dormancy.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q13",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ethephon hastens fruit ripening in tomatoes.\nReason (R): Ethephon releases ethylene readily.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q14",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The N2 fixing bacteria become anaerobic during  fixing events.\nReason (R): The enzyme nitrogenase is highly sensitive to  the molecular oxygen.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q15",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In coriander, the leaves of juvenile plants are  different in shape from those in mature plants.\nReason (R): It shows environmental plasticity.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q16",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Promotion of flowering by a period of low  temperature is called vernalisation.\nReason (R): Vernalisation prevents precocious reproductive  development.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_08_plant_growth_and_development_secB_q17",
+    "subject": "Botany",
+    "chapter": "Plant Growth and Development",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): 2,4-D is widely used as herbicide.\nReason (R): It is used to kill mature monocotyledonous  plants.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 336,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

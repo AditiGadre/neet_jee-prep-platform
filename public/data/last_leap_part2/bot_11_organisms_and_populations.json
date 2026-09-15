@@ -1,0 +1,6262 @@
+[
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q1",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. parasitism",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Parasites show adaptations like loss of  digestive system and high reproductive capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parasite may reduce the survival, growth and  reproduction of host",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Life cycles of ectoparasites are more complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Brood parasitism is seen in birds",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q2",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose correct salt concentration for sea and hypersaline lagoons in parts per thousand",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5%, 30–35%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30–35%, > 100%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30–35%, 70%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "> 100%, 100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q3",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. structure formed in the different organisms during suspended phase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria, fungi – Thick wall spores",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher plants – Seed, vegetative  propagules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zooplanktons – Diapause stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ectothermic organisms – Torpid state during  favourable season",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q4",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. adaptations in organisms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Altitude sickness in humans is a physiological  means to counteract the stressful condition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biochemical adaptations are seen in  organisms present at great depths in oceans",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Allen’s rule is seen in mammals of colder  climate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Desert lizards lack the physiological and  behavioural means to manage their body temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q5",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "For which of the following cases, population density can be easily determined by utilizing non-biological parameter?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fish density",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Density of bacteria in culture plate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Siberian cranes at Bharatpur, Wetlands",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tiger census",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q6",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Population growth of a species is not related to which of the following parameters?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nt+1 = Nt + [(B + I) – (D + E)]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Out of four basic processes effecting  population growth three leads to increase in population size",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Under normal conditions, natality and mortality  are most important factors",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "For a newly colonised habitat immigration  plays major role than birth rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q7",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following interactions acts as conduits for energy transfer across the trophic levels?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(+, +)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(+, –)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(+, 0)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(–, –)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q8",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following represents an incomplete ecosystem?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Small pond, forest lake",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tree ecosystem, Estuaries",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Agricultural ecosystem, kitchen-garden",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rain water pond, sea bottom",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q9",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II a. Standing state (i) Perfect b. Gaseous cycles (ii) Amount of nutrients c. Standing crop (iii) Imperfect d. Sedimentary cycles (iv) Living matter at  different trophic levels",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 353,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q10",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "During nutrient immobilisation, nutrients get incorporated in the body of living organisms like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Micro-organisms only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Detrivores, Decomposers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osmotrophs only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phagotrophs only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q11",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A set of characters for desert adaptation are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Respiratory roots, salt secreting glands, C4  cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Turions, thick cuticle on leaf surface, CAM  pathway",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phylloclade, stomatal pits, CAM pathway",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phyllode, aerenchyma, high OP of cell sap",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q12",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Verhulst-Pearl population growth is described by the equation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "dN  dt = rN",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nt = N0ert",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nt = N0 + B + I – D – E         ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "dN K N rN dt K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q13",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The plants Dipterocarpus and Salvadora species belong to the biomes ________ and ________ respectively.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropical rain forests, Coastal biome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tropical rain forests, Deserts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tropical deciduous forests, Deserts",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Coastal biomes, Tropical deciduous forests",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q14",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Association where both the populations are benefitted but not essential for survival of either population. This association is shown by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adamsia paliata attached to shells of  Eupagarus prideauxi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lianas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epiphytes and epizoans",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zoochlorellae and zooxanthellae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q15",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "1 metre long penguin in Antarctica and ½ metre long in Galapagos island explain and relates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bergman’s rule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Jordan’s rule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chargaff’s rule",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Allen’s rule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q16",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t. evergreen forests at the altitude of 1700-3000 m",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Picea and Abies",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cedrus and Cupressus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Silver fir and Deodar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Butea and Bombax",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q17",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "For calculating the “intrinsic rate of natural increase” which of the following parameters are required?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Birth rate and death rate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Natality and carrying capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Population density and death rate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carrying capacity and mortality",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q18",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. decomposition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Detritus acts as the raw material for  decomposition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Followed the sequence of fragmentation,  humification and mineralisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rate is fast for substances like DNA, RNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaerobiosis and low temperature results in  building up of organic matter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q19",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "When the resources are unlimited  a. The population exhibits J-shaped curve.  b. Carrying capacity has no role in population growth form.  c. The exponential increase will never express a sudden crash.  d. The population grows to express the sigmoid curve.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a and b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a and c are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b and d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b and c are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q20",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Clown  fish  and  sea  anemone  – Protocooperation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cuckoo and crow – Brood parasitism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ophrys and Colpa – Commensalism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Goat and Abingdon tortoise – Predation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q21",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Very small animals are rare in polar regions. The reason may be attributed that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They are warm blooded",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thermoregulation is energetically expensive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Most animals are able to migrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They have comparatively low surface area :  volume ratio",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q22",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In Verhulst Pearl logistic growth",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Population does not reach beyond carrying  capacity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Population finally reaches an asymptote",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Environmental resistance is effective from the  beginning",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 354,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q23",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t. CO2 fertilization effect",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreased rate of transpiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased rate of carbon assimilation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Development of mycorrhiza",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decreased modulation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q24",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a feature of K- selected species as an adaptation for competition?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Large adult size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Long generation time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High energy allocation to reproduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Slow development, few and large-sized  offsprings",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q25",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Among various abiotic factors the most relevant factor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Light",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soil",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q26",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement regarding niche",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The term was coined by Grinnel",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It represents functional role of an organism in  a ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Niche has a specific set of environmental  regimes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two different or related species can occupy  same niche at same time if their trophic requirements are identical",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q27",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "__________ first correctly defined ‘Ecology’",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Haeckel",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reiter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Odum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Daubenmaire",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q28",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the plant which is characteristic of a biome having high rate of evapotranspiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dalbergia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calophyllum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dipterocarpus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prosopis cineraria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q29",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Identify a pair of zones in a lake, associated with maximum organisms of transducer category",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Euphotic and littoral zone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Disphotic and Twilight zone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Twilight and profundal zone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Euphotic and Twilight zone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q30",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In case of snow blindness, the cornea absorbs harmful UV rays which are distributed between __________wavelength",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 – 280 nm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "280 – 400 nm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "280 – 320 nm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "320 – 400 nm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q31",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Humus is dark coloured amorphous substance and  (a) Is essential for nutrient cycling  (b) Helps in crumbing of soil  (c) Makes the soil spongy",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (b) is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (a) and (b) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only (a) is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q32",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Most of the soils possess 3-4 horizons and a number of sub-horizons. These can be studied using a three dimensional volume of soil called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Recon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Muton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pedon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q33",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Two soil processes bringing about transport and deposition of minerals are called eluviation and illuviation, occuring in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A1 and A2 layers of soil horizon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A2 and B1 layers of soil horizon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A1 and B1 layers of soil horizon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B1 and B2 layers of soil horizon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q34",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Black soil - B – C soil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Red soil - Acidic laterite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Loam soil – 50% porosity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colluvial soil – By flood activity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q35",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Type of suspended part of life where organism becomes metabolically inactive during hot summers is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diapause",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aestivation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hibernation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dormancy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q36",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Very small organisms are rare in polar areas due to their large surface area relative to their volume, these organisms are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Regulates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Partial conformers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Migratory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conformers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q37",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "All given are adaptations of living organisms, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Seals reduce the loss of body heat using  blubber",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Desert lizards has the ability to fulfil their  water demands by internal fat oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Allen’s rule describe adaptations in mammals  of colder areas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Archaebacteria can survive at extremes of  temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 355,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q38",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column-I Column-II  a. Opuntia (i) Vivipary  b. Nymphaea (ii) Drought escaper  c. Rhizophora (iii) Asterosclereid  d. Boerhaavia (iv) Drought resistant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q39",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A population of 50 Paramecia in a water body becomes 150 after a period of 1 hour. What should be the change in population per individual?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 per individual",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 per individual",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 per individual",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.5 per individual",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q40",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which pair of the factors is most important for influencing the density of a given population?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mortality and immigration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Birth and emigration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Natality and mortality",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Death and emigration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q41",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The growth form called Verhulst Pearl Logistic Growth is  (a) Not followed by insects during rainy season  (b) Followed by algal blooms in a eutrophic lake  (c) Represented under limited resource conditions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only a and c are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only a is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only b is incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q42",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select a graphical representation which is experienced by a population having realised 'r' due to unlimited resource supply.",
+    "question_diagram": "/images/last_leap_part2/p356_q42.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "K  Population  density  Time",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K  Population  density  Time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K  Population  density  Time",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K  Population  density  Time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q43",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose a correct statement regarding life history variations",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mammals breed only once in life time",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Some organisms like Bambusa breeds many  times in life",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Large number of small sized individuals are  produced by Oyesters",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Large number of small sized individuals are  produced by Mammals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q44",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Gause proposed the principle of competitive exclusion using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trifolium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tribolium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oryzaephilum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Paramecium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q45",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The most observed circumstantial evidences in favour of Gause's principle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Extinction of Abingdon tortoise",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extinction of Heath hen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Extinction of Tasmanian wolf",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Extinction of Dodo",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q46",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Population of less distributed species increases dramatically when its superior competitor is removed experimentaly from a geographical area. The phenomenon is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Competitive exclusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Competitive release",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Resource partitioning",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Niche displacement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q47",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Predators-Prey relation is a negative interaction and (a) It helps transfer of energy in an ecosystem (b) It keeps prey population under control (c) Predator does not exterminate its prey by  overexploitation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (c) is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both (a) and (b) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both (a) and (c) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 356,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q48",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A negative interaction which is controlled by secretion of inhibitory chemicals is best explained by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prosopis juliflora",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Juglans nigra",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Capparis decidua",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q49",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "\"When two organisms realizes positive effects but the association is not necessary for their survival\" such a relationship can be better termed as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mutualism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proto-cooperation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hyperparasitism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Commensalism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q50",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement w.r.t. ecotones",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Estuary is an ecotone between fresh and  marine ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ecotones are more productive in comparison  to the parent communities",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of individuals decreases when we  move from community margin to ecotone area",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Edge species are essentially present in  ecotones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q51",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Environment produce differences in the phenotypes and genotypes, like (a) Ecotypes are genetic variants (b) Ecoclines are intermediate forms between two  ecads (c) Ecophenes are purely environmental variants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (a) and (c) are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (a) and (b) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only (b) and (c) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q52",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select a correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tansley – Microcosm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lindeman – Ten Percent law",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mobius – Geobiocoenosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sukhachev – Biocoenosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q53",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct sequence of process of decomposition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fragmentation  Leaching  Mineralisation   Catabolism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Catabolism Fragmentation  Leaching   Mineralisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fragmentation   Leaching  Catabolism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leaching  Catabolism  Fragmentation   Mineralisation  Humification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q54",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the trophic status for Nepenthes khasiana",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary producer only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Primary producer and secondary producer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary producer and secondary consumer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Primary producer and secondary consumer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q55",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Many factors influence the rate of decomposition where",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogenous compounds are decomposed at  a  slow rate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decomposer microbes occur in alkaline soils",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Detrivores are abundant in neutral and slightly  alkaline soils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Over 25°C decomposers become less active",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q56",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Phosphorus cycle is different from carbon cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In having maximum gaseous contribution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In maximum availability in oceans",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In being purely sedimentary",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In being contributed by plants during stomatal  opening",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q57",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Death of organism is the beginning of food chain in which",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy and nutrient requirement is met by  degrading organic matter.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Major conduct for energy flow is operational in  aquatic ecosystem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of trophic levels are limited",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Producers belong to first trophic level",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q58",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Straight line relation of species area curve can be expressed as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "log S = log C + Z log A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "log C = log Z + S log A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C = ASZ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S = CAZ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q59",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "If in a pond there are \"A\" Pistia plants last year and through reproduction 100 new plants were added. The birth rate is 0.4 per year, calculate the value of \"A\"",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "400",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "125",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "250",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "140",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q60",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. population interaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Opuntia and Cactoblastis cactorum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Orchids on trees like mango",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Smoother crops and weeds",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Balanus and Chathamalus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q61",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "—, O relationship where chemical secretion of one organism inhibits the growth of other in that area is shown by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prosopis juliflora",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vanda and Dendrobium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cactoblastis Cactorum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carausius",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 357,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q62",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given establishes a strong ecological relation between two organisms of different taxonomic groups evolved together?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Interaction between Ox-pecker birds and Rhino",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interaction between epiphytic orchids and trees",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interaction between Tribolium and Trifolium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interaction between Ophrys and Colpa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q63",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The science of exploring molecular, genetic and species level diversity for products of economic importance is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bioprospecting",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biofortification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bioremediation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biocoenosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q64",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Read the given statements carefully a. Leaves of tall trees have drip tips to prevent rainfall injury b. Buttresses occur to provide support to tall plants c. Most common tree species are Dipterocarpus and Hopea These statements are concerned with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropical rain forest",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperate broad leaf forest",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperate coniferous forest",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tropical decidious forest",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q65",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Warm blooded animals living in colder areas have shorter extremities than the animals of warmer areas is explained by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Allen’s rule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bergman’s rule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gloger’s rule",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rensch’s rule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q66",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Chaenocephalus and Trematomus live comfortably even in extreme cold due to presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Antifreeze solutes in body fluids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ice nucleating proteins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chaperonins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Proline and sorbitol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q67",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The relationship between oxpecker and rhinoceros is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+, –",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+, +",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0, –",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0, +",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q68",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Verhulst – Pearl logistic population growth is represented by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "dN rN dt          ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nt = N0ert  dN K N rN dt K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nt = N0 + I + B – E – D",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q69",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Organisms living in areas which experience brief summer (below 10°C) and prolonged winter are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hekistothermal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mesothermal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Microthermal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Megathermal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q70",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "During the past century, the temperature of the earth has increased by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.6°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.9°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q71",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect one w.r.t. UV-B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "UV-B is almost completely absorbed by the  ozone layer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It damages DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is associated with snow blindness",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It causes ageing of skin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q72",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Ecologically the most relevant environmental factor that directly affects the rate of metabolism of a species and decides its distribution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rainfall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Light",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q73",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Nutrient rich top soil, synchronous autumn leaf fall and 3-4 strata are features of a tropical deciduous forest and the characteristic plants are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diospyros, Tectona, Shorea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tectona, Shorea, Dipterocarpus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Laguncularia, Butea, Acacia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prosopis, Boswallia, Cenchrus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q74",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column-I Column-II Type of interaction Organism a. Proto-cooperation (i) Lantana and Pteridophytes b. Commensalism (ii) Sea anemone and  clown fish c. Amensalism (iii) Cuckoo and crow d. Parasitism (iv) Hermit crab and  sea anemone",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q75",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Various stages of primary succession in a newly formed fresh water pond are given a. Scrub stage b. Reed swamp stage c. Submerged plant stage d. Phytoplanktons e. Forest f. Floating plant stage g. Marsh meadow stage Arrange these according to their sequence of occurrence",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "d, c, f, b, a, g, e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d, b, c, f, g, a, e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "d, f, c, b, e, g, a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d, c, f, b, g, a, e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q76",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t. occupation by many species",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trophic level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Guild",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Niche",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Habitat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 358,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q77",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Many specialized and narrow niches are found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Climax community",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Seral community",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intermediate community",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transitional community",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q78",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "How many climatic zones are present on high mountains of sub-tropical region?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q79",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The soil transported through the effect of wind is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Colluvial soil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Terai soil",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eolian soil",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alluvial soil",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q80",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "When you study the composition of living organisms, carbon constitutes ________% of dry weight of organisms and is next only to water",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "71",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "49",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "52",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "36",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q81",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "If in a pond there are 50 lotus plants last year and through reproduction 10 new plants added, taking the current population to 60, so the birth rate is ________ offspring per lotus per year",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q82",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect stage w.r.t. suspend",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diapause in phytoplanktons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endospores in bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Seed dormancy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hibernation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q83",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Soil porosity is maximum in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sandy soil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Loam soil",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Clay soil",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Laterite soil",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q84",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A population following Verhulst -Pearl Logistic growth",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Will exhibit J-shape curve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is characterised by an asymptote when it  reaches the carrying capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shows a sudden crash after reaching the  asymptote",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Will express as dN rN dt ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q85",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A simplified model of phosphorus cycle is given below, select the correct set from the options to fill at position A, B and C  Consumer  A  B  Litter fall Uptake  Soil solution  Run off  C",
+    "question_diagram": "/images/last_leap_part2/p359_q85.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Producer, B – Detritus, C – Rock minerals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Detritus, B – Producer, C – Rock minerals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Rock minerals, B – Detritus, C – Producer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Detritus, B – Rock minerals, C – Consumer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q86",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "World’s the most problematic aquatic weed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Salvinia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Azolla",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eichhornia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vallisneria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q87",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Trichoderma is a soil fungus used in biological control of other fungi as it",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eats other fungi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Produces allochemicals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Act as parasite on others",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inhibits glycan synthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q88",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The association of sea anemone and clown fish is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Commensalism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mutualism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protocooperation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Competition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q89",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement (w.r.t. Connell’s elegant field experiments)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chathamalus dominates the intertidal area",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Competitively superior but small barnacle  excludes the inferior and large barnacle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Study of rocky intertidal communities of the  American Pacific Coast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Balanus excludes the Chathamalus from  intertidal zone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q90",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Desert lizards",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lack physiological as well as behavioural  adaptations",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Move into shade if the ambient temperature  starts decreasing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bask in the sun and absorb heat when their  body temperature is below the comfort zone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Manage to keep their body temperature fairly  constant by physiological means",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 359,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q91",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "If there is an increase in external temperature, then which of the following graph is applicable for 99% animals and nearly all plants?  temperature  temperature  Internal   Internal",
+    "question_diagram": "/images/last_leap_part2/p360_q91.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "External  temperature  External  temperature  temperature  temperature  Internal   Internal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "External  temperature  External  temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q92",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "If 8 individuals in a laboratory population of 40 fruit flies died during a specified time interval, say two weeks, the death rate in the population during this period is  8 2 40   8 40 2 ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "8 7 40 2   40 8 2 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q93",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In a particular climatic condition, decomposition rate is slower if detritus is rich in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogen and water soluble substances",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chitin and nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lignin and chitin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water soluble substances and lignin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q94",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Vertical distribution of different species occupying different levels is best seen in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Deciduous forest",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Grassland",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tropical rain forest",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Savanna",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q95",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A stage of suspended development under unfavourable conditions seen in many zooplankton species is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dormancy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diapause",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aestivation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hibernation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q96",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "MacArthur found that closely related species of warblers living on the tree shows",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Competitive exclusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coexistence",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interference competition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Competition release",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q97",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one w.r.t trophic level",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zooplanktons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tadpole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Grasshopper",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phytoplanktons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q98",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Behavioural means to cope environmental variations include",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Secretion of solid urine by Kangaroo rat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in red blood cell production at high  altitude",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Desert lizard bask in sunlight when temperature  drops below the comfort zone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leaves reduced to spines in Opuntia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q99",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match w.r.t. succession  Characteristics Seral stage Climax stage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ecological niches Few Many",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Efficiency of High Low energy use",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nutrient Low High conservation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Community Simple Complex organisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q100",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find correct match w.r.t. asexual/vegetative reproduction  Column-I Column-II  a. Terror of Bengal (i) Gootee  b. Bladder wort (ii) Offset  c. Pomegranate (iii) Turion  d. Marchantia (iv) Gemmae",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q101",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mammals of colder areas generally have shorter extremities in comparison to the tropical mammals. This statement comes under the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Allen’s rule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Jordan’s rule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bergman’s rule",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gloger’s rule",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q102",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is incorrect w.r.t. epiphytes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Commonly found in tropical rainforest",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Having hygroscopic root",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Velamen tissues are present in root",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Show + , + relationship in population  interaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 360,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q103",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements w.r.t. biomes and select correct options  a. Hopea, woody climbers and epiphytes are common in tropical rain forests.  b. Coastal biomes are detritus based biomes.  c. The soil of tropical rain forest has high base content.  d. Tropical deciduous biomes have highest standing crop among all biomes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q104",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "When environmental resources/responses are limiting, the growth curve shown by a population will be  K  dN  Population density (N)  dt = rN",
+    "question_diagram": "/images/last_leap_part2/p361_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Time (t)  K  Population density (N)      K     K – N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dN  dt = rN  Time (t)  K      K     dN  K – N  Population density (N)  dt = rN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Time (t)  dN  dt = rN  K  Population density (N)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Time (t)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q105",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "All given features are characteristic to parasites, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Host specificity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Loss of unnecessary sense organs and  presence of some special structures like suckers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low reproductive potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Complex life cycle pattern",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q106",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Competition is necessary for/to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Symbiosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Extinction of biodiversity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Large number of niches formation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase the fitness of one species in the  presence of another species",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q107",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A person who is working as a disc jockey (DJ) might suffer from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Psychological and physiological disorder",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sleeplessness, increased heart beating, altered  breathing pattern",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Permanent damage of hearing ability in long  run",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q108",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct with respect to ozone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Good ozone – Lowest altitude",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bad ozone – Troposphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Good ozone – Troposphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bad ozone – Higher altitude",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q109",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Ecology is basically concerned with how many levels of biological organisation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Five",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Six",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Three",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q110",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Given is a representation of age pyramid for a human population  Find the correct statement w.r.t. this pyramid",
+    "question_diagram": "/images/last_leap_part2/p361_q110.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "It explains growing population in a developing  country",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It explains the stable population of under  developed country",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It explains the stable population of a developed  country",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It explains negative growth or a declining  population",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q111",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "What is the concentration of salt (measured as salinity in parts per thousand) in inland waters?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Less than 5%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30-35%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More than 5%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than 10%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q112",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Population density",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Measured as biomass is generally most  appropriate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "For tiger is estimated usually by total numbers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is measured necessarily as relative densities",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Measured as total number is not easily  adaptable measure for larger population",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 361,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q113",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column-I with column-II  Column I Column II  a. Regulate (i) Endotherms  b. Conform (ii) Nearly all plants  c. Diapause (iii) Zooplanktons  d. Suspend (iv) Aestivation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q114",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Fill in the blanks with correct options.  Adaptation is morphological,  (i) , behavioural attribute that enables the organism to survive and  (ii)  in its habitat. Many adaptations have evolved over a long evolutionary time and are  (iii) fixed. Options :",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) Genetical (ii) Move (iii) Physiologically",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(i) Physiological (ii) Reproduce (iii) Genetically",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(i) Reproductive (ii) Synthesize food  (iii) Morphologically",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(i) Reproductive (ii) Move (iii)  Genetically",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q115",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair is wrongly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Allen’s rule –Mammals with shorter  ears and limbs in colder areas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Expanding population –High  number  of individuals at pre- reproductive stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Population density –(B + I) < (D + E)  increasing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sigmoid curve –Logistic growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q116",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out with respect to population interaction where at least one individual is benefitted.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Predation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amensalism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parasitism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Commensalism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q117",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "According to Gause's ‘Competitive Exclusion Principle’ two closely related species competing for the same resources cannot co-exist indefinitely and the competitively inferior one will be eliminated eventually and superior will survive. This is countered by which of the following principle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Connell’s elegant field experiment",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "“Resource partitioning” by MacArthur",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Natural selection theory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q118",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement (w.r.t. humus)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dark coloured amorphous substance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Highly resistant to microbial action",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reservoir of nutrients",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cannot be degraded further",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q119",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Decomposition of detritus is favoured by all the given below factors, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaerobiosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Detritus rich in nitrogen and sugars",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Warm and moist environment",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Detritus rich in reserve carbohydrates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q120",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following four statements (a–d), select the correct option stating which ones are true (T) or false (F).  a. Organisms at each trophic level depends on those at higher trophic level for their energy demands.  b. Each trophic level has a certain mass of living material at a particular time called standing crop.  c. Each trophic level has a certain mass of non- living material at a particular time called standing state.  d. The number of trophic levels in a grazing food chain is not restricted.  Options  a b c d",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T T F F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F T F T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T F T F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "F T T F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q121",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statement is wrong about greater biological diversity in tropics?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropical latitudes have remained relatively  undisturbed for millions of years",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tropical environments are less seasonal and  relatively more constant and predictable",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less rainfall and highly fertile soil",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More solar energy is available",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q122",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mycorrhizal association plays important role in which of the following bio-geochemical cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbon cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sulphur cycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrogen cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphorus cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 362,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q123",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A stage of suspended development shown by zooplankton species under unfavourable condition in lakes and ponds is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hibernation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aestivation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diapause",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Regulation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q124",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Examine the figure given below showing biome distribution with respect to annual temperature and precipitation and select the correct option out of 1 to 4.  Mean annual temperature (°C)  (A) (C)  (D)  (B)  Mean annual precipitation (cm)",
+    "question_diagram": "/images/last_leap_part2/p363_q124.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(D) – Dipterocarpus, Silver fir",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(B) – Permafrost regions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(C) – Quercus lanuginose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(A) – Well developed stratification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q125",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The following population interactions (a & b) between species A and B are called as a. , 0 b. – –",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) Mutualism, (b) Predation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) Commensalism, (b) Competition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) Parasitism, (b) Competition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a) Commensalism, (b) Amensalism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q126",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In more common type of population growth curve",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Environmental resistance begins to operate to  enhance the exponential phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "An equilibrium is reached when the size of  population approaches the carrying capacity of the area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equilibrium is never reached in population size",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Population grows well beyond the carrying  capacity of the area",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q127",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. population interactions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Crocodile bird and crocodile",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Convolvulus and wheat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Barnacles and whale",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sea anemone and hermit crab",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q128",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Tropical rain forest is characterised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High leaching, low base contents in soil and  abundant epiphytes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Buttress, high leaching and high base content",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hopea, Dipterocarpus, Teak and Deodar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "23-27°C, 2000-3500 cm annual precipitation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q129",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In the given diagram, organisms showing ‘A’ type of response  A  Internal level  B  External level",
+    "question_diagram": "/images/last_leap_part2/p363_q129.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Are evolutionarily successful",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Can maintain thermal and osmotic balance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are 99% plants and animals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Show homoestasis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q130",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Organisms showing logistic growth curve do not have  which one of the feature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Geometric growth of a population",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lives under limited resource condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More realistic growth curve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Growth form is characterised by function of  carrying capacity (K)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q131",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following (column I with column II) Column I Column II (Population (Example) interaction) a. Commensalism (i) Presence of lice among hairs of human b. Parasitism (ii) Mycorrhizae c. Mutualism (iii) Barnacles growing on  the back of whale d. Predation (iv) Prickly pear cactus  and Cactoblastis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q132",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the mis-matched pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zooplanktons – Diapause",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bamboo – Breed once in their life time",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pelagic fishes – Produce a large number of small-sized offspring",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mango trees – Can grow in temperate  countries",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q133",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Many species of small plants (herbs and shrubs) growing in forests are adapted to photosynthesise optimally under very low light conditions because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They take more water from soil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Light is a limiting factor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are constantly overshadowed by tall  canopied trees",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Availability of light on land is not linked that of  temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 363,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q134",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following organisms do not have mechanism to maintain internal temperature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gymnosperms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Birds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mammals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q135",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "a. Many adaptations have evolved over a long evolutionary time and are genetically fixed.  b. Kangaroo rat in North American desert is capable of meeting its water requirements by internal fat oxidation.  c. Altitude sickness is an example of morphological adaptation.  d. Mammals from colder climate generally have shorter ears and limbs to minimise heat loss.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statement a, b & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Statement b, c & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Statement c is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Statement c & d are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q136",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "If 8 individuals in a laboratory population of 40 fruit- flies died during a specified time interval, say a week, the death rate will be ____ individuals per fruitfly per week.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q137",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In nature, a given habitat has enough resources to support a maximum possible number, beyond which no further growth is possible. This limit is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Environmental resistance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intrinsic rate of natural increase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carrying capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Exponential growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q138",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Interaction between sea anemone that has stinging tentacles and clown fish that lives among them, is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amensalism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Commensalism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parasitism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Predation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q139",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect match w.r.t. population interactions where ‘+’ sign for beneficial interaction, ‘–’ sign for detrimental and 0 for neutral interaction.  Species A Species B Name of interaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(+) (–) Predation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(+) (–) Parasitism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(+) (0) Commensalism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(+) (–) Amensalism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q140",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "a. Unlike carbon cycle, there is no respiratory release of phosphorus into atmosphere.  b. The natural reservoir of phosphorus is atmosphere.  c. Herbivores and other animals obtain phosphorus from plants.  d. Gaseous exchanges of phosphorus between organism and environment are negligible.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statements a & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Statements a & b are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Statements a & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Statements a, c & d are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q141",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is of lower level in a expanding population?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biotic potential",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Environmental resistance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carrying capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fertility rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q142",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Species confined to particular region and not found anywhere else, is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Keystone species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Endemic species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Allopatric species",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Endangered species",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q143",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "A     and       B     are some of the problems that have come in the wake of the Green Revolution.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(A) Water logging, (B) Bioprospecting",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(A) Bioprospecting, (B) Soil salinity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(A) Water logging, (B) Soil salinity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(A) Bioprospecting, (B) Soil erosion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q144",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The thickness of the ozone in a column of air from the ground to the top of the atmosphere is measured in terms of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mega pascal unit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Svedberg coefficient",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dobson units",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decibels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q145",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Process of decomposition is favoured by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High temperature and anaerobiosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cool and dry environment",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aerobic condition and low temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Warm and moist environment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q146",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Amount of carbon, nitrogen, phosphorus, calcium etc present in the soil at any time, is referred to as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Standing crop",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Standing quality",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Standing state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 364,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q147",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Ecology is basically concerned with four levels of biological organisation, which one of the following is correct representation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Population EcosystemBiomeLandscape",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CommunitiesPopulationEcosystem  Biome",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OrganismsPopulationCommunitiesBiome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SpeciesEcosystemCommunities   Biome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q148",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which group of organisms is not able to maintain a constant internal environment, hence called conformers?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mammals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bacteria, birds and lower plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Majority of animals and nearly all plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Birds",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q149",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "If in a pond there are 20 lotus plants last year and through reproduction 8 new plants are added, taking the current population to 28. The birth rate is as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.04 offspring per lotus per year",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.4 offspring per lotus per day",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.28 offspring per lotus per day",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.4 offspring per lotus per year",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q150",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The relationship of Yucca and Pronuba and that of clown fish and sea anemone are regarded ______ and _______ respectively.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mutualism, commensalism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amensalism, commensalism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Symbiosis, protocooperation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mutualism, predation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q151",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The concept of Joint Forest Management was introduced by the Government of India in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1974",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1980",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1987",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1990",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q152",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Fitness of one species (measured in terms of intrinsic rate of increase) is significantly lower in the presence of another species during the interaction between",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Barnacles and whale",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Abingdon tortoise and goats",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ophrys and bee",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sea anemone and clown fish",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q153",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Under adverse conditions many zooplankton species  in lakes are known to enter a stage of suspended development, called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Regulate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conform",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diapause",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Migrate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q154",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following organisms are abundant in the bottom of the pond?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zooplanktons and actinomycetes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bacteria, fungi and flagellates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phytoplanktons and flagellates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Green algae, actinomycetes and flagellates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q155",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The type of population interaction exhibited by visiting flamingos and resident fishes in South American Lakes, is also shown by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sparrow eating any seed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cuckoo and crow",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abingdon tortoise and goats in Galapagos  Island",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sea anemone and clown fish",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q156",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "All birds and mammals",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Avoid stress by escaping in time only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Their body temperature changes with the  ambient temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can regulate but only over a limited range of  environmental conditions, beyond which they simply conform",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maintain homeostasis by physiological or  behavioural regulation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q157",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "During the past century, the temperature of Earth has increased by ____, most of it during the last three decades.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q158",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The salt concentration measured as salinity in parts per thousand in inland waters is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "< 5%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "30-35%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "> 100%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q159",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "The given age pyramids labelled by A and B for human population represent  Post-reproductive  Reproductive Pre-reproductive  (A) (B)",
+    "question_diagram": "/images/last_leap_part2/p365_q159.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(A) Positive population, (B) Stable population",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(A) Stable population, (B) Declining population",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(A) Stable population, (B) Expanding population",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(A) Growing population, (B) Declining  population",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 365,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q160",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "What is correctly explained using the given age pyramid?",
+    "question_diagram": "/images/last_leap_part2/p366_q160.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A stable population, where post reproductive  individuals are minimum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A growing population, where young individuals  are maximum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A declining population, where post reproductive  individuals are maximum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A population showing negative growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q161",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Negative growth is represented by which of the following age pyramid graph?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Urn shape",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bell shape",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Triangular shape",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q162",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "An urn shaped age pyramid represents / indicates",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive growth in population",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A low percentage of young individuals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High percentage of young individuals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High birth rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q163",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement stands true for an urn shaped pyramid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "This is shown by a mature stable population",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "This has a very high proportion of pre-  reproductive individuals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "This has a very small number of pre-  reproductive individuals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "This pyramid has least number of reproductive  individuals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q164",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "In Urn shaped age pyramid of populations, the number of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pre-reproductive individuals is maximum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pre-reproductive individuals is minimum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reproductive individuals is minimum followed  by post-reproductive individuals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pre-reproductive individuals is maximum  followed by reproductive individuals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secA_q165",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a characteristic of tropical rain forest?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low base content due to leaching",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leaf drip tips",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Synchronous leaf fall",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Highest standing crop among all Indian biomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q1",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Physiological and behavioural means can allow  the organism to maintain homeostasis.\nReason (R): Organisms which show this phenomena are  called conformers.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q2",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A small pond is an example of incomplete  ecosystem.\nReason (R): Decomposers are absent.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q3",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Zone of manipulation/ Restoration is  characteristic of biosphere reserves\nReason (R): Biosphere reserves are supported by local  tribes in transition zone",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q4",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Humus largely stays in top soil\nReason (R): It is only slightly soluble in water",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q5",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Environment is believed to be holistic in nature\nReason (R): All environmental factors are integrated within  limits of time and space",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q6",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tropics show great diversity.\nReason (R): Tropical environment show seasonal variations  and unpredictable.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q7",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Soil composition, grain size and aggregation  determine the percolation and water holding capacity of the soils.\nReason (R): The nature and properties of soil in different  places vary.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q8",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Many fish thrive in Antarctic waters where the  temperature is always below zero.\nReason (R): Antifreeze solutes are present in the body fluid  of these animals.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q9",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): As we climb a hill, nausea, fatigue and heart  palpitations occur.\nReason (R): At hill top atmospheric pressure is low.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q10",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Irrigation without proper drainage of water leads  to waterlogging in the soil.\nReason (R): Waterlogging draws salt to the surface of the  soil.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q11",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Predation is a conduit for energy transfer  across trophic levels.\nReason (R): It does not help in controlling prey population.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q12",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Humus serves as a reservoir of nutrients.\nReason (R): It is colloidal in nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_11_organisms_and_populations_secB_q13",
+    "subject": "Botany",
+    "chapter": "Organisms and Populations",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Organisms which cannot maintain thermal and  osmotic balance with environment are called conformers.\nReason (R): Thermoregulation is energetically expensive  process, especially for large animals.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 366,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

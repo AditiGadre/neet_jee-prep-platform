@@ -1,0 +1,1972 @@
+[
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Bauxite, an ore of aluminium is purified by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hall’s process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Serpeck’s process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bayer’s process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the extraction of copper metal from sulphide ore, the copper metal is formed by reduction of Cu2O with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "FeO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FeS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu2S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "If an ore is containing ZnS and PbS, the depressant used is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HgS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HCN",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zincite – ZnO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Calamine – ZnCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Siderite – FeCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Malachite – CuCO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The slag obtained during the extraction of copper from copper pyrites is composed mainly of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu2S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FeSiO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuSiO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SiO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The ore having two different metal atoms is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Haematite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Galena",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnetite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Copper pyrites",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Extraction of aluminium from bauxite containing silica as chief impurity is done preferably by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Baeyer’s process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hall’s process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serpeck’s process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hoope’s electrolytic process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a carbonate ore?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Siderite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zincite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dolomite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an ore of silver?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyrargyrite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Argentite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anglesite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following method is not used for concentration of an ore?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Froth floatation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gravity separation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnetic separation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amalgamation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Liquation process is based upon difference between",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Volatility",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fusibility",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ductility",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction rate with CO(g)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Silica and chromite are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neutral refractories",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neutral and basic refractories",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acidic and neutral refractories",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acidic and basic refractories",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 207,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following may involve self reduction process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HgS + O2  Hg + SO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbO + C  Pb + CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe2O3 + CO  Fe + CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "For which of the following metals, distilation method is used for purification?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cd",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the metal M which is present in its ore as MFeS2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Magnesium oxide is used for the lining in steel making furnance because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is reduced to Mg metal easily",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It acts as a flux",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It increases oxidizing power of steel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "From wolframite, the impurity cassiterite is removed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gravity separation method",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetic separation method",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrometallurgy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyrometallurgy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The metal which can be purified by Mond’s process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ni",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not purified by Van Arkel method?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Si",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ti",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ni",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "During bessemerisation process impurities are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduced",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remains unchanged",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vaporised",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Diaspore is an ore of aluminium having molecular formula",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al2O3.2H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3.H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaAlO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Removal of impurities like sand, stones and other useless silicates from an ore is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Refining",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Separation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Roasting",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Carbon cannot be used in the reduction of Al2O3 because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The enthalpy of formation of CO2 is more than  that of Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pure carbon is not easily available",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The enthalpy of formation of Al2O3 is very high",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is an expensive process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Flux used in the smelting of copper ore is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Coke",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnesia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Silica",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lime stone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is an example of auto reduction process ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe3O4 + 4CO  3Fe + 4CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2Cu2O + Cu2S  6Cu + SO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ZnO + CO  Zn + CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Levigation method for the concentration of ore is used when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ore and impurities have different boiling points",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ore and impurities have different densities",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ore and impurities have different affinities  towards oxygen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ore and impurities have different melting points",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Extraction of metals of I group is difficult due to  (i) High thermal stability of their compounds  (ii) High reducing power of metals of group I  (iii) Their ability to react with water",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) Only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(i) & (ii) only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(iii) Only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(i), (ii) & (iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Froth floatation process is based on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Specific gravity of the ore particles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnetic properties of the ore particle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Wetting properties of ore particles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrical properties of the ore particle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 208,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Van Arkel method of purification of metal involves conversion of metal to a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Volatile stable compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volatile unstable compound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non volatile stable compound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non volatile unstable compound",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is true about metallurgy of iron in blast furnance?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "First oxidation and then reduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "First reduction and then oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only reduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only oxidation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In Mac-Arthur forest cyanide process hot air is used for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation of Na2S into Na2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidation of Na2S into Na2S2O3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduction of Na2S2O3 into Na2S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reduction of Na2SO4 into Na2S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Of the following metals the one which cannot be obtained by the electrolysis of the aqueous solution of its salt?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ag",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Au",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following method is based on distribution law?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mond’s process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Parke’s process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cupellation process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polling process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The chemical composition of ‘slag’ formed during the smelting process in the extraction of copper is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu2O + FeS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FeSiO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuFeS2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu2S + FeO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In the blast furnace at lower temperature, following reaction take place  3A + CO  2B + CO2  B + 4CO  3Fe + 4CO2 Compound A and B respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe2O3 and Fe3O4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCO3 and CaO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FeO and SiO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FeO and CaO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Willemite is an ore of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an ore of copper?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chalcopyrites",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Malachite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Azurite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Epsomite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal is extracted through its complex formation method?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ag",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Au",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction Cu2S + 2Cu2O 6Cu + SO2 is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auto reduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Disproportionation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Mercury is purified by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Crystallisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Distillation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Froth floatation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Poling",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an ore of calcium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gypsum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dolamite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lime stone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Corundum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal cannot be extracted by smelting?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which is correct match?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aluminium : Calamine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Copper : Malachite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Magnesium : Bauxite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zinc : Carnallite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "When iron is red heated and suddenly cooled in water then iron becomes more hard and brittle. This process is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Care hardening",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitriding",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Annealing",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Quenching",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "van Arkel method is used to refine",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ga and In",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zr and Ti",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ag and Au",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ni and Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 209,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair of metals are refined by distillation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sn and Fe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn and Hg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu and Ag",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe and Cu",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The slag obtained during the extraction of copper from copper pyrite ore is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaSiO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SiO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuSiO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FeSiO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Copper matte contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu2O and Cu2S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CuO and CuS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu2S and FeS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu2S and FeO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "In Hall-Heroult process, the purified Al2O3 is fused with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na3AlF6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AgCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of following is the reaction of calcination?   2AgCl + H2O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2Ag + 2HCl + [O]   2ZnO + 2SO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2ZnS + 3O2   MgO + CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgCO3   2ZnO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2Zn + O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "During electrorefining of copper, gold may be recovered from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrolyte",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anode mud",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cathode mud",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cathode  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "The extraction of gold by leaching with NaCN involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both oxidation and reduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither oxidation nor reduction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal can be extracted by auto reduction method?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Au",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ag",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tin is purified by liquation.\nReason (R): Hg can be easily vapourised.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In smelting, the roasted ore is heated with  powdered coke in presence of flux.\nReason (R): Oxides are reduced to metals by C or CO and  impurities are removed as slag.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_21_general_principles_and_processes_of_isolation_of_elements_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "General Principles and Processes of Isolation of Elements",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): During metallurgy of aluminium, cryolite is  added with bauxite.\nReason (R): Cryolite is a fusion supportive, it increases  conductivity of bauxite.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 210,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

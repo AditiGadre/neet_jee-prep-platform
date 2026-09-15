@@ -1,0 +1,4500 @@
+[
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Ethanol and propanol can be distinguished by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Iodoform test",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lucas test",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Victor Meyer’s test",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Formation of oxonium salts shows that ethers are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acidic in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basic in nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutral in nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amphoteric in nature  CH3  HI/ Product",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH – C – O – CH 3 3  CH3  Predict the major products of the reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(CH3)3COH + CH3I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CH3)3C – I + CH3OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3C – O – C(CH3)3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following reaction will not give alkyl halide as product?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dimethyl ether + HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dimethyl ether + Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dimethyl ether + PCl5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dimethyl ether + HBr  300 atm, H+ +  NaOH Cl OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "623 K  Mechanism by which above reaction takes place is",
+    "question_diagram": "/images/last_leap_part2/p121_q5.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbocation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbanion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Free radical",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Benzyne",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction of phenol with CHCl3 and aqueous NaOH, the electrophile attacking the ring is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CHCl3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": ": CCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CHCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "COCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following alcohol is dehydrated most easily?  OH",
+    "question_diagram": "/images/last_leap_part2/p121_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 CH CH OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "1-cyclopentyl ethan-1-ol is treated with conc. H2SO4 to form a product which is further treated with HCl. The final product is further treated with potassium tert-butoxide to form",
+    "question_diagram": "/images/last_leap_part2/p121_q8.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclopentylethene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1-ethylcyclopentene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 121,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which reaction intermediate is present in above reaction?  –  O  +",
+    "question_diagram": "/images/last_leap_part2/p122_q9.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ":CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH  Cl /FeCl 2 3 Major product",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "NO2  Major product of the reaction is  OH  OH  Cl",
+    "question_diagram": "/images/last_leap_part2/p122_q10.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  NO2 Cl  OH  OH  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2 Cl  NO2  H O , OH 2 2 – B H –THF 2 6 x",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH –CH = CH 3 2  (CH COO) Hg 3 2 NaBH , THF, H O, OH 4 2 – y  x and y respectively are",
+    "question_diagram": "/images/last_leap_part2/p122_q11.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH CHCH3 3 OH  , CH3CH2CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH CHCH3 3 OH  , CH CHCH3 3 OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3CH2CH2–OH, CH3CH2CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2CH2OH, CH CHCH3 3 OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "A compound of molecular formula C5H10O5 is changed to C13H18O9 by treatment with acetic anhydride. How many alcohol groups are present in the compound?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Reagent (X) for the reaction is  CH2 || CH2  A (X) Na SO 2 3 (Reflux) CH OH 2 | CH OH 2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SeO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Me2SO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OsO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RCO3H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "What is the decreasing order of boiling point of the following alcohols?  CH3  CH C OH 3– – |  , CH CH CH CH OH 3 2 2 2 ,  CH CH CH OH 3– – 2  |  |  CH3  CH3  (X)  (Y)  (Z)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X > Y > Z",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Z > Y > X",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X > Z > Y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Y > Z > X",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Presence of poisionous peroxide in the sample of an ether is detected by using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cu2O and H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FeSO4 and KCNS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Final product ‘B’ of the reaction  2 CH OH MnO 2 2 CH Cl HCl (gas) H C CH CH OH A B     3  2 2 , is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3–CH2–CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH CH CH OCH 2 2 3 – – – | OH  | OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2=CH–CH2–OCH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH =CH–CH 2 OCH3  OCH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In hydroboration oxidation reaction of alkenes, the hydroboration step and overall reactions respectively follows",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Markownikof and Anti-Markownikof addition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anti-Markownikof and Markownikof addition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Markownikof addition in both",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anti-Markownikof addition in both",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 122,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH OH 2  Product (A) is  CH I 2  CH I 2",
+    "question_diagram": "/images/last_leap_part2/p123_q18.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH–I  CH2  CH I 2  CH I 2  CH I 2  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH  CH–I  CH2  CH3  (i) THF : BH3 (ii) H O /OH 2 2 – ?",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH3  The product of above reaction may be  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH OH 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH  CH3  H H  H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H  CH3 OH  OH  H SO 2 4 Heat ?",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "OH OH  The product in above reaction will be  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O  CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3  CH3  ) Excess (  HI ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O    ' P '  C º 150  In the above reaction, the product ‘P’ may be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ICH2CH2CH2CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH CH CH CH .OH 2 2 2 2 | OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I.CH2(CH2)2.CH2I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Butane  CH CH 2 2 – | CH2  CH CH 2 2 – | CH2  | CH2 | | Cl OH  | CH2  NaOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O  The product obtained is used as solvent in preparation of alcohol from alkene, which is that method?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aldol condensation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydroboration oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxo-process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydration of alkene  (C H ) O 2 5 2 H O 3 +  C H MgBr +  6 5 H C 2 CHCH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O",
+    "question_diagram": "/images/last_leap_part2/p123_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C H CH CH CH 6 5 2 2 2 | OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C H CH–CH CH 6 5 2 3 –  | OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C H CH CH CH 6 5 2 3 – – – | OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O C H CH  CHCH 6 5 3 – —",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Dehydration in decreasing order for following alcohols will be  i. CH =CH–CH–CH 2 3 OH  ii. CH –CH –CH–CH 3 2 3 OH  iii. CH CH CH –CH 3 2 2 2 OH",
+    "question_diagram": "/images/last_leap_part2/p123_q24.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "i > ii > iii",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ii > i > iii",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "iii > ii > i",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "i > iii > ii  OH  H SO 2 4  A  CH CO H 3 3 B, H O 2  in the reaction,",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "A and B are (if ring not expand)",
+    "question_diagram": "/images/last_leap_part2/p123_q25.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "COOH ,  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(Cis) ,  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(Trans) ,  O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": ",",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 123,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "We know that compound containing acidic hydrogen when react with Na metal gives H2 gas. H2O, alcohol, C2H2 also have acidic hydrogen. The order of acidic strength is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CHCH > H2O > ROH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ROH > H2O > CHCH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O > CHCH > ROH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O > ROH > CHCH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 124,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In Victor-Meyer test if a blue colour compound nitrolic acid is formed and it turns red on adding NaOH, then the alcohol and nitrolic acid are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1° alcohol, CH –C–NO 3 2 NOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2° alcohol, CH –C–NO 3 2 NOH  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1° alcohol,  C–NO2 NO CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2° alcohol,  C–NO2 NO CH3  Mg/ether C  H O 3 +  A HBr B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 124,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH MgBr +  3  (i) HCHO  (ii) H O 3 +  O  D  In the above sequence of reaction, the product ‘D’ is",
+    "question_diagram": "/images/last_leap_part2/p124_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH OH 2 CH3  H C 3 CH OH 2  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 CH3  CH OH 2  OH  CH—C H 2 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 124,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O2N   H  final        C  H2N  CH3  product will be  C H 2 5",
+    "question_diagram": "/images/last_leap_part2/p124_q29.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "O2N C  | CH3  C  NH2  C H 2 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2N C C  NO2 CH3  CH3 O2N  C C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C H 2 5  H2N  O2N  CH—CH3  C CH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2N  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 124,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In the following reaction  2+ +  Hg /H  O N 2 C C   HOH  (Major product)  The product   is",
+    "question_diagram": "/images/last_leap_part2/p124_q30.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "O N 2 CH CH – 2 | OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O N 2 CH C 2– || O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O N 2 C CH – 2 || O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O N 2 CH –CH 2 | OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 124,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  | Cl  O N 2  KOH(aq) A Major  CH CH CH – – 3  CH O 3  The product ‘A’ is",
+    "question_diagram": "/images/last_leap_part2/p124_q31.png",
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 124,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "",
+    "question_diagram": "/images/last_leap_part2/p125_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "THF / H B          6 2  ) major ( P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 125,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH3—CH CH2  – 2 2  OD / O D  The product ‘P’ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "OH — CH —  | CH — CH 2 3  OD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "D — CH —  | CH — CH 2 3  H O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3—CH2—CH2—OD",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 3 CH —  | CH — CH  D O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 125,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Select the major product of given reaction  14  O – CH – CH = CH2 2   Major product.  OH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14 CH – CH = CH 2 2  OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "14 CH – CH = CH 2 2  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14  OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "14 CH – CH = CH 2 2  3 OH | CH  3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 125,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "       4 KMnO Alkaline  — C — CH  |  CH  3  What is the product formed in the reaction?",
+    "question_diagram": "/images/last_leap_part2/p125_q35.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH —C 3 CH2  | CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH —C 3 O  | CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3—CH2CH2—CHO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 125,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct sequence of increasing acidic strength?  OH  OH  OH  NO2",
+    "question_diagram": "/images/last_leap_part2/p125_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "> >  NO2  NO2  OH OH  OH  NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "> >  NO2  NO2  OH OH  OH  NO2  > >",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO2  NO2  OH  OH OH  NO2  > >",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2  NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 125,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has highest pKa value?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "o-cresol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethanol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-cresol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catechol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Reduction of ethyl alcohol can be performed by using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Red P + HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "LiAlH4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaBH4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is inappropriate resonating  structure of  OH ?  +OH  +   OH  –   ",
+    "question_diagram": "/images/last_leap_part2/p126_q39.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–  –OH   OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The product of following reaction is  CH3  (i) Hg (CH COO) : THF 3 2 (ii) NaBH + NaOH 4  ?  CH – C – CH = CH 3 2  CH3  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – C  –  CH – CH 3 3  CH3  OH  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – C – CH – CH OH 3 2 2  CH3  OH CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH – C  –  CH – CH 3 3  CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HO – CH – C – CH – CH 2 2 3  CH3      + B H 2 6 X  D O /OD 2 2 –  Y.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "    The compound Y is",
+    "question_diagram": "/images/last_leap_part2/p126_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3-methyl heptane-4-ol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4-methyl heptane-3-ol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3-methyl heptane-4-duter-ol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3-methyl heptane-4-one",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclopentene is best prepared from cyclopentanol by using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conc. H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conc. HCl/ZnCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conc. HBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conc. HI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O–H  PCC HBr P Q    The compound Q in the reaction  O",
+    "question_diagram": "/images/last_leap_part2/p126_q43.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "Br O",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "O  O Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most acidic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – CH – OH 3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3 – C – OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The acidic strength of methoxyphenols are in order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Para > Ortho > Meta > Phenol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Para > Ortho > Phenol > Meta",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Meta > Phenol > Ortho > Para",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Meta > Phenol > Para > Ortho",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O – H H P CH = CH2  P is  CH3",
+    "question_diagram": "/images/last_leap_part2/p126_q46.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "O CH3",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "O  O   O  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3 – C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium may be used to dry diethyl ether and  not ethanol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anhydrous CaCl2 cannot be used for drying  ethanol containing traces of water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Williamson synthesis is not superior method  for preparation of ether",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "An ether fire is not extinguished by water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 126,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "How many optical isomers are possible for 2,3-pentanediol?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Function of bleaching powder in the formation of chloroform from ethanol is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "To carry out chlorination of acetaldehyde",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "To carry out hydrolysis of chloral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carry out oxidation of ethanol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "t-butyl alcohol and phenol can be distinguished by",
+    "question_diagram": "/images/last_leap_part2/p127_q50.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Lucas test",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neutral FeCl3 test",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sodium bicarbonate test  ONa    Allyl chloride , 250 C X P Q     ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "What is the name of enclosed reaction and major product P?  O–H  CH – CH = CH 2 2",
+    "question_diagram": "/images/last_leap_part2/p127_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Fries rearrangement;",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Claisen rearrangement;  O–H  CH – CH = CH 2 2  O–H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Claisen rearrangement;   CH – CH = CH 2 2  O–H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fries rearrangement;   CH – CH = CH 2 2  O – H    2 2 4 NaNO H SO P  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Product P may be  O–H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N = O  O–H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N – OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following gives haloform reaction?",
+    "question_diagram": "/images/last_leap_part2/p127_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH –  3 C – O – CH  3 O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3 – OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH  3 – CH – CH – CH – CH 2 2 3 O – H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH  3 – CH – CH I 2 O – H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true for phenols?",
+    "question_diagram": "/images/last_leap_part2/p127_q54.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Phenol on reaction with PCl5 give triphenyl  phosphate as a major product",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrophilic substitution reaction is performed  in presence of Lewis acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The intermediate arenium species is more  stable where electrophile attacks on meta position",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The ortho and para are more deactivated than  meta positions  O – H  Ni HI 2 Red P 3H X Y   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Product Y is  O",
+    "question_diagram": "/images/last_leap_part2/p127_q55.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 127,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is true for below conversion?  Reaction",
+    "question_diagram": "/images/last_leap_part2/p128_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl  D O 3 +  NaOH; 623 K  CHCl  3 B  300 atm A  C   NaOH; 340 K",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Reaction",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "is called Dow’s process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B is phenol and formed via activated  nucleophilic substitution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B is sodium salt of salicyclic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C is acetyl salicyclic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "40 to 42% H SO  2 4  CH – C  CH + H O 3 2   4, A  1% HgSO 333 K   CH MgBr 3 H O 3 + C Na D CH Br 3 E What is E?  B",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2-methoxy-2-methylpropane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1-methoxy-2-methylpropane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-methoxy-butanol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-methoxybutane  (i) CH MgBr Conc.H SO  (ii) H O CH CH CHO (A) (B)    ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "3 2 (major)  3 4 2  3  Hydroboration  Oxidation (C),   (A) and (C) are",
+    "question_diagram": "/images/last_leap_part2/p128_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Identical",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positional isomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Functional isomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tautomers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction sequence     4 KHSO / 2 2 HOH C — CHOH — CH OH  2 5 3 (C H O) Al (A) (B)    (B) will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2C=CH—CHO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2C=CH—CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mixture of H2C=CH—COOH and  H2C=CH—CH2OH  O  || H C CH — C— OCH — CH CH  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The number of methoxy and ethoxy groups in a compound is determined and estimated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zeisel method",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kolbe’s method",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Williamson’s method",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hofmann’s method  O  OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "OH  OH +  260°C P  ; P is  OH  O  OH  O  H",
+    "question_diagram": "/images/last_leap_part2/p128_q61.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "O  O",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "O  H  O  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is incorrect for major product?  OH  O  OH  O",
+    "question_diagram": "/images/last_leap_part2/p128_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "PCC,CH Cl 2 2  OH   conc. H SO 2 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl  alc KOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "  O",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "NH –NH /H 2 2 +",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH  O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following ethers is not cleaved by HI?",
+    "question_diagram": "/images/last_leap_part2/p128_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Dicyclohexyl ether",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phenetole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Di-tert-butyl ether",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diphenyl ether  OH    2 5 C H I 2 5 C H O A B    ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "B is",
+    "question_diagram": "/images/last_leap_part2/p128_q64.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "6 5 6 5 C H O C H  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 5 2 5 C H O C H  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 5 2 5 C H O C H  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 5 C H I ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Among the following compound the strongest acid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH CH ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C2H6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Williamson’s synthesis of ethers is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleophilic substitution reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleophilic addition reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrophilic addition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrophilic substitution reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 128,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Dehydration of cyclopentyl carbinol with conc. H2SO4 forms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclopentane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methyl cyclopentane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclopentene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyclohexene  OH OH  H SO 2 4  ? C – CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "C H 6 5 – C  C H 6 5 CH3  The major product of above reaction is",
+    "question_diagram": "/images/last_leap_part2/p129_q68.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C H 6 5 – C  C – CH3  C H 6 5  CH3  O CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C H 6 5 – C  C – C H 6 5  CH3  CH3 O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C H 6 5 – C  C – CH3  C H 6 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C H 6 5 – CH  HC – CH3  CH3  C H 6 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The product B in the following sequence of reactions is  A B D O 2  MgBr +   O",
+    "question_diagram": "/images/last_leap_part2/p129_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5OD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5CH2OD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H5CH2CH2OD",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is most acidic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phenol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p-Cresol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "o-Nitrophenol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "p-Nitrophenol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Product [A] in the reaction  CH3 OH  OH  H SO 2 4 [A]  , is  CH3  O  CH3  CH3",
+    "question_diagram": "/images/last_leap_part2/p129_q71.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CH3  CH3  O  O  CH3  COCH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C  CH3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Alkyne A reacts with reagents R1 and R2  HgSO R H SO        4 1 2 4  H O OH          BH .THF R  3 2 2 2  To give identical product. A cannot be",
+    "question_diagram": "/images/last_leap_part2/p129_q72.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "3 CH C CH  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH  CH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 – C  C – CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The product of the following reaction is  CH3 CH3 C CH CH2  (i) Hg(CH COO) THF 3",
+    "question_diagram": null,
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following method is used to distinguish between phenol and ethanol?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bromine water test",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ferric chloride test",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reaction with Na",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reagent can provide distinction between p-cresol and benzyl alcohol?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FeCl3 solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Schiff’s base",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tollen’s reagent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 129,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which will undergo hydrolysis most easily via SN1 mechanism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – CH – CH – CH 3 2 3 Br  H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – CH – C – CH 3 3 Br  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ph Br",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3)3C – Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "2 Ag H ,Hg 3 3 333 K CH CBr A B         Which is true about the above reaction?",
+    "question_diagram": "/images/last_leap_part2/p130_q77.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Major product B is 2-butanone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A and B is formed due to electrophilic addition  reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Product A can be alkene or alkyne",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "A mixture of ortho-nitrophenol and para-nitrophenol can be separated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sublimation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fractional distillation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vacuum distillation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Steam distillation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclohexene on reaction with OsO4 followed by reaction with NaHSO3 gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "cis-diol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "trans-diol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epoxy cyclohexane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alcohol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the product D in the following series of reaction  LiAlH4 A H  +  Br2 C  alc. D KOH  CH3COOH  B 443K",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alcohol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acetylene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Benzaldehyde",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The major product formed on hydroboration oxidation of 1-methyl cyclopentene is  CH3  CH3  OH",
+    "question_diagram": "/images/last_leap_part2/p130_q81.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH  OH  CH3  CH3 O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will show turbidity immediately with conc. HCl/ZnCl2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3COH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C2H5OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will not give ether on reaction with CH3CH2ONa?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5CH2Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3CCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will decompose diethyl ether most readily?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "When picric acid is treated with aqueous sodium bicarbonate (NaH14CO3), a gas is liberated with effervescence. The gas evolved would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following will most readily be dehydrated in acidic condition?  OH  OH O",
+    "question_diagram": "/images/last_leap_part2/p130_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH  OH  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH Cl 2  400°C–500°C Cl (B)   (A)   alc.KOH  2  The product (B) is  CH3  CH3",
+    "question_diagram": "/images/last_leap_part2/p130_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl  CH3  CH3  CH–Cl  CH OH 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Phenyl magnesium bromide reacting with tert- methylalcohol gives",
+    "question_diagram": "/images/last_leap_part2/p130_q88.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Ph – OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ph – H  CH3 CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ph – C    CH3 CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ph – O – C    CH3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 130,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which is the best reagent to convert cyclohexanol into cyclohexene?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conc. HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conc. HBr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conc. H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HCl (conc.) + ZnCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "NOCl 2 3 H C = CH – CH X,  X is",
+    "question_diagram": "/images/last_leap_part2/p131_q90.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – CH – CH 2 3  Cl NO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – CH – CH 2 3 Cl NO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ON – CH2 – CH2 – CH2 – Cl  ON – CH – CH – CH 2 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "At low temperature phenol reacts with Br2 in CS2 to form",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "m-bromophenol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "o- and p-bromophenols",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-bromophenol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2,4,6-tribromophenol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not formed when glycerol reacts with concentrated HI?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2 = CHCH2I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3(OH)CH(I)CHI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH(I)CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "4 KHSO Glycerol A    The compound A is",
+    "question_diagram": "/images/last_leap_part2/p131_q93.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2 = CHCHO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – CHCHO 2  Cl OH  O  CH – C – CHO 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH – CHCHO 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl  OH Cl  O  +",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "LiAlH4 A  H /H O  2 B  Here B is  O  O",
+    "question_diagram": "/images/last_leap_part2/p131_q94.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HO  OH  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HO  OH  OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the product B    C H COOOH H O/H 6 5 2 (A) (B)     Cl  Cl",
+    "question_diagram": "/images/last_leap_part2/p131_q95.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH  OCH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following reaction,   will not be formed?",
+    "question_diagram": "/images/last_leap_part2/p131_q96.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "+ CH Br 3 NaOH OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ CH N 2 2  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ CH MgBr 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ (CH ) SO 3 2 4 NaOH OH  CH OH 2 + HCl heat Product (Major)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "HO  Product of the reaction is  CH Cl 2  CH Cl 2",
+    "question_diagram": "/images/last_leap_part2/p131_q97.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HO  Cl  CH OH 2  CH OH 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl  HO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is having lowest pKa?  OH  OH  F",
+    "question_diagram": "/images/last_leap_part2/p131_q98.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "OH  OH  NO2  NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OCH3  NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 131,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Dehydration of the following in increasing order is  OH OH  (I) (II)  OH  OH  (III)  (IV)",
+    "question_diagram": "/images/last_leap_part2/p132_q99.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I < II < III < IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I < II < IV < III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "II < III < IV < I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I < III < IV < II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The compound that reacts with CH3MgBr to yield methane as one of the compounds is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH    CH 3 2OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "When ethylene oxide reacts with ethylmagnesium bromide, followed by hydrolysis, the compound formed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isopropyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "n-butyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tert-butyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "n-propyl alcohol  OH  Fe + Br2 ? (Major product)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "OH  Major product is  OH  OH  Br",
+    "question_diagram": "/images/last_leap_part2/p132_q102.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH Br  OH  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br  OH Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "A compound (Y) reacts with Grignard reagent to produce an aldehyde. (Y) can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethyl formate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acetyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acetic anhydride  +  H  A  (major) + CH OH 3 . (A) is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O  OCH3",
+    "question_diagram": "/images/last_leap_part2/p132_q104.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OCH3 O  O  OCH3  OCH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  O  O  OH  Na Cr O 2 2 7 H SO 2 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction,  A (Major)  A is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Benzoquinol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Benzoquinone",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catechol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH3CH2CH2OH can be prepared by  4 LiAlH  Ether ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2COOCH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH2CHO  4 LiAlH  Ether ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3MgBr + CH – CH 2  2 O    2 H O/H ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "Find the major product of the following reaction?  OH  (340 K)  ?   + CHCl3 + NaOH   OH  OH  OH  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH  OH  CHO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OCl  Dry D O 2 Ether A O  B . B is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q108",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "MgBr +",
+    "question_diagram": "/images/last_leap_part2/p132_q108.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH –CH –OD 2 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 132,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q109",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "A D  A should be",
+    "question_diagram": "/images/last_leap_part2/p133_q109.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "B2H6–THF/DCOOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2H6–THF/DCOOD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2D6–THF/HCOOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B2D6–THF/HCOOD  D SO 2 4 H O 2  A CH= CH   2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q110",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "(i) (AcO) Hg H O  2 2   (ii) NaBH NaOH 4 B  Which of the following is correct?  CH2D  CH3  OH  OD  A",
+    "question_diagram": "/images/last_leap_part2/p133_q110.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "A   CH3  CH3  OH  OH  B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q111",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "HO [(CH ) CO] Al 3 3 3 Acetone A.  The compound A is",
+    "question_diagram": "/images/last_leap_part2/p133_q111.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 O  O  conc. H SO 2 4 X(major product)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q112",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "CH – CH3  OH  Identify X.  CH3  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH – CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH = CH2  +  HI / 373K P (excess)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q113",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "O  Product P of the reaction",
+    "question_diagram": "/images/last_leap_part2/p133_q113.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "HO I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OH OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction  CH3   + HBr is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q114",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "The product of the reaction  O  CH3",
+    "question_diagram": "/images/last_leap_part2/p133_q114.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OH  Br  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3 Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OH  CH3 Br",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secA_q115",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction sequence    3 2 2 BH H O THF NaOH A B Major    The product ‘B’ is  OH  OH",
+    "question_diagram": "/images/last_leap_part2/p133_q115.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 133,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The Boiling points of alcohols are greater than  that of ethers.\nReason (R): Alcohols form intermolecular H-bonds while in  ethers weak dipole-dipole interactions exist.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The solubility of alcohols in water decreases  with the increase in the number of carbon atoms.\nReason (R): The non-polar alkyl group or the hydrophobic  portion supports the solubility of alcohol.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alcohols are generally soluble in water.\nReason (R): ROH and H2O form intermolecular hydrogen  bonding.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Reaction of (CH3)2C=CH–CH2Br with aq. NaOH  gives 2-methylbut-3-en-2-ol as kinetic product.\nReason (R): Carbocation formed in the reaction undergoes  allylic rearrangement to give more stable carbocation..",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Phenol is more acidic than alcohol and water.\nReason (R): Phenoxide ion is resonance stabilised.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): 3° ROH are reactive towards Na metal.\nReason (R): Greater the stability of carbonium ion, greater  is the reactivity toward base.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Phenol does not react with NaHCO3 but  2, 4, 6-trinitrophenol does react with evolution of CO2.\nReason (R): 2,4, 6-trinitrophenol is a stronger acid than  carbolic acid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Anhydrous CaCl2 can be used for drying  ethanol.\nReason (R): Sodium metal does not react with ethanol.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Dehydration of glycerol with KHSO4 gives  acrolein.\nReason (R): Acrolein is an , -unsaturated aldehyde.  OH  O  1. LiAlH /THF 4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): 2. H O 3 +  O  OH\nReason (R): Above reaction takes place by 1,4-addition of  H– ion.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q11",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Picric acid is more acidic than formic acid.\nReason (R): Picric acid has three –COOH groups whereas  formic acid has one –COOH group.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q12",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Boiling point of ethanol is higher than that of  methoxymethane.\nReason (R): Ethanol is H-bonded while methoxy methane is  not.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_12_alcohols_phenols_and_ethers_secB_q13",
+    "subject": "Chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): – OH, – OCH3 groups are o, p-directing.\nReason (R): Only those functional groups in which oxygen  atom is attached to benzene ring are o,p-directing groups.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 134,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

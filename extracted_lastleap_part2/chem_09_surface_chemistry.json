@@ -1,0 +1,2492 @@
+[
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "A packet of colloidal system and two electrodes are taken. When voltage is applied so that liquid medium moves under the influence of electric field. This phenomenon is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrophoresis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electroosmosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrodialysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrolysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following ion will have the highest flocculating value for the coagulation of positive sol particles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Br–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO3  2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Fe(CN)6]3–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Fe(CN)6]4–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Micelle formation occurs only above a particular temperature known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inversion temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kraft temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Curie’s temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Boyle’s temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not correctly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Argyrol – Colloidal sol of silver",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Purple of cassius – Colloidal sol of platinum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aqua dag – Colloidal sol of graphite in water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colloidion – Colloidal  sol  of cellulose nitrate in ethanol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Tanning is used for hardening of leather. The process involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peptization",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coagulation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adsorption",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absorption",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "H2S + As2O3   Above reaction leads to formation of colloidal solution of   by   method.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S, reduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S, oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "As2S3, double decomposition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As2S3, oxidation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In Fe(OH)3 sol obtained by peptization when subjected to “electrophoresis effect”",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Colloidal particles will migrate towards anode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Colloidal particles will migrate towards cathode",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Colloidal particles migrates first towards anode  and then towards cathode",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colloidal particles remain stationary",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Colloidal solutions are not purified by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dialysis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrodialysis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ultrafilteration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrophoresis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Colloidal system of liquid in gas is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smoke",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Foam",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Milk",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fog",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The protective action of colloids is expressed in terms of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gold number",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Avogadro’s number",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Atomic number",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidation number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Potassium sterate is an example for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Multimolecular colloid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Associated colloid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Macromolecular colloid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lyophilic colloid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 103,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Slope of Freundlich adsorption isotherm is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "log K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "log x  m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "log P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1 n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "ZSM-5 is used to convert",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alcohol to petrol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Benzene to toluene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Toluene to benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heptane to toluene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Adsorption is accompanied by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in entropy of system",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decrease in enthalpy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The value of TS is negative",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Brownian movement does not depend upon the  nature of the colloid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tyndall effect helps to confirm the  heterogeneous nature of the colloidal solutions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A positively charged sol is formed by the  addition of excess of hot water to ferric chloride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which pair is correctly matched?  Colloidal solution Adsorbed ion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Fe(OH)3] Fe3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[As2S3] As3+  2– in acidic medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[SnO2] SnO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[AgI] I– in excess of AgNO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements  (i) The process of converting a precipitate into colloidal sol is called peptization.  (ii) Collodion is a 4% solution of nitro cellulose in  a mixture of alcohol and ether.  (iii) Clouds are aerosols having small droplets of  water suspended in air.  Choose the correct statement(s)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(i) & (ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(i) & (iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(i), (ii) & (iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The potential difference between electric double layer on colloidal particles is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electromagnetic potential",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrokinetic potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zeta potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The most suitable coagulating reagent having fastest rate of coagulation of arsenic sulphide sol is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 4 PO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correct about chemical adsorption?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is irreversible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is related to the ease of liquifaction of gas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is highly specific",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Tyndall effect is best observed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lyophillic colloids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lyophobic colloids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Suspension",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "True solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Bredig’s arc method can be used for making colloidal sol of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Starch",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gold",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sulphur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The cavity diameter of zeolites lie between",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 nm – 100 nm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "450 pm – 1000 pm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "260 pm – 740 pm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "260 nm – 850 nm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Artificial smoke screens are made by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "TiO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PbO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "1 mol of [AgI]Ag+ can be coagulated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 mol of AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1 mol of AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 mol of AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 1 mol of CaCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 104,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Foam rubber is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liquid in gas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gas in solid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gas in liquid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solid in gas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Dispersion of starch in hot water is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Emulsion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrophilic sol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrophobic sol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Associated colloid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Freshly obtained SnO2 is added to water containing little HCl. The sol obtained would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positively charged due to preferential adsorption  of H+ ion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negatively charged due to preferential  2–  adsorption of SnO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positively charged due to preferential adsorption  of Sn4+ ion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Positively charged due to preferential adsorption  of Sn2+ ion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "For the coagulation of 100 ml of arseneous  M  sulphide sol, 50 ml of 10   NaCl is required. The  flocculation value of NaCl is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The value  of zeta potential depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Drift velocity of colloidal particles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dielectric constant of dispersion medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Viscosity of dispersion medium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the set is mismatched regarding the catalyst used and its type?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Haber’s process – Fe catalyst, Heterogenous catalysis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrolysis of – H2SO4 catalyst, sugar Homogenous catalysis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ostwald process – Platinum gauge, Homogeneous catalysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrogenation of – Nickel, Heterogenous vegetable oil catalysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Electrokinetic potential is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potential difference between fixed layer and  diffuse layer of similar charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Movement of colloidal particles towards one of  the electrode on applying electrode potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potential difference between fixed layer and  diffused layer of opposite charge",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The charge on the sol particles is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrons capture by sol particles during  electrode dispersion of metals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Preferential adsorption of ions from solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acidic or basic medium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of the above possible",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Point out false statements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Brownian motion and Tyndall effect are shown  by colloidal solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Different colours of a colloidal solution are due  to different size of colloidal particles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blood is a colloidal solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If 2.5 mg of X is added in 1 ml colloidal  solution of gold to prevent coagulation on adding 1 ml of 10% NaCl its gold number is 2.5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an application of adsorption?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Separation of inert gases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Softening of hard water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heterogeneous catalysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Lyophilic solutions are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Irreversible solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Self stabilizing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Easily coagulable",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They are prepared from inorganic compounds  only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Peptization is used for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Preparation of colloidal sol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Purification of colloidal sol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Separation of two colloidal sol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Preparation of emulsion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Argyrol is colloidal solution of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ag",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Au",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Starch",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 105,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "On adding AgNO3 solution to KI solution a negatively charged colloidal solution will be formed in which of the following conditions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100 ml of 0.1 M AgNO3 + 100 ml of 0.1 M KI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 ml of 0.1 M AgNO3 + 50 ml of 0.2 M KI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100 ml of 0.2 M AgNO3 + 100 ml of 0.1 M KI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "100 ml of 0.1 M AgNO3 + 100 ml of 0.15 M KI",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is aerosol?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smoke",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cloud",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Jellies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The Langmuir adsorption isotherm is given by the relationship  x aP m 1 bP   , then the correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x a m b   at very high pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m aP x   at very low pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "m b x a   at low temperature and high pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is lyophilic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gelatin sol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Silver sol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sulphur sol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As2S3 sol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "An example of solid-solid system is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smoke",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pumic stone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dust",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gem stones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "According to adsorption theory of catalysis the reaction rate increases because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adsorption produces heat which increases the  rate of reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In the process of adsorption, the kinetic energy  of the molecules increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The concentration of reactants at the active  centres becomes low due to adsorption",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The activation energy of the reaction becomes  high due to adsorption",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "In the Haber process of synthesis of NH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mo acts as catalyst and Fe as a promoter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe acts as catalyst and Mo as a promoter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe acts as inhibitor, Mo as catalyst",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe acts as promoter and Mo as autocatalyst",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Graph between  x logm and log p is a straight line  at an angle 45° with intercept on y-axis, 0.3010. Then the amount of the gas adsorbed in gram per gram of the adsorbent when pressure is 0.2 atm is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The volume of gases H2, CH4, CO2 and NH3 adsorbed by 1 g of adsorbent at 288 K are in the order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2 > CH4 > CO2 > NH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH4 > CO2 > NH3 > H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2 > NH3 > H2 > CH4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3 > CO2 > CH4 > H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Peptization is a process of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Precipitating the colloidal particles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Purifying the colloidal solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dispersing the precipitate into colloidal sol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Movement of colloidal particles towards the  opposite charged electrodes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Bleeding is stopped by application of ferric chloride. This is because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The blood starts flowing in opposite direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The ferric chloride seals the blood vessel",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The blood reacts and forms a solid which seals  the blood vessel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The blood is coagulated and thus the blood  vessel is sealed",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match  Sol. Coagulating power",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe(OH)3 NaCl > CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gold NaCl < CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Soap sol AlCl3 > NaCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As2S3 AlCl3 > CaCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Gold number is a measure of the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protective action by a lyophilic colloidal on  lyophobic colloid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protective action by a lyophobic colloid on  lyophilic colloid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Number of milligram of gold in a standard red  gold solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Number of millimoles of lyophilic solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 106,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "FeCl3 when added to hot water, we obtain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positively charged colloid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negatively charged colloid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "True solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Suspension",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of physisorption increases with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease in pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decrease in surface area",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "If colloidal sol of AgI is prepared by adding AgNO3 to KI solution till AgNO3 is in slight excess then colloidal particle acquire",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative charge",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Positive charge",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Either positive or negative charge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Zeolites are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Shape selectives catalysts",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidising agents",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reducing agents",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Antiseptics",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Fog is an example of colloidal system",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liquid dispersed in gas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gas dispersed in gas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solid dispersed in gas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gas dispersed in liquid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Tails of comet are visible due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adsorption",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reflection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tyndall effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Brownian motion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph is correct for Freundlich adsorption isotherm?  log x/m  log x/m",
+    "question_diagram": "/images/last_leap_part2/p107_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "log P  log P  log x/m  log x/m",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "log P  log P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Liquid in liquid – Fog",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solid in liquid – Sol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Liquid in solid – Gel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gas in liquid – Foam",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not true to the phenomenon of physisorption?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H < 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H > 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S < 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G = –ve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Match column I to column II  Column-I Column II  a. Osmosis (i) Movement of dispersed phase particles towards oppositely charged electrode  b. Dialysis (ii) Movement of solvent  particles through SPM towards concentrated solution side  c. Electrophoresis (iii) Colloidal sol  formation  d. Peptisation (iv) Purification of  colloids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Collodion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4% solution of nitrocellulose in a mixture of  alcohol and ether",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "95.5% solution of ethanol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Colloidal solution of gold",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A type of semipermeable membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an example of associated colloid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protein + water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Soap + water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rubber + benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "As2O3 + Fe(OH)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Among the electrolytes Na2SO4, CaCl2, Al2(SO4)3 and  NH4Cl, the most effective coagulating agent for Sb2S3 sol is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al2(SO4)3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH4Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 107,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following has the highest coagulation value for As2S3 solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Al3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A hydrophilic sol is more stable than  hydrophobic sol.\nReason (R): In hydrophilic sol, colloidal particles are heavily  hydrated as compared to hydrophobic sol.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Scattering of light makes sky appear blue.\nReason (R): Colloidal dust particles present in air scatters  the blue light most.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Soaps form negative sol.\nReason (R): Micelles formation takes place above CMC and  kraft temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): One part of micelles is lyophillic in nature.\nReason (R): Micelles have lyophillic COO– group.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_09_surface_chemistry_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Colloidal solutions show colligative properties.\nReason (R): Colloidal solutions do not show Brownian  motion.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 108,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

@@ -1,0 +1,5722 @@
+[
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PbI2 + I2 PbI4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In diborane ‘B’ is sp3 hybridised  6–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyrosilicate contains Si2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Borax has 8 mole of water of crystallisation per  mole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Boron when heated with carbon powder at high temperature forms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BC2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B4C3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2C3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B4C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct statement about B2H6 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Each boron atom undergoes sp2 hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All the atoms forms 2e– – 2 centre bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hb – B – Hb bond angle is 112°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The boron atoms are linked through hydrogen  bridges",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not correctly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cassiterite – SnO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cerussite – PbCO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Borax – Na2[B4O5(OH)3] 8H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Corundum – Al2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Lab preparation of diborane is shown correctly by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BF3 + NaH  450 K ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaBH4 + I2  Diglyme    ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2O3 + H2 + Al",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which does not show inert pair effect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "H3BO3 is a   acid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monobasic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dibasic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tribasic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tetrabasic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The dissolution of Al(OH)3 by a solution of NaOH results in the formation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Al(H2O)4(OH)]2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Al(H2O)2(OH)4]–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Al(H2O)3(OH)3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Al(H2O)6(OH)3]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct order of first ionisation energy of group-14 elements?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C < Si < Ge < Sn < Pb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C > Si > Ge > Sn > Pb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C > Si > Ge > Sn < Pb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C > Si < Ge > Sn < Pb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Inorganic benzene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BN",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2H6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B3N3H6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3BO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Permutit is technical name given to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aluminates of calcium and sodium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Silicates of calcium and sodium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrated silicates of aluminium and sodium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Silicates of calcium and magnesium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 195,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An element (Z = 114) has four valence  electrons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbO2 is more oxidising than PbO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbon tetrachloride is hydrolysed by water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon suboxide is formed by dehydration of  malonic acid  450 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "NaH + BF  3 (A) + NaF  Excess NH 473 K   3  (B)  Compound (B) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B2H6.2NH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B3N3H6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(BN)x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3BO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "   units are present in  2n 3 n SiO",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyrosilicates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclic silicates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sheet silicates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Orthosilicates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Silica reacts with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Na B O .10H O 2 4 7 2 (A) (B)  MO  Formula of (B) and its colour for copper is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaBO2, Blue",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu(BO2)2, Blue",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu(BO2)2, Green",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaBO2, B2O3, Green",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect about Borax ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is acidic in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Total number of B – O – B bonds is equal to  B – OH bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is represented as Na2[B4O4(OH)4].8H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of atomic radii of group-13 elements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B < Al < Ga < In < Tl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B < Ga < Al < Tl < In",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B < Ga < Al < In < Tl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B < Al < Ga < Tl < In",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The ratio of - and -bonds in borazine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 : 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 : 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Borax on heating strongly above its melting point produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium borate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium metaborate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Boric anhydride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The strongest reducing agent among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "GeCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SnCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PbCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SnCl4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The type of bond which exists between B atoms in diborane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Normal covalent bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ionic bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metallic bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Three center two electron bond",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following aluminium halide is most covalent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aluminium fluoride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aluminium chloride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aluminium bromide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aluminium iodide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following halide does not exist?      ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "      2  2  6 SiCl  6 GeF",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "    ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "      2  2  6 SnCl  6 CCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inorganic benzene is less reactive than  benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The hybridisation of two boron atom in borax is  sp2 and the other two boron atom is sp3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fullerene (C70) has 20 six membered rings",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum number of atoms in diborane (B2H6) lying in the same plane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The purest and thermodynamically most stable allotrope of carbon respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fullerene, diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graphite, diamond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fullerene, graphite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diamond, Fullerene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In the diborane, bond length of 3c - 2e bond is  less than 2c - 2e bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Boron react with alkali solutions evolving O2  gas",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AlCl3 forms dimer but BCl3 does not form  dimer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O2 act as oxidising agent only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 196,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2 turns lime water milky",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BF3 > BCl3 > BBr3 > BI3 : order of acidic  strength",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In borax, boron is both sp2 and sp3 hybridised",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B(OH)3 is a Lewis acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "AlF +  KF    3      Excess  BF +  KF    3      Excess  Compound   and   are respectively",
+    "question_diagram": "/images/last_leap_part2/p197_q30.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "K3AlF6 and KBF4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "KAlF4 & K3BF6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K3AlF6 and K3BF6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K2AlF4 & KBF4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Hybridization of Boron in diborane and borax are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3 in diborane and sp2 in borax",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp2 in diborane and sp3 in borax",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3 in diborane and sp2 & sp3 in borax",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp2 in diborane and sp2 in borax",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Boranes have general formula",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BnHn+4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BnHn+6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BnH2n+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is Tincal?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2B4O7.10H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca2B6O11.5H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2B4O7.4H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaB4O7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The stability of dihalides of group 14 elements follow which of the order?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SiCl2 < GeCl2 < PbCl2 < SnCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "GeCl2 < PbCl2 < SnCl2 < SiCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SiCl2 < GeCl2 < SnCl2 < PbCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "GeCl2 < SiCl2 < PbCl2 < SnCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Graphite is thermodynamically more stable  than diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The M-M bond energy of C > Si > Ge > Sn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The number of carbon per unit lattice of  diamond is 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon is most electronegative element of the  group",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is/are correct?",
+    "question_diagram": "/images/last_leap_part2/p197_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "B2H6 reacts with excess of ammonia at low  temperature to form ionic substance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2H6 reacts with excess of ammonia at high  temperature to form a white slippery solid called boron nitride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Borazine is inorganic benzene but has –ve and  +ve formal charges in it on B and N respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following bonds are present in silicone?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "— — — — —O—Si Si—O Si O Si —",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "—Si—C Si O C — — — — |  |  |  |  |  |  |  |",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "—Si—Si Si — —Si— |  |  |  |  |  |  |  |",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "—Si—C Si — —C—Si— |  |  |  |  |  |  |  |  |  |",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is/are correct?",
+    "question_diagram": "/images/last_leap_part2/p197_q38.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Boric acid is a Lewis acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3 is amphoteric while B2O3 is acidic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2O3 can combine with CuO to give  metaborate and borax bead test",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Boron has very high melting point due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Small size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hund’s rule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Covalent nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High nuclear charge  – is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The hybridisation of boron in B2H6 and BH4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp2, sp2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp3, sp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp2, sp3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3, sp3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 197,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "CO is extremely stable oxide of carbon but SiO is unstable because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbon can form coordinate covalent bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon is smaller than silicon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-p bond present between carbon and  oxygen which is not possible in SiO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO is neutral while SiO is amphoteric",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "CO2 is a gas while SiO2 is solid because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2 is a small molecule while SiO2 is a large  molecule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In CO2 p-p bond exist between C and O and  in SiO2 p–d bond exist between Si and O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In SiO2 p-p bond exists between Si and O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2 is a discreate molecule where molecular  forces of attraction exist while SiO2 is a covalent solid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not used as water softner?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calgon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Silicone",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Permutit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Organic resin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Purest form of carbon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graphite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fullerene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction 2B + 6HNO3  A + 6NO2 The product A is",
+    "question_diagram": "/images/last_leap_part2/p198_q45.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "B2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2HBO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2H3BO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2H3BO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Formula of inorganic graphite and carborundum are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B3N3H6 and Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BN and Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BN and SiC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B3N3H6 and SiC",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Graphite is used as anode but not diamond because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It contains free carbon atoms between two  layers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It contains free electrons between two layers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbon is a highly electronegative element",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "How many B–O–B bonds are present in structure of crystalline borax?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "A silicate having an anion of general formula (Si2O5  2–)n is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Orthosilicates",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pyrosilicates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ring silicates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sheet silicates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following oxides has three- dimensional structure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SiO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct sequence of increasing first ionisation energy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pb < Sn < C < Si",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pb < C < Si < Sn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sn < Pb < Si < C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sn < C < Si < Pb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "1000 mL of air is allowed to react completely with boron. The approximate volume of the air remained unreacted will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "220 mL",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "170 mL",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "110 mL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10 mL",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of first ionisation potential in Boron family is given as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B > Al > Ga > In > Tl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B > Al > Ga > In < Tl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B > Al < Ga < In > Tl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B > Al < Ga > In < Tl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "CO2 gas cannot be used to extinguish the fire caused by reaction of saline hydride with water, because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Saline hydride will reduce CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2 will catch fire",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2 will form carbonates with saline hydride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which cannot show stable +3 oxidation state?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ga",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "3 6 BF is not possible due to",
+    "question_diagram": "/images/last_leap_part2/p198_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Very small size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High ionization energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Non-metallic nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of d-orbitals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 198,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is weakest Lewis acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BF3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BCl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BBr3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BI3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most basic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ga2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In(OH)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is known as inorganic graphite?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "AlN",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al2BrCl5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B(BrF2)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "An aqueous solution of Borax will be ______ in nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acidic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neutral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amphoteric",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is strongest oxidising agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SiO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SnO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correct about silicones?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They are chemically inert and water repelling in  nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lower silicons are oily liquids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "They are used in making waterproof clothes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Good electrical conductor",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "For C60 fullerenes, which of the following statement is not true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20 six membered ring and 12 five membered  rings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Six membered rings are connected to other 5  and 6 membered rings",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Five membered rings are connected to other 5  and 6 membered rings",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All the carbons are in sp2 hybrid state",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is most thermodynamically stable allotrope of carbon?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C60",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C70",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Graphite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is an example of arachno-borane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B5H10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B6H12",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B7H14",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B8H13",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which has least first ionization energy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Si",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ge",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of acidity in aqueous medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O2 > H2O > CO2 > CH4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2 > H2O2 > H2O > CH4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O2 > CO2 > H2O > CH4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2 > H2O > H2O2 > CH4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In silicon dioxide",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Each silicon atom is surrounded by four  oxygen atoms and each oxygen atom is bonded to two silicon atoms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Each silicon atom is surrounded by two  oxygen atoms and each oxygen atom is bonded to two silicon atoms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Silicon atom is bonded to only two oxygen  atoms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "There are one sigma and one  bond between  silicon and oxygen atoms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following form most stable dihalide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ag",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following halide is least stable and has doubtful existence?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CCl4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbCI2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SiCI4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbI4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The species that does not contains peroxide ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PbO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SrO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BaO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In graphite, the electrons are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Localised on every third carbon atoms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Present in antibonding orbitals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Localised on each carbon atom",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spread throughout the layer",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Formula of anion of pyrosilicates is  4–",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SiO4  6–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Si2O7  2–)n",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(SiO3  2n–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(Si2O5)n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 199,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not correct about BF3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is stronger Lewis acid than BCl3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It does not form dimer like Al2Cl6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It can combine with F– ion to form  4 BFion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It contains back -bonding",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Aluminium chloride exists as dimer, Al2Cl6 in solid state as well as in solution of non polar solvents, such as benzene. When dissolved in water, it gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al3+ + 3Cl–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3 + 6HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Al(OH)6]3– + 3HCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Al(H2O)6]3+ + 3Cl–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "H2O2 restores the colour of old lead paintings blackened by the action of H2S gas by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Converting PbO2  to Pb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidising PbS to PbSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Converting PbSO3 to Pb",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidising PbSO3 to PbSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The descending order of atomic radius of elements of group 13 in periodic table is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tl > In > Ga > Al > B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tl > Al > Ga > In > B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tl > In > Al > Ga > B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tl > Ga > In > Al > B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct about diborane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Terminal B–H bonds are 2c–2e bonds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has 3c–2e bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The hybridisation of ‘B’ is sp3 in B2H6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following species decomposes most easily?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pb(CH3COO)4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PbI4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The thermodynamically most stable crystalline form of carbon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Graphite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bucky ball",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diamond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Coal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Silica in its normal form is almost non-reactive because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Si is sp3 hybridised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Si – O bond enthalpy is very high",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solid state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Covalent nature  +2  +",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Na Z 2 Sodium  Ca  CaZ  + 2Na  + .  (From hard  Calcium  zeolite  water)  zeolite  What is Z?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al2Si2O8·xH2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2SiO3·xH2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AlSi2O8·xH2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Al2O3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C – C bond length in diamond is 154 pm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graphite is soft and slippery",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fullerenes are the pure form of carbon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbon black is obtained by burning  hydrocarbons in excess of air",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement about diborane is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boron atom is sp3 hybridised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Six atoms are present in same plane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molecule behaves as Lewis acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "LiH + (BH3)2  P  Which of the following option is correct for above reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BH3 acts as a Lewis acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H– acts as a Lewis base",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "‘P’ is Lithium borohydride which acts as a  powerful oxidising agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not true for borazine and benzene?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both are isolectronic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both posses 12 bonds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both possess planar ring structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both are polar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 200,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Borax is very useful in the manufacture of boro- glass which is quite resistant to heat. Which of the following option related to structure of borax is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its ionic formula is [B2O4(CH)4]–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It contains four B –O– B bonds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two boron atoms have triangular geometry and  two boron atoms are tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "B(OH)3 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monobasic and weak Arrhenius acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monobasic and electron pair accepter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tribasic and weak Bronsted Lowry acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monobasic and weak Bronsted base",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The aluminosilicate which can be used to convert alcohols directly into gasoline is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ZSM – 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ZSM – 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Silicones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Beryl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option regarding aluminium chloride is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anhydrous aluminum chloride exists as a  dimer and is covalent in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrated aluminium chloride is [Al(H2O)6]Cl3  and is covalent in nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AlCl3 is a Lewis base",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are true  370 K  A + H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "B(OH)3   2A  410 K  B + H2O  Red hot  C + H2O  B   CoO + C  D(Blue)  A, B, C and D are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HBO2; Tetraboric acid; B2O3; Cobalt metaborate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HBO3; H4B2O7; B2O3; Cobalt metaborate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HBO2; H4B2O7; B3O2; Co(BO2)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H4B2O7; HBO2; B2O3; Cobalt metaborate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following regarding Boron nitride is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its structure is similar to diamond in which both  ‘B’ and ‘N’ is sp3 hybridised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Its structure is similar to graphite in which both  ‘B’ and ‘N’ is sp2 hybridised",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BN posses linear structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BN is ionic, hence non-directional in nature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Stability: B+3 > Al+3 > Ga+3 > In+3 > Tl+3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stability: Ga+ < In+ < Tl+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al < Al+ < Al2+ (I.E.)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following regarding ‘C’ and its compounds are not true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bond order between ‘C’ and ‘O’ is three and  metal carbonyl bond is dative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO is neutral oxide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO is toxic because it forms a complex with  haemoglobin in the blood and this complex is more stable than oxy-haemoglobin  conc. H SO ,  2 4  H + CO 2 2 H – C – O – H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following halide of group 14 is ionic?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SnF4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SnCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PbCl4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbI4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of acidic nature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BF3 > BCl3 > BBr3 > BI3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BI3 > BBr3 > BCl3 > BF3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BF3 > BCl3 > Bl3 > BBr3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BI3 > BF3 > BCl3 > BBr3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct formula of borax is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2[B4O5(OH)4]. 8H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2[B4O8(H2O)4]. 5H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2[B4O4(OH)3]. 9H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2B4O7. 7H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 201,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Boric acid on heating at 370 K gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HBO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2B4O7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3BO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Inorganic benzene is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Borazine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Disulphuric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Caro’s acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The first ionisation energy of the elements of group XIV follow the order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C > Si > Ge > Sn > Pb",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pb > Sn > Ge > Si > C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ge > Sn > Pb > Si > C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C > Si > Ge > Pb > Sn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following shows +2 most stable oxidation state and why?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sn-inert pair effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pb-inert pair effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pb-due to non metal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ge-due to non metal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclic silicates contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2– n (SiO )  –2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Si2O7  4–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SiO4  – 2n 2 5 n (Si O )",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The suspension of slaked lime in water is  known as milk of lime",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plaster of Paris is hemihydrate of calcium  sulphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The acidic nature of oxides of group-13  increases down the group",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Beryllium chloride is covalent in nature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Diborane reacts with H2O to form",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HBO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3BO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2(CH3)2N·B2H6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B2(CH3)6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The correct structure of anion of pyrosilicate is  –  O  Si  –  –O O",
+    "question_diagram": "/images/last_leap_part2/p202_q105.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "–  O  –O  –  O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Si –O  –  O Si  O  –  O –  O  –  O  Si O O  –  O  – –  – – O – Si – O O – Si – O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O  –O  –O  –  O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Si  Si O Si  O  –O  –O  –O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Unlike PbCl4, the compounds PbBr4 and PbI4 are not found because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chlorine is more electronegative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Iodine and bromine are unable to oxidise Pb to  Pb4+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iodine and bromine have small size",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not undergo hydrolysis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PbCl4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "SnCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SiF4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CCl4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q108",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has almost same structure to that of graphite?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B2O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H3BO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BN",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q109",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "At least four allotropes of boron may be obtained under different conditions but all the four allotropic forms contain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B6 octahedral units",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B4 tetrahedral units",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B8 tetrahedral units",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B12 icosahedral units",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q110",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has three centred two electrons bond?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BeH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2H6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 202,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q111",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of thermal stability of hydride of group 14 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH4 < SiH4 < GeH4 < SnH4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH4 > SiH4 > SnH4 > GeH4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SnH4 < GeH4 < SiH4 < CH4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH4 < SiH4 > GeH4 > SnH4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q112",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The number of five membered and six membered rings in C70 fullerene respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12, 20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12, 25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15, 20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10, 20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q113",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Borazine is not isoelectronic with benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In benzene,  electrons are partially delocalised",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In borazine,  electrons are partially delocalised",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Borazine is also called benzene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q114",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "For group-13 elements, the value of electronegativity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreases from top to bottom",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases from top to bottom",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First decreases from B to Al then increases",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First increases then decreases marginally",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q115",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "C60 fullerene dissolve in toluene to produce",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Orange colour",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Red colour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Blue colour",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Purple colour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q116",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Sheet silicate has general formula",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2– 2 5 n (Si O )",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2– 3 n (SiO )",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 7 Si O ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 4 SiO ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q117",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Carbon differs from rest of the members of its group due to its",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smaller size",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher electronegativity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Higher ionisation enthalpy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q118",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In graphite each carbon atom is sp2 hybridised and make three sigma bonds with three neighbouring carbon atoms. The fourth electron of carbon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Forms single bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Forms a  bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Makes graphite a good conductor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q119",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Carbon monoxide reacts with certain metals to form metal carbonyls. It is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One sigma and two  bonds in CO molecules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of a lone pair on carbon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of a lone pair on oxygen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Poisonous nature of CO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q120",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PbX2 is more stable than PbX4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbCl4 is less stable than SnCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N(CH3)3 is pyramidal but N(SiH3)3 is planar",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(SiH3)3N is a stronger base than (CH3)3N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q121",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Linear silicones have the repeating unit of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(RSiO)– –",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(RSiO ) 2– –",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(R SiO) 2 – –",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(R SiO ) 2 2– –",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q122",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "[SiF6]2– exist but [SiCl6]2– does not exist because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smaller size of F than Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F is more electronegative than Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interaction of F lone pair electrons with d  orbital of silicon is weaker than that of Cl lone pair electron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q123",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "C60 molecule is known as buckminsterfullerene. It contains ‘X’ six-membered rings and ‘Y’ five membered rings. Here",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "X = 12, Y = 26",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "X = 26, Y = 20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X = 20, Y = 12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X = 12, Y = 20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q124",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "4 10 P O 2 2 CH (COOH) A   . What is A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C3O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C5O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q125",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "When borax is heated in a bunsen burner flame with CoO on a loop of platinum wire, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A red coloured Co(BO3)2 bead is formed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A blue coloured Co(BO2)2 bead is formed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A green coloured Co(BO2)3 bead is formed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction takes place",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 203,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q126",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Halide of highest acidity is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BF3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BI3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BBr3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BCl3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q127",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "AlCl3 on hydrolysis gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al2O3 . H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al(OH)3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "AlCl3 . 6H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q128",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The general formula of sheet silicate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2n 3 n [SiO ] ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2n 2 5 n [Si O ] ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 2 7 n [Si O ] ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[SiO2]n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q129",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound contains 3-center-2-electron bond?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Al2Cl6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2H6  2(–)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr2O7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q130",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In which pair, both compounds are amphoteric?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B2O3 and B(OH)3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al2O3 and Ga(OH)3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ga2O3 and In(OH)3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TI2O and TIOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q131",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "From the given reaction sequence find correct match  Compound (A)    (B) + NO + O 2 2  H S 2  (C) PbSO4 H O 2 2  K CrO 2 4  (D) + KNO3",
+    "question_diagram": "/images/last_leap_part2/p204_q131.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A is Pb(NO3)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "D is PbCrO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C is PbS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q132",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Boric acid is polymeric due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its acidic nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The presence of hydrogen bonds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Its monobasic nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Its geometry",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q133",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Volume ratio of gasd evolved when aluminium dissolves in dil. HCl and dilute NaOH respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 : 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q134",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following reaction :  Na2B4O7    x + y.  If x is sodium metaborate, then y is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaBO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2O5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B2O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HBO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q135",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following halide B–X bond length is lowest?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BF3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BCl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BBr3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BI3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q136",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Equivalent mass of boric acid, if its molecular mass is M",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M  3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2M",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q137",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect statement about Borax is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boron is present in sp2 and sp3 hybrid state",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 molecules of water present as water of  crystallisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Used in borax bead test",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dissolves in H2O to produce alkaline solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q138",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "CO2 dissolves in water to produce H2CO3 acid, which dissociates into two steps  H2CO3(aq) + H2O \u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002 HCO3  –(aq) + H3O+ (aq) ; Ka1  –(aq) + H2O \u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002 CO3  2–(aq) + H3O+ (aq) ; Ka2 The two ionization constant of H2CO3 are related  HCO3  as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ka1 > Ka2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ka1 <<< Ka2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ka1 < Ka2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ka1 = Ka2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q139",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Hybrid state of C in CO2 and its dipole moment is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp2,  = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp,  > 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp,  = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3,  = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 204,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q140",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Number of  bonds,  bonds and lone pairs in CO, respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1, 2, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 2, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 1, 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 1, 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q141",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following involves formation of 8 membered ring structures?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SiO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Graphite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Borazole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q142",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "In silicones repeating unit is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "R2CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R2–SiO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R2SiO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RSiO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q143",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Neutral oxide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SiO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q144",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Most stable halide among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CF4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CBr4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CI4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q145",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Hybridization of Si in  2 6 SiF is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dsp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3d2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3d3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q146",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "The unique ability of carbon to show the maximum catenation is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of vacant d-orbital in outer orbit",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High electronegativity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strong C–C bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-metallic nature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secA_q147",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum covalency shown by boron is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Total number of coordinate bonds and covalent bonds in borazine is 3 and 12 respectively.\nReason (R): Its structure is similar to benzene.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Diamond is thermodynamically less stable than graphite.\nReason (R): Diamond has p - p bonds.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Boron always forms covalent bond.\nReason (R): Boron has diagonal relationship with silicon.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): AlF3 is almost insoluble in anhydrous HF but  dissolves in NaF.\nReason (R): NaF produces free F– in molten state.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): B – X bond length in BX3 is shorter than  expected value.\nReason (R): p – p back bonding occurs between B and  X.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Like C, Si cannot form SiO under normal  conditions.\nReason (R): Because  of  bigger  size  and  low electronegativity, Si cannot form p – p bond.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Boric acid is a Lewis acid.\nReason (R): Boric acid accepts one OH– to form B(OH)4  –",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Borax bead test is not suitable for Al(III).\nReason (R): Solution of borax is neutral in nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Trihalides of boron family fume in moist air.\nReason (R): Trihalides of group 13 elements are  hygroscopic.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 205,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Between SiCl4 and CCl4, only SiCl4 reacts  with H2O.\nReason (R): SiCl4 is ionic and CCl4 is covalent.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q11",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Molten AlBr3 is a poor conductor of current.\nReason (R): AlBr3 is a covalent compound, so does not  dissociate into Al+3 and Br – completely.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q12",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ge is refined by Zone refining method.\nReason (R): In Ge impurities present are more soluble in  the molten state than in the solid state of the metal.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q13",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tl+3 can be reduced easily to Tl+.\nReason (R): Tl shows inert pair effect.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q14",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Pyrosilicates contain two units of  4 4 SiO  joined  along a corner containing oxygen atom.\nReason (R): In pyrosilicate hybridization of Si atom is sp.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_20_p_block_elements_gr_13_14_secB_q15",
+    "subject": "Chemistry",
+    "chapter": "p-Block Elements (Gr-13 & 14)",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): BCl3 and BF3 are Lewis acids.\nReason (R): Both the compounds are electron deficient  species.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 206,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

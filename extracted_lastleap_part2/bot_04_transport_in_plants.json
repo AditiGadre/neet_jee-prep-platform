@@ -1,0 +1,5301 @@
+[
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q1",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of the diffusion of substances is affected by, all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gradient of concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature but not pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Density",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both temperature and pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q2",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Water melon – 92% water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plasmolysis – Tradescantia discolor",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root pressure – 2 atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Facilitated transport – Uphill transport",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q3",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following shows correct relationship for a vacuolated plant cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "w = s – p",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "w = s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "w = s + p",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "s = p",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q4",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The cells get swell up, when placed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypertonic solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hypotonic solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ultratonic solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isotonic solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q5",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The translocation in phloem is explained by the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome pump hypothesis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure flow hypothesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transpiration pull and cohesion theory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Starch ( ) sugar conversion hypothesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q6",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Transpiration in old stem and fruits occur through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cork cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lenticels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stomata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydathodes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q7",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Process of sugar loading at source is an  active process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At the sink, incoming sugars are actively  transported out of phloem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Unloading of minerals occurs at fine vein  endings through diffusion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Xylem transports only inorganic nutrients while  phloem transports only organic materials",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q8",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Facilitated transport is related with all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uphill transport",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transport saturates",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Highly selective",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Require special membrane proteins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q9",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In facilitated diffusion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Special proteins allow movement of molecules  from low to high concentration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transport rate reaches maximum when all  transporter lipids are used",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Allows cell to select substances for uptake",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sensitive to inhibitors which react with fatty  acid side chains",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q10",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given feature is not common between active transport and facilitated diffusion?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uphill transport",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Requirement of special membrane proteins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Highly selective nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Saturation kinetics",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q11",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water molecules are directed to ________ at inner boundary of cortex, as this layer offers a great resistance against movement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Symplast of suberised cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Symplast of non-suberised cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Apoplast of lignified cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Symplast of lignified cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 277,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q12",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. rate of diffusion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Directly proportional to density of medium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inversely proportional to DPG",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Directly proportional to difference of diffusion  pressure at the two ends of a system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Directly proportional to the distance between  the two",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q13",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following condition is favourable for the opening of stomata?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "pH 5, low CO2 concentration and light",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pH 7, low CO2 concentration and light",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Darkness, pH 5 and high CO2 concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High CO2 concentration and low K+ ions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q14",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "With reference to the given graph the cell will be fully turgid if :  O.P.  15  A  Pressure  10  B  C  5  T.P.  1.1 1.2 1.3 1.4  Volume",
+    "question_diagram": "/images/last_leap_part2/p278_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A = C and B = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B = C and A = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A = B and C = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A = B = 0 and C = maximum value",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q15",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Value of O.P. in a vacuolated cell is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Less than DPD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More than DPD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equal to T.P.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q16",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statement is incorrect when absorbed water passes from root hair cell to xylem through symplastic pathway?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A negative pressure is developed in xylem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OP and energy plays the major role",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Forces for water absorption develop in root",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It leads to the formation of root pressure in  xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q17",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water potential of a cell is affected by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solute potential",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure potential",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osmotic potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q18",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Root pressure theory proposed by Priestley for ascent of sap may not be accepted because of all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The magnitude of root pressure is insufficient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Actively transpiring plants do not generate root  pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root pressure develops in certain seasons only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Development of root pressure in gymnosperm  is absent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q19",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. phloem transport",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Can be transported in any required direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phloem loading and unloading utilises ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phloem loading sets up a water potential  gradient between source and sink",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Immobilisation of sugar is not necessary at sink",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q20",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. pressure flow hypothesis of organic solute translocation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "This theory was proposed by Munch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solutes are carried en mass from the region of  low T.P. to high T.P.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dissolved sugars follow symplast pathway",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Loading of sugar is an active process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q21",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following equation is correct for incipient plasmolysed cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DPD = OP – TP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OP = TP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "w = s + p",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "w = s – p",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q22",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Major movement of water through root cortical cells occurs by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Transmembrane pathway",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vacuolar pathway",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Symplast pathway",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Apoplast pathway",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q23",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of transpiration is increased by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low root/shoot ratio",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High CO2 concentration in guard cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low relative humidity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High atmospheric pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q24",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the possible path of water movement from the given hypothetical arrangement of cells   – 10   – 6 w  s  A B  WP = 3  OP = 5  WP = 0   C",
+    "question_diagram": "/images/last_leap_part2/p278_q24.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A  B  C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C  A  B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C  B  A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B  A  C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 278,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q25",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum O.P. is developed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10% glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5% Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3% NaHCO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6% NaCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q26",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Hydathodes consist of a group of loosely arranged achlorophyllous and parenchymatous cells called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Complementary cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cork cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epithem cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Velamen cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q27",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Girdling experiments cannot be carried out in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monocots",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dicots with bicollateral vascular bundles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dicots with collateral vascular bundles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q28",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Facilitated transport is similar to simple diffusion in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of uphill transport",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Absence of transport saturation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absence of movement of transport proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Response to protein inhibitors",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q29",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "According to K+ ion pump hypothesis of stomatal opening given by Levitt which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "With the help of cytokinin, ATP and c-AMP  guard cells absorb K+ ions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vacuoles present in guard cells are useful in  storing solutes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "During closure of stomata malic acid is changed  to malate which causes leakage of K+ and Cl–  ions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At time of opening of stomata H+ ions are  absorbed by chloroplasts and mitochondria from cytoplasm in guard cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q30",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Active transport can occur",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At intact closed membrane only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "At fragmented isolated membrane also",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At impermeable membrane also",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Even in absence of ATP hydrolysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q31",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum pressure which is produced in osmotically active solution when it is separated from pure water by a semipermeable membrane is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "TP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DPD",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q32",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "When a flaccid cell (TP = Zero) is kept in isotonic solution, its TP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Will increase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Will decrease",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Will remain zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Becomes negative",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q33",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. imbibition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in volume of imbibant is proportional  to the water absorbed",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A semipermeable membrane is required",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pressure developed is often small and less",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heat is produced which is a part of kinetic  energy of imbibate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q34",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The movement of substances in xylem and phloem elements is basically a mechanism of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diffusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osmosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mass flow",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Facilitated transport",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q35",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement regarding the role or effect of transpiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It decreases the amount of water available in  young cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A lot of energy is wasted in absorbing and  lifting of extra water which is lost",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Excessive transpiration induces plants to  produce inhibitors like ABA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The quality of fruits is decreased if  environmental conditions favour transpiration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q36",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement regarding phloem transport",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phloem transport is not much influenced by  deficiency of water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All the substances contained in phloem move  with same velocity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Due to specialization for transport the  metabolic activities of sieve elements are very high",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phloem transport is both acropetal and  basipetal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q37",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following events occurs in process of guttation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There is exudation of watery drops from the  edge of leaves of broken twigs",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Guttated water is impure and have insoluble  organic impurities",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It occurs due to the development of positive  pressure in xylem present in the vein ending",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "There is exudation of watery drops from  permanently open pores on leaf surface",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 279,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q38",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following factor has opening effect on stomata?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High temperature > 35°C even in darkness",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO2 conc. above 500 ppm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A high pH in subsidiary cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q39",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water potential will be minimum in case of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pure water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2% NaNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2% glucose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5% KCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q40",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Phloem loading is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Crushing of primary phloem due to secondary  growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Movement of photosynthate from mesophyll  cells to sieve elements",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Long distance transport from source to sink",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only apoplastic movement of photosynthate  from mesophyll cells to sieve elements",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q41",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water potential is a measure of free energy associated with water per unit ______.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Volume",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mass",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Area",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Density",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q42",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What will be the value of TP of a cell if its OP and w are 8 bars and – 5 bars respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 bars",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 bars",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "13 bars",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 bars",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q43",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "\"Transpiration is considered as necessary evil\" in plants. Select the correct statements w.r.t. transpiration  a. Transpiration in old stems and fruits occur through lenticels  b. Transpiration  woody tissue  c. Transpiration is not measured with potometer  1  d. Transpiration  Humidity",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b and c are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c and d are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b and d are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q44",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What is the direction of water movement between two adjoining cells A and B, if  A. s = –20 bars; p = 12 bars  B. s = –25 bars; p = 20 bars",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A B ⇋",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q45",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Suppose there are three cells A, B and C as shown in figure, what is the direction of movement of water?  A B  s = – 16 bars s = – 10 bars  p =    10 bars p =    2 bars  s = – 18 bars  p =    14 bars  C",
+    "question_diagram": "/images/last_leap_part2/p280_q45.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A  B and C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A  B and B  C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C  A & B ; A  B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C  B & A  C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q46",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Stomatal opening is favoured by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High CO2 conc. in guard cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Blue light and low temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Storage of starch in guard cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dissociation of malic acid in guard cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q47",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Apoplast in the system of adjacent cell walls is continuous throughout the plant, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Casparian strips",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cortex cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epidermis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intercellular cortical space",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q48",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement w.r.t. phloem transport",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Translocation is variable so transport is  unidirectional",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Translocation of sucrose and water occurs  through companion cells only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phloem sap is slightly alkaline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phloem is cutout to prove its role in  traslocation during girdling experiment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q49",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A positive hydrostatic pressure developing in xylem elements due to active absorption of solute particles is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Responsible for transpiration pull",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Involved in ascent of sap",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Related to phenomenon of loss of liquid  droplets through hydathodes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The major driving force for absorption of water  by root hairs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 280,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q50",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many different types of aquaporins are present in water channels?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q51",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Simple diffusion does not saturate because it",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Occurs along the direction of concentration  gradient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Does not consume metabolic energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Does not require carrier protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Occurs through channels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q52",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The TP of a cell at the stage of limited plasmolysis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infinite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q53",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The water is first lost from cytoplasm and then from vacuole during plasmolysis because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Concentration of vacuolar sap is higher",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tonoplast is impermeable for water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Concentration of vacuolar sap is similar to  external solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q54",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Phloem sap mainly contains",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Water and sucrose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Water and hormones",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Water and amino acids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Organic acids and nitrogenous compounds",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q55",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "At the time of stomatal opening the cellulosic microfibrils of the cell wall of guard cell are oriented",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Radially",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Longitudinally",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Radially as well as longitudinally",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In all possible directions",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q56",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All solutions have a lower water potential than  pure water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All minerals cannot be absorbed passively by  the roots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "More the solute molecules, more negative is  the s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Effects of root pressure is observable at night  and early morning when transpiration is high and absorption is low",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q57",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A plant adjusts the quantity and types of solutes that reach the xylem due to special control points which are transport proteins embedded in plasma membrane of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cortical cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pericycle cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypodermal cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Endodermal cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q58",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Transpiration is increased if internal factor like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atmospheric temperature and wind velocity are  high",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sunken stomata and trichomes are high in  number",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root / shoot ratio and leaf area are high",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relative humidity and soil water are low",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q59",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The sucrose molecules present in mesophyll cells are passed into the sieve tubes through companion cells by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Active process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Facilitated diffusion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Simple diffusion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Partially active and partially passive process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q60",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "On the basis of following diagram identify the correct direction of water movement  A  DPD = 3 bar     O.P. = 6 bar T.P. = 2 bar   = –5 bar  = 2 bar  s  C B  p  A      ",
+    "question_diagram": "/images/last_leap_part2/p281_q60.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "B  A  C",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "  B  C  A      ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A  B  C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B   C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q61",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. dicot stomatal apparatus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chloroplast of guard cell is without RuBisCO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In guard cell cellulose microfibrils are oriented  longitudinally making it easier for the stomata to open",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Guard cells are green heterotrophic cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The inner wall of each guard cell, towards the  pore or stomatal aperture is thick and elastic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q62",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Deduce the value of w ,s and p for a flaccid cell if its OP is 25 bars",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "w = –50,s = –25, p = 25",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "w = zero,s = –25, p = 25",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "w = –25,s = –25, p = zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "w = 25,s = 50, p = 25",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 281,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q63",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct sequence of passive absorption path of water in a plant",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Soil  Root hair  Epidermis  Secondary  cortex  Endodermis  Pericycle  Metaxylem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Soil  Root hair  Cortex  Passage cells   Pericycle  Root protoxylem  Root metaxylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Soil  Epidermis  Cortex  Endodermis   Pericycle  Root metaxylem  Root protoxylem  Root hair",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soil  Epidermis  Cortex  Pericycle   Endodermis  Root protoxylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q64",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Simple diffusion is not saturated because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There is no requirement of energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is no requirement of carrier protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It occurs along the concentration gradient",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q65",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "If solutes are added in a solution water potential of solution will become",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "More negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More positive",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q66",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following feature of cell wall of guard cell helps in the opening of stomata?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Facilitate intake of K+ and H+ ions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Release cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Radial orientation of cellulose microfibrils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thick outer wall",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q67",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Active transport is different from simple diffusion in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absence of transport protein movement",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Presence of downhill movement",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Presence of uphill movement",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Absence of transport protein saturation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q68",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the feature of facilitated transport?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Requires special membrane proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Highly selective",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transport saturates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Uphill movement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q69",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure potential is equal to osmotic potential in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fully plasmolysed cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flaccid cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Turgid cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cork cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q70",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Certain features of different transport mechanisms are given below, among these the common feature between active transport and facilitated diffusion are  a. Involvement of membrane proteins  b. Uphill transport  c. Saturation kinetics  d. Highly selective nature  e. ATP requirement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, c & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q71",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Movement by diffusion is a slow process. It  (a) May involve transport proteins.  (b) Is obvious in gases and liquids.  (c) Is more likely in solids than of solids.  (d) Requires ATP energy.  Identify the correct set of statements :",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a), (b) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a), (b) & (c)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(b), (c) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(c) & (d)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q72",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. transport in plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Xylem transport is unidirectional and passive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phloem transport is multidirectional and active",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In senescent plant organs, nutrients are  withdrawn from growing points and stored in the organ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Short distance transport occurs by diffusion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q73",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "All the given statements are correct w.r.t. movement by diffusion, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "From intercellular spaces of the leaf to outside",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy independent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Occurs in random fashion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dependent on a living system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q74",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Active transport is different from facilitated diffusion in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Requirement of special proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Being highly selective in nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uphill transport",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Exhibiting transport saturation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q75",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Amount of the fresh weight as dry matter in most of the herbaceous plants is about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 –15%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25 – 35%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "60 – 80%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90 – 92%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q76",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Deduce the value of w for a flaccid plant cell if its osmotic pressure is 25 bars",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50 bars",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 25 bars",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "25 bars",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 282,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q77",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Pressure potential is negative in the case of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Limiting plasmolysis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Xylem under low transpiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Evident plasmolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell placed in hypotonic solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q78",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What occupies the space between the cell wall and the shrunken protoplast in a plasmolysed cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypertonic solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hypotonic solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q79",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The apoplastic movement does not involve the crossing through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell wall",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intercellular space",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cell membrane and tonoplast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q80",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Continuous chains of water molecules can be re-established in the xylem which often break under the enormous tensions created by transpiration, due to the greatest contribution of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Negative pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Turgor pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Imbibition pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q81",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. transpiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Magnitude of cuticular transpiration in ferns is  as good as stomatal transpiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Some dicot leaves have amphistomatic  condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Orientation of the microtubules in cell wall of  guard cells have no role in stomatal opening",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The outer wall of each guard cell is thin and  elastic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q82",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of transpiration is increased by increasing all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Wind velocity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root : shoot ratio",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Relative humidity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q83",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement w.r.t. rate of diffusion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inversely proportional to square root of density  of the substance",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Directly proportional to square root of density  of the substance",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increases with increasing temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Directly proportional to difference of diffusion  pressure at two ends",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q84",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following values of OP, DPD and TP appear correct for a fully turgid cell?   OP DPD TP  (atm) (atm) (atm)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 00 10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 2 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 9 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12 5 7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q85",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "According to potassium pump theory, stomatal",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Closing is ATP independent step",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Opening does not require EMP pathway",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Opening is ATP independent step",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Closing requires high OP in vacuole of guard  cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q86",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "If cell A with OP = 6 atm and TP = 5 atm is surrounded by B cell with OP = 3 atm and TP = 2 atm, what will be direction of water movement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A  B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B  A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A \u0002 B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No movement",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q87",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The loss or excretion of water in the form of liquid droplets from the leaves and other parts of an uninjured plant is called guttation. It",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Occurs through stomata, lenticels and  epidermal cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is not possible at early hours of the morning",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Takes place during humid periods",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Was first studied by Tumarov in 1887",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q88",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Imbibition is possible if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Adsorbant is hydrophobic and living",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Imbibant is non-living and hydrophobic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Liquid has low w than adsorbant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Imbibant has low water potential",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q89",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Magnitude of tensile strength of water according to Dixon and Jolly is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1-5 Mpa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2-8 Mpa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40-50 Mpa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10-30 Mpa",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q90",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose odd one out w.r.t. critical element",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 283,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q91",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which value will go on increasing if a flaccid cell is placed in hypotonic solution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DPD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q92",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The transpiration driven ascent of xylem sap depends mainly on the three physical properties of water. These properties result in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low tensile strength as well as low capillarity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High tensile strength as well as high capillarity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High tensile strength but low capillarity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low tensile strength but high capillarity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q93",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Root pressure",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is responsible for pushing up water to small  heights",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plays a major role in water movement in tall  trees",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Accounts for the majority of water transport",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is a negative hydrostatic pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q94",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Girdling experiment explains that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phloem is the path for translocation of starch",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Food transport takes place in one direction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sugar translocation takes place from root to  shoot",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unloading of sugars is active phenomenon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q95",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Closely packed imbibant will imbibe more water  than loosely packed one",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "During plasmolysis water is first lost from  cytoplasm and then from vacuole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "s is always less than zero in solutions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transpiration maintains the shape and structure  of the plants by keeping cells turgid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q96",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Cell A has w = –3 bars and cell B has w = –8 bars. Choose the correct option w.r.t. water movement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell A to B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell B to A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Water cannot move in negative value of w",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data insufficient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q97",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Direction of movement of water from outside into cell and also from one cell to next cell is from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Higher DPD to lower DPD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lower DPD to higher DPD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Higher OP to lower OP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lower DP to higher DP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q98",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Minerals are unloaded at fine vein endings and they are picked up by cells through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Passive symport",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Simple diffusion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Active transport",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Passive antiport",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q99",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Correct sequence of values of osmotic pressure of cell sap in herbs, shrubs and trees is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbs > shrubs > trees",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shrubs > herbs > trees",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Trees > shrubs > herbs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Herbs > trees > shrubs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q100",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column I with column II  Column I Column II  a. Antitranspirants (i) Stomatal closure  b. Guttation (ii) Water vapour  c. Night recovery (iii) Hydathode  d. Abscisic acid (iv) Phenyl mercuric  acetate",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q101",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water which comes out during guttation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A solution containing many organic and  inorganic substances",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A solution containing organic substances only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A solution containing inorganic substances  only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pure water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q102",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A water logged soil is considered to be physiologically dry because of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decreased viscosity of water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased viscosity of water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Abundance of salts",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaerobic condition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q103",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  a. Osmotic pressure (i) Potometer  b. Wind velocity (ii) Psychrometer  c. Rate of transpiration (iii) Osmometer  d. Relative humidity (iv) Anemometer",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 284,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q104",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "According to pressure flow hypothesis of sugar translocation,",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sucrose is loaded in sieve tube cells with the  help of energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose is loaded from companion cell to  sieve tube by active transport",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Passive transport is necessary to move the  sucrose out of the phloem sap",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Process of loading of sugars at the source  produces a hypotonic condition in the phloem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q105",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The flow of water upward through the xylem in plants can achieve fairly high rates, up to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.25 m/min",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "15 cm/hr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.25 cm/min",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15 m/min",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q106",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Identify A, B and C in the following figure.  B  C A",
+    "question_diagram": "/images/last_leap_part2/p285_q106.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Starch sheath  B – Symplastic path  C – Apoplastic path",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Pericycle  B – Symplastic path  C – Apoplastic path",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Casparian strip  B – Symplastic path  C – Apoplastic path",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Endodermis  B – Apoplastic path  C – Transmembrane path",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q107",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Symport : molecules move in opposite  direction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aquaporins : water channels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Facilitated diffusion : passive transport",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Translocation : through vascular system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q108",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Germinating seeds get their supply of water through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diffusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Osmosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Imbibition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plasmolysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q109",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements a. Transpiration is an evil but unavoidable b. Pinus seeds cannot germinate without mycorrhizae c. Transpiration increases with increased humidity d. Direction of movement in the phloem is unidirectional of these statements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All the statements are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q110",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Substances that have a hydrophilic moiety find it difficult to pass through the cytoplasmic membrane and are transported with the help of proteins known as facilitated diffusion. Choose odd one out w.r.t. this process",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Highly selective",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "No saturation kinetics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP not required",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Downhill transport",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q111",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Movement of water through the symplast involves crossing the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intercellular spaces",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell wall",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cell membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q112",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The property of water that does not help in ascent of sap driven by transpiration force, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Surface tension",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positive hydrostatic pressure in xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cohesion between water molecules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adhesion between water and tracheary  elements",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q113",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is true with respect to the means of transport given below?  Outer side   Inner side   of cell  of cell  Membrane",
+    "question_diagram": "/images/last_leap_part2/p285_q113.png",
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 285,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q114",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Rate of transpiration is decreased, if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Available water in the soil is sufficient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature increases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Relative humidity is low",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Root-shoot ratio decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q115",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "When the cells are placed in a solution of higher water potential, water diffuses into the cell causing the cytoplasm to build up a pressure against the wall, that is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wall pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Turgor pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Osmotic pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Imbibition pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q116",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "If a pressure greater than atmospheric pressure is applied to pure water or a solution, its water potential",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Becomes zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Remains constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q117",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Loss of water vapours from aerial parts of living plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is purely a physical phenomenon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Occurs through hydathode and stomata",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is not concerned with ascent of sap",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cools leaf surface",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q118",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements: (A) Apoplast is a system of interconnected  protoplasts. (B) Symplastic movement may be aided by  cytoplasmic streaming.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (B) is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both (A) & (B) are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (A) is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both (A) & (B) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q119",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct match:",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Attraction of water molecules – Cohesion to the surface of tracheary elements",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mutual attraction between – Adhesion water molecules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two molecules cross the – Antiport membrane in the same direction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water loss in liquid phase from – Guttation  leaf tips of many herbaceous plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q120",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The control points, where a plant adjusts the quantity and types of solute that reach the xylem, are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Transport proteins of endodermal cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carrier proteins of epidermal cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Porins of outer membrane of plastids and  mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transport proteins of outer cortical cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q121",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement for root pressure is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It plays a major role in water movement up in  tall trees",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is responsible for water loss in liquid phase  from tip of grass blades",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It accounts for majority of water transport in  most of the plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q122",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Fill in the blanks:  A. Most mineral must enter the root by ______  absorption in the cytoplasm of epidermal cells.  B. Chief sinks for the mineral elements are ______ regions of plants.  C. Phloem sap is mainly ______.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Passive  B – Growing  C – Water and sucrose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Passive  B – Mature  C – Sugar, hormones and amino acids",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Active  B – Growing  C – Water and sucrose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Active  B – Mature  C – Amino acids and sucrose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q123",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In girdling experiment, the swelling of a portion of bark above ring indicate that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phloem is the tissue responsible for  translocation of food",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Xylem is responsible for translocation of water  and sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phloem transports only inorganic materials",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Minerals ions are frequently remobilised",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 286,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q124",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In a plant cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell wall acts as an important barrier to  movement of water and molecules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "For a solution at atmospheric pressure w is  greater than s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vacuolar sap does not contribute to the solute  potential",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell membrane and the tonoplast together are  important determinants of movement of molecules in or out of the cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q125",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements (w.r.t. Imbibition):  A. Special type of diffusion when water is absorbed by solid colloids.  B. There is enormous increase in volume of imbibant.  C. Affinity between the absorbant and absorbate is a pre-requisite.  D. Water movement occurs against the concentration gradient.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only A is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only A and B are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only A, B and C are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q126",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What is the greatest contribution of root pressure?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plays major role in water movement up tall  trees",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Re-establish the continuous chains of water  molecules in the xylem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Responsible for providing water for  photosynthesis  and  other  metabolic phenomenon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Responsible for ‘en masse’ movement of  substances, without energy expenditure to long distances",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q127",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In a flowering plant there is a complex traffic of compounds moving in different directions. Choose the correct direction w.r.t water and organic compounds respectively.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unidirectional, Multidirectional",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bidirectional, Multidirectional",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Multidirectional, Unidirectional",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Multidirectional, Bidirectional",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q128",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "From the given below features, how many are associated with facilitated diffusion?  Uphill transport, ATP dependent, Highly selective, Require membrane proteins, sensitive to inhibitors, Along concentration gradient",
+    "question_diagram": "/images/last_leap_part2/p287_q128.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Five",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q129",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect option w.r.t. imbibition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Special type of diffusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends on affinity between adsorbant and  adsorbate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Responsible for emergence of seedling",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Occurs against concentration gradient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q130",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is a case of wrong matching?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Root pressure – Observable at night and early  morning",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure potential – Usually negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Symplast – Plasmodesmata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Loading of sugars at source – Active transport",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q131",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water diffuses from plants to the surrounding air because of lower concentration of water vapours in the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sub-stomatal cavity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intercellular spaces",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Substomatal cavity as wall as intercellular  spaces",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q132",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What happens, when a cell is placed in a solution, which balances the osmotic pressure of the cytoplasm?  a. There is no net flow of water towards the inside or outside.  b. Cells are said to be flaccid.  c. P becomes positive.  d. Enlargement and extension growth of cells occur.  The correct statement is/are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q133",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Water flows into the cell and out of the cell and are in equilibrium too when the cells are placed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hypertonic solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isotonic solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hypotonic solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pure water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q134",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Membrane permeability towards water is regulated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aquaporins protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ion channels",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Histones",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ionophores",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q135",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In water transport mechanism when water is mainly pulled through the plant then driving force developed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Root pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OP and ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transpiration force",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Positive pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 287,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q136",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Sugar is moved in the form of sucrose to sieve tube",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "By companion cell actively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "By companion cell passively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Directly from mesophyll cells through simple  physical process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Directly from mesophyll cells through water  channels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q137",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Loading of sugars in phloem",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases the osmotic pressure of sieve tube  cell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decreases the osmotic pressure of sieve tube  cell",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is an energy independent process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Induces movement of water from sieve tube to  companion cell",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q138",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The sugar is moved from source to companion cell in the form of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A disaccharide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Starch",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A polysaccharide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q139",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following association is established by Pinus plant with mycorrhiza to perform absorption of water and minerals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Obligate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Facultative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parasitic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Helotism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q140",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The accepted mechanism for the translocation of sugars from source to sink is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protoplasmic streaming theory",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure flow hypothesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein lecithin theory",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome pump theory",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q141",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "According to pressure flow hypothesis in phloem transport, organic solutes flows from the regions of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low turgor pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High turgor pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low osmotic pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Low diffusion pressure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secA_q142",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "________ seeds cannot germinate and establish without the presence of mycorrhizae",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cycas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pinus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxalis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nicotiana",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q1",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Channels are peripheral protein that function as  selective pores for passive transport.\nReason (R): They are also called aquaporins.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q2",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Guard cells take K+ ions from neighbouring  cells during stomatal opening.\nReason (R): Turgor pressure of subsidiary cells increases  during stomatal opening.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q3",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Girdling is performed to identify the tissues  through which the food is transported.\nReason (R): It involves removal of a ring of bark, that leads  to development of swelling above the girdle due to stoppage of food transport to the lower regions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q4",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Root endodermis has the ability to actively  transport ions in one direction only.\nReason (R): Cells have lignified wall with transport proteins  as control points.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q5",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Transpiration is evaporative loss of water by  plants.\nReason (R): It occurs mainly through lenticels.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q6",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Most of the water flow in the roots occurs via  the apoplast.\nReason (R): Cortical cells are loosely packed, and hence  offer no resistance to water movement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q7",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): An alcohol dipped cell kept in hypertonic  solution of sucrose remains unaffected.\nReason (R): Alcohol in high concentration dissolves lipids of  the membrane.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q8",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Energy driven negative pressure flow is  observed in sieve tube.\nReason (R): Photosynthates flow bidirectionally from source  to sink and sink to source at a time.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q9",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Pinus has an obligate association with the  mycorrhizae.\nReason (R): Pinus seeds cannot germinate and establish  without the presence of mycorrhizae.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_04_transport_in_plants_secB_q10",
+    "subject": "Botany",
+    "chapter": "Transport in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Movement of ions in cortical region of root is  mainly passive.\nReason (R): Well developed intercellular spaces are found  in cortex.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 288,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

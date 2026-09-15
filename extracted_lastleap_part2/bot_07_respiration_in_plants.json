@@ -1,0 +1,5511 @@
+[
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q1",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During EMP pathway, the fructose 1,6-diphosphate splits into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PGAL and DHAP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PGA and PGAL",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DHAP and PGA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyruvate and ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q2",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The respiratory quotient of tripalmatin as respiratory substrate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.7",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q3",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is an integral membrane protein complex that forms the channel through which the protons cross the inner membrane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "F0 – F1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F+ and F–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CF1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q4",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The fermentation product of yeast are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methyl alcohol and ethyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methyl alcohol and carbon dioxide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethyl alcohol and carbon dioxide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyruvate and acetaldehyde",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q5",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one (w.r.t. synonyms of shunt of glycolysis)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "OPPP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HMP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PPP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PCO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q6",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During aerobic respiration, the site where both ATP and NADH + H+ are synthesised are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytosol and inner mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytosol, mitochondrial matrix and inner  mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondrial matrix and inner mitochondrial  membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytosol and mitochondrial matrix",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q7",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the figure given below, the correct match is  Glucose      A  Glyceraldehyde  NAD+  3-Phosphate  NAD+  NADH + H+  Pyruvic  NADH + H+  acid  NADH + H+  C    NAD+    Phosphoenol  B + CO2  Pyruvic acid",
+    "question_diagram": "/images/last_leap_part2/p313_q7.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A-Ethanol, B-Lactic acid, C-Dihydroxyacetone  phosphate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A-Lactic acid, B-Ethanol, C-Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A-Lactic acid, B-Ethanol, C-3-Phosphoglyceric  acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A-Ethanol, B-Lactic acid, C-3-Phosphoglyceric  acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q8",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following conversion of Krebs cycle is not catalysed by dehydrogenase enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conversion of isocitric acid to oxalosuccinic  acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Succinic acid to fumaric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Malic acid to oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxalosuccinic acid to -ketoglutaric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q9",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "FADH2 + 2Fe3+S 2Fe2+S + 2H+ + FAD  The above reaction is related with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Complex IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Complex III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complex II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Complex I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 313,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q10",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Cis-aconitate + H2O   Isocitrate  The enzyme and cofactor in above reaction are _______ and _______ respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Aconitase, Fe2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aconitase, Mg2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aconitase, Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isocitrate dehydrogenase, Fe2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q11",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct one (w.r.t Ethyl alcohol fermentation)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In presence of alcohol dehydrogenase,  pyruvate is broken down to form acetaldehyde",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetaldehyde is reduced to ethyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrogen for reduction is obtained from  NADPH + H+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No carbon dioxide is produced",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q12",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Oxygen acts as the final hydrogen acceptor in ETS. How many molecules of oxygen are required to oxidise 6 molecules of pyruvic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15 O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q13",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the glycolytic pathway of aerobic respiration how many ATP molecules are utilised for the breakdown of six fructose molecules?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Six",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ten",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Twelve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q14",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Fate of pyruvate depends upon cellular needs, it can  a. Enter aerobic respiration  b. Take part in alcohol fermentation  c. Perform lactic acid fermentation  d. Participate in alanine synthesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only d is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only c is incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q15",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find an incorrect statement w.r.t. ETS of respiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyt c and UQ work as mobile carriers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyt a3 performs terminal donation of electrons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Terminal electron acceptor is located at outer  mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "UQ works as common electron acceptor for  both, membrane enzyme complex I and II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q16",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How much energy in kJ would be produced when a sucrose molecule enters respiration after oxidative decarboxylation ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2870 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5470 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1794 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2588 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q17",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In CAC",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Citrate synthetase is pacemaker which is  inhibited by ATP alone",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxalosuccinic acid is formed by oxidation of  isocitric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxaloacetic acid forms raw material for  terpenes and cytochromes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinate dehydrogenase brings about  reduction of succinic acid to fumaric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q18",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Connecting link between respiration and protein synthesis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetyl Co-A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-ketoglutarate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinyl Co-A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q19",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Step common to EMP and CAC is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidative decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidative phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Substrate level phosphorylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q20",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Number of ATP generated per atom of oxygen utilized in respiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is high in protoplasmic respiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Depends upon substrate which is being  oxidized",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Is high in floating respiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Depends upon substrate which is being  reduced",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q21",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. Pasteur effect",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in the rate of sugar breakdown",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in the rate of sugar breakdown",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transition from aerobic to anaerobic respiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decrease in the rate of ATP production",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q22",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "One turn of -oxidation of fatty acid yields",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One acetyl CoA and NADH + H+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One acetyl CoA and FADH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "One acetyl CoA + 1 NADH + H+ + 1 FADH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two molecules of acetyl CoA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 314,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q23",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules are formed during aerobic oxidation of two -ketoglutaric acid molecules?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "38",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q24",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In HMS, complete degradation of one glucose molecule leads to the formation of  +",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "12 NADH + H  +",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "6 NADH + H  +",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 NADPH + H  +",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 NADPH + H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q25",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Transfer of yeast cell from anaerobic to aerobic condition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increases the rate of sugar breakdown",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases CO2 evolution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreases rate of sugar breakdown",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is called Warburg effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q26",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the given reaction does not involve decarboxylation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-ketoglutarate  Succinyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fumarate  Malate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxalo-succinate  -ketoglutarate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyruvate  Acetyl CoA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q27",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During mitochondrial ETS, copper containing cytochrome hands over its electrons to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyt. a",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyt. b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyt. c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxygen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q28",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In Warburg - Limpan - Dickens pathway complete degradation of one molecule of glucose produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 NADPH molecules",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 NADPH molecules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 NADPH molecules",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "38 ATP molecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q29",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The net gain of ATP from complete oxidation of one molecule of DHAP in muscles and nerve cells is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8 ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "19 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "38 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q30",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "ATP provides energy by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metabolizing substances",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Allowing sugars to cross cell membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transferring an energized phosphate group to  the substrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Helping to store sugar for later use",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q31",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During ethyl alcohol or lactic acid fermentation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvic acid produced in glycolysis is oxidised",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Products contain no energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2 is always produced",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Coenzyme NAD+ is regenerated",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q32",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect statement with regard to ETS in cellular respiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Convert electron motive force (emf) into proton  motive force (pmf)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Involves in ATP generation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Have multiprotein complexes embedded as  intrinsic and tunnel proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Have single electron transport chain",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q33",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following enzyme is exclusively found inside mitochondria and is not synthesized under the control of mitochondrial DNA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NADH dehydrogenase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyt c reductase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Succinic dehydrogenase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyt c oxidase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q34",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Pyruvate dehydrogenase complex, responsible for pyruvate decarboxylation in cellular respiration in eukaryotes, is found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Perimitochondrial space",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondrial matrix",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inner mitochondrial membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q35",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In glycolysis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A reduced coenzyme is produced",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Group of insoluble enzymes located in cell  membrane is involved",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "An amino acid is produced at the end",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 carbon and 4 carbon intermediates are  produced",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q36",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "NADH2 generated in glycolysis is a source of energy and produces 3 ATP in ETS. In absence of O2 which process is responsible for regenerating NAD needed for glycolysis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ETS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidative decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fermentation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deamination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q37",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What is the similarity between EMP and PPP (HMS)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both are present in cytosol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both produces NADPH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both produces similar type of intermediates",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both have oxidative decarboxylation phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 315,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q38",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Both ubiquinone and cytochrome bc1 complex of inner mitochondrial membrane are structurally and functionally similar to _______ and _______ of photosynthetic electron transport chain respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PC, cyt-b6f",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PQ, NADP reductase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pheo, PQ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PQ, cyt-b6f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q39",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In mitochondrial inner membrane how many sites of energy conservation along ETS is present?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q40",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cell organelles is not a site of -oxidation of fats in plant or animals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peroxisomes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glyoxysome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sphaerosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q41",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In Kreb's cycle malate is formed from fumarate by process of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dehydration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dehydrogenation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Decarboxylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q42",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following intermediate of cellular pathway is precursor of gibberellins, carotenoids, sterols, and fatty acids?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Succinyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxaloacetate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PEP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q43",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Chemiosmotic theory of P. Mitchell explains a general mechanism of energy conservation across",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inner mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Thylakoid membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cell wall",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q44",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Pacemaker enzyme of EMP pathway depends upon which mineral for its activity?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mo",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q45",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many oxidations and decarboxylations occurs during one TCA cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4 and 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 and 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 and 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 and 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q46",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A 3-C end product of cytoplasmic respiration in eukaryote is not involved in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lactic acid fermentation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alcoholic fermentation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-oxidation of fatty acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alanine biosynthesis by transamination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q47",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many additional H+ has to be transported in PMS by NADH2 molecules to produce 6 ATP during oxidative phosphorylation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12H+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8H+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16H+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4H+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q48",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "GTP is formed at which step of Krebs cycle during aerobic respiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conversion of isocitric acid into oxalosuccinic  acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidation of -ketoglutaric acid into succinyl co-  A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conversion of succinyl Co-A into succinic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidation of malic acid into oxaloacetic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q49",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one out w.r.t. amphibolic nature of Krebs cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxaloacetic acid helps in pyrimidine  biosynthesis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetyl CoA  is released from -oxidation of fatty  acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-ketoglutaric acid provides carbon skeleton for  reductive amination reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinyl CoA works as raw material for  chlorophyll biosynthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q50",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many total H+ are required to be transported back to matrix if 5 ATP molecules are generated by enzyme complex V of F1 particle during respiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15 protons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 protons",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "9 protons",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20 protons",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q51",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given component/e– carrier is common to both photosynthetic and respiratory e– transport chain?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Quinone compound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pheophytin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q52",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct option for the following diagram  Matrix  +  +  H  H  A B  Inner  mitochondrial   membrane",
+    "question_diagram": "/images/last_leap_part2/p316_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "‘A’ is peripheral membrane protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protons activate the catalytic site present in ‘B’",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "‘B’ is an integral protein complex that form the  proton channel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "For each ATP production, 3H+ passes through  complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q53",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "For five molecules of acetyl CoA entering the aerobic respiratory pathway, how many ATP molecules are produced by substrate level phosphorylation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 316,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q54",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "First oxidative decarboxylation reaction in aerobic respiration occurs in ______ and requires ________.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Inner mitochondrial membrane, Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytoplasm, K+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitochondrial matrix, TPP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inter membrane space, Fe2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q55",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many glycine molecules condense to form one molecule of serine in photorespiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Six",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q56",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What will be value of RQ in Opuntia and Bryophyllum in night?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "> 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "< 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q57",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following product is produced after first oxidation in aerobic respiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxalosuccinic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Citric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1, 3 biphosphoglyceric acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyruvic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q58",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Formation of ATP in mitochondrial ETS of a green cell in light is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidative phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclic photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Substrate level phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-cyclic photophosphorylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q59",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What will be net gain of ATP if one molecule of PGAL is oxidised completely in a bacterial cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "38",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q60",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules are obtained as net gain if one molecule of 1, 3-biphosphoglyceric acid is oxidised completely inside a cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "17",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "34",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q61",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Lactic acid as well as alcoholic fermentation both",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Involve similar type of reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Produce NADH + H+ as the energy source",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Involve glycolysis and ETC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Involve different types of decarboxylases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q62",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In glycolysis, ATP is synthesised during conversion of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phosphoenolpyruvate to pyruvate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fructose-6-phosphate to fructose 1,6-  bisphosphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3-phosphoglyceric acid to 2-phosphoglyceric  acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-phosphoglycerate to phosphoenolpyruvate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q63",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Small protein attached to the outer surface of inner mitochondrial membrane and acting as a mobile e–  carrier is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome a3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytochrome c1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytochrome a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q64",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many total ATP molecules will be produced when a molecule of 3-phosphoglyceraldehyde directly enters the glycolysis and is completely oxidized ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "17",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q65",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycolysis is present in facultative anaerobes,  not in obligate anaerobes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Usually carbohydrates are oxidised to release  energy in cellular respiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidation of one molecule of NADH gives rise  to 3 molecules of ATP in anaerobic respiration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fermentation takes place under anaerobic  conditions in prokaryotes only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q66",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many molecules of metabolic water are released after complete oxidation of one molecule of pyruvic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q67",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The complete combustion of glucose inside the cell yields",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "38 ATP only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Energy, most of which is given out as heat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy, most of which is given out as ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heat energy only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q68",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Lactic acid and alcoholic fermentation are similar in the presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "TCA cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Link reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ETC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "EMP pathway",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 317,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q69",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What does A, B and C represents in the given below diagram of thylakoid?  +  H  +  NADP  NADPH  B A  +  H  + H  +  H  Lumen  +  H  Stroma  C  ATP ADP",
+    "question_diagram": "/images/last_leap_part2/p318_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "PS II, Cyt b-f, F0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyt b-f, PS II, F1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyt b-f, PS I, F1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PS I, Cyt b-f, F0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q70",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During glycolysis how many redox equivalents are removed from PGAL to form a reduced molecule of co-enzyme?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q71",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules are produced from one molecule of 3-PGA through substrate level phosphorylation in aerobic respiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q72",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "RQ value will be one when the substrate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbohydrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Organic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q73",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In anaerobic respiration, NAD+ is reduced in glycolysis. This NADH + H+ is oxidised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lactic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acetaldehyde",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glyceraldehyde-3-phosphate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q74",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many NADH molecules are oxidised to NAD+  with the help of ETC, if one molecule of glucose is oxidised completely inside the nerve cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q75",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Fatty acids enter the aerobic respiratory pathway after being converted to the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PGAL",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DHAP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q76",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "When a molecule of pyruvic acid undergoes lactic acid fermentation then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 ATP are lost",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 ATP is lost",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 ATP are lost",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 ATP are gained",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q77",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During the oxidation of C20H39COOH the RQ value is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "> 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "< 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q78",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many oxidative decarboxylation steps are involved during the oxidation of one molecule of pyruvic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q79",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is considered as the first oxidation step of aerobic respiration?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose  Glucose-6-P",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-Ketoglutaric acid  Succinyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phosphoglyceraldehyde   1,3-phosphoglyceric acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fructose 1,6-Diphosphate  Glyceraldehyde-3-Phosphate + DHAP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q80",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Acetyl CoA provides 2 carbon compounds for the synthesis of all except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ABA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Head of chlorophyll",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Steroid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q81",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Alcoholic fermentation is almost similar to anaerobic respiration, it is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidative decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reductive decarboxylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidative phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidative phosphorylation evolving CO2 also",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q82",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Reduction of coenzyme occurs first in aerobic respiration at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isocitrate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PGAL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-KGA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q83",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In ETS the number of ATP molecules synthesized depends on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Substrate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electron donor",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Proton gradient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q84",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "What is the net ATP production when two molecules of glucose are fermented to lactic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Eight",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ten",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 318,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q85",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound of cellular respiration is neither the product of EMP nor TCA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Activated acetyl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PGAL",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-KGA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q86",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which is correct for 16C fatty acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It undergoes -oxidation in cytosol and yields  131 ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It undergoes -oxidation in plastid and yields  129 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It undergoes -oxidation in mitochondria and  yields 131 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It undergoes -oxidation in mitochondria and  yields 129 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q87",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "All living organisms retain the enzymatic machinery to partially oxidise glucose without the help of O2. This breakdown of sugar is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaerobic respiration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aerobic respiration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fermentation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q88",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "First step of transition reaction is catalysed by enzyme namely",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvate dehydrogenase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transacetylase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decarboxylase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyruvate kinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q89",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many times more CO2 is produced in HMP than alcoholic fermentation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 times",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 times",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 times",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q90",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Transition from anaerobic to aerobic respiration in yeast cells will",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease glucose oxidation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase glycolysis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decrease coenzyme reduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase total CO2 production",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q91",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect for ATPase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "This is made up of two parts",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F0 is an integral membrane protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "This is reversible in function",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "This is found in mitochondria only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q92",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Continuous supply of which organic acid is required to run TCA cycle continuously?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acetyl Co-A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-ketoglutaric acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Citric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q93",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "A mobile electron carrier which transfers electron between complex-III and complex-IV is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome-b and present on inner  mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytochrome-c and present on outer side of  inner mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cytochrome oxidase and present on outer  mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome-c and present on outer  mitochondrial membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q94",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Formation of ATP in mitochondria in green cells of leaf during day time also is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Substrate level oxidation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidative phosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Photophosphorylation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-cyclic photophosphorylation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q95",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules are obtained as net gain if two molecules of fructose-1,6-biphosphate oxidised completely inside the bacterial cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "76",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "40",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "38",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q96",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During respiratory electron transport chain, the ubiquinone receives electrons from FADH2 via enzyme complex",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q97",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Respiratory quotient for the tripalmitin is represented as  6CO 6O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2  102CO 145O",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  2  2  4CO 3O  102CO 165O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  2  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q98",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Tricarboxylic acid cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is present in all living organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is involved in catabolism only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Requires pyruvate as substrate entrant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Requires O2 supply",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 319,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q99",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not produced during Kreb’s cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NAD+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4C compound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6C compound",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q100",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following and select the correct option from those given below  Column I Column II  a. Decarboxylation (i) Acetyl CoA  b. Enolase (ii) OAA  c. Carotenoids precursor (iii) -ketoglutaric acid  d. Alkaloids precursor (iv) 2-PGA",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(ii), c(iv), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q101",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Monerans lack",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kreb’s Cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ETS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glycerol-3-Phosphate Shuttle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "EMP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q102",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Two redox equivalents are first removed in respiration in all living organisms at _____ level.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PGAL",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isocitrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-KGA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q103",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Name the products marked as A, B and C in given diagram  Fats  A  DHAP  PGAL  B  C  Kreb’s cycle H O 2 CO2  A B C",
+    "question_diagram": "/images/last_leap_part2/p320_q103.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Fatty acid and PEP Acetyl CoA glycerol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose Pyruvic acid Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glucose-6-Ph PEP OAA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fatty acid and Pyruvic acid Acetyl CoA glycerol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q104",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Cytochrome-c is a small protein acts as a mobile carrier attached to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Outer surface of inner membrane for transfer of  e– between complex II and III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inner surface of the inner membrane for transfer  of e– between complex II and IV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Outer surface of the inner membrane for  transfer of e– between complex III and IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Inner surface of the inner membrane for transfer  of e– between complex IV and V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q105",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. citric acid cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "First oxidation occurs at isocitrate level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Substrate level phosphorylation between  succinyl CoA and succinic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "This cycle is inhibited by malonate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The cycle starts with condensation of acetyl  group with OAA to release citrate and water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q106",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the statements a, b, c and d w.r.t. fermentation by yeast and select the correct choice  a. Production of CO2 and ethanol  b. Complete oxidation of glucose  c. The reducing agent in NADH + H+  d. It is achieved under anaerobic condition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b & c are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q107",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many oxygen molecules are involved in ETS if one molecule of citric acid is completely oxidised?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Six",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q108",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All living organisms have enzymatic machinery  to partially oxidise glucose without oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In plants, glucose is derived from sucrose  which is the end product of photosynthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2ATP are produced as net gain by direct  phosphorylation during glycolysis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "One dehydrogenation and one decarboxylation  step occur during EMP pathway",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 320,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q109",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements about fermentation  a. Yeast produces CO2 and ethanol by incomplete oxidation of glucose.  b. Some bacteria produce lactic acid from pyruvic acid.  c. In both lactic acid and alcohol fermentation a lot of energy is released.  d. H2O is not released.  The correct statements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only a & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q110",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Identify A, B, C and D in the following diagram  C outer  ATP  side  2H +  B D  A  ADP Pi",
+    "question_diagram": "/images/last_leap_part2/p321_q110.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A - Inner mitochondrial membrane; B - F0;  C - F1; D - Matrix",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - Inner mitochondrial membrane; B - F0;  C - Matrix; D - F1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A - Matrix; B - F1; C - Inner mitochondrial  membrane; D - F0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - Cytoplasm; B - F0; C - Matrix; D - F1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q111",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The nature of the substrate taking part in respiration can be very easily detected by measuring the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Q10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R.Q.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Volume of CO2 evolved",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Volume of O2 taken",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q112",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which ETS inhibitor in mitochondria inhibits electron transfer between cyt. b and cyt. c1?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyanide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Antimycin A",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rotenone",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q113",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In fermentation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Partial breakdown of glucose take place",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "One molecule of glucose will produce 8 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NADH is oxidized to NAD in vigorous way",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q114",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. cytochrome c",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Peripheral mobile carrier protein",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Attached to the outer surface of inner  mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Attached to the inner surface of inner  mitochondrial membrane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transfers electrons between complex III and IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q115",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP are produced through ETS by four turns of Krebs cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "44",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q116",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is present in mesophyll cells of Sorghum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Malic acid + NADP+ OAA + NADPH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PEP + CO2 OAA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aspartic acid + Pyruvic acid PEP + Alanine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PEP + AMP + PPi Pyruvic acid + ATP +  H3PO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q117",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During citrate synthesis in Krebs cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A molecule of CoA is used",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is condensation of acetyl group with  oxalosuccinic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "There is condensation of acetyl group with  oxaloacetic acid and water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinyl CoA is oxidised in presence of citrate  synthetase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q118",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Study the pathway given below.  In which of the following options correct words for all the three blanks (A), (B) and (C) are indicated?",
+    "question_diagram": "/images/last_leap_part2/p321_q118.png",
+    "options": [],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 321,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q119",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Two redox-equivalents are released for the first time in mitochondrial matrix (for one glucose molecule) at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation of PGAL",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidative decarboxylation of -KGA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dehydrogenation of succinate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidative decarboxylation of pyruvic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q120",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which enzyme conducts the irreversible reaction of glycolysis and is also called the pacemaker of the process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hexokinase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pyruvate kinase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phosphofructokinase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hexosephosphate mutase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q121",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The figure given below shows the structure of ATP synthase with its two parts labelled A & B. Select the part correcly matched with its feature/function  ATP  2H +  (B)  (A)  ADP Pi",
+    "question_diagram": "/images/last_leap_part2/p322_q121.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Integral thylakoid membrane protein  complex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B – Peripheral membrane lipid complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Forms the channel for proton pumping",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B – Presence of catalytic site",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q122",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following process in mesophyll cell results in the release of CO2 with the utilisation of ATP? (a) Glycolysis (b) Krebs cycle (c) Photorespiration (d) Link reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(b) & (c)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(c) & (d)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (c)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All (a), (b), (c) & (d)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q123",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "At which of the following step of aerobic respiration, first decarboxylation takes place?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxalosuccinic acid -ketoglutaric acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-ketoglutaric acid Succinyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyruvic acid Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinic acid  Succinyl CoA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q124",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "To synthesize 10 molecules of acetyl CoA in aerobic respiration, how many molecules of glucose are required?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q125",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The common feature of aerobic respiration and alcoholic fermentation process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP and metabolic H2O as end products",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NADH + H+ oxidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxygen use",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Complete breakdown of glucose to CO2 & H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q126",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "RQ of tripalmitin is  102 CO 145 O  6 CO 6 O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "2  2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "2  2  2 CO Zero O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 CO 1 O  2  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q127",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During glycolysis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP molecules are synthesized between  fructose-6-phosphate and fructose 1, 6-diphosphate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Water molecules are released between PEP  and pyruvate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NAD+ is oxidized between PGAL and BPGA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ATP molecules are synthesized in the  conversion of BPGA to PGA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q128",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following and select the correct option from these given below  Column I Column II  a. NADH dehydrogenase (i) Complex - V  b. Cytochrome bc1 complex (ii) Complex - III  c. ATP synthetase (iii) Complex - IV  d. Cytochrome c oxidase (iv) Complex - I",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(ii), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 322,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q129",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "The continued oxidation of acetyl coA via the TCA cycle requires the replenishment of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-ketoglutaric acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Succinic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Malic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q130",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Under certain conditions organic acids can be  used as respiratory substrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Carbon skeleton produced during respiration is  used as precursor for biosynthesis of other molecules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "During cellular respiration, energy is released  in a series of slow stepwise reactions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q131",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst the following steps of glycolysis which one is energy yielding and this energy is trapped by the formation of ATP?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BPGA PGA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3PGA 2PGA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2PGA 2PEP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fructose-6-PO4 Fructose 1,6-bisphosphate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q132",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following complex of mitochondrial ETS having two copper centres?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome b c1 complex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NADH dehydrogenase complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Succinate dehydrogenase complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome c oxidase complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q133",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "For the synthesis of five ATP, how many protons should pass through F0 part from intermembrane space to the mitochondrial matrix?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q134",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In muscles, during exercise, when oxygen is inadequate for cellular respiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvic acid is oxidised to lactic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "45% of the energy in glucose is released in the  form of ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NADH + H+ is oxidised to NAD+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pyruvic acid is reduced to ethanol and CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q135",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In mitochondrial electron transport chain, reduced ubiquinone is oxidised with the help of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome bc1 complex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ATP synthase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NADH dehydrogenase complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinate dehydrogenase complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q136",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "During glycolysis the two redox equivalents are removed during conversion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PGAL  BPGA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose  Glucose 6-phosphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pyruvic acid  Acetyl CoA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Succinyl CoA  Succinic acid.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q137",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Two copper centers are component of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytochrome bc1 complex",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NADH dehydrogenase complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATP synthase complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cytochrome c oxidase complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q138",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. chemiosmotic hypothesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Based on related proton gradient",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Number of protons (H+) required for ATP  generation is same in chloroplast and mitochondria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ATPase enzyme confirmational change  generates several molecules of energy packed ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protons move through facilitated diffusion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q139",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "In the process of aerobic respiration how many ATP molecules will be generated from first formed molecule of triose phosphate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 ATP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q140",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Fo part of ATPase forms a transmembrane channel that carries out",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Active diffusion of protons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Active diffusion of ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Facilitated diffusion of H+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Facilitated diffusion of H+ and e–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q141",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst the different multi protein complexes of ETS in inner mitochondrial membrane, which complex is largest?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Complex V",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Complex I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Complex III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All complexes have equal size",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q142",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Precursor of alkaloids and pyrimidines in TCA cycle is the product of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidation of isocitrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decarboxylation of oxalosuccinate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidative decarboxylation of -KGA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dehydrogenation of malic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 323,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q143",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct sequence of electron carriers in cellular respiration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "FMN, FeS, UQ, cyt b, cyt c, cyt a – a3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "FMN, FeS, cyt c, UQ, cyt b, cyt a – a3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "FAD, UQ, cyt b, cyt c, FMN, cyt a – a3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "FAD, FeS, UQ, cyt a –a3, cyt b, cyt c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q144",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Warburg-Lipman-Dickens pathway",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Requires glucose-6-phosphate dehydrogenase  enzyme only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is possible in eukaryotes only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Occurs in cytoplasm and chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Does not involve oxidative decarboxylation step",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q145",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements w.r.t. glycolysis and select the right choice.  a. Two redox equivalents are removed from PGAL.  b. Pyruvic acid is the key product.  c. Glucose undergoes complete oxidation to produce two molecules of pyruvic acid.  d. The conversion of PEP to pyruvic acid is energy requiring process.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only c is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "c & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only b is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secA_q146",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section A (Objective)",
+    "question_text": "PCR cycle is different from PCO cycle in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Involvement of peroxisome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is favoured by high CO2 concentration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Initial oxygenation occurs inside chloroplast",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Regeneration of PGA is energy dependent  process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q1",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): -ketoglutaric acid is a key substance in  nitrogen metabolism.\nReason (R): It acts as a connecting link between respiration  and photosynthesis.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q2",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Malate-aspartate shuttle is less efficient and is  found in skeletal muscles and nerve cells of brain.\nReason (R): ATP yield per molecule of glucose is 36,  instead of 38 in this shuttle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q3",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Complex III in inner mitochondrial membrane  has cyt-b and cyt c1.\nReason (R): It oxidizes reduced ubiquinol.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q4",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Pyruvic acid is directly reduced to lactic acid  without decarboxylation in fermentation process.\nReason (R): The enzyme required in lactic acid fermentation  is lactic dehydrogenase which also require FMN and Zn++.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q5",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Yeast is involved in alcoholic fermentation.\nReason (R): Yeast poison themselves to death when  concentration of alcohol reaches about 13%.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q6",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The continued oxidation of acetyl CoA via the  TCA  cycle  requires  the  continued replenishment of OAA.\nReason (R): OAA is the primary acceptor molecule with  aldehyde group.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q7",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In mitochondrial ETC, FMN is reduced with the  help of enzyme complex I.\nReason (R): Cytochrome c oxidase complex contains  cytochromes a-a3 and two copper centres.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q8",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Glycerol would enter the respiratory pathway  after being converted to glucose-6-phosphate.\nReason (R): Glucose-6-phosphate is substrate of link  reaction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q9",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Acetyl CoA is a 2C compound.\nReason (R): Acetyl CoA is connecting link between EMP  and TCA.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q10",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Fermentation is slow oxidation of glycolytic  reduced coenzymes.\nReason (R): In fermentation, not much energy is released.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q11",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Conversion of pyruvic acid into acetyl Co-A  involve dehydration.\nReason (R): Such reactions catalysed by puruvate  dehydrogenase, Mg2+ and NADH.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_07_respiration_in_plants_secB_q12",
+    "subject": "Botany",
+    "chapter": "Respiration in Plants",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Proteins are the favoured substrate for  respiration.\nReason (R): They enter the glycolytic pathway directly.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 324,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

@@ -1,0 +1,2931 @@
+[
+  {
+    "question_id": "chem_14_amines_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "NO2   C in the given reaction is  OH  OH",
+    "question_diagram": "/images/last_leap_part2/p159_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  OH  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is/are correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–NH2 is strongly activating group",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pyridine is more basic than pyrrole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3° amine is more basic than 2° amine in  nonpolar solvent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Reduction of nitrobenzene with Zn and NaOH (aq) produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Azoxy benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aniline",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Azobenzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrazobenzene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "   Reduction RCl AgCN A B.  A and B are respectively",
+    "question_diagram": "/images/last_leap_part2/p159_q4.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "RCN, RCH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RNC, RNHCH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RCN, RNHCH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RNC, RCH2NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following amines will react with HNO2 to give nitrogen?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH(CH3)NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3C — NH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "CH3NH2 + Hinsberg reagent (i) KOH  (ii) HCl  A  Product A is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(CH3)3NHCl  O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S – N – CH3  Cl  O  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S – NH – CH3  O  O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S – N(CH3)2  O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "NH2 (CH CO) O 3 2 A  Br2  CH COOH 3 Product  Major product formed is  NH2  NH2  Br",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  NHCOCH3  NHCOCH3  Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 159,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "A CH NH 2 2 HNO2 . Identify A.  CHO",
+    "question_diagram": "/images/last_leap_part2/p160_q8.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH OH 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N = N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "CH CH Br 3 2 A NaCN OH–/H O 2 2  Partial hydrolysis B  NaOH + Br2  C  Identify C.",
+    "question_diagram": "/images/last_leap_part2/p160_q9.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2COOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3CH2CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2CHO",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not react with acetyl chloride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(C2H5)2NH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C2H5NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(C2H5)3N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The compound which on reaction with aqueous nitrous acid at low temperature, produces an oily nitrosoamine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diethylamine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethylamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aniline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methylamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Reduction of which of the following compounds produces 3° amine",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkane nitriles",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N,N-dialkylamides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkyl isocyanides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aldoximes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclobutyl amine when reacted with aqueous HCl and potassium nitrite gives  OH",
+    "question_diagram": "/images/last_leap_part2/p160_q13.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "CH – Cl 2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH – OH 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The product formed during the course of given reaction is  NH2  Br /H O 2 2 Product  SO H 3  NH2  NH2  Br Br  Br",
+    "question_diagram": "/images/last_leap_part2/p160_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  SO H 3  NH2  Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br  Br Br  SO H 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methylamine is less basic than aniline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HNC can be obtained by carbylamine reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Secondary amine reacts with Hinsberg’s  reagent to form the product soluble in KOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The correct order of basic nature of amines  CH –CH –CH –NH2 3 2 2 I  CH –CH = CH–NH2 3 II CH –C  C–NH  2 3 III",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II > III > I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III > II > I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III > I > II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction  O CH3  [X] LiAIH4  C H    C    N  6 5  CH3  [X] will be",
+    "question_diagram": "/images/last_leap_part2/p160_q17.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5 – CH2OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5CONH2  CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C H    C     N  6 5 H2  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 160,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "When N-phenyl hydroxylamine is warmed with Tollen’s reagent, product obtained will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitro compound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitroso compound",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "An amine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Compound A, C5H11NO is not soluble in cold dilute, alkaline or acidic solution. When A is refluxed in NaOH solution, a gas B is evolved and a salt (C) is formed. Acetyl chloride reacts with (B) to give (D) C4H9NO. B reacts with HNO2 to give yellow oil E. The structure of E is  O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N–NO CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH N CH 3 3 – –  | CH3  CH3  NO    ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 2 3 CH –",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 4 3 OH N ) CH (  N ) CH (  OH  NH2       2 HNO  major product will be",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "O  OH  OH",
+    "question_diagram": "/images/last_leap_part2/p161_q20.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "C6H5NO2         ether / LiAlH4  product will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5NHOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5N NC6H5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LiAlH4 cannot reduce C6H5NO2  –",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "CH CH N CH 3 3 – – – | CH3  H O 2 2 CH CH—N CH 3 3 – – | CH3  O  |  | CH3  | CH3  423 – 475K  CH CH=CH +(CH ) NOH 3 2 3 2  The above reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cope elimination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hofmann’s elimination",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Perkin reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Swart’s reaction    –     will give",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "3 2 HCH N Ph  OH",
+    "question_diagram": "/images/last_leap_part2/p161_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Ph2NH + CH3OH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ph2NCH3 + H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PhNHCH3 + PhOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PhN CH2 + H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "(CH3)2NH       2 HNO  A        H CO CF 3 3  final product will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(CH3)2NNO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CH3)2NNO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3—O—CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3)2NH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will not be oxidised by KMnO4?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ph—NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ph—CH2—NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3 N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ph—NH—Ph",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will give blue colour with HNO2 followed by NaOH.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3–NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5–NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)2CHNO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3)3CNO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Final product C of series will be  NH2  2 2 4 NaNO /HCl H O CCl  0ºC OH A B C       CH3  OH  OH  CHO  COOH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  CH3  NH2  NC  |  C  || O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  CH3  N       product will be",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "",
+    "question_diagram": "/images/last_leap_part2/p161_q28.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N  N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N  N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 161,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Compound having the highest pKb value among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "p-toluidine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "m-toluidine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "o-toluidine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aniline",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "An aliphatic monoamine has a VD = 36.5. On heating the amine with excess of CH3I for a long time, a quaternary salt containing 55.5% of iodine is produced. What may be the structural formula of the amine? (I = 127)  C H 2 5  only",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "NH CH3",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "NH C H 2 5  C H 3 7  only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH –C–NH 3 2 | CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "| CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Final product D of the series will be  NO2  Phenol D.  (C H ) SO 2 5 2 4 A OH  NaNO HCl 2/ C 0ºC  Sn/HCl B  –  OH",
+    "question_diagram": "/images/last_leap_part2/p162_q31.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OC H 2 5 OH  N=N—",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OC H 2 5  OH  OC H 2 5 OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO2 SO H 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction sequence  CH3  (CH CO) O 3 2 A  Br2 B CH COOH 3  +  H  C HOH (Major product)  NH2  The product ‘C’ is  CH3  CH3  Br",
+    "question_diagram": "/images/last_leap_part2/p162_q32.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  NH2  NH2  CH3  CH3  COCH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "COCH3  NH2  NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Compound (X) C7H9N react with NaNO2/HCl(con) at 0ºC followed by -naphthol to give orange coloured dye. compound (X) will be  NH2  CH NH 2 2",
+    "question_diagram": "/images/last_leap_part2/p162_q33.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CH3  NHCH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The correct decreasing order of basic nature of amines in aqueous medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(CH3)3N > (CH3)2NH > CH3NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CH3)2NH > (CH3)3N > CH3NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3N > CH3NH2 > (CH3)2NH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3)2NH > CH3NH2 > (CH3)3N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most basic in aqueous solution?",
+    "question_diagram": "/images/last_leap_part2/p162_q35.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C NH – 2 || O  CH NH 2 2 –",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C NH – 2 || NH  | H  | H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C—N  | H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the end product in the following reaction sequence  NH2  Br                    ) C ( ) B ( ) A ( 2 3 2 2 PO H  HCl . dil NaNO  C º 0  Water",
+    "question_diagram": "/images/last_leap_part2/p162_q36.png",
+    "options": [],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 162,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the correct sequence of decreasing basic character?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2 = CHCH2NH2 > CH  CCH2NH2 >  CH3CH2CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH  CCH2NH2 > CH2 = CHCH2NH2 >  CH3CH2CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3CH2CH2NH2 > CH2 = CHCH2NH2 >  CH  C–CH2–NH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2CH2NH2 > CHC–CH2–NH2 >  CH2=CHCH2NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "In the given compound  H N  2  (I)  N—H  (III)  NH  2  (II)  the most basic amino group is",
+    "question_diagram": "/images/last_leap_part2/p163_q38.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are equally basic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has highest boiling point?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diethyl amine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethyldimethyl amine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "n-butyl amine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methyl-n-propyl amine  NaNO +HCl  H O  Br  2    P  2 Q  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Amino-benzene  2 C  0 – 5°C  Boil  H O  Zn dust D  The compound ‘D’ is  H – O O – H",
+    "question_diagram": "/images/last_leap_part2/p163_q40.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "O – H  O – H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br  Br",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H – O O – H  O – H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "OH  HNO2 X (major)  CH NH 2 2  X is  O  OH",
+    "question_diagram": "/images/last_leap_part2/p163_q41.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2  CH3  O  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH OH 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction sequence          6 5 2 C H CHO/H SnCl /HCl 6 5 2 C H N Cl X [Y]  [Y] will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5—NH—NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5—NH—NH—C6H5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5—N=N—C6H5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H5—CH=N—NH—C6H5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction  OH  Ag  N — R  [P]  Cl  [P] is",
+    "question_diagram": "/images/last_leap_part2/p163_q43.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "N — R  Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH — R OH  N — R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 163,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "N N G   +  OH NaOH  (A)  G N N OH  For the above reaction, reactivity of (A) will be maximum when G is",
+    "question_diagram": "/images/last_leap_part2/p164_q44.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3 —",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  — O —",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SO3H —",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "— NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the strongest base?  H  N  O  NH2",
+    "question_diagram": "/images/last_leap_part2/p164_q45.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O  H  N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N NH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an intermediate compound of Hofmann bromide degradation reaction?  O  RCNH + KOH + Br 2 2",
+    "question_diagram": "/images/last_leap_part2/p164_q46.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "R – N = C = O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R – NH – Br  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R CH —C NH  2 2 —",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RNH2  H  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "NO2  NH2  CH3  CH3",
+    "question_diagram": "/images/last_leap_part2/p164_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  NH2  CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2  NH2  NO2  NH2  NH2  Hot alkaline  A . A is",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "(Major) KMnO4  NHOH  COOH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "COOH  NH2  NH2OH  COOH  COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "COOH  COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most basic?  NH2  NH2  CH3",
+    "question_diagram": "/images/last_leap_part2/p164_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH2  NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The 2nd most basic among the following in aqueous medium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C2H5NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(C2H5)2NH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(C2H5)3N",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which can be most reactive towards coupling reaction?",
+    "question_diagram": "/images/last_leap_part2/p164_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "R – O N Cl 2 + –",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl N Cl 2 + –",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO2 N Cl 2 + –",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HO N Cl 2 + –",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Most basic amine in following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "o-methyl aniline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Benzyl amine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-methyl aniline",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "m-methyl aniline",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which has least pKb value?  NH2",
+    "question_diagram": "/images/last_leap_part2/p164_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diphenylamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 164,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "m-nitroaniline can be obtained from m- dinitrobenzene by reduction with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(NH4)2S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sn/HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "LiAlH4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrolytic reduction  H N – OH 2  A H  + B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "( CH2 )5 COOH HOOC  +  H   C  Product C is",
+    "question_diagram": "/images/last_leap_part2/p165_q55.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyclic anhydride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclic ester",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclic amide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyclic amines",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "p-Chloroaniline and anilinium chloride can be distinguished by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sandmeyer reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AgNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will give nitrosoamine when treated with HNO2?",
+    "question_diagram": "/images/last_leap_part2/p165_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5CH2NH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3CH2)3N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The order of basic strength of nitrogen in given structure is  (II) (III)  N N  H  (I)  CH NH 2  2",
+    "question_diagram": "/images/last_leap_part2/p165_q58.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II > III > I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I > III > II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III > II > I  CH3  NaNO + HCl 2 0-5°C C  Br2 FeBr3 A Sn/HCl B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "H O 2 H PO 3 2  KMnO4  NO2  D  OH (–) E  Choose the correct statement  CH3  COOH",
+    "question_diagram": "/images/last_leap_part2/p165_q59.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "E is",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B is   Br  NO2  Br CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "D is",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C is   N Cl 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is least basic?  H N  N",
+    "question_diagram": "/images/last_leap_part2/p165_q60.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H N  O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Coupling of diazo salt with phenol is most favourable in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acidic solution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Neutral solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Basic solution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Equally favourable in all medium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Ph – C – NH              P 2 POCl3  O Product is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phenylcyanide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Benzamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chlorobenzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Aniline",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Write the basicity order of the following  I. H C – C 3 NH NH2 II. CH CH NH 3 2 2  O  III. (CH ) NH 3 2  IV. CH –C–NH 3 2",
+    "question_diagram": "/images/last_leap_part2/p165_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "II > I > III > IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I > III > II > IV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "III > I > II > IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I > II > III > IV  NH2  HgCl2  A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "+ CS2  What is A?  SH",
+    "question_diagram": "/images/last_leap_part2/p165_q64.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH – C – NH   N = C = S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NHOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 165,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Cl  The compound X is  NH2",
+    "question_diagram": "/images/last_leap_part2/p166_q65.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C = N Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N  C  Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH NH 3 Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most reactive towards electrophilic substitution reaction?  NH–CH3",
+    "question_diagram": "/images/last_leap_part2/p166_q66.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH –NH 2 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O  NH–C–CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH –NH–CH 2 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The ortho/para directing group among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "COOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CN",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "COCH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NHCOCH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction of phenol with benzene diazonium chloride produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phenyl hydrozine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phenyl hydroxyl amine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-amino azobenzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "p-hydroxy azobenzene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction  CH – NH2 CH3  Product NaNO2  H l C  CH3  The major product is  CH3",
+    "question_diagram": "/images/last_leap_part2/p166_q69.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "OH  CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH = CH2 CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH — OH CH3  CH3  N Cl 2 – +  NO2  X",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": ". Then ‘X’ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) HBF4, (ii) NaNO2/Cu",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaNO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HNO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Gabriel phthalimide synthesis cannot be used for the preparation of",
+    "question_diagram": "/images/last_leap_part2/p166_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2NH2  NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3NH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CH2CH2 – NH2  +",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "HgCl2 H3O   CH NH + CS 3 2  2 A B C  C is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3NCS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3SCN",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3NH – SH – CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 166,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "RCH COOH 2 1 RCH COCl 2  2  3  RCH CONH 2 2  5 RCH NH 2 2  RCH OH 2 RCOOH 4  Find the correct statement regarding the above reaction sequence.",
+    "question_diagram": "/images/last_leap_part2/p167_q73.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Step 2 can be described as nucleophilic  substitution reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The reagent NaNO2/HCl can be used in 4th  step",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RCH2N = C = O is the intermediate involved in  step 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following in the decreasing order of basic strength  NH2  NH2  NH2  OCH3 (I)  NO2 (II)  CH3 (III)",
+    "question_diagram": "/images/last_leap_part2/p167_q74.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II > III > I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I > III > II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II > I > III  COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section A (Objective)",
+    "question_text": "X  Y  X and Y are respectively  COND2 NH2",
+    "question_diagram": "/images/last_leap_part2/p167_q75.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "N = C = O  NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ND2  NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH2  ND2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Lower aliphatic amines are soluble in water.\nReason (R): Lower aliphatic amines can form intermolecular  H-bonding with H2O.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Secondary amines have higher boiling points  than their respective tertiary isomers.\nReason (R): H-bonding is absent in tertiary amines.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Amines have higher b.p. than those of the  corresponding alcohols.\nReason (R): Alcohols possess intramolecular H-bonding.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Nitration of aniline can only be done by  protecting —NH2 group through acetylation.\nReason (R): Acetylation of aniline results in the increase of  electron density at the benzene ring.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Nitration of aniline at low temperature gives  47% m-nitroaniline.\nReason (R): In acidic medium, NH2 group is converted into    3 –NH   group which is m-directing.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 167,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): C6H5NH2 is a 1° amine and can be prepared  by Gabriel phthalimide synthesis.\nReason (R): C6H5NH2 is strongly basic in nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): pKb of aniline is higher than ethylamine.\nReason (R): The lone pair of – NH2 group in aniline is  involved in conjugation with benzene ring.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Aniline does not undergo Friedel-Crafts  reaction.\nReason (R): Diazonium salts of aromatic amines are more  stable than those of aliphatic amines.  \u0002\u0003 \u0002\u0003 \u0002  O  :  C – NH2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_14_amines_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Amines",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): is  more  basic  than  O  :  NH – C – CH3\nReason (R): Delocalisation of lone pair of electron  decreases the basic strength.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 168,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

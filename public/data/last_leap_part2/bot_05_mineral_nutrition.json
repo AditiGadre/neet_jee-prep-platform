@@ -1,0 +1,4677 @@
+[
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q1",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Hydroponics has been successfully employed as a technique for the commercial production of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Timber plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cereals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vegetables",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pulses",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q2",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The criteria for essentiality of an element are all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Absolutely necessary for supporting normal  growth and reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The essential element must be replaceable by  another element",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is involved in the metabolism of plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Its deficiency will show hunger sign",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q3",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column I and column II  Column I Column II  a. Fe3+ (i) Catalase  b. Mg2+ (ii) Chlorophyll  2– (iii) Phosphorylation  c. SO4  – (iv) Coenzyme A  d. H2PO4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q4",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Molybdenum is not required for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogen metabolism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synthesis of nitrogenase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrate reductase activity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrite reductase activity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q5",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP are required for the reduction of four nitrogen molecules?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "32",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "48",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "64",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q6",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Denitrification is carried out by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pseudomonas and Thiobacillus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrosomonas and Anabaena",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrobacter and Nostoc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ferrobacillus and Thiobacillus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q7",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Asparagine and glutamine found in plants are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Preferred for storage of nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enzymatic part of proteins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prosthetic group of proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Transported mainly through parenchyma",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q8",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Out of the following statements  a. Ureides are rich in nitrogen  b. Amides are transported via phloem and ureides via xylem  c. Soyabean transports fixed nitrogen as amides only  d. Several amino acids are formed from -ketoglutaric acid by transamination  e. Glutamate dehydrogenase is the key enzyme involved in reductive amination  The correct statements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, d & e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q9",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The symptoms that appear due to manganese toxicity may actually be the deficiency symptoms of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Iron, boron and zinc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Iron, magnesium and calcium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molybdenum, magnesium and copper",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Calcium, magnesium and potassium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 289,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q10",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement w.r.t. mineral absorption",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Uptake of K+ ions into outer or free space of  cells is passive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In the metabolic phase Ca2+ ions pass into  inner space, i.e., cytoplasm and vacuole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Absorption of ions into inner space is passive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maximum mineral absorption occurs through  zone of cell elongation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q11",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct one (w.r.t anaerobic free living diazotroph)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Azotobacter",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clostridium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rhizobium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Frankia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q12",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Microelements",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Do not become toxic in slight excess",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Show balancing effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Are toxic in slight excess",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Build up plant body and different protoplasmic  constituents",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q13",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Match column I with column II  Column I Column II  a. Ureids (i) Casuarina  b. Denitrification (ii) Nitrocystis  c. Nitritification (iii) Glycine max  d. Actinomycetes (iv) Pseudomonas",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(ii), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q14",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "One of the beneficial element in the metabolic activities required for higher plants, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nickel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cobalt",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q15",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The element which can form complexes with polyphenols and can serve as an alternative to lignin in reinforcement of cell wall is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Si",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q16",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During root nodule formation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria secrete flavonoids and betaines",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Legume root releases nod factors to attract  bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Root hair wall degrades in the region of curling  of root hair",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacteria contributes auxin and haeme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q17",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Strike the odd one out w.r.t. function",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chlorine water splitting reaction of photo-  synthesis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nickel  Reprocessing of H2 gas generated  during nitrogen fixation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mn  Activates Kreb’s cycle enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na  Secondary messenger in protein  signalling",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q18",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Translocated and storage form of fixed nitrogen in soyabean is commonly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ureides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Asparagine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glutamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q19",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of these micro-elements is an activator for both rubisco and pepcase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q20",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During symbiotic nitrogen fixation in leguminous plants, ATP needed to reduce one mole of dinitrogen into ammonia with the release of hydrogen is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6  + and ATP required for the reduction of two molecules of nitrogen are",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q21",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Number of H  + and 16 ATP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "16 H  + and 32 ATP",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "8 H  + and 8 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 H  + and 8 ATP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8 H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q22",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which element is function as activator of carbonic anhydrase and lactate dehydrogenase?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn+2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg+2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn+2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q23",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Interveinal chlorosis due to the deficiency of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ni",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q24",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Frankia",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is symbiont with number of non-leguminous  plants like Alnus, Casuarina, Myrica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is a rod shaped gram positive bacteria which  produces endospores",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can also fix nitrogen in free living condition in  soil",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fix nitrogen in leaf nodules where nitrogenase  is  protected  from  O2  damage  by leghaemoglobin (LHb)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 290,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q25",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "How many essential elements are called non mineral elements?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q26",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Match column-I and column-II  Column-I Column-II  a. Mo (i) Alcohol dehydrogenase  b. Mg (ii) Rubisco  c. Zn (iii) Dinitrogenase  d. Ca (iv) Calmodulin",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(i), c(ii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q27",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following graph best represents two phases of mineral absorption?  Metabolic phase  absorption  Mineral",
+    "question_diagram": "/images/last_leap_part2/p291_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Initial phase  Time  absorption  Mineral  Metabolic phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Initial phase  Time  Metabolic  phase  absorption  Mineral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Initial phase  Time  absorption  Metabolic  phase  Mineral  Initial  phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Time",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q28",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following element is most critical as well as most abundant in plant bodies?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "P",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q29",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is oxidative pathway of nitrogen metabolism steps?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrate assimilation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biological N2-fixation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Denitrification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q30",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Nitrogen fixation is of three types  A. Natural / atmospheric  B. Industrial  C. Biological  What are their relative contribution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A  20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A  10%  B  20% B  40%  C  60% C  50%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A  10%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A  30%  B  30% B  30%  C  60% C  40%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q31",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Symptoms of manganese toxicity may actually be the deficiency symptoms of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe, Ca and N",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe, Mg and Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn, Ca and B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca, Mg and P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q32",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "With regard to mechanism of nitrogen fixation select an incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N2 fixation is an energy intensive process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Many intermediates like dimide and  hydroxylamine are produced",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "During fixation N2 gets attached to one of the  two components of nitrogenase enzyme",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Released H2 can be metabolised by some  bacteria having hydrogenase enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q33",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "In the following reaction, which important step of amino acid synthesis is shown?  Glutamic acid + Oxaloacetic acid   -ketoglutaric acid + Aspartic acid",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reductive amination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Catalytic amidation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transamination",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Deamination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 291,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q34",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Nitrogen fixing ability is found in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Some anaerobic microbes only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Some aerobic microbes only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Some eubacteria and archaebacteria also",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Some photosynthetic and chemosynthetic  microbes only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q35",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Chelating agents are required to increase the solubility of _______ in _______ soils",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe, alkaline",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe, acidic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg, acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn, acidic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q36",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "In hydroponics",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cost of infrastructure is low",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Soil borne pathogens are absent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Problem of weeding is present",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "pH is maintained at 7-8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q37",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During nodule formation in legume root, infection thread is formed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell wall of root hair",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Plasma membrane of root epidermis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plasma membrane of root hairs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fusion of plasma membrane and golgi derived  vesicles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q38",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Storage elements – C, N, P and S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Non-mobile elements – N, P, K, Mg and C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Balancing elements – Mg, Ca and K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protoplasmic elements – C, H, O, N, P and S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q39",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Product of biological nitrogen fixation first enters in which one of the following pathway to synthesize amino acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrate assimilation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reductive amination",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transamination",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q40",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Find incorrect match with respect to catalytic effect of minerals",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dinitrogenase – Mo",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Z-enzyme – Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PEP carboxylase – Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbonic anhydrase – Ca",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q41",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "One of the given is not associated with glutamate dehydrogenase activity, deciding the fate of ammonia in N2-metabolism",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glutamic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-KGA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NADPH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q42",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select a correct set of preferred storage forms of nitrogen in a variety of plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glutamine, Asparagine, Ureids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glutamine, Aspartic acid, Ureids and sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glutamic acid, Aspartic acid, Ureids and protein",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glutamine, -ketoglutaric acid and Ureids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q43",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following mineral element is required by meristematic as well as differentiating tissues?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q44",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following element is required for uptake and utilisation of Ca++ ions, membrane functioning and pollen germination?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q45",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Manganese competes with ______ and magnesium for uptake and with ______for binding with enzymes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca, Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe, Mg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe, Mo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca, Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q46",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "What is the similarity between Frankia and Rhizobium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Filamentous structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Live in root nodules of legumes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Free living soil bacteria",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Require nitrogenase to fix N2 in free living  condition",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q47",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one w.r.t. co-factors of pyruvate dehydrogenase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NAD+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lipoic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "TPP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q48",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Deficiency of which mineral element may cause N-deficiency in a plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mo",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 292,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q49",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Nod factor is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Involved in root hair curling",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polyribonucleotide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cluster of genes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Produced by plant only  – and finally reduced to ammonia mainly in",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q50",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Nitrogen is absorbed by plants mainly as NO3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leaves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Roots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vascular tissues",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soil",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q51",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "How many ATP molecules are required to form one molecule of NH3 during N2-fixation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q52",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. nodules formation in legumes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bacteria infects tetraploid cortical cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nod factors are produced by both plants and  bacteria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rhizobium contributes cytokinin and heme  part",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bacteroid is membrane bounded motile stage  as the site of nitrogen fixation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q53",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "________ is required for uptake and utilisation of Ca2+, cell elongation and membrane functioning in plant.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chlorine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sulphur",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q54",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "In plants, amides are transported to other parts of the plant via ________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Xylem vessels",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sieve tube",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phloem parenchyma",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q55",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrectly matched pair w.r.t. N2 fixation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reductive amination – Transaminase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrate reductase – Molybdoflavoprotein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Source of electrons – Ferredoxin  for nitrite reduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fixation of one N2 – Requires 16 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q56",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca – Opening and closing of stomata",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S – Photolysis of water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe – Ferredoxin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mg – Catalase activity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q57",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Manganese toxicity inhibits ________ translocation in shoot apex  2+",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Ca++",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Solute, MoO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca++, Mg++ and Fe++",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N, S and Mo",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q58",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following mineral element is a constituent of thiamine, biotin and ferredoxin?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Magnesium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sulphur",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calcium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Iron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q59",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "First stable product of symbiotic N2 fixation is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amino acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ammonia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q60",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Essential elements as activators of rubisco and nitrogenase respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg & Mo",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg & Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zn & Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mn & Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q61",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Involvement in normal functioning of cell membrane, synthesis of middle lamella, formation of mitotic spindle are functions of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q62",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Sulphur is the main constituent of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Thymine, biotin and coenzyme A",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methionine and cytosine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biotin and coenzyme A",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrogenase, cysteine and thymine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q63",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. translocation of mineral ions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The chief sinks for the mineral elements are the  older regions of the plant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Remobilisation of minerals occur from older to  younger leaves",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The most of the nitrogen travels as inorganic  ions through xylem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Large amount of P and S are carried as  organic compounds through xylem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q64",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The technique of growing plants where the roots are kept in a nutrient solution is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Geoponics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aeroponics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydroponics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phytotron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q65",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is not required by plants in excess of 10 m mole kg–1 of dry matter?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Calcium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Magnesium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Manganese",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phosphorus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q66",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Essential elements are classified into how many broad categories on the basis of diverse functions?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Four",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Seventeen",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sixty",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 293,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q67",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match w.r.t. form and functions of essential elements  Column I Column II  a. Photosynthesis, synthesis (i) Ca2+  of DNA and RNA  b. Constituent of thiamine (ii) Fe3+  and coenzyme A  c. Constituent of cytochrome (iii) Mg2+  and activator of catalase  enzyme  d. Formation of mitotic (iv) S  spindle and cell wall  synthesis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q68",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Deficient element is that element which is present",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "At critical concentration level",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Below the critical concentration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Above the critical concentration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q69",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The deficiency of which one of the following pair of elements will appear first in young leaves?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg and K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N and K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q70",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Entry of ions into the inner space is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Apoplastic pathway",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rapid uptake of ions",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Energy dependent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Energy independent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q71",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the step in nitrogen metabolism which is an oxidative pathway",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrification",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Denitrification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrate assimilation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrogen fixation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q72",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following pair is correctly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NH3  NO2  – : Nitrocystis  – : Aspergillus  –  NO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2  NH3 : Nitrobacter  –  N2 : Nitrococcus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q73",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During nodule formation in leguminous plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only bacteria secrete nod factors",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lectin proteins of bacteria identifies the legume  plant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bacteria infects and forms bacteroid stage in  diploid cortical cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cortical cells divide by hormonal stimulation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q74",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "All the given statements are incorrect, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Clostridium is an aerobic, free living N2 fixer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mature root nodules have no vascular  connection with roots",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both Frankia and Rhizobium are found free  living in soil, but as symbionts, can fix atmospheric N2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The ATP required during N2 fixation by  Rhizobium is supplied by bacteria itself",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q75",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Amides are structural part of proteins in plants and they",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Have low N/C ratio",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Have high N/C ratio",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Have replaced  2 NH part by hydroxyl radicle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q76",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. biological N2 fixation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ATP required is supplied by bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Leghaemoglobin is a product of symbiosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrogenase enzyme is found exclusively in  prokaryotes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Infection thread formation occurs",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q77",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The process of nitrate reduction to ammonia is possible in presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flavoproteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrogenase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transaminase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Choline esterase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q78",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following element with proper function  Column-I Column-II  a. S (i) Metabolism of urea  b. Mn (ii) Nodule formation  c. Ca (iii) Photolytic evolution  of oxygen  d. Ni (iv) Organisation  of mitotic spindle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q79",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The technique of growing plants in soil less culture requires",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pure mineral salts only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Impure water and mineral nutrient salts",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Purified water and mineral nutrient salts",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pure water only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 294,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q80",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During development of root nodules in legumes, bacteria secrete",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nod factors",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q81",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following element is constituent of thiamine, biotin and coenzyme A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q82",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During ammonification, the enzymes used, are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Proteases and nitrogenase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Deaminase and nitrite reductase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Proteases, peptidases and deaminase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrate reductase and deaminase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q83",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The nitrogenase is capable of nitrogen reduction and present",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Exclusively in aerobic prokaryotes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In prokaryotes and some leguminous plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In certain prokaryotes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Exclusively in anaerobic prokaryotes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q84",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During N2-fixation, the energy is obtained from the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Respiration of the host cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Photosynthesis of the host cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Respiration of the N2-fixing microbes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Respiration of host cells and N2-fixing  microbes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q85",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Rhizobium has symbiotic relationship with the roots of all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sweet pea",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gram",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sesbania",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alnus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q86",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. criteria for essentiality of an element",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It must be specific",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The element is indirectly involved in the  metabolism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In absence of the element, the plants show  hunger signs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It must be necessary for reproduction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q87",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "An activator of alcohol dehydrogenase is  2+",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "Zn2+",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "MoO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mg2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q88",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the odd one w.r.t. transamination",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glutamic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glutamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methionine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cysteine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q89",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Essential elements components of energy related chemical compounds in plants, are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca, K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg, P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe, S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N, P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q90",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not associated with nodule formation in leguminous crops?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plants nif gene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytokinins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Auxins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lectins",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q91",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following equation regarding biological nitrogen fixation and select the correct choice  N + 2 (a) (b) c (  ) + +  2NH3 + H2 +  d + 16Pi (a) (b) (c) (d)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 e– 6 H+ 10 ATP 10 ADP",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8 e– 8 H+ 16 ATP 16 ADP",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6 e– 6H+ 10 ADP 10 ATP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8 e– 8 H+ 16 ADP 16 ATP",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q92",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match  Enzyme Activator",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Catalase – Iron",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tyrosinase – Copper",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RNA - polymerase – Zinc",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrogenase – Molybdenum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q93",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following ions stimulate quick release of electrons from water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg++",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ca++",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mn++",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q94",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Elements most readily mobilised are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "P, S & Ca",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N, K & P",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N, P & Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S, Zn & P",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q95",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The enzyme which helps in reductive amination is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glutamate dehydrogenase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Transaminase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-Ketoglutarate dehydrogenase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glutamate synthetase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q96",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Hydroponics has been successfully employed as a technique for the commercial production of vegetables such as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potato and Trifolium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tomato and potato",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tomato, seedless cucumber and lettuce",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chilli and brinjal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 295,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q97",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Some beneficial elements required by higher plants are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogen, carbon, hydrogen, oxygen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Selenium, cobalt, silicon and sodium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iron, copper and chlorine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molybdenum, zinc and manganese",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q98",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Decomposition of organic nitrogen of dead plants and animals into ammonia is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogen fixation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Denitrification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ammonification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q99",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Frankia : free-living in soil",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rhizobium  : root nodules in Alnus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrifying bacteria : chemoautotroph",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rhodospirillum : anaerobic N2-fixing bacteria",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q100",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect option w.r.t. role of iron in plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Activates catalase enzyme",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Essential for chlorophyll formation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Constituent of ferredoxin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Joining of subunits of ribosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q101",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not associated with manganese toxicity in plants?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Appearance of brown spots surrounded by  chlorotic veins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition of calcium transport in shoot apex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Manganese competes with iron and  magnesium for uptake",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Manganese competes with iron for binding with  enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q102",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "What is the fate of nitrate absorbed by plant from the soil?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reduced to nitrogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidised to nitrite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduced to ammonia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oxidised to amide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q103",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Activator for ribulose bisphosphate carboxylase - oxygenase and phosphoenol pyruvate carboxylase is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q104",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following pairs is wrongly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Delayed flowering – N, S, Mo",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inhibition of cell division – Ca, Mo, Cu",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Components of – C, H, O, N biomolecules and cell",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Components of energy – Mg, P related molecules",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q105",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During biological nitrogen fixation by bacteroid of Rhizobium, its enzyme can conduct which  of the following conversion?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 2 3 NH NO NO    ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 3 NO NO NH    ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 2 NO N ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 N NH ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q106",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Bulk or mass flow",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Occurs during long distance transport of water  and minerals but not food",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is achieved through negative hydrostatic  pressure gradient in a ‘garden hose’",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Involves movement of substances from one  point to another as a result of pressure difference between the two points",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q107",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. nitrogenase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synthesized by nif gene of bacteria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is O2 sensitive enzyme",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is made up of two unequal subunits",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Manganese is a component of this enzyme",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q108",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct option w.r.t. most important amides found in plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glutamic acid, aspartic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Asparagine, glutamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Uric acid and urea",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-ketoglutaric acid and glutamic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q109",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Out of the following elements, how many mineral elements are micronutrients and macronutrients respectively?  Mo, S, Mn, Ca, Zn, B, Cu, Ni, Mg",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 & 6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6 & 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 & 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 & 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q110",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Any mineral ion concentration in tissues that  reduces the dry weight of tissues by       A     is  considered       B     . Select the correct option for A and B which can fill the provided gaps.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A – 20 percent, B – Toxic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – 10 percent, B – Toxic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – 10 percent, B – Nontoxic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – 20 percent, B – Nontoxic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 296,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q111",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct option (w.r.t. essential elements function as enzyme activators)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca+2 for alcohol dehydrogenase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn+2 for PEPCo",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe for catalase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mo for Rubisco",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q112",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Four statements (a-d) are given below where the correct are  a. Essential element must be directly involved in the metabolism of the plant  b. Deficiency of a specific element cannot be met by supplying some other element  c. The essential element must be necessary for supporting normal growth and reproduction  d. Plants can set the seeds and reproduce even in the absence of an essential element",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b, c, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b, c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, c, d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q113",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "a. Hydroponics is a technique of growing plants in a nutrient solution  b. Hydroponics involves exposure of plant root to a mist of nutrient solution  c. Roots are exposed to direct light during hydroponics to induce the growth of algae  d. Purified water and mineral nutrient salts are used in hydroponics",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "c & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & d are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q114",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During absorption of elements by isolated cells, tissues or organs, the initial uptake",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is rapid process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Occurs in inner space",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Occurs through ion channels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q115",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Elements whose essentiality is restricted to only some specific plants are called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Critical elements",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Macronutrients",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Beneficial elements",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q116",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Essential elements are grouped into _____ broad categories on the basis of function while these elements divided into _______ broad categories based on their quantitative requirements.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Four, One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Three, One",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Four, Two",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Three, Two",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q117",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Fill in the blanks from the given below options  Frankia  Rhizobium  Nitrogen fixation  Symbiotic   A  Plants associated  B  Legumes  CO fixation 2  Absent  C  A B C",
+    "question_diagram": "/images/last_leap_part2/p297_q117.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Symbiotic Non-legumes Absent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Symbiotic Legumes Absent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Free living Non-legumes Present",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Symbiotic Legumes Present",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q118",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Number of ATP molecules required for the fixation of one N2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "24",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "32",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q119",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Inhibition of cell division is due to the deficiency of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N, P, Co",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N, K, Mg, Si",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N, K, S, Mo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca, Mg, Cu, Na",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q120",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "How many organisms in the list given below are free living nitrogen-fixing aerobic?  Rhizobium Beijernickia  Rhodospirillum Azotobacter  Frankia",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q121",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following cannot be a feature of micronutrient?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maintain ribosome structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Activator of catalase, aconitase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Activator of nitrogenase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pollen germination",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q122",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "In biological and industrial nitrogen fixation, nitrogen is converted into",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ammonia",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amino acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q123",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "During fixation of 2 molecules of nitrogen (N2), how many ATP and how many ammonia will be required and produced respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "32 and 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16 and 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "32 and 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "64 and 8",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 297,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q124",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "A + B + NADPH  Enzyme C + H2O + NADP  The above given reaction is of reductive amination of nitrogen metabolism, what will be appropriate substrate and product at the place of A, B and C respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-ketoglutaric acid, NH4  + and glutamine  + and asparagine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aspartic acid, NH4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-ketoglutaric acid, NH4  + and glutamate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-ketoglutaric acid, N2 and glutamic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q125",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The soyabeans export the fixed nitrogen mainly as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glutamate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glutamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ureides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Asparagine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q126",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following categories are utilised for grouping of essential elements?  a. Components of biomolecules  b. Part of energy-related biomolecules  c. Activator or inhibitor of enzymes  d. Alter the osmotic potential of a cell",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & b only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & d only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q127",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Characteristic feature of chlorine deficient plants is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Premature leaf abscission",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stunted and thickened near root tips",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Necrotic leaf tips",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Distorted and small leaves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q128",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "Choose odd one w.r.t. chief sink for mineral ions",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lateral meristems",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Storage organs, fruits",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Older leaves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flowers, apical meristems  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q129",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "On the basis of given equation, identify the substrate ‘A’?  A + Glutamic acid Transaminase Aspartate + -KGA",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pyruvic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxaloacetic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Succinic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Citric acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secA_q130",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section A (Objective)",
+    "question_text": "The root nodules of leguminous plants contain",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrite reductase and haemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nitrate reductase and Nitrobacter",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nitrogenase and leghaemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nitrogenase and nitrite reductase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secB_q1",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Leghemoglobin protects nitrogenase from  oxygen.\nReason (R): It creates low partial pressure of oxygen near  to nitrogenase.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secB_q2",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Heterocyst is pale coloured, nitrogenase  containing cell specialised for nitrogen fixation.\nReason (R): Thick wall of heterocyst is impermeable for O2  and permeable for N2.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_05_mineral_nutrition_secB_q3",
+    "subject": "Botany",
+    "chapter": "Mineral Nutrition",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Only few prokaryotic species can utilise the  nitrogen in molecular form.\nReason (R): It is an energy intensive process.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 298,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

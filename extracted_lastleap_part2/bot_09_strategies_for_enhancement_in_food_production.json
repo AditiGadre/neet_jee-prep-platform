@@ -1,0 +1,3712 @@
+[
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q1",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Sum total of all the diverse alleles for all the genes in a given crop is called germplasm. Germplasm of a crop will not consists of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wild relatives and desi varieties",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Improved varieties presently under cultivation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heterozygous lines produced by plant breeders",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Superior varieties not being cultivated now",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q2",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Conventional method of breeding for disease resistance involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mutation and introduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polyploid breeding and tissue culture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Genetic engineering and mutation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hybridisation and selection",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q3",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In maize, resistance to stem borer and in cotton resistance to jassids is achieved by which of the following characteristics respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Morphological and genetical",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Physiological and physiological",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biochemical and morphological",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Genetical and biochemical",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q4",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Wider adaptation, uniform seed quality, greater stability is shown by the varieties produced through",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pure line selection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Clonal selection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Homozygous selection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mass selection",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q5",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Nobel cane production is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intravarietal hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Intervarietal hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intrageneric hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intraspecific hybridisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q6",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. SCP?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Quantitatively and qualitatively superior proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Production involves utilisation of organisms  which has high rate of biomass production and growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can be obtained from both unicellular and  multicelullar organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "250 g of Methylophilus methylotrophus can  produce 20 tonnes of protein per day",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q7",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. green manuring",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Quick growing leguminous plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Checks weed growth and soil erosion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reclamation of alkaline soils",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consist of mixture of cattle dung and crop  residues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q8",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Plants whose seeds are used for obtaining biodiesel are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Soyabean, Cluster bean",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peanut, Euphorbia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Soyabean, Milkweed",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Euphorbia, Brickellia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q9",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is problem associated with energy cropping?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Plant utilized for energy cropping are less  efficient as CO2 fixers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Less ecofriendly",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High cost of production and diversion of  agriculture to alcohol generation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enhance the amount of food available",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q10",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a variety of Brassica resistant to insect pests?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pusa Sawani",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa Sadabahar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa Swarnim",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa Gaurav",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 337,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q11",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Callus culture",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Must be constantly agitated at 100–250 rpm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Grows much faster than suspension culture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Medium contains 2,4-D and BAP",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consists of single cells and small groups of  cells suspended in a liquid medium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q12",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Nobel Prize winner Norman E. Borlaug of International Centre for Wheat and Maize Improvement in Mexico developed semi-dwarf variety of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wheat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maize",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q13",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In cotton _________ and _________ characters are associated to resistance for jassids and bollworm respectively.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High nitrogen and low sugar content",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Smooth leaves and solid stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nectar less varieties and hairy leaves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hairy and smooth leaves",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q14",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "All given below are natural adaptations of plants against insect pests, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solid stem in wheat against stem sawfly",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Smooth leaved and nectar-less cotton varieties  do not attract bollworms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low aspartic acid and high nitrogen content in  maize against borer insects",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hairy leaves in cotton against jassids",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q15",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given plant is a source of biodiesel?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Jatropha curcas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zea mays",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Parthenium argentatum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Simmondsia chinensis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q16",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrectly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wheat – Himgiri",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica – Pusa Sawani",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cowpea – Pusa Komal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bhindi – Prabhani kranti",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q17",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Glucosinolates, the antinutritional factors, are present in oils obtained from ________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lathyrus sativus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica napus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Helianthus annus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Arachis hypogea",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q18",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Protoplasts of two somatic cells can be made to fuse together with the help of _________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrofusion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PEG",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Physiological fusion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q19",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In India plant introductions are governed by __________",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ICRISAT",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NBRI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NBPGR",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CSIR",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q20",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A dwarfing gene Norin-10 was reported in  Japan",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A dwarfing gene dee-geo-woo-gen, was  reported in Taiwan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Triticale is intrageneric hybrid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Jaya and Ratna varieties of rice were developed  in India",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q21",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following techniques offer vast potential for manipulation of plants in-vitro to produce new varieties?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hybridisation and selection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tissue culture and somatic hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conventional breeding and introduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polyploid breeding and hybridization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q22",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one w.r.t. vitamin A enriched variety developed by IARI",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carrots",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pumpkin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mustard",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Spinach",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q23",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following antinutritional factor is responsible for causing lathyrism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucosinolate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Erucic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyanoalanine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chlorellin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q24",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "First somatic hybrid was obtained by Carlson et al in __________.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Raphanobrassica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Triticale",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tobacco",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potato",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q25",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a green manure crop?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Trifolium alexandrianum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Crotolaria Juncea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyamopsis tetragonoloba",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Capsella bursa-pastoris",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q26",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Cultivation of petrocrops was done first of all by_______",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Italians",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Russians",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Germans",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Indians",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q27",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Most common petrocrops are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Euphorbia antisyphilitica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cannabis sativa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Calotropis procera",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 338,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q28",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Single cell protein is useful in all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Provides much needed proteins",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduces environmental pollution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Provides poor fat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reduces the pressure on agricultural  production system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q29",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Agricultural loss due to pests is generally about",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q30",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column I Column II  (Varieties) (Method of Development)  a. Pomato (i) Mutation breeding  b. NP 836 (ii) Polyploid breeding  c. ADT-37 (iii) Somatic hybridization  d. Triticale (iv) Interspecific hybridisation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q31",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "The minimum number of growing seasons of new selected lines in farmers fields before commercialization is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q32",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following periods represent the correct phase of Green Revolution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mid 1950s",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mid 1960s",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mid 1990s",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mid 1980s",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q33",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not correctly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Semi-dwarf wheat — Mexico",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IR – 8 — Philippines",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Jaya — Taiwan",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ratna — India",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q34",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is false?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The capacity to generate a whole plant from  any cell is called totipotency",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In tissue culture the nutrient medium must  provide a carbon source such as sucrose, nitrogen source such as urea, vitamins and growth regulators like auxins, cyctokinins",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "When a plant is infected with virus, the  meristem (apical and axillary) is free of virus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Somatic hybrids are obtained by fusing isolated  protoplasts from two different varieties of plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q35",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Pusa shubhra is a variety of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cauliflower resistant to white rust",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cauliflower resistant to black rot",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chilli resistant to chilli mosaic virus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Brassica resistant to white rust",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q36",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Himgiri variety of wheat is resistant to leaf and  stripe rust disease",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa Sawani 2 variety of Bhindi has developed  resistance against shoot and fruit borer insect pests",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa Gaurav variety of Brassica is resistant to  Aphids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High aspartic acid, low nitrogen and sugar  content in maize leads to resistance to maize stem borers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q37",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct match of following crops w.r.t. diseases and insect/pest resistance  Column I Column II  a. Chilli (i) Pusa Sawani  b. Mustard (ii) Pusa Shubhra  c. Okra (iii) Pusa Swarnim  d. Cauliflower (iv) Pusa Sadabahar",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q38",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorect statement w.r.t. inbreeding depression",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is associated with loss of vigour",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Appearance of a number of defective traits in  normally self pollinated plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It occurs due to increase in homozygosity in  recessive alleles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A majority of cross pollinated crops and all  animals show inbreeding depression",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q39",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is incorrect w.r.t. SCP?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The biomass is obtained from unicellular and  multicellular micro-organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High quality of protein and low quantity of fats  constitute good human food",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It minimises environmental pollution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biomass is obtained from multicellular  microorganisms only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 339,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q40",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select an incorrect match w.r.t. resistant varieties of common crops",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pusa swarnim – Cauliflower",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa komal – Cow-pea",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Himgiri – Wheat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa gaurav – Brassica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q41",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one out w.r.t. green manure",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reduces soil alkalinity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prevents soil erosion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increases C/N ratio in soil",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increases crop yield by 30-50% as compared  to farmyard manure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q42",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following plant variety is resistant to yellow mosaic virus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Himgiri",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa komal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Prabhani kranti",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa swarnim",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q43",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Plant part used for tissue culture is called explant. It is sterilized by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Antimicrobial chemicals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Steam",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dry heat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q44",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Cereals are generally deficient in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tryptophan and lysine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methionine and cysteine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cysteine and lysine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Methionine and tryptophan",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q45",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following feature of maize can result in resistance to maize stem borers?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low aspartic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low sugar and high nitrogen content",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High aspartic acid and low nitrogen content",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High nitrogen and sugar content",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q46",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Cyanoalanine",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is present in khesari dal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is long chain saturated fatty acid producing  heart defects",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Results in favism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Free lines are Canola and Hoya",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q47",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Pomato is not suitable for its commercial utilisation because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its cultivation is expensive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "This plant did not have all the desired  combination of characteristics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is resistant to number of plant pathogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q48",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match w.r.t. variety  Crop Variety",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cowpea – Pusa Swarnim",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chilli – Pusa Sadabahar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cauliflower – Pusa Shubhra",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Wheat – Himgiri",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q49",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "N. Borlaug of Mexico produced triple dwarf wheat with all superior characters except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smaller growth period",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High lysine and tryptophan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High yield",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resistance for lodging and common pests and  pathogens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q50",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "High aspartic acid, low nitrogen and sugar content leads to resistance against stem borers in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wheat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cotton",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maize",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Brassica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q51",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "The high yielding and disease resistant varieties of wheat introduced all over the wheat growing belt of India are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Jaya and Ratna",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sonalika and Ratna",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kalyan Sona and Sonalika",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kalyan Sona and Himgiri",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q52",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Apical and axillary meristem can be induced to grow in-vitro to specifically raise",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Early growing plant varieties",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Virus free plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plants with tolerance against environmental  factors",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Plants with high yield",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q53",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In the period of 40 years between 1960 to 2000 production of wheat increased by 600%. This was due to the development of semi-dwarf varieties of wheat such as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Jaya",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kalyan Sona",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa Komal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Himgiri",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q54",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Cotton plant is resistant to jassids due to presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smooth leaves",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solid stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hairy leaves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High amount of aspartic acid in stem",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 340,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q55",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following explant can be utilised for producing virus free plants through tissue culture?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Apical meristem",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anther",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Axillary bud",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q56",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Many high yielding wheat varieties introduced in all wheat growing belt of India in 1963, are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sonalika and Lerma Rojo-64",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kalyan Sona and NP-836",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kalyan Sona and Sonalika",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Jaya and Ratna",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q57",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Different varieties of plants are given that are resistant against diseases and insect pests, where the varieties of Brassica are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pusa Swarnim, Pusa Gaurav",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa Gaurav, Pusa Sem 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa Sawani, Pusa Komal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa Sadabahar, Himgiri",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q58",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match (w.r.t. variety and their resistance to pests/disease)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pusa Gaurav, Pusa Sem 2 – Aphids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa Swarnim – Leaf curl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa Sawani – Fruit borer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa Sadabahar – Chilly mosaic virus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q59",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column I with column II  Column I Column II (Variety) (Plant)  a. Lerma Rojo-64 (i) Cotton  b. Ratna (ii) Barley  c. Indore-2 (iii) Wheat  d. Erectoids (iv) Rice",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q60",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which varieties were brought to India from Mexico and modified through gamma mutation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PV-18 and NP 836",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sonalika and Jaya",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sonora 64 and Lerma Rojo",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ganga and Sonalika",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q61",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect match w.r.t. single cell protein",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fungi – Candida utilis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Algae – Scenedesmus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bacteria – Trichoderma viride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BGA – Spirulina",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q62",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match with respect to crop, variety and resistance to diseases  Crop Variety Resistance to diseases",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chilli Pusa komal Chilly mosaic virus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica Pusa sadabahar White rust",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cauliflower Pusa shubhra Black rot",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Wheat Pusa swarnim Leaf and stripe rust",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q63",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "First man made cereal crop is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oryza sativa",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Triticale",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Raphanobrassica",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pomato",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q64",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Breeding of crops with higher level of vitamins and minerals, or higher protein and healthier fats is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Micro-propagation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biofortification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Somatic hybridization",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tissue culture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q65",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Capacity to generate a whole plant from any cell/explant is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Regeneration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rejuvenation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Totipotency",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Propagation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q66",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "India is mainly an agricultural country. Agriculture accounts for approximately __________ of India’s GDP and employs nearly __________ of the population.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "22 percent, 43 percent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "33 percent, 62 percent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "62 percent, 33 percent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "63 percent, 33 percent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q67",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Resistance of maize to stem borer is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low nitrogen content",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High aspartic acid content",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low sugar content",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q68",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the root and tedious process of any plant breeding programme respectively?  a. Selection of parents  b. Collection of variability  c. Cross hybridisation  d. Testing of superior recombinants  e. Commercialisation of new cultivars",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "c, d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "d, e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 341,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q69",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In mung bean, mutation breeding has provided resistance against",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Yellow mosaic virus and powdery mildew",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "White rust and bacterial blight",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Leaf and stripe rust",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leaf curl and bacterial blight",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q70",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Biofortification includes the improvement in all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vitamin content",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Micronutrient content",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Carbohydrate content",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protein content",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q71",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Find correct match (column-I with column-II)  Column I Column II  (Crop variety) (Disease resistance)  a. Pusa shubhra (i) White rust  b. Pusa sadabahar (ii) Black rot  c. Pusa swarnim (iii) Hill bunt  d. Himgiri (iv) TMV",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iv), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iv), c(iii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(ii), c(i), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(iii), c(ii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q72",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correctly matched w.r.t. development of crop variety?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kalyan Sona (wheat) – Mass selection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ADT-37 (rice) – Mutation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Remei and Jagannath (rice) – Hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rice guan-18 – Androgenic haploid culture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q73",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Variety of okra (Bhindi) resistant to shoot and fruit borer insects is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pusa Sawani",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa Komal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa Sem 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa Gaurav",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q74",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. SCP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alternate source of proteins for human and  animal nutrition",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Can be grown on waste material",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Decreases environmental pollution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "250 g of Methylophilus methylotropus produces  250 tonnes of protein",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q75",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "The entire collection of plants/seeds having all the diverse alleles for all the genes in a given crop is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gene cloning",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Germplasm collection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "cDNA library",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Biofortification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q76",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Semi-dawrf rice varieties are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Jaya and Ratna",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Atomita and Lerma Rojo",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kalyan Sona and Jaya",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ratna and Norin-10",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q77",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In Mung bean, resistance to yellow mosaic virus and powdery mildew were induced using",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hybridization",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Selection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mutation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Germplasm collection",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q78",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In wheat, stem sawfly unable to cause destruction of crop due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low nitrogen and sugar content",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hollow stem",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solid stem",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nectarless flowers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q79",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct match  Crop Variety Resistance to disease",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wheat Atlas-66 Hill bunt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica Pusa komal Black rot",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cowpea Pusa swarnim White rust",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chilli Pusa sadabahar Leaf curl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q80",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statement and select the right choice  a. Semi-dwarf varieties, Jaya and Ratna were developed in IRRI, Philippines.  b. Classical plant breeding involves crossing or hybridisation of pure lines.  c. Saccharum barberi was originally grown in South India.  d. Genetic variability is the root of any breeding programme.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only a is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b, c & d are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 342,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q81",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "During biofortification, breeding for improved nutritional quality is undertaken with objective of improving all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Micronutrient and mineral content",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oil quality",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protein content and quality",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vitamin quality",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q82",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect statement w.r.t somatic hybridisation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isolated protoplast from two different varieties of  plants can be fused to get hybrid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The somatic hybrid may be synkaryon or  heterokaryon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Naked protoplasts are isolated using hydrolytic  enzyme protease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The protoplasts are fused using chemicals i.e.  PEG.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q83",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select odd one w.r.t SCP",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Spirulina",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methylophilus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mushrooms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Frankia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q84",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In mung bean, resistance to powdery mildew was introduced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polyploidy breeding",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mutation breeding",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Genetic engineering",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hybridisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q85",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Somaclones are produced by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Micropropagation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mutation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polyploidy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hybridisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q86",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "If we were to list the traits that the breeders have tried to incorporate into crop plants, the first preference would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increased tolerance to insects, pests and  extreme temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increased crop yield and tolerance to extreme  temperatures",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Improved quality and increased crop yield",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resistance to pathogens and tolerance to high  salinity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q87",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct match w.r.t. crop variety for their disease resistant.  Column I Column II  a. Pusa Komal (i) Tobacco mosaic virus  b. Pusa Sadabahar (ii) Black rot  c. Pusa Shubhra (iii) White rust  d. Pusa Swarnim (iv) Bacterial blight",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q88",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Interspecies as well as intergeneric plants hybrids are produced by which of the tissue culture methods?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gynogenic culture",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Meristem culture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Androgenic culture",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Somatic hybridization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q89",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "The entire collection of plants/seeds having all the diverse alleles for all genes in a given crop is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Genome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Genepool",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Germplasm collection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gene flow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q90",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "In the given cross, breeder is selecting the organisms which are given in blocks. What kind of selection is being performed by plant breeder?  Tt  × Tt P gen  TT  tt F gen 1 Tt  TT ×  TT  tt ×  tt  F gen 2  TT  tt",
+    "question_diagram": "/images/last_leap_part2/p343_q90.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Mass selection",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pure line selection",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Clonal selection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Selection of hybrid vigour",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q91",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Select odd one out w.r.t. pest or insect resistance",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pusa gaurav",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pusa sawani",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pusa sem-2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pusa swarnim",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q92",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Haploids are of great importance in crop improvement because they",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Are useful in study of meiosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Grow better in acidic condition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Do not express mutation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Give homozygous lines after colchicine  treatment",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q93",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ADT-37 is intergeneric variety",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A dwarfing gene dee-geo-woo-gen was reported  in Taiwan and introduced in rice varieties by IRRI, Philippines",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A neurotoxin glucosinolate is present in  Khesari and causes lathyrism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Atlas 66 is a protein rich variety of rice",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q94",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which part of a plant is best suited for making virus-free plants through tissue culture?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Apical meristems",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Axillary meristems",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Haploid part like anther",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 343,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q95",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is the incorrectly matched?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leaf rust of wheat – Puccinia recondita",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tikka disease of groundnut – Fusarium udum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "White rust of crucifers – Albugo candida",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Late blight of Potato – Phytophthora infestans",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q96",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statement is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gene norin 10 was reported in Japan",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IR-8 was developed at IRRI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Saccharum barberi was originally grown in  North India",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Saccharum officinarum has lower sugar  content",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q97",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "The Indian Agricultural Research Institute, New Delhi has released vitamin C fortified varieties of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mustard, bathua and bitter gourd",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spinach, pumpkin and bathua",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bitter gourd, tomato and carrot",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lablab, mustard and spinach",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q98",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is wrong?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.5 g of Methylophilus methylotrophus can be  expected to produce 0.25 tonnes of protein per day",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hybrid breeding have led to the development of  several high yielding varieties of millets to water stress",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Brown rust of wheat and black rot of crucifers  diseases are caused by fungal pathogens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Smooth leaved and nectar-less cotton varieties  do not attract bollworms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q99",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "The Indian Agricultural Research Institute, New Delhi has released vitamin C, calcium and iron fortified variety of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pumpkin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bathua",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Spinach",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carrots",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secA_q100",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Green revolution was dependent to a large  extent on plant breeding technique",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The selection of superior recombinants is  crucial to the success of the breeding objective",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Crop varieties like PV-18, HUW-468 and ADT-  37 developed by inbreed selection",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Saccharum barberi was originally grown in  North India, but had poor sugar content and yield  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secB_q1",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cross hybridization for raising superior varieties  is a time consuming and tedious process.\nReason (R): Usually one in few hundred to a thousand  crosses shows the desirable combination.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secB_q2",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Heterosis is superiority of F1 hybrid over  parents.\nReason (R): It is due to supression of dominant allele by  recessive allele.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secB_q3",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Atomita-2 variety of wheat was produced by  gamma treatment.\nReason (R): Reimei variety of rice is also produced by  gamma treatment.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secB_q4",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Effectiveness of hybridization determines the  success of a breeding experiment.\nReason (R): Hybridization is the oldest practice of crop  improvement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secB_q5",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Somatic hybrids by fusing tomato and potato  have been achieved.\nReason (R): It provided all the desired combination of  characteristics for commercial utilization.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_09_strategies_for_enhancement_in_food_production_secB_q6",
+    "subject": "Botany",
+    "chapter": "Strategies for Enhancement in Food Production",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Recombinant progeny obtained in plant  breeding are self pollinated for several generation.\nReason (R): It helps to prevent segregation of characters in  the progeny.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 344,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

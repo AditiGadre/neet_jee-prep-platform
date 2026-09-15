@@ -1,0 +1,1432 @@
+[
+  {
+    "question_id": "chem_16_polymers_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is biodegradable polyamidepolymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PHBV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nylon 2, 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cellulose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Terylene is copolymer of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Terephthalic acid and ethylene glycol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adipic acid and Hexamethylene diamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Caprolactum and tetramethylene diamine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Terephthalic acid and ethylene diamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Polymers which on heating in a mould become infusible and form hard mass are called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Elastomers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fibres",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Thermoplastics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Thermosetting polymers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which is a homopolymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Perlon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dacron",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bakelite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glyptal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Natural polymer is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polyester",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nylon-6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Starch",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellulose diacetate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is cross-linked polymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Teflon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nylon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Orlon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bakelite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Monomer of neoprene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isoprene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chloroprene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Butadiene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Vinylacetylene  OH  HCHO (small amount)  A (Linear polymer)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "HCHO (Excess)  B (Cross linked polymer)  Identify A and B.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bakelite, Novolac",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Novolac, Bakelite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bakelite, Bakelite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Novolac, Novolac",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not correct regarding condensation polymerisation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of at least two functional groups in  monomer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stepwise slow addition",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polypropylene is a condensation polymer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalyst is not necessary  tail  head  2 COOH — ) CH ( — N H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": ") x . wt mol (   +  n 2    tail  head    Product  OH — ) CH ( — HOOC  m 2    ) y . wt mol (  If product has mol. wt. (x + y – 18), then it is an example of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Head to head condensation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Head to tail condensation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tail to tail condensation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is chain growth polymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nylon-6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nylon-6,6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polypropylene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glyptal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 173,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Perspex (Plexiglas) is a polymer of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methyl methacrylate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methyl acrylate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methyl acrylonitrile",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acrylonitrile",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Nylon-6,6 is a strong crystalline fibre due to presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Covalent bonds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Peptide linkages",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H-bonding",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Long chain",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "The monomer of nylon-6 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Caprolactum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adipic acid and hexamethylene diamine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethylene glycol and phthalic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phenol and formaldehyde",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following products are formed by polymerisation of phenol and formaldehyde?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bakelite",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Novolac",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Malamine-formaldehyde polymer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reaction;  HCC—CH=CH2        HCl . eqv 1  A         tion Polymerisa  B  Compound (B) is used as superior resistant to vegetable and mineral oil, it is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polyvinyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chloroprene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neoprene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polyisoprene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "A synthetic textile fibre in common use today contains in it repeating units of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Terephthalic acid and glycol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2 = CH – Cl and glycol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hexamethylene diamine and glycol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Terephthalic acid and hexamethylene diamine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not true about polymers?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polymers do not carry any charge",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PHBV is a biodegradable polymer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polymers contain repeating unit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polymers have low molecular weight",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following act as chain transfer agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Carbon tetrachloride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Amines",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Quinol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phenols",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the wrong statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eye lens are manufactured by PMMA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monomer of both natural rubber and gutta  percha is isoprene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bakelite is a condensation polymer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Glucose and fructose can be distinguished by  Tollen’s reagent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "The repeating unit of Nylon-6,6 is",
+    "question_diagram": "/images/last_leap_part2/p174_q21.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "[CO – (CH )  NH  CO  (CH )  NH] 2 4 2 4 n – – – –",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[NH – (CH )  NH  CO  (CH )  CO] 2 6 2 6 n – – – –",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[CO – (CH )  NH  CO  (CH )  NH] 2 6 2 6 n – – – –",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[NH – (CH )  NH  CO  (CH )  CO] 2 6 2 4 n – – – –",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "In which polymer strength of intermolecular force is strongest?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rubber",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PVC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nylon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polystyrene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "For the polymer shown below  ( CH   2 – CH = C – CH ) 2 n  , monomer used is  Cl",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neoprene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isoprene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloroprene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not an addition polymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neoprene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Orlon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Teflon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bakelite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Polymer used in bullet-proof windows is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PMMA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lexan",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nomex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kevlar  CH3 1,4 – cis addition  1,4 – trans addition A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "H C    C   CH   CH 2 2  B  A and B respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gutta percha, gutta percha",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Natural rubber, natural rubber",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gutta percha, natural rubber",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Natural rubber, gutta percha",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 174,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect match?",
+    "question_diagram": "/images/last_leap_part2/p175_q27.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Dacron :  O O  OCH – CH O – C –       – C 2 2  n",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nylon 6,6 :  O O  NH – (CH  – NH – C – (CH ) – C 2 2 4  )6  n  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Neoprene : CH – C = CH – CH 2 2  n",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Teflon : CF – CF 2 2 n",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Polyethene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Addition polymer",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synthetic polymer",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Natural polymer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not thermoplastic polymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polyethene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polystyrene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PVC",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bakelite",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Glyptal is classified as a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polyolefin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polyester",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polyamide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polyether",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is a protein fibre?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cotton",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Silk",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rayon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polyester",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "The monomer unit of orlon is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Allyl cyanide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acrylonitrile",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vinyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which monomer will give radical polymerisation most readily?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2= CH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3 – CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5 – CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 – C = CH2  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an example of step growth polymer?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neoprene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PVC",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nylon-6, 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Buna - S",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "The monomer of the polymer PMMA (polymethyl methacrylate) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2 = CH – COOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2 = CH – COOC2H5  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH = C – COOCH 2 3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH = C – COOH 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following is the repeating unit of Neoprene?",
+    "question_diagram": "/images/last_leap_part2/p175_q36.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – C = CH – CH 2 Cl CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – C = CH 2 CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH – C = CH – CH 2 2 Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH – C = CH – CH 2 2 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 175,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Bakelite is hard and possesses high melting  point.\nReason (R): H-bonding is present among the particles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Vulcanisation of rubber is heating of synthetic  rubber with sulphur.  \u0002\u0003 \u0002\u0003 \u0002\nReason (R): Stiffness is lost in vulcanisation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): A plasticizer makes the polymer soft.\nReason (R): A plasticizer is a non-volatile liquid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_16_polymers_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Polymers",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Nylon-2,6 is a biodegradable polymer.\nReason (R): Glycine is one of the monomers of nylon-2,6.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 176,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

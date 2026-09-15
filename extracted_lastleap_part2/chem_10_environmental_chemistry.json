@@ -1,0 +1,677 @@
+[
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The pollutant released in Bhopal gas tragedy was",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mustard gas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Methyl isocyanate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrogen sulphide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bromine vapours",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The photochemical smog can be suppressed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrogen oxide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrocarbon",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Radical trap",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formaldehyde",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Due to atmospheric pollution, rain water becomes",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Acidic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Basic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amphoteric",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neutral",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The water pollution can be checked by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BOD",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "COD",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "pKw",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Ozone depletion occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropospheric pollution",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stratospheric pollution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Air pollution",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Photochemical smog",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "pH of acid rain is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5.6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less than 5.6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than 5.6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is present in maximum amount in acid rain?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HNO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2CO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The smog is essentially caused by the presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2, O3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O2, N2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxide of N and S",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O3, N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "The most abundant hydrocarbon pollutant is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Methane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ethane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Propane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Butane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "‘White lung cancer’ is caused by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Asbestos",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Silica",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Textiles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Paper",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Excessive accumulation of organic matter in H2O bodies leads to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Decrease in species diversity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in species diversity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Green house effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No effect on species diversity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Greenhouse effect is due to the presence of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "He layer in the atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Infrared light reaching the earth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxygen in atmosphere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2 layer in the atmosphere",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 109,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is/are correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PAN is a powerful lacrimator, it causes tears  in eyes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2 in the presence of sunlight produces  smog",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A carcinogen is material that causes cancer",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these statements are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Excess of which of the following in drinking water is the cause of ‘blue baby’ syndrome?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nitrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sulphate",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fluoride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Iron",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Green chemistry deals with the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Production of green vegetables",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reduction in the production of pollutants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Study of ozone hole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Waste management",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section A (Objective)",
+    "question_text": "Viable particulates in atmosphere is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mist",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fumes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Smoke",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fungi  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Both SO2 and NO2 are major components of  air pollution.\nReason (R): SO2 forms reducing smog while NO2 is a  component of oxidising smog.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): For green house effect, presence of green  plants is essential.\nReason (R): Chlorophyll of the green plants causes green  house effect.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_10_environmental_chemistry_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Classical smog is oxidizing in nature.\nReason (R): Classical smog is caused by NO2.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 110,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

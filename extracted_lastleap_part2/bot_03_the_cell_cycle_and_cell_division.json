@@ -1,0 +1,5567 @@
+[
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q1",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The sequence of events by which a cell duplicates its genome, synthesises other constituents of the cell and eventually divides into two daughter cells is termed as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Karyokinesis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Karyochorisis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cell division",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q2",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Cells at the end of prophase, when viewed under the microscope, do not show",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Golgi bodies and ER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nucleolus and nuclear membrane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromosome and centromere",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q3",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The anaphase is characterised by the following key events, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Centromere of each chromosome is pointing  towards the pole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chromosomes move to opposite poles",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chromatids of chromosome separate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Appearance of isobrachial chromosome as  V-shaped structures",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q4",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose correct statements regarding the meiosis I",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It involves pairing of homologous chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Four haploid cells are formed",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It does not involve DNA replication before  karyokinesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaphasic separation of chromatids lead to  reduction in chromosomes number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q5",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which phase of heterotypic division in mammals can last for months or years?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leptotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diplotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diakinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q6",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The diploid cell of a self conscious primate has 6 pg DNA. What would be the DNA content in the cell at G2-phase of interphase during cell cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "12 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "24 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q7",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "How many meiosis are required to form 100 pollen grains from microspore mother cells?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "100",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q8",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Meiosis II is said to be similar to mitosis, however the two differ in some aspects like  a. In meiosis II, the two daughter cells formed from each cell are generally genetically different  b. Meiosis II is initiated immediately after cytokinesis  c. In animals, mitosis takes place in both haploid and diploid cells  d. Synaptonemal complex is formed in meiosis II  e. Centromere does not divide in meiosis II  The correct statements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, d & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, c & e",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & b",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "b & e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q9",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "What is incorrect for the cells that are in quiescent stage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "These cells do not divide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cells in this stage are metabolically not active",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heart cells exhibit this stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "These cells exit G1 phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 265,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q10",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement w.r.t cell division",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ribonuclease suppresses prophase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In meiosis-II number of chromosomes as well  as amount of DNA is reduced to half",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "When a cell grows its karyoplasmic ratio  decreases, which leads to cell division",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nuclear membrane reappears during telophase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q11",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "G1 phase corresponds to the interval between mitosis and initiation of DNA replication. During G1 phase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell replicates its DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2C DNA increases to 4C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNA replication begins in the nucleus and  centriole duplication in cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell is metabolically active",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q12",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Final stage of meiotic prophase-I is marked by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Terminalisation of chiasmata",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dissolution of synaptonemal complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Appearance of tetrad",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Crossing over",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q13",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If the initial amount of DNA is 2C and number of chromosomes in the cell is 24. What would be the amount of DNA and number of chromosomes in same dividing cell in G2 phase ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2C, 48",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4C, 48",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4C, 24",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2C, 24",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q14",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "In oocytes of some vertebrates, which of the following stages in meiosis can last for years?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leptotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diplotene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q15",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Some events of cell cycle are given below  a. Duplication of centriole  b. Tubulin synthesis  c. Formation of synaptonemal complex, and  d. Decondensation of chromosomes  Find the stages of cell cycle where these events take place respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G2 phase, G2 phase, Zygotene, Diakinesis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S phase, G2 phase, Zygotene, Telophase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S phase, G1 phase, Diplotene, Telophase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G1 phase, G2 phase, Pachytene, Diakinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q16",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "How many total mitotic divisions are required to produce 124 root cells?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "31",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "124",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "123",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "62",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q17",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Cell division associated with repairing and healing is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amitosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mitosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Meiosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q18",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Nuclear envelope degenerates during organisation of spindle in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Eumitosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dinomitosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Karyochorisis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amitosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q19",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose odd one w.r.t. mitogen",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Auxin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cytokinin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibberellins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colchicine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q20",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect pair",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synapsis - Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synaptonemal complex - Leptotene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Crossing over - Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Terminalisation - Diakinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q21",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose correct statement regarding meiosis from given statements  (i) Poleward movement of dyads occurs during anaphase I  (ii) Meiosis II involves separation of chromatids  (iii) DNA synthesis takes place in interkinesis  stage",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(i) and (ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(i) and (iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(i) only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(i), (ii) and (iii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q22",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect statement w.r.t. cell cycle  (a) Cell is metabolically active in antephase  (b) Centriole duplicates in S-phase along with DNA  replication  (c) Chromosome number becomes double in  S-phase  (d) Interphase represents the phase between two  successive M phase  (e) M-phase lasts more than 95% duration of cell  cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) and (c)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(c) and (e)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(c), (d) & (e)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(b), (c) & (e)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 266,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q23",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Dividing cells at the end of prophase when viewed under the microscope do not show all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleolus and nuclear membrane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endoplasmic reticulum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Condensed chromosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q24",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "What is the amount of DNA in metaphase stage of a meiocyte if a microspore of the same plant has 30 pg DNA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "30 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "60 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q25",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Mitosis in higher group of plants is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anastral and acentric",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anastral and centric",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amphiastral and centric",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Amphiastral and acentric",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q26",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Poleward separation of homologous chromosome without centromere division occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaphase I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metaphase II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q27",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "What would be the DNA content in a diploid cell at anaphase-I if its egg cell has 10 pg DNA?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q28",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Sister chromatids",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Are two different chromosomes attached to  each other",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Are exact copies of one chromosome that are  attached to each other",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Shows exchange of genes among themselves",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Are chromosomes that carry different genes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q29",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "How many meiosis are required for the formation of 200 seeds in Pisum sativum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "250",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "300",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q30",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Interzonal fibres appear between the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Daughter centromeres",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Centromere and the pole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two poles",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two centrioles",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q31",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Period of active mitosis ranges from  10 minutes to several hours",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mitotic poison is obtained from a plant  belonging to the family Liliaceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Synaptonemal complex plays an important role  both in meiosis as well as mitosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mitosis is responsible for growth, repair and  healing",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q32",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "During cell cycle, time taken for the completion of M-phase is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5-10% of the total cell cycle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10-20% of the total cell cycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "30-40% of the total cell cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40-60% of the total cell cycle",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q33",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a characteristic of meiosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There is splitting of centromeres in anaphase II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bivalent to univalent stage of homologous  chromosome is concerned with anaphase-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Meiosis never occurs in haploid cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All chromosomes form a single plate in  metaphase-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q34",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Random distribution of paternal and maternal chromosomes into daughter cells occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pachytene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q35",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Bending of chromosomes and attachment of spindle fibres occur at _______",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary constriction only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary constriction only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both the constrictions simultaneously",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "First of all at primary constriction and later on  at secondary constriction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q36",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "A diploid cell of human being has ______ picogram of DNA",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 - 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5 - 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15 - 20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16 - 18",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q37",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "At which of the following stages of meiosis chromomeres are visible?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leptotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metaphase-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diplotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Prophase-II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 267,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q38",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If a sperm of an organism has 5 pg of DNA in its nucleus, how much DNA would be present in a somatic cells of this organism during metaphase-I ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q39",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Desynapsis starts in which stage of cell division?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diplotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diakinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q40",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Synaptonemal complex is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Formed between sister chromatids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Required for synapsis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formed in zygotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q41",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following event is absent in pachytene stage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synaptonemal complex is more distinct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of recombination nodules",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Exchange of chromatids segments",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Dissolution of synaptonemal complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q42",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Cell grows maximum is size with more synthesis of RNA and protein in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Pre-mitotic gap phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Post mitotic gap phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Second growth phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synthetic phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q43",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Prophase I of meiosis is typically longer and more complex where recombination between nonsister chromatids of homologous chromosomes occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diplotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diakinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q44",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Some cells do not exhibit cell division and are said to be arrested in __________ and can re-enter the cell cycle in _________ .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1 and G2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G1 and S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G0 and G1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G1 and G0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q45",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Homologous chromosomes join laterally in the process of synapsis to form bivalents was first observed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Van Beneden",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Montgomery",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strasburger",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Johannsen",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q46",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Find out an incorrect statement for leptotene stage of reductional division",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chromatids are clearly visible",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chromomeres are clearly visible",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bouquet stage appears in many animal cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chromosome appears as a single thread",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q47",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Suppose an onion root tip cell has 14 chromosomes and 10 pg DNA, what will be the number of chromosomes and amount of DNA present at G2 phase of cell cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "14 & 20 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "14 & 10 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "7 & 2.5 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 & 5 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q48",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The stage of the cell cycle in which cells remain metabolically active but no longer proliferate, is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G2 phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G0 phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S-phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M-phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q49",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The stage present between meiosis-I and meiosis- II is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Called as interkinesis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Generally short lived",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Followed by prophase-II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q50",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "How many meiotic divisions are required to produce 101 seeds in a typical dicot plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "125",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "126",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "127",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "128",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q51",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Tubulin proteins for spindle fibre formation are synthesised in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1 phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G2 phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Late prophase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Early metaphase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q52",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Correct sequence of cell cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1  G2  S  M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "M  G2  S  G1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  G2  S  G1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S  G2  M  G1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q53",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following stage of M-phase is considered as tetraploid stage for human cell?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaphase of mitosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase-I of meiosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase-I of meiosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 268,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q54",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Colchicine induces polyploidy by interfering with the spindle formation but the plant from which it is obtained remains unaffected",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Due to presence of anticolchicine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Because colchicine remains inactive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Because spindle is made up of microfilaments  in this plant",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Because cells of this plant are already  polyploid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q55",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The beginning of diplotene stage is recognised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Terminalisation of chiasmata completely",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dissolution of synaptonemal complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Disappearance of nuclear membrane  completely",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synapsis of chromosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q56",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following chemical inhibits mitotic cell division by agglutination of chromosomes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cyanide",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insulin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mustard gas",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Colchicine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q57",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which phase is an interval between mitosis and initiation of DNA replication?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S-phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G2-phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G1-phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M-phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q58",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Chromosome appears as a single thread with distinct chromomeres is a characteristic feature of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leptotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telophase I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q59",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Presence of interzonal fibres is a major difference of spindle fibre types between",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prophase – Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metaphase – Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase – Telophase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Leptotene – Zygotene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q60",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Terminal meiosis is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zygotic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sporogenic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gametic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Oosporic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q61",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of mitotic divisions required to produce 256 cells from a single cell will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "128",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "255",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q62",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "NHC proteins are synthesised",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In S-phase only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alongwith histones only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Throughout cell cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "In M-phase only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q63",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Congression is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Centripetal movement of chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Arrangement of chromosomes in ball like  structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphasic movement of chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Centrifugal movement of chromosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q64",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "During the meiotic division, the homologous chromosomes separate but sister chromatids remain associated at their centromeres in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaphase-II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase-I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diakinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q65",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct match w.r.t. cell cycle  Column-I Column-II  a. Spireme stage (i) Anaphase  b. Synaptonemal (ii) Zygotene complex formation  c. Interzonal spindle (iii) Prophase fibres stage  d. Terminalisation (iv) Diakinesis initiation stage  (v) Diplotene",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(ii), c(i), d(v)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(v), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(ii), c(iii), d(v)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q66",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct for the post-mitotic phase of the cell cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Change in chromosome number but not in  DNA amount",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Change in DNA amount but not in chromosome  number",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "No synthesis of nucleotides and amino acids",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Neither change in the chromosome number  nor amount of DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q67",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If the amount of DNA in meiocyte at G1 phase is 2C then, the amount of DNA in each daughter cell, after meiosis-I will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "8C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 269,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q68",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement about G1 phase of cell cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cell is metabolically inactive",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cell stops growing",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is not a phase of synthesis of non-histone  proteins",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "DNA in the cell does not replicate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q69",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If spores have 10 chromosomes and 20 picogram DNA then what would be the chromosome number and DNA amount in spore mother cell at the end of S-phase in the life cycle of same plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "40 chromosomes and 80 pg DNA",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 chromosomes and 80 pg DNA",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 chromosomes and 40 pg DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 chromosomes and 40 pg DNA",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q70",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Certain stages of cell division are represented by figures given below, identify them correctly  A B C",
+    "question_diagram": "/images/last_leap_part2/p270_q70.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Metaphase II,  B – Prophase I,  C – Anaphase II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Metaphase II,  B – Prophase I,  C – Anaphase I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Metaphase I,  B – Prophase I,  C – Anaphase I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Metaphase I,  B – Prophase II,  C – Anaphase II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q71",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following  Column-I Column-II  a. Interkinesis (i) Cell growth  b. Pachytene (ii) Chiasma  c. Diplotene (iii) Centriole duplication  d. G2 phase (iv) Recombination nodule",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q72",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Prophase as the first stage of mitosis is marked by the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Initiation of condensation of chromosomal  material",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reappearance of Golgi bodies and ER",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Completion of condensation of chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Different shape of chromosome",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q73",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "In a microspore, the number of chromosomes is 10 and DNA content is 20 pg. What is the number of chromosomes and DNA content in its meiocyte at G1 stage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20, 20",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10, 40",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20, 40",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10, 20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q74",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If amount of DNA in sperm cell is 10 picogram, then what will be amount in microsporocyte in antephase of the cell cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q75",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Find out the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Karyokinesis occurs twice in both mitosis and  meiosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The nuclear membrane disappears by the end  of prophase-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Exchange of chromosomal segments takes  place during meiosis-I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Onion root tip is useful to study mitosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q76",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If the number of bivalents aligned on the equatorial plate of metaphase-I is 10. What will be the number of chromosomes in each haploid cell after meiosis II?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "15",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q77",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Nuclear envelope as well as nucleolus disappear completely",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In late prophase, early prophase-II and  diplotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In early prophase-I and late prophase-II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "By the end of prophase-I and telophase-II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "By the end of diakinesis and prophase-II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q78",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Suppose 10 chromosomes and 14 pg DNA present in each cell of onion root tip, what will be the number of chromosomes and amount of DNA present at antephase of cell cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 and 28 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 and 14 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "28 and 10 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5 and 7 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 270,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q79",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The attachment of spindle fibre to kinetochores of chromosomes is the key feature of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Early prophase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telophase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q80",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "During poleward movement of separated daughter chromosomes at anaphase",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Their ends are toward poles and centromere  toward equator",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Their ends are toward equator and centromere  toward pole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interzonal  fibres  contract  and  pull chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sister chromatids are pulled on same pole by  kinetochore fibre",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q81",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The stage in which cell is metabolically active but fails to divide is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1-phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G0-phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S-phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M-phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q82",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The preparatory phase between meiosis-I and meiosis-II is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intermitosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Intermeiotic interphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interkinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q83",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "How many meiotic divisions are required to produce 100 seeds in a typical dicot plant?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "125",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "126",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "127",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "128",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q84",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Longest phase of cell division is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prophase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telophase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q85",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Proteins for spindle fibre formation are synthesised in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1 phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G2 phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Late prophase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Early metaphase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q86",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The correct sequence of cell cycle is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1  G2  S  M",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G1  S  G2  M",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M  G2  S  G1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S  G1  M  G2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q87",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following stage of M-phase is considered as tetraploid stage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaphase of mitosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase-I of meiosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase-II of meiosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q88",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following phase of cell cycle chromosomes are represented by monad?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metaphase-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q89",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Diplotene stage is initiated by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synaptonemal complex development",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dissolution of synaptonemal complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Disappearance of nuclear membrane and  nucleolus completely",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Starting of spindle formation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q90",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Chromosomes number is reduced to half in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Homotypic division",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heterotypic division",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Equational division",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mitosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q91",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The substances which do not inhibit mitosis are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Azides and cyanides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mustard gas and chalones",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Insulin and gibberellin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyanides and chalones",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q92",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Cell division proper lasts for only about one hour out of the average duration of 24 hours of cell cycle in humans, where",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The interphase lasts more than 95% of the  duration",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The M-phase lasts more than 95% of the  duration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The interphase lasts less than 5% of the  duration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The G2 phase lasts about 95% of the duration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q93",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "G2 to M transition is triggered by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Maturation promoting factor",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G1 cyclin + cdc2 kinase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mitotic cyclin + cdc2 kinase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q94",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following factor is responsible for the anaphasic movement in mitosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dissolution of microtubules of tractile fibres",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Expansion of interzonal fibres",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dissolution of interzonal fibres",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q95",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following stage, cells remain metabolically active but no longer proliferate unless called on to do so depending on the requirement of the organism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 271,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q96",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following phase of cell division is involved in decondensation of chromosomes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Prophase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telophase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q97",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If egg of an organism has 20 pg of DNA in its nucleus. How much DNA would a diploid cell of same organism have in pachytene (x), diakinesis (y) and anaphase-I (z)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x = 40 pg ; y = 40 pg ; z = 80 pg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x = 80 pg ; y = 80 pg ; z = 80 pg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x = 40 pg ; y = 80 pg ; z = 80 pg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x = 80 pg; y = 40 pg ; z = 40 pg",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q98",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Double metaphasic plate in meiosis develops during",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaphase I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metaphase II",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaphase II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q99",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match (w.r.t. mitotic poison)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ribonuclease – Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Azide – Prophase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mustard gas – Agglutination of chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyanide – Prophase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q100",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "A large number of nucleotides, amino acids for histone synthesis and energy rich compounds are formed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Invisible phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synthetic phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Post synthetic phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Post mitotic phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q101",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Prophase-II of meiotic division",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Is preceded by centrioles duplication in  animals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is followed by DNA duplication in plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Begins with the simultaneous splitting of the  centromere of each chromosome",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Is marked by reappearance of nucleolus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q102",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Condensation of chromosomes is completed and they can be observed clearly under the microscope in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Telophase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prophase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaphase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q103",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement w.r.t. interphase of cell cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Generation time of different cells depends upon  pre-mitotic gap phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cells of G0-phase are metabolically inactive and  non-proliferating",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ploidy level is changed due to DNA replication  in S-phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Post-mitotic gap phase show maximum size  growth and nucleotides synthesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q104",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Specific site for attachment of spindle fibres to the chromosome is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Centrosome",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kinetochore",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Centriole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Blepheroplast",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q105",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the label A, B, C and D in the following figure  C D  Anaphase  G1  A B  G2",
+    "question_diagram": "/images/last_leap_part2/p272_q105.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A – ‘S’ phase; B – Prophase; C – M phase;  D – G0 phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – ‘S’ phase; B – G0 phase; C – Telophase;  D – Cytokinesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – ‘S’ phase; B – Prophase; C – Cytokinesis;  D – G0 phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – ‘S’ phase; B – Prophase; C – G0 phase;  D – Cytokinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q106",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Correctly match the events of cell cycle with the respective stage or substage of their occurrence  Column-I Column-II a. Equatorial plate (i) Anaphase-II b. Diplotene (ii) Synapsis c. Centromeric splitting (iii) Metaphase d. Zygotene (iv) Chiasmata",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q107",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one w.r.t. meiotic cell cycle",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "DNA replication occurs once only i.e., before  Gap-2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Karyokinesis occurs twice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reduction of ploidy at metaphase-I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Crossing over in tetrad stage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q108",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the correct match :",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A haploid plant does not produce gametes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Meiosis does not occur in haploid cells",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All plants form gametes by meiosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mitosis cannot be the means for gamete  formation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q109",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "M phase starts with the nuclear division, corresponding to the separation of daughter chromosomes and usually ends with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Division of cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Telophase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G2 phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Karyokinesis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 272,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q110",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is/are correct? a. Colchicine inhibits the formation of mitotic spindle. b. Centriole duplicates in the cytoplasm of dicot plants during interphase. c. Cell cycle is under the genetic control.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only a is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only b is correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & c are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q111",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Prophase of the mitotic division is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Longer and more complex than prophase-I of  meiosis",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shorter and less complex than prophase-I of  meiosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Longer and less complex than prophase-I of  meiosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Shorter and more complex than prophase-I of  meiosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q112",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Stage between the meiosis-I and meiosis-II is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Characterised by polymerisation of nucleotides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Short lived than preparatory phase of cell cycle",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Called karyokinesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Characterised by DNA as well as centriole  duplication",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q113",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If at the end of meiosis each daughter cell has four chromosomes, how many chromosomes would a diploid cell have in G1 phase of cell cycle?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "16",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q114",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synapsis – Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phragmoplast – E.coli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "DNA replication – S-phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pachytene – Crossing over",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q115",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following stage is recognised by the dissolution of synaptonemal complex, so the recombined homologous chromosomes will start separating?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaphase II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diakinesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diplotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pachytene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q116",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements (a-c) carefully and find out the option (1-4) representing the correct sequence of events in amitotic division. a. A constriction appears in the cytoplasm. b. Nucleus of the cell elongates. c. A constriction appears in the nucleus which gradually deepens and divides the nucleus into two daughter nuclei.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "c a b",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b a c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b c a",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a c b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q117",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Match the following Column I Column II a. G1 phase (i) Longest phase of cell cycle b. M phase (ii) Synthesis of histone proteins c. S-phase (iii) Cell quiescence d. G0 phase (iv) Nuclear division",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q118",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Identify A, B, C and D stages of mitosis in the figure given below  (A) (B) (C)",
+    "question_diagram": "/images/last_leap_part2/p273_q118.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "A - Late prophase;  B - Early prophase; C - Transition to metaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A - Early prophase;  B - Late prophase; C - Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A - Early prophase;  B - Anaphase; C - Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A - Interphase;  B - Prophase; C - Metaphase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q119",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Human cells divide once in approximately every  24 hours",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Centrioles duplicates in the cytoplasm during  G2 - phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In the quiescent stage cells remain  metabolically inactive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "During G1 - stage cell is metabolically active  but does not grow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q120",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Chromosomes clusters at spindle poles and their identity is lost as discrete elements during",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Interphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prophase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telophase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q121",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following changes occur when a bivalent passes from zygotene to pachytene stage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A tetrad is changed into dyad",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A monad is changed into dyad",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A dyad is changed into tetrad",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A bivalent is changed into tetravalent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 273,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q122",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Beginning of diplotene is recognised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Terminalisation of chiasma",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dissolution of synaptonemal complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Exchange of genetic material between  homologous chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Disappearance of nuclear membrane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q123",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement about telophase- I is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Congression stage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Disjunction of homologous chromosome stage",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Centromere dividing stage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nuclear membrane and nucleolus reform stage",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q124",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Invisible phase of cell cycle is characterised by",
+    "question_diagram": "/images/last_leap_part2/p274_q124.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Quiescent stage",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Most variable in length",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Doubling in amount of DNA",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synthesis of protein kinase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q125",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Formation of recombination nodules and chiasmata occur in which of the above stages?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A & B",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B & C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "B only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q126",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "a. Spindle fibres attach to kinetochores of chromosomes during metaphase.  b. Cell growth results in disturbing the ratio between the nucleus and the cytoplasm.  c. Pachytene stage is relatively short-lived compared to the leptotene.  d. Interkinesis is short lived stage characterised by duplication of DNA.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only c is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a & b are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q127",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct match (column I with column II)  Column I Column II  a. Bivalent as tetrad (i) Diplotene  b. Chromatids separation (ii) Telophase I  c. Terminalisation start phase (iii) Anaphase II  d. Nuclear membrane and (iv) Pachytene nucleolus reappear",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iv), b(iii), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q128",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Recombination between homologous chromosomes is completed by the end of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Interphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Diakinesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zygotene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q129",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Diplotene stage is characterized by all of these statements, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Extended and metabolically active in oocytes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dissolution of tripartite ladder like structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can last for months or years",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Bivalents separate from each other at the site  of crossing over",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q130",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Study the given diagram and mark the correct option  A  B  F  E  Prophase  C  D",
+    "question_diagram": "/images/last_leap_part2/p274_q130.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Cells in this stage remain : F metabolically active but no longer proliferate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "DNA replicates in nucleus and : A centriole duplicates in the cytoplasm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Constitutes more than 95% : D and E duration of cell cycle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interval between mitosis : C and initiation of DNA replication",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q131",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "All are the significance of mitosis, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Production of daughter cells with identical  genetic complement",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Restoration of nucleocytoplasmic ratio",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Plays important role in evolution by inducing  variations",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Responsible for growth of multicellular  organisms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q132",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements are related with the first phase of karyokinesis in mitosis? A. Morphology of chromosomes can be most easily studied. B. Centrioles, which had undergone duplication during S phase, begin to move towards opposite poles of the cell. C. Nucleolus, Golgi complex and ER reform. D. The initiation of condensation of chromosomal material.",
+    "question_diagram": "/images/last_leap_part2/p274_q132.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C, D",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B, D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A, B",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "B, C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 274,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q133",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Meiosis involves",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Formation of two diploid daughter cells at the  end of process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pairing of homologous chromosomes and  recombination between them",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two cycles of DNA replication",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two sequential cycles of cell division but single  cycle of nuclear division",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q134",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the mismatched pair:",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Synapsis of homologous – Leptotene chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Appearance of recombination – Pachytene  nodule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Transition to metaphase-I – Diakinesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formation of synaptonemal – Zygotene complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q135",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the stage of cell cycle in which centromeres split and chromatids move to opposite poles.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Telophase-I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaphase-I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q136",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement:",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The stage between two successive meiotic  divisions is generally long lived",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In plant cells, wall formation starts in the  centre of the cell and grows outward to meet the existing lateral walls",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Meiosis results in conservation of specific  chromosome number of each species across generations in asexually reproducing organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Telophase - I can last for months or years",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q137",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the odd one w.r.t significance of meiosis",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conservation of specific chromosome number  of each species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increases genetic variability",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Able to regenerate part or whole of the  organism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Introduces new combination of traits",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q138",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following phases centromeres split and chromatids separate and then chromatids move to opposite poles?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaphase-I, Anaphase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anaphase, Anaphase-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anaphase-I, Metaphase-II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anaphase, Anaphase-II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q139",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Recombinase enzyme is activated in which of the following phase of meiosis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Leptotene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pachytene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zygotene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diplotene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q140",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Stage between the two meiotic divisions is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Followed by prophase-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Characterised by DNA, RNA and protein  replication",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Generally short lived",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Featured by chromosome condensation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q141",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The microtubules from the opposite poles of the spindle attach to the pair of homologous chromosomes in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metaphase-I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Prophase-I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metaphase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metaphase-II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q142",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following four statements (I–IV) related to cell cycle, and select the correct option stating them as true [T] and false [F].  I. Cell growth in terms of cytoplasmic increase is a continuous process.  II. Interphase is the phase of actual cell division.  III. The number of chromosomes doubles in S- phase  IV. The cells that do not divide further exit G1-  phase to enter an inactive stage.  Options:  I II III IV",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T F F F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F T T T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "F F T T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T F F T",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q143",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the option which truly represents the event of cell division stage in given diagram",
+    "question_diagram": "/images/last_leap_part2/p275_q143.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Spindle fibers attach to kinetochores of  chromosomes",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Splitting of centromere",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleolus, Golgi complex and ER reform",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q144",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "If a meiospore has 20 picograms DNA then what was the DNA content in its meiocyte at G1 and S phase respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "20, 40",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40, 80",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20, 80",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "40, 40",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 275,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q145",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "The complete disintegration of nuclear envelope marks the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Early prophase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Start of second phase of mitosis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First phase of mitosis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "End of second phase of mitosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q146",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Restorage of nucleocytoplasmic ratio is performed in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G1 phase",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S phase",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G2 phase",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M phase",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secA_q147",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following structure(s) is/are not reformed during telophase stage?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Nucleolus, ER",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Golgi complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nuclear envelope",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chromosomes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q1",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Meiosis I is heterotypic division.\nReason (R): It brings about change from haploid to diploid  state.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q2",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Meiosis II is a homotypic division.\nReason (R): Chromosomes number remain same during  Meiosis II division.  \u0002\u0003\u0002\u0003\u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q3",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): At telophase stage two daughter nuclei are  formed.\nReason (R): The nuclear membrane is formed in telophase.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q4",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): As a result of synapsis each gene is brought  into close contact with its allele located on homologous chromosomes.\nReason (R): Synaptonemal complex separates paired  homologous chromosomes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q5",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): DNA replication occurs in premitotic phase in  plant cell.\nReason (R): DNA polymerase is not active in synthetic  phase of plant cell.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q6",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The beginning of diplotene is recognised by the  dissolution of the synaptonemal complex.\nReason (R): Shifting of chiasmata from centre to ends of  bivalent is called terminalisation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q7",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In telophase stage of mitosis two daughter  nuclei are formed.\nReason (R): The nuclear membrane formation has started in  telophase.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q8",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Synapsis occurs during the zygotene stage of  meiosis.\nReason (R): Synaptonemal complex joins non-sister  chromatids of homologous chromosomes.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q9",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): DNA replication occurs in postmitotic gap  phase in plant cell.\nReason (R): DNA polymerase is most active in synthetic  phase of plant cell only.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q10",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): No splitting of centromere in anaphase I takes  place.\nReason (R): In some cases telophase I is omitted .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q11",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Metaphase II of meiosis involve formation of  bivalents on equatorial plate.\nReason (R): Bivalent is formed during leptotene.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_03_the_cell_cycle_and_cell_division_secB_q12",
+    "subject": "Botany",
+    "chapter": "The Cell Cycle and Cell Division",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tubulin proteins are synthesized in G2 phase.\nReason (R): It is longest phase of cell cycle.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 276,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

@@ -1,0 +1,4477 @@
+[
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Coordination number is maximum in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Co(NH3)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Cr(C2O4)3]3–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[CoCl3(H2O)3]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All have same coordination number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": " acid ligands is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO3  2–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound can give 2 mole AgCl per mole of the compound with excess of AgNO3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NiCl2 6H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CuCl2 4NH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CoCl3 5NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement about the ligand given below  CH COO 2 –  H C — N 2  CH COO 2 –  CH COO 2 –  H C — N 2  CH COO 2 –  I. This is ethylenediamine tetraacetate ion  II. This is flexidentate ligand  III. This ligand forms optically active complex with Co3+  IV. This ligand is used for estimation of hardness  of water",
+    "question_diagram": "/images/last_leap_part2/p219_q4.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I, II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II, III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I, II, III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I, II, III, IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The oxidation state of iron in Fe[5 – (C5H5)2] is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Maximum number of isomers are formed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Fe(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(C2O4)3]3–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Pt(NH3)BrCl(NO2)]SO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Co(NH3)4(H2O)2]Cl3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "What is the overall dissociation constant for the [M(NH3)4]2+ ion if  for this complex is 2.1 × 1013?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.1 × 1013",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1.05 × 1013",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4.2 × 1013",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.7 × 10–14",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The number of secondary and primary valency for Pentaamminechloridocobalt(III) chloride is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6, 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6, 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5, 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "dmg + NiCl2 + NH4OH  Complex (A) + NH4Cl + H2O  The hybridisation, magnetic character and oxidation  state of nickel in complex A are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "dsp2, diamagnetic, + 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dsp2, paramagnetic, + 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3, diamagnetic, 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3, paramagnetic, + 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an example of co- ordination isomerism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Co(NH3)5Br]SO4 and [Co(NH3)5SO4]Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Co(NH3)5NO2]Cl2 and [Co(NH3)5ONO]Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Co(NH3)6][Cr(CN)6] and [Cr(NH3)6][Co(CN)6]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a -complex?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Fe(n5 – C5H5)2]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[CoCl2(en)2]SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[CuCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Li[AlH4]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 219,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "What is the secondary valency of cobalt in the complex [Co(en)2F2]ClO4 ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[NiCl4]2– is paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(CN)6]3– is paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ni(CN)4]2– is diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Fe(CN)6]4– is strongly paramagnetic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Highest magnetic moment is possessed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Ni(H2O)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Co(NH3)6]Cl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Zn(H2O)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cis-platin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of geometrical isomers for [Pt(NH3)(Br)(Cl)(I)(NO2)(py)] is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "36",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "15",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Organometallic compound is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na – O – CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaNH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2C2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The effective atomic number of Fe in Fe(CO)5 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "34",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "26",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "54",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The coordination compound [Co(NH3)6][Cr(CN)6] can exhibit",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hydrate isomerism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ionisation isomerism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Coordination isomerism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement(s) is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bond length of C – O in metal carbonyl is less  than in CO molecular state",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Shape of [PtCl4]2– is square planar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In square planar complexes, metal assumes  sp3 hybridization",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The complex [Co(NH3)3Cl3] gives white ppt. with  AgNO3 solution",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Zinc but not copper is used for the recovery of Ag from the complex [Ag(CN)2]– because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zinc is cheaper",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn is more powerful reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu does not form complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In the complex [Pt(Py)4] [PtCl4], the oxidation number of Pt atom in former and later part of the compound are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 and 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+4 and +2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+2 and +2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 and +4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Coordination number of Cr is 6. A complex entity with C2O4  2–, en and superoxide as ligand is  [Cr(C2O4)x (en)y (O2)z]+. The ratio x : y : z is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 : 1 : 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 : 1 : 1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1 : 2 : 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 : 1 : 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In the complex, potassium pentacyanonitrosyl vanadate (0), the number of counter ions per molecule and the coordination number of central metal ion are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5, 5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4, 6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5, 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4, 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The complexes [M(CO)5(SCN)]Cl and [Mn(CO)5 (NCS)]Cl are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Resonating forms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Linkage isomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Co-ordination isomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ionisation isomers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following square planar complexes will be able to show geometrical isomerism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MX4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MX3Y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M(XX)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M(YY)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The solution of which of the following complexes will be non-conducting?  Cl  Cl Cl  NH3  NH3  NH3  Cl NH3  NH3",
+    "question_diagram": "/images/last_leap_part2/p220_q26.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "Co",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Co  NH3  NH3  NH3  NH3  NH3  Cl  Cl  NH3 Cl  NH3  NH3  Cl  Cl  NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Co  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Co  NH3  NH3  NH3  Cl  NH3  Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following metal carbonyls in increasing order of bond length of CO  Ni(CO)4, [Co(CO)4]–, [Fe(CO)4]2–  I II III",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "III < I < II",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I < II < III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I < III < II",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "III < II < I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following complex has highest magnetic moment?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[FeF6]3–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Co(NH3)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Fe(CN)6]4–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Ni(CN)4]2–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 220,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Among the divalent ions of first row of transition element, the tendency to form stable complexes increases as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MnII < FeII < NiII < CuII",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MnII > CuII > NiII > FeII",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CuII > MnII > FeII > NiII",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NiII > MnII > CuII > FeII",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In [Fe(5 – C5H5)2] the co-ordination number and oxidation state of iron are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10, +2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6, +3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4, 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4, +2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The stability constants of the complexes formed by a metal ion (M2+) with NH3, CN–, H2O and en are of the order of 1011, 1027, 1015 and 108 respectively. Then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "en is the strongest ligand",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CN– is the strongest ligand",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The strength of the ligands has no relationship  with given values",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All ligands are equally strong",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Dimethyl glyoxime reagent is used as co-ordinating reagent in the quantitative estimation of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Copper",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Palladium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Silver",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Nickel",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "If a multidentate ligand is cyclic in nature and there are no unfavourable steric factors, then the stability of complex is greatly enhanced. This is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ligand effect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Co-ordination effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Macrocyclic effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Synergic effect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The neutral binary complexes formed by metal and CO ligands are collectively called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Heteroleptic carbonyls",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Homoleptic carbonyls",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polycarboxy complexes",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Polynuclear complexes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is a -acid ligand?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ONO–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO  –",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CI–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The number of possible isomer for the complex ion [Co en(Cl)2Br2]– is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Ferrocene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fe(5 – C5H5)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe(2 – C5H5)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr(5 – C5H5)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Os(5 – C5H5)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The hybridization of Ni in [NiCl4]– and Pt in [PtCl4]–  respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3, sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dsp2 and dsp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "dsp2 and sp3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3 and dsp2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The outer orbital complex is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Cr (NH3)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Ni(H2O)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[V(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Co(NH3)6]3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flexidentate ligands can also be called  ambidentate ligands",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2 is a -acid ligand",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ambidentate ligands are monodentate ligands",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[PtCl4]–2 is an outer orbital complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "What are the oxidation states of Ni in the complexes [Ni(dmg)2] & Ni(CO)4?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+6, +4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2, 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+2, +4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+6, 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not an example of ambidentate ligands?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SCN",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CN  . . . .",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 2 2 H N CH CH H N",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which is an example of coordination isomerism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Co(NO2)(NH3)5]2+, [Co(ONO)(NH3)5]2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Co(NO3)(NH3)5]SO4, [Co(SO4)(NH3)5]NO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Cr(H2O)6]Cl3, [CrCl(H2O)5]Cl2.H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Co(NH3)6] [Cr(CN)6] & [Cr(NH3)6][Co(CN)6]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which is a diamagnetic complex?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Fe(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(H2O)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Fe(CN)6]3–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Fe(CN)6]4–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "What is the correct relationship of splitting of tetrahedral and octahedral system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "t = –0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t =  0 9 4 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 = 4t",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 t 4 9   ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 221,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "What is the wrong statement regarding stability of coordination compounds?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Greater the charge on central metal greater the  stability of the compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chelation increases stability",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conjugation on chelation decreases stability",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Stability is a thermodynamic concept",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not the property of Mn2(CO)10?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 Mn–Mn bond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 Mn–CO bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It has two square pyramidal unit",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is a liquid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Irving-Williams order for increasing stability of complexes formed by Co, Ni, Cu and Fe in +2 oxidation state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Co < Ni < Cu < Fe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe < Cu < Ni < Co",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe < Co < Ni < Cu",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ni < Co < Cu < Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "[Pt(NH3)(py)(CN)(NO2)] can have maximum number of geometrical isomers equal to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which one species is square planar in geometry?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Cu(NH3)4]2+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[NiCl4]–2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ni(CO)4]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[FeCl6]4–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The two complexes PtCl4·2NH3 and PtCl4·2KCl do not give precipitate of AgCl when treated with AgNO3. They give zero and three moles of ions respectively in solutions for one mole of complex. The structural formulae of both complexes are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PtCl2(NH3)2]Cl2 and K2[PtCl6] respectively",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[PtCl4(NH3)2] and K2[PtCl2(NH3)2] respectively",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[PtCl4(NH3)2] and K2[PtCl6] respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[PtCl4]·2NH3 and [PtCl4]·2KCl respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The correct IUPAC name of [Pt(en)2Cl(ONO)]++ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Chlorodiethylenediaminenitritoplatinum(IV) ion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Bis(ethylenediamine)chloronitro-o-platinum(IV)  ion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloridobis (ethylenediamine) nitritoplatinum(IV)  ion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chlorodiethylenediaminenitro-o-platinum(IV) ion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In which pair of complex the EAN of metal atom/ ion is same?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Ni(en)2]2+, [Sc(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(CN)6]3–, [Co(CN)6]3–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ni(CO)4], [Fe(CN)6]4–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Ni(en)2]2+, [Fe(H2O)6]2+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Greater the stability constant of complex  greater is its stability",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Greater the charge on the central metal ion  greater is the stability of complex",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Greater is the basic character of the ligand,  greater is the stability of the complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chelate complexes have low stability constant",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following complex is/are outer orbital complex?  2 6 2 ] ) O H ( Fe [   3– 6 (I) [Co(CN) ]  ) II (  – 3 6] FeF [  – 3 6] CoF [  ) III (  ) IV (",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "II, III, IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II, III only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I, IV only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pairs contains only tetrahedral complex?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[ZnCl4]2– & [MnCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Zn(NH3)4]2+ & [Cu(NH3)4]2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[MnCl4]2– & [Ni(CN)4]2–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ZnCl4]2– & [Ni(CN)4]2–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following complex will have zero dipole moment?  – 2 4] ) CN ( Ni [ 3 2 2 (II) cis-[Pt(NH ) Cl ]  )I(  3 2 2 (III) trans-[Pt(NH ) Cl ]",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "III only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I, III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II, III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is/are correct regarding this complex? [CrCl2(OH)2(NH3)2]–  a. It shows geometrical isomerism  b. It shows optical isomerism  c. It shows ionization isomerism  d. It shows hydrate isomerism",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both a & b",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, b, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 222,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair are having same hybridization of central atom?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PtCl4]2– and [NiCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Cu(NH3)4]2+ and [PtCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ni(CO)4] and [Ni(CN)4]2–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The number of five membered and six membered ring that can be formed in Ni(dmg)2 respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1, 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2, 1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which type of isomerism is shown by cis [Co(en)2Br2]+?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Geometrical and co-ordination",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Optical",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Geometrical and linkage",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct match  Complex Nature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K4[Fe(CN)6] Paramagnetic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[FeF6]4– sp3d2 hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ni(CO)4] Square planar complex",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Cu(NH3)4]2+ Diamagnetic, square planar  complex",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which is mismatched regarding spin only magnetic moment of the complexes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[FeF6]3– = 5.92 BM",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cr(CO)6 = 0.00 BM",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Ni(CN)4]2– = 0.00 BM",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "cis Platin = 2.84 BM",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Match the information given in Column-I and Column-II  Column-I Column-II  a. Brown ring (i) Fe4[Fe(CN)6]3 b. Prussian blue (ii) K[PtCl3(2 – C2H4)]  c. Zeiss’s salt (iii) (Ph3P)3RhCl  d. Wilkinson catalyst (iv) [Fe(H2O)5NO]+2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(i), b(iv), c(iii), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iv), b(i), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(i), c(iii), d(ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "When CuSO4 is treated with excess of KCN, then which of the following is formed as final product?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K3[Cu(CN)4] and (CN)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2[Cu(CN)4] and Cu2(CN)2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K4[Cu(CN)6] and (CN)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K[Cu(CN)4] and Cu2(CN)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following type of complex can exhibit facial and meridional isomers?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MA4B2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MA3B3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MA2B2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "MABCDEF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The EAN of Mn in Mn2(CO)10 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "35",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "38",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "36",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "37",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Of the following complexes, the one with the largest value of the crystal field splitting is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Fe(H2O)6]+3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Ru(CN)6]3–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Fe(H2O)6]+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Fe(NH3)6]3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Magnetic moment of [Ag(CN)2]– is zero. How many unpaired electrons are there?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The hybridisation of beryllium in the complex [Be(H2O)4](NO3)2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3d 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "[CoCl (en) ] 2 2 + [Co(NH )Cl(en) ] 2 + 3 2 [Co(NH ) Cl (en)] 2 2 + 3 (I) (II) (III) , , (cis)  Which of the following set of compounds is optically active?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I & II only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I & III only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "II & III only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I, II & III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The total number of -bonds possible in [Ni(CO)4] is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "When O2 reacts with PtF6, which one of the following is formed?  PtF6  (–)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "PtOF5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "O2  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PtOF4  (–)PtF6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 223,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In [NiCl4]– –, Ni has dsp2-hybridisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[PtCl2(NH3)2] has three geometrical isomers  possible",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Fe(CN)6]4(–) is diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Cr(ox)3]3(–) has three stereoisomers and two  structural isomers possible",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "[Pt(NH3)4Cl2]Br2 and [Pt(NH3)4Br2]Cl2 related to each other as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Optical isomers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Linkage isomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ionization isomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Co-ordination isomers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the false statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The general electronic configuration of the  transition elements is (n – 1)d1 – 10ns1 – 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IUPAC name of K3[Al(C2O4)3] is potassium  tris (oxalato) aluminate (III)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidation state of Na in sodium amalgam is +1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "BF3 is weakest Lewis acid amongst all BX3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In [Fe(H2O)6]2+, hybridization of the central atom and geometry is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3d2, octahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d2sp3, octahedral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3d, pentagonal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3, tetrahedral",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The CFSE value of d5 ion in a weak octahedral ligand field is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–8 Dq",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 Dq",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–6 Dq",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 Dq",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can act as flexidentate ligand?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "dipy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "dmg",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "gly",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "edta4–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The complex having square planar geometry is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PtCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[CuCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[NiCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The factors which can increase the stability of complex is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Presence of chelate rings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Synergic effect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Macrocyclic effect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the metal that form a tetrahedral complex with Cl– ligand and of magnetic moment 5.91 BM in  +2 oxidation state",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ni",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Oxidation number and effective atomic number of central metal ion in ferrocene respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+1, 35",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+2, 35",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+3, 36",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+2, 36",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statements is true about [Cu(NH3)4]+2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The complex is tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cu+2 in the complex is dsp2 hybridised",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cu+2 in the complex is diamagnetic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Identify incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tetrahedral  complex  containing  two unsymmetrical bidentate ligand can exhibit optical activity as they lack plane of symmetry",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zeise’s salt is an organometallic compound  containing C2H4 molecule as one of the ligand",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "EAN (effective atomic number) of Fe in its  complex is always 36",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Dimethyl glyoxime gives a red precipitate with Ni2+  which is used for its detection. To get this precipitate readily, the best pH range is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "< 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 – 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 – 4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9 – 11",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The coordination number and primary valence of Cr in trisoxalato chromium (III) ion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3, 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6, 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6, 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unpredictable",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following has highest magnetic moment?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "K4[Fe(CN)6]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(H2O)6]SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K3[Fe(CN)6]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Co(NH3)6]SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "What is the secondary valency of the metal in the complex bis(ethane-1, 2-diammine) difluorido cobalt (III) perchlorate?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The complex with maximum number of stereoisomers is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PtCl3(C2H4)]–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[CuBr2Cl2]–2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Co(ox)3]–3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Cr(NH3)2 (en)2]+3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 224,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Facial and meridional isomerism is exhibited by which of the following complex?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "MA4B2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MA3B3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "M(AA)3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "M(AB)3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Low spin complex is formed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3d2 hybridization",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "d2sp3 hybridization",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3d hybridization",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3 hybridization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following complex, central metal is dsp2 hybridized?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[PtCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[NiCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[CuCl4]2–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The coordination number and oxidation number of x in the compound [x(SO4)(NH3)5]Cl will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 and 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "10 and 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 and 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6 and 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In aqueous solution, complex [Co(NH3)6][Cr(CN)6] exists as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Co(NH3)6]3+ and [Cr(CN)6]3–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Co(NH3)6]2+ and [Cr(CN)6]2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Co(NH3)6]3– and [Cr(CN)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Does not dissociate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The geometry of [NiCl4]2– and [PtCl4]2– are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Square planar",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Square planar and tetrahedral respectively",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tetrahedral and square planar respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following complex ion is expected to absorb visible light?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Ni(CO)4]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Zn(NH3)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Sc(H2O)3(NH3)3]3+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Cr(NH3)6]3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Hybrid state of Sn in [Sn(OH)6]2–",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "sp3d2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "sp3d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "sp3d3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Amongst the following ions which one has the highest magnetic moment value?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Cr(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(H2O)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Zn(H2O)6]2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[FeF6]3–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The IUPAC name of the following complex  [(CO)3Fe(CO)3Fe(CO)3] is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tricarbonyl iron (0) -  - tricarbonyl iron (0)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Non-carbonyl di iron (I)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hexacarbonyl iron (0) -  - tricarbonyl iron (II)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tri--carbonyl-bis (tricarbonyl iron (0))",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following complex can exhibit geometrical isomerism?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Pt(ox)2]–2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Pt(gly)2]",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Pt(en)2]+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The geometries of Ni(CO)4 and [Cu(NH3)4]+2 are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tetrahedral and square planar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Square planar and tetrahedral",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both square planar",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following complexes is the example of dsp2 hybridisation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Ni(CO)4]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Ni(CN)4]–2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Zn(NH3)4]+2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[ZnCl4]2–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "When cobalt (III) nitrite and potassium nitrite solutions are mixed in the molar ratio of 1 : 3, a compound is formed that gives 4 ions in the solution. The formula of the complex formed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Co(NO2)32KNO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Co(NO2)33KNO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "K3[Co(NO2)6]",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K[Co(NO2)4]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The outer orbital complexes among the following are  I. [Co(CN)6]–3 II. [Fe(H2O)6]+2  III. [Co(NH3)6]+3 IV. [CoF6]–3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "II & IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I & IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I & II",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The value of 'x' in the complex is  OH  [(NH ) Co 3 4 Co(NH ) (SO ) 3 4 4 x ] OH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "The spin only magnetic moment of metal ion having d 8 system in square planar complex with strong ligand field is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.83 BM",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3.87 BM",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4.90 BM",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q108",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "In complex MCl35H2O, the secondary valency of metal is 6 and it has no molecule of water present out of coordination sphere. Calculate the volume of 0.1 M AgNO3 solution needed to precipitate the free chloride ions in 200 ml of 0.01 M solution of the complex",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "120 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 225,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q109",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Cuprous chloride is insoluble in water but soluble in solutions containing excess of chloride ion to form soluble chloride complexes that may have composition",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[CuCl2]–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[CuCl3]2–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[CuCl4]3–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q110",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is  acid ligand?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2 = CH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q111",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following complexes should be most stable ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[CoF6]3–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[CoCl6]3–",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Co(C2O4)3]3(–)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Co(H2O)]3(–)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q112",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "fac-mer isomerism is exhibited by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Co(NH3)3Cl3]",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Co(H2O)5Cl]Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[Cr(ox)3]3–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[MnCl4]2–",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q113",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which type of isomerism is shown by both complex A and B?  [Cr(H2O)6]Cl3 and[Cr(H2O)4Cl2].Cl.2H2O  (A) (B)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electronic isomerism",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hydrate isomerism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ionisation isomerism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No isomerism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q114",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is most stable complex?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "[Fe(CN)6]4–",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "[Fe(H2O)6]3+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "[FeF6]3–",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "[Fe(NH3)6]3+",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q115",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following complex is expected to be of violet colour?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 6 [Ni(H O) ] (aq) ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 4 [Ni(H O) (en)] (aq) ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 2 2 2 [Ni(H O) (en) ] ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 3 [Ni(en) ] (aq) ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secA_q116",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following complex has maximum energy difference between t2g and eg set of orbitals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 3 6 [Ni(NH ) ] ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 3 6 [Cr(NH ) ] ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 3 6 [Mo(NH ) ] ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 3 6 [W(NH ) ] ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): 0 depends upon the nature of ligand and  charge of metal ion.\nReason (R): d4 to d7 co-ordination entities are more stable  for strong field as compared to weak field cases.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Metal  carbonyls  are  organometallic compounds.\nReason (R): Fe(CO)5 has trigonal bipyramidal geometry.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): (Ph3P)3RhCl is Wilkinson’s catalyst.\nReason (R): (Ph3P)3RhCl can show optical isomerism but  does not show geometrical isomerism.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): [Cr(NH3)6]3+ is paramagnetic.\nReason (R): [Cr(NH3)6]3+ shows d2sp3 hybridization.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Co-ordination number of Ni in Ni(CO)4 is 4.\nReason (R): The number of electron pairs accepted by the  transition metal is called coordination number of transition element in this compound.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Geometrical isomerism is not observed in  complexes of co-ordination number 4 of tetrahedral geometry.\nReason (R): In tetrahedral complexes, any two ligands lie at  109.5°.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): [Cu(NH3)4]2+ is a paramagnetic complex.\nReason (R): Due to unavailability of empty 3d orbital it is  formed by sp3 hybridization.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Metal carbon bond in metal carbonyls possess  both  and  character.\nReason (R): The metal to ligand bonding creates a synergic  effect which strengthens the bond between CO and metal.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The magnitude of (t) in tetrahedral complex is  less than that in octahedral complex (0).\nReason (R): t 0 4 9  .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): BaSO4 is insoluble in water but soluble in  sodium salt of ethylene diamine tetra acetic acid.\nReason (R): BaSO4 is purely ionic nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_23_coordination_compounds_secB_q11",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): [NiCl4]2(–) is square planar.\nReason (R): ‘Ni’ has dsp2 - hybridisation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 226,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

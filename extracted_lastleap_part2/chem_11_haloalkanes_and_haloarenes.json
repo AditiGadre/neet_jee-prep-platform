@@ -1,0 +1,3427 @@
+[
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is known as Borodin Hunsdiecker reaction?  COONa NaOH/CaO",
+    "question_diagram": "/images/last_leap_part2/p111_q1.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "  CONH2 Br /KOH 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "  COOAg Br /CCl 2 4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2COOH Red P/Br2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "C2H5Cl + AgF  C2H5F + AgCl. The reaction is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Finkelstein reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Swarts reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hunsdiecker reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HVZ reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect order of SN1 reaction is – (in terms of fast rate)  D Br",
+    "question_diagram": "/images/last_leap_part2/p111_q3.png",
+    "options": [
+      {
+        "label": "1",
+        "text": ">",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl > Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2 = CH – Br > CH2 = CH – CH2 – Br  > Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Nitroethane on treatment with excess of Cl2 in presence of NaOH gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ClCH2CH2NO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CHClNO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cl2CHCH2NO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3CCl2NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The poisonous gas obtained by exposing chloroform to air and sunlight is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2Cl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "COCl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HCHO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Polar solvent always accelerates the rate of  SN2 reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Inductive effect operates through  bond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The addition of HBr to propene gives  2-bromopropane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  Alc.KOH P(major), the product ‘P’ will be",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CICH2·CHCl2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HOCH2 – CHCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ClCH2.CHO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2 = CCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ClCH = CHCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CH2Cl aq. KOH Major product  Correct statement about the above reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate of reaction doubles when conc. of halide  is doubled",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rate of reaction quadruples when conc. of  halide is doubled",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reaction proceed via formation of cyclic  transition state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rate of reaction quadruples when conc. of  halide as well as base is doubled",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 111,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "For SN1 reaction preferred solvent will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Benzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ether",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Toluene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The halogen acids react readily with alkene to form alkyl halides. The order of reactivity of halogen acid is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HI > HCl > HBr > HF",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HI > HBr > HCl > HF",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HF > HCl > HBr > HI",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HI > HBr > HF > HCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is most easily dehydrohalogenated?  | Cl  | Cl  |",
+    "question_diagram": "/images/last_leap_part2/p112_q11.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "| Cl  | Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Br / 2  CH CH3 2  The major product   is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH CH3 2 Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH CH2 2 Br  Br  CH CH 2 3 Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH–CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound is most polar?  NO2 Cl  Cl",
+    "question_diagram": "/images/last_leap_part2/p112_q13.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are equally polar  NO2  alc. KOH A (major)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CH –CH –CH–CH 3 2 3 F  What is ‘A’?",
+    "question_diagram": "/images/last_leap_part2/p112_q14.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3–CH = CH–CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3–CH2–CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH –C = CH 3 2 CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3–C  C–CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Alkyl fluoride is more conveniently prepared by the reaction",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2Cl + Hg2F2 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH3 + F2 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2 = CH2 + HF ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these  ) excess ( Cl 6 2 y x H C 2           KOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "(Final) Excess   The product ‘y’ is  h  O = COK  O = COH",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O = COK",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O = COH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3COOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3COOK",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The dipole moment of some alkyl halides is correctly given as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3F > CH3Cl > CH3Br > CH3I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3F < CH3Cl < CH3Br < CH3I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3Cl > CH3F > CH3Br > CH3I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3Cl > CH3Br > CH3F > CH3I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The number of ‘C’-atoms in monohaloalkane of lowest molar mass which can show position isomerism and optical isomerism are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 and 4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 and 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 and 5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3 and 6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of dipole moments is given as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3Cl > CH2Cl2 >CHCl3 > CCl4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CHCl3 > CH2Cl2 > CH3Cl > CCl4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CHCl3 > CH3Cl > CH2Cl2 > CCl4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3Cl > CHCl3 > CH2Cl2 > CCl4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct order of boiling points of some alkyl halides  i. n-butyl chloride  ii. Iso-butyl chloride  iii. Tertiary butyl chloride  iv. Secondary butyl chloride",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "i > ii > iii > iv",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "i > iii > ii > iv",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "i > ii > iv > iii",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "i > iv > ii > iii",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Melting point of dichlorobenzene (C6H4Cl2) are correctly given as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "o-C6H4Cl2 > m-C6H4Cl2 > p-C6H4Cl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "p-C6H4Cl2 > m-C6H4Cl2 > o-C6H4Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "p-C6H4Cl2 > o-C6H4Cl2 > m-C6H4Cl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "o-C6H4Cl2 > p-C6H4Cl2 > m-C6H4Cl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 112,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "ROH  PCl5  RCl + (B)  The products (A) and (B) in reactions are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "POCl3 and H3PO3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "POCl3 and H3PO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H3PO4 and POCl3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H3PO3 and POCl3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The reagent which is not used for the following conversion, CH3CH2OH  CH3CH2I, is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaI and conc.H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaI and H3PO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "3CH3Cl + SbF3  3CH3F + SbCl3, the reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Finkelstein reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sandmeyer’s reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gattermann reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Swart’s reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Total number of open chain structural isomers of monochloro derivative having formula C5H11X are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Reactivity of halorenes towards electrophilic substitution reactions is correctly given as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5I > C6H5Br > C6H5Cl > C6H5F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H5I < C6H5Br < C6H5Cl < C6H5F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5I > C6H5Br > C6H5Cl < C6H5F",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H5I < C6H5Br < C6H5Cl > C6H5F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The maximum yield of product in Borodin Hunsdiecker reaction is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH2CH2COOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(CH3)2CHCOOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(CH3)3CCOOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C H CH–COOH 6 5 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Major product obtained on dehalogenation of meso-2, 3-dichlorobutane will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cis-2-butene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Trans-2-butene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2-methyl propene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Butene-1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Product of reaction  CH3  H  CH3  KOH    ) A ( EtOH  Cl  H  H H  CH3  CH3  CH3  CH3",
+    "question_diagram": "/images/last_leap_part2/p113_q29.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mixture of",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl  AlCl / Cl CH        , the",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction   ) A (  3 3 H C in  6 6  major product (A) will be  Cl  Cl  CH3",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "CH3  Cl  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  O  HI Excess ) X (      ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "product Major  (X) in this reaction is  OH  I",
+    "question_diagram": "/images/last_leap_part2/p113_q31.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "OH I",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Mixture of",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the given reaction    / Br2        Br R RCOOAg  Which one of the following acid will give maximum yield of R – Br in the above reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – CH – COOH 3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3 – CH2 – CH2 – COOH  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH – C – COOH 3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H5COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 113,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following in decreasing order of solvolysis for SN1 reaction  CH–CH=CH CH – 3 | Cl  (I)  CH CH CH Cl = – – 2  (II)  CH C CH CH = – – 2 3 | Cl  (III)  (IV) CH CH CH CH = – – 3 | Cl",
+    "question_diagram": "/images/last_leap_part2/p114_q33.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "I > II > III > IV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I > IV > II > III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IV > I > II > III",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II > I > IV > III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction sequence  Air/h X  C H /AlCl (anh) 6 6 3 excess Y  CHCl3  The product Y is  || O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "COCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C H C C H 6 5 6 5 – –",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5CHO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H5CO4  Cl  CCl    x. The product ‘x’ is  2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "H — C — CH  || 3  4  H — C — CH  3",
+    "question_diagram": "/images/last_leap_part2/p114_q35.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Meso form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Racemic mixture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "X contains no asymmetric carbon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "X is optically active",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The total number of structural isomeric trichloroderivatives formed by propane are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6  Br  CH —C—CH 3 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "+ Alcoholic KOH  CH3  This process gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isobutene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tertiary butyl alcohol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both but more fraction of alkene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both but more fraction of alcohol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The number of isomers of compound C2BrCIFI",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "9",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "An optically active 3-bromo-3-methyl hexane on hydrolysis gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Optically inactive mixture",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Optically active mixture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3-methyl-2-hexanol with inversion of  configuration",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No reaction  F",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "NaOH  C H 2 5 P . P is  NO2  F",
+    "question_diagram": "/images/last_leap_part2/p114_q40.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C H 2 5  OH  F",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2–CH H 2–O  NO2  OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH2–CH H 2–O  NO2  OH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C H 2 5  NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following aryl halide undergoes nucleophilic substitution by elimination-addition mechanism and not by addition-elimination mechanism?  Br  Br  F C 3",
+    "question_diagram": "/images/last_leap_part2/p114_q41.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Br  Br  O N 2 NO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 114,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct for successful bimolecular nucleophilic reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "N S 2 reactions proceeds via increase in Gibb’s free energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Proceeds with retention of configuration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N S 2 reactions follow 1st order kinetics",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N S 2 mechanism can rapidly occur in polar aprotic solvent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compounds is most reactive towards nucleophilic substitution reaction in polar protic medium?  CH3",
+    "question_diagram": "/images/last_leap_part2/p115_q43.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "H C 3 CH – Br 2  CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H C 3  Br  CH3  C H5 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H C 5 2 CH – Br 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O N 2 CH – Br 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will be obtained by the bromination of isopropyl benzene in presence of sunlight?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – 2 CH –CH –Br 2 2  CH(CH ) 3 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CBr(CH ) 3 2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH – 2 CH–CH3  Br  CH3  KNH Liquid NH ?     2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "3  Br  Major product is  CH3  CH3",
+    "question_diagram": "/images/last_leap_part2/p115_q45.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "NH2  NH2  CH2 – NH2  CH3  NH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The densities of polychloromethane varies as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CCl4 > CHCl3 > CH2Cl2 < CH3Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CCl4 > CHCl3 = CH2Cl2 > CH3Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CCl4 < CHCl3 < CH2Cl2 < CH3Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CCl4 > CHCl3 > CH2Cl2  > CH3Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "F  Mg dry ether   O N 2 Br  The compound   in the reaction",
+    "question_diagram": "/images/last_leap_part2/p115_q47.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "O N 2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO2  MgF  F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O N 2  O N 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "H Cl P    is",
+    "question_diagram": "/images/last_leap_part2/p115_q48.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl  Cl  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 115,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "H C 3 C – OAg    2 4 I /CCl X   O  What is the name of the above reaction and product X?",
+    "question_diagram": "/images/last_leap_part2/p116_q49.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Finkelstein iodide exchange method;  CH3 I",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hunsdiecker Borodin reaction;  I H C 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hunsdiecker Borodin reaction;  COO H C 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Birmbaun simonini reaction;  COO H C 3 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  2 Cl , high temp. 2 3 CH CH CH P     Which of the following statement is correct regarding above reaction?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Product (P) is 3-bromopropene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The reaction follows free radical addition  mechanism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The reaction follows free radical substitution  mechanism via the formation of allyl free radical",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KCN",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CH CH Br 3 2  AgCN  The product   and   are",
+    "question_diagram": "/images/last_leap_part2/p116_q51.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Same compounds",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positional isomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Functional isomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Geometrical isomers  Cl , h 2  B",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Hydrolysis A (Hydrocarbon) Al C 4 3  Na, dry   ether C Cl , h 2  D aq KOH  E  Product E is",
+    "question_diagram": "/images/last_leap_part2/p116_q52.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethanol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dimethyl ether",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Methoxy ethane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ethoxypropane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "When C6D5Br reacts with NaNH2/liquid. NH3, the product obtained is  D  NH2  D  NH2",
+    "question_diagram": "/images/last_leap_part2/p116_q53.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "D D  D  D  D  NH2  D  NH2  D",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D  D D  D  NBS A HBr ROOR B Zn   X;",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CH3CH=CH2  X is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH3CH = CH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3CH2CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgBrCH2CH2CH2MgBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound containing allylic halogen?  Cl",
+    "question_diagram": "/images/last_leap_part2/p116_q55.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Br",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "I",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is wrong?",
+    "question_diagram": "/images/last_leap_part2/p116_q56.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Major  product  of  reaction  OH CH CH CH = CH 3 2  with HBr is  OH CH CH CH – CH 3 2 2 Br  CH3  CH3  KNH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NH2  Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 116,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The product of given reaction  I + Cu + heat C H 2 5",
+    "question_diagram": "/images/last_leap_part2/p117_q57.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C H 2 5 C H 2 5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C H 2 5 I",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "An SN1reaction at an asymmetric carbon of a compound always gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An enantiomer of the substrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A product with opposite optical rotation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A mixture of diastereomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A maximum racemized product",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "At low temperature, the slow addition of molecular bromine (1 eq) to H2C = CH – CH2 – C  CH gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH2 = CH – CH2 – CBr = CHBr",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BrCH2 – CHBr – CH2 – C  CH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2C = CH – CH2 – CH2 – CBr3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3 – CBr2 – CH2 – C  CH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The SN2 mechanism for  R – X + KOH (aq)  R – OH + KX follows with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "80% Retention",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "40% Inversion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "100% Inversion (almost)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "90% Retention",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The most reactive chloride towards SN1 mechanism among the following is  CH – Cl 2  Cl",
+    "question_diagram": "/images/last_leap_part2/p117_q61.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(CH3)3C – Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will have highest nucleophilicity?",
+    "question_diagram": "/images/last_leap_part2/p117_q62.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "F",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Most reactive species for SN2 will be",
+    "question_diagram": "/images/last_leap_part2/p117_q63.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl  Cl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following compounds possesses the highest melting point?  Cl  Cl",
+    "question_diagram": "/images/last_leap_part2/p117_q64.png",
+    "options": [
+      {
+        "label": "2",
+        "text": "Cl",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Cl  Cl  Cl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following used to prepare both alkane and alkene?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wurtz reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Kolbe’s reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Williamson’s synthesis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sandmeyer reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The best method to prepare alkyl chloride from an alcohol is by adding",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "PCl5",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PCl3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SOCl2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ZnCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 117,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CH3  Compound C is  Br  Br",
+    "question_diagram": "/images/last_leap_part2/p118_q67.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH – COOH 2   COOH  Br  Br  COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "COOH  CH3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange the following in increasing order of dipole moment  I. Toluene II. m-dichlorobenzene  III. o-dichlorobenzene IV. p-dichlorobenzene",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I < IV< II< III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "IV< I < II < III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "IV < II < III < I",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "IV < II < I < III",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "DDT is formed from",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Benzene and chlorobenzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chloral and chlorobenzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chloral and benzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Chlorobenzene and chlorine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound shows greater reactivity towards nucleophilic substitution?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "m-chloronitro benzene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Chlorobenzene",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "o-chloronitrobenzene",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "o-chlorophenol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "2 Cl hydrolysis h (X) Benzotrichloride (Y)     compound (X) and (Y) respectively are",
+    "question_diagram": "/images/last_leap_part2/p118_q71.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "C6H5CH3 and C6H5CHO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C6H6 and C6H5CHO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C6H5CH3 and C6H5COOH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C6H6 and C6H5COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "The total number of stereoisomers in  CH3 – CH = CH – CHClCH3 is",
+    "question_diagram": "/images/last_leap_part2/p118_q72.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  HN O  C H 2 5 CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Br /Fe 2 Product.  The product is  HN O  C H 2 5 CH3",
+    "question_diagram": "/images/last_leap_part2/p118_q73.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Br  HN O  C H 2 5 CH3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Br  HN O  C H 2 5 CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Br  HN O  C H 2 5 CH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reacts with water most readily?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tropylium chloride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vinyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Allyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "t-butyl chloride",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "SN2 reaction is favoured by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Strong nucleophile",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polar protic solvent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less crowding at the electrophilic centre",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not give alkane on reduction with zinc and dilute HCl?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Alkyl fluoride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alkyl chloride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alkyl iodide",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Alkyl bromide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 118,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "In following reaction,  Br /CCl 2 4 Ph – CH2 – COOAg (A)  Major product A is  Br  CH –Br 2",
+    "question_diagram": "/images/last_leap_part2/p119_q77.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Br  Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": " N BF 2 4 F  The reaction is known as",
+    "question_diagram": "/images/last_leap_part2/p119_q78.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Sandmeyer reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Balz Schiemann reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Frankland reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gattermann reaction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "For the same alkyl group, correct order of boiling point is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "RF > RBr > RCl > RI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "RF > RCl > RBr > RI",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "RI > RBr > RCl > RF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "RI > RBr > RF > RCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Major product of the reaction  CH3   + CH3 – CH2 – ONa  A (Major)  CH – C – Cl 3  CH3  What is A?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ethene",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "t-butylethyl ether",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ethanol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isobutene",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "NaI 3 2 3 2 Acetone CH CH Cl CH CH I.   This reaction is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Swarts reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Finkelstein reaction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gattermann reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sandmeyer’s reaction  CH3  Cl /h 2   CH Cl/FeCl 3 3 aq. KOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "excess  KMnO4  –  hot/OH  Product   in the above reaction sequence is  CH3  CCl3",
+    "question_diagram": "/images/last_leap_part2/p119_q82.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "COOH  COOH  COOH  COOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "COOH  COOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Unsymmetrical alkanes can be best prepared by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Wurtz reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Corey house synthesis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Frankland reaction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kolbe’s electrolysis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "CHCl3 is used as an anaesthetic, but kept in dark bottles because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is highly volatile",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has high viscosity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It forms highly poisonous gas phosgene  (COCl2) in presence of air and light",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Of the five isomeric hexanes, the isomer which can give two monochlorinated structural isomers is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "n-hexane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2,3-dimethylbutane",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2,2-dimethylbutane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2-methylpentane",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "Br + Mg Dry ether A H O 3 B.  The compound ‘B’ is",
+    "question_diagram": "/images/last_leap_part2/p119_q86.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "OH Br",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 119,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section A (Objective)",
+    "question_text": "C H OH + KOH 2 5  A (major).  Identify A.  CH3  CH3  CH3",
+    "question_diagram": "/images/last_leap_part2/p120_q87.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH3  CH3  CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH3  CH3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Vinyl chloride can be easily hydrolysed.\nReason (R): Resonance is not observed in vinyl chloride.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The reactivity of alkyl halide for nucleophilic  substitution reaction follows the order:  RI > RBr > RCl\nReason (R): Leaving ability of halide ions follows the order:  I– > Br– > Cl–  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Alkyl iodides are most reactive alkyl halides in  both SN1 and SN2 reactions.\nReason (R): Alkyl iodides are least polar alkyl halides.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Ethylbromide and bromobenzene can be  distinguished by treating with aq. KOH followed by treatment with AgNO3.\nReason (R): Bromobenzene undergoes nucleophilic  substitution while ethyl bromide does not undergo nucleophilic substitution.  HO – CH2 – (CH ) 2 2 2 SOCl ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Cl – (CH ) 2 3\nReason (R): Reaction follows SN2 mechanism.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): F +  Mg ether Mg – F.\nReason (R): Fluorine forms covalent bond with Mg.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): C6H5F gives large amount of m-nitration  products than all the other halides.\nReason (R): F is least electronegative.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Nucleophilic substitution reaction of an  optically active 3° alkyl halide gives a mixture of enantiomers.\nReason (R): The reaction occurs by SN1 reaction.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Tertiary alkyl halides undergo SN1 reaction.\nReason (R): It has steric hindrance.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_11_haloalkanes_and_haloarenes_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Amongst dichlorobenzenes, p-dichlorobenzene  has maximum melting and boiling point.\nReason (R): p-dichlorobenzene is highly symmetrical  whereas o and m dichlorobenzenes are unsymmetrical.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 120,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

@@ -1,0 +1,1737 @@
+[
+  {
+    "question_id": "chem_15_biomolecules_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Lactose on hydrolysis gives",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "-D-Galactose and -D-Glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "-D-Galactose and -D-Glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "-D-Galactose and -D-Glucose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "-D-Galactose and -D-Glucose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The given structure of -amino acid exist at which pH?  R  |      H N C COO  2 |  H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Mannose and glucose are diastereomers. They are known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C4-Epimers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C2-Epimers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C4-Anomers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Isoelectric point for neutral amino acid, glycine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "7",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "< 7",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "> 7",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of the above are possible",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Proteins are made up by various arrangements of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Amino acids",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fats",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nucleosides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carbohydrates",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The rapid interconversion of -D-glucose and  -D-glucose in solution is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Racemisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mutarotation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tautomerism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Conformation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In glycine, the basic group is (when pH > 7)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– NH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– COOH  – O   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– C – O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 NH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Insulin is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "An amino acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A protein",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A carbohydrate",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A lipid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "At isoelectric point, amino acid will have",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monopolar cationic structure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monopolar anionic structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monopolar cationic or anionic structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Minimum solubility in water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Amino acids present in naturally occurring proteins are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "D-form only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "L-form only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Either D or L",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both D and L",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In denaturation, which structure of proteins does not get changed chemically?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primary",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Secondary",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tertiary",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Quaternary",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not true about glucose?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose on complete reduction with HI and red  phosphorus finally gives n-hexane",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It reacts with acetic anhydride and gives  hexaacetate derivatives",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glucose combines with hydroxyl amine to form  a monoxime",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mild oxidation of glucose with Br2 water gives  gluconic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Cellulose is a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Linear polymer of -glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Linear polymer of -glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Branched polymer of -glucose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Branched polymer of -glucose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 169,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Final product of the series during boiling with dilute acid  Starch (C6H10O5)n  A  B  C",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sucrose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dextrin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maltose  | H  | H  NH3 R C NH – – 2 | H  H O/H 2 +  HCN R C OH – –  [D]",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "R C O – =  | CN  | CN  In the above synthesis, the product [D] can be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A carbohydrate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lipid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Amino acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Sucrose itself is a non-reducing sugar it is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The presence of equal amount of D(+) glucose  and D (–) fructose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The easy conversion of sucrose into invert  sugar on hydrolysis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The linkage of both the anomeric carbon atom  in an actual form",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The presence of -hydroxy keto group in its  structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "B       3 HNO  Glucose        Water / Br2  A  A and B respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Gluconic acid, Gluconic acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Saccharic acid, Saccharic acid",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Saccharic acid, Gluconic acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Gluconic acid, Saccharic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number aniline and ammonia molecule formed during the glucosazone formation when glucose reacts with phenyl hydrazine is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1, 4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In the given reactions  Cl  [X] (i) NH3(excess)  (ii) H O/H 2 + CH — CH — COOH 3  Product [X] will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- Amino acid",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- Aminoamide",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- Amino acid",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "- Aminoamide",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order of sweetness of sucrose, fructose, maltose and glucose is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fructose > sucrose > glucose > maltose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose > fructose > maltose > sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sucrose > fructose > glucose > maltose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maltose > fructose > sucrose > glucose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The total number of optical isomers in sorbitol is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number of asymmetic carbon atoms in pyranose form of glucose is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Arrange in order of increasing acidic strength  +  NH2 H N 3  COOH z y  x",
+    "question_diagram": "/images/last_leap_part2/p170_q23.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "x > z > y",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "z < x < y",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x > y > z",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "z > x > y",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number of molecules of acetic anhydride that can react with glucose is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number of –OH groups attached with primary, secondary and tertiary carbon in open chain structure of glucose respectively is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1, 4, 1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1, 4, 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2, 3, 1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1, 3, 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of HCOOH and HCHO formed respectively when glucose is treated with HIO4",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5 mole and 1 mole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 mole and 5 mole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 mole and 4 mole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4 mole and 2 mole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All monosaccharides are reducing in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Glucose has total 16 stereoisomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclic form of glucose has 4 stereocenters",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "D-Galactose and D-glucose are C-2 epimer to  each other",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In maltose the two glucose molecules are linked by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(C-1, C-4)  - link",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(C-1, C-4)  - link",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(C-1, C-2)  - link",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(C-1, C-2)  - link",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 170,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Percentage of amylose in starch is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "15 - 20%",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 - 30%",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "80 - 85%",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "30 - 35%",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Conversion of glucose into gluconic acid can be best carried out by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 2 Br / H O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "4 KMnO / OH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conc. HNO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 7 K Cr O / H",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The two forms of D-glucopyranose obtained from solution of D–glucose are known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Epimers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enantiomers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Geometrical isomers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "-D(+) -glucose and -D(+) -glucose are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enantiomers",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Geometrical isomers",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Epimers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anomers",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Vitamin B12 contains metal",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca (II)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn (II)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe (II)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Co (III)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Denaturation of protein is caused by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increasing temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Changing the pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Addition of detergent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "The number of moles of phenylhydrazine required to form glucosazone when it reacts with glucose is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following is the monomer of starch?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sucrose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fructose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lactose",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following does not undergo hydrolysis?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cane sugar",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fructose",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Glucose",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the amino acid is optically inactive?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Glycine",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alanine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Serine",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Valine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Cyclic structure of glucose consist",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ether group",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Alcoholic group",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aldehydic group",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect for glucose?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Its stable cyclic form is furanose form",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It does not give positive 2, 4-DNP test",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heating with HI/Red P, it forms n-hexane",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It has four secondary alcoholic groups in open  chain",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following compound cannot be carbohydrate?  CH OH 2  H",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH – C – CHO 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C = O  CH OH 2  CH OH 2  CHO  CH OH 2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH(OH)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C = O  CH OH 2  [CH(OH)]3  CH OH 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the biomolecule(s) is insoluble in water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- keratin",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Haemoglobin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ribonuclease",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adenine",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section A (Objective)",
+    "question_text": "In case of sucrose",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C1 – C4 glycosidic linkage is responsible for its  non reducing nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C1 – C4 glycosidic linkage is responsible of its  reducing nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C1 – C2 glycosidic linkage is responsible for  its non reducing nature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "C1 – C2 glycosidic linkage is responsible for its  reducing nature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 171,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Maltose is a reducing sugar but sucrose is  not.\nReason (R): Hemiacetal linkage is present in sucrose,  which is absent in maltose.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Uracil occurs in DNA, but not in RNA.\nReason (R): RNA undergoes replication.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Starch contains about 20% amylose and 80%  amylopectin.\nReason (R): In starch the glucose units are linked by  -linkages.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Monosaccharides which differ in configuration at  C2 in ketoses are called anomers.\nReason (R): Glucose and galactose are anomers.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Glycine is amphoteric in nature.\nReason (R): It contain acidic and basic groups.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_15_biomolecules_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Glucose and fructose are anomers of each  other.\nReason (R): Stereoisomers having different configurations at  C – 2 carbon of glucose are anomers.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 172,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

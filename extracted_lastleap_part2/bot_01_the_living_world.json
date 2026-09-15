@@ -1,0 +1,5682 @@
+[
+  {
+    "question_id": "bot_01_the_living_world_secA_q1",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect one (w.r.t. taxonomic key)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Based on contrasting characters",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Generally analytical in nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Each statement is called couplet",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Used for identification of plants or animals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q2",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Animals, dogs and mammals represent",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Taxa at different levels",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Taxonomic hierarchy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Taxa at equivalent level",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Categories at equivalent level",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q3",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not true w.r.t. binomial nomenclature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "No names are recognised prior to those used  by Linnaeus in 1785 in the 9th edition of Systema Naturae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Generic name, species name and author  citation collectively form binomial epithet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Principle of priority is the most important of all  the rules of ICBN",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If a species name has two or more words in  its name, a hyphen is put between these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q4",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "According to rules of binomial nomenclature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Generic name can be single or compound",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Names of families and sub-families should be  based on name of type, genus and such families names are plural",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Two species belonging to same genus can  have similar specific names",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Two genera in plants or animals can have the  same name",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q5",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect w.r.t. taxonomic categories?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Among seven obligate categories only four  categories were contributed by Linnaeus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Polymoniales has correlated families like  Convolvulaceae and Solanaceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Family represents the group of closely related  genera",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sub species or variety can be treated as  lowest unit of classification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q6",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomical aids are helping hands of taxonomy, and two of them functions for ex-situ conservation strategy, these are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Botanical garden and herbarium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zoological parks and museums",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zoological parks and botanical gardens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Museums and botanical gardens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q7",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Living organisms exhibit distinctive characteristics to differentiate from non living objects. Which one of the following statements can be considered as defining property of living things ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in body mass as a criterion for growth",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reproduction is synonymous with growth in  unicellular organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ability of living organisms to sense their  surroundings",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metabolic reactions that can be demonstrated  outside the body in cell-free system only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q8",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "First step of taxonomy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Classification",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nomenclature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Identification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Characterisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 229,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q9",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the group of taxons representing same category of taxonomic hierarchy.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "sativum, tuberosum, indica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solanum, nilotica, Brassica",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Potato, tomato, Fabaceae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Petunia, Datura, Solanaceae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q10",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Deposition is a last step of herbarium technique which include arrangement of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Species folders",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Genus folders",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sub-species folders",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Varieties folders",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q11",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following taxonomical aids is useful in providing information for the actual account of habitat and distribution of plants of a given area?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Manuals",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monographs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Couplet",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q12",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Biologists have established certain procedures and techniques to store and preserve the information as well as specimens. Amongst these which one has collection of both preserved plant and animal specimens?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zoological parks",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Herbarium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Museum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Botanical gardens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q13",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the correct statement w.r.t. living organisms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Growth and cellular organisation are  considered as defining properties of living organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reproduction can be an all inclusive defining  characteristic of living organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Living organisms are self replicating, self  regulating and evolving interacting systems",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isolated metabolic reactions in vitro are living  things",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q14",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Study of diversity of organisms and evolutionary relationship amongst them on the basis of all possible characters is called as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Taxonomy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Systematics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alpha-taxonomy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Phylogeny",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q15",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flora contains the actual account of habitat and  distribution of plants of a given area",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Manuals are useful in providing information for  identification of names of species found in an area",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monographs contain information on many taxa",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Each statement in the key is called ‘lead’",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q16",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Growth can not be taken as a defining property of living organisms because",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Non-living objects also exhibit growth by  accumulation of material on the surface",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unicellular organisms also grow by cell division",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Growth occurs throughout the life span in  animals",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A dead organism does not grow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q17",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Choose incorrect statement w.r.t. taxa",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Term given by H. J. Lam for plants",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is abstract term and represents rank in  hierarchy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Can indicate categories at very different levels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Mammals and dogs represent taxa at different  levels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q18",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which statement is incorrect w.r.t. genus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Each genus may have one or more than one  specific epithets",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It comprises a group of related species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It has more characters in common in  comparison to species of other genera",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potato and brinjal belong to different genus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q19",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out for taxonomic keys",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Statement in key is called lead",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Generally analytical in nature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Separate taxonomic keys are not needed for  each taxonomic category",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Concept of key was developed by John Ray",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q20",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Hominidae, Anacardiaceae, Muscidae and Poaceae belong to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same family",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Same order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same category",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kingdom animalia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q21",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomic keys are based on the contrasting characters in a pair and each statement in the key is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Couplet",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lead",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Grade",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Clade",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q22",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Choose the wrong statement w.r.t. distinguishing characteristics of living beings",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In majority of higher organisms, the growth and  reproduction are mutually exclusive events",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Degrowth will occur when catabolism exceeds  anabolism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isolated metabolic reactions in-vitro are neither  living things nor living reactions",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Growth cannot be taken as a defining property  of living organisms, if we take increase in body mass as a criterion of growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 230,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q23",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not a rule for binomial nomenclature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The name of categories higher than the name  of genus are not printed in italics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Binomial epithet consists of two Latin and one  Roman word",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Generic and common names can never be the  same",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The name of the discover is given after  scientific name either in full or in abbreviated form",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q24",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. living beings",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Growth cannot be taken as a defining property  of living organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Growth can be easily observed in vitro culture",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metabolic reactions cannot be demonstrated  outside the body in cell-free system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All organisms, from the prokaryotes to the  most complex eukaryotes can sense and respond to environmental cues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q25",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Fragmented organism regenerates the lost part of its body and become a new organism in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Planaria",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Silk worm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flat worm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q26",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "According to ICBN rules, families and subfamilies names are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Printed in italics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Always underlined",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Based on the name of type genus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Must having suffix \"eae\" and \"ineae\"  respectively",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q27",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "What is incorrect for taxonomic hierarchy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "There are 7 obligate and more than 21  intermediate categories",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher the category, fewer the number of  organism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lower the category, more the number of  common features",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Greatest similarity in structure is found in  between members of a species",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q28",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following contains the actual account of habitat and distribution of plants of a given area?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Manual",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monograph",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalogue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q29",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which suffix is used for 'class' according to international code of Botanical Nomenclature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "- phyceae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "- opsida",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "- ales",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q30",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "All taxonomic categories together constitutes the taxonomic hierarchy, where",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Each rank or taxon represents a unit of  classification",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Species essentially is not the lowest category",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Subspecies or variety constitutes the lowest  category of hierarchy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Genus is an aggregate of closely related tribes",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q31",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Living organisms exhibit many distinctive characters where one character is said to be the defining property i.e.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Growth",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metabolism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consciousness",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q32",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Growth occurs by synthesis of protoplasmic  and apoplasmic substances",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reproduction is synonymous with growth in  unicellular organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isolated metabolic reactions in-vitro are surely  living things",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consciousness is the most obvious and  technically complicated feature of all living organisms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q33",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Reproduction is not at all inclusive defining characteristic of living organisms because one of the feature fragmentation, which occurs in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protonema of moss",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Planaria",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chlorella",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q34",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is not concerned with the museum?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "They have collections of preserved plant and  animal specimens for study and reference",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "These are generally set up in educational  institutes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Birds and mammals are usually stuffed and  preserved",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "They donot have collections of skeletons of  animals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 231,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q35",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct statement w.r.t. binomial nomenclature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biological names are generally in italics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Italics printing of scientific names indicate their  Latin origin",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "This system was given by father of taxonomy  in Historia Plantarum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Binomial epithet consists of three Latin words",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q36",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Angiosperms, dicots and mango represent",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Categories of different levels",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Categories of same level",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same taxa of same category",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Different taxa of different levels",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q37",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following combination of taxa represent same category of hierarchy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lion, leopard, tiger",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Potato, brinjal, grasses",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Petunia, Datura, Solanaceae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solanaceae,Convolvulaceae, Polymoniales",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q38",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxon name ending with “-eae” suffix represents",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Class",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Family",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tribe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q39",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following plant’s nomenclature is autonym also?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rattus rattus",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acacia nilotica indica",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Brassica oleracea capitata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acacia nilotica nilotica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q40",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. taxonomic categories",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Primata",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Diptera",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Poales",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monocotyledonae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q41",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Biological concept of species given by Ernst Mayr is applicable for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mangifera indica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pisum sativum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Homo sapiens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q42",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomic literature that contains the actual account of habitat and distribution of plants of a given area is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monograph",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Manual",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalogue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q43",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Specimens of algae, fungi, mosses and ferns are kept in/as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbarium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Botanical gardens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Museums",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flora",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q44",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Polytypic genus is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A genus having more than one species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A genus having one species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A species with two or more subspecies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A genus having similar name for species and  subspecies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q45",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given scientific name is written, as mentioned in the rules of binomial nomenclature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rosa indica Linn.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Rosa Indica Linnaeus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Rosa Indica L.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Rosa indica Linn.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q46",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metabolic reactions can be demonstrated  outside the body in cell-free systems",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reproduction and cellular organisation are the  defining features of life forms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monocots and grasses represent taxa at  different levels",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Separate taxonomic keys are required for each  taxonomic category",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q47",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Each character is given equal importance and at the same time hundreds of characters can be considered in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Numerical taxonomy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Phenetics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Chemotaxonomy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q48",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect match  Taxon Category",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Insecta – Class",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tiger – Species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cruciferae – Family",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Orchid – Order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q49",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Find the odd one w.r.t. taxonomic hierarchy of mango",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sapindaceae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sapindales",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dicotyledonae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angiospermae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 232,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q50",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are the defining features of living organisms?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Consciousness, reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metabolism, cellular organisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Growth, consciousness, metabolism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellular organisation, growth, reproduction",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q51",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomic aid which contains actual account of habitat and distribution of plants of a given area is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Manual",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monograph",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Catalogue",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Flora",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q52",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. taxonomic hierarchy",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Family has fewer common characters than  species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Variety is lowermost rank of Linnaeus  hierarchy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Order is a group of closely related classes,  with few general characters",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It consists of seven obligate categories and  about 21 intermediate categories",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q53",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following four statements (a-d)  a. Higher the category, fewer will be the number of common characters.  b. Higher the category, lower is the number of organisms in it.  c. Class is a group of related division.  d. Families are characterised mainly on the basis of reproductive features of plants.  Select the incorrect statements.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, c & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, c & d",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q54",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following criteria form the basis of modern taxonomic studies?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Development process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ecological information of organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "External and internal structure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q55",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect option",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All organisms are aware of their surroundings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The basis of taxonomy like identification,  naming and classification of organisms are universally evolved under international codes",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Barley, rice, cat and grasses represent taxa at  same level",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Clade is also known as monophyletic taxon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q56",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Key is a taxonomical device  a. Of analytical nature.  b. Where contrasting traits are collectively called lead.  c. Based on acceptance or rejection of choice between two options.  d. Prepared separately for each taxonomic category.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct except b",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q57",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one out w.r.t. taxonomic literature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Museums",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Manual",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monograph",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q58",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the given taxonomic aid is useful as ex situ conservation method?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbarium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Botanical garden",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Museum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalogue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q59",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "All given are related to the taxonomic hierarchy of mango, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Poales",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anacardiaceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Dicotyledonae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Angiospermae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q60",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The scientific nomenclature representing the species of wheat is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Triticum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Aestivum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "aestivum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Triticum aestivum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q61",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Herbarium is not prepared for  a. Bryophytes  b. Algae, fungi and lichens  c. Larger woody structures  d. Succulent plants  e. Flowering twig of vascular plant  f. Aquatic plants",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All of these",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All except ‘e’",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, b & d only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, e & f",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q62",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Suffixes like -phyceae, -ae and -opsida are used for the category called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Division",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Class",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Order",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Kingdom",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 233,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q63",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "a. Tigon and Liger are hybrids produced under captive conditions  b. Modern concept of species is based upon “an ideal pattern” for each species & genus  c. Taxon represents a taxonomic group of real organisms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b & c are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & b are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q64",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the example/s that represent both autonyms and trinomial",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Corvus splendens splendens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica oleracea captita",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Acacia nilotica nilotica",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q65",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Technically most complicated and all inclusive property of living is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Consciousness",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metabolism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q66",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following pair of tax constitute or form the same taxonomic category?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Solanum and Solanaceae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Convolvulaceae and Solanaceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Felidae and Muscidae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Triticum and Pisum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q67",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Third kingdom was created by Haeckel to include",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only unicelled eukaryotic organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Unicelled, colonial and multicelled forms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All unicelled organisms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Multicelled, filamentous organisms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q68",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Find the group out of the five kingdoms of Whittakar that shows osmotrophic nutritional behaviour",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Monera, protista and fungi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monera, protista and animalia",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monera, protista and plantae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protista, fungi and animalia",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q69",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "No names are recognised prior to those used by Linnaeus in 1758 in the 10th edition of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Philosophia Botanica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Systema Naturae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Historia Naturalis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Species Plantarum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q70",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair represents the defining properties of living beings?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Intrinsic growth, reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellular organisation, metabolism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Consciousness, extrinsic growth",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reproduction, growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q71",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements and find the correct one  a. Living organisms are self replicating, evolving and self regulating interactive systems capable of responding to external stimuli  b. Wheat, monocots and plants represent taxa of the same level  c. Higher the category, greater is the difficulty of determining the relation to other taxa of same level  d. Lower the taxa, more are the characteristics that the members within the taxon share",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All are correct, except ‘b’",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All are correct, except ‘c’",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct, except ‘d’",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q72",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which taxonomic aid is useful as a quick referral system in taxonomic studies?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Museum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Botanical garden",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Taxonomic key",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Herbarium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q73",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is incorrect w.r.t. rules of binomial nomenclature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Biological names are generally in Latin and  written in italics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "First word represents the genus and second  component is specific epithet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both the words in a biological name when  handwritten, are underlined separately",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Printed in italics to indicate their Greek origin",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q74",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Process by which anything is grouped into convenient categories based on some easily observable characters called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Classification",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nomenclature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Identification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Characterisation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 234,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q75",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Fundamental elements of taxonomy are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Characterisation and classification only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Characterisation,  identification  and classification only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Characterisation,  classification  and nomenclature only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Characterisation, identification, classification  and nomenclature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q76",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are the defining features of life forms?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metabolism, reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellular organisation, consciousness",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "External growth, reproduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consciousness, external growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q77",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the wrong statement w.r.t. systematics",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It takes into account evolutionary relationships  between organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The word systematics is derived from Greek  word ‘systema’ which means systematic nomenclature of organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It involves study related with different kinds of  organisms, their diversities and relationships among them",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is taxonomy alongwith phylogeny",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q78",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Family is a group of related genera with still  less number of similarities as compared to genus and species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Families are characterised on the basis of  vegetative characters only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Each genus may have one or more than one  specific epithets representing different organisms, but having morphological similarities",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Genera Solanum, Datura and Petunia are  placed in the family Solanaceae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q79",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct combination of the statements (a-d) regarding taxonomic hierarchy  a. As we go higher from species to kingdom, the number of common characters goes on decreasing  b. Lower the taxa, more are the characteristics that the members within the taxon share  c. Higher the category, greater is the difficulty of determining the relationship to other taxa at the same level  d. Kingdom plantae comprises all plants from various phyla  The correct statements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only c & d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, b, c",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "b, c, d",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only a",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q80",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Match the column I with column II  Column I Column II  a. Dicotyledonae (i) Phylum  b. Arthropoda (ii) Class  c. Diptera (iii) Family  d. Anacardiaceae (iv) Order",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(i), c(iii), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(i), b(ii), c(iii), d(iv)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q81",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Mark the incorrect match",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Lloyd Botanical Garden – Darjeeling",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Indian Botanical Garden – Pune",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "National Botanical – Lucknow Research Institute",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Royal Botanical Garden –  Kew",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q82",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Taxonomic keys are generally analytical in  nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biological museums have collections of  preserved plant and animal specimens for study and reference",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Herbaria cannot serve as quick referral  systems in taxonomical studies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Manuals are useful in providing information for  identification of names of species found in an area",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q83",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The international size of herbarium sheet on which plants after drying and pressing are mounted is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "16 × 11 cm2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16½ × 11½ inches2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "12½ × 16½ m2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "41 × 29 inches2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q84",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Biological concept of species given by Ernst Mayr cannot be applied to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Organisms that reproduce by asexual methods  only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sexually reproducing forms breeding the whole  year",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Sexually reproducing forms breeding in a  particular season",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sexually reproducing organisms having external  fertilization",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q85",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following category was not included in Linnaean hierarchy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Class",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Genus",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phylum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 235,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q86",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isolated metabolic reactions in vitro are living  reactions",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Human being is the only organism who has  self-consciousness",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reproduction is an all inclusive property of  living beings",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Unicellular organisms also grow by cell-division",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q87",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The scientific names ensure that  a. Each organism has only one name.  b. Description of any organism should enable people to arrive at the same name.  c. Such a name has not been used for any other known organism.  d. Universally accepted principles are followed.  The correct statements are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a, b & c",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "All are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only a & c",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q88",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Zoological parks provide",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Quick referral system in taxonomic study",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Conditions similar to natural habitats for  animals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Collections of preserved animal specimen for  study and reference",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Information on any one taxon",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q89",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Basis of modern taxonomic studies includes all, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "External and internal structures of organisms",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Developmental process and ecological  information of organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Observable morphological characters",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Listing  of  all  organisms  but  their characterisation is not required",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q90",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomy in which number and codes are assigned to all the characters and the data are processed using computers is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phenetics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biosystematics",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Alpha taxonomy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Classical taxonomy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q91",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "A taxon as a group of related species with more common characters is represented by which one of the following group of organisms?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Radish, cabbage  and cauliflower",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tomato, potato, and chilli",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lion, tiger and leopard",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cat, dog and mice",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q92",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomical aid which provides information for identification of names of species found in an area is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Manual",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monograph",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Herbarium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q93",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomic aid which provides index to the plant species found in an area is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Monograph",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Manual",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalogue",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q94",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements and select the correct set of options for these.  a. The common mode of reproduction is fragmentation in ________.  b. Dicots and monocots with few similar characters are assigned to a higher category called _____.  c. Taxonomical aids with conservation of live specimens provide means of _______ strategies.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(a) Unicellular algae and moss protonema  (b) Class  (c) In-situ conservation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a) Yeast and Hydra  (b) Division  (c) Ex-situ conservation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a) Moss protonema and filamentous algae  (b) Division  (c) Ex-situ conservation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a) Moss protonema and filamentous algae  (b) Genus  (c) Ex-situ conservation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q95",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are twin characteristics of growth?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Increase in density and decrease in mass",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Increase in mass and decrease in volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Increase in volume and decrease in density",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Increase in mass and increase in number",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q96",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A multicellular organism grows by cell division",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In plants growth by cell division occurs only up  to a certain age",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In animals growth is definite",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cell division occurs in certain tissues of  animals to replace lost cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 236,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q97",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Growth and reproduction are mutually exclusive events in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unicellular organisms only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Higher animals and lower plants",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Majority of higher animals and plants",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Some bacteria and lower animals",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q98",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct match w.r.t. column I and column II  Column I Column II  a. Fungi (i) Budding  b. Planaria (ii) Fragmentation  c. Filamentous algae (iii) Asexual spore and  protonema of mosses  d. Yeast (iv) Regeneration",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(i), c(iv), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(i), c(iv), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q99",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The most obvious and technically complicated feature of all living organisms is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Consciousness",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metabolism",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q100",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements:  (A) All organisms are aware of their surroundings.  (B) Isolated metabolic reactions in-vitro are not living  reactions.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both (A) & (B) are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (B) is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both (A) & (B) are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only (A) is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q101",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "All living phenomena are due to underlying interactions. Properties of tissues are not present in the constituent cells, but arise as a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Result of interactions among the molecular  components comprising the organelle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Result of interactions among the organelles  only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Result of interactions among the constituent  cells",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Result of interactions among the organelles  and non-living cells",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q102",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pair of characters unexceptionally present in all living organisms and absent in non-living objects?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Consciousness, Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metabolism, Cellular organisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Growth, Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reproduction, Metabolism",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q103",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The approximate number of plant species which have been scientifically named and classified is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.2 million",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.2 million",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5 million",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1.7 million",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q104",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "In which one of the following options the two taxonomic categories given are correctly matched with their organism?  Taxonomic Categories Organism",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Diptera and Felidae – Musca",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Solanaceae and Polymoniales – Datura",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Canidae and Primata – Gibbon",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Triticum and Sapindales – Wheat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q105",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the incorrect statement w.r.t. binomial nomenclature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Each biological name has two components -  the generic name and the specific epithet",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both words, when handwritten are separately  underlined",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Biological names are generally in italics and  written in Latin",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The first word starts with a capital letter",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q106",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The process by which anything is grouped into convenient categories based on some easily observable characters, is known as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Phylogeny",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nomenclature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Identification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Classification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q107",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following represents autonym?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Brassica oleracea capitata",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acacia nilotica nilotica",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hibiscus rosa-sinensis",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Acacia nilotica indica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q108",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Linnaeus gave some principles of the binomial nomenclature in book",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Philosophia Botanica",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Species Plantarum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Systema Naturae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Genera Plantarum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q109",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The number of obligate and intermediate categories which are used in taxonomic hierarchy, are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "6 & 21",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "7 & 21",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "21 & 6",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 & 5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 237,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q110",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "External and internal structure along with the structure of cell, development process and ecological informations of organism are essential and form the basis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Old systematic studies",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Classical systematic studies",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Old taxonomic studies",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Modern taxonomic studies",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q111",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following sequences is correct w.r.t. taxonomic hierarchy in ascending order?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Species order  genus  family",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Genus  family  tribe  order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Family  order  class  phylum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Order  division  phylum  class",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q112",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Term ‘Taxonomy’ was given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A.P. de Candolle",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Santapau",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C. Linnaeus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Theophrastus",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q113",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct statement w.r.t. systematics",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is the study of different kinds of organisms  without their evolutionary relationships",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The word systematics is derived from the Greek  word Systema",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It includes taxonomy as well as phylogeny",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is a part of overall taxonomic arrangement  that include identification only",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q114",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Biological concept of species was given by ____ and it is based on _____.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ernst Mayr, fixity of species",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "John Ray, fixity of species",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ernst Mayr, reproductive isolation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carolus Linnaeus, reproductive isolation",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q115",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct option w.r.t. Polytypic genus",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Panthera",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brassica",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solanum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "More than one option is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q116",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select odd one w.r.t. family",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Muscidae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Felidae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Anacardiaceae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Diptera",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q117",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct match w.r.t. column I and column II  Column I Column II  a. Division (i) Primata  b. Class (ii) Poaceae  c. Order (iii) Angiospermae  d. Family (iv) Insecta",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(iii), b(iv), c(ii), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(iii), b(iv), c(i), d(ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(i), b(iv), c(ii), d(iii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q118",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements :  (A) As we go higher from species to kingdom, the  number of common characteristics goes on decreasing.  (B) Lower the taxa, less are the characteristics that  the members within the taxon share.  (C) Higher the category, greater is the difficulty of  determining the relationship to other taxa at the same level.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (A) is correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(B) and (C) are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(A) and (B) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(A) and (C) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q119",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following taxonomical aids serve as quick referral systems in taxonomical studies?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zoological parks",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Botanical gardens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Museum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Herbarium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q120",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The international size of herbarium sheet is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "31 × 19 cm2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "21 × 29 cm2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "41 × 29 cm2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "26 × 45 cm2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q121",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements :  (A) Herbarium sheets are arranged according to a  universally accepted system of classification.  (B) Herbarium is a store house of conserved  animal specimens.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Both (A) & (B) are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Only (A) is correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both (A) & (B) are correct",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only (B) is correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 238,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q122",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement w.r.t. taxonomic key",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is used for identification of plants only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Each statement in the key is called couplet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is based on similarities and dissimilarities",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Similar taxonomic keys are required for each  taxonomic category such as family, genus and species",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q123",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Biological museums are generally set up in educational institutes such as schools and colleges and they have collections of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Conserved plant specimens only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Living plant and animal specimens",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Preserved plant specimens only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Preserved plant and animal specimens",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q124",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "National Museum of Natural History is situated at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Delhi",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "London",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Kolkata",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lucknow",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q125",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Breeding of rare fauna and ex-situ conservation can be done in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Botanical gardens",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Botanical gardens and Museums",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zoological parks",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Museums and Zoological parks",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q126",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is useful in providing information for identification of names of species found in an area?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Manuals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monographs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalogues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q127",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Flora contains the actual account of habitat and distribution of plants of a given area. It",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Contains information on any one taxon",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Is analytical in nature and based on couplets",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Provides index to the plant species found in a  particular area",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Includes alphabetical arrangements of species  describing their features",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q128",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Who was the earliest to attempt a more scientific basis for classification?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Copeland",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R.H. Whittaker",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Aristotle",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Carl Woese",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q129",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "How many kingdoms include heterotrophic members in five kingdom classification system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q130",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select  incorrect  statement  w.r.t.  the characteristics of living organisms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Fungi, filamentous algae and mosses easily  multiply by mitospores formation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Planaria exhibits true regeneration",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isolated metabolic reactions in-vitro are living  reactions, not living things",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cellular organisation is the defining property of  life forms",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q131",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The most obvious and technically complicated feature of all living organisms as their defining property is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cellular organisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metabolism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Consciousness",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q132",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "The fundamental element of taxonomy which includes the grouping of organisms into convenient categories on the basis of easily observable characters is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Characterisation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Identification",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Nomenclature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Classification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q133",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "“Father of taxonomy” is credited for all following contributions, except",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "First used the term systematics",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Established binomial nomenclature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Classified all organisms into two kingdoms  mainly on the basis of nutrition",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The nomenclature was used first in “Species  Plantarum”",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q134",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Scientific names of unicellular organisms with naked DNA have been standardised by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "ICBN",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "ICNB",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "ICTV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "ICZN",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q135",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following categories of taxonomic hierarchy will have maximum number of common characters?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Family",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Order",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Division",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Class",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 239,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q136",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "In binomial nomenclature  a. Biological names are always in italics and written in Latin  b. Generic name starts with capital letter  c. Both names are separately underlined to indicate their Latin origin  d. Author’s name is given after species name in abbreviated form in italics",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All statements are correct, except d",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "b, c & d are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a & d are incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only c & d are incorrect",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q137",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the following statements and select correct set  a. Mango, dicots and plants represent taxa at same level.  b. Wheat family and mango family belong to different orders but same division.  c. Potato and sweet potato families are included in order Polymoniales.  d. Species is genetically open system.  e. Dicots, monocots and mammals represent taxa at same level.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "b, c & e",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a, c & d",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a, c, d & e",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a, d & e",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q138",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomical aids that provide means of ex-situ conservation strategies are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbarium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zoological parks",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Botanical gardens",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q139",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select correct match between column I and II  Column I Column II  a. As quick referral system in (i) Monograph  taxonomical studies  b. Collection of preserved plants (ii) Herbarium  and animals  c. Index to the plant species (iii) Museum  found in a particular area  d. Complete information (iv) Flora  of any one taxon",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "a(ii), b(iii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "a(ii), b(iii), c(i), d(iv)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "a(iii), b(ii), c(iv), d(i)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "a(iv), b(iii), c(ii), d(i)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q140",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Biological concept of species is based upon  A and truly explained by the population  of  B .",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A – Reproductive isolation  B – Mule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "A – Reproductive isolation  B – Oryza sativa",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A – Physiological isolation  B – Hinny",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "A – Morphological isolation  B – Mangifera indica",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q141",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Read the following statements:  (a) Growth cannot be taken as a defining property  of living organisms  (b) Growth occurs due to synthesis of  protoplasmic and apoplasmic substances  (c) In unicelled organisms, reproduction is not  synonymous with growth  (d) In majority of higher animals and plants, growth  and reproduction are mutually exclusive events",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Only (a) & (b) are correct",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(b), (c) & (d) are correct",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Only (c) is incorrect",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(a), (c) & (d) are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q142",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Taxonomic aid which has collection of preserved plant and animal specimens is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbarium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zoological park",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Museum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monograph",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q143",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "“It may be a photosynthetic protistan to one biologist may be a plant to another.”  Which of the following justify the above statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Smallest living cells",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reproduce sexually only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Flagellated structures are absent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Possess pigments identical to higher plants",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 240,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q144",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Find odd one (w.r.t. defining features of life forms)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reproduction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Consciousness",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Metabolism",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Intrinsic growth",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q145",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following explains binomial epithet in correct way (in the light of ICBN rules)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mangifera indica Linn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Hibiscus rosa sinensis",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pisum sativum Linnaeus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Pisum sativum Linn",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q146",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Select incorrect statement w.r.t. taxonomic keys",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Generally analytical in nature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Based on couplet",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Indented key is most popular key",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Each statement in the key is called a lead",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q147",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following taxonomical aids are useful in providing information for identification of names of species found in an area?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Flora",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Manuals",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Monograph",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Catalogues",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q148",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an incorrect statement?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "All organisms are aware of their surroundings",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Biological concept of species is applicable to  all existing organisms",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cellular organisation of the body is defining  feature of life forms",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Solanum and Brassica are polytypic genera",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q149",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Category ‘Family’ has a group of related genera with still less number of similarities as compared to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Order and class",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Class and division",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Phylum and kingdom",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Genus and species",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q150",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Plant taxon like Convolvulaceae and Solanaceae can be included together in which one of the following categories?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Family",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Class",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Genus",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q151",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Three different genera viz. Solanum, Petunia and Datura belong to the same immediate category i.e. ______",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tribe",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sub-family",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Family",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Sub-order",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q152",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following group of families are included in the order Polymonials?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Convolvulaceae and Solanaceae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Anacardiaceae and Convolvulaceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Solanaceae and Anacardiaceae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anacardiaceae and Poaceae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q153",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Plant order, polymoniales, includes families like",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Convolvulaceae and Poaceae",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Poaceae and Anacardiaceae",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Convolvulaceae and Solanaceae",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Anacardiaceae and Solanaceae",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q154",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "Genus represents aggregate of closely related species. Which of the following group of species does not belong to same genus?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Potato, Brinjal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Brinjal, Makoi",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Lion, Leopard",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Potato, Sweet potato",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secA_q155",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section A (Objective)",
+    "question_text": "A research scholar has collected ten plants from field and find the following distinguishing feature  a. Perianth present  – 6 flowers  a. Calyx, corolla present – 4 flowers  b. Unisexual flower – 5  b. Bisexual flower – 5  What kind of taxonomical aid he is trying to use?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Herbarium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Keys",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Museum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Monograph",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 241,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q1",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The number of common characters is fewer in  family than genus.\nReason (R): Taxon is a taxonomic group of real organisms  assigned to a category.  \u0002\u0003\u0002\u0003\u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q2",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Principle of priority is the most important rule  of binomial nomenclature.\nReason (R): The first given scientific names are preferred.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q3",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Animals are provided conditions similar to their  natural habitats in zoological parks.\nReason (R): Zoological parks are means of in situ  conservation.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q4",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Extrinsic growth occurs in non-living objects.\nReason (R): True growth always occurs from inside in living  beings.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q5",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Two plants A and B are treated as two  taxonomic species.\nReason (R): Both A and B are different in correlated  characters.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q6",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Complexity of classification increases in  ascending order.\nReason (R): Common characters increase in ascending  order.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "bot_01_the_living_world_secB_q7",
+    "subject": "Botany",
+    "chapter": "The Living World",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Properties of cellular organelles are not present  in the molecular constituents of the organelle.\nReason (R): Properties of tissues are present in the  constituent cells.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 242,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

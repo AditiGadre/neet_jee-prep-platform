@@ -1,0 +1,6367 @@
+[
+  {
+    "question_id": "chem_04_thermodynamics_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The heat capacity of 2.0 moles of He gas at constant temperature is (in cal/mol/K)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When 2.0 moles of an ideal gas expands from 5.0 L to 10.0 L reversibly and isothermally at 27°C in vacuum. Work done by the system is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 34.15 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "102.5 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 3.46 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "9.2 g of toluene C7H8(ℓ) is completely burnt in air. The difference in heat change at constant pressure and constant volume at 27°C is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 2.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 0.50 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction P Q \u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002  The temperature dependence of equilibrium constant is given by  log10 Kc = 1000 8.0 T   The value of S° at a particular temperature is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.0 R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "18.42 R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "32.67 R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.3 R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Heat of neutralisation of NaOH with equivalent amount of acid is maximum in case of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HI",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HBr",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HF",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Enthalpy of formation of water is  If (bond energy of H – H = 433 kJ/mol  O = O = 492 kJ/mol  O – H = 464 kJ/mol)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 498 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "498 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 249 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "249 kJ/mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isothermal process at constant pressure,  U = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isothermal irreversible expansion of ideal gas in  vacuum, W = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adiabatic process at constant pressure, H = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "At equilibrium,  o cell E  = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The heat of atomisation of PH3(g) is 228 kcal mol–1  and that of P2H4(g) is 355 kcal mol–1. The energy of the P–P bond is (in kcal)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "36",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "150",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "101",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "51",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the Gibbs energy change when 1 mole of NaCl is dissolved in water at 298 K. Given,  a. Lattice energy of NaCl = 778 kJ mol–1  b. Hydration energy of NaCl = – 774.3 kJ mol–1  c. Entropy change at 298 K = 43 J mol–1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 3.7 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 9.1 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 43 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 13.14 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The heat of neutralisation of HCl with NH4OH and NaOH with CH3COOH are respectively –51.4 and –50.6 kJeq–1. The heat of neutralisation of acetic acid with NH4OH will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–50.6 kJeq–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–57.4 kJeq–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–44.6 kJeq–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–70.2 kJeq–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 51,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The internal energy change when a system goes from state A to B is 60 kJ/mole. If the system goes from A to B by a reversible path and returns to state A by an irreversible path, what would be the net change in internal energy?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Greater than 60 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Less than 60 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "x ml of 1 M HCl and x ml of 1 M NaOH are mixed then temperature increases by y°C. If 2x ml of same acid and base is mixed then temperature increases by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "y°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2y°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.5y°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3y°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The specific heat at constant volume for a gas is 0.075 cal/g and at constant pressure is 0.125 cal/g. Find the atomicity of gas",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "One",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Two",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Three",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Four",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If enthalpy of solution of anhydrous and hydrated copper sulphate is –x and y kJ/mol respectively, then enthalpy of hydration of anhydrous copper sulphate into hydrated copper sulphate is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(x + y) kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(x – y) kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x y kJ 2       ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(–x – y) kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which is extensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Standard electrode potential",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Free energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molarity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The equilibrium constant for a reaction is 1 × 102  at 300 K. The standard free energy change for this reaction is (approx.)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 11.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 11.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 26.6 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 26.6 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction will non-spontaneous, if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H = +ve and S = +ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H = –ve and S = –ve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H = –ve and S = +ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H = +ve and S = –ve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The work done in an open vessel at 300 K, when 112 g iron reacts with dil. HCl to form FeCl2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1200 cal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "600 cal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "300 cal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "200 cal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Enthalpy and entropy of reaction A  B are –20 kJ/mole and +400 J/mole/K respectively, then at what temperature the process will be spontaneous?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "60 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "25 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "For coupled reaction G = positive always",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "For irreversible isothermal process, dStotal > 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "At equilibrium, G° = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "For cyclic process, U  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate  enthalpy  of  the  reaction CH  CH + 2H2  CH3 – CH3. Given bond energy of C  C, C – H, H – H, C – C are 194, 99, 104, 83 kcal respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "181 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "77 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–181 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–77 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For which of the following reaction heat change at constant pressure is not equal to heat change at constant volume?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Dissociation of HI(g) into H2(g) and I2(g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Combustion of graphite",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Formation of ammonia",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The enthalpy of formation of H2O(vap) is –a kJ/mol and enthalpy of vaporisation of liquid water is b kJ/mol. The enthalpy of formation of H2O(l) is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–(a + b)kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(a + b) kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(a – b) kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(b – a) kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which is an intensive property ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Normality",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "pH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 52,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The correct statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Entropy of the system at equilibrium state is  maximum",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Total change in entropy at equilibrium is not  zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Work done in isothermal free expansion  process is zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Go is zero at equilibrium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is intensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Free energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Specific heat",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heat capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Entropy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If     2 2 1 1 X O s X s O g ; H 80 kJ 2 4      then  heat change during reaction of metal X with 1 mole O2 to form oxide to maximum extent is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "320 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "160 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–320 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–160 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following conditions will always lead to non-spontaneous change at all temperatures?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H = –ve, S = –ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H = +ve, S = +ve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H = +ve, S = –ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H = –ve, S = +ve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When 0.532 g of benzene (C6H6), is burnt with excess of oxygen at a constant volume, 22.3 kJ of heat is given out. Calculate H for the combustion process (R = 8.314 JK–1 mol–1, boiling point 353 K)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–3269.8 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–3274.2 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3269.8 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+3274.2 kJ mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction has positive value of enthalpy change (H)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C(s) + 2O2(g)  CO2(g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "   2 2 N g O g 2NO g  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO(g) + 1  2 O2(g)  CO2(g)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH4(g) + 2O2(g)  CO2(g) + 2H2O(l)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The favourable conditions for melting of ice is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "High pressure, low temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Low pressure, high temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low pressure, low temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "High pressure, high temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an intensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mass",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Specific heat",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statements is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Rate of diffusion of helium is twice than  methane under identical condition of temperature and pressure",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "On applying pressure, melting of ice  decreases",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Work done in the expansion of ideal gas in  vacuum is not zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2 2 1 CO O CO 2    the heat change in this  reaction represent the enthalpy of formation of CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The latent heat of vaporisation of a liquid at 500 K and 1 atm pressure is 10.0 kcal/mol, what will be the change in internal energy of 3 moles of liquid at the same temperature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "13.0 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "20 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "27 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "7 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In a closed insulated container a liquid is stirred with a paddle to increase the temperature, which of the following is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "E = W  0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "E = W = q  0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "E = 0, W = q  0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "W = 0, E = q  0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "2 mole of an ideal gas at 27ºC is expanded reversibly from 2 lit to 20 lit. The entropy change will be (R = 2 cal/mole K)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "92.1 cal K–1mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 cal K–1mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4 cal K–1mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "9.2 cal K–1mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the process dry ice  CO2(g)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H is positive and S is negative",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both H and S are negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both H and S are positive",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H is negative and S is positive",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 53,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The enthalpy of neutralisation of acetic acid and sodium hydroxide is 55.4 kJ. What is enthalpy of ionisation of acetic acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 1.7 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 1.7 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 5.54 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 5.54 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Heat of combustion for C(s), H2(g) and CH4(g) are –94, –68 and –213 kcal/mol. Then heat of formation of CH4 will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 17 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 111 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–170 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 17 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "AB, A2 and B2 are diatomic molecules. If the bond enthalpies of A2, AB and B2 are in the ratio 1 : 1 : 0.5 and enthalpy of formation of AB from A2 and B2 is 100 kJ mol–1. The bond energy of A2 will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "200 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "100 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "300 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400 kJ mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is always true for a spontaneous change at all temperature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H > 0; S < 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H < 0; S < 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H < 0; S > 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H > 0; S > 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is false?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Work is a state function",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Temperature is a state function",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Change in the state is completely defined when  the initial and final states are specified",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Work appears at the boundary of the system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The heat of atomization of PH3(g) is 228 kcal mol–1  and that of P2H4(g) is 355 kcal mol–1. The energy of the P–P bond is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "102 kcal mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "51 kcal mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "26 kcal mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "204 kcal mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Temperature of smoke of a 5 mol of gas is decreased by 2 K at constant pressure. The correct statement for this is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Work done by gas is  5R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Work done on gas is 10R",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Work done by gas is 10R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Work done = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Absolute value, which can be measured for the thermodynamic macroscopic property of a system is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Internal energy",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enthalpy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Gibb’s free energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Entropy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reactions which are spontaneous at low temperature while non-spontaneous at high temperature",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H = +ve and S = –ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H = –ve and S = +ve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H = +ve and S = +ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H = –ve and S = –ve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If bond enthalpy of N  N, H – H and N – H bonds are x1, x2 and x3 respectively, Hfº for NH3 will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x1 + 3x2 – 6x3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 2 1 x 3 x 2 3 x 2 1  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 1 3 x 2 3 x 2 1 x 3  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6x3– x1 – 3x2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is incorrect relation for a perfect gas?      ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0 V U",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0 P H                      T  T      ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0 P T",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0 T U                      H  V",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction will evolve maximum amount of heat?  ) mole 1 ( ) mole 1 ( NaOH HF ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": ") mole 1 ( ) mole 1 ( NaOH HCl ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3 KOH HNO ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": ") mole 1 ( ) mole 1 (",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Same amount of heat is evolved in all",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Select the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Entropy increases when graphite is converted  into diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "For a reaction, H is –ve and S is –ve then  reaction is spontaneous at low temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Entropy decreases when NaCl(s) is dissolved  in water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "For spontaneous process S total may be  negative",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 54,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A system at 27º C absorbed x kJ energy which is loses by the surrounding at 127ºC. The net change in the entropy of the universe would be  x",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "– 150  x",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "+ 150  x",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 1200  x",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 1200",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If observed enthalpy of formation of Benzene is +x kJ and EH2 = + y kJ, EC–C = + z kJ, EC=C = + p kJ, EC–H = +q kJ, H(graphite)  C(g) = +r kJ, then resonance energy of Benzene is (E = bond energy)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x + 2r + 4y + 4z – 3p – 2q",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x + 6r + 3y + 4z – 4p – 3q",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x – 6r – 3y + 3z + 3p + 6q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x + 3r + 3y + 3z – 3p – 6q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "(H–E) is minimum in which of the following reaction at a given temperature?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2SO2 (g) + O2 (g)  2SO3 (g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CaCO3 (s)  CaO (s) + CO2 (g)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH4HS (s)  NH3 (g) + H2S (g)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2NH3 (g)  N2 (g) + 3H2 (g)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following represents standard enthalpy of formation of CO2(g)?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C(Graphite) + O2 (g)  CO2(g)  1 O2(g)  CO2 (g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO(g) + 2  2 O3 (g)  CO2(g)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "C(Graphite) + 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2C(Graphite) + 2 O2 (g)  2CO2(g)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The entropy change for an ideal gas in an isochoric process is correctly given by the expression  2 T T",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S = n CV R ln   1  2 T T",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S = n CV ln   1  2 T T",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S = n R ln   1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "S =  R nCV ln   2 T T  1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the enthalpy of formation of MgBr2 from following data  Hsublimation of Mg = 148 kJ mol–1  Hvaporisation of Br2 = 31 kJ mol–1  HIonisation energy of Mg = 2187 kJ mol–1  HBond dissociation energy of Br2 = 193 kJ mol–1  e gain enthalpy H   of Br = –331 kJ mol–1  HLattice energy = –2421 kJ mol–1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–524 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–193 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+524 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–1048 kJ mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A system which can neither exchange matter nor energy with the surrounding is called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Open system",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isolated system",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Closed system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An example of extensive property is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Internal energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Viscosity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molar heat capacity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The amount of heat evolved when 500 cm3 of 0.1 M HCl is mixed with 200 cm3 of 0.2 M NaOH solution",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.284 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.85 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "5.71 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3.2 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction, H2(g) + Cl2(g)  2HCl(g)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "qP < qV",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "qP > qV",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "qP = qV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "qP = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The enthalpy change of a reaction does not depend on",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Physical state of reactants and products",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Nature of reactant",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Different intermediate state",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate the H° for  C (graphite) C (diamond) from the following data  C (graphite) + O2 CO2(g) ; H° = –393.5 kJ  C (diamond) + O2CO2(g) ; H° = –395.4 kJ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1900 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ 788.9 103 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–788.9 103J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1900000 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 55,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The enthalpy change for the reaction is called  C2H4 + 3O2 2CO2 + 2H2O",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Enthalpy of formation",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Enthalpy of vaporisation",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Enthalpy of sublimation",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Enthalpy of combustion",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The sign of H, S and G for the given reaction  2 2 2 1 H (g) O (g) H O(l) 2    H S G",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ve +ve –ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–ve –ve –ve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ve +ve +ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–ve –ve +ve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following equations correctly represents the  o f H   of ethane?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2C(diamond) + 3H2(g)  C2H6(g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "C2H4(g) + H2(g)  C2H6(g)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2C(graphite) + 3H2(g)  C2H6(g)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4C(graphite) + 6H2(g)  2C2H6(g)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A certain gas initially at room temperature undergoes expansion in volume from 4 L to 12 L at constant temperature in vacuum. The work done in the expansion",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–973 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+973 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–801 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The energy required to raise the temperature of 12.0 g of iron from 25°C to 100°C, if specific heat of iron is 0.45 J°C–1g–1 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "0.945 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.405 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.285 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "12.34 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The total entropy change of a system and surrounding is positive for",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reversible process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Irreversible process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isochoric process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adiabatic process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Variation of vapour-pressure with temperature is shown correctly by  P H 1 1 log – P 2.303R T T        ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1  2 1 2  T H 1 1 log – T 2.303R P P        ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1  2 1 2  P 2.303 H 1 1 log – P R T T        ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2  1 1 2  P H 1 1 log – P 2.303R T T        ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2  1 1 2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ve catalyst lowers the value of G",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ve catalyst increases the value of G",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ve catalyst has no effect on value of G",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ve catalyst decreases Keq",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The specific heat of an elementary gas is found to be 0.313 J g–1 at constant volume. If the molar mass of gas is found to be 40 g mol–1, what is the atomicity of gas?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following process entropy change (S) is negative?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hg(ℓ)  Hg(g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cgraphite  Cdiamond",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "AgNO3(s)  AgNO3(aq)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "I2(s)   I2(g)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A reaction A + B  C + D + q; is found to have a positive entropy change, the reaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Possible at high temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Possible only at low temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Not possible at low temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Possible at any temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In thermodynamics, a process is called reversible when",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Surroundings and system change into each  other",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "There is no boundary between system and  surroundings",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The surroundings are always in equilibrium with  the system",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The system changs into the surrounding  spontaneously",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 56,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An ideal gas is allowed to expand both reversibly and irreversibly in an isolated system. If Ti is the initial temperature and Tf is the final temperature. Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tf(irr) > Tf(rev)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tf > Ti for reversible process but Tf = Ti for  irreversible process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Tf(rev) = Tf(irr)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Tf = Ti for both reversible as well as for  irreversible process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Heat of neutralisation of strong base and strong acid is 57.0 kJ. The heat released when 0.2 mole of HNO3 solution is added to 0.5 mole of NaOH solution is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "57.0 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "28.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "34.9 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "11.4 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The enthalpy of neutralisation of HCl and NaOH is –57.1 kJ. How much heat is released (magnitude only) if 100 ml 1 N HCl and 50 ml 1 N NaOH are mixed?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "57.1 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5.71 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "0.571 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.85 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The equation of the heat of formation of Cu2O is  2Cu(s) + 1 2 O2(g)  Cu2O(s);  o f H –166.7 kJ/mol    The first and second ionisation enthalpies of Cu are 750 and 2000 kJ/mol, whereas its atomisation energy is 339.3 kJ/mol. The first and second electron gain enthalpy of oxygen is –141.4 and +790.8 and its enthalpy of atomisation is 249.2 kJ/mol. The lattice energy of Cu2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–4143.1 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–3243.9 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–2143.1 kJ mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–5243.9 kJ mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Entropy increases when graphite is converted  into diamond",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Entropy decreases on boiling eggs",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In isothermal process change in internal energy  is not zero",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Entropy of rubber band on stretching  decreases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Process IV will be  I  P  II  III IV  V",
+    "question_diagram": "/images/last_leap_part2/p57_q80.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Isobaric",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Adiabatic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isochoric",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isothermal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following neutralization reaction evolve maximum amount of heat if one equivalent of each acid and base is taken?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaOH + HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaOH + H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KOH + HF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "KOH + HBr",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If enthalpy of formation of H2O (vap) is –x kJ and enthalpy of vaporisation of water is y kJ then enthalpy of formation of H2O(l) would be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "(x + y) kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(x – y) kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(y – x) kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–(x + y) kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The correct relation among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HHydration = HSolution of anhydrous comp –  HSolution of hydrated comp",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "HHydration = HSolution of hydrated comp –HSolution  of anhydrous comp",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HHydration = HSolution of hydrated comp +HSolution  of anhydrous comp",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HHydration = HSolution of hydrated comp +  2xHSolution of anhydrous comp",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following process has maximum work done?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isothermal reversible expansion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isothermal reversible contraction",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isochoric",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adiabatic",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 57,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A system losses 100 kJ of energy at 127°C to atmosphere which is at 27°C. The net change in entropy (in kJ/K) of the universe is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 12 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 12   1 16 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An example of extensive property is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Internal energy",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Viscosity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molar heat capacity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following process involves increase and decrease in entropy respectively?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boiling of eggs, dissolution of NaCl in water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Stretching of rubber band, condensation of  water vapour",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Stretching of rubber band, boiling of eggs",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Boiling of eggs, stretching of rubber band",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q88",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In a chemical reaction enthalpy change and entropy change are 30 kJ mol–1 and 100 J mol–1 respectively at 27°C, then which of the following statement is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The reaction is spontaneous at 27°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The reaction is spontaneous below 27°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The reaction is non-spontaneous at all  temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "The reaction is at equilibrium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q89",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The pressure-volume behaviour of various thermodynamics processes is shown below  P  (A)  (C)  (B)  V  Find the correct match",
+    "question_diagram": "/images/last_leap_part2/p58_q89.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(A) – Isobaric process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(B) – Isochoric process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(C) – Isothermal process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q90",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "How many moles of butane must be burnt to heat 10 dm3 of water from 30°C to 100°C? Given (Hcomb of butane = –2.8 × 103 kJ mol–1,  2 (H O) d  = 1.0 g/cc, specific heat of water  = 4.18 JK–1 g–1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.04 mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.1 mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1.5 mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.8 mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q91",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If enthalpy of combustion of benzene is x at constant pressure and y at constant volume then which of the following relationship is correct for combustion reaction of benzene at 27°C?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x – y = –1.5 RT",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "x – y = 1.5 RT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x + y = 3 RT",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x + y = –3 RT",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q92",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For a reaction X Y  , the value of H and S are 50.50 kJ mol–1 and 100 J K–1 respectively. The temperature at which G = 0 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "505°C",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "232°C",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "252°C",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "450°C",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q93",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A system X undergoes following changes  1 1 1 2 2 2 3 3 3 1 1 1 (P ,V ,T ) (P ,V ,T ) (P ,V ,T ) (P ,V ,T ) X W Z X     The overall process may called",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Reversible process",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cyclic process",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Cyclic as well as reversible process",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Isochoric process",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q94",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The most random state of H2O is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ice at 0°C, 1 atm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O(l) at 0°C, 1 atm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O(l) at 25°C, 1 atm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O(l) at 80°C, 1 atm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q95",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The change in Gibb’s free energy at equilibrium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Minimum",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Maximum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q96",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A gas occupies 2 L at STP. It is provided with 300 J of heat so that its volume become 2.5 L at a pressure of 1 atm. The value of U of the process is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "249.3 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "350.6 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "150.3 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "400.0 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 58,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q97",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate enthalpy of neutralisation if 1 mole H2SO4 is completely neutralised by NaOH and  H+ + OH– H2O + q1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– q1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+ q1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 2 q1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 2q1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q98",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which among the following is an extensive property of the system?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Density",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Specific heat",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q99",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The heat of solution of MSO4 is –15.9 kcal and that of MSO4.5H2O is 2.8 kcal. The heat of hydration of MSO4 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+18.7 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–18.7 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–15.9 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–2.8 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q100",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following statement is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The energy of an isolated system is constant",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reversible process are infinitely slow in which  system and surrounding are always in equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Expansion of gas from high pressure to low  pressure is called free expansion",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Heat has randomising influence on the system",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q101",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "An endothermic reaction is spontaneous if (S = +ve)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H > TS",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H < TS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H = TS",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q102",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Driving force of a reaction is the",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Resultant of enthalpy and entropy change",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Resultant of enthalpy and internal energy  change",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Resultant of entropy and internal energy  change",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Resultant of work, enthalpy and internal energy  change",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q103",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "H = E = 0 is a feature of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isothermal change",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isobaric change",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isochoric change",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adiabatic change",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q104",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is extensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Specific heat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Specific volume",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Heat capacity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Specific gravity",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q105",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which has maximum internal energy at 290 K?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ne",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All have equal internal energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q106",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "G = negative for which process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isothermal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Spontaneous",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adiabatic",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Non-spontaneous",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q107",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "According to the set of conditions given below, which is not true?  U 0  ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Isothermal –  (Int E)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Equilibrium –  G = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "In vacuum – Work done = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cyclic process – Work done = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q108",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "H for bond O = O is x kJ/mol, O – H is y kJ/mol and H – H is z kJ/mol, then enthalpy of formation of water is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x z 2y 2  ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2z x 4y  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "x 2y z 2  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "4y 2z x  ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q109",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Entropy at equilibrium is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Maximum",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Minimum",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q110",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Reaction will become spontaneous, if",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Exothermic, S = +ve, – at all temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Exothermic, S = –ve, – at all temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Endothermic, S = –ve, – at high temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q111",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "2 mole of an ideal gas expands isothermally and reversibly from 1 L to 10 L at 300 K, what is enthalpy change in kJ?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4.98",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "11.47",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–11.47",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q112",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If H = +ve and S = –ve then the process should be spontaneous at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Moderate temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Low temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Never spontaneous",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 59,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q113",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following set contains only extensive properties?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Kinetic energy, density",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Specific heat, heat capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Normality, colour",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Surface area, Free energy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q114",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Work done if 100 g water is electrolysed at a constant pressure of 1 atm",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–19.0 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "203.8 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "8.33 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "42.20 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q115",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Identify the extensive quantities from the following.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Specific heat",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heat capacity",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Pressure",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Molar entropy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q116",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following element is having non-zero value of heat of formation?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C(graphite)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S(rhombic)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q117",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Standard entropy of X2, Y2 and XY4 are 30, 60 and 110 J/K mol respectively. For the reaction  2 2 4 1 X + 2Y  XY , H = – 40 kJ. 2   To  be  at  equilibrium, the temperature will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "800 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1600 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "750 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1800 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q118",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is/are endothermic process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Combustion of glucose",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Decomposition of water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Conversion of graphite to diamond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q119",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is true for reversible isothermal process?  V W 2.303 nRT log V ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2 exp  1  P W 2.303 nRT log P ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 exp  2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q120",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When a gas is passed through a small hole at a temperature greater than its critical temperature, Joule -Thomson effect will show",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cooling of the gas",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "First cooling then warming",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "First warming then cooling",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Warming of the gas",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q121",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If enthalpy of hydrogenation of benzene is H1 and for cyclohexene is H2. The resonance energy of benzene is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–3H2 + H1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3H2 – 2H1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3H1 + H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "3H1 + 2H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q122",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "2 2 1 M O(g) 2M(s) O (g) 2   , H = 30 kJ mol–1  and S = 0.07 kJ K–1 mol–1 at 1 atm, upto which temperature the reaction would not be spontaneous?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T > 428 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T < 428.57 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T = 100 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "T = 873 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q123",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction    2 4 2 2 2 N H (g) N H (g) + H (g);    H° = 109 kJ /mole  Calculate the bond enthalpy of N = N.  Given : B.E. of (N – N) = 163 kJ/mol  B.E. of (N – H) = 391 kJ/mol  B.E. of (H – H) = 436 kJ/mol",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "182 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "400 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "300 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "218 kJ/mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q124",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When a certain amount of ethylene was burnt 6226 kJ heat was evolved. If heat of combustion of ethylene is 1411 kJ, the atoms of oxygen at NTP that entered in the reaction is (NA = 6.02 × 1023)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "26.46",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "26.46 NA  26.46 N  A N 26.46",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q125",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the reaction 2H(g)  H2(g), the signs of H and S respectively are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+, +",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+, –",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–, +",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–, –",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 60,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q126",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For A  B; G = – 100 kcal  C  B; G = + 200 kcal  For A  C the value of G",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 100",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 300",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 300",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 200",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q127",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is an intensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Pressure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Viscosity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q128",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "At constant temperature, S will be maximum for which of the following processes?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Vaporisation of a pure solvent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Vaporisation of solvent from solution containing  nonvolatile and non-electrolytic solute in it",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Vaporisation of solvent from a solution  containing nonvolatile but electrolytic solute in it",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Entropy change will be same in all the above  cases",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q129",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Calculate bond enthalpy of C–Cl in CCl4 (g)  CCl4 (g)  C (g) + 4Cl (g)  Given : vap H° (CCl4) = 30.5 kJ/mol  f° H (CCl4) = – 135.5 kJ/mol  a H° (C) = 715 kJ/mol  a H° (Cl2) = 242 kJ/mol  where a H° is enthalpy of atomisation",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1304 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "326 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "549 kJ/mol",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "791 kJ/mol",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q130",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following process is always feasible?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H > 0, S > 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H < 0, S > 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H > 0, S < 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H < 0, S < 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q131",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The enthalpy of neutralisation of a weak acid with NaOH is –54.1 kJ. The enthalpy of ionisation of the weak acid will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–57.1 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–3.0 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+ 3.0 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–111.2 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q132",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following are not state function?  I. q + w II. q  III. w IV. H – TS",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "I, II & III",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "II & III",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "I & IV",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "II, III & IV",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q133",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If the heat of combustion of carbon monoxide at constant volume and at 17°C is – 283.3 kJ, then its heat of combustion at constant pressure (R = 8.314 J degree–1 mol–1)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 284.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "284.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "384.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 384.5 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q134",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "3 moles of an ideal gas expands isothermally and reversibly from 2 litre to 20 litre at 27°C. The work done is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–17.2 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "+17.2 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "+11.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–11.5 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q135",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The heat of neutralisation of a strong acid by a strong base is equal to H of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O + H+  H3O+",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2H2 + O2  2H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH3COOH + NaOH  CH3COONa + H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H+ + OH–  H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q136",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When NH4NO3 dissolves in water the solution  becomes cold. What is  Sº   for the process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zero",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Positive",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Negative",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data insufficient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q137",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction of NH2CN with dioxygen was carried out in a bomb calorimeter and enthalpy change was found to be – 742.7 kJ mol–1 at 298 K. Enthalpy change of the reaction at constant pressure will be  NH2CN(g) + 3  2 O2(g)  N2(g) + CO2(g) + H2O(l)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "+ 743.9 kJ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 743.9 kJ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 741.5 kJ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ 741.5 kJ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q138",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "A reaction A + B  C + D + q is found to have a negative entropy change and exothermic. The reaction will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Feasible at high temperature only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Feasible at low temperature only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Not feasible at any temperature only",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Feasible at any temperature",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q139",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which is correct for adiabatic process?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "W = U",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "q = U",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "W = q",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "W = –q",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 61,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q140",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For isothermal process on an ideal gas",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "q = –W",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "U = 0",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q141",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If a gas expands from 2 L to 5 L against a pressure 1 atm then the irreversible work done is nearly",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "3 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–3 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "304 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–304 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q142",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "(Cp – Cv) for 10 moles of ideal gas will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10R",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "R 10",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "R",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5R",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q143",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "4Fe(s) + 3O2(g) 2Fe2O3(s),  entropy change for the reaction is –549.4 JK–1  mol–1   at 298 K and enthalpy change for the reaction is –1648 × 103 J mol–1. They,",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The above reaction is spontaneous at given  temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "The above reaction is non-spontaneous at given  temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "The above reaction is at equilibrium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q144",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If bond energies of H2, Cl2 and HCl are x, y and z kJ/mole respectively, then enthalpy of formation of HCl is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "x + y – 2z",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "0.5x + 0.5y – z",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "z – x – y",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "x – y – z",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q145",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The correct sign of H, S and G for the process  CH4 + O2 CO2 + H2O  H S G",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–ve +ve –ve",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–ve –ve –ve",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–ve +ve +ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "+ve +ve +ve",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q146",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When two ideal gases intermix with each other, then",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "S = 0",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G = 0",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "S = –ve",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H = 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q147",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The given reaction,  2 2 C(s)   O (g)   CO (g)    will be spontaneous at",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low temperature",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "High temperature",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Any temperature",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data insufficient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q148",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "U° of combustion of ethane is –x kJ mol–1. The value of H is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "= U°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "> U°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "< U°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "= 0",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q149",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In a process, 701 J of heat is absorbed by a system and 394 J of work is done by the system. The change in internal energy is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–307 J",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "307 J",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–1095 J",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1095 J",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q150",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is intensive property?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ecell",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "o cell E",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molarity",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q151",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The relationship between equilibrium constant K and  free energy change of the process is given by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G = – RT logK",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1 G RTlogK ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G° = 2RT logK",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G° = 2.303 RT logK–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q152",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "The standard enthalpies of formation of NO2(g) and N2O4(g) are 8 kcal-mol–1 and 2 kcal-mol–1  respectively. The heat of dimerisation of NO2 in gaseous state is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "10 kcal mol–1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "6.0 kcal mol–1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–14 kcal mol–1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–6.0 kcal mol–1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q153",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "If  2 2 3 4A 3O 2A O    and heat produced is  2000 kJ, then HCombustion of ‘A’ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "– 2000 kJ/mole",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "– 1000 kJ/mole",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "– 500 kJ/mole",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "– 250 kJ/mole",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q154",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Given that :  C(s) + O2(g)   CO2(g); H° = – aJ  2CO(g) + O2   2CO2(g); H° = – bJ  The enthalpy of formation of CO(g) will be",
+    "question_diagram": "/images/last_leap_part2/p62_q154.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "(a b) 2 ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "(2a + b)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "(b 2a) 2 ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "(b – 2a)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 62,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q155",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "1 g hydrated oxalic acid upon combustion produces 2.2 kcal of heat. Its enthalpy of combustion is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "–2.2 kcal",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "–126 kcal",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–277.2 kcal",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "–423 kcal",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q156",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "State function among the following is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "q + w",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "S",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q157",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following process entropy decreases?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "NaCl  NaCl (aq)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CH2 = CH2  CH3CH3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hard boiling of egg",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reverse osmosis",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q158",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "When 200 ml of 0.05 M NaOH and 200 ml of 0.05 M HCl are mixed the rise in temperature is T1. If 0.1 M solutions of both are mixed in same volumes, then the rise in temperature is T2. T1 and T2 are related as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "T2 = T1",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "T2 =  1 T  2  1 2 2T T 3 ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "T2 = 2T1",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q159",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "For the thermal decomposition of limestone the value of H° and S° are +179.1 kJ mol–1 and 160.2 J/K respectively at 298 K and 1 bar. Assuming that H° and S° do not change with temperature, the temperature above which conversion of limestone to lime will be spontaneous is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "845 K",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1118 K",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "1008 K",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1200 K",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q160",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "At 27°C, PCl5 is 50% dissociated. What is the value of G at 50°C and one atmosphere?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "G = – 300 R ln 3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G = + 300 R ln 3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "G = – 900 R ln 3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "G = + 900 R ln 3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secA_q161",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is correct?  o o H S RT R    ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2.303 log K =",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "G = –2.303 R log K       o o  2 H S R RT",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "–2.303 log K =",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2.303 log K =  1 RT       (Ho + So)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): G < 0 is criterion for a process to be  spontaneous.\nReason (R): G is related to H and S by the relation  G = H – TS.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Heat of neutralisation of HF + NaOH is more  than that of HCl + NaOH.\nReason (R): HF is stronger acid than HCl.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Chlorine when solidified does not have zero  entropy even at absolute zero.\nReason (R): Chlorine is a pungent smelling gas and it is  difficult to solidify than oxygen.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Standard enthalpy of formation of graphite is  lower than that of diamond.\nReason (R): Entropy of graphite is higher than that of  diamond.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In reversible process system and surrounding  exist in dynamic equilibrium.\nReason (R): The flow of heat is unidirectional from higher  temperature to lower temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Dissolution of gases in water proceeds with  negative value of S.\nReason (R): Dissolution of gases in water is always an  endothermic process.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): An endothermic reaction may not be  spontaneous at room temperature, but may be spontaneous at high temperature.\nReason (R): Endothermic reaction is non-spontaneous at all  temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 63,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In cyclic process, the net entropy change is  zero.\nReason (R): In cyclic process, work done is zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q9",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In adiabatic expansion of gas temperature  decreases.\nReason (R): For adiabatic expansion, q = 0.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q10",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Calorific value × Gram. Molecular mass =  Molar enthalpy of combustion.\nReason (R): Combustion reaction is exothermic in nature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q11",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The chemical change involving breaking and  making of equal number of bonds has H = 0.\nReason (R): The ratio of mass/volume is an extensive  property.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q12",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Exothermic process may be spontaneous or  non-spontaneous.\nReason (R): All endothermic process are always non-  spontaneous at all temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q13",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): HF + NaOH pair releases more energy than  HCl + NaOH if same number of equivalent of each acid and base is taken.\nReason (R): Hydration energy of F– is more than that of Cl–  due to smaller size of F– ion.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q14",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Heat of ionization of water is equal to the heat  of neutralization of a strong acid with a strong base, having opposite sign.\nReason (R): Heat of neutralization for both HNO3 and HCl  with NaOH is –57.1 kJ per mole.  \u0002\u0003 \u0002\u0003 \u0002",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q15",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): At high pressure melting of ice is favoured.\nReason (R): Density of ice is less than water.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q16",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Enthalpy of formation of NH3 can be given by  enthalpy of following reaction  (g) (g) 3(g) 2 2 N 3H 2NH  \nReason (R): Enthalpy of formation is always positive for all  the compounds.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q17",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Crystallisation of a liquid involves the decrease  in entropy.\nReason (R): Density of H2O(l) increases during conversion  into solid.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q18",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Combustion of organic compounds is an  exothermic process.\nReason (R): Enthalpy of formation of elements in standard  state is non-zero.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q19",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): In isothermal expansion of ideal gas change in  internal energy is zero.\nReason (R): Internal energy of an ideal gas is the function  of temperature only and increases with increase in temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_04_thermodynamics_secB_q20",
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Many endothermic reactions that are not  spontaneous at room temperature become spontaneous at high temperature.\nReason (R): Entropy of system increases with increase in  temperature.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 64,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]

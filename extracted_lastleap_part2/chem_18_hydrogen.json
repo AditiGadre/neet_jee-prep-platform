@@ -1,0 +1,3367 @@
+[
+  {
+    "question_id": "chem_18_hydrogen_secA_q1",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not a polymeric/dimeric hydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BeH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "BH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "NaH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q2",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following metal will not evolve H2 when react with dil. HNO3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mg",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Zn",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Cu",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q3",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "What volume of 15 V H2O2 required to react completely with 10 ml of 1 M KMnO4 in acidic medium?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18.72 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "25.51 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "14.20 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "10.65 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q4",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "H2O2 functions as a",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Bleaching agent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Oxidising agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidant for a rocket fuel",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q5",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Consider the two reactions:  (i) H2O2 + 2KI  I2 + 2KOH  (ii) H2O2 + O3  2O2 + H2O  H2O2 behaves as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "A reducing agent in both (i) and (ii)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "An oxidising agent in both (i) and (ii)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "A reducing agent in (i) and oxidising agent  in (ii)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "An oxidising agent in (i) and reducing agent  in (ii)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q6",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "1023 1073 K 2 (Steam) Fe H O     Product  Product formed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "FeO + H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe2O3 + H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe2O3 + H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe3O4 + H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q7",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "A substance on heating gives oxygen and it turns acidified KI solution violet and reduces acidified KMnO4 solution. Hence, the substance is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2CrO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q8",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which can be used for removing both temporary and permanent hardness of water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na2CO3.10H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Boiling",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na6P6O18",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q9",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Molarity of a solution of 1 litre H2O2 marked as 20 volume is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.78",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "3.57",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.20",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q10",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "KMnO4 + H2SO4 + H2O2  Product",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KI + H2SO4 + H2O2  Product",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In the reaction",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "and",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "respectively, hydrogen peroxide act as",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "Both oxidising agent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Both reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Oxidising and reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reducing and oxidising agent",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q11",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "CHCl3 + D2O \u0002\u0002\u0002⇀ ↽\u0002\u0002\u0002 Product  Product formed is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CDCl3 + DOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CDCl3 + H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CDCl3 + D2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CHCl3 + DOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 179,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q12",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which is used as tracer ?  1",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "2",
+        "text": "H1  2",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "H1  3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ortho hydrogen",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q13",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect statement is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Hybridisation of oxygen for water in solid, liquid  and gas phase is sp3",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Density of water is more than the density of  ice",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Boiling point of HF > Boiling point of H2O, as  electronegativity of F > O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q14",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The percentage by weight of oxygen in H2O2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "5.88",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "94.11",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "91.99",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "6.25",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q15",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction involve in Bosch’s process used for the manufacturing of H2?  400 C catalyst 3 2 CH OH CO 2H   ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 2 2 2 H CO H O CO 2H    ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2 3 4 2 3Fe 4H O Fe O 4H     Cracking 2 6 2 6C H 2C 3H  ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q16",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hydride does not give H2 at anode on electrolysis in molten state?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "SrH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BaH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q17",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "H2O2 restores the colour of old lead paintings, blackened by the action of H2S gas, by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidising PbSO3 to PbSO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Converting PbCO3 to Pb",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "By oxidising PbS to PbSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Converting PbO2 to Pb",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q18",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "H2O2 is miscible with water in all proportions and forms a hydrate H2O2.xH2O. The value of x is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "5",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q19",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "T , H , H 3 1 2 1 1 1  are related as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Iso electronic",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Isotones",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Isodiaphers",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q20",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Tritium is radioactive. It is distintegrated by emitting",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": " ray",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": " ray",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": " ray",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "K-capture",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q21",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The fastest reaction will be  H2  D2  Cl2  T2",
+    "question_diagram": "/images/last_leap_part2/p180_q21.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All have same rate",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q22",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "1270 K C(s) + H O 2 (g) CO + H (g) 2(g) Coal  Syn gas  The above process is known as",
+    "question_diagram": "/images/last_leap_part2/p180_q22.png",
+    "options": [
+      {
+        "label": "1",
+        "text": "Coal gasification",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Coal digestion",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Syngas gasification",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Water gasification",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q23",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Electrolysis of molten hydrolith produces",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2 gas at cathode",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2 gas at anode",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "N2 gas at cathode",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2 gas at anode",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q24",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "An element having valence shell electronic configuration 3d64s2 when reacts with hydrogen forms",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Saline hydrides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electron rich hydrides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Interstitial hydrides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "No hydrides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q25",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "How many hydrogen bonded water molecules are present in CuSO4.5H2O?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "5",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "1",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q26",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Permanent hardness of water cannot be removed by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Boiling",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Permutit method",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Caligon’s method",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Washing soda method",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q27",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In acidic medium H2O2 converts HOCl to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "HCl",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cl2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "HOCl2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q28",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Ionic hydrides on treatment with water evolve",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "O2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 180,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q29",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The reaction called coal-gasification is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C(s) + H2O(g)       K 1273  CO(g) + H2(g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO + H2O  CO2 + H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CH4 + H2O  CO + 3H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CH4 + 2H2O  CO2 + 4H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q30",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Freezing point and boiling point of heavy water w.r.t. that of water are respectively",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Higher and lower",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Lower and higher",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Higher and higher",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Lower and lower",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q31",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The hydrides which are crystalline but non-stoichiometric are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionic hydrides",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Covalent hydrides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Polymeric hydrides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Interstitial hydrides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q32",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "When Cu is reacted with hot concentrated solution of H2SO4 then the gas obtained is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "SO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q33",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following property of hydrogen does not resemble to alkali metals?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Unipositive ion",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formula of oxides",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ionization energy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Formula of sulphides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q34",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which isotope of hydrogen is radioactive?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Tritium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Deuterium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q35",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is not commercial method for preparation of H2 gas?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Metal + Alkali",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrolysis of brine",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Electrolysis of water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction of steam with coke",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q36",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is called ‘syngas’?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2 + CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "N2 + CO",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2 + NO",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "N2 + CO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q37",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which is not a saline hydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BaH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "MgH2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaH2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q38",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following will not form a hydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ti",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Cr",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "V",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q39",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "H2O2 is prepared by the electrolysis of",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "50% H2SO4",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "50% HNO3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "50% HClO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "50% H3PO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q40",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atomic hydrogen is more reactive than nascent  hydrogen",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Metal hydrides are powerful reducing agents",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Group I hydride are more reactive than group-II  hydrides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q41",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statements is incorrect about ‘Calgon’?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is sodium hexametaphosphate",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Its molecular formula is NaAlSiO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is used for the removal of permanent  hardness",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It removes cations like Mg2+, Ca2+ present in  water",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q42",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "From the reaction  2 2 H H O OH H ,       it can be concluded that",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H– is a weaker base than H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H– is a stronger acid than H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H– is strong base than H2O",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H– and H2O have same acidic strength",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q43",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In the reaction  18 2 2 3 2 2 H O O H O O     Isotopic oxygen goes with",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O only",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "O2 only",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Both H2O and O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Data insufficient",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q44",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Find the correct statement",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "The boiling point of D2O is higher than H2O",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Heavy water has lesser value of dielectric  constant than H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Strongest H-bonding is present in HF",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q45",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Hydrogen peroxide acts as oxidising agent in",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Neutral medium",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Acidic medium",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Basic medium",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 181,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q46",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "500 ml of a sample of water contains 0.5 mg of CaCl2 and 0.5 mg MgCl2. The degree of hardness of water is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1.95 ppm",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2.25 ppm",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "2.90 ppm",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "0.95 ppm",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q47",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following substance will be able to reduce hydrogen peroxide?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Cl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbS",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "KMnO4 in presence of H+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q48",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which does not cause hardness of water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Ca(HCO3)2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q49",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option regarding heavy water is correct?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 molecule of heavy water contains 10  neutrons",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is used as a moderator",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is used in tracer technique",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All are correct",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q50",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following option is incorrect?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Sodium hydroperoxide is an acidic salt",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2 can be used as an antiseptic",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrogen peroxide acts as a bleeching agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O2 possess linear structure",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q51",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Correct order is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Protium > Deuterium > Tritium (% abundance)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Protium > Deuterium > Tritium (m.p)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Protium > Deuterium > Tritium (b.p)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Protium < Deuterium < Tritium (Reactivity)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q52",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot be used for generation of H2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zn + NaOH",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Al + NaOH",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na + Mg(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "LiH + H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q53",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The radioactive isotope of hydrogen is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "1 1H",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "2 1H",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "3 1H",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q54",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The molecular weight of heavy water is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "18",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "16",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "20",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "22",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q55",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The water gas is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CO(g) + H2(g)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NO(g) + H2(g)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO2(g) + H2O(g)",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO + N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q56",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is electron rich hydride?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "C2H6",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "B2H6",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NH3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Both",
+        "diagram": null
+      },
+      {
+        "label": "1",
+        "text": "&",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q57",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following can be used for the preparation of H2O2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KO2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "BaO2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "PbO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "SnO2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q58",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following pairs of substances on reaction will not evolve H2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Iron + steam",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Sodium + ethanol",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Copper + dilute HCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Fe + H2SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q59",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "We can determine whether the colourless liquid is water or not by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Tasting",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Smelling",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Adding a pinch of anhydrous CuSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Adding small amount of NaCl",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q60",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In hydrated salts, H2O molecule may present as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Co-ordinated water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Interstitial water",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Hydrogen bonded water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q61",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Products which are mainly obtained by the reaction of zinc with aqueous alkali (NaOH)",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Na and Zn(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Na, ZnO and H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2ZnO2 and H2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2O, ZnO and H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q62",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The O – O – H bond angles in solid and gas phase of H2O2 are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "90.2° and 111.5°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "101.9° and 94.8°",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "90.2° and 94.8°",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "101.9° and 111.5°",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q63",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which one is incorrect statement for H2O2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It decomposes slowly on exposure to light",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It has a non-planar structure",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is immiscible in water",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It shows its oxidising action both in acidic and  basic medium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q64",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following is producer gas?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O + CO",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO + H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO + N2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2 + N2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 182,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q65",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following reaction is called water gas?  673K 2 2 2 FeCrO CO(g) H O(g) CO (g) H (g)   ",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "4  1270K 2 2 Ni Steam C(s) H O(g) CO(g) H (g)   ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "1073K 2 3 4 2 Steam 3Fe 4H O Fe O 4H   ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ni 4 2 2 2 1270K CH (g) H O(g) CO (g) 3H (g)   ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q66",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following carbide yield CH4 with water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BaC2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Mg2C3",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Al4C3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CaC2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q67",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following cannot be used for liberating dihydrogen from dilute hydrochloric acid?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Zinc",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Gold",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Iron",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Magnesium",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q68",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The ortho and para hydrogen are having",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Same chemical but different physical  properties",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Same physical but different chemical  properties",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Same physical and chemical properties",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Different physical and chemical properties",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q69",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "H2O2 acts as",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Oxidizing agent",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Reducing agent",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Bleaching agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q70",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In transforming 0.01 mole of PbS to PbSO4, the volume of 10 volume H2O2 required will be",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "11.2 ml",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "22.4 ml",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "33.6 ml",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "44.8 ml",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q71",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In acidic medium, which change does not occur by H2O2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "KI  I2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe2+  Fe3+",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Fe3+  Fe2+",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "PbS  PbSO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q72",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which common reagent removes permanent hardness of water?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ca(OH)2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "NaCl",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Na2CO3",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Na2SO4",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q73",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following property hydrogen resembles with halogens?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Low reactivity",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Formation of ionic compound",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "High ionization enthalpy",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Core electronic configuration",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q74",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "For which of the following properties, highest value is observed for heaviest isotope of hydrogen?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Atomic mass",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Boiling point",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Density",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q75",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "High purity dihydrogen is obtained by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Electrolysis of water",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Electrolysis of warm barium hydroxide solution",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Reaction of granulated zinc with dil. HCl",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Reaction of granulated zinc with aq. KOH",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q76",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "‘syn gas’ is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "CH4 + O2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "CO + H2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "CO + CO2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "CO2 + H2",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q77",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following hydride react with water and produces dihydrogen gas?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BeH2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "MgH2",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "NaH",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q78",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following hydrides, the law of constant composition does not hold good?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ionic hydride",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Covalent hydride",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Molecular hydrides",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Metallic hydrides",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q79",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Find the incorrect statement about water",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "In the gas phase water is a bent molecule  with a bond angle of 104.5°",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "In liquid phase one water molecule can form  four H bonds",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ice has a highly ordered two dimensional H-  bond",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Only one H-bonded water molecules are  associated in CuSO4.5H2O",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q80",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Permanent hardness of water is due to",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Soluble MgSO4 and CaCl2",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Insoluble MgCl2 and CaSO4",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Soluble MgHCO3 and insoluble CaSO4",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Soluble MgHCO3 and CaCO3",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q81",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In laboratory D2O2 can be prepared by",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "BaO2.8H2O (s) + D2SO4 (aq) ",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "K2S2O8 + 2D2O  ",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H+ + OH– ",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Electrolysis of H2O ",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q82",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect statement about H2O2",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O2 is a non-planar molecule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "H2O2 is a non-polar molecule",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O2 acts as an oxidizing agent and reducing  agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "H2O2 is a diprotic acid",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 183,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q83",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "The allotropes of hydrogen are",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Ortho and meta",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Ortho and para",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Para and meta",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Hydrogen does not show allotropy",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q84",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "In which of the following reactions, H2O2 acts as reducing agent?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn2 + H2O2  Mn4 + 2OH(–)",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "PbS(s) + 4H2O2(aq) PbSO4(s) + 4H2O(l)",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "HOCl + H2O2 H3O + Cl(–) + O2",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "2Fe2(aq) + 2H(aq) + H2O2(aq)   Fe3 + 2H2O(l)",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q85",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which one of the following statements is incorrect about H2O2?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "It is used a hair bleach and as a mild  disinfectant.",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "It is sold in the market as PERHYDROL.",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "It is used in pollution control treatment of  domestic and industrial effluents.",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "It is highly explosive when mixed with water.",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q86",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Incorrect statement about H2O2 is",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "H2O2 is a non-planar molecule",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Dielectric constant of H2O2 is more than H2O",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "H2O2 is used as a mild bleaching agent",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "All of these",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secA_q87",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section A (Objective)",
+    "question_text": "Which of the following gives H2 when reacts with dil. HNO3?",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "Mn",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "Fe",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "Ni",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "Zn  \u0002\u0003 \u0002\u0003 \u0002",
+        "diagram": null
+      }
+    ],
+    "correct_option": "1",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q1",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Calcium oxide is basic while H2O2 is acidic.\nReason (R): H2O2 acts as oxidising as well as reducing  agent.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q2",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): H2O2 reduces Cl2 to HCl.\nReason (R): H2O2 is also called anti-chlor.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q3",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Boiling point of hydrogen peroxide is higher  than water.\nReason (R): Hydrogen peroxide has open book like  structure while H2O is angular.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q4",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): The rate of diffusion of D2 is greater than H2.\nReason (R): Rate of diffusion is directly proportional to  square root of molecular weight.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q5",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): D2O is called heavy water.\nReason (R): Its degree of dissociation is very high.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q6",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): Hydrogen peroxide forms only one series of  salts called peroxides.\nReason (R): H2O2 molecule has only one replaceable  hydrogen atom.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "4",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q7",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): At room temperature, ordinary dihydrogen  contains 75% of ortho hydrogen and 25% of para hydrogen.\nReason (R): Thermal conductivity of para hydrogen is 50%  greater than that of ortho hydrogen.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "2",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  },
+  {
+    "question_id": "chem_18_hydrogen_secB_q8",
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "section": "Section B (Assertion-Reason)",
+    "question_text": "Assertion (A): H2O2 is polar molecule.\nReason (R): Hybrid state of oxygen in H2O2 is sp.",
+    "question_diagram": null,
+    "options": [
+      {
+        "label": "1",
+        "text": "If both Assertion & Reason are true and the reason is the correct explanation of the assertion, then mark (1).",
+        "diagram": null
+      },
+      {
+        "label": "2",
+        "text": "If both Assertion & Reason are true but the reason is not the correct explanation of the assertion, then mark (2).",
+        "diagram": null
+      },
+      {
+        "label": "3",
+        "text": "If Assertion is true statement but Reason is false, then mark (3).",
+        "diagram": null
+      },
+      {
+        "label": "4",
+        "text": "If both Assertion and Reason are false statements, then mark (4).",
+        "diagram": null
+      }
+    ],
+    "correct_option": "3",
+    "solution_text": null,
+    "solution_diagram": null,
+    "source_page": 184,
+    "source_book": "Last Leap for NEET Part-II"
+  }
+]
